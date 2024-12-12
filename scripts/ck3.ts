@@ -46,16 +46,17 @@ async function processByMod (mod: string) {
         .replace(localizationDir, join(modDir, 'mod/localization'))
         .replaceAll(meta.upstream.language as string, 'korean')
 
-      let translatedLines: Record<string, string | null> = {}
+      // 번역 파일 로드
+      let translatedLines: Record<string, string | null>
       if (await exists(distFile)) {
         translatedLines = await parseLines(distFile)
       } else {
         translatedLines = {}
       }
 
+      // 업스트림 파일 로드
       const upstreamLines = await parseLines(localizationFile)
       for (const key of Object.keys(upstreamLines)) {
-
         // 언어 정의 키는 건너뜀
         if (key.includes(`l_${meta.upstream.language}`)) {
           continue
@@ -69,11 +70,13 @@ async function processByMod (mod: string) {
         }
       }
 
+      // 형식에 맞춰 구조화
       const translations = Object.entries(translatedLines)
-        .map(([key, value]) => `\t${key}: ${value ? `"${value}"` : '""'}`)
+        .map(([key, value]) => `\t${key.startsWith('#') ? key : `${key}:`} ${value === null ? '' : `"${value}"`}`)
         .join('\n')
       log.verbose(`[CK3/${mod}] Translations: \n${translations}`)
 
+      // 번역 파일  저장부분
       log.info(`[CK3/${mod}] Write to ${distFile}`)
       await mkdir(dirname(distFile), { recursive: true })
       await writeFile(distFile, `${UTF8_BOM}l_korean:\n${translations}`, { encoding: 'utf-8' })
@@ -111,6 +114,6 @@ function parseLine (line: string) {
       separatedLine[4].replace(/^"(.+)?"$/, '$1'),
     ]
   } else {
-    return [line.trimEnd(), null]
+    return [line.trim(), null]
   }
 }
