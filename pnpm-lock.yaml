@@ -8,12 +8,18 @@ importers:
 
   .:
     devDependencies:
+      '@google/generative-ai':
+        specifier: 0.21.0
+        version: 0.21.0
       '@types/node':
         specifier: 22.10.2
         version: 22.10.2
       consola:
         specifier: 3.2.3
         version: 3.2.3
+      dotenv:
+        specifier: 16.4.7
+        version: 16.4.7
       jiti:
         specifier: 2.4.1
         version: 2.4.1
@@ -32,12 +38,20 @@ importers:
 
 packages:
 
+  '@google/generative-ai@0.21.0':
+    resolution: {integrity: sha512-7XhUbtnlkSEZK15kN3t+tzIMxsbKm/dSkKBFalj+20NvPKe1kBY7mR2P7vuijEn+f06z5+A8bVGKO0v39cr6Wg==}
+    engines: {node: '>=18.0.0'}
+
   '@types/node@22.10.2':
     resolution: {integrity: sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==}
 
   consola@3.2.3:
     resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
+
+  dotenv@16.4.7:
+    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
+    engines: {node: '>=12'}
 
   fdir@6.4.2:
     resolution: {integrity: sha512-KnhMXsKSPZlAhp7+IjUkRZKPb4fUyccpDrdFXbi4QL1qkmFh9kVY09Yox+n4MaOb3lHZ1Tv829C3oaaXoMYPDQ==}
@@ -75,11 +89,15 @@ packages:
 
 snapshots:
 
+  '@google/generative-ai@0.21.0': {}
+
   '@types/node@22.10.2':
     dependencies:
       undici-types: 6.20.0
 
   consola@3.2.3: {}
+
+  dotenv@16.4.7: {}
 
   fdir@6.4.2(picomatch@4.0.2):
     optionalDependencies:
