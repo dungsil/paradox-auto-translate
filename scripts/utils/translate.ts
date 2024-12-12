@@ -13,7 +13,7 @@ export async function translate (text: string | null, mode: Mode): Promise<strin
     return ''
   }
 
-  if (dictionaries.includes(text)) {
+  if (Object.keys(dictionaries).includes(text)) {
     return dictionaries[text]
   }
 }
