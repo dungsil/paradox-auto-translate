@@ -1,7 +1,7 @@
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join, resolve } from 'pathe'
 import { glob } from 'tinyglobby'
-import { exists, loadMeta, log, type Meta, ROOT_DIR, UTF8_BOM } from './utils'
+import { exists, loadMeta, log, type Meta, ROOT_DIR, translate, UTF8_BOM } from './utils'
 
 // 기본 디렉토리 지정
 const baseDir = join(ROOT_DIR, 'ck3')
@@ -66,7 +66,7 @@ async function processByMod (mod: string) {
           // 이미 번역된 키가 있음
         } else {
           log.verbose(`[CK3/${mod}] New key: ${key}`)
-          translatedLines[key] = upstreamLines[key] // TODO: 번역기능 추가
+          translatedLines[key] = await translate(upstreamLines[key], 'ck3')
         }
       }
 
