@@ -17,7 +17,8 @@ jobs:
           submodules: true
       - name: 서브모듈 경로 파싱
         run: |
-          submodule_paths=$(awk -F ' = ' '/path/ {print $2}' .gitmodules)
+          submodule_paths=$(awk -F ' = ' '/path/ {printf $2","}' .gitmodules)
+          submodule_paths=${submodule_paths%,}  # 마지막 쉼표 제거
           echo "submodule_paths=$submodule_paths" >> $GITHUB_ENV
       - name: 저장소 정보 업데이트
         run: |
@@ -25,19 +26,22 @@ jobs:
           git submodule update --remote
       - name: 서브모듈 태그 업데이트
         run: |
-          for path in ${{ env.submodule_paths }}; do
+          IFS=',' read -ra ADDR <<< "${{ env.submodule_paths }}"
+          for path in "${ADDR[@]}"; do
             cd $path
             git fetch --tags
             cd -
           done
       - name: 마지막 태그로 체크아웃한다
         run: |
-          for path in ${{ env.submodule_paths }}; do
+          IFS=',' read -ra ADDR <<< "${{ env.submodule_paths }}"
+          for path in "${ADDR[@]}"; do
             cd $path
             latest_tag=$(git describe --tags `git rev-list --tags --max-count=1`)
             git checkout $latest_tag
             cd -
           done
+
       - name: 변경사항 업데이트
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
