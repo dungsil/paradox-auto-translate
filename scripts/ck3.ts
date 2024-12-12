@@ -91,7 +91,7 @@ async function parseLines (filePath: string) {
   const parsedLine: Record<string, string | null> = {}
   for (const line of lines) {
     const [key, value] = parseLine(line)
-    if (!key) {
+    if (!key || (key.startsWith('l_') && key.endsWith(':') && value === null)) {
       continue
     }
 
