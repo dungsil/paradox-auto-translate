@@ -1,20 +1,17 @@
 import { pRateLimit } from 'p-ratelimit'
-import { log, model, PROMPT } from '.'
-
-export type Mode = 'ck3' | 'vic3' | 'stellaris'
+import { log, model, PROMPT, sleep } from '.'
 
 const limiter = pRateLimit({
   interval: 60000,
-  rate: 10,
-  concurrency: 1,
-  maxDelay: 60000,
+  rate: 15,
+  concurrency: 2,
 })
 
 const dictionaries: Record<string, string> = {
   xxxxx: 'xxxxx', // RICE, VIET 에서 사용하는 플레이스 홀더로 API 요청 되지 않도록 사전에 추가
 }
 
-export async function translate (text: string | null, mode: Mode): Promise<string | null> {
+export async function translate (text: string | null): Promise<string | null> {
   if (text === null) {
     return null
   }
@@ -34,12 +31,15 @@ export async function translate (text: string | null, mode: Mode): Promise<strin
   }
 
   try {
-    log.debug(`Translating: ${text}`)
-
     const { response } = await limiter(async () => await model.generateContent([PROMPT, text]))
-    return response.text()
+    const translated = response.text()
+    log.debug(`Translation: "${text}" -> "${translated}"`)
+
+    return translated
   } catch (e) {
-    log.error(`Translation failed: ${text}`, e)
-    return text
+    log.error(`Translation failed: "${text}"`, e)
+
+    await sleep(60000) // 1분 대기 후 재시도
+    return translate(text)
   }
 }
