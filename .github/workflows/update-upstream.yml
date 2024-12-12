@@ -41,7 +41,6 @@ jobs:
             git checkout $latest_tag
             cd -
           done
-
       - name: 변경사항 업데이트
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

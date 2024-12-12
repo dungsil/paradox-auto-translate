@@ -6,4 +6,28 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    devDependencies:
+      jiti:
+        specifier: 2.4.1
+        version: 2.4.1
+      typescript:
+        specifier: 5.7.2
+        version: 5.7.2
+
+packages:
+
+  jiti@2.4.1:
+    resolution: {integrity: sha512-yPBThwecp1wS9DmoA4x4KR2h3QoslacnDR8ypuFM962kI4/456Iy1oHx2RAgh4jfZNdn0bctsdadceiBUgpU1g==}
+    hasBin: true
+
+  typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+snapshots:
+
+  jiti@2.4.1: {}
+
+  typescript@5.7.2: {}
