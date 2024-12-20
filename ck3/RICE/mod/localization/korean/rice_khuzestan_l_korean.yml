@@ -1,0 +1,531 @@
+﻿l_korean:
+	# Misc 
+	dynn_al_baridi: "알바리디" # b1ead4b3a7b080eaaa970d60fea09019b27cc768
+	dynn_bankirid: "방키리드" # c55e7d457a380ed4378ff0f638017159d4a1ee9f
+	dynn_bursurqid: "부르수르키드" # a38945e71f2974cdafe3a344f672218558b25ef3
+	k_khuzestan: "쿠제스탄" # fceec5d916e268a4334537465ca59376f0743208
+	k_khuzestan_adj: "후제스탄" # cd71e3926260aa8ddf86cba894b0f8809ca58b5b
+	Abu_Yusuf: "아부 유수프" # 14a3af0105d48d30a54e90d2f460daa6c4ec70b0
+	Abu_Husayn: "아부 알 후세인" # 03b2a3e3d42be7e3c5ccf4f39e98e7c8610fc913
+	Abu_Hasan: "아부 알-하산" # e7521eb5802fdffc3654813e7d5d4d72599ad3c5
+	Bankir: "은행가" # b5e9d2b437a4ec8be235c611adadde6e08205c65
+	Bursuq: "부르수크" # 5336d162719c31cdad465c1d4a2ac976644ac525
+	Ilbegi: "일베기" # 58e7e40a64716bec1cb05a58888d70dfb25f19a1
+	# Zangi "잔지" # c94a2a43d030b912a2d444bca9cbddcd55729621
+	Aq_Buri: "악부리" # aeda8cd7bbe5f0bb165b062f11318e9ce7cd195f
+	dynn_fakhrid: "파크리드" # 41c1a4785eb7e40b08cbf1266015dbc724fab6ae
+	Safiya_Khatun: "사피야 카툰" # b9668f7e349f15adc811078673b552396f5775b9
+	innovation_RICE_khuzi: "천민" # dd189f0f85a3508c478131ecaa459e160c727c25
+	innovation_RICE_khuzi_desc: "$tradition_RICE_khuzi_desc$" # null
+	RICE_khuzestan_geographical_req: "[county|E]을(를) [GetTitleByKey('d_khuzestan').GetNameNoTier]에서 소유하고 있습니다" # 6a5d6d161e6ce977cce6191865775f6d26a89d78
+	RICE_tomb_of_daniel_pilgrimage_distance_req: "당신의 [capital|E]은 [GetTitleByKey('c_tustar').GetNameNoTier]에 가깝고, $RICE_khuzestan_rebury_daniel$에 대한 [decision|E]이 내려졌습니다" # b92bd79d72db7000e932d55a97f855e828072e6f
+	judaism_religion_opinion: "유대인의 의견" # 0798c3c10bbd18c4444ca96578901062edaa0d1f
+	RICE_khuzestan_region: "$d_khuzestan$" # null
+	RICE_every_county_khuzestan: "[GetTitleByKey('d_khuzestan').GetNameNoTier]의 모든 [county|E]" # cac9fb576274c5d8626e2056b873cf2e949851eb
+	# Legends 
+	RICE_khuzestan_legend_new_title_name: "쿠지 르네상스" # 84639fe91c366bb7cedc914eb9c9cbccf6a3f6f7
+	RICE_khuzestan_legend_new_title_desc: "한때 자신보다 나은 자들의 하찮은 하인으로 폄하되었던 [culture.GetCollectiveNoun]은 [founder.GetName] 덕분에 자신감을 되찾고 강력한 왕국을 세웠습니다." # 23b5305f25ad717665531c8574cb6ab261e3f1c4
+	RICE_khuzestan_legend_chapter_opening_new_title: "[ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip]는 한때 하찮은 존재로 여겨져, 오직 그들보다 상위 계층의 하인으로만 취급받았습니다. [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]의 노력이 [ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip]를 [ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip]의 주인으로서 그들의 운명을 이루게 하기까지는 시간이 필요했습니다." # ddda0143ab2d90caeaee0f029620aaf78ced1ad1
+	RICE_khuzestan_legend_chapter_motivation_new_title: "자신들의 공동체에서 온 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은 [ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip]의 고통과 슬픔을 진실로 이해했습니다. [ROOT.Legend.GetProtagonist.GetHerHis]의 마음속 깊은 곳에서, [ROOT.Legend.GetProtagonist.GetSheHe]는 오래전의 저명한 조상들이 그랬던 것처럼 훨씬 많은 것을 이룰 수 있다는 것을 알았습니다." # cc9667253520fd61fb2ba602b1d9049451a60046
+	RICE_khuzestan_legend_chapter_famous_deed_new_title: "헌신적인 마음과 굳건한 정신, 그리고 [ROOT.Legend.GetProtagonist.GetFaith.HighGodName]의 축복 속에 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은 [ROOT.Legend.GetProperty( 'culture' ).Culture.GetNameNoTooltip] 공동체를 일으켜 세우려 노력했습니다. 악당 산적과 잔인한 짐승을 죽이는 영웅적인 행동과 이 지역에 흩어져 있는 소규모 군벌들을 감탄하게 할 만한 재치와 교활한 책략을 통해 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은 결국 [ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip]의 통치자로 선포되었습니다." # de25ad77fea0a572f8b96a9341938f46a30d0f0e
+	RICE_khuzestan_legend_chapter_extra_deed_new_title: "일부 사람들은 여전히 고유한 편견을 가지고 있었고, [ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip]와 그들의 새로운 통치자를 비웃었습니다. 어떤 사람이 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]에게 [ROOT.Legend.GetProtagonist.GetSheHe]가 단지 골목에서 왕관을 집어 들었다고 말했다는 이야기가 있습니다. 이에 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]는 "내 왕관은 골목에서 주워 왔고, [ROOT.Legend.GetProtagonist.GetFaith.HighGodName]께서 내 머리에 얹어 주셨다."고 응답했습니다." # 0b242139bcf5a167f9a6860063fe5f41b3000e4b
+	RICE_khuzestan_legend_chapter_conclusion_new_title: "[ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip]의 영토는 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]가 다스린 덕분에 대대로 번성할 것입니다. [ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip]와 그들의 후손에게 무슨 일이 일어나든, 그들은 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]를 어둠에서 빛으로 그들을 인도한 자로 영원히 기억할 것입니다." # 4fa32a82bcbb14d1a477ad936fe0c5307d33d5ef
+	# Game Concepts 
+	game_concept_daniels_tomb: "다니엘의 무덤" # 6b3870feb43805a3cadaa4c370b272d5a895b88e
+	game_concept_pilgrimage_to_daniels_tomb: "다니엘의 무덤 순례" # da833b4ec0d023a5d0caf14d17dd72ac883c300b
+	game_concept_pilgrimage_to_the_tomb_of_daniel: "다니엘의 무덤으로의 순례" # 987a7dbca7924ab4d73081185fe6d7db323f5808
+	game_concept_tomb_of_daniel: "다니엘의 무덤" # a3b5190e688ca00a7d9e5ea71e90827d590776fe
+	game_concept_tomb_of_daniel_desc: "성서 인물 다니엘의 무덤이 있다고 주장하는 여러 곳이 있습니다. 게임 내 $c_tustar$ 현의 [county|E]에 위치한 슈슈 마을이 가장 강력한 주장을 하는 것으로 전통적으로 여겨집니다.\n\n따라서 $c_tustar$ 근처의 유대교, 기독교, 이슬람교 계열 캐릭터는 [GetActivityType( 'activity_RICE_khuzestan_tomb_of_daniel_pilgrimage' ).GetName]에 참여할 수 있습니다. 일반적인 [local_pilgrimage|E] 보너스 외에도, 순례자들은 유익한 [character_modifier|E], [GetModifier('RICE_khuzestan_daniel_pilgrimage_done').GetNameWithTooltip]을 얻을 수 있습니다.\n\n$c_tustar$의 [ruler|E]는 $RICE_khuzestan_rebury_daniel$을 위한 [decision|E]에 접근할 수도 있습니다. 이 [decision|E]를 선택하면 순례가 제공하는 [piety|E] 보너스가 증가하고, 이를 참여할 수 있는 지리적 범위가 넓어집니다." # 1014523662fd888a801cc442d80f0ce82682ea75
+	game_concept_khila_ceremony: "킬라 의식" # db39b8934be62c9b170eb22cd5ca719fe553954d
+	game_concept_khila: "킬라" # a1e6e0d4cebaae917cf740bb933e4f47d5541fed
+	game_concept_tiraz: "티라즈" # def1f539f5e88d49158c9f1f4de86178d6d86ac3
+	game_concept_tiraz_desc: "티라즈는 정치적, 문화적 중요성으로 인해 이슬람 사회에서 소중히 여겨지는 자수 직물 스타일입니다.\n\n이슬람 [rulers|E]는 다른 무슬림들에게 $RICE_khuzestan_gift_tiraz_robes$를 [character_interaction|E]할 수 있으며, 이는 양측에 다양한 보너스를 제공합니다. 이 [interaction|E]의 변형은 초기에는 칼리파(즉, 이슬람 [heads_of_faith|E]), [emperors|E] 및 [kings|E]만 사용할 수 있다는 것입니다. [duke|E]는 문화가 초기 중세 [era|E]에 있을 때 사용할 수 있으며, [counts|E]는 후기 중세 [era|E]에 사용할 수 있습니다.\n\n$building_type_RICE_tiraz_factories_01$을 소유하면 이 [interaction|E]의 비용을 줄이는 데 도움이 될 수 있습니다." # 92f958125cf69ff771600d2477ecf306159b8bea
+	# Memories 
+	RICE_mandaean_parwanaya_host_memory: "[GetActivityType( 'activity_RICE_mandaean_parwanaya' ).GetName]에 참여했습니다." # 87b382e9572b72e4d71087230d4d8c6c40d4d447
+	RICE_mandaean_parwanaya_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_mandaean_parwanaya' ).GetName]에 참여했습니다" # fd5de414b2d59dce5edbf523791dda5ac7865547
+	RICE_mandaean_parwanaya_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_mandaean_parwanaya' ).GetName]에 참여했습니다" # 6cfc313410d6e80876a48e2d4b5ff98d6edf2717
+	RICE_mandaean_parwanaya_host_memory_third_perspective: "[owner.GetName]이 [GetActivityType(  'activity_RICE_mandaean_parwanaya' ).GetName]에 참여했습니다." # c1af7cf4b2ef655d3fcc3bb197ef5b49b0718e4d
+	RICE_mandaean_parwanaya_guest_memory: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_mandaean_parwanaya' ).GetName]에 참여했습니다." # e74b70f247039d305069ab06a936118a37192670
+	RICE_mandaean_parwanaya_guest_memory_first_perspective: "[host.GetTitledFirstName] 님과 함께 [GetActivityType( 'activity_RICE_mandaean_parwanaya' ).GetName]에 참여했습니다." # bd18115250562f7bc6a60380bc840fa157018c94
+	RICE_mandaean_parwanaya_guest_memory_second_perspective: "[host.GetTitledFirstName] 님과 함께 [GetActivityType( 'activity_RICE_mandaean_parwanaya' ).GetName]에 참여했습니다" # 95c85466763e6628f3a436b03009a0ccd4aebeb6
+	RICE_mandaean_parwanaya_guest_memory_third_perspective: "[owner.GetName] 님이 [host.GetTitledFirstName] 님과 함께 [GetActivityType(  'activity_RICE_mandaean_parwanaya' ).GetName]에 참여했습니다" # 3bd795cafce144201d7ad1b4ba7ba744c2ff6cf0
+	RICE_khuzestan_tomb_of_daniel_pilgrimage_host_memory: "[GetActivityType( 'activity_RICE_khuzestan_tomb_of_daniel_pilgrimage' ).GetName] 순례를 떠났습니다" # 4a0280092db778e91d67efdc936504f14e36fc26
+	RICE_khuzestan_tomb_of_daniel_pilgrimage_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_khuzestan_tomb_of_daniel_pilgrimage' ).GetName]을(를) 떠났습니다" # 577da8e81de6281e2b9097b6a3c70d8c1cf0695d
+	RICE_khuzestan_tomb_of_daniel_pilgrimage_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_khuzestan_tomb_of_daniel_pilgrimage' ).GetName]에 참여했습니다." # 4a04105e1f653b68ed6b4abdd1b38bb1aecb22cf
+	RICE_khuzestan_tomb_of_daniel_pilgrimage_host_memory_third_perspective: "[owner.GetName]이 [GetActivityType( 'activity_RICE_khuzestan_tomb_of_daniel_pilgrimage' ).GetName]를 떠났습니다." # 3c0d8fb6a5fbdaffd2a6996c19cdbefdfde40282
+	RICE_khuzestan_tomb_of_daniel_pilgrimage_guest_memory: "[host.GetTitledFirstName](으)와 함께 [GetActivityType( 'activity_RICE_khuzestan_tomb_of_daniel_pilgrimage' ).GetName]에 다녀왔습니다" # 6c0e69832f6a2cf65f075159dfce6e1e20d39b6b
+	RICE_khuzestan_tomb_of_daniel_pilgrimage_guest_memory_first_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_khuzestan_tomb_of_daniel_pilgrimage' ).GetName]에 갔습니다" # e347b2370cc34ee0d22d55fc6485e227abb2e6e4
+	RICE_khuzestan_tomb_of_daniel_pilgrimage_guest_memory_second_perspective: "[host.GetTitledFirstName]님과 함께 [GetActivityType( 'activity_RICE_khuzestan_tomb_of_daniel_pilgrimage' ).GetName]에 다녀왔습니다." # 707ab78ebbaaedf98ca4e636667f3b99555249e3
+	RICE_khuzestan_tomb_of_daniel_pilgrimage_guest_memory_third_perspective: "[owner.GetName]이(가) [host.GetTitledFirstName]와(과) 함께 [GetActivityType('activity_RICE_khuzestan_tomb_of_daniel_pilgrimage').GetName]을(를) 떠났습니다" # 2eec8a5587690af24441e8b866f5bc54f640564b
+	# Activities 
+	activity_khuzestan_tomb_of_daniel_pilgrimage: "슈슈에 있는 다니엘의 무덤으로의 순례" # 976cda43534c4dae0dab5aa2d2463bd37d9d7aa2
+	activity_khuzestan_tomb_of_daniel_pilgrimage_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 슈쉬에 있는 다니엘의 무덤으로의 순례" # 0ef4cf63c8b1b9303dde1362e1e3067965682d78
+	activity_dualist_baptism: "영지주의 세례 의식" # 920b889c25ad87181d0f44d3750ba52c9a22a3bc
+	activity_dualist_baptism_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 영지주의 세례 의식" # b710e68b886d1b193f71809689bca5c8e6bebb7d
+	activity_mandaean_parwanaya: "파르와나야 축제" # a8634e97e4146410ddc30db3e646a316a4d3981a
+	activity_mandaean_parwanaya_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 파르와나야 축제" # daa2e0c049b31a07899fdcc54ed5c7e7a66a8239
+	activity_RICE_mandaean_parwanaya_host_an_a: "$host_activity_a$" # null
+	activity_RICE_mandaean_parwanaya: "파르와나야 축제" # a8634e97e4146410ddc30db3e646a316a4d3981a
+	activity_RICE_mandaean_parwanaya_desc: "많은 만다야인들에게 #italic 파르와나야#! (또는 #italic 판자#!)는 한 해 중 가장 중요한 행사 중 하나입니다. 이 날은 $mandeaism_high_god_name$께서 천사들과 우주를 창조하신 것을 기념하는 날입니다." # b5fbe4ceba1df30aa8368a3a85614c3f06a1da79
+	activity_RICE_mandaean_parwanaya_selection_tooltip: "파르와나야 축제에 참여합니다.\n\n$RICE_khuzestan_parwanaya_festival_context_tooltip$" # ec4c933110acd07df50ebc849ba605deb1b891ff
+	activity_RICE_mandaean_parwanaya_host_desc: "$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$ [GetModifier('RICE_khuzestan_celebrated_parwanaya').GetNameWithTooltip] [character_modifier|E]" # d8561fd1f7aa468eb78f5ae33a08644634bcdc55
+	activity_RICE_mandaean_parwanaya_guest_desc: "$BULLET_WITH_TAB$[명성_i|E][명성|E]\n$BULLET_WITH_TAB$[신앙심_i|E][신앙심|E]" # c94e18ce336869b977b22b78ba50c21f8abe8214
+	activity_RICE_mandaean_parwanaya_province_desc: 
+	activity_RICE_mandaean_parwanaya_destination_selection: "$activity_RICE_mandaean_parwanaya_province_desc$" # null
+	activity_RICE_mandaean_parwanaya_guest_help_text: "$activity_RICE_mandaean_parwanaya$" # null
+	activity_RICE_mandaean_parwanaya_predicted_cost: "이 방문 비용은 주로 당신의 [income|E]에 따라 결정됩니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
+	activity_RICE_mandaean_parwanaya_conclusion_desc: "올해의 [GetActivityType( 'activity_RICE_mandaean_parwanaya' ).GetName]가 끝나고, 그렇게 함으로써 우리는 $mandeaism_high_god_name$과 세상의 창조를 기념했습니다." # 566a85af044c913b70457fede6451d1bdefc0d8d
+	RICE_mandaean_parwanaya_commemoration_phase: "기념" # 2e2d035e13552933505894dcfa689625c68f43eb
+	RICE_mandaean_parwanaya_commemoration_phase_desc: "파르와나야는 세상의 창조를 기억하는 시간입니다." # dfe4ee7e401b4b1135738ac923c747e61a56992d
+	RICE_mandaean_parwanaya_devotion_intent_header: "신앙심:" # c21c200f14b4cea7e8511d66370c0c3aaf3cd3e9
+	RICE_mandaean_parwanaya_devotion_intent: "헌신" # 03b7938fd4e0050b68b19bed030fe79292c55d6a
+	RICE_mandaean_parwanaya_devotion_intent_desc: "파르와나야 기간 동안 모든 이들에게 당신의 신심을 보여주고 싶어합니다." # b72f5e2f4a7a3fbc8a8a67ce188a105125bd553c
+	RICE_mandaean_parwanaya_completed_log_title: "파르와나야 축제 참여 완료" # 0becf7c89429a0471fd04ef61ec1ceea780aaad2
+	RICE_mandaean_parwanaya_completed_log: "[CHARACTER.GetShortUIName|U]이 파르와나야 축제 참가를 마쳤습니다" # 0bf155a2d3fc2ea48b538a5b1bdfbfd4ec8047f4
+	TRAVEL_NAME_FOR_activity_RICE_mandaean_parwanaya: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_mandaean_parwanaya$" # e74f9a8cc9856b512d231589c7bf9a33030a7e0f
+	activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_host_an_a: "$host_activity_a$" # null
+	activity_RICE_khuzestan_tomb_of_daniel_pilgrimage: "다니엘의 무덤으로의 순례" # 987a7dbca7924ab4d73081185fe6d7db323f5808
+	activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_desc: "다니엘은 아브라함 계통의 [faiths|E] 신앙을 따르는 사람들에게 중요한 종교적 인물입니다. [daniels_tomb|E]는 수스에 있다고 알려져 있으며, 이 지역의 많은 사람들이 그에게 경의를 표하기 위해 그곳을 방문합니다." # f6d2f6ea3bf488e4bb83d7a7067edb50d35957b8
+	activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_selection_tooltip: "[GetTitleByKey('b_tustar').GetNameNoTier] 근처 Šuš에 있는 [tomb_of_daniel|E]로 [local_pilgrimage|E]를 떠납니다.\n\n$RICE_khuzestan_tomb_of_daniel_decision_context_tooltip$" # 5a538a0e508addaba7191392d4aa51a98cf76453
+	activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ [GetModifier('RICE_khuzestan_daniel_pilgrimage_done').GetNameWithTooltip] [character_modifier|E]" # 6ffafb4cbb5123133c72e8aa8a022518d6e24f2c
+	activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_guest_desc: "$activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_host_desc$" # null
+	activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_province_desc: "다니엘의 무덤은 여기에, 슈슈에 있습니다." # c5a57f81f40aa2c60967fee9c158a978309889e5
+	activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_destination_selection: "$activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_province_desc$" # null
+	activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_guest_help_text: "$activity_RICE_khuzestan_tomb_of_daniel_pilgrimage$" # null
+	activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_predicted_cost: "다니엘의 무덤으로의 [local_pilgrimage|E] 순례 비용은 선택한 [activity_options|E]에 따라 달라집니다." # d4b7aed6a7bc5767c89845a9ab3cd723b1873a7b
+	activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_khuzestan_tomb_of_daniel_pilgrimage' ).GetName]가 끝났습니다. 위대한 다니엘에게 경의를 표할 기회가 있어서 다행입니다." # 6320b02cc563e4cd0e63a96add37db2c798266f0
+	RICE_khuzestan_tomb_of_daniel_pilgrimage_completed_log_title: "다니엘의 무덤 순례 완료" # 14977ca912bdbf320b20d3b96f97d6e631003bf8
+	RICE_khuzestan_tomb_of_daniel_pilgrimage_completed_log: "[CHARACTER.GetShortUIName|U](이)가 다니엘의 무덤으로 [CHARACTER.GetHerHis] [local_pilgrimage|E]을 완료했습니다." # 5374b39a61c10ab150e6f5aa2c6bf396c4472bc1
+	TRAVEL_NAME_FOR_activity_RICE_khuzestan_tomb_of_daniel_pilgrimage: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_khuzestan_tomb_of_daniel_pilgrimage$" # aaeee9bb8e4cb67c538d1378bf4730815a52348e
+	activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_owner: "순례자" # fa90e82f429f333a1ff48c9130132abed1504929
+	# Interactions 
+	RICE_khuzestan_gift_tiraz_robes: "티라즈를 제시합니다." # 26dba71d8c6e3a5c5ebe07b300fdb941b48d570f
+	RICE_khuzestan_gift_tiraz_robes_desc: "[수령인.GetShortUINamePossessiveNoTooltip]에게 [킬라_의식|E]에서 [티라즈|E]를 증정합니다." # c81a608df3b8d3505cbe5dfb8b46910d630d89d1
+	RICE_khuzestan_gift_tiraz_robes_tooltip: "이 [상호작용|E]의 비용과 당신과 [recipient.GetFirstNameNoTooltip]이 얻는 [명성|E](과 [신앙심|E])은 여러분 두 사람의 [계급|E]과 당신이 [recipient.GetHerHis] [신앙의 수장|E]인지 여부에 따라 달라집니다." # d5dd39d6c8fe6166f2752a3324181ce45db1e533
+	# Buildings 
+	building_type_RICE_khuzestan_shushtar_hydraulic_system: "슈슈타르 수력 체계" # 96b634e4ecba68b5f48b95bb4c5c4839c6c36c98
+	building_type_RICE_khuzestan_shushtar_hydraulic_system_desc: "슈슈타르(또는 투스타르)시는 세계에서 가장 광범위한 관개 시스템 중 하나로서 함께 작동하는 복잡한 댐, 운하, 다리 및 물레방아 네트워크로 둘러싸여 있으며, 슈슈타르 주변의 넓은 지역에서 농업을 가능하게 하고 지역에 많은 번영을 가져다줍니다. 이 시스템은 고대 이란인들이 수세기에 걸쳐 건설했으며, 현재도 지역 통치자들이 관리하고 있습니다." # 64ac3ffba75385e56180947aab97c7db7d011b24
+	building_RICE_khuzestan_shushtar_hydraulic_system: "$building_type_RICE_khuzestan_shushtar_hydraulic_system$" # null
+	building_RICE_khuzestan_shushtar_hydraulic_system_desc: "$building_type_RICE_khuzestan_shushtar_hydraulic_system_desc$" # null
+	building_type_RICE_tiraz_factories_01: "티라즈 생산 센터" # 70b23232147708f77497ff1b326c5dfe33be9727
+	building_type_RICE_tiraz_factories_01_desc: "[tiraz|E]는 정치적, 문화적 중요성으로 인해 이슬람 사회에서 소중히 여겨지는 자수 직물 스타일입니다. 정부 소유든 개인 소유든, [tiraz|E]를 생산하는 시설은 지역 경제에 중요합니다." # a7db7efb6bbb8853a387cb649a8a64ca246720a2
+	building_RICE_tiraz_factories_01: "티라즈 직조공" # 00bba24e857a7be957b9019a2dc0b9d4cb6cb868
+	building_RICE_tiraz_factories_01_desc: "이 지역의 통치 당국은 값비싸고 명망 있는 [tiraz|E] 직물을 생산하기 위해 많은 지역 장인을 고용합니다.\n\n#EMP 이 [building|E]은 이 [county|E]의 [ruler|E]와 그들의 [lieges|E]에 대해 [tiraz|E]를 바치는 [interaction|E] 비용을 #P -10%#! 줄여줍니다(이 보너스는 중첩되지 않습니다)#!" # 941ac7b4d1e7a3f1b7466aa2a40c21286a506510
+	building_RICE_tiraz_factories_02: "티라즈 작업장" # 75385cd70bfaac71712b6a1232eecdac5ab54990
+	building_RICE_tiraz_factories_02_desc: "이 지역에서 섬유 산업이 성장함에 따라 당국은 기존의 [tiraz|E] 공장을 확장하여 더 많은 직원을 고용하고 생산 수준을 높였습니다.\n\n#EMP 이 [building|E]은 이 [county|E]의 [ruler|E]와 그들의 [lieges|E]에 대해 [tiraz|E]을 선물하는 [interaction|E]의 비용을 #P -30%#! 줄입니다(이 보너스는 중첩되지 않음)#!" # 1d0c1ee989cb7119cb2d4d71c25d7de5df2f1e58
+	building_RICE_tiraz_factories_03: "티라즈 공장" # bb44f074d0f09e2fbdacae4fa4ae9a15791d8a46
+	building_RICE_tiraz_factories_03_desc: "이곳의 [tiraz|E] 공장은 광범위하며 세계적으로 가장 유명한 곳 중 일부입니다. 그들이 생산하는 직물은 여러 곳에서 수요가 높습니다.\n\n#EMP 이 [건물|E]은 이 [county|E]의 [통치자|E]와 그들의 [봉신|E]을 위해 [tiraz|E]를 선물하는 [상호 작용|E] 비용을 #P -50%#! 줄여줍니다(이 보너스는 중첩되지 않음)#!" # 890439d791df17a4db88350a16da6d873626451d
+	# Modifiers 
+	RICE_khuzestan_daniel_pilgrimage_done: "슈슈에 있는 다니엘의 무덤으로 순례를 떠났습니다" # 9bdbd080430d854e8a6746c20a8e68e770d1a106
+	RICE_khuzestan_shushtar_dams_repair: "슈슈타르 댐의 최근 보수" # 41ca9c03dd1555f529615e56c7fac56d05864dae
+	RICE_khuzestan_shushtar_dams_renovation: "슈슈타르 댐의 최근 개조" # c1cd28b2430119a01e3565e0e41b75fe95df1290
+	RICE_khuzestan_shushtar_canals_repair: "슈슈타르 운하 최근 보수" # e008095ac08274fa38d89ac9dcd019f519beeb40
+	RICE_khuzestan_shushtar_canals_renovation: "슈스타르 운하의 최근 개선사업" # 5a5808796ed3bc2d0f10012328f6fb2d00b9374e
+	RICE_khuzestan_shushtar_bridges_repair: "슈쉬타르 다리의 최근 보수" # 2627fd47c03f96601954444df301ef8e04d0ba96
+	RICE_khuzestan_shushtar_bridges_renovation: "슈슈타르 교량의 최근 개조" # a0fdc9ea3c02defabae2e53f5b746c8653f684e1
+	RICE_khuzestan_shushtar_watermills_repair: "슈슈타르의 물레방아 최근 수리" # 72b134b8f51090a450dcfa9cf013a4de12ce7e3a
+	RICE_khuzestan_shushtar_watermills_renovation: "슈슈타르 제분소의 최근 개조" # 030788e8a23fc37280cd13d7199ee2585fa0b554
+	RICE_khuzestan_recently_gifted_tiraz: "중요한 인물에게 티라즈를 선물함" # 3bcd71d52ba8aa88b0b8919710062f1a4f5a8701
+	RICE_khuzestan_recently_gifted_tiraz_desc: "이 캐릭터는 최근 높은 지위의 누군가에게 [khila_ceremony|E]에서 [tiraz|E]를 선물했습니다. 그렇게 하는 것은 물론 그들의 지위에도 좋은 영향을 미칩니다." # 09e8ee4d4564fe735ab8d6f64ab4dd6de95de11d
+	RICE_khuzestan_received_tiraz_from_head_of_faith: "신앙 수장이 티라즈를 하사했습니다" # 3a39356256f2603c339c703615b0d21405166aed
+	RICE_khuzestan_received_tiraz_from_head_of_faith_desc: "이 캐릭터는 [head_of_faith|E]로부터 [khila_ceremony|E]에서 [tiraz|E]를 받는 행운을 누려 동료 신자들의 눈에 큰 존경을 받게 되었습니다." # 7730ef2819235abd9db465534943fe836f5cfded
+	RICE_khuzestan_gifted_tiraz: "티라즈를 선물해 주셨습니다." # 5fde90ea704b70b63dd762d547bb9bf0f8751de4
+	RICE_khuzestan_mandaean_connections: "만다야 연결" # e4f686ca1787491f317ea5ed31c37db4ff1905af
+	RICE_khuzestan_mandaean_connections_desc: "이 캐릭터는 메소포타미아 남부와 후제스탄의 만다야 공동체, 특히 그곳의 만다야 서기관 센터와 밀접한 관련이 있습니다." # 0f6d504a07d409096ebaca5e86f4c778f320b126
+	RICE_khuzestan_restored_elymais: "쿠지 부활: 엘리마이아 부흥" # 8401a9d3f56a54581e62ee87afdb71a6083b5271
+	RICE_khuzestan_restored_elymais_desc: "쿠제스탄의 토착민들이 고향에서 권력을 되찾은 후, 그들은 직계 조상인 엘리마이아인들의 방식이라고 믿는 것을 모방하기 시작했습니다. 고대에 왕국으로 알려졌던 엘리마이아 사람들은 궁술 실력과 끈질기게 독립을 유지했던 것으로 유명했습니다." # d36d70d0bdf6ba7999c2a95a6ec1dfec4f94e43e
+	RICE_khuzestan_restored_khuzi: "쿠지 재건: 위엄 있는 공동체" # 27289c6af1a9b83b6ffd6b1b46cead434d46ff8a
+	RICE_khuzestan_restored_khuzi_desc: "후제스탄의 원주민들이 고향에서 권력의 지위를 회복한 후, 그들은 사회와 문화를 더욱 높은 수준으로 발전시키는 데 집중했습니다. 너무 오랫동안 그들은 화장실 관리인, 유모 및 기타 천한 역할과 관련되어 있었습니다. 이제 그들은 왕, 철학자, 예술가가 될 것입니다!" # d8cdeaf7b2b57c322a3fe85f4e19e6cfad154685
+	RICE_khuzestan_restored_gulf: "쿠지 부활: 걸프 상인" # cd70336f823e9713e3413570caaae51a344aa48c
+	RICE_khuzestan_restored_gulf_desc: "후제스탄의 토착민들이 고향에서 권력을 되찾은 후, 페르시아 만을 따라 번화한 무역로에 관심을 돌렸습니다. 활기를 되찾은 공동체는 새로운 문명을 건설하기 위해 후제스탄의 역사적인 농업 번영과 먼 땅과의 상업적 유대를 최대한 활용하고자 합니다." # d0b87813dfb6a98591a500d866bced4c0142b86f
+	RICE_khuzestan_celebrated_parwanaya: "파르와나야 축제" # 77f11083af2c350a49439119a77883b63afe7009
+	RICE_khuzestan_repaired_ancient_canal: "고대 운하 복구" # 660d12abdcda84a49e99fea5bc84f77914bbce99
+	RICE_khuzestan_repaired_ancient_canal_desc: "쿠제스탄에는 고대 페르시아인들이 건설한 많은 운하가 있습니다. 이곳 당국은 이 운하들 중 더 큰 운하 하나를 최근에 보수했는데, 이는 앞으로 수년간 이 지역의 농업 생산량을 향상시키는 데 도움이 될 것입니다." # 6ae768f924d4f044c1f99cd40dde9a41074c1ad7
+	RICE_khuzestan_sugar_sugar: "후제스탄의 설탕" # 97f25fb8da170c89af38f16891c23c0417845d83
+	RICE_khuzestan_weavers: "번성한 직조공" # a73d31a7dff7a3101832851035e8e0f3b47880dd
+	RICE_khuzestan_weavers_desc: "후제스탄은 항상 직조 품질로 유명했습니다. 최근에는 후제스탄의 특정 지역에서 생산된 직조 제품들이 전 세계적으로 많은 명성을 얻고 있습니다." # ed0be96d5c0c2161f88f8402075b6707a99bb427
+	RICE_khuzestan_engineering_study: "쿠즈스탄의 고대 수리 시스템 연구" # 31f208c7ef2e87979911556c84651e0e78a19c78
+	RICE_khuzestan_engineering_study_desc: "고대 페르시아인들은 후제스탄에서 운하, 댐, 다리 등 여러 훌륭한 공학적 업적을 이루었습니다. 이 캐릭터는 최근 이러한 구조물에 대해 더 잘 배우는 데 관심을 가지게 되었습니다." # e8088364ae3856efdf518edb3a5aa11ca2879549
+	# Decisions 
+	RICE_khuzestan_tomb_of_daniel_decision: "다니엘의 무덤으로 순례를 떠나십시오" # f9d42002308d9ec99ffafb4e743d59e0b879ea3d
+	RICE_khuzestan_tomb_of_daniel_decision_tooltip: "수스에 있는 [tomb_of_daniel|E]로 여행하십시오" # 7233eb052a80f8fb4afd1b961d8760ca5ed81607
+	RICE_khuzestan_tomb_of_daniel_decision_desc: "다니엘은 저와 같은 [ROOT.Char.GetFaith.GetAdherentNamePlural]에게 중요한 종교적 인물입니다. [daniels_tomb|E]는 슈슈에 있다고 하니, 그 지역의 많은 사람들이 그에게 경의를 표하기 위해 그곳에 갑니다. 저도 그래야 합니다!" # 35ac821a2edffe244108af91611274db7f27f44c
+	RICE_khuzestan_tomb_of_daniel_decision_effect_tooltip_1: "당신은 슈슈에 있는 [[tomb_of_daniel|E]|E]로 가서 무작위한 양의 [piety|E]와 [GetModifier('RICE_khuzestan_daniel_pilgrimage_done').GetNameWithTooltip] [character_modifier|E]를 얻을 것입니다." # 9e15f31ba7c622b6b32e24856d3667189b9181b3
+	RICE_khuzestan_tomb_of_daniel_decision_confirm: "슈쉬로 갈 준비를 하십시오!" # 838e5277b7ed42ad48573882bd15340ca2bd185a
+	RICE_khuzestan_tomb_of_daniel_decision_context_tooltip: "#emphasis Historical Context:#! There are several cities that claim to have the tomb of the Biblical figure Daniel, but Šuš (ancient Susa) is the most well-known and is a local site of pilgrimage for Jews and Muslims. According to legend, after people on both sides of the river flowing through Šuš fought over where Daniel's coffin should be, they agreed to move it back and forth between their respective sides every year. Supposedly, the Seljuk ruler Sanjar stopped this practice in the 12th century, as he felt it was insulting to Daniel; he thus erected a tomb on a bridge. Whatever the truth of the matter, the original tomb was destroyed by a flood and the modern one built in 1870." # null
+	RICE_khuzestan_rebury_daniel: "다니엘의 무덤을 재배치합니다" # 1acbe2f6f2b0a8891d489b03adcc43c4def309e0
+	RICE_khuzestan_rebury_daniel_tooltip: "[묘지_다니엘|E]를 더 적절한 장소로 이전하세요" # 9b42be7457ec413a51374c5c60071a77b36d4916
+	RICE_khuzestan_rebury_daniel_desc: "슈시는 [tomb_of_daniel|E]의 고향으로, [ROOT.Char.GetFaith.GetName]을 포함한 많은 [faiths|E]에게 중요한 종교적 인물입니다. 전통적으로 현지인들은 다니엘이 매년 놓여지는 위치를 번갈아 가며 슈시를 흐르는 강을 가로질러 그의 무덤을 옮깁니다. 저는 이 관습이 다니엘에게 무례하다고 생각합니다. 그에게 영구적인 집을 찾아줍시다!" # 27803a3113b599e52aeb3986c763d953423c4563
+	RICE_khuzestan_rebury_daniel_effect_tooltip_1: "[GetActivityType( 'activity_RICE_khuzestan_tomb_of_daniel_pilgrimage' ).GetName] 순례를 떠날 때 얻는 [piety|E] 보너스가 증가했으며, 이제 더 넓은 지리적 범위에서 [activity|E]를 수행할 수 있습니다." # 63b23d20c8a10b362214655aae8f363bba1f7f84
+	RICE_khuzestan_rebury_daniel_confirm: "이 위대한 분께 합당한 안식처가 필요합니다!" # 6cb705a350d2242fd2a293ab634619a6fd8b39c3
+	RICE_khuzestan_rebury_daniel_context_tooltip: "$RICE_khuzestan_tomb_of_daniel_decision_context_tooltip$" # null
+	RICE_khuzestan_repair_shushtar_hydraulics: "$c_tustar$의 수력 시스템 유지" # f74ff84c8b9f9b94abc5cc0e3338bfda6e107294
+	RICE_khuzestan_repair_shushtar_hydraulics_tooltip: "[GetBuilding('RICE_khuzestan_shushtar_hydraulic_system').GetName]에 약간의 수리 또는 개조가 필요합니다." # 1b6623d182b70e58bca0b7d7f1373536ce5b4865
+	RICE_khuzestan_repair_shushtar_hydraulics_desc: "[GetTitleByKey('c_tustar').GetNameNoTier]의 수력 시스템은 수 세기 전에 건설되었지만, 그 구조물들은 여전히 이 지역의 번영에 크게 기여하고 있습니다. 그렇기는 하지만, 그 구조물들은 노후화로 인해 장기적인 효율성을 확보하기 위해 종종 유지보수 작업이 필요합니다." # 62726b469c892e85f97030c3fadd3ef58f9b9786
+	RICE_khuzestan_repair_shushtar_hydraulics_effect_tooltip_1: "[GetTitleByKey('c_tustar').GetNameNoTier]는 #V 10#!년 동안 [county_modifier|E]를 받게 되며, 그 보너스는 수행하는 작업의 종류에 따라 달라집니다." # 82f7e14e8fc98b6401c3cb6f544c81e107bef10a
+	RICE_khuzestan_repair_shushtar_hydraulics_effect_tooltip_2: "#bold 수리#! #weak (비용: @gold_icon! [EmptyScope.ScriptValue('RICE_khuzestan_shushtar_repair_cost_value')|0]#!) 또는 #bold 개조#! #weak (비용: @gold_icon! [EmptyScope.ScriptValue('RICE_khuzestan_shushtar_renovation_cost_value')|0]#!). 후자가 비용이 더 들지만 더 강력한 효과를 가지고 있습니다." # e0fc2bbc03f79da8518c28062255ae3b852832bb
+	RICE_khuzestan_repair_shushtar_hydraulics_confirm: "기술자를 소환하십시오!" # 4801c15c45bb2be75dbb1a9490494b4053bbf169
+	RICE_khuzestan_repair_shushtar_hydraulics_context_tooltip: "#emphasis Historical Context:#! Shushtar (or Tustar) is home to a complex network of dams, bridges, canals, watermills, and other structures dating back to the Achaemenid and Sassanid eras. Previously, it was assumed the system declined after the Sassanids collapsed, but recent scholarship suggests maintenance and extensions to these hydraulics still happened well into the Islamic period. Among Shushtar's more famous structures are #italic Band-e Kaisar#!, a 3rd century bridge and dam built by Roman POWs, and the #italic Gargar Canal#!, which provides water to to this day." # null
+	RICE_khuzestan_pick_shushtar_hydraulics: "수리 또는 개조할 대상을 선택하십시오" # 13b2a75bffbd7eaca2b78c2a367aa95dda1be29e
+	RICE_khuzestan_shushtar_dams_option: "#Bold #V Dams#!#!\n$RICE_khuzestan_shushtar_dams_option_desc$" # null
+	RICE_khuzestan_shushtar_dams_option_desc: "[통제력|E] 및 [건물|E] 건설 속도에 집중" # 8699ec90386b2ba5c6b5e582606cb2ee6572ec40
+	RICE_khuzestan_shushtar_dams_option_tooltip: "$EFFECT_LIST_BULLET$ 수리 효과: [GetModifier('RICE_khuzestan_shushtar_dams_repair').GetNameWithTooltip]\n$EFFECT_LIST_BULLET$ 개조 효과: [GetModifier('RICE_khuzestan_shushtar_dams_renovation').GetNameWithTooltip]" # dbd38cc64a4f28b2f4a5eb8567bd35a053da9f28
+	RICE_khuzestan_shushtar_canals_option: "#Bold #V Canals#!#!\n$RICE_khuzestan_shushtar_canals_option_desc$" # null
+	RICE_khuzestan_shushtar_canals_option_desc: "[개발|E]에 집중" # 527849901666fefc425ff3878530491971f621c2
+	RICE_khuzestan_shushtar_canals_option_tooltip: "$EFFECT_LIST_BULLET$ 수리 효과: [GetModifier('RICE_khuzestan_shushtar_canals_repair').GetNameWithTooltip]\n$EFFECT_LIST_BULLET$ 개조 효과: [GetModifier('RICE_khuzestan_shushtar_canals_renovation').GetNameWithTooltip]" # 8eeb74bf168b871a7e0402a88840496f03e9a1d4
+	RICE_khuzestan_shushtar_bridges_option: "#Bold #V Bridges#!#!\n$RICE_khuzestan_shushtar_bridges_option_desc$" # null
+	RICE_khuzestan_shushtar_bridges_option_desc: "[자원 공급 제한|E] 및 [건물|E] 건설 비용에 집중" # 8dc5aa6631b0eacb7a02a99326d8f889284c3849
+	RICE_khuzestan_shushtar_bridges_option_tooltip: "$EFFECT_LIST_BULLET$ 수리 보정치: [GetModifier('RICE_khuzestan_shushtar_bridges_repair').GetNameWithTooltip]\n$EFFECT_LIST_BULLET$ 개조 보정치: [GetModifier('RICE_khuzestan_shushtar_bridges_renovation').GetNameWithTooltip]" # 2cd93630b3088688c9411e01a272266d1a2dc333
+	RICE_khuzestan_shushtar_watermills_option: "#Bold #V Watermills#!#!\n$RICE_khuzestan_shushtar_watermills_option_desc$" # null
+	RICE_khuzestan_shushtar_watermills_option_desc: "[county_opinion|E]에 집중" # 5c7c620c7baf32af6c71960ba7e9eccbf982ba8c
+	RICE_khuzestan_shushtar_watermills_option_tooltip: "$EFFECT_LIST_BULLET$ 수리 보정: [GetModifier('RICE_khuzestan_shushtar_watermills_repair').GetNameWithTooltip]\n$EFFECT_LIST_BULLET$ 개조 보정: [GetModifier('RICE_khuzestan_shushtar_watermills_renovation').GetNameWithTooltip]" # 26cc81636ab36f5320c1cdc39b3d9c7fb70d7761
+	RICE_khuzestan_khuzi_status_decision: "쿠지 공동체를 승격시키다" # 0d116cb708638fa0b5c3b59ba7189995e0d158ab
+	RICE_khuzestan_khuzi_status_decision_tooltip: "쿠지 민족을 위해 쿠제스탄에 [kingdom|E](을)를 세우십시오." # 8325135171c8c9e437413aa88800ed67f74f7893
+	RICE_khuzestan_khuzi_status_decision_desc: "너무 오랫동안 우리 [ROOT.Char.GetCulture.GetCollectiveNoun]는 이란과 아랍 이웃들에게 억압받고 경멸받아 왔습니다. [ROOT.Char.GetCulture.GetNameNoTooltip] [ROOT.Char.GetTitleAsNameNoTooltip]으로서 저는 우리 민족을 위한 새로운 왕국을 세우고 우리 명예와 존엄을 회복할 힘을 가지고 있습니다." # b29179aa6074c720d47d7c2ad2346c72118b69e9
+	RICE_khuzestan_khuzi_status_decision_effect_tooltip_1: "$innovation_RICE_khuzi$ [innovation|E]는 #bold 영구적으로#! [THIS.Char.GetCulture.GetName] 및 해당 기술을 보유한 다른 모든 [cultures|E]에서 제거됩니다." # c44ea71bc08813ec6a0370e35b572dde0318e5cc
+	RICE_khuzestan_khuzi_status_decision_effect_tooltip_2: "$tradition_RICE_khuzi_name$ [tradition|E]은 #bold 개선#되어 [THIS.Char.GetCulture.GetCollectiveNoun] 및 해당 문화와 관련된 다른 모든 [cultures|E]에 선택에 따라 더 나은 보너스를 제공합니다." # 4ca2b13740e328ba22b73c96ebae3c4b1a9edfef
+	RICE_khuzestan_khuzi_status_decision_confirm: "우리 민족에게 새로운 날이 밝았습니다!" # 0857a5d0dcd854ed2df7b0ac6a43baa862a0f9e0
+	RICE_khuzestan_khuzi_status_decision_context_tooltip: "#emphasis Historical Context:#! Early medieval Islamic sources mention the existence of a so-called Khuzi people, who spoke a language that modern scholars theorize to be a late remnant of ancient Elamite. Although Khuzi was spoken by local nobility, this may have been because they learned it from their servants (such as wet-nurses, bathroom attendants, and so on). The Khuzis were otherwise treated as low status; for example, #italic "yā Xuz̄ı!"#!, meaning "Hey, you Khuzi!" was reported by the 10th century Arab geographer Al-Maqdisi as a common, slang term of insult in the region. Because of this, the Khuzi identity and language likely faded away as the Khuzis assimilated into Arab or Iranian populations." # null
+	RICE_khuzestan_khuzi_status_decision_modifier_bonus_tt: "다음 세 가지 변경 사항 중 하나를 #V 50#!년 동안 [GetTitleByKey('d_khuzestan').GetNameNoTier]의 모든 [county|E]에 적용할 수 있습니다.\n$EFFECT_LIST_BULLET$[GetModifier('RICE_khuzestan_restored_elymais').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('RICE_khuzestan_restored_khuzi').GetNameWithTooltip|L]\n$EFFECT_LIST_BULLET$[GetModifier('RICE_khuzestan_restored_gulf').GetNameWithTooltip|L]" # 7e773602d7971be5f810a4ee7b0d65a19a3c9d1d
+	RICE_khuzestan_parwanaya_festival: "파르와나야 축하" # ea819db4f95725b5a9559662381f8db46c7437c5
+	RICE_khuzestan_parwanaya_festival_tooltip: "만다야교의 중요한 종교 행사, 파르와나야 축제를 기념하십시오" # ce24e390f804e1368e6b00a05cfc53093b01d22d
+	RICE_khuzestan_parwanaya_festival_desc: "많은 [ROOT.Char.GetFaith.GetAdherentNamePlural]에게 #italic 파르와나야#! (또는 #italic 판자#!)는 한 해에서 가장 중요한 행사 중 하나입니다. 이는 [ROOT.Char.GetFaith.HighGodName]께서 천사와 우주를 창조하셨을 때를 기념하는 시간입니다." # 2c24b9e67b22f1373d4c23ab01a14f93982989fd
+	RICE_khuzestan_parwanaya_festival_effect_tooltip_1: "[신앙|E], [명성|E], 그리고 [GetModifier('RICE_khuzestan_celebrated_parwanaya').GetNameWithTooltip] [캐릭터_modifier|E]를 얻습니다." # 7372b02ab6ec19aaf9bc98e455252866f519a49c
+	RICE_khuzestan_parwanaya_festival_confirm: "준비합시다!" # 87add30b92fc70b3debe3c01f4c8fcfd9d5045f2
+	RICE_khuzestan_parwanaya_festival_context_tooltip: "#emphasis Historical Context:#! #italic Parwanaya#! (or #italic Panja#!) is one of the major festivals of the Mandaean ethnoreligious group. It is celebrated on the five extra days of the Mandaean calender after the 8th month of Šumbulta, and is considered one of the happiest and most fortunate times of year." # null
+	RICE_khuzestan_gnostic_baptism_rite: "의식 세례를 받다" # 02e8f567ccb5bf2a675bdaa19775a0ba3a0db37f
+	RICE_khuzestan_gnostic_baptism_rite_tooltip: "세례를 통해 정화 의식을 수행합니다" # 91a2afa928f4aa5a224542d15acc390340d37680
+	RICE_khuzestan_gnostic_baptism_rite_desc: "[ROOT.Char.GetFaith.GetAdherentNamePlural]은 의례적으로 우리 자신을 정화하는 방법으로 세례의 중요성을 믿습니다. 물론 [ROOT.Char.GetFaith.ReligiousText]에서 지시한 대로 이러한 의례를 정기적으로 수행해야 합니다." # beb8f64c43e01d5d615a0832cb434bacc0777e78
+	RICE_khuzestan_gnostic_baptism_rite_effect_tooltip_1: "획득하는 [piety|E] 양은 [piety_level|E]에 따라 달라집니다." # 142b969570d2243e0386c63c4334abb3fc3fd57b
+	RICE_khuzestan_gnostic_baptism_rite_confirm: "의식에 적합한 강을 찾으십시오." # 0f5758d2d2dd31a80f74252efffdd3916e7404c6
+	RICE_khuzestan_gnostic_baptism_rite_context_tooltip: "#emphasis Historical Context:#! In contrast to Christian baptism, which is an initiation ritual that is usually done once, the Mandaean baptism ceremony, #italic masbuta#!, is done regularly as a ritual of purification. It is also commonly part of various other festivities and ceremonies as well. The Sethians, a Gnostic sect possibly related to the Mandaeans, purportedly had their own similar ritual, called the Five Seals." # null
+	# Events 
+	khuzestan.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0001.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0001.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0002.t: "[gnostic_faith.GetAdjectiveNoTooltip] 세례 의식" # 9cb08f52c7095854f10120ecf15c125595be6c39
+	khuzestan.0002.desc: "오늘 저는 모든 선량한 [gnostic_faith.GetAdherentNamePlural]들이 정기적으로 해야 하는 세례 의식을 받습니다.\n\n신성한 예복을 입고, 저와 함께 세례를 받기 위해 모인 많은 신자들이 이 의식을 위해 선택한 강으로 다가갑니다. 결국 [gnostic_faith.ReligiousText]에 따르면, 소위 살아있는 물이 필요합니다.\n\n[gnostic_faith.PriestNeuterPlural]은 우리를 물로 인도하며, 그곳에서 우리는 세 번의 완전한 침례를 받습니다. 말할 것도 없이 춥습니다!\n\n제가 육지로 돌아온 후, [gnostic_faith.PriestNeuter]는 거룩한 참기름으로 제 이마에 십자 표시를 하고, 그런 다음 저는 성찬 빵과 함께 물을 세 번 마시게 됩니다. 마지막으로, 제가 아직 떨고 있는 동안 [gnostic_faith.PriestNeuter]는 거룩한 반지를 꺼내 제 이마에 올려놓고 악수를 나눕니다." # 1df1935754d77946c7529b1fa25ec2ed7cc3104f
+	khuzestan.0002.a: "영적으로 정화되었고 활력을 되찾은 기분입니다!" # 2d7760b9221e99ecbd8b4bba418072b22d74edc0
+	khuzestan.0003.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0003.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0003.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0004.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0004.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0004.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0005.t: "[khuzi_hero.GetCulture.GetNameNoTooltip]의 부활" # 20b7ed55e2a5f4a71d1d91d2a2b6886f116bcde9
+	khuzestan.0005.desc: "저희, [GetGeographicalRegion('RICE_khuzestan_region').GetName]의 고대 원주민은 아랍, 이란, 그리스 등 다른 세력의 멍에 아래에서 큰 고통을 겪었습니다. 저희 중 많은 이들이 엘리트 주인의 화장실 담당자처럼 사회에서 굴욕적인 역할을 맡았습니다. 그들은 저희의 이름인 [khuzi_hero.GetCulture.GetName]조차 모욕으로 사용합니다!\n\n하지만 시대가 변하고 있습니다. 제 지도 아래, 저는 이 지역을 새로운 영역인 [khuzi_hero.GetPrimaryTitle.GetName]으로 통합했습니다. 저희는 더 이상 억압받지 않습니다. 저는 제 동포 [khuzi.GetCollectiveNounNoTooltip]에게 외국인들이 이해할 수 없다고 무시하는 저희의 고유한 고대 언어나 옛 방식을 거부하지 말라고 촉구했습니다. 저희는 번성하고 있으며 존경받을 가치가 있습니다.\n\n이제, 앞으로 몇 년 동안 [khuzi_hero.GetPrimaryTitle.GetNameNoTierNoTooltip]이 어떤 방향으로 발전할지를 결정하는 것은 저에게 달려 있습니다." # 4ece4b9e9a8be8fb2cde7d63514dcb694ea70e70
+	khuzestan.0005.a: "우리가 엘리마이스였던 영광스러운 과거를 보십시오!" # ec5fac2c6c75a5d27931af4eb8f6cbf125695341
+	khuzestan.0005.b: "우선 우리 사회와 문화를 성장시키고 발전시키십시오." # 53f88909a88b8a1fc7595e32fe012e32495d85cb
+	khuzestan.0005.c: "페르시아 만 전역에 교역망을 구축하십시오." # e382e172875b900934d564f230d48159036696c0
+	RICE_khuzestan_counties_elymaean_tooltip: "$innovation_RICE_khuzi$ [혁신|E]을 가진 모든 [문화|E]는 영구적으로 해당 혁신을 잃고, $tradition_RICE_khuzi_name$ [전통|E]은 해당 전통을 가진 모든 [문화|E]에 군사 보너스를 부여하도록 업그레이드됩니다." # a2a1cb04450877fc976ca2f9705fe34e24834a98
+	RICE_khuzestan_counties_community_tooltip: "$innovation_RICE_khuzi$ [혁신|E]을 가진 모든 [문화|E]는 영구히 해당 혁신을 잃고, $tradition_RICE_khuzi_name$ [전통|E]은 해당 전통을 가진 모든 [문화|E]에 외교 보너스를 제공하도록 업그레이드됩니다." # 53ae8b2e61c4652e13243d22862f79b202fe6c88
+	RICE_khuzestan_counties_traders_tooltip: "$innovation_RICE_khuzi$ [혁신|E]을 가진 모든 [문화|E]는 영구히 잃고, $tradition_RICE_khuzi_name$ [전통|E]은 이를 가진 모든 [문화|E]에 경제 보너스를 받도록 업그레이드됩니다." # b1653856cc7f3b9347c3daf95bc4647a2f765fb7
+	khuzestan.0006.t: "$khuzestan.0005.t$" # 331af53dee63c92fc89086820f68b5ac44326b34
+	khuzestan.0006.desc: "오랫동안 기억하는 한, [GetGeographicalRegion('RICE_khuzestan_region').GetName]의 고대 원주민들은 아랍인, 이란인, 그리스인 등 다른 세력의 멍에 아래서 큰 고통을 겪었습니다. 많은 [khuzi.GetCollectiveNoun]은 엘리트 주인의 화장실 시중과 같이 사회에서 굴욕적인 역할로 강등되었습니다. 그들의 이름, [khuzi.GetNameNoTooltip]은 다른 민족에게 모욕으로 사용되었습니다.\n\n그러나 시대가 변하고 있습니다. [khuzi_hero.GetTitledFirstName]는 이 지역을 새로운 왕국으로 통합했으며 [khuzi_hero.GetHerHis] 동포 [khuzi.GetCollectiveNounNoTooltip]에게 그들의 옛 방식이나 이해할 수 없는 고대 언어를 거부하지 말 것을 촉구했습니다." # 86d163de43db5029021c6a79146dab00c501c1b1
+	khuzestan.0006.desc.elymais: "[khuzi_hero.GetFirstNameNoTooltip]은 고대 시대의 [khuzi.GetCollectiveNounNoTooltip]의 직계 조상인 엘리마이아인들을 모방하려 합니다. 엘리마이스 왕국은 궁수들과 완강한 독립심으로 잘 알려졌으며, [khuzi_hero.GetFirstNameNoTooltip]은 이 영광스러운 과거를 되찾기를 희망합니다." # c2852f2c4a19942fb79105e80f465ef76772d5d1
+	khuzestan.0006.desc.community: "[khuzi_hero.GetFirstNameNoTooltip](이)는 [khuzi.GetCollectiveNounNoTooltip]이 문화와 사회 발전에 집중하는 것이 중요하다고 생각합니다. 예술, 궁정 생활, 정치적 위엄으로 명성을 얻음으로써 다른 사람들이 그들을 존경하게 될 것입니다." # fbcb3968357916d792b3abd704add955eb4f32b3
+	khuzestan.0006.desc.traders: "[khuzi_hero.GetFirstNameNoTooltip]는 후제스탄의 전통적인 농업 및 상업적 번영을 이용하여 [khuzi.GetCollectiveNounNoTooltip]을 페르시아 만의 무역망에 통합하고, [khuzi_hero.GetHerHis] 백성들에게 새로운 시대를 열고자 합니다." # 25b45c30c85f15ce3693a86d2d516ce408ba4d9a
+	khuzestan.0006.a: "그들은 번영했고 존경받을 만하게 된 것 같소!" # 9135a19032c8e14db880c34a1154f7a75e5c72a9
+	khuzestan.0007.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0007.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0007.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0008.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0008.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0008.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0009.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0009.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0009.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0010.t: "수력 시스템 유지" # 2ee57252730d15b2e1d1f21db585aa1884ab2d82
+	khuzestan.0010.desc: "[tustar.GetNameNoTier]의 수리 시스템은 수 세기 동안 존재해 왔으며, 여전히 그 지역에 풍부한 부와 번영을 가져다주고 있습니다. 하지만 저와 같은 통치자들은 이 복잡한 구조망을 유지하기 위해 정기적으로 엔지니어링 작업을 지원해야 합니다. 그렇게 함으로써 우리 모두는 장기적으로 그 이점을 계속 누릴 수 있습니다." # dbe41aba22bc2ee6e6c5ac394b4cc597e1f1c144
+	khuzestan.0010.desc.dams: "어쨌든, 저는 여기에 있는 #bold 댐#에 유지 보수 작업이 필요하다고 결정했습니다." # 4cc0dc43c0bafbc8cf7b65a99af14bcf349ae715
+	khuzestan.0010.desc.canals: "어쨌든, 저는 여기 #bold 운하#에 대한 유지보수 작업이 필요하다고 결정했습니다!" # 2bf158a09b2ba7ba238d1a421f5a93514f1998ea
+	khuzestan.0010.desc.bridges: "어쨌든, 저는 여기 #bold 다리#!에 대한 유지 보수 작업이 필요하다고 결정했습니다." # c56eb44236d423f3867a66863227f5d7e1117882
+	khuzestan.0010.desc.watermills: "어쨌든, 저는 여기 #bold 물레방아# 유지보수 작업이 필요하다고 결정했습니다!" # 0a8b3c296a601d400f7b394dcc22fc7d8b0c758a
+	khuzestan.0010.desc.conclusion: "저의 기술자들이 이제 저에게 수리를 해야 할지 아니면 개조를 해야 할지 묻습니다. 수리는 기존의 것을 강화하는 반면, 개조는 시스템의 활력을 높이기 위해 필요에 따라 구조물을 확장할 수 있게 할 것입니다." # bec7066f0faff76c3e4e0eb1611f28359834b472
+	khuzestan.0010.a: "이 구조물들에 대한 수리 작업을 수행합니다" # df410dbb8096369a566c2e146fd7f6678d2697ab
+	khuzestan.0010.b: "수력망을 확장하기 위한 개조를 진행합니다" # 7c94a5d772a124659c3ce3051000bd116680dc7c
+	khuzestan.0011.t: "티라즈 소개" # 98e8fd94b80fbe05d65a3b9741af08d3f28c13fc
+	khuzestan.0011.desc: "[actor.GetTitleAsNameNoTooltip]의 권한으로, #italic 킬라# 의식에서 [recipient.GetTitledFirstName]에게 #italic 티라즈# 직물을 수여하기로 결정했습니다. 이는 일반적인 공식 행사에서 수여하는 상징적인 #italic 티라즈#를 뛰어넘는 훌륭하고 고품질의 #italic 티라즈#입니다." # f4ebc30f0be7f81e1d475d5ad2b2d0da81474dab
+	khuzestan.0011.desc.local: "[recipient.GetFirstNameNoTooltip] 님께서 이런 방식으로 공식적으로 저의 호의를 받게 되어 매우 기뻐하실 것이라고 확신합니다!" # 2c3e243d4bf836d88f4e3fb952db655b2268a233
+	khuzestan.0011.desc.foreign: "[recipient.GetSheHe]가 직접 받으러 올 수는 없지만, 이 선물을 받게 되어 기쁠 것이라고 확신합니다!" # 08f35fcbd76000584bfca4a94fcd33696c1f9db9
+	khuzestan.0011.desc.early: "아름다운 #italic tiraz#! 직물을 누군가에게 하사하는 것은 큰 영예이며, 이처럼 고품질의 #italic tiraz#!를 줄 수 있는 능력은 저와 같은 강력한 [actor.GetTitleAsNameNoTooltip]만이 할 수 있는 일입니다." # 95ee113e7b8e6927b9ef5e228ef663fcc62802a0
+	khuzestan.0011.desc.middle: "#italic 티라즈#를 하사하는 것이 더 이상 칼리프나 가장 강력한 통치자의 특권은 아니지만, 여전히 저와 같은 강력한 [actor.GetTitleAsNameNoTooltip]가 하는 것이 일반적이므로, 이처럼 고품질의 #italic 티라즈#를 받는 것은 여전히 큰 영광입니다." # 570e27a72b54a9377d9aa7c1695759e3ff2e9dfc
+	khuzestan.0011.desc.late: "옛날에는 칼리프나 아주 고위 통치자만이 누군가에게 #italic 티라즈#!를 수여할 수 있었습니다. 요즘에는 엘리트 계층의 사람들이 서로에게 주는 것이 일반적입니다. 하지만 저와 같은 강력한 [actor.GetTitleAsNameNoTooltip]에게 고품질의 #italic 티라즈#!를 받는 것은 큰 영광입니다." # 016d38fbfae0d1e64047da64bd2793184da97a08
+	khuzestan.0011.a: "[recipient.GetFirstNameNoTooltip]님이 이걸 좋아하시면 좋겠네요!" # 1ce81e1006d77dab5dc4b61f13b58fc2432fbf40
+	khuzestan.0012.t: "$khuzestan.0011.t$" # a9926546dcc6eefafb14850fd75f5096dca2fa65
+	khuzestan.0012.desc: "[actor.GetHerHis] [actor.GetTitleAsNameNoTooltip]의 권위로, [actor.GetTitledFirstName]은 저에게 #italic 티라즈#! 직물을 #italic 킬라#! 의식에서 수여하기로 결정했습니다. 이것은 정기적인 공식 행사에서 주어지는 상징적인 #italic 티라즈#!를 넘어 뛰어난 품질의 훌륭한 #italic 티라즈#!입니다." # 528fcbb8170a58d285c2b61f696f588866a1447f
+	khuzestan.0012.desc.local: "[actor.GetSheHe|U]는 제가 그러한 방식으로 [actor.GetHerHis] 호의를 공식적으로 받게 되어 영광스럽다고 확신합니다!" # d33970acd02096acb9c1833bd40bc65f57e2bb77
+	khuzestan.0012.desc.foreign: "비록 제가 직접 받으러 갈 수는 없지만, 이런 선물을 받게 되어 기쁩니다! 어쨌든 이것은 훌륭한 고품질 #italic tiraz#!로, 정규 공식 행사에서 수여되는 일반적인 #italic tiraz#!보다 뛰어납니다." # a23341ea4a617cde1fe7f1c9ca63e54a1f5169f1
+	khuzestan.0012.desc.early: "아름다운 #italic tiraz#! 직물을 누군가에게 하사하는 것은 큰 영광이며, 이처럼 질 좋은 #italic tiraz#!를 주는 능력은 [actor.GetFirstNameNoTooltip]님과 같은 강력한 [actor.GetTitleAsNameNoTooltip]만이 할 수 있는 일입니다." # b35fc89579488e2174e53a0e83e32dfbfe369123
+	khuzestan.0012.desc.middle: "#italic 티라즈#!를 수여하는 것이 더 이상 칼리파나 가장 강력한 통치자의 권한은 아니지만, [actor.GetFirstNameNoTooltip]님과 같은 강력한 [actor.GetTitleAsNameNoTooltip]이 일반적으로 하는 일이기 때문에 이와 같은 고품질의 #italic 티라즈#!를 받는 것은 여전히 큰 영광입니다." # 4d64d6e488ccb09a2a3d7467b6629b63b7837680
+	khuzestan.0012.desc.late: "옛날에는 칼리프나 매우 높은 지위의 통치자만이 누군가에게 #italic tiraz#!를 하사할 수 있었습니다. 요즘은 상류층 사람들이 서로에게 주는 것이 흔합니다. 하지만 [actor.GetFirstNameNoTooltip]와 같은 강력한 [actor.GetTitleAsNameNoTooltip]에게서 고품질의 #italic tiraz#!를 받는 것은 큰 영광입니다." # 64395c4a15d920ae181f63caf1f4ac04bb1489e8
+	khuzestan.0012.a: "이것을 받게 되어 매우 영광입니다." # b87f7ae95ac4d4a6d014a559fa6283696a4cab27
+	khuzestan.0013.t: "[mandaean.GetFaith.GetAdjectiveNoTooltip] 궁정 신하?" # 7a24c9e0657a413320fb0cf17f041d5537970ef3
+	khuzestan.0013.desc: "남부 메소포타미아와 쿠즈스탄은 고대 시절부터 수많은 고난 속에서도 지속되어 온, 신비주의 종파인 [mandaean.GetFaith.GetAdherentNamePlural]의 중심지입니다. 오늘, [mandaean.GetFirstName]이라는 이 종교 공동체의 구성원이 저의 궁정에 도착하여 [mandaean.GetHerHis] 봉사를 제안했습니다.\n\n[mandaean.GetFaith.GetAdherentNamePluralNoTooltip]가 많이 거주하는 마을들은 종교 경전을 기록하고 보존하는 데 중요성을 두기 때문에 필사 및 문학 중심지로 유명합니다. 아마도 [mandaean.GetFirstNameNoTooltip]을 통해 [mandaean.GetFaith.GetAdjectiveNoTooltip] 공동체와 상호 이익이 되는 관계를 구축하는 것이 현명할 것입니다." # 8df764838542a4124ac8dfccfe11936d2637cdff
+	khuzestan.0013.a: "[mandaean.GetSheHe|U]는 이곳에서 환영받을 것입니다!" # 713862933a16a310fcde1b9f6306a1d6ff797938
+	khuzestan.0013.b: "나는 [mandaean.GetHerHis]의 서비스가 필요하지 않습니다." # d41fb1ba904db9994ad947a96fb6b070cd57f988
+	khuzestan.0014.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0020.t: "슈슈로 떠날 준비" # 5a4bebda98b0db4116d8e4473bfa31108070c844
+	khuzestan.0020.desc: "성경 속 인물인 다니엘은 [ROOT.Char.GetFaith.GetAdherentNamePlural]에게 [ROOT.Char.GetFaith.HighGodName]께 깊이 헌신한 의로운 인물로서 중요합니다. 그의 무덤이 있다고 알려진 여러 곳이 있지만, 고대 수사로 알려진 쉬쉬 마을이 많은 사람들에게 가장 확실한 곳으로 여겨집니다. 제가 그곳과 가까운 곳에 살고 있다는 것은 다행입니다.\n\n지역 주민들은 다니엘의 무덤으로 순례를 떠나는데, 저도 그럴 생각입니다. 쉬쉬까지의 여정은 길지 않겠지만, 준비는 해야 할 필요가 있습니다." # d740728d28e306d51d22dbfb93f406e06dd98cb2
+	khuzestan.0020.a: "준비합시다!" # ef98cacb5740eef39d8493e399f930b147387ab6
+	khuzestan.0021.t: "슈스로 여행" # f947b26b5d09929f2bc4b42e6276da9224a946ec
+	khuzestan.0021.desc: "저는 다니엘의 무덤으로의 지역 순례를 위한 준비를 마쳤습니다. 짧은 여행을 떠나면서 집을 떠나 모두에게 작별을 고합니다. 슈슈 마을이 우리를 기다리고 있으며, 저는 그곳에 가는 것을 몹시 기다리고 있습니다." # 2537cc71f53e3329d136476a91f816565e8ebeec
+	khuzestan.0021.a: "우리 목적지는 슈슈입니다!" # f9bf0d781851ba9e23f20f8a8c5ab04c7343032e
+	khuzestan.0022.t: "수스 도착" # 5028e2269bb205bfe89eb08f2ef10a2e5dec9ea5
+	khuzestan.0022.desc: "저는 다니엘의 무덤을 보기 위해 슈시의 중심부에 도착했습니다. 순례자들 중에는 [judaism.GetName], [christianity.GetName], 그리고 [islam.GetName]의 추종자들이 있습니다. 이 세 종교의 차이에도 불구하고, 우리는 모두 위대한 다니엘을 숭배하며, 그의 신앙심은 오늘날까지 우리에게 영감을 주고 있습니다." # 7dda1dec573408fe1e7cd0309a84846989a77b5d
+	khuzestan.0022.desc.before: "슈쉬는 큰 강으로 나뉘어 있으며, 다니엘의 무덤 위치는 매년 이 강 양쪽을 번갈아 가며 옮겨집니다. 다시 말해, 현지인들은 다니엘의 시신을 이쪽저쪽으로 옮기는데, 이는 일부에게는 이상하게 들릴 수도 있습니다.\n\n오래전, 무덤은 강 한쪽에만 있었으며, 이곳은 신성한 축복, 순례자들의 왕래, 또는 둘 다로 인해 도시의 더 부유한 반쪽이 되었다고 합니다. 가난한 반쪽은 이것을 원망했고, 무덤을 어디에 둘지를 놓고 두 곳이 싸우다가 현재의 합의에 이르렀고, 그래서 양쪽 모두 부유해졌습니다." # f42c179039a24c0f9ed4743f0d20b3eb6116af8f
+	khuzestan.0022.desc.after: "슈슈는 큰 강으로 나뉘어 있으며, 다니엘의 무덤은 다리 위의 예배당에 있습니다. 이 건물은 얼마 전 [sanjar.GetTitledFirstName]이 세웠습니다.\n\n옛날에는 매년 무덤을 강 양쪽으로 번갈아 옮겼습니다. 그러나 [sanjar.GetFirstNameNoTooltip]은 다니엘을 기리는 무덤을 옮기는 것은 모욕이라고 생각하여 현재의 예배당을 짓고 관을 강물에 잠기도록 명령했습니다." # 395be92650798728f11b9ac503fa50b2366aa9ff
+	khuzestan.0022.a: "무덤으로 갈 시간입니다." # 9697c39ce5db98a84113291a2a1df418a4c0b0c4
+	khuzestan.0023.t: "다니엘의 무덤" # d1fdf2d598bbcb8c86a3f7a3b635db952abcfe49
+	khuzestan.0023.desc.before: "저는 다니엘의 무덤이 있는 현재 위치에 도착했습니다." # 8e5b5d1238e7df0d74d1ab10d2b4b4a9283e51f6
+	khuzestan.0023.desc.after: "[sanjar.GetTitledFirstName] 님이 다니엘을 기리기 위해 지은 다리 예배당에 도착했습니다." # b28e321fb5ec85af981620ae321ac82c3d4de94f
+	khuzestan.0023.desc: "이곳 무덤 주변은 신성한 곳이라 하며, 다니엘을 기리기 위해 물고기조차 건드리는 것이 허락되지 않는다고 합니다.\n\n어쨌든, 저는 다른 사람들과 함께 [ROOT.Char.GetFaith.GetAdjective] 기도와 간구를 드린 후, 다니엘의 삶과 업적을 묵상하는 시간을 보냈습니다. 이렇게 의롭고 경건한 분과 함께 있다니!" # ba676d0662c05a97b5eac7aa2c8e9e2699640e0a
+	khuzestan.0023.a: "[ROOT.Char.GetFaith.HighGodName]께 찬양을!" # a3448ab597235e1d185eb8f989fda77137760c04
+	khuzestan.0024.t: "슈쉬에서 귀환" # b6906edbd95a201af753df036b3237ba1e70ec10
+	khuzestan.0024.desc: "수스에 있는 다니엘의 무덤에서 잠시 시간을 보낸 후, 집으로 돌아왔습니다.\n\n전반적으로, 이 지역 성지를 방문하여 [ROOT.Char.GetFaith.GetReligion.GetName]에서 매우 중요한 인물을 되돌아보는 것은 훌륭한 경험이었습니다." # 9520d0664bcfbce349fc4928e555f228aaf0350f
+	khuzestan.0024.a: "슈슈로 여행을 올 수 있어서 기쁩니다." # 8bf153fc7c74a7be754e5c844ffcfa33ccd2aa93
+	khuzestan.0025.t: "분묘 이동" # 249c3778f7ca9f2faefc6c98292024bee2fa66c5
+	khuzestan.0025.desc: "다니엘의 무덤이 있다고 주장하는 도시는 여러 곳 있지만, 많은 사람들은 슈스가 가장 강력한 주장을 한다고 믿습니다. 따라서 주변 지역의 많은 사람들이 무덤을 방문하기 위해 슈스로 몰려듭니다.\n\n그러나 현지인들에게는 특이한 관습이 있는데, 그들은 매년 슈스를 가로지르는 강 반대편으로 그의 무덤을 옮겨서 다니엘이 놓이는 곳을 번갈아 가며 바꿉니다. 강 양쪽의 사람들이 그의 존재를 똑같이 누리기를 바라지만, 저는 궁극적으로 이 관습이 위대한 다니엘에게 무례하다고 생각합니다.\n\n따라서 저는 도시를 가로지르는 거대한 다리 중 하나에 영구적인 예배당을 건설하라고 명령했습니다. 그러면 관은 예배당 옆 강에 묻힐 것입니다." # 29f5c16c822e35ae9ebee1fe33e825d83583fd8b
+	khuzestan.0025.a: "다니엘의 무덤이 이제 영구적인 보금자리를 갖게 되었습니다." # 476b6783244c9ae9cbb9f348844734c173890b3a
+	khuzestan.0026.t: "$khuzestan.0025.t$" # b39c6c2f667f76c4398304bc9a319039bb633a86
+	khuzestan.0026.desc: "다니엘의 무덤이 있다고 주장하는 도시는 여러 곳이 있지만, 많은 사람들은 수스야말로 가장 강력한 근거를 가지고 있다고 믿습니다. 따라서 주변 지역의 많은 사람들이 수스에 몰려들어 무덤을 방문합니다.\n\n그러나 현지인들에게는 특이한 관습이 있습니다. 그들은 매년 수스를 가로지르는 강 건너편으로 그의 무덤을 옮겨 다니엘이 묻힌 곳을 번갈아 바꿉니다. 현재 이 지역을 다스리는 [sanjar.GetTitledFirstName]은 이러한 관습이 위대한 다니엘에게 무례하다고 생각했습니다.\n\n따라서 [sanjar.GetSheHe]은 도시를 가로지르는 큰 다리 중 하나에 영구적인 예배당을 건설하라고 명령했습니다. 그러면 관은 예배당 옆 강에 묻힐 것입니다." # 3c9fc2dce3188a44fb5eb740d701534cd0e33067
+	khuzestan.0026.a: "$khuzestan.0025.a$" # 473906e6c72b6c5d442feda0f720aad7175ac143
+	khuzestan.0027.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0027.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0027.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0028.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0028.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0028.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0030.t: "파르와나야 준비" # eba1894cb5a1a09c40823aac9ddfff68eac210fd
+	khuzestan.0030.desc: "파르와나야는 우리 [mandean.GetAdherentNamePlural]에게 가장 중요한 축제 중 하나입니다. 이때는 어둠이 땅을 지배하지 못하는 시기입니다. 이 축제는 항상 우리 종교 달력의 8번째 달인 #italic 슘불타#!가 끝난 후 다른 달과 관련이 없는 5일 동안 열립니다. 5일 동안 우리는 [mandean.HighGodName]과 창조의 5일을 기립니다.\n\n올해는 이 축제를 성대하고 화려하게 기념하고 싶습니다! 따라서 이 행사가 가능하도록 지역 [mandean.GetAdjective] 공동체를 모아 함께 노력해야 합니다. [mandean.PriestNeuterPlural]은 모든 일이 순조롭게 진행되도록 #italic 파르와나야의 두루마리#!와 #italic 조상의 두루마리#!를 참고할 것이라고 말했습니다. 이 두 가지는 파르와나야 동안 수행해야 할 의식에 대한 지침을 제공하는 거룩한 텍스트입니다." # 291e0f323f065db73e2e6e2f325fc433a1c5f105
+	khuzestan.0030.a: "지체할 시간이 없다!" # e4fd9d32689f0a8a4bf08681be2ae14ba31550fd
+	khuzestan.0031.t: "파르와나야 시작" # 85e77bfc4bf99fd3b85c42042d0e876e60130490
+	khuzestan.0031.desc: "파르와나야가 곧 다가옵니다! 저는 이 위대한 축제를 기념하기 위해 지역 [mandean.GetAdjective] 공동체와 함께 모였습니다. 전통적으로 가장 중요한 축제 중 하나이며, 최초의 빛이 세상을 창조한 5일을 기념합니다.\n\n이 시기는 종교적인 관찰과 헌신의 시간이며, 모두가 흰옷을 입습니다. 또한 죽은 자들을 위해 의례적으로 희생된 양을 제외하고는 고기를 먹지 않고, 죽은 동물의 가죽을 발에 착용하지 않는 시기이므로 일부는 샌들을 신고, 다른 사람들은 맨발로 다닙니다." # dc0d9c2fe9c401cef4c70c4318489dad534b651d
+	khuzestan.0031.a: "맨발로 가겠다!" # c909adb7e0f765dc29aa82744db586b0796e82f2
+	khuzestan.0031.b: "샌들을 신겠습니다." # cdd8a01d152e866083bdb629976de8abfe3f2e90
+	khuzestan.0032.t: "파르와나야: 첫날" # d68d52c67a0d4684391295e8145b3400f76ce264
+	khuzestan.0032.desc: "파르와나야의 첫날은 모든 세계의 아버지, 빛의 왕, 첫 번째 빛, #italic 하야 랍비#!께 바쳐집니다. 그분은 모든 천사, 사람, 그리고 물질 세계를 창조하셨습니다.\n\n[mandean.PriestNeuterPlural]이 침례와 같은 다양한 의식을 통해 우리를 돕는 동안, 모든 사람이 낙관적인 분위기에 있습니다. 이 5일은 빛과 첫 번째 빛이 이룩한 선함을 기념하는 날입니다. 그 안에는 어둠도 밤도 없습니다." # 9a0af07d90efeeabb5c2877eed1abc65c50bb024
+	khuzestan.0032.a: "좋은 시작이군요!" # 5b8fa7e31962fca1795fc2070021924df957b009
+	khuzestan.0033.t: "파르와나야: 둘째 날" # 32962d49af78a12ebd4eb7ff2e2301a457a78e36
+	khuzestan.0033.desc: "파르와나야의 둘째 날은 천상의 위엄의 주인이신 첫 번째 빛이 스스로를 창조하신 날에 바쳐집니다." # 7f98a20b3548afa989a88a30cb92ef35a2195e47
+	khuzestan.0033.a: "스스로 창조되신 최초의 빛을 찬양하라!" # 50ebae4b79c44c1bf0a05211f85d5607065796c6
+	khuzestan.0034.t: "파르와나야: 셋째 날" # 5e241d325ada5a9b8a6df1b1216f2a2c48fdc6c9
+	khuzestan.0034.desc: "파르와나야의 셋째 날은 제1의 빛이 생명의 지식을 창조했을 때를 기념하며, 그 안에서 스스로를 창조했을 때를 기념합니다." # d3115bbddde8d2adbf7531082cbdecf278db3664
+	khuzestan.0034.a: "생명의 지식을 찬양하십시오!" # 88013720c85376beb671cccaeed8ee3be8cd1d85
+	khuzestan.0035.t: "파르와나야: 나흘째 날" # 5fdd6a431f0152300bcd5327f869dfe8a97970e0
+	khuzestan.0035.desc: "파르와나야의 네 번째 날은 드무트-쿠스타인 최초의 빛의 현현에 바쳐집니다. 그분은 그 안에서 스스로를 창조하셨습니다." # 8c367dbd2c59d47240204cd2bfbc0f49b2b6bddb
+	khuzestan.0035.a: "드무트-쿠스타인 첫 번째 빛을 찬양하라!" # c38e6965579bdea39a122d6e6faf06fe1d763fa3
+	khuzestan.0036.t: "파르와나야: 다섯째 날" # 1678fae6679bc88129972218622d3e7446b2c860
+	khuzestan.0036.desc: "파르와나야의 다섯째 날은 기념일로, 흐르는 물줄기가 최초의 빛에 의해 분배되었으니, 흐르는 물줄기를 가르신 분께서 그 안에 스스로를 창조하셨기 때문입니다." # bc29e47150833db80df625e53188fe854292ddb0
+	khuzestan.0036.a: "흐르는 물길을 가르신 첫 번째 빛을 찬양하라!" # b10f0e14611f29209f6f67934afa1df48162e4e6
+	khuzestan.0037.t: "파르와나야 종료" # 2c9321f6f983a99ad41d2cb64f69447209bb983d
+	khuzestan.0037.desc: "파르와나야가 올해로 끝났습니다. 참석한 모든 사람들이 최초의 빛에 의한 우주 창조를 기념하는 이 5일 동안 의식에 참여했습니다. [mandean.PriestNeuterPlural]은 여러 번의 세례와 같은 다양한 의식을 훌륭하게 인도했습니다.\n\n높은 사람부터 낮은 사람까지 우리 모두가 이처럼 중요한 행사를 위해 모일 수 있었다는 것은 정말 기쁜 일입니다!" # fe0c7fe50ac1659ce1de253020536cf9987ba241
+	khuzestan.0037.a: "다음 시간까지." # 4bfadc36b58cc19b2932f34d9a44985c6b092f09
+	khuzestan.0038.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0038.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0038.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0039.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0040.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0040.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0040.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0041.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0041.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0041.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0042.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0042.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0042.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0043.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0043.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0043.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0044.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0044.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0044.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0045.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0045.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0045.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0046.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0046.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0046.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0047.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0047.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0047.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0050.t: "운하 수리" # 16dee6f257d7f1fb22505be36efbf7d154ef9f3c
+	khuzestan.0050.desc: "[GetGeographicalRegion('RICE_khuzestan_region').GetName]은 수년, 아니 수 세기 동안 주요 농업 지역이었습니다. 지역 주민들은 오래된 운하의 유적을 자주 발견하며, 이는 수리하여 현대적인 용도로 재사용할 수 있습니다.\n\n[county.GetNameNoTier]의 관리들이 최근 저에게 고대 페르시아 시대의 것으로 추정되는 대규모 운하가 발견되었다고 통지했습니다. 그들은 적절한 자금이 있다면 엔지니어와 노동자를 고용하여 이 운하를 보수하고 다시 사용할 수 있게 할 수 있다고 말합니다. 이렇게 하면 경작지가 상당히 증가할 것입니다." # 69009665112a41049553af2d0cf51665d4f8ac28
+	khuzestan.0050.a: "좋습니다! 그들은 필요한 자금을 갖게 될 것입니다." # 570bede37831fa1f96390629f4596ac12e89492a
+	khuzestan.0050.b: "저희 자원은 다른 곳에 사용하는 것이 더 낫다고 생각합니다." # 96d28c213d129a3d59dc149eaed147b0811322bc
+	khuzestan.0051.t: "사탕수수의 땅" # e854d8015438a3097d4ff3f6442497751e0b6fcc
+	khuzestan.0051.desc: "후제스탄의 설탕은 중동 전역에서 그 품질로 잘 알려져 있으며, 이 설탕은 다른 지역으로 대량 수출됩니다. 실제로 어떤 사람들은 후제스탄을 “사탕수수의 땅”이라고 부르기도 합니다.\n\n운이 좋게도 제 요리사들이 최근에 후제스탄에서 가장 질 좋은 설탕을 대량으로 확보했습니다. 그들은 이 설탕이 제가 간식으로 즐길 수 있는 과자와 페이스트리를 만들든, 제가 주최할 연회에서 맛있는 요리를 만들든 가까운 미래에 우리에게 큰 도움이 될 것이라고 확신합니다!" # 6929afeb1518617ed636d49fbe6992f364ae6aec
+	khuzestan.0051.a: "요리사들이 만드는 달콤한 음식을 먹을 날을 기대합니다!" # b18cead22771a7cf771d94e0e837ebbddac3dad2
+	khuzestan.0052.t: "[GetGeographicalRegion('RICE_khuzestan_region').GetNameNoTooltip]의 직조공들" # d78d2dc939d38935771a382ff414de18237a3fe5
+	khuzestan.0052.desc: "[GetGeographicalRegion('RICE_khuzestan_region').GetName]은 수세기 동안 직조로 유명했습니다. 이 지역에서 생산된 옷, 로브, 양탄자, 퀼트 등은 전 세계 시장에서 판매됩니다.\n\n최근 [county.GetNameNoTier]의 직조공들은 그들의 제품이 이 지역 최고로 여겨지면서 많은 명성을 얻었습니다." # f18fe053d83cfc1d3d0eb46b80f2502e2e3094ed
+	khuzestan.0052.a: "지역 경제에 아주 좋군요!" # 1d778632a5b7e44d62fe31403e96552e58af2b63
+	khuzestan.0053.t: "고대인에게 배우기" # 2c906033eb6f4da3ecd2e47bc9483fa9a45ec9bf
+	khuzestan.0053.desc: "저는 최근에 [GetGeographicalRegion('RICE_khuzestan_region').GetName]에 있는 제 영토를 방문하여 그곳의 지역 문제를 더 잘 이해하려고 노력했습니다. 제가 주목한 것 중 하나는 고대 페르시아인들이 오래전에 지은 것처럼 보이는 훌륭한 공학 구조물이었습니다.\n\n집으로 돌아온 후에도 이 훌륭한 건축물들이 계속해서 제 생각에 남아 있었습니다. 고대인들이 그런 경이로운 업적을 이룰 수 있었다니!\n\n이 구조물을 연구하기 위해 기술자와 학자를 보내야겠다는 생각이 들었습니다. 그렇게 하면 고대인들이 사용한 공학 방법을 우리가 왕국 주변에서 진행하는 다양한 건설 프로젝트에 적용할 수 있을 것입니다." # 5e1af112170023c78bcd2bbbe9e99d81c0e714b1
+	khuzestan.0053.a: "좋은 생각입니다! 그렇게 합시다." # 27cf37b2be4f882814041472ccceb99c3da28d39
+	khuzestan.0053.b: "다른 문제에 집중해야 합니다." # 5a4d6bb647ca062e9d767ab9b598d1d281c85028
+	khuzestan.0054.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0054.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0054.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0055.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0055.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0055.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0056.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0056.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0056.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0057.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0057.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0057.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0058.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0058.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0058.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0059.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0059.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0059.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0060.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0060.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0060.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0061.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0061.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0061.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0062.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0062.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0062.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0063.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0063.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0063.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0064.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0064.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0064.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0065.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0065.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0065.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0066.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0066.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0066.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	khuzestan.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f

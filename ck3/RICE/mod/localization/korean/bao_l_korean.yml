@@ -1,0 +1,94 @@
+﻿l_korean:
+	####################### 
+	# CREDITS TO BAO 
+	# BY SHATZI 
+	# Buildings 
+	# Free Range 
+	building_type_bao_free_range_01: "자유 방목장" # 41b33ccc8d77e0f36a03d467dd5e1f9769212120
+	building_type_bao_free_range_01_desc: "$building_bao_free_range_01_desc$" # null
+	building_bao_free_range_01: "야생 목초지" # 0db3e6ecf6ec70d0502428614c53005d8270b977
+	building_bao_free_range_02: "반야생 목초지" # 6a4bbd260cdb03ecfcb9c7402ccde58bdfdf38b6
+	building_bao_free_range_03: "중앙 집중식 반야생 목초지" # 535dd20f9d5792dd20572450e4455144af895f47
+	#building_bao_free_range_04 "독점된 반야생 목초지" # c9a70449de6f9aaff9ef917f8aff6545f2be463b
+	building_bao_free_range_01_desc: "브르타뉴 품종의 말이 사육되는 야생 목초지입니다. 전통적으로 #italic 메네지우 아레#! (몽다레) 또는 로한 숲과 같은 브르타뉴 지역 외곽에서 사육되는 이 말들은 튼튼하고 회복력이 뛰어난 것으로 매우 유명합니다." # 7d7b411b2d9efec31c11e12297f65b35ed10a1aa
+	building_bao_free_range_02_desc: "브르타뉴 품종의 말이 야외에서 사육되는 반야생 목초지입니다. 그러나 이 유명한 말에 대한 수요가 증가함에 따라 교육, 번식 및 훈련을 돕기 위한 시설도 건설되었습니다." # 36b452c8772a2c2029dcc050150cf5821490278e
+	building_bao_free_range_03_desc: "현지 귀족 가문들이 브르타뉴 품종의 말 거래에서 더 많은 이익을 얻기 위해 집중적으로 개발한 반야생 목초지입니다." # 7c9c578a59e1063235e9932d19d384974b6c9ea7
+	#building_bao_free_range_04_desc "소수의 귀족 가문이 거의 독점하고 광범위하게 개발한 반야생 목초지입니다." # 82d9a72241a5adb9e0cc4b202df553e9855a493a
+	bao_free_range_requirement_desc: "$bao_tradition_free_range_name$ [tradition|E] 필요" # 5933e2d020d2401d4094875c875dac2364b0ba55
+	# Misc 
+	bao_gift_breton_horses: "브르타뉴 말 선물하기" # dc1bdba6e0c028c95143cced0aaf93c9f7a3193b
+	bao_gift_breton_horses_desc: "브르타뉴 말 선물을 보냅니다." # 2da1605d82dcead8f24dc81d3d97a57392fe2622
+	bao_gift_breton_horses_self: "브르타뉴 말 구매" # 7b35e1eeec69416049107db404b01146ea212c75
+	bao_gift_breton_horses_self_desc: "브르타뉴 말을 구입하십시오" # 46e2211e4db3f4de209ec6c8c5862c4c75a87dc2
+	# MAA 
+	marc_hegion: "마르케기온" # 99fa2e8df4b7647e729ecefe8768c6a38df6e3da
+	marc_hegion_flavor: "프랑크 기사의 브르타뉴 변형인 이 전사들은 능숙한 기병이며 기병으로서 유능하게 싸웁니다." # e23e8ceeb4c62b45bd78119ec47708936d040d7c
+	culture_parameter_unlock_maa_marc_hegion: "[GetMaA('marc_hegion').GetName]을 [men_at_arms|E]로 모집할 수 있으며, [era|E]마다 점점 더 강해집니다" # 84745ca066e89b9f51dedcb9c7629a4d9689b595
+	# Modifiers 
+	# County Modifiers 
+	bao_sonerien_du_punished: "소네리엔 공작을 처벌했다" # 881939c999df053e54b29b4638b4b2205542faf6
+	bao_sonerien_du_saved: "소네리엔 두를 구출했습니다" # 90c2a5fa995092aa99683d293342e01924094e52
+	bao_reaved: "약탈하는 바이킹에게 습격당함" # 91a73ccb162219c68faf7e29483ba84868b97bd6
+	bao_secured: "습격 후 민병대 파견" # eb82eb53ce80d7cece0a64e2e220f607d3bd92a8
+	# Character Modifiers 
+	bao_sonerien_du_befriended: "소네리엔 두와 친해졌습니다" # cc6e284e2e2d2c8a729d24dabfcaf0eca24a4dab
+	bao_tossed_a_coin: "샘물에 동전을 던졌다" # 1f565b736eefd35bf63b42269f2752db159d08ef
+	bao_healthy_mushrooms: "건강한 버섯을 먹었습니다" # 34a8b2b936ad808ecb54c01ef5d71d584ac456bc
+	bao_run: "코리건에게서 도망칩니다" # 1305f49757eb9ca08d54c6ab71acb4156e401395
+	bao_stay: "코리건과 흥청망청 놀아보십시오" # 2f3e4f8d4a4f5d309a293088f6dfbbcd8b9da7bc
+	bao_vex: "코리간을 절대 불쾌하게 하지 않음" # c9eb183d115a84e83119ad689363c36fc82536f5
+	bao_character_breton_horses: "강력한 브르타뉴 말을 탄다" # baae6bceb7cd84dc77d79ee39c2647358f6eb8ff
+	# Opinion Modifiers 
+	bao_opinion_gifted_breton_horse: "브르타뉴 말을 하사했습니다" # de199e54fff6be96020cb9d2ed01e3e1e89e9362
+	# Traditions 
+	bao_tradition_breizh_laid_name: "브리튼의 문제" # 924768e2d8109dc3d35122d3dcf46bd3e66ed2ea
+	bao_tradition_breizh_laid_desc: "브리튼 사회에서는 시, 스토리텔링, 모욕 및 유머를 매우 중요하게 여깁니다. 켈트족의 음유시인 전통과 프랑스 문학의 영향을 받아 브리튼의 이야기는 아서 왕 전설과 중세적 재해석 사이의 연결 고리 역할을 합니다." # 8e146f5205ad4328d2f8ae57ced9b60d2a5ad46c
+	bao_tradition_breizh_collective_lands_name: "케베즈" # bc86bfcd0e570029c854579abdaf46f9b691018c
+	bao_tradition_breizh_collective_lands_desc: "케베즈(현대 프랑스어로는 케베즈라고도 하며, 중세 시대에는 케마에스로 자주 불림)는 농민을 보호하기 위해(제한적이지만) 고안된 영지 소유 명령 체계입니다. 이 체계는 중세 온난기 동안 브르타뉴에서 토지 개간을 돕기 위해 시행되었습니다." # 5c76ac6c14e9e751d940a039e506a843d5d85af8
+	bao_tradition_free_range_name: "페우라조ù 리브르" # 9d5fc6be2105e4b914d8d6407a07192444dc54e5
+	bao_tradition_free_range_desc: "중세 시대에 브르타뉴 말은 매우 유명했습니다. 이 말들은 페우라주 리브르, 즉 자유로운 목초지(반 야생 또는 완전 야생의 범위)에서 사육되었으며, 유명한 기사 베르트랑 뒤 게클랭과 같이 서유럽 전역의 귀족들에게 소중히 여겨졌습니다. 15세기 말에 이르러 모든 범위가 한 가문에 의해 독점되었습니다." # aa7d8c8c867fc2b77a152598567dc4363ecccbc9
+	culture_parameter_bao_free_ranges: "통치자는 [GetGeographicalRegion('RICE_brittany_horse_region').GetName]에서 #high $building_type_bao_free_range_01$#! [building|E]를 건설할 수 있습니다." # 22e8b7833ae97807b5d961c5c3e9856d7e2f970b
+	culture_parameter_bao_horse_gift: "$bao_gift_breton_horses$ 상호작용을 해제합니다." # cb7c0cd2d14668919d416c4b9c8f26ec1719fbfa
+	# Events 
+	#sonerien_du 
+	bao.0001.t: "소네리엔 두" # 84351c5ebd317335da7eace7089f18bbe7126264
+	bao.0001.desc: "내 병사들이 내 거처 밖에서 체포한 검은 옷을 입은 젊은 남자 두 명을 데려왔습니다.\n\n"이 천한 하층민들이 마른 도랑에서 자고 있는 것을 발견했습니다, 저의 [ROOT.Char.GetLadyLord]." 한 병사가 그들이 누구냐는 질문에 답했습니다. "그들은 교회 음악가라고 말하지만, 수상하게 행동했고, 허가 없이 당신의 재산을 이용하는 노상강도임이 분명합니다."\n\n다른 병사가 끼어들었습니다. "수상하게 행동한다는 것은 동의하지만, 성급하게 판단해서는 안 됩니다."\n\n첫 번째 병사는 다른 병사의 말을 무시하고 말했습니다. "그들은 노상강도입니다, 당신이 좋아하든 아니든, 그러니 우리는 그들이 무단 침입한 것에 대한 즉각적인 본보기 처벌을 해야 합니다."" # 9d35425f963f7141c879f45810c6c2736400d217
+	bao.0001.a: "그들을 제압하고 그들의 소유물을 빼앗으십시오!" # f0490ddccd7beb48ee731c84146e0cc8bce24c63
+	bao.0001.b: "둘을 고향으로 돌려보내십시오." # 428100c67c67284907c808bb2155c8036114d414
+	bao.0001.c: "좋은 친구들 같군. 영입해 보자!" # 546ab5d53f70a14908b28dbaa7ef1a09cfa4b940
+	bao.0001.info: "#emphasis Historical Context:#! Up until the mid XXth century, costumes were the most reliable way to tell the social status of a stranger; in Brittany, black costumes were un-embroided costumes for the poorest of the poor. The "Sonerien Du" or "Black Musicians" were traveling singers and musicians paid mostly in food and drink, who went from church to church, mass to mass, and wedding to wedding to do their trade. They had the reputation of playing "hep diskrog" or "restlessly" and according to local superstition, a Breton wedding could only end when the musician was too drunk to play. They often were seen as troublemakers by the Gendarmes and the upper stratas of Breton society.\n The actual "Sonerien Du" legend which is the reference for the event is the legend of the Bro Vigouden (Barony of Kemper) where two black-coated musicians were unjustly punished around 1790 in Pont-'n-Abad (Pont-l'-Abbé in French) and sentenced to death for sleeping dead drunk in the roadside, either because they were mistaken for highway robbers or as the result of the corruption of the local aristocracy. Their bodies were exposed on spikes for everyone to see. Because this event coincided with (unverified) plague outbreaks, people held them as martyrs, and would touch the bodies, believing it would grant plague immunity." # null
+	#toss_a_coin 
+	bao.0002.t: "성스러운 우물" # cdb0a776bc6f59235e6a008dbe9478701acd9347
+	bao.0002.desc: "두 개의 제 성 사이를 여행하던 중, 저는 지역 성인에게 헌정된 새로운 우물을 발견했습니다. 근처 마을 사람들은 행운을 위해 우물에 동전을 던져야 한다고 말합니다!" # 97867cb78cd056976de0cf43d8ea4611d14037d0
+	bao.0002.a: "우물에 동전을 던지세요!" # 41a17b92e85a3e6f4634d861cf238d5b6017ad36
+	bao.0002.b: "아니, 어쩌면 아닐지도..." # e4f487fa03962f29b8f8b5be58f8b38e7ddaffd7
+	bao.0002.info: "#emphasis Historical Context:#! Wells in Brittany are more often than note dedicated to a local or actual Saint. Healing and thaumaturgic saints were, of course, chosen first and the well was believed to help grant good health." # null
+	#korriganed 
+	bao.0050.t: "코리건 도둑질!" # 8b1693e93ae17072a6b9af07f4585dfa79f9fa28
+	bao.0050.desc: "제 창고에서 금화가 조금 사라졌습니다. 하인들은 또다시 장난꾸러기 코리건 짓이라고 하는군요! 이제부터 코리건들을 제대로 대해야 할지도 모르겠습니다..." # e631fe2605f39946685ce32572f561aef36c3c7a
+	bao.0050.a: "맙소사!" # 7b8c3ae3f3b95f6afe497be53a2ebc15764458eb
+	bao.0050.info: "#emphasis Historical Context:#! The Korrigans are local mischievous dwarves in Brittany, very similar to leprechauns. They are known by plenty of names, such as Poulpiqué, Bouffon Noz, and Kereore; there are also said to be many varieties of them like Kerion, Ozegan, Korrig, and Pixies.  It is often said that if they are mistreated, they will steal one's precious clutter, like watches, socks, spoons or plates, so one should always be careful around them and treat them with respect." # null
+	bao.0051.t: "버섯 요정 고리" # fcbbb5f6ead0f7daf58c2391ad33fdbf855a000f
+	bao.0051.desc: "저는 당신의 거주지 근처를 돌아다니다가 멋지고 깨끗한 샹테렐 버섯의 "요정 고리"를 발견했습니다. 코리건들이 분명히 당신의 근면함에 보답한 것이겠죠! 이 버섯으로 무엇을 해야 할까요?" # 139903577f06558fa8abaddff4676c0c96874911
+	bao.0051.a: "말려서 용돈으로 팔아 보세요" # 4f24b5e28139670d19a0d8ec3e5d62cbf88ee47d
+	bao.0051.b: "요리사들에게 특별 감사 만찬을 준비하도록 요청하십시오" # 2ba645683b27b74b5731ad443cdf6872951ec8fc
+	bao.0051.info: "$bao.0050.info$" # f24ca53a655bb2a1ec8649052981acdda47ff44a
+	bao.0052.t: "코리간 조우?" # cf222d4793994879e014f4ed0f1a8a1f2e6f8450
+	bao.0052.desc: "저녁 식사 중에, 제 후견인 [ward.GetFirstName]은 제게 꽤나 난해한 질문을 했습니다. 만약 코리건을 만난다면 어떻게 해야 할까요?" # a46f949fbd9894e3164bed7b6e2bb5c63d935653
+	bao.0052.a: "달려!" # b78ee8edd0f9e5d3395edc60301cda518e0c5642
+	bao.0052.b: "그들과 함께 춤추고 노래하십시오!" # ce21d2ecb95a4261081378b0ebeb3a7a28147dd1
+	bao.0052.c: "절대 따르지 마십시오!" # a733c331295ff4d5984b829b60b3f63c73015f4f
+	bao.0052.d: "절대 그들을 괴롭히지 마십시오!" # c153dd1ad0bb44696cb0873061565da5793d91cd
+	bao.0052.e: "그들에게 관대하십시오." # ea275b475491551b2fd7d9f78d59e4a4dee5d8cd
+	bao.0052.a.info: "코리건은 작을지 몰라도 마법을 쓸 줄 알고 냉담할 수 있습니다! 항상 조심해야 합니다. 사람들이 말하듯이, 그들에게 밀이나 동전을 던져 주면 해가 뜰 때까지 셀 것입니다." # 86537a6744c8d40eb54cbff7f25591638e50276d
+	bao.0052.b.info: "코리건은 냉담한 것이 아니라 그저 장난스러울 뿐입니다! 그들과 함께 놀면, 그들이 저에게 보상을 해줄 것입니다!" # c65580d92eb673b2dd181b6a921fea2b5313d377
+	bao.0052.c.info: "코리간은 너무 장난기 많을 수 있습니다. 어린 아버지라면 그들을 따라가면 자녀를 다시는 볼 수 없을지도 모른다고 합니다. 그리고 여성이라면 절대로 코리간에게서 호두를 받아서는 안 된다고 합니다." # 857ffc30b4c8148f374c97d3d25d5ea4bf09190b
+	bao.0052.d.info: "코리간은 쉽게 불쾌해하는 것으로 알려져 있습니다. 그들은 아이러니를 좋아하지 않으며, 아주 조금이라도 그들을 짜증나게 하는 사람을 처벌하므로, 항상 외교적이고 정직하게 행동해야 합니다." # 447743f7275f487b41588373e9121ecb1a684fad
+	bao.0052.e.info: "코리건은 관대함을 보상합니다. 그들은 조력자들을 돕고 주는 자들에게 줍니다." # 2efd5b3bdc7a9fc076f11a3022cd64afee34b70b
+	# Horses 
+	bao.0200.t: "브르타뉴 말" # 8d142f14a204b90e05a5b7b8acc69f2ea9568e3b
+	bao.0200.desc: "[brittany_duchy.GetName]에는 자유롭게 또는 반야생 목초지에서 사육된 명마들이 서식합니다. 이로 인해 공작령은 부와 명성을 얻었으며, [recipient.GetTitledFirstName]과 같이 설득해야 할 사람이 있을 때 엄청난 자산이 될 것입니다." # 7d3d9c1425e90b6f22b6809835aa81b7c22d7111
+	bao.0200.a: "[recipient.GetFirstName]께서 신속히 말을 타시길 바랍니다!" # 23d9e8842d39574b3bb31dc00ed1f625bae8d86d
+	bao.0201.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]" # b535f9470a86cd812a65daad64bf1427aeb0949e
+	bao.0201.desc: "서유럽 최고의 말을 생산하는 [brittany_duchy.GetName]의 통치자로서, 저는 친선의 표시로 귀하의 개인적인 용도로 훌륭한 말을 선물로 드리며 이 서신을 보냅니다." # ca652ba0db1107f919a42105e0dc05b46284e43f
+	bao.0201.a: "놀라운 종마!" # 41a25d7b5ef3ac05273b13bde71a972a2ffedff5
