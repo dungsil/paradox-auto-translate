@@ -13,6 +13,12 @@ log.debug('[CK3] Mods: ', mods)
 
 // 비동기 함수 작성 후 실행
 await Promise.all(mods.map(processByMod))
+  .then(() => {
+    log.success('[CK3] All process done')
+  })
+  .catch((err) => {
+    log.error('[CK3] Error occurred', err)
+  })
 
 // 모드 별 처리 함수
 // 실제 메인 로직은 이 하위에 작성된다.
@@ -104,11 +110,13 @@ async function processByMod (mod: string) {
       log.verbose(`[CK3/${mod}] Translations: \n${translations}`)
 
       // 번역 파일  저장부분
-      log.success(`[CK3/${mod}] Write to ${distFile}`)
+      log.debug(`[CK3/${mod}] Write to ${distFile}`)
       await mkdir(dirname(distFile), { recursive: true })
       await writeFile(distFile, `${UTF8_BOM}l_korean:\n${translations}`, { encoding: 'utf-8' })
     }),
   )
+
+  log.success(`[CK3/${mod}] Process done`)
 }
 
 async function parseLines (filePath: string) {
