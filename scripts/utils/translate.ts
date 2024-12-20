@@ -59,6 +59,7 @@ export async function translate (content: string) {
 
   const response = await portkey.chat.completions.create({
     user: 'paradox-auto-translator',
+    model: 'gemini-2.0-flash-exp',
     messages: [
       { role: 'system', content: CK3_PROMPT },
       { role: 'user', content },
