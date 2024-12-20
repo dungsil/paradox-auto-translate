@@ -1,4 +1,4 @@
-import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
+import { mkdir, readdir, readFile, writeFile, basename } from 'node:fs/promises'
 import { dirname, join, resolve } from 'pathe'
 import { glob } from 'tinyglobby'
 import {
@@ -62,6 +62,7 @@ async function processByMod (mod: string) {
       const distFile = localizationFile
         .replace(localizationDir, join(modDir, 'mod/localization'))
         .replaceAll(meta.upstream.language as string, 'korean')
+      const filename = basename(distFile)
 
       // 번역 파일 로드
       let translatedLines: Record<string, { line: string | null, hash: string | null }>
@@ -84,7 +85,7 @@ async function processByMod (mod: string) {
         const shouldSkipTranslation = !upstreamLine || // 유효한 값인지 여부
           upstreamLine.line?.trim()?.startsWith('#') // 주석인지 여부
         if (shouldSkipTranslation) {
-          log.verbose(`[CK3/${mod}] Skip line: ${key} / ${upstreamLine.line}`)
+          log.verbose(`[CK3/${mod}/${filename}] Skip line: ${key} / ${upstreamLine.line}`)
 
           translatedLines[key] = {
             line: upstreamLine.line || null,
@@ -95,7 +96,7 @@ async function processByMod (mod: string) {
 
         // 빈 값이면 빈 값을 저장
         if (upstreamLine.line === '') {
-          log.verbose(`[CK3/${mod}] Skip line: ${key} / ${upstreamLine.line}`)
+          log.verbose(`[CK3/${mod}/${filename}] Skip line: ${key} / ${upstreamLine.line}`)
 
           translatedLines[key] = {
             line: '',
@@ -107,7 +108,7 @@ async function processByMod (mod: string) {
 
         // 변수만 있는 라인은 그대로 저장
         if (ONLY_VARIABLE_REGEX.test(upstreamLine.line)) {
-          log.verbose(`[CK3/${mod}] Skip line: ${key} / ${upstreamLine.line}`)
+          log.verbose(`[CK3/${mod}/${filename}] Skip line: ${key} / ${upstreamLine.line}`)
 
           translatedLines[key] = {
             line: upstreamLine.line,
@@ -133,14 +134,14 @@ async function processByMod (mod: string) {
         if (Object.hasOwn(translatedLines, key)) {
           const upstreamHash = hash(upstreamLine.line)
 
-          log.debug(`[CK3/${mod}/${key}] Upstream hash: ${upstreamHash} / Translated hash: ${translatedLines[key].hash}`)
+          log.debug(`[CK3/${mod}/${filename}/${key}] Upstream hash: ${upstreamHash} / Translated hash: ${translatedLines[key].hash}`)
           if (upstreamHash === translatedLines[key].hash) {
-            log.debug(`[CK3/${mod}] Skip key: ${key}`)
+            log.debug(`[CK3/${mod}/${filename}] Skip key: ${key}`)
             continue
           }
         }
 
-        log.verbose(`[CK3/${mod}] New key: ${key}`)
+        log.verbose(`[CK3/${mod}/${filename}] New key: ${key}`)
         const translated = await translate(upstreamLine.line)
         translatedLines[key] = {
           line: translated,
@@ -154,7 +155,7 @@ async function processByMod (mod: string) {
         .join('\n')
 
       // 번역 파일  저장부분
-      log.debug(`[CK3/${mod}] Write to ${distFile}`)
+      log.debug(`[CK3/${mod}/${filename}] Write file to ${distFile}`)
       await mkdir(dirname(distFile), { recursive: true })
       await writeFile(distFile, `${UTF8_BOM}l_korean:\n${translations}`, { encoding: 'utf-8' })
     }),
