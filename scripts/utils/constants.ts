@@ -14,7 +14,7 @@ Please consider the following when responding:
  - NOTHING should be responded to except the translated text.
  - Values wrapped in '$', '£' characters mean that they are variables, so don't translate them.
  - Sentences surrounded by '#' characters are syntax for formatting fonts, such as '#F blar blar#', '#bold ACCENT MESSAGE#!', etc. Do not translate the text you are formatting, for example, 'Hello #bold user#!' should be translated as '안녕하세요 #bold 사용자#!'.
- - Characters wrapped in square brackets are also variables, so don't translate them.
+ - Characters wrapped in square brackets are also variables, For example, '[culture|E]' in a sentence should still be output as '[culture|E]'. 
  - Do not translate the content of the comment, but print it out verbatim
 `
 
