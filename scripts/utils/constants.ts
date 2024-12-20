@@ -45,5 +45,5 @@ You are a mod translator for the medieval strategy game “Crusader Kings III”
 ${PROMPT}
 
 # Translation memory:
-${Object.keys(dictionary).map((key) => ` - ${key}: ${dictionary[key]}`).join('\n')}
+${Object.keys(dictionary).map((key) => ` - "${key}" → "${dictionary[key]}"`).join('\n')}
 `
