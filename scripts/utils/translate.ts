@@ -59,5 +59,8 @@ export async function translate (content: string) {
     ],
   })
 
-  return response.choices[0].message?.content?.trim() ?? null
+  return response.choices[0].message?.content
+      ?.trim()
+      ?.replace(/\n/g, '\\n')
+    ?? null
 }
