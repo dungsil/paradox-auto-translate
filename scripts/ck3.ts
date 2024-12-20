@@ -55,7 +55,6 @@ async function processByMod (mod: string) {
     },
   )
   log.debug(`[CK3/${mod}] Upstream localization files: ${localizationFiles.length} counts`)
-  log.verbose(localizationFiles.join('\n'))
 
   // 언어 파일 비동기 처리
   await Promise.all(
@@ -83,16 +82,38 @@ async function processByMod (mod: string) {
         const upstreamLine = upstreamLines[key]
 
         const shouldSkipTranslation = !upstreamLine || // 유효한 값인지 여부
-          !upstreamLine.line || // 값이 있는지 여부
-          upstreamLine.line?.trim()?.startsWith('#') || // 주석인지 여부
-          ONLY_VARIABLE_REGEX.test(upstreamLine.line) // 변수만 있는지 여부
-
-        // 유효하지 않은 라인이면 그대로 저장
+          upstreamLine.line?.trim()?.startsWith('#') // 주석인지 여부
         if (shouldSkipTranslation) {
+          log.verbose(`[CK3/${mod}] Skip line: ${key} / ${upstreamLine.line}`)
+
           translatedLines[key] = {
             line: upstreamLine.line || null,
             hash: null,
           }
+          continue
+        }
+
+        // 빈 값이면 빈 값을 저장
+        if (upstreamLine.line === '') {
+          log.verbose(`[CK3/${mod}] Skip line: ${key} / ${upstreamLine.line}`)
+
+          translatedLines[key] = {
+            line: '',
+            hash: hash(''),
+          }
+
+          continue
+        }
+
+        // 변수만 있는 라인은 그대로 저장
+        if (ONLY_VARIABLE_REGEX.test(upstreamLine.line)) {
+          log.verbose(`[CK3/${mod}] Skip line: ${key} / ${upstreamLine.line}`)
+
+          translatedLines[key] = {
+            line: upstreamLine.line,
+            hash: hash(upstreamLine.line),
+          }
+
           continue
         }
 
@@ -129,12 +150,8 @@ async function processByMod (mod: string) {
 
       // 형식에 맞춰 구조화
       const translations = Object.entries(translatedLines)
-        .map(([key, {
-          line: value,
-          hash,
-        }]) => `\t${key.startsWith('#') ? key : `${key}:`} ${value === null ? '' : `"${value}" # ${hash}`}`)
+        .map(([key, { line: value, hash, }]) => `\t${key.startsWith('#') ? key : `${key}:`} ${value === null ? '' : `"${value}" # ${hash}`}`)
         .join('\n')
-      log.verbose(`[CK3/${mod}] Translations: \n${translations}`)
 
       // 번역 파일  저장부분
       log.debug(`[CK3/${mod}] Write to ${distFile}`)
@@ -174,7 +191,7 @@ function parseLine (line: string) {
   const separatedLine = PARADOX_PARSE_REGEX.exec(line)
   if (separatedLine) {
     return [
-      separatedLine[1].trim().replace(/:$/, ''),
+      separatedLine[1].trim().replaceAll(':', ''),
       separatedLine[2].replace(/^"(.+)?"$/, '$1'),
       separatedLine[3]?.trim() || null,
     ]

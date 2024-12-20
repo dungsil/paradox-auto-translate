@@ -17,7 +17,7 @@ export const ONLY_VARIABLE_REGEX = /^\$[a-zA-Z0-9_-]+\$$/
  * Group 2: 값 (따옴표 포함)
  * Group 3: 해시 (존재하는경우만)
  */
-export const PARADOX_PARSE_REGEX = /(.*:)(?:\d*)?(?:\s+)(".*")(?:\s+?#(.*))?/
+export const PARADOX_PARSE_REGEX = /(.*:)(?:\d*)?(?:\s+)(".*")(?:\s+?#\s+?([a-z0-9]+))?/
 
 // 프롬프트
 export const PROMPT = `

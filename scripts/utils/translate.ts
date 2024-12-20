@@ -55,6 +55,8 @@ const portkey = new Portkey({
 })
 
 export async function translate (content: string) {
+  log.verbose(`[AI] Request translation content: ${content}`)
+
   const response = await portkey.chat.completions.create({
     user: 'paradox-auto-translator',
     messages: [
@@ -62,6 +64,8 @@ export async function translate (content: string) {
       { role: 'user', content },
     ],
   })
+
+  log.verbose(`[AI] Response: ${JSON.stringify(response)}`)
 
   return response.choices[0].message?.content
       ?.trim()
