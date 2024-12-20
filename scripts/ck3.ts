@@ -96,10 +96,12 @@ async function processByMod (mod: string) {
         }
 
         // 사전에 있는 키는 사전에서 가져온다
-        if (Object.hasOwn(dictionary, upstreamLine.line)) {
+        if (Object.hasOwn(dictionary, upstreamLine.line.toLowerCase())) {
+          const dictonaryValue = dictionary[upstreamLine.line.toLowerCase()]
+
           translatedLines[key] = {
-            line: dictionary[upstreamLine.line],
-            hash: hash(upstreamLine.line),
+            line: dictonaryValue,
+            hash: hash(dictonaryValue),
           }
 
           continue
