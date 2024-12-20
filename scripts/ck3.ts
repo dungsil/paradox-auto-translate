@@ -1,5 +1,5 @@
-import { mkdir, readdir, readFile, writeFile, basename } from 'node:fs/promises'
-import { dirname, join, resolve } from 'pathe'
+import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
+import { dirname, join, resolve, basename } from 'pathe'
 import { glob } from 'tinyglobby'
 import {
   dictionary,
