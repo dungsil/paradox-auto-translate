@@ -15,8 +15,8 @@ importers:
         specifier: 3.2.3
         version: 3.2.3
       jiti:
-        specifier: 2.4.1
-        version: 2.4.1
+        specifier: 2.4.2
+        version: 2.4.2
       pathe:
         specifier: 1.1.2
         version: 1.1.2
@@ -47,8 +47,8 @@ packages:
       picomatch:
         optional: true
 
-  jiti@2.4.1:
-    resolution: {integrity: sha512-yPBThwecp1wS9DmoA4x4KR2h3QoslacnDR8ypuFM962kI4/456Iy1oHx2RAgh4jfZNdn0bctsdadceiBUgpU1g==}
+  jiti@2.4.2:
+    resolution: {integrity: sha512-rg9zJN+G4n2nfJl5MW3BMygZX56zKPNVEYYqq7adpmMh4Jn2QNEwhvQlFy6jPVdcod7txZtKHWnyZiA3a0zP7A==}
     hasBin: true
 
   pathe@1.1.2:
@@ -85,7 +85,7 @@ snapshots:
     optionalDependencies:
       picomatch: 4.0.2
 
-  jiti@2.4.1: {}
+  jiti@2.4.2: {}
 
   pathe@1.1.2: {}
 
