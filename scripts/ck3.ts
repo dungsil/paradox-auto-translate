@@ -1,7 +1,18 @@
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join, resolve } from 'pathe'
 import { glob } from 'tinyglobby'
-import { dictionary, exists, loadMeta, log, type Meta, ROOT_DIR, translate, UTF8_BOM } from './utils'
+import {
+  dictionary,
+  exists,
+  hash,
+  loadMeta,
+  log,
+  type Meta,
+  ONLY_VARIABLE_REGEX,
+  ROOT_DIR,
+  translate,
+  UTF8_BOM,
+} from './utils'
 
 // 기본 디렉토리 지정
 const baseDir = join(ROOT_DIR, 'ck3')
@@ -53,7 +64,7 @@ async function processByMod (mod: string) {
         .replaceAll(meta.upstream.language as string, 'korean')
 
       // 번역 파일 로드
-      let translatedLines: Record<string, string | null>
+      let translatedLines: Record<string, { line: string | null, hash: string | null }>
       if (await exists(distFile)) {
         translatedLines = await parseLines(distFile)
       } else {
@@ -68,44 +79,69 @@ async function processByMod (mod: string) {
           continue
         }
 
-        // 이미 번역된 키가 있음
-        if (Object.hasOwn(translatedLines, key)) {
-          continue // TODO: 이후 업데이트 체크 필요
-        }
-
         const upstreamLine = upstreamLines[key]
 
         // 유효하지 않은 라인이면 그대로 저장
         if (!upstreamLine) {
-          translatedLines[key] = upstreamLine
+          translatedLines[key] = {
+            line: upstreamLine,
+            hash: null,
+          }
           continue
         }
 
         // 주석은 그대로 저장
-        if (upstreamLine.trim().startsWith('#')) {
-          translatedLines[key] = upstreamLine
+        if (upstreamLine.line.trim().startsWith('#')) {
+          translatedLines[key] = {
+            line: upstreamLine.line,
+            hash: null,
+          }
           continue
         }
 
         // '$variable$' 형식의 문자열은 번역하지 않음
-        if (/^\$[^$]+\$$/.test(upstreamLine)) {
-          translatedLines[key] = upstreamLine
+        if (ONLY_VARIABLE_REGEX.test(upstreamLine.line)) {
+          translatedLines[key] = {
+            line: upstreamLine.line,
+            hash: null,
+          }
           continue
         }
 
         // 사전에 있는 키는 사전에서 가져온다
-        if (Object.hasOwn(dictionary, upstreamLine)) {
-          translatedLines[key] = dictionary[upstreamLine]
+        if (Object.hasOwn(dictionary, upstreamLine.line)) {
+          translatedLines[key] = {
+            line: dictionary[upstreamLine.line],
+            hash: hash(upstreamLine.line),
+          }
+
           continue
         }
 
+        // 번역된 키가 이미 존재한다면 해시 비교
+        if (Object.hasOwn(translatedLines, key)) {
+          const upstreamHash = hash(upstreamLine.line)
+
+          if (upstreamHash === translatedLines[key].hash) {
+            log.debug(`[CK3/${mod}] Skip key: ${key}`)
+            continue
+          }
+        }
+
         log.verbose(`[CK3/${mod}] New key: ${key}`)
-        translatedLines[key] = await translate(upstreamLine)
+        const translated = await translate(upstreamLine.line)
+        translatedLines[key] = {
+          line: translated,
+          hash: hash(upstreamLine.line),
+        }
       }
 
       // 형식에 맞춰 구조화
       const translations = Object.entries(translatedLines)
-        .map(([key, value]) => `\t${key.startsWith('#') ? key : `${key}:`} ${value === null ? '' : `"${value}" # ${upstreamLines[key]}`}`)
+        .map(([key, {
+          line: value,
+          hash,
+        }]) => `\t${key.startsWith('#') ? key : `${key}:`} ${value === null ? '' : `"${value}" # ${hash}`}`)
         .join('\n')
       log.verbose(`[CK3/${mod}] Translations: \n${translations}`)
 
@@ -123,14 +159,17 @@ async function parseLines (filePath: string) {
   const fileContent = await readFile(filePath, { encoding: 'utf-8' })
   const lines = fileContent.split('\n')
 
-  const parsedLine: Record<string, string | null> = {}
+  const parsedLine: Record<string, { line: string, hash: string | null }> = {}
   for (const line of lines) {
-    const [key, value] = parseLine(line)
+    const [key, value, hash] = parseLine(line)
     if (!key || (key.startsWith('l_') && key.endsWith(':') && value === null)) {
       continue
     }
 
-    parsedLine[key] = value
+    parsedLine[key] = {
+      line: value!!,
+      hash,
+    }
   }
 
   return parsedLine
@@ -141,12 +180,13 @@ function parseLine (line: string) {
     return []
   }
 
-  const separatedLine = line.match(/(.*:)(\d*)( *)(".*")/)
+  const separatedLine = line.match(/(.*:)(\d*)( *)(".*")(?:#(.*))?/)
 
   if (separatedLine) {
     return [
       separatedLine[1].trim().replace(/:$/, ''),
       separatedLine[4].replace(/^"(.+)?"$/, '$1'),
+      separatedLine[5].trim(),
     ]
   } else {
     return [line.trim(), null]
