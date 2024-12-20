@@ -83,7 +83,8 @@ async function processByMod (mod: string) {
         const upstreamLine = upstreamLines[key]
 
         const shouldSkipTranslation = !upstreamLine || // 유효한 값인지 여부
-          upstreamLine.line.trim().startsWith('#') || // 주석인지 여부
+          !upstreamLine.line || // 값이 있는지 여부
+          upstreamLine.line?.trim()?.startsWith('#') || // 주석인지 여부
           ONLY_VARIABLE_REGEX.test(upstreamLine.line) // 변수만 있는지 여부
 
         // 유효하지 않은 라인이면 그대로 저장
@@ -176,7 +177,7 @@ function parseLine (line: string) {
     return [
       separatedLine[1].trim().replace(/:$/, ''),
       separatedLine[4].replace(/^"(.+)?"$/, '$1'),
-      separatedLine[5].trim(),
+      separatedLine[5]?.trim() || null,
     ]
   } else {
     return [line.trim(), null]
