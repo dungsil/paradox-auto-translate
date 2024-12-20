@@ -105,7 +105,7 @@ async function processByMod (mod: string) {
 
       // 형식에 맞춰 구조화
       const translations = Object.entries(translatedLines)
-        .map(([key, value]) => `\t${key.startsWith('#') ? key : `${key}:`} ${value === null ? '' : `"${value}"`}`)
+        .map(([key, value]) => `\t${key.startsWith('#') ? key : `${key}:`} ${value === null ? '' : `"${value}" # ${upstreamLines[key]}`}`)
         .join('\n')
       log.verbose(`[CK3/${mod}] Translations: \n${translations}`)
 
