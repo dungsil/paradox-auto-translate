@@ -1,6 +1,6 @@
 import dotenv from 'dotenv'
 import { Portkey } from 'portkey-ai'
-import { CK3_PROMPT } from '.'
+import { log, CK3_PROMPT } from '.'
 
 dotenv.config()
 
@@ -9,6 +9,10 @@ const {
   PORTKEY_VIRTUAL_KEY: virtualKey,
   PROTKEY_FALLBACK_OPENAI_VIRTUAL_KEY: fallbackVirtualKey,
 } = process.env
+
+log.debug(`[PORTKEY] API Key: ${apiKey}`)
+log.debug(`[PORTKEY] Virtual Key: ${virtualKey}`)
+log.debug(`[PORTKEY] Fallback OpenAI Virtual Key: ${fallbackVirtualKey}`)
 
 const portkey = new Portkey({
   apiKey,

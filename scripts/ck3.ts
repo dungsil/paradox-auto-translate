@@ -172,12 +172,11 @@ function parseLine (line: string) {
   }
 
   const separatedLine = PARADOX_PARSE_REGEX.exec(line)
-
   if (separatedLine) {
     return [
       separatedLine[1].trim().replace(/:$/, ''),
-      separatedLine[4].replace(/^"(.+)?"$/, '$1'),
-      separatedLine[5]?.trim() || null,
+      separatedLine[2].replace(/^"(.+)?"$/, '$1'),
+      separatedLine[3]?.trim() || null,
     ]
   } else {
     return [line.trim(), null]
