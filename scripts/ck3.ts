@@ -54,8 +54,6 @@ async function processByMod (mod: string) {
         translatedLines = {}
       }
 
-      log.start(`[CK3/${mod}] Start process ${localizationFile} `)
-
       // 업스트림 파일 로드
       const upstreamLines = await parseLines(localizationFile)
       for (const key of Object.keys(upstreamLines)) {
