@@ -1,7 +1,7 @@
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join, resolve } from 'pathe'
 import { glob } from 'tinyglobby'
-import { exists, loadMeta, log, type Meta, ROOT_DIR, UTF8_BOM } from './utils'
+import { dictornary, exists, loadMeta, log, type Meta, ROOT_DIR, translate, UTF8_BOM } from './utils'
 
 // 기본 디렉토리 지정
 const baseDir = join(ROOT_DIR, 'ck3')
@@ -54,6 +54,8 @@ async function processByMod (mod: string) {
         translatedLines = {}
       }
 
+      log.start(`[CK3/${mod}] Start process ${localizationFile} `)
+
       // 업스트림 파일 로드
       const upstreamLines = await parseLines(localizationFile)
       for (const key of Object.keys(upstreamLines)) {
@@ -62,12 +64,39 @@ async function processByMod (mod: string) {
           continue
         }
 
+        // 이미 번역된 키가 있음
         if (Object.hasOwn(translatedLines, key)) {
-          // 이미 번역된 키가 있음
-        } else {
-          log.verbose(`[CK3/${mod}] New key: ${key}`)
-          translatedLines[key] = upstreamLines[key] // TODO: 번역기능 추가
+          continue // TODO: 이후 업데이트 체크 필요
         }
+
+        const upstreamLine = upstreamLines[key]
+
+        // 유효하지 않은 라인이면 그대로 저장
+        if (!upstreamLine) {
+          translatedLines[key] = upstreamLine
+          continue
+        }
+
+        // 주석은 그대로 저장
+        if (upstreamLine.trim().startsWith('#')) {
+          translatedLines[key] = upstreamLine
+          continue
+        }
+
+        // '$variable$' 형식의 문자열은 번역하지 않음
+        if (/^\$[^$]+\$$/.test(upstreamLine)) {
+          translatedLines[key] = upstreamLine
+          continue
+        }
+
+        // 사전에 있는 키는 사전에서 가져온다
+        if (Object.hasOwn(dictornary, upstreamLine)) {
+          translatedLines[key] = dictornary[upstreamLine]
+          continue
+        }
+
+        log.verbose(`[CK3/${mod}] New key: ${key}`)
+        translatedLines[key] = await translate(upstreamLines[key]!!)
       }
 
       // 형식에 맞춰 구조화
@@ -77,7 +106,7 @@ async function processByMod (mod: string) {
       log.verbose(`[CK3/${mod}] Translations: \n${translations}`)
 
       // 번역 파일  저장부분
-      log.info(`[CK3/${mod}] Write to ${distFile}`)
+      log.success(`[CK3/${mod}] Write to ${distFile}`)
       await mkdir(dirname(distFile), { recursive: true })
       await writeFile(distFile, `${UTF8_BOM}l_korean:\n${translations}`, { encoding: 'utf-8' })
     }),
