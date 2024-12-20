@@ -9,7 +9,3 @@ export async function exists (path: string) {
     return false
   }
 }
-
-export async function notExists (path: string) {
-  return !(await exists(path))
-}

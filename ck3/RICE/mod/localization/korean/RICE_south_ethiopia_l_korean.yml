@@ -1,0 +1,564 @@
+﻿l_korean:
+	RICE_every_enset_county: "$innovation_RICE_enset$ [혁신|E]을 보유한 [문화|E]의 모든 [county|E]" # b4fc037d820fb39f88a3dade1e3f68f2d2b3dc4f
+	RICE_enset_region: "엔세트 토착 지역" # b5a1ed4df30022937e7587c2bdcdf7efc80b1722
+	#RICE_enset_region_development_growth_factor "[GetGeographicalRegion('RICE_enset_region').GetName] [region|E]에서 $MOD_MONTHLY_DEVELOPMENT_GROWTH_FACTOR$" # 5a5a0d8c361e5842ac12b06999efb7b20687c6e4
+	RICE_south_ethiopia_region: "남에티오피아" # 91802acc692149e4b1241d23b32b90a5286d861d
+	RICE_south_ethiopia_gimuwa_opinion: "기무와 후보로 선정되었습니다" # b68e9f44568193ae8b23b56ee17c8539e5b52f63
+	RICE_south_ethiopia_reconciliation_opinion: "화해의 정신" # 26a2e915661c148f60fcf219279dd9aa2a71544c
+	RICE_south_ethiopia_capital_req: "[capital|E]이(가) [GetGeographicalRegion('RICE_south_ethiopia_region').GetName]에 있습니다." # 97d26d7bd3bc54f7b703dfc19befaa427f5b23bf
+	RICE_same_faith_capital_req: "귀하의 [capital|E]은(는) 귀하와 같은 [faith|E]을(를) 믿습니다" # c980cdc3438a2d69db39d8197843520bd40d12ba
+	RICE_decision_fichee_month_req: "월은 4월에서 6월 사이입니다." # 28b1a471e50ad18b432e881525046e668e0ed129
+	RICE_decision_gifaataa_month_req: "월이 7월과 8월 사이입니다" # 6aac0bda807d39e17c574743980e35dd43e867c3
+	Motolomi: "모톨로미" # f0a669595fc2ad72f0399207b347489108e50aca
+	dynn_Motolomi: "다모트" # faa8d8f3b71eb87864bb16875dadd3445d929b6c
+	# Culture Stuff 
+	tradition_RICE_south_ethiopian_walls_name: "농업 성벽" # 3566f4773d24796033970b3a8d1a74df115e8a5e
+	tradition_RICE_south_ethiopian_walls_desc: "#F This culture frequently builds stone walls to retain soil from erosion and for irrigational purposes. More foresighted leaders of this culture use the techniques for constructing these walls, and the social institutions behind them, to defend their borders from enemy raids and invasions.#!" # null
+	tradition_RICE_great_rift_valley_name: "리프트 계곡 상인" # 5f8fb9561ca2506483d8fd83e1b2e0bed95ec622
+	tradition_RICE_great_rift_valley_desc: "#F This culture, whose origins lie in southern Ethiopia, has historically been involved as a middleman between the interior polities of East Africa, and the maritime cities of Indian and Red Seas and the kingdoms of northern Ethiopia. The more powerful of their tribes and kingdoms often extract tribute of precious goods and luxuries to expand their commercial influence.#!" # null
+	innovation_RICE_enset: "엔셋 농업 체계" # 6f7730b8e82a8811577a01177511b55a494f19b8
+	innovation_RICE_enset_desc: "#italic Enset#!, also known as the "false banana," is a plant native to southern Ethiopia. Through use of time-honored techniques and methods, one can maximize its value as a drought-resistant root crop, that has a variety of uses, including for food, ropes, weaving, building material, medicine, and more." # null
+	RICE_enset_decision_unlock: "#V $RICE_south_ethiopia_enset_decision$# [결정|E]을 해금합니다!" # f23978993e4d30998f476bc77a22f3f2341af046
+	innovation_RICE_south_ethiopian_walls: "고지대 농업 장벽" # c9acc11d65aea4691fcfd46c9e0cc5d1b7681c48
+	innovation_RICE_south_ethiopian_walls_desc: "에티오피아 남부의 산과 계곡에서 현지인들은 침식으로부터 토양을 보존하고 관개 목적으로 돌담을 자주 건설합니다. 더욱 선견지명이 있는 지도자들은 이러한 벽 건설 기술과 그 배후의 사회적 제도를 사용하여 적의 습격과 침략으로부터 국경을 방어하기까지 했습니다." # d8b60706c20f77fc9df032e9f5b5b73ed91709c6
+	tradition_RICE_cattle_counting_ceremonies_name: "소 세기 의식" # abdd3cb94e848ded2f55c97aca41c14408ae4af7
+	tradition_RICE_cattle_counting_ceremonies_desc: "#F This culture places great economic and social value on cattle, and those who accumulate many cattle are highly respected. Unique to this culture are special cattle counting ceremonies such as the #italic dala#!, #italic lika#!, and #italic gimuwa#! ceremonies, that allow members in the community to prove their worth and gain status and fame.#!" # null
+	culture_parameter_unlock_rice_cattle_counting_trait: "소 소유자 [traits|E]는 추가 보너스를 제공합니다" # eb72a57c54fd16bcbfd6ffd74e4f37a32c3ae84d
+	culture_parameter_unlock_rice_cattle_counting_activity: "에티오피아 남부 소 목축 축제 [activity|E]를 해제하여 목축업자 [traits|E]를 획득하거나 업그레이드합니다." # a0ded5eb248fba537da59ffdd3a723c8d6e0ccf8
+	culture_parameter_unlock_rice_sidama_maintain_trees: "$RICE_south_ethiopia_sidama_groves_decision$ 결정을 잠금 해제합니다" # c27082f8e6b33a9ed5aca014f1ef7510146c2582
+	#  tradition_RICE_ayyaanto_name "아야안토" # edc0b14f6cc69dd63a7060341d44b5f572a47214
+	#  tradition_RICE_ayyaanto_desc "#F In this culture, astrologists called #italic ayyaanto#! play a major role in society through their ability to read the stars, perform various ritual divinations, and advise the elders and leaders on what to do.#!" # null
+	tradition_RICE_halale_name: "할랄레" # 63420016eb6dd7049472695b10d3b8dad44b76a8
+	tradition_RICE_halale_desc: "#F #italic Halale#!, or truth, is the name for the moral code central to this culture's religious, social, and political institutions and worldview. Honoring ancestors, protecting sacred trees, and fair punishment are just some aspects of #italic halale#!. The code is interpreted and enforced by elders who embody it and who deserve respect, fear, and recognition.#!" # null
+	tradition_RICE_gadaa_name: "가다" # b9a455b518f371e1010f17ba682cdc9b5b5d6ed3
+	tradition_RICE_gadaa_desc: "#F This culture's society is based on #italic Gadaa#!, a system of social organization revolving around generational peer groups that succeed each other every eight years in assuming political, religious, and military responsibilities. Built into this system are mechanisms for conflict resolution, continuous military training to face any threat, and encouragement of justice.#!" # null
+	innovation_RICE_cloth_currency: "옷감 화폐" # 2fc7e5c0c75405f0b522f37013a2d41a5c00f848
+	innovation_RICE_cloth_currency_desc: "많은 아프리카 사회에서 옷감은 개인의 위신과 지위를 높이고 개인 정체성의 표식일 뿐만 아니라 화폐의 역할도 합니다." # 754bd0421aa3f4fc03da374892bdb72869e1b05b
+	innovation_RICE_iron_currency: "철 화폐" # e0c74a27e715b19b66b2704d5956fc2447775545
+	innovation_RICE_iron_currency_desc: "철괴는 동아프리카 전역에서 전통적으로 통화로 사용된 #italic 아몰레# 소금 블록보다 통화로서 더 신뢰할 수 있습니다." # c7c87b47d1663afc4591ff4257ef2cf59b31c7d0
+	culture_parameter_unlock_rice_iron_currency_innovation: "이 전통을 통해 [culture|E]는 $culture_era_early_medieval$ [era|E] 시대에 #V $innovation_RICE_iron_currency$#! [innovation|E]를 잠금 해제할 수 있습니다." # 4c421b2a916978d724c64518e7549e951423c8b2
+	culture_parameter_unlock_rice_rift_valley_courtier_spawn: "[GetGeographicalRegion('RICE_south_ethiopia_region').GetName] 지역에서 지도 밖에 있는 동아프리카 [cultures|E]의 [courtiers|E]가 생성될 확률이 증가하며, 이들을 받아들였을 때 주어지는 [county_modifier|E]의 지속 시간이 두 배로 늘어납니다" # bec943ac0e030a11231d074e14f5fedccf6a2abf
+	# Traits 
+	trait_RICE_cattle_owner_1: "위대한 가축 소유자" # 00e62a0971f9b22bf98a87a20d92bd867459242e
+	trait_RICE_cattle_owner_2: "위대한 소유자" # f6b50aebefaae35dea857c4fb210eeb486722478
+	trait_RICE_cattle_owner_1_desc: "이 캐릭터는 #italic 달라#! 소 세기 의식을 완료하여 백 마리 이상의 소를 소유했음을 입증했습니다. 따라서 이들은 공동체에서 가치 있고 주목할 만한 인물로 간주됩니다." # b4b5ff5b5c41782582f3c1df6f4a021f78ffe497
+	trait_RICE_cattle_owner_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] 님이 #italic 달라#! 가축 세기 의식을 완료하여 [ROOT.GetCharacter.GetSheHe]가 백 마리 이상의 가축을 소유하고 있음을 증명했습니다. 따라서 [ROOT.GetCharacter.GetSheHe|U]는 [ROOT.GetCharacter.GetHerHis] 사회에서 가치 있고 주목할 만한 사람으로 여겨집니다." # f72b3fef10f5f620c3d46de3d2862992b150fea8
+	trait_RICE_cattle_owner_2_desc: "이 인물은 #italic 리카#! 소 머리 세기 의식을 완료하여 1000마리 이상의 소를 소유함을 증명했습니다. 이처럼 많은 소떼를 보유한 그들은 공동체에서 가장 존경받는 사람들 중 한 명입니다." # 36c4aac2e7c6992f4aafc9037f8f88e19cd3891c
+	trait_RICE_cattle_owner_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] 님이 #italic 리카#! 소 세기 의식을 완료하여 [ROOT.GetCharacter.GetSheHe]가 천 마리가 넘는 소를 소유하고 있음을 증명했습니다. 이처럼 큰 가축 떼를 거느린 [ROOT.GetCharacter.GetSheHe]는 지역 사회에서 가장 존경받는 사람 중 한 명입니다." # 14f07040bdfb777356e83e3394ce873464f2b4c5
+	#  trait_track_RICE_cattle_owner "위대한 가축 소유자" # 00e62a0971f9b22bf98a87a20d92bd867459242e
+	#  trait_track_RICE_cattle_owner_desc "소유한 소는 권력, 지위, 부를 의미합니다. 소 세기 의식을 통해 소의 수를 증명함으로써 사회에서 위대한 인물이 될 수 있습니다." # 0d89c49269e28161fc54984254c218a64c21aa54
+	trait_RICE_cattle_owner_spouse: "유명한 소 사육가의 친척" # fe9f739bad6844bddd7884a21eea20fa5d6dce44
+	trait_RICE_cattle_owner_spouse_desc: "이 캐릭터는 #italic 기무와#! 의식을 완료했습니다. 이러한 영예는 각각 백 마리, 천 마리의 소떼를 소유하고 있음을 증명하기 위해 #italic 달라#! 또는 #italic 리카#! 소 세기 의식을 완료한 위대한 소 소유주의 친척에게 부여됩니다. 그들은 시장에 가서 물건을 사고팔 수 없으며 모든 작업에서 조수의 도움을 받아야 합니다." # 892ae42f2108f1725ec8b5bfb3ab66768bbd6f54
+	trait_RICE_cattle_owner_spouse_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] 님이 #italic 기무와#! 의식을 완료했습니다. 이러한 영광은 각각 백 마리, 천 마리의 가축을 소유했음을 증명하기 위해 #italic 달라#! 또는 #italic 리카#! 가축 세기 의식을 완료한 위대한 가축 소유자의 친척에게 주어집니다. [ROOT.GetCharacter.GetSheHe|U]는 시장에 가서 물건을 사고팔 수 없으며, 모든 작업에서 조력자의 도움을 받아야 합니다." # c86883ffe7d45fb55856750e0db99893f74244b1
+	trait_RICE_cattle_owner: "$trait_RICE_cattle_owner_1$" # null
+	trait_RICE_cattle_owner_desc: "$trait_RICE_cattle_owner_1_desc$" # null
+	# Activities 
+	activity_RICE_south_ethiopia_cattle_counting_ceremony_host_an_a: "$host_activity_a$" # null
+	activity_RICE_south_ethiopia_cattle_counting_ceremony: "가축 집계 의식" # fc332cbf94d4c1bb571d165b511f9836884e3463
+	activity_RICE_south_ethiopia_cattle_counting_ceremony_desc: "지역 사회에서 가장 가치 있는 구성원은 많은 소 떼를 소유한 사람들입니다. 그러한 떼를 소유하고 있다는 것을 증명하는 유일한 방법은 소 세기 의식을 통하는 것입니다." # 805cdac88d715892959a62213361b6e02b24635c
+	activity_RICE_south_ethiopia_cattle_counting_ceremony_selection_tooltip: "[GetTrait('RICE_cattle_owner_1').GetName( GetNullCharacter )] [trait|E] 특성을 얻거나 업그레이드합니다.\n\n$activity_RICE_south_ethiopia_cattle_counting_ceremony_context_tooltip$" # e12c5c3f6cb6b9aecde933e692ddde68ead26ef3
+	activity_RICE_south_ethiopia_cattle_counting_ceremony_context_tooltip: "#emphasis Historical Context:#! The Welayta, like a number of cultures around the world, highly value cattle. This is reflected in their cattle counting ceremonies, which are an important way for Welayta men to show off and gain prestige in the community. The main ceremonies are #italic dala#!, for counting at least a hundred cattle, and the subsequent #italic lika#!, for counting at least a thousand cattle. They are also associated with the #italic gimuwa#! ceremony, which is held in honor of the wife or mother of the #italic dala#! or #italic lika#! candidate." # null
+	activity_RICE_south_ethiopia_cattle_counting_ceremony_host_desc: "\n$BULLET_WITH_TAB$[GetTrait('RICE_cattle_owner_1').GetName( GetNullCharacter )] [trait|E] 획득 또는 업그레이드\n$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$[dynasty_prestige_i|E][dynasty_prestige|E]\n$BULLET_WITH_TAB$선택된 반대 성별의 [spouse|E] 또는 [close_family|E] 구성원이 [GetTrait('RICE_cattle_owner_spouse').GetName( GetNullCharacter )] [trait|E] 획득" # c584fcde92a9f8c7d481bb21e36dfb2d3a335599
+	activity_RICE_south_ethiopia_cattle_counting_ceremony_guest_desc: "$BULLET_WITH_TAB$[명성_i|E][명성|E]\n$BULLET_WITH_TAB$[신앙심_i|E][신앙심|E]" # c94e18ce336869b977b22b78ba50c21f8abe8214
+	activity_RICE_south_ethiopia_cattle_counting_ceremony_province_desc: 
+	activity_RICE_south_ethiopia_cattle_counting_ceremony_destination_selection: "$activity_RICE_south_ethiopia_cattle_counting_ceremony_province_desc$" # null
+	activity_RICE_south_ethiopia_cattle_counting_ceremony_guest_help_text: "$activity_RICE_south_ethiopia_cattle_counting_ceremony$" # null
+	activity_RICE_south_ethiopia_cattle_counting_ceremony_predicted_cost: "이 [activity|E]의 비용은 선택한 [activity_options|E]에 따라 달라집니다." # a433e75112c3a69ac7ef348042d28d9343920baa
+	activity_RICE_south_ethiopia_cattle_counting_ceremony_conclusion_desc: "[GetActivityType( 'activity_RICE_south_ethiopia_cattle_counting_ceremony' ).GetName]이(가) 끝났습니다. 당신은 모든 이들에게 당신의 소떼의 위대함을 입증했습니다!" # e81f31b6f6926dbc1f22704ab9104d18def6779c
+	RICE_south_ethiopia_cattle_counting_ceremony_counting_phase: "계산 중" # 7810ca2eec9994e430b34bfbe7314516c25672d5
+	RICE_south_ethiopia_cattle_counting_ceremony_counting_phase_desc: "소는 몇 마리나 있습니까?" # 6b473f328b9131f23ba969b555b8bd96cbad7a67
+	RICE_south_ethiopia_cattle_counting_ceremony_status_intent_header: "상태:" # 11dc9e1952928d4ca947651277656b4d8b55fffc
+	RICE_south_ethiopia_cattle_counting_ceremony_status_intent: "상태" # bae7d5be70820ed56467bd9a63744e23b47bd711
+	RICE_south_ethiopia_cattle_counting_ceremony_status_intent_desc: "연설을 통해 얻는 [dynasty_prestige_i|E] [dynasty_prestige|E]를 두 배로 증가시킵니다. [GetTrait('ambitious').GetName( GetNullCharacter )|U]와 [GetTrait('arrogant').GetName( GetNullCharacter )] 캐릭터는 추가적인 [stress|E]를 잃습니다." # ecf01022d862973df8fc2f7815a0147e90a07841
+	RICE_south_ethiopia_cattle_counting_ceremony_community_intent_header: "커뮤니티:" # 48797e264e29594942b01679489176720ea8d937
+	RICE_south_ethiopia_cattle_counting_ceremony_community_intent: "공동체" # bfd58ee3a270f3a931009900e1008d549bbd7453
+	RICE_south_ethiopia_cattle_counting_ceremony_community_intent_desc: "당신은 가축을 과시하는 것뿐만 아니라 모든 사람에게 관대함을 보여주려 합니다. 연회에서 기본 [prestige_i|E] [prestige|E]와 [piety_i|E] [piety|E]를 #P +50%#! 얻습니다. [GetTrait('generous').GetName( GetNullCharacter )|U]와 [GetTrait('compassionate').GetName( GetNullCharacter )] 특성을 가진 캐릭터는 추가 [stress|E]를 잃습니다." # 2db4b78754560ca74079d98d24f69702a059e75b
+	RICE_south_ethiopia_cattle_counting_ceremony_observation_intent_header: "관찰:" # d18c870dbfd8a43034e5e38c25648f6a00c617cb
+	RICE_south_ethiopia_cattle_counting_ceremony_observation_intent: "관찰" # bc763cd41210febe8463d4847921d5a86e54cf51
+	RICE_south_ethiopia_cattle_counting_ceremony_observation_intent_desc: "당신은 소를 세는 의식을 관찰하기 위해 이곳에 왔습니다." # 5f224e3ebcb52e70c49a6adde95108f76232f8a4
+	RICE_south_ethiopia_cattle_counting_ceremony_completed_log_title: "$activity_RICE_south_ethiopia_cattle_counting_ceremony$ 종료" # fbce6ca504d95623fe35a69121b2494c51f2bc1c
+	RICE_south_ethiopia_cattle_counting_ceremony_completed_log: "[CHARACTER.GetShortUIName|U]이(가) [CHARACTER.GetHerHis] 가축 계수 의식을 완료했습니다" # 34267e4ed148a30c0ad19a51041733285496c275
+	TRAVEL_NAME_FOR_activity_RICE_south_ethiopia_cattle_counting_ceremony: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_south_ethiopia_cattle_counting_ceremony$" # f4aa61bff7b9fb2ba68cddc178cec146a6d720ba
+	RICE_special_guest_gimuwa: "기무와 후보" # e285e6482a2d208d077cde5b173e1866cd5e365f
+	RICE_special_guest_gimuwa_for_host: "$RICE_special_guest_gimuwa$" # null
+	RICE_special_guest_gimuwa_desc: "$RICE_special_guest_gimuwa$는 [GetActivityType( 'activity_RICE_south_ethiopia_cattle_counting_ceremony' ).GetName]에서 예우를 받는 소유자의 #bold 배우자#! 또는 반대 성별의 #bold 부모#!입니다. 그들은 자신들의 의식인 #italic 기무와#!에서도 예우를 받습니다. 주최자에 대한 그들의 [opinion|E]이 영구적으로 증가하고, [activity|E]가 끝나면 [prestige_i|E] [prestige|E]와 [GetTrait('RICE_cattle_owner_spouse').GetName( GetNullCharacter )] [trait|E]를 얻습니다.\n\n#N $RICE_special_guest_gimuwa$ 자격을 얻으려면 손님은 토지가 없는 주최자의 배우자 또는 반대 성별의 부모여야 하며, 최소 30세 이상이어야 합니다.!" # 088117b2f854b639faa738b7b1320b567fc2514f
+	RICE_special_guest_gimuwa_desc_for_host: "$RICE_special_guest_gimuwa_desc$" # null
+	RICE_south_ethiopia_cattle_counting_ceremony_gimuwa_log_title: "기무와 의식" # 44444af21feee5ff037b27686cbc6af6ec6c9ea0
+	RICE_south_ethiopia_cattle_counting_ceremony_gimuwa_log: "[CHARACTER.GetShortUIName|U]은 #italic 기무와#! 의식을 치른 후 #italic 기무와#!의 지위를 얻었습니다." # 0fb557b2f4d98d4c3676fd40914152f493120372
+	RICE_south_ethiopia_cattle_counting_ceremony_speech_fair_log_title: "연설" # d00d85949ccabd344931782e8fc54d9b3e770e47
+	RICE_south_ethiopia_cattle_counting_ceremony_speech_fair_log: "[CHARACTER.GetShortUIName|U]이(가) [CHARACTER.GetHerHis]의 미덕과 업적, 그리고 [CHARACTER.GetHerHis] 조상에 대해 찬양하는 연설을 했습니다." # 780eef0fd2fbe8a786bd7bf59ea26f61271c22b8
+	RICE_south_ethiopia_cattle_counting_ceremony_speech_good_log_title: "연설" # d00d85949ccabd344931782e8fc54d9b3e770e47
+	RICE_south_ethiopia_cattle_counting_ceremony_speech_good_log: "[CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetHerHis]의 미덕과 업적, 그리고 [CHARACTER.GetHerHis] 조상들의 업적을 칭찬하는 훌륭한 연설을 했습니다." # 91725480f84d90486fb01fc9d0a84cacb66f0efb
+	RICE_south_ethiopia_cattle_counting_ceremony_speech_excellent_log_title: "연설" # d00d85949ccabd344931782e8fc54d9b3e770e47
+	RICE_south_ethiopia_cattle_counting_ceremony_speech_excellent_log: "[CHARACTER.GetShortUIName|U]은 웅장한 연설을 통해 [CHARACTER.GetHerHis]의 미덕과 업적, 그리고 [CHARACTER.GetHerHis] 조상들의 업적을 찬양했습니다." # fcca0844c94707f88edf368f9b36c33d9bfec401
+	RICE_south_ethiopia_cattle_counting_ceremony_dala: "달라 의식" # 59e64fa7a76e83c05d4883d8d05783f1c72e08e6
+	RICE_south_ethiopia_cattle_counting_ceremony_dala_desc: "$EFFECT_LIST_BULLET$ [GetTrait('RICE_cattle_owner_1').GetName( GetNullCharacter )] [trait|E] 특성을 얻습니다.\n$EFFECT_LIST_BULLET$ 달라 의식이 완료되면 #italic 리카#! 의식을 수행하여 나중에 [GetTrait('RICE_cattle_owner_2').GetName( GetNullCharacter )] [trait|E] 특성을 얻을 수 있습니다.\n\n#weak 최소 100마리의 소를 보유한 것을 증명하면 [GetPlayer.GetCulture.GetName] 사회에서 가장 저명한 구성원 중 하나가 되기 위한 첫걸음을 내딛게 됩니다.#!" # 30c565bb8c4f93fcbe942e2e5d1618d29898f796
+	RICE_south_ethiopia_cattle_counting_ceremony_lika: "리카 의례" # 942ef5fa5859fef03cac14250494bb16037eb66d
+	RICE_south_ethiopia_cattle_counting_ceremony_lika_desc: "$EFFECT_LIST_BULLET$ [GetTrait('RICE_cattle_owner_2').GetName( GetNullCharacter )] [trait|E] 특성을 얻습니다.\n$EFFECT_LIST_BULLET$ #italic Dala#! 의식에 비해 [dynasty_prestige_i|E] [dynasty_prestige|E], [prestige_i|E] [prestige|E] 및 [piety_i|E] [piety|E] 보너스가 증가합니다.\n\n#weak 소 1,000마리 이상을 보유한 것을 증명하면 당신과 당신 가문의 이름은 [GetPlayer.GetCulture.GetName] 민족의 전설에 영원히 기억될 것입니다.#!" # 4eed0edf741857611bc3fb8ed6135390cd63e65e
+	RICE_south_ethiopia_cattle_counting_ceremony_feast_type: "연회" # 3fbf3c870a96aebe1e63b22deb35a5d0ddb71e78
+	RICE_south_ethiopia_cattle_counting_ceremony_feast_small: "평균" # 15f86c051ecf0b64e5f8cdc8c689552f42595942
+	RICE_south_ethiopia_cattle_counting_ceremony_feast_small_desc: "$EFFECT_LIST_BULLET$기본 [명성_i|E] #V [EmptyScope.ScriptValue('RICE_south_ethiopia_cattle_counting_resource_gain_small_base')]#! [명성|E]과 [신앙_i|E] #V [EmptyScope.ScriptValue('RICE_south_ethiopia_cattle_counting_resource_gain_small_base')]#! [신앙|E]을 얻습니다.\n$EFFECT_LIST_BULLET$이 행사에 참석하는 모든 [인물|E]에게 #P 5#! [관계|E]를 얻습니다.\n\n#약 열쇠 축제에 참석하는 사람들에게는 풍족한 식사가 제공되는 관례입니다.#!" # 454d87949820786a9fa90de540cf26a46b116a30
+	RICE_south_ethiopia_cattle_counting_ceremony_feast_medium: "대" # 0505e69d712bc8fdfe7702539f137f6097458ed8
+	RICE_south_ethiopia_cattle_counting_ceremony_feast_medium_desc: "$EFFECT_LIST_BULLET$기본 [prestige_i|E] #V [EmptyScope.ScriptValue('RICE_south_ethiopia_cattle_counting_resource_gain_medium_base')]#! [prestige|E] 및 [piety_i|E] #V [EmptyScope.ScriptValue('RICE_south_ethiopia_cattle_counting_resource_gain_medium_base')]#! [piety|E] 획득\n$EFFECT_LIST_BULLET$이 [activity|E]에 참석한 모든 [character|E]에게 #P 10#! [opinion|E] 획득\n\n#weak 이것은 공동체를 과시할 기회이니, 가축 계산 의식에 따른 연회는 잊을 수 없는 연회가 되어야 합니다!#!" # c62a357d2fe2c0bdfc1f35d7a979e2b1eef3c964
+	RICE_south_ethiopia_cattle_counting_ceremony_feast_large: "영광스러운" # 4cc8d18fe08c760abab5dff3502c0f0b39751a3e
+	RICE_south_ethiopia_cattle_counting_ceremony_feast_large_desc: "$EFFECT_LIST_BULLET$ 기본 [prestige_i|E] #V [EmptyScope.ScriptValue('RICE_south_ethiopia_cattle_counting_resource_gain_large_base')]#! [prestige|E] 및 [piety_i|E] #V [EmptyScope.ScriptValue('RICE_south_ethiopia_cattle_counting_resource_gain_large_base')]#! [piety|E] 획득\n$EFFECT_LIST_BULLET$ 이 [activity|E]에 참석한 모든 [character|E]로부터 #P 15#! [opinion|E] 획득\n\n#weak 모두가 가축 계수 의식 후에 훌륭한 연회를 제공할 것이라고 기대하지만, 나는 그렇게 하지 않을 것이다. 대신, 나는 그들의 기대를 뛰어넘을 것이다!#!" # f2617bd117aeb3d256c239dd4f9ca3cc67f72325
+	RICE_south_ethiopia_lika_ceremony: "리카 의례" # 942ef5fa5859fef03cac14250494bb16037eb66d
+	RICE_south_ethiopia_cattle_counting_feast_amount: "연회" # 3fbf3c870a96aebe1e63b22deb35a5d0ddb71e78
+	RICE_south_ethiopia_new_year_generic_celebration_phase: "축제" # b09768b17521ec1c8eff268544192ccc055706e7
+	RICE_south_ethiopia_new_year_generic_celebration_phase_desc: "새로운 시작의 시간입니다!" # a766271b532f767257fd254ad51cd72d7fd34aa7
+	RICE_south_ethiopia_new_year_generic_reconciliation_intent_header: "화해:" # fd6b499074b732da2fbc5c09d06fcd4c6476cdef
+	RICE_south_ethiopia_new_year_generic_reconciliation_intent: "화해" # b29da9dd20f256ca2ca1f8f9694721825196ea4d
+	RICE_south_ethiopia_new_year_generic_reconciliation_intent_desc: "참석자마다 추가 [piety_i|E] [piety|E]를 얻고 [opinion|E] #P 상승#!이 보장됩니다. [GetTrait('forgiving').GetName( GetNullCharacter )|U] 또는 [GetTrait('humble').GetName( GetNullCharacter )]일 경우 [stress_loss_i|E][stress|E]를 훨씬 더 많이 잃습니다." # 6753c7d25ed02d98a5e3d36d98a483618deb49c2
+	RICE_south_ethiopia_new_year_generic_fun_intent_header: "재미:" # 322fbf035e859eb1e143af11523f4fd20da7a848
+	RICE_south_ethiopia_new_year_generic_fun_intent: "재미" # 5f941ab65fbabe87f41cd73c9136f5a4c97087e8
+	RICE_south_ethiopia_new_year_generic_fun_intent_desc: "추가 [prestige_i|E] [prestige|E]를 얻고 더 많은 [stress_loss_i|E][stress|E]를 잃습니다. 만약 당신이 [GetTrait('gregarious').GetName( GetNullCharacter )|U] 이거나 [GetTrait('generous').GetName( GetNullCharacter )]라면 훨씬 더 많은 [stress_loss_i|E][stress|E]를 잃습니다." # a358e05cf275d29cfca33309b45dcb26046ba434
+	activity_RICE_south_ethiopia_gifaataa_festival_host_an_a: "$host_activity_a$" # null
+	activity_RICE_south_ethiopia_gifaataa_festival: "지파타 축제" # 6c0280740ea52d1a583aeea2fbf570fee8387a0f
+	activity_RICE_south_ethiopia_gifaataa_festival_desc: "기파타아는 "시작"을 의미하며, [GetReligionByKey('omotic_religion').GetAdjective] 방식으로 새해를 알리는 때가 되었으며, 과거의 걱정을 잊고 새롭게 시작합시다!" # bd5fdf8e33c559c8dce1a26cfffa5a46436bb1de
+	activity_RICE_south_ethiopia_gifaataa_festival_selection_tooltip: "다른 사람들과 함께 새해를 기념하십시오.\n\n$activity_RICE_south_ethiopia_gifaataa_festival_context_tooltip$" # 5eb063ce56703794ccb3a9ea109e4cc3c466c9e5
+	activity_RICE_south_ethiopia_gifaataa_festival_context_tooltip: "#emphasis Historical Context:#! The Welayta new year is known as Gifaataa. In modern times, it is a more secular and cultural celebration. An important aspect of the occasion is reconciliation: it is a time for people to bury the hatchet, and put aside their conflicts with each other." # null
+	activity_RICE_south_ethiopia_gifaataa_festival_host_desc: "\n$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$[stress_loss_i|E][stress|E] 상실\n$BULLET_WITH_TAB$ [GetModifier('RICE_south_ethiopia_gifaataa_festival_modifier').GetNameWithTooltip] [character_modifier|E]" # 8fc3d2ddb41855947b7da1bb5dc88f4343eb549e
+	activity_RICE_south_ethiopia_gifaataa_festival_guest_desc: "\n$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$[stress_loss_i|E][stress|E] 감소" # 9886e2d6d086d78782d9ea1d8fc022a11641707c
+	activity_RICE_south_ethiopia_gifaataa_festival_province_desc: 
+	activity_RICE_south_ethiopia_gifaataa_festival_destination_selection: "$activity_RICE_south_ethiopia_gifaataa_festival_province_desc$" # null
+	activity_RICE_south_ethiopia_gifaataa_festival_guest_help_text: "$activity_RICE_south_ethiopia_gifaataa_festival$" # null
+	activity_RICE_south_ethiopia_gifaataa_festival_predicted_cost: "이 [activity|E]의 비용은 주로 당신의 [income|E]에 따라 결정됩니다." # acbffa45f82589a7e2c8dc38baebf20263229b9f
+	activity_RICE_south_ethiopia_gifaataa_festival_conclusion_desc: "[GetActivityType( 'activity_RICE_south_ethiopia_gifaataa_festival' ).GetName]이 끝났습니다. 새해에는 평화와 화합이 가득하기를 바랍니다!" # 66b61847d8411dd6cb1324cb13e17f9f6e800acd
+	RICE_south_ethiopia_gifaataa_festival_completed_log_title: "$activity_RICE_south_ethiopia_gifaataa_festival$ 종료" # 9d2bc042dff9a29e9d9e5f9fe4ecce03059b0bf9
+	RICE_south_ethiopia_gifaataa_festival_completed_log: "[CHARACTER.GetShortUIName|U] 님이 [CHARACTER.GetHerHis] 기파타 축제를 완료했습니다." # 7dd6d091953540e3b3a94d689c807fd3fbd2c6ff
+	RICE_south_ethiopia_gifaataa_youth_discussion_log_title: "청년 토론" # d150398dc1a042fb9cd24f8caf5bfd98dbb7a807
+	RICE_south_ethiopia_gifaataa_youth_discussion_log: "[CHARACTER.GetShortUIName|U]은(는) #italic 가자야#! 전장에서 다른 젊은이들과 함께 현안에 대해 논의했습니다." # cb0a48200ada80e07e9943aa77cbb8923e6b0d9f
+	RICE_south_ethiopia_gifaataa_debts_received_log_title: "빚진 돈을 받음" # bd8c30008f63f83f17ad28590e0b13cbcc4402d8
+	RICE_south_ethiopia_gifaataa_debts_received_log: "[CHARACTER.GetShortUIName|U](이)가 다른 이들에게 빌려준 돈을 회수했습니다." # f257a5b576bc2fd9922a09c692499fd7408371cf
+	RICE_south_ethiopia_gifaataa_debts_forgiven_log_title: "부채 탕감" # 9da0cc8e483894f03c4efe43d8dbff5237fdbf9f
+	RICE_south_ethiopia_gifaataa_debts_forgiven_log: "[CHARACTER.GetShortUIName|U]이(가) [CHARACTER.GetHerHim]에게 빚진 사람의 빚을 탕감해 주었습니다." # ddfd7f9f9579398a7901028e7d5037b358d32a2f
+	RICE_south_ethiopia_gifaataa_gift_type: "선물" # 3b2c3fdb3a879c853ab2c0d9791252e894e0208d
+	RICE_south_ethiopia_gifaataa_gift_small: "겸손한" # 254c159afb844c8cf3d7aa80b5b538c1d7683bf5
+	RICE_south_ethiopia_gifaataa_gift_small_desc: "$EFFECT_LIST_BULLET$기본 [명성_i|E] #V [EmptyScope.ScriptValue('RICE_south_ethiopia_gifaataa_gift_gain_small_base')]#! [명성|E]과 [신앙_i|E] #V [EmptyScope.ScriptValue('RICE_south_ethiopia_gifaataa_gift_gain_small_base')]#! [신앙|E]을 얻습니다.\n$EFFECT_LIST_BULLET$자신도 최대 #V [금_i|E][GetPlayer.MakeScope.ScriptValue('tiny_gold_value')]#!까지의 선물을 받을 수 있습니다.\n\n#약한 지파아타는, 공동체 정신으로 마을 사람들에게 선물을 주는 기회입니다.#!" # ced663eb9b6f9638b724e7553d2aebe13375aa75
+	RICE_south_ethiopia_gifaataa_gift_medium: "거대" # 738fd1d2452fc31a236c5ad511bfcc46b324365e
+	RICE_south_ethiopia_gifaataa_gift_medium_desc: "$EFFECT_LIST_BULLET$기본 [prestige_i|E] #V [EmptyScope.ScriptValue('RICE_south_ethiopia_gifaataa_gift_gain_medium_base')]#! [prestige|E] 및 [piety_i|E] #V [EmptyScope.ScriptValue('RICE_south_ethiopia_gifaataa_gift_gain_medium_base')]#! [piety|E] 획득\n$EFFECT_LIST_BULLET$본인이 최대 #V [gold_i|E][GetPlayer.MakeScope.ScriptValue('minor_gold_value')]#! 상당의 선물을 받을 수 있습니다.\n\n#weak 기파타의 이상을 진정으로 구현하려면 다른 사람들에게 후한 선물을 제공해야 합니다.#!" # 230e73a8816c571cff859d3bad413eec38b5d494
+	RICE_south_ethiopia_gifaataa_gift_large: "거대함" # 32978fbe93d3be31d803d0f25bc182a893e9a2f2
+	RICE_south_ethiopia_gifaataa_gift_large_desc: "$EFFECT_LIST_BULLET$기본 [prestige_i|E] #V [EmptyScope.ScriptValue('RICE_south_ethiopia_gifaataa_gift_gain_large_base')]#! [prestige|E] 및 [piety_i|E] #V [EmptyScope.ScriptValue('RICE_south_ethiopia_gifaataa_gift_gain_large_base')]#! [piety|E] 획득\n$EFFECT_LIST_BULLET#V 최대 [gold_i|E][GetPlayer.MakeScope.ScriptValue('medium_gold_value')]#! 상당의 선물을 받을 수도 있습니다.\n\n#weak 새해인 기파타는 온 공동체에 잊을 수 없는 선물을 통해 평화와 조화를 조성함으로써 진정으로 변화를 만들 수 있는 시기입니다.#!" # c80054726b92698137ec3d9c2243164f96eb2609
+	activity_RICE_south_ethiopia_fichee_chambalaalla_festival_host_an_a: "$host_activity_a$" # null
+	activity_RICE_south_ethiopia_fichee_chambalaalla_festival: "피체-참발랄라 축제" # 4ffb91f4433ba09ca81c9dc53c03da70f0189b1e
+	activity_RICE_south_ethiopia_fichee_chambalaalla_festival_desc: "피체-참발랄라는 새해의 시작을 알립니다. #italic 아얀토#! 천문학자들은 이 위대한 축제와 새로운 시작을 기념하기 위한 적절한 날짜를 정할 수 있습니다." # 13569b3446667d74199a54237c899eb644be0572
+	activity_RICE_south_ethiopia_fichee_chambalaalla_festival_selection_tooltip: "다른 사람들과 새해를 축하하세요.\n\n$activity_RICE_south_ethiopia_fichee_chambalaalla_festival_context_tooltip$" # a1f55940c98eb575fd316cb3f85d051bbf8ee040
+	activity_RICE_south_ethiopia_fichee_chambalaalla_festival_context_tooltip: "#emphasis Historical Context:#! The Sidama new year is called Fichee-Chambalaalla celebratio. Its date is determined by the Ayyaanto, the traditional astronomers of the Sidama people. According to legend, the festival originated from Ficho, a woman who, after marrying, visited her parents and their neighbors annually by preparing a feast in their honor. After she died, her neighbors named the eve of the New Year Fichee after her." # null
+	activity_RICE_south_ethiopia_fichee_chambalaalla_festival_host_desc: "$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$[stress_loss_i|E][stress|E] 감소\n$BULLET_WITH_TAB$ [GetModifier('RICE_south_ethiopia_fichee_chambalaalla_festival_modifier').GetNameWithTooltip] [character_modifier|E]\n$BULLET_WITH_TAB$ 지역 사회 지도자로서 당신의 조언을 사람들이 높이 평가할 경우 #P 긍정적#! [character_modifier|E] 획득 확률" # 1aa5e324ed8a09168cd9eefa2c206efa3fb7b81f
+	activity_RICE_south_ethiopia_fichee_chambalaalla_festival_guest_desc: "\n$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$[stress_loss_i|E][stress|E] 감소" # 9886e2d6d086d78782d9ea1d8fc022a11641707c
+	activity_RICE_south_ethiopia_fichee_chambalaalla_festival_province_desc: 
+	activity_RICE_south_ethiopia_fichee_chambalaalla_festival_destination_selection: "$activity_RICE_south_ethiopia_fichee_chambalaalla_festival_province_desc$" # null
+	activity_RICE_south_ethiopia_fichee_chambalaalla_festival_guest_help_text: "$activity_RICE_south_ethiopia_fichee_chambalaalla_festival$" # null
+	activity_RICE_south_ethiopia_fichee_chambalaalla_festival_predicted_cost: "이 [activity|E]의 비용은 주로 당신의 [income|E]에 따라 결정됩니다." # acbffa45f82589a7e2c8dc38baebf20263229b9f
+	activity_RICE_south_ethiopia_fichee_chambalaalla_festival_conclusion_desc: "[GetActivityType( 'activity_RICE_south_ethiopia_fichee_chambalaalla_festival' ).GetName]이(가) 끝났습니다. 새해에는 평화와 조화가 가득하길 바랍니다!" # e86435811a7b603685f1d8efb7b46b6feb95072b
+	RICE_south_ethiopia_fichee_chambalaalla_festival_completed_log_title: "$activity_RICE_south_ethiopia_fichee_chambalaalla_festival$ 종료됨" # 73063af620050166e91086f39d6d8b26940273ea
+	RICE_south_ethiopia_fichee_chambalaalla_festival_completed_log: "[CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetHerHis] 피체-참발랄라 축제를 완료했습니다" # ab9ee3619509e2a25d37aac075713dc3724b76c1
+	TRAVEL_NAME_FOR_activity_RICE_south_ethiopia_fichee_chambalaalla_festival: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_south_ethiopia_fichee_chambalaalla_festival$" # 4b6636ccf974430d62583593228e1f527823a1f1
+	RICE_south_ethiopia_fichee_chambalaalla_festival_advice_bad_log_title: "평범한 조언" # 554e3bb090665d19c6eb55183bb00dc9c45124c4
+	RICE_south_ethiopia_fichee_chambalaalla_festival_advice_bad_log: "[CHARACTER.GetFirstNamePossessive]가 지역사회에 준 조언이 #N 미지근한#! 반응을 얻었습니다." # 57c11cd626f7822682ef6ca531c1d9e02b390b3b
+	RICE_south_ethiopia_fichee_chambalaalla_festival_advice_good_log_title: "높은 평가를 받는 조언" # c1b0ad3dd6a7c1794691e238aba14f7079154424
+	RICE_south_ethiopia_fichee_chambalaalla_festival_advice_good_log: "[CHARACTER.GetFirstNamePossessive]의 지역 사회에 대한 조언은 #P 긍정적인#! 반응을 얻었습니다." # 34ad7cfc2d5c439da49d7a10f3900452b61f9324
+	# Buildings 
+	building_type_RICE_south_ethiopia_tiya: "티야 거석" # 7c43aba3bd023c7ebe1212ee9994fef0d621c031
+	building_type_RICE_south_ethiopia_tiya_desc: "이 지역에는 수 세기에 걸쳐 세워진 무덤, 선돌, 석비 등 수많은 거석 구조물이 있습니다. 석비에는 식물과 검 문양, 인간 형상 묘사 등 다양한 디자인과 주제가 있습니다." # 8de5ba516a37d8de12bb4da0d0b6becf42c38734
+	building_RICE_south_ethiopia_tiya: "$building_type_RICE_south_ethiopia_tiya$" # null
+	building_RICE_south_ethiopia_tiya_desc: "$building_type_RICE_south_ethiopia_tiya_desc$" # null
+	# Modifiers 
+	RICE_south_ethiopia_enset_harvest: "엔세트 수확" # bd1461bd166d3e11bdce32a1b09afbb031f663a2
+	RICE_south_ethiopia_south_omotic_connections: "$aari$ 연계" # 7719e981eff6dfd5b20776d550bd09f28f375235
+	RICE_south_ethiopia_south_omotic_connections_desc: "이 지역은 에티오피아 고원 남쪽 가장자리에 거주하는 $aari$ 부족들과 정치적, 무역적 관계를 맺고 있습니다." # 64aa360bfe35184ae2ca796f756d452ea6a25494
+	RICE_south_ethiopia_oropom_connections: "$oropom$ 연결" # 4e325d646622c610996ed572ebf75f2226621c57
+	RICE_south_ethiopia_oropom_connections_desc: "이 지역은 투르카나 호수 남쪽 땅을 점령한 $oropom$ 부족과 정치적, 무역적 관계를 맺고 있습니다." # 6980614f338115a7761cbc205aa57857f5a03056
+	RICE_south_ethiopia_maintained_groves_small_modifier: "마인에 하아라 유지됨" # 3aafbaf044e575cc5fa29e9f44edda3393866b8d
+	RICE_south_ethiopia_maintained_groves_medium_modifier: "송고 하라 유지" # 8dbdc11948cd0c65877dc6509b946f73a3bd9476
+	RICE_south_ethiopia_maintained_groves_large_modifier: "고싸 하아라 유지" # d85c697a71ddc530edfe5bc0048e5482f5a97305
+	RICE_south_ethiopia_gifaataa_festival_modifier: "지파타 축제에 참여했습니다" # 47c787d6fb84ebfc84b76ec8361872c4abc9ac3a
+	RICE_south_ethiopia_fichee_advice_diplomacy: "피체-참발랄라 조언 (외교)" # 2079a14dd18f5735efc4fa531b7664befad4e0d1
+	RICE_south_ethiopia_fichee_advice_diplomacy_desc: "중요한 지도자로서, 이 인물은 최근 새해를 기념하는 피체 참발랄라 축제 기간 동안 자신의 씨족과 공동체의 다른 구성원들에게 일반적으로 좋게 여겨지는 조언을 해주었습니다. 공동체는 이 인물 자신과 함께 이 조언을 따르기 위해 열심히 노력할 것입니다." # afc3c4a6914ac027346e20846b70f3e37dbc7ff5
+	RICE_south_ethiopia_fichee_advice_martial: "Fichee-Chambalaalla 조언 (군사)" # ed59f1afa30f5fb145537646b925561bc69952aa
+	RICE_south_ethiopia_fichee_advice_martial_desc: "$RICE_south_ethiopia_fichee_advice_diplomacy_desc$" # null
+	RICE_south_ethiopia_fichee_advice_stewardship: "피체-참발랄라 조언 (관리력)" # f8cb441f5e9164c10c11a395fb0534b22ff86aef
+	RICE_south_ethiopia_fichee_advice_stewardship_desc: "$RICE_south_ethiopia_fichee_advice_diplomacy_desc$" # null
+	RICE_south_ethiopia_fichee_advice_intrigue: "피체-참발랄라 자문 (계략)" # 8f80ea6116f2dffbe06ced251c6ce383abb3c1d6
+	RICE_south_ethiopia_fichee_advice_intrigue_desc: "$RICE_south_ethiopia_fichee_advice_diplomacy_desc$" # null
+	RICE_south_ethiopia_fichee_advice_learning: "피체-참발랄라 조언 (학습)" # 4a86ba3e029bd60af324accd38499e3a778262bb
+	RICE_south_ethiopia_fichee_advice_learning_desc: "$RICE_south_ethiopia_fichee_advice_diplomacy_desc$" # null
+	RICE_south_ethiopia_fichee_chambalaalla_festival_modifier: "피체-샴발랄라 축제에 참여했습니다" # 45e2b84505b44ff5c81262e41874d932e244f101
+	RICE_south_ethiopia_gifaataa_youth_discussions: "기파타 축제 기간 가지야 평원에서의 논의" # f935a63f85010fbaff01242e437433ec064f33a3
+	RICE_south_ethiopia_agricultural_walls_planning: "농업 벽 계획 위원회" # d5bb5e10234aef92902fff404eaaa3791a5d5116
+	RICE_south_ethiopia_relocated_artisan_communities: "불량 장인 공동체 이전" # e2b9de88a70f1504937175ca8324ac5505309365
+	RICE_south_ethiopia_relocated_artisan_communities_desc: "최근 지역 주민들은 이 지도자에게 바람직하지 않은 카스트에 속한 장인 가문을 이주시키도록 권한을 사용할 것을 요청했습니다. 이 지도자는 그러한 장인들이 다른 사람들에게 오염시키는 영향력을 행사한다는 것을 알고 그들의 요구를 받아들였습니다." # 15fea9c51f97b350b8ae629d714358361eda562f
+	RICE_south_ethiopia_did_not_relocate_artisan_communities: "불필요한 장인 공동체를 이전하지 않았습니다." # 974065aed8ef5133bb63fbf90bab41aca46b20ff
+	RICE_south_ethiopia_did_not_relocate_artisan_communities_desc: "최근에 지역 주민들은 이 지도자에게 바람직하지 않은 카스트에 속한 장인 가문을 이주시킬 권한을 사용해 달라고 요청했습니다. 이 지도자는 이러한 장인들이 다른 사람들에게 오염된 영향을 미친다고 여겨지지만, 이미 충분히 멀리 살고 있다고 믿으며 이러한 요구를 거부했습니다." # 1d645d647753868daf52d64d47ffe81f8bd4fc0e
+	RICE_south_ethiopia_planted_enset_trees_around_house: "집 주변에 더 많은 엔셋 나무를 심었습니다" # 16b5a3d852ceb3bad3c548ab5f7584aeca70ad68
+	# Decisions 
+	RICE_south_ethiopia_enset_decision: "엔셋을 수확하여 식량 불안정 완화" # 1d0916b8a500c9472a84cb9f3b50a8a86fe5fe79
+	RICE_south_ethiopia_enset_decision_tooltip: "엔셋은 가뭄과 식량 불안에 강한 작물입니다." # 2a5695785ab3560f03f86251b286d1a8ee35c9ae
+	RICE_south_ethiopia_enset_decision_desc: "여러 세대 동안, [ROOT.Char.GetCulture.GetName] 사람들은 #V 엔셋#!을 재배하고 수확해 왔습니다. 엔셋은 가뭄에 매우 강하고 생애 어느 단계에서든 수확할 수 있기 때문에 여러 차례 기근을 막아 왔습니다. 식량 안보를 개선하기 위해 지금 당장 지역 마을에 엔셋을 수확하라고 명령해야 합니다." # acc3050e730aa97c4fce8b1ebc1cf4feb548457e
+	RICE_south_ethiopia_enset_decision_effect_tooltip_1: "이 [결정|E]의 비용은 당신의 [관리력_i|E][관리력|E]과 $innovation_RICE_enset$ [기술|E]을 보유한 [문화|E]를 가진 [백작령|E]의 수에 따라 달라집니다" # aa515fed6a29768967525358c2b22b2d8955ec65
+	RICE_south_ethiopia_enset_decision_confirm: "엔셋을 수확하십시오!" # cf5161e06ddc292fa49b48355ad7278a58650787
+	RICE_south_ethiopia_enset_decision_context_tooltip: "#emphasis Historical Context:#! Enset, also known as the false banana, has been a staple crop of peoples like the Welayta and Sidama for centuries. It has multiple uses as a source of food, building materials, medicine, and more. Because it is highly drought resistant and can be harvested anytime and at any stage of its life, it has traditionally been crucial for preventing famine and food insecurity in the region for centuries - which will be reflected in a decision unlocked by this innovation." # null
+	RICE_south_ethiopia_sidama_groves_decision: "상속된 신성한 숲 유지" # 426cf1a5ed477e6cbc26f7bd975df73a6c217b35
+	RICE_south_ethiopia_sidama_groves_decision_tooltip: "신성한 숲은 우리의 신성한 유산입니다" # 96bdac724c275d1593dd4b233ce4d8153ca213cd
+	RICE_south_ethiopia_sidama_groves_decision_desc: "[ROOT.Char.GetCulture.GetName]의 문화권에서는 성역이 부모로부터 자식에게 상속되며, 전체 종족은 정치, 사회, 종교적 필요를 위해 이러한 광대한 성역을 유지합니다. [ROOT.Char.GetDynasty.GetName] 종족의 일원으로서, 저는 상속받은 성역을 유지하기 위해 노력해야 합니다." # 452de2b944556fa8f816263737b3777257105717
+	RICE_south_ethiopia_sidama_groves_decision_effect_tooltip_1: "[piety_i|E] [piety|E], [dynasty_prestige_i|E] [dynasty_prestige|E] 및 #V 10#!년 동안 지속되는 [character_modifier|E]를 얻습니다. 양과 보너스는 유지하기로 결정한 숲에 따라 달라집니다" # e2cc76d763e395e136c78d888ef2d220c334fad3
+	RICE_south_ethiopia_sidama_groves_decision_effect_tooltip_2: 
+	RICE_south_ethiopia_sidama_groves_decision_confirm: "신성한 나무를 기립시다!" # ec6dfc4bd3cb1ba71c941e6e9289ab7a5606f591
+	RICE_south_ethiopia_sidama_groves_decision_context_tooltip: "#emphasis Historical Context:#! The Sidama people have traditionally maintained and worshipped at sacred trees or groves regardless of religion. These trees or groves are often owned and passed down from parent to child, so maintenance of these trees is considered an important responsibility; it is not just a religious matter, but also one of "maintaining" (so to speak) one's own status and good name. Those who maintain big and important trees, for instance, are considered "big men" in the community." # null
+	RICE_south_ethiopia_sidama_groves_decision_type: "어떤 종류의 수풀을 관리할지 선택하십시오" # 10752638d4a107bd3b5b7423348d2b1e677486fd
+	RICE_south_ethiopia_pick_grove_option: "$RICE_south_ethiopia_sidama_groves_decision_type$" # null
+	RICE_south_ethiopia_sidama_groves_decision_small_option: "#Bold #V Mine'e Ha'ara#!#!\n$RICE_south_ethiopia_sidama_groves_decision_small_option_desc$" # null
+	RICE_south_ethiopia_sidama_groves_decision_small_option_desc: "가문 신성한 수풀" # 22c52e37b6c2d9b689b7de7c1eb3be02d3a43768
+	RICE_south_ethiopia_sidama_groves_decision_small_option_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_south_ethiopia_sidama_tree_decision_small_cost')]#!#!\n\n다음 획득:\n\n$EFFECT_LIST_BULLET$ [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_south_ethiopia_sidama_tree_piety_gain_small')]#! [piety|E]\n$EFFECT_LIST_BULLET$ [dynasty_prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_south_ethiopia_sidama_tree_dynasty_prestige_gain_small')]#! [dynasty_prestige|E]\n$EFFECT_LIST_BULLET$ #V 10#!년 동안 [GetModifier('RICE_south_ethiopia_maintained_groves_small_modifier').GetNameWithTooltip] [character_modifier|E]" # 603c78539c9d225eab1e6432d022a846001c6478
+	RICE_south_ethiopia_sidama_groves_decision_medium_option: "#Bold #V Songo Harra#!#!\n$RICE_south_ethiopia_sidama_groves_decision_medium_option_desc$" # null
+	RICE_south_ethiopia_sidama_groves_decision_medium_option_desc: "공동 소유의 신성한 숲" # 2b319fd5607f30563be16feb06e949e10efd8e59
+	RICE_south_ethiopia_sidama_groves_decision_medium_option_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_south_ethiopia_sidama_tree_decision_medium_cost')]#!#!\n\n다음 효과 획득:\n\n$EFFECT_LIST_BULLET$ [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_south_ethiopia_sidama_tree_piety_gain_medium')]#! [piety|E]\n$EFFECT_LIST_BULLET$ [dynasty_prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_south_ethiopia_sidama_tree_dynasty_prestige_gain_medium')]#! [dynasty_prestige|E]\n$EFFECT_LIST_BULLET$ #V 10#!년 동안 [GetModifier('RICE_south_ethiopia_maintained_groves_medium_modifier').GetNameWithTooltip] [character_modifier|E]" # 57840a8f333fc8e1a1cdabcc6067719a337a5db3
+	RICE_south_ethiopia_sidama_groves_decision_large_option: "#Bold #V Gossa Ha'ara#!#!\n$RICE_south_ethiopia_sidama_groves_decision_large_option_desc$" # null
+	RICE_south_ethiopia_sidama_groves_decision_large_option_desc: "창시자 조상의 신성한 숲" # a7c4c87e327b1d8eff40a1d622acc4995ed1aca8
+	RICE_south_ethiopia_sidama_groves_decision_large_option_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_south_ethiopia_sidama_tree_decision_large_cost')]#!#!\n\n다음 획득:\n\n$EFFECT_LIST_BULLET$ [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_south_ethiopia_sidama_tree_piety_gain_large')]#! [piety|E]\n$EFFECT_LIST_BULLET$ [dynasty_prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_south_ethiopia_sidama_tree_dynasty_prestige_gain_large')]#! [dynasty_prestige|E]\n$EFFECT_LIST_BULLET$ [GetModifier('RICE_south_ethiopia_maintained_groves_large_modifier').GetNameWithTooltip] [character_modifier|E] #V 10#!년 동안" # 9802f1319b152d310ef845ab7ec86783e8e4cf11
+	RICE_south_ethiopia_fandaanano_decision: "판다아나노 신앙을 발전시키십시오" # f6d89a2e64d6c5f2291cf44df0774ae108b1a18d
+	RICE_south_ethiopia_fandaanano_decision_tooltip: "[GetGeographicalRegion('RICE_south_ethiopia_region').GetName] 고지대에서 새로운 종교적 믿음의 가닥이 발전하고 있습니다." # 2a9ee777527ae7e6446937c08864024b97285cfe
+	RICE_south_ethiopia_fandaanano_decision_desc: "[GetGeographicalRegion('RICE_south_ethiopia_region').GetName] 고지대는 여러 [faiths|E]의 고향이었습니다. 아브라함 계통의 [faiths|E]와 동등하다고 여기지만 전통적인 [GetReligionByKey('sidamic_religion').GetAdjective] 신앙과 [GetReligionByKey('islam_religion').GetName]을 결합한 새로운 신앙 체계인 [GetFaithByKey('fandaanano').GetAdjective]이 이곳에서 발전하고 있으며, 저는 그 가르침에 흥미를 느낍니다." # 2ea58ea43a576d51dc7ceff546c48bd6ee35c439
+	RICE_south_ethiopia_fandaanano_decision_effect_tooltip_1: "[GetGeographicalRegion('RICE_south_ethiopia_region').GetName] 지역의 [counties|E]와 [rulers|E], 특히 [GetReligionByKey('sidamic_religion').GetAdjective] 또는 [GetReligionByKey('islam_religion').GetAdjective] [faith|E]를 따르는 이들은 [GetFaithByKey('fandaanano').GetName](으)로 개종할 수 있습니다" # 5d03a1e9a31f804a646897691eaa9f920f837d94
+	RICE_south_ethiopia_fandaanano_decision_effect_tooltip_2: "이제 [GetFaithByKey('fandaanano').GetName]로 개종할 수 있습니다." # d837178418d911fb891b9a6f429e04ecd23016d5
+	RICE_south_ethiopia_fandaanano_decision_confirm: "[GetFaithByKey('fandaanano').GetNameNoTooltip]의 가르침을 받아들입시다!" # 45257ed9209d65a9b562eadea39493dd26ff28d9
+	RICE_south_ethiopia_fandaanano_decision_context_tooltip: "#emphasis Historical Context:#! Fandaanano was a syncretic religion blending Islam with indigenous Cushitic beliefs. It was once widely practiced among the Hadiya people, who speak a Sidamic language, but also spread via missionaries to other ethnicities. Fandaanano emerged by the 15th century in southern Ethiopia, likely from highland Muslim communities who were geographically isolated from mainstream Islam in the wake of political upheavals. Despite their differences with Islam, many followers of Fandaanano considered themselves Muslim. The tradition is now extinct, but lives on in the significant influence it has on the modern Hadiya, regardless of religious affiliation." # null
+	# EVENTS 
+	south_ethiopia.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0001.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0001.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0002.t: "[GetFaithByKey('fandaanano').GetAdjectiveNoTooltip] 삶의 방식" # 3ffe9b7f05e5c127a7073f6fb6078459281c409f
+	south_ethiopia.0002.desc: "수많은 산과 계곡이 있는 [GetGeographicalRegion('RICE_south_ethiopia_region').GetName]는 수년 동안 다양한 종교 공동체를 육성해 왔습니다.\n\n최근에는 이러한 공동체 중 하나인 [GetFaithByKey('fandaanano').GetAdjective]가 전통적인 [GetReligionByKey('sidamic_religion').GetAdjective]과 [GetReligionByKey('waaqism_religion').GetAdjective] 신앙, 그리고 고립된 고지 부족이 믿는 [GetReligionByKey('islam_religion').GetName] 형태가 혼합되어 생겨났습니다. 그들은 자신들이 $fandaanano_high_god_name$이라 부르는 유일한 신을 믿기 때문에 아브라함 계통의 종교와 다를 바 없다고 여기며, #italic 이브게#! 또는 이교도라 부르는 자들을 못마땅하게 생각합니다.\n\n새롭게 부상하는 [GetFaithByKey('fandaanano').GetAdjectiveNoTooltip]는 [fandaanano_creator.GetTitledFirstName]라는 강력한 동맹이자 추종자를 발견했습니다. [fandaanano_creator.GetHerHis] 노력과 $fandaanano_priest_plural$라 불리는 [GetFaithByKey('fandaanano').GetAdjectiveNoTooltip] 사제들 덕분에 이 신앙은 이 지역 부족 일부에 퍼지기 시작했습니다." # 90b5fb79378b7e32b7cd288bd73a47f095124ff4
+	south_ethiopia.0002.a: "$fandaanano_high_god_name$과 선한 정령들을 찬양하라!" # 02105e7ee3d22e4984747c4a8cacdc63b3317d43
+	south_ethiopia.0002.b: "알겠습니다. 흥미로운 소식이군요." # 702f4f01f428bef2f079dc89ac7b4616dec3faa5
+	south_ethiopia.0002.c: "이 새로운 삶의 방식은 매우 매력적입니다…." # c8fba7703ee1f9d904a775694f94a803eaf947f4
+	south_ethiopia.0003.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0003.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0003.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0004.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0004.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0004.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0005.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0005.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0005.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0006.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0006.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0006.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0007.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0007.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0007.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0008.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0008.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0008.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0009.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0009.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0009.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0010.t: "[courtier.GetCulture.GetNameNoTooltip] 방랑자" # ffed25a7573336fa6e2f3859f9a8c9c3fe6596cf
+	south_ethiopia.0010.base: "동아프리카 내륙 지역에는 혈연과 교역으로 연결된 여러 부족과 왕국이 있습니다.\n\n[courtier.GetFirstName]라는 이름의 [courtier.GetCulture.GetName] 출신의 [courtier.GetWomanMan]이 제 영지로 와서 제 궁정의 일원으로 받아주기를 희망하고 있습니다. [courtier.GetSheHe|U]는 [courtier.GetHerHis] 고향에 있는 [courtier.GetHerHis] 형제들과 소중한 연줄을 가지고 있으며, 이는 유용할 수 있습니다." # 389b99c3255d8f1c48744b0c91a1a8398e158a7b
+	south_ethiopia.0010.desc: "$south_ethiopia.0010.base$ [courtier.GetCulture.GetNameNoTooltip]는 오모 강과 투르카나 호수 북쪽 고지대에 사는 분열된 부족 집단입니다. 그들은 수가 많고 분열되어 있지만, 이 지역에서 전사, 목동, 상인으로서 뛰어난 능력을 가지고 있으며, 이러한 기술은 우리에게 큰 도움이 될 수 있습니다." # d084f759e3e4f2a45cce22b75f1005e98fb30bfb
+	south_ethiopia.0010.a: "네, 환영합니다!" # 38d9bba43fc2e8dbd2da5f6153c26d5f08993783
+	south_ethiopia.0010.b: "아니요, 저희는 여기서 어떠한 이점도 보지 못했습니다." # 2d9425b052d063e0f9a32434e7b9ea1c52d23709
+	south_ethiopia.0011.t: "$south_ethiopia.0010.t$" # c8370761333775a151384bf38e06771d5b122cc3
+	south_ethiopia.0011.desc: "$south_ethiopia.0010.base$[courtier.GetCulture.GetNameNoTooltip] 부족들은 투르카나 호수 남쪽의 넓은 지역을 차지하고 있습니다. 그들은 예술과 건축 기술로 유명하며, 이 지역의 무역로를 촉진하는 데 중요한 역할을 합니다. 그들과 친구가 되면 우리에게 큰 도움이 될 수 있습니다." # 4d303af1371184efdfe3c3e4a5c0ff9f2713f4fd
+	south_ethiopia.0011.a: "$south_ethiopia.0010.a$" # a6b1a44634214b7c18c729afcc7be0bb187c84ed
+	south_ethiopia.0011.b: "$south_ethiopia.0010.b$" # 70184e46568e7f7ac6b13b36b3b353a4b5bec475
+	south_ethiopia.0012.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0012.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0012.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0013.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0013.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0013.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0014.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0020.t: "케루 갈라사" # c38e01567a8aadac6ad3a52a9684cf52f9ac2bf8
+	south_ethiopia.0020.desc.intro: "[ROOT.Char.GetCulture.GetName] 사회에서는 많은 소를 소유한 사람들이 존경받지만, 제대로 된 소 세는 의식을 거치는 경우에만 해당됩니다." # 07ac581a2037d8aa6189fb3a0807353e7631406e
+	south_ethiopia.0020.desc.dala: "제가 소 세는 의식을 처음으로 거행하는 것이므로, 최소한 백 마리의 소를 소유하고 있음을 증명하기 위해 #italic 달라#! 의식이 필요합니다. 훨씬 더 많이 소유하고 있더라도 이 의식이 먼저 행해져야 합니다." # be951bdaf5e66c7903665c1998d68902737b44a4
+	south_ethiopia.0020.desc.lika: "#italic 달라#! 의식을 치러 백 마리 이상의 소를 가지고 있음을 증명했습니다. 이제 천 마리 이상의 소를 가지고 있음을 증명하기 위해 #italic 리카#! 의식을 치를 때입니다." # 1f65120e3703e304b1db5e617b5c01cc33caa583
+	south_ethiopia.0020.desc: "오늘 #italic 케에루 갈라사#!, 즉 표시일입니다. 이 축제는 나중에 있을 가축 계수 의식의 전조 역할을 합니다. 저는 가족, 친구, 이웃, 존경받는 원로 및 기타 중요한 사람들을 초대하여 이번 행사에 대한 계획을 논의하고, 제가 소유한 모든 관련 재산을 표시하고, 날짜를 결정하고자 합니다. 오늘을 위해 초대된 사람들 중 일부는 가축 계수 의식을 돕기 위해 특정 자원이나 재산을 약속했습니다." # af6e9758d833ad11f9d25e9fa7410304359924d7
+	south_ethiopia.0020.a: "그들의 도움이 매우 감사합니다." # 48c3c163336ab23f39893bff74d6efdc5ef1549f
+	south_ethiopia.0021.t: "준비" # ffb7b66372898902e8cf7eca0025b21a011c84d7
+	south_ethiopia.0021.desc.dala: "오늘 저는 최소 백 마리의 소를 소유하고 있음을 증명할 #italic 달라#! 의식을 치를 것입니다!" # 2afbebb4d78c09ae2fbea1cb3c3d7d28f268a904
+	south_ethiopia.0021.desc.lika: "#italic 리카#! 의식이 오늘 시작됩니다. 저는 적어도 천 마리의 소를 소유하고 있다는 것을 모두에게 증명할 것입니다!" # dc61d5e6996a003fe4b51e312d71bc3e1581ae58
+	south_ethiopia.0021.desc: "나는 전통에 따라 입어야 하는 흰색 옷을 입고 오늘의 행사를 준비합니다.\n\n나의 가축들은 마을의 주요 도로를 따라 신성한 울타리 쪽으로 나아갑니다. 내가 다른 사람에게 빌려준 가축조차도 이 행사를 위해 이곳으로 몰려옵니다. 다만 임신했거나 아픈 가축은 특별한 밧줄로 대신합니다.\n\n그곳에는 많은 군중이 모여 소란과 흥분을 더하고 있으며, 모두가 축제 의식이 시작되기를 간절히 기다리고 있습니다." # b6383f6186e8747be7016601d2f2d84279c87aeb
+	south_ethiopia.0021.a: "가축 계수기가 곧 도착해야 합니다…." # 24d5548165fdda1bca5b4d78d98b8f16d0cfa845
+	south_ethiopia.0022.t: "몰라나 도착" # 6f69be273071ca30f42b03ed1e0651ea9c193409
+	south_ethiopia.0022.desc: "소들을 세는 사람은 #italic 몰라나#!라고 불립니다. 제가 선택한 #italic 몰라나#!이자 존경받는 지역 노인인 [ROOT.Char.GetWomanMan]께서 #italic 콜레#!라는 특별한 천을 입고 소들을 세는 데 사용할 잎을 들고 도착했습니다.\n\n모두가 #italic 몰라나#!께서 양과 소의 피, 우유, 버터, 꿀 혼합물이 담긴 냄비에 잎을 담그는 모습을 지켜봅니다. 그런 다음 [ROOT.Char.GetSheHe]는 소들을 세기 위해 우리 안으로 몰아넣습니다. 그런 다음 [ROOT.Char.GetSheHe|U]는 제가 처음 소유했던 소 품종에 속한 암소와 수소의 목에 금속 조각을 묶습니다." # 2af9793009b99b84a05c40d460e0f202833b7421
+	south_ethiopia.0022.a: "좋아요, 좋아요!" # e3ddef84f2b5dc1e4281444b57124ebfbd6d2eb5
+	south_ethiopia.0023.t: "연설 준비" # 85bdae48bdc69cca4ba34d00b0d5f470f2c5dfb4
+	south_ethiopia.0023.desc: "#italic 몰라나#!가 소를 세는 데 바쁜 동안, 저는 소 세기 의식의 다음 중요한 부분을 준비합니다. 남녀 기수들이 전통에 따라 저를 기리며 말을 타고 울타리를 돌고 있으며, 제게 위대한 연설을 하도록 격려합니다. 이 연설은 제가 다른 사람들에게 저의 위대함을 진정으로 설득할 수 있는 순간이 될 것입니다.\n\n숨을 크게 쉬고, 저는 말 위에 서서 군중을 바라봅니다." # e8ecd63e53787d0d58f7ca35d6ec69c7c58eaea1
+	south_ethiopia.0023.a: "네, 시작해 보겠습니다." # 281ee6895302cc3a4259ee9cb6634fbcb7bf48c9
+	south_ethiopia.0023.a.fair: "당신의 연설은 호평을 받고 있습니다." # 7a0cfd3bfa0a34414e38c99ec7481d21d8d49488
+	south_ethiopia.0023.a.good: "당신의 연설에 대한 반응이 좋습니다." # bffc0227285ebafe516dfced11f5859665dc7ff1
+	south_ethiopia.0023.a.excellent: "귀하의 연설은 큰 호응을 얻었습니다." # a255bdf62d6b48a0fe3677e6289e52ae2b3feb45
+	south_ethiopia.0024.t: "연설" # debb1800642131bdad11e9481ecffc6c5fd68230
+	south_ethiopia.0024.desc: "말을 탄 채로, 화려한 언어로 나의 빛나는 업적과 나의 많은 미덕, 그리고 조상, 가족, 나를 지지해준 친구들의 미덕을 칭송합니다. 지혜와 부, 업적에서 나를 능가할 자는 거의 없으며, 나는 이 자리에 모인 군중에게 내가 본받아야 할 살아있는 영웅임을 증명하기 위해 최선을 다합니다.\n\n이 연설과 동시에, 나의 가족과 친구들은 전략적인 지점에서 [ROOT.Char.GetFaith.HighGodName]에게 찬양을 보내며 나에 대한 찬사를 덧붙여 나의 연설을 더욱 강화합니다.\n\n군중의 반응으로 미루어 볼 때," # 67d9bb9e4fcbd0e0e61bba1a06854ceac6beabd3
+	south_ethiopia.0024.desc.fair: "소 세는 의식에서 더 나은 허풍을 보기도 했지. 하지만 일부는 미적지근하다고 생각할지라도, 나는 내 자신과 가족, 그리고 친구들을 기리기 위해 최선을 다할 거야!" # 1667de22ae179071b88ecd621a7976fb61b492a2
+	south_ethiopia.0024.desc.good: "모두가 제 연설과 제 자랑을 즐기고 있습니다. 그들은 환호하고 박수를 치고 있으며, 제가 한마디 할 때마다 저에 대한 존경심이 커지는 것을 봅니다." # 1173e1b887570ddab7fabd8afc1ee7367cdc4849
+	south_ethiopia.0024.desc.excellent: "사람들은 제 허풍에 매우 감탄하고 흥분합니다. 큰 환호와 감탄으로 가득 찬 얼굴로 그들은 진정으로 저를 일종의 영웅으로 봅니다!" # 1aed4a29a2fe18282c9ffca33b3e3f2b1c3e5a70
+	south_ethiopia.0024.a: "내 영광은 모두에게 알려질 것이다!" # b60520155f878ba002f673d51fe942eb2d71255a
+	south_ethiopia.0025.t: "훌루코" # c319d42e3882318dce4dfee9d9e947378cf1b4d8
+	south_ethiopia.0025.desc: "#italic 달라# 의식과는 달리, #italic 리카# 의식에는 소를 센 후에 행해지는 #italic 훌루코# 의식이라는 추가적인 중요한 행사가 있습니다.\n\n울타리 근처에는 작은 터널 모양으로 큰 구멍이 파여 있습니다. 이 터널은 우유, 버터, 꿀로 채워집니다. 그런 다음 창을 들고 소와 양을 도살하여 그 피를 구멍에 넣습니다.\n\n이후 속옷만 입은 채 친척과 친구들의 도움을 받아 이 액체로 가득 찬 터널을 헤엄쳐 건넙니다. 일단 나오면 큰 환호 속에서 창을 들고 다시 한번 위대한 업적에 대해 이야기합니다." # ad64923f477c8ffd826cd8ec067791e702dbd616
+	south_ethiopia.0025.a: "이것을 하는 것이야말로 옛 영웅들과 같은 모습이 아닌가?" # 2720554ec12f57a6ddbf19d6a95092c4c4f323d6
+	south_ethiopia.0026.t: "연회" # fc70a8c2f75bea3d2a9e1c643460bc385353cf4c
+	south_ethiopia.0026.desc.dala: "#italic 몰라나#!가 제가 소를 적어도 백 마리는 가지고 있음을 증명하면, #italic 달러#!" # fa7c40bf99a503176566710004b92bf014d2addd
+	south_ethiopia.0026.desc.lika: "#italic 몰라나#!가 제가 소를 천 마리 이상 소유하고 있음을 증명한 후, #italic 리카#!" # b9e640c44ebae2ec0503abeec86a4baf1ba25e54
+	south_ethiopia.0026.desc: "의식은 잔치로 마무리됩니다! 결국, 모두를 위한 잔치를 베풀어 내가 얼마나 부유하고 현명한지 과시하지 못한다면, 내 자랑이나 가축을 세는 일이 무슨 소용이 있겠습니까?\n\n잔치에는 방금 센 가축 중 몇 마리의 고기를 갓 도축하고 요리한 음식이 나옵니다. 엔세트로 만든 빵, 다른 동물 고기 등 다른 요리와 음료도 많습니다.\n\n놀랄 것도 없이, 잔치 동안 모두가 나에 대해 이야기하고 있으며, 음악과 춤은 모두를 기분 좋게 만들어, 나만큼 유능해지도록 격려합니다." # c1fad85dde73ff073e12e241e1cd632c159a9b4e
+	south_ethiopia.0026.a: "나의 행실과 미덕을 배우십시오." # 11022f5778c91309dd2b40314208846720e2c6a2
+	south_ethiopia.0027.t: "결론" # e39262defe80a83fac1b793497417432c8b1a879
+	south_ethiopia.0027.desc.dala: "#italic 달라#!" # 2076be31c4d47f807514e69b59d0511739feeaa5
+	south_ethiopia.0027.desc.lika: "#italic lika#!" # 29a3901078c456e990ae12f7541a39c09820a31c
+	south_ethiopia.0027.desc: "의식이 끝났습니다. 일생에 단 한 번만 있을 수 있는 일이지만, 영광스럽고 흥분되는 순간이었으며, 제 조상님들께서도 저를 보며 미소짓고 계시리라 확신합니다. 게다가, 제가 한동안 좋은 의미로 온 동네의 화제가 될 것이라는 사실을 아는 것도 좋군요." # f4c473f43af9977a808ec54b2f6afef3568a2f11
+	south_ethiopia.0027.a: "정말 영광스러운 순간입니다!" # aec831209beb880b9bef0da0e04da8243e6f4322
+	south_ethiopia.0028.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0028.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0028.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0030.t: "기무와 의례가 시작됩니다" # e1a4a0ab0051a0d64fd6dfa81c31806d3d0975f9
+	south_ethiopia.0030.desc: "이 소 세기 의식을 위해, 저는 이전에 #italic 기무와#! 후보로 저의 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('gimuwa'))]인 [gimuwa.GetTitledFirstName]를 지명했습니다. [gimuwa.GetSheHe|U]는 우리 공동체의 위대한 [gimuwa.GetWomanMan]으로서 저의 영광을 함께할 수 있을 것이며, 당연히 그래야 합니다.\n\n의식은 소 세기와 잔치가 끝난 후, 소 세기 의식 다음 주말에 시작되며, 오늘이 바로 그날입니다." # 719e87161dea4ea5cf8d3e9b14753a2310fc4fa6
+	south_ethiopia.0030.a: "[gimuwa.GetFirstNameNoTooltip] 님, 준비되셨기를 바랍니다!" # 3b700972846b814f582586c2307050d78167b390
+	south_ethiopia.0031.t: "기무와 의식이 종료됨" # 14e467ab72529f7de78ce90af7178d12c18aebaf
+	south_ethiopia.0031.desc: "특별한 옷을 입고 머리에 타조 깃털을 꽂은 [gimuwa.GetFirstNameNoTooltip]이 친척 및 친구와 같은 다른 기마[gimuwa.GetWomenMen]를 대동하고 말을 타고 가는 모습을 모두가 자랑스럽게 지켜봅니다.\n\n[gimuwa.GetSheHe]가 전에 제가 그랬던 것처럼 시장에 들어서자 [gimuwa.GetSheHe]는 [gimuwa.GetHerHis]의 위대한 업적과 [gimuwa.GetHerHis] 친척, 친구, 조상의 업적을 자랑스럽게 뽐냅니다. 구경꾼들은 [gimuwa.GetSheHe]가 연설을 마치자 박수를 칩니다. 이제 [gimuwa.GetSheHe]는 말 위에서 맥주가 가득 찬 큰 항아리를 깨야 하며, [gimuwa.GetSheHe]는 열정적으로 항아리를 깹니다. 그런 다음 저는 항아리를 가져다가 [gimuwa.GetHerHim]에게 마시게 한 다음 모두가 음료를 나눠 마시고, [gimuwa.GetFirstNameNoTooltip]은 가난한 사람들을 포함하여 모두에게 주려고 모아둔 돈을 나눠줍니다." # ce2e532ffba8d537ee59a4a21bdd13f98797bb46
+	south_ethiopia.0031.a: "당신을 위해 멋진 연회를 베풀 겸 집으로 돌아가자!" # 81967bd2f680bea157b35986e29d6e9d3afc657d
+	south_ethiopia.0032.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0032.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0032.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0033.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0033.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0033.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0034.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0034.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0034.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0035.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0035.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0035.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0036.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0036.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0036.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0037.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0037.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0037.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0038.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0038.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0038.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0039.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0040.t: "굴리야-고샤" # 6d4c01a1c7c316d67f0ffdc24a222c14dff56060
+	south_ethiopia.0040.desc: "천문학자들과 현명한 장로들이 최근 [ROOT.Char.GetFaith.GetAdjective] 음력에 따라 우리의 전통 새해 축제인 #italic #bold 기파타#!#가 거의 다가왔음을 알렸습니다.\n\n#italic 굴리야-고샤#! 또는 결속 나무 의식을 시작으로 준비가 잘 진행되고 있습니다. #italic 기파타#!는 평화와 기쁨의 시기이므로, 모든 사람은 자신의 마음속에 남아있는 부정적인 감정을 떨쳐내기 위해 최선을 다해야 합니다. 저 자신도 포함해서 말이죠!\n\n곧, 이 축제를 위해 온 공동체가 모일 것입니다." # 3098e743d5914aa2b0249657d51bfd9298a8bf05
+	south_ethiopia.0040.a: "이번 #italic 기파타#!는 매우 재미있을 것입니다!" # 5cbe4f03d6f23c37df6ce53d3d53932e7beb21c6
+	south_ethiopia.0041.t: "슈하-워가" # fe97661e44a0354f53b9be912146c8b20b8fb70a
+	south_ethiopia.0041.desc: "오늘은 새해 첫날인 #italic 슈하-워가#!입니다! 그리고 #italic 기파타아#!가 시작되었습니다!\n\n저와 같은 위대한 [ROOT.Char.GetTitleAsNameNoTooltip]을 포함한 지역 사회의 모든 사람들이 이 축하 행사를 위해 모였습니다. 새해에는 새로운 마음과 상쾌한 몸이 찾아오고, 우리 모두는 좋은 태도를 유지하고 서로에게 평화를 장려하기 위해 최선을 다합니다. 나쁜 생각, 나쁜 행동, 나쁜 관계는 과거의 일이 될 것입니다.\n\n이러한 화합과 행복의 정신을 촉진하기 위해, 이 기간 동안 좋은 영혼들이 각 가정을 방문하여 모든 가족이 음식을 얻을 수 있도록 한다고 합니다." # aa9260422a51376e2e1fa09c0399c934f6206ab2
+	south_ethiopia.0041.a: "새해, 새로운 나! 긍정적으로 지낼 시간이야!" # 3f31e4efe8014fb59d46a60444497b3234cac8fa
+	south_ethiopia.0042.t: "골로-이게타" # 041c2e8a5d99edfa0d22e54b96e15e385c1e189e
+	south_ethiopia.0042.desc: "올해의 #italic 기파타#!가 #italic 골로-이게타#! 의식을 끝으로 막을 내립니다. 이 시점까지 각 가정을 방문한 좋은 영혼들은 떠났거나 떠날 것입니다. 그들이 한 가족이 충분한 음식을 가지고 있다는 것을 알고 만족할 때까지 35일 동안 머무른다고 전해지기 때문입니다.\n\n우리는 모두 송별 의식을 위해 모여 횃불을 밝히고 신나게 춤을 추며 던집니다. 분명히 모든 사람이 긍정을 느끼고 있으며, 우리는 그것을 일년 내내 간직할 수 있을 것입니다." # d76911c6649121d0d7ad4e663774c55c415b69e0
+	south_ethiopia.0042.a: "새해 복 많이 받으세요." # c7c5ea5ba83ecfd5cac5b7bf73c46931e6e4ef9c
+	south_ethiopia.0043.t: "선물 증정" # b2ae9016c5d8185f842157866e5134b6d0e041d5
+	south_ethiopia.0043.desc: "#italic 기파타아#! 축제 동안에는 고급 보석부터 아름다운 옷 등 다양한 선물을 다른 사람에게 주는 것이 기대됩니다. 물론, 저는 이미 모두에게 줄 선물을 준비했으며, 그에 대한 답례로 저도 선물을 받습니다.\n\n이러한 전통은 기존 관계를 강화하고 새로운 관계를 장려하는 데 중요하다고 어르신들은 말씀하십니다. 결국, 사회는 구성원 모두의 조화로운 관계가 없으면 아무것도 아니니까요." # 56d160a117293b8344c1daba9088677b9e637166
+	south_ethiopia.0043.a: "선물 감사합니다!" # fbcd181ece16ce24480e1bf9f168e254b46cc472
+	south_ethiopia.0044.t: "음식과 음료" # d83378d77c383761bc4f8307bc316671094732f2
+	south_ethiopia.0044.desc: "#italic Gifaataa#! is always a good occasion to feast and be merry, and this time is no different!\n\nI am consuming copious amounts of traditional foods served at #italic Gifaataa#! like butter, honey, beef, baked enset dough, and #italic asho#!, a kind of raw meat." # null
+	south_ethiopia.0044.a: "맛있습니다!" # 609ce8524064bc90c0207fb1266e2e4ec6cfcbed
+	south_ethiopia.0045.t: "화해" # b29da9dd20f256ca2ca1f8f9694721825196ea4d
+	south_ethiopia.0045.desc: "#italic 기파타아#! 기간 동안에는 사람들이 화해하도록 권장됩니다. [ROOT.Char.GetTitleAsNameNoTooltip]으로서, 저는 이 시간을 이용하여 이전부터 오랫동안 갈등과 증오로 가득 찬 악명 높은 라이벌 관계였던 두 지역 주민 사이를 중재하려고 합니다.\n\n이제 그들은 평화와 조화를 위해 화해하기 위해 함께 모였습니다. 어렵지만 저는 그들이 앙금을 풀도록 돕는 데 성공합니다." # 93b56d1529f8c873034acdcc4f1e3dcafc193cb6
+	south_ethiopia.0045.a: "이것이 진정한 #italic 기파타# 정신이다!." # 63d87e1af898c62045cee617c31c96870f18c065
+	south_ethiopia.0046.t: "노래와 춤" # dde1680d05229216d6d1f8eae60352d2c745badd
+	south_ethiopia.0046.desc: "많은 사람들이 #italic 가지야#! 들판에 모여 춤추고 노래하는 것이 일반적입니다. 이 공간은 #italic 기파타#! 기간 동안 이러한 즐거움을 위해 마련되었으며, 모두가 악기를 연주하고, 즐거운 노래를 부르고, 근심을 잊고 춤을 추며 즐거운 시간을 보내고 있습니다." # b2cc1439e7a8377818a47a612b1f76d6071a15a5
+	south_ethiopia.0046.a: "참여해야겠어요!" # ed3ce13fc2491001c35eb15ca59c2604510c837e
+	south_ethiopia.0046.b: "뒤에 남아서 지켜보겠소." # eeec0a71172fdfba87f42754007b79dc720650b1
+	south_ethiopia.0047.t: "토론" # 0474a6c65f55639344c6425396209bf75031779a
+	south_ethiopia.0047.desc: "#italic Gifaataa#! 동안 지역 젊은이들은 #italic gaziyaa#!라고 알려진 노래와 춤을 추는 들판에 모여 노래하고 춤출 뿐만 아니라 당면한 중요한 사회적, 정치적 문제에 대해 논의하는 것이 전통입니다. 그렇게 함으로써 그들은 우리 공동체가 직면한 공통적인 문제와 이를 해결하는 방법, 그리고 공동체 내에서 진행 중인 갈등을 해결하는 방법에 대해 이야기할 수 있습니다." # 845b4be9f31f37b897f8302e7f6deaf379775f96
+	south_ethiopia.0047.desc.youth: "저도 젊은 사람으로서 이러한 논의에 참여하고 있으며, 의견이 다르더라도 다른 사람들에게 배우고 그들의 관점을 이해하기 위해 최선을 다하고 있습니다. 의견이 어떻든 간에, 지금은 네트워킹하기에도 좋은 시기입니다." # 1c81f0aa870221d041cb7f8901c4c06b06ae7e0d
+	south_ethiopia.0047.a: "이것은 우리 공동체를 개선하는 좋은 방법입니다." # 817824d135a5db13bce2f2125b258e162d4fa4eb
+	south_ethiopia.0048.t: "빚 상환" # 931f468dea53db370f80d47d598b9701648d885e
+	south_ethiopia.0048.desc: "#italic 기파타#는 평화, 조화, 화해에 바쳐진 시간이므로 많은 사람들이 빚을 갚으려 하는 시간이기도 합니다.\n\n얼마 전 저는 지역 평민에게 돈과 자원을 빌려주었는데, 오늘 그들은 #italic 기파타#의 정신에 따라 저에게 갚기를 원합니다." # 5d9b5f0d085ac5440c1ab92f34c24c8138110015
+	south_ethiopia.0048.a: "갚아주셔서 감사합니다." # 54e40369aeb9b31ca99b63cc88c80c1df7b9ffd5
+	south_ethiopia.0048.b: "부디, 당신의 빚을 탕감하게 해주십시오." # dc2ccf20e5d0bef5580f006e25ef671c6381bb61
+	south_ethiopia.0049.t: "자신을 개혁" # 2312d45f13c1820dde10203b60a1fc8a72852ffa
+	south_ethiopia.0049.desc: "#italic Gifaataa#! is a time to look towards the future with optimism and hope, and because of that, a lot of people try to turn a new leaf and change bad habits or reform themselves.\n\nOne local, known for their terrible ways, claims they will reform and become a better person now. They will dedicate themselves to honoring the values and morals we all hold dear, and to pay heed to what [ROOT.Char.GetFaith.HighGodName] would want us to do." # null
+	south_ethiopia.0049.a: "그들이 정말로 진심인지 의심스럽습니다." # b9d2484e5964da147841962c3d151fe44f959eaa
+	south_ethiopia.0049.b: "그들의 노력은 성공할 것이라고 확신합니다." # 388328fb415af9466cd92aeaf2ab2584275a0f89
+	south_ethiopia.0050.t: "결혼 가능성" # 1ab8aee585503d7dd3416016ddc96bb26004a41a
+	south_ethiopia.0050.desc: "#italic 기파타#!만큼 결혼 상대를 찾기에 좋은 때는 없습니다. 이 시기에 많은 젊은이들과 그들의 가족들이 교류하며 적합한 남편과 아내를 찾고 때로는 공식적으로 결혼을 준비하는 것을 보았습니다." # 55349b43715bd4aedbb3a9bbd0cae39a19932f41
+	south_ethiopia.0050.a: "우리 가문은 계속해서 번영하고 번창할 것입니다." # 4b26f0d7e416eebf10a4eaa146f9178ade82193a
+	south_ethiopia.0051.t: "원로들의 지혜" # 296f15c1d7280b1144e026c2f5f7a5e62f3afdc0
+	south_ethiopia.0051.desc: "우리가 지금의 위치에 있을 수 있는 것은 이전 세대와 장로들 덕분입니다. #italic 기파타#!와 같은 행사는 우리가 장로들을 만나 그들로부터 배울 수 있는 중요한 시간입니다.\n\n저는 현재 그러한 회의에 참석하고 있으며, 많은 사람들이 지역 장로 몇 명을 중심으로 모여 있습니다. 이 현명한 노인들은 우리가 그것을 잘 활용하기를 바라며 그들의 지식과 지혜를 우리에게 전수합니다." # e1476d8781a97d431dc749bd806946c4042e6085
+	south_ethiopia.0051.a: "그들은 우리에게 많은 귀중한 통찰력을 주었습니다." # 6c947cabc8f06130478eef59da7d7976dd7e73b3
+	south_ethiopia.0052.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0052.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0052.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0053.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0053.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0053.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0054.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0054.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0054.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0055.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0055.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0055.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0056.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0056.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0056.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0057.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0057.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0057.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0058.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0058.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0058.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0059.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0059.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0059.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0060.t: "날짜 결정" # 14f06219471323020d0b8fe9b2d9a7ee9ee98766
+	south_ethiopia.0060.desc: "곧 전통적인 [ROOT.Char.GetFaith.GetReligion.GetAdjective] 새해인 #italic 피체 참발랄라#!를 기념할 때가 될 것입니다. 우리의 가장 유능한 점성술사인 #italic 아얀토#!들이 #italic 부사#! 별자리의 달과 다섯 별의 움직임을 관찰하여 올해 축제에 가장 좋은 날짜를 결정했습니다.\n\n#italic 아얀토#!들이 선택된 날짜를 결정한 후, 저와 공동체의 다른 중요한 지도자 및 장로들이 모여 행사를 조직하는 방법을 논의했습니다. 올해 축제를 어떻게 진행할지 논의를 마치면 각자의 정착지의 시장으로 갑니다. 그곳에서 긴 창에 양가죽을 걸고, 올해의 #italic 피체 참발랄라#! 날짜를 온 공동체에 선포합니다." # 09c75dea9c9fe49c07f5df99d889da1d8b8a88da
+	south_ethiopia.0060.a: "모두, #italic 피체-샴발랄라#에 대비하십시오!!" # 244a8f22c14d6dd0d8073eb9bd91d28119ae2d86
+	south_ethiopia.0061.t: "단식" # f83aed0d30088948011693b3b6a0cf92be4b0b74
+	south_ethiopia.0061.desc: "#italic Fichee-Chambalaalla#! will come soon. However, some rituals must be observed first.\n\nFor a period of fifteen days before #italic Fichee#!, the last day of the year, I and other leaders and elders are required to fast for fifteen days. The fast will be broken nine days before #italic Fichee#!, whereupon we will sing and dance #italic safote ketaala#!." # null
+	south_ethiopia.0061.a: "단식을 시작할 시간입니다." # 1d4822d223fb566d4fece5f60505c5a87ea276e0
+	south_ethiopia.0062.t: "훌루카" # 616dea3341c982319283f90b8df0129748f903e1
+	south_ethiopia.0062.desc: "드디어 오늘, #italic 피체#를 기념하는 날입니다!! 그것은 저희 집 앞에서 나무로 만든 아치형 구조물을 세우는 #italic 훌루카# 의식으로 시작됩니다. 저를 시작으로 제 가문의 모든 구성원과 모든 가축이 그 아치를 통과해야 합니다.\n\n새해를 맞이하며, 우리는 지난 해의 모든 나쁜 일들을 버리고 새로운 긍정적인 생각으로 새해를 맞이할 것을 다짐합니다." # c388fbe78ad09917ff4fe47562e0f8a0732d9c6e
+	south_ethiopia.0062.a: "긍정적인 생각을 하세요!" # ab92028c1d725c6740d3434d1b486d83e31bb441
+	south_ethiopia.0063.t: "연회" # fc70a8c2f75bea3d2a9e1c643460bc385353cf4c
+	south_ethiopia.0063.desc: "#italic 피체#! 저녁에 저와 제 가족은 성대한 만찬을 위해 모입니다. 만찬의 중심은 #italic 부리사메#!라고 불리는 요리인데, 이는 엔세트, 우유, 버터로 만들어지며 #italic 샤페타#!라고 불리는 점토 팬에 담아 제공됩니다.\n\n높은 지위에 있는 사람으로서, 저는 땅에 음식을 약간 뿌리면서 축복을 말하며 만찬을 시작하는 영광을 누립니다. 그렇게 함으로써 우리는 그러한 음식에 대해 땅에 감사를 드립니다.\n\n우리가 음식을 먹고 나면, 우리는 우리 가까이에 있는 사람들의 집으로 하나씩 가서 음식을 함께 나눕니다." # 8c152d13936699af7ad2f9da7d68e403dbb07b92
+	south_ethiopia.0063.a: "우리 모두 이처럼 평화와 조화 속에서 살아가기를." # f58e0a87b68f95a17c520cd96d2160e4b7f53569
+	south_ethiopia.0064.t: "카왈랑카" # ebb347792fafcd35bffaf4716426b2bbfe997e6c
+	south_ethiopia.0064.desc: "#italic 피체#! 다음 날 아침, 즉 새해 첫날을 #italic 카왈란카#!라고 부르며 이날 위대한 #italic 참발랄라#! 의식이 거행됩니다.\n\n저는 따뜻한 물로 몸을 씻고 버터를 바르는 것으로 가정을 이끕니다. 해가 천천히 하늘로 떠오르면 마을 아이들은 전통에 따라 모든 사람에게 생일 축하 인사를 하기 위해 돌아다니며 " #italic 아이데 참발랄라!#! "라고 말합니다.\n\n이에 우리는 아이들에게 많은 생을 기원하는 긍정적인 말로 응답하고 아이들에게 더 많은 #italic 부르사메#!를 줍니다." # 54b2c65c03e16a63d9cb5ee7533400686d02e162
+	south_ethiopia.0064.a: "이제 다른 주요 이벤트로 넘어가겠습니다." # 6949084a24f420ea793dd18fc6bc0a10c130108d
+	south_ethiopia.0065.t: "커뮤니티에 드리는 조언" # 32ea21ffe9c26df6ba1cded7af9fdbf1258775b2
+	south_ethiopia.0065.desc: "#italic Chambalaalla#!, and the week after it, filled with many events. There is the ritual of feeding cattle a salty soil called #italic boole#!, for instance. There are also many different kinds of dances that are performed, particularly #italic Keetaala#!, that serve as an opportunity for young, unmarried people to meet and find potential spouses.\n\nAnyhow, it is during the #italic Keetaala#! song and dance, when everyone gathers in the #italic gudumaale#!, the public gathering area, to sit down and receive blessings from myself, the local leader. I have prepared many words of advice to say to the community this year, on how we can promote good deeds, and prevent ourselves from committing bad deeds." # null
+	south_ethiopia.0065.a: "모두가 제 충고를 마음속에 새기기를 바랍니다." # d6881928637ccb0ec28a52811c4ba73eb5efea3a
+	south_ethiopia.0065.tooltip: "조언이 좋은 반응을 얻으면, 받는 [character_modifier|E]는 당신의 [skills|E]에 영향을 받습니다." # f3ed2f8d4f0687d4b1f85fc100ec4d86c4698129
+	south_ethiopia.0065.a.bad.toast: "영감 없는 조언" # 8a2e9981690d7b9fad601f736e080fbdf87337b9
+	south_ethiopia.0065.a.bad: "당신의 조언은 미지근한 반응을 얻었습니다." # 55453ba71f57f49dbe593fb4fa2fb875eefb0b5f
+	south_ethiopia.0065.a.good.toast: "영감을 주는 조언" # 0b9c3ac5b17c7186033cf06bc110fba2331ccf94
+	south_ethiopia.0065.a.good: "당신의 조언이 긍정적인 반응을 얻었습니다." # d9a73449fbd7a1c92401dfd34994b11add182f2f
+	south_ethiopia.0066.t: "피치이-푸로" # 6a16499d4f3a016d0abd336b846e4af9ae09e863
+	south_ethiopia.0066.desc: "아아, 좋은 것들은 모두 끝을 맺어야 하는 법, 특별한 #italic 키탈라#! 춤인 #italic 샤쉬가#!와 함께 #italic 피치-참발랄라#!도 막을 내리려 합니다. 이것은 모두 함께 노래하고 춤을 추는 특별한 종료 의식인 #italic 피치-풀로#!의 일부입니다.\n\n마지막으로, 원로들이 우리를 축복하고 "피치여 영원하라!"라고 선언하며 모든 행사를 끝맺습니다." # 53c3ceb56192c3deae8140cff5d8670d08c69321
+	south_ethiopia.0066.a: "새해가 시작됩니다!" # 8d938f21a94f9875f8623e7db5227f1f41687a69
+	south_ethiopia.0067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0080.t: "엔셋 수확" # bb5f451e3cc86be7706e9fd184e3dc6f31363a94
+	south_ethiopia.0080.desc: "[GetGeographicalRegion('RICE_south_ethiopia_region').GetName] 고지대의 사람들은 대대로 #bold 엔셋#!을 경작해 왔습니다. 엔셋은 가뭄에 강하고 생애 어느 시점에도 수확할 수 있어 매우 유용한 작물입니다.\n\n그리하여 저는 제 영토 내 엔셋을 재배하는 마을에 가까운 미래의 식량 공급을 확보하기 위해 지금 엔셋을 일부 수확하라고 명령했습니다.\n\n어떤 사람들은 식물이 더 자란 나중에 수확하는 것보다 지금 수확해야 한다는 것에 불평할지도 모릅니다. 하지만 가뭄, 기근 또는 기타 재앙이 언제 닥칠지는 아무도 모릅니다." # cef50a347bb528b086d8013a5f41a8bfe8da8bf5
+	south_ethiopia.0080.a: "이는 필요한 예방 조치입니다." # 981b22ca19ea2f7b217cf5a2dce2fb3f601f7d26
+	south_ethiopia.0081.t: "신성한 수풀 보존" # d83ab5f0df282ca212ab5a4c726a4f66594f671d
+	south_ethiopia.0081.desc: "[culture.GetName] 사람들 사이에서, 선조로부터 물려받은 신성한 나무와 숲을 지속적으로 관리하는 [ROOT.Char.GetWomanMan]은 많은 이들의 존경을 받는 자입니다.\n\n저는 우리의 신성한 나무를 관리해야 하는 의무를 이행하기 위해 자원을 따로 마련했습니다. 그렇게 함으로써, 저는 다른 사람들의 눈에 더 나아 보일 뿐만 아니라, 제 조상들과 위대한 [ROOT.Char.GetDynasty.GetName] 가문을 기리는 것입니다." # 0c80be499ba9f81ae690ae5d772baf631faf1733
+	south_ethiopia.0081.desc.small: "이 자원들은 우리의 #italic 광산'에 하아라#! 또는 가정용 과수원의 보다 소규모 유지보수 프로젝트에 전념될 것입니다. 이 나무들은 직계 가족이 유지 관리하는 더 작은 과수원입니다." # b69fd5e39cea3f13e5d2ed9c710f47a357e2a81a
+	south_ethiopia.0081.desc.medium: "이번에는 자원을 #italic songo harra#!를 유지하는 데 할당할 예정입니다. 이 신성한 숲은 지역의 우리 부족과 그와 관련된 다른 부족들이 함께 관리하며, 종종 공동 집회 장소로 사용됩니다." # 668646b2a314e0a9aa0b35e8bf61a7f0e03d5a12
+	south_ethiopia.0081.desc.large: "저는 제 씨족과 아주 오래전부터 수많은 다른 씨족들이 공유한 위대한 조상의 유해를 모신 가장 신성한 숲인 #italic 고사 하아라#!를 유지하기 위해 노력할 것입니다. 이 장소의 중요성을 고려하여 공동체 전체가 참여할 것입니다." # e2daa9044c3bdb98ec0a12c436218dcfd278e0ca
+	south_ethiopia.0081.a: "우리는 이 신성한 나무들을 보호하고 보존해야 합니다!" # f6c8ae76a435f1920a6384f61c3df289ad47ee85
+	south_ethiopia.0082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0090.t: "[courtier.GetFirstNamePossessiveNoTooltip] 가축 떼" # df29b879932920bdf172e10a416013bf94fe3a5e
+	south_ethiopia.0090.desc: "[courtier.GetFirstName] 님이 최근 전통적인 [courtier.GetCulture.GetName] 소 개수 세기 의식을 주최하고 참여하여 [courtier.GetSheHe]에게 평균적인 [courtier.GetWomanMan]보다 훨씬 많은 상당한 수의 소가 있음을 입증했습니다!\n\n이러한 행동으로 [courtier.GetSheHe]는 [courtier.GetHerHis] 공동체 내에서 더 큰 존경을 얻었습니다. [courtier.GetFirstNamePossessiveNoTooltip] [ROOT.Char.GetTitleAsNameNoTooltip]로서도 저는 [courtier.GetHerHis]의 위대한 업적과 명망 있는 소 소유자로서의 지위를 인정해야 합니다." # 4ae3200282517d806722518d0c3adcf3076de45b
+	south_ethiopia.0090.a: "훌륭한 업적을 달성하신 것을 축하드립니다!" # 9fe71f9042ea59eced184c6619867f8e0166f07e
+	south_ethiopia.0090.b: "괜찮네요. 하지만 저는 여전히 [courtier.GetHerHis] [ROOT.Char.GetTitleAsNameNoTooltip]입니다." # 3aaec940337d1523abf9d157625b878ed3c4067c
+	south_ethiopia.0090.c: "당신과 나는 이제 별로 다르지 않죠, 그렇지 않나요?" # 9894d9f5d52349aae93973269d6c116769c60a06
+	south_ethiopia.0091.t: "엔셋 품종" # fbeeeceaccca85cd6a7da06b483c5c1566f7ceaa
+	south_ethiopia.0091.desc: "엔세트는 [ROOT.Char.GetCulture.GetCollectiveNoun] 사이에서 귀중한 작물입니다. 전통적으로 우리는 여러 품종을 구별해 왔습니다.\n\n오늘, 저는 지역 농부들을 방문하여 그들이 이러한 품종을 어떻게 구별하는지 설명을 듣고 있습니다. 일반적으로 소위 “남성” 및 “여성” 품종이 있는데, 누가 고정적으로 수확하기를 선호하는지에 따라 각각 남성 또는 여성이 선호합니다.\n\n농부들은 “남성” 엔세트 품종이 더 오래되고 성숙한 경향이 있으며 질병과 해충에 더 강한 반면, “여성” 엔세트 품종은 수확 시기가 더 빠르고 요리하고 먹기에 더 좋다고 설명합니다. 따라서 둘 다 실용적인 용도가 있습니다." # 470faa52f9aa4fcca50937d94fcde8e26b65cdc9
+	south_ethiopia.0091.a: "장기적으로 볼 때 "수컷" 엔셋이 더 안정적인 것 같습니다." # 518cc677143d2bd1c3bd3455af8276d9a78488a3
+	south_ethiopia.0091.b: ""암컷" 엔셋은 모두를 먹여 살리는 데 중요합니다." # df0fefa6b963da70b45f30633d0a10091dc704d0
+	south_ethiopia.0092.t: "[ROOT.Char.GetCulture.GetNameNoTooltip] 장벽 위원회" # 6b1c9d44eee1d51a4aba32dc93dfcd9dc278601d
+	south_ethiopia.0092.desc: "[ROOT.Char.GetCulture.GetName]의 성벽은 한때 농업 목적으로만 사용되었으나, 이제는 내 왕국의 방어 전략에서 중요한 부분으로 부상했습니다. 성벽 건설 과정을 촉진하기 위해, 우리는 전통적으로 지역 원로 위원회를 활용하여 노력을 조직하고 관리했습니다.\n\n어쨌든, 오늘 저는 가까운 미래에 우리가 수행할 성벽 건설 프로젝트에 대해 논의하기 위해 이러한 지역 위원회 일부와 만날 것입니다. 과정에 대해 어떤 분쟁이 있든, 우리는 지역 사회의 모든 사람이 어떤 식으로든 기여하는 이 작업이 절대적으로 필요하다는 것을 모두 알고 있습니다." # 6a5d5d2a49ba82401001a725d1586a38319aae3e
+	south_ethiopia.0092.a: "이제 본론으로 들어가 문제를 논의해 봅시다." # 972bd761d883a3fd14d00f1260e096f7a720fa0a
+	south_ethiopia.0093.t: "불순한 장인" # 4431647846be448766ab791ba8cb9076bed6b089
+	south_ethiopia.0093.desc: "지역 주민들로부터 도공, 가죽 세공인, 대장장이들이 거주 지역에 너무 가까이 살고 있다는 불만이 접수되었습니다.\n\n전통적인 [ROOT.Char.GetCulture.GetName] 문화에서 이들은 의례적으로 깨끗하지 않은 야생 동물의 고기를 먹고 진흙, 광석, 흑요석 같은 더러운 물질을 만지는 일을 하기 때문에 불결한 사람들입니다. 이러한 이유로 존경받는 일반 사람들은 무슨 수를 써서라도 그들을 피해야 합니다.\n\n어쨌든 지역 주민들은 이러한 장인들이 다른 사람들의 영역을 침범하지 못하도록 강제로 다른 지역으로 이주시킬 필요가 있다고 주장합니다." # 6ab9406f80dca1534c880e767dd119f74d249fc8
+	south_ethiopia.0093.a: "좋습니다, 장인들을 다른 곳으로 재배치하십시오." # 92150de88d33bec87193493c3a6cbd493f86527f
+	south_ethiopia.0093.b: "무의미한 불평입니다. 장인들은 이미 멀리 떨어져 살고 있습니다." # 2825f3bbd0c7bdb064cc8784553b02b2445dd8dc
+	south_ethiopia.0094.t: "단나우 바토" # 570ccfaea844e2a6bb292a239bda7937a83f0260
+	south_ethiopia.0094.desc: "우리 [ROOT.Char.GetCulture.GetCollectiveNoun]는 전통적으로 사회 구성원 각자가 자신의 토지를 소유하는 것을 허용하고 장려해 왔지만, 공동체는 공동 토지도 제공합니다. #italic 다나우 바아토#라고 불리는 이 토지는 공동 방목용으로 사용되며, 젊은 부부나 아직 자신의 토지를 마련할 자원이 없는 신규 이주민을 위한 예비 토지로도 사용됩니다.\n\n이 공동 토지는 항상 변하기 때문에 저와 같은 공동체 지도자들은 오늘 제가 하고 있는 것처럼 공동 토지의 사용과 분배를 결정하기 위해 가끔씩 의회에 모여야 합니다." # fbb3841044abf990261d23129894fe8a335eea17
+	south_ethiopia.0094.a: "다른 의회 구성원들에게 결정을 맡기십시오" # 5976e1bf99ce7750f5b5bdf43fd8c1581178eae4
+	south_ethiopia.0094.b: "제 지위를 이용하여 다른 사람들의 결정에 영향을 미치십시오" # 888373225eacabfa72d0a997092d3b7e629e3534
+	south_ethiopia.0095.t: "코초" # 4d525ed4e5e03392a76fa6c299b0ee5ba0ba0eb0
+	south_ethiopia.0095.desc: "오늘, 저는 조리되고 발효된 엔세트에서 만든 빵인 #italic 코초#!를 즐기고 있습니다. 그것은 저희 전통 [ROOT.Char.GetCulture.GetName] 요리의 소박하지만 맛있는 부분이며, 특히 고기와 향신료와 함께 먹고 있을 때 꽤 배부르게 해줍니다." # c2e4d2d4eaf46f5aad3c140b97c13528ac232bf6
+	south_ethiopia.0095.a: "영양가 있고 맛있는 음식!" # b48313ff6d341d41f2a1e330dbf8deaee2164b74
+	south_ethiopia.0096.t: "엔셋 나무 심기" # a42ad681e10d2dc446a35c9543ed46f36929102c
+	south_ethiopia.0096.desc: "최근에 제 하인들 중 일부가 제 거주지 주변에 엔셋 나무를 더 심자고 제안했습니다. 좋은 식량 공급원일 뿐만 아니라 가뭄에 대한 생존력과 저항력이 뛰어나 안정적인 그늘, 비상 식량, 그리고 침입하려는 사람들을 막을 수 있는 추가적인 작은 수준의 보안을 제공하기 때문입니다." # 16650e1b05159de0dadf9a3b2e55fd07e06e3366
+	south_ethiopia.0096.a: "좋은 생각입니다! 엔세트 나무를 심으러 가십시오." # b7f50c8f17e9eee605c78cf3418502f0aa6575fc
+	south_ethiopia.0096.b: "" # 5169e5eca4d1035d2168839fbeb2da71ee4d7898
+	south_ethiopia.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	south_ethiopia.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f

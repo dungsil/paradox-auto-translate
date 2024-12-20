@@ -1,0 +1,406 @@
+﻿l_korean:
+	# Misc 
+	RICE_capital_in_britannia_or_francia_req: "[capital|E]이(가) [GetGeographicalRegion('world_europe_west_britannia').GetName] 또는 [GetGeographicalRegion('world_europe_west_francia').GetName]에 있습니다" # 500344ec30f006a553e8f52bebeabf4080eb4152
+	# Aspirations 
+	RICE_breton_aspiration_constance_desc: "#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$[GetTitleByKey('d_brittany').GetNameNoTier]의 [통치자|E]가 되고 [완전히_통제|E]하십시오\n$EFFECT_LIST_BULLET[성년|E]이 된 [자녀|E]와 당신의 [가문|E]의 [주요_상속자|E]를 두십시오\n$EFFECT_LIST_BULLET[왕|E] 또는 [황제|E] [계급|E]의 [통치자|E]와 최소한 하나의 [동맹|E]을 맺으십시오\n\n#bold 보상#!\n$EFFECT_LIST_BULLET@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [명성|E] 획득\n$EFFECT_LIST_BULLET@dynasty_prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! [가문_명성|E] 획득\n$EFFECT_LIST_BULLET@legitimacy_icon! #V [EmptyScope.ScriptValue('medium_legitimacy_gain')]#! [정통성|E] 획득\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET[독립|E] [통치자|E]가 되십시오 (@dynasty_prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! [가문_명성|E] 획득)\n$EFFECT_LIST_BULLET[왕|E] 또는 [황제|E] [계급|E]의 [통치자|E]와 최소한 두 개의 [동맹|E]을 맺으십시오 (보상: [외교_생활방식|E] [특성|E] 획득)\n$EFFECT_LIST_BULLET최소 #V 10#! 개의 [백작령|E]을 통치하십시오 (보상: 일부 [병종|E]을 포함한 #V 500#! [특별_부대|E] 받기)" # df72f37fe1b727bbd6ce8c00751583bda0c8c10a
+	RICE_breton_historical_aspiration_action_constance: "#italic [GetTitleByKey('d_brittany').GetNameNoTier] is in a precarious situation, as it is surrounded by larger powers that seek to control it and take advantage of the fact that it is ruled by a woman: you. You must do what you can to protect your family and children's inheritance, and retain the independence or at least autonomy of [GetTitleByKey('d_brittany').GetNameNoTier].#!$RICE_breton_aspiration_constance_desc$" # null
+	RICE_breton_historical_aspiration_modifier_desc_constance: "[GetModifier('RICE_breton_aspiration_secure_rule_over_brittany').GetNameWithTooltip]" # a691ae2528393ab41c5a18a7bbe9298a6c718534
+	# Aspiration Modifiers 
+	RICE_breton_aspiration_secure_rule_over_brittany: "[aspiration|E]: 브르타뉴에 대한 가문의 통치 확보" # 6b262351e501f9944e73d1000cad534d12c8dace
+	RICE_breton_aspiration_secure_rule_over_brittany_desc: "#italic [GetTitleByKey('d_brittany').GetNameNoTier] is in a precarious situation, as it is surrounded by larger powers that seek to control it and take advantage of the fact that it is ruled by a woman: Constance. She must do what she can to protect her family and children's inheritance, and retain the independence or at least autonomy of [GetTitleByKey('d_brittany').GetNameNoTier].#!$RICE_breton_aspiration_constance_desc$\n\n" # null
+	# Memories 
+	RICE_breton_tro_breizh_host_memory: "[GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName]에 참여했습니다" # 93dc392ee5d9805f19f28f5bd209576f5c33a6f2
+	RICE_breton_tro_breizh_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName]에 다녀왔습니다." # 5f1bc17fdec6f08128c9d4a007345ce1d8868110
+	RICE_breton_tro_breizh_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName]에 참여했습니다" # c7789e93eba5be912d5fc9a413a261704af073c4
+	RICE_breton_tro_breizh_host_memory_third_perspective: "[owner.GetName]이(가) [GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName]에 참여했습니다" # 27b3c318e44ed45d879fd03d638fa8c43a8f4b4b
+	RICE_breton_tro_breizh_guest_memory: "[GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName]를 [host.GetTitledFirstName]와 함께 하였다." # 1f10fc938f2b5f036545e0bf9bd7aa068b75b717
+	RICE_breton_tro_breizh_guest_memory_first_perspective: "[host.GetTitledFirstName] 님과 함께 [GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName](으)로 떠났습니다." # 18a5f030e2a238a90624a294a95d9322fb92797e
+	RICE_breton_tro_breizh_guest_memory_second_perspective: "[host.GetTitledFirstName] 님과 함께 [GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName]에 참여했습니다" # 5e94e713bcd25fcd7dd06e05b83ac07cc1f697d7
+	RICE_breton_tro_breizh_guest_memory_third_perspective: "[owner.GetName]이 [host.GetTitledFirstName]와 함께 [GetActivityType(  'activity_RICE_breton_tro_breizh' ).GetName]에 참가했습니다" # 685d04921db28b843a15b937f74c5949e7a80294
+	# Activities 
+	activity_tro_breizh_host_an_a: "$host_activity_a$" # null
+	activity_tro_breizh: "트로 브리제 순례" # 8478045a5f1e11efa2591db90cebd2d05c687c5f
+	activity_tro_breizh_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U]의 브르타뉴의 7개 도시 순례" # f5701bc7ed8f569b06eef690e43a0e6114962ce9
+	activity_RICE_breton_tro_breizh: "트로 브리제 순례" # 8478045a5f1e11efa2591db90cebd2d05c687c5f
+	activity_RICE_breton_tro_breizh_desc: "[GetTitleByKey('d_brittany').GetNameNoTier]의 일곱 창시 성인은 각각 일곱 개의 특정 도시와 연관되어 있으며, 이 도시들은 차례로 [local_pilgrimage|E]의 장소입니다." # 5594a012bc81db6a53655b9467791289e2b2249a
+	activity_RICE_breton_tro_breizh_selection_tooltip: "[GetTitleByKey('d_브르타뉴').GetNameNoTier]의 여러 중요 도시들을 순례하는 [local_pilgrimage|E]를 떠납니다.\n\n$RICE_tro_breizh_context_tooltip$" # 3a02d8813ff0b9002908752194a71a72a4b2a665
+	activity_RICE_breton_tro_breizh_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ [GetModifier('RICE_breton_recent_tro_breizh').GetNameWithTooltip] [character_modifier|E]" # a44e5e3a8673eb84ebd2a112bddee77f87a61703
+	activity_RICE_breton_tro_breizh_guest_desc: "$activity_RICE_breton_tro_breizh_host_desc$" # null
+	activity_RICE_breton_tro_breizh_province_desc: 
+	activity_RICE_breton_tro_breizh_destination_selection: "$activity_RICE_breton_tro_breizh_province_desc$" # null
+	activity_RICE_breton_tro_breizh_guest_help_text: "$activity_RICE_breton_tro_breizh$" # null
+	activity_RICE_breton_tro_breizh_predicted_cost: "[GetTitleByKey('d_brittany').GetNameNoTier]의 [local_pilgrimage|E] 비용은 선택한 [activity_options|E]에 따라 달라집니다." # f826d60707ce05d9868ed098b92ab1d7e7836a60
+	activity_RICE_breton_tro_breizh_conclusion_desc: "[GetActivityType( 'activity_RICE_breton_tro_breizh' ).GetName] 여정이 끝났습니다. [GetTitleByKey('d_brittany').GetNameNoTier]의 중요하고 신성한 장소들을 여행하며 감명을 받았습니다!" # 7e9e21576abb5f7021f486daaab39e98d3cd528d
+	RICE_breton_tro_breizh_completed_log_title: "브르타뉴 순례 완료" # a44d2e13eb29fc9195bd19fd1d8b3818bd8bcba1
+	RICE_breton_tro_breizh_completed_log: "[CHARACTER.GetShortUIName|U] 님이 [CHARACTER.GetHerHis] 트로 브레이즈를 완료했습니다" # e269dd5aa5d93442ab37c42cb0e7c108a82d2170
+	TRAVEL_NAME_FOR_activity_RICE_breton_tro_breizh: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_breton_tro_breizh$" # bce13c3b2234687651689c739a226b84b33c6aed
+	activity_RICE_breton_tro_breizh_owner: "순례자" # fa90e82f429f333a1ff48c9130132abed1504929
+	# Modifiers 
+	RICE_breton_guerande_salterns: "게랑드의 소금밭" # 885b579848a343929042c2a4f757ab6019642ebb
+	RICE_breton_guerande_salterns_desc: "게랑드(브르타뉴어로는 그웬란) 마을은 거대한 염전 근처에 자리 잡고 있습니다. 수세기 동안 이곳 사람들은 현지 염전에서 소금을 채취하여 상당한 이익을 얻었습니다." # 54d00494e0585b4460c90ca352023d10d5ee1b84
+	RICE_breton_recent_tro_breizh: "브르타뉴 순례 완료" # e4f3272da234b72d99ebdb2eab8e9f3e37be0415
+	RICE_breton_recent_tro_breizh_desc: "이 캐릭터는 최근 많은 브르타뉴인들이 행하는 고대 기독교 순례인 '브르타뉴 순례'를 마쳤습니다. 전통적으로 순례는 브르타뉴의 7개 성지를 아우릅니다." # 1d870b7b36179b4b5661519f48ba1d0422996f94
+	RICE_breton_calvary_small: "소규모 기병대" # 5068021033b82c239db0279edff0923476d1dd83
+	RICE_breton_calvary_small_desc: "이 사람은 최근 브르타뉴 정착지에 작은 규모의 기병대 또는 기념비적인 공공 십자가 조각품 건설을 위해 자금을 기부했습니다. 비록 작지만, 그것은 신앙심의 좋은 표현입니다." # 68bb386649f354bbae299f27abbff941c63930a7
+	RICE_breton_calvary_medium: "중기병" # a6da3f5bc1dc31f9af2b874038b0d4c7ffd3e9c7
+	RICE_breton_calvary_medium_desc: "이 사람은 최근 브르타뉴 정착지에 중간 크기의 기병대나 기념비적인 공공 십자가 조각상 건설을 위해 자금을 기부했습니다. 그것은 진정한 신앙의 증거가 될 것입니다." # 3e003709622749e0cde3ba6b56cdcaad3b42ba20
+	RICE_breton_calvary_large: "대규모 기병대" # c64b3d2eb7153b05a7b534fceab2cb0363c4bbaf
+	RICE_breton_calvary_large_desc: "이 사람은 최근 브르타뉴 정착지에 대형 기마상이나 기념비적인 공공 십자가 조각상을 건설하기 위한 자금을 기부했습니다. 이 조각상은 웅장함과 아름다움으로 많은 사람들에게 영감을 줄 것입니다!" # 012193dc93096220dfa67e9e8029d98671bb8d04
+	RICE_breton_observed_treguier_merchants: "트레기예 상인들의 작업 관찰됨" # 027e1bd6e6856f78634a764d568b6aff26a1c2b2
+	RICE_breton_treguier_pilgrim_stories: "트레기예에서 순례자들과의 대화" # 4d0ac5e3986614c0148a28e8f12853e5bccfd4b8
+	RICE_breton_fruits_of_dol: "브르타뉴 돌 도시에서 과일을 구입했습니다." # 79e845ec9153f4e4e23f7238a936dbf2fc9f07b8
+	RICE_breton_merlins_blessing: "멀린의 축복" # f992d3754286f9a62ce2a302515220b5dd38c209
+	RICE_breton_merlins_blessing_desc: "이 캐릭터는 아서 왕 전설의 유명한 인물인 멀린의 무덤이라고 알려진 곳을 방문한 후 어떤 신성한 축복을 받았다고 합니다." # 3669a37b257834b1afe7f7ca911c40c5a13a7135
+	RICE_breton_using_carnac_stones: "건설 프로젝트에 카르낙 열석 사용" # d9ed43d341a3306ad584d890343dc2907b16390f
+	RICE_breton_eagle_fern_minor: "독수리 솔잎 혼합물 (약)" # adac80689e51037bbb234bbe8f13667c974f8f92
+	RICE_breton_eagle_fern_major: "강력한 독수리 고사리 혼합물" # 057a9fc68f8ecc62a1e6701811c86d4151f88f8c
+	RICE_breton_golden_grass: "황금 풀 강장제" # bfdc7678206838f119634591841ff11ae85594be
+	RICE_breton_impressive_herbal_knowledge: "브르타뉴에서 발견되는 약초와 식물에 대한 뛰어난 지식" # 8f8a37fd38161e42be8a81d58a3f0dedc32fc5ef
+	RICE_breton_ankou_sightings: "앙쿠의 목격" # 7ef1fa7684bdd07a45362fe7ff471693e84a7db7
+	RICE_breton_ankou_sightings_desc: "최근 이 지역에서는 브르타뉴 민속에 등장하는 죽음의 영혼인 앙쿠를 목격했다는 이야기가 많았습니다. 이러한 목격담과 관련하여 불행한 사건과 사망이 잇따랐지만, 냉철한 학자들은 이러한 믿음이 대중 히스테리일 가능성이 높다고 주장합니다." # 3d01e5e5ac13671b288cf6103a2497cefcc19e86
+	RICE_breton_chouchen_too_much: "독한 슈셴 사이다를 마심" # e8463670519e7ae66c65235a94587fc9afa8c8f8
+	RICE_breton_tales_of_ys: "이스에 관한 최근 이야기들" # 14336138c4dd57f6da757f3b884b2512029ad874
+	RICE_breton_tales_of_ys_desc: "이스는 브르타뉴에 있었던 전설적인 도시로, 엄청난 부와 권력을 지녔지만 여러 세대 전에 바다에 삼켜졌다고 전해집니다. 이 인물은 최근 바닷속에서 그 폐허를 보았다고 주장하는 자를 만났습니다." # aa9d85c717e2485641b7223b00d9de468b3bc373
+	RICE_breton_salted_butter_feasts: "브르타뉴 소금버터 축제" # 00cf95ef645e2b6560f4dacd531c8dd848ded8e3
+	RICE_breton_chouchen_aphrodasiac: "슈셴 최음제" # 121dce1c101a450c95607949fd437c3dacdda173
+	RICE_breton_chouchen_aphrodasiac_desc: "이 캐릭터는 최근에 쇼셴을 많이 마셨습니다. 브르타뉴 민간 전승에 따르면 이 종류의 벌꿀주는 최음제로도 여겨질 수 있다고 합니다." # 17ab02964ffda9ed50406bd272368ff65e878ffe
+	RICE_breton_eating_salted_butter: "브르타뉴 소금 버터 많이 먹기" # f10daa7cdd356f1b3356a3c51447ae3f10d19450
+	# Decisions 
+	RICE_tro_breizh: "트루 브르타뉴 순례를 떠납니다" # 3b9f8077652147b62aabb11c70eebda82bd55130
+	RICE_tro_breizh_tooltip: "'브르타뉴 순례'를 떠나 브르타뉴를 세운 일곱 성인을 만나러 갑니다." # 510a76508816f143e1c70fd5062b880d483a2b7b
+	RICE_tro_breizh_desc: "브레타뉴 7대 성인과 관련된 마을들을 방문하며 트로 브레쥐 순례길을 떠나겠습니다." # 2925e31a8260c950c8f022ddcd30708e47f511f1
+	RICE_tro_breizh_effect_tooltip: "브르타뉴의 현지 브르타뉴 성인에게 헌정된 일곱 개 마을을 여행하게 됩니다." # 142ab5c2e8a167f918e35285b7c49dd85745cc7e
+	RICE_tro_breizh_confirm: "브리타니로 진격하라!" # 0b2e7142cb0109653019a1bc10d85384f3ee83aa
+	RICE_erect_calvary_sculpture: "기마상 조각상 건립" # 693463c37889dde0caaedc836b1e3fc2faf8da4c
+	RICE_erect_calvary_sculpture_tooltip: "지역 마을에 기마 조각상 건설을 후원합니다." # b0e60f57d441f124dfacc5494ef0dfbb4c88bc2a
+	RICE_erect_calvary_sculpture_desc: "저는 지역 마을에 기념비적인 공공 십자가인 갈보리 건설을 후원할 것입니다." # 8840987b4bcf78454fdb1bb7142a2cabdbb91010
+	RICE_erect_calvary_sculpture_effect_tooltip: "수도에 10년 동안 특별한 변경치가 적용됩니다." # 1dd3421bab38634d10d19c9298287d44289a9d3d
+	RICE_erect_calvary_sculpture_extra_cost_tooltip: "더 큰 기병대는 건설 비용이 더 많이 듭니다." # d775a396c30663b3b76ccbe5b69895e7359588b3
+	RICE_erect_calvary_sculpture_confirm: "시작해 봅시다!" # e611e681068454f23c9038d4de1bbe2789885dfd
+	RICE_breton_decision_calvary_requirement: "#weak 브르타뉴#!, #weak 북프랑스#!, #weak 포르투갈#! 또는 #weak 저지대 국가#!의 속주를 소유했습니다." # 33db9f90b0a054b3000b8ef67cdaf2765683099a
+	RICE_tro_breizh_context_tooltip: "#emphasis Historical Context:#! Although local pilgrimages have been a major part of Breton culture for centuries (like in many other parts of the Christian world), 'Tro Breizh' is a modern term and concept, used here as a convenience to represent historical pilgrimages in the region." # null
+	RICE_erect_calvary_sculpture_context_tooltip: "#emphasis Historical Context:#! Calvaries (not to be confused with Cavalry, the mounted military units) are a type of monumental architecture from the late medieval and early modern periods, typically found across various parts of continental Western Europe such as Brittany." # null
+	# Events 
+	breton.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0001.t: "[GetTitleByKey('d_brittany').GetNameNoTier] 공작부인" # cdc5f5f35dd268bb3977f49c2148bfd069695f69
+	breton.0001.desc: "[constance.GetTitledFirstName]은 흥미로운 상황을 거쳐 아버지 [conan.GetTitledFirstName]에게서 왕좌를 물려받았습니다. [conan.GetSheHe|U]는 [constance.GetCulture.GetName] 귀족들의 반란을 진압하기 위해 [henry.GetTitledFirstName]에게 도움을 요청했습니다.\n\n하지만 [henry.GetFirstNameNoTooltip]는 몇 가지 조건을 걸었습니다. 즉, [conan.GetFirstNameNoTooltip]이 자신의 딸 [constance.GetFirstNameNoTooltip]을 [henry.GetFirstNamePossessiveNoTooltip]의 아들 [geoffrey.GetTitledFirstName]과 약혼시켜야 한다는 것입니다. 더욱이 [henry.GetFirstNameNoTooltip]는 나중에 [conan.GetFirstNameNoTooltip]을 강제로 퇴위시키기까지 했습니다.\n\n[constance.GetFirstNameNoTooltip]은 위태롭고 위험한 상황에 놓였습니다. [constance.GetHerHis] 가족이 잉글랜드, 프랑스 등 주변 왕국들의 계략에서 살아남으려면 [constance.GetSheHe]는 모든 지혜와 정치적 기술을 사용하여 [constance.GetHerHis]의 상속자들이 그들의 타고난 권리를 빼앗기지 않도록 해야 합니다." # 4fc237ed12ea7baeee256e6be1332c09aa343d50
+	breton.0001.a: "[GetTitleByKey('d_brittany').GetNameNoTierNoTooltip]에게는 위험한 시대입니다..." # 928879dac67293c34afbf5ccb8d5023e40989311
+	breton.0002.t: "$RICE_historical_aspiration_fulfilled_title$" # null
+	breton.0002.desc: "모두가 제가 살아남을 거라고 예상하지 못했음을 말해도 될 것입니다. 저와 [GetTitleByKey('d_brittany').GetNameNoTier]는 유럽의 강력한 왕국들 사이의 거대한 게임에서 졸로 이용될 운명이었습니다.\n\n하지만 정치, 음모, 그리고 약간의 전투를 통해 저는 [GetTitleByKey('d_brittany').GetNameNoTierNoTooltip]을 [constance.GetHouse.GetName] 가문의 다음 세대를 위해 확보하는 데 성공했습니다.\n\n하지만 우리는 늘 경계를 늦추지 않아야 하며, 적들이 우리의 약점을 이용하지 않도록 조심해야 합니다. 여기서 제 임무는 끝나지 않았으며, 저는 우리 가문이 이 영토를 유지할 수 있도록 계속해서 노력해야 합니다. 때가 되면 [heir.GetTitledFirstName]이 저의 일을 이어나갈 것입니다." # 1557735191953fe2b04feaab9db8f7cfb6e7157c
+	breton.0002.a: "[constance.GetHouse.GetNameNoTooltip] 가문에 영광을!" # ecadbb58cb6317e1772b2aa7ef70f214519272fd
+	breton.0003.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0003.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0003.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0004.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0004.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0004.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0005.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0005.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0005.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0006.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0006.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0006.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0007.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0007.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0007.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0008.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0008.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0008.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0009.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0009.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0009.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0010.t: "기병대 건설" # a24fb160ba8628ba1fe6e02acc200823a15d5b19
+	breton.0010.desc: "새로운 갈보리 건설에 적합한 정착지를 발견했습니다. 이곳은 예수 그리스도의 십자가형을 묘사한 아름다운 기념물이 될 것이며, 충분히 크다면 축복받은 성모 마리아, 여러 사도, 성인들의 조각상도 포함될 수 있습니다. 이제 저는 이 프로젝트에 얼마만큼의 자금을 제공할 의향이 있는지 파악해야 하며, 이는 이 기념물이 얼마나 웅장해질지 결정할 것입니다." # 99f54cb6e2f56d590e0063075b7ab29d8a196e83
+	breton.0010.a: "소액 자금" # 501b823875378c74dff672beac0898407584091a
+	breton.0010.b: "중간 정도의 자금" # 46a0c28ac9b2946ab6d8adfcf23e9a19b76be4e6
+	breton.0010.c: "많은 자금" # afeae631605f5937bc9bd491df4aeebe1c3da352
+	breton.0010.d: "" # ddef74aaebba77b74f94427217d4047d2b7c0a61
+	breton.0011.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0011.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0011.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0012.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0012.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0012.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0013.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0013.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0013.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0014.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0020.t: "트레 브레즈 준비" # 51ace34f9668a7560ed05fe61ba6e7e14db6adac
+	breton.0020.desc: "브르타뉴 사람 중 트로 브레이즈 순례를 마치지 못한 자는 저승에서 그 순례를 완수해야 한다고들 합니다. 이제 그 순례를 떠날 때가 된 것 같군요! 예를 들어 예루살렘 순례만큼 명성 있거나 혹독하지는 않지만, 우리 유산의 중요한 부분입니다." # ea767f4e2dd001d945bec7fea33892e38709fbfc
+	breton.0020.a: "갈 시간입니다!" # 210e663e0da4e4f5d49dc2fafe7d3f1181368eaa
+	breton.0021.t: "브르타뉴 순례 시작" # d5313ed26a26e997b4f70e799d64bcdfe8f1d896
+	breton.0021.desc: "날이 밝았습니다. 트로 브레즈 순례를 시작할 시간입니다! 따라서 브르타뉴를 세운 성인들의 일곱 마을을 여행하며 많은 신앙심을 얻을 것입니다." # 2fe53fb59baa69ef4776a832154907276d78dc73
+	breton.0021.a: "첫 번째는 생 코렌틴의 도시 캥페르입니다." # ccf90e57d62b7af61abcd2811a505c0d4d7500f8
+	breton.0022.t: "켐페르" # d980c5f72157d8aa64601283139a567317846716
+	breton.0022.desc: "소박한 큄페르 마을은 제가 바랐던 것만큼 우아하거나 화려하지는 않지만, 확실히 특유의 매력이 있습니다. 이곳의 보수적인 사람들은 매우 영적이며 종교적인 분위기는 저의 순례를 위한 좋은 시작입니다.\n\n기도하고 묵상하기 위해 성 코렌틴 교회로 향합니다. 그는 이 마을의 첫 번째 주교였으며, 필요할 때마다 자신을 지탱할 수 있도록 부위가 다시 자라는 기적적인 물고기를 가지고 있었다고 합니다. 기도를 마친 후 큄페르를 떠나기 전에 현지 요리를 꼭 즐겨봐야겠습니다!" # 9877cbbb267c665701c194ef6ea4bc57fed4cd61
+	breton.0022.a: "내일은 생폴드레옹으로 향합니다." # cce08e63c15ea3385b5065b30b784e51a52cb33b
+	breton.0023.t: "생폴드레옹" # 66aef1042259e72d7b35d07d6f0cce24560e4f2f
+	breton.0023.desc: "생폴드레옹은 그림 같은 해변과 상쾌한 바닷바람으로 축복받은 아름다운 해변 마을입니다. 이 마을의 위대한 성인인 성 바울 오렐리안에 대한 이야기가 있는 만큼 이곳에서는 많은 양의 채소와 과일이 재배됩니다.\n\n성 바울 오렐리안은 이곳에 중요한 수도원을 세웠습니다. 그는 고기를 먹지 않는 특이한 습관이 있었으며 거의 1세기 반을 살았다고 합니다. 트레기예로 떠나기 전에 그의 금욕을 어떻게든 기려야 할지도 모르겠습니다." # 5b341ea6e32b18350f4eb8e6b0616b4679eec567
+	breton.0023.a: "생폴드레옹에 있는 동안에는 어떤 종류의 고기도 먹지 않겠습니다!" # 35370e1e324745ab233753b43563f917a63c2493
+	breton.0023.b: "고기? 그거 좋은 생각 같지 않은데. 여기 있는 것만으로 충분해." # e460c04a12d5426c98fe7ba031b6cd46d44c9d33
+	breton.0024.t: "트레기어" # 5a74006a73caade8fffdd19179afbf45c3019d50
+	breton.0024.desc: "트레기에는 생폴드레옹처럼 해변에 있는 마을이지만 훨씬 더 번잡합니다. 중요한 지역 항구로, 종종 상업과 무역으로 북적입니다. 이곳이 더 사색적인 종교적 경험에 항상 가장 적합한 곳은 아닐 수 있지만, 그것이 반드시 나쁜 것은 아닙니다.\n\n트레기에는 유명한 은둔자이자 수도자였으며 나중에 이 마을의 주교가 된 성 투드왈의 마을입니다. 순례자들의 군중 속을 헤쳐나가면서 그의 인내를 실천해야 합니다.\n\n이후 우리는 생브리외로 갑니다." # f16759f907de143b02d03ef80e603aeea9a590a4
+	breton.0024.a: "상인들을 관찰하고 제가 있는 동안 장사가 어떻게 되는지 확인하세요." # 2e02d0efce5c82fdecb9d8c254455d9c5b595c78
+	breton.0024.b: "세계 각지에서 온 순례자들과 대화하며 그들의 이야기를 들어보십시오" # dd9cd0e808f997daf06ac5fcc34db0dcf75791f8
+	breton.0024.c: "영적 문제에 집중하고 성 투드왈 교회에서 기도하십시오" # 6fd5991fde4c5fb777d4438d80c003e7cf5f347b
+	breton.0025.t: "생브리외" # a8199f4710ecdbb1138f1df3408eb8bda944fe5a
+	breton.0025.desc: "이제 저는 또 다른 항구 도시인 생브리외에 있습니다. 최근에 방문했던 번잡한 도시에 조금 지쳤는데, 다행히 생브리외는 아래의 푸른 바다를 배경으로 넓은 녹지 경관을 자랑하는 자연 만에서 피난처를 제공합니다. 현지인들이 말했듯이 이곳은 수많은 새들이 번성하는 성지에서 새들을 보고 들을 수도 있습니다.\n\n이곳은 이 도시의 중심인 수도원을 세운 위대한 성 브리오크의 도시입니다. 저는 그가 세운 기도실에서 조용한 기도를 드릴 수 있게 되어 운이 좋습니다. 진정으로 성스러운 곳입니다!" # 32cc6812b7930ceb9f41229004139e28b490f3f8
+	breton.0025.a: "다음 목적지는 생말로입니다." # 92d584a8da9cc389dbf2c166a97e0ae3fa9a93a8
+	breton.0026.t: "생말로" # 115158a8c0133cb0252448338e22d7b633da5578
+	breton.0026.desc: "처음에는 생말로를 가는 것을 조금 걱정했습니다. 해적, 거친 선원, 무시무시한 모험가들이 사는 험악한 동네로 알려져 있기 때문입니다. 하지만 이는 마을의 한 부분일 뿐이며, 주변 환경에도 불구하고 (혹은 그 덕분에) 훌륭한 덕성을 지닌 평범한 사람들도 살고 있습니다.\n\n생말로의 수호 성인, 성 말로는 어쩌면 이 마을에 어느 정도 부합할지도 모릅니다. 성 브렌던의 제자였던 (제가 들은 바로는) 그는 스승과 함께 고해를 여행하고 모험하며 신비로운 땅인 축복받은 섬에 도달했다고 합니다. 저는 그 섬에서 어떤 이교도들을 개종시켰을까 궁금합니다.\n\n여기서 일이 끝나면 다음으로 돌로 여행할 것입니다." # 1eb68a93a67b81762b7be6c5a649e7284c10552b
+	breton.0026.a: "악당들과 어울리며 그들을 이해하십시오. 그들 역시 신의 자녀가 아닙니까?" # 5268a4a60a81b16242da3599a6728566304fbeda
+	breton.0026.b: "조용한 마을 구석에 머무르십시오. 저는 신앙심이 깊고 고결한 사람들과 함께하는 것을 선호합니다." # 99a5c0fdd92056bd9f128b3f375b288e2170c4a5
+	breton.0027.t: "돌" # 9400c5d70f87ce3514f5bfbce688eb0b23466566
+	breton.0027.desc: "돌은 역사가 가득한 곳입니다. 예를 들어, 이곳에서 성 테일로가 버드릭 왕에 의해 지역 주민들을 공포에 떨게 한 무시무시한 용을 처치하도록 임명되었다고 들었습니다. 성인과 사악한 용의 싸움이라니 얼마나 장관이었을지, 그 전투를 직접 봤으면 얼마나 좋을까요!\n\n또한 성 테일로와 성 돌이 이곳에 오늘날까지 남아 있는 과수원을 심었다고 합니다. 이 나무 아래를 거닐다 보면 하느님의 창조물인 자연 속에서 마음이 편안해지는 것을 느낄 수밖에 없습니다. 그들이 맺는 열매가 맛있는 것은 말할 것도 없고요.\n\n이후로 우리의 여정은 거의 끝나갑니다. 마지막 목적지인 반이 남았습니다." # 33538d4ab43a344d1a43453abce2b7450c0d7f1f
+	breton.0027.a: "여기 있는 동안 맛있는 과일을 좀 사야겠어." # 4d5f55b6fa825c95263b960974181a3a5a271051
+	breton.0027.b: "과일을 사지 마세요. 불필요한 지출입니다." # da7751669fce286527a36f541e884d23d57969e5
+	breton.0028.t: "반" # 6fd81551b951c786cc53166bcd2201743bc02563
+	breton.0028.desc: "이제 트로 브레즈 순례를 거의 마쳤습니다. 이제 순례의 일곱 번째이자 마지막 기착지인 반에 도착했기 때문입니다. 이곳은 로마 황제 이전 시대로 거슬러 올라가는 매우 오래된 정착지임에도 불구하고, 학자들은 매우 즐겁고 흥미로운 곳이라고 말합니다. 예를 들어, 저는 현지인들이 "반과 그의 아내"라고 부르는 우스꽝스러울 정도로 푹신하고 못생긴 화강암 조각상에서 많은 재미를 찾았습니다. 일부 현지인들은 이 지역에 흩어져 있는 고대 큰 돌들의 전설에 대해서도 설명해 주었습니다.\n\n하지만 지금은 웃음보다는 종교에 집중해야 할 때입니다. 저는 반의 성인인 성 파테른에 대해 생각합니다. 그들은 이 성인이 위대한 브리튼 영웅인 강력한 아서 왕과 동시대 사람이었다고 말합니다. 전설에 따르면 그는 왕의 탐욕을 길들이고 군주를 겸손하게 만들었다고 합니다. 어쨌든 저 역시 덕을 닦아야 합니다. 이것이 바로 제가 이 순례를 떠난 이유니까요." # 35dabeff32d953c108bb172d21a558fc50268bfb
+	breton.0028.a: "제 여정은 거의 끝났습니다." # f6928da3fdfb74b70097cb66c05dd5a79cc56f17
+	breton.0029.t: "브르타뉴 순례 종료" # 093f1aa5e7ca5d0bf59672c11693fb102931b970
+	breton.0029.desc: "제 오랜 거주지가 수평선 위에 어렴풋이 보입니다. 브르타뉴의 모든 선한 기독교인들이 의심의 여지 없이 따라야 할 의무인 브르타뉴의 7개 성지를 순례하는 여정을 마치고 집으로 돌아왔습니다. 이 순례를 통해 많은 것을 생각했고, 우리 땅의 영적인 경이로움과 종교 유산을 보았습니다." # 276e290e05e811a288003cbfc83a4d0d26e3519c
+	breton.0029.a: "제가 살아있는 한 제가 경험한 것을 기억할 수 있기를 바랍니다." # 4146ecde47538963065433dd3de0abfa159b6bbd
+	breton.0030.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0030.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0030.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0031.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0031.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0031.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0032.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0032.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0032.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0033.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0033.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0033.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0034.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0034.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0034.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0035.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0035.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0035.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0036.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0036.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0036.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0037.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0037.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0037.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0038.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0038.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0038.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0039.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0040.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0040.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0040.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0041.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0041.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0041.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0042.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0042.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0042.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0043.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0043.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0043.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0044.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0044.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0044.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0045.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0045.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0045.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0046.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0046.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0046.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0047.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0047.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0047.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0050.t: "머린의 무덤" # 816558a26c5dc3646bdce8fd385e65bf6fcbd7d6
+	breton.0050.desc: "브르타뉴에서 당신이 통치하는 지역에 아서 왕 전설과 관련된 숲 지역이 있습니다. 지역 브르타뉴 민속에 따르면 여기에는 주목할 만한 장소가 여러 곳 있으며, 특히 멀린의 무덤이 있다고 합니다. 호기심에 오늘 그곳을 방문했는데, 숲 속 작은 공터에 있는 커다란 조각 바위에 불과하다는 것을 알게 되었습니다. 이곳이 정말로 아서 왕의 전설적인 궁정 마법사 멀린이 묻힌 곳일까요? 바위 옆에 꽃이나 약간의 음식과 같은 단순한 공물을 놓으면 소원을 빌어 이룰 수 있다고 합니다." # 608245142c6ae276663ca9bfd1c60adb8b06dcd8
+	breton.0050.a: "우스꽝스러운 미신이군! 하지만 이곳은 평화로운 것 같으니 여기서 쉬어야겠다." # 0c2d21ed7860eb288924ca0de833f8b8131a5715
+	breton.0050.b: "위대한 분의 무덤을 방문하게 되어 영광입니다. 꽃을 바치겠습니다." # ae1edec37563f87ad923cd186d28a8917c865207
+	breton.0051.t: "카르나크의 돌" # 11f238bee8fb2a99069d585f73a1ba4467c77abc
+	breton.0051.desc: "브르타뉴에는 특히 카르나크 마을 근처에서 깔끔한 무늬로 배열된 고대 돌판을 곳곳에서 찾아볼 수 있습니다. 일부 지역 주민들은 관할 지역 내 지역 건설 프로젝트에 그러한 돌을 사용해 왔습니다. 그러나 이러한 돌들이 고대 성직자들이 만든 것이며 방해해서는 안 된다고 주장하며 경고하는 사람들도 있습니다." # bd887d0474c22b39b36aaf4b1086ba9cf0b0a999
+	breton.0051.a: "평민들이 원하는 대로 하도록 내버려 두십시오." # 7891de1d22fa53df9bd9925b2916f657985b716e
+	breton.0051.b: "어쩌면 이 돌들을 제 프로젝트에 사용할 수도 있겠군요!" # 197ea6c4c0e8822ea68d90b000b1fb9c3e79584a
+	breton.0051.c: "그렇습니다, 그러한 신성한 곳을 방해해서는 안 됩니다!" # a4f0c66899b1c3b145e45eb9f002001c4318e990
+	breton.0052.t: "거인들의 돌" # 9c63514c8a34309a856805bbc86cd9d1800a833b
+	breton.0052.desc: "브르타뉴를 여행하던 중, 나는 정갈하게 배열된 거대한 돌들이 많이 있는 장소를 발견했습니다. 나는 양치기가 그 돌 아래에서 양들을 쉬게 하는 것을 보고 그와 이야기를 나누기 시작했습니다. 그가 들은 이야기에 따르면, 이 돌들은 한때 이곳에 살았으며 아서 왕의 기사들과 싸웠던 고대 거인 종족이 세웠다고 합니다." # 6378cd82de7fd5a318bb93cbf8f34d510dcc18e9
+	breton.0052.a: "하! 그건 물에 빠진 음유시인이 지어낸 허황된 이야기처럼 들리는군요." # 1f116bc0fbfbe14c878295525dc7e814da331f76
+	breton.0052.b: "그럴듯하군요. 브르타뉴의 여러 지역들은 아서왕 전설과 관련이 있습니다." # f8a471a788b899d2b0bbdd9dcb88e1184b5378b7
+	breton.0053.t: "독수리 고사리" # 4596a5bd34ceb4d7f79abe642970d21618c99740
+	breton.0053.desc: "독수리 고사리는 유럽 대부분 지역에서 발견되는 식물이지만, 특히 브르타뉴인들은 올바르게 사용하면 신비한 힘으로 가득하다고 여깁니다. 저의 브르타뉴 하인들 중 몇 명은 남자든 여자든 고사리 포자를 모아 입에 넣음으로써 엄청난 초자연적인 힘을 축적했다는 이야기를 저에게 들려주었습니다. 그 힘은 투명해지는 것부터 보물을 찾거나 다른 사람들이 숨기는 비밀을 알아내는 데 도움을 주는 것까지 다양합니다. 적어도 행운을 가져다줄 것입니다.\n\n이 하인들은 근처에서 자라는 고사리를 모아 일종의 허브 혼합물을 만드는 데 도움을 주겠다고 제안했습니다." # d8f09622f9e871c4700cdd2fa1382990ada2ad8a
+	breton.0053.a: "신비한 힘이든 아니든, 여분의 행운은 언제나 환영이야!" # a878501bd835f7d91231fcfb8abdc7c3f4240c26
+	breton.0053.b: "이것은 무의미합니다. 합리적인 사람들은 미신이 아닌 [ROOT.Char.GetFaith.HighGodName]을(를) 믿습니다." # 3bea78acd194fcbc114cc5def2e34b78e099ee93
+	breton.0053.c: "얼마나 터무니없는가! 왜 잡초를 입에 넣는가?" # 8a93cac8cf7a6dccdf647cde4b7f6084570e8492
+	breton.0054.t: "황금빛 풀" # e3288ef0fd15fda939d91810268d84be4def5b7c
+	breton.0054.desc: "브르타뉴에는 황금 풀, 또는 '아우르 이아오텐'이라고 알려진 희귀하고 찾기 힘든 식물이 있습니다. 전설에 따르면 그것은 찾기 어렵고 오직 덕이 있는 사람만이 발견할 수 있다고 합니다. 어쨌든 덕이 있다고 알려진 브르타뉴의 한 농부가 이 황금 풀을 발견했다고 하며, 저에게 그것을 제공합니다. 그것을 물약으로 섭취하면 힘이 10배로 증가한다고 합니다." # 413d23aceebf06764931413dd1fd353013d45b5a
+	breton.0054.a: "아마 십배는 아니겠지만, 맞아요. 적절한 약초는 효과가 있을 수 있습니다!" # 763a6331fce33975feceba9bfd6aece3ae3bc70a
+	breton.0054.b: "이건 황금빛 풀이 아닌 것 같군.... 이 풀은..." # e2af278a12103b7f6792ddc6fbdc06dcabef0e73
+	breton.0055.t: "망각의 풀" # 14e7cfeb97fd7c2957711c189ba89ae70911fc58
+	breton.0055.desc: "나는 밖에서, 브르타뉴 영토의 여느 평범한 초원과 같은 들판을 산책하고 있었는데, 매우 특이한 방식으로 길을 잃었습니다. 그날 아침, 내가 알지 못하는 어떤 식물을 밟았던 기억이 납니다. 다음 순간, 나는 들판의 다른 부분, 1~2마일 떨어진 곳에 서 있었고, 경비병과 하인들이 놀라서 나를 부르는 소리에 해가 지고 있었습니다. 내가 무슨 일에 홀렸던 것이 분명합니다. 무슨 일이 있었는지 기억나지 않으니까요!\n\n내가 모두에게 무슨 일이 있었는지 말하자, 나의 하인 중 한 명인 나이 든 브르타뉴 남자가 현명하게 고개를 끄덕이며, 내가 망각의 풀을 밟은 것이 틀림없다고 말했습니다. 지역 전설에 따르면, 그것은 희귀하지만 위험한 식물이라고 합니다. 그것을 밟으면 방향 감각을 잃고 맹목적으로 헤매게 된다고 합니다." # fac4375fdf62f643aa204c62a05bf366a19d9223
+	breton.0055.a: "앞으로는 여기서 산책하는 건 피해야겠어..." # 76d432435c3477f4df7069f8ae9af8a147454ee9
+	breton.0056.t: "브르타뉴 해산물" # d87b54366dafcb0812328147c33ae9749bdb9daa
+	breton.0056.desc: "오늘 귀빈으로 오신 먼 나라의 존경받는 여행객을 위해 작은 연회를 마련했습니다. 제가 다스리는 땅에서 나는 다채로운 음식과 요리들이 준비되어 있으며, 특히 브르타뉴 해안의 유명한 해산물도 포함되어 있습니다. 손님은 브르타뉴의 홍합, 가리비, 그리고 굴을 특히 즐기는 모양입니다!" # 346fd0193f3c08292291398549aa3acd67749daf
+	breton.0056.a: "게랑드에서 나는 현지 소금과 함께 드십시오!" # 78924c93b9b8492790409c4e6ae4efd2af26e84f
+	breton.0057.t: "늙은 브르타뉴인" # 60d4e41a678f2817bb7547891ca12deb1f6647ac
+	breton.0057.desc: "나는 가장 아끼는 하인 둘과 밤늦게까지 술을 마셨다. 우리 셋이 집으로 돌아가는 길에 낡은 수레를 끄는 노인을 발견했다. 아직 술에 취한 하인들은 수레에 돌을 던져 차축 하나를 부러뜨렸다. 그들은 웃으며 나에게도 동참하라고 했지만, 나는 무언가 잘못되었다는 것을 느꼈다. 저런 노인이 한밤중에 뭘 하고 있는 걸까?" # 91228fb4d198e0f1d22c3857bda36dc385642df2
+	breton.0057.a: "그 행동은 부당해! 내가 노인이 수레를 고치는 것을 돕겠어." # 0476263bf21e0ac86d567c2f5e2588d6fbd2c73e
+	breton.0057.b: "도망쳐! 이 수상한 사람이 무슨 짓을 할지 누가 알겠어?" # 9870287b798ea55e2f465e9d66e6bae2e6e800b7
+	breton.0057.c: "그 남자는 무시하고 그냥 넘어가는 것이 최선이라고 생각합니다." # 53e1ec762e84a5025eac9b0555f7e2b95a89c74b
+	breton.0058.t: "앙쿠" # d933e4cec19ef1924886f8b18959c217e84b40fa
+	breton.0058.desc: "오늘 아침 제가 가장 아끼던 하인 두 명이 자연사(들으니 그렇다고 하더군요)로 죽은 채 발견되었습니다. 게다가 제 머리카락 일부가 어쩌다 보니 하얗게 변했습니다. 분명 어제 만났던 그 수수께끼의 노인과 관련된 일임이 틀림없습니다....\n\n잠깐, 하늘이시여 저를 보호하소서! 그 노인이 누구였는지 알겠습니다. 그는 바로 브르타뉴를 떠도는 죽음의 하수인, 앙쿠였습니다!" # 7834ddb6347c5d7ca725920cc4d4d1b0c026d8db
+	breton.0058.a: "아무도 일어난 일을 알아서는 안 됩니다." # db48f8d002abb69c78d93b595f056c4f63ed6930
+	breton.0059.t: "슈셴 벌꿀술" # cba87047e3dbee5627cbd99eefec65c6336589fb
+	breton.0059.desc: "현지 고위 인사들과 함께 브르타뉴산 벌꿀술인 슈셴을 마시고 있을 때, 그들 중 한 명이 벌꿀술의 취기를 높이기 위해 벌독을 첨가하는 것을 제안했습니다. 그는 "전에 작은 마을에서 시도해 봤는데,"라며 "정말 특별한 경험이었지!"라고 주장했습니다." # 33b6b15e4524618717deee5135ffdd1cdd6197db
+	breton.0059.a: "정말입니까? 저에게는 충분히 강합니다." # 09e9adc3631b9c530b3af3442398536409b7d9fd
+	breton.0059.b: "네, 좋아요. 벌독을 좀 찾아보죠!" # 5035e739a0edd11897458cc5dfe50786ae2224c4
+	breton.0060.t: "브르타뉴 크레페" # 10279935e690edf928dbff921102598e403c1c68
+	breton.0060.desc: "오늘 밤 멀리서 손님들이 오시는데, 브르타뉴에서 가장 훌륭한 크레페를 대접하고 싶습니다. 단 것을 대접해야 할까요, 아니면 짭짤한 것을 대접해야 할까요?" # f6edf0e6c55f73ac687d6c4dc2b110083443bfb9
+	breton.0060.a: "달콤한" # ea7c9c676f3889cc99d3469c4795e590f202f18e
+	breton.0060.b: "맛있는" # 82730d1e883ebc1f53c2f43b3ce80b3605897b25
+	breton.0060.c: "왜 둘 다 안 될까?" # 4b00ee053d468009cc9fe0488b653e3ebf2e3f1b
+	breton.0061.t: "부굴 노즈" # db9a87760abc92b52f784b07384a17824ff829ee
+	breton.0061.desc: "저는 지금 지역 선술집에서 휴식을 취하며 맛있는 음식과 음료를 즐기고 있습니다. 오늘 밤에는 음유시인이 있어서 다양한 브르타뉴 이야기를 들려주고 있습니다. 그중 하나는 브르타뉴 숲에 사는 부굴 노즈("밤의 목동")라는 존재에 관한 것입니다. 그는 외모가 매우 흉측하며, 실제로 그를 본 사람들 중에는 공포에 질려 죽는 사람도 있을 정도입니다. 하지만 사실 그는 매우 온화하고 친절한 영혼이며, 자비로움 그 자체입니다. 이 때문에 주변에 누군가가 있으면 그는 소리를 지르며 떠나라고 말하여 사람들이 스스로 놀라지 않고 안전하게 집으로 돌아갈 수 있도록 합니다. 어떤 의미에서 그는 밤에 사람들이 위험한 지역을 피하도록 돕는 것입니다." # 01e9690302866cc7b6c0608c402202e650622db7
+	breton.0061.a: "저 생물은 틀림없이 매우 흉측할 거야. 다시는 안 봤으면 좋겠어!" # 3cc8ced7e907913d244fe40c40d781866476126a
+	breton.0061.b: "얼마나 비극적인 인물인가, 그의 연민에도 불구하고 홀로 살아야 하다니." # 7cd6c7409d15568cf2962b6c666cd26fc4fbac29
+	breton.0062.t: "전설의 도시 이스" # 225b0c7745adc331f633c919d594cbd02e91dc6b
+	breton.0062.desc: "굶주리고 남루한 브르타뉴 선원이 최근 인근 마을 해안에 떠밀려 왔습니다. 그는 최근 폭풍으로 침몰한 상선 선원이었던 것으로 보이며, 그가 유일한 생존자일 가능성이 높습니다.\n\n나는 마침 이 마을을 방문하고 있었고, 그를 만나기로 했습니다. 우리는 그의 경험에 대해 이야기를 나누었는데, 그는 배가 침몰하면서 격렬한 파도에 휩쓸릴 때 바닷속에서 이스 도시의 폐허를 보았다고 주장합니다. 브르타뉴 전설에 따르면 이스는 브르타뉴 해안에 있던 전설적이고 번영했던 도시였으나 나중에 바다에 삼켜졌다고 합니다." # f517ecba1204f6fa8664a0fa7e31e0e79c8176e3
+	breton.0062.a: "환각이었는지, 아니면 진짜였는지 궁금하네...." # 731fa79548d2db9d60c40abd2eaf98fab57122de
+	breton.0063.t: "너무 많은 소금기가 묻었나?" # 979f1cba2b479f75c1ce232e768b12447290d54d
+	breton.0063.desc: "최근에 짭짤한 버터를 많이 사둔 것 같네. 브르타뉴 지역의 요리는 항상 짭짤한 버터에 의존해 왔지. 어쩌면 과도할 정도로 말이야. 하지만 어떤 종류의 음식이든 훌륭한 조합이라는 것을 부인할 수는 없을 거야." # 6aec7c41cd4e73487a84ebf6beaebb31448d9533
+	breton.0063.a: "과잉 생산된 소금 버터를 모두 판매하십시오" # bd7eda7b7a6440111bb2bf45f78738c5ef324332
+	breton.0063.b: "현지 유지들에게 소금 버터를 선물하십시오" # 9a25db33297269a83be3936d88e8610776f23151
+	breton.0063.c: "다가올 연회를 위해 버터를 남겨두십시오" # 163947de15c9ad1f8ed2c3dc79f5a0bc0c0f9916
+	breton.0064.t: "쇼셴" # b5754e610e3d69012317654fd93d5bce9317663c
+	breton.0064.desc: "오늘 밤에는 브르타뉴에서 인기 있는 미드인 쇼쉔을 마실 겁니다. 맛도 좋을 뿐만 아니라, 충분한 양을 마시면 최음제로도 작용한다고 들었습니다." # e5d78da42085c3087d1a993efe3ec22d2adf760b
+	breton.0064.a: "그것은 터무니없는 옛날이야기처럼 들리는군요." # b3bb043543c85206f733010252489a52b1558164
+	breton.0065.t: "소금 버터 대량" # acb52f4232e661a7f7d07b33267a3358d03d8b23
+	breton.0065.desc: "브르타뉴의 제 영지에서 몇몇 지역 귀족들이 제게 많은 양의 소금 버터를 선물했습니다. 이곳에서는 귀한 품목으로 여겨질 뿐만 아니라 맛도 훌륭합니다!" # 8a46d0da5892aa101f8e95996333dbb4e77fd32f
+	breton.0065.a: "감사합니다." # a0908b83198b163bf333ff0dc7d2abe433dc9322
+	breton.0066.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0066.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0066.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	breton.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f

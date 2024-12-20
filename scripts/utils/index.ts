@@ -1,4 +1,7 @@
 export * from './constants'
+export * from './dictionary'
 export * from './fs'
+export * from './hash'
 export * from './logging'
 export * from './meta'
+export * from './translate'

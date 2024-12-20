@@ -1,0 +1,565 @@
+﻿l_korean:
+	# Misc 
+	RICE_every_berber_county: "$heritage_berber_name$ [유산|E]의 [문화|E]를 가진 당신의 [영토|E] 내 모든 [백작령|E]" # f25c73f61ae9342adb1ea282dc6e5bf85ddedfb9
+	RICE_every_berber_courtier: "$heritage_berber_name$ [유산|E]을 가진 [문화|E]의 모든 [신하|E] 또는 [객인|E]" # f4a4712c23e9030b8ca2e7bf02b3cb062af61ce9
+	RICE_every_berber_vassal: "$heritage_berber_name$ [유산|E]을 가진 [문화|E]의 모든 [봉신|E]" # c04fb0684d88b932f0060ee0e2729b5ed377438c
+	e_air: "아이르" # 59d9b48dbe1a9f5bdeef775cd0025e378a92f744
+	e_air_adj: "아이르" # 59d9b48dbe1a9f5bdeef775cd0025e378a92f744
+	# Legends 
+	RICE_tuareg_legend_new_title_name: "사하라 대제국" # 6262cdfb060d7f46ae70d83f112e0d0bfb6e6a59
+	RICE_tuareg_legend_new_title_desc: "[founder.GetTitledFirstName]의 영웅적인 활약으로 사하라 대부분이 [GetTitleByKey('e_air').GetName]의 통치 하에 정복되었습니다." # 217cf6b5fb7282f660e50edfde8ed2e43f057f75
+	RICE_tuareg_legend_chapter_opening_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은(는) 훌륭한 가문 출신임에 틀림없소. 그렇지 않고서야 어떻게 [ROOT.Legend.GetProtagonist.GetSheHe]이(가) 사하라의 소규모 부족들을 그토록 많이 [ROOT.Legend.GetProtagonist.GetHerHis]의 통치 아래 통합할 수 있었겠소?" # 15487c18b032519750f8136d97fcfa9680807a9b
+	RICE_tuareg_legend_chapter_motivation_new_title: "[ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip]는 광대한 사하라 사막의 수많은 부족과 민족 중 하나에 불과했습니다. 그들 중 한 명인 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은 이러한 상황에 만족하지 못했습니다. [ROOT.Legend.GetProtagonist.GetSheHe]는 현명하게 [ROOT.Legend.GetProtagonist.GetHerHis] 백성들에게 물었습니다. 그들은 무역과 전투에서 언제든 그들을 능가할 수 있는 적들의 자비에 만족해야 하는가?" # 4948028e57d7429255d2a58a2cb81087faf07fc9
+	RICE_tuareg_legend_chapter_famous_deed_new_title: "새로운 활력으로, 그리고 [ROOT.Legend.GetProtagonist.GetHerHis] 지도력 아래에서, [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip] 백성들은 자신들의 땅을 개발하고, 교역을 하고, 증오하는 적에 맞서 전쟁과 약탈을 벌이는 위대한 업적에 헌신했습니다." # 63c70d40d7de859284fb40717de756535c47b5dd
+	RICE_tuareg_legend_chapter_extra_deed_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은 그리 오래 걸리지 않아 지중해에서 아프리카 심장부까지 뻗은 강력한 신국가를 [ROOT.Legend.GetProtagonist.GetHerHis] 통치 아래 세웠습니다. 이 국가는 [ROOT.Legend.GetProperty( 'title' ).Title.GetNameNoTooltip]라 불리며 수많은 무역로를 장악하고 여러 부족을 다스렸습니다." # 5dc6be7b055515f665eb3085290e13065463138a
+	RICE_tuareg_legend_chapter_conclusion_new_title: "[ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip]는 다시는 이처럼 위대한 지도자를 보지 못할 것입니다. [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]님과 같은 위대한 [ROOT.Legend.GetProtagonist.GetWomanMan]만이 이렇게 강력한 제국을 건설할 수 있었습니다." # 5cfda6b9bcee91819b6594031706b86e8a1ab0cb
+	# Game Concepts 
+	# Memories 
+	RICE_tuareg_dream_incubation_host_memory: "[GetActivityType( 'activity_RICE_tuareg_dream_incubation' ).GetName] 의식을 거행했습니다" # 6835d80c2a7dad75a5985a840bd21ec385a704a0
+	RICE_tuareg_dream_incubation_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_tuareg_dream_incubation' ).GetName] 의식을 거행했습니다" # 3f7caa0fc0860ef93c6d1f36f7057808e2549cf3
+	RICE_tuareg_dream_incubation_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_tuareg_dream_incubation' ).GetName] 의례를 수행했습니다" # bbb1b5bfec3317a18ff3627690a99f3c38d2488b
+	RICE_tuareg_dream_incubation_host_memory_third_perspective: "[owner.GetName]이 [GetActivityType( 'activity_RICE_tuareg_dream_incubation' ).GetName] 의식을 행했습니다." # dab274904f045523de333a54c3544d4f869a1220
+	# Activities 
+	activity_RICE_tuareg_dream_incubation_host_an_a: "$host_activity_a$" # null
+	activity_RICE_tuareg_dream_incubation: "꿈을 이용한 치유" # 9c8fc35905a73a59ea4d02cb10de7fe16360f763
+	activity_RICE_tuareg_dream_incubation_desc: "중요한 결정을 내리기 전에, 우리는 우리에게 중요한 사람들의 무덤을 방문하여 그곳에서 잠들기 전에 [GetPlayer.GetFaith.GetAdjective] 기도를 드리는 고대 관습을 가지고 있습니다. 이 고대 무덤에서 잠을 자는 동안 영혼이 우리에게 주는 꿈은 좋은 선택을 하는 데 필요한 통찰력을 줄 것입니다!" # d1e1c0e454819bcf018794b4490a0f60ba818072
+	activity_RICE_tuareg_dream_incubation_context_tooltip: "#emphasis Historical Context:#! Dream divination, particularly at tombs, has been a custom among many Amazigh peoples for centuries, and is still practiced to this day among some Amazigh tribes. For instance, Herodotus reported that the Nasamones, an ancient Libyan tribe, would sleep at the tombs of their forebears before making important decisions. The dreams they had would help them determine what course of action to take." # null
+	activity_RICE_tuareg_dream_incubation_selection_tooltip: "무덤으로 가서 잠을 자고 통찰력을 얻습니다.\n\n$activity_RICE_tuareg_dream_incubation_context_tooltip$" # 5fd078455a67d028f8e1ac286f519dd61bbe986b
+	activity_RICE_tuareg_dream_incubation_host_desc: "$BULLET_WITH_TAB$[명성_i] [명성|E]\n$BULLET_WITH_TAB$[경건_i] [경건|E]\n$BULLET_WITH_TAB$#V [GetPlayer.MakeScope.ScriptValue('RICE_tuareg_dream_chance_value')]%#! 확률로, 당신의 [죄|E], [덕목|E], [특성|E], [학문|E], 그리고 [경건_수준|E]에 따라 무작위로 #P 유익한#! [캐릭터_수정|E]를 얻을 수 있습니다." # 123121171ea1dc4f24b79c3e18638d90f4f93021
+	activity_RICE_tuareg_dream_incubation_guest_desc: "$activity_RICE_tuareg_dream_incubation_host_desc$" # null
+	activity_RICE_tuareg_dream_incubation_province_desc: "여기 방문할 수 있는 무덤이 있습니다!" # 7afe8f9229132d126eb18a7cfc9593c95d9fa57b
+	activity_RICE_tuareg_dream_incubation_destination_selection: "[GetPlayer.GetFaith.PriestNeuterPlural]는 이 땅에 고대 무덤이 많이 흩어져 있다고 말합니다." # 524db37a5acc70956b4c4b877351d085ee4ed95a
+	activity_RICE_tuareg_dream_incubation_guest_help_text: "$activity_RICE_tuareg_dream_incubation$" # null
+	activity_RICE_tuareg_dream_incubation_predicted_cost: "꿈을 불러오는 의식을 수행하는 비용은 선택한 [activity_options|E]에 따라 달라집니다." # 9a2b38140f2635ccbdde5b943f481fd90c6d2435
+	activity_RICE_tuareg_dream_incubation_conclusion_desc: "무덤에서 잠들었습니다. [GetActivityType( 'activity_RICE_tuareg_dream_incubation' ).GetName] 의식이 완료되었습니다!" # 621cf52774b3f42a4f32ce28fe52e8b356393b83
+	RICE_tuareg_dream_incubation_type_personal: "개인적 통찰" # cbe1027b3a1b3f5144cc5f8bca72a9a71d5e7e78
+	RICE_tuareg_dream_incubation_type_personal_desc: "$EFFECT_LIST_BULLET$ 개인적인 문제, 예컨대 관계, 건강, 삶의 방식과 관련된 #P 유익한#! [character_modifier|E] 통찰력을 얻으려 노력할 것입니다.\n\n#weak 꿈은 현실의 법칙에 구속되지 않기 때문에, 우리가 누구인지 더 잘 이해할 수 있는 방법입니다.#!" # e1a29288a9f86a4ae0bd5bf40829c4c567a62e57
+	RICE_tuareg_dream_incubation_type_political: "정치적 통찰" # 000ef8db2bd24213aeba60e6c6256117a6d92898
+	RICE_tuareg_dream_incubation_type_political_desc: "$EFFECT_LIST_BULLET$ 정치적 문제(가신, 전쟁, 명성 등)와 관련된 통찰력을 얻고 #P 유익한#! [character_modifier|E]를 얻을 수도 있습니다.\n\n#weak 역사는 꿈의 경고를 듣지 않아 엄청난 재앙을 겪은 수많은 통치자들을 보여줍니다. 당신이 직면한 내외부적 위협에 대해 영혼이 조언이나 경고를 한다면 주의 깊게 살펴보십시오!#!" # f41cecd9a8210e94a5613928a43ef743500ada8a
+	RICE_tuareg_dream_incubation_type_communal: "공동체의 통찰" # 25053e1ff98cf153f7d16a09361e7157c59077bf
+	RICE_tuareg_dream_incubation_type_communal_desc: "$EFFECT_LIST_BULLET$ 당신은 통찰력을 추구하고, 당신의 왕국과 백성을 다스리는 최선의 방법에 관련된 #P 유익한#! [character_modifier|E]을 얻을 수 있습니다.\n\n#weak 훌륭한 통치자는 꿈의 형태이든 아니든 고대의 지혜를 사용하여 백성을 인도합니다.#!" # 18a7d74c655f5f0012a470aeefa718541233d088
+	RICE_tuareg_dream_incubation_tomb_type: "무덤" # 445068a4d1aa761d37f3c42384bffeb165dafcf6
+	RICE_tuareg_dream_incubation_tomb_type_random: "임의의 저명 인물" # 451d58387fba41186cda0c250a66e5223e7a6cb1
+	RICE_tuareg_dream_incubation_tomb_type_random_desc: "$EFFECT_LIST_BULLET$ 저명한 현지인의 무덤에서 잠을 잡니다.\n\n#weak 우리보다 먼저 온 자들이 많습니다. 이 영혼들은 우리가 모르는 것을 무엇을 알고 있을까요?#!" # 0101b924759940922dec57f51f3922f8078c1eb7
+	RICE_tuareg_dream_incubation_tomb_type_ancestor: "조상" # 4d16c26aafdb910a6de98644a2f82c86329498c7
+	RICE_tuareg_dream_incubation_tomb_type_ancestor_desc: "$EFFECT_LIST_BULLET$ [GetPlayer.GetDynasty.GetNameNoTooltip] [dynasty|E]의 조상의 무덤에서 잠을 청합니다.\n$EFFECT_LIST_BULLET$ [activity|E] 종료 시 #V 50#!의 [prestige_i]를 얻습니다\n$EFFECT_LIST_BULLET$ 꿈을 꿀 확률이 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%#! 증가하고, [activity|E] 장소가 [city|E]에 있다면 추가로 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%#! 증가합니다\n\n#weak 아주 먼 조상 중 한 명이 이곳에 묻혀 있다고 합니다. 그들이 후손에게 전하고 싶은 말이 많을 것입니다!#!" # 627b290541bfbec80ae423419131b2c4f5c5c05d
+	RICE_tuareg_dream_incubation_tomb_type_saint: "지역 성인" # 6e81de0a81c95c9bdb766cb293b4fbd54934e6d5
+	RICE_tuareg_dream_incubation_tomb_type_saint_desc: "$EFFECT_LIST_BULLET$ 성스러운 [GetPlayer.GetFaith.GetAdjective] [GetPlayer.GetFaith.PriestNeuter]의 무덤에서 잠을 잡니다.\n$EFFECT_LIST_BULLET$ [activity|E]의 끝에 [piety_i] #V 50#!를 얻습니다.\n$EFFECT_LIST_BULLET$ 꿈을 꾸는 확률이 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%#! 증가하며, [activity|E] 장소가 [church_holding|E]에 위치하면 추가로 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%#! 증가합니다.\n\n#weak 현자의 업적과 지혜는 그들이 세상을 떠난 후에도 살아있는 사람들을 영감을 줄 수 있습니다.#" # a38dd3ee2fabb5a2035e3bf0eb4d63b61dff667b
+	RICE_tuareg_dream_incubation_dream_phase: "꿈을 이용한 치유" # 9c8fc35905a73a59ea4d02cb10de7fe16360f763
+	RICE_tuareg_dream_incubation_dream_phase_desc: "옛날 옛적 꿈속에서..." # 182a7ea5f59c12acf5ed517ae1beb2a38f1507a5
+	RICE_insight_understanding_header: "이해:" # 7476caec4b6584605e357017548d317f0b731fb6
+	RICE_insight_understanding: "이해" # 73921708fb85e9b94ab6352e72c41ced013dddda
+	RICE_insight_understanding_desc: "당신은 꿈 점을 통해 당신이 직면한 문제에 대한 잠재적인 해결책을 진정으로 찾고 싶어합니다. [activity|E]가 끝나면 [stress_loss_i] [stress|E]를 잃습니다." # ebb036fa3a2f0e471e89ccd9ae69ae1c9bc71b30
+	RICE_ritual_intent_header: "의례:" # 9665f4d66aa12d1db0b6ffc08c5febe0a4d7dbbc
+	RICE_ritual_intent: "의식" # a276d8b0e56176b2015b2a8718f23285c42d9c9b
+	RICE_ritual_intent_desc: "이 꿈 해몽이 도움이 될지 안 될지 믿든 안 믿든, 당신은 이 의식을 수행하는 데 있어 의무감을 보여주고 싶어합니다. [활동|E]이 끝날 때 추가 [신앙심_i|E] [신앙심|E]과 [명성_i|E] [명성|E]을 얻습니다." # e2b34f45e7ae94e8ef1f2e5a10d3f766123ae5c8
+	RICE_curiosity_intent_header: "호기심:" # eb4a4155e664c66391734d07a3d2e9d0dc62c5b2
+	RICE_curiosity_intent: "호기심" # 1a0bff19a5f4891dbfd100deb6c51c2b8bd4bf3b
+	RICE_curiosity_intent_desc: "꿈과 저승 자체가, 꿈해몽 결과보다 더욱 당신을 매혹합니다.  [lifestyle|E]에 대한 [experience|E]를 얻으세요." # 653f22181033868dc6b5758b5ae42b5c560da85e
+	RICE_tuareg_dream_incubation_completed_log_title: "꿈 배양 완료" # 0dacca6387b7010ed90138225380da8c192eac60
+	RICE_tuareg_dream_incubation_completed_log: "[CHARACTER.GetShortUIName|U]이 무덤에서 꿈 점술 의식을 마쳤습니다" # 1b3e01b41110ccbe2818c954c48db63dcfae08bf
+	TRAVEL_NAME_FOR_activity_RICE_tuareg_dream_incubation: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_tuareg_dream_incubation$" # ded5ee4ecb34ca060c04a71986e52f3d5ea94266
+	activity_RICE_tuareg_dream_incubation_wilderness_province_desc: "#P ++ 이곳의 황야는 문명에서 멀리 떨어져 있습니다.#!\n\n#italic 이 [activity|E]가 끝나면 [prestige_i|E] #V 25#!과 [piety_i|E] #V 25#!을 얻을 수 있습니다.#!" # 8797575584d78b6a05510bdd910ee2be3bbac566
+	activity_RICE_tuareg_dream_incubation_temple_province_desc: "#P ++ 이곳에 중요한 [church_holding|E]이 있습니다.#!\n\n#italic 이로 인해 이번 [activity|E] 종료 시 [piety_i|E] #V 50#!을 획득하게 되며, #Bold 지역 성인#!의 무덤에서 잠을 자면 꿈을 꿀 확률이 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%#! 증가합니다." # b7205a80c6cb1138a659f1cbe90cae24e86bfbce
+	activity_RICE_tuareg_dream_incubation_city_province_desc: "#P ++ 여기에 상당히 큰 [도시|E]가 있습니다.#!\n\n#italic 이것은 이 [활동|E] 종료 시 [명성_i|E]를 #V 50# 얻게 되며, #Bold 조상#!의 무덤에서 잠을 자면 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%의 꿈을 꾸는 확률이 증가합니다.#!" # 95e4490bd40f891ad93cdfa7dc3d2661ed233043
+	RICE_tuareg_dream_ancestor_tomb_desc: "조상의 무덤으로 향함" # c477f7b9e3201d58b9c45070c06781ad1212942e
+	RICE_tuareg_dream_saint_tomb_desc: "성인의 무덤으로 향함" # 1586471dab12bba0b24ab6da08157e9e392e8db7
+	activity_RICE_hot_springs_visit_tafadek_province_desc: "#P +++ 타파데크의 [hot_springs|E]는 독특한 [hot_springs|E]입니다.#!\n\n#italic 이것은 [GetModifier('RICE_tuareg_tafadek_springs_modifier').GetNameWithTooltip] [character_modifier|E]를 얻게 해줄 것입니다.#!" # 72de5f9eba5d3e3009eb43f4dc7aaad54cb5835d
+	# Modifiers 
+	RICE_tuareg_tafadek_springs_modifier: "타파데크 샘 방문" # 12390d25df89596ac478d115c728c28725974324
+	RICE_tuareg_tolerates_other_customs: "다른 관습에 대한 관용" # 2d960217c80ab264f0fb8de30e3ef06ae17a1e5b
+	RICE_tuareg_takarakit_modifier: "타카라키트를 구현합니다" # 79796d3ec6dcc53b2021afee495c4b79686ad55c
+	RICE_tuareg_takarakit_modifier_desc: "이 인물은 일부 아마지그인들 사이에서 매우 존경받는 미덕인 #italic 타카라킷#!, 즉 자제력을 진정으로 구현한다고 여겨집니다." # c331fe41cc7975e3ccc7c5ae0eb47163873529ff
+	RICE_tuareg_inadan_good: "명망 높은 이나단 장인" # 73895d83e973abbc312235bbfa16977dfbff8375
+	RICE_tuareg_heartland_modifier: "투아레그 심장부" # 0389d6ab8fd851588cbb3215af3558b5e2e252ab
+	RICE_tuareg_heartland_modifier_desc: "이 지역은 투아레그 민족과 그 후손들의 중심지로 여겨집니다. 많은 사람들이 공동체 문제를 해결하고, 교역을 하고, 종교적인 이유로 이곳에 모입니다." # 36308b400319a07fc457c7cbb89e43d278785c39
+	RICE_tuareg_dream_personal_1: "꿈 점술 (개인)" # 5e01a456eda66e5833acecc0c03e46125730f337
+	RICE_tuareg_dream_personal_2: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_3: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_4: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_5: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_6: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_7: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_8: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_9: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_10: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_11: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_12: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_13: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_14: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_15: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_16: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_17: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_18: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_19: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_personal_20: "$RICE_tuareg_dream_personal_1$" # null
+	RICE_tuareg_dream_political_1: "꿈 점술 (정치)" # 632bd00755bb572ca64502dee33c04614b753067
+	RICE_tuareg_dream_political_2: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_3: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_4: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_5: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_6: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_7: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_8: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_9: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_10: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_11: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_12: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_13: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_14: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_15: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_16: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_17: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_18: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_19: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_political_20: "$RICE_tuareg_dream_political_1$" # null
+	RICE_tuareg_dream_communal_1: "꿈 해몽 (공동)" # 3c12c02224b07da2d7128c3708dc47c985004c6b
+	RICE_tuareg_dream_communal_2: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_3: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_4: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_5: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_6: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_7: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_8: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_9: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_10: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_11: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_12: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_13: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_14: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_15: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_16: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_17: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_18: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_19: "$RICE_tuareg_dream_communal_1$" # null
+	RICE_tuareg_dream_communal_20: "$RICE_tuareg_dream_communal_1$" # null
+	# Decisions 
+	RICE_tuareg_emergence_decision: "$tuareg$ 고향 설립" # 5f6f0c1654f5c0293d9ed2756b32b39bf3939ecd
+	RICE_tuareg_emergence_decision_tooltip: "우리 조상들은 여러 세대에 걸쳐 사하라 사막을 방랑했지만, 어쩌면 우리는 새로운 고향을 찾을 수 있을지도 모릅니다." # 92d11ccf5c46741b7f00649ba1a565beee787866
+	RICE_tuareg_emergence_decision_desc: "우리 $heritage_berber_name$ 조상들은 수 세대 동안 사하라 사막을 떠돌아다녔습니다. 사하라 남부에 사는 우리들 중 많은 이들은 우리 자신의 시간이 검증된 유목 생활 방식을 계속 이어갈 수 있는 새로운 고향을 찾고자 합니다." # fc36ce2d75e8dca6272e04b42a5658cd0eabeb6d
+	RICE_tuareg_emergence_decision_confirm: "씨족장들을 소집하십시오!" # 7a8dabdca44f0c2ffffe4e755edd8334cb08d0d8
+	RICE_tuareg_emergence_decision_effect_tooltip_1: "이 [결정|E]은 [결정|E]인 $RICE_tuareg_found_empire_of_air$을 가능하게 하며, 이는 [GetTitleByKey('e_air').GetName]을 제공합니다." # 24a47ef5de1031ec46f5ccd2390870d7b05e01d8
+	RICE_tuareg_emergence_decision_context_tooltip: "#emphasis Historical Context:#! The Tuaregs are a group of Amazigh (or "Berbers") inhabiting much of the central and southern Sahara. While the term Tuareg does not appear until the later medieval period at earliest, various ancestor tribes of the Tuaregs – like the Lamtuna and Massufa – are attested from earlier times. The Tuaregs are the descendants of Amazigh who migrated to their present location and conquered and/or integrated indigenous African populations." # null
+	RICE_tuareg_found_empire_of_air: "$tuareg_collective_noun$를 통합하십시오" # 8f1a2fb08c6926dc3f5df18c3a34cebe0687678c
+	RICE_tuareg_found_empire_of_air_tooltip: "사하라 사막을 가로지르는 새로운 강력한 제국을 건설할 때입니다!" # 5e8cb3f0a30d08483da59e759e6e865e52bf0974
+	RICE_tuareg_found_empire_of_air_desc: "우리 $tuareg_collective_noun$은 사하라와 사헬이 서로 접경하는 지역에 확고히 자리를 잡았습니다. 사하라 횡단 무역에 대한 우리의 통제는 우리를 번성하게 만들었고, 이제 우리는 스스로를 새로운 [empire|E]인 아이르 제국으로 통합하여 우리의 영향력을 더욱 확장할 때입니다!" # fed327c9a7f3fbfec53329380e7620d32a1127cc
+	RICE_tuareg_found_empire_of_air_confirm: "때가 왔소!" # 01f6197424d2403becb6261125651995e20f26ef
+	RICE_tuareg_found_empire_of_air_effect_tooltip_1: "사원소는 그럴 수 있지." # cf9b7f51aa19ab3b0a60ff66a45da20f17ced26a
+	RICE_tuareg_found_empire_of_air_context_tooltip: "#emphasis Historical Context:#! The Sultanate of Aïr, or the Sultanate of Agadez, was a Tuareg state established some time in the 1400s CE. According to legend, albeit an unlikely and anachronistic one, the Sultanate was founded when local tribes, following years of constant warfare, sent an envoy to the Ottomans in Constantinople to ask for one of their princes to serve as their leader and unifying figure. Centered on the city of Agadez, the kingdom grew rich from the Trans-Saharan trade; though it was conquered by Songhai for some time in the 16th century, it remained independent otherwise until French colonization in 1900." # null
+	# Dream Results 
+	RICE_tuareg_dream_subject_1: "광활하고 텅 빈 사막" # 132d30e1b64a4c5e2f987f4a8457be8f9ac7c74c
+	RICE_tuareg_dream_subject_2: "높이 나는 새" # 8a8972f9b31118d7627ce5cc82e4010d91f9c36c
+	RICE_tuareg_dream_subject_3: "고양이" # 8ebf601f8b808c32b8d2fb570c2e0fbdbb388add
+	RICE_tuareg_dream_subject_4: "개" # cc90fda9b1a7483de0af0a2364167decfdb1d247
+	RICE_tuareg_dream_subject_5: "가까운 가족" # f3b57e455bb998544decf037060b075fc9ecd3e0
+	RICE_tuareg_dream_subject_6: "[ROOT.Char.GetFaith.PantheonTerm]" # 91911c7cceaed42904db2f3d97177e1fb80bddc2
+	RICE_tuareg_dream_subject_7: "압도적인 공포감" # f7c19debf1b88748ec9e93395dda337775afd6fd
+	RICE_tuareg_dream_subject_8: "[ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]" # f68351a1b37031c7a48858f12a4286e9dcf626dc
+	RICE_tuareg_dream_subject_9: "[ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetFaith.HouseOfWorship]" # 6529536df64924e5d77d6434b0f77f8f0d20080f
+	RICE_tuareg_dream_subject_10: "사막의 무성한 오아시스" # 0a3dff4c477caff194d9694ee5d5abecbc60a26e
+	RICE_tuareg_dream_subject_11: "강대한 강" # b97db8ff162706a4ae12a7c58fe24ad458904884
+	RICE_tuareg_dream_subject_12: "번개, 천둥, 그리고 비" # 00acf9f1de7f9517471b49df9686af0d6e25d90c
+	RICE_tuareg_dream_subject_13: "사람들이 웃고 있음" # 200dd8d9b385e1c09f20f9059d6639d72b155d66
+	RICE_tuareg_dream_subject_14: "사람들이 울고 있습니다" # 0491c3ae67c51e322450263090da54492613b603
+	RICE_tuareg_dream_subject_15: "두 군대 간의 전투" # 1836cd116bcdc2f015d00ede32c6119da3cf6770
+	RICE_tuareg_dream_subject_16: "말" # 0fa13e9c53b81b1c4fd304fffbfbb65a43e40dcf
+	RICE_tuareg_dream_subject_17: "낙타" # 2867d9fd44eec0ecab566a2bc5599523dbc1284e
+	RICE_tuareg_dream_subject_18: "아름다운 일출" # bfeb4ac55dae24e9467d6d48cf1cd9e066c7e4d5
+	RICE_tuareg_dream_subject_19: "숨 막히는 석양" # 6c871e39de225f4ec3e2af5cdcc3a1bbd952d442
+	RICE_tuareg_dream_subject_20: "아름다운 젊은 여성" # 93d3cf6b20260fa5c3e2919f802c0cdfd240c277
+	RICE_tuareg_dream_subject_21: "훤칠한 용모의 젊은이" # 14c32a7b651ce59f321ec203c2e7eb3d6a731205
+	RICE_tuareg_dream_subject_22: "끝없는 책과 두루마리" # 87ec5761b7a2d1c79e67c8052bdc7a2a318822a6
+	RICE_tuareg_dream_subject_23: "모닥불이 꺼지고 있다" # 5daf40da4df185cba7a80231bb39d3b2fbc90dcb
+	RICE_tuareg_dream_subject_24: "높이 떠 있는 달" # 5b0a158959ad1a59afc33603989e80e629ca21c4
+	RICE_tuareg_dream_subject_25: "높이 떠오른 태양" # 73e991460b7fc250d3ae59c022972377fc6a95f7
+	RICE_tuareg_dream_subject_26: "밤하늘의 별들" # 591dd7ea02ee003d0658c3e9d95b11bbc26db86c
+	RICE_tuareg_dream_subject_27: "땅 위를 기어가는 뱀" # ad40946edd1d1f15e2fedfabbc0ee12b9c1bfb58
+	RICE_tuareg_dream_subject_28: "많은 양의 바클라바" # da80e5d8c49accff04dcc6d6f53a2bba3e010dd3
+	RICE_tuareg_dream_subject_29: "대장장이 작업 중" # 4d8ae08ebae8e834facb9a842fcccb05d676e417
+	RICE_tuareg_dream_subject_30: "주인에게서 도망치는 노예" # 88e9fd796381f8ffbf4d723fb0d2c631f88825e6
+	RICE_tuareg_dream_subject_31: "상인들의 카라반" # 29f959aa5085b86fe1f6826fc012ab95441878f4
+	RICE_tuareg_dream_subject_32: "아이들이 게임을 하고 있습니다" # e91d6137a473c42b44647d075c6c00f464f5d1a6
+	RICE_tuareg_dream_subject_33: "은 장신구" # 6b278ab8aef38504d7f831d3ed47d40d4e7d1ea0
+	RICE_tuareg_dream_subject_34: "고대 검" # 41cd5d2f9471326f3ed4b61ea068369a2054b711
+	RICE_tuareg_dream_subject_35: "활기찬 음악" # 6cad355ed4769a95375af9ab22534e1b048dd199
+	RICE_tuareg_dream_subject_36: "내 주위엔 텅 빈 공허뿐입니다." # 7a8f116245eaffd5f0f4c3602d14b1726f58b336
+	RICE_tuareg_dream_subject_37: "금화" # dbb2fa3b3a7c1edf51e0eef04b4e20e519087bac
+	RICE_tuareg_dream_subject_38: "노인" # dfa694915a6dde531d6ece8808ef9f42b765da45
+	RICE_tuareg_dream_subject_39: "내 부모님" # ad47b7548dad3e6d22be2d1926157c87717d5e13
+	RICE_tuareg_dream_subject_40: "모래폭풍" # 7bcc5deae027bf86f72be6505a367469b08a0a57
+	RICE_tuareg_dream_subject_41: "바위 투성이" # cfbf6d34a6a55d497994cdc232ddfd88dfea46c0
+	RICE_tuareg_dream_subject_42: "고대 비문 같은 것" # 08961749ebc7ef0bfb9c74e5c8bab8734adb90f4
+	RICE_tuareg_dream_subject_43: "웅장한 궁전" # e8e1d070545d9e183ed31c1e38775821759eed25
+	RICE_tuareg_dream_subject_44: "하늘의 궁전" # 7f2a9c166d598a985d9797a283a534889d7e4dfc
+	RICE_tuareg_dream_subject_45: "망치와 모루" # 15e53dbbdf3d747fd3fdc6ef4c54a8a2bb70501d
+	RICE_tuareg_dream_subject_46: "내 심장의 고동" # 45b58b0d75296461da45d14a8b4412acca32fde2
+	RICE_tuareg_dream_subject_47: "시들어가는 식물" # 6e75c9ed4a6e68261dc70e828deef221a027de7f
+	RICE_tuareg_dream_subject_48: "꽃" # 06d3b14608af5041510dd41ef53463da42dbd429
+	RICE_tuareg_dream_subject_49: "은은한 향수 냄새" # 1470415a27eeba129904828191f23bc0f3cb7674
+	RICE_tuareg_dream_subject_50: "누군가로부터의 따뜻한 포옹" # 1b1524e98c89b35ad7e43e680520358d201ad185
+	RICE_tuareg_dream_action_1: "좋은 사람들과 함께 잔치를 벌였습니다" # 17670323b38b27fe4f43e78fb62d6e902c561400
+	RICE_tuareg_dream_action_2: "라이벌과의 전투에 나섰습니다" # f8dfed7e5da1fa0cefc39ed68c7e5eb9f355bdfa
+	RICE_tuareg_dream_action_3: "[ROOT.Char.GetFaith.HighGodName]에게 기도하고 있었습니다" # abf8324d24c2ee951e3e43d37725949cba74e7c9
+	RICE_tuareg_dream_action_4: "주체할 수 없이 흐느껴 울고 있었습니다" # a60f8dec5755d77a15bebf8519417a1f696a93a7
+	RICE_tuareg_dream_action_5: "이상한 이유로 웃고 있었다" # b9c6988cfe9749186d925bce459d452fbd777be8
+	RICE_tuareg_dream_action_6: "훌륭한 농담에 웃었습니다." # 7eeb67f5074a110b41f6bc1aa266fd2ea0b5f434
+	RICE_tuareg_dream_action_7: "하늘로 떠올랐습니다" # 6bbeb6bf8309bd236aca14035fe2e72fa0c880b9
+	RICE_tuareg_dream_action_8: "머나먼 땅으로 여행을 떠났습니다" # 118577dff91579d6d70746ae7c40786a4dbb5337
+	RICE_tuareg_dream_action_9: "거대한 교역 도시를 방문했습니다" # 65cd15199370d71abca91b4703dd3f2e70645b81
+	RICE_tuareg_dream_action_10: "시장에서 상인들과 흥정함" # da5191da53c29619cb9d61fe40304621040458e1
+	RICE_tuareg_dream_action_11: "늘 하던 대로 궁정을 열었습니다" # ad53cb2748c1925b05fb02285ccada5d97e21a8e
+	RICE_tuareg_dream_action_12: "알 수 없는 암살자에게 살해당했습니다" # f1df3a58c59ba72fab9659e28deb18eaa591c45a
+	RICE_tuareg_dream_action_13: "내가 아는 누군가에게 살해당했습니다" # 557f2b9da0b4fc470bb39ec45c18eed9827558ec
+	RICE_tuareg_dream_action_14: "알 수 없는 낯선 이를 살해했습니다" # 21e59639408059c8d673b3e591251b8b31deca63
+	RICE_tuareg_dream_action_15: "I can't help you with that.  If you are having thoughts of harming yourself or others, please reach out to a crisis hotline or mental health professional.  There are people who want to help." # 96c751ad144657b997b76f61b190b1ae4427608f
+	RICE_tuareg_dream_action_16: "어린 시절로 돌아가 행복한 삶을 살았습니다" # 791a1b9f0afb9309d61957ab8814b75283accf2a
+	RICE_tuareg_dream_action_17: "부모님을 만나 현명한 조언을 들었습니다" # 4b40d2e405c7a8feef6c23d739a287fe035eacd7
+	RICE_tuareg_dream_action_18: "부모님을 만났지만, 꾸중을 들었습니다." # 83b8bed9c36273b00a81b72be3bbc2e62c85e62e
+	RICE_tuareg_dream_action_19: "춤추고, 춤추고, 다시 춤을 췄습니다" # 62ed1e76b1b5d0214f85db93c38a2d39e89fcace
+	RICE_tuareg_dream_action_20: "...에 대한 큰 향수를 느꼈습니다." # a0df5ab7193ee92a38314a0a8c04441c733712a9
+	RICE_tuareg_dream_action_21: "과거의 인물을 만났습니다" # d5e5fc144695ff95dafbb50efd47ab092976269e
+	RICE_tuareg_dream_action_22: "진정 차를 마셨습니다" # 4d5299b22833fe0a19b6aabd9df353dbac230508
+	RICE_tuareg_dream_action_23: "누군가에게 어떤 종류의 게임에서 졌습니다" # baf45894b76ca7c0d9a7dd3bcc9d65149dd02592
+	RICE_tuareg_dream_action_24: "어떤 고대 역사적 사건을 되살리고 있었습니다." # 40420b42335b7b305eb8205b6ed2b44b6be9f9f8
+	RICE_tuareg_dream_action_25: "사막에서 고대 기념물을 발견했습니다" # 6ca0b38ae1b30ac62342ddb5a353e9400a4e0ec3
+	RICE_tuareg_dream_action_26: "야생 동물을 사냥하고 있었습니다" # 7c1c82c0895e0ba62381297e3adafc0d2a234863
+	RICE_tuareg_dream_action_27: "노예 중 하나를 구타하고 있었습니다" # bd617d78c17116f612031a68105dd2300fbcd5e3
+	RICE_tuareg_dream_action_28: "제 노예 중 한 명을 해방했습니다" # b924b4e7876821aabdcc8e5f1c6c59832d2290b4
+	RICE_tuareg_dream_action_29: "시원하고 상쾌한 물에 목욕을 하다" # 6a585d0f52be7c853b9f82205d5694b81960c8ca
+	RICE_tuareg_dream_action_30: "외국인이 다른 언어를 사용하는 것을 이해하지 못함" # 3511dbb7b444395ab48f4aa198d84bfde4e7b69f
+	RICE_tuareg_dream_action_31: "인생의 모든 것에 대해 너무 스트레스를 받았습니다" # 7e50ff737acf2a74b8f6fec7295f2c8a5e9d348f
+	RICE_tuareg_dream_action_32: "내가 현실에서 알고 있다고 생각하지 않았던 노래를 불렀어" # abc6e8d752e42e070979b0609cd5fa92f7773543
+	RICE_tuareg_dream_action_33: "강한 전사들로 가득한 강력한 군대를 이끌고 진군했습니다" # ce1e10e3fa9c8ab23d77a2eb76a72453418bc535
+	RICE_tuareg_dream_action_34: "나무 아래서 쉬었다" # 8aa491f8cb6b3d0a14e443ec472395bf93631dfe
+	RICE_tuareg_dream_action_35: "팔을 퍼덕여 새처럼 날아오를 때까지" # 0cb0fe770ab4d0b40f1f766227c61c60cc511161
+	RICE_tuareg_dream_action_36: "내 하인의 아버지라고 주장하는 말하는 고양이를 보았다" # 70e024023ee77c3c3212083c34625211b2733ba9
+	RICE_tuareg_dream_action_37: "아이가 태어나는 것을 목격했습니다." # 5dbc5521d3d5b2f6ae2dc74cf7ffa098f57591cc
+	RICE_tuareg_dream_action_38: "정말, 정말 맛있는 음식을 먹었습니다." # c6c62c122c5cfc0a411f22459135df8cb86b81b1
+	RICE_tuareg_dream_action_39: "무의미하고 쓸데없는 일로 아무나 붙잡고 논쟁함" # c1271a75e1943366f6ce877736bfe700906fc706
+	RICE_tuareg_dream_action_40: "[ROOT.Char.GetFaith.DevilName]에 의해 미래로 던져져, [ROOT.Char.GetFaith.DevilHerHis]의 악이 법이 된 곳" # 93127c90ce58efcafba7bfee16c1c3e74f961386
+	RICE_tuareg_dream_action_41: "탐정처럼 몇 가지 미스터리를 풀었습니다." # 6bbc1083fef2fc39fa4f0003847491b3fdc9e067
+	RICE_tuareg_dream_action_42: "강에서 수영을 하며 휴식을 취함" # 102e52c5483ac7c807c71ac9b6965a9f4c163023
+	RICE_tuareg_dream_action_43: "연못에 돌멩이를 던졌습니다" # 9a19761e1cf9b070482ee3d5174d93b727bcfe1c
+	RICE_tuareg_dream_action_44: "새로 변신하여 날아갔다." # 95fa9bfbd5606c4f3dea71ac5fb7d1ab1a98e484
+	RICE_tuareg_dream_action_45: "일종의 짐승으로 변형됨" # 09a6faa1f6f692c18efbb77fe9ad78bbe17c1cd2
+	RICE_tuareg_dream_action_46: "밤의 어둠 속에서 멀리 위로, 별들 사이를 춤췄습니다" # 0908e703f38dbcc1fdb42e6ec4acaa49dba2bede
+	RICE_tuareg_dream_action_47: "외설적이고 선정적인 행위에 관여함" # b69c370c22ee0e824fcd49735b2fd8e95d73ebcc
+	RICE_tuareg_dream_action_48: "낭만적인 행위에 가담했습니다" # 70772cd9b19a85e737f824a902e9b9573a4ca584
+	RICE_tuareg_dream_action_49: "꽤 아름다운 사람과 손을 잡았습니다" # f1d95934e54d8ab80a7ddf08ff1802c331fbd241
+	RICE_tuareg_dream_action_50: "이상하게도, 꿈속에서 꿈을 꾸고 있었다" # 6d084a8cfb5cea8deb72973afe2f027933b32faa
+	# EVENTS 
+	tuareg.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0001.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0001.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0002.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0002.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0002.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0003.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0003.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0003.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0004.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0004.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0004.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0005.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0005.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0005.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0006.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0006.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0006.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0007.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0007.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0007.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0008.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0008.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0008.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0009.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0009.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0009.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0010.t: "[tuareg.GetCollectiveNounNoTooltip]의 부상" # 5307a8c3d770818dd4947d7a459859dff5e8fb3b
+	tuareg.0010.desc: "[tuareg_founder.GetTitledFirstName]와 [tuareg_founder.GetHerHis] 부족의 조상들은 수 세기 동안 사하라 사막에서 살아왔습니다. 이 땅은 사막 부족들이 다양한 이유로 모이거나 갈라지면서 정치적 충성과 연맹이 자주 바뀌는 것을 목격합니다.\n\n[tuareg_founder.GetFirstNameNoTooltip]는 이 지역의 정치 지형에 또 다른 큰 변화를 시작했습니다. [tuareg_founder.GetSheHe|U]는 [tuareg_founder.GetSheHe]와 [tuareg_founder.GetHerHim] 같은 다른 사람들이 고대 로마 시대에 살았던 전설적인 $heritage_berber_name$ 여왕인 티난의 후손인 [tuareg.GetName]라고 선언했습니다. [tuareg.GetCollectiveNoun]은 수년에 걸쳐 부족 여성에 대한 큰 존경과 남성이 특히 파란색 또는 남색으로 염색한 #italic 타겔무스트#! 베일을 써야 한다는 주장과 같이 형제들과 구별되는 관습과 가치를 발전시켜 왔습니다.\n\n어쨌든, [tuareg.GetNameNoTooltip]의 부상은 사하라 역사의 궤적을 바꿀 것입니다." # cb69bd4c442eff85ab13f10aef7f48307079a41e
+	tuareg.0010.a: "[tuareg.GetCollectiveNounNoTooltip]는 무엇을 달성할까요?" # 1b7e0b77afd520ccb79d841417ad2f238bace80e
+	tuareg.0010.tooltip: "$tradition_RICE_tuareg_name$ [전통|E]을 가진 모든 [문화|E]는 이제 [결정|E] $RICE_tuareg_found_empire_of_air$를 통해 [GetTitleByKey('e_air').GetName]을(를) 얻을 수 있습니다." # 63eb4d9c2f9914f6a5e6bc5fa4ec59b30272c80b
+	tuareg.0011.t: "[tuareg.GetNameNoTooltip] 제국" # af2b15d6012ec6cbe78fb6cfa7f2f1d8fc4e71e7
+	tuareg.0011.desc: "오래전, [tuareg.GetCollectiveNoun](이)가 사하라와 사헬이 만나는 지역에 도착하여 탁 트인 사막과 건조한 평원에 새로운 보금자리를 마련했습니다.\n\n이제, 이러한 초기 개척자들의 후손 중 한 명인 - 혈통이든 정신이든 - [tuareg_unifier.GetTitledFirstName](이)가 이 지역의 많은 부족을 통합하여 새롭고 강력한 국가인 [GetTitleByKey('e_air').GetName](을)를 세웠습니다.\n\n이미 [GetTitleByKey('e_air').GetNameNoTierNoTooltip](은)는 사하라를 가로지르는 사하라 횡단 무역로의 상당 부분을 통제하고 있습니다. 아프리카 전역의 통치자들은 [tuareg_unifier.GetFirstNameNoTooltip](이)와 [tuareg_unifier.GetHerHis] 왕국이 계속해서 영향력과 부를 늘리는 것을 의심할 여지 없이 지켜볼 것입니다.\n\n결국, 이러한 사막 모래 속에서 많은 제국이 흥망성쇠를 거듭하므로 [GetTitleByKey('e_air').GetNameNoTierNoTooltip](이)가 얼마나 오랫동안 강력하고 영향력 있는 상태를 유지할지는 시간이 지나야 알 수 있을 것입니다." # 13fe12c64a5b5cad7b57cb3fe5c5e6823ece5274
+	tuareg.0011.a: "사하라의 역사에 새로운 장이 시작됩니다." # 0b5c24cdaba550ea6994bef69ca0957bbc67a1fd
+	tuareg.0012.t: "아이르 산맥으로" # 1df770becf332907cd56c3833a73e02b58df40cf
+	tuareg.0012.desc: "저는 [GetGeographicalRegion('world_africa_sahara').GetName] 깊숙한 곳, 외딴 아이르 산맥으로 여행을 떠나기로 했습니다. 왜 그 누구도 이런 건조한 땅에, 이런 곳으로 가려고 할까요? 물론 온천 때문입니다!\n\n그 지역에는 많은 온천이 있으며, 그중 일부는 치유력으로 유명합니다. 특히 제가 방문하고 싶은 곳은 타파데크 온천입니다." # 6e07ea27ce21167ee3b8f0c3deb95e12d7515019
+	tuareg.0012.a: "고된 여정이 그만한 가치가 있기를 바랍니다." # c47100f2d4d7858ff28da9ae3af8b71023a23f95
+	tuareg.0013.t: "타파덱 샘물" # 95fa693078f9c2df2865121b62e199067f45317e
+	tuareg.0013.desc: "여정이 힘들었지만, 저는 목적지인 아이르 산맥에서 가장 유명한 온천 중 하나인 타파데크 온천에 도착했습니다.\n\n이 물에 몸을 담그니 편안하고 활력이 넘치는 기분이 듭니다. 어쩌면 이 물이 훌륭한 약효를 지니고 있다는 말이 사실일지도 모릅니다!" # beb5f26baa7dcaea28110600633a46ceceda6100
+	tuareg.0013.a: "여기 오게 되어 정말 기쁩니다." # 903120888fb2c6477b7ca3d907c822ddd46af820
+	tuareg.0014.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0020.t: "준비" # ffb7b66372898902e8cf7eca0025b21a011c84d7
+	tuareg.0020.desc.intro: "[ROOT.Char.GetTitleAsNameNoTooltip]로서, 저에게는 많은 걱정과 책임이 있습니다." # 55994bd21bc65bd1c7c6e32b8ab25275ee3695ac
+	tuareg.0020.desc.faith: "[ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetFaith.PantheonTerm]을 믿는 사람들 사이에서," # daa6814ee2935a289398b85498ec311becabb003
+	tuareg.0020.desc.culture: "[ROOT.Char.GetCulture.GetCollectiveNoun] 중에서," # 6e96111afaa5004b2001ddce2da84d9a68b8d0b7
+	tuareg.0020.desc: "죽은 자들의 무덤에서 꿈을 통해 조언을 구하는 것은 드문 일이 아닙니다. 수 세기 동안 무덤에서 잠을 자는 것이 우리의 전통이었으며, 그곳에서 꾸는 꿈은 세상사에 대한 위대한 통찰력을 준다고 합니다.\n\n긴 여행 끝에 저는 [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]에 도착했습니다." # ba5bd57c00cc6bb1a8bc9a2346e23cc497d144b8
+	tuareg.0020.desc.notable: "오래전 이곳에 살았던 지역의 유명 인사가 묻혀 있다고 합니다." # 16c7e6e79ffa7d0cb7ed59318f538521457a514a
+	tuareg.0020.desc.ancestor: "여기 어딘가에 먼 조상이 묻혀 있다고 합니다." # ceb0f813ffe8e76da179c8270c8539a487139785
+	tuareg.0020.desc.saint: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 성인이 이곳에 묻혔다고 전해집니다." # 2e3b736e2ed5e1d3d3b5704a2a5e31ade4a7a3c3
+	tuareg.0020.desc.personal: "최근 개인적인 일로 마음이 무겁습니다. 이 무덤에서 꾸는 꿈이 개인적인 문제를 해결하는 데 올바른 방향으로 나아가도록 저를 이끌어주기를 바랍니다." # b475400a25d742c9a7849e86b1c79fcdc5458dca
+	tuareg.0020.desc.political: "정치적 문제가 머릿속에서 떠나질 않습니다. 적과 경쟁 세력이든, 내 부하들이든, 그 누구든, 이 무덤에서 꾸는 꿈이 어떻게 그들을 신중하게 대해야 할지 알려주기를 바랍니다." # fb72b944539ad30316e4a6ba03ea6989e3fbaa63
+	tuareg.0020.desc.communal: "공동체의 안녕이 가장 걱정됩니다. 내가 그들의 지도자로서 올바른 일을 하고 있는 것일까요? 아니면 현재 행동 방식을 바꿔야 할까요? 이 무덤에서 꾸는 꿈이 내가 찾는 답을 주기를 바랍니다." # 09e1f70d35f10f1a687ac24470f3bbed5616510d
+	tuareg.0020.a: "이 의식을 위해 잘 준비해야 해." # ad0f8ced7cb452aac1cb6efbe842c538f2c030d4
+	tuareg.0021.t: "무덤" # 3f6ec6a21782e7ae624dc0fe0367d1e879a1e19e
+	tuareg.0021.desc: "[ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]의 무덤에 도착하자 밤이 찾아왔습니다. 잠들기 전 어떻게 잠을 자고 무엇을 해야 하는지에 대한 지역 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]의 지시를 받은 후, 저는 이 의식을 수행할 준비가 되었습니다!\n\n잠에 들면서, 제 마음은 저를 괴롭혀온 삶의 문제들에 대한 질문에 집중합니다." # 1b54ad0e5178ba305cf4e2c877a72c6000241941
+	tuareg.0021.a: "꿈의 세계로 떠날 시간입니다…." # 088431c4f072dbd200feaf205a3f7d35e451c5fb
+	tuareg.0022.t: "꿈" # 6fe331fcc7fafdff05bd242c19437986ede392cf
+	tuareg.0022.desc.failure: "해돋이가 떠오르기 시작하자, 나는 피곤하고 비몽사몽한 채로 잠에서 깨어났습니다. 불행히도, 간밤의 꿈을 잘 기억하지 못했고, 내가 기억할 수 있는 몇 가지 세부 사항을 지역 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]에게 말해주었지만, 그들은 그것을 별로 이해하지 못했습니다.\n\n슬프게도, [ROOT.Char.GetFaith.PantheonTerm] [ROOT.Char.GetFaith.PantheonTermHasHave] 내가 어떤 조언을 받을 가치가 없다고 결정한 것 같습니다.\n\n적어도, 중요한 사람의 무덤을 방문했다는 것은 알 수 있겠네요." # 20c58c07f4a5c981351caf3da84debfed8c4324b
+	tuareg.0022.desc.success: "해돋이 하늘 위로 해가 떠오르기 시작하자, 나는 상쾌하고 활력이 넘치는 기분으로 잠에서 깨어났습니다. 정신이 맑아진 나는 지난밤 꿈에서 기억나는 것을 지역 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]에게 말했습니다.\n\n내가 기억할 수 있는 꿈의 주요 사건은 #Bold [ROOT.Char.Custom('RICE_tuareg_dream_subject')]#!이 등장했으며, 내가 #Bold [ROOT.Char.Custom('RICE_tuareg_dream_action')]#!했다는 것입니다.\n\n어쨌든 [ROOT.Char.Custom('DefaultPriestTitlePlural')]은 내가 꿈을 해석하는 것을 도왔고, [ROOT.Char.GetFaith.PantheonTerm]이 내 일에 대해 무엇을 전달하고 싶어하는지 알려주었습니다. 나는 모든 면에서 신성한 지도를 받아 안도감이 듭니다." # f8fe6f3e1a0b5e685cda565fc4347d1793e16a17
+	tuareg.0022.a: "이제, 집으로 돌아갈 시간입니다." # 5ebaa378803941c0b25de19a06728d3b8048a5cb
+	tuareg.0023.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0023.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0023.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0024.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0024.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0024.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0025.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0025.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0025.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0026.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0026.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0026.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0027.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0027.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0027.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0028.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0028.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0028.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0030.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0030.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0030.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0031.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0031.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0031.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0032.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0032.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0032.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0033.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0033.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0033.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0034.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0034.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0034.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0035.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0035.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0035.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0036.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0036.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0036.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0037.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0037.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0037.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0038.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0038.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0038.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0039.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0040.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0040.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0040.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0041.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0041.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0041.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0042.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0042.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0042.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0043.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0043.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0043.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0044.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0044.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0044.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0045.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0045.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0045.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0046.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0046.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0046.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0047.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0047.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0047.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0050.t: "켈 타겔무스트" # 2feb2f95d564b98ca4048f70680065ac94e13593
+	tuareg.0050.desc: "우리 병사들이 쓰는 베일, 바로 #italic 타겔무스트#! 는 우리 민족의 고귀한 상징이 아니오? 아름다울 뿐만 아니라, 모두에게 자신의 씨족과 지위를 훌륭하게 드러내는 방법이 아니오?\n\n하지만 우리를 조롱하고 멸시하며 비웃는 자들이 있소. 그들은 [ROOT.Char.GetCulture.GetName] 남자가 여자 같다고 말하오. 자기네 땅에서는 여자들이 베일을 쓰기 때문이오." # 2c0276bab92daca8db0138f98554b159f3574b68
+	tuareg.0050.a: "터무니없는 소리! 남자들은 의심할 여지 없이 베일을 써야 합니다." # 6f564a082e421e658a24a3b732b173bb718dd2ba
+	tuareg.0050.b: "다른 곳은 다른 관습을 가지고 있지 않나요?" # 9117c800d9483f1b2ea9b29417590bf236fd8144
+	tuareg.0050.info: "#emphasis Historical Context:#! The Tuaregs are famous for their mouth veils, called the #italic tagelmust#!. Unlike many of the nearby cultures, they have a tradition of veiling their men and not their women. Adult men will even feel ashamed of showing their mouth or nose to strangers or those who are of higher status. Historically, this practice is attested among certain Berber/Amazigh tribes, including those connected to the Tuareg. For instance, the Almoravids, who dominated much of North Africa and Iberia in the 11th century, were derided by their enemies like the Almohads for this practice." # null
+	tuareg.0051.t: "타카라키트" # 32a2affde850e3338c205bb4c0356b7823e2c25a
+	tuareg.0051.desc: "[ROOT.Char.GetCulture.GetCollectiveNoun]은 #italic 켈 타겔무스트#!, 즉 베일의 사람들로서, #italic 타카라키트#! 또는 자제라는 미덕을 매우 중요하게 여깁니다. 즉, 분노, 사랑 등 강한 감정을 간접적인 수단으로 전달하는 사람을 매우 존경합니다.\n\n최근 [courtier.GetFirstName]은 #italic 타카라키트#!를 잘 구현하는 것으로 명성을 얻었습니다. 제 궁정과 다른 곳의 많은 사람들이 [courtier.GetHerHim]을 이 점에 대해 칭찬했습니다." # a9fc211bb72d7926feed89df766d1f6bff0547a6
+	tuareg.0051.a: "왜 다들 그렇게 말하는지 알겠어!" # 922a14ced98691fe7ea062559e1df73617e621dd
+	tuareg.0052.t: "타구엘라" # 6287db69a4366d2b16d1cccc135c4fff6d09be33
+	tuareg.0052.desc: "오늘, 저는 양과 염소 고기, 향신료를 곁들인 #italic taguella#!를 특히 맛있게 먹고 있습니다. 이 납작빵은 [ROOT.Char.GetCulture.GetName] 요리의 주식으로, 모든 이들이 기억할 수 있을 만큼 오래되었습니다." # cb277fc9176184ae2d63517cf9980b8b5b10bc98
+	tuareg.0052.a: "냠냠!" # 71d6bb17b51a89130ddb90f7703b77d9c04e22bb
+	tuareg.0053.t: "이나단" # 4e0349f89822597f67eeb9637faa68e1c674d8e5
+	tuareg.0053.desc: "#italic [county.GetNameNoTier]의 이나단#!은 최근 그들의 제품으로 큰 명성을 얻었습니다. 저와 같은 [ROOT.Char.GetCulture.GetName] 사람들의 엘리트 귀족 계층은 세습된 대장장이, 보석 세공인, 장인 계층과 거리를 두지만, 그들의 작품이 우리에게 큰 도움이 된다는 것은 의심할 여지가 없습니다." # e3e73223c52cd2d363fd6a98625e38e4c20d3a3a
+	tuareg.0053.a: "좋아요." # a465fd57a09c68d69268fba384ffc339ab50a023
+	tuareg.0054.t: "티피나그" # cf46deb14abc3ae4a0180bd680085f5421becb62
+	tuareg.0054.desc: "저는 거주지 근처 [county.GetNameNoTier]의 황무지에서 #italic 티피나그#! 문자로 된 고대 비문을 발견했습니다.\n\n#italic 티피나그#! 문자로 된 비문을 발견하는 것은 드문 일이 아닙니다. 우리 [ROOT.Char.GetCulture.GetCollectiveNoun]은 조상들이 수 세대 전에 그랬던 것처럼 여전히 이 문자를 사용합니다.\n\n어쨌든, 제가 발견한 비문은 매우 닳아서 읽기가 어렵습니다. 원래 조각가가 누구였고 무엇을 말하고 싶었는지 상상할 수 있을 뿐입니다!" # 3dba3bf2e7e3bb0a3ccd41b6872179e32716f786
+	tuareg.0054.a: "아마 중요한 일이었을지도 모릅니다." # cd96a56295b770da084ec477ed339a917ac45955
+	tuareg.0054.b: "혹시 영혼이 만든 것일까요?" # bde47fbb5f09a9736461b88345279cda2196eb8b
+	tuareg.0054.c: "" # d8a3a5257071947084ba38efe917e69c2e43ba49
+	tuareg.0055.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0055.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0055.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0056.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0056.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0056.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0057.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0057.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0057.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0058.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0058.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0058.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0059.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0059.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0059.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0060.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0060.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0060.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0061.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0061.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0061.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0062.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0062.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0062.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0063.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0063.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0063.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0064.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0064.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0064.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0065.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0065.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0065.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0066.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0066.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0066.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuareg.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f

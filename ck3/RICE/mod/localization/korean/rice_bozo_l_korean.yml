@@ -1,0 +1,534 @@
+﻿l_korean:
+	# Misc 
+	RICE_trans_saharan_trade_region: "사하라 횡단 무역 지역" # da71d8a21b7a14d912edd3ce5c6ef3afce46bdd2
+	innovation_RICE_wangara: "왕가라 네트워크" # 85a3d3c5bcbd7b196e68b4f0a9862fd1da75ae47
+	innovation_RICE_wangara_desc: "왕가라는 서아프리카 전역에서 활동하는 영향력 있는 상인 집단입니다. 이들을 우리 공동체에 통합하면 우리 영토의 교역 흐름을 개선하고 멀리 떨어진 땅과 연결할 수 있습니다." # c993d8e34f22977a4295216566cae035013fb099
+	RICE_trans_saharan_decision_unlocked_desc: "[decision|E]을(를) 통해 [trans_saharan_merchants|E]와 교류할 수 있습니다" # db56cfbb53388159e6e1add2b05d1ec0ce47fc7d
+	RICE_wangara_decision_desc: "[wangara|E]와 협력하는 [decision|E]을(를) 해제합니다" # 98b603729b388460bccb8ab61ca5dd6d23711436
+	RICE_wangara_decision_done_req_text: "$building_type_mali_mines_01$을(를) 지배하는 자가 $RICE_bozo_establish_wangara_decision$ [결정|E]을 내려야 합니다" # fd8ae9beb09e9585a18d2adcc5c8808bbf1fb33b
+	death_sacrificed_to_ancestor: "조상의 장례식에서 희생되었습니다" # 68d4a5ccf1c7f91832bfc9e80532a3eca47685ba
+	death_sacrificed_to_ancestor_killer: "[TARGET_CHARACTER.GetUINamePossessive] 조상의 장례식에서 희생되었습니다" # 2c525b3453e4fd1afd75eed7b94aa428d585d861
+	RICE_you_are_culture_head_req: "당신은 [culture_head|E]입니다" # 708dd2edbf65202635656b95e8f333c547144ab1
+	tapama_djenepo: "타파마 제네포" # da9ce04df235f1a1a262e63aab1485fe76856cf9
+	ghw_region_the_sahel: "사헬" # c91c9a3c9adf97e82cc8ba8159a3f3d67a26efcc
+	RICE_culture_in_niger_river_basin_desc: "[culture|E] 문화권은 [GetGeographicalRegion('ghw_region_the_sahel').GetName] [region|E] 지역에 #V 4#!개 이상의 [counties|E]를 보유하고 있습니다" # a02985ef120c2fe9eee261c301d1401f4bde128c
+	activity_RICE_bozo_local_pilgrimage_host_desc: "$BULLET_WITH_TAB$신앙 [piety_i|E][piety|E] 얻음\n$BULLET_WITH_TAB$스트레스 [stress_loss_i|E] [stress|E] 손실\n$BULLET_WITH_TAB$[GetTrait('pilgrim').GetName( GetNullCharacter )] [trait|E] / [GetTrait('pilgrim').GetName( GetNullCharacter )] [trait_level_track_xp|E]" # a3664c865b811a9d3e718e2be7abdeb98415dfc7
+	# Game Concepts 
+	game_concept_wangara: "왕가라" # 877cd3c00a386c04203c040f5038272b550cb625
+	game_concept_wangara_desc: "왕가라는 중세 및 초기 근대 아프리카 경제사에서 중요한 역할을 한 서아프리카 상인 집단이었습니다. 그들은 여러 만데어 사용 민족의 복합체였으며, 이 용어는 맥락에 따라 다른 의미를 지녔습니다.\n\n서아프리카의 금광을 지배하는 [ruler|E]가 $RICE_bozo_establish_wangara_decision$ [decision|E]을 내리면 $innovation_RICE_wangara$ [innovation|E]을 통해 왕가라 콘텐츠가 잠금 해제됩니다. 이 [innovation|E]은 [innovation|E]을 얻는 일반적인 과정을 통해 자연적으로 얻거나, $RICE_bozo_establish_wangara_decision$ [decision|E]을 통해서 또는 왕가라를 [culture|E]의 공동체에 통합하는 [decision|E]을 통해 얻을 수 있습니다. 후자의 두 가지 방법은 [era|E]보다 일찍 [innovation|E]을 얻을 수 있게 해줍니다.\n\n기본적인 이점 외에도 [innovation|E]은 다른 이점도 있습니다. 예를 들어 $RICE_bozo_wangara_synergy_decision$ [decision|E]을 잠금 해제하여 [counties|E]에 유용한 보너스를 제공할 수 있습니다." # 65b12a7decd2c66e69d8c71f895325d1cc9e04c6
+	game_concept_mud_masonry: "진흙 벽돌 공사" # e3e3b0b384efd6ff192ac534cdf76ad9b6afa44c
+	game_concept_mud_mason: "진흙 벽돌장" # 690104f761436b0fd1a64073d248c996847c7555
+	game_concept_mud_masons: "진흙 석공" # 0da25eccd9fb92cb2df9cc9cf265a596ff3def36
+	game_concept_mud_masons_desc: "$tradition_RICE_african_mud_masons_name$ 전통은 서아프리카의 특정 [cultures|E]에서 이용 가능하며, [decision|E]을 통해 $RICE_bozo_mud_masons_decision$을 할 수 있게 합니다. 이를 통해 [buildings|E] 건설 비용과 시간을 줄여주는 [character_modifier|E]를 얻을 수 있습니다.\n\n$c_jenne$의 [county|E]를 소유하고 있다면 [decision|E]을 이용하는 데 [tradition|E]이 필요하지 않으며, [decision|E]은 해당 [modifiers|E]의 더 강력한 버전을 제공합니다." # 82ac86696fe8261cdfb57af84a02c9de203bf5ed
+	# Memories 
+	RICE_bozo_tapama_djenepo_tomb_host_memory: "[GetActivityType( 'activity_RICE_bozo_tapama_djenepo_tomb' ).GetName]에 참여했습니다." # 68d370f8d09591572a11a615718c93d8c4b5406a
+	RICE_bozo_tapama_djenepo_tomb_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_bozo_tapama_djenepo_tomb' ).GetName]에 참여했습니다" # 907a662e49669d10ade4c88e2a1d23aa674e9c6d
+	RICE_bozo_tapama_djenepo_tomb_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_bozo_tapama_djenepo_tomb' ).GetName]에 참여했습니다" # 8c9ceca60498285edd91b1d484a1f8e63a8e79fb
+	RICE_bozo_tapama_djenepo_tomb_host_memory_third_perspective: "[owner.GetName]이(가) [GetActivityType( 'activity_RICE_bozo_tapama_djenepo_tomb' ).GetName]을(를) 떠났습니다" # 49be49ded14c320aff72af3f0e30f5c222877a25
+	RICE_bozo_tapama_djenepo_tomb_guest_memory: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_bozo_tapama_djenepo_tomb' ).GetName]에 참가했습니다" # f684fe628a5bf0e885211ada339ccca202687fe7
+	RICE_bozo_tapama_djenepo_tomb_guest_memory_first_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_bozo_tapama_djenepo_tomb' ).GetName]에 다녀왔습니다" # 8f1722175b47adf7a6d15a506ae3f968b256b7b8
+	RICE_bozo_tapama_djenepo_tomb_guest_memory_second_perspective: "[GetActivityType( 'activity_RICE_bozo_tapama_djenepo_tomb' ).GetName] 행사에 [host.GetTitledFirstName]와 함께 참여했습니다." # 2bf8d5acf1da31ea66255de717fef80dcda180a3
+	RICE_bozo_tapama_djenepo_tomb_guest_memory_third_perspective: "[owner.GetName](이)가 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_bozo_tapama_djenepo_tomb' ).GetName](을)를 떠났습니다." # 5afe485ab2a34b7f9f29cf01a90f9509ddd28060
+	# Activities 
+	activity_visit_tapama_djenepo_tomb_host_an_a: "$host_activity_a$" # null
+	activity_visit_tapama_djenepo_tomb: "타파마 제네포의 무덤 방문" # af5f60daba9ae1bdb85f50fac20194e93732ff41
+	activity_visit_tapama_djenepo_tomb_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 타파마 제네포의 무덤 방문" # 5a7418e451dad95b731ba629a35cc21aea919262
+	activity_RICE_bozo_tapama_djenepo_tomb: "타파마 제네포의 무덤 방문" # 855aaed43a6e3dece40ea4974da162c3dde45489
+	activity_RICE_bozo_tapama_djenepo_tomb_desc: "젠네의 전설에 따르면, 현재의 도시는 타파마 제네포라는 처녀의 희생 덕분에 지어질 수 있었다고 합니다. 그녀의 무덤은 오늘날까지도 서 있습니다." # 829892f1b2c23968ef364170809eda1980453710
+	activity_RICE_bozo_tapama_djenepo_tomb_selection_tooltip: "타파마 즈네포의 무덤에 [local_pilgrimage|E] 순례를 떠납니다.\n\n$RICE_bozo_tapama_djenepo_decision_context_tooltip$" # 2bf663aade9a076d29af73f953fe37eca159d3ec
+	activity_RICE_bozo_tapama_djenepo_tomb_host_desc: "$activity_RICE_bozo_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ [GetModifier('RICE_bozo_visited_tapama_djenepo_tomb').GetNameWithTooltip] [character_modifier|E]" # 1af1131c673c414f9956cff5dbe767f259b9195f
+	activity_RICE_bozo_tapama_djenepo_tomb_guest_desc: "$activity_RICE_bozo_tapama_djenepo_tomb_host_desc$" # null
+	activity_RICE_bozo_tapama_djenepo_tomb_province_desc: "타파마 제네포의 무덤은 [GetTitleByKey('c_jenne').GetNameNoTier]에 있습니다." # ade69bc751dc3d7364ea479cb152e329e56b1977
+	activity_RICE_bozo_tapama_djenepo_tomb_destination_selection: "$activity_RICE_bozo_tapama_djenepo_tomb_province_desc$" # null
+	activity_RICE_bozo_tapama_djenepo_tomb_guest_help_text: "$activity_RICE_bozo_tapama_djenepo_tomb$" # null
+	activity_RICE_bozo_tapama_djenepo_tomb_predicted_cost: "타파마 제네포의 무덤으로 가는 [local_pilgrimage|E] 비용은 선택한 [activity_options|E]에 따라 달라집니다." # 650e03d777f1aaf59225eeceec8e56c9997227cf
+	activity_RICE_bozo_tapama_djenepo_tomb_conclusion_desc: "저희의 [GetActivityType( 'activity_RICE_bozo_tapama_djenepo_tomb' ).GetName]가 끝났습니다. 그녀의 무덤에 올 수 있어서 큰 영광이었습니다." # 59a26588c573ff4be4088ca5ecdde016142d2897
+	RICE_bozo_tapama_djenepo_tomb_type: "방문 유형" # 14f11d4c4e94218d839268cc4a03bd40b1a6beaf
+	RICE_bozo_tapama_djenepo_tomb_type_devotion: "헌신의 행위" # 0274272ab2c6ab0825aab0e11802374f4006529f
+	RICE_bozo_tapama_djenepo_tomb_type_devotion_desc: "$EFFECT_LIST_BULLET$다른 [piety|E] 획득량 외에 [piety_i|E]를 100 추가로 얻습니다. #V 100#!\n$EFFECT_LIST_BULLET$[GetTrait('pilgrim').GetName( GetNullCharacter )] [trait|E]의 경우 다른 옵션에 비해 [trait_level_track_xp|E]를 두 배로 얻습니다.\n\n#weak 주요 성지로 여행하는 것은 아니지만, 순례는 여전히 중요하며 이를 진지하게 받아들여야 합니다.#!" # 9f0def7e30dd422f15f2441b996a59b3832fcffb
+	RICE_bozo_tapama_djenepo_tomb_type_observance: "종교 의례" # 5220b41b5f1ecfa658cf2d854ee27daf14f5d5bf
+	RICE_bozo_tapama_djenepo_tomb_type_observance_desc: "$EFFECT_LIST_BULLET$다른 [prestige|E] 획득량에 더하여 [prestige_i|E] #V 100#! 획득\n$EFFECT_LIST_BULLET$[GetModifier('RICE_bozo_engaged_with_local_religious_practices').GetNameWithTooltip] [character_modifier|E] 획득\n\n#weak 지역 관습에 따라 [GetPlayer.GetFaith.PantheonTerm]을 공경함으로써 백성들에게 당신이 그들과 그들의 삶의 방식을 이해하고 있음을 보여줄 수 있습니다.#!" # b5794605c67ede7d02f1a51c885119838055c7a1
+	RICE_bozo_tapama_djenepo_tomb_type_vacation: "영적 휴가" # d46d5984ac8796c961de48352779a2b3eb262107
+	RICE_bozo_tapama_djenepo_tomb_type_vacation_desc: "$EFFECT_LIST_BULLET$ 다른 선택지에 비해 [stress_loss_i|E] [stress|E]를 훨씬 많이 잃습니다\n\n#weak 정신적, 육체적 회복은 모든 장기적인 종교 체험에서 중요한 측면이며, [GetPlayer.GetFaith.PantheonTerm]에 더 가까이 다가갈 수 있게 해줍니다!#" # 3763cffcd401f1f47a700b9c78d2ad2bc31e3ff2
+	RICE_bozo_tapama_djenepo_tomb_pilgrimage_phase: "$pilgrimage_phase_solo$" # null
+	RICE_bozo_tapama_djenepo_tomb_pilgrimage_phase_desc: "$pilgrimage_phase_solo_desc$" # null
+	RICE_bozo_tapama_djenepo_tomb_worship_intent_header: "숭배:" # 97f96470a9d363b328ca1708cf3575131301d2a6
+	RICE_bozo_tapama_djenepo_tomb_worship_intent: "숭배" # 82a99411bb49a330b3921012d5d35a92a44b5488
+	RICE_bozo_tapama_djenepo_tomb_worship_intent_desc: "이 [local_pilgrimage|E]의 종교적 측면에 집중하고 싶습니다. 다른 이득 외에 추가 [piety_i|E] [piety|E]를 얻습니다. [GetTrait('zealous').GetName( GetNullCharacter )] 또는 [GetTrait('calm').GetName( GetNullCharacter )] 특성을 보유한 경우 추가 [stress_loss_i|E] [stress|E]를 잃습니다." # 8d3abb0a3d9e49f78fa1c478f61c216651a2574e
+	RICE_bozo_tapama_djenepo_tomb_model_intent_header: "역할 모델:" # 62d034fcafbabe9bcd0931a6c6216146e4741aaf
+	RICE_bozo_tapama_djenepo_tomb_model_intent: "역할 모델" # 2741d242c1629a18cf2bee9ab503322adf4999bf
+	RICE_bozo_tapama_djenepo_tomb_model_intent_desc: "이 지역의 모든 [GetPlayer.GetFaith.GetAdherentNamePlural]에게 이번 [local_pilgrimage|E]를 통해 모범을 보이십시오. 다른 이득 외에도 더 많은 [prestige_i|E] [prestige|E]를 얻습니다. 만약 당신이 [GetTrait('ambitious').GetName( GetNullCharacter )] 또는 [GetTrait('diligent').GetName( GetNullCharacter )]라면 추가 [stress_loss_i|E] [stress|E]를 잃습니다." # a40748db06b3610a533ebeeb06d1e57fd26a3ee8
+	RICE_bozo_tapama_djenepo_tomb_curiosity_intent_header: "호기심:" # eb4a4155e664c66391734d07a3d2e9d0dc62c5b2
+	RICE_bozo_tapama_djenepo_tomb_curiosity_intent: "호기심" # 1a0bff19a5f4891dbfd100deb6c51c2b8bd4bf3b
+	RICE_bozo_tapama_djenepo_tomb_curiosity_intent_desc: "당신은 이 [local_pilgrimage|E]를 떠나면서, 현지 주민, 그들의 문제, 그리고 그들이 [GetPlayer.GetFaith.GetName]을 어떻게 수행하는지 더 잘 이해하고 싶습니다. 당신의 [lifestyle|E]에서 [experience|E]를 얻습니다. 만약 당신이 [GetTrait('humble').GetName( GetNullCharacter )] 또는 [GetTrait('just').GetName( GetNullCharacter )]라면 추가적인 [stress_loss_i|E] [stress|E]를 잃습니다." # c5c5f9164056d65e0117fb471d923640d9b3a33d
+	RICE_bozo_tapama_djenepo_tomb_completed_log_title: "타파마 제네포의 무덤 방문 완료" # 845bf3322e921c626e7485127b4d311f090466c5
+	RICE_bozo_tapama_djenepo_tomb_completed_log: "[CHARACTER.GetShortUIName|U](이)가 타파마 제네포의 무덤 방문을 완료했습니다" # bd0463ccad0edc666ca81c4a93c444dfd1a2dd06
+	TRAVEL_NAME_FOR_activity_RICE_bozo_tapama_djenepo_tomb: "$activity_RICE_bozo_tapama_djenepo_tomb$의 소유격" # cffdf07444517788b8d48296af4ca77195ab2490
+	activity_RICE_bozo_tapama_djenepo_tomb_owner: "순례자" # fa90e82f429f333a1ff48c9130132abed1504929
+	# Modifiers 
+	RICE_bozo_mud_masons_jenne: "제네의 진흙 건축가" # 6c55ad6fcef56696d89cfee7abd3c4d1375e192c
+	RICE_bozo_mud_masons_jenne_desc: "제네의 석공 조합, #italic 바레이 톤#!은 여러 세대에 걸쳐 완벽하게 연마된 [진흙 건축|E] 기술로 유명합니다. 신성한 차원을 지닌 그들의 지식은 지역 전체에서 크게 존경받습니다.\n\n이 [지역|E]의 #italic 통치자[들|E]#!은 자신의 [문화|E]가 $tradition_RICE_african_mud_masons_name$ [전통|E]을 가지지 않더라도 $RICE_bozo_mud_masons_decision$ [결정|E]에 자동으로 접근할 수 있습니다. 만약 그들이 [전통|E]을 #italic 가지고 있다면#! [결정|E]으로부터 더 큰 보너스를 받을 것입니다." # f8b3af0879bf77e2094d0b661c076be20d33ddb2
+	RICE_bozo_mud_masons_general_modifier: "진흙 벽돌공 고용 (일반 $game_concept_holdings$)" # 2d181dab5f42ae89943ced2a3a95b69ef2e5db17
+	RICE_bozo_mud_masons_general_modifier_desc: "이 캐릭터는 모든 [holding_types|E]에 걸쳐 다양한 [buildings|E]의 건설 및 유지 관리와 관련된 프로젝트를 위해 아프리카 [mud_masons|E] 지역 길드와 계약을 맺었습니다." # 8698d27e07082fe89d6f7b003afd17dcac71d9ce
+	RICE_bozo_mud_masons_castle_modifier: "진흙 벽돌공 고용 ($game_concept_castle_holdings$)" # e1ed6b4c5ecd685638ff6e61abb5c86c43d410fe
+	RICE_bozo_mud_masons_castle_modifier_desc: "이 캐릭터는 자신의 [castle_holdings|E] 내 [buildings|E] 건설 및 유지보수와 관련된 프로젝트를 위해 아프리카 [mud_masons|E] 현지 길드와 계약을 맺었습니다." # afd8296bc67b270aff3b5afd1c90659fc8099bd1
+	RICE_bozo_mud_masons_city_modifier: "진흙 벽돌공 고용($game_concept_city_holdings$)" # 32dcaf6f5c45270a0d868f5b9d21d369977859d6
+	RICE_bozo_mud_masons_city_modifier_desc: "이 캐릭터는 자신의 [city_holdings|E] 내의 [buildings|E] 건설 및 유지와 관련된 프로젝트를 위해 현지 아프리카 [mud_masons|E] 길드와 계약을 맺었습니다." # b78a37ee3aca2b8a945af75d1a9c8bdfb2a67ec9
+	RICE_bozo_mud_masons_church_modifier: "진흙 건축가 고용($game_concept_church_holdings$)" # 22211238bae267e8c9a31d391a30e31f9645bb11
+	RICE_bozo_mud_masons_church_modifier_desc: "이 캐릭터는 자신의 [church_holdings|E] 내 [buildings|E] 건설 및 유지와 관련된 프로젝트를 위해 아프리카 [mud_masons|E] 지역 길드와 계약을 맺었습니다." # b2562ed768a749b257e71bc2a7226f9c779c0d09
+	RICE_bozo_mud_masons_general_modifier_jenne: "제네의 진흙 건축가 고용 (일반 $game_concept_holdings$)" # b28ee506e5a13079aa1c4c3f3dda00147614f920
+	RICE_bozo_mud_masons_general_modifier_jenne_desc: "이 캐릭터는 고대 도시 제네 출신의 [mud_masons|E]의 #italic 바레이톤#! 또는 길드와 모든 [holding_types|E]에 걸쳐 다양한 [buildings|E]의 건설 및 유지 관리와 관련된 프로젝트 계약을 맺었습니다." # 65157c5fa656836f832a264b815bf5d9bfd651f0
+	RICE_bozo_mud_masons_castle_modifier_jenne: "제네의 진흙 벽돌공들을 고용 ($game_concept_castle_holdings$)" # 90e1650db0d70409c79c9d3abfba4351fc37788e
+	RICE_bozo_mud_masons_castle_modifier_jenne_desc: "이 캐릭터는 고대 도시 제네 출신의 [mud_masons|E]의 #italic barey ton#!, 즉 길드와 자신의 [castle_holdings|E] 내 [buildings|E] 건설 및 유지보수 프로젝트 관련 계약을 맺었습니다." # ba6db84cf55f0a9dad2b44c8ec6fc86da9637f72
+	RICE_bozo_mud_masons_city_modifier_jenne: "제네의 진흙 석공 고용($game_concept_city_holdings$)" # bb4f0cd76f3c63e1aa1544fb254f89cfcd4feaf8
+	RICE_bozo_mud_masons_city_modifier_jenne_desc: "이 캐릭터는 고대 도시 제네의 [mud_masons|E] 장인 조합인 #italic 바레이 톤#! 과 [city_holdings|E] 내 [buildings|E] 건설 및 유지 보수 관련 프로젝트 계약을 맺고 있습니다." # 8df8ec254a652f629689a18f6bedd2fa289d7183
+	RICE_bozo_mud_masons_church_modifier_jenne: "제네의 진흙 건축가 고용($game_concept_church_holdings$)" # 295e421c85c2578d4c6f34c499d355aebf8d094d
+	RICE_bozo_mud_masons_church_modifier_jenne_desc: "이 인물은 옛 도시 제네 출신 [mud_masons|E]의 #italic barey ton#! 또는 길드와 건설 및 유지보수 프로젝트에 관한 계약을 맺었으며, 이는 그들의 [church_holdings|E] 내 [buildings|E]에 관련됩니다." # a6217d8bb5de4a8d71599db004a45badb66c5217
+	RICE_bozo_recently_moved_Jenne: "젠네 최근 이전" # 5e0ef7426c27d6c95e71a28a000d77117075903e
+	RICE_bozo_recently_moved_Jenne_desc: "옛 제네는 버려졌고, 이전 부지에서 멀지 않은 곳에 새로운 도시가 재건되었습니다. 이로 인해 마을의 경제와 다른 무역항과의 연결이 활성화되었습니다." # f547ef2de03b3b2e1176924045fb885cc716a21f
+	RICE_bozo_visited_tapama_djenepo_tomb: "타파마 제네포의 무덤을 방문함" # cb716ff90d1c1d44f1bbffae6a5062601f2f57bd
+	RICE_bozo_visited_tapama_djenepo_tomb_desc: "이 캐릭터는 최근 제네의 타파마 제네포의 무덤을 방문했습니다. 전설에 따르면, 그녀는 도시가 건설될 수 있도록 희생되었다고 합니다." # d37b8d580df5947d5f644c1dccd5defdc88d7520
+	RICE_bozo_wangara_political_synergy: "왕가라 관료" # bc305f248e2d64741397ff347748223a473534eb
+	RICE_bozo_wangara_political_synergy_desc: "이 캐릭터는 최근에 자신의 왕국 행정에 여러 [wangara|E]를 편입했습니다." # 59c5e8556e85594e828bcdc46dacf761b8377d02
+	RICE_bozo_wangara_political_synergy_county: "왕가라 정치 시너지" # 255791fa45a5a1173d45d22bcfe14b9337b0af6b
+	RICE_bozo_wangara_political_synergy_county_desc: "최근 당국은 이 지역 사회의 지방 행정 및 정치 네트워크에 더 많은 [wangara|E]를 통합하기 위한 조치를 취했습니다." # a122ad21e3140b6006696721c95a065fee397e4c
+	RICE_bozo_wangara_commercial_synergy: "왕가라 사업" # 3968d324a81c6155b16304b8ccc0fdd208330bb5
+	RICE_bozo_wangara_commercial_synergy_desc: "이 캐릭터는 최근 [wangara|E]와 협력하여 자신의 영토에서 교역을 장려했습니다." # 95e47759ff6a4f622da26d7b601e06adcffb9eb7
+	RICE_bozo_wangara_commercial_synergy_county: "왕가라 상업 시너지" # 413d410acf17fdc6a1f0a7d8173c6d06399038c7
+	RICE_bozo_wangara_commercial_synergy_county_desc: "당국은 최근 이 지역 사회에서 [wangara|E]의 사업 운영과 상업 네트워크 확장을 지원하기 위한 조치를 취했습니다." # eb32aba3525338b602cc7ce7bbe75f56ed318189
+	RICE_bozo_wangara_cultural_synergy: "왕가라 장학금" # 941846259da269800f66ded5fbaa5c61691b4d24
+	RICE_bozo_wangara_cultural_synergy_desc: "이 인물은 최근 영역 내 학문적 배경을 지닌 [왕가라|E]와 관계를 맺었습니다." # 0143662671c9603296bfb8f695ef974c6fdf41d7
+	RICE_bozo_wangara_cultural_synergy_county: "왕가라 문화적 시너지" # cdc0a27d3f860e8a4b65b8e88aa0fa51c957e7b8
+	RICE_bozo_wangara_cultural_synergy_county_desc: "최근 당국은 이 지역 사회의 학문, 종교 및 예술 상태를 개선하기 위해 학문적 배경이 있는 [wangara|E]를 후원하기 위한 조치를 취했습니다." # 0351d28019b225cfb2328b3fc6cff7606646e26e
+	RICE_bozo_new_mud_mason_contract: "새 진흙 석공 계약" # 731169a095c10eb70229a4e742f9e3d89e198b1f
+	RICE_bozo_extra_protection_mud_masons: "진흙 장인들의 의식으로부터 얻는 추가 보호" # 903f75e64f6f22bc342ae3385d3f9f74ded05879
+	RICE_bozo_engaged_with_local_religious_practices: "지역 종교 관습에 참여함" # 59b2182f16aab0bedd7a8df139f7449629626e5a
+	# Culture Stuff 
+	tradition_RICE_masters_of_the_river_name: "강의 지배자" # 73b3001586de6322bfb7fdae2c0835ed5258df40
+	tradition_RICE_masters_of_the_river_desc: "이 문화는 외부인들에게 니제르 강과 그 지류에서 어업과 항해에 대한 전문 지식으로 인해 '강의 지배자' 또는 '물의 지배자'로 칭송받았습니다. 그들은 다른 사람들이 거의 갖지 못한 니제르 강에 대한 자연스러운 이해력을 가지고 있다고 합니다." # 1215763bec7e6fa6d29eb4c6adadd88f59d4a345
+	tradition_RICE_african_mud_masons_name: "진흙 석공" # 0da25eccd9fb92cb2df9cc9cf265a596ff3def36
+	tradition_RICE_african_mud_masons_desc: "이 문화권의 석공들은 진흙으로 정교한 건축물을 짓는 것으로 유명합니다. 그들은 복잡한 계층 구조를 가진 길드로 조직되어 있으며, 이는 그들의 작업과 관련된 전통적인 종교 의식을 시행하고 고대의 석조 기술이 적절한 방식으로 대대로 전수되도록 보장합니다." # cdda27f0860b8544c2d34087771181268a323ac4
+	culture_parameter_unlock_rice_sogo_ba_masquerade: "소고 바 가장무도회를 개최하는 [decision|E]를 해금합니다" # d13c43a68201b612ef50aa4018961f42eeea39a4
+	culture_parameter_unlock_rice_african_mud_mason_decision: "아프리카 [mud_masons|E]를 고용하여 [culture|E]에 속하거나 이 [culture|E]의 [counties|E]를 통치하는 자들을 위해 [buildings|E] 건설 비용과 시간을 더욱 단축할 수 있는 [decision|E]을 해제합니다." # 693f5cd839959c5fe9fda3243c1e43c1d08ece22
+	culture_parameter_unlock_rice_trans_saharan_merchant_decision: "$RICE_trans_saharan_decision_unlocked_desc$" # null
+	culture_parameter_unlock_rice_trans_saharan_merchant_better_chances: "$RICE_trans_saharan_trade_legacy_1_effect$" # null
+	culture_parameter_unlock_rice_wangara_era_early: "[왕가라|E] 상인 공동체를 통합하는 [결정|E]을 해제하고, 따라서 $culture_era_early_medieval$ 시대에 $innovation_RICE_wangara$ [혁신|E] 및 [왕가라|E] 메커니즘에 훨씬 더 일찍 접근할 수 있습니다. 이는 $culture_era_high_medieval$ [시대|E]보다 앞선 시기입니다." # b05c65c42973c59cf3003ef69cc8fedbda5a2405
+	tradition_RICE_gold_dust_traders_name: "황금 가루 상인" # 31e6998332743ccda934d1cc665f1001bf4d3c8c
+	tradition_RICE_gold_dust_traders_desc: "이 문화권 사람들은 서아프리카에서 금 생산, 운송, 또는 무역에 깊이 관여하고 있습니다. 금 거래에서 그들의 역할이 무엇이든, 그들은 트랜스사하라 상업, 정치 및 문화 네트워크의 주요 행위자이며, 소금, 노예 및 기타 제품을 거래하는 것으로도 알려져 있습니다." # 75dbe175697a33eb434e8da5d33e375e473bcb68
+	# Decisions 
+	RICE_bozo_mud_masons_decision: "아프리카 진흙 건축가 고용" # 4b00a8e5464f54ac744bfb6aaee1e0464f2d982c
+	RICE_bozo_mud_masons_decision_tooltip: "우리 [realm|E]의 [mud_masons|E]는 건설 프로젝트를 도울 수 있습니다." # d6c015c7fbe60157db93d44659da54739813f757
+	RICE_bozo_mud_masons_decision_desc: "[GetPlayer.GetCulture.GetName]인들은 [mud_masonry|E]의 오랜 전통을 가지고 있습니다. 저는 제 영지에 있는 [mud_masons|E] 조합에 연락하여 다양한 건설 프로젝트를 도와달라고 요청할 수 있고, 그래야만 합니다. 그들의 건축 및 영적 지식은 우리의 건물이 오랜 세월을 견딜 수 있도록 해줄 것입니다!" # 3d0ffc19f9f8c49c26fa6139a9bd2cfe1d412b0e
+	RICE_bozo_mud_masons_decision_desc_not_culture: "저의 [realm|E] 주민 중 일부는 오랜 [mud_masonry|E] 전통을 가진 [culture|E] 출신입니다. 저는 그들의 [mud_masons|E] 길드를 불러 여러 건축 프로젝트에 참여시켜야 합니다. 그들의 건축 및 영적 지식은 우리 건물이 시간의 시험을 견딜 수 있도록 보장할 것입니다!" # d155f6008345e7fd3e0e1d847666a71a5fcc822e
+	RICE_bozo_mud_masons_decision_effect_tooltip_1: "[character_modifier|E]를 획득하여 [buildings|E] 건설 비용 및 시간이 감소합니다" # 97d360c5398044c26ea2ca31e21023fec3ab7a27
+	RICE_bozo_mud_masons_decision_effect_tooltip_2: "보유한 [realm|E]의 [holdings|E]에 따라, 이 보너스가 적용될 [holdings|E]를 선택할 수 있습니다" # 60e2d9fb35c6000f61ebfa1623b904e54b73ba83
+	RICE_bozo_mud_masons_decision_effect_tooltip_3: "[GetTitleByKey('c_jenne').GetNameNoTier]를 소유하고 있으므로, 더 강력한 버전의 [modifiers|E]를 받습니다." # bd697db747186419097e43ec7f06dfda3cfe117e
+	RICE_bozo_mud_masons_decision_confirm: "석공에게 연락하십시오!" # d23543437e855f26a0bb844c33293c5983ce2725
+	RICE_bozo_mud_masons_decision_context_tooltip: "#emphasis Historical Context:#! Mudbricks have been a conspicuous part of buildings in West Africa for centuries, with the Mosque of Djenne as perhaps the most famous example of this style of architecture. Mud masons are respected throughout the region for their practical, spiritual, and sorcerous knowledge, as construction requires not only creating the building, but also the use of spells and incantations to bless the site and exorcise evil spirits. For example, many mud masons in the city of Jenne are of the Bozo ethnicity, and are well-versed in Islamic Quranic verses and what they refer to as #italic bai bibi#!, or "African secrets," the details of which they seldom disclose to outsiders." # null
+	RICE_bozo_mud_masonry_work_type: "석공들이 작업할 프로젝트를 선택하십시오" # 712b90f939418b6cc1330c700a2f434b1d978826
+	RICE_bozo_mud_masonry_work_type_gui: "[진흙_석공|E]이 작업할 [영지|E] 종류를 선택하십시오" # 41eabc5bb1e80b6579e373f7d71c1a2a30a08265
+	RICE_bozo_mud_masons_general_option: "모든 [holdings|E]" # 9a70dba72f1cb4beaeaac3ff53e850729c85feb7
+	RICE_bozo_mud_masons_general_option_desc: "모든 [소유지|E]에 골고루 집중" # 616ab54fd96ff2fa311f70350c3c3cc1b5633027
+	RICE_bozo_mud_masons_general_option_tooltip: "[prestige_i|E] #V 50#! 및 [piety_i|E] #V 50#!을 얻고 #V 10#!년 동안 [GetModifier('RICE_bozo_mud_masons_general_modifier').GetNameWithTooltip] [character_modifier|E]를 얻습니다." # be1c44aed0f5178aa38307f164ee34b3fb75c863
+	RICE_bozo_mud_masons_castle_option: "[castle_holdings|E]" # 5f69e21932f9cee6180a12653f4787722cb373ed
+	RICE_bozo_mud_masons_castle_option_desc: "[castle_holdings|E]에 집중" # be9a41137562612a1deb8eb8725dfa625baaf1d6
+	RICE_bozo_mud_masons_castle_option_tooltip: "[prestige_i|E] #V 100#!을 얻고 #V 10#!년 동안 [GetModifier('RICE_bozo_mud_masons_castle_modifier').GetNameWithTooltip] [character_modifier|E]를 얻습니다." # a9467ffcbf7c57a3491bf37d62ae62746adba0d6
+	RICE_bozo_mud_masons_city_option: "[city_holdings|E]" # 010091e458f556bedd9b3cb1eaf0d379e952cb0e
+	RICE_bozo_mud_masons_city_option_desc: "모든 [city_holdings|E]에 균등하게 집중합니다" # e8e5180cf5cb0e762eff218b4a8ad7d22fedf6a7
+	RICE_bozo_mud_masons_city_option_tooltip: "[명성_i|E] #V 50#! 및 [신앙심_i|E] #V 50#!을 얻고 #V 10#!년 동안 [GetModifier('RICE_bozo_mud_masons_city_modifier').GetNameWithTooltip] [캐릭터_modifier|E]를 얻습니다." # 6270a7cf79db32bc1c43de68dc90fb4bffdfbaeb
+	RICE_bozo_mud_masons_church_option: "[교회 소유지|E]" # 3bc8e9fc6b1784545ca714945904e13dba49fb12
+	RICE_bozo_mud_masons_church_option_desc: "모든 [church_holdings|E]에 균등하게 집중합니다" # 9ce19669286f94dd27f234b598af5b22ce992403
+	RICE_bozo_mud_masons_church_option_tooltip: "[piety_i|E] #V 100#! 획득, 그리고 #V 10#!년 동안 [GetModifier('RICE_bozo_mud_masons_church_modifier').GetNameWithTooltip] [character_modifier|E] 획득." # ea95d13884438f271c3314e10c4ee03c754563e6
+	RICE_bozo_mud_masons_general_jenne_option: "모든 [holdings|E]" # 9a70dba72f1cb4beaeaac3ff53e850729c85feb7
+	RICE_bozo_mud_masons_general_jenne_option_desc: "모든 [holdings|E]에 균등하게 집중합니다" # 616ab54fd96ff2fa311f70350c3c3cc1b5633027
+	RICE_bozo_mud_masons_general_jenne_option_tooltip: "[prestige_i|E] #V 50#! 및 [piety_i|E] #V 50#!을 얻고, #V 10#!년 동안 [GetModifier('RICE_bozo_mud_masons_general_modifier_jenne').GetNameWithTooltip] [character_modifier|E]를 얻습니다." # 928880e7766670e0687601b75e7e4b17eeb06725
+	RICE_bozo_mud_masons_castle_jenne_option: "[castle_holdings|E]" # 5f69e21932f9cee6180a12653f4787722cb373ed
+	RICE_bozo_mud_masons_castle_jenne_option_desc: "[castle_holdings|E]에 집중" # be9a41137562612a1deb8eb8725dfa625baaf1d6
+	RICE_bozo_mud_masons_castle_jenne_option_tooltip: "[prestige_i|E] #V 100#! 및 #V 10#!년 동안 [GetModifier('RICE_bozo_mud_masons_castle_modifier_jenne').GetNameWithTooltip] [character_modifier|E] 획득." # 625859811892e6db764fa97cf7720032f7113b9b
+	RICE_bozo_mud_masons_city_jenne_option: "[city_holdings|E]" # 010091e458f556bedd9b3cb1eaf0d379e952cb0e
+	RICE_bozo_mud_masons_city_jenne_option_desc: "모든 [city_holdings|E]에 균등하게 집중합니다" # e8e5180cf5cb0e762eff218b4a8ad7d22fedf6a7
+	RICE_bozo_mud_masons_city_jenne_option_tooltip: "[명성|E] #V 50#!과 [신앙|E] #V 50#!을 얻고, [GetModifier('RICE_bozo_mud_masons_city_modifier_jenne').GetNameWithTooltip] [캐릭터 수정자|E]를 #V 10#!년간 받습니다." # 8415a17b0eab7067a384f1414f299c6df42660dd
+	RICE_bozo_mud_masons_church_jenne_option: "[church_holdings|E]" # 3bc8e9fc6b1784545ca714945904e13dba49fb12
+	RICE_bozo_mud_masons_church_jenne_option_desc: "모든 [church_holdings|E]에 균등하게 집중합니다" # 9ce19669286f94dd27f234b598af5b22ce992403
+	RICE_bozo_mud_masons_church_jenne_option_tooltip: "[piety_i|E] #V 100#!을 얻고, #V 10#!년 동안 [GetModifier('RICE_bozo_mud_masons_church_modifier_jenne').GetNameWithTooltip] [character_modifier|E]를 얻습니다." # 722ff0c092b1738f09400e2634f76490e1612330
+	RICE_bozo_establish_wangara_decision: "왕가라 금 독점 생성" # c8aa1c55052997062d2131c4ec997f39395d296d
+	RICE_bozo_establish_wangara_decision_tooltip: "[왕가라|E]가 말리의 금광을 독점하여 수익을 극대화하도록 허용합니다." # 47d852c20a5219770bf5590221a698f5be5ca619
+	RICE_bozo_establish_wangara_decision_desc: "[왕가라|E]라고 불리는 만데어족 상인 집단이 [GetGeographicalRegion('world_africa_west').GetName]의 금광에 상당한 영향력을 행사하고 있습니다. 그들이 금광에 대한 독점권을 형성하도록 돕는다면, 그들이 다른 지역으로 사업을 확장하고자 하므로 상호 이익을 얻을 수 있을 것입니다." # 70c3d945a7fae140ef2e32570f38db9c71ff4918
+	RICE_bozo_establish_wangara_decision_effect_tooltip_1: "[GetGeographicalRegion('world_africa_west').GetName]의 다른 [cultures|E]는 이제 [culture_head|E] 또는 강력한 [ruler|E]가 $RICE_bozo_bring_in_wangara$ [decision|E]을 내리면 $innovation_RICE_wangara$ [innovation|E]을 잠금 해제할 수 있습니다." # bdfcb544983387afd61c5ac7e4195160a27803fc
+	RICE_bozo_establish_wangara_decision_effect_tooltip_2: "$innovation_RICE_wangara$ [innovation|E]는 다시 $RICE_bozo_wangara_synergy_decision$ [decision|E]을(를) 해제합니다." # 13d140618d0b3f579794fa24c713813021989b39
+	RICE_bozo_establish_wangara_decision_confirm: "황금이 흘러야 한다!" # 489b925be4a61b66b24ab129a598ee250b1c112c
+	RICE_bozo_establish_wangara_decision_context_tooltip: "#emphasis Historical Context:#! The Wangara were a West African caste of merchants prominent from the medieval period up to the 19th century. They comprised of several different Mande peoples, such as the Malinke and Soninke, and initially came to power by dominating the production of gold in Mali. Over generations, they not only diversified their portfolio to include salt, kola nuts, and other goods, but also expanded their operations and integrated themselves into the politics and societies of places as faraway as the Akan coast and the Hausa city-states." # null
+	RICE_bozo_wangara_mine_req: "[GetBuilding('mali_mines_01').GetName] [building|E] 또는 해당 업그레이드가 있는 [counties|E]를 최소 #V 2#!개 이상 소유하고 있습니다" # 67b6069d2b46e9b3e87ae4ee219fd9fcfa35e6f4
+	RICE_bozo_bring_in_wangara: "[ROOT.Char.GetCulture.GetNameNoTooltip] 공동체에 왕가라 통합" # cc5d8ff6d9ad40cdbe70288b512cd2716bb43d7b
+	RICE_bozo_bring_in_wangara_tooltip: "[왕가라|E]는 우리 공동체에 큰 도움이 될 수 있습니다." # 2e67005cf436594a67465fa19f491b63538dcfe3
+	RICE_bozo_bring_in_wangara_desc: "[왕가라|E] 상인들은 원래 말리의 금광을 장악하고 있었지만, 수년간 금 이외의 상품을 거래하기 위해 다른 땅으로 확장하면서 사업을 다각화했습니다. 우리는 그들이 [ROOT.Char.GetCulture.GetName] 공동체를 그들의 네트워크에 통합하도록 주도해야 합니다." # 5954c204a7a20c82d0fc02e622e61d0905e4b5e8
+	RICE_bozo_bring_in_wangara_effect_tooltip_1: "[THIS.Char.GetCulture.GetName] [rulers|E]는 이제 다른 [wangara|E] 메커니즘, 예를 들어 $RICE_bozo_wangara_synergy_decision$ 결정에 접근할 수 있습니다." # 95d0d5c8085c032c6055336c7a008cadec6cd490
+	RICE_bozo_bring_in_wangara_confirm: "왕가라족은 [ROOT.Char.GetCulture.GetNameNoTooltip] 땅에서 환영받습니다!" # 691f0e999dbdac24023c811bb798bbefedc77759
+	RICE_bozo_bring_in_wangara_context_tooltip: "$RICE_bozo_establish_wangara_decision_context_tooltip$" # null
+	RICE_bozo_wangara_synergy_decision: "왕가라와 협력하십시오" # 9911f9092c2aea520c11e4670ea7af13962c0b85
+	RICE_bozo_wangara_synergy_decision_tooltip: "[왕가라|E]는 우리 문명에 많은 기여를 할 수 있을 것입니다." # d31079244c8974851a2f46f8c7f42a12e4b03c14
+	RICE_bozo_wangara_synergy_decision_desc: "[왕가라|E]는 [ROOT.Char.GetCulture.GetName] 사회에 꽤 오랫동안 자리를 잡았습니다. [ROOT.Char.GetPrimaryTitle.GetNameNoTier]은(는) 그들의 상업 활동으로 많은 이득을 얻고 있지만, [왕가라|E]와 협력할 다른 기회를 찾는다면 더욱 큰 이득을 얻을 수 있을 것입니다!" # bb8d1b27a8730eb4b206a6782f9192c3f40dc84f
+	RICE_bozo_wangara_synergy_decision_effect_tooltip_1: "다양한 시너지 유형 중에서 선택합니다." # 767367c551dd939dde8f365847693f9bcef01809
+	RICE_bozo_wangara_synergy_decision_effect_tooltip_2: "[GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetNameNoTier]에 직접 소유한 모든 [county|E]는 선택한 시너지 유형에 따라 [county_modifier|E]를 얻고, 적은 양의 무작위 [development_growth|E]를 얻습니다." # 2fbc8fce7a5550b5b922c52f184ceeb69224ed9b
+	RICE_bozo_wangara_synergy_decision_effect_tooltip_3: "관련된 [character_modifier|E]를 얻습니다" # 903aea98a2e5daa23c2542fda51a82c44cb2c32f
+	#RICE_bozo_wangara_synergy_decision_effect_tooltip_4 "이 [결정|E]의 비용은 수도의 [법적|E] [공작령|E] 내에서 직접 소유한 [백작령|E]의 수와 그 [개발도|E] 수준에 따라 달라집니다." # 88a55146dada460a521f244410d4d89c796289fa
+	RICE_bozo_wangara_synergy_decision_confirm: "시너지 효과를 낼 시간입니다!" # 5a095b785cea4465733e3f40061a31ebbd79de95
+	RICE_bozo_wangara_synergy_decision_context_tooltip: "$RICE_bozo_establish_wangara_decision_context_tooltip$" # null
+	RICE_bozo_wangara_synergy_type: "왕가라와 협력하는 방법 선택" # d44d5911d50f6d3d6a079ee84f82d1f22e7ad83e
+	RICE_bozo_wangara_synergy_type_gui: "[왕가라|E]와 어떻게 협력할지 선택하십시오" # 35c252366cbcc77cf02fa21aa570459e02e713bd
+	RICE_bozo_wangara_synergy_political_option: "#V #Bold Political Synergy#!#!" # null
+	RICE_bozo_wangara_synergy_political_option_desc: "행정 및 관료제 개선" # 6440005eefac2512c3f2394731a48b97e29e1267
+	RICE_bozo_wangara_synergy_political_option_tooltip: "$EFFECT_LIST_BULLET$ #V 10#!년 동안 [GetModifier('RICE_bozo_wangara_political_synergy').GetNameWithTooltip] [character_modifier|E] 획득\n$EFFECT_LIST_BULLET$ [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetNameNoTier] 내에서 직접 소유한 모든 [county|E]에 #V 10#!년 동안 [GetModifier('RICE_bozo_wangara_political_synergy_county').GetNameWithTooltip] [character_modifier|E] 부여" # bfdd80a1b08e801bf3e6619d8438fe5a0aa9995e
+	RICE_bozo_wangara_synergy_commercial_option: "#V #Bold Commercial Synergy#!#!" # null
+	RICE_bozo_wangara_synergy_commercial_option_desc: "무역 성장 장려" # 4d8b39551e8e327863105d5ec13cb5a30b174a50
+	RICE_bozo_wangara_synergy_commercial_option_tooltip: "$EFFECT_LIST_BULLET#[GetModifier('RICE_bozo_wangara_commercial_synergy').GetNameWithTooltip] [character_modifier|E] 효과를 #V 10#!년 동안 받습니다.\n$EFFECT_LIST_BULLET$[GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetNameNoTier] 내에서 직접 소유한 모든 [county|E]에 #V 10#!년 동안 [GetModifier('RICE_bozo_wangara_commercial_synergy_county').GetNameWithTooltip] [character_modifier|E] 효과가 적용됩니다." # 2a55a55f699d966c24480b3d63ba6e02346d9ee3
+	RICE_bozo_wangara_synergy_cultural_option: "#V #Bold Cultural Synergy#!#!" # null
+	RICE_bozo_wangara_synergy_cultural_option_desc: "예술 및 학문 연구에 투자" # 4376ebfbf10fc2a1a2711a3712e750011ae2ac00
+	RICE_bozo_wangara_synergy_cultural_option_tooltip: "$EFFECT_LIST_BULLET$[GetModifier('RICE_bozo_wangara_cultural_synergy').GetNameWithTooltip] [character_modifier|E] 효과를 #V 10#!년 동안 얻습니다.\n$EFFECT_LIST_BULLET$ [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetNameNoTier]에 있는 당신이 직접 소유한 모든 [county|E]가 #V 10#!년 동안 [GetModifier('RICE_bozo_wangara_cultural_synergy_county').GetNameWithTooltip] [character_modifier|E] 효과를 얻습니다." # e6924c1181e01bd99c8f880d3305a35e6e2f6902
+	RICE_bozo_move_jenne: "제네 도시 재배치" # 0aaf1879a89dad331763dd73ebcc4f6374493cf7
+	RICE_bozo_move_jenne_tooltip: "제네를 새로운 위치로 이동시켜야 합니다." # 9819e3601fb66a4ea79364ef415e00a724eff1f0
+	RICE_bozo_move_jenne_desc: "제네는 고대 도시이지만, 제 자문관들은 제네가 위치한 지역의 상업적 잠재력을 활용하기 위해 그 도시를 인근 지역으로 이전하는 것이 유리할 수 있다고 권고했습니다." # 6868641089621a033c47fe6c7922a29dbb81c15c
+	RICE_bozo_move_jenne_desc_pagan: "제네는 고대 도시이지만, [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]께서는 그곳에 거주하는 악마 [ROOT.Char.GetFaith.DevilName] 때문에 현지인들이 많은 어려움을 겪고 있으므로 우리가 도시를 옮겨야 한다고 말씀하셨습니다. 하지만, 신탁에 따르면 새로운 부지에 도시를 재정착시키기 전에 처녀를 희생시켜야 한다고 합니다." # ebbcf71cb18bade759058cb8c48c3ea638df1145
+	RICE_bozo_move_jenne_effect_tooltip_1: "[GetTitleByKey('c_jenne').GetName]의 [rulers|E]와 인근 [counties|E]는 이제 [activity|E]를 통해 [GetActivityType( 'activity_RICE_bozo_tapama_djenepo_tomb' ).GetName]을(를) 수행할 수 있습니다." # 4c12f536fdd15e5575b133763673d70d47d61709
+	RICE_bozo_move_jenne_confirm: "대대적인 움직임의 시간입니다!" # 537a3f8ce395a7c8d07779169a193bad502a25b9
+	RICE_bozo_move_jenne_context_tooltip: "#emphasis Historical Context:#! Jenne-Jeno ("Old Jenne"), the original site of Jenne, was a major urban center in present-day Mali but was abandoned sometime in the medieval period. According to legend, this move happened when the Soninke migrated to the region; they tried to establish a town near the original site settled by the Bozo, but were met with various natural disasters. They were only able to found the city after an oracle told them to sacrifice a virgin girl by burying her alive in the city walls. The tomb of this girl, known as Tapama Djenepo (i.e. "Tapama, the Martyr of Djenne"), still stands in modern Jenne." # null
+	RICE_bozo_tapama_djenepo_decision: "타파마 제네포의 무덤 방문" # 6149475764a88f66fe540625f25151c5b9fd1b16
+	RICE_bozo_tapama_djenepo_decision_tooltip: "타파마 제네포의 희생을 잊어서는 안 됩니다." # 3cc6b74a04246561d5cf7941aba0a55750889e9c
+	RICE_bozo_tapama_djenepo_decision_desc: "제네의 전설에 따르면 현재의 도시는 타파마 제네포라는 처녀의 희생 덕분에 지을 수 있었다고 합니다. 그녀의 무덤에서 그녀를 숭배해야 합니다." # ae5e8357dc4acd2cd12e87b0b87b4cd195601cc0
+	RICE_bozo_tapama_djenepo_decision_confirm: "무덤으로 가자!" # d1472ffa7be39a2c67dd21ca6c509057dae90412
+	RICE_bozo_tapama_djenepo_decision_context_tooltip: "$RICE_bozo_move_jenne_context_tooltip$" # null
+	RICE_bozo_ghana_funeral_decision: "내 [ROOT.Char.Custom2('RelationToMe', ROOT.Var('RICE_ghana_burial_ancestor').Char)|U](을)를 아카시아 나무 돔에 묻어 주십시오" # 561416f93ed78dee8a1ed1aa0229cdadc1c3aa50
+	RICE_bozo_ghana_funeral_decision_tooltip: "조상을 안장하고 [신앙|E] 및 [봉신|E] [여론|E]을 얻으세요." # 59f0176610503b8c4577c0868c725e5d82c68ba3
+	RICE_bozo_ghana_funeral_decision_desc: "제 [ROOT.Var('RICE_ghana_burial_ancestor').Char.Custom2('RelationToMeAddress', ROOT.Char)]이신 [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetTitledFirstName]께서 돌아가셨습니다. [ROOT.Char.GetCulture.GetName]의 장례 전통에 따라 [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetSheHe]께서는 아카시아 나무로 된 거대한 돔에 묻히시고 인신 공양을 받으셔야 합니다." # a9158f02d77aacbac58bde74da43b99829330879
+	RICE_bozo_ghana_funeral_decision_confirm: "매장과 제물을 준비하십시오!" # 63b8ee283cd29995ef0f881324a773178f9014bc
+	RICE_bozo_ghana_funeral_decision_effect_tooltip_1: "이 [decision|E]은 당신의 친척이 사망한 후 최대 5년 동안 이용할 수 있습니다" # e1759e93d8d23ea4cbf66e8776ad0e5ca716ff7d
+	RICE_bozo_ghana_funeral_decision_effect_tooltip_2: "추가로 [gold_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_activity_cost')|0]#!를 더 소비하면 [courtier|E]를 희생하여 [piety_i|E] #P [GetPlayer.MakeScope.ScriptValue('major_piety_value')|0]#!를 추가로 얻을 수도 있습니다." # 2df62e81a0f1e673259243d5aa573860b78dcd4e
+	RICE_bozo_ghana_funeral_decision_context_tooltip: "#emphasis Historical Context:#! According to the Andalusian geographer and scholar al-Bakri (c. 1040-1094 CE), the pre-Islamic pagans of the Ghana Empire were idol worshippers who made offerings of intoxicating drinks to their ancestors, and traditionally buried their rulers in domes of wood. Following a sacrifice of people to accompany the king in the afterlife, dirt was piled on the dome until it resembled a hill." # null
+	RICE_ghana_burial_vassals: "적절한 [culture|E] 및 [faith|E]를 가진 모든 [vassal|E]" # 17ed50b496b09c64bec5537c1cdfc4a7d1dc8550
+	RICE_ghana_burial_vassals_bad: "비(非) 이교 [신앙|E]을 따르는 모든 [가신|E]" # fe22f83d99528067905a75d10f36588a62e6b0d2
+	# EVENTS 
+	bozo.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0001.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0001.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0002.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0002.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0002.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0003.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0003.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0003.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0004.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0004.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0004.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0005.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0005.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0005.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0006.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0006.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0006.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0007.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0007.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0007.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0008.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0008.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0008.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0009.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0009.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0009.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0010.t: "진흙 석공" # 77bc68585e07906b0010db2af66b5edc8d441263
+	bozo.0010.desc: "저의 영지에서 진흙 건축가 조합에 연락하여 그들이 참여했으면 하는 다양한 건축 프로젝트에 대해 알렸습니다. 신성한 지식의 수호자로서, 건축 작업 중에 그들이 수행하는 [ROOT.Char.GetFaith.GetAdjective] 의식은 또한 우리 건물을 축복하고 해를 입지 않도록 보호할 것입니다." # d6042199a9e1a73fedae19ce07af1efd2ca12177
+	bozo.0010.desc.culture: "저희 [ROOT.Char.GetCulture.GetCollectiveNoun]은 외부인들은 이해할 수 없는 진흙 건축에 대한 타고난 이해력을 지니고 있습니다. 저는 이 석공들이 대대로 전해 내려온 [ROOT.Char.GetCulture.GetNameNoTooltip]의 지혜를 활용할 수 있다고 확신합니다." # 3236ebe6536d488290ebe017d00ee74d2b1bf7be
+	bozo.0010.desc.castle: "어쨌든, 제 [castle_holdings|E]에서 석공들이 새로운 건물 건설 또는 기존 건물 유지에 집중하도록 하고 싶습니다. 성벽과 방어 시설이 강력해야 합니다!" # a917692b9afd4edadaac3623307f073a9fd21a05
+	bozo.0010.desc.city: "어쨌든, 나는 석공들이 내 [city_holdings|E]에서 새로운 건물을 건설하거나 기존 건물을 유지하는 데 집중하기를 바랍니다. 그들의 노고는 우리 정착지가 계속 번성하도록 할 것입니다." # 59599a54ceeb2dcd35e42d5de15d58c47fc82071
+	bozo.0010.desc.church: "어쨌든, 저는 석공들에게 제 [church_holdings|E]에서 새로운 건물을 짓거나 기존 건물을 유지하는 데 집중해달라고 지시했습니다. [ROOT.Char.GetFaith.HighGodName]께서 분명 기뻐하실 것입니다!" # 9c48368e22e7cd2c515978744ff3629da0e724ad
+	bozo.0010.desc.general: "어쨌든, 저는 석공들에게 제 다양한 [holdings|E]에서 새로운 건물을 건설하거나 기존 건물을 유지하는 데 집중하라고 지시했습니다. 제 영토 전체에서 해야 할 일이 많습니다." # c2c1357f206278fddf1e722c42eb041501e97127
+	bozo.0010.a: "그들의 노고는 우리 공동체에 필수적입니다." # 1931829879831933c04383e9131ead2ade245ee1
+	bozo.0011.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0011.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0011.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0012.t: "내 [ROOT.Char.Custom2('RelationToMe', ROOT.Var('RICE_ghana_burial_ancestor').Char)|U] 매장" # 0e8bb0137d2be7da2c127fd69438146703c7e37c
+	bozo.0012.desc: "[ROOT.Char.GetCulture.GetName]의 전통에 따라, 저는 [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetFirstName]님을 매장하기 위해 아카시아 나무로 만든 거대한 돔 건설을 지시했습니다. 구조물이 거의 완성되었으므로, 저는 장례식을 준비하고 있습니다.\n\n일반적으로 우리는 돔 안에서 [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetFirstNameNoTooltip]님과 함께 하인과 노예를 희생합니다. [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetFaith.PriestNeuterPlural]이 이번 행사를 위해 희생할 하인과 노예 목록을 제공했습니다." # ff257cd5b42c37240a31f24fc619e1d7fa8c9962
+	bozo.0012.desc.sacrifice: "하지만 [ROOT.Char.GetFaith.PriestNeuterPlural]은 그들의 지혜로, 희생될 수 있는 내 궁정의 몇몇 구성원들을 제안했습니다. 그러한 일은 [ROOT.Char.GetFaith.PantheonTerm]을 기쁘게 할 것이라고 주장합니다." # 5de667dcd99091a33473c7ec2a7c32266e13b432
+	bozo.0012.a: "[candidate_1.GetFirstName]은(는) [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetFirstNameNoTooltip]께 바칠 만한 가치 있는 제물이 될 것입니다." # f6478dcd3d679a0abe3b2f5d3b676fbd29c0fd6e
+	bozo.0012.b: "[candidate_2.GetFirstName]의 희생은 [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetFirstNameNoTooltip] 님을 기쁘게 할 것입니다." # 460be85543bfb6388d3823a7787b52c40907287d
+	bozo.0012.c: "[candidate_3.GetFirstName] 님을 [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetFirstNameNoTooltip] 님을 기리기 위해 희생시키십시오." # b2a55a6f09598c16cab8cf3c6da8e45de9d151b8
+	bozo.0012.d: "[ROOT.Var('RICE_ghana_burial_ancestor').Char.GetFirstNameNoTooltip]님을 위해 하인과 노예를 희생하는 것이 효과가 있기를 바랍니다!" # d7dd1aadceef4c412c75d0e9ddbf75c747ffdca2
+	bozo.0012.sacrifice_tooltip: "기본 [piety_i|E] #P [GetPlayer.MakeScope.ScriptValue('major_piety_value')|0]#! 대신 두 배를 얻습니다." # 62448984e8a1c83e7d6c3ceb1038aa1b12fe4125
+	bozo.0013.t: "$bozo.0012.t$" # 99001bc327b196b66d79ccd6cb9276e6ec09ff4f
+	bozo.0013.desc: "오늘은 [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetFirstNamePossessive]의 장례일입니다. 저와 제 모든 신하들은 우리가 세운 아카시아 나무 돔 안으로 [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetHerHis] 시신을 모시고 갑니다. 우리는 시신을 쿠션이 있는 침대에 놓고, 내세에서 [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetFirstNameNoTooltip]이 먹고 마실 수 있도록 많은 장식품, 무기, 도구를 주변에 놓습니다.\n\n그 후, 우리는 많은 노예와 하인을 무덤에 가두어 산 채로 희생시킵니다. 그런 다음 우리는 돔을 매트와 커튼으로 덮고, 무덤 위에 가능한 한 많은 흙을 덮어 참호로 둘러싸인 작은 언덕이 되게 합니다.\n\n이어서 우리는 희생자들을 바치고 발효된 음료를 [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetFirstNameNoTooltip]와 다른 조상들에게 바칩니다." # a60d077b028b597563df4d235cf5ab8be8677da2
+	bozo.0013.desc.sacrifice: "희생 제물 중에는 [sacrificial_victim.GetFirstName]가 있는데, 저와 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetFaith.PriestNeuterPlural]는 이번 행사에 적합한 인물이라고 생각했습니다." # 72d2c3c5274b0c69056da7da8911ba7e2c62912f
+	bozo.0013.a: "부디 편히 잠드소서, 사랑하는 [ROOT.Char.Custom2('RelationToMe', ROOT.Var('RICE_ghana_burial_ancestor').Char)]님." # 70ee31c2ef7b530520df3228806aac64c83f44f7
+	bozo.0014.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0015.t: "왕가라와 협력" # 5c447566456231614a985f763327dbf27543c1d8
+	bozo.0015.desc: "[GetGeographicalRegion('world_africa_west').GetName]의 상당 부분을 아우르는 왕가라 상인들은 오랫동안 우리 [ROOT.Char.GetCulture.GetName] 사회에 통합되어 지역의 다른 사람들과 우리를 연결해 왔습니다. 우리는 일상적으로, 특히 상업적인 문제에서 왕가라와 협력하는 데 익숙하지만, 저는 그들과 상호 이익이 되는 추가적인 협약을 위한 기회를 감지했습니다." # 58516ed7b443b2f1054e58b0a207281fba91b4e7
+	bozo.0015.desc.political: "왕가라 부족은 경영 및 서신에 뛰어난 능력을 지니고 있어 내게 큰 도움이 될 것입니다. 나는 이들을 내 행정부의 관리로 고용했으며, 이들의 네트워크를 활용하여 내 영토를 보다 효율적으로 통치하고 내 법의 집행을 보장할 것입니다." # f0903fbb3c964d8d17ccc9feea39fb8dedda987d
+	bozo.0015.desc.commercial: "물론 왕가라는 광범위한 교역망으로 이미 내 영토에 많은 부를 가져다준 것으로 가장 유명합니다. 협력하여 우리는 교역을 더욱 장려하여 #italic 더 많은#! 부를 이곳으로 가져올 수 있습니다." # 7c54070821bf1a04fca2166b6a145daa0e015297
+	bozo.0015.desc.cultural: "왕가라는 일반적으로 상당히 교육 수준이 높습니다. (결국 훌륭한 상인이 되려면 그래야 하죠.) 저는 지적 문제에서 그들의 도움을 구합니다. 법률, 언어, 그리고 모든 종류의 학문에 대한 그들의 지식은 제 왕국의 문화를 발전시킬 것입니다." # 0734fac58aa9153adec832cca6d51c1bff0ff55c
+	bozo.0015.a: "그들의 공헌에 깊이 감사드립니다." # ebb8f8123bc47626eed69e395c44e6038df642f5
+	bozo.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0020.t: "왕가라의 부흥" # da0e19c278c36fa2e14e6a8700ea3eff63be13b3
+	bozo.0020.desc: "오랜 세월 동안 #italic 왕가라#!로 알려진 만데어족 상인 집단이 서아프리카 금 무역에 대한 관여를 늘려 왔습니다. 특히, 그들은 말리 광산에서 나오는 금의 흐름을 통제하는 데 집중해 왔습니다.\n\n이 금에 대한 통제를 완전히 독점하기 위해, 그들은 이 광산 대부분을 다스리는 [wangara_founder.GetTitledFirstName]와 합의에 도달했습니다.\n\n#italic 왕가라#!가 금 무역에 대한 통달과 다른 사람들과의 거래에 많은 유연성을 제공하는 다양한 민족적 기원을 통해 이 지역에서 가장 영향력 있는 상인 복합체 중 하나가 되고 있다는 것은 부인할 수 없습니다. 이제 그들의 지도자들은 심지어 금 무역을 넘어 다양한 아프리카 민족 공동체 사이에 정착함으로써 정치적, 상업적, 문화적 네트워크를 확장하려고 모색하기 시작했습니다." # ae2fc98c394146871cfd2a6a5260ac150ecab1cd
+	bozo.0020.a: "우리는 큰 관심을 가지고 그들을 지켜볼 것입니다." # af3c145087223c130c246d1b7e6ea0ea5ff3f8e9
+	bozo.0020.tooltip: "[GetGeographicalRegion('world_africa_west').GetName]의 [cultures|E]는 이제 [culture_head|E] 또는 강력한 [ruler|E]가 $RICE_bozo_bring_in_wangara$ [decision|E]을 선택하면 $innovation_RICE_wangara$ [innovation|E]를 잠금 해제할 수 있습니다. 그 [innovation|E]은 다른 보너스와 함께 $RICE_bozo_wangara_synergy_decision$ [decision|E]을 잠금 해제합니다." # 49a5757eb0314bcb131aa53c50768b363b446ce2
+	bozo.0021.t: "왕가라가 [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]에게 온다." # b45bf32437e5dbb6c0ec9d8a8f5c11d1005fc468
+	bozo.0021.desc: "왕가라는 원래 말리의 금광을 장악했지만, 시간이 지나면서 아프리카의 다른 지역과 소금, 노예, 콜라 열매 등 다른 상품으로 사업을 확장한 만데어 상인 집단입니다.\n\n최근까지 왕가라 네트워크는 [ROOT.Char.GetCulture.GetName] 공동체와 제한적인 연결만 있었습니다. 저명한 [wangara_inviter.GetCulture.GetNameNoTooltip] [wangara_inviter.GetTitleAsNameNoTooltip]인 [wangara_inviter.GetFirstName] 덕분에 더 이상 그렇지 않습니다.\n\n[wangara_inviter.GetFirstNameNoTooltip]은 왕가라에게 연락하여 [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] 사이에 정착하도록 초대했습니다. 그렇게 함으로써 [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]은 [GetGeographicalRegion('world_africa_west').GetName] 전역에 걸쳐 왕가라의 기존 정치, 상업 및 문화 네트워크에 더 잘 통합될 것입니다." # c766836005a341305beb7c33710adda6bfe1f5ab
+	bozo.0021.a: "양측 모두 이득을 볼 것입니다!" # feab5896b750d8b1309980c0d81210de0ec4ffe6
+	bozo.0021.tooltip: "[왕가라|E]가 사회에 통합됨에 따라, [GetPlayer.GetCulture.GetName] [통치자|E]는 이제 $RICE_bozo_wangara_synergy_decision$ [결정|E]을 내릴 수 있습니다." # 6bd3ca9f79cb4bc594bb3f4c0a4c76fc942df557
+	bozo.0022.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0022.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0022.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0023.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0023.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0023.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0024.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0024.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0024.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0025.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0025.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0025.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0026.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0026.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0026.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0027.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0027.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0027.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0028.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0028.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0028.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0030.t: "희생" # 2d407dda8c48f53ba2c6a41dff96e4de56990581
+	bozo.0030.desc: "많은 사람들이 현재 [GetTitleByKey('c_jenne').GetNameNoTier]의 위치가 우리 조상 시대만큼 유리하지 않다고 믿습니다. 어떤 사람들은 사악한 [ROOT.Char.GetFaith.DevilName]이 일으킨다고 하는 잦은 홍수와 기타 자연재해를 걱정하고, 어떤 사람들은 그 위치가 무역에 적합하지 않다고 주장하며, 또 다른 사람들은 새로 이주해 온 이민자들이 정착할 더 나은 곳이 필요하다고 말합니다." # 675c117282b0c94ed7b8fe88da7f78b5c4c78cfe
+	bozo.0030.desc.pagan: "이전의 부지 이전 시도는 모두 [ROOT.Char.GetFaith.DevilNamePossessive]의 방해 때문인 것으로 알려져 실패했습니다. 도시의 신탁에서는 새 도시의 성벽에 젊은 처녀인 지역 유력자의 딸인 타파마 제네포를 생매장하여 희생해야만 [ROOT.Char.GetFaith.PantheonTerm]이 우리를 도울 것이라고 말합니다.\n\n용감한 타파마 제네포는 우리의 미래를 위해 기꺼이 죽겠다고 말하며, 자신의 죽음이 헛되지 않도록 열심히 일하고 화합과 형제애 속에서 살아가라고 촉구합니다." # 784d8adc16a2a2ba836308ee99c1b7f8f176fac6
+	bozo.0030.desc.non_pagan: "전설에 따르면, 아주 오래전, 이 도시는 재앙에 휩싸였습니다. 저명한 지역 유지의 딸인 젊은 처녀 타파마 제네포가 도시의 벽에 생매장되는 제물로 바쳐졌을 때에야 비로소 도시의 번영이 되돌아왔다고 합니다. 그 소녀는 자신의 백성을 위해 기꺼이 죽을 수 있어서 행복하게 용감히 운명을 받아들였습니다.\n\n흥미롭게도, 현지인들은 새로운 위치에서 그 소녀의 무덤을 발견했다고 주장합니다! 많은 사람들은 이것이 좋은 징조이며 타파마 제네포의 영혼이 새로운 장소를 보호할 것이라고 말합니다." # 9f6f4904be247049d66731ce2b88f27c4d69a2c2
+	bozo.0030.a: "타파마 즈네포의 희생에 감사드립니다." # c52a712f1f914447b94264182d3f7eb3fd0e8d81
+	bozo.0031.t: "[GetTitleByKey('c_jenne').GetNameNoTierNoTooltip] 위치 변경" # 4872e28f8bd537dd45caf0fcdfd1e583ce75b778
+	bozo.0031.desc: "[GetTitleByKey('c_jenne').GetNameNoTier] 정착지는 [GetGeographicalRegion('world_africa_west').GetName]에서 주요 도시 중심지로 수많은 세대 동안 자랑스럽게 서 있었습니다. 최근에 현지인들은 여러 가지 이유로 이전 위치가 부적절하다고 생각했으며, 도시의 통치자인 [jenne_mover.GetTitledFirstName]은 도시를 더 유리한 위치로 옮기는 것이 필요하다고 동의했습니다." # 30194e0fbc1341abc46ba4432611b61ca180663e
+	bozo.0031.desc.pagan: "하지만 이전의 도시 이전 시도는 실패했습니다. 도시의 [ROOT.Char.GetFaith.GetAdjective] 신탁은 현지인들에게 성공하려면 젊은 처녀인 타파마 제네포를 희생해야 한다고 지시했습니다. 그 소녀는 기꺼이 자신의 백성을 돕기 위해 죽었습니다." # 62bb1e0ce0f87ef2cf8442609d026c5e453ac2b2
+	bozo.0031.desc.non_pagan: "그들이 도시의 새로운 위치로 이주했을 때, 현지인들은 타파마 제네포라는 인물의 무덤을 발견했습니다. 전설에 따르면 그녀는 몇 년 전 재앙으로부터 도시를 구하기 위해 자발적으로 희생된 젊은 처녀였다고 합니다." # 547c11e3f90bc4b623080f31c3cb5681da7852ee
+	bozo.0031.desc.conclusion: "이주 덕분에 젠은 새로운 지리적 이점을 가진 곳에 자리 잡았으며, 교역이 활발해지고 백성들이 번성하고 있습니다. 타파마 제네포의 무덤은 이 고귀한 마음과 용감한 소녀에게 경의를 표하고 싶어 하는 지역 주민들 사이에서 숭배의 장소가 되었습니다." # e450606b6df9726f71c6fc6533241628be0ff2d4
+	bozo.0031.a: "제네 역사에 새로운 장이 시작됩니다." # 23a863c98c99f0471e482f835af3ea8adb942d51
+	bozo.0031.tooltip: "[rulers|E](이)나 그 주변에 [capital|E](이) 있는 [GetTitleByKey('c_jenne').GetNameNoTier]의 [GetActivityType('activity_RICE_bozo_tapama_djenepo_tomb').GetName](을)를 할 수 있습니다." # 91a23cbd6c7352dc5cfead4c3853eeb14cd93134
+	bozo.0032.t: "타파마 즈네포의 무덤" # ec8236aced920f95a2115dd0eb9e22cefd91520f
+	bozo.0032.desc: "전설적인 타파마 제네포의 무덤을 방문하기 위해 시간을 냈습니다. 그곳은 [GetTitleByKey('c_jenne').GetNameNoTier]에 있습니다. 그녀는 사악한 영혼의 계략에 맞서 신성한 도움을 얻기 위해 지역 예언자의 지시에 따라 도시의 중요한 순간에 희생되었습니다. 소녀는 자신의 희생이 앞으로 여러 세대에 걸쳐 도시의 번영을 보장할 것이라는 것을 알고 기꺼이 죽음을 받아들였습니다.\n\n요즘 지역 주민들은 종종 그녀가 도시 성벽 사이에 산 채로 묻혔다고 전해지는 그녀의 무덤을 찾아옵니다. 그곳에서 저는 그녀의 영혼이 도시를 지켜보고 있으리라는 희망을 품고 저에게 축복을 내려주기를 바라며 [ROOT.Char.GetFaith.GetAdjective] 기도를 드립니다." # c3eeb38f054a765c2709bf93c92cc8786f9285fa
+	bozo.0032.a: "그녀의 희생은 결코 잊히지 않을 것입니다." # d2c07499c5b39380b0b6fd200016bec27f2cf94f
+	bozo.0033.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0033.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0033.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0034.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0034.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0034.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0035.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0035.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0035.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0036.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0036.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0036.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0037.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0037.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0037.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0038.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0038.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0038.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0039.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0040.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0040.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0040.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0041.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0041.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0041.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0042.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0042.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0042.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0043.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0043.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0043.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0044.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0044.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0044.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0045.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0045.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0045.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0046.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0046.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0046.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0047.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0047.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0047.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0050.t: "진흙 석공" # 77bc68585e07906b0010db2af66b5edc8d441263
+	bozo.0050.desc: "제 거주지의 한 구조물이 최근 안정성이 크게 손상되어 수리가 시급합니다. 이 구조물은 전통적인 진흙 벽돌을 사용하여 일반적인 [ROOT.Char.GetCulture.GetName] 방식으로 지어졌습니다.\n\n어쨌든, 저는 수리를 위해 지역 진흙 석공 조합에 연락했습니다. 한 숙련된 석공이 그 지역을 검사한 후 기존 진흙 구조물을 보강하는 데 별 문제가 없을 것이라고 말했지만, 몇몇 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]과 상담한 결과, [ROOT.Char.GetFaith.DevilName]의 악의적인 힘이 여기에 존재함이 분명하다고 말합니다.\n\n수리가 시작되어야 하는 날, 같은 숙련된 석공은 동료 석공과 견습생 몇 명과 함께 다양한 주문과 기도를 하기 전에 구조물 옆에 여러 축복받은 유물을 묻습니다. 그 석공은 나중에 “축복은 진흙 벽돌만큼이나 중요합니다.”라고 말했습니다." # 1d4a8108f2e86f48d9696f3da1c645d57117f646
+	bozo.0050.a: "수고하셨습니다." # b5c421a9135d403776ff1c814245376a4a39ba85
+	bozo.0051.t: "진흙 건축가의 비밀" # 6bbad04f53c5dc412f1466e1970230744377875f
+	bozo.0051.desc: "진흙 건축가들은 [ROOT.Char.GetCulture.GetName] 사회에서 어디에나 있는 존재입니다. 그들은 우리가 매일 사용하는 많은 건물을 짓고 유지 관리합니다.\n\n오늘 길을 나서다 보니 지역 주민을 위해 큰 집을 짓고 있는 진흙 건축가들을 지나게 되었습니다. 나는 그들이 매일 축복 의식을 하는 모습을 한동안 관찰했습니다.\n\n나는 그들의 [ROOT.Char.GetFaith.GetAdjective] 암송과 기도 소리를 엿들으려 했지만, 어떤 명확한 단어도 알아들을 수 없었습니다. 슬프게도 진흙 건축가들은 비밀 지식을 철저히 보호하며 외부인에게는 절대 드러내지 않습니다. 심지어 일부 건축가들은 스승에게 배운 비밀을 다른 동료 건축가들에게도 숨긴다고 합니다!" # 53404d155dbff44c9ac56edaa5b057360311069b
+	bozo.0051.a: "그들의 비밀은 강력할 것이 틀림없어!" # 7fd85250667672191f4f1ce807f7975612c5b7e5
+	bozo.0051.b: "아마도 이 의식들은 다 겉치레일 뿐일 거예요." # b138916b0e380cf980ac76b5dd20fa393c0f9c90
+	bozo.0052.t: "진흙 벽돌 쌓기 계약" # 52b890c206147056e6c3f8607183fe9672b48f8c
+	bozo.0052.desc: "대부분의 [ROOT.Char.GetCulture.GetName] 가문은 많은 건물을 이루는 진흙 구조물을 정기적으로 유지 보수하는 책임이 있는 숙련된 진흙 건축가와 계약을 맺고 있습니다.\n\n안타깝게도, 저희 가문과 오랫동안 계약을 맺었던 숙련된 건축가가 최근에 사망했습니다. 전통적으로 계약은 숙련된 건축가에서 그의 도제(일반적으로 친척)에게 넘어갑니다.\n\n저는 사실 그전에 일하는 것을 관찰했기 때문에 새로운 숙련된 건축가를 잘 알고 있습니다. 저는 그의 능력에 큰 확신을 가지고 있으며, 그 또한 저희 가문의 건물을 유지하기 위해 열심히 일함으로써 친척의 유산을 계속 존중할 것이라고 확신합니다." # 85198d5c3a54e26fe18109a112f71f4ad2a929d5
+	bozo.0052.a: "물론 잘 할 수 있습니다." # da5f07a00163814f107ab9f93c45931e294e375b
+	bozo.0053.t: "진흙 건물 보호" # b6c931a26ade94c5c028211ae529d5de760d0b51
+	bozo.0053.desc: "제 거주 단지에 작은 구조물을 지어야 해서, [ROOT.Char.GetCulture.GetName] 석공 여러 명을 고용했습니다. 예상대로, 그들은 일을 시작하기 전에 여러 제물과 기도, 그 밖의 의식을 수행합니다.\n\n하지만 우두머리 석공은 이 장소에 자비로운 영혼으로부터 약간의 추가 보호가 필요하다고 말합니다. 괜찮다면 제가 곡물과 동물 뼈를 좀 구해야 합니다. 석공들이 미래 건물 모서리에 묻으려고 합니다." # 6b523f5ea628c11ce0081e7e67d00a3df4ee3a6e
+	bozo.0053.a: "이미 충분한 보호를 받고 있습니다." # fad608951497d4520fa36af982ed78370c17ca74
+	bozo.0053.b: "지나치게 조심해서 나쁠 건 없지." # 4f104b09010540f9d29ba319e78ef65e2ecca0cb
+	bozo.0053.c: "[ROOT.Char.GetFaith.GetReligion.GetAdjective] 이교도적인 행위는 용납할 수 없습니다!" # 584546c0d80f1f563f950f1d4162842456d88730
+	bozo.0054.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0054.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0054.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0055.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0055.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0055.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0056.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0056.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0056.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0057.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0057.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0057.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0058.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0058.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0058.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0059.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0059.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0059.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0060.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0060.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0060.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0061.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0061.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0061.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0062.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0062.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0062.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0063.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0063.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0063.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0064.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0064.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0064.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0065.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0065.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0065.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0066.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0066.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0066.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	bozo.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f

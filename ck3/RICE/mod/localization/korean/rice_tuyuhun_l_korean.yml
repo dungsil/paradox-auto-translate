@@ -1,0 +1,429 @@
+﻿l_korean:
+	# Misc 
+	k_tuyuhun_restored: "토욕혼" # 7ae4be688d349812801b930ae964b90d3b0b6158
+	k_tuyuhun_restored_adj: "토욕혼" # 7ae4be688d349812801b930ae964b90d3b0b6158
+	RICE_is_duke_or_king: "[공작|E] 또는 [왕|E] 계층입니다" # 8aae0ccb249a57a81a99b3d81c7e314192d3d46b
+	RICE_tuyuhun_restore_two_duchy_req: "귀하는 #V 악사이#!, #V 말호#!, #V 치린#!, 또는 #V 시닝#! 공작령 중 최소 2개 이상을 [completely_control|E]합니다." # c2f2974e010654b9cd925451686789d95751a0fa
+	activity_tuyuhun_nadun_festival: "나둔 축제" # 43706da8cf7aa45e221d300f20b1d89305208167
+	activity_tuyuhun_nadun_festival_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 나둔 축제 참석" # cec4b56f99d7a6c4c963585de9d77cca60ffeaef
+	RICE_send_qinghaicong_horses: "칭하이총 말 선물" # 25ab528abc6b1519b27365131d1d178fcf075f97
+	RICE_send_qinghaicong_horses_desc: "[qinghaicong_horses|E]를 선물로 보내십시오" # ad1add4d31c756bb365955339c00fa6206ac760d
+	RICE_tuyuhun_qinghaicong_horses_option: "칭하이총 말" # dc267cdc209c56cd538a14d12b866a0e228ac7fb
+	RICE_tuyuhun_qinghaicong_horses_option_desc: "이 천상의 군마들은 세상의 그 어떤 군마와도 다릅니다. 여행에 사용할 번호를 예약하면 제 시간에 목적지에 도착할 수 있을 뿐만 아니라 위엄과 침착함도 갖출 수 있습니다." # 09a4548fa7ef7f861a1b4bf5d761340a28032c47
+	RICE_tuyuhun_qinghaicong_horses_option_effect_1: "[남작령|E]에 들어갈 때마다 [GetPlayer.MakeScope.ScriptValue('RICE_tuyuhun_qinghaicong_option_bonus_chance')]%#! 확률로 [위신_i|E] #V 1#!에서 [위신_i|E] #V [EmptyScope.ScriptValue('RICE_tuyuhun_qinghaicong_option_max_value')|0]#! 사이의 위신을 얻을 수 있습니다. 이는 당신의 [외교력|E]과 [무력|E]에 따라 결정됩니다." # 697842780f19366fa81a05421878bdce1073990a
+	RICE_tuyuhun_qinghaicong_option.toast.success: "칭하이총 말이 현지인들에게 깊은 인상을 주고 있습니다!" # 96898b09dfd8ea9931a6c994b24d2caafce468c9
+	# Legends 
+	RICE_tuyuhun_legend_new_title_name: "투유훈의 부활" # 213c5ed9612a53a7219d6cedfff4537189518268
+	RICE_tuyuhun_legend_new_title_desc: "흩어져 있던 토욕혼은 위대한 지도자 [founder.GetTitledFirstName]의 후원 아래 재통합되었습니다." # 728e4ab5a9c80c059678a335b21f86bea1e25d9b
+	RICE_tuyuhun_legend_chapter_opening_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]이 태어나기 훨씬 전에, [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetNameNoTooltip]은(는) 큰 두려움과 존경을 받았습니다. 하지만, 당나라와 티베트 사이의 전투에서 장기말이 되었고, 결국 티베트 침략 이후 와해되었습니다." # 715bf0b130bc9263002737dab67ef4307200da9a
+	RICE_tuyuhun_legend_chapter_motivation_new_title: "[ROOT.Legend.GetProtagonist.GetHerHis] [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetNameNoTooltip] 선조들의 전설을 들으며, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은 일찍부터 옛 [ROOT.Legend.GetProperty( 'title' ).Title.GetNameNoTooltip]을 재건하는 것이 [ROOT.Legend.GetProtagonist.GetHerHis]의 운명임을 알았습니다." # e21c73d15c4941549ec99becc81d82dbf39c5ac2
+	RICE_tuyuhun_legend_chapter_famous_deed_new_title: "수많은 전투와 전쟁, 수많은 책략과 외교술을 통해 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은 마침내 원래 [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetCollectiveNounNoTooltip]의 후손들을 다시 모았습니다." # 81b20f77f25d224814c30be6a310fd9cf81b273e
+	RICE_tuyuhun_legend_chapter_extra_deed_new_title: "이 [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetCollectiveNounNoTooltip]의 후예들은, 그들이 얼마나 멀리 떨어져 있든 간에, 마음속 깊이 옛 왕국의 영광을 잘 기억하고 있었습니다. 그래서 그들은 새롭게 태어난 왕국의 귀환을 마음 놓고 환영했습니다." # b49c9b10ba01d89902bab6ab133be72d6ffab73f
+	RICE_tuyuhun_legend_chapter_conclusion_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은 이후로도 수많은 위대한 업적을 이루었지만, [ROOT.Legend.GetProtagonist.GetHerHis]의 가장 위대한 업적은 위대한 [ROOT.Legend.GetProperty( 'title' ).Title.GetNameNoTooltip]을 재건한 것이었습니다." # 119143226056a0607a143de87f3746100ed1bc4e
+	# Memories 
+	RICE_tuyuhun_nadun_festival_host_memory: "현지 [GetActivityType( 'activity_RICE_tuyuhun_nadun_festival' ).GetName]에 참석했습니다" # 8700d5459fa78c4e8971bd519526a80e4ff3d274
+	RICE_tuyuhun_nadun_festival_host_memory_first_perspective: "지역 [GetActivityType( 'activity_RICE_tuyuhun_nadun_festival' ).GetName]에 참석했습니다" # 71304997c7d4f0e3707306661d1f404b2dbf1bde
+	RICE_tuyuhun_nadun_festival_host_memory_second_perspective: "지역 [GetActivityType( 'activity_RICE_tuyuhun_nadun_festival' ).GetName]에 참석했습니다." # 1759883c1d4fc7f144f540ab0c94267da9f2794b
+	RICE_tuyuhun_nadun_festival_host_memory_third_perspective: "[owner.GetName]이 지역 [GetActivityType( 'activity_RICE_tuyuhun_nadun_festival' ).GetName]에 참석했습니다" # 90a191355f433dcdd3b24f1361bbc96af350cfab
+	RICE_tuyuhun_nadun_festival_guest_memory: "[host.GetTitledFirstName]과 함께 지역 [GetActivityType( 'activity_RICE_tuyuhun_nadun_festival' ).GetName]에 참석했습니다" # 18459071113d1b35de8ad14d46f913b6b2f89ff8
+	RICE_tuyuhun_nadun_festival_guest_memory_first_perspective: "저는 [host.GetTitledFirstName] 님과 함께 지역 [GetActivityType( 'activity_RICE_tuyuhun_nadun_festival' ).GetName]에 참석했습니다" # 190871ec723d98473e4d389439c6670a5b48825c
+	RICE_tuyuhun_nadun_festival_guest_memory_second_perspective: "[host.GetTitledFirstName]님과 함께 현지 [GetActivityType( 'activity_RICE_tuyuhun_nadun_festival' ).GetName]에 참석했습니다." # 3d0be12dbee49be2e222312a09f8c58e8dd33268
+	RICE_tuyuhun_nadun_festival_guest_memory_third_perspective: "[owner.GetName]이 [host.GetTitledFirstName]와 함께 지역 [GetActivityType(  'activity_RICE_tuyuhun_nadun_festival' ).GetName]에 참석했습니다." # 9e3eec02a6456629f749f40d3ccbf451f624263d
+	RICE_tuyuhun_restored_tuyuhun_kingdom_memory: "토욕혼 왕국을 복원했습니다" # fbf03f25199e4276545ef41df0e06e99b7b04708
+	RICE_tuyuhun_restored_tuyuhun_kingdom_memory_first_perspective: "토욕혼 왕국을 복원했습니다" # 521a64f689833a8ee819b15d43f579743bbfabce
+	RICE_tuyuhun_restored_tuyuhun_kingdom_memory_second_perspective: "투유훈 왕국을 재건했습니다" # fc5181e32d1303fcb8087f3d68b5378d7a2158b8
+	RICE_tuyuhun_restored_tuyuhun_kingdom_memory_third_perspective: "[owner.GetName] 님이 토욕혼 왕국을 재건했습니다" # e72a34999b24b9e9e00266e7218439ceb7a10e85
+	RICE_tuyuhun_gave_qinghaicong_horses_memory: "[recipient.GetName]에게 청해총 말을 선물했습니다" # 2343fb5e16b0f3cdd2c4e7c2c8b8822c86735d8f
+	RICE_tuyuhun_gave_qinghaicong_horses_memory_first_perspective: "[recipient.GetName]에게 청해마를 선물했습니다." # 4345b0543cdec16bb30016c2de64205b87c3a5cd
+	RICE_tuyuhun_gave_qinghaicong_horses_memory_second_perspective: "[recipient.GetName]에게 칭하이총 말을 선물했습니다" # f2b462835d785ebc4de4f516856b48b3ef4ad7d5
+	RICE_tuyuhun_gave_qinghaicong_horses_memory_third_perspective: "[owner.GetName]이(가) [recipient.GetName]에게 칭하이총 말을 선물했습니다" # 6cf04f8efd0e0cd87542e776b6f153753f6501a6
+	RICE_tuyuhun_received_qinghaicong_horses_memory: "[actor.GetName]에게서 칭하이총 말을 받았습니다" # 6f5e49288c62cd7012223bb65d8252875e2b508d
+	RICE_tuyuhun_received_qinghaicong_horses_memory_first_perspective: "[actor.GetName]에게서 청해총 말을 받았습니다" # f6a73e251fa41f1af6fe2468168c21f55488a313
+	RICE_tuyuhun_received_qinghaicong_horses_memory_second_perspective: "[actor.GetName]에게서 칭하이총 말을 받았습니다" # 286c20603457d6c7c9092071409d546757a7f4e2
+	RICE_tuyuhun_received_qinghaicong_horses_memory_third_perspective: "[소유주.이름]이 [행위자.이름]에게서 청해궁 말을 받았습니다." # 0ed63c5fd3ada2b0f04c36e8e150a3801ef429bd
+	# Activities 
+	activity_RICE_tuyuhun_nadun_festival_host_an_a: "$host_activity_a$" # null
+	activity_RICE_tuyuhun_nadun_festival: "나둔 축제" # 43706da8cf7aa45e221d300f20b1d89305208167
+	activity_RICE_tuyuhun_nadun_festival_desc: "매년 토욕혼 사람들은 나둔으로 수확을 기념합니다. 현지 마을에서 열리는 축제에 참석해야 합니다." # 33aa294d7abc06d4f41e77d69bab0aa56420ffcb
+	activity_RICE_tuyuhun_nadun_festival_selection_tooltip: "현지 나둔 축제에 참가합니다.\n\n$RICE_tuyuhun_attend_nadun_festival_context_tooltip$" # 6f7844a1ea98c81817bb71ece8b0fd1fe04ce71e
+	activity_RICE_tuyuhun_nadun_festival_host_desc: "$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 감소\n$BULLET_WITH_TAB$ [GetModifier('RICE_tuyuhun_recently_went_to_nadun_festival').GetNameWithTooltip] [character_modifier|E]" # c3a96520c910e0a5a9346d6e5ffeae110eea2cfd
+	activity_RICE_tuyuhun_nadun_festival_guest_desc: "\n$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$[stress_loss_i|E][stress|E] 감소" # 9886e2d6d086d78782d9ea1d8fc022a11641707c
+	activity_RICE_tuyuhun_nadun_festival_province_desc: 
+	activity_RICE_tuyuhun_nadun_festival_destination_selection: "$activity_RICE_tuyuhun_nadun_festival_province_desc$" # null
+	activity_RICE_tuyuhun_nadun_festival_guest_help_text: "$activity_RICE_tuyuhun_nadun_festival$" # null
+	activity_RICE_tuyuhun_nadun_festival_predicted_cost: "이 방문 비용은 주로 당신의 [income|E]에 따라 결정됩니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
+	activity_RICE_tuyuhun_nadun_festival_conclusion_desc: "올해의 [GetActivityType( 'activity_RICE_tuyuhun_nadun_festival' ).GetName]이(가) 끝났습니다. 올해의 풍년을 기념하기 좋았습니다!" # 088dfa90bf419940e60f152df7829034284446f3
+	RICE_tuyuhun_nadun_festival_festivity_phase: "축제" # 4488c63845d1736053175cd951af1162f3da0155
+	RICE_tuyuhun_nadun_festival_festivity_phase_desc: "우리는 [GetPlayer.GetFaith.HighGodName]께서 내려주신 풍요로운 수확을 기원하며 나둔을 축하하기 위해 모입니다." # 26d4831736f430bc4f8c8c6d15df3878389223de
+	RICE_tuyuhun_nadun_festival_joy_intent_header: "기쁨:" # b04fce60288a7fdedbd42f9ce238bece3b60c521
+	RICE_tuyuhun_nadun_festival_joy_intent: "기쁨" # c317214e790cb0581de3943ca2ca61b485d0061e
+	RICE_tuyuhun_nadun_festival_joy_intent_desc: "풍년을 축하하기 위해 올해의 나둔 축제에서 신나게 즐기려 합니다. [stress_loss_i|E]의 [stress|E]가 줄어들 것이 보장되며, [GetTrait('gregarious').GetName( GetNullCharacter )] 또는 [GetTrait('gluttonous').GetName( GetNullCharacter )] 특성이 있다면 더 많이 줄어듭니다." # 5293d734f29a57aab1f68fa5cf5a2da744c352f5
+	RICE_tuyuhun_nadun_festival_gratitude_intent_header: "감사:" # 2d48188bdc3ccaed6be7958e30a3034f2d842b09
+	RICE_tuyuhun_nadun_festival_gratitude_intent: "감사" # f8beaaa241fda050e1b3e0dddc0520ff1abf8331
+	RICE_tuyuhun_nadun_festival_gratitude_intent_desc: "당신은 또 한 번 성공적인 수확에 대해 [GetPlayer.GetFaith.PantheonTerm]에게 감사를 표하고 싶습니다. 당신은 [prestige_i|E] #V 100#! 및 [piety_i|E] #V 100#!을 얻을 것이며, 이는 나둔의 종료 시 일반적으로 얻는 것의 두 배입니다. 또한 [GetTrait('humble').GetName( GetNullCharacter )] 또는 [GetTrait('zealous').GetName( GetNullCharacter )]인 경우 [stress_loss_i|E] [stress|E]가 줄어듭니다." # cd14a51464e3fcb6e07eb913e119f68c7c87bab5
+	RICE_tuyuhun_nadun_festival_coordination_intent_header: "협동력:" # 5918bceef489561a10c48c204d8519976e294a34
+	RICE_tuyuhun_nadun_festival_coordination_intent: "조정" # ffb26168922fc47b246abeca2cddca84eb837c50
+	RICE_tuyuhun_nadun_festival_coordination_intent_desc: "세계에서 가장 긴 축제 중 하나인 나둔을 조직하기는 어렵지만 당신은 돕고 싶습니다. [activity|E]가 끝나면 일반적이고 덜 강력한 [character_modifier|E] 대신 [GetModifier('RICE_tuyuhun_assisted_organizing_nadun_festival').GetNameWithTooltip]을 얻게 됩니다. 만약 당신이 [GetTrait('lazy').GetName( GetNullCharacter )]라면, [stress_gain_i|E] [stress|E]를 얻을 것입니다." # 22e114b30fdc90b3874e61b4820b4d7aa9f8359d
+	RICE_tuyuhun_nadun_festival_completed_log_title: "나둔 축제 지역 행사에 참석 완료" # a007366c9ed361cafab27009735cd356ee9d910a
+	RICE_tuyuhun_nadun_festival_completed_log: "[CHARACTER.GetShortUIName|U] 님이 지역 나둔 축제 참석을 마쳤습니다" # b7af0a3f7507be98f755582fc8a4ef361d28fdff
+	TRAVEL_NAME_FOR_activity_RICE_tuyuhun_nadun_festival: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_tuyuhun_nadun_festival$" # 4982719efed544f6d097a405cbdbc017bcd2e6a2
+	# Game Concepts 
+	game_concept_qinghaicong_horse: "칭하이총 말" # d984f6fe15216d5bece9adc7f5d42429775043ad
+	game_concept_qinghaicong_horses: "칭하이총 말" # dc267cdc209c56cd538a14d12b866a0e228ac7fb
+	game_concept_qinghaicong_horses_desc: "청해호 주변 평원에서 유래하여 투유훈족이 유명하게 사육했던 명성 높은 $game_concept_qinghaicong_horses$는 게임 내에서 여러 가지 방법으로 표현됩니다.\n\n첫째, 복기와 거르겐 [counties|E]는 긍정적인 [county_modifiers|E]를 받습니다. 복기 및/또는 거르겐의 [rulers|E]는 또한 부수적인 긍정적인 [character_modifiers|E]를 받습니다.\n\n둘째, 복기 및/또는 거르겐의 [rulers|E]는 "청해공 말 선물"이라는 특별한 [character_interaction|E]에 접근할 수 있습니다. 이는 [send_gift|E] 상호작용과 유사하지만, 약간의 [prestige|E]와 [dynasty_prestige|E]도 제공합니다. 그러나 대상에게 다양한 군사적 보너스를 부여하는 [character_modifier|E]를 부여하기 때문에 주의하여 사용해야 합니다.\n\n마지막으로, 이러한 [rulers|E] (또는 [culture|E]가 $tradition_RICE_xianbei_scions_name$ [tradition|E]를 가지고 있는 [rulers|E])는 [GetTravelOption('RICE_tuyuhun_qinghaicong_horses_option').GetName] [travel_option|E]를 사용할 수 있습니다." # d4bb9619d34003d5e86cf839ecda8fa7e2d6c1f7
+	# Modifiers 
+	RICE_tuyuhun_qinghai_silk_road: "실크로드 청해로 개발" # bb2f13fb6966a46f6891dfba9b8cde349de8a69a
+	RICE_tuyuhun_qinghai_silk_road_desc: "이 지역에 투유훈이 다시 일어서면서, 청해 지방의 실크로드가 다시 번영하고 있습니다." # e3cb0f16e15b8f94e661f5428c7dfe6d80592181
+	RICE_tuyuhun_qinghaicong_horses: "칭하이총 말떼" # 8822b8087ea754cb215735f985e72f5adf1f71c9
+	RICE_tuyuhun_qinghaicong_horses_desc: "수 세기 동안, 칭하이호 지역에서 온 칭하총 말은 속도와 지구력으로 아시아 전역에서 명성을 떨쳤습니다.\n\n#italic #!" # 8fd0eb3de60ca95154db517099944d9f52cc9ab3
+	RICE_tuyuhun_qinghaicong_horses_expanded: "활기찬 칭하이총 말 무리" # bba354d1eb44ea166e606d6ce2f79082716116c7
+	RICE_tuyuhun_qinghaicong_horses_expanded_desc: "수 세기 동안, 칭하이 호수 지역에서 온 칭하이총 말은 아시아 전역에서 속도와 지구력으로 유명했습니다. 토욕혼 영주들의 자원 투자 덕분에 이 말떼는 그 어느 때보다 많아졌습니다." # c6a25565ec478b11f99ea4f78f417f8e6592b24e
+	RICE_tuyuhun_character_owns_qinghaicong_horses: "칭하이총 말떼" # 8822b8087ea754cb215735f985e72f5adf1f71c9
+	RICE_tuyuhun_character_owns_qinghaicong_horses_desc: "이 통치자는 칭하이 호수 주변 영토를 소유하고 있으며, 그곳에서 유명한 칭하이총 말이 수세기 동안 사육되어 왔습니다." # 54461556ae6fd17c3bf811cab93229c935f7e8d9
+	RICE_tuyuhun_character_gifted_qinghaicong_horses: "최근 하서총에서 선물받은 말" # b1d0fd96c4340fe2eea866e5437a8ce80a67269a
+	RICE_tuyuhun_recently_went_to_nadun_festival: "최근 나둔 축제에 참여했습니다" # e0684a41cee6ade9f2d4981fee6e80ed065e24d4
+	RICE_tuyuhun_opinion_qinghaicong_horses: "칭하이총 말을 선물함" # 286799b22118c5d59557a72933896a6650601a16
+	RICE_tuyuhun_skilled_translators: "숙련된 토욕혼 번역가" # a94776ff95384b7502cb25438b7c9f6f83ec5594
+	RICE_tuyuhun_skilled_translators_desc: "이 캐릭터는 투유혼 출신의 여러 번역가들을 고용하고 있으며, 이 번역가들은 상당한 명성을 얻었습니다. 역사적으로 다양한 민족과 문화가 자유롭게 혼합된 실크로드의 칭하이 루트를 장악했기 때문에 투유혼은 최고의 번역가로서 명성을 얻었습니다." # 1d8a15940e834a12a427d6c9189aa40d751bf815
+	RICE_tuyuhun_translator_school: "투유훈 번역학교" # 24e2a3a4467d6f20ca01689ebfdbc517b36d5114
+	RICE_tuyuhun_translator_school_desc: "투유혼 출신의 여러 통역관들이 이 지역에 정착하여 다음 세대 통역관들을 교육하고 있습니다. 다양한 실크로드의 칭하이 지역에 위치했던 옛 투유혼 왕국은 수년에 걸쳐 투유혼 통역관들이 뛰어난 언어 능력으로 명성을 얻었으며, 이들의 서비스를 받기 위해 지역 내 많은 외국 궁정에서 고용되었습니다." # 718ab2f53998c8726b7708f37539208ae75dd8f1
+	RICE_tuyuhun_brick_carvings: "토욕혼 벽돌 조각" # 0e84831d53f84ac44ed22315f0c33738ee320775
+	RICE_tuyuhun_brick_carvings_desc: "이 캐릭터의 거주지는 최근 투유혼 민족의 전통 양식으로 만들어진 벽돌 조각으로 개조되었습니다. 이 조각들은 강력한 용과 불사조부터 물고기와 새와 같은 소박한 동물, 그리고 꽃에 이르기까지 다양한 생물을 묘사합니다." # 305c3dec132603094a03dcca660d3b8dff1316d6
+	RICE_tuyuhun_assisted_organizing_nadun_festival: "나둔 조직 지원" # 34ea4ad175fecdba729805ae14558f75cd2c8056
+	RICE_tuyuhun_assisted_organizing_nadun_festival_desc: "이 인물은 최근 나둔 축제를 조직하는 데 지역 주민들을 돕는 데 크게 관여했습니다." # 2f2f9c9faa6a1f004e6f936e88f88794c7fa4364
+	# Decisions 
+	RICE_tuyuhun_restore_tuyuhun_kingdom: "토욕혼 왕국 복원" # 13e686a37b88b2cb5cc390206f712ac3e7bc43f4
+	RICE_tuyuhun_restore_tuyuhun_kingdom_tooltip: "당신은 칭하이 지역에 토욕혼 왕국을 재건할 것입니다." # 46072a9f61f51c6a510db7d90ef35ebe5d12f45c
+	RICE_tuyuhun_restore_tuyuhun_kingdom_desc: "투유훈 국가는 한때 청해 지역을 지배했는데 - 이제 내가 그들의 몰락에서 일어서게 할 기회가 온 것이다!" # 1c04d8bfaeaec26fd4ef8245740122f719932394
+	RICE_tuyuhun_restore_tuyuhun_kingdom_effect_tooltip_1: "투유훈 [kingdom|E]을(를) 획득했습니다" # 32c63b60ee83191699a6af1c1316694767bf7fcc
+	RICE_tuyuhun_restore_tuyuhun_kingdom_effect_tooltip_2: "해당 지역의 여러 [duchy|E] 작위가 토욕혼 [kingdom|E]의 [de_jure|E] 일부가 됩니다" # 4ea781e1d08f5bbc1bbe62d0350db8c14270bbbb
+	RICE_tuyuhun_restore_tuyuhun_kingdom_confirm: "토욕혼이 다시 일어설 것이다!" # 9455c78c35ddb3a7a5fafbe7111450366749b1f0
+	RICE_tuyuhun_restore_tuyuhun_kingdom_context_tooltip: "#emphasis Historical Context:#! The Tuyuhun kingdom was first established in the late 3rd century by a prince of the Xianbei people, whose name was Tuyuhun. It controlled a crucial route along the Silk Road in the Qinghai region and was famous for breeding the [qinghaicong_horses|E], but was conquered by the Tibetan Empire in the 7th century." # null
+	RICE_tuyuhun_attend_nadun_festival: "나둔 축제 참가" # fad6a4532bddbfe53c84155aa858755cf83b487e
+	RICE_tuyuhun_attend_nadun_festival_tooltip: "지역 나둔 축제에 참여할 것입니다." # 9ac9fefdabf267ba5f05cf8cc8216412a219589e
+	RICE_tuyuhun_attend_nadun_festival_desc: "매년 토욕혼 사람들은 나둔으로 수확을 기념합니다. 현지 마을에서 열리는 축제에 참석해야 합니다." # 33aa294d7abc06d4f41e77d69bab0aa56420ffcb
+	RICE_tuyuhun_attend_nadun_festival_effect_tooltip: "나둔 축제에 참석합니다" # 3ebd848e12733df0ecb1c9ef0b945456eb4bb3de
+	RICE_tuyuhun_attend_nadun_festival_confirm: "기대되네요!" # a3b8e169379cf7f4e911b32e8cf8aa2c759a143b
+	RICE_tuyuhun_attend_nadun_festival_context_tooltip: "#emphasis Historical Context:#! The Nadun is the traditional harvest festival of the Tu or Monguor people, who are considered to be descendants (in part if not in full) of the Tuyuhun. It is related to the Mongolian Nadam festival, but differs in a number of respects." # null
+	RICE_decision_tuyuhun_nadun_month_requirement: "월은 7월에서 10월 사이여야 합니다." # 5c27b162625a5b679de0abaabaf5135741512cac
+	# Events 
+	tuyuhun.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0001.t: "토욕혼 왕국 복원" # 90f855e91929255f2ab7877e3ff71ac25d4dc2f0
+	tuyuhun.0001.desc: "오래전, 선비족이 중국의 비옥한 평야로 남하했을 때, 그들 중 일부는 모용토욕혼의 지도 아래 토착 부족들을 정복한 후 칭하이 호수의 풍요로운 목초지 주변에 정착했습니다. 이 유목민들은 우리 민족인 토욕혼의 핵심을 형성했습니다. 우리의 통치 아래 이 지역은 실크로드의 수익성 있는 부분을 장악하면서 번영했습니다. 아아, 이 왕국은 당나라와 티베트 사이의 대전쟁 중에 무너졌습니다.\n\n그러나 시대는 다시 한번 변하고 있습니다. 저의 지도 아래, 저는 한때 우리 토욕혼 조상들이 통치했던 칭하이 호수 주변의 넓은 지역을 재통일했습니다. 많은 지역 족장들이 저에게 충성을 맹세했으며, 토욕혼 사람들의 힘은 날마다 커지고 있습니다. 다시 한번, 우리는 무시할 수 없는 세력이 될 것입니다! 만약 모용토욕혼이 이것을 보러 이곳에 있었다면 분명히 저를 자랑스러워했을 것입니다." # 7249643e88cdce4dc44531cd1b56c7e6f88c62fc
+	tuyuhun.0001.a: "이것은 토욕혼 사람들에게 새로운 시작입니다!" # d05d70e84dec4cc89ad7c5f6899f7e633076701e
+	tuyuhun.0002.t: "토욕혼 왕국 복원" # 90f855e91929255f2ab7877e3ff71ac25d4dc2f0
+	tuyuhun.0002.desc: "오래전, 유목민인 선비족 전사들이 남쪽으로 이주하여 중국의 비옥한 평야로 들어갔을 때, 그들의 한 갈래는 칭하이 호수 주변의 풍요로운 목초지에 정착하여 현지 부족들을 정복했습니다. 그들은 건국 왕자의 이름을 따 투유혼이라고 불렀습니다. 여러 세대에 걸쳐 투유혼 왕국은 실크로드의 이 유리한 지역을 통제했지만, 결국 당나라 중국과 티베트 사이의 대전쟁 중에 붕괴되었고, 생존자들은 바람에 흩날리는 나뭇잎처럼 흩어졌습니다.\n\n이제, [tuyuhun_ruler.GetTitledFirstName] 덕분에 투유혼은 다시 한번 세력을 키우고 있습니다. 칭하이 지역의 상당 부분을 정복한 [tuyuhun_ruler.GetSheHe]는 투유혼 왕국을 제자리로 되돌렸습니다." # 01505bec5614273556211d613f471ab0e5072548
+	tuyuhun.0002.a: "토욕혼 왕국은 이번에는 살아남을 수 있을까요?" # c9af761c4c0491bdae18b7f33c5504415346c5fc
+	tuyuhun.0003.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0003.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0003.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0004.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0004.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0004.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0005.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0005.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0005.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0006.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0006.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0006.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0007.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0007.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0007.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0008.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0008.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0008.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0009.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0009.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0009.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0010.t: "칭하이콩 말 발송" # f2de078b96e8414a4c58c479478cada742189f67
+	tuyuhun.0010.desc: "[recipient.GetTitledFirstName]에게 칭하이 호수에서 칭하이총 말 여러 마리를 보냈습니다. [recipient.GetSheHe]께서 이 호의를 알아주시고 저를 더 좋게 생각하시기를 바라며, 이것이 저희 사이의 관계 개선에 도움이 되기를 바랄 뿐입니다." # ded861d2321f73396fa80f34051bc63f1edee257
+	tuyuhun.0010.a: "확실합니다." # 782b7c9847e0877ea7c75aff53f3af80bb937e06
+	tuyuhun.0011.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]" # b535f9470a86cd812a65daad64bf1427aeb0949e
+	tuyuhun.0011.desc: "청해호 주변 목초지에서 온 청해마를 선물로 드립니다. 이 말들은 예로부터 그 속도와 지구력으로 유명했으며, 여러분과 여러분의 용사들에게 충실히 봉사할 것입니다. 이 작은 선물을 받으시어 우리 두 나라 사이의 영원한 평화를 기원하는 마음을 담았습니다." # 3cdeff7da9bf91a1c93ff0ebb5662f802b646c7c
+	tuyuhun.0011.a: "정말 훌륭하군! 이 말들은 우리에게 큰 도움이 될 것이다." # 42caa5629b265ffd52d90e03b0164e81c4cd9739
+	tuyuhun.0012.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0012.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0012.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0013.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0013.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0013.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0014.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0020.t: "나둔" # 0c7eeffaf08646d979816d565f75d44ac6b82787
+	tuyuhun.0020.desc: "올해 난둔 축제에 참가하기로 했습니다. 투유혼 또는 투족의 추수 축제인데, 분명 아주 재미있을 겁니다! 전통적으로 약 2개월 동안 진행되며, 이 지역의 여러 마을과 씨족 간의 협력이 필요합니다." # d0498924aa9c8bef6b2172d975124e15c5e044c7
+	tuyuhun.0020.a: "기대되네요." # b22b0a08d6fdf344facd488ec31e297b6c542f05
+	tuyuhun.0021.t: "나둔 시작!" # 4dadb1812422e0afbc35c14aeecd2cc0e29ae62c
+	tuyuhun.0021.desc: "나둔 축제가 시작됩니다! 올해의 나둔이 열리는 마을에 수행원들과 함께 도착했습니다. 다양한 천상의 존재들이 편안하게 이동하고 머무를 수 있도록 가마와 천막이 설치되었습니다. 제물이 차려졌고, 다른 마을의 남자들이 개최 마을의 밭으로 행진하기 시작합니다. 길조의 말과 축복이 적힌 다채로운 깃발과 활기찬 북과 징을 들고 이 남자들은 나둔 축제의 시작을 알리는 시끄러운 소리와 음악을 만들어냅니다." # 88bbc1b5b3ccdbb975d5d543392a4f591194e7f0
+	tuyuhun.0021.a: "훌륭합니다!" # e65e8c7504556ee02b6a61f9d5ac9e68fb921ced
+	tuyuhun.0022.t: "나둔 종결" # ef21fa87efad06dd06788f031c8735a9606b51ef
+	tuyuhun.0022.desc: "마침내 나둔 축제가 막을 내렸습니다. 저는 현지인들과 함께 즐거운 시간을 보냈고, 앞으로 또 다른 축제에 참여할 수 있기를 바랍니다." # 47c6a849aa4f7bc24fa44882d720fb3e56367272
+	tuyuhun.0022.a: "다음 시간까지." # 4bfadc36b58cc19b2932f34d9a44985c6b092f09
+	tuyuhun.0023.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0023.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0023.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0024.t: "좋은 소식 공유" # fd9277ca52b3ee9ef8fdcd41b98018c1d4133120
+	tuyuhun.0024.desc: "나둔 축제의 일환으로, 최근에 일어난 행운과 기쁨에 대해 모든 사람, 심지어 하늘에 있는 사람들까지 알 수 있도록 북소리에 맞춰 좋은 소식을 노래합니다." # ea4797223a92309e41efa37ca7a998a966431c83
+	tuyuhun.0024.a: "저 또한 제 가족의 좋은 소식을 모든 사람들과 함께 나눕니다!" # a5c3de67427964b1b526033ea7e426083d6082fa
+	tuyuhun.0024.b: "저는 다른 사람들이 먼저 말하는 것을 관찰하고 듣습니다." # 4a74f2931dae79e134fa65c060fb4d259f305470
+	tuyuhun.0025.t: "천국의 영광" # 4946f4652867bf41caee5c81fe40d0413f8e41ee
+	tuyuhun.0025.desc: "나둔 기간 동안 많은 춤이 공연됩니다. 오늘, 하늘을 기리는 춤이 공연되었습니다. 하늘에 있는 자들에게 내려와 흥겨움에 동참하라는 초대입니다." # bfe3cfe2edaf64638b2eef37272afed27a47ef02
+	tuyuhun.0025.a: "좋습니다." # bdc919c5862d2a39b57ca176d3abadd999201cf1
+	tuyuhun.0026.t: "수판 케이크" # ffcd6377488e8332b5d912349b9acc23dc26759d
+	tuyuhun.0026.desc: "나둔 직전에 신들에게 바치는 제물로 수판이라는 특별한 제사 빵을 준비했습니다. 이제 나둔이 완전히 진행 중이고 천상의 존재들이 (추정상) 내려왔으니, 우리도 이 빵을 즐길 수 있습니다." # c4a8020846f56b7989c24b693e65fff0eaf3b8ea
+	tuyuhun.0026.a: "많이 먹을 거야! 이거 정말 맛있다!" # f18dfc4adb46d7bd76c4458b1b2e21b994f006a8
+	tuyuhun.0026.b: "나는 과식을 자제할 것이다." # 01cb431af242be67b03f8166bd5e9f7c2ddeddfe
+	tuyuhun.0027.t: "건배" # e9aaafffba38fe01b759be33ff01f1e36cd4c9a4
+	tuyuhun.0027.desc: "나둔 기간 동안, 큰 그릇으로 주요 춤에 참여한 사람들을 축하하는 풍습이 있습니다. 오늘, 춤 중 하나에서 모든 사람이 춤추는 사람들을 축하하고 있으며, 분위기는 활기차고 즐겁습니다." # 7c3aa93eb606ea8fb8f2b02c5985c439e77a0c9c
+	tuyuhun.0027.a: "나는 뒤에 남아서 지켜보겠다." # 61ac6a471aed86b79ba007e60fbbebd9f158262f
+	tuyuhun.0027.b: "저도 그들에게 건배하겠소!" # 1533efde7ef67ca6332ac02049d13be37f44a71d
+	tuyuhun.0028.t: "농부의 이야기" # 097077d44ee18e05ba0a48dec32d6fbaa557f174
+	tuyuhun.0028.desc: "연극 공연은 나둔에서 항상 중요한 역할을 해 왔습니다. 가장 인기 있는 것은 농사짓는 가족의 고군분투를 상세히 묘사한 이야기 공연입니다. 마지막에 농부의 아들은 농부로서의 자신의 위치를 받아들이며, 대대로 농사를 짓는 것이 얼마나 중요한지를 보여줍니다." # 80b83429446c37339b6a2a4183ded69bdf3600f3
+	tuyuhun.0028.a: "결국, 음식이 없다면 우리가 어디에 있겠습니까?" # c0fcc8ad00e1d95b2f4dc6a6d4ae4e3aafef9238
+	tuyuhun.0029.t: "삼국지 연의" # afb016ba5e8a8febdfe52f41888cc0b5e639d8e1
+	tuyuhun.0029.desc: "투유훈족은 한족은 아니지만, 중국 이웃에게서 약간의 영향을 받았고, 나둔 축제 기간 동안 중국 전설을 연극 공연하는 것이 일반적입니다. 가장 인기 있는 이야기는 중국 역사 삼국시대의 이야기로, 힘, 지능, 카리스마로 세계의 운명을 결정하기 위해 싸운 실제보다 더 큰 영웅과 악당이 있었던 내전 시대입니다. 이러한 극적인 이야기가 펼쳐지는 것을 보면서, 이 영웅과 악당 중 누가 가장 흥미로운가요?" # 1ff56dd2ac8143ede3d8ed06913523d11363e292
+	tuyuhun.0029.a: "자비로운 유비와 그의 굳건한 촉나라" # 9f3ea852919865cfcb2547862887d3a4d978758c
+	tuyuhun.0029.b: "야심만만한 조조와 번성한 위 왕국" # 0407f4c539b98b35990cb4914ec1d9187191d5b7
+	tuyuhun.0029.c: "근면한 손권과 그의 용맹한 오나라" # cb2004bf918b77832cc7322404f308fe13802de5
+	tuyuhun.0029.d: "승리한 후손들이 진나라를 세운 교활한 사마의" # 5b21b97275b913c8b5c04dcfdf45205a20c75062
+	tuyuhun.0029.e: "무적의 공포를 지닌 전사, 맹렬한 여포" # 5bb25384d50983e11b4579e0c630de30fa74e94b
+	tuyuhun.0030.t: "방문할 것인가 말 것인가" # 29bc22c3259f3bdbd2133a129a72e39ff50a15c7
+	tuyuhun.0030.desc: "나둔은 사람들이 다른 사람들을 방문하고 그 해 동안 얻은 지식과 경험을 공유하는 중요한 시기입니다. 호스트 마을에는 내가 방문할 수 있는 여러 지인들이 있는데, 그들과 함께 시간을 보내볼까요?" # f70a65d1a66e9a35024458b4350b316684132096
+	tuyuhun.0030.a: "아니요, 저는 지금 축제를 즐기고 있습니다!" # bab015c06c090b6cf96ce79b77e7b38a39ceab4c
+	tuyuhun.0030.b: "네, 좋은 생각 같습니다." # a2afdb0ba41c307181f6785a8208b09d117e323d
+	tuyuhun.0030.c: "새로운 친구들을 만나고 싶어요!" # 39d5b2ac828ccdc96b82e9bbfd158169cb25f436
+	tuyuhun.0031.t: "농민의 식량" # b867d577e862316b48e308de70f27167fe26480f
+	tuyuhun.0031.desc: "나둔 축제 기간 동안 마을의 고위급 손님이기에, 연회 식탁에서 높은 자리를 제안받고 이 농민들이 마련할 수 있는 최고의 음식을 제공받습니다. 버터를 넣은 소고기 국수, 우유를 넣은 차, 튀긴 빵과 같이 소박하고 든든한 음식입니다." # c1798ece60733888d27f32c774e65419fdb75fa9
+	tuyuhun.0031.a: "감사합니다! 소박한 음식도 나름의 매력이 있습니다." # 1525aceb371b871b2fa6eb37bbf729bd2e0033ae
+	tuyuhun.0031.b: "집에서 더 잘 먹지만, 괜찮아." # dab7a10d059acbb503e12e845befb73b7df1b23b
+	tuyuhun.0031.c: "이 음식은 매우 밍밍하고 맛이 없다." # 70a4da361148475eadce8d75f393beb55549ea4f
+	tuyuhun.0032.t: "전통 노래" # f2eb00ada04c694512f80edb24d4098eb17135c5
+	tuyuhun.0032.desc: "나둔에서는 춤 외에도 많은 전통 노래가 많이 불려집니다. 주변의 모든 선율을 듣는 것은 정말 멋집니다!" # ebd8e06669c03e8c16a399dfa6aec7966dc1e4c8
+	tuyuhun.0032.a: "영혼의 기쁨." # 02f1f01ea372c15d30e4cb661b3c7c3a1bfaaad3
+	tuyuhun.0033.t: "사랑이 꽃피다" # 1e06ed1b8d408a88a1cefcce8b2ea0e4d5269382
+	tuyuhun.0033.desc: "젊은이들에게 나둔은 사랑이 싹트는 시기로, 즐거운 축제와 교류의 시간이기 때문입니다. 저는 마을의 많은 젊은 남녀가 어색하지만 확실하게 사랑을 향한 첫걸음을 내딛는 것을 보았습니다. 그리고 어쩌면, 부모님의 뜻이 있다면, 언젠가 결혼까지 이어질지도 모릅니다." # 6466193e6ad6ed0434439f69a5b23dc38f9e887e
+	tuyuhun.0033.a: "아, 젊은 사랑이여! 정말 보기 좋군요." # 203665963b674799df9f8d262eb57ce5a57aa0ba
+	tuyuhun.0033.b: "흥, 시간이 지나면 그들도 씁쓸하고 지치겠지." # c475af6310de040eed84de9ff11b23917feb834d
+	tuyuhun.0034.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0034.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0034.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0035.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0035.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0035.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0036.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0036.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0036.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0037.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0037.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0037.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0038.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0038.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0038.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0039.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0040.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0040.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0040.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0041.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0041.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0041.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0042.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0042.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0042.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0043.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0043.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0043.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0044.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0044.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0044.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0045.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0045.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0045.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0046.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0046.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0046.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0047.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0047.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0047.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0050.t: "황금 옥좌" # 4f72cfe978797faebae67dfd52ccadc709ef4aa6
+	tuyuhun.0050.desc: "수 세기 동안, 토욕혼 통치자는 사자 모양 조각이 새겨진 황금 왕좌를 소유하는 것이 관례였습니다. 제 궁정에는 이러한 전통을 이어가는 것이 제가 내뿜는 위엄을 강화하고 제 궁정을 방문하는 모든 사람에게 존경과 감탄을 불러일으킬 것이라고 말하는 사람들이 있습니다. 이 지역에는 그러한 프로젝트에 자신의 노력을 쏟아붓고 싶어하는 장인들이 몇 명 있습니다." # 2d9cacacccb13eaf48cabe769e1034a2fc5d18e1
+	tuyuhun.0050.a: "황금 왕좌가 필요하오. 즉시 제작을 의뢰하시오." # f4a594d5d6c10b715aeabc0360c793a78ae09ca5
+	tuyuhun.0050.b: "허영심이란! 나의 존재와 업적만으로 충분하다." # b87330016592dc6804ad1c8ad915130c206ac64d
+	tuyuhun.0051.t: "칭하이총 말" # dc267cdc209c56cd538a14d12b866a0e228ac7fb
+	tuyuhun.0051.desc: "멀리서 온 사절이 방문했습니다. 저는 그에게 제 마구간을 보여주기로 했습니다.\n\n우리 투유훈족은 시조 무용토욕혼의 시대부터 중국인들이 "용의 후손"이라고 부르는 유명한 청해총 말을 사육하는 능력으로 명성을 얻었습니다. 이 말들처럼 짧은 시간 안에 먼 거리를 이동할 수 있는 말은 거의 없으며, 사절은 이 장엄한 말들을 보며 감탄으로 눈을 빛냈습니다.\n\n"당신과 당신의 백성들은 이 말들을 자랑스러워해야 합니다."라고 그는 탁 트인 들판에서 이 말들을 관찰하면서 분명히 감탄하며 제게 말합니다." # c74c6d01d11583a3b59a12488d757fb0871bb646
+	tuyuhun.0051.a: "결국 그것은 하늘의 축복일 뿐입니다." # 0bbe9d2789fcfa4677179e766026d7513326e020
+	tuyuhun.0051.b: "그렇기에 우리는 번영하는 민족으로 존속할 것입니다." # 6d9fec485f56abc279269c952f5afa47e6ebd3b3
+	tuyuhun.0052.t: "위대한 번역가들" # cc89f5f131578931ff76c752ddb26ffaf15d26a1
+	tuyuhun.0052.desc: "수 세기 전, 토욕혼은 번역가로서 뛰어난 기술로 명성이 높았으며, 북조와 남조의 일시적인 중국 통치자부터 중앙아시아의 에프탈 전쟁 지도자까지 이 지역의 다양한 국가들을 위한 중개자 역할을 자주 했습니다. 시대는 변했지만 우리 민족 중 일부는 여전히 이러한 중요한 언어적 전통을 고수하고 있습니다. 제가 고용한 번역가들은 이러한 전통을 이어가고 있으며, 그들의 기술은 상당수의 외국 방문객들로부터 인정받은 것 같습니다." # a4ac6b1ebd803de23fae4803f22fbb4345520527
+	tuyuhun.0052.a: "I am glad my translators are more than sufficient!" # 37413f110c186a2f20e3d52f0274f2861d73f163
+	tuyuhun.0052.b: "미래의 번역가를 교육하기 위해 정리해야 합니다." # fe8c7b63f42efa96999259611594f79fb9b88f15
+	tuyuhun.0053.t: "춤추는 말" # c2497ffeedc0fe8192128115c3be7e1973a527c9
+	tuyuhun.0053.desc: "토욕혼의 유명한 말들은 전쟁뿐만 아니라 오락을 위해서도 사육되었습니다. 오늘, 여러 저명한 손님들이 멀리서 저를 방문하고 있으며, 작은 환영 피크닉 동안, 저는 소위 춤추는 말들로 그들을 즐겁게 하고 있습니다. 중국에서도 이 말들은 수세기 동안 높은 수요가 있었으며, 그 이유가 분명합니다. 손님들은 말들이 초원에서 그들의 신체적 능력을 과시하는 것을 목격하면서 경외감을 느끼고 있습니다." # 73e8c9a3f83db5067ca7bebb1628d812bd5a62cd
+	tuyuhun.0053.a: "정말 장관이지 않았습니까?" # 04e1376c7ce94771bfe59e3fa954789669b7c960
+	tuyuhun.0054.t: "보리 맥주" # 945a05aca306190c4c74d84932c4b2cb91aedf54
+	tuyuhun.0054.desc: "지인의 집을 방문하자, 그는 투유혼 식사의 전형적인 여러 음식으로 이루어진 푸짐한 만찬을 제공합니다. 여기에는 절인 양배추, 버터 국수, 삶은 돼지고기와 양고기 등이 포함됩니다. 투유혼 문화에서는 손님이 행운을 가져온다고 하니, 손님을 잘 대접하면 그 행운이 더욱 커질 것입니다. 맛있는 음식을 먹고 있는 와중에, 그는 또한 전통적인 수제 투유혼 보리 와인을 제공합니다." # 96b7555aae19d1b9f98b8941bbf16ed13b6ee472
+	tuyuhun.0054.a: "고맙습니다! 건배합시다!" # e3c678c26c17e1b86d372d3167b2f0a1228c3c47
+	tuyuhun.0054.b: "오늘은 술을 마시지 않겠습니다." # 1cf3f11a1fd2ac833d618f7d095b095c1e8f48e3
+	tuyuhun.0055.t: "가축 계산" # 5e3a87d246b41e231e3014caf2066afe46a34d2d
+	tuyuhun.0055.desc: "내가 친구를 방문했는데, 그가 상당히 많은 가축들을 기르고 있었습니다. 주로 유명한 투유훈 말들과 몇몇 야크와 양이었습니다. 꽤 많은 수였기에, 본능적으로 그가 얼마나 많은 가축을 기르고 있는지 소리 내어 세기 시작했습니다. 그러나 곧 내 수하의 한 경비병이 나에게 세는 것을 그만두라고 말했습니다. 투유훈 사람들 사이에는 다른 사람의 가축 수를 세는 것이 그들에게 불운을 가져다줄 것이라는 미신이 있기 때문입니다." # a90086fc4f24b38fe1460810b97097871bb49996
+	tuyuhun.0055.a: "아, 거의 잊을 뻔했네! 상기시켜줘서 고마워." # 05d70d9787a8d8ce6cfc44ffea4b79e9d7f42c38
+	tuyuhun.0055.b: "불운이라니요? 어차피 저는 이 사람을 좋아하지 않았어요." # 996e484e46b85e0ac85c7846fa2a01f18f15a192
+	tuyuhun.0056.t: "벽돌 조각" # adcd77a0f81b61f5cca8689754e87f6e344875e2
+	tuyuhun.0056.desc: "벽돌 조각은 토욕혼족의 전통 예술이며, 우리가 처음 칭하이 지역의 언덕에 정착했을 때 습득한 것입니다. 오늘, 재능 있는 벽돌 조각가가 내 궁정에 자신의 서비스를 제공했습니다. 그는 용, 봉황, 새, 물고기, 꽃 등 다양한 생물을 아름답게 묘사한 새로운 벽돌 조각으로 내 거처의 일부를 개조할 수 있다고 말합니다." # 3f4d044737246134913d82f0b5a6388bb15908db
+	tuyuhun.0056.a: "거래 성립입니다!" # f2de5407972dd08f85658443add3e3652cb4662a
+	tuyuhun.0056.b: "" # c88fd57673a5a0596e3ee023652ee3a2c9a55438
+	tuyuhun.0057.t: "말 도둑" # 0c48bfa884a5e08a0074c008937a2315c055286d
+	tuyuhun.0057.desc: "최근 한 도둑이 제 정부 마구간에 속한 칭하이총 말을 훔치려다 발각되었습니다. 그는 며칠 후 제 병사들에게 잡히기 전까지 짧은 거리를 도망치는 데 성공했습니다. 최고의 말 사육사이자 소유주로 명성이 자자한 투유훈에게 말을 훔치는 행위는 납치나 살인만큼이나 흉악한 범죄로 여겨집니다. 보통 제 관리들이 이 문제를 처리하겠지만, 여러 사정으로 인해 이번에는 제가 직접 범죄에 대한 판결을 내릴 기회가 생겼습니다." # f6416a60e86ab6c99a84be3f123f035e0b656df4
+	tuyuhun.0057.a: "관리들의 판단을 믿고 그들에게 처리를 맡기겠습니다." # 46157e18fd90ca3133f3bc6938c08eafeded1c73
+	tuyuhun.0057.b: "우리의 전통은 분명합니다. 이는 살인과 같으니 - 그를 처형하십시오." # 5da78a27a095c4f9d8ffed9bda45a0c484f0a5e1
+	tuyuhun.0057.c: "그냥 벌금을 내게 하면 돼. 그러면 본보기가 될 거야." # 1c8a72251c653c6efaa0836f8cd29c624eefed69
+	tuyuhun.0058.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0058.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0058.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0059.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0059.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0059.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0060.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0060.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0060.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0061.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0061.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0061.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0062.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0062.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0062.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0063.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0063.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0063.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0064.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0064.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0064.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0065.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0065.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0065.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0066.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0066.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0066.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+	tuyuhun.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f

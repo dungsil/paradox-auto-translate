@@ -4,13 +4,16 @@
   "name": "@dungsil/paradox-automatic-translate",
   "packageManager": "pnpm@9.15.1+sha512.1acb565e6193efbebda772702950469150cf12bcc764262e7587e71d19dc98a423dff9536e57ea44c49bdf790ff694e83c27be5faa23d67e0c033b583be4bfcf",
   "scripts": {
-    "ck3": "jiti scripts/ck3.ts"
+    "ck3": "jiti scripts/ck3.ts",
+    "show-prompt": "jiti scripts/show-prompt.ts"
   },
   "devDependencies": {
     "@types/node": "22.10.2",
+    "dotenv": "16.4.7",
     "consola": "3.3.0",
     "jiti": "2.4.2",
     "pathe": "1.1.2",
+    "portkey-ai": "1.5.5",
     "tinyglobby": "0.2.10",
     "toml": "3.0.0",
     "typescript": "5.7.2"
