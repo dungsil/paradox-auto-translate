@@ -7,7 +7,18 @@ export const ROOT_DIR = resolve(import.meta.dirname, '../../')
 export const UTF8_BOM = '\uFEFF'
 
 // 변수 정규표현식
-export const ONLY_VARIABLE_REGEX = /^\$[\w_-]+\$$/
+export const ONLY_VARIABLE_REGEX = /^\$[a-zA-Z0-9_-]+\$$/
+
+/*
+ * 패러독스 언어 파일 구조 파싱을 위한 정규표현식
+ * 라인 파싱을 위한 정규식 패턴
+ * Group 1: 키 (콜론 포함)
+ * Group 2: 숫자 (옵션)
+ * Group 3: 공백
+ * Group 4: 값 (따옴표 포함)
+ * Group 5: 해시 (옵션)
+ */
+export const PARADOX_PARSE_REGEX = /(.*:)(\d*)( *)(".*")(?:#(.*))?/
 
 // 프롬프트
 export const PROMPT = `

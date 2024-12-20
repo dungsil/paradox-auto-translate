@@ -9,6 +9,7 @@ import {
   log,
   type Meta,
   ONLY_VARIABLE_REGEX,
+  PARADOX_PARSE_REGEX,
   ROOT_DIR,
   translate,
   UTF8_BOM,
@@ -81,28 +82,14 @@ async function processByMod (mod: string) {
 
         const upstreamLine = upstreamLines[key]
 
+        const shouldSkipTranslation = !upstreamLine || // 유효한 값인지 여부
+          upstreamLine.line.trim().startsWith('#') || // 주석인지 여부
+          ONLY_VARIABLE_REGEX.test(upstreamLine.line) // 변수만 있는지 여부
+
         // 유효하지 않은 라인이면 그대로 저장
-        if (!upstreamLine) {
+        if (shouldSkipTranslation) {
           translatedLines[key] = {
-            line: upstreamLine,
-            hash: null,
-          }
-          continue
-        }
-
-        // 주석은 그대로 저장
-        if (upstreamLine.line.trim().startsWith('#')) {
-          translatedLines[key] = {
-            line: upstreamLine.line,
-            hash: null,
-          }
-          continue
-        }
-
-        // '$variable$' 형식의 문자열은 번역하지 않음
-        if (ONLY_VARIABLE_REGEX.test(upstreamLine.line)) {
-          translatedLines[key] = {
-            line: upstreamLine.line,
+            line: upstreamLine.line || null,
             hash: null,
           }
           continue
@@ -122,6 +109,7 @@ async function processByMod (mod: string) {
         if (Object.hasOwn(translatedLines, key)) {
           const upstreamHash = hash(upstreamLine.line)
 
+          log.debug(`[CK3/${mod}/${key}] Upstream hash: ${upstreamHash} / Translated hash: ${translatedLines[key].hash}`)
           if (upstreamHash === translatedLines[key].hash) {
             log.debug(`[CK3/${mod}] Skip key: ${key}`)
             continue
@@ -180,7 +168,7 @@ function parseLine (line: string) {
     return []
   }
 
-  const separatedLine = line.match(/(.*:)(\d*)( *)(".*")(?:#(.*))?/)
+  const separatedLine = PARADOX_PARSE_REGEX.exec(line)
 
   if (separatedLine) {
     return [
