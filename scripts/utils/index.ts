@@ -1,5 +1,5 @@
 export * from './constants'
-export * from './dictornary'
+export * from './dictionary'
 export * from './fs'
 export * from './logging'
 export * from './meta'

@@ -29,6 +29,13 @@ const portkey = new Portkey({
         provider: 'google',
         virtual_key: virtualKey,
         override_params: {
+          model: 'gemini-2.0-flash-exp',
+        },
+      },
+      {
+        provider: 'google',
+        virtual_key: virtualKey,
+        override_params: {
           model: 'gemini-1.5-flash-8b',
         },
       },
@@ -46,7 +53,6 @@ const portkey = new Portkey({
 export async function translate (content: string) {
   const response = await portkey.chat.completions.create({
     user: 'paradox-auto-translator',
-    model: 'gemini-2.0-flash-exp',
     messages: [
       { role: 'system', content: CK3_PROMPT },
       { role: 'user', content },

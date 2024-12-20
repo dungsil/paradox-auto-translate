@@ -1,7 +1,7 @@
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
 import { dirname, join, resolve } from 'pathe'
 import { glob } from 'tinyglobby'
-import { dictornary, exists, loadMeta, log, type Meta, ROOT_DIR, translate, UTF8_BOM } from './utils'
+import { dictionary, exists, loadMeta, log, type Meta, ROOT_DIR, translate, UTF8_BOM } from './utils'
 
 // 기본 디렉토리 지정
 const baseDir = join(ROOT_DIR, 'ck3')
@@ -88,13 +88,13 @@ async function processByMod (mod: string) {
         }
 
         // 사전에 있는 키는 사전에서 가져온다
-        if (Object.hasOwn(dictornary, upstreamLine)) {
-          translatedLines[key] = dictornary[upstreamLine]
+        if (Object.hasOwn(dictionary, upstreamLine)) {
+          translatedLines[key] = dictionary[upstreamLine]
           continue
         }
 
         log.verbose(`[CK3/${mod}] New key: ${key}`)
-        translatedLines[key] = await translate(upstreamLines[key]!!)
+        translatedLines[key] = await translate(upstreamLine)
       }
 
       // 형식에 맞춰 구조화
