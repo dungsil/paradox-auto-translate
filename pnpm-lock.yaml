@@ -12,8 +12,8 @@ importers:
         specifier: 22.10.2
         version: 22.10.2
       consola:
-        specifier: 3.2.3
-        version: 3.2.3
+        specifier: 3.3.0
+        version: 3.3.0
       jiti:
         specifier: 2.4.2
         version: 2.4.2
@@ -35,8 +35,8 @@ packages:
   '@types/node@22.10.2':
     resolution: {integrity: sha512-Xxr6BBRCAOQixvonOye19wnzyDiUtTeqldOOmj3CkeblonbccA12PFwlufvRdrpjXxqnmUaeiU5EOA+7s5diUQ==}
 
-  consola@3.2.3:
-    resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
+  consola@3.3.0:
+    resolution: {integrity: sha512-kxltocVQCwQNFvw40dlVRYeAkAvtYjMFZYNlOcsF5wExPpGwPxMwgx4IfDJvBRPtBpnQwItd5WkTaR0ZwT/TmQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
   fdir@6.4.2:
@@ -79,7 +79,7 @@ snapshots:
     dependencies:
       undici-types: 6.20.0
 
-  consola@3.2.3: {}
+  consola@3.3.0: {}
 
   fdir@6.4.2(picomatch@4.0.2):
     optionalDependencies:
