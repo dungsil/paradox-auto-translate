@@ -1,4 +1,5 @@
 import { resolve } from 'pathe'
+import { dictionary } from '.'
 
 // 루트 디렉토리
 export const ROOT_DIR = resolve(import.meta.dirname, '../../')
@@ -40,4 +41,7 @@ export const CK3_PROMPT = `
 You are a text file translator for a wargame set in the Middle Ages.
 
 ${PROMPT}
+
+Below is the translation memory, so refer to it as you translate:
+${Object.keys(dictionary).map((key) => ` - ${key}: ${dictionary[key]}`).join('\n')}
 `
