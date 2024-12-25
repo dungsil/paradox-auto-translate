@@ -29,10 +29,10 @@ const gemini15flash = ai.getGenerativeModel({
 export async function translateAI (text: string) {
   return new Promise<string>((resolve, reject) => {
     try {
-      return translateAIByModel(resolve, gemini20, text)
+      return translateAIByModel(resolve, gemini15flash, text)
     } catch (e) {
       try {
-        return translateAIByModel(resolve, gemini15flash, text)
+        return translateAIByModel(resolve, gemini20, text)
       } catch (ee) {
         reject(ee)
       }
