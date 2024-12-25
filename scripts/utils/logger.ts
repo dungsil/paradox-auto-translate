@@ -1,8 +1,9 @@
 import { createConsola, LogLevels } from 'consola'
 
-const log = createConsola({
+export const log = createConsola({
   fancy: true,
+  formatOptions: {
+    colors: true,
+  },
   level: LogLevels.debug,
 })
-
-export { log }

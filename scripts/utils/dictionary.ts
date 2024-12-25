@@ -1,4 +1,5 @@
-export const dictionary: Record<string, string> = {
+// noinspection SpellCheckingInspection
+const dictionaries: Record<string, string> = {
   anuket: '아누케트',
   'basic skill': '기본 능력',
   blemmye: '블렘미',
@@ -34,4 +35,16 @@ export const dictionary: Record<string, string> = {
   wenmo: '올말',
   zhebu: '절포',
   xxxxx: 'xxxxx', // RICE, VIET 에서 사용하는 플레이스 홀더로 API 요청 되지 않도록 사전에 추가
+}
+
+export function hasDictionary (key: string) {
+  return Object.hasOwn(dictionaries, normalizeKey(key))
+}
+
+export function getDictionary (key: string): string | null {
+  return dictionaries[normalizeKey(key)] || null
+}
+
+function normalizeKey (key: string): string {
+  return key.toLowerCase()
 }
