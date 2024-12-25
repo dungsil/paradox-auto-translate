@@ -15,6 +15,7 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
      e.g., #bold ROYAL DECREE# → #bold ROYAL DECREE#
    - Keep variables in square brackets unaltered:
      e.g., [GetTitle('emperor').GetName] → [GetTitle('emperor').GetName]
+     e.g., [culture|E] → [culture|E]
 
 3. Maintain the original text structure, including line breaks and paragraph formatting.
 
