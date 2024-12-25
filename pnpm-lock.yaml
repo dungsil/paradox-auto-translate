@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@google/generative-ai':
+        specifier: ^0.21.0
+        version: 0.21.0
       '@iarna/toml':
         specifier: ^2.2.5
         version: 2.2.5
@@ -34,6 +37,10 @@ importers:
         version: 5.7.2
 
 packages:
+
+  '@google/generative-ai@0.21.0':
+    resolution: {integrity: sha512-7XhUbtnlkSEZK15kN3t+tzIMxsbKm/dSkKBFalj+20NvPKe1kBY7mR2P7vuijEn+f06z5+A8bVGKO0v39cr6Wg==}
+    engines: {node: '>=18.0.0'}
 
   '@iarna/toml@2.2.5':
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
@@ -163,6 +170,8 @@ packages:
     resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
 
 snapshots:
+
+  '@google/generative-ai@0.21.0': {}
 
   '@iarna/toml@2.2.5': {}
 

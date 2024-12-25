@@ -45,6 +45,10 @@ export function getDictionary (key: string): string | null {
   return dictionaries[normalizeKey(key)] || null
 }
 
+export function getTranslationMemories (): string {
+  return Object.keys(dictionaries).map((key) => ` - "${key}" → "${dictionaries[key]}"`).join('\n')
+}
+
 function normalizeKey (key: string): string {
   return key.toLowerCase()
 }

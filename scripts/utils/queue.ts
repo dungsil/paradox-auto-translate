@@ -1,9 +1,10 @@
+import { delay } from './delay'
 import { log } from './logger'
 
 const translationQueue: Array<() => Promise<void>> = []
 
 const MAX_RETRIES = 5
-const RETRY_DELAYS = [0, 1000, 2000, 4000, 8000, 16000] // 밀리초 단위
+const RETRY_DELAYS = [0, 2000, 4000, 10000, 60000, 120000] // 밀리초 단위
 
 let lastRequestTime = 0
 
@@ -24,7 +25,7 @@ async function processQueue () {
   const timeSinceLastRequest = now - lastRequestTime
   if (timeSinceLastRequest < 200) {
     setTimeout(processQueue, 200 - timeSinceLastRequest)
-    // return
+    return
   }
 
   const task = translationQueue.shift()
@@ -45,8 +46,9 @@ async function executeTaskWithRetry (task: () => Promise<void>, retryCount = 0):
       log.debug(`요청 ${retryCount + 1}번째 재시도`)
 
       // 지수 백오프
-      const delay = RETRY_DELAYS[retryCount + 1]
-      await new Promise(resolve => setTimeout(resolve, delay))
+      const retryDelay = RETRY_DELAYS[retryCount + 1]
+      log.debug(`재시도 대기 시간: ${retryDelay}ms`)
+      await delay(retryDelay)
 
       // 재시도
       return executeTaskWithRetry(task, retryCount + 1)
