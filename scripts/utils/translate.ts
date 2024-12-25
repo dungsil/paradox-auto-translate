@@ -12,6 +12,11 @@ export async function translate (text: string): Promise<string> {
     return ''
   }
 
+  // 공백인 경우 빈 텍스트 반환
+  if (text.trim() === '') {
+    return ''
+  }
+
   const normalizedText = text.trim()
 
   // 변수만 있는 경우 그대로 반환
