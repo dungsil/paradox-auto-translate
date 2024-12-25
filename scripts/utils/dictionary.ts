@@ -18,7 +18,7 @@ const dictionaries: Record<string, string> = {
   imhotep: '임호테프',
   isis: '이시스',
   italienzug: '이탈리엔추크',
-  'i look forward to seeing the final result!': '최종 결과물을 기대되는 군!',
+  'i look forward to seeing the final result!': '최종 결과물이 기대되는 군!',
   kalabsha: '칼라브샤',
   karakoram: '카라코람',
   khnum: '크눔',
