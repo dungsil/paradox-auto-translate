@@ -1,451 +1,439 @@
 ﻿l_korean:
-	# Misc 
-	k_canary_islands: "카나리아스" # 9bbc6efb8fffb5e28763fd08b248bbd23034e358
-	k_canary_islands_adj: "카나리아" # 6ae33cd33e72a92ac45a181c893d030ccea2d74d
-	RICE_cn_canarias_arab: "알자자이르 알칼리다" # 948e645df9d80a4c6cfca766252a1c9bdf6c78de
-	RICE_cn_canarias_arab_desc: "알 자자이르 알 칼리다" # 948e645df9d80a4c6cfca766252a1c9bdf6c78de
-	RICE_only_formed_decision: "이 [title|E]은 특별한 [decision|E]을 통해서만 형성할 수 있습니다." # fb870b60892cc10d8d21f214be2d9c0b4a16674a
-	RICE_decision_guanche_culture_requirement: "당신의 [culture|E]은 과나체에서 파생되었거나 혼합되었습니다" # e4a7dc7cec8894592c5a0bd28c587b653651c612
-	# Game Concepts 
-	# Memories 
-	RICE_guanche_rain_ritual_host_memory: "[GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName]을(를) 수행했습니다" # aa008d6c090d01b5018049d199325bcabfa0a414
-	RICE_guanche_rain_ritual_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName]을(를) 수행했습니다" # 757deed05a5a2240a9d6e2b780d2f91dbac4c1a5
-	RICE_guanche_rain_ritual_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName]을 수행했습니다." # 4ee22eee97a6c16e4a34f8dfc406e08e30eb7dae
-	RICE_guanche_rain_ritual_host_memory_third_perspective: "[owner.GetName]이(가) [GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName]을(를) 수행했습니다" # a20374ad5894f819ed2d70bb5397ac72fb922c5e
-	RICE_guanche_rain_ritual_guest_memory: "[host.GetTitledFirstName]이(가) 주최한 [GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName]에 참여했습니다" # 6d988c265a9d5a7f6527d94f6faa5dd34f5293e9
-	RICE_guanche_rain_ritual_guest_memory_first_perspective: "[GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName] 행사에 [host.GetTitledFirstName]가 주최하여 참여했습니다." # e6fd0cd404783215afc70eaa809bfbc7f5dd7257
-	RICE_guanche_rain_ritual_guest_memory_second_perspective: "[host.GetTitledFirstName]이(가) 주최한 [GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName]에 참여했습니다" # f13721b8bab83f2ca3c630791a02447a5d9c0699
-	RICE_guanche_rain_ritual_guest_memory_third_perspective: "[owner.GetName] 님이 [host.GetTitledFirstName] 님이 주최한 [GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName]에 참여했습니다" # 5fcd60b83ab9fceb563f549bcc88447a4eae7773
-	RICE_guanche_benesmen_festival_host_memory: "지역 [GetActivityType( 'activity_RICE_guanche_benesmen_festival' ).GetName]에 참석했습니다" # 13a1014b0674e931a1294f6c014f510f88c9acd6
-	RICE_guanche_benesmen_festival_host_memory_first_perspective: "나는 지역 [GetActivityType( 'activity_RICE_guanche_benesmen_festival' ).GetName]에 참석했습니다" # 117e61c6064212af78b67e6c17fc5e2d549e0de9
-	RICE_guanche_benesmen_festival_host_memory_second_perspective: "현지 [GetActivityType( 'activity_RICE_guanche_benesmen_festival' ).GetName]에 참여했습니다" # 749d40e05c201cb2768ac9b667a783243f8c557d
-	RICE_guanche_benesmen_festival_host_memory_third_perspective: "[owner.GetName]이 지역 [GetActivityType(  'activity_RICE_guanche_benesmen_festival' ).GetName]에 참석했습니다." # dca709393dfdb07de1e7fc216f952244df5594d0
-	RICE_guanche_benesmen_festival_guest_memory: "[host.GetTitledFirstName]와 함께 현지 [GetActivityType( 'activity_RICE_guanche_benesmen_festival' ).GetName]에 참석했습니다" # c8e1db7a25ff2b61be650cec675cba5087c5c3fb
-	RICE_guanche_benesmen_festival_guest_memory_first_perspective: "[host.GetTitledFirstName]와 함께 지역 [GetActivityType( 'activity_RICE_guanche_benesmen_festival' ).GetName]에 참석했습니다" # ee7e8ff057a169e65aabdc75b030ca463b371ae1
-	RICE_guanche_benesmen_festival_guest_memory_second_perspective: "[host.GetTitledFirstName]와 함께 지역 [GetActivityType( 'activity_RICE_guanche_benesmen_festival' ).GetName]에 참석했습니다" # 9cc310a7840b7c5f3a05056bfb059d2478944951
-	RICE_guanche_benesmen_festival_guest_memory_third_perspective: "[owner.GetName]이 [host.GetTitledFirstName]와 함께 지역 [GetActivityType(  'activity_RICE_guanche_benesmen_festival' ).GetName]에 참석했습니다." # 538fa929a87d40b91e6a590c7ddbf67d25f6365a
-	# Activities 
-	activity_RICE_guanche_rain_ritual_host_an_a: "$host_activity_a$" # null
-	activity_RICE_guanche_rain_ritual: "비 의식" # 3173b11935e37ebca4cd6553298fd24b34a5d830
-	activity_RICE_guanche_rain_ritual_desc: "[GetPlayer.GetFaith.PantheonTerm]께서 우리의 왕국에 풍족한 비를 내려주시어, 우리가 곡식을 키우고 번성할 수 있을까요? 우리는 천상에 대한 헌신을 보여주고, 가까운 미래에 생명을 주는 비를 요청해야 합니다." # 4edcf342b951d5368de24e9e29b51de475917462
-	activity_RICE_guanche_rain_ritual_selection_tooltip: "비의 축복을 기원합니다.\n\n$RICE_guanche_pray_for_good_rain_context_tooltip$" # 02f8e510a9088ee9f23aec500e4607a699b0fd8f
-	activity_RICE_guanche_rain_ritual_host_desc: "$BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$단식에 참여하면 증가하는 [development|E], [tax|E] 수입, [county_opinion|E]를 강화하는 [county_modifier|E]를 획득하는 [activity|E]를 개최하는 [county|E]의 기회" # b632f21e4504cee3a107437fd0e8e16d114c0487
-	activity_RICE_guanche_rain_ritual_guest_desc: "$BULLET_WITH_TAB$[신앙심_i|E][신앙심|E]" # b9ca3c1f455a3880c6eeb2d3d307feaca1e20694
-	activity_RICE_guanche_rain_ritual_province_desc: 
-	activity_RICE_guanche_rain_ritual_destination_selection: "$activity_RICE_guanche_rain_ritual_province_desc$" # null
-	activity_RICE_guanche_rain_ritual_guest_help_text: "$activity_RICE_guanche_rain_ritual$" # null
-	activity_RICE_guanche_rain_ritual_predicted_cost: "이 방문 비용은 주로 당신의 [income|E]에 따라 결정됩니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
-	activity_RICE_guanche_rain_ritual_conclusion_desc: "[GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName]을(를) 완료했습니다. 올해 수확을 위해 충분한 비가 내리기를 바랍니다!" # bc12f36034cf06fc0e9c511bf96e5a6ca8cb582d
-	RICE_guanche_rain_ritual_prayer_phase: "기도" # 8c4f3272183be6934487f3838226b0ae72f60aa8
-	RICE_guanche_rain_ritual_prayer_phase_desc: "비가 없으면 어떻게 작물을 키울 수 있겠습니까? [GetPlayer.GetFaith.PantheonTerm]에게 비를 내려달라고 최선을 다해 빌어야 합니다." # 3a52d940c07004acf731f2154946bde690acb03f
-	RICE_guanche_rain_ritual_hope_intent_header: "희망:" # 27fd1ddad92381ebcf82693775071cc26bf90784
-	RICE_guanche_rain_ritual_hope_intent: "희망" # 183e3fcd89c2b9a4b11d6a85347f280e26906fce
-	RICE_guanche_rain_ritual_hope_intent_desc: "당신과 다른 모든 사람들은 [GetPlayer.GetFaith.PantheonTerm]에게 비를 내려달라고 최선을 다해 기도할 것입니다." # 254681272d1df67ed596bd4ecab2616e98484ef7
-	RICE_guanche_rain_ritual_completed_log_title: "비의식 수행 완료" # d441fb262ca6b2ca97f600d68a4100b241e93a31
-	RICE_guanche_rain_ritual_completed_log: "[CHARACTER.GetShortUIName|U]이(가) 강우 의식을 마쳤습니다" # a05d1eaa308131194244b13fd415db8c731cfaae
-	TRAVEL_NAME_FOR_activity_RICE_guanche_rain_ritual: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_guanche_rain_ritual$" # cc2cb6f931cd97934e7e4419d43a54366a0d2f6b
-	activity_RICE_guanche_benesmen_festival_host_an_a: "$host_activity_a$" # null
-	activity_RICE_guanche_benesmen_festival: "베네스멘 축제" # 6756a138049f6ac5e94014914d14b538703a0330
-	activity_RICE_guanche_benesmen_festival_desc: "수확기가 끝나가고, 옛 해도 저물어 갑니다. 카나리아 제도의 사람들이 태곳적부터 해 왔듯이, 신들을 제대로 숭배하며 새해의 도래를 알립시다!" # 1d4c033af5bcd4935c30493be3828824de5df76a
-	activity_RICE_guanche_benesmen_festival_selection_tooltip: "베네스멘 축제를 개최합니다.\n\n$RICE_guanche_celebrate_benesmen_festival_context_tooltip$" # 10ed1c05f365a1553e0bf9d502fde55dae8011c5
-	activity_RICE_guanche_benesmen_festival_host_desc: "$BULLET_WITH_TAB$[$prestige_i|E]명성[$prestige|E]$\n$BULLET_WITH_TAB$[$piety_i|E]신앙[$piety|E]$\n$BULLET_WITH_TAB$ [GetModifier('RICE_guanche_recently_celebrated_benesmen').GetNameWithTooltip] [character_modifier|E]" # ffe97c6d4c52668255dc392f5ec14825c40324a8
-	activity_RICE_guanche_benesmen_festival_guest_desc: "\n$BULLET_WITH_TAB$[prestige_i|E][prestige|E]" # aea4f240920e3a23b181b45990b59e532a502da7
-	activity_RICE_guanche_benesmen_festival_province_desc: 
-	activity_RICE_guanche_benesmen_festival_destination_selection: "$activity_RICE_guanche_benesmen_festival_province_desc$" # null
-	activity_RICE_guanche_benesmen_festival_guest_help_text: "$activity_RICE_guanche_benesmen_festival$" # null
-	activity_RICE_guanche_benesmen_festival_predicted_cost: "이 방문 비용은 주로 당신의 [income|E]에 따라 결정됩니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
-	activity_RICE_guanche_benesmen_festival_conclusion_desc: "올해의 [GetActivityType( 'activity_RICE_guanche_benesmen_festival' ).GetName] 축제가 끝났습니다. 정말 흥미진진한 행사였습니다!" # 9fc0d734b121c0456079faf1ea135d5ec1274483
-	RICE_guanche_benesmen_festival_festivity_phase: "축제" # 4488c63845d1736053175cd951af1162f3da0155
-	RICE_guanche_benesmen_festival_festivity_phase_desc: "수확기가 끝나면 새해를 맞이하는 베네스멘 축제가 있습니다." # 42a72319504605529cf97664c7f3c9bc67438d2c
-	RICE_guanche_benesmen_festival_celebration_intent_header: "축제:" # 371c542707a1b5aa743eae7582cdf810ffc5d775
-	RICE_guanche_benesmen_festival_celebration_intent: "축제" # b09768b17521ec1c8eff268544192ccc055706e7
-	RICE_guanche_benesmen_festival_celebration_intent_desc: "새해가 밝았습니다. 축하할 시간입니다!" # 11129d609569f2d9afc6f9c579f62ec459851d5c
-	RICE_guanche_benesmen_festival_completed_log_title: "베네스멘 축제 참여 완료" # 098b0bd34f88a07188a832962d04b1fb16559923
-	RICE_guanche_benesmen_festival_completed_log: "[CHARACTER.GetShortUIName|U] 님이 베네스멘 축제 참여를 마쳤습니다" # 689156624c5005eaf281f2aa2645eb9bdb313114
-	TRAVEL_NAME_FOR_activity_RICE_guanche_benesmen_festival: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_guanche_benesmen_festival$" # eee23b67d99eae2dde9e0c122190019c0d3da99e
-	# Buildings 
-	building_type_RICE_guanche_madeira_levadas: "레바다 네트워크" # 402cde1fd5309ad9941b115d2ab86a4d92ebe047
-	building_type_RICE_guanche_madeira_levadas_desc: "마데이라 남부 지역은 대규모 농업, 특히 사탕수수 생산에 적합한 것으로 간주되지만, 한 가지 문제점이 있습니다. 바로 충분한 담수 부족입니다. 따라서 이 #italic 레바다#! 또는 특별한 관개 수로와 수로가 산에 새겨져 담수 부족을 완화하기 위해 건설되었습니다." # 7287900f0dd786a8075b35dfdfdf0d97cec0fb23
-	building_RICE_guanche_madeira_levadas: "$building_type_RICE_guanche_madeira_levadas$" # null
-	building_RICE_guanche_madeira_levadas_desc: "$building_type_RICE_guanche_madeira_levadas_desc$" # null
-	RICE_guanche_levada_requirement: "#V 마데이라에 사탕수수 도입# 결정을 내렸습니다!" # 97cc9ba8948d89b5c4f9df1885c4dd60d8951e7b
-	NOT_RICE_guanche_levada_disabled: "#V 마데이라에 사탕수수 도입# 결정을 내려야 합니다" # 44a1f43c0d0d82959300e86f9a642c9f1505e07b
-	# Modifiers 
-	RICE_guanche_madeira_sugarcane_beginning: "마데이라 사탕수수 산업의 탄생" # 6e4b1ca5e91d41b2506fd71fa12631d90358e560
-	RICE_guanche_madeira_sugarcane_beginning_desc: "지중해에서 들여온 사탕수수가 최근 마데이라에 소개되었고, 현재 산업이 호황을 누리고 있습니다. 여기의 사탕수수 농장에서는 각지에서 끌려온 노예들이 가혹한 환경 속에서 일하며 엘리트들에게 막대한 이익을 가져다주고 있습니다." # a18cf00b1a39066651a1da93ecba17c96b726e56
-	RICE_guanche_fasting_weakness: "단식으로 인해 쇠약함을 느껴" # 43b9f3c93bccef520555c4d403ef89ed9f63d253
-	RICE_guanche_rain_blessing_good: "비의 축복" # 339a846abc80bb4442a97029f92b2e9224bccb08
-	RICE_guanche_rain_blessing_good_desc: "최근 이 지역에는 예상보다 약간 많은 생명을 주는 비가 내려 축복을 받았으며, 이는 이 지역에서 일반적으로 받는 정상적인 양의 범위 내에 있으므로 다가오는 수확은 좋을 것입니다. 이러한 혜택에 대해 하늘에 감사해야 할까요?" # b99829b5864a96c8358c641b148d2e43daf46fa5
-	RICE_guanche_rain_blessing_great: "비의 위대한 축복" # 7992fd09a1ac2e5a80333cf2f881d809d3554df4
-	RICE_guanche_rain_blessing_great_desc: "최근 이 지역은 생명을 주는 비가 눈에 띄게 증가하는 축복을 받았으며, 이는 이 지역에서 예상되는 일반적인 양보다 많으므로 수확량이 더 많을 것입니다. 이 풍요에 감사해야 할 대상은 하늘입니까?" # 2fd79359759396dabca818b28d6506f9a7ab962c
-	RICE_guanche_rain_blessing_amazing: "놀라운 빗줄기의 축복" # 9f46b16c02ac9d939ead7f64bb422298e0e46472
-	RICE_guanche_rain_blessing_amazing_desc: "최근 이 지역에는 생명을 주는 비가 예상보다 훨씬 많이 내려 축복을 받았습니다. 물론 이 지역에 내리는 것이 타당한 수준이긴 하지만요. 당분간 수확량이 풍부할 것입니다. 이 풍요를 하늘에 감사해야 할까요?" # aebbc09c515f8d1cd8ce4ee1a757b6220cfa61c3
-	RICE_guanche_madeira_timber: "목재의 섬" # ab72874065fa46269c91c57f96809945ea34ea58
-	RICE_guanche_madeira_timber_desc: "마데이라에는 나무가 너무 많아 일부 지역은 사람이 거의 통행할 수 없을 정도입니다. 이곳에는 나무를 이용하려는 사람들을 위해 많은 목재가 있습니다." # 553c13906de3ca166ba934c0ac5c1ad4670412b8
-	RICE_guanche_madeira_owner_timber: "마데이라의 목재 착취" # 15cdf3fdeb7c1a96c1f63b3c9f1564c9a8fa2730
-	RICE_guanche_madeira_owner_timber_desc: "마데이라를 통치하는 군주는 풍부한 목재 자원을 통제할 것입니다. 그렇지만, 풍부하긴 하지만 무한한 것은 아니므로, 이 군주는 섬의 숲을 관리하는 데 주의해야 합니다." # ae02c859c5604b671257029df3e175165290ab40
-	#RICE_guanche_madeira_established_sugarcane "마데이라에는 좋은 시절이 왔습니다. 사탕수수 산업이 섬에 잘 자리 잡았으며, 여전히 풍부한 목재는 계속해서 성공을 이끌고 있습니다. 하지만 섬의 숲에서 목재가 놀라울 정도로 빠른 속도로 고갈되고 있다는 소문이 있습니다...." # 9ac21196ca2d22504b59d926f33c46c699481183
-	RICE_guanche_madeira_sugarcane_crash: "사탕수수 산업 붕괴" # 799746202862ac1a88ad6ae0cdd108b0fe4ac2e7
-	RICE_guanche_madeira_sugarcane_crash_desc: "대규모 삼림 벌채로 인해 마데이라의 사탕수수 산업은 더 이상 예전처럼 유지될 수 없게 되었습니다. 사탕수수 생산은 사실상 하룻밤 사이에 붕괴되었고, 상인들은 계속 증가하는 세계적인 설탕 수요를 충족시키기 위해 다른 곳을 찾고 있습니다. 사탕수수 사업이 언젠가 이곳에서 회복될 수도 있지만, 이전의 영광스러운 수준에는 결코 도달하지 못할 것입니다." # 09c1792899b5c4c56235f0666cff6d7d92de7354
-	RICE_guanche_canary_islands_sugar_industry_booming: "사탕수수가 카나리아 제도로 확산됨" # 2d17bb0e077538b02ecda42fd13c366e3ada1c1a
-	RICE_guanche_canary_islands_sugar_industry_booming_desc: "사탕수수 산업이 최근 마데이라에서 카나리아 제도로 확산되었습니다. 마데이라의 사탕수수 농장만큼 수익성이 좋지는 않지만, 카나리아 제도에 새로 설립된 농장들은 여전히 상당한 수익을 올리고 있으며, 먼 곳에서 온 정착민과 상인들을 끌어들이고 있습니다." # cceb340f92a1406fd834f95d608471c74334f5a6
-	RICE_guanche_recently_celebrated_benesmen: "최근 축하받은 베네스멘" # fbcf36c1c51df9753a9c08ca347e3e9232b3fcdf
-	RICE_guanche_kingdom_fortunate_isles: "행운의 섬" # a736e3bd5ca0fe48b83d6e772595e92708042e75
-	RICE_guanche_kingdom_unified_fortunate_isles: "행운의 섬들 통합" # 57cc450a67d60149f9158afda7d23fb657b334c6
-	RICE_guanche_kingdom_worlds_edge: "세상의 끝" # 062aa5c2e281190d409eabebbd72f387a0717e90
-	RICE_guanche_kingdom_unified_worlds_edge: "세계의 끝 통합" # 753a7728142b00a46dd3e858a5174dbb63b24b7e
-	RICE_guanche_new_whistlers: "새로운 호각꾼" # 3143d4a8ce79de640132cd37bd1229e28f9ba259
-	RICE_guanche_new_whistlers_desc: "관체족 사이에서 '휘파람 언어'는 험준한 지형에서 빠른 의사소통을 용이하게 하는 데 사용되는 고대 전통입니다. 이 통치자는 이 예술에 재능이 있는 소위 휘파람꾼 몇 명을 고용했습니다." # 8e636ed0e4f43b620a1016c4403589a0258eb27e
-	RICE_guanche_fertility_prayer: "성공적인 다산 기도" # 5d1f6be0706a4117436374997326a9d5cdb6a32b
-	# Decisions 
-	RICE_guanche_unite_canary_islands: "카나리아 제도 통일" # b0f91d484f3493f776d015ddc92874474383c9f8
-	RICE_guanche_unite_canary_islands_tooltip: "카나리아 제도의 싸우는 부족들은 함께해야 합니다!" # 2964bd75329a559d0fcc81848a9cbea303e5e7f3
-	RICE_guanche_unite_canary_islands_desc: "기억할 수 있는 한 오랫동안 카나리아 제도의 사람들은 소규모 씨족과 부족으로 나뉘어 있었습니다. 이제는 안 됩니다! 우리가 살아남고 지속하려면 하나로 단결해야 합니다." # 653cabf47e76a38fe369430125060d8d00e8c0d1
-	RICE_guanche_unite_canary_islands_effect_tooltip: "이 땅을 #P 행운의 섬#!으로 선포하여 경제 및 사회적 이익을 얻을지, 아니면 #P 세상의 끝자락#!으로 선포하여 군사 및 음모 이익을 얻을지 선택하십시오." # 6e92acd657582626a42908db0ef15d74f7a0cbe6
-	RICE_guanche_unite_canary_islands_confirm: "이 축복받은 섬들에 새로운 날이 밝았습니다!" # 7265fef00ee8256a6992c1add83ac3ebc04be81d
-	RICE_guanche_unite_canary_islands_context_tooltip: "#emphasis Historical Context:#! In ancient times, the Canary islands were often associated with the legendary Fortunate Isles. When the Spanish began colonizing the Canary Islands in the 1400s, they found the Canaries divided between many petty tribes and kingdoms, which made conquering the islands much easier." # null
-	RICE_guanche_introduce_sugarcane_to_madeira: "마데이라에 사탕수수 도입" # afae803385b77f0929e7c3dcc0388ce1ee478d19
-	RICE_guanche_introduce_sugarcane_to_madeira_tooltip: "이 섬에서 사탕수수를 재배하면 수익성이 좋을 수도 있습니다..." # d821d5f06db39f4a711020f2323b9b74fd95ef37
-	RICE_guanche_introduce_sugarcane_to_madeira_desc: "사탕수수는 지중해 일부 지역에서 수익성이 좋은 환금 작물임이 입증되었으며, 마데이라는 사탕수수 재배에 완벽한 장소로 보입니다. 분명히, 마데이라의 풍부한 목재는 이곳에서 설탕 산업을 영원히, 혹은 적어도 오랫동안 지탱할 수 있을 것입니다... 맞죠?" # f1aa6b65e0e8a744d0b46e367b52abff2ce21e2e
-	RICE_guanche_introduce_sugarcane_to_madeira_effect_tooltip_1: "#V 레바다 네트워크# 건설 가능하게 합니다. [madeira_county.GetNameNoTier]의 [special_building|E]입니다." # 49ea3f00e5fe1737bd608b437425c4fd5b4a9d4b
-	RICE_guanche_introduce_sugarcane_to_madeira_effect_tooltip_2: "사탕수수는 미래에 [canarias_county.GetNameNoTier]와 [fuerteventura_county.GetNameNoTier]에도 도입될 수 있습니다." # 508b7c49038adf58484797365ff08e5f2e49a1ef
-	RICE_guanche_introduce_sugarcane_to_madeira_effect_tooltip_3: "#N 삼림 벌채#!로 인해 [madeira_county.GetNameNoTier]에서 사탕수수 산업이 미래에 붕괴될 수 있습니다. 확실히 이익이 발생하면 손실을 보충할 수 있을 것입니다." # 3b10d67741fee63b0f7d3e57477085b2228de83a
-	#RICE_guanche_introduce_sugarcane_to_madeira_effect_tooltip_2 "수십 년 후, 사탕수수 산업은 #N 삼림 파괴#!로 인해 붕괴할 수 있으며, 그 결과 [madeira_county.GetNameNoTier]에서 #P 목재 섬#! [county_modifier|E]이 사라지고, [madeira_county.GetNameNoTier]의 [holder|E]는 기본적으로 #P 마데이라의 목재 채취#!를 더 이상 갖지 않게 됩니다." # 27cfe0aae0d60a690bb9d38abd1ea24c78f2fbe3
-	RICE_guanche_introduce_sugarcane_to_madeira_confirm: "수익을 좀 내봅시다!" # 02438a91c7d011c637722e4e39870d5fdb2c1e35
-	RICE_guanche_introduce_sugarcane_to_madeira_context_tooltip: "#emphasis Historical Context:#! Sugarcane from the Mediterranean was introduced to Madeira in the wake of Portuguese colonization, thanks to the efforts of Prince Henry the Navigator who supposedly give his blessing for the construction of the island's first sugar mill in the 15th century. Powered by Madeira's vast timber resources and African slave labor, the island's sugar industry subsequently experienced a massive boom later in the century but it experienced a devastating crash in the 16th century due in part to deforestation." # null
-	RICE_guanche_pray_for_good_rain: "강우의 축복을 기원합니다" # c88a9843b17010f41dbbe569f91239f757937a51
-	RICE_guanche_pray_for_good_rain_tooltip: "[ROOT.Char.GetFaith.GetAdjective] 의식을 통해 비를 기원하십시오" # da1f9411e5b6251227d6982dc8e5d5faf8dc1c52
-	RICE_guanche_pray_for_good_rain_desc: "[ROOT.Char.GetFaith.PantheonTerm]께서 우리 왕국에 풍성한 비를 내려 주시어 농작물을 재배하고 번성할 수 있도록 축복해 주실까요? 우리는 그분들께 헌신을 보여드리고 앞으로 생명을 주는 비를 내려주시기를 요청해야 합니다." # cd2b22d2a1d3d6a5a841876ca605993e3a8f9b80
-	RICE_guanche_pray_for_good_rain_effect_tooltip_1: "귀하의 [realm_capital|E] #italic 힘#!이 #P 긍정적인#! [county_modifier|E]를 얻어 [세금|E], [개발|E], 및 [현지인 평판|E]를 향상시킬 수 있습니다." # aab4940da8532c0c83cbb5d46f5870a20791307a
-	RICE_guanche_pray_for_good_rain_effect_tooltip_2: "긍정적인 결과를 얻을 확률은 당신의 [sins|E], [virtues|E], 그리고 당신이 기꺼이 소비할 [prestige|E]에 달려 있습니다" # 9ecd8ffa5ad649876a70f0abf527db8e1f2ec583
-	RICE_guanche_pray_for_good_rain_confirm: "의식을 준비하십시오!" # 7b694eb0f792f7714b6ad931a6e369043c58d3d0
-	RICE_guanche_pray_for_good_rain_context_tooltip: "#emphasis Historical Context:#! Spanish chroniclers mentioned that prayers for rain was one of the most common rites practiced by the pagan inhabitants of the Canary Islands. Oftentimes, it involved collective fasting and grand displays of lamentations." # null
-	RICE_guanche_celebrate_benesmen_festival: "베네스멘 축제를 기념하십시오" # 9c24957d057da8ad1118dcdd1564ae5b1d8bc007
-	RICE_guanche_celebrate_benesmen_festival_tooltip: "전통적인 [ROOT.Char.GetFaith.GetAdjective] 수확 및 새해 축제" # 50655985b923dc9eeb2dc50e431fb2208f9fe2d6
-	RICE_guanche_celebrate_benesmen_festival_desc: "수확기가 끝나가고, 옛해가 저물어 갑니다. 새해를 맞이하고 모든 [ROOT.Char.GetFaith.PantheonTerm]을 합당하게 숭배하며, 무엇보다도 [ROOT.Char.GetFaith.CreatorName]을 숭배합시다!" # 2daf532c23ba7bd26cf7c489c506fe5024eb7353
-	RICE_guanche_celebrate_benesmen_festival_effect_tooltip: "베네스멘 축제를 기념합니다. [prestige|E]나 [piety|E]를 얻거나, 또는 [stress|E]를 잃을 수 있습니다." # af48947f52279df324706fd30bc3bf178504db8c
-	RICE_guanche_celebrate_benesmen_festival_confirm: "축제를 준비할 시간입니다." # 5c86daec1f2f76a7885647f2f919550fd54b6904
-	RICE_guanche_celebrate_benesmen_festival_context_tooltip: "#emphasis Historical Context:#! The Beñesmen Festival was the most important festival of the pre-Christian Guanches. It was a harvest feast that marked the start of the New Year through veneration of the various Guanche deities. Remnants of the festivities may have been Christianized following Spanish colonization of the Canary Islands." # null
-	RICE_decision_guanche_benesmen_month_requirement: "월은 7월에서 10월 사이여야 합니다." # 5c27b162625a5b679de0abaabaf5135741512cac
-	# Events 
-	guanche.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0001.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0001.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0002.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0002.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0002.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0003.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0003.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0003.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0004.t: "행운의 섬" # a736e3bd5ca0fe48b83d6e772595e92708042e75
-	guanche.0004.desc: "고대인들은 카나리아 제도를 그리스와 로마 신화의 축복받은 섬들과 연관지어 행운의 섬이라고 불렀습니다. [fuerteventura_chieftain.GetCulture.GetName]는 아주 오랜 옛날부터 이곳에 살며 세상과 단절되어 왔습니다. 먼 땅에서 큰 변화가 일어나고 있다는 소문이 있지만, 이 부족들은 현재로서는 비교적 조용한 삶을 살고 있습니다. 세계의 끝자락에 있는 이 전설적인 행운의 섬들의 궁극적인 운명은 누가 알겠습니까?" # b60250dd787550046046a2f4520ee4fbedd1f472
-	guanche.0004.a: "카나리아 제도의 족장들과 함께하는 이야기입니다..." # 04599f344e9fc0f49399bc211adfc75850aa1643
-	guanche.0004.b: "푸에르테벤투라의 족장들과 함께하는 이야기입니다...." # 18833fb53a897bfbf583f547a2c846973a4f75ef
-	guanche.0004.c: "마데이라의 족장들과 함께하는 이야기입니다...." # a17fbc1b9fa7f39ff919132965e70282d8ecc460
-	guanche.0004.tooltip: "[카나리아 공국]의 [카나리아_공국.이름] 백작령들은 여러 [후에르테벤투라_족장.신앙.형용사], [후에르테벤투라_족장.문화.이름] 족장들 사이에서 분할되었습니다. 행복한 섬들 중 어디를 당신의 고향으로 삼으시겠습니까?" # 96add1e8820db67b8001f1d3d13077d385f21d88
-	guanche.0005.t: "카나리아 제도 연합" # 9d44a7c15e313f3185c1e678e7aa511e47228a62
-	guanche.0005.desc: "강함, 간계, 외교술을 통해 저는 최근 카나리아 제도를 하나의 왕국, [canarias_kingdom.GetName]으로 통합했습니다. 더 이상 이 섬들이 하찮고 다투는 추장들 사이에서 분열되어서는 안 됩니다.\n\n수 세대에 걸쳐 우리 땅을 우연히 발견한 바다 건너 외부인들은 다른 사람들이 우리 섬에 대해 말하는 소문을 우리에게 말했습니다. 어떤 사람들은 우리가 #V 축복받은 섬#!, 선하고 정의로운 사람들이 죽은 후 머무르는 풍요로운 낙원이라고 말했습니다. 다른 사람들은 또한 우리가 #V 세상의 끝자락#!이라고 말했습니다. 우리 섬 이후에는 대양 건너 더 이상 땅이 없기 때문입니다.\n\n이것들은 좋은 소문입니다. 우리는 우리의 젊은 왕국의 명성을 높이기 위해 이러한 전설을 받아들이고 퍼뜨려야 합니다. 그래야 외부인들이 우리를 경외심을 가지고 이야기할 것입니다." # e4f1b634381d8196cde20563017081de220723cc
-	guanche.0005.a: "행복한 섬들은 하나로 통합되고 번영한 왕국입니다." # 7353419c8ac5db835953c267d8e5345f00e4a68c
-	guanche.0005.b: "세상의 끝자락이 하나의 깃발 아래 있으니, 우리는 그 누구에게도 굴복하지 않으리라!" # d15d3d31a113619d929c3a46c3504782ff4835f1
-	guanche.0006.t.fortunate_isles: "행운의 섬" # a736e3bd5ca0fe48b83d6e772595e92708042e75
-	guanche.0006.t.worlds_edge: "세상의 끝" # 062aa5c2e281190d409eabebbd72f387a0717e90
-	guanche.0006.desc: "수 세기 동안 카나리아 제도는 많은 사람들에게 신화와 전설의 장소였습니다. 실제로 섬들은 다양한 작은 부족들로 나뉘어 있었습니다. 그러나 시대가 변하고 있습니다. [canarias_king.GetTitledFirstName]께서 [canarias_king.GetHerHis] 통치 아래 섬들을 통일했습니다." # dcbb661b3cb7501790f4d3ee844a08622a3937f3
-	guanche.0006.desc.fortunate_isles: "[canarias_kingdom.GetName]의 큰 번영에 대한 소문이 벌써 퍼지고 있습니다. 고대에도 그리스인, 로마인, 페니키아인들은 이 섬들을 고대 전설 속의 #V 축복받은 섬#!으로 여겼는데, 그 이유는 그곳이 지복과 풍요의 땅이라고 소문이 났기 때문입니다. 현지인들은 이러한 명성을 완전히 받아들였습니다." # 51a86951606b8a19ad84e670c1b1a8699337b976
-	guanche.0006.desc.worlds_edge: "[canarias_kingdom.GetName] 전사들의 강인함과 교활함에 대한 소문이 이미 퍼지고 있다. 세대를 거듭하며 많은 이들은 이 섬들을, 끝없는 대서양으로 들어가기 직전의 마지막 섬이기에, #V 세계의 가장자리#!와 같다고 믿어왔다. 이곳에서 살아남을 수 있는 것은 오직 엄청난 용맹함과 위엄을 지닌 민족뿐이라고." # 1157016a5527a9d553443ff445559879518d4def
-	guanche.0006.a: "이 섬들의 역사에서 다음은 무엇일까요?" # 25571391f3796665e3f518a1a68b48602c003a7b
-	guanche.0007.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0007.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0007.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0008.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0008.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0008.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0009.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0009.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0009.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0010.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0010.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0010.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0011.t: "의례 준비" # 28d8d929e0df3303ef1754ed9c8d6837b3070813
-	guanche.0011.desc: "비는 우리를 지탱합니다. 우리를 키우고, 우리가 먹기 위해 수확하는 작물에 생명을 불어넣습니다.\n\n하지만 비는 저절로 내리는 것이 아닙니다. 때로는 비가 내리지 않거나 적은 양만 내리기도 하며, 이는 종종 우리가 [ROOT.Char.GetFaith.PantheonTerm]에게 합당한 존경을 표하지 않았기 때문입니다.\n\n따라서 저는 [ROOT.Char.GetFaith.GetAdjective] 전통 기도 의식을 [rain_ritual_county.GetName]에서 [ROOT.Char.GetFaith.PantheonTerm]에게 드려 비를 내려주시기를 간청해야 할 때라고 결정했습니다. 이 의식의 일부로 저를 포함한 제 정착지의 모든 사람들이 의식을 수행하기 전 3일 동안 단식을 해야 합니다. 이 기간 동안 우리는 술을 마시지 않고 진지하고 애절한 애가를 하늘에 바치며 기도하여 [ROOT.Char.GetFaith.PantheonTerm]께서 우리를 불쌍히 여기시도록 할 것입니다. 이 의식에 얼마나 많은 노력을 기울여야 할까요?" # 1f8a1f38eb6733c3ff6395343fcb737364fc98dd
-	guanche.0011.desc.culture: "비는 우리를 지탱합니다. 우리를 키웁니다. 우리가 먹기 위해 수확하는 농작물에 생명을 불어넣습니다.\n\n하지만 비가 아무 데서나 오는 것은 아닙니다. 때로는 비가 오지 않거나 아주 적게 오기도 하며, 이는 종종 우리가 [ROOT.Char.GetFaith.PantheonTerm]에게 합당한 존경을 표하지 않을 때입니다.\n\n따라서 저는 [ROOT.Char.GetCulture.GetName] 전통 기도 의식을 [rain_ritual_county.GetName]에서 [ROOT.Char.GetFaith.PantheonTerm]에게 올리며 비를 내려주기를 간청해야 할 때라고 판단했습니다. 이 의식의 일부로 저를 포함한 모든 정착민은 의식을 치르기 전 사흘 동안 단식해야 합니다. 이 시간 동안 우리는 [ROOT.Char.GetCulture.GetNameNoTooltip]이 우리를 불쌍히 여기도록 술에 취하지 않은 채 침울하고 슬픈 애가를 하늘에 기도하고 노래할 것입니다. 이 일에 얼마나 노력을 기울여야 할까요?" # f916b7cbd6905a337b26b4722eac8aa90ab1d3ef
-	guanche.0011.a: "그 의식에 필요하고 예상되는 모든 것을 수행하십시오." # 7d0e025eeaa036b18fd6d170204834ad021dfea8
-	guanche.0011.b: "평소보다 더 크게 통곡하고 슬퍼하며 금식하십시오." # 718dc384ffb2ccb097acaf440e0a4b9623ac356b
-	guanche.0011.c: "[ROOT.Char.GetFaith.PantheonTerm]이 우리의 슬픈 간청을 들으시도록 온 힘을 다하십시오!" # fa2d0233a277f06cc73acea4d27436cf4d5f6721
-	guanche.0011.tooltip: "[명성|E] #P 소모량 증가#은(는) [왕국 수도|E]에 더 강력한 [지역 수정치|E]를 얻을 확률을 높입니다!" # 3b093aa52202c189519c32a885df831eeb259b3b
-	guanche.0011.fasting_weakness: "단식 후 허약함을 느낍니다" # af0d320c12455436bd482fabf3a666e7f75007ec
-	guanche.0012.t: "강우 의례" # 035d91c6b893148d68e692f32a141e4e157af8cb
-	guanche.0012.desc: "3일간의 단식 후, 저와 많은 사람들은 가축을 데리고 [rain_ritual_county.GetName]에서 가장 높은 곳 중 한 곳, 특히 울타리 안의 신사로 향합니다. 우리 중 일부는 춤을 추고 다른 사람들은 멜로디 소리를 내는 특수 돌인 석금을 치며, 모두 제단 불 주위에서 애통하는 기원을 합니다. 우리는 [ROOT.Char.GetFaith.CreatorName]과 [ROOT.Char.GetFaith.WaterGodName], [ROOT.Char.GetFaith.FertilityGodName]과 모든 [ROOT.Char.GetFaith.PantheonTerm]에게 우리의 공물을 받아들이고 우리가 살고 번성하는 데 절실히 필요한 비를 주시기를 간청합니다.\n\n그 후, [ROOT.Char.Custom('DefaultPriestTitlePlural')]이 불 주위에 모여 연기를 해석하여 [ROOT.Char.GetFaith.PantheonTerm]과의 소통이 결실을 맺었는지 확인합니다…." # 2ac5850c1a2d476b02902b79ef30044d3baa42b2
-	guanche.0012.a: "[ROOT.Char.GetFaith.PantheonTerm]이(가) 우리를 위해 무엇을 준비했는가?" # e7efb7c323557544c18f977660304b58c38413d8
-	RICE_guanche_rain_blessing_nothing_tooltip: "비를 기도했지만... 소용없었나 봅니다." # 2084faffeccfbf87a959dcd29c8c337fe04d4602
-	guanche.0013.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0013.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0013.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0020.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0020.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0020.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0021.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0021.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0021.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0022.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0022.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0022.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0023.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0023.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0023.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0024.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0024.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0024.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0025.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0025.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0025.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0026.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0026.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0026.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0027.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0027.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0027.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0028.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0028.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0028.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0030.t: "베네스멘 준비하기" # b5efe3c095feec1b76fbc5e7526146000d409642
-	guanche.0030.desc: "베네스멘 축제가 곧 시작될 예정이며, 모두가 이 행사를 준비하기 위해 최선을 다하고 있습니다. 전통적인 [ROOT.Char.GetFaith.GetAdjective] 신년 및 수확 축제로서, 이 축제는 우리 공동체에 매우 중요합니다. 저는 올해 축제가 성공적으로 개최될 수 있도록 다른 유력 인사들과 협력했으며, [ROOT.Char.GetFaith.PantheonTerm], 특히 [ROOT.Char.GetFaith.CreatorName], [ROOT.Char.GetFaith.WealthGodName], [ROOT.Char.GetFaith.HealthGodName]께서 우리의 노력에 기뻐하실 것입니다." # 200fba56b5c67d81c1d162b240d9e52c33d80ab6
-	guanche.0030.a: "시작하기가 너무 기다려져요!" # bc63a80ec0fef7c600e8116eb86419a0f6a20b08
-	guanche.0031.t: "베네스멘 시작!" # 79eec6059946faaaaa62236618d5323f195b482a
-	guanche.0031.desc: "베네스멘 축제가 다가왔습니다! 저와 같은 가장 강력한 [ROOT.Char.GetLadyLord]부터 다양한 [ROOT.Char.Custom('DefaultPriestTitlePlural')], 그리고 가장 겸손한 목자와 농부에 이르기까지 많은 지역 주민들이 인근의 #italic 타고로#! 앞에 모였습니다. 타고로는 이러한 회의를 주관하기 위해 만들어진 돌 원이며, 이 지역에서 가장 높은 지점 중 한 곳에 위치해 있습니다.\n\n[ROOT.Char.GetFaith.PantheonTerm]께 찬양을 드립니다. 올해도 최대한 많은 수확을 거둘 수 있었습니다! [ROOT.Char.GetFaith.DevilName]의 세력이 휩쓰는 이 혼란스럽고 고통스러운 세상에서, 저희에 대한 그들의 도움은 정말 큰 행운입니다." # 09d9a39b9a4b3d1f67fb627204d914d7b276b92c
-	guanche.0031.a: "[ROOT.Char.GetFaith.PantheonTerm]을 찬양하라! 축제를 시작하자!" # 8103e567ad26d8fda22e96c1859efce77f052815
-	guanche.0032.t: "베네스멘 종료" # 8f97645f5d4145b4ee3fcb4b14cac284c5e99913
-	guanche.0032.desc: "베네스멘 축제가 막을 내렸습니다. 모두가 즐거운 시간을 보냈고, 수확철과 구년을 마무리하는 좋은 방법이었습니다. [ROOT.Char.GetFaith.PantheonTerm]께서 다가오는 새해에 우리 왕국을 호의롭게 보살피시고, 풍성한 수확과 번영으로 이 땅을 축복해 주시기를 바랄 뿐입니다." # e575c87cdb09d98586f9378d34f48a5d87b17b21
-	guanche.0032.a: "다음에 뵙겠습니다!" # e01f4d8c3efc1513440fd42d101f0c5d6139b1c5
-	guanche.0033.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0033.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0033.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0034.t: "의례 과제" # 7e12c9a9993c4aeb8ec7de3d80e5a287e3d012b4
-	guanche.0034.desc: "베네스멘 축제의 일부는 목축, 어업, 공예 제작과 같이 공동체의 각 구성원이 다가오는 해에 참여할 임무를 의례적으로 할당하는 것을 포함합니다. 나는 #italic 타고로르#! - 공동체 회의 장소 역할을 하는 돌 원 안에 앉아 다른 저명한 사람들과 함께 이 중요한 의식을 진행합니다." # e635f0404aa223ec5b62ad15e9e48c4590dd1b76
-	guanche.0034.a: "당신은 이렇게 하고, 저렇게 하고, 이렇게 하고, 저렇게 하고…." # 76f1ad7ea9f6366d7919543976697d5f2e5c81c7
-	guanche.0035.t: "[ROOT.Char.GetFaith.FertilityGodName]께 찬미를!" # c49f4dd4b3b1b3bb639a8c19b1b50c901ea8a3b1
-	guanche.0035.desc: "축제에 참여하여 저는 [ROOT.Char.GetFaith.FertilityGodName]께 경의를 표합니다. 그리하여 땅이 풍요로움으로 가득하고 우리 후손들이 번성하게 되기를 바랍니다. 저는 기도하기 위해 신성한 돌이나 바위로 나아갑니다." # 345fe171df75ecb29ac78e037078ed1b7be58e12
-	guanche.0035.a: "오, [ROOT.Char.GetFaith.FertilityGodName]시여, 저의 기도를 들어주소서!" # 5c6d3ff5be29da2bcc567f2bba2d4c684ef8fa2e
-	guanche.0035.toast: "[ROOT.Char.Custom('DefaultPriestTitle')]이 [ROOT.Char.GetFaith.FertilityGodName]께서 제 기도를 들어주셨다고 말합니다!" # 0bdeecaaba0b632afbf376277efdeb95284f48a2
-	guanche.0036.t: "산의 영광" # e5c62689e994438edab9d71ac1c65c527174b5af
-	guanche.0036.desc: "[ROOT.Char.GetFaith.GetAdjective] 신앙에서 산과 높은 지형지물은 신성한 장소로 여겨집니다. 베네스멘 축제가 계속되는 동안, 저는 때때로 근처의 언덕과 산을 바라보며 [ROOT.Char.GetFaith.PantheonTerm]께서 우리를 위해 창조하신 것에 경외심을 느낍니다." # d3a6207bf8a455a143f209f276cf0b6419ed4d0e
-	guanche.0036.a: "정말로 감명 깊습니다." # 3c80ecbdfd91c33895fb842a6f4bb51ce9c6735f
-	guanche.0037.t: "양과 염소 공양" # c4d34ffb485681a39525cf88660093862b20fdf1
-	guanche.0037.desc: "베네스멘 기간 동안 [ROOT.Char.GetFaith.PantheonTerm]에게 바치는 공물의 일환으로, 우리는 양과 염소의 두개골과 발굽을 불에 던집니다. 우리가 기도하는 동안 연기가 하늘로 올라가고, [ROOT.Char.Custom('DefaultPriestTitle')]은 [ROOT.Char.GetFaith.PantheonTerm]께서 분명 기뻐하실 것이라고 말합니다." # 41425101156bf4a639349d10b326c47d5f55a527
-	guanche.0037.a: "그렇기를 바랄 뿐입니다." # 10c3fa7ea23ef6c960658004978bee438b14d457
-	guanche.0038.t: "락 온" # 8f0c9100ab09263ff03b8f990f87ecdd094077a7
-	guanche.0038.desc: "베네스멘 동안, 우리 중 일부는 노래와 기도를 동반하기 위해 멜로디가 있는 노래를 내는 돌과 암석인 리토폰을 연주합니다. 이 아름다운 자연의 소리는 저를 편안하게 만들고 [ROOT.Char.GetFaith.PantheonTerm]의 영광에 더욱 잘 맞춰진 느낌을 줍니다." # 1b7527a8d70724fd797132f77bd623414060f6fb
-	guanche.0038.a: "정말 아름다운 음악이네요!" # 2d0fb9b3328c7af6f8748b6fc1018338511eed3f
-	guanche.0039.t: "연회" # fc70a8c2f75bea3d2a9e1c643460bc385353cf4c
-	guanche.0039.desc: "우리는 방금 베네스멘을 위한 [ROOT.Char.GetFaith.PantheonTerm]에게 양과 염소를 제물로 바치는 것을 마쳤으며, 지금은 그들의 고기를 먹으며 잔치를 벌이고 있습니다. 불에 구운 고기는 씨앗이나 곡물과 같은 다른 식료품과 잘 어울립니다." # 5afd90c20842d3ced72825c3ac3c7a8faf321f5b
-	guanche.0039.a: "맛있습니다!" # 609ce8524064bc90c0207fb1266e2e4ec6cfcbed
-	guanche.0040.t: "주니퍼" # 8226d44c1a1f989f657556c9ff3dd82bde77d28f
-	guanche.0040.desc: "저와 다른 사람들은 베네스멘을 위한 희생과 기도를 계속하며 불에 노간주나무를 던집니다. 향긋한 냄새가 온 지역에 퍼져 우리에게 더 큰 거룩함과 미덕의 행위를 하도록 영감을 줍니다." # 47cc07387fa445b6ca793388fa61b90cb9c75fd4
-	guanche.0040.a: "정말 멋진 식물이군요." # abce3d3229ab7e731e48f7e51f911dc728c2c046
-	guanche.0041.t: "춤" # b6fe8586434a4165d8531d4cc3c065a8a9e700df
-	guanche.0041.desc: "베네스멘은 단순히 침울한 기도를 위한 시간이 아니라 수확의 끝을 기념하는 축제이기도 합니다! 그 축제의 일부는 춤을 추는 것이며, 지금 우리 중 많은 사람들이 그러한 춤을 추기 시작했습니다. 남녀는 서로에게 다가가 접촉하지 않고 음악 소리와 관중들의 발 구르기, 박수, 휘파람 소리에 맞춰 서로를 중심으로 비틀고 회전합니다." # c4ff2fd1de7c4e7955161d8763c615c9d51e2c4c
-	guanche.0041.a: "이것 재밌네요!" # 363cdebaabf895ac4cefa1563251976f95a54f17
-	guanche.0042.t: "어떤 음악에 맞춰 노래하고 춤출까요?" # d7b7df957e718bb2de49f2f806602997d39e72e5
-	guanche.0042.desc: "베네스멘 축제는 다양한 음악으로 가득 차 있으며, 다음으로 무엇을 부르고 춤출지 선택할 시간입니다. 모든 사람들이 자리에 있는 최고의 귀족인 저에게 선택을 요청합니다. 아마도 우리는 손을 맞잡고 슬픔을 노래하거나, 아니면 과거의 씁쓸한 사건들을 노래할 수 있을 것입니다. 아니면 과거 영웅들을 기리기 위해 전쟁 노래를 부를 수도 있습니다." # feb0fa1f8082023c7357ee43910b2a5d0b87ebe0
-	guanche.0042.a: "우리 마음속 깊은 감정을 느끼며, 우울한 노래를 부르자!" # 1677fc1f6a4bbcaa04c1270e0a628fa10476ea27
-	guanche.0042.b: "승리한 영웅들의 노래와 함께 축하할 시간입니다!" # d7646816759f861fdffdbcee181d3dbc5eb6a217
-	guanche.0043.t: "스포츠" # 1855c2e357023dd4f4d4eb827506658f22907ca7
-	guanche.0043.desc: "베네스멘이 계속되면서 이제 스포츠와 경쟁의 시간이 되었습니다! 재능 있는 남녀들이 레슬링, 달리기, 양치기 도약에서 경쟁하는 모습을 보기 위해 많은 사람이 원을 그리며 모였습니다. 양치기 도약은 위험한 지형을 가로지르는 기술로, 긴 나무 막대기 하나만 사용하여 민첩하게 튀어 오르며 이리저리 이동합니다." # 93b49da6a067844d9dacb7bec834d09dae3bec35
-	guanche.0043.a: "정말 멋진 광경입니다!" # dd447075f696c1d2c814919ed2490525bbc4a7fd
-	guanche.0044.t: "분쟁 해결" # c6027afc23c5b18dbf05ec89dfa69fdcf66e843f
-	guanche.0044.desc: "베네스멘은 종종 공동체 내 사람들 사이의 분쟁을 해결할 기회가 됩니다. 저와 다른 중요한 장로들, 그리고 [ROOT.Char.Custom('DefaultPriestTitlePlural')]께서는 방금 공동체 내 두 가문 사이의 불화를 성공적으로 끝냈으며, 그들은 축제의 정신으로 화해하기로 합의했습니다." # 74931794a61ff3e68d2b60aa0b79f5162a78e940
-	guanche.0044.a: "훌륭합니다!" # e65e8c7504556ee02b6a61f9d5ac9e68fb921ced
-	guanche.0045.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0045.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0045.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0046.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0046.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0046.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0047.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0047.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0047.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0050.t: "마데이라에 사탕수수 도입" # 21fec7f3a8e0e1d441731b8bde27c69b2c7281a1
-	guanche.0050.desc: "[madeira_county.GetNameNoTier]는 지리적 조건도 뛰어나고 목재도 풍부한데, 이곳에 아직 사탕수수 산업을 일으킨 사람이 없다는 점은 놀랍습니다. 이제 제가 가진 여러 연줄을 활용하여 지중해에서 활동하는 여러 상인들이 이 섬에 사탕수수를 도입하는 데 자금을 대겠다고 나섰습니다. 노예 노동력과 상인들의 투자가 충분히 있다면 마데이라에서 멋진 일이 시작될 것입니다.\n\n일각에서는 적절한 관리만 이루어진다면 시칠리아, 키프로스, 안달루시아 같은 기존의 사탕수수 생산 중심지를 한두 세대 안에 능가할 수도 있다고 믿습니다. 저는 그건 비현실적인 예측이라고 생각하지만, 그런 낙관적인 태도는 존경스럽습니다. 그건 너무나도 좋은 일이고, 그런 일이 일어난다면 분명히 대가가 따를 것입니다." # 09b40802de2f47e94a86a80b6b104023ab7d9b68
-	guanche.0050.a: "그럼에도 불구하고, 우리는 많은 이익을 얻을 수 있을 것입니다." # 07b7d71f9cbd851a46d6638e872376916d45568a
-	guanche.0051.t: "마데이라에 사탕수수 도입" # 21fec7f3a8e0e1d441731b8bde27c69b2c7281a1
-	guanche.0051.desc: "[madeira_ruler.GetTitledFirstName]이 [madeira_county.GetNameNoTier]에 사탕수수를 도입하는 데 앞장섰습니다. 섬의 풍부한 목재는 의심할 여지없이 이곳의 급성장하는 설탕 산업에 연료를 공급할 것입니다. 다른 곳의 사업 경쟁자들을 우회하려는 지중해 상인들과 협력하여 [madeira_ruler.GetFirstName]은 설탕 자체뿐만 아니라 밭에서 일할 노예와 설탕 공장 건설 등을 감독할 시칠리아와 더 먼 곳에서 온 조언자들을 데려오고 있습니다. 어떤 사람들은 언젠가 이 섬이 시칠리아, 키프로스, 안달루시아와 같은 전통적인 사탕수수 생산 중심지를 능가할 수도 있다고 생각합니다." # 07bd8433bb6a41a84b9d27f0c78a5b4d8f2afc57
-	guanche.0051.a: "끝없는 설탕이라니... 너무 좋아서 거짓말 같아요!" # 6b91587174d9e4bd8b0c83131dbe69d4c347631b
-	guanche.0052.t: "마데이라의 설탕 산업 붕괴" # 73c3e7b24b9fdc7a69f749a27e2390212da01310
-	guanche.0052.desc: "우리는 행동했어야 했지만, 이제 너무 늦었습니다. [madeira_county.GetNameNoTier]의 급격히 줄어드는 목재 공급은 우리가 무시했던 경고 신호였습니다. 끝없이 목재가 풍부한 섬이었던 마데이라가 언젠가 설탕 산업을 유지하기에 충분한 목재가 없을 것이라고는 상상하기 어려웠지만, 그날이 왔습니다.\n\n한때 마데이라의 넓게 퍼져 있던 사탕수수 농장과 근면한 설탕 공장을 소유하고 운영하는 상인들은 지역에서 구할 수 있는 목재가 갑자기 부족해 설탕 생산량이 역대 최저 수준이며 섬의 설탕 산업이 빠르게 붕괴하고 있다고 말했습니다. 이곳의 설탕 산업이 언젠가 회복될 수도 있지만, 수출된 목재에 의존해야 할 것이며, 한때의 영광스러운 높이에 도달하지는 못할 것입니다." # f929cf7e27064a11d52f888611904c17c065ec5f
-	guanche.0052.a: "이것은 우리 경제에 좋지 않습니다." # fd7901ee55850b5f9dfa707ae960b87b36760015
-	guanche.0053.t: "마데이라의 설탕 산업 붕괴" # 73c3e7b24b9fdc7a69f749a27e2390212da01310
-	guanche.0053.desc: "수십 년 동안 [madeira_county.GetNameNoTier]에서 생산되는 설탕의 양은 알려진 세계의 부러움을 샀습니다. 이는 섬에서 발견되는 막대한 양의 목재가 설탕 산업을 부추겼기 때문입니다. 키프로스, 안달루시아, 시칠리아와 같은 한때 위대했던 설탕 생산 중심지들은 마데이라로 들어오는 이익에 비하면 보잘것없었습니다. 슬프게도, 모든 좋은 일에는 끝이 있기 마련입니다.\n\n수년간 억제되지 않고 지속 불가능한 벌목으로 인해 마데이라에 대규모 삼림 파괴가 발생했으며, 섬의 많은 사탕수수 농장과 제당 공장이 문을 닫고 있습니다. 더 이상 사용할 수 있는 현지 목재가 충분하지 않습니다. 이곳의 설탕 산업이 언젠가 회복될 수도 있지만, 한때 영광스러웠던 전성기에는 결코 미치지 못할 것입니다." # 75566151adbc293e4a5a570c35a040a370f04614
-	guanche.0053.a: "이제 설탕 생산의 중심은 어디로 이동할까요?" # 08ea74527caca34d0099ab549aac68ea005dda85
-	guanche.0054.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0054.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0054.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0055.t: "사탕수수가 카나리아 제도로 유입됨" # 3c936d97778ef29a65d2bc240de79fdbb741abd6
-	guanche.0055.desc: "사탕수수가 처음 [madeira_county.GetNameNoTier]에 소개된 이후, 지중해와 서유럽의 기업가들은 카나리아 제도에 설탕을 가져오는 데에도 투자하는 것을 고려해 왔습니다. 최근에 그들의 계획이 결실을 맺었습니다.\n\n현지 엘리트들과 협력하여, 이 상인들은 [canarias_county.GetNameNoTier]와 [fuerteventura_county.GetNameNoTier]에 지역 사탕수수 농장을 설립하기 시작했습니다. 그들은 마데이라와 다른 곳에서 전문가를 데려와 과정을 감독하고, 아프리카 전역에서 노예들을 데려와 비참한 환경에서 설탕을 생산하도록 했습니다.\n\n카나리아 제도의 제당소는 마데이라만큼 많은 설탕을 생산할 것으로 예상되지는 않지만, 여전히 상당히 수익성이 있을 것입니다." # 7aa839af221c50f60c21b1dbc80803586f1e1c9b
-	guanche.0055.a: "섬들의 경제는 분명히 이로부터 이익을 얻을 것입니다." # 4d9a4857bbddc6d1f92804d7696dd522ded8e1ec
-	guanche.0056.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0056.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0056.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0057.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0057.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0057.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0058.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0058.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0058.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0059.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0059.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0059.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0060.t: "티비세나" # 7b94c854ea8a5f3dc0f27e1f34236a0d4104e916
-	guanche.0060.desc: "#italic 티비세나#!가 여기에서 멀지 않은 동굴에 살고 있다는 보고가 있었습니다. [ROOT.Char.GetCulture.GetName] 민속의 이 악마들은 긴 털과 붉은 눈을 가진 검은 개처럼 생겼으며 가축과 심지어 사람들을 잡아먹는다고 합니다. 어쨌든 최근에 많은 가축들이 불가사의하게 죽었고 많은 지역 주민들은 이 끔찍한 악마들이 그 원인이라고 믿고 있습니다." # 43863bae4cb10ad1bcec099fefaa02749e3d3b01
-	guanche.0060.a: "[ROOT.Char.GetFaith.PantheonTerm]께 기도하여 이 악으로부터 우리를 구원하소서!" # c8f80cc2c396ad22ce6fd7359da31670b06cd10f
-	guanche.0060.b: "아마도 그냥 산적일 겁니다. 지역 민병대를 경계 태세로 전환하십시오." # 3a12cd94eb0efb41da4f0c81ada68bec0cf039c2
-	guanche.0061.t: "타고로르 회의" # 2a4e87b589df47bc0f812b816523ca64606501cf
-	guanche.0061.desc: "나는 인근의 #italic 타고로르#!에서 만나기 위해 지역 유지들을 모았습니다. 이곳은 [ROOT.Char.GetCulture.GetName]의 전통적인 돌 원형 회합 장소로 자주 사용됩니다. 오늘 저는 지역 유지들과 여러 가지 문제에 대해 논의하고 싶었습니다. 우리는 모두 각자의 돌 위에 앉아 오랫동안 이야기를 나누었고, 회의는 순조롭게 진행 중입니다." # 1e8d48cfc701c8491545a250a2fe39c0901245ad
-	guanche.0061.a: "이 회의는 지루하니, 그냥 딴 생각을 해야겠다." # 3923046c84e9c5d178511a2b5fe5eafc70c57d48
-	guanche.0061.b: "평화를 유지하기 위해 해결하고 싶은 지역 분쟁이 많습니다." # fcc54d0593d01bfb9155e0a185bb54eb44df0cca
-	guanche.0061.c: "나는 이 땅을 다스리는 것에 대해 다른 사람들이 하는 제안을 주의 깊게 듣습니다." # d527e5e739235c833fcc4c5038b07038db5fc258
-	guanche.0062.t: "휘파람 언어" # 560ba0ec6f7daf66b67e0dd35a6734c8ac0dc459
-	guanche.0062.desc: "최근에 몇 명의 새로운 휘파람꾼이 제 고용인이 되었습니다. 전통적으로 이들은 [ROOT.Char.GetCulture.GetName] 휘파람 언어에 능숙하여 우리 고향의 산과 계곡을 가로질러 정보를 전달합니다. 이 방법은 중요한 공지 사항을 전파하는 데 사용됩니다.\n\n어쨌든, 제 새로운 휘파람꾼들은 매우 재능이 있으며 이전 휘파람꾼들보다 더 큰 휘파람 소리를 낼 수 있어서 제 지역 업무를 관리하는 데 도움이 될 것입니다." # 58f89a1ce963439411c05bcd770e1d1e21bbcd17
-	guanche.0062.a: "내 귀에 음악이 들리는군!" # 4ba741834a41d719b68d9ce5be7441f0f60ab0bf
-	guanche.0063.t: "양치기의 도약" # 46ea916a787178997f117dc78c45e12a95414e23
-	guanche.0063.desc: "오늘 저는 현지 [ROOT.Char.GetCulture.GetName] 양치기들의 도약 경기를 관람하고 있습니다. 과네체족의 고향인 카나리아 제도는 많은 지역이 험준하기 때문에 그곳의 양치기들은 전통적으로 긴 나무 막대기를 사용하여 협곡을 뛰어넘거나 가파른 지형을 내려갔습니다. 수 세기에 걸쳐 시전자가 거의 힘들이지 않고 이러한 공간을 빠르게 이동할 수 있도록 여러 곡예 기술이 개발되었으며, 소위 #italic 양치기의 도약#!은 지역 스포츠가 되었습니다." # 0fbe58637497140faf8dfb42b9c3c964cd40be14
-	guanche.0063.a: "감탄스러운 광경입니다!" # cef35f918a488607d2e46a99f0327be0fb9965d8
-	guanche.0063.b: "참가자들을 격려하기 위해, 승자에게는 큰 상을 수여할 것입니다." # 9cd1854fcc972c063c5196be10e45502131500bb
-	guanche.0063.c: "내가 직접 대회에 참가했지 - 운동이 되었어!" # 544d6c9d97b725583f7b9ff00d2f79a82d0b1625
-	guanche.0064.t: "단순한 목걸이" # bc20cb91334119b6fd2d1bad4453dc03544898c6
-	guanche.0064.desc: "전통적으로, 우리 [ROOT.Char.GetCulture.GetName]는 나무, 뼈, 조개껍데기와 같은 가장 단순한 재료로 가장 아름다운 장신구를 만드는 방법을 찾아냈습니다. 오늘, 몇몇 지역 주민들이 그런 재료로 만든 아름다운 목걸이를 저에게 선물했습니다." # 88aa5fc77cb962a41e4fe88a3852629c85eac2f7
-	guanche.0064.a: "확실히 놀랍지만, 환영할 선물입니다!" # 1033c8bab0e25cc85058df41bf43756da6de6cf4
-	guanche.0065.t: "불 제물" # 131862266e597d964d466a936873f06e34ac6f2b
-	guanche.0065.desc: "최근 저는 높은 언덕에 있는 지역 제단에서 전통적인 [ROOT.Char.GetFaith.GetAdjective] 방식으로 채소를 태우는 제물을 바쳤습니다. 제가 데려간 [ROOT.Char.Custom('DefaultPriestTitle')]은 이 제물에서 피어오른 연기의 의미를 해석하며, [ROOT.Char.GetFaith.PantheonTerm]께서 이 제물에 만족하신 것 같다고 말했습니다." # 55790665e5656554d219bf22e76fd3f5aaf9d3c2
-	guanche.0065.a: "그렇다면 제가 축복받은 것 같습니까?" # 5311d8bae4fd7ae487fcf984ca4d2800ab103f21
-	guanche.0066.t: "불 제물" # 131862266e597d964d466a936873f06e34ac6f2b
-	guanche.0066.desc: "최근에 저는 높은 언덕에 있는 지역 제단에서 전통적인 [ROOT.Char.GetFaith.GetAdjective] 방식으로 야채를 태워 제물을 바쳤습니다. 이 제물에서 피어오르는 연기의 의미를 해석하기 위해 데려간 [ROOT.Char.Custom('DefaultPriestTitle')]은 [ROOT.Char.GetFaith.PantheonTerm]이 제물에 관심이 없을 뿐만 아니라 모욕감을 느낀 것 같다고 말했습니다!" # 59f08a80c5418aad4dcb6d154a6e89df21629d05
-	guanche.0066.a: "분명히 이건 단순한 오독일 뿐일 거예요." # ff88fef02f4afc0d14a9491a73608124f51536ed
-	guanche.0067.t: "리토폰" # b2e6d7c1a3e9a325c5cd0087ccd589d5f57c4f24
-	guanche.0067.desc: "내 영지에서 볼일을 보러 가는 길에, 나는 지역 [ROOT.Char.GetFaith.GetAdjective] 의식에 사용되는 석금악기를 지나간다. 이 돌들은 듣기 좋은 음악적 소리를 내며, 더 중요한 것은 [ROOT.Char.GetFaith.PantheonTerm]을 기쁘게 하므로 의식에 사용된다. 이 지역에 익숙한 내 수행원 중 한 명은 심지어 마녀와 사악한 영혼도 이 돌을 두려워하며, 지역 전설에 따르면 이 돌을 치면 이러한 위험한 존재들이 자신에게 너무 가까이 다가와 해를 끼치는 것을 막을 수 있다고 한다." # 58eec480367fcdf6ee6765b444d63658a2d90fec
-	guanche.0067.a: "정말 놀라운 이야기를 들었습니다." # eb4ae9c071ec3686879437c4a17fdef80376f399
-	guanche.0067.b: "제게는 어리석은 미신처럼 들립니다." # bca4036a383b996f5bf6ca6d63025d95f260a000
-	guanche.0068.t: "미라" # 4476b97319c1d05271fa854ac81016d7dd30b328
-	guanche.0068.desc: "근처 언덕을 돌아다니던 중, 몇몇 현지인들이 동굴 안에서 전통적인 [ROOT.Char.GetFaith.GetAdjective] 방식으로 방부 처리되어 묻힌 오래된 미라를 발견했습니다. 그 동굴은 다소 초라하고 그런 중요한 인물에게 적합하지 않습니다. 어쨌든 미라를 발견한 평민들은 어떻게 해야 할지 몰라서 저에게 지침을 구하러 왔습니다." # f8d78e2b9792dd58ab579fb245f77f9cdd70fffe
-	guanche.0068.a: "죽은 자는 그 자리에 있도록 내버려 두십시오. 방해하지 마십시오." # 33eb03761905d83c316ea30db506b82ac948f1a4
-	guanche.0068.b: "이 미라를 위한 더 나은 안식처를 찾아야 합니다." # 142b642d8ee91376300965303af265338c4d74e8
-	guanche.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	guanche.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  k_canary_islands: "카나리아스" # 9bbc6efb8fffb5e28763fd08b248bbd23034e358
+  k_canary_islands_adj: "카나리아" # 6ae33cd33e72a92ac45a181c893d030ccea2d74d
+  RICE_cn_canarias_arab: "알자자이르 알칼리다" # 948e645df9d80a4c6cfca766252a1c9bdf6c78de
+  RICE_cn_canarias_arab_desc: "알 자자이르 알 칼리다" # 948e645df9d80a4c6cfca766252a1c9bdf6c78de
+  RICE_only_formed_decision: "이 [title|E]은 특별한 [decision|E]을 통해서만 형성할 수 있습니다." # fb870b60892cc10d8d21f214be2d9c0b4a16674a
+  RICE_decision_guanche_culture_requirement: "당신의 [culture|E]은 과나체에서 파생되었거나 혼합되었습니다" # e4a7dc7cec8894592c5a0bd28c587b653651c612
+  RICE_guanche_rain_ritual_host_memory: "[GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName]을(를) 수행했습니다" # aa008d6c090d01b5018049d199325bcabfa0a414
+  RICE_guanche_rain_ritual_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName]을(를) 수행했습니다" # 757deed05a5a2240a9d6e2b780d2f91dbac4c1a5
+  RICE_guanche_rain_ritual_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName]을 수행했습니다." # 4ee22eee97a6c16e4a34f8dfc406e08e30eb7dae
+  RICE_guanche_rain_ritual_host_memory_third_perspective: "[owner.GetName]이(가) [GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName]을(를) 수행했습니다" # a20374ad5894f819ed2d70bb5397ac72fb922c5e
+  RICE_guanche_rain_ritual_guest_memory: "[host.GetTitledFirstName]이(가) 주최한 [GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName]에 참여했습니다" # 6d988c265a9d5a7f6527d94f6faa5dd34f5293e9
+  RICE_guanche_rain_ritual_guest_memory_first_perspective: "[GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName] 행사에 [host.GetTitledFirstName]가 주최하여 참여했습니다." # e6fd0cd404783215afc70eaa809bfbc7f5dd7257
+  RICE_guanche_rain_ritual_guest_memory_second_perspective: "[host.GetTitledFirstName]이(가) 주최한 [GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName]에 참여했습니다" # f13721b8bab83f2ca3c630791a02447a5d9c0699
+  RICE_guanche_rain_ritual_guest_memory_third_perspective: "[owner.GetName] 님이 [host.GetTitledFirstName] 님이 주최한 [GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName]에 참여했습니다" # 5fcd60b83ab9fceb563f549bcc88447a4eae7773
+  RICE_guanche_benesmen_festival_host_memory: "지역 [GetActivityType( 'activity_RICE_guanche_benesmen_festival' ).GetName]에 참석했습니다" # 13a1014b0674e931a1294f6c014f510f88c9acd6
+  RICE_guanche_benesmen_festival_host_memory_first_perspective: "나는 지역 [GetActivityType( 'activity_RICE_guanche_benesmen_festival' ).GetName]에 참석했습니다" # 117e61c6064212af78b67e6c17fc5e2d549e0de9
+  RICE_guanche_benesmen_festival_host_memory_second_perspective: "현지 [GetActivityType( 'activity_RICE_guanche_benesmen_festival' ).GetName]에 참여했습니다" # 749d40e05c201cb2768ac9b667a783243f8c557d
+  RICE_guanche_benesmen_festival_host_memory_third_perspective: "[owner.GetName]이 지역 [GetActivityType(  'activity_RICE_guanche_benesmen_festival' ).GetName]에 참석했습니다." # dca709393dfdb07de1e7fc216f952244df5594d0
+  RICE_guanche_benesmen_festival_guest_memory: "[host.GetTitledFirstName]와 함께 현지 [GetActivityType( 'activity_RICE_guanche_benesmen_festival' ).GetName]에 참석했습니다" # c8e1db7a25ff2b61be650cec675cba5087c5c3fb
+  RICE_guanche_benesmen_festival_guest_memory_first_perspective: "[host.GetTitledFirstName]와 함께 지역 [GetActivityType( 'activity_RICE_guanche_benesmen_festival' ).GetName]에 참석했습니다" # ee7e8ff057a169e65aabdc75b030ca463b371ae1
+  RICE_guanche_benesmen_festival_guest_memory_second_perspective: "[host.GetTitledFirstName]와 함께 지역 [GetActivityType( 'activity_RICE_guanche_benesmen_festival' ).GetName]에 참석했습니다" # 9cc310a7840b7c5f3a05056bfb059d2478944951
+  RICE_guanche_benesmen_festival_guest_memory_third_perspective: "[owner.GetName]이 [host.GetTitledFirstName]와 함께 지역 [GetActivityType(  'activity_RICE_guanche_benesmen_festival' ).GetName]에 참석했습니다." # 538fa929a87d40b91e6a590c7ddbf67d25f6365a
+  activity_RICE_guanche_rain_ritual_host_an_a: "$host_activity_a$" # a61241acadcc9f0c0c58e8a6756d1532a43a0ac3
+  activity_RICE_guanche_rain_ritual: "비 의식" # 3173b11935e37ebca4cd6553298fd24b34a5d830
+  activity_RICE_guanche_rain_ritual_desc: "[GetPlayer.GetFaith.PantheonTerm]께서 우리의 왕국에 풍족한 비를 내려주시어, 우리가 곡식을 키우고 번성할 수 있을까요? 우리는 천상에 대한 헌신을 보여주고, 가까운 미래에 생명을 주는 비를 요청해야 합니다." # 4edcf342b951d5368de24e9e29b51de475917462
+  activity_RICE_guanche_rain_ritual_selection_tooltip: "비의 축복을 기원합니다.\n\n$RICE_guanche_pray_for_good_rain_context_tooltip$" # 02f8e510a9088ee9f23aec500e4607a699b0fd8f
+  activity_RICE_guanche_rain_ritual_host_desc: "$BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$단식에 참여하면 증가하는 [development|E], [tax|E] 수입, [county_opinion|E]를 강화하는 [county_modifier|E]를 획득하는 [activity|E]를 개최하는 [county|E]의 기회" # b632f21e4504cee3a107437fd0e8e16d114c0487
+  activity_RICE_guanche_rain_ritual_guest_desc: "$BULLET_WITH_TAB$[신앙심_i|E][신앙심|E]" # b9ca3c1f455a3880c6eeb2d3d307feaca1e20694
+  activity_RICE_guanche_rain_ritual_destination_selection: "$activity_RICE_guanche_rain_ritual_province_desc$" # e17327244101c080ac89bb9db7bb62b5c25d8202
+  activity_RICE_guanche_rain_ritual_guest_help_text: "$activity_RICE_guanche_rain_ritual$" # 2870ee606987699dd320e73fefb89cb890a4ee0d
+  activity_RICE_guanche_rain_ritual_predicted_cost: "이 방문 비용은 주로 당신의 [income|E]에 따라 결정됩니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
+  activity_RICE_guanche_rain_ritual_conclusion_desc: "[GetActivityType( 'activity_RICE_guanche_rain_ritual' ).GetName]을(를) 완료했습니다. 올해 수확을 위해 충분한 비가 내리기를 바랍니다!" # bc12f36034cf06fc0e9c511bf96e5a6ca8cb582d
+  RICE_guanche_rain_ritual_prayer_phase: "기도" # 8c4f3272183be6934487f3838226b0ae72f60aa8
+  RICE_guanche_rain_ritual_prayer_phase_desc: "비가 없으면 어떻게 작물을 키울 수 있겠습니까? [GetPlayer.GetFaith.PantheonTerm]에게 비를 내려달라고 최선을 다해 빌어야 합니다." # 3a52d940c07004acf731f2154946bde690acb03f
+  RICE_guanche_rain_ritual_hope_intent_header: "희망:" # 27fd1ddad92381ebcf82693775071cc26bf90784
+  RICE_guanche_rain_ritual_hope_intent: "희망" # 183e3fcd89c2b9a4b11d6a85347f280e26906fce
+  RICE_guanche_rain_ritual_hope_intent_desc: "당신과 다른 모든 사람들은 [GetPlayer.GetFaith.PantheonTerm]에게 비를 내려달라고 최선을 다해 기도할 것입니다." # 254681272d1df67ed596bd4ecab2616e98484ef7
+  RICE_guanche_rain_ritual_completed_log_title: "비의식 수행 완료" # d441fb262ca6b2ca97f600d68a4100b241e93a31
+  RICE_guanche_rain_ritual_completed_log: "[CHARACTER.GetShortUIName|U]이(가) 강우 의식을 마쳤습니다" # a05d1eaa308131194244b13fd415db8c731cfaae
+  TRAVEL_NAME_FOR_activity_RICE_guanche_rain_ritual: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_guanche_rain_ritual$" # cc2cb6f931cd97934e7e4419d43a54366a0d2f6b
+  activity_RICE_guanche_benesmen_festival_host_an_a: "$host_activity_a$" # a61241acadcc9f0c0c58e8a6756d1532a43a0ac3
+  activity_RICE_guanche_benesmen_festival: "베네스멘 축제" # 6756a138049f6ac5e94014914d14b538703a0330
+  activity_RICE_guanche_benesmen_festival_desc: "수확기가 끝나가고, 옛 해도 저물어 갑니다. 카나리아 제도의 사람들이 태곳적부터 해 왔듯이, 신들을 제대로 숭배하며 새해의 도래를 알립시다!" # 1d4c033af5bcd4935c30493be3828824de5df76a
+  activity_RICE_guanche_benesmen_festival_selection_tooltip: "베네스멘 축제를 개최합니다.\n\n$RICE_guanche_celebrate_benesmen_festival_context_tooltip$" # 10ed1c05f365a1553e0bf9d502fde55dae8011c5
+  activity_RICE_guanche_benesmen_festival_host_desc: "$BULLET_WITH_TAB$[$prestige_i|E]명성[$prestige|E]$\n$BULLET_WITH_TAB$[$piety_i|E]신앙[$piety|E]$\n$BULLET_WITH_TAB$ [GetModifier('RICE_guanche_recently_celebrated_benesmen').GetNameWithTooltip] [character_modifier|E]" # ffe97c6d4c52668255dc392f5ec14825c40324a8
+  activity_RICE_guanche_benesmen_festival_guest_desc: "\n$BULLET_WITH_TAB$[prestige_i|E][prestige|E]" # aea4f240920e3a23b181b45990b59e532a502da7
+  activity_RICE_guanche_benesmen_festival_destination_selection: "$activity_RICE_guanche_benesmen_festival_province_desc$" # bbba93e2366a2ec716b975e0d3325f13574a2b68
+  activity_RICE_guanche_benesmen_festival_guest_help_text: "$activity_RICE_guanche_benesmen_festival$" # 304f10f7738ed64c6790ad732e068c64cd2ac407
+  activity_RICE_guanche_benesmen_festival_predicted_cost: "이 방문 비용은 주로 당신의 [income|E]에 따라 결정됩니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
+  activity_RICE_guanche_benesmen_festival_conclusion_desc: "올해의 [GetActivityType( 'activity_RICE_guanche_benesmen_festival' ).GetName] 축제가 끝났습니다. 정말 흥미진진한 행사였습니다!" # 9fc0d734b121c0456079faf1ea135d5ec1274483
+  RICE_guanche_benesmen_festival_festivity_phase: "축제" # 4488c63845d1736053175cd951af1162f3da0155
+  RICE_guanche_benesmen_festival_festivity_phase_desc: "수확기가 끝나면 새해를 맞이하는 베네스멘 축제가 있습니다." # 42a72319504605529cf97664c7f3c9bc67438d2c
+  RICE_guanche_benesmen_festival_celebration_intent_header: "축제:" # 371c542707a1b5aa743eae7582cdf810ffc5d775
+  RICE_guanche_benesmen_festival_celebration_intent: "축제" # b09768b17521ec1c8eff268544192ccc055706e7
+  RICE_guanche_benesmen_festival_celebration_intent_desc: "새해가 밝았습니다. 축하할 시간입니다!" # 11129d609569f2d9afc6f9c579f62ec459851d5c
+  RICE_guanche_benesmen_festival_completed_log_title: "베네스멘 축제 참여 완료" # 098b0bd34f88a07188a832962d04b1fb16559923
+  RICE_guanche_benesmen_festival_completed_log: "[CHARACTER.GetShortUIName|U] 님이 베네스멘 축제 참여를 마쳤습니다" # 689156624c5005eaf281f2aa2645eb9bdb313114
+  TRAVEL_NAME_FOR_activity_RICE_guanche_benesmen_festival: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_guanche_benesmen_festival$" # eee23b67d99eae2dde9e0c122190019c0d3da99e
+  building_type_RICE_guanche_madeira_levadas: "레바다 네트워크" # 402cde1fd5309ad9941b115d2ab86a4d92ebe047
+  building_type_RICE_guanche_madeira_levadas_desc: "마데이라 남부 지역은 대규모 농업, 특히 사탕수수 생산에 적합한 것으로 간주되지만, 한 가지 문제점이 있습니다. 바로 충분한 담수 부족입니다. 따라서 이 #italic 레바다#! 또는 특별한 관개 수로와 수로가 산에 새겨져 담수 부족을 완화하기 위해 건설되었습니다." # 7287900f0dd786a8075b35dfdfdf0d97cec0fb23
+  building_RICE_guanche_madeira_levadas: "$building_type_RICE_guanche_madeira_levadas$" # 51aeaec1a7a88c57dbe3e27d421364b8f3fe6c64
+  building_RICE_guanche_madeira_levadas_desc: "$building_type_RICE_guanche_madeira_levadas_desc$" # 8a1e236e3b7bd6821b1539a826fd9844d0b9ccb0
+  RICE_guanche_levada_requirement: "#V 마데이라에 사탕수수 도입# 결정을 내렸습니다!" # 97cc9ba8948d89b5c4f9df1885c4dd60d8951e7b
+  NOT_RICE_guanche_levada_disabled: "#V 마데이라에 사탕수수 도입# 결정을 내려야 합니다" # 44a1f43c0d0d82959300e86f9a642c9f1505e07b
+  RICE_guanche_madeira_sugarcane_beginning: "마데이라 사탕수수 산업의 탄생" # 6e4b1ca5e91d41b2506fd71fa12631d90358e560
+  RICE_guanche_madeira_sugarcane_beginning_desc: "지중해에서 들여온 사탕수수가 최근 마데이라에 소개되었고, 현재 산업이 호황을 누리고 있습니다. 여기의 사탕수수 농장에서는 각지에서 끌려온 노예들이 가혹한 환경 속에서 일하며 엘리트들에게 막대한 이익을 가져다주고 있습니다." # a18cf00b1a39066651a1da93ecba17c96b726e56
+  RICE_guanche_fasting_weakness: "단식으로 인해 쇠약함을 느껴" # 43b9f3c93bccef520555c4d403ef89ed9f63d253
+  RICE_guanche_rain_blessing_good: "비의 축복" # 339a846abc80bb4442a97029f92b2e9224bccb08
+  RICE_guanche_rain_blessing_good_desc: "최근 이 지역에는 예상보다 약간 많은 생명을 주는 비가 내려 축복을 받았으며, 이는 이 지역에서 일반적으로 받는 정상적인 양의 범위 내에 있으므로 다가오는 수확은 좋을 것입니다. 이러한 혜택에 대해 하늘에 감사해야 할까요?" # b99829b5864a96c8358c641b148d2e43daf46fa5
+  RICE_guanche_rain_blessing_great: "비의 위대한 축복" # 7992fd09a1ac2e5a80333cf2f881d809d3554df4
+  RICE_guanche_rain_blessing_great_desc: "최근 이 지역은 생명을 주는 비가 눈에 띄게 증가하는 축복을 받았으며, 이는 이 지역에서 예상되는 일반적인 양보다 많으므로 수확량이 더 많을 것입니다. 이 풍요에 감사해야 할 대상은 하늘입니까?" # 2fd79359759396dabca818b28d6506f9a7ab962c
+  RICE_guanche_rain_blessing_amazing: "놀라운 빗줄기의 축복" # 9f46b16c02ac9d939ead7f64bb422298e0e46472
+  RICE_guanche_rain_blessing_amazing_desc: "최근 이 지역에는 생명을 주는 비가 예상보다 훨씬 많이 내려 축복을 받았습니다. 물론 이 지역에 내리는 것이 타당한 수준이긴 하지만요. 당분간 수확량이 풍부할 것입니다. 이 풍요를 하늘에 감사해야 할까요?" # aebbc09c515f8d1cd8ce4ee1a757b6220cfa61c3
+  RICE_guanche_madeira_timber: "목재의 섬" # ab72874065fa46269c91c57f96809945ea34ea58
+  RICE_guanche_madeira_timber_desc: "마데이라에는 나무가 너무 많아 일부 지역은 사람이 거의 통행할 수 없을 정도입니다. 이곳에는 나무를 이용하려는 사람들을 위해 많은 목재가 있습니다." # 553c13906de3ca166ba934c0ac5c1ad4670412b8
+  RICE_guanche_madeira_owner_timber: "마데이라의 목재 착취" # 15cdf3fdeb7c1a96c1f63b3c9f1564c9a8fa2730
+  RICE_guanche_madeira_owner_timber_desc: "마데이라를 통치하는 군주는 풍부한 목재 자원을 통제할 것입니다. 그렇지만, 풍부하긴 하지만 무한한 것은 아니므로, 이 군주는 섬의 숲을 관리하는 데 주의해야 합니다." # ae02c859c5604b671257029df3e175165290ab40
+  RICE_guanche_madeira_sugarcane_crash: "사탕수수 산업 붕괴" # 799746202862ac1a88ad6ae0cdd108b0fe4ac2e7
+  RICE_guanche_madeira_sugarcane_crash_desc: "대규모 삼림 벌채로 인해 마데이라의 사탕수수 산업은 더 이상 예전처럼 유지될 수 없게 되었습니다. 사탕수수 생산은 사실상 하룻밤 사이에 붕괴되었고, 상인들은 계속 증가하는 세계적인 설탕 수요를 충족시키기 위해 다른 곳을 찾고 있습니다. 사탕수수 사업이 언젠가 이곳에서 회복될 수도 있지만, 이전의 영광스러운 수준에는 결코 도달하지 못할 것입니다." # 09c1792899b5c4c56235f0666cff6d7d92de7354
+  RICE_guanche_canary_islands_sugar_industry_booming: "사탕수수가 카나리아 제도로 확산됨" # 2d17bb0e077538b02ecda42fd13c366e3ada1c1a
+  RICE_guanche_canary_islands_sugar_industry_booming_desc: "사탕수수 산업이 최근 마데이라에서 카나리아 제도로 확산되었습니다. 마데이라의 사탕수수 농장만큼 수익성이 좋지는 않지만, 카나리아 제도에 새로 설립된 농장들은 여전히 상당한 수익을 올리고 있으며, 먼 곳에서 온 정착민과 상인들을 끌어들이고 있습니다." # cceb340f92a1406fd834f95d608471c74334f5a6
+  RICE_guanche_recently_celebrated_benesmen: "최근 축하받은 베네스멘" # fbcf36c1c51df9753a9c08ca347e3e9232b3fcdf
+  RICE_guanche_kingdom_fortunate_isles: "행운의 섬" # a736e3bd5ca0fe48b83d6e772595e92708042e75
+  RICE_guanche_kingdom_unified_fortunate_isles: "행운의 섬들 통합" # 57cc450a67d60149f9158afda7d23fb657b334c6
+  RICE_guanche_kingdom_worlds_edge: "세상의 끝" # 062aa5c2e281190d409eabebbd72f387a0717e90
+  RICE_guanche_kingdom_unified_worlds_edge: "세계의 끝 통합" # 753a7728142b00a46dd3e858a5174dbb63b24b7e
+  RICE_guanche_new_whistlers: "새로운 호각꾼" # 3143d4a8ce79de640132cd37bd1229e28f9ba259
+  RICE_guanche_new_whistlers_desc: "관체족 사이에서 '휘파람 언어'는 험준한 지형에서 빠른 의사소통을 용이하게 하는 데 사용되는 고대 전통입니다. 이 통치자는 이 예술에 재능이 있는 소위 휘파람꾼 몇 명을 고용했습니다." # 8e636ed0e4f43b620a1016c4403589a0258eb27e
+  RICE_guanche_fertility_prayer: "성공적인 다산 기도" # 5d1f6be0706a4117436374997326a9d5cdb6a32b
+  RICE_guanche_unite_canary_islands: "카나리아 제도 통일" # b0f91d484f3493f776d015ddc92874474383c9f8
+  RICE_guanche_unite_canary_islands_tooltip: "카나리아 제도의 싸우는 부족들은 함께해야 합니다!" # 2964bd75329a559d0fcc81848a9cbea303e5e7f3
+  RICE_guanche_unite_canary_islands_desc: "기억할 수 있는 한 오랫동안 카나리아 제도의 사람들은 소규모 씨족과 부족으로 나뉘어 있었습니다. 이제는 안 됩니다! 우리가 살아남고 지속하려면 하나로 단결해야 합니다." # 653cabf47e76a38fe369430125060d8d00e8c0d1
+  RICE_guanche_unite_canary_islands_effect_tooltip: "이 땅을 #P 행운의 섬#!으로 선포하여 경제 및 사회적 이익을 얻을지, 아니면 #P 세상의 끝자락#!으로 선포하여 군사 및 음모 이익을 얻을지 선택하십시오." # 6e92acd657582626a42908db0ef15d74f7a0cbe6
+  RICE_guanche_unite_canary_islands_confirm: "이 축복받은 섬들에 새로운 날이 밝았습니다!" # 7265fef00ee8256a6992c1add83ac3ebc04be81d
+  RICE_guanche_unite_canary_islands_context_tooltip: "#emphasis 역사적 배경:#! 고대에 카나리아 제도는 종종 전설 속의 행운의 섬들과 연관되어 있었습니다. 1400년대에 스페인인들이 카나리아 제도 식민지화를 시작했을 때, 그들은 카나리아 제도가 많은 소규모 부족과 왕국으로 나뉘어져 있어 섬들을 정복하기 훨씬 쉬웠다는 것을 알게 되었습니다." # e24427b963c706c04b7a8bbc5e300d4add5bd5c2
+  RICE_guanche_introduce_sugarcane_to_madeira: "마데이라에 사탕수수 도입" # afae803385b77f0929e7c3dcc0388ce1ee478d19
+  RICE_guanche_introduce_sugarcane_to_madeira_tooltip: "이 섬에서 사탕수수를 재배하면 수익성이 좋을 수도 있습니다..." # d821d5f06db39f4a711020f2323b9b74fd95ef37
+  RICE_guanche_introduce_sugarcane_to_madeira_desc: "사탕수수는 지중해 일부 지역에서 수익성이 좋은 환금 작물임이 입증되었으며, 마데이라는 사탕수수 재배에 완벽한 장소로 보입니다. 분명히, 마데이라의 풍부한 목재는 이곳에서 설탕 산업을 영원히, 혹은 적어도 오랫동안 지탱할 수 있을 것입니다... 맞죠?" # f1aa6b65e0e8a744d0b46e367b52abff2ce21e2e
+  RICE_guanche_introduce_sugarcane_to_madeira_effect_tooltip_1: "#V 레바다 네트워크# 건설 가능하게 합니다. [madeira_county.GetNameNoTier]의 [special_building|E]입니다." # 49ea3f00e5fe1737bd608b437425c4fd5b4a9d4b
+  RICE_guanche_introduce_sugarcane_to_madeira_effect_tooltip_2: "사탕수수는 미래에 [canarias_county.GetNameNoTier]와 [fuerteventura_county.GetNameNoTier]에도 도입될 수 있습니다." # 508b7c49038adf58484797365ff08e5f2e49a1ef
+  RICE_guanche_introduce_sugarcane_to_madeira_effect_tooltip_3: "#N 삼림 벌채#!로 인해 [madeira_county.GetNameNoTier]에서 사탕수수 산업이 미래에 붕괴될 수 있습니다. 확실히 이익이 발생하면 손실을 보충할 수 있을 것입니다." # 3b10d67741fee63b0f7d3e57477085b2228de83a
+  RICE_guanche_introduce_sugarcane_to_madeira_confirm: "수익을 좀 내봅시다!" # 02438a91c7d011c637722e4e39870d5fdb2c1e35
+  RICE_guanche_introduce_sugarcane_to_madeira_context_tooltip: "#emphasis 역사적 배경:#! 지중해산 사탕수수는 포르투갈 식민지화의 여파로 마데이라에 도입되었는데, 이는 항해왕자 엔히크가 15세기에 섬 최초의 제당 공장 건설을 축복한 덕분이라고 합니다. 마데이라의 막대한 목재 자원과 아프리카 노예 노동력에 힘입어 섬의 설탕 산업은 그 세기 후반에 엄청난 호황을 누렸지만, 삼림 벌채로 인해 16세기에 파괴적인 붕괴를 겪었습니다." # 885e172c1fbad0b93154ef1eef2b413fb613517d
+  RICE_guanche_pray_for_good_rain: "강우의 축복을 기원합니다" # c88a9843b17010f41dbbe569f91239f757937a51
+  RICE_guanche_pray_for_good_rain_tooltip: "[ROOT.Char.GetFaith.GetAdjective] 의식을 통해 비를 기원하십시오" # da1f9411e5b6251227d6982dc8e5d5faf8dc1c52
+  RICE_guanche_pray_for_good_rain_desc: "[ROOT.Char.GetFaith.PantheonTerm]께서 우리 왕국에 풍성한 비를 내려 주시어 농작물을 재배하고 번성할 수 있도록 축복해 주실까요? 우리는 그분들께 헌신을 보여드리고 앞으로 생명을 주는 비를 내려주시기를 요청해야 합니다." # cd2b22d2a1d3d6a5a841876ca605993e3a8f9b80
+  RICE_guanche_pray_for_good_rain_effect_tooltip_1: "귀하의 [realm_capital|E] #italic 힘#!이 #P 긍정적인#! [county_modifier|E]를 얻어 [세금|E], [개발|E], 및 [현지인 평판|E]를 향상시킬 수 있습니다." # aab4940da8532c0c83cbb5d46f5870a20791307a
+  RICE_guanche_pray_for_good_rain_effect_tooltip_2: "긍정적인 결과를 얻을 확률은 당신의 [sins|E], [virtues|E], 그리고 당신이 기꺼이 소비할 [prestige|E]에 달려 있습니다" # 9ecd8ffa5ad649876a70f0abf527db8e1f2ec583
+  RICE_guanche_pray_for_good_rain_confirm: "의식을 준비하십시오!" # 7b694eb0f792f7714b6ad931a6e369043c58d3d0
+  RICE_guanche_pray_for_good_rain_context_tooltip: "#emphasis 역사적 배경:#! 스페인 연대기 작가들은 카나리아 제도의 이교도 거주민들이 행하는 가장 흔한 의식 중 하나가 강우를 위한 기도였다고 언급했습니다. 종종 그것은 집단 단식과 큰 비탄의 표현을 포함했습니다." # 06736795bcb6c7120571996058e4cd11da199d68
+  RICE_guanche_celebrate_benesmen_festival: "베네스멘 축제를 기념하십시오" # 9c24957d057da8ad1118dcdd1564ae5b1d8bc007
+  RICE_guanche_celebrate_benesmen_festival_tooltip: "전통적인 [ROOT.Char.GetFaith.GetAdjective] 수확 및 새해 축제" # 50655985b923dc9eeb2dc50e431fb2208f9fe2d6
+  RICE_guanche_celebrate_benesmen_festival_desc: "수확기가 끝나가고, 옛해가 저물어 갑니다. 새해를 맞이하고 모든 [ROOT.Char.GetFaith.PantheonTerm]을 합당하게 숭배하며, 무엇보다도 [ROOT.Char.GetFaith.CreatorName]을 숭배합시다!" # 2daf532c23ba7bd26cf7c489c506fe5024eb7353
+  RICE_guanche_celebrate_benesmen_festival_effect_tooltip: "베네스멘 축제를 기념합니다. [prestige|E]나 [piety|E]를 얻거나, 또는 [stress|E]를 잃을 수 있습니다." # af48947f52279df324706fd30bc3bf178504db8c
+  RICE_guanche_celebrate_benesmen_festival_confirm: "축제를 준비할 시간입니다." # 5c86daec1f2f76a7885647f2f919550fd54b6904
+  RICE_guanche_celebrate_benesmen_festival_context_tooltip: "#emphasis 역사적 배경:#! 베네스멘 축제는 기독교 이전 과나체족에게 가장 중요한 축제였습니다. 이 축제는 다양한 과나체 신들을 숭배하며 새해의 시작을 알리는 수확 축제였습니다. 카나리아 제도가 스페인에 의해 식민지화된 후, 이 축제의 잔재가 기독교화되었을 수도 있습니다." # 43d26153072e80f05c4e00459d410ec682d348ad
+  RICE_decision_guanche_benesmen_month_requirement: "월은 7월에서 10월 사이여야 합니다." # 5c27b162625a5b679de0abaabaf5135741512cac
+  guanche.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0001.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0001.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0002.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0002.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0002.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0003.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0003.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0003.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0004.t: "행운의 섬" # a736e3bd5ca0fe48b83d6e772595e92708042e75
+  guanche.0004.desc: "고대인들은 카나리아 제도를 그리스와 로마 신화의 축복받은 섬들과 연관지어 행운의 섬이라고 불렀습니다. [fuerteventura_chieftain.GetCulture.GetName]는 아주 오랜 옛날부터 이곳에 살며 세상과 단절되어 왔습니다. 먼 땅에서 큰 변화가 일어나고 있다는 소문이 있지만, 이 부족들은 현재로서는 비교적 조용한 삶을 살고 있습니다. 세계의 끝자락에 있는 이 전설적인 행운의 섬들의 궁극적인 운명은 누가 알겠습니까?" # b60250dd787550046046a2f4520ee4fbedd1f472
+  guanche.0004.a: "카나리아 제도의 족장들과 함께하는 이야기입니다..." # 04599f344e9fc0f49399bc211adfc75850aa1643
+  guanche.0004.b: "푸에르테벤투라의 족장들과 함께하는 이야기입니다...." # 18833fb53a897bfbf583f547a2c846973a4f75ef
+  guanche.0004.c: "마데이라의 족장들과 함께하는 이야기입니다...." # a17fbc1b9fa7f39ff919132965e70282d8ecc460
+  guanche.0004.tooltip: "[카나리아 공국]의 [카나리아_공국.이름] 백작령들은 여러 [후에르테벤투라_족장.신앙.형용사], [후에르테벤투라_족장.문화.이름] 족장들 사이에서 분할되었습니다. 행복한 섬들 중 어디를 당신의 고향으로 삼으시겠습니까?" # 96add1e8820db67b8001f1d3d13077d385f21d88
+  guanche.0005.t: "카나리아 제도 연합" # 9d44a7c15e313f3185c1e678e7aa511e47228a62
+  guanche.0005.desc: "강함, 간계, 외교술을 통해 저는 최근 카나리아 제도를 하나의 왕국, [canarias_kingdom.GetName]으로 통합했습니다. 더 이상 이 섬들이 하찮고 다투는 추장들 사이에서 분열되어서는 안 됩니다.\n\n수 세대에 걸쳐 우리 땅을 우연히 발견한 바다 건너 외부인들은 다른 사람들이 우리 섬에 대해 말하는 소문을 우리에게 말했습니다. 어떤 사람들은 우리가 #V 축복받은 섬#!, 선하고 정의로운 사람들이 죽은 후 머무르는 풍요로운 낙원이라고 말했습니다. 다른 사람들은 또한 우리가 #V 세상의 끝자락#!이라고 말했습니다. 우리 섬 이후에는 대양 건너 더 이상 땅이 없기 때문입니다.\n\n이것들은 좋은 소문입니다. 우리는 우리의 젊은 왕국의 명성을 높이기 위해 이러한 전설을 받아들이고 퍼뜨려야 합니다. 그래야 외부인들이 우리를 경외심을 가지고 이야기할 것입니다." # e4f1b634381d8196cde20563017081de220723cc
+  guanche.0005.a: "행복한 섬들은 하나로 통합되고 번영한 왕국입니다." # 7353419c8ac5db835953c267d8e5345f00e4a68c
+  guanche.0005.b: "세상의 끝자락이 하나의 깃발 아래 있으니, 우리는 그 누구에게도 굴복하지 않으리라!" # d15d3d31a113619d929c3a46c3504782ff4835f1
+  guanche.0006.t.fortunate_isles: "행운의 섬" # a736e3bd5ca0fe48b83d6e772595e92708042e75
+  guanche.0006.t.worlds_edge: "세상의 끝" # 062aa5c2e281190d409eabebbd72f387a0717e90
+  guanche.0006.desc: "수 세기 동안 카나리아 제도는 많은 사람들에게 신화와 전설의 장소였습니다. 실제로 섬들은 다양한 작은 부족들로 나뉘어 있었습니다. 그러나 시대가 변하고 있습니다. [canarias_king.GetTitledFirstName]께서 [canarias_king.GetHerHis] 통치 아래 섬들을 통일했습니다." # dcbb661b3cb7501790f4d3ee844a08622a3937f3
+  guanche.0006.desc.fortunate_isles: "[canarias_kingdom.GetName]의 큰 번영에 대한 소문이 벌써 퍼지고 있습니다. 고대에도 그리스인, 로마인, 페니키아인들은 이 섬들을 고대 전설 속의 #V 축복받은 섬#!으로 여겼는데, 그 이유는 그곳이 지복과 풍요의 땅이라고 소문이 났기 때문입니다. 현지인들은 이러한 명성을 완전히 받아들였습니다." # 51a86951606b8a19ad84e670c1b1a8699337b976
+  guanche.0006.desc.worlds_edge: "[canarias_kingdom.GetName]의 전사들의 힘과 교활함에 대한 소문이 벌써 퍼지고 있습니다. 수 세대에 걸쳐, 많은 사람들은 광대하고 끝없이 펼쳐진 대서양에 들어가기 전 마지막 섬들인 이 섬들이 사실상 #V 세상의 끝#!이라고 믿었습니다. 오직 무시무시하고 강력한 사람들만이 이곳에서 살아남을 수 있었을 것입니다." # eee0be3eea5bf827cdd0722adcba0c3000ab1150
+  guanche.0006.a: "이 섬들의 역사에서 다음은 무엇일까요?" # 25571391f3796665e3f518a1a68b48602c003a7b
+  guanche.0007.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0007.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0007.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0008.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0008.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0008.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0009.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0009.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0009.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0010.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0010.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0010.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0011.t: "의례 준비" # 28d8d929e0df3303ef1754ed9c8d6837b3070813
+  guanche.0011.desc: "비는 우리를 지탱합니다. 우리를 키우고, 우리가 먹기 위해 수확하는 작물에 생명을 불어넣습니다.\n\n하지만 비는 저절로 내리는 것이 아닙니다. 때로는 비가 내리지 않거나 적은 양만 내리기도 하며, 이는 종종 우리가 [ROOT.Char.GetFaith.PantheonTerm]에게 합당한 존경을 표하지 않았기 때문입니다.\n\n따라서 저는 [ROOT.Char.GetFaith.GetAdjective] 전통 기도 의식을 [rain_ritual_county.GetName]에서 [ROOT.Char.GetFaith.PantheonTerm]에게 드려 비를 내려주시기를 간청해야 할 때라고 결정했습니다. 이 의식의 일부로 저를 포함한 제 정착지의 모든 사람들이 의식을 수행하기 전 3일 동안 단식을 해야 합니다. 이 기간 동안 우리는 술을 마시지 않고 진지하고 애절한 애가를 하늘에 바치며 기도하여 [ROOT.Char.GetFaith.PantheonTerm]께서 우리를 불쌍히 여기시도록 할 것입니다. 이 의식에 얼마나 많은 노력을 기울여야 할까요?" # 1f8a1f38eb6733c3ff6395343fcb737364fc98dd
+  guanche.0011.desc.culture: "비는 우리를 지탱합니다. 우리를 키웁니다. 우리가 먹기 위해 수확하는 농작물에 생명을 불어넣습니다.\n\n하지만 비가 아무 데서나 오는 것은 아닙니다. 때로는 비가 오지 않거나 아주 적게 오기도 하며, 이는 종종 우리가 [ROOT.Char.GetFaith.PantheonTerm]에게 합당한 존경을 표하지 않을 때입니다.\n\n따라서 저는 [ROOT.Char.GetCulture.GetName] 전통 기도 의식을 [rain_ritual_county.GetName]에서 [ROOT.Char.GetFaith.PantheonTerm]에게 올리며 비를 내려주기를 간청해야 할 때라고 판단했습니다. 이 의식의 일부로 저를 포함한 모든 정착민은 의식을 치르기 전 사흘 동안 단식해야 합니다. 이 시간 동안 우리는 [ROOT.Char.GetCulture.GetNameNoTooltip]이 우리를 불쌍히 여기도록 술에 취하지 않은 채 침울하고 슬픈 애가를 하늘에 기도하고 노래할 것입니다. 이 일에 얼마나 노력을 기울여야 할까요?" # f916b7cbd6905a337b26b4722eac8aa90ab1d3ef
+  guanche.0011.a: "그 의식에 필요하고 예상되는 모든 것을 수행하십시오." # 7d0e025eeaa036b18fd6d170204834ad021dfea8
+  guanche.0011.b: "평소보다 더 크게 통곡하고 슬퍼하며 금식하십시오." # 718dc384ffb2ccb097acaf440e0a4b9623ac356b
+  guanche.0011.c: "[ROOT.Char.GetFaith.PantheonTerm]이 우리의 슬픈 간청을 들으시도록 온 힘을 다하십시오!" # fa2d0233a277f06cc73acea4d27436cf4d5f6721
+  guanche.0011.tooltip: "[명성|E] #P 소모량 증가#은(는) [왕국 수도|E]에 더 강력한 [지역 수정치|E]를 얻을 확률을 높입니다!" # 3b093aa52202c189519c32a885df831eeb259b3b
+  guanche.0011.fasting_weakness: "단식 후 허약함을 느낍니다" # af0d320c12455436bd482fabf3a666e7f75007ec
+  guanche.0012.t: "강우 의례" # 035d91c6b893148d68e692f32a141e4e157af8cb
+  guanche.0012.desc: "3일간의 단식 후, 저와 많은 사람들은 가축을 데리고 [rain_ritual_county.GetName]에서 가장 높은 곳 중 한 곳, 특히 울타리 안의 신사로 향합니다. 우리 중 일부는 춤을 추고 다른 사람들은 멜로디 소리를 내는 특수 돌인 석금을 치며, 모두 제단 불 주위에서 애통하는 기원을 합니다. 우리는 [ROOT.Char.GetFaith.CreatorName]과 [ROOT.Char.GetFaith.WaterGodName], [ROOT.Char.GetFaith.FertilityGodName]과 모든 [ROOT.Char.GetFaith.PantheonTerm]에게 우리의 공물을 받아들이고 우리가 살고 번성하는 데 절실히 필요한 비를 주시기를 간청합니다.\n\n그 후, [ROOT.Char.Custom('DefaultPriestTitlePlural')]이 불 주위에 모여 연기를 해석하여 [ROOT.Char.GetFaith.PantheonTerm]과의 소통이 결실을 맺었는지 확인합니다…." # 2ac5850c1a2d476b02902b79ef30044d3baa42b2
+  guanche.0012.a: "[ROOT.Char.GetFaith.PantheonTerm]이(가) 우리를 위해 무엇을 준비했는가?" # e7efb7c323557544c18f977660304b58c38413d8
+  RICE_guanche_rain_blessing_nothing_tooltip: "비를 기도했지만... 소용없었나 봅니다." # 2084faffeccfbf87a959dcd29c8c337fe04d4602
+  guanche.0013.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0013.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0013.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0020.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0020.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0020.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0021.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0021.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0021.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0022.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0022.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0022.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0023.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0023.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0023.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0024.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0024.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0024.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0025.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0025.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0025.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0026.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0026.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0026.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0027.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0027.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0027.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0028.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0028.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0028.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0030.t: "베네스멘 준비하기" # b5efe3c095feec1b76fbc5e7526146000d409642
+  guanche.0030.desc: "베네스멘 축제가 곧 시작될 예정이며, 모두가 이 행사를 준비하기 위해 최선을 다하고 있습니다. 전통적인 [ROOT.Char.GetFaith.GetAdjective] 신년 및 수확 축제로서, 이 축제는 우리 공동체에 매우 중요합니다. 저는 올해 축제가 성공적으로 개최될 수 있도록 다른 유력 인사들과 협력했으며, [ROOT.Char.GetFaith.PantheonTerm], 특히 [ROOT.Char.GetFaith.CreatorName], [ROOT.Char.GetFaith.WealthGodName], [ROOT.Char.GetFaith.HealthGodName]께서 우리의 노력에 기뻐하실 것입니다." # 200fba56b5c67d81c1d162b240d9e52c33d80ab6
+  guanche.0030.a: "시작하기가 너무 기다려져요!" # bc63a80ec0fef7c600e8116eb86419a0f6a20b08
+  guanche.0031.t: "베네스멘 시작!" # 79eec6059946faaaaa62236618d5323f195b482a
+  guanche.0031.desc: "베네스멘 축제가 다가왔습니다! 저와 같은 가장 강력한 [ROOT.Char.GetLadyLord]부터 다양한 [ROOT.Char.Custom('DefaultPriestTitlePlural')], 그리고 가장 겸손한 목자와 농부에 이르기까지 많은 지역 주민들이 인근의 #italic 타고로#! 앞에 모였습니다. 타고로는 이러한 회의를 주관하기 위해 만들어진 돌 원이며, 이 지역에서 가장 높은 지점 중 한 곳에 위치해 있습니다.\n\n[ROOT.Char.GetFaith.PantheonTerm]께 찬양을 드립니다. 올해도 최대한 많은 수확을 거둘 수 있었습니다! [ROOT.Char.GetFaith.DevilName]의 세력이 휩쓰는 이 혼란스럽고 고통스러운 세상에서, 저희에 대한 그들의 도움은 정말 큰 행운입니다." # 09d9a39b9a4b3d1f67fb627204d914d7b276b92c
+  guanche.0031.a: "[ROOT.Char.GetFaith.PantheonTerm]을 찬양하라! 축제를 시작하자!" # 8103e567ad26d8fda22e96c1859efce77f052815
+  guanche.0032.t: "베네스멘 종료" # 8f97645f5d4145b4ee3fcb4b14cac284c5e99913
+  guanche.0032.desc: "베네스멘 축제가 막을 내렸습니다. 모두가 즐거운 시간을 보냈고, 수확철과 구년을 마무리하는 좋은 방법이었습니다. [ROOT.Char.GetFaith.PantheonTerm]께서 다가오는 새해에 우리 왕국을 호의롭게 보살피시고, 풍성한 수확과 번영으로 이 땅을 축복해 주시기를 바랄 뿐입니다." # e575c87cdb09d98586f9378d34f48a5d87b17b21
+  guanche.0032.a: "다음에 뵙겠습니다!" # e01f4d8c3efc1513440fd42d101f0c5d6139b1c5
+  guanche.0033.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0033.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0033.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0034.t: "의례 과제" # 7e12c9a9993c4aeb8ec7de3d80e5a287e3d012b4
+  guanche.0034.desc: "베네스멘 축제의 일부는 목축, 어업, 공예 제작과 같이 공동체의 각 구성원이 다가오는 해에 참여할 임무를 의례적으로 할당하는 것을 포함합니다. 나는 #italic 타고로르#! - 공동체 회의 장소 역할을 하는 돌 원 안에 앉아 다른 저명한 사람들과 함께 이 중요한 의식을 진행합니다." # e635f0404aa223ec5b62ad15e9e48c4590dd1b76
+  guanche.0034.a: "당신은 이렇게 하고, 저렇게 하고, 이렇게 하고, 저렇게 하고…." # 76f1ad7ea9f6366d7919543976697d5f2e5c81c7
+  guanche.0035.t: "[ROOT.Char.GetFaith.FertilityGodName]께 찬미를!" # c49f4dd4b3b1b3bb639a8c19b1b50c901ea8a3b1
+  guanche.0035.desc: "축제에 참여하여 저는 [ROOT.Char.GetFaith.FertilityGodName]께 경의를 표합니다. 그리하여 땅이 풍요로움으로 가득하고 우리 후손들이 번성하게 되기를 바랍니다. 저는 기도하기 위해 신성한 돌이나 바위로 나아갑니다." # 345fe171df75ecb29ac78e037078ed1b7be58e12
+  guanche.0035.a: "오, [ROOT.Char.GetFaith.FertilityGodName]시여, 저의 기도를 들어주소서!" # 5c6d3ff5be29da2bcc567f2bba2d4c684ef8fa2e
+  guanche.0035.toast: "[ROOT.Char.Custom('DefaultPriestTitle')]이 [ROOT.Char.GetFaith.FertilityGodName]께서 제 기도를 들어주셨다고 말합니다!" # 0bdeecaaba0b632afbf376277efdeb95284f48a2
+  guanche.0036.t: "산의 영광" # e5c62689e994438edab9d71ac1c65c527174b5af
+  guanche.0036.desc: "[ROOT.Char.GetFaith.GetAdjective] 신앙에서 산과 높은 지형지물은 신성한 장소로 여겨집니다. 베네스멘 축제가 계속되는 동안, 저는 때때로 근처의 언덕과 산을 바라보며 [ROOT.Char.GetFaith.PantheonTerm]께서 우리를 위해 창조하신 것에 경외심을 느낍니다." # d3a6207bf8a455a143f209f276cf0b6419ed4d0e
+  guanche.0036.a: "정말로 감명 깊습니다." # 3c80ecbdfd91c33895fb842a6f4bb51ce9c6735f
+  guanche.0037.t: "양과 염소 공양" # c4d34ffb485681a39525cf88660093862b20fdf1
+  guanche.0037.desc: "베네스멘 기간 동안 [ROOT.Char.GetFaith.PantheonTerm]에게 바치는 공물의 일환으로, 우리는 양과 염소의 두개골과 발굽을 불에 던집니다. 우리가 기도하는 동안 연기가 하늘로 올라가고, [ROOT.Char.Custom('DefaultPriestTitle')]은 [ROOT.Char.GetFaith.PantheonTerm]께서 분명 기뻐하실 것이라고 말합니다." # 41425101156bf4a639349d10b326c47d5f55a527
+  guanche.0037.a: "그렇기를 바랄 뿐입니다." # 10c3fa7ea23ef6c960658004978bee438b14d457
+  guanche.0038.t: "락 온" # 8f0c9100ab09263ff03b8f990f87ecdd094077a7
+  guanche.0038.desc: "베네스멘 동안, 우리 중 일부는 노래와 기도를 동반하기 위해 멜로디가 있는 노래를 내는 돌과 암석인 리토폰을 연주합니다. 이 아름다운 자연의 소리는 저를 편안하게 만들고 [ROOT.Char.GetFaith.PantheonTerm]의 영광에 더욱 잘 맞춰진 느낌을 줍니다." # 1b7527a8d70724fd797132f77bd623414060f6fb
+  guanche.0038.a: "정말 아름다운 음악이네요!" # 2d0fb9b3328c7af6f8748b6fc1018338511eed3f
+  guanche.0039.t: "연회" # fc70a8c2f75bea3d2a9e1c643460bc385353cf4c
+  guanche.0039.desc: "우리는 방금 베네스멘을 위한 [ROOT.Char.GetFaith.PantheonTerm]에게 양과 염소를 제물로 바치는 것을 마쳤으며, 지금은 그들의 고기를 먹으며 잔치를 벌이고 있습니다. 불에 구운 고기는 씨앗이나 곡물과 같은 다른 식료품과 잘 어울립니다." # 5afd90c20842d3ced72825c3ac3c7a8faf321f5b
+  guanche.0039.a: "맛있습니다!" # 609ce8524064bc90c0207fb1266e2e4ec6cfcbed
+  guanche.0040.t: "주니퍼" # 8226d44c1a1f989f657556c9ff3dd82bde77d28f
+  guanche.0040.desc: "저와 다른 사람들은 베네스멘을 위한 희생과 기도를 계속하며 불에 노간주나무를 던집니다. 향긋한 냄새가 온 지역에 퍼져 우리에게 더 큰 거룩함과 미덕의 행위를 하도록 영감을 줍니다." # 47cc07387fa445b6ca793388fa61b90cb9c75fd4
+  guanche.0040.a: "정말 멋진 식물이군요." # abce3d3229ab7e731e48f7e51f911dc728c2c046
+  guanche.0041.t: "춤" # b6fe8586434a4165d8531d4cc3c065a8a9e700df
+  guanche.0041.desc: "베네스멘은 단순히 침울한 기도를 위한 시간이 아니라 수확의 끝을 기념하는 축제이기도 합니다! 그 축제의 일부는 춤을 추는 것이며, 지금 우리 중 많은 사람들이 그러한 춤을 추기 시작했습니다. 남녀는 서로에게 다가가 접촉하지 않고 음악 소리와 관중들의 발 구르기, 박수, 휘파람 소리에 맞춰 서로를 중심으로 비틀고 회전합니다." # c4ff2fd1de7c4e7955161d8763c615c9d51e2c4c
+  guanche.0041.a: "이것 재밌네요!" # 363cdebaabf895ac4cefa1563251976f95a54f17
+  guanche.0042.t: "어떤 음악에 맞춰 노래하고 춤출까요?" # d7b7df957e718bb2de49f2f806602997d39e72e5
+  guanche.0042.desc: "베네스멘은 다양한 종류의 음악으로 가득한 축제이며, 다음으로 무엇을 노래하고 춤출지 선택할 시간입니다. 모두가 현재 가장 높은 지위의 저를 바라보며 선택을 기다립니다. 아마도 우리 손을 잡고 과거의 달콤쌉싸름한 사건들을 이야기하는 우울한 노래를 부르거나, 과거의 영웅들을 기리는 호전적인 찬가를 부를 수도 있겠지요." # 2e1f8838e48bc4cccfe29a6b22218daf8e5e888e
+  guanche.0042.a: "우리 마음속 깊은 감정을 느끼며, 우울한 노래를 부르자!" # 1677fc1f6a4bbcaa04c1270e0a628fa10476ea27
+  guanche.0042.b: "승리의 노래와 영웅들의 찬양으로 축하할 때입니다!" # 642cc2e6b57ce808db5e29daed7cdda57bc65e75
+  guanche.0043.t: "스포츠" # 1855c2e357023dd4f4d4eb827506658f22907ca7
+  guanche.0043.desc: "베네스멘이 계속되면서 이제 스포츠와 경쟁의 시간이 되었습니다! 재능 있는 남녀들이 레슬링, 달리기, 양치기 도약에서 경쟁하는 모습을 보기 위해 많은 사람이 원을 그리며 모였습니다. 양치기 도약은 위험한 지형을 가로지르는 기술로, 긴 나무 막대기 하나만 사용하여 민첩하게 튀어 오르며 이리저리 이동합니다." # 93b49da6a067844d9dacb7bec834d09dae3bec35
+  guanche.0043.a: "정말 멋진 광경입니다!" # dd447075f696c1d2c814919ed2490525bbc4a7fd
+  guanche.0044.t: "분쟁 해결" # c6027afc23c5b18dbf05ec89dfa69fdcf66e843f
+  guanche.0044.desc: "베네스멘은 종종 공동체 내 사람들 사이의 분쟁을 해결할 기회가 됩니다. 저와 다른 중요한 장로들, 그리고 [ROOT.Char.Custom('DefaultPriestTitlePlural')]께서는 방금 공동체 내 두 가문 사이의 불화를 성공적으로 끝냈으며, 그들은 축제의 정신으로 화해하기로 합의했습니다." # 74931794a61ff3e68d2b60aa0b79f5162a78e940
+  guanche.0044.a: "훌륭합니다!" # e65e8c7504556ee02b6a61f9d5ac9e68fb921ced
+  guanche.0045.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0045.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0045.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0046.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0046.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0046.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0047.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0047.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0047.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0050.t: "마데이라에 사탕수수 도입" # 21fec7f3a8e0e1d441731b8bde27c69b2c7281a1
+  guanche.0050.desc: "[madeira_county.GetNameNoTier]는 지리적 조건도 뛰어나고 목재도 풍부한데, 이곳에 아직 사탕수수 산업을 일으킨 사람이 없다는 점은 놀랍습니다. 이제 제가 가진 여러 연줄을 활용하여 지중해에서 활동하는 여러 상인들이 이 섬에 사탕수수를 도입하는 데 자금을 대겠다고 나섰습니다. 노예 노동력과 상인들의 투자가 충분히 있다면 마데이라에서 멋진 일이 시작될 것입니다.\n\n일각에서는 적절한 관리만 이루어진다면 시칠리아, 키프로스, 안달루시아 같은 기존의 사탕수수 생산 중심지를 한두 세대 안에 능가할 수도 있다고 믿습니다. 저는 그건 비현실적인 예측이라고 생각하지만, 그런 낙관적인 태도는 존경스럽습니다. 그건 너무나도 좋은 일이고, 그런 일이 일어난다면 분명히 대가가 따를 것입니다." # 09b40802de2f47e94a86a80b6b104023ab7d9b68
+  guanche.0050.a: "그럼에도 불구하고, 우리는 많은 이익을 얻을 수 있을 것입니다." # 07b7d71f9cbd851a46d6638e872376916d45568a
+  guanche.0051.t: "마데이라에 사탕수수 도입" # 21fec7f3a8e0e1d441731b8bde27c69b2c7281a1
+  guanche.0051.desc: "[madeira_ruler.GetTitledFirstName]이 [madeira_county.GetNameNoTier]에 사탕수수를 도입하는 데 앞장섰습니다. 섬의 풍부한 목재는 의심할 여지없이 이곳의 급성장하는 설탕 산업에 연료를 공급할 것입니다. 다른 곳의 사업 경쟁자들을 우회하려는 지중해 상인들과 협력하여 [madeira_ruler.GetFirstName]은 설탕 자체뿐만 아니라 밭에서 일할 노예와 설탕 공장 건설 등을 감독할 시칠리아와 더 먼 곳에서 온 조언자들을 데려오고 있습니다. 어떤 사람들은 언젠가 이 섬이 시칠리아, 키프로스, 안달루시아와 같은 전통적인 사탕수수 생산 중심지를 능가할 수도 있다고 생각합니다." # 07bd8433bb6a41a84b9d27f0c78a5b4d8f2afc57
+  guanche.0051.a: "끝없는 설탕이라니... 너무 좋아서 거짓말 같아요!" # 6b91587174d9e4bd8b0c83131dbe69d4c347631b
+  guanche.0052.t: "마데이라의 설탕 산업 붕괴" # 73c3e7b24b9fdc7a69f749a27e2390212da01310
+  guanche.0052.desc: "우리는 행동했어야 했지만, 이제 너무 늦었습니다. [madeira_county.GetNameNoTier]의 급격히 줄어드는 목재 공급은 우리가 무시했던 경고 신호였습니다. 끝없이 목재가 풍부한 섬이었던 마데이라가 언젠가 설탕 산업을 유지하기에 충분한 목재가 없을 것이라고는 상상하기 어려웠지만, 그날이 왔습니다.\n\n한때 마데이라의 넓게 퍼져 있던 사탕수수 농장과 근면한 설탕 공장을 소유하고 운영하는 상인들은 지역에서 구할 수 있는 목재가 갑자기 부족해 설탕 생산량이 역대 최저 수준이며 섬의 설탕 산업이 빠르게 붕괴하고 있다고 말했습니다. 이곳의 설탕 산업이 언젠가 회복될 수도 있지만, 수출된 목재에 의존해야 할 것이며, 한때의 영광스러운 높이에 도달하지는 못할 것입니다." # f929cf7e27064a11d52f888611904c17c065ec5f
+  guanche.0052.a: "이것은 우리 경제에 좋지 않습니다." # fd7901ee55850b5f9dfa707ae960b87b36760015
+  guanche.0053.t: "마데이라의 설탕 산업 붕괴" # 73c3e7b24b9fdc7a69f749a27e2390212da01310
+  guanche.0053.desc: "수십 년 동안 [madeira_county.GetNameNoTier]에서 생산되는 설탕의 양은 알려진 세계의 부러움을 샀습니다. 이는 섬에서 발견되는 막대한 양의 목재가 설탕 산업을 부추겼기 때문입니다. 키프로스, 안달루시아, 시칠리아와 같은 한때 위대했던 설탕 생산 중심지들은 마데이라로 들어오는 이익에 비하면 보잘것없었습니다. 슬프게도, 모든 좋은 일에는 끝이 있기 마련입니다.\n\n수년간 억제되지 않고 지속 불가능한 벌목으로 인해 마데이라에 대규모 삼림 파괴가 발생했으며, 섬의 많은 사탕수수 농장과 제당 공장이 문을 닫고 있습니다. 더 이상 사용할 수 있는 현지 목재가 충분하지 않습니다. 이곳의 설탕 산업이 언젠가 회복될 수도 있지만, 한때 영광스러웠던 전성기에는 결코 미치지 못할 것입니다." # 75566151adbc293e4a5a570c35a040a370f04614
+  guanche.0053.a: "이제 설탕 생산의 중심은 어디로 이동할까요?" # 08ea74527caca34d0099ab549aac68ea005dda85
+  guanche.0054.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0054.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0054.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0055.t: "사탕수수가 카나리아 제도로 유입됨" # 3c936d97778ef29a65d2bc240de79fdbb741abd6
+  guanche.0055.desc: "사탕수수가 처음 [madeira_county.GetNameNoTier]에 소개된 이후, 지중해와 서유럽의 기업가들은 카나리아 제도에 설탕을 가져오는 데에도 투자하는 것을 고려해 왔습니다. 최근에 그들의 계획이 결실을 맺었습니다.\n\n현지 엘리트들과 협력하여, 이 상인들은 [canarias_county.GetNameNoTier]와 [fuerteventura_county.GetNameNoTier]에 지역 사탕수수 농장을 설립하기 시작했습니다. 그들은 마데이라와 다른 곳에서 전문가를 데려와 과정을 감독하고, 아프리카 전역에서 노예들을 데려와 비참한 환경에서 설탕을 생산하도록 했습니다.\n\n카나리아 제도의 제당소는 마데이라만큼 많은 설탕을 생산할 것으로 예상되지는 않지만, 여전히 상당히 수익성이 있을 것입니다." # 7aa839af221c50f60c21b1dbc80803586f1e1c9b
+  guanche.0055.a: "섬들의 경제는 분명히 이로부터 이익을 얻을 것입니다." # 4d9a4857bbddc6d1f92804d7696dd522ded8e1ec
+  guanche.0056.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0056.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0056.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0057.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0057.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0057.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0058.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0058.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0058.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0059.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0059.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0059.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0060.t: "티비세나" # 7b94c854ea8a5f3dc0f27e1f34236a0d4104e916
+  guanche.0060.desc: "#italic 티비세나#!가 여기에서 멀지 않은 동굴에 살고 있다는 보고가 있었습니다. [ROOT.Char.GetCulture.GetName] 민속의 이 악마들은 긴 털과 붉은 눈을 가진 검은 개처럼 생겼으며 가축과 심지어 사람들을 잡아먹는다고 합니다. 어쨌든 최근에 많은 가축들이 불가사의하게 죽었고 많은 지역 주민들은 이 끔찍한 악마들이 그 원인이라고 믿고 있습니다." # 43863bae4cb10ad1bcec099fefaa02749e3d3b01
+  guanche.0060.a: "[ROOT.Char.GetFaith.PantheonTerm]께 기도하여 이 악으로부터 우리를 구원하소서!" # c8f80cc2c396ad22ce6fd7359da31670b06cd10f
+  guanche.0060.b: "아마도 그냥 산적일 겁니다. 지역 민병대를 경계 태세로 전환하십시오." # 3a12cd94eb0efb41da4f0c81ada68bec0cf039c2
+  guanche.0061.t: "타고로르 회의" # 2a4e87b589df47bc0f812b816523ca64606501cf
+  guanche.0061.desc: "나는 인근의 #italic 타고로르#!에서 만나기 위해 지역 유지들을 모았습니다. 이곳은 [ROOT.Char.GetCulture.GetName]의 전통적인 돌 원형 회합 장소로 자주 사용됩니다. 오늘 저는 지역 유지들과 여러 가지 문제에 대해 논의하고 싶었습니다. 우리는 모두 각자의 돌 위에 앉아 오랫동안 이야기를 나누었고, 회의는 순조롭게 진행 중입니다." # 1e8d48cfc701c8491545a250a2fe39c0901245ad
+  guanche.0061.a: "이 회의는 지루하니, 그냥 딴 생각을 해야겠다." # 3923046c84e9c5d178511a2b5fe5eafc70c57d48
+  guanche.0061.b: "평화를 유지하기 위해 해결하고 싶은 지역 분쟁이 많습니다." # fcc54d0593d01bfb9155e0a185bb54eb44df0cca
+  guanche.0061.c: "나는 이 땅을 다스리는 것에 대해 다른 사람들이 하는 제안을 주의 깊게 듣습니다." # d527e5e739235c833fcc4c5038b07038db5fc258
+  guanche.0062.t: "휘파람 언어" # 560ba0ec6f7daf66b67e0dd35a6734c8ac0dc459
+  guanche.0062.desc: "최근에 몇 명의 새로운 휘파람꾼이 제 고용인이 되었습니다. 전통적으로 이들은 [ROOT.Char.GetCulture.GetName] 휘파람 언어에 능숙하여 우리 고향의 산과 계곡을 가로질러 정보를 전달합니다. 이 방법은 중요한 공지 사항을 전파하는 데 사용됩니다.\n\n어쨌든, 제 새로운 휘파람꾼들은 매우 재능이 있으며 이전 휘파람꾼들보다 더 큰 휘파람 소리를 낼 수 있어서 제 지역 업무를 관리하는 데 도움이 될 것입니다." # 58f89a1ce963439411c05bcd770e1d1e21bbcd17
+  guanche.0062.a: "내 귀에 음악이 들리는군!" # 4ba741834a41d719b68d9ce5be7441f0f60ab0bf
+  guanche.0063.t: "양치기의 도약" # 46ea916a787178997f117dc78c45e12a95414e23
+  guanche.0063.desc: "오늘 저는 현지 [ROOT.Char.GetCulture.GetName] 양치기들의 도약 경기를 관람하고 있습니다. 과네체족의 고향인 카나리아 제도는 많은 지역이 험준하기 때문에 그곳의 양치기들은 전통적으로 긴 나무 막대기를 사용하여 협곡을 뛰어넘거나 가파른 지형을 내려갔습니다. 수 세기에 걸쳐 시전자가 거의 힘들이지 않고 이러한 공간을 빠르게 이동할 수 있도록 여러 곡예 기술이 개발되었으며, 소위 #italic 양치기의 도약#!은 지역 스포츠가 되었습니다." # 0fbe58637497140faf8dfb42b9c3c964cd40be14
+  guanche.0063.a: "감탄스러운 광경입니다!" # cef35f918a488607d2e46a99f0327be0fb9965d8
+  guanche.0063.b: "참가자들을 격려하기 위해, 승자에게는 큰 상을 수여할 것입니다." # 9cd1854fcc972c063c5196be10e45502131500bb
+  guanche.0063.c: "내가 직접 대회에 참가했지 - 운동이 되었어!" # 544d6c9d97b725583f7b9ff00d2f79a82d0b1625
+  guanche.0064.t: "단순한 목걸이" # bc20cb91334119b6fd2d1bad4453dc03544898c6
+  guanche.0064.desc: "전통적으로, 우리 [ROOT.Char.GetCulture.GetName]는 나무, 뼈, 조개껍데기와 같은 가장 단순한 재료로 가장 아름다운 장신구를 만드는 방법을 찾아냈습니다. 오늘, 몇몇 지역 주민들이 그런 재료로 만든 아름다운 목걸이를 저에게 선물했습니다." # 88aa5fc77cb962a41e4fe88a3852629c85eac2f7
+  guanche.0064.a: "확실히 놀랍지만, 환영할 선물입니다!" # 1033c8bab0e25cc85058df41bf43756da6de6cf4
+  guanche.0065.t: "불 제물" # 131862266e597d964d466a936873f06e34ac6f2b
+  guanche.0065.desc: "최근 저는 높은 언덕에 있는 지역 제단에서 전통적인 [ROOT.Char.GetFaith.GetAdjective] 방식으로 채소를 태우는 제물을 바쳤습니다. 제가 데려간 [ROOT.Char.Custom('DefaultPriestTitle')]은 이 제물에서 피어오른 연기의 의미를 해석하며, [ROOT.Char.GetFaith.PantheonTerm]께서 이 제물에 만족하신 것 같다고 말했습니다." # 55790665e5656554d219bf22e76fd3f5aaf9d3c2
+  guanche.0065.a: "그렇다면 제가 축복받은 것 같습니까?" # 5311d8bae4fd7ae487fcf984ca4d2800ab103f21
+  guanche.0066.t: "불 제물" # 131862266e597d964d466a936873f06e34ac6f2b
+  guanche.0066.desc: "최근에 저는 높은 언덕에 있는 지역 제단에서 전통적인 [ROOT.Char.GetFaith.GetAdjective] 방식으로 야채를 태워 제물을 바쳤습니다. 이 제물에서 피어오르는 연기의 의미를 해석하기 위해 데려간 [ROOT.Char.Custom('DefaultPriestTitle')]은 [ROOT.Char.GetFaith.PantheonTerm]이 제물에 관심이 없을 뿐만 아니라 모욕감을 느낀 것 같다고 말했습니다!" # 59f08a80c5418aad4dcb6d154a6e89df21629d05
+  guanche.0066.a: "분명히 이건 단순한 오독일 뿐일 거예요." # ff88fef02f4afc0d14a9491a73608124f51536ed
+  guanche.0067.t: "리토폰" # b2e6d7c1a3e9a325c5cd0087ccd589d5f57c4f24
+  guanche.0067.desc: "내 영지에서 볼일을 보러 가는 길에, 나는 지역 [ROOT.Char.GetFaith.GetAdjective] 의식에 사용되는 석금악기를 지나간다. 이 돌들은 듣기 좋은 음악적 소리를 내며, 더 중요한 것은 [ROOT.Char.GetFaith.PantheonTerm]을 기쁘게 하므로 의식에 사용된다. 이 지역에 익숙한 내 수행원 중 한 명은 심지어 마녀와 사악한 영혼도 이 돌을 두려워하며, 지역 전설에 따르면 이 돌을 치면 이러한 위험한 존재들이 자신에게 너무 가까이 다가와 해를 끼치는 것을 막을 수 있다고 한다." # 58eec480367fcdf6ee6765b444d63658a2d90fec
+  guanche.0067.a: "정말 놀라운 이야기를 들었습니다." # eb4ae9c071ec3686879437c4a17fdef80376f399
+  guanche.0067.b: "제게는 어리석은 미신처럼 들립니다." # bca4036a383b996f5bf6ca6d63025d95f260a000
+  guanche.0068.t: "미라" # 4476b97319c1d05271fa854ac81016d7dd30b328
+  guanche.0068.desc: "근처 언덕을 돌아다니던 중, 몇몇 현지인들이 동굴 안에서 전통적인 [ROOT.Char.GetFaith.GetAdjective] 방식으로 방부 처리되어 묻힌 오래된 미라를 발견했습니다. 그 동굴은 다소 초라하고 그런 중요한 인물에게 적합하지 않습니다. 어쨌든 미라를 발견한 평민들은 어떻게 해야 할지 몰라서 저에게 지침을 구하러 왔습니다." # f8d78e2b9792dd58ab579fb245f77f9cdd70fffe
+  guanche.0068.a: "죽은 자는 그 자리에 있도록 내버려 두십시오. 방해하지 마십시오." # 33eb03761905d83c316ea30db506b82ac948f1a4
+  guanche.0068.b: "이 미라를 위한 더 나은 안식처를 찾아야 합니다." # 142b642d8ee91376300965303af265338c4d74e8
+  guanche.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  guanche.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f

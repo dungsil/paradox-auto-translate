@@ -1,78 +1,72 @@
 ﻿l_korean:
-	#Igbo religion 
-	odinala_religion: "이그보" # c17ba88eb9bdd447c4361a7623288d0272c79b54
-	odinala_religion_adj: "이그보" # c17ba88eb9bdd447c4361a7623288d0272c79b54
-	odinala_religion_adherent: "이그보" # c17ba88eb9bdd447c4361a7623288d0272c79b54
-	odinala_religion_adherent_plural: "이그보" # b25b5bebb4355ded141c88e49f5946753be71f1a
-	odinala_religion_desc: "우주를 창조했음에도 불구하고, Ìgbò의 고위 신인 추쿠는 인간의 일과는 거리를 두고 있습니다. 신자들은 대신 더 높은 신들이 인류를 선택된 길로 인도하기 위해 보낸 수많은 영혼인 알루시에게 기도합니다." # aa956b6b20031857b56a25bb9917f2da6135e592
-	# Temples, priests, symbols, divine terms 
-	odinala_house_of_worship: "음바리" # f8d0cd945356fbf41598a5eb1de3fd894a40bea7
-	odinala_house_of_worship_plural: "음바리스" # 249e473879e25dbce701cdeb5dea80c27a2f3ee7
-	odinala_religious_symbol: "오포" # fdbc1c3a3ccddc1514203e9fc8fa85d914148996
-	odinala_religious_text: "문화" # ffb01e1029106177145c15942f1d6212ea1d2aa6
-	odinala_religious_head_title: "에제-은리" # 85ad9770fa3f7069ab62e5cade4b7dda2cc306e3
-	odinala_religious_head_title_name: "고위 자문회" # 1ed613ad1a2c5015a9e5fd4bedf12d5dd1150e71
-	odinala_priest: "디비아" # f236c1378820a1d1e8e937adcc459edccb8b0b5c
-	odinala_priest_plural: "디비아스" # 15c97a0d7f6f9da6572b00bc0bdc221263e5560a
-	odinala_priest_term_plural: "디비아스" # 15c97a0d7f6f9da6572b00bc0bdc221263e5560a
-	odinala_priest_alternate_plural: "디비아스" # 15c97a0d7f6f9da6572b00bc0bdc221263e5560a
-	odinala_priest_neuter_plural: "디비아스" # 15c97a0d7f6f9da6572b00bc0bdc221263e5560a
-	odinala_bishop: "Ndì Ǹrì" # ddca637ba3f48cee03c1e598def7522b9a726b5a
-	odinala_bishop_plural: "은디 은리스" # 78c0826fa3c328f7cc53403fa8df8699f21e413c
-	odinala_bishop_neuter_plural: "느디 으리" # 78c0826fa3c328f7cc53403fa8df8699f21e413c
-	odinala_the_alusi: "알루시" # 9ceb01da08c861973b8c6a70aa8f38e3afe7e7fd
-	odinala_divine_realm: "알라 무오" # a183d79420a063ae633a350e3b12482f98630386
-	odinala_afterlife: "$odinala_divine_realm$" # null
-	# The great and good gods and goddesses 
-	odinala_high_god_name: "치네케" # 881c0416592fe80e28aa17b11dedd8b4c591cb0d
-	odinala_high_god_name_possessive: "치네케의" # 33cd9e5902089b1dae16abfe5da45aadd2075151
-	odinala_high_god_name_alternate: "추크우" # 7b1b8f23c0eb2f4edef155dff540d14b02321618
-	odinala_high_god_name_alternate_possessive: "추쿠의" # 0dc1ae30e4ab7ea6b46978342b35ab9b7bb1cc50
-	odinala_high_god_shehe: "그" # 53a417796c777851003b3f2431e8eef5625ec15b
-	odinala_high_god_herselfhimself: "본인" # 280becfcc102e25ce4db3de0feb799be8fe5febf
-	odinala_high_god_herhis: "그의" # 79b58b71cd28cfddde8367f3177c2645a7709bf5
-	odinala_good_god_ala: "알라" # 1c674e7d8789e22018b9601bfdea78a24fb2d279
-	odinala_good_god_amadioha: "아마디오하" # 5e7872dfa63b6f31a049bb652b2d689543bbd824
-	odinala_good_god_anyanwu: "아냔우" # 029d948d3a631a56a2f68512000e29e8dc7f6242
-	odinala_good_god_igwekaalau: "이가웨칼라" # f953a9e4cb822a9d3fc137ef03f43fc1be227354
-	# The evil gods 
-	odinala_devil_name: "오그반제" # 75849221fb350a567239badf967c317119814563
-	odinala_devil_name_possessive: "오그반제" # 8c1463d7bc79a0f60075e6a1192d6d406c5b8721
-	odinala_devil_shehe: "그" # 30f088ea6673877c2e2c1edbe7513ff90eda9a6f
-	odinala_devil_herselfhimself: "자신" # fbd4798165ead7a485315afa2518f6f54c30dad3
-	# The other gods and goddesses 
-	odinala_creator_god_name: "추쿠" # 7b1b8f23c0eb2f4edef155dff540d14b02321618
-	odinala_creator_god_name_possessive: "추쿠의" # 0dc1ae30e4ab7ea6b46978342b35ab9b7bb1cc50
-	odinala_health_god_name: "아그우" # 858654887750cb787af8a07fe58048caafbb614f
-	odinala_health_god_name_possessive: "아구의" # f8b449f3aec1b39ed5c641d758d6007373c76e6e
-	odinala_fertility_god_name: "알라" # 1c674e7d8789e22018b9601bfdea78a24fb2d279
-	odinala_fertility_god_name_possessive: "알라의" # 3fa0be121aa8deac0705d99594f10d2d472988fb
-	odinala_wealth_god_name: "아마디오하" # 5e7872dfa63b6f31a049bb652b2d689543bbd824
-	odinala_wealth_god_name_possessive: "아마디오하" # 3a1ae74e0213fe8a6f4cea779acf7a0b9fd5bd95
-	odinala_household_god_name: "이켄가" # 8fcaa28b244ab0dbd30b5db5e7ae5da4e3a236a8
-	odinala_household_god_name_possessive: "이켄가의" # d52d27f94a187ed3a2f7471634c6116d4ac9a436
-	odinala_knowledge_god_name: "아냔우" # ac7410aa77a2f1b5254e551054461f12576657d5
-	odinala_knowledge_god_name_possessive: "애니안우의" # 4d4d9be94ba4d3621a2d3ab64ba3082855b1ebbd
-	odinala_fate_god_name: "키" # 99dc16a98d3b5be4c531e22f6c79ee7a5e9e0f0b
-	odinala_fate_god_name_possessive: "히오스의" # 5a250181086076826b545fa6e1175c10705fb688
-	odinala_war_god_name: "에크웬수" # 0ed8966bb7560875150052eb4f25532bf8f76dad
-	odinala_war_god_name_possessive: "익웬수의" # 3015f61dc292ffd5a0bc88e8382c376e483cbe60
-	odinala_trickster_god_name: "$odinala_health_god_name$" # null
-	odinala_trickster_god_name_possessive: "$odinala_health_god_name_possessive$" # null
-	odinala_night_god_name: "$odinala_death_deity_name$" # null
-	odinala_night_god_name_possessive: "$odinala_death_deity_name_possessive$" # null
-	odinala_water_god_name: "음무오 음미리" # 3f4d787dab4dbd1c89939caac9ede8d05f3735c3
-	odinala_water_god_name_possessive: "음무오 므미리의" # 79fd9e204f26def1605bf296f9b26b2362c9fbbb
-	odinala_death_deity_name: "오그부나발리" # e9b4b8b3f4ea39e5537bb9ddf1b944e57dec529d
-	odinala_death_deity_name_possessive: "오그부나발리의" # a233c5a6a757c1d6a11cbf9e6efab543c8e75c96
-	witchgodname_odinala_ogbunabali: "오그부나발리" # e9b4b8b3f4ea39e5537bb9ddf1b944e57dec529d
-	witchgodname_odinala_ogbunabalis: "오그부나발리의" # a233c5a6a757c1d6a11cbf9e6efab543c8e75c96
-	#Odinala pagan 
-	odinala_pagan: "오딘알라" # 8dec764dbec127bafdabd368e75e15a997ce9731
-	odinala_pagan_adj: "오디날란" # 678a19070994c8ff277efa6b0175ece4a3f61e70
-	odinala_pagan_adherent: "오디날란" # 678a19070994c8ff277efa6b0175ece4a3f61e70
-	odinala_pagan_adherent_plural: "오디날란스" # 5da814518800ad6b73baa67001d3c096dda35d0d
-	odinala_pagan_old: "오치에 오디날라" # 8112ae4cc9adf3c5be4cddce8e7602016b291bae
-	odinala_pagan_old_adj: "오치에 오디날란" # 53d1c11133e5cf800a17a11be3d5c6fd4853b78d
-	odinala_pagan_old_adherent: "오치에 오디날란" # 53d1c11133e5cf800a17a11be3d5c6fd4853b78d
-	odinala_pagan_old_adherent_plural: "오치에 오디날란스" # 7106c031b38c46672ddd79124cefd1d76119724c
+  odinala_religion: "이그보" # c17ba88eb9bdd447c4361a7623288d0272c79b54
+  odinala_religion_adj: "이그보" # c17ba88eb9bdd447c4361a7623288d0272c79b54
+  odinala_religion_adherent: "이그보" # c17ba88eb9bdd447c4361a7623288d0272c79b54
+  odinala_religion_adherent_plural: "이그보" # b25b5bebb4355ded141c88e49f5946753be71f1a
+  odinala_religion_desc: "우주를 창조했음에도 불구하고, Ìgbò의 고위 신인 추쿠는 인간의 일과는 거리를 두고 있습니다. 신자들은 대신 더 높은 신들이 인류를 선택된 길로 인도하기 위해 보낸 수많은 영혼인 알루시에게 기도합니다." # aa956b6b20031857b56a25bb9917f2da6135e592
+  odinala_house_of_worship: "음바리" # f8d0cd945356fbf41598a5eb1de3fd894a40bea7
+  odinala_house_of_worship_plural: "음바리스" # 249e473879e25dbce701cdeb5dea80c27a2f3ee7
+  odinala_religious_symbol: "오포" # fdbc1c3a3ccddc1514203e9fc8fa85d914148996
+  odinala_religious_text: "문화" # ffb01e1029106177145c15942f1d6212ea1d2aa6
+  odinala_religious_head_title: "에제-은리" # 85ad9770fa3f7069ab62e5cade4b7dda2cc306e3
+  odinala_religious_head_title_name: "고위 자문회" # 1ed613ad1a2c5015a9e5fd4bedf12d5dd1150e71
+  odinala_priest: "디비아" # f236c1378820a1d1e8e937adcc459edccb8b0b5c
+  odinala_priest_plural: "디비아스" # 15c97a0d7f6f9da6572b00bc0bdc221263e5560a
+  odinala_priest_term_plural: "디비아스" # 15c97a0d7f6f9da6572b00bc0bdc221263e5560a
+  odinala_priest_alternate_plural: "디비아스" # 15c97a0d7f6f9da6572b00bc0bdc221263e5560a
+  odinala_priest_neuter_plural: "디비아스" # 15c97a0d7f6f9da6572b00bc0bdc221263e5560a
+  odinala_bishop: "Ndì Ǹrì" # ddca637ba3f48cee03c1e598def7522b9a726b5a
+  odinala_bishop_plural: "은디 은리스" # 78c0826fa3c328f7cc53403fa8df8699f21e413c
+  odinala_bishop_neuter_plural: "느디 으리" # 78c0826fa3c328f7cc53403fa8df8699f21e413c
+  odinala_the_alusi: "알루시" # 9ceb01da08c861973b8c6a70aa8f38e3afe7e7fd
+  odinala_divine_realm: "알라 무오" # a183d79420a063ae633a350e3b12482f98630386
+  odinala_afterlife: "$odinala_divine_realm$" # 55b687d02be79b848bd4ec3cac33a3b16b96d1da
+  odinala_high_god_name: "치네케" # 881c0416592fe80e28aa17b11dedd8b4c591cb0d
+  odinala_high_god_name_possessive: "치네케의" # 33cd9e5902089b1dae16abfe5da45aadd2075151
+  odinala_high_god_name_alternate: "추크우" # 7b1b8f23c0eb2f4edef155dff540d14b02321618
+  odinala_high_god_name_alternate_possessive: "추쿠의" # 0dc1ae30e4ab7ea6b46978342b35ab9b7bb1cc50
+  odinala_high_god_shehe: "그" # 53a417796c777851003b3f2431e8eef5625ec15b
+  odinala_high_god_herselfhimself: "본인" # 280becfcc102e25ce4db3de0feb799be8fe5febf
+  odinala_high_god_herhis: "그의" # 79b58b71cd28cfddde8367f3177c2645a7709bf5
+  odinala_good_god_ala: "알라" # 1c674e7d8789e22018b9601bfdea78a24fb2d279
+  odinala_good_god_amadioha: "아마디오하" # 5e7872dfa63b6f31a049bb652b2d689543bbd824
+  odinala_good_god_anyanwu: "아냔우" # 029d948d3a631a56a2f68512000e29e8dc7f6242
+  odinala_good_god_igwekaalau: "이가웨칼라" # f953a9e4cb822a9d3fc137ef03f43fc1be227354
+  odinala_devil_name: "오그반제" # 75849221fb350a567239badf967c317119814563
+  odinala_devil_name_possessive: "오그반제" # 8c1463d7bc79a0f60075e6a1192d6d406c5b8721
+  odinala_devil_shehe: "그" # 30f088ea6673877c2e2c1edbe7513ff90eda9a6f
+  odinala_devil_herselfhimself: "자신" # fbd4798165ead7a485315afa2518f6f54c30dad3
+  odinala_creator_god_name: "추쿠" # 7b1b8f23c0eb2f4edef155dff540d14b02321618
+  odinala_creator_god_name_possessive: "추쿠의" # 0dc1ae30e4ab7ea6b46978342b35ab9b7bb1cc50
+  odinala_health_god_name: "아그우" # 858654887750cb787af8a07fe58048caafbb614f
+  odinala_health_god_name_possessive: "아구의" # f8b449f3aec1b39ed5c641d758d6007373c76e6e
+  odinala_fertility_god_name: "알라" # 1c674e7d8789e22018b9601bfdea78a24fb2d279
+  odinala_fertility_god_name_possessive: "알라의" # 3fa0be121aa8deac0705d99594f10d2d472988fb
+  odinala_wealth_god_name: "아마디오하" # 5e7872dfa63b6f31a049bb652b2d689543bbd824
+  odinala_wealth_god_name_possessive: "아마디오하" # 3a1ae74e0213fe8a6f4cea779acf7a0b9fd5bd95
+  odinala_household_god_name: "이켄가" # 8fcaa28b244ab0dbd30b5db5e7ae5da4e3a236a8
+  odinala_household_god_name_possessive: "이켄가의" # d52d27f94a187ed3a2f7471634c6116d4ac9a436
+  odinala_knowledge_god_name: "아냔우" # ac7410aa77a2f1b5254e551054461f12576657d5
+  odinala_knowledge_god_name_possessive: "애니안우의" # 4d4d9be94ba4d3621a2d3ab64ba3082855b1ebbd
+  odinala_fate_god_name: "키" # 99dc16a98d3b5be4c531e22f6c79ee7a5e9e0f0b
+  odinala_fate_god_name_possessive: "히오스의" # 5a250181086076826b545fa6e1175c10705fb688
+  odinala_war_god_name: "에크웬수" # 0ed8966bb7560875150052eb4f25532bf8f76dad
+  odinala_war_god_name_possessive: "익웬수의" # 3015f61dc292ffd5a0bc88e8382c376e483cbe60
+  odinala_trickster_god_name: "$odinala_health_god_name$" # 876f40ac35fee4ca989185ba1495e806cd4a8467
+  odinala_trickster_god_name_possessive: "$odinala_health_god_name_possessive$" # d22ea64165b6b9930db22826b4eb6109b11629b7
+  odinala_night_god_name: "$odinala_death_deity_name$" # b3cfeb4b09e62c826c4299bfbda9986878d79f31
+  odinala_night_god_name_possessive: "$odinala_death_deity_name_possessive$" # 970677bfcaf80fca2f5e478120c5c7ba1579bdfa
+  odinala_water_god_name: "음무오 음미리" # 3f4d787dab4dbd1c89939caac9ede8d05f3735c3
+  odinala_water_god_name_possessive: "음무오 므미리의" # 79fd9e204f26def1605bf296f9b26b2362c9fbbb
+  odinala_death_deity_name: "오그부나발리" # e9b4b8b3f4ea39e5537bb9ddf1b944e57dec529d
+  odinala_death_deity_name_possessive: "오그부나발리의" # a233c5a6a757c1d6a11cbf9e6efab543c8e75c96
+  witchgodname_odinala_ogbunabali: "오그부나발리" # e9b4b8b3f4ea39e5537bb9ddf1b944e57dec529d
+  witchgodname_odinala_ogbunabalis: "오그부나발리의" # a233c5a6a757c1d6a11cbf9e6efab543c8e75c96
+  odinala_pagan: "오딘알라" # 8dec764dbec127bafdabd368e75e15a997ce9731
+  odinala_pagan_adj: "오디날란" # 678a19070994c8ff277efa6b0175ece4a3f61e70
+  odinala_pagan_adherent: "오디날란" # 678a19070994c8ff277efa6b0175ece4a3f61e70
+  odinala_pagan_adherent_plural: "오디날란스" # 5da814518800ad6b73baa67001d3c096dda35d0d
+  odinala_pagan_old: "오치에 오디날라" # 8112ae4cc9adf3c5be4cddce8e7602016b291bae
+  odinala_pagan_old_adj: "오치에 오디날란" # 53d1c11133e5cf800a17a11be3d5c6fd4853b78d
+  odinala_pagan_old_adherent: "오치에 오디날란" # 53d1c11133e5cf800a17a11be3d5c6fd4853b78d
+  odinala_pagan_old_adherent_plural: "오치에 오디날란스" # 7106c031b38c46672ddd79124cefd1d76119724c

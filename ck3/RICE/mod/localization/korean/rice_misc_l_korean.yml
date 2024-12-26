@@ -1,1078 +1,1033 @@
 ﻿l_korean:
-	rule_RICE_intro_event: "RICE 소개 이벤트" # 2b3683166a178afe11f53e1ae03879d1293b15bb
-	setting_RICE_intro_event_on: "켜짐" # e0049a66519cae71159800bb77a35007bc2d76d3
-	setting_RICE_intro_event_on_desc: "게임에 진입하면 RICE 버전과 최신 기능을 알려주는 소개 이벤트가 한 번 발생합니다. 이 이벤트는 모드가 올바르게 설치되었고 최신 버전을 사용하고 있는지 확인하는 데 도움이 됩니다." # 5b11bab1038842676d2292078cdf22b7c5c8558c
-	setting_RICE_intro_event_off: "끄기" # e3de5ab0ca4c69dbf00e86d2558843e8d806bb49
-	setting_RICE_intro_event_off_desc: "소개 이벤트가 비활성화됩니다." # 3a72058495baab5ec18f2f78b59a142d820efcfc
-	RICEintro.0000.t: "RICE 1.14.0 "혜초"" # 20a5dcaaf2e4269adff4cbc4a3ee78ad69fba2ef
-	RICEintro.0000.desc: "RICE 1.14.0이 성공적으로 설치되었습니다. 이 이벤트는 게임 시작 시에만 발생하며 게임 규칙을 통해 비활성화할 수 있습니다. 최신 업데이트에서 추가된 일부 기능은 새 게임이 필요합니다. 스팀 창작마당, PI 포럼 또는 디스코드에서 버그를 보고하거나 피드백을 제공해 주십시오.\n\nRICE에는 현재 전 세계의 다양한 문화, 종교 및 지역을 다루는 #V #Bold 36#!#!가지의 플레이버 팩이 포함되어 있습니다. 가장 최신 플레이버 팩은 #V #Bold 레스보스: 시인의 섬#!#!입니다.\n\n이 플레이버 팩은 [GetTitleByKey('c_lesbos').GetNameNoTier]에 대한 새로운 플레이버를 추가하고 모드를 Roads to Power DLC로 업데이트하는 데 중점을 둡니다." # cc9270cbf609e5f7cb2bf842eefe6b04c147d341
-	RICEintro.0000.a: "좋습니다!" # fb17a31a730f648b2ee006eacda1351a971f175d
-	RICEintro.0000.b: "이번 업데이트의 새로운 추가 사항에 대한 개요를 알려드리겠습니다." # e390fd6bd0d31657523c9195ba6648be07afe42f
-	RICEintro.0000.c: "이 메시지를 향후 저장에서 비활성화하십시오." # 23bf9e398c8ed292ee84aa702601a943b4ab7b31
-	RICEintro.0000.c.tooltip: "#EMP Be aware that if you choose this option, you will NOT get this message to verify successful updates in the future for this save file!#!" # null
-	RICEintro_intro_tooltip: "#EMP Hyecho was an 8th century Korean Buddhist monk who traveled through much of Asia to go on pilgrimage to India, similar to the more famous Xuanzang a century before him. His travelogue, Memoir of a Pilgrimage to the Five Kingdoms of India, is a valuable source of information on various Asian and Middle Eastern cultures and polities during the early medieval period.#!" # null
-	RICEintro_TFE_warning_tooltip: "#V #bold 몰락한 독수리#!#!가 실행 중인 것으로 감지되었습니다. 이것이 사실이라면 #bold 새로운 게임을 시작하기 전에 모드 로드 순서에서 TFE가 RICE #underline 아래에#! 있는지 확인하십시오#!" # 14adf4c93bb52cc759cee8f78fd1fdd462fdfafa
-	RICEintro_ROA_warning_tooltip: "#V #bold 아시아의 라자#!#! 모드가 실행 중인 것으로 감지되었습니다. 이것이 사실이라면 새 게임을 시작하기 전에 #bold 모드 로드 순서에서 RICE #underline 아래에#! ROA가 있는지 확인하십시오#!" # 7bb0151b0faa8a26115ffb8719a113357db2cb23
-	RICE_decision_pagan_requirement: "이교 [faith|E]를 따름" # e57d2ff7fb65ba55fc2a7d13fa3ad177b6df374f
-	RICEintro.0010.t: "향미 팩 정보" # 6835e2bf27623059c4e237d72d9762e144588677
-	RICEintro.0010.desc: "어떤 풍미 팩에 대해 더 알고 싶으신가요?" # 282f3e60bbf8d8372e0814d2d680f0ba5dd2a1bd
-	RICEintro.0010.next: "더 보기" # c510d6c04c0951500c8e43f623e9f8886c378aec
-	RICEintro.0010.done: "알겠습니다." # 591c794a6256dcdf883100b343de6670561dd5fa
-	RICEintro.0010.siwa: "시와: 서부 사막의 오아시스" # b3ba78b4c1f30659e24846c8254181d73a700d45
-	RICEintro.0010.chios: "히오스: 유향의 섬" # ce412bb115e7c1cfb3d8be86264917927cb2eaa4
-	RICEintro.info.a: "네, 게임을 시작하겠습니다." # dbbad08f1e97316c4b4c4c27f8c779861b556fff
-	RICEintro.info.b: "다른 플레이버 팩을 보려면 메뉴로 돌아가세요" # 193edc8b9e9b1935332d1c4d5d2f78bb73a0c279
-	RICEintro.0020.t: "시와: 서부 사막의 오아시스" # b3ba78b4c1f30659e24846c8254181d73a700d45
-	RICEintro.0020.desc: "- 아문 신전과 히비스 신전을 재건하고, 이후 신탁의 인도를 구하거나 서부 사막의 지역 신들을 숭배하십시오\n- 휴식을 위해 시와의 태양의 샘을 방문하십시오" # 1429b05fdfd61b23ba2005fb86fc6b656f93e254
-	RICEintro.0021.t: "히오스: 유향의 섬" # ce412bb115e7c1cfb3d8be86264917927cb2eaa4
-	RICEintro.0021.desc: "- 매년 봄에 열리는 카니발 축제인 티미아나의 모스트라에 참석합니다\n- 지역 경제 또는 기반 시설을 개선하기 위해 결정을 통해 히오스에 유향 마을을 건설합니다\n- 히오스가 고향이라고 알려진 호메로스 기념비를 세웁니다\n- 히오스에 있는 새로운 유향 산업 건물을 활용합니다" # c60305bb8d7bc0088a78b80c482549aab1c24a51
-	RICEintro.0010.siberia: "시베리아: 순록의 사람들" # babdedb8a18bbb35d633f5b1a8bcaf12d5e7c10c
-	RICEintro.0022.t: "시베리아: 순록의 사람들" # babdedb8a18bbb35d633f5b1a8bcaf12d5e7c10c
-	RICEintro.0022.desc: "- 투르크족 통치자는 순록을 희생하여 자신과 우주에 대한 더 큰 이해를 얻을 수 있습니다.\n- 북부 통치자는 타이가에서 순록 무리를 확장할 수 있습니다.\n- 시베리아 문화권: 에벤크족, 니브흐족, 야쿠트족, 예니세이족, 유카기르족 방랑자들이 가끔 북부 통치자들의 궁정에 나타나 신하들에게 새로운 생존 기술을 가르칩니다." # 98cab721b16daa03630069fa71e308265e9103c4
-	# Game Rules 
-	rule_RICE_historical_context: "RICE 역사적 배경 툴팁" # 815109e8bae41b6052337b122132ce1e7d1e78e7
-	setting_RICE_historical_context_on: "켜짐" # e0049a66519cae71159800bb77a35007bc2d76d3
-	setting_RICE_historical_context_on_desc: "RICE의 다양한 기능에 대한 맥락을 제공하는 도구 설명이 때때로 있습니다.  저는 종종 맛과 게임성을 위해 역사에 예술적 자유를 부여하기 때문에, 이는 그러한 상황을 설명하는 것입니다." # d3b9e8fc75ebf5eaf36535782c3c05550ef94179
-	setting_RICE_historical_context_off: "#high Off#!" # null
-	setting_RICE_historical_context_off_desc: "RICE의 일부 측면에 대한 역사적 배경을 제공하는 툴팁이 간혹 나타나지 않습니다. 이는 해당 툴팁이 몰입을 방해한다고 생각하는 몰입 순수주의자들을 위한 것입니다." # bd86921e9e6100604f5e0202575496a138b0a07c
-	rule_RICE_music: "RICE 음악" # 4c5e133336ecf40342b6cea946f253589ac6b78d
-	setting_RICE_music_off: "#high Off#!" # null
-	setting_RICE_music_off_desc: "RICE 모드에서 추가된 음악 트랙이 재생되지 않습니다." # f65c2a46c9cdc16f1e12f5497d9156b56635babb
-	setting_RICE_music_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
-	setting_RICE_music_default_desc: "RICE 모드에서 추가된 음악 트랙은 적절한 지역에서 플레이하거나, 올바른 문화 또는 종교로 플레이하는 경우에만 재생됩니다." # 6c172fb3d194eda3f6739638a3bbf476e8120e65
-	setting_RICE_music_unrestricted: "#high Unrestricted#!" # null
-	setting_RICE_music_unrestricted_desc: "RICE 모드에서 추가된 음악 트랙은 지역, 문화 또는 종교에 관계없이 재생됩니다." # 524aebc0a70bd59fa765b539248f44c497c8d14f
-	setting_RICE_music_no_vocal_music: "#high No Vocal Music#!" # null
-	setting_RICE_music_no_vocal_music_desc: "노래가 포함된 음악은 비활성화됩니다. 배경 음악과 악기 연주 음악은 계속 재생됩니다." # ae2b15320595c68e7f12613a1976336e1c6bd59c
-	rule_RICE_new_characters: "RICE 시작 시 특징 이벤트" # 6aa75d87d74e6530c3f9702529f9cda70a7f3aba
-	setting_RICE_new_characters_off: "#high Off#!" # null
-	setting_RICE_new_characters_off_desc: "RICE의 게임 시작 풍미 이벤트는 게임플레이 효과가 있는 경우를 #emp 제외하고#! 트리거되지 않습니다." # 35326cb0b4bfd24288791efc1d4dad64ab6028bd
-	setting_RICE_new_characters_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
-	setting_RICE_new_characters_default_desc: "RICE는 현재 상황에 대한 정보를 제공하기 위해 위치 또는 캐릭터에 따라 게임 시작 시 이벤트를 트리거할 수 있습니다." # 232bbedef120d877bb386c9b08974d0d9c0ac27c
-	rule_RICE_event_frequency: "쌀 생산량 이벤트 빈도" # 14a2d844332ed16f3a3b9f9e474ced59d942affc
-	setting_RICE_event_frequency_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
-	setting_RICE_event_frequency_default_desc: "RICE의 일반적인 풍미 이벤트는 기본 비율로 발동됩니다." # 2256526628df3c694a6043875f8f223d80506efb
-	setting_RICE_event_frequency_high: "#high High#!" # null
-	setting_RICE_event_frequency_high_desc: "RICE의 일반적인 풍미 이벤트가 다소 더 자주 발생합니다. 경고: RNG 작동 방식 때문에, 한 번에 여러 이벤트가 표시되거나, 오랜 기간 동안 이벤트가 전혀 표시되지 않을 수도 있습니다." # 780204be4450b7b261a97bb4a0cfac77d64e61db
-	setting_RICE_event_frequency_very_high: "#high Very High#!" # null
-	setting_RICE_event_frequency_very_high_desc: "RICE의 일반적인 풍미 이벤트가 훨씬 더 자주 발생합니다. 이로 인해 이벤트 스팸이 발생할 수 있습니다! 경고: RNG 작동 방식 때문에, 한 번에 많은 이벤트가 나타나거나 오랫동안 이벤트가 전혀 나타나지 않을 수도 있습니다." # 8dfa6f81eccb2b34426ab974435542dd7d2dbf59
-	setting_RICE_event_frequency_low: "#high Low#!" # null
-	setting_RICE_event_frequency_low_desc: "RICE의 일반적인 풍미 이벤트가 다소 덜 자주 발생합니다. 경고: RNG 작동 방식 때문에 한 번에 많은 이벤트가 발생하거나 오랜 시간 동안 이벤트가 없을 수도 있습니다." # c351964dcc692705b102b1bdaf27dad562bc2bbf
-	setting_RICE_event_frequency_very_low: "#high Very Low#!" # null
-	setting_RICE_event_frequency_very_low_desc: "RICE의 일반적인 풍미 이벤트는 훨씬 덜 자주 발생합니다. 드물게 이벤트가 발생할 수 있습니다! 경고: RNG 작동 방식 때문에, 여전히 많은 이벤트가 한 번에 발생하거나, 오랜 기간 동안 이벤트가 전혀 발생하지 않을 수도 있습니다." # fe11093138c2a4f13e494b3b008a1297ac75ec33
-	rule_RICE_courtier_spawn_frequency: "쌀 관리자 등장 빈도" # 068aeb14f8cafa283f0e17767242df11a1ad7dd4
-	setting_RICE_courtier_spawn_frequency_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
-	setting_RICE_courtier_spawn_frequency_default_desc: "RICE의 궁정 신하 생성 이벤트가 기본 비율로 발동합니다." # 51d10471fb8683b09cdfb061bc78bf3264451596
-	setting_RICE_courtier_spawn_frequency_high: "#high High#!" # null
-	setting_RICE_courtier_spawn_frequency_high_desc: "RICE의 궁정 신하 생성 이벤트가 약간 더 자주 발동됩니다." # 4d446f47f2136f8e5e54f4b6ebefe38187d7e962
-	setting_RICE_courtier_spawn_frequency_very_high: "#high Very High#!" # null
-	setting_RICE_courtier_spawn_frequency_very_high_desc: "RICE의 궁정 신하 생성 이벤트가 훨씬 더 자주 발동됩니다." # 9207b7b7eb81d3714bb05b2453649db5b52d6441
-	setting_RICE_courtier_spawn_frequency_low: "#high Low#!" # null
-	setting_RICE_courtier_spawn_frequency_low_desc: "RICE의 궁정 신하 생성 이벤트가 다소 덜 자주 발생합니다." # 66341bdca3d8eab9c4fe2edd0c6713e4f139be95
-	setting_RICE_courtier_spawn_frequency_very_low: "#high Very Low#!" # null
-	setting_RICE_courtier_spawn_frequency_very_low_desc: "RICE 궁정 신하 생성 이벤트가 훨씬 덜 자주 발생합니다." # 2852d7369e2c70263074eaa026a755ccd2d043e1
-	rule_RICE_tuareg_emergence: "RICE 투아레그 등장" # ec4643849dd6ce1c774a6496a2e7ddc7f0afc17f
-	setting_RICE_tuareg_emergence_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
-	setting_RICE_tuareg_emergence_default_desc: "투아레그 [culture|E]는 $culture_era_high_medieval$ [era|E] 이후 [decision|E]를 통해 생성될 수 있습니다. 투아레그를 추가하는 모드는 RICE의 구현을 재정의합니다." # 0386e011627c00a30fbe3afb2fb6fa697d491a70
-	setting_RICE_tuareg_emergence_already: "#high Exist at Game Start#!" # null
-	setting_RICE_tuareg_emergence_already_desc: "게임 시작 시 투아레그 [culture|E] 문화가 존재합니다. RICE는 투아레그를 게임 시작 시 지도에 필요한 대로 배치하기 위해 다른 모드의 투아레그 구현을 덮어씁니다." # af6d6a3687e0b11da684dcbf514993b1a7292a4e
-	setting_RICE_tuareg_emergence_early: "#high Earlier Emergence#!" # null
-	setting_RICE_tuareg_emergence_early_desc: "투아레그 [culture|E]는 $culture_era_early_medieval$ [era|E] 시대 초기에 [decision|E]을 통해 등장할 수 있습니다. RICE는 다른 모드의 투아레그를 덮어쓰고 필요한 경우 게임 시작 시 지도에서 제거합니다." # e70d763e6419420adb89fad33c570af12aff0065
-	setting_RICE_tuareg_emergence_override: "#high Override Other Mods#!" # null
-	setting_RICE_tuareg_emergence_override_desc: "투아레그 [culture|E]는 $culture_era_high_medieval$ [era|E] 이후 [decision|E]을 통해 생성될 수 있습니다. RICE는 다른 모드의 투아레그를 덮어쓰고 필요한 경우 게임 시작 시 지도에서 제거합니다." # 620355cd42abeafad0153300ec5653ae255cd238
-	#  rule_RICE_silk_road_communities_rule "RICE 실크 로드 공동체" # ec68d723e100ca5bdc2d443d30ee9d9e10c8d4ab
-	#  setting_RICE_silk_road_communities_rule_default "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
-	#  setting_RICE_silk_road_communities_rule_default_desc "역사적 배경과 지리적 위치에 따라 [silk_road_communities|E]가 제공됩니다. 예를 들어, 스텝 [silk_road_communities_short|E]는 동아프리카에서는 접근할 수 없습니다." # 34733635ab6dbdeb10bb1416d00cce107873fceb
-	#  setting_RICE_silk_road_communities_rule_unrestricted "#high Unrestricted#!" # null
-	#  setting_RICE_silk_road_communities_rule_unrestricted_desc "[silk_road_communities|E]는 실크로드의 실제 역사나 지리와 상관없이 실크로드 어디에서든 이용할 수 있습니다. 예를 들어, 스텝 [silk_road_communities_short|E]는 동아프리카에서도 나타날 수 있습니다." # 9ca2980525164e7802e3068a70e644e1f15c1b33
-	rule_RICE_yazidi_emergence: "RICE 야지디교의 부상" # 8647fe6dc650a1e3ee3ae62f7a8b3091248432f9
-	setting_RICE_yazidi_emergence_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
-	setting_RICE_yazidi_emergence_default_desc: "야지디 [신앙|E]은 게임 시작 후 반세기 후에 무작위로 생성될 수 있지만, 12세기 이후에 생성될 가능성이 더 높습니다." # 518dd07eb22b31038eaedc4157169dce5e7a3196
-	setting_RICE_yazidi_emergence_historical: "#high Historical#!" # null
-	setting_RICE_yazidi_emergence_historical_desc: "야지디 [신앙|E]는 12세기 중반 이후에만 무작위로 생성될 수 있습니다." # c77cc0655fdaa5aef51568614eea148af36a2725
-	setting_RICE_yazidi_emergence_unrestricted: "#high Unrestricted#!" # null
-	setting_RICE_yazidi_emergence_unrestricted_desc: "야지디 [faith|E]는 언제든지 생성될 수 있습니다." # 9a7be71a9e5012a8ef923046b7ee8873d2b6bf1e
-	rule_RICE_yarsani_emergence: "RICE 야르사니의 부상" # a99c9be2fd2e540df7e4330b6e2e4d261a4070c3
-	setting_RICE_yarsani_emergence_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
-	setting_RICE_yarsani_emergence_default_desc: "야르사니 [faith|E]는 게임 시작 후 반세기 후에 무작위로 생성될 수 있지만, 13세기 중반 이후에 생성될 가능성이 더 높습니다." # 876cf86cf8b22d7b6e88a50cedac67963d459f9b
-	setting_RICE_yarsani_emergence_historical: "#high Historical#!" # null
-	setting_RICE_yarsani_emergence_historical_desc: "야르사니 [faith|E]는 14세기 중반 이후에만 무작위로 생성될 수 있습니다." # e7c1342f061af22bf7fc8b3c3cde67b83f5819c5
-	setting_RICE_yarsani_emergence_unrestricted: "#high Unrestricted#!" # null
-	setting_RICE_yarsani_emergence_unrestricted_desc: "야르사니 [faith|E]는 언제든 발생할 수 있습니다." # c0a4fb50710f93d0635d5417e202744d92bd1555
-	rule_RICE_afro_roman_counties: "쌀 $african_roman$ 존재" # 2d006c698539ac4e70bae19ec01f8e5ab0f2031c
-	setting_RICE_afro_roman_counties_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
-	setting_RICE_afro_roman_counties_default_desc: "바닐라 시작 날짜에는 북아프리카에 $african_roman$ 및 $catholic_adj$ [counties|E]가 없습니다. 이를 추가하는 다른 모드가 이를 덮어씁니다." # cb382c7143a52582283203049a5d42a85a33de2f
-	setting_RICE_afro_roman_counties_reduced: "#high Semi-Realistic#!" # null
-	setting_RICE_afro_roman_counties_reduced_desc: "바닐라 시작 날짜에서 북아프리카에는 두어 개의 $african_roman$ 및 $catholic_adj$ [counties|E]가 있는데, 이는 해당 지역에서 두드러지게 생존한 곳입니다. 이를 추가하는 다른 모드들은 이를 덮어씁니다." # d0f0a22c523e9df5e7d5638cb6c2301a38c039a4
-	setting_RICE_afro_roman_counties_extensive: "#high Exaggerated#!" # null
-	setting_RICE_afro_roman_counties_extensive_desc: "바닐라 시작 날짜에서 북아프리카에는 실제보다 훨씬 많은 $african_roman$ 및 $catholic_adj$ [counties|E]가 있습니다. 다른 모드가 추가되면 이 설정을 덮어씁니다." # bb42bf984801f19f38e910d561499227ccf03e7d
-	rule_RICE_easter_egg_characters: "RICE 부활절 달걀 캐릭터" # 9c00191ce2d29bc227c35689b9b08248684566b3
-	setting_RICE_easter_egg_characters_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
-	setting_RICE_easter_egg_characters_default_desc: "RICE 모드에서 추가된 이스터 에그 캐릭터들이 게임 시작 시 정상적으로 표시됩니다." # ac5d1a61f9f26629dd8f855fde4595ce38e84bc8
-	setting_RICE_easter_egg_characters_removed: "#high Disabled#!" # null
-	setting_RICE_easter_egg_characters_removed_desc: "RICE 모드에서 추가된 이스터 에그 캐릭터는 게임 시작 시 게임에 나타나지 않습니다." # 9005a8dc398f51ee18b67c8a6406ae72eebbf88b
-	rule_RICE_warning_events: "RICE 경고 이벤트" # 997055fc1dbbadffbd2bc971cb671d337cbf468a
-	setting_RICE_warning_events_default: "켜짐" # e0049a66519cae71159800bb77a35007bc2d76d3
-	setting_RICE_warning_events_default_desc: "게임 시작 시 잘못된 로드 순서, 게임 내 잠재적인 이상 동작 등에 대한 경고 이벤트가 감지되면 트리거됩니다(그렇지 않으면 스팸처럼 표시되지 않음)." # 121d5d07b20f39c80124c2af2849048c1509dbba
-	setting_RICE_warning_events_removed: "#high Off#!" # null
-	setting_RICE_warning_events_removed_desc: "경고 이벤트가 게임 시작 시 발생하지 않습니다. #warning @warning_icon! 이는 게임을 망가뜨릴 수 있는 심각한 문제에 대한 중요한 경고를 놓칠 수 있으므로, 어떤 행동을 하는지 알고 있는 경우가 아니면 절대로 권장하지 않습니다!#" # bdcdce0eb785a218bb39cc64f215ccd3e4bfd855
-	rule_RICE_adventurers: "RICE 역사적 모험가" # 656dd84810036871d576a89b088661de4de0ccf3
-	setting_RICE_adventurers_default: "켜짐" # e0049a66519cae71159800bb77a35007bc2d76d3
-	setting_RICE_adventurers_default_desc: "[모험가|E]는 각 시작 날짜에 RICE에 의해 추가되어 일반적으로 나타납니다." # 0c1809c2eff5e7ebb40057afc730ed16984bf9f4
-	setting_RICE_adventurers_disable_fictitious: "#high Disable Fictitious#!" # null
-	setting_RICE_adventurers_disable_fictitious_desc: "RICE에서 추가된 역사적 인물도 전설적인 인물도 아닌 반쯤 그럴듯한 [adventurers|E]는 플레이어가 조종하는 경우를 제외하고 게임이 로드된 후 비활성화됩니다." # d4e37822f3d5ceff21777e5b0ce6360b2ebf27ff
-	setting_RICE_adventurers_disable_all: "#high Disable All#!" # null
-	setting_RICE_adventurers_disable_all_desc: "RICE에서 추가한 [adventurers|E]는 플레이어가 조종하는 것을 제외하고 게임 로드 후 모두 비활성화됩니다." # 5d2785db766c90bb78c8c687410d96454f639474
-	# Game Rule Categories 
-	game_rule_category_RICE: "RICE" # 4562cfd91d0fa9aab4945733f1f24d4dd3b6b5b2
-	game_rule_category_greenland: "그린란드" # 1ba0cfa550295f8b2c5fa44b8236639adc825cf9
-	game_rule_category_vinland: "빈란드" # 29ad5d8916702b51cd639ed7506bb4e5b4d10122
-	game_rule_category_sri_lanka: "스리랑카" # 197042c4de91dae8aeafa9a52dc8c3a59aa41dc0
-	# Baklava 
-	RICE_baklava_test_name: "바클라바 성스러운 조각" # ade6cbeaa59b1c4572806a215dad446ee2762544
-	RICE_baklava_test_desc: "보통 바클라바는 먹어야 합니다. 이 바클라바 조각은 숭배해야 합니다. 바클라바는 신성하며, 바클라바는 알파이자 오메가이며, 이것은 바클라바의 왕이자 바클라바들의 왕 중 왕이기 때문입니다." # ea1cc36e909438e7811cee6c6e006889fe315801
-	RICEintro.8888.t: "디저트의 왕 중 왕" # a80644d1412a1740ddaff88dd8dc1206c3891d06
-	RICEintro.8888.desc: "[ROOT.Char.GetFaith.GetName]에게 알려진 가장 위대한 성스러운 유물, [RICE_baklava_test.GetName]를 발견했습니다!" # 5a2b5888db5f10207e7c7e64b015d8cd99106544
-	RICEintro.8888.a: "바클라바를 숭배할 수는 있지만 먹을 수는 없다니... 아이러니하군." # 1242f15daa6d6f82624c5fb2db91b87032dd3d2c
-	# Misc modifiers 
-	RICE_misc_myra_santa_claus: "성 니콜라스의 땅" # a5c6be7e2c5cd711844b3e0e26913e7935a8f331
-	RICE_misc_myra_santa_claus_desc: "자선, 신앙심, 니케아 정교 수호로 유명한 성 니콜라스는 미라에서 태어났으며, 4세기 경 그곳의 주교가 되었습니다. 미라에 있는 한 교회에는 성인의 무덤이 있으며, 그는 지역 주민들에게 자주 숭배받고 있습니다." # 5e7d28c408d67af03542debcc678005bafe9a6f1
-	RICE_misc_engaged_with_local_religious_practices: "지역 종교 관습에 참여함" # 59b2182f16aab0bedd7a8df139f7449629626e5a
-	# Geographical Regions 
-	RICE_nile_river_valley: "나일 계곡" # 448baee8909cd8d0846ecea9c71fd99dd3fbd3aa
-	RICE_hephthalite_heartland_region: "헤프탈라이트 심장부" # 18be17adfe50e1ca4ff98ee081cd00e3c676d4bc
-	RICE_hephthalite_former_empire_region: "이전 에프탈 제국" # 46588cf242e2f63df44285d8988a59ce2387efe5
-	RICE_sogdia: "소그디아나" # 320f9fb3d38ddb2eccb4adc6c18059b64908231b
-	RICE_greater_pamir_region: "더욱 광대한 파미르 지역" # 42f1502a050cb97d6d40c9882237f2277cd15307
-	RICE_brittany_horse_region: "브르타뉴 및 인접 지역" # f40e59978eff06ef8d92950255ae5ce7d10a5c01
-	# Historical Aspirations 
-	action_RICE_historical_aspiration: "[GetPlayer.Custom('RICE_historical_aspiration_action_title_name')]" # de45047c47b5e459b30ace94a1dbb163055084bd
-	action_RICE_historical_aspiration_label: "당신에게 달성할 수 있는 [historical_aspirations|E]이 있습니다" # 77f4bc22630bb5beeba5ac2868082f5d4fb91287
-	action_RICE_historical_aspiration_desc_default: "하나 이상의 [목표|E]를 달성하여 [포부|E]를 이루고 다양한 보상을 얻으세요." # d4bee21958b0207b1d17bd4da64eca50e94619cc
-	action_RICE_historical_aspiration_desc: "[GetPlayer.Custom('RICE_historical_aspiration_action_desc')]" # 6e6730bfd6903386c353290e36e0242c6ac404cf
-	action_RICE_historical_aspiration_click: "#I Click to view your Character#!" # null
-	RICE_historical_aspiration_fulfilled: "[GetPlayer.GetTitledFirstName] 님께서 [GetPlayer.GetHerHis] [GetPlayer.Custom('RICE_historical_aspiration_modifier_desc')]을(를) 이루셨습니다." # 881af84337d173ea2c46df83331e67ca9dc38391
-	RICE_historical_aspiration_fulfilled_title: "염원 달성" # f95165a6a6d1641ba25bb1db1bb3fe7533d89dd6
-	# Other 
-	TimothEe: "티모테" # a3ddfe948b1f3022579ded7119de80cca8f38131
-	dynn_umlaut: "움라우트" # 12b34f218410485032decf78bc674a5dfad56e04
-	RICE_robber_baron: "강도 귀족" # 962548acfb26d78aff71988de07b0a65147eeeae
-	RICE_robber_baron_desc: "이 캐릭터는 악명 높은 강도 귀족으로 알려진 지주이거나 한때 지주였습니다." # 55c4e45d852260f5a1b12258abafc92f415d7cb3
-	RICE_dynn_yngling_motto: "명예로, 우리는 극복한다" # 42c035e0e660e2ba7fc70fc98a30cafcecc68312
-	Goliath: "골리앗" # ca7ea6902fdeba7050a0c92d5ac5ebf17d3f81d1
-	dynn_von_bern: "베른의" # d967b78be99a34e511cab842dca09284b615279a
-	Weilian: "웨이리안" # 29333cdd51734c4b04d18d4b63adeb4de126a199
-	Chenyu: "첸위" # 3d72a6f33812854161a93741e8a254c889e2f0ed
-	Valerie: "발레리" # d6bd9a3b40d5d66c12f52dbb0b67eb83f351b07f
-	RICE_friend_reason_placeholder: "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)는 서로의 회사를 즐기게 되었습니다." # a5f287bd63913df0338ff2471738ee419e79d2ab
-	RICE_rival_reason_placeholder: "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 몇 가지 차이로 인해 서로를 싫어하게 되었습니다." # 0a19c4360802fc1a8becab774541ca75229d9e91
-	RICE_activity_result_gained_piety: "[piety_i] [piety|E] 획득" # 9aafd662e6731c1c79359c7e3f1766d7002bda37
-	RICE_activity_result_gained_prestige: "[prestige_i] [prestige|E] 획득" # 5887ae46c2813817c4a02aa8af430da78c803d58
-	RICE_activity_result_gained_dynasty_prestige: "[dynasty_prestige_i] [dynasty_prestige|E] 획득" # 30e171bbfb1f2fda6b18dbf40183478d609706f6
-	RICE_activity_result_gained_smaller_piety: "소량의 [piety_i] [piety|E](을)를 얻었습니다" # b7f9b19efbffa8bc018489c08c2f4c9169a6f7a2
-	RICE_activity_result_gained_smaller_prestige: "소량의 [prestige_i] [prestige|E]를 얻었습니다" # 729813ddb20888722bd24a10dfd061b27742dbb1
-	RICE_hot_springs_county_req: "[realm|E]에 유명한 [hot_springs|E]가 있는 [county|E]가 하나 이상 있습니다." # 66118478b168a3dc13f43c3ce1f629c94ccf76fc
-	RICE_not_tribal_government_req: "귀하의 [government|E]은(는) [GetGovernment( 'tribal_government' ).GetName]이(가) 아닙니다" # 5d74433a76ebac45daeb318de1827c28d9787241
-	RICE_has_tribal_holding_req: "소유한 모든 [카운티|E]에는 [부족 영토|E]가 있습니다." # b6f2bfe6f51e7071504e9f32e804bc78f0b1b2c5
-	RICE_has_castle_holding_req: "소유한 모든 [county|E]에는 [castle_holding|E]이 있습니다." # 4e4ad9439b45cb56286cbe5f4c6b0bb1118e5513
-	RICE_has_city_holding_req: "소유한 [county|E]에는 [city_holding|E]가 있습니다" # e43b0d75f5b853e9eaeab40c73cc03a51d740d7b
-	RICE_has_temple_holding_req: "소유한 모든 [county|E]에는 [temple_holding|E]이 있습니다." # 2bfc209a5a83b3a713fa7fb11bcd309c690de62c
-	RICE_NOT_has_castle_holding_req: "[castle_holding|E]이 있는 [county|E]를 소유하지 않음" # 4ab8569e4f930b52893044353794f831f74b9d3d
-	RICE_NOT_has_city_holding_req: "[도시_보유지|E]가 있는 [백작령|E]을 소유하지 않았습니다" # 4e0fbb5fd017ca662d4e7558a9fb93720dc80dd9
-	RICE_NOT_has_temple_holding_req: "[temple_holding|E]이 있는 [county|E]를 소유하지 않음" # caf891f193776a124fba94cc5451134b3f058d98
-	RICE_NOT_has_tribal_holding_req: "[부족 영지|E]를 보유한 [백작령|E]을 소유하지 않았습니다" # 755ee8bb5954cb64cb3b02329147e4a0f9a63415
-	# Generic Activities 
-	activity_RICE_hot_springs_visit_host_an_a: "$host_activity_a$" # null
-	activity_RICE_hot_springs_visit: "온천 방문" # 375f68cfd0fe9ac0218fbd4abfd4dddf670f2d56
-	activity_RICE_hot_springs_visit_desc: "이 세상에는 많은 유명한 [hot_springs|E]가 있으며, 저는 다행히도 그 중 하나 가까이에 살고 있습니다. 스트레스를 해소하고 일상의 걱정을 잊기 위해 방문해야겠습니다." # ede5349e75a6428baf553a6d9fef64ab3754b36e
-	activity_RICE_hot_springs_visit_selection_tooltip: "현지 [hot_springs|E]에서 휴식을 취하십시오.\n\n$activity_RICE_hot_springs_visit_context_tooltip$" # 78f99980dc69244e2721bab84a034af854712864
-	activity_RICE_hot_springs_visit_context_tooltip: "#emphasis Historical Context:#! Hot springs typically have geothermal origins, such as due to volcanic activity. They have been used by humans for thousands of years, and many hot springs are traditionally believed to have healing or therapeutic properties." # null
-	activity_RICE_hot_springs_visit_host_desc: "$BULLET_WITH_TAB$ [stress_loss_i|E] [stress|E] 감소\n$BULLET_WITH_TAB$ 위치에 따라 다른 추가 혜택 가능" # d53e98b1798151d06923226a48fae9b70e760b10
-	activity_RICE_hot_springs_visit_guest_desc: "$activity_RICE_hot_springs_visit_host_desc$" # null
-	activity_RICE_hot_springs_visit_province_desc: "#N - 이곳의 [hot_springs|E]는 잘 알려져 있지는 않지만, 휴식을 취하기에는 충분할 것입니다.#!\n#weak 잘 알려진 [hot_springs|E]에 비해 [stress|E] 감소 효과가 적고 특별한 보너스도 없습니다." # 4f9a0e002f0712c64747bf021242d0a400fe9f11
-	activity_RICE_hot_springs_visit_destination_selection: 
-	activity_RICE_hot_springs_visit_guest_help_text: "$activity_RICE_hot_springs_visit$" # null
-	activity_RICE_hot_springs_visit_predicted_cost: "[온천|E] 방문 비용은 선택한 [활동 옵션|E]에 따라 다릅니다." # daaf8f31311155b867ee2eaedc89897f0e485bc0
-	activity_RICE_hot_springs_visit_conclusion_desc: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]이 끝났습니다. 즐겁고 편안한 경험이었습니다!" # c2abb609ca0fc4c34766636a70b8582cde1d75ba
-	RICE_hot_springs_visit_type: "방문 유형" # 14f11d4c4e94218d839268cc4a03bd40b1a6beaf
-	RICE_hot_springs_visit_type_public: "공개" # dc5eb704bbcae1aff4efb71c55461d47767dabe7
-	RICE_hot_springs_visit_type_public_desc: "$EFFECT_LIST_BULLET$ 선택한 [온천|E]로의 고급스러운 공개 여행입니다. 현지인들은 방문객의 만족을 위해 최선을 다할 것입니다.\n$EFFECT_LIST_BULLET$ #bold 개인적인#! 방문에 비해 더 많은 [명성_i][명성|E]를 얻지만, [스트레스_손실_i|E] [스트레스|E]는 더 적게 잃습니다.\n\n#weak 다른 사람들과 함께하지 않고 어떻게 휴식을 취할 수 있을까요? 즐거운 시간에 다른 사람을 피하는 사람만이 사회적으로나 개인적으로 무능한 사람일 것입니다!#!" # d2ca18e3f1f12e67e4914fd5393188b533a00542
-	RICE_hot_springs_visit_type_private: "개인" # 237dfa0a21c8e17a7276cf161eef7e0fba067c47
-	RICE_hot_springs_visit_type_private_desc: "$EFFECT_LIST_BULLET$ 선택하신 [hot_springs|E]로의 개인 여행이 될 것이며, 눈에 띄지 않게 조용히 휴식을 취할 수 있습니다.\n$EFFECT_LIST_BULLET$ #bold 공개#! 방문에 비해 더 많은 [stress_loss_i|E] [stress|E]를 줄이지만, [prestige_i][prestige|E]는 더 적게 얻습니다. (또는 방문하는 장소에 따라 전혀 얻지 못할 수도 있습니다.)\n\n#weak 다른 사람이 있어야 즐거운 사람은 자기 자신에게 편안함을 느끼지 못합니다. 조용하고 평화로운 환경에서 휴식을 취하는 것이 가장 좋습니다.#!" # b5a8f6c7a588c1f7045f1e15fb27413127c71a5a
-	RICE_hot_springs_visit_leisure_phase: "여가" # 540c98ab5802a4a1fd4ab4d87311796148c2e3fd
-	RICE_hot_springs_visit_leisure_phase_desc: "[hot_springs|E]를 즐길 시간입니다!" # cfca74ba85ee58d6b8cad2b61fb34c52f6e5df2f
-	RICE_hot_springs_visit_relaxation_intent_header: "휴식:" # c9427617468e0e3e0b6593fea4a0e5ee5cb1d02a
-	RICE_hot_springs_visit_relaxation_intent: "휴식" # ce72467f49a835fc1a0f4e8be5234653e978d5d7
-	RICE_hot_springs_visit_relaxation_intent_desc: "선택한 [hot_springs|E]에서 휴식을 취할 것입니다." # e14d9e6799393440a842c0aef6b6d4d1484c406b
-	RICE_hot_springs_visit_completed_log_title: "온천 방문 완료" # 69967e29f9bad0bc9e0b865a77e5844d103e4016
-	RICE_hot_springs_visit_completed_log: "[CHARACTER.GetShortUIName|U](이)가 [PROVINCE.GetBaronyNameExplicitly]의 [hot_springs|E](으)로의 방문을 완료했습니다." # 43c1016d22aa002b74281e3b45f976c0241c39af
-	TRAVEL_NAME_FOR_activity_RICE_hot_springs_visit: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_hot_springs_visit$" # 038864615fe26d9e7344192a46182396c9e9c665
-	activity_RICE_local_pilgrimage: "지역 순례" # 91b72ecfc32f7455088f31cc63a64d69acf85e2e
-	activity_RICE_local_pilgrimage_desc: "세계에는 지역 성지가 많이 있습니다. 이러한 장소는 [faithpossessive|E] 주요 [holy_sites|E]만큼 눈에 띄지는 않아서 장거리 [pilgrimages|E]의 대상이 되는 경우는 드물지만, 여전히 주변 지역의 신도들을 끌어들입니다." # 051065496bb4e5ae0741a84d0065ba5d23fa0376
-	activity_RICE_local_pilgrimage_selection_tooltip: "[local_순례|E]를 떠납니다.\n\n$activity_RICE_local_pilgrimage_context_tooltip$" # b3f41953177a1db1039f02afa5908aa2aac8b602
-	activity_RICE_local_pilgrimage_context_tooltip: "#emphasis Historical Context:#! While pilgrimages often conjure images of grand journeys to well-known religious sites like Mecca, Jerusalem, Santiago, and Bodh Gaya, pilgrimages to local, regional destinations were, and are, also common as well. Some of these have been centers of worship and veneration for just as long, or even longer, than the more famous holy sites. They are often connected with local legends and culture, and, oftentimes, traveling to these places was more practical in the pre-modern era when traveling was difficult." # null
-	activity_RICE_local_pilgrimage_host_desc: "$BULLET_WITH_TAB$ [신앙도_i|E][신앙도|E] 획득\n$BULLET_WITH_TAB$ [스트레스_손실_i|E] [스트레스|E] 상실\n$BULLET_WITH_TAB$ [GetTrait('pilgrim').GetName( GetNullCharacter )] [특성|E] / [GetTrait('pilgrim').GetName( GetNullCharacter )] [특성_수준_추적_경험치|E]" # a3664c865b811a9d3e718e2be7abdeb98415dfc7
-	activity_RICE_local_pilgrimage_guest_desc: "$activity_RICE_local_pilgrimage_host_desc$" # null
-	activity_RICE_local_pilgrimage_province_desc: 
-	activity_RICE_local_pilgrimage_destination_selection: "$activity_RICE_local_pilgrimage_province_desc$" # null
-	activity_RICE_local_pilgrimage_guest_help_text: "$activity_RICE_local_pilgrimage$" # null
-	activity_RICE_local_pilgrimage_predicted_cost: "[local_pilgrimage|E]의 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 2e39f320fcab8b3d21fd4a1cd992e5f6c167df1f
-	activity_RICE_local_pilgrimage_conclusion_desc: "[GetActivityType( 'activity_RICE_local_pilgrimage' ).GetName]이(가) 끝났습니다. 훌륭한 종교적 경험이었습니다!" # 0f71cfec1a45b8fb56c1492754297cb9277ee4d1
-	RICE_local_pilgrimage_type: "방문 유형" # 14f11d4c4e94218d839268cc4a03bd40b1a6beaf
-	RICE_local_pilgrimage_type_devotion: "헌신의 행위" # 0274272ab2c6ab0825aab0e11802374f4006529f
-	RICE_local_pilgrimage_type_devotion_desc: "$EFFECT_LIST_BULLET$ 다른 [신앙심|E] 획득량에 더하여 [신앙심_i|E] #V 100#! 획득\n$EFFECT_LIST_BULLET$ 다른 선택지에 비해 [특성('순례자').GetName( GetNullCharacter )] [특성|E]의 [특성_레벨_추적_경험치|E] 두 배 획득\n\n#weak 비록 주요 성지로 여행하는 것은 아니지만, 우리는 여전히 순례 중이며, 이를 진지하게 받아들여야 합니다.!#" # 9f0def7e30dd422f15f2441b996a59b3832fcffb
-	RICE_local_pilgrimage_type_observance: "종교 의례" # 5220b41b5f1ecfa658cf2d854ee27daf14f5d5bf
-	RICE_local_pilgrimage_type_observance_desc: "$EFFECT_LIST_BULLET$기타 [prestige|E] 획득량에 추가하여 [prestige_i|E] 100을 획득합니다.#V 100#!\n$EFFECT_LIST_BULLET$지역 종교 관습에 따라 [GetPlayer.GetFaith.PantheonTerm]을 존중하면, 신하들에게 자신을 이해하고 그들의 생활 방식을 존중하는 지도자임을 보여줄 수 있습니다. [GetModifier('RICE_misc_engaged_with_local_religious_practices').GetNameWithTooltip] [character_modifier|E]를 획득합니다." # 8944751c6bc9dea137936fa5dad204a93c77e237
-	RICE_local_pilgrimage_type_vacation: "영적 휴가" # d46d5984ac8796c961de48352779a2b3eb262107
-	RICE_local_pilgrimage_type_vacation_desc: "$EFFECT_LIST_BULLET$ 다른 선택지에 비해 [stress_loss_i|E] [stress|E]를 훨씬 많이 잃습니다\n\n#weak 정신적, 육체적 회복은 모든 장기적인 종교 체험에서 중요한 측면이며, [GetPlayer.GetFaith.PantheonTerm]에 더 가까이 다가갈 수 있게 해줍니다!#" # 3763cffcd401f1f47a700b9c78d2ad2bc31e3ff2
-	RICE_local_pilgrimage_pilgrimage_phase: "$pilgrimage_phase_solo$" # null
-	RICE_local_pilgrimage_pilgrimage_phase_desc: "$pilgrimage_phase_solo_desc$" # null
-	RICE_local_pilgrimage_worship_intent_header: "숭배:" # 97f96470a9d363b328ca1708cf3575131301d2a6
-	RICE_local_pilgrimage_worship_intent: "숭배" # 82a99411bb49a330b3921012d5d35a92a44b5488
-	RICE_local_pilgrimage_worship_intent_desc: "이 [local_pilgrimage|E]의 종교적 측면에 집중하고 싶습니다. 다른 이득 외에 추가 [piety_i|E] [piety|E]를 얻습니다. [GetTrait('zealous').GetName( GetNullCharacter )] 또는 [GetTrait('calm').GetName( GetNullCharacter )] 특성을 보유한 경우 추가 [stress_loss_i|E] [stress|E]를 잃습니다." # 8d3abb0a3d9e49f78fa1c478f61c216651a2574e
-	RICE_local_pilgrimage_model_intent_header: "롤 모델:" # 62d034fcafbabe9bcd0931a6c6216146e4741aaf
-	RICE_local_pilgrimage_model_intent: "역할 모델" # 2741d242c1629a18cf2bee9ab503322adf4999bf
-	RICE_local_pilgrimage_model_intent_desc: "이 지역의 모든 [GetPlayer.GetFaith.GetAdherentNamePlural]에게 이번 [local_pilgrimage|E]를 통해 모범을 보이십시오. 다른 이득 외에도 더 많은 [prestige_i|E] [prestige|E]를 얻습니다. 만약 당신이 [GetTrait('ambitious').GetName( GetNullCharacter )] 또는 [GetTrait('diligent').GetName( GetNullCharacter )]라면 추가 [stress_loss_i|E] [stress|E]를 잃습니다." # a40748db06b3610a533ebeeb06d1e57fd26a3ee8
-	RICE_local_pilgrimage_curiosity_intent_header: "호기심:" # eb4a4155e664c66391734d07a3d2e9d0dc62c5b2
-	RICE_local_pilgrimage_curiosity_intent: "호기심" # 1a0bff19a5f4891dbfd100deb6c51c2b8bd4bf3b
-	RICE_local_pilgrimage_curiosity_intent_desc: "당신은 이 [local_pilgrimage|E]를 떠나면서, 현지 주민, 그들의 문제, 그리고 그들이 [GetPlayer.GetFaith.GetName]을 어떻게 수행하는지 더 잘 이해하고 싶습니다. 당신의 [lifestyle|E]에서 [experience|E]를 얻습니다. 만약 당신이 [GetTrait('humble').GetName( GetNullCharacter )] 또는 [GetTrait('just').GetName( GetNullCharacter )]라면 추가적인 [stress_loss_i|E] [stress|E]를 잃습니다." # c5c5f9164056d65e0117fb471d923640d9b3a33d
-	# Placeholder, all pilgrimages have their own unique versions 
-	RICE_local_pilgrimage_completed_log_title: "지역 순례 완료" # a5431ac923860de28fd5753d28b76276dc8acd46
-	RICE_local_pilgrimage_completed_log: "[CHARACTER.GetShortUIName|U](이)가 [PROVINCE.GetBaronyNameExplicitly](으)로 [local_pilgrimage|E](을)를 완료했습니다." # 38a6f416253e8e0a98d1670c829df1306a2e4044
-	TRAVEL_NAME_FOR_activity_RICE_local_pilgrimage: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_local_pilgrimage$" # 344b903cdb3df051cb2deece789c4eeea6e200e0
-	RICE_local_pilgrimage_county_req: "[top_realm|E|E]에 [지역 순례|E]로 유명한 장소가 있는 [county|E]가 하나 이상 있습니다" # 0eabf7bc43706fc24840586c163e8d38f42430de
-	NOT_RICE_local_pilgrimage_county_req: "$RICE_hot_springs_county_req$" # null
-	RICE_local_pilgrimage_votive_offering_type: "공물" # 4d9644f45bf5bfd91774aab6f56830a7a7dcba7c
-	RICE_local_pilgrimage_votive_offering_type_small: "기본 봉헌물" # a94c459c9443840bd138186621fd6510af8e684e
-	RICE_local_pilgrimage_votive_offering_type_small_desc: "$EFFECT_LIST_BULLET$ [activity|E] 완료 시 [piety_i|E] #V 50#! 기본 획득.\n\n#weak 순례 목적지에 도착하면 [GetPlayer.GetFaith.PantheonTerm]에게 어떤 형태로든 공물을 바치는 것이 좋은 관례입니다.#!" # 9015124cda3b64e46324d6538822a0813c594e49
-	RICE_local_pilgrimage_votive_offering_type_medium: "대규모 봉헌물" # eb4c293a8297ddaa2b0624f44c70118e63670969
-	RICE_local_pilgrimage_votive_offering_type_medium_desc: "$EFFECT_LIST_BULLET$[activity|E] 완료 시 [piety_i|E] #V 100#! 기본 획득.\n\n#weak "소규모" 순례에서도 상당한 공물을 바쳐 [GetPlayer.GetFaith.PantheonTerm]을 제대로 공경해야 합니다.!#" # 5d2fd1ef93520a4ec3a7d2e72ddd8ad7ec9156c5
-	RICE_local_pilgrimage_votive_offering_type_large: "소규모 [GetPlayer.GetFaith.HouseOfWorship|U] 토지 증여" # 0328d099166c11f29dd4ef9b3558358fab03cfa4
-	RICE_local_pilgrimage_votive_offering_type_large_desc: "$EFFECT_LIST_BULLET$[piety_i|E] 기본 획득량 #V 200#! [activity|E] 완료 시.\n$EFFECT_LIST_BULLET$[development_i|E] [development|E] 진행도 #P 증가#! (수도)에서 #V [EmptyScope.ScriptValue('minor_development_progress_gain')]#! [activity|E] 완료 시#!\n\n#weak 순례를 떠날 때, 현명한 통치자는 그들의 헌신을 증명하기 위해 종교 기관에 토지를 기증할 것이며, 그리하여 [GetPlayer.GetFaith.PantheonTerm]의 영광을 드높일 것입니다.#!" # 1e20255c0dde4440e0ee7a8e1f264a5151a55c7b
-	# Game Concepts 
-	game_concept_hot_springs: "온천" # cb506dd41a005a6fcc0d4c18104ce66e01d7afa8
-	game_concept_hot_spring: "온천" # f050ee11f2d0fbf927d766f118780f47ce621efb
-	game_concept_hot_springs_desc: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]는 많은 [rulers|E]가 [stress|E]를 해소하기 위한 방법으로 이용할 수 있는 [activity|E] 유형입니다. 이 [activity|E]에는 두 가지 [activity_options|E]이 있습니다. 방문이 좀 더 공개적이고 주목받는 행사가 될지, 아니면 사적인 은밀한 일이 될지 선택할 수 있습니다.\n\n시와에 있는 태양의 샘과 같이 지도 곳곳에서 발견되는 몇 가지 #bold 특별한#! 온천이 있습니다. 이러한 지역 중 한 곳이 있는 [realm|E]에 있다면 그곳으로 [travel|E]하기로 결정하면 유용한 [character_modifiers|E]와 같은 추가 보너스를 얻을 수 있습니다." # 4bb86558e57118b948593651f6febc878402bf94
-	game_concept_local_pilgrimage_short: "순례" # ac8145f7978932a7c5c0da2ae69d29674474af0d
-	game_concept_local_pilgrimages_short: "순례" # f2fc7330402fb939a642a62c5a1a0c1ef8d926cc
-	game_concept_local_pilgrimage: "지역 순례" # 91b72ecfc32f7455088f31cc63a64d69acf85e2e
-	game_concept_local_pilgrimages: "지역 순례" # 6e4c46220659636b1fffe5f8c5bcb17e58b86649
-	game_concept_local_pilgrimage_desc: "$game_concept_local_pilgrimages$는 특정 종교 장소 근처를 다스리거나 거주하는 [통치자|E]가 이용할 수 있는 [활동|E]입니다. 이러한 순례는 규모와 영향력이 훨씬 더 작은 규모이므로, 자신의 [신앙|E]의 [성지|E]로 가는 더 웅장한 [순례|E]와는 구별됩니다.\n\n모든 사람이 현지 순례에 접근할 수 있는 것은 아닙니다. 또한, [통치자|E]가 적절한 위치에 있더라도 특정 [결정|E]을 내리거나 특정 이벤트가 발생해야만 사용할 수 있는 현지 순례가 많습니다. 현지 순례는 때로는 제공하는 혜택이나 순례를 갈 수 있는 사람들의 지리적 범위를 늘릴 수 있는 추가 특별 [결정|E]과 관련되기도 합니다.\n\n그럼에도 불구하고, 일반 [순례|E]보다 더 적은 혜택을 제공하지만, 현지 순례는 특정 목적지에 따라 특별한 [캐릭터_모디파이어|E]와 같은 고유한 혜택을 제공하는 경우가 많습니다. 또한, 더 웅장한 [순례|E]를 준비하기 위해 일반 [순례|E]보다 느린 속도이긴 하지만, [GetTrait('pilgrim').GetName( GetNullCharacter )] [특성_레벨_트랙_XP|E]을 얻는 데 좋은 방법입니다." # be8153aa21ccd50ba742299d326dc8b58f692e96
-	game_concept_aspiring: "야망" # c9b355f08d40c1311457d3b1c8325cd28b39b0f8
-	game_concept_aspires: "열망함" # 77f5955595d40e0786405639bd98f275c8740eba
-	game_concept_aspired: "열망하는" # 830af9269274511e3a20af20d37446fe5c61dfa7
-	game_concept_aspire: "야망" # 2611075b70cb11e984e5e3cfb322eb5efcf5080e
-	game_concept_aspiration: "열망" # 7fe875d46d1f6f727eafacc414d2b566072164ab
-	game_concept_aspirations: "열망" # 1c88c37b0b158ab8da5bf4f0a8e6851119eb5da0
-	game_concept_historical_aspiration: "역사적 야망" # 08ebb8e925038cdc89e6ece894bf4dabbaf4f1fd
-	game_concept_historical_aspirations: "역사적 야망" # d2399cc8107dca2c5e1463487beed23d35a3ccf8
-	game_concept_historical_aspirations_desc: "$game_concept_historical_aspirations$는 게임 시작 시 특정 역사적 [characters|E]에게 제공되는 간단하고 선택적인 퀘스트입니다. 업적과는 달리, 이러한 목표를 달성하면 [modifiers|E] 또는 @dynasty_prestige_icon! [dynasty_prestige|E]와 같은 다양한 보너스가 주어집니다.\n\n목표는 일반적으로 광범위한 가능성이나 가설보다는 캐릭터의 구체적인 역사적 상황과 동기를 반영하며, 플레이어가 해당 캐릭터의 실제 삶의 욕망과 경험을 역할극으로 연기하도록 장려하는 데 목적이 있습니다.\n\n목표는 두 가지 유형의 목표로 구성됩니다. 목표를 달성하려면 [historical_aspiration_main_objectives|E]를 만족해야 합니다. 반대로, [historical_aspiration_bonus_objectives|E]는 만족할 필요는 없지만 그렇게 하면 추가 보너스를 얻을 수 있습니다. 목표는 [decision|E]를 내리는 것과 같은 직접적인 행동이거나 특정 [religion|E]을 따르는 것과 같은 수동적인 행동일 수 있습니다.\n\n목표 달성은 즉시가 아니라 연도의 #V 시작#! 시점에 계산된다는 점에 유의해야 합니다. 즉, 연초에 목표를 달성하면 목표가 완료됩니다. 이는 보너스 목표를 달성할 약간의 유예 시간이 있음을 의미합니다." # 55a4e7aedc69b7cfe3acec7716afb9d2bf3edb79
-	game_concept_historical_aspiration_main_objective: "주요 목표" # 9894aecd13d03ff3305f3f6847c899dd5194dab4
-	game_concept_historical_aspiration_main_objectives: "주요 목표" # b5db1b1e685f9705301b8ea67c9a74852ae3a46d
-	game_concept_historical_aspiration_main_objectives_desc: "$game_concept_historical_aspiration_main_objectives$는 역사적 인물이 자신의 [historical_aspiration|E]를 달성하기 위해 충족해야 하는 필수 조건입니다. [historical_aspiration_bonus_objectives|E]와는 달리, 선택 사항입니다.\n\n주요 목표 또는 목표가 충족되면 해당 인물은 관련 보상,  [historical_aspiration_bonus_objectives|E] 달성 보상을 포함하여, 받게 됩니다." # f4c5061249b9a856f26b48f2920a3e56d32f1b22
-	game_concept_historical_aspiration_bonus_objective: "보너스 목표" # c6e2b205166e70b7d4e059264fb6e8029755c77c
-	game_concept_historical_aspiration_bonus_objectives: "보너스 목표" # d525ad02dcc2a8a75783613214b27cb5aab50666
-	game_concept_historical_aspiration_bonus_objectives_desc: "$game_concept_historical_aspiration_bonus_objectives$는 역사적 인물이 [historical_aspiration|E]을 달성하려고 할 때 시도할 수 있는 추가적인 선택 목표입니다. [historical_aspiration_main_objectives|E]와는 대조적으로 필수는 아니지만, 달성 시 더 많은 보상을 제공합니다.\n\n그러나 보너스 보상을 받으려면 [historical_aspiration_bonus_objectives|E]는 [historical_aspiration_main_objectives|E]를 달성할 때 충족해야 합니다. 나중에 충족되면 캐릭터는 그러한 보상을 받지 못합니다." # dd2e7abac3572026cbec42f499e521b53f5770a2
-	# Generic Memories 
-	RICE_hot_springs_visit_host_memory: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을(를) 했습니다" # e53a4f1a2702f546be22b6b451f8257c402ae622
-	RICE_hot_springs_visit_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을(를) 했습니다" # cf7911dbabf287853b3997ebf260bf4991a6dab4
-	RICE_hot_springs_visit_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을 했습니다." # f0fa15f2806c4d9c15acc40e8666c3037892a45f
-	RICE_hot_springs_visit_host_memory_third_perspective: "[owner.GetName](이)가 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName](을)를 했습니다" # 756d11eff32cc3d9db7c85f010ae7ee34973782a
-	RICE_hot_springs_visit_guest_memory: "[host.GetTitledFirstName](이)와 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName](을)를 떠났습니다" # 0ed1a5b64ace47bd4fd813534ed5208af8b8d863
-	RICE_hot_springs_visit_guest_memory_first_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]에 다녀왔습니다." # e8ed6684e0aeb0329b5ad7fe671da864c6853714
-	RICE_hot_springs_visit_guest_memory_second_perspective: "당신은 [host.GetTitledFirstName]님과 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을(를) 갔습니다." # b706c7ad51c7ef3e7c9e8d286cda8d569535a8ea
-	RICE_hot_springs_visit_guest_memory_third_perspective: "[owner.GetName]이 [host.GetTitledFirstName](와)과 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName](을)를 떠났습니다" # 8d5c5f1fc769bbff1e81bcc25d17fdb624b10269
-	RICE_local_pilgrimage_host_memory: "[local_pilgrimage|E] 순례를 떠났습니다" # bf26be2cc7d31b9d26823d8969552a4e2bf98109
-	RICE_local_pilgrimage_host_memory_first_perspective: "[local_pilgrimage|E] 순례를 다녀왔습니다" # 374b9a26013505f3aad1487d26ccdffc81e1fdd6
-	RICE_local_pilgrimage_host_memory_second_perspective: "[local_pilgrimage|E] 순례를 다녀왔습니다" # 2dc9bf945752ad0717366befc7580bb8bd4b4c4e
-	RICE_local_pilgrimage_host_memory_third_perspective: "[owner.GetName]이 [local_pilgrimage|E] 순례를 떠났습니다" # 1666e9670cb0cf8135f5c184943860c3f15c5e22
-	RICE_local_pilgrimage_guest_memory: "[host.GetTitledFirstName] 님과 함께 [host.GetHerHis] [local_pilgrimage|E]에 동행했습니다." # 6017fe03288e03332db99ab675663334348a4e1c
-	RICE_local_pilgrimage_guest_memory_first_perspective: "저는 [host.GetTitledFirstName] 님의 [host.GetHerHis] [local_pilgrimage|E]에 동행했습니다." # 86a9894f831ddb883604046d95a24586249fba2a
-	RICE_local_pilgrimage_guest_memory_second_perspective: "[호스트.GetTitledFirstName]과 함께 [호스트.GetHerHis] [local_pilgrimage|E]에 동행했습니다." # f21537199c2171a49d05957dfec74fc9971a7317
-	RICE_local_pilgrimage_guest_memory_third_perspective: "[owner.GetName]이 [host.GetTitledFirstName](을)를 따라 [host.GetHerHis] [local_pilgrimage|E]에 동행했습니다" # 7d6826dc2272c0a076fed294153ace739e7ca209
-	# Travel Options 
-	RICE_local_veneration_option: "지역 신전에서 숭배" # 391fac858083a429b24d124e3faf9b67b7dfe51c
-	RICE_local_veneration_option_desc: "여행 중에, 당신은 지역 [GetPlayer.GetFaith.GetReligion.GetAdjective] 성인이나 다른 신성한 존재들이 축복한 장소를 지나갈 수 있으며, 그들을 만날 때마다 존경을 표하는 것이 중요합니다." # db849ff3b7ac8a189c3bb0063d348f8bd2fbf734
-	RICE_local_veneration_option_effect_1: "자신의 [종교|E]를 따르는 [남작령|E]에 들어갈 때마다, 자신의 [학습|E] 및 [신앙심_단계|E]에 따라 [신앙심_i|E] #V 1#!과 [신앙심_i|E] #V [빈 범위.ScriptValue('minor_piety_value')|0]#! 사이의 값을 얻을 수 있는 확률이 #V [GetPlayer.MakeScope.ScriptValue('RICE_local_veneration_option_bonus_chance')]%#!입니다." # ce06741803d45a028d2d3d5b1e0cf1bbfd4ce9a8
-	RICE_local_veneration_option.toast.success: "현지 [GetPlayer.GetFaith.GetReligion.GetAdjective] 신전에서 기도했습니다" # 0ae6c2665cf35a5649b0964f674858223a0daee7
-	# Warning Events 
-	RICEintro.0030.t: "@warning_icon! 잘못된 로드 순서 감지됨" # b121db8d4ea818ed5b84be97a90e0e4c155ea9b4
-	RICEintro.0030.desc: "아시아의 라자와 RICE가 현재 모드 목록에서 실행 중이지만 로드 순서가 잘못되었습니다.\n\n이 메시지는 게임 시작 시에만 나타나므로 향후 유사한 문제는 감지하지 못합니다. 또한 감지 시스템이 완벽하지 않아 잘못된 경고를 표시할 수도 있습니다.\n\n#bold #warning @warning_icon! 로드 순서에서 아시아의 라자가 RICE #underline 다음에#! 로드되었는지 확인하세요. 또한 새 게임을 시작해야 합니다.#!#!" # 4bf07d5961b5ec598d7638ec4cf22ed17371b305
-	RICEintro.0030.a: "" # b0a98216a32426b9e66a4ac1eb6df2e96e1b495c
-	RICEintro.0031.t: "@warning_icon! 잘못된 로드 순서 감지됨" # b121db8d4ea818ed5b84be97a90e0e4c155ea9b4
-	RICEintro.0031.desc: "현재 모드 목록에서 낙오된 독수리와 RICE가 부적절한 로드 순서로 실행 중인 것으로 감지되었습니다.\n\n이 메시지는 게임 시작 시에만 나타나므로 향후 유사한 문제는 감지하지 않습니다. 또한 감지 시스템이 완벽하지 않아 오탐이 발생할 수 있음을 참고하십시오.\n\n#bold #warning @warning_icon! 낙오된 독수리 모드를 #underline RICE 모드 #after#! 로드 순서에 배치해야 합니다. 새 게임을 시작해야 합니다.#!#!" # 2c67dc77c5f715ab6fce613ffc6163d138fbcabb
-	RICEintro.0031.a: "" # b0a98216a32426b9e66a4ac1eb6df2e96e1b495c
-	RICEintro.0032.t: "@alert_icon! 모든 업적의 어머니 없음" # b7467ba5a2c4997d90148cdf1e9297fb89965fc2
-	RICEintro.0032.desc: "이는 RICE에서 새로 추가한 아프리카 이교 신앙(예: [ROOT.Char.GetFaith.GetReligion.GetAdjective] [faith|E]인 [ROOT.Char.GetFaith.GetName])은 #warning 안 됨#! #bold 우리 모두의 어머니#! 업적에 포함되지 않는다는 사실을 알려드리는 친절한 알림입니다. 바닐라의 아프리카 이교 [faiths|E]만 포함됩니다. 다른 모드가 이를 변경할 수 있습니다.\n\n이 메시지는 중요한 경고는 아니지만 향후 혼란을 방지하기 위한 친절한 알림입니다." # f650fa4478213f6af89e7d86532503dac260f913
-	RICEintro.0032.a: "" # b0a98216a32426b9e66a4ac1eb6df2e96e1b495c
-	# Landless Titles 
-	d_laamp_RICE_thabit_ibn_qurra: "고대 유물 보존자" # bedad0fe99f75f5da04ab0bff35a1f2338277a57
-	d_laamp_RICE_thabit_ibn_qurra_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_ibn_wahshiyya: "나바테아 농업인" # 0df6a7b4630dd96d489370124e3f01779f2452b5
-	d_laamp_RICE_ibn_wahshiyya_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_al_wuhsha_al_dallala: "소망받는 자" # a0df1b276911750379575aee2a48d5abf77c0782
-	d_laamp_RICE_al_wuhsha_al_dallala_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_michael_scot: "세계 최고의 학자" # 1d425628ac672b43cccee8067dd176a055f303d2
-	d_laamp_RICE_michael_scot_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_korean_867: "신라의 사절" # a74fc4a62b21cf768062aaf05af2491f50a0373a
-	d_laamp_RICE_korean_867_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_cynewulf: "성스러운 시인들" # 538ddddcd70376ff0f0b0e9af02914604cd1eefc
-	d_laamp_RICE_cynewulf_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_hiwi_al_balkhi: "악명 높은 자유 사상가" # b6f21b7079e583dfae0c2ae04a23100e56c052c8
-	d_laamp_RICE_hiwi_al_balkhi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_al_balkhi: "세속 의사" # 162736aff744ee89176e6a8d80d99271b18841b9
-	d_laamp_RICE_al_balkhi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_oranmiyan: "오두두와의 후예" # 16752d4520e8c589240197f87e8fef277311fe0b
-	d_laamp_RICE_oranmiyan_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_bartholomew_leslie: "헝가리 청년들" # f4d2f553fd06329427ffb69e395cd63d3e5fbf7d
-	d_laamp_RICE_bartholomew_leslie_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_chakrapani_datta: "귀족 의사" # c9a4aec5274d461728d2f0e957be6f60da5b3b77
-	d_laamp_RICE_chakrapani_datta_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_ibn_nabhan: "하란인의 마지막" # 0e05f80d69f33284abb37a5e605ed115eb18e388
-	d_laamp_RICE_ibn_nabhan_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_nasir_khusraw: "호라산 선교사" # ba4d288d59d751d75a67c46ab486a3e1c32d1d12
-	d_laamp_RICE_nasir_khusraw_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_longibardopoulos: "롬바르드족의 아들들" # c4add63504455afc5320c59d449846eb175d189d
-	d_laamp_RICE_longibardopoulos_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_al_kashgari: "튀르크의 자부심" # ca17a285cf63779c1b3cfcb1bf31446ef375d167
-	d_laamp_RICE_al_kashgari_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_tzachas: "룸의 약탈자" # fad5bfef1d8687bfacdf9bb9f0f660706891673e
-	d_laamp_RICE_tzachas_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_hafsa: "아부 자파르의 조문객" # e08976bc21649e7dfa2278780b79b32d78a56200
-	d_laamp_RICE_hafsa_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_trapelicino: "부정직한 자들" # c80e7e012f2e1df51752c86ce9988c6cb37a50f9
-	d_laamp_RICE_trapelicino_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_eldad_ha_dani: "단의 아들들" # 2f0919553b380ffcb36829176bd795db7ec4bd58
-	d_laamp_RICE_eldad_ha_dani_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_ohthere: "바다코끼리 사냥꾼" # ab94fee891d25cb31e9b8cd6a4cc94d3f72831e5
-	d_laamp_RICE_ohthere_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_wulfstan: "발트해의 여행자들" # 4dccca7f5c775285abcf4b488f4287bb5a69cfd6
-	d_laamp_RICE_wulfstan_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_japheth: "왕족 상인" # 6bbcdc7270a3b42a6a35de50bf16133dc6b6881a
-	d_laamp_RICE_japheth_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_ibn_al_qatta_al_siqilli: "시의 귀한 진주" # f31dd825d138dae1167c89a77edd48ea169f1def
-	d_laamp_RICE_ibn_al_qatta_al_siqilli_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_ali_kalbid: "바누 칼브의 전사" # 8458cfdb90318ea6349b1fbb07483e728b58285e
-	d_laamp_RICE_ali_kalbid_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_last_murong: "끈질긴 기병대" # e6a61f8bf27a2adea319b6551455ec3e99c1191f
-	d_laamp_RICE_last_murong_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_hugo_von_hildesheim: "발트해 상인" # 8838987c6b29dcf5bcd06c5066dda6b8fe6f6b2b
-	d_laamp_RICE_hugo_von_hildesheim_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_guglielmo_grasso: "교활한 약탈자" # 6d95c8b5e8110f794673d110d1348a9f774fa637
-	d_laamp_RICE_guglielmo_grasso_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_manikkavacakar: "종교적 교사" # c7c6f30f3d89d248a411498405d538646946cce6
-	d_laamp_RICE_manikkavacakar_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_malay_867: "스리비자야 상인" # af857ebb604aa2cb82e7098a9c1fdb93e08ec50e
-	d_laamp_RICE_malay_867_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_malay_1066: "$d_laamp_RICE_malay_867$" # null
-	d_laamp_RICE_malay_1066_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_malay_1178: "$d_laamp_RICE_malay_867$" # null
-	d_laamp_RICE_malay_1178_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_swahili_867: "아자니아 상인" # 3d977c018aa36f838f19a820e0922194ddcdbbe3
-	d_laamp_RICE_swahili_867_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_swahili_1066: "킬와 상인" # 046f7054daec716de90bbc5940654bd870557c3b
-	d_laamp_RICE_swahili_1066_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_swahili_1178: "$d_laamp_RICE_swahili_1066$" # null
-	d_laamp_RICE_swahili_1178_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_solomon_ibn_gabirol: "생명의 원천" # 761e305e2df49a0dcc244401b8db6b7aafc5b718
-	d_laamp_RICE_solomon_ibn_gabirol_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_ikhshidid: "$c_ferghana$의 왕자들" # 43c996af1df656b3115e71ff973150ed042a0a24
-	d_laamp_RICE_ikhshidid_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_al_turki_egypt: "도덕 집행자" # 627417a518a1e42b8e06a2d721f50f869d3c462a
-	d_laamp_RICE_al_turki_egypt_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_wangara_867: "왕가라 상인" # 2039e5d7bb03e6b2992467bab9ccb16a6f910b66
-	d_laamp_RICE_wangara_867_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_wangara_1066: "$d_laamp_RICE_wangara_867$" # null
-	d_laamp_RICE_wangara_1066_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_wangara_1178: "$d_laamp_RICE_wangara_867$" # null
-	d_laamp_RICE_wangara_1178_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_andreas_archbishop_of_bari: "정의로운 개종자" # cc69df96fbdec1aa668bed51b6ca4f469a61908e
-	d_laamp_RICE_andreas_archbishop_of_bari_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_ishaq_ibn_kundaj: "카자르의 주먹" # 0620e10e43d42d246bec6a5819bb384c96e34ecf
-	d_laamp_RICE_ishaq_ibn_kundaj_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_margaret_of_beverley: "십자군 참여자" # f81d5eda8d0bdeed28de19aa6012b8a8224fd136
-	d_laamp_RICE_margaret_of_beverley_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_ahmad_ibn_rusta: "귀중한 기록 편찬자" # d2f09776706546fbc18b5e2b649e1808906a2966
-	d_laamp_RICE_ahmad_ibn_rusta_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_ali_al_harawi: "방랑하는 이방인과 외톨이" # e6cde76e1670abb9242f252715a7ad37a8ad58ff
-	d_laamp_RICE_ali_al_harawi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_geoffrey_burel: "민중의 성전 전사" # 4dbd42d0ca4aa23fce5e3b42fd6b64c0a6accba8
-	d_laamp_RICE_geoffrey_burel_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_al_tabari: "지식 탐구자" # e9cc8cf2e62ea80922ebb8d537bb58e31d748eaa
-	d_laamp_RICE_al_tabari_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_symeon_seth: "사원 건축가" # 3d38c3dd8650f45160d803d7e5ec0e677073f295
-	d_laamp_RICE_symeon_seth_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_bappa_beary: "자연의 제자들" # 997abcc686eafa560a6aeeebc7649be42240b8eb
-	d_laamp_RICE_bappa_beary_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_abd_al_latif_al_baghdadi: "합리적 지식 탐구자" # e56bc3c04846a25e35e2a4934f9744633b5115dd
-	d_laamp_RICE_abd_al_latif_al_baghdadi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_audun_of_the_west_fjords: "행운의 선물 전달자" # 0680afd583e39ee4328bc622dae11943ddc344ae
-	d_laamp_RICE_audun_of_the_west_fjords_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_al_yaqubi: "국가 연대기 편찬자" # 2aca5ec5c02f28f9b4bc3d76c2b4cd6337508454
-	d_laamp_RICE_al_yaqubi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_ishaq_bin_yahuda: "지칠 줄 모르는 행운 추구자" # 0d37bbf2365a8b28ac86ba1892ee97867e3f4b8d
-	d_laamp_RICE_ishaq_bin_yahuda_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_yusuf_balasaguni: "축복받은 현자" # ba01bba6213f6844044eb6e2be64cff826aa9f6f
-	d_laamp_RICE_yusuf_balasaguni_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_laamp_RICE_al_kanemi: "웅변적인 아프리카인" # d3ce9f7859e6e5847dbcbae29ab006da3e106d6e
-	d_laamp_RICE_al_kanemi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	# Admin Titles 
-	d_nf_RICE_li_shichang: "$dynn_Li$ 가문" # 662d0ec2151da587525a6cea2e1c5f9a8d62cbb4
-	d_nf_RICE_li_shichang_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_zhai_dunhuang: "$dynn_zhai$ 가문" # d46f5aea19af36965ee905fd2d7cd9997b05f684
-	d_nf_RICE_zhai_dunhuang_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_dunhuang_zhang: "$dynn_Zhang$ 가문" # 22e61354545e35cc01c8b3acd1f3d4d2ef07f36c
-	d_nf_RICE_dunhuang_zhang_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_dunhuang_cao: "$dynn_Cao$ 가문" # 37540e4c7a5706d5e793551c5121e36e2074c11e
-	d_nf_RICE_dunhuang_cao_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_dunhuang_li: "$dynn_Li$ 가문" # 662d0ec2151da587525a6cea2e1c5f9a8d62cbb4
-	d_nf_RICE_dunhuang_li_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_dunhuang_yin: "$dynn_Yin$ 가문" # 41853f594b796cb89722f01c876ceb9278e9732d
-	d_nf_RICE_dunhuang_yin_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_dunhuang_suo: "$dynn_Suo$ 가족" # 99473b8ce1af0f8b8540a92dcd87455f25a2daf1
-	d_nf_RICE_dunhuang_suo_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_dunhuang_yan: "$dynn_Yan$ 가문" # 5f06098aae2640adce6e2743826fe5f13e41bd95
-	d_nf_RICE_dunhuang_yan_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_dunhuang_an: "$dynn_An$ 가문" # 39017d44285addef864c8ca5b394dc9c00002e78
-	d_nf_RICE_dunhuang_an_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_dunhuang_gao: "$dynn_Gao$ 가문" # 96115f5191d01b70ae1988a9a6c63ceea3b7ba28
-	d_nf_RICE_dunhuang_gao_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_dunhuang_kang: "$dynn_Kang$ 가문" # b338d4463b035baca8b2112d66793dac1aed1675
-	d_nf_RICE_dunhuang_kang_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_dunhuang_zhang_2: "$dynn_Zhang$ 가문" # 22e61354545e35cc01c8b3acd1f3d4d2ef07f36c
-	d_nf_RICE_dunhuang_zhang_2_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_dunhuang_song: "$dynn_Song$ 가문" # b62bfa576ea48a0ddda5941d16a5ad6c8e7c95ea
-	d_nf_RICE_dunhuang_song_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_dunhuang_zhu: "$dynn_Zhu$ 가문" # a33975ae269b40fa05c445031efcdd7e3a3e63f8
-	d_nf_RICE_dunhuang_zhu_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_dunhuang_zhang_3: "$dynn_Zhu$ 가문" # a33975ae269b40fa05c445031efcdd7e3a3e63f8
-	d_nf_RICE_dunhuang_zhang_3_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_dunhuang_wu: "$dynn_Wu$ 가문" # 16eb8ef356c964faa238e674032aa481362fa625
-	d_nf_RICE_dunhuang_wu_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_mahmud_yalavach: "$dynn_Yalavach$ 가문" # 64637376d3837df3e5e85a7e1095cb52110fc423
-	d_nf_RICE_mahmud_yalavach_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	d_nf_RICE_al_uzgandi: "알 우즈간디 가문" # 7317d3753e9159628a94340b6f6eade78d99d407
-	d_nf_RICE_al_uzgandi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # null
-	# MISC EVENTS 
-	RICEmisc.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0001.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0001.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0002.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0002.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0002.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0003.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0003.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0003.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0004.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0004.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0004.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0005.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0005.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0005.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0006.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0006.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0006.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0007.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0007.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0007.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0008.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0008.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0008.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0009.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0009.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0009.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	# RICEmisc.0010 in RICE_BAP_shared_misc 
-	RICEmisc.0011.t: "여정이 시작됩니다" # 934050aaa998e45b8bdb59c4f5596591e2f6417b
-	RICEmisc.0011.desc: "[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName]로 [ROOT.Char.GetInvolvedActivity.GetShortName](을)를 위한 여정을 시작할 시간입니다. 이 여행을 준비하는 두통과 번거로움은 결국 목적지에 도달했을 때 그만한 가치가 있을 것이라고 확신합니다... 적어도 그렇게 되기를 바라야 할 것입니다. 그렇지 않으면 여행 준비로 인한 모든 스트레스가 헛수고가 될 테니까요." # 422a222ccdce1ef58c043d0441d417077e34c379
-	RICEmisc.0011.a: "우리가 좋은 이유 때문에 이러한 어려움을 겪는 것입니다." # e02ea3909d63e6340fdecb9b30c6b9573f706b8c
-	RICEmisc.0012.t: "[ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]의 온천" # 08170fb8c0794976be0ba110ad557a6d80af6b93
-	RICEmisc.0012.desc: "저희는 [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]의 현지 온천 중 한 곳에 도착했습니다. 이 온천이 다른 유명한 온천들만큼 유명하지는 않지만, 따뜻한 물에 몸을 담그는 것은 여전히 매우 즐거운 경험입니다!" # 69021afb37fd1f15d7281a657f334beadee35743
-	RICEmisc.0012.desc.private: "일상생활에서 이렇게 편안함을 느꼈던 적이 드물었던 것 같습니다. 눈을 감고 긴장을 풀면, 잠시나마 모든 걱정이 마음에서 사라집니다." # 889f5175b613b9507d38bf4f09b65509196a2e38
-	RICEmisc.0012.desc.public: "이곳에 있는 동안 저는 지역 주민들과 이야기를 나누고 이 지역의 몇몇 저명한 인사들을 만날 시간을 가집니다. 이렇게 휴식을 취하면서 사교 활동을 하는 것은 좋습니다." # a5a3b2aa0a21331bc55ab6592348be330f3210ee
-	RICEmisc.0012.desc.conclusion: "이 방문이 이렇게 짧게 끝나다니 아쉽지만, 여기 있는 동안 최대한 즐겨보도록 해야겠어." # fae7cfc24201d8cdb0ca3d25f2347ba7e0dd77ef
-	RICEmisc.0012.a: "여기에 와서 다행입니다." # efc2a048886b9e3c764de5794fbb16119c9f357b
-	RICEmisc.0013.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0013.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0013.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0014.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0020.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0020.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0020.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0021.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0021.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0021.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0022.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0022.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0022.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0023.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0023.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0023.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0024.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0024.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0024.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0025.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0025.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0025.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0026.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0026.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0026.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0027.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0027.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0027.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0028.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0028.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0028.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0030.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0030.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0030.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0031.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0031.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0031.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0032.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0032.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0032.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0033.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0033.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0033.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0034.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0034.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0034.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0035.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0035.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0035.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0036.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0036.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0036.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0037.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0037.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0037.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0038.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0038.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0038.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0039.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0040.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0040.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0040.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0041.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0041.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0041.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0042.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0042.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0042.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0043.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0043.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0043.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0044.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0044.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0044.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0045.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0045.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0045.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0046.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0046.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0046.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0047.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0047.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0047.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0050.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0050.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0050.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0051.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0051.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0051.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0052.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0052.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0052.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0053.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0053.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0053.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0054.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0054.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0054.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0055.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0055.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0055.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0056.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0056.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0056.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0057.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0057.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0057.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0058.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0058.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0058.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0059.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0059.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0059.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0060.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0060.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0060.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0061.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0061.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0061.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0062.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0062.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0062.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0063.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0063.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0063.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0064.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0064.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0064.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0065.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0065.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0065.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0066.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0066.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0066.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEmisc.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	# EXTRAS 
-	RICEintro.0100.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0100.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0100.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0101.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0101.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0101.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0102.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0102.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0102.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0103.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0103.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0103.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0104.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0104.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0104.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0105.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0105.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0105.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0106.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0106.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0106.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0107.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0107.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0107.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0108.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0108.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0108.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0109.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0109.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0109.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0110.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0110.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0110.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0111.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0111.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0111.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0112.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0112.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0112.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0113.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0113.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0113.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0114.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0114.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0114.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0115.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0115.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0115.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0116.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0116.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0116.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0117.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0117.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0117.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0118.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0118.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0118.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0119.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0119.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0119.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0120.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0120.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0120.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0121.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0121.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0121.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0122.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0122.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0122.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0123.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0123.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0123.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0124.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0124.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0124.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0125.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0125.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0125.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0126.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0126.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0126.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0127.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0127.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0127.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0128.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0128.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0128.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0129.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0129.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0129.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0130.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0130.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0130.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0131.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0131.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0131.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0132.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0132.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0132.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0133.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0133.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0133.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0134.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0134.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0134.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0135.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0135.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0135.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0136.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0136.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0136.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0137.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0137.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0137.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0138.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0138.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0138.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0139.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0139.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0139.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0140.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0140.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0140.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0141.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0141.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0141.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0142.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0142.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0142.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0143.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0143.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0143.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0144.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0144.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0144.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0145.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0145.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0145.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0146.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0146.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0146.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0147.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0147.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0147.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0148.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0148.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0148.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0149.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0149.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0149.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0150.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0150.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0150.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0151.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0151.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0151.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0152.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0152.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0152.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0153.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0153.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0153.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0154.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0154.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0154.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0155.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0155.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0155.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0156.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0156.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0156.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0157.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0157.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0157.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0158.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0158.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0158.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0159.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0159.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0159.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0160.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0160.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0160.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0161.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0161.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0161.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0162.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0162.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0162.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0163.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0163.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0163.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0164.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0164.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0164.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0165.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0165.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0165.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0166.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0166.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0166.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0167.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0167.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0167.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0168.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0168.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0168.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0169.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0169.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0169.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0170.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0170.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0170.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0171.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0171.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0171.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0172.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0172.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0172.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0173.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0173.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0173.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0174.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0174.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0174.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0175.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0175.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0175.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0176.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0176.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0176.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0177.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0177.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0177.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0178.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0178.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0178.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0179.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0179.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0179.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0180.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0180.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0180.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0181.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0181.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0181.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0182.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0182.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0182.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0183.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0183.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0183.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0184.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0184.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0184.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0185.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0185.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0185.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0186.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0186.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0186.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0187.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0187.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0187.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0188.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0188.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0188.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0189.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0189.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0189.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0190.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0190.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0190.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0191.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0191.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0191.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0192.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0192.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0192.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0193.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0193.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0193.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0194.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0194.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0194.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0195.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0195.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0195.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0196.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0196.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0196.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0197.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0197.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0197.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0198.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0198.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0198.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0199.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0199.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	RICEintro.0199.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	# Misc 
-	# Struggle 
-	# Struggle Catalysts 
-	# Struggle Effects 
-	# Alerts 
-	# Rules 
-	# Legends 
-	# CB/Casus Belli 
-	# Interactions 
-	# Artifacts 
-	# Buildings 
-	# Traits 
-	# Aspirations 
-	# Aspiration Modifiers 
-	# Memories 
-	# Activities 
-	# Modifiers 
-	# Struggle Ending Decisions 
-	# Decisions 
-	# EVENTS 
+  rule_RICE_intro_event: "RICE 소개 이벤트" # 2b3683166a178afe11f53e1ae03879d1293b15bb
+  setting_RICE_intro_event_on: "켜짐" # e0049a66519cae71159800bb77a35007bc2d76d3
+  setting_RICE_intro_event_on_desc: "게임에 진입하면 RICE 버전과 최신 기능을 알려주는 소개 이벤트가 한 번 발생합니다. 이 이벤트는 모드가 올바르게 설치되었고 최신 버전을 사용하고 있는지 확인하는 데 도움이 됩니다." # 5b11bab1038842676d2292078cdf22b7c5c8558c
+  setting_RICE_intro_event_off: "끄기" # e3de5ab0ca4c69dbf00e86d2558843e8d806bb49
+  setting_RICE_intro_event_off_desc: "소개 이벤트가 비활성화됩니다." # 3a72058495baab5ec18f2f78b59a142d820efcfc
+  RICEintro.0000.t: "RICE 1.14.0 "혜초"" # 20a5dcaaf2e4269adff4cbc4a3ee78ad69fba2ef
+  RICEintro.0000.desc: "RICE 1.14.0이 성공적으로 설치되었습니다. 이 이벤트는 게임 시작 시에만 발생하며 게임 규칙을 통해 비활성화할 수 있습니다. 최신 업데이트에서 추가된 일부 기능은 새 게임이 필요합니다. 스팀 창작마당, PI 포럼 또는 디스코드에서 버그를 보고하거나 피드백을 제공해 주십시오.\n\nRICE에는 현재 전 세계의 다양한 문화, 종교 및 지역을 다루는 #V #Bold 36#!#!가지의 플레이버 팩이 포함되어 있습니다. 가장 최신 플레이버 팩은 #V #Bold 레스보스: 시인의 섬#!#!입니다.\n\n이 플레이버 팩은 [GetTitleByKey('c_lesbos').GetNameNoTier]에 대한 새로운 플레이버를 추가하고 모드를 Roads to Power DLC로 업데이트하는 데 중점을 둡니다." # cc9270cbf609e5f7cb2bf842eefe6b04c147d341
+  RICEintro.0000.a: "좋습니다!" # fb17a31a730f648b2ee006eacda1351a971f175d
+  RICEintro.0000.b: "이번 업데이트의 새로운 추가 사항에 대한 개요를 알려드리겠습니다." # e390fd6bd0d31657523c9195ba6648be07afe42f
+  RICEintro.0000.c: "이 메시지를 향후 저장에서 비활성화하십시오." # 23bf9e398c8ed292ee84aa702601a943b4ab7b31
+  RICEintro.0000.c.tooltip: "#EMP 이 옵션을 선택하시면, 앞으로 이 저장 파일의 성공적인 업데이트를 확인하는 메시지를 받지 못하게 된다는 점을 유념하십시오!#" # a265baa1946414340cb11d229e9278edef54eb7e
+  RICEintro_intro_tooltip: "#EMP 혜초는 8세기 한국의 불교 승려로, 1세기 전의 더 유명한 현장처럼 인도로 순례를 떠나 아시아 대부분 지역을 여행했습니다. 그의 여행기인 '왕오천축국전'은 중세 초기 다양한 아시아와 중동의 문화 및 정치 체제에 대한 귀중한 정보 자료입니다.#" # c0d0a3dfa099edb0901afe7966af61c77a713f05
+  RICEintro_TFE_warning_tooltip: "#V #bold 몰락한 독수리#!#!가 실행 중인 것으로 감지되었습니다. 이것이 사실이라면 #bold 새로운 게임을 시작하기 전에 모드 로드 순서에서 TFE가 RICE #underline 아래에#! 있는지 확인하십시오#!" # 14adf4c93bb52cc759cee8f78fd1fdd462fdfafa
+  RICEintro_ROA_warning_tooltip: "#V #bold 아시아의 라자#!#! 모드가 실행 중인 것으로 감지되었습니다. 이것이 사실이라면 새 게임을 시작하기 전에 #bold 모드 로드 순서에서 RICE #underline 아래에#! ROA가 있는지 확인하십시오#!" # 7bb0151b0faa8a26115ffb8719a113357db2cb23
+  RICE_decision_pagan_requirement: "이교 [faith|E]를 따름" # e57d2ff7fb65ba55fc2a7d13fa3ad177b6df374f
+  RICEintro.0010.t: "향미 팩 정보" # 6835e2bf27623059c4e237d72d9762e144588677
+  RICEintro.0010.desc: "어떤 풍미 팩에 대해 더 알고 싶으신가요?" # 282f3e60bbf8d8372e0814d2d680f0ba5dd2a1bd
+  RICEintro.0010.next: "더 보기" # c510d6c04c0951500c8e43f623e9f8886c378aec
+  RICEintro.0010.done: "알겠습니다." # 591c794a6256dcdf883100b343de6670561dd5fa
+  RICEintro.0010.siwa: "시와: 서부 사막의 오아시스" # b3ba78b4c1f30659e24846c8254181d73a700d45
+  RICEintro.0010.chios: "히오스: 유향의 섬" # ce412bb115e7c1cfb3d8be86264917927cb2eaa4
+  RICEintro.info.a: "네, 게임을 시작하겠습니다." # dbbad08f1e97316c4b4c4c27f8c779861b556fff
+  RICEintro.info.b: "다른 플레이버 팩을 보려면 메뉴로 돌아가세요" # 193edc8b9e9b1935332d1c4d5d2f78bb73a0c279
+  RICEintro.0020.t: "시와: 서부 사막의 오아시스" # b3ba78b4c1f30659e24846c8254181d73a700d45
+  RICEintro.0020.desc: "- 아문 신전과 히비스 신전을 재건하고, 이후 신탁의 인도를 구하거나 서부 사막의 지역 신들을 숭배하십시오\n- 휴식을 위해 시와의 태양의 샘을 방문하십시오" # 1429b05fdfd61b23ba2005fb86fc6b656f93e254
+  RICEintro.0021.t: "히오스: 유향의 섬" # ce412bb115e7c1cfb3d8be86264917927cb2eaa4
+  RICEintro.0021.desc: "- 매년 봄에 열리는 카니발 축제인 티미아나의 모스트라에 참석합니다\n- 지역 경제 또는 기반 시설을 개선하기 위해 결정을 통해 히오스에 유향 마을을 건설합니다\n- 히오스가 고향이라고 알려진 호메로스 기념비를 세웁니다\n- 히오스에 있는 새로운 유향 산업 건물을 활용합니다" # c60305bb8d7bc0088a78b80c482549aab1c24a51
+  RICEintro.0010.siberia: "시베리아: 순록의 사람들" # babdedb8a18bbb35d633f5b1a8bcaf12d5e7c10c
+  RICEintro.0022.t: "시베리아: 순록의 사람들" # babdedb8a18bbb35d633f5b1a8bcaf12d5e7c10c
+  RICEintro.0022.desc: "- 투르크족 통치자는 순록을 희생하여 자신과 우주에 대한 더 큰 이해를 얻을 수 있습니다.\n- 북부 통치자는 타이가에서 순록 무리를 확장할 수 있습니다.\n- 시베리아 문화권: 에벤크족, 니브흐족, 야쿠트족, 예니세이족, 유카기르족 방랑자들이 가끔 북부 통치자들의 궁정에 나타나 신하들에게 새로운 생존 기술을 가르칩니다." # 98cab721b16daa03630069fa71e308265e9103c4
+  rule_RICE_historical_context: "RICE 역사적 배경 툴팁" # 815109e8bae41b6052337b122132ce1e7d1e78e7
+  setting_RICE_historical_context_on: "켜짐" # e0049a66519cae71159800bb77a35007bc2d76d3
+  setting_RICE_historical_context_on_desc: "RICE의 다양한 기능에 대한 맥락을 제공하는 도구 설명이 때때로 있습니다.  저는 종종 맛과 게임성을 위해 역사에 예술적 자유를 부여하기 때문에, 이는 그러한 상황을 설명하는 것입니다." # d3b9e8fc75ebf5eaf36535782c3c05550ef94179
+  setting_RICE_historical_context_off: "#높이 올리시오#!" # 8e00681bf56c4125401d6767b3b3f884e6332734
+  setting_RICE_historical_context_off_desc: "RICE의 일부 측면에 대한 역사적 배경을 제공하는 툴팁이 간혹 나타나지 않습니다. 이는 해당 툴팁이 몰입을 방해한다고 생각하는 몰입 순수주의자들을 위한 것입니다." # bd86921e9e6100604f5e0202575496a138b0a07c
+  rule_RICE_music: "RICE 음악" # 4c5e133336ecf40342b6cea946f253589ac6b78d
+  setting_RICE_music_off: "#높이 올리시오#!" # 8e00681bf56c4125401d6767b3b3f884e6332734
+  setting_RICE_music_off_desc: "RICE 모드에서 추가된 음악 트랙이 재생되지 않습니다." # f65c2a46c9cdc16f1e12f5497d9156b56635babb
+  setting_RICE_music_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
+  setting_RICE_music_default_desc: "RICE 모드에서 추가된 음악 트랙은 적절한 지역에서 플레이하거나, 올바른 문화 또는 종교로 플레이하는 경우에만 재생됩니다." # 6c172fb3d194eda3f6739638a3bbf476e8120e65
+  setting_RICE_music_unrestricted: "#high 제한 없음#!" # e990c191d99a8305d27653c20592737b14e1ab2b
+  setting_RICE_music_unrestricted_desc: "RICE 모드에서 추가된 음악 트랙은 지역, 문화 또는 종교에 관계없이 재생됩니다." # 524aebc0a70bd59fa765b539248f44c497c8d14f
+  setting_RICE_music_no_vocal_music: "#고음 없는 음악#!" # eb5d9b2d775db9665cc992d4c93a15372b1bfd03
+  setting_RICE_music_no_vocal_music_desc: "노래가 포함된 음악은 비활성화됩니다. 배경 음악과 악기 연주 음악은 계속 재생됩니다." # ae2b15320595c68e7f12613a1976336e1c6bd59c
+  rule_RICE_new_characters: "RICE 시작 시 특징 이벤트" # 6aa75d87d74e6530c3f9702529f9cda70a7f3aba
+  setting_RICE_new_characters_off: "#높이 올리시오#!" # 8e00681bf56c4125401d6767b3b3f884e6332734
+  setting_RICE_new_characters_off_desc: "RICE의 게임 시작 풍미 이벤트는 게임플레이 효과가 있는 경우를 #emp 제외하고#! 트리거되지 않습니다." # 35326cb0b4bfd24288791efc1d4dad64ab6028bd
+  setting_RICE_new_characters_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
+  setting_RICE_new_characters_default_desc: "RICE는 현재 상황에 대한 정보를 제공하기 위해 위치 또는 캐릭터에 따라 게임 시작 시 이벤트를 트리거할 수 있습니다." # 232bbedef120d877bb386c9b08974d0d9c0ac27c
+  rule_RICE_event_frequency: "쌀 생산량 이벤트 빈도" # 14a2d844332ed16f3a3b9f9e474ced59d942affc
+  setting_RICE_event_frequency_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
+  setting_RICE_event_frequency_default_desc: "RICE의 일반적인 풍미 이벤트는 기본 비율로 발동됩니다." # 2256526628df3c694a6043875f8f223d80506efb
+  setting_RICE_event_frequency_high: "#고 고#!" # 308a530929296e74d1403feedf8b35186a87ba9f
+  setting_RICE_event_frequency_high_desc: "RICE의 일반적인 풍미 이벤트가 다소 더 자주 발생합니다. 경고: RNG 작동 방식 때문에, 한 번에 여러 이벤트가 표시되거나, 오랜 기간 동안 이벤트가 전혀 표시되지 않을 수도 있습니다." # 780204be4450b7b261a97bb4a0cfac77d64e61db
+  setting_RICE_event_frequency_very_high: "#high 매우 높음#!" # c6ada4c2fd74f74cc55c5d4fdd73920c9bea1706
+  setting_RICE_event_frequency_very_high_desc: "RICE의 일반적인 풍미 이벤트가 훨씬 더 자주 발생합니다. 이로 인해 이벤트 스팸이 발생할 수 있습니다! 경고: RNG 작동 방식 때문에, 한 번에 많은 이벤트가 나타나거나 오랫동안 이벤트가 전혀 나타나지 않을 수도 있습니다." # 8dfa6f81eccb2b34426ab974435542dd7d2dbf59
+  setting_RICE_event_frequency_low: "#high Low#!" # ee466e6347e1f47c841100a1094a498b3cb77a93
+  setting_RICE_event_frequency_low_desc: "RICE의 일반적인 풍미 이벤트가 다소 덜 자주 발생합니다. 경고: RNG 작동 방식 때문에 한 번에 많은 이벤트가 발생하거나 오랜 시간 동안 이벤트가 없을 수도 있습니다." # c351964dcc692705b102b1bdaf27dad562bc2bbf
+  setting_RICE_event_frequency_very_low: "#high 매우 낮음#!" # e571a5da60f725a2bf833af5b123cae69ca2cc7e
+  setting_RICE_event_frequency_very_low_desc: "RICE의 일반적인 풍미 이벤트는 훨씬 덜 자주 발생합니다. 드물게 이벤트가 발생할 수 있습니다! 경고: RNG 작동 방식 때문에, 여전히 많은 이벤트가 한 번에 발생하거나, 오랜 기간 동안 이벤트가 전혀 발생하지 않을 수도 있습니다." # fe11093138c2a4f13e494b3b008a1297ac75ec33
+  rule_RICE_courtier_spawn_frequency: "쌀 관리자 등장 빈도" # 068aeb14f8cafa283f0e17767242df11a1ad7dd4
+  setting_RICE_courtier_spawn_frequency_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
+  setting_RICE_courtier_spawn_frequency_default_desc: "RICE의 궁정 신하 생성 이벤트가 기본 비율로 발동합니다." # 51d10471fb8683b09cdfb061bc78bf3264451596
+  setting_RICE_courtier_spawn_frequency_high: "#고 고#!" # 308a530929296e74d1403feedf8b35186a87ba9f
+  setting_RICE_courtier_spawn_frequency_high_desc: "RICE의 궁정 신하 생성 이벤트가 약간 더 자주 발동됩니다." # 4d446f47f2136f8e5e54f4b6ebefe38187d7e962
+  setting_RICE_courtier_spawn_frequency_very_high: "#high 매우 높음#!" # c6ada4c2fd74f74cc55c5d4fdd73920c9bea1706
+  setting_RICE_courtier_spawn_frequency_very_high_desc: "RICE의 궁정 신하 생성 이벤트가 훨씬 더 자주 발동됩니다." # 9207b7b7eb81d3714bb05b2453649db5b52d6441
+  setting_RICE_courtier_spawn_frequency_low: "#high Low#!" # ee466e6347e1f47c841100a1094a498b3cb77a93
+  setting_RICE_courtier_spawn_frequency_low_desc: "RICE의 궁정 신하 생성 이벤트가 다소 덜 자주 발생합니다." # 66341bdca3d8eab9c4fe2edd0c6713e4f139be95
+  setting_RICE_courtier_spawn_frequency_very_low: "#high 매우 낮음#!" # e571a5da60f725a2bf833af5b123cae69ca2cc7e
+  setting_RICE_courtier_spawn_frequency_very_low_desc: "RICE 궁정 신하 생성 이벤트가 훨씬 덜 자주 발생합니다." # 2852d7369e2c70263074eaa026a755ccd2d043e1
+  rule_RICE_tuareg_emergence: "RICE 투아레그 등장" # ec4643849dd6ce1c774a6496a2e7ddc7f0afc17f
+  setting_RICE_tuareg_emergence_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
+  setting_RICE_tuareg_emergence_default_desc: "투아레그 [culture|E]는 $culture_era_high_medieval$ [era|E] 이후 [decision|E]를 통해 생성될 수 있습니다. 투아레그를 추가하는 모드는 RICE의 구현을 재정의합니다." # 0386e011627c00a30fbe3afb2fb6fa697d491a70
+  setting_RICE_tuareg_emergence_already: "#높음 게임 시작 시 존재!#" # bb2f0b9dae6f3d72db8e95701b601add98a26c99
+  setting_RICE_tuareg_emergence_already_desc: "게임 시작 시 투아레그 [culture|E] 문화가 존재합니다. RICE는 투아레그를 게임 시작 시 지도에 필요한 대로 배치하기 위해 다른 모드의 투아레그 구현을 덮어씁니다." # af6d6a3687e0b11da684dcbf514993b1a7292a4e
+  setting_RICE_tuareg_emergence_early: "#high 조기 등장#!" # bf91161286cc147edc9faaf63e004c08ca624e4f
+  setting_RICE_tuareg_emergence_early_desc: "투아레그 [culture|E]는 $culture_era_early_medieval$ [era|E] 시대 초기에 [decision|E]을 통해 등장할 수 있습니다. RICE는 다른 모드의 투아레그를 덮어쓰고 필요한 경우 게임 시작 시 지도에서 제거합니다." # e70d763e6419420adb89fad33c570af12aff0065
+  setting_RICE_tuareg_emergence_override: "#high 다른 모드 덮어쓰기#!" # 8e52c964e0cbca893e0fb3609d5d1331e908864d
+  setting_RICE_tuareg_emergence_override_desc: "투아레그 [culture|E]는 $culture_era_high_medieval$ [era|E] 이후 [decision|E]을 통해 생성될 수 있습니다. RICE는 다른 모드의 투아레그를 덮어쓰고 필요한 경우 게임 시작 시 지도에서 제거합니다." # 620355cd42abeafad0153300ec5653ae255cd238
+  rule_RICE_yazidi_emergence: "RICE 야지디교의 부상" # 8647fe6dc650a1e3ee3ae62f7a8b3091248432f9
+  setting_RICE_yazidi_emergence_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
+  setting_RICE_yazidi_emergence_default_desc: "야지디 [신앙|E]은 게임 시작 후 반세기 후에 무작위로 생성될 수 있지만, 12세기 이후에 생성될 가능성이 더 높습니다." # 518dd07eb22b31038eaedc4157169dce5e7a3196
+  setting_RICE_yazidi_emergence_historical: "#높은 역사적 배경#!" # 024959dc74d99532465d4c4acb08d4e6d3d99e58
+  setting_RICE_yazidi_emergence_historical_desc: "야지디 [신앙|E]는 12세기 중반 이후에만 무작위로 생성될 수 있습니다." # c77cc0655fdaa5aef51568614eea148af36a2725
+  setting_RICE_yazidi_emergence_unrestricted: "#high 제한 없음#!" # e990c191d99a8305d27653c20592737b14e1ab2b
+  setting_RICE_yazidi_emergence_unrestricted_desc: "야지디 [faith|E]는 언제든지 생성될 수 있습니다." # 9a7be71a9e5012a8ef923046b7ee8873d2b6bf1e
+  rule_RICE_yarsani_emergence: "RICE 야르사니의 부상" # a99c9be2fd2e540df7e4330b6e2e4d261a4070c3
+  setting_RICE_yarsani_emergence_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
+  setting_RICE_yarsani_emergence_default_desc: "야르사니 [faith|E]는 게임 시작 후 반세기 후에 무작위로 생성될 수 있지만, 13세기 중반 이후에 생성될 가능성이 더 높습니다." # 876cf86cf8b22d7b6e88a50cedac67963d459f9b
+  setting_RICE_yarsani_emergence_historical: "#높은 역사적 배경#!" # 024959dc74d99532465d4c4acb08d4e6d3d99e58
+  setting_RICE_yarsani_emergence_historical_desc: "야르사니 [faith|E]는 14세기 중반 이후에만 무작위로 생성될 수 있습니다." # e7c1342f061af22bf7fc8b3c3cde67b83f5819c5
+  setting_RICE_yarsani_emergence_unrestricted: "#high 제한 없음#!" # e990c191d99a8305d27653c20592737b14e1ab2b
+  setting_RICE_yarsani_emergence_unrestricted_desc: "야르사니 [faith|E]는 언제든 발생할 수 있습니다." # c0a4fb50710f93d0635d5417e202744d92bd1555
+  rule_RICE_afro_roman_counties: "쌀 $african_roman$ 존재" # 2d006c698539ac4e70bae19ec01f8e5ab0f2031c
+  setting_RICE_afro_roman_counties_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
+  setting_RICE_afro_roman_counties_default_desc: "바닐라 시작 날짜에는 북아프리카에 $african_roman$ 및 $catholic_adj$ [counties|E]가 없습니다. 이를 추가하는 다른 모드가 이를 덮어씁니다." # cb382c7143a52582283203049a5d42a85a33de2f
+  setting_RICE_afro_roman_counties_reduced: "#고도 반현실적#!" # 4966fbc1ee5f4e7c5011e3a7fc61aea3c2c63507
+  setting_RICE_afro_roman_counties_reduced_desc: "바닐라 시작 날짜에서 북아프리카에는 두어 개의 $african_roman$ 및 $catholic_adj$ [counties|E]가 있는데, 이는 해당 지역에서 두드러지게 생존한 곳입니다. 이를 추가하는 다른 모드들은 이를 덮어씁니다." # d0f0a22c523e9df5e7d5638cb6c2301a38c039a4
+  setting_RICE_afro_roman_counties_extensive: "#과장됨!#" # b3a89faf8687d24e8b695ad04056597ef3b8c7fe
+  setting_RICE_afro_roman_counties_extensive_desc: "바닐라 시작 날짜에서 북아프리카에는 실제보다 훨씬 많은 $african_roman$ 및 $catholic_adj$ [counties|E]가 있습니다. 다른 모드가 추가되면 이 설정을 덮어씁니다." # bb42bf984801f19f38e910d561499227ccf03e7d
+  rule_RICE_easter_egg_characters: "RICE 부활절 달걀 캐릭터" # 9c00191ce2d29bc227c35689b9b08248684566b3
+  setting_RICE_easter_egg_characters_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
+  setting_RICE_easter_egg_characters_default_desc: "RICE 모드에서 추가된 이스터 에그 캐릭터들이 게임 시작 시 정상적으로 표시됩니다." # ac5d1a61f9f26629dd8f855fde4595ce38e84bc8
+  setting_RICE_easter_egg_characters_removed: "#high 비활성화됨#!" # 09242e6b5f7ab8aa8e1cbdb66f3cd6a75113e8b1
+  setting_RICE_easter_egg_characters_removed_desc: "RICE 모드에서 추가된 이스터 에그 캐릭터는 게임 시작 시 게임에 나타나지 않습니다." # 9005a8dc398f51ee18b67c8a6406ae72eebbf88b
+  rule_RICE_warning_events: "RICE 경고 이벤트" # 997055fc1dbbadffbd2bc971cb671d337cbf468a
+  setting_RICE_warning_events_default: "켜짐" # e0049a66519cae71159800bb77a35007bc2d76d3
+  setting_RICE_warning_events_default_desc: "게임 시작 시 잘못된 로드 순서, 게임 내 잠재적인 이상 동작 등에 대한 경고 이벤트가 감지되면 트리거됩니다(그렇지 않으면 스팸처럼 표시되지 않음)." # 121d5d07b20f39c80124c2af2849048c1509dbba
+  setting_RICE_warning_events_removed: "#높이 올리시오#!" # 8e00681bf56c4125401d6767b3b3f884e6332734
+  setting_RICE_warning_events_removed_desc: "경고 이벤트가 게임 시작 시 발생하지 않습니다. #warning @warning_icon! 이는 게임을 망가뜨릴 수 있는 심각한 문제에 대한 중요한 경고를 놓칠 수 있으므로, 어떤 행동을 하는지 알고 있는 경우가 아니면 절대로 권장하지 않습니다!#" # bdcdce0eb785a218bb39cc64f215ccd3e4bfd855
+  rule_RICE_adventurers: "RICE 역사적 모험가" # 656dd84810036871d576a89b088661de4de0ccf3
+  setting_RICE_adventurers_default: "켜짐" # e0049a66519cae71159800bb77a35007bc2d76d3
+  setting_RICE_adventurers_default_desc: "[모험가|E]는 각 시작 날짜에 RICE에 의해 추가되어 일반적으로 나타납니다." # 0c1809c2eff5e7ebb40057afc730ed16984bf9f4
+  setting_RICE_adventurers_disable_fictitious: "#high 허구 비활성화#!" # 9445d072b2f0f70619953a8670eb3b08c33880d8
+  setting_RICE_adventurers_disable_fictitious_desc: "RICE에서 추가된 역사적 인물도 전설적인 인물도 아닌 반쯤 그럴듯한 [adventurers|E]는 플레이어가 조종하는 경우를 제외하고 게임이 로드된 후 비활성화됩니다." # d4e37822f3d5ceff21777e5b0ce6360b2ebf27ff
+  setting_RICE_adventurers_disable_all: "#high 모두 비활성화!#" # 55bf927c9952d9a209ce265d49dc6e2c11c3db79
+  setting_RICE_adventurers_disable_all_desc: "RICE에서 추가한 [adventurers|E]는 플레이어가 조종하는 것을 제외하고 게임 로드 후 모두 비활성화됩니다." # 5d2785db766c90bb78c8c687410d96454f639474
+  game_rule_category_RICE: "RICE" # 4562cfd91d0fa9aab4945733f1f24d4dd3b6b5b2
+  game_rule_category_greenland: "그린란드" # 1ba0cfa550295f8b2c5fa44b8236639adc825cf9
+  game_rule_category_vinland: "빈란드" # 29ad5d8916702b51cd639ed7506bb4e5b4d10122
+  game_rule_category_sri_lanka: "스리랑카" # 197042c4de91dae8aeafa9a52dc8c3a59aa41dc0
+  RICE_baklava_test_name: "바클라바 성스러운 조각" # ade6cbeaa59b1c4572806a215dad446ee2762544
+  RICE_baklava_test_desc: "보통 바클라바는 먹어야 합니다. 이 바클라바 조각은 숭배해야 합니다. 바클라바는 신성하며, 바클라바는 알파이자 오메가이며, 이것은 바클라바의 왕이자 바클라바들의 왕 중 왕이기 때문입니다." # ea1cc36e909438e7811cee6c6e006889fe315801
+  RICEintro.8888.t: "디저트의 왕 중 왕" # a80644d1412a1740ddaff88dd8dc1206c3891d06
+  RICEintro.8888.desc: "[ROOT.Char.GetFaith.GetName]에게 알려진 가장 위대한 성스러운 유물, [RICE_baklava_test.GetName]를 발견했습니다!" # 5a2b5888db5f10207e7c7e64b015d8cd99106544
+  RICEintro.8888.a: "바클라바를 숭배할 수는 있지만 먹을 수는 없다니... 아이러니하군." # 1242f15daa6d6f82624c5fb2db91b87032dd3d2c
+  RICE_misc_myra_santa_claus: "성 니콜라스의 땅" # a5c6be7e2c5cd711844b3e0e26913e7935a8f331
+  RICE_misc_myra_santa_claus_desc: "자선, 신앙심, 니케아 정교 수호로 유명한 성 니콜라스는 미라에서 태어났으며, 4세기 경 그곳의 주교가 되었습니다. 미라에 있는 한 교회에는 성인의 무덤이 있으며, 그는 지역 주민들에게 자주 숭배받고 있습니다." # 5e7d28c408d67af03542debcc678005bafe9a6f1
+  RICE_misc_engaged_with_local_religious_practices: "지역 종교 관습에 참여함" # 59b2182f16aab0bedd7a8df139f7449629626e5a
+  RICE_nile_river_valley: "나일 계곡" # 448baee8909cd8d0846ecea9c71fd99dd3fbd3aa
+  RICE_hephthalite_heartland_region: "헤프탈라이트 심장부" # 18be17adfe50e1ca4ff98ee081cd00e3c676d4bc
+  RICE_hephthalite_former_empire_region: "이전 에프탈 제국" # 46588cf242e2f63df44285d8988a59ce2387efe5
+  RICE_sogdia: "소그디아나" # 320f9fb3d38ddb2eccb4adc6c18059b64908231b
+  RICE_greater_pamir_region: "더욱 광대한 파미르 지역" # 42f1502a050cb97d6d40c9882237f2277cd15307
+  RICE_brittany_horse_region: "브르타뉴 및 인접 지역" # f40e59978eff06ef8d92950255ae5ce7d10a5c01
+  action_RICE_historical_aspiration: "[GetPlayer.Custom('RICE_historical_aspiration_action_title_name')]" # de45047c47b5e459b30ace94a1dbb163055084bd
+  action_RICE_historical_aspiration_label: "당신에게 달성할 수 있는 [historical_aspirations|E]이 있습니다" # 77f4bc22630bb5beeba5ac2868082f5d4fb91287
+  action_RICE_historical_aspiration_desc_default: "하나 이상의 [목표|E]를 달성하여 [포부|E]를 이루고 다양한 보상을 얻으세요." # d4bee21958b0207b1d17bd4da64eca50e94619cc
+  action_RICE_historical_aspiration_desc: "[GetPlayer.Custom('RICE_historical_aspiration_action_desc')]" # 6e6730bfd6903386c353290e36e0242c6ac404cf
+  action_RICE_historical_aspiration_click: "#당신의 캐릭터를 보려면 클릭하십시오!#" # f4a385f89da6f8a903343e4773c3f7206e099e3a
+  RICE_historical_aspiration_fulfilled: "[GetPlayer.GetTitledFirstName] 님께서 [GetPlayer.GetHerHis] [GetPlayer.Custom('RICE_historical_aspiration_modifier_desc')]을(를) 이루셨습니다." # 881af84337d173ea2c46df83331e67ca9dc38391
+  RICE_historical_aspiration_fulfilled_title: "염원 달성" # f95165a6a6d1641ba25bb1db1bb3fe7533d89dd6
+  TimothEe: "티모테" # a3ddfe948b1f3022579ded7119de80cca8f38131
+  dynn_umlaut: "움라우트" # 12b34f218410485032decf78bc674a5dfad56e04
+  RICE_robber_baron: "강도 귀족" # 962548acfb26d78aff71988de07b0a65147eeeae
+  RICE_robber_baron_desc: "이 캐릭터는 악명 높은 강도 귀족으로 알려진 지주이거나 한때 지주였습니다." # 55c4e45d852260f5a1b12258abafc92f415d7cb3
+  RICE_dynn_yngling_motto: "명예로, 우리는 극복한다" # 42c035e0e660e2ba7fc70fc98a30cafcecc68312
+  Goliath: "골리앗" # ca7ea6902fdeba7050a0c92d5ac5ebf17d3f81d1
+  dynn_von_bern: "베른의" # d967b78be99a34e511cab842dca09284b615279a
+  Weilian: "웨이리안" # 29333cdd51734c4b04d18d4b63adeb4de126a199
+  Chenyu: "첸위" # 3d72a6f33812854161a93741e8a254c889e2f0ed
+  Valerie: "발레리" # d6bd9a3b40d5d66c12f52dbb0b67eb83f351b07f
+  RICE_friend_reason_placeholder: "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)는 서로의 회사를 즐기게 되었습니다." # a5f287bd63913df0338ff2471738ee419e79d2ab
+  RICE_rival_reason_placeholder: "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 몇 가지 차이로 인해 서로를 싫어하게 되었습니다." # 0a19c4360802fc1a8becab774541ca75229d9e91
+  RICE_activity_result_gained_piety: "[piety_i] [piety|E] 획득" # 9aafd662e6731c1c79359c7e3f1766d7002bda37
+  RICE_activity_result_gained_prestige: "[prestige_i] [prestige|E] 획득" # 5887ae46c2813817c4a02aa8af430da78c803d58
+  RICE_activity_result_gained_dynasty_prestige: "[dynasty_prestige_i] [dynasty_prestige|E] 획득" # 30e171bbfb1f2fda6b18dbf40183478d609706f6
+  RICE_activity_result_gained_smaller_piety: "소량의 [piety_i] [piety|E](을)를 얻었습니다" # b7f9b19efbffa8bc018489c08c2f4c9169a6f7a2
+  RICE_activity_result_gained_smaller_prestige: "소량의 [prestige_i] [prestige|E]를 얻었습니다" # 729813ddb20888722bd24a10dfd061b27742dbb1
+  RICE_hot_springs_county_req: "[realm|E]에 유명한 [hot_springs|E]가 있는 [county|E]가 하나 이상 있습니다." # 66118478b168a3dc13f43c3ce1f629c94ccf76fc
+  RICE_not_tribal_government_req: "귀하의 [government|E]은(는) [GetGovernment( 'tribal_government' ).GetName]이(가) 아닙니다" # 5d74433a76ebac45daeb318de1827c28d9787241
+  RICE_has_tribal_holding_req: "소유한 모든 [카운티|E]에는 [부족 영토|E]가 있습니다." # b6f2bfe6f51e7071504e9f32e804bc78f0b1b2c5
+  RICE_has_castle_holding_req: "소유한 모든 [county|E]에는 [castle_holding|E]이 있습니다." # 4e4ad9439b45cb56286cbe5f4c6b0bb1118e5513
+  RICE_has_city_holding_req: "소유한 [county|E]에는 [city_holding|E]가 있습니다" # e43b0d75f5b853e9eaeab40c73cc03a51d740d7b
+  RICE_has_temple_holding_req: "소유한 모든 [county|E]에는 [temple_holding|E]이 있습니다." # 2bfc209a5a83b3a713fa7fb11bcd309c690de62c
+  RICE_NOT_has_castle_holding_req: "[castle_holding|E]이 있는 [county|E]를 소유하지 않음" # 4ab8569e4f930b52893044353794f831f74b9d3d
+  RICE_NOT_has_city_holding_req: "[도시_보유지|E]가 있는 [백작령|E]을 소유하지 않았습니다" # 4e0fbb5fd017ca662d4e7558a9fb93720dc80dd9
+  RICE_NOT_has_temple_holding_req: "[temple_holding|E]이 있는 [county|E]를 소유하지 않음" # caf891f193776a124fba94cc5451134b3f058d98
+  RICE_NOT_has_tribal_holding_req: "[부족 영지|E]를 보유한 [백작령|E]을 소유하지 않았습니다" # 755ee8bb5954cb64cb3b02329147e4a0f9a63415
+  activity_RICE_hot_springs_visit_host_an_a: "$host_activity_a$" # a61241acadcc9f0c0c58e8a6756d1532a43a0ac3
+  activity_RICE_hot_springs_visit: "온천 방문" # 375f68cfd0fe9ac0218fbd4abfd4dddf670f2d56
+  activity_RICE_hot_springs_visit_desc: "이 세상에는 많은 유명한 [hot_springs|E]가 있으며, 저는 다행히도 그 중 하나 가까이에 살고 있습니다. 스트레스를 해소하고 일상의 걱정을 잊기 위해 방문해야겠습니다." # ede5349e75a6428baf553a6d9fef64ab3754b36e
+  activity_RICE_hot_springs_visit_selection_tooltip: "현지 [hot_springs|E]에서 휴식을 취하십시오.\n\n$activity_RICE_hot_springs_visit_context_tooltip$" # 78f99980dc69244e2721bab84a034af854712864
+  activity_RICE_hot_springs_visit_context_tooltip: "#emphasis 역사적 배경:#! 온천은 일반적으로 화산 활동과 같은 지열에서 기원합니다. 온천은 수천 년 동안 인간에 의해 사용되어 왔으며, 많은 온천은 전통적으로 치유 또는 치료 효과가 있다고 믿어집니다." # 46f06c6a521b19d48fcf6eb9fac2acf9081ddefd
+  activity_RICE_hot_springs_visit_host_desc: "$BULLET_WITH_TAB$ [stress_loss_i|E] [stress|E] 감소\n$BULLET_WITH_TAB$ 위치에 따라 다른 추가 혜택 가능" # d53e98b1798151d06923226a48fae9b70e760b10
+  activity_RICE_hot_springs_visit_guest_desc: "$activity_RICE_hot_springs_visit_host_desc$" # 4b532d9b4dbec0f2ed11a3300d9ddb67f05f9fb4
+  activity_RICE_hot_springs_visit_province_desc: "#N - 이곳의 [hot_springs|E]는 잘 알려져 있지는 않지만, 휴식을 취하기에는 충분할 것입니다.#!\n#weak 잘 알려진 [hot_springs|E]에 비해 [stress|E] 감소 효과가 적고 특별한 보너스도 없습니다." # 4f9a0e002f0712c64747bf021242d0a400fe9f11
+  activity_RICE_hot_springs_visit_guest_help_text: "$activity_RICE_hot_springs_visit$" # 5230fbe4e8de982ad31741ea5b5ce534e382d458
+  activity_RICE_hot_springs_visit_predicted_cost: "[온천|E] 방문 비용은 선택한 [활동 옵션|E]에 따라 다릅니다." # daaf8f31311155b867ee2eaedc89897f0e485bc0
+  activity_RICE_hot_springs_visit_conclusion_desc: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]이 끝났습니다. 즐겁고 편안한 경험이었습니다!" # c2abb609ca0fc4c34766636a70b8582cde1d75ba
+  RICE_hot_springs_visit_type: "방문 유형" # 14f11d4c4e94218d839268cc4a03bd40b1a6beaf
+  RICE_hot_springs_visit_type_public: "공개" # dc5eb704bbcae1aff4efb71c55461d47767dabe7
+  RICE_hot_springs_visit_type_public_desc: "$EFFECT_LIST_BULLET$ 선택한 [온천|E]로의 고급스러운 공개 여행입니다. 현지인들은 방문객의 만족을 위해 최선을 다할 것입니다.\n$EFFECT_LIST_BULLET$ #bold 개인적인#! 방문에 비해 더 많은 [명성_i][명성|E]를 얻지만, [스트레스_손실_i|E] [스트레스|E]는 더 적게 잃습니다.\n\n#weak 다른 사람들과 함께하지 않고 어떻게 휴식을 취할 수 있을까요? 즐거운 시간에 다른 사람을 피하는 사람만이 사회적으로나 개인적으로 무능한 사람일 것입니다!#!" # d2ca18e3f1f12e67e4914fd5393188b533a00542
+  RICE_hot_springs_visit_type_private: "개인" # 237dfa0a21c8e17a7276cf161eef7e0fba067c47
+  RICE_hot_springs_visit_type_private_desc: "$EFFECT_LIST_BULLET$ 선택하신 [hot_springs|E]로의 개인 여행이 될 것이며, 눈에 띄지 않게 조용히 휴식을 취할 수 있습니다.\n$EFFECT_LIST_BULLET$ #bold 공개#! 방문에 비해 더 많은 [stress_loss_i|E] [stress|E]를 줄이지만, [prestige_i][prestige|E]는 더 적게 얻습니다. (또는 방문하는 장소에 따라 전혀 얻지 못할 수도 있습니다.)\n\n#weak 다른 사람이 있어야 즐거운 사람은 자기 자신에게 편안함을 느끼지 못합니다. 조용하고 평화로운 환경에서 휴식을 취하는 것이 가장 좋습니다.#!" # b5a8f6c7a588c1f7045f1e15fb27413127c71a5a
+  RICE_hot_springs_visit_leisure_phase: "여가" # 540c98ab5802a4a1fd4ab4d87311796148c2e3fd
+  RICE_hot_springs_visit_leisure_phase_desc: "[hot_springs|E]를 즐길 시간입니다!" # cfca74ba85ee58d6b8cad2b61fb34c52f6e5df2f
+  RICE_hot_springs_visit_relaxation_intent_header: "휴식:" # c9427617468e0e3e0b6593fea4a0e5ee5cb1d02a
+  RICE_hot_springs_visit_relaxation_intent: "휴식" # ce72467f49a835fc1a0f4e8be5234653e978d5d7
+  RICE_hot_springs_visit_relaxation_intent_desc: "선택한 [hot_springs|E]에서 휴식을 취할 것입니다." # e14d9e6799393440a842c0aef6b6d4d1484c406b
+  RICE_hot_springs_visit_completed_log_title: "온천 방문 완료" # 69967e29f9bad0bc9e0b865a77e5844d103e4016
+  RICE_hot_springs_visit_completed_log: "[CHARACTER.GetShortUIName|U](이)가 [PROVINCE.GetBaronyNameExplicitly]의 [hot_springs|E](으)로의 방문을 완료했습니다." # 43c1016d22aa002b74281e3b45f976c0241c39af
+  TRAVEL_NAME_FOR_activity_RICE_hot_springs_visit: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_hot_springs_visit$" # 038864615fe26d9e7344192a46182396c9e9c665
+  activity_RICE_local_pilgrimage: "지역 순례" # 91b72ecfc32f7455088f31cc63a64d69acf85e2e
+  activity_RICE_local_pilgrimage_desc: "세계에는 지역 성지가 많이 있습니다. 이러한 장소는 [faithpossessive|E] 주요 [holy_sites|E]만큼 눈에 띄지는 않아서 장거리 [pilgrimages|E]의 대상이 되는 경우는 드물지만, 여전히 주변 지역의 신도들을 끌어들입니다." # 051065496bb4e5ae0741a84d0065ba5d23fa0376
+  activity_RICE_local_pilgrimage_selection_tooltip: "[local_순례|E]를 떠납니다.\n\n$activity_RICE_local_pilgrimage_context_tooltip$" # b3f41953177a1db1039f02afa5908aa2aac8b602
+  activity_RICE_local_pilgrimage_context_tooltip: "#emphasis 역사적 배경:#! 순례는 종종 메카, 예루살렘, 산티아고, 보드가야와 같은 유명한 종교 성지로의 웅장한 여정을 떠올리게 하지만, 지역적인 목적지로의 순례도 흔했습니다. 이들 중 일부는 유명한 성지보다 더 오랫동안 숭배와 숭상의 중심지였습니다. 그들은 종종 지역 전설 및 문화와 관련이 있으며, 여행이 어려웠던 전근대 시대에는 이러한 장소로 여행하는 것이 더 실용적이었습니다." # fca48c14cc237f31ee57633ed1c259de3a3d65f7
+  activity_RICE_local_pilgrimage_host_desc: "$BULLET_WITH_TAB$ [신앙도_i|E][신앙도|E] 획득\n$BULLET_WITH_TAB$ [스트레스_손실_i|E] [스트레스|E] 상실\n$BULLET_WITH_TAB$ [GetTrait('pilgrim').GetName( GetNullCharacter )] [특성|E] / [GetTrait('pilgrim').GetName( GetNullCharacter )] [특성_수준_추적_경험치|E]" # a3664c865b811a9d3e718e2be7abdeb98415dfc7
+  activity_RICE_local_pilgrimage_guest_desc: "$activity_RICE_local_pilgrimage_host_desc$" # 53a82f3f678fb6abbff6f3ac8bc81b6b481bb20b
+  activity_RICE_local_pilgrimage_destination_selection: "$activity_RICE_local_pilgrimage_province_desc$" # 39b82e8f43b74205ba378721be54c062b1528b14
+  activity_RICE_local_pilgrimage_guest_help_text: "$activity_RICE_local_pilgrimage$" # ffaa3471c1d5b6794c67680fd4a6be3fdc78d0a2
+  activity_RICE_local_pilgrimage_predicted_cost: "[local_pilgrimage|E]의 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 2e39f320fcab8b3d21fd4a1cd992e5f6c167df1f
+  activity_RICE_local_pilgrimage_conclusion_desc: "[GetActivityType( 'activity_RICE_local_pilgrimage' ).GetName]이(가) 끝났습니다. 훌륭한 종교적 경험이었습니다!" # 0f71cfec1a45b8fb56c1492754297cb9277ee4d1
+  RICE_local_pilgrimage_type: "방문 유형" # 14f11d4c4e94218d839268cc4a03bd40b1a6beaf
+  RICE_local_pilgrimage_type_devotion: "헌신의 행위" # 0274272ab2c6ab0825aab0e11802374f4006529f
+  RICE_local_pilgrimage_type_devotion_desc: "$EFFECT_LIST_BULLET$ 다른 [신앙심|E] 획득량에 더하여 [신앙심_i|E] #V 100#! 획득\n$EFFECT_LIST_BULLET$ 다른 선택지에 비해 [특성('순례자').GetName( GetNullCharacter )] [특성|E]의 [특성_레벨_추적_경험치|E] 두 배 획득\n\n#weak 비록 주요 성지로 여행하는 것은 아니지만, 우리는 여전히 순례 중이며, 이를 진지하게 받아들여야 합니다.!#" # 9f0def7e30dd422f15f2441b996a59b3832fcffb
+  RICE_local_pilgrimage_type_observance: "종교 의례" # 5220b41b5f1ecfa658cf2d854ee27daf14f5d5bf
+  RICE_local_pilgrimage_type_observance_desc: "$EFFECT_LIST_BULLET$기타 [prestige|E] 획득량에 추가하여 [prestige_i|E] 100을 획득합니다.#V 100#!\n$EFFECT_LIST_BULLET$지역 종교 관습에 따라 [GetPlayer.GetFaith.PantheonTerm]을 존중하면, 신하들에게 자신을 이해하고 그들의 생활 방식을 존중하는 지도자임을 보여줄 수 있습니다. [GetModifier('RICE_misc_engaged_with_local_religious_practices').GetNameWithTooltip] [character_modifier|E]를 획득합니다." # 8944751c6bc9dea137936fa5dad204a93c77e237
+  RICE_local_pilgrimage_type_vacation: "영적 휴가" # d46d5984ac8796c961de48352779a2b3eb262107
+  RICE_local_pilgrimage_type_vacation_desc: "$EFFECT_LIST_BULLET$ 다른 선택지에 비해 [stress_loss_i|E] [stress|E]를 훨씬 많이 잃습니다\n\n#weak 정신적, 육체적 회복은 모든 장기적인 종교 체험에서 중요한 측면이며, [GetPlayer.GetFaith.PantheonTerm]에 더 가까이 다가갈 수 있게 해줍니다!#" # 3763cffcd401f1f47a700b9c78d2ad2bc31e3ff2
+  RICE_local_pilgrimage_pilgrimage_phase: "$pilgrimage_phase_solo$" # 804a12bd0662320f362760a8208b95ebb24f753f
+  RICE_local_pilgrimage_pilgrimage_phase_desc: "$pilgrimage_phase_solo_desc$" # 77d4b5f87bbca08c296ae4d0b14467befbd55580
+  RICE_local_pilgrimage_worship_intent_header: "숭배:" # 97f96470a9d363b328ca1708cf3575131301d2a6
+  RICE_local_pilgrimage_worship_intent: "숭배" # 82a99411bb49a330b3921012d5d35a92a44b5488
+  RICE_local_pilgrimage_worship_intent_desc: "이 [local_pilgrimage|E]의 종교적 측면에 집중하고 싶습니다. 다른 이득 외에 추가 [piety_i|E] [piety|E]를 얻습니다. [GetTrait('zealous').GetName( GetNullCharacter )] 또는 [GetTrait('calm').GetName( GetNullCharacter )] 특성을 보유한 경우 추가 [stress_loss_i|E] [stress|E]를 잃습니다." # 8d3abb0a3d9e49f78fa1c478f61c216651a2574e
+  RICE_local_pilgrimage_model_intent_header: "롤 모델:" # 62d034fcafbabe9bcd0931a6c6216146e4741aaf
+  RICE_local_pilgrimage_model_intent: "역할 모델" # 2741d242c1629a18cf2bee9ab503322adf4999bf
+  RICE_local_pilgrimage_model_intent_desc: "이 지역의 모든 [GetPlayer.GetFaith.GetAdherentNamePlural]에게 이번 [local_pilgrimage|E]를 통해 모범을 보이십시오. 다른 이득 외에도 더 많은 [prestige_i|E] [prestige|E]를 얻습니다. 만약 당신이 [GetTrait('ambitious').GetName( GetNullCharacter )] 또는 [GetTrait('diligent').GetName( GetNullCharacter )]라면 추가 [stress_loss_i|E] [stress|E]를 잃습니다." # a40748db06b3610a533ebeeb06d1e57fd26a3ee8
+  RICE_local_pilgrimage_curiosity_intent_header: "호기심:" # eb4a4155e664c66391734d07a3d2e9d0dc62c5b2
+  RICE_local_pilgrimage_curiosity_intent: "호기심" # 1a0bff19a5f4891dbfd100deb6c51c2b8bd4bf3b
+  RICE_local_pilgrimage_curiosity_intent_desc: "당신은 이 [local_pilgrimage|E]를 떠나면서, 현지 주민, 그들의 문제, 그리고 그들이 [GetPlayer.GetFaith.GetName]을 어떻게 수행하는지 더 잘 이해하고 싶습니다. 당신의 [lifestyle|E]에서 [experience|E]를 얻습니다. 만약 당신이 [GetTrait('humble').GetName( GetNullCharacter )] 또는 [GetTrait('just').GetName( GetNullCharacter )]라면 추가적인 [stress_loss_i|E] [stress|E]를 잃습니다." # c5c5f9164056d65e0117fb471d923640d9b3a33d
+  RICE_local_pilgrimage_completed_log_title: "지역 순례 완료" # a5431ac923860de28fd5753d28b76276dc8acd46
+  RICE_local_pilgrimage_completed_log: "[CHARACTER.GetShortUIName|U](이)가 [PROVINCE.GetBaronyNameExplicitly](으)로 [local_pilgrimage|E](을)를 완료했습니다." # 38a6f416253e8e0a98d1670c829df1306a2e4044
+  TRAVEL_NAME_FOR_activity_RICE_local_pilgrimage: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_local_pilgrimage$" # 344b903cdb3df051cb2deece789c4eeea6e200e0
+  RICE_local_pilgrimage_county_req: "[top_realm|E|E]에 [지역 순례|E]로 유명한 장소가 있는 [county|E]가 하나 이상 있습니다" # 0eabf7bc43706fc24840586c163e8d38f42430de
+  NOT_RICE_local_pilgrimage_county_req: "$RICE_hot_springs_county_req$" # 8649ad0a6880baa119716df4b8c56de2a60347ed
+  RICE_local_pilgrimage_votive_offering_type: "공물" # 4d9644f45bf5bfd91774aab6f56830a7a7dcba7c
+  RICE_local_pilgrimage_votive_offering_type_small: "기본 봉헌물" # a94c459c9443840bd138186621fd6510af8e684e
+  RICE_local_pilgrimage_votive_offering_type_small_desc: "$EFFECT_LIST_BULLET$ [activity|E] 완료 시 [piety_i|E] #V 50#! 기본 획득.\n\n#weak 순례 목적지에 도착하면 [GetPlayer.GetFaith.PantheonTerm]에게 어떤 형태로든 공물을 바치는 것이 좋은 관례입니다.#!" # 9015124cda3b64e46324d6538822a0813c594e49
+  RICE_local_pilgrimage_votive_offering_type_medium: "대규모 봉헌물" # eb4c293a8297ddaa2b0624f44c70118e63670969
+  RICE_local_pilgrimage_votive_offering_type_medium_desc: "$EFFECT_LIST_BULLET$[activity|E] 완료 시 [piety_i|E] #V 100#! 기본 획득.\n\n#weak "소규모" 순례에서도 상당한 공물을 바쳐 [GetPlayer.GetFaith.PantheonTerm]을 제대로 공경해야 합니다.!#" # 5d2fd1ef93520a4ec3a7d2e72ddd8ad7ec9156c5
+  RICE_local_pilgrimage_votive_offering_type_large: "소규모 [GetPlayer.GetFaith.HouseOfWorship|U] 토지 증여" # 0328d099166c11f29dd4ef9b3558358fab03cfa4
+  RICE_local_pilgrimage_votive_offering_type_large_desc: "$EFFECT_LIST_BULLET$[piety_i|E] 기본 획득량 #V 200#! [activity|E] 완료 시.\n$EFFECT_LIST_BULLET$[development_i|E] [development|E] 진행도 #P 증가#! (수도)에서 #V [EmptyScope.ScriptValue('minor_development_progress_gain')]#! [activity|E] 완료 시#!\n\n#weak 순례를 떠날 때, 현명한 통치자는 그들의 헌신을 증명하기 위해 종교 기관에 토지를 기증할 것이며, 그리하여 [GetPlayer.GetFaith.PantheonTerm]의 영광을 드높일 것입니다.#!" # 1e20255c0dde4440e0ee7a8e1f264a5151a55c7b
+  game_concept_hot_springs: "온천" # cb506dd41a005a6fcc0d4c18104ce66e01d7afa8
+  game_concept_hot_spring: "온천" # f050ee11f2d0fbf927d766f118780f47ce621efb
+  game_concept_hot_springs_desc: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]는 많은 [rulers|E]가 [stress|E]를 해소하기 위한 방법으로 이용할 수 있는 [activity|E] 유형입니다. 이 [activity|E]에는 두 가지 [activity_options|E]이 있습니다. 방문이 좀 더 공개적이고 주목받는 행사가 될지, 아니면 사적인 은밀한 일이 될지 선택할 수 있습니다.\n\n시와에 있는 태양의 샘과 같이 지도 곳곳에서 발견되는 몇 가지 #bold 특별한#! 온천이 있습니다. 이러한 지역 중 한 곳이 있는 [realm|E]에 있다면 그곳으로 [travel|E]하기로 결정하면 유용한 [character_modifiers|E]와 같은 추가 보너스를 얻을 수 있습니다." # 4bb86558e57118b948593651f6febc878402bf94
+  game_concept_local_pilgrimage_short: "순례" # ac8145f7978932a7c5c0da2ae69d29674474af0d
+  game_concept_local_pilgrimages_short: "순례" # f2fc7330402fb939a642a62c5a1a0c1ef8d926cc
+  game_concept_local_pilgrimage: "지역 순례" # 91b72ecfc32f7455088f31cc63a64d69acf85e2e
+  game_concept_local_pilgrimages: "지역 순례" # 6e4c46220659636b1fffe5f8c5bcb17e58b86649
+  game_concept_local_pilgrimage_desc: "$game_concept_local_pilgrimages$는 특정 종교 장소 근처를 다스리거나 거주하는 [통치자|E]가 이용할 수 있는 [활동|E]입니다. 이러한 순례는 규모와 영향력이 훨씬 더 작은 규모이므로, 자신의 [신앙|E]의 [성지|E]로 가는 더 웅장한 [순례|E]와는 구별됩니다.\n\n모든 사람이 현지 순례에 접근할 수 있는 것은 아닙니다. 또한, [통치자|E]가 적절한 위치에 있더라도 특정 [결정|E]을 내리거나 특정 이벤트가 발생해야만 사용할 수 있는 현지 순례가 많습니다. 현지 순례는 때로는 제공하는 혜택이나 순례를 갈 수 있는 사람들의 지리적 범위를 늘릴 수 있는 추가 특별 [결정|E]과 관련되기도 합니다.\n\n그럼에도 불구하고, 일반 [순례|E]보다 더 적은 혜택을 제공하지만, 현지 순례는 특정 목적지에 따라 특별한 [캐릭터_모디파이어|E]와 같은 고유한 혜택을 제공하는 경우가 많습니다. 또한, 더 웅장한 [순례|E]를 준비하기 위해 일반 [순례|E]보다 느린 속도이긴 하지만, [GetTrait('pilgrim').GetName( GetNullCharacter )] [특성_레벨_트랙_XP|E]을 얻는 데 좋은 방법입니다." # be8153aa21ccd50ba742299d326dc8b58f692e96
+  game_concept_aspiring: "야망" # c9b355f08d40c1311457d3b1c8325cd28b39b0f8
+  game_concept_aspires: "열망함" # 77f5955595d40e0786405639bd98f275c8740eba
+  game_concept_aspired: "열망하는" # 830af9269274511e3a20af20d37446fe5c61dfa7
+  game_concept_aspire: "야망" # 2611075b70cb11e984e5e3cfb322eb5efcf5080e
+  game_concept_aspiration: "열망" # 7fe875d46d1f6f727eafacc414d2b566072164ab
+  game_concept_aspirations: "열망" # 1c88c37b0b158ab8da5bf4f0a8e6851119eb5da0
+  game_concept_historical_aspiration: "역사적 야망" # 08ebb8e925038cdc89e6ece894bf4dabbaf4f1fd
+  game_concept_historical_aspirations: "역사적 야망" # d2399cc8107dca2c5e1463487beed23d35a3ccf8
+  game_concept_historical_aspirations_desc: "$game_concept_historical_aspirations$는 게임 시작 시 특정 역사적 [characters|E]에게 제공되는 간단하고 선택적인 퀘스트입니다. 업적과는 달리, 이러한 목표를 달성하면 [modifiers|E] 또는 @dynasty_prestige_icon! [dynasty_prestige|E]와 같은 다양한 보너스가 주어집니다.\n\n목표는 일반적으로 광범위한 가능성이나 가설보다는 캐릭터의 구체적인 역사적 상황과 동기를 반영하며, 플레이어가 해당 캐릭터의 실제 삶의 욕망과 경험을 역할극으로 연기하도록 장려하는 데 목적이 있습니다.\n\n목표는 두 가지 유형의 목표로 구성됩니다. 목표를 달성하려면 [historical_aspiration_main_objectives|E]를 만족해야 합니다. 반대로, [historical_aspiration_bonus_objectives|E]는 만족할 필요는 없지만 그렇게 하면 추가 보너스를 얻을 수 있습니다. 목표는 [decision|E]를 내리는 것과 같은 직접적인 행동이거나 특정 [religion|E]을 따르는 것과 같은 수동적인 행동일 수 있습니다.\n\n목표 달성은 즉시가 아니라 연도의 #V 시작#! 시점에 계산된다는 점에 유의해야 합니다. 즉, 연초에 목표를 달성하면 목표가 완료됩니다. 이는 보너스 목표를 달성할 약간의 유예 시간이 있음을 의미합니다." # 55a4e7aedc69b7cfe3acec7716afb9d2bf3edb79
+  game_concept_historical_aspiration_main_objective: "주요 목표" # 9894aecd13d03ff3305f3f6847c899dd5194dab4
+  game_concept_historical_aspiration_main_objectives: "주요 목표" # b5db1b1e685f9705301b8ea67c9a74852ae3a46d
+  game_concept_historical_aspiration_main_objectives_desc: "$game_concept_historical_aspiration_main_objectives$는 역사적 인물이 자신의 [historical_aspiration|E]를 달성하기 위해 충족해야 하는 필수 조건입니다. [historical_aspiration_bonus_objectives|E]와는 달리, 선택 사항입니다.\n\n주요 목표 또는 목표가 충족되면 해당 인물은 관련 보상,  [historical_aspiration_bonus_objectives|E] 달성 보상을 포함하여, 받게 됩니다." # f4c5061249b9a856f26b48f2920a3e56d32f1b22
+  game_concept_historical_aspiration_bonus_objective: "보너스 목표" # c6e2b205166e70b7d4e059264fb6e8029755c77c
+  game_concept_historical_aspiration_bonus_objectives: "보너스 목표" # d525ad02dcc2a8a75783613214b27cb5aab50666
+  game_concept_historical_aspiration_bonus_objectives_desc: "$game_concept_historical_aspiration_bonus_objectives$는 역사적 인물이 [historical_aspiration|E]을 달성하려고 할 때 시도할 수 있는 추가적인 선택 목표입니다. [historical_aspiration_main_objectives|E]와는 대조적으로 필수는 아니지만, 달성 시 더 많은 보상을 제공합니다.\n\n그러나 보너스 보상을 받으려면 [historical_aspiration_bonus_objectives|E]는 [historical_aspiration_main_objectives|E]를 달성할 때 충족해야 합니다. 나중에 충족되면 캐릭터는 그러한 보상을 받지 못합니다." # dd2e7abac3572026cbec42f499e521b53f5770a2
+  RICE_hot_springs_visit_host_memory: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을(를) 했습니다" # e53a4f1a2702f546be22b6b451f8257c402ae622
+  RICE_hot_springs_visit_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을(를) 했습니다" # cf7911dbabf287853b3997ebf260bf4991a6dab4
+  RICE_hot_springs_visit_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을 했습니다." # f0fa15f2806c4d9c15acc40e8666c3037892a45f
+  RICE_hot_springs_visit_host_memory_third_perspective: "[owner.GetName](이)가 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName](을)를 했습니다" # 756d11eff32cc3d9db7c85f010ae7ee34973782a
+  RICE_hot_springs_visit_guest_memory: "[host.GetTitledFirstName](이)와 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName](을)를 떠났습니다" # 0ed1a5b64ace47bd4fd813534ed5208af8b8d863
+  RICE_hot_springs_visit_guest_memory_first_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]에 다녀왔습니다." # e8ed6684e0aeb0329b5ad7fe671da864c6853714
+  RICE_hot_springs_visit_guest_memory_second_perspective: "당신은 [host.GetTitledFirstName]님과 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을(를) 갔습니다." # b706c7ad51c7ef3e7c9e8d286cda8d569535a8ea
+  RICE_hot_springs_visit_guest_memory_third_perspective: "[owner.GetName]이 [host.GetTitledFirstName](와)과 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName](을)를 떠났습니다" # 8d5c5f1fc769bbff1e81bcc25d17fdb624b10269
+  RICE_local_pilgrimage_host_memory: "[local_pilgrimage|E] 순례를 떠났습니다" # bf26be2cc7d31b9d26823d8969552a4e2bf98109
+  RICE_local_pilgrimage_host_memory_first_perspective: "[local_pilgrimage|E] 순례를 다녀왔습니다" # 374b9a26013505f3aad1487d26ccdffc81e1fdd6
+  RICE_local_pilgrimage_host_memory_second_perspective: "[local_pilgrimage|E] 순례를 다녀왔습니다" # 2dc9bf945752ad0717366befc7580bb8bd4b4c4e
+  RICE_local_pilgrimage_host_memory_third_perspective: "[owner.GetName]이 [local_pilgrimage|E] 순례를 떠났습니다" # 1666e9670cb0cf8135f5c184943860c3f15c5e22
+  RICE_local_pilgrimage_guest_memory: "[host.GetTitledFirstName] 님과 함께 [host.GetHerHis] [local_pilgrimage|E]에 동행했습니다." # 6017fe03288e03332db99ab675663334348a4e1c
+  RICE_local_pilgrimage_guest_memory_first_perspective: "저는 [host.GetTitledFirstName] 님의 [host.GetHerHis] [local_pilgrimage|E]에 동행했습니다." # 86a9894f831ddb883604046d95a24586249fba2a
+  RICE_local_pilgrimage_guest_memory_second_perspective: "[호스트.GetTitledFirstName]과 함께 [호스트.GetHerHis] [local_pilgrimage|E]에 동행했습니다." # f21537199c2171a49d05957dfec74fc9971a7317
+  RICE_local_pilgrimage_guest_memory_third_perspective: "[owner.GetName]이 [host.GetTitledFirstName](을)를 따라 [host.GetHerHis] [local_pilgrimage|E]에 동행했습니다" # 7d6826dc2272c0a076fed294153ace739e7ca209
+  RICE_local_veneration_option: "지역 신전에서 숭배" # 391fac858083a429b24d124e3faf9b67b7dfe51c
+  RICE_local_veneration_option_desc: "여행 중에, 당신은 지역 [GetPlayer.GetFaith.GetReligion.GetAdjective] 성인이나 다른 신성한 존재들이 축복한 장소를 지나갈 수 있으며, 그들을 만날 때마다 존경을 표하는 것이 중요합니다." # db849ff3b7ac8a189c3bb0063d348f8bd2fbf734
+  RICE_local_veneration_option_effect_1: "자신의 [종교|E]를 따르는 [남작령|E]에 들어갈 때마다, 자신의 [학습|E] 및 [신앙심_단계|E]에 따라 [신앙심_i|E] #V 1#!과 [신앙심_i|E] #V [빈 범위.ScriptValue('minor_piety_value')|0]#! 사이의 값을 얻을 수 있는 확률이 #V [GetPlayer.MakeScope.ScriptValue('RICE_local_veneration_option_bonus_chance')]%#!입니다." # ce06741803d45a028d2d3d5b1e0cf1bbfd4ce9a8
+  RICE_local_veneration_option.toast.success: "현지 [GetPlayer.GetFaith.GetReligion.GetAdjective] 신전에서 기도했습니다" # 0ae6c2665cf35a5649b0964f674858223a0daee7
+  RICEintro.0030.t: "@warning_icon! 잘못된 로드 순서 감지됨" # b121db8d4ea818ed5b84be97a90e0e4c155ea9b4
+  RICEintro.0030.desc: "아시아의 라자와 RICE가 현재 모드 목록에서 실행 중이지만 로드 순서가 잘못되었습니다.\n\n이 메시지는 게임 시작 시에만 나타나므로 향후 유사한 문제는 감지하지 못합니다. 또한 감지 시스템이 완벽하지 않아 잘못된 경고를 표시할 수도 있습니다.\n\n#bold #warning @warning_icon! 로드 순서에서 아시아의 라자가 RICE #underline 다음에#! 로드되었는지 확인하세요. 또한 새 게임을 시작해야 합니다.#!#!" # 4bf07d5961b5ec598d7638ec4cf22ed17371b305
+  RICEintro.0031.t: "@warning_icon! 잘못된 로드 순서 감지됨" # b121db8d4ea818ed5b84be97a90e0e4c155ea9b4
+  RICEintro.0031.desc: "현재 모드 목록에서 낙오된 독수리와 RICE가 부적절한 로드 순서로 실행 중인 것으로 감지되었습니다.\n\n이 메시지는 게임 시작 시에만 나타나므로 향후 유사한 문제는 감지하지 않습니다. 또한 감지 시스템이 완벽하지 않아 오탐이 발생할 수 있음을 참고하십시오.\n\n#bold #warning @warning_icon! 낙오된 독수리 모드를 #underline RICE 모드 #after#! 로드 순서에 배치해야 합니다. 새 게임을 시작해야 합니다.#!#!" # 2c67dc77c5f715ab6fce613ffc6163d138fbcabb
+  RICEintro.0032.t: "@alert_icon! 모든 업적의 어머니 없음" # b7467ba5a2c4997d90148cdf1e9297fb89965fc2
+  RICEintro.0032.desc: "이는 RICE에서 새로 추가한 아프리카 이교 신앙(예: [ROOT.Char.GetFaith.GetReligion.GetAdjective] [faith|E]인 [ROOT.Char.GetFaith.GetName])은 #warning 안 됨#! #bold 우리 모두의 어머니#! 업적에 포함되지 않는다는 사실을 알려드리는 친절한 알림입니다. 바닐라의 아프리카 이교 [faiths|E]만 포함됩니다. 다른 모드가 이를 변경할 수 있습니다.\n\n이 메시지는 중요한 경고는 아니지만 향후 혼란을 방지하기 위한 친절한 알림입니다." # f650fa4478213f6af89e7d86532503dac260f913
+  d_laamp_RICE_thabit_ibn_qurra: "고대 유물 보존자" # bedad0fe99f75f5da04ab0bff35a1f2338277a57
+  d_laamp_RICE_thabit_ibn_qurra_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_ibn_wahshiyya: "나바테아 농업인" # 0df6a7b4630dd96d489370124e3f01779f2452b5
+  d_laamp_RICE_ibn_wahshiyya_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_al_wuhsha_al_dallala: "소망받는 자" # a0df1b276911750379575aee2a48d5abf77c0782
+  d_laamp_RICE_al_wuhsha_al_dallala_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_michael_scot: "세계 최고의 학자" # 1d425628ac672b43cccee8067dd176a055f303d2
+  d_laamp_RICE_michael_scot_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_korean_867: "신라의 사절" # a74fc4a62b21cf768062aaf05af2491f50a0373a
+  d_laamp_RICE_korean_867_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_cynewulf: "성스러운 시인들" # 538ddddcd70376ff0f0b0e9af02914604cd1eefc
+  d_laamp_RICE_cynewulf_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_hiwi_al_balkhi: "악명 높은 자유 사상가" # b6f21b7079e583dfae0c2ae04a23100e56c052c8
+  d_laamp_RICE_hiwi_al_balkhi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_al_balkhi: "세속 의사" # 162736aff744ee89176e6a8d80d99271b18841b9
+  d_laamp_RICE_al_balkhi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_oranmiyan: "오두두와의 후예" # 16752d4520e8c589240197f87e8fef277311fe0b
+  d_laamp_RICE_oranmiyan_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_bartholomew_leslie: "헝가리 청년들" # f4d2f553fd06329427ffb69e395cd63d3e5fbf7d
+  d_laamp_RICE_bartholomew_leslie_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_chakrapani_datta: "귀족 의사" # c9a4aec5274d461728d2f0e957be6f60da5b3b77
+  d_laamp_RICE_chakrapani_datta_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_ibn_nabhan: "하란인의 마지막" # 0e05f80d69f33284abb37a5e605ed115eb18e388
+  d_laamp_RICE_ibn_nabhan_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_nasir_khusraw: "호라산 선교사" # ba4d288d59d751d75a67c46ab486a3e1c32d1d12
+  d_laamp_RICE_nasir_khusraw_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_longibardopoulos: "롬바르드족의 아들들" # c4add63504455afc5320c59d449846eb175d189d
+  d_laamp_RICE_longibardopoulos_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_al_kashgari: "튀르크의 자부심" # ca17a285cf63779c1b3cfcb1bf31446ef375d167
+  d_laamp_RICE_al_kashgari_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_tzachas: "룸의 약탈자" # fad5bfef1d8687bfacdf9bb9f0f660706891673e
+  d_laamp_RICE_tzachas_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_hafsa: "아부 자파르의 조문객" # e08976bc21649e7dfa2278780b79b32d78a56200
+  d_laamp_RICE_hafsa_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_trapelicino: "부정직한 자들" # c80e7e012f2e1df51752c86ce9988c6cb37a50f9
+  d_laamp_RICE_trapelicino_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_eldad_ha_dani: "단의 아들들" # 2f0919553b380ffcb36829176bd795db7ec4bd58
+  d_laamp_RICE_eldad_ha_dani_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_ohthere: "바다코끼리 사냥꾼" # ab94fee891d25cb31e9b8cd6a4cc94d3f72831e5
+  d_laamp_RICE_ohthere_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_wulfstan: "발트해의 여행자들" # 4dccca7f5c775285abcf4b488f4287bb5a69cfd6
+  d_laamp_RICE_wulfstan_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_japheth: "왕족 상인" # 6bbcdc7270a3b42a6a35de50bf16133dc6b6881a
+  d_laamp_RICE_japheth_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_ibn_al_qatta_al_siqilli: "시의 귀한 진주" # f31dd825d138dae1167c89a77edd48ea169f1def
+  d_laamp_RICE_ibn_al_qatta_al_siqilli_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_ali_kalbid: "바누 칼브의 전사" # 8458cfdb90318ea6349b1fbb07483e728b58285e
+  d_laamp_RICE_ali_kalbid_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_last_murong: "끈질긴 기병대" # e6a61f8bf27a2adea319b6551455ec3e99c1191f
+  d_laamp_RICE_last_murong_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_hugo_von_hildesheim: "발트해 상인" # 8838987c6b29dcf5bcd06c5066dda6b8fe6f6b2b
+  d_laamp_RICE_hugo_von_hildesheim_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_guglielmo_grasso: "교활한 약탈자" # 6d95c8b5e8110f794673d110d1348a9f774fa637
+  d_laamp_RICE_guglielmo_grasso_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_manikkavacakar: "종교적 교사" # c7c6f30f3d89d248a411498405d538646946cce6
+  d_laamp_RICE_manikkavacakar_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_malay_867: "스리비자야 상인" # af857ebb604aa2cb82e7098a9c1fdb93e08ec50e
+  d_laamp_RICE_malay_867_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_malay_1066: "$d_laamp_RICE_malay_867$" # 6eec0c4e7a99ca584ec7237bc460bc842981fd17
+  d_laamp_RICE_malay_1066_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_malay_1178: "$d_laamp_RICE_malay_867$" # 6eec0c4e7a99ca584ec7237bc460bc842981fd17
+  d_laamp_RICE_malay_1178_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_swahili_867: "아자니아 상인" # 3d977c018aa36f838f19a820e0922194ddcdbbe3
+  d_laamp_RICE_swahili_867_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_swahili_1066: "킬와 상인" # 046f7054daec716de90bbc5940654bd870557c3b
+  d_laamp_RICE_swahili_1066_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_swahili_1178: "$d_laamp_RICE_swahili_1066$" # 43ce555b8956a51bf3def2c0996056db6780ec3b
+  d_laamp_RICE_swahili_1178_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_solomon_ibn_gabirol: "생명의 원천" # 761e305e2df49a0dcc244401b8db6b7aafc5b718
+  d_laamp_RICE_solomon_ibn_gabirol_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_ikhshidid: "$c_ferghana$의 왕자들" # 43c996af1df656b3115e71ff973150ed042a0a24
+  d_laamp_RICE_ikhshidid_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_al_turki_egypt: "도덕 집행자" # 627417a518a1e42b8e06a2d721f50f869d3c462a
+  d_laamp_RICE_al_turki_egypt_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_wangara_867: "왕가라 상인" # 2039e5d7bb03e6b2992467bab9ccb16a6f910b66
+  d_laamp_RICE_wangara_867_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_wangara_1066: "$d_laamp_RICE_wangara_867$" # 9b2bf0d5428bae9e83fabb2c7affa4c1b11f0114
+  d_laamp_RICE_wangara_1066_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_wangara_1178: "$d_laamp_RICE_wangara_867$" # 9b2bf0d5428bae9e83fabb2c7affa4c1b11f0114
+  d_laamp_RICE_wangara_1178_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_andreas_archbishop_of_bari: "정의로운 개종자" # cc69df96fbdec1aa668bed51b6ca4f469a61908e
+  d_laamp_RICE_andreas_archbishop_of_bari_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_ishaq_ibn_kundaj: "카자르의 주먹" # 0620e10e43d42d246bec6a5819bb384c96e34ecf
+  d_laamp_RICE_ishaq_ibn_kundaj_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_margaret_of_beverley: "십자군 참여자" # f81d5eda8d0bdeed28de19aa6012b8a8224fd136
+  d_laamp_RICE_margaret_of_beverley_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_ahmad_ibn_rusta: "귀중한 기록 편찬자" # d2f09776706546fbc18b5e2b649e1808906a2966
+  d_laamp_RICE_ahmad_ibn_rusta_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_ali_al_harawi: "방랑하는 이방인과 외톨이" # e6cde76e1670abb9242f252715a7ad37a8ad58ff
+  d_laamp_RICE_ali_al_harawi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_geoffrey_burel: "민중의 성전 전사" # 4dbd42d0ca4aa23fce5e3b42fd6b64c0a6accba8
+  d_laamp_RICE_geoffrey_burel_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_al_tabari: "지식 탐구자" # e9cc8cf2e62ea80922ebb8d537bb58e31d748eaa
+  d_laamp_RICE_al_tabari_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_symeon_seth: "사원 건축가" # 3d38c3dd8650f45160d803d7e5ec0e677073f295
+  d_laamp_RICE_symeon_seth_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_bappa_beary: "자연의 제자들" # 997abcc686eafa560a6aeeebc7649be42240b8eb
+  d_laamp_RICE_bappa_beary_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_abd_al_latif_al_baghdadi: "합리적 지식 탐구자" # e56bc3c04846a25e35e2a4934f9744633b5115dd
+  d_laamp_RICE_abd_al_latif_al_baghdadi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_audun_of_the_west_fjords: "행운의 선물 전달자" # 0680afd583e39ee4328bc622dae11943ddc344ae
+  d_laamp_RICE_audun_of_the_west_fjords_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_al_yaqubi: "국가 연대기 편찬자" # 2aca5ec5c02f28f9b4bc3d76c2b4cd6337508454
+  d_laamp_RICE_al_yaqubi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_ishaq_bin_yahuda: "지칠 줄 모르는 행운 추구자" # 0d37bbf2365a8b28ac86ba1892ee97867e3f4b8d
+  d_laamp_RICE_ishaq_bin_yahuda_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_yusuf_balasaguni: "축복받은 현자" # ba01bba6213f6844044eb6e2be64cff826aa9f6f
+  d_laamp_RICE_yusuf_balasaguni_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_al_kanemi: "웅변적인 아프리카인" # d3ce9f7859e6e5847dbcbae29ab006da3e106d6e
+  d_laamp_RICE_al_kanemi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_li_shichang: "$dynn_Li$ 가문" # 662d0ec2151da587525a6cea2e1c5f9a8d62cbb4
+  d_nf_RICE_li_shichang_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_zhai_dunhuang: "$dynn_zhai$ 가문" # d46f5aea19af36965ee905fd2d7cd9997b05f684
+  d_nf_RICE_zhai_dunhuang_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_dunhuang_zhang: "$dynn_Zhang$ 가문" # 22e61354545e35cc01c8b3acd1f3d4d2ef07f36c
+  d_nf_RICE_dunhuang_zhang_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_dunhuang_cao: "$dynn_Cao$ 가문" # 37540e4c7a5706d5e793551c5121e36e2074c11e
+  d_nf_RICE_dunhuang_cao_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_dunhuang_li: "$dynn_Li$ 가문" # 662d0ec2151da587525a6cea2e1c5f9a8d62cbb4
+  d_nf_RICE_dunhuang_li_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_dunhuang_yin: "$dynn_Yin$ 가문" # 41853f594b796cb89722f01c876ceb9278e9732d
+  d_nf_RICE_dunhuang_yin_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_dunhuang_suo: "$dynn_Suo$ 가족" # 99473b8ce1af0f8b8540a92dcd87455f25a2daf1
+  d_nf_RICE_dunhuang_suo_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_dunhuang_yan: "$dynn_Yan$ 가문" # 5f06098aae2640adce6e2743826fe5f13e41bd95
+  d_nf_RICE_dunhuang_yan_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_dunhuang_an: "$dynn_An$ 가문" # 39017d44285addef864c8ca5b394dc9c00002e78
+  d_nf_RICE_dunhuang_an_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_dunhuang_gao: "$dynn_Gao$ 가문" # 96115f5191d01b70ae1988a9a6c63ceea3b7ba28
+  d_nf_RICE_dunhuang_gao_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_dunhuang_kang: "$dynn_Kang$ 가문" # b338d4463b035baca8b2112d66793dac1aed1675
+  d_nf_RICE_dunhuang_kang_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_dunhuang_zhang_2: "$dynn_Zhang$ 가문" # 22e61354545e35cc01c8b3acd1f3d4d2ef07f36c
+  d_nf_RICE_dunhuang_zhang_2_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_dunhuang_song: "$dynn_Song$ 가문" # b62bfa576ea48a0ddda5941d16a5ad6c8e7c95ea
+  d_nf_RICE_dunhuang_song_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_dunhuang_zhu: "$dynn_Zhu$ 가문" # a33975ae269b40fa05c445031efcdd7e3a3e63f8
+  d_nf_RICE_dunhuang_zhu_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_dunhuang_zhang_3: "$dynn_Zhu$ 가문" # a33975ae269b40fa05c445031efcdd7e3a3e63f8
+  d_nf_RICE_dunhuang_zhang_3_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_dunhuang_wu: "$dynn_Wu$ 가문" # 16eb8ef356c964faa238e674032aa481362fa625
+  d_nf_RICE_dunhuang_wu_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_mahmud_yalavach: "$dynn_Yalavach$ 가문" # 64637376d3837df3e5e85a7e1095cb52110fc423
+  d_nf_RICE_mahmud_yalavach_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_nf_RICE_al_uzgandi: "알 우즈간디 가문" # 7317d3753e9159628a94340b6f6eade78d99d407
+  d_nf_RICE_al_uzgandi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  RICEmisc.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0001.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0001.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0002.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0002.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0002.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0003.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0003.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0003.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0004.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0004.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0004.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0005.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0005.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0005.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0006.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0006.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0006.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0007.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0007.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0007.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0008.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0008.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0008.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0009.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0009.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0009.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0011.t: "여정이 시작됩니다" # 934050aaa998e45b8bdb59c4f5596591e2f6417b
+  RICEmisc.0011.desc: "[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName]로 [ROOT.Char.GetInvolvedActivity.GetShortName](을)를 위한 여정을 시작할 시간입니다. 이 여행을 준비하는 두통과 번거로움은 결국 목적지에 도달했을 때 그만한 가치가 있을 것이라고 확신합니다... 적어도 그렇게 되기를 바라야 할 것입니다. 그렇지 않으면 여행 준비로 인한 모든 스트레스가 헛수고가 될 테니까요." # 422a222ccdce1ef58c043d0441d417077e34c379
+  RICEmisc.0011.a: "우리가 좋은 이유 때문에 이러한 어려움을 겪는 것입니다." # e02ea3909d63e6340fdecb9b30c6b9573f706b8c
+  RICEmisc.0012.t: "[ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]의 온천" # 08170fb8c0794976be0ba110ad557a6d80af6b93
+  RICEmisc.0012.desc: "저희는 [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]의 현지 온천 중 한 곳에 도착했습니다. 이 온천이 다른 유명한 온천들만큼 유명하지는 않지만, 따뜻한 물에 몸을 담그는 것은 여전히 매우 즐거운 경험입니다!" # 69021afb37fd1f15d7281a657f334beadee35743
+  RICEmisc.0012.desc.private: "일상생활에서 이렇게 편안함을 느꼈던 적이 드물었던 것 같습니다. 눈을 감고 긴장을 풀면, 잠시나마 모든 걱정이 마음에서 사라집니다." # 889f5175b613b9507d38bf4f09b65509196a2e38
+  RICEmisc.0012.desc.public: "이곳에 있는 동안 저는 지역 주민들과 이야기를 나누고 이 지역의 몇몇 저명한 인사들을 만날 시간을 가집니다. 이렇게 휴식을 취하면서 사교 활동을 하는 것은 좋습니다." # a5a3b2aa0a21331bc55ab6592348be330f3210ee
+  RICEmisc.0012.desc.conclusion: "이 방문이 이렇게 짧게 끝나다니 아쉽지만, 여기 있는 동안 최대한 즐겨보도록 해야겠어." # fae7cfc24201d8cdb0ca3d25f2347ba7e0dd77ef
+  RICEmisc.0012.a: "여기에 와서 다행입니다." # efc2a048886b9e3c764de5794fbb16119c9f357b
+  RICEmisc.0013.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0013.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0013.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0014.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0020.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0020.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0020.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0021.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0021.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0021.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0022.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0022.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0022.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0023.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0023.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0023.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0024.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0024.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0024.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0025.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0025.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0025.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0026.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0026.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0026.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0027.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0027.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0027.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0028.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0028.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0028.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0030.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0030.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0030.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0031.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0031.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0031.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0032.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0032.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0032.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0033.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0033.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0033.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0034.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0034.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0034.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0035.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0035.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0035.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0036.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0036.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0036.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0037.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0037.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0037.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0038.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0038.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0038.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0039.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0040.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0040.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0040.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0041.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0041.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0041.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0042.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0042.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0042.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0043.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0043.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0043.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0044.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0044.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0044.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0045.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0045.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0045.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0046.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0046.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0046.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0047.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0047.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0047.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0050.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0050.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0050.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0051.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0051.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0051.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0052.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0052.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0052.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0053.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0053.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0053.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0054.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0054.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0054.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0055.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0055.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0055.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0056.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0056.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0056.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0057.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0057.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0057.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0058.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0058.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0058.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0059.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0059.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0059.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0060.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0060.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0060.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0061.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0061.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0061.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0062.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0062.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0062.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0063.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0063.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0063.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0064.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0064.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0064.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0065.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0065.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0065.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0066.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0066.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0066.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEmisc.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0100.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0100.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0100.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0101.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0101.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0101.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0102.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0102.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0102.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0103.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0103.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0103.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0104.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0104.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0104.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0105.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0105.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0105.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0106.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0106.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0106.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0107.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0107.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0107.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0108.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0108.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0108.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0109.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0109.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0109.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0110.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0110.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0110.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0111.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0111.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0111.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0112.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0112.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0112.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0113.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0113.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0113.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0114.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0114.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0114.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0115.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0115.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0115.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0116.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0116.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0116.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0117.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0117.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0117.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0118.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0118.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0118.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0119.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0119.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0119.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0120.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0120.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0120.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0121.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0121.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0121.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0122.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0122.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0122.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0123.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0123.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0123.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0124.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0124.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0124.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0125.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0125.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0125.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0126.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0126.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0126.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0127.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0127.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0127.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0128.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0128.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0128.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0129.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0129.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0129.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0130.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0130.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0130.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0131.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0131.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0131.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0132.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0132.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0132.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0133.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0133.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0133.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0134.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0134.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0134.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0135.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0135.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0135.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0136.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0136.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0136.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0137.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0137.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0137.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0138.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0138.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0138.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0139.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0139.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0139.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0140.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0140.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0140.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0141.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0141.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0141.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0142.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0142.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0142.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0143.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0143.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0143.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0144.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0144.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0144.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0145.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0145.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0145.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0146.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0146.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0146.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0147.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0147.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0147.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0148.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0148.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0148.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0149.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0149.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0149.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0150.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0150.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0150.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0151.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0151.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0151.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0152.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0152.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0152.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0153.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0153.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0153.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0154.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0154.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0154.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0155.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0155.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0155.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0156.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0156.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0156.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0157.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0157.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0157.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0158.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0158.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0158.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0159.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0159.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0159.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0160.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0160.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0160.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0161.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0161.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0161.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0162.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0162.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0162.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0163.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0163.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0163.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0164.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0164.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0164.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0165.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0165.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0165.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0166.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0166.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0166.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0167.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0167.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0167.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0168.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0168.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0168.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0169.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0169.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0169.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0170.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0170.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0170.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0171.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0171.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0171.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0172.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0172.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0172.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0173.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0173.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0173.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0174.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0174.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0174.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0175.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0175.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0175.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0176.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0176.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0176.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0177.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0177.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0177.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0178.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0178.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0178.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0179.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0179.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0179.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0180.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0180.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0180.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0181.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0181.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0181.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0182.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0182.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0182.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0183.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0183.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0183.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0184.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0184.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0184.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0185.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0185.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0185.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0186.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0186.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0186.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0187.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0187.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0187.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0188.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0188.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0188.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0189.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0189.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0189.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0190.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0190.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0190.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0191.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0191.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0191.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0192.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0192.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0192.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0193.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0193.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0193.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0194.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0194.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0194.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0195.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0195.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0195.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0196.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0196.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0196.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0197.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0197.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0197.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0198.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0198.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0198.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0199.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0199.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0199.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICEintro.0030.a: "네" # b0a98216a32426b9e66a4ac1eb6df2e96e1b495c
+  RICEintro.0031.a: "네" # b0a98216a32426b9e66a4ac1eb6df2e96e1b495c
+  RICEintro.0032.a: "네" # b0a98216a32426b9e66a4ac1eb6df2e96e1b495c

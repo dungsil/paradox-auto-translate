@@ -1,681 +1,664 @@
 ﻿l_korean:
-	# Misc 
-	dynn_al_harrani: "알-하라니" # e8f63a3347379e140bd6512fdc29905df8cae529
-	dynn_al_sabi: "알-사비" # 1b02bb6f530a37a07c1071da2851266c87b97b32
-	Qurra: "쿠라" # e90290b94148d08bd301f113fa1c8049cd3830a4
-	Zahrun: "자흐룬" # b0190f5b13b81ab8dd0abd7854fa11f864e2f85f
-	Karaya: "카라야" # 733be784cab5846c50547bf9b622787ca8831d76
-	Salamanus: "살라마누스" # b681e24421f575a6da09546efed25521c789d885
-	al_muhassin: "알무핫신" # 30345b580b760805c16c57ca89b4631399ffd1ea
-	dynn_nabhanid: "나브하니드" # 0a963ba1b336b76fedb32e920ebcbf953998d626
-	muhammad_ghars: "무함마드 가르스 알니마" # 0a2a30a3a13d685f075744da865f01d9da3f5dee
-	abu_ali_muhammad: "아부 알리 무함마드" # 6eb3b475f6267dc055cf53812b5813738fa9978c
-	RICE_harran_geography_req: "[realm_capital|E]은 [GetTitleByKey('c_harran').GetNameNoTier] 근처에 있습니다" # 95b97fbab769480062226fae40ea84dfb63c6f43
-	RICE_harran_neoplatonic_academy_saved_tooltip: "[harran_neoplatonic_academy|E]는 결코 쇠퇴하지 않을 것이며, [harranian_courtiers|E]는 학문의 발전을 위해 중동에 계속 나타날 것입니다" # 1c3a9a26d9cec314c47d1cb2d8c95fcd6f501237
-	Plotinus: "플로티누스" # 21c80151e661e6c214cbce6dc1f94d75538ae8e3
-	Proclus: "프로클로스" # a25ab295ed582d73c16b419022e02008886b757c
-	Iamblichus: "이암블리코스" # c9e222544dc17e26bfa201a598ef6855d3db31f4
-	Porphyry: "포르피리오스" # e4fd2fd54d60ef7b0fc37d41dda4dd04847f23a9
-	Damascius: "다마스키우스" # 6e113bd05d191e1656648a51438bae74552657e3
-	Simplicius: "심플리키우스" # 4d7f1101eb44928a5759b8435642eaf478b29753
-	ammonius_saccas: "암모니우스 사카스" # 364268b1ed042690091826985407306b2e0d7105
-	dynn_harrani_motto: "자신의 본질을 아는 자는 신성해진다." # 8881f79d7264d2864d8bdc824c64a511d9aafa22
-	RICE_harran_geography_own_county_req: "당신은 [GetTitleByKey('c_harran').GetNameNoTier] 근처의 [county|E]를 소유하고 있습니다" # f424c4f899a49c80abe7aee21e0c5fe37c1ad4a8
-	abu_bakr_ahmad: "아부 바크르 아흐마드" # 27ccd520fb2ee97064594a3adeb961221b196609
-	RICE_dynn_ibn_wahshiyya: "이븐 와흐시야" # 45b8d4becfa9ec73add3d9f316558b5ed7ed2e3f
-	nick_RICE_the_chaldean: "칼데아인" # 4a39efdd2282902b6d9beea726813480e27bcb38
-	nick_RICE_the_chaldean_desc: "이 캐릭터는 고대 메소포타미아인들의 후손으로 이라크 남부에서 아람어를 사용하는 원주민, 이른바 이라크의 나바테아인(레반트의 나바테아인과 혼동하지 마십시오)이라고 불리는 자신의 백성을 자랑스러워합니다. 그래서 그는 #italic $nick_RICE_the_chaldean$#!으로 알려져 있습니다. 흥미롭게도, 그는 고대 아시리아 왕 센나케립의 후손이라고 주장하기까지 합니다." # 29c3110bebc925c72c335012d739f218719944fe
-	RICE_region_mesopotamia: "메소포타미아" # 0bcfcca4536d0fa01d6f102ee6e7c2e04a774626
-	dynn_RICE_khazari: "하자르" # 4a86a5f760d6dec5c6d5cdaf157431b2ee88d20e
-	Kundaj: "쿤다지" # 8a8b24044ea2640230f755404ee1e48d94a90329
-	abd_al_latif: "압드 알 라티프" # 775443768f6ba9383991092ce5fa8b68ecc7872f
-	abu_l_izz: "아부 알-'이즈" # 1599d86997e1ef77fbc65ca433285695f73f1bcc
-	# Traits 
-	trait_RICE_the_nabataean: "나바테아인" # 42ab6721f96652dad1806fe960da485d6ffe2669
-	trait_RICE_the_nabataean_desc: "이 캐릭터는 고대 메소포타미아인들의 끊임없는 지혜, 즉 조상들의 유산을 밝히고 이해하고자 합니다.\n\n#weak 이 특성은 [traveling|E] 시 관련 [travel_options|E]를 선택하여 레벨을 올릴 수 있습니다.!#" # 9914abd790360304d2775b84e6f066cbbe61b356
-	trait_RICE_the_nabataean_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]은(는) 자신의 조상, 즉 고대 메소포타미아인들의 영원한 지혜의 유산을 밝히고 이해하고자 합니다.\n\n#weak 이 특성은 [traveling|E] 할 때 관련 [travel_options|E]를 선택하여 레벨을 올릴 수 있습니다." # eb1508f574d68ba04c92041b30d05a961bb3239c
-	trait_track_RICE_the_nabataean_agriculture: "농업 지식" # a3393cd24ab4fca14a3fb2e41568428281342630
-	trait_track_RICE_the_nabataean_agriculture_desc: "우리가 그것을 돌보는 방법을 안다면 지구는 번성할 수 있습니다." # 7f309ba0343bf5c4594ad96f768a3ce572336f1a
-	trait_track_RICE_the_nabataean_religion: "종교 지식" # b213dc3edb082ad1bcd46966bf6bbf7d76806504
-	trait_track_RICE_the_nabataean_religion_desc: "의식과 이해를 통해 하늘에 더 가까워집니다." # 552fad3baa19f9441d01fef4f8acaf3fd0131998
-	trait_track_RICE_the_nabataean_lore: "민속 지식" # 681f1160f145ac7036f01a71de03bbf54279b491
-	trait_track_RICE_the_nabataean_lore_desc: "대대로 전해 내려오는 이야기는 계속해서 우리에게 영감을 줍니다." # 7c92197bdac028f7575fcd268a6fa71034379c11
-	RICE_the_nabataean_progress_towards_trait_0_tt: "[THIS.Char.GetShortUINameNoFormat|U]이(가) [GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E]을(를) 채택할 수 있습니다" # df6e55f28bad19589b7ad8c5fd1039c0a293dc89
-	RICE_the_nabataean_progress_towards_trait_1_tt: "[THIS.Char.GetShortUINamePossessive] [GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E] 경험치 획득량이 약간 증가합니다." # 8dcd0b9628f15ace8badc65682faeee4ef841fac
-	RICE_the_nabataean_progress_towards_trait_2_tt: "[THIS.Char.GetShortUINamePossessive] [GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E] 경험치 획득량 증가" # badeb9c1da198b9eee0e207a9828ebde4d463107
-	RICE_the_nabataean_progress_towards_trait_3_tt: "[THIS.Char.GetShortUINamePossessive] [GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E] 경험치 획득량을 크게 증가시킵니다." # b8c9631d60df1ec3e6d372a3397adf1354317dc3
-	RICE_the_nabataean_xp_gain_message: "[GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] 경험" # 4af38bdde49d8d82c3fc846021d8b5d88e102950
-	# Travel Options 
-	RICE_ibn_wahshiyya_agriculture_option: "농업 연구" # 240cdbf04e1128be1d8ff2f41c2414b96d440039
-	RICE_ibn_wahshiyya_agriculture_option_desc: "당신은 나바테아인의 배움의 관점에서 농촌 지역을 여행하면서 농업 방법을 기록하고 분석하는 시간을 가질 것입니다." # 22c7da8a9796d8ac7238432b2f7023ff997fc168
-	RICE_ibn_wahshiyya_agriculture_option_effect_1: "[영지|E]에 들어갈 때마다 무작위로 최대 [provisions_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_provisions_gain')]#! [보급품|E]([모험가|E]인 경우) 또는 [gold_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_gold_gain')]#! ([모험가|E]가 아닌 경우)을 얻고, $trait_track_RICE_the_nabataean_agriculture$ 트랙에서 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_travel_xp_gain')]#! [trait_level_track_xp|E] [GetTrait('trait_RICE_the_nabataean').GetName( GetNullCharacter )] [특성|E]을 얻습니다." # 48d20a621367d9a5e5c085dbaa3514426d4a67cc
-	RICE_ibn_wahshiyya_agriculture_option_effect_2: "대부분의 백작령에서 이러한 일이 발생할 확률은 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_agriculture_option_bonus_chance')|0]%#!입니다. 만약 당신이 $heritage_syriac_name$ [heritage|E] [culture|E] [문화|E], [GetReligionByKey('semitic_religion').GetAdjective] 또는 [GetReligionByKey('hellenism_religion').GetAdjective] [faith|E]의 [county|E]를 [traveling|E]하거나 [GetGeographicalRegion('RICE_region_mesopotamia').GetName] [region|E]에 있다면 이 확률은 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_agriculture_option_bonus_chance_plus')|0]%#!로 증가합니다." # 78dcdd5a7ae872f8db7793a080e094a6e6245f76
-	RICE_ibn_wahshiyya_religion_option: "종교 고찰" # 7d9712cee7a4bfff4b07e8124d3947c55de23db4
-	RICE_ibn_wahshiyya_religion_option_desc: "알겠습니다. 나바테아의 관점에서 철학과 영성에 대한 생각을 펼쳐보겠습니다." # 764c1d828ac9432976dd3b226a6ab953a4080f11
-	RICE_ibn_wahshiyya_religion_option_effect_1: "[barony|E]에 들어갈 때마다 최대 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_piety_gain')]#! [piety|E]와 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_travel_xp_gain')]#! [trait_level_track_xp|E]를 [GetTrait('trait_RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E]의 $trait_track_RICE_the_nabataean_religion$ 트랙에서 무작위로 얻을 수 있습니다." # f81aab30a86e68f5cd00fd5e86d98c3b57818010
-	RICE_ibn_wahshiyya_religion_option_effect_2: "대부분의 백작령에서 이 일이 일어날 확률은 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_religion_option_bonus_chance')|0]%#!입니다. $heritage_syriac_name$ [문화|E] [유산|E]의 [백작령|E]을 [여행|E] 중이거나, [GetReligionByKey('semitic_religion').GetAdjective] 또는 [GetReligionByKey('hellenism_religion').GetAdjective] [신앙|E]이거나, [GetGeographicalRegion('RICE_region_mesopotamia').GetName] [지역|E]에 있으면 이 확률이 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_religion_option_bonus_chance_plus')|0]%#!로 증가합니다." # 9b8b34e7e12bbf3919a3129417a76f89b529074c
-	RICE_ibn_wahshiyya_lore_option: "민담 기록" # b5bc23290b94681184b0f71af6c2f1a17a6c8504
-	RICE_ibn_wahshiyya_lore_option_desc: "나바테아 학문의 관점에서 평민들에게 점성술, 마법, 역사 등에 대한 믿음을 물어보겠습니다." # 8d1f97864337f6b7619029766d93609adf411190
-	RICE_ibn_wahshiyya_lore_option_effect_1: "[barony|E]에 들어갈 때마다 최대 [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_prestige_gain')]#! [prestige|E]와 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_travel_xp_gain')]#! [trait_level_track_xp|E]를  [GetTrait('trait_RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E]의 $trait_track_RICE_the_nabataean_lore$ 트랙에서 무작위로 얻을 수 있습니다." # 4878c332265933eaefe690593a4e33c723fd8924
-	RICE_ibn_wahshiyya_lore_option_effect_2: "대부분의 백작령에서 이 일이 일어날 확률은 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_lore_option_bonus_chance')|0]%#!입니다. 이 확률은 $heritage_syriac_name$ [heritage|E] [culture|E], [GetReligionByKey('semitic_religion').GetAdjective] 또는 [GetReligionByKey('hellenism_religion').GetAdjective] [faith|E]이거나 [GetGeographicalRegion('RICE_region_mesopotamia').GetName] [region|E]에 속한 [county|E]를 [traveling|E]할 경우 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_lore_option_bonus_chance_plus')|0]%#!로 증가합니다." # b8305ad3d5ab4ac64ec666a12b34edcccbc17bf6
-	RICE_ibn_wahshiyya_travel.agriculture.toast.success: "이븐 와시야가 나바테아 농업 지식을 습득합니다!" # fd7986b2c8364103428ee2cf80a0bde89bd2bfcc
-	RICE_ibn_wahshiyya_travel.religion.toast.success: "이븐 와흐시야가 나바테아 종교 지식을 얻었습니다!" # 157cdcf1dec06a68c1082f8c86481ac174f003b6
-	RICE_ibn_wahshiyya_travel.lore.toast.success: "이븐 와흐시야가 나바테아 민속 지식을 얻었습니다!" # 494957ee650406d837446f4065a437b33ff57d57
-	RICE_ibn_wahshiyya_travel.agriculture.foreign.toast.success: "이븐 와흐시야가 나바테아 농업 지식을 고찰합니다!" # 16c65075838d76e035c658a8d5f7e6e2afcdb9b7
-	RICE_ibn_wahshiyya_travel.religion.foreign.toast.success: "이븐 와흐시야가 나바테아 종교 지식을 고찰합니다!" # bafc8ecc463e103dda7b0cc66afcd25041774b12
-	RICE_ibn_wahshiyya_travel.lore.foreign.toast.success: "이븐 와흐시야가 나바테아 민속 지식을 고찰합니다!" # 6026be2257524901b754760abc500ce802bfd260
-	# Game Concepts 
-	game_concept_harranian_courtier: "하란의 궁정 신하" # 2e913fc61b8d07cab48d75e0ac40ceb219147524
-	game_concept_harranian_courtiers: "하란의 궁정 신하" # 539396e95822253837a198bec49a731c57565ac3
-	game_concept_harranian_character: "하란인 인물" # 091814e31aa01c03e5a2176fdbe109dcdc1405d2
-	game_concept_harranian_characters: "하란 캐릭터" # e658980d813608d4c6f63ce63c7f15edec26733a
-	game_concept_harranian_courtier_desc: "때때로, 중동의 [rulers|E]에게 이벤트로 $game_concept_harranian_characters$가 무작위로 나타날 수 있습니다. 그들은 메소포타미아 북부에 있는 하란 시에서 수 세기 동안 살아남은 메소포타미아와 헬레니즘 요소가 결합된 고대 혼합 신앙인 하란 [GetReligionFamily('rf_pagan').GetName] 종교를 따릅니다.\n\n$game_concept_harranian_characters$는 높은 [learning_skill|E]을 갖는 경향이 있으며, 유능한 [courtiers|E]가 될 수 있습니다. 때로는 $game_concept_harranian_courtier$가 다양한 주제에 대한 학술 논문을 작성할 수도 있습니다. 이는 특별한 [artifact|E]를 부여합니다.\n\n[harran_neoplatonic_academy|E]가 쇠퇴하면 $game_concept_harranian_characters$의 생성이 중단됩니다." # ec1ca9ca85e2b8aec834ec1a5b089ca3397e4962
-	game_concept_harran_neoplatonic_academy: "신플라톤 학파" # ed5887c661d55efc1c1de67a5d6e3130fa9a01a4
-	game_concept_harran_neoplatonic_academy_desc: "초기 시작 시점에, 하란 [county|E]에는 $game_concept_harran_neoplatonic_academy$라는 [special_building|E]이 있습니다. 일반적인 보너스 외에도 다른 특별한 기능이 있습니다.\n\n첫째, 이 건물은 중동 [rulers|E]의 [courts|E]에 [harranian_courtiers|E]이 생성되는 데 필요합니다. 시간이 지나면 아카데미가 쇠퇴하고 강력한 [GetReligionFamily('rf_pagan').GetName] [ruler|E]가 신플라톤 아카데미를 재활성화하기 위한 [decision|E]을 내리지 않으면 [special_building|E]이 비활성화되기 때문입니다.\n\n둘째, 하란 인근과 메소포타미아 및 레반트 지역에서 높은 [learning_skill|E]을 가진 [rulers|E]는 아카데미를 후원하는 [decision|E]을 내릴 수 있으며, 여기에는 일시적인 [character_modifier|E]를 포함한 다양한 보너스가 주어집니다. 또한 [harranian_character|E]이 당신에게 나타날 가능성이 높아집니다." # 3009d7966b56ef6c4e197790ecd23874a1cee8d3
-	game_concept_harran_temple_of_the_moon: "달의 신전" # 68b681234ca2408523e103edc6e1442c585c9f7a
-	game_concept_harran_temple_of_the_moon_desc: "초기 시작 시점에서 하란 백작령의 탈 마흐라 남작령은 $game_concept_harran_temple_of_the_moon$이라고 불리는 특별 건물을 가지고 있습니다. 이 건물은 수 세기, 어쩌면 수천 년 동안 하란에 서 있었던 달신 신을 모시는 고대 사원을 나타냅니다.\n\n이 사원은 일반적인 보너스 외에도 주변의 [GetReligionFamily('rf_pagan').GetName] [군주|E]가 특별 결정을 내려 그곳에서 숭배를 할 수 있도록 해주며, 이를 통해 [명성|E] 및 [신앙심|E]에 보너스를 얻을 수 있습니다. 하지만 비 이교도 [신앙|E]의 [군주|E]는 사원을 영구적으로 파괴하는 결정을 내릴 수 있습니다. 사원이 파괴되면 이교도 [군주|E]는 더 이상 해당 [결정|E]에 접근할 수 없습니다." # 78b5c3b854d184e02b4967a1a6abde8ae2e9244f
-	# Activities 
-	activity_semitic_praying_to_a_planet: "신성한 광휘에 대한 기도" # 6b239a3654b162e79a22775a14b4f94cd2063aec
-	activity_semitic_praying_to_a_planet_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U]의 신성한 광채에 대한 기도" # 87b68caefffdc665337b5d22cf42524ccf4e118c
-	activity_harran_make_offerings_to_moon_temple: "달의 신전에서 예배" # 656ca63dafda30ad42f375e345414af195c014cd
-	activity_harran_make_offerings_to_moon_temple_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U]의 달의 신전 숭배" # 7cc46f8fdcdef44ad8e0e3343cbe3f133a8aa44d
-	# Buildings 
-	building_type_RICE_harran_temple_of_the_moon: "죄의 신전" # 593833b815095fcd0b19692ef281308373f59619
-	building_type_RICE_harran_temple_of_the_moon_desc: "하란의 달의 신 신을 모시는 신전은 수 세기 동안 지속되어 바빌로니아인, 페르시아인, 그리스인, 로마인 등의 흥망성쇠를 목격했습니다. 신은 고대 메소포타미아 왕국 시대부터 이 지역에서 숭배받아 왔습니다." # c5d5622e03ae62c126366dcc49a3d4924f661a3b
-	building_RICE_harran_temple_of_the_moon: "$building_type_RICE_harran_temple_of_the_moon$" # null
-	building_RICE_harran_temple_of_the_moon_desc: "$building_type_RICE_harran_temple_of_the_moon_desc$" # null
-	building_type_RICE_harran_baalbek_temple: "주피터 헬리오폴리타누스 신전" # 876319c980e4560c31facc71c0cbf98115e0d2d1
-	building_type_RICE_harran_baalbek_temple_desc: "바알베크에 있는 유피테르 신전은 고대 로마 세계에서 가장 큰 신전 중 하나였습니다. 바알베크에서 유피테르는 셈족 신 바알 하닷과 동일시되었습니다. 고대 자료에 따르면, 신전을 장악한 우상 조각상은 오른손에 채찍을 들고 왼손에는 천둥 번개와 곡식 줄기를 들고 있는 전차병의 자세를 취한 턱수염 없는 황금빛 신을 묘사했습니다." # c72975ff1b189a360627103c0d6feacc9f6abd2a
-	building_RICE_harran_baalbek_temple: "$building_type_RICE_harran_baalbek_temple$" # null
-	building_RICE_harran_baalbek_temple_desc: "$building_type_RICE_harran_baalbek_temple_desc$" # null
-	building_type_RICE_harran_neoplatonic_academy: "신플라톤 학술원" # ed5887c661d55efc1c1de67a5d6e3130fa9a01a4
-	building_type_RICE_harran_neoplatonic_academy_desc: "수 세기 동안 하란의 아카데미는 플라톤의 가르침에 대한 신비로운 해석에서 파생된 신플라톤주의로 알려진 고대 철학의 마지막 잔재였습니다. 이 아카데미는 지역 학습 중심지이며 중동의 지적 문화에 참여한 많은 학자를 배출했습니다." # 645356bd1ff5316c3947ad51df6424171955915e
-	building_RICE_harran_neoplatonic_academy: "$building_type_RICE_harran_neoplatonic_academy$" # null
-	building_RICE_harran_neoplatonic_academy_desc: "$building_type_RICE_harran_neoplatonic_academy_desc$" # null
-	RICE_harran_moon_temple_destroyed_tooltip: "광신적인 이교도 외 통치자에 의해 달의 신전이 아직 파괴되지 않았습니다" # 3f5ceff81daea51d78ccb921d8b85f6fabbeeae3
-	RICE_harran_neoplatonic_academy_declined_tooltip: "네오플라톤 학파는 아직 쇠퇴하지 않았습니다" # d060efe1f7b6cd5df68c3b347b054188fe779aff
-	building_type_RICE_harran_neoplatonic_academy_athens: "신플라톤 학술원" # ed5887c661d55efc1c1de67a5d6e3130fa9a01a4
-	building_type_RICE_harran_neoplatonic_academy_athens_desc: "아테네는 현재 플라톤 학파의 직계 후손이라고 주장하는 여러 이교도 학자들의 본거지입니다. 하지만 이들의 독자적인 이교주의에 대한 확고한 옹호는 비이교도 권력자들을 불쾌하게 만들 수 있습니다..." # 823d421b742b770dfc1d9ecd9f827d0a302661d2
-	# Modifiers 
-	RICE_harran_sun_blessing: "솔의 축복" # b01849a9f2897d6804452804c5dfec5ee021ad44
-	RICE_harran_sun_blessing_desc: "그들은 일곱 행성 중 하나인 태양이 이 캐릭터를 총애한다고 말합니다." # 5be0fdfb2dae30ded99cb58392b434dfa88f9c27
-	RICE_harran_moon_blessing: "루나의 축복" # d6fdc100d4aab9b8845466cc28b3d612832a8431
-	RICE_harran_moon_blessing_desc: "일곱 행성 중 하나인 달이 이 캐릭터에게 호의를 보인다고 합니다." # bbf03f30fccbea6378d8f5d9d6b4de5a14f9c060
-	RICE_harran_mercury_blessing: "머큐리의 축복" # 7199961d08a6a1c245f41f8661dd9fe6e6ea25e7
-	RICE_harran_mercury_blessing_desc: "일곱 행성 중 하나인 수성이 이 인물을 총애한다고 합니다." # 40e1782e05313af927bd55eac679727bf675ee77
-	RICE_harran_venus_blessing: "비너스의 축복" # da4191e0170af634c5af85ce48c0be9d78af528f
-	RICE_harran_venus_blessing_desc: "그들은 일곱 행성 중 하나인 금성이 이 캐릭터에게 호의를 보인다고 말합니다." # cc7483c5b3c4e41ac1afbdc31b2095ff23fdaa20
-	RICE_harran_mars_blessing: "마르스의 축복" # d493cd98535f2f2930337f2d5123d48e7bd2a5a7
-	RICE_harran_mars_blessing_desc: "그들은 일곱 행성 중 하나인 화성이 이 캐릭터에게 호의를 보인다고 말합니다." # dbfb060b20bed48162322bea68fd2326f8e995c9
-	RICE_harran_jupiter_blessing: "주피터의 축복" # e2840884bd0afddf0c3697ccbfbe9a87c07f1aac
-	RICE_harran_jupiter_blessing_desc: "그들은 일곱 행성 중 하나인 목성이 이 인물에게 호의를 보인다고 말합니다." # 08267b24420275267f3129f97684efa3710e0411
-	RICE_harran_saturn_blessing: "사투르누스의 축복" # 2ae8b3bd853fbedca81efa9e7dbee97b8ee788ce
-	RICE_harran_saturn_blessing_desc: "일곱 행성 중 하나인 토성이 이 캐릭터를 총애한다고 합니다." # 0c65981509f483b60a5e22b406ad5afc3138ca42
-	RICE_harran_revitalized_neoplatonic_academy_leader: "하란에 신플라톤 학파 학원 재건" # c910ab332a2eef1d4fe045dd45f3d346af66d2d8
-	RICE_harran_revitalized_neoplatonic_academy_leader_desc: "이교 학문에 가장 큰 공헌을 한 지도자가 있다면, 분명 이 인물일 것입니다. 신플라톤 아카데미를 세계에서 제자리를 찾도록 노력한 그의 업적은 수세기 동안 학식 있는 이교도 남녀들에게 칭송받을 것이 거의 확실합니다." # bd3f941a54c706ecb15916e862334c3ef3eb72b4
-	RICE_harran_neoplatonic_academy_recently_revitalized: "신플라톤 학파 최근 부흥" # 61f7fabcd24c2120c85a36987bcc058cf6802e9a
-	RICE_harran_neoplatonic_academy_recently_revitalized_desc: "하란의 신플라톤 학파는 진취적인 통치자의 도움으로 최근 활기를 되찾았습니다. 그 결과, 학자들이 이 지역으로 몰려들고 있으며 주요 학문 및 예술의 중심지가 되고 있습니다." # 903790a658961f4b16c51c32e5198020aa24f92d
-	RICE_harran_patronized_neoplatonic_academy_hellenic: "네오플라톤 아카데미의 후원자" # fa2952d93334bf65aaaf0133834a94dff4042713
-	RICE_harran_patronized_neoplatonic_academy_hellenic_desc: "이 인물은 하란의 신플라톤주의 학원에 자산을 기부하여, 그들의 고귀한 이교 사상가 및 학자들의 계보가 계속 성장하고 번영할 수 있도록 보장했습니다." # 9cdb1047e9e5e4caf4050bb7eacaedaf6293c01b
-	RICE_harran_patronized_neoplatonic_academy_pagan: "네오플라톤 아카데미의 후원자" # fa2952d93334bf65aaaf0133834a94dff4042713
-	RICE_harran_patronized_neoplatonic_academy_pagan_desc: "이 캐릭터는 하란의 신플라톤 학파에 자신의 자산을 기꺼이 기부하여, 존경받는 이교 사상가와 학자들의 혈통이 계속해서 성장하고 번영할 수 있도록 했습니다." # 9cdb1047e9e5e4caf4050bb7eacaedaf6293c01b
-	RICE_harran_patronized_neoplatonic_academy_nonpagan: "네오플라톤 아카데미의 후원자" # fa2952d93334bf65aaaf0133834a94dff4042713
-	RICE_harran_patronized_neoplatonic_academy_nonpagan_desc: "이 캐릭터는 하란의 네오플라톤 학회에 자신의 자산을 아낌없이 기부하여 존경받는 이교 사상가와 학자들의 계보가 계속해서 성장하고 번성할 수 있도록 했습니다." # 9cdb1047e9e5e4caf4050bb7eacaedaf6293c01b
-	RICE_harran_moon_temple_destroyer: "하란의 달의 신전 파괴" # 56f688d0489f7e1975f987141a24bd97f5e6b8ad
-	RICE_harran_moon_temple_recently_destroyed: "하란에 있는 달의 신전이 최근 파괴됨" # 157ccc09a6f03c355c5c8b3893a9ff7745df1e9e
-	RICE_harran_historical_last_of_the_harranians: "하란의 이교도 최후" # c59afc74639189b01baa6e906b9ffbf103c566ee
-	RICE_harran_historical_last_of_the_harranians_desc: "이 인물은 메소포타미아 하란에서 한때 행해졌던, 메소포타미아와 헬레닉, 신플라톤주의 이교주의의 요소가 결합된 고대 이교의 마지막 신봉자 중 한 명입니다. 이 저명한 이교 지적 사상의 계보는 신의 기적과 같은 일이 일어나지 않는 한 곧 사라질 것입니다." # 32d7c02aeb7de719e224eb4d09186f03e8deff22
-	RICE_harran_historical_thabit_ibn_qurra: "위대한 하란인" # 22789d9fd574d5a902efb31315772e2accea9018
-	RICE_harran_historical_thabit_ibn_qurra_desc: "타비트 이븐 쿠라가 중동에서 그의 시대 최고의 학자 중 한 명으로 인정받았습니다. 그는 천문학, 수학, 언어 번역 등 다양한 분야에서 뛰어난 능력을 보여주었습니다." # 14cf96a5747451fea2e202f78e770705839842a8
-	RICE_harran_historical_ibn_nabhan: "하란 이교도의 마지막 후계자" # 03a8eb5c55b62d685a72e75dfc8e1fe719257c5f
-	RICE_harran_historical_ibn_nabhan_desc: "이븐 나브한은 한두 세대 전까지 하란의 이교주의 형태를 따랐던 학자 가문에서 태어났으며, 그의 조상 중에는 타비트 이븐 쿠라와 같은 저명한 인물도 있습니다. 어떤 사람들은 그가 가족의 이슬람 개종의 진정성에 대해 다른 사람들이 의문을 제기할 때 불안해한다고 말합니다. 또 어떤 사람들은 그가 조상들의 신앙에 은밀히 동정심을 느끼고 신성한 기적이 없다면 하란의 고대 전통이 쇠퇴하는 것에 대해 큰 슬픔을 느끼고 있다고 추측하기도 합니다." # c5fad34eb0a4bb0726d4dace3d31a3487cb79a4f
-	RICE_harran_courtier_former_moneylender: "하란의 전직 고리대금업자" # 471599c23b7c577e5d2d6ee442a513581b008422
-	RICE_harran_courtier_former_moneylender_desc: "비록 지금은 학계에 깊이 관여하고 있지만, 이 하란인은 한때 고리대금업자였습니다." # 3c8c455f8729ac334293a350e550f36f937df0f4
-	RICE_harran_courtier_prominent_harranian: "저명한 하란인" # 1f4000d13fa4e756f519c7f7922b8ce964b87a6a
-	RICE_harran_courtier_prominent_harranian_desc: "이 하란인은 하란의 이교도 공동체에서 영향력 있는 지도자였으며, 지금도 그러합니다." # 7c3ae2d04377bff5421a90cdf2bb7c2993e4ea58
-	RICE_harran_courtier_neoplatonic_fanatic: "신플라톤주의 광신자" # f2a1ea529472c8ba69f0789ddbb381018e51c1ba
-	RICE_harran_courtier_neoplatonic_fanatic_desc: "이 하란인은 신플라톤주의 아카데미에서 가르치는 신플라톤주의 이념을 굳게 믿는다." # 376a18ee4e1fc4809827c4b531a5d3ed9357bed2
-	RICE_harran_courtier_ostracized_harranian: "소외된 하란인" # a847c39a940b394f15730cfcf451367cd77d931e
-	RICE_harran_courtier_ostracized_harranian_desc: "이 하란인은 하란 이교도치고는 다소 파격적인 신념과 사상을 가지고 있으며, 다른 학식 있는 하란인들과 많은 의견 차이를 보였습니다." # dff00bd1fcbc3f5fec19e84d01ba5b0a0e65fdc1
-	RICE_harran_courtier_devout_planet_worshipper: "행성 숭배 신봉자" # 8b4dc3251bf145b00de6037128e38c901e85c418
-	RICE_harran_courtier_devout_planet_worshipper_desc: "이 하란인은 하란인의 방식대로 일곱 행성 숭배에 매우 헌신적입니다." # f94484f4a74b328e92950d0e78b4cfe1dc056045
-	RICE_harran_courtier_tammuz_devotee: "탐무즈 숭배자" # c93149c6acc725dd43f5d16d91daec4c637a7bdf
-	RICE_harran_courtier_tammuz_devotee_desc: "이 하란인은 그리스인들에게 아도니스로 알려진 고대 메소포타미아의 풍요의 신 탐무즈 숭배에 헌신하고 있습니다." # 56472bf078eebbeeb2a013ac8f692e3aeaeaa105
-	RICE_harran_treatise_astronomy_wrote: "별자리표에 대한 논문을 썼습니다" # c6f8aba954469b2224f78180f5a80d80e9881477
-	RICE_harran_treatise_astronomy_wrote_desc: "이 하란 학자는 최근 천문학 관련 논문을 저술하여 명성을 얻었습니다." # c584e31bca2f658fcf38f24c52157588365fc863
-	RICE_harran_treatise_astronomy_wrote_self: "별자리표에 대한 논문을 썼습니다" # c6f8aba954469b2224f78180f5a80d80e9881477
-	RICE_harran_treatise_astronomy_wrote_self_desc: "이 하란의 학자는 천문학적 문제에 관한 논문을 썼습니다." # 9ed3d3b8aa36fe4e8b005bb8f9403a30a715203c
-	RICE_harran_treatise_astronomy_copy: "별 목록 논문" # c9a8da3277410f3953b6867ca825445c5d830f54
-	RICE_harran_treatise_astronomy_copy_desc: "이 캐릭터의 궁정에 있는 하란 학자가 천문학에 관한 논문을 썼고, 이 캐릭터에게 사본을 제공했습니다." # b9547192e37c34a05cb3e405e3b829d39950af5e
-	RICE_harran_treatise_geometry_wrote: "측량과 수치에 관한 논문을 작성했습니다" # 4e697c339c46f3c04d773d19c4a56031955a89f4
-	RICE_harran_treatise_geometry_wrote_desc: "이 하란 학자는 최근 비율과 측정과 같은 주제를 다룬 기하학 논문을 써서 명성을 얻었습니다." # 290ec64142ac1c097a007c09fe525c61d123f151
-	RICE_harran_treatise_geometry_wrote_self: "측량과 수치에 관한 논문을 작성했습니다" # 4e697c339c46f3c04d773d19c4a56031955a89f4
-	RICE_harran_treatise_geometry_wrote_self_desc: "이 하란 출신 학자는 비율과 측정과 같은 주제를 다루는 기하학 논문을 썼습니다." # 8d8881a17e04154ae433468daf30e8245aab573c
-	RICE_harran_treatise_geometry_copy: "측량과 도형에 관한 논문" # 095fbca51929b8d9d18285c01835e74260613453
-	RICE_harran_treatise_geometry_copy_desc: "이 캐릭터의 궁정에 있는 하란 학자가 비례와 측정 같은 주제를 다룬 기하학 논문을 썼으며, 이 캐릭터에게 사본을 제공했습니다." # c11b2320cd7529a2c397d2dd44c346abe4da401e
-	RICE_harran_treatise_algebra_wrote: "수학 문제 해결에 관한 논문을 썼습니다." # 0ed6c966882bcfba7ebbe4155b7dc45ff45e9590
-	RICE_harran_treatise_algebra_wrote_desc: "이 하란 학자는 최근 방정식 해법과 같은 주제를 다루는 대수학 논문을 써서 명성을 얻었습니다." # 08b377b5838b7f0eb173e849616b2f95344b083c
-	RICE_harran_treatise_algebra_wrote_self: "수학 문제 해결에 대한 논문을 작성했습니다" # 0ed6c966882bcfba7ebbe4155b7dc45ff45e9590
-	RICE_harran_treatise_algebra_wrote_self_desc: "이 하란 학자는 대수학에 대한 논문을 썼는데, 방정식 풀이와 같은 주제를 다루었습니다." # f0dd443588893c61950a1435b74edce9812b5f85
-	RICE_harran_treatise_algebra_copy: "수학 문제 해결에 대한 논문" # 934c7c776388502675147c652144012b8c0522d8
-	RICE_harran_treatise_algebra_copy_desc: "이 캐릭터의 궁정에 있는 하란 학자가 대수학에 관한 논문을 저술하여 방정식 풀이와 같은 주제를 다루고 이 캐릭터에게 사본을 제공했습니다." # 294ad895219ded2684d810a9e05bec224dc4c174
-	RICE_harran_treatise_greek_philosophy_wrote: "그리스 철학자들에 대한 논문 작성" # 2fc99e05420058d481a3be4fae50acb3ddd498cc
-	RICE_harran_treatise_greek_philosophy_wrote_desc: "이 하란 학자는 최근 플라톤과 플로티누스와 같은 고대 사상가에 대한 논문을 쓴 것으로 어느 정도 명성을 얻었습니다." # 7cee9fabdc88deaa7c3f6c5eee83ef041023eed7
-	RICE_harran_treatise_greek_philosophy_wrote_self: "그리스 철학자들에 대한 논문 작성" # 2fc99e05420058d481a3be4fae50acb3ddd498cc
-	RICE_harran_treatise_greek_philosophy_wrote_self_desc: "이 하란 학자는 플라톤과 플로티노스와 같은 고대 사상가에 대한 논문을 저술했습니다." # 216ca539afbfe82e9f2eef9971c430c3b77b7b08
-	RICE_harran_treatise_greek_philosophy_copy: "그리스 철학자 논고" # 7264ab53d22ba0af37493fbac135a1124e15ba3a
-	RICE_harran_treatise_greek_philosophy_copy_desc: "이 캐릭터의 궁정에 있는 하란 학자가 플라톤과 플로티노스와 같은 고대 사상가에 대한 논문을 쓰고 이 캐릭터에게 사본을 제공했습니다." # 65a4a02e3e2596b65a83b5b146467b996fe6b4ca
-	RICE_harran_treatise_harranian_history_wrote: "하란 역사에 관한 논문 작성" # ae2a5d52abdbcad8da6a93f023fa7a3c52876874
-	RICE_harran_treatise_harranian_history_wrote_desc: "이 하란 학자는 최근 하란인의 역사, 특히 그들의 이교도적인 방식에 대한 논문을 저술하여 명성을 얻었습니다." # b80c265dfdd22b5d6cc082031e9d48f757f56d7e
-	RICE_harran_treatise_harranian_history_wrote_self: "하란 역사에 관한 논문 작성" # ae2a5d52abdbcad8da6a93f023fa7a3c52876874
-	RICE_harran_treatise_harranian_history_wrote_self_desc: "이 하란 학자는 하란 사람들의 역사, 특히 그들의 이교도적 방식에 관한 논문을 썼습니다." # 277a111fd1437422d5fe010712ef3f2240193056
-	RICE_harran_treatise_harranian_history_copy: "하란 역사 논고" # 8de12f98520879dd10b9e43c8a83df248249a7ca
-	RICE_harran_treatise_harranian_history_copy_desc: "이 캐릭터의 궁정에 있는 하란 학자가 하란인, 특히 그들의 이교도 방식에 대한 역사를 다룬 논문을 작성하여 이 캐릭터에게 사본을 제공했습니다." # b2832a3e1ddc3e06d0eea2c9aeba176eec124256
-	RICE_harran_treatise_mysticism_wrote: "이미지와 환상에 대한 논문 작성" # 45781dcf0d6414d6fbf8204df268b6afd98f494f
-	RICE_harran_treatise_mysticism_wrote_desc: "이 하란 출신 학자는 최근 다양한 비전 주제와 신비주의에 대한 논문을 써서 명성을 얻었습니다." # e5a28d2ba07735f48faa5fb9f71557fb88b80329
-	RICE_harran_treatise_mysticism_wrote_self: "이미지와 환상에 대한 논문 작성" # 45781dcf0d6414d6fbf8204df268b6afd98f494f
-	RICE_harran_treatise_mysticism_wrote_self_desc: "이 하란 학자는 여러 비전적 주제와 신비주의에 대한 논문을 썼습니다." # 4e896b3a7735eb7b2d80e4d0db05d3b841ce7770
-	RICE_harran_treatise_mysticism_copy: "이미지와 환상에 대한 논고" # 104d00bd26818b36210b3b61d892f9b77f1e3f77
-	RICE_harran_treatise_mysticism_copy_desc: "이 캐릭터의 궁정에 있는 하란의 학자가 여러 비전적 주제와 신비주의에 대한 논문을 쓰고 이 캐릭터에게 사본을 제공했습니다." # 2db99fbf7808a554d461447eb2dd9bd0733c2e97
-	RICE_harran_treatise_medicine_wrote: "약초 정원에 대한 논문을 썼습니다" # 4d5c442c0eb39cb81795573b49ddb6188a068490
-	RICE_harran_treatise_medicine_wrote_desc: "이 하란 학자는 최근 의학과 생물학에 관한 논문을 써서 어느 정도 명성을 얻었습니다." # 4a899212d3e32af7b99a877e3ea3ab515b6dc7d4
-	RICE_harran_treatise_medicine_wrote_self: "약초 정원에 대한 논문을 썼습니다" # 4d5c442c0eb39cb81795573b49ddb6188a068490
-	RICE_harran_treatise_medicine_wrote_self_desc: "이 하란 출신 학자는 의학과 생물 과학에 대한 논문을 썼습니다." # 55293a63c875fe6ac630729200ed2bf825d3d377
-	RICE_harran_treatise_medicine_copy: "약학 정원 논문" # 9d98d6afe05fd23054d1513311f1692e2727cef8
-	RICE_harran_treatise_medicine_copy_desc: "이 인물의 궁정에 있던 하란 학자가 의학과 생물학에 대한 논문을 저술하여, 이 인물에게 사본을 전달했습니다." # 5c49defaa5c0bcdab62ab518b2e353c730303424
-	RICE_harran_ibn_nabhan_internal_conflict: "내부적인 정신적 갈등" # ba9c4c8f7c9bda37e7b02713a9859d11daebc324
-	RICE_harran_ibn_nabhan_internal_conflict_desc: "이븐 나브한은 얼마 전까지만 해도 그리스와 로마 시대로 거슬러 올라가는 고대 이교주의를 믿었던 무슬림 가정에서 태어났습니다. 그는 현재 자신의 정체성의 이 측면에 대해 많은 내적 갈등을 느끼고 있지만, 곧 자신의 고뇌를 해결할 방법을 찾을 수 있을지도 모릅니다." # d7c3d6ca7184665512769d8aeee23cae61ee231e
-	RICE_harran_ibn_nabhan_studying_grandfathers_writings: "할아버지의 종교 저술 연구" # 9ce2bc2f3eb38a9392591e21ba33305377d9e07a
-	RICE_harran_good_divination: "천체의 좋은 관측" # d5a4abfaaaf939830767c248947e72ff14906a99
-	RICE_harran_good_divination_desc: "하란의 이교 점성술사들은 가까운 미래에 하란에 좋은 일들이 일어날 것이라고 예언했습니다." # 53b9420d7d0ebc2245a1694878a8b54f026d1346
-	RICE_harran_bad_divination: "천체의 잘못된 해석" # 85e7a7b1aed3f8ced489501d77b0afe1db9745f5
-	RICE_harran_bad_divination_desc: "하란의 이교 점성술사들은 가까운 미래에 하란에 나쁜 일이 일어날 것이라고 예언했습니다." # 08170c962425b744054afcf3a3adc65c2de47c31
-	RICE_harran_tammuz_festival: "위대한 탐무즈 축제" # 08125e4773ec7dc07ba00c6904307f7f29527ed5
-	RICE_harran_tammuz_festival_desc: "탐무즈 축제는 하란의 고대 전통입니다. 최근 이 행사가 매우 성공적으로 개최되어 현지 이교도들에게 영감을 주었습니다." # eeaf1bd8eea6ee52615409ba32aa49ea8e8de6d8
-	RICE_harran_scholars_publish_texts: "신플라톤 아카데미의 학자들이 최근 중요한 저술들을 썼습니다." # e63bd077f40df35755d4995070a4dd211ff4e7a8
-	RICE_harran_scholars_foreign_contacts: "외국 학자와의 접촉" # 2c879332a9c4d13e65c2d6fa8c0325667a7a36d0
-	RICE_harran_neoplatonic_academy_athens_modifier: "아테네 신플라톤 학원" # c72e67e4029b680c5ee78c8d4d0a946493ddaac3
-	RICE_harran_neoplatonic_academy_athens_modifier_desc: "아테네의 신플라톤주의 학파는 원래 플라톤 학파의 지적 후손이라고 주장하는 여러 이교도 학자들의 본거지입니다. 그러나 그들은 국가로부터 정기적인 자금 지원을 받지만, 그들의 독특한 이교주의를 옹호하는 완강한 태도는 비이교도 당국의 분노를 살 수 있습니다...." # 79de18276b183d0d5b144ef6e8d400d3c2a3c005
-	RICE_harran_welcomed_neoplatonist_exiles: "추방된 신플라톤 학자들을 환영함" # 6b1cb35a32d21806be424b2866dc1066a2f31f20
-	# Decisions 
-	RICE_harran_pray_to_a_planet: "행성에 기도하기" # 6efb76db99cbec1475d75fb72fde6df46ca5b3d7
-	RICE_harran_pray_to_a_planet_tooltip: "당신은 일곱 행성 중 하나에 기도하기 위한 올바른 의식을 수행할 것입니다." # b3f7b9189e86a1a8db5d1614796ec47ff8a23238
-	RICE_harran_pray_to_a_planet_effect_tooltip: "기도하는 행성에 따라 [character_modifier|E]를 받습니다" # 1e441a373fc0a8214d9b3364221e31f2a89370ba
-	RICE_harran_pray_to_a_planet_desc: "별은 인간의 운명을 결정하고, 어둠 속에서 우리를 인도하며, 특히 일곱 행성이 그러합니다. 저는 이 일곱 신성한 광채 중 하나에게 전통적인 [ROOT.Char.GetFaith.GetAdjective] 방식으로 제물을 바치겠습니다." # 4f7665cdb4b88fa510c505a284127d7b270214e7
-	RICE_harran_pray_to_a_planet_confirm: "제례를 준비하십시오!" # 587de9ee93d0681c2a85acf59760f2bfe8ebe883
-	RICE_harran_pray_to_a_planet_context_tooltip: "#emphasis Historical Context:#! Worship of the celestial bodies, particularly the seven classical planets, was common in the Levant and Mesopotamia. Muslims of the early medieval period, for example, often stereotyped the pagans of Harran as possessing great insights into the skies for this reason." # null
-	RICE_harran_patronize_the_neoplatonic_academy: "신플라톤 학파 후원" # 722121d16cda99156fac7381d1fd914fc03cd1c3
-	RICE_harran_patronize_the_neoplatonic_academy_tooltip: "당신은 하란에 있는 [harran_neoplatonic_academy|E]에 필요한 자금을 지원할 것입니다." # 2e0ef96368ec7a7920949e73d74ad1a7cbd9bc35
-	RICE_harran_patronize_the_neoplatonic_academy_effect_tooltip: "[harranian_characters|E]가 생성될 확률을 높입니다" # f212882f1eb6dfbc59856a79ca67fc35ab472f75
-	RICE_harran_patronize_the_neoplatonic_academy_desc: "고대 헬레네 학문의 마지막 잔재인 하란의 [harran_neoplatonic_academy|E]은 특이한 신념과 가르침을 간과할 용의가 있는 관대한 통치자들의 투자를 끊임없이 필요로 합니다." # 2a4acf0b89063cd4ec460c45d3b0cd7cbd3d4feb
-	RICE_harran_patronize_the_neoplatonic_academy_confirm: "배움을 위하여!" # 00f03dc36316d3773665b33f022a0162a3eb76fc
-	RICE_harran_patronize_the_neoplatonic_academy_context_tooltip: "#emphasis Historical Context:#! The Academy at Harran is purportedly intellectually descended from the Neoplatonic Academy based in Athens, that itself claimed intellectual descent from the original Academy established by Plato. Whether true or not, Harranian intellectuals played a major role in the court of the Abbasid courts as scientists, astrologers, physicians, and more. Historically, it seems to have declined and vanished sometime in the 11th century, as the remaining Harranian pagans converted to other religions like Islam." # null
-	RICE_harran_revitalize_the_neoplatonic_academy: "신플라톤 학파 부활" # 8cfa58ab7faf6b83e685b34089fe304c77c14a10
-	RICE_harran_revitalize_the_neoplatonic_academy_tooltip: "하란의 [harran_neoplatonic_academy|E]은 결코 잊혀지지 않도록 할 것입니다" # a2b71905cea0fa7b1050391ec640a35c4ad0ec33
-	RICE_harran_revitalize_the_neoplatonic_academy_effect_tooltip: "당신은 [harran_neoplatonic_academy|E]이 앞으로 여러 세대 동안 학문의 중심지로 남을 수 있도록 하고 쇠퇴하지 않도록 할 것입니다." # 4abd1713bb1b73205b0e528e11b552f68646bfe9
-	RICE_harran_revitalize_the_neoplatonic_academy_desc: "수 세기 동안 [harran_neoplatonic_academy|E]은 돌이킬 수 없는 쇠퇴의 위기에 놓여 있었습니다. 지금까지는 살아남았지만 더 이상 기다릴 수 없습니다. 이러한 추세를 반전시키고 고대 철학자들의 계승자로서 학교를 제자리에 되돌려 놓기 위해 행동해야 합니다!" # 39f279f9249886065cf541994ea2940fd9fcfaf9
-	RICE_harran_revitalize_the_neoplatonic_academy_confirm: "세상은 어둠에 굴복해서는 안 됩니다." # 1b9702ca2ee2d30a3f7b4cf62701c5b88352eeb5
-	RICE_harran_revitalize_the_neoplatonic_academy_context_tooltip: "#emphasis Historical Context:#! The Academy at Harran is purportedly intellectually descended from the Neoplatonic Academy based in Athens, that itself claimed intellectual descent from the original Academy established by Plato. Whether true or not, Harranian intellectuals played a major role in the court of the Abbasid courts as scientists, astrologers, physicians, and more. Historically, it seems to have declined and vanished sometime in the 11th century, as the remaining Harranian pagans converted to other religions like Islam." # null
-	RICE_harran_make_offerings_moon_temple: "하란의 달의 신전에 제물을 바치십시오" # 8a90bc861b291a3ebb65cfaaaafd9e8230606fcf
-	RICE_harran_make_offerings_moon_temple_tooltip: "당신은 하란의 [harran_temple_of_the_moon|E]에서 기도할 것입니다" # 3ace9047732f02ef11161020438663a1363caf34
-	RICE_harran_make_offerings_moon_temple_effect_tooltip: "[prestige|E] 또는 [piety|E]의 축복을 [harran_temple_of_the_moon|E]에서 기도하는 동안 받으실 수 있습니다" # 4523474f919baf973765d8773f0906c77c8946fe
-	RICE_harran_make_offerings_moon_temple_desc: "모든 역경을 이겨내고, 로마 제국 이전부터 하란에는 '신'이라는 이름의 달의 신전이 서 있었습니다. 이제 신전에 선물을 바쳐 신께 경의를 표할 때입니다." # ecca417b7365dd2b5185c43f4c47169e09051e3e
-	RICE_harran_make_offerings_moon_temple_confirm: "선물을 준비하십시오!" # 282d1e8dd25e2f357b9bb915ad2a13de4ed23ca8
-	RICE_harran_make_offerings_moon_temple_context_tooltip: "#emphasis Historical Context:#! Worship of the Mesopotamian lunar deity Sin dates back to Sumerian times, and was attested in Harran during the early medieval period. His sanctuary in Harran was called E-hul-hul, the House of Joys, and was destroyed sometime in the mid-11th century by hostile Muslim leaders." # null
-	RICE_harran_destroy_the_moon_temple: "하란의 달의 신전 파괴" # a0ae50aeef15ac318b03b71eb4d81f489f4d578c
-	RICE_harran_destroy_the_moon_temple_tooltip: "이교도의 신성 모독 기념물을 파괴해야 합니다!" # 7aba4f3c06676b8fe86e18f3098ffd6e195522e8
-	RICE_harran_destroy_the_moon_temple_effect_tooltip: "하란 근처의 이교도들은 더 이상 [harran_temple_of_the_moon|E]에 제물을 바치는 [decision|E]을 할 수 없습니다." # 8488bf928b1348b685436ae984b5a62a07dedd6a
-	RICE_harran_destroy_the_moon_temple_desc: "오랫동안 우리는 하란의 모독적인 [harran_temple_of_the_moon|E]를 방치했습니다. 그 존재는 [ROOT.Char.GetFaith.HighGodName]에 대한 모욕입니다. 이제 그것을 땅에 박살낼 때입니다!" # bbeb39662bd8b931538ff983acc8a0ab4b132b47
-	RICE_harran_destroy_the_moon_temple_confirm: "다 태워라!" # 693b2a08ab321cb8f46a80bad0cddab2e2090895
-	RICE_harran_destroy_the_moon_temple_context_tooltip: "#emphasis Historical Context:#! The pagan temple in Harran, which was dedicated to the ancient Mesopotamian lunar deity Sin, survived centuries of wars, turmoil, and more. It finally met its end sometime in the mid-11th century when it was destroyed by local, hostile Muslim leaders, though the exact date of its destruction is uncertain." # null
-	RICE_harran_study_grandfathers_writings: "할아버지의 종교 저술을 연구하십시오" # 8371329fe8ca9149c27ea74e4680639995ca7a45
-	RICE_harran_study_grandfathers_writings_tooltip: "할아버지께서 종교에 대해 생각하신 것을 읽고, 어쩌면 당신 내면의 영적 갈등을 해소할 수 있을 것입니다." # eb4557a0211ddc31679559c36a373d70ca48a2f5
-	RICE_harran_study_grandfathers_writings_effect_tooltip: "당신은 조상의 신앙으로 되돌아갈지 여부를 결정하게 될 수 있는 이벤트 연쇄를 시작합니다." # 84676722bb3577ba90e89265cea26dfa6b2015cf
-	RICE_harran_study_grandfathers_writings_desc: "몇 년 전, 할아버지께서는 내가 신앙과 우주의 신비에 대해 의문을 품을 때 종교적 문제에 대한 이 글들을 읽어보라고 말씀하셨지. 내 마음속 깊은 곳에서 느끼는 갈등을 해결해야 할 때가 온 것 같군... 내게 온 편지가 있는 것을 보았네. 무엇을 말해줄 수 있을까?" # ce4f4baa6df91e58401448ea05d836ac3e7e908f
-	RICE_harran_study_grandfathers_writings_confirm: "먼저 할아버지의 편지를 읽어보겠습니다..." # 0b8b1f127e69589e1bdac870e8b323279f05208e
-	RICE_harran_study_grandfathers_writings_context_tooltip: "#emphasis Historical Context:#! Ibn Nabhan, a descendant of famous Harranian scholars like Thabit ibn Qurra, staunchly defended his grandfather's conversion from Harranian paganism to Islam (which took place sometime in the early to mid 1000s). He relayed his story to an acquaintance, Muhammad bin Nasr, who in turn relayed it to his pupil, the famed Hanbali jurist and historian Ibn al-Jawzi, who recorded it for posterity. While Ibn Nabhan was not a pagan (though some of his older relatives may have remained so), that doesn't rule out the speculative possibility that he may have had sympathies for his ancestors' traditions." # null
-	RICE_harran_is_ibn_nabhan: "이븐 나브한인가" # 67e3dada0f1d0d41bf8b8c92d2864b91e6694b8c
-	RICE_harran_write_scholarly_treatise: "A scholarly treatise, by its nature, requires a specific topic.  Please provide the subject you would like the treatise to address.  For example, "A Scholarly Treatise on the Impact of the Black Death on 14th-Century European Economies" or "A Scholarly Treatise on the Philosophy of Existentialism."" # 412ae599a727dd4a1e3a60cb1e93256f6951eef0
-	RICE_harran_write_scholarly_treatise_tooltip: "당신은 학술적인 주제에 대한 논문을 쓰는 데 시간을 할애할 것입니다." # 8010227798f1b8539f8f8e2be26ba8072c3787e5
-	RICE_harran_write_scholarly_treatise_effect_tooltip: "특정 주제를 다루는 논문을 작성하여 특별한 책 [artifact|E]과 그에 상응하는 [character_modifier|E]를 획득할 수 있습니다" # 41e9a2b99b38ba4a0be6c25c5b26f9dfb826b1b6
-	RICE_harran_write_scholarly_treatise_desc: "하란 학자로서, 비할 데 없고 명성 높은 학문을 이어가는 것이 나의 의무입니다." # c916b20a8ed07161a874b7bf3e7a6dbada7113e8
-	RICE_harran_write_scholarly_treatise_confirm: "이제, 내 깃펜은 어디에 있지?" # 9e1817a75b74914da1de854c8d401db50cd27de7
-	RICE_harran_write_scholarly_treatise_context_tooltip: "#emphasis Historical Context:#! Scholars of Harranian origin were stereotyped throughout the Middle East for their supposed knowledge that derived from their pagan background. A number, like Thabit ibn Qurra, were heavily involved in intellectual milieu of the Abbasid court and the House of Wisdom." # null
-	RICE_decision_currently_working_on_treatise_requirement: "현재 학술 논문을 작업 중이 아닙니다" # d430efe342ba768e56bd3a45416d796a61858edc
-	#RICE_harran_venerate_the_triad "삼위일체 숭배" # 2e9bd3a95add82f98503123e068ab833a28674b7
-	#RICE_harran_venerate_the_triad_tooltip "헬리오폴리스 삼주신의 일원을 기릴 것입니다." # 80b54142d70765419de986b1e275b282002f0f3a
-	#RICE_harran_venerate_the_triad_effect_tooltip "당신은 헬리오폴리스 삼위일체의 세 구성원 중 하나에 대한 헌신을 나타내는 세 가지 [character_modifiers|E] 중 하나를 선택하게 될 것입니다." # e469943ef075cd55e20a8d8707ce3624db2abe86
-	#RICE_harran_venerate_the_triad_desc "목성, 금성, 수성은 고대부터 바알베크 또는 헬리오폴리스의 신전에서 숭배받는 세 주요 신입니다. 이제 이 세 신에게 대대적인 공물을 바칠 때가 되었습니다." # 7c20674733ca0cf5ccf850f017e05e74acbe0a40
-	#RICE_harran_venerate_the_triad_confirm "제물을 준비하십시오!" # 0c8560ba943c69ba6f99e4a648f62b9d2017c6f9
-	#RICE_harran_venerate_the_triad_context_tooltip "#emphasis Historical Context:#! At Baalbek, known to the Romans as Heliopolis, the triad of Jupiter, Venus, and Mercury were worshipped above all gods. It is hypothesized that Jupiter was seen as the chief deity, Venus his consort, and Mercury their child, but this is highly speculative." # null
-	RICE_harran_stop_funding_the_neoplatonic_academy: "신플라톤 학원 자금 지원 중단" # 150dacbd33d8069ff132d6963b44a1670a220b4f
-	RICE_harran_stop_funding_the_neoplatonic_academy_tooltip: "신플라톤주의자들은 우리의 지원을 받을 자격이 없습니다." # e53e3532b98be95d96f9c49ee1a7c0e97dd08932
-	RICE_harran_stop_funding_the_neoplatonic_academy_desc: "수 세기 동안 이교도 학자들은 아테네의 [harran_neoplatonic_academy|E]에 거주해 왔습니다. 그들은 [ROOT.Char.GetFaith.GetAdherentName]은 아니지만, 그들의 지적 추구 때문에 그들의 존재를 용인해 왔습니다. 그러나 그들은 오만해졌고 국고 낭비이므로, 그들의 기관에 대한 지원을 끝내고 싶습니다." # 34855b86c9d3d9fb4d3e2474cc8051e750fae8bc
-	RICE_harran_stop_funding_the_neoplatonic_academy_effect_tooltip: "신플라톤주의자들은 더 관대한 통치자 아래에서 새로운 거처를 찾을 것입니다." # 1fa53036a13aab3d500cc3e11a543708f47465ba
-	RICE_harran_stop_funding_the_neoplatonic_academy_confirm: "저는 그들을 추방하는 것이 아니라, 단지 그들의 자금 지원을 끊는 것일 뿐입니다!" # b73358972414e2e0714f2ea9d89cb447a30b4254
-	RICE_harran_stop_funding_the_neoplatonic_academy_context_tooltip: "#emphasis Historical Context:#! The Neoplatonic Academy of Athens endured as an institution until 529 CE, when Emperor Justinian ended its funding (though other old schools continued elsewhere in the Roman Empire). Under the Academy's last known scholarch, Damascius, the remnants of the school fled to the Sassanid Empire. Though some of these scholars later returned to the Roman Empire, there is a theory, not universally agreed upon, that some of them - perhaps led by Damascius' student Simplicius - set up shop in Harran, founding the supposed Neoplatonic Academy in Harran that would endure well into the medieval era." # null
-	RICE_harran_welcome_neoplatonists_to_harran: "하란에 온 신플라톤주의자들을 환영합니다" # 30e74fc972dc1b7ee3db76e0bcf0d30f23efe02c
-	RICE_harran_welcome_neoplatonists_to_harran_tooltip: "이 학자들에게는 새로운 거처가 필요할 수 있습니다." # 95d3a815f0fd3e57503ae25d023a2027dd7a8b4d
-	RICE_harran_welcome_neoplatonists_to_harran_desc: "아테네의 [harran_neoplatonic_academy|E]는 수많은 이교 학자들의 고향이었으나, 적대적인 지역 당국의 지원 부족으로 인해 고향을 떠났습니다. 그 이후로 방랑하며 정착을 희망하며, 다양한 지식 분위기를 자랑하는 하란이 [harran_neoplatonic_academy|E]를 재건하기에 이상적인 장소가 될 것이라고 생각합니다." # e805c0b5cba993897f00183e85e81bfd9689a67a
-	RICE_harran_welcome_neoplatonists_to_harran_effect_tooltip_1: "[harranian_courtier|E]이 당신의 [court|E]에 도착할 것입니다" # b910670dff046afde80a23580e4fee0a30ec339f
-	RICE_harran_welcome_neoplatonists_to_harran_effect_tooltip_2: "중동과 소아시아의 [rulers|E]는 이제 #Bold 신플라톤 학파 후원#! [decision|E]을 내릴 수 있습니다." # 900e1147d1be6cb757cef3aacd1f5fe5e78e9327
-	RICE_harran_welcome_neoplatonists_to_harran_effect_tooltip_3: "[harranian_courtiers|E]이 이제 중동 지역에서 생성되기 시작합니다" # ae82d53b3817d11c6dafc4ce689cc28cd1c0844a
-	RICE_harran_welcome_neoplatonists_to_harran_confirm: "그들의 고대 지혜가 우리를 밝혀줄 것입니다!" # 867ca79be69948ec7d89e3d5ee396608af1e122e
-	RICE_harran_welcome_neoplatonists_to_harran_context_tooltip: "$RICE_harran_stop_funding_the_neoplatonic_academy_context_tooltip$" # null
-	RICE_nabataean_ibn_wahshiyya_decision: "나바테아 농업 편찬" # 9f3d71eaa0ab727828f7993387c98253c0ba277c
-	RICE_nabataean_ibn_wahshiyya_decision_tooltip: "내 조상들의 지혜를 지켜야만 한다!" # 8a31ca9c715c7e9a4eac2d93a4adb341e83ad7c2
-	RICE_nabataean_ibn_wahshiyya_decision_desc: "수년에 걸쳐 저는 고대 문헌을 번역하고, 지역 정보 제공자들을 인터뷰하고, 이 지식 체계에 대한 저 자신의 해설을 작성하는 과정을 통해 고대 지혜의 단편들을 수집했습니다. 이제 저는 그 내용을 농업과 관련이 많으므로 #italic 나바테아 농업#이라는 책으로 편찬할 만큼 충분한 정보를 축적했습니다." # 9e8e87cbb5584affdc3752e5aeb434da8b076556
-	RICE_nabataean_ibn_wahshiyya_decision_effect_tooltip_1: "당신은 강력한 책 [artifact|E], #V 나바테아 농업#!을 받게 됩니다." # 5df665f78712a6712097447a181f074813f46a63
-	RICE_nabataean_ibn_wahshiyya_decision_confirm: "이 지혜는 후세를 위해 보존되어야 합니다!" # afbb4fb93c2c25360aa4d1d26a9053370253bd7f
-	RICE_nabataean_ibn_wahshiyya_decision_context_tooltip: "#emphasis Historical Context:#! Ibn Wahshiyya (died c. 930 CE) was a Muslim scholar and agriculturalist whose magnum opus, #italic The Nabataean Agriculture#!, is our main source on the Nabataeans of Iraq, a group of Aramaic-speaking pagans in southern Mesopotamia (not to be confused with the famed Nabataean Arabs of the Levant who built Petra). A Nabataean himself, he even claimed descent from the Assyrian king Sennacherib, who is remembered fondly in Aramaic folklore from this period. Though focused on agriculture, #italic The Nabataean Agriculture#! also covers topics like magic, astronomy, religion, and more; it was highly regarded and referenced by later scholars such as Maimonides, Ibn Khaldun, and Thomas Aquinas." # null
-	# Artifacts 
-	RICE_harran_treatise_astronomy_name: "하란의 별표에 관한 논문" # e6a3b1fc1d905e49372063c4c7124e4c89f62e29
-	RICE_harran_treatise_astronomy_desc: "[harranian_scholar.GetFullName]이라는 하란 출신 학자가 쓴 천문학 관련 논문입니다." # 0d3f5e8468bf6280507cd01b8cbef16c094fba21
-	RICE_harran_treatise_geometry_name: "하란의 측정과 수치에 관한 논문" # 1a7fda35b153c5a0131dae1defe5a30ea0adbaa3
-	RICE_harran_treatise_geometry_desc: "[harranian_scholar.GetFullName]이라는 하란 학자가 쓴 비율 및 측정과 같은 주제를 다루는 기하학 논문" # b0c60e5b8f69615edfb8e5dfbaff7cb32d29de9f
-	RICE_harran_treatise_algebra_name: "수학 문제 해결에 관한 하란의 논문" # 426ca4d5dbf4003b3bd61370eaf16e1272d717a0
-	RICE_harran_treatise_algebra_desc: "[harranian_scholar.GetFullName]라는 하란 학자가 작성한 방정식 풀이와 같은 주제를 다루는 대수학 논문입니다." # 431ce0c0075b630f3fafe5d94b47a858dc1fa78c
-	RICE_harran_treatise_greek_philosophy_name: "하란 학파의 그리스 철학자 논문" # 85dd9221a6fe420b554fa87ffea5afff6d4aadbc
-	RICE_harran_treatise_greek_philosophy_desc: "[harranian_scholar.GetFullName]이 쓴 플라톤과 아리스토텔레스 같은 고대 사상가에 대한 논문" # 8abea5f9ac966c0f846598f285465609148d62cc
-	RICE_harran_treatise_harranian_history_name: "하란의 역사에 대한 하란 논문" # 583c7067a58e6f4ef5093904c3c19b2b57ec22b2
-	RICE_harran_treatise_harranian_history_desc: "[harranian_scholar.GetFullName]이라는 하란인 학자가 쓴 하란인의 역사에 대한 논문" # 515dac7920b31f02ccf9dce530039edb6f593c0c
-	RICE_harran_treatise_mysticism_name: "하란의 형상과 환영에 대한 논문" # 6f949c4b78f82f4a6e3e93db945fd10faa64f67c
-	RICE_harran_treatise_mysticism_desc: "[harranian_scholar.GetFullName]라는 하란 학자가 쓴 다양한 비전 주제와 신비주의에 대한 논문입니다." # c2ca95c2e744acf54d2a251f753055ebcf858664
-	RICE_harran_treatise_medicine_name: "하란 의학 정원 논문" # 01c8949a979a8508e03ceb57834e75dd91f3df4a
-	RICE_harran_treatise_medicine_desc: "[harranian_scholar.GetFullName]이라는 하란 학자가 쓴 의학과 생물 과학에 관한 논문입니다." # e8003dd71ea25bad78dd5185f220d5d015a2e842
-	RICE_nabataean_agriculture_book_name: "나바테아 농업" # 48801d26399b206ece4c59ab2c69ce94826fd4e1
-	RICE_nabataean_agriculture_book_desc: "[ibn_wahshiyya.GetDynasty.GetName|U]라는 학자의 저서. 농업, 종교, 철학, 마법, 점성술, 역사 등 다양한 주제에 대한 통찰력이 담겨 있습니다. 저자는 [ibn_wahshiyya.GetHerHis] [nabataean.GetAdjective] 문화와 [ibn_wahshiyya.GetHerHis] 조상들의 [kasdanian.GetFaith] 신앙에 대한 자부심을 글 속에서 강하게 드러냅니다." # 964d921210188eecb7b3c4edb96228eca72a467a
-	# Events 
-	# EXTRAS 
-	harran.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0001.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0001.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0002.t: "일곱 광채" # 82abc990e9726da60304da5a0d40a881408d4430
-	harran.0002.desc: "고대부터 메소포타미아와 레반트의 이교도들은 별과 행성을 충실히 숭배해 왔습니다. 저 또한 밤에 제단에서 제물을 준비하고 천체에 기도합니다. 그들이 저를 인도하고, 양육하고, 보호해 주기를 바랍니다. 그들이 수없이 많은 세대 동안 인류를 위해 항상 그랬던 것처럼 말입니다. 오늘 밤, 저는 광활한 밤하늘 앞에서 서서 일곱 행성 중 하나의 축복을 간구합니다." # d2e6bef3f8972a588486257a4450a2f5077febec
-	harran.0002.a: "솔, 또는 샤마시" # e605f422044f9d3fc90916d5a6be62f7f93dda95
-	harran.0002.b: "루나 또는 신" # 6c7d96a50983e63d0c268aaf3d65216279a0177e
-	harran.0002.c: "수성, 또는 나부" # e8134d3debce437db2cf1820621972d4872c7758
-	harran.0002.d: "베누스, 또는 이슈타르" # 3e7b713d23ec58eb468be8dfaf570e6027137cb9
-	harran.0002.e: "마르스, 또는 네르갈" # ac4d01156d5318d494ba9437094aa354321872b7
-	harran.0002.f: "주피터, 또는 마르두크" # 8f4e38588a7c8f919860feff87ca748570f7ef3f
-	harran.0002.g: "사투르누스, 또는 니니브" # 19f292deaeadc0d447baf43b5c8e822789c19fda
-	harran.0002.sun.blessing: "솔이 호의적인 징조를 보입니다" # 9e10aca30f6a4ba81a47a14d2a0c59902551da12
-	harran.0002.sun.nothing: "솔은 아무런 신호를 보내지 않습니다" # 11cfd9f5b93b168ad4167bb1851d86d3f486f18e
-	harran.0002.moon.blessing: "루나가 호의적인 징조를 보입니다" # e584fa4cab533715a1cd5b4004c2640e5a0c58d2
-	harran.0002.moon.nothing: "루나는 아무런 징후를 보여주지 않습니다" # 27e657a585e9344ac5803bc247ba55b0f66783ef
-	harran.0002.mercury.blessing: "수성이 호조를 보입니다" # 6040a859e9fe93409ee5eaa08ca11ba0d7f23792
-	harran.0002.mercury.nothing: "수성은 당신에게 아무런 징조도 보여주지 않습니다" # 9c85d9d3808eb8cd22557cad7b441832666dd477
-	harran.0002.venus.blessing: "금성이 호의적인 징조를 보입니다" # 55216dc0d7ca21ef48535321ca7f409b2747ae63
-	harran.0002.venus.nothing: "비너스는 당신에게 아무런 징조도 주지 않습니다" # 15791476a8de66afd41eadaf548fffa5d8fbac87
-	harran.0002.mars.blessing: "화성이 호의적인 징조를 보입니다" # 89119eb52479340c6f52539aa1fdcb7918227b6c
-	harran.0002.mars.nothing: "화성은 아무런 징조를 주지 않습니다" # 932970afe8c87067e0d24ecc15c1de5e9325dd86
-	harran.0002.jupiter.blessing: "목성이 좋은 조짐을 보여줍니다." # 696c51eacc8043a8fbb8596adbf951dd16fead8c
-	harran.0002.jupiter.nothing: "목성이 당신에게 아무런 징조도 주지 않습니다" # d9030177753dbc6280f45bda9681308beeecec0e
-	harran.0002.saturn.blessing: "새턴이 호의적인 징조를 보입니다" # 56d3c6d02186d3c223696484e65995a067b819ab
-	harran.0002.saturn.nothing: "사투르누스는 당신에게 아무런 징조도 주지 않습니다" # f34dfb3096c1f5823e9e4366a557f91f9c819f39
-	harran.0002.nothing.tooltip: "일곱 광채가 당신의 운명에 대해 길조를 보이지 않습니다." # 3c140d31c09e741b86e6fe1e243f5bf9f9176094
-	harran.0003.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0003.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0003.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0004.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0004.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0004.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0005.t: "달의 신전" # 63bc95a38eb4e8c9e12105cc7e8407e0919510b5
-	harran.0005.desc: "때때로 어떤 형태이든 간에 신에게 경의를 표하는 것은 현명한 일입니다.\n\n[harran_county.GetNameNoTier]의 위대한 달의 신전에서 경의를 표할 때가 되었다고 판단했습니다. 이곳은 고대 세계의 유산으로, 그리스인들에게 아도니스로도 알려진 탐무즈와 같은 다양한 신들의 우상으로 장식되어 있습니다. 신전 중앙에는 지역에서 신으로 알려진 달의 신 시인의 우상이 서 있습니다. 벽은 낡고 신전은 분명히 좋은 시절을 보냈지만 방문자들은 수백 년의 역사가 그들에게 압박감을 준다고 말합니다.\n\n어쨌든 저는 신에 대한 헌신을 보여주기 위해 사제들에게 제물과 희생에 대한 상당한 기부를 했습니다." # d379f012cd00bed5dc87b867addea047399955ba
-	harran.0005.a: "하늘에서 신성한 은총이 내리길 바랍니다!" # e1513a01c8b0ef790f31b7f9a4acb904949ebe33
-	harran.0005.b: "이 제물로 저의 헌신을 보이겠습니다!" # fc91ba6b846740fe82816797de0b833202d6ab05
-	harran.0006.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0006.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0006.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0007.t: "사원이 더 이상 서 있지 않습니다" # 79266931960da700d3d900cac4903bfe1998ce23
-	harran.0007.desc: "저는 [harran_county.GetNameNoTier]에 남은 불경한 자들의 항의와 간청을 무시합니다. 그들은 제가 자기들이 원하는 대로 숭배할 수 있도록 허용했던 합의를 끝내지 말라고 재촉합니다. 하지만 제 마음은 흔들리지 않을 것입니다.\n\n우리는 너무 오랫동안 이 이교도들에게 관대했습니다. 하란의 달의 신전은 더 이상 이 우상 숭배자들의 거처가 되지 않을 것입니다. 저는 제 명령을 따를 준비가 된 많은 사람들을 거느리고 있습니다. 하란의 이교 시대는 끝났습니다." # f5d861f8bd2501d923f99215d378f489a96d501f
-	harran.0007.a: "신전을 짓밟고 약탈하라!" # bf99da97c77448567c49071e3967e8566739761b
-	harran.0007.tooltip: "[GetReligionFamily('rf_pagan').GetName] [rulers|E]는 더 이상 [harran_county.GetNameNoTier]에 있는 [harran_temple_of_the_moon|E]에서 숭배하기 위한 [decision|E]를 내릴 수 없습니다." # ba3b71313abc3a1b7d6c905c84860aa8c4056e3c
-	harran.0008.t: "달의 신전 파괴" # 017544bf815880d03616bfeb0d5c3e8f82be2eba
-	harran.0008.desc: "[harran_county.GetNameNoTier]의 달의 신전은 태고부터 존재해 왔으며, 오래전 사라진 시대의 드문 흔적이었습니다. 그것은 이집트인들만큼이나 고대적이었으며, 알렉산더 대왕과 율리우스 카이사르가 살았던 시대에도 이미 수천 년이나 된 것이었습니다. 그것은 아케메네스 왕조, 마우리아 왕조, 로마인들과 같은 제국들보다 오래 살아남아 수많은 재난을 견뎌냈습니다. 그것은 십자가와 초승달의 부상 후에도 계속해서 지속되었습니다. 전쟁과 투쟁의 시대에, 그것은 헤르메스, 탐무즈, 그리고 물론 고대 달의 신인 신과 같이 다양한 신들을 숭배하는 줄어드는 숭배자들을 위한 안식처였습니다.\n\n그러나 그것은 마침내 종말을 맞이했습니다. [harran_temple_destructor.GetTitledFirstName]의 명령에 따라 신전은 완전히 파괴되었습니다. 하란에 남은 이교도들은 그들의 신전을 잃었고, 그들의 날들은 분명히 얼마 남지 않았습니다." # eb7d0b3b303a92a600ab3ed3cd26663fa6fe02c7
-	harran.0008.a: "알겠습니다...." # f94bbb707e5fa4bf4caec62ffebd3f1f4fd92fd8
-	harran.0008.tooltip: "[GetReligionFamily('rf_pagan').GetName] [rulers|E]는 더 이상 [harran_county.GetNameNoTier]에 있는 [harran_temple_of_the_moon|E]에서 숭배하기 위한 [decision|E]를 내릴 수 없습니다." # ba3b71313abc3a1b7d6c905c84860aa8c4056e3c
-	harran.0009.t: "논문 작성" # e5b5e7854953827c208d34326a4e91a64c57f0bc
-	harran.0009.desc: "하란 학자로 여겨지는 자로서, 지적인 세계에 기여할 때가 되었습니다! 우리 하란인들은 아테네의 신플라톤 학파, 궁극적으로는 플라톤과 헤르메스와 같은 현명한 고대 사상가들까지 거슬러 올라가는 긴 혈통을 자랑할 수 있습니다. 저는 연구를 위해 참조할 수 있는 전문가들이 쓴 다양한 책과 두루마리뿐만 아니라 필기구를 준비합니다." # 0cd456495dc09c9288e3e1236da9d48710f197e6
-	harran.0009.a: "알겠습니다!" # 61d873efa0c1dde12a832b7d939bd1bb4fdba6bb
-	harran.0009.tooltip: "학문적 주제에 대한 논문을 쓰기 시작합니다." # 1541f0fd6311fcc30b38f1d527ae2c06a3b35170
-	harran.0010.t: "" # 351434a783331f9c2d5f705d0c67a380cc556478
-	harran.0010.desc: "학문적 주제에 대한 논문을 완성했습니다. 이 논문이 학문에 대한 또 다른 가치 있는 하란인의 기여가 되기를 바랍니다. 제가 저의 작품에서 설명한 지식이 인류에게 도움이 되기를 희망합니다. 최소한 이로 인해 이 지역의 학계에서 저의 명성과 명성이 높아질 것입니다." # 8f4e1f41e478983af58b7c9a3cd82950483c0840
-	harran.0010.a: "정말 힘들었어! 다른 사람들에게 몇 부 보내야겠어." # ccda0ebcc11c8b4f7851fe4fdbfbf6095af216e3
-	harran.0010.b: "어쩌면 내가 엘리트들 사이에서 내 작품을 홍보할 수 있을지도 몰라...." # eaf7c90d13bd4e6d9dfad10f8ef69e84ce77a2bf
-	harran.0011.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0011.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0011.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0012.t: "나바테아 농업" # dfa737e5c59b3c5489cf54f31e61f25b9b6ba916
-	harran.0012.desc: "그를 아는 자들은 [ibn_wahshiyya.GetTitledFirstName] [ibn_wahshiyya.GetDynasty.GetName]를 재능 있지만 특이한 학자로 여깁니다. [ibn_wahshiyya.GetHerHis|U]는 남부 [GetGeographicalRegion('RICE_region_mesopotamia').GetName]의 토착민, [nabataean.GetCollectiveNoun], 즉 나바테아인 출신입니다. 레반트의 나바테아인과 혼동해서는 안 됩니다.\n\n수년 동안, 이 [nabataean.GetCollectiveNounNoTooltip]들은 많은 이들에게 시골뜨기로 비웃음을 받았습니다. 학식 있는 [ibn_wahshiyya.GetDynasty.GetNameNoTooltip]는 [ibn_wahshiyya.GetHerHis] 인생의 대부분을 여행하며 고대 세계의 지혜, 특히 [ibn_wahshiyya.GetHerHis] 조상들의 지혜를 모아, 그들이 세상이 배울 만한 많은 것을 가지고 있다는 것을 증명하기 위해 보냈습니다.\n\n이제, [ibn_wahshiyya.GetDynasty.GetNameNoTooltip]는 [ibn_wahshiyya.GetSheHe]가 배운 것을 큰 지식 저서 $RICE_nabataean_agriculture_book_name$에 집대성했습니다. 그것을 본 사람들은 농업, 주요 초점,뿐만 아니라 철학, 마법, 점성술, 그리고 [nabataean.GetCollectiveNounNoTooltip]의 전통적인 [kasdanian.GetAdjective] 신앙에 대한 많은 훌륭한 통찰력이 있다고 믿습니다." # 0ff7e2df338cc23a418ab8104037fb1a3b6ebc49
-	harran.0012.a: "인류 지식에 대한 위대한 공헌입니다." # cff5bff4719f09428c979c98f33bb01137f4311c
-	harran.0013.t: "나바테아인" # 42ab6721f96652dad1806fe960da485d6ffe2669
-	harran.0013.desc: "우리 [nabati.GetCollectiveNoun]은 한때 다른 왕국들을 공포에 떨게 하고 존경을 받았던 위대하고 강력한 민족이었습니다. 그 고대에 나의 조상인 산헤립과 같은 강력한 왕들이 영광스럽게 정복하고 다스렸습니다. 심지어 우리 언어인 [nabati.GetLanguage.GetName]은 창조의 원초적인 언어였습니다!\n\n우리가 얼마나 몰락했는지.... 아니면 적어도 외부인들은 무지한 시골뜨기보다 나을 것이 없는 우리를 비난하는 것을 좋아합니다. 하지만 나는 더 잘 알고 있습니다.\n\n확실히 많은 [nabati.GetCollectiveNounNoTooltip]은 이라크 습지의 시골 지역에 사는 평범한 농민에 불과합니다. 그렇기 때문에 교육받은 학자로서 우리의 고대 지식을 최대한 수집하고, 그것에 대해 깊이 생각하고, 다른 사람들에게 가르쳐서 후세를 위해 보존하는 것이 나의 의무입니다. 언젠가 나의 발견과 생각을 위대한 책으로 엮을 수 있기를 바랍니다." # 30c0775b349465b9b7a8b3ca3c6aef23061d307a
-	harran.0013.a: "제 유산을 위해서라면 이 정도는 해야 합니다." # a4e48c97fd77db76ad8ed4876ee0df5a81742c30
-	harran.0013.tooltip: "[GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E]는 [travel|E]할 때 여러 [travel_options|E]를 선택하여 레벨을 올릴 수 있습니다. 모든 트랙에서 최대 [trait_level_track_xp|E]에 도달하면 #bold $RICE_nabataean_ibn_wahshiyya_decision$#! 결정을 내려 강력한 책 [artifact|E]를 얻을 수 있습니다." # c687a6c666f4c57905dd2898ecedc054d2cdaaf1
-	harran.0013.info: "#emphasis 역사적 배경:#! 이븐 와흐시야는 9세기 후반과 10세기 초반에 활동한 이라크 출신의 학자입니다. 그의 대표작인 #italic 나바테아 농업#!은 농업, 점성술, 마법 연구로 수세기 동안 높이 평가받았습니다.\n\n오늘날 학계에서 #italic 나바테아 농업#!은 이라크 남부에서 이븐 와흐시야가 태어난 지역의 잘 알려지지 않은 민족인 이른바 이라크의 나바테아인에 대한 중요한 자료이며, RICE에서는 $nabati$ 문화로 표현됩니다. 이들은 페트라를 건설한 레반트의 나바테아 아랍인과는 다릅니다. 이 나바테아인들은 고대 메소포타미아의 후계자로 여겨졌던 아람어 사용자들이었고, 많은 이들이 초기 아바스 시대에도 여전히 이교도였으며, RICE에서 $south_mesopotamian_pagan$ 신앙으로 표현되는 고대 메소포타미아 종교의 후기 진화를 보존하고 있었습니다.\n\n이러한 나바테아인에 대한 많은 전설이 돌았는데, 그들을 천한 농민에 지나지 않는다고 여기는 사람들 사이에서도 그들의 아람어는 창조의 원래 언어와 같다는 등의 전설이 있었습니다. 흥미롭게도 이븐 와흐시야는 아시리아 왕 센나케리브의 후손이라고 주장했는데, 센나케리브는 폭군으로 묘사되는 것과는 대조적으로 이라크의 나바테아인들에게는 저명한 조상으로 존경받았습니다." # f3b2e932b8acce44a306f4e3b1de92ad98eb28e6
-	harran.0014.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0020.t: "하란 학원 지원" # 645d29032bd702178644f73901c31d618ef0d2fe
-	harran.0020.desc: "하란의 신플라톤주의 학회 구성원들은 저의 재정적, 도덕적 지원에 감사하며, 이러한 지원이 그들이 수 세기 동안 축적한 지혜를 다른 사람들에게 계속해서 전수할 수 있도록 보장해 주기를 희망합니다. 고대이지만 점점 쇠퇴하는 공동체의 구성원으로서, 그들은 도움이 어디에서 오든 항상 도움을 필요로 합니다." # 6cce83d024a2857b69d13b444de665e32d1b18b7
-	harran.0020.a: "" # 7612729ba12125c2b038a1d081b511864179ca82
-	harran.0021.t: "철학자" # a8da33ed63c9161f96d88ab2273dd105d65cc156
-	harran.0021.desc: "꿈속에서, 은빛이 살짝 감도는 머리카락과 위엄 있고 현명한 눈을 가진 고귀한 모습의 누군가가 나에게 다가왔습니다. 부드러운 권위가 느껴지는 어조로 [ancient_pagan_philosopher.GetSheHe]는 고대 이교 철학자 중 한 명인 [ancient_pagan_philosopher.GetFirstName]라고 [ancient_pagan_philosopher.GetHerselfHimself]를 소개했지만, 꿈속에서 나는 이것이 얼마나 중요한지 제대로 인지하지 못했습니다. 그럼에도 불구하고 [ancient_pagan_philosopher.GetSheHe]는 하란의 신플라톤 학원의 생존을 보장하기 위해 보여준 모든 지원에 대해 감사를 표했습니다." # ce271391fb25739e884ad8da8c793850fc669480
-	harran.0021.hellenic: "자네의 친절에 영원히 감사하네, 아이. 신들이 자네를 축복하길." # ff5b12660578938384b6e74c3405aafe9cb0eb51
-	harran.0021.nonhellenic: ""저는 당신의 [ROOT.Char.GetFaith.GetAdjective] 신조를 따르지 않지만, 진실은 여러 가지 방식으로 나타납니다."" # 5b2e074538d80dddc8e9cd2c9b0913da9fa92942
-	harran.0022.t: "하란의 학술원 재건" # 1af9facbfa2127a25d07f5f6f9f6af07d130c689
-	harran.0022.desc: "저는 막대한 자금과 자원을 모아 [harran_county.GetNameNoTier]의 신플라톤 아카데미를 부흥시키기 위해 많은 학자들을 모았습니다. 너무 오랫동안 우리는 이 귀중한 기관이 시들어가도록 내버려 두었으며, 이제는 그것을 이전의 영광으로 되돌려놓는 것이 우리에게 달려 있습니다. 우리의 목표는 아카데미 캠퍼스의 물리적 구조를 개조하고, 활기차고 큰 학자 공동체(대부분 이교도이지만 열린 마음을 가진 한 다른 사람들도 환영할 것입니다)를 세우고 확보하는 것입니다. 시간이 좀 걸리겠지만, 아카데미는 살아남을 것입니다!" # a007c665d534d83e3db1da9f6c84199d05470928
-	harran.0022.a: "인류의 발전을 위해서입니다." # d410b8f09d296d8a185bdc00046b25da1d8bfb7c
-	harran.0023.t: "신플라톤주의 부활" # 8bdfca3a831a8fab3ddf9c36088bf0da582227fd
-	harran.0023.desc: "수 세대에 걸쳐 [harran_county.GetNameNoTier]의 신플라톤 아카데미는 고대 세계의 마지막 잔재였습니다. 메소포타미아 북부의 험준한 언덕에 위치한 이 아카데미의 학자들은 로마 제국의 신플라톤주의자들의 지적 후손임을 자처했으며, 그들은 플라톤 자신에게까지 혈통을 추적했습니다. 슬프게도 수년 동안 아카데미는 이 지역이 비이교도에게 지배당함에 따라 불가피한 쇠퇴를 겪었습니다.\n\n그러나 이제 아카데미에 행운이 찾아왔습니다. 현명한 [harran_academy_reviver.GetTitledFirstName]는 그곳의 물리적 공간을 개조하고 많은 뛰어난 학자들을 불러들여 아카데미를 활성화하기 위해 자원을 모았습니다. 비록 바그다드의 지혜의 집이나 원래의 플라톤 아카데미에 필적할 수는 없지만, 하란의 아카데미는 이제 학문의 중심지로서 미래를 보장받았습니다." # 48e58e6f2fe42f10b560711e72f0a1cf64ed418b
-	harran.0023.a: "별에 쓰여 있었던 것이었소!" # 42f3891083b7fcdf22d5be4f50164195ae88740b
-	harran.0024.t: "하란 학원의 종말" # 47a0005322f99d18d721cbe533adceec04cc57f9
-	harran.0024.desc: "최근 [harran_county.GetNameNoTier]의 신플라톤주의 아카데미는 세계 일부 지역의 이교도 종교 쇠퇴를 반영하듯 쇠락의 길을 걷고 있습니다. 안타깝게도, 이 가장 존경받는 제도를 보존하기 위해 시간과 자원을 투자하려는 이는 드물었습니다. 이제 마지막 진정한 교사이자 학자의 죽음으로 인해, 그 계보를 이을 사람이 없어 사실상 폐쇄되었습니다." # e19c316a925ed249cd935668a9e456c1334e043c
-	harran.0024.a: "알겠습니다..." # fd141e42cc289e104322660970b444bacc80870f
-	harran.0025.t: "신플라톤주의의 종말" # 67ea845615fed8bcf44a6283ddfa6e1d8412b4c3
-	harran.0025.desc: "모든 것은 언젠가 시들어 사라지게 마련입니다. [harran_county.GetNameNoTier]에 있는 신플라톤 아카데미는 한때 고대 헬레닉 문명의 마지막 잔재인 활기찬 학자 공동체였습니다. 수 세기 동안 아카데미의 철학자들과 신비주의자들은 지식의 흔적을 다음 세대로 전수했습니다.\n\n하지만 이제는 아닙니다.\n\n학교의 마지막 교사가 세상을 떠났고, 재정적, 도덕적 지원이 없어 아카데미는 역사의 연대기 속으로 사라질 것입니다. 한때 활기찬 지적 공동체가 있던 곳에 남은 것은 이제 고대 두루마리의 희미해지는 잉크와 오래전 과거의 찬란한 역사의 속삭임뿐입니다." # 41c60bb477a64c53914550bd52043ecf27e699fa
-	harran.0025.a: "그리되었으니, 그렇게 될지어다." # b12415a81d62806117b933a314998a937b95513f
-	RICE_harran_neoplatonic_academy_dead_tooltip: "[harranian_characters|E]는 더 이상 중동 [courts|E]에서 생성될 수 없으며, 해당 지역의 [rulers|E]는 더 이상 [harran_neoplatonic_academy|E]를 후원하는 [decision|E]을 내릴 수 없습니다." # 24f5be1c7ba2196840854ebfd79ab794d17c4b00
-	harran.0026.t: "아테네 신플라톤 학파의 종말" # 3bb26b3df261ecbb777a22a42d08e82202a99a7a
-	harran.0026.desc: "수 세기 동안, [athens_barony.GetNameNoTier]는 소위 #bold 신플라톤주의 학원#!에서 가르치고 고대 시대의 원래 플라톤 학원에서 지적으로 이어져 왔다고 주장하는 학자들의 고향이었습니다. 종교적 차이에도 불구하고, 저와 같은 통치자들은 그들을 참아주고 심지어 그들의 기관에 자금을 지원해 주었으며, 그들이 우리 사회에 무언가를 기여한다고 잘못 생각했습니다.\n\n하지만 시대는 변하고 있으며, 우리는 이 사람들과 그들의 학교에 국고를 충분히 낭비했습니다. 저는 학자들이 저에게 자금 지원을 중단하지 말라고 간청했음에도 불구하고 학원에 대한 자금 지원을 중단하기로 결정했습니다. 이 신플라톤주의자들은 이것이 사실상 그들에게 거처가 없어져 망명으로 몰아넣는 것이라고 말합니다. 그것에 대해 저는 한 가지만 말할 수 있습니다. 그것은 그들의 문제이지, 제 문제가 아닙니다." # 2e4d3d9d1bf7086c0e73f657553f1efdf0914cd5
-	harran.0026.a: "그들의 운명은 내게 별로 중요하지 않다." # 8f4e0164d5321642f5f28a8a109184d4c75f3444
-	harran.0026.tooltip: "신플라톤 학자들이 새로운 안식처를 찾아 떠돌아다닐 것입니다. 소문에 따르면 그들은 새로운 [harran_neoplatonic_academy|E]를 세우기 위해 [harran_county.GetNameNoTier]와 같은 근동 지역의 몇몇 곳을 눈여겨보고 있지만, 그곳에 그들을 환영할지 여부는 지역 통치자에게 달려 있을 것입니다." # 907fc2d582820e0349525848a1ba0255d05353b4
-	harran.0027.t: "아테네 신플라톤 학파의 종말" # 3bb26b3df261ecbb777a22a42d08e82202a99a7a
-	harran.0027.desc: "수 세기 동안 [athens_barony.GetNameNoTier]는 #bold 신플라톤 학파 학원#!의 본거지였습니다. 그들은 고대 플라톤 학원의 지적 후예라고 주장하는 학자들의 혈통이었습니다. 그들은 어려운 시기와 많은 도전을 헤쳐 나갔고, 이전 당국은 종교적 견해에 동의하지 않더라도 그들을 재정적으로 지원하는 데 만족했습니다. 그러나 그들의 운마저 다했습니다.\n\n[athens_barony.GetNameNoTier]의 현 통치자인 [neoplatonic_academy_hater.GetTitledFirstName]는 학원 지원을 중단하기로 결정했으며, [neoplatonic_academy_hater.GetHerHis]의 메시지는 분명합니다. 이 신플라톤주의자들은 더 이상 그곳에서 환영받지 못합니다.\n\n신플라톤주의자들조차도 이 학자들의 미래가 어떻게 될지 모릅니다. 그들 중 다수는 더 관용적이고 현명한 통치자들이 있다고 하는 동쪽 땅을 방황할 계획을 하고 있습니다." # d71b513d425762ec5c631cf74a1328be67bd3410
-	harran.0027.a: "어쩌면 그들은 새로운 보금자리를 찾을 수도, 그렇지 못할 수도 있습니다." # b0980028410097dba25e7170ed8aa1555682e87d
-	harran.0027.b: "[harran_county.GetNameNoTier]이 그들에게 좋은 보금자리가 될 수 있을 텐데... 그들이 여기로 올까?" # 2b61905cb914bfa028f3eda5c462dd6961d84ead
-	harran.0027.tooltip: "$harran.0026.tooltip$" # 44ba5aea507b3a64e639a3dab5a33382325c70f3
-	harran.0028.t: "신플라톤주의자들이 하란에 정착하다" # c897661f8f6519060a14ab36a433215c05f93fb9
-	harran.0028.desc: "아테네의 신플라톤주의 학원은 한때 저명한 이교도 학자들로 가득한 존경받는 교육 기관이었습니다. 그러나 종교적 견해가 다른 지역 당국은 결국 그들의 기관에 대한 자금 지원을 중단했고, 그들은 더 관대한 통치자를 찾아 망명하게 되었습니다. 마침내 그들은 후원자를 찾았습니다.\n\n나는 이 학자들이 얼마나 오랫동안 방황했는지 그들의 곤경에 대해 들었습니다. 나는 그들의 재능이 제대로 평가받지 못했다는 것에 대한 연민뿐만 아니라 기회가 왔다는 것에 대한 흥분도 느꼈습니다. 이 학자들이 [harran_county.GetNameNoTier]에 피난처를 구할 수 있는지 알아볼 생각을 하고 있다는 소식을 들었을 때, 나는 그들을 내 땅으로 맞이해야 한다는 것을 알았습니다. [harran_county.GetNameNoTier]의 이교도 공동체 역시 이곳에 신플라톤주의 학원이 재건된다는 소식에 흥분하고 있습니다." # 39428edcd3f33677a6b9529a4620af94fa9617c9
-	harran.0028.a: "신플라톤 아카데미에 새로운 날이 밝았습니다." # d9fdd8732bfbe77f1746877cf77211c55a463f68
-	harran.0028.tooltip: "[harran_neoplatonic_academy|E]가 새로운 보금자리를 찾았으며, 중동과 소아시아의 [rulers|E]는 이제 #Bold 신플라톤주의 학원 후원#! [decision|E]을 내릴 수 있습니다. 또한, [harranian_courtiers|E]가 이 지역에서 가끔 나타날 것입니다." # d4645c7ee681f7ff344a35fc1f2c3f4766afe67a
-	harran.0029.t: "신플라톤주의자들이 하란에 정착하다" # c897661f8f6519060a14ab36a433215c05f93fb9
-	harran.0029.desc: "신플라톤주의 학파는 한때 아테네에서 존경받는 교육 기관이었으며, 저명한 이교도 학자들로 가득했습니다. 그러나 종교적 견해가 다른 지역 당국은 결국 그들의 기관에 대한 자금 지원을 중단했고, 더 관대한 통치자를 찾아 망명하게 되었습니다. 마침내 그들은 후원자를 찾았습니다.\n\n[neoplatonic_academy_lover.GetTitledFirstName]은 오랫동안 방황했던 이 학자들을 불쌍히 여겨 그들과 합의하여 [harran_county.GetNameNoTier]에 정착하도록 허락했습니다. 그 도시의 이교도 공동체는 이 존경받는 학자들이 새로운 보금자리에 온 것을 기쁘게 환영하고 있습니다. 분명히 이것은 신플라톤 전통 역사에서 멋진 새로운 장의 시작일 것입니다." # 2e79605a3ded2ffa7d7b62f4bee09ad93357b41c
-	harran.0029.a: "과연 그들이 이번에는 얼마나 오래 버틸 수 있을까?" # 8fca1907a4d5ed2dd6031c0105c4afa337597417
-	harran.0029.tooltip: "역사적 배경:\n#F $harran$에서 관리력 기술을 가진 사람들의 평판은 보통 평판보다 더 높습니다.#" # 44ba5aea507b3a64e639a3dab5a33382325c70f3
-	harran.0030.t: "하란 학자" # 0d1bc8d7f29ee9c6c89ed4d6f1b78594c4fa9aa9
-	harran.0030.desc: "[harran_county.GetNameNoTier] 사람들은 수 세기 동안 고대 이교도 신앙의 마지막 보루 중 하나였습니다. 그들 중 많은 이들은 지역 전역에서 지식과 지혜로 유명합니다.\n\n오늘, [spawned_harranian_courtier.GetFullName]이라는 한 남자가 내 궁정에 도착하여 내 후원을 구했습니다. 그를 그리고 그의 가족을 지원한다면, 그는 학자이자 사상가로서 자신의 봉사를 제공할 것입니다. 하란 사람들은 지역 전역에서 신비적, 영적, 물질적 모든 분야에서 엄청난 지식으로 유명합니다. 따라서 궁정에 한 사람을 두는 것은 큰 이점이 될 것입니다." # c171ee1c7d69ad735f729a5ec34e60e97fc054dd
-	harran.0030.a: "좋아, 그렇게 하지! 그를 환영해주게." # 7cae235ea882b4006d421518f719e81096d7fc2e
-	harran.0030.a.tooltip: "[spawned_harranian_courtier.GetFullNameNoTooltip]은(는) [harranian_courtier|E]으로서 학술 논문을 작성하여 영지의 지식에 기여할 수 있습니다." # ee98710632bfc5377f4862430d64df11ae1c941f
-	harran.0030.b: "나는 그런 자에게 쓸모가 없다." # 2a031d1ec63fb6b24b59c564e336e168058ed7a8
-	harran.0031.t: "하란 조약" # d8e89a9ab0718b21ed773117176dec52d93924a7
-	harran.0031.desc: "저의 궁정에 있는 하란 학자 [harranian_scholar.GetFullName]이 학술 논문 작성을 완료하고 저에게 사본을 제출했습니다. 하란인의 고대 지식은 결국 나머지 세계와 공유되어야 합니다. 어쨌든 [harranian_scholar.GetTitledFirstName]은 지역의 동료 학자들로부터 존경을 받을 뿐만 아니라, 저 또한 그처럼 재능 있는 개인을 지원함으로써 어느 정도의 명예와 명성을 얻을 것입니다." # aa518f443f7c7f7941cef5768146940f066bdf09
-	harran.0031.a: "훌륭하군요! 다른 사람들도 이 논문에서 배울 수 있기를 바랍니다." # 7c1fdd2894067491e2557af490f6db69ef3f54c7
-	harran.0032.t: "신플라톤주의 학자" # a16071fa9de59296032017bfd67066ed7141b036
-	harran.0032.desc: "[harran_county.GetNameNoTier]에 신플라톤주의 학자들을 맞이하고 그들에게 새로운 학원을 설립하도록 허용한 직후, 나는 그들의 저명한 대표자 중 한 명인 [spawned_harranian_courtier.GetTitledFirstName]에게 접근받았습니다. 그는 나의 공정하고 관대한 지도력에 감명받아 나의 궁정에서 나와 긴밀히 협력하고, [harran_county.GetNameNoTier]에서 번성하는 학원과 나 사이의 연락책 역할을 하고 싶어합니다. 실제로, 나의 궁정에 그렇게 학식 있고 재능 있는 사람을 두는 것은 가치 있는 일일지도 모릅니다…." # cca6a732a3969c0164df2465bed7a630078da452
-	harran.0032.a: "물론입니다! 제 궁정에 그런 학자를 모시게 되어 영광입니다." # 2eb6604ea667edbf219886dc4a30ec562424ee58
-	harran.0032.b: "그 대신 동료 학자들과 함께 그들을 돕는 것이 더 좋을 것입니다." # 51cc320a4c9bc17e519d388738cb22b3f87e5955
-	harran.0033.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0033.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0033.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0034.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0034.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0034.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0035.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0035.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0035.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0036.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0036.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0036.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0037.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0037.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0037.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0038.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0038.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0038.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0039.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0040.t: "하란의 운명" # e201785ae54608b12f1248f03924cf3c02cb74f1
-	harran.0040.desc: "북부 메소포타미아의 험준한 언덕에 자리 잡은 [harran_county.GetNameNoTier]는 수세기 동안 고대 시대의 호기심 어린 유물과 같았습니다. 그 주민들은 대부분 이교도이기 때문입니다. 그들은 수년 동안 이슬람 이웃들과 평화롭게 공존해 왔고, 그들의 학식으로 널리 존경받고 있지만, 최근에 그들이 더 큰 자율성과 자유를 요구해 왔다는 소식을 들었습니다. 유명한 학자 [thabit_ibn_qurra.GetFullName]와 같은 영향력 있는 하란 가문의 누군가에게 하란에 대한 어느 정도의 권력과 지도력을 허용하는 것이 현명할 것이라고 말하는 사람들이 있습니다." # adeea449713fb6d81523a961886dd789461b879b
-	harran.0040.a.caliph: "저는 하란에 대한 더 직접적인 통제가 가능했으면 좋겠습니다." # b90eb9b3e290165010c08422f118f9b84073fcfd
-	harran.0040.a.non_caliph: "[caliph_dude.GetTitledFirstName]이 이러한 권장 사항을 무시하고 있다는 소식을 들었습니다." # 3dcceb8bbdccd8214bbb794514373bef3a8ceac3
-	harran.0040.b.caliph: "동의합니다. [thabit_ibn_qurra.GetTitledFirstName] 님이 좋은 지도자가 될 것이라고 생각합니다." # 68310ef46688cc4e3ab82f974050a33cb59a8a63
-	harran.0040.b.non_caliph: "[caliph_dude.GetTitledFirstName]께서 하란에 더 큰 자치권을 부여할 것이라고 들었습니다." # 4c8c2925bf98e8917200bf7d99de63dddeaee2b3
-	harran.0040.no_thabit_ibn_qurra_sad: "당신은 [THIS.Char.GetTitledFirstNameNoTooltip]으로 계속 플레이하게 되며, [thabit_ibn_qurra.GetFullNameNoTooltip]는 하란의 소유권을 받지 못하게 됩니다. 즉, 사용자 지정 통치자 설계를 통해 생성된 경우를 제외하고 지도상의 어느 곳에도 [thabit_ibn_qurra.GetFaith.GetAdjective]인 [landed|E] [rulers|E]가 없다는 의미입니다." # 7182d93669263bf031a2d13df7ef19ca0c9334f6
-	harran.0041.t: "귀향" # 1591daac0f9183b301452d601edf9248e5cb949e
-	harran.0041.desc: "[harran_county.GetNameNoTier]의 거리를 걸은 지 여러 해가 흘렀습니다. 한때 비옥했던 농지는 먼지로 뒤덮였고, 사람들은 변하고, 성장하고, 죽으며, 삶은 언제나처럼 덧없이 이어집니다. 하지만 하늘의 별들은 어떨까요? 별들은 항상 그래왔듯이, 그리고 앞으로도 영원히 그 자리에 있을 것입니다. 별을 읽는 자들은 운명이 독자적인 생각을 가질 수 있다는 것을 알고 있습니다.\n\n[caliph_dude.GetTitledFirstName]께서 저를 하란의 새로운 지도자로 선택하신 것은 기이한 운명의 장난입니다. 저는 한때 이곳에서 추방당했지만, 이제 승리하여 돌아왔습니다. 한때 저는 존경받는 지혜의 집에서 모든 신앙의 가장 위대한 지성들과 만나 이른 아침 늦은 시간까지 고대 지식의 서적을 탐독하는 학자로 영원히 남을 것이라고 예상했지만, 별들은 제 삶에 다른 방향을 설정했습니다." # 5b361780bf771beda7b804af3dd426f8ee773035
-	harran.0041.desc.landless: "제가 [harran_county.GetNameNoTier]에서 살았던 지도 여러 해가 흘렀습니다. 한때 비옥했던 농토는 먼지로 뒤덮였고, 사람들은 변하고, 성장하고, 죽어가며, 삶은 늘 그렇듯 덧없이 흘러갑니다. 하지만 하늘의 별들은 어떠한가? 별들은 늘 그래왔듯 앞으로도 영원히 그 자리에 머무르겠지요. 별을 읽는 사람들은 운명이라는 것이 제멋대로일 수 있다는 것을 압니다.\n\n운명의 기묘한 장난으로 저는 명망 높은 지혜의 집의 학자로서 [GetTitleByKey('c_baghdad').GetNameNoTier]에 와서, 모든 신앙의 가장 위대한 지성인들을 만나 밤늦도록 고대의 지식 서적을 탐독하게 되었습니다. 여전히 저는 매일 별들이 저를 위해 무엇을 예비해 두었을지 궁금해합니다." # fc705691a3719e167e0c299c47720b730ede3f2f
-	harran.0041.a: "어떻게 이 지경에 이르게 된 거지? 무엇이 날 여기로 이끌었을까?" # 9d4ab2f695756c9669dae962ab73514577e75f73
-	harran.0041.a.tooltip: "네, 알겠습니다." # a60464333dc87e91127a101265a0c7964b652c75
-	harran.0041.b: "하지만 과거는 과거일 뿐입니다. 이제 미래로 나아갑시다!" # 8d26bda91d0f8b48d0e598ac7b0324ac46f0f8ce
-	harran.0041.b.tooltip: "이것은 빠른 시작 옵션입니다. 시작 상황은 무작위로 선택됩니다." # 167a7c2b6351eba370ea21392c8113d166715732
-	harran.0042.t: "출생" # 7d79ee81a983198f514b8750d4db56bdc8cbaca0
-	harran.0042.desc: "제가 태어난 직후, 부모님께서는 저를 지역 점성술사에게 데려가셨습니다. 저희 하란인들은 그리스와 로마 시대부터 대대로 전해 내려온 천체에 대한 지식을 자랑스럽게 여깁니다. 제가 지혜의 집에서 학자로 일할 때조차도 제 연구의 상당 부분은 천문학에 집중되었습니다.\n\n점성술사는 제가 특정 별의 영향 아래에서 태어났기 때문에 흥미로운 삶을 살 것이라고 말했습니다. 이 점성술사에 따르면, 그 별은 저에게 명성과 뛰어난 지능뿐만 아니라…" # 33b1156879d031670258139c07210827096d10df
-	harran.0042.a: "매력과 수려한 외모" # 93eba94df8098d03d498ba6fc6307104697883c0
-	harran.0042.b: "강대한 힘과 풍모" # 13edca610941714c553a4a0b1717be5d82953f05
-	harran.0042.c: "훌륭한 가문과 번영" # 8ed04c92117c015a305e1d911122d49eb77b4609
-	harran.0042.d: "막대한 영향력과 명성" # a15a61933a7e67446fdae197729040026034967a
-	harran.0043.t: "유년 시절" # 9a9f029bbee91aaca1d216c0fae9b15c233bd81d
-	harran.0043.desc: "저의 아버지와 할아버지께서는 하란 지역 지도부에서 여러 중요한 직책을 맡으셨습니다. 그분들은 또한 부유한 지주이자 저명한 학자였으며, 따라서 저희는 하란에서 매우 두드러진 존재였습니다. 저는 특권층 집안 출신이었지만, 삶이 항상 행복했던 것은 아닙니다. 어렸을 때 저는 제 인생관을 영원히 바꾸어 놓은 트라우마적인 경험을 겪는 불운을 겪었습니다." # b95713a52875de6e36156118b711cb6562419f8c
-	harran.0043.a: "한번은 도적들이 우리 가문의 저택을 습격하여 약탈했습니다." # dc81d67f66d0afe0a6dbacc7a3fc4b408651ee51
-	harran.0043.a.tooltip: "그들은 우리 귀중품을 많이 가져갔지만, 다행히 우리는 거의 다치지 않고 탈출했습니다. 저는 어렸지만 용감하게도 그들이 우리를 해치기 전에 대부분의 가솔에게 알렸습니다." # 82d2d28da761d7a1ed7de0b618cf454058bf500b
-	harran.0043.b: "길고 고통스러운 질병으로 거의 죽을 뻔했지만 어떻게든 살아남았습니다" # 122c13a0889f88584bef3ab00ebaa9b21b1d90de
-	harran.0043.b.tooltip: "저는 1년 동안 허송세월했고, 오직 여행하는 의사의 노력 덕분에 겨우 살아남았습니다. 저는 삶이 얼마나 덧없을 수 있는지 배웠습니다. 하지만 그 의사는 제게 의술에 대한 한두 가지를 가르쳐주었습니다." # f9ef04320262a44ed1bb94a47cdf30a7db16ca55
-	harran.0043.c: "내 친구이자 첫사랑이자, 모두가 훌륭하다고 말했던 소녀가 죽었습니다." # 26ad4e855733447695ae9bcb0652e78f8d0bef5f
-	harran.0043.c.tooltip: "내가 그녀를 구할 수 있었을 텐데! 하지만 전부 내 잘못이었어, 그렇지? 만약에... 아니야. 그녀는 갔어. 이제 내가 할 수 있는 건 없지만, 그녀에 대한 기억은 영원히 내 마음에 새겨져 있을 거야." # b6f7dfeebbbfa7bc5bf5f724920b2182029dc1ca
-	harran.0043.d: "지역 불량배인 귀족의 아들과 그의 하인들이 나를 습격했습니다" # eb8ba84b66196d10d239feb3cfa6f246ef7950cf
-	harran.0043.d.tooltip: "그들은 나를 상처 입히고 못쓰게 만들었지만, 그 후 내 결의는 더욱 강해졌다. 하지만 오늘날까지도 나는 그 놈을 여전히 증오한다. 만약 그가 아직 하란에 있다면… 나는 무엇을 할지 모르겠다!" # dcf3a41e29e9d808163351f987735c98890b5330
-	harran.0044.t: "교육" # aaf87fe57ae6d323db5496e6e27b7bc55f15827c
-	harran.0044.desc: "따라서 하란 사회의 상류층으로 태어났음에도 불구하고, 내 삶이 항상 즐겁고 재미있었던 것만은 아니었다. 적어도 2~3세기 전부터 저명한 하란 학자 가문 출신이었기에, 나에게는 많은 기대가 걸려 있었다.\n\n나는 운 좋게도 고대 그리스인까지 거슬러 올라가는 혈통을 가지고 있으며 오늘날에도 여전히 자랑스럽게 서 있는 하란의 신플라톤 학원에서 공부할 수 있었다. 나와 학원의 다른 학생들에게는 많은 사람들이 죽어가는 유산으로 여기는 것을 지키려는 엄청난 부담이었다. 그럼에도 불구하고, 나의 스승들은 지식에 대한 나의 열정을 칭찬했으며, 철학 외에도 특히... 배우는 데 관심이 있었다." # 7f7d67606d56adeeffb82b7623ee92a91d6b4437
-	harran.0044.a: "수사학과 연설" # be0a9c89562b55f7d9e06c334e1704e68503380d
-	harran.0044.b: "지도력과 전쟁" # ae74ca4fe3f146ac44e14aeb6c5bf72ac5c4e59f
-	harran.0044.c: "천문학과 수학" # 47fabf3fa2b62c5091727a26a854a304e6e9971f
-	harran.0044.d: "인간 행동" # 98fc906d58c5d9c18c75f28f6bd80d5ecb5a349c
-	harran.0044.e: "역사와 문학" # 11b941ce8724eb3fc5b2374428224218c4ca0bc2
-	harran.0045.t: "성년기" # 8abf1a942ca2c7f12dcea71421b90bf4c280a522
-	harran.0045.desc: "학자로서의 명성이 높아지면서 저는 곧 바그다드의 지혜의 집에 합류했습니다. 저는 이 권위 있는 기관에서 많은 영향력을 얻었습니다. 어떤 사람들은 제가 하란인으로서 우주의 신비에 대한 타고난 이해력이 있다고 생각했습니다. 소문에 따르면 저의 지적 혈통은 플라톤으로부터 저에게까지 끊기지 않고 전해져 내려왔다고 합니다!\n\n저는 하란인뿐만 아니라 아랍인, 페르시아인, 아시리아인, 그리스인, 인도인, 심지어 중국인까지 많은 다른 학자들을 만나고 교류했습니다! 하지만 제 가장 친한 친구는 동료 하란인인 [thabit_ibn_qurra_friend.GetFullName]였습니다. 어쨌든 그들은 모두 그곳에 있는 이유가 있었지만, 저에 대해서는..." # 0584212c353037733ca65b1c269ab694e426acb2
-	harran.0045.a: "선조의 유산을 지켜야 할 의무가 있었습니다" # c9196866735ee1da9643ff2a74dd47c184afe583
-	harran.0045.b: "위대한 사상가로서 불멸을 얻고 싶었습니다" # 95210ea3ea95d7668528a120664c60fdc2594e15
-	harran.0045.c: "사회에 기여하고 다른 사람들을 돕고 싶었습니다" # 4947bb85efbab6e860736b24e89a8377b9d90385
-	harran.0045.d: "심심해서 딱히 할 일이 없다고 느꼈습니다" # 3898454de306204f50f31ca1addb45fb79457ce5
-	harran.0046.t: "가정 생활" # 4ed250dfa4f4717b546d562dd268889eb1b3d60b
-	harran.0046.desc: "이 시기에 저는 제 가족이 수년간 바라왔던 대로 아내를 찾았습니다. 그녀는 어디서 온지도 모르는 천한 여자가 아니었습니다. 사실, 그녀는 제 동료 하란인들이 받아들일 만한 사람이었고, 이미 제 아들을 낳았습니다. 그녀는 다음과 같았습니다:" # 3fb42f12dc727da04634d281cdb2eaf0dac5c32b
-	harran.0046.a: "하란에서 온 나의 어린 시절 친구" # 56adcf897685e4e0a9cbd25ff06355fab9d379bd
-	harran.0046.a.tooltip: "그녀의 출신은 미천했지만, 우리 가문은 그녀의 미덕과 능력을 알아보았습니다. 우리는 서로를 매우 사랑하며, 그녀는 저의 뮤즈입니다." # f5924ee337e967a62c902760d52e02da7625bb96
-	harran.0046.b: "저명한 하란 가문의 일원" # 545502ec5e09272f30904264175dcfc89ad00dee
-	harran.0046.b.tooltip: "그녀는 막대한 재산의 상속인이었습니다. 따라서 결혼은 분명 실리적이었지만, 이보다 더 나쁜 결혼도 많았을 것이라고 생각합니다." # e1c887cb533dd47a77d7f70aea472839ab7e8e08
-	harran.0046.c: "외국 학자의 딸" # 04873be29b365a5d0f73e3f31b7b05a351818848
-	harran.0046.c.tooltip: "나는 바그다드에서 알게 된 인맥을 통해 그녀의 아버지를 만났고, 그는 내 스승 중 한 명이었습니다. 슬프게도 그는 최근에 세상을 떠났습니다." # 13791eefde90972397f84be5a464499005a96afc
-	harran.0046.d: "몇 년 전 만났던 영리한 노예 소녀" # 1494a47e061c6352fe8876d47e61de8487667e93
-	harran.0046.d.tooltip: "나는 함께 일하던 노학자가 소유한 총명하고 아름다운 소녀와 사랑에 빠졌습니다. 나는 그녀에게 이름을 알리면 그녀를 사서 해방시키고 결혼하겠다고 약속했습니다." # 7ed11b10755847630105b33da37b2ce87fddf8ab
-	harran.0047.t: "마지막 이교도" # caa2bf5b7aea15e9c01f1ed5af47197601c80f23
-	harran.0047.desc: "하지만 이제 나는 모든 하란의 지도자로서 집에 왔습니다! 엄청난 영광이지만, 부럽지 않은 자리이기도 합니다. 우리 중 일부는 새로운 신앙의 시대에, 독자적인 공동체로서 생존할 가능성이 희박하다고 말합니다. 나는 동의하지 않습니다. 시간이 우리 편이 아닙니다. 이집트인과 그리스인 같은 고대 민족의 방식을 따르는 사람은 거의 없습니다.\n\n해가 지기 시작하면서 나는 계속해서 길을 걸었고, 결국 하란의 웅장한 신전에 도착했습니다. 그 문에는 우리의 존경받는 조상인 플라톤의 말이 새겨져 있었습니다. “자신의 본질을 아는 자는 신성해진다.”\n\n점점 어두워지는 하늘을 올려다보기 전에 그 인용문을 몇 번 읽었습니다. 나는 별을 바라보며 우리의 운명을 읽을 수 있는 척하다가 집으로 돌아갔습니다." # 07c00f74f91287088d5a6a7357342f8b67ea30f2
-	harran.0047.desc.landless: "저는 여전히 [GetTitleByKey('c_harran').GetNameNoTier] 고향을 생각합니다. [GetTitleByKey('c_baghdad').GetNameNoTier]에 있는 것은 큰 영광이지만, 이교도로서의 어려움도 있습니다. 우리 중 일부는 새로운 신앙의 시대에 우리 고유의 공동체로서 생존할 가능성이 희박하다고 말합니다. 저는 동의하지 않습니다. 시간이 우리를 거스르고 있습니다. 이집트인과 그리스인 같은 고대인들의 방식을 따르는 사람들은 거의 없습니다.\n\n나는 전에 자주 지나다녔던 하란의 오래된 웅장한 사원을 생각합니다. 그 문에는 우리의 존경받는 선조인 플라톤의 말이 새겨져 있습니다. "자신의 본질을 아는 자는 신성하게 된다."\n\n점점 어두워지는 하늘을 바라보며 밖에 서서 몇 번이나 그 말을 중얼거립니다. 나는 다시 안으로 들어가기 전에 우리의 운명을 읽을 수 있는 척하면서 별을 바라봅니다." # 62e8cc176c7cf7034f15e2523b1d1cbc17e08908
-	harran.0047.a: "저는 이 땅의 마지막 이교도인 하란 사람 타비트입니다." # 541fef70d0d7febe8949a33ad1eb6b7ced209d83
-	harran.0047.info: "#emphasis Historical Context:#! The pagan Thabit ibn Qurra (826 or 836 to 901 CE) was a scholar based in Baghdad during the Islamic Golden Age. He contributed to many fields, including mathematics, astronomy, and physics.\n\nThabit is not known to have wielded much political power per se, and may have even been ostracized from his hometown of Harran, so his depiction here as a playable character is fictitious (and mainly to have a plausibly playable Harranian). Still, Thabit held some degree of influence as the court astronomer and personal friend of Caliph al-Mu'tadid.\n\nThabit's descendants - both pagan and Muslim - would continue to play prominent roles in Islamic intellectual circles well into the 11th century." # null
-	harran.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0050.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0050.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0050.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0051.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0051.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0051.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0052.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0052.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0052.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0053.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0053.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0053.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0054.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0054.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0054.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0055.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0055.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0055.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0056.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0056.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0056.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0057.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0057.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0057.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0058.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0058.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0058.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0059.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0059.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0059.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0060.t: "이븐 나브한" # 4962044a66d06b6045ca07971b81e9c94e06c3ce
-	harran.0060.desc: "오늘, 저는 [ibn_nabhan.GetFullName]이라는 학자를 직접 만날 것입니다. 그는 [harran_county.GetNameNoTier]와 연관된 저명한 가문 출신이며, 유명한 이교도 하란 학자인 저명한 [thabit_ibn_qurra.GetFullName]과 그의 증손자 [ibrahim_al_sabi.GetFullName]의 후손입니다. 그의 가족 대부분은 한두 세대 전에 이슬람교로 개종했으며, 가장 유명한 사람은 그의 할아버지 [hilal_al_sabi.GetFullName]이며, 그는 다른 사람들이 회의적임에도 불구하고 항상 개종이 진실했다고 주장해 왔습니다." # 49e0cb6c19ab430a857c678d90dcbd2c657769e0
-	harran.0060.desc.caliph: "\n\n즐거운 지적 대화를 나누는 와중에, 제가 제안을 다시 꺼냅니다. "하란의 사형집행관으로 당신을 임명하려는 제 제안에 대해 생각해 보셨습니까? 어쨌든 당신 가족의 고향이기도 합니다. 아직 관심 있으십니까?"" # 39a087fa5cc9f9006f9f6566941332f40d44f509
-	harran.0060.desc.non_caliph: ""정말로 [caliph_dude.GetTitledFirstName]께서 당신을 하란의 사형 집행인으로 임명하겠다고 제안하셨습니까? 하란이 당신 가문의 고향임을 고려하면 엄청난 영예일 것이라고 생각합니다."" # 4e77c370e0510182a8369225c25f036fa7796893
-	harran.0060.a: ""아아," 그가 고개를 저으며 말합니다. "그런 제안은 거절할 수밖에 없겠군요."" # dd9fd3aee0d6cca651bfe995642c296e6d15d978
-	harran.0060.b: ""네, 하란으로 갈 것입니다." 그가 대답합니다. "그것은 나의 운명입니다."" # d51a28cab52d13c35dd08dc16ff91569cdaacc69
-	harran.0060.no_ibn_nabhan_sad: "당신은 계속해서 [THIS.Char.GetTitledFirstNameNoTooltip]로 플레이하게 되며, [ibn_nabhan.GetFullNameNoTooltip]은 [harran_county.GetNameNoTier]의 소유권을 받지 못합니다. 이는 그가 [thabit_ibn_qurra.GetFaith.GetAdjective]가 아니더라도 사용자 지정 통치자 설계자를 통해 만들어진 경우를 제외하고 지도상의 그 고대 [faith|E]와 연결된 [ruler|E]가 없다는 것을 의미합니다." # 425a7f3c8681594545d8198a8a39e3e6d92e641f
-	harran.0061.t: "귀향" # 1591daac0f9183b301452d601edf9248e5cb949e
-	harran.0061.desc: "[harran_county.GetNameNoTier]의 거리를 걸은 지도 벌써 오랜 세월이군요. 한때 비옥했던 농토는 먼지투성이가 되었고, 사람들은 변하고, 자라고, 죽고, 언제나 그랬듯이 인생은 덧없이 흘러갑니다. 하지만 하늘의 별들은? 그들은 언제나 그랬듯이, 그리고 영원히 그 자리에 있습니다. 별들을 읽는 사람들은 운명이 스스로의 생각을 가질 수 있다는 것을 알고 있습니다.\n\n[caliph_dude.GetTitledFirstName]가 저를 하란의 새로운 지도자로 선택한 것은 참으로 기묘한 운명의 장난이었네요. 도시는 쇠락의 길을 걸었고, 아마도 고대 이교도 공동체와 학자들의 쇠락과 관련이 있었을 겁니다.\n\n고대 신플라톤 학당과 달의 신전의 폐허를 지나갑니다. 땅에 무릎을 꿇고 잔해 더미를 뒤지다가 신전 문의 잔해를 발견했습니다. 플라톤의 글씨가 그 나무에 새겨져 있었습니다. "자신의 본질을 아는 자는 신성해진다."\n\n그 구절을 몇 번 읽은 후, 점점 어두워지는 하늘을 올려다봅니다. 운명을 어떻게든 읽을 수 있다고 상상하며 별들을 바라봅니다. 그리고 집으로 돌아갑니다." # b7ccd8772d626c4759900588fbb01f8fff7e9767
-	harran.0061.desc.landless: "제가 [harran_county.GetNameNoTier]의 거리를 거닐었던 지 오래되었습니다. 한때 비옥했던 농지는 먼지로 뒤덮이고, 사람들은 변하고, 자라고, 죽어가며, 삶은 늘 그렇듯 영원하지 않습니다. 하지만 하늘의 별들은 어떻습니까? 별들은 항상 그랬듯이 앞으로도 영원히 그 자리에 있을 것입니다. 별을 읽는 사람들은 운명이 제멋대로일 수 있다는 것을 알고 있습니다.\n\n제가 다시 돌아와서 현재의 [harran_county.GetNameNoTierNoTooltip]의 모습을 목격하게 된 것은 기이한 운명의 장난입니다. 이 도시는 쇠퇴하고 있었는데, 아마도 고대 이교도 공동체와 학자들의 쇠퇴와 관련이 있을 것입니다.\n\n저는 옛 신플라톤 아카데미의 폐허와 달 신전의 폐허를 지나갑니다. 바닥에 무릎을 꿇고 잔해를 뒤적이다가 신전 문의 잔해를 발견합니다. 아직도 나무에 새겨진 플라톤의 말을 알아볼 수 있습니다. "자신의 본질을 아는 자는 신이 된다."\n\n점점 어두워지는 하늘을 올려다보기 전에 그 문구를 몇 번이고 읽었습니다. 어떻게든 우리의 운명을 읽을 수 있는 척하며 별을 바라보다가 집으로 돌아가는 길을 찾습니다." # 240ddb139d9beaf464424497220c9fc331d4725f
-	harran.0061.a: "저는 하란의 고대 이교의 마지막 후예인 [ibn_nabhan.GetFirstNameNoTooltip]입니다." # 6bf9ee82f3bd8098858d62b145f5b8b5f3cd99c0
-	harran.0061.info: "#emphasis Historical Context:#! Ibn Nabhan (1020 or 1024 to 1118 CE) was one of the last known descendants of the famed, 9th century Harranian pagan scholar Thabit ibn Qurra. He is known for his account of his grandfather Hilal's conversion to Islam several years before his birth.\n\nRICE's event chain for Ibn Nabhan is a semi-plausible but ultimately fictitious way to convert to Harranism for this later start date. In reality, he was likely a devout Muslim, or at least one who went through the trouble of emphasizing his family's embrace of Islam in his writings, perhaps to address any suspicions that their conversion was not genuine." # null
-	harran.0062.t: "방문객" # 358a0b8372bd1db56ad8b0eefe11f9f3853eb82d
-	harran.0062.desc: "나는 서재의 어둠 속에서 민트 차를 홀짝이며 앉아 있는데, 내가 아는 사람이 방으로 들어온다. 그는 내가 바그다드에 살 때 함께 일했던 지혜의 집 출신 학자이며, 나에게 합류하며 미소를 짓는다. 나는 그에게 차를 권하고, 우리는 여러 주제에 대해 즐겁게 이야기를 나누며 근황을 나눈다.\n\n마침내 우리의 대화는 종교 문제로 흘러간다. "며칠 전에 당신의 할아버지 [hilal_al_sabi.GetFullName]에 대해 흥미로운 이야기를 들었습니다."라고 친구가 나에게 말한다.\n\n또 이 이야기인가? 나는 불편하게 몸을 움직이지만 아직 아무 말도 하지 않고 계속 차를 마신다." # 83628aacfccda201796b5d7797e273b617faa231
-	harran.0062.a: "제 신앙심 부족은 그에게 딱히 새로운 소식이 아닙니다." # a7d8a491433ebef9f36145a73bc79b2033ca0de6
-	harran.0063.t: "힐랄의 꿈" # 7072973523b6dbac01ed894a6bdaa05d5a295e16
-	harran.0063.desc: ""당신은 수년 동안 당신의 할아버지께서 꿈 덕분에 이슬람교로 개종하셨으며, 그것은 알라께서 직접 주신 확실한 징표라고 말씀하셨습니다." 내 친구가 미소짓습니다. "제 멘토 중 한 분이신 노신사분께서 당신의 할아버지와 안면이 있으셨는데, 그런 일은 들어본 적이 없다고 하셨지만, 아마도 연로하셔서 기억력이 예전 같지 않을 수도 있다고 인정하셨습니다. 저는 당신을 의심하는 것은 아니지만, 당신의 할아버지께서 진실을 말씀하셨는지 궁금하게 만듭니다. 그분께는 실례가 되지 않기를 바랍니다."\n\n나는 턱을 쓰다듬으며 조용히 친구를 응시합니다. 많은 사람들이 우리 할아버지의 이야기를 의심합니다. 나는 이 사실을 알고 있습니다.\n\n나는 어떻게 대답할지 고민합니다." # c5245a96a62d02c6a67863bb5482b1354997fe9c
-	harran.0063.a: ""그 이야기는 진실이야, 친구! 내 할아버지는 진정한 신봉자셨지."" # 4f0e7775e969ea9044261cb503cdf3da11e995e2
-	harran.0063.a.tooltip: "당신은 [THIS.Char.GetFaith.GetAdjective] [faith|E]의 진실한 신자로 남아있으며, 조상들의 고대 방식을 탐험하려는 유혹을 결코 받지 않을 것입니다." # bb77e64e2605b8054a263939c4eeebbbf6588ea3
-	harran.0063.b: ""음.... 제 할아버지는 진실한 신앙인이셨던 것 같은데...."" # 508bc335ce225fcb0568ed43fe5c10bed380f806
-	harran.0063.b.tooltip: "당신은 조부께서 조상의 [thabit_ibn_qurra.GetFaith.GetAdjective] 신앙에서 개종하신 것에 대해 내심 의구심을 품고 있음을 인정합니다. 어쩌면 미래에 이 신앙에 대해 좀 더 탐구해 볼 수도 있을 것입니다...." # f89ec4a86fef5785944e34efbbfe0bf694f2e0ee
-	harran.0064.t: "진실한 신앙인?" # 750862712621f452ab949f8ca99ca6e1b35b9151
-	harran.0064.desc:0 ""Perhaps my mentor misremembered due to old age," my acquaintance shrugs. "I don't mean to question your own faith, of course. I just thought it was something interesting. No matter, I am probably  making you uncomfortable, so I apologize."\n\n"Of course," I say politely. We sip tea for a few more moments, savoring the taste, before I continue: "자, 이제 화제를 바꿔서, ...이 쓴 새로운 논문을 읽어보셨는지요."" # 50ef1d60f6e8e52d61dca8ee9efb7a4a785806ca
-	harran.0064.a: "내 지인은 떠나기 전까지 몇 시간 동안 이야기를 나눴습니다." # cbc393b4de9ae14057cf7e651fa8c81c8469799e
-	harran.0065.t: "진실한 신앙인?" # 750862712621f452ab949f8ca99ca6e1b35b9151
-	harran.0065.desc: ""하지만 뭐가?" 그가 말합니다.\n\n나는 얼굴을 찌푸립니다.\n\n"그가 비밀리에 배교자였다는 뜻은 아니지만..." 나는 신중하게 말을 고릅니다. "나는 항상 그가 자신의 원래 종교에 동정심을 갖고 있다고 느꼈어요. 그가 우리 조상들에 대해 애정을 담아 이야기하는 방식에서 알 수 있었죠."\n\n"하란 이교도들의 학문적 업적은 웃어넘길 일이 아니지! 당신의 조상, [thabit_ibn_qurra.GetFullName]은 그 시대에 드문 학자였어." 내 친구가 고개를 끄덕입니다. "하지만 당신 할아버지의 마음이 그 꿈 덕분에 진실하다면, 그것이 전부이지. 물론 당신의 옛 신들을 여전히 믿는 몇몇 제멋대로인 친척들이 남아 있고, 당신이 가장 신앙심이 깊은 사람이 아니라는 것도 알지만, 적어도 당신도 신자잖아, 그렇지?"" # 1f3a0bb516333eaf470c18191133613bcc933286
-	harran.0065.a: "나는 다시 멈췄다가 "물론입니다."라고 말합니다." # f07e55a0310c6bdbde43e669eb4f86ea6bc34f67
-	harran.0065.tooltip: "당신은 할아버지의 개종이 진실이었는지 의문을 품기 시작하고, 결국 당신 자신의 [faith|E]에 대해 깊이 생각하게 됩니다. 이것은 당신을 한동안 침울한 기분에 빠뜨리겠지만, 아마도 미래에 해결책을 찾을 수 있을 것입니다...." # 41d838ab7f2a72140f30b8fd2ea34a4897c34d43
-	harran.0066.t: "영혼의 고뇌" # be72da561da4ceb36613f846481492e8df7780ac
-	harran.0066.desc: "시간이 꽤 흘렀지만, 제 할아버지 [hilal_al_sabi.GetFullName]에 대해 학자 친구와 나눴던 이야기가 아직도 제 마음속에 무겁게 자리 잡고 있습니다. 결국, 그 심오한 꿈은 종교적 개종에 대한 다른 비슷한 이야기에서 흔히 듣는 주제입니다.\n\n저는 할아버지의 개종의 진실성을 맹렬히 주장할 뿐입니다. 아마도 그것에 대한 제 자신의 의심, 그리고 제 자신의 믿음에 대해 부정하고 있는지도 모릅니다.\n\n하란에 정착한 이후로 가끔씩 제 가문의 기록을 살펴보곤 했습니다. 대부분이 먼지 쌓인 지식의 서적이고, 어떤 것은 1~2세기 정도 된 것이며, 한때 하란에 있었던 사라진 신플라톤 아카데미에서 나온 것도 몇 권 있습니다. 하지만 오늘 저는 할아버지 책상을 정리하다가 처음에는 알아보지 못했던 작은 잠긴 상자를 발견했습니다." # 531cf60ad2c21afd8f3c76cb8b55558bb131c452
-	harran.0066.a: "잠시만 기다려 주십시오…." # 0811717e08313b9a9d97fde781675acd08ce9e79
-	harran.0067.t: "할아버지의 기록" # 5e59cba57a854b755478572bc81136e6a62f976b
-	harran.0067.desc: "나는 그 상자를 알아본다. 할아버지께서는 여러 해 전 돌아가시기 직전에 내게 그 열쇠를 주시면서, 내가 우주에서 내 자리에 대해 의문을 품을 때 열어보라고 말씀하셨다. 나는 열쇠를 꺼내 떨리는 손으로 상자를 연다.\n\n더 많은 종이들이다. 당연하지.\n\n나는 그중 몇 개를 훑어보고 이것들이 할아버지께서 여러 문제에 대해 쓰신 개인적인 편지나 생각처럼 보인다는 것을 깨달았다. 대부분 종교적인 성격이었다. 그것들은 [thabit_ibn_qurra.GetFaith.GetAdjective] 신앙의 쇠퇴에 대한 한탄과 할아버지 자신의 영적으로 자신의 충성이 어디에 있는지에 대한 내적 투쟁이었다." # 5371a61dea09bb2c2dd77052bd30eb144559bd84
-	harran.0067.a: "정말로 암울한 기록이군요! 나중에 좀 더 자세히 살펴봐야겠습니다." # 25def5c00c9201b6d354a522b7d891657e333715
-	harran.0067.tooltip: "이제 당신은 이븐 나반으로서 당신의 [신앙|E]에 대해 느끼는 딜레마를 해결하기 위해 노력할 수 있는 [결정|E]에 접근할 수 있습니다. 당신은 어떤 영적 길을 선택하시겠습니까? 결국 하란인들의 고대 유산을 어떻게 기리시겠습니까?" # 6d4f241e375fefc08c80c7456bd412cfcb1d3450
-	harran.0068.opening: "손자에게:" # f12b193d5fc9497c011cf66704d42ac14ec05d1c
-	harran.0068.desc: "만약 당신이 이것을 읽고 있다면, 나는 이미 오래전에 떠났을 것입니다. 당신은 지혜롭고 사려 깊은 사람이며, 조상들에게 부끄럽지 않을 것입니다. 나의 종교 선택으로 인해 내가 느꼈던 영적인 고뇌를 부디 깨달아 주십시오. 우리 친구들과 이웃의 새로운 신앙을 따를 것인가, 아니면 우리 조상들의 전통을 따를 것인가에 대한 고뇌 말입니다.\n\n당신 역시 언젠가 의심을 품을 수도 있을 거라 걱정되기에, 당신이 올바른 결정을 내리는 데 도움이 될 수 있도록, 선택이 무엇이든 간에 이 글과 여러 텍스트에 대한 나의 주석을 준비했습니다.\n\n먼저 플라톤에 대한 나의 주석을 살펴보는 것이 좋습니다. 플라톤의 텍스트는..." # b7d0b80f4232f144e0c87fb90f588f5a15e090cc
-	harran.0068.a: "할아버지, 감사합니다. 이 글들을 공부하겠습니다." # c51353d8e7f7751b8adf66e0650bb843ea593194
-	harran.0068.tooltip: "당신은 할아버지의 글을 읽고 묵상하며, 영적인 혼란을 해결하는 데 도움이 될 답을 찾을 것입니다." # 2235e0874ad75cfdba27820b9f78b05cfa1fc132
-	harran.0069.t: "선택" # 2186fe92b0b031a6567793feaad76cd46113933c
-	harran.0069.desc: "저의 할아버지께서 남기신 여러 글과 해설을 몇 주 동안 연구한 결과, 저는 이제 저의 내적 갈등을 더 잘 이해하게 되었습니다. 그것은 할아버지께서 느끼셨던 것과 같은 것이었습니다. 저의 존경받는 조상님들께서는 배움이 있는 [hilal_al_sabi.GetFaith.GetAdjective] 학자로서의 지위를 통해 큰 영향력을 얻으셨지만, 요즘에는 그 혈통에 대한 관심이 줄어들었습니다. 심지어 하란의 신플라톤 아카데미조차 더 이상 존재하지 않습니다.\n\n저는 이 문제에 대해 깊이 생각하고 가족들과도 제 결정을 논의했습니다. 이로 인해 결과가 있을 수 있다는 것을 알지만, 저는 제 마음속 깊은 곳에서...에 더 가까운 유대감을 느낀다고 결심했습니다." # da93ab93f3568f766070b275716eabb4807d395f
-	harran.0069.a: "내가 항상 믿어왔던 진정한 [ROOT.Char.GetFaith.GetAdjective] 신념." # 1da17c5980c6c83540b4bdffeae8e3be427eec48
-	harran.0069.a.tooltip: "하란의 옛 방식은 과거의 희미한 그림자에 불과합니다. 지금은 [THIS.Char.GetFaith.GetAdjective] [faith|E]를 믿는 신자로 남을 것입니다." # 3cfca0cfe2f8b999fe9a20bc3827ddafeb2b151e
-	harran.0069.b: "이제 제가 받아들일 제 조상들의 고대 [thabit_ibn_qurra.GetFaith.GetAdjective] 신앙입니다." # 31953a288a79483337f3238aebaa84875aca4bba
-	harran.0069.b.tooltip: "하란의 이교도는 소수이지만 자부심을 가지고 버텨야 합니다! 당신은 [thabit_ibn_qurra.GetFaith.GetAdjective] 영적, 철학적 텍스트에서 할 수 있는 모든 것을 배워서 그들의 진정한 이교 신앙을 실천할 수 있어야 합니다. 그것은 이제 당신의 종교이기도 합니다." # 92c7cdd833f3264f5c8155fba65ace0fa891bee7
-	harran.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0080.t: "수마타르 하라베시" # 502a473a67bb7018879ee2e45fcdd064c4362341
-	harran.0080.desc: "수 세기 동안 하란의 이교도들은 그들의 주요 신 중 하나인 달의 신 신에게 기도하기 위해 종종 인근의 수마타르 하라베시 오아시스로 갔습니다. 지금도 여전히 많은 우상과 제단이 있습니다. 하란 사람들은 최근에 큰 의식을 치르기 위해 그곳에 갔으며, 아무런 사건 없이 진행되었습니다." # 07163ad18748f8c33ba313c5193294129554ffd6
-	harran.0080.a: "그래서 그렇습니다." # 6eea30280f1f45112011b0b1de60716319e87829
-	harran.0081.t: "하란의 징조" # 2f912f9b492dfc41fe05dab58af70d181a3cb54d
-	harran.0081.desc: "하란의 이교도들은 점술에 숙련된 사람들입니다. 그들은 별을 읽고 미래의 진로를 계획하는 데 능숙합니다. 하란 점성가들의 최근 달 점괘에 따르면 하란 사람들에게 곧 좋은 일이 일어날 것이라고 합니다. 어쩌면 그들의 노력에 더욱 생산적이고 유능해지도록 영감을 줄 수도 있을 것입니다." # 1c1a895bcbbb5e415998b028572d502401b574ff
-	harran.0081.a: "그럴지도 모르겠군요!" # c0ee63e6124ae9e5467fc375f2175fad447e8479
-	harran.0082.t: "하란의 불길한 징조" # 31b83993314de291b37e6ab3dbe41c0a6d4b24ac
-	harran.0082.desc: "하란의 이교도들은 점술에 능통합니다. 그들은 별을 읽고 미래의 과정을 계획하는 데 능숙합니다. 하란 점성가들의 최근 달 점괘에 따르면 하란 사람들에게 곧 나쁜 일이 일어날 것이라고 합니다. 아마도 그들 사이에 얼마간의 공황과 고통을 야기할 것입니다." # 827e52b3d419309b0b80509f0b35b15ba1ac836f
-	harran.0082.a: "정말 그렇게 나쁠까요?" # 8cc977c132052ecfde0aeeefbdbcc26253beee04
-	harran.0083.t: "벌집 건물" # a9db65715b407b2916e19547cad9d67d85b13fe3
-	harran.0083.desc: "하란 사람들은 다른 사람들과 구별되는 독특한 전통을 많이 가지고 있습니다. 예를 들어, 아주 옛날부터 그들은 벌집 모양의 집에서 살았습니다. 오늘날 하란의 지역 지도부를 방문하면서 저는 하란 귀족의 소유인 이 집들 중 하나에 들어가 문제를 논의합니다. 그것은 가장 큰 종류이며, 오히려 저택입니다." # 8394d19a23a23d33ac0a57e8c9bdf0bb32c39795
-	harran.0083.a: "매우 멋진 건축물이군요! 아름답습니다." # b0f3352c3656873510e4c4459d4a94a42a9aec72
-	harran.0083.b: "이것들은 그저 평범한 것들인데, 왜 호들갑이지?" # 45cafe8e409836cd7ceb451c421ceb5d62e15bbb
-	harran.0084.t: "탐무즈 축제" # 5d2190b05b4995fe9f696e617edaf7c14d38651b
-	harran.0084.desc: "수천 년 동안 하란의 이교도들이 개최하는 주요 축제 중 하나는 탐무즈 축제입니다. 그들은 매년 죽는 그들의 신 탐무즈(그리스의 아도니스와 동일시됨)를 애도합니다. 그들은 슬픔을 공개적으로 드러내며 울고 애도합니다. 올해 축제는 유난히 성공적이었던 것으로 여겨져 지역 이교도들에게 열심히 일하고 평화와 조화를 이루며 살도록 영감을 주었습니다." # 269360af48b540229dd9804c0dbe74e55f5ac91e
-	harran.0084.a: "흥미롭군요." # 7c5f3c731eb864fb669d23301fd2f445731fa3d7
-	harran.0084.b: "이교도적인 불경!" # 2104cb0ca3d921cb3a0266d91154bd2deccfe924
-	harran.0085.t: "지식 확장" # 0eed62f61ee3a73b92cc12482fb521cf9c2ed4c3
-	harran.0085.desc: "하란의 신플라톤 학파는 학문과 과학에 대한 중요성을 계속해서 입증하고 있습니다. 최근 몇몇 저명한 하란 학자 및 철학자들이 다양한 지적 주제에 대해 설명하는 여러 권의 문헌을 발표했으며, 이는 명확한 지혜와 계몽적인 본질로 인해 이 지역 전역에서 찬사를 받았습니다." # f7f0cde98c61090b273a473729c7aa1e7207755c
-	harran.0085.a: "좋은 소식입니다!" # fe319d8fea9428a3e2d09a3bfbd8dfb008f3cfaf
-	harran.0086.t: "하란의 이교도" # 3c6dd0d6f1b1b994a77c42fdb4980471efed7e87
-	harran.0086.desc: "외부인들은 하란 시에 사는 여러 종류의 이교도들을 잘 구별하지 못합니다. 플라톤이나 플로티노스와 같은 고대 철학자들의 후계자라고 자처하는 신플라톤주의 학파와 관련된 좀 더 교육받은 엘리트들이 있습니다. 그런 다음, 엘리트들이 미신적이라고 여기는 방식으로 신, 탐무즈, 헤르메스와 같은 신들을 숭배하는 평민들이 있습니다.\n\n오늘날, 아카데미의 학자 중 한 명을 작은 연회에 초대하는 동안, 그는 하란의 일부 이교도 농민들의 교육받지 못하고 미신적인 성격에 대해 한탄합니다. 그에게 그들은 이교도를 현시대에 철학적, 영적 질문을 탐구하기에 적합하지 않은 후진적인 종교로 오해하게 만듭니다." # 30c8eb5bbad89156267a734c7e68383a8b2143f2
-	harran.0086.a: "적어도 당신과 당신의 동료들은 무지와 싸우고 있군요!" # 9ab319601e6cb414460f3ababa33cc669004cb19
-	harran.0086.b: "농민 대중은 종교에 관계없이 다 새대가리 아닌가?" # a5dcb53ea658c9f54d20a77a22b2700b3a598aa7
-	harran.0086.c: "어찌 남을 업신여기시는가? 교만은 현명한 학자에게 어울리지 않는 행동이오." # 024a1f613eb0d808c9bd790068447bbe288e0722
-	harran.0087.t: "학문적 연계" # fda7d6722d4947525a605c8e11850dd665f9d252
-	harran.0087.desc: "하란의 신플라톤 학파 구성원 몇 명이 외국 땅에서 지식을 교환하고 돌아왔습니다. 그들은 또한 제게 유용할 수 있는 여러 연줄을 가지고 왔습니다." # cd01424ecad1de97cfab113dca81a22ae9113fe3
-	harran.0087.a: "다행이군요. 귀환을 환영합니다!" # 5122c09616c5d13c39445cbd8607a819896273f3
-	harran.0088.t: "이교 다양성" # 2e15c505a07c52ba4f8500ecea182cb3c347c068
-	harran.0088.desc: "내가 하란을 다스린 시간이 길어질수록, 이곳에 사는 이교도들의 다양성에 더욱 놀라게 된다. 그들은 숭배하는 대상이나 숭배 방식의 차이에도 불구하고 수세기 동안 함께 살아남았다. 이것이 잦은 갈등으로 이어질 것이라고 생각할 수도 있겠지만, 놀랍게도 이들은 때로는 긴장이 있더라도 서로 잘 지낸다. 그들의 지도자들과 이야기를 나눠본 결과, 그들은 자신들의 독특한 공동체가 서로 협력할 때 더욱 강해지고 어떤 어려움도 더 잘 견딜 수 있다는 것을 깨닫고 있는 것 같다." # 4d1d7df447180c0df700a4d9943d560f7817e79d
-	harran.0088.a: "우리가 배워야 할 귀중한 교훈입니다." # 6eddce18963e28ba6047ed86d65ceec7aeeb23ef
-	harran.0088.b: "그들은 여전히 잘못된 길을 걷는 이교도입니다." # 8b642d8c75cfed83b68fdfaeecb403b66fa54995
-	harran.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	harran.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  dynn_al_harrani: "알-하라니" # e8f63a3347379e140bd6512fdc29905df8cae529
+  dynn_al_sabi: "알-사비" # 1b02bb6f530a37a07c1071da2851266c87b97b32
+  Qurra: "쿠라" # e90290b94148d08bd301f113fa1c8049cd3830a4
+  Zahrun: "자흐룬" # b0190f5b13b81ab8dd0abd7854fa11f864e2f85f
+  Karaya: "카라야" # 733be784cab5846c50547bf9b622787ca8831d76
+  Salamanus: "살라마누스" # b681e24421f575a6da09546efed25521c789d885
+  al_muhassin: "알무핫신" # 30345b580b760805c16c57ca89b4631399ffd1ea
+  dynn_nabhanid: "나브하니드" # 0a963ba1b336b76fedb32e920ebcbf953998d626
+  muhammad_ghars: "무함마드 가르스 알니마" # 0a2a30a3a13d685f075744da865f01d9da3f5dee
+  abu_ali_muhammad: "아부 알리 무함마드" # 6eb3b475f6267dc055cf53812b5813738fa9978c
+  RICE_harran_geography_req: "[realm_capital|E]은 [GetTitleByKey('c_harran').GetNameNoTier] 근처에 있습니다" # 95b97fbab769480062226fae40ea84dfb63c6f43
+  RICE_harran_neoplatonic_academy_saved_tooltip: "[harran_neoplatonic_academy|E]는 결코 쇠퇴하지 않을 것이며, [harranian_courtiers|E]는 학문의 발전을 위해 중동에 계속 나타날 것입니다" # 1c3a9a26d9cec314c47d1cb2d8c95fcd6f501237
+  Plotinus: "플로티누스" # 21c80151e661e6c214cbce6dc1f94d75538ae8e3
+  Proclus: "프로클로스" # a25ab295ed582d73c16b419022e02008886b757c
+  Iamblichus: "이암블리코스" # c9e222544dc17e26bfa201a598ef6855d3db31f4
+  Porphyry: "포르피리오스" # e4fd2fd54d60ef7b0fc37d41dda4dd04847f23a9
+  Damascius: "다마스키우스" # 6e113bd05d191e1656648a51438bae74552657e3
+  Simplicius: "심플리키우스" # 4d7f1101eb44928a5759b8435642eaf478b29753
+  ammonius_saccas: "암모니우스 사카스" # 364268b1ed042690091826985407306b2e0d7105
+  dynn_harrani_motto: "자신의 본질을 아는 자는 신성해진다." # 8881f79d7264d2864d8bdc824c64a511d9aafa22
+  RICE_harran_geography_own_county_req: "당신은 [GetTitleByKey('c_harran').GetNameNoTier] 근처의 [county|E]를 소유하고 있습니다" # f424c4f899a49c80abe7aee21e0c5fe37c1ad4a8
+  abu_bakr_ahmad: "아부 바크르 아흐마드" # 27ccd520fb2ee97064594a3adeb961221b196609
+  RICE_dynn_ibn_wahshiyya: "이븐 와흐시야" # 45b8d4becfa9ec73add3d9f316558b5ed7ed2e3f
+  nick_RICE_the_chaldean: "칼데아인" # 4a39efdd2282902b6d9beea726813480e27bcb38
+  nick_RICE_the_chaldean_desc: "이 캐릭터는 고대 메소포타미아인들의 후손으로 이라크 남부에서 아람어를 사용하는 원주민, 이른바 이라크의 나바테아인(레반트의 나바테아인과 혼동하지 마십시오)이라고 불리는 자신의 백성을 자랑스러워합니다. 그래서 그는 #italic $nick_RICE_the_chaldean$#!으로 알려져 있습니다. 흥미롭게도, 그는 고대 아시리아 왕 센나케립의 후손이라고 주장하기까지 합니다." # 29c3110bebc925c72c335012d739f218719944fe
+  RICE_region_mesopotamia: "메소포타미아" # 0bcfcca4536d0fa01d6f102ee6e7c2e04a774626
+  dynn_RICE_khazari: "하자르" # 4a86a5f760d6dec5c6d5cdaf157431b2ee88d20e
+  Kundaj: "쿤다지" # 8a8b24044ea2640230f755404ee1e48d94a90329
+  abd_al_latif: "압드 알 라티프" # 775443768f6ba9383991092ce5fa8b68ecc7872f
+  abu_l_izz: "아부 알-'이즈" # 1599d86997e1ef77fbc65ca433285695f73f1bcc
+  trait_RICE_the_nabataean: "나바테아인" # 42ab6721f96652dad1806fe960da485d6ffe2669
+  trait_RICE_the_nabataean_desc: "이 캐릭터는 고대 메소포타미아인들의 끊임없는 지혜, 즉 조상들의 유산을 밝히고 이해하고자 합니다.\n\n#weak 이 특성은 [traveling|E] 시 관련 [travel_options|E]를 선택하여 레벨을 올릴 수 있습니다.!#" # 9914abd790360304d2775b84e6f066cbbe61b356
+  trait_RICE_the_nabataean_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]은(는) 자신의 조상, 즉 고대 메소포타미아인들의 영원한 지혜의 유산을 밝히고 이해하고자 합니다.\n\n#weak 이 특성은 [traveling|E] 할 때 관련 [travel_options|E]를 선택하여 레벨을 올릴 수 있습니다." # eb1508f574d68ba04c92041b30d05a961bb3239c
+  trait_track_RICE_the_nabataean_agriculture: "농업 지식" # a3393cd24ab4fca14a3fb2e41568428281342630
+  trait_track_RICE_the_nabataean_agriculture_desc: "우리가 그것을 돌보는 방법을 안다면 지구는 번성할 수 있습니다." # 7f309ba0343bf5c4594ad96f768a3ce572336f1a
+  trait_track_RICE_the_nabataean_religion: "종교 지식" # b213dc3edb082ad1bcd46966bf6bbf7d76806504
+  trait_track_RICE_the_nabataean_religion_desc: "의식과 이해를 통해 하늘에 더 가까워집니다." # 552fad3baa19f9441d01fef4f8acaf3fd0131998
+  trait_track_RICE_the_nabataean_lore: "민속 지식" # 681f1160f145ac7036f01a71de03bbf54279b491
+  trait_track_RICE_the_nabataean_lore_desc: "대대로 전해 내려오는 이야기는 계속해서 우리에게 영감을 줍니다." # 7c92197bdac028f7575fcd268a6fa71034379c11
+  RICE_the_nabataean_progress_towards_trait_0_tt: "[THIS.Char.GetShortUINameNoFormat|U]이(가) [GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E]을(를) 채택할 수 있습니다" # df6e55f28bad19589b7ad8c5fd1039c0a293dc89
+  RICE_the_nabataean_progress_towards_trait_1_tt: "[THIS.Char.GetShortUINamePossessive] [GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E] 경험치 획득량이 약간 증가합니다." # 8dcd0b9628f15ace8badc65682faeee4ef841fac
+  RICE_the_nabataean_progress_towards_trait_2_tt: "[THIS.Char.GetShortUINamePossessive] [GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E] 경험치 획득량 증가" # badeb9c1da198b9eee0e207a9828ebde4d463107
+  RICE_the_nabataean_progress_towards_trait_3_tt: "[THIS.Char.GetShortUINamePossessive] [GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E] 경험치 획득량을 크게 증가시킵니다." # b8c9631d60df1ec3e6d372a3397adf1354317dc3
+  RICE_the_nabataean_xp_gain_message: "[GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] 경험" # 4af38bdde49d8d82c3fc846021d8b5d88e102950
+  RICE_ibn_wahshiyya_agriculture_option: "농업 연구" # 240cdbf04e1128be1d8ff2f41c2414b96d440039
+  RICE_ibn_wahshiyya_agriculture_option_desc: "당신은 나바테아인의 배움의 관점에서 농촌 지역을 여행하면서 농업 방법을 기록하고 분석하는 시간을 가질 것입니다." # 22c7da8a9796d8ac7238432b2f7023ff997fc168
+  RICE_ibn_wahshiyya_agriculture_option_effect_1: "[영지|E]에 들어갈 때마다 무작위로 최대 [provisions_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_provisions_gain')]#! [보급품|E]([모험가|E]인 경우) 또는 [gold_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_gold_gain')]#! ([모험가|E]가 아닌 경우)을 얻고, $trait_track_RICE_the_nabataean_agriculture$ 트랙에서 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_travel_xp_gain')]#! [trait_level_track_xp|E] [GetTrait('trait_RICE_the_nabataean').GetName( GetNullCharacter )] [특성|E]을 얻습니다." # 48d20a621367d9a5e5c085dbaa3514426d4a67cc
+  RICE_ibn_wahshiyya_agriculture_option_effect_2: "대부분의 백작령에서 이러한 일이 발생할 확률은 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_agriculture_option_bonus_chance')|0]%#!입니다. 만약 당신이 $heritage_syriac_name$ [heritage|E] [culture|E] [문화|E], [GetReligionByKey('semitic_religion').GetAdjective] 또는 [GetReligionByKey('hellenism_religion').GetAdjective] [faith|E]의 [county|E]를 [traveling|E]하거나 [GetGeographicalRegion('RICE_region_mesopotamia').GetName] [region|E]에 있다면 이 확률은 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_agriculture_option_bonus_chance_plus')|0]%#!로 증가합니다." # 78dcdd5a7ae872f8db7793a080e094a6e6245f76
+  RICE_ibn_wahshiyya_religion_option: "종교 고찰" # 7d9712cee7a4bfff4b07e8124d3947c55de23db4
+  RICE_ibn_wahshiyya_religion_option_desc: "알겠습니다. 나바테아의 관점에서 철학과 영성에 대한 생각을 펼쳐보겠습니다." # 764c1d828ac9432976dd3b226a6ab953a4080f11
+  RICE_ibn_wahshiyya_religion_option_effect_1: "[barony|E]에 들어갈 때마다 최대 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_piety_gain')]#! [piety|E]와 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_travel_xp_gain')]#! [trait_level_track_xp|E]를 [GetTrait('trait_RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E]의 $trait_track_RICE_the_nabataean_religion$ 트랙에서 무작위로 얻을 수 있습니다." # f81aab30a86e68f5cd00fd5e86d98c3b57818010
+  RICE_ibn_wahshiyya_religion_option_effect_2: "대부분의 백작령에서 이 일이 일어날 확률은 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_religion_option_bonus_chance')|0]%#!입니다. $heritage_syriac_name$ [문화|E] [유산|E]의 [백작령|E]을 [여행|E] 중이거나, [GetReligionByKey('semitic_religion').GetAdjective] 또는 [GetReligionByKey('hellenism_religion').GetAdjective] [신앙|E]이거나, [GetGeographicalRegion('RICE_region_mesopotamia').GetName] [지역|E]에 있으면 이 확률이 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_religion_option_bonus_chance_plus')|0]%#!로 증가합니다." # 9b8b34e7e12bbf3919a3129417a76f89b529074c
+  RICE_ibn_wahshiyya_lore_option: "민담 기록" # b5bc23290b94681184b0f71af6c2f1a17a6c8504
+  RICE_ibn_wahshiyya_lore_option_desc: "나바테아 학문의 관점에서 평민들에게 점성술, 마법, 역사 등에 대한 믿음을 물어보겠습니다." # 8d1f97864337f6b7619029766d93609adf411190
+  RICE_ibn_wahshiyya_lore_option_effect_1: "[barony|E]에 들어갈 때마다 최대 [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_prestige_gain')]#! [prestige|E]와 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_travel_xp_gain')]#! [trait_level_track_xp|E]를  [GetTrait('trait_RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E]의 $trait_track_RICE_the_nabataean_lore$ 트랙에서 무작위로 얻을 수 있습니다." # 4878c332265933eaefe690593a4e33c723fd8924
+  RICE_ibn_wahshiyya_lore_option_effect_2: "대부분의 백작령에서 이 일이 일어날 확률은 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_lore_option_bonus_chance')|0]%#!입니다. 이 확률은 $heritage_syriac_name$ [heritage|E] [culture|E], [GetReligionByKey('semitic_religion').GetAdjective] 또는 [GetReligionByKey('hellenism_religion').GetAdjective] [faith|E]이거나 [GetGeographicalRegion('RICE_region_mesopotamia').GetName] [region|E]에 속한 [county|E]를 [traveling|E]할 경우 #V [GetPlayer.MakeScope.ScriptValue('RICE_ibn_wahshiyya_lore_option_bonus_chance_plus')|0]%#!로 증가합니다." # b8305ad3d5ab4ac64ec666a12b34edcccbc17bf6
+  RICE_ibn_wahshiyya_travel.agriculture.toast.success: "이븐 와시야가 나바테아 농업 지식을 습득합니다!" # fd7986b2c8364103428ee2cf80a0bde89bd2bfcc
+  RICE_ibn_wahshiyya_travel.religion.toast.success: "이븐 와흐시야가 나바테아 종교 지식을 얻었습니다!" # 157cdcf1dec06a68c1082f8c86481ac174f003b6
+  RICE_ibn_wahshiyya_travel.lore.toast.success: "이븐 와흐시야가 나바테아 민속 지식을 얻었습니다!" # 494957ee650406d837446f4065a437b33ff57d57
+  RICE_ibn_wahshiyya_travel.agriculture.foreign.toast.success: "이븐 와흐시야가 나바테아 농업 지식을 고찰합니다!" # 16c65075838d76e035c658a8d5f7e6e2afcdb9b7
+  RICE_ibn_wahshiyya_travel.religion.foreign.toast.success: "이븐 와흐시야가 나바테아 종교 지식을 고찰합니다!" # bafc8ecc463e103dda7b0cc66afcd25041774b12
+  RICE_ibn_wahshiyya_travel.lore.foreign.toast.success: "이븐 와흐시야가 나바테아 민속 지식을 고찰합니다!" # 6026be2257524901b754760abc500ce802bfd260
+  game_concept_harranian_courtier: "하란의 궁정 신하" # 2e913fc61b8d07cab48d75e0ac40ceb219147524
+  game_concept_harranian_courtiers: "하란의 궁정 신하" # 539396e95822253837a198bec49a731c57565ac3
+  game_concept_harranian_character: "하란인 인물" # 091814e31aa01c03e5a2176fdbe109dcdc1405d2
+  game_concept_harranian_characters: "하란 캐릭터" # e658980d813608d4c6f63ce63c7f15edec26733a
+  game_concept_harranian_courtier_desc: "때때로, 중동의 [rulers|E]에게 이벤트로 $game_concept_harranian_characters$가 무작위로 나타날 수 있습니다. 그들은 메소포타미아 북부에 있는 하란 시에서 수 세기 동안 살아남은 메소포타미아와 헬레니즘 요소가 결합된 고대 혼합 신앙인 하란 [GetReligionFamily('rf_pagan').GetName] 종교를 따릅니다.\n\n$game_concept_harranian_characters$는 높은 [learning_skill|E]을 갖는 경향이 있으며, 유능한 [courtiers|E]가 될 수 있습니다. 때로는 $game_concept_harranian_courtier$가 다양한 주제에 대한 학술 논문을 작성할 수도 있습니다. 이는 특별한 [artifact|E]를 부여합니다.\n\n[harran_neoplatonic_academy|E]가 쇠퇴하면 $game_concept_harranian_characters$의 생성이 중단됩니다." # ec1ca9ca85e2b8aec834ec1a5b089ca3397e4962
+  game_concept_harran_neoplatonic_academy: "신플라톤 학파" # ed5887c661d55efc1c1de67a5d6e3130fa9a01a4
+  game_concept_harran_neoplatonic_academy_desc: "초기 시작 시점에, 하란 [county|E]에는 $game_concept_harran_neoplatonic_academy$라는 [special_building|E]이 있습니다. 일반적인 보너스 외에도 다른 특별한 기능이 있습니다.\n\n첫째, 이 건물은 중동 [rulers|E]의 [courts|E]에 [harranian_courtiers|E]이 생성되는 데 필요합니다. 시간이 지나면 아카데미가 쇠퇴하고 강력한 [GetReligionFamily('rf_pagan').GetName] [ruler|E]가 신플라톤 아카데미를 재활성화하기 위한 [decision|E]을 내리지 않으면 [special_building|E]이 비활성화되기 때문입니다.\n\n둘째, 하란 인근과 메소포타미아 및 레반트 지역에서 높은 [learning_skill|E]을 가진 [rulers|E]는 아카데미를 후원하는 [decision|E]을 내릴 수 있으며, 여기에는 일시적인 [character_modifier|E]를 포함한 다양한 보너스가 주어집니다. 또한 [harranian_character|E]이 당신에게 나타날 가능성이 높아집니다." # 3009d7966b56ef6c4e197790ecd23874a1cee8d3
+  game_concept_harran_temple_of_the_moon: "달의 신전" # 68b681234ca2408523e103edc6e1442c585c9f7a
+  game_concept_harran_temple_of_the_moon_desc: "초기 시작 시점에서 하란 백작령의 탈 마흐라 남작령은 $game_concept_harran_temple_of_the_moon$이라고 불리는 특별 건물을 가지고 있습니다. 이 건물은 수 세기, 어쩌면 수천 년 동안 하란에 서 있었던 달신 신을 모시는 고대 사원을 나타냅니다.\n\n이 사원은 일반적인 보너스 외에도 주변의 [GetReligionFamily('rf_pagan').GetName] [군주|E]가 특별 결정을 내려 그곳에서 숭배를 할 수 있도록 해주며, 이를 통해 [명성|E] 및 [신앙심|E]에 보너스를 얻을 수 있습니다. 하지만 비 이교도 [신앙|E]의 [군주|E]는 사원을 영구적으로 파괴하는 결정을 내릴 수 있습니다. 사원이 파괴되면 이교도 [군주|E]는 더 이상 해당 [결정|E]에 접근할 수 없습니다." # 78b5c3b854d184e02b4967a1a6abde8ae2e9244f
+  activity_semitic_praying_to_a_planet: "신성한 광휘에 대한 기도" # 6b239a3654b162e79a22775a14b4f94cd2063aec
+  activity_semitic_praying_to_a_planet_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U]의 신성한 광채에 대한 기도" # 87b68caefffdc665337b5d22cf42524ccf4e118c
+  activity_harran_make_offerings_to_moon_temple: "달의 신전에서 예배" # 656ca63dafda30ad42f375e345414af195c014cd
+  activity_harran_make_offerings_to_moon_temple_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U]의 달의 신전 숭배" # 7cc46f8fdcdef44ad8e0e3343cbe3f133a8aa44d
+  building_type_RICE_harran_temple_of_the_moon: "죄의 신전" # 593833b815095fcd0b19692ef281308373f59619
+  building_type_RICE_harran_temple_of_the_moon_desc: "하란의 달의 신 신을 모시는 신전은 수 세기 동안 지속되어 바빌로니아인, 페르시아인, 그리스인, 로마인 등의 흥망성쇠를 목격했습니다. 신은 고대 메소포타미아 왕국 시대부터 이 지역에서 숭배받아 왔습니다." # c5d5622e03ae62c126366dcc49a3d4924f661a3b
+  building_RICE_harran_temple_of_the_moon: "$building_type_RICE_harran_temple_of_the_moon$" # d936a2e30f0d4a7caf7e6256265c47cea5210c85
+  building_RICE_harran_temple_of_the_moon_desc: "$building_type_RICE_harran_temple_of_the_moon_desc$" # 767eb9373df3a313550754b8c6951e925b603ffe
+  building_type_RICE_harran_baalbek_temple: "주피터 헬리오폴리타누스 신전" # 876319c980e4560c31facc71c0cbf98115e0d2d1
+  building_type_RICE_harran_baalbek_temple_desc: "바알베크에 있는 유피테르 신전은 고대 로마 세계에서 가장 큰 신전 중 하나였습니다. 바알베크에서 유피테르는 셈족 신 바알 하닷과 동일시되었습니다. 고대 자료에 따르면, 신전을 장악한 우상 조각상은 오른손에 채찍을 들고 왼손에는 천둥 번개와 곡식 줄기를 들고 있는 전차병의 자세를 취한 턱수염 없는 황금빛 신을 묘사했습니다." # c72975ff1b189a360627103c0d6feacc9f6abd2a
+  building_RICE_harran_baalbek_temple: "$building_type_RICE_harran_baalbek_temple$" # 55799216649be2b7ca07e0196c42e7fcadd3adf2
+  building_RICE_harran_baalbek_temple_desc: "$building_type_RICE_harran_baalbek_temple_desc$" # 86bbb6419c73e225c39d3255e2350e35b697a18d
+  building_type_RICE_harran_neoplatonic_academy: "신플라톤 학술원" # ed5887c661d55efc1c1de67a5d6e3130fa9a01a4
+  building_type_RICE_harran_neoplatonic_academy_desc: "수 세기 동안 하란의 아카데미는 플라톤의 가르침에 대한 신비로운 해석에서 파생된 신플라톤주의로 알려진 고대 철학의 마지막 잔재였습니다. 이 아카데미는 지역 학습 중심지이며 중동의 지적 문화에 참여한 많은 학자를 배출했습니다." # 645356bd1ff5316c3947ad51df6424171955915e
+  building_RICE_harran_neoplatonic_academy: "$building_type_RICE_harran_neoplatonic_academy$" # 847922c8231ff96db39bfd2fce1a3a767c190147
+  building_RICE_harran_neoplatonic_academy_desc: "$building_type_RICE_harran_neoplatonic_academy_desc$" # e63cd7f254e6f8651f9a02e6331bd9a852263baf
+  RICE_harran_moon_temple_destroyed_tooltip: "광신적인 이교도 외 통치자에 의해 달의 신전이 아직 파괴되지 않았습니다" # 3f5ceff81daea51d78ccb921d8b85f6fabbeeae3
+  RICE_harran_neoplatonic_academy_declined_tooltip: "네오플라톤 학파는 아직 쇠퇴하지 않았습니다" # d060efe1f7b6cd5df68c3b347b054188fe779aff
+  building_type_RICE_harran_neoplatonic_academy_athens: "신플라톤 학술원" # ed5887c661d55efc1c1de67a5d6e3130fa9a01a4
+  building_type_RICE_harran_neoplatonic_academy_athens_desc: "아테네는 현재 플라톤 학파의 직계 후손이라고 주장하는 여러 이교도 학자들의 본거지입니다. 하지만 이들의 독자적인 이교주의에 대한 확고한 옹호는 비이교도 권력자들을 불쾌하게 만들 수 있습니다..." # 823d421b742b770dfc1d9ecd9f827d0a302661d2
+  RICE_harran_sun_blessing: "솔의 축복" # b01849a9f2897d6804452804c5dfec5ee021ad44
+  RICE_harran_sun_blessing_desc: "그들은 일곱 행성 중 하나인 태양이 이 캐릭터를 총애한다고 말합니다." # 5be0fdfb2dae30ded99cb58392b434dfa88f9c27
+  RICE_harran_moon_blessing: "루나의 축복" # d6fdc100d4aab9b8845466cc28b3d612832a8431
+  RICE_harran_moon_blessing_desc: "일곱 행성 중 하나인 달이 이 캐릭터에게 호의를 보인다고 합니다." # bbf03f30fccbea6378d8f5d9d6b4de5a14f9c060
+  RICE_harran_mercury_blessing: "머큐리의 축복" # 7199961d08a6a1c245f41f8661dd9fe6e6ea25e7
+  RICE_harran_mercury_blessing_desc: "일곱 행성 중 하나인 수성이 이 인물을 총애한다고 합니다." # 40e1782e05313af927bd55eac679727bf675ee77
+  RICE_harran_venus_blessing: "비너스의 축복" # da4191e0170af634c5af85ce48c0be9d78af528f
+  RICE_harran_venus_blessing_desc: "그들은 일곱 행성 중 하나인 금성이 이 캐릭터에게 호의를 보인다고 말합니다." # cc7483c5b3c4e41ac1afbdc31b2095ff23fdaa20
+  RICE_harran_mars_blessing: "마르스의 축복" # d493cd98535f2f2930337f2d5123d48e7bd2a5a7
+  RICE_harran_mars_blessing_desc: "그들은 일곱 행성 중 하나인 화성이 이 캐릭터에게 호의를 보인다고 말합니다." # dbfb060b20bed48162322bea68fd2326f8e995c9
+  RICE_harran_jupiter_blessing: "주피터의 축복" # e2840884bd0afddf0c3697ccbfbe9a87c07f1aac
+  RICE_harran_jupiter_blessing_desc: "그들은 일곱 행성 중 하나인 목성이 이 인물에게 호의를 보인다고 말합니다." # 08267b24420275267f3129f97684efa3710e0411
+  RICE_harran_saturn_blessing: "사투르누스의 축복" # 2ae8b3bd853fbedca81efa9e7dbee97b8ee788ce
+  RICE_harran_saturn_blessing_desc: "일곱 행성 중 하나인 토성이 이 캐릭터를 총애한다고 합니다." # 0c65981509f483b60a5e22b406ad5afc3138ca42
+  RICE_harran_revitalized_neoplatonic_academy_leader: "하란에 신플라톤 학파 학원 재건" # c910ab332a2eef1d4fe045dd45f3d346af66d2d8
+  RICE_harran_revitalized_neoplatonic_academy_leader_desc: "이교 학문에 가장 큰 공헌을 한 지도자가 있다면, 분명 이 인물일 것입니다. 신플라톤 아카데미를 세계에서 제자리를 찾도록 노력한 그의 업적은 수세기 동안 학식 있는 이교도 남녀들에게 칭송받을 것이 거의 확실합니다." # bd3f941a54c706ecb15916e862334c3ef3eb72b4
+  RICE_harran_neoplatonic_academy_recently_revitalized: "신플라톤 학파 최근 부흥" # 61f7fabcd24c2120c85a36987bcc058cf6802e9a
+  RICE_harran_neoplatonic_academy_recently_revitalized_desc: "하란의 신플라톤 학파는 진취적인 통치자의 도움으로 최근 활기를 되찾았습니다. 그 결과, 학자들이 이 지역으로 몰려들고 있으며 주요 학문 및 예술의 중심지가 되고 있습니다." # 903790a658961f4b16c51c32e5198020aa24f92d
+  RICE_harran_patronized_neoplatonic_academy_hellenic: "네오플라톤 아카데미의 후원자" # fa2952d93334bf65aaaf0133834a94dff4042713
+  RICE_harran_patronized_neoplatonic_academy_hellenic_desc: "이 인물은 하란의 신플라톤주의 학원에 자산을 기부하여, 그들의 고귀한 이교 사상가 및 학자들의 계보가 계속 성장하고 번영할 수 있도록 보장했습니다." # 9cdb1047e9e5e4caf4050bb7eacaedaf6293c01b
+  RICE_harran_patronized_neoplatonic_academy_pagan: "네오플라톤 아카데미의 후원자" # fa2952d93334bf65aaaf0133834a94dff4042713
+  RICE_harran_patronized_neoplatonic_academy_pagan_desc: "이 캐릭터는 하란의 신플라톤 학파에 자신의 자산을 기꺼이 기부하여, 존경받는 이교 사상가와 학자들의 혈통이 계속해서 성장하고 번영할 수 있도록 했습니다." # 9cdb1047e9e5e4caf4050bb7eacaedaf6293c01b
+  RICE_harran_patronized_neoplatonic_academy_nonpagan: "네오플라톤 아카데미의 후원자" # fa2952d93334bf65aaaf0133834a94dff4042713
+  RICE_harran_patronized_neoplatonic_academy_nonpagan_desc: "이 캐릭터는 하란의 네오플라톤 학회에 자신의 자산을 아낌없이 기부하여 존경받는 이교 사상가와 학자들의 계보가 계속해서 성장하고 번성할 수 있도록 했습니다." # 9cdb1047e9e5e4caf4050bb7eacaedaf6293c01b
+  RICE_harran_moon_temple_destroyer: "하란의 달의 신전 파괴" # 56f688d0489f7e1975f987141a24bd97f5e6b8ad
+  RICE_harran_moon_temple_recently_destroyed: "하란에 있는 달의 신전이 최근 파괴됨" # 157ccc09a6f03c355c5c8b3893a9ff7745df1e9e
+  RICE_harran_historical_last_of_the_harranians: "하란의 이교도 최후" # c59afc74639189b01baa6e906b9ffbf103c566ee
+  RICE_harran_historical_last_of_the_harranians_desc: "이 인물은 메소포타미아 하란에서 한때 행해졌던, 메소포타미아와 헬레닉, 신플라톤주의 이교주의의 요소가 결합된 고대 이교의 마지막 신봉자 중 한 명입니다. 이 저명한 이교 지적 사상의 계보는 신의 기적과 같은 일이 일어나지 않는 한 곧 사라질 것입니다." # 32d7c02aeb7de719e224eb4d09186f03e8deff22
+  RICE_harran_historical_thabit_ibn_qurra: "위대한 하란인" # 22789d9fd574d5a902efb31315772e2accea9018
+  RICE_harran_historical_thabit_ibn_qurra_desc: "타비트 이븐 쿠라가 중동에서 그의 시대 최고의 학자 중 한 명으로 인정받았습니다. 그는 천문학, 수학, 언어 번역 등 다양한 분야에서 뛰어난 능력을 보여주었습니다." # 14cf96a5747451fea2e202f78e770705839842a8
+  RICE_harran_historical_ibn_nabhan: "하란 이교도의 마지막 후계자" # 03a8eb5c55b62d685a72e75dfc8e1fe719257c5f
+  RICE_harran_historical_ibn_nabhan_desc: "이븐 나브한은 한두 세대 전까지 하란의 이교주의 형태를 따랐던 학자 가문에서 태어났으며, 그의 조상 중에는 타비트 이븐 쿠라와 같은 저명한 인물도 있습니다. 어떤 사람들은 그가 가족의 이슬람 개종의 진정성에 대해 다른 사람들이 의문을 제기할 때 불안해한다고 말합니다. 또 어떤 사람들은 그가 조상들의 신앙에 은밀히 동정심을 느끼고 신성한 기적이 없다면 하란의 고대 전통이 쇠퇴하는 것에 대해 큰 슬픔을 느끼고 있다고 추측하기도 합니다." # c5fad34eb0a4bb0726d4dace3d31a3487cb79a4f
+  RICE_harran_courtier_former_moneylender: "하란의 전직 고리대금업자" # 471599c23b7c577e5d2d6ee442a513581b008422
+  RICE_harran_courtier_former_moneylender_desc: "비록 지금은 학계에 깊이 관여하고 있지만, 이 하란인은 한때 고리대금업자였습니다." # 3c8c455f8729ac334293a350e550f36f937df0f4
+  RICE_harran_courtier_prominent_harranian: "저명한 하란인" # 1f4000d13fa4e756f519c7f7922b8ce964b87a6a
+  RICE_harran_courtier_prominent_harranian_desc: "이 하란인은 하란의 이교도 공동체에서 영향력 있는 지도자였으며, 지금도 그러합니다." # 7c3ae2d04377bff5421a90cdf2bb7c2993e4ea58
+  RICE_harran_courtier_neoplatonic_fanatic: "신플라톤주의 광신자" # f2a1ea529472c8ba69f0789ddbb381018e51c1ba
+  RICE_harran_courtier_neoplatonic_fanatic_desc: "이 하란인은 신플라톤주의 아카데미에서 가르치는 신플라톤주의 이념을 굳게 믿는다." # 376a18ee4e1fc4809827c4b531a5d3ed9357bed2
+  RICE_harran_courtier_ostracized_harranian: "소외된 하란인" # a847c39a940b394f15730cfcf451367cd77d931e
+  RICE_harran_courtier_ostracized_harranian_desc: "이 하란인은 하란 이교도치고는 다소 파격적인 신념과 사상을 가지고 있으며, 다른 학식 있는 하란인들과 많은 의견 차이를 보였습니다." # dff00bd1fcbc3f5fec19e84d01ba5b0a0e65fdc1
+  RICE_harran_courtier_devout_planet_worshipper: "행성 숭배 신봉자" # 8b4dc3251bf145b00de6037128e38c901e85c418
+  RICE_harran_courtier_devout_planet_worshipper_desc: "이 하란인은 하란인의 방식대로 일곱 행성 숭배에 매우 헌신적입니다." # f94484f4a74b328e92950d0e78b4cfe1dc056045
+  RICE_harran_courtier_tammuz_devotee: "탐무즈 숭배자" # c93149c6acc725dd43f5d16d91daec4c637a7bdf
+  RICE_harran_courtier_tammuz_devotee_desc: "이 하란인은 그리스인들에게 아도니스로 알려진 고대 메소포타미아의 풍요의 신 탐무즈 숭배에 헌신하고 있습니다." # 56472bf078eebbeeb2a013ac8f692e3aeaeaa105
+  RICE_harran_treatise_astronomy_wrote: "별자리표에 대한 논문을 썼습니다" # c6f8aba954469b2224f78180f5a80d80e9881477
+  RICE_harran_treatise_astronomy_wrote_desc: "이 하란 학자는 최근 천문학 관련 논문을 저술하여 명성을 얻었습니다." # c584e31bca2f658fcf38f24c52157588365fc863
+  RICE_harran_treatise_astronomy_wrote_self: "별자리표에 대한 논문을 썼습니다" # c6f8aba954469b2224f78180f5a80d80e9881477
+  RICE_harran_treatise_astronomy_wrote_self_desc: "이 하란의 학자는 천문학적 문제에 관한 논문을 썼습니다." # 9ed3d3b8aa36fe4e8b005bb8f9403a30a715203c
+  RICE_harran_treatise_astronomy_copy: "별 목록 논문" # c9a8da3277410f3953b6867ca825445c5d830f54
+  RICE_harran_treatise_astronomy_copy_desc: "이 캐릭터의 궁정에 있는 하란 학자가 천문학에 관한 논문을 썼고, 이 캐릭터에게 사본을 제공했습니다." # b9547192e37c34a05cb3e405e3b829d39950af5e
+  RICE_harran_treatise_geometry_wrote: "측량과 수치에 관한 논문을 작성했습니다" # 4e697c339c46f3c04d773d19c4a56031955a89f4
+  RICE_harran_treatise_geometry_wrote_desc: "이 하란 학자는 최근 비율과 측정과 같은 주제를 다룬 기하학 논문을 써서 명성을 얻었습니다." # 290ec64142ac1c097a007c09fe525c61d123f151
+  RICE_harran_treatise_geometry_wrote_self: "측량과 수치에 관한 논문을 작성했습니다" # 4e697c339c46f3c04d773d19c4a56031955a89f4
+  RICE_harran_treatise_geometry_wrote_self_desc: "이 하란 출신 학자는 비율과 측정과 같은 주제를 다루는 기하학 논문을 썼습니다." # 8d8881a17e04154ae433468daf30e8245aab573c
+  RICE_harran_treatise_geometry_copy: "측량과 도형에 관한 논문" # 095fbca51929b8d9d18285c01835e74260613453
+  RICE_harran_treatise_geometry_copy_desc: "이 캐릭터의 궁정에 있는 하란 학자가 비례와 측정 같은 주제를 다룬 기하학 논문을 썼으며, 이 캐릭터에게 사본을 제공했습니다." # c11b2320cd7529a2c397d2dd44c346abe4da401e
+  RICE_harran_treatise_algebra_wrote: "수학 문제 해결에 관한 논문을 썼습니다." # 0ed6c966882bcfba7ebbe4155b7dc45ff45e9590
+  RICE_harran_treatise_algebra_wrote_desc: "이 하란 학자는 최근 방정식 해법과 같은 주제를 다루는 대수학 논문을 써서 명성을 얻었습니다." # 08b377b5838b7f0eb173e849616b2f95344b083c
+  RICE_harran_treatise_algebra_wrote_self: "수학 문제 해결에 대한 논문을 작성했습니다" # 0ed6c966882bcfba7ebbe4155b7dc45ff45e9590
+  RICE_harran_treatise_algebra_wrote_self_desc: "이 하란 학자는 대수학에 대한 논문을 썼는데, 방정식 풀이와 같은 주제를 다루었습니다." # f0dd443588893c61950a1435b74edce9812b5f85
+  RICE_harran_treatise_algebra_copy: "수학 문제 해결에 대한 논문" # 934c7c776388502675147c652144012b8c0522d8
+  RICE_harran_treatise_algebra_copy_desc: "이 캐릭터의 궁정에 있는 하란 학자가 대수학에 관한 논문을 저술하여 방정식 풀이와 같은 주제를 다루고 이 캐릭터에게 사본을 제공했습니다." # 294ad895219ded2684d810a9e05bec224dc4c174
+  RICE_harran_treatise_greek_philosophy_wrote: "그리스 철학자들에 대한 논문 작성" # 2fc99e05420058d481a3be4fae50acb3ddd498cc
+  RICE_harran_treatise_greek_philosophy_wrote_desc: "이 하란 학자는 최근 플라톤과 플로티누스와 같은 고대 사상가에 대한 논문을 쓴 것으로 어느 정도 명성을 얻었습니다." # 7cee9fabdc88deaa7c3f6c5eee83ef041023eed7
+  RICE_harran_treatise_greek_philosophy_wrote_self: "그리스 철학자들에 대한 논문 작성" # 2fc99e05420058d481a3be4fae50acb3ddd498cc
+  RICE_harran_treatise_greek_philosophy_wrote_self_desc: "이 하란 학자는 플라톤과 플로티노스와 같은 고대 사상가에 대한 논문을 저술했습니다." # 216ca539afbfe82e9f2eef9971c430c3b77b7b08
+  RICE_harran_treatise_greek_philosophy_copy: "그리스 철학자 논고" # 7264ab53d22ba0af37493fbac135a1124e15ba3a
+  RICE_harran_treatise_greek_philosophy_copy_desc: "이 캐릭터의 궁정에 있는 하란 학자가 플라톤과 플로티노스와 같은 고대 사상가에 대한 논문을 쓰고 이 캐릭터에게 사본을 제공했습니다." # 65a4a02e3e2596b65a83b5b146467b996fe6b4ca
+  RICE_harran_treatise_harranian_history_wrote: "하란 역사에 관한 논문 작성" # ae2a5d52abdbcad8da6a93f023fa7a3c52876874
+  RICE_harran_treatise_harranian_history_wrote_desc: "이 하란 학자는 최근 하란인의 역사, 특히 그들의 이교도적인 방식에 대한 논문을 저술하여 명성을 얻었습니다." # b80c265dfdd22b5d6cc082031e9d48f757f56d7e
+  RICE_harran_treatise_harranian_history_wrote_self: "하란 역사에 관한 논문 작성" # ae2a5d52abdbcad8da6a93f023fa7a3c52876874
+  RICE_harran_treatise_harranian_history_wrote_self_desc: "이 하란 학자는 하란 사람들의 역사, 특히 그들의 이교도적 방식에 관한 논문을 썼습니다." # 277a111fd1437422d5fe010712ef3f2240193056
+  RICE_harran_treatise_harranian_history_copy: "하란 역사 논고" # 8de12f98520879dd10b9e43c8a83df248249a7ca
+  RICE_harran_treatise_harranian_history_copy_desc: "이 캐릭터의 궁정에 있는 하란 학자가 하란인, 특히 그들의 이교도 방식에 대한 역사를 다룬 논문을 작성하여 이 캐릭터에게 사본을 제공했습니다." # b2832a3e1ddc3e06d0eea2c9aeba176eec124256
+  RICE_harran_treatise_mysticism_wrote: "이미지와 환상에 대한 논문 작성" # 45781dcf0d6414d6fbf8204df268b6afd98f494f
+  RICE_harran_treatise_mysticism_wrote_desc: "이 하란 출신 학자는 최근 다양한 비전 주제와 신비주의에 대한 논문을 써서 명성을 얻었습니다." # e5a28d2ba07735f48faa5fb9f71557fb88b80329
+  RICE_harran_treatise_mysticism_wrote_self: "이미지와 환상에 대한 논문 작성" # 45781dcf0d6414d6fbf8204df268b6afd98f494f
+  RICE_harran_treatise_mysticism_wrote_self_desc: "이 하란 학자는 여러 비전적 주제와 신비주의에 대한 논문을 썼습니다." # 4e896b3a7735eb7b2d80e4d0db05d3b841ce7770
+  RICE_harran_treatise_mysticism_copy: "이미지와 환상에 대한 논고" # 104d00bd26818b36210b3b61d892f9b77f1e3f77
+  RICE_harran_treatise_mysticism_copy_desc: "이 캐릭터의 궁정에 있는 하란의 학자가 여러 비전적 주제와 신비주의에 대한 논문을 쓰고 이 캐릭터에게 사본을 제공했습니다." # 2db99fbf7808a554d461447eb2dd9bd0733c2e97
+  RICE_harran_treatise_medicine_wrote: "약초 정원에 대한 논문을 썼습니다" # 4d5c442c0eb39cb81795573b49ddb6188a068490
+  RICE_harran_treatise_medicine_wrote_desc: "이 하란 학자는 최근 의학과 생물학에 관한 논문을 써서 어느 정도 명성을 얻었습니다." # 4a899212d3e32af7b99a877e3ea3ab515b6dc7d4
+  RICE_harran_treatise_medicine_wrote_self: "약초 정원에 대한 논문을 썼습니다" # 4d5c442c0eb39cb81795573b49ddb6188a068490
+  RICE_harran_treatise_medicine_wrote_self_desc: "이 하란 출신 학자는 의학과 생물 과학에 대한 논문을 썼습니다." # 55293a63c875fe6ac630729200ed2bf825d3d377
+  RICE_harran_treatise_medicine_copy: "약학 정원 논문" # 9d98d6afe05fd23054d1513311f1692e2727cef8
+  RICE_harran_treatise_medicine_copy_desc: "이 인물의 궁정에 있던 하란 학자가 의학과 생물학에 대한 논문을 저술하여, 이 인물에게 사본을 전달했습니다." # 5c49defaa5c0bcdab62ab518b2e353c730303424
+  RICE_harran_ibn_nabhan_internal_conflict: "내부적인 정신적 갈등" # ba9c4c8f7c9bda37e7b02713a9859d11daebc324
+  RICE_harran_ibn_nabhan_internal_conflict_desc: "이븐 나브한은 얼마 전까지만 해도 그리스와 로마 시대로 거슬러 올라가는 고대 이교주의를 믿었던 무슬림 가정에서 태어났습니다. 그는 현재 자신의 정체성의 이 측면에 대해 많은 내적 갈등을 느끼고 있지만, 곧 자신의 고뇌를 해결할 방법을 찾을 수 있을지도 모릅니다." # d7c3d6ca7184665512769d8aeee23cae61ee231e
+  RICE_harran_ibn_nabhan_studying_grandfathers_writings: "할아버지의 종교 저술 연구" # 9ce2bc2f3eb38a9392591e21ba33305377d9e07a
+  RICE_harran_good_divination: "천체의 좋은 관측" # d5a4abfaaaf939830767c248947e72ff14906a99
+  RICE_harran_good_divination_desc: "하란의 이교 점성술사들은 가까운 미래에 하란에 좋은 일들이 일어날 것이라고 예언했습니다." # 53b9420d7d0ebc2245a1694878a8b54f026d1346
+  RICE_harran_bad_divination: "천체의 잘못된 해석" # 85e7a7b1aed3f8ced489501d77b0afe1db9745f5
+  RICE_harran_bad_divination_desc: "하란의 이교 점성술사들은 가까운 미래에 하란에 나쁜 일이 일어날 것이라고 예언했습니다." # 08170c962425b744054afcf3a3adc65c2de47c31
+  RICE_harran_tammuz_festival: "위대한 탐무즈 축제" # 08125e4773ec7dc07ba00c6904307f7f29527ed5
+  RICE_harran_tammuz_festival_desc: "탐무즈 축제는 하란의 고대 전통입니다. 최근 이 행사가 매우 성공적으로 개최되어 현지 이교도들에게 영감을 주었습니다." # eeaf1bd8eea6ee52615409ba32aa49ea8e8de6d8
+  RICE_harran_scholars_publish_texts: "신플라톤 아카데미의 학자들이 최근 중요한 저술들을 썼습니다." # e63bd077f40df35755d4995070a4dd211ff4e7a8
+  RICE_harran_scholars_foreign_contacts: "외국 학자와의 접촉" # 2c879332a9c4d13e65c2d6fa8c0325667a7a36d0
+  RICE_harran_neoplatonic_academy_athens_modifier: "아테네 신플라톤 학원" # c72e67e4029b680c5ee78c8d4d0a946493ddaac3
+  RICE_harran_neoplatonic_academy_athens_modifier_desc: "아테네의 신플라톤주의 학파는 원래 플라톤 학파의 지적 후손이라고 주장하는 여러 이교도 학자들의 본거지입니다. 그러나 그들은 국가로부터 정기적인 자금 지원을 받지만, 그들의 독특한 이교주의를 옹호하는 완강한 태도는 비이교도 당국의 분노를 살 수 있습니다...." # 79de18276b183d0d5b144ef6e8d400d3c2a3c005
+  RICE_harran_welcomed_neoplatonist_exiles: "추방된 신플라톤 학자들을 환영함" # 6b1cb35a32d21806be424b2866dc1066a2f31f20
+  RICE_harran_pray_to_a_planet: "행성에 기도하기" # 6efb76db99cbec1475d75fb72fde6df46ca5b3d7
+  RICE_harran_pray_to_a_planet_tooltip: "당신은 일곱 행성 중 하나에 기도하기 위한 올바른 의식을 수행할 것입니다." # b3f7b9189e86a1a8db5d1614796ec47ff8a23238
+  RICE_harran_pray_to_a_planet_effect_tooltip: "기도하는 행성에 따라 [character_modifier|E]를 받습니다" # 1e441a373fc0a8214d9b3364221e31f2a89370ba
+  RICE_harran_pray_to_a_planet_desc: "별은 인간의 운명을 결정하고, 어둠 속에서 우리를 인도하며, 특히 일곱 행성이 그러합니다. 저는 이 일곱 신성한 광채 중 하나에게 전통적인 [ROOT.Char.GetFaith.GetAdjective] 방식으로 제물을 바치겠습니다." # 4f7665cdb4b88fa510c505a284127d7b270214e7
+  RICE_harran_pray_to_a_planet_confirm: "제례를 준비하십시오!" # 587de9ee93d0681c2a85acf59760f2bfe8ebe883
+  RICE_harran_pray_to_a_planet_context_tooltip: "#emphasis 역사적 배경:#! 천체, 특히 일곱 개의 고전적 행성에 대한 숭배는 레반트와 메소포타미아에서 흔했습니다. 예를 들어, 초기 중세 시대의 무슬림들은 하란의 이교도들이 이러한 이유로 하늘에 대한 엄청난 통찰력을 가지고 있다고 종종 고정관념을 가졌습니다." # 948d4d0a981064b51a15ad868cdb8c9874196812
+  RICE_harran_patronize_the_neoplatonic_academy: "신플라톤 학파 후원" # 722121d16cda99156fac7381d1fd914fc03cd1c3
+  RICE_harran_patronize_the_neoplatonic_academy_tooltip: "당신은 하란에 있는 [harran_neoplatonic_academy|E]에 필요한 자금을 지원할 것입니다." # 2e0ef96368ec7a7920949e73d74ad1a7cbd9bc35
+  RICE_harran_patronize_the_neoplatonic_academy_effect_tooltip: "[harranian_characters|E]가 생성될 확률을 높입니다" # f212882f1eb6dfbc59856a79ca67fc35ab472f75
+  RICE_harran_patronize_the_neoplatonic_academy_desc: "고대 헬레네 학문의 마지막 잔재인 하란의 [harran_neoplatonic_academy|E]은 특이한 신념과 가르침을 간과할 용의가 있는 관대한 통치자들의 투자를 끊임없이 필요로 합니다." # 2a4acf0b89063cd4ec460c45d3b0cd7cbd3d4feb
+  RICE_harran_patronize_the_neoplatonic_academy_confirm: "배움을 위하여!" # 00f03dc36316d3773665b33f022a0162a3eb76fc
+  RICE_harran_patronize_the_neoplatonic_academy_context_tooltip: "#emphasis 역사적 배경:#! 하란의 학당은 아테네에 기반을 둔 신플라톤주의 학당에서 지적으로 계승되었으며, 그 학당은 플라톤이 설립한 원조 학당에서 지적으로 계승되었다고 주장합니다. 사실 여부와 관계없이 하란의 지식인들은 압바스 왕조 궁정에서 과학자, 점성술사, 의사 등으로 중요한 역할을 했습니다. 역사적으로, 그들은 11세기경에 쇠퇴하고 사라진 것으로 보이며, 남아있던 하란 이교도들은 이슬람과 같은 다른 종교로 개종했습니다." # f85ac46dc34ade64d9c54df88ab3914644dd380f
+  RICE_harran_revitalize_the_neoplatonic_academy: "신플라톤 학파 부활" # 8cfa58ab7faf6b83e685b34089fe304c77c14a10
+  RICE_harran_revitalize_the_neoplatonic_academy_tooltip: "하란의 [harran_neoplatonic_academy|E]은 결코 잊혀지지 않도록 할 것입니다" # a2b71905cea0fa7b1050391ec640a35c4ad0ec33
+  RICE_harran_revitalize_the_neoplatonic_academy_effect_tooltip: "당신은 [harran_neoplatonic_academy|E]이 앞으로 여러 세대 동안 학문의 중심지로 남을 수 있도록 하고 쇠퇴하지 않도록 할 것입니다." # 4abd1713bb1b73205b0e528e11b552f68646bfe9
+  RICE_harran_revitalize_the_neoplatonic_academy_desc: "수 세기 동안 [harran_neoplatonic_academy|E]은 돌이킬 수 없는 쇠퇴의 위기에 놓여 있었습니다. 지금까지는 살아남았지만 더 이상 기다릴 수 없습니다. 이러한 추세를 반전시키고 고대 철학자들의 계승자로서 학교를 제자리에 되돌려 놓기 위해 행동해야 합니다!" # 39f279f9249886065cf541994ea2940fd9fcfaf9
+  RICE_harran_revitalize_the_neoplatonic_academy_confirm: "세상은 어둠에 굴복해서는 안 됩니다." # 1b9702ca2ee2d30a3f7b4cf62701c5b88352eeb5
+  RICE_harran_revitalize_the_neoplatonic_academy_context_tooltip: "#emphasis 역사적 배경:#! 하란의 학당은 아테네에 기반을 둔 신플라톤주의 학당에서 지적으로 계승되었으며, 그 학당은 플라톤이 설립한 원조 학당에서 지적으로 계승되었다고 주장합니다. 사실 여부와 관계없이 하란의 지식인들은 압바스 왕조 궁정에서 과학자, 점성술사, 의사 등으로 중요한 역할을 했습니다. 역사적으로, 그들은 11세기경에 쇠퇴하고 사라진 것으로 보이며, 남아있던 하란 이교도들은 이슬람과 같은 다른 종교로 개종했습니다." # f85ac46dc34ade64d9c54df88ab3914644dd380f
+  RICE_harran_make_offerings_moon_temple: "하란의 달의 신전에 제물을 바치십시오" # 8a90bc861b291a3ebb65cfaaaafd9e8230606fcf
+  RICE_harran_make_offerings_moon_temple_tooltip: "당신은 하란의 [harran_temple_of_the_moon|E]에서 기도할 것입니다" # 3ace9047732f02ef11161020438663a1363caf34
+  RICE_harran_make_offerings_moon_temple_effect_tooltip: "[prestige|E] 또는 [piety|E]의 축복을 [harran_temple_of_the_moon|E]에서 기도하는 동안 받으실 수 있습니다" # 4523474f919baf973765d8773f0906c77c8946fe
+  RICE_harran_make_offerings_moon_temple_desc: "모든 역경을 이겨내고, 로마 제국 이전부터 하란에는 '신'이라는 이름의 달의 신전이 서 있었습니다. 이제 신전에 선물을 바쳐 신께 경의를 표할 때입니다." # ecca417b7365dd2b5185c43f4c47169e09051e3e
+  RICE_harran_make_offerings_moon_temple_confirm: "선물을 준비하십시오!" # 282d1e8dd25e2f357b9bb915ad2a13de4ed23ca8
+  RICE_harran_make_offerings_moon_temple_context_tooltip: "#emphasis 역사적 배경:#! 메소포타미아의 달의 신 신 숭배는 수메르 시대로 거슬러 올라가며, 초기 중세 시대 동안 하란에서 입증되었습니다. 하란에 있는 그의 성소는 기쁨의 집인 에훌훌(E-hul-hul)이라고 불렸으며, 11세기 중반에 적대적인 이슬람 지도자들에 의해 파괴되었습니다." # 27512a15dde62f0a7570875e1674818f2bf84986
+  RICE_harran_destroy_the_moon_temple: "하란의 달의 신전 파괴" # a0ae50aeef15ac318b03b71eb4d81f489f4d578c
+  RICE_harran_destroy_the_moon_temple_tooltip: "이교도의 신성 모독 기념물을 파괴해야 합니다!" # 7aba4f3c06676b8fe86e18f3098ffd6e195522e8
+  RICE_harran_destroy_the_moon_temple_effect_tooltip: "하란 근처의 이교도들은 더 이상 [harran_temple_of_the_moon|E]에 제물을 바치는 [decision|E]을 할 수 없습니다." # 8488bf928b1348b685436ae984b5a62a07dedd6a
+  RICE_harran_destroy_the_moon_temple_desc: "오랫동안 우리는 하란의 모독적인 [harran_temple_of_the_moon|E]를 방치했습니다. 그 존재는 [ROOT.Char.GetFaith.HighGodName]에 대한 모욕입니다. 이제 그것을 땅에 박살낼 때입니다!" # bbeb39662bd8b931538ff983acc8a0ab4b132b47
+  RICE_harran_destroy_the_moon_temple_confirm: "다 태워라!" # 693b2a08ab321cb8f46a80bad0cddab2e2090895
+  RICE_harran_destroy_the_moon_temple_context_tooltip: "#emphasis 역사적 배경:#! 고대 메소포타미아의 달의 신 신에게 헌정된 하란의 이교도 사원은 수 세기 동안의 전쟁, 혼란 등을 견뎌냈습니다. 그러나 11세기 중반에 현지의 적대적인 무슬림 지도자들에 의해 파괴되면서 마침내 종말을 맞이했으나, 정확한 파괴 시기는 불확실합니다." # a987612dfaf0fe3cdf086326ff193b801a41802f
+  RICE_harran_study_grandfathers_writings: "할아버지의 종교 저술을 연구하십시오" # 8371329fe8ca9149c27ea74e4680639995ca7a45
+  RICE_harran_study_grandfathers_writings_tooltip: "할아버지께서 종교에 대해 생각하신 것을 읽고, 어쩌면 당신 내면의 영적 갈등을 해소할 수 있을 것입니다." # eb4557a0211ddc31679559c36a373d70ca48a2f5
+  RICE_harran_study_grandfathers_writings_effect_tooltip: "당신은 조상의 신앙으로 되돌아갈지 여부를 결정하게 될 수 있는 이벤트 연쇄를 시작합니다." # 84676722bb3577ba90e89265cea26dfa6b2015cf
+  RICE_harran_study_grandfathers_writings_desc: "몇 년 전, 할아버지께서는 내가 신앙과 우주의 신비에 대해 의문을 품을 때 종교적 문제에 대한 이 글들을 읽어보라고 말씀하셨지. 내 마음속 깊은 곳에서 느끼는 갈등을 해결해야 할 때가 온 것 같군... 내게 온 편지가 있는 것을 보았네. 무엇을 말해줄 수 있을까?" # ce4f4baa6df91e58401448ea05d836ac3e7e908f
+  RICE_harran_study_grandfathers_writings_confirm: "먼저 할아버지의 편지를 읽어보겠습니다..." # 0b8b1f127e69589e1bdac870e8b323279f05208e
+  RICE_harran_study_grandfathers_writings_context_tooltip: "#emphasis 역사적 배경:#! 이븐 나브한은 타비트 이븐 쿠라와 같은 유명한 하란 학자들의 후손으로, 그의 할아버지의 하란 이교에서 이슬람으로의 개종(1000년대 초중반에 일어남)을 굳건히 옹호했습니다. 그는 그의 이야기를 지인인 무함마드 빈 나스르에게 전달했고, 무함마드 빈 나스르는 다시 그의 제자인 유명한 한발리 법학자이자 역사가인 이븐 알자우지에게 전달하여 후세에 기록하게 했습니다. 이븐 나브한은 이교도가 아니었지만(그의 나이가 많은 친척 중 일부는 여전히 그랬을 수도 있음) 그의 조상들의 전통에 대한 동정심이 있었을 가능성을 배제할 수는 없습니다." # 0bdcc8a6b82bd93f657da1051b731bfa28285f17
+  RICE_harran_is_ibn_nabhan: "이븐 나브한인가" # 67e3dada0f1d0d41bf8b8c92d2864b91e6694b8c
+  RICE_harran_write_scholarly_treatise: "A scholarly treatise, by its nature, requires a specific topic.  Please provide the subject you would like the treatise to address.  For example, "A Scholarly Treatise on the Impact of the Black Death on 14th-Century European Economies" or "A Scholarly Treatise on the Philosophy of Existentialism."" # 412ae599a727dd4a1e3a60cb1e93256f6951eef0
+  RICE_harran_write_scholarly_treatise_tooltip: "당신은 학술적인 주제에 대한 논문을 쓰는 데 시간을 할애할 것입니다." # 8010227798f1b8539f8f8e2be26ba8072c3787e5
+  RICE_harran_write_scholarly_treatise_effect_tooltip: "특정 주제를 다루는 논문을 작성하여 특별한 책 [artifact|E]과 그에 상응하는 [character_modifier|E]를 획득할 수 있습니다" # 41e9a2b99b38ba4a0be6c25c5b26f9dfb826b1b6
+  RICE_harran_write_scholarly_treatise_desc: "하란 학자로서, 비할 데 없고 명성 높은 학문을 이어가는 것이 나의 의무입니다." # c916b20a8ed07161a874b7bf3e7a6dbada7113e8
+  RICE_harran_write_scholarly_treatise_confirm: "이제, 내 깃펜은 어디에 있지?" # 9e1817a75b74914da1de854c8d401db50cd27de7
+  RICE_harran_write_scholarly_treatise_context_tooltip: "#emphasis 역사적 배경:#! 하란 출신의 학자들은 이교적 배경에서 비롯된 지식으로 인해 중동 전역에서 고정관념에 시달렸습니다. 타비트 이븐 쿠라와 같이 많은 이들이 압바스 궁정과 지혜의 집의 지적 환경에 깊이 관여했습니다." # 21be79266ab7b879c6d530f6c41bd1d50af3f7c8
+  RICE_decision_currently_working_on_treatise_requirement: "현재 학술 논문을 작업 중이 아닙니다" # d430efe342ba768e56bd3a45416d796a61858edc
+  RICE_harran_stop_funding_the_neoplatonic_academy: "신플라톤 학원 자금 지원 중단" # 150dacbd33d8069ff132d6963b44a1670a220b4f
+  RICE_harran_stop_funding_the_neoplatonic_academy_tooltip: "신플라톤주의자들은 우리의 지원을 받을 자격이 없습니다." # e53e3532b98be95d96f9c49ee1a7c0e97dd08932
+  RICE_harran_stop_funding_the_neoplatonic_academy_desc: "수 세기 동안 이교도 학자들은 아테네의 [harran_neoplatonic_academy|E]에 거주해 왔습니다. 그들은 [ROOT.Char.GetFaith.GetAdherentName]은 아니지만, 그들의 지적 추구 때문에 그들의 존재를 용인해 왔습니다. 그러나 그들은 오만해졌고 국고 낭비이므로, 그들의 기관에 대한 지원을 끝내고 싶습니다." # 34855b86c9d3d9fb4d3e2474cc8051e750fae8bc
+  RICE_harran_stop_funding_the_neoplatonic_academy_effect_tooltip: "신플라톤주의자들은 더 관대한 통치자 아래에서 새로운 거처를 찾을 것입니다." # 1fa53036a13aab3d500cc3e11a543708f47465ba
+  RICE_harran_stop_funding_the_neoplatonic_academy_confirm: "저는 그들을 추방하는 것이 아니라, 단지 그들의 자금 지원을 끊는 것일 뿐입니다!" # b73358972414e2e0714f2ea9d89cb447a30b4254
+  RICE_harran_stop_funding_the_neoplatonic_academy_context_tooltip: "#emphasis 역사적 배경:#! 아테네의 신플라톤 아카데미는 서기 529년까지 기관으로서 존속했으며, 이때 황제 유스티니아누스가 재정 지원을 중단했습니다(비록 로마 제국의 다른 곳에서는 다른 오래된 학교들이 계속 운영되었지만). 아카데미의 마지막 학장으로 알려진 다마스키우스 아래에서 학교의 잔존 세력은 사산 제국으로 피신했습니다. 이 학자들 중 일부는 나중에 로마 제국으로 돌아왔지만, 그들 중 일부가 - 아마도 다마스키우스의 제자인 심플리키우스의 지휘하에 - 하란에 자리를 잡고 중세 시대까지 번성할 것으로 추정되는 하란의 신플라톤 아카데미를 설립했다는 이론이 있지만, 보편적으로 동의된 것은 아닙니다." # a86c25f7ffb6c492a8205bc441ee103e21c7aa2f
+  RICE_harran_welcome_neoplatonists_to_harran: "하란에 온 신플라톤주의자들을 환영합니다" # 30e74fc972dc1b7ee3db76e0bcf0d30f23efe02c
+  RICE_harran_welcome_neoplatonists_to_harran_tooltip: "이 학자들에게는 새로운 거처가 필요할 수 있습니다." # 95d3a815f0fd3e57503ae25d023a2027dd7a8b4d
+  RICE_harran_welcome_neoplatonists_to_harran_desc: "아테네의 [harran_neoplatonic_academy|E]는 수많은 이교 학자들의 고향이었으나, 적대적인 지역 당국의 지원 부족으로 인해 고향을 떠났습니다. 그 이후로 방랑하며 정착을 희망하며, 다양한 지식 분위기를 자랑하는 하란이 [harran_neoplatonic_academy|E]를 재건하기에 이상적인 장소가 될 것이라고 생각합니다." # e805c0b5cba993897f00183e85e81bfd9689a67a
+  RICE_harran_welcome_neoplatonists_to_harran_effect_tooltip_1: "[harranian_courtier|E]이 당신의 [court|E]에 도착할 것입니다" # b910670dff046afde80a23580e4fee0a30ec339f
+  RICE_harran_welcome_neoplatonists_to_harran_effect_tooltip_2: "중동과 소아시아의 [rulers|E]는 이제 #Bold 신플라톤 학파 후원#! [decision|E]을 내릴 수 있습니다." # 900e1147d1be6cb757cef3aacd1f5fe5e78e9327
+  RICE_harran_welcome_neoplatonists_to_harran_effect_tooltip_3: "[harranian_courtiers|E]이 이제 중동 지역에서 생성되기 시작합니다" # ae82d53b3817d11c6dafc4ce689cc28cd1c0844a
+  RICE_harran_welcome_neoplatonists_to_harran_confirm: "그들의 고대 지혜가 우리를 밝혀줄 것입니다!" # 867ca79be69948ec7d89e3d5ee396608af1e122e
+  RICE_harran_welcome_neoplatonists_to_harran_context_tooltip: "$RICE_harran_stop_funding_the_neoplatonic_academy_context_tooltip$" # 2ca7ef965a2f0d37a7507da36b368a04dcc550ab
+  RICE_nabataean_ibn_wahshiyya_decision: "나바테아 농업 편찬" # 9f3d71eaa0ab727828f7993387c98253c0ba277c
+  RICE_nabataean_ibn_wahshiyya_decision_tooltip: "내 조상들의 지혜를 지켜야만 한다!" # 8a31ca9c715c7e9a4eac2d93a4adb341e83ad7c2
+  RICE_nabataean_ibn_wahshiyya_decision_desc: "수년에 걸쳐 저는 고대 문헌을 번역하고, 지역 정보 제공자들을 인터뷰하고, 이 지식 체계에 대한 저 자신의 해설을 작성하는 과정을 통해 고대 지혜의 단편들을 수집했습니다. 이제 저는 그 내용을 농업과 관련이 많으므로 #italic 나바테아 농업#이라는 책으로 편찬할 만큼 충분한 정보를 축적했습니다." # 9e8e87cbb5584affdc3752e5aeb434da8b076556
+  RICE_nabataean_ibn_wahshiyya_decision_effect_tooltip_1: "당신은 강력한 책 [artifact|E], #V 나바테아 농업#!을 받게 됩니다." # 5df665f78712a6712097447a181f074813f46a63
+  RICE_nabataean_ibn_wahshiyya_decision_confirm: "이 지혜는 후세를 위해 보존되어야 합니다!" # afbb4fb93c2c25360aa4d1d26a9053370253bd7f
+  RICE_nabataean_ibn_wahshiyya_decision_context_tooltip: "#emphasis 역사적 배경:#! 이븐 와흐시야(기원후 930년경 사망)는 이라크의 나바테아인에 대한 주요 자료인 #italic 나바테아 농업#!이라는 걸작을 쓴 무슬림 학자이자 농업학자였습니다. 이들은 남부 메소포타미아에서 아람어를 사용하는 이교도 집단(페트라를 건설한 레반트의 유명한 나바테아 아랍인과 혼동하지 마십시오)이었습니다. 나바테아인 자신이었던 그는 심지어 이 시기의 아람어 민속에서 좋게 기억되는 아시리아 왕 센나케립의 후손이라고 주장하기도 했습니다. 농업에 초점을 맞추었지만, #italic 나바테아 농업#!은 마법, 천문학, 종교 등과 같은 주제도 다루고 있습니다. 그것은 마이모니데스, 이븐 할둔, 토마스 아퀴나스와 같은 후대 학자들에게 매우 높이 평가되고 참조되었습니다." # dba9d9a17b7d2dfab8be3badcc095b26e73f3b1c
+  RICE_harran_treatise_astronomy_name: "하란의 별표에 관한 논문" # e6a3b1fc1d905e49372063c4c7124e4c89f62e29
+  RICE_harran_treatise_astronomy_desc: "[harranian_scholar.GetFullName]이라는 하란 출신 학자가 쓴 천문학 관련 논문입니다." # 0d3f5e8468bf6280507cd01b8cbef16c094fba21
+  RICE_harran_treatise_geometry_name: "하란의 측정과 수치에 관한 논문" # 1a7fda35b153c5a0131dae1defe5a30ea0adbaa3
+  RICE_harran_treatise_geometry_desc: "[harranian_scholar.GetFullName]이라는 하란 학자가 쓴 비율 및 측정과 같은 주제를 다루는 기하학 논문" # b0c60e5b8f69615edfb8e5dfbaff7cb32d29de9f
+  RICE_harran_treatise_algebra_name: "수학 문제 해결에 관한 하란의 논문" # 426ca4d5dbf4003b3bd61370eaf16e1272d717a0
+  RICE_harran_treatise_algebra_desc: "[harranian_scholar.GetFullName]라는 하란 학자가 작성한 방정식 풀이와 같은 주제를 다루는 대수학 논문입니다." # 431ce0c0075b630f3fafe5d94b47a858dc1fa78c
+  RICE_harran_treatise_greek_philosophy_name: "하란 학파의 그리스 철학자 논문" # 85dd9221a6fe420b554fa87ffea5afff6d4aadbc
+  RICE_harran_treatise_greek_philosophy_desc: "[harranian_scholar.GetFullName]이 쓴 플라톤과 아리스토텔레스 같은 고대 사상가에 대한 논문" # 8abea5f9ac966c0f846598f285465609148d62cc
+  RICE_harran_treatise_harranian_history_name: "하란의 역사에 대한 하란 논문" # 583c7067a58e6f4ef5093904c3c19b2b57ec22b2
+  RICE_harran_treatise_harranian_history_desc: "[harranian_scholar.GetFullName]이라는 하란인 학자가 쓴 하란인의 역사에 대한 논문" # 515dac7920b31f02ccf9dce530039edb6f593c0c
+  RICE_harran_treatise_mysticism_name: "하란의 형상과 환영에 대한 논문" # 6f949c4b78f82f4a6e3e93db945fd10faa64f67c
+  RICE_harran_treatise_mysticism_desc: "[harranian_scholar.GetFullName]라는 하란 학자가 쓴 다양한 비전 주제와 신비주의에 대한 논문입니다." # c2ca95c2e744acf54d2a251f753055ebcf858664
+  RICE_harran_treatise_medicine_name: "하란 의학 정원 논문" # 01c8949a979a8508e03ceb57834e75dd91f3df4a
+  RICE_harran_treatise_medicine_desc: "[harranian_scholar.GetFullName]이라는 하란 학자가 쓴 의학과 생물 과학에 관한 논문입니다." # e8003dd71ea25bad78dd5185f220d5d015a2e842
+  RICE_nabataean_agriculture_book_name: "나바테아 농업" # 48801d26399b206ece4c59ab2c69ce94826fd4e1
+  RICE_nabataean_agriculture_book_desc: "[ibn_wahshiyya.GetDynasty.GetName|U]라는 학자의 저서. 농업, 종교, 철학, 마법, 점성술, 역사 등 다양한 주제에 대한 통찰력이 담겨 있습니다. 저자는 [ibn_wahshiyya.GetHerHis] [nabataean.GetAdjective] 문화와 [ibn_wahshiyya.GetHerHis] 조상들의 [kasdanian.GetFaith] 신앙에 대한 자부심을 글 속에서 강하게 드러냅니다." # 964d921210188eecb7b3c4edb96228eca72a467a
+  harran.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0001.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0001.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0002.t: "일곱 광채" # 82abc990e9726da60304da5a0d40a881408d4430
+  harran.0002.desc: "고대부터 메소포타미아와 레반트의 이교도들은 별과 행성을 충실히 숭배해 왔습니다. 저 또한 밤에 제단에서 제물을 준비하고 천체에 기도합니다. 그들이 저를 인도하고, 양육하고, 보호해 주기를 바랍니다. 그들이 수없이 많은 세대 동안 인류를 위해 항상 그랬던 것처럼 말입니다. 오늘 밤, 저는 광활한 밤하늘 앞에서 서서 일곱 행성 중 하나의 축복을 간구합니다." # d2e6bef3f8972a588486257a4450a2f5077febec
+  harran.0002.a: "솔, 또는 샤마시" # e605f422044f9d3fc90916d5a6be62f7f93dda95
+  harran.0002.b: "루나 또는 신" # 6c7d96a50983e63d0c268aaf3d65216279a0177e
+  harran.0002.c: "수성, 또는 나부" # e8134d3debce437db2cf1820621972d4872c7758
+  harran.0002.d: "베누스, 또는 이슈타르" # 3e7b713d23ec58eb468be8dfaf570e6027137cb9
+  harran.0002.e: "마르스, 또는 네르갈" # ac4d01156d5318d494ba9437094aa354321872b7
+  harran.0002.f: "주피터, 또는 마르두크" # 8f4e38588a7c8f919860feff87ca748570f7ef3f
+  harran.0002.g: "사투르누스, 또는 니니브" # 19f292deaeadc0d447baf43b5c8e822789c19fda
+  harran.0002.sun.blessing: "솔이 호의적인 징조를 보입니다" # 9e10aca30f6a4ba81a47a14d2a0c59902551da12
+  harran.0002.sun.nothing: "솔은 아무런 신호를 보내지 않습니다" # 11cfd9f5b93b168ad4167bb1851d86d3f486f18e
+  harran.0002.moon.blessing: "루나가 호의적인 징조를 보입니다" # e584fa4cab533715a1cd5b4004c2640e5a0c58d2
+  harran.0002.moon.nothing: "루나는 아무런 징후를 보여주지 않습니다" # 27e657a585e9344ac5803bc247ba55b0f66783ef
+  harran.0002.mercury.blessing: "수성이 호조를 보입니다" # 6040a859e9fe93409ee5eaa08ca11ba0d7f23792
+  harran.0002.mercury.nothing: "수성은 당신에게 아무런 징조도 보여주지 않습니다" # 9c85d9d3808eb8cd22557cad7b441832666dd477
+  harran.0002.venus.blessing: "금성이 호의적인 징조를 보입니다" # 55216dc0d7ca21ef48535321ca7f409b2747ae63
+  harran.0002.venus.nothing: "비너스는 당신에게 아무런 징조도 주지 않습니다" # 15791476a8de66afd41eadaf548fffa5d8fbac87
+  harran.0002.mars.blessing: "화성이 호의적인 징조를 보입니다" # 89119eb52479340c6f52539aa1fdcb7918227b6c
+  harran.0002.mars.nothing: "화성은 아무런 징조를 주지 않습니다" # 932970afe8c87067e0d24ecc15c1de5e9325dd86
+  harran.0002.jupiter.blessing: "목성이 좋은 조짐을 보여줍니다." # 696c51eacc8043a8fbb8596adbf951dd16fead8c
+  harran.0002.jupiter.nothing: "목성이 당신에게 아무런 징조도 주지 않습니다" # d9030177753dbc6280f45bda9681308beeecec0e
+  harran.0002.saturn.blessing: "새턴이 호의적인 징조를 보입니다" # 56d3c6d02186d3c223696484e65995a067b819ab
+  harran.0002.saturn.nothing: "사투르누스는 당신에게 아무런 징조도 주지 않습니다" # f34dfb3096c1f5823e9e4366a557f91f9c819f39
+  harran.0002.nothing.tooltip: "일곱 광채가 당신의 운명에 대해 길조를 보이지 않습니다." # 3c140d31c09e741b86e6fe1e243f5bf9f9176094
+  harran.0003.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0003.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0003.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0004.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0004.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0004.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0005.t: "달의 신전" # 63bc95a38eb4e8c9e12105cc7e8407e0919510b5
+  harran.0005.desc: "때때로 어떤 형태이든 간에 신에게 경의를 표하는 것은 현명한 일입니다.\n\n[harran_county.GetNameNoTier]의 위대한 달의 신전에서 경의를 표할 때가 되었다고 판단했습니다. 이곳은 고대 세계의 유산으로, 그리스인들에게 아도니스로도 알려진 탐무즈와 같은 다양한 신들의 우상으로 장식되어 있습니다. 신전 중앙에는 지역에서 신으로 알려진 달의 신 시인의 우상이 서 있습니다. 벽은 낡고 신전은 분명히 좋은 시절을 보냈지만 방문자들은 수백 년의 역사가 그들에게 압박감을 준다고 말합니다.\n\n어쨌든 저는 신에 대한 헌신을 보여주기 위해 사제들에게 제물과 희생에 대한 상당한 기부를 했습니다." # d379f012cd00bed5dc87b867addea047399955ba
+  harran.0005.a: "하늘에서 신성한 은총이 내리길 바랍니다!" # e1513a01c8b0ef790f31b7f9a4acb904949ebe33
+  harran.0005.b: "이 제물을 바쳐 제 헌신을 보여드리겠습니다!" # a34d1b953d6c754e784583807e452970ac7cd197
+  harran.0006.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0006.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0006.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0007.t: "사원이 더 이상 서 있지 않습니다" # 79266931960da700d3d900cac4903bfe1998ce23
+  harran.0007.desc: "저는 [harran_county.GetNameNoTier]에 남은 불경한 자들의 항의와 간청을 무시합니다. 그들은 제가 자기들이 원하는 대로 숭배할 수 있도록 허용했던 합의를 끝내지 말라고 재촉합니다. 하지만 제 마음은 흔들리지 않을 것입니다.\n\n우리는 너무 오랫동안 이 이교도들에게 관대했습니다. 하란의 달의 신전은 더 이상 이 우상 숭배자들의 거처가 되지 않을 것입니다. 저는 제 명령을 따를 준비가 된 많은 사람들을 거느리고 있습니다. 하란의 이교 시대는 끝났습니다." # f5d861f8bd2501d923f99215d378f489a96d501f
+  harran.0007.a: "신전을 짓밟고 약탈하라!" # bf99da97c77448567c49071e3967e8566739761b
+  harran.0007.tooltip: "[GetReligionFamily('rf_pagan').GetName] [rulers|E]는 더 이상 [harran_county.GetNameNoTier]에 있는 [harran_temple_of_the_moon|E]에서 숭배하기 위한 [decision|E]를 내릴 수 없습니다." # ba3b71313abc3a1b7d6c905c84860aa8c4056e3c
+  harran.0008.t: "달의 신전 파괴" # 017544bf815880d03616bfeb0d5c3e8f82be2eba
+  harran.0008.desc: "[harran_county.GetNameNoTier]의 달의 신전은 태고부터 존재해 왔으며, 오래전 사라진 시대의 드문 흔적이었습니다. 그것은 이집트인들만큼이나 고대적이었으며, 알렉산더 대왕과 율리우스 카이사르가 살았던 시대에도 이미 수천 년이나 된 것이었습니다. 그것은 아케메네스 왕조, 마우리아 왕조, 로마인들과 같은 제국들보다 오래 살아남아 수많은 재난을 견뎌냈습니다. 그것은 십자가와 초승달의 부상 후에도 계속해서 지속되었습니다. 전쟁과 투쟁의 시대에, 그것은 헤르메스, 탐무즈, 그리고 물론 고대 달의 신인 신과 같이 다양한 신들을 숭배하는 줄어드는 숭배자들을 위한 안식처였습니다.\n\n그러나 그것은 마침내 종말을 맞이했습니다. [harran_temple_destructor.GetTitledFirstName]의 명령에 따라 신전은 완전히 파괴되었습니다. 하란에 남은 이교도들은 그들의 신전을 잃었고, 그들의 날들은 분명히 얼마 남지 않았습니다." # eb7d0b3b303a92a600ab3ed3cd26663fa6fe02c7
+  harran.0008.a: "알겠습니다...." # f94bbb707e5fa4bf4caec62ffebd3f1f4fd92fd8
+  harran.0008.tooltip: "[GetReligionFamily('rf_pagan').GetName] [rulers|E]는 더 이상 [harran_county.GetNameNoTier]에 있는 [harran_temple_of_the_moon|E]에서 숭배하기 위한 [decision|E]를 내릴 수 없습니다." # ba3b71313abc3a1b7d6c905c84860aa8c4056e3c
+  harran.0009.t: "논문 작성" # e5b5e7854953827c208d34326a4e91a64c57f0bc
+  harran.0009.desc: "하란 학자로 여겨지는 자로서, 지적인 세계에 기여할 때가 되었습니다! 우리 하란인들은 아테네의 신플라톤 학파, 궁극적으로는 플라톤과 헤르메스와 같은 현명한 고대 사상가들까지 거슬러 올라가는 긴 혈통을 자랑할 수 있습니다. 저는 연구를 위해 참조할 수 있는 전문가들이 쓴 다양한 책과 두루마리뿐만 아니라 필기구를 준비합니다." # 0cd456495dc09c9288e3e1236da9d48710f197e6
+  harran.0009.a: "알겠습니다!" # 61d873efa0c1dde12a832b7d939bd1bb4fdba6bb
+  harran.0009.tooltip: "학문적 주제에 대한 논문을 쓰기 시작합니다." # 1541f0fd6311fcc30b38f1d527ae2c06a3b35170
+  harran.0010.desc: "학문적 주제에 대한 논문을 완성했습니다. 이 논문이 학문에 대한 또 다른 가치 있는 하란인의 기여가 되기를 바랍니다. 제가 저의 작품에서 설명한 지식이 인류에게 도움이 되기를 희망합니다. 최소한 이로 인해 이 지역의 학계에서 저의 명성과 명성이 높아질 것입니다." # 8f4e1f41e478983af58b7c9a3cd82950483c0840
+  harran.0010.a: "정말 힘들었어! 다른 사람들에게 몇 부 보내야겠어." # ccda0ebcc11c8b4f7851fe4fdbfbf6095af216e3
+  harran.0010.b: "어쩌면 내가 엘리트들 사이에서 내 작품을 홍보할 수 있을지도 몰라...." # eaf7c90d13bd4e6d9dfad10f8ef69e84ce77a2bf
+  harran.0011.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0011.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0011.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0012.t: "나바테아 농업" # dfa737e5c59b3c5489cf54f31e61f25b9b6ba916
+  harran.0012.desc: "그를 아는 자들은 [ibn_wahshiyya.GetTitledFirstName] [ibn_wahshiyya.GetDynasty.GetName]를 재능 있지만 특이한 학자로 여깁니다. [ibn_wahshiyya.GetHerHis|U]는 남부 [GetGeographicalRegion('RICE_region_mesopotamia').GetName]의 토착민, [nabataean.GetCollectiveNoun], 즉 나바테아인 출신입니다. 레반트의 나바테아인과 혼동해서는 안 됩니다.\n\n수년 동안, 이 [nabataean.GetCollectiveNounNoTooltip]들은 많은 이들에게 시골뜨기로 비웃음을 받았습니다. 학식 있는 [ibn_wahshiyya.GetDynasty.GetNameNoTooltip]는 [ibn_wahshiyya.GetHerHis] 인생의 대부분을 여행하며 고대 세계의 지혜, 특히 [ibn_wahshiyya.GetHerHis] 조상들의 지혜를 모아, 그들이 세상이 배울 만한 많은 것을 가지고 있다는 것을 증명하기 위해 보냈습니다.\n\n이제, [ibn_wahshiyya.GetDynasty.GetNameNoTooltip]는 [ibn_wahshiyya.GetSheHe]가 배운 것을 큰 지식 저서 $RICE_nabataean_agriculture_book_name$에 집대성했습니다. 그것을 본 사람들은 농업, 주요 초점,뿐만 아니라 철학, 마법, 점성술, 그리고 [nabataean.GetCollectiveNounNoTooltip]의 전통적인 [kasdanian.GetAdjective] 신앙에 대한 많은 훌륭한 통찰력이 있다고 믿습니다." # 0ff7e2df338cc23a418ab8104037fb1a3b6ebc49
+  harran.0012.a: "인류 지식에 대한 위대한 공헌입니다." # cff5bff4719f09428c979c98f33bb01137f4311c
+  harran.0013.t: "나바테아인" # 42ab6721f96652dad1806fe960da485d6ffe2669
+  harran.0013.desc: "우리 [nabati.GetCollectiveNoun]은 한때 다른 왕국들을 공포에 떨게 하고 존경을 받았던 위대하고 강력한 민족이었습니다. 그 고대에 나의 조상인 산헤립과 같은 강력한 왕들이 영광스럽게 정복하고 다스렸습니다. 심지어 우리 언어인 [nabati.GetLanguage.GetName]은 창조의 원초적인 언어였습니다!\n\n우리가 얼마나 몰락했는지.... 아니면 적어도 외부인들은 무지한 시골뜨기보다 나을 것이 없는 우리를 비난하는 것을 좋아합니다. 하지만 나는 더 잘 알고 있습니다.\n\n확실히 많은 [nabati.GetCollectiveNounNoTooltip]은 이라크 습지의 시골 지역에 사는 평범한 농민에 불과합니다. 그렇기 때문에 교육받은 학자로서 우리의 고대 지식을 최대한 수집하고, 그것에 대해 깊이 생각하고, 다른 사람들에게 가르쳐서 후세를 위해 보존하는 것이 나의 의무입니다. 언젠가 나의 발견과 생각을 위대한 책으로 엮을 수 있기를 바랍니다." # 30c0775b349465b9b7a8b3ca3c6aef23061d307a
+  harran.0013.a: "제 유산을 위해서라면 이 정도는 해야 합니다." # a4e48c97fd77db76ad8ed4876ee0df5a81742c30
+  harran.0013.tooltip: "[GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E]는 [travel|E]할 때 여러 [travel_options|E]를 선택하여 레벨을 올릴 수 있습니다. 모든 트랙에서 최대 [trait_level_track_xp|E]에 도달하면 #bold $RICE_nabataean_ibn_wahshiyya_decision$#! 결정을 내려 강력한 책 [artifact|E]를 얻을 수 있습니다." # c687a6c666f4c57905dd2898ecedc054d2cdaaf1
+  harran.0013.info: "#emphasis 역사적 배경:#! 이븐 와흐시야는 9세기 후반과 10세기 초반에 활동한 이라크 출신의 학자입니다. 그의 대표작인 #italic 나바테아 농업#!은 농업, 점성술, 마법 연구로 수세기 동안 높이 평가받았습니다.\n\n오늘날 학계에서 #italic 나바테아 농업#!은 이라크 남부에서 이븐 와흐시야가 태어난 지역의 잘 알려지지 않은 민족인 이른바 이라크의 나바테아인에 대한 중요한 자료이며, RICE에서는 $nabati$ 문화로 표현됩니다. 이들은 페트라를 건설한 레반트의 나바테아 아랍인과는 다릅니다. 이 나바테아인들은 고대 메소포타미아의 후계자로 여겨졌던 아람어 사용자들이었고, 많은 이들이 초기 아바스 시대에도 여전히 이교도였으며, RICE에서 $south_mesopotamian_pagan$ 신앙으로 표현되는 고대 메소포타미아 종교의 후기 진화를 보존하고 있었습니다.\n\n이러한 나바테아인에 대한 많은 전설이 돌았는데, 그들을 천한 농민에 지나지 않는다고 여기는 사람들 사이에서도 그들의 아람어는 창조의 원래 언어와 같다는 등의 전설이 있었습니다. 흥미롭게도 이븐 와흐시야는 아시리아 왕 센나케리브의 후손이라고 주장했는데, 센나케리브는 폭군으로 묘사되는 것과는 대조적으로 이라크의 나바테아인들에게는 저명한 조상으로 존경받았습니다." # f3b2e932b8acce44a306f4e3b1de92ad98eb28e6
+  harran.0014.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0020.t: "하란 학원 지원" # 645d29032bd702178644f73901c31d618ef0d2fe
+  harran.0020.desc: "하란의 신플라톤주의 학회 구성원들은 저의 재정적, 도덕적 지원에 감사하며, 이러한 지원이 그들이 수 세기 동안 축적한 지혜를 다른 사람들에게 계속해서 전수할 수 있도록 보장해 주기를 희망합니다. 고대이지만 점점 쇠퇴하는 공동체의 구성원으로서, 그들은 도움이 어디에서 오든 항상 도움을 필요로 합니다." # 6cce83d024a2857b69d13b444de665e32d1b18b7
+  harran.0021.t: "철학자" # a8da33ed63c9161f96d88ab2273dd105d65cc156
+  harran.0021.desc: "꿈속에서, 은빛이 살짝 감도는 머리카락과 위엄 있고 현명한 눈을 가진 고귀한 모습의 누군가가 나에게 다가왔습니다. 부드러운 권위가 느껴지는 어조로 [ancient_pagan_philosopher.GetSheHe]는 고대 이교 철학자 중 한 명인 [ancient_pagan_philosopher.GetFirstName]라고 [ancient_pagan_philosopher.GetHerselfHimself]를 소개했지만, 꿈속에서 나는 이것이 얼마나 중요한지 제대로 인지하지 못했습니다. 그럼에도 불구하고 [ancient_pagan_philosopher.GetSheHe]는 하란의 신플라톤 학원의 생존을 보장하기 위해 보여준 모든 지원에 대해 감사를 표했습니다." # ce271391fb25739e884ad8da8c793850fc669480
+  harran.0021.hellenic: "자네의 친절에 영원히 감사하네, 아이. 신들이 자네를 축복하길." # ff5b12660578938384b6e74c3405aafe9cb0eb51
+  harran.0021.nonhellenic: ""저는 당신의 [ROOT.Char.GetFaith.GetAdjective] 신조를 따르지 않지만, 진실은 여러 가지 방식으로 나타납니다."" # 5b2e074538d80dddc8e9cd2c9b0913da9fa92942
+  harran.0022.t: "하란의 학술원 재건" # 1af9facbfa2127a25d07f5f6f9f6af07d130c689
+  harran.0022.desc: "저는 막대한 자금과 자원을 모아 [harran_county.GetNameNoTier]의 신플라톤 아카데미를 부흥시키기 위해 많은 학자들을 모았습니다. 너무 오랫동안 우리는 이 귀중한 기관이 시들어가도록 내버려 두었으며, 이제는 그것을 이전의 영광으로 되돌려놓는 것이 우리에게 달려 있습니다. 우리의 목표는 아카데미 캠퍼스의 물리적 구조를 개조하고, 활기차고 큰 학자 공동체(대부분 이교도이지만 열린 마음을 가진 한 다른 사람들도 환영할 것입니다)를 세우고 확보하는 것입니다. 시간이 좀 걸리겠지만, 아카데미는 살아남을 것입니다!" # a007c665d534d83e3db1da9f6c84199d05470928
+  harran.0022.a: "인류의 발전을 위해서입니다." # d410b8f09d296d8a185bdc00046b25da1d8bfb7c
+  harran.0023.t: "신플라톤주의 부활" # 8bdfca3a831a8fab3ddf9c36088bf0da582227fd
+  harran.0023.desc: "수 세대에 걸쳐 [harran_county.GetNameNoTier]의 신플라톤 아카데미는 고대 세계의 마지막 잔재였습니다. 메소포타미아 북부의 험준한 언덕에 위치한 이 아카데미의 학자들은 로마 제국의 신플라톤주의자들의 지적 후손임을 자처했으며, 그들은 플라톤 자신에게까지 혈통을 추적했습니다. 슬프게도 수년 동안 아카데미는 이 지역이 비이교도에게 지배당함에 따라 불가피한 쇠퇴를 겪었습니다.\n\n그러나 이제 아카데미에 행운이 찾아왔습니다. 현명한 [harran_academy_reviver.GetTitledFirstName]는 그곳의 물리적 공간을 개조하고 많은 뛰어난 학자들을 불러들여 아카데미를 활성화하기 위해 자원을 모았습니다. 비록 바그다드의 지혜의 집이나 원래의 플라톤 아카데미에 필적할 수는 없지만, 하란의 아카데미는 이제 학문의 중심지로서 미래를 보장받았습니다." # 48e58e6f2fe42f10b560711e72f0a1cf64ed418b
+  harran.0023.a: "별에 쓰여 있었던 것이었소!" # 42f3891083b7fcdf22d5be4f50164195ae88740b
+  harran.0024.t: "하란 학원의 종말" # 47a0005322f99d18d721cbe533adceec04cc57f9
+  harran.0024.desc: "최근 [harran_county.GetNameNoTier]의 신플라톤주의 아카데미는 세계 일부 지역의 이교도 종교 쇠퇴를 반영하듯 쇠락의 길을 걷고 있습니다. 안타깝게도, 이 가장 존경받는 제도를 보존하기 위해 시간과 자원을 투자하려는 이는 드물었습니다. 이제 마지막 진정한 교사이자 학자의 죽음으로 인해, 그 계보를 이을 사람이 없어 사실상 폐쇄되었습니다." # e19c316a925ed249cd935668a9e456c1334e043c
+  harran.0024.a: "알겠습니다..." # fd141e42cc289e104322660970b444bacc80870f
+  harran.0025.t: "신플라톤주의의 종말" # 67ea845615fed8bcf44a6283ddfa6e1d8412b4c3
+  harran.0025.desc: "모든 것은 언젠가 시들어 사라지게 마련입니다. [harran_county.GetNameNoTier]에 있는 신플라톤 아카데미는 한때 고대 헬레닉 문명의 마지막 잔재인 활기찬 학자 공동체였습니다. 수 세기 동안 아카데미의 철학자들과 신비주의자들은 지식의 흔적을 다음 세대로 전수했습니다.\n\n하지만 이제는 아닙니다.\n\n학교의 마지막 교사가 세상을 떠났고, 재정적, 도덕적 지원이 없어 아카데미는 역사의 연대기 속으로 사라질 것입니다. 한때 활기찬 지적 공동체가 있던 곳에 남은 것은 이제 고대 두루마리의 희미해지는 잉크와 오래전 과거의 찬란한 역사의 속삭임뿐입니다." # 41c60bb477a64c53914550bd52043ecf27e699fa
+  harran.0025.a: "그리되었으니, 그렇게 될지어다." # b12415a81d62806117b933a314998a937b95513f
+  RICE_harran_neoplatonic_academy_dead_tooltip: "[harranian_characters|E]는 더 이상 중동 [courts|E]에서 생성될 수 없으며, 해당 지역의 [rulers|E]는 더 이상 [harran_neoplatonic_academy|E]를 후원하는 [decision|E]을 내릴 수 없습니다." # 24f5be1c7ba2196840854ebfd79ab794d17c4b00
+  harran.0026.t: "아테네 신플라톤 학파의 종말" # 3bb26b3df261ecbb777a22a42d08e82202a99a7a
+  harran.0026.desc: "수 세기 동안, [athens_barony.GetNameNoTier]는 소위 #bold 신플라톤주의 학원#!에서 가르치고 고대 시대의 원래 플라톤 학원에서 지적으로 이어져 왔다고 주장하는 학자들의 고향이었습니다. 종교적 차이에도 불구하고, 저와 같은 통치자들은 그들을 참아주고 심지어 그들의 기관에 자금을 지원해 주었으며, 그들이 우리 사회에 무언가를 기여한다고 잘못 생각했습니다.\n\n하지만 시대는 변하고 있으며, 우리는 이 사람들과 그들의 학교에 국고를 충분히 낭비했습니다. 저는 학자들이 저에게 자금 지원을 중단하지 말라고 간청했음에도 불구하고 학원에 대한 자금 지원을 중단하기로 결정했습니다. 이 신플라톤주의자들은 이것이 사실상 그들에게 거처가 없어져 망명으로 몰아넣는 것이라고 말합니다. 그것에 대해 저는 한 가지만 말할 수 있습니다. 그것은 그들의 문제이지, 제 문제가 아닙니다." # 2e4d3d9d1bf7086c0e73f657553f1efdf0914cd5
+  harran.0026.a: "그들의 운명은 내게 별로 중요하지 않다." # 8f4e0164d5321642f5f28a8a109184d4c75f3444
+  harran.0026.tooltip: "신플라톤 학자들이 새로운 안식처를 찾아 떠돌아다닐 것입니다. 소문에 따르면 그들은 새로운 [harran_neoplatonic_academy|E]를 세우기 위해 [harran_county.GetNameNoTier]와 같은 근동 지역의 몇몇 곳을 눈여겨보고 있지만, 그곳에 그들을 환영할지 여부는 지역 통치자에게 달려 있을 것입니다." # 907fc2d582820e0349525848a1ba0255d05353b4
+  harran.0027.t: "아테네 신플라톤 학파의 종말" # 3bb26b3df261ecbb777a22a42d08e82202a99a7a
+  harran.0027.desc: "수 세기 동안 [athens_barony.GetNameNoTier]는 #bold 신플라톤 학파 학원#!의 본거지였습니다. 그들은 고대 플라톤 학원의 지적 후예라고 주장하는 학자들의 혈통이었습니다. 그들은 어려운 시기와 많은 도전을 헤쳐 나갔고, 이전 당국은 종교적 견해에 동의하지 않더라도 그들을 재정적으로 지원하는 데 만족했습니다. 그러나 그들의 운마저 다했습니다.\n\n[athens_barony.GetNameNoTier]의 현 통치자인 [neoplatonic_academy_hater.GetTitledFirstName]는 학원 지원을 중단하기로 결정했으며, [neoplatonic_academy_hater.GetHerHis]의 메시지는 분명합니다. 이 신플라톤주의자들은 더 이상 그곳에서 환영받지 못합니다.\n\n신플라톤주의자들조차도 이 학자들의 미래가 어떻게 될지 모릅니다. 그들 중 다수는 더 관용적이고 현명한 통치자들이 있다고 하는 동쪽 땅을 방황할 계획을 하고 있습니다." # d71b513d425762ec5c631cf74a1328be67bd3410
+  harran.0027.a: "어쩌면 그들은 새로운 보금자리를 찾을 수도, 그렇지 못할 수도 있습니다." # b0980028410097dba25e7170ed8aa1555682e87d
+  harran.0027.b: "[harran_county.GetNameNoTier]이 그들에게 좋은 보금자리가 될 수 있을 텐데... 그들이 여기로 올까?" # 2b61905cb914bfa028f3eda5c462dd6961d84ead
+  harran.0027.tooltip: "$harran.0026.tooltip$" # 44ba5aea507b3a64e639a3dab5a33382325c70f3
+  harran.0028.t: "신플라톤주의자들이 하란에 정착하다" # c897661f8f6519060a14ab36a433215c05f93fb9
+  harran.0028.desc: "아테네의 신플라톤주의 학원은 한때 저명한 이교도 학자들로 가득한 존경받는 교육 기관이었습니다. 그러나 종교적 견해가 다른 지역 당국은 결국 그들의 기관에 대한 자금 지원을 중단했고, 그들은 더 관대한 통치자를 찾아 망명하게 되었습니다. 마침내 그들은 후원자를 찾았습니다.\n\n나는 이 학자들이 얼마나 오랫동안 방황했는지 그들의 곤경에 대해 들었습니다. 나는 그들의 재능이 제대로 평가받지 못했다는 것에 대한 연민뿐만 아니라 기회가 왔다는 것에 대한 흥분도 느꼈습니다. 이 학자들이 [harran_county.GetNameNoTier]에 피난처를 구할 수 있는지 알아볼 생각을 하고 있다는 소식을 들었을 때, 나는 그들을 내 땅으로 맞이해야 한다는 것을 알았습니다. [harran_county.GetNameNoTier]의 이교도 공동체 역시 이곳에 신플라톤주의 학원이 재건된다는 소식에 흥분하고 있습니다." # 39428edcd3f33677a6b9529a4620af94fa9617c9
+  harran.0028.a: "신플라톤 아카데미에 새로운 날이 밝았습니다." # d9fdd8732bfbe77f1746877cf77211c55a463f68
+  harran.0028.tooltip: "[harran_neoplatonic_academy|E]가 새로운 보금자리를 찾았으며, 중동과 소아시아의 [rulers|E]는 이제 #Bold 신플라톤주의 학원 후원#! [decision|E]을 내릴 수 있습니다. 또한, [harranian_courtiers|E]가 이 지역에서 가끔 나타날 것입니다." # d4645c7ee681f7ff344a35fc1f2c3f4766afe67a
+  harran.0029.t: "신플라톤주의자들이 하란에 정착하다" # c897661f8f6519060a14ab36a433215c05f93fb9
+  harran.0029.desc: "신플라톤주의 학파는 한때 아테네에서 존경받는 교육 기관이었으며, 저명한 이교도 학자들로 가득했습니다. 그러나 종교적 견해가 다른 지역 당국은 결국 그들의 기관에 대한 자금 지원을 중단했고, 더 관대한 통치자를 찾아 망명하게 되었습니다. 마침내 그들은 후원자를 찾았습니다.\n\n[neoplatonic_academy_lover.GetTitledFirstName]은 오랫동안 방황했던 이 학자들을 불쌍히 여겨 그들과 합의하여 [harran_county.GetNameNoTier]에 정착하도록 허락했습니다. 그 도시의 이교도 공동체는 이 존경받는 학자들이 새로운 보금자리에 온 것을 기쁘게 환영하고 있습니다. 분명히 이것은 신플라톤 전통 역사에서 멋진 새로운 장의 시작일 것입니다." # 2e79605a3ded2ffa7d7b62f4bee09ad93357b41c
+  harran.0029.a: "과연 그들이 이번에는 얼마나 오래 버틸 수 있을까?" # 8fca1907a4d5ed2dd6031c0105c4afa337597417
+  harran.0029.tooltip: "역사적 배경:\n#F $harran$에서 관리력 기술을 가진 사람들의 평판은 보통 평판보다 더 높습니다.#" # 44ba5aea507b3a64e639a3dab5a33382325c70f3
+  harran.0030.t: "하란 학자" # 0d1bc8d7f29ee9c6c89ed4d6f1b78594c4fa9aa9
+  harran.0030.desc: "[harran_county.GetNameNoTier] 사람들은 수 세기 동안 고대 이교도 신앙의 마지막 보루 중 하나였습니다. 그들 중 많은 이들은 지역 전역에서 지식과 지혜로 유명합니다.\n\n오늘, [spawned_harranian_courtier.GetFullName]이라는 한 남자가 내 궁정에 도착하여 내 후원을 구했습니다. 그를 그리고 그의 가족을 지원한다면, 그는 학자이자 사상가로서 자신의 봉사를 제공할 것입니다. 하란 사람들은 지역 전역에서 신비적, 영적, 물질적 모든 분야에서 엄청난 지식으로 유명합니다. 따라서 궁정에 한 사람을 두는 것은 큰 이점이 될 것입니다." # c171ee1c7d69ad735f729a5ec34e60e97fc054dd
+  harran.0030.a: "좋아, 그렇게 하지! 그를 환영해주게." # 7cae235ea882b4006d421518f719e81096d7fc2e
+  harran.0030.a.tooltip: "[spawned_harranian_courtier.GetFullNameNoTooltip]은(는) [harranian_courtier|E]으로서 학술 논문을 작성하여 영지의 지식에 기여할 수 있습니다." # ee98710632bfc5377f4862430d64df11ae1c941f
+  harran.0030.b: "나는 그런 자에게 쓸모가 없다." # 2a031d1ec63fb6b24b59c564e336e168058ed7a8
+  harran.0031.t: "하란 조약" # d8e89a9ab0718b21ed773117176dec52d93924a7
+  harran.0031.desc: "저의 궁정에 있는 하란 학자 [harranian_scholar.GetFullName]이 학술 논문 작성을 완료하고 저에게 사본을 제출했습니다. 하란인의 고대 지식은 결국 나머지 세계와 공유되어야 합니다. 어쨌든 [harranian_scholar.GetTitledFirstName]은 지역의 동료 학자들로부터 존경을 받을 뿐만 아니라, 저 또한 그처럼 재능 있는 개인을 지원함으로써 어느 정도의 명예와 명성을 얻을 것입니다." # aa518f443f7c7f7941cef5768146940f066bdf09
+  harran.0031.a: "훌륭하군요! 다른 사람들도 이 논문에서 배울 수 있기를 바랍니다." # 7c1fdd2894067491e2557af490f6db69ef3f54c7
+  harran.0032.t: "신플라톤주의 학자" # a16071fa9de59296032017bfd67066ed7141b036
+  harran.0032.desc: "[harran_county.GetNameNoTier]에 신플라톤주의 학자들을 맞이하고 그들에게 새로운 학원을 설립하도록 허용한 직후, 나는 그들의 저명한 대표자 중 한 명인 [spawned_harranian_courtier.GetTitledFirstName]에게 접근받았습니다. 그는 나의 공정하고 관대한 지도력에 감명받아 나의 궁정에서 나와 긴밀히 협력하고, [harran_county.GetNameNoTier]에서 번성하는 학원과 나 사이의 연락책 역할을 하고 싶어합니다. 실제로, 나의 궁정에 그렇게 학식 있고 재능 있는 사람을 두는 것은 가치 있는 일일지도 모릅니다…." # cca6a732a3969c0164df2465bed7a630078da452
+  harran.0032.a: "물론입니다! 제 궁정에 그런 학자를 모시게 되어 영광입니다." # 2eb6604ea667edbf219886dc4a30ec562424ee58
+  harran.0032.b: "그 대신 동료 학자들과 함께 그들을 돕는 것이 더 좋을 것입니다." # 51cc320a4c9bc17e519d388738cb22b3f87e5955
+  harran.0033.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0033.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0033.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0034.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0034.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0034.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0035.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0035.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0035.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0036.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0036.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0036.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0037.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0037.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0037.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0038.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0038.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0038.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0039.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0040.t: "하란의 운명" # e201785ae54608b12f1248f03924cf3c02cb74f1
+  harran.0040.desc: "북부 메소포타미아의 험준한 언덕에 자리 잡은 [harran_county.GetNameNoTier]는 수세기 동안 고대 시대의 호기심 어린 유물과 같았습니다. 그 주민들은 대부분 이교도이기 때문입니다. 그들은 수년 동안 이슬람 이웃들과 평화롭게 공존해 왔고, 그들의 학식으로 널리 존경받고 있지만, 최근에 그들이 더 큰 자율성과 자유를 요구해 왔다는 소식을 들었습니다. 유명한 학자 [thabit_ibn_qurra.GetFullName]와 같은 영향력 있는 하란 가문의 누군가에게 하란에 대한 어느 정도의 권력과 지도력을 허용하는 것이 현명할 것이라고 말하는 사람들이 있습니다." # adeea449713fb6d81523a961886dd789461b879b
+  harran.0040.a.caliph: "저는 하란에 대한 더 직접적인 통제가 가능했으면 좋겠습니다." # b90eb9b3e290165010c08422f118f9b84073fcfd
+  harran.0040.a.non_caliph: "[caliph_dude.GetTitledFirstName]이 이러한 권장 사항을 무시하고 있다는 소식을 들었습니다." # 3dcceb8bbdccd8214bbb794514373bef3a8ceac3
+  harran.0040.b.caliph: "동의합니다. [thabit_ibn_qurra.GetTitledFirstName] 님이 좋은 지도자가 될 것이라고 생각합니다." # 68310ef46688cc4e3ab82f974050a33cb59a8a63
+  harran.0040.b.non_caliph: "[caliph_dude.GetTitledFirstName]께서 하란에 더 큰 자치권을 부여할 것이라고 들었습니다." # 4c8c2925bf98e8917200bf7d99de63dddeaee2b3
+  harran.0040.no_thabit_ibn_qurra_sad: "당신은 [THIS.Char.GetTitledFirstNameNoTooltip]으로 계속 플레이하게 되며, [thabit_ibn_qurra.GetFullNameNoTooltip]는 하란의 소유권을 받지 못하게 됩니다. 즉, 사용자 지정 통치자 설계를 통해 생성된 경우를 제외하고 지도상의 어느 곳에도 [thabit_ibn_qurra.GetFaith.GetAdjective]인 [landed|E] [rulers|E]가 없다는 의미입니다." # 7182d93669263bf031a2d13df7ef19ca0c9334f6
+  harran.0041.t: "귀향" # 1591daac0f9183b301452d601edf9248e5cb949e
+  harran.0041.desc: "[harran_county.GetNameNoTier]의 거리를 걸은 지 여러 해가 흘렀습니다. 한때 비옥했던 농지는 먼지로 뒤덮였고, 사람들은 변하고, 성장하고, 죽으며, 삶은 언제나처럼 덧없이 이어집니다. 하지만 하늘의 별들은 어떨까요? 별들은 항상 그래왔듯이, 그리고 앞으로도 영원히 그 자리에 있을 것입니다. 별을 읽는 자들은 운명이 독자적인 생각을 가질 수 있다는 것을 알고 있습니다.\n\n[caliph_dude.GetTitledFirstName]께서 저를 하란의 새로운 지도자로 선택하신 것은 기이한 운명의 장난입니다. 저는 한때 이곳에서 추방당했지만, 이제 승리하여 돌아왔습니다. 한때 저는 존경받는 지혜의 집에서 모든 신앙의 가장 위대한 지성들과 만나 이른 아침 늦은 시간까지 고대 지식의 서적을 탐독하는 학자로 영원히 남을 것이라고 예상했지만, 별들은 제 삶에 다른 방향을 설정했습니다." # 5b361780bf771beda7b804af3dd426f8ee773035
+  harran.0041.desc.landless: "제가 [harran_county.GetNameNoTier]에서 살았던 지도 여러 해가 흘렀습니다. 한때 비옥했던 농토는 먼지로 뒤덮였고, 사람들은 변하고, 성장하고, 죽어가며, 삶은 늘 그렇듯 덧없이 흘러갑니다. 하지만 하늘의 별들은 어떠한가? 별들은 늘 그래왔듯 앞으로도 영원히 그 자리에 머무르겠지요. 별을 읽는 사람들은 운명이라는 것이 제멋대로일 수 있다는 것을 압니다.\n\n운명의 기묘한 장난으로 저는 명망 높은 지혜의 집의 학자로서 [GetTitleByKey('c_baghdad').GetNameNoTier]에 와서, 모든 신앙의 가장 위대한 지성인들을 만나 밤늦도록 고대의 지식 서적을 탐독하게 되었습니다. 여전히 저는 매일 별들이 저를 위해 무엇을 예비해 두었을지 궁금해합니다." # fc705691a3719e167e0c299c47720b730ede3f2f
+  harran.0041.a: "어떻게 이 지경에 이르게 된 거지? 무엇이 날 여기로 이끌었을까?" # 9d4ab2f695756c9669dae962ab73514577e75f73
+  harran.0041.a.tooltip: "네, 알겠습니다." # a60464333dc87e91127a101265a0c7964b652c75
+  harran.0041.b: "하지만 과거는 과거일 뿐입니다. 이제 미래로 나아갑시다!" # 8d26bda91d0f8b48d0e598ac7b0324ac46f0f8ce
+  harran.0041.b.tooltip: "이것은 빠른 시작 옵션입니다. 시작 상황은 무작위로 선택됩니다." # 167a7c2b6351eba370ea21392c8113d166715732
+  harran.0042.t: "출생" # 7d79ee81a983198f514b8750d4db56bdc8cbaca0
+  harran.0042.desc: "제가 태어난 직후, 부모님께서는 저를 지역 점성술사에게 데려가셨습니다. 저희 하란인들은 그리스와 로마 시대부터 대대로 전해 내려온 천체에 대한 지식을 자랑스럽게 여깁니다. 제가 지혜의 집에서 학자로 일할 때조차도 제 연구의 상당 부분은 천문학에 집중되었습니다.\n\n점성술사는 제가 특정 별의 영향 아래에서 태어났기 때문에 흥미로운 삶을 살 것이라고 말했습니다. 이 점성술사에 따르면, 그 별은 저에게 명성과 뛰어난 지능뿐만 아니라…" # 33b1156879d031670258139c07210827096d10df
+  harran.0042.a: "매력과 수려한 외모" # 93eba94df8098d03d498ba6fc6307104697883c0
+  harran.0042.b: "강대한 힘과 풍모" # 13edca610941714c553a4a0b1717be5d82953f05
+  harran.0042.c: "훌륭한 가문과 번영" # 8ed04c92117c015a305e1d911122d49eb77b4609
+  harran.0042.d: "막대한 영향력과 명성" # a15a61933a7e67446fdae197729040026034967a
+  harran.0043.t: "유년 시절" # 9a9f029bbee91aaca1d216c0fae9b15c233bd81d
+  harran.0043.desc: "저의 아버지와 할아버지께서는 하란 지역 지도부에서 여러 중요한 직책을 맡으셨습니다. 그분들은 또한 부유한 지주이자 저명한 학자였으며, 따라서 저희는 하란에서 매우 두드러진 존재였습니다. 저는 특권층 집안 출신이었지만, 삶이 항상 행복했던 것은 아닙니다. 어렸을 때 저는 제 인생관을 영원히 바꾸어 놓은 트라우마적인 경험을 겪는 불운을 겪었습니다." # b95713a52875de6e36156118b711cb6562419f8c
+  harran.0043.a: "한번은 도적들이 우리 가문의 저택을 습격하여 약탈했습니다." # dc81d67f66d0afe0a6dbacc7a3fc4b408651ee51
+  harran.0043.a.tooltip: "그들은 우리 귀중품을 많이 가져갔지만, 다행히 우리는 거의 다치지 않고 탈출했습니다. 저는 어렸지만 용감하게도 그들이 우리를 해치기 전에 대부분의 가솔에게 알렸습니다." # 82d2d28da761d7a1ed7de0b618cf454058bf500b
+  harran.0043.b: "길고 고통스러운 질병으로 거의 죽을 뻔했지만 어떻게든 살아남았습니다" # 122c13a0889f88584bef3ab00ebaa9b21b1d90de
+  harran.0043.b.tooltip: "저는 1년 동안 허송세월했고, 오직 여행하는 의사의 노력 덕분에 겨우 살아남았습니다. 저는 삶이 얼마나 덧없을 수 있는지 배웠습니다. 하지만 그 의사는 제게 의술에 대한 한두 가지를 가르쳐주었습니다." # f9ef04320262a44ed1bb94a47cdf30a7db16ca55
+  harran.0043.c: "내 친구이자 첫사랑이자, 모두가 훌륭하다고 말했던 소녀가 죽었습니다." # 26ad4e855733447695ae9bcb0652e78f8d0bef5f
+  harran.0043.c.tooltip: "내가 그녀를 구할 수 있었을 텐데! 하지만 전부 내 잘못이었어, 그렇지? 만약에... 아니야. 그녀는 갔어. 이제 내가 할 수 있는 건 없지만, 그녀에 대한 기억은 영원히 내 마음에 새겨져 있을 거야." # b6f7dfeebbbfa7bc5bf5f724920b2182029dc1ca
+  harran.0043.d: "지역 불량배인 귀족의 아들과 그의 하인들이 나를 습격했습니다" # eb8ba84b66196d10d239feb3cfa6f246ef7950cf
+  harran.0043.d.tooltip: "그들은 나를 상처 입히고 못쓰게 만들었지만, 그 후 내 결의는 더욱 강해졌다. 하지만 오늘날까지도 나는 그 놈을 여전히 증오한다. 만약 그가 아직 하란에 있다면… 나는 무엇을 할지 모르겠다!" # dcf3a41e29e9d808163351f987735c98890b5330
+  harran.0044.t: "교육" # aaf87fe57ae6d323db5496e6e27b7bc55f15827c
+  harran.0044.desc: "따라서 하란 사회의 상류층으로 태어났음에도 불구하고, 내 삶이 항상 즐겁고 재미있었던 것만은 아니었다. 적어도 2~3세기 전부터 저명한 하란 학자 가문 출신이었기에, 나에게는 많은 기대가 걸려 있었다.\n\n나는 운 좋게도 고대 그리스인까지 거슬러 올라가는 혈통을 가지고 있으며 오늘날에도 여전히 자랑스럽게 서 있는 하란의 신플라톤 학원에서 공부할 수 있었다. 나와 학원의 다른 학생들에게는 많은 사람들이 죽어가는 유산으로 여기는 것을 지키려는 엄청난 부담이었다. 그럼에도 불구하고, 나의 스승들은 지식에 대한 나의 열정을 칭찬했으며, 철학 외에도 특히... 배우는 데 관심이 있었다." # 7f7d67606d56adeeffb82b7623ee92a91d6b4437
+  harran.0044.a: "수사학과 연설" # be0a9c89562b55f7d9e06c334e1704e68503380d
+  harran.0044.b: "지도력과 전쟁" # ae74ca4fe3f146ac44e14aeb6c5bf72ac5c4e59f
+  harran.0044.c: "천문학과 수학" # 47fabf3fa2b62c5091727a26a854a304e6e9971f
+  harran.0044.d: "인간 행동" # 98fc906d58c5d9c18c75f28f6bd80d5ecb5a349c
+  harran.0044.e: "역사와 문학" # 11b941ce8724eb3fc5b2374428224218c4ca0bc2
+  harran.0045.t: "성년기" # 8abf1a942ca2c7f12dcea71421b90bf4c280a522
+  harran.0045.desc: "학자로서의 명성이 높아지면서 저는 곧 바그다드의 지혜의 집에 합류했습니다. 저는 이 권위 있는 기관에서 많은 영향력을 얻었습니다. 어떤 사람들은 제가 하란인으로서 우주의 신비에 대한 타고난 이해력이 있다고 생각했습니다. 소문에 따르면 저의 지적 혈통은 플라톤으로부터 저에게까지 끊기지 않고 전해져 내려왔다고 합니다!\n\n저는 하란인뿐만 아니라 아랍인, 페르시아인, 아시리아인, 그리스인, 인도인, 심지어 중국인까지 많은 다른 학자들을 만나고 교류했습니다! 하지만 제 가장 친한 친구는 동료 하란인인 [thabit_ibn_qurra_friend.GetFullName]였습니다. 어쨌든 그들은 모두 그곳에 있는 이유가 있었지만, 저에 대해서는..." # 0584212c353037733ca65b1c269ab694e426acb2
+  harran.0045.a: "선조의 유산을 지켜야 할 의무가 있었습니다" # c9196866735ee1da9643ff2a74dd47c184afe583
+  harran.0045.b: "위대한 사상가로서 불멸을 얻고 싶었습니다" # 95210ea3ea95d7668528a120664c60fdc2594e15
+  harran.0045.c: "사회에 기여하고 다른 사람들을 돕고 싶었습니다" # 4947bb85efbab6e860736b24e89a8377b9d90385
+  harran.0045.d: "심심해서 딱히 할 일이 없다고 느꼈습니다" # 3898454de306204f50f31ca1addb45fb79457ce5
+  harran.0046.t: "가정 생활" # 4ed250dfa4f4717b546d562dd268889eb1b3d60b
+  harran.0046.desc: "이 시기에 저는 제 가족이 수년간 바라왔던 대로 아내를 찾았습니다. 그녀는 어디서 온지도 모르는 천한 여자가 아니었습니다. 사실, 그녀는 제 동료 하란인들이 받아들일 만한 사람이었고, 이미 제 아들을 낳았습니다. 그녀는 다음과 같았습니다:" # 3fb42f12dc727da04634d281cdb2eaf0dac5c32b
+  harran.0046.a: "하란에서 온 나의 어린 시절 친구" # 56adcf897685e4e0a9cbd25ff06355fab9d379bd
+  harran.0046.a.tooltip: "그녀의 출신은 미천했지만, 우리 가문은 그녀의 미덕과 능력을 알아보았습니다. 우리는 서로를 매우 사랑하며, 그녀는 저의 뮤즈입니다." # f5924ee337e967a62c902760d52e02da7625bb96
+  harran.0046.b: "저명한 하란 가문의 일원" # 545502ec5e09272f30904264175dcfc89ad00dee
+  harran.0046.b.tooltip: "그녀는 막대한 재산의 상속인이었습니다. 따라서 결혼은 분명 실리적이었지만, 이보다 더 나쁜 결혼도 많았을 것이라고 생각합니다." # e1c887cb533dd47a77d7f70aea472839ab7e8e08
+  harran.0046.c: "외국 학자의 딸" # 04873be29b365a5d0f73e3f31b7b05a351818848
+  harran.0046.c.tooltip: "나는 바그다드에서 알게 된 인맥을 통해 그녀의 아버지를 만났고, 그는 내 스승 중 한 명이었습니다. 슬프게도 그는 최근에 세상을 떠났습니다." # 13791eefde90972397f84be5a464499005a96afc
+  harran.0046.d: "몇 년 전 만났던 영리한 노예 소녀" # 1494a47e061c6352fe8876d47e61de8487667e93
+  harran.0046.d.tooltip: "나는 함께 일하던 노학자가 소유한 총명하고 아름다운 소녀와 사랑에 빠졌습니다. 나는 그녀에게 이름을 알리면 그녀를 사서 해방시키고 결혼하겠다고 약속했습니다." # 7ed11b10755847630105b33da37b2ce87fddf8ab
+  harran.0047.t: "마지막 이교도" # caa2bf5b7aea15e9c01f1ed5af47197601c80f23
+  harran.0047.desc: "하지만 이제 나는 모든 하란의 지도자로서 집에 왔습니다! 엄청난 영광이지만, 부럽지 않은 자리이기도 합니다. 우리 중 일부는 새로운 신앙의 시대에, 독자적인 공동체로서 생존할 가능성이 희박하다고 말합니다. 나는 동의하지 않습니다. 시간이 우리 편이 아닙니다. 이집트인과 그리스인 같은 고대 민족의 방식을 따르는 사람은 거의 없습니다.\n\n해가 지기 시작하면서 나는 계속해서 길을 걸었고, 결국 하란의 웅장한 신전에 도착했습니다. 그 문에는 우리의 존경받는 조상인 플라톤의 말이 새겨져 있었습니다. “자신의 본질을 아는 자는 신성해진다.”\n\n점점 어두워지는 하늘을 올려다보기 전에 그 인용문을 몇 번 읽었습니다. 나는 별을 바라보며 우리의 운명을 읽을 수 있는 척하다가 집으로 돌아갔습니다." # 07c00f74f91287088d5a6a7357342f8b67ea30f2
+  harran.0047.desc.landless: "저는 여전히 [GetTitleByKey('c_harran').GetNameNoTier] 고향을 생각합니다. [GetTitleByKey('c_baghdad').GetNameNoTier]에 있는 것은 큰 영광이지만, 이교도로서의 어려움도 있습니다. 우리 중 일부는 새로운 신앙의 시대에 우리 고유의 공동체로서 생존할 가능성이 희박하다고 말합니다. 저는 동의하지 않습니다. 시간이 우리를 거스르고 있습니다. 이집트인과 그리스인 같은 고대인들의 방식을 따르는 사람들은 거의 없습니다.\n\n나는 전에 자주 지나다녔던 하란의 오래된 웅장한 사원을 생각합니다. 그 문에는 우리의 존경받는 선조인 플라톤의 말이 새겨져 있습니다. "자신의 본질을 아는 자는 신성하게 된다."\n\n점점 어두워지는 하늘을 바라보며 밖에 서서 몇 번이나 그 말을 중얼거립니다. 나는 다시 안으로 들어가기 전에 우리의 운명을 읽을 수 있는 척하면서 별을 바라봅니다." # 62e8cc176c7cf7034f15e2523b1d1cbc17e08908
+  harran.0047.a: "저는 이 땅의 마지막 이교도인 하란 사람 타비트입니다." # 541fef70d0d7febe8949a33ad1eb6b7ced209d83
+  harran.0047.info: "#emphasis 역사적 배경:#! 이교도인 타비트 이븐 쿠라(기원후 826년 또는 836년 ~ 901년)는 이슬람 황금시대에 바그다드에 거주하던 학자였습니다. 그는 수학, 천문학, 물리학을 포함한 여러 분야에 기여했습니다.\n\n타비트는 그 자체로는 큰 정치 권력을 휘두른 것으로 알려져 있지 않으며, 심지어 고향인 하란에서 추방되었을 수도 있습니다. 따라서 여기서 그를 플레이 가능한 캐릭터로 묘사한 것은 허구입니다(그리고 주로 플레이 가능한 하란인 캐릭터를 갖기 위함입니다). 하지만 타비트는 칼리프 알무타디드의 궁정 천문학자이자 개인적인 친구로서 어느 정도의 영향력을 행사했습니다.\n\n타비트의 후손들 - 이교도와 무슬림 모두 - 은 11세기까지 이슬람 지식 사회에서 계속해서 중요한 역할을 하게 될 것입니다." # 659f9de49113665d23c8038080902157b4c1b944
+  harran.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0050.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0050.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0050.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0051.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0051.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0051.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0052.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0052.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0052.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0053.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0053.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0053.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0054.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0054.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0054.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0055.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0055.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0055.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0056.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0056.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0056.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0057.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0057.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0057.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0058.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0058.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0058.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0059.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0059.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0059.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0060.t: "이븐 나브한" # 4962044a66d06b6045ca07971b81e9c94e06c3ce
+  harran.0060.desc: "오늘, 저는 [ibn_nabhan.GetFullName]이라는 학자를 직접 만날 것입니다. 그는 [harran_county.GetNameNoTier]와 연관된 저명한 가문 출신이며, 유명한 이교도 하란 학자인 저명한 [thabit_ibn_qurra.GetFullName]과 그의 증손자 [ibrahim_al_sabi.GetFullName]의 후손입니다. 그의 가족 대부분은 한두 세대 전에 이슬람교로 개종했으며, 가장 유명한 사람은 그의 할아버지 [hilal_al_sabi.GetFullName]이며, 그는 다른 사람들이 회의적임에도 불구하고 항상 개종이 진실했다고 주장해 왔습니다." # 49e0cb6c19ab430a857c678d90dcbd2c657769e0
+  harran.0060.desc.caliph: "\n\n즐거운 지적 대화를 나누는 와중에, 제가 제안을 다시 꺼냅니다. "하란의 사형집행관으로 당신을 임명하려는 제 제안에 대해 생각해 보셨습니까? 어쨌든 당신 가족의 고향이기도 합니다. 아직 관심 있으십니까?"" # 39a087fa5cc9f9006f9f6566941332f40d44f509
+  harran.0060.desc.non_caliph: ""정말로 [caliph_dude.GetTitledFirstName]께서 당신을 하란의 사형 집행인으로 임명하겠다고 제안하셨습니까? 하란이 당신 가문의 고향임을 고려하면 엄청난 영예일 것이라고 생각합니다."" # 4e77c370e0510182a8369225c25f036fa7796893
+  harran.0060.a: ""아아," 그가 고개를 저으며 말합니다. "그런 제안은 거절할 수밖에 없겠군요."" # dd9fd3aee0d6cca651bfe995642c296e6d15d978
+  harran.0060.b: ""네, 하란으로 갈 것입니다." 그가 대답합니다. "그것은 나의 운명입니다."" # d51a28cab52d13c35dd08dc16ff91569cdaacc69
+  harran.0060.no_ibn_nabhan_sad: "당신은 계속해서 [THIS.Char.GetTitledFirstNameNoTooltip]로 플레이하게 되며, [ibn_nabhan.GetFullNameNoTooltip]은 [harran_county.GetNameNoTier]의 소유권을 받지 못합니다. 이는 그가 [thabit_ibn_qurra.GetFaith.GetAdjective]가 아니더라도 사용자 지정 통치자 설계자를 통해 만들어진 경우를 제외하고 지도상의 그 고대 [faith|E]와 연결된 [ruler|E]가 없다는 것을 의미합니다." # 425a7f3c8681594545d8198a8a39e3e6d92e641f
+  harran.0061.t: "귀향" # 1591daac0f9183b301452d601edf9248e5cb949e
+  harran.0061.desc: "[harran_county.GetNameNoTier]의 거리를 걸은 지도 벌써 오랜 세월이군요. 한때 비옥했던 농토는 먼지투성이가 되었고, 사람들은 변하고, 자라고, 죽고, 언제나 그랬듯이 인생은 덧없이 흘러갑니다. 하지만 하늘의 별들은? 그들은 언제나 그랬듯이, 그리고 영원히 그 자리에 있습니다. 별들을 읽는 사람들은 운명이 스스로의 생각을 가질 수 있다는 것을 알고 있습니다.\n\n[caliph_dude.GetTitledFirstName]가 저를 하란의 새로운 지도자로 선택한 것은 참으로 기묘한 운명의 장난이었네요. 도시는 쇠락의 길을 걸었고, 아마도 고대 이교도 공동체와 학자들의 쇠락과 관련이 있었을 겁니다.\n\n고대 신플라톤 학당과 달의 신전의 폐허를 지나갑니다. 땅에 무릎을 꿇고 잔해 더미를 뒤지다가 신전 문의 잔해를 발견했습니다. 플라톤의 글씨가 그 나무에 새겨져 있었습니다. "자신의 본질을 아는 자는 신성해진다."\n\n그 구절을 몇 번 읽은 후, 점점 어두워지는 하늘을 올려다봅니다. 운명을 어떻게든 읽을 수 있다고 상상하며 별들을 바라봅니다. 그리고 집으로 돌아갑니다." # b7ccd8772d626c4759900588fbb01f8fff7e9767
+  harran.0061.desc.landless: "제가 [harran_county.GetNameNoTier]의 거리를 거닐었던 지 오래되었습니다. 한때 비옥했던 농지는 먼지로 뒤덮이고, 사람들은 변하고, 자라고, 죽어가며, 삶은 늘 그렇듯 영원하지 않습니다. 하지만 하늘의 별들은 어떻습니까? 별들은 항상 그랬듯이 앞으로도 영원히 그 자리에 있을 것입니다. 별을 읽는 사람들은 운명이 제멋대로일 수 있다는 것을 알고 있습니다.\n\n제가 다시 돌아와서 현재의 [harran_county.GetNameNoTierNoTooltip]의 모습을 목격하게 된 것은 기이한 운명의 장난입니다. 이 도시는 쇠퇴하고 있었는데, 아마도 고대 이교도 공동체와 학자들의 쇠퇴와 관련이 있을 것입니다.\n\n저는 옛 신플라톤 아카데미의 폐허와 달 신전의 폐허를 지나갑니다. 바닥에 무릎을 꿇고 잔해를 뒤적이다가 신전 문의 잔해를 발견합니다. 아직도 나무에 새겨진 플라톤의 말을 알아볼 수 있습니다. "자신의 본질을 아는 자는 신이 된다."\n\n점점 어두워지는 하늘을 올려다보기 전에 그 문구를 몇 번이고 읽었습니다. 어떻게든 우리의 운명을 읽을 수 있는 척하며 별을 바라보다가 집으로 돌아가는 길을 찾습니다." # 240ddb139d9beaf464424497220c9fc331d4725f
+  harran.0061.a: "저는 하란의 고대 이교의 마지막 후예인 [ibn_nabhan.GetFirstNameNoTooltip]입니다." # 6bf9ee82f3bd8098858d62b145f5b8b5f3cd99c0
+  harran.0061.info: "#emphasis 역사적 배경:#! 이븐 나브한(서기 1020년 또는 1024년 ~ 1118년)은 유명한 9세기 하란 이교 학자 타비트 이븐 쿠라의 마지막 후손 중 한 명이었습니다. 그는 자신의 조부인 힐랄이 태어나기 몇 년 전에 이슬람으로 개종한 사실에 대한 기록으로 알려져 있습니다.\n\nRICE의 이븐 나브한 이벤트 체인은 다소 그럴듯하지만 궁극적으로는 허구적인 방식으로, 이 시점 이후에 하란교로 개종하는 방법을 제시합니다. 실제로는 그는 독실한 무슬림이었거나 적어도 자신의 가족이 이슬람을 받아들인 것을 강조하기 위해 애쓴 사람이었을 가능성이 높습니다. 그들의 개종이 진심이 아니라는 의심을 잠재우기 위해서였을지도 모릅니다." # aa3df5013c4ee371bb71fce12595e5c1c35ea4bf
+  harran.0062.t: "방문객" # 358a0b8372bd1db56ad8b0eefe11f9f3853eb82d
+  harran.0062.desc: "나는 서재의 어둠 속에서 민트 차를 홀짝이며 앉아 있는데, 내가 아는 사람이 방으로 들어온다. 그는 내가 바그다드에 살 때 함께 일했던 지혜의 집 출신 학자이며, 나에게 합류하며 미소를 짓는다. 나는 그에게 차를 권하고, 우리는 여러 주제에 대해 즐겁게 이야기를 나누며 근황을 나눈다.\n\n마침내 우리의 대화는 종교 문제로 흘러간다. "며칠 전에 당신의 할아버지 [hilal_al_sabi.GetFullName]에 대해 흥미로운 이야기를 들었습니다."라고 친구가 나에게 말한다.\n\n또 이 이야기인가? 나는 불편하게 몸을 움직이지만 아직 아무 말도 하지 않고 계속 차를 마신다." # 83628aacfccda201796b5d7797e273b617faa231
+  harran.0062.a: "제 신앙심 부족은 그에게 딱히 새로운 소식이 아닙니다." # a7d8a491433ebef9f36145a73bc79b2033ca0de6
+  harran.0063.t: "힐랄의 꿈" # 7072973523b6dbac01ed894a6bdaa05d5a295e16
+  harran.0063.desc: ""당신은 수년 동안 당신의 할아버지께서 꿈 덕분에 이슬람교로 개종하셨으며, 그것은 알라께서 직접 주신 확실한 징표라고 말씀하셨습니다." 내 친구가 미소짓습니다. "제 멘토 중 한 분이신 노신사분께서 당신의 할아버지와 안면이 있으셨는데, 그런 일은 들어본 적이 없다고 하셨지만, 아마도 연로하셔서 기억력이 예전 같지 않을 수도 있다고 인정하셨습니다. 저는 당신을 의심하는 것은 아니지만, 당신의 할아버지께서 진실을 말씀하셨는지 궁금하게 만듭니다. 그분께는 실례가 되지 않기를 바랍니다."\n\n나는 턱을 쓰다듬으며 조용히 친구를 응시합니다. 많은 사람들이 우리 할아버지의 이야기를 의심합니다. 나는 이 사실을 알고 있습니다.\n\n나는 어떻게 대답할지 고민합니다." # c5245a96a62d02c6a67863bb5482b1354997fe9c
+  harran.0063.a: ""그 이야기는 진실이야, 친구! 내 할아버지는 진정한 신봉자셨지."" # 4f0e7775e969ea9044261cb503cdf3da11e995e2
+  harran.0063.a.tooltip: "당신은 [THIS.Char.GetFaith.GetAdjective] [faith|E]의 진실한 신자로 남아있으며, 조상들의 고대 방식을 탐험하려는 유혹을 결코 받지 않을 것입니다." # bb77e64e2605b8054a263939c4eeebbbf6588ea3
+  harran.0063.b: ""음.... 제 할아버지는 진실한 신앙인이셨던 것 같은데...."" # 508bc335ce225fcb0568ed43fe5c10bed380f806
+  harran.0063.b.tooltip: "당신은 조부께서 조상의 [thabit_ibn_qurra.GetFaith.GetAdjective] 신앙에서 개종하신 것에 대해 내심 의구심을 품고 있음을 인정합니다. 어쩌면 미래에 이 신앙에 대해 좀 더 탐구해 볼 수도 있을 것입니다...." # f89ec4a86fef5785944e34efbbfe0bf694f2e0ee
+  harran.0064.t: "진실한 신앙인?" # 750862712621f452ab949f8ca99ca6e1b35b9151
+  harran.0064.desc: ""아마도 스승님께서 연로하셔서 잘못 기억하신 것이겠지." 내 지인이 어깨를 으쓱하며 말한다. "물론 당신의 신앙을 의심하려는 것은 아니오. 그냥 흥미로운 것이라 생각했을 뿐이오. 아무튼, 아마도 당신을 불편하게 한 것 같으니 사과드립니다."\n\n"물론입니다." 나는 공손하게 말한다. 우리는 차를 홀짝이며 잠시 동안 맛을 음미한 후, 내가 말을 이어간다. "화제를 바꾸려는 것은 아니지만, 혹시…께서 새로 쓴 논문을 읽어보셨는지요...."" # 2e8647d01795908aab64fd9d50edf7bc8ffcd1a8
+  harran.0064.a: "내 지인은 떠나기 전까지 몇 시간 동안 이야기를 나눴습니다." # cbc393b4de9ae14057cf7e651fa8c81c8469799e
+  harran.0065.t: "진실한 신앙인?" # 750862712621f452ab949f8ca99ca6e1b35b9151
+  harran.0065.desc: ""하지만 뭐가?" 그가 말합니다.\n\n나는 얼굴을 찌푸립니다.\n\n"그가 비밀리에 배교자였다는 뜻은 아니지만..." 나는 신중하게 말을 고릅니다. "나는 항상 그가 자신의 원래 종교에 동정심을 갖고 있다고 느꼈어요. 그가 우리 조상들에 대해 애정을 담아 이야기하는 방식에서 알 수 있었죠."\n\n"하란 이교도들의 학문적 업적은 웃어넘길 일이 아니지! 당신의 조상, [thabit_ibn_qurra.GetFullName]은 그 시대에 드문 학자였어." 내 친구가 고개를 끄덕입니다. "하지만 당신 할아버지의 마음이 그 꿈 덕분에 진실하다면, 그것이 전부이지. 물론 당신의 옛 신들을 여전히 믿는 몇몇 제멋대로인 친척들이 남아 있고, 당신이 가장 신앙심이 깊은 사람이 아니라는 것도 알지만, 적어도 당신도 신자잖아, 그렇지?"" # 1f3a0bb516333eaf470c18191133613bcc933286
+  harran.0065.a: "나는 다시 멈췄다가 "물론입니다."라고 말합니다." # f07e55a0310c6bdbde43e669eb4f86ea6bc34f67
+  harran.0065.tooltip: "당신은 할아버지의 개종이 진실이었는지 의문을 품기 시작하고, 결국 당신 자신의 [faith|E]에 대해 깊이 생각하게 됩니다. 이것은 당신을 한동안 침울한 기분에 빠뜨리겠지만, 아마도 미래에 해결책을 찾을 수 있을 것입니다...." # 41d838ab7f2a72140f30b8fd2ea34a4897c34d43
+  harran.0066.t: "영혼의 고뇌" # be72da561da4ceb36613f846481492e8df7780ac
+  harran.0066.desc: "시간이 꽤 흘렀지만, 제 할아버지 [hilal_al_sabi.GetFullName]에 대해 학자 친구와 나눴던 이야기가 아직도 제 마음속에 무겁게 자리 잡고 있습니다. 결국, 그 심오한 꿈은 종교적 개종에 대한 다른 비슷한 이야기에서 흔히 듣는 주제입니다.\n\n저는 할아버지의 개종의 진실성을 맹렬히 주장할 뿐입니다. 아마도 그것에 대한 제 자신의 의심, 그리고 제 자신의 믿음에 대해 부정하고 있는지도 모릅니다.\n\n하란에 정착한 이후로 가끔씩 제 가문의 기록을 살펴보곤 했습니다. 대부분이 먼지 쌓인 지식의 서적이고, 어떤 것은 1~2세기 정도 된 것이며, 한때 하란에 있었던 사라진 신플라톤 아카데미에서 나온 것도 몇 권 있습니다. 하지만 오늘 저는 할아버지 책상을 정리하다가 처음에는 알아보지 못했던 작은 잠긴 상자를 발견했습니다." # 531cf60ad2c21afd8f3c76cb8b55558bb131c452
+  harran.0066.a: "잠시만 기다려 주십시오…." # 0811717e08313b9a9d97fde781675acd08ce9e79
+  harran.0067.t: "할아버지의 기록" # 5e59cba57a854b755478572bc81136e6a62f976b
+  harran.0067.desc: "나는 그 상자를 알아본다. 할아버지께서는 여러 해 전 돌아가시기 직전에 내게 그 열쇠를 주시면서, 내가 우주에서 내 자리에 대해 의문을 품을 때 열어보라고 말씀하셨다. 나는 열쇠를 꺼내 떨리는 손으로 상자를 연다.\n\n더 많은 종이들이다. 당연하지.\n\n나는 그중 몇 개를 훑어보고 이것들이 할아버지께서 여러 문제에 대해 쓰신 개인적인 편지나 생각처럼 보인다는 것을 깨달았다. 대부분 종교적인 성격이었다. 그것들은 [thabit_ibn_qurra.GetFaith.GetAdjective] 신앙의 쇠퇴에 대한 한탄과 할아버지 자신의 영적으로 자신의 충성이 어디에 있는지에 대한 내적 투쟁이었다." # 5371a61dea09bb2c2dd77052bd30eb144559bd84
+  harran.0067.a: "정말로 암울한 기록이군요! 나중에 좀 더 자세히 살펴봐야겠습니다." # 25def5c00c9201b6d354a522b7d891657e333715
+  harran.0067.tooltip: "이제 당신은 이븐 나반으로서 당신의 [신앙|E]에 대해 느끼는 딜레마를 해결하기 위해 노력할 수 있는 [결정|E]에 접근할 수 있습니다. 당신은 어떤 영적 길을 선택하시겠습니까? 결국 하란인들의 고대 유산을 어떻게 기리시겠습니까?" # 6d4f241e375fefc08c80c7456bd412cfcb1d3450
+  harran.0068.opening: "손자에게:" # f12b193d5fc9497c011cf66704d42ac14ec05d1c
+  harran.0068.desc: "만약 당신이 이것을 읽고 있다면, 나는 이미 오래전에 떠났을 것입니다. 당신은 지혜롭고 사려 깊은 사람이며, 조상들에게 부끄럽지 않을 것입니다. 나의 종교 선택으로 인해 내가 느꼈던 영적인 고뇌를 부디 깨달아 주십시오. 우리 친구들과 이웃의 새로운 신앙을 따를 것인가, 아니면 우리 조상들의 전통을 따를 것인가에 대한 고뇌 말입니다.\n\n당신 역시 언젠가 의심을 품을 수도 있을 거라 걱정되기에, 당신이 올바른 결정을 내리는 데 도움이 될 수 있도록, 선택이 무엇이든 간에 이 글과 여러 텍스트에 대한 나의 주석을 준비했습니다.\n\n먼저 플라톤에 대한 나의 주석을 살펴보는 것이 좋습니다. 플라톤의 텍스트는..." # b7d0b80f4232f144e0c87fb90f588f5a15e090cc
+  harran.0068.a: "할아버지, 감사합니다. 이 글들을 공부하겠습니다." # c51353d8e7f7751b8adf66e0650bb843ea593194
+  harran.0068.tooltip: "당신은 할아버지의 글을 읽고 묵상하며, 영적인 혼란을 해결하는 데 도움이 될 답을 찾을 것입니다." # 2235e0874ad75cfdba27820b9f78b05cfa1fc132
+  harran.0069.t: "선택" # 2186fe92b0b031a6567793feaad76cd46113933c
+  harran.0069.desc: "저의 할아버지께서 남기신 여러 글과 해설을 몇 주 동안 연구한 결과, 저는 이제 저의 내적 갈등을 더 잘 이해하게 되었습니다. 그것은 할아버지께서 느끼셨던 것과 같은 것이었습니다. 저의 존경받는 조상님들께서는 배움이 있는 [hilal_al_sabi.GetFaith.GetAdjective] 학자로서의 지위를 통해 큰 영향력을 얻으셨지만, 요즘에는 그 혈통에 대한 관심이 줄어들었습니다. 심지어 하란의 신플라톤 아카데미조차 더 이상 존재하지 않습니다.\n\n저는 이 문제에 대해 깊이 생각하고 가족들과도 제 결정을 논의했습니다. 이로 인해 결과가 있을 수 있다는 것을 알지만, 저는 제 마음속 깊은 곳에서...에 더 가까운 유대감을 느낀다고 결심했습니다." # da93ab93f3568f766070b275716eabb4807d395f
+  harran.0069.a: "내가 항상 믿어왔던 진정한 [ROOT.Char.GetFaith.GetAdjective] 신념." # 1da17c5980c6c83540b4bdffeae8e3be427eec48
+  harran.0069.a.tooltip: "하란의 옛 방식은 과거의 희미한 그림자에 불과합니다. 지금은 [THIS.Char.GetFaith.GetAdjective] [faith|E]를 믿는 신자로 남을 것입니다." # 3cfca0cfe2f8b999fe9a20bc3827ddafeb2b151e
+  harran.0069.b: "이제 제가 받아들일 제 조상들의 고대 [thabit_ibn_qurra.GetFaith.GetAdjective] 신앙입니다." # 31953a288a79483337f3238aebaa84875aca4bba
+  harran.0069.b.tooltip: "하란의 이교도는 소수이지만 자부심을 가지고 버텨야 합니다! 당신은 [thabit_ibn_qurra.GetFaith.GetAdjective] 영적, 철학적 텍스트에서 할 수 있는 모든 것을 배워서 그들의 진정한 이교 신앙을 실천할 수 있어야 합니다. 그것은 이제 당신의 종교이기도 합니다." # 92c7cdd833f3264f5c8155fba65ace0fa891bee7
+  harran.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0080.t: "수마타르 하라베시" # 502a473a67bb7018879ee2e45fcdd064c4362341
+  harran.0080.desc: "수 세기 동안 하란의 이교도들은 그들의 주요 신 중 하나인 달의 신 신에게 기도하기 위해 종종 인근의 수마타르 하라베시 오아시스로 갔습니다. 지금도 여전히 많은 우상과 제단이 있습니다. 하란 사람들은 최근에 큰 의식을 치르기 위해 그곳에 갔으며, 아무런 사건 없이 진행되었습니다." # 07163ad18748f8c33ba313c5193294129554ffd6
+  harran.0080.a: "그래서 그렇습니다." # 6eea30280f1f45112011b0b1de60716319e87829
+  harran.0081.t: "하란의 징조" # 2f912f9b492dfc41fe05dab58af70d181a3cb54d
+  harran.0081.desc: "하란의 이교도들은 점술에 숙련된 사람들입니다. 그들은 별을 읽고 미래의 진로를 계획하는 데 능숙합니다. 하란 점성가들의 최근 달 점괘에 따르면 하란 사람들에게 곧 좋은 일이 일어날 것이라고 합니다. 어쩌면 그들의 노력에 더욱 생산적이고 유능해지도록 영감을 줄 수도 있을 것입니다." # 1c1a895bcbbb5e415998b028572d502401b574ff
+  harran.0081.a: "그럴지도 모르겠군요!" # c0ee63e6124ae9e5467fc375f2175fad447e8479
+  harran.0082.t: "하란의 불길한 징조" # 31b83993314de291b37e6ab3dbe41c0a6d4b24ac
+  harran.0082.desc: "하란의 이교도들은 점술에 능통합니다. 그들은 별을 읽고 미래의 과정을 계획하는 데 능숙합니다. 하란 점성가들의 최근 달 점괘에 따르면 하란 사람들에게 곧 나쁜 일이 일어날 것이라고 합니다. 아마도 그들 사이에 얼마간의 공황과 고통을 야기할 것입니다." # 827e52b3d419309b0b80509f0b35b15ba1ac836f
+  harran.0082.a: "정말 그렇게 나쁠까요?" # 8cc977c132052ecfde0aeeefbdbcc26253beee04
+  harran.0083.t: "벌집 건물" # a9db65715b407b2916e19547cad9d67d85b13fe3
+  harran.0083.desc: "하란 사람들은 다른 사람들과 구별되는 독특한 전통을 많이 가지고 있습니다. 예를 들어, 아주 옛날부터 그들은 벌집 모양의 집에서 살았습니다. 오늘날 하란의 지역 지도부를 방문하면서 저는 하란 귀족의 소유인 이 집들 중 하나에 들어가 문제를 논의합니다. 그것은 가장 큰 종류이며, 오히려 저택입니다." # 8394d19a23a23d33ac0a57e8c9bdf0bb32c39795
+  harran.0083.a: "매우 멋진 건축물이군요! 아름답습니다." # b0f3352c3656873510e4c4459d4a94a42a9aec72
+  harran.0083.b: "이것들은 그저 평범한 것들인데, 왜 호들갑이지?" # 45cafe8e409836cd7ceb451c421ceb5d62e15bbb
+  harran.0084.t: "탐무즈 축제" # 5d2190b05b4995fe9f696e617edaf7c14d38651b
+  harran.0084.desc: "수천 년 동안 하란의 이교도들이 개최하는 주요 축제 중 하나는 탐무즈 축제입니다. 그들은 매년 죽는 그들의 신 탐무즈(그리스의 아도니스와 동일시됨)를 애도합니다. 그들은 슬픔을 공개적으로 드러내며 울고 애도합니다. 올해 축제는 유난히 성공적이었던 것으로 여겨져 지역 이교도들에게 열심히 일하고 평화와 조화를 이루며 살도록 영감을 주었습니다." # 269360af48b540229dd9804c0dbe74e55f5ac91e
+  harran.0084.a: "흥미롭군요." # 7c5f3c731eb864fb669d23301fd2f445731fa3d7
+  harran.0084.b: "이교도적인 불경!" # 2104cb0ca3d921cb3a0266d91154bd2deccfe924
+  harran.0085.t: "지식 확장" # 0eed62f61ee3a73b92cc12482fb521cf9c2ed4c3
+  harran.0085.desc: "하란의 신플라톤 학파는 학문과 과학에 대한 중요성을 계속해서 입증하고 있습니다. 최근 몇몇 저명한 하란 학자 및 철학자들이 다양한 지적 주제에 대해 설명하는 여러 권의 문헌을 발표했으며, 이는 명확한 지혜와 계몽적인 본질로 인해 이 지역 전역에서 찬사를 받았습니다." # f7f0cde98c61090b273a473729c7aa1e7207755c
+  harran.0085.a: "좋은 소식입니다!" # fe319d8fea9428a3e2d09a3bfbd8dfb008f3cfaf
+  harran.0086.t: "하란의 이교도" # 3c6dd0d6f1b1b994a77c42fdb4980471efed7e87
+  harran.0086.desc: "외부인들은 하란 시에 사는 여러 종류의 이교도들을 잘 구별하지 못합니다. 플라톤이나 플로티노스와 같은 고대 철학자들의 후계자라고 자처하는 신플라톤주의 학파와 관련된 좀 더 교육받은 엘리트들이 있습니다. 그런 다음, 엘리트들이 미신적이라고 여기는 방식으로 신, 탐무즈, 헤르메스와 같은 신들을 숭배하는 평민들이 있습니다.\n\n오늘날, 아카데미의 학자 중 한 명을 작은 연회에 초대하는 동안, 그는 하란의 일부 이교도 농민들의 교육받지 못하고 미신적인 성격에 대해 한탄합니다. 그에게 그들은 이교도를 현시대에 철학적, 영적 질문을 탐구하기에 적합하지 않은 후진적인 종교로 오해하게 만듭니다." # 30c8eb5bbad89156267a734c7e68383a8b2143f2
+  harran.0086.a: "적어도 당신과 당신의 동료들은 무지와 싸우고 있군요!" # 9ab319601e6cb414460f3ababa33cc669004cb19
+  harran.0086.b: "농민 대중은 종교에 관계없이 다 새대가리 아닌가?" # a5dcb53ea658c9f54d20a77a22b2700b3a598aa7
+  harran.0086.c: "어찌 남을 업신여기시는가? 교만은 현명한 학자에게 어울리지 않는 행동이오." # 024a1f613eb0d808c9bd790068447bbe288e0722
+  harran.0087.t: "학문적 연계" # fda7d6722d4947525a605c8e11850dd665f9d252
+  harran.0087.desc: "하란의 신플라톤 학파 구성원 몇 명이 외국 땅에서 지식을 교환하고 돌아왔습니다. 그들은 또한 제게 유용할 수 있는 여러 연줄을 가지고 왔습니다." # cd01424ecad1de97cfab113dca81a22ae9113fe3
+  harran.0087.a: "다행이군요. 귀환을 환영합니다!" # 5122c09616c5d13c39445cbd8607a819896273f3
+  harran.0088.t: "이교 다양성" # 2e15c505a07c52ba4f8500ecea182cb3c347c068
+  harran.0088.desc: "내가 하란을 다스린 시간이 길어질수록, 이곳에 사는 이교도들의 다양성에 더욱 놀라게 된다. 그들은 숭배하는 대상이나 숭배 방식의 차이에도 불구하고 수세기 동안 함께 살아남았다. 이것이 잦은 갈등으로 이어질 것이라고 생각할 수도 있겠지만, 놀랍게도 이들은 때로는 긴장이 있더라도 서로 잘 지낸다. 그들의 지도자들과 이야기를 나눠본 결과, 그들은 자신들의 독특한 공동체가 서로 협력할 때 더욱 강해지고 어떤 어려움도 더 잘 견딜 수 있다는 것을 깨닫고 있는 것 같다." # 4d1d7df447180c0df700a4d9943d560f7817e79d
+  harran.0088.a: "우리가 배워야 할 귀중한 교훈입니다." # 6eddce18963e28ba6047ed86d65ceec7aeeb23ef
+  harran.0088.b: "그들은 여전히 잘못된 길을 걷는 이교도입니다." # 8b642d8c75cfed83b68fdfaeecb403b66fa54995
+  harran.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  harran.0010.t: "번역할 텍스트를 제공해 주십시오." # 351434a783331f9c2d5f705d0c67a380cc556478
+  harran.0020.a: "아주 좋군" # 7612729ba12125c2b038a1d081b511864179ca82

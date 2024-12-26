@@ -1,429 +1,420 @@
 ﻿l_korean:
-	# Misc 
-	Kassia: "카시아" # bbee422cb24ba269742daf396e2ba8facc76b0ef
-	dynn_kassia_of_kasos: "카소스의" # c6660a481a48a916da2f0e16939894b489238cf6
-	RICE_rhodes_gift_kalymnian_sponges: "칼림노스 해면 선물" # eb6a70a5bd16bb12071ccb34e153be2a48197317
-	RICE_rhodes_gift_kalymnian_sponges_desc: "칼림노스 해면 선물 보내기" # 023bca97a7be5071355b414239cf53386698b666
-	RICE_rhodes_gift_kalymnian_sponges_self: "칼림노스 해면 구매" # 80bcf22f903834bd555b01f2b5b16098ef86d44d
-	RICE_rhodes_gift_kalymnian_sponges_self_desc: "칼림노스 바다 스펀지를 좀 사세요" # 1c54e897e742a40808ce794663c9114cbdbf8d0a
-	# Game Concepts 
-	# Memories 
-	RICE_rhodes_visit_to_the_colossus_host_memory: "[GetActivityType( 'activity_RICE_rhodes_visit_to_the_colossus' ).GetName] (을)를 [GetTitleByKey ('b_rhodos').GetNameNoTier]에서 지불했습니다." # 61b5a7c99f1fdd9e350481f6da19cd7fad76c3df
-	RICE_rhodes_visit_to_the_colossus_host_memory_first_perspective: "저는 [GetTitleByKey('b_rhodos').GetNameNoTier]에서 [GetActivityType( 'activity_RICE_rhodes_visit_to_the_colossus' ).GetName]에 참여했습니다" # 091a914d95a0a996e5aa13af2a4c5d7a0d442650
-	RICE_rhodes_visit_to_the_colossus_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_rhodes_visit_to_the_colossus' ).GetName] 을 [GetTitleByKey('b_rhodos').GetNameNoTier]에서 지불했습니다." # 8dd7b162201179f8c210efd70320fd9f05cae0f6
-	RICE_rhodes_visit_to_the_colossus_host_memory_third_perspective: "[owner.GetName]이 [GetTitleByKey('b_rhodos').GetNameNoTier]에서 [GetActivityType(  'activity_RICE_rhodes_visit_to_the_colossus' ).GetName]을(를) 치렀습니다" # 44897f66edd0156c3b16c29af3c24ffa05db6ecf
-	RICE_rhodes_visit_to_the_colossus_guest_memory: "[host.GetTitledFirstName]와 함께 [GetTitleByKey ('b_rhodos').GetNameNoTier]에서 [GetActivityType( 'activity_RICE_rhodes_visit_to_the_colossus' ).GetName]에 참여했습니다" # e178eb85c9f4a8558ba188ea6623b0f992671209
-	RICE_rhodes_visit_to_the_colossus_guest_memory_first_perspective: "로도스의 거상 방문 행사를 [GetTitleByKey('b_rhodos').GetNameNoTier]의 [host.GetTitledFirstName]에게 [GetActivityType( 'activity_RICE_rhodes_visit_to_the_colossus' ).GetName]로 지불했습니다." # 6428a1f82f524d08a7530461d16e7604f00a20f5
-	RICE_rhodes_visit_to_the_colossus_guest_memory_second_perspective: "[host.GetTitledFirstName] 님과 함께 [GetTitleByKey('b_rhodos').GetNameNoTier]에서 [GetActivityType( 'activity_RICE_rhodes_visit_to_the_colossus' ).GetName] 활동에 참여했습니다" # 4d1b383ea1fb7cfeea498b53f1dba53ee2bab8aa
-	RICE_rhodes_visit_to_the_colossus_guest_memory_third_perspective: "[owner.GetName]이 [GetTitleByKey('b_rhodos').GetNameNoTier]에서 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_rhodes_visit_to_the_colossus' ).GetName]에 참가했습니다." # 2ac2427f85e0150e80e095027fdcd41aaba2bb46
-	RICE_rhodes_hippocrates_memory: "고대 그리스 의사 히포크라테스에게 기념비를 헌정했습니다" # 3c9caa9dbb7b110f722ee4bb1e0048974c70bf96
-	RICE_rhodes_hippocrates_memory_first_perspective: "고대 그리스 의사 히포크라테스에게 기념비를 바쳤습니다" # 7dc05de16213034d6a826db2252d6962de4b1f26
-	RICE_rhodes_hippocrates_memory_second_perspective: "고대 그리스 의사 히포크라테스에게 기념비를 세웠습니다." # 216fb37b8bee0bd4026d880db15f1926434fe133
-	RICE_rhodes_hippocrates_memory_third_perspective: "[owner.GetName]이 고대 그리스 의사 히포크라테스에게 기념비를 봉헌했습니다." # 289bff532c816612b6296deeae69d04e1c4bef1e
-	RICE_rhodes_kassia_memory: "카소스의 카시아의 무덤을 개조했습니다" # 651a8cc204641748317974f12e1d50966107abab
-	RICE_rhodes_kassia_memory_first_perspective: "카소스의 카시아의 무덤을 개조했습니다" # 820edc000a8eef8bf18a2aa3a984e85fbeb6d470
-	RICE_rhodes_kassia_memory_second_perspective: "카소스의 카시아의 무덤을 개조했습니다." # 4067185895e853822a08b386be316bc6a6e3e2db
-	RICE_rhodes_kassia_memory_third_perspective: "[owner.GetName] 님이 카소스의 카시아의 무덤을 개조했습니다" # 3377188d372cd48f87201f2a0c1864809eec55c5
-	# Activities 
-	activity_RICE_rhodes_visit_to_the_colossus_host_an_a: "$host_activity_a$" # null
-	activity_RICE_rhodes_visit_to_the_colossus: "거상 유적 방문" # 1a9b3c2664aacd85f83003c88bebc6cdc5e979b7
-	activity_RICE_rhodes_visit_to_the_colossus_desc: "비록 더 이상 서 있지는 않지만, 콜로서스의 폐허는 여전히 멀리서 많은 사람들의 발길이 끊이지 않습니다. 나 또한 폐허를 방문하여 고대인들의 솜씨를 감탄하고 싶습니다." # 149ec952df6a7cd961e0806b34430bb4b9882ceb
-	activity_RICE_rhodes_visit_to_the_colossus_selection_tooltip: "거상 유적 방문.\n\n$RICE_rhodes_visit_colossus_ruins_context_tooltip$" # c4dc8e23a5f8dc76bf7ed4f7979106f2ad509c68
-	activity_RICE_rhodes_visit_to_the_colossus_host_desc: "$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 감소\n$BULLET_WITH_TAB$ $hellenic_pagan$ 또는 $semitic_religion$ [religion|E]의 [faith|E]를 따르면 [piety_i|E][piety|E] 감소\n$BULLET_WITH_TAB$ 영감을 받아 #P 유익한#! [character_modifier|E]를 얻을 확률" # df26e363f0f7a6b5df6df3763e805edfa4240a90
-	activity_RICE_rhodes_visit_to_the_colossus_guest_desc: "$BULLET_WITH_TAB$명성[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$스트레스 감소 [stress_loss_i|E][stress|E]\n$BULLET_WITH_TAB$스트레스 감소 [stress_loss_i|E][stress|E]" # 743506cd0acbcfd2b2af72fb6dcd8fe14780838c
-	activity_RICE_rhodes_visit_to_the_colossus_province_desc: "콜로수스의 유적이 아직 이곳에 남아 있습니다... 적어도 지금은 말이죠." # b88e15d90006093bcdff37c21e20bffcea739813
-	activity_RICE_rhodes_visit_to_the_colossus_destination_selection: "$activity_RICE_rhodes_visit_to_the_colossus_province_desc$" # null
-	activity_RICE_rhodes_visit_to_the_colossus_guest_help_text: "$activity_RICE_rhodes_visit_to_the_colossus$" # null
-	activity_RICE_rhodes_visit_to_the_colossus_predicted_cost: "이 방문 비용은 주로 당신의 [income|E]에 따라 결정됩니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
-	activity_RICE_rhodes_visit_to_the_colossus_conclusion_desc: "즐겁고 영감을 주는 [GetActivityType( 'activity_RICE_rhodes_visit_to_the_colossus' ).GetName]을 가졌습니다!" # c650a455375783afe62849c721f30b01eb23f033
-	RICE_rhodes_visit_to_the_colossus_sightseeing_phase: "관광" # b0f96c68f48e92f22700b109e526b4e326838e1a
-	RICE_rhodes_visit_to_the_colossus_sightseeing_phase_desc: "거상이 폐허가 되었음에도 불구하고, 여전히 인상적인 광경입니다!" # e3c8ee1457e0f0616e64c6e9e44154901495fb59
-	RICE_rhodes_visit_to_the_colossus_tourist_intent_header: "관광업:" # 1df2abc70d51fd73a1524cd656c98523de415188
-	RICE_rhodes_visit_to_the_colossus_tourist_intent: "관광" # 7d62dd12affdd882f7ed0c95d4a089e4728f9775
-	RICE_rhodes_visit_to_the_colossus_tourist_intent_desc: "콜로서스 주변 명소를 보고 싶으시군요." # 0d5535775ff8b16202ac2a31da060c461e352a12
-	RICE_rhodes_visit_to_the_colossus_completed_log_title: "거상 유적 방문 완료" # 65809daffed4501905cfa4b5e7d2bd2ef6ee906b
-	RICE_rhodes_visit_to_the_colossus_completed_log: "[CHARACTER.GetShortUIName|U]이 콜로서스 유적 방문을 마쳤습니다" # 4af0ca00e38030e0b50856573c8b6bce169568ad
-	TRAVEL_NAME_FOR_activity_RICE_rhodes_visit_to_the_colossus: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_rhodes_visit_to_the_colossus$" # bcb1ec0f7ca6c53852728167e72f7cad0f1545b8
-	# Buildings 
-	building_type_RICE_rhodes_fortifications_01: "로도스의 요새" # 901221352b490f950e2caac216876351b8255b82
-	building_type_RICE_rhodes_fortifications_01_desc: "고대부터 로도스 시는 강력한 방어망으로 유명했습니다. 현재의 성벽과 방어 시설은 여러 세대에 걸쳐 건설되었습니다. 요새의 일부는 수 세기 전의 과거 지진으로 인해 파괴되었지만, 다른 곳에서는 요새가 수용 가능한 수준으로 유지되고 있습니다. 약간의 투자를 통해 이러한 고대 방어 시설은 언젠가 더 위대한 것으로 바뀔 수 있습니다." # b087b477afde6119cced79333e0642d560600714
-	building_RICE_rhodes_fortifications_01: "$building_type_RICE_rhodes_fortifications_01$" # null
-	building_RICE_rhodes_fortifications_01_desc: "$building_type_RICE_rhodes_fortifications_01_desc$" # null
-	building_RICE_rhodes_fortifications_02: "로도스의 확장된 요새" # eda861f6432959a1646de96ef5a712af4cb87440
-	building_RICE_rhodes_fortifications_02_desc: "에게 해의 무역로를 장악하는 데 있어 로도스는 매우 중요하기에, 로도스의 통치자들은 고대 성벽을 확장하고 강화하여 로도스가 계속 잘 보호되도록 했습니다. 혁신적인 건축 설계와 최신 방어 기술을 사용하여 건설된 새로운 구조물은 로도스를 공격할 만큼 어리석은 침략자들에게 큰 도전 과제가 될 것입니다!" # 36f12d23a6d54cdee62ed8a52eb55403506b4ad1
-	# Modifiers 
-	RICE_rhodes_sponge_divers_of_kalymnos: "칼림노스의 해면 잠수부" # e8e50040a345a0f68972419ff73a76a5c1e9ba3f
-	RICE_rhodes_sponge_divers_of_kalymnos_desc: "수 세기 동안 칼림노스 섬은 해면을 얻는 곳으로 유명했습니다. 코스 북쪽에 있는 작고 소박한 이 섬은 해면 무역 덕분에 큰 번영을 이루었습니다. 칼림노스 해면 잠수부들은 전통적인 기술을 사용하여 정기적으로 해저에서 해면을 수확하며, 그들이 수확한 해면은 지중해 전역에서 판매됩니다.\n\n#italic 로도스 [county|E]의 [rulers|E]는 다른 사람에게 #Bold 칼림노스 해면 선물하기#!를 할 수 있는 특별한 [character_interaction|E]와 자신을 위해 #Bold 구매하기#!를 할 수 있는 특별한 [character_interaction|E]를 이용할 수 있습니다." # 0dec54407a59229da11db039b3c077764823b9d2
-	RICE_rhodes_reveres_hippocrates: "히포크라테스를 숭배합니다" # fb72a45d3db734aa05a254455c467f28547bf1c9
-	RICE_rhodes_reveres_hippocrates_desc: "이 인물은 고대의 유명하고 중요한 의사이자 치료사인 히포크라테스에 대해 깊은 존경심을 가지고 있어서, 히포크라테스의 이름을 딴 작은 기념비를 코스 섬에 세우기로 결정했습니다." # 9e2438be4d3f8cb8ef4b1a80f13c4247bf64af71
-	RICE_rhodes_hippocrates_monument_built: "히포크라테스 기념비" # 1e3a3cb253fdf095a9de3c59ab015bddc99cc643
-	RICE_rhodes_hippocrates_monument_built_desc: "로도스 북쪽의 코스 섬에는 유명한 고대 치료사 히포크라테스가 제자들을 가르쳤던 곳을 표시한다고 전해지는 플라타너스 나무가 있습니다. 그 사람을 기리는 작은 소박한 기념비가 그곳에 세워졌고, 소위 의학의 아버지에게 경의를 표하기 위해 가끔 소수의 여행자들이 방문합니다." # 6c0e3a63c0848ac1f40d2672cff6a330fc1bea58
-	RICE_rhodes_renovated_kassia_tomb: "카시아의 무덤을 개조했습니다" # 2a6151c13bd9e453fb32dcbe333dd05186af9089
-	RICE_rhodes_renovated_kassia_tomb_desc: "이 인물은 코스 섬에 있는 카시아의 무덤을 놀라운 여성, 코스 지역 주민들에게 성인으로 여겨지는 여성을 기리기 위해 필요한 자금을 마련하여 개축하기로 결정했습니다. 그녀는 뛰어난 수녀장, 시인, 찬송가 작곡가였으며, 코스에서 대부분의 삶을 보냈으며, 그녀의 찬송은 여전히 ​​지역의 경건한 기독교인들에게 영감을 주고 있습니다." # ca90132b6d678078c3fe83cbcd3b3a9f19d3058a
-	RICE_rhodes_kassia_tomb_renovated: "카시아의 무덤 최근 개조" # 99be0ab6444c2e1a7a35c095e90af41d551285ba
-	RICE_rhodes_kassia_tomb_renovated_desc: "경건한 기독교 통치자가 최근 코스에서 많은 시간을 보냈고, 그 찬송가가 이 지역의 경건한 기독교인들에게 계속해서 영감을 주는 뛰어난 수녀원장, 시인, 찬송가 작가인 카시아의 무덤에 대한 중요한 개조에 자금을 지원하기로 결정했습니다. 코스의 주민들에게 성인으로 여겨지는 그녀와 같은 뛰어난 여성은 그럴듯한 매장지를 받을 자격이 있습니다." # d3b85e9c2ee3002d5e9b651b341c82c7c30650fc
-	RICE_rhodes_kassia_of_kasos: "카소스의 카시아" # 1acfdde21e8622e2faa7db7bca24754d7f5b34ec
-	RICE_rhodes_kassia_of_kasos_desc: "그리스 수녀원장, 시인, 찬송가 작가. 그녀는 뛰어난 지성과 성상 파괴주의에 맞서 정통성을 굳건히 수호하려는 열정으로 가득 찬 놀라운 여성입니다. 소문에 따르면 그녀는 젊은 시절 대단한 미인이었으며, 한때 미래의 황제 테오필로스의 잠재적인 신부로 고려되었지만, 그의 자존심을 건드렸을 때 그에게 거절당했다고 합니다." # dc0496817a2f434cb38fd962f1d89f16c3ffaced
-	RICE_rhodes_character_kalymnian_sponges: "칼림노스 해면" # b98455b36763fc965bad4d2f6de9dbdeb95865fc
-	RICE_rhodes_character_kalymnian_sponges_desc: "이 인물은 칼림노스 섬에서 대량의 해면을 선물 받거나 구매했습니다. 이 평범한 섬은 고대부터 해면 무역의 중심지였으며, 그곳의 해면 잠수부는 전 세계적으로 명성이 높습니다. 이렇게 많은 칼림노스 해면을 소유하는 것은 상당한 사치입니다!" # f629a30519d5dd512735acddf449be5debe45ac2
-	RICE_rhodes_opinion_gifted_kalymnian_sponges: "칼림노스 해면 선물" # c02e210dd6a25a70a5c3288dd874e9a5980d7f03
-	RICE_rhodes_inspired_colossus_diplomacy: "로도스의 거상에서 영감을 얻음" # 23d93474258bcec3ea436260e213f8b89c1436c8
-	RICE_rhodes_inspired_colossus_diplomacy_desc: "이 캐릭터는 최근 로도스 거상을 방문했으며, 고대 세계 7대 불가사의 중 하나였던 그 명성과 명성에 대한 사색을 통해 이 고대 기념물에 영감을 받았습니다!" # 2534901e2ea5a5317b78fb3dfd2c2f5ee8eeb8e0
-	RICE_rhodes_inspired_colossus_martial: "로도스의 거상에서 영감을 얻음" # 23d93474258bcec3ea436260e213f8b89c1436c8
-	RICE_rhodes_inspired_colossus_martial_desc: "이 캐릭터는 최근 로도스 거상을 방문했으며, 고대 로도스인들이 강력한 적에 맞서 섬을 성공적으로 방어한 후 거상이 어떻게 건설되었는지 성찰하면서 고대 기념물에서 영감을 받았습니다." # f65d61b7cff38de38d548b764fdf1948d595445e
-	RICE_rhodes_inspired_colossus_stewardship: "로도스의 거상에서 영감을 얻음" # 23d93474258bcec3ea436260e213f8b89c1436c8
-	RICE_rhodes_inspired_colossus_stewardship_desc: "이 캐릭터는 최근 로도스의 거상을 방문했으며, 이 고대 기념물을 처음 만들 때 사용된 뛰어난 공학과 장인 정신에 대한 성찰을 통해 영감을 얻었습니다." # 90eaea480c772fcc68cef92128db68c1b45acca5
-	RICE_rhodes_inspired_colossus_intrigue: "로도스의 거상에서 영감을 얻음" # 23d93474258bcec3ea436260e213f8b89c1436c8
-	RICE_rhodes_inspired_colossus_intrigue_desc: "이 캐릭터는 최근 로도스 거상을 방문했으며, 지진으로 파괴되었지만 그 잔해가 수세기 동안 여전히 남아 있던 모습에 영감을 받았습니다." # 2d81aca099b81c3f32d7da32391d285ff105fdfe
-	RICE_rhodes_inspired_colossus_learning: "로도스의 거상에서 영감을 얻음" # 23d93474258bcec3ea436260e213f8b89c1436c8
-	RICE_rhodes_inspired_colossus_learningdesc: "이 캐릭터는 최근 로도스 거상을 방문하여, 사람들이 그 폐허를 경탄하기 위해 찾아올 정도로 사람들을 계속해서 놀라게 하는 고대 기념물에 영감을 받았습니다." # 81a08314e6bd206bc5173fd0b1cd443c72c60301
-	RICE_rhodes_visited_filerimos_prayer: "필레리모스에서 기도했습니다" # 9b3b51d6f3a54ca6306c637e7d9e9bc5ec13cf7d
-	RICE_rhodes_visited_filerimos_fort: "필레리모스 요새 조사됨" # da93d195fab82f20efe7fef1fdc3f7157b6d75ea
-	RICE_rhodes_visited_filerimos_villa: "필레리모스의 빌라에서 휴식을 취함" # 7b23b69d719f6947ebb83f2297d3af6e0c1f8459
-	RICE_rhodes_new_rhodes_fort: "바위 노두에 세워진 새로운 요새" # c53ef7e4c70a8aed7fb0e66edbb0f460345923c3
-	RICE_rhodes_hiked_mount_attavyros: "아타비로스 산 등반" # 0596056f497b7de86369ea67238900504e862c16
-	RICE_rhodes_sponge_economy_bad: "칼림나 스폰지 경제가 좋지 않습니다." # 5b2e53f8c95c6266d1a4b8c886b62ad13ae4f14f
-	RICE_rhodes_sponge_economy_good: "칼림노스 해면 경제가 호황입니다" # 02382701eb1e3bcdfd1606bcf83b7e2d85065642
-	# Decisions 
-	RICE_rhodes_visit_colossus_ruins: "거상 폐허 방문" # 7e6edb21f9adf02510ef359cc9412a754e014ac3
-	RICE_rhodes_visit_colossus_ruins_tooltip: "이렇게 웅장한 조각상이... 이제 사라졌습니다." # 0089197ca293de2922fabe73df4f14a06439584a
-	RICE_rhodes_visit_colossus_ruins_desc: "비록 더 이상 서 있지는 않지만, 콜로서스의 폐허는 여전히 멀리서 많은 사람들의 발길이 끊이지 않습니다. 나 또한 폐허를 방문하여 고대인들의 솜씨를 감탄하고 싶습니다." # 149ec952df6a7cd961e0806b34430bb4b9882ceb
-	RICE_rhodes_visit_colossus_ruins_effect_tooltip_1: "당신은 로도스의 거상으로 짧은 여정을 떠나 [prestige|E]를 무작위로 얻습니다." # 2f558855406e07f76dff5307f3979b2b2ec76a41
-	RICE_rhodes_visit_colossus_ruins_effect_tooltip_2: "[THIS.Char.GetFaith.GetAdherentName] 신앙인이므로, 무작위량의 [piety|E]를 받습니다" # 0ef68aabeb13fb06e56c0460d2b162d48fb8f07f
-	RICE_rhodes_visit_colossus_ruins_effect_tooltip_3: "거인상에 영감을 받아 #P 영감을 얻을 수 있고, 여러 가지 다른 [character_modifiers|E] 중 하나를 얻게 됩니다." # e1f9fae0e457ca0c06fcaa243a6d9dd2796fe189
-	RICE_rhodes_visit_colossus_ruins_confirm: "거대한 신상에게!" # da79f753a829c5f7412a49f6cb44a8047cafb37c
-	RICE_rhodes_visit_colossus_ruins_context_tooltip: "#emphasis Historical Context:#! The Colossus of Rhodes, one of the seven wonders of antiquity, was the tallest statue of the ancient world, erected in honor of the sun god Helios in 280 BCE to commemorate Rhodes' victory over the Antigonid Dynasty. It collapsed during an earthquake in 226 BCE but was still impressive enough that many traveled to see its ruins. According to medieval chroniclers, the statue's remains were destroyed by an Arab force under the future Umayyad Caliph Muawiyah during the Muslim invasion of Rhodes in 653 CE." # null
-	#RICE_rhodes_visit_colossus_ruins_req "로도스 거상의 유적은 아직도 남아 있습니다" # 3a0de18c91e0130e86a5b8eba21a743d969f0f0e
-	RICE_decision_rhodes_colossus_distance_req: "[realm_capital|E]은 로도스와 가깝습니다." # a7d6d7b4de1561e6a905604366d839899cfee50e
-	RICE_rhodes_erect_hippocrates_monument: "히포크라테스 기념비 건립" # 4034caed2303d0d19ab5a871bf7256ca16436f12
-	RICE_rhodes_erect_hippocrates_monument_tooltip: "의학의 아버지는 존경받을 자격이 있습니다." # fff6c42306723d7eed95a1d97213a4f05bf6d71d
-	RICE_rhodes_erect_hippocrates_monument_desc: "로도스에서 북쪽으로 조금 떨어진 코스 섬에는 위대한 고대 치료사 히포크라테스가 가르침을 펼쳤다고 전해지는 큰 나무가 있습니다. 그곳은 현재 제대로 관리되고 있지 않습니다. 의학의 아버지라 불리는 그를 기리기 위해 제가 그곳을 관리할 수도 있을 것입니다." # d67cfed2dde15585e8e024697fb6d4eb83035fb9
-	RICE_rhodes_erect_hippocrates_monument_effect_tooltip: "현지 주민들과 함께 히포크라테스 기념비를 세울 것입니다." # 5147874719c1f42d10cc42c4801cd99c9e53dd02
-	RICE_rhodes_erect_hippocrates_monument_confirm: "위대한 치료사는 위대한 기념비에 합당합니다." # b254c9b21c0c9d15ab528288bad76bbe2e8e0498
-	RICE_rhodes_erect_hippocrates_monument_context_tooltip: "#emphasis Historical Context:#! Though much of Hippocrates' reputation and achievements as a physician have been mythologized by later historical and modern sources, he remains a legendary figure in the history of medicine. He was born on the island of Kos; according to legend, a tree there is to be where he taught his art. The present tree at this site is around 500 years old, but could plausibly be a descendant of the original; it is next to the Castle of Kos erected by the Knights Hospitaller, an 18th century Ottoman mosque, and a white tap with engravings in Arabic built by an Ottoman governor." # null
-	RICE_rhodes_renovate_kassia_tomb: "카시아의 무덤 개조" # 79fdd70a6bd10c94ac80328cf578ceb001249d96
-	RICE_rhodes_renovate_kassia_tomb_tooltip: "그렇게 훌륭하고 신성한 여성이라면 마땅히 훌륭한 매장지에 묻혀야 합니다." # 7a31c8f16ccdd31d435dfb41f927efcbc0d9a161
-	RICE_rhodes_renovate_kassia_tomb_desc: "카시아는 수녀원장이자 당대 가장 주목할 만한 여성 중 한 명이었으며, 로도스 남서쪽의 카소스 섬에 묻혀 있으며 일부 지역 주민들은 이미 그녀를 성인으로 대우하고 있습니다. [ROOT.Char.GetFaith.GetAdjective] 교회에서 공식적으로 그녀를 인정하지 않는다고 해서 그녀와 그녀의 업적을 기리기 위해 그녀의 무덤을 개조할 수 없는 것은 아닙니다." # a0074142c62de92d87082e16d34123c4482e9fd7
-	RICE_rhodes_renovate_kassia_tomb_confirm: "놀라운 여성, 놀라운 삶입니다." # 1bdf12153a8992d89262161ae3938ed493f718f3
-	RICE_rhodes_renovate_kassia_tomb_context_tooltip: "#emphasis Historical Context:#! Kassia, also known as Kassiani, was a 9th century Byzantine abbess, saint, hymnographer, and poet, and one of the first named women in Western music history; her hymns form an important core of Orthodox liturgy even today. Legends speak of her great beauty and intellect, and say that the Emperor Theophilos rejected her as a potential bride after she wounded his pride. Ironically, Kassia was a staunch iconophile, while Theophilos was a fierce iconoclast. She eventually settled on the island of Kasos where she died sometime in the later 9th century. She would become a saint much later, and her tomb still remains on Kasos." # null
-	# Events 
-	rhodes.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0001.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0001.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0002.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0002.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0002.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0003.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0003.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0003.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0004.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0004.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0004.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0005.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0005.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0005.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0006.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0006.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0006.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0007.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0007.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0007.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0008.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0008.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0008.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0009.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0009.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0009.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0010.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0010.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0010.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0011.t: "카시아 사망" # 2cc6581296193e5a08c5b8fa71d0346f1c6f4012
-	rhodes.0011.desc: "[카시아_오브_카소스.GetFullName], 유명한 [카시아_오브_카소스.GetCulture.GetName] 수녀, 시인, 찬송가 작곡가, 그리고 기독교 정통을 굳게 지킨 옹호자로 알려진 분이 세상을 떠나셨습니다. 생전에 그녀는 뛰어난 지성, 아름다움, 재능, 그리고 경건함으로 유명했습니다.\n\n[카시아_오브_카소스.GetFirstName]은 생애 후반을 카소스 섬에서 보냈는데, 이 섬은 [로도스_카운티.GetNameNoTier] 남서쪽에 위치해 있습니다. 그녀는 거기서 묻힐 것이며, 흥미롭게도 이미 일부 지역 주민들은 그녀를 성인으로 여기고 있습니다." # a656ffb39b31580cae82afec51cf5b791e8560a6
-	rhodes.0011.a: "이해했습니다…." # 1b31e3f713977663dbf2aef8a90d11c54dc769b0
-	rhodes.0011.tooltip: "[rhodes_county.GetNameNoTier]의 [ruler|E]가 이제 #EMP 카시아의 무덤 개조# [decision|E]을 할 수 있습니다!." # 8346dff1fd5e4fc5393894310e323fbfcf3d9ba1
-	rhodes.0012.t: "카시아의 무덤" # f805e7f8670f37fb8d3e05d5c7aabb4db03c2f8e
-	rhodes.0012.desc: "[kassia_of_kasos.GetFullName]은 더 이상 이 세상에 없지만, 그녀의 영향력과 명성은 여전합니다. 당대 최고의 찬송가 작가이자 시인, 교회의 수호자 중 한 명이었던 그녀는 뛰어난 지성과 열정을 지닌 수녀원장이자 수녀였습니다. 그녀는 [rhodes_county.GetNameNoTier] 남서쪽에 위치한 작은 섬인 카소스 주민들 사이에서 지역 성인으로 여겨지며, 카소스를 넘어 이 지역 전역에서 전설적인 인물입니다.\n\n그녀의 기억을 기리는 것은 당연한 일입니다. 그러므로 저는 카소스에 있는 그녀의 무덤을 개조하는 데 자금을 제공하여 그녀와 같은 성스러운 인물에게 더 어울리도록 할 것입니다." # d629a455154cfc9e74be734c5bb7f4a78a618bec
-	rhodes.0012.a: "그녀가 하늘에서 우리를 계속 지켜보시기를." # 2b3da742fbb7b452e65bfebf057e4d8ac4f1cf2d
-	rhodes.0013.t: "의학의 아버지" # 8255373869da75f1052c1372aca9663eb871e500
-	rhodes.0013.desc: "고대 위대한 의사인 히포크라테스는 [rhodes_county.GetNameNoTier] 북쪽에 있는 코스 섬에서 태어났다고 합니다. 그곳에는 이 유명하고 저명한 치료사가 한때 신성한 기술을 가르쳤다고 하는 바로 그 나무가 있다고 합니다.\n\n히포크라테스는 오늘날에도 존경받을 만한 사람이기에 저는 어떻게든 “의학의 아버지”를 기려야 한다고 생각했습니다. 저는 마침내 그 나무 주변에 작지만 가치 있는 기념비를 세우기로 결정했습니다. 히포크라테스가 앞으로도 여러 세대에 걸쳐 서로를 치료하고 돕도록 영감을 주길 바랍니다." # 35c781a1ea5a3558ae5da1ec5e9c7441af92c201
-	rhodes.0013.a: "만약 내가 그를 직접 만날 수만 있었다면!" # 8dc892e23b17a4859f7eaa12cc69243e3844c441
-	rhodes.0014.t: "칼림나 해면" # af62491200d774575ff1344bfff4b02769d61455
-	rhodes.0014.desc: "[rhodes_county.GetNameNoTier] 북쪽에 있는 칼림노스 섬은 고대부터 해면 수출의 주요 거점으로 명성을 떨쳐 왔으며, 해면을 구하기 어렵다는 점을 고려할 때 해면 무역은 섬에 많은 부를 가져다주었습니다. 어쨌든, 제가 섬을 통제하고 있으므로 [recipient.GetTitledFirstName] 님에게 유명한 칼림노스 해면을 선물로 드리기로 했습니다. 높은 품질과 지위는 적절한 선물이 될 것이라고 확신합니다." # 5bca99c2caf01a1826aa2eeda7dd4f04f8f8dd50
-	rhodes.0014.a: "[recipient.GetSheHe]께서 저 스펀지들을 잘 사용하시길 바랍니다!" # 23e61785ed9c21ccfcb6d8138806103e4e6ecd9f
-	rhodes.0015.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]" # b535f9470a86cd812a65daad64bf1427aeb0949e
-	rhodes.0015.desc: "[rhodes_county.GetNameNoTier] 북쪽의 칼림노스 섬의 통치자로서, 저는 이 편지와 함께 섬의 재능 있는 잠수부들이 수확한 고급 해면을 선물로 드리고자 합니다. 칼림노스 해면은 전 세계적으로 품질이 뛰어나기로 유명한 고급 제품이므로, 귀하와 같은 지위에 있는 분에게 어울리는 선물이라고 생각했습니다. 부디 유용하게 사용하시길 바랍니다!" # a0c34f409aa0fd6f318d62baec6e38be9bb21587
-	rhodes.0015.a: "정말 사려 깊은 선물이네요." # 59ecbac0c923e118779cc7f4595928316f0d257e
-	rhodes.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0020.t: "준비" # ffb7b66372898902e8cf7eca0025b21a011c84d7
-	rhodes.0020.desc: "로도스의 거상은 더 이상 서 있지 않지만, 여전히 많은 사람들이 [rhodes_barony.GetNameNoTier]에 와서 그곳을 방문하고 남은 것을 경외하며 바라봅니다. 그것은 인간 공학의 놀라운 업적이며, 그 폐허조차도 경이로운 광경입니다!\n\n저는 가까운 미래에 직접 그곳을 방문하여 이 고대 기념물을 보고 감탄할 계획입니다. 결국, 세계 7대 불가사의 중 하나인 이런 위대한 조각상을 우리와 함께 있을 때 보는 것이 가장 좋습니다." # e9dd1bbc2b183deb1bb2b0728a54b43f445d4420
-	rhodes.0020.a: "가까이서 폐허를 볼 생각에 너무 기대돼요!" # 496e1a42f21710dd9ef81d0ce298fb1e7f575c28
-	rhodes.0021.t: "거상" # cedcb7fd7f0356c56ab723611f840f58ad2ddc93
-	rhodes.0021.desc: "[rhodes_barony.GetNameNoTier] 해변에서 멀지 않은 곳에 있는 로도스 거상의 유적지에 도착했습니다. 무릎이 부러진 조각상을 보니, 그 잔해가 받침대 주위에 놓여 있지만, 이것조차도 인상적입니다. 조각상의 엄지손가락을 감싸 안을 수 있는 사람은 거의 없으며, 유적 옆에 서 있자니 너무나 작게 느껴집니다.\n\n조각상을 둘러보면서 조각상 건설에 대한 전설을 생각해 봅니다. 어떻게 적 침략자에 대한 승리에 감사하며 로도스의 주신인 헬리오스에게 헌정되었는지 말입니다. 하지만 여기 저는 수 세기 후, 다른 많은 사람들처럼 전성기에는 어떤 모습이었을지 궁금해하며 있습니다." # 09865c4bb750ddf014da837d5b32d65696f3e960
-	rhodes.0021.a: "이 조각상은 로도스의 명성과 명성을 확립했습니다!" # af4b3dc11f4f3aa7213d333879c593c3db0d4255
-	rhodes.0021.a.tooltip: "당신은 고대 세계에서 콜로서스의 명성을 되새기며 #P 영감#을 얻을 기회가 있습니다! 이 기회는 당신의 [diplomacy_skill|E] 및 현재 [diplomacy_lifestyle|E]을 보유하고 있는지 여부에 따라 달라집니다." # 310134a31d2edf642e091ad0333c99df4c1c3861
-	rhodes.0021.a.toast.tooltip: "거인상이 당신을 고무시킵니다!" # 03dfae7fb7f1035c5179810b2cf9ef3f1aa14b0b
-	rhodes.0021.b: "고대 로도스인들은 용감한 병사였음에 틀림없습니다." # 77b4c8ff7b4b11e31222817a69c819c1b5d7cb77
-	rhodes.0021.b.tooltip: "당신은 로도스가 적들에 맞서 싸운 용기를 되새기며 #P 영감#을 얻을 기회를 얻습니다. 이 기회는 당신의 [martial_skill|E]과 현재 [martial_lifestyle|E]을 가지고 있는지 여부에 따라 달라집니다." # 3aab9980e02afd38c5cb00d9f851baea2452f1f2
-	rhodes.0021.b.toast.tooltip: "#italic historical context:# \n \n #F The 'Italienzug', or Italian Campaign, was a series of campaigns undertaken by the Holy Roman Emperors of the Ottonian and Salian dynasties in the 10th and 11th centuries, to exert their control over the Kingdom of Italy. The city of $rhodes$ was frequently the site of imperial fleets during these attempts. #!" # 5036d65108ea8d7c3b8d4a471dcb90f25973454a
-	rhodes.0021.c: "이걸 건설하는 데 어떤 기술을 사용했을까?" # 1b315b22cfa86803a3d50b4a2e31c1d19349e925
-	rhodes.0021.c.tooltip: "#P 영감#을 얻을 기회가 있습니다! 콜로서스를 건설하는 데 사용된 공학을 되돌아보면서 말이죠. 이 기회는 당신의 [stewardship_skill|E]과 현재 [stewardship_lifestyle|E]을 가지고 있는지 여부에 따라 달라집니다." # 52b32ddee1e09153417e4d00b730e4ddc2de69d9
-	rhodes.0021.c.toast.tooltip: "#italic historical context:# \n \n #F The 'Italienzug', or Italian Campaign, was a series of campaigns undertaken by the Holy Roman Emperors of the Ottonian and Salian dynasties in the 10th and 11th centuries, to exert their control over the Kingdom of Italy. The city of $rhodes$ was frequently the site of imperial fleets during these attempts. #!" # 5036d65108ea8d7c3b8d4a471dcb90f25973454a
-	rhodes.0021.d: "이 지진으로 무너진 건 정말 무서웠겠어요." # 99b44273a207a3e4192ef08209a1902417f258f2
-	rhodes.0021.d.tooltip: "지진으로 인한 콜로서스 파괴를 되새기며 #P 영감#!을 얻을 기회가 있습니다. 기회는 당신의 [intrigue_skill|E] 및 현재 [intrigue_lifestyle|E] 보유 여부에 따라 달라집니다." # 1d77c64de818538429819ba7aa12b5085dbfa6c4
-	rhodes.0021.d.toast.tooltip: "#italic historical context:# \n \n #F The 'Italienzug', or Italian Campaign, was a series of campaigns undertaken by the Holy Roman Emperors of the Ottonian and Salian dynasties in the 10th and 11th centuries, to exert their control over the Kingdom of Italy. The city of $rhodes$ was frequently the site of imperial fleets during these attempts. #!" # 5036d65108ea8d7c3b8d4a471dcb90f25973454a
-	rhodes.0021.e: "그 조각상은 현재 우리에게 무엇을 영감으로 주는가?" # c55b3da09e150e83ac6cdc28c9ca0f03958603fd
-	rhodes.0021.e.tooltip: "현재의 콜로서스의 유산을 되돌아보는 동안 #P 영감#을 받을 기회가 있습니다. 이 기회는 당신의 [learning_skill|E]과 현재 [learning_lifestyle|E]을 가지고 있는지 여부에 따라 달라집니다." # 10e8a649532e3f50abbd04d4cc5c80f3c76a99c2
-	rhodes.0021.e.toast.tooltip: "#italic historical context:# \n \n #F The 'Italienzug', or Italian Campaign, was a series of campaigns undertaken by the Holy Roman Emperors of the Ottonian and Salian dynasties in the 10th and 11th centuries, to exert their control over the Kingdom of Italy. The city of $rhodes$ was frequently the site of imperial fleets during these attempts. #!" # 5036d65108ea8d7c3b8d4a471dcb90f25973454a
-	rhodes.0022.t: "거상들의 그림자" # 9d9ec26302144c6aceb0ea1b590953069297b24d
-	rhodes.0022.desc.has_rhodes: "로도스 섬을 다스리고 있지만, 실제로 콜로서스를 방문할 기회가 매일 있는 것은 아닙니다. 시간을 내서 방문한 것은 좋은 생각이었죠." # 4e55b9acec3515948d76eb14d214dd20a1051fa5
-	rhodes.0022.desc.no_rhodes: "로도스 여행이 끝나가고 있습니다. 제가 목격한 심오한 것들을 생각하며 한숨만 쉴 수밖에 없습니다. 이번 여행을 가기로 결정한 것이 기쁩니다." # 66551ffcc74fb83e3fdc277f1df20ae2bf1aaab9
-	rhodes.0022.desc: "나는 주위를 둘러보았고, 멀리서도 콜로서스의 폐허 일부를 볼 수 있었다. 가까이에서 보는 것은 숨 막힐 듯한 경험이었다. 그 조각상은, 폐허가 된 상태에서도 세계의 불가사의 중 하나로 여겨질 만하다!" # d09178ba01c556c724f61ae960d555b42a5fbb58
-	rhodes.0022.a: "어떤 면에서 여전히 거인의 그림자 아래 있는 것 같습니다." # 8b4ffa11c0c6aaebe20daae4891c7763e878ecee
-	rhodes.0023.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0023.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0023.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0024.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0024.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0024.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0025.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0025.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0025.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0026.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0026.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0026.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0027.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0027.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0027.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0028.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0028.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0028.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0030.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0030.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0030.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0031.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0031.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0031.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0032.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0032.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0032.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0033.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0033.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0033.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0034.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0034.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0034.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0035.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0035.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0035.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0036.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0036.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0036.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0037.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0037.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0037.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0038.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0038.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0038.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0039.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0040.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0040.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0040.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0041.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0041.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0041.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0042.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0042.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0042.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0043.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0043.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0043.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0044.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0044.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0044.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0045.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0045.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0045.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0046.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0046.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0046.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0047.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0047.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0047.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0050.t: "칼리테아" # c4a2fce0d187bb9424194e344e8a0ee11b3bbf7b
-	rhodes.0050.desc: "오늘 저는 [rhodes_county.GetNameNoTier]의 작은 마을인 칼리테아에 있습니다. 저는 특히 이곳의 샘을 방문하고 있습니다. 의사 히포크라테스는 이 물이 훌륭한 약효를 가지고 있다고 주장했다고 합니다." # 61e3f3a5f7deb023cd5c1cdddce51c8ee5a9a724
-	rhodes.0050.a: "아... 휴식이야말로 내가 필요했던 것이지." # 5d0d48b432d966bcd35eb1cdf4413cf1dc343c50
-	rhodes.0051.t: "필레리모스" # 4b8ad51e7517d2d377cae2382f288dad0a369353
-	rhodes.0051.desc: "저는 고요한 소나무 숲 사이에 자리 잡은 [rhodes_county.GetNameNoTier] 섬의 언덕 위인 필레리모스에 도착했습니다.\n\n이 지역은 전략적 요충지이자 휴식 장소로 수세기 동안 많은 사람들이 방문해 왔습니다. 이곳에는 작은 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetFaith.HouseOfWorship]과 작지만 강력한 작은 요새, 그리고 지역 귀족들이 나무 그늘 아래에서 휴식을 취하러 오는 여러 저택이 있습니다.\n\n놀랍지 않게도, 이 모든 건물은 수세기 전의 오래된 건물에서 나온 돌과 대리석을 사용하고 있습니다." # 0c87715268482b40a2bb57b625feae89ea1fcaac
-	rhodes.0051.a: "이 아름다운 곳에서 기도하며 시간을 보내는 것은 좋은 생각입니다." # 9b2848189c4274336664d0be0df85ed9b604c06a
-	rhodes.0051.b: "요새의 방어력이 어떻게 유지되고 있는지 확인하러 요새를 점검하겠습니다." # 451a9e6f252db0e2f87f6e81529c918755aaf61f
-	rhodes.0051.c: "그 저택에서 평판이 좋은 다른 사람들과 함께 휴식을 취하는 것이 중요합니다." # ecb675be9a1cdf338055a07cfe7c904aa32f9b98
-	rhodes.0052.t: "바위 노두" # 8bf67a7149723fe52ca712ee7a03abca5bf58192
-	rhodes.0052.desc: "[rhodes_county.GetNameNoTier]는 항상 방어력으로 유명했습니다. 그러나 최근에 섬의 요새를 개선해야 할 필요성이 제기되었습니다.\n\n섬에는 다소 험준한 지형이 있는 지역이 있고, 그곳에는 버려진 요새의 오래된 폐허가 있습니다. 적절한 자원이 있다면 (약간의 어려움은 있겠지만) 돌과 나무를 경사면 위로 끌어올려 이 바위 노두에 새로운 작은 요새를 지을 수 있을지도 모릅니다." # f063009799482bec7a67b0231e156ae18ab12708
-	rhodes.0052.a: "네, 좋은 생각 같습니다." # a2afdb0ba41c307181f6785a8208b09d117e323d
-	rhodes.0052.b: "" # 335adbc24b3c45f1abf661995193c9f011ffea96
-	rhodes.0053.t: "카파마스" # d2c9c82cb58e6fa6336f0da659d50792c2d8a5c4
-	rhodes.0053.desc: "저는 [rhodes_county.GetNameNoTier]에 사는 지역 귀족을 방문하여 섬에서 나는 여러 가지 맛있는 요리로 구성된 작은 잔치를 대접받았습니다. 잔치의 하이라이트는 쌀, 다진 고기, 양파 및 기타 허브와 향신료로 채워진 새끼 염소 고기인 로도스 #italic 카파마스#!였을 것입니다." # 6673d87fdacc90a03607b239eea4151d77814bba
-	rhodes.0053.a: "맛있어, 맛있어!" # 67390e387d2f9ca951ea30d341e72c10feb6a51c
-	rhodes.0054.t: "멜레쿠니" # 2d35296c0d989eced8ae3fba3783ce7851c66466
-	rhodes.0054.desc: "[rhodes_county.GetNameNoTier]의 여러 마을을 공식적으로 방문하는 동안, 제 안내인들은 #italic 멜레쿠니#!라는 참깨와 꿀로 만든 전통 로도스 과자를 제게 제공했습니다. 그것은 단순하지만 매우 훌륭하고 여행 중에 활력을 얻는 데 좋습니다." # ff56705c6a34ab02b534fdc3552393a8c3fe957f
-	rhodes.0054.a: "" # c83f1f96a092236783ccdbecc19508db5a7a3013
-	rhodes.0054.b: "맛있고 #italic 건강해 보입니다!#" # 2ee9b3d8755141bd438cbdcacfd982fd61cb5ab1
-	rhodes.0055.t: "린도스 조사" # 762498b0acfbb063196a7d3fe8b711e351bc58fb
-	rhodes.0055.desc: "저는 현재 [rhodes_county.GetNameNoTier]의 린도스 아크로폴리스 요새를 정기적으로 시찰하고 있습니다. 이곳이 방어에 탁월한 위치이기 때문에 사람들이 수세기 동안 이곳을 요새화한 이유를 쉽게 알 수 있습니다. 여기에서는 고대와 현대의 구조물, 건축물, 예술 작품, 유적이 한곳에 자유롭게 혼합되어 있는 것을 흔히 볼 수 있습니다.\n\n저는 지금 현지인들에게 다소 유명한 랜드마크인 고대 로도스 삼단노선의 석조 부조를 지나고 있습니다. 린도스 아크로폴리스 기슭에 있는 이 아름답고 웅장한 예술 작품은 수세기 전에 조각되었으며, 여전히 비교적 온전해 보입니다." # 2ec41a8ac79735740f2e57b13100afe79354efb3
-	rhodes.0055.a: "저 또한 고대인들처럼 섬을 잘 방어하고 싶습니다." # 977db543b908147b7c2453ac6d64c40e786bdfd8
-	rhodes.0056.t: "아스프리 페트라" # 92a0d45da032eb65b977550ee174d2727da89dd1
-	rhodes.0056.desc: "코스 섬은 [rhodes_county.GetNameNoTier] 북쪽 약간에 위치해 있습니다. 공식적인 업무나 경치를 즐기기 위해 종종 방문하지만, 항상 갈 수 있는 건 아니죠. 오늘은 조금 모험을 즐기고자 마을을 벗어나 아스프리 페트라라는 돌굴과 암석 지형을 보기 위해 등산했습니다. 이곳을 찾는 사람이 많지 않아서 휴식을 취하기에 좋은 장소입니다." # d633a8e4d658d8c83ac2c6f2c9ee86d33497bf02
-	rhodes.0056.a: "이 모든 것이 영겁의 시간 동안, 이곳에 있었다고 상상해 보세요...." # 0d4869ab8d1c4f674706c354be0586337e6ee016
-	rhodes.0057.t: "아타비로스 산" # 9a860a566bde7fa32f7d4f6df577592b730d8a0f
-	rhodes.0057.desc: "[rhodes_county.GetNameNoTier] 섬에서 가장 높은 지점은 아타비로스 산으로 알려져 있습니다. 일부 지역 주민들에게는 영적으로 매우 중요한 장소로 여겨지며, 몇몇 용감한 사람들은 가끔 정상까지 힘든 여정을 감행합니다. 그곳에 가본 사람들에 따르면, 날씨가 좋은 날에는 정상에서 도데카니사 제도의 다른 많은 섬들을 볼 수 있지만, 일부는 크레타까지 볼 수 있다고 주장하는 것을 들었습니다." # 1f8cb7ec498f1f2662a54772095a05cd710e3627
-	rhodes.0057.a: "그것이 가능할지는 의문이지만, 좋은 곳이라는 건 확실하네요." # 54f7fd5b5ab1a8fc233038695448470a4cd31723
-	rhodes.0057.b: "거기에 갈 시간만 있다면 좋을 텐데! 분명 멋질 거야." # 259be24eaf0ae864e775f102f47759854afa908e
-	rhodes.0057.c: "거기에 잠시 소풍을 가는 건 어때요? 곧 갈게요!" # e08eaf04b5ea1da174651a8115f8a6a9c967ae6b
-	rhodes.0058.t: "칼림노스 해면 경제" # 534d15ce32c16b9cfd6fb5d9917245454a245f0a
-	rhodes.0058.desc: "[rhodes_county.GetNameNoTier] 북쪽 칼림노스에서 해면 채취꾼들이 수확한 해면은 전 세계적으로 유명하며, 항상 섬에 막대한 이익을 가져다줍니다. 그러나 최근에는 섬에서 평소보다 판매량이 줄어 해면 산업이 잘 되지 않고 있습니다." # 062f6d8e3bb07fcebb29e136ee159c173742c4e8
-	rhodes.0058.a: "그들에게 곧 좋은 변화가 있기를 바랍니다." # 68594abfa4259980a65a0966470790815b20026f
-	rhodes.0059.t: "칼림노스 해면 경제" # 534d15ce32c16b9cfd6fb5d9917245454a245f0a
-	rhodes.0059.desc: "[rhodes_county.GetNameNoTier] 북쪽의 칼림노스에서 해면 채취자들이 수확한 해면은 전 세계적으로 유명하며, 항상 섬에 큰 이익을 가져다줍니다. 그러나 최근에는 해면 산업이 평소보다 훨씬 더 잘 되고 있으며 더 많이 팔리고 있습니다." # 8a6ec0d4a7628ceac79d0592116412b7a2db94af
-	rhodes.0059.a: "지역 경제에 좋군요!" # adb2c9133b26c3d89bd09e4bfaa8a7b2c8511b13
-	rhodes.0060.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0060.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0060.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0061.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0061.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0061.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0062.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0062.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0062.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0063.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0063.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0063.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0064.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0064.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0064.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0065.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0065.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0065.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0066.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0066.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0066.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	rhodes.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  Kassia: "카시아" # bbee422cb24ba269742daf396e2ba8facc76b0ef
+  dynn_kassia_of_kasos: "카소스의" # c6660a481a48a916da2f0e16939894b489238cf6
+  RICE_rhodes_gift_kalymnian_sponges: "칼림노스 해면 선물" # eb6a70a5bd16bb12071ccb34e153be2a48197317
+  RICE_rhodes_gift_kalymnian_sponges_desc: "칼림노스 해면 선물 보내기" # 023bca97a7be5071355b414239cf53386698b666
+  RICE_rhodes_gift_kalymnian_sponges_self: "칼림노스 해면 구매" # 80bcf22f903834bd555b01f2b5b16098ef86d44d
+  RICE_rhodes_gift_kalymnian_sponges_self_desc: "칼림노스 바다 스펀지를 좀 사세요" # 1c54e897e742a40808ce794663c9114cbdbf8d0a
+  RICE_rhodes_visit_to_the_colossus_host_memory: "[GetActivityType( 'activity_RICE_rhodes_visit_to_the_colossus' ).GetName] (을)를 [GetTitleByKey ('b_rhodos').GetNameNoTier]에서 지불했습니다." # 61b5a7c99f1fdd9e350481f6da19cd7fad76c3df
+  RICE_rhodes_visit_to_the_colossus_host_memory_first_perspective: "저는 [GetTitleByKey('b_rhodos').GetNameNoTier]에서 [GetActivityType( 'activity_RICE_rhodes_visit_to_the_colossus' ).GetName]에 참여했습니다" # 091a914d95a0a996e5aa13af2a4c5d7a0d442650
+  RICE_rhodes_visit_to_the_colossus_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_rhodes_visit_to_the_colossus' ).GetName] 을 [GetTitleByKey('b_rhodos').GetNameNoTier]에서 지불했습니다." # 8dd7b162201179f8c210efd70320fd9f05cae0f6
+  RICE_rhodes_visit_to_the_colossus_host_memory_third_perspective: "[owner.GetName]이 [GetTitleByKey('b_rhodos').GetNameNoTier]에서 [GetActivityType(  'activity_RICE_rhodes_visit_to_the_colossus' ).GetName]을(를) 치렀습니다" # 44897f66edd0156c3b16c29af3c24ffa05db6ecf
+  RICE_rhodes_visit_to_the_colossus_guest_memory: "[host.GetTitledFirstName]와 함께 [GetTitleByKey ('b_rhodos').GetNameNoTier]에서 [GetActivityType( 'activity_RICE_rhodes_visit_to_the_colossus' ).GetName]에 참여했습니다" # e178eb85c9f4a8558ba188ea6623b0f992671209
+  RICE_rhodes_visit_to_the_colossus_guest_memory_first_perspective: "로도스의 거상 방문 행사를 [GetTitleByKey('b_rhodos').GetNameNoTier]의 [host.GetTitledFirstName]에게 [GetActivityType( 'activity_RICE_rhodes_visit_to_the_colossus' ).GetName]로 지불했습니다." # 6428a1f82f524d08a7530461d16e7604f00a20f5
+  RICE_rhodes_visit_to_the_colossus_guest_memory_second_perspective: "[host.GetTitledFirstName] 님과 함께 [GetTitleByKey('b_rhodos').GetNameNoTier]에서 [GetActivityType( 'activity_RICE_rhodes_visit_to_the_colossus' ).GetName] 활동에 참여했습니다" # 4d1b383ea1fb7cfeea498b53f1dba53ee2bab8aa
+  RICE_rhodes_visit_to_the_colossus_guest_memory_third_perspective: "[owner.GetName]이 [GetTitleByKey('b_rhodos').GetNameNoTier]에서 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_rhodes_visit_to_the_colossus' ).GetName]에 참가했습니다." # 2ac2427f85e0150e80e095027fdcd41aaba2bb46
+  RICE_rhodes_hippocrates_memory: "고대 그리스 의사 히포크라테스에게 기념비를 헌정했습니다" # 3c9caa9dbb7b110f722ee4bb1e0048974c70bf96
+  RICE_rhodes_hippocrates_memory_first_perspective: "고대 그리스 의사 히포크라테스에게 기념비를 바쳤습니다" # 7dc05de16213034d6a826db2252d6962de4b1f26
+  RICE_rhodes_hippocrates_memory_second_perspective: "고대 그리스 의사 히포크라테스에게 기념비를 세웠습니다." # 216fb37b8bee0bd4026d880db15f1926434fe133
+  RICE_rhodes_hippocrates_memory_third_perspective: "[owner.GetName]이 고대 그리스 의사 히포크라테스에게 기념비를 봉헌했습니다." # 289bff532c816612b6296deeae69d04e1c4bef1e
+  RICE_rhodes_kassia_memory: "카소스의 카시아의 무덤을 개조했습니다" # 651a8cc204641748317974f12e1d50966107abab
+  RICE_rhodes_kassia_memory_first_perspective: "카소스의 카시아의 무덤을 개조했습니다" # 820edc000a8eef8bf18a2aa3a984e85fbeb6d470
+  RICE_rhodes_kassia_memory_second_perspective: "카소스의 카시아의 무덤을 개조했습니다." # 4067185895e853822a08b386be316bc6a6e3e2db
+  RICE_rhodes_kassia_memory_third_perspective: "[owner.GetName] 님이 카소스의 카시아의 무덤을 개조했습니다" # 3377188d372cd48f87201f2a0c1864809eec55c5
+  activity_RICE_rhodes_visit_to_the_colossus_host_an_a: "$host_activity_a$" # a61241acadcc9f0c0c58e8a6756d1532a43a0ac3
+  activity_RICE_rhodes_visit_to_the_colossus: "거상 유적 방문" # 1a9b3c2664aacd85f83003c88bebc6cdc5e979b7
+  activity_RICE_rhodes_visit_to_the_colossus_desc: "비록 더 이상 서 있지는 않지만, 콜로서스의 폐허는 여전히 멀리서 많은 사람들의 발길이 끊이지 않습니다. 나 또한 폐허를 방문하여 고대인들의 솜씨를 감탄하고 싶습니다." # 149ec952df6a7cd961e0806b34430bb4b9882ceb
+  activity_RICE_rhodes_visit_to_the_colossus_selection_tooltip: "거상 유적 방문.\n\n$RICE_rhodes_visit_colossus_ruins_context_tooltip$" # c4dc8e23a5f8dc76bf7ed4f7979106f2ad509c68
+  activity_RICE_rhodes_visit_to_the_colossus_host_desc: "$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 감소\n$BULLET_WITH_TAB$ $hellenic_pagan$ 또는 $semitic_religion$ [religion|E]의 [faith|E]를 따르면 [piety_i|E][piety|E] 감소\n$BULLET_WITH_TAB$ 영감을 받아 #P 유익한#! [character_modifier|E]를 얻을 확률" # df26e363f0f7a6b5df6df3763e805edfa4240a90
+  activity_RICE_rhodes_visit_to_the_colossus_guest_desc: "$BULLET_WITH_TAB$명성[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$스트레스 감소 [stress_loss_i|E][stress|E]\n$BULLET_WITH_TAB$스트레스 감소 [stress_loss_i|E][stress|E]" # 743506cd0acbcfd2b2af72fb6dcd8fe14780838c
+  activity_RICE_rhodes_visit_to_the_colossus_province_desc: "콜로수스의 유적이 아직 이곳에 남아 있습니다... 적어도 지금은 말이죠." # b88e15d90006093bcdff37c21e20bffcea739813
+  activity_RICE_rhodes_visit_to_the_colossus_destination_selection: "$activity_RICE_rhodes_visit_to_the_colossus_province_desc$" # 7b4532d656db5ea30c2db03761672de5bf57d482
+  activity_RICE_rhodes_visit_to_the_colossus_guest_help_text: "$activity_RICE_rhodes_visit_to_the_colossus$" # 643ffc2bfe43763d30c123ee038b8d69600b3501
+  activity_RICE_rhodes_visit_to_the_colossus_predicted_cost: "이 방문 비용은 주로 당신의 [income|E]에 따라 결정됩니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
+  activity_RICE_rhodes_visit_to_the_colossus_conclusion_desc: "즐겁고 영감을 주는 [GetActivityType( 'activity_RICE_rhodes_visit_to_the_colossus' ).GetName]을 가졌습니다!" # c650a455375783afe62849c721f30b01eb23f033
+  RICE_rhodes_visit_to_the_colossus_sightseeing_phase: "관광" # b0f96c68f48e92f22700b109e526b4e326838e1a
+  RICE_rhodes_visit_to_the_colossus_sightseeing_phase_desc: "거상이 폐허가 되었음에도 불구하고, 여전히 인상적인 광경입니다!" # e3c8ee1457e0f0616e64c6e9e44154901495fb59
+  RICE_rhodes_visit_to_the_colossus_tourist_intent_header: "관광업:" # 1df2abc70d51fd73a1524cd656c98523de415188
+  RICE_rhodes_visit_to_the_colossus_tourist_intent: "관광" # 7d62dd12affdd882f7ed0c95d4a089e4728f9775
+  RICE_rhodes_visit_to_the_colossus_tourist_intent_desc: "콜로서스 주변 명소를 보고 싶으시군요." # 0d5535775ff8b16202ac2a31da060c461e352a12
+  RICE_rhodes_visit_to_the_colossus_completed_log_title: "거상 유적 방문 완료" # 65809daffed4501905cfa4b5e7d2bd2ef6ee906b
+  RICE_rhodes_visit_to_the_colossus_completed_log: "[CHARACTER.GetShortUIName|U]이 콜로서스 유적 방문을 마쳤습니다" # 4af0ca00e38030e0b50856573c8b6bce169568ad
+  TRAVEL_NAME_FOR_activity_RICE_rhodes_visit_to_the_colossus: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_rhodes_visit_to_the_colossus$" # bcb1ec0f7ca6c53852728167e72f7cad0f1545b8
+  building_type_RICE_rhodes_fortifications_01: "로도스의 요새" # 901221352b490f950e2caac216876351b8255b82
+  building_type_RICE_rhodes_fortifications_01_desc: "고대부터 로도스 시는 강력한 방어망으로 유명했습니다. 현재의 성벽과 방어 시설은 여러 세대에 걸쳐 건설되었습니다. 요새의 일부는 수 세기 전의 과거 지진으로 인해 파괴되었지만, 다른 곳에서는 요새가 수용 가능한 수준으로 유지되고 있습니다. 약간의 투자를 통해 이러한 고대 방어 시설은 언젠가 더 위대한 것으로 바뀔 수 있습니다." # b087b477afde6119cced79333e0642d560600714
+  building_RICE_rhodes_fortifications_01: "$building_type_RICE_rhodes_fortifications_01$" # 3c817adb00aab8f56c54b4f4abe4b9b8b4c5dd79
+  building_RICE_rhodes_fortifications_01_desc: "$building_type_RICE_rhodes_fortifications_01_desc$" # aab6fdf447abc4a53281e90f4dd18d03a3b3b5ae
+  building_RICE_rhodes_fortifications_02: "로도스의 확장된 요새" # eda861f6432959a1646de96ef5a712af4cb87440
+  building_RICE_rhodes_fortifications_02_desc: "에게 해의 무역로를 장악하는 데 있어 로도스는 매우 중요하기에, 로도스의 통치자들은 고대 성벽을 확장하고 강화하여 로도스가 계속 잘 보호되도록 했습니다. 혁신적인 건축 설계와 최신 방어 기술을 사용하여 건설된 새로운 구조물은 로도스를 공격할 만큼 어리석은 침략자들에게 큰 도전 과제가 될 것입니다!" # 36f12d23a6d54cdee62ed8a52eb55403506b4ad1
+  RICE_rhodes_sponge_divers_of_kalymnos: "칼림노스의 해면 잠수부" # e8e50040a345a0f68972419ff73a76a5c1e9ba3f
+  RICE_rhodes_sponge_divers_of_kalymnos_desc: "수 세기 동안 칼림노스 섬은 해면을 얻는 곳으로 유명했습니다. 코스 북쪽에 있는 작고 소박한 이 섬은 해면 무역 덕분에 큰 번영을 이루었습니다. 칼림노스 해면 잠수부들은 전통적인 기술을 사용하여 정기적으로 해저에서 해면을 수확하며, 그들이 수확한 해면은 지중해 전역에서 판매됩니다.\n\n#italic 로도스 [county|E]의 [rulers|E]는 다른 사람에게 #Bold 칼림노스 해면 선물하기#!를 할 수 있는 특별한 [character_interaction|E]와 자신을 위해 #Bold 구매하기#!를 할 수 있는 특별한 [character_interaction|E]를 이용할 수 있습니다." # 0dec54407a59229da11db039b3c077764823b9d2
+  RICE_rhodes_reveres_hippocrates: "히포크라테스를 숭배합니다" # fb72a45d3db734aa05a254455c467f28547bf1c9
+  RICE_rhodes_reveres_hippocrates_desc: "이 인물은 고대의 유명하고 중요한 의사이자 치료사인 히포크라테스에 대해 깊은 존경심을 가지고 있어서, 히포크라테스의 이름을 딴 작은 기념비를 코스 섬에 세우기로 결정했습니다." # 9e2438be4d3f8cb8ef4b1a80f13c4247bf64af71
+  RICE_rhodes_hippocrates_monument_built: "히포크라테스 기념비" # 1e3a3cb253fdf095a9de3c59ab015bddc99cc643
+  RICE_rhodes_hippocrates_monument_built_desc: "로도스 북쪽의 코스 섬에는 유명한 고대 치료사 히포크라테스가 제자들을 가르쳤던 곳을 표시한다고 전해지는 플라타너스 나무가 있습니다. 그 사람을 기리는 작은 소박한 기념비가 그곳에 세워졌고, 소위 의학의 아버지에게 경의를 표하기 위해 가끔 소수의 여행자들이 방문합니다." # 6c0e3a63c0848ac1f40d2672cff6a330fc1bea58
+  RICE_rhodes_renovated_kassia_tomb: "카시아의 무덤을 개조했습니다" # 2a6151c13bd9e453fb32dcbe333dd05186af9089
+  RICE_rhodes_renovated_kassia_tomb_desc: "이 인물은 코스 섬에 있는 카시아의 무덤을 놀라운 여성, 코스 지역 주민들에게 성인으로 여겨지는 여성을 기리기 위해 필요한 자금을 마련하여 개축하기로 결정했습니다. 그녀는 뛰어난 수녀장, 시인, 찬송가 작곡가였으며, 코스에서 대부분의 삶을 보냈으며, 그녀의 찬송은 여전히 ​​지역의 경건한 기독교인들에게 영감을 주고 있습니다." # ca90132b6d678078c3fe83cbcd3b3a9f19d3058a
+  RICE_rhodes_kassia_tomb_renovated: "카시아의 무덤 최근 개조" # 99be0ab6444c2e1a7a35c095e90af41d551285ba
+  RICE_rhodes_kassia_tomb_renovated_desc: "경건한 기독교 통치자가 최근 코스에서 많은 시간을 보냈고, 그 찬송가가 이 지역의 경건한 기독교인들에게 계속해서 영감을 주는 뛰어난 수녀원장, 시인, 찬송가 작가인 카시아의 무덤에 대한 중요한 개조에 자금을 지원하기로 결정했습니다. 코스의 주민들에게 성인으로 여겨지는 그녀와 같은 뛰어난 여성은 그럴듯한 매장지를 받을 자격이 있습니다." # d3b85e9c2ee3002d5e9b651b341c82c7c30650fc
+  RICE_rhodes_kassia_of_kasos: "카소스의 카시아" # 1acfdde21e8622e2faa7db7bca24754d7f5b34ec
+  RICE_rhodes_kassia_of_kasos_desc: "그리스 수녀원장, 시인, 찬송가 작가. 그녀는 뛰어난 지성과 성상 파괴주의에 맞서 정통성을 굳건히 수호하려는 열정으로 가득 찬 놀라운 여성입니다. 소문에 따르면 그녀는 젊은 시절 대단한 미인이었으며, 한때 미래의 황제 테오필로스의 잠재적인 신부로 고려되었지만, 그의 자존심을 건드렸을 때 그에게 거절당했다고 합니다." # dc0496817a2f434cb38fd962f1d89f16c3ffaced
+  RICE_rhodes_character_kalymnian_sponges: "칼림노스 해면" # b98455b36763fc965bad4d2f6de9dbdeb95865fc
+  RICE_rhodes_character_kalymnian_sponges_desc: "이 인물은 칼림노스 섬에서 대량의 해면을 선물 받거나 구매했습니다. 이 평범한 섬은 고대부터 해면 무역의 중심지였으며, 그곳의 해면 잠수부는 전 세계적으로 명성이 높습니다. 이렇게 많은 칼림노스 해면을 소유하는 것은 상당한 사치입니다!" # f629a30519d5dd512735acddf449be5debe45ac2
+  RICE_rhodes_opinion_gifted_kalymnian_sponges: "칼림노스 해면 선물" # c02e210dd6a25a70a5c3288dd874e9a5980d7f03
+  RICE_rhodes_inspired_colossus_diplomacy: "로도스의 거상에서 영감을 얻음" # 23d93474258bcec3ea436260e213f8b89c1436c8
+  RICE_rhodes_inspired_colossus_diplomacy_desc: "이 캐릭터는 최근 로도스 거상을 방문했으며, 고대 세계 7대 불가사의 중 하나였던 그 명성과 명성에 대한 사색을 통해 이 고대 기념물에 영감을 받았습니다!" # 2534901e2ea5a5317b78fb3dfd2c2f5ee8eeb8e0
+  RICE_rhodes_inspired_colossus_martial: "로도스의 거상에서 영감을 얻음" # 23d93474258bcec3ea436260e213f8b89c1436c8
+  RICE_rhodes_inspired_colossus_martial_desc: "이 캐릭터는 최근 로도스 거상을 방문했으며, 고대 로도스인들이 강력한 적에 맞서 섬을 성공적으로 방어한 후 거상이 어떻게 건설되었는지 성찰하면서 고대 기념물에서 영감을 받았습니다." # f65d61b7cff38de38d548b764fdf1948d595445e
+  RICE_rhodes_inspired_colossus_stewardship: "로도스의 거상에서 영감을 얻음" # 23d93474258bcec3ea436260e213f8b89c1436c8
+  RICE_rhodes_inspired_colossus_stewardship_desc: "이 캐릭터는 최근 로도스의 거상을 방문했으며, 이 고대 기념물을 처음 만들 때 사용된 뛰어난 공학과 장인 정신에 대한 성찰을 통해 영감을 얻었습니다." # 90eaea480c772fcc68cef92128db68c1b45acca5
+  RICE_rhodes_inspired_colossus_intrigue: "로도스의 거상에서 영감을 얻음" # 23d93474258bcec3ea436260e213f8b89c1436c8
+  RICE_rhodes_inspired_colossus_intrigue_desc: "이 캐릭터는 최근 로도스 거상을 방문했으며, 지진으로 파괴되었지만 그 잔해가 수세기 동안 여전히 남아 있던 모습에 영감을 받았습니다." # 2d81aca099b81c3f32d7da32391d285ff105fdfe
+  RICE_rhodes_inspired_colossus_learning: "로도스의 거상에서 영감을 얻음" # 23d93474258bcec3ea436260e213f8b89c1436c8
+  RICE_rhodes_inspired_colossus_learningdesc: "이 캐릭터는 최근 로도스 거상을 방문하여, 사람들이 그 폐허를 경탄하기 위해 찾아올 정도로 사람들을 계속해서 놀라게 하는 고대 기념물에 영감을 받았습니다." # 81a08314e6bd206bc5173fd0b1cd443c72c60301
+  RICE_rhodes_visited_filerimos_prayer: "필레리모스에서 기도했습니다" # 9b3b51d6f3a54ca6306c637e7d9e9bc5ec13cf7d
+  RICE_rhodes_visited_filerimos_fort: "필레리모스 요새 조사됨" # da93d195fab82f20efe7fef1fdc3f7157b6d75ea
+  RICE_rhodes_visited_filerimos_villa: "필레리모스의 빌라에서 휴식을 취함" # 7b23b69d719f6947ebb83f2297d3af6e0c1f8459
+  RICE_rhodes_new_rhodes_fort: "바위 노두에 세워진 새로운 요새" # c53ef7e4c70a8aed7fb0e66edbb0f460345923c3
+  RICE_rhodes_hiked_mount_attavyros: "아타비로스 산 등반" # 0596056f497b7de86369ea67238900504e862c16
+  RICE_rhodes_sponge_economy_bad: "칼림나 스폰지 경제가 좋지 않습니다." # 5b2e53f8c95c6266d1a4b8c886b62ad13ae4f14f
+  RICE_rhodes_sponge_economy_good: "칼림노스 해면 경제가 호황입니다" # 02382701eb1e3bcdfd1606bcf83b7e2d85065642
+  RICE_rhodes_visit_colossus_ruins: "거상 폐허 방문" # 7e6edb21f9adf02510ef359cc9412a754e014ac3
+  RICE_rhodes_visit_colossus_ruins_tooltip: "이렇게 웅장한 조각상이... 이제 사라졌습니다." # 0089197ca293de2922fabe73df4f14a06439584a
+  RICE_rhodes_visit_colossus_ruins_desc: "비록 더 이상 서 있지는 않지만, 콜로서스의 폐허는 여전히 멀리서 많은 사람들의 발길이 끊이지 않습니다. 나 또한 폐허를 방문하여 고대인들의 솜씨를 감탄하고 싶습니다." # 149ec952df6a7cd961e0806b34430bb4b9882ceb
+  RICE_rhodes_visit_colossus_ruins_effect_tooltip_1: "당신은 로도스의 거상으로 짧은 여정을 떠나 [prestige|E]를 무작위로 얻습니다." # 2f558855406e07f76dff5307f3979b2b2ec76a41
+  RICE_rhodes_visit_colossus_ruins_effect_tooltip_2: "[THIS.Char.GetFaith.GetAdherentName] 신앙인이므로, 무작위량의 [piety|E]를 받습니다" # 0ef68aabeb13fb06e56c0460d2b162d48fb8f07f
+  RICE_rhodes_visit_colossus_ruins_effect_tooltip_3: "거인상에 영감을 받아 #P 영감을 얻을 수 있고, 여러 가지 다른 [character_modifiers|E] 중 하나를 얻게 됩니다." # e1f9fae0e457ca0c06fcaa243a6d9dd2796fe189
+  RICE_rhodes_visit_colossus_ruins_confirm: "거대한 신상에게!" # da79f753a829c5f7412a49f6cb44a8047cafb37c
+  RICE_rhodes_visit_colossus_ruins_context_tooltip: "#emphasis 역사적 배경:#! 고대 세계 7대 불가사의 중 하나였던 로도스의 거상은 태양신 헬리오스를 기리기 위해 280년경에 세워졌으며, 로도스가 안티고노스 왕조에 승리한 것을 기념하는 기념비적인 조각상이었습니다. 이 거대한 조각상은 226년경 지진으로 무너졌지만, 그 잔해는 여전히 많은 이들의 방문을 불러일으킬 정도로 인상적이었습니다. 중세 연대기 작가들에 따르면, 이 조각상의 잔해는 653년 로도스의 이슬람 침공 당시, 후에 우마이야 칼리파가 될 무아위야가 이끄는 아랍군에 의해 파괴되었습니다." # a10ea63a9880b41ab1c631d5e2cd0b7381b23c76
+  RICE_decision_rhodes_colossus_distance_req: "[realm_capital|E]은 로도스와 가깝습니다." # a7d6d7b4de1561e6a905604366d839899cfee50e
+  RICE_rhodes_erect_hippocrates_monument: "히포크라테스 기념비 건립" # 4034caed2303d0d19ab5a871bf7256ca16436f12
+  RICE_rhodes_erect_hippocrates_monument_tooltip: "의학의 아버지는 존경받을 자격이 있습니다." # fff6c42306723d7eed95a1d97213a4f05bf6d71d
+  RICE_rhodes_erect_hippocrates_monument_desc: "로도스에서 북쪽으로 조금 떨어진 코스 섬에는 위대한 고대 치료사 히포크라테스가 가르침을 펼쳤다고 전해지는 큰 나무가 있습니다. 그곳은 현재 제대로 관리되고 있지 않습니다. 의학의 아버지라 불리는 그를 기리기 위해 제가 그곳을 관리할 수도 있을 것입니다." # d67cfed2dde15585e8e024697fb6d4eb83035fb9
+  RICE_rhodes_erect_hippocrates_monument_effect_tooltip: "현지 주민들과 함께 히포크라테스 기념비를 세울 것입니다." # 5147874719c1f42d10cc42c4801cd99c9e53dd02
+  RICE_rhodes_erect_hippocrates_monument_confirm: "위대한 치료사는 위대한 기념비에 합당합니다." # b254c9b21c0c9d15ab528288bad76bbe2e8e0498
+  RICE_rhodes_erect_hippocrates_monument_context_tooltip: "#emphasis 역사적 배경:#! 히포크라테스의 의사로서의 명성과 업적은 후대의 역사적 및 현대적 자료들에 의해 신화화된 부분이 많지만, 그는 여전히 의학사에서 전설적인 인물로 남아 있습니다. 그는 코스 섬에서 태어났으며, 전설에 따르면 그곳의 한 나무 아래에서 그의 의술을 가르쳤다고 합니다. 현재 그 자리에 있는 나무는 약 500년 정도 되었지만, 원래 나무의 자손일 가능성이 높습니다. 이 나무는 기사단이 세운 코스 성, 18세기 오스만 제국의 모스크, 그리고 오스만 총독이 세운 아랍어로 새겨진 흰색 수도꼭지와 인접해 있습니다." # 0e9af69c43eb12b4d62772dfb5a8cef4c61e34a6
+  RICE_rhodes_renovate_kassia_tomb: "카시아의 무덤 개조" # 79fdd70a6bd10c94ac80328cf578ceb001249d96
+  RICE_rhodes_renovate_kassia_tomb_tooltip: "그렇게 훌륭하고 신성한 여성이라면 마땅히 훌륭한 매장지에 묻혀야 합니다." # 7a31c8f16ccdd31d435dfb41f927efcbc0d9a161
+  RICE_rhodes_renovate_kassia_tomb_desc: "카시아는 수녀원장이자 당대 가장 주목할 만한 여성 중 한 명이었으며, 로도스 남서쪽의 카소스 섬에 묻혀 있으며 일부 지역 주민들은 이미 그녀를 성인으로 대우하고 있습니다. [ROOT.Char.GetFaith.GetAdjective] 교회에서 공식적으로 그녀를 인정하지 않는다고 해서 그녀와 그녀의 업적을 기리기 위해 그녀의 무덤을 개조할 수 없는 것은 아닙니다." # a0074142c62de92d87082e16d34123c4482e9fd7
+  RICE_rhodes_renovate_kassia_tomb_confirm: "놀라운 여성, 놀라운 삶입니다." # 1bdf12153a8992d89262161ae3938ed493f718f3
+  RICE_rhodes_renovate_kassia_tomb_context_tooltip: "#emphasis 역사적 배경:#! 카시아, 혹은 카시아니로도 알려진 카시아는 9세기 비잔티움의 수녀원장이자 성녀, 찬송가 작곡가, 시인이었으며, 서방 음악 역사상 처음으로 이름이 기록된 여성 중 한 명입니다. 그녀의 찬송가는 오늘날에도 정교회 예배의 중요한 핵심을 이룹니다. 전설에 따르면, 그녀는 대단한 미모와 지성을 가졌으며, 황제 테오필로스는 그녀의 자존심을 상하게 한 후 그녀를 후궁으로 삼으려는 시도를 포기했습니다. 아이러니하게도, 카시아는 성상숭배론자였던 반면, 테오필로스는 성상파괴론자였습니다. 그녀는 결국 카소스 섬에 정착하여 9세기 후반 어느 시기에 세상을 떠났습니다. 그녀는 훨씬 후대에 성녀로 추앙받게 되었고, 그녀의 무덤은 아직도 카소스 섬에 남아 있습니다." # e3b9317912e55ccb90957acb276c5708bc4b1e74
+  rhodes.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0001.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0001.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0002.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0002.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0002.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0003.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0003.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0003.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0004.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0004.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0004.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0005.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0005.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0005.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0006.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0006.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0006.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0007.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0007.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0007.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0008.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0008.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0008.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0009.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0009.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0009.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0010.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0010.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0010.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0011.t: "카시아 사망" # 2cc6581296193e5a08c5b8fa71d0346f1c6f4012
+  rhodes.0011.desc: "[카시아_오브_카소스.GetFullName], 유명한 [카시아_오브_카소스.GetCulture.GetName] 수녀, 시인, 찬송가 작곡가, 그리고 기독교 정통을 굳게 지킨 옹호자로 알려진 분이 세상을 떠나셨습니다. 생전에 그녀는 뛰어난 지성, 아름다움, 재능, 그리고 경건함으로 유명했습니다.\n\n[카시아_오브_카소스.GetFirstName]은 생애 후반을 카소스 섬에서 보냈는데, 이 섬은 [로도스_카운티.GetNameNoTier] 남서쪽에 위치해 있습니다. 그녀는 거기서 묻힐 것이며, 흥미롭게도 이미 일부 지역 주민들은 그녀를 성인으로 여기고 있습니다." # a656ffb39b31580cae82afec51cf5b791e8560a6
+  rhodes.0011.a: "이해했습니다…." # 1b31e3f713977663dbf2aef8a90d11c54dc769b0
+  rhodes.0011.tooltip: "[rhodes_county.GetNameNoTier]의 [ruler|E]가 이제 #EMP 카시아의 무덤 개조# [decision|E]을 할 수 있습니다!." # 8346dff1fd5e4fc5393894310e323fbfcf3d9ba1
+  rhodes.0012.t: "카시아의 무덤" # f805e7f8670f37fb8d3e05d5c7aabb4db03c2f8e
+  rhodes.0012.desc: "[kassia_of_kasos.GetFullName]은 더 이상 이 세상에 없지만, 그녀의 영향력과 명성은 여전합니다. 당대 최고의 찬송가 작가이자 시인, 교회의 수호자 중 한 명이었던 그녀는 뛰어난 지성과 열정을 지닌 수녀원장이자 수녀였습니다. 그녀는 [rhodes_county.GetNameNoTier] 남서쪽에 위치한 작은 섬인 카소스 주민들 사이에서 지역 성인으로 여겨지며, 카소스를 넘어 이 지역 전역에서 전설적인 인물입니다.\n\n그녀의 기억을 기리는 것은 당연한 일입니다. 그러므로 저는 카소스에 있는 그녀의 무덤을 개조하는 데 자금을 제공하여 그녀와 같은 성스러운 인물에게 더 어울리도록 할 것입니다." # d629a455154cfc9e74be734c5bb7f4a78a618bec
+  rhodes.0012.a: "그녀가 하늘에서 우리를 계속 지켜보시기를." # 2b3da742fbb7b452e65bfebf057e4d8ac4f1cf2d
+  rhodes.0013.t: "의학의 아버지" # 8255373869da75f1052c1372aca9663eb871e500
+  rhodes.0013.desc: "고대 위대한 의사인 히포크라테스는 [rhodes_county.GetNameNoTier] 북쪽에 있는 코스 섬에서 태어났다고 합니다. 그곳에는 이 유명하고 저명한 치료사가 한때 신성한 기술을 가르쳤다고 하는 바로 그 나무가 있다고 합니다.\n\n히포크라테스는 오늘날에도 존경받을 만한 사람이기에 저는 어떻게든 “의학의 아버지”를 기려야 한다고 생각했습니다. 저는 마침내 그 나무 주변에 작지만 가치 있는 기념비를 세우기로 결정했습니다. 히포크라테스가 앞으로도 여러 세대에 걸쳐 서로를 치료하고 돕도록 영감을 주길 바랍니다." # 35c781a1ea5a3558ae5da1ec5e9c7441af92c201
+  rhodes.0013.a: "만약 내가 그를 직접 만날 수만 있었다면!" # 8dc892e23b17a4859f7eaa12cc69243e3844c441
+  rhodes.0014.t: "칼림나 해면" # af62491200d774575ff1344bfff4b02769d61455
+  rhodes.0014.desc: "[rhodes_county.GetNameNoTier] 북쪽에 있는 칼림노스 섬은 고대부터 해면 수출의 주요 거점으로 명성을 떨쳐 왔으며, 해면을 구하기 어렵다는 점을 고려할 때 해면 무역은 섬에 많은 부를 가져다주었습니다. 어쨌든, 제가 섬을 통제하고 있으므로 [recipient.GetTitledFirstName] 님에게 유명한 칼림노스 해면을 선물로 드리기로 했습니다. 높은 품질과 지위는 적절한 선물이 될 것이라고 확신합니다." # 5bca99c2caf01a1826aa2eeda7dd4f04f8f8dd50
+  rhodes.0014.a: "[recipient.GetSheHe]께서 저 스펀지들을 잘 사용하시길 바랍니다!" # 23e61785ed9c21ccfcb6d8138806103e4e6ecd9f
+  rhodes.0015.opening: "[actor.Custom2('AppropriateGreeting', ROOT.Char)]" # b535f9470a86cd812a65daad64bf1427aeb0949e
+  rhodes.0015.desc: "[rhodes_county.GetNameNoTier] 북쪽의 칼림노스 섬의 통치자로서, 저는 이 편지와 함께 섬의 재능 있는 잠수부들이 수확한 고급 해면을 선물로 드리고자 합니다. 칼림노스 해면은 전 세계적으로 품질이 뛰어나기로 유명한 고급 제품이므로, 귀하와 같은 지위에 있는 분에게 어울리는 선물이라고 생각했습니다. 부디 유용하게 사용하시길 바랍니다!" # a0c34f409aa0fd6f318d62baec6e38be9bb21587
+  rhodes.0015.a: "정말 사려 깊은 선물이네요." # 59ecbac0c923e118779cc7f4595928316f0d257e
+  rhodes.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0020.t: "준비" # ffb7b66372898902e8cf7eca0025b21a011c84d7
+  rhodes.0020.desc: "로도스의 거상은 더 이상 서 있지 않지만, 여전히 많은 사람들이 [rhodes_barony.GetNameNoTier]에 와서 그곳을 방문하고 남은 것을 경외하며 바라봅니다. 그것은 인간 공학의 놀라운 업적이며, 그 폐허조차도 경이로운 광경입니다!\n\n저는 가까운 미래에 직접 그곳을 방문하여 이 고대 기념물을 보고 감탄할 계획입니다. 결국, 세계 7대 불가사의 중 하나인 이런 위대한 조각상을 우리와 함께 있을 때 보는 것이 가장 좋습니다." # e9dd1bbc2b183deb1bb2b0728a54b43f445d4420
+  rhodes.0020.a: "가까이서 폐허를 볼 생각에 너무 기대돼요!" # 496e1a42f21710dd9ef81d0ce298fb1e7f575c28
+  rhodes.0021.t: "거상" # cedcb7fd7f0356c56ab723611f840f58ad2ddc93
+  rhodes.0021.desc: "[rhodes_barony.GetNameNoTier] 해변에서 멀지 않은 곳에 있는 로도스 거상의 유적지에 도착했습니다. 무릎이 부러진 조각상을 보니, 그 잔해가 받침대 주위에 놓여 있지만, 이것조차도 인상적입니다. 조각상의 엄지손가락을 감싸 안을 수 있는 사람은 거의 없으며, 유적 옆에 서 있자니 너무나 작게 느껴집니다.\n\n조각상을 둘러보면서 조각상 건설에 대한 전설을 생각해 봅니다. 어떻게 적 침략자에 대한 승리에 감사하며 로도스의 주신인 헬리오스에게 헌정되었는지 말입니다. 하지만 여기 저는 수 세기 후, 다른 많은 사람들처럼 전성기에는 어떤 모습이었을지 궁금해하며 있습니다." # 09865c4bb750ddf014da837d5b32d65696f3e960
+  rhodes.0021.a: "이 조각상은 로도스의 명성과 명성을 확립했습니다!" # af4b3dc11f4f3aa7213d333879c593c3db0d4255
+  rhodes.0021.a.tooltip: "당신은 고대 세계에서 콜로서스의 명성을 되새기며 #P 영감#을 얻을 기회가 있습니다! 이 기회는 당신의 [diplomacy_skill|E] 및 현재 [diplomacy_lifestyle|E]을 보유하고 있는지 여부에 따라 달라집니다." # 310134a31d2edf642e091ad0333c99df4c1c3861
+  rhodes.0021.a.toast.tooltip: "거인상이 당신을 고무시킵니다!" # 03dfae7fb7f1035c5179810b2cf9ef3f1aa14b0b
+  rhodes.0021.b: "고대 로도스인들은 용감한 병사였음에 틀림없습니다." # 77b4c8ff7b4b11e31222817a69c819c1b5d7cb77
+  rhodes.0021.b.tooltip: "당신은 로도스가 적들에 맞서 싸운 용기를 되새기며 #P 영감#을 얻을 기회를 얻습니다. 이 기회는 당신의 [martial_skill|E]과 현재 [martial_lifestyle|E]을 가지고 있는지 여부에 따라 달라집니다." # 3aab9980e02afd38c5cb00d9f851baea2452f1f2
+  rhodes.0021.b.toast.tooltip: "#italic historical context:# \n \n #F The 'Italienzug', or Italian Campaign, was a series of campaigns undertaken by the Holy Roman Emperors of the Ottonian and Salian dynasties in the 10th and 11th centuries, to exert their control over the Kingdom of Italy. The city of $rhodes$ was frequently the site of imperial fleets during these attempts. #!" # 5036d65108ea8d7c3b8d4a471dcb90f25973454a
+  rhodes.0021.c: "이걸 건설하는 데 어떤 기술을 사용했을까?" # 1b315b22cfa86803a3d50b4a2e31c1d19349e925
+  rhodes.0021.c.tooltip: "#P 영감#을 얻을 기회가 있습니다! 콜로서스를 건설하는 데 사용된 공학을 되돌아보면서 말이죠. 이 기회는 당신의 [stewardship_skill|E]과 현재 [stewardship_lifestyle|E]을 가지고 있는지 여부에 따라 달라집니다." # 52b32ddee1e09153417e4d00b730e4ddc2de69d9
+  rhodes.0021.c.toast.tooltip: "#italic historical context:# \n \n #F The 'Italienzug', or Italian Campaign, was a series of campaigns undertaken by the Holy Roman Emperors of the Ottonian and Salian dynasties in the 10th and 11th centuries, to exert their control over the Kingdom of Italy. The city of $rhodes$ was frequently the site of imperial fleets during these attempts. #!" # 5036d65108ea8d7c3b8d4a471dcb90f25973454a
+  rhodes.0021.d: "이 지진으로 무너진 건 정말 무서웠겠어요." # 99b44273a207a3e4192ef08209a1902417f258f2
+  rhodes.0021.d.tooltip: "지진으로 인한 콜로서스 파괴를 되새기며 #P 영감#!을 얻을 기회가 있습니다. 기회는 당신의 [intrigue_skill|E] 및 현재 [intrigue_lifestyle|E] 보유 여부에 따라 달라집니다." # 1d77c64de818538429819ba7aa12b5085dbfa6c4
+  rhodes.0021.d.toast.tooltip: "#italic historical context:# \n \n #F The 'Italienzug', or Italian Campaign, was a series of campaigns undertaken by the Holy Roman Emperors of the Ottonian and Salian dynasties in the 10th and 11th centuries, to exert their control over the Kingdom of Italy. The city of $rhodes$ was frequently the site of imperial fleets during these attempts. #!" # 5036d65108ea8d7c3b8d4a471dcb90f25973454a
+  rhodes.0021.e: "그 조각상은 현재 우리에게 무엇을 영감으로 주는가?" # c55b3da09e150e83ac6cdc28c9ca0f03958603fd
+  rhodes.0021.e.tooltip: "현재의 콜로서스의 유산을 되돌아보는 동안 #P 영감#을 받을 기회가 있습니다. 이 기회는 당신의 [learning_skill|E]과 현재 [learning_lifestyle|E]을 가지고 있는지 여부에 따라 달라집니다." # 10e8a649532e3f50abbd04d4cc5c80f3c76a99c2
+  rhodes.0021.e.toast.tooltip: "#italic historical context:# \n \n #F The 'Italienzug', or Italian Campaign, was a series of campaigns undertaken by the Holy Roman Emperors of the Ottonian and Salian dynasties in the 10th and 11th centuries, to exert their control over the Kingdom of Italy. The city of $rhodes$ was frequently the site of imperial fleets during these attempts. #!" # 5036d65108ea8d7c3b8d4a471dcb90f25973454a
+  rhodes.0022.t: "거상들의 그림자" # 9d9ec26302144c6aceb0ea1b590953069297b24d
+  rhodes.0022.desc.has_rhodes: "로도스 섬을 다스리고 있지만, 실제로 콜로서스를 방문할 기회가 매일 있는 것은 아닙니다. 시간을 내서 방문한 것은 좋은 생각이었죠." # 4e55b9acec3515948d76eb14d214dd20a1051fa5
+  rhodes.0022.desc.no_rhodes: "로도스 여행이 끝나가고 있습니다. 제가 목격한 심오한 것들을 생각하며 한숨만 쉴 수밖에 없습니다. 이번 여행을 가기로 결정한 것이 기쁩니다." # 66551ffcc74fb83e3fdc277f1df20ae2bf1aaab9
+  rhodes.0022.desc: "나는 주위를 둘러보았고, 멀리서도 콜로서스의 폐허 일부를 볼 수 있었다. 가까이에서 보는 것은 숨 막힐 듯한 경험이었다. 그 조각상은, 폐허가 된 상태에서도 세계의 불가사의 중 하나로 여겨질 만하다!" # d09178ba01c556c724f61ae960d555b42a5fbb58
+  rhodes.0022.a: "어떤 면에서 여전히 거인의 그림자 아래 있는 것 같습니다." # 8b4ffa11c0c6aaebe20daae4891c7763e878ecee
+  rhodes.0023.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0023.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0023.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0024.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0024.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0024.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0025.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0025.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0025.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0026.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0026.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0026.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0027.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0027.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0027.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0028.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0028.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0028.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0030.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0030.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0030.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0031.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0031.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0031.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0032.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0032.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0032.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0033.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0033.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0033.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0034.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0034.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0034.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0035.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0035.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0035.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0036.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0036.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0036.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0037.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0037.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0037.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0038.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0038.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0038.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0039.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0040.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0040.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0040.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0041.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0041.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0041.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0042.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0042.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0042.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0043.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0043.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0043.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0044.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0044.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0044.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0045.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0045.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0045.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0046.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0046.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0046.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0047.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0047.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0047.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0050.t: "칼리테아" # c4a2fce0d187bb9424194e344e8a0ee11b3bbf7b
+  rhodes.0050.desc: "오늘 저는 [rhodes_county.GetNameNoTier]의 작은 마을인 칼리테아에 있습니다. 저는 특히 이곳의 샘을 방문하고 있습니다. 의사 히포크라테스는 이 물이 훌륭한 약효를 가지고 있다고 주장했다고 합니다." # 61e3f3a5f7deb023cd5c1cdddce51c8ee5a9a724
+  rhodes.0050.a: "아... 휴식이야말로 내가 필요했던 것이지." # 5d0d48b432d966bcd35eb1cdf4413cf1dc343c50
+  rhodes.0051.t: "필레리모스" # 4b8ad51e7517d2d377cae2382f288dad0a369353
+  rhodes.0051.desc: "저는 고요한 소나무 숲 사이에 자리 잡은 [rhodes_county.GetNameNoTier] 섬의 언덕 위인 필레리모스에 도착했습니다.\n\n이 지역은 전략적 요충지이자 휴식 장소로 수세기 동안 많은 사람들이 방문해 왔습니다. 이곳에는 작은 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetFaith.HouseOfWorship]과 작지만 강력한 작은 요새, 그리고 지역 귀족들이 나무 그늘 아래에서 휴식을 취하러 오는 여러 저택이 있습니다.\n\n놀랍지 않게도, 이 모든 건물은 수세기 전의 오래된 건물에서 나온 돌과 대리석을 사용하고 있습니다." # 0c87715268482b40a2bb57b625feae89ea1fcaac
+  rhodes.0051.a: "이 아름다운 곳에서 기도하며 시간을 보내는 것은 좋은 생각입니다." # 9b2848189c4274336664d0be0df85ed9b604c06a
+  rhodes.0051.b: "요새의 방어력이 어떻게 유지되고 있는지 확인하러 요새를 점검하겠습니다." # 451a9e6f252db0e2f87f6e81529c918755aaf61f
+  rhodes.0051.c: "그 저택에서 평판이 좋은 다른 사람들과 함께 휴식을 취하는 것이 중요합니다." # ecb675be9a1cdf338055a07cfe7c904aa32f9b98
+  rhodes.0052.t: "바위 노두" # 8bf67a7149723fe52ca712ee7a03abca5bf58192
+  rhodes.0052.desc: "[rhodes_county.GetNameNoTier]는 항상 방어력으로 유명했습니다. 그러나 최근에 섬의 요새를 개선해야 할 필요성이 제기되었습니다.\n\n섬에는 다소 험준한 지형이 있는 지역이 있고, 그곳에는 버려진 요새의 오래된 폐허가 있습니다. 적절한 자원이 있다면 (약간의 어려움은 있겠지만) 돌과 나무를 경사면 위로 끌어올려 이 바위 노두에 새로운 작은 요새를 지을 수 있을지도 모릅니다." # f063009799482bec7a67b0231e156ae18ab12708
+  rhodes.0052.a: "네, 좋은 생각 같습니다." # a2afdb0ba41c307181f6785a8208b09d117e323d
+  rhodes.0053.t: "카파마스" # d2c9c82cb58e6fa6336f0da659d50792c2d8a5c4
+  rhodes.0053.desc: "저는 [rhodes_county.GetNameNoTier]에 사는 지역 귀족을 방문하여 섬에서 나는 여러 가지 맛있는 요리로 구성된 작은 잔치를 대접받았습니다. 잔치의 하이라이트는 쌀, 다진 고기, 양파 및 기타 허브와 향신료로 채워진 새끼 염소 고기인 로도스 #italic 카파마스#!였을 것입니다." # 6673d87fdacc90a03607b239eea4151d77814bba
+  rhodes.0053.a: "맛있어, 맛있어!" # 67390e387d2f9ca951ea30d341e72c10feb6a51c
+  rhodes.0054.t: "멜레쿠니" # 2d35296c0d989eced8ae3fba3783ce7851c66466
+  rhodes.0054.desc: "[rhodes_county.GetNameNoTier]의 여러 마을을 공식적으로 방문하는 동안, 제 안내인들은 #italic 멜레쿠니#!라는 참깨와 꿀로 만든 전통 로도스 과자를 제게 제공했습니다. 그것은 단순하지만 매우 훌륭하고 여행 중에 활력을 얻는 데 좋습니다." # ff56705c6a34ab02b534fdc3552393a8c3fe957f
+  rhodes.0054.b: "맛있고 #italic 건강해 보입니다!#" # 2ee9b3d8755141bd438cbdcacfd982fd61cb5ab1
+  rhodes.0055.t: "린도스 조사" # 762498b0acfbb063196a7d3fe8b711e351bc58fb
+  rhodes.0055.desc: "저는 현재 [rhodes_county.GetNameNoTier]의 린도스 아크로폴리스 요새를 정기적으로 시찰하고 있습니다. 이곳이 방어에 탁월한 위치이기 때문에 사람들이 수세기 동안 이곳을 요새화한 이유를 쉽게 알 수 있습니다. 여기에서는 고대와 현대의 구조물, 건축물, 예술 작품, 유적이 한곳에 자유롭게 혼합되어 있는 것을 흔히 볼 수 있습니다.\n\n저는 지금 현지인들에게 다소 유명한 랜드마크인 고대 로도스 삼단노선의 석조 부조를 지나고 있습니다. 린도스 아크로폴리스 기슭에 있는 이 아름답고 웅장한 예술 작품은 수세기 전에 조각되었으며, 여전히 비교적 온전해 보입니다." # 2ec41a8ac79735740f2e57b13100afe79354efb3
+  rhodes.0055.a: "저 또한 고대인들처럼 섬을 잘 방어하고 싶습니다." # 977db543b908147b7c2453ac6d64c40e786bdfd8
+  rhodes.0056.t: "아스프리 페트라" # 92a0d45da032eb65b977550ee174d2727da89dd1
+  rhodes.0056.desc: "코스 섬은 [rhodes_county.GetNameNoTier] 북쪽 약간에 위치해 있습니다. 공식적인 업무나 경치를 즐기기 위해 종종 방문하지만, 항상 갈 수 있는 건 아니죠. 오늘은 조금 모험을 즐기고자 마을을 벗어나 아스프리 페트라라는 돌굴과 암석 지형을 보기 위해 등산했습니다. 이곳을 찾는 사람이 많지 않아서 휴식을 취하기에 좋은 장소입니다." # d633a8e4d658d8c83ac2c6f2c9ee86d33497bf02
+  rhodes.0056.a: "이 모든 것이 영겁의 시간 동안, 이곳에 있었다고 상상해 보세요...." # 0d4869ab8d1c4f674706c354be0586337e6ee016
+  rhodes.0057.t: "아타비로스 산" # 9a860a566bde7fa32f7d4f6df577592b730d8a0f
+  rhodes.0057.desc: "[rhodes_county.GetNameNoTier] 섬에서 가장 높은 지점은 아타비로스 산으로 알려져 있습니다. 일부 지역 주민들에게는 영적으로 매우 중요한 장소로 여겨지며, 몇몇 용감한 사람들은 가끔 정상까지 힘든 여정을 감행합니다. 그곳에 가본 사람들에 따르면, 날씨가 좋은 날에는 정상에서 도데카니사 제도의 다른 많은 섬들을 볼 수 있지만, 일부는 크레타까지 볼 수 있다고 주장하는 것을 들었습니다." # 1f8cb7ec498f1f2662a54772095a05cd710e3627
+  rhodes.0057.a: "그것이 가능할지는 의문이지만, 좋은 곳이라는 건 확실하네요." # 54f7fd5b5ab1a8fc233038695448470a4cd31723
+  rhodes.0057.b: "거기에 갈 시간만 있다면 좋을 텐데! 분명 멋질 거야." # 259be24eaf0ae864e775f102f47759854afa908e
+  rhodes.0057.c: "거기에 잠시 소풍을 가는 건 어때요? 곧 갈게요!" # e08eaf04b5ea1da174651a8115f8a6a9c967ae6b
+  rhodes.0058.t: "칼림노스 해면 경제" # 534d15ce32c16b9cfd6fb5d9917245454a245f0a
+  rhodes.0058.desc: "[rhodes_county.GetNameNoTier] 북쪽 칼림노스에서 해면 채취꾼들이 수확한 해면은 전 세계적으로 유명하며, 항상 섬에 막대한 이익을 가져다줍니다. 그러나 최근에는 섬에서 평소보다 판매량이 줄어 해면 산업이 잘 되지 않고 있습니다." # 062f6d8e3bb07fcebb29e136ee159c173742c4e8
+  rhodes.0058.a: "그들에게 곧 좋은 변화가 있기를 바랍니다." # 68594abfa4259980a65a0966470790815b20026f
+  rhodes.0059.t: "칼림노스 해면 경제" # 534d15ce32c16b9cfd6fb5d9917245454a245f0a
+  rhodes.0059.desc: "[rhodes_county.GetNameNoTier] 북쪽의 칼림노스에서 해면 채취자들이 수확한 해면은 전 세계적으로 유명하며, 항상 섬에 큰 이익을 가져다줍니다. 그러나 최근에는 해면 산업이 평소보다 훨씬 더 잘 되고 있으며 더 많이 팔리고 있습니다." # 8a6ec0d4a7628ceac79d0592116412b7a2db94af
+  rhodes.0059.a: "지역 경제에 좋군요!" # adb2c9133b26c3d89bd09e4bfaa8a7b2c8511b13
+  rhodes.0060.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0060.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0060.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0061.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0061.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0061.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0062.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0062.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0062.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0063.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0063.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0063.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0064.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0064.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0064.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0065.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0065.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0065.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0066.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0066.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0066.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  rhodes.0052.b: "필요 없겠군요." # 335adbc24b3c45f1abf661995193c9f011ffea96
+  rhodes.0054.a: "괜찮습니다. 필요하지 않습니다." # c83f1f96a092236783ccdbecc19508db5a7a3013

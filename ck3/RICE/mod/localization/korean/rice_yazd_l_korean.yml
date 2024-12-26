@@ -1,592 +1,578 @@
 ﻿l_korean:
-	# Misc 
-	dynn_kharijite_bam: "바미" # cfaaa67f6159d675234a7d2938ebb349030cb3ef
-	dynn_sebuk_eri: "세뷔케리드" # d48b82543be1db098dadf29c89343b575b360ad7
-	dynn_abd_al_rahman_kharijite: "카루키" # 8340bdee68e32152f0aa19b72be1e8aa95478879
-	dynn_akhdarid_kharijite: "아크다리드" # a5282ec1fc30548ddb70ac25253492001c2f7f9e
-	dynn_uzayr_bin_al_sari: "알사리" # 4f1adb4bbbcb09235debc1095eeace80d8ffbc2d
-	Akhdar: "아크다르" # 5569e673097c9ab819b4d7e43262d9ff71ee7545
-	Uzayr: "'우자이르'" # abe754271cabe538e72e6564aabd9ca5509f4bd8
-	RICE_sebuk_eri: "세뷔크에리" # 375b3007655c98f3de0091f450567fa3c3ec3e8d
-	innovation_RICE_qanats: "카나트" # a9f6462c5cb4ba2d0522499c4fb540bfcc26d091
-	innovation_RICE_qanats_desc: "중동과 북아프리카의 많은 지역에는 물이 가장 필요한 곳으로 물을 운반하도록 설계된 특수한 운하와 지하 수로망이 있습니다. 카나트, 포가라, 카리즈 등으로 알려진 이러한 공학적 업적은 고대 페르시아 시대부터 존재해 왔습니다." # e10995ff4e6566ab0cc744c6b607cdb987b7ba61
-	RICE_yazd_qanat_decision_unlock: "#V [결정|E]을 내려 #V $RICE_yazd_build_a_new_qanat$#! 할 수 있습니다" # ad47548adb1564a4a5d7bcdd84ee9765ed7f6829
-	RICE_yazd_jays_al_sorat_spawn_event_troops: "제이쉬 알-쇼라트" # b28494216e9572bf3efdabb7a40ca40f2d3a1b31
-	RICE_qanat_region: "카나트 기술을 활용하는 지역" # cdd3b616ddab4d2be8491463c28b19deb0085623
-	RICE_every_persian_turkic_county: "$heritage_turkic_name$ [heritage|E] 문화권인 [GetGeographicalRegion('world_middle_east_persia').GetName] 내에서 당신이 [완전하게 통제|E]하는 모든 [백작령|E]" # 99b236ac164fa0926d17d3d68daa0d11d50e4d25
-	RICE_dynn_ibn_rusta: "이븐 루스타" # 02f0f8b640d29cc323496434bc373279500e4ca2
-	RICE_dynn_yaqubi: "야쿠비" # 9b361826ebf742e674eed67c26f3e530f8b2aaf3
-	innovation_RICE_yakhchals: "야크찰" # 21804a9bf16984974c58f0930b8c46b2bfe1a220
-	innovation_RICE_yakhchals_desc: "고대부터 이란 고원, 특히 건조한 기후에 사는 사람들은 [Glossary( 'Yakhchals', 'YAKHCHAL_GLOSS' )]로 알려진 얼음 창고를 사용했습니다. 이것은 음식을 보존하거나 소르베 또는 차가운 와인과 같은 냉각된 요리를 준비하기 위해 장기간 동안 얼음을 저장하도록 훌륭하게 설계되었습니다." # 5e3fa6d0a9ad108284fe92cde51a693716477def
-	RICE_yakhchals_decision_unlock: "이 [문화|E]의 [수도|E] 또는 [거주지|E]를 가진 [통치자|E]를 위해 [결정|E] $RICE_yazd_purchase_yakhchal_ice$을 해제합니다." # 0d0e173622559ddf43d58b9c2254772763ce6a94
-	# Game Concepts 
-	# Aspirations 
-	RICE_yazd_aspiration_qawurd_desc: "#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$[GetTitleByKey('e_persia').GetNameNoTier]의 [ruler|E]가 되십시오.\n$EFFECT_LIST_BULLET$[GetTitleByKey('k_persia').GetNameNoTier]와 [GetTitleByKey('k_mesopotamia').GetNameNoTier]를 [completely_control|E]하십시오.\n$EFFECT_LIST_BULLET$$heritage_turkic_name$ [heritage|E]의 [culture|E]를 유지하십시오.\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET##V 500#! [GetMaA('horse_archers').GetName] [special_troops|E]를 받습니다.\n$EFFECT_LIST_BULLET$[GetGeographicalRegion('world_middle_east_persia').GetName]에서 통치하는 모든 [county|E]가 $heritage_turkic_name$ [heritage|E]의 [culture|E]일 경우, @control_icon! #V [EmptyScope.ScriptValue('RICE_yazd_qawurd_aspiration_control_bonus')]#! [control|E]를 획득합니다.\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$알프 아르슬란과 그의 주요 후계자인 말리크 샤가 사망했는지 확인하십시오(보상: 각자 @prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#!, 직접 둘 다 죽인 경우 @prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#!)." # 9b7253bd8fd20d5712434aa864b97e6fb49285b8
-	RICE_yazd_historical_aspiration_action_qawurd: "#italic It is a disgrace that you do not rule over the Seljuk Empire, even though you are the most senior Prince of your family. You wish to return the Seljuks to the old traditions and gain the throne that is rightfully yours.#!$RICE_yazd_aspiration_qawurd_desc$" # null
-	RICE_yazd_historical_aspiration_modifier_desc_qawurd: "[GetModifier('RICE_yazd_aspiration_claim_seljuk_throne').GetNameWithTooltip]" # 84a714bfbda6b4266a0a8ba9263b7c7151f86e89
-	# Memories 
-	RICE_yazd_sadeh_festival_host_memory: "[GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName] 축제를 기념했습니다" # ce1f3c825e63445599995d9793c2f21458e2b20b
-	RICE_yazd_sadeh_festival_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName]를 축하했습니다" # 2285b4c782d03aa64e264bfc12f3d9a71bfa5146
-	RICE_yazd_sadeh_festival_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName]을 기념했습니다." # 00e1e5aa55901e29eff324986077aa17f2b2d0f1
-	RICE_yazd_sadeh_festival_host_memory_third_perspective: "[owner.GetName]님이 [GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName]을(를) 기념했습니다" # d5a655b9ca661d5d7f1a057f0c57fbfbe7d5d268
-	RICE_yazd_sadeh_festival_guest_memory: "[GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName]를 [host.GetTitledFirstName]와 함께 축하했습니다." # 43563650d5321bbf43341ca146cfb2a9c51f5ba5
-	RICE_yazd_sadeh_festival_guest_memory_first_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName]를 축하했습니다" # b774e94ef8f88eae0cd2527e92ec7ce394098c01
-	RICE_yazd_sadeh_festival_guest_memory_second_perspective: "[host.GetTitledFirstName] 님과 함께 [GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName] 축제를 축하했습니다" # 19721c6653dbefd7e738c2b90b1ba52ebc66667b
-	RICE_yazd_sadeh_festival_guest_memory_third_perspective: "[owner.GetName]이 [host.GetTitledFirstName]과 함께 [GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName]을 축하했습니다" # c00abb019337fde038fc55e66719a2f8896fdf9e
-	# Activities 
-	activity_yazd_sadeh_festival_host_an_a: "$host_activity_a$" # null
-	activity_yazd_sadeh_festival: "사데 축제" # dc89656e38291cac5756603ce71502876cf1748b
-	activity_yazd_sadeh_festival_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 사데 축제" # 320d8b4ac2b4571d90e56321cfce3a8d5e69d2e8
-	activity_yazd_sadeh_festival_chak_chak: "차크차크의 사데흐 축제" # 9a6039c5073d15a350c5692d6709a4b436562f33
-	activity_yazd_sadeh_festival_chak_chak_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 차크차크의 사데 축제" # 7b6418194dd49f4a0fc7d6cb691054ec19fe5554
-	activity_RICE_yazd_sadeh_festival: "사데 축제" # dc89656e38291cac5756603ce71502876cf1748b
-	activity_RICE_yazd_sadeh_festival_desc: "겨울의 추위가 온 땅을 휩쓸 때, 이란 세계의 전통적인 겨울 축제인 사데 축제가 열릴 때입니다." # a2c65e894641c8fe968fede0b06d2bfa874a548a
-	activity_RICE_yazd_sadeh_festival_selection_tooltip: "당신의 [capital|E]에서 성대한 사데 축제를 개최하십시오.\n\n$RICE_yazd_celebrate_sadeh_festival_context_tooltip$" # e58c313a25c3e6507023a0f62b8d3ee79f9c9b72
-	activity_RICE_yazd_sadeh_festival_host_desc: "\n$BULLET_WITH_TAB$[prestige_i] [위신|E]\n$BULLET_WITH_TAB$[piety_i] [신앙심|E]\n$BULLET_WITH_TAB$ [스트레스_손실_i|E] [스트레스|E] 감소\n$BULLET_WITH_TAB$ [GetModifier('RICE_yazd_recently_celebrated_sadeh').GetNameWithTooltip] [캐릭터_modifier|E]" # 5721df9ccf154c21ac846cb19a8c38fea54fc37b
-	activity_RICE_yazd_sadeh_festival_guest_desc: "$activity_RICE_yazd_sadeh_festival_host_desc$" # null
-	activity_RICE_yazd_sadeh_festival_province_desc: 
-	activity_RICE_yazd_sadeh_festival_destination_selection: "$activity_RICE_yazd_sadeh_festival_province_desc$" # null
-	activity_RICE_yazd_sadeh_festival_guest_help_text: "$activity_RICE_yazd_sadeh_festival$" # null
-	activity_RICE_yazd_sadeh_festival_predicted_cost: "온천 방문 비용은 선택한 [activity_options|E]에 따라 달라집니다." # 1f90912192fa10393a1549b25d7919678f52c08e
-	activity_RICE_yazd_sadeh_festival_conclusion_desc: "[GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName] 축제가 끝났습니다. 재미있고 편안한 경험이었습니다!" # 7decd8b8a2f6448351a1605150684bf3708013cf
-	RICE_yazd_sadeh_festival_type: "축제 유형" # e6d4cfb2413a390962e6d9f9de7bd6a98c2d91f1
-	RICE_yazd_sadeh_festival_type_modest: "소박한 축하" # b47cb80e836871b1b4c715d992875d712bb2bcfe
-	RICE_yazd_sadeh_festival_type_modest_desc: "$EFFECT_LIST_BULLET$ 당신의 [court|E]에서 소박하고 평범한 사데 축제가 열릴 것입니다.\n$EFFECT_LIST_BULLET$다른 행사에서 얻는 축복 외에 추가 [prestige_i|E] #V 50#!을 얻습니다.\n\n#weak 사데는 중요한 축제 기간이지만, 과도하게 흥청망청하지 않도록 주의하고 검소하게 축하해야 합니다.#!" # 87945cbdc210ae0225bec7437010153b8df1c660
-	RICE_yazd_sadeh_festival_type_grand: "대규모 축제" # f5880c12a5874f61c0d202acb365657621227080
-	RICE_yazd_sadeh_festival_type_grand_desc: "$EFFECT_LIST_BULLET$ 올해 사데 축제를 위해 [court|E](이)가 더 많은 자원을 소비합니다.\n$EFFECT_LIST_BULLET$ 다른 이벤트에서 얻는 보상 외에 [prestige_i|E] #V 150#! 추가 획득\n\n#weak 사데는 1년 중 가장 추운 시기입니다. 악과 어둠을 몰아내기 위해 이 행사는 정말 축제 분위기여야 합니다!#!" # e9328e9264261b97c472cfdfc0229371e10f999f
-	RICE_yazd_sadeh_festival_type_chak_chak: "착착 축하하다" # 9876ef054b0a0977f707b501d68ca6bb3b753c94
-	RICE_yazd_sadeh_festival_type_chak_chak_desc: "$EFFECT_LIST_BULLET$ 당신의 [court|E]는 [GetTitleByKey('c_yazd').GetName]의 차크차크에서 사데 축제를 개최합니다.\n$EFFECT_LIST_BULLET$ 다른 보너스 외에 추가 [piety_i|E] #V 150#! 획득\n$EFFECT_LIST_BULLET$ 일반 [modifier|E] 대신 [GetModifier('RICE_yazd_recently_celebrated_sadeh_chak_chak').GetNameWithTooltip] 획득\n$EFFECT_LIST_BULLET$ $yazd.0030.chak_chak.tooltip$\n\n#weak 특별한 [GetPlayer.GetFaith.GetReligion.GetAdjective] 의식이 사데 기간 동안 차크차크에서 거행됩니다. 우리가 [GetPlayer.GetFaith.GetAdherentNamePlural]로서 우리의 헌신을 증명하려면 가능한 한 의식에 참여해야 합니다!#" # d15976b45eb76729ab1ab71df7c05532271a7922
-	RICE_yazd_sadeh_festival_festival_phase: "축제" # 9f8f3e5fcd08ed686abc7d3496b40d92f2b4aa57
-	RICE_yazd_sadeh_festival_festival_phase_desc: "사데흐 축제가 한창입니다!" # 70035bb06f2c6c020cb73555b18967d35e018127
-	RICE_yazd_sadeh_festival_fun_intent_header: "재미:" # 322fbf035e859eb1e143af11523f4fd20da7a848
-	RICE_yazd_sadeh_festival_fun_intent: "재미" # 5f941ab65fbabe87f41cd73c9136f5a4c97087e8
-	RICE_yazd_sadeh_festival_fun_intent_desc: "사데에서 즐거운 시간을 보내고 싶으실 겁니다. [스트레스|E]를 반드시 잃을 것이며, [GetTrait('gregarious').GetName( GetNullCharacter )] 또는 [GetTrait('gluttonous').GetName( GetNullCharacter )]라면 더 많은 스트레스를 잃게 될 것입니다." # e4064c8b743395c7df12ddad9656c07c61795c81
-	RICE_yazd_sadeh_festival_spectacle_intent_header: "구경거리:" # 31cfd3ceac7162def4148f66bd4433b21680acab
-	RICE_yazd_sadeh_festival_spectacle_intent: "구경거리" # c947a52724f0bd6c943d7bcf5e65982d81d8eba0
-	RICE_yazd_sadeh_festival_spectacle_intent_desc: "사데를 통해 궁정의 위엄과 권력을 과시하고자 합니다. [GetTrait('ambitious').GetName( GetNullCharacter )|U], [GetTrait('diligent').GetName( GetNullCharacter )], 또는 [GetTrait('arrogant').GetName( GetNullCharacter )] 특성을 가진 캐릭터는 추가로 [stress|E]를 잃을 수 있습니다. [king|E] 및 [emperor|E] [rank|E] 캐릭터는 소량의 [grandeur|E]도 얻을 수 있습니다." # e3e977fe85ce59e5948cef7e4699c06d51bec513
-	RICE_yazd_sadeh_festival_poetry_intent_header: "시:" # 95be945f057f4364012dcbe8d2f844288e645842
-	RICE_yazd_sadeh_festival_poetry_intent: "시" # 4674e99addb91f6b978622eaea1b97fb5cabc488
-	RICE_yazd_sadeh_festival_poetry_intent_desc: "사데 축제 동안 영감을 얻거나 시를 쓰고 싶습니다. 시에 관한 이벤트가 발생하여 유익한 [modifier|E]를 얻을 수 있습니다. 또한 이 이벤트(일반적으로는 아님)를 통해 [prestige|E]와 [piety|E]를 얻게 됩니다." # f18be4eea1711283ea2c85d681a65151a934e1f6
-	RICE_yazd_sadeh_festival_zoroastrian_intent_header: "후마타, 후크타, 후바르슈타:" # 842a3cddf10fd30a625d268de83e7182ea530c6b
-	RICE_yazd_sadeh_festival_zoroastrian_intent: "후마타, 후크타, 후바르슈타" # eb87ce99a5cecc3a95acbfd9177e16e521da7056
-	RICE_yazd_sadeh_festival_zoroastrian_intent_desc: "당신은 올해의 중요한 시기 동안 좋은 생각, 좋은 말, 좋은 행동(#italic humata, hukhta, huvarshta#!)에 집중하고 싶어합니다. [GetTrait('zealous').GetName( GetNullCharacter )|U], [GetTrait('just').GetName( GetNullCharacter )], 또는 [GetTrait('honest').GetName( GetNullCharacter )] 특성을 가진 캐릭터는 추가 [stress|E]를 잃을 수 있습니다. 또한 획득하는 다른 [piety|E] 위에 #V 25#!의 [piety_i|E]를 추가로 얻을 수 있습니다." # f7b4956a1be12d252afa141c4f12b9d3bc87ea97
-	RICE_yazd_sadeh_festival_completed_log_title: "사데 축제 참여 완료" # f299fe3e17c2556f11acbea8d9ea7724669db9f1
-	RICE_yazd_sadeh_festival_completed_log: "[CHARACTER.GetShortUIName|U]이 사데 축제에 참여하는 것을 마쳤습니다." # c43d4715e84672fa9a1cc3229992ccf373c27cea
-	TRAVEL_NAME_FOR_activity_RICE_yazd_sadeh_festival: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_yazd_sadeh_festival$" # 7c786c6c5cd8830ca7c2398f80752af939ebd2cf
-	RICE_yazd_sadeh_festival_grand_cost_amount: "그랜드 사데 축제" # 779c75650032fc6f9aff546c8143cb95ef14d493
-	RICE_yazd_sadeh_festival_chak_chak_cost_amount: "차크차크의 사데 축제" # 9a6039c5073d15a350c5692d6709a4b436562f33
-	RICE_yazd_sadeh_festival_poetry_intent_req: "[GetTrait('poet').GetName( GetNullCharacter )] 또는 [GetTrait('scholar').GetName( GetNullCharacter )] [traits|E]가 있거나, 최소한 #bold [EmptyScope.ScriptValue('medium_skill_rating')|0]#! 이상의 [diplomacy|E] 또는 [learning|E] 능력 필요" # 6a5f2fccc0a21cd713c92c3b3a4b2845b053bca3
-	NOT_RICE_yazd_sadeh_festival_poetry_intent_req: "$RICE_yazd_sadeh_festival_poetry_intent_req$" # null
-	# \n$BULLET_WITH_TAB$Option to celebrate at Chak-Chak for extra bonuses if the host owns [GetTitleByKey('c_yazd').GetName] 
-	# Buildings 
-	building_type_RICE_yazd_arg_e_bam_01: "아르-에 바므" # 65293b2aa9d3d16acbe9105a6d4a8559f864be3b
-	building_type_RICE_yazd_arg_e_bam_01_desc: "밤의 성채는 세계에서 가장 큰 거주 건물이며, 수세기 동안 서 있었고 사산 왕조의 창시자인 아르다시르의 전설적인 적인 케르만의 하프트바드의 수도였던 인상적이고 난공불락의 요새입니다. 요새는 3겹의 벽으로 이루어져 있고 큰 해자로 둘러싸여 있습니다. 내부에는 상점, 예배당, 주택 등 자체적인 도시가 있습니다." # 8aa8ab84128e445e589b174645a3b0870ae4caba
-	building_RICE_yazd_arg_e_bam_01: "$building_type_RICE_yazd_arg_e_bam_01$" # null
-	building_RICE_yazd_arg_e_bam_01_desc: "$building_type_RICE_yazd_arg_e_bam_01_desc$" # null
-	# Modifiers 
-	RICE_yazd_saffarid_yaqub: "구리 세공인" # 0cc744db05a2addedae0c5b8ed93f2c4f04a9bcc
-	RICE_yazd_saffarid_yaqub_desc: "야쿱 이븐 알라이스는 이란에서 하와리즈파와 싸우는 여러 무리 중 하나를 이끌었던 군벌이 되기 전에는 한때 구리 세공인이었습니다. 따라서 더욱 고귀한 혈통을 가진 군벌과 왕자들은 그의 미천한 출신을 비웃을지라도, 그는 평범한 사람들과 어떻게 소통해야 하는지 알고 있으며, 그는 여전히 꽤 검소하고 수수하게 살고 있다고 합니다.\n수도가 어디에 있든, 그리고 자신의 [domain|E]에 아자리카 [counties|E]가 없더라도 #EMP 자이시 알 쇼랏#! 부대를 징집할 [decision|E]을 내릴 수 있습니다." # a6ba4296bc9883fc38a90b4ac7850768f045523a
-	RICE_yazd_saffarid_amr: "나귀 마부와 석공" # 8b4474a110047bfa836f84d6c2cb03a4577d5cde
-	RICE_yazd_saffarid_amr_desc: "그의 형제들과 마찬가지로, 아므 이븐 알라이스 역시 권력을 잡기 전에 미천한 출신이었으며, 검소하고 수수한 생활 방식으로 알려져 있습니다. 그는 당나귀 몰이꾼이나 석공이었다고도 합니다.\n\n수도가 어디에 있든, 그리고 [영지|E]에 아자리카 [백작령|E]이 없더라도 #EMP 자이슈 알쇼라트#! 부대를 징집하는 [결정|E]을 내릴 수 있습니다." # 4454153a4920a5eb5e59ba676a92027577553de3
-	RICE_yazd_saffarid_ali: "소박한 전사" # b927cc131b6f9ac6f6de22bb165577a41aeace39
-	RICE_yazd_saffarid_ali_desc: "그의 형 야쿠브만큼 유명하지는 않지만, 알리는 많은 전사들에게 널리 존경받고 있습니다. 그의 형제 야쿠브와 아므르처럼 그 역시 권력을 잡기 전에는 미천한 출신이었으며, 검소하고 수수한 생활 방식을 가지고 있습니다.\n\n수도가 어디에 있든, 그리고 자신의 [domain|E]에 아자리카 [counties|E]가 없더라도 #EMP 제이시 알쇼라트#! 부대를 징집하는 [decision|E]을 내릴 수 있습니다." # 5b7834a5028dcc744261862a48167d61dce414d2
-	RICE_yazd_saffarid_yaqub_reduce_fertility: "동기가 불분명한 아야르" # 9cf91df68866dd555940daacc0e9233078aa055c
-	RICE_yazd_saffarid_yaqub_reduce_fertility_desc: "야쿠브 이븐 알-레이스는 진정한 이슬람 신자로, 이단자와 이교도에 맞서 무엇이든 희생할 자가 될 것이라고 말하는 이들도 있고, 다른 이들은 그를 기회주의적이고 탐욕스러운 전쟁 영주, 많은 다른 영주들과 같다고 말한다.  또 다른 이들은 그가 숨겨진 카리지파 또는 우상숭배자로, 칼리프에 대한 적대감만으로 영감을 받는다고 주장한다.  과연 그의 진정한 충성은 어디에 있는가?" # 8d69329bb137b6444f8dd20c08f7222974f6ec0c
-	RICE_yazd_patrons_of_avicenna: "아비세나의 후원자" # a9a6730fe143e29a323c6c626c2e8664b0ccfa04
-	RICE_yazd_patrons_of_avicenna_desc: "위대한 카쿠이드 에미르, 알라 알다울라 무함마드는 비할 데 없는 천재이자 영향력을 지닌 이슬람 학자였으며, 심지어 그의 비방자들조차 인정하는 아비세나의 마지막 후원자였습니다. 아비세나는 극진한 존경을 받았으며, 1037년 서기 사망할 때까지 카쿠이드 궁정 신하로 섬겼습니다. 카쿠이드 가문은 이러한 전통을 이어받아 자신들이 통치하는 영토에서 문화를 발전시키고 학자와 예술가를 후원합니다.\n\n#V 야즈드의 편의 시설 및 기반 시설 확장#! 결정을 내리면 추가 [prestige|E]와 [dynasty_prestige|E]를 얻습니다." # 328faba49e5e1d77a65297d8f82429abb6cf25c6
-	RICE_yazd_sebuk_eri: "자불리스탄의 노예-병사" # d13233e0bdeb28c9c8ef218876dbadacf2ad74ca
-	RICE_yazd_sebuk_eri_desc: "세부크-에리는 사파르 왕조의 군벌 야쿠브 이븐 라이스의 준빌 영토 원정 중 포로로 잡혔습니다. 하지만 그 이후로 그는 유능한 군사령관임을 증명했습니다. 어쩌면 그의 야망이 그를 더 큰 영광과 권력을 추구하도록 이끌 수도 있을 것입니다...." # a05951445f50eea0e6502c9fe91e8ffafe0cc64d
-	RICE_yazd_abode_of_worship_ruler: "예배처 통치자" # 1e322a0cd8f30700c194fa5dd603fa702fcaacd6
-	RICE_yazd_abode_of_worship_ruler_desc: "야즈드는 #italic 다르 알-'이바다#!, 혹은 숭배의 거처로 널리 알려져 있습니다. 이곳은 많은 학자들을 끌어들이고, 이슬람교도, 조로아스터교도, 또는 다른 신앙을 가진 주민들의 종교적 헌신으로 유명합니다. 야즈드의 통치자로서, 이 인물은 따라서 이 지역의 믿음과 학문 문화로 인해 큰 이점을 얻습니다.\n\n#EMP 현재 야즈드를 통치하는 사람에게 이 [character_modifier|E]가 주어집니다#!" # 8c294052cad7bf210ed2ee6809aaacade595c520
-	RICE_yazd_city_of_windcatchers: "바람잡이 도시" # 2ae8111bf7ed694328c3b84e18f46cf0d388aee1
-	RICE_yazd_city_of_windcatchers_desc: "#italic 다슈트-에 카비르# 사막 가장자리에 위치한 야즈드의 특성상, 바람 포집기(자연 환기와 냉방을 제공하기 위해 공기를 가두어 통로를 만드는 높은 탑)는 도시 어디에서나 볼 수 있으며, 이로 인해 "바람 포집기의 도시"라는 별명을 얻게 되었습니다. 또한 이 도시는 거대한 카나트 수로망으로도 유명하며, 이곳의 카나트 제작자들은 이란에서 가장 숙련된 장인으로 알려져 있습니다. 전반적으로, 바람 포집기, 카나트, 아브 안바르 저수조, 야크찰 얼음 창고 등 야즈드의 기반 시설은 거주할 수 있을 뿐만 아니라 편안한 환경을 제공합니다.\n\n야즈드 [ruler|E]가 카나트를 건설하는 비용은 #V 카나트 건설 자금 지원#! [decision|E]을 내리면 감소합니다." # 18ead762af6ee2982d4d74001623f2e4d8896961
-	RICE_funded_qanat_small: "소규모 카나트 건설 자금 지원" # 6cad227d7743a6f00e14f838315416ace6f0480b
-	RICE_funded_qanat_small_desc: "이 인물은 최근 지역 주민들이 중동과 북아프리카에 널리 퍼져 있는 지하 수로인 카나트를 건설할 수 있도록 기부금을 기탁했습니다." # 4849e1a7bc9412cf438596793fdee65ae98c8906
-	RICE_qanat_constructed_small: "최근 건설된 소규모 카나트" # 96a74a3d2b75934bd33102471a6c6da5d6cc9ab8
-	RICE_qanat_constructed_small_desc: "지역의 유력자가 최근 이 지역에 새로운 카나트 수로 건설을 아낌없이 지원했습니다. 크기는 작지만, 건설된 지역 사회의 필요를 충족하는 데 도움이 될 것입니다." # df496c5f18ec6fd93a83523c8fc92922b1f80b1c
-	RICE_funded_qanat_medium: "중형 카나트 건설 자금 지원" # 542016d9560c50f28f114218c1f61e318f2a2299
-	RICE_funded_qanat_medium_desc: "$RICE_funded_qanat_small_desc$" # null
-	RICE_qanat_constructed_medium: "중간 크기 카나트가 최근 건설됨" # 3d45f657fd8eca10a77f696a6940c091e5e7ce3c
-	RICE_qanat_constructed_medium_desc: "지역 유력자가 최근 이 지역에 새로운 카나트 수로 건설을 후원했습니다. 규모가 적당하며, 건설된 지역 주민들에게 수년간 신선한 물을 공급할 것입니다." # 75c3d8abed644dffae319e36310e1d2d1c22e786
-	RICE_funded_qanat_large: "대형 카나트 건설 자금 지원" # 21de9c765fc89a98b7a7208fbf660c72a4dea660
-	RICE_funded_qanat_large_desc: "$RICE_funded_qanat_small_desc$" # null
-	RICE_qanat_constructed_large: "최근 건설된 대형 카나트" # adc1eb185c711fb8d66f160b16c41bd91f452bf9
-	RICE_qanat_constructed_large_desc: "지역의 유력자가 최근 이 지역에 새로운 카나트 수로 건설을 후원했습니다. 이 카나트는 꽤 크며, 오랫동안 건설된 지역 사회에 안정적이고 좋은 물 공급을 보장할 것입니다." # 1216ee4f412dfb9293f1b188026afc71106ca1bf
-	RICE_funded_qanat_grand: "거대 카나트 건설 자금 지원" # 8a8fb54e979301988d1709e8d41cc518f261c170
-	RICE_funded_qanat_grand_desc: "$RICE_funded_qanat_small_desc$" # null
-	RICE_qanat_constructed_grand: "대규모 카나트 최근 건설" # 1aee1cfdfff85c33c5667869ca75531239353ad5
-	RICE_qanat_constructed_grand_desc: "지역의 유력자가 최근 이 지역에 새로운 카나트 수로 건설을 후원했습니다. 이 수로만큼 큰 카나트는 많지 않으며, 지역 사회는 이 공공 사업 프로젝트에 매우 만족할 것입니다." # 0184527ac8551b46ebd2e42bc3386ea1071b18a1
-	RICE_yazd_recently_celebrated_sadeh: "최근 사데를 기념했습니다" # f322e07a1565b77e65ee17cb4d8dfb16d8427f4f
-	RICE_yazd_recently_celebrated_sadeh_chak_chak: "사데 기간에 최근 차크 차크 방문" # c7cd9d78e579c30752cede54c290c928fb8be608
-	RICE_yazd_kakuyid_reconciled: "이전 충돌 후 화해함" # 7ddef73e30acf571e90e0078fe94d0fae51e44a6
-	RICE_yazd_shrine_of_the_twelve_imams_recently_constructed: "다바즈다흐 이맘 최근 건설됨" # 5a1cffc50173e5bd0d9f3422c3a70bac43825825
-	RICE_yazd_shrine_of_the_twelve_imams_recently_constructed_desc: "다바즈다 임, 또는 열두 이맘의 성지는 야즈드에 있는 영묘로, 최근 이란 건축 혁신을 많이 활용했을 뿐만 아니라 매우 아름답고 경외감을 불러일으킵니다." # cf5824bc07595e53c578cf05a81918cd59dff1dc
-	RICE_yazd_constructed_shrine_of_the_twelve_imams: "다바즈다흐 이맘 건설 명령" # 00798fa8616a4f67e3a4add3c5aabbf577b9815a
-	RICE_yazd_constructed_shrine_of_the_twelve_imams_desc: "$RICE_yazd_shrine_of_the_twelve_imams_recently_constructed_desc$" # null
-	RICE_yazd_kerman_pistachios: "케르만의 피스타치오 농장" # e8fc37df389ec8bde44f34611fb5a459e50177fc
-	RICE_yazd_kerman_pistachios_desc: "케르만의 유명한 피스타치오는 도시 근처 농경지에서 재배되어 주요 수출품 중 하나입니다." # 4a8913cfe6a38d99e7db830cce775312b9c69617
-	RICE_yazd_qawurd_seljuk: "셀주크 고위 왕자" # 644ce3fe890199e274b67e17133d702bbb24eb24
-	RICE_yazd_qawurd_seljuk_desc: "차그리 베그의 장남이자 알프 아르슬란의 형인 야심만만한 카부르드는 셀주크인들 사이에서 많은 존경을 받고 있습니다. 공정하고 강력한 지도자로 칭송받는 그는 셀주크의 통치를 아라비아해를 넘어 오만까지 확장했습니다. 그는 셀주크의 왕좌를 자신의 타고난 권리라고 여기고 있다는 소문이 있습니다. 그는 연장자 우선의 전통적인 튀르크식 계승을 믿는 셀주크 사령관들 사이에서 꽤 인기가 있기 때문입니다.\n\n페르시아 제국에 대한 [unpressed_claim|E]을 가지고 시작합니다.\n알프 아르슬란에 대한 [opinion|E]이 낮고 그 반대도 마찬가지입니다." # d0ff7b709fc18a2c5b957f082df1afc42afe7180
-	RICE_yazd_alp_arslan_distrust_qawurd: "야심만만한 셀주크 왕자 장남에 대한 불신" # 2eb68e48cf0433877b3e7b7bae047a4a159bd2f9
-	RICE_yazd_qawurd_resent_alp_arslan: "셀주크 계승에 대한 반감" # 7ab606068cd713212f75ce34e0b09462bdee5685
-	RICE_yazd_treasure_reports: "전설적인 야즈드 보물에 대한 소문" # 327f564f74d450d2ff5cb87caf0cba42f71054a2
-	RICE_yazd_qanat_makers_contracts: "관개 수로 제작자 추가 계약" # f2490e5bb53009314be1907e534aabe7166e84b5
-	RICE_yazd_qanat_makers_contracts_desc: "야즈드의 카나트 건설자들은 이란에서 항상 최고로 여겨져 왔으며, 최근에는 지역 전체에서 평소보다 더 많은 작업을 계약받아왔습니다." # 47a81e80a00232f4a8f6126540ae4d7c48ffd65b
-	RICE_yazd_new_yazd_mosque: "야즈드에 새 예배당" # 63f9ac223f1d1e7f5a1eb131d2fc393ab92a3b2d
-	RICE_yazd_built_new_yazd_mosque: "야즈드에 새로운 예배당을 후원했습니다" # 597e43266c4d1b02a2d342843d80b5214b477476
-	RICE_yazd_new_yazd_mosque_muslim_opinion: "야즈드에 새로운 예배당 건설" # 12f096d3e719597f724165d8afda646641866551
-	RICE_yazd_new_yazd_mosque_zoroastrian_opinion: "야즈드의 조로아스터교 사원 대체됨" # da3dbe656e4db27511a2f8f521e5383909dcc663
-	RICE_yazd_built_house_of_worship: "야즈드에 예배당 건설" # a53fc630edc2bac319bd13571d177af107415a40
-	RICE_yazd_built_house_of_worship_desc: "이 캐릭터가 최근 야즈드에 새로 지어질 작은 예배당 건설을 후원하기 위해 자금을 지원했습니다. 이는 그 도시의 유명한 독실한 주민들의 영적 필요를 충족할 것입니다." # ee58e7b1e0b13debd81d834bd17ade5d3adef71d
-	RICE_yazd_built_school: "야즈드에 학습 기관 건설 완료" # 52e843adbe014426595c9a4d1b4100207644ced7
-	RICE_yazd_built_school_desc: "이 인물은 최근 야즈드에 새로운 소규모 학문 학교 건설을 후원하기 위해 자금을 지원했습니다. 이 학교는 도시의 명성을 이어갈 차세대 학자들을 교육할 것입니다." # 2df029815806871e9215d36fd28b499977115482
-	RICE_yazd_built_shrine: "야즈드에 영묘 건설" # 7c1bca01197da616cfa8872c1677301da4b62e87
-	RICE_yazd_built_shrine_desc: "이 캐릭터가 최근 야즈드에서 성인에게 바치는 작은 영묘를 새로 건설하는 데 자금을 지원했습니다. 이 위대한 분의 업적은 수년 동안 도시 사람들에게 영감을 줄 것입니다." # f33055d3d9334b7f133338838325dd4df896317b
-	RICE_yazd_silk_boom: "야즈드산 비단 수요 증가" # 13882508e0367d8a13e8440fdc302882ff74a119
-	RICE_yazd_baklava: "야즈드에서 바클라바 먹기" # 835ee62ca318b095d49a3212c668ce78d4386479
-	RICE_yazd_sadeh_nature_poem: "자연에 대한 사데의 시에 영감을 받아" # 0d58de89087a629bc521f706811806a71124ba5c
-	RICE_yazd_sadeh_good_evil_poem: "선과 악에 대한 사데 시에서 영감을 받음" # 3d345eba50bcc870b6dceadd27212e4868964e1b
-	RICE_yazd_sadeh_hero_poem: "고대 영웅들에 대한 사데 시에서 영감을 받았습니다" # 074f33057b05c509363524c30125ffde2775f64d
-	RICE_yazd_sadeh_burned_animals: "사데 축제에서 동물에 불 지르기" # 5bb95b6ff49ded23aac7839d49a749d681890adb
-	RICE_yazd_sadeh_burned_animals_desc: ""동물 학대는 매우 재미있습니다!"" # c165cdf1eaa43239ed5bce59b6b55f980d3e2c1b
-	RICE_yazd_sadeh_animal_cruelty_approve: "동물에 불을 붙이는 것은 재미있다" # 5923a7b6ea3886c5cb4265c79d1582410bd7f75c
-	RICE_yazd_sadeh_animal_cruelty_disapprove: "동물에게 불을 붙이는 것은 잔인한 행위입니다" # 87314c427e64a88803b36824eb82168b7277b026
-	RICE_yazd_aspiration_claim_seljuk_throne: "[aspiration|E]: 셀주크 왕좌를 요구함" # 5c1adecd37532957e7214dfc10c0a97c524c3ace
-	RICE_yazd_aspiration_claim_seljuk_throne_desc: "#italic It is a disgrace that Qawurd does not rule over the Seljuk Empire, even though he is the most senior Prince of his family. He wishes to return the Seljuks to the old traditions and gain the throne that is rightfully his.#!$RICE_yazd_aspiration_qawurd_desc$\n\n" # null
-	RICE_yazd_yakhchal_adventurer_modifier: "야흐찰의 얼음" # 31e494a83885d1ab92186229b8e4dc00de67c247
-	RICE_yazd_yakhchal_adventurer_modifier_desc: "이 인물은 최근 [Glossary( 'Yakhchal', 'YAKHCHAL_GLOSS' )]에서 얼음을 구입했습니다." # 094cfc2e64beb09a5c5174517f39e7bf658d4ef9
-	RICE_yazd_yakhchal_landed_modifier: "$RICE_yazd_yakhchal_adventurer_modifier$" # null
-	RICE_yazd_yakhchal_landed_modifier_desc: "$RICE_yazd_yakhchal_adventurer_modifier_desc$" # null
-	# Decisions 
-	RICE_yazd_change_xwedodah: "크웨도다 문제를 해결합니다" # 76c203c03855395c37806036b8b7ebc4a8a6e565
-	RICE_yazd_change_xwedodah_zurvanite: "$RICE_yazd_change_xwedodah$" # null
-	RICE_yazd_change_xwedodah_tooltip: "[ROOT.Char.GetFaith.GetName] [faith|E]의 이 관행에 대한 논쟁을 해결하기 위해 다른 사람들과 모이십시오" # 0f9402edf6323c3a5ab9d2b1d12bd9600b59c4d0
-	RICE_yazd_change_xwedodah_zurvanite_tooltip: "$RICE_yazd_change_xwedodah_tooltip$" # null
-	RICE_yazd_change_xwedodah_desc: "#V Xwedodah#! is one of the greatest deeds any [ROOT.Char.GetFaith.GetAdherentName] can do. While this has been our indisputable belief for centuries, there have been debates as to what it means. Does it truly refer to close-kin marriage? Some claim that it should be defined as cousin marriage instead. To resolve these debates once and for all, I wish to convene some scholars and [ROOT.Char.Custom('DefaultPriestTitlePlural')]." # null
-	RICE_yazd_change_xwedodah_effect_tooltip_1: "#V Reinterpret#! the [xwedodah_resolver.GetFaith.ReligiousText] to change the $doctrine_consanguinity_name$ [doctrine|E] of [xwedodah_resolver.GetFaith.GetName] to allow only cousin marriage, or #V reinforce#! the traditional views that it refers to close-kin marriage - either choice will be #V permanent!#!" # null
-	RICE_yazd_change_xwedodah_effect_tooltip_2: "이 [결정|E]이 14세기 또는 15세기까지 충분히 강력한 [xwedodah_resolver.GetFaith.GetAdjective] 통치자에 의해 내려지지 않으면, 그 시기에 이벤트로 인해 #italic 변경#이 무작위로 발생할 수 있습니다." # dcc2ca03ceb633f093e4b9d8f671828aefc3e9b2
-	RICE_yazd_change_xwedodah_effect_tooltip_3: "[xwedodah_resolver.GetFaith.GetName]의 [core_tenet|E]인 [GetFaithDoctrine('tenet_divine_marriage').GetBaseName](이)가 [GetFaithDoctrine('tenet_communal_identity').GetBaseName](으)로 변경되었습니다." # ac15e2eb023a9444a2ff2c66aeec8252f1c24f9f
-	RICE_yazd_change_xwedodah_confirm: "[ROOT.Char.GetFaith.HighGodName]의 영광을 위하여!" # b1c5db1f3b52d5a12fe0f6921cd5e868c1fe1269
-	RICE_yazd_change_xwedodah_zurvanite_confirm: "$RICE_yazd_change_xwedodah_confirm$" # null
-	RICE_yazd_change_xwedodah_context_tooltip: "#emphasis Historical Context:#! Xwedodah was practiced in ancient Persia, beyond just royalty. This is generally not disputed among scholars of Iranian history; what is disputed is the extent, and how often such marriages were consummated. Regardless, modern Zoroastrians #italic #bold do not#!#! engage in close-kin marriage, and abhor it like most do. The interpretation of Xwedodah changed by the early modern period, though the reasons behind this shift in attitudes are uncertain. This decision is an ahistorical and symbolic representation of that change." # null
-	RICE_yazd_celebrate_sadeh_festival: "사데 축제 기념" # 1f34d5fe3aefdd53a1ad5fc97560b99ab292554a
-	RICE_yazd_celebrate_sadeh_festival_tooltip: "곧 한 해 중 가장 추운 시기가 다가옵니다!" # cd0bf5e713853b72baf7231def93e46460e5fb74
-	RICE_yazd_celebrate_sadeh_festival_desc: "겨울 추위가 대지를 휩쓸고 지나가는 시기이니, 이란 세계에서 유래한 전통적인 겨울 축제인 사데 축제가 시작되었습니다. 올해는 훌륭한 사데 축제를 개최해야겠군요!" # c70dfb6d39c5a5b7c7be83c403cea964662c8800
-	RICE_yazd_celebrate_sadeh_festival_effect_tooltip_1: "사데 축제를 기념하며, [prestige|E]나 [piety|E]를 얻거나 [stress|E]를 잃는 등의 다양한 보상을 얻을 수 있습니다." # 4068dedc39963ee20a9cab35f6e41ae2b88aea2c
-	RICE_yazd_celebrate_sadeh_festival_effect_tooltip_2: "[yazd_county.GetNameNoTier]를 다스리고 [THIS.Char.GetFaith.GetName] [faith|E] 신앙을 따르므로, 추가 @gold_icon@ 25를 지불하여 차크차크를 방문하고 추가 혜택을 받을 수 있습니다." # 98f68a8e90db193d20e3e943cfc27121f6f79800
-	RICE_yazd_celebrate_sadeh_festival_confirm: "기대하겠습니다!" # bdb5944e9345679c0fa267659ec1c471026ff8e5
-	RICE_yazd_celebrate_sadeh_festival_context_tooltip: "#emphasis Historical Context:#! Sadeh is the traditional Iranian winter festival that takes place 50 days before Nowruz. During the medieval period, it was enthusiastically celebrated by both Muslims and Zoroastrians alike in Iran, including several monarchs. The kindling of large bonfires forms a core component of the festivities, including (at least in medieval times) the odd practice of driving beasts and birds into the flames to set them on fire. At any rate, early Islamic texts ascribe the establishment of Sadeh to epic hero Hushang, who discovered fire by accident and thereafter wished to commemorate this boon." # null
-	RICE_decision_yazd_sadeh_month_req: "월은 11월, 12월 또는 1월입니다" # be9ad117750618f7d1345856b4518677c664dcd5
-	RICE_yazd_build_a_new_qanat: "카나트 건설 자금 지원" # 3a6a3f3b8db320d42ac28c1b9f1130931972acfe
-	RICE_yazd_build_a_new_qanat_tooltip: "지역 주민들은 항상 새로운 식수원을 필요로 할 수 있습니다." # 0f439fa183626879e971ecf980ab72e27caa4929
-	RICE_yazd_build_a_new_qanat_desc: "카나트는 중동 지역 전역에 걸쳐 수 세기 동안 지역 주민들에게 안정적인 물 공급을 제공하기 위해 건설된 지하 운하 시스템입니다. 카나트 건설 자금을 지원하여 지역 주민들의 삶의 질을 향상시킬 수 있습니다." # 8a2ebc35bc9bf8df14a482a08cd562afed309ffc
-	RICE_yazd_build_a_new_qanat_effect_tooltip_1: "귀하의 [county_capital|E]은 10년 동안 지속되는 [county_modifier|E]를 받게 되며, 그에 상응하는 [character_modifier|E]와 약간의 [prestige|E]를 받게 될 것입니다." # c54789a499f4e90d9e85f59259609f9458386453
-	RICE_yazd_build_a_new_qanat_effect_tooltip_2: "이 보너스의 강도는 자금 지원량에 따라 달라집니다. #weak (최소 비용: @gold_icon! 50)!#" # 76414b1e7450e7a1754ebb914e97c0a113f9abe8
-	RICE_yazd_build_a_new_qanat_effect_tooltip_3: "#weak (최소 비용: @gold_icon@ 40)#! 이러한 보너스의 강도는 제공되는 자금의 양에 따라 달라집니다" # 194985477942d5e429ab91004170a154d3cd15af
-	RICE_yazd_build_a_new_qanat_effect_tooltip_4: "[yazd_county.GetNameNoTier]를 지배하고 있으며 [GetModifier('RICE_yazd_city_of_windcatchers').GetNameWithTooltip] [county_modifier|E]가 있기 때문에 카나트 건설 비용이 감소합니다." # 0c5fd6d05a57b2c9c32262b5066915d76dd8883b
-	RICE_yazd_build_a_new_qanat_effect_tooltip_5: "만약 당신의 [culture|E]가 #bold $tradition_fp3_irrigation_experts_name$#! [tradition|E]을 보유하고 있다면, 당신은 더 많은 [prestige_i|E] [prestige|E]를 얻을 것이고 [county_modifier|E]는 10년이 아닌 #V 15#!년 동안 지속될 것입니다." # d85545759d6492913a1ff786a7c85d034959319c
-	RICE_yazd_build_a_new_qanat_confirm: "건설을 시작합시다!" # 67f2db40fa68df2c641ec8fd8e2a2c8afac7370e
-	RICE_yazd_build_a_new_qanat_context_tooltip: "#emphasis Historical Context:#! A qanat - known as foggara in North Africa, karez in Central Asia, falaj in Oman, and many other names - is a system of underground water channels indigenous to the Iranian plateau, that subsequently spread throughout much of the Middle East, North Africa, and Central Asia. For centuries, and even today, they were used as a source of water in these regions, whether for drinking, irrigation, cooling, and so on. They could range in size from very small efforts initiated by a few peasants to grand public works projects funded by local elites." # null
-	RICE_yazd_decision_qanat_requirement: "[county_capital|E]은 중동, 페르시아, 북아프리카, 사하라, 타림, 이베리아 또는 시칠리아 [region|E]에 있습니다" # 069efa807c6680181fef4798dc2453990d01847f
-	RICE_yazd_expand_infrastructure: "야즈드의 편의 시설 및 기반 시설 확장" # 78ef6f8d2c622349311668513f2dbd8bdeaae2f3
-	RICE_yazd_expand_infrastructure_tooltip: "야즈드가 번영하고 있지만, 더욱 번영할 수 있습니다!" # dd0655361beaab415de50cdc237ea7e9ff53a032
-	RICE_yazd_expand_infrastructure_desc: "야즈드는 빠르게 성장하고 있으며, 심지어 학문과 신앙의 중심지로 명성을 얻고 있습니다. 하지만 카나트, 학교, 영묘, 정원 등 주요 공공 사업을 통해 기존 기반 시설을 확장하면 도시로 유능하고 재능 있는 사람들을 더 많이 유치할 수 있습니다." # b6040464e7af9f658c55a294b94b26546b8d7738
-	RICE_yazd_expand_infrastructure_effect_tooltip_1: "지금부터 [yazd_county.GetNameNoTier]의 [ruler|E]는 항상 [GetModifier('RICE_yazd_abode_of_worship_ruler').GetNameWithTooltip] [character_modifier|E]를 갖습니다" # 92c9ebe6d7c8bc7821f34f941ee01faceeadb60c
-	RICE_yazd_expand_infrastructure_effect_tooltip_2: "#V 카쿠이드#! 왕조의 일원으로서, 야즈드에서 지적인 면모와 기반 시설에 대한 관심으로 명성이 높은 당신은 이 [결정|E]을 내렸을 때 평소보다 두 배의 [위신|E]과 [왕조 위신|E]을 얻습니다." # dbf65fa3ec712c30dfd465f7ad1a865a1343710a
-	RICE_yazd_expand_infrastructure_confirm: "기술자, 건축가, 장인을 보내라." # 046c06e2137eba9d2047dfa9c173a19f4cc655d7
-	RICE_yazd_expand_infrastructure_context_tooltip: "#emphasis Historical Context:#! Although it is situated in the desert, Yazd is an oasis valley that occupies a strategic location along several trade routes. The period of Kakuyid rule in the 11th century saw the city grow significantly with many mosques, madrasas, qanats, gardens, and more being built, either by the Kakuyids themselves or other local leaders. From then on, the city attracted many eminent and learned men throughout the region." # null
-	RICE_yazd_enlist_jays_al_sorat: "자이시 알 쇼라트 부대 징집" # 7b6d066755fd4debb97a3e8b6e16d4ec21ab62f9
-	RICE_yazd_enlist_jays_al_sorat_tooltip: "아즈라크 부대를 소환하여 당신을 위해 싸우게 합니다" # 0587e1ef9f431f66aa654941ac2ae8b6de27db67
-	RICE_yazd_enlist_jays_al_sorat_desc: "아즈라크파는 극단적인 카리지파 해석에 조금이라도 동의하지 않는 모든 사람을 도살하는 데 광적으로 헌신하는 피에 굶주린 사람들입니다. 하지만 그들도 여전히 사람이며, 사람은 이성과 설득을 할 수 있습니다. 내 영토에는 맹렬하고 전투에 단련된 아즈라크파 전사들이 있으며, 그들은 나의 관대함과 정당한 보수를 받는 대가로 기꺼이 나를 위해 싸울 의향이 있을 것입니다." # 93cd825f6a6691d80cfb447529295c5d018fcd9c
-	RICE_yazd_enlist_jays_al_sorat_confirm: "피에 굶주린 광신도조차도, 모든 사람에게는 값을 매길 수 있습니다." # 7db66d7a0c1c866e8c2be18ae419ab628bcef6a8
-	RICE_yazd_enlist_jays_al_sorat_context_tooltip: "#emphasis Historical Context:#! As the most fanatical Kharijite sect, even other Kharijites saw the Azraqites as too extreme. Ya‘qub ibn al-Layth, the founder of the Saffarid Dynasty, gained fame and power by warring against them in Iran. However, he managed to peacefully integrate some Azraqites into his army as a special unit called the #italic Jayš al-Šorāt#!. Nonetheless, Ya‘qub and his brothers diligently managed their armies with strict discipline, and Kharijite units were not exempt from this. In the end, over time, militant Kharijite groups declined in the region, replaced by more quietist adherents, until even these faded away." # null
-	RICE_yazd_decision_persia_req: "[county_capital|E]은(는) 페르시아 [region|E]에 있습니다" # 1651eeac82f8fc2be904d94b4d576b0db6e3b711
-	RICE_yazd_saffarid_founder_req: "사파르 왕조의 창시자인 야쿱 또는 그의 형제들 중 한 명입니다." # 2318a69e91c14b2623c585d73895aefd9fe9c5de
-	RICE_yazd_enlist_county_req: "#V 아즈락파#! [신앙]을 따르며 페르시아 [지역|E]에 있는 [백작령|E]을 소유하고 있습니다" # 454fd6361acf93021acd2cb1771c7377d0a9bb65
-	RICE_yazd_construct_shrine_of_the_twelve_imams: "다바즈다 이맘 구성" # 56f19d4f82cd3fddfcc1628a4ab68ed2be990d66
-	RICE_yazd_construct_shrine_of_the_twelve_imams_tooltip: "야즈드는 시아파 영묘를 건설하기에 좋은 장소가 될 것입니다." # 3ea43b5f226b4e99f77e47ced1502b3c1cdad88f
-	RICE_yazd_construct_shrine_of_the_twelve_imams_desc: "야즈드의 시아파 공동체에서 도시에 영묘를 지을 것을 제안했습니다. 그것은 #italic Davāzdah Imām#!, 즉 12 이맘의 성지로 불릴 것이며, 예배와 영적 성찰에 진정으로 합당한 장소가 될 수 있도록 예술과 건축의 최신 혁신 기술을 활용할 것입니다." # 9aaabfa25e6be2928a70c4d0e1e0994bf16d91ca
-	RICE_yazd_construct_shrine_of_the_twelve_imams_effect_tooltip: "#V 시아파#! [신앙|E]를 따르는 경우 [신앙도|E] 및 [명성|E] 보너스가 두 배가 됩니다." # 7520904508b48cca42db4c9a7905a8118012754e
-	RICE_yazd_construct_shrine_of_the_twelve_imams_confirm: "묘를 건설하도록 명령합니다." # f65f6f94f0f566190765a5a2fdab0e3fe6d84325
-	RICE_yazd_construct_shrine_of_the_twelve_imams_context_tooltip: "#emphasis Historical Context:#! The Davāzdah Imām, or Shrine of the Twelve Imams, is a mausoleum in Yazd and one of the earliest domed square mausoleums in Islamic history. Its construction was ordered in 1038 CE by two Shi'ite military officers of the Kakuyid Dynasty. It has a number of pioneering architecture features such as use of the trilobed squinch (a later hallmark of medieval Iranian architecture) and greater application of color and painted stucco compared to previous similar monuments." # null
-	RICE_yazd_purchase_yakhchal_ice: "현지 야흐찰에서 얼음 구매" # aa4b1c7b44e39d8fcbf35c3b97a3aeee7d2e63f6
-	RICE_yazd_purchase_yakhchal_ice_tooltip: "[GetGeographicalRegion('world_middle_east_persia').GetName] 사람들은 수 세기 동안 얼음을 저장하기 위해 [Glossary( 'Yakhchals', 'YAKHCHAL_GLOSS' )]을 사용해 왔습니다." # cb775211d1b7ee37ef677d3d95f365d24b7f77af
-	RICE_yazd_purchase_yakhchal_ice_desc: "내 음식과 음료를 신선하게 유지하기 위해 현지 [Glossary( 'Yakhchals', 'YAKHCHAL_GLOSS' )]에서 얼음 공급을 보충해야 합니다. 게다가, 소르베 좀 먹어야 할 것 같아요!" # 89c40accfd5418e480687ad7f37c34f9d5244064
-	RICE_yazd_purchase_yakhchal_ice_effect_tooltip_1: "이 [결정|E]의 효과는 당신이 [모험가|E]인지 아닌지에 따라 다릅니다." # aecf85c71033ea555f9efd11dc59433d1abd6988
-	RICE_yazd_purchase_yakhchal_ice_confirm: "지역 야흐찰 방문" # a906029e2cc4cdc5021083908ff2c25cb5bcfeb6
-	RICE_yazd_purchase_yakhchal_ice_context_tooltip: "#emphasis Historical Context:#! [Glossary( 'Yakhchals', 'YAKHCHAL_GLOSS' )] are buildings traditionally used to store ice and snow in [GetGeographicalRegion('world_middle_east_persia').GetName] for centuries. Historically, travelers and locals alike would buy ice from the local Yakhchals to preserve or make food and drink like sorbet and chilled wine." # null
-	RICE_yazd_decision_yakhchal_landless_req: "[domicile|E]은 $innovation_RICE_yakhchals$ [innovation|E]이 있는 [culture|E]의 [county|E]에 있습니다." # 028f245210dba93e79c25d67ea2bb4cf0624ba59
-	RICE_yazd_decision_yakhchal_landed_req: "[수도|E]는 [문화|E]가 $innovation_RICE_yakhchals$ [기술|E]을 보유한 [백작령|E]에 있습니다." # 8190d53bb632f79dbdf623f56e9c17e93d239e16
-	# Events 
-	yazd.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0001.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0001.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0002.t: "동부 변경" # 37bf2af245f7eba9fb61d59f1763983f306ffe59
-	yazd.0002.desc: "동부 이란의 위험하고 끊임없이 변화하는 #italic 다르 알 이슬람#! 변경 지역에서 여러 전쟁 영주들이 권력을 다투고 있습니다. 일부는 진정한 신앙과 불의에 맞서 싸우는 열정으로, 다른 일부는 기회주의적인 강력한 강도에 불과합니다.\n\n현재 아바스 궁정이 임명한 명목상 총독인 [tahirid_guy.GetTitledFirstName]와 사파리드의 인기 있고 경건하지만 논란이 많은 지도자 [yaqub_saffarid.GetTitledFirstName] 사이에 긴장이 극에 달했습니다. [yaqub_saffarid.GetTitledFirstName]은 이단적인 하리지파 종파 중 가장 잔혹한 자들에 맞서 싸운 수많은 #italic ‘아야르#! 전사들 중 한 무리의 지도자로서 이름을 날렸습니다. 일부는 [yaqub_saffarid.GetFirstName]가 타히리드의 무능을 이용하는 탐욕스러운 이단자라고 말합니다. 다른 이들은 그가 경건하고 겸손한 사람으로, 이교도, 이단자, 위선적인 폭군들과 정당하게 싸우며 심지어 자신의 헌신의 표시로 육욕의 유혹을 버렸다고 말합니다. 한편, 약화되었지만 여전히 [bammer_guy.GetFaith.GetAdjective]의 잔당은 [bam_county.GetNameNoTier]와 [badghis_county.GetNameNoTier]의 산과 계곡에 숨어 다시 일어날 기회를 기다리고 있습니다." # 1de34385aac44b2283b4297ed1afb806683383e2
-	yazd.0002.a: "동부 이란의 패권을 누가 차지할지 결정하는 전투가 시작됩니다...." # 6f6b58625f9fddfa4c644445313a7f89d1054b4f
-	#yazd.0002.a "물론, 저의 이야기는 [ROOT.Char.GetFirstName]와 함께합니다." # 5249fa09f555fb603c536fe1c2a9719156829ec1
-	yazd.0002.b: "내 이야기는 사파르 왕조와 함께한다." # 2521d4e725613000d7f6375e9e5a1dc2ba4717fc
-	yazd.0002.c: "제 이야기는 하와리즈 잔당과 함께합니다." # bb81972c21207afbe8375d34be6fafbb638b640f
-	yazd.0002.tooltip.no: "[THIS.Char.GetTitledFirstNameNoTooltip](으)로 계속 플레이합니다." # 63617dd079537688db17040fc845b554613aa144
-	yazd.0002.tooltip.saffarids: "사파르 왕조 형제 또는 그들의 부하 중 한 명으로 플레이할 수 있습니다" # 9406230623e3b9b31fbb76f82e7de00d8abaf5fa
-	yazd.0002.tooltip.kharijites: "당신은 해당 지역의 [bammer_guy.GetFaith.GetAdjective] 잔당 중 하나를 선택하여 플레이하게 됩니다" # 31b9940c1c65af722b7dcd0ffae020d654ca1357
-	yazd.0003.t: "사파리드" # bffbc85d029ccfb8a37e81c3a2686eeb0d4b1806
-	yazd.0003.desc: "한때 이란을 휩쓸었던 [bammer_guy.GetFaith.GetAdjective] 광신도들은 몰락하고 있습니다. 비록 완전히 끝난 것은 아니지만, 그들을 파괴하거나 항복시킨 [yaqub_saffarid.GetFirstName] 같은 인물들의 노력 덕분입니다. 반면, 호라산의 아바스 총독인 [tahirid_guy.GetFirstName]는 이러한 위협에 직면하여 무능하고 태만하다고 알려져 있으며, 죄악과 여가에 더 관심이 있습니다. 많은 사람들이 [yaqub_saffarid.GetFirstName]에게 질서를 회복하고 [tahirid_guy.GetFirstName]에 맞서 싸울 것을 촉구했습니다.\n\n일부는 [yaqub_saffarid.GetFirstName]가 타히르의 무능함을 이용하여 약탈하는 배교자라고 말합니다. 다른 사람들은 그가 경건하고 겸손한 사람이며, 이교도, 이단, 위선적인 폭군과 정당하게 싸우며, 심지어 헌신의 표시로 육체의 유혹까지 멀리했다고 말합니다. 진실이 무엇이든, 누가 이 지역에서 최고 권위를 차지할지 결정하기 위한 전투가 시작되었으며, 저의 이야기는…" # 18600c99392043dc3086641ba5d0b630a474433c
-	yazd.0003.a: "[yaqub_saffarid.GetFirstName], 구리 세공인이자 성전 용사" # 2cea670501b587c8020f21f88d1c6a99d59e9611
-	yazd.0003.b: "[amr_saffarid.GetFirstName], [yaqub_saffarid.GetFirstName]의 형제" # e1f74545090521a841919257990726bacac29e63
-	yazd.0003.c: "[ali_saffarid.GetFirstName], [yaqub_saffarid.GetFirstName]의 또 다른 형제" # a2c96800a7b485ccb3fa6b6160ec8f6e9d7e0e57
-	yazd.0003.d: "[sebuk_eri_guy.GetFirstName], [yaqub_saffarid.GetFirstName]의 야망을 품은 튀르크 노예 병사" # 9fc4964bd0a199e4a62da8e8304c18a14232d67a
-	yazd.0003.e: "[uzayr_al_sari.GetFirstName], [yaqub_saffarid.GetFirstName]의 충실한 관리" # 52e47417158d3289ac6d08f8aa00b5716ec51c03
-	yazd.0003.a.info: "#emphasis 역사적 배경:#! 야쿠브 이븐 알-레이스, 사파리드 왕조의 창시자는 현재 아프가니스탄 동부인 자란주(현재 아프가니스탄 동부)의 구리 세공업자였습니다. 그는 동부 이란 내륙을 괴롭히던 아즈라키트와 싸우기 위해 #italic ‘아야르’#! 무리에 합류했습니다.\n\n수도승적인 삶으로 유명했던 야쿠브는 873년 타히리드를 물리치고 충분한 권력을 얻었습니다. 아바스 칼리프 알-무타미드는 그의 커지는 권력에 겁을 먹고 이란 각지의 총독직을 제안했지만, 야쿠브는 이를 거절하고 바그다드로 진격했지만 876년 패배했습니다. 전통적으로 야쿠브의 공격은 그의 권력욕과 심지어 비종교적인 성향을 보여주는 것으로 해석되어 왔지만, 그는 성전투사로서 알-무타미드를 무가치한 존재로 보고, 더 합당한 아바스 왕조 인물로 교체하려고 했을 가능성도 있습니다.\n\n야쿠브는 879년에 사망했고, 그가 초기 민족주의자라는 평가는 약간 과장된 측면이 있을 수 있지만, 그의 경력은 이란에서 아바스 왕권의 분열 초기 단계와 다양한 이란 강자의 부상을 분명히 보여줍니다." # 3f341cd0fc91ab38cef44342326edac58bc9bba0
-	yazd.0003.b.info: "#emphasis 역사적 배경:#! 야쿠브의 형제인 암르 이븐 알라이스는 사파르 왕조의 두 번째 통치자였습니다. 그의 형과 마찬가지로 그는 '#italic 아야르#!'에 합류하기 전에 석공과 노새 마부로서 보잘것없는 기원을 가지고 있었습니다.\n\n야쿠브는 자녀나 아내가 없었던 것으로 보이며, 자신의 또 다른 형제인 알리가 자신을 계승하는 것을 선호했습니다. 그러나 몇 가지 음모 덕분에 암르가 정상에 올랐습니다. 그의 초기 통치의 대부분은 야쿠브가 서쪽에서 정신이 팔린 동안 야쿠브의 권위에서 벗어난 다양한 영토의 질서를 회복하는 데 집중되었습니다. 결국, 암르와 칼리프 알무타미드는 그들의 상호 이익을 위협하는 여러 이란 군벌을 고려하여 그들의 차이점을 제쳐두어야 했습니다.\n\n사만 왕조는 서기 900년에 암르를 패배시키면서 암르를 무너뜨린 세력이었습니다. 암르는 기술적으로 칼리프의 대표였지만, 칼리프는 이전의 동맹군의 패배를 편리하게 여겼을 것입니다. 사만 왕조는 암르를 사슬로 묶어 칼리프에게 보냈고, 그는 나중에 처형되었습니다.\n\n암르의 후손들은 살아남아 1세기 동안 소영주로 통치했지만, 다시는 권력의 정점에 도달하지 못했습니다." # 726e28728106c9c97eaa4e7c48e96ad4cd27bf68
-	yazd.0003.c.info: "#emphasis 역사적 배경:#! 그의 형제들과 마찬가지로 알리 이븐 알 라이스 역시 미천한 출신이었으며, 수년 동안 형의 깃발 아래서 싸웠습니다. 알리는 서기 879년 암르가 사망했을 때 그의 후계자가 되어야 했고 사파르 군대에서도 선호했지만, 교활한 암르는 우위를 점했습니다. 두 형제는 화해하지 못했고, 암르가 알리를 투옥했지만, 알리는 도망쳐 그 지역에서 암르의 적이었던 다른 이란 군벌에게 망명했습니다." # b57a1d93098e9a65bdd76e29e6a02c0f47a17d61
-	yazd.0003.d.info: "#emphasis 역사적 배경:#! 세뷔크-에리는 준빌 영토에 대한 사파르 왕조의 여러 차례 습격 중 한 번에 포로로 잡힌 튀르크인 노예 병사였습니다. 그는 야쿠브를 섬겼고 그 후 몇 년 동안 암르를 섬겼으며, 어느 시점에는 파르스의 총독으로 임명되었습니다.\n\n서기 901년 암르의 몰락과 처형 이후, 암르의 후계자이자 손자인 타히르는 야심 찬 세뷔크-에리의 압박을 받게 되었습니다. 결국 타히르와 그의 형제 야쿠브는 칼리프와 동맹을 맺은 세뷔크-에리와 갈등을 겪었습니다.\n\n타히르와 야쿠브는 패배했지만 세뷔크-에리의 행운은 오래가지 못했습니다. 칼리프가 그에게 징벌 원정대를 보내자 그의 야망은 꺾였습니다. 그는 포로로 잡혀 서기 917년 또는 918년에 칼리프의 포로로 사망했습니다." # e705e7816c3a5e01313414f9862f2422c6ac77d5
-	yazd.0003.e.info: "#emphasis 역사적 배경:#! 야쿠브가 타히리드를 물리친 후, 그는 무능한 통치자로서 백성과 그의 관할 구역 내의 하리지파 위협을 소홀히 한 타히리드 지배자 무함마드를 비난했다고 알려져 있습니다. 야쿠브는 무함마드를 해임하고, 그의 추종자 '우자이르 이븐 알-사리'를 니샤푸르(타히리드의 수도) 총독으로 임명하여 거기서 그의 대표로 일하게 했습니다." # 4c8becbada85332ccd15963d8e32ab689cba9820
-	yazd.0004.t: "카리지파 잔당" # 5558a829bd43ddbd1ed225ea9fa4aecd35322498
-	yazd.0004.desc: "[yaqub_saffarid.GetTitledFirstName]은 모든 [bammer_guy.GetFaith.GetAdherentNamePlural]에게 교활한 적으로서 스스로를 증명했습니다. 그의 노력 덕분에 우리 수는 크게 줄어들었고, 이 지역에는 단 두 개의 주요 하와리즈 잔존 세력만 남았습니다. [bam_county.GetNameNoTier]의 요새에서 하와리즈 잔존 세력을 이끄는 [bammer_guy.GetFirstName]와 [badghis_county.GetNameNoTier]에서 자칭 하와리즈 칼리프인 [abd_al_rahman_kharijite.GetFirstName]입니다. 그러나 [yaqub_saffarid.GetFirstName]가 완전히 적대적인 것은 아닙니다. 분명히 그는 일부 [bammer_guy.GetFaith.GetAdjective] 집단을 쓸어버렸지만, 다른 일부는 그에게 봉사하기로 협상할 수 있었고, 그는 우리의 명성에도 불구하고 - 완전히 정당하며 우리가 자랑스럽게 여기는 - 뉘우치지 않는 광신적인 열광자라는 명성에도 불구하고 동의했습니다. \n\n야심 찬 [yaqub_saffarid.GetFirstName]와 호라산의 아바스 총독인 [tahirid_guy.GetFirstName] 사이의 갈등이 곧 다가올 것입니다. 우리 형제들처럼 우리의 가치를 배신하고 [yaqub_saffarid.GetFirstName]에게 충성을 맹세할 수도 있고, 다른 사람들처럼 무슬림이라고 주장하는 이 불신자들에게 저항하고 [bammer_guy.GetFaith.HighGodName]께서 우리의 필요의 때에 우리를 구원해 주시기를 바랄 수도 있습니다." # 3f00510fe754a73cdeeca22579236c44a3365647
-	yazd.0004.a: "우리는 이 불확실한 시대에 신중하게 행동해야 합니다...." # 654dc8310d4c8bfea7f6659d11856658db07fd6c
-	#yazd.0004.a "[bammer_guy.GetFirstName] 님, [bam_county.GetNameNoTier]의 요새에서 카리지파 잔당을 이끌고 있습니다" # f2327b0edcdac9a608681bffa26c94869e6cb82d
-	#yazd.0004.b "[abd_al_rahman_kharijite.GetFirstName], [badghis_county.GetNameNoTier]의 자칭 하와리즈 칼리파" # bd1c375e335084bcf6745fd34c3667e6b2b7172e
-	yazd.0004.a.info: "#emphasis 역사적 배경:#! 크게 요새화된 밤은 8세기 대부분과 9세기 전반 동안 카리지파 공동체의 피난처였습니다. 그들은 결국 서기 868년에 사파르 왕조의 공격으로 전멸했습니다. 당시 그들의 지도자는 Esma'il ibn Musa라는 남자였다고 합니다." # a24514b1d61f3be608674739f44f448989e0a3c2
-	yazd.0004.b.info: "#emphasis 역사적 배경:#! 헤라트 인근 지역, 특히 카루크, 바드기스, 사브제바르와 같은 지역은 8세기와 9세기 대부분 동안 카와리즈파 활동의 온상이었으며, 따라서 서기 870-871년 사파르 왕조의 원정 목표가 되었습니다. 당시 이 지역의 카와리즈파 지도자는 압드 알-라흐만으로, 자신을 "카와리즈파의 칼리프"라고 선포하고 30년 동안 그곳에서 활동했습니다.\n\n압드 알-라흐만의 최종 운명에 대해서는 자료마다 다릅니다. 그는 사파르 왕조에 의해 살해되어 그의 머리가 바그다드의 칼리프에게 보내졌을 수도 있고, 항복하여 그 후 지역 총독이 되었을 수도 있지만, 특정 이브라힘 이븐 아크다르가 이끄는 불만을 품은 카와리즈파에 의해 살해당했을 수도 있습니다. 만약 후자가 실제로 일어났다면, 사파르 왕조는 아이러니하게도 이브라힘에게 비슷한 제안을 하고 그의 군대를 자신들의 군대에 통합했습니다." # 1fa16a2897ecf9bbcbe33e76338cc0b7a649073f
-	yazd.0005.t: "파라무르즈의 이야기" # fba8b8584ab3aab76565f32d20686b815ce3db65
-	yazd.0005.desc: "수십 년 전, 저의 아버지 [ala_al_dawla.GetTitledFirstName]께서는 이란 중부의 위대한 군벌 중 한 분이셨습니다. 부이드 가문과 혼인으로 맺어져, 아버지와 [ROOT.Char.GetCulture.GetName] 전사들은 부이드 가문의 몰락 이후 처음에는 이란의 대부분을 장악했지만, 이후에는 우리 가문의 자율성을 확보하기 위해 강력한 가즈나비 왕조와 셀주크 왕조를 서로 대립시켜야 했습니다.\n\n아아, 저는 아버지의 그늘 아래 있습니다. 저의 통치는 반란을 일으킨 저의 형제 [abu_harb.GetFirstName]를 진압해야 했을 때 시작되었지만, 이후 우리는 화해했습니다. 나중에, 다른 형제 [garshasp.GetFirstName]처럼 저는 셀주크의 [tughril_beg.GetTitledFirstName]에 대항하여 실패한 반란을 시도했습니다. 저의 음모에 진저리를 쳤지만 자비로우신 그는 제가 직접 요청한 대로 [yazd_county.GetNameNoTier]를 중심으로 한 작은 영지를 저에게 하사하셨습니다. 저는 그때부터 이곳에 있습니다." # c590f37942975220784cffd67157f81e88d7ad27
-	yazd.0005.a: "이것은 [ROOT.Char.GetFaith.HighGodName]의 뜻에 따른 우리 가문의 운명이었습니다." # 6ebdc56e6e07d50cdc22b4a095870e36ea0033eb
-	yazd.0005.b: "우리 카쿠이드는 상황을 최대한 활용하는 재능 있는 사람들입니다." # 50531d07cbd937cb2d20d6c81248f60c67eed7ae
-	yazd.0006.t: "야즈드 통치" # 9cd6c9c3927fe7d22144c2a3ba91ab0a53f82394
-	yazd.0006.desc: "패배의 쓰라림에도 불구하고, 나이가 들면 관점이 바뀌는 법입니다. 저는 셀주크와 화해했고, 그들의 궁정에서 큰 존경을 받고 있습니다. 비록 아버지의 그림자에 불과하지만, 저는 아버지의 학문과 문화에 대한 사랑을 물려받았습니다. 결국 아버지는 위대한 아비세나의 후원자이셨으니까요.\n\n[yazd_county.GetNameNoTier]에 온 이후로 저는 이곳을 학자들과 다른 교양 있는 사람들이 살 만한 도시로 발전시키는 데 온 힘을 기울였습니다. 제 아들인 [kakuyid_son.GetFirstName]도 셀주크계에서 두각을 나타내고 있으며 시와 학문을 매우 사랑합니다.\n\n전반적으로, 야즈드의 행정관으로서 저는 다음 노력을 특히 자랑스럽게 생각합니다." # 4b7ac898c7055a156d086a5881f234e20793e6d5
-	yazd.0006.a: "셀주크 왕조와 화해하고 그들의 신뢰받는 사절이 되십시오." # 798d0299f067675b0db4ff00608680f2b8545b04
-	yazd.0006.b: "야즈드를 개발하여 위대하고 번영하며 평화로운 마을로 만드십시오." # 92270a06094d8c4e903894d80bb353c43f739574
-	yazd.0006.c: "학문과 예술을 후원하던 아버지의 유산을 이어가십시오." # 120e9f2085e89783061978d2ace95953b0f1c6c0
-	yazd.0007.t: "인생의 흐름" # f41ed092eee3561283ad70c6214e777974970c11
-	yazd.0007.desc: "결국, 어쩌면 아버지께서 하셨던 것처럼 선거 운동에 매달리지 않는 것이 나쁜 일만은 아닐지도 모릅니다.\n\n어쩌면 이 세련된 도시를 다스리고 평화의 기술을 발전시킬 수 있도록 하신 것은 [ROOT.Char.GetFaith.HighGodName]의 뜻이었을지도 모릅니다. 처음에는 패배와 좌절을 겪었지만, 성공적인 삶을 살지 않았다고는 말할 수 없습니다. 죽음이 가까워지는 것을 느끼며, 어쩌면 더 이상 아버지의 그늘 아래 있지 않다는 것을 깨닫습니다.\n\n어쩌면 저에게도 저만의 그림자가 있을지도 모릅니다." # 658535f2bdc53b482ca51960ca9259a56120723a
-	yazd.0007.a: "내 이야기는 곧 끝나고 새로운 이야기가 시작되겠지. 느껴져." # 56c0733ca33497874f27a516de177a13cc0269b1
-	yazd.0007.info: "#emphasis Historical Context:#! Faramurz was last mentioned in the historical records in 1063 CE, so he likely died sometime after that. By then, he and his heirs  had established themselves as loyal and respected vassals of the Seljuks, despite their initial tempestuous start. For example, Faramurz’s son and successor, Ali, married Arslan Khatun, Alp Arslan's sister.\n\nThe later Kakuyids were content to rule Yazd, transforming it into a cultural center. The last known ruler of the dynasty was a certain Garshasp, Faramurz’s grandson, who reportedly died in 1141 CE at the Battle of Qarwan, when the Kara-Khitan (or Western Liao) resoundingly defeated the Seljuks.\n\nYazd was then given to Garshasp’s son-in-law, a Turkish commander named Sam ibn Wardanruz, who established the dynasty of the Atabegs of Yazd. As the continuation of the Kakuyids, they lasted into the 14th century under the Ilkhanate." # null
-	yazd.0008.t: "카우르드의 이야기" # 152ba7deb7451c47b4642561f10497e7dc85b49e
-	yazd.0008.desc: "나의 아버지 [chagri_beg.GetFirstName]와 나의 삼촌 [tughril_beg.GetFirstName]은 우리 왕조 성공의 토대를 마련했습니다. 그들이 살아 있는 동안, 저는 우리 군대를 이끌고 [kerman_duchy.GetNameNoTier]을 장악했고, 그 후에는 바다 건너 [oman_duchy.GetNameNoTier]까지 진격했습니다. 우리 가문의 영광을 드높일 능력이 부족했다고 말하는 자는 없을 것입니다.\n\n[kerman_duchy.GetNameNoTier]와 [oman_duchy.GetNameNoTier]의 통치자로서, 저는 수년 동안 많은 것을 이루었습니다. 저는 유목민인 우리 튀르크족 동포와 우리가 통치하는 정착민인 농업민들의 경쟁적인 이해관계를 조율했습니다. 저는 화폐를 주조했고, 여행자와 상인을 위한 안전한 길을 만들었습니다.\n\n제가 이룬 모든 업적 중에서 가장 자랑스러운 것은 다음과 같습니다." # 14b261a20f57d0243c9f77d3baf7d181511d65f9
-	yazd.0008.a: "카리지파 불신자들로부터 오만을 정복함." # 96e98eeaeb91006c73942925abf4ae78457f6be9
-	yazd.0008.b: "튀르크인과 현지인 간의 평화를 보장하려는 나의 노력." # 4da922f705b4b2da1ba53b7404a5a10827e79e2f
-	yazd.0008.c: "무역망 확장과 안전한 도로 건설을 위한 노력." # 6a49d4ca82157dcc5f66c780a4258212dee75518
-	yazd.0009.t: "고위 왕자의 상속권" # 205a3f729253189c3dbd9751dd4662cad940c822
-	yazd.0009.desc: "아버지의 장남이자 숙부의 가장 큰 조카로서, 저는 셀주크의 지도자로서 그들의 지위를 물려받을 것이라 기대했습니다. 하지만 제가 모든 노력을 다했음에도 불구하고, 숙부께서 돌아가시자 가족의 운명을 제 동생 [alp_arslan.GetFirstName]에게 맡기셨습니다. 실망했다는 것을 인정합니다. 여전히 그렇습니다.\n\n저는 제 차례를 기다리기로 했습니다. 우리가 전통적인 [ROOT.Char.GetCulture.GetName] 관습을 따른다면, 왕위를 계승할 때 제 조카들보다 제가 선임자가 될 것이며, 우리 군대의 많은 장교들도 이에 동의한다는 것을 알고 있습니다.\n\n제가 제 동생보다 오래 살 수 있을지는 모르겠습니다. 하지만 [ROOT.Char.GetFaith.HighGodName]께서 그렇게 하시기를 바라신다면, 제 인내와 노력이 보상받는 날이 올지도 모릅니다. 셀주크 왕자 중 가장 선임자로서, 위대한 셀주크 제국은 제가 다스릴 것입니다!" # 9375b1558541aa586dc6c8a4720d0880e5e44828
-	yazd.0009.a: "그것은 오직 저의 타고난 권리입니다." # 902b9c50867ad1680954aca6c1b8be368bb71037
-	yazd.0009.qawurd.tooltip: "#bold Qawurd's [aspiration|E]: Claim the Seljuk Throne#!$RICE_yazd_aspiration_qawurd_desc$\n" # null
-	yazd.0009.info: "#emphasis Historical Context:#! Despite their tense relationship, Qawurd never attempted to usurp his brother Alp Arslan while the latter was alive.\n\nHowever, when Alp Arslan was unexpectedly killed by a captive enemy in 1072 CE and succeeded by his son, the young Malik Shah, Qawurd saw an opportunity to seize the Seljuk throne for himself, and he raised his flag in rebellion. Even though many Turkmens in Malik Shah’s forces defected to Qawurd’s side during the climatic battle near Hamadan, Malik Shah prevailed, and Qawurd was executed.\n\nDespite this, two of Qawurd’s sons, Sultan Shah and Turan Shah, remained in Kerman as vassals to Malik Shah. The Kerman branch of the Seljuks lasted into the late 1100s." # null
-	yazd.0010.t: "$RICE_historical_aspiration_fulfilled_title$" # null
-	yazd.0010.desc: "제 평생의 꿈이 드디어 이루어졌습니다. #italic 저#!, [qawurd.GetFirstName]이, 위대한 셀주크 제국을 다스리게 되었습니다. 제게 미치지 못하는 어린 친척들은요? 그들은 제 밑에서 싸우고 저를 잘 섬기기에 적합하지만, 우리 왕조의 장자로서 이 옥좌에 앉는 것이 제 권리였습니다. 그것은 제 #italic 타고난 권리#!였습니다.\n\n저를 지지한 튀르크 전사들과 부족민들 역시 당연히 매우 기뻐하고 있습니다. 그들은 제 친척들 일부가 장자 상속과 같은 우리의 오랜 전통을 버리기 시작하는 것에 대해 경계했습니다. 그들은 이제 저에게 많은 것을 기대하고 있으며, 우리의 뿌리에 충실함으로써 그들의 바람을 달래는 것이 현명할 것입니다.\n\n그럼에도 불구하고 우리 왕조는 여전히 굳건합니다. 제가 이 제국의 지휘권을 잡게 됨으로써 우리는 시간이 지날수록 더욱 강해질 것입니다." # 611055aed5a2c56d33eca042f80a39122a242691
-	yazd.0010.a: "[ROOT.Char.GetFaith.HighGodName]께서 저와 제국에 많은 영광을 가져다주시기를!" # 4a70964ceee0bb0d15e637d10b1e056fb8062d69
-	yazd.0011.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0011.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0011.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0012.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0012.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0012.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0013.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0013.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0013.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0014.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0020.t: "야즈드가 확장하고 번성합니다" # fd2e03e2694c8357d08471a655ccce5c127c7652
-	yazd.0020.desc: "[yazd_county.GetNameNoTier]은 건조한 지역에 있지만, 먼 곳에서 온 외국인들은 이 도시가 얼마나 부유한지 보고 놀랄지도 모릅니다. 기본적으로 오아시스에 위치하고 있고 지리적으로 보호받고 있다는 사실 외에도, 광범위한 카나트 수로망, 여러 다른 종교를 위한 예배당 등 훌륭한 기반 시설과 편의 시설도 갖추고 있습니다. 하지만 항상 개선의 여지가 있습니다.\n\n저는 도시를 확장하고 추가적인 건물과 공공 사업을 계획하기 위해 여러 가지 계획을 시작하기로 했습니다. 여기에는 카나트의 추가 확장, 여러 개의 무성하고 푸른 정원, 교육 시설 등이 포함됩니다. 이 도시는 이미 박식하고, 배웠고, 유능한 정착민들에게 매력적이라는 명성을 얻고 있습니다. 더 위대한 인재를 유치할 수 있도록 도시를 더욱 위대하게 만듭시다!" # f85455fb7859e1d20f640aa9bce38767b0dfaee9
-	yazd.0020.a: "정말로 야즈드는 사막의 보석입니다." # bfebf6d8721cdb9888700696faa999f416cb6c49
-	yazd.0021.t: "야즈드가 확장하고 번성합니다" # fd2e03e2694c8357d08471a655ccce5c127c7652
-	yazd.0021.desc: "오랫동안 [yazd_county.GetNameNoTier]는 학문과 예술의 중심지로 명성을 얻었습니다. 사막 한가운데 있는 정착지가 어떻게 그런 명성을 얻었는지 설명하기 어렵다면 이상하다고 생각할 수 있습니다. 하지만 그 성공에는 비밀이 없습니다. 이 지역은 훌륭한 기반 시설과 세련된 공동체를 갖추고 있으며, 오아시스의 전략적이고 방어적인 위치에 자리 잡고 있습니다.\n\n[yazd_county.GetNameNoTier]의 첫 번째 통치자는 아니지만, [yazd_ruler.GetTitledFirstName]은 최근 이전에는 볼 수 없었던 다양한 공공 사업 프로젝트와 계획에 자금을 지원하기 시작했습니다. 정원, 예배당, 카나트, 학교 등이 건설되어 도시의 삶의 질을 더욱 향상시킬 것입니다. 이제 멀리 떨어진 곳에서 온 학자들과 지식인들은 도시에 대해 높이 평가하고 있으며, 많은 사람들이 그곳에 정착하기를 원하여 도시의 이미 높은 명성을 더욱 높이고 있습니다." # dc80c3a101b5374dc69712cd3e6ee1a05903e623
-	yazd.0021.a: "[yazd_county.GetNameNoTier]에 적합합니다." # 153757ccf082cdaa283e5fdec6f4735e014848b0
-	yazd.0022.t: "카나트" # a9f6462c5cb4ba2d0522499c4fb540bfcc26d091
-	yazd.0022.desc: "수세기 동안 중동과 북아프리카 사람들은 #italic qanat#! 수로를 이용하여 장거리에 걸쳐 물을 운반해 왔습니다.\n\n저와 같은 지위의 사람들이 공공 시설 건설을 후원하는 것은 관례가 되었습니다. 저는 바로 그렇게 할 것을 결정했으며, qanat 건설이 끝나면 농업, 음용, 세척 또는 기타 용도로 커뮤니티에 안정적인 물 공급원을 제공할 것입니다.\n\n이제 이 사업에 얼마나 많은 자금을 지원할지, 그리고 얼마나 큰 규모의 qanat를 후원할지 고려해야 합니다." # 8e211482647a34c25ce5168ce6fa297d737c3cfe
-	yazd.0022.a: "작은 카나트" # d2bc4cceef81b239027f4684ed3cfd5a690dce56
-	yazd.0022.b: "중간 크기의 카나트" # d844b8d82b6829dd4c00185f4c1f24b8ef72edf7
-	yazd.0022.c: "대규모 카나트" # ebf96ee71c3320f8e60ef0a924fb555cf450d562
-	yazd.0022.d: "웅장한 카나트" # 006fa1916e4b2158e3d9252546d39594990fa076
-	yazd.0023.t: "[xwedodah_resolver.GetFaith.GetAdjective] 크베도다흐 문제" # 9dc4e2f10b5a98bd1c345c07b7879ce76f21fb33
-	yazd.0023.desc: "교양 있는 [ROOT.Char.GetFaith.GetAdherentName]라면 누구나 #italic Xwedodah#!가 인간이 할 수 있는 가장 위대한 행위 중 하나라는 것을 알고 있습니다. 심지어 [ROOT.Char.GetFaith.DevilName]이 #italic Xwedodah#!를 완료한 부부를 피하라고 [ROOT.Char.GetFaith.DevilHerHis] 하수인들에게 지시했다는 주장도 있는데, 이는 그들의 신성함이 너무나도 강력하기 때문입니다.\n\n#italic Xwedodah#!의 정확한 의미에 대해서는 오랫동안 상당한 논쟁이 있어 왔습니다. 전통적으로 우리 대부분은 그것이 친족 간의 결혼, 즉 부모와 자녀 간의 결혼 또는 형제자매 간의 결혼을 의미한다고 이해했습니다. 그러나 일부는 이에 이의를 제기하며 현재의 이해가 결함이 있다고 주장합니다. 그들은 진정한 원본 가르침은 사촌 간의 결혼을 언급했다고 말합니다.\n\n세계에서 가장 강력한 [ROOT.Char.GetFaith.GetAdjective] 지도자 중 한 명인 저는 이 문제를 논의하기 위해 다양한 학자들과 [ROOT.Char.Custom('DefaultPriestTitlePlural')]로 구성된 회의를 소집하기로 결정했습니다. 우리 모두의 단결을 보장하기 위해 이 논쟁을 완전히 해결할 수 있을 것입니다." # 8487fa2a78c4d013f5545abd46eb97abfdc6648a
-	yazd.0023.a: "양측의 주장을 들어보도록 합시다." # 88b2da626188fd61a6832a83c92a6d47850fd1de
-	yazd.0024.t: "[xwedodah_resolver.GetFaith.GetAdjective] 크베도다흐 문제" # 9dc4e2f10b5a98bd1c345c07b7879ce76f21fb33
-	yazd.0024.desc: "수 세대, 아니 수백 년 동안 [xwedodah_resolver.GetFaith.GetAdjective] 신앙의 신자들은 소위 #italic 흐웨토다흐#!라고 불리는 근친 간의 결혼을 해 왔으며, 그들은 이를 신성한 행위이자 [xwedodah_resolver.GetFaith.HighGodName]을 기쁘게 하는 행위라고 여깁니다. 실제로 다른 모든 신앙의 신자들은 이들을 조롱하며, 이러한 퇴폐적인 관습을 비웃거나 비난해 왔습니다.\n\n그러나 모든 [xwedodah_resolver.GetFaith.GetAdherentName]이 #italic 흐웨토다흐#!에 대한 이러한 해석을 편안하게 받아들이는 것은 아닙니다. 항상 그것이 사촌 간의 결혼을 의미한다고 주장하는 사람들이 있었습니다. 따라서 저명한 [xwedodah_resolver.GetFaith.GetAdjective] 통치자인 [xwedodah_resolver.GetTitledFirstName]은 #italic 흐웨토다흐#!이 가까운 친족 간의 결혼을 의미하는지 사촌 간의 결혼을 의미하는지 토론하고 이 문제를 최종적으로 해결하기 위해 저명한 학자들과 [xwedodah_resolver.Custom('DefaultPriestTitlePlural')]로 구성된 협의회를 소집했습니다." # 3357371105bdadbfe56b40917c4695d337c0811b
-	yazd.0024.a: "그렇게 된 것입니다." # 3e70750ed7c30695fcd68079534e82812baa4a23
-	yazd.0025.t: "[ROOT.Char.GetFaith.GetAdjective] 크베도다에 대한 통치" # 20aa7bf713619ea6f0c385813b86315f141af383
-	yazd.0025.desc: "열띤 논쟁이 오간 훌륭한 토론 끝에 - 때로는 격렬하기도 했지만 - #italic 크웨도다#! 문제 검토를 위해 소집한 자문회에서 다음과 같은 질문에 대한 판결을 내렸습니다. #italic 크웨도다#!는 가까운 친족 간의 결혼을 의미하는가, 아니면 사촌 간의 결혼을 의미하는가?\n\n만장일치의 판결은 아니었지만, 많은 참석자들의 지지를 받았습니다. 전 세계의 [ROOT.Char.GetFaith.GetAdjective] 공동체가 여기서 일어난 일에 대해 알게 되기까지는 시간이 걸리겠지만, 이것이 #italic 크웨도다#!에 대한 논쟁을 완전히 해결하여 좋은 생각, 좋은 말, 좋은 행동을 장려하는 데 집중할 수 있기를 바랍니다.\n\n#Bold 따라서 [ROOT.Char.GetFaith.HighGodName]께서 #italic 크웨도다#!를 다음 사이에서 의도하셨다는 결론을 내렸음을 알립니다:#!" # 612867e2e562d46e162b2fd8e07a9819f3d195e9
-	yazd.0025.a: "친척 여러분, [ROOT.Char.GetFaith.HighGodNamePossessive]의 의도는 수 세기 동안 잘못 해석되었습니다." # 23f5ad35002c3901398228d0378d9e177dc26889
-	yazd.0025.b: "[ROOT.Char.GetFaith.HighGodNamePossessive]가 인류를 이끄는 방식으로 생각하기에, 가까운 친척은 중요합니다." # 2a89e07d9be199dc022f45d1dc4f031509188f45
-	RICE_yazd_change_xwedodah_warning_tooltip: "#X This decision to determine the $doctrine_consanguinity_name$ [doctrine|E] of [xwedodah_resolver.GetFaith.GetNameNoTooltip] is #bold permanent#!, and cannot be reversed!#!" # null
-	RICE_yazd_keep_xwedodah_tooltip_1: "[GetFaithDoctrine('doctrine_consanguinity_unrestricted').GetBaseName]은 [xwedodah_resolver.GetFaith.GetName]의 $doctrine_consanguinity_name$ [doctrine|E]로 계속됩니다." # 5b319caa8179846b034b91bf3ed0c41f81220d5c
-	RICE_yazd_keep_xwedodah_tooltip_2: "[GetFaithDoctrine('tenet_divine_marriage').GetBaseName]은 [xwedodah_resolver.GetFaith.GetName]의 [core_tenet|E]으로 남아 있습니다." # 1a8f5cac5245c262d504aa7c906929f532ea04ac
-	yazd.0026.t: "[xwedodah_resolver.GetFaith.GetAdjective] 크웨도다에 대한 통치" # 8d95fca1f62d7c931c7592ef531ee32689a50a12
-	yazd.0026.desc.intro: "최근에 [xwedodah_resolver.GetTitledFirstName]께서는 현재의 #italic 크웨도다#에 대한 [xwedodah_resolver.GetFaith.GetAdjective] 이해가 올바른지 아닌지를 토론하기 위해 학자들과 [xwedodah_resolver.Custom('DefaultPriestTitlePlural')]로 구성된 평의회를 소집했습니다. 그들이 토론한 핵심 질문은 그것이 가까운 친족 간의 결혼을 의미하는지 사촌 간의 결혼을 의미하는지였습니다. 다른 신앙을 따르는 사람들은 오랫동안 이러한 이유로 [xwedodah_resolver.GetFaith.GetAdherentNamePlural]을 비난해 왔고, 이는 오랫동안 그들 공동체 내부의 논쟁거리였습니다. 어쨌든, 평의회는 결국 판결에 도달했습니다." # 933579fd6900dc4a80785199795a40b17f024251
-	yazd.0026.desc.no_incest: "다양한 증거와 추론에 따르면, 그들은 #italic 크베도다흐#!가 실제로 사촌 결혼을 의미한다고 주장합니다. 따라서 가까운 친족 결혼은 후대의 타락이자 [xwedodah_resolver.GetFaith.ReligiousText]와 초기 [xwedodah_resolver.GetFaith.GetAdjective] 공동체의 관행에 대한 오해입니다." # 5ae62a138e79e76176c5d4642aeb2fc6e05eb743
-	yazd.0026.desc.yes_incest: "다양한 증거와 추론에 따르면, 그들은 #italic Xwedodah#!가 실제로 부모와 자녀 또는 형제자매와 형제자매 간의 근친혼을 의미한다고 주장합니다. 따라서 현재 행해지는 방식은 정확하며 [xwedodah_resolver.GetFaith.ReligiousText]에 있는 가르침과 일치합니다." # fe732c314c282e9ad36aa65d0e12ae1dd92e8c94
-	yazd.0026.desc.conclusion: "\n\n이 판결이 반드시 구속력이 있거나 절대적인 것은 아니지만, 관련된 사람들의 중요성 때문에 많은 [xwedodah_resolver.GetFaith.GetAdherentNamePlural](이)가 이를 따를 가능성이 높습니다." # 61629a451219bab8e4f19b836f5bf2e982d75de5
-	yazd.0026.a: "[xwedodah_resolver.GetFaith.GetAdjectiveNoTooltip] 신도들은 이것을 어떻게 생각할까요?" # c89b55d45915baeec90f4e667378e868b0b79fab
-	yazd.0026.tooltip: "[xwedodah_resolver.GetFaith.GetName]의 $doctrine_consanguinity_name$ [doctrine|E]에 대한 이 변경 사항은 #bold 영구적#!이며 되돌릴 수 없습니다." # f065bce98a6708878f58c8a1d19a6f38ed799e4f
-	yazd.0027.t: "다바즈다 이맘" # cd630c235e1412f9fd6a5fac2bce15c3d4e2421a
-	yazd.0027.desc.intro: "[yazd_county.GetNameNoTier]의 지역 시아파 공동체의 요청에 따라, 자금을 모아 숙련된 장인과 건축가를 고용하여 #italic Davāzdah Imām#!, 즉 열두 이맘의 성지라고 불리는 영묘를 지었습니다. 도시에서 가장 큰 건물은 아니지만, 여전히 놀라운 건축물입니다. 내부에는 여러 비문이 있으며, 대부분은 코란을 인용하고 있습니다. 그러나 하나는 다음 텍스트를 담고 있습니다.\n\n#italic 신의 만족을 위해 노력하고 그의 보상을 구하는 고귀한 [ROOT.Char.GetTitledFirstNameNoTooltip]께서 이 축복받은 돔의 건설을 명령하셨습니다.#!" # 593b6973ccf292d1f07d8a588a6186af24519a5f
-	yazd.0027.desc.shiite: "저는 시아파 공동체의 친구들을 지원할 기회를 얻게 되어 기쁩니다. [yazd_county.GetNameNoTier]와 세계 다른 곳에서 번영하려면 우리는 함께 협력해야 합니다." # 3896dfc492d018de382ca2aef8714b29cd0e200b
-	yazd.0027.desc.not_shiite: "비록 저는 시아파는 아니지만, [yazd_county.GetNameNoTier]의 시아파 공동체와 좋은 관계를 유지하지 않을 이유가 없다고 생각합니다. 그들이 저의 호의적인 제스처를 인정해 주기를 바랍니다." # 3f86c5628fabc36acdc7d7cada6d66deb2abef0f
-	yazd.0027.a: "이 건물은 분명 우리 도시의 아름다움을 더할 것입니다." # 334439eac2cfbf69192d993e971b32c9194556ad
-	yazd.0028.t: "야흐찰 방문" # da563c94e3c3d51e855c31b6f2e7ce3462b6bb60
-	yazd.0028.desc: "나는 지역 [Glossary( 'yakhchal', 'YAKHCHAL_GLOSS' )]을 방문하여 개인적으로 사용할 많은 양의 얼음을 구매했습니다.\n\n이 얼음은 음식이 상하는 것을 막기 위해 더 낮은 온도에서 보관하는 데 사용할 수 있습니다. 또는 소르베, 차가운 음료와 같은 맛있고 시원한 요리를 만드는 데 사용할 수도 있습니다.\n\n이 얼음으로 할 수 있는 일은 많습니다. 다행히 지역 [culture.GetCollectiveNoun]은 여기에 #italic 야흐찰#!을 관리하고 있습니다!" # 95ed02f2569e45c01369258eaa5bfa3aef8033eb
-	yazd.0028.a: "얼음을 가져갈게요. 감사합니다." # 917a16cb34f5da2071005c24442ef49e168df8db
-	yazd.0029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0030.t: "사데 축제 준비" # 5608a9b2358a58a56409cd496e11c6269fd5154c
-	yazd.0030.desc: "겨울이 돌아왔고, 공기가 차갑습니다.\n\n올해에는 이란의 선조들이 대대로 해왔던 것처럼 성대한 사데 축제를 기념하고자 합니다. 가장 추운 날, #italic 노루즈#! 50일 전에 우리는 모닥불을 피우며 사데를 지킬 것입니다." # 1cd5e4594a8be02d0a3b86b24734b16d35c7ac9d
-	yazd.0030.desc.chak_chak: "[ROOT.Char.GetFaith.GetAdherentName] 신앙을 가진 [yazd_county.GetNameNoTier] 지역을 다스리는 자로서, 인근의 샤크샤크 성지 동굴에서 사데를 기념하기로 결정했습니다. 이곳은 아랍인들이 이란을 정복했을 때, 마지막 사산 왕조 황제의 딸 니크바누가 샤크샤크로 피신했다고 전해집니다. [ROOT.Char.GetFaith.HighGodName]의 자비로운 중재 덕분에 공주는 침략자들을 피해 동굴에서 피난처를 찾을 수 있었습니다.\n\n어쨌든, 사데 기간 동안 샤크샤크에서는 전통적인 의식이 행해집니다. 동굴을 방문하는 것은, 비록 추가적인 계획이 필요하더라도, 저에게 큰 영적인 기회가 될 것입니다." # ea68e857a453f5b51bc1cca81a82d99706ae7062
-	yazd.0030.a: "올해 축제 준비를 시작해야겠어." # 9b6e44a84f6fcccf2f7dc241da48979a00e3215f
-	yazd.0030.b: "차크차크에서 사데를 축하할 수 있어서 기쁩니다!" # b008ddb53aed9e425003f49951741dbaaeffdbd5
-	yazd.0030.c: "올해는 다른 사데 행사 때문에 바빠서 참가할 수 없습니다." # c39ce9c5167191ab968edcb7cfb3ee9b46c67a6d
-	yazd.0030.chak_chak.tooltip: "차크차크로 가면 추가적인 사데 이벤트가 발생할 가능성이 있으며, 이를 통해 [piety|E]가 증가하거나 다른 은총을 받을 수 있지만, 일반적인 사데 이벤트를 경험할 가능성은 줄어듭니다." # 6ff89e5ec17ce7e5c0e18f076a749e1f22fd4f95
-	yazd.0031.t: "사데가 시작됩니다" # 03fd776809bc5e34f289aebfaa91842dd576055e
-	yazd.0031.desc: "사데 축제 밤이 거의 다 되었습니다. 일 년 중 가장 추운 시기일지 모르지만, 우리는 서로에게서, 그리고 우리가 피우는 불에서 따뜻함을 찾습니다. 이란 세계 곳곳에서 멀고 가까운 모든 마을과 마을에서 모닥불이 켜지고 있습니다. 봄의 귀환을 바라는 만큼 서로에게서 기쁨을 찾기를 바랍니다!" # 1b40bdbfd474f0143b2b2cab555a5caca76346cb
-	yazd.0031.a: "알겠습니다. 시작해 보죠." # 82648dbcf5ae2c8b97dc722f2e118ca40555ff7a
-	yazd.0032.t: "사데가 끝나다" # 5174ec9a26c88f4a2fdc21cdf4ab9dfff0ba0256
-	yazd.0032.desc: "사데는 이것으로 막을 내립니다. 모두 즐거운 시간을 보냈으며, 여기저기 피운 모닥불 덕분에 1년 중 가장 추운 이 시기에 따뜻하게 지낼 수 있었습니다. 머지않아 봄이 찾아올 것입니다." # 343f384dc1652b27a2ef2ddf94a0b4a8dbab95a3
-	yazd.0032.desc.no_chak_chak: "아아, 그런 기회는 일 년에 한 번밖에 오지 않으니, 지금은 여기서 마무리해야 할 것 같습니다. 하지만 그때까지, 다음 사데를 기대하겠습니다." # ae22653c205ba64c5bfecf9887cf27f4958376be
-	yazd.0032.desc.chak_chak: "이러한 기회는 일 년에 한 번밖에 찾아오지 않으며, 나는 곧 착착을 떠나야 합니다. 하지만 올해의 사데 기간에 이곳에 와서 의식이 행해지는 것을 보게 되어 기쁩니다. 좋은 경험이었습니다." # 7aa4e336822ff226407065e1d25386b33f18234a
-	yazd.0032.a: "다음 시간까지." # 4bfadc36b58cc19b2932f34d9a44985c6b092f09
-	yazd.0033.t: "모닥불" # d2e3b1f129a6723c5c93bb0c159262b23bca9e75
-	yazd.0033.desc: "사데흐 의식을 위해서는 큰 불을 지필 많은 나무를 모아야 합니다. 신분에 상관없이 모두가 자신의 역할을 다해야 하므로, 저는 필요한 일을 하고 불을 지필 나무를 모으는 데 도움을 주었습니다. 그래서 밤늦게 큰 불을 지필 수 있었습니다." # 5d18bfd854f3b8a936b3689428809f5d0cdf0375
-	yazd.0033.a: "몇 가지 나뭇가지를 가져왔습니다. 크게 일할 필요는 없을 겁니다." # af811c62eef19bae6b8f5f45eb56b53b0f8f35cf
-	yazd.0033.b: "나는 모닥불에 쓸 장작을 꽤 많이 날랐다." # 5ad47b218bc1cd2283588b882b48262ccc15a964
-	yazd.0033.c: "저는 할 수 있는 한 많은 장작을 모으기 위해 열심히 노력했습니다." # 9db2080d58a81e6dcd42be4b8a9049f0c8d835f3
-	yazd.0034.t: "물가의 불" # 9cea163ec23c35210a5f5110ecf37a3876a1ab4a
-	yazd.0034.desc: "오래된 전통에 따르면 흐르는 물이나 오래된 지하 수로인 카나트 근처에 불을 피우는 것이 중요합니다. 이는 [ROOT.Char.GetFaith.FertilityGodName]의 도움으로 식물이 너무 춥거나 얼지 않도록 하기 위함이며, 그래야 다음 해에 식물이 잘 자라 풍성한 수확을 거둘 수 있습니다." # 3d61a04f9e6d13f0967f23832791076ccc051217
-	yazd.0034.a: "이는 의식에서 중요한 부분입니다!" # 2c3ef3c72faa350c0c3dbc4aba9ab6b08c0a674b
-	yazd.0034.b: "도움이 될지는 모르겠지만, 어쨌든 하겠습니다." # 01138b031462d3e0aef9de0dfc3bf947e53d9f00
-	yazd.0035.t: "회고" # cdbc1704be96ed0371aa9d498f39d8b3b606b5cf
-	yazd.0035.desc: "불 근처에 서서, 사데 축제가 보통 새해인 노루즈로부터 약 50일 전에 있다는 것을 생각합니다. 물론 새해가 시작되기를 기다릴 수 없지만, 너무 멀게 느껴집니다! 밤은 춥고, 다음 봄이 무엇을 가져올지 누가 알겠습니까?" # 88f43319031d6852516fd8a626868958581c21f8
-	yazd.0035.a: "나는 불에 더 가까이 몸을 움츠린다." # d4143c4ceb0cea7c2e24df60fd4c78edd8e6dffe
-	yazd.0036.t: "후샹의 전설" # 4966b625924485fe27d52e705cfdfa3751aa3c4c
-	yazd.0036.desc: "사데가 처음 생겨난 시기에 대해서는 많은 상충되는 이야기가 있습니다. 제가 들은 이야기 중 하나는 이란 신화의 고대 영웅 후샹이 용과 싸우다가 일어난 사건 이후에 축하했다는 것입니다. 그는 용에게 돌을 던지려 했지만 빗나갔습니다. 그러나 그 돌은 다른 돌을 쳤고, 둘 다 부싯돌이었기 때문에 불이 붙었습니다.\n\n후샹은 이것이 [ROOT.Char.GetFaith.HighGodName]의 행동임을 깨달았습니다. 그는 후샹에게 불의 비밀을 계시했고, 후샹은 이 중대한 사건을 축하하고 싶어했습니다. 그래서 사데가 탄생했습니다." # bd8609e495a650c3d7b01a256b68299552884a7c
-	yazd.0036.a: "그렇게 일어났는지 확실하지 않지만, 멋진 이야기입니다." # c22d81ac3ea5add1d6b997c6cc17c07a651c0d94
-	yazd.0036.b: "전설은 어느 정도 진실을 담고 있다고 생각합니다." # cd04e8e78fde85f99f7d3e711d4819c2cbb7f4b8
-	yazd.0037.t: "사데 시" # 7ab9630572a11ff73659f62928c419a31ee553c2
-	yazd.0037.desc: "겨울 중 가장 추운 밤인 사데는 많은 이들에게 불의 영광을 묘사하는 시를 쓰도록 영감을 주었습니다. 저는 방금 세 명의 평민이 사데에서 영감을 받은 시를 낭송하는 것을 들었습니다.\n\n한 시는 모닥불을 겨울 풍경에서 피어나는 아름다운 꽃이나 나무, 또는 정원 전체에 비유합니다. 두 번째 시는 이번 행사를 [ROOT.Char.GetFaith.HighGodName]와 [ROOT.Char.GetFaith.DevilName]의 세력 간의 갈등으로 묘사합니다. 마지막 시는 사데의 기원을 허샹과 같은 고대 신화 속 이란 영웅들이 용과 같은 무시무시한 괴물을 살해한 것을 기념하는 것으로 재구성합니다.\n\n어떤 것이 가장 좋다고 생각하시나요?" # 4f302e10fadd67b115f7e8108f7a0e51dd15fc39
-	yazd.0037.a: "불과 자연에 대한 아름다운 시" # e25dbe1f48fa6d605a034c66b3d8cee4091617c8
-	yazd.0037.b: "선과 악에 대한 경건한 시" # 17535e0563f20cd419922731c74d15ee8228b895
-	yazd.0037.c: "용감하고 노련한 영웅에 대한 서사시" # 4b54c790fbc26d408a32f2f526a42d2a06a960f3
-	yazd.0038.t: "사데 축제" # 8874044b971cf93bd72a3b952fd43c9118f2fcb9
-	yazd.0038.desc: "사데는 보통 많은 연회를 위한 시간입니다. 결국 한 해 중 가장 추운 시기이므로 모닥불 외에도 음식과 다른 사람들과 함께 먹는 것은 따뜻하게 지내는 좋은 방법이기도 합니다. 올해 사데 연회는 특히 맛이 좋으며, 구운 양고기와 소고기 등 맛있는 음식을 즐길 수 있습니다." # 92ab853fc20759896cae1c55d26fe3695b50a982
-	yazd.0038.a: "맛있어!" # 43539eaf525d9c5cbfec4839a3b1223d934bed36
-	yazd.0039.t: "가난한 자에게 베풀기" # 359a66e2eaeddb4d5108683d13b59f5cc5b61f86
-	yazd.0039.desc: "사데 기간 동안에는 저녁에 모닥불을 피우기 전에 가난한 사람들에게 음식을 주는 것이 관례입니다. 물론, 저도 올해 도움이 필요한 배고픈 사람들을 돕기 위해 그렇게 했습니다…." # e24a8e821a9a6d898519efd7628761af8600b0ca
-	yazd.0039.a: "" # 825d6b820f2b2ca7b5e630b818d41c27e77ed0de
-	yazd.0039.b: "저는 그들에게 상당한 양의 자선을 베풀었습니다." # 43b8f203dabe3cc4de4c8c807075e7bed29f2a18
-	yazd.0039.c: "제가 매우 관대하게 많은 음식을 나누어 주었습니다." # 73002924f3a1fc20a729c0cf90c54b9739ba86c6
-	yazd.0040.t: "불타는 광경" # 14933423279e29e3ca9577eca8fba6490fc0a047
-	yazd.0040.desc: "요즘 이란 고원의 많은 왕과 영주들은 사데 축제 동안 새와 동물을 불에 태우는 관습을 행하고 있습니다. 즉, 이 야생 짐승들을 불 속으로 몰아넣고, 관중들은 소란을 지켜보며 (가능하면 안전한 거리에서) 먹고 마시며 즐거워합니다.\n\n이슬람교 #italic 과#! 조로아스터교를 포함한 모든 종교의 독실한 학자와 성인들은 이 관습을 잔인하며 자신들의 신앙 가르침에 어긋난다고 비난했습니다. 하지만... 우리가 한다면 #italic 정말#! 재미있을 수도 있습니다. 올해 이러한 볼거리를 시행하도록 명령해야 할까요?" # b0fbf2301d17f9825a77d194a5137e6f8a43895e
-	yazd.0040.a: "[ROOT.Char.Custom('DefaultPriestTitlePlural')]이 그것이 잔인하고 [ROOT.Char.GetFaith.GetAdjective] 가르침에 위배된다고 말하면, 하지 맙시다." # 548f73fc6633ac89f5770407c3f986c59fbd7a21
-	yazd.0040.b: "자, 이제 왜 좀 재미를 볼 수 없는 거지? 동물들이 불타는 걸 보자!" # 92977944aaab933ae24d842b38caaca3202db1ab
-	yazd.0040.info: "#emphasis Historical Context:#! During the medieval period, sources such as the great 11th century Iranian scholar, al-Biruni, mention how animals were essentially lit on fire as part of the Sadeh celebrations. Some like al-Biruni condemned it as cruel and un-Islamic, and his Zoroastrian counterparts seem to share his viewpoint. Still, it appears to have been a popular custom among the Iranian kings of the era. It is possible this practice was not only pre-Islamic, but of non-Zoroastrian origin as well, though if so its original purpose is unknown." # null
-	yazd.0041.t: "춤추기" # af95616b7f7ec8dc63dd69dba4b12a6ce8d4313b
-	yazd.0041.desc: "사데 기간 동안에는 악령과 추위를 막기 위해 거대한 모닥불을 피웁니다. 하지만 우리는 그저 불꽃을 감상하며 서 있는 것이 아니라 춤도 춥니다! 우리는 모두 모닥불 주위에서 큰 원을 만들어 춤을 춥니다." # d3e80e62d6e92dbb3fe9fa86029743f95adad903
-	yazd.0041.a: "물론, 저도 춤에 합류합니다 – 왜 안 그럴까요?" # 752c109ed0915f9f476dbf9e15d74ba1242fe6da
-	yazd.0041.b: "나는 모두가 즐거운 시간을 보내는 것을 보며 편안히 있기로 결정했습니다." # 5dae9937c24a4a24ff21cfeee6e710409e630809
-	yazd.0042.t: "차크차크" # 3e2dd4ed84e85e0fae1f7a3659af4f2caad871ab
-	yazd.0042.desc: "많은 이들이 큰 모닥불을 피우며 마을에서 사데 축제를 즐기는 대신, 저는 이 중요한 축제 동안 더 영적으로 충만한 일을 할 기회를 얻었습니다. [yazd_county.GetNameNoTier] 주변 지역의 관습대로, 저는 사데를 기념하기 위해 차크차크 동굴로 갈 것입니다.\n\n적어도 그 여정이 최악은 아닙니다. 사막의 일부를 건너야 하지만, 그곳까지 가는 데는 하루 정도밖에 걸리지 않습니다.\n\n차크차크의 절벽이 눈에 들어오는 것은 정말 반가운 광경입니다. 하지만 그곳의 사원을 보게 되면 걸어서 여행을 계속해야 하는 것이 관습입니다. 게다가, 지역 마을 사람들은 이미 사데를 준비한 것 같습니다." # dbfe3310a6d68b4ca3e3ce068a603275d3ffbd05
-	yazd.0042.a: "걸어서 여행을 마칠 시간입니다." # 86d9139287373dcdba643cbc66e5880fb38d7eaf
-	yazd.0043.t: "신성한 물" # a4eaed72570f53dc1962ef961eb54f025d09fab4
-	yazd.0043.desc: "차크차크에서 사데 축제를 기념하는 동안, 많은 예배자들은 그곳에서 끊임없이 떨어지는 성스러운 샘물을 마실 기회를 얻습니다. 전설에 따르면 이 샘은 사산 왕조의 공주 니크바누를 기억하기 위해 산이 흘린 눈물로 형성되었다고 합니다." # 5c9ce2906d8d005a404f5543414f2459877c864b
-	yazd.0043.a: "이 물을 마시는 것은 축복입니다." # 2c6b6711888432bc9793a4084c331372ad7314cc
-	yazd.0044.t: "니크바누의 지팡이" # 2d1fdd5eaa27027fa4991f80a158b315c729f0fd
-	yazd.0044.desc: "차크차크의 성스러운 샘 근처에는 니크바누의 지팡이에서 자랐다고 전해지는 고대 나무가 있습니다. 그 나무는 인상적이고 위엄 있는 모습이며 많은 경외감을 불러일으킵니다." # dd042f88787e02404fbbbb9b911da6e9111c801d
-	yazd.0044.a: "세월이 그렇게 흘렀는데도 아직 여기에 서 있다니." # 76523e391b367dae651062c301ef4cb635cbc966
-	yazd.0045.t: "영원한 불꽃" # 1210e8754132602a975831e06471d41fd4753ee2
-	yazd.0045.desc: "차크차크 동굴 안의 불은 오랜 세월 동안 타올랐으며, 이는 [ROOT.Char.GetFaith.HighGodName]의 영광과 신성함뿐만 아니라, 밤낮으로 불이 꺼지지 않도록 열심히 일하는 [ROOT.Char.Custom('DefaultPriestTitlePlural')]과 다른 평신도들의 증거이기도 합니다. 사데 기간에는 지금과 같이 특별한 의식이 그 주위에서 열립니다." # cbce0d436b6d123eb9fe54f07aeeba8c96215cc8
-	yazd.0045.a: "그들 덕분에 사데 축제 동안 여기서 타오르는 불을 볼 수 있습니다." # 9ab2869fa0d2f8bfd0a255cc42ac0e0e2ce26ec0
-	yazd.0046.t: "좋은 생각, 좋은 말, 좋은 행동" # 148199a4640e1fd8625ed5397d22eed627acda9a
-	yazd.0046.desc: "차크차크의 영원한 불 옆에 서서 사데 의식에 참여하면서, 나는 [ROOT.Char.GetFaith.GetAdjective] 신앙의 진정한 본질을 기억합니다. 좋은 생각, 좋은 말, 좋은 행동. 우리 모두가 그것을 실천하는 한, 정의와 행복은 항상 이 세상에 존재할 것이며, 내 앞의 불이 항상 밝게 타오르는 것처럼 말입니다." # 43a865fc10a38186adcceb89528004b8ca0e581c
-	yazd.0046.a: "이것을 기억해야 합니다." # 1756c428648c04c91759b0925f294dc3767be8ac
-	yazd.0047.t: "기부" # a2e2fff53201f734d6ae434aa5a5427c6a6b52ff
-	yazd.0047.desc: "차크차크 동굴 사원에 방문하는 동안, 저는 순례자들과 저와 같은 방문객들로부터 기부금을 받을 수 있도록 마련된 쟁반들을 보았습니다. 이러한 쟁반은 [ROOT.Char.Custom('DefaultPriestTitlePlural')]이 불확실한 시대에 이 성스러운 신전을 유지하는 데 필요합니다. 이곳에 있는 동안 기부금을 내는 것이 좋을지도 모르겠습니다." # 4ca17ce674043f467715274d6c21bcf4356b4cf5
-	yazd.0047.a: "저는 이미 일 년 내내 [ROOT.Char.Custom('DefaultPriestTitlePlural')]을 돕고 있습니다. 왜 더 주어야 합니까?" # 42184115af0b5b111135c7b46fb736ac4a426f3e
-	yazd.0047.b: "네, 이 정도면 약간의 동전으로도 충분할 것입니다." # 84a7feb44b8d35b9e926409552ed067d1885047d
-	yazd.0047.c: "이곳에 상당한 양의 금을 기부하는 것이 좋을 것 같습니다." # c701b5390014d590c6eeb090404808ff53c55889
-	yazd.0047.d: "[ROOT.Char.GetFaith.HighGodName]께 영광을! 제가 큰 기부를 하겠습니다." # cff1708f025bca5b10ccbb2ebf51f9d22bd7f2ae
-	yazd.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0050.t: "야즈드의 고대 보물" # 2a48b231a4d5eef4b4c9cde81836460787113c63
-	yazd.0050.desc: "[yazd_county.GetNameNoTier]에는 잃어버린 보물에 대한 전설이 많이 있으며, 이 지역에서 여러 세대에 걸쳐 전해져 왔습니다. 이 이야기를 믿는다면 보물은 수세기 동안 고대 이란 왕조에 의해 묻히거나 숨겨졌다고 합니다.\n\n물론, 그러한 발견이 표면화되어 평판이 좋은 사람들에 의해 확인된 적은 거의 없습니다. 예를 들어, 최근에 [yazd_county.GetNameNoTier] 영토 내에서 그러한 보물 하나가 발견되었다는 이야기를 들었습니다. 하지만 오해를 불러일으키는 보고로 판명되었습니다." # 323b049cb9e57f3c896f7339836454f974649d81
-	yazd.0050.a: "언젠가 우리도 이 전설적인 잃어버린 보물 중 하나를 찾을 수 있을지도 모릅니다." # 032b2b37dff8b4dde986775ab15f3ac9b89994b7
-	yazd.0050.b: "이 어리석은 민속은 시간 낭비이지만, 사람들은 계속해서 믿고 있어요!" # 4e6cda1efdcccc0c02e05003a5035d8510b92703
-	yazd.0051.t: "카나트 계약" # 267587497e7cf663050007590cd56cd601253010
-	yazd.0051.desc: "[yazd_county.GetNameNoTier]의 카나트 제작자들은 수년간 카나트 제작 능력으로 명성을 얻었으며, 이란 세계에서 최고로 여겨집니다. 최근에는 상당수가 지역 내 다른 지역에서 카나트를 건설하는 계약을 체결했습니다. 이것은 그들의 명성을 더욱 높일 뿐입니다." # a598f94be5ebee0362bed5b227c5e0e813bbd5d2
-	yazd.0051.a: "나는 그들의 성공이 기쁩니다." # 18f3b9541c8dc2763ff174743d432b92fb70f032
-	yazd.0052.t: "학자들과 정원" # 9d295ad36940e5caef2bd2848d7b26803bd23f4f
-	yazd.0052.desc: "[yazd_county.GetNameNoTier]가 계속 성장하고 더 많은 학식과 교양을 갖춘 사람들이 정착하면서, 그들 중 많은 이들이 도시 정원의 아름다움을 칭찬하고 있습니다. 많은 유명한 정원들은 그곳에 살았고 정원 건설에 필요한 기금을 기부한 과거 유명 인사들을 기리기 위해 건설되었습니다. 오늘 저는 지역 학자들과 만나기 위해 이러한 정원 중 하나를 방문했습니다. 저는 때때로 이렇게 합니다. 우리가 거기서 휴식을 취하며, 여러 가지 문제에 대해 유쾌하게 이야기했습니다." # 2555302297bbd26c8aab5d53f20f7b16b7ab1cc3
-	yazd.0052.a: "이 학자들이 제게 매우 유익한 조언을 해 주었습니다!" # 9e0507d22ffdf526914b77e16ef20a74698b914d
-	yazd.0052.b: "지위를 유지하기 위한 지루하지만 필요한 형식적인 절차입니다." # 85adc1c75bf72afa435510fd3cde702adc84a62c
-	yazd.0052.c: "그들에게서 배우는 지혜는 나를 [ROOT.Char.GetFaith.HighGodName]께 더 가까이 다가가게 합니다." # 1d83f36a730db2ac8ac9dffabdbbb33618bfdd7f
-	yazd.0053.t: "사원을 교체하시겠습니까?" # e0698b91c653bb3f8492f4605ea1097d21b5e3dc
-	yazd.0053.desc: "[yazd_county.GetNameNoTier]는 한때 조로아스터교 숭배의 중심지였기에, 조로아스터교 공동체가 여전히 사용하고 있는 사원이 도시 곳곳에 많이 있습니다. 하지만 저의 지도력 아래 [yazd_county.GetNameNoTier]에서 [ROOT.Char.GetFaith.GetAdherentNamePlural]의 숫자가 계속 늘어나고 있으며, 그중 일부는 새로운 [ROOT.Char.GetFaith.HouseOfWorship] 건설 자금 지원을 요청했습니다.\n\n과거에는 [yazd_county.GetNameNoTier]의 조로아스터교 사원을 새로운 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetFaith.HouseOfWorship]로 대체하여 확장하는 [ROOT.Char.GetFaith.GetAdjective] 공동체의 영적 요구를 충족시킨 적이 있습니다. 저는 지금 당장 그런 일을 하도록 명령하는 것을 고려하고 있지만, 그렇게 하면 긴장된 관계를 유지하고 있는 지역 조로아스터교도들의 심기를 불편하게 할 수도 있습니다." # b32a557391f0a074215362dc49ff0e756755cd16
-	yazd.0053.a: "우리의 권리대로, 옛 사원을 허물고 [ROOT.Char.GetFaith.HouseOfWorship]을 지으십시오." # 6d32e1ee1c7bfe6adffa0f50b3226fea904cb2a5
-	yazd.0053.b: "우리는 충분한 [ROOT.Char.GetFaith.HouseOfWorshipPlural]이 있습니다. 이웃들과 잘 지내야 합니다." # 5068fc6a5863125519b9660c9f4e1739dec76f5c
-	yazd.0054.t: "새로운 건물?" # 49c759f7acf7f70634139f20b72553d651d74be9
-	yazd.0054.desc: "#italic 숭배의 처소#!로 유명한 [yazd_county.GetNameNoTier]는 종교와 상관없이 주민들의 신앙심으로 명성이 높지만, 그러한 평판이 사실인지 여부는 중요하지 않습니다. 저와 같이 도시에서 살거나 연줄이 있는 많은 엘리트들은 그곳에서 다양한 성스러운 건축물을 세우는 데 후원할 기회를 자주 찾습니다.\n\n어쨌든, 저는 현재 그러한 기회 중 하나를 손에 넣었습니다. 마을의 빈터에는 [ROOT.Char.GetFaith.GetAdjective] 공동체의 필요를 충족할 수 있는 아름다운 건물이 들어설 수 있습니다. 결코 큰 건물은 아닐 것이고, 아마도 다소 초라할 수도 있지만, 건설 자금을 기부한다면 저에게 좋은 평판을 가져다줄 수 있을 것입니다." # 25cedff223d44f39d6023e053a71b167ec6c70a9
-	yazd.0054.a: "현지인들이 예배하고 기도할 수 있도록 그곳에 [ROOT.Char.GetFaith.HouseOfWorship]을 건설하십시오." # bd09945c2040b999a3145297818096df9d817192
-	yazd.0054.b: "그곳에 학교를 세워 젊은 세대가 [ROOT.Char.GetFaith.ReligiousText]로부터 배울 수 있게 하십시오." # 9988b08c6b9eda55ce75243e864447c43322af6f
-	yazd.0054.c: "지역 주민들에게 영감을 주기 위해 인기 있는 [ROOT.Char.Custom('DefaultPriestTitle')]을 기리는 영묘를 건설하십시오." # 6a41e8a552c5efcbdd95ead749c4de4aa3ee7715
-	yazd.0054.d: "저는 지금 건설 프로젝트 후원에 관심이 없습니다." # a71df252d5da626303266b4d24e83ac209481116
-	yazd.0055.t: "야즈드 비단" # 0937e8c08e30903cd63dd30fe0cd30132ec2649f
-	yazd.0055.desc: "[yazd_county.GetNameNoTier]는 오랫동안 이란에서 비단 생산의 지역 중심지 중 하나였습니다. #italic 야즈디#!라고 불리는 이 비단은 중국 비단의 품질에는 미치지 못하지만, 여전히 괜찮은 가격에 거래되며 도시의 인기 있는 수출품 중 하나입니다.\n\n최근에는 경제의 다양한 변화나 다른 곳에서의 수요 증가로 인해 더욱 인기를 얻고 있습니다. 어쨌든 이로 인해 도시 상인들은 더 큰 이익을 얻고 있습니다." # 4062447d086ea9f78e532939f41caba769a2f8b4
-	yazd.0055.a: "좋아요! 좋은 소식이네요!" # 1bac8664a5816887f935dff430c725021d80c722
-	yazd.0056.t: "사르브 아바르쿠" # 497e05e9c59bf9d2c6fc647cf189ccaa825895af
-	yazd.0056.desc: "오늘 저는 [yazd_county.GetNameNoTier]에서 그리 멀지 않은 [abarquh_barony.GetNameNoTier]를 방문하고 있습니다. 지나가는 길에 주목할 만한 랜드마크는 #italic 사르베 아바르쿠#!, 즉 아바르쿠의 사이프러스입니다. 나무는 매우 오래되고 장엄하며, 현지 조로아스터교인들은 이 나무가 아주 오래전 조로아스터 자신이 심었다고 주장합니다." # 12254cd03b65dcc4d3744eb746a7557652135402
-	yazd.0056.a: "조로아스터가 직접 심었을 것이라고는 생각하지 않지만, 예쁜 나무입니다." # 75a4785d1940a49a4f5657abe7c2fb2abaefe5a5
-	yazd.0056.b: "비록 저는 [ROOT.Char.GetFaith.GetAdherentName]이지만, 저 나무를 보니 경외감이 느껴집니다." # 259165f17f60b407a74edb5fad75351452454fa4
-	yazd.0056.c: "이렇게 고목을 볼 수 있다니 영광입니다! 잠시 쉬어가야겠어요." # 10fe71f8bdbc99558b846631f186ad9f8ea996cf
-	yazd.0056.d: "[ROOT.Char.GetFaith.GetAdherentName]로서, 저는 그것에 대해 별로 신경쓰지 않습니다." # 2cbfcf5ffdc705d4f8cd2c8f6fcc9de181b882a3
-	yazd.0056.e: "이곳은 신성한 장소입니다. 여기 있는 동안 잠시 기도해야겠습니다." # 4947ee72d5309a0319de337b423dcb6a19ef708f
-	yazd.0057.t: "사막의 보석" # bcf1e26a4014d0039ee974feb044fc3123f74c81
-	yazd.0057.desc: "저는 [yazd_county.GetNameNoTier]에서 중요한 고위 인사를 모시고 도시의 경이로움을 보여주고 있습니다. 그가 가장 감탄하는 것 중 하나는 도시의 수많은 카나트 수로와 바람 포획 장치입니다.\n\n"진실로 [yazd_county.GetNameNoTier]는 사막의 보석이오,"라고 그 사람이 말했습니다. "이토록 훌륭한 편의 시설을 갖추고 있으니."" # c04d0821900ea494904b1743c27a6ed90cbbed6e
-	yazd.0057.a: "정말 동감합니다. 정말 아름다운 곳이에요!" # 7dac421a617b56e90e6f8c44ec1524ad5a5674bf
-	yazd.0057.b: "현지인들의 노고가 없었다면 불가능했을 것입니다." # 43f3b3ea3fff1e8365df2c20e6a7324856fe15c8
-	yazd.0058.t: "야즈드의 바클라바" # 85138ef00a420cad7c20e813516e744b4452660b
-	yazd.0058.desc: "수 세기 동안 [yazd_county.GetNameNoTier]는 이란 전역에서 최고의 바클라바를 만드는 곳으로 알려져 왔습니다. 저는 제 통치 하에 있는 일부 현지인들에게 선물로 받은 바클라바를 맛볼 기회를 얻었습니다. 이란에서 만든 바클라바는 다른 지역의 바클라바보다 약간 가벼우며, 독특한 특징은 시럽에 장미수와 카르다몸 향이 강하게 난다는 것입니다." # 7c23ed51377ed60a07970b98c867845cedf37d07
-	yazd.0058.a: "맛있는 바클라바… 정말, 정말 맛있어." # b8dd8b4d3a362a948c68164e974da6f32e058a95
-	yazd.0059.t: "사막 여행" # fdad963933f67d127f5755e214c04d2a28460430
-	yazd.0059.desc: "오늘 저는 [yazd_county.GetNameNoTier]에서 그리 멀지 않은 마을로 잠깐 다녀와야 했습니다. 하지만 집으로 돌아오는 여정은 조금 힘들었습니다. [yazd_county.GetNameNoTier]는 두 사막, #italic 다슈트-에 카비르#!와 #italic 다슈트-에 루트#! 사이에 있어서 정착지 주변의 황무지는 종종 타는 듯한 건조한 곳입니다. 땀을 흘리고 지쳐서, 마침내 도시에 들어섰을 때 안도했습니다! [yazd_county.GetNameNoTier]의 정원, 카나트, 풍력 포집기는 사막에서 긴 하루를 걸은 후 활력을 되찾게 해주는 낙원처럼 느껴집니다." # 28e2508f059c3ce577c7f9f9384f7c5876947ba3
-	yazd.0059.a: "다행히 도착했어!" # 9d2a1a7fcb20514377bc444c7d55cf32ebf7fe08
-	yazd.0060.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0060.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0060.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0061.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0061.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0061.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0062.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0062.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0062.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0063.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0063.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0063.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0064.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0064.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0064.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0065.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0065.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0065.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0066.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0066.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0066.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yazd.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  dynn_kharijite_bam: "바미" # cfaaa67f6159d675234a7d2938ebb349030cb3ef
+  dynn_sebuk_eri: "세뷔케리드" # d48b82543be1db098dadf29c89343b575b360ad7
+  dynn_abd_al_rahman_kharijite: "카루키" # 8340bdee68e32152f0aa19b72be1e8aa95478879
+  dynn_akhdarid_kharijite: "아크다리드" # a5282ec1fc30548ddb70ac25253492001c2f7f9e
+  dynn_uzayr_bin_al_sari: "알사리" # 4f1adb4bbbcb09235debc1095eeace80d8ffbc2d
+  Akhdar: "아크다르" # 5569e673097c9ab819b4d7e43262d9ff71ee7545
+  Uzayr: "'우자이르'" # abe754271cabe538e72e6564aabd9ca5509f4bd8
+  RICE_sebuk_eri: "세뷔크에리" # 375b3007655c98f3de0091f450567fa3c3ec3e8d
+  innovation_RICE_qanats: "카나트" # a9f6462c5cb4ba2d0522499c4fb540bfcc26d091
+  innovation_RICE_qanats_desc: "중동과 북아프리카의 많은 지역에는 물이 가장 필요한 곳으로 물을 운반하도록 설계된 특수한 운하와 지하 수로망이 있습니다. 카나트, 포가라, 카리즈 등으로 알려진 이러한 공학적 업적은 고대 페르시아 시대부터 존재해 왔습니다." # e10995ff4e6566ab0cc744c6b607cdb987b7ba61
+  RICE_yazd_qanat_decision_unlock: "#V [결정|E]을 내려 #V $RICE_yazd_build_a_new_qanat$#! 할 수 있습니다" # ad47548adb1564a4a5d7bcdd84ee9765ed7f6829
+  RICE_yazd_jays_al_sorat_spawn_event_troops: "제이쉬 알-쇼라트" # b28494216e9572bf3efdabb7a40ca40f2d3a1b31
+  RICE_qanat_region: "카나트 기술을 활용하는 지역" # cdd3b616ddab4d2be8491463c28b19deb0085623
+  RICE_every_persian_turkic_county: "$heritage_turkic_name$ [heritage|E] 문화권인 [GetGeographicalRegion('world_middle_east_persia').GetName] 내에서 당신이 [완전하게 통제|E]하는 모든 [백작령|E]" # 99b236ac164fa0926d17d3d68daa0d11d50e4d25
+  RICE_dynn_ibn_rusta: "이븐 루스타" # 02f0f8b640d29cc323496434bc373279500e4ca2
+  RICE_dynn_yaqubi: "야쿠비" # 9b361826ebf742e674eed67c26f3e530f8b2aaf3
+  innovation_RICE_yakhchals: "야크찰" # 21804a9bf16984974c58f0930b8c46b2bfe1a220
+  innovation_RICE_yakhchals_desc: "고대부터 이란 고원, 특히 건조한 기후에 사는 사람들은 [Glossary( 'Yakhchals', 'YAKHCHAL_GLOSS' )]로 알려진 얼음 창고를 사용했습니다. 이것은 음식을 보존하거나 소르베 또는 차가운 와인과 같은 냉각된 요리를 준비하기 위해 장기간 동안 얼음을 저장하도록 훌륭하게 설계되었습니다." # 5e3fa6d0a9ad108284fe92cde51a693716477def
+  RICE_yakhchals_decision_unlock: "이 [문화|E]의 [수도|E] 또는 [거주지|E]를 가진 [통치자|E]를 위해 [결정|E] $RICE_yazd_purchase_yakhchal_ice$을 해제합니다." # 0d0e173622559ddf43d58b9c2254772763ce6a94
+  RICE_yazd_aspiration_qawurd_desc: "#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$[GetTitleByKey('e_persia').GetNameNoTier]의 [ruler|E]가 되십시오.\n$EFFECT_LIST_BULLET$[GetTitleByKey('k_persia').GetNameNoTier]와 [GetTitleByKey('k_mesopotamia').GetNameNoTier]를 [completely_control|E]하십시오.\n$EFFECT_LIST_BULLET$$heritage_turkic_name$ [heritage|E]의 [culture|E]를 유지하십시오.\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET##V 500#! [GetMaA('horse_archers').GetName] [special_troops|E]를 받습니다.\n$EFFECT_LIST_BULLET$[GetGeographicalRegion('world_middle_east_persia').GetName]에서 통치하는 모든 [county|E]가 $heritage_turkic_name$ [heritage|E]의 [culture|E]일 경우, @control_icon! #V [EmptyScope.ScriptValue('RICE_yazd_qawurd_aspiration_control_bonus')]#! [control|E]를 획득합니다.\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$알프 아르슬란과 그의 주요 후계자인 말리크 샤가 사망했는지 확인하십시오(보상: 각자 @prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#!, 직접 둘 다 죽인 경우 @prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#!)." # 9b7253bd8fd20d5712434aa864b97e6fb49285b8
+  RICE_yazd_historical_aspiration_action_qawurd: "#italic 당신은 당신 가문의 가장 고귀한 왕자임에도 불구하고 셀주크 제국을 다스리지 못하는 것은 치욕스러운 일입니다.  당신은 셀주크 제국의 옛 전통을 되찾고, 마땅히 당신의 것이어야 할 왕위에 오르기를 원합니다.#!$RICE_yazd_aspiration_qawurd_desc$" # 97089a6eab8c593935ac1f15761203a4dc5dd34b
+  RICE_yazd_historical_aspiration_modifier_desc_qawurd: "[GetModifier('RICE_yazd_aspiration_claim_seljuk_throne').GetNameWithTooltip]" # 84a714bfbda6b4266a0a8ba9263b7c7151f86e89
+  RICE_yazd_sadeh_festival_host_memory: "[GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName] 축제를 기념했습니다" # ce1f3c825e63445599995d9793c2f21458e2b20b
+  RICE_yazd_sadeh_festival_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName]를 축하했습니다" # 2285b4c782d03aa64e264bfc12f3d9a71bfa5146
+  RICE_yazd_sadeh_festival_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName]을 기념했습니다." # 00e1e5aa55901e29eff324986077aa17f2b2d0f1
+  RICE_yazd_sadeh_festival_host_memory_third_perspective: "[owner.GetName]님이 [GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName]을(를) 기념했습니다" # d5a655b9ca661d5d7f1a057f0c57fbfbe7d5d268
+  RICE_yazd_sadeh_festival_guest_memory: "[GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName]를 [host.GetTitledFirstName]와 함께 축하했습니다." # 43563650d5321bbf43341ca146cfb2a9c51f5ba5
+  RICE_yazd_sadeh_festival_guest_memory_first_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName]를 축하했습니다" # b774e94ef8f88eae0cd2527e92ec7ce394098c01
+  RICE_yazd_sadeh_festival_guest_memory_second_perspective: "[host.GetTitledFirstName] 님과 함께 [GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName] 축제를 축하했습니다" # 19721c6653dbefd7e738c2b90b1ba52ebc66667b
+  RICE_yazd_sadeh_festival_guest_memory_third_perspective: "[owner.GetName]이 [host.GetTitledFirstName]과 함께 [GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName]을 축하했습니다" # c00abb019337fde038fc55e66719a2f8896fdf9e
+  activity_yazd_sadeh_festival_host_an_a: "$host_activity_a$" # a61241acadcc9f0c0c58e8a6756d1532a43a0ac3
+  activity_yazd_sadeh_festival: "사데 축제" # dc89656e38291cac5756603ce71502876cf1748b
+  activity_yazd_sadeh_festival_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 사데 축제" # 320d8b4ac2b4571d90e56321cfce3a8d5e69d2e8
+  activity_yazd_sadeh_festival_chak_chak: "차크차크의 사데흐 축제" # 9a6039c5073d15a350c5692d6709a4b436562f33
+  activity_yazd_sadeh_festival_chak_chak_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 차크차크의 사데 축제" # 7b6418194dd49f4a0fc7d6cb691054ec19fe5554
+  activity_RICE_yazd_sadeh_festival: "사데 축제" # dc89656e38291cac5756603ce71502876cf1748b
+  activity_RICE_yazd_sadeh_festival_desc: "겨울의 추위가 온 땅을 휩쓸 때, 이란 세계의 전통적인 겨울 축제인 사데 축제가 열릴 때입니다." # a2c65e894641c8fe968fede0b06d2bfa874a548a
+  activity_RICE_yazd_sadeh_festival_selection_tooltip: "당신의 [capital|E]에서 성대한 사데 축제를 개최하십시오.\n\n$RICE_yazd_celebrate_sadeh_festival_context_tooltip$" # e58c313a25c3e6507023a0f62b8d3ee79f9c9b72
+  activity_RICE_yazd_sadeh_festival_host_desc: "\n$BULLET_WITH_TAB$[prestige_i] [위신|E]\n$BULLET_WITH_TAB$[piety_i] [신앙심|E]\n$BULLET_WITH_TAB$ [스트레스_손실_i|E] [스트레스|E] 감소\n$BULLET_WITH_TAB$ [GetModifier('RICE_yazd_recently_celebrated_sadeh').GetNameWithTooltip] [캐릭터_modifier|E]" # 5721df9ccf154c21ac846cb19a8c38fea54fc37b
+  activity_RICE_yazd_sadeh_festival_guest_desc: "$activity_RICE_yazd_sadeh_festival_host_desc$" # d5003ba3861d4884f72a1a7b702693ef0afc6c14
+  activity_RICE_yazd_sadeh_festival_destination_selection: "$activity_RICE_yazd_sadeh_festival_province_desc$" # c3136fab2575ffdacdd8ea02f93f589ea2c73b26
+  activity_RICE_yazd_sadeh_festival_guest_help_text: "$activity_RICE_yazd_sadeh_festival$" # 8c77c1e98d31e9913a5cd7cb417a16e182595a43
+  activity_RICE_yazd_sadeh_festival_predicted_cost: "온천 방문 비용은 선택한 [activity_options|E]에 따라 달라집니다." # 1f90912192fa10393a1549b25d7919678f52c08e
+  activity_RICE_yazd_sadeh_festival_conclusion_desc: "[GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName] 축제가 끝났습니다. 재미있고 편안한 경험이었습니다!" # 7decd8b8a2f6448351a1605150684bf3708013cf
+  RICE_yazd_sadeh_festival_type: "축제 유형" # e6d4cfb2413a390962e6d9f9de7bd6a98c2d91f1
+  RICE_yazd_sadeh_festival_type_modest: "소박한 축하" # b47cb80e836871b1b4c715d992875d712bb2bcfe
+  RICE_yazd_sadeh_festival_type_modest_desc: "$EFFECT_LIST_BULLET$ 당신의 [court|E]에서 소박하고 평범한 사데 축제가 열릴 것입니다.\n$EFFECT_LIST_BULLET$다른 행사에서 얻는 축복 외에 추가 [prestige_i|E] #V 50#!을 얻습니다.\n\n#weak 사데는 중요한 축제 기간이지만, 과도하게 흥청망청하지 않도록 주의하고 검소하게 축하해야 합니다.#!" # 87945cbdc210ae0225bec7437010153b8df1c660
+  RICE_yazd_sadeh_festival_type_grand: "대규모 축제" # f5880c12a5874f61c0d202acb365657621227080
+  RICE_yazd_sadeh_festival_type_grand_desc: "$EFFECT_LIST_BULLET$ 올해 사데 축제를 위해 [court|E](이)가 더 많은 자원을 소비합니다.\n$EFFECT_LIST_BULLET$ 다른 이벤트에서 얻는 보상 외에 [prestige_i|E] #V 150#! 추가 획득\n\n#weak 사데는 1년 중 가장 추운 시기입니다. 악과 어둠을 몰아내기 위해 이 행사는 정말 축제 분위기여야 합니다!#!" # e9328e9264261b97c472cfdfc0229371e10f999f
+  RICE_yazd_sadeh_festival_type_chak_chak: "착착 축하하다" # 9876ef054b0a0977f707b501d68ca6bb3b753c94
+  RICE_yazd_sadeh_festival_type_chak_chak_desc: "$EFFECT_LIST_BULLET$ 당신의 [court|E]는 [GetTitleByKey('c_yazd').GetName]의 차크차크에서 사데 축제를 개최합니다.\n$EFFECT_LIST_BULLET$ 다른 보너스 외에 추가 [piety_i|E] #V 150#! 획득\n$EFFECT_LIST_BULLET$ 일반 [modifier|E] 대신 [GetModifier('RICE_yazd_recently_celebrated_sadeh_chak_chak').GetNameWithTooltip] 획득\n$EFFECT_LIST_BULLET$ $yazd.0030.chak_chak.tooltip$\n\n#weak 특별한 [GetPlayer.GetFaith.GetReligion.GetAdjective] 의식이 사데 기간 동안 차크차크에서 거행됩니다. 우리가 [GetPlayer.GetFaith.GetAdherentNamePlural]로서 우리의 헌신을 증명하려면 가능한 한 의식에 참여해야 합니다!#" # d15976b45eb76729ab1ab71df7c05532271a7922
+  RICE_yazd_sadeh_festival_festival_phase: "축제" # 9f8f3e5fcd08ed686abc7d3496b40d92f2b4aa57
+  RICE_yazd_sadeh_festival_festival_phase_desc: "사데흐 축제가 한창입니다!" # 70035bb06f2c6c020cb73555b18967d35e018127
+  RICE_yazd_sadeh_festival_fun_intent_header: "재미:" # 322fbf035e859eb1e143af11523f4fd20da7a848
+  RICE_yazd_sadeh_festival_fun_intent: "재미" # 5f941ab65fbabe87f41cd73c9136f5a4c97087e8
+  RICE_yazd_sadeh_festival_fun_intent_desc: "사데에서 즐거운 시간을 보내고 싶으실 겁니다. [스트레스|E]를 반드시 잃을 것이며, [GetTrait('gregarious').GetName( GetNullCharacter )] 또는 [GetTrait('gluttonous').GetName( GetNullCharacter )]라면 더 많은 스트레스를 잃게 될 것입니다." # e4064c8b743395c7df12ddad9656c07c61795c81
+  RICE_yazd_sadeh_festival_spectacle_intent_header: "구경거리:" # 31cfd3ceac7162def4148f66bd4433b21680acab
+  RICE_yazd_sadeh_festival_spectacle_intent: "구경거리" # c947a52724f0bd6c943d7bcf5e65982d81d8eba0
+  RICE_yazd_sadeh_festival_spectacle_intent_desc: "사데를 통해 궁정의 위엄과 권력을 과시하고자 합니다. [GetTrait('ambitious').GetName( GetNullCharacter )|U], [GetTrait('diligent').GetName( GetNullCharacter )], 또는 [GetTrait('arrogant').GetName( GetNullCharacter )] 특성을 가진 캐릭터는 추가로 [stress|E]를 잃을 수 있습니다. [king|E] 및 [emperor|E] [rank|E] 캐릭터는 소량의 [grandeur|E]도 얻을 수 있습니다." # e3e977fe85ce59e5948cef7e4699c06d51bec513
+  RICE_yazd_sadeh_festival_poetry_intent_header: "시:" # 95be945f057f4364012dcbe8d2f844288e645842
+  RICE_yazd_sadeh_festival_poetry_intent: "시" # 4674e99addb91f6b978622eaea1b97fb5cabc488
+  RICE_yazd_sadeh_festival_poetry_intent_desc: "사데 축제 동안 영감을 얻거나 시를 쓰고 싶습니다. 시에 관한 이벤트가 발생하여 유익한 [modifier|E]를 얻을 수 있습니다. 또한 이 이벤트(일반적으로는 아님)를 통해 [prestige|E]와 [piety|E]를 얻게 됩니다." # f18be4eea1711283ea2c85d681a65151a934e1f6
+  RICE_yazd_sadeh_festival_zoroastrian_intent_header: "후마타, 후크타, 후바르슈타:" # 842a3cddf10fd30a625d268de83e7182ea530c6b
+  RICE_yazd_sadeh_festival_zoroastrian_intent: "후마타, 후크타, 후바르슈타" # eb87ce99a5cecc3a95acbfd9177e16e521da7056
+  RICE_yazd_sadeh_festival_zoroastrian_intent_desc: "당신은 올해의 중요한 시기 동안 좋은 생각, 좋은 말, 좋은 행동(#italic humata, hukhta, huvarshta#!)에 집중하고 싶어합니다. [GetTrait('zealous').GetName( GetNullCharacter )|U], [GetTrait('just').GetName( GetNullCharacter )], 또는 [GetTrait('honest').GetName( GetNullCharacter )] 특성을 가진 캐릭터는 추가 [stress|E]를 잃을 수 있습니다. 또한 획득하는 다른 [piety|E] 위에 #V 25#!의 [piety_i|E]를 추가로 얻을 수 있습니다." # f7b4956a1be12d252afa141c4f12b9d3bc87ea97
+  RICE_yazd_sadeh_festival_completed_log_title: "사데 축제 참여 완료" # f299fe3e17c2556f11acbea8d9ea7724669db9f1
+  RICE_yazd_sadeh_festival_completed_log: "[CHARACTER.GetShortUIName|U]이 사데 축제에 참여하는 것을 마쳤습니다." # c43d4715e84672fa9a1cc3229992ccf373c27cea
+  TRAVEL_NAME_FOR_activity_RICE_yazd_sadeh_festival: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_yazd_sadeh_festival$" # 7c786c6c5cd8830ca7c2398f80752af939ebd2cf
+  RICE_yazd_sadeh_festival_grand_cost_amount: "그랜드 사데 축제" # 779c75650032fc6f9aff546c8143cb95ef14d493
+  RICE_yazd_sadeh_festival_chak_chak_cost_amount: "차크차크의 사데 축제" # 9a6039c5073d15a350c5692d6709a4b436562f33
+  RICE_yazd_sadeh_festival_poetry_intent_req: "[GetTrait('poet').GetName( GetNullCharacter )] 또는 [GetTrait('scholar').GetName( GetNullCharacter )] [traits|E]가 있거나, 최소한 #bold [EmptyScope.ScriptValue('medium_skill_rating')|0]#! 이상의 [diplomacy|E] 또는 [learning|E] 능력 필요" # 6a5f2fccc0a21cd713c92c3b3a4b2845b053bca3
+  NOT_RICE_yazd_sadeh_festival_poetry_intent_req: "$RICE_yazd_sadeh_festival_poetry_intent_req$" # 34efae986752e0734765d88c218608feef6c19fd
+  building_type_RICE_yazd_arg_e_bam_01: "아르-에 바므" # 65293b2aa9d3d16acbe9105a6d4a8559f864be3b
+  building_type_RICE_yazd_arg_e_bam_01_desc: "밤의 성채는 세계에서 가장 큰 거주 건물이며, 수세기 동안 서 있었고 사산 왕조의 창시자인 아르다시르의 전설적인 적인 케르만의 하프트바드의 수도였던 인상적이고 난공불락의 요새입니다. 요새는 3겹의 벽으로 이루어져 있고 큰 해자로 둘러싸여 있습니다. 내부에는 상점, 예배당, 주택 등 자체적인 도시가 있습니다." # 8aa8ab84128e445e589b174645a3b0870ae4caba
+  building_RICE_yazd_arg_e_bam_01: "$building_type_RICE_yazd_arg_e_bam_01$" # 24a93681c94b0f6955dd7458117eb30c0a155285
+  building_RICE_yazd_arg_e_bam_01_desc: "$building_type_RICE_yazd_arg_e_bam_01_desc$" # f5c8e9788a70fbb10ad771cf09c5131e0e02e036
+  RICE_yazd_saffarid_yaqub: "구리 세공인" # 0cc744db05a2addedae0c5b8ed93f2c4f04a9bcc
+  RICE_yazd_saffarid_yaqub_desc: "야쿱 이븐 알라이스는 이란에서 하와리즈파와 싸우는 여러 무리 중 하나를 이끌었던 군벌이 되기 전에는 한때 구리 세공인이었습니다. 따라서 더욱 고귀한 혈통을 가진 군벌과 왕자들은 그의 미천한 출신을 비웃을지라도, 그는 평범한 사람들과 어떻게 소통해야 하는지 알고 있으며, 그는 여전히 꽤 검소하고 수수하게 살고 있다고 합니다.\n수도가 어디에 있든, 그리고 자신의 [domain|E]에 아자리카 [counties|E]가 없더라도 #EMP 자이시 알 쇼랏#! 부대를 징집할 [decision|E]을 내릴 수 있습니다." # a6ba4296bc9883fc38a90b4ac7850768f045523a
+  RICE_yazd_saffarid_amr: "나귀 마부와 석공" # 8b4474a110047bfa836f84d6c2cb03a4577d5cde
+  RICE_yazd_saffarid_amr_desc: "그의 형제들과 마찬가지로, 아므 이븐 알라이스 역시 권력을 잡기 전에 미천한 출신이었으며, 검소하고 수수한 생활 방식으로 알려져 있습니다. 그는 당나귀 몰이꾼이나 석공이었다고도 합니다.\n\n수도가 어디에 있든, 그리고 [영지|E]에 아자리카 [백작령|E]이 없더라도 #EMP 자이슈 알쇼라트#! 부대를 징집하는 [결정|E]을 내릴 수 있습니다." # 4454153a4920a5eb5e59ba676a92027577553de3
+  RICE_yazd_saffarid_ali: "소박한 전사" # b927cc131b6f9ac6f6de22bb165577a41aeace39
+  RICE_yazd_saffarid_ali_desc: "그의 형 야쿠브만큼 유명하지는 않지만, 알리는 많은 전사들에게 널리 존경받고 있습니다. 그의 형제 야쿠브와 아므르처럼 그 역시 권력을 잡기 전에는 미천한 출신이었으며, 검소하고 수수한 생활 방식을 가지고 있습니다.\n\n수도가 어디에 있든, 그리고 자신의 [domain|E]에 아자리카 [counties|E]가 없더라도 #EMP 제이시 알쇼라트#! 부대를 징집하는 [decision|E]을 내릴 수 있습니다." # 5b7834a5028dcc744261862a48167d61dce414d2
+  RICE_yazd_saffarid_yaqub_reduce_fertility: "동기가 불분명한 아야르" # 9cf91df68866dd555940daacc0e9233078aa055c
+  RICE_yazd_saffarid_yaqub_reduce_fertility_desc: "야쿠브 이븐 알-레이스는 진정한 이슬람 신자로, 이단자와 이교도에 맞서 무엇이든 희생할 자가 될 것이라고 말하는 이들도 있고, 다른 이들은 그를 기회주의적이고 탐욕스러운 전쟁 영주, 많은 다른 영주들과 같다고 말한다.  또 다른 이들은 그가 숨겨진 카리지파 또는 우상숭배자로, 칼리프에 대한 적대감만으로 영감을 받는다고 주장한다.  과연 그의 진정한 충성은 어디에 있는가?" # 8d69329bb137b6444f8dd20c08f7222974f6ec0c
+  RICE_yazd_patrons_of_avicenna: "아비세나의 후원자" # a9a6730fe143e29a323c6c626c2e8664b0ccfa04
+  RICE_yazd_patrons_of_avicenna_desc: "위대한 카쿠이드 에미르, 알라 알다울라 무함마드는 비할 데 없는 천재이자 영향력을 지닌 이슬람 학자였으며, 심지어 그의 비방자들조차 인정하는 아비세나의 마지막 후원자였습니다. 아비세나는 극진한 존경을 받았으며, 1037년 서기 사망할 때까지 카쿠이드 궁정 신하로 섬겼습니다. 카쿠이드 가문은 이러한 전통을 이어받아 자신들이 통치하는 영토에서 문화를 발전시키고 학자와 예술가를 후원합니다.\n\n#V 야즈드의 편의 시설 및 기반 시설 확장#! 결정을 내리면 추가 [prestige|E]와 [dynasty_prestige|E]를 얻습니다." # 328faba49e5e1d77a65297d8f82429abb6cf25c6
+  RICE_yazd_sebuk_eri: "자불리스탄의 노예-병사" # d13233e0bdeb28c9c8ef218876dbadacf2ad74ca
+  RICE_yazd_sebuk_eri_desc: "세부크-에리는 사파르 왕조의 군벌 야쿠브 이븐 라이스의 준빌 영토 원정 중 포로로 잡혔습니다. 하지만 그 이후로 그는 유능한 군사령관임을 증명했습니다. 어쩌면 그의 야망이 그를 더 큰 영광과 권력을 추구하도록 이끌 수도 있을 것입니다...." # a05951445f50eea0e6502c9fe91e8ffafe0cc64d
+  RICE_yazd_abode_of_worship_ruler: "예배처 통치자" # 1e322a0cd8f30700c194fa5dd603fa702fcaacd6
+  RICE_yazd_abode_of_worship_ruler_desc: "야즈드는 #italic 다르 알-'이바다#!, 혹은 숭배의 거처로 널리 알려져 있습니다. 이곳은 많은 학자들을 끌어들이고, 이슬람교도, 조로아스터교도, 또는 다른 신앙을 가진 주민들의 종교적 헌신으로 유명합니다. 야즈드의 통치자로서, 이 인물은 따라서 이 지역의 믿음과 학문 문화로 인해 큰 이점을 얻습니다.\n\n#EMP 현재 야즈드를 통치하는 사람에게 이 [character_modifier|E]가 주어집니다#!" # 8c294052cad7bf210ed2ee6809aaacade595c520
+  RICE_yazd_city_of_windcatchers: "바람잡이 도시" # 2ae8111bf7ed694328c3b84e18f46cf0d388aee1
+  RICE_yazd_city_of_windcatchers_desc: "#italic 다슈트-에 카비르# 사막 가장자리에 위치한 야즈드의 특성상, 바람 포집기(자연 환기와 냉방을 제공하기 위해 공기를 가두어 통로를 만드는 높은 탑)는 도시 어디에서나 볼 수 있으며, 이로 인해 "바람 포집기의 도시"라는 별명을 얻게 되었습니다. 또한 이 도시는 거대한 카나트 수로망으로도 유명하며, 이곳의 카나트 제작자들은 이란에서 가장 숙련된 장인으로 알려져 있습니다. 전반적으로, 바람 포집기, 카나트, 아브 안바르 저수조, 야크찰 얼음 창고 등 야즈드의 기반 시설은 거주할 수 있을 뿐만 아니라 편안한 환경을 제공합니다.\n\n야즈드 [ruler|E]가 카나트를 건설하는 비용은 #V 카나트 건설 자금 지원#! [decision|E]을 내리면 감소합니다." # 18ead762af6ee2982d4d74001623f2e4d8896961
+  RICE_funded_qanat_small: "소규모 카나트 건설 자금 지원" # 6cad227d7743a6f00e14f838315416ace6f0480b
+  RICE_funded_qanat_small_desc: "이 인물은 최근 지역 주민들이 중동과 북아프리카에 널리 퍼져 있는 지하 수로인 카나트를 건설할 수 있도록 기부금을 기탁했습니다." # 4849e1a7bc9412cf438596793fdee65ae98c8906
+  RICE_qanat_constructed_small: "최근 건설된 소규모 카나트" # 96a74a3d2b75934bd33102471a6c6da5d6cc9ab8
+  RICE_qanat_constructed_small_desc: "지역의 유력자가 최근 이 지역에 새로운 카나트 수로 건설을 아낌없이 지원했습니다. 크기는 작지만, 건설된 지역 사회의 필요를 충족하는 데 도움이 될 것입니다." # df496c5f18ec6fd93a83523c8fc92922b1f80b1c
+  RICE_funded_qanat_medium: "중형 카나트 건설 자금 지원" # 542016d9560c50f28f114218c1f61e318f2a2299
+  RICE_funded_qanat_medium_desc: "$RICE_funded_qanat_small_desc$" # 56d7e1e71ac8b8dcf68d1303824c581c9cc3bc76
+  RICE_qanat_constructed_medium: "중간 크기 카나트가 최근 건설됨" # 3d45f657fd8eca10a77f696a6940c091e5e7ce3c
+  RICE_qanat_constructed_medium_desc: "지역 유력자가 최근 이 지역에 새로운 카나트 수로 건설을 후원했습니다. 규모가 적당하며, 건설된 지역 주민들에게 수년간 신선한 물을 공급할 것입니다." # 75c3d8abed644dffae319e36310e1d2d1c22e786
+  RICE_funded_qanat_large: "대형 카나트 건설 자금 지원" # 21de9c765fc89a98b7a7208fbf660c72a4dea660
+  RICE_funded_qanat_large_desc: "$RICE_funded_qanat_small_desc$" # 56d7e1e71ac8b8dcf68d1303824c581c9cc3bc76
+  RICE_qanat_constructed_large: "최근 건설된 대형 카나트" # adc1eb185c711fb8d66f160b16c41bd91f452bf9
+  RICE_qanat_constructed_large_desc: "지역의 유력자가 최근 이 지역에 새로운 카나트 수로 건설을 후원했습니다. 이 카나트는 꽤 크며, 오랫동안 건설된 지역 사회에 안정적이고 좋은 물 공급을 보장할 것입니다." # 1216ee4f412dfb9293f1b188026afc71106ca1bf
+  RICE_funded_qanat_grand: "거대 카나트 건설 자금 지원" # 8a8fb54e979301988d1709e8d41cc518f261c170
+  RICE_funded_qanat_grand_desc: "$RICE_funded_qanat_small_desc$" # 56d7e1e71ac8b8dcf68d1303824c581c9cc3bc76
+  RICE_qanat_constructed_grand: "대규모 카나트 최근 건설" # 1aee1cfdfff85c33c5667869ca75531239353ad5
+  RICE_qanat_constructed_grand_desc: "지역의 유력자가 최근 이 지역에 새로운 카나트 수로 건설을 후원했습니다. 이 수로만큼 큰 카나트는 많지 않으며, 지역 사회는 이 공공 사업 프로젝트에 매우 만족할 것입니다." # 0184527ac8551b46ebd2e42bc3386ea1071b18a1
+  RICE_yazd_recently_celebrated_sadeh: "최근 사데를 기념했습니다" # f322e07a1565b77e65ee17cb4d8dfb16d8427f4f
+  RICE_yazd_recently_celebrated_sadeh_chak_chak: "사데 기간에 최근 차크 차크 방문" # c7cd9d78e579c30752cede54c290c928fb8be608
+  RICE_yazd_kakuyid_reconciled: "이전 충돌 후 화해함" # 7ddef73e30acf571e90e0078fe94d0fae51e44a6
+  RICE_yazd_shrine_of_the_twelve_imams_recently_constructed: "다바즈다흐 이맘 최근 건설됨" # 5a1cffc50173e5bd0d9f3422c3a70bac43825825
+  RICE_yazd_shrine_of_the_twelve_imams_recently_constructed_desc: "다바즈다 임, 또는 열두 이맘의 성지는 야즈드에 있는 영묘로, 최근 이란 건축 혁신을 많이 활용했을 뿐만 아니라 매우 아름답고 경외감을 불러일으킵니다." # cf5824bc07595e53c578cf05a81918cd59dff1dc
+  RICE_yazd_constructed_shrine_of_the_twelve_imams: "다바즈다흐 이맘 건설 명령" # 00798fa8616a4f67e3a4add3c5aabbf577b9815a
+  RICE_yazd_constructed_shrine_of_the_twelve_imams_desc: "$RICE_yazd_shrine_of_the_twelve_imams_recently_constructed_desc$" # 4b9c74e70c8627ac137b186bc6ab98ab92ed5ed4
+  RICE_yazd_kerman_pistachios: "케르만의 피스타치오 농장" # e8fc37df389ec8bde44f34611fb5a459e50177fc
+  RICE_yazd_kerman_pistachios_desc: "케르만의 유명한 피스타치오는 도시 근처 농경지에서 재배되어 주요 수출품 중 하나입니다." # 4a8913cfe6a38d99e7db830cce775312b9c69617
+  RICE_yazd_qawurd_seljuk: "셀주크 고위 왕자" # 644ce3fe890199e274b67e17133d702bbb24eb24
+  RICE_yazd_qawurd_seljuk_desc: "차그리 베그의 장남이자 알프 아르슬란의 형인 야심만만한 카부르드는 셀주크인들 사이에서 많은 존경을 받고 있습니다. 공정하고 강력한 지도자로 칭송받는 그는 셀주크의 통치를 아라비아해를 넘어 오만까지 확장했습니다. 그는 셀주크의 왕좌를 자신의 타고난 권리라고 여기고 있다는 소문이 있습니다. 그는 연장자 우선의 전통적인 튀르크식 계승을 믿는 셀주크 사령관들 사이에서 꽤 인기가 있기 때문입니다.\n\n페르시아 제국에 대한 [unpressed_claim|E]을 가지고 시작합니다.\n알프 아르슬란에 대한 [opinion|E]이 낮고 그 반대도 마찬가지입니다." # d0ff7b709fc18a2c5b957f082df1afc42afe7180
+  RICE_yazd_alp_arslan_distrust_qawurd: "야심만만한 셀주크 왕자 장남에 대한 불신" # 2eb68e48cf0433877b3e7b7bae047a4a159bd2f9
+  RICE_yazd_qawurd_resent_alp_arslan: "셀주크 계승에 대한 반감" # 7ab606068cd713212f75ce34e0b09462bdee5685
+  RICE_yazd_treasure_reports: "전설적인 야즈드 보물에 대한 소문" # 327f564f74d450d2ff5cb87caf0cba42f71054a2
+  RICE_yazd_qanat_makers_contracts: "관개 수로 제작자 추가 계약" # f2490e5bb53009314be1907e534aabe7166e84b5
+  RICE_yazd_qanat_makers_contracts_desc: "야즈드의 카나트 건설자들은 이란에서 항상 최고로 여겨져 왔으며, 최근에는 지역 전체에서 평소보다 더 많은 작업을 계약받아왔습니다." # 47a81e80a00232f4a8f6126540ae4d7c48ffd65b
+  RICE_yazd_new_yazd_mosque: "야즈드에 새 예배당" # 63f9ac223f1d1e7f5a1eb131d2fc393ab92a3b2d
+  RICE_yazd_built_new_yazd_mosque: "야즈드에 새로운 예배당을 후원했습니다" # 597e43266c4d1b02a2d342843d80b5214b477476
+  RICE_yazd_new_yazd_mosque_muslim_opinion: "야즈드에 새로운 예배당 건설" # 12f096d3e719597f724165d8afda646641866551
+  RICE_yazd_new_yazd_mosque_zoroastrian_opinion: "야즈드의 조로아스터교 사원 대체됨" # da3dbe656e4db27511a2f8f521e5383909dcc663
+  RICE_yazd_built_house_of_worship: "야즈드에 예배당 건설" # a53fc630edc2bac319bd13571d177af107415a40
+  RICE_yazd_built_house_of_worship_desc: "이 캐릭터가 최근 야즈드에 새로 지어질 작은 예배당 건설을 후원하기 위해 자금을 지원했습니다. 이는 그 도시의 유명한 독실한 주민들의 영적 필요를 충족할 것입니다." # ee58e7b1e0b13debd81d834bd17ade5d3adef71d
+  RICE_yazd_built_school: "야즈드에 학습 기관 건설 완료" # 52e843adbe014426595c9a4d1b4100207644ced7
+  RICE_yazd_built_school_desc: "이 인물은 최근 야즈드에 새로운 소규모 학문 학교 건설을 후원하기 위해 자금을 지원했습니다. 이 학교는 도시의 명성을 이어갈 차세대 학자들을 교육할 것입니다." # 2df029815806871e9215d36fd28b499977115482
+  RICE_yazd_built_shrine: "야즈드에 영묘 건설" # 7c1bca01197da616cfa8872c1677301da4b62e87
+  RICE_yazd_built_shrine_desc: "이 캐릭터가 최근 야즈드에서 성인에게 바치는 작은 영묘를 새로 건설하는 데 자금을 지원했습니다. 이 위대한 분의 업적은 수년 동안 도시 사람들에게 영감을 줄 것입니다." # f33055d3d9334b7f133338838325dd4df896317b
+  RICE_yazd_silk_boom: "야즈드산 비단 수요 증가" # 13882508e0367d8a13e8440fdc302882ff74a119
+  RICE_yazd_baklava: "야즈드에서 바클라바 먹기" # 835ee62ca318b095d49a3212c668ce78d4386479
+  RICE_yazd_sadeh_nature_poem: "자연에 대한 사데의 시에 영감을 받아" # 0d58de89087a629bc521f706811806a71124ba5c
+  RICE_yazd_sadeh_good_evil_poem: "선과 악에 대한 사데 시에서 영감을 받음" # 3d345eba50bcc870b6dceadd27212e4868964e1b
+  RICE_yazd_sadeh_hero_poem: "고대 영웅들에 대한 사데 시에서 영감을 받았습니다" # 074f33057b05c509363524c30125ffde2775f64d
+  RICE_yazd_sadeh_burned_animals: "사데 축제에서 동물에 불 지르기" # 5bb95b6ff49ded23aac7839d49a749d681890adb
+  RICE_yazd_sadeh_burned_animals_desc: ""동물 학대는 매우 재미있습니다!"" # c165cdf1eaa43239ed5bce59b6b55f980d3e2c1b
+  RICE_yazd_sadeh_animal_cruelty_approve: "동물에 불을 붙이는 것은 재미있다" # 5923a7b6ea3886c5cb4265c79d1582410bd7f75c
+  RICE_yazd_sadeh_animal_cruelty_disapprove: "동물에게 불을 붙이는 것은 잔인한 행위입니다" # 87314c427e64a88803b36824eb82168b7277b026
+  RICE_yazd_aspiration_claim_seljuk_throne: "[aspiration|E]: 셀주크 왕좌를 요구함" # 5c1adecd37532957e7214dfc10c0a97c524c3ace
+  RICE_yazd_aspiration_claim_seljuk_throne_desc: "#italic 카워르드가 그의 가문에서 가장 고참 왕자임에도 불구하고 셀주크 제국을 다스리지 못하는 것은 참으로 치욕스러운 일입니다. 그는 셀주크 제국을 과거의 전통으로 되돌리고 그에게 정당한 왕위를 되찾고자 합니다.#!$RICE_yazd_aspiration_qawurd_desc$" # 1abdcf203155daf6414c8be8781dc67c2a787ccc
+  RICE_yazd_yakhchal_adventurer_modifier: "야흐찰의 얼음" # 31e494a83885d1ab92186229b8e4dc00de67c247
+  RICE_yazd_yakhchal_adventurer_modifier_desc: "이 인물은 최근 [Glossary( 'Yakhchal', 'YAKHCHAL_GLOSS' )]에서 얼음을 구입했습니다." # 094cfc2e64beb09a5c5174517f39e7bf658d4ef9
+  RICE_yazd_yakhchal_landed_modifier: "$RICE_yazd_yakhchal_adventurer_modifier$" # 8576157f7f1540b5458ba7d00e11aecc7bbf8293
+  RICE_yazd_yakhchal_landed_modifier_desc: "$RICE_yazd_yakhchal_adventurer_modifier_desc$" # ed734cfb4d67840959125705624c06a96a688f95
+  RICE_yazd_change_xwedodah: "크웨도다 문제를 해결합니다" # 76c203c03855395c37806036b8b7ebc4a8a6e565
+  RICE_yazd_change_xwedodah_zurvanite: "$RICE_yazd_change_xwedodah$" # fcfb4954ba43958f68b34ca17b82910379e4c6a3
+  RICE_yazd_change_xwedodah_tooltip: "[ROOT.Char.GetFaith.GetName] [faith|E]의 이 관행에 대한 논쟁을 해결하기 위해 다른 사람들과 모이십시오" # 0f9402edf6323c3a5ab9d2b1d12bd9600b59c4d0
+  RICE_yazd_change_xwedodah_zurvanite_tooltip: "$RICE_yazd_change_xwedodah_tooltip$" # c15b8b45f178ca34ac6ae590b92f40ae6b224d12
+  RICE_yazd_change_xwedodah_desc: "#V 엑스웨도다#!는 어떠한 [ROOT.Char.GetFaith.GetAdherentName]이라도 할 수 있는 가장 위대한 업적 중 하나입니다. 수 세기 동안 우리는 이를 의심할 여지 없는 진실로 믿어 왔지만, 그 의미에 대해서는 논쟁이 있어 왔습니다. 과연 이것이 혈족 결혼을 가리키는 것일까요? 일부는 사촌 결혼이라고 정의되어야 한다고 주장합니다. 이러한 논쟁을 영원히 해결하기 위해 몇몇 학자와 [ROOT.Char.Custom('DefaultPriestTitlePlural')]들을 소집하고자 합니다." # 175b5f04c8e3403950c47cd461008fc1e1e50c00
+  RICE_yazd_change_xwedodah_effect_tooltip_1: "#V 재해석#! [xwedodah_resolver.GetFaith.ReligiousText]을 바꾸어 [xwedodah_resolver.GetFaith.GetName]의 $doctrine_consanguinity_name$ [doctrine|E]를 사촌 결혼만 허용하도록 하거나, 또는 #V 강화#! 밀접한 친척 결혼을 가리키는 전통적인 관점을 - 어떤 선택이든 #V 영구적!#!이 될 것입니다." # 4ae48f6736332049c63e1dff840bbf54daf0f4eb
+  RICE_yazd_change_xwedodah_effect_tooltip_2: "이 [결정|E]이 14세기 또는 15세기까지 충분히 강력한 [xwedodah_resolver.GetFaith.GetAdjective] 통치자에 의해 내려지지 않으면, 그 시기에 이벤트로 인해 #italic 변경#이 무작위로 발생할 수 있습니다." # dcc2ca03ceb633f093e4b9d8f671828aefc3e9b2
+  RICE_yazd_change_xwedodah_effect_tooltip_3: "[xwedodah_resolver.GetFaith.GetName]의 [core_tenet|E]인 [GetFaithDoctrine('tenet_divine_marriage').GetBaseName](이)가 [GetFaithDoctrine('tenet_communal_identity').GetBaseName](으)로 변경되었습니다." # ac15e2eb023a9444a2ff2c66aeec8252f1c24f9f
+  RICE_yazd_change_xwedodah_confirm: "[ROOT.Char.GetFaith.HighGodName]의 영광을 위하여!" # b1c5db1f3b52d5a12fe0f6921cd5e868c1fe1269
+  RICE_yazd_change_xwedodah_zurvanite_confirm: "$RICE_yazd_change_xwedodah_confirm$" # 837de5702ea7385b1345dde71a1c502b249c1be2
+  RICE_yazd_change_xwedodah_context_tooltip: "#강조 역사적 배경:#! 옛 페르시아에서는 왕족을 넘어 엑웨도다(Xwedodah) 풍습이 행해졌습니다. 이는 이란 역사 학자들 사이에서 일반적으로 논란의 여지가 없습니다. 논란이 되는 부분은 그 범위와 얼마나 자주 그러한 결혼이 성사되었는가입니다. 그럼에도 불구하고 현대 조로아스터교 신도들은 #italic #bold 하지 않습니다#!! 혈연 결혼에 참여하고 대부분과 마찬가지로 그것을 혐오합니다. 엑웨도다의 해석은 근대 초기에 바뀌었지만, 이러한 태도 변화의 이유는 불확실합니다. 이 결정은 그러한 변화를 나타내는 역사적이지 않고 상징적인 표현입니다." # 21a3144be3b21124c17dbcecdf4549dea1c19d23
+  RICE_yazd_celebrate_sadeh_festival: "사데 축제 기념" # 1f34d5fe3aefdd53a1ad5fc97560b99ab292554a
+  RICE_yazd_celebrate_sadeh_festival_tooltip: "곧 한 해 중 가장 추운 시기가 다가옵니다!" # cd0bf5e713853b72baf7231def93e46460e5fb74
+  RICE_yazd_celebrate_sadeh_festival_desc: "겨울 추위가 대지를 휩쓸고 지나가는 시기이니, 이란 세계에서 유래한 전통적인 겨울 축제인 사데 축제가 시작되었습니다. 올해는 훌륭한 사데 축제를 개최해야겠군요!" # c70dfb6d39c5a5b7c7be83c403cea964662c8800
+  RICE_yazd_celebrate_sadeh_festival_effect_tooltip_1: "사데 축제를 기념하며, [prestige|E]나 [piety|E]를 얻거나 [stress|E]를 잃는 등의 다양한 보상을 얻을 수 있습니다." # 4068dedc39963ee20a9cab35f6e41ae2b88aea2c
+  RICE_yazd_celebrate_sadeh_festival_effect_tooltip_2: "[yazd_county.GetNameNoTier]를 다스리고 [THIS.Char.GetFaith.GetName] [faith|E] 신앙을 따르므로, 추가 @gold_icon@ 25를 지불하여 차크차크를 방문하고 추가 혜택을 받을 수 있습니다." # 98f68a8e90db193d20e3e943cfc27121f6f79800
+  RICE_yazd_celebrate_sadeh_festival_confirm: "기대하겠습니다!" # bdb5944e9345679c0fa267659ec1c471026ff8e5
+  RICE_yazd_celebrate_sadeh_festival_context_tooltip: "#emphasis 역사적 배경:#! 사데는 이란의 전통적인 겨울 축제로, 노루즈 50일 전에 열립니다. 중세 시대, 이란의 무슬림과 조로아스터교도 모두 열렬히 이 축제를 기념했으며, 여러 군주들도 참여했습니다. 큰 불을 피우는 것은 축제의 핵심 요소였으며, 중세 시대에는 가축과 새들을 불 속으로 몰아넣어 태우는 특이한 풍습도 존재했습니다. 어쨌든, 초기 이슬람 문헌들은 사데의 시작을 영웅 호산그에게 귀속시키며, 그는 우연히 불을 발견하고 이후 이 은혜를 기념하고자 했다고 전합니다." # 07796fa738d8c728faae435bcb77f3bfcc5fb1bf
+  RICE_decision_yazd_sadeh_month_req: "월은 11월, 12월 또는 1월입니다" # be9ad117750618f7d1345856b4518677c664dcd5
+  RICE_yazd_build_a_new_qanat: "카나트 건설 자금 지원" # 3a6a3f3b8db320d42ac28c1b9f1130931972acfe
+  RICE_yazd_build_a_new_qanat_tooltip: "지역 주민들은 항상 새로운 식수원을 필요로 할 수 있습니다." # 0f439fa183626879e971ecf980ab72e27caa4929
+  RICE_yazd_build_a_new_qanat_desc: "카나트는 중동 지역 전역에 걸쳐 수 세기 동안 지역 주민들에게 안정적인 물 공급을 제공하기 위해 건설된 지하 운하 시스템입니다. 카나트 건설 자금을 지원하여 지역 주민들의 삶의 질을 향상시킬 수 있습니다." # 8a2ebc35bc9bf8df14a482a08cd562afed309ffc
+  RICE_yazd_build_a_new_qanat_effect_tooltip_1: "귀하의 [county_capital|E]은 10년 동안 지속되는 [county_modifier|E]를 받게 되며, 그에 상응하는 [character_modifier|E]와 약간의 [prestige|E]를 받게 될 것입니다." # c54789a499f4e90d9e85f59259609f9458386453
+  RICE_yazd_build_a_new_qanat_effect_tooltip_2: "이 보너스의 강도는 자금 지원량에 따라 달라집니다. #weak (최소 비용: @gold_icon! 50)!#" # 76414b1e7450e7a1754ebb914e97c0a113f9abe8
+  RICE_yazd_build_a_new_qanat_effect_tooltip_3: "#weak (최소 비용: @gold_icon@ 40)#! 이러한 보너스의 강도는 제공되는 자금의 양에 따라 달라집니다" # 194985477942d5e429ab91004170a154d3cd15af
+  RICE_yazd_build_a_new_qanat_effect_tooltip_4: "[yazd_county.GetNameNoTier]를 지배하고 있으며 [GetModifier('RICE_yazd_city_of_windcatchers').GetNameWithTooltip] [county_modifier|E]가 있기 때문에 카나트 건설 비용이 감소합니다." # 0c5fd6d05a57b2c9c32262b5066915d76dd8883b
+  RICE_yazd_build_a_new_qanat_effect_tooltip_5: "만약 당신의 [culture|E]가 #bold $tradition_fp3_irrigation_experts_name$#! [tradition|E]을 보유하고 있다면, 당신은 더 많은 [prestige_i|E] [prestige|E]를 얻을 것이고 [county_modifier|E]는 10년이 아닌 #V 15#!년 동안 지속될 것입니다." # d85545759d6492913a1ff786a7c85d034959319c
+  RICE_yazd_build_a_new_qanat_confirm: "건설을 시작합시다!" # 67f2db40fa68df2c641ec8fd8e2a2c8afac7370e
+  RICE_yazd_build_a_new_qanat_context_tooltip: "#강조 역사적 배경:# 이란 고원에서 시작된 지하 수로 시스템, 북아프리카에서는 포가라(foggara), 중앙아시아에서는 카레즈(karez), 오만에서는 파라지(falaj) 등 다양한 이름으로 불립니다.  이 수로 시스템은 이후 중동, 북아프리카, 중앙아시아 대부분 지역으로 퍼져 나갔습니다. 수세기 동안, 그리고 오늘날까지도, 이들은 마시는 물, 관개, 냉각 등 다양한 용도로 이 지역의 물 공급원으로 활용되었습니다.  몇몇 농부들이 시작한 아주 작은 시설부터, 지역 지배층이 지원한 대규모 공공 시설 프로젝트까지, 그 규모는 매우 다양했습니다." # 3ef03a9009af05be15d75fd9b4ecfc15a43f9944
+  RICE_yazd_decision_qanat_requirement: "[county_capital|E]은 중동, 페르시아, 북아프리카, 사하라, 타림, 이베리아 또는 시칠리아 [region|E]에 있습니다" # 069efa807c6680181fef4798dc2453990d01847f
+  RICE_yazd_expand_infrastructure: "야즈드의 편의 시설 및 기반 시설 확장" # 78ef6f8d2c622349311668513f2dbd8bdeaae2f3
+  RICE_yazd_expand_infrastructure_tooltip: "야즈드가 번영하고 있지만, 더욱 번영할 수 있습니다!" # dd0655361beaab415de50cdc237ea7e9ff53a032
+  RICE_yazd_expand_infrastructure_desc: "야즈드는 빠르게 성장하고 있으며, 심지어 학문과 신앙의 중심지로 명성을 얻고 있습니다. 하지만 카나트, 학교, 영묘, 정원 등 주요 공공 사업을 통해 기존 기반 시설을 확장하면 도시로 유능하고 재능 있는 사람들을 더 많이 유치할 수 있습니다." # b6040464e7af9f658c55a294b94b26546b8d7738
+  RICE_yazd_expand_infrastructure_effect_tooltip_1: "지금부터 [yazd_county.GetNameNoTier]의 [ruler|E]는 항상 [GetModifier('RICE_yazd_abode_of_worship_ruler').GetNameWithTooltip] [character_modifier|E]를 갖습니다" # 92c9ebe6d7c8bc7821f34f941ee01faceeadb60c
+  RICE_yazd_expand_infrastructure_effect_tooltip_2: "#V 카쿠이드#! 왕조의 일원으로서, 야즈드에서 지적인 면모와 기반 시설에 대한 관심으로 명성이 높은 당신은 이 [결정|E]을 내렸을 때 평소보다 두 배의 [위신|E]과 [왕조 위신|E]을 얻습니다." # dbf65fa3ec712c30dfd465f7ad1a865a1343710a
+  RICE_yazd_expand_infrastructure_confirm: "기술자, 건축가, 장인을 보내라." # 046c06e2137eba9d2047dfa9c173a19f4cc655d7
+  RICE_yazd_expand_infrastructure_context_tooltip: "#강조 역사적 배경:#!  사막 한가운데 자리 잡았지만, 야즈드는 여러 무역로가 교차하는 전략적 요충지인 오아시스 계곡입니다. 11세기에 카쿠이드 왕조의 통치 아래 도시는 급속히 성장하여 많은 모스크, 마드라사, 간나트, 정원 등이 카쿠이드 왕조나 다른 지역 지도자들에 의해 건설되었습니다. 이후부터 이 도시는 지역 내 많은 유명한 학자와 지식인들을 끌어들였습니다." # 52ad6c677f0af6a1387e36702272f6e87c212434
+  RICE_yazd_enlist_jays_al_sorat: "자이시 알 쇼라트 부대 징집" # 7b6d066755fd4debb97a3e8b6e16d4ec21ab62f9
+  RICE_yazd_enlist_jays_al_sorat_tooltip: "아즈라크 부대를 소환하여 당신을 위해 싸우게 합니다" # 0587e1ef9f431f66aa654941ac2ae8b6de27db67
+  RICE_yazd_enlist_jays_al_sorat_desc: "아즈라크파는 극단적인 카리지파 해석에 조금이라도 동의하지 않는 모든 사람을 도살하는 데 광적으로 헌신하는 피에 굶주린 사람들입니다. 하지만 그들도 여전히 사람이며, 사람은 이성과 설득을 할 수 있습니다. 내 영토에는 맹렬하고 전투에 단련된 아즈라크파 전사들이 있으며, 그들은 나의 관대함과 정당한 보수를 받는 대가로 기꺼이 나를 위해 싸울 의향이 있을 것입니다." # 93cd825f6a6691d80cfb447529295c5d018fcd9c
+  RICE_yazd_enlist_jays_al_sorat_confirm: "피에 굶주린 광신도조차도, 모든 사람에게는 값을 매길 수 있습니다." # 7db66d7a0c1c866e8c2be18ae419ab628bcef6a8
+  RICE_yazd_enlist_jays_al_sorat_context_tooltip: "#emphasis 역사적 배경:#! 극단적인 카리지파 분파, 아즈라키파는 다른 카리지파들조차 극단적이라고 여겼습니다. 이란에서 사파리드 왕조를 건설한 야쿠브 이븐 알-레이스는 그들과의 전쟁을 통해 명성과 권력을 얻었습니다. 그러나 평화적으로 일부 아즈라키파를 특별 부대인 #italic 제이쉬 알-쇼라트#!으로 그의 군대에 편입시켰습니다. 그럼에도 야쿠브와 그의 형제들은 엄격한 규율로 군대를 관리했으며, 카리지파 부대들 역시 예외는 아니었습니다. 결국 시간이 흘러 지역의 급진적인 카리지파 집단들은 더욱 온건한 신도들로 대체되었고, 결국 이들마저 사라졌습니다." # e876cd1e83d69ece54d7edece01958fd468384a3
+  RICE_yazd_decision_persia_req: "[county_capital|E]은(는) 페르시아 [region|E]에 있습니다" # 1651eeac82f8fc2be904d94b4d576b0db6e3b711
+  RICE_yazd_saffarid_founder_req: "사파르 왕조의 창시자인 야쿱 또는 그의 형제들 중 한 명입니다." # 2318a69e91c14b2623c585d73895aefd9fe9c5de
+  RICE_yazd_enlist_county_req: "#V 아즈락파#! [신앙]을 따르며 페르시아 [지역|E]에 있는 [백작령|E]을 소유하고 있습니다" # 454fd6361acf93021acd2cb1771c7377d0a9bb65
+  RICE_yazd_construct_shrine_of_the_twelve_imams: "다바즈다 이맘 구성" # 56f19d4f82cd3fddfcc1628a4ab68ed2be990d66
+  RICE_yazd_construct_shrine_of_the_twelve_imams_tooltip: "야즈드는 시아파 영묘를 건설하기에 좋은 장소가 될 것입니다." # 3ea43b5f226b4e99f77e47ced1502b3c1cdad88f
+  RICE_yazd_construct_shrine_of_the_twelve_imams_desc: "야즈드의 시아파 공동체에서 도시에 영묘를 지을 것을 제안했습니다. 그것은 #italic Davāzdah Imām#!, 즉 12 이맘의 성지로 불릴 것이며, 예배와 영적 성찰에 진정으로 합당한 장소가 될 수 있도록 예술과 건축의 최신 혁신 기술을 활용할 것입니다." # 9aaabfa25e6be2928a70c4d0e1e0994bf16d91ca
+  RICE_yazd_construct_shrine_of_the_twelve_imams_effect_tooltip: "#V 시아파#! [신앙|E]를 따르는 경우 [신앙도|E] 및 [명성|E] 보너스가 두 배가 됩니다." # 7520904508b48cca42db4c9a7905a8118012754e
+  RICE_yazd_construct_shrine_of_the_twelve_imams_confirm: "묘를 건설하도록 명령합니다." # f65f6f94f0f566190765a5a2fdab0e3fe6d84325
+  RICE_yazd_construct_shrine_of_the_twelve_imams_context_tooltip: "#emphasis 역사적 배경:#! 다바즈다 움마, 또는 십이 이맘의 신전은 야즈드에 있는 묘이며, 이슬람 역사상 가장 초기의 돔 형식 사각 묘지 중 하나입니다. 1038년에 카쿠이드 왕조의 두 시아파 군사 장교가 건축을 명령했습니다. 이 건물은 삼엽형 스퀴치(후기 중세 이란 건축의 특징) 사용과 이전 유사한 기념물에 비해 더욱 강조된 색상 및 채색 석고 사용과 같은 여러 혁신적인 건축 특징을 가지고 있습니다." # d9647b719e58799021747a45d4418366ed48feeb
+  RICE_yazd_purchase_yakhchal_ice: "현지 야흐찰에서 얼음 구매" # aa4b1c7b44e39d8fcbf35c3b97a3aeee7d2e63f6
+  RICE_yazd_purchase_yakhchal_ice_tooltip: "[GetGeographicalRegion('world_middle_east_persia').GetName] 사람들은 수 세기 동안 얼음을 저장하기 위해 [Glossary( 'Yakhchals', 'YAKHCHAL_GLOSS' )]을 사용해 왔습니다." # cb775211d1b7ee37ef677d3d95f365d24b7f77af
+  RICE_yazd_purchase_yakhchal_ice_desc: "내 음식과 음료를 신선하게 유지하기 위해 현지 [Glossary( 'Yakhchals', 'YAKHCHAL_GLOSS' )]에서 얼음 공급을 보충해야 합니다. 게다가, 소르베 좀 먹어야 할 것 같아요!" # 89c40accfd5418e480687ad7f37c34f9d5244064
+  RICE_yazd_purchase_yakhchal_ice_effect_tooltip_1: "이 [결정|E]의 효과는 당신이 [모험가|E]인지 아닌지에 따라 다릅니다." # aecf85c71033ea555f9efd11dc59433d1abd6988
+  RICE_yazd_purchase_yakhchal_ice_confirm: "지역 야흐찰 방문" # a906029e2cc4cdc5021083908ff2c25cb5bcfeb6
+  RICE_yazd_purchase_yakhchal_ice_context_tooltip: "#강조 역사적 배경:#! [Glossary( 'Yakhchals', 'YAKHCHAL_GLOSS' )]은 [GetGeographicalRegion('world_middle_east_persia').GetName]에서 수세기 동안 얼음과 눈을 저장하기 위해 전통적으로 사용되어 온 건물입니다. 역사적으로 여행자와 현지인 모두 야흐찰에서 얼음을 사서 음식과 음료를 보존하거나, 셔벗이나 냉장 와인과 같은 음식을 만들었습니다." # 0d5cb9996c25c07b03dec57478f2e5a0d489c139
+  RICE_yazd_decision_yakhchal_landless_req: "[domicile|E]은 $innovation_RICE_yakhchals$ [innovation|E]이 있는 [culture|E]의 [county|E]에 있습니다." # 028f245210dba93e79c25d67ea2bb4cf0624ba59
+  RICE_yazd_decision_yakhchal_landed_req: "[수도|E]는 [문화|E]가 $innovation_RICE_yakhchals$ [기술|E]을 보유한 [백작령|E]에 있습니다." # 8190d53bb632f79dbdf623f56e9c17e93d239e16
+  yazd.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0001.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0001.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0002.t: "동부 변경" # 37bf2af245f7eba9fb61d59f1763983f306ffe59
+  yazd.0002.desc: "동부 이란의 위험하고 끊임없이 변화하는 #italic 다르 알 이슬람#! 변경 지역에서 여러 전쟁 영주들이 권력을 다투고 있습니다. 일부는 진정한 신앙과 불의에 맞서 싸우는 열정으로, 다른 일부는 기회주의적인 강력한 강도에 불과합니다.\n\n현재 아바스 궁정이 임명한 명목상 총독인 [tahirid_guy.GetTitledFirstName]와 사파리드의 인기 있고 경건하지만 논란이 많은 지도자 [yaqub_saffarid.GetTitledFirstName] 사이에 긴장이 극에 달했습니다. [yaqub_saffarid.GetTitledFirstName]은 이단적인 하리지파 종파 중 가장 잔혹한 자들에 맞서 싸운 수많은 #italic ‘아야르#! 전사들 중 한 무리의 지도자로서 이름을 날렸습니다. 일부는 [yaqub_saffarid.GetFirstName]가 타히리드의 무능을 이용하는 탐욕스러운 이단자라고 말합니다. 다른 이들은 그가 경건하고 겸손한 사람으로, 이교도, 이단자, 위선적인 폭군들과 정당하게 싸우며 심지어 자신의 헌신의 표시로 육욕의 유혹을 버렸다고 말합니다. 한편, 약화되었지만 여전히 [bammer_guy.GetFaith.GetAdjective]의 잔당은 [bam_county.GetNameNoTier]와 [badghis_county.GetNameNoTier]의 산과 계곡에 숨어 다시 일어날 기회를 기다리고 있습니다." # 1de34385aac44b2283b4297ed1afb806683383e2
+  yazd.0002.a: "동부 이란의 패권을 누가 차지할지 결정하는 전투가 시작됩니다...." # 6f6b58625f9fddfa4c644445313a7f89d1054b4f
+  yazd.0002.b: "내 이야기는 사파르 왕조와 함께한다." # 2521d4e725613000d7f6375e9e5a1dc2ba4717fc
+  yazd.0002.c: "제 이야기는 하와리즈 잔당과 함께합니다." # bb81972c21207afbe8375d34be6fafbb638b640f
+  yazd.0002.tooltip.no: "[THIS.Char.GetTitledFirstNameNoTooltip](으)로 계속 플레이합니다." # 63617dd079537688db17040fc845b554613aa144
+  yazd.0002.tooltip.saffarids: "사파르 왕조 형제 또는 그들의 부하 중 한 명으로 플레이할 수 있습니다" # 9406230623e3b9b31fbb76f82e7de00d8abaf5fa
+  yazd.0002.tooltip.kharijites: "당신은 해당 지역의 [bammer_guy.GetFaith.GetAdjective] 잔당 중 하나를 선택하여 플레이하게 됩니다" # 31b9940c1c65af722b7dcd0ffae020d654ca1357
+  yazd.0003.t: "사파리드" # bffbc85d029ccfb8a37e81c3a2686eeb0d4b1806
+  yazd.0003.desc: "한때 이란을 휩쓸었던 [bammer_guy.GetFaith.GetAdjective] 광신도들은 몰락하고 있습니다. 비록 완전히 끝난 것은 아니지만, 그들을 파괴하거나 항복시킨 [yaqub_saffarid.GetFirstName] 같은 인물들의 노력 덕분입니다. 반면, 호라산의 아바스 총독인 [tahirid_guy.GetFirstName]는 이러한 위협에 직면하여 무능하고 태만하다고 알려져 있으며, 죄악과 여가에 더 관심이 있습니다. 많은 사람들이 [yaqub_saffarid.GetFirstName]에게 질서를 회복하고 [tahirid_guy.GetFirstName]에 맞서 싸울 것을 촉구했습니다.\n\n일부는 [yaqub_saffarid.GetFirstName]가 타히르의 무능함을 이용하여 약탈하는 배교자라고 말합니다. 다른 사람들은 그가 경건하고 겸손한 사람이며, 이교도, 이단, 위선적인 폭군과 정당하게 싸우며, 심지어 헌신의 표시로 육체의 유혹까지 멀리했다고 말합니다. 진실이 무엇이든, 누가 이 지역에서 최고 권위를 차지할지 결정하기 위한 전투가 시작되었으며, 저의 이야기는…" # 18600c99392043dc3086641ba5d0b630a474433c
+  yazd.0003.a: "[yaqub_saffarid.GetFirstName], 구리 세공인이자 성전 용사" # 2cea670501b587c8020f21f88d1c6a99d59e9611
+  yazd.0003.b: "[amr_saffarid.GetFirstName], [yaqub_saffarid.GetFirstName]의 형제" # e1f74545090521a841919257990726bacac29e63
+  yazd.0003.c: "[ali_saffarid.GetFirstName], [yaqub_saffarid.GetFirstName]의 또 다른 형제" # a2c96800a7b485ccb3fa6b6160ec8f6e9d7e0e57
+  yazd.0003.d: "[sebuk_eri_guy.GetFirstName], [yaqub_saffarid.GetFirstName]의 야망을 품은 튀르크 노예 병사" # 9fc4964bd0a199e4a62da8e8304c18a14232d67a
+  yazd.0003.e: "[uzayr_al_sari.GetFirstName], [yaqub_saffarid.GetFirstName]의 충실한 관리" # 52e47417158d3289ac6d08f8aa00b5716ec51c03
+  yazd.0003.a.info: "#emphasis 역사적 배경:#! 야쿠브 이븐 알-레이스, 사파리드 왕조의 창시자는 현재 아프가니스탄 동부인 자란주(현재 아프가니스탄 동부)의 구리 세공업자였습니다. 그는 동부 이란 내륙을 괴롭히던 아즈라키트와 싸우기 위해 #italic ‘아야르’#! 무리에 합류했습니다.\n\n수도승적인 삶으로 유명했던 야쿠브는 873년 타히리드를 물리치고 충분한 권력을 얻었습니다. 아바스 칼리프 알-무타미드는 그의 커지는 권력에 겁을 먹고 이란 각지의 총독직을 제안했지만, 야쿠브는 이를 거절하고 바그다드로 진격했지만 876년 패배했습니다. 전통적으로 야쿠브의 공격은 그의 권력욕과 심지어 비종교적인 성향을 보여주는 것으로 해석되어 왔지만, 그는 성전투사로서 알-무타미드를 무가치한 존재로 보고, 더 합당한 아바스 왕조 인물로 교체하려고 했을 가능성도 있습니다.\n\n야쿠브는 879년에 사망했고, 그가 초기 민족주의자라는 평가는 약간 과장된 측면이 있을 수 있지만, 그의 경력은 이란에서 아바스 왕권의 분열 초기 단계와 다양한 이란 강자의 부상을 분명히 보여줍니다." # 3f341cd0fc91ab38cef44342326edac58bc9bba0
+  yazd.0003.b.info: "#emphasis 역사적 배경:#! 야쿠브의 형제인 암르 이븐 알라이스는 사파르 왕조의 두 번째 통치자였습니다. 그의 형과 마찬가지로 그는 '#italic 아야르#!'에 합류하기 전에 석공과 노새 마부로서 보잘것없는 기원을 가지고 있었습니다.\n\n야쿠브는 자녀나 아내가 없었던 것으로 보이며, 자신의 또 다른 형제인 알리가 자신을 계승하는 것을 선호했습니다. 그러나 몇 가지 음모 덕분에 암르가 정상에 올랐습니다. 그의 초기 통치의 대부분은 야쿠브가 서쪽에서 정신이 팔린 동안 야쿠브의 권위에서 벗어난 다양한 영토의 질서를 회복하는 데 집중되었습니다. 결국, 암르와 칼리프 알무타미드는 그들의 상호 이익을 위협하는 여러 이란 군벌을 고려하여 그들의 차이점을 제쳐두어야 했습니다.\n\n사만 왕조는 서기 900년에 암르를 패배시키면서 암르를 무너뜨린 세력이었습니다. 암르는 기술적으로 칼리프의 대표였지만, 칼리프는 이전의 동맹군의 패배를 편리하게 여겼을 것입니다. 사만 왕조는 암르를 사슬로 묶어 칼리프에게 보냈고, 그는 나중에 처형되었습니다.\n\n암르의 후손들은 살아남아 1세기 동안 소영주로 통치했지만, 다시는 권력의 정점에 도달하지 못했습니다." # 726e28728106c9c97eaa4e7c48e96ad4cd27bf68
+  yazd.0003.c.info: "#emphasis 역사적 배경:#! 그의 형제들과 마찬가지로 알리 이븐 알 라이스 역시 미천한 출신이었으며, 수년 동안 형의 깃발 아래서 싸웠습니다. 알리는 서기 879년 암르가 사망했을 때 그의 후계자가 되어야 했고 사파르 군대에서도 선호했지만, 교활한 암르는 우위를 점했습니다. 두 형제는 화해하지 못했고, 암르가 알리를 투옥했지만, 알리는 도망쳐 그 지역에서 암르의 적이었던 다른 이란 군벌에게 망명했습니다." # b57a1d93098e9a65bdd76e29e6a02c0f47a17d61
+  yazd.0003.d.info: "#emphasis 역사적 배경:#! 세뷔크-에리는 준빌 영토에 대한 사파르 왕조의 여러 차례 습격 중 한 번에 포로로 잡힌 튀르크인 노예 병사였습니다. 그는 야쿠브를 섬겼고 그 후 몇 년 동안 암르를 섬겼으며, 어느 시점에는 파르스의 총독으로 임명되었습니다.\n\n서기 901년 암르의 몰락과 처형 이후, 암르의 후계자이자 손자인 타히르는 야심 찬 세뷔크-에리의 압박을 받게 되었습니다. 결국 타히르와 그의 형제 야쿠브는 칼리프와 동맹을 맺은 세뷔크-에리와 갈등을 겪었습니다.\n\n타히르와 야쿠브는 패배했지만 세뷔크-에리의 행운은 오래가지 못했습니다. 칼리프가 그에게 징벌 원정대를 보내자 그의 야망은 꺾였습니다. 그는 포로로 잡혀 서기 917년 또는 918년에 칼리프의 포로로 사망했습니다." # e705e7816c3a5e01313414f9862f2422c6ac77d5
+  yazd.0003.e.info: "#emphasis 역사적 배경:#! 야쿠브가 타히리드를 물리친 후, 그는 무능한 통치자로서 백성과 그의 관할 구역 내의 하리지파 위협을 소홀히 한 타히리드 지배자 무함마드를 비난했다고 알려져 있습니다. 야쿠브는 무함마드를 해임하고, 그의 추종자 '우자이르 이븐 알-사리'를 니샤푸르(타히리드의 수도) 총독으로 임명하여 거기서 그의 대표로 일하게 했습니다." # 4c8becbada85332ccd15963d8e32ab689cba9820
+  yazd.0004.t: "카리지파 잔당" # 5558a829bd43ddbd1ed225ea9fa4aecd35322498
+  yazd.0004.desc: "[yaqub_saffarid.GetTitledFirstName]은 모든 [bammer_guy.GetFaith.GetAdherentNamePlural]에게 교활한 적으로서 스스로를 증명했습니다. 그의 노력 덕분에 우리 수는 크게 줄어들었고, 이 지역에는 단 두 개의 주요 하와리즈 잔존 세력만 남았습니다. [bam_county.GetNameNoTier]의 요새에서 하와리즈 잔존 세력을 이끄는 [bammer_guy.GetFirstName]와 [badghis_county.GetNameNoTier]에서 자칭 하와리즈 칼리프인 [abd_al_rahman_kharijite.GetFirstName]입니다. 그러나 [yaqub_saffarid.GetFirstName]가 완전히 적대적인 것은 아닙니다. 분명히 그는 일부 [bammer_guy.GetFaith.GetAdjective] 집단을 쓸어버렸지만, 다른 일부는 그에게 봉사하기로 협상할 수 있었고, 그는 우리의 명성에도 불구하고 - 완전히 정당하며 우리가 자랑스럽게 여기는 - 뉘우치지 않는 광신적인 열광자라는 명성에도 불구하고 동의했습니다. \n\n야심 찬 [yaqub_saffarid.GetFirstName]와 호라산의 아바스 총독인 [tahirid_guy.GetFirstName] 사이의 갈등이 곧 다가올 것입니다. 우리 형제들처럼 우리의 가치를 배신하고 [yaqub_saffarid.GetFirstName]에게 충성을 맹세할 수도 있고, 다른 사람들처럼 무슬림이라고 주장하는 이 불신자들에게 저항하고 [bammer_guy.GetFaith.HighGodName]께서 우리의 필요의 때에 우리를 구원해 주시기를 바랄 수도 있습니다." # 3f00510fe754a73cdeeca22579236c44a3365647
+  yazd.0004.a: "우리는 이 불확실한 시대에 신중하게 행동해야 합니다...." # 654dc8310d4c8bfea7f6659d11856658db07fd6c
+  yazd.0004.a.info: "#emphasis 역사적 배경:#! 크게 요새화된 밤은 8세기 대부분과 9세기 전반 동안 카리지파 공동체의 피난처였습니다. 그들은 결국 서기 868년에 사파르 왕조의 공격으로 전멸했습니다. 당시 그들의 지도자는 Esma'il ibn Musa라는 남자였다고 합니다." # a24514b1d61f3be608674739f44f448989e0a3c2
+  yazd.0004.b.info: "#emphasis 역사적 배경:#! 헤라트 인근 지역, 특히 카루크, 바드기스, 사브제바르와 같은 지역은 8세기와 9세기 대부분 동안 카와리즈파 활동의 온상이었으며, 따라서 서기 870-871년 사파르 왕조의 원정 목표가 되었습니다. 당시 이 지역의 카와리즈파 지도자는 압드 알-라흐만으로, 자신을 "카와리즈파의 칼리프"라고 선포하고 30년 동안 그곳에서 활동했습니다.\n\n압드 알-라흐만의 최종 운명에 대해서는 자료마다 다릅니다. 그는 사파르 왕조에 의해 살해되어 그의 머리가 바그다드의 칼리프에게 보내졌을 수도 있고, 항복하여 그 후 지역 총독이 되었을 수도 있지만, 특정 이브라힘 이븐 아크다르가 이끄는 불만을 품은 카와리즈파에 의해 살해당했을 수도 있습니다. 만약 후자가 실제로 일어났다면, 사파르 왕조는 아이러니하게도 이브라힘에게 비슷한 제안을 하고 그의 군대를 자신들의 군대에 통합했습니다." # 1fa16a2897ecf9bbcbe33e76338cc0b7a649073f
+  yazd.0005.t: "파라무르즈의 이야기" # fba8b8584ab3aab76565f32d20686b815ce3db65
+  yazd.0005.desc: "수십 년 전, 저의 아버지 [ala_al_dawla.GetTitledFirstName]께서는 이란 중부의 위대한 군벌 중 한 분이셨습니다. 부이드 가문과 혼인으로 맺어져, 아버지와 [ROOT.Char.GetCulture.GetName] 전사들은 부이드 가문의 몰락 이후 처음에는 이란의 대부분을 장악했지만, 이후에는 우리 가문의 자율성을 확보하기 위해 강력한 가즈나비 왕조와 셀주크 왕조를 서로 대립시켜야 했습니다.\n\n아아, 저는 아버지의 그늘 아래 있습니다. 저의 통치는 반란을 일으킨 저의 형제 [abu_harb.GetFirstName]를 진압해야 했을 때 시작되었지만, 이후 우리는 화해했습니다. 나중에, 다른 형제 [garshasp.GetFirstName]처럼 저는 셀주크의 [tughril_beg.GetTitledFirstName]에 대항하여 실패한 반란을 시도했습니다. 저의 음모에 진저리를 쳤지만 자비로우신 그는 제가 직접 요청한 대로 [yazd_county.GetNameNoTier]를 중심으로 한 작은 영지를 저에게 하사하셨습니다. 저는 그때부터 이곳에 있습니다." # c590f37942975220784cffd67157f81e88d7ad27
+  yazd.0005.a: "이것은 [ROOT.Char.GetFaith.HighGodName]의 뜻에 따른 우리 가문의 운명이었습니다." # 6ebdc56e6e07d50cdc22b4a095870e36ea0033eb
+  yazd.0005.b: "우리 카쿠이드는 상황을 최대한 활용하는 재능 있는 사람들입니다." # 50531d07cbd937cb2d20d6c81248f60c67eed7ae
+  yazd.0006.t: "야즈드 통치" # 9cd6c9c3927fe7d22144c2a3ba91ab0a53f82394
+  yazd.0006.desc: "패배의 쓰라림에도 불구하고, 나이가 들면 관점이 바뀌는 법입니다. 저는 셀주크와 화해했고, 그들의 궁정에서 큰 존경을 받고 있습니다. 비록 아버지의 그림자에 불과하지만, 저는 아버지의 학문과 문화에 대한 사랑을 물려받았습니다. 결국 아버지는 위대한 아비세나의 후원자이셨으니까요.\n\n[yazd_county.GetNameNoTier]에 온 이후로 저는 이곳을 학자들과 다른 교양 있는 사람들이 살 만한 도시로 발전시키는 데 온 힘을 기울였습니다. 제 아들인 [kakuyid_son.GetFirstName]도 셀주크계에서 두각을 나타내고 있으며 시와 학문을 매우 사랑합니다.\n\n전반적으로, 야즈드의 행정관으로서 저는 다음 노력을 특히 자랑스럽게 생각합니다." # 4b7ac898c7055a156d086a5881f234e20793e6d5
+  yazd.0006.a: "셀주크 왕조와 화해하고 그들의 신뢰받는 사절이 되십시오." # 798d0299f067675b0db4ff00608680f2b8545b04
+  yazd.0006.b: "야즈드를 개발하여 위대하고 번영하며 평화로운 마을로 만드십시오." # 92270a06094d8c4e903894d80bb353c43f739574
+  yazd.0006.c: "학문과 예술을 후원하던 아버지의 유산을 이어가십시오." # 120e9f2085e89783061978d2ace95953b0f1c6c0
+  yazd.0007.t: "인생의 흐름" # f41ed092eee3561283ad70c6214e777974970c11
+  yazd.0007.desc: "결국, 어쩌면 아버지께서 하셨던 것처럼 선거 운동에 매달리지 않는 것이 나쁜 일만은 아닐지도 모릅니다.\n\n어쩌면 이 세련된 도시를 다스리고 평화의 기술을 발전시킬 수 있도록 하신 것은 [ROOT.Char.GetFaith.HighGodName]의 뜻이었을지도 모릅니다. 처음에는 패배와 좌절을 겪었지만, 성공적인 삶을 살지 않았다고는 말할 수 없습니다. 죽음이 가까워지는 것을 느끼며, 어쩌면 더 이상 아버지의 그늘 아래 있지 않다는 것을 깨닫습니다.\n\n어쩌면 저에게도 저만의 그림자가 있을지도 모릅니다." # 658535f2bdc53b482ca51960ca9259a56120723a
+  yazd.0007.a: "내 이야기는 곧 끝나고 새로운 이야기가 시작되겠지. 느껴져." # 56c0733ca33497874f27a516de177a13cc0269b1
+  yazd.0007.info: "#emphasis 역사적 배경:#! 파라무르즈는 1063년 역사 기록에서 마지막으로 언급되었으므로, 그 이후 어느 시점에 사망했을 가능성이 높습니다. 당시 그와 그의 후손들은 초기 격렬했던 관계에도 불구하고 셀주크 왕조의 충실하고 존경받는 신하로 자리매김했습니다. 예를 들어, 파라무르즈의 아들 및 후계자 알리는 알프 아르슬란의 누이인 아르슬란 핫운과 결혼했습니다.\n\n\n후기 카쿠이 왕조는 야즈드를 다스리며 문화 중심지로 발전시켰습니다. 이 왕조의 마지막 알려진 통치자는 파라무르즈의 손자인 가르샤스프였으며, 1141년 카라키탄(또는 서려)이 셀주크 왕조를 대패한 카르완 전투에서 사망한 것으로 알려져 있습니다.\n\n\n이후 야즈드는 가르샤스프의 사위이자 터키 출신 사령관인 삼 빈 워단루즈가 물려받아 야즈드 아타벡 왕조를 건설했습니다. 카쿠이 왕조의 계승자인 이들은 일칸 왕조 아래 14세기까지 이어졌습니다." # 7ccf7fcc87889448a873d8f86e177531aa2dace9
+  yazd.0008.t: "카우르드의 이야기" # 152ba7deb7451c47b4642561f10497e7dc85b49e
+  yazd.0008.desc: "나의 아버지 [chagri_beg.GetFirstName]와 나의 삼촌 [tughril_beg.GetFirstName]은 우리 왕조 성공의 토대를 마련했습니다. 그들이 살아 있는 동안, 저는 우리 군대를 이끌고 [kerman_duchy.GetNameNoTier]을 장악했고, 그 후에는 바다 건너 [oman_duchy.GetNameNoTier]까지 진격했습니다. 우리 가문의 영광을 드높일 능력이 부족했다고 말하는 자는 없을 것입니다.\n\n[kerman_duchy.GetNameNoTier]와 [oman_duchy.GetNameNoTier]의 통치자로서, 저는 수년 동안 많은 것을 이루었습니다. 저는 유목민인 우리 튀르크족 동포와 우리가 통치하는 정착민인 농업민들의 경쟁적인 이해관계를 조율했습니다. 저는 화폐를 주조했고, 여행자와 상인을 위한 안전한 길을 만들었습니다.\n\n제가 이룬 모든 업적 중에서 가장 자랑스러운 것은 다음과 같습니다." # 14b261a20f57d0243c9f77d3baf7d181511d65f9
+  yazd.0008.a: "카리지파 불신자들로부터 오만을 정복함." # 96e98eeaeb91006c73942925abf4ae78457f6be9
+  yazd.0008.b: "튀르크인과 현지인 간의 평화를 보장하려는 나의 노력." # 4da922f705b4b2da1ba53b7404a5a10827e79e2f
+  yazd.0008.c: "무역망 확장과 안전한 도로 건설을 위한 노력." # 6a49d4ca82157dcc5f66c780a4258212dee75518
+  yazd.0009.t: "고위 왕자의 상속권" # 205a3f729253189c3dbd9751dd4662cad940c822
+  yazd.0009.desc: "아버지의 장남이자 숙부의 가장 큰 조카로서, 저는 셀주크의 지도자로서 그들의 지위를 물려받을 것이라 기대했습니다. 하지만 제가 모든 노력을 다했음에도 불구하고, 숙부께서 돌아가시자 가족의 운명을 제 동생 [alp_arslan.GetFirstName]에게 맡기셨습니다. 실망했다는 것을 인정합니다. 여전히 그렇습니다.\n\n저는 제 차례를 기다리기로 했습니다. 우리가 전통적인 [ROOT.Char.GetCulture.GetName] 관습을 따른다면, 왕위를 계승할 때 제 조카들보다 제가 선임자가 될 것이며, 우리 군대의 많은 장교들도 이에 동의한다는 것을 알고 있습니다.\n\n제가 제 동생보다 오래 살 수 있을지는 모르겠습니다. 하지만 [ROOT.Char.GetFaith.HighGodName]께서 그렇게 하시기를 바라신다면, 제 인내와 노력이 보상받는 날이 올지도 모릅니다. 셀주크 왕자 중 가장 선임자로서, 위대한 셀주크 제국은 제가 다스릴 것입니다!" # 9375b1558541aa586dc6c8a4720d0880e5e44828
+  yazd.0009.a: "그것은 오직 저의 타고난 권리입니다." # 902b9c50867ad1680954aca6c1b8be368bb71037
+  yazd.0009.qawurd.tooltip: "#bold 카우르드의 야망: 셀주크 왕좌를 탐하다#!$RICE_yazd_aspiration_qawurd_desc$" # f21a898d15200f2c9202bc1f6e76df2227b66f56
+  yazd.0009.info: "#강조 역사적 배경:#!  껄끄러운 관계에도 불구하고, 카워르드는 형 알프 아르슬란이 살아있는 동안 그를 폐위하려는 시도를 하지 않았습니다.\n\n하지만 알프 아르슬란이 1072년 포로로 잡힌 적에게 예상치 못하게 살해당하고, 아들인 젊은 말릭 샤가 그를 계승하자 카워르드는 셀주크 왕좌를 차지할 기회를 보았고, 반란을 일으켰습니다.  하마단 근처의 결전에서 말릭 샤의 군대에 속한 많은 투르크멘들이 카워르드 편으로 돌아섰음에도 불구하고, 말릭 샤가 승리했고, 카워르드는 처형되었습니다.\n\n그럼에도 불구하고, 카워르드의 두 아들인 술탄 샤와 투란 샤는 말릭 샤의 봉신으로서 케르만에 남았습니다. 셀주크 왕조의 케르만 지파는 1100년대 후반까지 이어졌습니다." # 002969381e2ee0945bd285b3f5f7e3dcb02245b5
+  yazd.0010.t: "$RICE_historical_aspiration_fulfilled_title$" # a91ba21632f32a3a7a9968188aaeae47bb9f8693
+  yazd.0010.desc: "제 평생의 꿈이 드디어 이루어졌습니다. #italic 저#!, [qawurd.GetFirstName]이, 위대한 셀주크 제국을 다스리게 되었습니다. 제게 미치지 못하는 어린 친척들은요? 그들은 제 밑에서 싸우고 저를 잘 섬기기에 적합하지만, 우리 왕조의 장자로서 이 옥좌에 앉는 것이 제 권리였습니다. 그것은 제 #italic 타고난 권리#!였습니다.\n\n저를 지지한 튀르크 전사들과 부족민들 역시 당연히 매우 기뻐하고 있습니다. 그들은 제 친척들 일부가 장자 상속과 같은 우리의 오랜 전통을 버리기 시작하는 것에 대해 경계했습니다. 그들은 이제 저에게 많은 것을 기대하고 있으며, 우리의 뿌리에 충실함으로써 그들의 바람을 달래는 것이 현명할 것입니다.\n\n그럼에도 불구하고 우리 왕조는 여전히 굳건합니다. 제가 이 제국의 지휘권을 잡게 됨으로써 우리는 시간이 지날수록 더욱 강해질 것입니다." # 611055aed5a2c56d33eca042f80a39122a242691
+  yazd.0010.a: "[ROOT.Char.GetFaith.HighGodName]께서 저와 제국에 많은 영광을 가져다주시기를!" # 4a70964ceee0bb0d15e637d10b1e056fb8062d69
+  yazd.0011.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0011.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0011.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0012.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0012.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0012.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0013.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0013.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0013.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0014.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0020.t: "야즈드가 확장하고 번성합니다" # fd2e03e2694c8357d08471a655ccce5c127c7652
+  yazd.0020.desc: "[yazd_county.GetNameNoTier]은 건조한 지역에 있지만, 먼 곳에서 온 외국인들은 이 도시가 얼마나 부유한지 보고 놀랄지도 모릅니다. 기본적으로 오아시스에 위치하고 있고 지리적으로 보호받고 있다는 사실 외에도, 광범위한 카나트 수로망, 여러 다른 종교를 위한 예배당 등 훌륭한 기반 시설과 편의 시설도 갖추고 있습니다. 하지만 항상 개선의 여지가 있습니다.\n\n저는 도시를 확장하고 추가적인 건물과 공공 사업을 계획하기 위해 여러 가지 계획을 시작하기로 했습니다. 여기에는 카나트의 추가 확장, 여러 개의 무성하고 푸른 정원, 교육 시설 등이 포함됩니다. 이 도시는 이미 박식하고, 배웠고, 유능한 정착민들에게 매력적이라는 명성을 얻고 있습니다. 더 위대한 인재를 유치할 수 있도록 도시를 더욱 위대하게 만듭시다!" # f85455fb7859e1d20f640aa9bce38767b0dfaee9
+  yazd.0020.a: "정말로 야즈드는 사막의 보석입니다." # bfebf6d8721cdb9888700696faa999f416cb6c49
+  yazd.0021.t: "야즈드가 확장하고 번성합니다" # fd2e03e2694c8357d08471a655ccce5c127c7652
+  yazd.0021.desc: "오랫동안 [yazd_county.GetNameNoTier]는 학문과 예술의 중심지로 명성을 얻었습니다. 사막 한가운데 있는 정착지가 어떻게 그런 명성을 얻었는지 설명하기 어렵다면 이상하다고 생각할 수 있습니다. 하지만 그 성공에는 비밀이 없습니다. 이 지역은 훌륭한 기반 시설과 세련된 공동체를 갖추고 있으며, 오아시스의 전략적이고 방어적인 위치에 자리 잡고 있습니다.\n\n[yazd_county.GetNameNoTier]의 첫 번째 통치자는 아니지만, [yazd_ruler.GetTitledFirstName]은 최근 이전에는 볼 수 없었던 다양한 공공 사업 프로젝트와 계획에 자금을 지원하기 시작했습니다. 정원, 예배당, 카나트, 학교 등이 건설되어 도시의 삶의 질을 더욱 향상시킬 것입니다. 이제 멀리 떨어진 곳에서 온 학자들과 지식인들은 도시에 대해 높이 평가하고 있으며, 많은 사람들이 그곳에 정착하기를 원하여 도시의 이미 높은 명성을 더욱 높이고 있습니다." # dc80c3a101b5374dc69712cd3e6ee1a05903e623
+  yazd.0021.a: "[yazd_county.GetNameNoTier]에 적합합니다." # 153757ccf082cdaa283e5fdec6f4735e014848b0
+  yazd.0022.t: "카나트" # a9f6462c5cb4ba2d0522499c4fb540bfcc26d091
+  yazd.0022.desc: "수세기 동안 중동과 북아프리카 사람들은 #italic qanat#! 수로를 이용하여 장거리에 걸쳐 물을 운반해 왔습니다.\n\n저와 같은 지위의 사람들이 공공 시설 건설을 후원하는 것은 관례가 되었습니다. 저는 바로 그렇게 할 것을 결정했으며, qanat 건설이 끝나면 농업, 음용, 세척 또는 기타 용도로 커뮤니티에 안정적인 물 공급원을 제공할 것입니다.\n\n이제 이 사업에 얼마나 많은 자금을 지원할지, 그리고 얼마나 큰 규모의 qanat를 후원할지 고려해야 합니다." # 8e211482647a34c25ce5168ce6fa297d737c3cfe
+  yazd.0022.a: "작은 카나트" # d2bc4cceef81b239027f4684ed3cfd5a690dce56
+  yazd.0022.b: "중간 크기의 카나트" # d844b8d82b6829dd4c00185f4c1f24b8ef72edf7
+  yazd.0022.c: "대규모 카나트" # ebf96ee71c3320f8e60ef0a924fb555cf450d562
+  yazd.0022.d: "웅장한 카나트" # 006fa1916e4b2158e3d9252546d39594990fa076
+  yazd.0023.t: "[xwedodah_resolver.GetFaith.GetAdjective] 크베도다흐 문제" # 9dc4e2f10b5a98bd1c345c07b7879ce76f21fb33
+  yazd.0023.desc: "교양 있는 [ROOT.Char.GetFaith.GetAdherentName]라면 누구나 #italic Xwedodah#!가 인간이 할 수 있는 가장 위대한 행위 중 하나라는 것을 알고 있습니다. 심지어 [ROOT.Char.GetFaith.DevilName]이 #italic Xwedodah#!를 완료한 부부를 피하라고 [ROOT.Char.GetFaith.DevilHerHis] 하수인들에게 지시했다는 주장도 있는데, 이는 그들의 신성함이 너무나도 강력하기 때문입니다.\n\n#italic Xwedodah#!의 정확한 의미에 대해서는 오랫동안 상당한 논쟁이 있어 왔습니다. 전통적으로 우리 대부분은 그것이 친족 간의 결혼, 즉 부모와 자녀 간의 결혼 또는 형제자매 간의 결혼을 의미한다고 이해했습니다. 그러나 일부는 이에 이의를 제기하며 현재의 이해가 결함이 있다고 주장합니다. 그들은 진정한 원본 가르침은 사촌 간의 결혼을 언급했다고 말합니다.\n\n세계에서 가장 강력한 [ROOT.Char.GetFaith.GetAdjective] 지도자 중 한 명인 저는 이 문제를 논의하기 위해 다양한 학자들과 [ROOT.Char.Custom('DefaultPriestTitlePlural')]로 구성된 회의를 소집하기로 결정했습니다. 우리 모두의 단결을 보장하기 위해 이 논쟁을 완전히 해결할 수 있을 것입니다." # 8487fa2a78c4d013f5545abd46eb97abfdc6648a
+  yazd.0023.a: "양측의 주장을 들어보도록 합시다." # 88b2da626188fd61a6832a83c92a6d47850fd1de
+  yazd.0024.t: "[xwedodah_resolver.GetFaith.GetAdjective] 크베도다흐 문제" # 9dc4e2f10b5a98bd1c345c07b7879ce76f21fb33
+  yazd.0024.desc: "수 세대, 아니 수백 년 동안 [xwedodah_resolver.GetFaith.GetAdjective] 신앙의 신자들은 소위 #italic 흐웨토다흐#!라고 불리는 근친 간의 결혼을 해 왔으며, 그들은 이를 신성한 행위이자 [xwedodah_resolver.GetFaith.HighGodName]을 기쁘게 하는 행위라고 여깁니다. 실제로 다른 모든 신앙의 신자들은 이들을 조롱하며, 이러한 퇴폐적인 관습을 비웃거나 비난해 왔습니다.\n\n그러나 모든 [xwedodah_resolver.GetFaith.GetAdherentName]이 #italic 흐웨토다흐#!에 대한 이러한 해석을 편안하게 받아들이는 것은 아닙니다. 항상 그것이 사촌 간의 결혼을 의미한다고 주장하는 사람들이 있었습니다. 따라서 저명한 [xwedodah_resolver.GetFaith.GetAdjective] 통치자인 [xwedodah_resolver.GetTitledFirstName]은 #italic 흐웨토다흐#!이 가까운 친족 간의 결혼을 의미하는지 사촌 간의 결혼을 의미하는지 토론하고 이 문제를 최종적으로 해결하기 위해 저명한 학자들과 [xwedodah_resolver.Custom('DefaultPriestTitlePlural')]로 구성된 협의회를 소집했습니다." # 3357371105bdadbfe56b40917c4695d337c0811b
+  yazd.0024.a: "그렇게 된 것입니다." # 3e70750ed7c30695fcd68079534e82812baa4a23
+  yazd.0025.t: "[ROOT.Char.GetFaith.GetAdjective] 크베도다에 대한 통치" # 20aa7bf713619ea6f0c385813b86315f141af383
+  yazd.0025.desc: "열띤 논쟁이 오간 훌륭한 토론 끝에 - 때로는 격렬하기도 했지만 - #italic 크웨도다#! 문제 검토를 위해 소집한 자문회에서 다음과 같은 질문에 대한 판결을 내렸습니다. #italic 크웨도다#!는 가까운 친족 간의 결혼을 의미하는가, 아니면 사촌 간의 결혼을 의미하는가?\n\n만장일치의 판결은 아니었지만, 많은 참석자들의 지지를 받았습니다. 전 세계의 [ROOT.Char.GetFaith.GetAdjective] 공동체가 여기서 일어난 일에 대해 알게 되기까지는 시간이 걸리겠지만, 이것이 #italic 크웨도다#!에 대한 논쟁을 완전히 해결하여 좋은 생각, 좋은 말, 좋은 행동을 장려하는 데 집중할 수 있기를 바랍니다.\n\n#Bold 따라서 [ROOT.Char.GetFaith.HighGodName]께서 #italic 크웨도다#!를 다음 사이에서 의도하셨다는 결론을 내렸음을 알립니다:#!" # 612867e2e562d46e162b2fd8e07a9819f3d195e9
+  yazd.0025.a: "친척 여러분, [ROOT.Char.GetFaith.HighGodNamePossessive]의 의도는 수 세기 동안 잘못 해석되었습니다." # 23f5ad35002c3901398228d0378d9e177dc26889
+  yazd.0025.b: "[ROOT.Char.GetFaith.HighGodNamePossessive]가 인류를 이끄는 방식으로 생각하기에, 가까운 친척은 중요합니다." # 2a89e07d9be199dc022f45d1dc4f031509188f45
+  RICE_yazd_change_xwedodah_warning_tooltip: "#X 이 결정으로 [xwedodah_resolver.GetFaith.GetNameNoTooltip]의 $doctrine_consanguinity_name$ [doctrine|E]는 #bold 영구적#입니다! 되돌릴 수 없습니다!#!" # 8a3266147f307358f1902516fa1f25ec2ed5751a
+  RICE_yazd_keep_xwedodah_tooltip_1: "[GetFaithDoctrine('doctrine_consanguinity_unrestricted').GetBaseName]은 [xwedodah_resolver.GetFaith.GetName]의 $doctrine_consanguinity_name$ [doctrine|E]로 계속됩니다." # 5b319caa8179846b034b91bf3ed0c41f81220d5c
+  RICE_yazd_keep_xwedodah_tooltip_2: "[GetFaithDoctrine('tenet_divine_marriage').GetBaseName]은 [xwedodah_resolver.GetFaith.GetName]의 [core_tenet|E]으로 남아 있습니다." # 1a8f5cac5245c262d504aa7c906929f532ea04ac
+  yazd.0026.t: "[xwedodah_resolver.GetFaith.GetAdjective] 크웨도다에 대한 통치" # 8d95fca1f62d7c931c7592ef531ee32689a50a12
+  yazd.0026.desc.intro: "최근에 [xwedodah_resolver.GetTitledFirstName]께서는 현재의 #italic 크웨도다#에 대한 [xwedodah_resolver.GetFaith.GetAdjective] 이해가 올바른지 아닌지를 토론하기 위해 학자들과 [xwedodah_resolver.Custom('DefaultPriestTitlePlural')]로 구성된 평의회를 소집했습니다. 그들이 토론한 핵심 질문은 그것이 가까운 친족 간의 결혼을 의미하는지 사촌 간의 결혼을 의미하는지였습니다. 다른 신앙을 따르는 사람들은 오랫동안 이러한 이유로 [xwedodah_resolver.GetFaith.GetAdherentNamePlural]을 비난해 왔고, 이는 오랫동안 그들 공동체 내부의 논쟁거리였습니다. 어쨌든, 평의회는 결국 판결에 도달했습니다." # 933579fd6900dc4a80785199795a40b17f024251
+  yazd.0026.desc.no_incest: "다양한 증거와 추론에 따르면, 그들은 #italic 크베도다흐#!가 실제로 사촌 결혼을 의미한다고 주장합니다. 따라서 가까운 친족 결혼은 후대의 타락이자 [xwedodah_resolver.GetFaith.ReligiousText]와 초기 [xwedodah_resolver.GetFaith.GetAdjective] 공동체의 관행에 대한 오해입니다." # 5ae62a138e79e76176c5d4642aeb2fc6e05eb743
+  yazd.0026.desc.yes_incest: "다양한 증거와 추론에 따르면, 그들은 #italic Xwedodah#!가 실제로 부모와 자녀 또는 형제자매와 형제자매 간의 근친혼을 의미한다고 주장합니다. 따라서 현재 행해지는 방식은 정확하며 [xwedodah_resolver.GetFaith.ReligiousText]에 있는 가르침과 일치합니다." # fe732c314c282e9ad36aa65d0e12ae1dd92e8c94
+  yazd.0026.desc.conclusion: "\n\n이 판결이 반드시 구속력이 있거나 절대적인 것은 아니지만, 관련된 사람들의 중요성 때문에 많은 [xwedodah_resolver.GetFaith.GetAdherentNamePlural](이)가 이를 따를 가능성이 높습니다." # 61629a451219bab8e4f19b836f5bf2e982d75de5
+  yazd.0026.a: "[xwedodah_resolver.GetFaith.GetAdjectiveNoTooltip] 신도들은 이것을 어떻게 생각할까요?" # c89b55d45915baeec90f4e667378e868b0b79fab
+  yazd.0026.tooltip: "[xwedodah_resolver.GetFaith.GetName]의 $doctrine_consanguinity_name$ [doctrine|E]에 대한 이 변경 사항은 #bold 영구적#!이며 되돌릴 수 없습니다." # f065bce98a6708878f58c8a1d19a6f38ed799e4f
+  yazd.0027.t: "다바즈다 이맘" # cd630c235e1412f9fd6a5fac2bce15c3d4e2421a
+  yazd.0027.desc.intro: "[yazd_county.GetNameNoTier]의 지역 시아파 공동체의 요청에 따라, 자금을 모아 숙련된 장인과 건축가를 고용하여 #italic Davāzdah Imām#!, 즉 열두 이맘의 성지라고 불리는 영묘를 지었습니다. 도시에서 가장 큰 건물은 아니지만, 여전히 놀라운 건축물입니다. 내부에는 여러 비문이 있으며, 대부분은 코란을 인용하고 있습니다. 그러나 하나는 다음 텍스트를 담고 있습니다.\n\n#italic 신의 만족을 위해 노력하고 그의 보상을 구하는 고귀한 [ROOT.Char.GetTitledFirstNameNoTooltip]께서 이 축복받은 돔의 건설을 명령하셨습니다.#!" # 593b6973ccf292d1f07d8a588a6186af24519a5f
+  yazd.0027.desc.shiite: "저는 시아파 공동체의 친구들을 지원할 기회를 얻게 되어 기쁩니다. [yazd_county.GetNameNoTier]와 세계 다른 곳에서 번영하려면 우리는 함께 협력해야 합니다." # 3896dfc492d018de382ca2aef8714b29cd0e200b
+  yazd.0027.desc.not_shiite: "비록 저는 시아파는 아니지만, [yazd_county.GetNameNoTier]의 시아파 공동체와 좋은 관계를 유지하지 않을 이유가 없다고 생각합니다. 그들이 저의 호의적인 제스처를 인정해 주기를 바랍니다." # 3f86c5628fabc36acdc7d7cada6d66deb2abef0f
+  yazd.0027.a: "이 건물은 분명 우리 도시의 아름다움을 더할 것입니다." # 334439eac2cfbf69192d993e971b32c9194556ad
+  yazd.0028.t: "야흐찰 방문" # da563c94e3c3d51e855c31b6f2e7ce3462b6bb60
+  yazd.0028.desc: "나는 지역 [Glossary( 'yakhchal', 'YAKHCHAL_GLOSS' )]을 방문하여 개인적으로 사용할 많은 양의 얼음을 구매했습니다.\n\n이 얼음은 음식이 상하는 것을 막기 위해 더 낮은 온도에서 보관하는 데 사용할 수 있습니다. 또는 소르베, 차가운 음료와 같은 맛있고 시원한 요리를 만드는 데 사용할 수도 있습니다.\n\n이 얼음으로 할 수 있는 일은 많습니다. 다행히 지역 [culture.GetCollectiveNoun]은 여기에 #italic 야흐찰#!을 관리하고 있습니다!" # 95ed02f2569e45c01369258eaa5bfa3aef8033eb
+  yazd.0028.a: "얼음을 가져갈게요. 감사합니다." # 917a16cb34f5da2071005c24442ef49e168df8db
+  yazd.0029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0030.t: "사데 축제 준비" # 5608a9b2358a58a56409cd496e11c6269fd5154c
+  yazd.0030.desc: "겨울이 돌아왔고, 공기가 차갑습니다.\n\n올해에는 이란의 선조들이 대대로 해왔던 것처럼 성대한 사데 축제를 기념하고자 합니다. 가장 추운 날, #italic 노루즈#! 50일 전에 우리는 모닥불을 피우며 사데를 지킬 것입니다." # 1cd5e4594a8be02d0a3b86b24734b16d35c7ac9d
+  yazd.0030.desc.chak_chak: "[ROOT.Char.GetFaith.GetAdherentName] 신앙을 가진 [yazd_county.GetNameNoTier] 지역을 다스리는 자로서, 인근의 샤크샤크 성지 동굴에서 사데를 기념하기로 결정했습니다. 이곳은 아랍인들이 이란을 정복했을 때, 마지막 사산 왕조 황제의 딸 니크바누가 샤크샤크로 피신했다고 전해집니다. [ROOT.Char.GetFaith.HighGodName]의 자비로운 중재 덕분에 공주는 침략자들을 피해 동굴에서 피난처를 찾을 수 있었습니다.\n\n어쨌든, 사데 기간 동안 샤크샤크에서는 전통적인 의식이 행해집니다. 동굴을 방문하는 것은, 비록 추가적인 계획이 필요하더라도, 저에게 큰 영적인 기회가 될 것입니다." # ea68e857a453f5b51bc1cca81a82d99706ae7062
+  yazd.0030.a: "올해 축제 준비를 시작해야겠어." # 9b6e44a84f6fcccf2f7dc241da48979a00e3215f
+  yazd.0030.b: "차크차크에서 사데를 축하할 수 있어서 기쁩니다!" # b008ddb53aed9e425003f49951741dbaaeffdbd5
+  yazd.0030.c: "올해는 다른 사데 행사 때문에 바빠서 참가할 수 없습니다." # c39ce9c5167191ab968edcb7cfb3ee9b46c67a6d
+  yazd.0030.chak_chak.tooltip: "차크차크로 가면 추가적인 사데 이벤트가 발생할 가능성이 있으며, 이를 통해 [piety|E]가 증가하거나 다른 은총을 받을 수 있지만, 일반적인 사데 이벤트를 경험할 가능성은 줄어듭니다." # 6ff89e5ec17ce7e5c0e18f076a749e1f22fd4f95
+  yazd.0031.t: "사데가 시작됩니다" # 03fd776809bc5e34f289aebfaa91842dd576055e
+  yazd.0031.desc: "사데 축제 밤이 거의 다 되었습니다. 일 년 중 가장 추운 시기일지 모르지만, 우리는 서로에게서, 그리고 우리가 피우는 불에서 따뜻함을 찾습니다. 이란 세계 곳곳에서 멀고 가까운 모든 마을과 마을에서 모닥불이 켜지고 있습니다. 봄의 귀환을 바라는 만큼 서로에게서 기쁨을 찾기를 바랍니다!" # 1b40bdbfd474f0143b2b2cab555a5caca76346cb
+  yazd.0031.a: "알겠습니다. 시작해 보죠." # 82648dbcf5ae2c8b97dc722f2e118ca40555ff7a
+  yazd.0032.t: "사데가 끝나다" # 5174ec9a26c88f4a2fdc21cdf4ab9dfff0ba0256
+  yazd.0032.desc: "사데는 이것으로 막을 내립니다. 모두 즐거운 시간을 보냈으며, 여기저기 피운 모닥불 덕분에 1년 중 가장 추운 이 시기에 따뜻하게 지낼 수 있었습니다. 머지않아 봄이 찾아올 것입니다." # 343f384dc1652b27a2ef2ddf94a0b4a8dbab95a3
+  yazd.0032.desc.no_chak_chak: "아아, 그런 기회는 일 년에 한 번밖에 오지 않으니, 지금은 여기서 마무리해야 할 것 같습니다. 하지만 그때까지, 다음 사데를 기대하겠습니다." # ae22653c205ba64c5bfecf9887cf27f4958376be
+  yazd.0032.desc.chak_chak: "이러한 기회는 일 년에 한 번밖에 찾아오지 않으며, 나는 곧 착착을 떠나야 합니다. 하지만 올해의 사데 기간에 이곳에 와서 의식이 행해지는 것을 보게 되어 기쁩니다. 좋은 경험이었습니다." # 7aa4e336822ff226407065e1d25386b33f18234a
+  yazd.0032.a: "다음 시간까지." # 4bfadc36b58cc19b2932f34d9a44985c6b092f09
+  yazd.0033.t: "모닥불" # d2e3b1f129a6723c5c93bb0c159262b23bca9e75
+  yazd.0033.desc: "사데흐 의식을 위해서는 큰 불을 지필 많은 나무를 모아야 합니다. 신분에 상관없이 모두가 자신의 역할을 다해야 하므로, 저는 필요한 일을 하고 불을 지필 나무를 모으는 데 도움을 주었습니다. 그래서 밤늦게 큰 불을 지필 수 있었습니다." # 5d18bfd854f3b8a936b3689428809f5d0cdf0375
+  yazd.0033.a: "몇 가지 나뭇가지를 가져왔습니다. 크게 일할 필요는 없을 겁니다." # af811c62eef19bae6b8f5f45eb56b53b0f8f35cf
+  yazd.0033.b: "나는 모닥불에 쓸 장작을 꽤 많이 날랐다." # 5ad47b218bc1cd2283588b882b48262ccc15a964
+  yazd.0033.c: "저는 할 수 있는 한 많은 장작을 모으기 위해 열심히 노력했습니다." # 9db2080d58a81e6dcd42be4b8a9049f0c8d835f3
+  yazd.0034.t: "물가의 불" # 9cea163ec23c35210a5f5110ecf37a3876a1ab4a
+  yazd.0034.desc: "오래된 전통에 따르면 흐르는 물이나 오래된 지하 수로인 카나트 근처에 불을 피우는 것이 중요합니다. 이는 [ROOT.Char.GetFaith.FertilityGodName]의 도움으로 식물이 너무 춥거나 얼지 않도록 하기 위함이며, 그래야 다음 해에 식물이 잘 자라 풍성한 수확을 거둘 수 있습니다." # 3d61a04f9e6d13f0967f23832791076ccc051217
+  yazd.0034.a: "이는 의식에서 중요한 부분입니다!" # 2c3ef3c72faa350c0c3dbc4aba9ab6b08c0a674b
+  yazd.0034.b: "도움이 될지는 모르겠지만, 어쨌든 하겠습니다." # 01138b031462d3e0aef9de0dfc3bf947e53d9f00
+  yazd.0035.t: "회고" # cdbc1704be96ed0371aa9d498f39d8b3b606b5cf
+  yazd.0035.desc: "불 근처에 서서, 사데 축제가 보통 새해인 노루즈로부터 약 50일 전에 있다는 것을 생각합니다. 물론 새해가 시작되기를 기다릴 수 없지만, 너무 멀게 느껴집니다! 밤은 춥고, 다음 봄이 무엇을 가져올지 누가 알겠습니까?" # 88f43319031d6852516fd8a626868958581c21f8
+  yazd.0035.a: "나는 불에 더 가까이 몸을 움츠린다." # d4143c4ceb0cea7c2e24df60fd4c78edd8e6dffe
+  yazd.0036.t: "후샹의 전설" # 4966b625924485fe27d52e705cfdfa3751aa3c4c
+  yazd.0036.desc: "사데가 처음 생겨난 시기에 대해서는 많은 상충되는 이야기가 있습니다. 제가 들은 이야기 중 하나는 이란 신화의 고대 영웅 후샹이 용과 싸우다가 일어난 사건 이후에 축하했다는 것입니다. 그는 용에게 돌을 던지려 했지만 빗나갔습니다. 그러나 그 돌은 다른 돌을 쳤고, 둘 다 부싯돌이었기 때문에 불이 붙었습니다.\n\n후샹은 이것이 [ROOT.Char.GetFaith.HighGodName]의 행동임을 깨달았습니다. 그는 후샹에게 불의 비밀을 계시했고, 후샹은 이 중대한 사건을 축하하고 싶어했습니다. 그래서 사데가 탄생했습니다." # bd8609e495a650c3d7b01a256b68299552884a7c
+  yazd.0036.a: "그렇게 일어났는지 확실하지 않지만, 멋진 이야기입니다." # c22d81ac3ea5add1d6b997c6cc17c07a651c0d94
+  yazd.0036.b: "전설은 어느 정도 진실을 담고 있다고 생각합니다." # cd04e8e78fde85f99f7d3e711d4819c2cbb7f4b8
+  yazd.0037.t: "사데 시" # 7ab9630572a11ff73659f62928c419a31ee553c2
+  yazd.0037.desc: "겨울 중 가장 추운 밤인 사데는 많은 이들에게 불의 영광을 묘사하는 시를 쓰도록 영감을 주었습니다. 저는 방금 세 명의 평민이 사데에서 영감을 받은 시를 낭송하는 것을 들었습니다.\n\n한 시는 모닥불을 겨울 풍경에서 피어나는 아름다운 꽃이나 나무, 또는 정원 전체에 비유합니다. 두 번째 시는 이번 행사를 [ROOT.Char.GetFaith.HighGodName]와 [ROOT.Char.GetFaith.DevilName]의 세력 간의 갈등으로 묘사합니다. 마지막 시는 사데의 기원을 허샹과 같은 고대 신화 속 이란 영웅들이 용과 같은 무시무시한 괴물을 살해한 것을 기념하는 것으로 재구성합니다.\n\n어떤 것이 가장 좋다고 생각하시나요?" # 4f302e10fadd67b115f7e8108f7a0e51dd15fc39
+  yazd.0037.a: "불과 자연에 대한 아름다운 시" # e25dbe1f48fa6d605a034c66b3d8cee4091617c8
+  yazd.0037.b: "선과 악에 대한 경건한 시" # 17535e0563f20cd419922731c74d15ee8228b895
+  yazd.0037.c: "용감하고 노련한 영웅에 대한 서사시" # 4b54c790fbc26d408a32f2f526a42d2a06a960f3
+  yazd.0038.t: "사데 축제" # 8874044b971cf93bd72a3b952fd43c9118f2fcb9
+  yazd.0038.desc: "사데는 보통 많은 연회를 위한 시간입니다. 결국 한 해 중 가장 추운 시기이므로 모닥불 외에도 음식과 다른 사람들과 함께 먹는 것은 따뜻하게 지내는 좋은 방법이기도 합니다. 올해 사데 연회는 특히 맛이 좋으며, 구운 양고기와 소고기 등 맛있는 음식을 즐길 수 있습니다." # 92ab853fc20759896cae1c55d26fe3695b50a982
+  yazd.0038.a: "맛있어!" # 43539eaf525d9c5cbfec4839a3b1223d934bed36
+  yazd.0039.t: "가난한 자에게 베풀기" # 359a66e2eaeddb4d5108683d13b59f5cc5b61f86
+  yazd.0039.desc: "사데 기간 동안에는 저녁에 모닥불을 피우기 전에 가난한 사람들에게 음식을 주는 것이 관례입니다. 물론, 저도 올해 도움이 필요한 배고픈 사람들을 돕기 위해 그렇게 했습니다…." # e24a8e821a9a6d898519efd7628761af8600b0ca
+  yazd.0039.b: "저는 그들에게 상당한 양의 자선을 베풀었습니다." # 43b8f203dabe3cc4de4c8c807075e7bed29f2a18
+  yazd.0039.c: "제가 매우 관대하게 많은 음식을 나누어 주었습니다." # 73002924f3a1fc20a729c0cf90c54b9739ba86c6
+  yazd.0040.t: "불타는 광경" # 14933423279e29e3ca9577eca8fba6490fc0a047
+  yazd.0040.desc: "요즘 이란 고원의 많은 왕과 영주들은 사데 축제 동안 새와 동물을 불에 태우는 관습을 행하고 있습니다. 즉, 이 야생 짐승들을 불 속으로 몰아넣고, 관중들은 소란을 지켜보며 (가능하면 안전한 거리에서) 먹고 마시며 즐거워합니다.\n\n이슬람교 #italic 과#! 조로아스터교를 포함한 모든 종교의 독실한 학자와 성인들은 이 관습을 잔인하며 자신들의 신앙 가르침에 어긋난다고 비난했습니다. 하지만... 우리가 한다면 #italic 정말#! 재미있을 수도 있습니다. 올해 이러한 볼거리를 시행하도록 명령해야 할까요?" # b0fbf2301d17f9825a77d194a5137e6f8a43895e
+  yazd.0040.a: "[ROOT.Char.Custom('DefaultPriestTitlePlural')]이 그것이 잔인하고 [ROOT.Char.GetFaith.GetAdjective] 가르침에 위배된다고 말하면, 하지 맙시다." # 548f73fc6633ac89f5770407c3f986c59fbd7a21
+  yazd.0040.b: "자, 이제 왜 좀 재미를 볼 수 없는 거지? 동물들이 불타는 걸 보자!" # 92977944aaab933ae24d842b38caaca3202db1ab
+  yazd.0040.info: "#emphasis 역사적 배경:#! 중세 시대, 11세기의 위대한 이란 학자 알비루니의 저술 등을 통해 사데(Sadeh) 축제 기간에 동물들을 불태우는 풍습이 있었음을 알 수 있습니다. 알비루니는 이를 잔혹하고 이슬람교에 어긋나는 행위라고 비판했으며, 그의 조로아스터교 동료들 역시 이에 동의했던 것으로 보입니다. 그럼에도 불구하고, 이러한 관습은 당대의 이란 왕들 사이에서 인기 있는 풍습이었던 것으로 보입니다. 이러한 관행은 이슬람 이전부터 존재했을 가능성이 있으며, 조로아스터교와는 무관한 기원일 가능성도 배제할 수 없습니다. 만약 그렇다면, 그 원래 목적은 알 수 없습니다." # 1142aac6acd40a21737a699f6138c64116cec6ce
+  yazd.0041.t: "춤추기" # af95616b7f7ec8dc63dd69dba4b12a6ce8d4313b
+  yazd.0041.desc: "사데 기간 동안에는 악령과 추위를 막기 위해 거대한 모닥불을 피웁니다. 하지만 우리는 그저 불꽃을 감상하며 서 있는 것이 아니라 춤도 춥니다! 우리는 모두 모닥불 주위에서 큰 원을 만들어 춤을 춥니다." # d3e80e62d6e92dbb3fe9fa86029743f95adad903
+  yazd.0041.a: "물론, 저도 춤에 합류합니다 – 왜 안 그럴까요?" # 752c109ed0915f9f476dbf9e15d74ba1242fe6da
+  yazd.0041.b: "나는 모두가 즐거운 시간을 보내는 것을 보며 편안히 있기로 결정했습니다." # 5dae9937c24a4a24ff21cfeee6e710409e630809
+  yazd.0042.t: "차크차크" # 3e2dd4ed84e85e0fae1f7a3659af4f2caad871ab
+  yazd.0042.desc: "많은 이들이 큰 모닥불을 피우며 마을에서 사데 축제를 즐기는 대신, 저는 이 중요한 축제 동안 더 영적으로 충만한 일을 할 기회를 얻었습니다. [yazd_county.GetNameNoTier] 주변 지역의 관습대로, 저는 사데를 기념하기 위해 차크차크 동굴로 갈 것입니다.\n\n적어도 그 여정이 최악은 아닙니다. 사막의 일부를 건너야 하지만, 그곳까지 가는 데는 하루 정도밖에 걸리지 않습니다.\n\n차크차크의 절벽이 눈에 들어오는 것은 정말 반가운 광경입니다. 하지만 그곳의 사원을 보게 되면 걸어서 여행을 계속해야 하는 것이 관습입니다. 게다가, 지역 마을 사람들은 이미 사데를 준비한 것 같습니다." # dbfe3310a6d68b4ca3e3ce068a603275d3ffbd05
+  yazd.0042.a: "걸어서 여행을 마칠 시간입니다." # 86d9139287373dcdba643cbc66e5880fb38d7eaf
+  yazd.0043.t: "신성한 물" # a4eaed72570f53dc1962ef961eb54f025d09fab4
+  yazd.0043.desc: "차크차크에서 사데 축제를 기념하는 동안, 많은 예배자들은 그곳에서 끊임없이 떨어지는 성스러운 샘물을 마실 기회를 얻습니다. 전설에 따르면 이 샘은 사산 왕조의 공주 니크바누를 기억하기 위해 산이 흘린 눈물로 형성되었다고 합니다." # 5c9ce2906d8d005a404f5543414f2459877c864b
+  yazd.0043.a: "이 물을 마시는 것은 축복입니다." # 2c6b6711888432bc9793a4084c331372ad7314cc
+  yazd.0044.t: "니크바누의 지팡이" # 2d1fdd5eaa27027fa4991f80a158b315c729f0fd
+  yazd.0044.desc: "차크차크의 성스러운 샘 근처에는 니크바누의 지팡이에서 자랐다고 전해지는 고대 나무가 있습니다. 그 나무는 인상적이고 위엄 있는 모습이며 많은 경외감을 불러일으킵니다." # dd042f88787e02404fbbbb9b911da6e9111c801d
+  yazd.0044.a: "세월이 그렇게 흘렀는데도 아직 여기에 서 있다니." # 76523e391b367dae651062c301ef4cb635cbc966
+  yazd.0045.t: "영원한 불꽃" # 1210e8754132602a975831e06471d41fd4753ee2
+  yazd.0045.desc: "차크차크 동굴 안의 불은 오랜 세월 동안 타올랐으며, 이는 [ROOT.Char.GetFaith.HighGodName]의 영광과 신성함뿐만 아니라, 밤낮으로 불이 꺼지지 않도록 열심히 일하는 [ROOT.Char.Custom('DefaultPriestTitlePlural')]과 다른 평신도들의 증거이기도 합니다. 사데 기간에는 지금과 같이 특별한 의식이 그 주위에서 열립니다." # cbce0d436b6d123eb9fe54f07aeeba8c96215cc8
+  yazd.0045.a: "그들 덕분에 사데 축제 동안 여기서 타오르는 불을 볼 수 있습니다." # 9ab2869fa0d2f8bfd0a255cc42ac0e0e2ce26ec0
+  yazd.0046.t: "좋은 생각, 좋은 말, 좋은 행동" # 148199a4640e1fd8625ed5397d22eed627acda9a
+  yazd.0046.desc: "차크차크의 영원한 불 옆에 서서 사데 의식에 참여하면서, 나는 [ROOT.Char.GetFaith.GetAdjective] 신앙의 진정한 본질을 기억합니다. 좋은 생각, 좋은 말, 좋은 행동. 우리 모두가 그것을 실천하는 한, 정의와 행복은 항상 이 세상에 존재할 것이며, 내 앞의 불이 항상 밝게 타오르는 것처럼 말입니다." # 43a865fc10a38186adcceb89528004b8ca0e581c
+  yazd.0046.a: "이것을 기억해야 합니다." # 1756c428648c04c91759b0925f294dc3767be8ac
+  yazd.0047.t: "기부" # a2e2fff53201f734d6ae434aa5a5427c6a6b52ff
+  yazd.0047.desc: "차크차크 동굴 사원에 방문하는 동안, 저는 순례자들과 저와 같은 방문객들로부터 기부금을 받을 수 있도록 마련된 쟁반들을 보았습니다. 이러한 쟁반은 [ROOT.Char.Custom('DefaultPriestTitlePlural')]이 불확실한 시대에 이 성스러운 신전을 유지하는 데 필요합니다. 이곳에 있는 동안 기부금을 내는 것이 좋을지도 모르겠습니다." # 4ca17ce674043f467715274d6c21bcf4356b4cf5
+  yazd.0047.a: "저는 이미 일 년 내내 [ROOT.Char.Custom('DefaultPriestTitlePlural')]을 돕고 있습니다. 왜 더 주어야 합니까?" # 42184115af0b5b111135c7b46fb736ac4a426f3e
+  yazd.0047.b: "네, 이 정도면 약간의 동전으로도 충분할 것입니다." # 84a7feb44b8d35b9e926409552ed067d1885047d
+  yazd.0047.c: "이곳에 상당한 양의 금을 기부하는 것이 좋을 것 같습니다." # c701b5390014d590c6eeb090404808ff53c55889
+  yazd.0047.d: "[ROOT.Char.GetFaith.HighGodName]께 영광을! 제가 큰 기부를 하겠습니다." # cff1708f025bca5b10ccbb2ebf51f9d22bd7f2ae
+  yazd.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0050.t: "야즈드의 고대 보물" # 2a48b231a4d5eef4b4c9cde81836460787113c63
+  yazd.0050.desc: "[yazd_county.GetNameNoTier]에는 잃어버린 보물에 대한 전설이 많이 있으며, 이 지역에서 여러 세대에 걸쳐 전해져 왔습니다. 이 이야기를 믿는다면 보물은 수세기 동안 고대 이란 왕조에 의해 묻히거나 숨겨졌다고 합니다.\n\n물론, 그러한 발견이 표면화되어 평판이 좋은 사람들에 의해 확인된 적은 거의 없습니다. 예를 들어, 최근에 [yazd_county.GetNameNoTier] 영토 내에서 그러한 보물 하나가 발견되었다는 이야기를 들었습니다. 하지만 오해를 불러일으키는 보고로 판명되었습니다." # 323b049cb9e57f3c896f7339836454f974649d81
+  yazd.0050.a: "언젠가 우리도 이 전설적인 잃어버린 보물 중 하나를 찾을 수 있을지도 모릅니다." # 032b2b37dff8b4dde986775ab15f3ac9b89994b7
+  yazd.0050.b: "이 어리석은 민속은 시간 낭비이지만, 사람들은 계속해서 믿고 있어요!" # 4e6cda1efdcccc0c02e05003a5035d8510b92703
+  yazd.0051.t: "카나트 계약" # 267587497e7cf663050007590cd56cd601253010
+  yazd.0051.desc: "[yazd_county.GetNameNoTier]의 카나트 제작자들은 수년간 카나트 제작 능력으로 명성을 얻었으며, 이란 세계에서 최고로 여겨집니다. 최근에는 상당수가 지역 내 다른 지역에서 카나트를 건설하는 계약을 체결했습니다. 이것은 그들의 명성을 더욱 높일 뿐입니다." # a598f94be5ebee0362bed5b227c5e0e813bbd5d2
+  yazd.0051.a: "나는 그들의 성공이 기쁩니다." # 18f3b9541c8dc2763ff174743d432b92fb70f032
+  yazd.0052.t: "학자들과 정원" # 9d295ad36940e5caef2bd2848d7b26803bd23f4f
+  yazd.0052.desc: "[yazd_county.GetNameNoTier]가 계속 성장하고 더 많은 학식과 교양을 갖춘 사람들이 정착하면서, 그들 중 많은 이들이 도시 정원의 아름다움을 칭찬하고 있습니다. 많은 유명한 정원들은 그곳에 살았고 정원 건설에 필요한 기금을 기부한 과거 유명 인사들을 기리기 위해 건설되었습니다. 오늘 저는 지역 학자들과 만나기 위해 이러한 정원 중 하나를 방문했습니다. 저는 때때로 이렇게 합니다. 우리가 거기서 휴식을 취하며, 여러 가지 문제에 대해 유쾌하게 이야기했습니다." # 2555302297bbd26c8aab5d53f20f7b16b7ab1cc3
+  yazd.0052.a: "이 학자들이 제게 매우 유익한 조언을 해 주었습니다!" # 9e0507d22ffdf526914b77e16ef20a74698b914d
+  yazd.0052.b: "지위를 유지하기 위한 지루하지만 필요한 형식적인 절차입니다." # 85adc1c75bf72afa435510fd3cde702adc84a62c
+  yazd.0052.c: "그들에게서 배우는 지혜는 나를 [ROOT.Char.GetFaith.HighGodName]께 더 가까이 다가가게 합니다." # 1d83f36a730db2ac8ac9dffabdbbb33618bfdd7f
+  yazd.0053.t: "사원을 교체하시겠습니까?" # e0698b91c653bb3f8492f4605ea1097d21b5e3dc
+  yazd.0053.desc: "[yazd_county.GetNameNoTier]는 한때 조로아스터교 숭배의 중심지였기에, 조로아스터교 공동체가 여전히 사용하고 있는 사원이 도시 곳곳에 많이 있습니다. 하지만 저의 지도력 아래 [yazd_county.GetNameNoTier]에서 [ROOT.Char.GetFaith.GetAdherentNamePlural]의 숫자가 계속 늘어나고 있으며, 그중 일부는 새로운 [ROOT.Char.GetFaith.HouseOfWorship] 건설 자금 지원을 요청했습니다.\n\n과거에는 [yazd_county.GetNameNoTier]의 조로아스터교 사원을 새로운 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetFaith.HouseOfWorship]로 대체하여 확장하는 [ROOT.Char.GetFaith.GetAdjective] 공동체의 영적 요구를 충족시킨 적이 있습니다. 저는 지금 당장 그런 일을 하도록 명령하는 것을 고려하고 있지만, 그렇게 하면 긴장된 관계를 유지하고 있는 지역 조로아스터교도들의 심기를 불편하게 할 수도 있습니다." # b32a557391f0a074215362dc49ff0e756755cd16
+  yazd.0053.a: "우리의 권리대로, 옛 사원을 허물고 [ROOT.Char.GetFaith.HouseOfWorship]을 지으십시오." # 6d32e1ee1c7bfe6adffa0f50b3226fea904cb2a5
+  yazd.0053.b: "우리는 충분한 [ROOT.Char.GetFaith.HouseOfWorshipPlural]이 있습니다. 이웃들과 잘 지내야 합니다." # 5068fc6a5863125519b9660c9f4e1739dec76f5c
+  yazd.0054.t: "새로운 건물?" # 49c759f7acf7f70634139f20b72553d651d74be9
+  yazd.0054.desc: "#italic 숭배의 처소#!로 유명한 [yazd_county.GetNameNoTier]는 종교와 상관없이 주민들의 신앙심으로 명성이 높지만, 그러한 평판이 사실인지 여부는 중요하지 않습니다. 저와 같이 도시에서 살거나 연줄이 있는 많은 엘리트들은 그곳에서 다양한 성스러운 건축물을 세우는 데 후원할 기회를 자주 찾습니다.\n\n어쨌든, 저는 현재 그러한 기회 중 하나를 손에 넣었습니다. 마을의 빈터에는 [ROOT.Char.GetFaith.GetAdjective] 공동체의 필요를 충족할 수 있는 아름다운 건물이 들어설 수 있습니다. 결코 큰 건물은 아닐 것이고, 아마도 다소 초라할 수도 있지만, 건설 자금을 기부한다면 저에게 좋은 평판을 가져다줄 수 있을 것입니다." # 25cedff223d44f39d6023e053a71b167ec6c70a9
+  yazd.0054.a: "현지인들이 예배하고 기도할 수 있도록 그곳에 [ROOT.Char.GetFaith.HouseOfWorship]을 건설하십시오." # bd09945c2040b999a3145297818096df9d817192
+  yazd.0054.b: "그곳에 학교를 세워 젊은 세대가 [ROOT.Char.GetFaith.ReligiousText]로부터 배울 수 있게 하십시오." # 9988b08c6b9eda55ce75243e864447c43322af6f
+  yazd.0054.c: "지역 주민들에게 영감을 주기 위해 인기 있는 [ROOT.Char.Custom('DefaultPriestTitle')]을 기리는 영묘를 건설하십시오." # 6a41e8a552c5efcbdd95ead749c4de4aa3ee7715
+  yazd.0054.d: "저는 지금 건설 프로젝트 후원에 관심이 없습니다." # a71df252d5da626303266b4d24e83ac209481116
+  yazd.0055.t: "야즈드 비단" # 0937e8c08e30903cd63dd30fe0cd30132ec2649f
+  yazd.0055.desc: "[yazd_county.GetNameNoTier]는 오랫동안 이란에서 비단 생산의 지역 중심지 중 하나였습니다. #italic 야즈디#!라고 불리는 이 비단은 중국 비단의 품질에는 미치지 못하지만, 여전히 괜찮은 가격에 거래되며 도시의 인기 있는 수출품 중 하나입니다.\n\n최근에는 경제의 다양한 변화나 다른 곳에서의 수요 증가로 인해 더욱 인기를 얻고 있습니다. 어쨌든 이로 인해 도시 상인들은 더 큰 이익을 얻고 있습니다." # 4062447d086ea9f78e532939f41caba769a2f8b4
+  yazd.0055.a: "좋아요! 좋은 소식이네요!" # 1bac8664a5816887f935dff430c725021d80c722
+  yazd.0056.t: "사르브 아바르쿠" # 497e05e9c59bf9d2c6fc647cf189ccaa825895af
+  yazd.0056.desc: "오늘 저는 [yazd_county.GetNameNoTier]에서 그리 멀지 않은 [abarquh_barony.GetNameNoTier]를 방문하고 있습니다. 지나가는 길에 주목할 만한 랜드마크는 #italic 사르베 아바르쿠#!, 즉 아바르쿠의 사이프러스입니다. 나무는 매우 오래되고 장엄하며, 현지 조로아스터교인들은 이 나무가 아주 오래전 조로아스터 자신이 심었다고 주장합니다." # 12254cd03b65dcc4d3744eb746a7557652135402
+  yazd.0056.a: "조로아스터가 직접 심었을 것이라고는 생각하지 않지만, 예쁜 나무입니다." # 75a4785d1940a49a4f5657abe7c2fb2abaefe5a5
+  yazd.0056.b: "비록 저는 [ROOT.Char.GetFaith.GetAdherentName]이지만, 저 나무를 보니 경외감이 느껴집니다." # 259165f17f60b407a74edb5fad75351452454fa4
+  yazd.0056.c: "이렇게 고목을 볼 수 있다니 영광입니다! 잠시 쉬어가야겠어요." # 10fe71f8bdbc99558b846631f186ad9f8ea996cf
+  yazd.0056.d: "[ROOT.Char.GetFaith.GetAdherentName]로서, 저는 그것에 대해 별로 신경쓰지 않습니다." # 2cbfcf5ffdc705d4f8cd2c8f6fcc9de181b882a3
+  yazd.0056.e: "이곳은 신성한 장소입니다. 여기 있는 동안 잠시 기도해야겠습니다." # 4947ee72d5309a0319de337b423dcb6a19ef708f
+  yazd.0057.t: "사막의 보석" # bcf1e26a4014d0039ee974feb044fc3123f74c81
+  yazd.0057.desc: "저는 [yazd_county.GetNameNoTier]에서 중요한 고위 인사를 모시고 도시의 경이로움을 보여주고 있습니다. 그가 가장 감탄하는 것 중 하나는 도시의 수많은 카나트 수로와 바람 포획 장치입니다.\n\n"진실로 [yazd_county.GetNameNoTier]는 사막의 보석이오,"라고 그 사람이 말했습니다. "이토록 훌륭한 편의 시설을 갖추고 있으니."" # c04d0821900ea494904b1743c27a6ed90cbbed6e
+  yazd.0057.a: "정말 동감합니다. 정말 아름다운 곳이에요!" # 7dac421a617b56e90e6f8c44ec1524ad5a5674bf
+  yazd.0057.b: "주민들의 헌신적인 노력 없이는 불가능했을 것입니다." # 42c30667c2b2aa24891c967f6379e1033af2f1d3
+  yazd.0058.t: "야즈드의 바클라바" # 85138ef00a420cad7c20e813516e744b4452660b
+  yazd.0058.desc: "수 세기 동안 [yazd_county.GetNameNoTier]는 이란 전역에서 최고의 바클라바를 만드는 곳으로 알려져 왔습니다. 저는 제 통치 하에 있는 일부 현지인들에게 선물로 받은 바클라바를 맛볼 기회를 얻었습니다. 이란에서 만든 바클라바는 다른 지역의 바클라바보다 약간 가벼우며, 독특한 특징은 시럽에 장미수와 카르다몸 향이 강하게 난다는 것입니다." # 7c23ed51377ed60a07970b98c867845cedf37d07
+  yazd.0058.a: "맛있는 바클라바… 정말, 정말 맛있어." # b8dd8b4d3a362a948c68164e974da6f32e058a95
+  yazd.0059.t: "사막 여행" # fdad963933f67d127f5755e214c04d2a28460430
+  yazd.0059.desc: "오늘 저는 [yazd_county.GetNameNoTier]에서 그리 멀지 않은 마을로 잠깐 다녀와야 했습니다. 하지만 집으로 돌아오는 여정은 조금 힘들었습니다. [yazd_county.GetNameNoTier]는 두 사막, #italic 다슈트-에 카비르#!와 #italic 다슈트-에 루트#! 사이에 있어서 정착지 주변의 황무지는 종종 타는 듯한 건조한 곳입니다. 땀을 흘리고 지쳐서, 마침내 도시에 들어섰을 때 안도했습니다! [yazd_county.GetNameNoTier]의 정원, 카나트, 풍력 포집기는 사막에서 긴 하루를 걸은 후 활력을 되찾게 해주는 낙원처럼 느껴집니다." # 28e2508f059c3ce577c7f9f9384f7c5876947ba3
+  yazd.0059.a: "다행히 도착했어!" # 9d2a1a7fcb20514377bc444c7d55cf32ebf7fe08
+  yazd.0060.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0060.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0060.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0061.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0061.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0061.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0062.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0062.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0062.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0063.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0063.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0063.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0064.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0064.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0064.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0065.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0065.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0065.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0066.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0066.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0066.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yazd.0039.a: "어… 그냥… 좀." # 825d6b820f2b2ca7b5e630b818d41c27e77ed0de

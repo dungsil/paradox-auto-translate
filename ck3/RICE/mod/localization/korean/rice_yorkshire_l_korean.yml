@@ -1,847 +1,832 @@
 ﻿l_korean:
-	# SCARBOROUGH FAIR, THE FLAVOR PACK! 
-	# Are you going to Scarborough Fair? 
-	# Parsley, sage, rosemary and thyme 
-	# Remember me to one who lives there 
-	# He/She once was a true love of mine 
-	# Misc 
-	RICE_decision_norman_culture_requirement: "당신의 [culture|E]는 노르만 문화에서 파생되었거나 혼합되었습니다." # bb1f13d5912d77503d5ad35004238b8294227616
-	dynn_RICE_beverley: "베벌리" # d2119c171cd8e8899d77aa43be93f2b0c4c8a248
-	Hulno: "훌노" # 0ff12bb9e5334d2f8e79833011fe42a69a8035ce
-	# Game Concepts 
-	game_concept_john_of_beverley: "존 오브 베벌리" # e40824267ae92184232d0bc4fa51ff3381ff7a5b
-	game_concept_bishop_john: "주교 요한" # cdedc99ca7ad56d8eb85bce290ecc2bae5833c08
-	game_concept_saint_john_of_beverley_short: "성 요한" # e36c1a1cc38ebca87cc50fb06217115ec855fbd1
-	game_concept_saint_john_of_beverley: "베벌리의 성 요한" # 081b217729b4b2d41d3d4c8144b2ac99182f3fec
-	game_concept_saint_john_of_beverley_desc: "$game_concept_saint_john_of_beverley$는 8세기 초 요크의 주교였으며, 역사적으로 1037년에 시성되어 중세 잉글랜드에서 널리 존경받는 성인이었습니다.\n\n867년 책갈피에서 성 요한은 아직 시성되지 않았습니다. 그렇게 되려면 먼저 [군주|E]가 그에게 #V 경의를 표하는#! [결정|E]을 내려야 합니다. 그로부터 100년 후, 다른 [군주|E]가 #V 그의 시성을 확보하는#! [결정|E]을 내릴 수 있습니다.\n\n성 요한이 시성된 후 또는 1066년 책갈피에서 시작하는 경우, 해당 지역의 [군주|E]는 그에게 경의를 표하기 위해 #V 베벌리로 순례를 떠나는#! [결정|E]을 내릴 수 있습니다. #V 이스트 라이딩#!의 [군주|E]인 [왕|E] 또는 [황제|E]가 이것을 한 번 이상 수행하면 평생 한 번만 취할 수 있지만 강력한 군사 [캐릭터_모디파이어|E]를 부여하는 #V 성 요한의 깃발을 빌리는#! [결정|E]에 접근할 수 있습니다. 이전에 같은 순례를 두 번 이상 가면 보너스가 훨씬 더 강력해집니다." # 19d26abb5424d6d1f39acc07a1c16062f8388710
-	game_concept_charter_fair: "헌장 박람회" # 5eab19233f6292f07798c0f7046488070bb3c89d
-	game_concept_charter_fairs: "헌장 시장" # 8c3865a38f7de8cbaf2f9f05257ea250d4d77a28
-	game_concept_charter_fair_desc: "중세 영국에서 $game_concept_charter_fair$는 일부 정착지에 부여된 중요한 특권이었습니다. 게임 내에서 [decision|E]를 통해 이 특권을 부여받을 수 있는 여러 정착지가 있으며, 이는 경제를 증진시키는 적절한 [county_modifiers|E]를 제공합니다. 스탬퍼드, 보스턴, 윈체스터, 노샘프턴, 스토어브리지(캠브리지), 스카보로가 있습니다.\n\n첫 네 정착지는 역사적으로 가장 중요한 장터 중 일부였기 때문에 서로 연결되어 있습니다. 네 곳 모두의 장터 헌장이 부여되면 [county_modifiers|E]를 업그레이드한 후 특별 이벤트가 발생합니다. 또한 스토어브리지(캠브리지)와 스카보로(가곡 스카보로 페어의 영감을 준 유명한 장터)에도 헌장을 부여할 수 있습니다.\n\n헌장은 [duke|E] 이상의 지위를 가진 경우에만 부여할 수 있습니다. 하지만 [king|E] 또는 [emperor|E]인 경우 요구 사항이 훨씬 쉬워집니다. 만약 더 낮은 [rank|E]라면 [king|E] 또는 [emperor|E]의 영역에 있어야 하고, 헌장을 요청하기 위해 [top_liege|E]에게 상당한 양의 [prestige|E]를 지불해야 합니다." # f75963625d5f0a24d6bcd3fbb7f05e31e466c239
-	# Memories 
-	RICE_yorkshire_stamford_bull_run_host_memory: "[GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참여했습니다" # c0c30ba09dd22aca9f64329e8c5139cfe41ff98a
-	RICE_yorkshire_stamford_bull_run_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다" # 7bdd1274d0d86adcc78591065c50f81659936099
-	RICE_yorkshire_stamford_bull_run_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참여했습니다" # d1f94a286aa16d28a40078d62562cced0030a001
-	RICE_yorkshire_stamford_bull_run_host_memory_third_perspective: "[owner.GetName]이(가) [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다." # c455b6d7e66175df33cb303cf8cd5b942846d188
-	RICE_yorkshire_stamford_bull_run_guest_memory: "[GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 [host.GetTitledFirstName]와 함께 참석했습니다." # b54edafef7229b069bd956b049a55c768b9a3225
-	RICE_yorkshire_stamford_bull_run_guest_memory_first_perspective: "[host.GetTitledFirstName]님과 함께 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다." # d1c4d6ef79b0351d3eba2a09a396b172946ccb8f
-	RICE_yorkshire_stamford_bull_run_guest_memory_second_perspective: "[host.GetTitledFirstName]님과 함께 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다" # b5dc1889a2e54c0eadfeb4c624ba4bf7de493223
-	RICE_yorkshire_stamford_bull_run_guest_memory_third_perspective: "[owner.GetName]이(가) [host.GetTitledFirstName]와(과) 함께 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다." # d9503ce0302fe420d4d439648732c0a14f15ea48
-	RICE_yorkshire_beverley_pilgrimage_host_memory: "[GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 나섰습니다" # 81c08264ee86b4671c24826fdfc6e1b36751638b
-	RICE_yorkshire_beverley_pilgrimage_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 갔습니다" # dd0e30fa5e78316cc2055b22bed9b17446e243b6
-	RICE_yorkshire_beverley_pilgrimage_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName] 순례를 다녀왔습니다" # 40778d43a1d0688e9d0e1c525d21bf81f0fe9b60
-	RICE_yorkshire_beverley_pilgrimage_host_memory_third_perspective: "[owner.GetName] 님이 [GetActivityType(  'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]을 떠났습니다" # 1cf1551263f9a4ae1b6b2cc0e2aa9ed67d995d82
-	RICE_yorkshire_beverley_pilgrimage_guest_memory: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 참여했습니다" # 294bbcd011dd6281727b78a99dacff89c0025f9f
-	RICE_yorkshire_beverley_pilgrimage_guest_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 [host.GetTitledFirstName]와 함께 다녀왔습니다." # f7ca88f15e4419b884a180df34b3105fcc2b15b9
-	RICE_yorkshire_beverley_pilgrimage_guest_memory_second_perspective: "[host.GetTitledFirstName]과 함께 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]을 다녀왔습니다" # b98a15c02f4d3c5b021ddca7596a402a6c1694f5
-	RICE_yorkshire_beverley_pilgrimage_guest_memory_third_perspective: "[owner.GetName]이(가) [host.GetTitledFirstName]와(과) 함께 [GetActivityType('activity_RICE_yorkshire_beverley_pilgrimage').GetName]에 참가했습니다." # 9d639c8e1241ae2a668cc9dc2857e974d152c63c
-	# Activities 
-	activity_RICE_yorkshire_stamford_bull_run_host_an_a: "$host_activity_a$" # null
-	activity_RICE_yorkshire_stamford_bull_run: "스탬퍼드 불 런" # 59aafe363f5873d6cb4f580ffedf70664259c554
-	activity_RICE_yorkshire_stamford_bull_run_desc: "[GetTitleByKey('b_stamford').GetNameNoTier]의 황소 경주는 악명 높을 정도로 소란스럽고 폭력적인 행사로, 사람들이 마을 거리를 지나 황소를 쫓아가 죽입니다. 더 '교양 있는' 망나니들은 못마땅할 수도 있지만, 모두 다 재미를 위한 것입니다!" # cec3f2e47275a0725df4eee64d6d0a0d12f9f622
-	activity_RICE_yorkshire_stamford_bull_run_selection_tooltip: "스탬퍼드 황소 경주에 참여하십시오.\n\n$RICE_yorkshire_spectate_the_stamford_bull_run_context_tooltip$" # dc2c3528cd8e0d4c37b47d045981eca30ef6ca63
-	activity_RICE_yorkshire_stamford_bull_run_host_desc: "$BULLET_WITH_TAB$[$prestige_i|E]명예[$prestige|E]$\n$BULLET_WITH_TAB$[$stress_loss_i|E]스트레스 감소[$stress|E]$\n$BULLET_WITH_TAB$[GetModifier('RICE_yorkshire_was_at_stamford_bull_run').GetNameWithTooltip] [character_modifier|E]" # 264854c268eebe3c5167cb58f44a96114520f4e4
-	activity_RICE_yorkshire_stamford_bull_run_guest_desc: "\n$BULLET_WITH_TAB$스트레스 [stress|E] 감소 [stress_loss_i|E]" # bc4344010baa7f7dde05243f0a3849932b0ee2c3
-	activity_RICE_yorkshire_stamford_bull_run_province_desc: 
-	activity_RICE_yorkshire_stamford_bull_run_destination_selection: "$activity_RICE_yorkshire_stamford_bull_run_province_desc$" # null
-	activity_RICE_yorkshire_stamford_bull_run_guest_help_text: "$activity_RICE_yorkshire_stamford_bull_run$" # null
-	activity_RICE_yorkshire_stamford_bull_run_predicted_cost: "이 방문 비용은 주로 당신의 [income|E]에 따라 결정됩니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
-	activity_RICE_yorkshire_stamford_bull_run_conclusion_desc: "올해의 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]이(가) 막을 내렸습니다. 대중을 즐겁게 하는 데는 오래되고 무분별한 폭력만큼 좋은 것이 없죠!" # 202f22a0942e81c41b1ba62635a24cfc378d241e
-	RICE_yorkshire_stamford_bull_run_chase_phase: "추격" # 0911174c41cf26b831f5dd822376ad256ce92ec0
-	RICE_yorkshire_stamford_bull_run_chase_phase_desc: "선택된 황소는 풀려나 군중에게 미끼로 사용되며, 잡히고 죽어 도살되기 전에 쫓겨다니게 됩니다." # f94cc795df4ac72a482f75cc178eb5751efe282e
-	RICE_yorkshire_stamford_bull_run_bloody_fun_intent_header: "피에 굶주린 재미:" # 99d725142a2d17d4c94d02bb02b1434ce4a68107
-	RICE_yorkshire_stamford_bull_run_bloody_fun_intent: "잔혹한 즐거움" # be3a864a27d94b95534f29760769c930048b9d6d
-	RICE_yorkshire_stamford_bull_run_bloody_fun_intent_desc: "당신은 #italic 결국#! [GetTitleByKey('b_stamford').GetNameNoTier]에 와서 소를 죽이려 하는군요. 신나게 즐겨야 할 겁니다!" # d8adbaf95dd3b48987eda67c6590ba161a9452f6
-	RICE_yorkshire_stamford_bull_run_completed_log_title: "스탬퍼드 황소 경주 참석 완료" # b32d9446dd0805db8dbfd19d1a78eec11735bc24
-	RICE_yorkshire_stamford_bull_run_completed_log: "[CHARACTER.GetShortUIName|U](이)가 스탬퍼드 황소 경주에 참석을 마쳤습니다" # 7ac8c54841cf02be7cf854a8e75b6bbafb916860
-	TRAVEL_NAME_FOR_activity_RICE_yorkshire_stamford_bull_run: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_yorkshire_stamford_bull_run$" # 229effef0064358cabf5ad867a02a8d28c62e92e
-	activity_RICE_yorkshire_beverley_pilgrimage_an_a: "$host_activity_a$" # null
-	activity_RICE_yorkshire_beverley_pilgrimage: "베벌리 순례" # 66499ba205dcca6acee9869f7ddd97a84ac070c9
-	activity_RICE_yorkshire_beverley_pilgrimage_desc: "[saint_john_of_beverley|E]는 영국에서 가장 인기 있는 성인 중 한 명이며, 많은 순례자들이 요크셔의 비벌리에 모여 그를 숭배합니다. 그를 헌신적으로 섬기는 덕망 있는 통치자들은 힘과 승리를 얻게 될 것이라고 합니다." # 8b2c72b2930e494501db9128e0ae4b0a8bbaf9ea
-	activity_RICE_yorkshire_beverley_pilgrimage_selection_tooltip: "[saint_john_of_beverley|E]를 숭배하기 위해 [local_pilgrimage|E]를 떠납니다.\n\n$RICE_yorkshire_secure_canonization_of_john_of_beverley_context_tooltip$" # 7d05435169287e1c2048015e269593136bdb3105
-	activity_RICE_yorkshire_beverley_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ 이 [local_pilgrimage|E]를 완료하면 [saint_john_of_beverley|E]의 깃발을 빌리는 [decision|E]을 내릴 수 있습니다.\n$BULLET_WITH_TAB$ 이 [local_pilgrimage|E]를 여러 번 수행하면 [saint_john_of_beverley|E]의 깃발을 빌리는 [decision|E]의 효과가 증가합니다." # da22d731e8af412d0e249fc8d4f24e1af0a71395
-	activity_RICE_yorkshire_beverley_pilgrimage_guest_desc: "$activity_RICE_yorkshire_beverley_pilgrimage_host_desc$" # null
-	activity_RICE_yorkshire_beverley_pilgrimage_province_desc: 
-	activity_RICE_yorkshire_beverley_pilgrimage_destination_selection: "$activity_RICE_yorkshire_beverley_pilgrimage_province_desc$" # null
-	activity_RICE_yorkshire_beverley_pilgrimage_guest_help_text: "$activity_RICE_yorkshire_beverley_pilgrimage$" # null
-	activity_RICE_yorkshire_beverley_pilgrimage_predicted_cost: "베벌리로 향하는 [local_pilgrimage|E]의 비용은 선택한 [activity_options|E]에 따라 달라집니다." # 691e0553c61d98101e466917aa6c5bd46ced2147
-	activity_RICE_yorkshire_beverley_pilgrimage_conclusion_desc: "저희의 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]이(가) 끝났습니다. [saint_john_of_beverley|E]을(를) 숭배할 기회를 얻어 좋았습니다." # 120bcb855f700338331025b2d7fa5bfa1310e022
-	RICE_yorkshire_beverley_pilgrimage_completed_log_title: "베벌리 순례 완료" # 1bd94ae7fbcde70e63d9f78a83a4bc44aff63816
-	RICE_yorkshire_beverley_pilgrimage_completed_log: "[CHARACTER.GetShortUIName|U](이)가 베벌리로 [local_pilgrimage|E](을)를 완료했습니다." # ca74ab342134fc51782503b125803034488280c3
-	RICE_yorkshire_beverley_pilgrimage_banner_inspiration_log_title: "성 요한의 깃발에서 영감을 받았습니다" # 7a8cff2210d5f39dfe6db7be861429c5c6de54c5
-	RICE_yorkshire_beverley_pilgrimage_banner_inspiration_log: "[CHARACTER.GetShortUIName|U]은(는) [saint_john_of_beverley|E]의 깃발에서 영감을 받았습니다." # 46dc00145203cad89b2536b7c73b9523d4e3b3aa
-	TRAVEL_NAME_FOR_activity_RICE_yorkshire_beverley_pilgrimage: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_yorkshire_beverley_pilgrimage$" # e8b22f90991de6c4ff57d2774737e2792d7221ce
-	activity_RICE_yorkshire_beverley_pilgrimage_owner: "순례자" # fa90e82f429f333a1ff48c9130132abed1504929
-	# Buildings 
-	building_type_RICE_yorkshire_foss_dyke: "포스 둑" # 8278fc6a6ff1b862959cbee5d1480483e59651b1
-	building_type_RICE_yorkshire_foss_dyke_desc: "포스 다이크는 영국 제도에서 여전히 운영 중인 가장 오래된 운하 중 하나이며, 로마 시대로 거슬러 올라갈 수도 있습니다. 포스 다이크는 톡세이의 트렌트 강과 링컨 정착지를 연결합니다." # 71598d0b494bf4c7b47a2d8188764dc9638e446a
-	building_RICE_yorkshire_foss_dyke: "$building_type_RICE_yorkshire_foss_dyke$" # null
-	building_RICE_yorkshire_foss_dyke_desc: "$building_type_RICE_yorkshire_foss_dyke_desc$" # null
-	building_type_RICE_yorkshire_humber_ferry: "험버 연락망" # 03b298564ed4c18ee88901e171121fbaeaf5c7f7
-	building_type_RICE_yorkshire_humber_ferry_desc: "험버는 링컨셔와 요크셔를 가르는 큰 강어귀입니다. 여러 정착지에 이 수역을 가로지르는 연락선을 운행할 권한이 부여되었으며, 이는 잉글랜드 남부에서 요크셔로 가는 주요 경로 중 하나 역할을 합니다." # 227c0ec0b8a02fa4d52a6b71ad58ff8247bdb260
-	building_RICE_yorkshire_humber_ferry: "$building_type_RICE_yorkshire_humber_ferry$" # null
-	building_RICE_yorkshire_humber_ferry_desc: "$building_type_RICE_yorkshire_humber_ferry_desc$" # null
-	building_type_RICE_english_wool_industry_01: "영국 양모 산업" # 984c54e9f5800ac409fe574ec8138d4333af0503
-	building_type_RICE_english_wool_industry_01_desc: "양모는 잉글랜드 중세 경제의 근간이자 원동력입니다." # c00567fd988b0826678e230599e51721330a3717
-	building_RICE_english_wool_industry_01: "양털 목초지" # bb6a463a3b80ff6f0e16f0f04defbcf03dd2187f
-	building_RICE_english_wool_industry_01_desc: "대륙 유럽에서 양모 수요가 증가함에 따라 자급자족 수준의 양모 생산이 점차 현지 및 외국 상인들의 투자를 지원받는 중앙 집중식 산업으로 바뀌고 있습니다." # e7a1b24fcb6f31f8f5ad1d5f72387da6703a9634
-	building_RICE_english_wool_industry_02: "양모 시장" # 76b45a3ea5e83049fc337f63d497d32764abf2a4
-	building_RICE_english_wool_industry_02_desc: "해당 지역에서는 국가의 지원을 받아 양모 산업이 계속 번성하고 있습니다. 지역 도시 중심지에서는 양모를 가공하여 유럽의 다른 지역으로 수출할 준비를 합니다." # 04605c5c6eb5889068fc68c566d9b084afbd0ed7
-	building_RICE_english_wool_industry_03: "양모 교역소" # c6de47d8f7ebe97b41f531d2634aa089c9afac47
-	building_RICE_english_wool_industry_03_desc: "이 지역은 영국 제도에서 주요한 대규모 양모 산업 중심지 중 하나입니다. 상인들이 각지에서 몰려와 사업을 벌이고 막대한 이익을 내어 지역에 큰 번영과 부를 가져다줍니다." # 82fac4c705d35a24dee43029340357698305c95c
-	# Modifiers 
-	RICE_yorkshire_scarborough_fair_modifier: "스카버러 시장" # 3570f07b4c6702003d008b54480e362812108f73
-	RICE_yorkshire_scarborough_fair_modifier_desc: "해안 도시 스카버러는 최근 매년 8월과 9월에 무역 박람회를 개최할 수 있는 헌장을 받았습니다. 영국 제도에서 가장 큰 박람회는 아니지만, 앞으로 수년간 이 지역의 경제와 문화에 긍정적인 영향을 미칠 것임에 틀림없습니다.\n\n#italic 스카버러 박람회에 가시나요?#!\n#italic 파슬리, 세이지, 로즈마리, 타임#!\n#italic 그곳에 사는 사람에게 내 소식을 전해주오#!\n#italic 그는/그녀는 한때 나의 진정한 사랑이었소#!" # ee5d537e86a497bf73ba9fa162da5561833db2fe
-	RICE_yorkshire_scarborough_fair_patron: "스카버러에 박람회 개최를 위한 헌장 수여" # ab28ced7d0cc321a369cc2e2a095f17426812352
-	RICE_yorkshire_scarborough_fair_patron_desc: "#italic Are you going to Scarborough Fair?#!\n#italic Parsley, sage, rosemary and thyme#!\n#italic Remember me to one who lives there#!\n#italic He/She once was a true love of mine#!" # null
-	RICE_yorkshire_john_of_beverley_blessing: "비벌리의 주교 존이 축복함" # 278faa7556ce59ffb304196d099bab73b4f2a50a
-	RICE_yorkshire_john_of_beverley_blessing_desc: "그들은 이 영주 또는 여인이 요크셔에서 특별히 숭배받는 8세기 영국 주교인 베벌리의 존에게 축복을 받았으며, 일부 군사적 성공은 존 주교의 영혼의 개입 덕분이라고 말합니다." # 1f1cad741c39d8097a25e8c04afdd2a03d5292e7
-	RICE_yorkshire_beverley_sanctuary_timer: "최근에 지어진 존 주교의 성소" # 3a8d0ee3b95c08530dee9c3d2abc85b7f17df6c9
-	RICE_yorkshire_beverley_sanctuary_timer_desc: "베벌리 주교 존의 숭배가 날마다 커지고 있으며, 지역 지도자가 베벌리에 있는 그의 무덤 주변에 상당한 규모의 성소 건설을 도왔습니다. 이는 의심할 여지 없이 마을의 영적 명성과 경제에 유리하게 작용할 것입니다. 존 오브 베벌리가 성인으로 인정받는 것은 시간문제라고 말하는 사람들도 있습니다." # decaa81532da08e0c4343494ae8464fb0b016035
-	RICE_yorkshire_saint_john_banner_inspired: "성 요한 벨베리의 기치에 영감을 받아" # c4dd814b6770d9da11c462688eba9de6319d30d0
-	RICE_yorkshire_saint_johns_banner_1: "성 요한의 깃발 (1)" # ff241f86ca4b377e68cb15338c14509a0d21443f
-	RICE_yorkshire_saint_johns_banner_1_desc: "이 통치자는 현재 일반적으로 베벌리의 성소에 보관되어 있는 베벌리의 성 요한의 깃발을 빌리고 있습니다. 많은 사람들이 이 깃발을 휘두르는 자에게 영광스러운 승리를 가져다준다고 알려져 있기에 위대하고 신성한 힘을 가졌다고 여겨 왔습니다." # 5211321ea6e0e11d5e029022a245c6483bc2aa08
-	RICE_yorkshire_saint_johns_banner_2: "성 요한의 깃발 (2)" # f9140243a0989127da39dc43b189dabf1725a23a
-	RICE_yorkshire_saint_johns_banner_2_desc: "$RICE_yorkshire_saint_johns_banner_1_desc$" # null
-	RICE_yorkshire_saint_johns_banner_3: "성 요한의 깃발 (3)" # bd925a34b169e1073011c1e5d115460922a604e2
-	RICE_yorkshire_saint_johns_banner_3_desc: "$RICE_yorkshire_saint_johns_banner_1_desc$" # null
-	RICE_yorkshire_saint_johns_banner_4: "성 요한의 깃발 (4)" # 62ec538bbe702ee444c687e8618c54052b97965a
-	RICE_yorkshire_saint_johns_banner_4_desc: "$RICE_yorkshire_saint_johns_banner_1_desc$" # null
-	RICE_yorkshire_charter_fair_stamford: "스탬퍼드의 정기 시장" # 5b634cf360c05e7baddd6e31afd439aed6133ca7
-	RICE_yorkshire_charter_fair_stamford_desc: "사순절 기간에 열리는 스탬퍼드 박람회는 잉글랜드에서 가장 큰 무역 박람회 중 하나이며, 이 지역에 많은 무역과 번영을 가져다줍니다." # 090335935295d841ea53c7d1c16a88cc03bcc0c7
-	RICE_yorkshire_charter_fair_boston: "보스턴 헌장 박람회" # 1154dfd45a4c5560821f58fdb8a4f931e9a99b50
-	RICE_yorkshire_charter_fair_boston_desc: "7월에 열리는 보스턴 박람회는 잉글랜드에서 가장 큰 무역 박람회 중 하나이며, 이 지역에 많은 무역과 번영을 가져다줍니다." # 9d53969e380babf357375cecf35f2a8c390a916c
-	RICE_yorkshire_charter_fair_winchester: "윈체스터의 헌장 박람회" # 3cac52cd402f143d74800ed50364c0a94d02df9f
-	RICE_yorkshire_charter_fair_winchester_desc: "9월에 열리는 윈체스터 박람회는 잉글랜드에서 가장 큰 무역 박람회 중 하나이며, 이 지역에 많은 무역과 번영을 가져다줍니다." # ab05f6a3bd293bb92e6f198ec3312a47adcacc5c
-	RICE_yorkshire_charter_fair_northampton: "노샘프턴의 특허 장터" # 9115d9e9326b9a2381c6eb1f636fde92c0ed7591
-	RICE_yorkshire_charter_fair_northampton_desc: "11월에 열리는 노샘프턴 박람회는 잉글랜드에서 가장 큰 무역 박람회 중 하나이며, 이 지역에 많은 무역과 번영을 가져다줍니다." # ff0e5d07c5e5d9e300f4497e24a38c5d1af25ad7
-	RICE_yorkshire_charter_fair_stamford_upgraded: "스탬포드 대장터 박람회" # 7351ef008b15f473f11425f10080b66fc6476657
-	RICE_yorkshire_charter_fair_stamford_upgraded_desc: "사순절에 열리는 스탬퍼드 장터는 잉글랜드에서 가장 중요한 교역 시장 중 하나이며, 이 지역에 많은 교역과 번영을 가져다줍니다. 이 장터는 보스턴, 윈체스터, 노샘프턴 장터를 포함한 다른 주요 장터들과 일련의 순서를 이룹니다." # bd5cc04a12ec8796777c3b078aa710708add1ac2
-	RICE_yorkshire_charter_fair_boston_upgraded: "보스턴의 대헌장 박람회" # c96a539fe3a1fb4434439427fa7d7e1375d9ed79
-	RICE_yorkshire_charter_fair_boston_upgraded_desc: "7월에 열리는 보스턴 박람회는 잉글랜드에서 가장 중요한 무역 박람회 중 하나로, 이 지역에 많은 무역과 번영을 가져다줍니다. 이 박람회는 스탬퍼드, 윈체스터, 노샘프턴 박람회를 포함한 다른 대규모 박람회와 함께 일련의 순서를 형성합니다." # 0baff1f46aea2ce56ab1c665e95b38938ca1a654
-	RICE_yorkshire_charter_fair_winchester_upgraded: "윈체스터 대헌장 박람회" # 7d4755bce6824e0413a6432fbe69031fb4e57a1d
-	RICE_yorkshire_charter_fair_winchester_upgraded_desc: "9월에 열리는 윈체스터 박람회는 잉글랜드에서 가장 중요한 무역 박람회 중 하나이며, 이 지역에 많은 무역과 번영을 가져다줍니다. 이는 스탬퍼드, 보스턴, 노샘프턴과 같은 다른 주요 박람회들과 함께 일련의 순서를 이룹니다." # a11b765362ab8e6c6acad10489a7f30cc86ee5b3
-	RICE_yorkshire_charter_fair_northampton_upgraded: "노샘프턴 대헌장 박람회" # 2b132309d928c541997723d5162a9d963657834f
-	RICE_yorkshire_charter_fair_northampton_upgraded_desc: "11월에 열리는 노샘프턴 박람회는 잉글랜드에서 가장 중요한 무역 박람회 중 하나로, 이 지역에 많은 무역과 번영을 가져다줍니다. 이 박람회는 스탬퍼드, 보스턴, 윈체스터 박람회를 포함한 다른 주요 박람회와 순차적인 관계를 형성합니다." # 96ec1969812ef7741eaac06f6d09b32b427b3247
-	RICE_yorkshire_charter_fair_stourbridge: "스토어브리지 박람회" # f6a1ac1925803e6aeee724f5fc57bd91a38e0b98
-	RICE_yorkshire_charter_fair_stourbridge_desc: "케임브리지 마을이 스토어브리지 공동지를 따라 장을 열 권리를 부여받았습니다. 이곳은 유럽에서 가장 큰 장 중 하나가 되어, 이 지역에 많은 부와 명성을 가져다주고 있습니다." # 4dcd2dbd90c24cfe0c63dd13f4aaa71696484df4
-	RICE_yorkshire_recently_granted_grand_charter_fair: "최근에 특허 박람회 권한을 부여받았습니다" # 33c0034fe3f102379af15a4caba354e06132d882
-	RICE_yorkshire_recently_granted_grand_charter_fair_desc: "이 통치자는 최근 잉글랜드의 한 정착지에 대헌장 박람회를 개최할 권리를 부여했거나, 주도적으로 자신의 영주에게 청원하여 성공적으로 허가를 받았습니다." # 07efbb27675b0cbda2d087d1c09052f11b712889
-	RICE_yorkshire_participated_in_stamford_bull_run: "스탬퍼드 황소 달리기에 직접 참여했습니다." # fc8183335db27854851741c8d98b624030af0838
-	RICE_yorkshire_was_at_stamford_bull_run: "최근 스탬퍼드 황소 경주에 참석했습니다" # cab5657f14dc327ea1590c96ccee85bc47b2e791
-	# Decisions 
-	RICE_yorkshire_grant_scarborough_fair_charter: "스카버러에게 정기 시장 개최권을 부여합니다" # d7eb2fded1325f87afbba38e4b021193907bade3
-	RICE_yorkshire_grant_scarborough_fair_charter_tooltip: "스카버러는 [charter_fair|E]를 개최할 권리를 부여받아야 합니다" # c4fd6c71135b3ccd61251e1751439b8818f2a1b5
-	RICE_yorkshire_grant_scarborough_fair_charter_desc: "해안 마을 스카버러는 꽤 오랫동안 자체 [charter_fair|E]를 개최할 권리를 요청해 왔습니다. 영국 다른 지역에도 중요한 장터가 많지만, 스카버러 마을에는 특별하고 기억에 남는 무언가가 있습니다." # ff714e797dbcced512b13ab95cae71710edcdbe9
-	RICE_yorkshire_grant_scarborough_fair_charter_confirm: "파슬리, 세이지, 로즈마리, 그리고 백리향...." # d00ac63a0144de6eb87c4c0e7fdd3cb0f16aa857
-	RICE_yorkshire_grant_scarborough_fair_charter_context_tooltip: "#emphasis Historical Context:#! In 1253, King Henry III of England granted the city of Scarborough a royal charter granting it many privileges, including the right to hold a trade fair; it lasted until 1788, when it finally ended. Though not the most prominent fair in England, it was prominent enough to inspire a famous English folk song, Scarborough Fair. The song's lyrics revolve around the narrator asking their former lover to accomplish a series of impossible tasks before meeting them at Scarborough Fair if they want to rekindle their relationship." # null
-	RICE_yorkshire_pay_homage_to_john_of_beverley: "베벌리의 요한에게 경의를 표하십시오" # b2512c4f1e2b2e5dbc1ecf726aeaefc2c00d933d
-	RICE_yorkshire_pay_homage_to_john_of_beverley_tooltip: "[john_of_beverley|E]의 무덤을 방문해야 합니다" # eabcca0e8c609948a32a0b99a5e3d152364031d0
-	RICE_yorkshire_pay_homage_to_john_of_beverley_desc: "최근 수십 년 동안 요크 주교 [존 오브 버클리|E]의 명성은 경건한 기독교인들 사이에서 높아지고 있습니다. 그의 후원자들에게 군사적 성공을 가져다주었다고 여기는 사람들도 있습니다. 이 인물에게 경의를 표할 뿐만 아니라 버클리에 그의 무덤 주변에 성소를 세우는 것이 좋을지도 모릅니다." # cbb56b18067b94f09560ec0e2780645e7ea01945
-	RICE_yorkshire_pay_homage_to_john_of_beverley_effect_tooltip: "이 [결정|E]이 내려진 후 #V세기#! 후에, [john_of_beverley|E]가 시성될 수 있으며, 이는 #V 요크#! 근처의 기독교 [통치자|E]가 #V 베벌리로 순례를 떠나는#! [결정|E]을 내릴 수 있도록 할 것입니다." # 149494ba95db031a7c60ea738f471af746acedf3
-	RICE_yorkshire_pay_homage_to_john_of_beverley_confirm: "베벌리로 간다!" # 86b503321fa588aad322472d209ddf44e77fb9f8
-	RICE_yorkshire_pay_homage_to_john_of_beverley_context_tooltip: "#emphasis Historical Context:#! John of Beverley served as Bishop of York in the early 700s. Though he would later become one of the most prominent medieval English saints, his cult was already active for quite some time before he was canonized in 1037. According to later medieval sources, King Athelstan visited Bishop John's tomb in 934 and afterwards achieved military victories thanks to John, so as thanks he established a sanctuary around John's tomb in Beverley. The establishment of the sanctuary was likely a more gradual process, but the legend reflects well the influence and importance of John of Beverley." # null
-	RICE_yorkshire_secure_canonization_of_john_of_beverley: "존 오브 베벌리의 안전한 시성" # 7664409d911468afb925538b5989365739dba594
-	RICE_yorkshire_secure_canonization_of_john_of_beverley_tooltip: "[bishop_john|E]을 존경하고 숭배해야 합니다" # a1214fb2c14b2e69dc28aade89fb6991dc830d6d
-	RICE_yorkshire_secure_canonization_of_john_of_beverley_desc: "요크의 고(故) 주교인 [john_of_beverley|E]는 오랫동안 요크 주변에 거주하는 사람들에게 수호자이자 영적 지도자로 존경받았습니다. 우리는 지역 성직자들과 협력하여 교회 당국에 그의 공식적인 시성을 추진해야 합니다." # c6bf475b74a76bbd3ff8ed27e3006f1557ea4270
-	RICE_yorkshire_secure_canonization_of_john_of_beverley_effect_tooltip: "#V 요크# 근처의 기독교 [통치자|E]는 이제 #V 베벌리로 순례를 떠나는# [결정|E]을 내릴 수 있습니다." # fd7016910bd851415fda83188573d85ac1b23c4e
-	RICE_yorkshire_secure_canonization_of_john_of_beverley_confirm: "옳은 일입니다." # cd8976068b62fdf9f9c5ec626cd534d00e3a2e81
-	RICE_yorkshire_secure_canonization_of_john_of_beverley_context_tooltip: "#emphasis Historical Context:#! John of Beverley served as Bishop of York in the early 700s. Canonized as a saint in 1037, he is considered one of the most prominent English saints during the medieval period. Several English kings were supporters of his cult; for example, Henry V credited his victory at Agincourt to John's intervention. Saint John proved a powerful patron for Beverley, helping it gain political privileges and economic growth during the medieval period." # null
-	RICE_yorkshire_beverley_century_passed_req: "[bishop_john|E]의 무덤 주변의 성소가 건설된 지 적어도 #V 세기#!가 지났습니다." # 0bbe2224118b93c3884afd4def13f6756ef4ba31
-	RICE_yorkshire_go_on_a_pilgrimage_to_beverley: "베벌리로 순례를 떠나십시오" # 4779927959d82cb9851fcea4421590fc1edc69c4
-	RICE_yorkshire_go_on_a_pilgrimage_to_beverley_tooltip: "[saint_john_of_beverley|E]에게 경의를 표할 시간입니다!" # 29a4712b281228e3486bc34f2f64d1c034276376
-	RICE_yorkshire_go_on_a_pilgrimage_to_beverley_desc: "[saint_john_of_beverley|E]께 경의를 표하기 위해 순례를 떠나고 싶습니다. 그에게 헌신한 덕이 있는 통치자들은 힘과 승리를 축복받는다고 합니다." # d00e84e11203278bdb467fe77fb2df13c1d84c96
-	RICE_yorkshire_go_on_a_pilgrimage_to_beverley_confirm: "준비합시다!" # 87add30b92fc70b3debe3c01f4c8fcfd9d5045f2
-	RICE_yorkshire_go_on_a_pilgrimage_to_beverley_effect_tooltip: "이 순례를 완료하면 다른 요구 사항을 충족하는 한 #V 베벌리의 성 요한의 깃발 빌리기#! [decision|E] 결정을 내릴 수 있습니다." # adbce83ccd2182e21c2d50b72dae291055bbaf8d
-	RICE_yorkshire_go_on_a_pilgrimage_to_beverley_effect_2_tooltip: "이 순례를 여러 번 가면 [결정|E] '#V 성 베벌리의 성 요한의 깃발 빌리기#!'의 혜택이 증가합니다." # f1dc020bf1362d022e6f407a18b4cd47f8307c01
-	RICE_yorkshire_go_on_a_pilgrimage_to_beverley_context_tooltip: "$RICE_yorkshire_secure_canonization_of_john_of_beverley_context_tooltip$" # null
-	RICE_yorkshire_beverley_pilgrimage_distance_req: "[realm_capital|E]는 #V 벌리#에 가깝습니다." # 69a1266dad568d22633dd6793af903a7f7321c94
-	RICE_yorkshire_beverley_pilgrimage_english_culture_req: "[realm_capital|E]은 브리튼 제도, 프랑스 또는 저지대에 있습니다." # 957f298d3b5c6955d748fbf9d76453eba7523493
-	RICE_yorkshire_borrow_banner_of_saint_john: "성 요한의 깃발을 빌리십시오" # 67bf3cf0ad938485b42d2969c9eba5409dcdc2d0
-	RICE_yorkshire_borrow_banner_of_saint_john_tooltip: "[saint_john_of_beverley_short|E]의 깃발은 그것을 휘두르는 자에게 강력한 유물입니다" # b17aac026eb8de548dfc817db76500fa7d280ff8
-	RICE_yorkshire_borrow_banner_of_saint_john_desc: "[saint_john_of_beverley|E]의 깃발은 소지자에게 강력한 군사력을 부여한다고 합니다. 저는 그 깃발을 들 자격이 있습니다. 세속적인 권력이나 그런 종류의 것을 탐내서가 아니라, [ROOT.Char.GetFaith.GetAdjective] 교회의 적들을 쳐부수기 위해서입니다." # 2d4d228e5fd884da6618220998cb5246103d6e59
-	RICE_yorkshire_borrow_banner_of_saint_john_effect_tooltip: "[character_modifier|E]의 강도는 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]를 몇 번 갔는지에 따라 달라집니다." # 31c22afce450168b68b1ec7baded13515ddafaf2
-	RICE_yorkshire_borrow_banner_of_saint_john_effect_2_tooltip: "#X This decision can only be taken ONCE in a lifetime - think carefully about when to use it!#!" # null
-	RICE_yorkshire_st_john_banner_not_taken_req: "현재 [saint_john_of_beverley_short|E]의 깃발을 빌린 사람은 없습니다" # 5f27f178530ce816c348d18a84698d4dcff10ec5
-	RICE_yorkshire_st_john_banner_pilgrimage_req: "적어도 한 번 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 참여했습니다." # 5493d3ebcde9b7617ad41e318292cbe8f2c47a16
-	RICE_yorkshire_st_john_banner_east_riding_req: "귀하 또는 모든 봉신이 이스트라이딩 [county|E] 소유하고 있습니다" # 6a5a4e5c2ef4555c01a315cdcc0a856633add694
-	RICE_yorkshire_borrow_banner_of_saint_john_confirm: "[ROOT.Char.GetFaith.HighGodName]의 이름으로 깃발을 휘두르리라!" # 2a350e2f86bfa443c93e411f5823ed3e724592e9
-	RICE_yorkshire_borrow_banner_of_saint_john_context_tooltip: "#emphasis Historical Context:#! The Banner of Saint John had been wielded by several English leaders at various points during the medieval period. For example, Edward I had the banner with him on his Scottish campaigns of 1296 and 1300. These various military successes throughout the centuries only helped cement the Saint's reputation." # null
-	RICE_yorkshire_borrow_banner_req: "현재 깃발은 다른 [ruler|E]의 소유가 아닙니다" # dcdb5f431d922ec4403ddf021346205e19014bea
-	RICE_yorkshire_spectate_the_stamford_bull_run: "스탬퍼드 황소 경주 참관" # e8fde6fbcebcc54b127349cd7b8d106b840db950
-	RICE_yorkshire_spectate_the_stamford_bull_run_tooltip: "스탬퍼드에서 매년 열리는 황소 경주를 방문하십시오" # e4753a2ee5abeab03d8fc80157e4421b7c011560
-	RICE_yorkshire_spectate_the_stamford_bull_run_desc: "스탬퍼드의 황소 경주는 재미있는 행사 같네요! 올해 꼭 참가해서 즐겨봐야겠어요." # ea05e34b324b4333a4b05176e2dd9a6af208fa0b
-	RICE_yorkshire_spectate_the_stamford_bull_run_effect_tooltip: "[bull_run_stamford.GetNameNoTier]를 방문하여 스릴 넘치는 (그리고 떠들썩한) 재미를 즐겼습니다" # 668966b3cfc1980ca16dda1d6ddcbfd55211dbcc
-	RICE_decision_bull_run_month_requirement: "월은 8월에서 10월 사이여야 합니다." # e5627925a13b9bf27e62486651c8f85c3486db04
-	RICE_decision_bull_run_distance_requirement: "[realm_capital|E]는 #V 스탬퍼드#에 가깝습니다." # d58edf0384ab9927abcdf8ccd6a219735ae5512d
-	RICE_yorkshire_spectate_the_stamford_bull_run_confirm: "기대가 됩니다!" # 8ecb20747030a6035064a7ec8db3f84dd60b04bc
-	RICE_yorkshire_spectate_the_stamford_bull_run_context_tooltip: "#emphasis Historical Context:#! The town of Stamford once held a Bull Run event every November 13. The earliest explicit mention of it dates to 1389 CE, though it probably had been going for some time before then. According to a likely fictitious legend, the tradition started in the early 13th century when a local Norman lord assisted some local butchers in parting two bulls fighting over a cow. He enjoyed it so much he suggested the event be reenacted every year. Though not unique to Stamford, the rowdy festivities managed to survive even past Puritan times, and was finally suppressed after 1839 due to the great public disorder it caused." # null
-	RICE_yorkshire_charter_fair_granted_recently_req: "당신의 [realm|E]에서 최근에 주요 특허 박람회를 수여하기 위한 [decision|E]을 내린 사람이 없습니다" # 7bdb993742ebc1060d8e45c547a4739b1e59a804
-	RICE_yorkshire_grant_stamford_charter_fair: "스탬퍼드에 정기 시장 개최 권한 부여" # 1e15c257dbae7eb517693e0ff75b6394c793e9db
-	RICE_yorkshire_grant_stamford_charter_fair_tooltip: "스탬퍼드는 [charter_fair|E]를 개최할 권리를 부여받아야 합니다" # ac08636d5873d2910ed8902394079b4f0181e3db
-	RICE_yorkshire_grant_stamford_charter_fair_desc: "#V Stamford#! is becoming an increasingly important and influential center of trade in England. Local traders and notables have been requesting for the town to be granted the privilege to hold a major [charter_fair|E]." # null
-	RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip: "귀하는 [가신|E]에게 이 정착지에 [정기 시장|E]을 개설할 권리를 부여해 달라고 청원하고 기본 비용 외에 상당한 양의 [명성|E]을 추가로 지불할 것입니다." # 6006d8516e553040a048b7c2aabd8b931c5fdf73
-	RICE_yorkshire_grant_stamford_charter_fair_confirm: "완료되었는지 확인하십시오." # 89742759712bde88c3e71b9f26790a0904071766
-	RICE_yorkshire_grant_stamford_charter_fair_context_tooltip: "#emphasis Historical Context:#! Charter fairs are annual street markets established by a royal charter in England; many date to the medieval period, though they may have had earlier antecedents. Some charter fairs - particularly in Stamford, Boston, Winchester, and Northampton - were so prominent they formed a set sequence, with smaller fairs filling in between. While not as large as the Champagne fairs, English charter fairs nonetheless attracted many merchants from all over Europe." # null
-	RICE_yorkshire_grant_boston_charter_fair: "보스턴에 정기 시장 개최 권한 부여" # e9987ab94fe23428e7c631089d5fdf2fa00d6d9e
-	RICE_yorkshire_grant_boston_charter_fair_tooltip: "보스턴은 [charter_fair|E]를 개최할 권리가 주어져야 합니다." # 33d68a7d1fad1453e07ce58b5d04d48fcbd6ac7e
-	RICE_yorkshire_grant_boston_charter_fair_desc: "#V Boston#! is becoming an increasingly important and influential center of trade in England. Local traders and notables have been requesting for the settlement to be granted the privilege to hold a major [charter_fair|E]." # null
-	RICE_yorkshire_grant_boston_charter_fair_effect_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip$" # null
-	RICE_yorkshire_grant_boston_charter_fair_confirm: "$RICE_yorkshire_grant_stamford_charter_fair_confirm$" # null
-	RICE_yorkshire_grant_boston_charter_fair_context_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_context_tooltip$" # null
-	RICE_yorkshire_grant_winchester_charter_fair: "윈체스터에 특허 시장을 허가합니다" # 06e8ced7ecae951e8c0e3dc51f203556d34b5a73
-	RICE_yorkshire_grant_winchester_charter_fair_tooltip: "윈체스터는 [charter_fair|E]를 개최할 권리를 부여받아야 합니다" # 5bec3f2c62d353bb19560f9ffa9a4fad40db380a
-	RICE_yorkshire_grant_winchester_charter_fair_desc: "#V Winchester#! is becoming an increasingly important and influential center of trade in England. Local traders and notables have been requesting for the settlement to be granted the privilege to hold a major [charter_fair|E]." # null
-	RICE_yorkshire_grant_winchester_charter_fair_effect_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip$" # null
-	RICE_yorkshire_grant_winchester_charter_fair_confirm: "$RICE_yorkshire_grant_stamford_charter_fair_confirm$" # null
-	RICE_yorkshire_grant_winchester_charter_fair_context_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_context_tooltip$" # null
-	RICE_yorkshire_grant_northampton_charter_fair: "노샘프턴에 특허장 정기 시장을 허가합니다" # 29dc11a5b600f31508c538eec43819d28971055b
-	RICE_yorkshire_grant_northampton_charter_fair_tooltip: "#V Northampton#! should be granted the right to hold a [charter_fair|E]" # null
-	RICE_yorkshire_grant_northampton_charter_fair_desc: "노샘프턴은 잉글랜드에서 점점 더 중요하고 영향력 있는 무역 중심지가 되고 있습니다. 지역 상인들과 유지들은 이 정착지에 주요 [charter_fair|E]를 개최할 수 있는 특권을 부여해 줄 것을 요청해 왔습니다." # aa7d79df9966002c29740327ff39a41f8d45282a
-	RICE_yorkshire_grant_northampton_charter_fair_effect_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip$" # null
-	RICE_yorkshire_grant_northampton_charter_fair_confirm: "$RICE_yorkshire_grant_stamford_charter_fair_confirm$" # null
-	RICE_yorkshire_grant_northampton_charter_fair_context_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_context_tooltip$" # null
-	RICE_yorkshire_grant_stourbridge_charter_fair: "스토어브리지에 케임브리지 특허 박람회를 허가합니다" # f95c81f560f0075c1c44194f4e0a0e5c716d04b8
-	RICE_yorkshire_grant_stourbridge_charter_fair_tooltip: "케임브리지는 스토어브리지 커먼에서 [charter_fair|E]를 개최할 권한을 부여받아야 합니다" # bcdea5aeb2d7cb3156ccfe507e9c234cacaffa6c
-	RICE_yorkshire_grant_stourbridge_charter_fair_desc: "캠브리지의 정착민들은 스토어브리지 공원을 따라 자체 [charter_fair|E]를 개최할 권리를 오랫동안 요청해 왔습니다. 영국 다른 곳에도 중요한 박람회가 많이 있지만, 스토어브리지 박람회는 유리한 위치 때문에 매우 성공적일 것이라는 느낌이 듭니다." # 1c60731bfb928bebfd11a6a4ab84416a53ddb848
-	RICE_yorkshire_grant_stourbridge_charter_fair_confirm: "훌륭한 생각입니다! 해봅시다!" # 3f0b0095903ada5ab6a4386a5b6269f6388a5d13
-	RICE_yorkshire_grant_stourbridge_charter_fair_context_tooltip: "#emphasis Historical Context:#! Stourbridge Fair was the most important trade fair in Cambridge. In fact, it became one of the largest trade fairs in Europe in the late medieval and early modern period. It inspired Vanity Fair from the novel #italic Pilgrim's Progress#!, for example, and was visited by a number of famous figures like Isaac Newton. It was last held in 1933, and formally abolished in 1934." # null
-	RICE_yorkshire_sheffield_cutlery: "최근에 구입한 셰필드 식기류" # ef593c9068c747995d3e729f779aa12d2f8f2526
-	RICE_yorkshire_stamford_ware_feasts: "연회용 뉴 스탬퍼드 도자기" # b2c108f258cb2a602f1f67d71e0416182977faf3
-	RICE_yorkshire_stamford_ware_pots: "하인들이 사용하는 새로운 스탬퍼드 식기" # c5a3608b31722745d9c9a1292b908d7b042a2982
-	RICE_yorkshire_stamford_ware_decor: "새 스탬퍼드 도자기를 가구로 사용" # 5190a7b032408bd5f4376a7181dda5eda89e3836
-	RICE_yorkshire_vale_of_york: "요크 계곡이 번영합니다" # f139c141ee92fb6f422a711c4104862bd93b7cc1
-	RICE_yorkshire_wensleydale_cheese: "선물 받은 웬슬리데일 치즈" # 68cc78e6c9576201980c27295e9efa35f61a2893
-	RICE_yorkshire_alcuin_spiritual_quote: "알쿠인의 지혜에서 영감을 얻음" # a36fc8dc0a3e8e900fed6cb9a15ad7fa8cb84a28
-	RICE_yorkshire_alcuin_masses_quote: "알쿠인의 조언에서 영감을 얻어" # db969b919a85654a0d5effd169d73b8ac04e89f7
-	RICE_yorkshire_caedmons_hymn: "케드먼 찬가에서 영감을 얻음" # 30fb897c94c0b88f2a5763a9a5fb2adb696a3707
-	RICE_yorkshire_crowland_pilgrims: "크롤랜드로 향하는 순례자 증가" # e9775cd3292e1565ff6feec26da03c49418e65f1
-	RICE_yorkshire_crowland_pilgrims_desc: "최근 들어 크로울랜드 수도원의 성 구틀락 성지에는 평소보다 더 많은 방문객이 찾고 있습니다." # 4dc81412274aa7ac0839e91b3c664295d9aef5a0
-	RICE_yorkshire_river_swale_lead: "스월 강변의 납 광산 붐" # ef1a082fd2972615b492c488ebcd6ee32cb8652c
-	# Events 
-	yorkshire.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0001.t: "스카버러 장터에 가시나요?" # 7e9df157a0efa73898ae984c2612a95f63c89aec
-	yorkshire.0001.desc: "이제 [scarborough_barony.GetNameNoTier] 백성들은 이 도시에 정기 시장 개최를 허가해 달라고 오랫동안 요청했습니다. 지역 관리들은 이 지역의 지속적인 번영을 장려하기 위해 더 많은 정기 시장이 이 지역에 허가되는 것이 중요하다고 판단했습니다.\n\n이에 따라 스카버러는 매년 8월과 9월에 시장을 열 수 있는 허가를 받았습니다. 잉글랜드의 다른 지역의 정기 시장만큼 유명해지지는 않더라도, 먼 곳에서 온 여행자와 상인들을 끌어모아 이 지역 경제에 기여할 것입니다." # b092614b355f1274f3dbc2631bac9f80d6e022a2
-	yorkshire.0001.a: "파슬리, 세이지, 로즈마리, 그리고 백리향!" # f8cfc03c65eab6c9d0ddbcbf8ae652ff44ec09cb
-	yorkshire.0002.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0002.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0002.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0003.t: "스토어브리지 박람회" # f6a1ac1925803e6aeee724f5fc57bd91a38e0b98
-	yorkshire.0003.desc: "[cambridge_barony.GetNameNoTier] 마을과 인근 여러 정착지가 경제적으로 성장하고 있으며, 런던 외곽의 잉글랜드 중부에서 가장 눈에 띄는 상업 중심지 중 하나입니다. 지속적인 번영을 장려하기 위해 지역 관리들은 이 지역에 더 많은 특허 박람회를 허가하는 것이 중요하다고 판단했습니다.\n\n따라서 케임브리지 인근의 스토어브리지에는 매년 8월이나 9월에 박람회를 개최할 수 있는 특허가 부여되었습니다. 스토어브리지의 위치는 뉴마켓과 같은 이 지역의 여러 주요 마을로 이어지는 도로에 위치하여 매우 전략적이고 유리하다고 말하는 사람들이 많습니다. 이는 더 많은 교통과 무역을 유치할 것입니다." # 4ecc9bc0ceca63093b55906c5df38cb1e39b6085
-	yorkshire.0003.a: "" # 181cc78a414b734aa1af70f7c3f29442d34aa120
-	yorkshire.0004.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0004.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0004.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0005.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0005.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0005.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0006.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0006.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0006.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0007.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0007.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0007.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0008.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0008.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0008.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0009.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0009.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0009.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0010.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0010.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0010.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0011.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0011.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0011.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0012.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0012.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0012.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0013.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0013.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0013.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0014.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0020.t: "베벌리의 주교 존" # 20f0e6616019cd45fb03d27d484dec8e73e1fa05
-	yorkshire.0020.desc: "오래전, 8세기로 거슬러 올라가면 요크의 주교는 존 오브 베벌리라는 가장 거룩하고 신앙심 깊은 사람이었습니다. 최근 몇 년 동안 그는 많은 기적을 일으켰다고 현지인들이 숭배하는 대상이 되었습니다. 심지어 나 자신도 그런 기적의 잠재적인 수혜자 중 하나라고 생각해야 할 정도입니다. 내 군사 관련 여러 사건들이 그분의 영향 덕분이며, 내가 필요할 때 하나님께서 나를 도우셨기 때문인 것 같습니다.\n\n그 결과, 오늘 나는 그분이 세우신 베벌리 마을([beverley_location.GetNameNoTier]에 위치)에 있는 그의 무덤을 방문하여 이 위대한 분에게 경의를 표하기로 했습니다. 나는 그분의 기억을 제대로 기리기 위해 그의 무덤 주변에 상당한 규모의 성소를 건설하기로 맹세했습니다." # bfb687a54120ac57006e15dcc1a0d1fcf33b3589
-	yorkshire.0020.a: "어떤 이들은 그가 언젠가 성인이 될 것이라고 말하지만, 누가 알까?" # 1859d65778f3df415742b2a9a416b05e77ad1f7b
-	yorkshire.0020.tooltip: "약 1세기 후, 이스트라이딩의 통치자는 베벌리의 성 요한 시성식을 지지하는 [결정|E]을 내릴 수 있습니다." # 8998dcdeb077352ffe8bbb2e0d226e8c7eac3b31
-	yorkshire.0021.t: "베벌리의 주교 존" # 20f0e6616019cd45fb03d27d484dec8e73e1fa05
-	yorkshire.0021.desc: "최근에 [homage_person.GetTitledFirstName]께서 [beverley_location.GetNameNoTier]에 있는 베벌리에 위치한 베벌리의 존의 무덤을 방문했습니다. 요크의 주교였던 이 8세기 성직자는 매우 거룩하고 신앙심이 깊은 사람으로 여겨지며 수년 동안 현지인들의 숭배를 받아왔습니다.\n\n고(故) 존 주교는 여러 군사 문제에서 [homage_person.GetTitledFirstName]에게 많은 도움을 제공한 것으로 알려져 있습니다. 이 때문에 [homage_person.GetSheHe]께서는 존 주교의 무덤 주변에 상당한 규모의 성소를 건설하라고 명령했습니다. 존 주교의 전설이 계속해서 커진다면 언젠가는 그가 성인으로 시성되는 것을 볼 수 있을까요?" # dc465642b79ac76dbe1e4a5a97b6fd20cc0208e8
-	yorkshire.0021.a: "시간만이 말해줄 것입니다." # 71b029fda7d4e6fc6708f1bd3f9cdf4b948da81e
-	yorkshire.0021.tooltip: "약 1세기 후, 이스트라이딩의 통치자는 베벌리의 성 요한 시성식을 지지하는 [결정|E]을 내릴 수 있습니다." # 8998dcdeb077352ffe8bbb2e0d226e8c7eac3b31
-	yorkshire.0022.t: "베벌리의 성 요한" # 081b217729b4b2d41d3d4c8144b2ac99182f3fec
-	yorkshire.0022.desc: "8세기 요크의 주교였던 베벌리의 존의 전설은 세월이 흐를수록 더욱 커지고 있습니다. 이 지역에는 그가 성인으로 시성되기를 청원하는 사람들이 많으며, 그에게 기인한 기적이 매우 많기 때문입니다.\n\n[ROOT.Char.GetFaith.GetAdjective] 교회는 이에 동의하는 것으로 보이며, 몇몇 [ROOT.Char.Custom('DefaultPriestTitlePlural')]이 베벌리의 존의 기적과 삶에 대한 의무 조사를 위해 파견된 후, 그를 정식으로 성인으로 선포했습니다.\n\n그가 건설하는 데 도움을 준 도시인 베벌리는 그의 무덤을 보관하게 되어 엄청난 위신과 명예를 얻게 될 것입니다. 성 요한의 공식 시성과 함께 더 많은 순례자들이 찾아올 것으로 예상되며, 이는 정착지에 경제적, 정신적으로 도움이 될 것입니다." # 8de62f02fca617134eee6ff0c9b55f4b2490579c
-	yorkshire.0022.a: "" # 7612729ba12125c2b038a1d081b511864179ca82
-	yorkshire.0022.tooltip: "베벌리 인근의 통치자는 이제 [saint_john_of_beverley_short|E]의 무덤에서 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]을 진행하고 그의 깃발을 빌릴 수 있습니다." # 54ee027ccf2b28e6f8a4b77899a693e5d3e1c590
-	yorkshire.0023.t: "베벌리의 성 요한" # 081b217729b4b2d41d3d4c8144b2ac99182f3fec
-	yorkshire.0023.desc: "수년 동안, 잉글랜드 북부에서는 많은 이들이 [john_of_beverley_canonizer.GetFaith.GetAdjective] 교회가 8세기 요크의 주교였던 베벌리의 성 요한을 성인으로 인정하여 성인의 지위를 부여할 것을 청원했습니다. [john_of_beverley_canonizer.GetTitledFirstName]이 이끄는 지역 성직자와 지도자들의 노력 덕분에 마침내 이루어졌습니다.\n\n그가 세우는 데 도움을 준 마을인 베벌리는 그의 무덤이 있는 곳으로서 큰 명성과 영예를 얻을 것입니다. 성 요한의 공식적인 시성으로 인해 더 많은 순례자들이 찾아올 것으로 예상되며, 이는 정착지에 경제적, 정신적으로 도움이 될 것입니다." # 29b3172ef8cc592e483bc11db1cdfc3cc9eb4499
-	yorkshire.0023.a: "흥미로운 소식입니다!" # 03fe3f2b0a4a57c9120004071544622c73676b35
-	yorkshire.0023.tooltip: "베벌리 인근의 통치자들은 이제 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]을 떠날 수 있으며, 그의 깃발을 빌릴 수도 있습니다." # 8e6d49d76c2f973f11a0d48f7a7c8be58b648bdb
-	yorkshire.0024.t: "깃발" # c788c90c9038aafa633c5f84a3c9b0476d23d6f4
-	yorkshire.0024.desc: "베벌리에서 현지 성직자들과 만나 예상대로 즐거운 시간을 보낸 후, 그들은 전설적인 베벌리 성 요한의 깃발을 꺼냈습니다. 전설에 따르면 이 신성한 유물은 수많은 용감한 영주들에게 군사적 승리를 가져다주었다고 합니다. 그것은 아름다운 광경이며, 그것을 보존하는 수도사들이 전투에 들고 가도록 해달라는 저의 요청을 받아들인 것에 대해 영광으로 생각합니다. 저는 분명히 이것을 기독교의 적들, 그리고 선하고 정의로운 모든 것의 적들에 맞서 사용할 것을 맹세합니다." # 38b83743e94e49c0edd991792d51c42ee0bd679d
-	yorkshire.0024.a: "확실합니다." # e5e3894d344433112407ae93c715072eaeaa6a1a
-	yorkshire.0024.tooltip: "만약 사망하거나 모든 [titles|E]를 잃으면, 깃발은 [heir|E]에게 계승되지 않고 베벌리의 성 요한 성소로 반환됩니다." # d266277635ff6e661300f5b523cf70cb1a3a0d61
-	yorkshire.0025.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0025.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0025.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0026.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0026.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0026.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0027.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0027.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0027.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0028.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0028.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0028.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0030.t: "준비" # ffb7b66372898902e8cf7eca0025b21a011c84d7
-	yorkshire.0030.desc: "저는 [beverley_location.GetNameNoTier]의 베벌리 마을로 가서 베벌리의 성 요한의 무덤을 방문하기로 했습니다. 그는 매우 거룩한 사람이며, 그의 삶은 전설과 같고, 전쟁과 정치에서 많은 지도자에게 행운을 가져다주었다고 합니다. 물론, 저의 진정한 목적은 그럼에도 불구하고 영적인 필요를 위해 그곳에 가는 것이어야 할 것입니다." # d8ddb734c799522379a47b7406ee0448d30da044
-	yorkshire.0030.a: "곧 그곳으로 떠날 준비를 하겠습니다!" # 660edae1472cbd40ad338a809534d6a89d470c51
-	yorkshire.0031.t: "베벌리에게" # 4a8b5c98dc0493a045469dd40d2913b298df7749
-	yorkshire.0031.desc: "오늘, 베벌리 마을로 향하는 여정이 시작됩니다! 저는 겸손하고 경건한 순례자에 불과한 몸으로 성 요한의 무덤으로 나아갈 것입니다." # ad089e52a3ab27287ebd8d0b02cab993bf842bce
-	yorkshire.0031.a: "비벌리의 들판과 언덕으로 갑니다!" # 8c28dd6e0105c9aaf9004af2b3cf74ff3992e664
-	yorkshire.0032.t: "베벌리 도착" # 4cc130e95b4d4926f234d22d0ba3a1a090d4a49c
-	yorkshire.0032.desc: "저는 베벌리 마을에 도착했습니다. 베벌리는 성 요한과 관련이 없었다면 영국에서 평범한 정착지 중 하나였을 것입니다. 성 요한의 성역이 있다는 것은 마을의 자랑이자 기쁨이며, 마을의 특권을 침해하는 자는 성인 자신이 직접 쳐부술 것이라고 하니 조심스럽게 존경을 표해야 합니다. 묘소를 방문하겠지만, 먼저 교회에서 기도하고 오늘 밤은 휴식을 취하겠습니다." # a3f0352346eb3da01b5ddec5566de08dfa42553b
-	yorkshire.0032.a: "여기 오니 좋군요." # e0a28ea27ce66c8c5b5f75378b5da4213b177e3a
-	yorkshire.0033.t: "무덤" # 3f6ec6a21782e7ae624dc0fe0367d1e879a1e19e
-	yorkshire.0033.desc: "저는 지금 성 요한의 무덤에 와 있습니다. 이렇게 성스러운 분이 여기에 묻혀 계시다니! 그분에 대한 전설이 많은데, 흔히 알려진 것은 그분이 악마에게 속아 중대한 죄를 저지른 은둔자였고, 그 결과로 많은 고통을 겪고 회개한 끝에 요크의 주교가 되었다는 것입니다.\n\n특히 저의 관심을 끄는 것은 요한의 깃발인데, 많은 사람들이 그것에 엄청난 군사적 힘이 있다고 믿습니다. 그 깃발을 휘두르는 영주나 여인은 전투에서 항상 성공할 것이라고 합니다!" # a904fcb83b0e2603b49beecd9865edcc8b8aa067
-	yorkshire.0033.desc.banner_present: "\n\n나는 호기심을 가지고 깃발을 관찰합니다. 언젠가 [ROOT.Char.GetFaith.GetAdjective] 교회의 이름으로, 그리고 우리의 적들을 쳐부수기 위해 유용하게 사용할 수 있을지도 모릅니다." # abfe1aa01c079f00a4ed1307ddd6acf22b38e81a
-	yorkshire.0033.desc.banner_not_present: "현재 깃발은 다른 곳에 빌려간 상태라 교회에 없지만, 이곳의 많은 이들이 그것에 대해 경건한 목소리로 속삭입니다. 언젠가는 저도 그것을 볼 수 있을지도 모르겠습니다." # 8c6adf795071bf4da968940cede1e85e329fb71a
-	yorkshire.0033.a: "기도하며 조용히 앉아 있습니다." # ae3a27eccdd6f9dc341b38bd8ba025e056bff0a9
-	yorkshire.0033.toast: "당신은 깃발의 전설에 영감을 받았습니다!" # e6f370f0be33a4053341603436427e0b35bb390c
-	yorkshire.0034.t: "회고" # cdbc1704be96ed0371aa9d498f39d8b3b606b5cf
-	yorkshire.0034.desc: "성 요한의 무덤을 떠나면서, 내가 목격하고 경험한 것을 되돌아봅니다. 마치 현명하고 경건한 성인께서 나를 [ROOT.Char.GetTitledFirstName](으)로서 더 위대한 일을 이루도록 인도하시는 듯한 큰 영적 평화를 느낍니다." # ae6e3a8950eec250527c06c8f3d2462becfd2b88
-	yorkshire.0034.a: "베벌리를 방문한 것은 좋은 경험이었습니다." # 1783911728268afa7a150f884fb633f15e3b08a7
-	yorkshire.0035.t: "집으로 다시" # 1dbbe8daae704187353f9d655912d83ee8573f3c
-	yorkshire.0035.desc: "베벌리 성지 순례를 마치고 마침내 집으로 돌아왔습니다. 그곳에서 성 베벌리의 요한의 무덤에 경의를 표했습니다. 모든 것을 고려했을 때 좋은 결정이었고, 여행 전체가 보람 있었습니다." # 744de13401ce19ca3cb71c7ccfc81413e1e5cd80
-	yorkshire.0035.a: "언젠가 다시 방문할 수 있을까요?" # cb92aee111804ce362fd280e7385011cfb48f65d
-	yorkshire.0036.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0036.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0036.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0037.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0037.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0037.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0038.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0038.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0038.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0039.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0040.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0040.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0040.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0041.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0041.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0041.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0042.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0042.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0042.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0043.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0043.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0043.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0044.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0044.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0044.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0045.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0045.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0045.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0046.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0046.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0046.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0047.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0047.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0047.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0050.t: "스탬퍼드의 황소" # b330495f7fec9408e1fc27c4b39967f5a8d90956
-	yorkshire.0050.desc: "[stamford_barony.GetNameNoTier] 마을을 방문했을 때, 멀지 않은 초원에서 암소를 두고 두 마리의 황소가 싸우는 것을 보았습니다. 저는 안전한 거리에서 그 광경을 재미있게 구경했습니다. 그러다 [stamford_barony.GetNameNoTier] 출신의 정육점 주인 몇 명이 개들을 데리고 황소를 떼어놓으러 왔습니다. 하지만 이는 황소들을 더욱 격분시킨 듯했습니다!\n\n황소들이 정착지를 짓밟자, 당황한 마을 사람들이 이리저리 뛰어다녔습니다. 의무감이 들어서 저와 경비병 몇 명이 정육점 주인들과 마을 사람들과 합류하여 황소들을 진정시키기로 했습니다. 물론 우리는 성공했습니다." # 07b9515a9cc99a942e30435f048dfad5cd8bafb7
-	yorkshire.0050.a: "그만큼 정신없었지만, 꽤 재미있었어요!" # 182feb7324812bfa56a6473566f5ddb22672cadb
-	yorkshire.0051.t: "스탬퍼드의 황소 돌진" # 40ca7bb053ed1a548755a650a2bc2f26e187bfdd
-	yorkshire.0051.desc: "[stamford_barony.GetNameNoTier]의 주민들은 황소를 진압하는 데 도움을 준 것에 감사하며, 나를 기리기 위한 즉석 연회를 엽니다. 나는 너무 즐거웠기 때문에 [stamford_barony.GetNameNoTier]의 군주로서, 매년 좋은 전통적인 황소 달리기로 이 사건을 재연하고 기념하는 한, 황소들이 싸우던 목초지를 지역 정육점 주인들에게 영구적으로 주기로 결정했습니다. 매년 축제에 참여하기 위해 하루 더 쉬는 것을 싫어할 사람은 없겠죠?" # 3ecd537a3e6a658831af590a21d680dd49baafbb
-	yorkshire.0051.a: "저는 곧 스탬퍼드로 돌아가기를 바랍니다!" # 05f941ab15359c0b68fc2374b438ed5d5f01b5ee
-	yorkshire.0051.tooltip: "이제부터 [stamford_barony.GetNameNoTier] 근처에 [county_capital|E]을 가진 [rulers|E]는 매년 11월 즈음에 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName] [activity|E]에 참여할 수 있습니다" # d5e2f07e78d01c9e04c564835ec8df4c7ba72017
-	yorkshire.0052.t: "스탬퍼드의 황소 돌진" # 40ca7bb053ed1a548755a650a2bc2f26e187bfdd
-	yorkshire.0052.desc: "[bull_runner.GetTitledFirstName]이 [stamford_barony.GetNameNoTier]의 주민들을 도와 마을을 휩쓸던 황소 몇 마리를 영웅적으로 진정시켰다는 소문이 빠르게 퍼지고 있습니다. 그 후, [bull_runner.GetSheHe]은 이 사건을 매년 축제와 황소 달리기로 기념해달라고 요청했습니다." # e5f6af51fc546b562e7cc559a0276b9829218810
-	yorkshire.0052.a: "언젠가 스탬퍼드를 방문하여 이것을 직접 목격할지도 모르겠군요." # 414ddb12ca13fb2daa2b68b9ce07080bc689a1e0
-	yorkshire.0052.tooltip: "$yorkshire.0051.tooltip$" # 53a5acc22c849ec81a08cc6a5b8a6a698e67b26a
-	yorkshire.0053.t: "스탬퍼드 도착" # 0cabc6e197dfa12f856ef7b8bd28dfeab4eada3f
-	yorkshire.0053.desc.bull_runner: "저는 올해 [stamford_barony.GetNameNoTier]의 황소 달리기를 관람하기로 했습니다. 전통에 따르면 이 행사는 오래전 [bull_runner.GetSheHe]께서 몇몇 지역 정육점 주인들이 폭주하는 황소 몇 마리를 진정시키는 것을 도왔을 때 시작되었다고 합니다. 이 축제의 떠들썩한 분위기를 좋지 않게 보는 사람들도 있지만, 저는 올해 뭔가 흥미로운 것을 보기를 바랍니다!" # 7e532e6c055df0466a10dc1959b87a229068ce14
-	yorkshire.0053.desc.not_bull_runner: "저는 올해 [stamford_barony.GetNameNoTier]에서 열리는 소몰이 경기를 구경하기로 했습니다. 예전에 있었던 재미있는 사건 이후로 매년 소몰이 경기를 개최하자는 제 제안에 지역 주민들이 동의해서 기쁩니다. 그 축제의 떠들썩하고 카니발 같은 분위기를 경멸하는 사람들도 있지만, 올해는 뭔가 흥미로운 것을 볼 수 있기를 바랍니다!" # 2e342cf18bcc8e847ed8b0c6fa9f739b130e0d32
-	yorkshire.0053.a: "이것은 아주 신나는 난장판이 될 거야!" # 933f541a2b7f068f780aeaa3a44312a1f21d81ce
-	yorkshire.0054.t: "거의 다 됐습니다!" # b2271fb85f7c22af6f5d553f45c9d287b75ebf1f
-	yorkshire.0054.desc: "마침내, [stamford_barony.GetNameNoTier]의 소몰이가 내일 시작될 예정입니다. 저는 지역의 하급 귀족들과 저명한 마을 사람들로부터 환영받습니다. 그들 중 한 명이 이 전통의 중요한 참가자인 정육점 사람들이 주요 행사를 위해 찾을 수 있는 가장 거칠고 난폭한 소를 선택하는 것을 마쳤다고 말합니다. 어쨌든 저는 이 광경을 직접 목격하기를 기대합니다!\n\n잠자리에 들기 전에, 제가 직접 소몰이에 참가해야 할지, 아니면 그저 관찰만 해야 할지 궁금합니다. 일부 고지식한 사람들은 이미 저처럼 위엄 있는 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetTitleAsNameNoTooltip]에게 어울리지 않고 부적절하며 무례한, 그런 소란스럽고 피비린내 나는 사건에 제가 있는 것을 못마땅하게 생각하고 있으며, 적극적인 참여는 상황을 더욱 악화시킬 뿐입니다. 반면에, 그것은 아주 재미있을 수도 있습니다." # d2db002f6a07d440a8380567ec9064ffd72d626e
-	yorkshire.0054.a: "내일 참여하겠습니다." # b20518adc9686675fc47f253113f013d8e88cda0
-	yorkshire.0054.b: "멀리서 지켜보겠습니다." # 877324dbd022885fe3bff3136be5b6df7ca1682b
-	yorkshire.0055.t: "아침 준비" # fe1c2338ad5dbb6769b98a935938ddafe7f5e18c
-	yorkshire.0055.desc: "아침이 밝았습니다. 오늘은 스탬퍼드 황소 달리기 대회가 열리는 날입니다! 지역 [ROOT.Char.GetFaith.HouseOfWorship]의 종이 울려 황소 달리기가 곧 시작된다는 것을 알립니다. 마을 공고 담당자가 모든 주민에게 상점 문과 대문을 닫으라고 발표합니다. 모두가 모이자 행운의 상징으로 많은 사람들이 몸에 바른 흙과 황소 배설물을 섞은 "황소 똥" 냄새가 진동합니다. 모든 것이 정리되면 황소가 풀려나고 남자, 여자, 아이들이 모두 황소를 쫓으면서 대혼란이 시작됩니다!" # 94428c18c02e1f0ddd2f69b579e95951382dbb13
-	yorkshire.0055.a: "준비되셨습니다!" # 1dc73a070c9cfe50e4b7d68d345c28f92baa35ed
-	yorkshire.0056.t: "황소 전투" # 93aef83a56866e17eca2a907dc64260b4c29e5cf
-	yorkshire.0056.desc.bull_runner: "황소 뒤를 쫓아 뛰면서 혼란 외에는 아무것도 경험하지 못합니다. 물론, 저를 보호하기 위해 호위병 몇 명이 동행하고 있지만, 응원과 함성, 떠들썩한 소리에 휩쓸려 그들 또한 즐거워하는 것 같습니다. 특별히 지정된 사람이 통 안에서 비트에 맞춰 굴러가는 모습을 보며 웃음이 터져 나옵니다." # 634e2c90a5fbc2671061a0e6d82bf77b067687a8
-	yorkshire.0056.desc.not_bull_runner: "마을 사람들과 지역 귀족들이 황소를 쫓는 모습을 보니 온통 혼란스럽습니다. 많은 사람들이 일상생활에서는 우스꽝스러울 정도로 야한 옷을 입고 있지만, 여기 축제 분위기에는 어울리며 황소를 더욱 자극하기 위한 것입니다. 특별히 지정된 사람은 심지어 통 속에서 구르며 박자에 맞춰 움직입니다." # f61c368694aa1df7906672c83a020b3ad1d79ca0
-	yorkshire.0056.a: "#bold Historical Context:#! The Blemmyae were a nomadic people of Nubia that flourished from at least 600 BCE to 8th century CE. They are often described in classical sources as being acephalous, without a head, and having their facial features on their chest. This description is very unlikely to be factual, but it may derive from a practice of wearing very high chest armor, or large tattoos on the chest. They are thought to be related to the Medjay, and fought in many wars with the Ptolemaic Kingdom of Egypt, and later against the Roman Empire. The Blemmyae also constructed temples to the Egyptian gods #italic Isis# and #italic Osiris#, and the Nubian god #italic Mandulis#, and claimed that the temple at #italic Philae# belonged to them. Their main center was at #italic Kalabsha#, and their influence extended up to #italic Elephantine#. In Crusader Kings III, they're represented as a tribal people with some unique mechanics.\n#bold 역사적 배경:#! 블렘미는 기원전 600년부터 서기 8세기까지 번성했던 누비아의 유목민족입니다. 그들은 고전 문헌에서 종종 머리가 없고 얼굴 특징이 가슴에 있는 무두인으로 묘사됩니다. 이러한 묘사는 사실일 가능성이 매우 낮지만, 매우 높은 가슴 갑옷을 착용하거나 가슴에 큰 문신을 새기는 관행에서 유래했을 수 있습니다. 그들은 메자이와 관련이 있는 것으로 생각되며, 이집트 프톨레마이오스 왕국과 나중에 로마 제국과의 많은 전쟁에 참전했습니다. 블렘미는 또한 이집트 신 #italic 이시스#와 #italic 오시리스# 그리고 누비아 신 #italic 만둘리스#에게 신전을 지었고 #italic 필레#의 신전이 자신들의 것이라고 주장했습니다. 그들의 주요 중심지는 #italic 칼라브샤#였으며 그들의 영향력은 #italic 엘레판티네#까지 확장되었습니다. Crusader Kings III에서 그들은 몇 가지 독특한 메커니즘을 가진 부족민으로 표현됩니다." # 47c68d9d6adbf92f896e1c3106b4cce0e549e3bd
-	yorkshire.0057.t: "황소가 잡혔습니다" # e76996e926a88c28d685056e38ab74a5012d0424
-	yorkshire.0057.desc: "마침내 황소는 스탬퍼드 근처의 소위 황소 초원까지 쫓겨났고, 그곳에서 첫 황소 달리기가 벌어졌으며 성공적으로 잡혀 도살되었습니다. 정육점들이 소고기를 준비하는 동안 온 마을은 유쾌하고 술에 취한 노래와 춤으로 떠들썩합니다.\n\n#italic 오, 모든 멋진 소년들이여!#!\n#italic 멋진 황소를 미끼로 삼기 좋아하는 자들이여,#!\n#italic 소란을 즐기는 자들이여,#!\n#italic 배불리 먹게 될 것이오!#!\n#italic 스탬퍼드의 황소 달리기 날에는,#!\n#italic 그대들에게 아주 멋진 연극을 보여주리라;#!\n#italic 그대는 전에 본 적이 없을 것이고, 이렇게 말하겠지,#!\n#italic 그대가 스탬퍼드에서 보게 될 것이라고!#!" # e3f7f04495c7ce7279200eba06ad3e4ca70e7c9d
-	yorkshire.0057.a: "연회가 정말 기대되네요." # 9826c9cbb95fa6b9c3a4e9002a4c7f27127e220d
-	yorkshire.0058.t: "황소 전투가 끝났다" # dd77c68c813407d6cc79923c96af0a2b199b7b02
-	yorkshire.0058.desc: "일반적으로 스탬퍼드 황소 경주에서 황소 고기는 지역 귀족, 시 공무원 및 길드에서 자선의 표시로 가난하고 궁핍한 사람들을 위해 조각되어 요리됩니다. 우리는 모두 좋은 음식과 음료를 즐기고 밤늦게까지 춤을 춥니다." # c0a11388b9a28dbd6792c409d67a7dde70381b62
-	yorkshire.0058.a: "전반적으로 꽤 재미있었습니다!" # e10c7473d438f2dbad090b76dae6c3a0ebc0282b
-	yorkshire.0059.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0059.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0059.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0060.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0060.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0060.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0061.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0061.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0061.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0062.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0062.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0062.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0063.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0063.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0063.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0064.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0064.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0064.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0065.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0065.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0065.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0066.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0066.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0066.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	charter_fair_granted_others_tooltip: "[stamford_barony.GetNameNoTier], [boston_barony.GetNameNoTier], [winchester_barony.GetNameNoTier], 그리고 [northampton_barony.GetNameNoTier]가 모두 정기 시장을 허가받으면, 나중에 특별 이벤트가 무작위로 발생하여 해당 [county_modifiers|E]를 업그레이드합니다." # 5ec4652e05cf5b6ca7c130bb4aa98dd811a7fe80
-	yorkshire.0070.t: "스탬퍼드의 특허 박람회" # ba6f107bbeaf105dbd1591b37897d49ba0c649f0
-	yorkshire.0070.desc: "[stamford_barony.GetNameNoTier]의 지역 유지들과 하급 귀족들은 꽤 오랫동안 정착지에 대규모 특허 박람회를 개최할 권한을 부여해달라고 요구해 왔습니다. 저는 그들에게 그러한 특권을 부여하기로 결정했습니다. 이제부터 매년 사순절 중반경에 마을에서 그러한 박람회를 개최할 것입니다. 평범한 시장 박람회가 아니라 상당한 규모의 박람회가 될 것입니다." # 46ddfa84390c88a6588829021d7bb29b4aaf0d04
-	yorkshire.0070.a: "이로 인해 지역 경제가 상당히 활성화될 것입니다." # 0a4784e199b5f610d30adfb65a3e9f7036468f2d
-	yorkshire.0071.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # bc2976be7c67bf2b3d173ffea9d487d96d2ba04e
-	yorkshire.0071.desc: "[stamford_barony.GetNameNoTier](이)가 현재 귀하의 관할에 속해 있으므로, 저는 여러 지역 시민들과 하위 귀족의 요청에 따라 [stamford_barony.GetNameNoTier]에 매년 사순절 중반경에 대헌장 박람회를 개최할 권리를 부여했음을 알려드립니다. 이는 지역 경제를 상당히 활성화시킬 것입니다." # e298e3167de464094a95a7f1081ec91d10cce429
-	yorkshire.0071.a: "훌륭한 소식입니다!" # bad3b7950d03e704a51acc45e87997592fe4afcd
-	yorkshire.0072.t: "스탬퍼드의 특허 박람회" # ba6f107bbeaf105dbd1591b37897d49ba0c649f0
-	yorkshire.0072.desc: "[stamford_barony.GetNameNoTier]의 지역 유지와 하급 귀족들은 꽤 오랫동안 이 정착지에 대규모 특허 정기 시장을 열 권한을 부여할 것을 요구해 왔습니다. 미천한 [ROOT.Char.GetTitleAsNameNoTooltip]인 저는 그러한 권한을 부여할 권위가 없지만, 이 땅의 [charter_granter.GetTitleAsNameNoTooltip]이신 [charter_granter.GetTitledFirstName]님께 그렇게 해 주시도록 청원할 수 있습니다. 그러나 이분들에게 이 일의 장점을 설득하려면 제 노력이 좀 필요할 것입니다." # ed938f408cf4adefacaaad6f5308a49ccab222e8
-	yorkshire.0072.a: "제 청원이 받아들여지기를 바랍니다!" # 2058966f0d0b7e0a7c268d599fcd23230d55a5ea
-	yorkshire.0073.opening: "[stamford_owner.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # afce91f2783878eb4c109c57e23d6b8866469ca4
-	yorkshire.0073.desc: "이 편지가 부디 좋은 소식으로 전해지길 바랍니다. [stamford_barony.GetNameNoTier]의 지역 유지들과 하급 귀족들이 사순절 중반 즈음에 매년 대헌장 박람회를 개최할 수 있는 권한을 요구했습니다. 이는 당신의 승인을 필요로 하기에, 이 요청에 귀 기울여 주시길 청원합니다. 그렇게 한다면 지역 경제가 상당히 활성화될 것입니다." # 4f9cdde49970abbb15969489ae9d3b9b87d2e069
-	yorkshire.0073.a: "알겠습니다. 허락해 드리겠습니다." # b88ff51bf08367770cdb3538c835d8501d74cf87
-	yorkshire.0074.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # bc2976be7c67bf2b3d173ffea9d487d96d2ba04e
-	yorkshire.0074.desc: "저는 [stamford_barony.GetNameNoTier]에서 사순절 중간 즈음에 매년 대규모 특허 박람회를 개최할 권리를 부여해달라는 귀하의 요청을 신중히 검토했습니다. 이는 훌륭한 아이디어이며, 귀하의 주도성에 찬사를 보냅니다. 이에 [stamford_barony.GetNameNoTier]에 그러한 특권을 부여합니다. 이제 이것이 이 지역에 더 많은 번영을 가져다주기를 바랍니다!" # 0b5b2b5c9f1e04bbc4961966a94dacb15f860f75
-	yorkshire.0074.a: "다행이네요!" # 3e1b17473d562e37edaaff061b5a794a066eff98
-	yorkshire.0075.t: "보스턴의 특허 정기 시장" # 82ef9d48eee8d7b3e44e7cbffc813e69fd51ee4f
-	yorkshire.0075.desc: "[boston_barony.GetNameNoTier]의 지역 유지들과 하급 귀족들은 오랫동안 정착지에 대규모 특허 정기 시장을 개최할 권한을 부여해 줄 것을 요구해 왔습니다. 저는 그들에게 그러한 특권을 부여하기로 결정했습니다. 이제부터 매년 7월경에 마을에서는 대규모 시장이 열릴 것입니다. 확실히 평범한 시장이 아니라 상당한 규모의 시장일 것입니다." # 30f10a2859e6b0b9efa6c8b631ebf9a1e7b12544
-	yorkshire.0075.a: "이로 인해 지역 경제가 상당히 활성화될 것입니다." # 0a4784e199b5f610d30adfb65a3e9f7036468f2d
-	yorkshire.0076.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # bc2976be7c67bf2b3d173ffea9d487d96d2ba04e
-	yorkshire.0076.desc: "현재 귀하의 관할 아래에 있는 [boston_barony.GetNameNoTier]에 대해 알려드립니다.  많은 지역 시민들과 하급 귀족들의 요청에 따라, 저는 매년 7월경 [boston_barony.GetNameNoTier]에서 큰 장터를 열도록 허가했습니다. 이는 지역 경제를 상당히 활성화시킬 것입니다." # 3b392defb0d20d5e0af28d48c99712818709ca52
-	yorkshire.0076.a: "기쁜 소식이 있습니다!" # bad3b7950d03e704a51acc45e87997592fe4afcd
-	yorkshire.0077.t: "보스턴의 특허 정기 시장" # 82ef9d48eee8d7b3e44e7cbffc813e69fd51ee4f
-	yorkshire.0077.desc: "[boston_barony.GetNameNoTier]의 지역 부르주아와 하급 귀족들이 이 정착지에 오랫동안 대규모 특허 박람회를 개최할 권한을 부여해 달라고 요구해 왔습니다. 저는 단순한 [ROOT.Char.GetTitleAsNameNoTooltip]이므로 그러한 권한을 부여할 권한이 없지만, 이 땅의 [charter_granter.GetTitleAsNameNoTooltip]이신 [charter_granter.GetTitledFirstName]에게 그렇게 해 달라고 청원할 수 있습니다. 그러나 그들에게 이것의 장점을 설득하려면 저의 노력이 필요할 것입니다." # 0e72ce0ae6a56135b1aa927f7e0ce6d46e3ade2b
-	yorkshire.0077.a: "제 청원이 받아들여지기를 바랍니다!" # 2058966f0d0b7e0a7c268d599fcd23230d55a5ea
-	yorkshire.0078.opening: "[boston_owner.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # f7dd17ca888d1437a9fcfbfe5d1dd963ff4569eb
-	yorkshire.0078.desc: "이 편지가 당신에게 좋은 소식을 전하기를 바랍니다. [boston_barony.GetNameNoTier]의 지역 주민들과 하급 귀족들이 매년 7월경에 대 헌장 박람회를 개최할 권한을 요청했습니다. 이는 당신의 승인을 필요로 하므로, 이 요청을 들어주시면 지역 경제에 상당한 도움이 될 것이므로 이 청원을 들어주시기를 청합니다." # 7cef1d97570c66c3e6597dd2c48304fc6bfba898
-	yorkshire.0078.a: "알겠습니다. 허락해 드리겠습니다." # b88ff51bf08367770cdb3538c835d8501d74cf87
-	yorkshire.0079.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # bc2976be7c67bf2b3d173ffea9d487d96d2ba04e
-	yorkshire.0079.desc: "저는 매년 7월경에 [boston_barony.GetNameNoTier]에서 대규모 특허 박람회를 개최할 수 있는 권한을 부여해 달라는 귀하의 요청을 신중하게 고려했습니다. 이는 훌륭한 아이디어이며, 귀하의 주도적인 행동에 감탄했습니다. 이에 [boston_barony.GetNameNoTier]에 그러한 특권을 부여합니다. 이제 이것이 이 지역에 더 많은 번영을 가져다주기를 바랍니다!" # 4c5c70de9363f0284714a7deb725db4aa528977a
-	yorkshire.0079.a: "다행이네요!" # 3e1b17473d562e37edaaff061b5a794a066eff98
-	yorkshire.0080.t: "윈체스터의 특허 시장" # ef65e724afa42e6655fb3373095a139957daf359
-	yorkshire.0080.desc: "[winchester_barony.GetNameNoTier]의 지역 자치 시민과 하위 귀족들은 꽤 오랫동안 마을에 대규모 특허 박람회를 개최할 권리를 부여해 줄 것을 요구해 왔습니다. 저는 그들에게 그러한 특권을 부여하기로 결정했습니다. 이제부터 매년 9월경에 마을에서 평범한 시장 박람회가 아닌 상당한 규모의 박람회를 개최할 것입니다." # f7d4d52c3c7135311cf3cf9715e34c9443665bd6
-	yorkshire.0080.a: "이로 인해 지역 경제가 상당히 활성화될 것입니다." # 0a4784e199b5f610d30adfb65a3e9f7036468f2d
-	yorkshire.0081.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # bc2976be7c67bf2b3d173ffea9d487d96d2ba04e
-	yorkshire.0081.desc: "현재 [winchester_barony.GetNameNoTier](이)가 귀하의 관할 하에 있으므로, 다수의 지역 부르주아와 하급 귀족의 요청에 따라 [winchester_barony.GetNameNoTier]에 매년 9월경에 대규모 특허 박람회를 개최할 권한을 부여했음을 알려드립니다. 이는 지역 경제에 상당한 활력을 불어넣을 것입니다." # bb976f7bd7be1d77c5cd2632afe419136bcaf952
-	yorkshire.0081.a: "기쁜 소식이 있습니다!" # bad3b7950d03e704a51acc45e87997592fe4afcd
-	yorkshire.0082.t: "윈체스터의 특허 시장" # ef65e724afa42e6655fb3373095a139957daf359
-	yorkshire.0082.desc: "[winchester_barony.GetNameNoTier]의 지역 자치 도시민과 하급 귀족들은 이 정착지에 오랫동안 대헌장 박람회를 개최할 권리를 부여해달라고 요구해 왔습니다. 단지 [ROOT.Char.GetTitleAsNameNoTooltip]에 불과한 저는 그러한 권리를 부여할 권한이 없지만, 이 땅의 [charter_granter.GetTitleAsNameNoTooltip]이신 [charter_granter.GetTitledFirstName]님께 청원하여 그렇게 해 주실 것을 요청할 수는 있습니다. 그러나 그렇게 하려면 그분들을 설득하기 위해 어느 정도의 노력이 필요할 것입니다." # 427a11a6aed93a15442c93c0aaff77238478de5c
-	yorkshire.0082.a: "제 청원이 받아들여지기를 바랍니다!" # 2058966f0d0b7e0a7c268d599fcd23230d55a5ea
-	yorkshire.0083.opening: "[winchester_owner.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # 16aad491a421d58dd3dd85f6ae2b625e8170c7b4
-	yorkshire.0083.desc: "이 서신이 귀하의 심신에 평안을 가져다주기를 바랍니다. [winchester_barony.GetNameNoTier]의 지방 자치 시민들과 하급 귀족들이 매년 9월경에 대 헌장 박람회를 개최할 수 있는 권한을 요청했습니다. 이것은 귀하의 승인을 필요로 하므로, 이 요청을 들어주시기를 청원합니다. 그렇게 하면 지역 경제가 상당히 활성화될 것입니다." # 867f4756ec7b7b261ebb516eabcd49771f4e9eb4
-	yorkshire.0083.a: "알겠습니다. 허락해 드리겠습니다." # b88ff51bf08367770cdb3538c835d8501d74cf87
-	yorkshire.0084.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # bc2976be7c67bf2b3d173ffea9d487d96d2ba04e
-	yorkshire.0084.desc: "매년 9월경에 [winchester_barony.GetNameNoTier]에서 대규모 특허 장터를 개최할 수 있는 권한을 부여해 달라는 귀하의 요청을 신중히 검토했습니다. 이는 훌륭한 아이디어이며, 귀하의 주도적인 태도에 찬사를 보냅니다. 이에 [winchester_barony.GetNameNoTier]에 그러한 특권을 부여합니다. 이제 이것이 이 지역에 더 많은 번영을 가져다주기를 바랍니다!" # 7b16398e3f4a630de0dcbd64dc31382a56f4089b
-	yorkshire.0084.a: "다행이네요!" # 3e1b17473d562e37edaaff061b5a794a066eff98
-	yorkshire.0085.t: "노샘프턴의 특허 장터" # 2bd6e93c4ec0d5a9c0f7e162ee6d5911b29769b5
-	yorkshire.0085.desc: "[northampton_barony.GetNameNoTier]의 지역 시민들과 하급 귀족들은 오랫동안 대규모 헌장 박람회를 열 권리를 요구해 왔습니다. 저는 그들의 요구를 수락하기로 결정했습니다. 이제 매년 12월경, 이 마을은 그러한 박람회를 개최할 것입니다. 물론 평범한 시장 박람회가 아닌, 규모가 상당한 박람회가 될 것입니다." # 9552ebfab4d3c29216f630b90b2838e298b683fa
-	yorkshire.0085.a: "이로 인해 지역 경제가 상당히 활성화될 것입니다." # 0a4784e199b5f610d30adfb65a3e9f7036468f2d
-	yorkshire.0086.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # bc2976be7c67bf2b3d173ffea9d487d96d2ba04e
-	yorkshire.0086.desc: "[northampton_barony.GetNameNoTier](이)가 현재 귀하의 관할권에 속하므로, 저는 여러 지역의 시민과 하급 귀족의 요청에 따라 [northampton_barony.GetNameNoTier]에 매년 12월경에 대규모 특허 박람회를 개최할 권리를 부여했음을 알려드립니다. 이는 지역 경제를 상당히 활성화할 것입니다." # ee10046eb9b0e6cae426d90d8179243b7d211544
-	yorkshire.0086.a: "기쁜 소식이 있습니다!" # bad3b7950d03e704a51acc45e87997592fe4afcd
-	yorkshire.0087.t: "노샘프턴의 특허 장터" # 2bd6e93c4ec0d5a9c0f7e162ee6d5911b29769b5
-	yorkshire.0087.desc: "[northampton_barony.GetNameNoTier]의 지역 유지와 하급 귀족들은 오랫동안 이 지역에 대규모 특허 박람회를 개최할 권리를 부여해 달라고 요구해 왔습니다. 미미한 [ROOT.Char.GetTitleAsNameNoTooltip]에 불과한 저는 그러한 권한을 부여할 권한이 없지만, 이 땅의 [charter_granter.GetTitleAsNameNoTooltip]인 [charter_granter.GetTitledFirstName]에게 청원하여 그렇게 할 수 있습니다. 하지만 그들에게 이 일의 장점을 설득하려면 제 노력이 좀 필요할 것입니다." # 957b9150bf2e10e6aa64126261ba3dccd4ea67c0
-	yorkshire.0087.a: "제 청원이 받아들여지기를 바랍니다!" # 2058966f0d0b7e0a7c268d599fcd23230d55a5ea
-	yorkshire.0088.opening: "[northampton_owner.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # 5684f079a8d382d94e032591be4cb57ce29d5801
-	yorkshire.0088.desc: "이 서신이 당신을 좋은 기분으로 찾아뵙기를 바랍니다. [northampton_barony.GetNameNoTier]의 지역 주민과 하급 귀족들이 매년 12월경에 대 헌장 박람회를 개최할 수 있는 권한을 부여해달라고 요청했습니다. 이는 당신의 승인이 필요하므로, 그렇게 하면 지역 경제가 크게 활성화될 것이므로 이 요청을 들어주시기를 청원합니다." # c15d97048bb0e3046cffbd8509e87a80a6f5cde5
-	yorkshire.0088.a: "알겠습니다. 허락해 드리겠습니다." # b88ff51bf08367770cdb3538c835d8501d74cf87
-	yorkshire.0089.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # bc2976be7c67bf2b3d173ffea9d487d96d2ba04e
-	yorkshire.0089.desc: "저는 매년 12월경에 [northampton_barony.GetNameNoTier]에 대규모 특허 박람회를 개최할 수 있는 권한을 부여해 달라는 귀하의 요청을 신중히 검토했습니다. 이것은 훌륭한 아이디어이며, 귀하의 주도에 대해 칭찬합니다. 이에 [northampton_barony.GetNameNoTier]에 그러한 특권을 부여합니다. 이제 이것이 이 지역에 더 많은 번영을 가져다주기를 바랍니다!" # 98fccc9de23e63e1d33e555dc88876369773720b
-	yorkshire.0089.a: "다행이네요!" # 3e1b17473d562e37edaaff061b5a794a066eff98
-	yorkshire.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0091.t: "잉글랜드의 특허 박람회" # ecca5644584ced67ac0ea2da36afd0b29d479403
-	yorkshire.0091.desc: "오랜 세월 동안 잉글랜드, 웨일스, 콘월의 여러 도시들은 왕실 관리로부터 소위 특허 시장을 열 수 있는 특권을 부여받았습니다. 이러한 연례 시장은 많은 정착지에 번영의 중요한 원천이 되었지만, 일부는 더 많은 사업을 유치하는 면에서 다른 곳보다 뛰어납니다.\n\n특히, 몇몇 시장은 최근에 가장 두드러지게 되었는데, 예를 들어 사순절 중반의 [stamford_barony.GetNameNoTier] 시장, 7월의 [boston_barony.GetNameNoTier] 시장, 9월의 [winchester_barony.GetNameNoTier] 시장, 11월의 [northampton_barony.GetNameNoTier] 시장 등이 있습니다. 결과적으로 이러한 시장들은 일종의 연속적인 순서를 형성하여 현지 상인과 멀리 떨어진 외국인 모두에게 매우 인기가 높으며, 다른 곳의 보조 시장들이 그 사이를 메우고 있습니다." # 1e2ee75465cba48b212c4a3e6298db98ce29ecd3
-	yorkshire.0091.a: "지역 경제가 활발해 보입니다!" # e7245c04f095e3c19f61ff5f38c88d7b7f196a4e
-	yorkshire.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0100.t: "셰필드 칼붙이" # 1cbeed0b9ad0a5a7ad183c781bfeb5d35301021e
-	yorkshire.0100.desc: "떠돌이 상인이 마을에 왔는데, 마침 [sheffield_barony.GetNameNoTier]에서 만든 칼붙이를 팔고 있습니다. 마을은 칼붙이 생산 중심지로 명성을 얻고 있으며, 모두가 이 칼붙이의 높은 품질을 알고 있습니다." # d3ee8520f80ee47821b4e8a09df407061e0be9ed
-	yorkshire.0100.a: "구매하고 싶습니다!" # 567f1369e81820674a45fb87d40d39561c62d364
-	yorkshire.0100.b: "" # 83eadeb12c800133451e081a25048fe346c35e0e
-	yorkshire.0101.t: "스탬퍼드 웨어" # f89dae03bfefc835c1aedfe554ed10e3ad042c6e
-	yorkshire.0101.desc: "[stamford_barony.GetNameNoTier]는 잉글랜드 전역에 걸쳐 많은 고급 유약 도자기를 공급하는 곳이며, 많은 도공들이 이곳에서 가마를 운영합니다. 그 품질 수준이 항상 대륙의 비슷한 도자기와 견줄 만한 것은 아니지만, 그럼에도 불구하고 좋은 제품으로 여겨지며, 주석 대신 은을 약간 사용한다는 점에서 전형적인 잉글랜드 유약 도자기 중에서는 독특합니다. 어쨌든, 저는 순회 상인에게서 온 것을 살 기회를 얻었습니다." # a89ed3797f29b58d8b0ad2ecea04691f6a48c791
-	yorkshire.0101.a: "내 연회를 위한 새 투수와 그릇이라니 좋은 소리인데!" # 30f1b8a3a7d38ed694704e9fa5523293bb454d0b
-	yorkshire.0101.b: "제 하인들이 물건을 들고 다닐 수 있도록 항아리와 단지를 주세요." # c9838bb26c81f667f2a5f7d6736753a3f09c9448
-	yorkshire.0101.c: "집 장식으로 살 수 있는 멋진 도자기가 있나요?" # f5d3ce3a0c14a7e9ad1dc46a9ecccbe1aaa98059
-	yorkshire.0101.d: "지금은 도자기가 필요 없을 것 같습니다." # 07824b94995f9cdf21fc9785c6961f937a6cf8bf
-	yorkshire.0102.t: "휘트비 뱀돌" # 67a62e4a17015a80f221ba0dbf00373f222adf84
-	yorkshire.0102.desc: "저는 [whitby_barony.GetNameNoTier]의 지역 귀족을 방문하고 있습니다. 그는 그곳에서 발견한 아름다운 뱀돌을 보여주고 있습니다. 이 특이한 유물은 [whitby_barony.GetNameNoTier]에 풍부합니다.\n\n일부 사람들은 이것들이 성인 남녀에 의해 돌로 변한 뱀이라고 말합니다. [whitby_barony.GetNameNoTier]에서는 오래전 수녀원장이었던 성녀 힐다가 이 위대한 기적의 원인이라고 여겨집니다. 자연 철학자나 학식 있는 사람들은 이 돌이 폭풍이나 지구 광물의 변화와 같은 자연 현상의 결과일 가능성이 높다고 말합니다.\n\n제 지인은 그 문제의 진실에 대해 확신이 없다고 말하지만, 그는 단순히 이러한 돌들의 기하학적 아름다움, 특히 자신이 소유한 돌을 감상하기를 좋아한다고 말합니다." # 79561466f31c8d9d742457e981096951bb3d52be
-	yorkshire.0102.a: "분명히 신성한 사람들의 일종의 기적이었습니다." # 42291aa701fbd2d1beaf67d142886bda95002e74
-	yorkshire.0102.b: "학자들은 그것이 자연적인 현상이라고 말합니다. 저는 그들의 말을 신뢰합니다." # cf00950be4f31c8c8c122c05285e78671fda9290
-	yorkshire.0102.c: "네, 무엇이든 간에, 그 아름다움을 감탄해 봅시다!" # 03bda990bcc873dd10a98f152de631617358fa37
-	yorkshire.0102.d: "그들은 재미없어 보입니다 - 다른 것을 보여주실 수 있나요?" # 6757478d82fec10b3e85413205ea75bbd17121fc
-	yorkshire.0103.t: "요크 계곡" # 67d3deacf8916b5f92dfd07487a3c4d8f4b03406
-	yorkshire.0103.desc: "요크 계곡은 로마 시대 이전부터 [york_barony.GetNameNoTier] 서쪽에 위치한 주로 농업에 사용되는 평지 지역입니다. 그곳의 비옥한 땅에서 최근에는 평소보다 훨씬 더 풍부한 수확이 이루어지고 있습니다." # b9811fb6dbadb0281ed7596671120485f4272b32
-	yorkshire.0103.a: "좋습니다!" # daba14a2604c250f3a416e32ba8f2f27a84dd8d4
-	yorkshire.0104.t: "크나르와 주문" # a5268fd1cd48f45933d22c5714704fa4045c0562
-	yorkshire.0104.desc: "요크셔에서 크누르 앤 스펠이라는 게임이 점점 인기를 얻고 있으며, 특히 선술집과 펍의 평민들 사이에서 유행하고 있습니다. 심지어 귀족들도 이 게임을 즐기기 시작했습니다.\n\n이 게임에서 플레이어는 막대기(#italic 스펠#!)로 공(#italic 크누르#!)을 최대한 세게 치려고 시도합니다. 몇 라운드를 거친 후, 평균적으로 공을 가장 멀리 친 플레이어가 승자로 선언됩니다.\n\n어쨌든, 저는 여러 지인들과 이 게임을 하도록 초대받았습니다. 이런 종류의 스포츠에서 제 능력을 보여줄 좋은 기회가 될 수 있습니다." # 567eb28547379f5d82040694e7db324fc06495b9
-	yorkshire.0104.a: "재밌을 것 같네요!" # 005cb218944c874373b4542dbce5013e461269a6
-	yorkshire.0104.b: "이런 사소한 유희에는 관심이 없습니다." # 47da42f6844f7cfaf0cb7a6b7214ea5478fb7cfe
-	yorkshire.0104.tooltip: "#italic 크누르 앤 스펠# 게임을 플레이하세요! - 아마도 #bold 승리#하여 다른 사람들에게 깊은 인상을 남길 수도 있습니다!" # 403ff140e4616bef41b989ea12e0a198121402f0
-	yorkshire.0104.toast.win: "당신이 이겼습니다!" # e3a4b01eaca8944c868dafa953c0012dc4d4977f
-	yorkshire.0104.toast.lose: "당신이 졌습니다!" # 808fe2e74bfaa31b6eb4d8483cb238f3f9c5fba3
-	yorkshire.0105.t: "웬슬리데일 치즈" # c83c7e82e44ec1b6d3948ae6410a222693f9b321
-	yorkshire.0105.desc: "[north_riding_county.GetNameNoTier]의 작은 계곡인 웬슬리데일은 오래전 그곳에 정착하여 이 지역에 조리법을 소개한 프랑스 로크포르 출신의 수도사들이 만든 맛있는 치즈를 생산하는 것으로 이 지역에서 알려져 있습니다. 어쨌든 일부 지역 주민들이 이 치즈를 선물로 저에게 가져다주었습니다." # 9e8d4d2f8a7a9e67105cab3537010ced60bfe780
-	yorkshire.0105.a: "연회에 훌륭한 일부가 될 것입니다!" # a99faf7920378de1144d9e083b1b24937dfe2fad
-	yorkshire.0106.t: "알쿠인" # 5750ad0e042afd20f1b7280f3489e74c63f321dd
-	yorkshire.0106.desc: ""몸보다 영혼을 더 소중히 여기십시오. 영혼은 남고 몸은 사라지기 때문입니다."\n\n"그리고 '민중의 목소리가 신의 목소리다'라고 계속 말하는 자들의 말에 귀 기울이지 마십시오. 군중의 소란은 항상 광기에 가깝기 때문입니다."" # af31fa6f35e884e76fca8230655d2da17ca4b5e9
-	yorkshire.0106.a: "첫 번째 인용문이 나를 부르네 - 우리는 영적인 세계를 생각해야만 해!" # c59811d40c332df73eca7405772b3456a363ae9a
-	yorkshire.0106.b: "두 번째 인용문은 좋습니다. 대중은 기껏해야 다루기 힘든 폭도입니다." # 8a8e9c48d076b7ad4117d5ef64ce66826db4d61b
-	yorkshire.0107.t: "케드몬의 찬가" # ccdb6e05b21c551fc41d0f1e9a251fbd05ab56a3
-	yorkshire.0107.desc: "7세기 앵글로색슨 시인 케드몬은 [whitby_barony.GetNameNoTier] 수도원에서 소치는 목동이자 나중에는 수도승으로 살았습니다. 그의 가장 유명한 작품인 '케드몬의 찬가'를 오늘 지역 시인이 저에게 낭송해 주고, 그 후 원고 사본을 선물해 주려 합니다.\n\n#italic 이제 우리는 하늘의 수호자,#!\n#italic 건축가의 힘과 그의 목적,#!\n#italic 영광의 아버지의 업적을 존경해야 합니다#!\n#italic 영원한 주님께서 모든 경이로움의 기원을 세우셨으니;#!\n#italic 그분께서 인류의 자녀를 위해 처음으로 창조하셨네#!\n#italic 지붕으로서의 하늘을, 거룩한 창조자여.#!\n#italic 그런 다음 인류의 수호자여,#!\n#italic 영원한 주님, 그 후 중간 구역을 지정하셨네,#!\n#italic 인간을 위한 땅을, 전능하신 주님.#!" # 9b513cebfa967cbaec7c1a7b046f14d61c68d381
-	yorkshire.0107.a: "정말 아름답고 감명 깊은 시네요!" # f95d48cc36ad48982e07a8636ab85e9ad18bf55d
-	yorkshire.0108.t: "크롤랜드의 성 구틀락" # fb8c7609f0edaede7ba75e6d6bd0af4e5b58acc1
-	yorkshire.0108.desc: "크로울랜드의 성 구슬락은 [lincolnshire_county.GetNameNoTier]에서 숭배받는 인기 있는 지역 성인입니다. 크로울랜드 수도원의 그의 성지는 항상 지역 순례자들에게 인기가 있었고 치유력으로 명성이 높았지만, 최근 들어 평소보다 더 많은 사람들이 찾아오고 있습니다." # 983d52ea1bc40e1dfabc0741dc9b04ce39feb8cf
-	yorkshire.0108.a: "이것은 경제적으로나 정신적으로 그 지역에 도움이 될 것입니다!" # f6e311019a59f1fa1ea0f5844d511cb990fb6e45
-	yorkshire.0109.t: "스웨일 강" # 62cde077ad8fc02693cd31a6d8531731cd659cf8
-	yorkshire.0109.desc: "수 세대에 걸쳐 잉글랜드에서 가장 빠르게 흐르는 강 중 하나인 [north_riding_county.GetNameNoTier]의 스웨일 강 주변 지역은 납 광업의 지역 중심지였습니다. 최근 이 지역에서 납 수요가 증가하면서 납 산업이 경제적 호황을 누리고 있습니다." # e111c5478b2475222f40182ed82e47ceca64dd9b
-	yorkshire.0109.a: "좋아요, 좋아요." # 4a58b48c57238bda889fe4ba4c9a4a443c314895
-	yorkshire.0110.t: "페니 헤지" # 73dddb3abb430d1d047cf21abf54be09f618b493
-	yorkshire.0110.desc: "[whitby_barony.GetNameNoTier]의 지역 전설에 따르면, 이 마을의 전통 중 하나인 #bold 페니 헤지#!에 대한 이야기가 전해져 옵니다. 전설에 따르면, 세 명의 지역 귀족이 멧돼지를 쫓아 인근 숲에서 사냥을 하고 있었습니다. 멧돼지는 친절한 은둔자의 거처로 들어갔고, 은둔자는 사냥꾼들이 지나가는 것을 허락하지 않았습니다. 사냥꾼들은 살육욕에 불타올라 은둔자가 자신들의 앞길을 막은 것에 분노하여 은둔자를 죽였습니다. 사냥꾼들은 격렬한 감정 속에서 저지른 행동에 경악했습니다. 은둔자는 죽어가면서 그들에게 [ROOT.Char.GetFaith.HighGodName]께서 그들과 그들의 후손들이 매년 의식을 행한다면 그들의 죄를 용서해 주실 것이라고 말했습니다.\n\n그 이후로, 휘트비 사람들은 매년 말뚝을 엮어 짧은 울타리를 만드는 의식을 거행합니다. 그들은 에스크 강을 따라 큰 의식을 치르며 울타리를 세우고, 울타리가 세 번의 조수를 견뎌내야 합니다." # c21e8e9e802b1647b9458e0d16f9a7424fba2291
-	yorkshire.0110.a: "재미있는 이야기이긴 하지만, 실제로 일어난 일이라고는 생각되지 않아요." # d2957276ec2a929c54c557993da2322df24926e1
-	yorkshire.0110.b: "도덕적인 이야기이며, [whitby_barony.GetNameNoTier]의 사람들이 그것을 기억하는 것은 좋은 일입니다." # 0b2385dbb51fdfd8489144d8dfd73abb2c4f04cd
-	yorkshire.0111.t: "암소와 송아지" # ba53d6356961ce83301f0a6a06fb69fdab954fd9
-	yorkshire.0111.desc: "저는 [west_riding_county.GetNameNoTier]를 지나가고 있는데, 특히 #bold 일클리 무어#!로 알려진 지역을 지나고 있습니다. 그곳에는 '암소와 송아지'를 닮았다 하여 현지인들이 그렇게 부르는 거대한 암석 지형이 있습니다. 지역 전설에 따르면, 그 두 바위는 예전에 하나였으나 한때 요크셔에 살았던 거인 롬볼트가 그의 아내이자 적의 분노를 피해 도망치던 중 쫓기다가 실수로 바위를 밟아 두 개로 갈라졌다고 합니다.\n\n어쨌든, 매우 아름다운 광경이며, 바위들은 나머지 풀과 하늘을 배경으로 매우 우아하게 자리 잡고 있습니다." # 1878b50ae061ca8c3a367a408fe8ed50febc4a11
-	yorkshire.0111.a: "자연에 이런 경이로움이 존재하다니!" # f787a80debd4a4f8018cb6e6a7ee194478cd9d4e
-	yorkshire.0112.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0112.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0112.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0113.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0113.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0113.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0114.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0114.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0114.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0115.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0115.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0115.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0116.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0116.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0116.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0117.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0117.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0117.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0118.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0118.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0118.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0119.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0119.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0119.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0120.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0120.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0120.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0121.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0121.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0121.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0122.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0122.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0122.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0123.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0123.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0123.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0124.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0124.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0124.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0125.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0125.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0125.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0126.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0126.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0126.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0127.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0127.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0127.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0128.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0128.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0128.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0129.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0129.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0129.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0130.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0130.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0130.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0131.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0131.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0131.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0132.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0132.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0132.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0133.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0133.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0133.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0134.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0134.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0134.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0135.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0135.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0135.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0136.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0136.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0136.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0137.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0137.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0137.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0138.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0138.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0138.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0139.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0139.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0139.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0140.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0140.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0140.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0141.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0141.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0141.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0142.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0142.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0142.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0143.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0143.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0143.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0144.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0144.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0144.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0145.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0145.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0145.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0146.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0146.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0146.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0147.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0147.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0147.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0148.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0148.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0148.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0149.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0149.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0149.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0150.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0150.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0150.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0151.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0151.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0151.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0152.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0152.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0152.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0153.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0153.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0153.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0154.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0154.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0154.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0155.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0155.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0155.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0156.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0156.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0156.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0157.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0157.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0157.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0158.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0158.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0158.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0159.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0159.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0159.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0160.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0160.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0160.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0161.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0161.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0161.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0162.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0162.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0162.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0163.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0163.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0163.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0164.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0164.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0164.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0165.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0165.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0165.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0166.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0166.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0166.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0167.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0167.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0167.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0168.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0168.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0168.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0169.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0169.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0169.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0170.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0170.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0170.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0171.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0171.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0171.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0172.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0172.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0172.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0173.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0173.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0173.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0174.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0174.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0174.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0175.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0175.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0175.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0176.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0176.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0176.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0177.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0177.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0177.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0178.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0178.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0178.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0179.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0179.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0179.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0180.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0180.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0180.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0181.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0181.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0181.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0182.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0182.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0182.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0183.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0183.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0183.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0184.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0184.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0184.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0185.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0185.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0185.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0186.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0186.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0186.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0187.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0187.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0187.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0188.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0188.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0188.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0189.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0189.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0189.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0190.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0190.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0190.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0191.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0191.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0191.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0192.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0192.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0192.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0193.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0193.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0193.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0194.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0194.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0194.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0195.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0195.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0195.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0196.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0196.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0196.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0197.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0197.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0197.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0198.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0198.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0198.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0199.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0199.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-	yorkshire.0199.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICE_decision_norman_culture_requirement: "당신의 [culture|E]는 노르만 문화에서 파생되었거나 혼합되었습니다." # bb1f13d5912d77503d5ad35004238b8294227616
+  dynn_RICE_beverley: "베벌리" # d2119c171cd8e8899d77aa43be93f2b0c4c8a248
+  Hulno: "훌노" # 0ff12bb9e5334d2f8e79833011fe42a69a8035ce
+  game_concept_john_of_beverley: "존 오브 베벌리" # e40824267ae92184232d0bc4fa51ff3381ff7a5b
+  game_concept_bishop_john: "주교 요한" # cdedc99ca7ad56d8eb85bce290ecc2bae5833c08
+  game_concept_saint_john_of_beverley_short: "성 요한" # e36c1a1cc38ebca87cc50fb06217115ec855fbd1
+  game_concept_saint_john_of_beverley: "베벌리의 성 요한" # 081b217729b4b2d41d3d4c8144b2ac99182f3fec
+  game_concept_saint_john_of_beverley_desc: "$game_concept_saint_john_of_beverley$는 8세기 초 요크의 주교였으며, 역사적으로 1037년에 시성되어 중세 잉글랜드에서 널리 존경받는 성인이었습니다.\n\n867년 책갈피에서 성 요한은 아직 시성되지 않았습니다. 그렇게 되려면 먼저 [군주|E]가 그에게 #V 경의를 표하는#! [결정|E]을 내려야 합니다. 그로부터 100년 후, 다른 [군주|E]가 #V 그의 시성을 확보하는#! [결정|E]을 내릴 수 있습니다.\n\n성 요한이 시성된 후 또는 1066년 책갈피에서 시작하는 경우, 해당 지역의 [군주|E]는 그에게 경의를 표하기 위해 #V 베벌리로 순례를 떠나는#! [결정|E]을 내릴 수 있습니다. #V 이스트 라이딩#!의 [군주|E]인 [왕|E] 또는 [황제|E]가 이것을 한 번 이상 수행하면 평생 한 번만 취할 수 있지만 강력한 군사 [캐릭터_모디파이어|E]를 부여하는 #V 성 요한의 깃발을 빌리는#! [결정|E]에 접근할 수 있습니다. 이전에 같은 순례를 두 번 이상 가면 보너스가 훨씬 더 강력해집니다." # 19d26abb5424d6d1f39acc07a1c16062f8388710
+  game_concept_charter_fair: "헌장 박람회" # 5eab19233f6292f07798c0f7046488070bb3c89d
+  game_concept_charter_fairs: "헌장 시장" # 8c3865a38f7de8cbaf2f9f05257ea250d4d77a28
+  game_concept_charter_fair_desc: "중세 영국에서 $game_concept_charter_fair$는 일부 정착지에 부여된 중요한 특권이었습니다. 게임 내에서 [decision|E]를 통해 이 특권을 부여받을 수 있는 여러 정착지가 있으며, 이는 경제를 증진시키는 적절한 [county_modifiers|E]를 제공합니다. 스탬퍼드, 보스턴, 윈체스터, 노샘프턴, 스토어브리지(캠브리지), 스카보로가 있습니다.\n\n첫 네 정착지는 역사적으로 가장 중요한 장터 중 일부였기 때문에 서로 연결되어 있습니다. 네 곳 모두의 장터 헌장이 부여되면 [county_modifiers|E]를 업그레이드한 후 특별 이벤트가 발생합니다. 또한 스토어브리지(캠브리지)와 스카보로(가곡 스카보로 페어의 영감을 준 유명한 장터)에도 헌장을 부여할 수 있습니다.\n\n헌장은 [duke|E] 이상의 지위를 가진 경우에만 부여할 수 있습니다. 하지만 [king|E] 또는 [emperor|E]인 경우 요구 사항이 훨씬 쉬워집니다. 만약 더 낮은 [rank|E]라면 [king|E] 또는 [emperor|E]의 영역에 있어야 하고, 헌장을 요청하기 위해 [top_liege|E]에게 상당한 양의 [prestige|E]를 지불해야 합니다." # f75963625d5f0a24d6bcd3fbb7f05e31e466c239
+  RICE_yorkshire_stamford_bull_run_host_memory: "[GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참여했습니다" # c0c30ba09dd22aca9f64329e8c5139cfe41ff98a
+  RICE_yorkshire_stamford_bull_run_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다" # 7bdd1274d0d86adcc78591065c50f81659936099
+  RICE_yorkshire_stamford_bull_run_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참여했습니다" # d1f94a286aa16d28a40078d62562cced0030a001
+  RICE_yorkshire_stamford_bull_run_host_memory_third_perspective: "[owner.GetName]이(가) [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다." # c455b6d7e66175df33cb303cf8cd5b942846d188
+  RICE_yorkshire_stamford_bull_run_guest_memory: "[GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 [host.GetTitledFirstName]와 함께 참석했습니다." # b54edafef7229b069bd956b049a55c768b9a3225
+  RICE_yorkshire_stamford_bull_run_guest_memory_first_perspective: "[host.GetTitledFirstName]님과 함께 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다." # d1c4d6ef79b0351d3eba2a09a396b172946ccb8f
+  RICE_yorkshire_stamford_bull_run_guest_memory_second_perspective: "[host.GetTitledFirstName]님과 함께 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다" # b5dc1889a2e54c0eadfeb4c624ba4bf7de493223
+  RICE_yorkshire_stamford_bull_run_guest_memory_third_perspective: "[owner.GetName]이(가) [host.GetTitledFirstName]와(과) 함께 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다." # d9503ce0302fe420d4d439648732c0a14f15ea48
+  RICE_yorkshire_beverley_pilgrimage_host_memory: "[GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 나섰습니다" # 81c08264ee86b4671c24826fdfc6e1b36751638b
+  RICE_yorkshire_beverley_pilgrimage_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 갔습니다" # dd0e30fa5e78316cc2055b22bed9b17446e243b6
+  RICE_yorkshire_beverley_pilgrimage_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName] 순례를 다녀왔습니다" # 40778d43a1d0688e9d0e1c525d21bf81f0fe9b60
+  RICE_yorkshire_beverley_pilgrimage_host_memory_third_perspective: "[owner.GetName] 님이 [GetActivityType(  'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]을 떠났습니다" # 1cf1551263f9a4ae1b6b2cc0e2aa9ed67d995d82
+  RICE_yorkshire_beverley_pilgrimage_guest_memory: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 참여했습니다" # 294bbcd011dd6281727b78a99dacff89c0025f9f
+  RICE_yorkshire_beverley_pilgrimage_guest_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 [host.GetTitledFirstName]와 함께 다녀왔습니다." # f7ca88f15e4419b884a180df34b3105fcc2b15b9
+  RICE_yorkshire_beverley_pilgrimage_guest_memory_second_perspective: "[host.GetTitledFirstName]과 함께 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]을 다녀왔습니다" # b98a15c02f4d3c5b021ddca7596a402a6c1694f5
+  RICE_yorkshire_beverley_pilgrimage_guest_memory_third_perspective: "[owner.GetName]이(가) [host.GetTitledFirstName]와(과) 함께 [GetActivityType('activity_RICE_yorkshire_beverley_pilgrimage').GetName]에 참가했습니다." # 9d639c8e1241ae2a668cc9dc2857e974d152c63c
+  activity_RICE_yorkshire_stamford_bull_run_host_an_a: "$host_activity_a$" # a61241acadcc9f0c0c58e8a6756d1532a43a0ac3
+  activity_RICE_yorkshire_stamford_bull_run: "스탬퍼드 불 런" # 59aafe363f5873d6cb4f580ffedf70664259c554
+  activity_RICE_yorkshire_stamford_bull_run_desc: "[GetTitleByKey('b_stamford').GetNameNoTier]의 황소 경주는 악명 높을 정도로 소란스럽고 폭력적인 행사로, 사람들이 마을 거리를 지나 황소를 쫓아가 죽입니다. 더 '교양 있는' 망나니들은 못마땅할 수도 있지만, 모두 다 재미를 위한 것입니다!" # cec3f2e47275a0725df4eee64d6d0a0d12f9f622
+  activity_RICE_yorkshire_stamford_bull_run_selection_tooltip: "스탬퍼드 황소 경주에 참여하십시오.\n\n$RICE_yorkshire_spectate_the_stamford_bull_run_context_tooltip$" # dc2c3528cd8e0d4c37b47d045981eca30ef6ca63
+  activity_RICE_yorkshire_stamford_bull_run_host_desc: "$BULLET_WITH_TAB$[$prestige_i|E]명예[$prestige|E]$\n$BULLET_WITH_TAB$[$stress_loss_i|E]스트레스 감소[$stress|E]$\n$BULLET_WITH_TAB$[GetModifier('RICE_yorkshire_was_at_stamford_bull_run').GetNameWithTooltip] [character_modifier|E]" # 264854c268eebe3c5167cb58f44a96114520f4e4
+  activity_RICE_yorkshire_stamford_bull_run_guest_desc: "\n$BULLET_WITH_TAB$스트레스 [stress|E] 감소 [stress_loss_i|E]" # bc4344010baa7f7dde05243f0a3849932b0ee2c3
+  activity_RICE_yorkshire_stamford_bull_run_destination_selection: "$activity_RICE_yorkshire_stamford_bull_run_province_desc$" # 9c5d366e3500201a61a382cc727fccab1e43c531
+  activity_RICE_yorkshire_stamford_bull_run_guest_help_text: "$activity_RICE_yorkshire_stamford_bull_run$" # 4ed04d403535b41fd9097afc3d25a255a751233a
+  activity_RICE_yorkshire_stamford_bull_run_predicted_cost: "이 방문 비용은 주로 당신의 [income|E]에 따라 결정됩니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
+  activity_RICE_yorkshire_stamford_bull_run_conclusion_desc: "올해의 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]이(가) 막을 내렸습니다. 대중을 즐겁게 하는 데는 오래되고 무분별한 폭력만큼 좋은 것이 없죠!" # 202f22a0942e81c41b1ba62635a24cfc378d241e
+  RICE_yorkshire_stamford_bull_run_chase_phase: "추격" # 0911174c41cf26b831f5dd822376ad256ce92ec0
+  RICE_yorkshire_stamford_bull_run_chase_phase_desc: "선택된 황소는 풀려나 군중에게 미끼로 사용되며, 잡히고 죽어 도살되기 전에 쫓겨다니게 됩니다." # f94cc795df4ac72a482f75cc178eb5751efe282e
+  RICE_yorkshire_stamford_bull_run_bloody_fun_intent_header: "피에 굶주린 재미:" # 99d725142a2d17d4c94d02bb02b1434ce4a68107
+  RICE_yorkshire_stamford_bull_run_bloody_fun_intent: "잔혹한 즐거움" # be3a864a27d94b95534f29760769c930048b9d6d
+  RICE_yorkshire_stamford_bull_run_bloody_fun_intent_desc: "당신은 #italic 결국#! [GetTitleByKey('b_stamford').GetNameNoTier]에 와서 소를 죽이려 하는군요. 신나게 즐겨야 할 겁니다!" # d8adbaf95dd3b48987eda67c6590ba161a9452f6
+  RICE_yorkshire_stamford_bull_run_completed_log_title: "스탬퍼드 황소 경주 참석 완료" # b32d9446dd0805db8dbfd19d1a78eec11735bc24
+  RICE_yorkshire_stamford_bull_run_completed_log: "[CHARACTER.GetShortUIName|U](이)가 스탬퍼드 황소 경주에 참석을 마쳤습니다" # 7ac8c54841cf02be7cf854a8e75b6bbafb916860
+  TRAVEL_NAME_FOR_activity_RICE_yorkshire_stamford_bull_run: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_yorkshire_stamford_bull_run$" # 229effef0064358cabf5ad867a02a8d28c62e92e
+  activity_RICE_yorkshire_beverley_pilgrimage_an_a: "$host_activity_a$" # a61241acadcc9f0c0c58e8a6756d1532a43a0ac3
+  activity_RICE_yorkshire_beverley_pilgrimage: "베벌리 순례" # 66499ba205dcca6acee9869f7ddd97a84ac070c9
+  activity_RICE_yorkshire_beverley_pilgrimage_desc: "[saint_john_of_beverley|E]는 영국에서 가장 인기 있는 성인 중 한 명이며, 많은 순례자들이 요크셔의 비벌리에 모여 그를 숭배합니다. 그를 헌신적으로 섬기는 덕망 있는 통치자들은 힘과 승리를 얻게 될 것이라고 합니다." # 8b2c72b2930e494501db9128e0ae4b0a8bbaf9ea
+  activity_RICE_yorkshire_beverley_pilgrimage_selection_tooltip: "[saint_john_of_beverley|E]를 숭배하기 위해 [local_pilgrimage|E]를 떠납니다.\n\n$RICE_yorkshire_secure_canonization_of_john_of_beverley_context_tooltip$" # 7d05435169287e1c2048015e269593136bdb3105
+  activity_RICE_yorkshire_beverley_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ 이 [local_pilgrimage|E]를 완료하면 [saint_john_of_beverley|E]의 깃발을 빌리는 [decision|E]을 내릴 수 있습니다.\n$BULLET_WITH_TAB$ 이 [local_pilgrimage|E]를 여러 번 수행하면 [saint_john_of_beverley|E]의 깃발을 빌리는 [decision|E]의 효과가 증가합니다." # da22d731e8af412d0e249fc8d4f24e1af0a71395
+  activity_RICE_yorkshire_beverley_pilgrimage_guest_desc: "$activity_RICE_yorkshire_beverley_pilgrimage_host_desc$" # 59d662d568e865fe74966ed3ac2c8e0d7591a9d1
+  activity_RICE_yorkshire_beverley_pilgrimage_destination_selection: "$activity_RICE_yorkshire_beverley_pilgrimage_province_desc$" # 872d854ad349044de5f3c75948565c0a1532055d
+  activity_RICE_yorkshire_beverley_pilgrimage_guest_help_text: "$activity_RICE_yorkshire_beverley_pilgrimage$" # 2afc815cf179fd7d83b46567cda822ca716ba679
+  activity_RICE_yorkshire_beverley_pilgrimage_predicted_cost: "베벌리로 향하는 [local_pilgrimage|E]의 비용은 선택한 [activity_options|E]에 따라 달라집니다." # 691e0553c61d98101e466917aa6c5bd46ced2147
+  activity_RICE_yorkshire_beverley_pilgrimage_conclusion_desc: "저희의 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]이(가) 끝났습니다. [saint_john_of_beverley|E]을(를) 숭배할 기회를 얻어 좋았습니다." # 120bcb855f700338331025b2d7fa5bfa1310e022
+  RICE_yorkshire_beverley_pilgrimage_completed_log_title: "베벌리 순례 완료" # 1bd94ae7fbcde70e63d9f78a83a4bc44aff63816
+  RICE_yorkshire_beverley_pilgrimage_completed_log: "[CHARACTER.GetShortUIName|U](이)가 베벌리로 [local_pilgrimage|E](을)를 완료했습니다." # ca74ab342134fc51782503b125803034488280c3
+  RICE_yorkshire_beverley_pilgrimage_banner_inspiration_log_title: "성 요한의 깃발에서 영감을 받았습니다" # 7a8cff2210d5f39dfe6db7be861429c5c6de54c5
+  RICE_yorkshire_beverley_pilgrimage_banner_inspiration_log: "[CHARACTER.GetShortUIName|U]은(는) [saint_john_of_beverley|E]의 깃발에서 영감을 받았습니다." # 46dc00145203cad89b2536b7c73b9523d4e3b3aa
+  TRAVEL_NAME_FOR_activity_RICE_yorkshire_beverley_pilgrimage: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_yorkshire_beverley_pilgrimage$" # e8b22f90991de6c4ff57d2774737e2792d7221ce
+  activity_RICE_yorkshire_beverley_pilgrimage_owner: "순례자" # fa90e82f429f333a1ff48c9130132abed1504929
+  building_type_RICE_yorkshire_foss_dyke: "포스 둑" # 8278fc6a6ff1b862959cbee5d1480483e59651b1
+  building_type_RICE_yorkshire_foss_dyke_desc: "포스 다이크는 영국 제도에서 여전히 운영 중인 가장 오래된 운하 중 하나이며, 로마 시대로 거슬러 올라갈 수도 있습니다. 포스 다이크는 톡세이의 트렌트 강과 링컨 정착지를 연결합니다." # 71598d0b494bf4c7b47a2d8188764dc9638e446a
+  building_RICE_yorkshire_foss_dyke: "$building_type_RICE_yorkshire_foss_dyke$" # 915daac240b3b73f9c3d46d17d72e98dbf43afe2
+  building_RICE_yorkshire_foss_dyke_desc: "$building_type_RICE_yorkshire_foss_dyke_desc$" # e0b81df72330fefffc5b493d200661e8d82ecaec
+  building_type_RICE_yorkshire_humber_ferry: "험버 연락망" # 03b298564ed4c18ee88901e171121fbaeaf5c7f7
+  building_type_RICE_yorkshire_humber_ferry_desc: "험버는 링컨셔와 요크셔를 가르는 큰 강어귀입니다. 여러 정착지에 이 수역을 가로지르는 연락선을 운행할 권한이 부여되었으며, 이는 잉글랜드 남부에서 요크셔로 가는 주요 경로 중 하나 역할을 합니다." # 227c0ec0b8a02fa4d52a6b71ad58ff8247bdb260
+  building_RICE_yorkshire_humber_ferry: "$building_type_RICE_yorkshire_humber_ferry$" # 1969b0d2759810259534029da2e0acac57ede36f
+  building_RICE_yorkshire_humber_ferry_desc: "$building_type_RICE_yorkshire_humber_ferry_desc$" # 8229a2d0240012e2ce65f4abc5cbd5d032a261df
+  building_type_RICE_english_wool_industry_01: "영국 양모 산업" # 984c54e9f5800ac409fe574ec8138d4333af0503
+  building_type_RICE_english_wool_industry_01_desc: "양모는 잉글랜드 중세 경제의 근간이자 원동력입니다." # c00567fd988b0826678e230599e51721330a3717
+  building_RICE_english_wool_industry_01: "양털 목초지" # bb6a463a3b80ff6f0e16f0f04defbcf03dd2187f
+  building_RICE_english_wool_industry_01_desc: "대륙 유럽에서 양모 수요가 증가함에 따라 자급자족 수준의 양모 생산이 점차 현지 및 외국 상인들의 투자를 지원받는 중앙 집중식 산업으로 바뀌고 있습니다." # e7a1b24fcb6f31f8f5ad1d5f72387da6703a9634
+  building_RICE_english_wool_industry_02: "양모 시장" # 76b45a3ea5e83049fc337f63d497d32764abf2a4
+  building_RICE_english_wool_industry_02_desc: "해당 지역에서는 국가의 지원을 받아 양모 산업이 계속 번성하고 있습니다. 지역 도시 중심지에서는 양모를 가공하여 유럽의 다른 지역으로 수출할 준비를 합니다." # 04605c5c6eb5889068fc68c566d9b084afbd0ed7
+  building_RICE_english_wool_industry_03: "양모 교역소" # c6de47d8f7ebe97b41f531d2634aa089c9afac47
+  building_RICE_english_wool_industry_03_desc: "이 지역은 영국 제도에서 주요한 대규모 양모 산업 중심지 중 하나입니다. 상인들이 각지에서 몰려와 사업을 벌이고 막대한 이익을 내어 지역에 큰 번영과 부를 가져다줍니다." # 82fac4c705d35a24dee43029340357698305c95c
+  RICE_yorkshire_scarborough_fair_modifier: "스카버러 시장" # 3570f07b4c6702003d008b54480e362812108f73
+  RICE_yorkshire_scarborough_fair_modifier_desc: "스카보로 해변 마을은 최근 8월과 9월에 거래 박람회를 개최할 수 있는 특허를 받았습니다. 영국 제도에서 가장 큰 박람회는 아니지만, 이는 분명히 수년 동안 지역 경제와 문화에 긍정적인 영향을 미칠 것입니다.\n\n#italic 스카보로 박람회에 가시겠습니까?#!\n#italic 깻잎, 세이지, 로즈마리 그리고 꿀풀#!\n#italic 거기 사는 사람에게 내 생각 전해주세요#!\n#italic 그/그녀는 한때 나의 진정한 사랑이었지요#!" # 7806c0a42f8916587368c93acf314577817261e1
+  RICE_yorkshire_scarborough_fair_patron: "스카버러에 박람회 개최를 위한 헌장 수여" # ab28ced7d0cc321a369cc2e2a095f17426812352
+  RICE_yorkshire_scarborough_fair_patron_desc: "#italic 스카보로우 박람회에 가시겠습니까?#!\n#italic 딜, 샐비어, 로즈마리와 백리향#!\n#italic 거기에 사는 사람에게 저를 기억해 달라고 전해 주십시오#!\n#italic 그는/그녀는 한때 제 진정한 사랑이었습니다#!" # b94a1478272fb7bd3c61a2e3a7e2e2c2668d5f56
+  RICE_yorkshire_john_of_beverley_blessing: "비벌리의 주교 존이 축복함" # 278faa7556ce59ffb304196d099bab73b4f2a50a
+  RICE_yorkshire_john_of_beverley_blessing_desc: "그들은 이 영주 또는 여인이 요크셔에서 특별히 숭배받는 8세기 영국 주교인 베벌리의 존에게 축복을 받았으며, 일부 군사적 성공은 존 주교의 영혼의 개입 덕분이라고 말합니다." # 1f1cad741c39d8097a25e8c04afdd2a03d5292e7
+  RICE_yorkshire_beverley_sanctuary_timer: "최근에 지어진 존 주교의 성소" # 3a8d0ee3b95c08530dee9c3d2abc85b7f17df6c9
+  RICE_yorkshire_beverley_sanctuary_timer_desc: "베벌리 주교 존의 숭배가 날마다 커지고 있으며, 지역 지도자가 베벌리에 있는 그의 무덤 주변에 상당한 규모의 성소 건설을 도왔습니다. 이는 의심할 여지 없이 마을의 영적 명성과 경제에 유리하게 작용할 것입니다. 존 오브 베벌리가 성인으로 인정받는 것은 시간문제라고 말하는 사람들도 있습니다." # decaa81532da08e0c4343494ae8464fb0b016035
+  RICE_yorkshire_saint_john_banner_inspired: "성 요한 벨베리의 기치에 영감을 받아" # c4dd814b6770d9da11c462688eba9de6319d30d0
+  RICE_yorkshire_saint_johns_banner_1: "성 요한의 깃발 (1)" # ff241f86ca4b377e68cb15338c14509a0d21443f
+  RICE_yorkshire_saint_johns_banner_1_desc: "이 통치자는 현재 일반적으로 베벌리의 성소에 보관되어 있는 베벌리의 성 요한의 깃발을 빌리고 있습니다. 많은 사람들이 이 깃발을 휘두르는 자에게 영광스러운 승리를 가져다준다고 알려져 있기에 위대하고 신성한 힘을 가졌다고 여겨 왔습니다." # 5211321ea6e0e11d5e029022a245c6483bc2aa08
+  RICE_yorkshire_saint_johns_banner_2: "성 요한의 깃발 (2)" # f9140243a0989127da39dc43b189dabf1725a23a
+  RICE_yorkshire_saint_johns_banner_2_desc: "$RICE_yorkshire_saint_johns_banner_1_desc$" # a3ba065a135cfde882bd897c98342c1670bf4577
+  RICE_yorkshire_saint_johns_banner_3: "성 요한의 깃발 (3)" # bd925a34b169e1073011c1e5d115460922a604e2
+  RICE_yorkshire_saint_johns_banner_3_desc: "$RICE_yorkshire_saint_johns_banner_1_desc$" # a3ba065a135cfde882bd897c98342c1670bf4577
+  RICE_yorkshire_saint_johns_banner_4: "성 요한의 깃발 (4)" # 62ec538bbe702ee444c687e8618c54052b97965a
+  RICE_yorkshire_saint_johns_banner_4_desc: "$RICE_yorkshire_saint_johns_banner_1_desc$" # a3ba065a135cfde882bd897c98342c1670bf4577
+  RICE_yorkshire_charter_fair_stamford: "스탬퍼드의 정기 시장" # 5b634cf360c05e7baddd6e31afd439aed6133ca7
+  RICE_yorkshire_charter_fair_stamford_desc: "사순절 기간에 열리는 스탬퍼드 박람회는 잉글랜드에서 가장 큰 무역 박람회 중 하나이며, 이 지역에 많은 무역과 번영을 가져다줍니다." # 090335935295d841ea53c7d1c16a88cc03bcc0c7
+  RICE_yorkshire_charter_fair_boston: "보스턴 헌장 박람회" # 1154dfd45a4c5560821f58fdb8a4f931e9a99b50
+  RICE_yorkshire_charter_fair_boston_desc: "7월에 열리는 보스턴 박람회는 잉글랜드에서 가장 큰 무역 박람회 중 하나이며, 이 지역에 많은 무역과 번영을 가져다줍니다." # 9d53969e380babf357375cecf35f2a8c390a916c
+  RICE_yorkshire_charter_fair_winchester: "윈체스터의 헌장 박람회" # 3cac52cd402f143d74800ed50364c0a94d02df9f
+  RICE_yorkshire_charter_fair_winchester_desc: "9월에 열리는 윈체스터 박람회는 잉글랜드에서 가장 큰 무역 박람회 중 하나이며, 이 지역에 많은 무역과 번영을 가져다줍니다." # ab05f6a3bd293bb92e6f198ec3312a47adcacc5c
+  RICE_yorkshire_charter_fair_northampton: "노샘프턴의 특허 장터" # 9115d9e9326b9a2381c6eb1f636fde92c0ed7591
+  RICE_yorkshire_charter_fair_northampton_desc: "11월에 열리는 노샘프턴 박람회는 잉글랜드에서 가장 큰 무역 박람회 중 하나이며, 이 지역에 많은 무역과 번영을 가져다줍니다." # ff0e5d07c5e5d9e300f4497e24a38c5d1af25ad7
+  RICE_yorkshire_charter_fair_stamford_upgraded: "스탬포드 대장터 박람회" # 7351ef008b15f473f11425f10080b66fc6476657
+  RICE_yorkshire_charter_fair_stamford_upgraded_desc: "사순절에 열리는 스탬퍼드 장터는 잉글랜드에서 가장 중요한 교역 시장 중 하나이며, 이 지역에 많은 교역과 번영을 가져다줍니다. 이 장터는 보스턴, 윈체스터, 노샘프턴 장터를 포함한 다른 주요 장터들과 일련의 순서를 이룹니다." # bd5cc04a12ec8796777c3b078aa710708add1ac2
+  RICE_yorkshire_charter_fair_boston_upgraded: "보스턴의 대헌장 박람회" # c96a539fe3a1fb4434439427fa7d7e1375d9ed79
+  RICE_yorkshire_charter_fair_boston_upgraded_desc: "7월에 열리는 보스턴 박람회는 잉글랜드에서 가장 중요한 무역 박람회 중 하나로, 이 지역에 많은 무역과 번영을 가져다줍니다. 이 박람회는 스탬퍼드, 윈체스터, 노샘프턴 박람회를 포함한 다른 대규모 박람회와 함께 일련의 순서를 형성합니다." # 0baff1f46aea2ce56ab1c665e95b38938ca1a654
+  RICE_yorkshire_charter_fair_winchester_upgraded: "윈체스터 대헌장 박람회" # 7d4755bce6824e0413a6432fbe69031fb4e57a1d
+  RICE_yorkshire_charter_fair_winchester_upgraded_desc: "9월에 열리는 윈체스터 박람회는 잉글랜드에서 가장 중요한 무역 박람회 중 하나이며, 이 지역에 많은 무역과 번영을 가져다줍니다. 이는 스탬퍼드, 보스턴, 노샘프턴과 같은 다른 주요 박람회들과 함께 일련의 순서를 이룹니다." # a11b765362ab8e6c6acad10489a7f30cc86ee5b3
+  RICE_yorkshire_charter_fair_northampton_upgraded: "노샘프턴 대헌장 박람회" # 2b132309d928c541997723d5162a9d963657834f
+  RICE_yorkshire_charter_fair_northampton_upgraded_desc: "11월에 열리는 노샘프턴 박람회는 잉글랜드에서 가장 중요한 무역 박람회 중 하나로, 이 지역에 많은 무역과 번영을 가져다줍니다. 이 박람회는 스탬퍼드, 보스턴, 윈체스터 박람회를 포함한 다른 주요 박람회와 순차적인 관계를 형성합니다." # 96ec1969812ef7741eaac06f6d09b32b427b3247
+  RICE_yorkshire_charter_fair_stourbridge: "스토어브리지 박람회" # f6a1ac1925803e6aeee724f5fc57bd91a38e0b98
+  RICE_yorkshire_charter_fair_stourbridge_desc: "케임브리지 마을이 스토어브리지 공동지를 따라 장을 열 권리를 부여받았습니다. 이곳은 유럽에서 가장 큰 장 중 하나가 되어, 이 지역에 많은 부와 명성을 가져다주고 있습니다." # 4dcd2dbd90c24cfe0c63dd13f4aaa71696484df4
+  RICE_yorkshire_recently_granted_grand_charter_fair: "최근에 특허 박람회 권한을 부여받았습니다" # 33c0034fe3f102379af15a4caba354e06132d882
+  RICE_yorkshire_recently_granted_grand_charter_fair_desc: "이 통치자는 최근 잉글랜드의 한 정착지에 대헌장 박람회를 개최할 권리를 부여했거나, 주도적으로 자신의 영주에게 청원하여 성공적으로 허가를 받았습니다." # 07efbb27675b0cbda2d087d1c09052f11b712889
+  RICE_yorkshire_participated_in_stamford_bull_run: "스탬퍼드 황소 달리기에 직접 참여했습니다." # fc8183335db27854851741c8d98b624030af0838
+  RICE_yorkshire_was_at_stamford_bull_run: "최근 스탬퍼드 황소 경주에 참석했습니다" # cab5657f14dc327ea1590c96ccee85bc47b2e791
+  RICE_yorkshire_grant_scarborough_fair_charter: "스카버러에게 정기 시장 개최권을 부여합니다" # d7eb2fded1325f87afbba38e4b021193907bade3
+  RICE_yorkshire_grant_scarborough_fair_charter_tooltip: "스카버러는 [charter_fair|E]를 개최할 권리를 부여받아야 합니다" # c4fd6c71135b3ccd61251e1751439b8818f2a1b5
+  RICE_yorkshire_grant_scarborough_fair_charter_desc: "해안 마을 스카버러는 꽤 오랫동안 자체 [charter_fair|E]를 개최할 권리를 요청해 왔습니다. 영국 다른 지역에도 중요한 장터가 많지만, 스카버러 마을에는 특별하고 기억에 남는 무언가가 있습니다." # ff714e797dbcced512b13ab95cae71710edcdbe9
+  RICE_yorkshire_grant_scarborough_fair_charter_confirm: "파슬리, 세이지, 로즈마리, 그리고 백리향...." # d00ac63a0144de6eb87c4c0e7fdd3cb0f16aa857
+  RICE_yorkshire_grant_scarborough_fair_charter_context_tooltip: "#강조 역사적 배경:#! 1253년, 잉글랜드의 헨리 3세 왕은 스카버러 시에 왕실 헌장을 수여하여 많은 특권을 부여했습니다. 이 헌장에는 상업 박람회 개최 권리가 포함되었으며, 1788년까지 지속되었습니다. 영국에서 가장 중요한 박람회는 아니었지만, 유명한 영국 민요, "스카버러 박람회"의 영감을 준 박람회였습니다. 이 노래의 가사는 주인공이 과거 연인에게 스카버러 박람회에서 만나기 위해 일련의 불가능한 과제를 완수하라고 요구하는 내용입니다." # 82bc56d5c5c4544b690662aff54a42768a596b91
+  RICE_yorkshire_pay_homage_to_john_of_beverley: "베벌리의 요한에게 경의를 표하십시오" # b2512c4f1e2b2e5dbc1ecf726aeaefc2c00d933d
+  RICE_yorkshire_pay_homage_to_john_of_beverley_tooltip: "[john_of_beverley|E]의 무덤을 방문해야 합니다" # eabcca0e8c609948a32a0b99a5e3d152364031d0
+  RICE_yorkshire_pay_homage_to_john_of_beverley_desc: "최근 수십 년 동안 요크 주교 [존 오브 버클리|E]의 명성은 경건한 기독교인들 사이에서 높아지고 있습니다. 그의 후원자들에게 군사적 성공을 가져다주었다고 여기는 사람들도 있습니다. 이 인물에게 경의를 표할 뿐만 아니라 버클리에 그의 무덤 주변에 성소를 세우는 것이 좋을지도 모릅니다." # cbb56b18067b94f09560ec0e2780645e7ea01945
+  RICE_yorkshire_pay_homage_to_john_of_beverley_effect_tooltip: "이 [결정|E]이 내려진 후 #V세기#! 후에, [john_of_beverley|E]가 시성될 수 있으며, 이는 #V 요크#! 근처의 기독교 [통치자|E]가 #V 베벌리로 순례를 떠나는#! [결정|E]을 내릴 수 있도록 할 것입니다." # 149494ba95db031a7c60ea738f471af746acedf3
+  RICE_yorkshire_pay_homage_to_john_of_beverley_confirm: "베벌리로 간다!" # 86b503321fa588aad322472d209ddf44e77fb9f8
+  RICE_yorkshire_pay_homage_to_john_of_beverley_context_tooltip: "#emphasis 역사적 배경:#! 요크의 존(존 오브 버비) 주교는 700년대 초반 요크의 주교로 재직했습니다. 그는 후에 뛰어난 중세 영어 성인이 되었지만, 1037년에 시성되기 전에도 이미 그의 신앙 공동체는 상당 기간 활발하게 활동하고 있었습니다. 후기 중세 자료에 따르면, 에텔스탄 왕은 934년에 존 주교의 무덤을 방문했으며, 이후 존의 도움으로 군사적 승리를 거두었다고 합니다. 감사의 표시로 그는 존 주교의 무덤 주위에 성역(성지)을 세웠습니다. 성역 건립은 아마도 점진적인 과정이었겠지만, 이 전설은 존 오브 버비의 영향력과 중요성을 잘 보여줍니다." # 78d004f2e3292c9cb33c79a17406d89d161f20fd
+  RICE_yorkshire_secure_canonization_of_john_of_beverley: "존 오브 베벌리의 안전한 시성" # 7664409d911468afb925538b5989365739dba594
+  RICE_yorkshire_secure_canonization_of_john_of_beverley_tooltip: "[bishop_john|E]을 존경하고 숭배해야 합니다" # a1214fb2c14b2e69dc28aade89fb6991dc830d6d
+  RICE_yorkshire_secure_canonization_of_john_of_beverley_desc: "요크의 고(故) 주교인 [john_of_beverley|E]는 오랫동안 요크 주변에 거주하는 사람들에게 수호자이자 영적 지도자로 존경받았습니다. 우리는 지역 성직자들과 협력하여 교회 당국에 그의 공식적인 시성을 추진해야 합니다." # c6bf475b74a76bbd3ff8ed27e3006f1557ea4270
+  RICE_yorkshire_secure_canonization_of_john_of_beverley_effect_tooltip: "#V 요크# 근처의 기독교 [통치자|E]는 이제 #V 베벌리로 순례를 떠나는# [결정|E]을 내릴 수 있습니다." # fd7016910bd851415fda83188573d85ac1b23c4e
+  RICE_yorkshire_secure_canonization_of_john_of_beverley_confirm: "옳은 일입니다." # cd8976068b62fdf9f9c5ec626cd534d00e3a2e81
+  RICE_yorkshire_secure_canonization_of_john_of_beverley_context_tooltip: "#강조 역사적 배경:#! 요크 주교 존 오브 베버리(John of Beverley)는 700년대 초반에 활동했습니다. 1037년 성인으로 추봉된 그는 중세 시대 영국의 가장 저명한 성인 중 한 명으로 여겨집니다. 여러 영국 왕들이 그의 신앙을 지지했는데, 예를 들어 헨리 5세는 아쟁쿠르 전투 승리를 존의 개입 덕분이라고 여겼습니다. 성인 존은 베버리에 강력한 수호신으로서, 중세 시대에 베버리의 정치적 특권과 경제 성장에 큰 도움을 주었습니다." # 9b3ba0e66d3d9ec0f5a10db233c573ab9aad7d06
+  RICE_yorkshire_beverley_century_passed_req: "[bishop_john|E]의 무덤 주변의 성소가 건설된 지 적어도 #V 세기#!가 지났습니다." # 0bbe2224118b93c3884afd4def13f6756ef4ba31
+  RICE_yorkshire_go_on_a_pilgrimage_to_beverley: "베벌리로 순례를 떠나십시오" # 4779927959d82cb9851fcea4421590fc1edc69c4
+  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_tooltip: "[saint_john_of_beverley|E]에게 경의를 표할 시간입니다!" # 29a4712b281228e3486bc34f2f64d1c034276376
+  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_desc: "[saint_john_of_beverley|E]께 경의를 표하기 위해 순례를 떠나고 싶습니다. 그에게 헌신한 덕이 있는 통치자들은 힘과 승리를 축복받는다고 합니다." # d00e84e11203278bdb467fe77fb2df13c1d84c96
+  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_confirm: "준비합시다!" # 87add30b92fc70b3debe3c01f4c8fcfd9d5045f2
+  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_effect_tooltip: "이 순례를 완료하면 다른 요구 사항을 충족하는 한 #V 베벌리의 성 요한의 깃발 빌리기#! [decision|E] 결정을 내릴 수 있습니다." # adbce83ccd2182e21c2d50b72dae291055bbaf8d
+  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_effect_2_tooltip: "이 순례를 여러 번 가면 [결정|E] '#V 성 베벌리의 성 요한의 깃발 빌리기#!'의 혜택이 증가합니다." # f1dc020bf1362d022e6f407a18b4cd47f8307c01
+  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_context_tooltip: "$RICE_yorkshire_secure_canonization_of_john_of_beverley_context_tooltip$" # fa631602b9b1cdedf4446165e3ebaf4c6ffbab89
+  RICE_yorkshire_beverley_pilgrimage_distance_req: "[realm_capital|E]는 #V 벌리#에 가깝습니다." # 69a1266dad568d22633dd6793af903a7f7321c94
+  RICE_yorkshire_beverley_pilgrimage_english_culture_req: "[realm_capital|E]은 브리튼 제도, 프랑스 또는 저지대에 있습니다." # 957f298d3b5c6955d748fbf9d76453eba7523493
+  RICE_yorkshire_borrow_banner_of_saint_john: "성 요한의 깃발을 빌리십시오" # 67bf3cf0ad938485b42d2969c9eba5409dcdc2d0
+  RICE_yorkshire_borrow_banner_of_saint_john_tooltip: "[saint_john_of_beverley_short|E]의 깃발은 그것을 휘두르는 자에게 강력한 유물입니다" # b17aac026eb8de548dfc817db76500fa7d280ff8
+  RICE_yorkshire_borrow_banner_of_saint_john_desc: "[saint_john_of_beverley|E]의 깃발은 소지자에게 강력한 군사력을 부여한다고 합니다. 저는 그 깃발을 들 자격이 있습니다. 세속적인 권력이나 그런 종류의 것을 탐내서가 아니라, [ROOT.Char.GetFaith.GetAdjective] 교회의 적들을 쳐부수기 위해서입니다." # 2d4d228e5fd884da6618220998cb5246103d6e59
+  RICE_yorkshire_borrow_banner_of_saint_john_effect_tooltip: "[character_modifier|E]의 강도는 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]를 몇 번 갔는지에 따라 달라집니다." # 31c22afce450168b68b1ec7baded13515ddafaf2
+  RICE_yorkshire_borrow_banner_of_saint_john_effect_2_tooltip: "#X 이 결정은 평생 단 한 번만 내릴 수 있습니다.  신중하게 사용 시기를 고려하십시오!#!" # 4f38de526459d2aa1159fe4de23e5346954a4e93
+  RICE_yorkshire_st_john_banner_not_taken_req: "현재 [saint_john_of_beverley_short|E]의 깃발을 빌린 사람은 없습니다" # 5f27f178530ce816c348d18a84698d4dcff10ec5
+  RICE_yorkshire_st_john_banner_pilgrimage_req: "적어도 한 번 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 참여했습니다." # 5493d3ebcde9b7617ad41e318292cbe8f2c47a16
+  RICE_yorkshire_st_john_banner_east_riding_req: "귀하 또는 모든 봉신이 이스트라이딩 [county|E] 소유하고 있습니다" # 6a5a4e5c2ef4555c01a315cdcc0a856633add694
+  RICE_yorkshire_borrow_banner_of_saint_john_confirm: "[ROOT.Char.GetFaith.HighGodName]의 이름으로 깃발을 휘두르리라!" # 2a350e2f86bfa443c93e411f5823ed3e724592e9
+  RICE_yorkshire_borrow_banner_of_saint_john_context_tooltip: "#emphasis 역사적 배경:#! 성 요한의 기치는 중세 시대 영국 지도자들에 의해 여러 차례 휘둘러졌습니다. 예를 들어, 에드워드 1세는 1296년과 1300년의 스코틀랜드 원정에 이 기치를 함께 가지고 있었습니다. 수세기 동안의 이러한 다양한 군사적 성공은 성인의 명성을 더욱 굳히는 데 기여했습니다." # 450b3b8f7b7ac81fc06bffc9bbcb7be4beace980
+  RICE_yorkshire_borrow_banner_req: "현재 깃발은 다른 [ruler|E]의 소유가 아닙니다" # dcdb5f431d922ec4403ddf021346205e19014bea
+  RICE_yorkshire_spectate_the_stamford_bull_run: "스탬퍼드 황소 경주 참관" # e8fde6fbcebcc54b127349cd7b8d106b840db950
+  RICE_yorkshire_spectate_the_stamford_bull_run_tooltip: "스탬퍼드에서 매년 열리는 황소 경주를 방문하십시오" # e4753a2ee5abeab03d8fc80157e4421b7c011560
+  RICE_yorkshire_spectate_the_stamford_bull_run_desc: "스탬퍼드의 황소 경주는 재미있는 행사 같네요! 올해 꼭 참가해서 즐겨봐야겠어요." # ea05e34b324b4333a4b05176e2dd9a6af208fa0b
+  RICE_yorkshire_spectate_the_stamford_bull_run_effect_tooltip: "[bull_run_stamford.GetNameNoTier]를 방문하여 스릴 넘치는 (그리고 떠들썩한) 재미를 즐겼습니다" # 668966b3cfc1980ca16dda1d6ddcbfd55211dbcc
+  RICE_decision_bull_run_month_requirement: "월은 8월에서 10월 사이여야 합니다." # e5627925a13b9bf27e62486651c8f85c3486db04
+  RICE_decision_bull_run_distance_requirement: "[realm_capital|E]는 #V 스탬퍼드#에 가깝습니다." # d58edf0384ab9927abcdf8ccd6a219735ae5512d
+  RICE_yorkshire_spectate_the_stamford_bull_run_confirm: "기대가 됩니다!" # 8ecb20747030a6035064a7ec8db3f84dd60b04bc
+  RICE_yorkshire_spectate_the_stamford_bull_run_context_tooltip: "#강조 역사적 배경:#! 스템포드는 매년 11월 13일에 황소 몰이 축제를 개최했던 것으로 알려져 있습니다. 최초의 명시적인 기록은 1389년으로 거슬러 올라가지만, 그 이전에도 오랫동안 이어져 왔을 가능성이 높습니다. 현지 전설에 따르면, 이 관습은 13세기 초, 한 현지 노르만 영주가 마을의 정육점들이 싸우는 두 황소를 한 암소를 두고 헤어지게 돕는 것을 도왔던 시절에 시작되었다고 합니다. 그는 이 모습을 매우 즐거워했고, 매년 이러한 축제가 재현되기를 제안했습니다. 스템포드에서만 볼 수 있는 축제는 아니었지만, 시끄러운 축제는 청교도 시대를 지나기도 했으며, 결국 1839년 대중적 소란으로 인해 금지되었습니다." # 37eb8af6c4c981ef19ebed159dbf5860a031ece0
+  RICE_yorkshire_charter_fair_granted_recently_req: "당신의 [realm|E]에서 최근에 주요 특허 박람회를 수여하기 위한 [decision|E]을 내린 사람이 없습니다" # 7bdb993742ebc1060d8e45c547a4739b1e59a804
+  RICE_yorkshire_grant_stamford_charter_fair: "스탬퍼드에 정기 시장 개최 권한 부여" # 1e15c257dbae7eb517693e0ff75b6394c793e9db
+  RICE_yorkshire_grant_stamford_charter_fair_tooltip: "스탬퍼드는 [charter_fair|E]를 개최할 권리를 부여받아야 합니다" # ac08636d5873d2910ed8902394079b4f0181e3db
+  RICE_yorkshire_grant_stamford_charter_fair_desc: "#V 스템포드#!는 영국에서 점차 중요하고 영향력 있는 무역 중심지로 자리 잡고 있습니다. 지역 상인들과 유력자들은 도시에 주요 [charter_fair|E] 개최 특권을 부여해 줄 것을 요청하고 있습니다." # 33fc9045f4039f2bca050c765f6da5ec20dbd0f1
+  RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip: "귀하는 [가신|E]에게 이 정착지에 [정기 시장|E]을 개설할 권리를 부여해 달라고 청원하고 기본 비용 외에 상당한 양의 [명성|E]을 추가로 지불할 것입니다." # 6006d8516e553040a048b7c2aabd8b931c5fdf73
+  RICE_yorkshire_grant_stamford_charter_fair_confirm: "완료되었는지 확인하십시오." # 89742759712bde88c3e71b9f26790a0904071766
+  RICE_yorkshire_grant_stamford_charter_fair_context_tooltip: "#강조 역사적 배경:#! 영국에서 왕실 칙령으로 설립된 연례 거리 시장인 칙령 박람회는 중세 시대에 많이 존재했으며, 그 이전에도 선례가 있었을 가능성이 큽니다. 특히 스탬퍼드, 보스턴, 윈체스터, 노샘프턴 등의 칙령 박람회는 매우 유명하여, 서열에 따라 순차적으로 개최되었고, 그 사이에 더 작은 박람회들이 자리 잡았습니다. 샹파뉴 박람회만큼 크지는 않았지만, 영국의 칙령 박람회는 유럽 전역의 많은 상인들을 끌어들였습니다." # ef2b3dfefc42283b78b02a3b0f47aae8f1438e89
+  RICE_yorkshire_grant_boston_charter_fair: "보스턴에 정기 시장 개최 권한 부여" # e9987ab94fe23428e7c631089d5fdf2fa00d6d9e
+  RICE_yorkshire_grant_boston_charter_fair_tooltip: "보스턴은 [charter_fair|E]를 개최할 권리가 주어져야 합니다." # 33d68a7d1fad1453e07ce58b5d04d48fcbd6ac7e
+  RICE_yorkshire_grant_boston_charter_fair_desc: "#V 보스톤#!은 영국에서 점차 중요하고 영향력 있는 무역 중심지로 성장하고 있습니다. 지역 상인들과 유력자들은 이 정착지에 중요한 [charter_fair|E] 개최 특권을 부여해 달라고 요청하고 있습니다." # 682bec79573ac230d024f6635489733f12e6249d
+  RICE_yorkshire_grant_boston_charter_fair_effect_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip$" # cac9b63a7e7ce1738ac2d66cedbcede186b4bf59
+  RICE_yorkshire_grant_boston_charter_fair_confirm: "$RICE_yorkshire_grant_stamford_charter_fair_confirm$" # f871549cd590ae3adacf105ed8bddd0eb7e384fb
+  RICE_yorkshire_grant_boston_charter_fair_context_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_context_tooltip$" # 08cc05e49c03cb6c50383151b4ff44960e47bac7
+  RICE_yorkshire_grant_winchester_charter_fair: "윈체스터에 특허 시장을 허가합니다" # 06e8ced7ecae951e8c0e3dc51f203556d34b5a73
+  RICE_yorkshire_grant_winchester_charter_fair_tooltip: "윈체스터는 [charter_fair|E]를 개최할 권리를 부여받아야 합니다" # 5bec3f2c62d353bb19560f9ffa9a4fad40db380a
+  RICE_yorkshire_grant_winchester_charter_fair_desc: "#V 윈체스터#!는 영국에서 점차 중요해지고 영향력 있는 무역 중심지가 되고 있습니다. 지역 상인들과 유력자들은 이 지역에 주요 [charter_fair|E] 개최 특권을 부여해 달라고 요청하고 있습니다." # 494c8d904fbf588daecd1c58549df5049937bcd5
+  RICE_yorkshire_grant_winchester_charter_fair_effect_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip$" # cac9b63a7e7ce1738ac2d66cedbcede186b4bf59
+  RICE_yorkshire_grant_winchester_charter_fair_confirm: "$RICE_yorkshire_grant_stamford_charter_fair_confirm$" # f871549cd590ae3adacf105ed8bddd0eb7e384fb
+  RICE_yorkshire_grant_winchester_charter_fair_context_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_context_tooltip$" # 08cc05e49c03cb6c50383151b4ff44960e47bac7
+  RICE_yorkshire_grant_northampton_charter_fair: "노샘프턴에 특허장 정기 시장을 허가합니다" # 29dc11a5b600f31508c538eec43819d28971055b
+  RICE_yorkshire_grant_northampton_charter_fair_tooltip: "#V 노샘프턴#!에 [charter_fair|E] 개최 권한이 부여되어야 합니다." # 81a668c9d8d3bafc92318bcd668065a05886a15d
+  RICE_yorkshire_grant_northampton_charter_fair_desc: "노샘프턴은 잉글랜드에서 점점 더 중요하고 영향력 있는 무역 중심지가 되고 있습니다. 지역 상인들과 유지들은 이 정착지에 주요 [charter_fair|E]를 개최할 수 있는 특권을 부여해 줄 것을 요청해 왔습니다." # aa7d79df9966002c29740327ff39a41f8d45282a
+  RICE_yorkshire_grant_northampton_charter_fair_effect_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip$" # cac9b63a7e7ce1738ac2d66cedbcede186b4bf59
+  RICE_yorkshire_grant_northampton_charter_fair_confirm: "$RICE_yorkshire_grant_stamford_charter_fair_confirm$" # f871549cd590ae3adacf105ed8bddd0eb7e384fb
+  RICE_yorkshire_grant_northampton_charter_fair_context_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_context_tooltip$" # 08cc05e49c03cb6c50383151b4ff44960e47bac7
+  RICE_yorkshire_grant_stourbridge_charter_fair: "스토어브리지에 케임브리지 특허 박람회를 허가합니다" # f95c81f560f0075c1c44194f4e0a0e5c716d04b8
+  RICE_yorkshire_grant_stourbridge_charter_fair_tooltip: "케임브리지는 스토어브리지 커먼에서 [charter_fair|E]를 개최할 권한을 부여받아야 합니다" # bcdea5aeb2d7cb3156ccfe507e9c234cacaffa6c
+  RICE_yorkshire_grant_stourbridge_charter_fair_desc: "캠브리지의 정착민들은 스토어브리지 공원을 따라 자체 [charter_fair|E]를 개최할 권리를 오랫동안 요청해 왔습니다. 영국 다른 곳에도 중요한 박람회가 많이 있지만, 스토어브리지 박람회는 유리한 위치 때문에 매우 성공적일 것이라는 느낌이 듭니다." # 1c60731bfb928bebfd11a6a4ab84416a53ddb848
+  RICE_yorkshire_grant_stourbridge_charter_fair_confirm: "훌륭한 생각입니다! 해봅시다!" # 3f0b0095903ada5ab6a4386a5b6269f6388a5d13
+  RICE_yorkshire_grant_stourbridge_charter_fair_context_tooltip: "#강조 역사적 배경:#! 스터브리지 박람회는 케임브리지에서 가장 중요한 무역 박람회였습니다. 실제로, 후기 중세와 초기 근대 시대에 유럽에서 가장 큰 무역 박람회 중 하나가 되었습니다. 이는 소설 #italic 순례자의 여정#에서 빈곤 박람회에 영감을 주었고, 아이작 뉴턴과 같은 여러 유명 인사들이 방문했습니다. 이 박람회는 마지막으로 1933년에 개최되었으며, 1934년에 공식적으로 폐지되었습니다." # 87481ed0a29369e8fa1f283c15b8f68c44adcee7
+  RICE_yorkshire_sheffield_cutlery: "최근에 구입한 셰필드 식기류" # ef593c9068c747995d3e729f779aa12d2f8f2526
+  RICE_yorkshire_stamford_ware_feasts: "연회용 뉴 스탬퍼드 도자기" # b2c108f258cb2a602f1f67d71e0416182977faf3
+  RICE_yorkshire_stamford_ware_pots: "하인들이 사용하는 새로운 스탬퍼드 식기" # c5a3608b31722745d9c9a1292b908d7b042a2982
+  RICE_yorkshire_stamford_ware_decor: "새 스탬퍼드 도자기를 가구로 사용" # 5190a7b032408bd5f4376a7181dda5eda89e3836
+  RICE_yorkshire_vale_of_york: "요크 계곡이 번영합니다" # f139c141ee92fb6f422a711c4104862bd93b7cc1
+  RICE_yorkshire_wensleydale_cheese: "선물 받은 웬슬리데일 치즈" # 68cc78e6c9576201980c27295e9efa35f61a2893
+  RICE_yorkshire_alcuin_spiritual_quote: "알쿠인의 지혜에서 영감을 얻음" # a36fc8dc0a3e8e900fed6cb9a15ad7fa8cb84a28
+  RICE_yorkshire_alcuin_masses_quote: "알쿠인의 조언에서 영감을 얻어" # db969b919a85654a0d5effd169d73b8ac04e89f7
+  RICE_yorkshire_caedmons_hymn: "케드먼 찬가에서 영감을 얻음" # 30fb897c94c0b88f2a5763a9a5fb2adb696a3707
+  RICE_yorkshire_crowland_pilgrims: "크롤랜드로 향하는 순례자 증가" # e9775cd3292e1565ff6feec26da03c49418e65f1
+  RICE_yorkshire_crowland_pilgrims_desc: "최근 들어 크로울랜드 수도원의 성 구틀락 성지에는 평소보다 더 많은 방문객이 찾고 있습니다." # 4dc81412274aa7ac0839e91b3c664295d9aef5a0
+  RICE_yorkshire_river_swale_lead: "스월 강변의 납 광산 붐" # ef1a082fd2972615b492c488ebcd6ee32cb8652c
+  yorkshire.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0001.t: "스카버러 장터에 가시나요?" # 7e9df157a0efa73898ae984c2612a95f63c89aec
+  yorkshire.0001.desc: "이제 [scarborough_barony.GetNameNoTier] 백성들은 이 도시에 정기 시장 개최를 허가해 달라고 오랫동안 요청했습니다. 지역 관리들은 이 지역의 지속적인 번영을 장려하기 위해 더 많은 정기 시장이 이 지역에 허가되는 것이 중요하다고 판단했습니다.\n\n이에 따라 스카버러는 매년 8월과 9월에 시장을 열 수 있는 허가를 받았습니다. 잉글랜드의 다른 지역의 정기 시장만큼 유명해지지는 않더라도, 먼 곳에서 온 여행자와 상인들을 끌어모아 이 지역 경제에 기여할 것입니다." # b092614b355f1274f3dbc2631bac9f80d6e022a2
+  yorkshire.0001.a: "파슬리, 세이지, 로즈마리, 그리고 백리향!" # f8cfc03c65eab6c9d0ddbcbf8ae652ff44ec09cb
+  yorkshire.0002.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0002.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0002.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0003.t: "스토어브리지 박람회" # f6a1ac1925803e6aeee724f5fc57bd91a38e0b98
+  yorkshire.0003.desc: "[cambridge_barony.GetNameNoTier] 마을과 인근 여러 정착지가 경제적으로 성장하고 있으며, 런던 외곽의 잉글랜드 중부에서 가장 눈에 띄는 상업 중심지 중 하나입니다. 지속적인 번영을 장려하기 위해 지역 관리들은 이 지역에 더 많은 특허 박람회를 허가하는 것이 중요하다고 판단했습니다.\n\n따라서 케임브리지 인근의 스토어브리지에는 매년 8월이나 9월에 박람회를 개최할 수 있는 특허가 부여되었습니다. 스토어브리지의 위치는 뉴마켓과 같은 이 지역의 여러 주요 마을로 이어지는 도로에 위치하여 매우 전략적이고 유리하다고 말하는 사람들이 많습니다. 이는 더 많은 교통과 무역을 유치할 것입니다." # 4ecc9bc0ceca63093b55906c5df38cb1e39b6085
+  yorkshire.0003.a: "아주 좋군!" # 181cc78a414b734aa1af70f7c3f29442d34aa120
+  yorkshire.0004.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0004.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0004.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0005.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0005.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0005.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0006.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0006.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0006.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0007.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0007.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0007.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0008.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0008.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0008.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0009.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0009.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0009.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0010.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0010.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0010.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0011.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0011.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0011.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0012.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0012.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0012.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0013.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0013.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0013.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0014.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0020.t: "베벌리의 주교 존" # 20f0e6616019cd45fb03d27d484dec8e73e1fa05
+  yorkshire.0020.desc: "오래전, 8세기로 거슬러 올라가면 요크의 주교는 존 오브 베벌리라는 가장 거룩하고 신앙심 깊은 사람이었습니다. 최근 몇 년 동안 그는 많은 기적을 일으켰다고 현지인들이 숭배하는 대상이 되었습니다. 심지어 나 자신도 그런 기적의 잠재적인 수혜자 중 하나라고 생각해야 할 정도입니다. 내 군사 관련 여러 사건들이 그분의 영향 덕분이며, 내가 필요할 때 하나님께서 나를 도우셨기 때문인 것 같습니다.\n\n그 결과, 오늘 나는 그분이 세우신 베벌리 마을([beverley_location.GetNameNoTier]에 위치)에 있는 그의 무덤을 방문하여 이 위대한 분에게 경의를 표하기로 했습니다. 나는 그분의 기억을 제대로 기리기 위해 그의 무덤 주변에 상당한 규모의 성소를 건설하기로 맹세했습니다." # bfb687a54120ac57006e15dcc1a0d1fcf33b3589
+  yorkshire.0020.a: "어떤 이들은 그가 언젠가 성인이 될 것이라고 말하지만, 누가 알까?" # 1859d65778f3df415742b2a9a416b05e77ad1f7b
+  yorkshire.0020.tooltip: "약 1세기 후, 이스트라이딩의 통치자는 베벌리의 성 요한 시성식을 지지하는 [결정|E]을 내릴 수 있습니다." # 8998dcdeb077352ffe8bbb2e0d226e8c7eac3b31
+  yorkshire.0021.t: "베벌리의 주교 존" # 20f0e6616019cd45fb03d27d484dec8e73e1fa05
+  yorkshire.0021.desc: "최근에 [homage_person.GetTitledFirstName]께서 [beverley_location.GetNameNoTier]에 있는 베벌리에 위치한 베벌리의 존의 무덤을 방문했습니다. 요크의 주교였던 이 8세기 성직자는 매우 거룩하고 신앙심이 깊은 사람으로 여겨지며 수년 동안 현지인들의 숭배를 받아왔습니다.\n\n고(故) 존 주교는 여러 군사 문제에서 [homage_person.GetTitledFirstName]에게 많은 도움을 제공한 것으로 알려져 있습니다. 이 때문에 [homage_person.GetSheHe]께서는 존 주교의 무덤 주변에 상당한 규모의 성소를 건설하라고 명령했습니다. 존 주교의 전설이 계속해서 커진다면 언젠가는 그가 성인으로 시성되는 것을 볼 수 있을까요?" # dc465642b79ac76dbe1e4a5a97b6fd20cc0208e8
+  yorkshire.0021.a: "시간만이 말해줄 것입니다." # 71b029fda7d4e6fc6708f1bd3f9cdf4b948da81e
+  yorkshire.0021.tooltip: "약 1세기 후, 이스트라이딩의 통치자는 베벌리의 성 요한 시성식을 지지하는 [결정|E]을 내릴 수 있습니다." # 8998dcdeb077352ffe8bbb2e0d226e8c7eac3b31
+  yorkshire.0022.t: "베벌리의 성 요한" # 081b217729b4b2d41d3d4c8144b2ac99182f3fec
+  yorkshire.0022.desc: "8세기 요크의 주교였던 베벌리의 존의 전설은 세월이 흐를수록 더욱 커지고 있습니다. 이 지역에는 그가 성인으로 시성되기를 청원하는 사람들이 많으며, 그에게 기인한 기적이 매우 많기 때문입니다.\n\n[ROOT.Char.GetFaith.GetAdjective] 교회는 이에 동의하는 것으로 보이며, 몇몇 [ROOT.Char.Custom('DefaultPriestTitlePlural')]이 베벌리의 존의 기적과 삶에 대한 의무 조사를 위해 파견된 후, 그를 정식으로 성인으로 선포했습니다.\n\n그가 건설하는 데 도움을 준 도시인 베벌리는 그의 무덤을 보관하게 되어 엄청난 위신과 명예를 얻게 될 것입니다. 성 요한의 공식 시성과 함께 더 많은 순례자들이 찾아올 것으로 예상되며, 이는 정착지에 경제적, 정신적으로 도움이 될 것입니다." # 8de62f02fca617134eee6ff0c9b55f4b2490579c
+  yorkshire.0022.a: "아주 좋군" # 7612729ba12125c2b038a1d081b511864179ca82
+  yorkshire.0022.tooltip: "베벌리 인근의 통치자는 이제 [saint_john_of_beverley_short|E]의 무덤에서 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]을 진행하고 그의 깃발을 빌릴 수 있습니다." # 54ee027ccf2b28e6f8a4b77899a693e5d3e1c590
+  yorkshire.0023.t: "베벌리의 성 요한" # 081b217729b4b2d41d3d4c8144b2ac99182f3fec
+  yorkshire.0023.desc: "수년 동안, 잉글랜드 북부에서는 많은 이들이 [john_of_beverley_canonizer.GetFaith.GetAdjective] 교회가 8세기 요크의 주교였던 베벌리의 성 요한을 성인으로 인정하여 성인의 지위를 부여할 것을 청원했습니다. [john_of_beverley_canonizer.GetTitledFirstName]이 이끄는 지역 성직자와 지도자들의 노력 덕분에 마침내 이루어졌습니다.\n\n그가 세우는 데 도움을 준 마을인 베벌리는 그의 무덤이 있는 곳으로서 큰 명성과 영예를 얻을 것입니다. 성 요한의 공식적인 시성으로 인해 더 많은 순례자들이 찾아올 것으로 예상되며, 이는 정착지에 경제적, 정신적으로 도움이 될 것입니다." # 29b3172ef8cc592e483bc11db1cdfc3cc9eb4499
+  yorkshire.0023.a: "흥미로운 소식입니다!" # 03fe3f2b0a4a57c9120004071544622c73676b35
+  yorkshire.0023.tooltip: "베벌리 인근의 통치자들은 이제 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]을 떠날 수 있으며, 그의 깃발을 빌릴 수도 있습니다." # 8e6d49d76c2f973f11a0d48f7a7c8be58b648bdb
+  yorkshire.0024.t: "깃발" # c788c90c9038aafa633c5f84a3c9b0476d23d6f4
+  yorkshire.0024.desc: "베벌리에서 현지 성직자들과 만나 예상대로 즐거운 시간을 보낸 후, 그들은 전설적인 베벌리 성 요한의 깃발을 꺼냈습니다. 전설에 따르면 이 신성한 유물은 수많은 용감한 영주들에게 군사적 승리를 가져다주었다고 합니다. 그것은 아름다운 광경이며, 그것을 보존하는 수도사들이 전투에 들고 가도록 해달라는 저의 요청을 받아들인 것에 대해 영광으로 생각합니다. 저는 분명히 이것을 기독교의 적들, 그리고 선하고 정의로운 모든 것의 적들에 맞서 사용할 것을 맹세합니다." # 38b83743e94e49c0edd991792d51c42ee0bd679d
+  yorkshire.0024.a: "확실합니다." # e5e3894d344433112407ae93c715072eaeaa6a1a
+  yorkshire.0024.tooltip: "만약 사망하거나 모든 [titles|E]를 잃으면, 깃발은 [heir|E]에게 계승되지 않고 베벌리의 성 요한 성소로 반환됩니다." # d266277635ff6e661300f5b523cf70cb1a3a0d61
+  yorkshire.0025.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0025.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0025.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0026.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0026.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0026.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0027.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0027.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0027.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0028.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0028.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0028.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0030.t: "준비" # ffb7b66372898902e8cf7eca0025b21a011c84d7
+  yorkshire.0030.desc: "저는 [beverley_location.GetNameNoTier]의 베벌리 마을로 가서 베벌리의 성 요한의 무덤을 방문하기로 했습니다. 그는 매우 거룩한 사람이며, 그의 삶은 전설과 같고, 전쟁과 정치에서 많은 지도자에게 행운을 가져다주었다고 합니다. 물론, 저의 진정한 목적은 그럼에도 불구하고 영적인 필요를 위해 그곳에 가는 것이어야 할 것입니다." # d8ddb734c799522379a47b7406ee0448d30da044
+  yorkshire.0030.a: "곧 그곳으로 떠날 준비를 하겠습니다!" # 660edae1472cbd40ad338a809534d6a89d470c51
+  yorkshire.0031.t: "베벌리에게" # 4a8b5c98dc0493a045469dd40d2913b298df7749
+  yorkshire.0031.desc: "오늘, 베벌리 마을로 향하는 여정이 시작됩니다! 저는 겸손하고 경건한 순례자에 불과한 몸으로 성 요한의 무덤으로 나아갈 것입니다." # ad089e52a3ab27287ebd8d0b02cab993bf842bce
+  yorkshire.0031.a: "비벌리의 들판과 언덕으로 갑니다!" # 8c28dd6e0105c9aaf9004af2b3cf74ff3992e664
+  yorkshire.0032.t: "베벌리 도착" # 4cc130e95b4d4926f234d22d0ba3a1a090d4a49c
+  yorkshire.0032.desc: "저는 베벌리 마을에 도착했습니다. 베벌리는 성 요한과 관련이 없었다면 영국에서 평범한 정착지 중 하나였을 것입니다. 성 요한의 성역이 있다는 것은 마을의 자랑이자 기쁨이며, 마을의 특권을 침해하는 자는 성인 자신이 직접 쳐부술 것이라고 하니 조심스럽게 존경을 표해야 합니다. 묘소를 방문하겠지만, 먼저 교회에서 기도하고 오늘 밤은 휴식을 취하겠습니다." # a3f0352346eb3da01b5ddec5566de08dfa42553b
+  yorkshire.0032.a: "여기 오니 좋군요." # e0a28ea27ce66c8c5b5f75378b5da4213b177e3a
+  yorkshire.0033.t: "무덤" # 3f6ec6a21782e7ae624dc0fe0367d1e879a1e19e
+  yorkshire.0033.desc: "저는 지금 성 요한의 무덤에 와 있습니다. 이렇게 성스러운 분이 여기에 묻혀 계시다니! 그분에 대한 전설이 많은데, 흔히 알려진 것은 그분이 악마에게 속아 중대한 죄를 저지른 은둔자였고, 그 결과로 많은 고통을 겪고 회개한 끝에 요크의 주교가 되었다는 것입니다.\n\n특히 저의 관심을 끄는 것은 요한의 깃발인데, 많은 사람들이 그것에 엄청난 군사적 힘이 있다고 믿습니다. 그 깃발을 휘두르는 영주나 여인은 전투에서 항상 성공할 것이라고 합니다!" # a904fcb83b0e2603b49beecd9865edcc8b8aa067
+  yorkshire.0033.desc.banner_present: "\n\n나는 호기심을 가지고 깃발을 관찰합니다. 언젠가 [ROOT.Char.GetFaith.GetAdjective] 교회의 이름으로, 그리고 우리의 적들을 쳐부수기 위해 유용하게 사용할 수 있을지도 모릅니다." # abfe1aa01c079f00a4ed1307ddd6acf22b38e81a
+  yorkshire.0033.desc.banner_not_present: "현재 깃발은 다른 곳에 빌려간 상태라 교회에 없지만, 이곳의 많은 이들이 그것에 대해 경건한 목소리로 속삭입니다. 언젠가는 저도 그것을 볼 수 있을지도 모르겠습니다." # 8c6adf795071bf4da968940cede1e85e329fb71a
+  yorkshire.0033.a: "기도하며 조용히 앉아 있습니다." # ae3a27eccdd6f9dc341b38bd8ba025e056bff0a9
+  yorkshire.0033.toast: "당신은 깃발의 전설에 영감을 받았습니다!" # e6f370f0be33a4053341603436427e0b35bb390c
+  yorkshire.0034.t: "회고" # cdbc1704be96ed0371aa9d498f39d8b3b606b5cf
+  yorkshire.0034.desc: "성 요한의 무덤을 떠나면서, 내가 목격하고 경험한 것을 되돌아봅니다. 마치 현명하고 경건한 성인께서 나를 [ROOT.Char.GetTitledFirstName](으)로서 더 위대한 일을 이루도록 인도하시는 듯한 큰 영적 평화를 느낍니다." # ae6e3a8950eec250527c06c8f3d2462becfd2b88
+  yorkshire.0034.a: "베벌리를 방문한 것은 좋은 경험이었습니다." # 1783911728268afa7a150f884fb633f15e3b08a7
+  yorkshire.0035.t: "집으로 다시" # 1dbbe8daae704187353f9d655912d83ee8573f3c
+  yorkshire.0035.desc: "베벌리 성지 순례를 마치고 마침내 집으로 돌아왔습니다. 그곳에서 성 베벌리의 요한의 무덤에 경의를 표했습니다. 모든 것을 고려했을 때 좋은 결정이었고, 여행 전체가 보람 있었습니다." # 744de13401ce19ca3cb71c7ccfc81413e1e5cd80
+  yorkshire.0035.a: "언젠가 다시 방문할 수 있을까요?" # cb92aee111804ce362fd280e7385011cfb48f65d
+  yorkshire.0036.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0036.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0036.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0037.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0037.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0037.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0038.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0038.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0038.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0039.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0040.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0040.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0040.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0041.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0041.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0041.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0042.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0042.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0042.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0043.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0043.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0043.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0044.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0044.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0044.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0045.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0045.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0045.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0046.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0046.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0046.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0047.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0047.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0047.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0050.t: "스탬퍼드의 황소" # b330495f7fec9408e1fc27c4b39967f5a8d90956
+  yorkshire.0050.desc: "[stamford_barony.GetNameNoTier] 마을을 방문했을 때, 멀지 않은 초원에서 암소를 두고 두 마리의 황소가 싸우는 것을 보았습니다. 저는 안전한 거리에서 그 광경을 재미있게 구경했습니다. 그러다 [stamford_barony.GetNameNoTier] 출신의 정육점 주인 몇 명이 개들을 데리고 황소를 떼어놓으러 왔습니다. 하지만 이는 황소들을 더욱 격분시킨 듯했습니다!\n\n황소들이 정착지를 짓밟자, 당황한 마을 사람들이 이리저리 뛰어다녔습니다. 의무감이 들어서 저와 경비병 몇 명이 정육점 주인들과 마을 사람들과 합류하여 황소들을 진정시키기로 했습니다. 물론 우리는 성공했습니다." # 07b9515a9cc99a942e30435f048dfad5cd8bafb7
+  yorkshire.0050.a: "그만큼 정신없었지만, 꽤 재미있었어요!" # 182feb7324812bfa56a6473566f5ddb22672cadb
+  yorkshire.0051.t: "스탬퍼드의 황소 돌진" # 40ca7bb053ed1a548755a650a2bc2f26e187bfdd
+  yorkshire.0051.desc: "[stamford_barony.GetNameNoTier]의 주민들은 황소를 진압하는 데 도움을 준 것에 감사하며, 나를 기리기 위한 즉석 연회를 엽니다. 나는 너무 즐거웠기 때문에 [stamford_barony.GetNameNoTier]의 군주로서, 매년 좋은 전통적인 황소 달리기로 이 사건을 재연하고 기념하는 한, 황소들이 싸우던 목초지를 지역 정육점 주인들에게 영구적으로 주기로 결정했습니다. 매년 축제에 참여하기 위해 하루 더 쉬는 것을 싫어할 사람은 없겠죠?" # 3ecd537a3e6a658831af590a21d680dd49baafbb
+  yorkshire.0051.a: "저는 곧 스탬퍼드로 돌아가기를 바랍니다!" # 05f941ab15359c0b68fc2374b438ed5d5f01b5ee
+  yorkshire.0051.tooltip: "이제부터 [stamford_barony.GetNameNoTier] 근처에 [county_capital|E]을 가진 [rulers|E]는 매년 11월 즈음에 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName] [activity|E]에 참여할 수 있습니다" # d5e2f07e78d01c9e04c564835ec8df4c7ba72017
+  yorkshire.0052.t: "스탬퍼드의 황소 돌진" # 40ca7bb053ed1a548755a650a2bc2f26e187bfdd
+  yorkshire.0052.desc: "[bull_runner.GetTitledFirstName]이 [stamford_barony.GetNameNoTier]의 주민들을 도와 마을을 휩쓸던 황소 몇 마리를 영웅적으로 진정시켰다는 소문이 빠르게 퍼지고 있습니다. 그 후, [bull_runner.GetSheHe]은 이 사건을 매년 축제와 황소 달리기로 기념해달라고 요청했습니다." # e5f6af51fc546b562e7cc559a0276b9829218810
+  yorkshire.0052.a: "언젠가 스탬퍼드를 방문하여 이것을 직접 목격할지도 모르겠군요." # 414ddb12ca13fb2daa2b68b9ce07080bc689a1e0
+  yorkshire.0052.tooltip: "$yorkshire.0051.tooltip$" # 53a5acc22c849ec81a08cc6a5b8a6a698e67b26a
+  yorkshire.0053.t: "스탬퍼드 도착" # 0cabc6e197dfa12f856ef7b8bd28dfeab4eada3f
+  yorkshire.0053.desc.bull_runner: "저는 올해 [stamford_barony.GetNameNoTier]의 황소 달리기를 관람하기로 했습니다. 전통에 따르면 이 행사는 오래전 [bull_runner.GetSheHe]께서 몇몇 지역 정육점 주인들이 폭주하는 황소 몇 마리를 진정시키는 것을 도왔을 때 시작되었다고 합니다. 이 축제의 떠들썩한 분위기를 좋지 않게 보는 사람들도 있지만, 저는 올해 뭔가 흥미로운 것을 보기를 바랍니다!" # 7e532e6c055df0466a10dc1959b87a229068ce14
+  yorkshire.0053.desc.not_bull_runner: "저는 올해 [stamford_barony.GetNameNoTier]에서 열리는 소몰이 경기를 구경하기로 했습니다. 예전에 있었던 재미있는 사건 이후로 매년 소몰이 경기를 개최하자는 제 제안에 지역 주민들이 동의해서 기쁩니다. 그 축제의 떠들썩하고 카니발 같은 분위기를 경멸하는 사람들도 있지만, 올해는 뭔가 흥미로운 것을 볼 수 있기를 바랍니다!" # 2e342cf18bcc8e847ed8b0c6fa9f739b130e0d32
+  yorkshire.0053.a: "이것은 아주 신나는 난장판이 될 거야!" # 933f541a2b7f068f780aeaa3a44312a1f21d81ce
+  yorkshire.0054.t: "거의 다 됐습니다!" # b2271fb85f7c22af6f5d553f45c9d287b75ebf1f
+  yorkshire.0054.desc: "마침내, [stamford_barony.GetNameNoTier]의 소몰이가 내일 시작될 예정입니다. 저는 지역의 하급 귀족들과 저명한 마을 사람들로부터 환영받습니다. 그들 중 한 명이 이 전통의 중요한 참가자인 정육점 사람들이 주요 행사를 위해 찾을 수 있는 가장 거칠고 난폭한 소를 선택하는 것을 마쳤다고 말합니다. 어쨌든 저는 이 광경을 직접 목격하기를 기대합니다!\n\n잠자리에 들기 전에, 제가 직접 소몰이에 참가해야 할지, 아니면 그저 관찰만 해야 할지 궁금합니다. 일부 고지식한 사람들은 이미 저처럼 위엄 있는 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetTitleAsNameNoTooltip]에게 어울리지 않고 부적절하며 무례한, 그런 소란스럽고 피비린내 나는 사건에 제가 있는 것을 못마땅하게 생각하고 있으며, 적극적인 참여는 상황을 더욱 악화시킬 뿐입니다. 반면에, 그것은 아주 재미있을 수도 있습니다." # d2db002f6a07d440a8380567ec9064ffd72d626e
+  yorkshire.0054.a: "내일 참여하겠습니다." # b20518adc9686675fc47f253113f013d8e88cda0
+  yorkshire.0054.b: "멀리서 지켜보겠습니다." # 877324dbd022885fe3bff3136be5b6df7ca1682b
+  yorkshire.0055.t: "아침 준비" # fe1c2338ad5dbb6769b98a935938ddafe7f5e18c
+  yorkshire.0055.desc: "아침이 밝았습니다. 오늘은 스탬퍼드 황소 달리기 대회가 열리는 날입니다! 지역 [ROOT.Char.GetFaith.HouseOfWorship]의 종이 울려 황소 달리기가 곧 시작된다는 것을 알립니다. 마을 공고 담당자가 모든 주민에게 상점 문과 대문을 닫으라고 발표합니다. 모두가 모이자 행운의 상징으로 많은 사람들이 몸에 바른 흙과 황소 배설물을 섞은 "황소 똥" 냄새가 진동합니다. 모든 것이 정리되면 황소가 풀려나고 남자, 여자, 아이들이 모두 황소를 쫓으면서 대혼란이 시작됩니다!" # 94428c18c02e1f0ddd2f69b579e95951382dbb13
+  yorkshire.0055.a: "준비되셨습니다!" # 1dc73a070c9cfe50e4b7d68d345c28f92baa35ed
+  yorkshire.0056.t: "황소 전투" # 93aef83a56866e17eca2a907dc64260b4c29e5cf
+  yorkshire.0056.desc.bull_runner: "황소 뒤를 쫓아 뛰면서 혼란 외에는 아무것도 경험하지 못합니다. 물론, 저를 보호하기 위해 호위병 몇 명이 동행하고 있지만, 응원과 함성, 떠들썩한 소리에 휩쓸려 그들 또한 즐거워하는 것 같습니다. 특별히 지정된 사람이 통 안에서 비트에 맞춰 굴러가는 모습을 보며 웃음이 터져 나옵니다." # 634e2c90a5fbc2671061a0e6d82bf77b067687a8
+  yorkshire.0056.desc.not_bull_runner: "마을 사람들과 지역 귀족들이 황소를 쫓는 모습을 보니 온통 혼란스럽습니다. 많은 사람들이 일상생활에서는 우스꽝스러울 정도로 야한 옷을 입고 있지만, 여기 축제 분위기에는 어울리며 황소를 더욱 자극하기 위한 것입니다. 특별히 지정된 사람은 심지어 통 속에서 구르며 박자에 맞춰 움직입니다." # f61c368694aa1df7906672c83a020b3ad1d79ca0
+  yorkshire.0056.a: "#bold Historical Context:#! The Blemmyae were a nomadic people of Nubia that flourished from at least 600 BCE to 8th century CE. They are often described in classical sources as being acephalous, without a head, and having their facial features on their chest. This description is very unlikely to be factual, but it may derive from a practice of wearing very high chest armor, or large tattoos on the chest. They are thought to be related to the Medjay, and fought in many wars with the Ptolemaic Kingdom of Egypt, and later against the Roman Empire. The Blemmyae also constructed temples to the Egyptian gods #italic Isis# and #italic Osiris#, and the Nubian god #italic Mandulis#, and claimed that the temple at #italic Philae# belonged to them. Their main center was at #italic Kalabsha#, and their influence extended up to #italic Elephantine#. In Crusader Kings III, they're represented as a tribal people with some unique mechanics.\n#bold 역사적 배경:#! 블렘미는 기원전 600년부터 서기 8세기까지 번성했던 누비아의 유목민족입니다. 그들은 고전 문헌에서 종종 머리가 없고 얼굴 특징이 가슴에 있는 무두인으로 묘사됩니다. 이러한 묘사는 사실일 가능성이 매우 낮지만, 매우 높은 가슴 갑옷을 착용하거나 가슴에 큰 문신을 새기는 관행에서 유래했을 수 있습니다. 그들은 메자이와 관련이 있는 것으로 생각되며, 이집트 프톨레마이오스 왕국과 나중에 로마 제국과의 많은 전쟁에 참전했습니다. 블렘미는 또한 이집트 신 #italic 이시스#와 #italic 오시리스# 그리고 누비아 신 #italic 만둘리스#에게 신전을 지었고 #italic 필레#의 신전이 자신들의 것이라고 주장했습니다. 그들의 주요 중심지는 #italic 칼라브샤#였으며 그들의 영향력은 #italic 엘레판티네#까지 확장되었습니다. Crusader Kings III에서 그들은 몇 가지 독특한 메커니즘을 가진 부족민으로 표현됩니다." # 47c68d9d6adbf92f896e1c3106b4cce0e549e3bd
+  yorkshire.0057.t: "황소가 잡혔습니다" # e76996e926a88c28d685056e38ab74a5012d0424
+  yorkshire.0057.desc: "마침내 황소는 스탬퍼드 근처의 소위 황소 초원까지 쫓겨났고, 그곳에서 첫 황소 달리기가 벌어졌으며 성공적으로 잡혀 도살되었습니다. 정육점들이 소고기를 준비하는 동안 온 마을은 유쾌하고 술에 취한 노래와 춤으로 떠들썩합니다.\n\n#italic 오, 모든 멋진 소년들이여!#!\n#italic 멋진 황소를 미끼로 삼기 좋아하는 자들이여,#!\n#italic 소란을 즐기는 자들이여,#!\n#italic 배불리 먹게 될 것이오!#!\n#italic 스탬퍼드의 황소 달리기 날에는,#!\n#italic 그대들에게 아주 멋진 연극을 보여주리라;#!\n#italic 그대는 전에 본 적이 없을 것이고, 이렇게 말하겠지,#!\n#italic 그대가 스탬퍼드에서 보게 될 것이라고!#!" # e3f7f04495c7ce7279200eba06ad3e4ca70e7c9d
+  yorkshire.0057.a: "연회가 정말 기대되네요." # 9826c9cbb95fa6b9c3a4e9002a4c7f27127e220d
+  yorkshire.0058.t: "황소 전투가 끝났다" # dd77c68c813407d6cc79923c96af0a2b199b7b02
+  yorkshire.0058.desc: "일반적으로 스탬퍼드 황소 경주에서 황소 고기는 지역 귀족, 시 공무원 및 길드에서 자선의 표시로 가난하고 궁핍한 사람들을 위해 조각되어 요리됩니다. 우리는 모두 좋은 음식과 음료를 즐기고 밤늦게까지 춤을 춥니다." # c0a11388b9a28dbd6792c409d67a7dde70381b62
+  yorkshire.0058.a: "전반적으로 꽤 재미있었습니다!" # e10c7473d438f2dbad090b76dae6c3a0ebc0282b
+  yorkshire.0059.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0059.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0059.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0060.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0060.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0060.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0061.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0061.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0061.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0062.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0062.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0062.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0063.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0063.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0063.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0064.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0064.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0064.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0065.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0065.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0065.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0066.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0066.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0066.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  charter_fair_granted_others_tooltip: "[stamford_barony.GetNameNoTier], [boston_barony.GetNameNoTier], [winchester_barony.GetNameNoTier], 그리고 [northampton_barony.GetNameNoTier]가 모두 정기 시장을 허가받으면, 나중에 특별 이벤트가 무작위로 발생하여 해당 [county_modifiers|E]를 업그레이드합니다." # 5ec4652e05cf5b6ca7c130bb4aa98dd811a7fe80
+  yorkshire.0070.t: "스탬퍼드의 특허 박람회" # ba6f107bbeaf105dbd1591b37897d49ba0c649f0
+  yorkshire.0070.desc: "[stamford_barony.GetNameNoTier]의 지역 유지들과 하급 귀족들은 꽤 오랫동안 정착지에 대규모 특허 박람회를 개최할 권한을 부여해달라고 요구해 왔습니다. 저는 그들에게 그러한 특권을 부여하기로 결정했습니다. 이제부터 매년 사순절 중반경에 마을에서 그러한 박람회를 개최할 것입니다. 평범한 시장 박람회가 아니라 상당한 규모의 박람회가 될 것입니다." # 46ddfa84390c88a6588829021d7bb29b4aaf0d04
+  yorkshire.0070.a: "이로 인해 지역 경제가 상당히 활성화될 것입니다." # 0a4784e199b5f610d30adfb65a3e9f7036468f2d
+  yorkshire.0071.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # bc2976be7c67bf2b3d173ffea9d487d96d2ba04e
+  yorkshire.0071.desc: "[stamford_barony.GetNameNoTier](이)가 현재 귀하의 관할에 속해 있으므로, 저는 여러 지역 시민들과 하위 귀족의 요청에 따라 [stamford_barony.GetNameNoTier]에 매년 사순절 중반경에 대헌장 박람회를 개최할 권리를 부여했음을 알려드립니다. 이는 지역 경제를 상당히 활성화시킬 것입니다." # e298e3167de464094a95a7f1081ec91d10cce429
+  yorkshire.0071.a: "훌륭한 소식입니다!" # bad3b7950d03e704a51acc45e87997592fe4afcd
+  yorkshire.0072.t: "스탬퍼드의 특허 박람회" # ba6f107bbeaf105dbd1591b37897d49ba0c649f0
+  yorkshire.0072.desc: "[stamford_barony.GetNameNoTier]의 지역 유지와 하급 귀족들은 꽤 오랫동안 이 정착지에 대규모 특허 정기 시장을 열 권한을 부여할 것을 요구해 왔습니다. 미천한 [ROOT.Char.GetTitleAsNameNoTooltip]인 저는 그러한 권한을 부여할 권위가 없지만, 이 땅의 [charter_granter.GetTitleAsNameNoTooltip]이신 [charter_granter.GetTitledFirstName]님께 그렇게 해 주시도록 청원할 수 있습니다. 그러나 이분들에게 이 일의 장점을 설득하려면 제 노력이 좀 필요할 것입니다." # ed938f408cf4adefacaaad6f5308a49ccab222e8
+  yorkshire.0072.a: "제 청원이 받아들여지기를 바랍니다!" # 2058966f0d0b7e0a7c268d599fcd23230d55a5ea
+  yorkshire.0073.opening: "[stamford_owner.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # afce91f2783878eb4c109c57e23d6b8866469ca4
+  yorkshire.0073.desc: "이 편지가 부디 좋은 소식으로 전해지길 바랍니다. [stamford_barony.GetNameNoTier]의 지역 유지들과 하급 귀족들이 사순절 중반 즈음에 매년 대헌장 박람회를 개최할 수 있는 권한을 요구했습니다. 이는 당신의 승인을 필요로 하기에, 이 요청에 귀 기울여 주시길 청원합니다. 그렇게 한다면 지역 경제가 상당히 활성화될 것입니다." # 4f9cdde49970abbb15969489ae9d3b9b87d2e069
+  yorkshire.0073.a: "알겠습니다. 허락해 드리겠습니다." # b88ff51bf08367770cdb3538c835d8501d74cf87
+  yorkshire.0074.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # bc2976be7c67bf2b3d173ffea9d487d96d2ba04e
+  yorkshire.0074.desc: "저는 [stamford_barony.GetNameNoTier]에서 사순절 중간 즈음에 매년 대규모 특허 박람회를 개최할 권리를 부여해달라는 귀하의 요청을 신중히 검토했습니다. 이는 훌륭한 아이디어이며, 귀하의 주도성에 찬사를 보냅니다. 이에 [stamford_barony.GetNameNoTier]에 그러한 특권을 부여합니다. 이제 이것이 이 지역에 더 많은 번영을 가져다주기를 바랍니다!" # 0b5b2b5c9f1e04bbc4961966a94dacb15f860f75
+  yorkshire.0074.a: "다행이네요!" # 3e1b17473d562e37edaaff061b5a794a066eff98
+  yorkshire.0075.t: "보스턴의 특허 정기 시장" # 82ef9d48eee8d7b3e44e7cbffc813e69fd51ee4f
+  yorkshire.0075.desc: "[boston_barony.GetNameNoTier]의 지역 유지들과 하급 귀족들은 오랫동안 정착지에 대규모 특허 정기 시장을 개최할 권한을 부여해 줄 것을 요구해 왔습니다. 저는 그들에게 그러한 특권을 부여하기로 결정했습니다. 이제부터 매년 7월경에 마을에서는 대규모 시장이 열릴 것입니다. 확실히 평범한 시장이 아니라 상당한 규모의 시장일 것입니다." # 30f10a2859e6b0b9efa6c8b631ebf9a1e7b12544
+  yorkshire.0075.a: "이로 인해 지역 경제가 상당히 활성화될 것입니다." # 0a4784e199b5f610d30adfb65a3e9f7036468f2d
+  yorkshire.0076.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # bc2976be7c67bf2b3d173ffea9d487d96d2ba04e
+  yorkshire.0076.desc: "현재 귀하의 관할 아래에 있는 [boston_barony.GetNameNoTier]에 대해 알려드립니다.  많은 지역 시민들과 하급 귀족들의 요청에 따라, 저는 매년 7월경 [boston_barony.GetNameNoTier]에서 큰 장터를 열도록 허가했습니다. 이는 지역 경제를 상당히 활성화시킬 것입니다." # 3b392defb0d20d5e0af28d48c99712818709ca52
+  yorkshire.0076.a: "기쁜 소식이 있습니다!" # bad3b7950d03e704a51acc45e87997592fe4afcd
+  yorkshire.0077.t: "보스턴의 특허 정기 시장" # 82ef9d48eee8d7b3e44e7cbffc813e69fd51ee4f
+  yorkshire.0077.desc: "[boston_barony.GetNameNoTier]의 지역 부르주아와 하급 귀족들이 이 정착지에 오랫동안 대규모 특허 박람회를 개최할 권한을 부여해 달라고 요구해 왔습니다. 저는 단순한 [ROOT.Char.GetTitleAsNameNoTooltip]이므로 그러한 권한을 부여할 권한이 없지만, 이 땅의 [charter_granter.GetTitleAsNameNoTooltip]이신 [charter_granter.GetTitledFirstName]에게 그렇게 해 달라고 청원할 수 있습니다. 그러나 그들에게 이것의 장점을 설득하려면 저의 노력이 필요할 것입니다." # 0e72ce0ae6a56135b1aa927f7e0ce6d46e3ade2b
+  yorkshire.0077.a: "제 청원이 받아들여지기를 바랍니다!" # 2058966f0d0b7e0a7c268d599fcd23230d55a5ea
+  yorkshire.0078.opening: "[boston_owner.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # f7dd17ca888d1437a9fcfbfe5d1dd963ff4569eb
+  yorkshire.0078.desc: "이 편지가 당신에게 좋은 소식을 전하기를 바랍니다. [boston_barony.GetNameNoTier]의 지역 주민들과 하급 귀족들이 매년 7월경에 대 헌장 박람회를 개최할 권한을 요청했습니다. 이는 당신의 승인을 필요로 하므로, 이 요청을 들어주시면 지역 경제에 상당한 도움이 될 것이므로 이 청원을 들어주시기를 청합니다." # 7cef1d97570c66c3e6597dd2c48304fc6bfba898
+  yorkshire.0078.a: "알겠습니다. 허락해 드리겠습니다." # b88ff51bf08367770cdb3538c835d8501d74cf87
+  yorkshire.0079.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # bc2976be7c67bf2b3d173ffea9d487d96d2ba04e
+  yorkshire.0079.desc: "저는 매년 7월경에 [boston_barony.GetNameNoTier]에서 대규모 특허 박람회를 개최할 수 있는 권한을 부여해 달라는 귀하의 요청을 신중하게 고려했습니다. 이는 훌륭한 아이디어이며, 귀하의 주도적인 행동에 감탄했습니다. 이에 [boston_barony.GetNameNoTier]에 그러한 특권을 부여합니다. 이제 이것이 이 지역에 더 많은 번영을 가져다주기를 바랍니다!" # 4c5c70de9363f0284714a7deb725db4aa528977a
+  yorkshire.0079.a: "다행이네요!" # 3e1b17473d562e37edaaff061b5a794a066eff98
+  yorkshire.0080.t: "윈체스터의 특허 시장" # ef65e724afa42e6655fb3373095a139957daf359
+  yorkshire.0080.desc: "[winchester_barony.GetNameNoTier]의 지역 자치 시민과 하위 귀족들은 꽤 오랫동안 마을에 대규모 특허 박람회를 개최할 권리를 부여해 줄 것을 요구해 왔습니다. 저는 그들에게 그러한 특권을 부여하기로 결정했습니다. 이제부터 매년 9월경에 마을에서 평범한 시장 박람회가 아닌 상당한 규모의 박람회를 개최할 것입니다." # f7d4d52c3c7135311cf3cf9715e34c9443665bd6
+  yorkshire.0080.a: "이로 인해 지역 경제가 상당히 활성화될 것입니다." # 0a4784e199b5f610d30adfb65a3e9f7036468f2d
+  yorkshire.0081.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # bc2976be7c67bf2b3d173ffea9d487d96d2ba04e
+  yorkshire.0081.desc: "현재 [winchester_barony.GetNameNoTier](이)가 귀하의 관할 하에 있으므로, 다수의 지역 부르주아와 하급 귀족의 요청에 따라 [winchester_barony.GetNameNoTier]에 매년 9월경에 대규모 특허 박람회를 개최할 권한을 부여했음을 알려드립니다. 이는 지역 경제에 상당한 활력을 불어넣을 것입니다." # bb976f7bd7be1d77c5cd2632afe419136bcaf952
+  yorkshire.0081.a: "기쁜 소식이 있습니다!" # bad3b7950d03e704a51acc45e87997592fe4afcd
+  yorkshire.0082.t: "윈체스터의 특허 시장" # ef65e724afa42e6655fb3373095a139957daf359
+  yorkshire.0082.desc: "[winchester_barony.GetNameNoTier]의 지역 자치 도시민과 하급 귀족들은 이 정착지에 오랫동안 대헌장 박람회를 개최할 권리를 부여해달라고 요구해 왔습니다. 단지 [ROOT.Char.GetTitleAsNameNoTooltip]에 불과한 저는 그러한 권리를 부여할 권한이 없지만, 이 땅의 [charter_granter.GetTitleAsNameNoTooltip]이신 [charter_granter.GetTitledFirstName]님께 청원하여 그렇게 해 주실 것을 요청할 수는 있습니다. 그러나 그렇게 하려면 그분들을 설득하기 위해 어느 정도의 노력이 필요할 것입니다." # 427a11a6aed93a15442c93c0aaff77238478de5c
+  yorkshire.0082.a: "제 청원이 받아들여지기를 바랍니다!" # 2058966f0d0b7e0a7c268d599fcd23230d55a5ea
+  yorkshire.0083.opening: "[winchester_owner.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # 16aad491a421d58dd3dd85f6ae2b625e8170c7b4
+  yorkshire.0083.desc: "이 서신이 귀하의 심신에 평안을 가져다주기를 바랍니다. [winchester_barony.GetNameNoTier]의 지방 자치 시민들과 하급 귀족들이 매년 9월경에 대 헌장 박람회를 개최할 수 있는 권한을 요청했습니다. 이것은 귀하의 승인을 필요로 하므로, 이 요청을 들어주시기를 청원합니다. 그렇게 하면 지역 경제가 상당히 활성화될 것입니다." # 867f4756ec7b7b261ebb516eabcd49771f4e9eb4
+  yorkshire.0083.a: "알겠습니다. 허락해 드리겠습니다." # b88ff51bf08367770cdb3538c835d8501d74cf87
+  yorkshire.0084.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # bc2976be7c67bf2b3d173ffea9d487d96d2ba04e
+  yorkshire.0084.desc: "매년 9월경에 [winchester_barony.GetNameNoTier]에서 대규모 특허 장터를 개최할 수 있는 권한을 부여해 달라는 귀하의 요청을 신중히 검토했습니다. 이는 훌륭한 아이디어이며, 귀하의 주도적인 태도에 찬사를 보냅니다. 이에 [winchester_barony.GetNameNoTier]에 그러한 특권을 부여합니다. 이제 이것이 이 지역에 더 많은 번영을 가져다주기를 바랍니다!" # 7b16398e3f4a630de0dcbd64dc31382a56f4089b
+  yorkshire.0084.a: "다행이네요!" # 3e1b17473d562e37edaaff061b5a794a066eff98
+  yorkshire.0085.t: "노샘프턴의 특허 장터" # 2bd6e93c4ec0d5a9c0f7e162ee6d5911b29769b5
+  yorkshire.0085.desc: "[northampton_barony.GetNameNoTier]의 지역 시민들과 하급 귀족들은 오랫동안 대규모 헌장 박람회를 열 권리를 요구해 왔습니다. 저는 그들의 요구를 수락하기로 결정했습니다. 이제 매년 12월경, 이 마을은 그러한 박람회를 개최할 것입니다. 물론 평범한 시장 박람회가 아닌, 규모가 상당한 박람회가 될 것입니다." # 9552ebfab4d3c29216f630b90b2838e298b683fa
+  yorkshire.0085.a: "이로 인해 지역 경제가 상당히 활성화될 것입니다." # 0a4784e199b5f610d30adfb65a3e9f7036468f2d
+  yorkshire.0086.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # bc2976be7c67bf2b3d173ffea9d487d96d2ba04e
+  yorkshire.0086.desc: "[northampton_barony.GetNameNoTier](이)가 현재 귀하의 관할권에 속하므로, 저는 여러 지역의 시민과 하급 귀족의 요청에 따라 [northampton_barony.GetNameNoTier]에 매년 12월경에 대규모 특허 박람회를 개최할 권리를 부여했음을 알려드립니다. 이는 지역 경제를 상당히 활성화할 것입니다." # ee10046eb9b0e6cae426d90d8179243b7d211544
+  yorkshire.0086.a: "기쁜 소식이 있습니다!" # bad3b7950d03e704a51acc45e87997592fe4afcd
+  yorkshire.0087.t: "노샘프턴의 특허 장터" # 2bd6e93c4ec0d5a9c0f7e162ee6d5911b29769b5
+  yorkshire.0087.desc: "[northampton_barony.GetNameNoTier]의 지역 유지와 하급 귀족들은 오랫동안 이 지역에 대규모 특허 박람회를 개최할 권리를 부여해 달라고 요구해 왔습니다. 미미한 [ROOT.Char.GetTitleAsNameNoTooltip]에 불과한 저는 그러한 권한을 부여할 권한이 없지만, 이 땅의 [charter_granter.GetTitleAsNameNoTooltip]인 [charter_granter.GetTitledFirstName]에게 청원하여 그렇게 할 수 있습니다. 하지만 그들에게 이 일의 장점을 설득하려면 제 노력이 좀 필요할 것입니다." # 957b9150bf2e10e6aa64126261ba3dccd4ea67c0
+  yorkshire.0087.a: "제 청원이 받아들여지기를 바랍니다!" # 2058966f0d0b7e0a7c268d599fcd23230d55a5ea
+  yorkshire.0088.opening: "[northampton_owner.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # 5684f079a8d382d94e032591be4cb57ce29d5801
+  yorkshire.0088.desc: "이 서신이 당신을 좋은 기분으로 찾아뵙기를 바랍니다. [northampton_barony.GetNameNoTier]의 지역 주민과 하급 귀족들이 매년 12월경에 대 헌장 박람회를 개최할 수 있는 권한을 부여해달라고 요청했습니다. 이는 당신의 승인이 필요하므로, 그렇게 하면 지역 경제가 크게 활성화될 것이므로 이 요청을 들어주시기를 청원합니다." # c15d97048bb0e3046cffbd8509e87a80a6f5cde5
+  yorkshire.0088.a: "알겠습니다. 허락해 드리겠습니다." # b88ff51bf08367770cdb3538c835d8501d74cf87
+  yorkshire.0089.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # bc2976be7c67bf2b3d173ffea9d487d96d2ba04e
+  yorkshire.0089.desc: "저는 매년 12월경에 [northampton_barony.GetNameNoTier]에 대규모 특허 박람회를 개최할 수 있는 권한을 부여해 달라는 귀하의 요청을 신중히 검토했습니다. 이것은 훌륭한 아이디어이며, 귀하의 주도에 대해 칭찬합니다. 이에 [northampton_barony.GetNameNoTier]에 그러한 특권을 부여합니다. 이제 이것이 이 지역에 더 많은 번영을 가져다주기를 바랍니다!" # 98fccc9de23e63e1d33e555dc88876369773720b
+  yorkshire.0089.a: "다행이네요!" # 3e1b17473d562e37edaaff061b5a794a066eff98
+  yorkshire.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0091.t: "잉글랜드의 특허 박람회" # ecca5644584ced67ac0ea2da36afd0b29d479403
+  yorkshire.0091.desc: "오랜 세월 동안 잉글랜드, 웨일스, 콘월의 여러 도시들은 왕실 관리로부터 소위 특허 시장을 열 수 있는 특권을 부여받았습니다. 이러한 연례 시장은 많은 정착지에 번영의 중요한 원천이 되었지만, 일부는 더 많은 사업을 유치하는 면에서 다른 곳보다 뛰어납니다.\n\n특히, 몇몇 시장은 최근에 가장 두드러지게 되었는데, 예를 들어 사순절 중반의 [stamford_barony.GetNameNoTier] 시장, 7월의 [boston_barony.GetNameNoTier] 시장, 9월의 [winchester_barony.GetNameNoTier] 시장, 11월의 [northampton_barony.GetNameNoTier] 시장 등이 있습니다. 결과적으로 이러한 시장들은 일종의 연속적인 순서를 형성하여 현지 상인과 멀리 떨어진 외국인 모두에게 매우 인기가 높으며, 다른 곳의 보조 시장들이 그 사이를 메우고 있습니다." # 1e2ee75465cba48b212c4a3e6298db98ce29ecd3
+  yorkshire.0091.a: "지역 경제가 활발해 보입니다!" # e7245c04f095e3c19f61ff5f38c88d7b7f196a4e
+  yorkshire.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0100.t: "셰필드 칼붙이" # 1cbeed0b9ad0a5a7ad183c781bfeb5d35301021e
+  yorkshire.0100.desc: "떠돌이 상인이 마을에 왔는데, 마침 [sheffield_barony.GetNameNoTier]에서 만든 칼붙이를 팔고 있습니다. 마을은 칼붙이 생산 중심지로 명성을 얻고 있으며, 모두가 이 칼붙이의 높은 품질을 알고 있습니다." # d3ee8520f80ee47821b4e8a09df407061e0be9ed
+  yorkshire.0100.a: "구매하고 싶습니다!" # 567f1369e81820674a45fb87d40d39561c62d364
+  yorkshire.0101.t: "스탬퍼드 웨어" # f89dae03bfefc835c1aedfe554ed10e3ad042c6e
+  yorkshire.0101.desc: "[stamford_barony.GetNameNoTier]는 잉글랜드 전역에 걸쳐 많은 고급 유약 도자기를 공급하는 곳이며, 많은 도공들이 이곳에서 가마를 운영합니다. 그 품질 수준이 항상 대륙의 비슷한 도자기와 견줄 만한 것은 아니지만, 그럼에도 불구하고 좋은 제품으로 여겨지며, 주석 대신 은을 약간 사용한다는 점에서 전형적인 잉글랜드 유약 도자기 중에서는 독특합니다. 어쨌든, 저는 순회 상인에게서 온 것을 살 기회를 얻었습니다." # a89ed3797f29b58d8b0ad2ecea04691f6a48c791
+  yorkshire.0101.a: "내 연회를 위한 새 투수와 그릇이라니 좋은 소리인데!" # 30f1b8a3a7d38ed694704e9fa5523293bb454d0b
+  yorkshire.0101.b: "제 하인들이 물건을 들고 다닐 수 있도록 항아리와 단지를 주세요." # c9838bb26c81f667f2a5f7d6736753a3f09c9448
+  yorkshire.0101.c: "집 장식으로 살 수 있는 멋진 도자기가 있나요?" # f5d3ce3a0c14a7e9ad1dc46a9ecccbe1aaa98059
+  yorkshire.0101.d: "지금은 도자기가 필요 없을 것 같습니다." # 07824b94995f9cdf21fc9785c6961f937a6cf8bf
+  yorkshire.0102.t: "휘트비 뱀돌" # 67a62e4a17015a80f221ba0dbf00373f222adf84
+  yorkshire.0102.desc: "저는 [whitby_barony.GetNameNoTier]의 지역 귀족을 방문하고 있습니다. 그는 그곳에서 발견한 아름다운 뱀돌을 보여주고 있습니다. 이 특이한 유물은 [whitby_barony.GetNameNoTier]에 풍부합니다.\n\n일부 사람들은 이것들이 성인 남녀에 의해 돌로 변한 뱀이라고 말합니다. [whitby_barony.GetNameNoTier]에서는 오래전 수녀원장이었던 성녀 힐다가 이 위대한 기적의 원인이라고 여겨집니다. 자연 철학자나 학식 있는 사람들은 이 돌이 폭풍이나 지구 광물의 변화와 같은 자연 현상의 결과일 가능성이 높다고 말합니다.\n\n제 지인은 그 문제의 진실에 대해 확신이 없다고 말하지만, 그는 단순히 이러한 돌들의 기하학적 아름다움, 특히 자신이 소유한 돌을 감상하기를 좋아한다고 말합니다." # 79561466f31c8d9d742457e981096951bb3d52be
+  yorkshire.0102.a: "분명히 신성한 사람들의 일종의 기적이었습니다." # 42291aa701fbd2d1beaf67d142886bda95002e74
+  yorkshire.0102.b: "학자들은 그것이 자연적인 현상이라고 말합니다. 저는 그들의 말을 신뢰합니다." # cf00950be4f31c8c8c122c05285e78671fda9290
+  yorkshire.0102.c: "네, 무엇이든 간에, 그 아름다움을 감탄해 봅시다!" # 03bda990bcc873dd10a98f152de631617358fa37
+  yorkshire.0102.d: "그들은 재미없어 보입니다 - 다른 것을 보여주실 수 있나요?" # 6757478d82fec10b3e85413205ea75bbd17121fc
+  yorkshire.0103.t: "요크 계곡" # 67d3deacf8916b5f92dfd07487a3c4d8f4b03406
+  yorkshire.0103.desc: "요크 계곡은 로마 시대 이전부터 [york_barony.GetNameNoTier] 서쪽에 위치한 주로 농업에 사용되는 평지 지역입니다. 그곳의 비옥한 땅에서 최근에는 평소보다 훨씬 더 풍부한 수확이 이루어지고 있습니다." # b9811fb6dbadb0281ed7596671120485f4272b32
+  yorkshire.0103.a: "좋습니다!" # daba14a2604c250f3a416e32ba8f2f27a84dd8d4
+  yorkshire.0104.t: "크나르와 주문" # a5268fd1cd48f45933d22c5714704fa4045c0562
+  yorkshire.0104.desc: "요크셔에서 크누르 앤 스펠이라는 게임이 점점 인기를 얻고 있으며, 특히 선술집과 펍의 평민들 사이에서 유행하고 있습니다. 심지어 귀족들도 이 게임을 즐기기 시작했습니다.\n\n이 게임에서 플레이어는 막대기(#italic 스펠#!)로 공(#italic 크누르#!)을 최대한 세게 치려고 시도합니다. 몇 라운드를 거친 후, 평균적으로 공을 가장 멀리 친 플레이어가 승자로 선언됩니다.\n\n어쨌든, 저는 여러 지인들과 이 게임을 하도록 초대받았습니다. 이런 종류의 스포츠에서 제 능력을 보여줄 좋은 기회가 될 수 있습니다." # 567eb28547379f5d82040694e7db324fc06495b9
+  yorkshire.0104.a: "재밌을 것 같네요!" # 005cb218944c874373b4542dbce5013e461269a6
+  yorkshire.0104.b: "이런 사소한 유희에는 관심이 없습니다." # 47da42f6844f7cfaf0cb7a6b7214ea5478fb7cfe
+  yorkshire.0104.tooltip: "#italic 크누르 앤 스펠# 게임을 플레이하세요! - 아마도 #bold 승리#하여 다른 사람들에게 깊은 인상을 남길 수도 있습니다!" # 403ff140e4616bef41b989ea12e0a198121402f0
+  yorkshire.0104.toast.win: "당신이 이겼습니다!" # e3a4b01eaca8944c868dafa953c0012dc4d4977f
+  yorkshire.0104.toast.lose: "당신이 졌습니다!" # 808fe2e74bfaa31b6eb4d8483cb238f3f9c5fba3
+  yorkshire.0105.t: "웬슬리데일 치즈" # c83c7e82e44ec1b6d3948ae6410a222693f9b321
+  yorkshire.0105.desc: "[north_riding_county.GetNameNoTier]의 작은 계곡인 웬슬리데일은 오래전 그곳에 정착하여 이 지역에 조리법을 소개한 프랑스 로크포르 출신의 수도사들이 만든 맛있는 치즈를 생산하는 것으로 이 지역에서 알려져 있습니다. 어쨌든 일부 지역 주민들이 이 치즈를 선물로 저에게 가져다주었습니다." # 9e8d4d2f8a7a9e67105cab3537010ced60bfe780
+  yorkshire.0105.a: "연회에 훌륭한 일부가 될 것입니다!" # a99faf7920378de1144d9e083b1b24937dfe2fad
+  yorkshire.0106.t: "알쿠인" # 5750ad0e042afd20f1b7280f3489e74c63f321dd
+  yorkshire.0106.desc: ""몸보다 영혼을 더 소중히 여기십시오. 영혼은 남고 몸은 사라지기 때문입니다."\n\n"그리고 '민중의 목소리가 신의 목소리다'라고 계속 말하는 자들의 말에 귀 기울이지 마십시오. 군중의 소란은 항상 광기에 가깝기 때문입니다."" # af31fa6f35e884e76fca8230655d2da17ca4b5e9
+  yorkshire.0106.a: "첫 번째 인용문이 나를 부르네 - 우리는 영적인 세계를 생각해야만 해!" # c59811d40c332df73eca7405772b3456a363ae9a
+  yorkshire.0106.b: "두 번째 인용문은 좋습니다. 대중은 기껏해야 다루기 힘든 폭도입니다." # 8a8e9c48d076b7ad4117d5ef64ce66826db4d61b
+  yorkshire.0107.t: "케드몬의 찬가" # ccdb6e05b21c551fc41d0f1e9a251fbd05ab56a3
+  yorkshire.0107.desc: "7세기 앵글로색슨 시인 케드몬은 [whitby_barony.GetNameNoTier] 수도원에서 소치는 목동이자 나중에는 수도승으로 살았습니다. 그의 가장 유명한 작품인 '케드몬의 찬가'를 오늘 지역 시인이 저에게 낭송해 주고, 그 후 원고 사본을 선물해 주려 합니다.\n\n#italic 이제 우리는 하늘의 수호자,#!\n#italic 건축가의 힘과 그의 목적,#!\n#italic 영광의 아버지의 업적을 존경해야 합니다#!\n#italic 영원한 주님께서 모든 경이로움의 기원을 세우셨으니;#!\n#italic 그분께서 인류의 자녀를 위해 처음으로 창조하셨네#!\n#italic 지붕으로서의 하늘을, 거룩한 창조자여.#!\n#italic 그런 다음 인류의 수호자여,#!\n#italic 영원한 주님, 그 후 중간 구역을 지정하셨네,#!\n#italic 인간을 위한 땅을, 전능하신 주님.#!" # 9b513cebfa967cbaec7c1a7b046f14d61c68d381
+  yorkshire.0107.a: "정말 아름답고 감명 깊은 시네요!" # f95d48cc36ad48982e07a8636ab85e9ad18bf55d
+  yorkshire.0108.t: "크롤랜드의 성 구틀락" # fb8c7609f0edaede7ba75e6d6bd0af4e5b58acc1
+  yorkshire.0108.desc: "크로울랜드의 성 구슬락은 [lincolnshire_county.GetNameNoTier]에서 숭배받는 인기 있는 지역 성인입니다. 크로울랜드 수도원의 그의 성지는 항상 지역 순례자들에게 인기가 있었고 치유력으로 명성이 높았지만, 최근 들어 평소보다 더 많은 사람들이 찾아오고 있습니다." # 983d52ea1bc40e1dfabc0741dc9b04ce39feb8cf
+  yorkshire.0108.a: "이것은 경제적으로나 정신적으로 그 지역에 도움이 될 것입니다!" # f6e311019a59f1fa1ea0f5844d511cb990fb6e45
+  yorkshire.0109.t: "스웨일 강" # 62cde077ad8fc02693cd31a6d8531731cd659cf8
+  yorkshire.0109.desc: "수 세대에 걸쳐 잉글랜드에서 가장 빠르게 흐르는 강 중 하나인 [north_riding_county.GetNameNoTier]의 스웨일 강 주변 지역은 납 광업의 지역 중심지였습니다. 최근 이 지역에서 납 수요가 증가하면서 납 산업이 경제적 호황을 누리고 있습니다." # e111c5478b2475222f40182ed82e47ceca64dd9b
+  yorkshire.0109.a: "좋아요, 좋아요." # 4a58b48c57238bda889fe4ba4c9a4a443c314895
+  yorkshire.0110.t: "페니 헤지" # 73dddb3abb430d1d047cf21abf54be09f618b493
+  yorkshire.0110.desc: "[whitby_barony.GetNameNoTier]의 지역 전설에 따르면, 이 마을의 전통 중 하나인 #bold 페니 헤지#!에 대한 이야기가 전해져 옵니다. 전설에 따르면, 세 명의 지역 귀족이 멧돼지를 쫓아 인근 숲에서 사냥을 하고 있었습니다. 멧돼지는 친절한 은둔자의 거처로 들어갔고, 은둔자는 사냥꾼들이 지나가는 것을 허락하지 않았습니다. 사냥꾼들은 살육욕에 불타올라 은둔자가 자신들의 앞길을 막은 것에 분노하여 은둔자를 죽였습니다. 사냥꾼들은 격렬한 감정 속에서 저지른 행동에 경악했습니다. 은둔자는 죽어가면서 그들에게 [ROOT.Char.GetFaith.HighGodName]께서 그들과 그들의 후손들이 매년 의식을 행한다면 그들의 죄를 용서해 주실 것이라고 말했습니다.\n\n그 이후로, 휘트비 사람들은 매년 말뚝을 엮어 짧은 울타리를 만드는 의식을 거행합니다. 그들은 에스크 강을 따라 큰 의식을 치르며 울타리를 세우고, 울타리가 세 번의 조수를 견뎌내야 합니다." # c21e8e9e802b1647b9458e0d16f9a7424fba2291
+  yorkshire.0110.a: "재미있는 이야기이긴 하지만, 실제로 일어난 일이라고는 생각되지 않아요." # d2957276ec2a929c54c557993da2322df24926e1
+  yorkshire.0110.b: "도덕적인 이야기이며, [whitby_barony.GetNameNoTier]의 사람들이 그것을 기억하는 것은 좋은 일입니다." # 0b2385dbb51fdfd8489144d8dfd73abb2c4f04cd
+  yorkshire.0111.t: "암소와 송아지" # ba53d6356961ce83301f0a6a06fb69fdab954fd9
+  yorkshire.0111.desc: "저는 [west_riding_county.GetNameNoTier]를 지나가고 있는데, 특히 #bold 일클리 무어#!로 알려진 지역을 지나고 있습니다. 그곳에는 '암소와 송아지'를 닮았다 하여 현지인들이 그렇게 부르는 거대한 암석 지형이 있습니다. 지역 전설에 따르면, 그 두 바위는 예전에 하나였으나 한때 요크셔에 살았던 거인 롬볼트가 그의 아내이자 적의 분노를 피해 도망치던 중 쫓기다가 실수로 바위를 밟아 두 개로 갈라졌다고 합니다.\n\n어쨌든, 매우 아름다운 광경이며, 바위들은 나머지 풀과 하늘을 배경으로 매우 우아하게 자리 잡고 있습니다." # 1878b50ae061ca8c3a367a408fe8ed50febc4a11
+  yorkshire.0111.a: "자연에 이런 경이로움이 존재하다니!" # f787a80debd4a4f8018cb6e6a7ee194478cd9d4e
+  yorkshire.0112.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0112.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0112.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0113.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0113.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0113.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0114.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0114.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0114.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0115.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0115.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0115.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0116.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0116.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0116.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0117.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0117.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0117.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0118.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0118.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0118.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0119.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0119.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0119.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0120.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0120.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0120.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0121.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0121.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0121.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0122.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0122.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0122.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0123.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0123.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0123.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0124.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0124.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0124.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0125.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0125.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0125.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0126.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0126.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0126.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0127.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0127.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0127.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0128.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0128.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0128.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0129.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0129.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0129.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0130.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0130.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0130.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0131.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0131.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0131.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0132.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0132.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0132.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0133.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0133.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0133.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0134.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0134.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0134.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0135.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0135.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0135.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0136.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0136.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0136.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0137.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0137.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0137.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0138.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0138.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0138.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0139.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0139.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0139.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0140.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0140.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0140.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0141.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0141.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0141.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0142.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0142.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0142.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0143.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0143.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0143.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0144.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0144.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0144.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0145.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0145.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0145.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0146.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0146.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0146.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0147.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0147.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0147.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0148.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0148.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0148.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0149.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0149.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0149.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0150.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0150.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0150.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0151.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0151.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0151.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0152.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0152.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0152.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0153.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0153.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0153.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0154.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0154.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0154.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0155.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0155.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0155.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0156.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0156.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0156.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0157.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0157.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0157.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0158.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0158.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0158.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0159.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0159.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0159.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0160.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0160.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0160.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0161.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0161.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0161.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0162.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0162.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0162.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0163.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0163.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0163.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0164.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0164.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0164.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0165.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0165.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0165.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0166.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0166.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0166.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0167.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0167.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0167.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0168.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0168.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0168.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0169.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0169.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0169.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0170.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0170.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0170.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0171.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0171.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0171.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0172.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0172.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0172.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0173.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0173.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0173.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0174.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0174.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0174.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0175.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0175.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0175.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0176.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0176.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0176.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0177.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0177.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0177.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0178.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0178.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0178.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0179.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0179.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0179.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0180.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0180.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0180.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0181.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0181.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0181.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0182.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0182.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0182.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0183.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0183.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0183.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0184.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0184.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0184.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0185.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0185.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0185.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0186.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0186.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0186.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0187.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0187.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0187.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0188.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0188.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0188.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0189.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0189.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0189.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0190.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0190.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0190.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0191.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0191.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0191.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0192.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0192.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0192.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0193.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0193.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0193.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0194.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0194.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0194.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0195.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0195.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0195.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0196.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0196.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0196.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0197.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0197.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0197.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0198.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0198.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0198.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0199.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0199.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0199.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  yorkshire.0100.b: "네, 알겠습니다." # 83eadeb12c800133451e081a25048fe346c35e0e
