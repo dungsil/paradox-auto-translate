@@ -18,8 +18,8 @@ importers:
         specifier: 22.10.2
         version: 22.10.2
       consola:
-        specifier: 3.3.0
-        version: 3.3.0
+        specifier: 3.3.3
+        version: 3.3.3
       dotenv:
         specifier: 16.4.7
         version: 16.4.7
@@ -69,8 +69,8 @@ packages:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
 
-  consola@3.3.0:
-    resolution: {integrity: sha512-kxltocVQCwQNFvw40dlVRYeAkAvtYjMFZYNlOcsF5wExPpGwPxMwgx4IfDJvBRPtBpnQwItd5WkTaR0ZwT/TmQ==}
+  consola@3.3.3:
+    resolution: {integrity: sha512-Qil5KwghMzlqd51UXM0b6fyaGHtOC22scxrwrz4A2882LyUMwQjnvaedN1HAeXzphspQ6CpHkzMAWxBTUruDLg==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
   delayed-stream@1.0.0:
@@ -202,7 +202,7 @@ snapshots:
     dependencies:
       delayed-stream: 1.0.0
 
-  consola@3.3.0: {}
+  consola@3.3.3: {}
 
   delayed-stream@1.0.0: {}
 
