@@ -33,6 +33,7 @@ const dictionaries: Record<string, string> = {
   satis: '사티스',
   satjit: '사티스',
   senate: '원로원',
+  sinhala: '싱할라어',
   stewardship: '관리력',
   tutu: '투투',
   'very good': '아주 좋군',

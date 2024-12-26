@@ -54,7 +54,9 @@ export async function processModTranslations ({ rootDir, mods }: ModTranslations
 
 async function processLanguageFile (mode: string, sourceDir: string, targetBaseDir: string, file: string, sourceLanguage: string): Promise<void> {
   const sourcePath = join(sourceDir, file)
-  const targetPath = join(targetBaseDir, file.replace(`_l_${sourceLanguage}.yml`, '_l_korean.yml'))
+
+  // 파일 순서를 최상위로 유지해 덮어쓸 수 있도록 앞에 '___'를 붙임 (ex: `___00_culture_l_english.yml`)
+  const targetPath = join(targetBaseDir, '___' + file.replace(`_l_${sourceLanguage}.yml`, '_l_korean.yml'))
 
   let targetContent = ''
   try {
