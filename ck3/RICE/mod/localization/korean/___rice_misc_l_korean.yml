@@ -182,7 +182,7 @@
   activity_RICE_hot_springs_visit_conclusion_desc: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]이 끝났습니다. 즐겁고 편안한 경험이었습니다!" # c2abb609ca0fc4c34766636a70b8582cde1d75ba
   RICE_hot_springs_visit_type: "방문 유형" # 14f11d4c4e94218d839268cc4a03bd40b1a6beaf
   RICE_hot_springs_visit_type_public: "공개" # dc5eb704bbcae1aff4efb71c55461d47767dabe7
-  RICE_hot_springs_visit_type_public_desc: "$EFFECT_LIST_BULLET$ 선택한 [온천|E]로의 고급스러운 공개 여행입니다. 현지인들은 방문객의 만족을 위해 최선을 다할 것입니다.\n$EFFECT_LIST_BULLET$ #bold 개인적인#! 방문에 비해 더 많은 [명성_i][명성|E]를 얻지만, [스트레스_손실_i|E] [스트레스|E]는 더 적게 잃습니다.\n\n#weak 다른 사람들과 함께하지 않고 어떻게 휴식을 취할 수 있을까요? 즐거운 시간에 다른 사람을 피하는 사람만이 사회적으로나 개인적으로 무능한 사람일 것입니다!#!" # d2ca18e3f1f12e67e4914fd5393188b533a00542
+  RICE_hot_springs_visit_type_public_desc: "$EFFECT_LIST_BULLET$ 선택한 [온천|E]로의 고급스러운 공개 여행입니다. 현지인들은 방문객의 만족을 위해 최선을 다할 것입니다.\n$EFFECT_LIST_BULLET$ #bold 개인적인#! 방문에 비해 더 많은 [명성_i][명성|E]를 얻지만, [stress_loss_i|E] [stress|E]는 더 적게 잃습니다.\n\n#weak 다른 사람들과 함께하지 않고 어떻게 휴식을 취할 수 있을까요? 즐거운 시간에 다른 사람을 피하는 사람만이 사회적으로나 개인적으로 무능한 사람일 것입니다!#!" # d2ca18e3f1f12e67e4914fd5393188b533a00542
   RICE_hot_springs_visit_type_private: "개인" # 237dfa0a21c8e17a7276cf161eef7e0fba067c47
   RICE_hot_springs_visit_type_private_desc: "$EFFECT_LIST_BULLET$ 선택하신 [hot_springs|E]로의 개인 여행이 될 것이며, 눈에 띄지 않게 조용히 휴식을 취할 수 있습니다.\n$EFFECT_LIST_BULLET$ #bold 공개#! 방문에 비해 더 많은 [stress_loss_i|E] [stress|E]를 줄이지만, [prestige_i][prestige|E]는 더 적게 얻습니다. (또는 방문하는 장소에 따라 전혀 얻지 못할 수도 있습니다.)\n\n#weak 다른 사람이 있어야 즐거운 사람은 자기 자신에게 편안함을 느끼지 못합니다. 조용하고 평화로운 환경에서 휴식을 취하는 것이 가장 좋습니다.#!" # b5a8f6c7a588c1f7045f1e15fb27413127c71a5a
   RICE_hot_springs_visit_leisure_phase: "여가" # 540c98ab5802a4a1fd4ab4d87311796148c2e3fd
@@ -197,7 +197,7 @@
   activity_RICE_local_pilgrimage_desc: "세계에는 지역 성지가 많이 있습니다. 이러한 장소는 [faithpossessive|E] 주요 [holy_sites|E]만큼 눈에 띄지는 않아서 장거리 [pilgrimages|E]의 대상이 되는 경우는 드물지만, 여전히 주변 지역의 신도들을 끌어들입니다." # 051065496bb4e5ae0741a84d0065ba5d23fa0376
   activity_RICE_local_pilgrimage_selection_tooltip: "[local_순례|E]를 떠납니다.\n\n$activity_RICE_local_pilgrimage_context_tooltip$" # b3f41953177a1db1039f02afa5908aa2aac8b602
   activity_RICE_local_pilgrimage_context_tooltip: "#emphasis 역사적 배경:#! 순례는 종종 메카, 예루살렘, 산티아고, 보드가야와 같은 유명한 종교 성지로의 웅장한 여정을 떠올리게 하지만, 지역적인 목적지로의 순례도 흔했습니다. 이들 중 일부는 유명한 성지보다 더 오랫동안 숭배와 숭상의 중심지였습니다. 그들은 종종 지역 전설 및 문화와 관련이 있으며, 여행이 어려웠던 전근대 시대에는 이러한 장소로 여행하는 것이 더 실용적이었습니다." # fca48c14cc237f31ee57633ed1c259de3a3d65f7
-  activity_RICE_local_pilgrimage_host_desc: "$BULLET_WITH_TAB$ [신앙도_i|E][신앙도|E] 획득\n$BULLET_WITH_TAB$ [스트레스_손실_i|E] [스트레스|E] 상실\n$BULLET_WITH_TAB$ [GetTrait('pilgrim').GetName( GetNullCharacter )] [특성|E] / [GetTrait('pilgrim').GetName( GetNullCharacter )] [특성_수준_추적_경험치|E]" # a3664c865b811a9d3e718e2be7abdeb98415dfc7
+  activity_RICE_local_pilgrimage_host_desc: "$BULLET_WITH_TAB$ [신앙도_i|E][신앙도|E] 획득\n$BULLET_WITH_TAB$ [stress_loss_i|E] [stress|E] 상실\n$BULLET_WITH_TAB$ [GetTrait('pilgrim').GetName( GetNullCharacter )] [특성|E] / [GetTrait('pilgrim').GetName( GetNullCharacter )] [특성_수준_추적_경험치|E]" # a3664c865b811a9d3e718e2be7abdeb98415dfc7
   activity_RICE_local_pilgrimage_guest_desc: "$activity_RICE_local_pilgrimage_host_desc$" # 53a82f3f678fb6abbff6f3ac8bc81b6b481bb20b
   activity_RICE_local_pilgrimage_destination_selection: "$activity_RICE_local_pilgrimage_province_desc$" # 39b82e8f43b74205ba378721be54c062b1528b14
   activity_RICE_local_pilgrimage_guest_help_text: "$activity_RICE_local_pilgrimage$" # ffaa3471c1d5b6794c67680fd4a6be3fdc78d0a2

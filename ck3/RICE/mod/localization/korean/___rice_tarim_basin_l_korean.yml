@@ -199,12 +199,12 @@
   activity_RICE_tarim_basin_crescent_lake_visit: "크레센트 호수 방문" # 55f6225f1d78b769c5e55a2e4ee0236496520baf
   activity_RICE_tarim_basin_crescent_lake_visit_desc: "둔황 도시 근처 주요 지리적 명소 중 하나는 소위 초승달 호수입니다. 사막 한가운데 자리 잡은 규모가 꽤 큰 호수로, 둔황의 유명한 노래하는 모래 언덕 옆에 위치하고 있습니다. 주변에 거주하는 많은 사람들이 휴식과 즐거움을 찾아 그곳을 찾습니다." # 4451eb4152c349bd01d699cecce93baaa567b34b
   activity_RICE_tarim_basin_crescent_lake_visit_selection_tooltip: "[GetTitleByKey('c_shazhou').GetNameNoTier]의 휘황찬란한 샤즈후에서, \n크레센트 호수로 향하십시오.\n\n\n$RICE_tarim_basin_visit_crescent_lake_context_tooltip$" # 0349d8b4d4552918021d57a229634733faed3ce3
-  activity_RICE_tarim_basin_crescent_lake_visit_host_desc: "$BULLET_WITH_TAB$[스트레스_손실_i|E] [스트레스|E] 손실\n$BULLET_WITH_TAB$[경건_i] [경건|E]\n$BULLET_WITH_TAB$[명성_i] [명성|E]\n$BULLET_WITH_TAB$[쌀_타림분지_둔황_달마사_방문_수정.이름가지툴팁] [캐릭터_수정|E]" # 38abe4aa27c1fb20c866b716e0e6d1cd88dce69b
-  activity_RICE_tarim_basin_crescent_lake_visit_guest_desc: "[스트레스_손실_i|E] [스트레스|E]를 잃고 [신앙심_i] [신앙심|E], [명예_i] [명예|E], 그리고 [GetModifier('RICE_타림분지_둔황_반월호_방문').GetNameWithTooltip] [캐릭터_수정자|E]를 얻으십시오." # b1b38083b0a6d43de3467bddbff6ef17ca6144b5
+  activity_RICE_tarim_basin_crescent_lake_visit_host_desc: "$BULLET_WITH_TAB$[stress_loss_i|E] [stress|E] 손실\n$BULLET_WITH_TAB$[경건_i] [경건|E]\n$BULLET_WITH_TAB$[명성_i] [명성|E]\n$BULLET_WITH_TAB$[쌀_타림분지_둔황_달마사_방문_수정.이름가지툴팁] [캐릭터_수정|E]" # 38abe4aa27c1fb20c866b716e0e6d1cd88dce69b
+  activity_RICE_tarim_basin_crescent_lake_visit_guest_desc: "[stress_loss_i|E] [stress|E]를 잃고 [신앙심_i] [신앙심|E], [명예_i] [명예|E], 그리고 [GetModifier('RICE_타림분지_둔황_반월호_방문').GetNameWithTooltip] [캐릭터_수정자|E]를 얻으십시오." # b1b38083b0a6d43de3467bddbff6ef17ca6144b5
   activity_RICE_tarim_basin_crescent_lake_visit_province_desc: "여기에 휘황찬란한 섬호수가 있습니다." # 7a179361bfdfecbb5707b7a3c197f89159519974
   activity_RICE_tarim_basin_crescent_lake_visit_destination_selection: "$activity_RICE_tarim_basin_crescent_lake_visit_province_desc$" # 737c8db80464286bec2dba5a2237d790482aa5e5
   activity_RICE_tarim_basin_crescent_lake_visit_guest_help_text: "$activity_RICE_tarim_basin_crescent_lake_visit$" # e0605c6cdf3a818720e2483be58c9b6c755b743e
-  activity_RICE_tarim_basin_crescent_lake_visit_predicted_cost: "이 방문의 비용은 주로 귀하의 [소득|E]에 기반합니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
+  activity_RICE_tarim_basin_crescent_lake_visit_predicted_cost: "이 방문의 비용은 주로 귀하의 [income|E]에 기반합니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
   activity_RICE_tarim_basin_crescent_lake_visit_conclusion_desc: "[GetActivityType( 'activity_RICE_tarim_basin_crescent_lake_visit' ).GetName] 행사가 마무리되었습니다. 여유로운 휴식과 즐거움으로 가득 찬 아름다운 하루였습니다!" # 0e1a8776134f9996a6510df18f8d7d95ff208976
   RICE_tarim_basin_crescent_lake_visit_leisure_phase: "여가" # 540c98ab5802a4a1fd4ab4d87311796148c2e3fd
   RICE_tarim_basin_crescent_lake_visit_leisure_phase_desc: "휴식을 취하는 시간만큼 좋은 건 없지!" # 8e8cd204467cda578e5ec623fc266769ef1daf24
@@ -263,7 +263,7 @@
   activity_RICE_tarim_basin_ordam_mazar_province_desc: "오르담 마자르는 [GetTitleByKey('b_kashgar').GetNameNoTier]에 있습니다." # 263bd53d687181757d918b804c4ffdafa1c7d100
   activity_RICE_tarim_basin_ordam_mazar_destination_selection: "$activity_RICE_tarim_basin_ordam_mazar_province_desc$" # b31851056d97417758e9231dee62c7447c73d357
   activity_RICE_tarim_basin_ordam_mazar_guest_help_text: "$activity_RICE_tarim_basin_ordam_mazar$" # ebedbb46ffc6bb7eaf28626b566cd5347b386fb0
-  activity_RICE_tarim_basin_ordam_mazar_predicted_cost: "이 방문의 비용은 주로 귀하의 [소득|E]에 기반합니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
+  activity_RICE_tarim_basin_ordam_mazar_predicted_cost: "이 방문의 비용은 주로 귀하의 [income|E]에 기반합니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
   activity_RICE_tarim_basin_ordam_mazar_conclusion_desc: "[GetActivityType( 'activity_RICE_tarim_basin_ordam_mazar' ).GetName]이 마무리되었습니다.  [GetPlayer.GetFaith.HighGodName]의 이름으로 희생하신 분들을 영원히 기억하겠습니다!" # 9db05f991011a11451f4dbf7038e9c6112b04c3c
   RICE_tarim_basin_ordam_mazar_tomb_upkeep_type: "묘지 유지 관리" # d6769a07e1c2d1eafc5d85587c4bf99231c7a54e
   RICE_tarim_basin_ordam_mazar_tomb_upkeep_type_none: "도움 없음" # 7a595d2ebba4a0dea0be7a5e58a457e44170356b
@@ -630,7 +630,7 @@
   RICE_community_east_african_option_tooltip: "동아프리카에서 이곳으로 오는 민족들은 기원이 다양하며, 상인, 모험가, 노예 등을 포함합니다. 이제 [GetModifier('RICE_tarim_basin_east_african_contacts').GetNameWithTooltip]을 개선할 때입니다!\n\n#weak 이 옵션은 [special_troops|E]와 [character_modifiers|E]의 선물 량과 획득 가능성을 높이며, 지역 [silk_road_communities|E]로부터 [scheme_resistance|E]와 [prowess|E]를 향상시키는 선물을 제공합니다. 그리고 $RICE_silk_road_community_east_african_decision$ 결정을 해제합니다.\n\n이 옵션은 [GetGeographicalRegion('RICE_maritime_silk_road_region').GetName] 연안의 영지를 소유해야 합니다!" # 51f6856c0f896fee1ee67af584fa71aa0533967a
   RICE_community_southeast_asian_option: "#Bold #V 동남아시아#!#!\n인도양을 정복한 항해사들" # 5b3f080cb321ff050a831a9b8a5beeeec07a5053
   RICE_community_southeast_asian_option_desc: "동남아시아의 진취적이고 모험적인 자들은 지원을 받아 마땅합니다." # 1b72c62cdf4f5803f4c104889fc8298fddc30cfb
-  RICE_community_southeast_asian_option_tooltip: "동남아시아의 왕국과 도시들은 인도양을 가로지르는 해상 네트워크에서 중요한 역할을 합니다. 그들의 네트워크에 우리 자신을 통합하는 것은 수익성이 있을 수 있습니다. 이제 [GetModifier('RICE_tarim_basin_southeast_asian_contacts').GetNameWithTooltip]를 개선할 때입니다!\n\n#weak 이 옵션은 해상 [지형|E]의 [이동 속도|E]를 향상시키고 [이동 위험|E]를 감소시키며, 현지 [실크로드 공동체|E]의 [건강|E], [생산성|E], 그리고 [스트레스|E]를 완화하는 [등급|E] 선물을 더 많이 받고, 그 가능성을 높여줍니다. 그리고 $RICE_silk_road_community_southeast_asian_decision$ 결정을 해제합니다.\n\n이 옵션은 [GetGeographicalRegion('RICE_maritime_silk_road_region').GetName] 연안 지역을 소유해야 합니다!" # de78061f61bdf1027e28c402cb68978556f464d6
+  RICE_community_southeast_asian_option_tooltip: "동남아시아의 왕국과 도시들은 인도양을 가로지르는 해상 네트워크에서 중요한 역할을 합니다. 그들의 네트워크에 우리 자신을 통합하는 것은 수익성이 있을 수 있습니다. 이제 [GetModifier('RICE_tarim_basin_southeast_asian_contacts').GetNameWithTooltip]를 개선할 때입니다!\n\n#weak 이 옵션은 해상 [지형|E]의 [이동 속도|E]를 향상시키고 [이동 위험|E]를 감소시키며, 현지 [실크로드 공동체|E]의 [건강|E], [생산성|E], 그리고 [stress|E]를 완화하는 [등급|E] 선물을 더 많이 받고, 그 가능성을 높여줍니다. 그리고 $RICE_silk_road_community_southeast_asian_decision$ 결정을 해제합니다.\n\n이 옵션은 [GetGeographicalRegion('RICE_maritime_silk_road_region').GetName] 연안 지역을 소유해야 합니다!" # de78061f61bdf1027e28c402cb68978556f464d6
   RICE_silk_road_community_east_asian_decision: "동아시아 전문가를 영입합니다" # ec2c2944fc62e3721ed67409abf7648c839fda84
   RICE_silk_road_community_east_asian_decision_tooltip: "그들의 지식은 우리에게 큰 도움이 될 것입니다!" # 3816af33791844aa77e05fde1a3f769667e439f1
   RICE_silk_road_community_east_asian_decision_desc: "지금 내 영역 내의 동아시아 [silk_road_communities_short|E]와 교류를 맺었으니, 이제 그들에게 내 나라에 재능 있는 인재를 찾아오도록 요청해야겠군. 학자부터 기술자, 전략가부터 서예가까지, 먼 곳에서 유명한 전문가들을 많이 유인하여 내게 일하게 할 수 있을 테니까!" # 9cb8dcb8f83db9496a7ccb0431e7167bc70f630e
@@ -689,7 +689,7 @@
   RICE_tarim_basin_attend_ordam_mazar_festival_tooltip: "아리 아르슬란 칸의 순교를 기억합시다." # 670442a39f6fab689601ab2e284f875b16c96eea
   RICE_tarim_basin_attend_ordam_mazar_festival_desc: "#italic 마자르# 혹은 알리 아르슬란 칸의 무덤에 가서 거기서 열리는 오르담 축제에 참석할 때가 되었습니다.  [ROOT.Char.GetFaith.GetReligion.GetName]에 대한 신앙을 확인하고 그분을 기리고 그의 죽음을 애도하는 것이 중요합니다." # c0785e22877d0ed17ff4648b64d5ead6f334564e
   RICE_tarim_basin_attend_ordam_mazar_festival_effect_tooltip_1: "[신앙도|E]와 [명성|E]가 [신앙도_수준|E]에 따라 임의적으로 증가합니다." # 3d91bcbbe9db4fd9c9bbeb3d12940ff2ece3077b
-  RICE_tarim_basin_attend_ordam_mazar_festival_effect_tooltip_2: "다양한 사건들 속에서 [신앙도|E]와 [명성|E]를 얻거나, 또는 [스트레스|E]를 잃는 기회가 있을 것입니다." # 67af8710cdd8f0946344ab8fa057309313b9dde4
+  RICE_tarim_basin_attend_ordam_mazar_festival_effect_tooltip_2: "다양한 사건들 속에서 [신앙도|E]와 [명성|E]를 얻거나, 또는 [stress|E]를 잃는 기회가 있을 것입니다." # 67af8710cdd8f0946344ab8fa057309313b9dde4
   RICE_tarim_basin_attend_ordam_mazar_festival_effect_tooltip_3: "[GetModifier('RICE_tarim_basin_attended_ordam_mazar').GetNameWithTooltip] [character_modifier|E]를 마지막에 받으실 겁니다." # c06b25962cbeb5cfb2d531e3cd0031bc79798780
   RICE_tarim_basin_attend_ordam_mazar_festival_confirm: "#italic 마자르#로 향하는 여정을 준비하십시오." # 2e0fffa0bb1b4f4007ae1621d63d4e90a16937c9
   RICE_tarim_basin_attend_ordam_mazar_festival_context_tooltip: "#강조 역사적 배경:#! #italic 마자르#!는 이슬람 성인, 이맘, 순교자, 기타 성스러운 인물들의 무덤입니다. 중앙아시아에서는 이러한 무덤에서 종종 축제가 열립니다. 타림 분지에서 가장 큰 축제 중 하나는 카라한 왕조의 지배자였던 순교자 알리 아르슬란 칸의 #italic 마자르#!에서 열리는 오르담 축제입니다. 현지 위구르 전설에서는 이슬람 카라한 왕조와 불교 핫한 왕국 사이의 장기 전쟁에서 그의 영웅적인 업적을 이야기합니다." # 8639bbe4bc9916f03176136869239acbf235ea91
@@ -976,7 +976,7 @@
   tarim_basin.0039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
   tarim_basin.0039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
   tarim_basin.0040.t: "만담꾼" # 7140cafdabb9934c4255d333a5a1d24407431023
-  tarim_basin.0040.desc: "모두 아직도 [actor.GetTitledFirstName]가 예전에 선물한 재능 있는 예술가들을 칭찬하고 있습니다. 그중에서도 특히 [entertainer.GetFirstName]라는 [entertainer.GetCulture.GetName] 출신의 예술가가 눈에 띕니다.\n\n“[recipient.GetTitledFirstName]께서," [praiser.GetFirstName]가 어느 날 저에게 말합니다. "저는 여기 모든 사람들의 마음을 대변하여 말씀드릴 수 있습니다. [entertainer.GetFirstName]는 실크로드를 가로질러 본 적이 없는 독특한 예술가이십니다. [entertainer.GetHerHim]를 단순한 하인으로 내버려 두는 것은 아깝습니다. 오히려, [entertainer.GetHerHim]의 훌륭한 봉사에 대한 보상으로, [entertainer.GetSheHe]를 이 궁정의 정식 구성원으로 승진시키는 것이 마땅할 것입니다." \n\n이것은 다소 비정상적인 제안이지만, 전혀 들어보지 못한 것은 아닙니다. 무릎을 꿇은 [entertainer.GetFirstName]에게 [entertainer.GetSheHe]의 생각을 물었을 때, [entertainer.GetSheHe]는 신중하게 선택된 말로 겸손하게 대답합니다. "저는 궁정에 기쁨을 드리고자 할 뿐이며, 저에게 무엇을 요구하시든 기꺼이 따르겠습니다."" # 12b3ece423b4a8daf8146ff6eb0f6ebf9cd803cd
+  tarim_basin.0040.desc: "모두 아직도 [actor.GetTitledFirstName]가 예전에 선물한 재능 있는 예술가들을 칭찬하고 있습니다. 그중에서도 특히 [entertainer.GetFirstName]라는 [entertainer.GetCulture.GetName] 출신의 예술가가 눈에 띕니다.\n\n“[recipient.GetTitledFirstName]께서," [ praiser.GetFirstName ]가 어느 날 저에게 말합니다. "저는 여기 모든 사람들의 마음을 대변하여 말씀드릴 수 있습니다. [entertainer.GetFirstName]는 실크로드를 가로질러 본 적이 없는 독특한 예술가이십니다. [entertainer.GetHerHim]를 단순한 하인으로 내버려 두는 것은 아깝습니다. 오히려, [entertainer.GetHerHim]의 훌륭한 봉사에 대한 보상으로, [entertainer.GetSheHe]를 이 궁정의 정식 구성원으로 승진시키는 것이 마땅할 것입니다." \n\n이것은 다소 비정상적인 제안이지만, 전혀 들어보지 못한 것은 아닙니다. 무릎을 꿇은 [entertainer.GetFirstName]에게 [entertainer.GetSheHe]의 생각을 물었을 때, [entertainer.GetSheHe]는 신중하게 선택된 말로 겸손하게 대답합니다. "저는 궁정에 기쁨을 드리고자 할 뿐이며, 저에게 무엇을 요구하시든 기꺼이 따르겠습니다."" # 12b3ece423b4a8daf8146ff6eb0f6ebf9cd803cd
   tarim_basin.0040.a: "더 많은 것을 받을 자격이 있어.  네게 제대로 된 궁정 신하가 될 기회를 만들어 줄 거야." # 2ac67b160ac3d218aa9f14b8a740d9b9d88e618f
   tarim_basin.0040.b: "네, 감사합니다. 제가 있는 곳이 괜찮습니다." # 8d307b8246e85b747accb836de49d455d344b744
   tarim_basin.0041.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f

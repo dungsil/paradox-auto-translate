@@ -1,5 +1,5 @@
 ﻿l_korean:
-  VIET_activity_result_gained_piety: "[신앙도]가 [piety|E]만큼 증가했습니다." # 9aafd662e6731c1c79359c7e3f1766d7002bda37
+  VIET_activity_result_gained_piety: "[piety_i]가 [piety|E]만큼 증가했습니다." # 9aafd662e6731c1c79359c7e3f1766d7002bda37
   VIET_activity_result_gained_prestige: "[prestige_i] [prestige|E]를 얻었습니다." # 5887ae46c2813817c4a02aa8af430da78c803d58
   VIET_activity_result_gained_dynasty_prestige: "[왕조 명성]이 [dynasty_prestige_i] [dynasty_prestige|E]만큼 상승했습니다." # 30e171bbfb1f2fda6b18dbf40183478d609706f6
   VIET_activity_result_gained_smaller_piety: "[piety_i]의 [piety|E]가 조금 증가했습니다." # b7f9b19efbffa8bc018489c08c2f4c9169a6f7a2
@@ -12,7 +12,7 @@
   activity_VIET_view_flower_meadows_in_bloom_province_desc: "이곳의 꽃밭은 유명합니다." # 41eb2d291a1a7da97a8e2e1cd6479a6ded072cf2
   activity_VIET_view_flower_meadows_in_bloom_destination_selection: "$activity_VIET_view_flower_meadows_in_bloom_province_desc$" # e105b654c5e548dea92848316031bdd7fa67e3e0
   activity_VIET_view_flower_meadows_in_bloom_guest_help_text: "$activity_VIET_view_flower_meadows_in_bloom$" # 59bde5b87bdaabade88d0fd187530a37c8c5b8d7
-  activity_VIET_view_flower_meadows_in_bloom_predicted_cost: "이 방문의 비용은 주로 귀하의 [소득|E]에 기반합니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
+  activity_VIET_view_flower_meadows_in_bloom_predicted_cost: "이 방문의 비용은 주로 귀하의 [income|E]에 기반합니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
   activity_VIET_view_flower_meadows_in_bloom_conclusion_desc: "[GetActivityType( 'activity_VIET_view_flower_meadows_in_bloom' ).GetName]이 끝났습니다. 자연의 아름다움을 감상하며 편안한 시간이었습니다!" # c33872df7ce14be246b315438eef9794777030dc
   VIET_view_flower_meadows_in_bloom_relaxation_phase: "휴식" # ce72467f49a835fc1a0f4e8be5234653e978d5d7
   VIET_view_flower_meadows_in_bloom_relaxation_phase_desc: "꽃향기에 취하여 잠시 멈추어봅시다." # 2162987095087e5da14921a0a16c6b6a41333fc0
@@ -21,7 +21,7 @@
   VIET_view_flower_meadows_in_bloom_admiration_intent_desc: "유명한 꽃밭의 아름다움을 감상하고 싶습니다." # 7055bf1ef8c9349dd6f56aa438b8807f02efb0db
   VIET_view_flower_meadows_in_bloom_completed_log_title: "$activity_VIET_view_flower_meadows_in_bloom$ 완료" # 2b7e143701b0097639e5f5f4fa9a5853785257ac
   VIET_view_flower_meadows_in_bloom_completed_log: "[CHARACTER.GetShortUIName|U]는 활짝 핀 꽃밭을 구경하며 시간을 보냈습니다." # 78596542676a39201b02bd84cdf57d594f9c85cc
-  VIET_decision_view_flower_meadows_in_bloom_req: "귀하의 [영지|E] 내 [지역|E]는 모두 [베트남 유명 꽃밭] [지역 보너스|E]를 보유하고 있습니다." # 158f3711a2a272ec5a220a027af4c773a6eaefbd
+  VIET_decision_view_flower_meadows_in_bloom_req: "[domain|E]내 모든 [county|E]는 [GetModifier('VIET_famous_flower_meadows').GetNameWithTooltip] [county_modifier|E]를 보유하고 있습니다." # 158f3711a2a272ec5a220a027af4c773a6eaefbd
   TRAVEL_NAME_FOR_activity_VIET_view_flower_meadows_in_bloom: "[Character.GetFirstNamePossessiveNoTooltip] $activity_VIET_view_flower_meadows_in_bloom$" # f265cba44e9fadffc5443a7687e5d0f11209425e
   activity_VIET_burial_mound_visit: "묘제 방문" # decae3d44641218481864f0fa557a36b3a1b5997
   activity_VIET_burial_mound_visit_desc: "귀하의 영지에 전설적인 인물의 신전이 언덕 아래 묻혀 있다고 합니다. 이곳을 방문해볼 만한 가치가 있을지도 모릅니다." # 71de26fd85a59129f3d72115e4abc65703f3a1b0
@@ -32,7 +32,7 @@
   activity_VIET_burial_mound_visit_province_desc: "여기에 무덤이 있습니다." # 3f17e913743573a9ccaf862db3ce6a8aac426cc4
   activity_VIET_burial_mound_visit_destination_selection: "$activity_VIET_burial_mound_visit_province_desc$" # 33d7801390f407a1740a152962432aa0334f7ede
   activity_VIET_burial_mound_visit_guest_help_text: "$activity_VIET_burial_mound_visit$" # 1fc780056f38bb6639c17f38851ff1eb52704609
-  activity_VIET_burial_mound_visit_predicted_cost: "이 방문의 비용은 주로 귀하의 [소득|E]에 기반합니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
+  activity_VIET_burial_mound_visit_predicted_cost: "이 방문의 비용은 주로 귀하의 [income|E]에 기반합니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
   activity_VIET_burial_mound_visit_conclusion_desc: "[GetActivityType( 'activity_VIET_burial_mound_visit' ).GetName]이 끝났습니다. 그러한 유적을 방문하게 되어 좋았습니다." # 6b403c6e7ef5bca3e4a7501c01a904a546e6c2f9
   VIET_burial_mound_visit_type: "방문 초점" # f05793c1524547c208c43cd1a0b93b817577e813
   VIET_burial_mound_visit_type_relax: "편안하게 하세요." # 9704b9926102a64e542c208e03379fa9232c59f3
@@ -63,7 +63,7 @@
   activity_VIET_ghost_town_investigation_conclusion_desc: "[GetActivityType( 'activity_VIET_ghost_town_investigation' ).GetName]이 끝났습니다." # f8c122d77d811b46e424321a1b4a2335311c928c
   VIET_ghost_town_investigation_sincerity_type_desc: "이 노력에 투입하는 £gold£가 많을수록, #bold 더 높은#! 발견 가능성이 #italic 있습니다#!." # a39af6c5ce471accf024c972db13d8f49319481a
   VIET_ghost_town_investigation_sincerity_type: "진실함" # 066a526702a09f3c07dff33bdb49d8ac4416d64f
-  VIET_ghost_town_investigation_sincerity_type_casual: "(No text provided for translation.  A casual response requires context.)" # 1001e6a796363a864472abf12ae1e511fb8778a6
+  VIET_ghost_town_investigation_sincerity_type_casual: "무관심" # 1001e6a796363a864472abf12ae1e511fb8778a6
   VIET_ghost_town_investigation_sincerity_type_casual_desc: "$VIET_ghost_town_investigation_sincerity_type_desc$\n\n#weak 이 유령 도시 이야기가 사실인지 아닌지 누가 알겠습니까. 어쨌든, 이것은 재미있는 소풍을 떠날 좋은 구실입니다!#!" # 678a00277d172ce66f91e976930db1e56977c030
   VIET_ghost_town_investigation_sincerity_type_serious: "심각한" # b74a20884816ee0516e2ac345469bc7747c578a1
   VIET_ghost_town_investigation_sincerity_type_serious_desc: "#약 세상은 광활하고 신비로 가득합니다. 유령 이야기에 진실이 숨겨져 있을지도 모릅니다.#!" # 1e67ac1b19f26ccb002cef52951094f370ed33a5
@@ -83,11 +83,11 @@
   VIET_ghost_town_investigation_guard_saw_something_disbelief_completed_log_title: "유령 목격 (아마도 아님)" # 7d0aed3c4fe30d3414d6642ecf1a34a9f5d6a66f
   VIET_ghost_town_investigation_guard_saw_something_disbelief_completed_log: "[CHARACTER.GetShortUINamePossessive|U] 수비대 중 한 명이 [PROVINCE.GetBaronyNameExplicitly]의 유령 마을 탐문 중 유령을 목격했다고 주장했지만, [CHARACTER.GetShortUINameNoTooltip]은 그들의 말을 믿지 않았습니다." # bad55e439ac1bf299a44dc264f0d32cba7ed5db0
   VIET_ghost_town_investigation_resources_amount: "조사에 소모된 자원" # d747548de62adbee14090ab23504531ebf9f4c7d
-  VIET_decision_investigate_a_ghost_town_req: "귀하의 [domain|E] 내 [county|E] 어디든지 [GetModifier('VIET_spirit_towns').GetNameWithTooltip] [county_modifier|E]가 발동합니다." # e48aa8501765fd39b3fcaed8d6faeed3279948d7
+  VIET_decision_investigate_a_ghost_town_req: "[domain|E] 내 [county|E] 어디든지 [GetModifier('VIET_spirit_towns').GetNameWithTooltip] [county_modifier|E]가 발동합니다." # e48aa8501765fd39b3fcaed8d6faeed3279948d7
   TRAVEL_NAME_FOR_activity_VIET_ghost_town_investigation: "[Character.GetFirstNamePossessiveNoTooltip] $activity_VIET_ghost_town_investigation$" # 9720e20a096a8504c63e1799437f6c2d50838819
   activity_VIET_giant_shade_tree_visit: "거대한 그늘나무 방문" # 816bb55c6817e5512399fe8891ce584a030ca0f3
-  activity_VIET_giant_shade_tree_visit_desc: "귀하의 [realm|E]에는 쉬기에 좋은 유명한 그늘나무가 있습니다." # 1f1e54c1e356f7dab7b1d30493f282723114e648
-  activity_VIET_giant_shade_tree_visit_rewards_tooltip: "$BULLET_WITH_TAB$ [스트레스_손실_i|E] [스트레스|E]를 잃으셨습니다." # cffb0d0b341bdc04db214ddf7be1f3d48c7ddf48
+  activity_VIET_giant_shade_tree_visit_desc: "[realm|E]에는 쉬기에 좋은 유명한 그늘나무가 있습니다." # 1f1e54c1e356f7dab7b1d30493f282723114e648
+  activity_VIET_giant_shade_tree_visit_rewards_tooltip: "$BULLET_WITH_TAB$ [stress_loss_i|E] [stress|E]를 잃으셨습니다." # cffb0d0b341bdc04db214ddf7be1f3d48c7ddf48
   activity_VIET_giant_shade_tree_visit_selection_tooltip: "거대한 그늘 나무 아래서 편안히 쉬십시오.\n\n예상 보상: $activity_VIET_giant_shade_tree_visit_rewards_tooltip$" # 61ad57e988c4a7f03fe66fcc3b1a5592d602a2d8
   activity_VIET_giant_shade_tree_visit_host_desc: "$activity_VIET_giant_shade_tree_visit_rewards_tooltip$\n\n$VIET_decision_relax_at_a_giant_shade_tree_context_tooltip$" # 8fd3eaa8da2a1717c3843319129460a5d2aafe6a
   activity_VIET_giant_shade_tree_visit_guest_desc: "$activity_VIET_giant_shade_tree_visit_host_desc$" # beef0d246c134d28eb1d889bfed1546e2c9dbaa5

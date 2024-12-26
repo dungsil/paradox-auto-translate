@@ -206,7 +206,7 @@
   activity_RICE_pamir_tumshiling_festival_guest_desc: "$BULLET_WITH_TAB$명예[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$스트레스[stress_loss_i|E][stress|E] 손실" # f03db2a214b56011e19d8abd6226456bfbc59b62
   activity_RICE_pamir_tumshiling_festival_destination_selection: "$activity_RICE_pamir_tumshiling_festival_province_desc$" # b54c6d9b38be8858ec1791d8064a1c9df3dc869b
   activity_RICE_pamir_tumshiling_festival_guest_help_text: "$activity_RICE_pamir_tumshiling_festival$" # a0fe3dc07ea8721d850d8f8e5b9fefccf622b58d
-  activity_RICE_pamir_tumshiling_festival_predicted_cost: "이 방문의 비용은 주로 귀하의 [소득|E]에 기반합니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
+  activity_RICE_pamir_tumshiling_festival_predicted_cost: "이 방문의 비용은 주로 귀하의 [income|E]에 기반합니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
   activity_RICE_pamir_tumshiling_festival_conclusion_desc: "[GetActivityType( 'activity_RICE_pamir_tumshiling_festival' ).GetName]이 끝났습니다. 아주르 자므쉬드의 전설이 영원히 기억되기를 빕니다!" # c9671345b77688ed68587ea690a1d65cdc576dad
   RICE_pamir_tumshiling_festival_bonfire_phase: "번화" # 32a57682e32b09a79fec28b44f463c3b9a430fc0
   RICE_pamir_tumshiling_festival_bonfire_phase_desc: "툼실링 때는 폭군 왕 슈리 바닷의 꼭두각시를 태우기 위해 큰 불을 피우는 것이 전통입니다." # f0e36adc40e7eac2d1768d8f6b11537e34d002cf
@@ -238,7 +238,7 @@
   activity_RICE_pamir_goat_sacrifice_desc: "$RICE_pamir_sacrifice_goats_desc$" # 7e9735930cc083ba68515bc818175c07e981785a
   activity_RICE_pamir_goat_sacrifice_selection_tooltip: "[GetPlayer.GetFaith.PantheonTerm]께 제물로 염소를 바칩니다.\n\n$RICE_pamir_sacrifice_goats_context_tooltip$" # 4acfd9aa2bab37ed6121207a027b8a222952996a
   activity_RICE_pamir_goat_sacrifice_host_desc: "$BULLET_WITH_TAB$신앙도[piety_i] [piety|E]\n$BULLET_WITH_TAB$명성[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$선행[character_modifiers|E]에 따라 #P 유익한 효과#가 달라집니다.  [virtues|E]와 [sins|E], 그리고 선택한 [activity_options|E]에 따라 변화합니다." # 3ef50e7067f78c8afc417a608c3c9be50a41c217
-  activity_RICE_pamir_goat_sacrifice_guest_desc: "[신앙도]가 [piety|E] 증가합니다." # a77fe2829c50854de585454535190332aa3e74fc
+  activity_RICE_pamir_goat_sacrifice_guest_desc: "[prestige|E]가 [piety|E] 증가합니다." # a77fe2829c50854de585454535190332aa3e74fc
   activity_RICE_pamir_goat_sacrifice_province_desc: "여기 제단에서 염소들이 제물로 바쳐질 것입니다." # 17e01842928e7eaf675c4c1c7adde6e94a4349b9
   activity_RICE_pamir_goat_sacrifice_destination_selection: "$activity_RICE_pamir_goat_sacrifice_province_desc$" # 745c8b95279c7a9e8be70ca02a64f2b8700a75a6
   activity_RICE_pamir_goat_sacrifice_guest_help_text: "$activity_RICE_pamir_goat_sacrifice$" # 0b2f9a9bd173f393d1f4ebee83c5d32455c56a67
@@ -258,7 +258,7 @@
   RICE_pamir_goat_sacrifice_worship_intent_desc: "염소 제사를 행하면 [piety_i|E]가 #V 50# 증가합니다! [activity|E]를 완료하면 추가 [piety_i|E] #V 50#을 얻습니다.  [GetTrait('zealous').GetName( GetNullCharacter )] 또는 [GetTrait('humble').GetName( GetNullCharacter )]이신 경우, 추가 [stress_loss_i|E] [stress|E]을 감소시킵니다." # dae9d2a26ca3eb33692f6a1111dcb4357005f3b5
   RICE_pamir_goat_sacrifice_reputation_intent_header: "명성:" # fc0534c0cdc1e0cde18403d41ab24a56ed15c2a3
   RICE_pamir_goat_sacrifice_reputation_intent: "명성" # 5f21606b3a35dec46265211d6ac0d97d19af18d2
-  RICE_pamir_goat_sacrifice_reputation_intent_desc: "이 염소 제물을 통해 당신의 헌신을 만방에 알리십시오. [활동|E]을 마치면 [명예_i|E]가 #V 50# 증가합니다!  [욕망|E]이 있거나 [거만함|E]이 있다면 추가적인 [스트레스_손실_i|E] [스트레스|E]를 감수해야 합니다." # fa86a1df3f0c395746361901d8ce7fdfe5d91977
+  RICE_pamir_goat_sacrifice_reputation_intent_desc: "이 염소 제물을 통해 당신의 헌신을 만방에 알리십시오. [활동|E]을 마치면 [명예_i|E]가 #V 50# 증가합니다!  [욕망|E]이 있거나 [거만함|E]이 있다면 추가적인 [stress_loss_i|E] [stress|E]를 감수해야 합니다." # fa86a1df3f0c395746361901d8ce7fdfe5d91977
   RICE_pamir_goat_sacrifice_completed_log_title: "염소 제사 완료" # 0bf0d191fab53cb151d253244c9c79b18c1dcfb8
   RICE_pamir_goat_sacrifice_completed_log: "[CHARACTER.GetShortUIName|U]가 제물로 염소를 바쳤습니다." # 51ccd5945f87147c6fa3cc610fbd32a2772d7fcc
   RICE_goat_sacrifice_number_of_goats_amount: "제물로 바칠 염소 수" # 820d44eb6f38cf42aa884d824ae6acb94381aff2
@@ -448,7 +448,7 @@
   RICE_pamir_aspiration_assert_zunbil_independence_desc: "#italic 피루즈는 정의의 주는 쥔 즈운의 참된 영웅이 되어야 하며, 불가능에 맞서 즈운빌족의 장기적인 생존과 그들의 고유한 생활 방식을 지켜야 합니다.#!$RICE_pamir_aspiration_zunbil_desc$" # 839e72ec43a91c8522287ea41974d1f8afab25b8
   RICE_pamir_visit_bibi_fatima: "비비 파티마 온천을 방문하십시오." # 55a46e4e8aefab2351bc5e5e09f938eb77c2207e
   RICE_pamir_visit_bibi_fatima_tooltip: "와칸의 비비 파티마 온천을 방문하실 예정입니다." # bf2d6cf84da705b52cb526f2d60b560c6cd77522
-  RICE_pamir_visit_bibi_fatima_effect_tooltip: "비비 파티마 온천을 방문하시겠습니까? [스트레스|E]가 감소하거나 [번식력|E]이 증가할 수 있습니다." # 0eae5d3c24a6e1d256b90690b2c17bdbe76daeb5
+  RICE_pamir_visit_bibi_fatima_effect_tooltip: "비비 파티마 온천을 방문하시겠습니까? [stress|E]가 감소하거나 [번식력|E]이 증가할 수 있습니다." # 0eae5d3c24a6e1d256b90690b2c17bdbe76daeb5
   RICE_pamir_visit_bibi_fatima_effect_2_tooltip: "[ROOT.Char.GetFaith.GetAdjective] 신자이시라면, [piety|E]를 얻을 수도 있습니다." # 9b442ec2b3ebcb5076e32710a634e2e3e26463e1
   RICE_pamir_visit_bibi_fatima_desc: "멀리서 찾아오는 이들도 많지만, 저는 가까이 살기에 이 기회를 이용해 휴식을 취해야겠습니다." # a5146c8bd8109a0c283141667a1c8276b8b9d0c8
   RICE_pamir_visit_bibi_fatima_confirm: "준비됐습니다!" # 87add30b92fc70b3debe3c01f4c8fcfd9d5045f2
@@ -807,7 +807,7 @@
   pamir.0049.t: "슈리 바닷의 유산" # 5b99a95b177642f86770a7e940acace6b3622c38
   pamir.0049.desc: "처음에는 저 역시 그 거짓말을 믿었습니다. 하지만 깊이 생각할수록 [shri_badat.GetFirstName]는 오해받은 인물임을 깨달았습니다. 그는 이 세상에서 #X #bold 힘#!#!과 #X #bold 두려움#!#!이 중요하며, 강자가 옳다는 것을 알았습니다. 그를 죽인다고 해서 현실이 달라지지는 않습니다.\n\n그의 영혼이 여전히 이곳에 머물러 있다는 소문이 있습니다. 어떤 밤에는 꿈속에서 그가 제 귀에 속삭이는 것을 듣곤 합니다. [ROOT.Char.GetTitleAsNameNoTooltip]로서 성공하는 법을 알려주며, 마음속 어둠을 받아들이라고 말입니다.\n\n이를 염두에 두고, 기적적으로 여전히 남아 있는 그의 옛 궁궐의 개축을 명했습니다. 저보다 약한 자들에게 두려움을 심어 그들이 제 앞에서 굴복하게 만들 것입니다. 힘과 두려움만이 이 땅을 위대하게 만들 수 있기 때문입니다." # 2cf1a93fbe6cd3bc39c7bd2d1bdb89ed062ec098
   pamir.0049.a: "나에게 떨지 않을 자는 없으리!" # 5088fe3da700fdfe90aa254968de1eea1013d7fb
-  pamir.0049.tooltip: "#약하지만... 어둠 속에 안겨 보니, 희미한 목소리가 들립니다... "[THIS.Char.GetFirstNameNoTooltip], [THIS.Char.GetFirstNameNoTooltip], 아니!"#!" # f2e5d7d70273248d57220a913cffcce4cccc4850
+  pamir.0049.tooltip: "#약하지만... 어둠 속에 안겨 보니, 희미한 목소리가 들립니다... "[ THIS.Char.GetFirstNameNoTooltip ], [ THIS.Char.GetFirstNameNoTooltip ], 아니!"#!" # f2e5d7d70273248d57220a913cffcce4cccc4850
   pamir.0050.t: "준비" # ffb7b66372898902e8cf7eca0025b21a011c84d7
   pamir.0050.desc: "파미르 고원의 험준한 산악 지대에 사는 여러 민족들이 수확철 시작을 축하하는 전통 축제, 치니르 축제가 다가오고 있습니다. 이 축제는 사회적 교류와 음식 및 즐거움의 나눔을 장려하는 축제입니다. 축제 날이 머지않아 다가왔고, 올해는 일반 백성들을 만나 축제에 참여하기로 결심했습니다!" # e86e26e5268652aebb9c0a48f19a5a2ffe868394
   pamir.0050.a: "수확철이 다가오고 있습니다!" # 562393f0aff325d7870c2254454baca2284ddee7

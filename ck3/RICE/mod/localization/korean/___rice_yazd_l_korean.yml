@@ -37,7 +37,7 @@
   activity_RICE_yazd_sadeh_festival: "사데 축제" # dc89656e38291cac5756603ce71502876cf1748b
   activity_RICE_yazd_sadeh_festival_desc: "겨울의 추위가 온 땅을 휩쓸 때, 이란 세계의 전통적인 겨울 축제인 사데 축제가 열릴 때입니다." # a2c65e894641c8fe968fede0b06d2bfa874a548a
   activity_RICE_yazd_sadeh_festival_selection_tooltip: "당신의 [capital|E]에서 성대한 사데 축제를 개최하십시오.\n\n$RICE_yazd_celebrate_sadeh_festival_context_tooltip$" # e58c313a25c3e6507023a0f62b8d3ee79f9c9b72
-  activity_RICE_yazd_sadeh_festival_host_desc: "\n$BULLET_WITH_TAB$[prestige_i] [위신|E]\n$BULLET_WITH_TAB$[piety_i] [신앙심|E]\n$BULLET_WITH_TAB$ [스트레스_손실_i|E] [스트레스|E] 감소\n$BULLET_WITH_TAB$ [GetModifier('RICE_yazd_recently_celebrated_sadeh').GetNameWithTooltip] [캐릭터_modifier|E]" # 5721df9ccf154c21ac846cb19a8c38fea54fc37b
+  activity_RICE_yazd_sadeh_festival_host_desc: "\n$BULLET_WITH_TAB$[prestige_i] [위신|E]\n$BULLET_WITH_TAB$[piety_i] [신앙심|E]\n$BULLET_WITH_TAB$ [stress_loss_i|E] [stress|E] 감소\n$BULLET_WITH_TAB$ [GetModifier('RICE_yazd_recently_celebrated_sadeh').GetNameWithTooltip] [캐릭터_modifier|E]" # 5721df9ccf154c21ac846cb19a8c38fea54fc37b
   activity_RICE_yazd_sadeh_festival_guest_desc: "$activity_RICE_yazd_sadeh_festival_host_desc$" # d5003ba3861d4884f72a1a7b702693ef0afc6c14
   activity_RICE_yazd_sadeh_festival_destination_selection: "$activity_RICE_yazd_sadeh_festival_province_desc$" # c3136fab2575ffdacdd8ea02f93f589ea2c73b26
   activity_RICE_yazd_sadeh_festival_guest_help_text: "$activity_RICE_yazd_sadeh_festival$" # 8c77c1e98d31e9913a5cd7cb417a16e182595a43
@@ -54,7 +54,7 @@
   RICE_yazd_sadeh_festival_festival_phase_desc: "사데흐 축제가 한창입니다!" # 70035bb06f2c6c020cb73555b18967d35e018127
   RICE_yazd_sadeh_festival_fun_intent_header: "재미:" # 322fbf035e859eb1e143af11523f4fd20da7a848
   RICE_yazd_sadeh_festival_fun_intent: "재미" # 5f941ab65fbabe87f41cd73c9136f5a4c97087e8
-  RICE_yazd_sadeh_festival_fun_intent_desc: "사데에서 즐거운 시간을 보내고 싶으실 겁니다. [스트레스|E]를 반드시 잃을 것이며, [GetTrait('gregarious').GetName( GetNullCharacter )] 또는 [GetTrait('gluttonous').GetName( GetNullCharacter )]라면 더 많은 스트레스를 잃게 될 것입니다." # e4064c8b743395c7df12ddad9656c07c61795c81
+  RICE_yazd_sadeh_festival_fun_intent_desc: "사데에서 즐거운 시간을 보내고 싶으실 겁니다. [stress|E]를 반드시 잃을 것이며, [GetTrait('gregarious').GetName( GetNullCharacter )] 또는 [GetTrait('gluttonous').GetName( GetNullCharacter )]라면 더 많은 스트레스를 잃게 될 것입니다." # e4064c8b743395c7df12ddad9656c07c61795c81
   RICE_yazd_sadeh_festival_spectacle_intent_header: "구경거리:" # 31cfd3ceac7162def4148f66bd4433b21680acab
   RICE_yazd_sadeh_festival_spectacle_intent: "구경거리" # c947a52724f0bd6c943d7bcf5e65982d81d8eba0
   RICE_yazd_sadeh_festival_spectacle_intent_desc: "사데를 통해 궁정의 위엄과 권력을 과시하고자 합니다. [GetTrait('ambitious').GetName( GetNullCharacter )|U], [GetTrait('diligent').GetName( GetNullCharacter )], 또는 [GetTrait('arrogant').GetName( GetNullCharacter )] 특성을 가진 캐릭터는 추가로 [stress|E]를 잃을 수 있습니다. [king|E] 및 [emperor|E] [rank|E] 캐릭터는 소량의 [grandeur|E]도 얻을 수 있습니다." # e3e977fe85ce59e5948cef7e4699c06d51bec513

@@ -14,8 +14,7 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
    - Maintain formatting syntax enclosed by '#' characters:
      e.g., #bold ROYAL DECREE# → #bold ROYAL DECREE#
    - Keep variables in square brackets unaltered:
-     e.g., [GetTitle('emperor').GetName] → [GetTitle('emperor').GetName]
-     e.g., [culture|E] → [culture|E]
+     e.g., [GetTitle('emperor').GetName] → [GetTitle('emperor').GetName], [culture|E] → [culture|E], [piety_i] → [piety_i], [stress_loss_i|E] → [stress_loss_i|E]
 
 3. Maintain the original text structure, including line breaks and paragraph formatting.
 
@@ -39,6 +38,8 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
 
 11. When translating place names or titles, use the Korean equivalent if commonly recognized, otherwise transliterate:
     - Example: "France" → "프랑스", but "Elephantine" → "엘레판티네"
+
+12. Use “그” for gender-specific nouns
 
 ### Example Translation:
 Original: "The #bold High King# of $k_ireland$ has called a grand feast at [county.GetName]!"

@@ -200,7 +200,7 @@
   RICE_yazidi_tawus_geran_devotion_intent_desc: "영적인 믿음과 공작 천사에 대한 헌신을 보여주시고 싶으신가요? 그리고 주민들을 감동시키고 싶으신가요? [control_i|E] #P +50%#! [control|E] 얻음. [GetTrait('zealous').GetName( GetNullCharacter )|U]과 [GetTrait('humble').GetName( GetNullCharacter )] 성격의 인물들은 추가적인 [stress|E]를 잃을 것입니다." # 20225577eaeed6637e6192921123f4176fac3707
   RICE_yazidi_tawus_geran_learning_intent_header: "학습:" # 5e2ac49daa951806ff0575abbabc86ffb11331d6
   RICE_yazidi_tawus_geran_learning_intent: "학습" # 1016fcb2b4ff485857c733a5a8bcf8240d24fddd
-  RICE_yazidi_tawus_geran_learning_intent_desc: "#italic Qewals!#의 노래와 찬송에 귀 기울여 [신앙|E]을 더욱 깊이 이해하십시오. #V [EmptyScope.ScriptValue('major_lifestyle_xp')]#! 경험을 얻으시고 #V [EmptyScope.ScriptValue('medium_lifestyle_xp')]#! 경험은 얻지 못하실 것입니다. [근면|U]과 [야심] 속성을 가진 인물은 [스트레스|E]를 덜어낼 것입니다." # d23029d3f873070e8919b547823a074acf8648a5
+  RICE_yazidi_tawus_geran_learning_intent_desc: "#italic Qewals!#의 노래와 찬송에 귀 기울여 [신앙|E]을 더욱 깊이 이해하십시오. #V [EmptyScope.ScriptValue('major_lifestyle_xp')]#! 경험을 얻으시고 #V [EmptyScope.ScriptValue('medium_lifestyle_xp')]#! 경험은 얻지 못하실 것입니다. [근면|U]과 [야심] 속성을 가진 인물은 [stress|E]를 덜어낼 것입니다." # d23029d3f873070e8919b547823a074acf8648a5
   RICE_yazidi_tawus_geran_completed_log_title: "타우우스 게란 완료" # f1397b792497c284aaea7ead203b9fb40a506d99
   RICE_yazidi_tawus_geran_completed_log: "[CHARACTER.GetShortUIName|U]는 타우스 게란 의식을 마쳤습니다." # 38704652f0673ba6d268e192f3e4303dcb9d57c3
   TRAVEL_NAME_FOR_activity_RICE_yazidi_tawus_geran: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_yazidi_tawus_geran$" # f19cdf87b8ba63a2948b988b4b3b4ffdcdaaa07a
