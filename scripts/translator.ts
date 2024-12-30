@@ -1,5 +1,5 @@
 import { mkdir, readdir, readFile, stat, writeFile } from 'node:fs/promises'
-import { join } from 'pathe'
+import { basename, dirname, join } from 'pathe'
 import { parseToml, parseYaml, stringifyYaml } from './parser'
 import { hashing } from './utils/hashing'
 import { log } from './utils/logger'
@@ -56,7 +56,7 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
   const sourcePath = join(sourceDir, file)
 
   // 파일 순서를 최상위로 유지해 덮어쓸 수 있도록 앞에 '___'를 붙임 (ex: `___00_culture_l_english.yml`)
-  const targetPath = join(targetBaseDir, '___' + file.replace(`_l_${sourceLanguage}.yml`, '_l_korean.yml'))
+  const targetPath = join(targetBaseDir, dirname(file), '___' + basename(file).replace(`_l_${sourceLanguage}.yml`, '_l_korean.yml'))
 
   let targetContent = ''
   try {
@@ -87,23 +87,24 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
 
   for (const [key, [sourceValue]] of Object.entries(sourceYaml[`l_${sourceLanguage}`])) {
     const sourceHash = hashing(sourceValue)
-    log.debug(`[${mode}/${file}:${key}] 원본파일 문자열: ${sourceHash} | "${sourceValue}" `)
+    log.verbose(`[${mode}/${file}:${key}] 원본파일 문자열: ${sourceHash} | "${sourceValue}" `)
 
     const [targetValue, targetHash] = targetYaml.l_korean[key] || []
     if (targetValue && (sourceHash === targetHash)) {
-      log.debug(`[${mode}/${file}:${key}] 번역파일 문자열: ${targetHash} | "${targetValue}" (번역됨)`)
+      log.verbose(`[${mode}/${file}:${key}] 번역파일 문자열: ${targetHash} | "${targetValue}" (번역됨)`)
       continue
     }
 
-    log.debug(`[${mode}/${file}:${key}] 번역파일 문자열: ${targetHash} | "${targetValue}"`)
+    log.verbose(`[${mode}/${file}:${key}] 번역파일 문자열: ${targetHash} | "${targetValue}"`)
 
     // 번역 요청
+    log.start(`[${mode}/${file}:${key}] 번역 요청: ${sourceHash} | "${sourceValue}"`)
     const translatedValue = await translate(sourceValue)
-    log.debug(`[${mode}/${file}:${key}] 번역된 문자열: ${sourceHash} | "${translatedValue}"`)
+    log.verbose(`[${mode}/${file}:${key}] 번역된 문자열: ${sourceHash} | "${translatedValue}"`)
     targetYaml.l_korean[key] = [translatedValue, sourceHash]
   }
 
   const updatedContent = stringifyYaml(targetYaml)
   await writeFile(targetPath, updatedContent, 'utf-8')
-  log.info(`[${mode}/${file}] 번역 완료 (번역 파일 위치: ${targetPath})`)
+  log.success(`[${mode}/${file}] 번역 완료 (번역 파일 위치: ${targetPath})`)
 }

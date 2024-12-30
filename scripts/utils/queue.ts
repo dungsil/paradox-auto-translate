@@ -4,7 +4,7 @@ import { log } from './logger'
 const translationQueue: Array<() => Promise<void>> = []
 
 const MAX_RETRIES = 5
-const RETRY_DELAYS = [0, 2000, 4000, 10000, 60000, 120000] // 밀리초 단위
+const RETRY_DELAYS = [0, 1_000, 2_000, 8_000, 10_000, 60_000] // 밀리초 단위
 
 let lastRequestTime = 0
 
@@ -42,12 +42,13 @@ async function executeTaskWithRetry (task: () => Promise<void>, retryCount = 0):
   try {
     await task()
   } catch (error) {
+    log.debug('요청 실패:', error)
+
     if (retryCount < MAX_RETRIES) {
-      log.debug(`요청 ${retryCount + 1}번째 재시도`)
+      log.info(`요청에 실패하여 잠시후 다시 시도합니다. (${retryCount + 1})`)
 
       // 지수 백오프
       const retryDelay = RETRY_DELAYS[retryCount + 1]
-      log.debug(`재시도 대기 시간: ${retryDelay}ms`)
       await delay(retryDelay)
 
       // 재시도
