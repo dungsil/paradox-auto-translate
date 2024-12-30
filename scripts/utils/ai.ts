@@ -5,6 +5,7 @@ import { addQueue } from './queue'
 
 dotenv.config()
 
+const WRONG_TRANSLATED_FUNCTION_REGEX = /\[([가-힣]+(\|[A-Z])?)\]/
 const ai = new GoogleGenerativeAI(process.env.GOOGLE_AI_STUDIO_TOKEN!)
 
 const generationConfig = {
@@ -44,7 +45,19 @@ async function translateAIByModel (resolve: (value: string | PromiseLike<string>
   return addQueue(
     async () => {
       const { response } = await model.generateContent(text)
-      resolve(response.text().trim().replaceAll(/\n/g, '\\n'))
+
+      let translated = response.text().trim()
+
+      // 개행을 문자열로 변경
+      translated.replaceAll(/\n/g, '\\n')
+
+      // 잘못 번역된 문자열 수정
+      translated.replaceAll(/#약[화한(하된)]/, '#weak')
+
+      // 잘못된 함수 번역 수정
+      WRONG_TRANSLATED_FUNCTION_REGEX.exec(translated)
+
+      resolve(translated)
     },
   )
 }
