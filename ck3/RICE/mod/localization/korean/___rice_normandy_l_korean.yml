@@ -27,7 +27,7 @@
   RICE_opinion_political_disagreements: "정치적 불화" # 30b0d0d2823e2ad8a365aa4a3389c991e674980d
   RICE_norman_cavalry: "노르만 기병" # 9c54f3c51fd0985b215b64e9e74161f87c90cf62
   RICE_norman_cavalry_flavor: "#F 노르만 기사들은 말을 잘 타고 전쟁에서 말을 효과적으로 활용하는 숙련된 병사들입니다.#!" # 1ad9f5c005ba0ee6ad74d60e81ca3b56b36fa125
-  RICE_normandy_give_normandy_realm_req: "$d_normandy$ 캐릭터에게 [realm_size|E]가 #V [EmptyScope.ScriptValue('RICE_normandy_give_normandy_realm_value')|0]#보다 작은 영지가 수여되었습니다!" # 364de0de5a0c1ab7984b24a13df5e5c4ab6c184b
+  RICE_normandy_give_normandy_realm_req: "$d_normandy$ 인물에게 [realm_size|E]가 #V [EmptyScope.ScriptValue('RICE_normandy_give_normandy_realm_value')|0]#보다 작은 영지가 수여되었습니다!" # 364de0de5a0c1ab7984b24a13df5e5c4ab6c184b
   RICE_normandy_start_struggle_tooltip: "[RICE_normandy_struggle|E]가 시작됩니다." # 93485e21314cd34406bc184b21f814db2e8fd1a4
   RICE_normandy_avranches_distance_req: "귀하의 [capital|E]는 [GetTitleByKey('c_avranches').GetNameNoTier] 또는 [GetGeographicalRegion('world_europe_west_francia').GetName] [region|E]에 가깝습니다." # 91baf2a473c072deeb0770321260e1885d86430c
   RICE_normandy_spawn_event_troops_tooltip: "[특수부대|E]를 포함하여 적어도 한 개의 [병사|E] [연대|E]를 받으셨습니다." # 3cd132a4484b0100785c369fc3883cb3a42c92c5
@@ -234,7 +234,7 @@
   activity_RICE_normandy_saint_aubert_procession: "성 오베르 성행렬" # 5031f70cff119afa4729689fb9db19e8be1d8e72
   activity_RICE_normandy_saint_aubert_procession_desc: "매년 [GetTitleByKey('b_avranches').GetNameNoTier]의 기독교인들은 성 오베르의 유해를 [GetBuilding('RICE_normandy_mont_saint_michel_02').GetName]에서 도시 거리를 행렬하며 지나가는 풍습을 지킵니다. 그들은 이 행사 동안 많은 기적이 일어난다고 말합니다." # 35996a0e1f04c034454cc5f52ed53d4c3968c791
   activity_RICE_normandy_saint_aubert_procession_selection_tooltip: "성 오베르 성인 행렬을 지켜보십시오.\n\n$RICE_normandy_mont_saint_michael_pilgrimage_context_tooltip$" # 1d9d2a46900db668341bec657cbc964e754bfe37
-  activity_RICE_normandy_saint_aubert_procession_host_desc: "$BULLET_WITH_TAB$ [신앙도_i|E][신앙도|E]\n$BULLET_WITH_TAB$ 귀하의 [신앙도_수준|E]에 따라 [쌀_노르망디_성_오베르_기적].[캐릭터_수정|E]를 얻을 가능성이 약간 있습니다." # d35b2a8b010b5fe1ce11d1ea032516f95081a0d2
+  activity_RICE_normandy_saint_aubert_procession_host_desc: "$BULLET_WITH_TAB$ [신앙도_i|E][신앙도|E]\n$BULLET_WITH_TAB$ 귀하의 [신앙도_수준|E]에 따라 [쌀_노르망디_성_오베르_기적].[인물_수정|E]를 얻을 가능성이 약간 있습니다." # d35b2a8b010b5fe1ce11d1ea032516f95081a0d2
   activity_RICE_normandy_saint_aubert_procession_guest_desc: "$BULLET_WITH_TAB$[신앙심_i|E][신앙심|E]" # b9ca3c1f455a3880c6eeb2d3d307feaca1e20694
   activity_RICE_normandy_saint_aubert_procession_destination_selection: "$activity_RICE_normandy_saint_aubert_procession_province_desc$" # 5aaadcc6d40d71715391aac1cdf4acabea8e218c
   activity_RICE_normandy_saint_aubert_procession_guest_help_text: "$activity_RICE_normandy_saint_aubert_procession$" # ebda911ed5b0de5305d0a68f326e4db66e14920c
@@ -396,7 +396,7 @@
   RICE_normandy_recruit_norse_adventurers_tooltip: "[realm|E]에 북유럽인들을 이주시키십시오." # 12dd6a580053309a2467d00e5150b55b42b80543
   RICE_normandy_recruit_norse_adventurers_desc: "[GetGeographicalRegion('world_europe_north').GetName]의 [RICE_norse|E]는 우리와 같은 문명 사회에 적대적이고, 약탈을 일삼는 것으로 악명 높습니다. 하지만, 그들 중 일부는 타협이 가능합니다.  [GetPlayer.GetPrimaryTitle.GetNameNoTier]에 외지에서 온 더욱 온건한 [RICE_norse|E]를 초청하여 여러 가지 면에서 도움을 받을 수 있습니다." # 9b756e58a6cd4757941a9b39607b29781ce5ee7c
   RICE_normandy_recruit_norse_adventurers_desc_norse: "저의 동족 [RICE_norse|E]는 멀고 먼 곳을 두루 다니며 세상을 많이 배우고, 수많은 땅에서 두려움을 불러일으키는 명성을 얻었습니다. 제가 가진 연줄을 통해, 먼 곳의 [RICE_norse|E]들을 찾아 [GetPlayer.GetPrimaryTitle.GetNameNoTier]에 정착하여 다양한 방법으로 도와줄 의향이 있는 이들을 찾을 수 있을 것입니다." # 6b135f2b233b6dc77c325941b60f368609b5fb83
-  RICE_normandy_recruit_norse_adventurers_effect_tooltip_1: "[캐릭터_수정사항|E], [카운티_수정사항|E], 새로운 [궁정인|E], 또는 [특수_군사|E] 중에서 선택하실 수 있습니다." # 2edae92745244d3e05f02807e9e1dbb82c6b0349
+  RICE_normandy_recruit_norse_adventurers_effect_tooltip_1: "[인물_수정사항|E], [카운티_수정사항|E], 새로운 [궁정인|E], 또는 [특수_군사|E] 중에서 선택하실 수 있습니다." # 2edae92745244d3e05f02807e9e1dbb82c6b0349
   RICE_normandy_recruit_norse_adventurers_effect_tooltip_2: "[RICE_norse_settlers|E]가 추가 £gold£ 또는 심지어 [titles|E]를 요구할 수 있으며, 협상이 실패할 경우 좋지 않은 반응을 보일 수 있습니다!" # 675570597df9ab3732789712dc3935cf63cca189
   RICE_normandy_recruit_norse_adventurers_effect_tooltip_3: "이 [decision|E]는 귀하의 [capital|E]가 [GetGeographicalRegion('RICE_northern_europe_region').GetName]에 비해 [GetGeographicalRegion('RICE_southern_europe_region').GetName]에 위치해 있다면 비용이 더 많이 들고 냉각 시간이 더 길어집니다." # 60cd7458919aed82371d8eed22e4686fabce08b1
   RICE_normandy_recruit_norse_adventurers_confirm: "스칸디나비아에 소식을 전하라!" # ff81e8c0424b3b532a328ee81335604f1c77735e
@@ -424,7 +424,7 @@
   RICE_normandy_recruit_norman_adventurers_tooltip: "[realm|E]에 노르망디인들을 이주시키십시오." # 9d658ee3b0a7b99058d7043f49a287724dbfb581
   RICE_normandy_recruit_norman_adventurers_desc: "[RICE_normans|E]는 [GetGeographicalRegion('RICE_normandy_region').GetName] 출신으로 모험가이자 용병으로서 명성이 자자합니다. 적절한 대가를 제시한다면 우리를 위해 일할 의향이 있을 것입니다.  해외에서 관심 있는 [RICE_normans|E]들을 [RICE_normandy_settle|E]로 [GetPlayer.GetPrimaryTitle.GetNameNoTier]에 초청하여 다양한 방면으로 도움을 받을 수 있을 것입니다." # 86bf7cf528a91cdce950e2244f0dff596b51214b
   RICE_normandy_recruit_norman_adventurers_desc_norman: "우리 [RICE_normans|E]는 모험가와 용병으로 상당한 명성을 쌓았습니다. 제 연줄을 통해 [RICE_normans|E]들 중 저를 위해 일할 의향이 있는 자들을 찾을 수 있고, [GetPlayer.GetPrimaryTitle.GetNameNoTier]에 정착하여 여러 가지로 도와줄 수 있습니다." # 073e67eb88bd7eb390b17f7e8acf3b8381ad2dad
-  RICE_normandy_recruit_norman_adventurers_effect_tooltip_1: "[캐릭터_수정사항|E], [카운티_수정사항|E], 새로운 [궁정인|E], 또는 [특수_군사|E] 중에서 선택하실 수 있습니다." # 2edae92745244d3e05f02807e9e1dbb82c6b0349
+  RICE_normandy_recruit_norman_adventurers_effect_tooltip_1: "[인물_수정사항|E], [카운티_수정사항|E], 새로운 [궁정인|E], 또는 [특수_군사|E] 중에서 선택하실 수 있습니다." # 2edae92745244d3e05f02807e9e1dbb82c6b0349
   RICE_normandy_recruit_norman_adventurers_effect_tooltip_2: "[RICE_norman_settlers|E]는 추가적인 £gold£ 또는 심지어 [titles|E]를 요구할 수 있으며, 협상이 실패할 경우 좋지 않은 반응을 보일 것입니다!" # 8c084265514f6db6bd9a5e6ce16e83ea2c35a5b8
   RICE_normandy_recruit_norman_adventurers_confirm: "노르만인들에게 전갈을 보내십시오!" # fec92ce5fa85fc231bf266d6d8ece9f5f7b1de93
   RICE_normandy_recruit_norman_adventurers_context_tooltip: "#emphasis 역사적 배경:#! 프랑스 문화를 빠르게 받아들이고 기독교화된 후, 노르만인들은 용병 활동, 약탈, 정착 등 다양한 활동을 위해 멀리까지 여행했습니다. 예를 들어, 11세기 노르만 모험가들은 시칠리아 대부분을 정복하여 그곳에 다문화 왕국을 세우고 비잔틴 제국을 위협했습니다. 안티오크의 보엠옹드 1세와 같은 노르만인들은 십자군의 군사적, 정치적 지도자로서 중요한 역할을 수행했습니다." # 5d35947ec2b50f963d0dc4e2f15111003efd56fe
@@ -438,7 +438,7 @@
   RICE_normandy_invite_norman_courtiers_option_tooltip: "금: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_norman_adventurers_small_cost')|0]#!#!\n\n$EFFECT_LIST_BULLET$당신의 [궁정|E]에 적어도 한 가지 [기술|E], 흔히 [무예|E]와 [용기|E]에 높은 평가를 받는 두 명의 노르망디 [귀족|E]가 나타납니다. 한 명 또는 둘 다 선택할 수 있습니다. 그들은 [가족|E]을 거느리고 있을 수 있습니다.\n$EFFECT_LIST_BULLET$외교적 [능력|E]에 따라 [RICE_normandy_norman_long_term_assistance]. [특성|E]를 얻을 수 있습니다." # 8a2147849c808beb180563283e1de280adcf9cb8
   RICE_normandy_invite_norman_mercenaries_option: "#Bold 용병#!" # 00df500d9d1c13c3fdbfa970a54b644bf3da1378
   RICE_normandy_invite_norman_mercenaries_option_desc: "노르만 용병을 초청합니다." # 045e29e0778837e3429589a352702d3ab030510a
-  RICE_normandy_invite_norman_mercenaries_option_tooltip: "금 @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_norman_adventurers_large_cost')|0]#!#!\n$EFFECT_LIST_BULLET$ #V 200#! ~ #V 1000#!의 [특수부대|E]를 얻습니다. 최소 한 개의 노르만 [병력|E] [연대|E]를 포함합니다.\n$EFFECT_LIST_BULLET$ [군사력|E] [전투력|E]에 따라 [노르망디_노르만_장기지원.수정명칭|L] [캐릭터_수정|E]를 얻을 수 있습니다." # f30f2579b2453c1ea1e2570c6197f5b02f5a7c21
+  RICE_normandy_invite_norman_mercenaries_option_tooltip: "금 @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_norman_adventurers_large_cost')|0]#!#!\n$EFFECT_LIST_BULLET$ #V 200#! ~ #V 1000#!의 [특수부대|E]를 얻습니다. 최소 한 개의 노르만 [병력|E] [연대|E]를 포함합니다.\n$EFFECT_LIST_BULLET$ [군사력|E] [전투력|E]에 따라 [노르망디_노르만_장기지원.수정명칭|L] [인물_수정|E]를 얻을 수 있습니다." # f30f2579b2453c1ea1e2570c6197f5b02f5a7c21
   RICE_normandy_invite_norman_traders_option: "#Bold 상인들#!" # 661d4c2e60cd0b76d6683b7bf4179ea049ca21cd
   RICE_normandy_invite_norman_traders_option_desc: "노르만 상인들을 초청합니다" # 8b136aaed037543d9497260e9a8343e943f84bf8
   RICE_normandy_invite_norman_traders_option_tooltip: "금화 @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_norman_adventurers_large_cost')|0]#!#!\n#\n$EFFECT_LIST_BULLET$ #V 10#!년에서 #V 25#!년 동안 [GetModifier('RICE_normandy_norman_traders').GetNameWithTooltip] [character_modifier|E]를 얻게 됩니다.\n$EFFECT_LIST_BULLET$ 귀하의 [stewardship_i|E] [stewardship|E]에 따라 [GetModifier('RICE_normandy_norman_long_term_assistance').GetNameWithTooltip|L] [character_modifier|E]를 얻을 수 있습니다." # 7c8ad8d10369c3f0c7423ab015fef83b2d315f97
@@ -459,7 +459,7 @@
   RICE_normandy_observe_procession_of_saint_aubert: "성 오베르 성인 행렬을 관찰합니다." # 8f57e8d536283024208d285eb14721ee41fa3e84
   RICE_normandy_observe_procession_of_saint_aubert_tooltip: "아브란슈로 가서 성 오베르 성직자의 정기 행렬에 참석하십시오." # b71bb820de555590654833ea6ed2e73de71e84e5
   RICE_normandy_observe_procession_of_saint_aubert_desc: "매년, [ROOT.Char.GetFaith.GetReligion.GetAdjective] 풍습에 따라 성 오베르의 유해를 [GetBuilding('RICE_normandy_mont_saint_michel_02').GetName]에서 [GetTitleByKey('b_avranches').GetNameNoTier] 거리를 행진하는 퍼레이드가 열립니다. 이 행사 동안 많은 기적이 일어난다고 합니다. 저는 올해 이 행사에 참석하고 싶습니다." # 3513d4cf61038b67b10668519015dc3cea3cf6db
-  RICE_normandy_observe_procession_of_saint_aubert_effect_tooltip_1: "[faith|E]가 조금 증가하고, [신앙 수준|E]에 따라 기적적인 [캐릭터 수정자|E]가 발생할 가능성이 약간 있습니다." # 7372b12d7d9c4d96922d8300c22039c523240036
+  RICE_normandy_observe_procession_of_saint_aubert_effect_tooltip_1: "[faith|E]가 조금 증가하고, [신앙 수준|E]에 따라 기적적인 [인물 수정자|E]가 발생할 가능성이 약간 있습니다." # 7372b12d7d9c4d96922d8300c22039c523240036
   RICE_normandy_observe_procession_of_saint_aubert_confirm: "방문 준비를 하십시오!" # a7a9c0ed828afb2417dab1cfd164aca962559413
   RICE_normandy_observe_procession_of_saint_aubert_context_tooltip: "$RICE_normandy_mont_saint_michael_pilgrimage_context_tooltip$" # 8db854d2245b606988f34a00feeb8161f91a7b2f
   RICE_normandy_find_saint_aubert_relics: "성 오베르 성유물을 찾으십시오" # e08260d928197f68e2bfe1d66e12c69754454a56

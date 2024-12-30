@@ -36,13 +36,13 @@
   RICE_region_southerneastern_nigeria: "나이지리아 남동부" # 2308187d7a734aef481d7ba16ace44631bc99788
   game_concept_beaded_crowns: "구슬 장식 왕관" # 98bba3c409432a486237e4e0f44e42c7b5b03073
   game_concept_beaded_crown: "구슬 장식 왕관" # 9f8eb9f91728c19e7457d030cf220783f8912e42
-  game_concept_beaded_crown_desc: "$c_ife$의 통치자, 오니는 요루바족 사이에서 큰 종교적, 세속적 권력을 가졌으며, 지금도 가지고 있습니다. 역사적으로, 이 지역의 군주들은 $c_ife$로 와서 오두두와 신, 여러 요루바와 에도 왕들의 신과 조상의 특별한 구슬 왕관으로 오니에게서 왕위를 물려받아 통치를 정당화했습니다.\n\n게임 내에서, 오니는 $west_african_orisha_pagan$ [faith|E]의 [신앙 수장|E] 역할을 합니다. $west_african_orisha_religion$ [종교|E]의 [faith|E]를 따르는 [지배자|E]들, 또는 다른 요건을 충족하는 이 지역의 사람들은 $c_ife$에 가서 $RICE_niger_delta_request_beaded_crown$을 요청할 수 있습니다. 오니에게 줄 선물을 선택한 후, 그들은 선물을 받아들일지 거부할지 결정합니다. 만약 당신이 오니 자신이라면, 선물을 받고 [지배자|E]를 대신해서 왕관을 씌울 수 있습니다.\n\n$west_african_orisha_religion$ [종교|E]의 [faith|E]를 따르면, 오니가 당신을 왕으로 인정할 때까지 [GetModifier('RICE_niger_delta_uncrowned').GetNameWithTooltip] [캐릭터 수정자|E]를 받게 됩니다." # e445aa0c590d4552c0cfb7484f1bc4738d4250bd
+  game_concept_beaded_crown_desc: "$c_ife$의 통치자, 오니는 요루바족 사이에서 큰 종교적, 세속적 권력을 가졌으며, 지금도 가지고 있습니다. 역사적으로, 이 지역의 군주들은 $c_ife$로 와서 오두두와 신, 여러 요루바와 에도 왕들의 신과 조상의 특별한 구슬 왕관으로 오니에게서 왕위를 물려받아 통치를 정당화했습니다.\n\n게임 내에서, 오니는 $west_african_orisha_pagan$ [faith|E]의 [신앙 수장|E] 역할을 합니다. $west_african_orisha_religion$ [종교|E]의 [faith|E]를 따르는 [지배자|E]들, 또는 다른 요건을 충족하는 이 지역의 사람들은 $c_ife$에 가서 $RICE_niger_delta_request_beaded_crown$을 요청할 수 있습니다. 오니에게 줄 선물을 선택한 후, 그들은 선물을 받아들일지 거부할지 결정합니다. 만약 당신이 오니 자신이라면, 선물을 받고 [지배자|E]를 대신해서 왕관을 씌울 수 있습니다.\n\n$west_african_orisha_religion$ [종교|E]의 [faith|E]를 따르면, 오니가 당신을 왕으로 인정할 때까지 [GetModifier('RICE_niger_delta_uncrowned').GetNameWithTooltip] [인물 수정자|E]를 받게 됩니다." # e445aa0c590d4552c0cfb7484f1bc4738d4250bd
   game_concept_niger_delta_craft_guild: "공예 조합" # 94483a6b3c84a36541b9c009a570f7a150734404
   game_concept_niger_delta_craft_guilds: "공예 조합" # 11ea5cc40bcccba9913c28fee7d57835c7ad3ae2
   game_concept_niger_delta_craft_guilds_desc: "역사적으로 [GetGeographicalRegion('RICE_niger_delta_region').GetName]의 [rulers|E]는 왕실의 후원 아래 장인 조합과 같은 직업 조합을 조직하여 자신의 지위를 높이고 경제를 통제했지만, 그 대가로 이러한 조합에 안정적인 일자리와 정치적 영향력을 제공했습니다.\n\n[culture|E]에 $tradition_RICE_kinship_based_craft_guilds_name$ 또는 $tradition_RICE_ritual_hegemony_name$ [traditions|E] 중 하나가 있고, [dynast|E]라면 $RICE_niger_delta_form_craft_guilds$ [decision|E]을 내릴 수 있습니다. 청동 주조공, 대장장이, 상아 및 목각사, 비드 제작자의 4가지 중에서 선택할 수 있으며, 각각 고유한 요구 사항이 있습니다.\n\n각 조합은 [dynasty|E]에 고유한 [modifier|E]를 제공하고 $RICE_niger_delta_commission_art_from_craft_guilds$ [decision|E]을 잠금 해제합니다([dynasty|E]가 조직한 조합에 따라 다름). 이 [decision|E]을 내리면 다양한 [artifacts|E]를 얻을 수 있으며, 그중 일부는 [court_artifact|E]로 [reforge|E]할 수 있습니다." # 3a428e0ca44e8ebfe0420f3c0497a7c4eede6d83
   game_concept_kola_nut: "콜라 넛" # c885ec130c9c5fdeae93f259b2722f72a87b6b8d
   game_concept_kola_nuts: "콜라 열매" # f50b9d80e803b0121b980560899b4dea9128eeaa
-  game_concept_kola_nuts_desc: "콜라 열매는 아프리카 전역에서 중요하지만, 이그보족만큼 숭배하는 곳은 없습니다. 따라서, $odinala_religion$ [종교|E]의 [faith|E]을 따르거나 $tradition_RICE_igwebuike_name$ [전통|E]을 가진 [문화|E]의 [지도자|E]는 콜라 열매와 관련된 두 가지 특별한 기능에 접근할 수 있습니다.\n\n첫째, $RICE_niger_delta_kola_nut_interaction$ [캐릭터 상호 작용|E]에 접근할 수 있습니다. 이를 통해 다른 [지도자|E]에게 [위신|E]과 [신앙심|E] (계급에 따라 다름)을 "지불"하여 [휴전|E]을 얻을 수 있습니다. 둘째, 콜라 열매를 바치는 [decision|E]을 내릴 수 있으며, 이를 통해 다양한 유익한 (또는 유익하지 않은) [캐릭터 수정치|E]를 얻을 수 있습니다." # ee2d9231aea3ba39fd0cd747880fb15fb6c9132e
+  game_concept_kola_nuts_desc: "콜라 열매는 아프리카 전역에서 중요하지만, 이그보족만큼 숭배하는 곳은 없습니다. 따라서, $odinala_religion$ [종교|E]의 [faith|E]을 따르거나 $tradition_RICE_igwebuike_name$ [전통|E]을 가진 [문화|E]의 [지도자|E]는 콜라 열매와 관련된 두 가지 특별한 기능에 접근할 수 있습니다.\n\n첫째, $RICE_niger_delta_kola_nut_interaction$ [인물 상호 작용|E]에 접근할 수 있습니다. 이를 통해 다른 [지도자|E]에게 [위신|E]과 [신앙심|E] (계급에 따라 다름)을 "지불"하여 [휴전|E]을 얻을 수 있습니다. 둘째, 콜라 열매를 바치는 [decision|E]을 내릴 수 있으며, 이를 통해 다양한 유익한 (또는 유익하지 않은) [인물 수정치|E]를 얻을 수 있습니다." # ee2d9231aea3ba39fd0cd747880fb15fb6c9132e
   culture_parameter_unlock_rice_african_royal_guilds: "클랜 기반의 [niger_delta_craft_guilds|E]에서 예술 작품을 조직하고 의뢰하는 [decisions|E]을(를) 해제합니다." # 784fc09f57dace369e6095ac5938655d3074ed94
   culture_parameter_unlock_rice_unrestricted_beaded_crown_bestowments: "[GetTitleByKey('d_ooni_of_ife').GetNameNoTier]가 [GetGeographicalRegion('RICE_yorubaland_region').GetName] 내의 [county|E]를 하나라도 소유하고 있다면, [faith|E]나 [heritage|E]에 상관없이 [beaded_crowns|E]를 요청할 수 있습니다." # 9fd6ea3a7d4a7397b3f28a2953fd157bdef6652f
   culture_parameter_unlock_rice_ancestor_worship: "[GetActivityType( 'activity_RICE_venerate_ancestors' ).GetName] [활동|E] 잠금 해제" # 720d79392e66b4938684977fc52b17c053fb8547
@@ -132,7 +132,7 @@
   activity_RICE_niger_delta_olojo_festival: "올로조 축제" # 29d538eaae57dad8357f676148ac51e954067f84
   activity_RICE_niger_delta_olojo_festival_desc: "오요로 축제는 인류의 요람인 [GetTitleByKey('b_ile-ife').GetNameNoTier]에서 수세기 동안 열렸습니다. 이 축제는 이 지역의 역사, 신화, 문화와 깊이 연결되어 있으며, 모든 $west_african_orisha_religion_adherent_plural$의 영적 지도자인 [GetTrait('RICE_ooni_of_ife').GetName( GetNullCharacter )]가 임무 선서를 갱신하고 신, 특히 오군에게 희생 제물을 바치는 때이기도 합니다.\n\n@alert_icon! #alert_trial 오요로 축제는 10월에 시작됩니다. 그 전에 도착하면 [GetTitleByKey('b_ile-ife').GetNameNoTier]에서 축제가 시작되기를 기다리는 동안 활동이 일시 중지됩니다.#!" # 1d1b70bbb9c4f65543755a72266f13780edbf114
   activity_RICE_niger_delta_olojo_festival_selection_tooltip: "올로조 축제에 참여합니다.\n\n$RICE_niger_delta_partake_olojo_festival_context_tooltip$" # fa527ff7c0ff25bf415c8ff14d8400893c99b406
-  activity_RICE_niger_delta_olojo_festival_host_desc: "$BULLET_WITH_TAB$ [신앙심|E] [신앙심|E] 또는 #P 이로운#! [캐릭터_보정치|E]와 같은 다양한 혜택을 얻을 수 있습니다.\n$BULLET_WITH_TAB$ 당신이 직접 Ọọ̀ni라면, 이 [활동|E]으로 인해 추가적인 책임과 보너스를 받게 됩니다." # 7bc916192f53ed835abdeb35168b7d945544855b
+  activity_RICE_niger_delta_olojo_festival_host_desc: "$BULLET_WITH_TAB$ [신앙심|E] [신앙심|E] 또는 #P 이로운#! [인물_보정치|E]와 같은 다양한 혜택을 얻을 수 있습니다.\n$BULLET_WITH_TAB$ 당신이 직접 Ọọ̀ni라면, 이 [활동|E]으로 인해 추가적인 책임과 보너스를 받게 됩니다." # 7bc916192f53ed835abdeb35168b7d945544855b
   activity_RICE_niger_delta_olojo_festival_guest_desc: "$activity_RICE_niger_delta_olojo_festival_host_desc$" # a1de274a79746e07a979d5203425e0bcf8f7bdf5
   activity_RICE_niger_delta_olojo_festival_province_desc: "$c_ife$는 인류의 요람이며, 오로조 축제를 개최할 수 있는 유일한 장소입니다." # 8f77d49fbb3552c21684bd6f6b9eb3164ccdbb39
   activity_RICE_niger_delta_olojo_festival_destination_selection: "$activity_RICE_niger_delta_olojo_festival_province_desc$" # f9a16fea465f4c42e5ccdceee73df0261a5995b7
@@ -192,18 +192,18 @@
   building_wap_bronze_industry_03: "대형 청동 작품" # 5a0d2470d8f862b11a153e51c4bd53f4626b06ed
   building_wap_bronze_industry_03_desc: "이제 우리 주인의 청동 제작을 위한 대규모 중앙 집권적 지구가 마련되었습니다. 최고급 청동, 구리, 철 제품 전문으로, 우리 주인 장인의 명성은 나이저 강에서 나일 강 유역까지 퍼져 있습니다." # 38d8dd086f9ad1e44b742509dda202bc1447f31f
   RICE_niger_delta_new_yam_festival_ruler_ate_first_yam: "첫 번째 참마를 먹음" # 370cd742167a984f2b148db3e05de2833604f386
-  RICE_niger_delta_new_yam_festival_ruler_ate_first_yam_desc: "최근 이 캐릭터가 기념한 새 참마 축제에서, 그들은 그 해의 첫 새 참마(즉, 갓 수확한 참마)를 먹는 영예를 스스로에게 부여했습니다." # f7ba967b4e28a9a823e207512470a1262da73674
+  RICE_niger_delta_new_yam_festival_ruler_ate_first_yam_desc: "최근 이 인물가 기념한 새 참마 축제에서, 그들은 그 해의 첫 새 참마(즉, 갓 수확한 참마)를 먹는 영예를 스스로에게 부여했습니다." # f7ba967b4e28a9a823e207512470a1262da73674
   RICE_niger_delta_new_yam_festival_priests_ate_first_yam: "성직자가 첫 참마를 먹었습니다" # 4bca28ef1be7a1a4d106468245dbc4faf581a3f0
-  RICE_niger_delta_new_yam_festival_priests_ate_first_yam_desc: "최근 이 캐릭터가 기념한 새 참마 축제에서, 그들의 신앙 성직자들은 그 해의 첫 새 참마(즉, 갓 수확한 참마)를 먹는 영광을 받았습니다." # d6c8d5dc9567f02db8eee7e0850509c9680b6330
+  RICE_niger_delta_new_yam_festival_priests_ate_first_yam_desc: "최근 이 인물가 기념한 새 참마 축제에서, 그들의 신앙 성직자들은 그 해의 첫 새 참마(즉, 갓 수확한 참마)를 먹는 영광을 받았습니다." # d6c8d5dc9567f02db8eee7e0850509c9680b6330
   RICE_niger_delta_new_yam_festival_commoners_ate_first_yam: "평범한 평민들이 처음으로 참마를 먹었습니다" # 713bcf15c3e3f1869da96c56d4f80bee7fc6e0c7
-  RICE_niger_delta_new_yam_festival_commoners_ate_first_yam_desc: "최근 이 캐릭터가 기념한 새 참마 축제에서 사회에서 가장 천하고 겸손한 구성원들이 그 해의 첫 새 참마(즉, 갓 수확한 참마)를 먹는 영광을 받았습니다." # 120194f91772fb6efbdcf5ba4f2b2c2c7cc3a06e
+  RICE_niger_delta_new_yam_festival_commoners_ate_first_yam_desc: "최근 이 인물가 기념한 새 참마 축제에서 사회에서 가장 천하고 겸손한 구성원들이 그 해의 첫 새 참마(즉, 갓 수확한 참마)를 먹는 영광을 받았습니다." # 120194f91772fb6efbdcf5ba4f2b2c2c7cc3a06e
   RICE_niger_delta_received_beaded_crown: "최근에 Ọọ̀ni로부터 구슬 왕관을 받았습니다" # 4c35021a3cd5e6184c491f4f26bbe14514e315a2
   RICE_niger_delta_uncrowned: "오오니에게 인정받지 못함" # 754b11959ac88109d12c9c5ef1f120dc5522cd5f
   RICE_niger_delta_uncrowned_desc: "이 통치자는 [GetTitleByKey('d_ooni_of_ife').GetNameNoTier]의 영적 및 세속적 수위를 존중하는 [faith|E]를 따르고 있지만, Ọọ̀ni에게서 [beaded_crown|E]을 구하지 않았으며, 통치를 합법화하기 위해 그렇게 해야 합니다.\n\n#EMP 이 [character_modifier|E]는 $RICE_niger_delta_request_beaded_crown$ 결정을 내리고 Ọọ̀ni가 대관에 동의하는 즉시 제거됩니다.!#" # 632201b922f87ee2270bf8f004769c2cad29a87c
   RICE_niger_delta_ooni_scorn: "$c_ife$의 Ọọ̀ni에게 버림받은" # 3969ed2ff1dbe6fa32ecf9540a635b58fc40a1e3
   RICE_niger_delta_ooni_denounced: "$c_ife$의 오오니에게 비난받음" # 5922a4bccdaa2fde7b30fad6573281f028f99f82
   RICE_niger_delta_ooni_denounced_permanent: "$c_ife$의 오오니에게 영원히 비난받음" # 63fd9eca0107040ab188d6507bd6f5612c5670d6
-  RICE_niger_delta_ooni_denounced_permanent_desc: "이 캐릭터는 $c_ife$의 오니를 거의 불가능하다고 생각될 정도로 모욕했습니다.\n\n#EMP 이 캐릭터는 영구적으로 [decision|E] $RICE_niger_delta_request_beaded_crown$을 내릴 수 없습니다!#" # 642b9bd6b8aff1fcefc4025a274047ed151298d3
+  RICE_niger_delta_ooni_denounced_permanent_desc: "이 인물은 $c_ife$의 오니를 거의 불가능하다고 생각될 정도로 모욕했습니다.\n\n#EMP 이 인물은 영구적으로 [decision|E] $RICE_niger_delta_request_beaded_crown$을 내릴 수 없습니다!#" # 642b9bd6b8aff1fcefc4025a274047ed151298d3
   RICE_niger_delta_ife_effects: "#italic $c_ife$ 백작령의 [rulers|E]은 [title_tier|E]에 상관없이, [culture|E]에 적합한 [traditions|E]이 없더라도 #bold 구슬 제작자#! [niger_delta_craft_guilds|E]로부터 미술품을 조직하거나 의뢰하는 [decide|E]를 내릴 수 있습니다!" # 6cbf6a50e55afb4e5d589213db9904fe0c8552f6
   RICE_niger_delta_city_of_ife: "$c_ife$, 인류의 요람" # 8c6bbe0f0449361900d0ce3c406c970dde2036bb
   RICE_niger_delta_city_of_ife_desc: "나이저 삼각주에 사는 사람들의 전설에 따르면 이페("확장의 땅"이라는 의미)는 모든 세속적 및 영적 권력의 근원입니다. 이 도시는 아프리카 최대의 유리 공방 중 하나가 있는 올로쿤의 숲과 같은 신과 조상 영혼을 위한 신성한 신사와 숲으로 가득합니다.$RICE_niger_delta_ife_effects$" # f7581f86a6053bac93c7b19f2d64b58c415b7f20
@@ -225,17 +225,17 @@
   RICE_niger_delta_kola_nut_one_lobe: "외잎 콜라 (오지 오그비)" # 377287e034ddf740ddd62d4af61b449712a88271
   RICE_niger_delta_kola_nut_one_lobe_desc: "최근 의식에서 이 인물이 처음 깬 콜라 너트는 한 쪽 열매만 있었습니다. 이런 종류의 콜라 너트, #italic Oji Ogbi#! 또는 바보 콜라 너트는 인간이 먹기에 부적절하고 하늘에만 어울리는 혐오스러운 것으로 여겨집니다. 이 인물은 가능한 한 빨리 버렸지만, 이는 그들에게 좋지 않은 평판을 남깁니다." # bee0c5fcb66c73315259e125a35c8781f6d70d2d
   RICE_niger_delta_kola_nut_two_lobes: "두 잎 콜라 (오지 그워로)" # 8c71cc983a9858f564f8f7416e0ccba702136b76
-  RICE_niger_delta_kola_nut_two_lobes_desc: "최근 의식에서 이 캐릭터가 처음으로 쪼갠 콜라 열매는 두 개의 잎을 가지고 있었습니다. #italic 오지 그워로#! 또는 영혼의 콜라 열매라고 불리는 이 콜라 열매는 두 개라는 숫자가 균형이 없고, 영혼의 소유이기 때문에 의심스러운 시선으로 여겨집니다. 이 캐릭터는 가능한 한 빨리 그것을 버렸지만, 분명히 나쁜 징조입니다." # 61543e27a0c7ada44abe68bd628231c21c0cf17e
+  RICE_niger_delta_kola_nut_two_lobes_desc: "최근 의식에서 이 인물가 처음으로 쪼갠 콜라 열매는 두 개의 잎을 가지고 있었습니다. #italic 오지 그워로#! 또는 영혼의 콜라 열매라고 불리는 이 콜라 열매는 두 개라는 숫자가 균형이 없고, 영혼의 소유이기 때문에 의심스러운 시선으로 여겨집니다. 이 인물은 가능한 한 빨리 그것을 버렸지만, 분명히 나쁜 징조입니다." # 61543e27a0c7ada44abe68bd628231c21c0cf17e
   RICE_niger_delta_kola_nut_three_lobes: "세 갈래로 갈라진 콜라(오지 이켕가)" # 00d9fc3ad17f25a85ce6f00bfda972477ca48d52
-  RICE_niger_delta_kola_nut_three_lobes_desc: "최근 의식에서 이 캐릭터가 처음으로 쪼갠 콜라 열매는 세 개의 열편을 가지고 있었습니다. #italic 오지 이켄가#! 또는 용맹한 자의 콜라 열매라고 불리는 이 유형의 콜라 열매는 용감함, 남성 전사 또는 성직자, 그리고 기본적인 가족 단위를 상징하는 남성적인 것으로 간주됩니다. 따라서 이것은 이 캐릭터의 용기와 힘을 나타내는 좋은 징조입니다." # 18837cb23cd5a815dae3c80d12a750829367447d
+  RICE_niger_delta_kola_nut_three_lobes_desc: "최근 의식에서 이 인물가 처음으로 쪼갠 콜라 열매는 세 개의 열편을 가지고 있었습니다. #italic 오지 이켄가#! 또는 용맹한 자의 콜라 열매라고 불리는 이 유형의 콜라 열매는 용감함, 남성 전사 또는 성직자, 그리고 기본적인 가족 단위를 상징하는 남성적인 것으로 간주됩니다. 따라서 이것은 이 인물의 용기와 힘을 나타내는 좋은 징조입니다." # 18837cb23cd5a815dae3c80d12a750829367447d
   RICE_niger_delta_kola_nut_four_lobes: "네 개의 잎을 가진 콜라(오지 우도 나 응고지)" # e7c3fc2e1850c47dd79802dd6886e3318da96fcb
-  RICE_niger_delta_kola_nut_four_lobes_desc: "최근 의식에서, 이 캐릭터가 처음으로 쪼갠 콜라 열매는 4개의 엽을 가지고 있었습니다. #italic 오지 우도 나 응고지#! 또는 평화와 축복의 콜라 열매라고 불리는 이 유형의 콜라 열매는 4개의 시장일과 연결되어 있어 완전함을 상징합니다. 따라서 4는 신성하고 좋은 숫자이므로, 이는 이 캐릭터의 삶에 안정과 화합을 나타내는 좋은 징조입니다." # 72126969458f4478416ca9dc137c0f8de32e7c38
+  RICE_niger_delta_kola_nut_four_lobes_desc: "최근 의식에서, 이 인물가 처음으로 쪼갠 콜라 열매는 4개의 엽을 가지고 있었습니다. #italic 오지 우도 나 응고지#! 또는 평화와 축복의 콜라 열매라고 불리는 이 유형의 콜라 열매는 4개의 시장일과 연결되어 있어 완전함을 상징합니다. 따라서 4는 신성하고 좋은 숫자이므로, 이는 이 인물의 삶에 안정과 화합을 나타내는 좋은 징조입니다." # 72126969458f4478416ca9dc137c0f8de32e7c38
   RICE_niger_delta_kola_nut_five_lobes: "오지 오무무 (다섯 갈래 잎의 콜라)" # c626fd2ef1fc171fd1d23903279e794d24b28503
-  RICE_niger_delta_kola_nut_five_lobes_desc: "최근 의식에서 이 캐릭터가 처음으로 쪼갠 콜라 열매는 5개의 열편을 가지고 있었습니다. #italic 오지 오무무#!, 즉 번식과 번영의 콜라 열매라고 불리는 이 콜라 열매는 흔하지 않으며 풍작과 큰 부, 그리고 다산성을 상징합니다. 따라서 이는 이 캐릭터의 삶에 풍요와 행운의 좋은 징조입니다." # f9c18516cfa375e95161b7f558724d988c537ead
+  RICE_niger_delta_kola_nut_five_lobes_desc: "최근 의식에서 이 인물가 처음으로 쪼갠 콜라 열매는 5개의 열편을 가지고 있었습니다. #italic 오지 오무무#!, 즉 번식과 번영의 콜라 열매라고 불리는 이 콜라 열매는 흔하지 않으며 풍작과 큰 부, 그리고 다산성을 상징합니다. 따라서 이는 이 인물의 삶에 풍요와 행운의 좋은 징조입니다." # f9c18516cfa375e95161b7f558724d988c537ead
   RICE_niger_delta_kola_nut_six_lobes: "여섯 갈래 콜라 (오지 오그부그반두)" # c5cb8e925cc602b4b0c188a122a15e2a9e18d4d4
-  RICE_niger_delta_kola_nut_six_lobes_desc: "최근 의식에서 이 캐릭터가 처음으로 쪼갠 콜라 열매는 6개의 엽을 가지고 있었습니다. #italic 오지 오그부반두#! 또는 조상의 콜라 열매라고 불리는 이 종류의 콜라 열매는 드물며 신과 사람들 사이의 특별한 언약을 상징합니다. 따라서 이것은 이 캐릭터의 삶에 큰 번영과 성공의 징조입니다." # cb1454ba47f9bbd42990051efab833d35e7ead94
+  RICE_niger_delta_kola_nut_six_lobes_desc: "최근 의식에서 이 인물가 처음으로 쪼갠 콜라 열매는 6개의 엽을 가지고 있었습니다. #italic 오지 오그부반두#! 또는 조상의 콜라 열매라고 불리는 이 종류의 콜라 열매는 드물며 신과 사람들 사이의 특별한 언약을 상징합니다. 따라서 이것은 이 인물의 삶에 큰 번영과 성공의 징조입니다." # cb1454ba47f9bbd42990051efab833d35e7ead94
   RICE_niger_delta_kola_nut_seven_lobes: "일곱 갈래 콜라 (오지 아사아-아소타)" # 3ea407594f12459ab72bbe9e44225b0aa87b6efc
-  RICE_niger_delta_kola_nut_seven_lobes_desc: "최근 의식에서 이 캐릭터가 처음으로 쪼갠 콜라 열매는 7개의 엽을 가지고 있었습니다. #italic 오지 아사-아소타#! 또는 일곱 개와 여덟 개의 콜라 열매(다른 이름도 있음)라고 불리는 이 콜라 열매는 매우 희귀하며 축하, 법, 왕족, 예언, 성취, 영원 등 여러 가지를 상징합니다. 이 기적적이고 소중한 콜라 열매는 초자연적인 효과가 있다고 믿어지기 때문에 이 캐릭터에게는 헤아릴 수 없는 행운의 징조입니다." # 751ca5aa87b2e4a26184340e38a560e09323658a
+  RICE_niger_delta_kola_nut_seven_lobes_desc: "최근 의식에서 이 인물가 처음으로 쪼갠 콜라 열매는 7개의 엽을 가지고 있었습니다. #italic 오지 아사-아소타#! 또는 일곱 개와 여덟 개의 콜라 열매(다른 이름도 있음)라고 불리는 이 콜라 열매는 매우 희귀하며 축하, 법, 왕족, 예언, 성취, 영원 등 여러 가지를 상징합니다. 이 기적적이고 소중한 콜라 열매는 초자연적인 효과가 있다고 믿어지기 때문에 이 인물에게는 헤아릴 수 없는 행운의 징조입니다." # 751ca5aa87b2e4a26184340e38a560e09323658a
   RICE_niger_delta_ate_yams_early: "새로운 참마 축제 전에 참마를 먹었습니다" # 008da6b7c268c90844b17bfef19b6419c6ea3e9c
   RICE_niger_delta_ate_yams_early_desc: "이 인물은 새참 축제 전에 갓 수확한 참마를 먹다가 발각되었습니다. 감히 이런 금기를 깨는 자는 거의 없지만, 이 인물은 신경 쓰지 않거나 참마를 너무나 먹고 싶어 했던 것입니다." # d601c308245185debd88c5f80eb16f9893b91347
   RICE_niger_delta_opinion_fair_punishment_but_still_annoyed: "공정한 처벌이지만, 여전히 짜증스럽습니다" # 459b3c006a105c11dd38c2d81b217dd99ebfcd31
@@ -245,7 +245,7 @@
   RICE_niger_delta_yam_festival_party_pooper: "새 참마 축제에서 야생적 행동 금지" # 7baee48b4ec21e2a5965950a2bde6e8fff770a77
   RICE_niger_delta_new_yam_festival_herbs: "새 참마 축제에서 얻은 약초" # efeea82581941f3076266a749853ac5027eb9de9
   RICE_niger_delta_yam_king: "산왕" # eb6488b0632a61ccf0e5a43a133895fe38a45f06
-  RICE_niger_delta_yam_king_desc: "이 캐릭터는 원래 숙련된 (또는 엄청나게 운이 좋은) 고구마 농부였으며, 새참 축제에서 고구마 왕으로 한때 즉위했습니다." # 6003ba4126a87a78782f5c5de389ae77c77fa0a3
+  RICE_niger_delta_yam_king_desc: "이 인물은 원래 숙련된 (또는 엄청나게 운이 좋은) 고구마 농부였으며, 새참 축제에서 고구마 왕으로 한때 즉위했습니다." # 6003ba4126a87a78782f5c5de389ae77c77fa0a3
   RICE_niger_delta_attended_olojo_festival: "최근 $c_ife$에서 열린 올로조 축제에 참석했습니다" # 408eaa42c8cd003db16f1be4ddc3913c3fb12b5f
   RICE_niger_delta_olojo_ooni_renewed_oaths_1: "오니로서의 맹세 갱신 (수락 가능)" # ce58e8a07a15da617104c50c9662a3c04fa3fd8b
   RICE_niger_delta_olojo_ooni_renewed_oaths_1_desc: "이 오오니는 올로조 축제 동안 자신의 맹세를 갱신했습니다. 많은 이들이 이 오오니가 축제 기간 동안 자신의 의무를 받아들일 수 있게 수행했다고 믿습니다." # c53bb4bc563c0c7ff28f34c2916f52c485fd7220
@@ -254,11 +254,11 @@
   RICE_niger_delta_olojo_ooni_renewed_oaths_3: "Ọọ̀니(웅장한)의 새롭게 갱신된 서약" # 3c6b5bc444c28d1902f0b8efa22d272c2417bb0f
   RICE_niger_delta_olojo_ooni_renewed_oaths_3_desc: "이 오오니는 올로조 축제 기간 동안 맹세를 갱신했습니다. 많은 사람들은 이 오오니가 축제 기간 동안 자신의 의무를 매우 잘 수행했다고 믿습니다. 그렇게 함으로써 조상과 영령, 특히 전쟁과 철의 분노한 신 오군의 승인을 얻을 뿐만 아니라, 땅 전체에 더 큰 평화와 번영의 시대를 예고할 것입니다." # 86d8c00b1e023fb315f7cf4b811ab4f0ea1a021e
   RICE_niger_delta_olojo_good_health: "오오니의 축복 (건강)" # 0f3c43d8c2a1ae74d6d878bc2f130b7a55115fc5
-  RICE_niger_delta_olojo_good_health_desc: "이 캐릭터는 오로조 축제 동안 오니로부터 건강에 대한 축복을 받았습니다." # 1b2d60e1cd848e5ae4f68f7e1a827138e2859f19
+  RICE_niger_delta_olojo_good_health_desc: "이 인물은 오로조 축제 동안 오니로부터 건강에 대한 축복을 받았습니다." # 1b2d60e1cd848e5ae4f68f7e1a827138e2859f19
   RICE_niger_delta_olojo_good_fortune: "오오니의 축복 (행운)" # 057e1dad0147c391c5f50c45aed539c63a856a0e
-  RICE_niger_delta_olojo_good_fortune_desc: "이 캐릭터는 오로조 축제 동안 오오니로부터 행운의 축복을 받았습니다." # 087759ddad92ae3c17ccec67d14207b16c0df422
+  RICE_niger_delta_olojo_good_fortune_desc: "이 인물은 오로조 축제 동안 오오니로부터 행운의 축복을 받았습니다." # 087759ddad92ae3c17ccec67d14207b16c0df422
   RICE_niger_delta_olojo_good_enemies: "오니의 축복 (적 저주)" # ea74dc991e76f615efbf45f53bbd200a862be5c2
-  RICE_niger_delta_olojo_good_enemies_desc: "이 캐릭터는 오로조 축제 기간 동안 오니로부터 적들에게 불운을 내리는 축복을 받았습니다." # 26c5a2b9e5b95caa6a6421ce2127925e502aaa8a
+  RICE_niger_delta_olojo_good_enemies_desc: "이 인물은 오로조 축제 기간 동안 오니로부터 적들에게 불운을 내리는 축복을 받았습니다." # 26c5a2b9e5b95caa6a6421ce2127925e502aaa8a
   RICE_restored_ooni_opinion: "$c_ife$의 오니 복원됨" # 24a0467bf5697f70bf9baf5d5fac8c8d89ab66f8
   RICE_niger_delta_opinion_good_ooni_gift: "구슬 왕관 의식에 적절하고 좋은 선물을 주었습니다" # 4e4a8789885191b79dcca86bd54f8e138e17705b
   RICE_niger_delta_opinion_bad_ooni_gift: "구슬 왕관 의식에 의심스러운 선물을 주었음" # bde469cf5f56c73d37fc0c469e036f358922e5a2
@@ -346,7 +346,7 @@
   RICE_niger_delta_celebrate_new_yam_festival: "새 참마 축제 기념" # 9a06cf1888eb5c2a79045b915dba579136245d54
   RICE_niger_delta_celebrate_new_yam_festival_tooltip: "첫 번째 참마 수확이 곧 다가옵니다...." # 144586969098cfd959a7f7ec5240c0db4ae5bf6b
   RICE_niger_delta_celebrate_new_yam_festival_desc: "수 세기 동안, 참마는 [ROOT.Char.GetCulture.GetCollectiveNoun]과 대서양 연안에서 유래한 다른 서아프리카 민족들에게 중요한 식량 공급원이었습니다. 곧 참마 수확기가 다가오니, 저는 성대한 참마 축제를 준비하고 풍년을 주신 [ROOT.Char.GetFaith.FertilityGodName]께 감사해야 합니다." # 0454139e529b12b8f7c881c3b264d40ef03d1cff
-  RICE_niger_delta_celebrate_new_yam_festival_effect_tooltip_1: "[명성|E], [신앙심|E], 그리고 여러 긍정적인 [캐릭터_보정|E]을 획득할 수 있습니다." # 902c7ae5492e1c91481fb1790c0d3dbfcb114977
+  RICE_niger_delta_celebrate_new_yam_festival_effect_tooltip_1: "[명성|E], [신앙심|E], 그리고 여러 긍정적인 [인물_보정|E]을 획득할 수 있습니다." # 902c7ae5492e1c91481fb1790c0d3dbfcb114977
   RICE_niger_delta_celebrate_new_yam_festival_effect_tooltip_2: "축제가 끝나면 소유한 모든 [county|E]는 [GetModifier('RICE_niger_delta_successful_new_yam_festival').GetNameWithTooltip] [county_modifier|E]를 얻을 기회가 있습니다." # dfc101b9f68b51116bcd0b73216627103965f442
   RICE_niger_delta_celebrate_new_yam_festival_confirm: "수확철입니다!" # 5ffd2933b27d5114259c5031cc4c63c933bf63e6
   RICE_niger_delta_celebrate_new_yam_festival_context_tooltip: "#bold 역사적 배경:#! 아프리카 여러 사회, 특히 서아프리카의 숲과 해안 지역에 걸쳐 있는 '고구마 지대'에서 고구마가 주요 농작물이었던 지역에서 매년 열리는 고구마 축제입니다. 축제의 구체적인 모습은 문화마다 크게 다르지만, 고구마 수확 시작을 기념하고 공동체 유대와 전통을 강화하는 종교적이자 사회적인 의식으로 여겨집니다." # 9021ed7757b5a09cb369ecccba028214aca2e0eb
@@ -364,7 +364,7 @@
   RICE_niger_delta_offer_kola_nuts_desc.religion: "[ROOT.Char.GetFaith.GetAdherentNamePlural] 사이에서 [kola_nuts|E]는 이 세계의 상호 연결성을 의미하는 #italic 이그웨부이케#! 철학의 상징으로 숭배받습니다. 또한 미래에 대해 많은 것을 알아내는 데 도움이 된다고 합니다. 저는 [ROOT.Char.GetFaith.HighGodName]께 [kola_nuts|E]를 바쳐야 합니다." # 483403e39373ddd40e8ef87066a727aae4ac1d52
   RICE_niger_delta_offer_kola_nuts_desc.culture: "[ROOT.Char.GetCulture.GetCollectiveNoun] 사이에서 [kola_nuts|E]는 이 세계의 상호 연결성을 의미하는 #italic 이그웨부이케#! 철학의 상징으로 존경받고 있습니다. 게다가 그것들은 미래에 대해 많은 것을 점치는 데 도움이 된다고 합니다. 나는 [ROOT.Char.GetFaith.HighGodName]에게 [kola_nuts|E]를 바쳐야 합니다." # 40b25125b644a8ae010b10d976a5aacca4959c87
   RICE_niger_delta_offer_kola_nuts_confirm: "콜라 열매를 준비하십시오!" # 8b2224409ee68068a046cd258c685241e1ef4efb
-  RICE_niger_delta_offer_kola_nuts_tt: "처음 바치는 [kola_nut|E]의 엽편 수에 따라 [신앙심|E]과 [캐릭터 모디파이어|E]를 얻습니다" # 99549fd5e94fd2a707b54f39851a648bfda606a8
+  RICE_niger_delta_offer_kola_nuts_tt: "처음 바치는 [kola_nut|E]의 엽편 수에 따라 [신앙심|E]과 [인물 모디파이어|E]를 얻습니다" # 99549fd5e94fd2a707b54f39851a648bfda606a8
   RICE_niger_delta_offer_kola_nuts.one: "한 쪽 귓불" # d5802a3ed0757e617445fa89e4b1fad97682b35d
   RICE_niger_delta_offer_kola_nuts.two: "두 개의 돌출부" # 9db7cb180cbf59fc40243bbaed79233d51f51c64
   RICE_niger_delta_offer_kola_nuts.three: "세 개의 엽" # 4831a668d7c54152f7b1a8e31b9a260f797a8fa1

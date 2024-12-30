@@ -6,6 +6,7 @@ const dictionaries: Record<string, string> = {
   blemmyes: '블렘미',
   blemmyae: '블렘미',
   blunder: '실수',
+  character: '인물',
   casual: '무관심',
   chios: '히오스',
   duke: '공작',

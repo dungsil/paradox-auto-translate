@@ -36,12 +36,12 @@
   culture_parameter_unlock_rice_rift_valley_courtier_spawn: "[GetGeographicalRegion('RICE_south_ethiopia_region').GetName] 지역에서 지도 밖에 있는 동아프리카 [cultures|E]의 [courtiers|E]가 생성될 확률이 증가하며, 이들을 받아들였을 때 주어지는 [county_modifier|E]의 지속 시간이 두 배로 늘어납니다" # bec943ac0e030a11231d074e14f5fedccf6a2abf
   trait_RICE_cattle_owner_1: "위대한 가축 소유자" # 00e62a0971f9b22bf98a87a20d92bd867459242e
   trait_RICE_cattle_owner_2: "위대한 소유자" # f6b50aebefaae35dea857c4fb210eeb486722478
-  trait_RICE_cattle_owner_1_desc: "이 캐릭터는 #italic 달라#! 소 세기 의식을 완료하여 백 마리 이상의 소를 소유했음을 입증했습니다. 따라서 이들은 공동체에서 가치 있고 주목할 만한 인물로 간주됩니다." # b4b5ff5b5c41782582f3c1df6f4a021f78ffe497
+  trait_RICE_cattle_owner_1_desc: "이 인물은 #italic 달라#! 소 세기 의식을 완료하여 백 마리 이상의 소를 소유했음을 입증했습니다. 따라서 이들은 공동체에서 가치 있고 주목할 만한 인물로 간주됩니다." # b4b5ff5b5c41782582f3c1df6f4a021f78ffe497
   trait_RICE_cattle_owner_1_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] 님이 #italic 달라#! 가축 세기 의식을 완료하여 [ROOT.GetCharacter.GetSheHe]가 백 마리 이상의 가축을 소유하고 있음을 증명했습니다. 따라서 [ROOT.GetCharacter.GetSheHe|U]는 [ROOT.GetCharacter.GetHerHis] 사회에서 가치 있고 주목할 만한 사람으로 여겨집니다." # f72b3fef10f5f620c3d46de3d2862992b150fea8
   trait_RICE_cattle_owner_2_desc: "이 인물은 #italic 리카#! 소 머리 세기 의식을 완료하여 1000마리 이상의 소를 소유함을 증명했습니다. 이처럼 많은 소떼를 보유한 그들은 공동체에서 가장 존경받는 사람들 중 한 명입니다." # 36c4aac2e7c6992f4aafc9037f8f88e19cd3891c
   trait_RICE_cattle_owner_2_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] 님이 #italic 리카#! 소 세기 의식을 완료하여 [ROOT.GetCharacter.GetSheHe]가 천 마리가 넘는 소를 소유하고 있음을 증명했습니다. 이처럼 큰 가축 떼를 거느린 [ROOT.GetCharacter.GetSheHe]는 지역 사회에서 가장 존경받는 사람 중 한 명입니다." # 14f07040bdfb777356e83e3394ce873464f2b4c5
   trait_RICE_cattle_owner_spouse: "유명한 소 사육가의 친척" # fe9f739bad6844bddd7884a21eea20fa5d6dce44
-  trait_RICE_cattle_owner_spouse_desc: "이 캐릭터는 #italic 기무와#! 의식을 완료했습니다. 이러한 영예는 각각 백 마리, 천 마리의 소떼를 소유하고 있음을 증명하기 위해 #italic 달라#! 또는 #italic 리카#! 소 세기 의식을 완료한 위대한 소 소유주의 친척에게 부여됩니다. 그들은 시장에 가서 물건을 사고팔 수 없으며 모든 작업에서 조수의 도움을 받아야 합니다." # 892ae42f2108f1725ec8b5bfb3ab66768bbd6f54
+  trait_RICE_cattle_owner_spouse_desc: "이 인물은 #italic 기무와#! 의식을 완료했습니다. 이러한 영예는 각각 백 마리, 천 마리의 소떼를 소유하고 있음을 증명하기 위해 #italic 달라#! 또는 #italic 리카#! 소 세기 의식을 완료한 위대한 소 소유주의 친척에게 부여됩니다. 그들은 시장에 가서 물건을 사고팔 수 없으며 모든 작업에서 조수의 도움을 받아야 합니다." # 892ae42f2108f1725ec8b5bfb3ab66768bbd6f54
   trait_RICE_cattle_owner_spouse_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip] 님이 #italic 기무와#! 의식을 완료했습니다. 이러한 영광은 각각 백 마리, 천 마리의 가축을 소유했음을 증명하기 위해 #italic 달라#! 또는 #italic 리카#! 가축 세기 의식을 완료한 위대한 가축 소유자의 친척에게 주어집니다. [ROOT.GetCharacter.GetSheHe|U]는 시장에 가서 물건을 사고팔 수 없으며, 모든 작업에서 조력자의 도움을 받아야 합니다." # c86883ffe7d45fb55856750e0db99893f74244b1
   trait_RICE_cattle_owner: "$trait_RICE_cattle_owner_1$" # 2d42bcd27905ae2032613c9efab595ca15fd68b1
   trait_RICE_cattle_owner_desc: "$trait_RICE_cattle_owner_1_desc$" # 26d1d3ea8e63bb5ef37e8b0dc0f4da6d59b1ce47
@@ -60,10 +60,10 @@
   RICE_south_ethiopia_cattle_counting_ceremony_counting_phase_desc: "소는 몇 마리나 있습니까?" # 6b473f328b9131f23ba969b555b8bd96cbad7a67
   RICE_south_ethiopia_cattle_counting_ceremony_status_intent_header: "상태:" # 11dc9e1952928d4ca947651277656b4d8b55fffc
   RICE_south_ethiopia_cattle_counting_ceremony_status_intent: "상태" # bae7d5be70820ed56467bd9a63744e23b47bd711
-  RICE_south_ethiopia_cattle_counting_ceremony_status_intent_desc: "연설을 통해 얻는 [dynasty_prestige_i|E] [dynasty_prestige|E]를 두 배로 증가시킵니다. [GetTrait('ambitious').GetName( GetNullCharacter )|U]와 [GetTrait('arrogant').GetName( GetNullCharacter )] 캐릭터는 추가적인 [stress|E]를 잃습니다." # ecf01022d862973df8fc2f7815a0147e90a07841
+  RICE_south_ethiopia_cattle_counting_ceremony_status_intent_desc: "연설을 통해 얻는 [dynasty_prestige_i|E] [dynasty_prestige|E]를 두 배로 증가시킵니다. [GetTrait('ambitious').GetName( GetNullCharacter )|U]와 [GetTrait('arrogant').GetName( GetNullCharacter )] 인물은 추가적인 [stress|E]를 잃습니다." # ecf01022d862973df8fc2f7815a0147e90a07841
   RICE_south_ethiopia_cattle_counting_ceremony_community_intent_header: "커뮤니티:" # 48797e264e29594942b01679489176720ea8d937
   RICE_south_ethiopia_cattle_counting_ceremony_community_intent: "공동체" # bfd58ee3a270f3a931009900e1008d549bbd7453
-  RICE_south_ethiopia_cattle_counting_ceremony_community_intent_desc: "당신은 가축을 과시하는 것뿐만 아니라 모든 사람에게 관대함을 보여주려 합니다. 연회에서 기본 [prestige_i|E] [prestige|E]와 [piety_i|E] [piety|E]를 #P +50%#! 얻습니다. [GetTrait('generous').GetName( GetNullCharacter )|U]와 [GetTrait('compassionate').GetName( GetNullCharacter )] 특성을 가진 캐릭터는 추가 [stress|E]를 잃습니다." # 2db4b78754560ca74079d98d24f69702a059e75b
+  RICE_south_ethiopia_cattle_counting_ceremony_community_intent_desc: "당신은 가축을 과시하는 것뿐만 아니라 모든 사람에게 관대함을 보여주려 합니다. 연회에서 기본 [prestige_i|E] [prestige|E]와 [piety_i|E] [piety|E]를 #P +50%#! 얻습니다. [GetTrait('generous').GetName( GetNullCharacter )|U]와 [GetTrait('compassionate').GetName( GetNullCharacter )] 특성을 가진 인물은 추가 [stress|E]를 잃습니다." # 2db4b78754560ca74079d98d24f69702a059e75b
   RICE_south_ethiopia_cattle_counting_ceremony_observation_intent_header: "관찰:" # d18c870dbfd8a43034e5e38c25648f6a00c617cb
   RICE_south_ethiopia_cattle_counting_ceremony_observation_intent: "관찰" # bc763cd41210febe8463d4847921d5a86e54cf51
   RICE_south_ethiopia_cattle_counting_ceremony_observation_intent_desc: "당신은 소를 세는 의식을 관찰하기 위해 이곳에 왔습니다." # 5f224e3ebcb52e70c49a6adde95108f76232f8a4

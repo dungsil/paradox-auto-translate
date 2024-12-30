@@ -61,39 +61,38 @@
   RICE_bozo_tapama_djenepo_tomb_completed_log: "[CHARACTER.GetShortUIName|U](이)가 타파마 제네포의 무덤 방문을 완료했습니다" # bd0463ccad0edc666ca81c4a93c444dfd1a2dd06
   TRAVEL_NAME_FOR_activity_RICE_bozo_tapama_djenepo_tomb: "$activity_RICE_bozo_tapama_djenepo_tomb$의 소유격" # cffdf07444517788b8d48296af4ca77195ab2490
   activity_RICE_bozo_tapama_djenepo_tomb_owner: "순례자" # fa90e82f429f333a1ff48c9130132abed1504929
-  RICE_bozo_mud_masons_jenne: "제네의 진흙 건축가" # 6c55ad6fcef56696d89cfee7abd3c4d1375e192c
-  RICE_bozo_mud_masons_jenne_desc: "제네의 석공 조합, #italic 바레이 톤#!은 여러 세대에 걸쳐 완벽하게 연마된 [진흙 건축|E] 기술로 유명합니다. 신성한 차원을 지닌
-  그들의 지식은 지역 전체에서 크게 존경받습니다.\n\n이 [지역|E]의 #italic 통치자[들|E]#!은 자신의 [문화|E]가 $tradition_RICE_african_mud_masons_name$ [전통|E]을 가지지 않더라도 $RICE_bozo_mud_masons_decision$ [decision|E]에 자동으로 접근할 수 있습니다. 만약 그들이 [전통|E]을 #italic 가지고 있다면#! [decision|E]으로부터 더 큰 보너스를 받을 것입니다." # n
+  RICE_bozo_mud_masons_jenne: "제네의 진흙 석공" # 6c55ad6fcef56696d89cfee7abd3c4d1375e192c
+  RICE_bozo_mud_masons_jenne_desc: "제네의 석공 조합, #italic 바레이 톤#!은 여러 세대에 걸쳐 완벽하게 연마된 [mud_masonry|E] 기술로 유명합니다. 신성한 차원을 지닌 그들의 지식은 이 지역에서 큰 존경을 받고 있습니다.\n\n이 [county|E]의 #italic [rulers|E]#!는 [culture|E]에 $tradition_RICE_african_mud_masons_name$ [tradition|E]이 없더라도 $RICE_bozo_mud_masons_decision$ [decision|E]에 자동으로 접근할 수 있습니다. 만약 그들이 [tradition|E]을 #italic 가지고 있다면#!, [decision|E]으로부터 더 큰 보너스를 받게 될 것입니다." # f8b3af0879bf77e2094d0b661c076be20d33ddb2
   RICE_bozo_mud_masons_general_modifier: "진흙 벽돌공 고용 (일반 $game_concept_holdings$)" # 2d181dab5f42ae89943ced2a3a95b69ef2e5db17
-  RICE_bozo_mud_masons_general_modifier_desc: "이 캐릭터는 모든 [holding_types|E]에 걸쳐 다양한 [buildings|E]의 건설 및 유지 관리와 관련된 프로젝트를 위해 아프리카 [mud_masons|E] 지역 길드와 계약을 맺었습니다." # 8698d27e07082fe89d6f7b003afd17dcac71d9ce
+  RICE_bozo_mud_masons_general_modifier_desc: "이 인물은 모든 [holding_types|E]에 걸쳐 다양한 [buildings|E]의 건설 및 유지 관리와 관련된 프로젝트를 위해 아프리카 [mud_masons|E] 지역 길드와 계약을 맺었습니다." # 8698d27e07082fe89d6f7b003afd17dcac71d9ce
   RICE_bozo_mud_masons_castle_modifier: "진흙 벽돌공 고용 ($game_concept_castle_holdings$)" # e1ed6b4c5ecd685638ff6e61abb5c86c43d410fe
-  RICE_bozo_mud_masons_castle_modifier_desc: "이 캐릭터는 자신의 [castle_holdings|E] 내 [buildings|E] 건설 및 유지보수와 관련된 프로젝트를 위해 아프리카 [mud_masons|E] 현지 길드와 계약을 맺었습니다." # afd8296bc67b270aff3b5afd1c90659fc8099bd1
+  RICE_bozo_mud_masons_castle_modifier_desc: "이 인물은 자신의 [castle_holdings|E] 내 [buildings|E] 건설 및 유지보수와 관련된 프로젝트를 위해 아프리카 [mud_masons|E] 현지 길드와 계약을 맺었습니다." # afd8296bc67b270aff3b5afd1c90659fc8099bd1
   RICE_bozo_mud_masons_city_modifier: "진흙 벽돌공 고용($game_concept_city_holdings$)" # 32dcaf6f5c45270a0d868f5b9d21d369977859d6
-  RICE_bozo_mud_masons_city_modifier_desc: "이 캐릭터는 자신의 [city_holdings|E] 내의 [buildings|E] 건설 및 유지와 관련된 프로젝트를 위해 현지 아프리카 [mud_masons|E] 길드와 계약을 맺었습니다." # b78a37ee3aca2b8a945af75d1a9c8bdfb2a67ec9
+  RICE_bozo_mud_masons_city_modifier_desc: "이 인물은 자신의 [city_holdings|E] 내의 [buildings|E] 건설 및 유지와 관련된 프로젝트를 위해 현지 아프리카 [mud_masons|E] 길드와 계약을 맺었습니다." # b78a37ee3aca2b8a945af75d1a9c8bdfb2a67ec9
   RICE_bozo_mud_masons_church_modifier: "진흙 건축가 고용($game_concept_church_holdings$)" # 22211238bae267e8c9a31d391a30e31f9645bb11
-  RICE_bozo_mud_masons_church_modifier_desc: "이 캐릭터는 자신의 [church_holdings|E] 내 [buildings|E] 건설 및 유지와 관련된 프로젝트를 위해 아프리카 [mud_masons|E] 지역 길드와 계약을 맺었습니다." # b2562ed768a749b257e71bc2a7226f9c779c0d09
+  RICE_bozo_mud_masons_church_modifier_desc: "이 인물은 자신의 [church_holdings|E] 내 [buildings|E] 건설 및 유지와 관련된 프로젝트를 위해 아프리카 [mud_masons|E] 지역 길드와 계약을 맺었습니다." # b2562ed768a749b257e71bc2a7226f9c779c0d09
   RICE_bozo_mud_masons_general_modifier_jenne: "제네의 진흙 건축가 고용 (일반 $game_concept_holdings$)" # b28ee506e5a13079aa1c4c3f3dda00147614f920
-  RICE_bozo_mud_masons_general_modifier_jenne_desc: "이 캐릭터는 고대 도시 제네 출신의 [mud_masons|E]의 #italic 바레이톤#! 또는 길드와 모든 [holding_types|E]에 걸쳐 다양한 [buildings|E]의 건설 및 유지 관리와 관련된 프로젝트 계약을 맺었습니다." # 65157c5fa656836f832a264b815bf5d9bfd651f0
+  RICE_bozo_mud_masons_general_modifier_jenne_desc: "이 인물은 고대 도시 제네 출신의 [mud_masons|E]의 #italic 바레이톤#! 또는 길드와 모든 [holding_types|E]에 걸쳐 다양한 [buildings|E]의 건설 및 유지 관리와 관련된 프로젝트 계약을 맺었습니다." # 65157c5fa656836f832a264b815bf5d9bfd651f0
   RICE_bozo_mud_masons_castle_modifier_jenne: "제네의 진흙 벽돌공들을 고용 ($game_concept_castle_holdings$)" # 90e1650db0d70409c79c9d3abfba4351fc37788e
-  RICE_bozo_mud_masons_castle_modifier_jenne_desc: "이 캐릭터는 고대 도시 제네 출신의 [mud_masons|E]의 #italic barey ton#!, 즉 길드와 자신의 [castle_holdings|E] 내 [buildings|E] 건설 및 유지보수 프로젝트 관련 계약을 맺었습니다." # ba6db84cf55f0a9dad2b44c8ec6fc86da9637f72
+  RICE_bozo_mud_masons_castle_modifier_jenne_desc: "이 인물은 고대 도시 제네 출신의 [mud_masons|E]의 #italic barey ton#!, 즉 길드와 자신의 [castle_holdings|E] 내 [buildings|E] 건설 및 유지보수 프로젝트 관련 계약을 맺었습니다." # ba6db84cf55f0a9dad2b44c8ec6fc86da9637f72
   RICE_bozo_mud_masons_city_modifier_jenne: "제네의 진흙 석공 고용($game_concept_city_holdings$)" # bb4f0cd76f3c63e1aa1544fb254f89cfcd4feaf8
-  RICE_bozo_mud_masons_city_modifier_jenne_desc: "이 캐릭터는 고대 도시 제네의 [mud_masons|E] 장인 조합인 #italic 바레이 톤#! 과 [city_holdings|E] 내 [buildings|E] 건설 및 유지 보수 관련 프로젝트 계약을 맺고 있습니다." # 8df8ec254a652f629689a18f6bedd2fa289d7183
+  RICE_bozo_mud_masons_city_modifier_jenne_desc: "이 인물은 고대 도시 제네의 [mud_masons|E] 장인 조합인 #italic 바레이 톤#! 과 [city_holdings|E] 내 [buildings|E] 건설 및 유지 보수 관련 프로젝트 계약을 맺고 있습니다." # 8df8ec254a652f629689a18f6bedd2fa289d7183
   RICE_bozo_mud_masons_church_modifier_jenne: "제네의 진흙 건축가 고용($game_concept_church_holdings$)" # 295e421c85c2578d4c6f34c499d355aebf8d094d
   RICE_bozo_mud_masons_church_modifier_jenne_desc: "이 인물은 옛 도시 제네 출신 [mud_masons|E]의 #italic barey ton#! 또는 길드와 건설 및 유지보수 프로젝트에 관한 계약을 맺었으며, 이는 그들의 [church_holdings|E] 내 [buildings|E]에 관련됩니다." # a6217d8bb5de4a8d71599db004a45badb66c5217
   RICE_bozo_recently_moved_Jenne: "젠네 최근 이전" # 5e0ef7426c27d6c95e71a28a000d77117075903e
   RICE_bozo_recently_moved_Jenne_desc: "옛 제네는 버려졌고, 이전 부지에서 멀지 않은 곳에 새로운 도시가 재건되었습니다. 이로 인해 마을의 경제와 다른 무역항과의 연결이 활성화되었습니다." # f547ef2de03b3b2e1176924045fb885cc716a21f
   RICE_bozo_visited_tapama_djenepo_tomb: "타파마 제네포의 무덤을 방문함" # cb716ff90d1c1d44f1bbffae6a5062601f2f57bd
-  RICE_bozo_visited_tapama_djenepo_tomb_desc: "이 캐릭터는 최근 제네의 타파마 제네포의 무덤을 방문했습니다. 전설에 따르면, 그녀는 도시가 건설될 수 있도록 희생되었다고 합니다." # d37b8d580df5947d5f644c1dccd5defdc88d7520
+  RICE_bozo_visited_tapama_djenepo_tomb_desc: "이 인물은 최근 제네의 타파마 제네포의 무덤을 방문했습니다. 전설에 따르면, 그녀는 도시가 건설될 수 있도록 희생되었다고 합니다." # d37b8d580df5947d5f644c1dccd5defdc88d7520
   RICE_bozo_wangara_political_synergy: "왕가라 관료" # bc305f248e2d64741397ff347748223a473534eb
-  RICE_bozo_wangara_political_synergy_desc: "이 캐릭터는 최근에 자신의 왕국 행정에 여러 [wangara|E]를 편입했습니다." # 59c5e8556e85594e828bcdc46dacf761b8377d02
+  RICE_bozo_wangara_political_synergy_desc: "이 인물은 최근에 자신의 왕국 행정에 여러 [wangara|E]를 편입했습니다." # 59c5e8556e85594e828bcdc46dacf761b8377d02
   RICE_bozo_wangara_political_synergy_county: "왕가라 정치 시너지" # 255791fa45a5a1173d45d22bcfe14b9337b0af6b
   RICE_bozo_wangara_political_synergy_county_desc: "최근 당국은 이 지역 사회의 지방 행정 및 정치 네트워크에 더 많은 [wangara|E]를 통합하기 위한 조치를 취했습니다." # a122ad21e3140b6006696721c95a065fee397e4c
   RICE_bozo_wangara_commercial_synergy: "왕가라 사업" # 3968d324a81c6155b16304b8ccc0fdd208330bb5
-  RICE_bozo_wangara_commercial_synergy_desc: "이 캐릭터는 최근 [wangara|E]와 협력하여 자신의 영토에서 교역을 장려했습니다." # 95e47759ff6a4f622da26d7b601e06adcffb9eb7
+  RICE_bozo_wangara_commercial_synergy_desc: "이 인물은 최근 [wangara|E]와 협력하여 자신의 영토에서 교역을 장려했습니다." # 95e47759ff6a4f622da26d7b601e06adcffb9eb7
   RICE_bozo_wangara_commercial_synergy_county: "왕가라 상업 시너지" # 413d410acf17fdc6a1f0a7d8173c6d06399038c7
   RICE_bozo_wangara_commercial_synergy_county_desc: "당국은 최근 이 지역 사회에서 [wangara|E]의 사업 운영과 상업 네트워크 확장을 지원하기 위한 조치를 취했습니다." # eb32aba3525338b602cc7ce7bbe75f56ed318189
   RICE_bozo_wangara_cultural_synergy: "왕가라 장학금" # 941846259da269800f66ded5fbaa5c61691b4d24
-  RICE_bozo_wangara_cultural_synergy_desc: "이 인물은 최근 영역 내 학문적 배경을 지닌 [왕가라|E]와 관계를 맺었습니다." # n
+  RICE_bozo_wangara_cultural_synergy_desc: "이 인물은 최근 그들의 영토에서 학문적 배경을 가진 [wangara|E]와 관계를 맺었습니다." # 0143662671c9603296bfb8f695ef974c6fdf41d7
   RICE_bozo_wangara_cultural_synergy_county: "왕가라 문화적 시너지" # cdc0a27d3f860e8a4b65b8e88aa0fa51c957e7b8
   RICE_bozo_wangara_cultural_synergy_county_desc: "최근 당국은 이 지역 사회의 학문, 종교 및 예술 상태를 개선하기 위해 학문적 배경이 있는 [wangara|E]를 후원하기 위한 조치를 취했습니다." # 0351d28019b225cfb2328b3fc6cff7606646e26e
   RICE_bozo_new_mud_mason_contract: "새 진흙 석공 계약" # 731169a095c10eb70229a4e742f9e3d89e198b1f
@@ -129,7 +128,7 @@
   RICE_bozo_mud_masons_castle_option_tooltip: "[prestige_i|E] #V 100#!을 얻고 #V 10#!년 동안 [GetModifier('RICE_bozo_mud_masons_castle_modifier').GetNameWithTooltip] [character_modifier|E]를 얻습니다." # a9467ffcbf7c57a3491bf37d62ae62746adba0d6
   RICE_bozo_mud_masons_city_option: "[city_holdings|E]" # 010091e458f556bedd9b3cb1eaf0d379e952cb0e
   RICE_bozo_mud_masons_city_option_desc: "모든 [city_holdings|E]에 균등하게 집중합니다" # e8e5180cf5cb0e762eff218b4a8ad7d22fedf6a7
-  RICE_bozo_mud_masons_city_option_tooltip: "[명성_i|E] #V 50#! 및 [신앙심_i|E] #V 50#!을 얻고 #V 10#!년 동안 [GetModifier('RICE_bozo_mud_masons_city_modifier').GetNameWithTooltip] [캐릭터_modifier|E]를 얻습니다." # 6270a7cf79db32bc1c43de68dc90fb4bffdfbaeb
+  RICE_bozo_mud_masons_city_option_tooltip: "[명성_i|E] #V 50#! 및 [신앙심_i|E] #V 50#!을 얻고 #V 10#!년 동안 [GetModifier('RICE_bozo_mud_masons_city_modifier').GetNameWithTooltip] [인물_modifier|E]를 얻습니다." # 6270a7cf79db32bc1c43de68dc90fb4bffdfbaeb
   RICE_bozo_mud_masons_church_option: "[교회 소유지|E]" # 3bc8e9fc6b1784545ca714945904e13dba49fb12
   RICE_bozo_mud_masons_church_option_desc: "모든 [church_holdings|E]에 균등하게 집중합니다" # 9ce19669286f94dd27f234b598af5b22ce992403
   RICE_bozo_mud_masons_church_option_tooltip: "[piety_i|E] #V 100#! 획득, 그리고 #V 10#!년 동안 [GetModifier('RICE_bozo_mud_masons_church_modifier').GetNameWithTooltip] [character_modifier|E] 획득." # ea95d13884438f271c3314e10c4ee03c754563e6
@@ -141,7 +140,7 @@
   RICE_bozo_mud_masons_castle_jenne_option_tooltip: "[prestige_i|E] #V 100#! 및 #V 10#!년 동안 [GetModifier('RICE_bozo_mud_masons_castle_modifier_jenne').GetNameWithTooltip] [character_modifier|E] 획득." # 625859811892e6db764fa97cf7720032f7113b9b
   RICE_bozo_mud_masons_city_jenne_option: "[city_holdings|E]" # 010091e458f556bedd9b3cb1eaf0d379e952cb0e
   RICE_bozo_mud_masons_city_jenne_option_desc: "모든 [city_holdings|E]에 균등하게 집중합니다" # e8e5180cf5cb0e762eff218b4a8ad7d22fedf6a7
-  RICE_bozo_mud_masons_city_jenne_option_tooltip: "[명성|E] #V 50#!과 [faith|E] #V 50#!을 얻고, [GetModifier('RICE_bozo_mud_masons_city_modifier_jenne').GetNameWithTooltip] [캐릭터 수정자|E]를 #V 10#!년간 받습니다." # 8415a17b0eab7067a384f1414f299c6df42660dd
+  RICE_bozo_mud_masons_city_jenne_option_tooltip: "[명성|E] #V 50#!과 [faith|E] #V 50#!을 얻고, [GetModifier('RICE_bozo_mud_masons_city_modifier_jenne').GetNameWithTooltip] [인물 수정자|E]를 #V 10#!년간 받습니다." # 8415a17b0eab7067a384f1414f299c6df42660dd
   RICE_bozo_mud_masons_church_jenne_option: "[church_holdings|E]" # 3bc8e9fc6b1784545ca714945904e13dba49fb12
   RICE_bozo_mud_masons_church_jenne_option_desc: "모든 [church_holdings|E]에 균등하게 집중합니다" # 9ce19669286f94dd27f234b598af5b22ce992403
   RICE_bozo_mud_masons_church_jenne_option_tooltip: "[piety_i|E] #V 100#!을 얻고, #V 10#!년 동안 [GetModifier('RICE_bozo_mud_masons_church_modifier_jenne').GetNameWithTooltip] [character_modifier|E]를 얻습니다." # 722ff0c092b1738f09400e2634f76490e1612330

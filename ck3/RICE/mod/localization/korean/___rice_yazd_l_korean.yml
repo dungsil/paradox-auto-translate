@@ -37,7 +37,7 @@
   activity_RICE_yazd_sadeh_festival: "사데 축제" # dc89656e38291cac5756603ce71502876cf1748b
   activity_RICE_yazd_sadeh_festival_desc: "겨울의 추위가 온 땅을 휩쓸 때, 이란 세계의 전통적인 겨울 축제인 사데 축제가 열릴 때입니다." # a2c65e894641c8fe968fede0b06d2bfa874a548a
   activity_RICE_yazd_sadeh_festival_selection_tooltip: "당신의 [capital|E]에서 성대한 사데 축제를 개최하십시오.\n\n$RICE_yazd_celebrate_sadeh_festival_context_tooltip$" # e58c313a25c3e6507023a0f62b8d3ee79f9c9b72
-  activity_RICE_yazd_sadeh_festival_host_desc: "\n$BULLET_WITH_TAB$[prestige_i] [위신|E]\n$BULLET_WITH_TAB$[piety_i] [신앙심|E]\n$BULLET_WITH_TAB$ [stress_loss_i|E] [stress|E] 감소\n$BULLET_WITH_TAB$ [GetModifier('RICE_yazd_recently_celebrated_sadeh').GetNameWithTooltip] [캐릭터_modifier|E]" # 5721df9ccf154c21ac846cb19a8c38fea54fc37b
+  activity_RICE_yazd_sadeh_festival_host_desc: "\n$BULLET_WITH_TAB$[prestige_i] [위신|E]\n$BULLET_WITH_TAB$[piety_i] [신앙심|E]\n$BULLET_WITH_TAB$ [stress_loss_i|E] [stress|E] 감소\n$BULLET_WITH_TAB$ [GetModifier('RICE_yazd_recently_celebrated_sadeh').GetNameWithTooltip] [인물_modifier|E]" # 5721df9ccf154c21ac846cb19a8c38fea54fc37b
   activity_RICE_yazd_sadeh_festival_guest_desc: "$activity_RICE_yazd_sadeh_festival_host_desc$" # d5003ba3861d4884f72a1a7b702693ef0afc6c14
   activity_RICE_yazd_sadeh_festival_destination_selection: "$activity_RICE_yazd_sadeh_festival_province_desc$" # c3136fab2575ffdacdd8ea02f93f589ea2c73b26
   activity_RICE_yazd_sadeh_festival_guest_help_text: "$activity_RICE_yazd_sadeh_festival$" # 8c77c1e98d31e9913a5cd7cb417a16e182595a43
@@ -57,13 +57,13 @@
   RICE_yazd_sadeh_festival_fun_intent_desc: "사데에서 즐거운 시간을 보내고 싶으실 겁니다. [stress|E]를 반드시 잃을 것이며, [GetTrait('gregarious').GetName( GetNullCharacter )] 또는 [GetTrait('gluttonous').GetName( GetNullCharacter )]라면 더 많은 스트레스를 잃게 될 것입니다." # e4064c8b743395c7df12ddad9656c07c61795c81
   RICE_yazd_sadeh_festival_spectacle_intent_header: "구경거리:" # 31cfd3ceac7162def4148f66bd4433b21680acab
   RICE_yazd_sadeh_festival_spectacle_intent: "구경거리" # c947a52724f0bd6c943d7bcf5e65982d81d8eba0
-  RICE_yazd_sadeh_festival_spectacle_intent_desc: "사데를 통해 궁정의 위엄과 권력을 과시하고자 합니다. [GetTrait('ambitious').GetName( GetNullCharacter )|U], [GetTrait('diligent').GetName( GetNullCharacter )], 또는 [GetTrait('arrogant').GetName( GetNullCharacter )] 특성을 가진 캐릭터는 추가로 [stress|E]를 잃을 수 있습니다. [king|E] 및 [emperor|E] [rank|E] 캐릭터는 소량의 [grandeur|E]도 얻을 수 있습니다." # e3e977fe85ce59e5948cef7e4699c06d51bec513
+  RICE_yazd_sadeh_festival_spectacle_intent_desc: "사데를 통해 궁정의 위엄과 권력을 과시하고자 합니다. [GetTrait('ambitious').GetName( GetNullCharacter )|U], [GetTrait('diligent').GetName( GetNullCharacter )], 또는 [GetTrait('arrogant').GetName( GetNullCharacter )] 특성을 가진 인물은 추가로 [stress|E]를 잃을 수 있습니다. [king|E] 및 [emperor|E] [rank|E] 인물은 소량의 [grandeur|E]도 얻을 수 있습니다." # e3e977fe85ce59e5948cef7e4699c06d51bec513
   RICE_yazd_sadeh_festival_poetry_intent_header: "시:" # 95be945f057f4364012dcbe8d2f844288e645842
   RICE_yazd_sadeh_festival_poetry_intent: "시" # 4674e99addb91f6b978622eaea1b97fb5cabc488
   RICE_yazd_sadeh_festival_poetry_intent_desc: "사데 축제 동안 영감을 얻거나 시를 쓰고 싶습니다. 시에 관한 이벤트가 발생하여 유익한 [modifier|E]를 얻을 수 있습니다. 또한 이 이벤트(일반적으로는 아님)를 통해 [prestige|E]와 [piety|E]를 얻게 됩니다." # f18be4eea1711283ea2c85d681a65151a934e1f6
   RICE_yazd_sadeh_festival_zoroastrian_intent_header: "후마타, 후크타, 후바르슈타:" # 842a3cddf10fd30a625d268de83e7182ea530c6b
   RICE_yazd_sadeh_festival_zoroastrian_intent: "후마타, 후크타, 후바르슈타" # eb87ce99a5cecc3a95acbfd9177e16e521da7056
-  RICE_yazd_sadeh_festival_zoroastrian_intent_desc: "당신은 올해의 중요한 시기 동안 좋은 생각, 좋은 말, 좋은 행동(#italic humata, hukhta, huvarshta#!)에 집중하고 싶어합니다. [GetTrait('zealous').GetName( GetNullCharacter )|U], [GetTrait('just').GetName( GetNullCharacter )], 또는 [GetTrait('honest').GetName( GetNullCharacter )] 특성을 가진 캐릭터는 추가 [stress|E]를 잃을 수 있습니다. 또한 획득하는 다른 [piety|E] 위에 #V 25#!의 [piety_i|E]를 추가로 얻을 수 있습니다." # f7b4956a1be12d252afa141c4f12b9d3bc87ea97
+  RICE_yazd_sadeh_festival_zoroastrian_intent_desc: "당신은 올해의 중요한 시기 동안 좋은 생각, 좋은 말, 좋은 행동(#italic humata, hukhta, huvarshta#!)에 집중하고 싶어합니다. [GetTrait('zealous').GetName( GetNullCharacter )|U], [GetTrait('just').GetName( GetNullCharacter )], 또는 [GetTrait('honest').GetName( GetNullCharacter )] 특성을 가진 인물은 추가 [stress|E]를 잃을 수 있습니다. 또한 획득하는 다른 [piety|E] 위에 #V 25#!의 [piety_i|E]를 추가로 얻을 수 있습니다." # f7b4956a1be12d252afa141c4f12b9d3bc87ea97
   RICE_yazd_sadeh_festival_completed_log_title: "사데 축제 참여 완료" # f299fe3e17c2556f11acbea8d9ea7724669db9f1
   RICE_yazd_sadeh_festival_completed_log: "[CHARACTER.GetShortUIName|U]이 사데 축제에 참여하는 것을 마쳤습니다." # c43d4715e84672fa9a1cc3229992ccf373c27cea
   TRAVEL_NAME_FOR_activity_RICE_yazd_sadeh_festival: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_yazd_sadeh_festival$" # 7c786c6c5cd8830ca7c2398f80752af939ebd2cf
@@ -128,11 +128,11 @@
   RICE_yazd_new_yazd_mosque_muslim_opinion: "야즈드에 새로운 예배당 건설" # 12f096d3e719597f724165d8afda646641866551
   RICE_yazd_new_yazd_mosque_zoroastrian_opinion: "야즈드의 조로아스터교 사원 대체됨" # da3dbe656e4db27511a2f8f521e5383909dcc663
   RICE_yazd_built_house_of_worship: "야즈드에 예배당 건설" # a53fc630edc2bac319bd13571d177af107415a40
-  RICE_yazd_built_house_of_worship_desc: "이 캐릭터가 최근 야즈드에 새로 지어질 작은 예배당 건설을 후원하기 위해 자금을 지원했습니다. 이는 그 도시의 유명한 독실한 주민들의 영적 필요를 충족할 것입니다." # ee58e7b1e0b13debd81d834bd17ade5d3adef71d
+  RICE_yazd_built_house_of_worship_desc: "이 인물가 최근 야즈드에 새로 지어질 작은 예배당 건설을 후원하기 위해 자금을 지원했습니다. 이는 그 도시의 유명한 독실한 주민들의 영적 필요를 충족할 것입니다." # ee58e7b1e0b13debd81d834bd17ade5d3adef71d
   RICE_yazd_built_school: "야즈드에 학습 기관 건설 완료" # 52e843adbe014426595c9a4d1b4100207644ced7
   RICE_yazd_built_school_desc: "이 인물은 최근 야즈드에 새로운 소규모 학문 학교 건설을 후원하기 위해 자금을 지원했습니다. 이 학교는 도시의 명성을 이어갈 차세대 학자들을 교육할 것입니다." # 2df029815806871e9215d36fd28b499977115482
   RICE_yazd_built_shrine: "야즈드에 영묘 건설" # 7c1bca01197da616cfa8872c1677301da4b62e87
-  RICE_yazd_built_shrine_desc: "이 캐릭터가 최근 야즈드에서 성인에게 바치는 작은 영묘를 새로 건설하는 데 자금을 지원했습니다. 이 위대한 분의 업적은 수년 동안 도시 사람들에게 영감을 줄 것입니다." # f33055d3d9334b7f133338838325dd4df896317b
+  RICE_yazd_built_shrine_desc: "이 인물가 최근 야즈드에서 성인에게 바치는 작은 영묘를 새로 건설하는 데 자금을 지원했습니다. 이 위대한 분의 업적은 수년 동안 도시 사람들에게 영감을 줄 것입니다." # f33055d3d9334b7f133338838325dd4df896317b
   RICE_yazd_silk_boom: "야즈드산 비단 수요 증가" # 13882508e0367d8a13e8440fdc302882ff74a119
   RICE_yazd_baklava: "야즈드에서 바클라바 먹기" # 835ee62ca318b095d49a3212c668ce78d4386479
   RICE_yazd_sadeh_nature_poem: "자연에 대한 사데의 시에 영감을 받아" # 0d58de89087a629bc521f706811806a71124ba5c

@@ -23,14 +23,14 @@
   abu_bakr_ahmad: "아부 바크르 아흐마드" # 27ccd520fb2ee97064594a3adeb961221b196609
   RICE_dynn_ibn_wahshiyya: "이븐 와흐시야" # 45b8d4becfa9ec73add3d9f316558b5ed7ed2e3f
   nick_RICE_the_chaldean: "칼데아인" # 4a39efdd2282902b6d9beea726813480e27bcb38
-  nick_RICE_the_chaldean_desc: "이 캐릭터는 고대 메소포타미아인들의 후손으로 이라크 남부에서 아람어를 사용하는 원주민, 이른바 이라크의 나바테아인(레반트의 나바테아인과 혼동하지 마십시오)이라고 불리는 자신의 백성을 자랑스러워합니다. 그래서 그는 #italic $nick_RICE_the_chaldean$#!으로 알려져 있습니다. 흥미롭게도, 그는 고대 아시리아 왕 센나케립의 후손이라고 주장하기까지 합니다." # 29c3110bebc925c72c335012d739f218719944fe
+  nick_RICE_the_chaldean_desc: "이 인물은 고대 메소포타미아인들의 후손으로 이라크 남부에서 아람어를 사용하는 원주민, 이른바 이라크의 나바테아인(레반트의 나바테아인과 혼동하지 마십시오)이라고 불리는 자신의 백성을 자랑스러워합니다. 그래서 그는 #italic $nick_RICE_the_chaldean$#!으로 알려져 있습니다. 흥미롭게도, 그는 고대 아시리아 왕 센나케립의 후손이라고 주장하기까지 합니다." # 29c3110bebc925c72c335012d739f218719944fe
   RICE_region_mesopotamia: "메소포타미아" # 0bcfcca4536d0fa01d6f102ee6e7c2e04a774626
   dynn_RICE_khazari: "하자르" # 4a86a5f760d6dec5c6d5cdaf157431b2ee88d20e
   Kundaj: "쿤다지" # 8a8b24044ea2640230f755404ee1e48d94a90329
   abd_al_latif: "압드 알 라티프" # 775443768f6ba9383991092ce5fa8b68ecc7872f
   abu_l_izz: "아부 알-'이즈" # 1599d86997e1ef77fbc65ca433285695f73f1bcc
   trait_RICE_the_nabataean: "나바테아인" # 42ab6721f96652dad1806fe960da485d6ffe2669
-  trait_RICE_the_nabataean_desc: "이 캐릭터는 고대 메소포타미아인들의 끊임없는 지혜, 즉 조상들의 유산을 밝히고 이해하고자 합니다.\n\n#weak 이 특성은 [traveling|E] 시 관련 [travel_options|E]를 선택하여 레벨을 올릴 수 있습니다.!#" # 9914abd790360304d2775b84e6f066cbbe61b356
+  trait_RICE_the_nabataean_desc: "이 인물은 고대 메소포타미아인들의 끊임없는 지혜, 즉 조상들의 유산을 밝히고 이해하고자 합니다.\n\n#weak 이 특성은 [traveling|E] 시 관련 [travel_options|E]를 선택하여 레벨을 올릴 수 있습니다.!#" # 9914abd790360304d2775b84e6f066cbbe61b356
   trait_RICE_the_nabataean_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]은(는) 자신의 조상, 즉 고대 메소포타미아인들의 영원한 지혜의 유산을 밝히고 이해하고자 합니다.\n\n#weak 이 특성은 [traveling|E] 할 때 관련 [travel_options|E]를 선택하여 레벨을 올릴 수 있습니다." # eb1508f574d68ba04c92041b30d05a961bb3239c
   trait_track_RICE_the_nabataean_agriculture: "농업 지식" # a3393cd24ab4fca14a3fb2e41568428281342630
   trait_track_RICE_the_nabataean_agriculture_desc: "우리가 그것을 돌보는 방법을 안다면 지구는 번성할 수 있습니다." # 7f309ba0343bf5c4594ad96f768a3ce572336f1a
@@ -64,7 +64,7 @@
   game_concept_harranian_courtier: "하란의 궁정 신하" # 2e913fc61b8d07cab48d75e0ac40ceb219147524
   game_concept_harranian_courtiers: "하란의 궁정 신하" # 539396e95822253837a198bec49a731c57565ac3
   game_concept_harranian_character: "하란인 인물" # 091814e31aa01c03e5a2176fdbe109dcdc1405d2
-  game_concept_harranian_characters: "하란 캐릭터" # e658980d813608d4c6f63ce63c7f15edec26733a
+  game_concept_harranian_characters: "하란 인물" # e658980d813608d4c6f63ce63c7f15edec26733a
   game_concept_harranian_courtier_desc: "때때로, 중동의 [rulers|E]에게 이벤트로 $game_concept_harranian_characters$가 무작위로 나타날 수 있습니다. 그들은 메소포타미아 북부에 있는 하란 시에서 수 세기 동안 살아남은 메소포타미아와 헬레니즘 요소가 결합된 고대 혼합 신앙인 하란 [GetReligionFamily('rf_pagan').GetName] 종교를 따릅니다.\n\n$game_concept_harranian_characters$는 높은 [learning_skill|E]을 갖는 경향이 있으며, 유능한 [courtiers|E]가 될 수 있습니다. 때로는 $game_concept_harranian_courtier$가 다양한 주제에 대한 학술 논문을 작성할 수도 있습니다. 이는 특별한 [artifact|E]를 부여합니다.\n\n[harran_neoplatonic_academy|E]가 쇠퇴하면 $game_concept_harranian_characters$의 생성이 중단됩니다." # ec1ca9ca85e2b8aec834ec1a5b089ca3397e4962
   game_concept_harran_neoplatonic_academy: "신플라톤 학파" # ed5887c661d55efc1c1de67a5d6e3130fa9a01a4
   game_concept_harran_neoplatonic_academy_desc: "초기 시작 시점에, 하란 [county|E]에는 $game_concept_harran_neoplatonic_academy$라는 [special_building|E]이 있습니다. 일반적인 보너스 외에도 다른 특별한 기능이 있습니다.\n\n첫째, 이 건물은 중동 [rulers|E]의 [courts|E]에 [harranian_courtiers|E]이 생성되는 데 필요합니다. 시간이 지나면 아카데미가 쇠퇴하고 강력한 [GetReligionFamily('rf_pagan').GetName] [ruler|E]가 신플라톤 아카데미를 재활성화하기 위한 [decision|E]을 내리지 않으면 [special_building|E]이 비활성화되기 때문입니다.\n\n둘째, 하란 인근과 메소포타미아 및 레반트 지역에서 높은 [learning_skill|E]을 가진 [rulers|E]는 아카데미를 후원하는 [decision|E]을 내릴 수 있으며, 여기에는 일시적인 [character_modifier|E]를 포함한 다양한 보너스가 주어집니다. 또한 [harranian_character|E]이 당신에게 나타날 가능성이 높아집니다." # 3009d7966b56ef6c4e197790ecd23874a1cee8d3
@@ -91,19 +91,19 @@
   building_type_RICE_harran_neoplatonic_academy_athens: "신플라톤 학술원" # ed5887c661d55efc1c1de67a5d6e3130fa9a01a4
   building_type_RICE_harran_neoplatonic_academy_athens_desc: "아테네는 현재 플라톤 학파의 직계 후손이라고 주장하는 여러 이교도 학자들의 본거지입니다. 하지만 이들의 독자적인 이교주의에 대한 확고한 옹호는 비이교도 권력자들을 불쾌하게 만들 수 있습니다..." # 823d421b742b770dfc1d9ecd9f827d0a302661d2
   RICE_harran_sun_blessing: "솔의 축복" # b01849a9f2897d6804452804c5dfec5ee021ad44
-  RICE_harran_sun_blessing_desc: "그들은 일곱 행성 중 하나인 태양이 이 캐릭터를 총애한다고 말합니다." # 5be0fdfb2dae30ded99cb58392b434dfa88f9c27
+  RICE_harran_sun_blessing_desc: "그들은 일곱 행성 중 하나인 태양이 이 인물을 총애한다고 말합니다." # 5be0fdfb2dae30ded99cb58392b434dfa88f9c27
   RICE_harran_moon_blessing: "루나의 축복" # d6fdc100d4aab9b8845466cc28b3d612832a8431
-  RICE_harran_moon_blessing_desc: "일곱 행성 중 하나인 달이 이 캐릭터에게 호의를 보인다고 합니다." # bbf03f30fccbea6378d8f5d9d6b4de5a14f9c060
+  RICE_harran_moon_blessing_desc: "일곱 행성 중 하나인 달이 이 인물에게 호의를 보인다고 합니다." # bbf03f30fccbea6378d8f5d9d6b4de5a14f9c060
   RICE_harran_mercury_blessing: "머큐리의 축복" # 7199961d08a6a1c245f41f8661dd9fe6e6ea25e7
   RICE_harran_mercury_blessing_desc: "일곱 행성 중 하나인 수성이 이 인물을 총애한다고 합니다." # 40e1782e05313af927bd55eac679727bf675ee77
   RICE_harran_venus_blessing: "비너스의 축복" # da4191e0170af634c5af85ce48c0be9d78af528f
-  RICE_harran_venus_blessing_desc: "그들은 일곱 행성 중 하나인 금성이 이 캐릭터에게 호의를 보인다고 말합니다." # cc7483c5b3c4e41ac1afbdc31b2095ff23fdaa20
+  RICE_harran_venus_blessing_desc: "그들은 일곱 행성 중 하나인 금성이 이 인물에게 호의를 보인다고 말합니다." # cc7483c5b3c4e41ac1afbdc31b2095ff23fdaa20
   RICE_harran_mars_blessing: "마르스의 축복" # d493cd98535f2f2930337f2d5123d48e7bd2a5a7
-  RICE_harran_mars_blessing_desc: "그들은 일곱 행성 중 하나인 화성이 이 캐릭터에게 호의를 보인다고 말합니다." # dbfb060b20bed48162322bea68fd2326f8e995c9
+  RICE_harran_mars_blessing_desc: "그들은 일곱 행성 중 하나인 화성이 이 인물에게 호의를 보인다고 말합니다." # dbfb060b20bed48162322bea68fd2326f8e995c9
   RICE_harran_jupiter_blessing: "주피터의 축복" # e2840884bd0afddf0c3697ccbfbe9a87c07f1aac
   RICE_harran_jupiter_blessing_desc: "그들은 일곱 행성 중 하나인 목성이 이 인물에게 호의를 보인다고 말합니다." # 08267b24420275267f3129f97684efa3710e0411
   RICE_harran_saturn_blessing: "사투르누스의 축복" # 2ae8b3bd853fbedca81efa9e7dbee97b8ee788ce
-  RICE_harran_saturn_blessing_desc: "일곱 행성 중 하나인 토성이 이 캐릭터를 총애한다고 합니다." # 0c65981509f483b60a5e22b406ad5afc3138ca42
+  RICE_harran_saturn_blessing_desc: "일곱 행성 중 하나인 토성이 이 인물을 총애한다고 합니다." # 0c65981509f483b60a5e22b406ad5afc3138ca42
   RICE_harran_revitalized_neoplatonic_academy_leader: "하란에 신플라톤 학파 학원 재건" # c910ab332a2eef1d4fe045dd45f3d346af66d2d8
   RICE_harran_revitalized_neoplatonic_academy_leader_desc: "이교 학문에 가장 큰 공헌을 한 지도자가 있다면, 분명 이 인물일 것입니다. 신플라톤 아카데미를 세계에서 제자리를 찾도록 노력한 그의 업적은 수세기 동안 학식 있는 이교도 남녀들에게 칭송받을 것이 거의 확실합니다." # bd3f941a54c706ecb15916e862334c3ef3eb72b4
   RICE_harran_neoplatonic_academy_recently_revitalized: "신플라톤 학파 최근 부흥" # 61f7fabcd24c2120c85a36987bcc058cf6802e9a
@@ -111,9 +111,9 @@
   RICE_harran_patronized_neoplatonic_academy_hellenic: "네오플라톤 아카데미의 후원자" # fa2952d93334bf65aaaf0133834a94dff4042713
   RICE_harran_patronized_neoplatonic_academy_hellenic_desc: "이 인물은 하란의 신플라톤주의 학원에 자산을 기부하여, 그들의 고귀한 이교 사상가 및 학자들의 계보가 계속 성장하고 번영할 수 있도록 보장했습니다." # 9cdb1047e9e5e4caf4050bb7eacaedaf6293c01b
   RICE_harran_patronized_neoplatonic_academy_pagan: "네오플라톤 아카데미의 후원자" # fa2952d93334bf65aaaf0133834a94dff4042713
-  RICE_harran_patronized_neoplatonic_academy_pagan_desc: "이 캐릭터는 하란의 신플라톤 학파에 자신의 자산을 기꺼이 기부하여, 존경받는 이교 사상가와 학자들의 혈통이 계속해서 성장하고 번영할 수 있도록 했습니다." # 9cdb1047e9e5e4caf4050bb7eacaedaf6293c01b
+  RICE_harran_patronized_neoplatonic_academy_pagan_desc: "이 인물은 하란의 신플라톤 학파에 자신의 자산을 기꺼이 기부하여, 존경받는 이교 사상가와 학자들의 혈통이 계속해서 성장하고 번영할 수 있도록 했습니다." # 9cdb1047e9e5e4caf4050bb7eacaedaf6293c01b
   RICE_harran_patronized_neoplatonic_academy_nonpagan: "네오플라톤 아카데미의 후원자" # fa2952d93334bf65aaaf0133834a94dff4042713
-  RICE_harran_patronized_neoplatonic_academy_nonpagan_desc: "이 캐릭터는 하란의 네오플라톤 학회에 자신의 자산을 아낌없이 기부하여 존경받는 이교 사상가와 학자들의 계보가 계속해서 성장하고 번성할 수 있도록 했습니다." # 9cdb1047e9e5e4caf4050bb7eacaedaf6293c01b
+  RICE_harran_patronized_neoplatonic_academy_nonpagan_desc: "이 인물은 하란의 네오플라톤 학회에 자신의 자산을 아낌없이 기부하여 존경받는 이교 사상가와 학자들의 계보가 계속해서 성장하고 번성할 수 있도록 했습니다." # 9cdb1047e9e5e4caf4050bb7eacaedaf6293c01b
   RICE_harran_moon_temple_destroyer: "하란의 달의 신전 파괴" # 56f688d0489f7e1975f987141a24bd97f5e6b8ad
   RICE_harran_moon_temple_recently_destroyed: "하란에 있는 달의 신전이 최근 파괴됨" # 157ccc09a6f03c355c5c8b3893a9ff7745df1e9e
   RICE_harran_historical_last_of_the_harranians: "하란의 이교도 최후" # c59afc74639189b01baa6e906b9ffbf103c566ee
@@ -139,37 +139,37 @@
   RICE_harran_treatise_astronomy_wrote_self: "별자리표에 대한 논문을 썼습니다" # c6f8aba954469b2224f78180f5a80d80e9881477
   RICE_harran_treatise_astronomy_wrote_self_desc: "이 하란의 학자는 천문학적 문제에 관한 논문을 썼습니다." # 9ed3d3b8aa36fe4e8b005bb8f9403a30a715203c
   RICE_harran_treatise_astronomy_copy: "별 목록 논문" # c9a8da3277410f3953b6867ca825445c5d830f54
-  RICE_harran_treatise_astronomy_copy_desc: "이 캐릭터의 궁정에 있는 하란 학자가 천문학에 관한 논문을 썼고, 이 캐릭터에게 사본을 제공했습니다." # b9547192e37c34a05cb3e405e3b829d39950af5e
+  RICE_harran_treatise_astronomy_copy_desc: "이 인물의 궁정에 있는 하란 학자가 천문학에 관한 논문을 썼고, 이 인물에게 사본을 제공했습니다." # b9547192e37c34a05cb3e405e3b829d39950af5e
   RICE_harran_treatise_geometry_wrote: "측량과 수치에 관한 논문을 작성했습니다" # 4e697c339c46f3c04d773d19c4a56031955a89f4
   RICE_harran_treatise_geometry_wrote_desc: "이 하란 학자는 최근 비율과 측정과 같은 주제를 다룬 기하학 논문을 써서 명성을 얻었습니다." # 290ec64142ac1c097a007c09fe525c61d123f151
   RICE_harran_treatise_geometry_wrote_self: "측량과 수치에 관한 논문을 작성했습니다" # 4e697c339c46f3c04d773d19c4a56031955a89f4
   RICE_harran_treatise_geometry_wrote_self_desc: "이 하란 출신 학자는 비율과 측정과 같은 주제를 다루는 기하학 논문을 썼습니다." # 8d8881a17e04154ae433468daf30e8245aab573c
   RICE_harran_treatise_geometry_copy: "측량과 도형에 관한 논문" # 095fbca51929b8d9d18285c01835e74260613453
-  RICE_harran_treatise_geometry_copy_desc: "이 캐릭터의 궁정에 있는 하란 학자가 비례와 측정 같은 주제를 다룬 기하학 논문을 썼으며, 이 캐릭터에게 사본을 제공했습니다." # c11b2320cd7529a2c397d2dd44c346abe4da401e
+  RICE_harran_treatise_geometry_copy_desc: "이 인물의 궁정에 있는 하란 학자가 비례와 측정 같은 주제를 다룬 기하학 논문을 썼으며, 이 인물에게 사본을 제공했습니다." # c11b2320cd7529a2c397d2dd44c346abe4da401e
   RICE_harran_treatise_algebra_wrote: "수학 문제 해결에 관한 논문을 썼습니다." # 0ed6c966882bcfba7ebbe4155b7dc45ff45e9590
   RICE_harran_treatise_algebra_wrote_desc: "이 하란 학자는 최근 방정식 해법과 같은 주제를 다루는 대수학 논문을 써서 명성을 얻었습니다." # 08b377b5838b7f0eb173e849616b2f95344b083c
   RICE_harran_treatise_algebra_wrote_self: "수학 문제 해결에 대한 논문을 작성했습니다" # 0ed6c966882bcfba7ebbe4155b7dc45ff45e9590
   RICE_harran_treatise_algebra_wrote_self_desc: "이 하란 학자는 대수학에 대한 논문을 썼는데, 방정식 풀이와 같은 주제를 다루었습니다." # f0dd443588893c61950a1435b74edce9812b5f85
   RICE_harran_treatise_algebra_copy: "수학 문제 해결에 대한 논문" # 934c7c776388502675147c652144012b8c0522d8
-  RICE_harran_treatise_algebra_copy_desc: "이 캐릭터의 궁정에 있는 하란 학자가 대수학에 관한 논문을 저술하여 방정식 풀이와 같은 주제를 다루고 이 캐릭터에게 사본을 제공했습니다." # 294ad895219ded2684d810a9e05bec224dc4c174
+  RICE_harran_treatise_algebra_copy_desc: "이 인물의 궁정에 있는 하란 학자가 대수학에 관한 논문을 저술하여 방정식 풀이와 같은 주제를 다루고 이 인물에게 사본을 제공했습니다." # 294ad895219ded2684d810a9e05bec224dc4c174
   RICE_harran_treatise_greek_philosophy_wrote: "그리스 철학자들에 대한 논문 작성" # 2fc99e05420058d481a3be4fae50acb3ddd498cc
   RICE_harran_treatise_greek_philosophy_wrote_desc: "이 하란 학자는 최근 플라톤과 플로티누스와 같은 고대 사상가에 대한 논문을 쓴 것으로 어느 정도 명성을 얻었습니다." # 7cee9fabdc88deaa7c3f6c5eee83ef041023eed7
   RICE_harran_treatise_greek_philosophy_wrote_self: "그리스 철학자들에 대한 논문 작성" # 2fc99e05420058d481a3be4fae50acb3ddd498cc
   RICE_harran_treatise_greek_philosophy_wrote_self_desc: "이 하란 학자는 플라톤과 플로티노스와 같은 고대 사상가에 대한 논문을 저술했습니다." # 216ca539afbfe82e9f2eef9971c430c3b77b7b08
   RICE_harran_treatise_greek_philosophy_copy: "그리스 철학자 논고" # 7264ab53d22ba0af37493fbac135a1124e15ba3a
-  RICE_harran_treatise_greek_philosophy_copy_desc: "이 캐릭터의 궁정에 있는 하란 학자가 플라톤과 플로티노스와 같은 고대 사상가에 대한 논문을 쓰고 이 캐릭터에게 사본을 제공했습니다." # 65a4a02e3e2596b65a83b5b146467b996fe6b4ca
+  RICE_harran_treatise_greek_philosophy_copy_desc: "이 인물의 궁정에 있는 하란 학자가 플라톤과 플로티노스와 같은 고대 사상가에 대한 논문을 쓰고 이 인물에게 사본을 제공했습니다." # 65a4a02e3e2596b65a83b5b146467b996fe6b4ca
   RICE_harran_treatise_harranian_history_wrote: "하란 역사에 관한 논문 작성" # ae2a5d52abdbcad8da6a93f023fa7a3c52876874
   RICE_harran_treatise_harranian_history_wrote_desc: "이 하란 학자는 최근 하란인의 역사, 특히 그들의 이교도적인 방식에 대한 논문을 저술하여 명성을 얻었습니다." # b80c265dfdd22b5d6cc082031e9d48f757f56d7e
   RICE_harran_treatise_harranian_history_wrote_self: "하란 역사에 관한 논문 작성" # ae2a5d52abdbcad8da6a93f023fa7a3c52876874
   RICE_harran_treatise_harranian_history_wrote_self_desc: "이 하란 학자는 하란 사람들의 역사, 특히 그들의 이교도적 방식에 관한 논문을 썼습니다." # 277a111fd1437422d5fe010712ef3f2240193056
   RICE_harran_treatise_harranian_history_copy: "하란 역사 논고" # 8de12f98520879dd10b9e43c8a83df248249a7ca
-  RICE_harran_treatise_harranian_history_copy_desc: "이 캐릭터의 궁정에 있는 하란 학자가 하란인, 특히 그들의 이교도 방식에 대한 역사를 다룬 논문을 작성하여 이 캐릭터에게 사본을 제공했습니다." # b2832a3e1ddc3e06d0eea2c9aeba176eec124256
+  RICE_harran_treatise_harranian_history_copy_desc: "이 인물의 궁정에 있는 하란 학자가 하란인, 특히 그들의 이교도 방식에 대한 역사를 다룬 논문을 작성하여 이 인물에게 사본을 제공했습니다." # b2832a3e1ddc3e06d0eea2c9aeba176eec124256
   RICE_harran_treatise_mysticism_wrote: "이미지와 환상에 대한 논문 작성" # 45781dcf0d6414d6fbf8204df268b6afd98f494f
   RICE_harran_treatise_mysticism_wrote_desc: "이 하란 출신 학자는 최근 다양한 비전 주제와 신비주의에 대한 논문을 써서 명성을 얻었습니다." # e5a28d2ba07735f48faa5fb9f71557fb88b80329
   RICE_harran_treatise_mysticism_wrote_self: "이미지와 환상에 대한 논문 작성" # 45781dcf0d6414d6fbf8204df268b6afd98f494f
   RICE_harran_treatise_mysticism_wrote_self_desc: "이 하란 학자는 여러 비전적 주제와 신비주의에 대한 논문을 썼습니다." # 4e896b3a7735eb7b2d80e4d0db05d3b841ce7770
   RICE_harran_treatise_mysticism_copy: "이미지와 환상에 대한 논고" # 104d00bd26818b36210b3b61d892f9b77f1e3f77
-  RICE_harran_treatise_mysticism_copy_desc: "이 캐릭터의 궁정에 있는 하란의 학자가 여러 비전적 주제와 신비주의에 대한 논문을 쓰고 이 캐릭터에게 사본을 제공했습니다." # 2db99fbf7808a554d461447eb2dd9bd0733c2e97
+  RICE_harran_treatise_mysticism_copy_desc: "이 인물의 궁정에 있는 하란의 학자가 여러 비전적 주제와 신비주의에 대한 논문을 쓰고 이 인물에게 사본을 제공했습니다." # 2db99fbf7808a554d461447eb2dd9bd0733c2e97
   RICE_harran_treatise_medicine_wrote: "약초 정원에 대한 논문을 썼습니다" # 4d5c442c0eb39cb81795573b49ddb6188a068490
   RICE_harran_treatise_medicine_wrote_desc: "이 하란 학자는 최근 의학과 생물학에 관한 논문을 써서 어느 정도 명성을 얻었습니다." # 4a899212d3e32af7b99a877e3ea3ab515b6dc7d4
   RICE_harran_treatise_medicine_wrote_self: "약초 정원에 대한 논문을 썼습니다" # 4d5c442c0eb39cb81795573b49ddb6188a068490
@@ -483,7 +483,7 @@
   harran.0047.desc: "하지만 이제 나는 모든 하란의 지도자로서 집에 왔습니다! 엄청난 영광이지만, 부럽지 않은 자리이기도 합니다. 우리 중 일부는 새로운 신앙의 시대에, 독자적인 공동체로서 생존할 가능성이 희박하다고 말합니다. 나는 동의하지 않습니다. 시간이 우리 편이 아닙니다. 이집트인과 그리스인 같은 고대 민족의 방식을 따르는 사람은 거의 없습니다.\n\n해가 지기 시작하면서 나는 계속해서 길을 걸었고, 결국 하란의 웅장한 신전에 도착했습니다. 그 문에는 우리의 존경받는 조상인 플라톤의 말이 새겨져 있었습니다. “자신의 본질을 아는 자는 신성해진다.”\n\n점점 어두워지는 하늘을 올려다보기 전에 그 인용문을 몇 번 읽었습니다. 나는 별을 바라보며 우리의 운명을 읽을 수 있는 척하다가 집으로 돌아갔습니다." # 07c00f74f91287088d5a6a7357342f8b67ea30f2
   harran.0047.desc.landless: "저는 여전히 [GetTitleByKey('c_harran').GetNameNoTier] 고향을 생각합니다. [GetTitleByKey('c_baghdad').GetNameNoTier]에 있는 것은 큰 영광이지만, 이교도로서의 어려움도 있습니다. 우리 중 일부는 새로운 신앙의 시대에 우리 고유의 공동체로서 생존할 가능성이 희박하다고 말합니다. 저는 동의하지 않습니다. 시간이 우리를 거스르고 있습니다. 이집트인과 그리스인 같은 고대인들의 방식을 따르는 사람들은 거의 없습니다.\n\n나는 전에 자주 지나다녔던 하란의 오래된 웅장한 사원을 생각합니다. 그 문에는 우리의 존경받는 선조인 플라톤의 말이 새겨져 있습니다. "자신의 본질을 아는 자는 신성하게 된다."\n\n점점 어두워지는 하늘을 바라보며 밖에 서서 몇 번이나 그 말을 중얼거립니다. 나는 다시 안으로 들어가기 전에 우리의 운명을 읽을 수 있는 척하면서 별을 바라봅니다." # 62e8cc176c7cf7034f15e2523b1d1cbc17e08908
   harran.0047.a: "저는 이 땅의 마지막 이교도인 하란 사람 타비트입니다." # 541fef70d0d7febe8949a33ad1eb6b7ced209d83
-  harran.0047.info: "#emphasis 역사적 배경:#! 이교도인 타비트 이븐 쿠라(기원후 826년 또는 836년 ~ 901년)는 이슬람 황금시대에 바그다드에 거주하던 학자였습니다. 그는 수학, 천문학, 물리학을 포함한 여러 분야에 기여했습니다.\n\n타비트는 그 자체로는 큰 정치 권력을 휘두른 것으로 알려져 있지 않으며, 심지어 고향인 하란에서 추방되었을 수도 있습니다. 따라서 여기서 그를 플레이 가능한 캐릭터로 묘사한 것은 허구입니다(그리고 주로 플레이 가능한 하란인 캐릭터를 갖기 위함입니다). 하지만 타비트는 칼리프 알무타디드의 궁정 천문학자이자 개인적인 친구로서 어느 정도의 영향력을 행사했습니다.\n\n타비트의 후손들 - 이교도와 무슬림 모두 - 은 11세기까지 이슬람 지식 사회에서 계속해서 중요한 역할을 하게 될 것입니다." # 659f9de49113665d23c8038080902157b4c1b944
+  harran.0047.info: "#emphasis 역사적 배경:#! 이교도인 타비트 이븐 쿠라(기원후 826년 또는 836년 ~ 901년)는 이슬람 황금시대에 바그다드에 거주하던 학자였습니다. 그는 수학, 천문학, 물리학을 포함한 여러 분야에 기여했습니다.\n\n타비트는 그 자체로는 큰 정치 권력을 휘두른 것으로 알려져 있지 않으며, 심지어 고향인 하란에서 추방되었을 수도 있습니다. 따라서 여기서 그를 플레이 가능한 인물로 묘사한 것은 허구입니다(그리고 주로 플레이 가능한 하란인 인물을 갖기 위함입니다). 하지만 타비트는 칼리프 알무타디드의 궁정 천문학자이자 개인적인 친구로서 어느 정도의 영향력을 행사했습니다.\n\n타비트의 후손들 - 이교도와 무슬림 모두 - 은 11세기까지 이슬람 지식 사회에서 계속해서 중요한 역할을 하게 될 것입니다." # 659f9de49113665d23c8038080902157b4c1b944
   harran.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
   harran.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
   harran.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f

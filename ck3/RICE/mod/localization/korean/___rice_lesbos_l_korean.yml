@@ -72,7 +72,7 @@
   RICE_kalends_opinion: "칼렌드 선물 증정" # 500dc4131f9fc20b74767253f59c88a2cee0ae41
   activity_RICE_hot_springs_visit_lesbos_thermi_province_desc: "#P +++ [GetTitleByKey('c_lesbos').GetNameNoTier]의 테르미에 있는 [hot_springs|E]는 독특한 [hot_springs|E]입니다.#!\n\n#italic 이것은 [character_modifier|E]인 [GetModifier('RICE_lesbos_visit_thermi_normal').GetNameWithTooltip]를 얻게 합니다. 만약 당신이 [GetReligionByKey('hellenism_religion').GetAdjective] [faith|E]를 따른다면, 대신 [modifier|E]인 [GetModifier('RICE_lesbos_visit_thermi_artemis').GetNameWithTooltip]를 얻고, 추가로 약간의 [piety_i|E] [piety|E]를 얻을 것입니다.#!" # 008d56a8d8b2b36eef1fa8bd76fd01df98bcfc0c
   RICE_pirate_mediterranean_connections_modifier: "지중해 해적 연계" # a66dfcebc882d37b1a40c2088a3fc930b122de44
-  RICE_pirate_mediterranean_connections_modifier_desc: "이 캐릭터는 지중해의 특정 해적 집단과 연관이 있습니다.\n\n#EMP [decision|E]에서 $RICE_pirate_mediterranean_decision$로 다양한 옵션을 해제합니다.!#" # 7a457c0172f106662d0a2968ddc97271a8b2f1f3
+  RICE_pirate_mediterranean_connections_modifier_desc: "이 인물은 지중해의 특정 해적 집단과 연관이 있습니다.\n\n#EMP [decision|E]에서 $RICE_pirate_mediterranean_decision$로 다양한 옵션을 해제합니다.!#" # 7a457c0172f106662d0a2968ddc97271a8b2f1f3
   RICE_kalends_celebrated_modifier: "최근 칼렌드 축제" # 2dae810bbd5b362672f1933fae3bd5cc2a0ef9fc
   RICE_lesbos_mediterranean_pirate_infestation: "해적 창궐" # 5447a8448c77b5ee604218c254b39c9b75df9178
   RICE_lesbos_mediterranean_infestation_desc: "지역 통치자들이 약탈과 교역에 있어 상호 이익을 위해 지역 해적들에게 협력을 제안하기 시작했으며, 해적들이 이 땅에 영구적인 기지를 세우는 것을 허용했습니다. 하지만 해적 지도부가 동료 해적들을 통제하고 인근 공동체 및 지역 권력 구조에 통합하는 데는 시간이 좀 걸릴 것입니다." # adffdcbc8aec32a27b2a4fc5a4be54b2c347e0fd
@@ -82,7 +82,7 @@
   RICE_ransomed_pirate_prisoners: "몸값을 받고 풀려난 해적 포로" # cfcfab0180bdddd6f183e6be87b87f3c390b9f7c
   RICE_ransomed_pirate_prisoners_desc: "최근 지역 통치자들이 해적 행위 및 습격의 결과로 포로로 잡힌 이곳 거주민들을 몸값을 지불하여 석방시키기 위해 그들의 인맥을 활용했습니다." # 5649fb5d13dd965a771caff729cabba42fdb8fd8
   RICE_kalends_dressed_up_as_animal: "칼렌드 축제에서 동물로 변장함" # 07116da7bc7ffefd29b593d32856095794f325b9
-  RICE_kalends_dressed_up_as_animal_desc: "최근 #italic 칼렌드# 축제 동안 이 캐릭터는 일종의 동물로 분장한 가장 무도회에 참가했습니다." # 349d7dff316e57172d34eb3513f3d51d4e0f57d4
+  RICE_kalends_dressed_up_as_animal_desc: "최근 #italic 칼렌드# 축제 동안 이 인물은 일종의 동물로 분장한 가장 무도회에 참가했습니다." # 349d7dff316e57172d34eb3513f3d51d4e0f57d4
   RICE_kalends_crossdressed: "칼렌드 축제에서 여장함" # 3c69d110849725912025f0e515ab5f74275af3e2
   RICE_kalends_crossdressed_desc: "최근 #italic Kalends#! 축제 기간 중, 이 인물은 반대 성별의 의복과 스타일로 차려입었습니다." # e075fb49bacbf7d8898dc1d8013db573618dc368
   RICE_lesbos_sick_from_kalends_feasting: "칼렌즈 축제 과식" # cf3fa3abbba1b3cec7d3287ddf0508e8a917798f
@@ -94,14 +94,14 @@
   RICE_lesbos_likes_terpander: "테르판드로스의 영향을 받아" # 29ef17fa3056af4599522ec6a49b0f028f0fd5f3
   RICE_lesbos_likes_alcaeus: "알카이오스에 영감을 받아" # 91451af7bb37a9720bf2d58ab99001179cfd3c04
   RICE_lesbos_sappho_duplication: "두 사포 이론" # f02919c2a944820036d6c2687a1ca8078f983874
-  RICE_lesbos_sappho_duplication_desc: "레즈보스 섬 출신의 유명한 시인 사포의 실제 역사에 대해서는 논란이 있는데, 시인 사포와 매춘부 사포에 대한 전설이 있기 때문입니다. 이 캐릭터는 시인 사포와 매춘부 사포, 두 명의 사포가 있었다고 주장함으로써 이 불일치를 해소하는 이론을 믿습니다. 즉, 시인은 속된 여성이기에는 너무 웅변적이었을 것이라는 논리입니다." # 1b5fb31664e94a51ac1e1fb0ddccbbf004bdbe03
+  RICE_lesbos_sappho_duplication_desc: "레즈보스 섬 출신의 유명한 시인 사포의 실제 역사에 대해서는 논란이 있는데, 시인 사포와 매춘부 사포에 대한 전설이 있기 때문입니다. 이 인물은 시인 사포와 매춘부 사포, 두 명의 사포가 있었다고 주장함으로써 이 불일치를 해소하는 이론을 믿습니다. 즉, 시인은 속된 여성이기에는 너무 웅변적이었을 것이라는 논리입니다." # 1b5fb31664e94a51ac1e1fb0ddccbbf004bdbe03
   RICE_lesbos_sappho_narrativisation: "사포의 개량 이론" # 15f79d3772346e0f6ccd136ee57a6cf6573ffa13
   RICE_lesbos_sappho_narrativisation_desc: "레즈보스 섬 출신의 유명한 시인 사포에 대한 전설은 사포가 시인이자 매춘부였다는 설이 있어 실제 역사를 두고 논란이 있습니다. 이 인물은 사포가 원래는 천박한 여성이었으나 시간이 지나면서 스스로를 개선하여 더욱 웅변적인 사람이 되었다는 이론으로 이러한 불일치를 해소하는 이론을 믿습니다. 적어도 더 나은 이야기니까요." # e37e6bdd139e06350db6c0bcf399529d67092a48
   RICE_lesbos_studying_aristotle_biology: "아리스토텔레스의 생물학 연구 검토" # 586203fcb26e89404caf1335dc098fb339ad5096
   RICE_lesbos_visit_thermi_artemis: "레즈보스의 테르미 방문" # f2bb8ba4cd034422a113636e161d3a0bcf489fab
-  RICE_lesbos_visit_thermi_artemis_desc: "이 캐릭터는 최근에 레스보스 섬을 방문하여 테르미 온천에서 휴식을 취했습니다. 그곳은 치유력으로 유명하며, 아르테미스 여신에게 신성한 장소로 여겨집니다." # 7d14706f76e76a89021a533e155feb2dcc8cae41
+  RICE_lesbos_visit_thermi_artemis_desc: "이 인물은 최근에 레스보스 섬을 방문하여 테르미 온천에서 휴식을 취했습니다. 그곳은 치유력으로 유명하며, 아르테미스 여신에게 신성한 장소로 여겨집니다." # 7d14706f76e76a89021a533e155feb2dcc8cae41
   RICE_lesbos_visit_thermi_normal: "$RICE_lesbos_visit_thermi_artemis$" # a4e9bf361932c447d7b495785d6b9642d0c78711
-  RICE_lesbos_visit_thermi_normal_desc: "이 캐릭터는 최근 치료 효능으로 유명한 테르미 온천에서 휴식을 취하기 위해 레스보스 섬을 방문했습니다." # e9cbe2d787e1f11a2d73539fef6914b5db3fe715
+  RICE_lesbos_visit_thermi_normal_desc: "이 인물은 최근 치료 효능으로 유명한 테르미 온천에서 휴식을 취하기 위해 레스보스 섬을 방문했습니다." # e9cbe2d787e1f11a2d73539fef6914b5db3fe715
   RICE_indian_ocean_pirate_infestation_2: "$RICE_socotra_pirate_infestation$" # 884eae7bab691d18c91f221525828c1d9be8280a
   RICE_indian_ocean_pirate_infestation_2_desc: "지역 통치자들이 이 지역에서 활동하는 해적들과 맺었던 이전 합의를 파기했습니다. 이로 인해 많은 해적 또는 이전 해적들이 남아 있었고 이전에는 지역 상업 및 정치 기관에 통합되었기 때문에 단기적인 혼란이 야기되었습니다." # 1c6a82f16438d7e468ac000969acbd1f6124e699
   RICE_mediterranean_reneged_pirate_deals: "지중해 해적과의 합의 파기" # d3fe5839317baa292b5246a24f374b61be79e011

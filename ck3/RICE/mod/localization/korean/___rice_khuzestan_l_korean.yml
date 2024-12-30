@@ -31,7 +31,7 @@
   game_concept_pilgrimage_to_daniels_tomb: "다니엘의 무덤 순례" # da833b4ec0d023a5d0caf14d17dd72ac883c300b
   game_concept_pilgrimage_to_the_tomb_of_daniel: "다니엘의 무덤으로의 순례" # 987a7dbca7924ab4d73081185fe6d7db323f5808
   game_concept_tomb_of_daniel: "다니엘의 무덤" # a3b5190e688ca00a7d9e5ea71e90827d590776fe
-  game_concept_tomb_of_daniel_desc: "성서 인물 다니엘의 무덤이 있다고 주장하는 여러 곳이 있습니다. 게임 내 $c_tustar$ 현의 [county|E]에 위치한 슈슈 마을이 가장 강력한 주장을 하는 것으로 전통적으로 여겨집니다.\n\n따라서 $c_tustar$ 근처의 유대교, 기독교, 이슬람교 계열 캐릭터는 [GetActivityType( 'activity_RICE_khuzestan_tomb_of_daniel_pilgrimage' ).GetName]에 참여할 수 있습니다. 일반적인 [local_pilgrimage|E] 보너스 외에도, 순례자들은 유익한 [character_modifier|E], [GetModifier('RICE_khuzestan_daniel_pilgrimage_done').GetNameWithTooltip]을 얻을 수 있습니다.\n\n$c_tustar$의 [ruler|E]는 $RICE_khuzestan_rebury_daniel$을 위한 [decision|E]에 접근할 수도 있습니다. 이 [decision|E]를 선택하면 순례가 제공하는 [piety|E] 보너스가 증가하고, 이를 참여할 수 있는 지리적 범위가 넓어집니다." # 1014523662fd888a801cc442d80f0ce82682ea75
+  game_concept_tomb_of_daniel_desc: "성서 인물 다니엘의 무덤이 있다고 주장하는 여러 곳이 있습니다. 게임 내 $c_tustar$ 현의 [county|E]에 위치한 슈슈 마을이 가장 강력한 주장을 하는 것으로 전통적으로 여겨집니다.\n\n따라서 $c_tustar$ 근처의 유대교, 기독교, 이슬람교 계열 인물은 [GetActivityType( 'activity_RICE_khuzestan_tomb_of_daniel_pilgrimage' ).GetName]에 참여할 수 있습니다. 일반적인 [local_pilgrimage|E] 보너스 외에도, 순례자들은 유익한 [character_modifier|E], [GetModifier('RICE_khuzestan_daniel_pilgrimage_done').GetNameWithTooltip]을 얻을 수 있습니다.\n\n$c_tustar$의 [ruler|E]는 $RICE_khuzestan_rebury_daniel$을 위한 [decision|E]에 접근할 수도 있습니다. 이 [decision|E]를 선택하면 순례가 제공하는 [piety|E] 보너스가 증가하고, 이를 참여할 수 있는 지리적 범위가 넓어집니다." # 1014523662fd888a801cc442d80f0ce82682ea75
   game_concept_khila_ceremony: "킬라 의식" # db39b8934be62c9b170eb22cd5ca719fe553954d
   game_concept_khila: "킬라" # a1e6e0d4cebaae917cf740bb933e4f47d5541fed
   game_concept_tiraz: "티라즈" # def1f539f5e88d49158c9f1f4de86178d6d86ac3
@@ -116,12 +116,12 @@
   RICE_khuzestan_shushtar_watermills_repair: "슈슈타르의 물레방아 최근 수리" # 72b134b8f51090a450dcfa9cf013a4de12ce7e3a
   RICE_khuzestan_shushtar_watermills_renovation: "슈슈타르 제분소의 최근 개조" # 030788e8a23fc37280cd13d7199ee2585fa0b554
   RICE_khuzestan_recently_gifted_tiraz: "중요한 인물에게 티라즈를 선물함" # 3bcd71d52ba8aa88b0b8919710062f1a4f5a8701
-  RICE_khuzestan_recently_gifted_tiraz_desc: "이 캐릭터는 최근 높은 지위의 누군가에게 [khila_ceremony|E]에서 [tiraz|E]를 선물했습니다. 그렇게 하는 것은 물론 그들의 지위에도 좋은 영향을 미칩니다." # 09e8ee4d4564fe735ab8d6f64ab4dd6de95de11d
+  RICE_khuzestan_recently_gifted_tiraz_desc: "이 인물은 최근 높은 지위의 누군가에게 [khila_ceremony|E]에서 [tiraz|E]를 선물했습니다. 그렇게 하는 것은 물론 그들의 지위에도 좋은 영향을 미칩니다." # 09e8ee4d4564fe735ab8d6f64ab4dd6de95de11d
   RICE_khuzestan_received_tiraz_from_head_of_faith: "신앙 수장이 티라즈를 하사했습니다" # 3a39356256f2603c339c703615b0d21405166aed
-  RICE_khuzestan_received_tiraz_from_head_of_faith_desc: "이 캐릭터는 [head_of_faith|E]로부터 [khila_ceremony|E]에서 [tiraz|E]를 받는 행운을 누려 동료 신자들의 눈에 큰 존경을 받게 되었습니다." # 7730ef2819235abd9db465534943fe836f5cfded
+  RICE_khuzestan_received_tiraz_from_head_of_faith_desc: "이 인물은 [head_of_faith|E]로부터 [khila_ceremony|E]에서 [tiraz|E]를 받는 행운을 누려 동료 신자들의 눈에 큰 존경을 받게 되었습니다." # 7730ef2819235abd9db465534943fe836f5cfded
   RICE_khuzestan_gifted_tiraz: "티라즈를 선물해 주셨습니다." # 5fde90ea704b70b63dd762d547bb9bf0f8751de4
   RICE_khuzestan_mandaean_connections: "만다야 연결" # e4f686ca1787491f317ea5ed31c37db4ff1905af
-  RICE_khuzestan_mandaean_connections_desc: "이 캐릭터는 메소포타미아 남부와 후제스탄의 만다야 공동체, 특히 그곳의 만다야 서기관 센터와 밀접한 관련이 있습니다." # 0f6d504a07d409096ebaca5e86f4c778f320b126
+  RICE_khuzestan_mandaean_connections_desc: "이 인물은 메소포타미아 남부와 후제스탄의 만다야 공동체, 특히 그곳의 만다야 서기관 센터와 밀접한 관련이 있습니다." # 0f6d504a07d409096ebaca5e86f4c778f320b126
   RICE_khuzestan_restored_elymais: "쿠지 부활: 엘리마이아 부흥" # 8401a9d3f56a54581e62ee87afdb71a6083b5271
   RICE_khuzestan_restored_elymais_desc: "쿠제스탄의 토착민들이 고향에서 권력을 되찾은 후, 그들은 직계 조상인 엘리마이아인들의 방식이라고 믿는 것을 모방하기 시작했습니다. 고대에 왕국으로 알려졌던 엘리마이아 사람들은 궁술 실력과 끈질기게 독립을 유지했던 것으로 유명했습니다." # d36d70d0bdf6ba7999c2a95a6ec1dfec4f94e43e
   RICE_khuzestan_restored_khuzi: "쿠지 재건: 위엄 있는 공동체" # 27289c6af1a9b83b6ffd6b1b46cead434d46ff8a
@@ -135,7 +135,7 @@
   RICE_khuzestan_weavers: "번성한 직조공" # a73d31a7dff7a3101832851035e8e0f3b47880dd
   RICE_khuzestan_weavers_desc: "후제스탄은 항상 직조 품질로 유명했습니다. 최근에는 후제스탄의 특정 지역에서 생산된 직조 제품들이 전 세계적으로 많은 명성을 얻고 있습니다." # ed0be96d5c0c2161f88f8402075b6707a99bb427
   RICE_khuzestan_engineering_study: "쿠즈스탄의 고대 수리 시스템 연구" # 31f208c7ef2e87979911556c84651e0e78a19c78
-  RICE_khuzestan_engineering_study_desc: "고대 페르시아인들은 후제스탄에서 운하, 댐, 다리 등 여러 훌륭한 공학적 업적을 이루었습니다. 이 캐릭터는 최근 이러한 구조물에 대해 더 잘 배우는 데 관심을 가지게 되었습니다." # e8088364ae3856efdf518edb3a5aa11ca2879549
+  RICE_khuzestan_engineering_study_desc: "고대 페르시아인들은 후제스탄에서 운하, 댐, 다리 등 여러 훌륭한 공학적 업적을 이루었습니다. 이 인물은 최근 이러한 구조물에 대해 더 잘 배우는 데 관심을 가지게 되었습니다." # e8088364ae3856efdf518edb3a5aa11ca2879549
   RICE_khuzestan_tomb_of_daniel_decision: "다니엘의 무덤으로 순례를 떠나십시오" # f9d42002308d9ec99ffafb4e743d59e0b879ea3d
   RICE_khuzestan_tomb_of_daniel_decision_tooltip: "수스에 있는 [tomb_of_daniel|E]로 여행하십시오" # 7233eb052a80f8fb4afd1b961d8760ca5ed81607
   RICE_khuzestan_tomb_of_daniel_decision_desc: "다니엘은 저와 같은 [ROOT.Char.GetFaith.GetAdherentNamePlural]에게 중요한 종교적 인물입니다. [daniels_tomb|E]는 슈슈에 있다고 하니, 그 지역의 많은 사람들이 그에게 경의를 표하기 위해 그곳에 갑니다. 저도 그래야 합니다!" # 35ac821a2edffe244108af91611274db7f27f44c
@@ -179,7 +179,7 @@
   RICE_khuzestan_parwanaya_festival: "파르와나야 축하" # ea819db4f95725b5a9559662381f8db46c7437c5
   RICE_khuzestan_parwanaya_festival_tooltip: "만다야교의 중요한 종교 행사, 파르와나야 축제를 기념하십시오" # ce24e390f804e1368e6b00a05cfc53093b01d22d
   RICE_khuzestan_parwanaya_festival_desc: "많은 [ROOT.Char.GetFaith.GetAdherentNamePlural]에게 #italic 파르와나야#! (또는 #italic 판자#!)는 한 해에서 가장 중요한 행사 중 하나입니다. 이는 [ROOT.Char.GetFaith.HighGodName]께서 천사와 우주를 창조하셨을 때를 기념하는 시간입니다." # 2c24b9e67b22f1373d4c23ab01a14f93982989fd
-  RICE_khuzestan_parwanaya_festival_effect_tooltip_1: "[faith|E], [명성|E], 그리고 [GetModifier('RICE_khuzestan_celebrated_parwanaya').GetNameWithTooltip] [캐릭터_modifier|E]를 얻습니다." # 7372b02ab6ec19aaf9bc98e455252866f519a49c
+  RICE_khuzestan_parwanaya_festival_effect_tooltip_1: "[faith|E], [명성|E], 그리고 [GetModifier('RICE_khuzestan_celebrated_parwanaya').GetNameWithTooltip] [인물_modifier|E]를 얻습니다." # 7372b02ab6ec19aaf9bc98e455252866f519a49c
   RICE_khuzestan_parwanaya_festival_confirm: "준비합시다!" # 87add30b92fc70b3debe3c01f4c8fcfd9d5045f2
   RICE_khuzestan_parwanaya_festival_context_tooltip: "#emphasis 역사적 배경:#! #italic 파르와나야#! (또는 #italic 판자#!)는 만다야교의 주요 축제 중 하나입니다. 이 축제는 슘불타의 8번째 달 이후 만다야력의 5일의 추가일에 기념하며, 한 해 중 가장 행복하고 운이 좋은 시기 중 하나로 여겨집니다." # 437cd5eda692a66d5291c8ccb6639f0e6513f946
   RICE_khuzestan_gnostic_baptism_rite: "의식 세례를 받다" # 02e8f567ccb5bf2a675bdaa19775a0ba3a0db37f

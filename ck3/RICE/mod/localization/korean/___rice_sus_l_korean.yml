@@ -16,7 +16,7 @@
   game_concept_trans_saharan_merchants: "사하라 횡단 상인" # 094b247a923112a70478d5bf575f2f98c9af6bb1
   game_concept_trans_saharan_merchants_desc: "[GetGeographicalRegion('world_africa').GetName] 내에 영토를 소유하고 있는 경우, 가끔씩 [court|E]에 $game_concept_trans_saharan_merchant$가 생성될 가능성이 있습니다. 이들의 연줄을 활용하여 [income|E]을 증가시키고 다른 보너스를 제공하는 [character_modifier|E]를 얻을 수 있습니다. 보너스는 출신 문화 또는 민족 집단(베르베르인, 아랍인, 서아프리카인, 유대인)에 따라 다릅니다. 이들을 궁정에 초대하지 않아도 이러한 보너스를 얻을 수 있습니다.\n\n#V 사하라 횡단 무역#! 가문 트랙에는 이 메커니즘을 개선하는 몇 가지 [dynasty_perks|E]가 있습니다. 트랙의 첫 번째 특성인 #V 사막의 배#!는 이러한 이벤트가 발생할 확률을 높입니다. 세 번째 특성인 #V 금과 소금#!은 단기간 동안 이러한 이벤트가 발생할 확률을 더욱 높이고 다른 경제적 보너스를 제공하는 [decision|E]인 #V 사하라 횡단 상인과 연결하기#!를 잠금 해제합니다." # f3f9608a1f0c2e3a6c67944d4764563a8995353c
   trait_RICE_trans_saharan_merchant: "사하라 횡단 상인" # 06311ed14630d9242c1ca2dc4d8a29da381ec6c7
-  trait_RICE_trans_saharan_merchant_desc: "이 캐릭터는 아프리카를 가로지르는 사하라 횡단 교역로를 따라 두각을 나타내는 상인입니다. 이들은 무역, 여행, 협상 기술에 경험이 있습니다." # d5fee852e786696fe0fe1208107f76c03bedaa45
+  trait_RICE_trans_saharan_merchant_desc: "이 인물은 아프리카를 가로지르는 사하라 횡단 교역로를 따라 두각을 나타내는 상인입니다. 이들은 무역, 여행, 협상 기술에 경험이 있습니다." # d5fee852e786696fe0fe1208107f76c03bedaa45
   trait_RICE_trans_saharan_merchant_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]은 아프리카를 가로지르는 사하라 횡단 교역로에서 저명한 상인입니다. [ROOT.GetCharacter.GetSheHe|U]는 무역, 여행, 협상 기술에 경험이 있습니다." # 61fa66fb88b937999e10d227f7a1943385de699a
   trait_RICE_trans_saharan_merchant_2: "저명한 트란스사하라 상인" # 2ba6d65850ed258828c136efb7074bd10ad760a1
   trait_RICE_trans_saharan_merchant_2_desc: "$trait_RICE_trans_saharan_merchant_desc$" # 54e77a675e6353eb13108368721fd4ec563e0900
@@ -56,11 +56,11 @@
   RICE_sus_ziz_hydraulics_person_desc: "이 지도자는 지즈 강을 따라 댐, 운하, 지즈 강물 전환 등 수많은 중요한 수력 프로젝트를 계획하고 관리하는 데 자신의 역할을 다했습니다. 이 강은 서부 마그레브의 주요 경제 중심지인 시질마사의 지리의 중요한 부분입니다." # 4dbab7468b7290905b2ec393184c91d21b06dedd
   RICE_sus_currently_trans_saharan_networking: "사하라 횡단 무역 상인과의 교류" # 44ba9f33b60bdacdd71c63c1a9bf66489af5ff98
   RICE_sus_apprentice_trans_saharan_merchant: "사하라 횡단 상인" # 06311ed14630d9242c1ca2dc4d8a29da381ec6c7
-  RICE_sus_apprentice_trans_saharan_merchant_desc: "이 캐릭터는 원래 북아프리카와 사헬 지역의 사하라 횡단 무역로를 따라 사업을 하던 상인이었습니다." # afaa0528044e78a0418348b9e7d895f0fe672c13
+  RICE_sus_apprentice_trans_saharan_merchant_desc: "이 인물은 원래 북아프리카와 사헬 지역의 사하라 횡단 무역로를 따라 사업을 하던 상인이었습니다." # afaa0528044e78a0418348b9e7d895f0fe672c13
   RICE_sus_experienced_trans_saharan_merchant: "대서양횡단 상인" # e16fca8ae1b81cceebefb51d67c79fa9c9a04139
-  RICE_sus_experienced_trans_saharan_merchant_desc: "이 캐릭터는 원래 북아프리카와 사헬 지역의 사하라 횡단 무역로를 따라 장사를 하던 상인이었습니다. 사업 수완이 뛰어났기에, 이 시기에 상당한 금을 벌 수 있었습니다." # 83c8991300a4e65cb2487edbbec049d809e1560c
+  RICE_sus_experienced_trans_saharan_merchant_desc: "이 인물은 원래 북아프리카와 사헬 지역의 사하라 횡단 무역로를 따라 장사를 하던 상인이었습니다. 사업 수완이 뛰어났기에, 이 시기에 상당한 금을 벌 수 있었습니다." # 83c8991300a4e65cb2487edbbec049d809e1560c
   RICE_sus_master_trans_saharan_merchant: "저명한 트란스사하라 상인" # 2ba6d65850ed258828c136efb7074bd10ad760a1
-  RICE_sus_master_trans_saharan_merchant_desc: "이 캐릭터는 원래 북아프리카와 사헬 지역의 사하라 횡단 무역로를 따라 사업을 하던 상인이었습니다. 당대 최고의 상인 중 한 명으로 여겨졌으며, 그 시기에 상당한 재산을 모았습니다." # 997d25e110edfafbad44024f7fc4ca95e15d9505
+  RICE_sus_master_trans_saharan_merchant_desc: "이 인물은 원래 북아프리카와 사헬 지역의 사하라 횡단 무역로를 따라 사업을 하던 상인이었습니다. 당대 최고의 상인 중 한 명으로 여겨졌으며, 그 시기에 상당한 재산을 모았습니다." # 997d25e110edfafbad44024f7fc4ca95e15d9505
   RICE_sus_trade_deal_arab_merchants: "아랍 상인과의 사하라 횡단 무역 증진" # b79285f07feff03183b9b9cd6fe354ad39bb00ae
   RICE_sus_trade_deal_berber_merchants: "베르베르 상인과의 사하라 횡단 무역 장려" # 3aaf7a21ea8f2040c004a6dd5d1b8caadefb5362
   RICE_sus_trade_deal_jewish_merchants: "유대인 상인과의 트랜스사하라 무역 장려" # 57bdecebcb03d83c05b10ba7b079035710be4464
@@ -82,7 +82,7 @@
   RICE_sus_sijilmasa_goldsmiths: "최근 시질마사에 금 세공업자들이 가게를 열었습니다" # 3a950e5467ff1de78270b66b0151d567f0593f06
   RICE_sus_sijilmasa_glazed_ceramics: "시질마사의 유약 도자기 수요 증가" # 269f76460adf499b2924a29e66f5998b894172b9
   RICE_sus_eating_amlu: "암루 많이 먹기" # 1c8361ed23d2533cd97efb773fab3ae37b6ed131
-  RICE_sus_eating_amlu_desc: "이 캐릭터의 요리사들은 아르간 오일을 대량으로 비축하고 있으며, 꿀과 구워 빻은 아몬드를 섞어 #italic 아물루#!라는 맛있는 스프레드를 만듭니다." # 91d21ef10bff8258034eb22d50c0767e872d6df3
+  RICE_sus_eating_amlu_desc: "이 인물의 요리사들은 아르간 오일을 대량으로 비축하고 있으며, 꿀과 구워 빻은 아몬드를 섞어 #italic 아물루#!라는 맛있는 스프레드를 만듭니다." # 91d21ef10bff8258034eb22d50c0767e872d6df3
   RICE_sus_sijilmasa_newly_arrived_settlers: "시질마사 신규 정착민" # 53c1d4e9ffb7a575f52481009d3eee887a66086b
   RICE_sus_sijilmasa_newly_arrived_settlers_desc: "모험가, 망명자, 상인, 난민, 종교적 반체제 인사 등 여러 먼 곳에서 온 사람들이 시질마사의 신흥 오아시스에 정착하기 위해 모였습니다. 그들은 오합지졸 무리이자 사회 부적응자들이지만, 새로운 고향에 다양한 관점과 기술을 가져왔습니다. 처음에는 평화롭게 공존하기 어렵겠지만, 협력하는 법을 배운다면 시질마사의 미래 번영을 위한 씨앗을 뿌릴 수 있다는 데 의심의 여지가 없습니다!" # 27d6bd133ac01f4363355c703b7692994e9ab0c6
   RICE_sus_resolve_conflicts_in_sijilmasa: "시질마사의 오랜 갈등 해결" # cf86bdf21b4cefc08a340ddca2730c691443373a

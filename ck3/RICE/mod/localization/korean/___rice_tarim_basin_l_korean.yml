@@ -85,7 +85,7 @@
   game_concept_silk_road_community: "실크로드 공동체" # eec49d6a31348191013db456177a1e8c4d2e79d5
   game_concept_silk_road_communities_short: "커뮤니티" # b1455e5b3b02e54fc7147e8c375c8a5c9e6fc0f0
   game_concept_silk_road_communities: "실크로드 공동체" # 1cd6d36a55d17449024943bded4b9f9dfd5d15c0
-  game_concept_silk_road_communities_desc: "[decision|E]를 통해 실크로드 공동체와의 관계를 강화하는 $RICE_reinforce_relations_silk_road_communities$를 [지배자|E]들은 [RICE_land_silk_road_region].지역]과 [RICE_maritime_silk_road_region].지역에서 선택할 수 있습니다. [decision|E]을 선택하면 영역 내 여러 민족/문화 집단(동아시아, 스텝, 중동, 히말라야, 인도, 동아프리카, 동남아시아)과의 관계 개선에 집중하여, 각각 10년 동안 특정 [캐릭터_수정자|E]를 얻을 수 있습니다. \n\n[수정자|E]가 활성화된 동안, 다양한 은혜를 받을 가능성이 있습니다. 이는 일반적으로 이벤트를 통해 나타나며, £금£ 또는 [신앙심|E]에서부터 무료 신하와 [특수부대|E]까지 다양하며, 서로 다른 공동체는 다른 이점을 제공합니다. 각 공동체는 또한 고유하고 간단한 [decision|E]을 해금하여 추가적인 이점을 제공합니다.\n\n[decision|E]은 일생에 한 번만 선택할 수 있으며, [왕조|E]가 [RICE_socotra_indian_ocean_legacy_3].왕조 특전] 또는 [RICE_tarim_basin_silk_road_legacy_3].왕조 특전]을 해금했거나, [문화|E]가 $tradition_RICE_silk_road_name$ [전통|E]을 가지고 있는 경우는 예외입니다." # bf2f57044df26c7e3f73747c98ef3fe7298d7a6e
+  game_concept_silk_road_communities_desc: "[decision|E]를 통해 실크로드 공동체와의 관계를 강화하는 $RICE_reinforce_relations_silk_road_communities$를 [지배자|E]들은 [RICE_land_silk_road_region].지역]과 [RICE_maritime_silk_road_region].지역에서 선택할 수 있습니다. [decision|E]을 선택하면 영역 내 여러 민족/문화 집단(동아시아, 스텝, 중동, 히말라야, 인도, 동아프리카, 동남아시아)과의 관계 개선에 집중하여, 각각 10년 동안 특정 [인물_수정자|E]를 얻을 수 있습니다. \n\n[수정자|E]가 활성화된 동안, 다양한 은혜를 받을 가능성이 있습니다. 이는 일반적으로 이벤트를 통해 나타나며, £금£ 또는 [신앙심|E]에서부터 무료 신하와 [특수부대|E]까지 다양하며, 서로 다른 공동체는 다른 이점을 제공합니다. 각 공동체는 또한 고유하고 간단한 [decision|E]을 해금하여 추가적인 이점을 제공합니다.\n\n[decision|E]은 일생에 한 번만 선택할 수 있으며, [왕조|E]가 [RICE_socotra_indian_ocean_legacy_3].왕조 특전] 또는 [RICE_tarim_basin_silk_road_legacy_3].왕조 특전]을 해금했거나, [문화|E]가 $tradition_RICE_silk_road_name$ [전통|E]을 가지고 있는 경우는 예외입니다." # bf2f57044df26c7e3f73747c98ef3fe7298d7a6e
   game_concept_mogao_cave_short: "동굴" # 8eeb80e2d7b1d98fc546900ae39f38fa2d7d6a3a
   game_concept_mogao_caves_short: "동굴" # 3ce002953dc05ec9bc8c82b327e57b3e180851c0
   game_concept_mogao_cave: "모가오 굴" # a1c0948ffae710116b54a3f7bc54497c925d9e64
@@ -199,8 +199,8 @@
   activity_RICE_tarim_basin_crescent_lake_visit: "크레센트 호수 방문" # 55f6225f1d78b769c5e55a2e4ee0236496520baf
   activity_RICE_tarim_basin_crescent_lake_visit_desc: "둔황 도시 근처 주요 지리적 명소 중 하나는 소위 초승달 호수입니다. 사막 한가운데 자리 잡은 규모가 꽤 큰 호수로, 둔황의 유명한 노래하는 모래 언덕 옆에 위치하고 있습니다. 주변에 거주하는 많은 사람들이 휴식과 즐거움을 찾아 그곳을 찾습니다." # 4451eb4152c349bd01d699cecce93baaa567b34b
   activity_RICE_tarim_basin_crescent_lake_visit_selection_tooltip: "[GetTitleByKey('c_shazhou').GetNameNoTier]의 휘황찬란한 샤즈후에서, \n크레센트 호수로 향하십시오.\n\n\n$RICE_tarim_basin_visit_crescent_lake_context_tooltip$" # 0349d8b4d4552918021d57a229634733faed3ce3
-  activity_RICE_tarim_basin_crescent_lake_visit_host_desc: "$BULLET_WITH_TAB$[stress_loss_i|E] [stress|E] 손실\n$BULLET_WITH_TAB$[경건_i] [경건|E]\n$BULLET_WITH_TAB$[명성_i] [명성|E]\n$BULLET_WITH_TAB$[쌀_타림분지_둔황_달마사_방문_수정.이름가지툴팁] [캐릭터_수정|E]" # 38abe4aa27c1fb20c866b716e0e6d1cd88dce69b
-  activity_RICE_tarim_basin_crescent_lake_visit_guest_desc: "[stress_loss_i|E] [stress|E]를 잃고 [신앙심_i] [신앙심|E], [명예_i] [명예|E], 그리고 [GetModifier('RICE_타림분지_둔황_반월호_방문').GetNameWithTooltip] [캐릭터_수정자|E]를 얻으십시오." # b1b38083b0a6d43de3467bddbff6ef17ca6144b5
+  activity_RICE_tarim_basin_crescent_lake_visit_host_desc: "$BULLET_WITH_TAB$[stress_loss_i|E] [stress|E] 손실\n$BULLET_WITH_TAB$[경건_i] [경건|E]\n$BULLET_WITH_TAB$[명성_i] [명성|E]\n$BULLET_WITH_TAB$[쌀_타림분지_둔황_달마사_방문_수정.이름가지툴팁] [인물_수정|E]" # 38abe4aa27c1fb20c866b716e0e6d1cd88dce69b
+  activity_RICE_tarim_basin_crescent_lake_visit_guest_desc: "[stress_loss_i|E] [stress|E]를 잃고 [신앙심_i] [신앙심|E], [명예_i] [명예|E], 그리고 [GetModifier('RICE_타림분지_둔황_반월호_방문').GetNameWithTooltip] [인물_수정자|E]를 얻으십시오." # b1b38083b0a6d43de3467bddbff6ef17ca6144b5
   activity_RICE_tarim_basin_crescent_lake_visit_province_desc: "여기에 휘황찬란한 섬호수가 있습니다." # 7a179361bfdfecbb5707b7a3c197f89159519974
   activity_RICE_tarim_basin_crescent_lake_visit_destination_selection: "$activity_RICE_tarim_basin_crescent_lake_visit_province_desc$" # 737c8db80464286bec2dba5a2237d790482aa5e5
   activity_RICE_tarim_basin_crescent_lake_visit_guest_help_text: "$activity_RICE_tarim_basin_crescent_lake_visit$" # e0605c6cdf3a818720e2483be58c9b6c755b743e
@@ -219,7 +219,7 @@
   activity_RICE_tarim_basin_khotan_procession_desc: "호탄의 해마다 열리는 성상 행렬에 참여하여 삼보에 대한 믿음을 다시 한번 다지는 때가 되었습니다. [GetTitleByKey('c_khotan').GetNameNoTier]가 불교의 땅이 된 이래로, 세기가 지나도 끊이지 않고 이 행렬이 거행되어 왔습니다. 호탄의 모든 사람, 평민부터 승려, 왕족까지 모두 이 행사에 참여합니다." # c922be9e25f619a156db351e67018fa9bf64b43f
   activity_RICE_tarim_basin_khotan_procession_selection_tooltip: "호탄의 연례 행렬에 참여하십시오.\n\n$RICE_tarim_basin_khotan_procession_context_tooltip$" # a5d885b60af0e160f2b5c8d4b27549ec323c8871
   activity_RICE_tarim_basin_khotan_procession_host_desc: "$BULLET_WITH_TAB$ [piety_i|E] [piety|E]\n$BULLET_WITH_TAB$ [GetModifier('RICE_tarim_basin_participated_in_khotan_procession').GetNameWithTooltip] [character_modifier|E]\n$BULLET_WITH_TAB$ 호탄 행렬에 참여하면 [eight_protectors_of_khotan|E]의 #P 축복#을 받을 가능성이 있으며, 그 힘은 [piety_level|E]와 선택한 [activity_options|E]에 따라 달라집니다." # f0efa2aa264e4f0aca76bdeb0e8689368074712d
-  activity_RICE_tarim_basin_khotan_procession_guest_desc: "$BULLET_WITH_TAB$ [경건도_i|E] [경건도|E]\n$BULLET_WITH_TAB$ [호탄 행렬 참여 효과] [캐릭터_수정자|E]" # a75abcd70d5f191d83ce355e098075da01d18d95
+  activity_RICE_tarim_basin_khotan_procession_guest_desc: "$BULLET_WITH_TAB$ [경건도_i|E] [경건도|E]\n$BULLET_WITH_TAB$ [호탄 행렬 참여 효과] [인물_수정자|E]" # a75abcd70d5f191d83ce355e098075da01d18d95
   activity_RICE_tarim_basin_khotan_procession_province_desc: "[GetTitleByKey('b_khotan').GetNameNoTier]에서는 기억 속에 영원히 이어지는 퍼레이드가 매년 열립니다." # 8be323d257ec355f7af7168daf2fc35f96068056
   activity_RICE_tarim_basin_khotan_procession_destination_selection: "$activity_RICE_tarim_basin_khotan_procession_province_desc$" # cf76297452fab413b26ea5311343d6b07ddb2d52
   activity_RICE_tarim_basin_khotan_procession_guest_help_text: "$activity_RICE_tarim_basin_khotan_procession$" # 0ca4b83fed15324d01b042c78cc8e0e303653f37
@@ -680,7 +680,7 @@
   RICE_tarim_basin_khotan_procession_tooltip: "삼보에 경배를!" # 034c9571353a0b3b1a37094d65541cef31cfda1a
   RICE_tarim_basin_khotan_procession_desc: "코탄의 연례 행렬 의식에 참여하여 삼보에 대한 굳건한 신앙을 재확인할 때입니다. 코탄이 [ROOT.Char.GetFaith.GetReligion.GetAdjective]가 된 이래, 이 행렬은 세월의 흐름 속에서 끊임없이 이어져 왔습니다. 코탄의 모든 사람, 평민부터 수도승에 이르기까지, 심지어 왕족까지도 이 의식에 참여합니다." # a8f678ad804fea6e3e2d0771f16e910f583d6b83
   RICE_tarim_basin_khotan_procession_effect_tooltip_1: "[신앙도|E]가 무작위로 증가합니다." # 645114b9d8c652d85abcab746dabff52ec23ff52
-  RICE_tarim_basin_khotan_procession_effect_tooltip_2: "[팔보살|E]의 #P 가호#를 받을 가능성이 있습니다.  [신앙도|E]에 따라 힘이 달라지는 [캐릭터 수정치|E]를 얻을 수 있습니다." # e496ffcae76f290e2914c1bbe6bdbf888cd50fb6
+  RICE_tarim_basin_khotan_procession_effect_tooltip_2: "[팔보살|E]의 #P 가호#를 받을 가능성이 있습니다.  [신앙도|E]에 따라 힘이 달라지는 [인물 수정치|E]를 얻을 수 있습니다." # e496ffcae76f290e2914c1bbe6bdbf888cd50fb6
   RICE_tarim_basin_khotan_procession_confirm: "올해 행렬이 기대됩니다!" # 833d136d6d9108200584356b6109edf4cfeb5209
   RICE_tarim_basin_khotan_procession_context_tooltip: "#bold 역사적 배경:#! 코탄이 불교 중심지로 번영했던 시절, 매년 봄에는 두 주간에 걸친 대규모 행렬이 열렸습니다. 시민들과 왕족을 포함한 코탄 전체가 참여했습니다. 신성한 불교 이미지가 달린 수레에 싣고 매일 도시 외곽에서 가져왔습니다. 매일의 행렬은 코탄의 주요 사찰 중 하나가 주관했으며, 코탄에서 가장 중요한 사찰인 고마티 사찰은 첫날 행렬의 영광스러운 주관자였습니다." # e84fd1180fa5a5bcd6c91aa29f3dcbc54cc54e8a
   RICE_decision_khotan_procession_month_req: "1월, 2월, 3월, 또는 4월" # 28902b3480e5553dd77d32ecdb920bf83a7a8694
@@ -1586,7 +1586,7 @@
   tarim_basin.0210.desc: "올해는 #italic 오르담# 축제, [GetGeographicalRegion('world_steppe_tarim').GetName]에서 가장 큰 #italic 마자르# 축제에 참석하고자 합니다. 이 축제는 [kashgar.GetNameNoTier]의 [ali_arslan.GetTitledFirstName] 묘소에서 열립니다. 이 고귀한 [ali_arslan.GetLadyLord]는 [ali_arslan.GetHerHis] 생명을 바쳐 [khotan.GetNameNoTier]의 잔혹한 불교 이단자들과 싸워 이기셨습니다. 오래전, 끔찍했던 위대한 전쟁에서 목숨을 잃으신 이 분과 다른 순교자들을 기리는 것은 마땅한 일입니다." # f141a410986bce6769d8ff14e13f8cf314f267fc
   tarim_basin.0210.a: "이 #italic 큰# 축제에 참석하게 되어 기쁩니다!" # 742bf02043517a86e7050df44fa6436d7108bc32
   tarim_basin.0211.t: "오르담이 시작됩니다" # e676136eab6ba65b494b22a58a7af9d692914754
-  tarim_basin.0211.desc: "#italic 오르담#!가 다가왔습니다! 제 수행원들과 함께, 이 지역 각지에서 많은 사람들이 [카슈가르.이름없이 계층 없음]의 특정 장소, [알리_아르슬란.칭호 없이 성명]의 #italic 무덤#!에 경건한 예배를 드리기 위해 모였습니다.\n\n온갖 사람들이 도시 경계 안으로 조금씩 들어옵니다. 낡은 수레에 짐을 싣고 나귀를 끄는 초라한 농부들부터, 뛰어난 말을 타고 온 화려한 귀족들, 그리고 눈부신 마차를 타고 온 호화로운 상인들까지 다양합니다. 하지만 모두 이 축제를 위해 여기에 왔습니다.\n\n어떤 이들은 [뿌리.캐릭터.신앙.종교.이름]의 진정한 신앙을 다시 한번 다짐하고 과거 순교자들의 용기와 [뿌리.캐릭터.신앙.최고신의 이름]의 위대함을 되새기기 위해 왔습니다. 다른 이들은 서로 만나 어울리고 활기찬 분위기를 즐기기 위해 왔습니다. 물론 대부분은 둘 다 하고자 왔습니다." # 82c80503d0a28f7fc1f2774ef17e37894cea1718
+  tarim_basin.0211.desc: "#italic 오르담#!가 다가왔습니다! 제 수행원들과 함께, 이 지역 각지에서 많은 사람들이 [카슈가르.이름없이 계층 없음]의 특정 장소, [알리_아르슬란.칭호 없이 성명]의 #italic 무덤#!에 경건한 예배를 드리기 위해 모였습니다.\n\n온갖 사람들이 도시 경계 안으로 조금씩 들어옵니다. 낡은 수레에 짐을 싣고 나귀를 끄는 초라한 농부들부터, 뛰어난 말을 타고 온 화려한 귀족들, 그리고 눈부신 마차를 타고 온 호화로운 상인들까지 다양합니다. 하지만 모두 이 축제를 위해 여기에 왔습니다.\n\n어떤 이들은 [뿌리.인물.신앙.종교.이름]의 진정한 신앙을 다시 한번 다짐하고 과거 순교자들의 용기와 [뿌리.인물.신앙.최고신의 이름]의 위대함을 되새기기 위해 왔습니다. 다른 이들은 서로 만나 어울리고 활기찬 분위기를 즐기기 위해 왔습니다. 물론 대부분은 둘 다 하고자 왔습니다." # 82c80503d0a28f7fc1f2774ef17e37894cea1718
   tarim_basin.0211.a: "분명히, 저는 주로 종교적인 이유로 여기에 있습니다." # 0a5f6c973df1f8b18892597ed8fa7043ce11429c
   tarim_basin.0211.b: "종교는 중요하지만, 좋은 동료와 함께하는 것도 중요합니다!" # 95ea6f4707654e5e6b5ee00142461a720057f5b9
   tarim_basin.0212.t: "황금 그릇" # 2d193d23ffd1f89a7b368e74c14b1491cb6552a2
