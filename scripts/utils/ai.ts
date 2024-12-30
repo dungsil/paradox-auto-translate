@@ -5,7 +5,6 @@ import { addQueue } from './queue'
 
 dotenv.config()
 
-const WRONG_TRANSLATED_FUNCTION_REGEX = /\[([가-힣]+(\|[A-Z])?)\]/
 const ai = new GoogleGenerativeAI(process.env.GOOGLE_AI_STUDIO_TOKEN!)
 
 const generationConfig = {
@@ -30,10 +29,10 @@ const gemini15flash = ai.getGenerativeModel({
 export async function translateAI (text: string) {
   return new Promise<string>((resolve, reject) => {
     try {
-      return translateAIByModel(resolve, gemini15flash, text)
+      return translateAIByModel(resolve, gemini20, text)
     } catch (e) {
       try {
-        return translateAIByModel(resolve, gemini20, text)
+        return translateAIByModel(resolve, gemini15flash, text)
       } catch (ee) {
         reject(ee)
       }
@@ -46,16 +45,11 @@ async function translateAIByModel (resolve: (value: string | PromiseLike<string>
     async () => {
       const { response } = await model.generateContent(text)
 
-      let translated = response.text().trim()
-
-      // 개행을 문자열로 변경
-      translated.replaceAll(/\n/g, '\\n')
-
-      // 잘못 번역된 문자열 수정
-      translated.replaceAll(/#약[화한(하된)]/, '#weak')
-
-      // 잘못된 함수 번역 수정
-      WRONG_TRANSLATED_FUNCTION_REGEX.exec(translated)
+      const translated = response.text().trim()
+        .replaceAll(/\n/g, '\\n')
+        .replaceAll(/"/g, '\\"')
+        .replaceAll(/#약(하게|화된|[화한])/g, '#weak')
+        .replaceAll(/#강조/g, '#bold')
 
       resolve(translated)
     },
