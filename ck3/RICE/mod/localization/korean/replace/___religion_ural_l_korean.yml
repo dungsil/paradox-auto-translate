@@ -86,7 +86,7 @@
   kvenland_event.0001.a: "영원하고 강력한 왕국!" # d1527072c9644758b59a05a6d4d7db63b8246aed
   kvenland_event.0001.desc: "드디어 견디는 힘을 가진 케브니아 왕국을 세우는 꿈이 이루어졌습니다. $k_kvenland$ 왕국이 건설되었으니, 이제 우리의 영향력을 마음껏 펼칠 수 있게 되었습니다. 우리 케브니아인들은 앞으로 밝은 미래를 맞이할 것입니다." # 5b321635c235f57d6b7d4d9462db20349f98409c
   kvenland_event.0002.desc: "저하, [founder.Custom('GetQueenKing')] [founder.GetFirstName]께서는 웅장한 크베니 왕국 건설이라는 꿈을 이루셨습니다. 이것이 크벤족에게 밝은 미래의 시작일까요?" # 0e6f3246cce6681fe4493ee9dbdef978f720e936
-  kvenland_event.0002.a: "#bold [창시자.직책명없이이름]께#를 환영합니다!" # 2ddcb04cdd4dfab1d6e24a92205e11d56ab027ee
+  kvenland_event.0002.a: "#bold [창시자.직책명없이이름]께#를 환영합니다!" # n
   kvenland_event.0002.b: "저주받은 자는 거짓된 [founder.Custom('GetQueenKing')]이로다." # fd43645a1b53128f820c2e857edc31bde3fc0e65
   kvenland_event.0003.t: "크벤란드 왕국" # a4962e8125f5412675d6f034a6349ed20304d135
   kvenland_event.0003.desc: "[founder.GetName]께서 퀘네 왕국을 건설하는 꿈을 이루셨습니다. 이는 북방의 미래에 어떤 의미를 지닐까요?" # eeae16940e2306e6212c9c44c7a11cdf84d6d2f6
@@ -527,26 +527,26 @@
   mari_pagan_evil_god_muza: "무자" # 80c5c6c9bce9090d6b9eaf4db8642e18eaad3d94
   councillor_court_chaplain_mari_religion: "카르트" # 95341f9d32ecbf86f1a204fc1f00e4e1e2827d75
   holy_site_enare_name: "아이지후알루이" # 3cc7cfe7b6056c15188e4ebc1de8b751092b7f26
-  holy_site_enare_effect_name: "[holy_site|E] #약화($holy_site_enare_name$)#!" # b2a5a4a7e37525647919ed1c1d8c7790a44bb468
+  holy_site_enare_effect_name: "[holy_site|E] #weak($holy_site_enare_name$)#!" # b2a5a4a7e37525647919ed1c1d8c7790a44bb468
   holy_site_enarefi_name: "우콘키비" # 9dc34add740b299c1c7669a43d78166d53f309c4
-  holy_site_enarefi_effect_name: "[holy_site|E] #약화된 ($holy_site_enarefi_name$)#!" # 0f946f7d82cf67485455c9bc4e417ec61fba02f9
+  holy_site_enarefi_effect_name: "[holy_site|E] #weak ($holy_site_enarefi_name$)#!" # 0f946f7d82cf67485455c9bc4e417ec61fba02f9
   holy_site_sjeltie_name: "셸티" # 227f9511a2b5b7f2887c85daede41547cc92b70a
   holy_site_sjeltie_effect_name: "#weak [holy_site|E] ($holy_site_sjeltie_name$)#!" # be4f1ca220a697b518c8a7f62dfa6e7951557e4b
   holy_site_choklema_name: "초클레마" # eb2f7ae6253caaf44a47cbe2fadc0d85e12380b1
-  holy_site_choklema_effect_name: "[holy_site|E] #약한 ($holy_site_choklema_name$)#!" # fba27770bb6cc74b950a29673044079a34bd5f92
+  holy_site_choklema_effect_name: "[holy_site|E] #weak ($holy_site_choklema_name$)#!" # fba27770bb6cc74b950a29673044079a34bd5f92
   holy_site_uiska_name: "위스카" # ab03b4adc7f704905581966a1ca5dd8fdfcba650
   holy_site_uiska_effect_name: " [holy_site|E] #weak ($holy_site_uiska_name$)#!" # 16eb1c10507ecc8982e0fd245e35ffc24d854c6a
   holy_site_yoshkar-ola_name: "요슈카르올라" # fcd43a07b7968707f44e2098e2f3cf195c0019b8
   holy_site_yoshkar-ola_effect_name: "#weak [holy_site|E] ($holy_site_yoshkar-ola_name$)#!" # 980527a21cc4365c0d873c735f6a98038547abef
   holy_site_tambov_name: "탐보프" # b2173645195979f918c2119a76071d1686b049e0
-  holy_site_tambov_effect_name: "[holy_site|E] #약한 ($holy_site_tambov_name$)#!" # 3b887bbc43baaae6bf245d0941f61f37b40d82ca
+  holy_site_tambov_effect_name: "[holy_site|E] #weak ($holy_site_tambov_name$)#!" # 3b887bbc43baaae6bf245d0941f61f37b40d82ca
   holy_site_koda_name: "코다" # 576c0f41b9f6d3339e3dd00fe725d6415e2e7590
   holy_site_koda_effect_name: "[holy_site|E] #weak ($holy_site_koda_name$)!" # 6101d027c77fd9b1ff42920d59ea657489873b8f
   holy_site_tara_name: "타라" # b768a340bbc0aa9158286bc56953e85be3681bdb
-  holy_site_tara_effect_name: "#약하게$[holy_site|E] ($holy_site_tara_name$)#!" # 2321055551ce8b8483538f7c0f11eb7bd3d090c6
+  holy_site_tara_effect_name: "#weak$[holy_site|E] ($holy_site_tara_name$)#!" # 2321055551ce8b8483538f7c0f11eb7bd3d090c6
   glazov: "글라조프" # fff0e26028f3f7d1b859405a82f0117599bc00cb
   holy_site_glazov_name: "글라조프" # fff0e26028f3f7d1b859405a82f0117599bc00cb
-  holy_site_glazov_effect_name: "[holy_site|E] #약한 ($holy_site_glazov_name$)#!" # d074bf8ecf19eaea98aebf6c05615992fcc7dfad
+  holy_site_glazov_effect_name: "[holy_site|E] #weak ($holy_site_glazov_name$)#!" # d074bf8ecf19eaea98aebf6c05615992fcc7dfad
   samoyedic_group: "사모예드족" # cdf6524cd41bd242953b40dc1f4f920edbbbac8b
   nenets: "네네츠" # 5a15ab77f7a91fea8961f9a5d108fbf8d00f06bf
   samoyedic_religion: "사모예드족" # cdf6524cd41bd242953b40dc1f4f920edbbbac8b
@@ -817,15 +817,15 @@
   osilian_wealth_god_name_possessive: "$osilian_high_god_name_possessive$" # 2dd9ae071b2ea33536e7cf50805458801175945b
   osilian_witch_god_name: "$osilian_devil_name$" # cf8efb00d37ebada31e4989e269e52dfb15811e8
   holy_site_harja_name: "헤르야" # a28015b6280befe8839e45a3f65d643ec30482c9
-  holy_site_harja_effect_name: "[holy_site|E] #약한 ($holy_site_harja_name$)#!" # 0e411bd15d611d8e8ab471480c45b944620df76d
+  holy_site_harja_effect_name: "[holy_site|E] #weak ($holy_site_harja_name$)#!" # 0e411bd15d611d8e8ab471480c45b944620df76d
   holy_site_kuremae_name: "쿠레메" # 6c0f2a00336fc360f30082189258763e3236cdac
   holy_site_kuremae_effect_name: "[holy_site|E] #약해진 ($holy_site_kuremae_name$)#!" # 966872c049f3288fb8a8dec932cd77a526c9641f
   holy_site_puhajarv_name: "푸하자르브" # 5f71d3fa6e8275ed1bd72613aba5f503b13d6ea8
   holy_site_puhajarv_effect_name: "#weak [holy_site|E] ($holy_site_puhajarv_name$)#!" # 1df6c0ff77589c0fd93da5e890de20e5b3ea499a
   holy_site_ebavere_name: "에바베렘기" # 8a2c834ba2d2f21f697826d5d25da1b8dbb85b31
-  holy_site_ebavere_effect_name: "[holy_site|E] #약한 ($holy_site_ebavere_name$)#!" # 1a9087f23be7d3d1e509ff96f3852635acf6a804
+  holy_site_ebavere_effect_name: "[holy_site|E] #weak ($holy_site_ebavere_name$)#!" # 1a9087f23be7d3d1e509ff96f3852635acf6a804
   holy_site_kaali_name: "카알리" # 2a5f28cc24f6662c6b2c4328f779dc5ac8d6b28c
-  holy_site_kaali_effect_name: "#약하게 ($holy_site_kaali_name$)#로부터!" # 4285c0bdd8f794ca2ea9c03f4b0a5a33383b2fdc
+  holy_site_kaali_effect_name: "#weak ($holy_site_kaali_name$)#로부터!" # 4285c0bdd8f794ca2ea9c03f4b0a5a33383b2fdc
   holy_site_taaralinn_name: "타라알린" # 1ca4967f7e82c7a3bb6160953f4b3a42dd8d746d
   holy_site_taaralinn_effect_name: "#weak [holy_site|E] ($holy_site_taaralinn_name$)#!" # ecdf1be0f7fefacf1cf129a16678f55d12f48b51
   holy_site_turaida_name: "투라이다" # 4af86ed96638d54367f8ea43dcd9661e4bac4b34
@@ -894,11 +894,11 @@
   bjarmian_pagan_water_god_name_possessive: "요말리의" # 0f1e19602589d6ff615a7222387a9dd3b822fc0c
   bjarmian_pagan_desc: "요말리는 뱌르미아 이교도들의 최고 신입니다." # 8952cdf2f28fc8d3d2a2fb852c25598c62dc8250
   holy_site_bjarmiasite_name: "홀모고리" # 60e79263e228b42c346b1c82174791103dabb3e8
-  holy_site_bjarmiasite_effect_name: "[holy_site|E] #약한 ($holy_site_bjarmiasite_name$)#!" # 0ac4593408d15a5593df833d4ad2c8cb1b8a8a01
+  holy_site_bjarmiasite_effect_name: "[holy_site|E] #weak ($holy_site_bjarmiasite_name$)#!" # 0ac4593408d15a5593df833d4ad2c8cb1b8a8a01
   holy_site_pudozh_name: "푸도즈" # 4999d75b4e11af5ec6cb51a84a1fde43f2c4d43e
   holy_site_pudozh_effect_name: "[holy_site|E] #weak ($holy_site_pudozh_name$)#!" # 566d67fa2e394164290cfa44569f2d5b3bccd3ff
   holy_site_volga_name: "볼가" # bcc9f6a63287749d5e8dc71ecfff39c4e3023143
-  holy_site_volga_effect_name: "[holy_site|E] #약한 ($holy_site_volga_name$)#!" # ed503d97faab8f8150cb86aa94dced2deb143418
+  holy_site_volga_effect_name: "[holy_site|E] #weak ($holy_site_volga_name$)#!" # ed503d97faab8f8150cb86aa94dced2deb143418
   holy_site_kainuu_name: "카이누우" # ede25e8801179accb0cad6618c37e0e5201dccb2
   holy_site_kainuu_effect_name: "[holy_site|E] #weak ($holy_site_kainuu_name$)#!" # 4c571e7e44fe45909c86ac50869579584a72c4b9
   holy_order_children_of_fertilitygod: "[FAITH.FertilityGodName]의 자녀들" # b14e32c7e07fc00eacdf6ed157640cde912ad99c
@@ -914,7 +914,7 @@
   holy_order_raiders_of_wealthgod: "[FAITH.WealthGodName]의 약탈자들" # 9b6bb8ef9d1520da3168b84d32a4fdcc8cb1086c
   holy_order_servants_of_deathdeity: "[FAITH.DeathDeityName]의 신자 여러분" # 5548df2e90c5c5b01eda6e536f22c7935b527d33
   holy_order_warriors_of_wargod: "[FAITH.WarGodName]의 용사들" # 461311aeb2a18a9c1073f254e4541543e1914f2b
-  estonian_holy_order_children_of_fertilitygod: "[신앙.다산신의신성] 소실됨" # c516b04b39abde76917606123719e7fd59cce05b
+  estonian_holy_order_children_of_fertilitygod: "[신앙.다산신의신성] 소실됨" # n
   estonian_holy_order_chosen_of_highgod: "[FAITH.HighGodName] 신이 선택하셨습니다" # 2600d73d8b3a5538213af13fc5c0c8a5f627e732
   estonian_holy_order_defenders_of_knowledgegod: "카이츠자드" # 0ecb81f8345e512688f52adb508622f120c3d6c0
   estonian_holy_order_deviants_of_trickstergod: "[FAITH.TricksterGodName] 헬비쿠드" # 6962073600cbf27ae5f3c28d57d4951cbd580287

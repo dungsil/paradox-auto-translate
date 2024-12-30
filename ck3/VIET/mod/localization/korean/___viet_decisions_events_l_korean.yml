@@ -98,7 +98,7 @@
   VIETmisc.2023.t: "납치!" # ba68881f068f7fc0b28dfd10c1f3cedaab83d2c6
   VIETmisc.2023.desc: "충성스러운 신하 몇몇이 제 대신 인근 마을로 공식적인 업무를 위해 여행 중이었는데, 거대한 강도 무리에 의해 공격을 받아 인질로 잡혔습니다! 강도들은 신하들을 풀어주려면 #V 100 £gold£#의 금액을 요구합니다. 신하들을 구하기 위해서는 이 금전을 1년 안에 지불해야 합니다, 아니면 그들은 신하들을 죽일 것입니다.\n\n신하들은 단순한 농민들일 뿐이므로, 궁정의 일부 귀족들 눈에는 신하들을 그냥 운명에 맡기는 것이 큰 문제가 되지 않을 것입니다. 게다가, 강도들이 돈을 받고서도 인질들을 풀어줄 것이라는 보장도 없습니다. 그러나 그들은 충성스러운 신하들이기 때문에, 그들을 구출하기 위한 대담한 계획이 필요합니다. 아니면, 돈을 주고서 일이 잘 해결되기를 바라는 것이 더 나을지도 모릅니다." # a46c47be0f316bb82a53453da55d1dc2c961a830
   VIETmisc.2023.a: "신중하게 고려해야겠습니다." # 6661dbdee16852aa75ea654c45dd84a812fcfc87
-  VIETmisc.2023.tooltip: "[결정|E]를 통해 신하들을 #V 몸값#으로 사거나, #V 인질#을 강제로 구출할 수 있습니다. 어떠한 조치를 취할 의무는 없지만, 행동하지 않을 경우 당신의 평판에 좋지 않은 영향을 미칠 수 있습니다. 반대로, 강도들이 계약을 준수할 보장은 없습니다. 어느 쪽이든 [GetModifier('VIET_servant_hostage_countdown').GetNameWithTooltip] [캐릭터_수정자|E]가 사라지고 신하들이 살해당할 때까지 1년의 시간이 주어집니다." # 16e6a605a41310726bea36e026437b734fd5da23
+  VIETmisc.2023.tooltip: "[decision|E]를 통해 신하들을 #V 몸값#으로 사거나, #V 인질#을 강제로 구출할 수 있습니다. 어떠한 조치를 취할 의무는 없지만, 행동하지 않을 경우 당신의 평판에 좋지 않은 영향을 미칠 수 있습니다. 반대로, 강도들이 계약을 준수할 보장은 없습니다. 어느 쪽이든 [GetModifier('VIET_servant_hostage_countdown').GetNameWithTooltip] [캐릭터_수정자|E]가 사라지고 신하들이 살해당할 때까지 1년의 시간이 주어집니다." # 16e6a605a41310726bea36e026437b734fd5da23
   VIETmisc.2024.t: "무엇을 해야 할까요?" # 3407c3645bb52ed42e38f0d029fab2c25ad51cf3
   VIETmisc.2024.desc: "내 신하들이 여전히 인질로 잡혀 있지만, 오래가지 않을 거야! 신하들을 구하기 위한 행동이 필요해. 몇몇 고문관들과 수비대원들과 이 문제에 대해 논의했고, 무작위적인 몸값 지불과 대담한 구출 시도에 대한 논거들을 제시했지. 결국, 나는 단호하게..." # 2b19b087bc79a4acb9ff97111977c648a5ed0eb4
   VIETmisc.2024.a: "해적들에게 몸값을 지불하십시오." # cd4d9f80fac514f2b10db1645d4b1491fcd128f8
@@ -297,7 +297,7 @@
   VIETmisc.2074.desc: "[courtier.GetTitledFirstName]는 저와 함께 저택 주변을 거닐며 생각에 잠긴 듯한 표정을 지었습니다.\n\n“[courtier.GetSheHe]는 이제야 눈치챘지만, 비둘기집이 많지 않은 것 같군요.” [courtier.GetSheHe]가 말했습니다.\n\n“충분해.” 웃으며 대꾸했습니다.\n\n“존경하는 저의 [ROOT.Char.GetLadyLord]께서, 만약 강력한 [ROOT.Char.GetTitleAsNameNoTooltip]임을 보여주고자 한다면, 더 많은 비둘기집을 지으시는 것이 좋을 겁니다.” [courtier.GetSheHe]가 설명했습니다. “결국, 많은 비둘기집을 가진 자는 많은 비둘기를 갖게 되고, 많은 비둘기를 가진 자는 큰 힘을 얻게 되는 것이니까요.”" # a3aca9800be5d90859e7f559ce7c9f1306ee34e7
   VIETmisc.2074.a: "확실치 않아요. 허영심에 불과할 것 같네요. 아마도. 지켜봐야겠어요." # 306706b4a23aa7fc4114af2bcf370d61efacc81d
   VIETmisc.2074.b: "좋은 제안이군요, [courtier.GetFirstNameNoTooltip]님! 정말 훌륭한 생각입니다." # 8c1582201e73540a6d6f4ead386f5315a85f1121
-  VIETmisc.2074.info: "#강조 역사적 배경:#! 현대에 비둘기 (#italic 콜롬바 리비아 도메스티카#!)가 가장 잘 알려진 것은 사신이나 서신 전달을 위한 훈련된 능력이지만, 근세 이전에는 고기와 농경지 비료로 쓰이는 똥으로 인해 더 높이 평가되었습니다. 비둘기집, 비둘기와 집비둘기를 보관하기 위해 지어진 탑과 같은 구조물들은 종종 귀족 계층이 건설했기 때문에 신분과 특권의 표시로 여겨졌습니다." # cc73bb0201de9ebcbfef46ca9a56833f6341d4b7
+  VIETmisc.2074.info: "#bold 역사적 배경:#! 현대에 비둘기 (#italic 콜롬바 리비아 도메스티카#!)가 가장 잘 알려진 것은 사신이나 서신 전달을 위한 훈련된 능력이지만, 근세 이전에는 고기와 농경지 비료로 쓰이는 똥으로 인해 더 높이 평가되었습니다. 비둘기집, 비둘기와 집비둘기를 보관하기 위해 지어진 탑과 같은 구조물들은 종종 귀족 계층이 건설했기 때문에 신분과 특권의 표시로 여겨졌습니다." # cc73bb0201de9ebcbfef46ca9a56833f6341d4b7
   VIETmisc.2074.tooltip: "[GetModifier('VIET_dovecote_interest').GetNameWithTooltip] [character_modifier|E]를 보유하는 한, 저택에 더 많은 비둘기집을 추가하는 [decision|E]를 이용할 수 있습니다. #V 저택에 더 많은 비둘기집을 추가#! 하지만 시간이 지남에 따라 이에 대한 관심이 줄어들 수 있습니다. 수정자 효과가 만료되면 [decision|E]는 더 이상 이용할 수 없습니다. 또한, 이 [decision|E]는 단 한 번만 선택할 수 있습니다." # 418ada281eafcec8a1db2cd23d9c2c8a6db81446
   VIETmisc.2075.t: "새로운 비둘기집" # 92263f5ea6593c34fe45a486a7d67f8a6da9f1e3
   VIETmisc.2075.desc: "결국 집 근처에 더 많은 비둘기집을 짓는 게 좋다는 생각에, 늘어날 비둘기와 까마귀를 돌볼 추가 인력을 고용하기로 했습니다. 잠시 고민 끝에…" # 6120bbc725698e55ca3b44712a4de61d1bba2e3e
@@ -308,23 +308,23 @@
   VIETmisc.2076.desc: "때때로 시골길을 걷다 보면, 들새들이 눈에 띕니다. 작은 새들은 날갯짓하며 이리저리 움직이고, 나무 가지나 바위 위에 앉아 아름다운 노래를 부릅니다.  그들을 만나는 것은 묘하게도 즐거운 시간입니다.  그리고 그들의 노래를 들으며 마음의 평화를 느낄 수 있습니다." # e37d703713342f94c9b92375eaecb4303ac8aef6
   VIETmisc.2076.a: "이렇게 자주 하는 게 좀 더 편안할지도 몰라." # 45e17c89bcad93916ffc9ff0f71b9553322b6ccf
   VIETmisc.2076.b: "그저 덧없는 호기심일 뿐입니다." # 48abe5a6db1932ba3b936dc63b2a891e560c02f8
-  VIETmisc.2076.tooltip: "[결정|E] #V 야생 조류의 노래를 들으세요#! 를 선택하실 수 있습니다." # 09230244a897ead1433f5259e8fd308e543af626
+  VIETmisc.2076.tooltip: "[decision|E] #V 야생 조류의 노래를 들으세요#! 를 선택하실 수 있습니다." # 09230244a897ead1433f5259e8fd308e543af626
   VIETmisc.2077.t: "새들의 노래" # 44fc19c382d9f1ea3f591f97307a110a4e61a104
   VIETmisc.2077.desc: "오늘, 몇몇 수비대와 함께 시골의 조용하고 탁 트인 숲 속의 새들이 모이는 곳으로 향했습니다.  그곳에 앉아 쉬며, 주변에 앉아 있는 여러 마리의 새들을 보았습니다.  새들이 지저귀고 노래하는 소리를 듣자 미소가 저절로 피어났습니다." # 1a6c205581eb84f22a9673d303f05702117fd9da
   VIETmisc.2077.a: "정말 아름답지 않나요?" # 141aa79441b30af4df67ec26776007cfa2bf9a50
   VIETmisc.2077.tooltip.nothing: "이 새들의 지저귐에서 특별한 영감은 얻지 못하지만, 그래도 편안한 시간을 보냅니다." # 5ca1ed204ecd9e06e389e93dabe7000fe0373dc0
-  VIETmisc.2077.info.bird_01: "#강조 생물학적 맥락:#! 방금 들려온 새의 노랫소리는 #bold 유라시아 황금새매 (#italic Oriolus oriolus#!)입니다." # c8c71cfbd2d83a69b85193346ecb41f9e3d2dafa
-  VIETmisc.2077.info.bird_02: "#강조 생물학적 맥락:#! 방금 들려온 새의 지저귐은 #bold 유라시아 참새 (#italic Sylvia atricapilla#!)입니다." # d5a46362fd6d0e3fb8af725de081f40d529225e3
-  VIETmisc.2077.info.bird_03: "#강조 생물학적 배경:#! 방금 들려온 새의 노랫소리는 #볼드 유럽 녹색멧새#! (#italic Carduelis chloris#!)였습니다." # 6ae6b3e14f11048e78bf8394a0106fc0b0187456
-  VIETmisc.2077.info.bird_04: "#강조 생물학적 맥락:#! 방금 들려온 새의 노래는 #bold 꾀꼬리#! (#italic Turdus philomelos#!)이었습니다." # e0ff4d104699d3805b9b7e25b6d5f66d16a0c9f5
-  VIETmisc.2077.info.bird_05: "#강조 생물학적 맥락:#! 방금 들려온 새의 노래는 #bold 꾀꼬리#! (#italic Turdus philomelos#!)이었습니다." # e0ff4d104699d3805b9b7e25b6d5f66d16a0c9f5
-  VIETmisc.2077.info.bird_06: "#강조 생물학적 맥락:#! 방금 들려온 새의 노래는 #bold 유럽 멧새#! (#italic Erithacus rubecula#!)입니다." # 6b07936f87fda6a7121dd6766ee9bffa9ab399ed
-  VIETmisc.2077.info.bird_07: "#강조 생물학적 배경:#! 방금 들려온 새의 지저귐은 #볼드 유라시아 호랑지빠귀#! (#italic Carduelis spinus#!) 였습니다." # 2418cf455711a90de892b283b2469acca9b9a004
-  VIETmisc.2077.info.bird_08: "#강조 생물학적 배경:#! 방금 들려온 새의 지저귐은 #볼드 커먼 차핀치#! (#이탤릭 Fringilla coelebs#!)이었습니다." # 3b411c584e08a46dc371821af4cf3bf4c4963fed
-  VIETmisc.2077.info.bird_09: "#강조 생물학적 맥락:#! 갓 들려온 새의 지저귐은 #bold 유럽딱따구리#! (#italic Ficedula hypoleuca#!) 였습니다." # fd214cdd866c697e13500638166ac6f6026ac172
-  VIETmisc.2077.info.bird_10: "#강조 생물학적 배경:#! 방금 들려온 새의 지저귐은 #bold 유라시아 나무 멧새#! (#italic Passer montanus#!)입니다." # 8c9b6b50a7eabd27953b1809d8fbff18aec2b0a5
-  VIETmisc.2077.info.bird_11: "#강조 생물학적 맥락:#! 방금 들린 새는 #강조 꾀꼬리#! (#italic 히포라이스 폴리글로타#!)입니다." # eb4901fe6be921def2e52eecbfaa8cc707892352
-  VIETmisc.2077.info.bird_12: "#강조 생물학적 맥락:#! 방금 들린 새의 노래는 #bold 흑비둘기#! (#italic Dicrurus macrocercus#!)입니다." # 5ce44b5bfd3b59f440cbfd227b5f35d72ea13748
+  VIETmisc.2077.info.bird_01: "#bold 생물학적 맥락:#! 방금 들려온 새의 노랫소리는 #bold 유라시아 황금새매 (#italic Oriolus oriolus#!)입니다." # c8c71cfbd2d83a69b85193346ecb41f9e3d2dafa
+  VIETmisc.2077.info.bird_02: "#bold 생물학적 맥락:#! 방금 들려온 새의 지저귐은 #bold 유라시아 참새 (#italic Sylvia atricapilla#!)입니다." # d5a46362fd6d0e3fb8af725de081f40d529225e3
+  VIETmisc.2077.info.bird_03: "#bold 생물학적 배경:#! 방금 들려온 새의 노랫소리는 #볼드 유럽 녹색멧새#! (#italic Carduelis chloris#!)였습니다." # 6ae6b3e14f11048e78bf8394a0106fc0b0187456
+  VIETmisc.2077.info.bird_04: "#bold 생물학적 맥락:#! 방금 들려온 새의 노래는 #bold 꾀꼬리#! (#italic Turdus philomelos#!)이었습니다." # e0ff4d104699d3805b9b7e25b6d5f66d16a0c9f5
+  VIETmisc.2077.info.bird_05: "#bold 생물학적 맥락:#! 방금 들려온 새의 노래는 #bold 꾀꼬리#! (#italic Turdus philomelos#!)이었습니다." # e0ff4d104699d3805b9b7e25b6d5f66d16a0c9f5
+  VIETmisc.2077.info.bird_06: "#bold 생물학적 맥락:#! 방금 들려온 새의 노래는 #bold 유럽 멧새#! (#italic Erithacus rubecula#!)입니다." # 6b07936f87fda6a7121dd6766ee9bffa9ab399ed
+  VIETmisc.2077.info.bird_07: "#bold 생물학적 배경:#! 방금 들려온 새의 지저귐은 #볼드 유라시아 호랑지빠귀#! (#italic Carduelis spinus#!) 였습니다." # 2418cf455711a90de892b283b2469acca9b9a004
+  VIETmisc.2077.info.bird_08: "#bold 생물학적 배경:#! 방금 들려온 새의 지저귐은 #볼드 커먼 차핀치#! (#이탤릭 Fringilla coelebs#!)이었습니다." # 3b411c584e08a46dc371821af4cf3bf4c4963fed
+  VIETmisc.2077.info.bird_09: "#bold 생물학적 맥락:#! 갓 들려온 새의 지저귐은 #bold 유럽딱따구리#! (#italic Ficedula hypoleuca#!) 였습니다." # fd214cdd866c697e13500638166ac6f6026ac172
+  VIETmisc.2077.info.bird_10: "#bold 생물학적 배경:#! 방금 들려온 새의 지저귐은 #bold 유라시아 나무 멧새#! (#italic Passer montanus#!)입니다." # 8c9b6b50a7eabd27953b1809d8fbff18aec2b0a5
+  VIETmisc.2077.info.bird_11: "#bold 생물학적 맥락:#! 방금 들린 새는 #bold 꾀꼬리#! (#italic 히포라이스 폴리글로타#!)입니다." # eb4901fe6be921def2e52eecbfaa8cc707892352
+  VIETmisc.2077.info.bird_12: "#bold 생물학적 맥락:#! 방금 들린 새의 노래는 #bold 흑비둘기#! (#italic Dicrurus macrocercus#!)입니다." # 5ce44b5bfd3b59f440cbfd227b5f35d72ea13748
   VIETmisc.2078.t: "꽃밭" # 9d8592825ba2f5872856b62069a141c78144dce8
   VIETmisc.2078.desc: "오늘, 저는 [county.GetName]의 봄 들판을 찾아 그 아름다운 꽃들을 보기 위해 시간을 할애했습니다. 실망하지 않았습니다.\n\n지평선 끝에서부터 끝까지 수백, 수천에 달하는 작고 사랑스러운 야생화들이 각기 고유한 색깔을 지니고 있습니다. 이처럼 다양한 꽃들이 한데 어우러져 바람이 조금만 불어도 마치 [ROOT.Char.GetFaith.HighGodName]이 직접 짠 듯한 움직이는 짜임새로운 천처럼 보입니다.\n\n언덕 위 땅에 앉아 제 앞에 펼쳐진 자연의 위엄과 아름다움에 감탄하며 멍하니 바라봅니다." # ffccec940520732a18d75935cf81c0f4be410067
   VIETmisc.2078.a: "정말 놀랍군요." # ec67284843d00488ec5a3dead652ec2c0dfa14bf

@@ -61,7 +61,7 @@
   game_concept_idols_of_zun: "존의 우상들" # 77aab4ffa2e93d81784dbe5399b1101ba40ddfe8
   game_concept_restore_the_idol_of_zun: "존의 우상을 회복하다" # e592a10a2dd41695744640cfe6f4b8cae142af06
   game_concept_idol_of_zun_desc: "#V 자민다와르#의 $game_concept_idol_of_zun$은 거대한 금으로 된 조각상으로, 루비 눈으로 장식되어 있었습니다. 이곳은 순의 종교가 그들의 최고 신에게 경의를 표하는 곳이었습니다. 순의 기원은 학계에서 불확실하며 논쟁의 여지가 많습니다. 여러 이론에 따르면 순은 힌두교, 조로아스터교, 훈족/에프탈족, 그리고 토착 인도이란계의 기원을 가지고 있거나, 그 조합일 가능성이 있습니다. 카불 근처 #V 아루나 산#에도 순을 숭배하는 또 다른 중요한 성지가 있었을 가능성이 있습니다.\n\n순교도 [ruler|E]는 자민다와르의 #V 순의 신상 복원#을 선택할 수 있습니다. 이는 자민다와르에 좋은 [county_modifier|E]를 부여하고, 이교도 [faith|E]를 개혁하는 것을 더 쉽게 만드는 [character_modifier|E]를 제공합니다. 이를 통해 카불의 아루나 산에 있는 신상을 복원하는 [decision|E]를 활성화할 수도 있습니다.\n\n신상이 복원되면, 당신과 주변의 순교도 [rulers|E]는 [GetActivityType( 'activity_RICE_pamir_offer_riches_to_zun' ).GetName] [activity|E]를 이용할 수 있습니다." # 7e8edf6bf6639d08b524858437959e7952a92ed0
-  RICE_pamir_aspiration_zunbil_desc: "#bold [역사적_야망_주요_목표|E]!#\n$EFFECT_LIST_BULLET$[완전히_지배|E] [GetTitleByKey('d_zabulistan').GetNameNoTier]\n$EFFECT_LIST_BULLET$[왕|E] 계급의 독립적인 [통치자|E]이거나 최소 #V 12#! 개의 [영지|E]를 소유\n$EFFECT_LIST_BULLET$주니즘 다신교를 유지\n\n#bold 보상!#\n$EFFECT_LIST_BULLET$@명성_아이콘! #V [EmptyScope.ScriptValue('RICE_야망_중간_자원_보너스')]#! [명성|E] 획득\n$EFFECT_LIST_BULLET$#V 500#! [GetMaA('RICE_파미르_부족').GetName] [특수_부대|E]를 받음\n$EFFECT_LIST_BULLET$[GetTitleByKey('d_zabulistan').GetNameNoTier]의 모든 [영지|E]는 @개발_아이콘! #V [EmptyScope.ScriptValue('RICE_붉은_바다_알_움마리_야망_개발_보너스')]#! [개발|E]을 얻음\n\n#bold [역사적_야망_보너스_목표|E]!#\n$EFFECT_LIST_BULLET$사파르드 형제 중 야쿠브, 암르, 알리 중 한 명을 직접 살해 (보상: @왕조_명성_아이콘! #V [EmptyScope.ScriptValue('RICE_야망_작은_자원_보너스')]#! [왕조_명성|E] 각각 획득)\n$EFFECT_LIST_BULLET$$RICE_파미르_숭배_숭배를_복원하기 위한 결정을$ 을 선택 (보상: @신앙_아이콘! #V [EmptyScope.ScriptValue('RICE_야망_중간_자원_보너스')]#! [신앙|E])!" # c79b60bcf02e0b9f9c6a62b6b17f94cdcdc1dd9d
+  RICE_pamir_aspiration_zunbil_desc: "#bold [역사적_야망_주요_목표|E]!#\n$EFFECT_LIST_BULLET$[완전히_지배|E] [GetTitleByKey('d_zabulistan').GetNameNoTier]\n$EFFECT_LIST_BULLET$[왕|E] 계급의 독립적인 [통치자|E]이거나 최소 #V 12#! 개의 [county|E]를 소유\n$EFFECT_LIST_BULLET$주니즘 다신교를 유지\n\n#bold 보상!#\n$EFFECT_LIST_BULLET$@명성_아이콘! #V [EmptyScope.ScriptValue('RICE_야망_중간_자원_보너스')]#! [명성|E] 획득\n$EFFECT_LIST_BULLET$#V 500#! [GetMaA('RICE_파미르_부족').GetName] [특수_부대|E]를 받음\n$EFFECT_LIST_BULLET$[GetTitleByKey('d_zabulistan').GetNameNoTier]의 모든 [county|E]는 @개발_아이콘! #V [EmptyScope.ScriptValue('RICE_붉은_바다_알_움마리_야망_개발_보너스')]#! [개발|E]을 얻음\n\n#bold [역사적_야망_보너스_목표|E]!#\n$EFFECT_LIST_BULLET$사파르드 형제 중 야쿠브, 암르, 알리 중 한 명을 직접 살해 (보상: @왕조_명성_아이콘! #V [EmptyScope.ScriptValue('RICE_야망_작은_자원_보너스')]#! [왕조_명성|E] 각각 획득)\n$EFFECT_LIST_BULLET$$RICE_파미르_숭배_숭배를_복원하기 위한 결정을$ 을 선택 (보상: @신앙_아이콘! #V [EmptyScope.ScriptValue('RICE_야망_중간_자원_보너스')]#! [faith|E])!" # c79b60bcf02e0b9f9c6a62b6b17f94cdcdc1dd9d
   RICE_pamir_historical_aspiration_action_zunbil: "#italic 당신은, 정의로운 주신 즈누의 참된 영웅이 되어야 합니다.  즈누빌족의 장래와, 당신 백성의 옛 생활 방식을, 불가능에 맞서 지켜내야만 합니다.#!$RICE_pamir_aspiration_zunbil_desc$" # e43eadc42c280e2e478628e02445419a48a6818e
   RICE_pamir_historical_aspiration_modifier_desc_zunbil: "[GetModifier('RICE_pamir_aspiration_assert_zunbil_independence').GetNameWithTooltip]" # 0c94e1a9e141944ef6b1bec8fceb483f12d65cc0
   RICE_pamir_offer_zun_riches_host_memory: "[GetActivityType('activity_RICE_pamir_offer_riches_to_zun').GetName]를 수행했습니다." # 3a59e67b179c882d0058f6f2c099c92ba7922c16
@@ -121,7 +121,7 @@
   activity_RICE_pamir_offer_riches_to_zun_desc: "존께 바치는 것은 우리의 정의로운 풍습이며, 그의 신상 앞에 이러한 예물을 바치는 것만큼 존을 기쁘게 할 방법은 없습니다." # d93ecded90ae92a26e814ac659f23666d19d0f1f
   activity_RICE_pamir_offer_riches_to_zun_selection_tooltip: "존의 주요 신상 중 하나에게 당신의 재산을 바치십시오.\n\n$RICE_pamir_offer_riches_to_zun_context_tooltip$" # 15c2e3f7fecadd372cef1bc10e1c9b794bfa3d54
   activity_RICE_pamir_offer_riches_to_zun_host_desc: "$BULLET_WITH_TAB$[경건도_i] [경건도|E]\n$BULLET_WITH_TAB$[명성_i] [명성|E]" # f7aea7e4ab7515062ed556ce1e6964873ddc3b31
-  activity_RICE_pamir_offer_riches_to_zun_guest_desc: "[신앙도_i] [신앙|E]와 [명성_i] [명성|E]를 얻으십시오." # 724f2287c1977cfe72510d46db8a182c512eb16e
+  activity_RICE_pamir_offer_riches_to_zun_guest_desc: "[신앙도_i] [faith|E]와 [명성_i] [명성|E]를 얻으십시오." # 724f2287c1977cfe72510d46db8a182c512eb16e
   activity_RICE_pamir_offer_riches_to_zun_province_desc: "존의 주요 신상이 이곳에 있습니다." # ef9fb7070332d18da99c1bde18bffe24568d7652
   activity_RICE_pamir_offer_riches_to_zun_destination_selection: "$activity_RICE_pamir_offer_riches_to_zun_province_desc$" # 010bd7eb2b6b40a986376bf0dc8efab49be3ff11
   activity_RICE_pamir_offer_riches_to_zun_guest_help_text: "$activity_RICE_pamir_offer_riches_to_zun$" # 948708a6c8cf937f1b3eb08e822365a8e4eb516e
@@ -129,11 +129,11 @@
   activity_RICE_pamir_offer_riches_to_zun_conclusion_desc: "[GetActivityType( 'activity_RICE_pamir_offer_riches_to_zun' ).GetName]이 마무리되었습니다. 정의로운 주인, 둔께서 영원한 불꽃으로 우리를 축복하시기를!" # 3142e9d8fed6fe3652d87a194335c382a7db12d3
   RICE_pamir_offer_riches_to_zun_offering_amount_type: "제공 금액" # 79b0b9638804586bf440ac4dccd5e815d7694b17
   RICE_pamir_offer_riches_to_zun_offering_amount_type_small: "작습니다" # c74fd9714e38b26dbf7f58d75f93cfc977a05ba6
-  RICE_pamir_offer_riches_to_zun_offering_amount_type_small_desc: "$EFFECT_LIST_BULLET$ [신앙도_i] [신앙|E] 및 [명성_i] [명성|E] 추가 획득 확률 감소\n\n#약화 숭배의식에 많은 것을 바치지 않더라도, 중요한 것은 숭배 자체입니다.#!" # 6b235a6446b8e93ae4155c41d9bb5912dab0498c
+  RICE_pamir_offer_riches_to_zun_offering_amount_type_small_desc: "$EFFECT_LIST_BULLET$ [신앙도_i] [faith|E] 및 [명성_i] [명성|E] 추가 획득 확률 감소\n\n#weak 숭배의식에 많은 것을 바치지 않더라도, 중요한 것은 숭배 자체입니다.#!" # 6b235a6446b8e93ae4155c41d9bb5912dab0498c
   RICE_pamir_offer_riches_to_zun_offering_amount_type_medium: "중간" # d404968ea90b07f16774ce75c7978d6ff60962f2
   RICE_pamir_offer_riches_to_zun_offering_amount_type_medium_desc: "$EFFECT_LIST_BULLET$ 숭배자들로부터 풍부한 [piety_i] [piety|E]와 [prestige_i] [prestige|E]를 얻을 가능성이 높아집니다.\n\n#weak 툰의 우상은 항상 숭배자들의 풍요로운 제물을 받았고, 저는 제 의무를 다할 것입니다!#!" # e0a83ed46f85e5da4fdd98673e06f8d3cac77759
   RICE_pamir_offer_riches_to_zun_offering_amount_type_large: "크다" # 738fd1d2452fc31a236c5ad511bfcc46b324365e
-  RICE_pamir_offer_riches_to_zun_offering_amount_type_large_desc: "$EFFECT_LIST_BULLET$ [신앙_i] [신앙|E] 및 [명성_i] [명성|E] 획득 확률 증가\n\n#약해  태양, 정의의 주관자이신 우리 주관, 룬께서는 우리가 가진 모든 것을 바쳐야 합니다.#!" # 3e0d29d8101fab11de6e08e238e5f29943f94e73
+  RICE_pamir_offer_riches_to_zun_offering_amount_type_large_desc: "$EFFECT_LIST_BULLET$ [신앙_i] [faith|E] 및 [명성_i] [명성|E] 획득 확률 증가\n\n#약해  태양, 정의의 주관자이신 우리 주관, 룬께서는 우리가 가진 모든 것을 바쳐야 합니다.#!" # 3e0d29d8101fab11de6e08e238e5f29943f94e73
   RICE_pamir_offer_riches_to_zun_phase: "제공" # f666aa9433172aa8730face8f493f87c46cf8f2c
   RICE_pamir_offer_riches_to_zun_phase_desc: "존께 영광을!" # 5e9334daeeb5758a9a6eaad12bea725a0031a8ee
   RICE_pamir_offer_riches_to_zun_glory_intent_header: "존을 찬양합니다." # 2b8ee7b8cc8307d00d0acfe301d4dcd9e6799117
@@ -143,7 +143,7 @@
   RICE_pamir_offer_riches_to_zun_completed_log: "[CHARACTER.GetShortUIName|U]가 숭배하는 존의 신상에 제물을 바쳤습니다." # 62bde8ea44a0115fe8cff4a3581d657e95850503
   RICE_pamir_offer_riches_to_zun_offering_extra_amount: "존에게 큰 제물을 바치다" # ad2f2aed8b31366eb4f2ac6cf089e667be74e2e5
   TRAVEL_NAME_FOR_activity_RICE_pamir_offer_riches_to_zun: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_pamir_offer_riches_to_zun$" # 75ec111b271d07cf55e46c3e1c84f6fbe7662e6d
-  activity_RICE_hot_springs_visit_bibi_fatima_province_desc: "#P +++ 비비 파티마 [온천|E]는 독특한 [온천|E]입니다.#!\n\n#italic 이는 [특성|E]를 얻을 가능성이 있으며, 이는 [생산성|E]와 [명성|E]를 높여줍니다. 또한, 이슬람 [신앙|E]를 따르는 경우, [신앙심|E]를 얻고 더 좋은 [보너스|E]를 얻을 가능성이 높아집니다.#!" # b9742179d8cf2fc7510957455a0fc63e07df6f04
+  activity_RICE_hot_springs_visit_bibi_fatima_province_desc: "#P +++ 비비 파티마 [온천|E]는 독특한 [온천|E]입니다.#!\n\n#italic 이는 [특성|E]를 얻을 가능성이 있으며, 이는 [생산성|E]와 [명성|E]를 높여줍니다. 또한, 이슬람 [faith|E]를 따르는 경우, [신앙심|E]를 얻고 더 좋은 [보너스|E]를 얻을 가능성이 높아집니다.#!" # b9742179d8cf2fc7510957455a0fc63e07df6f04
   activity_RICE_pamir_chawmos_festival_host_an_a: "$host_activity_a$" # a61241acadcc9f0c0c58e8a6756d1532a43a0ac3
   activity_RICE_pamir_chawmos_festival: "차우모스 축제" # a688be11760543720dc733d42de0c8bdef07fdff
   activity_RICE_pamir_chawmos_festival_desc: "겨울 지점이 다가오고 있습니다! 이는 우리 종교의 가장 중요한 축제로, 공동체 내 우리의 역할을 재확인하고 순수와 불순의 영역을 재정립하는 의식이 있습니다." # 3670fa82c5986526396e2348de00c981d98fc736
@@ -248,7 +248,7 @@
   RICE_goat_sacrifice_number_of_goats_type_small: "소수" # 100b45547163e78958046d8a6d59ab6cda5004bf
   RICE_goat_sacrifice_number_of_goats_type_small_desc: "더 많은 염소를 제물로 바치면 보상이 증가하고, #P 유익한#! [character_modifier|E]를 얻을 가능성도 높아집니다.\n\n#약하지만 우리가 제물로 바칠 염소는 우리가 가진 가장 훌륭한 염소들입니다.#!" # 592e26b8eadf151280e3d32a8e53f2f4a7be18a3
   RICE_goat_sacrifice_number_of_goats_type_medium: "중간" # d404968ea90b07f16774ce75c7978d6ff60962f2
-  RICE_goat_sacrifice_number_of_goats_type_medium_desc: "더 많은 염소를 제물로 바치면 보상이 증가하고, #P 유익한#! [character_modifier|E] 획득 가능성도 높아집니다.\n\n#약한 [GetPlayer.GetFaith.PantheonTerm]께서는 이 많은 염소들의 훌륭한 제물에 틀림없이 기뻐하실 것입니다.#!" # ffc9cc68f91dff0cb95f24b12c22bd1d3594122a
+  RICE_goat_sacrifice_number_of_goats_type_medium_desc: "더 많은 염소를 제물로 바치면 보상이 증가하고, #P 유익한#! [character_modifier|E] 획득 가능성도 높아집니다.\n\n#weak [GetPlayer.GetFaith.PantheonTerm]께서는 이 많은 염소들의 훌륭한 제물에 틀림없이 기뻐하실 것입니다.#!" # ffc9cc68f91dff0cb95f24b12c22bd1d3594122a
   RICE_goat_sacrifice_number_of_goats_type_large: "크다" # 738fd1d2452fc31a236c5ad511bfcc46b324365e
   RICE_goat_sacrifice_number_of_goats_type_large_desc: "염소를 더 많이 제물로 바치면 보상이 증가하고, #P 유익한#! [character_modifier|E]를 얻을 가능성도 높아집니다.\n\n#약 [GetPlayer.GetFaith.PantheonTerm]을 위한 우리의 염소 제물은 정말 장관이 될 것입니다!#!" # ac81ad43d28e183d4a9c2928675ccf7a9df49e41
   RICE_pamir_goat_sacrifice_phase: "의식" # 40fff55a67dd644d10bb660a210a8fb80e517e73
@@ -452,7 +452,7 @@
   RICE_pamir_visit_bibi_fatima_effect_2_tooltip: "[ROOT.Char.GetFaith.GetAdjective] 신자이시라면, [piety|E]를 얻을 수도 있습니다." # 9b442ec2b3ebcb5076e32710a634e2e3e26463e1
   RICE_pamir_visit_bibi_fatima_desc: "멀리서 찾아오는 이들도 많지만, 저는 가까이 살기에 이 기회를 이용해 휴식을 취해야겠습니다." # a5146c8bd8109a0c283141667a1c8276b8b9d0c8
   RICE_pamir_visit_bibi_fatima_confirm: "준비됐습니다!" # 87add30b92fc70b3debe3c01f4c8fcfd9d5045f2
-  RICE_pamir_visit_bibi_fatima_context_tooltip: "#강조 역사적 배경:#! 현재 타지키스탄 와한 계곡에 위치한 비비 파티마 온천은 예언자 무함마드의 딸의 이름을 따서 지어졌습니다. 이 온천은 여성의 다산에 도움이 된다고 알려져 있습니다." # f4fb6e39c7e801762577cfe5a2c90d714388ba16
+  RICE_pamir_visit_bibi_fatima_context_tooltip: "#bold 역사적 배경:#! 현재 타지키스탄 와한 계곡에 위치한 비비 파티마 온천은 예언자 무함마드의 딸의 이름을 따서 지어졌습니다. 이 온천은 여성의 다산에 도움이 된다고 알려져 있습니다." # f4fb6e39c7e801762577cfe5a2c90d714388ba16
   RICE_pamir_attend_chinir_festival: "치니르 축제에 참석하십시오." # 3dfdf80de995ff1d26719bc965feb6f2b3203f7b
   RICE_pamir_attend_chinir_festival_tooltip: "치니르 축제에 참석하시기 바랍니다." # 4ff3703dd5ed490e9a5493c87a46557ed756506b
   RICE_pamir_attend_chinir_festival_effect_tooltip: "치니르 축제에 참석하십니다." # ef31701cb5c58b703ef3a9dea0ad46ee58116df6
@@ -461,7 +461,7 @@
   RICE_pamir_attend_chinir_festival_context_tooltip: "#emphasis 역사적 배경:#! 와한 족의 전통 축제인 치니르는 수확 시작을 기념하는 행사입니다. 주로 와한 회랑에 거주하는 농경 및 목축민인 와한 족은 파미르 지역에서 동부 이란어를 사용하는 여러 집단 중 하나입니다." # 9edc60593ce8237ecaa069f2cd1a57f5cf146ab1
   RICE_pamir_nasir_khusraw_pilgrimage: "나시르 흐스로의 신전에 순례를 떠납니다." # 552f0698565a92dda1793511fb660dc212dc129c
   RICE_pamir_nasir_khusraw_pilgrimage_tooltip: "바다흐샨에서 나시르 흐스로의 신전에 [순례를 떠나십시오|E]" # 13e1e938fed265ad8eb48b655710205046772575
-  RICE_pamir_nasir_khusraw_pilgrimage_effect_tooltip: "나시르 흐스로의 신전 순례를 [떠나실|떠나시게 됩니다].  순례를 통해 [신앙|E]과 [명예|E]를 얻을 수 있을 것입니다." # 934681509725f7bca6a5b84b6147fd44d47c36bc
+  RICE_pamir_nasir_khusraw_pilgrimage_effect_tooltip: "나시르 흐스로의 신전 순례를 [떠나실|떠나시게 됩니다].  순례를 통해 [faith|E]과 [명예|E]를 얻을 수 있을 것입니다." # 934681509725f7bca6a5b84b6147fd44d47c36bc
   RICE_pamir_nasir_khusraw_pilgrimage_desc: "[나시르 흐스로|E]께서는 참으로 숭고한 성인이셨기에, 제가 그분께 경의를 표하는 것은 당연한 일입니다." # 74865844189a8ade370428fee9673af9cf82f781
   RICE_pamir_nasir_khusraw_pilgrimage_confirm: "여정을 준비하십시오." # 522fe2b8cada56d62c902670534025a216fe78e6
   RICE_pamir_nasir_khusraw_pilgrimage_context_tooltip: "#emphasis 역사적 배경:#! 아프가니스탄 바다흐샨 지방에 있는 나시르 후세인의 무덤, 즉 성역은 수 세기 동안 지역 순례지로 인기가 많았습니다. 그는 이스마일파 전도사였지만, 지역의 시아파와 쑤니파 무슬림 모두 그를 존경했습니다." # e8a5269c5a40c103c92c97be7f2470f6c7b8ede8
@@ -470,7 +470,7 @@
   RICE_pamir_repair_watchposts_wakhan_effect_tooltip: "#V 와한# 주의 #V 감시 초소#를 수리하시겠습니까?" # 45a6a2fbfa7e6fa2c0f7634929a26f7908ffc6f3
   RICE_pamir_repair_watchposts_wakhan_desc: "와칸 회랑의 감시 초소 네트워크가 심각하게 훼손되었습니다.  만약 우리가 [repair_singular_pamir_watchposts|E]을 수리한다면, 그 지역의 계곡과 골짜기를 통과하는 실크로드 무역로를 보호하고 지역 방어를 강화할 수 있을 것입니다." # 683876aa7a908dbd18e16efd7bc4142b4d60afca
   RICE_pamir_repair_watchposts_wakhan_confirm: "일을 시작하겠습니다." # 2bbd9465bff982fe36782bd086498e6585cf5bac
-  RICE_pamir_repair_watchposts_wakhan_context_tooltip: "#강조 역사적 배경:#! 멀리 떨어진 곳에 위치했음에도 불구하고, 와한 회랑은 수세기 동안 실크로드를 따라 교통이 오가는 중요한 통로 역할을 했습니다. 중국과 티베트, 그리고 지역 통치자들을 포함한 여러 국가들은 이 지역에 감시 초소망을 구축하여 네트워크를 유지했습니다." # 66191a4dbf99a7d079832a22d65a649b1a7737c7
+  RICE_pamir_repair_watchposts_wakhan_context_tooltip: "#bold 역사적 배경:#! 멀리 떨어진 곳에 위치했음에도 불구하고, 와한 회랑은 수세기 동안 실크로드를 따라 교통이 오가는 중요한 통로 역할을 했습니다. 중국과 티베트, 그리고 지역 통치자들을 포함한 여러 국가들은 이 지역에 감시 초소망을 구축하여 네트워크를 유지했습니다." # 66191a4dbf99a7d079832a22d65a649b1a7737c7
   RICE_pamir_wakhan_recently_repaired_req: "와칸 회랑의 감시 초소들이 최근에 수리되지 않았습니다." # f5cf0b64d41b4290eb0e17bda3ed6e323344f1b6
   RICE_pamir_repair_watchposts_karakoram: "카라코람 산맥의 감시 초소를 수리하다" # d0f7d3fa1e63bb82b46ec665ad59b583f1637d8e
   RICE_pamir_repair_watchposts_karakoram_tooltip: "카라코람 산맥의 감시 초소를 수리하시겠습니까?" # 2e9ad0eb852e01cc5248a281c76da63c0d9b9fd3
@@ -479,8 +479,8 @@
   RICE_pamir_repair_watchposts_karakoram_confirm: "일을 시작하겠습니다." # 2bbd9465bff982fe36782bd086498e6585cf5bac
   RICE_pamir_repair_watchposts_karakoram_context_tooltip: "#emphasis 역사적 배경:#! 카라코람 산맥의 험준한 산길과 계곡은 멀리 떨어져 있음에도 불구하고 수 세기 동안 실크로드를 따라 오가는 교통로 역할을 해왔습니다. 중국과 티벳, 그리고 지역 통치자들을 포함한 여러 국가들이 이 지역에 감시 초소 네트워크를 유지했습니다." # e85e02333f78f4c73eca92e4445f15f5fbe43f9a
   RICE_pamir_karakoram_recently_repaired_req: "카라코람 산맥의 감시 초소는 최근에 수리가 되지 않았습니다." # 3b472c0b8fd54318efafdf806e21ea2a68ccf2e2
-  RICE_pamir_watchpost_costs_tooltip: "수리 효율과 지속 기간은 지원금의 액수에 따라 달라집니다. #약하게 (최소 비용: @gold_icon! 80)#!" # e0a89af73b3bf70fd519ca1bbcfb670933aa96aa
-  RICE_pamir_watchpost_costs_reduced_tooltip: "수리의 효과와 지속 기간은 지원되는 자금 규모에 따라 달라집니다. #약하게 (최소 비용: @gold_icon! 60)#!" # 6aea7f22843171cee7192897ec79c6f8f94342c1
+  RICE_pamir_watchpost_costs_tooltip: "수리 효율과 지속 기간은 지원금의 액수에 따라 달라집니다. #weak (최소 비용: @gold_icon! 80)#!" # e0a89af73b3bf70fd519ca1bbcfb670933aa96aa
+  RICE_pamir_watchpost_costs_reduced_tooltip: "수리의 효과와 지속 기간은 지원되는 자금 규모에 따라 달라집니다. #weak (최소 비용: @gold_icon! 60)#!" # 6aea7f22843171cee7192897ec79c6f8f94342c1
   RICE_pamir_expand_nasir_khusraws_shrine: "나시르 흐스로의 신전 확장" # b47761f2a5d514610b1573f6d512d7203dc6e68e
   RICE_pamir_expand_nasir_khusraws_shrine_tooltip: "[나시르 꾸스라우]의 현재 겸손한 묘소를 확장하는 데 필요한 자금을 제공하겠습니다." # bd4d17477ddb8f2125e07951f55ef0c0cdb52e59
   RICE_pamir_expand_nasir_khusraws_shrine_effect_tooltip: "#V 이슬람교도#! #V 바다흐샨#! 지역이나 그 근처에 거주하는 자들은 이제 [나시르 흐스로의 신전 순례|E]를 떠날 수 있습니다." # 23c794163acf98aac47d54e4ba4ed2b65159da7c
@@ -508,15 +508,15 @@
   RICE_pamir_attend_chawmos_festival_effect_tooltip: "차우모스 축제를 기념합니다." # 86289c988e048e7b48115d7e481f3cbe06ea5a31
   RICE_pamir_attend_chawmos_festival_desc: "겨울 지점이 다가오고 있습니다! 이는 우리 종교의 가장 중요한 축제로, 공동체 내 우리의 역할을 재확인하고 순수와 불순의 영역을 재정립하는 의식이 있습니다." # 3670fa82c5986526396e2348de00c981d98fc736
   RICE_pamir_attend_chawmos_festival_confirm: "준비를 하도록 하십시오!" # e03de7afef2fccc12a7aa3b8119e50b8762dec4e
-  RICE_pamir_attend_chawmos_festival_context_tooltip: "#강조 역사적 배경:#! 카라쉬 사람들에게 차우모스는 해마다 가장 중요한 축제입니다. 축제라고 부르는 것은 실제로 카라쉬력에서 가장 큰 행사이며, 많은 의식적 의미를 지닌 중요한 행사임을 제대로 반영하지 못합니다." # 4ffb15beeb9cb29bf0a6f8390b10339a24960723
+  RICE_pamir_attend_chawmos_festival_context_tooltip: "#bold 역사적 배경:#! 카라쉬 사람들에게 차우모스는 해마다 가장 중요한 축제입니다. 축제라고 부르는 것은 실제로 카라쉬력에서 가장 큰 행사이며, 많은 의식적 의미를 지닌 중요한 행사임을 제대로 반영하지 못합니다." # 4ffb15beeb9cb29bf0a6f8390b10339a24960723
   RICE_decision_chawmos_month_requirement: "9월부터 11월 사이에 준비를 시작해야 합니다." # 33f113f5ebb69d4c84384c16e35f589b8b3019ad
   RICE_pamir_sacrifice_goats: "신들에게 염소를 제물로 바치다" # 2bf077eb7b19b36cc80e115f1e3b2dd981cf4172
   RICE_pamir_sacrifice_goats_tooltip: "하늘에 염소를 제물로 바치십시오." # 4fec970e398d344f579d4d130be3fad81edc3d87
   RICE_pamir_sacrifice_goats_effect_tooltip: "신성한 제물로 염소를 바치십시오." # 34cc94ca719cb39826645e5df1d6e807fd809945
-  RICE_pamir_goat_sacrifice_costs_tooltip: "희생의 규모에 따라 얻을 수 있는 은총이 달라집니다. #약하게 (최소 요구 금액: @gold_icon! 50)#!" # 910d5c16ee7adbce9879135d9c3db705fd0650aa
+  RICE_pamir_goat_sacrifice_costs_tooltip: "희생의 규모에 따라 얻을 수 있는 은총이 달라집니다. #weak (최소 요구 금액: @gold_icon! 50)#!" # 910d5c16ee7adbce9879135d9c3db705fd0650aa
   RICE_pamir_sacrifice_goats_desc: "신들의 축복을 구하는 길은 가장 신성하고 순수한 동물, 염소를 제물로 바치는 것입니다." # 041fc75a8de71185f299e4f22eddd6bb93c786ba
   RICE_pamir_sacrifice_goats_confirm: "저 염소들을 데려오십시오!" # cca084c7a85da48e85a57b54a8264c5927a7c0f0
-  RICE_pamir_sacrifice_goats_context_tooltip: "#강조 역사적 배경:#! 아프가니스탄과 파키스탄 북부의 특정 이교도 및 이전 이교도 민족, 예컨대 칼라쉬족에게 염소는 신성시되며, 따라서 신에게 제물로 바치기에 적합한 동물로 여겨집니다." # 80347f94f012ce540c28ca257fbaa6361576a8d2
+  RICE_pamir_sacrifice_goats_context_tooltip: "#bold 역사적 배경:#! 아프가니스탄과 파키스탄 북부의 특정 이교도 및 이전 이교도 민족, 예컨대 칼라쉬족에게 염소는 신성시되며, 따라서 신에게 제물로 바치기에 적합한 동물로 여겨집니다." # 80347f94f012ce540c28ca257fbaa6361576a8d2
   RICE_pamir_restore_the_idol_of_zun: "잠인다와르의 숭배신상을 되찾으십시오" # 13fe48648b8598c3457c0e1a97953588523ff2f8
   RICE_pamir_restore_the_idol_of_zun_tooltip: "잠인다와르에서 즈운의 우상을 복원하시겠습니까?" # 8e6239abfe7ab1d4aeb9b5c48e4474fc6fe4d748
   RICE_pamir_restore_the_idol_of_zun_desc: "#bold[숭배의 대상] zun의 신상#이 한때 자민다와르에 자리하며 정의의 수호자의 신성한 권위를 상징했던 영광스러운 모습을 되찾아 보겠습니다!" # bdfe3b82e270af164fd54a53c1affef851cd960a
@@ -532,15 +532,15 @@
   RICE_pamir_reclaim_mount_aruna_tooltip: "아루나에 즈운의 정당한 자리를 되찾아 드립니다." # 528f600a7d1709f37dc62bf28be5bfe61b4c2d29
   RICE_pamir_reclaim_mount_aruna_desc: "오래 전, 카불 북쪽 조금 떨어진 아루나 산에는 수리아를 따르는 브라만교 신도들에 의해 추방되기 전, 또 다른 숭고한 [idol_of_zun|E]가 자리 잡고 있었습니다. 이제는 다시 여기에 존을 기리기 위해 [restore_the_idol_of_zun|E]하는 때가 왔습니다!" # bc5b97f9e34c0619bfa69e60e8985f63d33170b9
   RICE_pamir_reclaim_mount_aruna_confirm: "장인과 사제들을 모집합니다!" # 94679a264a6089def11aeb0588eaef6aedc67ca2
-  RICE_pamir_reclaim_mount_aruna_context_tooltip: "#강조 역사적 배경:# 중국 기록에 따르면, 카불 근처에 아루나 산이 존재했다고 합니다. 유명한 불교 순례자 현장이 전하는 전설에 따르면, 신 Zun과 Surya가 그 산에 거주할 자격을 두고 다퉜고, 결국 Zun은 남쪽으로 자불리스탄으로 이동해야 했습니다. 이 이야기는 역사적 사건을 신화화한 기록일 가능성이 큽니다. Zun의 추종자들이 Surya 숭배자들이 지배하던 산에 침범하려 했거나, (더욱 가능성이 높은 경우) 원래 Zun교 신도들이 Surya를 숭배하는 신규 이주민들에 의해 쫓겨났다는 것을 의미할 수 있습니다." # c31b7943d2424e8d48afa2ded91871c39364e3c1
+  RICE_pamir_reclaim_mount_aruna_context_tooltip: "#bold 역사적 배경:# 중국 기록에 따르면, 카불 근처에 아루나 산이 존재했다고 합니다. 유명한 불교 순례자 현장이 전하는 전설에 따르면, 신 Zun과 Surya가 그 산에 거주할 자격을 두고 다퉜고, 결국 Zun은 남쪽으로 자불리스탄으로 이동해야 했습니다. 이 이야기는 역사적 사건을 신화화한 기록일 가능성이 큽니다. Zun의 추종자들이 Surya 숭배자들이 지배하던 산에 침범하려 했거나, (더욱 가능성이 높은 경우) 원래 Zun교 신도들이 Surya를 숭배하는 신규 이주민들에 의해 쫓겨났다는 것을 의미할 수 있습니다." # c31b7943d2424e8d48afa2ded91871c39364e3c1
   RICE_pamir_zun_restored_req: "[zun|E]의 우상이 자민다와르에서 복원되었습니다." # 3833d2dfb89eedde78ab1249709e0394c2294c51
   RICE_pamir_zun_restored_aruna_req: "아루나 산에 [zun의_신상|E]가 복원되었습니다." # 6ce1d544665f6d2720dda41048eeb8f8a0723040
   RICE_pamir_offer_riches_to_zun: "존의 우상에게 부를 바치십시오." # 1c3cce578bf3f598f32a237ce45f83824c085274
   RICE_pamir_offer_riches_to_zun_tooltip: "[신성한 존|E]께 바칠 보물과 사치품을 모으십시오." # 975d0b93f46e9677ba162adc230c122649a6b00b
   RICE_pamir_offer_riches_to_zun_desc: "존께 바치는 것은 우리의 정의로운 풍습이며, 그의 신상 앞에 이러한 예물을 바치는 것만큼 존을 기쁘게 할 방법은 없습니다." # d93ecded90ae92a26e814ac659f23666d19d0f1f
-  RICE_pamir_offer_riches_to_zun_effect_tooltip: "[신앙|E]과 [명성|E]은 얻는 양이 무작위이지만, 제공된 재산의 양에 따라 영향을 받습니다 #약함 (최소 지불금액: @gold_icon! 100)#!" # e3f93d70f4e7aa0dd595eb7508e7b50a1acfd19b
+  RICE_pamir_offer_riches_to_zun_effect_tooltip: "[faith|E]과 [명성|E]은 얻는 양이 무작위이지만, 제공된 재산의 양에 따라 영향을 받습니다 #약함 (최소 지불금액: @gold_icon! 100)#!" # e3f93d70f4e7aa0dd595eb7508e7b50a1acfd19b
   RICE_pamir_offer_riches_to_zun_confirm: "존의 우상을 참배하러 가겠습니다." # cb52867f80ce6da9d1f2e334f36b2de00af423a9
-  RICE_pamir_offer_riches_to_zun_context_tooltip: "#강조 역사적 배경:#! 여러 중국 문헌에서 숭배의 대상인 춘(Zun)의 신전에 엄청난 양의 금과 은이 존재했다는 점을 언급합니다. 예를 들어, #italic 수이서#!는 카불 근처 아루나 산(아마도 숭산인 봉령산)에 있는 춘의 신전이 금과 은으로 지붕을 덮고 은으로 바닥을 깔았다고 기록하고 있습니다. 현장(스스로)도 춘에게 제물로 양이나 말과 같은 많은 가축이 바쳐졌다는 것을 언급합니다." # 42c7e8142cf7bc9e6c523a67b352b0093052a51c
+  RICE_pamir_offer_riches_to_zun_context_tooltip: "#bold 역사적 배경:#! 여러 중국 문헌에서 숭배의 대상인 춘(Zun)의 신전에 엄청난 양의 금과 은이 존재했다는 점을 언급합니다. 예를 들어, #italic 수이서#!는 카불 근처 아루나 산(아마도 숭산인 봉령산)에 있는 춘의 신전이 금과 은으로 지붕을 덮고 은으로 바닥을 깔았다고 기록하고 있습니다. 현장(스스로)도 춘에게 제물로 양이나 말과 같은 많은 가축이 바쳐졌다는 것을 언급합니다." # 42c7e8142cf7bc9e6c523a67b352b0093052a51c
   RICE_pamir_zun_offer_riches_region_req: "[realm_capital|E]는 아프가니스탄의 주니스트 심장부에 가깝거나 인접해 있습니다." # 180be91de00292207ba0871d46b88fa650231432
   RICE_pamir_hold_tumshiling_festival: "툼실링 축제를 후원합니다" # e762b304fe2721270723ae233b3a01f1371c6c78
   RICE_pamir_hold_tumshiling_festival_tooltip: "슈리 바닷의 패배를 기념하기 위해 시민들을 모으십시오." # ba653a821a8eb83dcb3032f857a3506556df19db
@@ -554,7 +554,7 @@
   RICE_pamir_raze_shri_badats_palace_desc: "식인종 쉭 바닷은, 요정 왕자 [azur_jamshid|E]가 이끄는 그의 억압받던 신민들에 의해 정의롭게 처형되었으나, 그의 잔혹성을 증명하는 대저택은 여전히 남아 있습니다. 이 폭군과 그의 악행에 대한 기억을 부정하기 위해, 저는 이 궁궐을 파괴할 명령을 내려야 합니다." # 7fedb141df3cece80470692c92b5e24157dcf6ac
   RICE_pamir_raze_shri_badats_palace_effect_tooltip: "만약 [azur_jamshid|E]께서 세상을 떠나시면, 파미르와 시가리 공국, 또는 치트랄 백작령의 [rulers|E]는 #V 툼실링 축제를 후원하기로 결정#할 수 있습니다." # bdbdf891cef5c681ba1b47a5bc9fdda967c1c6c7
   RICE_pamir_raze_shri_badats_palace_confirm: "파괴하라!" # 85dcd423c2639b2db0e9243dd4ab912aa7bd0d76
-  RICE_pamir_raze_shri_badats_palace_context_tooltip: "#강조 역사적 배경:# 전설에 따르면, 아주르 자미시드가 길기트 지역 주민들을 도와 슈리 바닷을 몰아내고 죽인 후 그들의 새로운 왕으로 선포되었을 때, 그는 폭군의 궁궐을 완전히 파괴하도록 명령했다고 합니다." # 997e553ff17de7097a3148b08fae85759a868d37
+  RICE_pamir_raze_shri_badats_palace_context_tooltip: "#bold 역사적 배경:# 전설에 따르면, 아주르 자미시드가 길기트 지역 주민들을 도와 슈리 바닷을 몰아내고 죽인 후 그들의 새로운 왕으로 선포되었을 때, 그는 폭군의 궁궐을 완전히 파괴하도록 명령했다고 합니다." # 997e553ff17de7097a3148b08fae85759a868d37
   RICE_pamir_refurbish_dokhtar_i_noshirwan: "노시르완의 딸, 도흐타르의 벽화를 복원하다" # a373bd434faff6cb20b5133a58cced6152f737e8
   RICE_pamir_refurbish_dokhtar_i_noshirwan_tooltip: "이 둔의 표현은 개선이 필요합니다." # e04653b296ea04f3720d46382711aded9fe47f80
   RICE_pamir_refurbish_dokhtar_i_noshirwan_desc: "바미안 근처, 독타르-이 노시르완 지역에는 우리 위대한 신 둔을 묘사한 벽화가 새겨진 오래된 암굴 복합 건물이 있습니다.  훼손되어 가고 있으므로, 과거의 영광을 되찾기 위해 복원 조치를 취해야 합니다." # d156d4b31f21d1da3c819f5863fe6b8efcfa8424

@@ -37,7 +37,7 @@
   trait_track_RICE_hafsa_recovery: "회복" # ea924f72d31edd7f1245e4f6f6542a2ab0fc3649
   trait_track_RICE_hafsa_recovery_desc: "#weak 신이시여, 눈물 속에 갇힌 자들에게 / 당신의 축복을 내려주소서, / 살해당한 자들의 미소처럼 보이지 않고, / 우물에서 물을 훔치듯 빼앗긴 자들에게.#!" # 0158566f3672c28e7d312208e4b8b1967bddca73
   trait_RICE_hafsa_full_rage: "슬픔에 잠긴 격노" # e3d57f3a302a877ab1b94d3ba16a5bd63630442b
-  trait_RICE_hafsa_full_rage_desc: "이 인물의 사랑하는 동료 시인이었던 아부 자파르는 수년 전 잔혹하게 처형당했습니다. 그들은 이 슬픔을 생산적인 분노로 승화시켜, 유명하지만 격렬한 문인이 되었습니다.\n\n#weak 이 특성은 [여행|E] 중 관련 [여행_선택지|E]를 선택하여 레벨을 올릴 수 있습니다.\n\n#weak 이 [특성|E]은 $RICE_granada_hafsa_decision$ [결정|E]의 $RICE_insult_uthman_name$ 및 $RICE_eulogize_abu_jafar_name$ 선택지를 활성화합니다.#!" # fa753e42e43b031d6fbdb6b6fdb0fb428c3059e8
+  trait_RICE_hafsa_full_rage_desc: "이 인물의 사랑하는 동료 시인이었던 아부 자파르는 수년 전 잔혹하게 처형당했습니다. 그들은 이 슬픔을 생산적인 분노로 승화시켜, 유명하지만 격렬한 문인이 되었습니다.\n\n#weak 이 특성은 [여행|E] 중 관련 [여행_선택지|E]를 선택하여 레벨을 올릴 수 있습니다.\n\n#weak 이 [특성|E]은 $RICE_granada_hafsa_decision$ [decision|E]의 $RICE_insult_uthman_name$ 및 $RICE_eulogize_abu_jafar_name$ 선택지를 활성화합니다.#!" # fa753e42e43b031d6fbdb6b6fdb0fb428c3059e8
   trait_RICE_hafsa_full_rage_character_desc: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 사랑하는 아부 자파르는 동료 시인이었으나, 오래전 잔혹하게 처형당했습니다. [ROOT.GetCharacter.GetSheHe|U]는 이 슬픔을 생산적인 분노로 승화시켜 유명하지만 격렬한 문학계의 인물이 되었습니다.\n\n#weak 이 [trait|E]은 [decision|E]에서 $RICE_insult_uthman_name$ 및 $RICE_eulogize_abu_jafar_name$ 옵션을 활성화하여 $RICE_granada_hafsa_decision$ 할 수 있게 합니다.!" # 732075bb3f109bb71b48c8a09c1d1f3189d681e3
   trait_RICE_hafsa_full_recovery: "슬픔에서 회복됨" # cab96361866aae9f425f7057cf91e4ebb66325ff
   trait_RICE_hafsa_full_recovery_desc: "이 캐릭터는 사랑하는 동료 시인이었던 아부 자파르가 여러 해 전에 잔인하게 처형당하는 것을 목격했습니다. 그 슬픔에서 치유된 후, 그들은 가르치고 다른 사람들을 인도하는 등 생산적이고 유익한 활동에 에너지를 쏟았습니다.\n\n#weak 이 특성은 [traveling|E]할 때 관련된 [travel_options|E]를 선택하여 레벨을 올릴 수 있습니다.\n\n#weak 이 [trait|E]은 [decision|E]에서 $RICE_granada_hafsa_decision$를 사용할 때 $RICE_insult_uthman_name$과 $RICE_eulogize_abu_jafar_name$ 옵션을 활성화합니다.!" # 57df5defd51e309ebd5020dcda0a2e16611e8b54
@@ -239,7 +239,7 @@
   RICE_granada_alhambra_decision_desc: "[alhambra|E]는 숨 막힐 듯한 숭고함을 자랑하는 궁전으로 전 세계에 알려져 있지만, 개선의 여지는 항상 있습니다. 어쩌면 이 지상의 낙원에 어울리는 무언가를 추가할 수 있을지도 모릅니다...." # 01aae885ff8e9e0d410944394ef0a5281da29cbe
   RICE_granada_alhambra_decision_effect_tooltip_1: "각 [alhambra_structure|E]는 서로 다른 비용을 가집니다. #weak (최소 비용: @gold_icon@ 100)#!" # 6a23df2af0685b451737bcccde3b92d0badd15d6
   RICE_granada_alhambra_decision_effect_tooltip_2: "선택한 [alhambra_structure|E]는 완공까지 1~5년이 걸립니다. 완공되면 선택에 따라 그라나다 [county|E]의 [ruler|E]가 [piety|E] 또는 새로운 [decisions|E] 해금과 같은 다양한 보너스를 받습니다." # 29b7068500dcc5296d3f66f147e06bda44cb7c94
-  RICE_granada_alhambra_decision_effect_tooltip_3: "이 [결정|E]는 평생에 #bold 한 번#만(높은 [관리력|E] 또는 [학습|E]을 가진 경우 두 번) 할 수 있으므로, 무엇을 건설할지 현명하게 선택하세요!" # d16482c2c70ee05381ff9f66ece980e28466381c
+  RICE_granada_alhambra_decision_effect_tooltip_3: "이 [decision|E]는 평생에 #bold 한 번#만(높은 [관리력|E] 또는 [학습|E]을 가진 경우 두 번) 할 수 있으므로, 무엇을 건설할지 현명하게 선택하세요!" # d16482c2c70ee05381ff9f66ece980e28466381c
   RICE_granada_alhambra_pick_a_structure_type: "건설할 항목 선택" # 1d3f321e358b8c5c879334aa69a522d9a0749a7c
   RICE_granada_alhambra_pick_a_structure_type_gui: "[alhambra|E]에 추가할 [alhambra_structure|E]를 선택하십시오" # a4273126dadb83c408768681fa3baf6e1861469c
   RICE_granada_alhambra_decision_confirm: "작업을 시작할 시간입니다!" # 42711ad48234e512c81ecdfd655c2116536f33aa
@@ -443,7 +443,7 @@
   granada.0021.tooltip.generalife: "$EFFECT_LIST_BULLET$ #bold $RICE_granada_admire_alhambra_gardens$#! 결정을 내릴 때의 보너스가 더 좋습니다\n$EFFECT_LIST_BULLET$ #bold $RICE_granada_alhambra_munya_estate$#! 결정의 비용이 더 저렴합니다" # a9e3ef86f29b8759135b030d41b420532067c400
   granada.0021.tooltip.house_of_worship: "$EFFECT_LIST_BULLET$ #bold $RICE_granada_alhambra_comares_baths$#! 결정을 내렸을 때의 보너스가 더 좋습니다.\n$EFFECT_LIST_BULLET$ 향후 알함브라에 일반 확장 건물을 지을 때 모든 [rulers|E]에게 [piety|E] 보너스 제공" # 4aaa76c82b43221effbf94743f95ed6401b59e46
   granada.0021.tooltip.rawda: "$EFFECT_LIST_BULLET$ 향후 알함브라에 일반 확장을 건설할 때 모든 [rulers|E]에 대한 [dynasty_prestige|E] 보너스" # b9ceae7173a17a321382b1602573f5c2f89b99b4
-  granada.0021.tooltip.comares_palace: "$EFFECT_LIST_BULLET$ 그라나다의 [통치자|E]는 #bold $RICE_granada_alhambra_comares_baths$#! [결정|E]을 내릴 수 있게 되었습니다." # 4c2ef8ee9909b719707926e8972b8e765e86beb8
+  granada.0021.tooltip.comares_palace: "$EFFECT_LIST_BULLET$ 그라나다의 [통치자|E]는 #bold $RICE_granada_alhambra_comares_baths$#! [decision|E]을 내릴 수 있게 되었습니다." # 4c2ef8ee9909b719707926e8972b8e765e86beb8
   granada.0021.tooltip.court_of_the_lions: "$EFFECT_LIST_BULLET$ 향후 알함브라에 일반적인 확장을 건설할 때 모든 [rulers|E]에게 [prestige|E] 보너스 제공" # 85bb7f7ac757a2a837629d839180e35857ff599c
   granada.0022.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
   granada.0022.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f

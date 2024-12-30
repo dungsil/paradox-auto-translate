@@ -739,12 +739,12 @@
   south_mesopotamian_pagan_religious_text: "고대 전설" # 5962958cf9ec1065a7caa0c5d6eeaa78040cb5ff
   game_concept_yazata: "야자타" # 99e57be300146456a3cdd0fbfdbf281a80917caa
   game_concept_yazatas: "야자타" # d7b7067160184aabc8d3e503475bf6c40bc1c738
-  game_concept_yazatas_desc: "야자타는 $zoroastrianism_religion$에서 숭배하거나 존경할 가치가 있는 존재입니다. 어떤 사람들에게는 별개의 신이지만, 다른 사람들에게는 최고신의 발현입니다.\n\n$zoroastrianism_religion_adj$ [신앙|E]은 역사, 문화, 지리, 인접 신앙 체계와의 접촉 등의 이유로 중요하게 여겨진 야자타를 나타내는 다양한 [교리|E]를 가질 수 있습니다.\n\n$rice_zoroastrian_no_yazatas_doctrine_name$ [교리|E]를 가진 [신앙|E]을 제외하고, 모든 $zoroastrianism_religion_adj$ [통치자|E]는 $RICE_khwarezm_worship_yazata$ [결정|E]을 사용할 수 있으며, 이 [결정|E]을 통해 선택한 야자타에 따라 이점이 있는 일시적인 [캐릭터_보정치|E]을 얻습니다. 사용 가능한 야자타는 야자타 [교리|E]에 따라 다릅니다.\n\n특정 야자타 [교리|E]는 야자타 숭배에 추가적인 이점을 제공하는 [조로아스터교_숭배_중심지|E]를 세우는 [결정|E]을 사용할 수 있게 합니다." # f1488627886315176026f4b3165a3fa988c7d9fd
+  game_concept_yazatas_desc: "야자타는 $zoroastrianism_religion$에서 숭배하거나 존경할 가치가 있는 존재입니다. 어떤 사람들에게는 별개의 신이지만, 다른 사람들에게는 최고신의 발현입니다.\n\n$zoroastrianism_religion_adj$ [faith|E]은 역사, 문화, 지리, 인접 신앙 체계와의 접촉 등의 이유로 중요하게 여겨진 야자타를 나타내는 다양한 [교리|E]를 가질 수 있습니다.\n\n$rice_zoroastrian_no_yazatas_doctrine_name$ [교리|E]를 가진 [faith|E]을 제외하고, 모든 $zoroastrianism_religion_adj$ [통치자|E]는 $RICE_khwarezm_worship_yazata$ [decision|E]을 사용할 수 있으며, 이 [decision|E]을 통해 선택한 야자타에 따라 이점이 있는 일시적인 [캐릭터_보정치|E]을 얻습니다. 사용 가능한 야자타는 야자타 [교리|E]에 따라 다릅니다.\n\n특정 야자타 [교리|E]는 야자타 숭배에 추가적인 이점을 제공하는 [조로아스터교_숭배_중심지|E]를 세우는 [decision|E]을 사용할 수 있게 합니다." # f1488627886315176026f4b3165a3fa988c7d9fd
   game_concept_zoroastrian_cult_centers_short: "컬트 중심지" # 9f5f615f18222b8b8c2ccb1d587d8574068cbef3
   game_concept_zoroastrian_cult_center_short: "종교 중심지" # 5a8d8cbbe1206bdf45a6a4972aa0d68ecd06d12a
   game_concept_zoroastrian_cult_centers: "지역 조로아스터교 숭배 중심지" # 7cbfca6d54a7a37af2e9afad71f09f1570a5549e
   game_concept_zoroastrian_cult_center: "현지 조로아스터교 컬트 중심지" # 65df7628179cb91bd496815bec1c5f6093b92fac
-  game_concept_zoroastrian_cult_center_desc: "일부 $zoroastrianism_religion_adj$ [신앙|E]은 올바른 [야자타|E] [교리|E]가 있다면 $RICE_khwarezm_establish_cult_center$ [결정|E]을 내릴 수 있습니다.\n\n숭배 중심지는 특정 [야자타|E] 숭배가 두드러지는 [백작령|E]이며, 따라서 숭배 중심지를 세울 [야자타|E]를 선택하면 해당 [수도|E]에 상응하는 [백작령 수정자|E]가 배치됩니다. 그 후, [야자타|E] 숭배 [결정|E]을 내리고 소유한 (또는 [봉신|E]이나 그 아래에 있는 사람이 소유한) 숭배 중심지를 가진 [야자타|E]를 선택하면 일반적으로 얻는 [캐릭터 수정자|E]의 업그레이드된 버전과 추가 [명성|E] 및 [신앙심|E]을 얻을 수 있습니다. [공작령|E]당 #bold 하나#!의 숭배 중심지만 있을 수 있다는 점에 유의하십시오.\n\n[신앙|E]에 숭배 중심지를 만들 수 있는 [교리|E]가 없거나 비 조로아스터교 [신앙|E]를 따르는 경우, 대신 $RICE_khwarezm_destroy_cult_center$ [결정|E]을 내릴 수 있습니다. 그렇게 하면 [영지|E]의 모든 숭배 중심지 [백작령 수정자|E]가 제거되지만, 조로아스터교 신자인 경우 숭배하지 않는 [야자타|E]에 속한 것들에만 영향을 미칩니다. 또한 억압한 숭배 중심지 수에 따라 [골드|E] 및 [신앙심|E]을 얻을 수 있습니다." # a792edc43af831e31a70a682f10b7f8355e7c4f4
+  game_concept_zoroastrian_cult_center_desc: "일부 $zoroastrianism_religion_adj$ [faith|E]은 올바른 [야자타|E] [교리|E]가 있다면 $RICE_khwarezm_establish_cult_center$ [decision|E]을 내릴 수 있습니다.\n\n숭배 중심지는 특정 [야자타|E] 숭배가 두드러지는 [백작령|E]이며, 따라서 숭배 중심지를 세울 [야자타|E]를 선택하면 해당 [수도|E]에 상응하는 [백작령 수정자|E]가 배치됩니다. 그 후, [야자타|E] 숭배 [decision|E]을 내리고 소유한 (또는 [봉신|E]이나 그 아래에 있는 사람이 소유한) 숭배 중심지를 가진 [야자타|E]를 선택하면 일반적으로 얻는 [캐릭터 수정자|E]의 업그레이드된 버전과 추가 [명성|E] 및 [신앙심|E]을 얻을 수 있습니다. [공작령|E]당 #bold 하나#!의 숭배 중심지만 있을 수 있다는 점에 유의하십시오.\n\n[faith|E]에 숭배 중심지를 만들 수 있는 [교리|E]가 없거나 비 조로아스터교 [faith|E]를 따르는 경우, 대신 $RICE_khwarezm_destroy_cult_center$ [decision|E]을 내릴 수 있습니다. 그렇게 하면 [county|E]의 모든 숭배 중심지 [백작령 수정자|E]가 제거되지만, 조로아스터교 신자인 경우 숭배하지 않는 [야자타|E]에 속한 것들에만 영향을 미칩니다. 또한 억압한 숭배 중심지 수에 따라 [골드|E] 및 [신앙심|E]을 얻을 수 있습니다." # a792edc43af831e31a70a682f10b7f8355e7c4f4
   rice_doctrine_buddhist_canon_name: "불교 경전" # 2cc910d42e85c15545f9143ebca09f2ae7635545
   rice_doctrine_buddhist_canon_desc: "붓다의 말씀과 모순되지 않는 진정한 가르침을 인식하는 것이 중요합니다. 이것들은 #italic 삼장#!("세 개의 바구니"라는 의미)의 핵심인 모음집으로 편찬될 것입니다." # 53d8f10374ea52e3bfa2cb3508621d649daae59e
   rice_mahayana_canon_doctrine_name: "대승 경전" # 73d80cf804bd2356445ee18fb259f2cc3bff2e76
@@ -756,7 +756,7 @@
   rice_pudgalavada_canon_doctrine_name: "푸드갈라바다 경전" # e5de0deaa0ed9387354349729a1b53b0a2d98d85
   rice_pudgalavada_canon_doctrine_desc: "불교의 개인주의 학파인 푸드갈라바다는 불교의 무아 교리에 대한 독특한 견해 때문에 다른 불교 종파들로부터 강한 비판을 받아왔습니다. 부처의 가르침에 대한 그들의 해석의 타당성과는 별개로, 그들은 자신들의 광범위하고 엄격한 불교 경전 체계를 유지해 왔습니다." # 347015a3cfbcfc1ffc8017c26453750e20ac1b9f
   doctrine_parameter_hostility_override_rice_mahayana_canon_doctrine: "#italic 마하야나 경전#!을 정경으로 받아들이는 다른 불교 [faiths|E]는 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]로 간주됩니다." # 98af428e383848e0604dfe07c2d7efb9f67a3d70
-  doctrine_parameter_hostility_override_rice_theravada_canon_doctrine: "#italic 팔리어 경전#!을 자신들의 경전으로 받아들이는 다른 불교 [신앙|E]은 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]으로 간주됩니다." # 49f978439e9c87791e48842b5e65b73658e5672d
+  doctrine_parameter_hostility_override_rice_theravada_canon_doctrine: "#italic 팔리어 경전#!을 자신들의 경전으로 받아들이는 다른 불교 [faith|E]은 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]으로 간주됩니다." # 49f978439e9c87791e48842b5e65b73658e5672d
   doctrine_parameter_hostility_override_rice_vajrayana_canon_doctrine: "#italic 탄트라 경전#!을 그들의 경전으로 받아들이는 다른 불교 [faiths|E]은 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]로 간주됩니다" # b0c107ceb0e0b074cbe7ac3ee5326722f1a508fd
   doctrine_parameter_hostility_override_rice_pudgalavada_canon_doctrine: "#italic 푸드갈라바다 정경#!을 정경으로 받아들이는 다른 불교 [faiths|E]는 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]으로 간주됩니다." # f68f0bf7eaecf5b47dd6b31360529cfcf68ecd83
   doctrine_parameter_hostility_override_rice_theravada_canon_mahavihara_doctrine: "$doctrine_parameter_hostility_override_rice_theravada_canon_doctrine$" # f4eddc8368db88db68bc13c6216d3a332c7ae8d1
@@ -765,15 +765,15 @@
   rice_life_liberation_active_name: "삶의 해방 능력" # 186b820fc9e938b3106338131848b14e6ac3ceb1
   doctrine_parameter_rice_life_liberation_active: "고통받는 동물과 동족인 지각 있는 존재들을 해방시키는 [GetActivityType('activity_RICE_magadha_life_liberation').GetName] [activity|E]를 해제합니다" # 74946b4afd7d2c19764c3f26ff61fc16f30c514d
   rice_vassa_active_name: "바사 기간 동안 악행을 삼가는 능력" # d71715acfe07332a45ad31f1e352b696982964c0
-  doctrine_parameter_rice_vassa_active: "#V 바사 기간 동안의 악행 삼가기#! [결정|E]을 내릴 수 있습니다. 이는 우기 철수라고도 알려진 3개월의 관찰 기간입니다" # 83a233e36b99e2cdb82c15b827f2f0b922cc6c1b
+  doctrine_parameter_rice_vassa_active: "#V 바사 기간 동안의 악행 삼가기#! [decision|E]을 내릴 수 있습니다. 이는 우기 철수라고도 알려진 3개월의 관찰 기간입니다" # 83a233e36b99e2cdb82c15b827f2f0b922cc6c1b
   rice_pagodas_unlocked_active_name: "파고다에 기증할 수 있는 능력" # ffa8824070ed504c7787b0ec8f49ecdb9d235553
   doctrine_parameter_rice_pagodas_unlocked_active: "#V 지역 불교 종교 시설 건설#! 결정을 내릴 때 추가 비용을 들여 탑을 건설할 수 있습니다." # fcc6487d15831b036df16e0e053525570f00403d
   rice_theravada_canon_mahavihara_doctrine_name: "대승사원 탁월함" # 78bb3d3642aa12b28e40b398f999bf11f7a0ddcb
-  rice_theravada_canon_mahavihara_doctrine_desc: "#약한 이 [교리|E]는 [종교|E]의 [불교|E]가 [rice_theravada_canon_doctrine].[교리|E]를 가진 경우 자동으로 상속됩니다.#!\n\n[마하비하라|E] 수도원이 [RICE_스리랑카_승가|E]에서 주요 종파로 부상하여 팔리 경전을 따르는 불교도들 사이에서 주요 사상으로 자리매김했습니다." # 2ccda101f50d454b9d3a236d8d33ad7a155440b9
+  rice_theravada_canon_mahavihara_doctrine_desc: "#weak 이 [교리|E]는 [종교|E]의 [불교|E]가 [rice_theravada_canon_doctrine].[교리|E]를 가진 경우 자동으로 상속됩니다.#!\n\n[마하비하라|E] 수도원이 [RICE_스리랑카_승가|E]에서 주요 종파로 부상하여 팔리 경전을 따르는 불교도들 사이에서 주요 사상으로 자리매김했습니다." # 2ccda101f50d454b9d3a236d8d33ad7a155440b9
   rice_theravada_canon_abhayagiri_doctrine_name: "아바야기리 수위" # 836f5820a2f921d20601d1686556917a73c347cd
   rice_theravada_canon_abhayagiri_doctrine_desc: "#weak 이 [doctrine|E]는 [faith|E]의 불교 신앙과 [GetFaithDoctrine('rice_theravada_canon_doctrine').GetBaseName] [doctrine|E]를 계승하여 자동으로 상속됩니다.#!\n\n[RICE_sri_lanka_s_sangha|E]에서 [abhayagiri|E] 사원은 지배적인 종파로 부상하여 팔리 경전을 따르는 불교도들 사이에서 주요 학파로 자리매김했습니다." # 9fcfab0f83276662d238079e160de476dc3bc4e7
   rice_theravada_canon_jetavana_doctrine_name: "제타바나 탁월함" # 15265e83530684c1a6c4c9d33a54f6e29df9b99e
-  rice_theravada_canon_jetavana_doctrine_desc: "#약화 이 [교리|E]는 [GetFaithDoctrine('rice_theravada_canon_doctrine').GetBaseName] [교리|E]를 가진 모든 불교 [신앙|E]에 자동으로 상속됩니다.#!\n\n[제타바나|E] 사원은 [RICE_sri_lanka_s_sangha|E]에서 지배적인 종파로 부상했으며, 팔리 경전을 따르는 불교도들 사이에서 주요 사상 학교로 자리 잡았습니다." # 82de787b74c49ad1ed96c50fa77ebb3ebf27c00d
+  rice_theravada_canon_jetavana_doctrine_desc: "#weak 이 [교리|E]는 [GetFaithDoctrine('rice_theravada_canon_doctrine').GetBaseName] [교리|E]를 가진 모든 불교 [faith|E]에 자동으로 상속됩니다.#!\n\n[제타바나|E] 사원은 [RICE_sri_lanka_s_sangha|E]에서 지배적인 종파로 부상했으며, 팔리 경전을 따르는 불교도들 사이에서 주요 사상 학교로 자리 잡았습니다." # 82de787b74c49ad1ed96c50fa77ebb3ebf27c00d
   rice_theravada_accumulation_doctrine_name: "공적 축적" # 64a1ce76a09bb29e322488e98235629d39cbf625
   rice_theravada_accumulation_doctrine_desc: "[RICE_sri_lanka_struggle|E]의 경쟁 관계에 있던 수도원들은 [struggle_phase_sri_lanka_accumulation|E] 시기에 통합되었습니다. 이 시기는 종교 기관들이 엘리트 후원 아래 번성하고 서로의 차이점을 해결하기 위해 함께 모일 수 있었던 시대였습니다. 이 시대의 정신적 시대정신은 이후 불교의 이 분야에 큰 영향을 미쳤습니다." # efe9cde36f769af43eb1ee8448d05a4e1bce41b4
   rice_theravada_purification_doctrine_name: "대정화" # bb7c9b1ac67ce66a02da46fac621e589ea57ad42
@@ -785,7 +785,7 @@
   rice_theravada_outsider_doctrine_name: "$k_lanka$ 너머의 부흥" # afcd13f41123db8f805f7b9b80720c913c1dc0aa
   rice_theravada_outsider_doctrine_desc: "[RICE_sri_lanka_struggle|E]는 자비로운 외국 [rulers|E]의 도움 없이 스스로를 통일할 수 없었습니다. 이로 인해 불교 학습과 사상이 이 외래 땅에서 부활하여 불교의 새로운 중심지가 되었습니다. 이 일이 일어났을 당시의 정신적 시대정신은 그 이후 이 불교 분파에 큰 영향을 미쳤습니다." # 8490b7182c89a074ec4e505506912459415ab035
   doctrine_parameter_rice_reduced_costs_buddhist_religious_sites: "#P -20%#! 모든 선택지의 건설 비용이 [decision|E] #V 지역 불교 사찰 건설#!을 선택할 시 감소합니다." # 9d33b951b469d456923149a83de37edd45f4aa03
-  doctrine_parameter_rice_sri_lanka_struggle_effects_active: "[RICE_sri_lanka_struggle|E]의 영향을 받아 [GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [지역|E]과의 지리적 근접성에 따라 [투쟁|E]과 관련된 다양한 [결정|E]과 [활동|E]에 접근할 수 있습니다." # 1c653c9287c395d3e235b4b1495235bd954e83fc
+  doctrine_parameter_rice_sri_lanka_struggle_effects_active: "[RICE_sri_lanka_struggle|E]의 영향을 받아 [GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [지역|E]과의 지리적 근접성에 따라 [투쟁|E]과 관련된 다양한 [decision|E]과 [활동|E]에 접근할 수 있습니다." # 1c653c9287c395d3e235b4b1495235bd954e83fc
   rice_zun_hephthalite_warriors_name: "준의 전사" # ac36aefe834008a7f3398c861851ce529dfd5a27
   rice_zun_hephthalite_warriors_desc: "에프탈 제국의 재흥으로 에프탈의 태양신 준 숭배가 번성하고 있습니다. 멀리든 가까이든 전사들은 불타는 태양의 이름을 걸고 싸우는 것을 자랑스럽게 생각합니다." # f0a115dfa0f713cfe78c694d12c89d923e50915c
   rice_zun_hephthalite_warriors_doctrine_name: "$rice_zun_hephthalite_warriors_name$" # 66a8d011d2044f0b7626f9b916896b06d5ff1975
@@ -820,11 +820,11 @@
   doctrine_parameter_rice_unlock_bactro_sogdian_yazatas: "다음 [yazatas|E] 숭배 추가: 시야바시, 바크쉬, 웨슈파르카르" # 1c2372435d44d5541f296c0cbee85c0d97dc945b
   doctrine_parameter_rice_unlock_armenian_yazatas: "다음 [yazatas|E] 숭배를 추가합니다: 아스트히크, 바르샤민, 토르크, 바하근(바흐람 대체)" # 4e4b87d544b38d19670833b25eba558d5cd6c092
   doctrine_parameter_rice_unlock_georgian_yazatas: "숭배할 [yazatas|E]를 다음과 같이 추가합니다: 달리, 가임 (스라오샤 대체), 가치 (라슈누 대체), 코팔라, 자덴" # 174f1ab69622190dd14407c9409da05e33f7f0be
-  doctrine_parameter_rice_yazata_prestige_gain_automatic: "[결정|E]을 내려 [야자타스|E]를 숭배할 때 자동으로 [명성|E]을 얻습니다." # baa10b9362d736549292695431fba2eb3cea8e08
+  doctrine_parameter_rice_yazata_prestige_gain_automatic: "[decision|E]을 내려 [야자타스|E]를 숭배할 때 자동으로 [명성|E]을 얻습니다." # baa10b9362d736549292695431fba2eb3cea8e08
   doctrine_parameter_rice_yazata_pay_for_modifier_upgrade: "[yazatas|E]을 숭배하는 [decision|E]을 내릴 때 추가 [gold|E]을 지불하여 더 나은 버전의 [character_modifier|E]을 얻을 수 있습니다." # a2db2694021a579636ce18bf28a35676384dc159
-  doctrine_parameter_rice_unlock_destroy_cult_centers: ""[yazata|E] 교리"를 따르지 않는 "[yazatas|E]"의 [zoroastrian_cult_centers|E]를 탄압하는 [결정|E]을 내릴 수 있습니다" # dc23672c5fd2416b55c4bf0f6df72c47c734be7d
-  doctrine_parameter_rice_unlock_yazata_cult_center: "[결정|E]을 내려 [수도|E]에 [조로아스터교_종교_중심지|E]를 설립할 수 있습니다" # 506d9923dca8733fd5f29a7a6bb8136f9788d62d
-  doctrine_parameter_rice_no_yazatas: "[야자타|E] 숭배 [결정|E] 비활성화" # 122f164d5d2d65232170185d343c064ca0e87555
+  doctrine_parameter_rice_unlock_destroy_cult_centers: ""[ yazata|E ] 교리"를 따르지 않는 "[yazatas|E]"의 [zoroastrian_cult_centers|E]를 탄압하는 [decision|E]을 내릴 수 있습니다" # dc23672c5fd2416b55c4bf0f6df72c47c734be7d
+  doctrine_parameter_rice_unlock_yazata_cult_center: "[decision|E]을 내려 [수도|E]에 [조로아스터교_종교_중심지|E]를 설립할 수 있습니다" # 506d9923dca8733fd5f29a7a6bb8136f9788d62d
+  doctrine_parameter_rice_no_yazatas: "[야자타|E] 숭배 [decision|E] 비활성화" # 122f164d5d2d65232170185d343c064ca0e87555
   rice_doctrine_west_iranian_name: "중심 신화소" # 526e1563453a467a46c967abe4e0cf12936cb928
   rice_doctrine_west_iranian_desc: "종교적 헌신은 중요한 우주론적 인물에 초점을 맞춰야 합니다. 사람들은 그들의 본질, 그들과 관련된 전설, 심지어 그들의 정확한 정체성에 대해 다양한 생각을 가질 수 있지만, 그들을 숭배할 때 올바른 관행과 행동, 즉 정통 실천이 가장 중요합니다." # 91279dab9c62868025d32e9a48574dcc7638f34a
   rice_west_iranian_yazidi_doctrine_name: "일곱 천사" # 1fb49b280570154e3a6aa76745a08f5d7bcb33d7
@@ -840,7 +840,7 @@
   special_doctrine_is_west_iranian_faith_name: "서이란 정통주의" # 2b86360a1f033e06e04aa067b1b85bd4fda9cecb
   is_west_iranian_faith_name: "$special_doctrine_is_west_iranian_faith_name$" # bee706b60e4e5d8213329f458cdda179e920a5f7
   special_doctrine_is_west_iranian_faith_desc: "북부 메소포타미아, 서부 이란, 동부 아나톨리아의 고지대와 계곡은 고립과 험준한 지형 덕분에 많은 이단 종교의 본거지입니다. 그들은 종교적 기원이 다를 수 있지만, 이러한 종파들은 많은 관습, 신념, 사상을 공유합니다." # 6d06e5b3e013fb8bc8964e70234f7a52ea1728d7
-  doctrine_parameter_hostility_override_special_doctrine_is_west_iranian_faith: "$special_doctrine_is_west_iranian_faith_name$ [교리|E]를 가진 비동방 [신앙|E]은 $hostility_hostile_tooltippable$ 또는 $hostility_evil_tooltippable$ 대신 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]로 간주됩니다" # 6505e4fff08c72a549602f55f1c8297abe8303a6
+  doctrine_parameter_hostility_override_special_doctrine_is_west_iranian_faith: "$special_doctrine_is_west_iranian_faith_name$ [교리|E]를 가진 비동방 [faith|E]은 $hostility_hostile_tooltippable$ 또는 $hostility_evil_tooltippable$ 대신 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]로 간주됩니다" # 6505e4fff08c72a549602f55f1c8297abe8303a6
   special_doctrine_rice_doctrine_horse_sacrifice_name: "신성한 말" # 0b3c2e427734d61661e297fc7cd4c98551991861
   rice_doctrine_horse_sacrifice_name: "$special_doctrine_rice_doctrine_horse_sacrifice_name$" # a43f4f3f751eaaf63344899dfb7e19c346444a2d
   special_doctrine_rice_doctrine_horse_sacrifice_desc: "말은 우리 우주의 경이로운 창조물 중 하나입니다. 마땅히 숭배받아야 하며, 종교 의식의 일부로 하늘에 제물로 바쳐져야 합니다." # 532764a7b95b2d16905facab7f28e0b4904ce7bc

@@ -40,7 +40,7 @@
   activity_RICE_polabian_drowning_marzanna: "[GetPlayer.Custom('RICE_marzanna')] 익사" # d4014ffa859675cebc0931235e416889a3c190f8
   activity_RICE_polabian_drowning_marzanna_desc: "겨울이 곧 끝나갑니다. [GetPlayer.Custom('RICE_marzanna')]의 허수아비를 불태우고 강에 빠뜨리는 것보다 추운 달들을 작별하는 더 좋은 방법이 있을까요?" # 244d8e452afb4fc4372c2e9ca87c25be6e7c98db
   activity_RICE_polabian_drowning_marzanna_selection_tooltip: "이 전통적인 서슬라브 의식에서 겨울의 끝을 기념하십시오.\n\n$activity_RICE_polabian_drowning_marzanna_context_tooltip$" # 5775007d4fe9dec5e3183d1792f63251484d8fe7
-  activity_RICE_polabian_drowning_marzanna_context_tooltip: "#강조 역사적 배경:#! 기독교 이전, 서슬라브족 사이에서 마르잔나 또는 모라나 여신은 죽음, 재생, 그리고 다산의 신이었습니다. 겨울이 끝나고 봄이 오기를 기다리며, 사람들은 전통적으로 마르잔나의 인형을 만들어 지역 물에 태워 던져 버렸습니다. 슬라브족의 기독교화 이후, 교회 당국은 이 의식을 금지하려는 반복적인 시도를 했지만, 오늘날에도 폴란드, 체코 공화국, 슬로바키아와 같은 국가에서 이 의식은 지속되고 있습니다. 하지만 요즘에는 종교적인 의미는 사라지고, 특히 아이들에게는 즐거운 행사로 변했습니다." # 85926754d894ea73dcf75ce70ab2a9bea85742a3
+  activity_RICE_polabian_drowning_marzanna_context_tooltip: "#bold 역사적 배경:#! 기독교 이전, 서슬라브족 사이에서 마르잔나 또는 모라나 여신은 죽음, 재생, 그리고 다산의 신이었습니다. 겨울이 끝나고 봄이 오기를 기다리며, 사람들은 전통적으로 마르잔나의 인형을 만들어 지역 물에 태워 던져 버렸습니다. 슬라브족의 기독교화 이후, 교회 당국은 이 의식을 금지하려는 반복적인 시도를 했지만, 오늘날에도 폴란드, 체코 공화국, 슬로바키아와 같은 국가에서 이 의식은 지속되고 있습니다. 하지만 요즘에는 종교적인 의미는 사라지고, 특히 아이들에게는 즐거운 행사로 변했습니다." # 85926754d894ea73dcf75ce70ab2a9bea85742a3
   activity_RICE_polabian_drowning_marzanna_host_desc: "$BULLET_WITH_TAB$ 이교도일 경우 [piety_i] [piety|E] 획득\n$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 감소\n$BULLET_WITH_TAB$ 소유한 모든 [county|E]에 대해 [GetModifier('RICE_polabian_drowning_marzanna_county_modifier').GetNameWithTooltip] [county_modifier|E]를 얻을 확률\n$BULLET_WITH_TAB$ 특히 [piety_level|E]이 낮을 경우 #N 부정적인#! 징조 [character_modifier|E]를 얻을 소량의 확률" # c536233d74140803be1fddd4316e18cc0112179e
   activity_RICE_polabian_drowning_marzanna_province_desc: "강에 던져 버려." # 261bb047e1d1a6ad7f6ee7e84efab7792850f1d4
   activity_RICE_polabian_drowning_marzanna_destination_selection: "$activity_RICE_polabian_drowning_marzanna_province_desc$" # 528d75c4d86fcbf5ba130acd55766b226f3a13bc
@@ -67,7 +67,7 @@
   activity_RICE_polabian_zapust_festival: "자푸스트 축제" # 16bcecd03d1fae728d1242e4b6833ba900d7e6a8
   activity_RICE_polabian_zapust_festival_desc: "겨울이 한창 깊어졌으니 곧 많은 지역 사회에서 자푸스트 축제를 기념할 것입니다. 올해 자푸스트 축제에 참여하여 이 추운 겨울 달에 흥과 따뜻함을 찾아야 합니다!" # 365f44ec2cd7136d05cec8ab11aa8f9998994983
   activity_RICE_polabian_zapust_festival_selection_tooltip: "자푸스트 축제를 기념하십시오.\n\n$activity_RICE_polabian_zapust_festival_context_tooltip$" # 484b8bea538fa97ffcf17cd6e52dae942befaf22
-  activity_RICE_polabian_zapust_festival_context_tooltip: "#강조 역사적 배경:# 현대 시대, 자푸스트는 동부 독일 루사티아의 소르브족이 행하는 축제입니다. 사순절 전, 또는 섣달 대보름 기간에 열리며, 기독교 이전의 전통이 있을 가능성도 있습니다. 자푸스트와 같은 전통은 소르브족이 마지막으로 남은 폴라브 슬라브족으로서 자신들의 정체성과 문화를 유지하는 데 중요한 역할을 합니다. 여기서의 묘사는 주로 현대 축제의 영향을 받았습니다." # 0668b0ee6b8daaa9cd8b8f53e2b2000e3d81e9b2
+  activity_RICE_polabian_zapust_festival_context_tooltip: "#bold 역사적 배경:# 현대 시대, 자푸스트는 동부 독일 루사티아의 소르브족이 행하는 축제입니다. 사순절 전, 또는 섣달 대보름 기간에 열리며, 기독교 이전의 전통이 있을 가능성도 있습니다. 자푸스트와 같은 전통은 소르브족이 마지막으로 남은 폴라브 슬라브족으로서 자신들의 정체성과 문화를 유지하는 데 중요한 역할을 합니다. 여기서의 묘사는 주로 현대 축제의 영향을 받았습니다." # 0668b0ee6b8daaa9cd8b8f53e2b2000e3d81e9b2
   activity_RICE_polabian_zapust_festival_host_desc: "\n$BULLET_WITH_TAB$ [prestige_i|E][prestige|E] 획득\n$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 상실\n$BULLET_WITH_TAB$ 소유한 모든 [county|E]에서 [GetModifier('RICE_polabian_zapust_festival_county_modifier').GetNameWithTooltip] [county_modifier|E] 획득 기회" # 9cf2ad628f429f86cf0c17c0f0e1d1ff9634289a
   activity_RICE_polabian_zapust_festival_destination_selection: "$activity_RICE_polabian_zapust_festival_province_desc$" # 2a79962551b6fdd7a9c1412beef670cff9ae2c54
   activity_RICE_polabian_zapust_festival_guest_help_text: "$activity_RICE_polabian_zapust_festival$" # 01c282cc23d48bbd3a0c54704c73bb224cad5aa3
@@ -88,7 +88,7 @@
   RICE_polabian_zapust_grand_donation_log_title: "대규모 기부" # ede7d137860bdae0a22d38a13345e645145e45a3
   RICE_polabian_zapust_grand_donation_log: "[CHARACTER.GetShortUIName|U]이 자푸스트 행렬이 [CHARACTER.GetHerHim]에게 왔을 때 큰 기부를 했습니다." # a8b5ddfb0929d174e846202be91bacb64b11b022
   RICE_polabian_temple_of_arkona_modifier: "스베토비트의 우상" # 83949b4f642b153da7efebc1943f7f29a596bd54
-  RICE_polabian_temple_of_arkona_modifier_desc: "#EMP [svetovit_신상|E]는 근처에 있는 이교 [영주|E]들에게 [결정|E]을 내리도록 하여 $RICE_svetovit_헌물_결정$을 취하게 합니다. 이 [수정어|E]는 매년 초에 이 [지역|E]의 지배자가 이교도인지 아닌지에 따라 #P 긍정적#!과 #N 부정적#! 사이를 전환합니다. 비이교도들은 [결정|E]을 통해 그것을 파괴할 수 있습니다.#!" # 8ef8379ae4ce211c784b170c08f24e4c7130c017
+  RICE_polabian_temple_of_arkona_modifier_desc: "#EMP [svetovit_신상|E]는 근처에 있는 이교 [영주|E]들에게 [decision|E]을 내리도록 하여 $RICE_svetovit_헌물_결정$을 취하게 합니다. 이 [수정어|E]는 매년 초에 이 [지역|E]의 지배자가 이교도인지 아닌지에 따라 #P 긍정적#!과 #N 부정적#! 사이를 전환합니다. 비이교도들은 [decision|E]을 통해 그것을 파괴할 수 있습니다.#!" # 8ef8379ae4ce211c784b170c08f24e4c7130c017
   RICE_polabian_temple_of_arkona_modifier_non_pagan: "$RICE_polabian_temple_of_arkona_modifier$" # 11679179b5f3520155a6f63ccd5ae27cdde41867
   RICE_polabian_temple_of_arkona_modifier_non_pagan_desc: "$RICE_polabian_temple_of_arkona_modifier_desc$" # bf596e944deb6626343984787744f674b1de722d
   RICE_polabian_aspiration_gottschalk_sons_revenge: "[aspiration|E]: 성 고트샬크 복수" # 6339c4831e2a7800ea3ad7a9c3658de4a183ea15
@@ -142,7 +142,7 @@
   RICE_polabian_destroy_arkona_temple_desc: "오랫동안 [GetTitleByKey('c_rugen').GetNameNoTier] 섬은 이교도 신 [svetovit_short|E]에게 봉헌된 아르코나의 사원이 있는 곳이었습니다. 이 지역에서 스벤토비트와 그의 사기꾼 사제들의 영향력을 근절하기 위해, 우리는 아르코나 사원의 중심인 [idol_of_svetovit|E]을 파괴해야 합니다." # 39ebedce87c233f28fb5fd63fa4f69460b3b5c7d
   RICE_polabian_destroy_arkona_temple_confirm: "섬의 우상을 파괴해야 합니다!" # 301c4f3860c7b09f0aa0630ddf1e1d6b8a3d0f41
   RICE_polabian_destroy_arkona_temple_effect_tooltip_1: "이교 [rulers|E]는 더 이상 [arkona_short|E]에서 $RICE_polabian_gift_to_svetovit_decision$ [decision|E]을 내릴 수 없습니다." # d9fedaa6f76b908f83e3eb52225fed74a653a4e7
-  RICE_polabian_destroy_arkona_temple_context_tooltip: "#강조 역사적 배경:# 루겐 섬(현대 독일)에 위치한 아르코나 신전은 초기 중세 시대 슬라브 족의 주요 종교 유적이었습니다. 이곳은 지역 주민들이 공물을 바치던 스베토비트 신을 위한 유명한 우상이 모셔져 있었으며, 강력한 제사장들은 다음 수확량의 결과를 예측하는 의식을 행했습니다. 1168년, 덴마크 왕 발데마르 1세와 덴마크의 아브살론 주교가 이끄는 덴마크 군대가 아르코나를 점령하면서, 이 우상은 파괴되었고, 그 섬은 점차 기독교화되었습니다." # a353021746a460a412b429c7650dae0d7d4445a7
+  RICE_polabian_destroy_arkona_temple_context_tooltip: "#bold 역사적 배경:# 루겐 섬(현대 독일)에 위치한 아르코나 신전은 초기 중세 시대 슬라브 족의 주요 종교 유적이었습니다. 이곳은 지역 주민들이 공물을 바치던 스베토비트 신을 위한 유명한 우상이 모셔져 있었으며, 강력한 제사장들은 다음 수확량의 결과를 예측하는 의식을 행했습니다. 1168년, 덴마크 왕 발데마르 1세와 덴마크의 아브살론 주교가 이끄는 덴마크 군대가 아르코나를 점령하면서, 이 우상은 파괴되었고, 그 섬은 점차 기독교화되었습니다." # a353021746a460a412b429c7650dae0d7d4445a7
   RICE_polabian_restore_arkona_temple: "아르코나의 우상 복원" # 24b6895991047d205cf0ccd2b5671ce73affee9e
   RICE_polabian_restore_arkona_temple_tooltip: "우리 백성이 한때 숭배했던 우상을 복원해야 합니다!" # 41b73e22cb25f298dae48c9f5f577af1ea22997f
   RICE_polabian_restore_arkona_temple_desc: "수년 동안 [GetTitleByKey('c_rugen').GetNameNoTier] 섬은 아르코나에 위치한 위대한 신 [svetovit_short|E]를 숭배하는 강력한 사원의 보금자리였습니다. 하지만 악랄한 야만족들은 사원의 상당 부분을 파괴하고 거대한 [idol_of_svetovit|E]를 무너뜨렸습니다. 이제 우리가 이 섬을 다스리게 된 만큼, [svetovit_idol_short|E]를 재건하는 것이 우리의 의무입니다." # 7b8117991c450f6bed883860b83f31fecac3a2cf

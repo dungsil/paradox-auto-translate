@@ -51,10 +51,10 @@
   d_yazidi_adj: "미라테" # 116bfb84baf186224655869c57e4af307693712a
   RICE_yazidi_truce: "[granter.GetTitledFirstName]께서 [yazidi_head.GetTitledFirstName]에게 [yazidi_county.GetNameNoTier] [county|E]를 수여한 후 휴전 조약이 체결되었습니다." # 058980fb8dc073722fae5d1bd6e7e1f0d2726c2b
   RICE_yazidi_county_warning: "@warning_icon! #X 단 하나의 [county|E]만 소유하고 있으므로 [yazidi_county.GetNameNoTier]를 양도하면 게임이 종료됩니다!#!" # fe8104fc1172c78932207efc34ee6958f03b7d67
-  RICE_yazidism_exists_tt: "야지드교 [신앙|E]가 세계 이벤트를 통해 등장했을 경우에만 가능합니다." # fc4b9d4b0ccc7407ee0e7e4f06d5003898ddbc46
-  NOT_RICE_yazidism_exists_tt: "야지드교 [신앙|E]가 세계 이벤트를 통해 등장했을 경우에만 가능합니다." # fc4b9d4b0ccc7407ee0e7e4f06d5003898ddbc46
-  RICE_yarsanism_exists_tt: "세계 이벤트를 통해 야르사니 [신앙|E]가 등장했을 경우에만 이용 가능합니다." # c2c4adb7f98ff41593eabfc80bc272011a93773b
-  NOT_RICE_yarsanism_exists_tt: "세계 이벤트를 통해 야르사니 [신앙|E]가 등장했을 경우에만 이용 가능합니다." # c2c4adb7f98ff41593eabfc80bc272011a93773b
+  RICE_yazidism_exists_tt: "야지드교 [faith|E]가 세계 이벤트를 통해 등장했을 경우에만 가능합니다." # fc4b9d4b0ccc7407ee0e7e4f06d5003898ddbc46
+  NOT_RICE_yazidism_exists_tt: "야지드교 [faith|E]가 세계 이벤트를 통해 등장했을 경우에만 가능합니다." # fc4b9d4b0ccc7407ee0e7e4f06d5003898ddbc46
+  RICE_yarsanism_exists_tt: "세계 이벤트를 통해 야르사니 [faith|E]가 등장했을 경우에만 이용 가능합니다." # c2c4adb7f98ff41593eabfc80bc272011a93773b
+  NOT_RICE_yarsanism_exists_tt: "세계 이벤트를 통해 야르사니 [faith|E]가 등장했을 경우에만 이용 가능합니다." # c2c4adb7f98ff41593eabfc80bc272011a93773b
   dynn_Tirahaye: "티라하예" # 32aa92fb363dd52c4724c506b48b079e8b8c7e9e
   RICE_yazidi_bull_sacrifice_host_memory: "[GetActivityType( 'activity_RICE_yazidi_bull_sacrifice' ).GetName]를 수행했습니다." # e876ed4b5f5cc98af627fe737a5a2a062920f04b
   RICE_yazidi_bull_sacrifice_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_yazidi_bull_sacrifice' ).GetName]를 수행했습니다." # 289b501317a58e1d5044bb8aa9ae4359ded8b20d
@@ -92,8 +92,8 @@
   activity_RICE_yazidi_bull_sacrifice: "미트라에게 제물로 봉헌되는 황소" # 49dec9f8f61759f8ebdbfb43193171223ff32e2b
   activity_RICE_yazidi_bull_sacrifice_desc: "미트라, 또는 메흐의 소 제물은 우주의 창조를 이끌었다. 이 우주의 사건을 소 제물 의식으로 재현해 보자." # ff4cfbc504c8b805627b24eb8cb68cd4d75a4f88
   activity_RICE_yazidi_bull_sacrifice_selection_tooltip: "미트라에게 황소를 제물로 바칩니다.\n\n$activity_RICE_yazidi_bull_sacrifice_context_tooltip$" # 8913a9b19076527801b11710e4cf1d7c11dbfa9b
-  activity_RICE_yazidi_bull_sacrifice_context_tooltip: "#강조 역사적 배경:# 서부이란의 고대 서이란어 사용자, 즉 쿠르드족의 조상들은 조로아스터교와는 관련이 있지만 다른 종교를 따랐다는 이론이 있습니다. 이 종교는 이 지역의 야지디교, 야르산교 등 다른 종파의 종교적 기반이 되었을 가능성이 있습니다. 더욱 복잡하게 만드는 것은 정통 조로아스터교와 고대 북서이란 신앙이 공존했을 가능성도 있습니다. 어쨌든, 이 종교가 정통 조로아스터교와 달랐던 핵심 차이점은 소의 희생이 악신 아흐리만의 악행이 아니라, 신 미트라의 창조 행위라는 점이었습니다. 이러한 생각은 로마의 미트라 숭배에 영향을 미쳤을 가능성이 있으며, 중요한 야지디 축제인 집회 축제의 중심이 되는 소 희생의 선구자였을 수도 있습니다. 따라서, 이 활동은 다소 허구적이지만 고대와 초기 중세 시대의 쿠르드족과 같은 북서이란인들 사이에서 가능했던 경향과 신앙을 바탕으로 합니다." # 2a4c1f3d2a7926336984f88c5e0001736af99d84
-  activity_RICE_yazidi_bull_sacrifice_host_desc: "$BULLET_WITH_TAB$[명성|E]이 [명성_i|E] #V 25#! 와 [명성_i|E] #V 200#! 사이의 임의의 값으로 부여됩니다.\n$BULLET_WITH_TAB$[신앙|E]이 [신앙_i|E] #V 25#! 와 [신앙_i|E] #V 200#! 사이의 임의의 값으로 부여됩니다.\n$BULLET_WITH_TAB$당신의 [신앙도|E]에 따라 #V [GetPlayer.MakeScope.ScriptValue('RICE_yazidi_bull_sacrifice_chance')]%#! 의 확률로 (당신의 [신앙도|E]에 기반하여) 당신의 [기술|E] 중 하나를 강화하는 #P 긍정적#! [특성|E]을 받을 수 있습니다." # 10ab9d5e01f5a2c1074a3fe80403639865e1b0bc
+  activity_RICE_yazidi_bull_sacrifice_context_tooltip: "#bold 역사적 배경:# 서부이란의 고대 서이란어 사용자, 즉 쿠르드족의 조상들은 조로아스터교와는 관련이 있지만 다른 종교를 따랐다는 이론이 있습니다. 이 종교는 이 지역의 야지디교, 야르산교 등 다른 종파의 종교적 기반이 되었을 가능성이 있습니다. 더욱 복잡하게 만드는 것은 정통 조로아스터교와 고대 북서이란 신앙이 공존했을 가능성도 있습니다. 어쨌든, 이 종교가 정통 조로아스터교와 달랐던 핵심 차이점은 소의 희생이 악신 아흐리만의 악행이 아니라, 신 미트라의 창조 행위라는 점이었습니다. 이러한 생각은 로마의 미트라 숭배에 영향을 미쳤을 가능성이 있으며, 중요한 야지디 축제인 집회 축제의 중심이 되는 소 희생의 선구자였을 수도 있습니다. 따라서, 이 활동은 다소 허구적이지만 고대와 초기 중세 시대의 쿠르드족과 같은 북서이란인들 사이에서 가능했던 경향과 신앙을 바탕으로 합니다." # 2a4c1f3d2a7926336984f88c5e0001736af99d84
+  activity_RICE_yazidi_bull_sacrifice_host_desc: "$BULLET_WITH_TAB$[명성|E]이 [명성_i|E] #V 25#! 와 [명성_i|E] #V 200#! 사이의 임의의 값으로 부여됩니다.\n$BULLET_WITH_TAB$[faith|E]이 [신앙_i|E] #V 25#! 와 [신앙_i|E] #V 200#! 사이의 임의의 값으로 부여됩니다.\n$BULLET_WITH_TAB$당신의 [신앙도|E]에 따라 #V [GetPlayer.MakeScope.ScriptValue('RICE_yazidi_bull_sacrifice_chance')]%#! 의 확률로 (당신의 [신앙도|E]에 기반하여) 당신의 [기술|E] 중 하나를 강화하는 #P 긍정적#! [특성|E]을 받을 수 있습니다." # 10ab9d5e01f5a2c1074a3fe80403639865e1b0bc
   activity_RICE_yazidi_bull_sacrifice_guest_desc: "$activity_RICE_yazidi_bull_sacrifice_host_desc$" # 9a0e4d940a188c6bcd06477bde5c2775dd65b7e0
   activity_RICE_yazidi_bull_sacrifice_destination_selection: "$activity_RICE_yazidi_bull_sacrifice_province_desc$" # 0f62c37abdb0c6fc4c2e603b7424338339a9e3ac
   activity_RICE_yazidi_bull_sacrifice_guest_help_text: "$activity_RICE_yazidi_bull_sacrifice$" # 187c4d0e6b10c8fcf7928a100241d5c867262e15
@@ -143,7 +143,7 @@
   activity_RICE_yazidi_tiwaf: "티와프 축제" # 72b0ed37ea21d563e21b8ec2966b8b18e447cdeb
   activity_RICE_yazidi_tiwaf_desc: "우리 [faith|E]의 마을에는 종종 다양한 신성한 존재들을 위한 신전이 있습니다. #italic 티와프#! 축제는 이러한 신전에서 정기적으로 열리는 중요한 종교 행사일 뿐만 아니라, 우리 공동체를 하나로 묶고 사회적 유대감을 강화하는 중요한 자리이기도 합니다." # e983a0e87bb282b006b3668c967a353d84b06047
   activity_RICE_yazidi_tiwaf_selection_tooltip: "[GetPlayer.GetFaith.GetAdjective] 마을에서 열리는 티와프 축제에 참여하세요.\n\n$activity_RICE_yazidi_tiwaf_context_tooltip$" # b429df9f048ca695ff98a5dfaffe441c48c11b36
-  activity_RICE_yazidi_tiwaf_context_tooltip: "#강조 역사적 배경:# 모든 야지디 마을에는 성스러운 존재를 기리는 신전이 있습니다. 매년 이러한 신전에서는 티와프 축제가 열려 그들을 기념합니다. 종교적 기능 외에도 이러한 축제는 마을이 정체성을 재확인하고 사회적 유대감을 강화하는 중요한 방법입니다. 다른 마을에서 손님들이 찾아오는 것도 흔합니다. 야지디들이 강제 또는 자발적 이주로 다른 땅에 정착하더라도, 종종 조상의 전통을 이어가기 위해 원래 마을의 티와프를 계속합니다." # 405c9e2ab1227ac6df309e206b50f8e380462e9a
+  activity_RICE_yazidi_tiwaf_context_tooltip: "#bold 역사적 배경:# 모든 야지디 마을에는 성스러운 존재를 기리는 신전이 있습니다. 매년 이러한 신전에서는 티와프 축제가 열려 그들을 기념합니다. 종교적 기능 외에도 이러한 축제는 마을이 정체성을 재확인하고 사회적 유대감을 강화하는 중요한 방법입니다. 다른 마을에서 손님들이 찾아오는 것도 흔합니다. 야지디들이 강제 또는 자발적 이주로 다른 땅에 정착하더라도, 종종 조상의 전통을 이어가기 위해 원래 마을의 티와프를 계속합니다." # 405c9e2ab1227ac6df309e206b50f8e380462e9a
   activity_RICE_yazidi_tiwaf_host_desc: "$BULLET_WITH_TAB$신앙도 [piety_i] [piety|E] 증가\n$BULLET_WITH_TAB$명성 [prestige_i|E][prestige|E] 증가\n$BULLET_WITH_TAB$스트레스 [stress_loss_i|E][stress|E] 감소\n$BULLET_WITH_TAB$이 [activity|E]가 발생한 [county|E]는 [GetModifier('RICE_yazidi_tiwaf_religious_modifier').GetNameWithTooltip] 또는 [GetModifier('RICE_yazidi_tiwaf_community_modifier').GetNameWithTooltip] [county_modifier|E]를 얻습니다.  이는 당신의 [intent|E]에 따라 달라집니다." # 475011528c3b6978e1ab5a0193ddb2aebbb64f92
   activity_RICE_yazidi_tiwaf_guest_desc: "$activity_RICE_yazidi_tiwaf_host_desc$" # 1378270ad4f5340a373a9447486f8e11f3203b19
   activity_RICE_yazidi_tiwaf_destination_selection: "$activity_RICE_yazidi_tiwaf_province_desc$" # 0bd4f8ca9335128f6c78e4052aa2bd0f7e17a5d7
@@ -179,7 +179,7 @@
   activity_RICE_yazidi_tawus_geran: "타우우스 게란" # f927818a665a31e37a32f6a83887f6a320aadf7d
   activity_RICE_yazidi_tawus_geran_desc: "메렉 타우스의 공작기(peacock standard)를 저의 통치 아래 있는 [counties|E] 중 하나의 여러 마을로 가져가, 주민들에게 우리 [faith|E]에 대한 영감과 계몽을 불어넣어야 합니다." # 09c636c4509ab130ce46550fe6b0b811be30bc00
   activity_RICE_yazidi_tawus_geran_selection_tooltip: "소유한 [county|E]에 공작깃발을 가져다 [control|E]를 증가시키십시오.\n\n$activity_RICE_yazidi_tawus_geran_context_tooltip$" # c0aeda6128c0ed1cbea6e62c0fcdd1b47f1d278c
-  activity_RICE_yazidi_tawus_geran_context_tooltip: "#강조 역사적 배경:#! 타우스 게란, "타우스의 순례"는 야지디 의식으로, #italic 산작#!, 멜렉 타우스(공작 천사)의 깃발을 행진하는 의식입니다. #italic 케왈#!, 야지디 종교 찬가의 세습적인 연주자들은, 평화로운 시대이며 도로가 안전하다고 확신할 때, #italic 산작#!을 가지고 야지디 마을들을 순례합니다. 이는 야지디들이 종교적 신념을 배우고 종교적 헌신을 보여줄 수 있는 기회입니다. 여기 묘사는 주로 19세기 영국 선교사이자 동양학자였던 조지 퍼시 배저의 현장 목격담을 바탕으로 하고 있습니다." # f90c94ac44055d1a3283e8921d5a3182b545767b
+  activity_RICE_yazidi_tawus_geran_context_tooltip: "#bold 역사적 배경:#! 타우스 게란, "타우스의 순례"는 야지디 의식으로, #italic 산작#!, 멜렉 타우스(공작 천사)의 깃발을 행진하는 의식입니다. #italic 케왈#!, 야지디 종교 찬가의 세습적인 연주자들은, 평화로운 시대이며 도로가 안전하다고 확신할 때, #italic 산작#!을 가지고 야지디 마을들을 순례합니다. 이는 야지디들이 종교적 신념을 배우고 종교적 헌신을 보여줄 수 있는 기회입니다. 여기 묘사는 주로 19세기 영국 선교사이자 동양학자였던 조지 퍼시 배저의 현장 목격담을 바탕으로 하고 있습니다." # f90c94ac44055d1a3283e8921d5a3182b545767b
   activity_RICE_yazidi_tawus_geran_host_desc: "$BULLET_WITH_TAB$신앙도 [piety_i] [piety|E]를 얻으십니다.\n$BULLET_WITH_TAB$명성 [prestige_i|E][prestige|E]를 얻으십니다.\n$BULLET_WITH_TAB$이 [activity|E]가 일어나는 [county|E]의 [control|E] [control_i|E]를 증가시킵니다.\n$BULLET_WITH_TAB$적어도 #V [EmptyScope.ScriptValue('medium_lifestyle_xp')]#! [experience|E]의 [lifestyle|E] 경험을 얻으십니다." # 1d286ad6852ce2ac6b71284411deaea611fc22de
   activity_RICE_yazidi_tawus_geran_guest_desc: "$activity_RICE_yazidi_tawus_geran_host_desc$" # 88a9af26c4945095f095b93c3ed48509a9b1094f
   activity_RICE_yazidi_tawus_geran_destination_selection: "$activity_RICE_yazidi_tawus_geran_province_desc$" # fdf28e233d6865d3e45130f754b5e086a3b5577d
@@ -192,7 +192,7 @@
   RICE_yazidi_tawus_geran_donation_size_type_medium: "중간" # d404968ea90b07f16774ce75c7978d6ff60962f2
   RICE_yazidi_tawus_geran_donation_size_type_medium_desc: "$EFFECT_LIST_BULLET$ [신앙]이 #V 100#! 증가하고 [명성]이 #V 100#! 증가합니다.\n$EFFECT_LIST_BULLET$ 이 [지역]의 [지배력]이 [지배력_증가량] #V [EmptyScope.ScriptValue('RICE_yazidi_tawus_geran_control_gain_medium')]#! 또는 [지배력_증가량] #V [EmptyScope.ScriptValue('RICE_yazidi_tawus_geran_control_gain_medium_devotion')]#!만큼 증가합니다. [목표]에 따라 달라집니다.\n\n#weak 멜락 타우스의 이름으로 큰 기부를 해야겠습니다.#!" # c74f08df1192a2a9078894afab7de8b767a8e6be
   RICE_yazidi_tawus_geran_donation_size_type_large: "크다" # 738fd1d2452fc31a236c5ad511bfcc46b324365e
-  RICE_yazidi_tawus_geran_donation_size_type_large_desc: "$EFFECT_LIST_BULLET$ [신앙_i] #V 150#! [신앙|E] 및 [명성_i] #V 150#! [명성|E] 획득\n$EFFECT_LIST_BULLET$ 이 [지역|E]의 [지배력|E]를 [지배력_i|E] #V [EmptyScope.ScriptValue('RICE_yazidi_tawus_geran_control_gain_large')]#! 또는 [지배력_i|E] #V [EmptyScope.ScriptValue('RICE_yazidi_tawus_geran_control_gain_large_devotion')]#! 만큼 증가시킵니다. 이는 귀하의 [의도|E]에 따라 달라집니다.\n\n#weak 메렉 타우스를 위해서는 무엇이든 기꺼이 지원하겠습니다!#!" # 3460320835c712b1c80dcc267488a146042f8baa
+  RICE_yazidi_tawus_geran_donation_size_type_large_desc: "$EFFECT_LIST_BULLET$ [신앙_i] #V 150#! [faith|E] 및 [명성_i] #V 150#! [명성|E] 획득\n$EFFECT_LIST_BULLET$ 이 [지역|E]의 [지배력|E]를 [지배력_i|E] #V [EmptyScope.ScriptValue('RICE_yazidi_tawus_geran_control_gain_large')]#! 또는 [지배력_i|E] #V [EmptyScope.ScriptValue('RICE_yazidi_tawus_geran_control_gain_large_devotion')]#! 만큼 증가시킵니다. 이는 귀하의 [의도|E]에 따라 달라집니다.\n\n#weak 메렉 타우스를 위해서는 무엇이든 기꺼이 지원하겠습니다!#!" # 3460320835c712b1c80dcc267488a146042f8baa
   RICE_yazidi_tawus_geran_worship_phase: "숭배" # 82a99411bb49a330b3921012d5d35a92a44b5488
   RICE_yazidi_tawus_geran_worship_phase_desc: "#italic 산자크#!, 메렉 타우스의 신성한 상징이 나타났습니다!" # 9c1c47004684bfa1e20693e1b58dc734f345451c
   RICE_yazidi_tawus_geran_devotion_intent_header: "헌신:" # c21c200f14b4cea7e8511d66370c0c3aaf3cd3e9
@@ -200,14 +200,14 @@
   RICE_yazidi_tawus_geran_devotion_intent_desc: "영적인 믿음과 공작 천사에 대한 헌신을 보여주시고 싶으신가요? 그리고 주민들을 감동시키고 싶으신가요? [control_i|E] #P +50%#! [control|E] 얻음. [GetTrait('zealous').GetName( GetNullCharacter )|U]과 [GetTrait('humble').GetName( GetNullCharacter )] 성격의 인물들은 추가적인 [stress|E]를 잃을 것입니다." # 20225577eaeed6637e6192921123f4176fac3707
   RICE_yazidi_tawus_geran_learning_intent_header: "학습:" # 5e2ac49daa951806ff0575abbabc86ffb11331d6
   RICE_yazidi_tawus_geran_learning_intent: "학습" # 1016fcb2b4ff485857c733a5a8bcf8240d24fddd
-  RICE_yazidi_tawus_geran_learning_intent_desc: "#italic Qewals!#의 노래와 찬송에 귀 기울여 [신앙|E]을 더욱 깊이 이해하십시오. #V [EmptyScope.ScriptValue('major_lifestyle_xp')]#! 경험을 얻으시고 #V [EmptyScope.ScriptValue('medium_lifestyle_xp')]#! 경험은 얻지 못하실 것입니다. [근면|U]과 [야심] 속성을 가진 인물은 [stress|E]를 덜어낼 것입니다." # d23029d3f873070e8919b547823a074acf8648a5
+  RICE_yazidi_tawus_geran_learning_intent_desc: "#italic Qewals!#의 노래와 찬송에 귀 기울여 [faith|E]을 더욱 깊이 이해하십시오. #V [EmptyScope.ScriptValue('major_lifestyle_xp')]#! 경험을 얻으시고 #V [EmptyScope.ScriptValue('medium_lifestyle_xp')]#! 경험은 얻지 못하실 것입니다. [근면|U]과 [야심] 속성을 가진 인물은 [stress|E]를 덜어낼 것입니다." # d23029d3f873070e8919b547823a074acf8648a5
   RICE_yazidi_tawus_geran_completed_log_title: "타우우스 게란 완료" # f1397b792497c284aaea7ead203b9fb40a506d99
   RICE_yazidi_tawus_geran_completed_log: "[CHARACTER.GetShortUIName|U]는 타우스 게란 의식을 마쳤습니다." # 38704652f0673ba6d268e192f3e4303dcb9d57c3
   TRAVEL_NAME_FOR_activity_RICE_yazidi_tawus_geran: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_yazidi_tawus_geran$" # f19cdf87b8ba63a2948b988b4b3b4ffdcdaaa07a
   RICE_yazidi_sheikh_adi_recently_died: "아디 셰이크의 서거" # 1c51f6bcc512dc4b656d3e633e0e8b37f00e14a7
   RICE_yazidi_sheikh_adi_recently_died_desc: "수피즘의 성자 아디 셰이크가 최근 이곳에서 타계하여 안장되었습니다. 그의 지혜, 고행, 그리고 기적은 모든 신앙을 가진 지역 주민들에게 존경을 받았습니다. 일부 비판자들은 주민들이 그를 과도하게 숭배하기 시작했다고 주장하지만, 다른 이들은 그를 이러한 경건함에 걸맞는 위대한 종교 지도자로 여기고 있습니다.\n\n#EMP 이 지역에 새로운 종교 체계가 형성되고 있습니다. 이슬람, 고대 이란의 신앙, 그리고 더 많은 요소들이 혼합됩니다. 새로운 [faith|E], #bold 야지디즘#!,는 향후 수십 년 내에 이벤트를 통해 이 지역에서 출현할 가능성이 높습니다.#!" # 389def74d41df5e6b8b0e2dc6bd0b4ba3405f7f4
   RICE_yarsani_sultan_sahak_here: "술탄 사하크의 기적" # a5cdab2f5b87141182b6cac339f5ba65d1306487
-  RICE_yarsani_sultan_sahak_here_desc: "이 지역에는 슬라하크 술탄이라는 현명하고 위대한 종교 교사가 있다는 소문이 떠돌고 있습니다. 그가 지역의 오랜 전통을 개혁하는 독특한 종교 교리, 즉 특별한 신앙을 전파하고 있다는 소문이지요.\n\n#EMP 이 지역에 새로운 종교 체계가 형성되고 있습니다. 이슬람, 고대 이란의 신앙, 그리고 그 외의 요소가 혼합되어 이루어지고 있지요. #bold 야르산교#!라는 새로운 [신앙|E]가 수십 년 내에 이벤트를 통해 이 지역에서 나타날 가능성이 높습니다.#!" # 8fd08f870b680dbfd52bc15da9faeb5c7d3e71b5
+  RICE_yarsani_sultan_sahak_here_desc: "이 지역에는 슬라하크 술탄이라는 현명하고 위대한 종교 교사가 있다는 소문이 떠돌고 있습니다. 그가 지역의 오랜 전통을 개혁하는 독특한 종교 교리, 즉 특별한 신앙을 전파하고 있다는 소문이지요.\n\n#EMP 이 지역에 새로운 종교 체계가 형성되고 있습니다. 이슬람, 고대 이란의 신앙, 그리고 그 외의 요소가 혼합되어 이루어지고 있지요. #bold 야르산교#!라는 새로운 [faith|E]가 수십 년 내에 이벤트를 통해 이 지역에서 나타날 가능성이 높습니다.#!" # 8fd08f870b680dbfd52bc15da9faeb5c7d3e71b5
   RICE_yazidi_tiwaf_religious_modifier: "티와프 축제 후 종교적 영감" # 74feaba3f6b765bea0fd30f49b5f80b817c4cf14
   RICE_yazidi_tiwaf_community_modifier: "티와프 축제 후 공동체 결속 강화" # 014f0f285b081e6e7273940f480029ea8c95d681
   RICE_yarsani_jam_host_small_modifier: "소규모 잼 의식을 후원했습니다." # db39f38723a697127daae16ba692d29eb0641ed4

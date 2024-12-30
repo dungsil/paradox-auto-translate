@@ -145,11 +145,11 @@
   RICE_socotra_admiring_Socotras_beauty: "소코트라의 아름다움을 감탄하며" # 168736167c24f32c2c42d5409671df84f02f5d38
   RICE_socotra_new_kingdom: "소코트라에 새로운 왕국이 일어섭니다" # 56fcbe2852ff1b084572c362d71b9df825839c9d
   RICE_pirate_indian_ocean_connections_modifier: "인도양 해적 연결망" # 79d52c9f776ef4b86f9761b37d2a17a1eb0d8090
-  RICE_pirate_indian_ocean_connections_modifier_desc: "이 캐릭터는 인도양의 특정 해적 단체들과 연계되어 있습니다.\n\n#EMP [결정|E]에서 $RICE_pirate_indian_ocean_decision$에 대한 다양한 옵션을 잠금 해제합니다.!#" # b9a772c0965a5cc323162cf5859d0e956b1f6d5e
+  RICE_pirate_indian_ocean_connections_modifier_desc: "이 캐릭터는 인도양의 특정 해적 단체들과 연계되어 있습니다.\n\n#EMP [decision|E]에서 $RICE_pirate_indian_ocean_decision$에 대한 다양한 옵션을 잠금 해제합니다.!#" # b9a772c0965a5cc323162cf5859d0e956b1f6d5e
   RICE_indian_ocean_pirate_sales: "인도양 해적 시장" # 8900db991da1753e2461eaa1dd7afe77cf40db31
   RICE_indian_ocean_pirate_sales_desc: "지역 통치자들은 해적(또는 그들과 협력 관계를 맺은 해적)이 불법으로 얻었든 아니든 이 지역에서 상품을 판매하는 것을 허용합니다. 결국 많은 '해적'은 상인이기도 하며, 다시 말해 많은 상인이 부업으로 해적질을 하고 있습니다." # 64b061753581e32692845ae46b0819ee51a5d176
   RICE_indian_ocean_reneged_pirate_deals: "인도양 해적과의 합의 파기" # 7fd9a2ef4bef214c946bc0b59169e86831177ff4
-  RICE_indian_ocean_reneged_pirate_deals_desc: "#EMP는 특정 [인도양 해적|E] 관련 [결정|E]을 방지합니다.#!" # 3a7b99bf1928cfe7c3ff9967173e8914ef46c849
+  RICE_indian_ocean_reneged_pirate_deals_desc: "#EMP는 특정 [인도양 해적|E] 관련 [decision|E]을 방지합니다.#!" # 3a7b99bf1928cfe7c3ff9967173e8914ef46c849
   RICE_socotra_collaborate_with_pirates: "인도양 해적과 협력" # f7874782684e9128e6bb1b470a0edfc3b4942b6c
   RICE_socotra_collaborate_with_pirates_tooltip: "[indian_ocean_local_pirate|E]와 협상하여 그들이 당신의 영토에서 작전 기지를 유지하는 것을 허용하는 대신, 그들의 수익의 일부를 받고 당신의 보호 아래 있는 상인들을 괴롭히지 않겠다는 약속을 받습니다." # 11d80b587a9fcfaa6dd351013b6428bd9d7f11f4
   RICE_socotra_collaborate_with_pirates_desc: "서로의 적에게서 이익을 얻기 위해 협력할 수 있는데 왜 이 [indian_ocean_pirates|E]에 맞서 싸우는가?" # ddc18bb9ad38c2568d96bb26b96aeecc87ecc8f2
@@ -158,7 +158,7 @@
   RICE_socotra_collaborate_with_pirates_requirement_1: "수도는 해안에 있으며 인도양에 있습니다." # 4f8ffb98a6f7c6ed4b345fbae2da35967ab5b3e6
   RICE_socotra_collaborate_with_pirates_requirement_2: "당신의 [dynasty|E] 가 [GetDynastyPerk('RICE_socotra_indian_ocean_legacy_3').GetName] [dynasty_perk|E]를 해금했습니다." # 5ad162ef33785732406b49e41fa91c8430757cd4
   RICE_socotra_collaborate_with_pirates_requirement_3: "기존 해적 소굴이 있는 영지는 없습니다" # a0528a0ddf28afff8f42fb88b0ff5882889d9879
-  RICE_socotra_collaborate_with_pirates_context_tooltip: "#강조 역사적 배경:#! 무장 상인과 해적의 경계는 종종 모호했습니다. 단순한 약탈은 장기적인 목표로는 종종 실현 가능하지 않았습니다. 따라서 인도양과 같은 많은 해양 지역에서 역사적으로 많은 지배층은 종종 해적들과 함께 이익과 얻음을 위해, 경제적 경쟁자이자 상호 적대적인 세력을 약화시키기 위해 협력했습니다." # 0b7c19175acc70cf28bae728a761061223efefa2
+  RICE_socotra_collaborate_with_pirates_context_tooltip: "#bold 역사적 배경:#! 무장 상인과 해적의 경계는 종종 모호했습니다. 단순한 약탈은 장기적인 목표로는 종종 실현 가능하지 않았습니다. 따라서 인도양과 같은 많은 해양 지역에서 역사적으로 많은 지배층은 종종 해적들과 함께 이익과 얻음을 위해, 경제적 경쟁자이자 상호 적대적인 세력을 약화시키기 위해 협력했습니다." # 0b7c19175acc70cf28bae728a761061223efefa2
   RICE_socotra_invest_in_socotran_trade_goods: "소코트라 무역 상품에 투자" # 49c0af52c387c570bb20bb76fd960b474eabc33f
   RICE_socotra_invest_in_socotran_trade_goods_tooltip: "소코트라에서 생산되는 몇 가지 희귀한 교역품 중 하나에 투자할 것입니다." # ad8a7046fc37aef25e0d1ab306afb222ccc3d482
   RICE_socotra_invest_in_socotran_trade_goods_desc: "수십 세대 동안 소코트라 섬은 희귀하고 귀중한 자원의 산지로 유명해 왔습니다. 이러한 자원 덕분에 섬은 큰 이익을 얻었습니다." # 1377053dd19d4cd3f0065caba68618d85db55a0d
@@ -180,14 +180,14 @@
   RICE_socotra_draft_bawarij_pirates_tooltip: "당신을 위해 싸울 [bawarij_pirates|E]를 일부 고용할 것입니다. 비록 의도치 않은 결과가 생길 수 있지만요." # b5e728d7be852c7a9af0040e4fdb3840740767a0
   RICE_socotra_draft_bawarij_pirates_desc: "인도양 통치자들이 [indian_ocean_local_pirates|E]와 협력하는 것은 흔한 일이지만, 특히 바와리즈처럼 두려움과 강대함을 가진 자들에게는 협력을 얻기 위한 인센티브로 평소보다 더 많은 것을 제공해야 할 때도 있습니다." # 95c0ef242c8d439b1585b0b4aa1e54b16591ed16
   RICE_socotra_draft_bawarij_pirates_confirm: "절박한 시기에는 절박한 조치가 필요합니다." # 2a4ecd0da955c8998ccb899fc40d65914eb14518
-  RICE_socotra_draft_bawarij_pirates_context_tooltip: "#강조 역사적 배경:#! 유럽의 황금 해적 시대 사략선과 유사하게, 중세 인도양의 해적들은 종종 상호 이익을 위해 국가와 협력했으며, 이는 군사적 지원을 포함했습니다." # ae6aa8d99a06ce3cf182c5d6c8f5ca626883df48
+  RICE_socotra_draft_bawarij_pirates_context_tooltip: "#bold 역사적 배경:#! 유럽의 황금 해적 시대 사략선과 유사하게, 중세 인도양의 해적들은 종종 상호 이익을 위해 국가와 협력했으며, 이는 군사적 지원을 포함했습니다." # ae6aa8d99a06ce3cf182c5d6c8f5ca626883df48
   RICE_socotra_draft_bawarij_pirates_requirement: "소코트라는 현재 #V 바와리즈 침입#! [county_modifier|E]이(가) 없습니다." # 68e21df0d704354158b953147955209577e9f26b
   RICE_socotra_host_poetry_competition: "시 낭송 대회 개최" # 0f9970f71739dae07fe92dfd050ec2e550fc0732
   RICE_socotra_host_poetry_competition_tooltip: "당신은 남부 아라비아어를 사용하는 사람들의 전통적인 방식으로 시 대회를 개최할 것입니다." # 6e89b3dab0e20e923964fddefb39d62516417b0e
   RICE_socotra_host_poetry_competition_desc: "시를 잘 짓는 자들을 모아, 그중 누가 가장 웅변에 능한지 알아봐야 합니다!" # 33fa50336de3984a464c840cfa80d36360eab107
   RICE_socotra_host_poetry_competition_effect_tooltip: "각계각층의 남녀가 당신의 수도에 모여 위대한 대회를 치를 것입니다. 그중 누가 가장 위대한 시를 즉흥적으로 지을 수 있을까요?" # 9212820667c98bd5cd86e707970c9563d535bd1c
   RICE_socotra_host_poetry_competition_confirm: "시란 영혼의 언어이다!" # 7c2a7ed19da1b026934ddeb879ea6dc7d4e858f4
-  RICE_socotra_host_poetry_competition_context_tooltip: "#강조 역사적 배경:#! 남아라비아인들, 특히 소코트라 족의 시는 아라비아 반도 다른 지역의 아랍인들과는 눈에 띄게 다른 전통을 지닙니다. 소코트라에서는, 제시된 주제나 소재를 바탕으로 가장 뛰어난 즉흥시를 짓는 사람을 가리는 시합이 빈번히 열렸고, 현재도 계속되고 있습니다." # e7eb438223a7d71098df500212df3d66070c6e1c
+  RICE_socotra_host_poetry_competition_context_tooltip: "#bold 역사적 배경:#! 남아라비아인들, 특히 소코트라 족의 시는 아라비아 반도 다른 지역의 아랍인들과는 눈에 띄게 다른 전통을 지닙니다. 소코트라에서는, 제시된 주제나 소재를 바탕으로 가장 뛰어난 즉흥시를 짓는 사람을 가리는 시합이 빈번히 열렸고, 현재도 계속되고 있습니다." # e7eb438223a7d71098df500212df3d66070c6e1c
   RICE_socotra_moon_sacrifice: "달 제물 바치기" # 32d5228cea3350422cc10a0af15827e958bb9ae2
   RICE_socotra_moon_sacrifice_tooltip: "당신은 전통적인 소코트라 방식으로 달에게 제물을 바칠 것입니다." # 79abc0a738ee8c300f9bbdacb7506e6cfc3c7718
   RICE_socotra_moon_sacrifice_desc: "달은 언제나 그래왔듯이 소코트라를 보호하고 인도할 것입니다. 우리가 달에 만족스러운 희생을 바치는 한 말입니다." # 616c901ab2713ce6f7b2e3a19f20dae280c7b3d9
@@ -202,7 +202,7 @@
   RICE_socotra_form_socotra_kingdom_tooltip: "당신은 소코트라 섬을 독립적인 [kingdom|E](으)로 개혁할 것입니다." # eef8c3fada78755dd48d68d360845da24d16bd0c
   RICE_socotra_form_socotra_kingdom_desc: "다양한 기원, [bawarij_pirates|E]에서 탈출한 노예, 머나먼 땅에서 온 상인들로 이루어진 소코트라인 우리는 독립적인 영역으로서 함께 자랑스럽게 서 있습니다. 인도양의 다른 국가들이 우리의 힘을 인정할 때입니다!" # bb1c2239e191ef6931be223784aa82cb6dcb6849
   RICE_socotra_form_socotra_kingdom_confirm: "운명이 우리의 사랑스러운 섬을 기다립니다!" # 41901555d6447a58906895ef6fc8a4ae3ca7cdff
-  RICE_socotra_form_socotra_kingdom_context_tooltip: "#강조 역사적 배경:#! 소코트라가 강력한 국가로 성장하지는 못했으며, 때로는 인근 세력에 의해 식민지가 되었지만, 험준하고 황량한 지리적 위치 덕분에 독립을 유지했던 시절도 있었습니다." # 1a02c375d19ac56f1b53a3b98ffbecef46c1f0a8
+  RICE_socotra_form_socotra_kingdom_context_tooltip: "#bold 역사적 배경:#! 소코트라가 강력한 국가로 성장하지는 못했으며, 때로는 인근 세력에 의해 식민지가 되었지만, 험준하고 황량한 지리적 위치 덕분에 독립을 유지했던 시절도 있었습니다." # 1a02c375d19ac56f1b53a3b98ffbecef46c1f0a8
   RICE_pirate_indian_ocean_decision: "인도양 해적과 접촉" # f322a59c89c2dc72fbc4d65cf2c6324318fcd81e
   RICE_pirate_indian_ocean_decision_tooltip: "$RICE_pirate_indian_ocean_decision_tooltip$" # ac995ebecd6fbbdcab98bfad274717963c5c15e6
   RICE_pirate_indian_ocean_decision_desc: "[GetGeographicalRegion('RICE_indian_ocean_region').GetName]은 항상 해적들의 거처였습니다. 숙련된 [rulers|E]는 서로에게 이익이 되는 협력적인 해적들과 언제 협력해야 하는지 알고 있습니다." # 31b90c2472b79f9a0aa58c2dc1a4eb6871f35c81
@@ -210,15 +210,15 @@
   RICE_pirate_indian_ocean_decision_requirement_1: "#V 인도양 해적 소굴#이 있는 [county|E]를 소유하거나 [GetModifier('RICE_pirate_indian_ocean_connections_modifier').GetNameWithTooltip] [character_modifier|E]를 보유하고 있습니다." # 8cc8a867e90a35123fcfd9407ffe9d93134b25ec
   RICE_NOT_pirate_indian_ocean_decision_requirement_1: "#bold 소유하지#! 않았습니다. #V 인도양 해적 소굴#!이 있는 [county|E]이거나 [GetModifier('RICE_pirate_indian_ocean_connections_modifier').GetNameWithTooltip] [character_modifier|E]를 가지고 있습니다." # b953691e630cc111cc535ef34ddacb7166cdfbe0
   RICE_pirate_indian_ocean_decision_context_tooltip: "$RICE_socotra_collaborate_with_pirates_context_tooltip$" # 63e9c935dec24688cd25168185c68faaf695efc5
-  RICE_pirate_establish_relations_effect_tooltip_2: "이제 [결정|E]에서 $RICE_pirate_indian_ocean_decision$에 대한 다른 옵션을 사용할 수 있습니다" # 7245cc2d1ac7e6f0890b5d89823c989583241ce9
+  RICE_pirate_establish_relations_effect_tooltip_2: "이제 [decision|E]에서 $RICE_pirate_indian_ocean_decision$에 대한 다른 옵션을 사용할 수 있습니다" # 7245cc2d1ac7e6f0890b5d89823c989583241ce9
   indian_ocean_pirate_intro_text: "[GetGeographicalRegion('RICE_indian_ocean_region').GetName]에 제 연결망이 닿는 해적 집단이 활동하고 있습니다. 이들은 제 영토를 공격하지 않고, 공동의 이익이 있을 때 저를 돕기로 합의했습니다." # d3ba810bb15a5c6ee85e3c9abcd36383b818d3fa
   RICE_indian_ocean_renege_on_pirate_collaboration: "인도양 해적 협력 철회" # 733a113951c335ac26b9c7f397565c82ca8b7456
   RICE_indian_ocean_renege_on_pirate_collaboration_tooltip: "당신은 [indian_ocean_local_pirates|E]와 맺은 합의를 철회하고 그들이 당신 영토에서 어떠한 작전 기지를 유지하는 것을 금지할 것입니다." # 8a836c2b182de9afabe1890bf2762e7ef341b017
   RICE_indian_ocean_renege_on_pirate_collaboration_desc: "이 [indian_ocean_local_pirates|E]는 협력하기에는 골칫덩어리입니다. 많은 이들이 상인이지만 평판이 좋지 않은 사람들도 많으니, 이제 그들의 혼란에서 벗어나야 할 때입니다." # 1234628c8877207335fe9cb9d19629e54ad9059a
-  RICE_indian_ocean_renege_on_pirate_collaboration_effect_tooltip_1: "소유하고 있는 모든 [카운티|E]에서 #V $building_type_RICE_pirate_den_01$#! [특수 건물|E]는 해당 [건물|E]이 제거됩니다." # 7ad19e80fa209eeabb40748c23f6a0938684cd86
+  RICE_indian_ocean_renege_on_pirate_collaboration_effect_tooltip_1: "소유하고 있는 모든 [county|E]에서 #V $building_type_RICE_pirate_den_01$#! [특수 건물|E]는 해당 [건물|E]이 제거됩니다." # 7ad19e80fa209eeabb40748c23f6a0938684cd86
   RICE_indian_ocean_renege_on_pirate_collaboration_effect_tooltip_2: "이를 실행하는 데 드는 [gold_i|E] [gold|E] 및 [prestige_i|E] [prestige|E] 비용과 획득하는 [legitimacy_i|E] [legitimacy|E]는 소유한 [counties|E]에 있는 이러한 [buildings|E]의 수와 그 수준, 그리고 [diplomacy_i|E] [diplomacy|E], [martial_i|E] [martial|E] 및 [intrigue_i|E] [intrigue|E] [skills|E]에 따라 달라집니다." # 51df1f89f16bbe482fed3a113bb5d48df8740cca
   RICE_indian_ocean_renege_on_pirate_collaboration_effect_tooltip_3: "@warning_icon! #X 게임 제약으로 인해 이 [buildings|E]의 [special_building|E] 슬롯은 제거되지 않습니다!#" # 04de9d4ed6ff69c9daa56cadbad3474acffcfbf5
-  RICE_indian_ocean_renege_on_pirate_collaboration_effect_tooltip_4: "@warning_icon! #X 이 [결정|E]은 [GetTitleByKey('c_socotra').GetNameNoTier]의 $building_type_RICE_bawarij_den_01$ [특수 건물|E]에 영향을 미치지 않습니다#!" # a7ce444e3d6cbcc56c2afee516730bdb96b37318
+  RICE_indian_ocean_renege_on_pirate_collaboration_effect_tooltip_4: "@warning_icon! #X 이 [decision|E]은 [GetTitleByKey('c_socotra').GetNameNoTier]의 $building_type_RICE_bawarij_den_01$ [특수 건물|E]에 영향을 미치지 않습니다#!" # a7ce444e3d6cbcc56c2afee516730bdb96b37318
   RICE_every_county_with_indian_ocean_pirate_building_tt: "#V $building_type_RICE_pirate_den_01$#! [특수 건물|E]을 가진 모든 [백작령|E]" # d53608019e0d61c9ef5e19c69818759eb38d525d
   RICE_indian_ocean_renege_on_pirate_collaboration_confirm: "그들은 좋아하지 않겠지만, 우리는 해야 합니다" # e3088e401d35cdd01e962ccbd349fdb100236b91
   RICE_indian_ocean_renege_on_pirate_collaboration_req: "#V $building_type_RICE_pirate_den_01$#! [특수 건물|E]이 있는 [백작령|E]을 소유합니다" # 786e1851dcfefbe1018ce071a800d395792b844f
@@ -233,7 +233,7 @@
   RICE_socotra_indian_ocean_legacy_1_effect: "#V 소코트라 무역 상품 투자# 결정을 평생에 한 번 이상 내릴 수 있습니다" # 42b58d01443493df1c42cd9ea6d5267a223d8980
   RICE_socotra_indian_ocean_legacy_2_effect_1: "소코트라에서 [bawarij_pirate|E] [courtiers|E]가 생성될 확률을 높입니다" # 50f06163f44092ad44c19c8378cf467a0caaaab0
   RICE_socotra_indian_ocean_legacy_2_effect_2: "#V 바와리지 궁정 귀족#! 이제 서부 인도양의 소코트라가 아닌 지역의 궁정에도 등장할 수 있습니다." # 0c7c79fe18695568b45778dff5aeec4808fc03b3
-  RICE_socotra_indian_ocean_legacy_3_effect: "#V 인도양 해적 소굴#을 건설할 수 있습니다. 만약 당신의 영토에 아직 없다면 특별한 [결정|E]인 #V 인도양 해적과 협력하기#를 통해 건설할 수 있습니다!" # 3c122a28707d6bcc1c835c9ff344686b572e4ec1
+  RICE_socotra_indian_ocean_legacy_3_effect: "#V 인도양 해적 소굴#을 건설할 수 있습니다. 만약 당신의 영토에 아직 없다면 특별한 [decision|E]인 #V 인도양 해적과 협력하기#를 통해 건설할 수 있습니다!" # 3c122a28707d6bcc1c835c9ff344686b572e4ec1
   RICE_socotra_indian_ocean_legacy_5_effect: "#V 인도양 해적 소굴# 건물 연쇄의 마지막 건물을 해금합니다." # e01ef070c67171c2203ce418187ffb5247adbf56
   building_type_RICE_pirate_den_01: "인도양 해적 소굴" # f20f5e424c7ec2ea621b4cf27118e4f100b09586
   building_type_RICE_pirate_den_01_desc: "무장 상인과 해적 사이의 경계는 종종 모호합니다. 단순한 약탈은 장기적인 목표로는 종종 실현 가능하지 않으므로, 인도양과 같은 많은 해양 지역에서 엘리트들은 종종 해적들과 이익과 얻음을 위해, 그리고 경제적 경쟁자이자 상호 적대 세력을 약화시키기 위해 함께 일합니다." # a4e08d80ee6c098c87da660fd82d4d01d9454a6e

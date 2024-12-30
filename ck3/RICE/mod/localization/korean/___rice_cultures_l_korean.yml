@@ -85,7 +85,7 @@
   tradition_RICE_beyond_the_reach_of_eagles_desc: "고대인들은 이 문화의 고향인 파미르와 힌두쿠시를 '독수리도 닿을 수 없는 땅'이라 불렀으니, 심지어 새조차 저 우뚝 솟은 봉우리 위를 날 수 없다고 전해진다. 그러나 이 분열된 부족들은 이 산속에서 간신히 살아가는 것이 아니라, 견디고, 번성하고, 살아가며, 스스로 활기찬 사회를 만들었다." # 559e3d6281e483e61969c7407ad37af762f1aa4c
   tradition_RICE_galician_portuguese_poetry_name: "갈리시아-포르투갈 서정시" # f1e00e1ebaf4278a67dcd30f4e7e50a8eb709224
   tradition_RICE_galician_portuguese_poetry_desc: "#F 이 문화권의 시인들은 일반적으로 서정시를 지을 때 이베리아 로망스어의 갈리시아-포르투갈어 변형을 사용합니다. 칸티가는 이 시인들 사이에서 특징적인 노래 스타일입니다.!#" # 5dcc24c8c551aa02d1e11e6a4132cb7df27242e9
-  culture_parameter_unlock_cantiga_decisions: "[culture|E]의 [언어|E] 또는 [유산|E]에 관계없이 (다른 요구 사항이 충족되는 경우) [칸티가스|E] 및 칸티가스 데 산타 마리아를 작곡할 수 있는 [결정|E]을 얻습니다." # 858c9f6f6cb405a320e2df46f99ade1000b7214c
+  culture_parameter_unlock_cantiga_decisions: "[culture|E]의 [언어|E] 또는 [유산|E]에 관계없이 (다른 요구 사항이 충족되는 경우) [칸티가스|E] 및 칸티가스 데 산타 마리아를 작곡할 수 있는 [decision|E]을 얻습니다." # 858c9f6f6cb405a320e2df46f99ade1000b7214c
   culture_parameter_better_cantiga_results: "이 [culture|E]의 [characters|E]는 더 높은 [cantiga_quality|E]의 [cantigas|E]를 작곡할 가능성이 더 높습니다." # ef2a4ba3f715c3ea54e31153f94041b91fabad03
   culture_parameter_promote_cantiga_bonuses: "$RICE_galicia_promote_cantiga$ 결정을 내리면 [piety|E]와 [prestige|E]를 더 많이 얻고, 생성되는 [artifacts|E]에는 추가 보너스가 있습니다." # 11aae923c3bef31bf030c63137401ce7a39e9f56
   culture_parameter_unlock_rice_pamir_tribesmen: "[GetMaA('RICE_pamir_tribesmen').GetName]를 [men_at_arms|E]로 고용할 수 있습니다" # 078af6bc9d54c8fd3e157216a8febc39d711335a
@@ -93,8 +93,8 @@
   tradition_RICE_whalers_desc: "#F 이 문화권은 고래 사냥 방법과 고래에서 고기와 지방을 추출하는 방법에 능숙합니다.#!" # ef1366befba8a60632cc319df07d0ddc3b1c0c15
   tradition_RICE_master_whalers_name: "숙련된 포경꾼" # 2ead5654870e54ba1d43310ae7fee3617d220ea6
   tradition_RICE_master_whalers_desc: "#F 이 문화를 외부인이 거의 이해할 수 없는 방식으로 포경을 진정으로 이해한다고 말하는 것은 과장이 아닙니다. 그들은 고래를 찾고 사냥하며 고기와 지방을 처리하는 데 전문가일 뿐만 아니라, 지도자들이 포경 산업에서 이익을 얻기 위해 기꺼이 자금을 대는 노련한 기업가이기도 합니다.!#" # dc0fa80494fca78ac6c437361b499029ecf73b69
-  culture_parameter_unlock_rice_whaling: "$RICE_north_atlantic_whale_hunt$를 위한 [결정|E]을 해금합니다." # d31170f2322ad3179b7af81e2793df42d884d4b1
-  culture_parameter_unlock_rice_whaling_stations: "이 [문화|E]권의 [백작령|E]을 다스리는 [통치자|E]들에게 $RICE_north_atlantic_whale_exempt_tax$와 $RICE_north_atlantic_whale_levy_extra_tax$ [결정|E]을 해금합니다" # 7d7e2efc6e5698cf4647ec854f84885403801c67
+  culture_parameter_unlock_rice_whaling: "$RICE_north_atlantic_whale_hunt$를 위한 [decision|E]을 해금합니다." # d31170f2322ad3179b7af81e2793df42d884d4b1
+  culture_parameter_unlock_rice_whaling_stations: "이 [문화|E]권의 [백작령|E]을 다스리는 [통치자|E]들에게 $RICE_north_atlantic_whale_exempt_tax$와 $RICE_north_atlantic_whale_levy_extra_tax$ [decision|E]을 해금합니다" # 7d7e2efc6e5698cf4647ec854f84885403801c67
   culture_parameter_unlock_rice_better_whaling: "$RICE_north_atlantic_whale_hunt$ 결정을 활성화하며, 이 결정을 가진 다른 [cultures|E]에 비해 성공 확률이 더 높고, 성공 시 더 많은 [gold|E]을 얻을 수 있습니다." # 4390ad3d49154838e275b152903d1064afe2f614
   tradition_RICE_arctic_adaptations_name: "북극 적응" # bc0a839a12ab34645fe7d5492a4a22eabb5da177
   tradition_RICE_arctic_adaptations_desc: "#F 수 세기에 걸쳐, 이 문화는 그들이 북극 지역의 추운 땅과 물에서 살아남을 뿐만 아니라 번성하는 데 필수적인 전통 지식과 제도를 발전시켜 왔습니다.!#" # 30642928a30d730bd40cf38e9bf063fc0fbb7050
@@ -113,18 +113,18 @@
   tradition_RICE_music_practice_name: "음악 연습가와 향유자" # aa46c11b764c2204500f2a442ff22839e6aa59fc
   tradition_RICE_music_practice_desc: "#F 이 문화권에서는 음악적 재능과는 상관없이 개인적인 풍요나 지위 향상을 위해 고전 악기를 규칙적으로 연주하는 것이 중요하다고 여깁니다. 반대로 이 문화권의 젊은이들은 종종 레이브에 가서 EDM 음악을 듣는 것을 즐깁니다. (이 문화권 사람들은 이상하게도 절대음감을 가질 확률이 더 높습니다.)#!" # 75596027d32ba347ae360c62228be52f631d394a
   culture_parameter_unlock_rice_edm_raves: "EDM 레이브에 참석하는 [decision|E]과 당신의 레이브 애인이 되어달라고 부탁하는 [interaction|E]을(를) 해금합니다" # 1ff5c6899a645bb516cb02b7dd697d23c2796199
-  culture_parameter_unlock_rice_music_practice: "[결정|E] 악기 연주를 해 [GetTrait('poet').GetName( GetPlayer )] [특성|E]을 얻을 가능성을 엽니다." # 9e85650c79f900560e94a09632a948907e6772f4
-  culture_parameter_unlock_rice_boba_drink: "[결정|E]을 해방하여 보바를 마시면서 [stress|E]를 줄이거나 다른 사람들과 교류하십시오" # 92691eaa3fae0bf228db556e6c31c7833300cb79
-  culture_parameter_unlock_rice_kevin_nguyen_abg: "[결정|E]을 해금하여 AGB 또는 케빈 응우옌이 되고 케빈 또는 ABG [문화|E]를 형성할 수 있습니다." # 184414282a0bdd2f27b63d7e64f416a28425a46d
+  culture_parameter_unlock_rice_music_practice: "[decision|E] 악기 연주를 해 [GetTrait('poet').GetName( GetPlayer )] [특성|E]을 얻을 가능성을 엽니다." # 9e85650c79f900560e94a09632a948907e6772f4
+  culture_parameter_unlock_rice_boba_drink: "[decision|E]을 해방하여 보바를 마시면서 [stress|E]를 줄이거나 다른 사람들과 교류하십시오" # 92691eaa3fae0bf228db556e6c31c7833300cb79
+  culture_parameter_unlock_rice_kevin_nguyen_abg: "[decision|E]을 해금하여 AGB 또는 케빈 응우옌이 되고 케빈 또는 ABG [문화|E]를 형성할 수 있습니다." # 184414282a0bdd2f27b63d7e64f416a28425a46d
   tradition_RICE_kala_settlements_name: "칼라 정착지" # dcd030a8dd69b21ccbaced8b37db55c83501ec75
   tradition_RICE_kala_settlements_desc: "이란 세계와 중앙아시아 초원 지대의 국경은 다양한 민족과 생활양식으로 가득 차 있으며, 종종 변화하는 상태에 놓여 있습니다. 이러한 변경 지역에서는 분쟁이 불가피하며, 이 문화는 자신들의 중요한 정착지를 요새화된 중심지로 만들어 자신들의 것을 보호하고 무역 및 정치적 통제를 용이하게 하는 전통을 발전시켜 왔습니다." # 58134eaaad303c1b9653567c5f4106694a442c19
-  culture_parameter_unlock_rice_kala_decision: "칼라스를 강화하는 [결정|E]을 해제합니다" # 7333207d60e16dc76cb63ac2188b5cdc89c465a1
+  culture_parameter_unlock_rice_kala_decision: "칼라스를 강화하는 [decision|E]을 해제합니다" # 7333207d60e16dc76cb63ac2188b5cdc89c465a1
   tradition_RICE_akhtarvenik_name: "아크타르베니크스" # e19a72193949c13ab319c25c1a9bd2f74e8885ff
   tradition_RICE_akhtarvenik_desc: "고대부터 호라즘 사람들은 천문학, 달력, 수학 기술로 중동과 중앙아시아 전역에 명성을 떨쳤습니다. 악타르베니크는 천문학자를 뜻하는 전통적인 호라즘 용어입니다." # 1c3962fc93885e9222883cc2d36eeee4a242f8cd
   tradition_RICE_khuzi_name: "쿠즈 백성" # dd31ea8ef7937ec0366fac409f0ac788ab8c5daa
   tradition_RICE_khuzi_desc: "수 세대에 걸쳐, 쿠지족은 이웃들에게 낙인찍혀 왔으며, 심지어 그들의 이름을 모욕적인 용어로 사용하기도 합니다. 많은 이들이 강력한 귀족과 왕족의 궁정에서 화장실 시종이나 유모와 같은 천한 일을 하지만, 이는 그들에게 막후에서 어느 정도의 영향력을 행사할 수 있게 해줍니다." # 439cce05aa4f26b8f0d43d0136b7975d87b7d973
   culture_parameter_khuzi_mechanic_1: "$khuzi$에서 파생된 모든 [cultures|E]와 $khuzi$ 자체는 이 [tradition|E]을 가졌든 아니든 자동으로 $innovation_RICE_khuzi$ [innovation|E]을 얻는데, 이는 [domain_limit|E], [diplomacy|E], [prestige|E] 감소와 같은 #N 부정적인 효과#를 가지고 있습니다!" # 4dc01466c6b01bbf362823c368f8c284efd3387c
-  culture_parameter_khuzi_mechanic_2: "[결정|E] $RICE_khuzestan_khuzi_status_decision$을 내림으로써, $innovation_RICE_khuzi$ [혁신|E]이 해당 혁신을 가진 모든 [문화|E]에서 제거될 뿐만 아니라, 이 [전통|E]이 더 나은 보너스를 제공하도록 업그레이드됩니다." # 02368c7bcb37138891b628cb1d48decb25ca135c
+  culture_parameter_khuzi_mechanic_2: "[decision|E] $RICE_khuzestan_khuzi_status_decision$을 내림으로써, $innovation_RICE_khuzi$ [혁신|E]이 해당 혁신을 가진 모든 [문화|E]에서 제거될 뿐만 아니라, 이 [전통|E]이 더 나은 보너스를 제공하도록 업그레이드됩니다." # 02368c7bcb37138891b628cb1d48decb25ca135c
   RICE_khuzi_mechanic_desc: "이 [innovation|E]은 $tradition_RICE_khuzi_name$ [tradition|E]이 있는 [cultures|E] 또는 그러한 [culture|E]에서 파생된 모든 [cultures|E]가 자동으로 얻습니다. 단, $RICE_khuzestan_khuzi_status_decision$ [decision|E]을 내리면 그렇게 되고, 이 [decision|E]은 이 [innovation|E]을 가진 모든 [cultures|E]에서 제거합니다." # a4bbc7cd8a94ad12578e12773d888275cb0defa6
   tradition_RICE_khuzi_elevated_elymaean_name: "쿠즈 백성" # dd31ea8ef7937ec0366fac409f0ac788ab8c5daa
   tradition_RICE_khuzi_elevated_elymaean_desc: "후제스탄에 있는 이 문화의 조상들은 한때 이웃들에게 낙인이 찍혔으며, 심지어 그들의 이름을 모욕적인 용어로 사용했습니다. 그러나 최근의 정치적, 사회적 변화로 인해 이들은 존경받을 가치가 있는 민족으로 다시 자리매김했습니다. 이제 그들은 고대에 궁술에 능숙했고 완강하게 독립을 유지했던 엘리마에인과 같은 바로 이전의 선조들을 모방하고 있습니다." # d6c25ab2c7d325c9d78042c6127fd9b0a8f06251
@@ -199,7 +199,7 @@
   tradition_RICE_between_three_worlds_name: "세 세계 사이에서" # c569dc42f431ef78bce8be4b881b46b7aad5f12e
   tradition_RICE_between_three_worlds_desc: "이 문화는 이슬람, 비잔티움, 라틴 서구의 교차점에 위치한 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 변경 지역에서 태어났습니다. 이 문화의 사람들은 세 문화 모두에 깊은 영향을 받았으며, 때로는 혼란스러운 지중해의 정치 지형을 헤쳐나가는 방법을 알고 있습니다." # 67aae9f86323102f2b5e8e8d17041098b4a6ae83
   culture_parameter_unlock_rice_sicilian_trait_bonuses: "[GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]은 추가 보너스를 제공합니다" # a4ed159041dfd96b84a30e2c76a14032192bbacb
-  culture_parameter_unlock_rice_sicilian_recruit_soldiers_bonuses: "$RICE_sicily_recruit_soldiers_decision$ [결정|E]은 [sicily_stronghold|E] [county_modifier|E]가 나타날 가능성을 높입니다." # 86171508c2527dedf30222229e918c55a42917ae
+  culture_parameter_unlock_rice_sicilian_recruit_soldiers_bonuses: "$RICE_sicily_recruit_soldiers_decision$ [decision|E]은 [sicily_stronghold|E] [county_modifier|E]가 나타날 가능성을 높입니다." # 86171508c2527dedf30222229e918c55a42917ae
   culture_parameter_unlock_rice_sicilian_request_expedition_bonuses: "$RICE_request_sicily_intervention_interaction$ 상호작용에 필요한 [interaction|E] 비용이 더 저렴해졌습니다" # 298fc4d174cceb1f0b63b6e42888ecea1da0fe7d
   culture_parameter_unlock_rice_sicilian_bargain_bonuses: "[decision|E]이 [sicily_strongholds|E]와 협상할 확률이 더 높습니다" # 8e53e0ee9bce267a89430b4ce18be177186f4265
   tradition_RICE_longbeards_name: "장발족" # ed7bb714034a180e516b70a6cf02a162cc7d5a18

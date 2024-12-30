@@ -81,9 +81,9 @@
   setting_RICE_tuareg_emergence_override_desc: "투아레그 [culture|E]는 $culture_era_high_medieval$ [era|E] 이후 [decision|E]을 통해 생성될 수 있습니다. RICE는 다른 모드의 투아레그를 덮어쓰고 필요한 경우 게임 시작 시 지도에서 제거합니다." # 620355cd42abeafad0153300ec5653ae255cd238
   rule_RICE_yazidi_emergence: "RICE 야지디교의 부상" # 8647fe6dc650a1e3ee3ae62f7a8b3091248432f9
   setting_RICE_yazidi_emergence_default: "기본" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
-  setting_RICE_yazidi_emergence_default_desc: "야지디 [신앙|E]은 게임 시작 후 반세기 후에 무작위로 생성될 수 있지만, 12세기 이후에 생성될 가능성이 더 높습니다." # 518dd07eb22b31038eaedc4157169dce5e7a3196
+  setting_RICE_yazidi_emergence_default_desc: "야지디 [faith|E]은 게임 시작 후 반세기 후에 무작위로 생성될 수 있지만, 12세기 이후에 생성될 가능성이 더 높습니다." # 518dd07eb22b31038eaedc4157169dce5e7a3196
   setting_RICE_yazidi_emergence_historical: "#높은 역사적 배경#!" # 024959dc74d99532465d4c4acb08d4e6d3d99e58
-  setting_RICE_yazidi_emergence_historical_desc: "야지디 [신앙|E]는 12세기 중반 이후에만 무작위로 생성될 수 있습니다." # c77cc0655fdaa5aef51568614eea148af36a2725
+  setting_RICE_yazidi_emergence_historical_desc: "야지디 [faith|E]는 12세기 중반 이후에만 무작위로 생성될 수 있습니다." # c77cc0655fdaa5aef51568614eea148af36a2725
   setting_RICE_yazidi_emergence_unrestricted: "#high 제한 없음#!" # e990c191d99a8305d27653c20592737b14e1ab2b
   setting_RICE_yazidi_emergence_unrestricted_desc: "야지디 [faith|E]는 언제든지 생성될 수 있습니다." # 9a7be71a9e5012a8ef923046b7ee8873d2b6bf1e
   rule_RICE_yarsani_emergence: "RICE 야르사니의 부상" # a99c9be2fd2e540df7e4330b6e2e4d261a4070c3
@@ -161,7 +161,7 @@
   RICE_activity_result_gained_smaller_prestige: "소량의 [prestige_i] [prestige|E]를 얻었습니다" # 729813ddb20888722bd24a10dfd061b27742dbb1
   RICE_hot_springs_county_req: "[realm|E]에 유명한 [hot_springs|E]가 있는 [county|E]가 하나 이상 있습니다." # 66118478b168a3dc13f43c3ce1f629c94ccf76fc
   RICE_not_tribal_government_req: "귀하의 [government|E]은(는) [GetGovernment( 'tribal_government' ).GetName]이(가) 아닙니다" # 5d74433a76ebac45daeb318de1827c28d9787241
-  RICE_has_tribal_holding_req: "소유한 모든 [카운티|E]에는 [부족 영토|E]가 있습니다." # b6f2bfe6f51e7071504e9f32e804bc78f0b1b2c5
+  RICE_has_tribal_holding_req: "소유한 모든 [county|E]에는 [부족 영토|E]가 있습니다." # b6f2bfe6f51e7071504e9f32e804bc78f0b1b2c5
   RICE_has_castle_holding_req: "소유한 모든 [county|E]에는 [castle_holding|E]이 있습니다." # 4e4ad9439b45cb56286cbe5f4c6b0bb1118e5513
   RICE_has_city_holding_req: "소유한 [county|E]에는 [city_holding|E]가 있습니다" # e43b0d75f5b853e9eaeab40c73cc03a51d740d7b
   RICE_has_temple_holding_req: "소유한 모든 [county|E]에는 [temple_holding|E]이 있습니다." # 2bfc209a5a83b3a713fa7fb11bcd309c690de62c
@@ -240,7 +240,7 @@
   game_concept_local_pilgrimages_short: "순례" # f2fc7330402fb939a642a62c5a1a0c1ef8d926cc
   game_concept_local_pilgrimage: "지역 순례" # 91b72ecfc32f7455088f31cc63a64d69acf85e2e
   game_concept_local_pilgrimages: "지역 순례" # 6e4c46220659636b1fffe5f8c5bcb17e58b86649
-  game_concept_local_pilgrimage_desc: "$game_concept_local_pilgrimages$는 특정 종교 장소 근처를 다스리거나 거주하는 [통치자|E]가 이용할 수 있는 [활동|E]입니다. 이러한 순례는 규모와 영향력이 훨씬 더 작은 규모이므로, 자신의 [신앙|E]의 [성지|E]로 가는 더 웅장한 [순례|E]와는 구별됩니다.\n\n모든 사람이 현지 순례에 접근할 수 있는 것은 아닙니다. 또한, [통치자|E]가 적절한 위치에 있더라도 특정 [결정|E]을 내리거나 특정 이벤트가 발생해야만 사용할 수 있는 현지 순례가 많습니다. 현지 순례는 때로는 제공하는 혜택이나 순례를 갈 수 있는 사람들의 지리적 범위를 늘릴 수 있는 추가 특별 [결정|E]과 관련되기도 합니다.\n\n그럼에도 불구하고, 일반 [순례|E]보다 더 적은 혜택을 제공하지만, 현지 순례는 특정 목적지에 따라 특별한 [캐릭터_모디파이어|E]와 같은 고유한 혜택을 제공하는 경우가 많습니다. 또한, 더 웅장한 [순례|E]를 준비하기 위해 일반 [순례|E]보다 느린 속도이긴 하지만, [GetTrait('pilgrim').GetName( GetNullCharacter )] [특성_레벨_트랙_XP|E]을 얻는 데 좋은 방법입니다." # be8153aa21ccd50ba742299d326dc8b58f692e96
+  game_concept_local_pilgrimage_desc: "$game_concept_local_pilgrimages$는 특정 종교 장소 근처를 다스리거나 거주하는 [통치자|E]가 이용할 수 있는 [활동|E]입니다. 이러한 순례는 규모와 영향력이 훨씬 더 작은 규모이므로, 자신의 [faith|E]의 [성지|E]로 가는 더 웅장한 [순례|E]와는 구별됩니다.\n\n모든 사람이 현지 순례에 접근할 수 있는 것은 아닙니다. 또한, [통치자|E]가 적절한 위치에 있더라도 특정 [decision|E]을 내리거나 특정 이벤트가 발생해야만 사용할 수 있는 현지 순례가 많습니다. 현지 순례는 때로는 제공하는 혜택이나 순례를 갈 수 있는 사람들의 지리적 범위를 늘릴 수 있는 추가 특별 [decision|E]과 관련되기도 합니다.\n\n그럼에도 불구하고, 일반 [순례|E]보다 더 적은 혜택을 제공하지만, 현지 순례는 특정 목적지에 따라 특별한 [캐릭터_모디파이어|E]와 같은 고유한 혜택을 제공하는 경우가 많습니다. 또한, 더 웅장한 [순례|E]를 준비하기 위해 일반 [순례|E]보다 느린 속도이긴 하지만, [GetTrait('pilgrim').GetName( GetNullCharacter )] [특성_레벨_트랙_XP|E]을 얻는 데 좋은 방법입니다." # be8153aa21ccd50ba742299d326dc8b58f692e96
   game_concept_aspiring: "야망" # c9b355f08d40c1311457d3b1c8325cd28b39b0f8
   game_concept_aspires: "열망함" # 77f5955595d40e0786405639bd98f275c8740eba
   game_concept_aspired: "열망하는" # 830af9269274511e3a20af20d37446fe5c61dfa7

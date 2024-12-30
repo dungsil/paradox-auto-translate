@@ -1,5 +1,5 @@
 ﻿l_korean:
-  RICE_every_volga_beekeeper_county: "$tradition_RICE_volga_apiculture_name$ [전통|E]을 가진 [문화|E]의 모든 [영지|E]" # 9e354128e6b989372dbd5610c93396ef06b5fccc
+  RICE_every_volga_beekeeper_county: "$tradition_RICE_volga_apiculture_name$ [전통|E]을 가진 [문화|E]의 모든 [county|E]" # 9e354128e6b989372dbd5610c93396ef06b5fccc
   RICE_volga_river_region: "볼가 강 유역" # e3a4401242b8b2e94644339fdaed98b860daf817
   RICE_culture_in_volga_river_basin_desc: "[culture|E]이(가) [GetGeographicalRegion('RICE_volga_river_region').GetName]에 최소 #V 4#!개의 [counties|E]를 보유하고 있습니다." # 7e51ff9ee2e76154c9624c5475f3dad50e890d5f
   RICE_location_volga_apiculture_county_req: "당신의 [domicile|E] [location|E]의 [culture|E]에는 $tradition_RICE_volga_apiculture_name$ [tradition|E]이(가) 있습니다." # 6350bcb168e5ef07b25e843633dcf77b1c0e7ca6
@@ -131,7 +131,7 @@
   RICE_mordvin_major_ozks_festival_effect_tooltip_1: "대기도회를 조직하여 [신앙심|E], [명성|E] 또는 다양한 유익한 [캐릭터_modifier|E]를 얻거나 [stress|E]를 줄일 수 있습니다" # 8c162424fefaefbdf098ff1f723163fac6f7a15b
   RICE_mordvin_major_ozks_festival_effect_tooltip_2: "만약 당신의 [capital|E]이 [THIS.Char.GetFaith.GetReligion.GetAdjective] [faith|E]을 따른다면, #V 5#! 년 동안 [GetModifier('RICE_mordvin_ine_ozks_recently_held').GetNameWithTooltip] [modifier|E]를 받게 될 것입니다." # 4eec4c830476ceaed065f5cffeffc1d9201165f8
   RICE_mordvin_major_ozks_festival_confirm: "오즈크 준비!" # d095728031b60e1f27b05ff035ed43aadb21cbf5
-  RICE_mordvin_major_ozks_festival_context_tooltip: "#강조 역사적 배경:#! #italic 오즈크#!는 몰도바인족의 공적인 기도, 숭배 의식, 그리고 종교적 명절을 지칭하는 용어입니다. 현대에는 이 중 가장 잘 알려진 것은 라스켄 오즈크이며, 여기 묘사는 라스켄 오즈크에 기반하고 있습니다. 라스켄 오즈크는 1600년대 차르 정부에 의해 금지되었으나 1999년에 부활했습니다." # bd2c12cbd5e9474a0516c0cb607838517bfc880e
+  RICE_mordvin_major_ozks_festival_context_tooltip: "#bold 역사적 배경:#! #italic 오즈크#!는 몰도바인족의 공적인 기도, 숭배 의식, 그리고 종교적 명절을 지칭하는 용어입니다. 현대에는 이 중 가장 잘 알려진 것은 라스켄 오즈크이며, 여기 묘사는 라스켄 오즈크에 기반하고 있습니다. 라스켄 오즈크는 1600년대 차르 정부에 의해 금지되었으나 1999년에 부활했습니다." # bd2c12cbd5e9474a0516c0cb607838517bfc880e
   RICE_misc_sacrifice_horses: "말을 제물로 바치기" # e94a7c28913ce4f6e67ec0b61f8cacbba5b0ee74
   RICE_misc_sacrifice_horses_desc: "[ROOT.Char.GetFaith.GetAdjective] 신앙을 가진 자들이 기억할 수 있을 정도로 오랜 옛날부터 조상과 [ROOT.Char.GetFaith.PantheonTerm]에게 말을 제물로 바치는 것이 관습이었습니다." # 17a7497764f4fd8060e8e1504ed8eb629faf1989
   RICE_misc_sacrifice_horses_tooltip: "말을 희생할 것입니다." # ac3b6c28fddae7407ec175fe8f2f50b667332dc4
@@ -156,7 +156,7 @@
   RICE_mordvin_extract_beekeeper_tribute_desc: "볼가강 유역에서 유래한 우리 백성들은, 제 영지 내의 백성들처럼 양봉 능력으로 유명합니다. 이미 꿀, 밀랍 등 다양한 벌 생산품 형태로 여러 마을에서 세금을 징수하고 있지만, #italic 더 많이#! 징수하면 어떨까요?" # 7ced259ce949f5419eee62159039a703481c074f
   RICE_mordvin_extract_beekeeper_tribute_tooltip: "지역 양봉업자들에게 더 많은 공물을 요구하여 추가 [gold|E] 획득" # 30827340938cf445fcb881fb7c6573b9636fedd8
   RICE_mordvin_extract_beekeeper_tribute_effect_tooltip_1: "#V [gold_i|E] [GetPlayer.MakeScope.ScriptValue('RICE_mordvin_beekeeper_extra_tribute_min_value')]#!부터 #bold 최대#! #V [gold_i|E] [GetPlayer.MakeScope.ScriptValue('RICE_mordvin_beekeeper_extra_tribute_max_value')]#!까지의 [gold|E]를 무작위로 받습니다." # f79be95cd7c9945336d8c284b98cdd61808efe11
-  RICE_mordvin_extract_beekeeper_tribute_effect_tooltip_2: "이 금액은 귀하의 [관리력_스킬|E]와 귀하의 [영지|E] 내 [문화|E]가 $tradition_RICE_volga_apiculture_name$ [전통|E]인 [카운티|E] 수에 따라 달라집니다." # 883c1273fc7957c1209037c204dde1e2c6ed9c5e
+  RICE_mordvin_extract_beekeeper_tribute_effect_tooltip_2: "이 금액은 귀하의 [관리력_스킬|E]와 귀하의 [county|E] 내 [문화|E]가 $tradition_RICE_volga_apiculture_name$ [전통|E]인 [county|E] 수에 따라 달라집니다." # 883c1273fc7957c1209037c204dde1e2c6ed9c5e
   RICE_mordvin_extract_beekeeper_tribute_confirm: "왕국의 양봉가들에게 즉시 알리십시오!" # 4337b6fa1f3f4c718fb89a510804b586b04e4b25
   RICE_mordvin_extract_beekeeper_tribute_context_tooltip: "#emphasis 역사적 배경:#! 볼가 강 유역에서 벌꿀 채취는, 특히 몰도바인, 마리, 우드무르트, 추바시, 타타르족과 같은 핀우그리아 및 터키계 민족에게 매우 수익성 높은 산업이었습니다. 예를 들어, 유명한 10세기 아랍 탐험가 이븐 파드란은 이 지역에서 교역되는 꿀의 양에 대해 언급합니다. 이후 초기 근대 시대에, 차르 정부는 이들 민족에게 꿀과 같은 벌꿀 제품 형태의 공물을 징수했습니다." # 7f11736a89b8fef2e79f56f3d156a56dac2a58fc
   RICE_mordvin_any_county_has_volga_apiculture_culture_req: "$tradition_RICE_volga_apiculture_name$ [전통|E]을 가진 [문화|E]의 [백작령|E]을 하나 이상 소유하십시오" # 2ea717d9d48a6592d50b0dfbfcbd1439e73944ae

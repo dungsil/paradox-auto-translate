@@ -92,7 +92,7 @@
   VIETmisc.0020.desc: "오늘 아침에 들었던 재밌는 농담이 생각 안 나서 괴롭습니다. 몇 분 동안 멈추지 않고 웃었는데 말이죠." # 05d7f484a1d26ffce5eec9767169d98a9ff51d02
   VIETmisc.0020.a: "아, 그래도 웃었으니 다행이죠!" # 6e1d0b299fe948a7b82eb1752654148c69f2a1ce
   VIETmisc.0021.t: "누구신가?" # 581464f49ab2985acfc73ba93b31dd692d9405fe
-  VIETmisc.0021.desc: ""[ROOT.Char.GetFirstNameNoTooltip]!" 뒤편에서 목소리가 들려옵니다. "[ROOT.Char.GetFirstNameNoTooltip]!"\n\n"누구십니까?" 크게 외쳤습니다.\n\n침묵.\n\n흠. 이상하군.\n\n내 이름을 부르는 소리가 들렸던 것 같은데, 고개를 돌려보니 아무도 없군.\n\n참으로 이상하네...." # fcdd6d32a8e50937c75d36d7e153ba34b0beb55c
+  VIETmisc.0021.desc: ""[ ROOT.Char.GetFirstNameNoTooltip ]!" 뒤편에서 목소리가 들려옵니다. "[ ROOT.Char.GetFirstNameNoTooltip ]!"\n\n"누구십니까?" 크게 외쳤습니다.\n\n침묵.\n\n흠. 이상하군.\n\n내 이름을 부르는 소리가 들렸던 것 같은데, 고개를 돌려보니 아무도 없군.\n\n참으로 이상하네...." # fcdd6d32a8e50937c75d36d7e153ba34b0beb55c
   VIETmisc.0021.a: "착각이었겠지." # 20d82baee35aa38765bc0bf45b1e13a68bdd794f
   VIETmisc.0022.t: "지루한 회의" # 3309a77a931e8da7470502b8fc393d11194c17f3
   VIETmisc.0022.desc: "평범하고 지루한 회의였습니다. 특별히 긴급한 사안은 아니었지만, 내 의회는 끊임없이 이런저런 문제들에 대해 떠들고 있었습니다. 주변을 둘러보며, 내 신하들이 늘어놓는 말들에 내가 주의를 기울일 만한 가치가 있는지 궁금했습니다." # e245caaab17d1f92420fbf56aa7127bc9a7d5002
@@ -431,7 +431,7 @@
   VIETmisc.0087.a: "그러셨군요.  그럼 풀어주시지요." # 442e5946f22de950a96a79040585281d10a0fa83
   VIETmisc.0087.b: "벌금을 물어야 할 것입니다." # 94112c7b0d8f5a8a45170fe3ee4dca0ad700ae28
   VIETmisc.0087.c: "저 악당! 즉시 감금하십시오!" # 37145223b747a46f21d619c1e5fde37eb8edd781
-  VIETmisc.0087.info: "#강조 역사적 배경:#!  숫자를 기록하는 데 사용되는 특수한 막대는 선사 시대부터 기록 유지 방법으로 사용되어 왔습니다. 중세 시대에는 문맹이 흔했기 때문에 이러한 막대는 매우 신뢰할 만한 기록 수단으로 여겨졌습니다. 그 중요성을 보여주듯이, 나폴레옹 법전과 같이 19세기에도 언급될 정도였습니다." # 5c257c8272da466011acf5043e95e268ee0d450c
+  VIETmisc.0087.info: "#bold 역사적 배경:#!  숫자를 기록하는 데 사용되는 특수한 막대는 선사 시대부터 기록 유지 방법으로 사용되어 왔습니다. 중세 시대에는 문맹이 흔했기 때문에 이러한 막대는 매우 신뢰할 만한 기록 수단으로 여겨졌습니다. 그 중요성을 보여주듯이, 나폴레옹 법전과 같이 19세기에도 언급될 정도였습니다." # 5c257c8272da466011acf5043e95e268ee0d450c
   VIETmisc.0088.t: "주사위의 게임" # 9cf48e4527f2b0fec49660645c0b3bd4826aa726
   VIETmisc.0088.desc: "시장에서 주사위 게임을 벌이는 남자 주위에 사람들이 모여 있습니다.\n\n"저의 [ROOT.Char.GetLadyLord], [ROOT.Char.GetTitledFirstNameNoTooltip]님! 여기 계시다니 영광입니다." 그는 미소지으며 말합니다. "주사위 게임 한두 판 하실 생각 없으십니까? 몇 푼의 금화는 당신께는 문제가 되지 않으리라 생각합니다."\n\n"먼저 지켜보겠습니다."라고 말합니다.\n\n이후, 여러 노름꾼들이 돈을 따보려고 애쓰지만, 소용없는 듯합니다. 주인은 상당한 행운을 가진 것 같고, [ROOT.Char.GetFaith.HighGodName]의 은총을 받은 듯합니다 (그렇게 주장합니다). 주사위는 대개 그의 편을 들어 굴러갑니다." # 8f22a9a72d7f3d5eb548c344218ae4db773022ff
   VIETmisc.0088.a: "지금은 그러고 싶지 않아요." # 1a15902ffc08d81624d4a7138b5aa459649c5bfc
@@ -467,14 +467,14 @@
   VIETmisc.0093.desc: "제가 아는 한 학자가 여러 가지 돌, 보석, 광물 등의 성질과 특성에 관한 논문, 즉 석학서의 사본을 발견했다고 말했습니다. 그의 집을 방문했을 때, 그는 그 오래된 석학서를 보여주었습니다. 상당히 크고 중요한 정보로 가득 차 보였습니다." # aacc39e79c89ccc3164cebdc2574a0b64d406808
   VIETmisc.0093.a: "잠시 빌릴 수 있을까요?" # a954a64be49115fba5cf7a2dada679ceede24b81
   VIETmisc.0093.b: "훌륭하고 아름다운 책입니다." # 4dbdbee07ea447ab99475c08f524104c3bc706ff
-  VIETmisc.0093.info: "#강조 역사적 배경:# 석학은 지구에서 발견되는 돌, 보석, 광물, 기타 물질에 대한 정보를 제공하는 일종의 텍스트 또는 책이었습니다. 다양한 돌들은 문화와 시대에 따라 서로 다른 유용하거나 해로운 성질을 지닌 것으로 여겨졌습니다. 석학은 때때로 종교적 관점에서 돌을 분석하기도 했는데, 즉, 서로 다른 돌들의 가려진 마법적 성질을 논의했습니다." # 5a0896254190d284a596830877e345b44bb570ad
+  VIETmisc.0093.info: "#bold 역사적 배경:# 석학은 지구에서 발견되는 돌, 보석, 광물, 기타 물질에 대한 정보를 제공하는 일종의 텍스트 또는 책이었습니다. 다양한 돌들은 문화와 시대에 따라 서로 다른 유용하거나 해로운 성질을 지닌 것으로 여겨졌습니다. 석학은 때때로 종교적 관점에서 돌을 분석하기도 했는데, 즉, 서로 다른 돌들의 가려진 마법적 성질을 논의했습니다." # 5a0896254190d284a596830877e345b44bb570ad
   VIETmisc.0094.t: "번개 돌" # 9a47f7c91d9189c6f54e25a9534fae22a1ff41d4
   VIETmisc.0094.desc: "이곳에서 그리 멀지 않은 들판에서 많은 천둥돌이 발견되었습니다. 지역 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]들은 이것들이 [ROOT.Char.GetFaith.HighGodName]와 [ROOT.Char.GetFaith.DevilName]의 신성한 힘 사이의 전쟁의 흔적인지, 아니면 악의나 장난으로 사람들을 매혹하기 위해 하급 영혼과 요정들이 사용했던 활과 화살의 유물인지 논쟁 중입니다. 어느 쪽이든, 이 돌들은 특히 그 수가 많기 때문에 영적인 힘으로 가득 차 있다는 데는 의견이 일치합니다. 그러나 더 합리적인 학자들은 이 돌들이 천둥번개가 발생하는 동안 자연적인 현상으로 만들어졌고, 번개를 통해 지구에 떨어진 것이라고 생각합니다." # 31fb572121ed339eb8069f8ff069082972eb9d4c
   VIETmisc.0094.a: "농부들은 돌을 이용하여 가축을 보호할 수 있습니다." # 474acf64fc34487e1a036725d468feee95189a70
   VIETmisc.0094.b: "그들을 현지 [ROOT.Char.GetFaith.HouseOfWorship]로 데려가 경배받게 하십시오." # 1a98e625d818f4dc249491e6d4525b13f709c62b
   VIETmisc.0094.c: "이것들을 불운을 막는 부적처럼 사용해야 합니다." # 3c5f4df4548f2e8151b4781e97f14da1e58c29dd
   VIETmisc.0094.d: "학자들이 이 돌들을 연구하는 것이 좋을 것 같습니다." # 731c295032f1dc9fe343d2758c6e1a215609880a
-  VIETmisc.0094.info: "#강조 역사적 배경:#! 과거, 사람들은 선사시대의 석기 도구나 발굴한 화석의 기원에 대한 다양한 이론을 가지고 있었습니다. 일부는 이것들이 여러 신성하거나 초자연적인 현상의 징표라고 믿었고, 다른 이들은 이것들이 자연적인 기원을 가지고 있으며 천둥 번개로 인해 생겨났다고 생각했습니다. - 바로 이러한 이유로 이것들을 천둥돌이라고 불렀습니다. 학자들이 이것들이 돌도구 시대의 인공물임을 깨달은 것은 18세기와 19세기에 이르러서야 했습니다." # 30c030fd88b020304b9eb8230190853439d63ec4
+  VIETmisc.0094.info: "#bold 역사적 배경:#! 과거, 사람들은 선사시대의 석기 도구나 발굴한 화석의 기원에 대한 다양한 이론을 가지고 있었습니다. 일부는 이것들이 여러 신성하거나 초자연적인 현상의 징표라고 믿었고, 다른 이들은 이것들이 자연적인 기원을 가지고 있으며 천둥 번개로 인해 생겨났다고 생각했습니다. - 바로 이러한 이유로 이것들을 천둥돌이라고 불렀습니다. 학자들이 이것들이 돌도구 시대의 인공물임을 깨달은 것은 18세기와 19세기에 이르러서야 했습니다." # 30c030fd88b020304b9eb8230190853439d63ec4
   VIETmisc.0095.t: "샌드맨, 나에게 꿈을 가져다줘" # 7d3fcfeb4043c83fb45133b0ba4f936cdf02d2e6
   VIETmisc.0095.desc: "“하늘에 맹세합니다!” [scope_VIET_sandman_dreamer.GetTitledFirstName]가 말했습니다. “어젯밤 꿈속에서 샌드맨이 찾아와 잠들게 했지요.”\n\n“정신 나갔군요?” [scope_VIET_sandman_skeptic.GetTitledFirstName]가 외쳤습니다. “그건 어른들이 잠이 오는 이유를 설명하기 위해 지어낸 쓸데없는 이야기일 뿐이지요.”\n\n“사실입니다. 믿기만 하면 돼요. 샌드맨이 제게 아름다운 꿈을 선사했어요. 분명 그분이셨지요.”" # 626c08a6228fb118538f8bbdb4539ac6b48bd8ad
   VIETmisc.0095.a: "[scope_VIET_sandman_dreamer.GetTitledFirstName]의 말씀을 믿어보도록 하십시오.  [scope_VIET_sandman_dreamer.GetSheHe]가 거짓말할 이유는 무엇입니까?" # d4801bdaa4188a65ff66aa4eea7bb716e6fbbaad
@@ -503,7 +503,7 @@
   VIETmisc.0100.b: "자신을 방어했지만, 여전히 한 사람을 죽였습니다. 그녀는 투옥될 것입니다." # 515ded268cacc7b5aa75fdb47855ec2494f7e5e0
   VIETmisc.0100.c: "살인은 살인입니다. 그녀의 이야기는 의심스럽습니다. 그녀는 처형될 것입니다." # 017838127d7558e8be61deee00c81db85c2c0c24
   VIETmisc.0101.t: "안녕하세요!" # 69342c5c39e5ae5f0077aecc32c0f81811fb8193
-  VIETmisc.0101.desc: ""[ROOT.Char.GetTitledFirstNameNoTooltip]님, 안녕하십니까." 늙은 하인이 제게 인사하며 복도를 지나가는 제게 고개를 숙였습니다. "좋은 하루 되시길 바랍니다."" # fb1932d87931f3ac3311ebb2812bc8b6d626e240
+  VIETmisc.0101.desc: ""[ ROOT.Char.GetTitledFirstNameNoTooltip ]님, 안녕하십니까." 늙은 하인이 제게 인사하며 복도를 지나가는 제게 고개를 숙였습니다. "좋은 하루 되시길 바랍니다."" # fb1932d87931f3ac3311ebb2812bc8b6d626e240
   VIETmisc.0101.a: "좋은 하루 되세요." # 35eb2588d1e4bcdbeac0d587a7878608b50ffee3
   VIETmisc.0101.b: "흠! 하인들은 보이는 존재여야지, 들리는 존재는 아닙니다!" # bd5896d3ce7effa476d7d28eab73e097c83dedb8
   VIETmisc.0102.t: "A Test" # 8f0c0855915633e4a7de19468b3874c8901df043
@@ -572,7 +572,7 @@
   VIETmisc.0116.b: "다른 의견이 있을 수 있겠지만, 타인을 판단할 자격은 저에게 없습니다." # 8237f0ea7265d554de267add2420e8d8b11ed2a1
   VIETmisc.0116.c: "그들을 보니… 이제 어떻게 해소해야 할까?" # 0f5453c7f3ebe186fbc264f64e8d9b104f37dac7
   VIETmisc.0116.d: "저도 함께 하겠습니다. 잘 댓가를 드리겠습니다." # 804f224a9326f28ed06101cc189c67041056c7dd
-  VIETmisc.0116.info: "#강조 역사적 배경:# 과거 많은 사회에서, 법률이 있음에도 불구하고, 결혼한 부부 간이든 아니든 공개적으로 성적인 활동을 하는 것은 드문 일이 아니었습니다. 좁고 붐비는 환경에서 살던 일반 백성들은 그럴 수밖에 없었습니다." # 0507fa7433869fcf42720e5167b4b05ba0dda54b
+  VIETmisc.0116.info: "#bold 역사적 배경:# 과거 많은 사회에서, 법률이 있음에도 불구하고, 결혼한 부부 간이든 아니든 공개적으로 성적인 활동을 하는 것은 드문 일이 아니었습니다. 좁고 붐비는 환경에서 살던 일반 백성들은 그럴 수밖에 없었습니다." # 0507fa7433869fcf42720e5167b4b05ba0dda54b
   VIETmisc.0117.t: "요리의 기술" # 09378aac13e355315ddf3f76772110129bf2bd1c
   VIETmisc.0117.desc: "오늘 저녁 식사는 참으로 다채로운 맛이었어요. 짭짤하고, 달콤하고, 신맛까지, 어떻게 이렇게 잘 어우러졌는지 모르겠네요. 지루함과 호기심에, 곧바로 요리사를 불러 그가 사용한 재료와 요리 과정을 물어봤습니다. 그는 차분하고 친절한 어조로, 사용한 각 재료와 조리법을 설명해 주었습니다." # e03c5f9a389c91253ff1f44ff5687d7bf54a2514
   VIETmisc.0117.a: "정말 흥미롭군요! 정말 흥미롭습니다!" # 8bf9303058553c64522309156e459c2ef04371a3
@@ -583,9 +583,9 @@
   VIETmisc.0118.b: "밀랍, 소금, 기장, 그리고 기름을 섞으십시오." # c8ddb33459a39e382e628020c368690216b13092
   VIETmisc.0118.b.info: "#emphasis 역사적 배경:#!  일부 역사 사회에서는 치통에 효과가 있다고 해서 촛농을 다른 물질과 혼합한 요리법이 처방된 적이 있습니다." # fcae3ee0b9f5b2ec2feeec39b8e480fc32ad557f
   VIETmisc.0118.c: "여러 가지 약초로 만든 구강세척제로 매일 입안을 헹구는 것" # 3f5fd83d9912aeebd0a2765e165b4c4a1e90c52b
-  VIETmisc.0118.c.info: "#강조 역사적 배경:#! 각기 다른 문화권에서는 마취제로 헌베인, 유향, 장미 오일 등 다양한 허브를 이용했습니다." # faf5bf57360f96931964326f0fa043b058653dc6
+  VIETmisc.0118.c.info: "#bold 역사적 배경:#! 각기 다른 문화권에서는 마취제로 헌베인, 유향, 장미 오일 등 다양한 허브를 이용했습니다." # faf5bf57360f96931964326f0fa043b058653dc6
   VIETmisc.0118.d: "붉은 뜨거운 바늘로 이를 지져야 합니다." # fb9b652430cb6b4b1ad531fc61dada20973c2079
-  VIETmisc.0118.d.info: "#강조 역사적 배경:#! 치통 완화를 위한 치아 소각술은 일반적으로 뜨거운 붉은색 바늘을 치아 신경 조직에 삽입하여 신경을 죽이는 방식으로 이루어졌습니다." # 8d0ef420fb5607ec81044c423f143847e13ad14c
+  VIETmisc.0118.d.info: "#bold 역사적 배경:#! 치통 완화를 위한 치아 소각술은 일반적으로 뜨거운 붉은색 바늘을 치아 신경 조직에 삽입하여 신경을 죽이는 방식으로 이루어졌습니다." # 8d0ef420fb5607ec81044c423f143847e13ad14c
   VIETmisc.0119.t: "꼼수쟁이" # f6a6f6e43fe41b0d4b1f4a74712923f7ebc338aa
   VIETmisc.0119.desc: "뺨을 베어 물었는데, 상당히 아팠어요!  괴로워서 소리를 질렀는데, 꽤 쪽팔렸어요." # 13f5ae896f445fb6f29c3de5967161ba99b8e957
   VIETmisc.0119.a: "아야!" # 2f282e1a702ff3df17da7fa2ff0167217bc580a7
@@ -597,14 +597,14 @@
   VIETmisc.0121.desc: "[scope_VIET_tooth_extracted.GetTitledFirstName]이 최근에 썩기 시작한 이를 뽑았습니다. 따라서 [scope_VIET_tooth_extracted.GetHerHis]는 이러한 일에 능숙한 유명한 이발사를 찾아 마을에 갔습니다. 돌아온 [scope_VIET_tooth_extracted.GetFirstNameNoTooltip]은 그 이발사의 기술을 칭찬했습니다.\n\n“절차가 거의 아프지 않았어요!” [scope_VIET_tooth_extracted.GetSheHe]는 우리 모두가 [scope_VIET_tooth_extracted.GetHerHim]에게 어떻게 진행되었는지 물었을 때 놀라움을 금치 못하며 말했습니다. “이 이발사는 매우 숙련되고 조심스러워요. 모든 이발사가 그렇다고는 할 수 없죠! 앞으로 여러분 중 누군가 이러한 서비스가 필요하면 이 사람을 강력히 추천합니다.”" # dde168416d9d189d3556a5629f7a06088a173374
   VIETmisc.0121.a: "잘되었다는 말씀에 기쁩니다." # 73e007eb3ac894c5f5d26989d27fdd35f57cb834
   VIETmisc.0121.b: "이 이발사의 훌륭한 기술에 대한 보상을 해주십시오!" # 5429e20d99c6b779525ec8fcc6f458ed37e067fd
-  VIETmisc.0121.info: "#강조 역사적 배경:#! 역사적으로, 여러 사회에서 이발사들은 면도칼과 같은 도구들을 소지하고 있었기에, 수술적인 절단부터 피를 뽑는 것까지 다양한 의료 절차를 수행했습니다. 치과 분야에서는 이들이 흔히 치아를 뽑는 일을 맡았습니다." # 25715e5f979c4384ba386b9a8d5dc620e853ad60
+  VIETmisc.0121.info: "#bold 역사적 배경:#! 역사적으로, 여러 사회에서 이발사들은 면도칼과 같은 도구들을 소지하고 있었기에, 수술적인 절단부터 피를 뽑는 것까지 다양한 의료 절차를 수행했습니다. 치과 분야에서는 이들이 흔히 치아를 뽑는 일을 맡았습니다." # 25715e5f979c4384ba386b9a8d5dc620e853ad60
   VIETmisc.0122.t: "구강세척제" # c9fa44707b8fb7b774f8283299aa463447dd9c52
   VIETmisc.0122.desc: "얼마 전에 좋은 구강청결제 레시피를 발견했습니다. 주재료는 포도주이고, 계피와 박하 등 다양한 허브와 섞습니다. 맛은 꽤 괜찮으며, 매일로써 헹구면 치아 건강에 도움이 된다고 합니다." # 902970ff3965490b6a0ec75326d0ae5024ace517
   VIETmisc.0122.a: "내 미소가 앞으로도 오랫동안 예뻐 보이길 바라요!" # 7e82d6d098b33c47a02c0309af4ddfc2393335e0
   VIETmisc.0123.t: "치아 미백" # 38f384f8d94110147d3066979c5433bb0e7f0165
   VIETmisc.0123.desc: "제 치아가 여러 가지 식습관으로 인해 상당히 변색되었습니다. 제 의사, [physician.GetTitledFirstName]께서 제 치아를 진찰하신 결과, 아직 큰 문제는 없다고 하십니다. 하지만, 더 이상의 변색을 막기 위해 매일 아침, 잿빛 포도나무, 엘프닥, 그리고 세이지로 만든 약초 치료제를 치아에 문질러야 합니다. 이렇게 하면 시간이 지남에 따라 치아가 더욱 희어질 것입니다." # e2f4c2c6b76e3fae274e4cc6ec77cf23a50a6fdb
   VIETmisc.0123.a: "그러한 의술이 존재한다는 사실, 참으로 다행입니다." # d9683b4d608290bc097aa64dfc4785eef754337d
-  VIETmisc.0123.info: "#강조 역사적 배경:#! 현대 대중문화에서 묘사되는 것과는 달리, 중세 시대의 치아는 대부분 상당히 건강했습니다. 이는 중세 사람들이 당시의 우리와 같이 과도한 설탕 섭취를 하지 않았기 때문입니다. 당이나 당을 사용하여 만든 음식이 오늘날보다 훨씬 드물었기 때문입니다. 곡물, 채소, 유제품이 풍부했던 식단은 중세 시대에 치아 부패가 훨씬 덜 흔했던 원인이었습니다. 그러나 치아를 밝히고자 한다면 여전히 다양한 효과를 지닌 다양한 약초 치료법이 존재했습니다." # f7e2b024e3449a00203521c64076b76e237b4237
+  VIETmisc.0123.info: "#bold 역사적 배경:#! 현대 대중문화에서 묘사되는 것과는 달리, 중세 시대의 치아는 대부분 상당히 건강했습니다. 이는 중세 사람들이 당시의 우리와 같이 과도한 설탕 섭취를 하지 않았기 때문입니다. 당이나 당을 사용하여 만든 음식이 오늘날보다 훨씬 드물었기 때문입니다. 곡물, 채소, 유제품이 풍부했던 식단은 중세 시대에 치아 부패가 훨씬 덜 흔했던 원인이었습니다. 그러나 치아를 밝히고자 한다면 여전히 다양한 효과를 지닌 다양한 약초 치료법이 존재했습니다." # f7e2b024e3449a00203521c64076b76e237b4237
   VIETmisc.0124.t: "새로운 상점" # 21c0bf8036374291572f2724ac140f6dc6a4459f
   VIETmisc.0124.desc: "이 마을에 들러 낯선 상점을 발견합니다.\n\n“이곳이 새로 생긴 곳인가요?”라고 물으며 간판과 진열된 물건들을 가리킵니다.\n\n근처에 서 있던 남자가 제가 온 것을 눈치채고 다가와 몸을 숙여 인사합니다. “제 [ROOT.Char.GetLadyLord]님, 저희 가게에 방문해 주셔서 정말 영광입니다. 게다가 오늘이 바로 저희 상점 개업일이기도 하지요! 저는 오랫동안 겸손한 행상인이었고, 마침내 제 아내와 저는 첫 상점을 열 수 있을 만큼 돈을 모았습니다. 여기서 저희는 다양한 물품을 판매할 예정입니다. 저희와 이 마을의 번영을 위해 제 [ROOT.Char.GetLadyLord]님의 지속적인 훌륭한 지도력을 기대하고 있습니다. 첫 손님이신 만큼, 저희 물건을 마음껏 ‘무료’로 구매하시면 좋겠습니다!”" # 905c0cc1366dab414c8b2bd78016d70561dd3eab
   VIETmisc.0124.a: "오늘은 아무것도 얻으려 하지 않지만, 행운을 빕니다." # 44076c7fc8b2badd3fefdfc6262ae6ca7d57048f
@@ -640,7 +640,7 @@
   VIETmisc.0129.c: "네, 맘에 안 드십니다. 이 무능한 자를 감옥에 처넣어 징벌 삼아야 할 겁니다!" # f1e5d4e57798a20fe89aee424bbf9f67229d47ba
   VIETmisc.0129.d: "저런…  꾀 많은 여우처럼 당신 같은 사람이 필요하군요." # 15c350591e4bc55fbe55f26feb3a2fcf0ac1fafb
   VIETmisc.0130.t: "[ROOT.Char.GetFaith.HighGodName]를 찬양하라!" # b26cb6d7005d5d090ffb16ac39916e5154d0cbd0
-  VIETmisc.0130.desc: "이곳 술집에 앉아 술 한잔 하고 있는데, 한 여자가 다가옵니다. 제 모습을 알아보지 못하는 것 같지만, 그녀의 이상하게 열정적인 태도가 재밌어서 아직 제 정체를 밝히지 않습니다.\n\n“무슨 일이세요?” 물었습니다.\n\n“네! [ROOT.Char.GetFaith.HighGodName]에 대해 이야기하고 싶어요!” 그녀는 말합니다. 제가 계속 말하라는 제스처를 취하자, 그녀는 이렇게 말합니다. "[ROOT.Char.GetFaith.HighGodName]은 우리 모두에게 말씀하시지만, 우리는 결코 귀 기울이지 않습니다. 가까운 [ROOT.Char.GetFaith.HouseOfWorship]로 가서 [ROOT.Char.GetFaith.ReligiousText]를 읽으십시오. [ROOT.Char.GetFaith.HighGodName]을 찬양하십시오!”" # a3c6f0d12e395a9e1551024ccb77610ab77f2c18
+  VIETmisc.0130.desc: "이곳 술집에 앉아 술 한잔 하고 있는데, 한 여자가 다가옵니다. 제 모습을 알아보지 못하는 것 같지만, 그녀의 이상하게 열정적인 태도가 재밌어서 아직 제 정체를 밝히지 않습니다.\n\n“무슨 일이세요?” 물었습니다.\n\n“네! [ROOT.Char.GetFaith.HighGodName]에 대해 이야기하고 싶어요!” 그녀는 말합니다. 제가 계속 말하라는 제스처를 취하자, 그녀는 이렇게 말합니다. "[ ROOT.Char.GetFaith.HighGodName ]은 우리 모두에게 말씀하시지만, 우리는 결코 귀 기울이지 않습니다. 가까운 [ROOT.Char.GetFaith.HouseOfWorship]로 가서 [ROOT.Char.GetFaith.ReligiousText]를 읽으십시오. [ROOT.Char.GetFaith.HighGodName]을 찬양하십시오!”" # a3c6f0d12e395a9e1551024ccb77610ab77f2c18
   VIETmisc.0130.a: "감사합니다. 좋은 하루 되세요." # eb18a653609ef9c935dce67fa3655bff33893e9c
   VIETmisc.0130.b: "하루에도 그렇게 하지! [ROOT.Char.GetFaith.HighGodName]께 영광을!" # 61439ba388e6605a97d6f7cf20b92db655372e55
   VIETmisc.0130.c: "그런 헛소리 그만 하세요." # 22b108d59719587e2ad9062afa5f12f362a22836
@@ -686,7 +686,7 @@
   VIETmisc.0138.c: "그들에게 많은 돈을 기부하겠습니다!" # 3a90115e52c00b63c0d9ba8158a9c5246eabeba1
   VIETmisc.0138.d: "허, 이 [ROOT.Char.Custom('DefaultPriestTitlePlural')]들은 사기꾼 같아." # da4deaceb872038a4ed5d8d67eb05690513a0f99
   VIETmisc.0139.t: "거지의 친구" # fc6fca5f15e996ccad743c1d433ee56133219248
-  VIETmisc.0139.desc: "[scope_VIET_beggar_friend.GetTitledFirstName]가 근처 마을의 유명한 거지와 친분이 있다는 소식에 모두 놀랐습니다.  물으니 [scope_VIET_beggar_friend.GetSheHe]는 [scope_VIET_beggar_friend.GetHerHis] 친구가 우리들과 다를 바 없다고 했습니다. 희망과 두려움, 좋아하는 것과 싫어하는 것까지.  "[scope_VIET_beggar_friend.GetFirstNameNoTooltip]는 말했습니다. “믿기 어렵지만 우리는 여러 가지 공통 관심사를 가지고 있지. 어린 시절 그는 특별한 것을 배웠으나, 이후 힘든 시기를 겪으면서 지금의 모습이 되었어.  그에게 훌륭한 직업을 찾아주려고 노력하고 있어.”" # ee525abdcef8140b503d467838ce158a45d45bf0
+  VIETmisc.0139.desc: "[scope_VIET_beggar_friend.GetTitledFirstName]가 근처 마을의 유명한 거지와 친분이 있다는 소식에 모두 놀랐습니다.  물으니 [scope_VIET_beggar_friend.GetSheHe]는 [scope_VIET_beggar_friend.GetHerHis] 친구가 우리들과 다를 바 없다고 했습니다. 희망과 두려움, 좋아하는 것과 싫어하는 것까지.  "[ scope_VIET_beggar_friend.GetFirstNameNoTooltip ]는 말했습니다. “믿기 어렵지만 우리는 여러 가지 공통 관심사를 가지고 있지. 어린 시절 그는 특별한 것을 배웠으나, 이후 힘든 시기를 겪으면서 지금의 모습이 되었어.  그에게 훌륭한 직업을 찾아주려고 노력하고 있어.”" # ee525abdcef8140b503d467838ce158a45d45bf0
   VIETmisc.0139.a: "이상한 우정이긴 하지만, 내가 누구라고 판단할 자격이 있을까?" # 50733fa43b2e19603359e6c6b799705c82734820
   VIETmisc.0139.b: "[scope_VIET_beggar_friend.GetHerHis] 신분으로서는 어찌하여 범죄자들과 교류하게 되었는가?" # c853d0c7d1891bfdc89c96f7982b54300605942a
   VIETmisc.0139.c: "이 사람을 내 종으로 고용할 수도 있겠군!" # 5b5459148c9baa916f51bba795f873113ae38d2a
@@ -940,15 +940,15 @@
   VIETmisc.0196.desc: "영지 안을 여행하던 중, 묘한 가지를 가진 나무를 발견했습니다.\n\n"저것… 가지에서 깃털이 나온 것 같아요?" 라는 한 수비대원의 말이 들렸습니다.\n\n모두가 놀라 외쳤습니다. 그 '가지'가 움직이며 벌어지는 입을 드러냈기 때문입니다. 개구리부리새였습니다. 움직이는 입 때문에 개구리처럼 보였고, 헝클어진 깃털 덕분에 나무 가지에 구부정하게 앉아 있는 뚱한 노인처럼 보였습니다." # dc0c65a3234b86bafc6e2e67225f1bd39f298608
   VIETmisc.0196.a: "여기 계시는군요! 참 재밌는 일입니다." # b2f7f14919c93e057d322a58e5b4952f73995e8a
   VIETmisc.0196.b: "불길한 존재군요.  우리가 떠나는 게 좋겠습니다." # 103e947b1950130cb2ef5a8c8e9d447e3803f165
-  VIETmisc.0196.info: "#강조 생물학적 배경:#! 푸른올빼미과(#italic Podargidae#!)는 남아시아, 동남아시아, 오스트레일리아 원산의 조류입니다. 그들은 독특한 외모와 나무의 일부처럼 위장하는 능력으로 유명합니다." # 836ddb6219d53d01a1f5273c0d05a376b6ebcde5
+  VIETmisc.0196.info: "#bold 생물학적 배경:#! 푸른올빼미과(#italic Podargidae#!)는 남아시아, 동남아시아, 오스트레일리아 원산의 조류입니다. 그들은 독특한 외모와 나무의 일부처럼 위장하는 능력으로 유명합니다." # 836ddb6219d53d01a1f5273c0d05a376b6ebcde5
   VIETmisc.0197.t: "그들로부터는 절대 멀리 떨어지십시오." # 60bd7acd9c27afdac52d8792f8792fa54aa828c7
   VIETmisc.0197.desc: "안타까운 소식입니다! 어제 저녁 갑자기 소유하고 있던 낙타들이 여러 마리 죽었다는 보고를 받았습니다. 자세히 조사해 본 결과, 주변에 #italic 카라코람#!이라는 지방 토착명칭을 가진 거미들이 서식하고 있었습니다. 낙타들이 이 독거미에게 물린 것으로 추정됩니다. 현지인들은 이 거미를 매우 조심스럽게 다룹니다. 저는 이 거미들을 제거해야 할 것입니다." # ca2aca8a4bb34710a0aa2b87d76db1f9b025c0de
   VIETmisc.0197.a: "[ROOT.Char.GetFaith.HighGodName]께서, 저는 그 거미들 곁에 가까이 있지 않기를 바랍니다!" # ce9cab6babab681c51fd340c9773d705c9e7eb88
-  VIETmisc.0197.info: "#강조 생물학적 배경:#! 카라쿠르트는 현대 카자흐스탄에서 유럽 검은 과부 거미( #italic Latrodectus tredecimguttatus#!)의 지역 명칭입니다. 이 거미는 매우 위험하며, 물린 경우 낙타를 죽일 수 있다고 알려져 있습니다." # 32cdb3c35b75f9fc5c938a0e6b7087bac01cdcdc
+  VIETmisc.0197.info: "#bold 생물학적 배경:#! 카라쿠르트는 현대 카자흐스탄에서 유럽 검은 과부 거미( #italic Latrodectus tredecimguttatus#!)의 지역 명칭입니다. 이 거미는 매우 위험하며, 물린 경우 낙타를 죽일 수 있다고 알려져 있습니다." # 32cdb3c35b75f9fc5c938a0e6b7087bac01cdcdc
   VIETmisc.0198.t: "평화로운 상어들" # 86fa1a1f944309c50e8ba68af02a8e9fc8377361
-  VIETmisc.0198.desc: "[courtier.GetTitledFirstName]께서 최근 바닷길을 다녀오셨습니다. 돌아오시며 [courtier.GetSheHe]는 그 여정에 특별히 흥미로운 일은 없었다고 말씀하셨지만, 배가 여러 마리의 상어 무리와 마주친 사건 하나가 있었다고 전했습니다.\n\n"[courtier.GetFirstNameNoTooltip]은 처음에는 바다에 빠지면 상어들에게 잡아먹힐까 봐 몹시 무서웠습니다."라고 [courtier.GetFirstNameNoTooltip]은 말했습니다. "선원들이 왜 그렇게 편안하고 태연한지 이해할 수 없었지만, 그들은 대부분의 상어와 달리 이 종류의 상어는 온순하며 사람을 공격하지 않는다고 설명해 주었습니다. 심지어 이 상어들이 얼마나 느리게 헤엄치는지, 배가 고프다면 쉽게 사냥감이 될 수 있다고도 말이죠."" # 4321636fe5c6c8700e6152a5beb93077d7d908dd
+  VIETmisc.0198.desc: "[courtier.GetTitledFirstName]께서 최근 바닷길을 다녀오셨습니다. 돌아오시며 [courtier.GetSheHe]는 그 여정에 특별히 흥미로운 일은 없었다고 말씀하셨지만, 배가 여러 마리의 상어 무리와 마주친 사건 하나가 있었다고 전했습니다.\n\n"[ courtier.GetFirstNameNoTooltip ]은 처음에는 바다에 빠지면 상어들에게 잡아먹힐까 봐 몹시 무서웠습니다."라고 [courtier.GetFirstNameNoTooltip]은 말했습니다. "선원들이 왜 그렇게 편안하고 태연한지 이해할 수 없었지만, 그들은 대부분의 상어와 달리 이 종류의 상어는 온순하며 사람을 공격하지 않는다고 설명해 주었습니다. 심지어 이 상어들이 얼마나 느리게 헤엄치는지, 배가 고프다면 쉽게 사냥감이 될 수 있다고도 말이죠."" # 4321636fe5c6c8700e6152a5beb93077d7d908dd
   VIETmisc.0198.a: "안전하게 돌아와서 다행입니다!" # 93be62a2d7e2cd59deb839c231997ca4b162465c
-  VIETmisc.0198.info: "#강조 생물학적 배경:#!  바스킹 상어 (#italic Cetorhinus maximus#!)는 북대서양과 지중해와 같이 세계 대부분의 온대 해역에서 서식하는 상어 종입니다.  세계에서 가장 큰 상어 중 하나이지만 플랑크톤을 먹이로 삼으며, 일반적으로 인간에게 해롭지 않습니다.  속도가 느리고 공격성이 없기 때문에 때때로 사냥되었는데, 그들의 살은 먹을 수 있었고, 가죽은 가죽으로 만들 수 있었으며 간은 기름으로 사용되었습니다." # c9192fc9478f191798e6a26c44b8aaf651733cd5
+  VIETmisc.0198.info: "#bold 생물학적 배경:#!  바스킹 상어 (#italic Cetorhinus maximus#!)는 북대서양과 지중해와 같이 세계 대부분의 온대 해역에서 서식하는 상어 종입니다.  세계에서 가장 큰 상어 중 하나이지만 플랑크톤을 먹이로 삼으며, 일반적으로 인간에게 해롭지 않습니다.  속도가 느리고 공격성이 없기 때문에 때때로 사냥되었는데, 그들의 살은 먹을 수 있었고, 가죽은 가죽으로 만들 수 있었으며 간은 기름으로 사용되었습니다." # c9192fc9478f191798e6a26c44b8aaf651733cd5
   VIETmisc.0199.t: "호수로 들어가다" # 3f5c5ee06e045440b0edac6c0c54c563186d6f35
   VIETmisc.0199.desc: "오늘 험한 들판을 거닐다 기묘한 광경을 목격했습니다! 우연히 산책하던 중, 사슴과 비슷하지만 훨씬 작은 동물인 멧돼지를 잡으려는 사냥꾼들을 발견했지요.  그 작은 동물은 제 무릎 높이밖에 되지 않았을 겁니다. \n\n그 동물은 지나가면서 근처 호수에 뛰어들었군요.  혹여 우연히 빠져 죽은 걸까요?\n\n사냥꾼들은 물가에 서서 낙담한 표정이었답니다.  왜 그런지 물으니, 한 사냥꾼이 말하길, "그 교활한 동물은 물속에서 영원히 머물 수 있지.  우리의 추격은 패배로 끝났어!" 라고 하더군요." # e2ab2b3a14541b46213aabd2e1eef1c08b71ae9c
   VIETmisc.0199.a: "분명 충분히 기다리면 다시 나타날 겁니다." # b8408c37178c691cd0b92ff97ff721786b3abb2c
@@ -959,7 +959,7 @@
   VIETmisc.0200.a: "솔직히 역겹지만, 누군가는 해야죠." # 4187ee202bcfed25a1f4fb555d67860b5dd4944d
   VIETmisc.0200.b: "(No translation needed as this is not text needing translation.)" # 1f6a49a23f19017787887ea2631cdf0958e0995e
   VIETmisc.0200.c: "Snail slime, or mucus, is a fascinating substance produced by various species of land snails and slugs.  It's a complex mixture of water, proteins, glycoproteins, and other organic compounds.  While often perceived as a simple slime, it serves several crucial roles in the snail's life.\n\n**Key functions of snail slime include:**\n\n* **Protection:**  The mucus forms a protective layer on the snail's body, acting as a barrier against desiccation (drying out), abrasion, and some pathogens.  It also helps the snail move across rough surfaces more easily.\n\n* **Lubrication:** The slimy consistency allows the snail to glide smoothly over surfaces, reducing friction and facilitating movement.\n\n* **Defense:** In some species, the slime contains compounds that may deter predators or have antimicrobial properties.\n\n* **Adhesion:**  The mucus can adhere to surfaces, helping the snail to climb and maintain a grip.\n\n* **Chemical Signaling:** The slime may play a role in communication between snails, for instance in mating or recognition.\n\n* **Food capture (in some species):** Some species use their slime to entangle prey.\n\n**Composition and Properties:**\n\nThe exact composition of snail slime varies between species and environmental conditions.  The consistency, color, and texture can also vary.  Some types of slime are clear and watery, while others are more viscous and sticky.\n\n**Further Research:**\n\nSnail slime has been an area of scientific curiosity and experimentation for its unique properties.  Researchers are exploring its potential applications in various fields, including bio-inspired materials science, medicine, and cosmetics.  However, many aspects of snail slime production and function are still not fully understood." # 02b387e7c146e60068eb7446034db78682502232
-  VIETmisc.0200.info: "#강조 역사적 배경:# 과거 어떤 지역에서는 민간요법으로 달팽이 점액을 채취하여 염증성 피부 질환이나 위궤양과 같은 질병 치료에 효능이 있다고 믿었습니다. 최근 현대 연구 결과, 손상된 조직의 회복에 효과를 보일 가능성이 제기되고 있습니다." # 6b268091bbf0fcab5787ca7bacdcc4048cd1d174
+  VIETmisc.0200.info: "#bold 역사적 배경:# 과거 어떤 지역에서는 민간요법으로 달팽이 점액을 채취하여 염증성 피부 질환이나 위궤양과 같은 질병 치료에 효능이 있다고 믿었습니다. 최근 현대 연구 결과, 손상된 조직의 회복에 효과를 보일 가능성이 제기되고 있습니다." # 6b268091bbf0fcab5787ca7bacdcc4048cd1d174
   VIETmisc.0201.t: "달팽이" # 94440568fc6a38767edaa5e974cfe456313ebc1e
   VIETmisc.0201.desc: "집 근처 산야에서 몇몇 평민들을 만났습니다. 그들은 그 지역의 달팽이를 찾고 있었고, 발견한 모든 달팽이를 모았습니다. 그들의 목적은 달팽이를 먹을 의향이 있는 사람에게 팔아넘기려는 것이었습니다. 이미 몇몇 달팽이를 모아 놓았기에, 저에게 달팽이를 몇 개 사볼 생각이 있냐고 물었습니다." # d31b45ddb984731a34223a64a6632cc4c49889ec
   VIETmisc.0201.a: "구매하고 싶지 않습니다!" # b40b1b247dc1ccad13f59d1df6bf3a7f0accc330
@@ -976,7 +976,7 @@
   VIETmisc.0203.a: "꿀이 공짜라니! 참 좋겠군요. 저도 함께하겠습니다." # 2e61f00369d871617416dfce5dc4433e67c6d4bc
   VIETmisc.0203.b: "오늘은 바쁘지만, 모두에게 행운을 빕니다." # e9ae1374b6b9f7ea407fe32df9ffe68a6d9eb2ae
   VIETmisc.0203.c: "저는 [ROOT.Char.GetTitleAsNameNoTooltip]입니다. 더러운 노동자와는 다릅니다. 작별합니다." # cfc9969219b05580d406d054e497d3b1564525d6
-  VIETmisc.0203.info: "#강조 생물학적 맥락:#! 아프리카 사하라 사막 이남 지역에 서식하는 꿀먹새 (#italic 지표 지표#!)는 특정 지역에서 인간과 공생 관계를 형성한 종입니다. 꿀벌과 벌꿀 제품을 먹이로 삼기 때문에, 인간에게 꿀벌집을 찾아내도록 이끌어줍니다. 인간이 연기를 이용해 꿀벌을 제압하고 벌집을 열어 꿀을 채취한 후, 꿀먹새는 벌집에 남은 부스러기를 먹습니다. 이 특별한 관계는 현대 도시화로 인한 인간의 습관 변화로 인해 현재 쇠퇴하고 있습니다." # b2586c37d8a785b2a8be81221be63556fa955abb
+  VIETmisc.0203.info: "#bold 생물학적 맥락:#! 아프리카 사하라 사막 이남 지역에 서식하는 꿀먹새 (#italic 지표 지표#!)는 특정 지역에서 인간과 공생 관계를 형성한 종입니다. 꿀벌과 벌꿀 제품을 먹이로 삼기 때문에, 인간에게 꿀벌집을 찾아내도록 이끌어줍니다. 인간이 연기를 이용해 꿀벌을 제압하고 벌집을 열어 꿀을 채취한 후, 꿀먹새는 벌집에 남은 부스러기를 먹습니다. 이 특별한 관계는 현대 도시화로 인한 인간의 습관 변화로 인해 현재 쇠퇴하고 있습니다." # b2586c37d8a785b2a8be81221be63556fa955abb
   VIETmisc.0204.t: "온라거를 만나다" # 326b79918da8859fa7a28ec3b65dd518abc5de74
   VIETmisc.0204.desc: "길을 가던 중, 인근 들판에서 많은 수의 줏가축들이 풀을 뜯는 것을 보았습니다. 이 동물들은 야생 당나귀의 일종으로, 당나귀와 말의 중간 모습이거나, 혹은 더 위엄 있는 체격을 가진 다리 짧은 당나귀와 같았습니다.  이 동물들이 여기서 무엇을 하는지 궁금해하던 찰나, 제 존재를 감지하고 눈깜짝할 사이에, 마치 어떤 말보다도 빠르게 달려 도망치는 모습이었습니다." # cd9146c0773e44111df3836208b6603bc74e956c
   VIETmisc.0204.a: "정말 장관입니다." # 1e951b1d9bf596ee5b481fb0a0ee690df4e3c9cd
@@ -985,17 +985,17 @@
   VIETmisc.0205.desc: "정원의 덤불에서 두 개의 커다란 붉은 눈이 우리를 노려보는 모습에 모두 움찔했습니다. 도대체 어떤 흉측한 괴물일까요? 도망쳐야 합니다!\n\n하지만 [courtier.GetTitledFirstName]은 잠시 후 몇 초 후 웃음을 터뜨립니다. [courtier.GetSheHe|U]는 "아, 그저 나비일 뿐이야, 봐!"라고 말합니다.\n\n자세히 살펴보니, 실제로 그렇습니다. 회백색이고 날개에 두 개의 커다란 붉은 동그라미가 있어 멀리서 보면 피를 갈망하는 눈처럼 보입니다.\n\n"[courtier.GetFirstNameNoTooltip]은 킥킥거리며, [courtier.GetSheHe]는 그것을 감탄하며 바라봅니다.  나비가 날아가버리자, [courtier.GetSheHe]는 한숨 쉬듯 말합니다. "여기서 뭘 하고 있었을까요. 방금 전에는 그렇게 무서워하지 않았나요?"" # 297c5ff046616fd60295288e41dfbd8759e20b56
   VIETmisc.0205.a: "물론 아니지! 나는 어떤 나비도 두렵지 않아." # 5dc68d83dd76b7589425516a713e0a991c4776ae
   VIETmisc.0205.b: "겁은 났지만, 모두에게 웃음을 선사했네요." # 6ebc52f310871310ef58e1dc787f5dc37ed112f1
-  VIETmisc.0205.info: "#강조 생물학적 배경:#! 아폴로 나비 (#italic 파르나시우스 아폴로#!)는 유럽과 아시아 일부의 산지와 숲 지역에 고유한 나비 종입니다. 가장 두드러진 특징은 날개에 있는 두 개의 큰 붉은 "눈"입니다. 이러한 얼룩은 포식자를 효과적으로 위협하거나 혼란스럽게 만듭니다. 이 종은 또한 잠재적인 포식자에 대한 다른 방어 수단으로써 극도로 역겨운 맛을 갖고 있습니다." # a49a3a5d91ec7ccefa8bf45d7c2c296dfcb9bc41
+  VIETmisc.0205.info: "#bold 생물학적 배경:#! 아폴로 나비 (#italic 파르나시우스 아폴로#!)는 유럽과 아시아 일부의 산지와 숲 지역에 고유한 나비 종입니다. 가장 두드러진 특징은 날개에 있는 두 개의 큰 붉은 "눈"입니다. 이러한 얼룩은 포식자를 효과적으로 위협하거나 혼란스럽게 만듭니다. 이 종은 또한 잠재적인 포식자에 대한 다른 방어 수단으로써 극도로 역겨운 맛을 갖고 있습니다." # a49a3a5d91ec7ccefa8bf45d7c2c296dfcb9bc41
   VIETmisc.0206.t: "잔혹한 거북이들" # 9349061bc59f9669b35277b8eeafd28326035f42
   VIETmisc.0206.desc: "제 영지의 마을 원로들과의 회의를 잠시 쉬기 위해 밖으로 나왔는데, 먼 쪽 호수에 깊이 정신을 쏟아 앉아 있는 나이 든 여인을 보았습니다. 몇 마리의 새와 작은 거북이들이 있었지만, 특별한 것은 없었습니다. 제가 그녀가 무엇을 보고 있는지 물었을 때, 그녀는 앞을 가리키며 신비로운 미소를 지으며 지켜보라고 말했습니다. 잠시 후, 거북이들이 새들 중 일부를 공격하여 물속으로 끌어당길 때 큰 소란에 약간 놀랐습니다.\n\n\n"대단하지 않으십니까, 제 [ROOT.Char.GetLadyLord]?" 그 여인은 웃으며 말했습니다. 그녀는 이 광경을 너무 즐기는 것 같았습니다. "이 특별한 거북이들 - 투구 거북이라고 불립니다 - 새나 뱀, 심지어 다른 거북이들까지 물 속으로 끌어들여 익사시킵니다. 정말 흥미롭지 않으십니까?"" # 5c5ad11da8f679dbc86402743ab3be4366834a7c
   VIETmisc.0206.a: "저 거북이는 놀랍고… 그리고 위험합니다." # 614e240a1f267dc23bfac6864723bbceccf399fd
   VIETmisc.0206.b: "아, 알겠습니다… 회의에 다시 참석해야겠어요." # 3da04fcaf0426b5dc47d313f3ba4f97193a4bbb6
-  VIETmisc.0206.info: "#강조 생물학적 배경:#! 아프리카와 예멘의 담수 및 정체된 수역에 서식하는 아프리카 헬멧 거북 (#italic Pelomedusa subrufa#!), 또한 악어 거북 또는 아프리카 측두 거북으로 알려진 이 거북 종은 특히 머리를 옆으로 돌려 등딱지 아래로 감추는 것으로 유명합니다. 다른 많은 거북들과 달리, 완전히 등딱지 안으로 숨을 수는 없습니다. 또한 물고기와 뱀에서부터 새와 심지어 다른 거북까지 다양한 먹잇감을 발톱으로 잡아 물속에서 질식시키는 공격적인 습성을 가진 거북 종 중 하나입니다." # beaa81276f902efb3a843f5d6b5338eb68f4de15
+  VIETmisc.0206.info: "#bold 생물학적 배경:#! 아프리카와 예멘의 담수 및 정체된 수역에 서식하는 아프리카 헬멧 거북 (#italic Pelomedusa subrufa#!), 또한 악어 거북 또는 아프리카 측두 거북으로 알려진 이 거북 종은 특히 머리를 옆으로 돌려 등딱지 아래로 감추는 것으로 유명합니다. 다른 많은 거북들과 달리, 완전히 등딱지 안으로 숨을 수는 없습니다. 또한 물고기와 뱀에서부터 새와 심지어 다른 거북까지 다양한 먹잇감을 발톱으로 잡아 물속에서 질식시키는 공격적인 습성을 가진 거북 종 중 하나입니다." # beaa81276f902efb3a843f5d6b5338eb68f4de15
   VIETmisc.0207.t: "산바르인가 아닌가?" # 16367a29d0b724653db87524d070aa7ecdd6a068
   VIETmisc.0207.desc: "도시에서의 여행에서 돌아오는 길, 호위대와 저는 매우 이례적인 소리를 듣습니다. #italic 산양# 사슴의 울음소리임을 알아차리는 데 시간이 좀 걸립니다. 그리고 그 소리는 너무 멀지 않은 곳에서 들리는 것 같습니다. 호위병 한 명이 무슨 일이 있는지 조사해야 한다고 말하지만, 다른 호위병 - 나이 든 베테랑 - 은 젊은 호위병의 어깨를 잡습니다.\n\n"조심해야 합니다." 베테랑이 경고합니다.\n\n"아마 사슴일 뿐이겠지만, 조심할게요." 동료가 말합니다.\n\n"호랑이는 산양의 울음소리를 모방하여 속이려는 것으로 알려져 있습니다." 베테랑이 저를 향해 말합니다. "호랑이일지도 모르니, [ROOT.Char.GetLadyLord]님, 빨리 가야 합니다."" # 8a93b7ae1b5c431e320a6c93b433ddebe5b1590b
   VIETmisc.0207.a: "아니, 궁금하니까 자세히 살펴보자!" # 40592b14a81137dcf765dfd9363fea64842d0610
   VIETmisc.0207.b: "그냥 집으로 돌아가는 게 좋을 것 같아." # 44fadbe695e0d834a713b2dfbae7339f970beb33
-  VIETmisc.0207.info: "#강조 생물학적 맥락:#! 사슴 (#italic rusa unicolor#!) 은 주로 인도와 동남아시아에 서식하는 대형 사슴 종입니다. 호랑이의 주요 먹이원으로, 호랑이는 사슴의 울음소리를 모방하여 사슴을 현혹하고 유인하는 것으로 알려져 있습니다." # ce02625bc43a9217858f6d535ca2825865c437a3
+  VIETmisc.0207.info: "#bold 생물학적 맥락:#! 사슴 (#italic rusa unicolor#!) 은 주로 인도와 동남아시아에 서식하는 대형 사슴 종입니다. 호랑이의 주요 먹이원으로, 호랑이는 사슴의 울음소리를 모방하여 사슴을 현혹하고 유인하는 것으로 알려져 있습니다." # ce02625bc43a9217858f6d535ca2825865c437a3
   VIETmisc.0207.toast.its_not_a_tiger_name: "사슴일 거예요..." # 65648e5b601b47a911507e4a4d5486b20f97b21c
   VIETmisc.0207.toast.its_a_tiger_name: "... 아니면 #italic 혹시#! 호랑이인가요?" # e07a38540c8272c95b5ebfa75f993cdc164b4b6a
   VIETmisc.0207.toast.its_a_tiger: "역시 호랑이였습니다." # 1e2fff9191b9b1f01429bb05b2bb6f4f785ae220
@@ -1012,13 +1012,13 @@
   VIETmisc.0209.a: "걱정 마십시오, 처음부터 그게 암말임을 알았습니다." # 9b5d38b09d661ec38f05077edf80a3c0548aa4f1
   VIETmisc.0209.b: "당나귀로 착각했는데, 그런 일이 많이 일어나는 것 같아요." # 88ea87b27318b6e49ad499771d6a1cceb9e72efc
   VIETmisc.0209.c: "희귀하지만 유용하군요…. 살 수 있을까요? 하인들에게 도움이 될 텐데요." # b10f42ff6128b8b002330bab0822850e6ae41e52
-  VIETmisc.0209.info: "#강조 생물학적 배경:#! 힌니는 수컷 말과 암컷 당나귀 사이에서 태어나는 말과 당나귀의 잡종입니다. 이는 암말과 수컷 당나귀 사이에서 태어나는 뮬의 반대입니다. 힌니는 뮬과 마찬가지로 지능적이지만, 일반적으로 더 민첩하고 성격이 온순하여 훈련하기도 더 쉽습니다." # a77fdd550463f1b6a2421060a2ad39187744bdac
+  VIETmisc.0209.info: "#bold 생물학적 배경:#! 힌니는 수컷 말과 암컷 당나귀 사이에서 태어나는 말과 당나귀의 잡종입니다. 이는 암말과 수컷 당나귀 사이에서 태어나는 뮬의 반대입니다. 힌니는 뮬과 마찬가지로 지능적이지만, 일반적으로 더 민첩하고 성격이 온순하여 훈련하기도 더 쉽습니다." # a77fdd550463f1b6a2421060a2ad39187744bdac
   VIETmisc.0210.t: "불쌍한 닭들" # fb53985e91bea93c0b38a487d9f287651d5093d1
   VIETmisc.0210.desc: "제 영지의 마을을 공식적인 업무로 방문 중입니다. 길을 가다 한 집 입구에 사람들이 몰려들어 한 남자를 둘러싸고 있는 것을 보았습니다.\n\n"무슨 일이세요?" 물었습니다.\n\n"저희 [ROOT.Char.GetLadyLord], 우리 친구가 큰 불이익을 당했습니다." 주변 사람들 중 한 명이 말했습니다.\n\n알고 보니 이 농부는 많은 닭을 기르며 마을에서 상당한 소득과 명성을 얻었습니다. 하지만 오늘 오전 많은 닭들이 꿀잡이족에게 살해당했습니다. 꿀잡이족은 상대하기 매우 어려운 악명 높은 존재입니다. 그제서야 멀리 들판에 흩어져 있는 닭 시체를 발견했습니다." # d7cbac29ffdf8e26ce04a23cac344096936d8610
   VIETmisc.0210.a: "아, 인생 참 불공평하죠.  가봐야겠어요." # bad0716e606c8697577513bf9bb1ed999eed6533
   VIETmisc.0210.b: "[ROOT.Char.GetFaith.FertilityGodName]께 기도하여 어려움을 극복하시길 바랍니다." # e6f4f4cf3e10682bcb03df54f1959105fd08dc63
   VIETmisc.0210.c: "어서, 가련한 영혼! 이 돈으로 새로운 닭들을 사세요." # d1599140271fe004c5f07efc80b5f6eb2548401b
-  VIETmisc.0210.info: "#강조 생물학적 배경:#! 꿀따먹이족 (#italic Mellivora capensis#!)는 아프리카, 아라비아, 인도 아대륙에 서식하는 포유류 종입니다. 그들은 창이나 화살과 같은 무기 공격에 상당 부분 견딜 수 있을 만큼 매우 두꺼운 피부를 가지고 있습니다. 이는 그들의 끈질기고, 심지어는 사나운 성격과 더불어, 때로는 사자와 같은 더 큰 포식자들을 쫓아낼 수 있을 만큼 강력함을 보여줍니다. 그들의 식단은 매우 다양하며, 베리와 식물 뿌리에서 곤충, 개구리, 설치류, 심지어 독사와 가축화된 염소, 양, 닭까지 포함합니다." # 69f52bbb0172214e89ddc126f43df8580fcefb03
+  VIETmisc.0210.info: "#bold 생물학적 배경:#! 꿀따먹이족 (#italic Mellivora capensis#!)는 아프리카, 아라비아, 인도 아대륙에 서식하는 포유류 종입니다. 그들은 창이나 화살과 같은 무기 공격에 상당 부분 견딜 수 있을 만큼 매우 두꺼운 피부를 가지고 있습니다. 이는 그들의 끈질기고, 심지어는 사나운 성격과 더불어, 때로는 사자와 같은 더 큰 포식자들을 쫓아낼 수 있을 만큼 강력함을 보여줍니다. 그들의 식단은 매우 다양하며, 베리와 식물 뿌리에서 곤충, 개구리, 설치류, 심지어 독사와 가축화된 염소, 양, 닭까지 포함합니다." # 69f52bbb0172214e89ddc126f43df8580fcefb03
   VIETmisc.0211.t: "그것은 아랑곳하지 않습니다." # ef3e6946f5215eaed034615a62fe1023a517b721
   VIETmisc.0211.desc: "외딴 시냇가 근처에서 이상한 소리가 들려왔습니다.  머리를 들어 올리니 소란의 원인이 보였습니다.  꿀잡이족입니다. 밤에 이들을 보는 것은 드문 일이기에, 이 만남은 특별합니다. 게다가, 이 꿀잡이족은 뱀을 그대로 먹고 있었습니다. 제가 알고 있는 사람 중 한 명을 죽음으로 몰고 간 독사의 종류임을 곧바로 알아차렸습니다.\n\n\n하지만 이 동물은 마치 하찮은 간식이라도 먹듯이 뱀을 챱챱 먹고 있었습니다. 주변에는 껍질이 부러진 거북이 시체도 있었는데, 역시 이 짐승의 먹잇감이었던 것 같습니다.\n\n\n꿀잡이족은 저를 발견하고 날카로운 눈빛으로 쳐다봅니다.  제가 [ROOT.Char.GetTitledFirstName]이라는 중요한 [ROOT.Char.GetLadyLord]라 할지라도, 이 짐승은 제 신분 따위는 아랑곳하지 않을 것입니다." # a1ed5b83f21b39b48da06092eb85b3a0f7453cf3
   VIETmisc.0211.a: "내가 너의 식사를 다 먹도록 하지." # 55447fb69a288f1148c49d8c93367909ed7a8833
@@ -1030,17 +1030,17 @@
   VIETmisc.0213.desc: "왕국 내 더 건조한 지역을 여행하던 중, 모래 위 발자국을 발견했습니다. 자세히 살펴보기도 전에 잠시 강한 바람이 불어 발자국을 쓸어버렸습니다.\n\n잠시 더 여행하니, 비슷한 발자국을 다시 보게 되었습니다. 이번에는 바람이 발자국을 지우기 전에, 저를 수행하던 하급 관리 중 한 명이 무엇인지 알아차릴 시간이 있었습니다. 그는 "이것은 몽골여우의 발자국입니다, [ROOT.Char.GetLadyLord]님."이라고 말했습니다.\n\n곧, 장엄하지만 작고 아담한 생물이 나타났습니다. 커다란 귀와 검은 눈동자로 우리를 노려보더니 쏜살같이 사라졌습니다.\n\n"낮에 보는 건 드문 일입니다." 관리가 말했습니다. "보통 밤에 찾기가 더 쉽죠."" # 73149f0ce53b93885caa8b9ab255c24af11e9c28
   VIETmisc.0213.a: "그런 귀여운 생명체를 보니 기쁘군요." # 29e279726d5d5b2c7250c80e02d9cfd68762e406
   VIETmisc.0213.b: "시간 낭비할 여유가 없으니 계속합시다." # 97b370b7ae8a7e2a06d5192777a1d29f6f9be77e
-  VIETmisc.0213.info: "#강조 생물학적 배경:#! 혹스여우 (#italic Vulpes zerda#!)는 전 세계에서 가장 작은 개과 동물이며, 북아프리카 대부분과 중동 일부 지역에서 발견됩니다.  황갈색 털을 가지고 있으며, 열을 발산하는 데 사용되는 크고 털 많은 귀로 유명합니다.  또한, 고향인 사막 지역에서 생존하기 위한 다양한 적응력을 가지고 있습니다.  예를 들어, 매우 적은 물로도 생존할 수 있습니다. 그들의 이름은 해당 종의 아랍어 단어, #italic fanak#!에서 유래했습니다." # a13949a823831ff8881c8de1ecd3cfaf8a2cdfa4
+  VIETmisc.0213.info: "#bold 생물학적 배경:#! 혹스여우 (#italic Vulpes zerda#!)는 전 세계에서 가장 작은 개과 동물이며, 북아프리카 대부분과 중동 일부 지역에서 발견됩니다.  황갈색 털을 가지고 있으며, 열을 발산하는 데 사용되는 크고 털 많은 귀로 유명합니다.  또한, 고향인 사막 지역에서 생존하기 위한 다양한 적응력을 가지고 있습니다.  예를 들어, 매우 적은 물로도 생존할 수 있습니다. 그들의 이름은 해당 종의 아랍어 단어, #italic fanak#!에서 유래했습니다." # a13949a823831ff8881c8de1ecd3cfaf8a2cdfa4
   VIETmisc.0214.t: "새를 잡으려면" # 122017dc0e7b1accb2318245d6cde8e37b8d930f
   VIETmisc.0214.desc: "[sparrow_eater.GetTitledFirstName]께서 제게 흥미로운 제안을 하십니다. 최근 [sparrow_eater.GetSheHe]는 참새 고기에 꽤나 맛을 들이셨나 봅니다.\n\n“[ROOT.Char.GetTitledFirstName]께서는 요즘 저택에 참새가 많이 출몰하는 문제로 골치 아프시지 않으십니까?” [sparrow_eater.GetSheHe]가 묻습니다. 제가 그렇다고 답하자, [sparrow_eater.GetSheHe]는 이렇게 제안합니다. “저택 주변에 참새 함정을 설치하시는 게 어떠십니까? 함께 잡아 참새를 많이 먹을 수 있을 텐데요. 특히 참새 파이는 정말 맛있답니다!”" # 74cacd4c30e50caf3e1a6ba60ed87e044701b94b
   VIETmisc.0214.a: "참새는 괜찮아요." # bfca0007987987a4afba90d1d3a3b8130132a1b4
   VIETmisc.0214.b: "저 새끼 참새들, 짜증 나게 굴지." # 771222a116a76c0603c12bb14809b04fd84e186b
-  VIETmisc.0214.info: "#강조 역사적 배경:#! 집 비둘기 (#italic Passer domesticus#!)는 전 세계적으로 가장 널리 분포된 조류 중 하나입니다. 인간 거주지와 밀접한 관련이 있으며, 종종 해충으로 간주되기 때문에 비둘기 고기는 많은 곳에서 오랫동안 식량원으로 여겨졌습니다. 한 마리의 새를 잡는 것으로 두 마리의 새를 잡는 것과 같았기 때문입니다. 즉, 해당 지역의 비둘기를 없애고 동시에 사람들에게 좋은 단백질 공급원을 제공했습니다. 일부 문화권에서는 비둘기 고기에 정력 강장제 특성이 있다고 전통적으로 믿어집니다." # 1369455b572c43fb65d976cc7fb9e1687f8bcd33
+  VIETmisc.0214.info: "#bold 역사적 배경:#! 집 비둘기 (#italic Passer domesticus#!)는 전 세계적으로 가장 널리 분포된 조류 중 하나입니다. 인간 거주지와 밀접한 관련이 있으며, 종종 해충으로 간주되기 때문에 비둘기 고기는 많은 곳에서 오랫동안 식량원으로 여겨졌습니다. 한 마리의 새를 잡는 것으로 두 마리의 새를 잡는 것과 같았기 때문입니다. 즉, 해당 지역의 비둘기를 없애고 동시에 사람들에게 좋은 단백질 공급원을 제공했습니다. 일부 문화권에서는 비둘기 고기에 정력 강장제 특성이 있다고 전통적으로 믿어집니다." # 1369455b572c43fb65d976cc7fb9e1687f8bcd33
   VIETmisc.0215.t: "코투르니즘" # 7c8b01886dfdf09a2946cb8cf5558b65eca8a027
   VIETmisc.0215.desc: "[quail_eater.GetTitledFirstName]의 경련과 현기증에 모두 놀랐습니다.  오늘 [quail_eater.GetSheHe]가 멧비둘기를 먹은 것으로 보이며, [quail_eater.GetSheHe]가 먹은 멧비둘기가 도살되기 전 독초를 먹었던 것 같습니다.  즉, 코툰니즘의 전형적인 사례입니다.\n\n어쨌든, 의사들은 [quail_eater.GetFirstNameNoTooltip]이 경미한 코툰니즘 증상을 보인다고 말하며, [quail_eater.GetSheHe]는 회복을 위해 잠시 휴식을 취해야 합니다." # 6705670a8d133b28df11814e037fe7e661ee9f92
   VIETmisc.0215.a: "[quail_eater.GetSheHe]의 빠른 회복을 기원합니다." # a089ada4ec6c4ea845e6e98f60b52e3d695faae1
   VIETmisc.0215.b: "무분별하게 음식을 탐닉한 대가입니다!" # f73de58dda6e7a485b2ef79623ec7ba7612421a9
-  VIETmisc.0215.info: "#강조 역사적 배경:#! 유라시아 전역에서 수세기 동안 흔히 먹어 온 꾀꼬리(#italic Coturnix coturnix#!)는 그러나 꾀꼬리가 인간에게는 해로운 특정 식물을 먹었을 경우, 꾀꼬리에게는 무해하지만 인간에게는 위험한 식물을 먹었을 경우 고기가 독이 될 수 있습니다. 이로 인한 질병, 콧번(coturnism)은 고대부터 알려져 있었습니다. 예를 들어, 그리스와 로마의 자료에 언급되어 있으며 당시 학자들은 콧번을 일으키는 식물에 대해 서로 다른 의견을 가졌습니다." # aa6c7060aaff94d8ac1805c4c3a4ef7f27f55799
+  VIETmisc.0215.info: "#bold 역사적 배경:#! 유라시아 전역에서 수세기 동안 흔히 먹어 온 꾀꼬리(#italic Coturnix coturnix#!)는 그러나 꾀꼬리가 인간에게는 해로운 특정 식물을 먹었을 경우, 꾀꼬리에게는 무해하지만 인간에게는 위험한 식물을 먹었을 경우 고기가 독이 될 수 있습니다. 이로 인한 질병, 콧번(coturnism)은 고대부터 알려져 있었습니다. 예를 들어, 그리스와 로마의 자료에 언급되어 있으며 당시 학자들은 콧번을 일으키는 식물에 대해 서로 다른 의견을 가졌습니다." # aa6c7060aaff94d8ac1805c4c3a4ef7f27f55799
   VIETmisc.0215.b.tooltip.bad: "충고가 무시당합니다." # 445ee95119591de471b2d9714516649a9ef718f1
   VIETmisc.0215.b.tooltip.good: "귀하의 조언은 충분히 받아들입니다." # 8dd7e0131321b505f587a797277dd1a06a84b84d
   VIETmisc.0216.t: "흑익 짚신" # 37635e94c3b8ed8e5647c6aac62fef0172fe2713
@@ -1048,13 +1048,13 @@
   VIETmisc.0216.a: "흥…. 흥미로운 사실이군요." # 3d8ec0d440e2e3fa677c99ff76c51ae20e2e5cea
   VIETmisc.0216.b: "Birds are fascinating creatures, my friend!  They're a diverse group, with a remarkable array of adaptations for flight and survival.  Tell me, what specifically about birds are you interested in?  Are you curious about their different species, their flight patterns, their breeding habits, or something else entirely?" # f96e78aafb66b43f74d934c5633ebe1640623cc7
   VIETmisc.0216.c: "아, 알고 있어요!  그들이…" # 6611368a4db01c1ba16d007cd1d856f9b75029f7
-  VIETmisc.0216.info: "#강조 생물학적 배경:#! 검은날개재비($italic Himantopus himantopus$!)는 구세계에 분포하는 새입니다. 습지대에서 흔히 발견되며, 가장 두드러진 특징 중 하나는 긴, 가는 다리입니다." # 829d83579e9c76072d9555947c9881d189f11aa5
+  VIETmisc.0216.info: "#bold 생물학적 배경:#! 검은날개재비($italic Himantopus himantopus$!)는 구세계에 분포하는 새입니다. 습지대에서 흔히 발견되며, 가장 두드러진 특징 중 하나는 긴, 가는 다리입니다." # 829d83579e9c76072d9555947c9881d189f11aa5
   VIETmisc.0217.t: "마을 닐가이" # d0e90d0dbf073af6b192d3a913a3ec37eb1090db
   VIETmisc.0217.desc: "하급 귀족이 닐가이(소와 비슷한 사슴류)를 사냥하러 나갔다가, 마을에 살고 있는 듯한 닐가이를 죽이려 하자 마을 사람들과 충돌이 일어났습니다.\n\n마을 사람들은 그 닐가이가 그들에게 신성한 존재라고 말하며, 귀한 친구나 친척처럼 돌보아왔다고 합니다. 그들은 닐가이를 사냥하지 않겠다고 했습니다. 이에 귀족은 단지 야생 동물일 뿐, 누구의 소유물도 아니라고 주장하며 분노했습니다.\n\n귀족은 마을 사람들이 이런 어리석은 믿음을 버리고 자신이 평화롭게 사냥할 수 있도록 강제해야 한다고 요청했습니다." # 4c31b6db2e594459db3a473e58f8928c6fe26d12
   VIETmisc.0217.a: "스스로 문제를 해결하세요. 제게 의지하지 마십시오." # cba619d1d505520a404e28b807350b15248dd492
   VIETmisc.0217.b: "귀족은 신분에 걸맞게 사냥을 자유롭게 할 수 있는 권리가 있습니다." # acbb631809b1b2fc9ed9016841e534dc87281edf
   VIETmisc.0217.c: "착한 마을 사람들에게 칭찬을 보냅니다! 그들의 동물 친구는 보호받을 것입니다." # 4fac111b82ea2bf3974ee4737a5d7f12851d6511
-  VIETmisc.0217.info: "#강조 역사적 배경:#! 닐가이 (#italic 보세라푸스 트라고케멜루스#!)는 인도 아대륙 원산의 사슴과 동물입니다. 소와의 연관성으로 인해, 특히 힌두교에서 오랫동안 신성시되었지만, 때로는 사냥도 되었습니다. 뭄타즈 그림 등 다양한 무굴 예술 양식에서 널리 등장했습니다." # a8c81a0c245a518dfbd96ef3cf8ab3420ed067e3
+  VIETmisc.0217.info: "#bold 역사적 배경:#! 닐가이 (#italic 보세라푸스 트라고케멜루스#!)는 인도 아대륙 원산의 사슴과 동물입니다. 소와의 연관성으로 인해, 특히 힌두교에서 오랫동안 신성시되었지만, 때로는 사냥도 되었습니다. 뭄타즈 그림 등 다양한 무굴 예술 양식에서 널리 등장했습니다." # a8c81a0c245a518dfbd96ef3cf8ab3420ed067e3
   VIETmisc.0218.t: "#bold 훈족#" # b1a72e0e35a51e1200da0738c3bf89e10b59846e
   VIETmisc.0218.desc: "여행객이 저희 궁궐을 방문하여 먼 나라에서 원숭이 무리를 만났던 흥미로운 이야기를 들려주고 있습니다. 이 용감하지만 어쩌면 무모한 여행객은 도망치지 않고 오히려 천천히, 침착하게 그들 쪽으로 다가갔습니다. 놀랍게도 원숭이들은 공격적으로 반응하지 않았고, 오히려 멀찍이서 호기심 어린 눈빛으로 지켜보다가 원래 있던 곳으로 돌아갔다고 합니다." # df1fbaab6f4003b6932364054ffb7f300ee70c5b
   VIETmisc.0218.a: "흥미로운 이야기네요.... 왜 원숭이들이 그렇게 행동했는지 궁금하군요." # e50c495562531b4b7aaeb6f58860c81eb841702f
@@ -1068,20 +1068,20 @@
   VIETmisc.0220.desc: "푸른 하늘을 나는 꾀꼬리를 보니, 잠시나마 마음이 맑아지고 경건한 감동이 밀려옵니다." # b27efcd7dc4a3b311b9c1afdb8edce9176ee51e9
   VIETmisc.0220.a: "그들은 이것이 새벽의 상징이라 하고 - 영적인 희망의 표상이라고 말합니다." # 651256d50e94408dcb72ca68d00e7a80b9e37c4e
   VIETmisc.0220.b: "지금 배고파.  참새 수프나 참새 파이가 맛있겠다." # 2c81a1f228ede7d52bb6986ddb8ecc78bedcea49
-  VIETmisc.0220.info: "#강조 역사적 배경:#!  참새목 #italic 멧새과#! 에 속하는 꾀꼬리류는 서구에서 전통적으로 새벽의 상징으로 여겨져 왔습니다.  예를 들어, 셰익스피어의 29번 소네트에서, 서술자는 “새벽이 밝아오며 울음소리 지르는 꾀꼬리처럼/ 침울한 땅에서 일어나 하늘 문에서 찬미가를 부른다”고 언급합니다." # cc81716357e74bb630d867c60abbd2a309dcdccb
+  VIETmisc.0220.info: "#bold 역사적 배경:#!  참새목 #italic 멧새과#! 에 속하는 꾀꼬리류는 서구에서 전통적으로 새벽의 상징으로 여겨져 왔습니다.  예를 들어, 셰익스피어의 29번 소네트에서, 서술자는 “새벽이 밝아오며 울음소리 지르는 꾀꼬리처럼/ 침울한 땅에서 일어나 하늘 문에서 찬미가를 부른다”고 언급합니다." # cc81716357e74bb630d867c60abbd2a309dcdccb
   VIETmisc.0221.t: "룩의 의회" # b5a2bb20bdf205ab13c2b5107643dddf8edf6d16
   VIETmisc.0221.desc: "오늘 아침, 제 [ROOT.GetCharacter.Custom('lowly_servant_type')]의 얼굴빛이 창백했습니다. 그냥 지나칠 뻔했지만, 그 모습에 걱정이 들었습니다. 무슨 일이냐고 물으니, 그녀는 중얼거리며 떨리는 손가락으로 정원 밖을 가리켰습니다. 거기, 제 정원에는 몇 마리의 까마귀 비슷한 까치들이 모여 있었습니다.\n\n"무슨 일이세요?" 하고 물었습니다.\n\n"알지 못하시는군요, [ROOT.Char.GetLadyLord]님?" 마침내 정신을 차린 그 여인이 말했습니다. "까치들이 그렇게 모이면 불길한 조짐이라고 하더군요. 조심해야 할 것 같습니다!"\n\n항상 미신적인 성격이었지만, 정원에 이렇게 많은 까치들이 모인 것은 실로 불길하게 느껴졌습니다." # 533fabd530c4a2c96be36c6ca1ae31ff465485a0
   VIETmisc.0221.a: "수비대에게 새들을 쫓아내거나 죽이라고 명령하십시오!" # 43374e7637416952e1cac153a8916d96da6feee3
   VIETmisc.0221.b: "그냥 새들일 뿐이야. 우리에게 해를 끼칠 것 같지 않아." # b0066c87e2ffbeddd2841114930369c10ba88aec
   VIETmisc.0221.c: "까마귀와 친구라 하는구나 - 까치와도 친구가 되겠네!" # e3ee0bfa28123672a63e8bcb4f24ee0eb35146f6
   VIETmisc.0221.b.tooltip: "나쁜 소문이 퍼지고 있습니다..." # e14ce6edb9797289a984d431fd6309b33b3438f2
-  VIETmisc.0221.info: "#강조 역사적 배경:# 과거에도, 그리고 오늘날에도, 몇몇 긍정적인 면이 있기는 하지만, 까마귀 #italic Corvus frugilegus#는 특정 상황에서는 불길한 조짐의 전령으로 여겨졌습니다. 예를 들어, 셰익스피어의 맥베스에서 까마귀는 불길한 새로 등장합니다. 종종 중앙에 몇 마리의 까마귀가 모여 원을 이루는 모습 때문에, 그들은 "의회"를 열었다고까지 말해졌습니다." # 9c68ce408ab735483bc8bb7e2f66387f5c552ac1
+  VIETmisc.0221.info: "#bold 역사적 배경:# 과거에도, 그리고 오늘날에도, 몇몇 긍정적인 면이 있기는 하지만, 까마귀 #italic Corvus frugilegus#는 특정 상황에서는 불길한 조짐의 전령으로 여겨졌습니다. 예를 들어, 셰익스피어의 맥베스에서 까마귀는 불길한 새로 등장합니다. 종종 중앙에 몇 마리의 까마귀가 모여 원을 이루는 모습 때문에, 그들은 "의회"를 열었다고까지 말해졌습니다." # 9c68ce408ab735483bc8bb7e2f66387f5c552ac1
   VIETmisc.0222.t: "불길한 뻐꾸기들" # 7dab6b5b4f64a42aedd70b836ed1a6d40e22ad67
   VIETmisc.0222.desc: "최근 집 근처에서 몇몇 뻐꾸기가 나타났습니다. 독특하고 화려한 깃털 면류관 덕분에 어떤 새인지 쉽게 알아볼 수 있습니다.\n\n전통적으로 이 새들은 [ROOT.Char.GetCulture.GetName] 민간신앙에서 어두운 불길한 이미지를 지녔습니다. 어떤 이들은 이들을 도둑이라고 말하고, 다른 이들은 죽음의 전령이라고 말하며, 또 다른 이들은 [ROOT.Char.GetFaith.DevilName]의 사자라고 말합니다." # 4788e629c2dbca6ceebc51f2450cb6db6e52f2d9
   VIETmisc.0222.a: "그들을 쫓아내거나 죽여야 합니다!" # 700e8d22f4cd6b9e2fbb9c87ea6caec45f992b37
   VIETmisc.0222.b: "새들입니다. 우리 모두 잘 지낼 거예요." # 5c923e0d10ee5115200d285e4eee96f15ea4e558
   VIETmisc.0222.b.tooltip: "괜찮으신가요...?" # 955c9a34a8788c8aa44fd87821eedd68a94a61d1
-  VIETmisc.0222.info: "#강조 역사적 배경:#!  호로새는 한때 단일 종으로 여겨졌으나, 이제는 #italic Upupa# 속에 속하는 여러 종으로 인식되고 있습니다.  화려한 깃털 왕관으로 유명하며, 역사적으로는 문화권에 따라 다른 의미를 지녔습니다. 예를 들어, 북유럽과 시베리아 대부분 지역에서는 불길하고 부정적인 상징으로 여겨졌습니다. 반면 중동과 지중해 지역 대부분에서는 지혜, 왕권, 효심의 상징으로 여겨졌으며, 그들의 몸은 다양한 놀라운 마법적 및 약효를 지닌 것으로 여겨졌습니다." # 97a559947d1a1ddc1730643b1a901f27e0d4e086
+  VIETmisc.0222.info: "#bold 역사적 배경:#!  호로새는 한때 단일 종으로 여겨졌으나, 이제는 #italic Upupa# 속에 속하는 여러 종으로 인식되고 있습니다.  화려한 깃털 왕관으로 유명하며, 역사적으로는 문화권에 따라 다른 의미를 지녔습니다. 예를 들어, 북유럽과 시베리아 대부분 지역에서는 불길하고 부정적인 상징으로 여겨졌습니다. 반면 중동과 지중해 지역 대부분에서는 지혜, 왕권, 효심의 상징으로 여겨졌으며, 그들의 몸은 다양한 놀라운 마법적 및 약효를 지닌 것으로 여겨졌습니다." # 97a559947d1a1ddc1730643b1a901f27e0d4e086
   VIETmisc.0223.t: "행운의 뻐꾸기" # 97d86d5e498c8312eeb8dc694a8b2a9fef19b198
   VIETmisc.0223.desc: "최근 저의 거처 근처에서 여러 뿔새들이 눈에 띄게 자주 나타나고 있습니다. 독특하고 화려한 깃털 왕관을 갖춘 뿔새는 틀림없이 그 종류를 알 수 있습니다.\n\n전통적으로 이 새들은 [ROOT.Char.GetCulture.GetName]의 민간신앙에서 여러 긍정적인 연상을 지니고 있습니다. 많은 사람들이 뿔새를 지혜와 왕권의 상징으로 여기며, 그 몸에는 다양한 약효가 있다고 믿습니다. 분명 이는 저에게 좋은 징조가 아닐까요!" # 95e218313a8f939d9a9ac49f6f4c0264e861bcbc
   VIETmisc.0223.a: "저의 훌륭한 지도력의 표시라 믿습니다!" # 68c130908abd82bd952c65da46a36c83c7de8ebd
@@ -1116,7 +1116,7 @@
   VIETmisc.0228.a: "걱정 마세요. 믿을 만한 거위를 둔 것에 감사합니다." # 43223bc166595e93bd447dd0f29c96e9134ecba7
   VIETmisc.0228.b: "그 짐승을 내곁에서 멀리하시오. 아니면..." # 42da4f7777ece81dd0e3dd444585365f0aa1711c
   VIETmisc.0228.c: "그 용기에 감탄합니다. 저에게 팔 수 있으시겠습니까?" # 2491f6ce86240df7eca2feb8e02af655cbdc5fe3
-  VIETmisc.0228.info: "#강조 역사적 배경:#! 기러기는 수천 년 전부터 고기, 알, 깃털을 얻기 위해 길들여졌습니다. 또한 뛰어난 시력, 상대적으로 높은 지능, 강한 영역 본능, 그리고 매우 시끄럽고 눈에 띄는 꽥꽥거림 때문에 경계 동물로도 활용되었습니다. 예를 들어, 로마 역사가 리비는 기원전 387년경 갈리아인들이 로마를 공격하고 요새화된 카피톨리네 언덕을 공격하려 할 때, 그곳의 (주노 여신에게 신성했던) 기러기들이 꽥꽥거림으로 병력을 경고했다고 언급했습니다." # 0491bf3f256a0a227c96ebb26614e6607dcb91e1
+  VIETmisc.0228.info: "#bold 역사적 배경:#! 기러기는 수천 년 전부터 고기, 알, 깃털을 얻기 위해 길들여졌습니다. 또한 뛰어난 시력, 상대적으로 높은 지능, 강한 영역 본능, 그리고 매우 시끄럽고 눈에 띄는 꽥꽥거림 때문에 경계 동물로도 활용되었습니다. 예를 들어, 로마 역사가 리비는 기원전 387년경 갈리아인들이 로마를 공격하고 요새화된 카피톨리네 언덕을 공격하려 할 때, 그곳의 (주노 여신에게 신성했던) 기러기들이 꽥꽥거림으로 병력을 경고했다고 언급했습니다." # 0491bf3f256a0a227c96ebb26614e6607dcb91e1
   VIETmisc.0229.t: "동물 재판" # fa299a608fdecd71c0e0f2f93b2e9e3bbf094328
   VIETmisc.0229.desc: "근처 마을에서 돼지 한 마리가 어린아이 살해 혐의로 최근 재판을 받았습니다. 저는 법정에 참석하지 않았지만, 재판이 매우 길었으며, 검찰과 변호 측 모두 훌륭한 변론을 펼쳤다는 이야기를 들었습니다. 그러나 결국, 아이의 죽음이 단순한 사고가 아니었음이 명백했기 때문에 돼지는 범죄 혐의로 유죄 판결을 받았습니다. 돼지는 잘못된 선택을 했고, 그 결과를 감수해야 합니다.\n\n\n오늘 저는 돼지의 처형을 지켜보러 왔습니다. 모든 생명체, 인간이든 짐승이든, 누구도 법의 심판을 피할 수 없다는 사례로서, 돼지는 일반 범죄자처럼 교수형에 처해질 것입니다." # 6ff6ddf0e917692b87717aceba6d2193a329a21c
   VIETmisc.0229.a: "불행한 일이지만, 정의는 반드시 행해져야 합니다." # bb2dfcf9fe9b723cd7f7a2da1903c63f85810df1
@@ -1130,7 +1130,7 @@
   VIETmisc.0231.desc: "떠돌이 상인이 지나가며 낙타를 판매하고 있습니다. 특히, 제 관심을 끌만한 특별한 낙타가 여러 마리 있다고 들었습니다. 바로 수영 낙타입니다.\n\n이 낙타들은 인도 서부 지역에서 온 것으로, 맹그로브 숲이나 강과 같은 작은 수역을 건너 헤엄칠 수 있는 기적적인 능력을 지녔습니다.  하지만, 이런 낙타는 그리 많지 않아서 몇 마리밖에 살 수 없을 겁니다. 그러나 상인은 그만큼 값진 물건이라고 약속합니다." # ad2f9138895a33fd6d50564e9e5c043b628089cb
   VIETmisc.0231.a: "재미있는 호기심은 있지만, 저에게는 필요하지 않습니다." # dee91612df32debea38c2ebc6f15657592766fed
   VIETmisc.0231.b: "저는 구매 의향이 있습니다! 몇 개 사고 싶네요." # 663539c850b2231ba74f9b272859f5a2ba87af2f
-  VIETmisc.0231.info: "#강조 생물학적 배경:#! 인도 구자라트 지역의 염습지와 맹그로브 숲은 독특한 종류의 낙타인 #italic kharai#! 낙타, 혹은 낙타로 불리는 동물이 서식하는 곳입니다. 이들은 수백 년 동안 존재해 왔기 때문에 Crusader Kings 시대에 존재했는지 여부를 명확히 말하기 어렵습니다. 그럼에도 불구하고, 어떤 이유에서인지 이곳의 낙타들은 물 많은 환경에 적응하기 위해 수영하는 법을 배우게 되었으며, 지역 전설에서는 바다에서 유래했다는 주장도 있습니다. 현재 이들의 개체 수는 지역의 개발과 염전 확장으로 위협받고 있는데, 조수의 흐름을 막아 이 낙타 종의 생존에 필수적인 맹그로브 숲을 말라 버리게 하고 있습니다." # 2be24684e9160cb250bef7486b2176ecfc7feadf
+  VIETmisc.0231.info: "#bold 생물학적 배경:#! 인도 구자라트 지역의 염습지와 맹그로브 숲은 독특한 종류의 낙타인 #italic kharai#! 낙타, 혹은 낙타로 불리는 동물이 서식하는 곳입니다. 이들은 수백 년 동안 존재해 왔기 때문에 Crusader Kings 시대에 존재했는지 여부를 명확히 말하기 어렵습니다. 그럼에도 불구하고, 어떤 이유에서인지 이곳의 낙타들은 물 많은 환경에 적응하기 위해 수영하는 법을 배우게 되었으며, 지역 전설에서는 바다에서 유래했다는 주장도 있습니다. 현재 이들의 개체 수는 지역의 개발과 염전 확장으로 위협받고 있는데, 조수의 흐름을 막아 이 낙타 종의 생존에 필수적인 맹그로브 숲을 말라 버리게 하고 있습니다." # 2be24684e9160cb250bef7486b2176ecfc7feadf
   VIETmisc.0232.t: "우리 형제자매 여러분" # e891afe143d422fd1ca78be4588816bdd4d94704
   VIETmisc.0232.desc: "도로변에 서 있는 [ROOT.Char.Custom('DefaultPriestTitle')]를 보는 것은 이상하지 않았습니다. 저는 여러 차례 이 길을 지났고, 이런 [ROOT.Char.Custom('DefaultPriestTitlePlural')]들을 종종 만났으니까요. 이상했던 점은, 겸손하게 차려입은 이 [ROOT.Char.Custom('DefaultPriestTitle')]가 도로가 아닌, 들판을 응시하고 있었다는 것입니다.\n\n“[ROOT.Char.GetFaith.ReligiousText]를 우리 형제자매들, 즉 동물들에게 전파하러 왔습니다.” 그 [ROOT.Char.Custom('DefaultPriestTitle')]가 말했습니다. 난처한 표정을 지으며 물었더니, 그 [ROOT.Char.Custom('DefaultPriestTitle')]는 이렇게 설명했습니다. “저는 순례하는 [ROOT.Char.Custom('DefaultPriestTitle')]입니다. 제 소명은 동물들이 [ROOT.Char.GetFaith.HighGodNamePossessive]의 사랑과 우리 [ROOT.Char.GetFaith.GetAdjective] 신앙의 지혜로운 가르침을 이해하도록 돕는 것입니다. 지난 일주일 동안 이곳에서 설교를 했고, 내일 떠날 예정입니다. 약 한 시간 후쯤 동물들이 올 것 같습니다.”" # e9099a4898129946c4f669b11828fa48f5ff73d2
   VIETmisc.0232.a: "좀 미쳤나 봐요, 그럼 시작할게요." # a34923cb429855ee8298dbd1a05c660e624be7d5
@@ -1164,7 +1164,7 @@
   VIETmisc.0238.desc: ""훌쩍!"\n\n"훌쩍!"\n\n"훌쩍!"\n\n[sneezer.GetFirstNamePossessive]의 재채기 소리가 주변 사람들의, 나를 포함해, 이목을 끌 만큼 컸습니다. 몇몇은 깔깔거렸고, 다른 이들은 비난하는 표정으로 고개를 저었습니다.\n\n"보통 재채기는 세 번씩 합니다," [sneezer.GetSheHe]가 쑥스럽게 설명했습니다. "죄송합니다."" # 7cbdbaa354fc24949528b4bee1d4d42630cb2ff6
   VIETmisc.0238.a: "감기가 잦은 일상이죠." # 9157f821a2f4a14e4f6ab335382aa1fa5d71251b
   VIETmisc.0239.t: "기술과 재능" # f175778e4a1a12f02fe967c161b485b9704a1d5b
-  VIETmisc.0239.desc: "뜰에 앉아 [generalist.GetFirstName]와 [specialist.GetFirstName]와 정원을 감상하며 한가로이 이야기를 나눕니다. 그러던 중 둘은 서로에게 다소 과격하지만 친절한 토론을 벌였습니다.  어떤 기술을 가져야 이상적인가에 대한 논쟁이었습니다.\n\n"[specialist.GetFirstName]은 말했습니다. "왜 만능이 되려고 하십니까? 그렇게 되면 어떤 분야에도 전문가가 될 수 없습니다! 한 분야에 뛰어나고 유명해지는 것이 더 낫습니다."\n\n"[generalist.GetFirstName]는 반박했습니다. "내 친구, 당신은 이해하지 못하고 있습니다. 뛰어나지는 않더라도 다양한 지식을 가질 수 있다면, 왜 단 하나의 기술에만 매달려야 합니까?"\n\n이 주제에 대한 저의 생각은 무엇일까요?" # 5e945c5a49f82bc0d088f4d0a569257471f270de
+  VIETmisc.0239.desc: "뜰에 앉아 [generalist.GetFirstName]와 [specialist.GetFirstName]와 정원을 감상하며 한가로이 이야기를 나눕니다. 그러던 중 둘은 서로에게 다소 과격하지만 친절한 토론을 벌였습니다.  어떤 기술을 가져야 이상적인가에 대한 논쟁이었습니다.\n\n"[ specialist.GetFirstName ]은 말했습니다. "왜 만능이 되려고 하십니까? 그렇게 되면 어떤 분야에도 전문가가 될 수 없습니다! 한 분야에 뛰어나고 유명해지는 것이 더 낫습니다."\n\n"[generalist.GetFirstName]는 반박했습니다. "내 친구, 당신은 이해하지 못하고 있습니다. 뛰어나지는 않더라도 다양한 지식을 가질 수 있다면, 왜 단 하나의 기술에만 매달려야 합니까?"\n\n이 주제에 대한 저의 생각은 무엇일까요?" # 5e945c5a49f82bc0d088f4d0a569257471f270de
   VIETmisc.0239.a: "한 가지에 정통하여 능숙하게 하는 것이 더 낫습니다." # f3f11def05a8a2ce88323f66fd2587006d2ed732
   VIETmisc.0239.b: "다양한 것을 많이 아는 게 더 실용적이죠." # 3c95a79f78fcc814691d32d79b96e4dd5d4e7667
   VIETmisc.0240.t: "마녀의 수프" # ecd2f2cab14e8d0e5810c5419d9ec68ee9c8488b
@@ -1246,7 +1246,7 @@
   VIETmisc.0257.a: "저주스러운 놈아! 내 가족을 모욕하다니!" # 865cb60fff9d7c202d281155af603ec3bcb038c7
   VIETmisc.0257.b: "[목사.GetSheHe]의 말씀이셨겠지요." # e224735dfd4f377bb5e94a3b5414d0b73185e4ea
   VIETmisc.0257.c: "다시 생각해 보니, [chaplain.GetSheHe]의 말이 맞는 것 같습니다." # f2cbda4fb70ffb1705a3295acf00064250139ea2
-  VIETmisc.0257.info: "#강조 역사적 배경:#! 이 사건은 9세기, 루트비히 독일인의 아들 샤를 3세를 위해 흥미와 교육을 목적으로 여러 교훈적 이야기를 담은 카를루스 마그누스의 전기를 뜻하는 #italic 비타 카롤리 마그니#!의 이야기에 느슨하게 영감을 받았습니다. 이 특정 이야기에서, 카를루스 대왕의 주교 리투워드가 그러한 말을 했을 때, 대왕의 반응은 그를 땅바닥에 내리치는 것이었습니다." # 4569624a9b86aed1661ba002b8389f03358e3349
+  VIETmisc.0257.info: "#bold 역사적 배경:#! 이 사건은 9세기, 루트비히 독일인의 아들 샤를 3세를 위해 흥미와 교육을 목적으로 여러 교훈적 이야기를 담은 카를루스 마그누스의 전기를 뜻하는 #italic 비타 카롤리 마그니#!의 이야기에 느슨하게 영감을 받았습니다. 이 특정 이야기에서, 카를루스 대왕의 주교 리투워드가 그러한 말을 했을 때, 대왕의 반응은 그를 땅바닥에 내리치는 것이었습니다." # 4569624a9b86aed1661ba002b8389f03358e3349
   VIETmisc.0258.t: "끔찍한 재앙의 악몽" # 40d6baacc83c9a05c189d37a38ef86f4682a9a79
   VIETmisc.0258.desc: "잠자리에서 일어나 머리를 가볍게 문지르며 밤중에 깨운 끔찍한 악몽을 떠올리려 애씁니다.\n\n하인 중 한 명에게 남은 바클라바가 있는지 물었는데, 왠지 모르게 세상의 대부분의 바클라바가 사라지고 몇 개 남았다는 말을 듣게 됩니다. 그러자 꿈은 큰 전장으로 바뀌었고, 화려한 색깔과 상징을 단 완전 장비 기병대와 온갖 무시무시한 무기를 든 보병들이 함성을 지르며 전투에 뛰어드는 모습을 보았습니다. 그 목적은? 세상에 남은 마지막 바클라바를 차지하기 위한 싸움이었습니다.\n\n어쨌든 다시 침대에 누워 잠들려고 합니다. 정말 어처구니없는 악몽이었군요! 그런 미식의 대상이 멸종될 리가 없잖아요." # 2b81218dec0e6f313f305d4340c16ef0a4d176b0
   VIETmisc.0258.a: "혹시 왜 그런 악몽을 꾸었는지 궁금하군요…" # b077feadafea4c63f77eaf072629e325f323efd6
@@ -1458,10 +1458,10 @@
   VIETmisc.0303.desc: "최근 [crush.GetFirstName]를 만날 때마다 이상하게 행동하게 됩니다. 얼굴이 달아오르고 말이 꼬이고, 심지어 가슴이 터질 것 같아요. 더욱 심각한 것은, [crush.GetFirstNameNoTooltip]가 주변에 있을 때마다 이런 일이 일어난다는 겁니다!\n\n오늘 [crush.GetFirstNameNoTooltip]과 몇몇 중요 인사들과 만나는 자리입니다. 그들이 여러 가지 이야기를 나눌 때, 불안함에도 불구하고, [crush.GetFirstNameNoTooltip]과 [crush.GetHerHis] 아름다운 얼굴을 몰래 훔쳐보게 됩니다. 하지만 해서는 안 된다는 걸 알고 있기에, 잠깐만 바라보려고 노력하지만, 너무 티가 나는 것 같아 걱정입니다." # abbac0872789e6c2febafb7fd4fb3c6a7b5dd4db
   VIETmisc.0303.a: "그… 그런… [crush.GetHerHim]을 좋아하는 건 아니거든요!" # 48dbaed89725d72a1bf0b316369a1567060ef9d5
   VIETmisc.0304.t: "모래밭에서 놀기" # e524fc6401e0d3c24edf58278909ae8182444391
-  VIETmisc.0304.desc: "[child.GetFirstName]와 시녀들의 아이들 몇 명과 해변에서 놀고 있었는데, 모래로 큰 건물을 만들기 시작했습니다. 흔히 성을 모래로 만들곤 하지만... 왜 모래로 [ROOT.Char.GetFaith.HouseOfWorship]를 만들지 않았을까요? [ROOT.Char.GetFaith.HighGodName]께서 그걸 좋아하시지 않으실까요?\n\n다른 아이들에게 말했더니, 웃거나 이상하게 쳐다보더군요.\n\n"[child.GetFirstNameNoTooltip]은 말했습니다. "모두 모래성을 만들지! 모래 [ROOT.Char.GetFaith.HouseOfWorship]를 누가 만들겠어?"" # bb028385339cfdeea3bf15a723f2a98e4fd0525f
+  VIETmisc.0304.desc: "[child.GetFirstName]와 시녀들의 아이들 몇 명과 해변에서 놀고 있었는데, 모래로 큰 건물을 만들기 시작했습니다. 흔히 성을 모래로 만들곤 하지만... 왜 모래로 [ROOT.Char.GetFaith.HouseOfWorship]를 만들지 않았을까요? [ROOT.Char.GetFaith.HighGodName]께서 그걸 좋아하시지 않으실까요?\n\n다른 아이들에게 말했더니, 웃거나 이상하게 쳐다보더군요.\n\n"[ child.GetFirstNameNoTooltip ]은 말했습니다. "모두 모래성을 만들지! 모래 [ROOT.Char.GetFaith.HouseOfWorship]를 누가 만들겠어?"" # bb028385339cfdeea3bf15a723f2a98e4fd0525f
   VIETmisc.0304.a: "그렇게 생각하니 웃기는 생각이었네요." # db3b70b001b8f85e22b50008c34fc708fe812189
   VIETmisc.0304.b: "으음… 저는 여전히 모래 [ROOT.Char.GetFaith.HouseOfWorship]를 만들 것입니다." # 1cbe70a30f131c90e2f1db090af32b82938ec86e
-  VIETmisc.0304.info: "#강조 역사적 배경:# 이 사건은 1146년경~1223년경에 활동한, 혼혈 노르만-웨일즈 출신의 중세 성직자이자 역사가인 제랄드 드 웨일즈(Gerald of Wales)의 자서전에 기록된 일화를 바탕으로 합니다. 그는 어린 시절 해변을 방문했을 때 형제들은 모래성을 쌓았지만, 자신은 그 모래로 교회를 만들었다고 주장했습니다." # 62ad56480edf52c77c91e1fb932e20de468be0df
+  VIETmisc.0304.info: "#bold 역사적 배경:# 이 사건은 1146년경~1223년경에 활동한, 혼혈 노르만-웨일즈 출신의 중세 성직자이자 역사가인 제랄드 드 웨일즈(Gerald of Wales)의 자서전에 기록된 일화를 바탕으로 합니다. 그는 어린 시절 해변을 방문했을 때 형제들은 모래성을 쌓았지만, 자신은 그 모래로 교회를 만들었다고 주장했습니다." # 62ad56480edf52c77c91e1fb932e20de468be0df
   VIETmisc.0305.t: "젊어지고 싶소!" # b19f385378a3663ad4c8b1ec1d98bc437a17b610
   VIETmisc.0305.desc: "어른들 중에는 어린 시절로 돌아가고 싶다고 말하는 사람들이 있습니다. 아이일 때는 인생을 정말 즐길 수 있고, 진지하거나 성가신 문제에 대해 걱정할 필요가 없다고 말이죠.\n\n하지만 저는 할 일이 많아서, 그 어른들이 무슨 말씀인지 잘 모르겠습니다. 어른이 되는 게 즐거운 게 아니었나요? 제가 스스로 결정하고, 제 [ROOT.Char.GetWomanMan]이 될 수 있는 거니까요." # cedb8c2ccd7739e9df768d5edbadf69f50f99d10
   VIETmisc.0305.a: "어른들이 옳았나 봐. 아이인 게 좋네!" # ee60ecbe1cd29e1f3d48cedeb27af4203d0aee90
@@ -1472,7 +1472,7 @@
   VIETmisc.0306.a: "저런 추악한 춤은 절대 추지 않을 거예요." # 788eda3a9f268eea60e030dbd00b64f08968ccc2
   VIETmisc.0306.b: "우리 젊은이들 대부분은 #italic 그런#! 춤을 부끄럽게 생각합니다." # 17cb676c31cbd626ed1ab94524a49b1f258468db
   VIETmisc.0306.c: "저런 춤은 재미있어 보이네요." # 851a0983b1a1cd499b4f7021e5239e0a9657ec02
-  VIETmisc.0306.info: "#강조 역사적 배경:#! 위의 문구는 중세 독일 학자 콘라트 메겐베르크(1309-1374)의 저술에서 따온 것입니다. 이 글에서 메겐베르크는 어떤 악기가 도덕적으로 적절하거나 부적절하다고 생각하는지 설명합니다. #italic "비올리는 마음에 기쁨을 불러일으키므로 여성들의 춤에 더 적합합니다.... 실제로 현대에는 샤움과 큰 트럼펫이 일반적으로 잔치에서 침착한 비올리를 몰아내고, 젊은 소녀들은 사슴처럼 시끄러운 소리에 열심히 춤추며, 여자답지 않고 거칠게 엉덩이를 흔듭니다."#!" # 36ebb3ae90edd9a4a23ae064ad69deb9ddad32e9
+  VIETmisc.0306.info: "#bold 역사적 배경:#! 위의 문구는 중세 독일 학자 콘라트 메겐베르크(1309-1374)의 저술에서 따온 것입니다. 이 글에서 메겐베르크는 어떤 악기가 도덕적으로 적절하거나 부적절하다고 생각하는지 설명합니다. #italic "비올리는 마음에 기쁨을 불러일으키므로 여성들의 춤에 더 적합합니다.... 실제로 현대에는 샤움과 큰 트럼펫이 일반적으로 잔치에서 침착한 비올리를 몰아내고, 젊은 소녀들은 사슴처럼 시끄러운 소리에 열심히 춤추며, 여자답지 않고 거칠게 엉덩이를 흔듭니다."#!" # 36ebb3ae90edd9a4a23ae064ad69deb9ddad32e9
   VIETmisc.0307.t: "새로운 장난감인가?" # 2ef032f1ac5feaf72f31ed1d96e53b7aa0d49835
   VIETmisc.0307.desc: "얼마 동안 제가 갖고 있던 나무 장난감이 있었는데요.  최근에는 예전만큼 재미있지 않네요.  아마 제가 자라는 것 같고, 이제는 어린아이들이 가지고 놀 장난감으로 바꿔야 할 것 같아요." # 4ae53dd524f067c48000bc5816e18f1b45005539
   VIETmisc.0307.a: "새로운, 더 좋은 장난감을 찾아낼 겁니다." # c63835d81e494c7517e3eea57df5c826cdda3acb
@@ -1521,17 +1521,17 @@
   VIETmisc.0318.desc: "[debater_1.GetTitledFirstName]와 [debater_2.GetTitledFirstName]는 점성술의 신뢰성에 관한 유쾌하고 가벼운 논쟁을 즐기고 있습니다.\n\n“[debater_1.GetFirstNameNoTooltip]는 “물론, 점성술은 오류가 있을 수 있으며, 일부 점성술사는 사기꾼입니다. 하지만 제대로 계산하는 천문학자들은 좋은, 유용한 관측을 할 수 있습니다.”라고 말했습니다.\n\n“[debater_2.GetFirstNameNoTooltip]는 “저는 천체가 우리 삶에 영향을 주지 않는다고 말하는 것이 아닙니다. 예를 들어 달이 조수 간만을 일으킨다는 것은 알고 있습니다.”라고 웃었습니다. “저는 그 영향이 무엇인지 알기 어렵다고 말하고 있습니다. 당신이 말하는 학자들은 고려해야 할 변수가 너무 많다는 데 동의하지 않겠습니까? 그렇다면 단순한 계산을 통해 [debater_2.GetFaith.PantheonTerm]의 뜻을 아는 것은 오만한 일이 아닐까요?”\n\n“[debater_1.GetFirstNameNoTooltip]는 “당신은 학자들이 모두 [debater_1.GetFaith.HighGodName]를 미워하는 이단자라고 생각하는 미신적인 [debater_1.Custom('DefaultPriestTitlePlural')] 같군요.”라고 미소 지었습니다. “제 [ROOT.Char.GetTitleAsNameNoTooltip], 이에 대한 당신의 생각은 무엇입니까?”" # 386e067ab6b353dc9ce18c2bb11c2bb66c394b05
   VIETmisc.0318.a: "훈련이 훌륭하면 별을 읽을 수 있습니다." # 7959f07c41388eb2581caa02170951d39bc6305e
   VIETmisc.0318.b: "별과 그 영향을 진정으로 이해할 수는 없습니다." # 974e6384b7cc2b49e721584fc1ee94ae4858d662
-  VIETmisc.0318.info: "#강조 역사적 배경:#! 오늘날 천문학과 점성술은 서로 다른 것으로 여겨지지만, 역사적으로는 많은 사회에서 두 가지가 서로 바뀌어 사용되었으며, 심지어 일부는 점성술의 타당성을 의심했습니다.\n\n이 시대의 점성술에 대한 반박은 때로는 그 자체의 개념에 대한 반박(비록 그런 경우도 있었지만)이 아니었으며, 더욱이 인간의 이해 능력을 넘어선 것이라는 점에 더 초점을 맞추었습니다. 일부는 신학적 근거로 이를 반박하며, 신의 뜻을 예측하는 것은 최소한 문제가 있다고 주장했습니다.\n\n예를 들어, 유명한 이슬람의 폴리매스 아비센나(이븐 시나)는 #italic 별의 판결에 반하는 논문#!이라는 책을 써서 점성술을 반박했습니다. 그는 사람들이 별이 지구에 미치는 영향을 진정으로 이해할 능력이 없다는 점을 근거로 삼았습니다. 하지만 어떤 종류의 영향이 있을 가능성은 인정했습니다." # 22b456d5980c770216c0966e6a700bc518215882
+  VIETmisc.0318.info: "#bold 역사적 배경:#! 오늘날 천문학과 점성술은 서로 다른 것으로 여겨지지만, 역사적으로는 많은 사회에서 두 가지가 서로 바뀌어 사용되었으며, 심지어 일부는 점성술의 타당성을 의심했습니다.\n\n이 시대의 점성술에 대한 반박은 때로는 그 자체의 개념에 대한 반박(비록 그런 경우도 있었지만)이 아니었으며, 더욱이 인간의 이해 능력을 넘어선 것이라는 점에 더 초점을 맞추었습니다. 일부는 신학적 근거로 이를 반박하며, 신의 뜻을 예측하는 것은 최소한 문제가 있다고 주장했습니다.\n\n예를 들어, 유명한 이슬람의 폴리매스 아비센나(이븐 시나)는 #italic 별의 판결에 반하는 논문#!이라는 책을 써서 점성술을 반박했습니다. 그는 사람들이 별이 지구에 미치는 영향을 진정으로 이해할 능력이 없다는 점을 근거로 삼았습니다. 하지만 어떤 종류의 영향이 있을 가능성은 인정했습니다." # 22b456d5980c770216c0966e6a700bc518215882
   VIETmisc.0319.t: "개짓는 날들" # fd741312913dffb9899afd47823d8764fa15345f
   VIETmisc.0319.desc: "시리우스 별이 하늘 높이 떠오르자, 개짓는 날씨가 찾아왔습니다. [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]의 날씨가 예사롭지 않게 더웁습니다. 뜨거운 열기가 점점 제 정신을 잃게 하고, 건강에 악영향을 미칠까 염려됩니다. #italic 세리아시스#가 닥칠까 봐 걱정입니다.\n\n\n[physician.GetTitledFirstName], 저의 의사는 제 걱정이 타당하다고 생각하며, 제가 이 질병에 시달리고 있을까 염려합니다. 아이들은 시리우스의 영향에 가장 취약하지만, 어른들도 #italic 세리아시스#에 영향을 받을 수 있습니다. 올해, [physician.GetSheHe]가 상의한 천문학자들은 시리우스의 영향이 평소보다 클 수 있다고 말합니다.\n\n\n아무튼, [physician.GetFirstNameNoTooltip]은 개짓는 날씨의 영향을 줄이기 위한 약간의 치료법을 권장했습니다." # 542099a35cd3a08b05f3ebf609c0bdf1fa9e00c3
   VIETmisc.0319.a: "시리우스의 영향을 막기 위한 치료법들을 준비하세요." # eb998e137bc58ad8f37aa82d26f355b84bb62311
   VIETmisc.0319.b: "개짓는 날씨도 그리 나쁘진 않아…  희망해." # 43192c75c326892e636ef2ae4ff9f37576181df6
-  VIETmisc.0319.info: "#강조 역사적 배경:# 시리우스는 천체 관측자들에게 수천 년 동안 관찰되어 온 하늘에서 가장 밝은 별입니다. 해돋이 직후 하늘에 보이는 시리우스의 헬리오칼 상승은 종종 여름 가장 더운 날들 이전에 발생했습니다.\n\n그러한 이유로, 일부 고대 문화는 시리우스가 떠오를 때 부정적인 영향이 있다고 믿었습니다. 그러한 영향에는 #italic 시리어시스#!, 일종의 햇볕 쬐는 증상, 또는 개들이 비정상적인 행동을 하는 것 등이 포함되었으며, 이는 연중 가장 더운 기간을 가리키는 "개낮"이라는 용어의 기원이 되었습니다." # 041005265db4337c9c0db1a7106f8af6e7566ced
+  VIETmisc.0319.info: "#bold 역사적 배경:# 시리우스는 천체 관측자들에게 수천 년 동안 관찰되어 온 하늘에서 가장 밝은 별입니다. 해돋이 직후 하늘에 보이는 시리우스의 헬리오칼 상승은 종종 여름 가장 더운 날들 이전에 발생했습니다.\n\n그러한 이유로, 일부 고대 문화는 시리우스가 떠오를 때 부정적인 영향이 있다고 믿었습니다. 그러한 영향에는 #italic 시리어시스#!, 일종의 햇볕 쬐는 증상, 또는 개들이 비정상적인 행동을 하는 것 등이 포함되었으며, 이는 연중 가장 더운 기간을 가리키는 "개낮"이라는 용어의 기원이 되었습니다." # 041005265db4337c9c0db1a7106f8af6e7566ced
   VIETmisc.0320.t: "맹세 어기는 벌" # 07ef02ba65bf9e61c54afdf19e68547a45ebedc5
   VIETmisc.0320.desc: "제 [chaplain.GetCouncilTitle]이신 [chaplain.GetTitledFirstName]께서 저를 몇 차례 욕설을 하는 것을 보시고 [ROOT.Char.GetFaith.HighGodNamePossessive] 이름을 헛되이 사용하는 것을 들으셨습니다. 이는 사소한 잘못이었지만, [chaplain.GetFirstNameNoTooltip]께서는 심각하게 여기셨습니다.\n\n[chaplain.GetFirstNameNoTooltip]께서는 벌로써 7일 동안 물만 마시고 빵만 먹도록 권하셨습니다. 이러한 처벌은 저에게 앞으로 다시는 그런 일을 하지 않도록 일깨워 줄 것입니다." # 7d083f7545ef5441c82a237155a62225d6507252
   VIETmisc.0320.a: "물과 빵으로 회개하리라." # 7d90c08676d84db446da256d2cf8bee1340659cd
   VIETmisc.0320.b: "이건 우스워요 – 제가 잘못한 게 없는데요." # 9f2010b250deef527d192338b1fb55afebec5350
-  VIETmisc.0320.info: "#강조 역사적 배경:#! 중세 유럽에서, 가끔씩 욕설하는 등의 사소한 죄에 대한 일반적인 벌은 일정 기간, 예를 들어 일주일이나 이주 동안 물만 마시고 빵만 먹는 것이었습니다. 이는 너무 과하지 않은 형벌이었지만, 이론적으로는 사람들이 이런 사소한 죄를 다시 저지르는 것을 막기에 충분한 불편함이었습니다." # c39e91e0cd63d7d184300b841964823327537522
+  VIETmisc.0320.info: "#bold 역사적 배경:#! 중세 유럽에서, 가끔씩 욕설하는 등의 사소한 죄에 대한 일반적인 벌은 일정 기간, 예를 들어 일주일이나 이주 동안 물만 마시고 빵만 먹는 것이었습니다. 이는 너무 과하지 않은 형벌이었지만, 이론적으로는 사람들이 이런 사소한 죄를 다시 저지르는 것을 막기에 충분한 불편함이었습니다." # c39e91e0cd63d7d184300b841964823327537522
   VIETmisc.0321.t: "포도주로 물을?" # cb945c9b6d419a8f2da775c75a0dd4286b01fc7e
   VIETmisc.0321.desc: "떠돌이 순례자 한 명이 지나가며 [ROOT.Char.GetFaith.HighGodName]의 축복을 받았다고 주장했습니다. 그는 구걸하며 특히 빵과 물을 요청했습니다. 저는 그를 돕는 데 문제가 없었고, 하인들에게 약간의 빵과 물을 주도록 요청했습니다.\n\n그가 감사를 표한 후 빵을 물에 적셔 부드럽게 먹었습니다.  물을 마시려던 찰나 그는 외쳤습니다. “물이 포도주로 변했습니다! 기적입니다! 저는 [ROOT.Char.GetFaith.HighGodName]의 축복을 받았습니다!”\n\n하인 중 한 명이 그것을 조금 맛보고는 어떻게 술로 변했는지 확인했습니다! 그 남자는 더 많은 구걸과 저희 저택에 숙박을 요청했고, 저희 하인들은 [ROOT.Char.GetFaith.HighGodName]의 축복을 받은 사람이 함께 있는 것을 기뻐했습니다. 그러나 한 노인 하인은 그 남자를 사기꾼이라고 쏘아대며 화가 난 채 그를 내쫓았습니다." # bcb1ab3105e10e60b1ef62092ff5b17e4fcd8883
   VIETmisc.0321.a: "어떻게 된 거지?" # 121e18e25d4cf7b2a16bfd86d32661703c01b807
@@ -1540,7 +1540,7 @@
   VIETmisc.0322.desc: "늙은 하인이 고개를 저으며 모두에게 설명했습니다.\n\n"이것은 사기꾼들이 사람들에게 자신들이 성스럽다고 믿게 하기 위해 쓰는 오래된 속임수입니다. 어린애 같은 정도로 간단하죠. 아마도 그는 색깔이 변한 포도주에 빵을 적셨을 겁니다. 그런 다음 말리는 데 냅두고 조각으로 부수었겠죠. 그리고 이 빵 조각들을 감지되지 않게 물에 띄웁니다. 그러면 포도주의 맛이 나머지 음료에 퍼져서 포도주 맛이 나는 것처럼 보이게 되는 거죠. 저는 이런 식으로 많은 사기꾼들이 자신을 성스러운 존재라고 속여서 바보들이 그들에게 물건을 주게 하는 걸 보았습니다."" # e503bb86caac866f40fa9896c2420901a120526f
   VIETmisc.0322.a: "놀라워요! 그를 속일 뻔했네요…." # e39858af7c8c286a9c0053d4248ca5ed07882406
   VIETmisc.0322.b: "그가 조용히 빵 조각들을 던져 넣는 것을 발견했습니다." # 0bf6e998c10cd98e05b0f26dd53ebbc928b0a022
-  VIETmisc.0322.info: "#강조 역사적 배경:#! 14세기 중세 마술 서적 #italic 비밀철학자의 비밀#!, 익명의 저자가 쓴 책에 다음과 같은 속임수가 언급되었습니다.  이에 따르면, 이러한 속임수는 속기 쉬운 사람들을 속이기 위한 흔한 속임수 중 하나였습니다.  “#italic 이 실험은 전 세계를 순례자처럼 돌아다니는 사기꾼들이 사용합니다. 이 실험으로 많은 사람들은 신이 물을 포도주로 변화시킨다고 믿게 됩니다.#!”" # a4b47952ff68bc5ea8fc8e88927cbe7005869356
+  VIETmisc.0322.info: "#bold 역사적 배경:#! 14세기 중세 마술 서적 #italic 비밀철학자의 비밀#!, 익명의 저자가 쓴 책에 다음과 같은 속임수가 언급되었습니다.  이에 따르면, 이러한 속임수는 속기 쉬운 사람들을 속이기 위한 흔한 속임수 중 하나였습니다.  “#italic 이 실험은 전 세계를 순례자처럼 돌아다니는 사기꾼들이 사용합니다. 이 실험으로 많은 사람들은 신이 물을 포도주로 변화시킨다고 믿게 됩니다.#!”" # a4b47952ff68bc5ea8fc8e88927cbe7005869356
   VIETmisc.0323.t: "溺水를 예방하는 방법" # d48e550b86e12967facbebbde1c850dfcf2fd9e0
   VIETmisc.0323.desc: "오늘 한 여행자가 저희 궁궐을 방문하여 많은 나라를 다니고 여러 위험을 겪었다고 말했습니다. 특히, 넓고 웅장한 대양이나 작은 강과 호수를 건너는 여행의 위험에 대해 이야기했습니다.\n\n모두가 익히 아는 바와 같이, 물에 빠지는 것은 항상 위험한 일입니다. 이 여행자는 폭풍우 속 배를 타거나 강을 건너는 등 익사할 뻔한 상황에서 여러 번 벗어났다고 설명했습니다.\n\n여행자는 물에 빠지는 것을 줄이기 위해 수영 기술에 대한 몇 가지 방법을 설명했습니다." # 65b8a3acc6bc0d52edb9c76a3a4fe73653ff6966
   VIETmisc.0323.a: "흥미로운 교훈이었으며, 우리의 목숨을 구할 수도 있을 것입니다!" # d4cd52908c5a1d44586935bf7854daaaf92e5964
@@ -1567,35 +1567,35 @@
   VIETmisc.0328.c: "저는 값싼 콩과 견과류로 만든 우유로 바꿀 겁니다." # 2a9506ba8ce7ddb6a57daa097ac519e184b8930b
   VIETmisc.0328.info: "$VIETmisc.6020.info$" # 4d0abeb83f1f85ead0e1fc49f4b56da474a0e669
   VIETmisc.0329.t: "수액이 아닙니다" # e85550d553316ecf859b7994b207c0b59816f261
-  VIETmisc.0329.desc: "정원에서 궁정 일부와 함께 외부에 나와 있었는데, 주변 나무에 붙어있는 듯한 무언가가 눈에 띄었습니다. 나는 그 짙푸른 무언가를 칭찬하며 아름답다고 말했고, 주변 사람들도 모두 동의했습니다.\n\n"[ROOT.Char.GetLadyLord]님, 저것은 솔잎덩굴이 아닙니다." [gardener.GetTitledFirstName]가 우리를 정정했습니다. [gardener.GetSheHe|U]는 가끔 지역 식물에 대한 상당한 지식을 보여주셨기에, 우리는 [gardener.GetHerHim]의 말에 주의를 기울였습니다.\n\n"[gardener.GetFirstNameNoTooltip]는 [ROOT.Char.GetCapitalLocation.GetName] 주변 사람들이 세대를 이어 불러온 #italic [GetPlayer.Custom('VIET_old_cactus_name')]#입니다. 다른 솔잎덩굴 종류만큼 유용하지는 않습니다. 약효도 별로 없고 열매도 그리 좋지 않거든요. 그래도 예쁘긴 하네요. 저는 동의합니다."" # 537bacb1f07d0eaef21935d972d0128981971486
+  VIETmisc.0329.desc: "정원에서 궁정 일부와 함께 외부에 나와 있었는데, 주변 나무에 붙어있는 듯한 무언가가 눈에 띄었습니다. 나는 그 짙푸른 무언가를 칭찬하며 아름답다고 말했고, 주변 사람들도 모두 동의했습니다.\n\n"[ ROOT.Char.GetLadyLord ]님, 저것은 솔잎덩굴이 아닙니다." [gardener.GetTitledFirstName]가 우리를 정정했습니다. [gardener.GetSheHe|U]는 가끔 지역 식물에 대한 상당한 지식을 보여주셨기에, 우리는 [gardener.GetHerHim]의 말에 주의를 기울였습니다.\n\n"[gardener.GetFirstNameNoTooltip]는 [ROOT.Char.GetCapitalLocation.GetName] 주변 사람들이 세대를 이어 불러온 #italic [GetPlayer.Custom('VIET_old_cactus_name')]#입니다. 다른 솔잎덩굴 종류만큼 유용하지는 않습니다. 약효도 별로 없고 열매도 그리 좋지 않거든요. 그래도 예쁘긴 하네요. 저는 동의합니다."" # 537bacb1f07d0eaef21935d972d0128981971486
   VIETmisc.0329.a: "음. 맞아요. 여전히 보기 좋네요." # bff32cd4b0cc0312977ff129a736df657afaecaa
   VIETmisc.0329.b: "그 식물에 대해 더 자세히 알려주시겠습니까?" # 94f8923c76e1019d7d5d91d977a8912ac9c49d95
-  VIETmisc.0329.info: "#강조 생물학적 배경:#  흔히 구세계에는 선인장이 자생하지 않는다고 알려져 있지만,  예외가 있을 수 있습니다. #italic 립살리스 바키페라#!라는 솔잎 같은 식물은 중남미, 플로리다, 카리브해 지역, 그리고 스리랑카와 아프리카 사하라 이남 열대 지역에 자생합니다.\n\n이 식물이 구세계에 도달한 경로에 대해 세 가지 가설이 있습니다. 1) 콜럼버스 교환 과정에서 유럽 선박에 실려 왔을 가능성, 2) 그 이전에 이동하는 새들에 의해 퍼졌을 가능성, 3) 대륙 이동으로 인해 분리되기 전에 이 지역들이 연결되어 있었던 시절에 다른 선인장 종보다 훨씬 오래 전에 진화했을 가능성입니다. 세 가지 가설 모두 상당한 결함을 지니고 있지만, 이 이벤트를 위해 후자의 두 가설을 가정합니다.\n\n이 이벤트에서 사용되는 이 식물의 지역명, $VIET_old_world_cactus_name_sri_lanka$와 $VIET_old_world_cactus_name_west_africa$는 각각 스리랑카와 요루바 지역에서 사용되는 이름입니다." # a147cb340a201de268a3903e62dc663cfc3c64c4
+  VIETmisc.0329.info: "#bold 생물학적 배경:#  흔히 구세계에는 선인장이 자생하지 않는다고 알려져 있지만,  예외가 있을 수 있습니다. #italic 립살리스 바키페라#!라는 솔잎 같은 식물은 중남미, 플로리다, 카리브해 지역, 그리고 스리랑카와 아프리카 사하라 이남 열대 지역에 자생합니다.\n\n이 식물이 구세계에 도달한 경로에 대해 세 가지 가설이 있습니다. 1) 콜럼버스 교환 과정에서 유럽 선박에 실려 왔을 가능성, 2) 그 이전에 이동하는 새들에 의해 퍼졌을 가능성, 3) 대륙 이동으로 인해 분리되기 전에 이 지역들이 연결되어 있었던 시절에 다른 선인장 종보다 훨씬 오래 전에 진화했을 가능성입니다. 세 가지 가설 모두 상당한 결함을 지니고 있지만, 이 이벤트를 위해 후자의 두 가설을 가정합니다.\n\n이 이벤트에서 사용되는 이 식물의 지역명, $VIET_old_world_cactus_name_sri_lanka$와 $VIET_old_world_cactus_name_west_africa$는 각각 스리랑카와 요루바 지역에서 사용되는 이름입니다." # a147cb340a201de268a3903e62dc663cfc3c64c4
   VIETmisc.0330.t: "뱀과의 조우" # 649179ce2889c5bb747bc5abbda740a4bb06000b
   VIETmisc.0330.desc: "[kind.GetTitledFirstName]가 과거 흥미로운 일화를 들려주고 있습니다. [kind.GetSheHe|U]는 예전 사막 여행 중 뜨거운 태양에 시달리는 큰 뱀을 발견했다고 합니다. 동료들은 뱀을 죽이라고 충고했지만, [kind.GetSheHe]는 물주머니에서 물을 떠 뱀을 식혀주었고, 뱀은 꿈틀거리며 사라졌다고 합니다.\n\n그 후, 그들은 사막에서 길을 잃었습니다. [kind.GetFirstNameNoTooltip]는 낯선 곳에서 홀로 길을 잃었는데, 주인 없는 새 낙타를 발견했습니다. [kind.GetSheHe|U]는 어떤 목소리가 낙타를 타고 안전한 곳으로 돌아가라고 지시하는 소리를 들었고, 실제로 그 방법으로 돌아갈 수 있었습니다.\n\n많은 동료들은 [kind.GetFirstNameNoTooltip]이 구해준 뱀이 #italic 겐#!일 것이라고 생각하며, 그 뱀이 [kind.GetFirstNamePossessiveNoTooltip]의 친절함에 보답한 것이라고 믿지만, [kind.GetSheHe]는 여전히 확신하지 못하고 있습니다." # 2781ef17643fe9bbac929cf421fbc312c786f754
   VIETmisc.0330.a: "참으로 좋은 #italic 진#이었겠군요." # 195377631bfe5cc64f62eb7f0d28c6aba7f18d95
   VIETmisc.0330.b: "운이 좋았던 우연의 일치일지도 모릅니다." # cdd6c01a1b5a60ccffc53bba559baf6997544074
-  VIETmisc.0330.info: "#강조 역사적 배경:# 이 사건은 8세기 아랍 시인 아부 자이드 알-쿠라시와 관련된 전설을 각색한 것입니다. 그는 비슷한 상황에서 선한 진(서구에서는 일반적으로 요정으로 알려짐)과 만났다고 전해집니다. 이슬람과 중동 민담에서 진은 인간과 같이 자유의지를 가진 이성적인 존재로, 선할 수도 악할 수도 있습니다. 이슬람의 출현 이후 선한 진은 또한 신을 숭배하고 경건한 이슬람교도라고 믿어졌습니다." # 99196bb539e5f5c53fd8725cb52bd19f2d781806
+  VIETmisc.0330.info: "#bold 역사적 배경:# 이 사건은 8세기 아랍 시인 아부 자이드 알-쿠라시와 관련된 전설을 각색한 것입니다. 그는 비슷한 상황에서 선한 진(서구에서는 일반적으로 요정으로 알려짐)과 만났다고 전해집니다. 이슬람과 중동 민담에서 진은 인간과 같이 자유의지를 가진 이성적인 존재로, 선할 수도 악할 수도 있습니다. 이슬람의 출현 이후 선한 진은 또한 신을 숭배하고 경건한 이슬람교도라고 믿어졌습니다." # 99196bb539e5f5c53fd8725cb52bd19f2d781806
   VIETmisc.0331.t: "농담" # 9b73c499fd544d9c9333507a12f1c5560106a537
   VIETmisc.0331.desc: "“[joker.GetTitledFirstName]가 어느 날 한가로이 이야기하던 중, 갑자기 재미있는 수수께끼가 생각났다고 말합니다. \"절대 웃음이 터질 거예요!\"라고요.\n\n잠시 생각에 잠긴 후, 저는 [joker.GetHerHim]에게 말합니다. \"웃겨 주세요.\"\n\n\"사내의 허벅지에 매달려 있으면서, 종종 찔려 온 구멍을 찔러보고 싶어 하는 것은 무엇일까요?\" [joker.GetSheHe]가 묻습니다.\n\n[joker.GetFirstNameNoTooltip]은 잠시 질문이 머릿속에 맴돌도록 둡니다. 제가 눈살을 찌푸리며 [joker.GetSheHe]가 음흉한 농담을 하는 줄 알았을 때, [joker.GetSheHe]는 답을 밝힙니다. \"#bold 열쇠#!!\"" # 85048db777574d1e38bd1edbb5b60fe17e342e7c
   VIETmisc.0331.a: "허허허! 참 재밌네요." # 1b94efcd93847fae39c9ce343b36c9148936a7b8
   VIETmisc.0331.b: "그 이중적인 의미는 전혀 재미있지 않았습니다." # 1b10e23cfb2c51b5e0de79074738c6563ac5155c
-  VIETmisc.0331.info: "#강조 역사적 배경:#! 앵글로색슨 잉글랜드에서는 수수께끼가 인기 있었으며, 이중 의미를 가진 수수께끼도 많았습니다. 이 수수께끼는 #기울임꼴 Exeter Book#!, 10세기 앵글로색슨 시 영시들을 모아 놓은 책에서 나온 것으로, 일부는 수수께끼나 농담 형식으로 되어 있습니다. 예를 들어, 이 수수께끼가 그렇습니다." # de46a8d643384ba10766bc3f436876f94c167a0b
+  VIETmisc.0331.info: "#bold 역사적 배경:#! 앵글로색슨 잉글랜드에서는 수수께끼가 인기 있었으며, 이중 의미를 가진 수수께끼도 많았습니다. 이 수수께끼는 #기울임꼴 Exeter Book#!, 10세기 앵글로색슨 시 영시들을 모아 놓은 책에서 나온 것으로, 일부는 수수께끼나 농담 형식으로 되어 있습니다. 예를 들어, 이 수수께끼가 그렇습니다." # de46a8d643384ba10766bc3f436876f94c167a0b
   VIETmisc.0332.t: "Joke." # 09ce85d2f9963244592c6588aaae5d142d12471e
   VIETmisc.0332.desc: "[courtier_1.GetTitledFirstName]은 들뜬 기색으로 저에게 흥미로운 소문을 전해주려 했습니다. [courtier_1.GetSheHe|U]는 자신의 지인으로부터 저의 영지 한 마을에, 스스로 정관을 절제한 결혼한 남자가 있다는 소식을 들었습니다. 그 바보는 아내가 다른 남자와 관계를 가졌을지 모른다는 질투심에 사로잡혀, 자발적으로 자신의 남성성을 잃었다고 합니다. 만약 아내가 임신하게 된다면, 그것은 간통을 부인할 수 없다는 것이 그의 생각이었죠.\n\n[courtier_1.GetFirstNameNoTooltip]이 이 터무니없는 소문을 들떠서 제게 이야기하자, [courtier_2.GetTitledFirstName]은 이전에 들었던 농담과 흡사하다고 지적했습니다. [courtier_2.GetFirstNameNoTooltip]은 비웃으며 [courtier_1.GetFirstNameNoTooltip]에게 말했습니다. "그건 아마도 실제 사람에 관한 이야기가 아니라 농담일 거야!"\n\n[courtier_1.GetFirstNamePossessiveNoTooltip] 눈은 수치심에 동그래졌습니다. [courtier_1.GetSheHe]는 [courtier_2.GetFirstNameNoTooltip]이 옳다는 것을 깨달았습니다." # 43173ca8e5c5590a8a3c73c7869f6fa3e415a220
   VIETmisc.0332.a: "참 부끄럽군, [courtier_1.GetFirstNameNoTooltip]!" # ca0fb9169c3e1688bab720cea148b3188467488f
   VIETmisc.0332.b: "어휴, 적어도 웃긴 농담이군!" # 3ad3ef87869c203fe4219e77cb97720bcd44f78a
-  VIETmisc.0332.info: "#강조 역사적 배경:#! 이 유머는 이탈리아 학자 포지오 브라치올리니(1380-1459)가 저술한 #italic Facetiae#!, 고전 라틴어 원고들을 되찾는 데 큰 역할을 했던 인물의 익살스러운 이야기 모음집에서 나왔습니다. 그는 #italic Facetiae#!를 저술한 이유에 대해 "다양한 걱정과 염려로 짓눌린 우리의 마음이 때때로 끊임없는 노동에서 휴식을 취하고, 재미있는 오락으로 즐거움과 유쾌함을 되찾는 것은 적절하고, 거의 철학자들이 권장하는 필수적인 일입니다."라고 말했습니다." # b1e132e1e177cd5c511b519f91fabe93753c0187
+  VIETmisc.0332.info: "#bold 역사적 배경:#! 이 유머는 이탈리아 학자 포지오 브라치올리니(1380-1459)가 저술한 #italic Facetiae#!, 고전 라틴어 원고들을 되찾는 데 큰 역할을 했던 인물의 익살스러운 이야기 모음집에서 나왔습니다. 그는 #italic Facetiae#!를 저술한 이유에 대해 "다양한 걱정과 염려로 짓눌린 우리의 마음이 때때로 끊임없는 노동에서 휴식을 취하고, 재미있는 오락으로 즐거움과 유쾌함을 되찾는 것은 적절하고, 거의 철학자들이 권장하는 필수적인 일입니다."라고 말했습니다." # b1e132e1e177cd5c511b519f91fabe93753c0187
   VIETmisc.0333.t: "피티로 이주했습니다." # 942cf030630e13e4741e6c04f88cc47526a8bd6e
   VIETmisc.0333.desc: "저의 [councillor_1.GetCouncilTitle] [councillor_1.GetTitledFirstName]께서 오늘 회의에서 심각하고 숙연한 문제에 대해 다른 신하들에게 간략한 연설을 하셨습니다.\n\n연설이 끝난 후, 제가 [councillor_1.GetFirstNameNoTooltip]이 저의 [councillor_2.GetCouncilTitle] [councillor_2.GetTitledFirstName]에게 [councillor_1.GetSheHe]가 연설의 내용처럼 백성들의 동정을 얻어낼 수 있었는지 물어보는 것을 들었습니다.\n\n“[councillor_1.GetSheHe] 당연하죠.” [councillor_2.GetFirstNameNoTooltip]은 냉담한 목소리로 말했습니다. “어떤 이가 당신의 연설이 가슴 아프지 않았다고 말할 정도로 냉담한 사람은 없을 겁니다.”" # fe53050fa0fe79929b732d11c35c062e8ebf3242
   VIETmisc.0333.a: "흠. [councillor_2.GetFirstNameNoTooltip] 말이 틀리진 않았네." # aab224d574405242e0c60473a656c875d9a08b50
   VIETmisc.0333.b: "[councillor_2.GetFirstNameNoTooltip]께서는 그리 퉁명스럽게 말씀하실 필요는 없습니다." # cae1f3deba0bf04b59874a92c1e15893df2199b6
-  VIETmisc.0333.info: "#강조 역사적 배경:#! 이 교환은 로마 정치가이자 변호사이자 작가인 키케로(기원전 106년 ~ 기원전 43년)가 그의 저서 #italic De Oratore#! (웅변가에 대하여)에서 언급한 일화를 바탕으로 합니다.  이 말은 카툴루스(기원전 149년 ~ 기원전 87년), 로마 집정관이, 끔찍한 연설가에게 한 말이라고 합니다." # c6d6ea3b8b547dd7df92e520a3c0fa6500f7774e
+  VIETmisc.0333.info: "#bold 역사적 배경:#! 이 교환은 로마 정치가이자 변호사이자 작가인 키케로(기원전 106년 ~ 기원전 43년)가 그의 저서 #italic De Oratore#! (웅변가에 대하여)에서 언급한 일화를 바탕으로 합니다.  이 말은 카툴루스(기원전 149년 ~ 기원전 87년), 로마 집정관이, 끔찍한 연설가에게 한 말이라고 합니다." # c6d6ea3b8b547dd7df92e520a3c0fa6500f7774e
   VIETmisc.0334.t: "바다 위 위험" # 41e016c27e76e605f3f1de2c7b222fad9be0de65
   VIETmisc.0334.desc: "모두가 [courtier_1.GetTitledFirstName]가 용기가 부족한 인물이라는 것을 알고 있습니다. [courtier_1.GetSheHe]는 가능한 한 위험한 상황을 피하려고 하며, 특히 여행에 있어서 그렇습니다.\n\n어느 날, 우리는 해상 여행과 그로 인한 위험에 대해 논의하고 있었습니다. 저는 [courtier_1.GetFirstNameNoTooltip]를 조금 괴롭히고 싶어서, [courtier_1.GetHerHim]에게 전함이나 상선 중 어느 것이 더 안전하다고 생각하는지 물었습니다.\n\n“[courtier_1.GetSheHe]는 씁쓸한 미소를 지으며 대답했습니다. “건조 중인 배들.”" # a3b491b14032c92c1fcea05b1521415b1b67fc65
   VIETmisc.0334.a: "음. 그건 재치 있는 대답이군, 인정합니다." # 5cfdba46173e395bf3b42d498ff901068376952b
   VIETmisc.0334.b: "겁쟁이라는 사실은 변하지 않습니다." # 4be7f2227d9fce83e39efe3cbaf24e467397e018
-  VIETmisc.0334.info: "#강조 역사적 배경:#! 이 재치 있는 대화는 #italic 필로젤로스#!, 기원후 4세기에 작성된 고대 그리스 농담집에서 따온 것으로, 가장 오래된 완전본 농담집입니다.  하지만, 이보다 더 오래된 고대 자료에서 언급된 농담집이 존재했으므로, 가장 오래된 것으로는 간주되지 않습니다." # f2cb53a91280744da8c06690ca5d687d1873d8d4
+  VIETmisc.0334.info: "#bold 역사적 배경:#! 이 재치 있는 대화는 #italic 필로젤로스#!, 기원후 4세기에 작성된 고대 그리스 농담집에서 따온 것으로, 가장 오래된 완전본 농담집입니다.  하지만, 이보다 더 오래된 고대 자료에서 언급된 농담집이 존재했으므로, 가장 오래된 것으로는 간주되지 않습니다." # f2cb53a91280744da8c06690ca5d687d1873d8d4
   VIETmisc.0335.t: "관문을 통하여" # 112a262471391e9a8c60f8952d537f4c45d11086
   VIETmisc.0335.desc: "저택 근처 길을 저녁 산책하던 중, 작은 수행원들과 함께 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitle')]가 다가왔습니다.  정말, 제가 본 [ROOT.Char.Custom('DefaultPriestTitle')] 중 가장 뚱뚱한 [ROOT.Char.Custom('DefaultPriestTitlePlural')] 중 하나였습니다!\n\n친절한 어투로 인사를 나눈 후, [ROOT.Char.Custom('DefaultPriestTitle')]는 인근 마을로 가는 길이라고 설명하며, “이렇게 체격으로 마을 문을 통과할 수 있을까요?”라고 물었습니다.\n\n[ROOT.Char.Custom('DefaultPriestTitle')]는 해가 저물기 전, 마을 문이 닫히기 전에 마을에 도착할 수 있을지 묻고 싶었지만, 머리가 조금 둔한 제 수비대원 중 한 명이 이렇게 대답했습니다. “물론이죠. 거대한 짚더미가 들어갈 수 있는데, 왜 당신은 안 될까요?”" # 0980c96004284f5272ade7033e903b3d93093e52
   VIETmisc.0335.a: "죄송합니다! 제 경비병이 질문을 잘못 이해했습니다!" # 9ae05649331c4e7306ca488f59ac3004b92c7d1a
@@ -1609,7 +1609,7 @@
   VIETmisc.0337.desc: "저희 집에는 항상 쥐들이 있었습니다. 설령 쥐가 어디에나 있는 게 당연하다 해도, 그건 결코 좋은 일이 아닙니다.\n\n하인 중 한 명이 셀러리, 오레가노, 그리고 망초 씨앗을 가져다 향으로 태우면 쥐들을 쫓아낼 수 있다고 제안했습니다. 이 방법은 오랫동안 쥐를 쫓아내는 효과적인 방법으로 입증되어 왔습니다.\n\n이제 그 재료들을 사서 향을 만들도록 하인들에게 돈을 조금 주기만 하면 됩니다." # 3fe91777472c896c22a7b22de8ecfdb2a0ae6036
   VIETmisc.0337.a: "이 쥐들을 없애 버리는 게 좋겠군." # 5e6a727bb740f232908ba56391391187248d2899
   VIETmisc.0337.b: "쥐 상황이 그렇게 심각하지는 않을 거라고 생각합니다." # dcf3211e3852718277fe7676ba7540201e91388d
-  VIETmisc.0337.info: "#강조 역사적 배경:#! 다음의 설치류 처리 방법은 #italic 게오포니카#!, 비잔틴 제국에서 10세기 중반에 출판된 농업 매뉴얼에서 유래합니다. 매뉴얼의 13권은 쥐와 같은 해충을 다루는 다양한 방법을 다룹니다." # 179624fabf1ae752136c676eac467e917bd55ecd
+  VIETmisc.0337.info: "#bold 역사적 배경:#! 다음의 설치류 처리 방법은 #italic 게오포니카#!, 비잔틴 제국에서 10세기 중반에 출판된 농업 매뉴얼에서 유래합니다. 매뉴얼의 13권은 쥐와 같은 해충을 다루는 다양한 방법을 다룹니다." # 179624fabf1ae752136c676eac467e917bd55ecd
   VIETmisc.0338.t: "고양이와 쥐" # 99a73852daf155b26ca4eee5e16bb2c1c8cbb5d8
   VIETmisc.0338.desc: "[guardian.GetFirstName]께서 오늘 고양이에 대한 우화를 들려주시네요. \n\n#EMP 고양이는 쥐를 잘 잡았기에 쥐들은 밖으로 나오기를 꺼렸고, 고양이는 더 이상 쥐를 잡을 수 없게 되었지요. 어느 날, 고양이는 계획을 세웠습니다. 마치 잔인한 인간에게 사형을 선고받은 듯이 선반에 매달려 죽은 척했지요. 그럴듯하게 죽은 척하며 움직이지 않았습니다. 쥐들이 진짜 죽었는지 확인하러 몰려들자, 고양이는 전혀 움직이지 않았지요.#!\n\n#EMP 쥐들은 기뻐하며 축하했지만, 현명한 늙은 쥐는 다른 쥐들에게 이게 함정일 가능성이 높다고 경고했지요. 젊은 쥐들은 듣지 않았고, 얼마 안 있어 고양이는 덮쳐서 그날 많은 쥐들을 잡았습니다.#!\n\n[guardian.GetFirstNameNoTooltip]께서 이 이야기의 교훈이 무엇이라고 생각하느냐고 묻습니다." # 2c8ce3402fb9fd4e1f964301cd096a2b2b92672c
   VIETmisc.0338.a: "어르신들의 말씀에 귀 기울이십시오. 현명하고 경험이 풍부하십니다." # 577e5f25c40f89a3366d4faf0ce002743666b901
@@ -1647,7 +1647,7 @@
   VIETmisc.0345.desc: "지역 귀족이 주최하는 작은 연회에 참석했습니다. 저녁이 나오기까지, 하인들은 [ROOT.Char.Custom('GetExpensiveDrink_Singular')]를 내어놓아 마시게 했습니다.\n\n저는 혀 돌로 장식된 가까운 장식 나무로 가서 하나를 가져다가 음료에 적셨습니다. 독의 악영향을 막기 위해서였죠. 물론, 음식 시음사가 이미 음료의 안전을 확인했지만, 더 많은 보호는 상관없었습니다.\n\n하지만, 다른 손님 중 한 명인, 제가 대화를 나눴던 다른 하급 귀족은 혀 돌을 경계에 가득찬 눈빛으로 바라봤습니다.\n\n"이것들이 진짜 혀 돌인지 어떻게 알 수 있지?" 그녀는 숙고했습니다. "주인이 저를 죽이려고 한다는 뜻은 아니지만, 싼 가짜를 사는 구두쇠 주인에 대한 이야기를 들었어요."" # 0c513b91e1875e4afc1023de85eca84eb27446d7
   VIETmisc.0345.a: "어머니, 그걸 사용하는 게 좋을 것 같아요. 만약에." # 97e916af06d6fb9d7b1632278230e16afd8f62c7
   VIETmisc.0345.b: "믿을지 말지는 당신의 선택입니다." # bb12ea896beb3a1dfe1db5ccc4b511d07cf7413d
-  VIETmisc.0345.info: "#강조 역사적 배경:# 중세 시대에 화석화된 상어 이빨은 “혀 돌” 또는 “뱀 혀”라고 불렸습니다. 의학적 용도 외에도 독에 대한 치료법 또는 보호 수단으로 흔히 사용되었습니다. 당시 연회 자리의 장식용 나무에 혀 돌을 매달아 놓는 풍습이 있었습니다. 손님들은 혀 돌을 와인이나 음료에 담가 먹으면서 독에 중독되지 않을 것이라고 확신했습니다." # 0d7d92477d9f74f56b3a6572610ea2acc33cedf1
+  VIETmisc.0345.info: "#bold 역사적 배경:# 중세 시대에 화석화된 상어 이빨은 “혀 돌” 또는 “뱀 혀”라고 불렸습니다. 의학적 용도 외에도 독에 대한 치료법 또는 보호 수단으로 흔히 사용되었습니다. 당시 연회 자리의 장식용 나무에 혀 돌을 매달아 놓는 풍습이 있었습니다. 손님들은 혀 돌을 와인이나 음료에 담가 먹으면서 독에 중독되지 않을 것이라고 확신했습니다." # 0d7d92477d9f74f56b3a6572610ea2acc33cedf1
   VIETmisc.0346.t: "바다 괴물의 턱" # 05c55b556c9b5d342c9df0cc376dec0120e41b55
   VIETmisc.0346.desc: "#italic  바다 괴물의 턱에 대해 걱정하는 잠수부는 값진 진주를 결코 잡을 수 없을 것이다.#!\n\n시구의 의미는 분명합니다. 위험 없이는 성공이 없다는 것이죠.\n\n나는 그날 남은 시간 동안 그 구절과 시인이 제시한 주장에 동의하는지 곰곰이 생각해 봅니다." # 28432aa44ee2062c5526c2f64e08b37b918384d8
   VIETmisc.0346.a: "위험을 감수함으로써 비로소 더 큰 성공을 이룰 수 있습니다." # b00a994a8b843972547ac56ae7b4379e2d1bc60d
@@ -1671,7 +1671,7 @@
   VIETmisc.0350.t: "단풍나무 수액" # 2d3693d2191a107d9f311d30baf0af44b08a6b34
   VIETmisc.0350.desc: "지난 한 주 동안, 내 종들은 살 곳 근처 숲에서 가능한 한 많은 자작나무 수액을 모았습니다. 우리 [ROOT.Char.GetCulture.GetName] 조상들이 오래 전부터 알았듯이, 자작나무 수액은 봄 초에, 자작나무가 가장 맛있고 아직 쓴맛이 나지 않을 때 채취하는 것이 좋습니다.\n\n오늘, 드디어 첫 번째 자작나무 수액이 내게 제시되었습니다. 정말 맛있는 기쁨입니다!" # f33a284e3b89ff7628b3bff59be88712466b4639
   VIETmisc.0350.a: "진정한 [ROOT.Char.GetCulture.GetNameNoTooltip]는 이 자작나무 수액을 알아차릴 것입니다!" # b2fd4831b202c1bee8d0fa70ab6bcad412f04893
-  VIETmisc.0350.info: "#강조 역사적 배경:#!  자작나무 수액은 슬라브족, 북유럽인, 발트족, 핀란드인 등 북유럽 여러 민족이 전통적으로 즐겨왔습니다. 이 지역에서 자작나무는 역사적으로 신성시되어 왔습니다." # fe848f1cdcf0b74684367e524e7586b94d015eba
+  VIETmisc.0350.info: "#bold 역사적 배경:#!  자작나무 수액은 슬라브족, 북유럽인, 발트족, 핀란드인 등 북유럽 여러 민족이 전통적으로 즐겨왔습니다. 이 지역에서 자작나무는 역사적으로 신성시되어 왔습니다." # fe848f1cdcf0b74684367e524e7586b94d015eba
   VIETmisc.0351.t: "수령" # 1025f27264771ce6904651a02f773e11d660fc7c
   VIETmisc.0351.desc: "우리 캠프에 장작이 부족해서 몇몇 사람들과 더 많은 나무를 찾으러 나섰습니다. 하지만 [superstitious.GetTitledFirstName]에게 막혔습니다.\n\n“[county.GetNameNoTier]의 [culture.GetName] 사람들은 이곳 나무들 사이에 많은 나무 정령이 산다고 합니다,” [superstitious.GetFirstNameNoTooltip]는 설명했습니다. “만약 우리가 함부로 나무를 베면 나무 정령들이 기분 나빠할 수 있습니다.”\n\n“나무를 많이 베는 것도 아닌데,” 짜증스럽게 말했습니다. “할 수 있는 게 없나요?”\n\n[superstitious.GetFirstNameNoTooltip]는 잠시 생각한 뒤 “나무를 베어도 되도록 나무 정령들에게 감사하는 제물을 바치면 된다고 들었습니다.”" # de92d6e7814c0b75c279d3656b04aef6e8f4ecf2
   VIETmisc.0351.a: "안전을 최우선으로 하십시오. 제물을 준비하십시오." # 013e30dcb368fab737468d019eeb60dd3246fd02

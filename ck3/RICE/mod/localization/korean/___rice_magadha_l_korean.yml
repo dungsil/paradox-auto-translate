@@ -80,7 +80,7 @@
   RICE_life_liberation_merit_intent_desc: "이 [활동|E]에 열정을 느끼든 아니든, 이 생애 해방을 통해 좋은 업보를 얻기를 바랍니다. 기존의 [경건|E]에 더하여 #V 50%#! 증가합니다." # b659f72dff011d5cf0a19b57c3f5a5ca2d5d1f21
   RICE_magadha_life_liberation_completed_log_title: "생명 방생 완료됨" # d62a1d93fa5ed94b5aba77b238c0bc2487d9465c
   RICE_magadha_life_liberation_completed_log: "[CHARACTER.GetShortUIName|U] 님이 [CHARACTER.GetHerHis] 삶을 해방했습니다" # 4c78cbdf5f9eb9edbc69fcd989a86f2ea5cf6928
-  activity_RICE_hot_springs_visit_rajgir_province_desc: "#P +++ [rajgir_온천|E]은 독특한 [온천|E]입니다.#!\n\n#italic 이것은 추가 [신앙심|E]을 얻는 결과를 가져올 것입니다. 또한 불교, 자이나교, 또는 힌두교 [신앙|E]을 따르고 당신의 [종교|E]가 [백작령|E]을 통제하는 경우, 추가 보너스와 함께 [캐릭터_보정치|E] 보너스를 얻게 됩니다.#!" # ce8e8cfd3a189519a1c7f9667197012a753ccc7d
+  activity_RICE_hot_springs_visit_rajgir_province_desc: "#P +++ [rajgir_온천|E]은 독특한 [온천|E]입니다.#!\n\n#italic 이것은 추가 [신앙심|E]을 얻는 결과를 가져올 것입니다. 또한 불교, 자이나교, 또는 힌두교 [faith|E]을 따르고 당신의 [종교|E]가 [백작령|E]을 통제하는 경우, 추가 보너스와 함께 [캐릭터_보정치|E] 보너스를 얻게 됩니다.#!" # ce8e8cfd3a189519a1c7f9667197012a753ccc7d
   TRAVEL_NAME_FOR_activity_RICE_magadha_life_liberation: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_magadha_life_liberation$" # 456971e89d22394569832cf9fd24e6a439e55834
   activity_RICE_magadha_bodhi_tree_bathing_ceremony_host_an_a: "$host_activity_a$" # a61241acadcc9f0c0c58e8a6756d1532a43a0ac3
   activity_RICE_magadha_bodhi_tree_bathing_ceremony: "보리수 목욕" # d63ed51fec28bcd709e65711f8849de7ca4ad571
@@ -170,11 +170,11 @@
   RICE_magadha_rajgir_hot_springs_buddhist: "불교 신자들이 [hot_springs_of_rajgir_short|E]의 온천을 관리합니다" # fa62120d5985394cd8f3ea99e744752eddab7cc0
   RICE_magadha_rajgir_hot_springs_buddhist_desc: "라지기르의 온천은 다양한 인도 종교 신자들이 숭배하지만, 현재 종교적 상황은 다른 종교보다 불교의 영향을 더 많이 반영합니다.\n\n#italic [visit_the_hot_springs_of_rajgir|E] 결정을 내린 불교 [rulers|E]은 그렇게 할 때 [GetModifier('RICE_magadha_rajgir_bonus_buddhist').GetNameWithTooltip] [character_modifier|E]을 받습니다!#" # 5adc2a1279b98a2fbcd853fbe8ff5b7ce6738481
   RICE_magadha_rajgir_hot_springs_hindu: "힌두교가 [hot_springs_of_rajgir_short|E]의 온천을 장악했습니다" # fde5bac78659a68088f294957ec5776db17868be
-  RICE_magadha_rajgir_hot_springs_hindu_desc: "라지기르의 온천은 다양한 인도 종교 신자들이 숭배하지만, 현재 종교적 지형은 다른 종교보다 힌두교의 영향을 더 많이 반영하고 있습니다.\n\n#italic [결정|E]을 내리고 [라지기르 온천 방문|E]을 선택한 힌두교 [통치자|E]는 그렇게 할 때 [GetModifier('RICE_magadha_rajgir_bonus_hindu').GetNameWithTooltip] [캐릭터 수정자|E]를 받습니다!#" # d487b2620f3716eade01d5ec5ee434c94cb2c148
+  RICE_magadha_rajgir_hot_springs_hindu_desc: "라지기르의 온천은 다양한 인도 종교 신자들이 숭배하지만, 현재 종교적 지형은 다른 종교보다 힌두교의 영향을 더 많이 반영하고 있습니다.\n\n#italic [decision|E]을 내리고 [라지기르 온천 방문|E]을 선택한 힌두교 [통치자|E]는 그렇게 할 때 [GetModifier('RICE_magadha_rajgir_bonus_hindu').GetNameWithTooltip] [캐릭터 수정자|E]를 받습니다!#" # d487b2620f3716eade01d5ec5ee434c94cb2c148
   RICE_magadha_rajgir_hot_springs_jain: "자이나교가 [hot_springs_of_rajgir_short|E]의 온천을 장악했습니다" # ca0d1d7fe135a2705c4f877cee737a5974d3a7c2
   RICE_magadha_rajgir_hot_springs_jain_desc: "라지르의 온천은 다양한 인도 종교의 추종자들에게 경건한 존경을 받지만, 현재 종교적 풍경은 다른 종교보다 자이나교의 영향을 더 많이 반영합니다.\n\n#italic 자이나교 [통치자|E]가 라지르 온천을 [방문|E]하면 [GetModifier('RICE_magadha_rajgir_bonus_jain').GetNameWithTooltip] [캐릭터 수정자|E]를 받게 됩니다#!" # aa7a8825707cd53151fbd23422a382f3f0c628ff
   RICE_magadha_pithipati_of_bodh_gaya: "보드가야의 피티파티" # 3f0a47951728b5ad304348e41025175647ae02ba
-  RICE_magadha_pithipati_of_bodh_gaya_desc: "[피티파티|E]이자 부처가 깨달음을 얻은 바로 그 자리인 다이아몬드 왕좌의 군주로서, 이 캐릭터는 보드가야 주변의 성지를 관리하는 것으로 많은 불교도들에게 존경받습니다. 참으로 이러한 행위는 그들에게 큰 공덕을 가져다줍니다!\n\n#EMP 이 [character_modifier|E]는 가야의 [통치자|E]가 #V 불교도#인 한 주어집니다!\n[피티파티|E]는 이 캐릭터에게 다양한 불교 [결정|E]과 관련된 여러 보너스를 부여합니다!" # 945df2fe84f675b2438bde217e616c1b787486db
+  RICE_magadha_pithipati_of_bodh_gaya_desc: "[피티파티|E]이자 부처가 깨달음을 얻은 바로 그 자리인 다이아몬드 왕좌의 군주로서, 이 캐릭터는 보드가야 주변의 성지를 관리하는 것으로 많은 불교도들에게 존경받습니다. 참으로 이러한 행위는 그들에게 큰 공덕을 가져다줍니다!\n\n#EMP 이 [character_modifier|E]는 가야의 [통치자|E]가 #V 불교도#인 한 주어집니다!\n[피티파티|E]는 이 캐릭터에게 다양한 불교 [decision|E]과 관련된 여러 보너스를 부여합니다!" # 945df2fe84f675b2438bde217e616c1b787486db
   RICE_magadha_transformed_rajgir: "라그지르의 신성한 샘을 변화시켰습니다" # 8008cba09be467b10cdae163865bbe467870697b
   RICE_magadha_currently_abstaining_vassa: "바사 기간 동안 악덕을 멀리함" # 41ab567895b9b3e4c3c6d2902750604a5c9556a9
   RICE_magadha_currently_abstaining_vassa_desc: "바사 기간 동안, 이 인물은 술을 마시거나 성적인 부정행위를 저지르거나 다른 사람을 해치는 것과 같이 부정적인 카르마를 만드는 다양한 행동과 생각을 삼가려고 노력합니다." # b1f76fd72f483396d315a26aa16c2c0ae7d23ebd
@@ -291,7 +291,7 @@
   RICE_magadha_claim_pithipati_title_tooltip: "우리는 보드가야의 수호자입니다." # a77b2651fd7d0a1723c28d330fc9aba38f1f890f
   RICE_magadha_claim_pithipati_title_desc: "독실한 [ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.GetTitleAsNameNoTooltip]로서 저는 보드가야 주변의 성지를 관리합니다. 이는 엄청난 영광이지만 전 세계의 미래 불교 세대를 위해 성지를 유지해야 하는 막중한 책임이기도 합니다. 저는 이 신성한 장소의 관리자로서의 제 역할을 강조하기 위해 금강보좌의 군주인 [pithipati|E]의 칭호를 주장하고 싶습니다." # b62a8d659785c19e69f9e40401f67b8c43d191e4
   RICE_magadha_claim_pithipati_title_effect_tooltip_1: "이제부터 [gaya_county.GetNameNoTier]의 [THIS.Char.GetFaith.GetReligion.GetAdjective] [rulers|E]는 자동으로 [GetModifier('RICE_magadha_pithipati_of_bodh_gaya').GetNameWithTooltip] [character_modifier|E]를 갖게 됩니다" # fe2037855458b991f4b8a2bf553b340ab0edb6f8
-  RICE_magadha_claim_pithipati_title_effect_tooltip_2: "[pithipati|E]가 되면 다양한 [THIS.Char.GetFaith.GetReligion.GetAdjective] [결정|E]과 관련된 여러 보너스를 받습니다." # be181f3c5e9ae8bed9f3322b1441ce2758b4ead9
+  RICE_magadha_claim_pithipati_title_effect_tooltip_2: "[pithipati|E]가 되면 다양한 [THIS.Char.GetFaith.GetReligion.GetAdjective] [decision|E]과 관련된 여러 보너스를 받습니다." # be181f3c5e9ae8bed9f3322b1441ce2758b4ead9
   RICE_magadha_claim_pithipati_title_confirm: "저희는 삼보의 수호자입니다!" # d562420f414f9a649cf1b4c5cc02ddcc0def2126
   RICE_magadha_claim_pithipati_title_context_tooltip: "#emphasis 역사적 배경:#! #italic 피티파티#!는 중세 인도에서 치코레 왕조가 사용한 칭호로, 다이아몬드 옥좌의 군주라는 의미입니다. "다이아몬드 옥좌"는 부처가 깨달음을 얻었다고 여겨지는 보드가야의 정확한 장소를 나타냅니다. 따라서 수세기 동안 치코레는 가야 주변의 성지를 관리하고 수호하는 역할을 했습니다." # 8c61dc6f7710206761f11a8d4888f7b7b4d30397
   magadha.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
@@ -328,7 +328,7 @@
   magadha.0010.c: "불탑" # ea1746a0716f24b0c04cec2338605690b766f419
   magadha.0010.d: "파고다" # 1335e43998c320bec973787ae311d428d2a7fcce
   magadha.0010.tooltip.temple_1: "사원은 지역 사회의 예배 중심지로서 지역 사회에 이익을 줄 수 있습니다" # 8a130294304b6bf102dc6767dcb10120796e7d33
-  magadha.0010.tooltip.temple_2: "사원이 1~2년 안에 완공되면 다른 지역에 비해 [신앙|E]보다 더 많은 [명성|E]을 얻게 될 것입니다." # 094ff620569d2ddc63ae790a359ec3cb09fc2e8a
+  magadha.0010.tooltip.temple_2: "사원이 1~2년 안에 완공되면 다른 지역에 비해 [faith|E]보다 더 많은 [명성|E]을 얻게 될 것입니다." # 094ff620569d2ddc63ae790a359ec3cb09fc2e8a
   magadha.0010.tooltip.monastery_1: "수도원은 수도자들이 다르마를 연구할 수 있는 거처를 제공할 수 있습니다." # d28eb06787ac95494bccd50ad1a622c80dc4aace
   magadha.0010.tooltip.monastery_2: "수도원이 1~2년 안에 완공되면 다른 장소에 비해 [prestige|E]보다 더 많은 [piety|E]를 받게 될 것입니다" # 274f6036ffdefce150f959dd63cccf294f20ea75
   magadha.0010.tooltip.stupa_1: "탑은 영토의 종교적 지형을 개선하고 귀중한 유물을 보관할 수 있습니다" # 76294002ce5974f8acfe042110e8e553e7f436f9

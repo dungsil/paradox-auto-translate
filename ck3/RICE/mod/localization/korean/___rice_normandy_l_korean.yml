@@ -400,9 +400,9 @@
   RICE_normandy_recruit_norse_adventurers_effect_tooltip_2: "[RICE_norse_settlers|E]가 추가 £gold£ 또는 심지어 [titles|E]를 요구할 수 있으며, 협상이 실패할 경우 좋지 않은 반응을 보일 수 있습니다!" # 675570597df9ab3732789712dc3935cf63cca189
   RICE_normandy_recruit_norse_adventurers_effect_tooltip_3: "이 [decision|E]는 귀하의 [capital|E]가 [GetGeographicalRegion('RICE_northern_europe_region').GetName]에 비해 [GetGeographicalRegion('RICE_southern_europe_region').GetName]에 위치해 있다면 비용이 더 많이 들고 냉각 시간이 더 길어집니다." # 60cd7458919aed82371d8eed22e4686fabce08b1
   RICE_normandy_recruit_norse_adventurers_confirm: "스칸디나비아에 소식을 전하라!" # ff81e8c0424b3b532a328ee81335604f1c77735e
-  RICE_normandy_recruit_norse_adventurers_context_tooltip: "#강조 역사적 배경:#  바이킹 침략자들을 마치 “덜” 용맹하거나 “더” 문명화된 유럽인들과 분리된 존재로 그리는 이상화된 대중 역사 인식과는 달리, 북유럽인들의 다른 사회와의 관계는 종종 매우 복잡했습니다. 예를 들어, 노르만인들이 기독교화를 시작한 후에도, 그들은 종종 노르망디 각 영주들의 영토에 정착하거나 심지어 종교적 신념과 상관없이 그들을 위해 혹은 그들에 맞서 싸우기도 했던 이교도 스칸디나비아인들과 빈번히 교류했습니다." # b31399b2943943abcda671f95ce49ba5e500ddc7
+  RICE_normandy_recruit_norse_adventurers_context_tooltip: "#bold 역사적 배경:#  바이킹 침략자들을 마치 “덜” 용맹하거나 “더” 문명화된 유럽인들과 분리된 존재로 그리는 이상화된 대중 역사 인식과는 달리, 북유럽인들의 다른 사회와의 관계는 종종 매우 복잡했습니다. 예를 들어, 노르만인들이 기독교화를 시작한 후에도, 그들은 종종 노르망디 각 영주들의 영토에 정착하거나 심지어 종교적 신념과 상관없이 그들을 위해 혹은 그들에 맞서 싸우기도 했던 이교도 스칸디나비아인들과 빈번히 교류했습니다." # b31399b2943943abcda671f95ce49ba5e500ddc7
   RICE_normandy_coastal_county_req: "당신은 적어도 하나의 연안 [county|E]를 소유하고 있습니다." # 5af957debb5839754425dc36fb9837d256ee702a
-  RICE_normandy_capital_duchy_coastal_req: "귀하의 [수도|E]의 [법적|E] [공국|E]에는 적어도 하나의 연안 [카운티|E]가 있습니다." # beae21692ef332c28fe59e55d284d4e9cac3f764
+  RICE_normandy_capital_duchy_coastal_req: "귀하의 [수도|E]의 [법적|E] [공국|E]에는 적어도 하나의 연안 [county|E]가 있습니다." # beae21692ef332c28fe59e55d284d4e9cac3f764
   RICE_normandy_invite_norse_type: "노르드 정착민을 초청할 유형을 선택하세요." # d5f27c87f56d90695315fa25df127548a69b8a76
   RICE_normandy_invite_norse_type_gui: "[RICE_norse_settlers|E] 중 어떤 이민자들을 [realm|E]로 초청하시겠습니까?" # ec5781892dd98360835496fb0ac0379a8fea8500
   RICE_normandy_invite_norse_colonists_option: "#Bold 식민자#!" # a4cdda03c418347f04a2b7d0e58b3fe9d84ba156
@@ -451,7 +451,7 @@
   RICE_normandy_mont_saint_michael_pilgrimage: "몽생미셸 순례를 떠나십시오." # 86dd63f3ced56ce172f47c5c01c4b471863a3b30
   RICE_normandy_mont_saint_michael_pilgrimage_tooltip: "[pilgrimage|E]를 [GetBuilding('RICE_normandy_mont_saint_michel_02').GetName]로 향하시겠습니까?" # 307c7b0dba8de6002e98f901c998fb6a1cb5a132
   RICE_normandy_mont_saint_michael_pilgrimage_desc: "[GetBuilding('RICE_normandy_mont_saint_michel_02').GetName]는 지역 순례자들에게 인기 있는 곳입니다.  그곳에 있는 성스러운 유물들을 보기 위해 가보아야 합니다. 이곳은 오랫동안 대천사 미카엘과 관련이 있기 때문입니다." # 46c2c68f8d674aeb2d75aeddf57821d2870df8b6
-  RICE_normandy_mont_saint_michael_pilgrimage_effect_tooltip_1: "[GetBuilding('RICE_normandy_mont_saint_michel_02').GetName]에 [순례|E]를 떠나 [신앙|E]를 얻고, 아브란슈의 성 오베르 또는 천사장 미카엘을 기리는 긍정적인 [인물_수정자|E]를 받으십시오." # 47b74cb8ae5b9312bd2412e8d8400c7bcda6970d
+  RICE_normandy_mont_saint_michael_pilgrimage_effect_tooltip_1: "[GetBuilding('RICE_normandy_mont_saint_michel_02').GetName]에 [순례|E]를 떠나 [faith|E]를 얻고, 아브란슈의 성 오베르 또는 천사장 미카엘을 기리는 긍정적인 [인물_수정자|E]를 받으십시오." # 47b74cb8ae5b9312bd2412e8d8400c7bcda6970d
   RICE_normandy_mont_saint_michael_pilgrimage_effect_tooltip_2: "[GetBuilding('RICE_normandy_mont_saint_michel_02').GetName]에 [pilgrimage|E]를 떠나시면 성미카엘 또는 성모 마리아를 상징하는 [piety|E]와 긍정적인 [character_modifiers|E]를 얻으실 것입니다." # 671443bded5c31452a22e300a9111b16a5ff871f
   RICE_normandy_mont_saint_michael_pilgrimage_effect_tooltip_3: "이러한 [modifiers|E]를 얻을 확률은 귀하의 [piety_level|E]에 따라 달라집니다." # 6ffa7aea6008e5cb7101db400c0b40f01425ef43
   RICE_normandy_mont_saint_michael_pilgrimage_confirm: "수도원으로!" # c2fc56f2dc6881b6271fc607737d03cd58af9eaa
@@ -459,7 +459,7 @@
   RICE_normandy_observe_procession_of_saint_aubert: "성 오베르 성인 행렬을 관찰합니다." # 8f57e8d536283024208d285eb14721ee41fa3e84
   RICE_normandy_observe_procession_of_saint_aubert_tooltip: "아브란슈로 가서 성 오베르 성직자의 정기 행렬에 참석하십시오." # b71bb820de555590654833ea6ed2e73de71e84e5
   RICE_normandy_observe_procession_of_saint_aubert_desc: "매년, [ROOT.Char.GetFaith.GetReligion.GetAdjective] 풍습에 따라 성 오베르의 유해를 [GetBuilding('RICE_normandy_mont_saint_michel_02').GetName]에서 [GetTitleByKey('b_avranches').GetNameNoTier] 거리를 행진하는 퍼레이드가 열립니다. 이 행사 동안 많은 기적이 일어난다고 합니다. 저는 올해 이 행사에 참석하고 싶습니다." # 3513d4cf61038b67b10668519015dc3cea3cf6db
-  RICE_normandy_observe_procession_of_saint_aubert_effect_tooltip_1: "[신앙|E]가 조금 증가하고, [신앙 수준|E]에 따라 기적적인 [캐릭터 수정자|E]가 발생할 가능성이 약간 있습니다." # 7372b12d7d9c4d96922d8300c22039c523240036
+  RICE_normandy_observe_procession_of_saint_aubert_effect_tooltip_1: "[faith|E]가 조금 증가하고, [신앙 수준|E]에 따라 기적적인 [캐릭터 수정자|E]가 발생할 가능성이 약간 있습니다." # 7372b12d7d9c4d96922d8300c22039c523240036
   RICE_normandy_observe_procession_of_saint_aubert_confirm: "방문 준비를 하십시오!" # a7a9c0ed828afb2417dab1cfd164aca962559413
   RICE_normandy_observe_procession_of_saint_aubert_context_tooltip: "$RICE_normandy_mont_saint_michael_pilgrimage_context_tooltip$" # 8db854d2245b606988f34a00feeb8161f91a7b2f
   RICE_normandy_find_saint_aubert_relics: "성 오베르 성유물을 찾으십시오" # e08260d928197f68e2bfe1d66e12c69754454a56
@@ -485,12 +485,12 @@
   RICE_normandy_commission_historia_normannorum_tooltip: "[RICE_normandy_struggle|E]를 더욱 발전시키기 위해서는 공유된 정체성과 창건 신화를 통해 하나로 뭉쳐야 합니다." # 286eef5a205facbd173f0e5f67eca3f0ee90ee6f
   RICE_normandy_commission_historia_normannorum_desc: "[GetTitleByKey('d_normandy').GetNameNoTier]를 통합하려는 노력이 순탄치 않았습니다. [ROOT.Char.GetCulture.GetCollectiveNoun]으로서 하나 되기 위해, 우리 민족의 역사와 노르드족과 프랑크족의 장점을 [ROOT.Char.GetDynasty.GetName] 가문의 지도 아래 어떻게 결합해 나아갔는지 기록할 학자를 찾겠습니다." # ef682bb2adf7890b746b6307ad2813c9be7184d6
   RICE_normandy_commission_historia_normannorum_effect_tooltip_1: "[courtier|E]에게 #italic 노르만 역사#!를 기록할 #italic 역사가#를 지명하거나, 또는 #V @gold_icon! [EmptyScope.ScriptValue('RICE_misc_horse_sacrifice_cost_minor')|0]#!의 비용으로 우연히 생성된 [character|E]를 고용하실 수 있습니다." # 0d51a28bc399d3834b1b0e0035a270fe1c7cac78
-  RICE_normandy_commission_historia_normannorum_effect_tooltip_2: "이 [결정|E]을 시작하면 [명성_i|E]가 #V 200#! 증가하고 @왕실명성아이콘! #V 100#! 증가합니다.  이 결정이 완료되면 [GetTitleByKey('d_normandy').GetNameNoTier]의 [지배자|E]의 [왕조|E] (혹은 그 지역 [공작령|E]의 [백작|E] 중 누구라도 이를 선택한 경우)는 @왕실명성아이콘! #V 1000#!을 얻게 됩니다. 이는 그들이 이 결정을 시작했는지 여부와 상관없이 적용됩니다." # e3db484c0cf99e2fa668612987d7125b401625fe
+  RICE_normandy_commission_historia_normannorum_effect_tooltip_2: "이 [decision|E]을 시작하면 [명성_i|E]가 #V 200#! 증가하고 @왕실명성아이콘! #V 100#! 증가합니다.  이 결정이 완료되면 [GetTitleByKey('d_normandy').GetNameNoTier]의 [지배자|E]의 [왕조|E] (혹은 그 지역 [공작령|E]의 [백작|E] 중 누구라도 이를 선택한 경우)는 @왕실명성아이콘! #V 1000#!을 얻게 됩니다. 이는 그들이 이 결정을 시작했는지 여부와 상관없이 적용됩니다." # e3db484c0cf99e2fa668612987d7125b401625fe
   RICE_normandy_commission_historia_normannorum_effect_tooltip_3: "[노르만족]의 언어 (그리고 그들로부터 이어받은, 여전히 [노르드어]를 사용하는 모든 문화)가 [프랑스어]로 바뀝니다." # 231be358b922b3f2ea1d0ec5967763d82226a3a4
   RICE_normandy_commission_historia_normannorum_effect_tooltip_4: "$tradition_RICE_northmen_name$ [tradition|E]는 모든 [cultures|E]에서 더 나은 $tradition_RICE_adventurers_and_aristocrats_name$으로 개량될 것입니다." # 159e5c92fb1a8d7036546520865d9396534ae593
-  RICE_normandy_commission_historia_normannorum_effect_tooltip_5: "이 [결정|E]는 #bold 필수#적입니다. $RICE_normandy_struggle_ending_conquest_decision$ 또는 $RICE_normandy_struggle_ending_assimilation_decision$ 결말을 위한 [RICE_normandy_struggle|E] 해결을 위해서." # b54846d8fa4b8bbc4e85ad9f273eda97ec8d33d6
+  RICE_normandy_commission_historia_normannorum_effect_tooltip_5: "이 [decision|E]는 #bold 필수#적입니다. $RICE_normandy_struggle_ending_conquest_decision$ 또는 $RICE_normandy_struggle_ending_assimilation_decision$ 결말을 위한 [RICE_normandy_struggle|E] 해결을 위해서." # b54846d8fa4b8bbc4e85ad9f273eda97ec8d33d6
   RICE_normandy_commission_historia_normannorum_confirm: "훌륭한 과거를 지녔고, 더욱 위대한 미래를 향해 나아갑니다!" # 91e00aff87624ed7596cd72c2a219d749942fca2
-  RICE_normandy_commission_historia_normannorum_context_tooltip: "#강조 역사적 배경:#! 1015년에 완성된 #기울임꼴 Historia Normannorum#!는 노르만족에 대한 영향력 있는 초기 역사서입니다. 로로, 노르망디 공작,를 트로이 영웅 에네아스와 같은 영웅적인 망명자로 묘사하는 등 많은 허황된 요소를 담고 있습니다. 생 캉탱의 두도가 로로의 후손들의 요청에 의해 저술되었습니다. 주장에 따르면, 그들은 창시 신화를 통해 자신의 왕조를 중심으로 노르만 정체성을 만들고자 했습니다. 따라서 이는 공작들의 노력을 단 하나의 결정과 사건 연쇄로 극도로 단순화한 것입니다." # 5956d7bd881202a18734bfa95e72f23110bbf02f
+  RICE_normandy_commission_historia_normannorum_context_tooltip: "#bold 역사적 배경:#! 1015년에 완성된 #기울임꼴 Historia Normannorum#!는 노르만족에 대한 영향력 있는 초기 역사서입니다. 로로, 노르망디 공작,를 트로이 영웅 에네아스와 같은 영웅적인 망명자로 묘사하는 등 많은 허황된 요소를 담고 있습니다. 생 캉탱의 두도가 로로의 후손들의 요청에 의해 저술되었습니다. 주장에 따르면, 그들은 창시 신화를 통해 자신의 왕조를 중심으로 노르만 정체성을 만들고자 했습니다. 따라서 이는 공작들의 노력을 단 하나의 결정과 사건 연쇄로 극도로 단순화한 것입니다." # 5956d7bd881202a18734bfa95e72f23110bbf02f
   RICE_normandy_build_minor_christian_holy_building: "지역 기독교 종교 건물 건설" # dfc74a5f23f2cb673d4688105f65ebaee299b7a9
   RICE_normandy_build_minor_christian_holy_building_tooltip: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 신앙의 성지를 [capital|E]에 건설하십시오." # cad1e521bb7bec1a90aa232509f0046295323e21
   RICE_normandy_build_minor_christian_holy_building_desc: "[ROOT.Char.GetTitleAsNameNoTooltip]로서, [ROOT.Char.GetFaith.HighGodName]께 대한 헌신을 표명하고자 [domain|E] 지역에 새로운 [ROOT.Char.GetFaith.GetAdjective] 종교 건물을 건립하는 데 기금을 기부하고자 합니다. 이 신성한 건물은 지역 사회에 영적인 이익을 가져다 줄 것이며, 모든 이들이 제 숭고한 신앙심을 알게 될 것입니다!" # 41d63468a4a8f6325b8c0addc578e10488f2b617
@@ -499,7 +499,7 @@
   RICE_normandy_build_minor_christian_holy_building_confirm: "[ROOT.Char.GetFaith.HighGodNameAlternate]의 영광을 위해!" # ba7729cab2bd2e12f6615d399579a9053d2cbc26
   RICE_normandy_build_minor_christian_holy_building_county_req: "귀하의 [realm_capital|E]에는 최근 기독교 종교 유적이 건설되었음을 나타내는 [county_modifier|E]가 없습니다." # 9d73ff3d5b53f4d57258597ac98c58e8efcee183
   RICE_normandy_build_minor_christian_holy_building_current_req: "기독교 종교 시설 건설 중이 아니십니다." # c5323a056cd02c81619c38536540c4b15bb193d6
-  RICE_normandy_build_minor_christian_holy_building_context_tooltip: "#강조 역사적 배경:#! 중세 시대, 기독교 왕족과 귀족들은 종종 지역 종교 시설을 건립하여 신앙심을 공개적으로 보여주거나 죄책감을 씻는 방식으로 행했습니다. 예를 들어, 윌리엄 정복왕의 플랑드르 마틸다와의 결혼은 교황청에 의해 근친혼으로 거부되었고, 이후 두 사람은 속죄로 두 개의 교회를 세우기로 합의했습니다. 또 다른 예로, 잉글랜드 왕위를 놓고 윌리엄과 경쟁했던 헤롤드 고드윈슨은 1060년에 월섬 수도원을 재건했습니다. 전설에 따르면 어린 시절 기적적으로 마비에서 벗어난 것에 대한 감사의 표시로 이러한 행위를 했다고 합니다." # 37e4156e2962cf708c2e8e22e8406b737c2cf9b3
+  RICE_normandy_build_minor_christian_holy_building_context_tooltip: "#bold 역사적 배경:#! 중세 시대, 기독교 왕족과 귀족들은 종종 지역 종교 시설을 건립하여 신앙심을 공개적으로 보여주거나 죄책감을 씻는 방식으로 행했습니다. 예를 들어, 윌리엄 정복왕의 플랑드르 마틸다와의 결혼은 교황청에 의해 근친혼으로 거부되었고, 이후 두 사람은 속죄로 두 개의 교회를 세우기로 합의했습니다. 또 다른 예로, 잉글랜드 왕위를 놓고 윌리엄과 경쟁했던 헤롤드 고드윈슨은 1060년에 월섬 수도원을 재건했습니다. 전설에 따르면 어린 시절 기적적으로 마비에서 벗어난 것에 대한 감사의 표시로 이러한 행위를 했다고 합니다." # 37e4156e2962cf708c2e8e22e8406b737c2cf9b3
   RICE_normandy_minor_christian_building_type: "무엇을 건설할까요?" # 40f03fbbbb672bcb97339acdd80a98533133dfe7
   RICE_normandy_minor_christian_building_type_gui: "[GetPlayer.GetFaith.GetAdjective] 신앙의 성역을 어떤 종류로 건설하시겠습니까?" # fe8d15e1de3f0837869685d62e6299d8e1cedcb6
   RICE_normandy_build_christian_site_chapel_option: "#Bold 예배당#!" # 675c4e52259652b99317155e8ee66902fc65740c
@@ -527,7 +527,7 @@
   RICE_normandy_compile_domesday_book_effect_tooltip_2: "#italic 대영지의 기록# 이 완료되면 #italic 둠스데이 도서#! [artifact|E]를 받으실 겁니다." # 45589b968ee3c479693b21cd3c60ad15c124a70e
   RICE_domesday_decision_tt: "조사가 완료되면" # 21229be90ea5112acef37874e691d5f91f447b13
   RICE_normandy_compile_domesday_book_confirm: "이 위대한 조사에 착수합니다!" # 3baee72e175862263a9d61276dd61a5acfe41747
-  RICE_normandy_compile_domesday_book_context_tooltip: "#강조 역사적 배경:#! 윌리엄 정복왕은 1085년 영국 전역의 모든 재산 및 자원 (토지, 인력, 가축 등) 가치를 기록하는 작업을 시작했습니다. 1년 후 완성된 이 필사본은 처음에는 라틴어로 #italic Liber de Wintonia#! ("윈체스터 서적")라고 불렸지만, 성서의 최후 심판과 같이 조사 결과가 변경 불가능하고 논란의 여지가 없다는 점에서 영국인들은 이를 더 잘 알고 있습니다. 그래서 영국인들은 이를 도메스데이 북이라고 불렀습니다." # f4b429b4f2221934f8ca58e480829af609b30854
+  RICE_normandy_compile_domesday_book_context_tooltip: "#bold 역사적 배경:#! 윌리엄 정복왕은 1085년 영국 전역의 모든 재산 및 자원 (토지, 인력, 가축 등) 가치를 기록하는 작업을 시작했습니다. 1년 후 완성된 이 필사본은 처음에는 라틴어로 #italic Liber de Wintonia#! ("윈체스터 서적")라고 불렸지만, 성서의 최후 심판과 같이 조사 결과가 변경 불가능하고 논란의 여지가 없다는 점에서 영국인들은 이를 더 잘 알고 있습니다. 그래서 영국인들은 이를 도메스데이 북이라고 불렀습니다." # f4b429b4f2221934f8ca58e480829af609b30854
   normandy.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
   normandy.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
   normandy.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
@@ -606,7 +606,7 @@
   normandy.0012.t: "$normandy.0011.t$" # c707575d2a8588523a7985deefe0fda69fabd609
   normandy.0012.desc: "[ROOT.Char.GetFaith.GetName]로 개종하기 전, 저는 [county.GetNameNoTier]에 새 [faith.GetAdjective] 종교 시설 건립을 위해 상당한 기부금을 헌납했습니다. 그 건물은 곧 완공될 예정이지만, 이제 저에게는 더 이상 영적인 의미가 없습니다.\n\n하지만, 과거 [christian.GetAdjective] 공동체에 대한 친절한 제스처로 그 건물의 활용을 장려할 수도 있습니다. 반면, [ROOT.Char.GetFaith.HighGodName]에 대한 믿음의 진심을 보여주기 위해 그 건물을 포기하고, 버려두거나 다른 시설로 재활용하는 것도 고려해야 합니다." # 986784fe5aa7850eb565a8683b5a0a98625d5711
   normandy.0012.a: "지역 기독교인들이 종교적 필요를 위해 사용할 수 있도록 허용합니다." # 7982cbde174f8fe43bbe285f263cc988e73cdffb
-  normandy.0012.a.tooltip: "비기독교 [신앙|E]로 개종하셨으므로, 원래 받으려던 [인물_수정어|E]를 포기하셨습니다." # 6acd27fbf1c8e8d09616f0cc94d3d9a60162e7b9
+  normandy.0012.a.tooltip: "비기독교 [faith|E]로 개종하셨으므로, 원래 받으려던 [인물_수정어|E]를 포기하셨습니다." # 6acd27fbf1c8e8d09616f0cc94d3d9a60162e7b9
   normandy.0012.b: "그 건물을 부정합니다. 저는 진정한 [ROOT.Char.GetFaith.GetAdherentName]입니다!" # 4d67e11105d28d839f5bdf15c0a3da52ec8b6032
   normandy.0012.b.tooltip: "[THIS.Char.GetFaith.GetName]로의 개종이 진심임을 증명하기 위해, 본래 받을 예정이었던 [character_modifier|E]의 권리뿐만 아니라, [realm_capital|E]의 [county_modifier|E] 또한 포기해야 합니다." # 3b7ae4cb0cdf1bca30c3377c43f5d375cc7e3cb6
   normandy.0013.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
@@ -1017,12 +1017,12 @@
   normandy.0081.d: "제 과거는 [king.GetFirstNameNoTooltip]가 아닌 다른 것들로 정의되었습니다." # 8680fbe900bd736af2955dfc267622e2874581aa
   normandy.0081.info: "#emphasis 역사적 배경:#! 상퀴엔의 뒤도에 따르면 #italic 노르만인의 역사#!, 덴마크 왕은 롤로의 가문에 적대적이었습니다. 편의상 이 사건 연쇄에서 그 왕은 시구르드로 표기되었지만, 뒤도는 실제로 그 왕의 이름을 언급하지 않았습니다. 따라서 이야기가 사실이라 할지라도 롤로가 누구의 지배 아래 있었는지 말하기 어렵습니다. 특히 롤로의 기원을 다른 곳으로 묘사하는 다른 여러 자료들은 롤로와 그러한 왕 사이의 라이벌 의식을 언급하지 않습니다.\n\n어쨌든, 양측 사이의 휴전을 배반한 후, 덴마크 왕은 롤로의 형제 구림을 살해하여 롤로가 덴마크를 떠나게 했습니다. 정당한 이유를 가진 롤로가 더 큰 운명을 위해 고향을 떠나 새로운 민족을 건설해야만 한다는 사실은, 마찬가지로 훌륭한 인물이지만 고향을 떠나 미래의 로마인의 고향을 세우기 위해 더 큰 운명을 맞이해야 했던 아이네아스를 떠올리게 합니다. 고전 신화와의 이러한 유사성은 뒤도의 글에 가득합니다." # eccafb974caea774ef535a9643891fabf1fe70f6
   normandy.0082.t: "롤로의 꿈" # 0cc1a50881b1a3e367e64621bf42390156408079
-  normandy.0082.desc: "꿈을 다시 곱씹으며, [thrall.GetFirstName]에게 [thrall.GetSheHe]가 말한 "[thrall.GetFaith.HighGodName]께서 신성한 명령을 내리셨다"는 뜻을 묻습니다.\n\n\n[thrall.GetFirstNameNoTooltip]의 말에 따르면, 그 꿈은 언젠가 참된 신앙을 받아들임으로써 영원한 영광을 얻게 될 것을 의미한다고 합니다. 꿈은 단지 [thrall.GetFaith.HighGodNamePossessive]가 제 운명을 이루도록 인도하는 방법일 뿐이며, 먼저 다른 땅에서 영광과 승리를 추구해야 한다는 뜻입니다." # ec63689fbf57c83b16d7cc932ea03d9b325f181d
+  normandy.0082.desc: "꿈을 다시 곱씹으며, [thrall.GetFirstName]에게 [thrall.GetSheHe]가 말한 "[ thrall.GetFaith.HighGodName ]께서 신성한 명령을 내리셨다"는 뜻을 묻습니다.\n\n\n[thrall.GetFirstNameNoTooltip]의 말에 따르면, 그 꿈은 언젠가 참된 신앙을 받아들임으로써 영원한 영광을 얻게 될 것을 의미한다고 합니다. 꿈은 단지 [thrall.GetFaith.HighGodNamePossessive]가 제 운명을 이루도록 인도하는 방법일 뿐이며, 먼저 다른 땅에서 영광과 승리를 추구해야 한다는 뜻입니다." # ec63689fbf57c83b16d7cc932ea03d9b325f181d
   normandy.0082.a: "[thrall.GetFaith.HighGodName]께서 저를 도와주시다니요? 그건 나쁘지 않은군요." # 2b40eb0e556a66ca2da05de2938a5fe84124d683
   normandy.0082.b: "영광? 승리? 이 운명을 기대하노라!" # af1cbcd500bd33869198479f0d9cc12df3d06f0b
   normandy.0082.c: "제 곁에 머물러 주시면 더 잘 이해할 수 있을 겁니다." # 4c67d3755c9e2c639a974a24944a0dee10d9123e
   normandy.0082.d: "그 꿈은 꾸지 않았던 것 같아요." # 8994ea17ca5d7b72be5edf3b698abc885a8d07eb
-  normandy.0082.info: "#강조 역사적 배경:# #italic 노르만족의 역사#에서, 롤로는 꿈을 통해 영국 침공의 길을 알게 된 후 덴마크를 떠납니다. 이를 통해 그는 예언을 이루는 길이라고 이해했습니다.\n\n물론, 롤로의 삶에 대한 이러한 묘사는 생 켄텐의 두도와 후대 작가들이 롤로를 신의 인도를 받아 구원과 더 큰 운명을 향해 나아가는 정의로운 이교도로서 묘사하고, 나아가 롤로의 후손들의 지배를 정당화하기 위한 후대의 창작일 가능성이 큽니다. 흥미롭게도, 두도는 이를 강조하기 위해 롤로를 잔혹하고 악랄하며 혈기왕성한 악당으로 묘사된 바이킹 지도자 헤스테인과 비교합니다." # e2aa0895cc0c4002265f597aa807d548b5184474
+  normandy.0082.info: "#bold 역사적 배경:# #italic 노르만족의 역사#에서, 롤로는 꿈을 통해 영국 침공의 길을 알게 된 후 덴마크를 떠납니다. 이를 통해 그는 예언을 이루는 길이라고 이해했습니다.\n\n물론, 롤로의 삶에 대한 이러한 묘사는 생 켄텐의 두도와 후대 작가들이 롤로를 신의 인도를 받아 구원과 더 큰 운명을 향해 나아가는 정의로운 이교도로서 묘사하고, 나아가 롤로의 후손들의 지배를 정당화하기 위한 후대의 창작일 가능성이 큽니다. 흥미롭게도, 두도는 이를 강조하기 위해 롤로를 잔혹하고 악랄하며 혈기왕성한 악당으로 묘사된 바이킹 지도자 헤스테인과 비교합니다." # e2aa0895cc0c4002265f597aa807d548b5184474
   normandy.0083.t: "롤로의 불확실성" # ae1c99a235f996205609f52bb7c010de4da71e7f
   normandy.0083.desc: "가끔 예전 꿈이 떠오릅니다. 어떤 하늘의 목소리가 제 운명을 찾으라고 말했던 꿈 말이죠. 그러나 의심이 끊이질 않습니다. 새로운 땅을 정복해야 하는 걸까요? 모험을 떠나 어딘가에 정착해야 할까요? 그 꿈은 무엇을 의미하는 걸까요?\n\n어젯밤, 놀랍게도 또 다른 꿈을 꾸었습니다. 이전 꿈과는 달랐지만, 이 모든 일의 의미를 이해하는 열쇠가 될지도 모르겠습니다." # b9c46327b27209731fdc18abd17f383d249e084b
   normandy.0083.a: "꿈속이었던 어젯밤의 기억을 되살리려 합니다." # 4b080dfb417a0921617f4ef8b889dfcd55935166

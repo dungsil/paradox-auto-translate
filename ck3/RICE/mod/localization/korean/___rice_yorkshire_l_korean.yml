@@ -6,7 +6,7 @@
   game_concept_bishop_john: "주교 요한" # cdedc99ca7ad56d8eb85bce290ecc2bae5833c08
   game_concept_saint_john_of_beverley_short: "성 요한" # e36c1a1cc38ebca87cc50fb06217115ec855fbd1
   game_concept_saint_john_of_beverley: "베벌리의 성 요한" # 081b217729b4b2d41d3d4c8144b2ac99182f3fec
-  game_concept_saint_john_of_beverley_desc: "$game_concept_saint_john_of_beverley$는 8세기 초 요크의 주교였으며, 역사적으로 1037년에 시성되어 중세 잉글랜드에서 널리 존경받는 성인이었습니다.\n\n867년 책갈피에서 성 요한은 아직 시성되지 않았습니다. 그렇게 되려면 먼저 [군주|E]가 그에게 #V 경의를 표하는#! [결정|E]을 내려야 합니다. 그로부터 100년 후, 다른 [군주|E]가 #V 그의 시성을 확보하는#! [결정|E]을 내릴 수 있습니다.\n\n성 요한이 시성된 후 또는 1066년 책갈피에서 시작하는 경우, 해당 지역의 [군주|E]는 그에게 경의를 표하기 위해 #V 베벌리로 순례를 떠나는#! [결정|E]을 내릴 수 있습니다. #V 이스트 라이딩#!의 [군주|E]인 [왕|E] 또는 [황제|E]가 이것을 한 번 이상 수행하면 평생 한 번만 취할 수 있지만 강력한 군사 [캐릭터_모디파이어|E]를 부여하는 #V 성 요한의 깃발을 빌리는#! [결정|E]에 접근할 수 있습니다. 이전에 같은 순례를 두 번 이상 가면 보너스가 훨씬 더 강력해집니다." # 19d26abb5424d6d1f39acc07a1c16062f8388710
+  game_concept_saint_john_of_beverley_desc: "$game_concept_saint_john_of_beverley$는 8세기 초 요크의 주교였으며, 역사적으로 1037년에 시성되어 중세 잉글랜드에서 널리 존경받는 성인이었습니다.\n\n867년 책갈피에서 성 요한은 아직 시성되지 않았습니다. 그렇게 되려면 먼저 [군주|E]가 그에게 #V 경의를 표하는#! [decision|E]을 내려야 합니다. 그로부터 100년 후, 다른 [군주|E]가 #V 그의 시성을 확보하는#! [decision|E]을 내릴 수 있습니다.\n\n성 요한이 시성된 후 또는 1066년 책갈피에서 시작하는 경우, 해당 지역의 [군주|E]는 그에게 경의를 표하기 위해 #V 베벌리로 순례를 떠나는#! [decision|E]을 내릴 수 있습니다. #V 이스트 라이딩#!의 [군주|E]인 [왕|E] 또는 [황제|E]가 이것을 한 번 이상 수행하면 평생 한 번만 취할 수 있지만 강력한 군사 [캐릭터_모디파이어|E]를 부여하는 #V 성 요한의 깃발을 빌리는#! [decision|E]에 접근할 수 있습니다. 이전에 같은 순례를 두 번 이상 가면 보너스가 훨씬 더 강력해집니다." # 19d26abb5424d6d1f39acc07a1c16062f8388710
   game_concept_charter_fair: "헌장 박람회" # 5eab19233f6292f07798c0f7046488070bb3c89d
   game_concept_charter_fairs: "헌장 시장" # 8c3865a38f7de8cbaf2f9f05257ea250d4d77a28
   game_concept_charter_fair_desc: "중세 영국에서 $game_concept_charter_fair$는 일부 정착지에 부여된 중요한 특권이었습니다. 게임 내에서 [decision|E]를 통해 이 특권을 부여받을 수 있는 여러 정착지가 있으며, 이는 경제를 증진시키는 적절한 [county_modifiers|E]를 제공합니다. 스탬퍼드, 보스턴, 윈체스터, 노샘프턴, 스토어브리지(캠브리지), 스카보로가 있습니다.\n\n첫 네 정착지는 역사적으로 가장 중요한 장터 중 일부였기 때문에 서로 연결되어 있습니다. 네 곳 모두의 장터 헌장이 부여되면 [county_modifiers|E]를 업그레이드한 후 특별 이벤트가 발생합니다. 또한 스토어브리지(캠브리지)와 스카보로(가곡 스카보로 페어의 영감을 준 유명한 장터)에도 헌장을 부여할 수 있습니다.\n\n헌장은 [duke|E] 이상의 지위를 가진 경우에만 부여할 수 있습니다. 하지만 [king|E] 또는 [emperor|E]인 경우 요구 사항이 훨씬 쉬워집니다. 만약 더 낮은 [rank|E]라면 [king|E] 또는 [emperor|E]의 영역에 있어야 하고, 헌장을 요청하기 위해 [top_liege|E]에게 상당한 양의 [prestige|E]를 지불해야 합니다." # f75963625d5f0a24d6bcd3fbb7f05e31e466c239
@@ -119,26 +119,26 @@
   RICE_yorkshire_grant_scarborough_fair_charter_tooltip: "스카버러는 [charter_fair|E]를 개최할 권리를 부여받아야 합니다" # c4fd6c71135b3ccd61251e1751439b8818f2a1b5
   RICE_yorkshire_grant_scarborough_fair_charter_desc: "해안 마을 스카버러는 꽤 오랫동안 자체 [charter_fair|E]를 개최할 권리를 요청해 왔습니다. 영국 다른 지역에도 중요한 장터가 많지만, 스카버러 마을에는 특별하고 기억에 남는 무언가가 있습니다." # ff714e797dbcced512b13ab95cae71710edcdbe9
   RICE_yorkshire_grant_scarborough_fair_charter_confirm: "파슬리, 세이지, 로즈마리, 그리고 백리향...." # d00ac63a0144de6eb87c4c0e7fdd3cb0f16aa857
-  RICE_yorkshire_grant_scarborough_fair_charter_context_tooltip: "#강조 역사적 배경:#! 1253년, 잉글랜드의 헨리 3세 왕은 스카버러 시에 왕실 헌장을 수여하여 많은 특권을 부여했습니다. 이 헌장에는 상업 박람회 개최 권리가 포함되었으며, 1788년까지 지속되었습니다. 영국에서 가장 중요한 박람회는 아니었지만, 유명한 영국 민요, "스카버러 박람회"의 영감을 준 박람회였습니다. 이 노래의 가사는 주인공이 과거 연인에게 스카버러 박람회에서 만나기 위해 일련의 불가능한 과제를 완수하라고 요구하는 내용입니다." # 82bc56d5c5c4544b690662aff54a42768a596b91
+  RICE_yorkshire_grant_scarborough_fair_charter_context_tooltip: "#bold 역사적 배경:#! 1253년, 잉글랜드의 헨리 3세 왕은 스카버러 시에 왕실 헌장을 수여하여 많은 특권을 부여했습니다. 이 헌장에는 상업 박람회 개최 권리가 포함되었으며, 1788년까지 지속되었습니다. 영국에서 가장 중요한 박람회는 아니었지만, 유명한 영국 민요, "스카버러 박람회"의 영감을 준 박람회였습니다. 이 노래의 가사는 주인공이 과거 연인에게 스카버러 박람회에서 만나기 위해 일련의 불가능한 과제를 완수하라고 요구하는 내용입니다." # 82bc56d5c5c4544b690662aff54a42768a596b91
   RICE_yorkshire_pay_homage_to_john_of_beverley: "베벌리의 요한에게 경의를 표하십시오" # b2512c4f1e2b2e5dbc1ecf726aeaefc2c00d933d
   RICE_yorkshire_pay_homage_to_john_of_beverley_tooltip: "[john_of_beverley|E]의 무덤을 방문해야 합니다" # eabcca0e8c609948a32a0b99a5e3d152364031d0
   RICE_yorkshire_pay_homage_to_john_of_beverley_desc: "최근 수십 년 동안 요크 주교 [존 오브 버클리|E]의 명성은 경건한 기독교인들 사이에서 높아지고 있습니다. 그의 후원자들에게 군사적 성공을 가져다주었다고 여기는 사람들도 있습니다. 이 인물에게 경의를 표할 뿐만 아니라 버클리에 그의 무덤 주변에 성소를 세우는 것이 좋을지도 모릅니다." # cbb56b18067b94f09560ec0e2780645e7ea01945
-  RICE_yorkshire_pay_homage_to_john_of_beverley_effect_tooltip: "이 [결정|E]이 내려진 후 #V세기#! 후에, [john_of_beverley|E]가 시성될 수 있으며, 이는 #V 요크#! 근처의 기독교 [통치자|E]가 #V 베벌리로 순례를 떠나는#! [결정|E]을 내릴 수 있도록 할 것입니다." # 149494ba95db031a7c60ea738f471af746acedf3
+  RICE_yorkshire_pay_homage_to_john_of_beverley_effect_tooltip: "이 [decision|E]이 내려진 후 #V세기#! 후에, [john_of_beverley|E]가 시성될 수 있으며, 이는 #V 요크#! 근처의 기독교 [통치자|E]가 #V 베벌리로 순례를 떠나는#! [decision|E]을 내릴 수 있도록 할 것입니다." # 149494ba95db031a7c60ea738f471af746acedf3
   RICE_yorkshire_pay_homage_to_john_of_beverley_confirm: "베벌리로 간다!" # 86b503321fa588aad322472d209ddf44e77fb9f8
   RICE_yorkshire_pay_homage_to_john_of_beverley_context_tooltip: "#emphasis 역사적 배경:#! 요크의 존(존 오브 버비) 주교는 700년대 초반 요크의 주교로 재직했습니다. 그는 후에 뛰어난 중세 영어 성인이 되었지만, 1037년에 시성되기 전에도 이미 그의 신앙 공동체는 상당 기간 활발하게 활동하고 있었습니다. 후기 중세 자료에 따르면, 에텔스탄 왕은 934년에 존 주교의 무덤을 방문했으며, 이후 존의 도움으로 군사적 승리를 거두었다고 합니다. 감사의 표시로 그는 존 주교의 무덤 주위에 성역(성지)을 세웠습니다. 성역 건립은 아마도 점진적인 과정이었겠지만, 이 전설은 존 오브 버비의 영향력과 중요성을 잘 보여줍니다." # 78d004f2e3292c9cb33c79a17406d89d161f20fd
   RICE_yorkshire_secure_canonization_of_john_of_beverley: "존 오브 베벌리의 안전한 시성" # 7664409d911468afb925538b5989365739dba594
   RICE_yorkshire_secure_canonization_of_john_of_beverley_tooltip: "[bishop_john|E]을 존경하고 숭배해야 합니다" # a1214fb2c14b2e69dc28aade89fb6991dc830d6d
   RICE_yorkshire_secure_canonization_of_john_of_beverley_desc: "요크의 고(故) 주교인 [john_of_beverley|E]는 오랫동안 요크 주변에 거주하는 사람들에게 수호자이자 영적 지도자로 존경받았습니다. 우리는 지역 성직자들과 협력하여 교회 당국에 그의 공식적인 시성을 추진해야 합니다." # c6bf475b74a76bbd3ff8ed27e3006f1557ea4270
-  RICE_yorkshire_secure_canonization_of_john_of_beverley_effect_tooltip: "#V 요크# 근처의 기독교 [통치자|E]는 이제 #V 베벌리로 순례를 떠나는# [결정|E]을 내릴 수 있습니다." # fd7016910bd851415fda83188573d85ac1b23c4e
+  RICE_yorkshire_secure_canonization_of_john_of_beverley_effect_tooltip: "#V 요크# 근처의 기독교 [통치자|E]는 이제 #V 베벌리로 순례를 떠나는# [decision|E]을 내릴 수 있습니다." # fd7016910bd851415fda83188573d85ac1b23c4e
   RICE_yorkshire_secure_canonization_of_john_of_beverley_confirm: "옳은 일입니다." # cd8976068b62fdf9f9c5ec626cd534d00e3a2e81
-  RICE_yorkshire_secure_canonization_of_john_of_beverley_context_tooltip: "#강조 역사적 배경:#! 요크 주교 존 오브 베버리(John of Beverley)는 700년대 초반에 활동했습니다. 1037년 성인으로 추봉된 그는 중세 시대 영국의 가장 저명한 성인 중 한 명으로 여겨집니다. 여러 영국 왕들이 그의 신앙을 지지했는데, 예를 들어 헨리 5세는 아쟁쿠르 전투 승리를 존의 개입 덕분이라고 여겼습니다. 성인 존은 베버리에 강력한 수호신으로서, 중세 시대에 베버리의 정치적 특권과 경제 성장에 큰 도움을 주었습니다." # 9b3ba0e66d3d9ec0f5a10db233c573ab9aad7d06
+  RICE_yorkshire_secure_canonization_of_john_of_beverley_context_tooltip: "#bold 역사적 배경:#! 요크 주교 존 오브 베버리(John of Beverley)는 700년대 초반에 활동했습니다. 1037년 성인으로 추봉된 그는 중세 시대 영국의 가장 저명한 성인 중 한 명으로 여겨집니다. 여러 영국 왕들이 그의 신앙을 지지했는데, 예를 들어 헨리 5세는 아쟁쿠르 전투 승리를 존의 개입 덕분이라고 여겼습니다. 성인 존은 베버리에 강력한 수호신으로서, 중세 시대에 베버리의 정치적 특권과 경제 성장에 큰 도움을 주었습니다." # 9b3ba0e66d3d9ec0f5a10db233c573ab9aad7d06
   RICE_yorkshire_beverley_century_passed_req: "[bishop_john|E]의 무덤 주변의 성소가 건설된 지 적어도 #V 세기#!가 지났습니다." # 0bbe2224118b93c3884afd4def13f6756ef4ba31
   RICE_yorkshire_go_on_a_pilgrimage_to_beverley: "베벌리로 순례를 떠나십시오" # 4779927959d82cb9851fcea4421590fc1edc69c4
   RICE_yorkshire_go_on_a_pilgrimage_to_beverley_tooltip: "[saint_john_of_beverley|E]에게 경의를 표할 시간입니다!" # 29a4712b281228e3486bc34f2f64d1c034276376
   RICE_yorkshire_go_on_a_pilgrimage_to_beverley_desc: "[saint_john_of_beverley|E]께 경의를 표하기 위해 순례를 떠나고 싶습니다. 그에게 헌신한 덕이 있는 통치자들은 힘과 승리를 축복받는다고 합니다." # d00e84e11203278bdb467fe77fb2df13c1d84c96
   RICE_yorkshire_go_on_a_pilgrimage_to_beverley_confirm: "준비합시다!" # 87add30b92fc70b3debe3c01f4c8fcfd9d5045f2
   RICE_yorkshire_go_on_a_pilgrimage_to_beverley_effect_tooltip: "이 순례를 완료하면 다른 요구 사항을 충족하는 한 #V 베벌리의 성 요한의 깃발 빌리기#! [decision|E] 결정을 내릴 수 있습니다." # adbce83ccd2182e21c2d50b72dae291055bbaf8d
-  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_effect_2_tooltip: "이 순례를 여러 번 가면 [결정|E] '#V 성 베벌리의 성 요한의 깃발 빌리기#!'의 혜택이 증가합니다." # f1dc020bf1362d022e6f407a18b4cd47f8307c01
+  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_effect_2_tooltip: "이 순례를 여러 번 가면 [decision|E] '#V 성 베벌리의 성 요한의 깃발 빌리기#!'의 혜택이 증가합니다." # f1dc020bf1362d022e6f407a18b4cd47f8307c01
   RICE_yorkshire_go_on_a_pilgrimage_to_beverley_context_tooltip: "$RICE_yorkshire_secure_canonization_of_john_of_beverley_context_tooltip$" # fa631602b9b1cdedf4446165e3ebaf4c6ffbab89
   RICE_yorkshire_beverley_pilgrimage_distance_req: "[realm_capital|E]는 #V 벌리#에 가깝습니다." # 69a1266dad568d22633dd6793af903a7f7321c94
   RICE_yorkshire_beverley_pilgrimage_english_culture_req: "[realm_capital|E]은 브리튼 제도, 프랑스 또는 저지대에 있습니다." # 957f298d3b5c6955d748fbf9d76453eba7523493
@@ -160,14 +160,14 @@
   RICE_decision_bull_run_month_requirement: "월은 8월에서 10월 사이여야 합니다." # e5627925a13b9bf27e62486651c8f85c3486db04
   RICE_decision_bull_run_distance_requirement: "[realm_capital|E]는 #V 스탬퍼드#에 가깝습니다." # d58edf0384ab9927abcdf8ccd6a219735ae5512d
   RICE_yorkshire_spectate_the_stamford_bull_run_confirm: "기대가 됩니다!" # 8ecb20747030a6035064a7ec8db3f84dd60b04bc
-  RICE_yorkshire_spectate_the_stamford_bull_run_context_tooltip: "#강조 역사적 배경:#! 스템포드는 매년 11월 13일에 황소 몰이 축제를 개최했던 것으로 알려져 있습니다. 최초의 명시적인 기록은 1389년으로 거슬러 올라가지만, 그 이전에도 오랫동안 이어져 왔을 가능성이 높습니다. 현지 전설에 따르면, 이 관습은 13세기 초, 한 현지 노르만 영주가 마을의 정육점들이 싸우는 두 황소를 한 암소를 두고 헤어지게 돕는 것을 도왔던 시절에 시작되었다고 합니다. 그는 이 모습을 매우 즐거워했고, 매년 이러한 축제가 재현되기를 제안했습니다. 스템포드에서만 볼 수 있는 축제는 아니었지만, 시끄러운 축제는 청교도 시대를 지나기도 했으며, 결국 1839년 대중적 소란으로 인해 금지되었습니다." # 37eb8af6c4c981ef19ebed159dbf5860a031ece0
+  RICE_yorkshire_spectate_the_stamford_bull_run_context_tooltip: "#bold 역사적 배경:#! 스템포드는 매년 11월 13일에 황소 몰이 축제를 개최했던 것으로 알려져 있습니다. 최초의 명시적인 기록은 1389년으로 거슬러 올라가지만, 그 이전에도 오랫동안 이어져 왔을 가능성이 높습니다. 현지 전설에 따르면, 이 관습은 13세기 초, 한 현지 노르만 영주가 마을의 정육점들이 싸우는 두 황소를 한 암소를 두고 헤어지게 돕는 것을 도왔던 시절에 시작되었다고 합니다. 그는 이 모습을 매우 즐거워했고, 매년 이러한 축제가 재현되기를 제안했습니다. 스템포드에서만 볼 수 있는 축제는 아니었지만, 시끄러운 축제는 청교도 시대를 지나기도 했으며, 결국 1839년 대중적 소란으로 인해 금지되었습니다." # 37eb8af6c4c981ef19ebed159dbf5860a031ece0
   RICE_yorkshire_charter_fair_granted_recently_req: "당신의 [realm|E]에서 최근에 주요 특허 박람회를 수여하기 위한 [decision|E]을 내린 사람이 없습니다" # 7bdb993742ebc1060d8e45c547a4739b1e59a804
   RICE_yorkshire_grant_stamford_charter_fair: "스탬퍼드에 정기 시장 개최 권한 부여" # 1e15c257dbae7eb517693e0ff75b6394c793e9db
   RICE_yorkshire_grant_stamford_charter_fair_tooltip: "스탬퍼드는 [charter_fair|E]를 개최할 권리를 부여받아야 합니다" # ac08636d5873d2910ed8902394079b4f0181e3db
   RICE_yorkshire_grant_stamford_charter_fair_desc: "#V 스템포드#!는 영국에서 점차 중요하고 영향력 있는 무역 중심지로 자리 잡고 있습니다. 지역 상인들과 유력자들은 도시에 주요 [charter_fair|E] 개최 특권을 부여해 줄 것을 요청하고 있습니다." # 33fc9045f4039f2bca050c765f6da5ec20dbd0f1
   RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip: "귀하는 [가신|E]에게 이 정착지에 [정기 시장|E]을 개설할 권리를 부여해 달라고 청원하고 기본 비용 외에 상당한 양의 [명성|E]을 추가로 지불할 것입니다." # 6006d8516e553040a048b7c2aabd8b931c5fdf73
   RICE_yorkshire_grant_stamford_charter_fair_confirm: "완료되었는지 확인하십시오." # 89742759712bde88c3e71b9f26790a0904071766
-  RICE_yorkshire_grant_stamford_charter_fair_context_tooltip: "#강조 역사적 배경:#! 영국에서 왕실 칙령으로 설립된 연례 거리 시장인 칙령 박람회는 중세 시대에 많이 존재했으며, 그 이전에도 선례가 있었을 가능성이 큽니다. 특히 스탬퍼드, 보스턴, 윈체스터, 노샘프턴 등의 칙령 박람회는 매우 유명하여, 서열에 따라 순차적으로 개최되었고, 그 사이에 더 작은 박람회들이 자리 잡았습니다. 샹파뉴 박람회만큼 크지는 않았지만, 영국의 칙령 박람회는 유럽 전역의 많은 상인들을 끌어들였습니다." # ef2b3dfefc42283b78b02a3b0f47aae8f1438e89
+  RICE_yorkshire_grant_stamford_charter_fair_context_tooltip: "#bold 역사적 배경:#! 영국에서 왕실 칙령으로 설립된 연례 거리 시장인 칙령 박람회는 중세 시대에 많이 존재했으며, 그 이전에도 선례가 있었을 가능성이 큽니다. 특히 스탬퍼드, 보스턴, 윈체스터, 노샘프턴 등의 칙령 박람회는 매우 유명하여, 서열에 따라 순차적으로 개최되었고, 그 사이에 더 작은 박람회들이 자리 잡았습니다. 샹파뉴 박람회만큼 크지는 않았지만, 영국의 칙령 박람회는 유럽 전역의 많은 상인들을 끌어들였습니다." # ef2b3dfefc42283b78b02a3b0f47aae8f1438e89
   RICE_yorkshire_grant_boston_charter_fair: "보스턴에 정기 시장 개최 권한 부여" # e9987ab94fe23428e7c631089d5fdf2fa00d6d9e
   RICE_yorkshire_grant_boston_charter_fair_tooltip: "보스턴은 [charter_fair|E]를 개최할 권리가 주어져야 합니다." # 33d68a7d1fad1453e07ce58b5d04d48fcbd6ac7e
   RICE_yorkshire_grant_boston_charter_fair_desc: "#V 보스톤#!은 영국에서 점차 중요하고 영향력 있는 무역 중심지로 성장하고 있습니다. 지역 상인들과 유력자들은 이 정착지에 중요한 [charter_fair|E] 개최 특권을 부여해 달라고 요청하고 있습니다." # 682bec79573ac230d024f6635489733f12e6249d
@@ -190,7 +190,7 @@
   RICE_yorkshire_grant_stourbridge_charter_fair_tooltip: "케임브리지는 스토어브리지 커먼에서 [charter_fair|E]를 개최할 권한을 부여받아야 합니다" # bcdea5aeb2d7cb3156ccfe507e9c234cacaffa6c
   RICE_yorkshire_grant_stourbridge_charter_fair_desc: "캠브리지의 정착민들은 스토어브리지 공원을 따라 자체 [charter_fair|E]를 개최할 권리를 오랫동안 요청해 왔습니다. 영국 다른 곳에도 중요한 박람회가 많이 있지만, 스토어브리지 박람회는 유리한 위치 때문에 매우 성공적일 것이라는 느낌이 듭니다." # 1c60731bfb928bebfd11a6a4ab84416a53ddb848
   RICE_yorkshire_grant_stourbridge_charter_fair_confirm: "훌륭한 생각입니다! 해봅시다!" # 3f0b0095903ada5ab6a4386a5b6269f6388a5d13
-  RICE_yorkshire_grant_stourbridge_charter_fair_context_tooltip: "#강조 역사적 배경:#! 스터브리지 박람회는 케임브리지에서 가장 중요한 무역 박람회였습니다. 실제로, 후기 중세와 초기 근대 시대에 유럽에서 가장 큰 무역 박람회 중 하나가 되었습니다. 이는 소설 #italic 순례자의 여정#에서 빈곤 박람회에 영감을 주었고, 아이작 뉴턴과 같은 여러 유명 인사들이 방문했습니다. 이 박람회는 마지막으로 1933년에 개최되었으며, 1934년에 공식적으로 폐지되었습니다." # 87481ed0a29369e8fa1f283c15b8f68c44adcee7
+  RICE_yorkshire_grant_stourbridge_charter_fair_context_tooltip: "#bold 역사적 배경:#! 스터브리지 박람회는 케임브리지에서 가장 중요한 무역 박람회였습니다. 실제로, 후기 중세와 초기 근대 시대에 유럽에서 가장 큰 무역 박람회 중 하나가 되었습니다. 이는 소설 #italic 순례자의 여정#에서 빈곤 박람회에 영감을 주었고, 아이작 뉴턴과 같은 여러 유명 인사들이 방문했습니다. 이 박람회는 마지막으로 1933년에 개최되었으며, 1934년에 공식적으로 폐지되었습니다." # 87481ed0a29369e8fa1f283c15b8f68c44adcee7
   RICE_yorkshire_sheffield_cutlery: "최근에 구입한 셰필드 식기류" # ef593c9068c747995d3e729f779aa12d2f8f2526
   RICE_yorkshire_stamford_ware_feasts: "연회용 뉴 스탬퍼드 도자기" # b2c108f258cb2a602f1f67d71e0416182977faf3
   RICE_yorkshire_stamford_ware_pots: "하인들이 사용하는 새로운 스탬퍼드 식기" # c5a3608b31722745d9c9a1292b908d7b042a2982
@@ -266,11 +266,11 @@
   yorkshire.0020.t: "베벌리의 주교 존" # 20f0e6616019cd45fb03d27d484dec8e73e1fa05
   yorkshire.0020.desc: "오래전, 8세기로 거슬러 올라가면 요크의 주교는 존 오브 베벌리라는 가장 거룩하고 신앙심 깊은 사람이었습니다. 최근 몇 년 동안 그는 많은 기적을 일으켰다고 현지인들이 숭배하는 대상이 되었습니다. 심지어 나 자신도 그런 기적의 잠재적인 수혜자 중 하나라고 생각해야 할 정도입니다. 내 군사 관련 여러 사건들이 그분의 영향 덕분이며, 내가 필요할 때 하나님께서 나를 도우셨기 때문인 것 같습니다.\n\n그 결과, 오늘 나는 그분이 세우신 베벌리 마을([beverley_location.GetNameNoTier]에 위치)에 있는 그의 무덤을 방문하여 이 위대한 분에게 경의를 표하기로 했습니다. 나는 그분의 기억을 제대로 기리기 위해 그의 무덤 주변에 상당한 규모의 성소를 건설하기로 맹세했습니다." # bfb687a54120ac57006e15dcc1a0d1fcf33b3589
   yorkshire.0020.a: "어떤 이들은 그가 언젠가 성인이 될 것이라고 말하지만, 누가 알까?" # 1859d65778f3df415742b2a9a416b05e77ad1f7b
-  yorkshire.0020.tooltip: "약 1세기 후, 이스트라이딩의 통치자는 베벌리의 성 요한 시성식을 지지하는 [결정|E]을 내릴 수 있습니다." # 8998dcdeb077352ffe8bbb2e0d226e8c7eac3b31
+  yorkshire.0020.tooltip: "약 1세기 후, 이스트라이딩의 통치자는 베벌리의 성 요한 시성식을 지지하는 [decision|E]을 내릴 수 있습니다." # 8998dcdeb077352ffe8bbb2e0d226e8c7eac3b31
   yorkshire.0021.t: "베벌리의 주교 존" # 20f0e6616019cd45fb03d27d484dec8e73e1fa05
   yorkshire.0021.desc: "최근에 [homage_person.GetTitledFirstName]께서 [beverley_location.GetNameNoTier]에 있는 베벌리에 위치한 베벌리의 존의 무덤을 방문했습니다. 요크의 주교였던 이 8세기 성직자는 매우 거룩하고 신앙심이 깊은 사람으로 여겨지며 수년 동안 현지인들의 숭배를 받아왔습니다.\n\n고(故) 존 주교는 여러 군사 문제에서 [homage_person.GetTitledFirstName]에게 많은 도움을 제공한 것으로 알려져 있습니다. 이 때문에 [homage_person.GetSheHe]께서는 존 주교의 무덤 주변에 상당한 규모의 성소를 건설하라고 명령했습니다. 존 주교의 전설이 계속해서 커진다면 언젠가는 그가 성인으로 시성되는 것을 볼 수 있을까요?" # dc465642b79ac76dbe1e4a5a97b6fd20cc0208e8
   yorkshire.0021.a: "시간만이 말해줄 것입니다." # 71b029fda7d4e6fc6708f1bd3f9cdf4b948da81e
-  yorkshire.0021.tooltip: "약 1세기 후, 이스트라이딩의 통치자는 베벌리의 성 요한 시성식을 지지하는 [결정|E]을 내릴 수 있습니다." # 8998dcdeb077352ffe8bbb2e0d226e8c7eac3b31
+  yorkshire.0021.tooltip: "약 1세기 후, 이스트라이딩의 통치자는 베벌리의 성 요한 시성식을 지지하는 [decision|E]을 내릴 수 있습니다." # 8998dcdeb077352ffe8bbb2e0d226e8c7eac3b31
   yorkshire.0022.t: "베벌리의 성 요한" # 081b217729b4b2d41d3d4c8144b2ac99182f3fec
   yorkshire.0022.desc: "8세기 요크의 주교였던 베벌리의 존의 전설은 세월이 흐를수록 더욱 커지고 있습니다. 이 지역에는 그가 성인으로 시성되기를 청원하는 사람들이 많으며, 그에게 기인한 기적이 매우 많기 때문입니다.\n\n[ROOT.Char.GetFaith.GetAdjective] 교회는 이에 동의하는 것으로 보이며, 몇몇 [ROOT.Char.Custom('DefaultPriestTitlePlural')]이 베벌리의 존의 기적과 삶에 대한 의무 조사를 위해 파견된 후, 그를 정식으로 성인으로 선포했습니다.\n\n그가 건설하는 데 도움을 준 도시인 베벌리는 그의 무덤을 보관하게 되어 엄청난 위신과 명예를 얻게 될 것입니다. 성 요한의 공식 시성과 함께 더 많은 순례자들이 찾아올 것으로 예상되며, 이는 정착지에 경제적, 정신적으로 도움이 될 것입니다." # 8de62f02fca617134eee6ff0c9b55f4b2490579c
   yorkshire.0022.a: "아주 좋군" # 7612729ba12125c2b038a1d081b511864179ca82
