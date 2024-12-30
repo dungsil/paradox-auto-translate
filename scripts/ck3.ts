@@ -1,6 +1,6 @@
 import { readdir } from 'node:fs/promises'
 import { join } from 'pathe'
-import { processModTranslations } from './translator'
+import { processModTranslations } from './factory/translate'
 import { log } from './utils/logger'
 
 async function main () {

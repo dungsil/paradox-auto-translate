@@ -1,9 +1,9 @@
 import { mkdir, readdir, readFile, stat, writeFile } from 'node:fs/promises'
 import { basename, dirname, join } from 'pathe'
-import { parseToml, parseYaml, stringifyYaml } from './parser'
-import { hashing } from './utils/hashing'
-import { log } from './utils/logger'
-import { translate } from './utils/translate'
+import { parseToml, parseYaml, stringifyYaml } from '../parser'
+import { hashing } from '../utils/hashing'
+import { log } from '../utils/logger'
+import { translate } from '../utils/translate'
 
 interface ModTranslationsOptions {
   rootDir: string
