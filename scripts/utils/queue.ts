@@ -42,7 +42,8 @@ async function executeTaskWithRetry (task: () => Promise<void>, retryCount = 0):
   try {
     await task()
   } catch (error) {
-    log.debug('요청 실패:', error)
+    log.warn('요청 실패:', (error as Error).message)
+    log.debug('\t', error)
 
     if (retryCount < MAX_RETRIES) {
       log.info(`요청에 실패하여 잠시후 다시 시도합니다. (${retryCount + 1})`)
