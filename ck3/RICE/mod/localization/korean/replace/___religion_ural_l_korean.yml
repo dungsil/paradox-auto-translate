@@ -86,7 +86,7 @@
   kvenland_event.0001.a: "영원하고 강력한 왕국!" # d1527072c9644758b59a05a6d4d7db63b8246aed
   kvenland_event.0001.desc: "드디어 견디는 힘을 가진 케브니아 왕국을 세우는 꿈이 이루어졌습니다. $k_kvenland$ 왕국이 건설되었으니, 이제 우리의 영향력을 마음껏 펼칠 수 있게 되었습니다. 우리 케브니아인들은 앞으로 밝은 미래를 맞이할 것입니다." # 5b321635c235f57d6b7d4d9462db20349f98409c
   kvenland_event.0002.desc: "저하, [founder.Custom('GetQueenKing')] [founder.GetFirstName]께서는 웅장한 크베니 왕국 건설이라는 꿈을 이루셨습니다. 이것이 크벤족에게 밝은 미래의 시작일까요?" # 0e6f3246cce6681fe4493ee9dbdef978f720e936
-  kvenland_event.0002.a: "#bold [창시자.직책명없이이름]께#를 환영합니다!" # n
+  kvenland_event.0002.a: "[founder.GetTitleAsNameNoTooltip] 폐하께 경례를!" # 2ddcb04cdd4dfab1d6e24a92205e11d56ab027ee
   kvenland_event.0002.b: "저주받은 자는 거짓된 [founder.Custom('GetQueenKing')]이로다." # fd43645a1b53128f820c2e857edc31bde3fc0e65
   kvenland_event.0003.t: "크벤란드 왕국" # a4962e8125f5412675d6f034a6349ed20304d135
   kvenland_event.0003.desc: "[founder.GetName]께서 퀘네 왕국을 건설하는 꿈을 이루셨습니다. 이는 북방의 미래에 어떤 의미를 지닐까요?" # eeae16940e2306e6212c9c44c7a11cdf84d6d2f6
@@ -535,7 +535,7 @@
   holy_site_choklema_name: "초클레마" # eb2f7ae6253caaf44a47cbe2fadc0d85e12380b1
   holy_site_choklema_effect_name: "[holy_site|E] #weak ($holy_site_choklema_name$)#!" # fba27770bb6cc74b950a29673044079a34bd5f92
   holy_site_uiska_name: "위스카" # ab03b4adc7f704905581966a1ca5dd8fdfcba650
-  holy_site_uiska_effect_name: " [holy_site|E] #weak ($holy_site_uiska_name$)#!" # 16eb1c10507ecc8982e0fd245e35ffc24d854c6a
+  holy_site_uiska_effect_name: "[holy_site|E] #weak ($holy_site_uiska_name$)#!" # 16eb1c10507ecc8982e0fd245e35ffc24d854c6a
   holy_site_yoshkar-ola_name: "요슈카르올라" # fcd43a07b7968707f44e2098e2f3cf195c0019b8
   holy_site_yoshkar-ola_effect_name: "#weak [holy_site|E] ($holy_site_yoshkar-ola_name$)#!" # 980527a21cc4365c0d873c735f6a98038547abef
   holy_site_tambov_name: "탐보프" # b2173645195979f918c2119a76071d1686b049e0
@@ -914,7 +914,7 @@
   holy_order_raiders_of_wealthgod: "[FAITH.WealthGodName]의 약탈자들" # 9b6bb8ef9d1520da3168b84d32a4fdcc8cb1086c
   holy_order_servants_of_deathdeity: "[FAITH.DeathDeityName]의 신자 여러분" # 5548df2e90c5c5b01eda6e536f22c7935b527d33
   holy_order_warriors_of_wargod: "[FAITH.WarGodName]의 용사들" # 461311aeb2a18a9c1073f254e4541543e1914f2b
-  estonian_holy_order_children_of_fertilitygod: "[신앙.다산신의신성] 소실됨" # n
+  estonian_holy_order_children_of_fertilitygod: "[FAITH.FertilityGodName] 신앙을 저버렸습니다." # c516b04b39abde76917606123719e7fd59cce05b
   estonian_holy_order_chosen_of_highgod: "[FAITH.HighGodName] 신이 선택하셨습니다" # 2600d73d8b3a5538213af13fc5c0c8a5f627e732
   estonian_holy_order_defenders_of_knowledgegod: "카이츠자드" # 0ecb81f8345e512688f52adb508622f120c3d6c0
   estonian_holy_order_deviants_of_trickstergod: "[FAITH.TricksterGodName] 헬비쿠드" # 6962073600cbf27ae5f3c28d57d4951cbd580287
