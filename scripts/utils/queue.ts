@@ -20,11 +20,11 @@ async function processQueue () {
     return
   }
 
-  // 초당 최대 5개까지만 요청을 보낼 수 있도록 제한
+  // 초당 최대 1개까지만 요청을 보낼 수 있도록 제한
   const now = Date.now()
   const timeSinceLastRequest = now - lastRequestTime
-  if (timeSinceLastRequest < 200) {
-    setTimeout(processQueue, 200 - timeSinceLastRequest)
+  if (timeSinceLastRequest < 1000) {
+    setTimeout(processQueue, 1000 - timeSinceLastRequest)
     return
   }
 
@@ -42,8 +42,13 @@ async function executeTaskWithRetry (task: () => Promise<void>, retryCount = 0):
   try {
     await task()
   } catch (error) {
-    log.warn('요청 실패:', (error as Error).message)
-    log.debug('\t', error)
+    const message = (error as Error).message
+    if (message) {
+      if (!message.includes('429 Too Many Requests')) {
+        log.warn('요청 실패:', (error as Error).message)
+        log.debug('\t', error)
+      }
+    }
 
     if (retryCount < MAX_RETRIES) {
       log.info(`요청에 실패하여 잠시후 다시 시도합니다. (${retryCount + 1})`)
