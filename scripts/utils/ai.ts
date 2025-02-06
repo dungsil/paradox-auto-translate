@@ -14,25 +14,19 @@ const generationConfig = {
   maxOutputTokens: 8192,
 }
 
-const gemini20 = ai.getGenerativeModel({
+const gemini = (model: string) => ai.getGenerativeModel({
+  model,
   generationConfig,
-  model: 'gemini-2.0-flash-exp',
-  systemInstruction: Ck3_SYSTEM_PROMPT,
-})
-
-const gemini15flash = ai.getGenerativeModel({
-  generationConfig,
-  model: 'gemini-1.5-flash-8b',
   systemInstruction: Ck3_SYSTEM_PROMPT,
 })
 
 export async function translateAI (text: string) {
   return new Promise<string>((resolve, reject) => {
     try {
-      return translateAIByModel(resolve, gemini20, text)
+      return translateAIByModel(resolve, gemini('gemini-2.0-pro-exp-02-05'), text)
     } catch (e) {
       try {
-        return translateAIByModel(resolve, gemini15flash, text)
+        return translateAIByModel(resolve, gemini('gemini-2.0-flash'), text)
       } catch (ee) {
         reject(ee)
       }
