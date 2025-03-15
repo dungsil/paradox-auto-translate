@@ -5,7 +5,7 @@ import { log } from './utils/logger'
 
 async function main () {
   try {
-    const ck3Dir = join(import.meta.dirname, '..', 'CK3')
+    const ck3Dir = join(import.meta.dirname, '..', 'ck3')
     const mods = await readdir(ck3Dir)
 
     log.box(
