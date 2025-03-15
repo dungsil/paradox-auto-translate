@@ -8,6 +8,7 @@ import { translate } from '../utils/translate'
 interface ModTranslationsOptions {
   rootDir: string
   mods: string[]
+  onlyHash?: boolean
 }
 
 interface ModMeta {
@@ -17,7 +18,7 @@ interface ModMeta {
   };
 }
 
-export async function processModTranslations ({ rootDir, mods }: ModTranslationsOptions): Promise<void> {
+export async function processModTranslations ({ rootDir, mods, onlyHash = false }: ModTranslationsOptions): Promise<void> {
   for (const mod of mods) {
     log.start(`[${mod}] 작업 시작 (원본 파일 경로: ${rootDir}/${mod})`)
     const modDir = join(rootDir, mod)
@@ -43,7 +44,7 @@ export async function processModTranslations ({ rootDir, mods }: ModTranslations
       for (const file of sourceFiles) {
         // 언어파일 이름이 `_l_언어코드.yml` 형식이면 처리
         if (file.endsWith(`_l_${meta.upstream.language}.yml`)) {
-          await processLanguageFile(mod, sourceDir, targetDir, file, meta.upstream.language)
+          await processLanguageFile(mod, sourceDir, targetDir, file, meta.upstream.language, onlyHash)
         }
       }
     }
@@ -52,7 +53,7 @@ export async function processModTranslations ({ rootDir, mods }: ModTranslations
   }
 }
 
-async function processLanguageFile (mode: string, sourceDir: string, targetBaseDir: string, file: string, sourceLanguage: string): Promise<void> {
+async function processLanguageFile (mode: string, sourceDir: string, targetBaseDir: string, file: string, sourceLanguage: string, onlyHash: boolean): Promise<void> {
   const sourcePath = join(sourceDir, file)
 
   // 파일 순서를 최상위로 유지해 덮어쓸 수 있도록 앞에 '___'를 붙임 (ex: `___00_culture_l_english.yml`)
@@ -90,6 +91,14 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
     log.verbose(`[${mode}/${file}:${key}] 원본파일 문자열: ${sourceHash} | "${sourceValue}" `)
 
     const [targetValue, targetHash] = targetYaml.l_korean[key] || []
+
+    // 해싱 처리용 유틸리티
+    if (onlyHash) {
+      targetYaml.l_korean[key] = [targetValue, sourceHash]
+      log.debug(`[${mode}/${file}:${key}] 해시 업데이트: ${targetHash} -> ${sourceHash}`)
+      continue
+    }
+
     if (targetValue && (sourceHash === targetHash)) {
       log.verbose(`[${mode}/${file}:${key}] 번역파일 문자열: ${targetHash} | "${targetValue}" (번역됨)`)
       continue

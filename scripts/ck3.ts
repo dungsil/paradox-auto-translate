@@ -1,3 +1,4 @@
+import process from 'node:process'
 import { readdir } from 'node:fs/promises'
 import { join } from 'pathe'
 import { processModTranslations } from './factory/translate'
@@ -7,6 +8,7 @@ async function main () {
   try {
     const ck3Dir = join(import.meta.dirname, '..', 'ck3')
     const mods = await readdir(ck3Dir)
+    const onlyHash = process.argv?.[2] === 'onlyHash'
 
     log.box(
       `
@@ -19,6 +21,7 @@ async function main () {
     await processModTranslations({
       rootDir: ck3Dir,
       mods,
+      onlyHash
     })
 
     log.success(`번역 완료! 스크립트를 종료합니다. (처리된 모드: ${mods})`)

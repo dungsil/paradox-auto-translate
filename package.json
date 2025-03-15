@@ -4,7 +4,8 @@
   "name": "@dungsil/paradox-automatic-translate",
   "packageManager": "pnpm@10.2.0+sha512.0d27364e0139c6aadeed65ada153135e0ca96c8da42123bd50047f961339dc7a758fc2e944b428f52be570d1bd3372455c1c65fa2e7aa0bfbf931190f9552001",
   "scripts": {
-    "ck3": "jiti scripts/ck3.ts"
+    "ck3": "jiti scripts/ck3.ts",
+    "ck3:update-hash": "jiti scripts/ck3.ts onlyHash"
   },
   "devDependencies": {
     "@google/generative-ai": "^0.24.0",
