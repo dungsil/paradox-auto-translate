@@ -1,5 +1,7 @@
-import { createHash } from 'node:crypto'
+import xxhash from "xxhash-wasm";
+
+const { h64 } = await xxhash();
 
 export function hashing (data: string) {
-  return createHash('sha1').update(data).digest('hex')
+  return h64(data)
 }
