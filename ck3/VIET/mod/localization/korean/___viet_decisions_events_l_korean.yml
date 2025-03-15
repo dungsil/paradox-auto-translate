@@ -328,15 +328,15 @@
   VIETmisc.2078.t: "꽃밭" # 9d8592825ba2f5872856b62069a141c78144dce8
   VIETmisc.2078.desc: "오늘, 저는 [county.GetName]의 봄 들판을 찾아 그 아름다운 꽃들을 보기 위해 시간을 할애했습니다. 실망하지 않았습니다.\n\n지평선 끝에서부터 끝까지 수백, 수천에 달하는 작고 사랑스러운 야생화들이 각기 고유한 색깔을 지니고 있습니다. 이처럼 다양한 꽃들이 한데 어우러져 바람이 조금만 불어도 마치 [ROOT.Char.GetFaith.HighGodName]이 직접 짠 듯한 움직이는 짜임새로운 천처럼 보입니다.\n\n언덕 위 땅에 앉아 제 앞에 펼쳐진 자연의 위엄과 아름다움에 감탄하며 멍하니 바라봅니다." # ffccec940520732a18d75935cf81c0f4be410067
   VIETmisc.2078.a: "정말 놀랍군요." # ec67284843d00488ec5a3dead652ec2c0dfa14bf
-  VIETmisc.2079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.2079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.2079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.2080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.2080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.2080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.2081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  VIETmisc.2079.t: "눈보라 같은 생각" # a0f6294a777bdea85e6b30a201fe641138cf9538
+  VIETmisc.2079.desc: "눈사람 만드는 예술은 새롭지 않지만, 요즘 겨울철에 상당히 인기 있는 활동입니다.\n\n제 관료 중 일부가 흥미로운 아이디어를 제안했습니다. 앞으로 눈사람 제작에 초점을 맞춘 눈 축제를 개최하는 것이 좋을지도 모른다는 것입니다. 이는 혹독한 겨울 날씨에 대한 사람들의 불만과 걱정을 해소하는 흥미롭고 재미있는 방법이 될 수 있다는 논리입니다." # f65e605a6a62a433960c56fb68bf25836d271265
+  VIETmisc.2079.a: "재미있고 매력적인 생각이군요 – 잘 생각해보겠습니다!" # 5d7a7a9e7e1c317e273e9c2bd763ba5cacc0abf2
+  VIETmisc.2080.t: "설날 축제" # 052fce257505651579417213c8252fa8558d474d
+  VIETmisc.2080.desc: "최근 눈이 많이 내려 [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]에 눈 축제를 개최하게 되었습니다.\n\n주요 행사는 주민들이 눈을 이용하여 아름다운 조각품을 만드는 것입니다. 이는 혹독한 겨울 날씨에 대한 불만과 걱정을 풀 수 있는 좋은 기회가 될 것입니다.\n\n물론 떠들썩한 축제가 될 수도 있겠지만, 관리들은 다른 축제와 마찬가지로 이 행사를 진지하게 치를 것을 약속했습니다." # 4c154f5022b935fa075bbf9f1e58e335e14337a3
+  VIETmisc.2080.a: "즐거운 시간 되시길 바랍니다." # 2305a69048d443bd4dbe00cbb4a74099d8074a66
+  VIETmisc.2081.t: "눈 조각" # 9af845d4429a6a847efc6a65b3efec759d84ec25
   VIETmisc.2081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.2081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  VIETmisc.2081.a: "모두 즐거운 시간이었기를 바랍니다!" # 66324e1ac5be1cf24e4929ac82636bd5ca68ceee
   VIETmisc.2082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
   VIETmisc.2082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
   VIETmisc.2082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
@@ -391,3 +391,10 @@
   VIETmisc.2099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
   VIETmisc.2099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
   VIETmisc.2099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  VIETmisc.2079.tooltip: "[GetModifier('VIET_snow_festival_idea').GetNameWithTooltip] [character_modifier|E]를 보유하고 있는 한, #bold $VIET_decision_snow_festival$# 결정을 내릴 수 있습니다. 이 결정은 #bold 단 한 번#만 실행할 수 있습니다." # 38f462e1da679806e41f93311a6c4cea8df2d3ab
+  VIETmisc.2079.b: "게임하는 것보다 더 중요한 일들이 많습니다." # 276059485c1c2221cbb7f5b46cb29d9760b616df
+  VIETmisc.2081.desc.intro: "[ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]의 눈 축제가 순조롭게 치러졌다는 보고를 받았습니다.\n\n주민들은 눈으로 동물, 사람, 물건, 그리고 전설적인 [culture.GetName]이나 [faith.GetReligion.GetAdjective] 인물들을 조각했습니다." # c6002e57c1bbb2df702c2e2b9bc76e5ff5ddd7ea
+  VIETmisc.2081.desc.naughty: "어떤 이들은 과몰입했고, 수치스럽지만 재밌는 조각상들이 꽤 많았습니다." # adda5a4024152e0c8a3e43ed66bbbb87a5e74923
+  VIETmisc.2081.desc.wholesome: "대부분의 조각상이 그 자리에 어울리고 적절했기에 다행입니다." # 0f206a0bbd7f15a3e63cf654c0a0c27048d633a5
+  VIETmisc.2081.desc.conclusion: "그 조각품 중 하나는 최고의 작품으로 평가받았으며, 행사의 백미였습니다. 그것은 [GetPlayer.Custom('VIET_snow_sculpture')]을 묘사했습니다. 많은 사람들은 이 조각품을 [GetPlayer.Custom('VIET_snow_sculpture_reaction')]으로 여겼습니다." # 734226701a9a3ac607fda12fa602447873ea1351
+  VIETmisc.2081.b: "이들의 도덕은 참으로 낮군…." # a61853ad93a0ee1f43cf6eac9baf375b05eb8243

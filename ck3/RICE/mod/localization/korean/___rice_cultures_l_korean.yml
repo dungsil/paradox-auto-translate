@@ -5521,3 +5521,125 @@
   dynn_Dur-Untash: "두르-운타시" # c840eec46752896b4e5cecb9527737581040dc95
   dynn_Khaydalu: "카이다루" # 728901c7d0275f23c485ed337e4a0842541e2fef
   dynn_Urua: "우루아" # 9620136451412e9be38e00323783b47c1e3afc66
+  RICE_goliad_history_loc: "제1천년기, 드네프르 강 유역에 거주하던 $baltic_group$ 부족의 후예입니다." # 96103d40f134c94528e09329c211327bb90f4f2b
+  tradition_RICE_zhangzhung_stonework_name: "길조로운 산돌조각" # 7ff2b808fb8fa19a41ca1a99ee47ff7f8eedba44
+  tradition_RICE_zhangzhung_stonework_desc: "이 문화권은 험준한 히말라야 고지대의 산과 동굴에 자주 조각되어 있는, 모두 돌로 지은 건축물을 건설합니다. 이러한 건물들 중에는 특히 #italic sekhang#! 또는 #italic sekhar#! (신들의 집 또는 성)과 같이 중요한 의식적 기능을 가진 건물들이 많습니다." # 0c6a21e9c3eb35614005ebece7b988f8b61d6c58
+  culture_parameter_unlock_rice_zhangzhung_stone_decision: "[GetGeographicalRegion('RICE_upper_tibet').GetName] 지역 밖에서 #V $RICE_zhangzhung_supplicate_ancient_pillars$# 결정을 해제합니다!" # f5313da386e787cc487848ae82d37860480253d4
+  culture_parameter_improved_rice_zhangzhung_stone_decision: "#P 좋은 결과# 의 가능성이 향상됩니다. [결정|E]을 내리면서 #V $RICE_장중_간청_고대_기둥$#!" # 879a68c62d213d59a4755819f54bdd38897000a6
+  culture_parameter_unlock_rice_restore_zhangzhung_decision: "[독립|E] [왕|E] 및 [황제|E]를 위해 #V 은성성 재건# 결정을 해제합니다!" # b8c5b154573d98abd591ba0b0f221467630095c5
+  tradition_RICE_changthang_nomads_name: "장탄족 유목민" # 17ea14b0c3c8764d6259327fddecf7ad52e019cd
+  tradition_RICE_changthang_nomads_desc: "히말라야의 널리 퍼진 유목민족은 #italic 드록파#라고 불립니다.  상부 티베트와 라다크의 척박한 샹탕 고원에서 기원한 #italic 드록파#들은 그들의 강인함과 경건함으로 존경받고, 무자비한 용기로 두려움을 사기도 합니다.  험준한 지형을 넘나들며 사냥하고, 순례를 하고, 다른 어떤 민족들보다 먼 거리를 통해 교역을 합니다." # ef44c384401a9c60612320208a60fc7634fc4c44
+  culture_parameter_unlock_rice_maa_drokpa_horsemen: "[GetMaA('RICE_drokpa_horsemen').GetName]를 [men_at_arms|E]로 고용할 수 있습니다." # b47c44f88ba52a2389a08e342bb27053cb222fb5
+  culture_parameter_unlock_rice_better_salt_trade_decision: "#V $RICE_zhangzhung_western_tibet_salt_decision$! 결정의 성공 가능성과 얻을 수 있는 £gold£가 더 높아집니다." # 90308609e290d6e41596f0f6646b775e14964594
+  culture_parameter_unlock_rice_piety_when_traveling_for_activity: "[여행|E]을 시작할 때마다 [활동|E]에 따라 [경건|E]가 [piety_i|E] #V 1#!와 [piety_i|E] #V [EmptyScope.ScriptValue('medium_piety_gain')|0]#! 사이의 임의의 양만큼 증가합니다." # 2cc61a831ebe1e8a09e16dad981044ef8833451d
+  tradition_RICE_gandharan_art_name: "간다라 미술" # 381fedae42959a58682ba865f10dccb28fbf8f21
+  tradition_RICE_gandharan_art_desc: "이 문화의 예술 양식은 고대부터 헬레니즘과 인도 예술의 융합에서 비롯되었습니다. 이 예술 양식은 이 문화의 종교적 유산과 깊은 관련이 있으며, 먼 땅에도 큰 영향을 미쳤습니다." # 2fcaf6542e7e2b506e0c6c6dbbff6a9dd904a08c
+  tradition_brus_river_lifeblood_name: "도시의 땅" # 55dfd035a4a902080967836037332399854cf24c
+  tradition_brus_river_lifeblood_desc: "바랑인들은 우리 땅을 #italic 가르다리키#, 즉 \"도시들의 땅\"이라고 불렀습니다.  무역로를 따라 세운 많은 정착촌들 때문에 그렇게 불렀지요.  부와 전쟁을 실어 나르는 거대한 강들이 우리 민족을 형성했으니, 그 강들은 우리 땅을 가로지르며 자리 잡았습니다." # e6549c3cf961bfec5f06a435e9f4d77e94054e74
+  culture_parameter_rice_portage_decision_bonus: "#bold $쌀_운송로_개척$# 결정은 [gold_i|E] [gold|E] 비용이 더 적고, 10년마다 대신 #V 5#년마다 수행할 수 있습니다." # 4a5e7f66232f4e3527333598faf6e7f6ffdb2e73
+  culture_parameter_rice_volga_dnieper_merchant_spawn_bonus: "[volga_dnieper_merchants|E]의 등장 확률이 [court|E]에서 증가합니다. 특히, [realm_capital|E]가 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에 위치하고 $RICE_develop_portage_routes$ 결정을 내린 후 더욱 높아집니다." # 8552f05051e506f7ad6fdaf4bd611cd233cbf07c
+  culture_parameter_unlock_rice_maa_iron_forest: "[GetMaA('RICE_iron_forest').GetName]을 [men_at_arms|E]로 모집할 수 있습니다." # f63dc5111bd30cd5516b9bca9c47bc2b562fd6e5
+  language_west_himalayan_name: "서 히말라야" # 364cfa5c86b17d16d7c0466126fcd167d19f98e0
+  language_kirati_name: "키란티" # d0b0d60e192f82137ab3f68628b8026a3e13e849
+  language_monpa_name: "대시아닉" # 13ad426227091a60d0dfb5d5b05533ab3b04a122
+  gandhari: "간다리" # 8985852804bd354ea296ab956c5c08043a0a75e6
+  gandhari_prefix: "간다리" # 8985852804bd354ea296ab956c5c08043a0a75e6
+  gandhari_collective_noun: "간다리" # 8985852804bd354ea296ab956c5c08043a0a75e6
+  drevlian: "드레블리안" # 0246609acc7ebe2a7907dbffb8e7e7463a28a994
+  drevlian_prefix: "드레블리안" # 0246609acc7ebe2a7907dbffb8e7e7463a28a994
+  drevlian_collective_noun: "드레블리아인" # ae3be522efe8b40585598083e47545064ff3fc7d
+  krivich: "크리비치" # 653f76abdc4e8d68950ee6665c6ad60e3328569e
+  krivich_prefix: "크리비치" # 653f76abdc4e8d68950ee6665c6ad60e3328569e
+  krivich_collective_noun: "크리비치" # 8087bdd7743e16afe6b8da5ac1e04159781ba12a
+  goliad: "고리아드" # aae2fa29db645482543753d4ac130e9291a6752c
+  goliad_prefix: "고리아드" # aae2fa29db645482543753d4ac130e9291a6752c
+  goliad_collective_noun: "고리아드" # 8322424d669c50329469d8042ca91848bf38c9c1
+  Atabutwre: "아타부트웨" # f925555dab04c69a76429a7d6d648312e1d70c18
+  Bagisht: "바기슈트" # a236b0162d8cd98f4e12dc790a2cc15a6fb5dbf0
+  Bruk: "브룩" # 560134fc841cd2962e988e64f9c84a9351b47da6
+  Churi: "추리" # 5479ef6986df3a409e59ebbfb2feef77b5a0035b
+  Dezau: "데자우" # 87ff96e93ec89c1e10e7f4c39c00dbc1426eb4e3
+  Eumrai: "움라이" # f64c8a3607e94b1e4acc389f6079ce787da85e6e
+  Gish: "기쉬" # e186145dd48fa8686da289ca30c184e56acf4252
+  Giwish: "기위시" # 8088833254780c21adaa813920a2d7d22fd39df3
+  Ich: "이치" # 3de9f109e39e2a496541eb2b36eb478b772d6597
+  Imra: "임라" # 8cece18837e30ec482a15ff2c2fcdd0d84a136b0
+  Indr: "인드르" # fb63c3801b25616fee729f214dbabe535840c3ce
+  Janera: "자네라" # 28f2455e7053a20338088fe1fc7561630d750071
+  Jast: "자스트" # 9936a1fb25db7c9a050d1983d8eecb279e871829
+  Kantaar: "칸타르" # 0085b70c10c69a21f4c2be961d09ef57db1d8007
+  Kime: "키메" # 4a0d594d88ff3c672e5815b03d19526260ab0aec
+  Kshul: "크슐" # 9dc0c4219fea45ba19796ce828b0e32f8eeef6bb
+  Kshumai: "ക്ഷമമയ്യാ" # 4fe80bc921ec2ae8cd0dc449b7c158c17a1a56d0
+  Lemoch: "레모크" # 9263b116e13fa0679e466e598a417316e2b6bf35
+  Mahadeo: "마하데오" # e5cfd7cd7bebe761245308f8ca2db87bd00f9a13
+  Malda: "말다" # 579f1b67213e9fad0639a5f3dac8ba31e9f59ee8
+  Mandi: "만디" # d2f19fd36aa722ef0690273e21d00afae3445536
+  Markhor: "마크호르" # 9b13a556262d8e1a0fb35862d2cd1477fc3bde78
+  Moni: "モニ" # c8ac81d722f15d8e584637b69fbce25068decc6c
+  Mou: "무" # 8859a42af9965c790e95e72ae58a452397aefa5c
+  MUmoch: "무모크" # c2b02b65851e8a58b509c6d56a9d94e32c65ef74
+  MUnt: "무늉" # 25b3aa4641dec948a15197f7aa1f3acb188dad5d
+  Shomde: "쇼므데" # e6b723b60d71f2b1013964b8a3d34e11b02de473
+  Shurmoch: "슈르모치" # cb8757ae1a3c2f20c00d40e44c54f8a670475bbb
+  Sucha: "수차" # 9d99e658e2df5f2cba0a82d8c080bdfb6cb4a4c8
+  Urta: "우르타" # e97683a914beb8c370f7914c17fd2a58f1c92169
+  Wushum: "우슈움" # 27c6215e604c98cd37791772c4c980b57362ca5f
+  Yamarajan: "야마라잔" # bb2c9f26fc0cf7616821ea6980266ff8694508c3
+  Yush: "유슈" # 65471f8613d4924eb522364c57187bd0a896baa9
+  ZUzum: "즈줌" # 96a0109f3336786511bb85effd3a85c299dcdd70
+  Charmovetr: "차르모베트르" # ae7c4980e736f37a1bffa05e918571a1981a2677
+  Dezalik: "데잘릭" # 2c0e5184b434652e1f9d1483343ea88127b1243c
+  Disani: "디사니" # ac7c025a061875465c859b2a4bd698d59c51db72
+  Dizane: "디자네" # d37e3fa8847b013911be5c01557b014eb46c4a45
+  Jeshtak: "제슈탁" # 50489efe0c18806a1462ca9b2bd5fe949cc72d19
+  Krumai: "크루마이" # 57886635de7caa9d2ecdf5988e71f324f1a0c2a9
+  Le: "레" # e07edacb2555a09c495279c3384f36a675435d8d
+  Machi: "마치" # 28181388d22edb840f2450e2624d5ce82700cd28
+  Nirmali: "니르말리" # e5bcbc3a9380f77c7efe9496fe4ccf83588beea4
+  Saranji: "사란지" # df4a76f5cf48ef72b9ebdc32a5459ccdd2bdee90
+  Surmiya: "수르미야" # edcc20f6d45ee455c23dce551ab056baea322f89
+  Tchina: "중국" # 64965ef1e571c046def4df94d20c726f7b732ed8
+  Vetr: "베트르" # 884f0af9b3fceb6e393e316b5d71092ff49d2af1
+  Wotni: "우트니" # c298d2c75e4bebf0480606ac91b2a77a503193a4
+  Zhibulu: "절포" # 4999f242a82201e519d7bef6da1865486f5b4744
+  dynn_Askunu: "아스쿠누" # 69256694759ce1168ef782889c6e4562538f0624
+  dynn_Dungulio: "둥굴리오" # 968347c367d07f46afcc2b0afd8e0d28cf6fba6d
+  dynn_Gramsana: "그람사나" # 68cc2895057c7f1691ac1971156f7f908d1477b4
+  dynn_Jench: "젠치" # f9fa5479ec634d8cbe4d2b8bffc42f61b9b06b73
+  dynn_Kalasha: "칼라샤" # 0116421b930de3a72f933822fc7c8701bfacaa5d
+  dynn_Kata: "카타" # dab0a08f9e05456db3b88b9d98510e3f0e81cd9a
+  dynn_Kom: "콤" # a5499a2e801b498d93112268c0f3109e4b16ce15
+  dynn_Kshto: "끄슈토" # e29fc91468ebae471bba2bd2dd56956454077183
+  dynn_Mumo: "무모" # d81a38c0c2a5644ea894c3c8d732c45327de219f
+  dynn_Sanu: "산우" # 52a6005de0e5e019b0210e1394378ef419ca5450
+  dynn_Tregami: "트레가미" # a297948f17db174052de3582b7fac97f10acac3a
+  dynn_Vasi: "바시" # 81c8ef8334409cd40f872eaa49090e7b525642c3
+  dynn_Ozhor: "오즈호르" # 5425153843c3d90de4e6681d3f67b9ae8b559256
+  dynn_Gobor: "고보르" # d6a6f82c6f2798f9c50a55a15abed9e36943b64c
+  dynn_Buburat: "부바라트" # 04e666132d937569ed9cb1aca4ba5473b6510d2d
+  dynn_Ayun: "아윤" # 7d251d11458f24550227d41c025e45aa26db01e8
+  dynn_Broze: "브로즈" # e6064d9cb2ca78e2772645e565fa805736e1bfa6
+  dynn_Mastuj: "마스투즈" # cade7cf8bb543f26680c77c96326d8e52c3ad677
+  dynn_Bashguli: "바쉬굴리" # bacf9e96b3373c6c3ec3f30fa2d686cd61932f34
+  dynn_Katirguli: "카티르굴리" # 560d9c195b9222b866b01d73841f7b81b14a6970
+  dynn_Ramguli: "람굴리" # c04c162b7ccc5e06529f3c75bd5e5b6fc3dcfcdb
+  dynn_Kulam: "쿨람" # ef3d9c16ad47f96fad55bf1bb5b2fe34c260a74b
+  dynn_Kolata: "콜라타" # b3f1e6d6f55f13baa01c041983006ff875627987
+  dynn_Suru: "수루" # fcb2b41dcc14a1c49b7e3a5277ce83c7aa7efb17
+  dynn_Wamai: "와마이" # b9fb9b560ac6d8f59f1e4cc88318d62c088d098e
+  dynn_Mum: "엄마" # 6257940c0823370497f07c0430ed5e472b0dc76e
+  dynn_Kam: "캄" # 06a4e8a989e30cc99038ec26b1731c6aa4be3583
+  dynn_Gambir: "감비르" # b56364d02887429439b8a8d930f973cf09b8edfe
+  dynn_Katar: "카타르" # c00520635918e03ae17f366201c0f82fa2a13d98
+  dynn_Devoz: "데보즈" # 755b2e4e53165e63007c112e6bb08ff823ef070b
+  dynn_Kusogdare: "쿠소그다레" # ee746c0b05b6b1b7e50ffeb89a806460584f976f
+  dynn_Prasuni: "프라수니" # 513c7c3bcdff52f9597b6616dcefa5c091419587
+  dynn_Titin_Bajaygul: "티틴 바자이굴" # 05238cae0fc753bf3a95f6605a62946c4398149e
+  dynn_Vay: "베이" # 5e74a8d5418a2561968418464e58b7a73dc97773
+  dynn_Kunar: "쿠나르" # bc39df7b74f4ae9b24fb5deede8c83b2afcdcad8
+  dynn_Pech: "페치" # 43771c3827b2f7a0a0f8062d45f06243ac9af930
+  dynn_Alingar: "알링가르" # 36db172d1f0c1beb32811c6c5e1681fc7a537cf9
+  dynn_Watapur: "와타푸르" # 348d519d0e8c30a230205d0fc1c62fbbd7043ebc
+  dynn_Sharyak: "샤리아크" # b6a7f1975c8e7477726823cef1f7569244848b9d
+  dynn_Qatar_Kala: "카타르 칼라" # ee281b2266b0f73d011fc921f52b64d67768f907

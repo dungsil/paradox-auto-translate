@@ -707,7 +707,7 @@
   south_mesopotamian_pagan_old_adj: "카스단 옛 문화권" # d24d94d69c66b05f04fe8c7b8071c3d7a5d3ec1b
   south_mesopotamian_pagan_old_adherent: "카스다니아 옛" # d24d94d69c66b05f04fe8c7b8071c3d7a5d3ec1b
   south_mesopotamian_pagan_old_adherent_plural: "고대 카스다니아인" # 0e46b57748674d7652e83898dd7f2685b835b61e
-  south_mesopotamian_pagan_old_desc: "$vedda_pagan_desc$" # 101740122216c0292237c0ec6ad6d19c810b64a2
+  south_mesopotamian_pagan_old_desc: "$south_mesopotamian_pagan_desc$" # a6da7815135b9637a19f36fcf1012842e9701f96
   south_mesopotamian_pagan_high_god_name: "앗샴스" # 9296b41e8d951dc34398d50c6e549869485bde4c
   south_mesopotamian_pagan_high_god_name_2: "$south_mesopotamian_pagan_high_god_name$" # 1b14e06771335c7a96b17f7734b73dee65bcbd07
   south_mesopotamian_pagan_high_god_name_3: "$south_mesopotamian_pagan_high_god_name$" # 1b14e06771335c7a96b17f7734b73dee65bcbd07
@@ -845,3 +845,42 @@
   rice_doctrine_horse_sacrifice_name: "$special_doctrine_rice_doctrine_horse_sacrifice_name$" # a43f4f3f751eaaf63344899dfb7e19c346444a2d
   special_doctrine_rice_doctrine_horse_sacrifice_desc: "말은 우리 우주의 경이로운 창조물 중 하나입니다. 마땅히 숭배받아야 하며, 종교 의식의 일부로 하늘에 제물로 바쳐져야 합니다." # 532764a7b95b2d16905facab7f28e0b4904ce7bc
   doctrine_parameter_rice_unlock_horse_sacrifice: "[GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName] [activity|E] 해금" # dc6a7496d5411ae37954dce6ba625edccfb7f728
+  holy_site_kinnaur_name: "키나우르" # 5f18b4f74131efdf07c91899b3cbd743bc12a385
+  holy_site_kinnaur_effect_name: "#weak ($holy_site_kinnaur_name$)#의 성지로부터!" # 2e6a65bfe67a3cda1e76016c93ed06baabed2071
+  west_himalayan_religion: "서 히말라야" # 8ae60f36baeca36bb91dd70c7758d141ae2098c7
+  west_himalayan_religion_adj: "서 히말라야" # 8ae60f36baeca36bb91dd70c7758d141ae2098c7
+  west_himalayan_religion_adherent: "서 히말라야" # 8ae60f36baeca36bb91dd70c7758d141ae2098c7
+  west_himalayan_religion_adherent_plural: "서 히말라야" # c0ab589b37557336cf72d4908ba602f8904370e2
+  west_himalayan_religion_desc: "티베트와 인도의 산악 국경 지대에 사는 민족들은 수많은 지역 신들을 숭배합니다.  이 신들에게는 제대로 된 존경과 헌신이 필요합니다.  그들은 변덕스러운 존재이며, 특히 강력한 산신들은 더욱 그러하기 때문입니다.  그들의 인간에 대한 인식이 마을이 풍요로움으로 번영하는지, 아니면 빈곤과 재앙으로 고통받는지의 차이를 결정짓기 때문입니다." # f9bb905b48645c4ca27e46e86f34ca3a6f6e1a71
+  kinnaur_pagan: "김슈이즘" # 69986cce6260074eb4d90dfb0ec9f3d566db2eb0
+  kinnaur_pagan_adj: "김슈이스트" # 61e90b3ae2e5cb11188396f6bb6661c97ef6045b
+  kinnaur_pagan_adherent: "김슈이스트" # 61e90b3ae2e5cb11188396f6bb6661c97ef6045b
+  kinnaur_pagan_adherent_plural: "김슈이스트" # c1d8099655515bc93954b0199f98dcb870989969
+  kinnaur_pagan_desc: "이 세상에는 많은 신들이 있으며, 특히 산의 강력한 영혼들이 있습니다.  마을 신전에는 종종 지방 신들을 위한 우상이 모셔지며, 이 우상들은 여러 의식 때 팔안에 실려 나옵니다. 모든 가정에는 #italic 김슈#!, 즉 개인적인 수호신이 있으며, 정기적으로 숭배해야 합니다." # 7fd7b13292577b9787f87d50b04990a00c84c5f0
+  kinnaur_pagan_old: "고금 김슈교" # 8e5884a2e3bf31d1d2c5f2220229a13407c65237
+  kinnaur_pagan_old_adj: "김수주의" # 6b450dd70793d4f50240441017f202cc3b1b4d5f
+  kinnaur_pagan_old_adherent: "김수주의" # 6b450dd70793d4f50240441017f202cc3b1b4d5f
+  kinnaur_pagan_old_adherent_plural: "옛 김수주의들" # c8c7020688819086e7f66d340a09ba1b1a5c4cde
+  kinnaur_pagan_old_desc: "$kinnaur_pagan_desc$" # 4923dc22d32ac8dc1cdfb4a440d01998e5483174
+  minaro_pagan: "보노냐" # 2ba90806e86165bf49bfcb61068142ff9e777978
+  minaro_pagan_adj: "보노냐" # 2ba90806e86165bf49bfcb61068142ff9e777978
+  minaro_pagan_adherent: "보노냐" # 2ba90806e86165bf49bfcb61068142ff9e777978
+  minaro_pagan_adherent_plural: "보노냐" # 2ba90806e86165bf49bfcb61068142ff9e777978
+  minaro_pagan_desc: "보노냐는 다르딕 민족 일부가 숭배하는 신들의 범주로, 제사를 통해 가장 잘 숭배됩니다.  산의 신성한 순수함과 거기에 거주하는 목동들 때문에 염소 희생이 가장 이상적인 제사입니다." # 48dcb32ac0ba6b9ad9cca1cef9958371c5ee479f
+  minaro_pagan_old: "본오냐" # 6c35b98f2bcacfdcc34ee21c0dee60c43267d8a4
+  minaro_pagan_old_adj: "본오냐" # 6c35b98f2bcacfdcc34ee21c0dee60c43267d8a4
+  minaro_pagan_old_adherent: "본오냐" # 6c35b98f2bcacfdcc34ee21c0dee60c43267d8a4
+  minaro_pagan_old_adherent_plural: "본오냐" # 6c35b98f2bcacfdcc34ee21c0dee60c43267d8a4
+  minaro_pagan_old_desc: "$minaro_pagan_desc$" # 55bcca45ca701b44debc51571da808cd564138fd
+  doctrine_parameter_rice_mahayana_deities: "$RICE_select_personal_deity_buddhist_decision$ 결정을 해금합니다. 만약 $heritage_burman_name$ 또는 $heritage_tibetan_name$ [heritage|E]가 아니면 말이죠. (다른 [decisions|E]에 접근할 수 있습니다.)" # 1c6525a49aafdee32615b7da5dac3cdf3746c0ac
+  doctrine_parameter_rice_vajrayana_deities: "$doctrine_parameter_rice_mahayana_deities$" # 2ae39778db84b0c80ff47a1658dc6a05712839b9
+  doctrine_parameter_rice_theravada_deities: "$RICE_select_personal_deity_buddhist_decision$ 결정에 접근할 수 없습니다. ($heritage_burman_name$ 또는 $heritage_tibetan_name$ [heritage|E] 인물은 영향을 받지 않는 다른 결정에 접근할 수 있습니다.)" # a0dc1795e10e7ebf830901c8bce6aab1db1969f6
+  doctrine_parameter_rice_pudgalavada_deities: "$doctrine_parameter_rice_theravada_deities$" # 019639d9bc302e2b6f730ba912fa67c3290bfc08
+  rice_doctrine_bon_deities_name: "히말라야 신들" # 152cb384ca54b003e934895adf4a777be7edaa53
+  rice_doctrine_bon_deities_desc: "[GetGeographicalRegion('world_himalaya').GetName] [지역|E]에는 수많은 신과 영이 거주합니다. 그들의 살아있는 인간과의 관계, 서로의 관계, 우주에서의 역할은 지역마다 다릅니다." # 60379d961c5d2bed9fc0da5ae28e8249dd5ec535
+  rice_bon_deities_old_doctrine_name: "단호한 신들" # 240cbca13878d9193ca38761c39d077165c940ea
+  rice_bon_deities_old_doctrine_desc: "신들과 영혼들은 우리 땅에, 누구도 기억할 수 있는 만큼 오랫동안 머물러 있습니다. 그들은 강력하며, 때로는 도와주더라도 위험하고 예측할 수 없으므로, 의식과 열렬한 존경으로 달래야 합니다." # 44cbdbd97a8d90c2f8af11b7701e9f5c23880437
+  rice_bon_deities_new_doctrine_name: "보호 신들" # b48b3cc91e706de1010dc670aa02e8d6fbc351d8
+  rice_bon_deities_new_doctrine_desc: "신들과 영들은 한때 위대하였으나, 더 높은 종교적 힘에 봉사하는 영적 스승들에 의해 길들여지거나, 스스로 이 새로운 종교적 교리들을 받아들였습니다. 이제 이 성스러운 존재들은 진실된 가르침을 지켜주며, 많은 가르침들은 영적 스승들에 의해 적절한 때가 오기를 기다리며 감춰져 있었습니다." # 9db782c8c4a3f7eeb403b859be001f1164254c35
+  doctrine_parameter_rice_no_piety_cost_deities: "#bold $RICE_select_personal_deity_tibet_decision$# 결정은 어떠한 [piety_i|E] [piety|E]도 요구하지 않습니다." # 5f0a838cdabca081e429a42a384a07fa9137984d
+  doctrine_parameter_rice_unlocks_terton_content: "[Glossary( 'Tertön', 'TERTON_GLOSS' )] 메커니즘을 통해 특정 인물들은 [GetTrait('RICE_terton').GetName( GetNullCharacter )] [trait|E]를 얻을 수 있습니다." # 4b4d8e96701193bc5f917e06efc278c3cafd8b03

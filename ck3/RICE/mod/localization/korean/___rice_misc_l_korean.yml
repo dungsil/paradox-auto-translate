@@ -4,13 +4,13 @@
   setting_RICE_intro_event_on_desc: "게임에 진입하면 RICE 버전과 최신 기능을 알려주는 소개 이벤트가 한 번 발생합니다. 이 이벤트는 모드가 올바르게 설치되었고 최신 버전을 사용하고 있는지 확인하는 데 도움이 됩니다." # 5b11bab1038842676d2292078cdf22b7c5c8558c
   setting_RICE_intro_event_off: "끄기" # e3de5ab0ca4c69dbf00e86d2558843e8d806bb49
   setting_RICE_intro_event_off_desc: "소개 이벤트가 비활성화됩니다." # 3a72058495baab5ec18f2f78b59a142d820efcfc
-  RICEintro.0000.t: "RICE 1.14.0 "혜초"" # 20a5dcaaf2e4269adff4cbc4a3ee78ad69fba2ef
-  RICEintro.0000.desc: "RICE 1.14.0이 성공적으로 설치되었습니다. 이 이벤트는 게임 시작 시에만 발생하며 게임 규칙을 통해 비활성화할 수 있습니다. 최신 업데이트에서 추가된 일부 기능은 새 게임이 필요합니다. 스팀 창작마당, PI 포럼 또는 디스코드에서 버그를 보고하거나 피드백을 제공해 주십시오.\n\nRICE에는 현재 전 세계의 다양한 문화, 종교 및 지역을 다루는 #V #Bold 36#!#!가지의 플레이버 팩이 포함되어 있습니다. 가장 최신 플레이버 팩은 #V #Bold 레스보스: 시인의 섬#!#!입니다.\n\n이 플레이버 팩은 [GetTitleByKey('c_lesbos').GetNameNoTier]에 대한 새로운 플레이버를 추가하고 모드를 Roads to Power DLC로 업데이트하는 데 중점을 둡니다." # cc9270cbf609e5f7cb2bf842eefe6b04c147d341
+  RICEintro.0000.t: "쌀 1.14.2 \"루스\"" # ce61fa83711d493d4d92430ff9a67c8dec69d737
+  RICEintro.0000.desc: "라이스 1.14.2가 성공적으로 설치되었습니다. 이 이벤트는 게임 시작 시에만 발생하며, 게임 규칙을 통해 비활성화할 수 있습니다. 최신 업데이트에 추가된 일부 기능은 새 게임을 시작해야 활용 가능합니다. 버그 보고 또는 피드백은 스팀 워크샵, PI 포럼 또는 제 디스코드 채널에 제출해 주십시오.\n\n\n라이스에는 현재 #V #Bold 38개#개의! 풍미 패키지가 포함되어 있습니다. 이 패키지는 전 세계 다양한 문화, 종교 및 지역을 다룹니다. 최신 풍미 패키지는 #V #Bold 갈리시아-볼히니아: 적 러시아의 변방#입니다.\n\n\n이 풍미 패키지는 특히 [RICE_culture.GetName] [culture|E]에 대한 새로운 풍미를 추가하는 데 중점을 두고 있으며, 특히 [GetGeographicalRegion('RICE_galicia_volhynia_region').GetName] 지역에 집중되어 있습니다." # bdb32c6f714d1067036f4dec6a381448b1b02a54
   RICEintro.0000.a: "좋습니다!" # fb17a31a730f648b2ee006eacda1351a971f175d
   RICEintro.0000.b: "이번 업데이트의 새로운 추가 사항에 대한 개요를 알려드리겠습니다." # e390fd6bd0d31657523c9195ba6648be07afe42f
   RICEintro.0000.c: "이 메시지를 향후 저장에서 비활성화하십시오." # 23bf9e398c8ed292ee84aa702601a943b4ab7b31
   RICEintro.0000.c.tooltip: "#EMP 이 옵션을 선택하시면, 앞으로 이 저장 파일의 성공적인 업데이트를 확인하는 메시지를 받지 못하게 된다는 점을 유념하십시오!#" # a265baa1946414340cb11d229e9278edef54eb7e
-  RICEintro_intro_tooltip: "#EMP 혜초는 8세기 한국의 불교 승려로, 1세기 전의 더 유명한 현장처럼 인도로 순례를 떠나 아시아 대부분 지역을 여행했습니다. 그의 여행기인 '왕오천축국전'은 중세 초기 다양한 아시아와 중동의 문화 및 정치 체제에 대한 귀중한 정보 자료입니다.#" # c0d0a3dfa099edb0901afe7966af61c77a713f05
+  RICEintro_intro_tooltip: "#EMP \"루스인들이 이틸 강변에 상인의 길을 따라 진영을 쳤을 때 그들을 보았네.  그 어떤 완벽한 신체적 모습도, 훨씬 더 키가 크고 웅장하며, 야자수처럼 곧고, 금발에 홍조를 띤 모습은 본 적이 없었지.\"\n\n- 이븐 파드란, 10세기 아랍 탐험가#!" # e01dd81989e56ada7735889b3316727c5e791e43
   RICEintro_TFE_warning_tooltip: "#V #bold 몰락한 독수리#!#!가 실행 중인 것으로 감지되었습니다. 이것이 사실이라면 #bold 새로운 게임을 시작하기 전에 모드 로드 순서에서 TFE가 RICE #underline 아래에#! 있는지 확인하십시오#!" # 14adf4c93bb52cc759cee8f78fd1fdd462fdfafa
   RICEintro_ROA_warning_tooltip: "#V #bold 아시아의 라자#!#! 모드가 실행 중인 것으로 감지되었습니다. 이것이 사실이라면 새 게임을 시작하기 전에 #bold 모드 로드 순서에서 RICE #underline 아래에#! ROA가 있는지 확인하십시오#!" # 7bb0151b0faa8a26115ffb8719a113357db2cb23
   RICE_decision_pagan_requirement: "이교 [faith|E]를 따름" # e57d2ff7fb65ba55fc2a7d13fa3ad177b6df374f
@@ -420,7 +420,7 @@
   d_nf_RICE_dunhuang_song_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
   d_nf_RICE_dunhuang_zhu: "$dynn_Zhu$ 가문" # a33975ae269b40fa05c445031efcdd7e3a3e63f8
   d_nf_RICE_dunhuang_zhu_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
-  d_nf_RICE_dunhuang_zhang_3: "$dynn_Zhu$ 가문" # a33975ae269b40fa05c445031efcdd7e3a3e63f8
+  d_nf_RICE_dunhuang_zhang_3: "$dynn_장$ 가문" # 22e61354545e35cc01c8b3acd1f3d4d2ef07f36c
   d_nf_RICE_dunhuang_zhang_3_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
   d_nf_RICE_dunhuang_wu: "$dynn_Wu$ 가문" # 16eb8ef356c964faa238e674032aa481362fa625
   d_nf_RICE_dunhuang_wu_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
@@ -1031,3 +1031,16 @@
   RICEintro.0030.a: "네" # b0a98216a32426b9e66a4ac1eb6df2e96e1b495c
   RICEintro.0031.a: "네" # b0a98216a32426b9e66a4ac1eb6df2e96e1b495c
   RICEintro.0032.a: "네" # b0a98216a32426b9e66a4ac1eb6df2e96e1b495c
+  rule_RICE_rus_emergence: "쌀 러시아 출현" # 1b0c241971347b940c875b48e4084e178beae77b
+  setting_RICE_rus_emergence_default: "기본값" # 808d7dca8a74d84af27a2d6602c3d786de45fe1e
+  setting_RICE_rus_emergence_default_desc: "초기 시작 시점에서는 $russian$ [문화|E]가 [결정|E]를 통해 등장할 수 있습니다. 다른 모드의 $east_slavic_group$ 문화 설정이 이를 대체할 수 있습니다. #경고 @경고아이콘! 설정은 게임 시작 후 적용됩니다!#!" # 2eceb0eae0e0449446d5cfd36d71e150b22eb0cf
+  setting_RICE_rus_emergence_already: "#고전 버전#" # 607cd6560efe1fea4df4dd1ba98178fc7ce54158
+  setting_RICE_rus_emergence_already_desc: "초기 시작 시점에서 $russian$ [문화|E]가 기본 설정대로 게임 시작 시 존재합니다. 다른 모드의 $east_slavic_group$ 문화 설정이 이를 대체할 수 있습니다." # 01e286ec0742126fd2f49018dd0c40bbbec48424
+  setting_RICE_rus_emergence_partial: "#부분적 고왕#" # 4ba29eae5c596f29e91921b0f981712cd8f82d6c
+  setting_RICE_rus_emergence_partial_desc: "초기 시작 날짜에서 $russian$ [culture|E]는 게임 시작 시 일부 [counties|E]에 존재하지만, 모든 지역에 존재하는 것은 아닙니다. 다른 모드의 $east_slavic_group$ 문화 설정이 이를 덮어쓸 수 있습니다. #경고 @warning_icon! 설정은 게임 시작 후 적용됩니다!#!" # 4df133d41efabe4de9365c1c2d012145de617790
+  setting_RICE_rus_emergence_override: "#고왕 다른 모드를 우선시합니다!#" # 8e52c964e0cbca893e0fb3609d5d1331e908864d
+  setting_RICE_rus_emergence_override_desc: "초기 시작 시점에서 $russian$ [문화|E]는 [결정|E]를 통해 생성될 수 있습니다. 이는 다른 모드의 $동슬라브_그룹$ 문화 설정을 재정의하려고 시도할 것입니다. #경고 @경고_아이콘! 설정은 게임 시작 후 적용됩니다!#!" # 7f00c48bbf476cf895d93f0d65acfb04ee6f58f6
+  d_laamp_RICE_nyangrel: "보물 발굴자들" # d0e891e4414590ace73c4286a038d7b1f6ef16db
+  d_laamp_RICE_nyangrel_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7
+  d_laamp_RICE_khutsa_dawo: "계몽가들이 나타났습니다" # 03d132bb67767bb625f2f589a32e81ae2c98b85e
+  d_laamp_RICE_khutsa_dawo_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # ce5e3b1a1ca6fbd5162ddfa50c7d5eb35532ffd7

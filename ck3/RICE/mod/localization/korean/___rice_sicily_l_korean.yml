@@ -394,8 +394,8 @@
   trait_RICE_sicilian_ruler: "시칠리아 영주" # 424414dc447a6c3e558a10b59c1f29c5acde466c
   trait_RICE_sicilian_ruler_2: "시칠리아 귀족" # ec0a2dfb892270284a17f645079172c1f73fde00
   trait_RICE_sicilian_ruler_3: "시칠리아 공작" # 0b928f5609be45101108e705e99184cabab8baea
-  trait_RICE_sicilian_ruler_desc: "이 인물은 [RICE_sicily_struggle|E]의 정치와 사회에 어느 정도 영향력을 행사하는 통치자이거나 다른 유력 인사입니다." # 65683c6f5f4d16d0b52e208f7bed50cc2e70f5fb
-  trait_RICE_sicilian_ruler_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]는 [RICE_sicily_struggle|E]의 정치와 사회에 어느 정도 영향력을 행사하는 군주이거나 다른 중요 인물입니다." # cb6b3bb08cee535fbc62c3c8ec9f96325bba2073
+  trait_RICE_sicilian_ruler_desc: "이 인물은 [RICE_sicily_struggle|E]의 정치와 사회에 어느 정도 영향력을 행사하는 통치자이거나 유명 인사입니다.$trait_RICE_sicilian_ruler_info$" # d8d889b1e7fa5d29af43844765e2aaca24d83e76
+  trait_RICE_sicilian_ruler_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]은 [RICE_sicily_struggle|E]의 정치와 사회에 어느 정도 영향력을 행사하는 군주 또는 다른 유명 인사입니다.$trait_RICE_sicilian_ruler_info$" # 263d0ff87708e83d4475c552ceca4b5806afee4d
   trait_track_RICE_sicilian_ruler_latin: "라틴어" # 9bde795b72be44b343c829314d764282997de688
   trait_track_RICE_sicilian_ruler_latin_desc: "로마의 권위가 쇠퇴한 후에도 [RICE_sicily_struggle|E]에는 라틴계 민족이 여전히 많이 거주합니다. 그들의 존재는 그 지역을 서유럽과 더욱 긴밀하게 연결시킵니다." # 92a6157caef5ab65446670c80d3dfef128809b31
   trait_track_RICE_sicilian_ruler_arabic: "아랍-베르베르" # d85677413dbd110617cb7c1c785693797979c707
@@ -2060,3 +2060,7 @@
   sicily.0299.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
   sicily.0299.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
   sicily.0299.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICE_sicily_struggle_correct_involvement_tt: "당신은 [struggle_involved|E]에 휘말렸습니다. [RICE_sicily_struggle|E]" # 1a95e64ed5b2c21aecd0f79e9f36e5529b2eceba
+  catalyst_RICE_sicily_host_palio_activity: "[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] [activity|E]를 주최하였습니다. [struggle_catalyst_catalyst|E]" # 72e5bd6c7932463cbead2b19addcb7575d9af27d
+  catalyst_RICE_sicily_host_palio_activity_desc: "[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] [activity|E]를 개최합니다." # e665c0bba5f1016a10bf70364bc348940cf4ed45
+  trait_RICE_sicilian_ruler_info: "#bold 이 [trait|E]의 [trait_level_track_xp|E]는 [RICE_sicily_struggle|E] [struggle|E]와 관련된 [decisions|E]와 [activities|E], 사건 및 기타 여러 가지 방법을 통해 얻을 수 있습니다.#!" # bed492d79f61a5cdd3c6b27076c0b43db58ab8ab
