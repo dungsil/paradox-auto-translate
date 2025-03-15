@@ -1,616 +1,616 @@
 ﻿l_korean:
-  RICE_lower_oxus_region: "하옥수스" # aaf577cb87cdc12badee0f6a7960e79c6d88067f
-  RICE_lower_oxus_geographical_req: "[GetGeographicalRegion('RICE_lower_oxus_region').GetName] [region|E]의 [county|E]를 소유하고 있습니다" # 7cf7ec25678a705e847c23d1498f35f0b06d466d
-  RICE_every_county: "소유한 모든 [county|E]" # 6a0817c8e698b3d4116e6f11f6a46de2c4452bae
-  activity_yazata_worship: "야자타 숭배 의식" # 4b2448441d4d5e1a889568f7f6019d9801d0d2b8
-  activity_yazata_worship_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 야자타 숭배 의식" # db604670b0777f646b541f4a9aace5e8a349d0ee
-  building_type_RICE_khwarezm_al_fir_fortress: "알피르 요새의 폐허" # 5738e0a89ff377cb825cceb7392cd048474d9351
-  building_type_RICE_khwarezm_al_fir_fortress_desc: "전설에 따르면 $c_kath$에 있는 위대한 알피르 요새는 아프리그 왕조의 창시자들이 지었다고 합니다. 이 요새는 "미친 강"이라는 별명을 가진 아무다리야 또는 옥수스 강 옆에 있는데, 현지인들은 강이 끊임없이 범람하거나 경로를 바꾸기 때문이라고 합니다. 오랜 세월 동안 오래된 카트의 많은 부분이 강에 의해 파괴되었고, 정기적으로 사용되지 않는 성채도 곧 파괴될 것이라고 많은 사람들이 두려워합니다. 그럼에도 불구하고 폐허가 된 상태에도 불구하고 성은 여전히 인상적인 광경이며, 멀리서도 볼 수 있습니다.\n\n@warning_icon! #X 이 [building|E]은 옥수스 강에 의해 점차 파괴되고 있습니다. 앞으로 파괴될 가능성이 높습니다.#!" # 6fb6653460c5c2f184b95f4ee439adb20dd07198
-  building_RICE_khwarezm_al_fir_fortress: "$building_type_RICE_khwarezm_al_fir_fortress$" # 9ca53d69184a8703a344024fabefbf8cd180f589
-  building_RICE_khwarezm_al_fir_fortress_desc: "$building_type_RICE_khwarezm_al_fir_fortress_desc$" # 52afa26aa16aa7d5edc15d005d99f11e1d6f54a8
-  building_type_RICE_khwarezm_al_fir_fortress_TFE: "알-피르 요새" # cfe6ea6ed433980fccc3d59d1f2ad768b86746bb
-  building_type_RICE_khwarezm_al_fir_fortress_TFE_desc: "전설에 따르면, $c_kath$의 알피르 요새는 아프리그 왕조의 창시자들이 지었다고 합니다. 이 요새는 현지인들이 끊임없이 범람하거나 경로를 바꾸기 때문에 "미친 강"이라고 부르는 아무다리야 강 또는 옥서스 강 옆에 자리 잡고 있습니다. 건물이 현재는 튼튼하게 서 있지만, 미친 강이 시간이 지남에 따라 점차적으로 파괴할 것이라는 우려가 있습니다.\n\n@warning_icon! #X 이 [building|E]은 옥서스 강에 의해 점차적으로 파괴되고 있습니다. 미래에는 폐허가 될 가능성이 높습니다.#!" # 50dea5907ee30b735330d84c6fb17147ca8e3e91
-  building_RICE_khwarezm_al_fir_fortress_TFE: "$building_type_RICE_khwarezm_al_fir_fortress_TFE$" # f05434fddf9a347fc41b5b275758702df0961b21
-  building_RICE_khwarezm_al_fir_fortress_TFE_desc: "$building_type_RICE_khwarezm_al_fir_fortress_TFE_desc$" # 2e60c5bb6435d11d11b2549fe2f44e4b2f95957c
-  RICE_khwarezm_the_mad_river: "미친 강" # f686cbafc1ced451b52bb8828c8ce14b2b0ca570
-  RICE_khwarezm_the_mad_river_desc: "아무 다리아 또는 옥수스 강은 세계의 위대한 강 중 하나입니다. 비옥한 강둑은 주변 지역의 번영에 기여하지만, 특히 [GetGeographicalRegion('RICE_lower_oxus_region').GetName] 지역을 따라 흐름을 자주 바꾸고 범람하기 때문에 "미친 강"으로도 불립니다. - 때로는 점진적으로, 때로는 갑작스럽게 - 이에 따라 주민들은 종종 마을 전체를 이전시키고, 외국인들은 그렇지 않으면 번영하는 도시에서 홍수로 인한 더러운 환경을 비웃습니다." # 17f49ae35ed7676e4a93be7ad9b523b967c27274
-  RICE_khwarezm_kala_fortresses: "강화된 칼라 정착지" # 7104e1e62a29a6eeb3dc1ad635e62ce6bbbc07ca
-  RICE_oxus_devastation: "옥서스 황폐화" # 36c46f53df5c629efa60e41104801c3720bca6b3
-  RICE_oxus_devastation_desc: "옥서스 강이 최근에 물길을 바꾸면서 이 지역 일부를 범람시켜 지역 경제를 혼란시키고 일부 정착지 주민들이 다른 곳으로 재정착하도록 강요했습니다." # 50ab5fe41f4e5ddc8e9026173467ecbc7004f298
-  RICE_oxus_devastation_mitigated: "옥서스 파괴 완화" # 16cb1f38d58e5661aac0e69cecd6863c9771cf48
-  RICE_oxus_devastation_mitigated_desc: "옥수스 강이 최근 흐름을 바꾸어 이 지역 일부를 범람시켰습니다. 다행히 현지 당국은 주민들을 돕기 위해 최선을 다했기 때문에 지역 경제의 차질은 최소화되었고, 주민들은 비교적 원활하고 질서 있게 재정착할 수 있었습니다." # f3255bd09c29e3abc0f0037d04abe7f9d8b79d41
-  RICE_khwarezm_yazata_worshipped_anahita: "아나히타 숭배자" # b5b942f21f6c07680e8de8dca9cf6f1f10ab6b27
-  RICE_khwarezm_yazata_worshipped_anahita_major: "아나히타의 위대한 숭배자" # 87b2cf8fdfe6e130428d69863a0f7a8679237b11
-  RICE_khwarezm_yazata_worshipped_bahram: "바흐람 숭배자" # a1427d0805eed21faf1f3a8d312846455445d0c2
-  RICE_khwarezm_yazata_worshipped_bahram_major: "바흐람의 위대한 숭배자" # 551496301f4c6ce53a9c0daf73d33f9af6ed6bee
-  RICE_khwarezm_yazata_worshipped_mah: "마흐 숭배자" # cebc97934e95ff9aef237b09d54ddce2a93c5418
-  RICE_khwarezm_yazata_worshipped_mah_major: "마흐의 위대한 숭배자" # 64c9f6d1b7c3ea4fb44bc020a73c6d0011336d1b
-  RICE_khwarezm_yazata_worshipped_mithra: "미트라 숭배자" # f553d3975aca2ae5e6d2821c515d396c59fd5594
-  RICE_khwarezm_yazata_worshipped_mithra_major: "미트라의 위대한 숭배자" # 9fd1bac22f69ccb34f9fe7e2050eb0fdfc210f1b
-  RICE_khwarezm_yazata_worshipped_nana: "나나 숭배자" # 242d3c61a093a47476a6d1933ae05168d24c0ef2
-  RICE_khwarezm_yazata_worshipped_nana_major: "나나의 위대한 숭배자" # c134053eae974ab31427b39956612d743f3b5e81
-  RICE_khwarezm_yazata_worshipped_rashnu: "라슈누 숭배자" # 8c5a14b6ae171feb73e52b1aa1472b9b1e193516
-  RICE_khwarezm_yazata_worshipped_rashnu_major: "라슈누의 위대한 숭배자" # fec6a17d7ccfd8e675af8bc35e6a5a4d3eb0f126
-  RICE_khwarezm_yazata_worshipped_sraosha: "스라오샤 숭배자" # f3118e22ef9575739824a268b3b5311dd2792dc8
-  RICE_khwarezm_yazata_worshipped_sraosha_major: "위대한 스라오샤 숭배자" # c72ed4b331f00f154b9028ff5d886bc1c63b3925
-  RICE_khwarezm_yazata_worshipped_tir: "티르 숭배자" # befa8406a013343aeff8f5b4f2b7306fa874abe8
-  RICE_khwarezm_yazata_worshipped_tir_major: "티르의 위대한 숭배자" # 0bde278a6499e7542a4f4d36f2d6fdeb4f87c52d
-  RICE_khwarezm_yazata_worshipped_wakhsh: "와크시 숭배자" # 6f75d60bcabd841a6737ca86941e874663630ddf
-  RICE_khwarezm_yazata_worshipped_wakhsh_major: "와한의 위대한 숭배자" # af875fc5889472192a1f16bdb0b3ae3b091c064e
-  RICE_khwarezm_yazata_worshipped_siyavash: "시아바시 숭배자" # a34c2f57a5ac7289082965e47ea51588aad9b58d
-  RICE_khwarezm_yazata_worshipped_siyavash_major: "시야바시의 위대한 숭배자" # dd9b0bd458ec752ed4cb31342da7f64828c2ea03
-  RICE_khwarezm_yazata_worshipped_weshparkar: "웨슈파르카르 숭배자" # 6de7143bf3cb1ccf0a72eed413e0cd918756a3d1
-  RICE_khwarezm_yazata_worshipped_weshparkar_major: "위시파르카의 위대한 숭배자" # 5819ad8354fbffc740789a8343b204a46751e5c9
-  RICE_khwarezm_yazata_worshipped_astghik: "아스히크 숭배자" # ddef155915ce1f6c822ec2100fed166ed32eb4a9
-  RICE_khwarezm_yazata_worshipped_astghik_major: "아스트히크의 위대한 숭배자" # 279ccdfb8283007f2fd30ef0380c897c44658f76
-  RICE_khwarezm_yazata_worshipped_barshamin: "바르샤민 숭배자" # c78dd61a843cfc0539d73413531e16b43b8ca013
-  RICE_khwarezm_yazata_worshipped_barshamin_major: "바르샤민의 위대한 숭배자" # c7645cd915ef4a9d98faacb89e9a3ed3a68fac14
-  RICE_khwarezm_yazata_worshipped_tork: "토르크 숭배자" # 2e6416309437770ba7f0a54c8a185dc27b06209a
-  RICE_khwarezm_yazata_worshipped_tork_major: "토르크의 위대한 숭배자" # 10e027cff7a0d47fe5d70379ae34244872e287d7
-  RICE_khwarezm_yazata_worshipped_vahagn: "바하그의 숭배자" # 7903e1dc0db78c546f228442070ebc56765f7381
-  RICE_khwarezm_yazata_worshipped_vahagn_major: "바하그를 숭배하는 위대한 자" # 89f8e86852ef9bf6d508d006afc45c0ddd4649c3
-  RICE_khwarezm_yazata_worshipped_dali: "달리의 숭배자" # de3b98cff91b7e6c86482bb41b96b45061ecab1e
-  RICE_khwarezm_yazata_worshipped_dali_major: "달리의 위대한 숭배자" # d8d035f4c0df849aa2fa2f56a67456fcab9e6c8b
-  RICE_khwarezm_yazata_worshipped_gaim: "가임 숭배자" # 8c7fc4a6dca4589da65aaf1d8911405c6ed42598
-  RICE_khwarezm_yazata_worshipped_gaim_major: "가임의 위대한 숭배자" # b2fa9836060c34c0bf7d5d8db5c41da6c6600973
-  RICE_khwarezm_yazata_worshipped_gatsi: "가치 숭배자" # ec1451ed527d7094b2fdcbd187be3cae8a546543
-  RICE_khwarezm_yazata_worshipped_gatsi_major: "가치 위대한 숭배자" # 1ce309e4a1083fe93e78e6e14fb73402ddefdd34
-  RICE_khwarezm_yazata_worshipped_kopala: "코팔라 숭배자" # 81f7e4526567b1d3ed924dbd87355f4d91525f3e
-  RICE_khwarezm_yazata_worshipped_kopala_major: "코팔라의 위대한 숭배자" # e68837ff5f9f4659793bb0930c5e7692fe51e9a5
-  RICE_khwarezm_yazata_worshipped_zaden: "자덴 숭배자" # 17d150105c085e1dea245c7ea635fc155aaa1307
-  RICE_khwarezm_yazata_worshipped_zaden_major: "자덴의 위대한 숭배자" # fa1c3a47bf8e879af19eea4ff7addcbc2ff50c4e
-  RICE_khwarezm_yazata_cult_center_anahita: "아나히타의 컬트 중심지" # ac7194efd57a98123f848162421423d7ee8c9bd4
-  RICE_khwarezm_yazata_cult_center_anahita_desc: "이 지역은 물과 비옥함의 [yazata|E]인 아나히타의 주요 신앙 중심지로 알려져 있습니다.\n\n#italic 이 지역 [county|E]의 [ruler|E]가 적절한 [yazata|E] [doctrine|E]를 가진 조로아스터교 [faith|E]를 따르고 [yazata|E]를 숭배하기로 [decision|E]를 내리면, 이 [yazata|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻게 됩니다.#!" # 8a83c41e741341ff06b67ca97143aabdf6b032a4
-  RICE_khwarezm_yazata_cult_center_bahram: "바흐람의 컬트 중심지" # 77e2dbbeb271c119b4cb24900af28b62d05e1220
-  RICE_khwarezm_yazata_cult_center_bahram_desc: "이 지역은 승리의 [yazata|E] 바흐람의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [yazata|E] [doctrine|E]를 가진 조로아스터교 [faith|E]를 따르고, [yazata|E]를 숭배하기로 [decision|E]를 내린다면, 이 [yazata|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻을 것입니다.!#" # a4ec95d4b6564552ecb6925425a074919b21f2e4
-  RICE_khwarezm_yazata_cult_center_mah: "마흐의 문화 중심지" # 6fb91b44664c7b22a6f0b88659e34f3ee638b0de
-  RICE_khwarezm_yazata_cult_center_mah_desc: "이 지역은 달의 [야자타|E]인 마흐의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [야자타|E] [doctrine|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E] 숭배 [decision|E]을 내리면 이 [야자타|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻을 수 있습니다.#!" # aed63bdc58141e38e4f792d823814667584c7669
-  RICE_khwarezm_yazata_cult_center_mithra: "미트라교의 문화 중심지" # 631407ab927bd575454dd0635366f6add81c45a9
-  RICE_khwarezm_yazata_cult_center_mithra_desc: "이 지역은 태양, 빛, 정의의 [야자타|E]인 미트라의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [백작령|E]의 [통치자|E]가 적절한 [야자타|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E]를 숭배하기로 [decision|E]하면 해당 [야자타|E]와 관련된 [인물_보정치|E]의 더 나은 버전을 얻게 됩니다.!#" # 73d28f5c522b3a3049b1fd7f2f64874807e63f93
-  RICE_khwarezm_yazata_cult_center_nana: "나나의 숭배 중심지" # 1af95d2a46ba6f7ec198aad6574af58416c769dc
-  RICE_khwarezm_yazata_cult_center_nana_desc: "이 지역은 전쟁과 왕권의 [야자타|E]인 나나의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [백작령|E]의 [통치자|E]가 적절한 [야자타|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E] 숭배 [decision|E]을 내리면, 이 [야자타|E]와 관련된 [인물_모디파이어|E]의 더 나은 버전을 얻게 될 것입니다.!#" # 99478705c0ae581492a08bd87b17ecd705de2395
-  RICE_khwarezm_yazata_cult_center_rashnu: "라슈누의 컬트 중심지" # a36a2d9f87a5886333a4c2367dba8832838f5c52
-  RICE_khwarezm_yazata_cult_center_rashnu_desc: "이 지역은 심판의 [야자타|E] 라슈누의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [야자타|E] [doctrine|E]가 있는 조로아스터교 [faith|E]를 따르고, [야자타|E] 숭배 [decision|E]을 내리면, 이 [야자타|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻을 것입니다.#" # d62d52095532ebdb88d82bed7bce54e1a0268700
-  RICE_khwarezm_yazata_cult_center_sraosha: "스라오샤의 숭배 중심지" # 90956c203281dcb196ca2ee0beb356748a2c49aa
-  RICE_khwarezm_yazata_cult_center_sraosha_desc: "이 지역은 순종의 [yazata|E]인 스라우샤의 주요 신앙 중심지로 알려져 있습니다.\n\n#italic 이 지역의 [지배자|E]가 적절한 [yazata|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [yazata|E]를 숭배하기로 [decision|E]하면, 이 [yazata|E]와 관련된 [인물 수정자|E]의 더 나은 버전을 얻게 됩니다.#!" # 2bfb0a7ad28fc9a3bc957593b21c5a94920600e2
-  RICE_khwarezm_yazata_cult_center_tir: "티르의 종교 중심지" # b5b0a76e7fd05959e5063b3ad570ea46077533a9
-  RICE_khwarezm_yazata_cult_center_tir_desc: "이 지역은 비와 천상의 궁수 [야자타|E] 티르의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [통치자|E]가 적절한 [야자타|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E]를 숭배하기로 [decision|E]하면 해당 [야자타|E]와 관련된 [인물_모디파이어|E]의 더 나은 버전을 얻게 됩니다.!#" # c8b7c41c59314eccebd208ca2b1e488c8986ba0a
-  RICE_khwarezm_yazata_cult_center_wakhsh: "와흐시의 종교 중심지" # d2c453062c7592faae8493ad2877b9b4cb398b3f
-  RICE_khwarezm_yazata_cult_center_wakhsh_desc: "이 지역은 옥서스 강의 박트리아-소그드 [야자타|E]인 와크슈의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [백작령|E]의 [통치자|E]가 적절한 [야자타|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E]를 숭배하기로 [decision|E]하면, 이 [야자타|E]와 관련된 [인물_보정|E]의 더 나은 버전을 얻게 됩니다.#" # 34d3cd2903ab8af9f8e61e349451c965976e7acb
-  RICE_khwarezm_yazata_cult_center_siyavash: "시아바시의 숭배 중심지" # a9ecd7e87820b5921cf89911f3dcad4bba33915e
-  RICE_khwarezm_yazata_cult_center_siyavash_desc: "이 지역은 박트리아-소그디아의 죽음과 재생의 [yazata|E]인 시야바시의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [yazata|E] [doctrine|E]이 있는 조로아스터교 [faith|E]를 따르고 [yazata|E] 숭배 [decision|E]를 내리면 이 [yazata|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻을 수 있습니다.#" # ad31eb4969a44709de484fa7ea0105ecad320929
-  RICE_khwarezm_yazata_cult_center_weshparkar: "웨슈파르카르의 문화 중심지" # 2973e439992bfd7742717c834bf6e0e739189456
-  RICE_khwarezm_yazata_cult_center_weshparkar_desc: "이 지역은 박트리아-소그드인 바람의 [야자타|E]인 웨슈파르카르의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 만약 이 [county|E]의 [ruler|E]가 적절한 [야자타|E] [doctrine|E]가 있는 조로아스터교 [faith|E]를 따르고, [야자타|E] 숭배 [decision|E]을 내린다면, 이 [야자타|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻게 될 것입니다.!#" # 05e0f176396d7845993bcd12ba8cc8c4226c2c70
-  RICE_khwarezm_yazata_cult_center_astghik: "아스티크 신앙 중심지" # 4c62bee543f6ad9bc94eb849c85e7b7741f88b09
-  RICE_khwarezm_yazata_cult_center_astghik_desc: "이 지역은 아름다움과 사랑의 아르메니아 [yazata|E]인 아스트기크의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [yazata|E] [doctrine|E]을 가진 조로아스터교 [faith|E]를 따르고 [yazata|E]를 숭배하기로 [decision|E]하면 해당 [yazata|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻게 됩니다.#!" # 04e03104591a5d7683e5b514e6ee3701bd2a497b
-  RICE_khwarezm_yazata_cult_center_barshamin: "바르샤민 숭배 중심지" # a324edb05911e74c5f3060166251c609615c0dbb
-  RICE_khwarezm_yazata_cult_center_barshamin_desc: "이 지역은 하늘의 아르메니아 [yazata|E]인 바르샤민의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [yazata|E] [doctrine|E]이 있는 조로아스터교 [faith|E]를 따르고 [yazata|E]를 숭배하기 위한 [decision|E]을 내린다면, 이 [yazata|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻게 될 것입니다.!#" # fe0d70db9781ba8639eab59b8d00007979328841
-  RICE_khwarezm_yazata_cult_center_tork: "토르크 문화 중심지" # 1ca050bf97109344d6350be0d3507c41ca6ec9ed
-  RICE_khwarezm_yazata_cult_center_tork_desc: "이 지역은 힘과 용기의 아르메니아 [야자타|E]인 토르크의 주요 컬트 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [통치자|E]가 적절한 [야자타|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E] 숭배 [decision|E]을 내리면 이 [야자타|E]와 관련된 [인물_모디파이어|E]의 더 나은 버전을 얻게 됩니다.!#" # 99c42cf9d4a6b4c8e18eae0494b7d19a022edc5a
-  RICE_khwarezm_yazata_cult_center_vahagn: "바하그n 신앙 중심지" # 1247550ff1c0a1499fe092644b4767e7113479e4
-  RICE_khwarezm_yazata_cult_center_vahagn_desc: "이 지역은 아르메니아의 물과 풍요의 [야자타|E]인 바하근의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 만약 이 [백작령|E]의 [통치자|E]가 적절한 [야자타|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E] 숭배 [decision|E]을 내리면, 이 [야자타|E]와 관련된 [인물_모디파이어|E]의 더 나은 버전을 얻게 됩니다.!#" # 6a82aa3ea949cec8f4c8434c0f232c8162913ebc
-  RICE_khwarezm_yazata_cult_center_dali: "달리의 문화 중심지" # 788f44548c52fee5a99e9b0b9a9c0064cec3081c
-  RICE_khwarezm_yazata_cult_center_dali_desc: "이 지역은 사냥과 여명의 카르트벨리아 [yazata|E]인 달리 숭배의 주요 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [yazata|E] [doctrine|E]를 가진 조로아스터교 [faith|E]를 따르고 [yazata|E]를 숭배하는 [decision|E]를 내리면, 이 [yazata|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻을 수 있습니다.!#" # ff481d88c59b1d0f8a33c2a0ea041827278eb020
-  RICE_khwarezm_yazata_cult_center_gaim: "가임의 컬트 중심지" # 94d14d85854bd4ac15932c6dab8bb5ee15712a91
-  RICE_khwarezm_yazata_cult_center_gaim_desc: "이 지역은 가임, 카르텔리안 은 [yazata|E]와 미트라의 수호자를 위한 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 지역의 [ruler|E]가 적절한 [yazata|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [yazata|E]를 숭배하기로 [decision|E]하면, 이 [yazata|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻게 됩니다.#!" # 4000d9e4bca8c6d83d806140bbcf302718c3c685
-  RICE_khwarezm_yazata_cult_center_gatsi: "가치 문화 중심지" # c80eef78c5a03052ea9af5f03a1ae35c2c770814
-  RICE_khwarezm_yazata_cult_center_gatsi_desc: "이 지역은 카르트벨리족의 황금색 [야자타|E]이자 미트라의 시종인 가치의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [야자타|E] [doctrine|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E]를 숭배하기로 [decision|E]을 내리면 이 [야자타|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻게 됩니다.#!" # 7890843afddefc24559c21a5c87bbfe56400ee34
-  RICE_khwarezm_yazata_cult_center_kopala: "코팔라 종교 중심지" # 66d02f24a4a9f9337b73e791698484f3cd3b9dac
-  RICE_khwarezm_yazata_cult_center_kopala_desc: "이 지역은 번개와 악마 살해자인 카르트벨리 [야자타|E]인 코팔라의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [야자타|E] [doctrine|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E]를 숭배하는 [decision|E]을 내리면, 이 [야자타|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻게 됩니다.#!" # c992740c9e978ad433dcb25ee893ec33d95694b7
-  RICE_khwarezm_yazata_cult_center_zaden: "자덴의 종교 중심지" # 0680ec26403009b691cc2dd3a56063206394851f
-  RICE_khwarezm_yazata_cult_center_zaden_desc: "이 지역은 풍요의 카르트벨리아 [야자타|E]인 자덴의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [통치자|E]가 적절한 [야자타|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E]를 숭배하는 [decision|E]을 내리면, 이 [야자타|E]와 관련된 [인물_모디파이어|E]의 더 나은 버전을 얻게 됩니다.#!" # 4d23f9d73ea37de30fecb322f5abd78bc69b2bbb
-  RICE_khwarezm_worship_yazata: "야자타 숭배" # dedccda0e1b558c7d28bf50505980d56432849a2
-  RICE_khwarezm_worship_yazata_tooltip: "[야자타|E]를 숭배하고 유용한 [character_modifier|E]를 얻으십시오" # 075cb64def16589bc9c1887eb5648e9122e0d2a5
-  RICE_khwarezm_worship_yazata_desc: "[ROOT.Char.GetFaith.HighGodName]를 최고 신으로 여기지만, 경건한 [ROOT.Char.GetFaith.GetAdherentNamePlural]는 또한 종교 의식에서 [yazatas|E]를 숭배하는 것도 중요합니다. 실제로, [yazata|E]라는 단어 자체가 "숭배받을 만한" 의미를 지닙니다." # 89e6c043906b13f3404ed82f66e2b2ef17b4b1b4
-  RICE_khwarezm_worship_yazata_effect_tooltip_1: "[faith|E]의 [야자타|E] [교리|E]에 따라 숭배할 [야자타|E]를 여러 가지 선택할 수 있습니다." # f1dcc6c82922dc3e09b30cad1961082cadfb5787
-  RICE_khwarezm_worship_yazata_effect_tooltip_2: "[신앙도|E] 보너스 외에도, 어떤 [야자타|E]를 숭배하느냐에 따라 #P 유익한#! [인물_보정|E]을 #V 10#!년 동안 얻게 됩니다" # da17dd69c0526371d7927c153ef12b3fadbafa21
-  RICE_khwarezm_worship_yazata_effect_tooltip_3: "[faith|E]에 $rice_zoroastrian_sassanian_doctrine_name$ [교리|E]가 있으므로 약간의 [명성|E]을 얻고 #V @gold_icon! [GetPlayer.MakeScope.ScriptValue('RICE_yazata_pay_bonus_value')|0]#!을 지불하여 더 나은 버전의 [보정치|E]를 얻을 수 있습니다." # 9405aae6256b1d7b3a44a456733306b413ee7234
-  RICE_khwarezm_worship_yazata_effect_tooltip_4: "[faith|E]에 $rice_zoroastrian_armenian_doctrine_name$ [교리|E]가 있기 때문에, [county|E]에 적절한 [조로아스터교_숭배_중심지|E]가 있으면 추가 [명성|E]과 더 나은 버전의 [modifier|E] #bold if#!를 얻을 수 있습니다." # 47b61ed97fc716a927cabab6aad927372313356e
-  RICE_khwarezm_worship_yazata_effect_tooltip_5: "[faith|E]에 $rice_zoroastrian_eastern_doctrine_name$ [교리|E]가 있으므로, [county|E]에 올바른 [조로아스터교_숭배_중심지|E]가 있다면 추가 [명성|E]과 더 나은 버전의 [modifier|E] #bold 이프#!를 얻을 수 있습니다." # 0c682fe8f751d1f6c04fe7dfe66bcb65cc8934c4
-  RICE_khwarezm_worship_yazata_confirm: "제례를 준비하십시오!" # 587de9ee93d0681c2a85acf59760f2bfe8ebe883
-  RICE_khwarezm_worship_yazata_context_tooltip: "#emphasis 역사적 배경:#! 조로아스터교에서 "야자타"는 "숭배받을 가치가 있는 자"를 의미합니다. 다신교적 맥락에서는 신들이고, 유일신교적 맥락에서는 최고신의 천사 또는 발현입니다. 역사적으로 이러한 존재들에 대한 숭배는 종교적인 이유뿐만 아니라 정치적으로도 중요했습니다." # ab2bc8fcfbb22de4f3c52c659bd1edde08c30686
-  RICE_khwarezm_worship_yazata_type: "야자타를 숭배할 대상으로 선택하십시오" # 947337b7bbe2922f7823cf7931b78201b73531ce
-  RICE_khwarezm_worship_yazata_type_gui: "숭배할 [yazata|E]를 선택하십시오" # 542942d7fa8433d72eb4bcc682bfd4ba21b73e3e
-  RICE_yazata_anahita_option: "#Bold #V 아나히타#!#!\n$RICE_yazata_anahita_option_desc$" # a043942e3a5b95e36e2028a1b6557914f7ee2243
-  RICE_yazata_anahita_option_desc: "물의 [yazata|E]와 풍요" # 53a8234c3ee014ae5cb5dcd2c996d55ecaafb234
-  RICE_yazata_anahita_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_anahita').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_anahita_major').GetNameWithTooltip]" # ad392ee443eee6a76d95e8461b69536ecf371ca5
-  RICE_yazata_bahram_option: "#Bold #V 바흐람#!#!\n$RICE_yazata_bahram_option_desc$" # 154392ed42d16ab2347926d9378a34e3019589b1
-  RICE_yazata_bahram_option_desc: "승리의 [yazata|E]" # 3e461b4d79c763433e1e88260cadf4959e5990f7
-  RICE_yazata_bahram_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_bahram').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_bahram_major').GetNameWithTooltip]" # f31ef25bbd74b52178bf8838eaf2d3de8e52796c
-  RICE_yazata_mah_option: "#Bold #V 마흐#!#!\n$RICE_yazata_mah_option_desc$" # 0f92cff1b99bb0a020013e5d42888dc57ac3f68c
-  RICE_yazata_mah_option_desc: "달의 [yazata|E]" # b0092bba73b45aa2613b55093d73c035712f86e7
-  RICE_yazata_mah_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_mah').GetNameWithTooltip]\n업그레이드된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_mah_major').GetNameWithTooltip]" # 51f210a1da7da2c7fcf848f2983ac56be53b454d
-  RICE_yazata_mithra_option: "#Bold #V 미트라#!#!\n$RICE_yazata_mithra_option_desc$" # 1862b28232cda6a4c5db901a1e53af60d9446a5f
-  RICE_yazata_mithra_option_desc: "태양, 빛, 정의의 [yazata|E]" # c9826a95d58d32e0dafba60943182d9bdebe9684
-  RICE_yazata_mithra_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_mithra').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_mithra_major').GetNameWithTooltip]" # 351a68cca452afdb516aa6a3e42a753b83650d75
-  RICE_yazata_nana_option: "#Bold #V 나나#!#!\n$RICE_yazata_nana_option_desc$" # af287d29a6b35b5345885d9b7f3f08bc68f52949
-  RICE_yazata_nana_option_desc: "전쟁과 왕권의 [yazata|E]" # a6de48421b56416fe2a0f6ff21c5c5b95c0789de
-  RICE_yazata_nana_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_nana').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_nana_major').GetNameWithTooltip]" # 12477bcc0b1b2d286243dfa1c6ee69a2617f4476
-  RICE_yazata_rashnu_option: "#Bold #V 라슈누#!#!\n$RICE_yazata_rashnu_option_desc$" # ae866f86b2cd9f69bcaa38de9f77ae9bf7d0ae25
-  RICE_yazata_rashnu_option_desc: "심판의 [yazata|E]" # e66bf0fb411b3928423cc950b747e46cf48b7060
-  RICE_yazata_rashnu_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_rashnu').GetNameWithTooltip]\n업그레이드된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_rashnu_major').GetNameWithTooltip]" # 69e05f98495cb84b7f3e3d8a69b31a0fe0b0ddee
-  RICE_yazata_sraosha_option: "#Bold #V 스라오샤#!#!\n$RICE_yazata_sraosha_option_desc$" # 4c6f11c391d9d11a0629a44b7d87227179b48da3
-  RICE_yazata_sraosha_option_desc: "복종의 [yazata|E]" # 80d5d912428843cd6270f2b9dddb5596ad0e5746
-  RICE_yazata_sraosha_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_sraosha').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_sraosha_major').GetNameWithTooltip]" # bec481dc363ad4f19f9f4cadd007a569c1cc5083
-  RICE_yazata_tir_option: "#Bold #V 티르#!#!\n$RICE_yazata_tir_option_desc$" # e7a828b7ff625e65615ca239d200ea5c8372ab71
-  RICE_yazata_tir_option_desc: "비와 천상의 궁수 [yazata|E]" # cba978773460de25b2a6a513a344c9eab04f6f22
-  RICE_yazata_tir_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_tir').GetNameWithTooltip]\n업그레이드된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_tir_major').GetNameWithTooltip]" # 38ac6ff762fcb4c939970cd3f8b94ca5c4708569
-  RICE_yazata_siyavash_option: "#Bold #V 시야바쉬#!#!\n$RICE_yazata_siyavash_option_desc$" # 159a3eeed3a9fe99ae193a4701205bf0233ee0b5
-  RICE_yazata_siyavash_option_desc: "죽음과 재생의 [yazata|E]" # ccbf6d4dbca74d6bd5c3389a5d14779efc88c821
-  RICE_yazata_siyavash_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_siyavash').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_siyavash_major').GetNameWithTooltip]" # b94aeb04f68e5ba50e895acf74d469b77be4ef93
-  RICE_yazata_wakhsh_option: "#Bold #V 와크쉬#!#!\n$RICE_yazata_wakhsh_option_desc$" # 1597fe1a22904bd168bf0826685be094f7b20496
-  RICE_yazata_wakhsh_option_desc: "옥수스 강[yazata|E]" # 1a2058eb677d8e5afec699f600242a5d58a6f978
-  RICE_yazata_wakhsh_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_wakhsh').GetNameWithTooltip]\n향상된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_wakhsh_major').GetNameWithTooltip]" # 0e9b8bba6a77a621c18c3271072d96f2fc04c307
-  RICE_yazata_weshparkar_option: "#Bold #V 웨슈파르카르#!#!\n$RICE_yazata_weshparkar_option_desc$" # cde402850523c3d64e579d7e4832f14b92129916
-  RICE_yazata_weshparkar_option_desc: "바람의 [yazata|E]" # 79de300ebad03e3ab2d6b4e3e426230be520755a
-  RICE_yazata_weshparkar_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_weshparkar').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_weshparkar_major').GetNameWithTooltip]" # 60bfec45be73535b779d60c5e2fd1a6a4c430960
-  RICE_yazata_astghik_option: "#Bold #V 아스히크#!#!\n$RICE_yazata_astghik_option_desc$" # 8d23669a806b86139bf4fb04359dc02da5b81943
-  RICE_yazata_astghik_option_desc: "아름다움과 사랑의 [yazata|E]" # 66710dbf9a40d44620dde88294fbcbaff1c6b530
-  RICE_yazata_astghik_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_astghik').GetNameWithTooltip]\n업그레이드된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_astghik_major').GetNameWithTooltip]" # 1bb7651c346238ff20825b5953cb787d86648dc3
-  RICE_yazata_barshamin_option: "#Bold #V 바르샤민#!#!\n$RICE_yazata_barshamin_option_desc$" # b76ae52a3ee6cd78ad9820006ce8aed2e1759d43
-  RICE_yazata_barshamin_option_desc: "하늘의 [yazata|E]" # fcc5ed9cfd8d4cdd8a052cc5cc86eda97d8782d4
-  RICE_yazata_barshamin_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_barshamin').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_barshamin_major').GetNameWithTooltip]" # 3a3ac9ad7f162316aca9bae272ec5c16add0598f
-  RICE_yazata_tork_option: "#Bold #V 토르크#!#!\n$RICE_yazata_tork_option_desc$" # 31cf021e042a069775c96c869e7c9b80ad933040
-  RICE_yazata_tork_option_desc: "힘과 용기의 [yazata|E]" # b796b379552d9052d91bff0123f32657348c1476
-  RICE_yazata_tork_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_tork').GetNameWithTooltip]\n업그레이드된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_tork_major').GetNameWithTooltip]" # efcc44a3786f33259c01cf8f47916f5e12ad0dec
-  RICE_yazata_vahagn_option: "#Bold #V 바하근#!#!\n$RICE_yazata_vahagn_option_desc$" # ccb90997a0dc06f6388b26e539583a76661bcab9
-  RICE_yazata_vahagn_option_desc: "물의 [yazata|E]와 풍요" # 53a8234c3ee014ae5cb5dcd2c996d55ecaafb234
-  RICE_yazata_vahagn_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_vahagn').GetNameWithTooltip]\n업그레이드된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_vahagn_major').GetNameWithTooltip]" # 7afd4471b5cf66fe983f08e5b00f423eb9465a23
-  RICE_yazata_dali_option: "#Bold #V 달리#!#!\n$RICE_yazata_dali_option_desc$" # ea156e8fc07779b61e9913b11927709f1eeefdcf
-  RICE_yazata_dali_option_desc: "사냥과 새벽의 [yazata|E]" # 74c17ba40aedaf9a7dcc75f97b1a557e017e18ee
-  RICE_yazata_dali_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_dali').GetNameWithTooltip]\n업그레이드된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_dali_major').GetNameWithTooltip]" # 2b9e31e4e3c3b44ac236ebd8df4cfda5704f34e2
-  RICE_yazata_gaim_option: "#Bold #V 가임#!#!\n$RICE_yazata_gaim_option_desc$" # e96a25d256d0d06807c867bc764d57e0cddae88b
-  RICE_yazata_gaim_option_desc: "은 [야자타|E]와 미트라의 수행원" # d3d754334ae5bb794b02e4e76396396cb08713a8
-  RICE_yazata_gaim_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_gaim').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_gaim_major').GetNameWithTooltip]" # 1dce223b6861a90ba5912df348b635057205fee4
-  RICE_yazata_gatsi_option: "#Bold #V 가치#!#!\n$RICE_yazata_gatsi_option_desc$" # afc0eb68cb604c50f2a60dfa26b6490cef5b916b
-  RICE_yazata_gatsi_option_desc: "황금 [yazata|E]와 미트라의 시종" # 368045968aca680346156e96186bb214334a6cf9
-  RICE_yazata_gatsi_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_gatsi').GetNameWithTooltip]\n업그레이드된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_gatsi_major').GetNameWithTooltip]" # 8c9a786d044adfd986ded9f85041aa9a0045d917
-  RICE_yazata_kopala_option: "#Bold #V 코팔라#!#!\n$RICE_yazata_kopala_option_desc$" # 1a4aa175d392f31ea3f3dbb597a476f2ef2f85fe
-  RICE_yazata_kopala_option_desc: "번개와 악마 살해자 [yazata|E]" # 9570f6989d70490b5383b74ef37b70c60da9bb38
-  RICE_yazata_kopala_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_kopala').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_kopala_major').GetNameWithTooltip]" # d4933dbbadb76c85898cd8f6a1bbcc4820027ede
-  RICE_yazata_zaden_option: "#Bold #V 자덴#!#!\n$RICE_yazata_zaden_option_desc$" # 814942544275b227d96419f6d2f9e825bbabee68
-  RICE_yazata_zaden_option_desc: "풍요의 [yazata|E]" # 4dc77dabfb6bdef68d171a88e44c7b0fbbd53b91
-  RICE_yazata_zaden_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_zaden').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_zaden_major').GetNameWithTooltip]" # 413fb3fde90e8c050e45f28de6012ebcbe8b91a9
-  RICE_khwarezm_destroy_cult_center: "이단 조로아스터교 컬트 중심지 탄압" # b81c69f004ea50e9f49031019a86a1f8e01a5f3b
-  RICE_khwarezm_destroy_cult_center_tooltip: "우리 [realm|E] 내의 [zoroastrian_cult_centers|E]은 우리 [faith|E]에 대한 모욕입니다!" # 59243c929a9150c20004da651a61022a4bb5f6ca
-  RICE_khwarezm_destroy_cult_center_desc: "내 [domain|E]에는 거짓 신에게 바쳐진 여러 [zoroastrian_cult_centers|E]가 있습니다. 사원들을 파괴하는 한이 있더라도 이교도적인 행위를 하지 않도록 막아야 합니다!" # 2ea4e0b1c583f126c4ea7ae4f1b478c71f0f3070
-  RICE_khwarezm_destroy_cult_center_effect_tooltip_1: "당신의 [domain|E] 내의 [zoroastrian_cult_center|E]가 있는 모든 [counties|E]는 관련된 [county_modifier|E]를 잃게 됩니다." # 0bef03e074112caebe6365ee50a3058373f2cdc0
-  RICE_khwarezm_destroy_cult_center_effect_tooltip_2: "당신의 [교리|E]를 따르지 않는 [조로아스터교_신앙_중심지|E]가 있는 당신의 [county|E] 내 모든 [백작령|E]은 해당 [백작령_수정치|E]를 잃게 됩니다" # a0ad5b7ee36f36aa56d730951e4dc21743d7b5b2
-  RICE_khwarezm_destroy_cult_center_effect_tooltip_3: "이 행동으로 #V [gold_i|E] [GetPlayer.MakeScope.ScriptValue('RICE_khwarezm_destroy_cult_center_value')|0]#! 및 #V [piety_i|E] [GetPlayer.MakeScope.ScriptValue('RICE_khwarezm_destroy_cult_center_value')|0]#!을 얻습니다." # 9c7abcee9cfa98dd155a6b693a336ae20ded560b
-  RICE_khwarezm_destroy_cult_center_confirm: "거짓 우상을 무너뜨리십시오!" # df973ca2d1989e16b8c4c9c6060264252ecbdea6
-  RICE_khwarezm_destroy_cult_center_context_tooltip: "$RICE_khwarezm_establish_cult_center_context_tooltip$" # dbd3a8a4139219861fbebf2e5803a87f310f474a
-  RICE_destroy_yazata_cult_center_req: "최소한 하나의 [county|E]에 파괴할 수 있는 [zoroastrian_cult_centers|E]가 있습니다." # f6a9adaab119af8d4513a3386a8fafe6a0950bec
-  RICE_establish_yazata_no_other_cult_centers_req: "[작위|E]의 [수도|E]가 있는 [공작령|E]의 [백작령|E]에는 [조로아스터교_종교_중심지|E]가 없습니다." # d8fe889f45af9205c38725a13925042644af2aa3
-  RICE_khwarezm_destroy_cult_center_first_person_sassanian_tooltip: "소유한 모든 [county|E] 중 [zoroastrian_cult_centers|E]가 귀하의 [yazata|E] [doctrine|E]를 따르지 않는 경우 해당 [county_modifier|E]가 제거됩니다." # ea72ca7c5a757cf4c95636711b18422299b731c0
-  RICE_khwarezm_destroy_cult_center_third_person_sassanian_tooltip: "[RICE_yazata_cult_destroyer.GetTitledFirstNameNoTooltip]이 소유한 모든 [county|E] 중 당신의 [yazata|E] [doctrine|E]를 따르지 않는 [zoroastrian_cult_centers|E]가 있는 지역은 해당 [county_modifier|E]가 제거됩니다." # 0e55639aeaec861718f7ef5d3461de18ccbb86a5
-  RICE_khwarezm_destroy_cult_center_first_person_normal_tooltip: "[조로아스터교_종교_중심지|E]가 있는 소유한 모든 [백작령|E]에서 해당 [백작령_수정치|E]가 제거됩니다" # d8e5e83aba13335750c39973fc94b1fcf2082360
-  RICE_khwarezm_destroy_cult_center_third_person_normal_tooltip: "[RICE_yazata_cult_destroyer.GetTitledFirstNameNoTooltip]가 소유한 모든 [zoroastrian_cult_centers|E]가 있는 [county|E]에서 해당 [county_modifier|E]가 제거됩니다" # 868d2c1398b979896ca774af6f3de20b05b38af8
-  RICE_khwarezm_establish_cult_center: "현지 조로아스터교 컬트 중심지 설립" # cc38873764c1612dfb5f777686756e120309f722
-  RICE_khwarezm_establish_cult_center_tooltip: "우리의 [capital|E]은 [zoroastrian_cult_centers|E]의 본거지가 될 수 있습니다" # 3e5b8412747adff16c33d7003e83fe820877d388
-  RICE_khwarezm_establish_cult_center_desc: "숭배할 만한 [yazatas|E]는 많지만, 저는 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]에서 더 열렬히 숭배해야 할 존재가 있다고 믿습니다. 따라서 이 지역을 특정 [yazata|E]를 위한 [zoroastrian_cult_center_short|E]로 바꾸고자 합니다." # 82d160ae7b906363989aba62cdeb918a91dd9b8d
-  RICE_khwarezm_establish_cult_center_effect_tooltip_1: "새로운 [zoroastrian_cult_center_short|E]의 중심으로 삼을 [yazata|E] 하나를 선택합니다" # 104874fd667b121cc8a8f00ad5f47988efa5ad39
-  RICE_khwarezm_establish_cult_center_effect_tooltip_2: "#P 유익한#! [county_modifier|E] 효과가 [THIS.Char.GetCapitalLocation.GetTitle.GetNameNoTier]에 적용됩니다" # 3beb25325e6e30f97e9fbffbfc79752608f1d4fa
-  RICE_khwarezm_establish_cult_center_effect_tooltip_3: "이 [zoroastrian_cult_center_short|E]의 [THIS.Char.GetFaith.GetReligion.GetAdjective] [rulers|E]은 이 [zoroastrian_cult_center_short|E]의 [yazata|E]를 선택하고 올바른 [yazata|E] [doctrine|E]를 가지고 있다면, [yazatas|E]를 숭배하는 [decision|E]을 내릴 때 추가 혜택을 얻을 것입니다." # 6e86ac6e47299b1132638cb21ee5ffee7179d80f
-  RICE_khwarezm_establish_cult_center_confirm: "종교 중심지 설립" # 74506395f9c70181885fd25c3469653de3d54ece
-  RICE_khwarezm_establish_cult_center_context_tooltip: "#emphasis 역사적 배경:#! 소그디아와 호라즘과 같이 이란 세계 주변부에서 행해지던 조로아스터교의 다양한 형태는 사산 제국의 중심지보다 훨씬 더 분산되어 있었으며, 고대 그리스 도시 국가들의 다신교 숭배를 연상시키는 방식으로 특정 도시 국가 및 소왕국을 중심으로 전개되었습니다. 예를 들어, 나나는 소그드 주요 도시인 판지켄트의 수호 여신이었으며, 어떤 면에서는 아후라 마즈다보다 더 두드러지게 숭배되기도 했습니다. 이러한 종교적 관행은 더욱 중앙집권화되고 조직화된 사산 정통파와는 대조적으로, 아랍 정복과 함께 찾아온 대규모의 정치적, 문화적 격변에서 살아남지 못했습니다." # f8b669a6205d9147e37d98e21380deff1fe5dded
-  RICE_khwarezm_establish_cult_center_type: "숭배 중심지를 세울 야자타를 선택하세요." # b4071babb7f565c382e8b6899b49764e54d04e13
-  RICE_khwarezm_establish_cult_center_type_gui: "[야자타|E]를 선택하여 [조로아스터교_컬트_중심지_약칭|E]를 건설하십시오." # 78b03c5d229533984c9a9c3ee8261bd8402d00a2
-  RICE_yazata_anahita_cult_center_option: "#Bold #V 아나히타#!#!\n$RICE_yazata_anahita_cult_center_option_desc$" # d511f9cbf887dd90e9b6aa3ac3cd232079713d27
-  RICE_yazata_anahita_cult_center_option_desc: "물의 [yazata|E]와 풍요" # 53a8234c3ee014ae5cb5dcd2c996d55ecaafb234
-  RICE_yazata_anahita_cult_center_option_tooltip: "당신의 [capital|E]은(는) [GetModifier('RICE_khwarezm_yazata_cult_center_anahita').GetNameWithTooltip] [county_modifier|E]를 영구적으로 얻습니다." # e87d7077a464b9833070b5e633b4b61a1e079467
-  RICE_yazata_bahram_cult_center_option: "#Bold #V 바흐람#!#!\n$RICE_yazata_bahram_cult_center_option_desc$" # 6a0601c27e60fe9aa05b1d62d5fed535b6058abd
-  RICE_yazata_bahram_cult_center_option_desc: "승리를 가져다주는 [yazata|E]" # 08f81ea109c3e61a58239e309fdc662420fdf3fb
-  RICE_yazata_bahram_cult_center_option_tooltip: "귀하의 [capital|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_bahram').GetNameWithTooltip] [county_modifier|E]가 영구히 부여됩니다" # 3c5f7953512e3bcfe75349af5de177ef45fb18b3
-  RICE_yazata_mah_cult_center_option: "#Bold #V 마흐#!#!\n$RICE_yazata_mah_cult_center_option_desc$" # 2df276bfa2348b049e969b6a147c2f0b9087c51d
-  RICE_yazata_mah_cult_center_option_desc: "달의 [yazata|E]" # b0092bba73b45aa2613b55093d73c035712f86e7
-  RICE_yazata_mah_cult_center_option_tooltip: "[수도|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_mah').GetNameWithTooltip] [county_modifier|E]가 영구적으로 부여됩니다" # 4131e33b9c2b4e1256a2df805b5938c6a5db6e38
-  RICE_yazata_mithra_cult_center_option: "#Bold #V 미트라#!#!\n$RICE_yazata_mithra_cult_center_option_desc$" # 2864c73a4c1822c91d22f82fee597eb34201e670
-  RICE_yazata_mithra_cult_center_option_desc: "태양, 빛, 정의의 [yazata|E]" # c9826a95d58d32e0dafba60943182d9bdebe9684
-  RICE_yazata_mithra_cult_center_option_tooltip: "당신의 [수도|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_mithra').GetNameWithTooltip] [백작령_modifier|E]가 영구적으로 부여됩니다." # 96f16a18479e1fd420a06d61b043e3af3076ec8e
-  RICE_yazata_nana_cult_center_option: "#Bold #V 나나#!#!\n$RICE_yazata_nana_cult_center_option_desc$" # fefa4a50d561476bc146fcab6e5e6e5a2647c492
-  RICE_yazata_nana_cult_center_option_desc: "전쟁과 왕권의 [yazata|E]" # a6de48421b56416fe2a0f6ff21c5c5b95c0789de
-  RICE_yazata_nana_cult_center_option_tooltip: "귀하의 [수도|E]는 영구적으로 [GetModifier('RICE_khwarezm_yazata_cult_center_nana').GetNameWithTooltip] [주_수정자|E]를 얻습니다." # 0b69732f61face1bae1b5dee806e784624d2c075
-  RICE_yazata_rashnu_cult_center_option: "#Bold #V 라슈누#!#!\n$RICE_yazata_rashnu_cult_center_option_desc$" # 309cd048235a93e3a8cc20d83f0713a0c45d570a
-  RICE_yazata_rashnu_cult_center_option_desc: "심판의 [yazata|E]" # e66bf0fb411b3928423cc950b747e46cf48b7060
-  RICE_yazata_rashnu_cult_center_option_tooltip: "귀하의 [capital|E]은(는) [GetModifier('RICE_khwarezm_yazata_cult_center_rashnu').GetNameWithTooltip] [county_modifier|E]를 영구적으로 획득합니다." # e6582db00a5f25b88536ab5ee2ab98b789518af9
-  RICE_yazata_sraosha_cult_center_option: "#Bold #V 스라오샤#!#!\n$RICE_yazata_sraosha_cult_center_option_desc$" # e523b0064690a7c80b66ce8807e6d8b1f7b04a28
-  RICE_yazata_sraosha_cult_center_option_desc: "순종의 [yazata|E]" # 80d5d912428843cd6270f2b9dddb5596ad0e5746
-  RICE_yazata_sraosha_cult_center_option_tooltip: "당신의 [capital|E]은(는) 영구적으로 [GetModifier('RICE_khwarezm_yazata_cult_center_sraosha').GetNameWithTooltip] [county_modifier|E]을(를) 얻습니다" # bceb64e230127cb375a468c86df0c9d0b20b680b
-  RICE_yazata_tir_cult_center_option: "#Bold #V 티르#!#!\n$RICE_yazata_tir_cult_center_option_desc$" # ed6c0bd85b5c959aeccac02c9efc7bb53ca338b7
-  RICE_yazata_tir_cult_center_option_desc: "비와 천상의 궁수 [yazata|E]" # cba978773460de25b2a6a513a344c9eab04f6f22
-  RICE_yazata_tir_cult_center_option_tooltip: "당신의 [capital|E]은(는) [GetModifier('RICE_khwarezm_yazata_cult_center_tir').GetNameWithTooltip] [county_modifier|E]를 영구적으로 획득합니다" # a6696236afd75f833a0c2b1752a7b08bbb7da8e3
-  RICE_yazata_siyavash_cult_center_option: "#Bold #V 시야바시#!#!\n$RICE_yazata_siyavash_cult_center_option_desc$" # 51e2dbe11318a97465adcc8d8004aa58e130aec7
-  RICE_yazata_siyavash_cult_center_option_desc: "죽음과 재생의 [yazata|E]" # ccbf6d4dbca74d6bd5c3389a5d14779efc88c821
-  RICE_yazata_siyavash_cult_center_option_tooltip: "귀하의 [capital|E]는 영구적으로 [GetModifier('RICE_khwarezm_yazata_cult_center_siyavash').GetNameWithTooltip] [county_modifier|E]를 획득합니다." # 4ecde5f3752555b587572c6e3d56802cb32dc7fa
-  RICE_yazata_wakhsh_cult_center_option: "#Bold #V 와흐슈#!#!\n$RICE_yazata_wakhsh_cult_center_option_desc$" # 9c6d3e4cfc81a2a521f25f232b4ad8161ff1ee7e
-  RICE_yazata_wakhsh_cult_center_option_desc: "옥수스 강[yazata|E]" # 1a2058eb677d8e5afec699f600242a5d58a6f978
-  RICE_yazata_wakhsh_cult_center_option_tooltip: "[capital|E]이(가) [GetModifier('RICE_khwarezm_yazata_cult_center_wakhsh').GetNameWithTooltip] [county_modifier|E](을)를 영구적으로 얻습니다." # f4e351b8c6ebd096f19d04f7a8b4f43a1a93214b
-  RICE_yazata_weshparkar_cult_center_option: "#Bold #V 웨슈파르카르#!#!\n$RICE_yazata_weshparkar_cult_center_option_desc$" # 0a15a955a5e552d36957b32674f619ff818e6a57
-  RICE_yazata_weshparkar_cult_center_option_desc: "바람의 [yazata|E]" # 79de300ebad03e3ab2d6b4e3e426230be520755a
-  RICE_yazata_weshparkar_cult_center_option_tooltip: "당신의 [capital|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_weshparkar').GetNameWithTooltip] [county_modifier|E] 영구 효과가 추가됩니다" # b9217c6b303826767a572a5d0d3f7f48e40c2e7c
-  RICE_yazata_astghik_cult_center_option: "#Bold #V 아스트히크#!#!\n$RICE_yazata_astghik_cult_center_option_desc$" # 24e84e61b3cdde0ff56931cbb0db0d4df06ccafd
-  RICE_yazata_astghik_cult_center_option_desc: "아름다움과 사랑의 [yazata|E]" # 66710dbf9a40d44620dde88294fbcbaff1c6b530
-  RICE_yazata_astghik_cult_center_option_tooltip: "당신의 [capital|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_astghik').GetNameWithTooltip] [county_modifier|E]가 영구적으로 부여됩니다." # 925e9fb552bad5a2dddfe4777eb7b276a332da70
-  RICE_yazata_barshamin_cult_center_option: "#Bold #V 바르샤민#!#!\n$RICE_yazata_barshamin_cult_center_option_desc$" # d32a57cf1380fa04dd1260a34fc447b108a28e84
-  RICE_yazata_barshamin_cult_center_option_desc: "하늘의 [yazata|E]" # fcc5ed9cfd8d4cdd8a052cc5cc86eda97d8782d4
-  RICE_yazata_barshamin_cult_center_option_tooltip: "당신의 [capital|E]은(는) [GetModifier('RICE_khwarezm_yazata_cult_center_barshamin').GetNameWithTooltip] [county_modifier|E]를 영구적으로 획득합니다" # 2c44b0c05b2b79d643e723cc52fb94bd3a011a8a
-  RICE_yazata_tork_cult_center_option: "#Bold #V 토르크#!#!\n$RICE_yazata_tork_cult_center_option_desc$" # cc8cfe5b11109923910a3b194ff6f1f8205eaa3f
-  RICE_yazata_tork_cult_center_option_desc: "힘과 용기의 [yazata|E]" # b796b379552d9052d91bff0123f32657348c1476
-  RICE_yazata_tork_cult_center_option_tooltip: "귀하의 [capital|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_tork').GetNameWithTooltip] [county_modifier|E] 영구적으로 부여" # faed9f195d0db0aa63db1056a37efd8ae8b6f4ac
-  RICE_yazata_vahagn_cult_center_option: "#Bold #V 바하그#!#!\n$RICE_yazata_vahagn_cult_center_option_desc$" # e5db070f60f0952b3721892b6e0c1d9b3fa0387d
-  RICE_yazata_vahagn_cult_center_option_desc: "물의 [yazata|E]와 풍요" # 53a8234c3ee014ae5cb5dcd2c996d55ecaafb234
-  RICE_yazata_vahagn_cult_center_option_tooltip: "귀하의 [capital|E]은(는) 영구적으로 [GetModifier('RICE_khwarezm_yazata_cult_center_vahagn').GetNameWithTooltip] [county_modifier|E] 효과를 얻습니다." # 3cf6454cdfeca863224f719b5cf499cef9c4d8f4
-  RICE_yazata_dali_cult_center_option: "#Bold #V 다리#!#!\n$RICE_yazata_dali_cult_center_option_desc$" # 6155c2cd51c5ac183bd7e8dd939f3350ef080537
-  RICE_yazata_dali_cult_center_option_desc: "사냥과 새벽의 [yazata|E]" # 74c17ba40aedaf9a7dcc75f97b1a557e017e18ee
-  RICE_yazata_dali_cult_center_option_tooltip: "[수도|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_dali').GetNameWithTooltip] [county_modifier|E] 영구 적용" # 94898afa9b357f5919296381d57d073eddc322a6
-  RICE_yazata_gaim_cult_center_option: "#Bold #V 가임#!#!\n$RICE_yazata_gaim_cult_center_option_desc$" # de5ba643dec5165a7405d4cc4fdfa26523e9d70d
-  RICE_yazata_gaim_cult_center_option_desc: "은 [야자타|E]와 미트라의 수행원" # d3d754334ae5bb794b02e4e76396396cb08713a8
-  RICE_yazata_gaim_cult_center_option_tooltip: "귀하의 [수도|E]는 영구적으로 [GetModifier('RICE_khwarezm_yazata_cult_center_gaim').GetNameWithTooltip] [지방_수정자|E]를 얻습니다." # 9e5c354b64c5127b3cda485b73e158ef1a78e9e7
-  RICE_yazata_gatsi_cult_center_option: "#Bold #V 가치#!#!\n$RICE_yazata_gatsi_cult_center_option_desc$" # edac2710045b78419bf441ad5a80df47a8d7e80c
-  RICE_yazata_gatsi_cult_center_option_desc: "황금 [yazata|E]와 미트라의 시종" # 368045968aca680346156e96186bb214334a6cf9
-  RICE_yazata_gatsi_cult_center_option_tooltip: "[수도|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_gatsi').GetNameWithTooltip] [county_modifier|E] 영구 효과 부여" # 96d747c7d9651af4510c80bccbac1ba77cf7fa36
-  RICE_yazata_kopala_cult_center_option: "#Bold #V 코팔라#!#!\n$RICE_yazata_kopala_cult_center_option_desc$" # 11fea0afe85d0fdb2243c7990e0ce82fab7936dc
-  RICE_yazata_kopala_cult_center_option_desc: "번개와 악마 살해자 [yazata|E]" # 9570f6989d70490b5383b74ef37b70c60da9bb38
-  RICE_yazata_kopala_cult_center_option_tooltip: "[capital|E]의 영구적으로 [GetModifier('RICE_khwarezm_yazata_cult_center_kopala').GetNameWithTooltip] [county_modifier|E]를 얻습니다" # c3a1ae79c8d4ea4a4742d667a7f007e61088309c
-  RICE_yazata_zaden_cult_center_option: "#Bold #V 자덴#!#!\n$RICE_yazata_zaden_cult_center_option_desc$" # 776546534bb78e4a8b74242816698a483d441852
-  RICE_yazata_zaden_cult_center_option_desc: "풍요의 [yazata|E]" # 4dc77dabfb6bdef68d171a88e44c7b0fbbd53b91
-  RICE_yazata_zaden_cult_center_option_tooltip: "[capital|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_zaden').GetNameWithTooltip] [county_modifier|E] 영구 효과 획득" # 303a62e7f0a58eaa7a52e27d3347f671944e4d8d
-  RICE_khwarezm_kala_decision: "[ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]의 칼라스 강화" # 66f8eaf8f307112804d1f58c6fce88d7dcb58357
-  RICE_khwarezm_kala_decision_tooltip: "[domain|E] 내의 [counties|E]가 유익한 방어 [county_modifiers|E]를 얻습니다" # 0fcd8cbb16f1b792fd08efa0345ce7a2745eedcb
-  RICE_khwarezm_kala_decision_desc: "우리 영토에는 고대부터 최근에 지어진 것까지, [GetGeographicalRegion('RICE_lower_oxus_region').GetName]에서 유래한 [ROOT.Char.GetCulture.GetName] 양식으로 지어진 #italic 칼라#! 정착지나 요새가 많이 흩어져 있습니다. 칼라는 우리 왕국의 방어와 경제에 필수적이므로 기존 칼라를 계속 유지하거나 확장하고 필요에 따라 새로운 칼라를 건설해야 합니다." # e52b1fee77b2367a5492dfe3cf7e8bc31dede3a5
-  RICE_khwarezm_kala_decision_effect_tooltip_1: "이 [decision|E]은 소유한 [백작령|E] 수와 [요새_수준|E]에 따라 #V [금_아이콘|E][GetPlayer.MakeScope.ScriptValue('RICE_khwarezm_kala_fortress_cost_value')|0]#!의 비용이 듭니다." # b7bfb62cfd6fcb93d23bf761694d9c96d91e7553
-  RICE_khwarezm_kala_decision_confirm: "이 지역을 강화하세요!" # a55cf0705542cf4b77bc742d65bdb6c96386bb7b
-  RICE_khwarezm_kala_decision_context_tooltip: "#emphasis 역사적 배경:#! #italic kala#! (또는 #italic qala#! 또는 #italic qalat#!)라는 용어는 단순히 다양한 중동 사회에서 요새 또는 성을 의미합니다. 그러나 중앙아시아, 특히 호라즘에서는 고대에 정착지, 요새, 농촌 농경지 사이의 경계를 모호하게 만드는 독특한 형태의 #italic kala#!가 발전했습니다. 그것들은 공격으로부터 방어력을 제공하고 소위 실크로드의 이 지역에서 농업과 무역의 성장을 촉진했습니다." # 2ec269afb65369179bc5554f08f575f253aa181a
-  khwarezm.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0001.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0001.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0002.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0002.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0002.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0003.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0003.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0003.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0004.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0004.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0004.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0005.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0005.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0005.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0006.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0006.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0006.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0007.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0007.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0007.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0008.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0008.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0008.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0009.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0009.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0009.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0010.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0010.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0010.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0011.t: "미친 강의 변덕" # 66426e71264836785e37ded7804674b40ff4af61
-  khwarezm.0011.desc: "수 세기 동안 사람들은 아무다리야 강 또는 옥서스 강을 "미친 강"이라 불러왔습니다. 이 강은 이 지역의 생명 유지에 필수적이지만, 종종 갑자기, 때로는 서서히 물길을 바꾸거나 범람하는 등 엄청나게 혼란스럽기도 합니다.\n\n이 강은 건물을 비롯하여 도시 전체를 파괴하기도 합니다. [kath.GetNameNoTier]의 알-피르 요새 폐허와 같은 거대한 구조물조차도 미친 강의 분노를 피할 수 없습니다. 방금 알-피르의 마지막 잔해가 강물에 휩쓸려 갔다는 소식을 들었습니다.\n\n다행히 요새는 수년 동안 거의 버려진 상태였기 때문에 인명 피해와 재산 피해는 미미했습니다. 그럼에도 불구하고, 강물이 이 폐허를 서서히 침식해 온 것을 고려할 때 언젠가 이런 날이 올 것을 알고 있었지만, 이 장엄하고 고대의 요새가 이런 방식으로 사라지는 것을 보니 슬픕니다." # 1481255b0778ec88a01dfd67b4fa16a19c581862
-  khwarezm.0011.a: "그 성채의 운명은 불가피했지, 그렇지 않나?" # a4a504cad5b04e93807e85dce38f952bbeecc013
-  khwarezm.0012.t: "[ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]의 칼라스" # 95048ef2f6b05982aa3f3fa9c7d58e06ae28aa65
-  khwarezm.0012.desc: "우리 [ROOT.Char.GetCulture.GetCollectiveNoun]는 전통적으로 우리 자신을 보호하고 고향에서 성장과 무역을 촉진하기 위해 독특한 양식의 #italic 칼라스#!를 건설하고 유지해 왔습니다. 이러한 장소는 정착지, 요새, 농경지가 혼합된 형태이며 [ROOT.Char.GetPrimaryTitle.GetName]의 지속적인 번영을 보장하는 데 중요합니다.\n\n어쨌든, 저는 제 영토 내의 다양한 #italic 칼라스#!를 여러 가지 방법으로 강화하라는 명령을 내렸습니다. 일부는 수리 및 기타 유지 보수 작업을 받게 됩니다. 다른 곳은 개조되거나 심지어 확장될 것입니다. 방어력이 약한 지역에서는 새로운 #italica 칼라#! 구조물이 건설될 수도 있습니다." # a41b45286c787685c0ad298ee069128e9034ffea
-  khwarezm.0012.a: "장기적으로 보면 이익이 될 것입니다." # d1997d3262d0a9dbcd75f813e8c3cbae4b014aca
-  khwarezm.0013.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0013.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0013.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0014.t: "$khwarezm.0011.t$" # ee0f9fcc5a617ffdf6f7e5ace7c718a4a3e4bc10
-  khwarezm.0014.desc: "[kath.GetNameNoTier]의 알피르 요새는 수년 동안 자랑스럽게 서 있었습니다. 이 아름답고 강력한 요새는 수 마일 떨어진 곳에서도 보이며, 지역 통치자들의 힘과 위신의 상징 역할을 했습니다. 하지만 유감스럽게도 이 요새는 "미친 강"이라는 별명을 가진 아무다리야 강 또는 옥수스 강 옆에 위치해 있습니다. 옥수스 강은 유로를 바꾸거나 불규칙하게 범람하는 경향이 있기 때문입니다.\n\n수년 동안 요새는 옥수스 강의 물결에 의한 여러 차례의 공격을 견뎌냈지만, 요새의 방어 시설은 점차 닳아 없어졌습니다. 요새의 주요 구조는 여전히 서 있지만 부분적으로 파괴되었고, 지역 당국은 더 이상 대규모로 사용하기에 안전하지 않다고 판단하여 행정부는 마을의 다른 구조물로 이전했습니다.\n\n그래도 최소한 요새는 여전히 서 있습니다. 자주 사용되지는 않더라도 주변 주민들에게 영감과 용기를 계속 줄 것입니다." # b06986a791d92810ef55888bef366de802033483
-  khwarezm.0014.a: "이런 일이 결국 일어난 것도 놀랍지 않습니다." # 4e7846f6bd6565f57f8954cb801db40ce1128e3c
-  khwarezm.0014.tooltip: "요새의 유적은 먼 미래의 어느 시점에 옥서스 강에 의해 파괴될 수도 있습니다." # ec4a876620d897f3df6b3c5b102b5a0c737d4f1d
-  khwarezm.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0020.t: "야자타 신 숭배" # 11644c28d85e4feab6c793238c1093b469988ef4
-  khwarezm.0020.desc.intro: "저는 [ROOT.Char.GetFaith.HouseOfWorship]에 도착하여 [ROOT.Char.GetFaith.GetAdjective] 숭배 의식에 참여합니다.\n\n오늘, 저는 숭배합니다" # c555bc61bc2e15c50f5fe7f57553db6502d4444b
-  khwarezm.0020.desc.anahita: "아나히타, 물과 풍요의 야자타." # 1aecbe186001264dd28be3a110e2746a8f0566e9
-  khwarezm.0020.desc.bahram: "바흐람, 승리의 야자타." # aff9c47752590d1c715d4fca3fe2573ed309bf65
-  khwarezm.0020.desc.mah: "달의 야자타, 마흐." # 6514d314e7167e1d7764b9ab6bb21df404fcc765
-  khwarezm.0020.desc.mithra: "미트라, 태양, 빛, 정의의 야자타." # 7f7d4ffb254c3977e87836e856eb796de3494d62
-  khwarezm.0020.desc.nana: "나나, 전쟁과 왕권의 야자타." # 44e02e47e8388fba1c176471372d04d00e0e1871
-  khwarezm.0020.desc.rashnu: "라슈누, 심판의 야자타." # 2ab4d33d7a610d20c9f896f132e4f47f15f5c548
-  khwarezm.0020.desc.sraosha: "스라오샤, 순종의 야자타." # 7d9b3ff2b2030bc15baf9167b5fb93ac9965a294
-  khwarezm.0020.desc.tir: "티르, 비와 천상의 궁수 야자타." # c5c8728c86d6f6cc7679c72024457c6b037236f0
-  khwarezm.0020.desc.siyavash: "사야바시, 죽음과 부활의 야자타." # d7ed49eab990314dbe1a772f8901c33a169c6264
-  khwarezm.0020.desc.wakhsh: "옥수스 강의 야자타인 와크쉬." # 42d635d638341ac1c9d49d38862417bd0299ba7d
-  khwarezm.0020.desc.weshparkar: "웨쉬파르카르, 바람의 야자타." # 9a2b9c48dfde2ca8a3725b8c2f32bee02c444080
-  khwarezm.0020.desc.astghik: "아스티히크, 아름다움과 사랑의 야자타." # 3f80f32c80a463438832f0ceb05a94947cd24b09
-  khwarezm.0020.desc.barshamin: "바르샤민, 하늘의 야자타." # 65dad9580a32a2c1321bd5f63b3f0431662031e0
-  khwarezm.0020.desc.tork: "토르크, 힘과 용기의 야자타." # 09475726c45dceb76a1d0423151bd01da0748d25
-  khwarezm.0020.desc.vahagn: "바하근, 물과 풍요의 야자타." # 60d3c11d9ee34b3311f03dac3f15c5a0339f0cc8
-  khwarezm.0020.desc.dali: "달리, 사냥과 새벽의 야자타." # 7144689eb711486cb8296bbe7d5e3e6a3d8dbf87
-  khwarezm.0020.desc.gaim: "가임, 은빛 야자타이자 미트라의 시종." # 7220819107e93adc63a0a875fa7a5214149369d1
-  khwarezm.0020.desc.gatsi: "황금 야자타이자 미트라의 수행원인 가치." # 4e8c57ccfac9ac252ebb528cfa42973d9c94ab60
-  khwarezm.0020.desc.kopala: "코팔라, 번개의 야자타" # ff7e12f43102cd9a9c584ce70cb536f431df0866
-  khwarezm.0020.desc.zaden: "자덴, 풍요의 야자타." # 8e5d7151a69e4243362170592c51487baf17afaf
-  khwarezm.0020.desc.conclusion: "의식이 끝나면, 모든 일이 순조롭게 진행되도록 노력해 준 [ROOT.Char.GetFaith.PriestNeuterPlural]들에게 감사를 표합니다. 저는 큰 영감을 받았고, 선한 생각, 선한 말, 선한 행동과 더불어 야자타에 대한 저의 숭배가 결실을 맺기를 바랍니다." # eed48ecbff6c596e5beb193f8565c42f27d43d67
-  khwarezm.0020.a: "[ROOT.Char.GetFaith.HighGodName]와 야자타들을 찬양하라!" # 5e355fe4c4a0143be2b8f447b6b71d18c0af343c
-  khwarezm.0020.b.sassanian: "제가 대부분의 의식보다 더 성대한 예배 의식으로 만들었습니다!" # d828c59efab83931d9815ffb382497978eff23dd
-  khwarezm.0020.b.cult: "이 신성한 장소에서 이 야자타를 숭배하는 것은 좋습니다." # 4b3accf5832a0836e8ccf0a2788079bdb1b9ced4
-  khwarezm.0021.t: "야자타 숭배 중심지" # ddb1a5369a54c9b7705a5ac9b69bbc47ec226a8b
-  khwarezm.0021.desc.intro: "오랫동안 [capital.GetNameNoTier]는 저를 포함하여 특히 헌신적인 수많은 독실한 [ROOT.Char.GetFaith.GetAdherentNamePlural]의 고향이었습니다." # 6d1432bccf199c456e3f4046baeb34c05639c7ba
-  khwarezm.0021.desc.anahita: "아나히타, 물과 풍요의 야자타." # 1aecbe186001264dd28be3a110e2746a8f0566e9
-  khwarezm.0021.desc.bahram: "바흐람, 승리의 야자타." # aff9c47752590d1c715d4fca3fe2573ed309bf65
-  khwarezm.0021.desc.mah: "마, 달의 야자타." # 6514d314e7167e1d7764b9ab6bb21df404fcc765
-  khwarezm.0021.desc.mithra: "미트라, 태양, 빛, 정의의 야자타." # 7f7d4ffb254c3977e87836e856eb796de3494d62
-  khwarezm.0021.desc.nana: "나나, 전쟁과 왕권의 야자타." # 44e02e47e8388fba1c176471372d04d00e0e1871
-  khwarezm.0021.desc.rashnu: "라슈누, 심판의 야자타." # 2ab4d33d7a610d20c9f896f132e4f47f15f5c548
-  khwarezm.0021.desc.sraosha: "스라오샤, 순종의 야자타." # 7d9b3ff2b2030bc15baf9167b5fb93ac9965a294
-  khwarezm.0021.desc.tir: "티르, 비와 천상의 궁수 야자타." # c5c8728c86d6f6cc7679c72024457c6b037236f0
-  khwarezm.0021.desc.siyavash: "사야바시, 죽음과 부활의 야자타." # d7ed49eab990314dbe1a772f8901c33a169c6264
-  khwarezm.0021.desc.wakhsh: "옥수스 강의 야자타인 와크쉬." # 42d635d638341ac1c9d49d38862417bd0299ba7d
-  khwarezm.0021.desc.weshparkar: "웨쉬파르카르, 바람의 야자타." # 9a2b9c48dfde2ca8a3725b8c2f32bee02c444080
-  khwarezm.0021.desc.astghik: "아스트기크, 아름다움과 사랑의 야자타." # 3f80f32c80a463438832f0ceb05a94947cd24b09
-  khwarezm.0021.desc.barshamin: "바르샤민, 하늘의 야자타." # 65dad9580a32a2c1321bd5f63b3f0431662031e0
-  khwarezm.0021.desc.tork: "토르크, 힘과 용기의 야자타." # 09475726c45dceb76a1d0423151bd01da0748d25
-  khwarezm.0021.desc.vahagn: "바하근, 물과 풍요의 야자타." # 60d3c11d9ee34b3311f03dac3f15c5a0339f0cc8
-  khwarezm.0021.desc.dali: "달리, 사냥과 새벽의 야자타." # 7144689eb711486cb8296bbe7d5e3e6a3d8dbf87
-  khwarezm.0021.desc.gaim: "가임, 은빛 야자타이자 미트라의 시종." # 7220819107e93adc63a0a875fa7a5214149369d1
-  khwarezm.0021.desc.gatsi: "황금 야자타이자 미트라의 수행원인 가치." # 4e8c57ccfac9ac252ebb528cfa42973d9c94ab60
-  khwarezm.0021.desc.kopala: "코팔라, 번개의 야자타" # ff7e12f43102cd9a9c584ce70cb536f431df0866
-  khwarezm.0021.desc.zaden: "자덴, 풍요의 야자타." # 8e5d7151a69e4243362170592c51487baf17afaf
-  khwarezm.0021.desc.conclusion: "[capital.GetNameNoTierNoTooltip]을 이 야자타의 주요 신앙 중심지로 개조하기로 결정했습니다. 지역 자원이 종교 건물 건설에 재배치되어 [ROOT.Char.Custom('DefaultPriestTitlePlural')]와 장인이 유입되고, 전반적으로 [capital.GetNameNoTierNoTooltip]이 [ROOT.Char.GetFaith.GetName]의 요새가 되도록 최선을 다할 것입니다.\n\n그렇게 함으로써, 멀리 떨어진 곳에 있는 [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]은 참으로 숭배할 가치가 있는 이 신성을 숭배하기 위해 여기에 올 수 있을 것입니다." # 8d69c843a5063daabedd8bf787038cca849881e9
-  khwarezm.0021.a: "위대한 야자타를 위한 위대한 성소!" # c93ddae93d808db0ac16b0643a51ab7eef078c47
-  khwarezm.0022.t: "컬트 중심지 파괴" # 3814bd59c13b273e5a80a62466cf698efb775bc6
-  khwarezm.0022.desc.intro: "제 영토의 여러 곳에 [zoroastrianism.GetAdjective] 숭배 중심지가 있으며, 그곳에서 [zoroastrianism.GetNameNoTooltip]을 믿는 자들이 모여 거짓 우상에 불과한 자칭 야자타를 숭배하고 기도합니다." # a12d1c488f595cb769352bb2a6bd4165af228807
-  khwarezm.0022.desc.zoroastrian: "이들 컬트 중심지의 사람들은 야자타를 숭배하는 방식에 부적절한 점이 없으며, 이는 [ROOT.Char.GetFaith.GetAdjective] 종교 의식과 유사하다고 주장하지만, 이는 모두 거짓말입니다. 그들의 이단적인 관행은 참된 종교와 모순되며, 잘 속는 [ROOT.Char.GetFaith.GetAdherentNamePlural]을 혼란스럽게 하고, 부도덕하고 파괴적인 사상을 조장하며, 우리의 정당한 통치에 대한 반란을 조장합니다." # 515c97516d0cc5381a2728cc2cae340a800ae217
-  khwarezm.0022.desc.non_zoroastrian: "이교도 [zoroastrianism.GetAdjective]의 관습은 물론 [ROOT.Char.GetFaith.GetName] [ROOT.Char.GetFaith.ReligiousText]에서 가르치는 신성한 진리에 대한 모욕입니다. 이러한 예배 장소는 [ROOT.Char.GetFaith.HighGodName]의 진정한 가르침과 모순되고, 부도덕하고 파괴적인 사상을 조장하며, 우리의 정의로운 통치에 대한 반란을 조장합니다." # 99d41f63cd682b332c3c891d4c49158fbba7c2f2
-  khwarezm.0022.desc.conclusion: "따라서, 저는 제 영토 내의 불쾌한 이단 중심지를 본질적으로 파괴하라는 명령을 내렸습니다. 모든 종교 구조물은 해체되고 그 재산은 약탈될 것입니다. 이곳 주민들은 앞으로 불법적이고 정통적이지 않은 종교 행위에 참여하는 것이 금지될 것입니다." # 929ca5d886c82499d91d6b293b71e2c2c6175e50
-  khwarezm.0022.a: "진실이 승리하리라!" # 1611f49f2979733f6ba453d58f2a2162bb62d23d
-  khwarezm.0023.t: "#bold $province$에서 영감을 받은 결단#!\n\n역사적 배경: $ruler.GetTitledName$이 [GetGeographicalRegion('world_asia_central').GetName]에서 가장 강력한 통치자 중 하나가 되면서 그들에게는 중요한 결단이 주어집니다. 그들은 자신들의 왕국을 안정화시키고 장차 다가올 일들을 대비하기 위해 수도를 이전해야 합니다." # c83428ab92435156ac60480eaf0622a8fb1e2fa9
-  khwarezm.0023.desc.intro: "[RICE_yazata_cult_destroyer.GetTitledFirstNamePossessive]의 영지에는 [zoroastrianism.GetAdjective] 컬트 중심지가 여러 곳에 있으며, [zoroastrianism.GetNameNoTooltip]을 믿는 자들이 소위 야자타에게 예배하고 기도하기 위해 모입니다. 하지만 [RICE_yazata_cult_destroyer.GetFirstNameNoTooltip]의 생각으로는 이러한 야자타는 거짓 우상에 불과합니다." # dc1017731dfccec21252c22d925eec31a46f9fa3
-  khwarezm.0023.desc.zoroastrian: "[RICE_yazata_cult_destroyer.GetFirstNameNoTooltip]도 [zoroastrianism.GetNameNoTooltip]의 한 갈래를 따르고 있지만, [RICE_yazata_cult_destroyer.GetSheHe]는 [RICE_yazata_cult_destroyer.GetHerHis]가 이단적이라고 여기는 행위에 대한 애정이 없습니다. [RICE_yazata_cult_destroyer.GetHerHis]의 생각에는 그것이 진정한 종교와 모순되고, 잘 속는 [ROOT.Char.GetFaith.GetAdherentNamePlural]을 혼란스럽게 하며, 부도덕하고 파괴적인 사상을 조장하고, [RICE_yazata_cult_destroyer.GetHerHis]의 정당한 통치에 대한 반란을 조장한다고 여깁니다." # 758b793f5554984aef70274cefd44a85092917d1
-  khwarezm.0023.desc.non_zoroastrian: "[RICE_yazata_cult_destroyer.GetFaith.GetAdherentName]로서, [RICE_yazata_cult_destroyer.GetFirstNameNoTooltip]는 [RICE_yazata_cult_destroyer.GetHerHis] 의견으로 [RICE_yazata_cult_destroyer.GetFaith.HighGodName]의 진정한 가르침과 모순되고, 부도덕하고 파괴적인 사상을 조장하며, [RICE_yazata_cult_destroyer.GetHerHis] 통치에 대한 반란을 조장하는 모든 것에 맞서 싸우는 것을 [RICE_yazata_cult_destroyer.GetHerHis] 의무로 여깁니다." # ea0499e9177cf5a435e04903952b6199d65d03e0
-  khwarezm.0023.desc.conclusion: "따라서, [RICE_yazata_cult_destroyer.GetFirstNameNoTooltip]는 [RICE_yazata_cult_destroyer.GetHerHis] 영역 내의 불법적인 종교 중심지를 완전히 파괴할 것을 명령했습니다. 모든 종교 건물은 해체되고 그 부는 약탈될 것이며, 앞으로는 지역 주민들이 비정통적인 불법적인 종교 행위를 할 수 없게 될 것입니다." # 6e41537de02f0d65ec8bf54b22fb0e86a8ab51c8
-  khwarezm.0023.a.cult: "오늘은 암울한 날이로다…." # 0c0100691b2efd822568ad7705d18c4629810702
-  khwarezm.0023.a.not_cult: "흥미로운 이야기군요…." # 3fc1da0c0e60b1404d6508b77041cfe47072bbe4
-  khwarezm.0024.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0024.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0024.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0025.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0025.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0025.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0026.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0026.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0026.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0027.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0027.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0027.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0028.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0028.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0028.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0030.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0030.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0030.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0031.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0031.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0031.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0032.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0032.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0032.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0033.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0033.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0033.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0034.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0034.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0034.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0035.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0035.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0035.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0036.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0036.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0036.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0037.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0037.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0037.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0038.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0038.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0038.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0039.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0040.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0040.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0040.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0041.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0041.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0041.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0042.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0042.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0042.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0043.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0043.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0043.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0044.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0044.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0044.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0045.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0045.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0045.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0046.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0046.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0046.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0047.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0047.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0047.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0050.t: "옥수스 정착지 재배치" # dd6dc3001d10a8207b2c3d2b1cd17a3701f90b39
-  khwarezm.0050.desc: "옥서스 강둑은 항상 범람하기 쉬웠습니다. 현지인들이 "미친 강"이라고 부르는 이유이기도 합니다.\n\n하지만 최근에 [county.GetNameNoTier] 지역에서 특히 심각한 홍수가 발생했습니다. 주민들은 여러 정착지에 안전한 곳으로 이주해야 했고, 그곳의 관리들은 혼란스러워지기 전에 상황을 처리하는 데 도움이 될 수 있도록 지역 행정에 자금을 지원해 달라고 간청하고 있습니다." # 7875eb75dddbf21125d7c1823add7901317f07f4
-  khwarezm.0050.a: "그들은 필요한 자금을 얻을 것입니다!" # 56cbd4cb10f77294afb2c0f34772771e9d15ec7b
-  khwarezm.0050.b: "지금은 어떤 도움도 줄 수 없습니다." # 43afaa2f11b6b61c3320600ed6f7922d8d18bdbe
-  khwarezm.0051.t: "옥서스 강가의 기도" # a4150b5c31429ccca2f54a847078d43ab945b0f4
-  khwarezm.0051.desc: "옥서스 강은 이로운 만큼이나 위험합니다. 때때로 "미친 강"이라고 불리는 이 강은 예측할 수 없이 범람하거나 경로를 바꿔 지역 주민들의 삶에 부정적인 영향을 미칩니다.\n\n따라서 지역 [ROOT.Char.GetFaith.GetAdherentNamePlural] 사이에는 매년 강이 원활하게 흐르도록 [ROOT.Char.GetFaith.PantheonTerm]에게 기도하는 전통이 있습니다. 그러나 일부 [ROOT.Char.Custom('DefaultPriestTitlePlural')]은 이러한 관행을 지지하지만 다른 [ROOT.Char.Custom('DefaultPriestTitlePlural')]은 이러한 의식이 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 교리에 위배된다고 비난합니다.\n\n어쨌든, 저는 방금 저명한 [ROOT.Char.Custom('DefaultPriestTitle')]로부터 이러한 의식 중 하나에 참여하라는 초대를 받았습니다. 이것은 지역 주민들에게 호감을 얻을 수 있는 좋은 기회가 될 수 있지만, 반면에 다른 [ROOT.Char.Custom('DefaultPriestTitlePlural')]은 저의 참여를 좋게 보지 않을 수도 있습니다." # d920726c6197127665f270186257b50bac74527a
-  khwarezm.0051.a: "이 의식에 참여하는 데에는 관심이 없습니다." # 6efe4d8b37c30e7dba380b97b6e6676b366b1bef
-  khwarezm.0051.b: "강이 원활하게 흐르도록 기도해야 합니다." # d5943b154721e28f92a3bb3d0847521e1c2035ce
-  khwarezm.0052.t: "웅장한 고대 유적" # add5debaf5a78c25a5e65d5441e45a9447e14b36
-  khwarezm.0052.desc: "수 세기에 걸쳐 [GetGeographicalRegion('RICE_lower_oxus_region').GetName]의 많은 지역에 #italic kala#! 요새가 건설되었습니다. 옥수스 강을 따라 영토를 가진 사람으로서 저는 이러한 요새에 익숙하며, 제 영토의 방어를 강화하기 위해 가끔씩 일부 요새를 개조하기도 했습니다.\n\n최근에는 옥수스 강변 시골을 여행할 기회가 있었는데, 그러던 중 많은 오래된 #italic kala#! 유적을 발견했습니다. 이 유적들은 너무 풍화되어 수리하여 사용할 수 있는 상태는 아니지만, 예전에는 얼마나 웅장했을지 상상할 수 있습니다!" # 66df1d89345eb8f97e3dd7e6e7d15f7e73da881b
-  khwarezm.0052.a: "정말로 장관이군요." # abefb500e7ceb325fb7c479eea56b456f4dea002
-  khwarezm.0053.t: "미친 강의 악취" # 78510c82704cf1cf388be23edbe3b9ecb47810d9
-  khwarezm.0053.desc: "오늘 저의 궁정에 저의 영토를 대부분 여행한 유명한 여행자가 찾아왔습니다. 저는 그가 본 곳들에 대해 어떻게 생각하는지 궁금해서 물어보았습니다.\n\n그 여행자는 전반적으로 좋은 말을 해주었습니다. 예를 들어 그는 제 영토에서 장인들이 생산한 예술 작품의 질이나 일부 지역 주민들이 [ROOT.Char.GetFaith.HighGodName]에 대해 가진 위대한 헌신을 칭찬했습니다.\n\n하지만 그는 제 영토, 특히 [GetGeographicalRegion('RICE_lower_oxus_region').GetName] 지역 근처의 정착지에 큰 불만을 가지고 있었습니다.\n\n"솔직히 말씀드리면," 그는 제게 말했습니다. "그 마을들은 끔찍한 오물로 가득 차 있습니다! 악취가 견딜 수 없을 정도입니다! 옥수스 강의 끊임없는 범람으로 인한 것이라 누구의 잘못도 아니라는 것을 알지만, 사람들이 어떻게 그런 환경에서 살 수 있는지 모르겠습니다!"" # 09e1f2efe11fc2ca6f9e6b228b244b7abd55c4fe
-  khwarezm.0053.a: "저도 어떻게 해야 할지 모르겠어요. 그래서 궁궐에 있는 거고요!" # d0d143fa2a0aa51051633027b134da37d3217735
-  khwarezm.0053.b: "우리 백성은 옥서스 강이 변덕스러운 여주인이라 할지라도 열심히 일합니다." # ce88852f78b98bbd9b11f03e1eaf14cc0660c263
-  khwarezm.0054.t: "시아부쉬 왕조" # 679931945667735e362bc819bdb7f0408fcd9ee0
-  khwarezm.0054.desc: "전설에 따르면 [GetGeographicalRegion('RICE_lower_oxus_region').GetName]를 따라 흐르는 호라즘의 원래 왕들은 알렉산더 대왕 시대보다 천 년도 더 전에 전설적인 시야바시의 아들인 전설적인 케이 호스로의 후손이라고 합니다.\n\n그 당시 이른바 시야부쉬드 왕조는 스텝 지역으로 세력을 확장하고 그곳의 여러 부족을 정복하여 번영하는 땅을 개발하고 많은 위대한 도시와 성을 건설했다고 합니다.\n\n물론 이 이야기가 진실인지 확신하지 못하는 사람들도 있습니다. 알렉산더 대왕 이전 시대는 아주 오래전이며, 옥서스 강을 따라 내 영토에도 고대 요새의 폐허가 많이 있지만, 이 요새가 원래 시야바시의 후손에 의해 건설된 것인지 아닌지는 누가 알 수 있겠습니까?" # 283b62808a37581232c0dea84a15ef5d0b0459db
-  khwarezm.0054.a: "분명 저 요새들은 영광스러운 왕들의 유산일 것입니다!" # 1353df380960ed10a1614247e50722065727bbf2
-  khwarezm.0054.b: "이 왕들이 정말로 존재했는지 의심스럽습니다." # f5ecfd7f2007a36c4c6e730098be6c8101a0ba10
-  khwarezm.0055.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0055.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0055.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0056.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0056.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0056.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0057.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0057.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0057.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0058.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0058.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0058.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0059.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0059.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0059.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0060.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0060.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0060.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0061.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0061.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0061.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0062.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0062.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0062.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0063.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0063.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0063.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0064.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0064.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0064.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0065.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0065.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0065.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0066.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0066.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0066.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  khwarezm.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  RICE_lower_oxus_region: "하옥수스" # 8763882131296662365
+  RICE_lower_oxus_geographical_req: "[GetGeographicalRegion('RICE_lower_oxus_region').GetName] [region|E]의 [county|E]를 소유하고 있습니다" # 12335616173883135931
+  RICE_every_county: "소유한 모든 [county|E]" # 6927015692653563380
+  activity_yazata_worship: "야자타 숭배 의식" # 11250220564139654975
+  activity_yazata_worship_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 야자타 숭배 의식" # 3247853702825136528
+  building_type_RICE_khwarezm_al_fir_fortress: "알피르 요새의 폐허" # 6403917438243264074
+  building_type_RICE_khwarezm_al_fir_fortress_desc: "전설에 따르면 $c_kath$에 있는 위대한 알피르 요새는 아프리그 왕조의 창시자들이 지었다고 합니다. 이 요새는 "미친 강"이라는 별명을 가진 아무다리야 또는 옥수스 강 옆에 있는데, 현지인들은 강이 끊임없이 범람하거나 경로를 바꾸기 때문이라고 합니다. 오랜 세월 동안 오래된 카트의 많은 부분이 강에 의해 파괴되었고, 정기적으로 사용되지 않는 성채도 곧 파괴될 것이라고 많은 사람들이 두려워합니다. 그럼에도 불구하고 폐허가 된 상태에도 불구하고 성은 여전히 인상적인 광경이며, 멀리서도 볼 수 있습니다.\n\n@warning_icon! #X 이 [building|E]은 옥수스 강에 의해 점차 파괴되고 있습니다. 앞으로 파괴될 가능성이 높습니다.#!" # 6949405459602954060
+  building_RICE_khwarezm_al_fir_fortress: "$building_type_RICE_khwarezm_al_fir_fortress$" # 9183932951962834940
+  building_RICE_khwarezm_al_fir_fortress_desc: "$building_type_RICE_khwarezm_al_fir_fortress_desc$" # 4026011520264182940
+  building_type_RICE_khwarezm_al_fir_fortress_TFE: "알-피르 요새" # 8266848531727121400
+  building_type_RICE_khwarezm_al_fir_fortress_TFE_desc: "전설에 따르면, $c_kath$의 알피르 요새는 아프리그 왕조의 창시자들이 지었다고 합니다. 이 요새는 현지인들이 끊임없이 범람하거나 경로를 바꾸기 때문에 "미친 강"이라고 부르는 아무다리야 강 또는 옥서스 강 옆에 자리 잡고 있습니다. 건물이 현재는 튼튼하게 서 있지만, 미친 강이 시간이 지남에 따라 점차적으로 파괴할 것이라는 우려가 있습니다.\n\n@warning_icon! #X 이 [building|E]은 옥서스 강에 의해 점차적으로 파괴되고 있습니다. 미래에는 폐허가 될 가능성이 높습니다.#!" # 3706432194143934806
+  building_RICE_khwarezm_al_fir_fortress_TFE: "$building_type_RICE_khwarezm_al_fir_fortress_TFE$" # 18010486972701675731
+  building_RICE_khwarezm_al_fir_fortress_TFE_desc: "$building_type_RICE_khwarezm_al_fir_fortress_TFE_desc$" # 5408570425986627217
+  RICE_khwarezm_the_mad_river: "미친 강" # 4472090856818119545
+  RICE_khwarezm_the_mad_river_desc: "아무 다리아 또는 옥수스 강은 세계의 위대한 강 중 하나입니다. 비옥한 강둑은 주변 지역의 번영에 기여하지만, 특히 [GetGeographicalRegion('RICE_lower_oxus_region').GetName] 지역을 따라 흐름을 자주 바꾸고 범람하기 때문에 "미친 강"으로도 불립니다. - 때로는 점진적으로, 때로는 갑작스럽게 - 이에 따라 주민들은 종종 마을 전체를 이전시키고, 외국인들은 그렇지 않으면 번영하는 도시에서 홍수로 인한 더러운 환경을 비웃습니다." # 17318932198603869564
+  RICE_khwarezm_kala_fortresses: "강화된 칼라 정착지" # 10608404164954762931
+  RICE_oxus_devastation: "옥서스 황폐화" # 11846899616564437906
+  RICE_oxus_devastation_desc: "옥서스 강이 최근에 물길을 바꾸면서 이 지역 일부를 범람시켜 지역 경제를 혼란시키고 일부 정착지 주민들이 다른 곳으로 재정착하도록 강요했습니다." # 2590273570014617700
+  RICE_oxus_devastation_mitigated: "옥서스 파괴 완화" # 10431679342973889990
+  RICE_oxus_devastation_mitigated_desc: "옥수스 강이 최근 흐름을 바꾸어 이 지역 일부를 범람시켰습니다. 다행히 현지 당국은 주민들을 돕기 위해 최선을 다했기 때문에 지역 경제의 차질은 최소화되었고, 주민들은 비교적 원활하고 질서 있게 재정착할 수 있었습니다." # 2225559807785908759
+  RICE_khwarezm_yazata_worshipped_anahita: "아나히타 숭배자" # 17001114362648811424
+  RICE_khwarezm_yazata_worshipped_anahita_major: "아나히타의 위대한 숭배자" # 11045684253040102490
+  RICE_khwarezm_yazata_worshipped_bahram: "바흐람 숭배자" # 8640582066989518714
+  RICE_khwarezm_yazata_worshipped_bahram_major: "바흐람의 위대한 숭배자" # 7587478604973988311
+  RICE_khwarezm_yazata_worshipped_mah: "마흐 숭배자" # 4656349669794916786
+  RICE_khwarezm_yazata_worshipped_mah_major: "마흐의 위대한 숭배자" # 10817022354972778203
+  RICE_khwarezm_yazata_worshipped_mithra: "미트라 숭배자" # 9720624972103263820
+  RICE_khwarezm_yazata_worshipped_mithra_major: "미트라의 위대한 숭배자" # 5732076256080047537
+  RICE_khwarezm_yazata_worshipped_nana: "나나 숭배자" # 16099465279972143912
+  RICE_khwarezm_yazata_worshipped_nana_major: "나나의 위대한 숭배자" # 9958080835615293495
+  RICE_khwarezm_yazata_worshipped_rashnu: "라슈누 숭배자" # 626605100707083807
+  RICE_khwarezm_yazata_worshipped_rashnu_major: "라슈누의 위대한 숭배자" # 11547192776143199258
+  RICE_khwarezm_yazata_worshipped_sraosha: "스라오샤 숭배자" # 11074553764319440648
+  RICE_khwarezm_yazata_worshipped_sraosha_major: "위대한 스라오샤 숭배자" # 1772048562302387071
+  RICE_khwarezm_yazata_worshipped_tir: "티르 숭배자" # 11736547205415549284
+  RICE_khwarezm_yazata_worshipped_tir_major: "티르의 위대한 숭배자" # 3041968711249118675
+  RICE_khwarezm_yazata_worshipped_wakhsh: "와크시 숭배자" # 6621478571176114192
+  RICE_khwarezm_yazata_worshipped_wakhsh_major: "와한의 위대한 숭배자" # 18240214792451009079
+  RICE_khwarezm_yazata_worshipped_siyavash: "시아바시 숭배자" # 3573661110354917194
+  RICE_khwarezm_yazata_worshipped_siyavash_major: "시야바시의 위대한 숭배자" # 13875667252385947919
+  RICE_khwarezm_yazata_worshipped_weshparkar: "웨슈파르카르 숭배자" # 16248285710183272206
+  RICE_khwarezm_yazata_worshipped_weshparkar_major: "위시파르카의 위대한 숭배자" # 8307605092346808875
+  RICE_khwarezm_yazata_worshipped_astghik: "아스히크 숭배자" # 13895691702713267243
+  RICE_khwarezm_yazata_worshipped_astghik_major: "아스트히크의 위대한 숭배자" # 1043452052706076403
+  RICE_khwarezm_yazata_worshipped_barshamin: "바르샤민 숭배자" # 14157180251407141439
+  RICE_khwarezm_yazata_worshipped_barshamin_major: "바르샤민의 위대한 숭배자" # 428209704417793844
+  RICE_khwarezm_yazata_worshipped_tork: "토르크 숭배자" # 11807228008133492616
+  RICE_khwarezm_yazata_worshipped_tork_major: "토르크의 위대한 숭배자" # 10069146032170910011
+  RICE_khwarezm_yazata_worshipped_vahagn: "바하그의 숭배자" # 16079832976668981221
+  RICE_khwarezm_yazata_worshipped_vahagn_major: "바하그를 숭배하는 위대한 자" # 15710298989806045469
+  RICE_khwarezm_yazata_worshipped_dali: "달리의 숭배자" # 5598058156070152075
+  RICE_khwarezm_yazata_worshipped_dali_major: "달리의 위대한 숭배자" # 393405053568757948
+  RICE_khwarezm_yazata_worshipped_gaim: "가임 숭배자" # 12163930081207065065
+  RICE_khwarezm_yazata_worshipped_gaim_major: "가임의 위대한 숭배자" # 13082963272796031985
+  RICE_khwarezm_yazata_worshipped_gatsi: "가치 숭배자" # 13389545368672280451
+  RICE_khwarezm_yazata_worshipped_gatsi_major: "가치 위대한 숭배자" # 8070225696675036262
+  RICE_khwarezm_yazata_worshipped_kopala: "코팔라 숭배자" # 8716869358376048578
+  RICE_khwarezm_yazata_worshipped_kopala_major: "코팔라의 위대한 숭배자" # 17707840278713632305
+  RICE_khwarezm_yazata_worshipped_zaden: "자덴 숭배자" # 13725701189242270531
+  RICE_khwarezm_yazata_worshipped_zaden_major: "자덴의 위대한 숭배자" # 18127717702235054579
+  RICE_khwarezm_yazata_cult_center_anahita: "아나히타의 컬트 중심지" # 17885751016083275276
+  RICE_khwarezm_yazata_cult_center_anahita_desc: "이 지역은 물과 비옥함의 [yazata|E]인 아나히타의 주요 신앙 중심지로 알려져 있습니다.\n\n#italic 이 지역 [county|E]의 [ruler|E]가 적절한 [yazata|E] [doctrine|E]를 가진 조로아스터교 [faith|E]를 따르고 [yazata|E]를 숭배하기로 [decision|E]를 내리면, 이 [yazata|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻게 됩니다.#!" # 17450008353492383469
+  RICE_khwarezm_yazata_cult_center_bahram: "바흐람의 컬트 중심지" # 11510332808713158995
+  RICE_khwarezm_yazata_cult_center_bahram_desc: "이 지역은 승리의 [yazata|E] 바흐람의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [yazata|E] [doctrine|E]를 가진 조로아스터교 [faith|E]를 따르고, [yazata|E]를 숭배하기로 [decision|E]를 내린다면, 이 [yazata|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻을 것입니다.!#" # 2685884603186023777
+  RICE_khwarezm_yazata_cult_center_mah: "마흐의 문화 중심지" # 9601659467834288810
+  RICE_khwarezm_yazata_cult_center_mah_desc: "이 지역은 달의 [야자타|E]인 마흐의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [야자타|E] [doctrine|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E] 숭배 [decision|E]을 내리면 이 [야자타|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻을 수 있습니다.#!" # 3905680668999639078
+  RICE_khwarezm_yazata_cult_center_mithra: "미트라교의 문화 중심지" # 13356764569309767774
+  RICE_khwarezm_yazata_cult_center_mithra_desc: "이 지역은 태양, 빛, 정의의 [야자타|E]인 미트라의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [백작령|E]의 [통치자|E]가 적절한 [야자타|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E]를 숭배하기로 [decision|E]하면 해당 [야자타|E]와 관련된 [인물_보정치|E]의 더 나은 버전을 얻게 됩니다.!#" # 13334458751744535588
+  RICE_khwarezm_yazata_cult_center_nana: "나나의 숭배 중심지" # 5532919617077830868
+  RICE_khwarezm_yazata_cult_center_nana_desc: "이 지역은 전쟁과 왕권의 [야자타|E]인 나나의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [백작령|E]의 [통치자|E]가 적절한 [야자타|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E] 숭배 [decision|E]을 내리면, 이 [야자타|E]와 관련된 [인물_모디파이어|E]의 더 나은 버전을 얻게 될 것입니다.!#" # 1226565260609941416
+  RICE_khwarezm_yazata_cult_center_rashnu: "라슈누의 컬트 중심지" # 17918130805251736612
+  RICE_khwarezm_yazata_cult_center_rashnu_desc: "이 지역은 심판의 [야자타|E] 라슈누의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [야자타|E] [doctrine|E]가 있는 조로아스터교 [faith|E]를 따르고, [야자타|E] 숭배 [decision|E]을 내리면, 이 [야자타|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻을 것입니다.#" # 4083122745084057674
+  RICE_khwarezm_yazata_cult_center_sraosha: "스라오샤의 숭배 중심지" # 10847931298323377006
+  RICE_khwarezm_yazata_cult_center_sraosha_desc: "이 지역은 순종의 [yazata|E]인 스라우샤의 주요 신앙 중심지로 알려져 있습니다.\n\n#italic 이 지역의 [지배자|E]가 적절한 [yazata|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [yazata|E]를 숭배하기로 [decision|E]하면, 이 [yazata|E]와 관련된 [인물 수정자|E]의 더 나은 버전을 얻게 됩니다.#!" # 672052943493582164
+  RICE_khwarezm_yazata_cult_center_tir: "티르의 종교 중심지" # 8009868599117784234
+  RICE_khwarezm_yazata_cult_center_tir_desc: "이 지역은 비와 천상의 궁수 [야자타|E] 티르의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [통치자|E]가 적절한 [야자타|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E]를 숭배하기로 [decision|E]하면 해당 [야자타|E]와 관련된 [인물_모디파이어|E]의 더 나은 버전을 얻게 됩니다.!#" # 10929586395841706313
+  RICE_khwarezm_yazata_cult_center_wakhsh: "와흐시의 종교 중심지" # 8977588848616999859
+  RICE_khwarezm_yazata_cult_center_wakhsh_desc: "이 지역은 옥서스 강의 박트리아-소그드 [야자타|E]인 와크슈의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [백작령|E]의 [통치자|E]가 적절한 [야자타|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E]를 숭배하기로 [decision|E]하면, 이 [야자타|E]와 관련된 [인물_보정|E]의 더 나은 버전을 얻게 됩니다.#" # 17370236482081127280
+  RICE_khwarezm_yazata_cult_center_siyavash: "시아바시의 숭배 중심지" # 1353418672783270053
+  RICE_khwarezm_yazata_cult_center_siyavash_desc: "이 지역은 박트리아-소그디아의 죽음과 재생의 [yazata|E]인 시야바시의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [yazata|E] [doctrine|E]이 있는 조로아스터교 [faith|E]를 따르고 [yazata|E] 숭배 [decision|E]를 내리면 이 [yazata|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻을 수 있습니다.#" # 16527855914910087231
+  RICE_khwarezm_yazata_cult_center_weshparkar: "웨슈파르카르의 문화 중심지" # 1306930983143619033
+  RICE_khwarezm_yazata_cult_center_weshparkar_desc: "이 지역은 박트리아-소그드인 바람의 [야자타|E]인 웨슈파르카르의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 만약 이 [county|E]의 [ruler|E]가 적절한 [야자타|E] [doctrine|E]가 있는 조로아스터교 [faith|E]를 따르고, [야자타|E] 숭배 [decision|E]을 내린다면, 이 [야자타|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻게 될 것입니다.!#" # 2979580173088011223
+  RICE_khwarezm_yazata_cult_center_astghik: "아스티크 신앙 중심지" # 13554864792345340338
+  RICE_khwarezm_yazata_cult_center_astghik_desc: "이 지역은 아름다움과 사랑의 아르메니아 [yazata|E]인 아스트기크의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [yazata|E] [doctrine|E]을 가진 조로아스터교 [faith|E]를 따르고 [yazata|E]를 숭배하기로 [decision|E]하면 해당 [yazata|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻게 됩니다.#!" # 9282302828181855318
+  RICE_khwarezm_yazata_cult_center_barshamin: "바르샤민 숭배 중심지" # 10851640143739549788
+  RICE_khwarezm_yazata_cult_center_barshamin_desc: "이 지역은 하늘의 아르메니아 [yazata|E]인 바르샤민의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [yazata|E] [doctrine|E]이 있는 조로아스터교 [faith|E]를 따르고 [yazata|E]를 숭배하기 위한 [decision|E]을 내린다면, 이 [yazata|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻게 될 것입니다.!#" # 10640219029307943848
+  RICE_khwarezm_yazata_cult_center_tork: "토르크 문화 중심지" # 2638303901153008869
+  RICE_khwarezm_yazata_cult_center_tork_desc: "이 지역은 힘과 용기의 아르메니아 [야자타|E]인 토르크의 주요 컬트 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [통치자|E]가 적절한 [야자타|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E] 숭배 [decision|E]을 내리면 이 [야자타|E]와 관련된 [인물_모디파이어|E]의 더 나은 버전을 얻게 됩니다.!#" # 16414972304458931322
+  RICE_khwarezm_yazata_cult_center_vahagn: "바하그n 신앙 중심지" # 501635276303003153
+  RICE_khwarezm_yazata_cult_center_vahagn_desc: "이 지역은 아르메니아의 물과 풍요의 [야자타|E]인 바하근의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 만약 이 [백작령|E]의 [통치자|E]가 적절한 [야자타|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E] 숭배 [decision|E]을 내리면, 이 [야자타|E]와 관련된 [인물_모디파이어|E]의 더 나은 버전을 얻게 됩니다.!#" # 4485309741498819048
+  RICE_khwarezm_yazata_cult_center_dali: "달리의 문화 중심지" # 18203430365659605335
+  RICE_khwarezm_yazata_cult_center_dali_desc: "이 지역은 사냥과 여명의 카르트벨리아 [yazata|E]인 달리 숭배의 주요 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [yazata|E] [doctrine|E]를 가진 조로아스터교 [faith|E]를 따르고 [yazata|E]를 숭배하는 [decision|E]를 내리면, 이 [yazata|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻을 수 있습니다.!#" # 18223743321458148965
+  RICE_khwarezm_yazata_cult_center_gaim: "가임의 컬트 중심지" # 3822360601345365123
+  RICE_khwarezm_yazata_cult_center_gaim_desc: "이 지역은 가임, 카르텔리안 은 [yazata|E]와 미트라의 수호자를 위한 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 지역의 [ruler|E]가 적절한 [yazata|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [yazata|E]를 숭배하기로 [decision|E]하면, 이 [yazata|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻게 됩니다.#!" # 5644836870686214585
+  RICE_khwarezm_yazata_cult_center_gatsi: "가치 문화 중심지" # 4488112754924556299
+  RICE_khwarezm_yazata_cult_center_gatsi_desc: "이 지역은 카르트벨리족의 황금색 [야자타|E]이자 미트라의 시종인 가치의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [야자타|E] [doctrine|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E]를 숭배하기로 [decision|E]을 내리면 이 [야자타|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻게 됩니다.#!" # 7558396125454307232
+  RICE_khwarezm_yazata_cult_center_kopala: "코팔라 종교 중심지" # 11259157006509873343
+  RICE_khwarezm_yazata_cult_center_kopala_desc: "이 지역은 번개와 악마 살해자인 카르트벨리 [야자타|E]인 코팔라의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [ruler|E]가 적절한 [야자타|E] [doctrine|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E]를 숭배하는 [decision|E]을 내리면, 이 [야자타|E]와 관련된 [character_modifier|E]의 더 나은 버전을 얻게 됩니다.#!" # 6966180520473487430
+  RICE_khwarezm_yazata_cult_center_zaden: "자덴의 종교 중심지" # 1862219109939856095
+  RICE_khwarezm_yazata_cult_center_zaden_desc: "이 지역은 풍요의 카르트벨리아 [야자타|E]인 자덴의 주요 숭배 중심지로 알려져 있습니다.\n\n#italic 이 [county|E]의 [통치자|E]가 적절한 [야자타|E] [교리|E]를 가진 조로아스터교 [faith|E]를 따르고 [야자타|E]를 숭배하는 [decision|E]을 내리면, 이 [야자타|E]와 관련된 [인물_모디파이어|E]의 더 나은 버전을 얻게 됩니다.#!" # 8823976543577009917
+  RICE_khwarezm_worship_yazata: "야자타 숭배" # 4470222302234314271
+  RICE_khwarezm_worship_yazata_tooltip: "[야자타|E]를 숭배하고 유용한 [character_modifier|E]를 얻으십시오" # 9495787382920987029
+  RICE_khwarezm_worship_yazata_desc: "[ROOT.Char.GetFaith.HighGodName]를 최고 신으로 여기지만, 경건한 [ROOT.Char.GetFaith.GetAdherentNamePlural]는 또한 종교 의식에서 [yazatas|E]를 숭배하는 것도 중요합니다. 실제로, [yazata|E]라는 단어 자체가 "숭배받을 만한" 의미를 지닙니다." # 11413244013950558330
+  RICE_khwarezm_worship_yazata_effect_tooltip_1: "[faith|E]의 [야자타|E] [교리|E]에 따라 숭배할 [야자타|E]를 여러 가지 선택할 수 있습니다." # 7898943323172872883
+  RICE_khwarezm_worship_yazata_effect_tooltip_2: "[신앙도|E] 보너스 외에도, 어떤 [야자타|E]를 숭배하느냐에 따라 #P 유익한#! [인물_보정|E]을 #V 10#!년 동안 얻게 됩니다" # 16411315222598211004
+  RICE_khwarezm_worship_yazata_effect_tooltip_3: "[faith|E]에 $rice_zoroastrian_sassanian_doctrine_name$ [교리|E]가 있으므로 약간의 [명성|E]을 얻고 #V @gold_icon! [GetPlayer.MakeScope.ScriptValue('RICE_yazata_pay_bonus_value')|0]#!을 지불하여 더 나은 버전의 [보정치|E]를 얻을 수 있습니다." # 6787719260651630193
+  RICE_khwarezm_worship_yazata_effect_tooltip_4: "[faith|E]에 $rice_zoroastrian_armenian_doctrine_name$ [교리|E]가 있기 때문에, [county|E]에 적절한 [조로아스터교_숭배_중심지|E]가 있으면 추가 [명성|E]과 더 나은 버전의 [modifier|E] #bold if#!를 얻을 수 있습니다." # 17602265767610929799
+  RICE_khwarezm_worship_yazata_effect_tooltip_5: "[faith|E]에 $rice_zoroastrian_eastern_doctrine_name$ [교리|E]가 있으므로, [county|E]에 올바른 [조로아스터교_숭배_중심지|E]가 있다면 추가 [명성|E]과 더 나은 버전의 [modifier|E] #bold 이프#!를 얻을 수 있습니다." # 14032035343633425002
+  RICE_khwarezm_worship_yazata_confirm: "제례를 준비하십시오!" # 15471607622825508031
+  RICE_khwarezm_worship_yazata_context_tooltip: "#emphasis 역사적 배경:#! 조로아스터교에서 "야자타"는 "숭배받을 가치가 있는 자"를 의미합니다. 다신교적 맥락에서는 신들이고, 유일신교적 맥락에서는 최고신의 천사 또는 발현입니다. 역사적으로 이러한 존재들에 대한 숭배는 종교적인 이유뿐만 아니라 정치적으로도 중요했습니다." # 7591602433588268934
+  RICE_khwarezm_worship_yazata_type: "야자타를 숭배할 대상으로 선택하십시오" # 749276373849312692
+  RICE_khwarezm_worship_yazata_type_gui: "숭배할 [yazata|E]를 선택하십시오" # 8182472751550442666
+  RICE_yazata_anahita_option: "#Bold #V 아나히타#!#!\n$RICE_yazata_anahita_option_desc$" # 12379613339272524902
+  RICE_yazata_anahita_option_desc: "물의 [yazata|E]와 풍요" # 17376833902884696356
+  RICE_yazata_anahita_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_anahita').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_anahita_major').GetNameWithTooltip]" # 1503896774799573206
+  RICE_yazata_bahram_option: "#Bold #V 바흐람#!#!\n$RICE_yazata_bahram_option_desc$" # 14992675302365612873
+  RICE_yazata_bahram_option_desc: "승리의 [yazata|E]" # 3446201082910624061
+  RICE_yazata_bahram_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_bahram').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_bahram_major').GetNameWithTooltip]" # 17222167277951472244
+  RICE_yazata_mah_option: "#Bold #V 마흐#!#!\n$RICE_yazata_mah_option_desc$" # 14014215092652290285
+  RICE_yazata_mah_option_desc: "달의 [yazata|E]" # 16685094004073462684
+  RICE_yazata_mah_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_mah').GetNameWithTooltip]\n업그레이드된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_mah_major').GetNameWithTooltip]" # 38439782343918625
+  RICE_yazata_mithra_option: "#Bold #V 미트라#!#!\n$RICE_yazata_mithra_option_desc$" # 15660081385769949858
+  RICE_yazata_mithra_option_desc: "태양, 빛, 정의의 [yazata|E]" # 1541391435955617695
+  RICE_yazata_mithra_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_mithra').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_mithra_major').GetNameWithTooltip]" # 16012251878079897301
+  RICE_yazata_nana_option: "#Bold #V 나나#!#!\n$RICE_yazata_nana_option_desc$" # 5595714246807919651
+  RICE_yazata_nana_option_desc: "전쟁과 왕권의 [yazata|E]" # 6280265683358691243
+  RICE_yazata_nana_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_nana').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_nana_major').GetNameWithTooltip]" # 15247644462456657326
+  RICE_yazata_rashnu_option: "#Bold #V 라슈누#!#!\n$RICE_yazata_rashnu_option_desc$" # 2812818977605645033
+  RICE_yazata_rashnu_option_desc: "심판의 [yazata|E]" # 10175600765443190974
+  RICE_yazata_rashnu_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_rashnu').GetNameWithTooltip]\n업그레이드된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_rashnu_major').GetNameWithTooltip]" # 10928047770511305617
+  RICE_yazata_sraosha_option: "#Bold #V 스라오샤#!#!\n$RICE_yazata_sraosha_option_desc$" # 14508646908962383082
+  RICE_yazata_sraosha_option_desc: "복종의 [yazata|E]" # 269914538684102665
+  RICE_yazata_sraosha_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_sraosha').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_sraosha_major').GetNameWithTooltip]" # 16236571057440140820
+  RICE_yazata_tir_option: "#Bold #V 티르#!#!\n$RICE_yazata_tir_option_desc$" # 9413449926630134298
+  RICE_yazata_tir_option_desc: "비와 천상의 궁수 [yazata|E]" # 14133236682683640365
+  RICE_yazata_tir_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_tir').GetNameWithTooltip]\n업그레이드된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_tir_major').GetNameWithTooltip]" # 17289859719153958801
+  RICE_yazata_siyavash_option: "#Bold #V 시야바쉬#!#!\n$RICE_yazata_siyavash_option_desc$" # 15267975464113214034
+  RICE_yazata_siyavash_option_desc: "죽음과 재생의 [yazata|E]" # 15285482171355497255
+  RICE_yazata_siyavash_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_siyavash').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_siyavash_major').GetNameWithTooltip]" # 3575313152829440446
+  RICE_yazata_wakhsh_option: "#Bold #V 와크쉬#!#!\n$RICE_yazata_wakhsh_option_desc$" # 18296829895237948610
+  RICE_yazata_wakhsh_option_desc: "옥수스 강[yazata|E]" # 14791597572253570554
+  RICE_yazata_wakhsh_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_wakhsh').GetNameWithTooltip]\n향상된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_wakhsh_major').GetNameWithTooltip]" # 8452731124672218770
+  RICE_yazata_weshparkar_option: "#Bold #V 웨슈파르카르#!#!\n$RICE_yazata_weshparkar_option_desc$" # 15677888136179440580
+  RICE_yazata_weshparkar_option_desc: "바람의 [yazata|E]" # 17458961544714915102
+  RICE_yazata_weshparkar_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_weshparkar').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_weshparkar_major').GetNameWithTooltip]" # 15377295407044677919
+  RICE_yazata_astghik_option: "#Bold #V 아스히크#!#!\n$RICE_yazata_astghik_option_desc$" # 7427324887537903086
+  RICE_yazata_astghik_option_desc: "아름다움과 사랑의 [yazata|E]" # 8411142222325160878
+  RICE_yazata_astghik_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_astghik').GetNameWithTooltip]\n업그레이드된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_astghik_major').GetNameWithTooltip]" # 3862277643030105115
+  RICE_yazata_barshamin_option: "#Bold #V 바르샤민#!#!\n$RICE_yazata_barshamin_option_desc$" # 9116396217137623493
+  RICE_yazata_barshamin_option_desc: "하늘의 [yazata|E]" # 13663683580226179222
+  RICE_yazata_barshamin_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_barshamin').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_barshamin_major').GetNameWithTooltip]" # 4282322053400248980
+  RICE_yazata_tork_option: "#Bold #V 토르크#!#!\n$RICE_yazata_tork_option_desc$" # 477016699363586726
+  RICE_yazata_tork_option_desc: "힘과 용기의 [yazata|E]" # 9914369515799692116
+  RICE_yazata_tork_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_tork').GetNameWithTooltip]\n업그레이드된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_tork_major').GetNameWithTooltip]" # 3075367819031246933
+  RICE_yazata_vahagn_option: "#Bold #V 바하근#!#!\n$RICE_yazata_vahagn_option_desc$" # 10537092827982104656
+  RICE_yazata_vahagn_option_desc: "물의 [yazata|E]와 풍요" # 17376833902884696356
+  RICE_yazata_vahagn_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_vahagn').GetNameWithTooltip]\n업그레이드된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_vahagn_major').GetNameWithTooltip]" # 6932380295249351238
+  RICE_yazata_dali_option: "#Bold #V 달리#!#!\n$RICE_yazata_dali_option_desc$" # 14383573793939974602
+  RICE_yazata_dali_option_desc: "사냥과 새벽의 [yazata|E]" # 859141665201693830
+  RICE_yazata_dali_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_dali').GetNameWithTooltip]\n업그레이드된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_dali_major').GetNameWithTooltip]" # 15276979943251685530
+  RICE_yazata_gaim_option: "#Bold #V 가임#!#!\n$RICE_yazata_gaim_option_desc$" # 69572888627011982
+  RICE_yazata_gaim_option_desc: "은 [야자타|E]와 미트라의 수행원" # 979463411115777295
+  RICE_yazata_gaim_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_gaim').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_gaim_major').GetNameWithTooltip]" # 339547292744474743
+  RICE_yazata_gatsi_option: "#Bold #V 가치#!#!\n$RICE_yazata_gatsi_option_desc$" # 8584410174541510257
+  RICE_yazata_gatsi_option_desc: "황금 [yazata|E]와 미트라의 시종" # 10932148199741948308
+  RICE_yazata_gatsi_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_gatsi').GetNameWithTooltip]\n업그레이드된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_gatsi_major').GetNameWithTooltip]" # 6508729744153087356
+  RICE_yazata_kopala_option: "#Bold #V 코팔라#!#!\n$RICE_yazata_kopala_option_desc$" # 15189525719505216986
+  RICE_yazata_kopala_option_desc: "번개와 악마 살해자 [yazata|E]" # 12662172640870442375
+  RICE_yazata_kopala_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_kopala').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_kopala_major').GetNameWithTooltip]" # 16585286885471407305
+  RICE_yazata_zaden_option: "#Bold #V 자덴#!#!\n$RICE_yazata_zaden_option_desc$" # 6711278403790761441
+  RICE_yazata_zaden_option_desc: "풍요의 [yazata|E]" # 8102027909153243328
+  RICE_yazata_zaden_option_tooltip: "기본 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_zaden').GetNameWithTooltip]\n강화된 [modifier|E]: [GetModifier('RICE_khwarezm_yazata_worshipped_zaden_major').GetNameWithTooltip]" # 6468030500464794402
+  RICE_khwarezm_destroy_cult_center: "이단 조로아스터교 컬트 중심지 탄압" # 5870017539614324137
+  RICE_khwarezm_destroy_cult_center_tooltip: "우리 [realm|E] 내의 [zoroastrian_cult_centers|E]은 우리 [faith|E]에 대한 모욕입니다!" # 9220585417629512402
+  RICE_khwarezm_destroy_cult_center_desc: "내 [domain|E]에는 거짓 신에게 바쳐진 여러 [zoroastrian_cult_centers|E]가 있습니다. 사원들을 파괴하는 한이 있더라도 이교도적인 행위를 하지 않도록 막아야 합니다!" # 17136831396841857984
+  RICE_khwarezm_destroy_cult_center_effect_tooltip_1: "당신의 [domain|E] 내의 [zoroastrian_cult_center|E]가 있는 모든 [counties|E]는 관련된 [county_modifier|E]를 잃게 됩니다." # 6269246775351616833
+  RICE_khwarezm_destroy_cult_center_effect_tooltip_2: "당신의 [교리|E]를 따르지 않는 [조로아스터교_신앙_중심지|E]가 있는 당신의 [county|E] 내 모든 [백작령|E]은 해당 [백작령_수정치|E]를 잃게 됩니다" # 7741694662889148513
+  RICE_khwarezm_destroy_cult_center_effect_tooltip_3: "이 행동으로 #V [gold_i|E] [GetPlayer.MakeScope.ScriptValue('RICE_khwarezm_destroy_cult_center_value')|0]#! 및 #V [piety_i|E] [GetPlayer.MakeScope.ScriptValue('RICE_khwarezm_destroy_cult_center_value')|0]#!을 얻습니다." # 17408390492231205810
+  RICE_khwarezm_destroy_cult_center_confirm: "거짓 우상을 무너뜨리십시오!" # 5876810401268343049
+  RICE_khwarezm_destroy_cult_center_context_tooltip: "$RICE_khwarezm_establish_cult_center_context_tooltip$" # 4397650405488479909
+  RICE_destroy_yazata_cult_center_req: "최소한 하나의 [county|E]에 파괴할 수 있는 [zoroastrian_cult_centers|E]가 있습니다." # 9484111268331395985
+  RICE_establish_yazata_no_other_cult_centers_req: "[작위|E]의 [수도|E]가 있는 [공작령|E]의 [백작령|E]에는 [조로아스터교_종교_중심지|E]가 없습니다." # 8623589839619326424
+  RICE_khwarezm_destroy_cult_center_first_person_sassanian_tooltip: "소유한 모든 [county|E] 중 [zoroastrian_cult_centers|E]가 귀하의 [yazata|E] [doctrine|E]를 따르지 않는 경우 해당 [county_modifier|E]가 제거됩니다." # 6671643908437035018
+  RICE_khwarezm_destroy_cult_center_third_person_sassanian_tooltip: "[RICE_yazata_cult_destroyer.GetTitledFirstNameNoTooltip]이 소유한 모든 [county|E] 중 당신의 [yazata|E] [doctrine|E]를 따르지 않는 [zoroastrian_cult_centers|E]가 있는 지역은 해당 [county_modifier|E]가 제거됩니다." # 10843791550098467148
+  RICE_khwarezm_destroy_cult_center_first_person_normal_tooltip: "[조로아스터교_종교_중심지|E]가 있는 소유한 모든 [백작령|E]에서 해당 [백작령_수정치|E]가 제거됩니다" # 11978759639072453560
+  RICE_khwarezm_destroy_cult_center_third_person_normal_tooltip: "[RICE_yazata_cult_destroyer.GetTitledFirstNameNoTooltip]가 소유한 모든 [zoroastrian_cult_centers|E]가 있는 [county|E]에서 해당 [county_modifier|E]가 제거됩니다" # 1430656011176006858
+  RICE_khwarezm_establish_cult_center: "현지 조로아스터교 컬트 중심지 설립" # 13132194923777139929
+  RICE_khwarezm_establish_cult_center_tooltip: "우리의 [capital|E]은 [zoroastrian_cult_centers|E]의 본거지가 될 수 있습니다" # 16230579030061782354
+  RICE_khwarezm_establish_cult_center_desc: "숭배할 만한 [yazatas|E]는 많지만, 저는 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]에서 더 열렬히 숭배해야 할 존재가 있다고 믿습니다. 따라서 이 지역을 특정 [yazata|E]를 위한 [zoroastrian_cult_center_short|E]로 바꾸고자 합니다." # 16626028011237868574
+  RICE_khwarezm_establish_cult_center_effect_tooltip_1: "새로운 [zoroastrian_cult_center_short|E]의 중심으로 삼을 [yazata|E] 하나를 선택합니다" # 4954693962109624308
+  RICE_khwarezm_establish_cult_center_effect_tooltip_2: "#P 유익한#! [county_modifier|E] 효과가 [THIS.Char.GetCapitalLocation.GetTitle.GetNameNoTier]에 적용됩니다" # 11003333564543975686
+  RICE_khwarezm_establish_cult_center_effect_tooltip_3: "이 [zoroastrian_cult_center_short|E]의 [THIS.Char.GetFaith.GetReligion.GetAdjective] [rulers|E]은 이 [zoroastrian_cult_center_short|E]의 [yazata|E]를 선택하고 올바른 [yazata|E] [doctrine|E]를 가지고 있다면, [yazatas|E]를 숭배하는 [decision|E]을 내릴 때 추가 혜택을 얻을 것입니다." # 5845603122104228425
+  RICE_khwarezm_establish_cult_center_confirm: "종교 중심지 설립" # 8969127355807731934
+  RICE_khwarezm_establish_cult_center_context_tooltip: "#emphasis 역사적 배경:#! 소그디아와 호라즘과 같이 이란 세계 주변부에서 행해지던 조로아스터교의 다양한 형태는 사산 제국의 중심지보다 훨씬 더 분산되어 있었으며, 고대 그리스 도시 국가들의 다신교 숭배를 연상시키는 방식으로 특정 도시 국가 및 소왕국을 중심으로 전개되었습니다. 예를 들어, 나나는 소그드 주요 도시인 판지켄트의 수호 여신이었으며, 어떤 면에서는 아후라 마즈다보다 더 두드러지게 숭배되기도 했습니다. 이러한 종교적 관행은 더욱 중앙집권화되고 조직화된 사산 정통파와는 대조적으로, 아랍 정복과 함께 찾아온 대규모의 정치적, 문화적 격변에서 살아남지 못했습니다." # 8385321115616947556
+  RICE_khwarezm_establish_cult_center_type: "숭배 중심지를 세울 야자타를 선택하세요." # 3587238949093368056
+  RICE_khwarezm_establish_cult_center_type_gui: "[야자타|E]를 선택하여 [조로아스터교_컬트_중심지_약칭|E]를 건설하십시오." # 17897118632672783820
+  RICE_yazata_anahita_cult_center_option: "#Bold #V 아나히타#!#!\n$RICE_yazata_anahita_cult_center_option_desc$" # 14198030769037006986
+  RICE_yazata_anahita_cult_center_option_desc: "물의 [yazata|E]와 풍요" # 17376833902884696356
+  RICE_yazata_anahita_cult_center_option_tooltip: "당신의 [capital|E]은(는) [GetModifier('RICE_khwarezm_yazata_cult_center_anahita').GetNameWithTooltip] [county_modifier|E]를 영구적으로 얻습니다." # 665735295041717035
+  RICE_yazata_bahram_cult_center_option: "#Bold #V 바흐람#!#!\n$RICE_yazata_bahram_cult_center_option_desc$" # 4814287403285950823
+  RICE_yazata_bahram_cult_center_option_desc: "승리를 가져다주는 [yazata|E]" # 5314322949892701960
+  RICE_yazata_bahram_cult_center_option_tooltip: "귀하의 [capital|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_bahram').GetNameWithTooltip] [county_modifier|E]가 영구히 부여됩니다" # 17860906292866089681
+  RICE_yazata_mah_cult_center_option: "#Bold #V 마흐#!#!\n$RICE_yazata_mah_cult_center_option_desc$" # 15141436291371163644
+  RICE_yazata_mah_cult_center_option_desc: "달의 [yazata|E]" # 16685094004073462684
+  RICE_yazata_mah_cult_center_option_tooltip: "[수도|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_mah').GetNameWithTooltip] [county_modifier|E]가 영구적으로 부여됩니다" # 850995556062110729
+  RICE_yazata_mithra_cult_center_option: "#Bold #V 미트라#!#!\n$RICE_yazata_mithra_cult_center_option_desc$" # 12990980118419581732
+  RICE_yazata_mithra_cult_center_option_desc: "태양, 빛, 정의의 [yazata|E]" # 1541391435955617695
+  RICE_yazata_mithra_cult_center_option_tooltip: "당신의 [수도|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_mithra').GetNameWithTooltip] [백작령_modifier|E]가 영구적으로 부여됩니다." # 15609983133574122052
+  RICE_yazata_nana_cult_center_option: "#Bold #V 나나#!#!\n$RICE_yazata_nana_cult_center_option_desc$" # 12981529962305830756
+  RICE_yazata_nana_cult_center_option_desc: "전쟁과 왕권의 [yazata|E]" # 6280265683358691243
+  RICE_yazata_nana_cult_center_option_tooltip: "귀하의 [수도|E]는 영구적으로 [GetModifier('RICE_khwarezm_yazata_cult_center_nana').GetNameWithTooltip] [주_수정자|E]를 얻습니다." # 6750988736077283880
+  RICE_yazata_rashnu_cult_center_option: "#Bold #V 라슈누#!#!\n$RICE_yazata_rashnu_cult_center_option_desc$" # 264375366927350257
+  RICE_yazata_rashnu_cult_center_option_desc: "심판의 [yazata|E]" # 10175600765443190974
+  RICE_yazata_rashnu_cult_center_option_tooltip: "귀하의 [capital|E]은(는) [GetModifier('RICE_khwarezm_yazata_cult_center_rashnu').GetNameWithTooltip] [county_modifier|E]를 영구적으로 획득합니다." # 11640327421145026736
+  RICE_yazata_sraosha_cult_center_option: "#Bold #V 스라오샤#!#!\n$RICE_yazata_sraosha_cult_center_option_desc$" # 4846482103313113602
+  RICE_yazata_sraosha_cult_center_option_desc: "순종의 [yazata|E]" # 269914538684102665
+  RICE_yazata_sraosha_cult_center_option_tooltip: "당신의 [capital|E]은(는) 영구적으로 [GetModifier('RICE_khwarezm_yazata_cult_center_sraosha').GetNameWithTooltip] [county_modifier|E]을(를) 얻습니다" # 16145855394301995932
+  RICE_yazata_tir_cult_center_option: "#Bold #V 티르#!#!\n$RICE_yazata_tir_cult_center_option_desc$" # 17166602174051332663
+  RICE_yazata_tir_cult_center_option_desc: "비와 천상의 궁수 [yazata|E]" # 14133236682683640365
+  RICE_yazata_tir_cult_center_option_tooltip: "당신의 [capital|E]은(는) [GetModifier('RICE_khwarezm_yazata_cult_center_tir').GetNameWithTooltip] [county_modifier|E]를 영구적으로 획득합니다" # 13119428966086576795
+  RICE_yazata_siyavash_cult_center_option: "#Bold #V 시야바시#!#!\n$RICE_yazata_siyavash_cult_center_option_desc$" # 4166003617407143652
+  RICE_yazata_siyavash_cult_center_option_desc: "죽음과 재생의 [yazata|E]" # 15285482171355497255
+  RICE_yazata_siyavash_cult_center_option_tooltip: "귀하의 [capital|E]는 영구적으로 [GetModifier('RICE_khwarezm_yazata_cult_center_siyavash').GetNameWithTooltip] [county_modifier|E]를 획득합니다." # 14958960442920498548
+  RICE_yazata_wakhsh_cult_center_option: "#Bold #V 와흐슈#!#!\n$RICE_yazata_wakhsh_cult_center_option_desc$" # 12393581183875250180
+  RICE_yazata_wakhsh_cult_center_option_desc: "옥수스 강[yazata|E]" # 14791597572253570554
+  RICE_yazata_wakhsh_cult_center_option_tooltip: "[capital|E]이(가) [GetModifier('RICE_khwarezm_yazata_cult_center_wakhsh').GetNameWithTooltip] [county_modifier|E](을)를 영구적으로 얻습니다." # 5848324073679931125
+  RICE_yazata_weshparkar_cult_center_option: "#Bold #V 웨슈파르카르#!#!\n$RICE_yazata_weshparkar_cult_center_option_desc$" # 12641837805309147079
+  RICE_yazata_weshparkar_cult_center_option_desc: "바람의 [yazata|E]" # 17458961544714915102
+  RICE_yazata_weshparkar_cult_center_option_tooltip: "당신의 [capital|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_weshparkar').GetNameWithTooltip] [county_modifier|E] 영구 효과가 추가됩니다" # 9795408271935913736
+  RICE_yazata_astghik_cult_center_option: "#Bold #V 아스트히크#!#!\n$RICE_yazata_astghik_cult_center_option_desc$" # 405423474193451947
+  RICE_yazata_astghik_cult_center_option_desc: "아름다움과 사랑의 [yazata|E]" # 8411142222325160878
+  RICE_yazata_astghik_cult_center_option_tooltip: "당신의 [capital|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_astghik').GetNameWithTooltip] [county_modifier|E]가 영구적으로 부여됩니다." # 11005936798641285673
+  RICE_yazata_barshamin_cult_center_option: "#Bold #V 바르샤민#!#!\n$RICE_yazata_barshamin_cult_center_option_desc$" # 3562572708851457330
+  RICE_yazata_barshamin_cult_center_option_desc: "하늘의 [yazata|E]" # 13663683580226179222
+  RICE_yazata_barshamin_cult_center_option_tooltip: "당신의 [capital|E]은(는) [GetModifier('RICE_khwarezm_yazata_cult_center_barshamin').GetNameWithTooltip] [county_modifier|E]를 영구적으로 획득합니다" # 6532200437360793619
+  RICE_yazata_tork_cult_center_option: "#Bold #V 토르크#!#!\n$RICE_yazata_tork_cult_center_option_desc$" # 2000112583425096646
+  RICE_yazata_tork_cult_center_option_desc: "힘과 용기의 [yazata|E]" # 9914369515799692116
+  RICE_yazata_tork_cult_center_option_tooltip: "귀하의 [capital|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_tork').GetNameWithTooltip] [county_modifier|E] 영구적으로 부여" # 16188261640437219055
+  RICE_yazata_vahagn_cult_center_option: "#Bold #V 바하그#!#!\n$RICE_yazata_vahagn_cult_center_option_desc$" # 13602924616292007272
+  RICE_yazata_vahagn_cult_center_option_desc: "물의 [yazata|E]와 풍요" # 17376833902884696356
+  RICE_yazata_vahagn_cult_center_option_tooltip: "귀하의 [capital|E]은(는) 영구적으로 [GetModifier('RICE_khwarezm_yazata_cult_center_vahagn').GetNameWithTooltip] [county_modifier|E] 효과를 얻습니다." # 800256287632712246
+  RICE_yazata_dali_cult_center_option: "#Bold #V 다리#!#!\n$RICE_yazata_dali_cult_center_option_desc$" # 8273017674041051826
+  RICE_yazata_dali_cult_center_option_desc: "사냥과 새벽의 [yazata|E]" # 859141665201693830
+  RICE_yazata_dali_cult_center_option_tooltip: "[수도|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_dali').GetNameWithTooltip] [county_modifier|E] 영구 적용" # 8854882993619959420
+  RICE_yazata_gaim_cult_center_option: "#Bold #V 가임#!#!\n$RICE_yazata_gaim_cult_center_option_desc$" # 13639215067927458442
+  RICE_yazata_gaim_cult_center_option_desc: "은 [야자타|E]와 미트라의 수행원" # 979463411115777295
+  RICE_yazata_gaim_cult_center_option_tooltip: "귀하의 [수도|E]는 영구적으로 [GetModifier('RICE_khwarezm_yazata_cult_center_gaim').GetNameWithTooltip] [지방_수정자|E]를 얻습니다." # 18319550796340204028
+  RICE_yazata_gatsi_cult_center_option: "#Bold #V 가치#!#!\n$RICE_yazata_gatsi_cult_center_option_desc$" # 10630094594232280109
+  RICE_yazata_gatsi_cult_center_option_desc: "황금 [yazata|E]와 미트라의 시종" # 10932148199741948308
+  RICE_yazata_gatsi_cult_center_option_tooltip: "[수도|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_gatsi').GetNameWithTooltip] [county_modifier|E] 영구 효과 부여" # 8154147904313986962
+  RICE_yazata_kopala_cult_center_option: "#Bold #V 코팔라#!#!\n$RICE_yazata_kopala_cult_center_option_desc$" # 2451612498033307790
+  RICE_yazata_kopala_cult_center_option_desc: "번개와 악마 살해자 [yazata|E]" # 12662172640870442375
+  RICE_yazata_kopala_cult_center_option_tooltip: "[capital|E]의 영구적으로 [GetModifier('RICE_khwarezm_yazata_cult_center_kopala').GetNameWithTooltip] [county_modifier|E]를 얻습니다" # 8739660553370031929
+  RICE_yazata_zaden_cult_center_option: "#Bold #V 자덴#!#!\n$RICE_yazata_zaden_cult_center_option_desc$" # 7982773249308746982
+  RICE_yazata_zaden_cult_center_option_desc: "풍요의 [yazata|E]" # 8102027909153243328
+  RICE_yazata_zaden_cult_center_option_tooltip: "[capital|E]에 [GetModifier('RICE_khwarezm_yazata_cult_center_zaden').GetNameWithTooltip] [county_modifier|E] 영구 효과 획득" # 3495527944781384672
+  RICE_khwarezm_kala_decision: "[ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]의 칼라스 강화" # 15763070299278714982
+  RICE_khwarezm_kala_decision_tooltip: "[domain|E] 내의 [counties|E]가 유익한 방어 [county_modifiers|E]를 얻습니다" # 16518441415695501367
+  RICE_khwarezm_kala_decision_desc: "우리 영토에는 고대부터 최근에 지어진 것까지, [GetGeographicalRegion('RICE_lower_oxus_region').GetName]에서 유래한 [ROOT.Char.GetCulture.GetName] 양식으로 지어진 #italic 칼라#! 정착지나 요새가 많이 흩어져 있습니다. 칼라는 우리 왕국의 방어와 경제에 필수적이므로 기존 칼라를 계속 유지하거나 확장하고 필요에 따라 새로운 칼라를 건설해야 합니다." # 1460511492469710146
+  RICE_khwarezm_kala_decision_effect_tooltip_1: "이 [decision|E]은 소유한 [백작령|E] 수와 [요새_수준|E]에 따라 #V [금_아이콘|E][GetPlayer.MakeScope.ScriptValue('RICE_khwarezm_kala_fortress_cost_value')|0]#!의 비용이 듭니다." # 95240410440881801
+  RICE_khwarezm_kala_decision_confirm: "이 지역을 강화하세요!" # 9579503029502548035
+  RICE_khwarezm_kala_decision_context_tooltip: "#emphasis 역사적 배경:#! #italic kala#! (또는 #italic qala#! 또는 #italic qalat#!)라는 용어는 단순히 다양한 중동 사회에서 요새 또는 성을 의미합니다. 그러나 중앙아시아, 특히 호라즘에서는 고대에 정착지, 요새, 농촌 농경지 사이의 경계를 모호하게 만드는 독특한 형태의 #italic kala#!가 발전했습니다. 그것들은 공격으로부터 방어력을 제공하고 소위 실크로드의 이 지역에서 농업과 무역의 성장을 촉진했습니다." # 9436238577673298759
+  khwarezm.0001.t: "xxxxx" # 1951045980481827005
+  khwarezm.0001.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0001.a: "xxxxx" # 1951045980481827005
+  khwarezm.0002.t: "xxxxx" # 1951045980481827005
+  khwarezm.0002.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0002.a: "xxxxx" # 1951045980481827005
+  khwarezm.0003.t: "xxxxx" # 1951045980481827005
+  khwarezm.0003.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0003.a: "xxxxx" # 1951045980481827005
+  khwarezm.0004.t: "xxxxx" # 1951045980481827005
+  khwarezm.0004.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0004.a: "xxxxx" # 1951045980481827005
+  khwarezm.0005.t: "xxxxx" # 1951045980481827005
+  khwarezm.0005.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0005.a: "xxxxx" # 1951045980481827005
+  khwarezm.0006.t: "xxxxx" # 1951045980481827005
+  khwarezm.0006.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0006.a: "xxxxx" # 1951045980481827005
+  khwarezm.0007.t: "xxxxx" # 1951045980481827005
+  khwarezm.0007.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0007.a: "xxxxx" # 1951045980481827005
+  khwarezm.0008.t: "xxxxx" # 1951045980481827005
+  khwarezm.0008.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0008.a: "xxxxx" # 1951045980481827005
+  khwarezm.0009.t: "xxxxx" # 1951045980481827005
+  khwarezm.0009.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0009.a: "xxxxx" # 1951045980481827005
+  khwarezm.0010.t: "xxxxx" # 1951045980481827005
+  khwarezm.0010.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0010.a: "xxxxx" # 1951045980481827005
+  khwarezm.0011.t: "미친 강의 변덕" # 7299471128704375139
+  khwarezm.0011.desc: "수 세기 동안 사람들은 아무다리야 강 또는 옥서스 강을 "미친 강"이라 불러왔습니다. 이 강은 이 지역의 생명 유지에 필수적이지만, 종종 갑자기, 때로는 서서히 물길을 바꾸거나 범람하는 등 엄청나게 혼란스럽기도 합니다.\n\n이 강은 건물을 비롯하여 도시 전체를 파괴하기도 합니다. [kath.GetNameNoTier]의 알-피르 요새 폐허와 같은 거대한 구조물조차도 미친 강의 분노를 피할 수 없습니다. 방금 알-피르의 마지막 잔해가 강물에 휩쓸려 갔다는 소식을 들었습니다.\n\n다행히 요새는 수년 동안 거의 버려진 상태였기 때문에 인명 피해와 재산 피해는 미미했습니다. 그럼에도 불구하고, 강물이 이 폐허를 서서히 침식해 온 것을 고려할 때 언젠가 이런 날이 올 것을 알고 있었지만, 이 장엄하고 고대의 요새가 이런 방식으로 사라지는 것을 보니 슬픕니다." # 5917171737381192284
+  khwarezm.0011.a: "그 성채의 운명은 불가피했지, 그렇지 않나?" # 2971897643916203122
+  khwarezm.0012.t: "[ROOT.Char.GetPrimaryTitle.GetNameNoTooltip]의 칼라스" # 2671834682916322269
+  khwarezm.0012.desc: "우리 [ROOT.Char.GetCulture.GetCollectiveNoun]는 전통적으로 우리 자신을 보호하고 고향에서 성장과 무역을 촉진하기 위해 독특한 양식의 #italic 칼라스#!를 건설하고 유지해 왔습니다. 이러한 장소는 정착지, 요새, 농경지가 혼합된 형태이며 [ROOT.Char.GetPrimaryTitle.GetName]의 지속적인 번영을 보장하는 데 중요합니다.\n\n어쨌든, 저는 제 영토 내의 다양한 #italic 칼라스#!를 여러 가지 방법으로 강화하라는 명령을 내렸습니다. 일부는 수리 및 기타 유지 보수 작업을 받게 됩니다. 다른 곳은 개조되거나 심지어 확장될 것입니다. 방어력이 약한 지역에서는 새로운 #italica 칼라#! 구조물이 건설될 수도 있습니다." # 17955474540616050361
+  khwarezm.0012.a: "장기적으로 보면 이익이 될 것입니다." # 13046927152103786592
+  khwarezm.0013.t: "xxxxx" # 1951045980481827005
+  khwarezm.0013.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0013.a: "xxxxx" # 1951045980481827005
+  khwarezm.0014.t: "$khwarezm.0011.t$" # 12419247797528070396
+  khwarezm.0014.desc: "[kath.GetNameNoTier]의 알피르 요새는 수년 동안 자랑스럽게 서 있었습니다. 이 아름답고 강력한 요새는 수 마일 떨어진 곳에서도 보이며, 지역 통치자들의 힘과 위신의 상징 역할을 했습니다. 하지만 유감스럽게도 이 요새는 "미친 강"이라는 별명을 가진 아무다리야 강 또는 옥수스 강 옆에 위치해 있습니다. 옥수스 강은 유로를 바꾸거나 불규칙하게 범람하는 경향이 있기 때문입니다.\n\n수년 동안 요새는 옥수스 강의 물결에 의한 여러 차례의 공격을 견뎌냈지만, 요새의 방어 시설은 점차 닳아 없어졌습니다. 요새의 주요 구조는 여전히 서 있지만 부분적으로 파괴되었고, 지역 당국은 더 이상 대규모로 사용하기에 안전하지 않다고 판단하여 행정부는 마을의 다른 구조물로 이전했습니다.\n\n그래도 최소한 요새는 여전히 서 있습니다. 자주 사용되지는 않더라도 주변 주민들에게 영감과 용기를 계속 줄 것입니다." # 12099010454964848039
+  khwarezm.0014.a: "이런 일이 결국 일어난 것도 놀랍지 않습니다." # 763497362594295968
+  khwarezm.0014.tooltip: "요새의 유적은 먼 미래의 어느 시점에 옥서스 강에 의해 파괴될 수도 있습니다." # 18094231847642264233
+  khwarezm.0015.t: "xxxxx" # 1951045980481827005
+  khwarezm.0015.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0015.a: "xxxxx" # 1951045980481827005
+  khwarezm.0016.t: "xxxxx" # 1951045980481827005
+  khwarezm.0016.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0016.a: "xxxxx" # 1951045980481827005
+  khwarezm.0017.t: "xxxxx" # 1951045980481827005
+  khwarezm.0017.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0017.a: "xxxxx" # 1951045980481827005
+  khwarezm.0018.t: "xxxxx" # 1951045980481827005
+  khwarezm.0018.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0018.a: "xxxxx" # 1951045980481827005
+  khwarezm.0019.t: "xxxxx" # 1951045980481827005
+  khwarezm.0019.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0019.a: "xxxxx" # 1951045980481827005
+  khwarezm.0020.t: "야자타 신 숭배" # 16267873870641341788
+  khwarezm.0020.desc.intro: "저는 [ROOT.Char.GetFaith.HouseOfWorship]에 도착하여 [ROOT.Char.GetFaith.GetAdjective] 숭배 의식에 참여합니다.\n\n오늘, 저는 숭배합니다" # 9283066200540918853
+  khwarezm.0020.desc.anahita: "아나히타, 물과 풍요의 야자타." # 9751741189995872936
+  khwarezm.0020.desc.bahram: "바흐람, 승리의 야자타." # 6686175905856794070
+  khwarezm.0020.desc.mah: "달의 야자타, 마흐." # 14101067461283443395
+  khwarezm.0020.desc.mithra: "미트라, 태양, 빛, 정의의 야자타." # 2836601180721451476
+  khwarezm.0020.desc.nana: "나나, 전쟁과 왕권의 야자타." # 3622268655104255682
+  khwarezm.0020.desc.rashnu: "라슈누, 심판의 야자타." # 2582414122886046988
+  khwarezm.0020.desc.sraosha: "스라오샤, 순종의 야자타." # 17228181639874907490
+  khwarezm.0020.desc.tir: "티르, 비와 천상의 궁수 야자타." # 3501895788389334435
+  khwarezm.0020.desc.siyavash: "사야바시, 죽음과 부활의 야자타." # 13601340841476593109
+  khwarezm.0020.desc.wakhsh: "옥수스 강의 야자타인 와크쉬." # 4640312545438100559
+  khwarezm.0020.desc.weshparkar: "웨쉬파르카르, 바람의 야자타." # 61490091088727489
+  khwarezm.0020.desc.astghik: "아스티히크, 아름다움과 사랑의 야자타." # 17513479498839898385
+  khwarezm.0020.desc.barshamin: "바르샤민, 하늘의 야자타." # 17881776996262011549
+  khwarezm.0020.desc.tork: "토르크, 힘과 용기의 야자타." # 3036044110381151022
+  khwarezm.0020.desc.vahagn: "바하근, 물과 풍요의 야자타." # 15002185316885050771
+  khwarezm.0020.desc.dali: "달리, 사냥과 새벽의 야자타." # 9538512516199411504
+  khwarezm.0020.desc.gaim: "가임, 은빛 야자타이자 미트라의 시종." # 5127781586867674678
+  khwarezm.0020.desc.gatsi: "황금 야자타이자 미트라의 수행원인 가치." # 13072533636295397653
+  khwarezm.0020.desc.kopala: "코팔라, 번개의 야자타" # 15833112060429907679
+  khwarezm.0020.desc.zaden: "자덴, 풍요의 야자타." # 3197827460126581827
+  khwarezm.0020.desc.conclusion: "의식이 끝나면, 모든 일이 순조롭게 진행되도록 노력해 준 [ROOT.Char.GetFaith.PriestNeuterPlural]들에게 감사를 표합니다. 저는 큰 영감을 받았고, 선한 생각, 선한 말, 선한 행동과 더불어 야자타에 대한 저의 숭배가 결실을 맺기를 바랍니다." # 4847549003081547526
+  khwarezm.0020.a: "[ROOT.Char.GetFaith.HighGodName]와 야자타들을 찬양하라!" # 8809021822843718964
+  khwarezm.0020.b.sassanian: "제가 대부분의 의식보다 더 성대한 예배 의식으로 만들었습니다!" # 8839612121424318441
+  khwarezm.0020.b.cult: "이 신성한 장소에서 이 야자타를 숭배하는 것은 좋습니다." # 879993860368003700
+  khwarezm.0021.t: "야자타 숭배 중심지" # 12443747547560764256
+  khwarezm.0021.desc.intro: "오랫동안 [capital.GetNameNoTier]는 저를 포함하여 특히 헌신적인 수많은 독실한 [ROOT.Char.GetFaith.GetAdherentNamePlural]의 고향이었습니다." # 4692645002748642515
+  khwarezm.0021.desc.anahita: "아나히타, 물과 풍요의 야자타." # 9751741189995872936
+  khwarezm.0021.desc.bahram: "바흐람, 승리의 야자타." # 6686175905856794070
+  khwarezm.0021.desc.mah: "마, 달의 야자타." # 14101067461283443395
+  khwarezm.0021.desc.mithra: "미트라, 태양, 빛, 정의의 야자타." # 2836601180721451476
+  khwarezm.0021.desc.nana: "나나, 전쟁과 왕권의 야자타." # 3622268655104255682
+  khwarezm.0021.desc.rashnu: "라슈누, 심판의 야자타." # 2582414122886046988
+  khwarezm.0021.desc.sraosha: "스라오샤, 순종의 야자타." # 17228181639874907490
+  khwarezm.0021.desc.tir: "티르, 비와 천상의 궁수 야자타." # 3501895788389334435
+  khwarezm.0021.desc.siyavash: "사야바시, 죽음과 부활의 야자타." # 13601340841476593109
+  khwarezm.0021.desc.wakhsh: "옥수스 강의 야자타인 와크쉬." # 4640312545438100559
+  khwarezm.0021.desc.weshparkar: "웨쉬파르카르, 바람의 야자타." # 61490091088727489
+  khwarezm.0021.desc.astghik: "아스트기크, 아름다움과 사랑의 야자타." # 17513479498839898385
+  khwarezm.0021.desc.barshamin: "바르샤민, 하늘의 야자타." # 17881776996262011549
+  khwarezm.0021.desc.tork: "토르크, 힘과 용기의 야자타." # 3036044110381151022
+  khwarezm.0021.desc.vahagn: "바하근, 물과 풍요의 야자타." # 15002185316885050771
+  khwarezm.0021.desc.dali: "달리, 사냥과 새벽의 야자타." # 9538512516199411504
+  khwarezm.0021.desc.gaim: "가임, 은빛 야자타이자 미트라의 시종." # 5127781586867674678
+  khwarezm.0021.desc.gatsi: "황금 야자타이자 미트라의 수행원인 가치." # 13072533636295397653
+  khwarezm.0021.desc.kopala: "코팔라, 번개의 야자타" # 15833112060429907679
+  khwarezm.0021.desc.zaden: "자덴, 풍요의 야자타." # 3197827460126581827
+  khwarezm.0021.desc.conclusion: "[capital.GetNameNoTierNoTooltip]을 이 야자타의 주요 신앙 중심지로 개조하기로 결정했습니다. 지역 자원이 종교 건물 건설에 재배치되어 [ROOT.Char.Custom('DefaultPriestTitlePlural')]와 장인이 유입되고, 전반적으로 [capital.GetNameNoTierNoTooltip]이 [ROOT.Char.GetFaith.GetName]의 요새가 되도록 최선을 다할 것입니다.\n\n그렇게 함으로써, 멀리 떨어진 곳에 있는 [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]은 참으로 숭배할 가치가 있는 이 신성을 숭배하기 위해 여기에 올 수 있을 것입니다." # 11605986267110860534
+  khwarezm.0021.a: "위대한 야자타를 위한 위대한 성소!" # 18072991802095694001
+  khwarezm.0022.t: "컬트 중심지 파괴" # 12215229669959586915
+  khwarezm.0022.desc.intro: "제 영토의 여러 곳에 [zoroastrianism.GetAdjective] 숭배 중심지가 있으며, 그곳에서 [zoroastrianism.GetNameNoTooltip]을 믿는 자들이 모여 거짓 우상에 불과한 자칭 야자타를 숭배하고 기도합니다." # 3578973149647479571
+  khwarezm.0022.desc.zoroastrian: "이들 컬트 중심지의 사람들은 야자타를 숭배하는 방식에 부적절한 점이 없으며, 이는 [ROOT.Char.GetFaith.GetAdjective] 종교 의식과 유사하다고 주장하지만, 이는 모두 거짓말입니다. 그들의 이단적인 관행은 참된 종교와 모순되며, 잘 속는 [ROOT.Char.GetFaith.GetAdherentNamePlural]을 혼란스럽게 하고, 부도덕하고 파괴적인 사상을 조장하며, 우리의 정당한 통치에 대한 반란을 조장합니다." # 525466916691285677
+  khwarezm.0022.desc.non_zoroastrian: "이교도 [zoroastrianism.GetAdjective]의 관습은 물론 [ROOT.Char.GetFaith.GetName] [ROOT.Char.GetFaith.ReligiousText]에서 가르치는 신성한 진리에 대한 모욕입니다. 이러한 예배 장소는 [ROOT.Char.GetFaith.HighGodName]의 진정한 가르침과 모순되고, 부도덕하고 파괴적인 사상을 조장하며, 우리의 정의로운 통치에 대한 반란을 조장합니다." # 11844212840248928201
+  khwarezm.0022.desc.conclusion: "따라서, 저는 제 영토 내의 불쾌한 이단 중심지를 본질적으로 파괴하라는 명령을 내렸습니다. 모든 종교 구조물은 해체되고 그 재산은 약탈될 것입니다. 이곳 주민들은 앞으로 불법적이고 정통적이지 않은 종교 행위에 참여하는 것이 금지될 것입니다." # 5112336428384297568
+  khwarezm.0022.a: "진실이 승리하리라!" # 7798590906785754882
+  khwarezm.0023.t: "#bold $province$에서 영감을 받은 결단#!\n\n역사적 배경: $ruler.GetTitledName$이 [GetGeographicalRegion('world_asia_central').GetName]에서 가장 강력한 통치자 중 하나가 되면서 그들에게는 중요한 결단이 주어집니다. 그들은 자신들의 왕국을 안정화시키고 장차 다가올 일들을 대비하기 위해 수도를 이전해야 합니다." # 15527918821431811625
+  khwarezm.0023.desc.intro: "[RICE_yazata_cult_destroyer.GetTitledFirstNamePossessive]의 영지에는 [zoroastrianism.GetAdjective] 컬트 중심지가 여러 곳에 있으며, [zoroastrianism.GetNameNoTooltip]을 믿는 자들이 소위 야자타에게 예배하고 기도하기 위해 모입니다. 하지만 [RICE_yazata_cult_destroyer.GetFirstNameNoTooltip]의 생각으로는 이러한 야자타는 거짓 우상에 불과합니다." # 179349132691551818
+  khwarezm.0023.desc.zoroastrian: "[RICE_yazata_cult_destroyer.GetFirstNameNoTooltip]도 [zoroastrianism.GetNameNoTooltip]의 한 갈래를 따르고 있지만, [RICE_yazata_cult_destroyer.GetSheHe]는 [RICE_yazata_cult_destroyer.GetHerHis]가 이단적이라고 여기는 행위에 대한 애정이 없습니다. [RICE_yazata_cult_destroyer.GetHerHis]의 생각에는 그것이 진정한 종교와 모순되고, 잘 속는 [ROOT.Char.GetFaith.GetAdherentNamePlural]을 혼란스럽게 하며, 부도덕하고 파괴적인 사상을 조장하고, [RICE_yazata_cult_destroyer.GetHerHis]의 정당한 통치에 대한 반란을 조장한다고 여깁니다." # 8483318844369369738
+  khwarezm.0023.desc.non_zoroastrian: "[RICE_yazata_cult_destroyer.GetFaith.GetAdherentName]로서, [RICE_yazata_cult_destroyer.GetFirstNameNoTooltip]는 [RICE_yazata_cult_destroyer.GetHerHis] 의견으로 [RICE_yazata_cult_destroyer.GetFaith.HighGodName]의 진정한 가르침과 모순되고, 부도덕하고 파괴적인 사상을 조장하며, [RICE_yazata_cult_destroyer.GetHerHis] 통치에 대한 반란을 조장하는 모든 것에 맞서 싸우는 것을 [RICE_yazata_cult_destroyer.GetHerHis] 의무로 여깁니다." # 7831471253218061474
+  khwarezm.0023.desc.conclusion: "따라서, [RICE_yazata_cult_destroyer.GetFirstNameNoTooltip]는 [RICE_yazata_cult_destroyer.GetHerHis] 영역 내의 불법적인 종교 중심지를 완전히 파괴할 것을 명령했습니다. 모든 종교 건물은 해체되고 그 부는 약탈될 것이며, 앞으로는 지역 주민들이 비정통적인 불법적인 종교 행위를 할 수 없게 될 것입니다." # 11800063055987102505
+  khwarezm.0023.a.cult: "오늘은 암울한 날이로다…." # 4884960655310435078
+  khwarezm.0023.a.not_cult: "흥미로운 이야기군요…." # 15807881972522326062
+  khwarezm.0024.t: "xxxxx" # 1951045980481827005
+  khwarezm.0024.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0024.a: "xxxxx" # 1951045980481827005
+  khwarezm.0025.t: "xxxxx" # 1951045980481827005
+  khwarezm.0025.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0025.a: "xxxxx" # 1951045980481827005
+  khwarezm.0026.t: "xxxxx" # 1951045980481827005
+  khwarezm.0026.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0026.a: "xxxxx" # 1951045980481827005
+  khwarezm.0027.t: "xxxxx" # 1951045980481827005
+  khwarezm.0027.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0027.a: "xxxxx" # 1951045980481827005
+  khwarezm.0028.t: "xxxxx" # 1951045980481827005
+  khwarezm.0028.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0028.a: "xxxxx" # 1951045980481827005
+  khwarezm.0029.t: "xxxxx" # 1951045980481827005
+  khwarezm.0029.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0029.a: "xxxxx" # 1951045980481827005
+  khwarezm.0030.t: "xxxxx" # 1951045980481827005
+  khwarezm.0030.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0030.a: "xxxxx" # 1951045980481827005
+  khwarezm.0031.t: "xxxxx" # 1951045980481827005
+  khwarezm.0031.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0031.a: "xxxxx" # 1951045980481827005
+  khwarezm.0032.t: "xxxxx" # 1951045980481827005
+  khwarezm.0032.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0032.a: "xxxxx" # 1951045980481827005
+  khwarezm.0033.t: "xxxxx" # 1951045980481827005
+  khwarezm.0033.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0033.a: "xxxxx" # 1951045980481827005
+  khwarezm.0034.t: "xxxxx" # 1951045980481827005
+  khwarezm.0034.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0034.a: "xxxxx" # 1951045980481827005
+  khwarezm.0035.t: "xxxxx" # 1951045980481827005
+  khwarezm.0035.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0035.a: "xxxxx" # 1951045980481827005
+  khwarezm.0036.t: "xxxxx" # 1951045980481827005
+  khwarezm.0036.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0036.a: "xxxxx" # 1951045980481827005
+  khwarezm.0037.t: "xxxxx" # 1951045980481827005
+  khwarezm.0037.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0037.a: "xxxxx" # 1951045980481827005
+  khwarezm.0038.t: "xxxxx" # 1951045980481827005
+  khwarezm.0038.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0038.a: "xxxxx" # 1951045980481827005
+  khwarezm.0039.t: "xxxxx" # 1951045980481827005
+  khwarezm.0039.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0039.a: "xxxxx" # 1951045980481827005
+  khwarezm.0040.t: "xxxxx" # 1951045980481827005
+  khwarezm.0040.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0040.a: "xxxxx" # 1951045980481827005
+  khwarezm.0041.t: "xxxxx" # 1951045980481827005
+  khwarezm.0041.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0041.a: "xxxxx" # 1951045980481827005
+  khwarezm.0042.t: "xxxxx" # 1951045980481827005
+  khwarezm.0042.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0042.a: "xxxxx" # 1951045980481827005
+  khwarezm.0043.t: "xxxxx" # 1951045980481827005
+  khwarezm.0043.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0043.a: "xxxxx" # 1951045980481827005
+  khwarezm.0044.t: "xxxxx" # 1951045980481827005
+  khwarezm.0044.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0044.a: "xxxxx" # 1951045980481827005
+  khwarezm.0045.t: "xxxxx" # 1951045980481827005
+  khwarezm.0045.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0045.a: "xxxxx" # 1951045980481827005
+  khwarezm.0046.t: "xxxxx" # 1951045980481827005
+  khwarezm.0046.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0046.a: "xxxxx" # 1951045980481827005
+  khwarezm.0047.t: "xxxxx" # 1951045980481827005
+  khwarezm.0047.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0047.a: "xxxxx" # 1951045980481827005
+  khwarezm.0048.t: "xxxxx" # 1951045980481827005
+  khwarezm.0048.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0048.a: "xxxxx" # 1951045980481827005
+  khwarezm.0049.t: "xxxxx" # 1951045980481827005
+  khwarezm.0049.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0049.a: "xxxxx" # 1951045980481827005
+  khwarezm.0050.t: "옥수스 정착지 재배치" # 2874400415083512512
+  khwarezm.0050.desc: "옥서스 강둑은 항상 범람하기 쉬웠습니다. 현지인들이 "미친 강"이라고 부르는 이유이기도 합니다.\n\n하지만 최근에 [county.GetNameNoTier] 지역에서 특히 심각한 홍수가 발생했습니다. 주민들은 여러 정착지에 안전한 곳으로 이주해야 했고, 그곳의 관리들은 혼란스러워지기 전에 상황을 처리하는 데 도움이 될 수 있도록 지역 행정에 자금을 지원해 달라고 간청하고 있습니다." # 8859359001164307338
+  khwarezm.0050.a: "그들은 필요한 자금을 얻을 것입니다!" # 9822987255774250469
+  khwarezm.0050.b: "지금은 어떤 도움도 줄 수 없습니다." # 7712094873489218481
+  khwarezm.0051.t: "옥서스 강가의 기도" # 3961987000946433672
+  khwarezm.0051.desc: "옥서스 강은 이로운 만큼이나 위험합니다. 때때로 "미친 강"이라고 불리는 이 강은 예측할 수 없이 범람하거나 경로를 바꿔 지역 주민들의 삶에 부정적인 영향을 미칩니다.\n\n따라서 지역 [ROOT.Char.GetFaith.GetAdherentNamePlural] 사이에는 매년 강이 원활하게 흐르도록 [ROOT.Char.GetFaith.PantheonTerm]에게 기도하는 전통이 있습니다. 그러나 일부 [ROOT.Char.Custom('DefaultPriestTitlePlural')]은 이러한 관행을 지지하지만 다른 [ROOT.Char.Custom('DefaultPriestTitlePlural')]은 이러한 의식이 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 교리에 위배된다고 비난합니다.\n\n어쨌든, 저는 방금 저명한 [ROOT.Char.Custom('DefaultPriestTitle')]로부터 이러한 의식 중 하나에 참여하라는 초대를 받았습니다. 이것은 지역 주민들에게 호감을 얻을 수 있는 좋은 기회가 될 수 있지만, 반면에 다른 [ROOT.Char.Custom('DefaultPriestTitlePlural')]은 저의 참여를 좋게 보지 않을 수도 있습니다." # 15888356229540926176
+  khwarezm.0051.a: "이 의식에 참여하는 데에는 관심이 없습니다." # 15819136140742726212
+  khwarezm.0051.b: "강이 원활하게 흐르도록 기도해야 합니다." # 11980135293993220982
+  khwarezm.0052.t: "웅장한 고대 유적" # 3764655219681602508
+  khwarezm.0052.desc: "수 세기에 걸쳐 [GetGeographicalRegion('RICE_lower_oxus_region').GetName]의 많은 지역에 #italic kala#! 요새가 건설되었습니다. 옥수스 강을 따라 영토를 가진 사람으로서 저는 이러한 요새에 익숙하며, 제 영토의 방어를 강화하기 위해 가끔씩 일부 요새를 개조하기도 했습니다.\n\n최근에는 옥수스 강변 시골을 여행할 기회가 있었는데, 그러던 중 많은 오래된 #italic kala#! 유적을 발견했습니다. 이 유적들은 너무 풍화되어 수리하여 사용할 수 있는 상태는 아니지만, 예전에는 얼마나 웅장했을지 상상할 수 있습니다!" # 12813053674007777260
+  khwarezm.0052.a: "정말로 장관이군요." # 4486856479502312247
+  khwarezm.0053.t: "미친 강의 악취" # 6949178700467443905
+  khwarezm.0053.desc: "오늘 저의 궁정에 저의 영토를 대부분 여행한 유명한 여행자가 찾아왔습니다. 저는 그가 본 곳들에 대해 어떻게 생각하는지 궁금해서 물어보았습니다.\n\n그 여행자는 전반적으로 좋은 말을 해주었습니다. 예를 들어 그는 제 영토에서 장인들이 생산한 예술 작품의 질이나 일부 지역 주민들이 [ROOT.Char.GetFaith.HighGodName]에 대해 가진 위대한 헌신을 칭찬했습니다.\n\n하지만 그는 제 영토, 특히 [GetGeographicalRegion('RICE_lower_oxus_region').GetName] 지역 근처의 정착지에 큰 불만을 가지고 있었습니다.\n\n"솔직히 말씀드리면," 그는 제게 말했습니다. "그 마을들은 끔찍한 오물로 가득 차 있습니다! 악취가 견딜 수 없을 정도입니다! 옥수스 강의 끊임없는 범람으로 인한 것이라 누구의 잘못도 아니라는 것을 알지만, 사람들이 어떻게 그런 환경에서 살 수 있는지 모르겠습니다!"" # 13774940786891086978
+  khwarezm.0053.a: "저도 어떻게 해야 할지 모르겠어요. 그래서 궁궐에 있는 거고요!" # 8728549466012386390
+  khwarezm.0053.b: "우리 백성은 옥서스 강이 변덕스러운 여주인이라 할지라도 열심히 일합니다." # 8812006686044631471
+  khwarezm.0054.t: "시아부쉬 왕조" # 2239044625750031450
+  khwarezm.0054.desc: "전설에 따르면 [GetGeographicalRegion('RICE_lower_oxus_region').GetName]를 따라 흐르는 호라즘의 원래 왕들은 알렉산더 대왕 시대보다 천 년도 더 전에 전설적인 시야바시의 아들인 전설적인 케이 호스로의 후손이라고 합니다.\n\n그 당시 이른바 시야부쉬드 왕조는 스텝 지역으로 세력을 확장하고 그곳의 여러 부족을 정복하여 번영하는 땅을 개발하고 많은 위대한 도시와 성을 건설했다고 합니다.\n\n물론 이 이야기가 진실인지 확신하지 못하는 사람들도 있습니다. 알렉산더 대왕 이전 시대는 아주 오래전이며, 옥서스 강을 따라 내 영토에도 고대 요새의 폐허가 많이 있지만, 이 요새가 원래 시야바시의 후손에 의해 건설된 것인지 아닌지는 누가 알 수 있겠습니까?" # 2299754556990355820
+  khwarezm.0054.a: "분명 저 요새들은 영광스러운 왕들의 유산일 것입니다!" # 10939606729763335326
+  khwarezm.0054.b: "이 왕들이 정말로 존재했는지 의심스럽습니다." # 10374559874030858420
+  khwarezm.0055.t: "xxxxx" # 1951045980481827005
+  khwarezm.0055.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0055.a: "xxxxx" # 1951045980481827005
+  khwarezm.0056.t: "xxxxx" # 1951045980481827005
+  khwarezm.0056.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0056.a: "xxxxx" # 1951045980481827005
+  khwarezm.0057.t: "xxxxx" # 1951045980481827005
+  khwarezm.0057.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0057.a: "xxxxx" # 1951045980481827005
+  khwarezm.0058.t: "xxxxx" # 1951045980481827005
+  khwarezm.0058.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0058.a: "xxxxx" # 1951045980481827005
+  khwarezm.0059.t: "xxxxx" # 1951045980481827005
+  khwarezm.0059.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0059.a: "xxxxx" # 1951045980481827005
+  khwarezm.0060.t: "xxxxx" # 1951045980481827005
+  khwarezm.0060.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0060.a: "xxxxx" # 1951045980481827005
+  khwarezm.0061.t: "xxxxx" # 1951045980481827005
+  khwarezm.0061.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0061.a: "xxxxx" # 1951045980481827005
+  khwarezm.0062.t: "xxxxx" # 1951045980481827005
+  khwarezm.0062.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0062.a: "xxxxx" # 1951045980481827005
+  khwarezm.0063.t: "xxxxx" # 1951045980481827005
+  khwarezm.0063.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0063.a: "xxxxx" # 1951045980481827005
+  khwarezm.0064.t: "xxxxx" # 1951045980481827005
+  khwarezm.0064.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0064.a: "xxxxx" # 1951045980481827005
+  khwarezm.0065.t: "xxxxx" # 1951045980481827005
+  khwarezm.0065.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0065.a: "xxxxx" # 1951045980481827005
+  khwarezm.0066.t: "xxxxx" # 1951045980481827005
+  khwarezm.0066.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0066.a: "xxxxx" # 1951045980481827005
+  khwarezm.0067.t: "xxxxx" # 1951045980481827005
+  khwarezm.0067.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0067.a: "xxxxx" # 1951045980481827005
+  khwarezm.0068.t: "xxxxx" # 1951045980481827005
+  khwarezm.0068.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0068.a: "xxxxx" # 1951045980481827005
+  khwarezm.0069.t: "xxxxx" # 1951045980481827005
+  khwarezm.0069.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0069.a: "xxxxx" # 1951045980481827005
+  khwarezm.0070.t: "xxxxx" # 1951045980481827005
+  khwarezm.0070.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0070.a: "xxxxx" # 1951045980481827005
+  khwarezm.0071.t: "xxxxx" # 1951045980481827005
+  khwarezm.0071.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0071.a: "xxxxx" # 1951045980481827005
+  khwarezm.0072.t: "xxxxx" # 1951045980481827005
+  khwarezm.0072.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0072.a: "xxxxx" # 1951045980481827005
+  khwarezm.0073.t: "xxxxx" # 1951045980481827005
+  khwarezm.0073.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0073.a: "xxxxx" # 1951045980481827005
+  khwarezm.0074.t: "xxxxx" # 1951045980481827005
+  khwarezm.0074.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0074.a: "xxxxx" # 1951045980481827005
+  khwarezm.0075.t: "xxxxx" # 1951045980481827005
+  khwarezm.0075.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0075.a: "xxxxx" # 1951045980481827005
+  khwarezm.0076.t: "xxxxx" # 1951045980481827005
+  khwarezm.0076.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0076.a: "xxxxx" # 1951045980481827005
+  khwarezm.0077.t: "xxxxx" # 1951045980481827005
+  khwarezm.0077.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0077.a: "xxxxx" # 1951045980481827005
+  khwarezm.0078.t: "xxxxx" # 1951045980481827005
+  khwarezm.0078.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0078.a: "xxxxx" # 1951045980481827005
+  khwarezm.0079.t: "xxxxx" # 1951045980481827005
+  khwarezm.0079.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0079.a: "xxxxx" # 1951045980481827005
+  khwarezm.0080.t: "xxxxx" # 1951045980481827005
+  khwarezm.0080.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0080.a: "xxxxx" # 1951045980481827005
+  khwarezm.0081.t: "xxxxx" # 1951045980481827005
+  khwarezm.0081.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0081.a: "xxxxx" # 1951045980481827005
+  khwarezm.0082.t: "xxxxx" # 1951045980481827005
+  khwarezm.0082.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0082.a: "xxxxx" # 1951045980481827005
+  khwarezm.0083.t: "xxxxx" # 1951045980481827005
+  khwarezm.0083.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0083.a: "xxxxx" # 1951045980481827005
+  khwarezm.0084.t: "xxxxx" # 1951045980481827005
+  khwarezm.0084.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0084.a: "xxxxx" # 1951045980481827005
+  khwarezm.0085.t: "xxxxx" # 1951045980481827005
+  khwarezm.0085.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0085.a: "xxxxx" # 1951045980481827005
+  khwarezm.0086.t: "xxxxx" # 1951045980481827005
+  khwarezm.0086.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0086.a: "xxxxx" # 1951045980481827005
+  khwarezm.0087.t: "xxxxx" # 1951045980481827005
+  khwarezm.0087.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0087.a: "xxxxx" # 1951045980481827005
+  khwarezm.0088.t: "xxxxx" # 1951045980481827005
+  khwarezm.0088.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0088.a: "xxxxx" # 1951045980481827005
+  khwarezm.0089.t: "xxxxx" # 1951045980481827005
+  khwarezm.0089.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0089.a: "xxxxx" # 1951045980481827005
+  khwarezm.0090.t: "xxxxx" # 1951045980481827005
+  khwarezm.0090.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0090.a: "xxxxx" # 1951045980481827005
+  khwarezm.0091.t: "xxxxx" # 1951045980481827005
+  khwarezm.0091.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0091.a: "xxxxx" # 1951045980481827005
+  khwarezm.0092.t: "xxxxx" # 1951045980481827005
+  khwarezm.0092.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0092.a: "xxxxx" # 1951045980481827005
+  khwarezm.0093.t: "xxxxx" # 1951045980481827005
+  khwarezm.0093.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0093.a: "xxxxx" # 1951045980481827005
+  khwarezm.0094.t: "xxxxx" # 1951045980481827005
+  khwarezm.0094.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0094.a: "xxxxx" # 1951045980481827005
+  khwarezm.0095.t: "xxxxx" # 1951045980481827005
+  khwarezm.0095.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0095.a: "xxxxx" # 1951045980481827005
+  khwarezm.0096.t: "xxxxx" # 1951045980481827005
+  khwarezm.0096.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0096.a: "xxxxx" # 1951045980481827005
+  khwarezm.0097.t: "xxxxx" # 1951045980481827005
+  khwarezm.0097.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0097.a: "xxxxx" # 1951045980481827005
+  khwarezm.0098.t: "xxxxx" # 1951045980481827005
+  khwarezm.0098.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0098.a: "xxxxx" # 1951045980481827005
+  khwarezm.0099.t: "xxxxx" # 1951045980481827005
+  khwarezm.0099.desc: "xxxxx" # 1951045980481827005
+  khwarezm.0099.a: "xxxxx" # 1951045980481827005

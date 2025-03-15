@@ -1,506 +1,506 @@
 ﻿l_korean:
-  RICE_every_volga_beekeeper_county: "$tradition_RICE_volga_apiculture_name$ [전통|E]을 가진 [문화|E]의 모든 [county|E]" # 9e354128e6b989372dbd5610c93396ef06b5fccc
-  RICE_volga_river_region: "볼가 강 유역" # e3a4401242b8b2e94644339fdaed98b860daf817
-  RICE_culture_in_volga_river_basin_desc: "[culture|E]이(가) [GetGeographicalRegion('RICE_volga_river_region').GetName]에 최소 #V 4#!개의 [counties|E]를 보유하고 있습니다." # 7e51ff9ee2e76154c9624c5475f3dad50e890d5f
-  RICE_location_volga_apiculture_county_req: "당신의 [domicile|E] [location|E]의 [culture|E]에는 $tradition_RICE_volga_apiculture_name$ [tradition|E]이(가) 있습니다." # 6350bcb168e5ef07b25e843633dcf77b1c0e7ca6
-  tradition_RICE_apiculture_name: "양봉가" # a26685886c1cbeb9faf7450ad320bb7d46ace758
-  tradition_RICE_apiculture_desc: "#F 꿀벌 사육과 벌꿀 채취는 전 세계적으로 행해지지만, 이 문화권은 고대 예술의 달인으로 여겨집니다. 적절한 꿀벌 사육 방식으로든, 야생 꿀벌과의 더 거친 상호작용을 통해든, 그들은 꿀벌로부터 많은 귀중한 제품, 특히 꿀뿐만 아니라 밀랍, 로열젤리, 꽃가루 등을 수집합니다.#!" # 27d93457cc5a30022abc28d1fc58d8cb77ee97f2
-  tradition_RICE_volga_apiculture_name: "볼가 양봉가" # 0d8a0056a8521774e66f37ab99c7288fd0561f49
-  tradition_RICE_volga_apiculture_desc: "#F 벌꿀 채취와 밀랍 채취는 전 세계적으로 이루어지지만, 볼가 지역 주민들은 뛰어난 꿀벌 사육 기술로 유명합니다. 이 문화권에서 생산된 소중한 꿀벌 제품, 꿀과 밀랍은 종종 외국 시장으로 수출되거나, 현지 통치자들에게 공물로 바쳐집니다.#!" # 93ec0a48000c03755ca76482a00b9d0b95c29aa5
-  culture_parameter_unlock_rice_volga_bee_tribute_decision: "[culture|E]의 [counties|E]를 다스리는 자들을 위해 $RICE_mordvin_extract_beekeeper_tribute$ [decision|E]을 해금합니다." # 35f3cf9f87e782363e784289572569e33df51b9f
-  culture_parameter_unlock_rice_volga_bee_product_decision: "$RICE_mordvin_acquire_volga_bee_products$ 결정을 해제하고 다른 [characters|E]에게 $RICE_mordvin_give_bee_products$ 상호 작용을 해제합니다" # 34d1cb64f26f0c89c3251da7d64e0cf4ba1f0f87
-  RICE_culture_in_volga_beekeeper_terrain_desc: "[culture|E]은(는) 농지, 범람원, 평원, 삼림, 구릉 또는 습지 [terrain|E]이(가) 있는 어떤 [county|E]에도 존재하지 않습니다." # 7d9d2d2395f99e06e42661c280034c0c8946e817
-  tradition_RICE_finnic_sorcerers_name: "북부 마법사" # 0c8c5df34b751d263d39fb5a31e40723433937ea
-  tradition_RICE_finnic_sorcerers_desc: "#F 이 문화권에서 마법은 중요하며, 긍정적으로 여겨집니다.  삶에서 성공한 자들은 종종 강력한 마법사로 여겨집니다.  외국에서는 이 문화권 사람들이 마법 능력 때문에 두려워하고 존경받기도 합니다.#!" # 3dffff92cbaa4b63d5f9932bb255fbdb1cdde75e
-  RICE_mordvin_beekeeper_tribute_extracted: "볼가 양봉가로부터 공물 징수" # fa5763acdf68cdcc871739cf97a90dbf6014244f
-  RICE_mordvin_beekeeper_tribute_extracted_desc: "이 인물은 최근 관할 지역의 꿀벌 농업으로 유명한 주변 마을들로부터 꿀, 밀랍, 기타 벌꿀 제품에 대한 추가 공물을 요구했습니다." # 46e8237952a789efd44b39236e3ae0b6d976161c
-  RICE_mordvin_beekeeper_tribute_extracted_county: "볼가 양봉가에게서 추가 공물 징수" # 30ef4d6dcded9a3231cf31d8cc4524b3dfb5f99a
-  RICE_mordvin_beekeeper_tribute_extracted_county_desc: "이 지역의 양봉가들은 자신들을 다스리는 사람에게 꿀과 밀랍 같은 벌 생산물을 정기적으로 조공으로 바치고 있지만, 최근 당국은 그들에게 더 많은 조공을 요구했습니다." # 6bac5d6f72dba9cf87760dbb85c6c7835c5d0887
-  RICE_mordvin_honey: "볼가 꿀벌의 꿀" # bb07052bac29c0b5835572b6648e90f45d841787
-  RICE_mordvin_beeswax: "볼가 꿀벌의 밀랍" # fda9c07713ceaa1bdad5f623251c89986b7ad0d9
-  RICE_mordvin_honey_and_beeswax: "볼가 꿀벌의 꿀과 밀랍" # 2586c40325ab56246be5e0f2b4b85e1c15340a4b
-  RICE_mordvin_opinion_honey: "꿀을 선물해주셨네요" # 5fe3e1d573fa6bc48e9454120d39464a2ab4c0a9
-  RICE_mordvin_opinion_beeswax: "밀랍을 선물했습니다" # 228ab50a8c228cb1c3a61f36c14eb7205e63c9b9
-  RICE_mordvin_opinion_honey_and_beeswax: "꿀과 밀랍을 선물했습니다" # b552a82e31de3251e7e9df1812f2e5f2e71c1789
-  RICE_horse_sacrifice_boon_minor_war: "말 희생 (소규모 전쟁 이점)" # 45b7df52162b2e491eb85a378a5916497db7ce49
-  RICE_horse_sacrifice_boon_minor_political: "말 제물(소규모 정치적 혜택)" # d6187579a7ac596c315decf55ab7621d17a04015
-  RICE_horse_sacrifice_boon_minor_ritual: "말 희생 (소규모 의례 축복)" # a64f12e4e27c1e71e3d156f6eb2e28057c25d785
-  RICE_horse_sacrifice_boon_minor_material: "말 희생 (소규모 물질적 축복)" # 4871746b54508f01c0d06495a5fd9522f5556edd
-  RICE_horse_sacrifice_boon_major_war: "말 희생 (주요 전쟁 특전)" # 33fd3e8b45092f4a22b9341fbb409bdb4944a9f5
-  RICE_horse_sacrifice_boon_major_political: "말 희생 (주요 정치적 이점)" # 2a0a2851e527d2fc328c09dc9835b37a5cc78325
-  RICE_horse_sacrifice_boon_major_ritual: "말 희생 (주요 의례 축복)" # 089f98fc8da61e3ccab773ae2f3eeae1133523be
-  RICE_horse_sacrifice_boon_major_material: "마차 제물 (주요 자원 증가)" # 7d9f8899ba1491697c26e62587fa5bded502920f
-  RICE_horse_sacrifice_boon_great_war: "말 희생 (위대한 전쟁 축복)" # 5282d24ea4999a54f6c494a3c433a7dc75e138aa
-  RICE_horse_sacrifice_boon_great_political: "말 희생 (정치적 큰 이득)" # d4f5f18d4e79b1193bfc09c07a7d22dc772ef441
-  RICE_horse_sacrifice_boon_great_ritual: "말 희생 (위대한 의례 축복)" # 3558e68fd9195041204df01906c74f46ab17388a
-  RICE_horse_sacrifice_boon_great_material: "말 희생 (위대한 물질적 축복)" # cf0c39a3b01bf85979437666b7051e7a51c7fd34
-  RICE_mordvin_recently_celebrated_ine_ozks: "최근에 조직된 이네 오즈크스" # 1a8b702af49a853a99dd5fb95f80489c1956ceda
-  RICE_mordvin_ine_ozks_recently_held: "Ine Ozks 최근 개최" # dc24e8adbfa94b53f5a90bb6893a71dbb6264c35
-  RICE_mordvin_opinion_family_ozks_time: "오크스 동안 저와 시간을 보냈습니다" # ceb105647c0f74563cddf647e15c5936f6358c07
-  RICE_mordvin_ozks_fertility_blessing: "오즈크스의 수확 축복" # 39a69c65bb9db550a5a31eecdf9c4768bbd3207c
-  RICE_mordvin_ozks_defense_blessing: "오즈크의 신성한 보호" # ef2e29cc4d2a2aabb6446126043b67da05840c90
-  RICE_mordvin_ozks_ushmandey_winner: "우슈만데이" # 036b16f8e4996293b5c9501deab674e1d86380e6
-  RICE_mordvin_ozks_ushmandey_winner_desc: "이 인물은 모르드바 전통 기도 의식 축제이자 휴일인 주요 오즈크에서 여러 스포츠 경기에서 우승한 후 #italic 우슈만데이#! 칭호를 얻었습니다. 전통적으로 이러한 게임의 우승자는 공동체에서 #italic 우슈만데이#! 또는 군 사령관으로 임명되었습니다." # 85e83d5a1f22683d24f54ee8663df952ce739369
-  RICE_mordvin_ozks_bull_meat_soup: "오즈크에서 희생된 황소로 만든 수프를 먹었습니다" # ee9f4d8031f81419b178c2593d208f892f537971
-  RICE_mordvin_horses_cast_out_evil: "말은 악귀를 몰아낸다" # 642ce84ce47b4f6f2ff3dc0fcf7177f1993715c5
-  RICE_mordvin_participated_in_water_ozks: "물의 신을 위한 오크스에 참여했습니다" # 0c19eb0697e8ed4bd1bd9fc0f12041c87dd03768
-  RICE_mordvin_participated_in_birch_tree_ozks: "자작나무를 위한 오크스에 참여함" # f5486647f04e58768d52e6e52b5b60a5031837b1
-  RICE_mordvin_encourages_silent_trade_with_foreigners: "외국인과의 '침묵 무역'을 장려합니다" # 5904588b6efe60cee0585be42b56d791ebe1ac9c
-  RICE_mordvin_merely_tolerates_silent_trade_with_foreigners: "외국인과의 '침묵의 무역'을 단순히 허용한다" # 54a1b9d75e509543eb1ce56f9db3bd016096849c
-  RICE_mordvin_buzzing_beekeeper_industry: "활기찬 양봉 산업" # ccd9169b5f7433002f05d85efb61c3977bd948ce
-  RICE_mordvin_give_bee_products: "볼가 꿀벌 제품 선물" # 89606c41dff5fc945048108ff3048f3cf9291c99
-  RICE_mordvin_give_bee_products_desc: "볼가 지역의 양봉가가 생산한 꿀, 밀랍 또는 둘 다를 선물로 주십시오." # 3d4af8df5d39b995feaf0645fbaab24e542e442c
-  RICE_bee_product_honey: "@RICE_honey_icon! 꿀" # 2802148c758898d4f4559b38b1d6edc44d0ded34
-  RICE_bee_product_beeswax: "@RICE_beeswax_icon! 밀랍" # ec0005449154aed7d0b46db00929777bfaf704c1
-  RICE_bee_product_honey_and_beeswax: "@RICE_honey_and_beeswax_icon! 꿀과 밀랍" # f73001adc546f664d6fda2f9854b8295fa6b5c30
-  RICE_mordvin_horse_sacrifice_host_memory: "[GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]을 수행했습니다." # a6b3fba705366d9d5f3d409e429d0faf4610f285
-  RICE_mordvin_horse_sacrifice_host_memory_first_perspective: "[GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]을(를) 수행했습니다" # 599c4f41c81f0d4cbb91f6c9cb3474d375b0df13
-  RICE_mordvin_horse_sacrifice_host_memory_second_perspective: "[GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]을(를) 수행했습니다" # 188a272860fcb6f093b3d110b1bd5f2719c35232
-  RICE_mordvin_horse_sacrifice_host_memory_third_perspective: "[owner.GetName]이 [GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]를 수행했습니다." # 896d9a721f8d4a5aa7c946432a0bf8f41ac8b344
-  RICE_mordvin_horse_sacrifice_guest_memory: "[host.GetTitledFirstNamePossessive] [GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]에 참여했습니다" # 66d7c1f3631e2b6c66e46f57c34550c0b788978d
-  RICE_mordvin_horse_sacrifice_guest_memory_first_perspective: "[host.GetTitledFirstNamePossessive] [GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]에 참여했습니다" # 8fd699ffb6167d545e786410bb1d2df9ab305217
-  RICE_mordvin_horse_sacrifice_guest_memory_second_perspective: "[host.GetTitledFirstNamePossessive] [GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]에 참여했습니다" # adffbba9a377cb58849c0d4ffe4183000230f149
-  RICE_mordvin_horse_sacrifice_guest_memory_third_perspective: "[owner.GetName] 님이 [host.GetTitledFirstNamePossessive] [GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]에 참여했습니다" # a0382497da0312e6a9f13030e36e7689b2c841e1
-  RICE_mordvin_ine_ozks_host_memory: "[GetActivityType( 'activity_RICE_mordvin_ine_ozks' ).GetName]을 조직했습니다" # c9c574b63f614602e4032c4077c9d42b79ae1ebf
-  RICE_mordvin_ine_ozks_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_mordvin_ine_ozks' ).GetName]을(를) 조직했습니다" # 2b503a7ef697309321fd2c2f67880d1fa8e39e13
-  RICE_mordvin_ine_ozks_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_mordvin_ine_ozks' ).GetName]을(를) 조직했습니다" # 164b0c17532ae7a11029bc306db67a0e3fece410
-  RICE_mordvin_ine_ozks_host_memory_third_perspective: "[owner.GetName]이 [GetActivityType(  'activity_RICE_mordvin_ine_ozks' ).GetName]을(를) 조직했습니다" # 6aed2f279af44ea489f55a1fc7f6789f3e796a9a
-  RICE_mordvin_ine_ozks_guest_memory: "[host.GetTitledFirstName]이(가) 주최한 [GetActivityType( 'activity_RICE_mordvin_ine_ozks' ).GetName]에 참석했습니다." # 3e9927c2a40c844aeee40ee63541c962135e9a27
-  RICE_mordvin_ine_ozks_guest_memory_first_perspective: "[host.GetTitledFirstName] 님이 주최한 [GetActivityType( 'activity_RICE_mordvin_ine_ozks' ).GetName]에 참석했습니다" # fc83c47a67fcc57b569dad04595fa972edf7faa8
-  RICE_mordvin_ine_ozks_guest_memory_second_perspective: "[host.GetTitledFirstName]이(가) 주최한 [GetActivityType( 'activity_RICE_mordvin_ine_ozks' ).GetName]에 참석했습니다" # d37054f55aa0cc8ff8a1d446a375e5d1bf9d9e96
-  RICE_mordvin_ine_ozks_guest_memory_third_perspective: "[owner.GetName]님이 [host.GetTitledFirstName]님이 주최한 [GetActivityType( 'activity_RICE_mordvin_ine_ozks' ).GetName]에 참석했습니다." # baba1fdbb69381b1c151198d0eaf25aed3cb28c3
-  activity_mordvin_ine_ozks: "이네 오즈크스" # dfe6c8b6c31c0ca2dfaaf007f1e2c091eea6afc3
-  activity_mordvin_ine_ozks_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 오즈크의 오즈크" # 82b439e54e10dee7f4981fb9dca6dcaf4b8429ae
-  activity_horse_sacrifice: "말 희생" # 72f3c5c98f450589ae3abd4d989ef2007833c229
-  activity_horse_sacrifice_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 말 희생" # af04b1b8b0db935c4917380590fc6288e71b266e
-  activity_RICE_mordvin_horse_sacrifice_host_an_a: "$host_activity_a$" # a61241acadcc9f0c0c58e8a6756d1532a43a0ac3
-  activity_RICE_mordvin_horse_sacrifice: "말 희생" # 72f3c5c98f450589ae3abd4d989ef2007833c229
-  activity_RICE_mordvin_horse_sacrifice_desc: "우리 [faith|E] 신앙을 가진 사람들은 아주 오래전부터 신과 조상에게 말을 희생 제물로 바치는 것이 관례였습니다." # 5ef3993a4dc1baf138cbbda1823600c791beae05
-  activity_RICE_mordvin_horse_sacrifice_selection_tooltip: "$RICE_misc_sacrifice_horses_effect_tooltip_1$\n\n$RICE_misc_sacrifice_horses_context_tooltip$" # cc689d4b446b7b56c96da37043072781c604d1d9
-  activity_RICE_mordvin_horse_sacrifice_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$#P 유익함#! [character_modifiers|E]" # 1f3d274e4d0211ce9f0b9fcc2bbeb6e933ae99b9
-  activity_RICE_mordvin_horse_sacrifice_guest_desc: "[piety_i] [piety|E] 획득" # a77fe2829c50854de585454535190332aa3e74fc
-  activity_RICE_mordvin_horse_sacrifice_province_desc: "이곳은 말을 희생하기에 이상적인 장소입니다." # d01d3ae1d7a54e70106dd9f5fb88f83fcabfa0c4
-  activity_RICE_mordvin_horse_sacrifice_destination_selection: "$activity_RICE_mordvin_horse_sacrifice_province_desc$" # 4f10c78a88ec4812eb960cf81d71d0313ca34a23
-  activity_RICE_mordvin_horse_sacrifice_guest_help_text: "$activity_RICE_mordvin_horse_sacrifice$" # 9ac0b55c39cb8fb69fc23f1e800d76ca6801690e
-  activity_RICE_mordvin_horse_sacrifice_predicted_cost: "말 희생의 비용은 선택한 [activity_options|E]에 따라 달라집니다." # c3bd295f09830abb6d9a316d388636275a522775
-  activity_RICE_mordvin_horse_sacrifice_conclusion_desc: "[GetActivityType( 'activity_RICE_mordvin_horse_sacrifice' ).GetName]이(가) 끝났습니다. [GetPlayer.GetFaith.PantheonTerm]께서 이 제물을 기뻐하시기를!" # ed0debfbe540349723d17731ab996493dd1738e0
-  RICE_horse_sacrifice_number_of_horses_type: "희생 규모" # cf4700751bddced3b27659f06d0e474e88d19a64
-  RICE_horse_sacrifice_number_of_horses_type_small: "미성년자" # 100b45547163e78958046d8a6d59ab6cda5004bf
-  RICE_horse_sacrifice_number_of_horses_type_small_desc: "말을 더 많이 희생할수록 보상이 증가합니다.\n\n#weak 이 희생을 위해 적합한 말을 모을 것입니다.!" # 3be0feeb1b69b22c013665433bb1763e91e76863
-  RICE_horse_sacrifice_number_of_horses_type_medium: "보통" # d404968ea90b07f16774ce75c7978d6ff60962f2
-  RICE_horse_sacrifice_number_of_horses_type_medium_desc: "말을 많이 희생할수록 보상이 증가합니다.\n\n#weak [GetPlayer.GetFaith.PantheonTerm]에게 상당수의 말을 바치는 것은 분명히 그들을 기쁘게 할 것입니다!#" # 820435f44046330415aa58a021ec3266f3d4c2e8
-  RICE_horse_sacrifice_number_of_horses_type_large: "거대" # 738fd1d2452fc31a236c5ad511bfcc46b324365e
-  RICE_horse_sacrifice_number_of_horses_type_large_desc: "말을 더 많이 희생할수록 보상이 증가합니다.\n\n#weak [GetPlayer.GetFaith.PantheonTerm](이)여, 그들의 명예를 위해 말의 웅장한 희생보다 더 적은 것을 받을 자격이 없습니다!#" # d9e5dd44358c6d71900ef596fadbbd2b197ece4e
-  RICE_mordvin_horse_sacrifice_phase: "의식" # 40fff55a67dd644d10bb660a210a8fb80e517e73
-  RICE_mordvin_horse_sacrifice_phase_desc: "우리의 말들은 우리의 전통에 맞는 방식으로 하늘에 바쳐질 것이며, 그리하여 우리는 큰 축복을 받을 수 있을 것입니다." # b96b63fea1e3d1f2f9534903c45277ef0e087f91
-  RICE_mordvin_horse_sacrifice_sacrifice_intent_header: "희생:" # 8b3e0846bd46c7bf48d44c0bd70b671f5abc9cde
-  RICE_mordvin_horse_sacrifice_sacrifice_intent: "희생" # 2e94553c2bb3cb952e4e95796f2e3fc37a4bb358
-  RICE_mordvin_horse_sacrifice_sacrifice_intent_desc: "말 희생제의의 다양한 의례에 참여합니다." # 5e722a0f861d935b7e10dc03ca7893fac74ce589
-  RICE_mordvin_horse_sacrifice_completed_log_title: "말 희생 완료" # 5b74d6881b54dde881fb46408eb81d3c4bc77d19
-  RICE_mordvin_horse_sacrifice_completed_log: "[CHARACTER.GetShortUIName|U]이(가) 말 희생을 완료했습니다" # 5b062a31d6acc24765f395e1d062dbdff269bf5a
-  RICE_horse_sacrifice_number_of_horses_amount: "희생될 말의 수" # 08051bb73466c9a61df339f7221d43812d63e9ac
-  TRAVEL_NAME_FOR_activity_RICE_mordvin_horse_sacrifice: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_mordvin_horse_sacrifice$" # 77f5c2d7fbc0ecf2d808d6df31afcaea388d971b
-  activity_RICE_mordvin_ine_ozks_host_an_a: "$host_activity_an$" # 7f38f7f6029ead5292fc8cbc1480d0b3410bba26
-  activity_RICE_mordvin_ine_ozks: "이네 오즈크스" # dfe6c8b6c31c0ca2dfaaf007f1e2c091eea6afc3
-  activity_RICE_mordvin_ine_ozks_desc: "우리 조상님들과 신들을 기리는 웅대한 기도이자 축제를 위해 백성들이 함께 모일 때입니다. 이는 우리가 평소에 행하는 #italic Ozks#! 의식을 뛰어넘는, 위대한 기도, 즉 이네 오즈크스입니다." # bb300ce905684b1044c5fb3914db1af43a31cab0
-  activity_RICE_mordvin_ine_ozks_selection_tooltip: "이네 오즈크를 조직합니다.\n\n$RICE_mordvin_major_ozks_festival_context_tooltip$" # ff32546899cff18755358ffff4ecfe0515a7c035
-  activity_RICE_mordvin_ine_ozks_host_desc: "$BULLET_WITH_TAB$[$prestige_i|E]명예[$prestige|E]$\n$BULLET_WITH_TAB$[$piety_i|E]신앙[$piety|E]$\n$BULLET_WITH_TAB$ [GetModifier('RICE_mordvin_recently_celebrated_ine_ozks').GetNameWithTooltip] [character_modifier|E]$\n$BULLET_WITH_TAB$ 해당 [activity|E]가 열리는 [county|E]는 [GetPlayer.GetFaith.GetReligion.GetName]을 따른다면 [GetModifier('RICE_mordvin_ine_ozks_recently_held').GetNameWithTooltip] [county_modifier|E]를 얻습니다." # 88938f58f154ec69fc24bffaa71fa2d74f282957
-  activity_RICE_mordvin_ine_ozks_guest_desc: "\n$BULLET_WITH_TAB$[piety_i|E][piety|E]" # b9ca3c1f455a3880c6eeb2d3d307feaca1e20694
-  activity_RICE_mordvin_ine_ozks_destination_selection: "$activity_RICE_mordvin_ine_ozks_province_desc$" # fd8dc7dfb8d196ba7c0806fdae555a906dff0722
-  activity_RICE_mordvin_ine_ozks_guest_help_text: "$activity_RICE_mordvin_ine_ozks$" # 8b0f53bfbafb4cfcf8aebf612bde832c2a39f214
-  activity_RICE_mordvin_ine_ozks_predicted_cost: "이 방문 비용은 주로 당신의 [income|E]에 따라 결정됩니다." # 75065263b5ff510a4dbbc51e78967b89dd10bca0
-  activity_RICE_mordvin_ine_ozks_conclusion_desc: "[GetActivityType( 'activity_RICE_mordvin_ine_ozks' ).GetName]이(가) 막을 내렸습니다. 정말 영광스럽고 화려한 행사였습니다!" # ffbebceb633f19063692268789651522b8412ba9
-  RICE_mordvin_ine_ozks_prayer_phase: "기도" # 8c4f3272183be6934487f3838226b0ae72f60aa8
-  RICE_mordvin_ine_ozks_prayer_phase_desc: "사람들이 공동 기도를 하기 위해 멀리서든 가까이서든 모입니다." # f489d820a6d2d22a54fd6e78898784ff8c2d3c8d
-  RICE_mordvin_ine_ozks_pious_intent_header: "신앙심 깊은:" # bd4f5e774f7ae4c43b91e0b9cce286be03807b6c
-  RICE_mordvin_ine_ozks_pious_intent: "신앙심 깊은" # 41e9f9865a1e1d18d4ec2c80e9e3c53fbff51724
-  RICE_mordvin_ine_ozks_pious_intent_desc: "헌신적인 태도로 종교 의식에 참여하려 합니다. [activity|E] 종료 시 얻는 [modifiers|E] 효과가 두 배로 오래 지속됩니다. [GetTrait('zealous').GetName( GetNullCharacter )] 특성이 있으면 [stress_loss_i|E] [stress|E]를 잃지만, [GetTrait('cynical').GetName( GetNullCharacter )] 특성이 있으면 [stress_gain_i|E] [stress|E]를 얻습니다." # b1f5651436f4c311c53f9a55f9941751dd95d913
-  RICE_mordvin_ine_ozks_community_intent_header: "커뮤니티:" # 48797e264e29594942b01679489176720ea8d937
-  RICE_mordvin_ine_ozks_community_intent: "공동체" # bfd58ee3a270f3a931009900e1008d549bbd7453
-  RICE_mordvin_ine_ozks_community_intent_desc: "다른 [prestige|E]에 추가하여 이 [활동|E] 종료 시 [prestige_i|E] 100#V 100#!를 얻으세요.  [사교적|E] 성격이면 [stress_loss_i|E] [stress|E]을 잃지만, [수줍음|E] 성격이면 [stress_gain_i|E] [stress|E]을 얻습니다." # 5f249308dc1f650f4e54192b4a63d7b43130b851
-  RICE_mordvin_ine_ozks_enjoyment_intent_header: "즐거움:" # ba17028205dfaeec2fb2a4805177adb488d11054
-  RICE_mordvin_ine_ozks_enjoyment_intent: "즐거움" # 14cb670dc35c3695b97a18260ae0cc968575cf4a
-  RICE_mordvin_ine_ozks_enjoyment_intent_desc: "이것은 중요한 행사일 수 있지만, 그렇다고 긴장을 풀고 즐길 수 없다는 뜻은 아닙니다! [stress_loss_i|E] [stress|E]를 잃는 것이 보장되며, [GetTrait('lazy').GetName( GetNullCharacter )], [GetTrait('content').GetName( GetNullCharacter )] 또는 [GetTrait('gluttonous').GetName( GetNullCharacter )]일 경우 더 많은 것을 잃게 됩니다." # a77fc985bd9394c6f14d991e4ea1e429dff6bdaa
-  RICE_mordvin_ine_ozks_completed_log_title: "이네 오즈크 완료됨" # 23d65d49bc075c974808862b8ee21dd77256763f
-  RICE_mordvin_ine_ozks_completed_log: "[CHARACTER.GetShortUIName|U]이(가) [CHARACTER.GetHerHis]의 이네 오즈크스를 끝냈습니다" # 65f474826ad5d59d8e6820837767f41c266eecd1
-  RICE_mordvin_ine_ozks_same_religion: "#P ++ 이 [county|E]는 [GetPlayer.GetFaith.GetReligion.GetAdjective] [religion|E]를 따릅니다." # 153fa14d2a38e952df173ba80611cc17b2a50932
-  TRAVEL_NAME_FOR_activity_RICE_mordvin_ine_ozks: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_mordvin_ine_ozks$" # 3695212b57e0bb7a4be88c72d22b16bec0e0fca4
-  RICE_mordvin_major_ozks_festival: "이네 오즈크를 조직합니다" # 4f1b0a4a602b96c56ccf608598a56af46cee77e6
-  RICE_mordvin_major_ozks_festival_desc: "우리 조상과 [ROOT.Char.GetFaith.PantheonTerm]을 기리는 위대한 기도, 위대한 축제를 위해 백성으로서 함께 모일 시간입니다. 이는 우리가 개최하는 일반적인 #italic 오즈크#! 의식을 넘어선 무언가일 것입니다. 즉, 위대한 기도인 이네 오즈크입니다." # cc4c3aa0c7f373dd11184ab9a4bf82338bae2df3
-  RICE_mordvin_major_ozks_festival_tooltip: "당신의 백성과 함께 이네 오즈크 기도를 드리십시오." # 23a85c744e46570e0c552418776e6c2b92456560
-  RICE_mordvin_major_ozks_festival_effect_tooltip_1: "대기도회를 조직하여 [신앙심|E], [명성|E] 또는 다양한 유익한 [인물_modifier|E]를 얻거나 [stress|E]를 줄일 수 있습니다" # 8c162424fefaefbdf098ff1f723163fac6f7a15b
-  RICE_mordvin_major_ozks_festival_effect_tooltip_2: "만약 당신의 [capital|E]이 [THIS.Char.GetFaith.GetReligion.GetAdjective] [faith|E]을 따른다면, #V 5#! 년 동안 [GetModifier('RICE_mordvin_ine_ozks_recently_held').GetNameWithTooltip] [modifier|E]를 받게 될 것입니다." # 4eec4c830476ceaed065f5cffeffc1d9201165f8
-  RICE_mordvin_major_ozks_festival_confirm: "오즈크 준비!" # d095728031b60e1f27b05ff035ed43aadb21cbf5
-  RICE_mordvin_major_ozks_festival_context_tooltip: "#bold 역사적 배경:#! #italic 오즈크#!는 몰도바인족의 공적인 기도, 숭배 의식, 그리고 종교적 명절을 지칭하는 용어입니다. 현대에는 이 중 가장 잘 알려진 것은 라스켄 오즈크이며, 여기 묘사는 라스켄 오즈크에 기반하고 있습니다. 라스켄 오즈크는 1600년대 차르 정부에 의해 금지되었으나 1999년에 부활했습니다." # bd2c12cbd5e9474a0516c0cb607838517bfc880e
-  RICE_misc_sacrifice_horses: "말을 제물로 바치기" # e94a7c28913ce4f6e67ec0b61f8cacbba5b0ee74
-  RICE_misc_sacrifice_horses_desc: "[ROOT.Char.GetFaith.GetAdjective] 신앙을 가진 자들이 기억할 수 있을 정도로 오랜 옛날부터 조상과 [ROOT.Char.GetFaith.PantheonTerm]에게 말을 제물로 바치는 것이 관습이었습니다." # 17a7497764f4fd8060e8e1504ed8eb629faf1989
-  RICE_misc_sacrifice_horses_tooltip: "말을 희생할 것입니다." # ac3b6c28fddae7407ec175fe8f2f50b667332dc4
-  RICE_misc_sacrifice_horses_effect_tooltip_1: "말을 희생하면 희생하는 말의 수에 따라 [piety|E], [prestige|E], 유익한 [character_modifiers|E] 등의 다양한 보상을 받을 수 있습니다." # 35b3683758d22a61741f7c70c0b3f28d9071300b
-  RICE_misc_sacrifice_horses_confirm: "희생할 적합한 말을 찾으십시오!" # 5e05003aa333373ec2954ed981dd5505affd66ab
-  RICE_misc_sacrifice_horses_context_tooltip: "#emphasis 역사적 배경:#! 유라시아 각지의 여러 민족, 노르드족부터 몽골족, 모르드빈족에 이르기까지, 말 제사는 흔한 종교 의식이었습니다. 이러한 사회에서는 죽은 자와 함께 말을 묻는 풍습이 일반적이었습니다. 중세와 근세에 이르러 아브라함 계통 종교와 불교의 확산과 함께 이러한 관습은 점차 사라졌습니다." # 8712afe3fe296352b6e0f658dc0089eb4cdaa31f
-  RICE_misc_sacrifice_horses_type: "몇 마리의 말을 희생할지 선택하세요." # 59a8779220839cde4111a5db300c79b76c6fc7d8
-  RICE_misc_sacrifice_horses_type_gui: "$RICE_misc_sacrifice_horses_type$" # f932c3e68a1450d30dd09710ca4f08764f85cc2d
-  RICE_misc_horse_sacrifice_minor_option: "#Bold 소규모 제사#!#!\n$RICE_misc_horse_sacrifice_minor_option_desc$" # 5194c2838880d7c574d2ff0217aa1885390bcfb0
-  RICE_misc_horse_sacrifice_minor_option_desc: "말 몇 마리 희생" # 3142c68dd66c4f0c9bfad76915ebbe98a3df2a7f
-  RICE_misc_horse_sacrifice_minor_option_tooltip: "#V #Bold 최소 비용: @gold_icon! [EmptyScope.ScriptValue('RICE_misc_horse_sacrifice_cost_minor')|0]#!#!\n$EFFECT_LIST_BULLET$ #V 0#!에서 #V 50#! 사이의 [신앙도|E] 및 [명성|E] 획득\n$EFFECT_LIST_BULLET$ 무작위 소소한 효과를 지닌 유익한 [인물 수정자|E] 획득" # 182c8213a23ad6da838f504a1996498998d82c3a
-  RICE_misc_horse_sacrifice_major_option: "#Bold #주요 희생 제례#!#!\n$RICE_misc_horse_sacrifice_major_option_desc$" # 9491b06d59841067f08cd6f960cc41f3c890f43d
-  RICE_misc_horse_sacrifice_major_option_desc: "상당한 수의 말을 희생하십시오" # 234f6e355c7d9c72202762c641259563d169b906
-  RICE_misc_horse_sacrifice_major_option_tooltip: "#V #Bold 최소 비용: @gold_icon! [EmptyScope.ScriptValue('RICE_misc_horse_sacrifice_cost_major')|0]#!#!\n$EFFECT_LIST_BULLET$#V 25#! ~ #V 100#! 사이의 [piety|E]와 [prestige|E] 증가\n$EFFECT_LIST_BULLET$무작위의 #italic 또는#! 중소 효과를 가진 유리한 [character_modifier|E] 획득" # 4905307f2658e4df9ea0f6f7f85351f81b884344
-  RICE_misc_horse_sacrifice_great_option: "#Bold #대제사#!#!\n$RICE_misc_horse_sacrifice_great_option_desc$" # f10d021638cb4fbd5fc3d0eb5e3efdc417aa849c
-  RICE_misc_horse_sacrifice_great_option_desc: "많은 말을 희생하십시오" # d4b4fbc8226c66dcfbeb80cb52f2b3c035e3be67
-  RICE_misc_horse_sacrifice_great_option_tooltip: "#V #Bold 최소 비용: @gold_icon! [EmptyScope.ScriptValue('RICE_misc_horse_sacrifice_cost_great')|0]!#!#!\n\n$EFFECT_LIST_BULLET$#V 50#!에서 #V 200#! 사이의 [piety|E]와 [prestige|E]를 얻습니다.\n$EFFECT_LIST_BULLET$임의의 소, 중, #italic 또는#! 대 효과를 지닌 유익한 [character_modifier|E]를 얻습니다." # a85f295fb669c0e471e3d358fc1568a72e4aca3e
-  RICE_misc_horse_sacrifice_ai_option: "$RICE_north_atlantic_expedition_ai_option$" # c1e431fb53608bf7e5137f654f6f6bbf774c16bf
-  RICE_misc_horse_sacrifice_ai_option_desc: "$RICE_north_atlantic_expedition_ai_option_desc$" # 2b6268dfd612192ba4710795006ff7c5e1d313fe
-  RICE_misc_horse_sacrifice_ai_option_tooltip: "$RICE_north_atlantic_expedition_ai_option_tooltip$" # 4b20931dcc486e473441ddcfa0eb21e82736e074
-  RICE_mordvin_extract_beekeeper_tribute: "양봉가에게 추가 공물 징수" # 6705f0d333a9567f0d91ae7424f6ff7d835eafe1
-  RICE_mordvin_extract_beekeeper_tribute_desc: "볼가강 유역에서 유래한 우리 백성들은, 제 영지 내의 백성들처럼 양봉 능력으로 유명합니다. 이미 꿀, 밀랍 등 다양한 벌 생산품 형태로 여러 마을에서 세금을 징수하고 있지만, #italic 더 많이#! 징수하면 어떨까요?" # 7ced259ce949f5419eee62159039a703481c074f
-  RICE_mordvin_extract_beekeeper_tribute_tooltip: "지역 양봉업자들에게 더 많은 공물을 요구하여 추가 [gold|E] 획득" # 30827340938cf445fcb881fb7c6573b9636fedd8
-  RICE_mordvin_extract_beekeeper_tribute_effect_tooltip_1: "#V [gold_i|E] [GetPlayer.MakeScope.ScriptValue('RICE_mordvin_beekeeper_extra_tribute_min_value')]#!부터 #bold 최대#! #V [gold_i|E] [GetPlayer.MakeScope.ScriptValue('RICE_mordvin_beekeeper_extra_tribute_max_value')]#!까지의 [gold|E]를 무작위로 받습니다." # f79be95cd7c9945336d8c284b98cdd61808efe11
-  RICE_mordvin_extract_beekeeper_tribute_effect_tooltip_2: "이 금액은 귀하의 [관리력_스킬|E]와 귀하의 [county|E] 내 [문화|E]가 $tradition_RICE_volga_apiculture_name$ [전통|E]인 [county|E] 수에 따라 달라집니다." # 883c1273fc7957c1209037c204dde1e2c6ed9c5e
-  RICE_mordvin_extract_beekeeper_tribute_confirm: "왕국의 양봉가들에게 즉시 알리십시오!" # 4337b6fa1f3f4c718fb89a510804b586b04e4b25
-  RICE_mordvin_extract_beekeeper_tribute_context_tooltip: "#emphasis 역사적 배경:#! 볼가 강 유역에서 벌꿀 채취는, 특히 몰도바인, 마리, 우드무르트, 추바시, 타타르족과 같은 핀우그리아 및 터키계 민족에게 매우 수익성 높은 산업이었습니다. 예를 들어, 유명한 10세기 아랍 탐험가 이븐 파드란은 이 지역에서 교역되는 꿀의 양에 대해 언급합니다. 이후 초기 근대 시대에, 차르 정부는 이들 민족에게 꿀과 같은 벌꿀 제품 형태의 공물을 징수했습니다." # 7f11736a89b8fef2e79f56f3d156a56dac2a58fc
-  RICE_mordvin_any_county_has_volga_apiculture_culture_req: "$tradition_RICE_volga_apiculture_name$ [전통|E]을 가진 [문화|E]의 [백작령|E]을 하나 이상 소유하십시오" # 2ea717d9d48a6592d50b0dfbfcbd1439e73944ae
-  RICE_mordvin_acquire_volga_bee_products: "볼가 꿀 제품 획득" # 08e5c39fb703903ba9df2b63ce29bd507ae9be5b
-  RICE_mordvin_acquire_volga_bee_products_desc: "양봉업은 우리 [ROOT.Char.GetCulture.GetCollectiveNoun]과 같은 여러 민족들 사이에서 볼가 강 유역에서 수 세기 동안 주요 산업이었습니다. 제 이익을 위해 벌꿀 제품을 좀 구매해야겠습니다." # 0c0caf83a47135313b268ef1424a735cd6433786
-  RICE_mordvin_acquire_volga_bee_products_tooltip: "당신은 꿀, 밀랍 또는 둘 다를 구매할 것입니다." # 63dab979300a7a542e7ca9470cc7b31c010bc885
-  RICE_mordvin_acquire_volga_bee_products_effect_tooltip_1: "구매를 선택한 것에 따라 긍정적인 [character_modifier|E]를 얻게 됩니다" # f46325beb6c2b77bc030c6ce3f271702162a7964
-  RICE_mordvin_acquire_volga_bee_products_confirm: "지역 양봉가들을 방문해 봅시다!" # 0e5d743892a0699c2fa8016d75ee0d9614fa856b
-  RICE_mordvin_acquire_volga_bee_products_context_tooltip: "$RICE_mordvin_extract_beekeeper_tribute_context_tooltip$" # e749714666fdf5220e045d95d21bb109779c2812
-  RICE_mordvin_acquire_volga_bee_products_type: "꿀벌 제품을 구매할 것인가를 결정하세요." # ec6bc5370f0a9b84f9459e7355ea72866daae295
-  RICE_mordvin_acquire_volga_bee_products_type_gui: "$RICE_mordvin_acquire_volga_bee_products_type$" # 2df72b84759f2596c694b2d8b69c173fce54dfcf
-  RICE_mordvin_honey_option: "#Bold #꿀 #V!#!" # ae9466c5ee2bbca6649c1b2dc654cea94802ba07
-  RICE_mordvin_honey_option_desc: "$RICE_mordvin_honey_option$" # 9921a52b703e31f527a9b029260e31138bf72302
-  RICE_mordvin_honey_option_tooltip: "비용: @gold_icon! #V #Bold [EmptyScope.ScriptValue('RICE_mordvin_honey_cost')|0]#!#!\n\n10년 동안 [GetModifier('RICE_mordvin_honey').GetNameWithTooltip] [modifier|E] 획득" # 30f668ee5b4867e4a55cbd9071c5fe914b5b49c0
-  RICE_mordvin_beeswax_option: "#Bold #밀랍#!#!" # d4cd5abf56553628d17ff465973a0c12ec2a520b
-  RICE_mordvin_beeswax_option_desc: "$RICE_mordvin_beeswax_option$" # b574a0bcd785576181ae8b8e914599de08c56556
-  RICE_mordvin_beeswax_option_tooltip: "비용: @gold_icon! #V #Bold [EmptyScope.ScriptValue('RICE_mordvin_beeswax_cost')|0]#!#!\n\n10년 동안 [GetModifier('RICE_mordvin_beeswax').GetNameWithTooltip] [modifier|E] 획득" # ae1561bf8a112b4f545ba8d867ce3ec1c48cc5d2
-  RICE_mordvin_honey_and_beeswax_option: "#Bold #꿀벌과 밀랍#!#!" # 1d552c88cc5b45bc444b1ca1102c0a80a4ed3c0e
-  RICE_mordvin_honey_and_beeswax_option_desc: "$RICE_mordvin_honey_and_beeswax$" # 03749890f672b7aca99abc75b27c6d53572d3b5d
-  RICE_mordvin_honey_and_beeswax_option_tooltip: "비용: @gold_icon! #V #Bold [EmptyScope.ScriptValue('RICE_mordvin_honey_and_beeswax_cost')|0]#!#!\n\n10년 동안 [GetModifier('RICE_mordvin_honey_and_beeswax').GetNameWithTooltip] [modifier|E] 획득" # 75efc45765238fa81e70a58733fd4c15121567e5
-  RICE_mordvin_bee_product_ai: "$RICE_north_atlantic_expedition_ai_option$" # c1e431fb53608bf7e5137f654f6f6bbf774c16bf
-  RICE_mordvin_bee_product_ai_desc: "$RICE_north_atlantic_expedition_ai_option_desc$" # 2b6268dfd612192ba4710795006ff7c5e1d313fe
-  RICE_mordvin_bee_product_ai_tooltip: "$RICE_north_atlantic_expedition_ai_option_tooltip$" # 4b20931dcc486e473441ddcfa0eb21e82736e074
-  mordvin.0000.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0000.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0000.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0001.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0001.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0001.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0002.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0002.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0002.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0003.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0003.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0003.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0004.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0004.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0004.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0005.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0005.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0005.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0006.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0006.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0006.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0007.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0007.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0007.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0008.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0008.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0008.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0009.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0009.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0009.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0010.t: "말 희생을 준비 중" # bc4c17c26cd4c142fc74f2ccc9b5fac7c0c832ac
-  mordvin.0010.desc.intro: "기억할 수 있는 한 오랫동안, [host.GetFaith.GetAdherentNamePlural](으)로 하여금 [host.GetFaith.PantheonTerm]을 기리기 위해 말을 희생하는 것은 중요한 종교적 관행이었습니다." # 8e757bce5abbd6ceb85b359f87eaeb327b67d148
-  mordvin.0010.desc.host: "가지고 있습니다." # 42180e3af4d46413cee59b217f9317faabdb4c2c
-  mordvin.0010.desc.not_host: "[host.GetTitledFirstName] 님이" # 232c2004c1650dfc4490ce59a7a805669206eae1
-  mordvin.0010.desc.minor: "[location.GetName]에서 소규모 말 제사를 치르도록 명령했습니다." # 1aab5ddd1a417e699dab7f5e3778e16ac3729c41
-  mordvin.0010.desc.major: "[location.GetName]에서 그러한 대규모 말 희생을 한 번 거행하도록 명령했습니다." # f5cc5b23f3e540c1c98d08133cbcfba551180c1f
-  mordvin.0010.desc.great: "[location.GetName]에서 그러한 위대한 말 희생 제의를 열도록 명령했습니다." # bc83aa7b4fe82f7a18ad6d18b7e7074b0e295d4a
-  mordvin.0010.desc.conclusion: "지역 [host.Custom('DefaultPriestTitlePlural')]은 이미 이 의식에 필요한 준비를 하고 있습니다.\n\n모든 사람들이 [host.GetFaith.PantheonTerm]이 이 희생에 기뻐하고 이 왕국에 많은 위대한 축복을 내리기를 바라고 있습니다." # 625c6f77ecbcbc76e4b8f467d82fc0da5925bdae
-  mordvin.0010.a: "제물을 바칠 준비를 할 시간입니다!" # 5c454e781468c73155d34fa94474809aa563b695
-  mordvin.0011.t: "마상 제사" # ed7e5b8aab19c1d8d02b5870a98ff079d7948b28
-  mordvin.0011.desc: "말을 희생하는 날이 되었습니다. 저는 여러 [host.Custom('DefaultPriestTitlePlural')]이 모인 [host.GetFaith.HouseOfWorship]에 도착했습니다. 그들은 [host.GetFaith.GetAdjective] 의식에서 말을 희생할 제단을 준비했습니다.\n\n말들은 제단으로 끌려가고, 그곳에서 [host.Custom('DefaultPriestTitlePlural')]이 정중하게 죽입니다. 이 의식이 진행되는 동안 우리 모두는 [host.GetFaith.PantheonTerm]에게 기도하고 다양한 의식을 수행합니다.\n\n의식이 끝나면, 우리는 그렇게 중요한 의식을 도와준 [host.Custom('DefaultPriestTitlePlural')]에게 감사드립니다. 바라건대, [host.GetFaith.PantheonTerm]이 우리의 희생을 알아주셨기를 바랍니다!" # 9fbd26f3b103c0195c50dd70024ae9b1a60fa00d
-  mordvin.0011.a: "이것에 참여하게 되어 기쁩니다." # 96b5a3d4e96f4edb939bb85568cbf251187b2c9f
-  mordvin.0012.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0012.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0012.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0013.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0013.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0013.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0014.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0014.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0014.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0015.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0015.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0015.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0016.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0016.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0016.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0017.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0017.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0017.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0018.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0018.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0018.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0019.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0019.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0019.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0020.t: "벌꿀 생산품" # 204ef1c93fbfaa46231bdb06444468a7a625cbdb
-  mordvin.0020.desc: "수 세기 동안 양봉은 볼가 지역의 경제와 문화에서 중요한 부분을 차지해 왔습니다. 제 영토에는 이러한 양봉 전통을 유지하는 여러 정착지가 있으며, 따라서 양질의 벌꿀 생산으로 유명합니다." # 47b5f5249d2fa1d7060c3e281074c9258faebdca
-  mordvin.0020.desc.honey: "저는 제 왕국의 양봉가들에게 [recipient.GetTitledFirstName] 님에게 보낼 대량의 꿀을 준비하라고 명령했습니다. 꿀은 음식에서 감미료로 중요한 것 외에도 여러 약효가 있다고 합니다." # af6f19d20f29bdac281abf60ba84726b001cf54a
-  mordvin.0020.desc.beeswax: "이에 저는 제 영지의 양봉가들에게 [recipient.GetTitledFirstName](으)로 보낼 대량의 밀랍을 준비하라고 명령했습니다. 밀랍은 꿀보다 훨씬 더 수익성이 좋으며 양초나 화장품 제조와 같은 다양한 실용적인 용도가 있습니다." # e5b617373986c856c4d652173fa7256cdeb2d98c
-  mordvin.0020.desc.honey_and_beeswax: "저는 제 영지의 양봉가들에게 [recipient.GetTitledFirstName](으)로 보낼 많은 양의 꿀과 밀랍을 준비하라고 지시했습니다. 이 두 제품은 다양한 용도로 사용될 수 있으며, 저는 [recipient.GetFirstNameNoTooltip](이)가 이를 잘 활용할 수 있을 것이라고 확신합니다!" # 8f0a3f6d9ef872e31e1900aea5e032dbf59d1b3a
-  mordvin.0020.a: "[recipient.GetSheHe]께서 이 선물을 마음에 들어 하시길 바랍니다!" # fb6234108655a684a50d83b1cf36e3937d69eb80
-  mordvin.0021.opening: "[actor.Custom2('AppropriateGreeting', recipient)]" # f66dce846c119c49f4b13e283d18e89d1ba9c1f7
-  mordvin.0021.desc.honey: "제 왕국에서 생산된 최고 품질의 꿀을 이 서신과 함께 선물로 드리고자 합니다." # 5bfbf353b6662b97c2ebf92ae6a6a598c0158fc5
-  mordvin.0021.desc.beeswax: "본 서한과 함께 저희 영역에서 생산된 고품질 밀랍을 선물로 드립니다." # 9fb429a3e434ed05bb0d3a1c70c1833a1755e5c4
-  mordvin.0021.desc.honey_and_beeswax: "제 영지에서 생산한 고급 꿀과 밀랍을 이 서신과 함께 선물로 드리고자 합니다." # c31b9441982ce1ec758a08137a2459b749712e2f
-  mordvin.0021.desc: "저는 볼가 지역의 유명한 양봉 전통을 보존하는 여러 정착지를 다스리고 있습니다. 이러한 귀한 제품들을 당신과 나누는 것이 저의 진심 어린 소망입니다." # 8d208887ead580a4e3ab27bfc31ced842127e503
-  mordvin.0021.a: "훌륭한 선물입니다!" # dd9fa17f1bc01783b62f620d3681fbdade302417
-  mordvin.0022.t: "#bold Historical context:# The $mordvin$ tribes are divided in the Erzya and Moksha groups, and their lands often divided between those of the Rus' princes. The $mordvin$ people are famous for their warriors, who fight both on foot and on horseback, and for their fierce berserkers. Their main weakness is the lack of unity between their tribes and petty rulers, making them a prime target for external conquest." # 4d6aa067a90e5e008dea3947efe15c35e1c13ce6
-  mordvin.0022.desc: "#F The Mordvins are a collection of tribes and clans whose ancestral lands are in the forest steppes around the Volga, and its surrounding tributaries. Many have come to believe the legends and tales of their ancient heroes, a tradition carried on from mother to child. Yet their pagan religion, and unique social structure prevents them from unifying. They have not yet developed a strong enough leadership to bring all of their people together. The arrival of the Rus has only further fractured their world, as some tribes see opportunity with these new peoples, while others want to continue their ways uninterrupted. The coming years will decide if the Mordvins can put aside their petty squabbles, and unify or continue to fall further into their disunity.#" # 6624d4adcc8715f757aff28558a71937b1ea05a9
-  mordvin.0022.desc.honey: "나는 지역 양봉가로부터 많은 양의 꿀을 구매하기로 결정했습니다. 꿀은 음식에서 감미료로 중요할 뿐만 아니라 많은 약효도 있다고 합니다." # 5b64ea292533366cf6e3fa573a77c7e57ba4f906
-  mordvin.0022.desc.beeswax: "저는 지역 양봉가들로부터 많은 양의 밀랍을 구매하기로 결정했습니다. 밀랍은 꿀보다 훨씬 수익성이 높고 양초나 화장품을 만드는 것과 같은 다양한 실용적인 용도로 사용됩니다." # aa820dbcdc239fa706c04b157d6a0c14e6023c9e
-  mordvin.0022.desc.honey_and_beeswax: "지역 꿀벌 농가로부터 많은 양의 꿀과 밀랍을 구입하기로 결정했습니다. 이 두 제품 모두 다양한 용도를 가지고 있으며, 분명 큰 도움이 될 것이라고 생각합니다!" # 8cffc97d0717e14d480cd797cd01d873acba259c
-  mordvin.0023.t: "양봉가로부터 추가 공물" # d9f82a4da4a12afeca41d4a12d3b9784b14b9754
-  mordvin.0023.desc: "여러 세대에 걸쳐 양봉은 볼가 강 유역에서 기원한 사람들의 삶에서 중요한 부분이었습니다. 제 영토에 이러한 전통을 이어가는 정착지가 있다는 것은 매우 운이 좋은 일입니다. 그들이 생산하는 꿀이나 밀랍과 같은 벌 생산물은 해외 시장에서 높은 가격으로 판매되어 많은 부와 세수를 가져다줍니다.\n\n하지만 때로는 이 양봉가들이 내는 세금이 충분하지 않을 때도 있습니다. 때로는 더 많은 것이 필요할 때도 있습니다.\n\n그래서 저는 올해 제 영토의 양봉가들에게 평소에 요구하는 것보다 더 많은 공물을 바치라고 명령했습니다. 그들은 이미 무역으로 많은 이익을 얻고 있으며, 그와 관련된 다양한 특권을 가지고 있으므로 그들에게서 조금 더 많은 공물을 추출하는 것은 확실히 해가 되지 않을 것입니다." # c067832006012fa164c535c38963aede08b542b6
-  mordvin.0023.a: "This is a really #italic sweet#! deal... for me!" # 1f9a955e8dd0fda93d58e1014766e802e834b013
-  mordvin.0024.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0024.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0024.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0025.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0025.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0025.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0026.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0026.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0026.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0027.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0027.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0027.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0028.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0028.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0028.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0030.t: "오즈크를 위한 준비" # 78f88a21726e25904c9a13219e0fd381e9776148
-  mordvin.0030.desc: "우리 [ROOT.Char.GetFaith.GetAdherentNamePlural]에게 공공 기도, 즉 #italic 오츠크#!은 일상생활의 일반적인 부분입니다. 그러나 중요한 행사를 위해 공동체는 [ROOT.Char.GetFaith.PantheonTerm]과 조상을 기리는 호화로운 의식과 사람들이 서로 교류하고 휴식을 취할 수 있는 많은 기회로 가득한 성대한 행사를 개최하기 위해 함께 모일 수 있습니다.\n\n저는 [capital_province.GetName]의 모든 사람이 그러한 #italic 이네 오츠크#!, 즉 위대한 기도를 준비하라는 명령을 내렸습니다. 이미 [ROOT.Char.Custom('DefaultPriestTitlePlural')]과 나머지 공동체는 이 행사를 위한 준비를 하고 있습니다." # de37776c8d62ce9202a560712af54099d456c0d4
-  mordvin.0030.a: "이것은 훌륭하고 중대한 계기가 될 것입니다!" # b4533c51a16987a13ea7f82e174dd378ae28f211
-  mordvin.0031.t: "오즈크 시작" # 382761824dc4015889963a527c994dcd4eb9764a
-  mordvin.0031.desc: "#italic 이네 오즈크#의 날이 다가왔습니다! 저와 [ROOT.Char.Custom('DefaultPriestTitlePlural')] 그리고 지역 사회의 저명 인사들은 이 날을 만들기 위해 열심히 노력했습니다.\n\n[capital_province.GetName] 인근 마을과 촌락에서 사람들이 모여들었고, 우리는 모두 고인의 영혼을 초대하며 축제를 시작합니다. 모든 사람들은 자신의 고향에서 흙 한줌을 가져왔고, 이 흙은 모두 기도의 중심지 역할을 하는 고대 언덕 위에 놓여 있습니다. 이러한 의식이 열릴 때마다 언덕은 물론 시간이 흐르면서 커져 갑니다.\n\n이어서, #italic shtatol#!, 밀랍으로 만든 거대한 촛불이 언덕 중앙에 세워집니다. 그런 다음, [ROOT.Char.Custom('DefaultPriestTitlePlural')]들이 촛불을 밝히고, 이후에는 [ROOT.Char.GetFaith.PantheonTerm]의 은총을 얻기 위해 여러 동물 희생을 합니다. 특히 소 희생은 모든 사람이 나중에 먹을 수 있도록 고기가 요리될 것입니다." # 30f947afceadfe43b3aed6f0bc39744b6a6ac71a
-  mordvin.0031.a: "우리의 기도가 받아들여지기를 바랍니다!" # 76030165d676afc0770740563537ce3f0c336722
-  mordvin.0032.t: "오즈크의 종말" # aba678b2bf6aabf27fa0a0a6a6c43bcfa0ad3415
-  mordvin.0032.desc: "#italic 오즈크# 너무나 멋졌습니다!\n\n축제는 곧 끝나고 모두 집으로 돌아갈 것입니다. 바라건대 영적으로 충만해지고 서로와 [ROOT.Char.GetFaith.PantheonTerm] 더욱 연결되었다고 느끼기를 바랍니다. 어쨌든 저는 많은 사람들이 참여하는 것을 보게 되어 기뻤습니다." # 4cf9dd2b244647464c1ae622b73a4be301bd7049
-  mordvin.0032.a: "가능한 한 빨리 또 다른 모임을 조직해야 합니다!" # 4262388382728e7e5db060552a29e18bcb283e46
-  mordvin.0033.t: "우리 조상" # 71d0327f91999a33da11486efc9e11c7ba868232
-  mordvin.0033.desc: "이 오즈크 의식의 일부로서, 우리 조상들에게 존경을 표하는 것은 매우 중요합니다. 오즈크가 시작될 때 우리는 우리 조상들을 이 축제에 초대했지만, 축제가 계속되는 동안 그들을 계속 생각하고 숭배하는 것도 중요합니다. 오즈크가 시작되기 전보다 지금 조상들에게 더 가까워진 것 같습니다." # 47bd0e955e756d3233e0547fd838882d92b565d4
-  mordvin.0033.a: "결국, 우리 조상들은 우리에게 많은 것을 주었습니다." # 1e8e2cb22cabce36a853746210261f6999a13d7d
-  mordvin.0034.t: "가족 시간" # 6d9dfd7028b445c7b1f601f62ec25968db861575
-  mordvin.0034.desc: "대규모 오즈크 휴일은 가족과 친척들이 서로 만나 가족 관계를 강화할 수 있는 좋은 기회입니다. 따라서 저는 오즈크를 가까운 가족과 시간을 보내는 기회로 활용했습니다." # 7bcbee6fcb8ce79c123be0ceb08a9ae0578d5220
-  mordvin.0034.a: "결국 우리는 서로 없이는 아무것도 아니니까요." # 57fe8cb6f1bffc50c58defdaf0a363fe45b1ca0e
-  mordvin.0035.t: "수확 기도" # 54c01388078f3868f479d590182682a0d731e386
-  mordvin.0035.desc: "이번 오츠크 기간 동안 우리는 [ROOT.Char.GetFaith.FertilityGodName] 님께 다음 수확이 풍년이 되기를 기원하며 기도를 올리고 있습니다. 우리는 이 오츠크 기간 동안 [ROOT.Char.GetFaith.FertilityGodSheHe|U]께서 우리의 기도를 들으시고 우리 공동체에 풍요와 번영을 내려주시기를 간절히 바라며 기도합니다." # 777fbe0406ed45250c3cecd14de51dfd9288a45b
-  mordvin.0035.a: "우리의 기도가 받아들여지기를 바랍니다!" # 930c570b273f6123c4e0c64e5048d99d03a771c2
-  mordvin.0035.toast: "[ROOT.Char.Custom('DefaultPriestTitlePlural')]이 다음 수확이 좋을 것이라고 말합니다!" # 2024dc1443cc5dd03e896b664c5ab8f4dce77c99
-  mordvin.0036.t: "신성한 보호" # 83f57ea48fa350172785967111e66e8b31dfe7d3
-  mordvin.0036.desc: "오즈크의 일환으로, 우리는 현재 [ROOT.Char.GetFaith.HighGodName]께 [ROOT.Char.GetFaith.HighGodNameSheHe|U]께서 우리와 우리 땅을 쳐들어오는 모든 적들로부터 보호해 주시기를 기원하고 있습니다. 우리는 [ROOT.Char.GetFaith.HighGodNameSheHe|U]께서 우리의 기도를 들어주시기를 간절히 바라며 끊임없이 엄격하게 기도하고 있습니다. 우리는 우리의 집을 지킬 수 있고 지킬 것이지만, 신성한 도움이 있다면 훨씬 쉬울 것입니다!" # 348344d503d1b9cca0bd69e907f00d41af130057
-  mordvin.0036.a: "우리 공동체, 우리 백성은 견뎌낼 것이다!" # 61af157d29aa4b13e053553d73588127cf4efd15
-  mordvin.0036.toast: "[ROOT.Char.Custom('DefaultPriestTitlePlural')]이여, [ROOT.Char.GetFaith.HighGodName]께서 우리를 보호하시리라!" # 277fd8b48e42bf3fd48c23f9a4f4dc75a06e4570
-  mordvin.0037.t: "문제 해결" # 4f599ec6df8cdd97f5321d19e2df7c8cc87d7676
-  mordvin.0037.desc: "주요 오즈크 축일은 사람들이 모여 서로 간의 갈등이나 다양한 지역 문제와 같은 긴급한 문제를 해결하는 시간입니다. 오즈크 기간 동안 다양한 사람들을 만나면서, 그들의 일상적인 삶이 반드시 나의 관심사는 아니지만, 이러한 문제와 사람들이 어떻게 해결하려고 노력하는지에 대해 듣고 많은 것을 배웁니다." # 041c3cf4c93a60e4cc67aad36f809c7a24065e8e
-  mordvin.0037.a: "정말 통찰력 있군요!" # 6f06bd3a13c304f94a9667bda3fdad0eaf510d64
-  mordvin.0038.t: "스포츠 대회" # 7506980964c565e03e3589659a384e023fb5ace0
-  mordvin.0038.desc: "주요 오츠크 기간에는 축제와 즐거움을 기리는 의미에서 스포츠 경기가 자주 열립니다. 레슬링, 양궁, 달리기 등 다양한 스포츠가 펼쳐지는 멋진 광경입니다. 볼거리가 너무 많아서 저도 모르게 선수들을 응원하며 즐거워집니다." # f1323f01f4044ff9a54a72f1afe07aa5383a1cdb
-  mordvin.0038.a: "모두가 즐거운 시간을 보내고 있습니다." # 4754fe53d96d33206feb5eea82460357d57e93d3
-  mordvin.0039.t: "경쟁 우승자" # 39471fb5364b82ff68c394e32165b04dad1e9a3d
-  mordvin.0039.desc: "스포츠 경기는 이러한 대규모 오츠크에서 흔한 요소입니다. 관람하는 재미 외에도, 이는 전사들, 즉 무기를 들도록 소집될 수 있는 사람들이 궁술부터 칼 던지기 등 다양한 무술 기술을 연마할 수 있는 좋은 기회입니다. 전통적으로 이러한 경기의 승자들은 #italic 우쉬만데이#!, 즉 공동체 내의 군사 지휘관으로 임명되곤 했습니다." # 34e691217ab869eb6cfdbb5e7a4d404f88878573
-  mordvin.0039.desc.winner_knight: "제 궁정의 $knight_culture_player_plural_no_tooltip_lowercase$ 중 하나인 [warrior.GetTitledFirstName]께서 여러 경기에서 뛰어난 활약을 펼쳐 많은 승리를 거두었습니다. 이에 따라 [warrior.GetSheHe|U]께서는 #italic 우슈만데이#!라는 칭호를 받게 되었습니다." # ea599b8e28d14eca95b8df1c35a04ddf91d8eb09
-  mordvin.0039.desc.winner_local: "다양한 대회 우승자들에게 축하를 전하며, 그들의 업적에 대해 #italic 우슈만데이#!라는 칭호를 부여했습니다." # a8b6f25c67ee76597d729a1030c19657abb5569b
-  mordvin.0039.a: "모든 참가자가 잘했습니다!" # db82eb931d4d07f11af185d6b3e575f2df38fb4c
-  mordvin.0040.t: "춤추기" # af95616b7f7ec8dc63dd69dba4b12a6ce8d4313b
-  mordvin.0040.desc: "좋은 휴일과 마찬가지로, 오즈크 축제에서 춤은 중요한 부분입니다. 이 오즈크의 참가자들은 원형 무도회를 벌여 즐겁게 함께하며, 공동체로서 하나가 됩니다. 이러한 의식을 통해 우리는 서로, 조상들, 그리고 [ROOT.Char.GetFaith.PantheonTerm]과 더욱 가까워집니다." # 9ddeac7d1ff695f401fad511e3d4ff6706199b58
-  mordvin.0040.a: "그리고 재미있습니다!" # 8e1f3d168a503327c019ad1712b9d90abe864b21
-  mordvin.0041.t: "가정을 위한 기도" # 925ea233eabe31243de95d31ed50cbe366f8e746
-  mordvin.0041.desc: "오즈크 기간 동안, 지역 여성들이 [ROOT.Char.GetFaith.HouseholdGodName]에게 가족의 건강과 행복을 기원하는 모습을 볼 수 있습니다. 오즈크 기간 동안 좋은 분위기를 유지하면 집에서 불행을 쫓아내는 좋은 에너지를 끌어들일 수 있다는 것은 누구나 다 아는 사실입니다." # f54f350ef7b32558ac23708cc85749690a83f67d
-  mordvin.0041.a: "그들의 기도가 응답받기를 바랍니다." # 701846b2c85f81916a1bfeb44f0ffb627ea79583
-  mordvin.0042.t: "오즈크에서 연회" # eddb82045ca85068ddb2e73ae8d59c5a3f782bf5
-  mordvin.0042.desc: "큰 연회 없이는 어떤 휴일도 완벽할 수 없으며, 이 웅장한 오크스도 예외는 아닙니다! 축제와 축하의 일환으로 온갖 종류의 고기, 빵, 채소, 과일, 버섯, 생선 등으로 가득한 성찬이 열립니다. 모두가 배불리 먹고 서로 교류하면서 즐거운 시간을 보내고 있습니다." # b60f68e88f066b3678b31a4a454705231f379621
-  mordvin.0042.a: "훌륭한 음식을 먹는 데 집중하겠습니다!" # 288953ec0f56a6be3dacae7c948edcb26ae7c01d
-  mordvin.0042.b: "모든 사람과 친해지고 싶어요." # 4be6be7a57e7d167003c6a89c587a293ecc8ded8
-  mordvin.0043.t: "위대한 #italic 슈타톨#! 양초" # f4474de5f17e4b43e521c43fdbc9445469fcd6a3
-  mordvin.0043.desc: "고대 [ROOT.Char.GetFaith.GetAdjective] 관습에 따라, 이 오츠크 축제 중앙의 거대한 언덕에 세워진 거대한 #italic 쉬타톨#! 양초는 가난한 자부터 부유한 자에 이르기까지 관련된 모든 가족의 밀랍 기여 덕분에 만들어졌습니다.\n\n[ROOT.Char.GetTitleAsNameNoTooltip]인 저는 당연히 이 양초를 만드는 데 상당한 양의 밀랍을 기여했습니다.\n\n그럼에도 불구하고, 전통적인 믿음은 이 양초가 클수록 우리 공동체가 더 번영하고 강력해진다는 것입니다." # 975eb0d97af12a7b672a2c3f1458c2c5cb78ebe9
-  mordvin.0043.a: "#italic shtatol#!는 우리의 단결과 강인함을 상징합니다." # 9fe1c90a0c5e4be85feb503196166996feba9948
-  mordvin.0044.t: "황소 고기 수프" # 9abe5fa4c04a52ea8c246b18f8a7ae6463f728ee
-  mordvin.0044.desc: "이 오크즈가 시작될 때, 다양한 전통 [ROOT.Char.GetFaith.GetAdjective] 의식의 일부로 [ROOT.Char.GetFaith.PantheonTerm]에게 황소가 희생되었습니다. 물론 황소는 장수와 건강을 상징합니다.\n\n이제 축제가 한창 진행 중인 가운데, 희생된 황소는 특별히 임명된 사람들에 의해 가죽이 벗겨진 후, 요리할 영광을 부여받은 여성들에 의해 조리됩니다. 종종 황소 고기는 다양한 채소와 허브와 함께 수프 형태로 준비되며, 이번에도 마찬가지입니다.\n\n저는 지금 황소 고기 수프를 먹고 있는데, 정말 맛있네요!" # 0b74ea67b8ced30d34f11c3e311cb6c31e9d748b
-  mordvin.0044.a: "빵과 꿀과도 잘 어울립니다." # 6b7fe87b25c99add4b6642fd04d24d4f42706601
-  mordvin.0045.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0045.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0045.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0046.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0046.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0046.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0047.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0047.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0047.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0050.t: "신성한 말" # 0b3c2e427734d61661e297fc7cd4c98551991861
-  mordvin.0050.desc: "말은 모든 독실한 [ROOT.Char.GetFaith.GetAdherentNamePlural]에게 큰 존경을 받는데, 그 이유는 악한 세력을 쫓아낸다고 믿기 때문입니다.\n\n오늘과 같은 중요한 날에는 말을 준비하여 승마하는 것이 전통입니다. 말은 악의적인 영혼의 다리를 부러뜨리는 것으로 여겨지므로, 이것이 이곳의 모든 악을 몰아낼 것이라고 믿습니다.\n\n가까운 미래에 우리 가문에 불행이 닥치지 않기를 바랍니다!" # d8b5a85142feb863f7eb6902aaad4b7d3643521e
-  mordvin.0050.a: "말은 참으로 중요하고 존경받는 동물입니다." # 5bd10aedbab29ca93a06d68da4f047a52d36110f
-  mordvin.0051.t: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 결혼식" # 0b658afe1b3e477e7cfacd1dcc9e09c9c77d67b7
-  mordvin.0051.desc: "어제, [ROOT.Char.GetFaith.GetAdjective] 하위 귀족 가문 두 곳의 젊은 남녀가 결혼했습니다. [ROOT.Char.GetTitleAsNameNoTooltip]인 제가 참석한 가장 귀한 손님이었습니다.\n\n오늘, [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 관습에 따라, 우리는 #italic 오즈크스#! 즉, 공공 기도 의식에 참여하고 있으며, 이번에는 특별히 [ROOT.Char.GetFaith.WaterGodName]께 기원합니다. 이 #italic 오즈크스#! 동안, 신부는 물이 풍요를 상징하므로 근처의 물가로 인도됩니다. 그런 다음, 우리는 많은 노래를 부르고, 축하를 위해 모인 젊은이들은 즐겁게 춤을 춥니다. 새로 결혼한 커플이 함께 성공적인 삶을 살기를 기원하면서 말입니다." # 88327124202b50fbb337d2d1a48ad72dd96fa3cf
-  mordvin.0051.a: "재미있는 경험이었습니다." # cf403fcc0ae1ab829ca4bf0a79bf8db9e700cc86
-  mordvin.0052.t: "물 오즈크" # cb81fef5c19bddfb1a74fcd4dec4e5a327b4e0fe
-  mordvin.0052.desc: "[ROOT.Char.GetFaith.GetAdherentNamePlural] 사이에서 물 숭배 의식은 매우 중요합니다. 물은 상징적으로 다산과 연결되어 있기 때문입니다.\n\n오늘 저는 물의 신인 [ROOT.Char.GetFaith.WaterGodName]에게 바치는 관습적인 #italic ozks#!, 즉 공개 기도 의식에 참여하고 있습니다. 제 궁정의 신하들과 여러 [ROOT.Char.Custom('DefaultPriestTitlePlural')]들이 이 행사를 위해 인근 수역에 모였습니다.\n\n[ROOT.Char.GetFaith.WaterGodName]에게 바치는 멜로디를 부르거나 짚으로 만든 남근으로 수역을 "수정시키는" 등의 의식을 수행하면 분명 신성한 축복을 불러일으키고 모든 사람들에게 풍요와 번영을 보장할 것입니다!" # e37fc68f7d936256e54780dc230e32ae250a6f1a
-  mordvin.0052.a: "[ROOT.Char.GetFaith.WaterGodName]께 찬미를!" # 1b30562a73dc97e9b4aa5c5760f68525ce332a4d
-  mordvin.0053.t: "자작나무 오크스" # 8c5835dbc77af4a35e975fed545a245d83b3bd9a
-  mordvin.0053.desc: "나무는 [ROOT.Char.GetFaith.GetAdherentNamePlural]에게 중요합니다. 나무에는 다양한 치유 및 영적 능력이 있다고 믿어지므로 진정한 신념으로 나무를 존중하고 숭배하는 것이 중요합니다. 다양한 종류의 나무 중에서도 자작나무, 즉 #italic kelu#!는 가장 신성한 것 중 하나로 여겨집니다.\n\n오늘 저는 집에서 멀지 않은 곳에 있는 자작나무 몇 그루에게 드리는 작은 #italic ozks#! 또는 기도 의식에 참여하고 있습니다. 참석한 모든 사람이 #italic kelu#!를 찬양하는 노래를 부릅니다." # 6a25a36bddcafbeb82327a0c381969639a024fec
-  mordvin.0053.a: "나무가 튼튼하면 땅과 그곳 사람들도 튼튼해질 것입니다!" # 650c454ff498f1cc6f35acc6928a996c8bc6977c
-  mordvin.0054.t: "무시무시하고 사나운 [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]" # 002d28e6d301e0c30cb303707eff73db35174403
-  mordvin.0054.desc: "저는 외국 땅에서 우리 [ROOT.Char.GetCulture.GetCollectiveNoun]가 냉정하게 사악하며, 우리 땅에 발을 들인 모든 외국인을 죽이고 그들과 교역할 때조차 대화를 거부한다는 이야기가 있다고 들었습니다. 우리는 정당하든 그렇지 않든 상당한 명성을 가지고 있다는 것은 의심할 여지가 없습니다!" # 0d6941b4429472c7f3e8d890eef09b522299a6e0
-  mordvin.0054.a: "우리의 적들이 우리에 대해 듣고 두려워 떠는 것은 당연한 일입니다!" # d95ddb5a12dc0705abd53f6344a7cf2f8402b25c
-  mordvin.0054.b: "이 이야기들은 우리의 힘과 용맹을 과장한 것입니다." # ffbc54e7e7177112948931ae1516244c79dab624
-  mordvin.0054.info: "#emphasis 역사적 배경:#! 10세기 여행가이자 지리학자인 알 이스타크리의 기록과 같은 일부 중세 이슬람 문헌에서는 #italic 알-아르사니야#!라는 곳이 언급되는데, 그곳의 사나운 거주민들은 자신의 땅에 발을 들인 낯선 자들을 죽였다고 합니다.\n\n#italic 알-아르사니야#!의 위치와 거주민이 누구였는지에 대한 현대 학계의 경쟁적인 이론이 많지만, 모르드바 민족의 조상인 에르자족과 목샤족이 유력한 후보입니다. 13세기 헝가리 수도사이자 탐험가인 줄리안 수사는 모르드바인들의 잔혹함을 언급했으며, 동시대 헝가리 자료에서는 "모르드바인 중 누구도 적어도 한 사람을 죽이기 전에는 감히 발에 샌들을 신을 수 없다"고 주장합니다.\n\n중세 모르드바인들에 대한 이러한 주장이 과장되었는지 아닌지는 명확하지 않지만, 그들은 외국인들에게 두려운 민족으로 여겨졌다는 것은 분명합니다." # 92c9b586fc211dfa7fe50e26ea5c5c72010972a2
-  mordvin.0055.t: "침묵 교역" # 53c866031cf830c5c5c2a9b1a23169bca8ee0d38
-  mordvin.0055.desc: "먼 땅에서 온 저명한 상인이 제 영지를 방문하고 있습니다. 그는 우리 언어를 구사하지 못하지만, 많은 외국 상인이 이곳을 방문할 때 사용하는 소위 '침묵 무역'에 능숙하다고 합니다. 이 의사소통 방식은 제스처에 기반하며, 오래전 [ROOT.Char.GetCulture.GetCollectiveNoun]과 우리와 거래하던 상인들이 개발했습니다. 어쨌든 이 상인이 제 궁정을 방문했는데, 서로 말로 소통할 수는 없지만 그가 저를 만나 기뻐하며, 저의 통치가 그와 같은 외국 상인들에게 좋았다고 생각하며 감사하는 것이 분명합니다." # 3131bf1836148d7d074d022a60295172ce90729f
-  mordvin.0055.a: "언어가 달라도 무역은 가능합니다!" # b6897bc768abaee047db9f1eb753d06304c38b8b
-  mordvin.0055.b: "우리는 외국인들을 그저 용인할 뿐이기에, 묵계 무역 관습이 존재합니다." # c5080d688778d32dee93e98e3bb7382eb6bfe0cc
-  mordvin.0055.info: "#emphasis 역사적 배경:#! 12세기 안달루시아 여행가이자 탐험가였던 아부 하미드의 기록을 비롯한 중세 시대의 일부 역사 자료들은 볼가 지역에서 거래하던 외지 상인들이 현지의 핀란드-우랄어족 민족들과 거래할 때 때로는 신호 언어 또는 "침묵 거래"를 사용했음을 언급합니다." # 40e0855834a6b871687c980f54746494f5f34add
-  mordvin.0056.t: "활기찬 산업" # 96c252a336a72d5db8739ca7d5492cf0a3d49e52
-  mordvin.0056.desc: "꽤 오랫동안 [ROOT.Char.GetCulture.GetCollectiveNoun]는 양봉 능력으로 유명했습니다. 최근 여러 가지 이유로 [county.GetNameNoTier]의 양봉가들은 평소보다 더 많은 생산량을 올리고 있으며, 이는 지역에 더 큰 이익을 가져다주고 지역 경제를 활성화시키고 있습니다." # b4c7b522cb2bd310556ed2ff7096b6e5600e3a2c
-  mordvin.0056.a: "꿀과 이익의 땅!" # bcc3b11bdc03c0218f26f46f932108fce82bfed8
-  mordvin.0057.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0057.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0057.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0058.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0058.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0058.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0059.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0059.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0059.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0060.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0060.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0060.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0061.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0061.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0061.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0062.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0062.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0062.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0063.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0063.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0063.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0064.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0064.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0064.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0065.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0065.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0065.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0066.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0066.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0066.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  mordvin.0022.a: "아주 좋군" # 7612729ba12125c2b038a1d081b511864179ca82
+  RICE_every_volga_beekeeper_county: "$tradition_RICE_volga_apiculture_name$ [전통|E]을 가진 [문화|E]의 모든 [county|E]" # 6237687774488349609
+  RICE_volga_river_region: "볼가 강 유역" # 17272072147588985016
+  RICE_culture_in_volga_river_basin_desc: "[culture|E]이(가) [GetGeographicalRegion('RICE_volga_river_region').GetName]에 최소 #V 4#!개의 [counties|E]를 보유하고 있습니다." # 3527938424436945925
+  RICE_location_volga_apiculture_county_req: "당신의 [domicile|E] [location|E]의 [culture|E]에는 $tradition_RICE_volga_apiculture_name$ [tradition|E]이(가) 있습니다." # 14658873429940222854
+  tradition_RICE_apiculture_name: "양봉가" # 4079346154901417729
+  tradition_RICE_apiculture_desc: "#F 꿀벌 사육과 벌꿀 채취는 전 세계적으로 행해지지만, 이 문화권은 고대 예술의 달인으로 여겨집니다. 적절한 꿀벌 사육 방식으로든, 야생 꿀벌과의 더 거친 상호작용을 통해든, 그들은 꿀벌로부터 많은 귀중한 제품, 특히 꿀뿐만 아니라 밀랍, 로열젤리, 꽃가루 등을 수집합니다.#!" # 17135319146232885536
+  tradition_RICE_volga_apiculture_name: "볼가 양봉가" # 15652341429237070543
+  tradition_RICE_volga_apiculture_desc: "#F 벌꿀 채취와 밀랍 채취는 전 세계적으로 이루어지지만, 볼가 지역 주민들은 뛰어난 꿀벌 사육 기술로 유명합니다. 이 문화권에서 생산된 소중한 꿀벌 제품, 꿀과 밀랍은 종종 외국 시장으로 수출되거나, 현지 통치자들에게 공물로 바쳐집니다.#!" # 971747177912162399
+  culture_parameter_unlock_rice_volga_bee_tribute_decision: "[culture|E]의 [counties|E]를 다스리는 자들을 위해 $RICE_mordvin_extract_beekeeper_tribute$ [decision|E]을 해금합니다." # 6543529408562324896
+  culture_parameter_unlock_rice_volga_bee_product_decision: "$RICE_mordvin_acquire_volga_bee_products$ 결정을 해제하고 다른 [characters|E]에게 $RICE_mordvin_give_bee_products$ 상호 작용을 해제합니다" # 1929705057749017673
+  RICE_culture_in_volga_beekeeper_terrain_desc: "[culture|E]은(는) 농지, 범람원, 평원, 삼림, 구릉 또는 습지 [terrain|E]이(가) 있는 어떤 [county|E]에도 존재하지 않습니다." # 11039255228579280397
+  tradition_RICE_finnic_sorcerers_name: "북부 마법사" # 18045956344516895245
+  tradition_RICE_finnic_sorcerers_desc: "#F 이 문화권에서 마법은 중요하며, 긍정적으로 여겨집니다.  삶에서 성공한 자들은 종종 강력한 마법사로 여겨집니다.  외국에서는 이 문화권 사람들이 마법 능력 때문에 두려워하고 존경받기도 합니다.#!" # 8653347783797178105
+  RICE_mordvin_beekeeper_tribute_extracted: "볼가 양봉가로부터 공물 징수" # 6023390618293550100
+  RICE_mordvin_beekeeper_tribute_extracted_desc: "이 인물은 최근 관할 지역의 꿀벌 농업으로 유명한 주변 마을들로부터 꿀, 밀랍, 기타 벌꿀 제품에 대한 추가 공물을 요구했습니다." # 14386528568104510794
+  RICE_mordvin_beekeeper_tribute_extracted_county: "볼가 양봉가에게서 추가 공물 징수" # 6459389829102784934
+  RICE_mordvin_beekeeper_tribute_extracted_county_desc: "이 지역의 양봉가들은 자신들을 다스리는 사람에게 꿀과 밀랍 같은 벌 생산물을 정기적으로 조공으로 바치고 있지만, 최근 당국은 그들에게 더 많은 조공을 요구했습니다." # 4027126490471780711
+  RICE_mordvin_honey: "볼가 꿀벌의 꿀" # 16461411555069411932
+  RICE_mordvin_beeswax: "볼가 꿀벌의 밀랍" # 14196131624301549338
+  RICE_mordvin_honey_and_beeswax: "볼가 꿀벌의 꿀과 밀랍" # 11592991348962636074
+  RICE_mordvin_opinion_honey: "꿀을 선물해주셨네요" # 18229266685027556062
+  RICE_mordvin_opinion_beeswax: "밀랍을 선물했습니다" # 16762983438789638008
+  RICE_mordvin_opinion_honey_and_beeswax: "꿀과 밀랍을 선물했습니다" # 8738536337127893656
+  RICE_horse_sacrifice_boon_minor_war: "말 희생 (소규모 전쟁 이점)" # 16335569429769165218
+  RICE_horse_sacrifice_boon_minor_political: "말 제물(소규모 정치적 혜택)" # 5328962855120800090
+  RICE_horse_sacrifice_boon_minor_ritual: "말 희생 (소규모 의례 축복)" # 9069824975755024656
+  RICE_horse_sacrifice_boon_minor_material: "말 희생 (소규모 물질적 축복)" # 615961165374434465
+  RICE_horse_sacrifice_boon_major_war: "말 희생 (주요 전쟁 특전)" # 15901954033478145239
+  RICE_horse_sacrifice_boon_major_political: "말 희생 (주요 정치적 이점)" # 4917582925081638671
+  RICE_horse_sacrifice_boon_major_ritual: "말 희생 (주요 의례 축복)" # 15461234238617942188
+  RICE_horse_sacrifice_boon_major_material: "마차 제물 (주요 자원 증가)" # 7613773163900906713
+  RICE_horse_sacrifice_boon_great_war: "말 희생 (위대한 전쟁 축복)" # 736145956362320392
+  RICE_horse_sacrifice_boon_great_political: "말 희생 (정치적 큰 이득)" # 17725712842121062911
+  RICE_horse_sacrifice_boon_great_ritual: "말 희생 (위대한 의례 축복)" # 1695374577493469030
+  RICE_horse_sacrifice_boon_great_material: "말 희생 (위대한 물질적 축복)" # 6747000084049762412
+  RICE_mordvin_recently_celebrated_ine_ozks: "최근에 조직된 이네 오즈크스" # 8422900115396405432
+  RICE_mordvin_ine_ozks_recently_held: "Ine Ozks 최근 개최" # 17672600705388414256
+  RICE_mordvin_opinion_family_ozks_time: "오크스 동안 저와 시간을 보냈습니다" # 7310694015505543722
+  RICE_mordvin_ozks_fertility_blessing: "오즈크스의 수확 축복" # 8089395722884829838
+  RICE_mordvin_ozks_defense_blessing: "오즈크의 신성한 보호" # 2173531766734377211
+  RICE_mordvin_ozks_ushmandey_winner: "우슈만데이" # 5699358811416542616
+  RICE_mordvin_ozks_ushmandey_winner_desc: "이 인물은 모르드바 전통 기도 의식 축제이자 휴일인 주요 오즈크에서 여러 스포츠 경기에서 우승한 후 #italic 우슈만데이#! 칭호를 얻었습니다. 전통적으로 이러한 게임의 우승자는 공동체에서 #italic 우슈만데이#! 또는 군 사령관으로 임명되었습니다." # 4434053301708084152
+  RICE_mordvin_ozks_bull_meat_soup: "오즈크에서 희생된 황소로 만든 수프를 먹었습니다" # 9094822714122061058
+  RICE_mordvin_horses_cast_out_evil: "말은 악귀를 몰아낸다" # 3689840913420880164
+  RICE_mordvin_participated_in_water_ozks: "물의 신을 위한 오크스에 참여했습니다" # 4870422703427309842
+  RICE_mordvin_participated_in_birch_tree_ozks: "자작나무를 위한 오크스에 참여함" # 14958655806205893415
+  RICE_mordvin_encourages_silent_trade_with_foreigners: "외국인과의 '침묵 무역'을 장려합니다" # 14440359823622399984
+  RICE_mordvin_merely_tolerates_silent_trade_with_foreigners: "외국인과의 '침묵의 무역'을 단순히 허용한다" # 11631992790597969304
+  RICE_mordvin_buzzing_beekeeper_industry: "활기찬 양봉 산업" # 11315846314453044330
+  RICE_mordvin_give_bee_products: "볼가 꿀벌 제품 선물" # 14955204032699131523
+  RICE_mordvin_give_bee_products_desc: "볼가 지역의 양봉가가 생산한 꿀, 밀랍 또는 둘 다를 선물로 주십시오." # 12429725591938905374
+  RICE_bee_product_honey: "@RICE_honey_icon! 꿀" # 18195295106944539384
+  RICE_bee_product_beeswax: "@RICE_beeswax_icon! 밀랍" # 14039159117692271497
+  RICE_bee_product_honey_and_beeswax: "@RICE_honey_and_beeswax_icon! 꿀과 밀랍" # 12914366675505092035
+  RICE_mordvin_horse_sacrifice_host_memory: "[GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]을 수행했습니다." # 6360479499974155419
+  RICE_mordvin_horse_sacrifice_host_memory_first_perspective: "[GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]을(를) 수행했습니다" # 4874197753038964203
+  RICE_mordvin_horse_sacrifice_host_memory_second_perspective: "[GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]을(를) 수행했습니다" # 5170796545636143510
+  RICE_mordvin_horse_sacrifice_host_memory_third_perspective: "[owner.GetName]이 [GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]를 수행했습니다." # 11425625352221546187
+  RICE_mordvin_horse_sacrifice_guest_memory: "[host.GetTitledFirstNamePossessive] [GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]에 참여했습니다" # 7602190184323814262
+  RICE_mordvin_horse_sacrifice_guest_memory_first_perspective: "[host.GetTitledFirstNamePossessive] [GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]에 참여했습니다" # 8643631577750740042
+  RICE_mordvin_horse_sacrifice_guest_memory_second_perspective: "[host.GetTitledFirstNamePossessive] [GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]에 참여했습니다" # 14370330357242249667
+  RICE_mordvin_horse_sacrifice_guest_memory_third_perspective: "[owner.GetName] 님이 [host.GetTitledFirstNamePossessive] [GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName]에 참여했습니다" # 18040955389294384884
+  RICE_mordvin_ine_ozks_host_memory: "[GetActivityType( 'activity_RICE_mordvin_ine_ozks' ).GetName]을 조직했습니다" # 14876892524407580666
+  RICE_mordvin_ine_ozks_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_mordvin_ine_ozks' ).GetName]을(를) 조직했습니다" # 11501624075044456433
+  RICE_mordvin_ine_ozks_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_mordvin_ine_ozks' ).GetName]을(를) 조직했습니다" # 3546061064766091367
+  RICE_mordvin_ine_ozks_host_memory_third_perspective: "[owner.GetName]이 [GetActivityType(  'activity_RICE_mordvin_ine_ozks' ).GetName]을(를) 조직했습니다" # 8045444240076655478
+  RICE_mordvin_ine_ozks_guest_memory: "[host.GetTitledFirstName]이(가) 주최한 [GetActivityType( 'activity_RICE_mordvin_ine_ozks' ).GetName]에 참석했습니다." # 13750668352637224388
+  RICE_mordvin_ine_ozks_guest_memory_first_perspective: "[host.GetTitledFirstName] 님이 주최한 [GetActivityType( 'activity_RICE_mordvin_ine_ozks' ).GetName]에 참석했습니다" # 8050605782495118954
+  RICE_mordvin_ine_ozks_guest_memory_second_perspective: "[host.GetTitledFirstName]이(가) 주최한 [GetActivityType( 'activity_RICE_mordvin_ine_ozks' ).GetName]에 참석했습니다" # 287521100665975730
+  RICE_mordvin_ine_ozks_guest_memory_third_perspective: "[owner.GetName]님이 [host.GetTitledFirstName]님이 주최한 [GetActivityType( 'activity_RICE_mordvin_ine_ozks' ).GetName]에 참석했습니다." # 6257969470981945583
+  activity_mordvin_ine_ozks: "이네 오즈크스" # 16348992986176901603
+  activity_mordvin_ine_ozks_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 오즈크의 오즈크" # 13829744208086435927
+  activity_horse_sacrifice: "말 희생" # 290735816033135531
+  activity_horse_sacrifice_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 말 희생" # 13623467106518680314
+  activity_RICE_mordvin_horse_sacrifice_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_mordvin_horse_sacrifice: "말 희생" # 290735816033135531
+  activity_RICE_mordvin_horse_sacrifice_desc: "우리 [faith|E] 신앙을 가진 사람들은 아주 오래전부터 신과 조상에게 말을 희생 제물로 바치는 것이 관례였습니다." # 8009466060697942923
+  activity_RICE_mordvin_horse_sacrifice_selection_tooltip: "$RICE_misc_sacrifice_horses_effect_tooltip_1$\n\n$RICE_misc_sacrifice_horses_context_tooltip$" # 7109565492968263936
+  activity_RICE_mordvin_horse_sacrifice_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$#P 유익함#! [character_modifiers|E]" # 11314293286236635856
+  activity_RICE_mordvin_horse_sacrifice_guest_desc: "[piety_i] [piety|E] 획득" # 15956444138895960840
+  activity_RICE_mordvin_horse_sacrifice_province_desc: "이곳은 말을 희생하기에 이상적인 장소입니다." # 18334768730490223519
+  activity_RICE_mordvin_horse_sacrifice_destination_selection: "$activity_RICE_mordvin_horse_sacrifice_province_desc$" # 12151627634502051133
+  activity_RICE_mordvin_horse_sacrifice_guest_help_text: "$activity_RICE_mordvin_horse_sacrifice$" # 3575674906644088718
+  activity_RICE_mordvin_horse_sacrifice_predicted_cost: "말 희생의 비용은 선택한 [activity_options|E]에 따라 달라집니다." # 9737609568862534217
+  activity_RICE_mordvin_horse_sacrifice_conclusion_desc: "[GetActivityType( 'activity_RICE_mordvin_horse_sacrifice' ).GetName]이(가) 끝났습니다. [GetPlayer.GetFaith.PantheonTerm]께서 이 제물을 기뻐하시기를!" # 2602118010833274478
+  RICE_horse_sacrifice_number_of_horses_type: "희생 규모" # 1426204801250438847
+  RICE_horse_sacrifice_number_of_horses_type_small: "미성년자" # 6542786321735904698
+  RICE_horse_sacrifice_number_of_horses_type_small_desc: "말을 더 많이 희생할수록 보상이 증가합니다.\n\n#weak 이 희생을 위해 적합한 말을 모을 것입니다.!" # 13994567759041788931
+  RICE_horse_sacrifice_number_of_horses_type_medium: "보통" # 7377651229498775580
+  RICE_horse_sacrifice_number_of_horses_type_medium_desc: "말을 많이 희생할수록 보상이 증가합니다.\n\n#weak [GetPlayer.GetFaith.PantheonTerm]에게 상당수의 말을 바치는 것은 분명히 그들을 기쁘게 할 것입니다!#" # 14635063691669995634
+  RICE_horse_sacrifice_number_of_horses_type_large: "거대" # 2290692482761374841
+  RICE_horse_sacrifice_number_of_horses_type_large_desc: "말을 더 많이 희생할수록 보상이 증가합니다.\n\n#weak [GetPlayer.GetFaith.PantheonTerm](이)여, 그들의 명예를 위해 말의 웅장한 희생보다 더 적은 것을 받을 자격이 없습니다!#" # 12324887195899770724
+  RICE_mordvin_horse_sacrifice_phase: "의식" # 3878012746933025863
+  RICE_mordvin_horse_sacrifice_phase_desc: "우리의 말들은 우리의 전통에 맞는 방식으로 하늘에 바쳐질 것이며, 그리하여 우리는 큰 축복을 받을 수 있을 것입니다." # 1941177078591193709
+  RICE_mordvin_horse_sacrifice_sacrifice_intent_header: "희생:" # 1673786495936202352
+  RICE_mordvin_horse_sacrifice_sacrifice_intent: "희생" # 11421588474970910012
+  RICE_mordvin_horse_sacrifice_sacrifice_intent_desc: "말 희생제의의 다양한 의례에 참여합니다." # 5336259070565980338
+  RICE_mordvin_horse_sacrifice_completed_log_title: "말 희생 완료" # 18007329900833772675
+  RICE_mordvin_horse_sacrifice_completed_log: "[CHARACTER.GetShortUIName|U]이(가) 말 희생을 완료했습니다" # 17628095146488495127
+  RICE_horse_sacrifice_number_of_horses_amount: "희생될 말의 수" # 3880069982158127298
+  TRAVEL_NAME_FOR_activity_RICE_mordvin_horse_sacrifice: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_mordvin_horse_sacrifice$" # 4751561474145709392
+  activity_RICE_mordvin_ine_ozks_host_an_a: "$host_activity_an$" # 2045561106244749009
+  activity_RICE_mordvin_ine_ozks: "이네 오즈크스" # 16348992986176901603
+  activity_RICE_mordvin_ine_ozks_desc: "우리 조상님들과 신들을 기리는 웅대한 기도이자 축제를 위해 백성들이 함께 모일 때입니다. 이는 우리가 평소에 행하는 #italic Ozks#! 의식을 뛰어넘는, 위대한 기도, 즉 이네 오즈크스입니다." # 15405474920875202453
+  activity_RICE_mordvin_ine_ozks_selection_tooltip: "이네 오즈크를 조직합니다.\n\n$RICE_mordvin_major_ozks_festival_context_tooltip$" # 15986112041620812680
+  activity_RICE_mordvin_ine_ozks_host_desc: "$BULLET_WITH_TAB$[$prestige_i|E]명예[$prestige|E]$\n$BULLET_WITH_TAB$[$piety_i|E]신앙[$piety|E]$\n$BULLET_WITH_TAB$ [GetModifier('RICE_mordvin_recently_celebrated_ine_ozks').GetNameWithTooltip] [character_modifier|E]$\n$BULLET_WITH_TAB$ 해당 [activity|E]가 열리는 [county|E]는 [GetPlayer.GetFaith.GetReligion.GetName]을 따른다면 [GetModifier('RICE_mordvin_ine_ozks_recently_held').GetNameWithTooltip] [county_modifier|E]를 얻습니다." # 11253918038309480822
+  activity_RICE_mordvin_ine_ozks_guest_desc: "\n$BULLET_WITH_TAB$[piety_i|E][piety|E]" # 12882840294630978621
+  activity_RICE_mordvin_ine_ozks_destination_selection: "$activity_RICE_mordvin_ine_ozks_province_desc$" # 1134981820249732660
+  activity_RICE_mordvin_ine_ozks_guest_help_text: "$activity_RICE_mordvin_ine_ozks$" # 3858987958435822675
+  activity_RICE_mordvin_ine_ozks_predicted_cost: "이 방문 비용은 주로 당신의 [income|E]에 따라 결정됩니다." # 8882918087865338503
+  activity_RICE_mordvin_ine_ozks_conclusion_desc: "[GetActivityType( 'activity_RICE_mordvin_ine_ozks' ).GetName]이(가) 막을 내렸습니다. 정말 영광스럽고 화려한 행사였습니다!" # 8291608340047807912
+  RICE_mordvin_ine_ozks_prayer_phase: "기도" # 3105075337060657930
+  RICE_mordvin_ine_ozks_prayer_phase_desc: "사람들이 공동 기도를 하기 위해 멀리서든 가까이서든 모입니다." # 3133422077283906473
+  RICE_mordvin_ine_ozks_pious_intent_header: "신앙심 깊은:" # 10480461155869983740
+  RICE_mordvin_ine_ozks_pious_intent: "신앙심 깊은" # 846496253500730501
+  RICE_mordvin_ine_ozks_pious_intent_desc: "헌신적인 태도로 종교 의식에 참여하려 합니다. [activity|E] 종료 시 얻는 [modifiers|E] 효과가 두 배로 오래 지속됩니다. [GetTrait('zealous').GetName( GetNullCharacter )] 특성이 있으면 [stress_loss_i|E] [stress|E]를 잃지만, [GetTrait('cynical').GetName( GetNullCharacter )] 특성이 있으면 [stress_gain_i|E] [stress|E]를 얻습니다." # 9469567179448637551
+  RICE_mordvin_ine_ozks_community_intent_header: "커뮤니티:" # 7934550964328998982
+  RICE_mordvin_ine_ozks_community_intent: "공동체" # 15637845118509028219
+  RICE_mordvin_ine_ozks_community_intent_desc: "다른 [prestige|E]에 추가하여 이 [활동|E] 종료 시 [prestige_i|E] 100#V 100#!를 얻으세요.  [사교적|E] 성격이면 [stress_loss_i|E] [stress|E]을 잃지만, [수줍음|E] 성격이면 [stress_gain_i|E] [stress|E]을 얻습니다." # 8091925955903084250
+  RICE_mordvin_ine_ozks_enjoyment_intent_header: "즐거움:" # 8532356889959912241
+  RICE_mordvin_ine_ozks_enjoyment_intent: "즐거움" # 7572640246224796860
+  RICE_mordvin_ine_ozks_enjoyment_intent_desc: "이것은 중요한 행사일 수 있지만, 그렇다고 긴장을 풀고 즐길 수 없다는 뜻은 아닙니다! [stress_loss_i|E] [stress|E]를 잃는 것이 보장되며, [GetTrait('lazy').GetName( GetNullCharacter )], [GetTrait('content').GetName( GetNullCharacter )] 또는 [GetTrait('gluttonous').GetName( GetNullCharacter )]일 경우 더 많은 것을 잃게 됩니다." # 7633910222111023295
+  RICE_mordvin_ine_ozks_completed_log_title: "이네 오즈크 완료됨" # 961038892793965413
+  RICE_mordvin_ine_ozks_completed_log: "[CHARACTER.GetShortUIName|U]이(가) [CHARACTER.GetHerHis]의 이네 오즈크스를 끝냈습니다" # 5542483285058190687
+  RICE_mordvin_ine_ozks_same_religion: "#P ++ 이 [county|E]는 [GetPlayer.GetFaith.GetReligion.GetAdjective] [religion|E]를 따릅니다." # 12961305787717663036
+  TRAVEL_NAME_FOR_activity_RICE_mordvin_ine_ozks: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_mordvin_ine_ozks$" # 14417056359387194982
+  RICE_mordvin_major_ozks_festival: "이네 오즈크를 조직합니다" # 9268099951969107534
+  RICE_mordvin_major_ozks_festival_desc: "우리 조상과 [ROOT.Char.GetFaith.PantheonTerm]을 기리는 위대한 기도, 위대한 축제를 위해 백성으로서 함께 모일 시간입니다. 이는 우리가 개최하는 일반적인 #italic 오즈크#! 의식을 넘어선 무언가일 것입니다. 즉, 위대한 기도인 이네 오즈크입니다." # 13384514665076186941
+  RICE_mordvin_major_ozks_festival_tooltip: "당신의 백성과 함께 이네 오즈크 기도를 드리십시오." # 1048684974902178468
+  RICE_mordvin_major_ozks_festival_effect_tooltip_1: "대기도회를 조직하여 [신앙심|E], [명성|E] 또는 다양한 유익한 [인물_modifier|E]를 얻거나 [stress|E]를 줄일 수 있습니다" # 5495977938930597743
+  RICE_mordvin_major_ozks_festival_effect_tooltip_2: "만약 당신의 [capital|E]이 [THIS.Char.GetFaith.GetReligion.GetAdjective] [faith|E]을 따른다면, #V 5#! 년 동안 [GetModifier('RICE_mordvin_ine_ozks_recently_held').GetNameWithTooltip] [modifier|E]를 받게 될 것입니다." # 6152317978688022398
+  RICE_mordvin_major_ozks_festival_confirm: "오즈크 준비!" # 16207494247421010412
+  RICE_mordvin_major_ozks_festival_context_tooltip: "#bold 역사적 배경:#! #italic 오즈크#!는 몰도바인족의 공적인 기도, 숭배 의식, 그리고 종교적 명절을 지칭하는 용어입니다. 현대에는 이 중 가장 잘 알려진 것은 라스켄 오즈크이며, 여기 묘사는 라스켄 오즈크에 기반하고 있습니다. 라스켄 오즈크는 1600년대 차르 정부에 의해 금지되었으나 1999년에 부활했습니다." # 10676388029027629855
+  RICE_misc_sacrifice_horses: "말을 제물로 바치기" # 4644049993993722931
+  RICE_misc_sacrifice_horses_desc: "[ROOT.Char.GetFaith.GetAdjective] 신앙을 가진 자들이 기억할 수 있을 정도로 오랜 옛날부터 조상과 [ROOT.Char.GetFaith.PantheonTerm]에게 말을 제물로 바치는 것이 관습이었습니다." # 5197324269164366057
+  RICE_misc_sacrifice_horses_tooltip: "말을 희생할 것입니다." # 8141266897244212971
+  RICE_misc_sacrifice_horses_effect_tooltip_1: "말을 희생하면 희생하는 말의 수에 따라 [piety|E], [prestige|E], 유익한 [character_modifiers|E] 등의 다양한 보상을 받을 수 있습니다." # 3914829198440367578
+  RICE_misc_sacrifice_horses_confirm: "희생할 적합한 말을 찾으십시오!" # 11177578030555434290
+  RICE_misc_sacrifice_horses_context_tooltip: "#emphasis 역사적 배경:#! 유라시아 각지의 여러 민족, 노르드족부터 몽골족, 모르드빈족에 이르기까지, 말 제사는 흔한 종교 의식이었습니다. 이러한 사회에서는 죽은 자와 함께 말을 묻는 풍습이 일반적이었습니다. 중세와 근세에 이르러 아브라함 계통 종교와 불교의 확산과 함께 이러한 관습은 점차 사라졌습니다." # 3511086459620433175
+  RICE_misc_sacrifice_horses_type: "몇 마리의 말을 희생할지 선택하세요." # 778198362583410949
+  RICE_misc_sacrifice_horses_type_gui: "$RICE_misc_sacrifice_horses_type$" # 18163948181982678279
+  RICE_misc_horse_sacrifice_minor_option: "#Bold 소규모 제사#!#!\n$RICE_misc_horse_sacrifice_minor_option_desc$" # 12748206590147055819
+  RICE_misc_horse_sacrifice_minor_option_desc: "말 몇 마리 희생" # 9842113529208436397
+  RICE_misc_horse_sacrifice_minor_option_tooltip: "#V #Bold 최소 비용: @gold_icon! [EmptyScope.ScriptValue('RICE_misc_horse_sacrifice_cost_minor')|0]#!#!\n$EFFECT_LIST_BULLET$ #V 0#!에서 #V 50#! 사이의 [신앙도|E] 및 [명성|E] 획득\n$EFFECT_LIST_BULLET$ 무작위 소소한 효과를 지닌 유익한 [인물 수정자|E] 획득" # 11209860403310080188
+  RICE_misc_horse_sacrifice_major_option: "#Bold #주요 희생 제례#!#!\n$RICE_misc_horse_sacrifice_major_option_desc$" # 13763337366022852943
+  RICE_misc_horse_sacrifice_major_option_desc: "상당한 수의 말을 희생하십시오" # 8973725696297121862
+  RICE_misc_horse_sacrifice_major_option_tooltip: "#V #Bold 최소 비용: @gold_icon! [EmptyScope.ScriptValue('RICE_misc_horse_sacrifice_cost_major')|0]#!#!\n$EFFECT_LIST_BULLET$#V 25#! ~ #V 100#! 사이의 [piety|E]와 [prestige|E] 증가\n$EFFECT_LIST_BULLET$무작위의 #italic 또는#! 중소 효과를 가진 유리한 [character_modifier|E] 획득" # 17021274082381402239
+  RICE_misc_horse_sacrifice_great_option: "#Bold #대제사#!#!\n$RICE_misc_horse_sacrifice_great_option_desc$" # 17095903917586981850
+  RICE_misc_horse_sacrifice_great_option_desc: "많은 말을 희생하십시오" # 16761654823069538663
+  RICE_misc_horse_sacrifice_great_option_tooltip: "#V #Bold 최소 비용: @gold_icon! [EmptyScope.ScriptValue('RICE_misc_horse_sacrifice_cost_great')|0]!#!#!\n\n$EFFECT_LIST_BULLET$#V 50#!에서 #V 200#! 사이의 [piety|E]와 [prestige|E]를 얻습니다.\n$EFFECT_LIST_BULLET$임의의 소, 중, #italic 또는#! 대 효과를 지닌 유익한 [character_modifier|E]를 얻습니다." # 6796824973330495302
+  RICE_misc_horse_sacrifice_ai_option: "$RICE_north_atlantic_expedition_ai_option$" # 8562235743961529778
+  RICE_misc_horse_sacrifice_ai_option_desc: "$RICE_north_atlantic_expedition_ai_option_desc$" # 1208083384927985953
+  RICE_misc_horse_sacrifice_ai_option_tooltip: "$RICE_north_atlantic_expedition_ai_option_tooltip$" # 11744937266613047631
+  RICE_mordvin_extract_beekeeper_tribute: "양봉가에게 추가 공물 징수" # 8647587447451930635
+  RICE_mordvin_extract_beekeeper_tribute_desc: "볼가강 유역에서 유래한 우리 백성들은, 제 영지 내의 백성들처럼 양봉 능력으로 유명합니다. 이미 꿀, 밀랍 등 다양한 벌 생산품 형태로 여러 마을에서 세금을 징수하고 있지만, #italic 더 많이#! 징수하면 어떨까요?" # 14652284301511221432
+  RICE_mordvin_extract_beekeeper_tribute_tooltip: "지역 양봉업자들에게 더 많은 공물을 요구하여 추가 [gold|E] 획득" # 3047715580628648677
+  RICE_mordvin_extract_beekeeper_tribute_effect_tooltip_1: "#V [gold_i|E] [GetPlayer.MakeScope.ScriptValue('RICE_mordvin_beekeeper_extra_tribute_min_value')]#!부터 #bold 최대#! #V [gold_i|E] [GetPlayer.MakeScope.ScriptValue('RICE_mordvin_beekeeper_extra_tribute_max_value')]#!까지의 [gold|E]를 무작위로 받습니다." # 38993376224585239
+  RICE_mordvin_extract_beekeeper_tribute_effect_tooltip_2: "이 금액은 귀하의 [관리력_스킬|E]와 귀하의 [county|E] 내 [문화|E]가 $tradition_RICE_volga_apiculture_name$ [전통|E]인 [county|E] 수에 따라 달라집니다." # 4622037154340712586
+  RICE_mordvin_extract_beekeeper_tribute_confirm: "왕국의 양봉가들에게 즉시 알리십시오!" # 2266995017555124998
+  RICE_mordvin_extract_beekeeper_tribute_context_tooltip: "#emphasis 역사적 배경:#! 볼가 강 유역에서 벌꿀 채취는, 특히 몰도바인, 마리, 우드무르트, 추바시, 타타르족과 같은 핀우그리아 및 터키계 민족에게 매우 수익성 높은 산업이었습니다. 예를 들어, 유명한 10세기 아랍 탐험가 이븐 파드란은 이 지역에서 교역되는 꿀의 양에 대해 언급합니다. 이후 초기 근대 시대에, 차르 정부는 이들 민족에게 꿀과 같은 벌꿀 제품 형태의 공물을 징수했습니다." # 4147524867529061318
+  RICE_mordvin_any_county_has_volga_apiculture_culture_req: "$tradition_RICE_volga_apiculture_name$ [전통|E]을 가진 [문화|E]의 [백작령|E]을 하나 이상 소유하십시오" # 17318656378116566471
+  RICE_mordvin_acquire_volga_bee_products: "볼가 꿀 제품 획득" # 6500805118505613063
+  RICE_mordvin_acquire_volga_bee_products_desc: "양봉업은 우리 [ROOT.Char.GetCulture.GetCollectiveNoun]과 같은 여러 민족들 사이에서 볼가 강 유역에서 수 세기 동안 주요 산업이었습니다. 제 이익을 위해 벌꿀 제품을 좀 구매해야겠습니다." # 15620232258372611065
+  RICE_mordvin_acquire_volga_bee_products_tooltip: "당신은 꿀, 밀랍 또는 둘 다를 구매할 것입니다." # 6546755993543341109
+  RICE_mordvin_acquire_volga_bee_products_effect_tooltip_1: "구매를 선택한 것에 따라 긍정적인 [character_modifier|E]를 얻게 됩니다" # 7328213159624576936
+  RICE_mordvin_acquire_volga_bee_products_confirm: "지역 양봉가들을 방문해 봅시다!" # 15667886206278909958
+  RICE_mordvin_acquire_volga_bee_products_context_tooltip: "$RICE_mordvin_extract_beekeeper_tribute_context_tooltip$" # 14075715181118019900
+  RICE_mordvin_acquire_volga_bee_products_type: "꿀벌 제품을 구매할 것인가를 결정하세요." # 5219563693322986282
+  RICE_mordvin_acquire_volga_bee_products_type_gui: "$RICE_mordvin_acquire_volga_bee_products_type$" # 14048190553612191010
+  RICE_mordvin_honey_option: "#Bold #꿀 #V!#!" # 17954088707469011479
+  RICE_mordvin_honey_option_desc: "$RICE_mordvin_honey_option$" # 1023450119060046267
+  RICE_mordvin_honey_option_tooltip: "비용: @gold_icon! #V #Bold [EmptyScope.ScriptValue('RICE_mordvin_honey_cost')|0]#!#!\n\n10년 동안 [GetModifier('RICE_mordvin_honey').GetNameWithTooltip] [modifier|E] 획득" # 13404907701656019959
+  RICE_mordvin_beeswax_option: "#Bold #밀랍#!#!" # 10218305925101716915
+  RICE_mordvin_beeswax_option_desc: "$RICE_mordvin_beeswax_option$" # 7314210579248009938
+  RICE_mordvin_beeswax_option_tooltip: "비용: @gold_icon! #V #Bold [EmptyScope.ScriptValue('RICE_mordvin_beeswax_cost')|0]#!#!\n\n10년 동안 [GetModifier('RICE_mordvin_beeswax').GetNameWithTooltip] [modifier|E] 획득" # 16591085427301763178
+  RICE_mordvin_honey_and_beeswax_option: "#Bold #꿀벌과 밀랍#!#!" # 8468737591403482589
+  RICE_mordvin_honey_and_beeswax_option_desc: "$RICE_mordvin_honey_and_beeswax$" # 9707713905806736722
+  RICE_mordvin_honey_and_beeswax_option_tooltip: "비용: @gold_icon! #V #Bold [EmptyScope.ScriptValue('RICE_mordvin_honey_and_beeswax_cost')|0]#!#!\n\n10년 동안 [GetModifier('RICE_mordvin_honey_and_beeswax').GetNameWithTooltip] [modifier|E] 획득" # 201437609493627610
+  RICE_mordvin_bee_product_ai: "$RICE_north_atlantic_expedition_ai_option$" # 8562235743961529778
+  RICE_mordvin_bee_product_ai_desc: "$RICE_north_atlantic_expedition_ai_option_desc$" # 1208083384927985953
+  RICE_mordvin_bee_product_ai_tooltip: "$RICE_north_atlantic_expedition_ai_option_tooltip$" # 11744937266613047631
+  mordvin.0000.t: "xxxxx" # 1951045980481827005
+  mordvin.0000.desc: "xxxxx" # 1951045980481827005
+  mordvin.0000.a: "xxxxx" # 1951045980481827005
+  mordvin.0001.t: "xxxxx" # 1951045980481827005
+  mordvin.0001.desc: "xxxxx" # 1951045980481827005
+  mordvin.0001.a: "xxxxx" # 1951045980481827005
+  mordvin.0002.t: "xxxxx" # 1951045980481827005
+  mordvin.0002.desc: "xxxxx" # 1951045980481827005
+  mordvin.0002.a: "xxxxx" # 1951045980481827005
+  mordvin.0003.t: "xxxxx" # 1951045980481827005
+  mordvin.0003.desc: "xxxxx" # 1951045980481827005
+  mordvin.0003.a: "xxxxx" # 1951045980481827005
+  mordvin.0004.t: "xxxxx" # 1951045980481827005
+  mordvin.0004.desc: "xxxxx" # 1951045980481827005
+  mordvin.0004.a: "xxxxx" # 1951045980481827005
+  mordvin.0005.t: "xxxxx" # 1951045980481827005
+  mordvin.0005.desc: "xxxxx" # 1951045980481827005
+  mordvin.0005.a: "xxxxx" # 1951045980481827005
+  mordvin.0006.t: "xxxxx" # 1951045980481827005
+  mordvin.0006.desc: "xxxxx" # 1951045980481827005
+  mordvin.0006.a: "xxxxx" # 1951045980481827005
+  mordvin.0007.t: "xxxxx" # 1951045980481827005
+  mordvin.0007.desc: "xxxxx" # 1951045980481827005
+  mordvin.0007.a: "xxxxx" # 1951045980481827005
+  mordvin.0008.t: "xxxxx" # 1951045980481827005
+  mordvin.0008.desc: "xxxxx" # 1951045980481827005
+  mordvin.0008.a: "xxxxx" # 1951045980481827005
+  mordvin.0009.t: "xxxxx" # 1951045980481827005
+  mordvin.0009.desc: "xxxxx" # 1951045980481827005
+  mordvin.0009.a: "xxxxx" # 1951045980481827005
+  mordvin.0010.t: "말 희생을 준비 중" # 16341480236620570431
+  mordvin.0010.desc.intro: "기억할 수 있는 한 오랫동안, [host.GetFaith.GetAdherentNamePlural](으)로 하여금 [host.GetFaith.PantheonTerm]을 기리기 위해 말을 희생하는 것은 중요한 종교적 관행이었습니다." # 14304976071404726370
+  mordvin.0010.desc.host: "가지고 있습니다." # 4193262755483928533
+  mordvin.0010.desc.not_host: "[host.GetTitledFirstName] 님이" # 12655646208523807625
+  mordvin.0010.desc.minor: "[location.GetName]에서 소규모 말 제사를 치르도록 명령했습니다." # 6734113363673993054
+  mordvin.0010.desc.major: "[location.GetName]에서 그러한 대규모 말 희생을 한 번 거행하도록 명령했습니다." # 8789884533425211557
+  mordvin.0010.desc.great: "[location.GetName]에서 그러한 위대한 말 희생 제의를 열도록 명령했습니다." # 17134512518858138056
+  mordvin.0010.desc.conclusion: "지역 [host.Custom('DefaultPriestTitlePlural')]은 이미 이 의식에 필요한 준비를 하고 있습니다.\n\n모든 사람들이 [host.GetFaith.PantheonTerm]이 이 희생에 기뻐하고 이 왕국에 많은 위대한 축복을 내리기를 바라고 있습니다." # 8237214830126715853
+  mordvin.0010.a: "제물을 바칠 준비를 할 시간입니다!" # 8729715156494639151
+  mordvin.0011.t: "마상 제사" # 18358486032648443547
+  mordvin.0011.desc: "말을 희생하는 날이 되었습니다. 저는 여러 [host.Custom('DefaultPriestTitlePlural')]이 모인 [host.GetFaith.HouseOfWorship]에 도착했습니다. 그들은 [host.GetFaith.GetAdjective] 의식에서 말을 희생할 제단을 준비했습니다.\n\n말들은 제단으로 끌려가고, 그곳에서 [host.Custom('DefaultPriestTitlePlural')]이 정중하게 죽입니다. 이 의식이 진행되는 동안 우리 모두는 [host.GetFaith.PantheonTerm]에게 기도하고 다양한 의식을 수행합니다.\n\n의식이 끝나면, 우리는 그렇게 중요한 의식을 도와준 [host.Custom('DefaultPriestTitlePlural')]에게 감사드립니다. 바라건대, [host.GetFaith.PantheonTerm]이 우리의 희생을 알아주셨기를 바랍니다!" # 6194551557879654156
+  mordvin.0011.a: "이것에 참여하게 되어 기쁩니다." # 2159697445542714003
+  mordvin.0012.t: "xxxxx" # 1951045980481827005
+  mordvin.0012.desc: "xxxxx" # 1951045980481827005
+  mordvin.0012.a: "xxxxx" # 1951045980481827005
+  mordvin.0013.t: "xxxxx" # 1951045980481827005
+  mordvin.0013.desc: "xxxxx" # 1951045980481827005
+  mordvin.0013.a: "xxxxx" # 1951045980481827005
+  mordvin.0014.t: "xxxxx" # 1951045980481827005
+  mordvin.0014.desc: "xxxxx" # 1951045980481827005
+  mordvin.0014.a: "xxxxx" # 1951045980481827005
+  mordvin.0015.t: "xxxxx" # 1951045980481827005
+  mordvin.0015.desc: "xxxxx" # 1951045980481827005
+  mordvin.0015.a: "xxxxx" # 1951045980481827005
+  mordvin.0016.t: "xxxxx" # 1951045980481827005
+  mordvin.0016.desc: "xxxxx" # 1951045980481827005
+  mordvin.0016.a: "xxxxx" # 1951045980481827005
+  mordvin.0017.t: "xxxxx" # 1951045980481827005
+  mordvin.0017.desc: "xxxxx" # 1951045980481827005
+  mordvin.0017.a: "xxxxx" # 1951045980481827005
+  mordvin.0018.t: "xxxxx" # 1951045980481827005
+  mordvin.0018.desc: "xxxxx" # 1951045980481827005
+  mordvin.0018.a: "xxxxx" # 1951045980481827005
+  mordvin.0019.t: "xxxxx" # 1951045980481827005
+  mordvin.0019.desc: "xxxxx" # 1951045980481827005
+  mordvin.0019.a: "xxxxx" # 1951045980481827005
+  mordvin.0020.t: "벌꿀 생산품" # 16795035677344938972
+  mordvin.0020.desc: "수 세기 동안 양봉은 볼가 지역의 경제와 문화에서 중요한 부분을 차지해 왔습니다. 제 영토에는 이러한 양봉 전통을 유지하는 여러 정착지가 있으며, 따라서 양질의 벌꿀 생산으로 유명합니다." # 6422993185216486677
+  mordvin.0020.desc.honey: "저는 제 왕국의 양봉가들에게 [recipient.GetTitledFirstName] 님에게 보낼 대량의 꿀을 준비하라고 명령했습니다. 꿀은 음식에서 감미료로 중요한 것 외에도 여러 약효가 있다고 합니다." # 15664600247178879342
+  mordvin.0020.desc.beeswax: "이에 저는 제 영지의 양봉가들에게 [recipient.GetTitledFirstName](으)로 보낼 대량의 밀랍을 준비하라고 명령했습니다. 밀랍은 꿀보다 훨씬 더 수익성이 좋으며 양초나 화장품 제조와 같은 다양한 실용적인 용도가 있습니다." # 12177270284522050335
+  mordvin.0020.desc.honey_and_beeswax: "저는 제 영지의 양봉가들에게 [recipient.GetTitledFirstName](으)로 보낼 많은 양의 꿀과 밀랍을 준비하라고 지시했습니다. 이 두 제품은 다양한 용도로 사용될 수 있으며, 저는 [recipient.GetFirstNameNoTooltip](이)가 이를 잘 활용할 수 있을 것이라고 확신합니다!" # 10163893289148849845
+  mordvin.0020.a: "[recipient.GetSheHe]께서 이 선물을 마음에 들어 하시길 바랍니다!" # 18182742445572478972
+  mordvin.0021.opening: "[actor.Custom2('AppropriateGreeting', recipient)]" # 2873569342205915436
+  mordvin.0021.desc.honey: "제 왕국에서 생산된 최고 품질의 꿀을 이 서신과 함께 선물로 드리고자 합니다." # 15026765503758128459
+  mordvin.0021.desc.beeswax: "본 서한과 함께 저희 영역에서 생산된 고품질 밀랍을 선물로 드립니다." # 80197854410100214
+  mordvin.0021.desc.honey_and_beeswax: "제 영지에서 생산한 고급 꿀과 밀랍을 이 서신과 함께 선물로 드리고자 합니다." # 10558040247329018429
+  mordvin.0021.desc: "저는 볼가 지역의 유명한 양봉 전통을 보존하는 여러 정착지를 다스리고 있습니다. 이러한 귀한 제품들을 당신과 나누는 것이 저의 진심 어린 소망입니다." # 17325316450494218017
+  mordvin.0021.a: "훌륭한 선물입니다!" # 820773985853193180
+  mordvin.0022.t: "#bold Historical context:# The $mordvin$ tribes are divided in the Erzya and Moksha groups, and their lands often divided between those of the Rus' princes. The $mordvin$ people are famous for their warriors, who fight both on foot and on horseback, and for their fierce berserkers. Their main weakness is the lack of unity between their tribes and petty rulers, making them a prime target for external conquest." # 12585555542245140100
+  mordvin.0022.desc: "#F The Mordvins are a collection of tribes and clans whose ancestral lands are in the forest steppes around the Volga, and its surrounding tributaries. Many have come to believe the legends and tales of their ancient heroes, a tradition carried on from mother to child. Yet their pagan religion, and unique social structure prevents them from unifying. They have not yet developed a strong enough leadership to bring all of their people together. The arrival of the Rus has only further fractured their world, as some tribes see opportunity with these new peoples, while others want to continue their ways uninterrupted. The coming years will decide if the Mordvins can put aside their petty squabbles, and unify or continue to fall further into their disunity.#" # 18105002357881326218
+  mordvin.0022.desc.honey: "나는 지역 양봉가로부터 많은 양의 꿀을 구매하기로 결정했습니다. 꿀은 음식에서 감미료로 중요할 뿐만 아니라 많은 약효도 있다고 합니다." # 6853901457534971177
+  mordvin.0022.desc.beeswax: "저는 지역 양봉가들로부터 많은 양의 밀랍을 구매하기로 결정했습니다. 밀랍은 꿀보다 훨씬 수익성이 높고 양초나 화장품을 만드는 것과 같은 다양한 실용적인 용도로 사용됩니다." # 8876224447856856463
+  mordvin.0022.desc.honey_and_beeswax: "지역 꿀벌 농가로부터 많은 양의 꿀과 밀랍을 구입하기로 결정했습니다. 이 두 제품 모두 다양한 용도를 가지고 있으며, 분명 큰 도움이 될 것이라고 생각합니다!" # 12639131686996514204
+  mordvin.0023.t: "양봉가로부터 추가 공물" # 12548978120945207892
+  mordvin.0023.desc: "여러 세대에 걸쳐 양봉은 볼가 강 유역에서 기원한 사람들의 삶에서 중요한 부분이었습니다. 제 영토에 이러한 전통을 이어가는 정착지가 있다는 것은 매우 운이 좋은 일입니다. 그들이 생산하는 꿀이나 밀랍과 같은 벌 생산물은 해외 시장에서 높은 가격으로 판매되어 많은 부와 세수를 가져다줍니다.\n\n하지만 때로는 이 양봉가들이 내는 세금이 충분하지 않을 때도 있습니다. 때로는 더 많은 것이 필요할 때도 있습니다.\n\n그래서 저는 올해 제 영토의 양봉가들에게 평소에 요구하는 것보다 더 많은 공물을 바치라고 명령했습니다. 그들은 이미 무역으로 많은 이익을 얻고 있으며, 그와 관련된 다양한 특권을 가지고 있으므로 그들에게서 조금 더 많은 공물을 추출하는 것은 확실히 해가 되지 않을 것입니다." # 4235151852963146481
+  mordvin.0023.a: "This is a really #italic sweet#! deal... for me!" # 4544296593006153852
+  mordvin.0024.t: "xxxxx" # 1951045980481827005
+  mordvin.0024.desc: "xxxxx" # 1951045980481827005
+  mordvin.0024.a: "xxxxx" # 1951045980481827005
+  mordvin.0025.t: "xxxxx" # 1951045980481827005
+  mordvin.0025.desc: "xxxxx" # 1951045980481827005
+  mordvin.0025.a: "xxxxx" # 1951045980481827005
+  mordvin.0026.t: "xxxxx" # 1951045980481827005
+  mordvin.0026.desc: "xxxxx" # 1951045980481827005
+  mordvin.0026.a: "xxxxx" # 1951045980481827005
+  mordvin.0027.t: "xxxxx" # 1951045980481827005
+  mordvin.0027.desc: "xxxxx" # 1951045980481827005
+  mordvin.0027.a: "xxxxx" # 1951045980481827005
+  mordvin.0028.t: "xxxxx" # 1951045980481827005
+  mordvin.0028.desc: "xxxxx" # 1951045980481827005
+  mordvin.0028.a: "xxxxx" # 1951045980481827005
+  mordvin.0029.t: "xxxxx" # 1951045980481827005
+  mordvin.0029.desc: "xxxxx" # 1951045980481827005
+  mordvin.0029.a: "xxxxx" # 1951045980481827005
+  mordvin.0030.t: "오즈크를 위한 준비" # 16273652031053114771
+  mordvin.0030.desc: "우리 [ROOT.Char.GetFaith.GetAdherentNamePlural]에게 공공 기도, 즉 #italic 오츠크#!은 일상생활의 일반적인 부분입니다. 그러나 중요한 행사를 위해 공동체는 [ROOT.Char.GetFaith.PantheonTerm]과 조상을 기리는 호화로운 의식과 사람들이 서로 교류하고 휴식을 취할 수 있는 많은 기회로 가득한 성대한 행사를 개최하기 위해 함께 모일 수 있습니다.\n\n저는 [capital_province.GetName]의 모든 사람이 그러한 #italic 이네 오츠크#!, 즉 위대한 기도를 준비하라는 명령을 내렸습니다. 이미 [ROOT.Char.Custom('DefaultPriestTitlePlural')]과 나머지 공동체는 이 행사를 위한 준비를 하고 있습니다." # 6528554113378935592
+  mordvin.0030.a: "이것은 훌륭하고 중대한 계기가 될 것입니다!" # 2866765407812426531
+  mordvin.0031.t: "오즈크 시작" # 17523503643505418098
+  mordvin.0031.desc: "#italic 이네 오즈크#의 날이 다가왔습니다! 저와 [ROOT.Char.Custom('DefaultPriestTitlePlural')] 그리고 지역 사회의 저명 인사들은 이 날을 만들기 위해 열심히 노력했습니다.\n\n[capital_province.GetName] 인근 마을과 촌락에서 사람들이 모여들었고, 우리는 모두 고인의 영혼을 초대하며 축제를 시작합니다. 모든 사람들은 자신의 고향에서 흙 한줌을 가져왔고, 이 흙은 모두 기도의 중심지 역할을 하는 고대 언덕 위에 놓여 있습니다. 이러한 의식이 열릴 때마다 언덕은 물론 시간이 흐르면서 커져 갑니다.\n\n이어서, #italic shtatol#!, 밀랍으로 만든 거대한 촛불이 언덕 중앙에 세워집니다. 그런 다음, [ROOT.Char.Custom('DefaultPriestTitlePlural')]들이 촛불을 밝히고, 이후에는 [ROOT.Char.GetFaith.PantheonTerm]의 은총을 얻기 위해 여러 동물 희생을 합니다. 특히 소 희생은 모든 사람이 나중에 먹을 수 있도록 고기가 요리될 것입니다." # 11560584659329613852
+  mordvin.0031.a: "우리의 기도가 받아들여지기를 바랍니다!" # 16755329941402370679
+  mordvin.0032.t: "오즈크의 종말" # 11112560718745338564
+  mordvin.0032.desc: "#italic 오즈크# 너무나 멋졌습니다!\n\n축제는 곧 끝나고 모두 집으로 돌아갈 것입니다. 바라건대 영적으로 충만해지고 서로와 [ROOT.Char.GetFaith.PantheonTerm] 더욱 연결되었다고 느끼기를 바랍니다. 어쨌든 저는 많은 사람들이 참여하는 것을 보게 되어 기뻤습니다." # 4846508184193706280
+  mordvin.0032.a: "가능한 한 빨리 또 다른 모임을 조직해야 합니다!" # 6833064005944792090
+  mordvin.0033.t: "우리 조상" # 2907537664655261613
+  mordvin.0033.desc: "이 오즈크 의식의 일부로서, 우리 조상들에게 존경을 표하는 것은 매우 중요합니다. 오즈크가 시작될 때 우리는 우리 조상들을 이 축제에 초대했지만, 축제가 계속되는 동안 그들을 계속 생각하고 숭배하는 것도 중요합니다. 오즈크가 시작되기 전보다 지금 조상들에게 더 가까워진 것 같습니다." # 12467298888603833706
+  mordvin.0033.a: "결국, 우리 조상들은 우리에게 많은 것을 주었습니다." # 1505269182722282714
+  mordvin.0034.t: "가족 시간" # 2635603458201607790
+  mordvin.0034.desc: "대규모 오즈크 휴일은 가족과 친척들이 서로 만나 가족 관계를 강화할 수 있는 좋은 기회입니다. 따라서 저는 오즈크를 가까운 가족과 시간을 보내는 기회로 활용했습니다." # 2271761813634237619
+  mordvin.0034.a: "결국 우리는 서로 없이는 아무것도 아니니까요." # 17800873341504389855
+  mordvin.0035.t: "수확 기도" # 8820288330044459848
+  mordvin.0035.desc: "이번 오츠크 기간 동안 우리는 [ROOT.Char.GetFaith.FertilityGodName] 님께 다음 수확이 풍년이 되기를 기원하며 기도를 올리고 있습니다. 우리는 이 오츠크 기간 동안 [ROOT.Char.GetFaith.FertilityGodSheHe|U]께서 우리의 기도를 들으시고 우리 공동체에 풍요와 번영을 내려주시기를 간절히 바라며 기도합니다." # 11706246217044515226
+  mordvin.0035.a: "우리의 기도가 받아들여지기를 바랍니다!" # 12643994337206473612
+  mordvin.0035.toast: "[ROOT.Char.Custom('DefaultPriestTitlePlural')]이 다음 수확이 좋을 것이라고 말합니다!" # 10359146565167912245
+  mordvin.0036.t: "신성한 보호" # 10774968440277447916
+  mordvin.0036.desc: "오즈크의 일환으로, 우리는 현재 [ROOT.Char.GetFaith.HighGodName]께 [ROOT.Char.GetFaith.HighGodNameSheHe|U]께서 우리와 우리 땅을 쳐들어오는 모든 적들로부터 보호해 주시기를 기원하고 있습니다. 우리는 [ROOT.Char.GetFaith.HighGodNameSheHe|U]께서 우리의 기도를 들어주시기를 간절히 바라며 끊임없이 엄격하게 기도하고 있습니다. 우리는 우리의 집을 지킬 수 있고 지킬 것이지만, 신성한 도움이 있다면 훨씬 쉬울 것입니다!" # 9588040805153935587
+  mordvin.0036.a: "우리 공동체, 우리 백성은 견뎌낼 것이다!" # 7017531829712002291
+  mordvin.0036.toast: "[ROOT.Char.Custom('DefaultPriestTitlePlural')]이여, [ROOT.Char.GetFaith.HighGodName]께서 우리를 보호하시리라!" # 8475622101199322465
+  mordvin.0037.t: "문제 해결" # 18128706420360498981
+  mordvin.0037.desc: "주요 오즈크 축일은 사람들이 모여 서로 간의 갈등이나 다양한 지역 문제와 같은 긴급한 문제를 해결하는 시간입니다. 오즈크 기간 동안 다양한 사람들을 만나면서, 그들의 일상적인 삶이 반드시 나의 관심사는 아니지만, 이러한 문제와 사람들이 어떻게 해결하려고 노력하는지에 대해 듣고 많은 것을 배웁니다." # 17235041474544924261
+  mordvin.0037.a: "정말 통찰력 있군요!" # 15199079361081565570
+  mordvin.0038.t: "스포츠 대회" # 4577420142960356399
+  mordvin.0038.desc: "주요 오츠크 기간에는 축제와 즐거움을 기리는 의미에서 스포츠 경기가 자주 열립니다. 레슬링, 양궁, 달리기 등 다양한 스포츠가 펼쳐지는 멋진 광경입니다. 볼거리가 너무 많아서 저도 모르게 선수들을 응원하며 즐거워집니다." # 6826924345437128417
+  mordvin.0038.a: "모두가 즐거운 시간을 보내고 있습니다." # 1872232022209800620
+  mordvin.0039.t: "경쟁 우승자" # 12982261634923741799
+  mordvin.0039.desc: "스포츠 경기는 이러한 대규모 오츠크에서 흔한 요소입니다. 관람하는 재미 외에도, 이는 전사들, 즉 무기를 들도록 소집될 수 있는 사람들이 궁술부터 칼 던지기 등 다양한 무술 기술을 연마할 수 있는 좋은 기회입니다. 전통적으로 이러한 경기의 승자들은 #italic 우쉬만데이#!, 즉 공동체 내의 군사 지휘관으로 임명되곤 했습니다." # 16754241221980950209
+  mordvin.0039.desc.winner_knight: "제 궁정의 $knight_culture_player_plural_no_tooltip_lowercase$ 중 하나인 [warrior.GetTitledFirstName]께서 여러 경기에서 뛰어난 활약을 펼쳐 많은 승리를 거두었습니다. 이에 따라 [warrior.GetSheHe|U]께서는 #italic 우슈만데이#!라는 칭호를 받게 되었습니다." # 147265507537644009
+  mordvin.0039.desc.winner_local: "다양한 대회 우승자들에게 축하를 전하며, 그들의 업적에 대해 #italic 우슈만데이#!라는 칭호를 부여했습니다." # 18177131922696403907
+  mordvin.0039.a: "모든 참가자가 잘했습니다!" # 11756938212266030862
+  mordvin.0040.t: "춤추기" # 16127839157360661168
+  mordvin.0040.desc: "좋은 휴일과 마찬가지로, 오즈크 축제에서 춤은 중요한 부분입니다. 이 오즈크의 참가자들은 원형 무도회를 벌여 즐겁게 함께하며, 공동체로서 하나가 됩니다. 이러한 의식을 통해 우리는 서로, 조상들, 그리고 [ROOT.Char.GetFaith.PantheonTerm]과 더욱 가까워집니다." # 14563315413637133211
+  mordvin.0040.a: "그리고 재미있습니다!" # 281023469435562129
+  mordvin.0041.t: "가정을 위한 기도" # 423955232817592779
+  mordvin.0041.desc: "오즈크 기간 동안, 지역 여성들이 [ROOT.Char.GetFaith.HouseholdGodName]에게 가족의 건강과 행복을 기원하는 모습을 볼 수 있습니다. 오즈크 기간 동안 좋은 분위기를 유지하면 집에서 불행을 쫓아내는 좋은 에너지를 끌어들일 수 있다는 것은 누구나 다 아는 사실입니다." # 17938550253575079699
+  mordvin.0041.a: "그들의 기도가 응답받기를 바랍니다." # 13778012661501956597
+  mordvin.0042.t: "오즈크에서 연회" # 15577698145542126867
+  mordvin.0042.desc: "큰 연회 없이는 어떤 휴일도 완벽할 수 없으며, 이 웅장한 오크스도 예외는 아닙니다! 축제와 축하의 일환으로 온갖 종류의 고기, 빵, 채소, 과일, 버섯, 생선 등으로 가득한 성찬이 열립니다. 모두가 배불리 먹고 서로 교류하면서 즐거운 시간을 보내고 있습니다." # 4293284924684051767
+  mordvin.0042.a: "훌륭한 음식을 먹는 데 집중하겠습니다!" # 6802903159051072707
+  mordvin.0042.b: "모든 사람과 친해지고 싶어요." # 4839679229037120304
+  mordvin.0043.t: "위대한 #italic 슈타톨#! 양초" # 11278895156321002210
+  mordvin.0043.desc: "고대 [ROOT.Char.GetFaith.GetAdjective] 관습에 따라, 이 오츠크 축제 중앙의 거대한 언덕에 세워진 거대한 #italic 쉬타톨#! 양초는 가난한 자부터 부유한 자에 이르기까지 관련된 모든 가족의 밀랍 기여 덕분에 만들어졌습니다.\n\n[ROOT.Char.GetTitleAsNameNoTooltip]인 저는 당연히 이 양초를 만드는 데 상당한 양의 밀랍을 기여했습니다.\n\n그럼에도 불구하고, 전통적인 믿음은 이 양초가 클수록 우리 공동체가 더 번영하고 강력해진다는 것입니다." # 16698299560832759416
+  mordvin.0043.a: "#italic shtatol#!는 우리의 단결과 강인함을 상징합니다." # 17824125551465930156
+  mordvin.0044.t: "황소 고기 수프" # 8180221743147489422
+  mordvin.0044.desc: "이 오크즈가 시작될 때, 다양한 전통 [ROOT.Char.GetFaith.GetAdjective] 의식의 일부로 [ROOT.Char.GetFaith.PantheonTerm]에게 황소가 희생되었습니다. 물론 황소는 장수와 건강을 상징합니다.\n\n이제 축제가 한창 진행 중인 가운데, 희생된 황소는 특별히 임명된 사람들에 의해 가죽이 벗겨진 후, 요리할 영광을 부여받은 여성들에 의해 조리됩니다. 종종 황소 고기는 다양한 채소와 허브와 함께 수프 형태로 준비되며, 이번에도 마찬가지입니다.\n\n저는 지금 황소 고기 수프를 먹고 있는데, 정말 맛있네요!" # 8415492883962694955
+  mordvin.0044.a: "빵과 꿀과도 잘 어울립니다." # 9359225605968968889
+  mordvin.0045.t: "xxxxx" # 1951045980481827005
+  mordvin.0045.desc: "xxxxx" # 1951045980481827005
+  mordvin.0045.a: "xxxxx" # 1951045980481827005
+  mordvin.0046.t: "xxxxx" # 1951045980481827005
+  mordvin.0046.desc: "xxxxx" # 1951045980481827005
+  mordvin.0046.a: "xxxxx" # 1951045980481827005
+  mordvin.0047.t: "xxxxx" # 1951045980481827005
+  mordvin.0047.desc: "xxxxx" # 1951045980481827005
+  mordvin.0047.a: "xxxxx" # 1951045980481827005
+  mordvin.0048.t: "xxxxx" # 1951045980481827005
+  mordvin.0048.desc: "xxxxx" # 1951045980481827005
+  mordvin.0048.a: "xxxxx" # 1951045980481827005
+  mordvin.0049.t: "xxxxx" # 1951045980481827005
+  mordvin.0049.desc: "xxxxx" # 1951045980481827005
+  mordvin.0049.a: "xxxxx" # 1951045980481827005
+  mordvin.0050.t: "신성한 말" # 8480677673508286689
+  mordvin.0050.desc: "말은 모든 독실한 [ROOT.Char.GetFaith.GetAdherentNamePlural]에게 큰 존경을 받는데, 그 이유는 악한 세력을 쫓아낸다고 믿기 때문입니다.\n\n오늘과 같은 중요한 날에는 말을 준비하여 승마하는 것이 전통입니다. 말은 악의적인 영혼의 다리를 부러뜨리는 것으로 여겨지므로, 이것이 이곳의 모든 악을 몰아낼 것이라고 믿습니다.\n\n가까운 미래에 우리 가문에 불행이 닥치지 않기를 바랍니다!" # 8562336612682296727
+  mordvin.0050.a: "말은 참으로 중요하고 존경받는 동물입니다." # 11522825845457332026
+  mordvin.0051.t: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 결혼식" # 2278114635099726605
+  mordvin.0051.desc: "어제, [ROOT.Char.GetFaith.GetAdjective] 하위 귀족 가문 두 곳의 젊은 남녀가 결혼했습니다. [ROOT.Char.GetTitleAsNameNoTooltip]인 제가 참석한 가장 귀한 손님이었습니다.\n\n오늘, [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 관습에 따라, 우리는 #italic 오즈크스#! 즉, 공공 기도 의식에 참여하고 있으며, 이번에는 특별히 [ROOT.Char.GetFaith.WaterGodName]께 기원합니다. 이 #italic 오즈크스#! 동안, 신부는 물이 풍요를 상징하므로 근처의 물가로 인도됩니다. 그런 다음, 우리는 많은 노래를 부르고, 축하를 위해 모인 젊은이들은 즐겁게 춤을 춥니다. 새로 결혼한 커플이 함께 성공적인 삶을 살기를 기원하면서 말입니다." # 1615603570963877756
+  mordvin.0051.a: "재미있는 경험이었습니다." # 10459552543907448795
+  mordvin.0052.t: "물 오즈크" # 9008049673787678561
+  mordvin.0052.desc: "[ROOT.Char.GetFaith.GetAdherentNamePlural] 사이에서 물 숭배 의식은 매우 중요합니다. 물은 상징적으로 다산과 연결되어 있기 때문입니다.\n\n오늘 저는 물의 신인 [ROOT.Char.GetFaith.WaterGodName]에게 바치는 관습적인 #italic ozks#!, 즉 공개 기도 의식에 참여하고 있습니다. 제 궁정의 신하들과 여러 [ROOT.Char.Custom('DefaultPriestTitlePlural')]들이 이 행사를 위해 인근 수역에 모였습니다.\n\n[ROOT.Char.GetFaith.WaterGodName]에게 바치는 멜로디를 부르거나 짚으로 만든 남근으로 수역을 "수정시키는" 등의 의식을 수행하면 분명 신성한 축복을 불러일으키고 모든 사람들에게 풍요와 번영을 보장할 것입니다!" # 337980414856513723
+  mordvin.0052.a: "[ROOT.Char.GetFaith.WaterGodName]께 찬미를!" # 3777773248681495920
+  mordvin.0053.t: "자작나무 오크스" # 3448001966851264618
+  mordvin.0053.desc: "나무는 [ROOT.Char.GetFaith.GetAdherentNamePlural]에게 중요합니다. 나무에는 다양한 치유 및 영적 능력이 있다고 믿어지므로 진정한 신념으로 나무를 존중하고 숭배하는 것이 중요합니다. 다양한 종류의 나무 중에서도 자작나무, 즉 #italic kelu#!는 가장 신성한 것 중 하나로 여겨집니다.\n\n오늘 저는 집에서 멀지 않은 곳에 있는 자작나무 몇 그루에게 드리는 작은 #italic ozks#! 또는 기도 의식에 참여하고 있습니다. 참석한 모든 사람이 #italic kelu#!를 찬양하는 노래를 부릅니다." # 14728100481828219063
+  mordvin.0053.a: "나무가 튼튼하면 땅과 그곳 사람들도 튼튼해질 것입니다!" # 7000940928070686876
+  mordvin.0054.t: "무시무시하고 사나운 [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]" # 6261468701701619473
+  mordvin.0054.desc: "저는 외국 땅에서 우리 [ROOT.Char.GetCulture.GetCollectiveNoun]가 냉정하게 사악하며, 우리 땅에 발을 들인 모든 외국인을 죽이고 그들과 교역할 때조차 대화를 거부한다는 이야기가 있다고 들었습니다. 우리는 정당하든 그렇지 않든 상당한 명성을 가지고 있다는 것은 의심할 여지가 없습니다!" # 12515275098228085036
+  mordvin.0054.a: "우리의 적들이 우리에 대해 듣고 두려워 떠는 것은 당연한 일입니다!" # 8471351965612137182
+  mordvin.0054.b: "이 이야기들은 우리의 힘과 용맹을 과장한 것입니다." # 15179211370691786035
+  mordvin.0054.info: "#emphasis 역사적 배경:#! 10세기 여행가이자 지리학자인 알 이스타크리의 기록과 같은 일부 중세 이슬람 문헌에서는 #italic 알-아르사니야#!라는 곳이 언급되는데, 그곳의 사나운 거주민들은 자신의 땅에 발을 들인 낯선 자들을 죽였다고 합니다.\n\n#italic 알-아르사니야#!의 위치와 거주민이 누구였는지에 대한 현대 학계의 경쟁적인 이론이 많지만, 모르드바 민족의 조상인 에르자족과 목샤족이 유력한 후보입니다. 13세기 헝가리 수도사이자 탐험가인 줄리안 수사는 모르드바인들의 잔혹함을 언급했으며, 동시대 헝가리 자료에서는 "모르드바인 중 누구도 적어도 한 사람을 죽이기 전에는 감히 발에 샌들을 신을 수 없다"고 주장합니다.\n\n중세 모르드바인들에 대한 이러한 주장이 과장되었는지 아닌지는 명확하지 않지만, 그들은 외국인들에게 두려운 민족으로 여겨졌다는 것은 분명합니다." # 15961602544987719161
+  mordvin.0055.t: "침묵 교역" # 12819763361157288062
+  mordvin.0055.desc: "먼 땅에서 온 저명한 상인이 제 영지를 방문하고 있습니다. 그는 우리 언어를 구사하지 못하지만, 많은 외국 상인이 이곳을 방문할 때 사용하는 소위 '침묵 무역'에 능숙하다고 합니다. 이 의사소통 방식은 제스처에 기반하며, 오래전 [ROOT.Char.GetCulture.GetCollectiveNoun]과 우리와 거래하던 상인들이 개발했습니다. 어쨌든 이 상인이 제 궁정을 방문했는데, 서로 말로 소통할 수는 없지만 그가 저를 만나 기뻐하며, 저의 통치가 그와 같은 외국 상인들에게 좋았다고 생각하며 감사하는 것이 분명합니다." # 3089092182783729779
+  mordvin.0055.a: "언어가 달라도 무역은 가능합니다!" # 5426920245180811774
+  mordvin.0055.b: "우리는 외국인들을 그저 용인할 뿐이기에, 묵계 무역 관습이 존재합니다." # 4335540546071671777
+  mordvin.0055.info: "#emphasis 역사적 배경:#! 12세기 안달루시아 여행가이자 탐험가였던 아부 하미드의 기록을 비롯한 중세 시대의 일부 역사 자료들은 볼가 지역에서 거래하던 외지 상인들이 현지의 핀란드-우랄어족 민족들과 거래할 때 때로는 신호 언어 또는 "침묵 거래"를 사용했음을 언급합니다." # 13004253061668082587
+  mordvin.0056.t: "활기찬 산업" # 7283510763316470894
+  mordvin.0056.desc: "꽤 오랫동안 [ROOT.Char.GetCulture.GetCollectiveNoun]는 양봉 능력으로 유명했습니다. 최근 여러 가지 이유로 [county.GetNameNoTier]의 양봉가들은 평소보다 더 많은 생산량을 올리고 있으며, 이는 지역에 더 큰 이익을 가져다주고 지역 경제를 활성화시키고 있습니다." # 16421822823211240619
+  mordvin.0056.a: "꿀과 이익의 땅!" # 7631554679711167662
+  mordvin.0057.t: "xxxxx" # 1951045980481827005
+  mordvin.0057.desc: "xxxxx" # 1951045980481827005
+  mordvin.0057.a: "xxxxx" # 1951045980481827005
+  mordvin.0058.t: "xxxxx" # 1951045980481827005
+  mordvin.0058.desc: "xxxxx" # 1951045980481827005
+  mordvin.0058.a: "xxxxx" # 1951045980481827005
+  mordvin.0059.t: "xxxxx" # 1951045980481827005
+  mordvin.0059.desc: "xxxxx" # 1951045980481827005
+  mordvin.0059.a: "xxxxx" # 1951045980481827005
+  mordvin.0060.t: "xxxxx" # 1951045980481827005
+  mordvin.0060.desc: "xxxxx" # 1951045980481827005
+  mordvin.0060.a: "xxxxx" # 1951045980481827005
+  mordvin.0061.t: "xxxxx" # 1951045980481827005
+  mordvin.0061.desc: "xxxxx" # 1951045980481827005
+  mordvin.0061.a: "xxxxx" # 1951045980481827005
+  mordvin.0062.t: "xxxxx" # 1951045980481827005
+  mordvin.0062.desc: "xxxxx" # 1951045980481827005
+  mordvin.0062.a: "xxxxx" # 1951045980481827005
+  mordvin.0063.t: "xxxxx" # 1951045980481827005
+  mordvin.0063.desc: "xxxxx" # 1951045980481827005
+  mordvin.0063.a: "xxxxx" # 1951045980481827005
+  mordvin.0064.t: "xxxxx" # 1951045980481827005
+  mordvin.0064.desc: "xxxxx" # 1951045980481827005
+  mordvin.0064.a: "xxxxx" # 1951045980481827005
+  mordvin.0065.t: "xxxxx" # 1951045980481827005
+  mordvin.0065.desc: "xxxxx" # 1951045980481827005
+  mordvin.0065.a: "xxxxx" # 1951045980481827005
+  mordvin.0066.t: "xxxxx" # 1951045980481827005
+  mordvin.0066.desc: "xxxxx" # 1951045980481827005
+  mordvin.0066.a: "xxxxx" # 1951045980481827005
+  mordvin.0067.t: "xxxxx" # 1951045980481827005
+  mordvin.0067.desc: "xxxxx" # 1951045980481827005
+  mordvin.0067.a: "xxxxx" # 1951045980481827005
+  mordvin.0068.t: "xxxxx" # 1951045980481827005
+  mordvin.0068.desc: "xxxxx" # 1951045980481827005
+  mordvin.0068.a: "xxxxx" # 1951045980481827005
+  mordvin.0069.t: "xxxxx" # 1951045980481827005
+  mordvin.0069.desc: "xxxxx" # 1951045980481827005
+  mordvin.0069.a: "xxxxx" # 1951045980481827005
+  mordvin.0070.t: "xxxxx" # 1951045980481827005
+  mordvin.0070.desc: "xxxxx" # 1951045980481827005
+  mordvin.0070.a: "xxxxx" # 1951045980481827005
+  mordvin.0071.t: "xxxxx" # 1951045980481827005
+  mordvin.0071.desc: "xxxxx" # 1951045980481827005
+  mordvin.0071.a: "xxxxx" # 1951045980481827005
+  mordvin.0072.t: "xxxxx" # 1951045980481827005
+  mordvin.0072.desc: "xxxxx" # 1951045980481827005
+  mordvin.0072.a: "xxxxx" # 1951045980481827005
+  mordvin.0073.t: "xxxxx" # 1951045980481827005
+  mordvin.0073.desc: "xxxxx" # 1951045980481827005
+  mordvin.0073.a: "xxxxx" # 1951045980481827005
+  mordvin.0074.t: "xxxxx" # 1951045980481827005
+  mordvin.0074.desc: "xxxxx" # 1951045980481827005
+  mordvin.0074.a: "xxxxx" # 1951045980481827005
+  mordvin.0075.t: "xxxxx" # 1951045980481827005
+  mordvin.0075.desc: "xxxxx" # 1951045980481827005
+  mordvin.0075.a: "xxxxx" # 1951045980481827005
+  mordvin.0076.t: "xxxxx" # 1951045980481827005
+  mordvin.0076.desc: "xxxxx" # 1951045980481827005
+  mordvin.0076.a: "xxxxx" # 1951045980481827005
+  mordvin.0077.t: "xxxxx" # 1951045980481827005
+  mordvin.0077.desc: "xxxxx" # 1951045980481827005
+  mordvin.0077.a: "xxxxx" # 1951045980481827005
+  mordvin.0078.t: "xxxxx" # 1951045980481827005
+  mordvin.0078.desc: "xxxxx" # 1951045980481827005
+  mordvin.0078.a: "xxxxx" # 1951045980481827005
+  mordvin.0079.t: "xxxxx" # 1951045980481827005
+  mordvin.0079.desc: "xxxxx" # 1951045980481827005
+  mordvin.0079.a: "xxxxx" # 1951045980481827005
+  mordvin.0080.t: "xxxxx" # 1951045980481827005
+  mordvin.0080.desc: "xxxxx" # 1951045980481827005
+  mordvin.0080.a: "xxxxx" # 1951045980481827005
+  mordvin.0081.t: "xxxxx" # 1951045980481827005
+  mordvin.0081.desc: "xxxxx" # 1951045980481827005
+  mordvin.0081.a: "xxxxx" # 1951045980481827005
+  mordvin.0082.t: "xxxxx" # 1951045980481827005
+  mordvin.0082.desc: "xxxxx" # 1951045980481827005
+  mordvin.0082.a: "xxxxx" # 1951045980481827005
+  mordvin.0083.t: "xxxxx" # 1951045980481827005
+  mordvin.0083.desc: "xxxxx" # 1951045980481827005
+  mordvin.0083.a: "xxxxx" # 1951045980481827005
+  mordvin.0084.t: "xxxxx" # 1951045980481827005
+  mordvin.0084.desc: "xxxxx" # 1951045980481827005
+  mordvin.0084.a: "xxxxx" # 1951045980481827005
+  mordvin.0085.t: "xxxxx" # 1951045980481827005
+  mordvin.0085.desc: "xxxxx" # 1951045980481827005
+  mordvin.0085.a: "xxxxx" # 1951045980481827005
+  mordvin.0086.t: "xxxxx" # 1951045980481827005
+  mordvin.0086.desc: "xxxxx" # 1951045980481827005
+  mordvin.0086.a: "xxxxx" # 1951045980481827005
+  mordvin.0087.t: "xxxxx" # 1951045980481827005
+  mordvin.0087.desc: "xxxxx" # 1951045980481827005
+  mordvin.0087.a: "xxxxx" # 1951045980481827005
+  mordvin.0088.t: "xxxxx" # 1951045980481827005
+  mordvin.0088.desc: "xxxxx" # 1951045980481827005
+  mordvin.0088.a: "xxxxx" # 1951045980481827005
+  mordvin.0089.t: "xxxxx" # 1951045980481827005
+  mordvin.0089.desc: "xxxxx" # 1951045980481827005
+  mordvin.0089.a: "xxxxx" # 1951045980481827005
+  mordvin.0090.t: "xxxxx" # 1951045980481827005
+  mordvin.0090.desc: "xxxxx" # 1951045980481827005
+  mordvin.0090.a: "xxxxx" # 1951045980481827005
+  mordvin.0091.t: "xxxxx" # 1951045980481827005
+  mordvin.0091.desc: "xxxxx" # 1951045980481827005
+  mordvin.0091.a: "xxxxx" # 1951045980481827005
+  mordvin.0092.t: "xxxxx" # 1951045980481827005
+  mordvin.0092.desc: "xxxxx" # 1951045980481827005
+  mordvin.0092.a: "xxxxx" # 1951045980481827005
+  mordvin.0093.t: "xxxxx" # 1951045980481827005
+  mordvin.0093.desc: "xxxxx" # 1951045980481827005
+  mordvin.0093.a: "xxxxx" # 1951045980481827005
+  mordvin.0094.t: "xxxxx" # 1951045980481827005
+  mordvin.0094.desc: "xxxxx" # 1951045980481827005
+  mordvin.0094.a: "xxxxx" # 1951045980481827005
+  mordvin.0095.t: "xxxxx" # 1951045980481827005
+  mordvin.0095.desc: "xxxxx" # 1951045980481827005
+  mordvin.0095.a: "xxxxx" # 1951045980481827005
+  mordvin.0096.t: "xxxxx" # 1951045980481827005
+  mordvin.0096.desc: "xxxxx" # 1951045980481827005
+  mordvin.0096.a: "xxxxx" # 1951045980481827005
+  mordvin.0097.t: "xxxxx" # 1951045980481827005
+  mordvin.0097.desc: "xxxxx" # 1951045980481827005
+  mordvin.0097.a: "xxxxx" # 1951045980481827005
+  mordvin.0098.t: "xxxxx" # 1951045980481827005
+  mordvin.0098.desc: "xxxxx" # 1951045980481827005
+  mordvin.0098.a: "xxxxx" # 1951045980481827005
+  mordvin.0099.t: "xxxxx" # 1951045980481827005
+  mordvin.0099.desc: "xxxxx" # 1951045980481827005
+  mordvin.0099.a: "xxxxx" # 1951045980481827005
+  mordvin.0022.a: "아주 좋군" # 2006367686461631787

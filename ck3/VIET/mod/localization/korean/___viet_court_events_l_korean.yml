@@ -1,348 +1,348 @@
 ﻿l_korean:
-  VIETmisc.6000.t: "공개 토론" # 37745f5442ab78a5ba1015054834633a958ab088
-  VIETmisc.6000.desc: "[intellectual_1.GetFirstName]와 [intellectual_2.GetFirstName]라는 두 명의 학자가 저의 궁정에 도착했습니다.  그들은 지역 학계에서 [ROOT.Char.GetFaith.ReligiousText]의 다양하고 흥미로운 해석, 그리고 다른 신학적 논점들로 유명합니다.  그들은 치열한 라이벌이며, 공개 토론을 통해 서로의 주장을 반박하고자 합니다. 저와 다른 궁정 구성원들은 관객으로 이들의 토론을 지켜볼 것입니다.\n\n[intellectual_1.GetFirstNameNoTooltip]는 우리 신앙의 고전적 이해를 옹호하는 굳건한 전통주의자로 알려져 있습니다. 반면 [intellectual_2.GetFirstNameNoTooltip]는 독창적이고 반항적인 학자입니다.  [intellectual_2.GetSheHe]는 이단적 견해를 갖고 있지 않지만, [ROOT.Char.GetFaith.GetAdjective] 신학에 대해 상당히 혁신적인 해석을 제시합니다.\n\n그들의 활발한 토론에서, 두 학자 모두 논증, 반박, 재반박 등에 뛰어난 능력을 보여주었습니다. 저의 궁정 구성원들은 대체로 어느 쪽도 토론에서 우위를 점하지 못했다고 생각합니다. 따라서 누가 승리했는지 공식적으로 선언해 줄 것을 저에게 기대하고 있습니다." # 6ed8addd0605585d2dab1051404941c6c9e1e0e8
-  VIETmisc.6000.desc.traditionalist: "저의 [chaplain.GetCouncilTitle] [chaplain.GetTitledFirstName]는 [intellectual_1.GetFirstNameNoTooltip]를 지지하는 듯합니다. [chaplain.GetSheHe]는 이렇게 말씀하십니다. “[intellectual_1.GetSheHe|U]는 [ROOT.Char.GetFaith.GetName]의 정통적인 이해를 옹호하셨습니다. [intellectual_2.GetFirstNameNoTooltip]는 이단이 아니지만, 편안하지 못할 정도로 이단에 가깝습니다.”" # ef98ab21c2d674312db58acc538cb1fa64f1df7b
-  VIETmisc.6000.desc.innovator: "제 [chaplain.GetCouncilTitle] [chaplain.GetTitledFirstName]는 [intellectual_2.GetFirstNameNoTooltip]를 지지하는 것 같습니다. [chaplain.GetSheHe]는 “[intellectual_2.GetSheHe|U]는 항상 새로운 방법으로 [ROOT.Char.GetFaith.GetAdjective] 신학에 접근할 수 있다는 것을 보여줍니다. [intellectual_1.GetFirstNameNoTooltip]는 안타깝게도 전통에만 매달려서 [ROOT.Char.GetFaith.HighGodName]께서 우리에게 무엇을 하라고 원하시는지 고려하지 않고 있습니다.”라고 말했습니다." # da999357949fba9a313cfe98f042c949f39c738a
-  VIETmisc.6000.a: "[intellectual_1.GetFirstName]이 정통 사상을 옹호하는 논쟁에서 더 설득력 있는 주장을 펼쳤습니다." # f11cd62fb06241922f39942a573548cdbc92ca6d
-  VIETmisc.6000.a.toast: "[intellectual_1.GetFirstName]께서 궁정에 머물기로 결정하셨습니다!" # d3b4b41c8b91c9aa0db1d9ce8a045191887cca0c
-  VIETmisc.6000.b: "[intellectual_2.GetFirstName]는 혁신적인 종교적 신념을 주장하며 토론에서 승리했습니다." # 438ba83f3834413c9ddf4865d1f5aa5ddb60be3b
-  VIETmisc.6000.b.toast: "[intellectual_2.GetFirstName]께서 귀하의 궁정에 머물기로 하셨습니다!" # 3fe0a76c77a2bcc284922e53923fe8b9fe5f5d2c
-  VIETmisc.6000.c: "둘 다 내 마음을 얻지는 못했지만, 재미있는 토론이었습니다!" # d35cb0a831a7d12e0663a0d88a374e263b733e61
-  VIETmisc.6001.t: "강탈 귀족" # b3e80f75c18b900c6c7bf10d3af4173e062d51c5
-  VIETmisc.6001.desc: "지난 몇 달 동안, [bandit.GetFullName]라는 강도 영주가 [county.GetNameNoTier]에서 활동한다는 소식을 들었습니다. 이 못된 자는 비천한 귀족으로서, 제 왕실의 권위에 반항하여 [bandit.GetHerHis] 영지에 지나가는 사람들에게 정당한 통행료 외에 추가 요금을 부과하는 만행을 저질렀습니다.  여정자들은 추가 요금을 지불하거나 강도나 납치를 당하고 몸값을 요구받을지 선택해야 했습니다. \n\n어쨌든, 이 교활한 범죄자는 얼마 동안 체포를 피했지만… 이제는 아니군요. 우연히, 제 관리들이 [bandit.GetHerHim]을 체포했고, [bandit.GetSheHe]는 판결을 받기 위해 저에게 끌려왔습니다. 제 허락 없이 이러한 행위를 저지른 것은 제 명성에 큰 오점입니다. 따라서 [bandit.GetSheHe]는 그에 상응하는 처벌을 받아야 합니다." # 6f0d8189dc1d23f14ebfaf39b94673f67ac1bdb7
-  VIETmisc.6001.a: "적은 벌금으로 [bandit.GetHerHim]에게 교훈을 주도록 하겠습니다." # ce1e31bd0d697b639ca721f9bf4e64b8e3d145dd
-  VIETmisc.6001.b: "자비를 베풀면, [bandit.GetSheHe]는 제게 일할 수 있습니다." # b06a524ff1f3baf47eb66b8c44efb89f46e31c24
-  VIETmisc.6001.c: "법은 명확합니다. 이 범죄자는 사형에 처해질 것입니다!" # 9b7a029a536a550251bc080646cecc66b964fdc0
-  VIETmisc.6001.d: "[강도.그녀의그]의 칭호와 계급을 박탈합니다." # 2a4d6a1ec7192c7ba43324b48801a805c38aad83
-  VIETmisc.6001.info: "#bold 역사적 배경:#!  "강탈 귀족"은 중세 시대, 특히 왕권이 약화된 시기에 지배 계층과 귀족들이 자신의 지위와 자원을 이용하여 여행자와 상인에게 높은 세금과 통행료를 부당하게 거둬들인 현상을 일컫는 일반적인 용어입니다. 예를 들어, 프랑스의 루이 6세는 1100년대 초반에 이러한 강탈 귀족들과 오랜 시간 동안 싸워야 했습니다. 이러한 악명 높은 인물들은 나중에 19세기 미국 속어로 불량하고 부유한 사업가들을 지칭하는 용어로 사용되었습니다." # 1d5da27ee216682ae2664e4a9854fe816e792078
-  VIETmisc.6002.t: "부적절한 행위" # 8e162dc20df7ee94dac643c6602f8f85661d5bfe
-  VIETmisc.6002.desc: "최근 [relative.GetTitledFirstName]의 행실로 인해 궁궐에 좋지 않은 소문이 퍼지고 있습니다. [relative.GetHerHis] 예의범절은 심각하게 부족하며, 여러 외교 사절을 모욕하기도 했습니다.  궁중 예절을 무시하는 일이 잦아,  [relative.GetFirstNameNoTooltip]가 저와 관련이 있다는 이유로  [relative.GetSheHe]는 그러한 무례함과 부적절한 행동을 감행할 수 있다고 생각하는 것 같습니다.\n\n이러한 문제가 심각해지자 [complainer.GetTitledFirstName]께서 이 문제를 상의하러 오셨습니다.\n\n"[ ROOT.Char.GetLadyLord ]께서, [relative.GetTitledFirstNamePossessiveNoTooltip]의 용납할 수 없는 행실에 대해 대처해야 합니다." [complainer.GetFirstNameNoTooltip]가 간청했습니다. "이는 스스로 나쁜 행위일 뿐만 아니라, #italic 당신#께서도 불명예스럽게 비춰질 수 있습니다. [ROOT.Char.GetTitleAsNameNoTooltip]로서, 특히 가족 구성원을 포함한 궁중 질서를 유지해야 합니다!"" # 2a12d362f2621e6dd0386ecf7652f9b7530f9860
-  VIETmisc.6002.a: "[relative.GetFirstNameNoTooltip]에게 엄중한 충고를 해 줄 것입니다." # 59642e170ec10de643582c3b1082610fb5d648e9
-  VIETmisc.6002.a.tooltip: "[relative.GetTitledFirstNameNoTooltip]을 엄중히 꾸짖습니다." # 27605540e983bbb5b8d720058ae21b1bc6c627e4
-  VIETmisc.6002.a.success: "[relative.GetFirstNameNoTooltip]가 [relative.GetHerHis] 행실을 바꾸기로 동의했습니다." # a140051d9642fa33ad07f6eee766fba654fdc51c
-  VIETmisc.6002.a.failure: "[relative.GetFirstNameNoTooltip]은 당신의 요구에 동의하지 않습니다." # 4c725e6c1657782bd4e76d665b2b7c3cbf30154d
-  VIETmisc.6002.b: "[relative.GetHerHim]을 조심스럽게 설득해 보겠습니다." # b9d8b5011366e80ba85239a82e786959fd05c5dd
-  VIETmisc.6002.b.tooltip: "[relative.GetTitledFirstNameNoTooltip]께, 더욱 신중한 접근 방식을 취하시기 바랍니다." # ac8f4d674ca9f45afb8e80fffe4ce93189f5c1fa
-  VIETmisc.6002.b.success: "[relative.GetFirstNameNoTooltip]의 마음을 움직여 [relative.GetHerHis] 행동을 바꾸셨습니다." # cadcd3461cfbabdf363c6db2f09128dd6730cb3f
-  VIETmisc.6002.b.failure: "귀의 귀에는 닿지 않습니다." # 08ae61aba6cd58f641f4c6ea1c4cfe4f0eda90b2
-  VIETmisc.6002.c: "[relative.GetSheHe]가 아무에게도 해를 끼치지 않는다면, 그냥 [relative.GetHerHim]을 두십시오." # af1b1d6770e1bcf187818e181cda45f83485d8e2
-  VIETmisc.6003.t: "실수" # 0ec31ce58f49152d4f6cc8b3edecdb51c55ee25c
-  VIETmisc.6003.desc: "왕실의 의례는 어떤 왕궁에서든 일상생활의 중요한 부분입니다. 어떤 이들에게는 지루할 수 있겠지만, 왕실의 권력과 지위를 강조하기 위해 꾸준히 수행해야 합니다.\n\n그런데 오늘 [courtier.GetTitledFirstName]은 무슨 실수를 저질렀을까요? 아침에 내가 법정에 들어서는 그저 평범한 의례였는데, 참석한 모든 사람들은 각자의 역할을 수행해야 했습니다. 특정 제스처를 취하고, 특정 자세를 유지하고, 특정 공식적인 말을 해야 하는 것이었는데, [courtier.GetSheHe]의 실수로 의례가 갑자기 중단되었습니다. [courtier.GetSheHe]는 이런 의례를 수없이 해왔지만 말입니다.\n\n내가 [courtier.GetFirstNameNoTooltip] 옆을 지나가자, 모든 사람들이 불운한 [courtier.GetWomanMan]을 바라봅니다. 부끄러운 표정이 [courtier.GetHerHis] 얼굴에 가득 찬 모습입니다. 내 개인적인 감정과는 별개로, 내가 [ROOT.Char.GetTitleAsNameNoTooltip]로서, 왕실의 한 구성원도 기본적인 의무를 수행하지 못한다면, 그것은 좋은 모습이 아니라고 생각합니다." # acd4386ac27e01c4313783559a72ec3105d2e818
-  VIETmisc.6003.a: "별일 아니에요! 실수는 종종 일어나죠." # c4e1a1bb25dc54c0b764b38dd568bd0e8c21c55d
-  VIETmisc.6003.b: "모두 앞에서 [courtier.GetHerHim]을 꾸짖겠습니다." # 0032503748886d8677065b1909e1e295bdcefeb0
-  VIETmisc.6003.c: "[courtier.GetHerHim]을 따로 불러 꾸짖겠습니다." # 503e72886882a32d02b9fd0edc3aa7e58eaf2e4f
-  VIETmisc.6004.t: "거부하는 사절" # 4096739b97c1b261f31151fbed0b720dacea7a45
-  VIETmisc.6004.desc: "[envoy.GetTitledFirstName], [neighbor.GetTitledFirstName]의 사절로서, [envoy.GetHerHis] 군주로부터 저희 궁정을 방문하라는 명을 받았습니다. 저희는 이 사절을 예우를 갖춰 맞이했지만, 여러 가지 사항에 대해 이야기하는 도중, [envoy.GetSheHe]는 저희 궁정의 수준이 부족하다고 함부로 말했습니다. 참으로 모욕적인 발언입니다!\n\n특히, [envoy.GetFirstNameNoTooltip]는 이렇게 말했습니다. “당신과 같은 위대한 [ROOT.Char.GetTitleAsNameNoTooltip]의 궁정은… 더 웅장해야 했습니다. 이 방은 매우 작고 어둡고, 장식은 평범하고 재미없으며, 다른 방의 계단은 – 모든 이가 아는 바와 같이, 좋은 궁정에는 훌륭하고 장엄한 계단이 필요합니다!”\n\n[envoy.GetSheHe|U]는 한숨을 쉬며 계속해서 지껄였습니다. “솔직히 말해서, 이 '왕궁'은 단순한 공작이나 소수 지도자의 궁정과 크게 다르지 않습니다. 어디에 그 위엄과 경외감이 있습니까?”" # 50b640e9a64c5ede30dcef4d895d2e7024773c47
-  VIETmisc.6004.a: "[envoy.GetSheHe|U]는 융통성이 없지만, 조금 화려하게 치장해보는 것도 나쁘진 않을 듯합니다." # 741f77bf29d7f2025e8675959d2f8e6a472a398d
-  VIETmisc.6004.b: "저 무례한 괴수를 [neighbor.GetFirstNameNoTooltip]로 돌려보내십시오!" # c133bc3dd257fc2f27cddf5e6af91b7b62da1dae
-  VIETmisc.6004.c: "국가의 중요한 사안에 집중합시다." # 3c954feaf188ed8012e5c8f7af0fab4e0ee0dd86
-  VIETmisc.6005.t: "사치스러운 의식" # 9c52626c435a78b1405c702947de2143dda57344
-  VIETmisc.6005.desc: "궁중 의례는 어떤 왕실 법정의 일상적인 절차에서 중요한 부분입니다. 자존심 있는 군주는 위엄을 유지해야 하며, 이러한 의례는 그러한 목적을 효과적으로 달성하는 방법입니다.\n\n하지만 저의 몇몇 신하들은 저희 궁중에서 규칙적으로 행해지는 [ROOT.Char.GetCulture.GetName]과 [ROOT.Char.GetFaith.GetAdjective] 의례 중 몇 가지가 다소 과도하며, 돈의 낭비라고 말했습니다.\n\n[courtier.GetTitledFirstName]는 특히 더 화려한 의례들을 줄여야 한다고 주장하는 저의 신하들 중에서도 가장 앞장서 있습니다. “[courtier.GetSheHe]는 어느 날 저에게 이렇게 말했습니다. “이러한 허례허식에 더 이상 돈을 쓰지 않아도 되는 돈을 생각해 보십시오! 그 돈은 실제로 유용한 데 사용될 수 있습니다.”" # 9f90e43f5b08074a22b749b3aba64abac9e06d23
-  VIETmisc.6005.a: "훌륭한 지적입니다. 제안 사항을 구현하겠습니다." # e8d2d19fd2de29e2a9cf9f37e705d4dad0bad337
-  VIETmisc.6005.b: "아, 더 좋은 생각이 있어요: #italic 의식#의 숫자를 늘리겠어요!" # c575d334127b1aaf577ec06d22fd84ba5395e67d
-  VIETmisc.6005.c: "이 의식들은 중요합니다." # 0dc71f7cdcf217ec246f8d6429a3d067b9066754
-  VIETmisc.6006.t: "아이의 실수" # f30bdbc5d73b74b918a6ce816727cc5d358fee38
-  VIETmisc.6006.desc: "[child.GetFirstName]는 아직 어린 자녀이지만, 왕실 교육의 일환으로써 궁중의 일상적인 업무를 관찰하는 것이 중요합니다. 그렇게 함으로써 [child.GetSheHe]가 성인이 되었을 때, 어떤 궁궐이든 적절하게 행동할 수 있도록 준비될 것입니다.\n\n그러나 오늘 [child.GetFirstNameNoTooltip]은 실수를 저질렀습니다. [child.GetSheHe]는 [nice_courtier.GetTitledFirstName]께 존경하는 태도를 보이지 못했습니다. [nice_courtier.GetFirstNameNoTooltip]은 웃으며 [child.GetFirstNameNoTooltip]이 어린아이일 뿐이기에 이번 실수를 통해 배울 것이라고 말했지만, 이 사건을 목격한 [mean_courtier.GetFirstName]은 매우 부적절한 행동이었다며, 제가 [child.GetFirstNameNoTooltip]을 징계하고 궁중 예절을 지키도록 가르쳐야 한다고 말했습니다." # 32c915f4932862c97924631e3cf7ef02233d38ad
-  VIETmisc.6006.a: "[nice_courtier.GetFirstNameNoTooltip]께서 괜찮으시다면 저도 괜찮겠습니다." # 23fe4cd016e2fce1c706e541f3d4ace6a0c81f16
-  VIETmisc.6006.b: "[mean_courtier.GetFirstNameNoTooltip] 말씀이 맞습니다.  [child.GetFirstNameNoTooltip]를 꾸짖겠습니다." # b5c15e9f62eca21a1d2054529c8ed9a37f56b3bb
-  VIETmisc.6006.c: "[child.GetFirstNameNoTooltip]은 이미 [child.GetSheHe]가 무엇을 잘못했는지 알아차린 것 같습니다." # 82e88bb6f494a373e9ffe7b52d4e55245d9d630f
-  VIETmisc.6007.t: "방해하는 하인" # 8a0552b8245664370cac873eaeee3b851ee2813d
-  VIETmisc.6007.desc: "[servant.GetFirstName]이라는 하인이 때때로 궁중 업무를 보좌하기 위해 내 궁궐에서 여러 가지 일을 해야 합니다. 문제가 있다면 그가 극도로 매력적이라는 겁니다. 제대로 된 화장품과 좋은 옷을 입지 않은 보통 사람이 이렇게 매력적일 수 있다니 말이죠. \n\n사실, 좀 더 정확하게 말하자면, 그는 단순히 극도로 매력적인 것이 아니라, #italic 눈을 사로잡을 만큼#! 매력적입니다. [궁정대신.칭호이름]은 최근에 [하인.소유격]의 미모가 궁정 신하들과 하인들의 업무 수행 능력을 방해한다고 말했습니다. \n\n\"[servant.GetFirstName]이 저기서... 저런 하찮은 [servant.GetFirstName]이 저기 있어서, 어떻게 일을 할 수 있겠어요,\" [궁정대신.성별]은 말했습니다, \"저희를 흥분시키고, 그의 놀랍도록 매력적인 외모로 유혹하잖아요?\"" # 972d80d3045747f4ab40167e6ad43721b35d6521
-  VIETmisc.6007.a: "[servant.GetFirstNameNoTooltip]은 궁정 밖의 다른 임무를 맡게 될 것입니다." # 3ad114f62b674a2eea3de8efdb7b536a23eb5087
-  VIETmisc.6007.b: "이렇게 매력적인 사람은 계급이 높아져야 마땅합니다!" # 55322c362bc80abdcabf999a1238a79e7ddc112e
-  VIETmisc.6007.c: "그건 당신의 문제지, 남의 문제가 아니야." # 2fe88289ef11ab08734bb2f032dfc19b2d9a3864
-  VIETmisc.6008.t: "졸고 있습니다" # e9b0142b7385264830d108b3f2a55011452cd220
-  VIETmisc.6008.desc: "오늘, 궁중 의례에 참여했습니다. 왕으로서의 권력과 지위를 강화하기 위한 단순한 인사말과 의복, 제스처의 의식이었습니다.\n\n이러한 의식은 정말 지루했습니다.\n\n사실, 오늘의 의식은 너무 지루해서 잠깐 졸았습니다.\n\n[random_courtier.GetTitledFirstName]가 너무 큰 기침소리를 냈기 때문에 깨어났습니다. 어쨌든, 모두 제가 잠든 것을 알았지만, 저를 불쾌하게 할까 봐 아무렇지도 않은 척했습니다." # c1b77646e6daad20023ca9f566d472240a7bf9ab
-  VIETmisc.6008.a: "모두들, 제가 실수를 했습니다. 저처럼 하지 마십시오." # 1822029b5b432034c8553654fb8631c2ee5468a7
-  VIETmisc.6008.b: "잘못했지만, 그 사실을 드러내서는 안 됩니다." # 862798d52e876cea2034b1d067769af09f522242
-  VIETmisc.6008.c: "음… 네… 아무 일도 일어나지 않았습니다… 어디서부터였죠?" # af1660e1b85b5031a133744b90d7e65c1150dc4c
-  VIETmisc.6009.t: "계단은 어디에 있습니까?" # efc2fb70bb30fa47dfe46ffb4440fe64433f8288
-  VIETmisc.6009.desc: "오늘 저희 궁궐에는 [county.GetNameNoTier] 출신의 유명한 귀족이자 여행가 [traveler.GetFullName]님께서 방문하셨습니다. [traveler.GetHerHis] 방문 중, 저는 [traveler.GetHerHim]께 저희 궁궐의 대궐이 [traveler.GetHerHis] 여정 중 보았던 다른 곳들과 어떻게 비교되는지 물었습니다.\n\n“[traveler.GetHerHim]께서는 솔직하게 말씀해주셔도 좋습니다,” 저는 [traveler.GetHerHim]을 안심시켰습니다. “저는 제 궁궐을 어떻게 개선할 수 있는지 알고 싶습니다.”\n\n“[ROOT.Char.GetLadyLord]님, 저는 [traveler.GetHerHis] 궁궐이 괜찮다고 생각합니다,” [traveler.GetFirstNameNoTooltip]는 말했습니다. “단 하나, 좋은 계단이 부족하다는 점입니다! 요즘 다른 궁궐에서는 웅장한 계단을 #italic 어디에서도# 찾아볼 수 없습니다. 이상하지 않나요?”\n\n“지금까지는 전혀 눈치채지 못했지만, [traveler.GetHerHis] 말씀이 맞습니다!” 저는 동의했습니다.\n\n“맞아요! 큰, 장엄한 계단은 건물 내부를 훨씬 더 멋지게 보이게 할 수 있다는 것을 모두 알고 있습니다,” [traveler.GetFirstNameNoTooltip]는 말했습니다. “여기에 정말 멋진 큰 계단이 있거나, 아마 저기, 또는 다른 방에 있으면, [ROOT.Char.GetTitledFirstNameNoTooltip]께서 다른 군주들보다 #italic 한 단계 위#에 있다는 것을 보여줄 것입니다.”" # 16265178e0df008fdc0d4f7c2ccd4fa6fbf5b210
-  VIETmisc.6009.a: "멋진 생각이에요! 저 다른 방에 계단을 더 만들겠어요." # f16e9dae60caf5a4a06f4aea83e2e6a10a24dfae
-  VIETmisc.6009.b: "반면에... 정말 계단이 더 필요할까요?" # be81b885f6886ab2794b497a59c33a2a4cea7fe9
-  VIETmisc.6010.t: "소규모 개보수" # 550d8d8e79508b95ee51df72b0396c44f66d2448
-  VIETmisc.6010.desc: "어제 궁중 회의실에 대한 소규모 개축이 마무리되었습니다.  왕으로서 매일 이곳을 드나드는 사람들이 많아, 상당한 마모가 발생합니다. 따라서 이곳이 품위 있게 보이도록 유지하는 것이 중요합니다.\n\n하지만 최근 개축으로 인해 회의실에 잔해물이 남아 있는 것 같습니다. 신하들이 열심히 청소하고 있지만, 이 작업에 하루 이틀이 걸릴 수도 있으며, 현재 왕실의 품위를  несколько… 손상시키는 상황입니다." # ab270c11391b8dc6526647b78fa3df31f81c6962
-  VIETmisc.6010.a: "이번 주에는 다른 곳에서 궁궐을 열어야 할 것 같습니다." # 0c6b1372174438c5fd62bc7f37884a8e86a2ddeb
-  VIETmisc.6010.b: "빨리 정리해! 더럽힌 걸 빨리 치워 아니면!" # b24feb549fa0b7d6562afc40de3567afdbd0d4af
-  VIETmisc.6011.t: "[parent.GetMotherFather|U]의 잔소리가 심합니다." # f24719a97cce57420918db5d0349cf6a30efd5b6
-  VIETmisc.6011.desc: "평범한 [ROOT.Char.GetTitleAsNameNoTooltip]로서 평범한 하루를 보내고 있었습니다.\n\n하지만 제 예상과 달리 평화롭지는 않았습니다. 아침 의식 후, 제 [parent.GetMotherFather]인 [parent.GetTitledFirstName]은 몇몇 궁정 귀족들을 불러, 부적절한 수다나 행실, 옷차림이 어긋남, 업무에 대한 노력 부족 등을 지적하며 꾸짖었습니다.\n\n제가 [parent.GetHerHim]을 진정시키려 하자, [parent.GetMotherFather]은 나를 노려보며 손가락으로 가리키며 말했습니다. “[ROOT.Char.GetFirstNameNoTooltip]! 어떤 궁정을 운영하고 있는 거야? 여기의 무례함에 대해 책임을 져야 해. 네가 이제 [ROOT.Char.GetTitleAsNameNoTooltip]이지만, 아직도 네가 어린아이인 것처럼 모든 일을 해야만 하네!”\n\n긴 침묵이 이어지고 나서, [parent.GetSheHe]는 부드러운 어조로 덧붙였습니다. “그런데, 배가 고프면, 제가 일찍 요리사에게 당신이 좋아하는 간식을 준비해 달라고 부탁했어요. 요즘 너무 쇠약해 보이니, 더 많이 먹어야 해!”" # b7c8855f8e2cbcc6a5a11fbc7d28933bc89f2e6c
-  VIETmisc.6011.a: "[parent.GetMotherFather|U], 그만둬! 내가 [ROOT.Char.GetTitleAsNameNoTooltip]인데!" # 080089523dbc518a4fcd6c5a53dbc7ab2816e051
-  VIETmisc.6011.b: "아! [parent.GetMotherFather] 없이는 어떻게 살아가겠습니까?" # 8c2f2597a8d6c4ce24371ada3c9882539188793f
-  VIETmisc.6011.info: "#emphasis 역사적 배경:#! 역사상의 군주들을 무한한 권력을 가진 강력한 존재로 생각하곤 하지만, 실제로 가장 강력한 군주라 할지라도 특히 부모, 특히 어머니와 같은 특정 권력자들에게 굴복해야 할 때가 많았습니다. 예를 들어, 위대한 징기스칸조차도 어머니의 조언을 경청했다고 알려져 있습니다." # 4b35881f1e1e52209bdb1d337f4b1b12880ae8e9
-  VIETmisc.6012.t: "부패한 관리 적발!" # c2ca031be4ac6619326a4a0deb9bee8dccd843f2
-  VIETmisc.6012.desc: "얼마 전, [courtier.GetTitledFirstName]가 [county.GetName]의 한 마을에서 저를 대신하여 공식적인 업무를 처리하고 있었습니다. 그곳에서 [courtier.GetSheHe]는 제 하급 관리인 [official.GetFullName]이 농민들을 괴롭히고, 육체적으로 밀치며, 돈을 갈취하려 하고, 특히 미모가 뛰어난 농민들에게 음담패설을 하는 장면을 목격했습니다. \n\n이러한 불의에 분노한 [courtier.GetFirstNameNoTooltip]은 [official.GetFirstNameNoTooltip]에게 다가가 그만두라고 경고했습니다. [official.GetFirstNameNoTooltip]은 [courtier.GetFirstNameNoTooltip]을 무시하며, [courtier.GetSheHe]가 아무것도 아닌 존재라고 생각했습니다. 하지만 [courtier.GetFirstNameNoTooltip]은 [courtier.GetSheHe]가 바로 저의 직접적인 대표임을 밝혔습니다.\n\n왕실 대표를 모욕하는 것은 결코 가볍게 여길 일이 아닙니다. 그리고 지역 주민들의 수많은 불만을 고려하여, [courtier.GetFirstNameNoTooltip]은 그 어리석은 자를 저에게 판단을 받게 하기 위해 데려왔습니다. [courtier.GetFirstNamePossessiveNoTooltip]는 만약 제가 [official.GetFirstNameNoTooltip]를 저의 궁정에서, 모든 사람들 앞에서 처벌한다면, 나머지 영토에도 확고한 경고가 될 것이라고 판단했습니다." # 9ade1cfe320cc8f6db8274781fc8926d7cf32326
-  VIETmisc.6012.a: "[official.GetFirstNameNoTooltip]님, 다시는 그러지 마십시오." # 9d8f816d2d41638db76e8d9000a91de91e79629f
-  VIETmisc.6012.b: "[관리]의 직위를 박탈하고 [관리]를 투옥합니다." # 89c56fa316abe43bb42427623696727663f8f01e
-  VIETmisc.6012.c: "[official.GetFirstNameNoTooltip] #italic 을#! 벌하고 [courtier.GetFirstNameNoTooltip]에게는 상을 주겠습니다!" # b7843d5cd464f8f62bb2d596ff26a58350d147da
-  VIETmisc.6013.t: "손님의 감탄" # af397cfb18a303e3583e932e747bb4ffab6e34e7
-  VIETmisc.6013.desc: "[county.GetName]의 귀족 대표단 여러 분이 최근 저의 궁정을 방문하셨습니다.  저는 그들을 몇 주 동안 숙박하며 국가의 중요한 문제를 논의하고 훌륭한 연회와 즐거운 시간을 보냈습니다.\n\n\n그들이 떠나기 전, [dignitary.GetFullName]이라는 [dignitary.GetWomanMan]은 [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]에 가보고 싶어 했다고 말했습니다.  이 지역을 직접 보고 나서 [dignitary.GetSheHe]는 매우 감탄하여 저의 궁정에 봉사하고 싶다는 뜻을 밝혔습니다.\n\n\n하지만 [dignitary.GetFirstNameNoTooltip]은 [dignitary.GetHerHis] 고향에서도 재능 있고 능력 있는 지역사회 지도자로 유명하며, 사회 발전에 큰 기여를 하고 있습니다." # b1e0138a368b099e92623ad3fc04ac1a2a5b1140
-  VIETmisc.6013.a: "당신의 백성들이 당신을 필요로 합니다. 고국에서 위대한 업적을 이루십시오!" # 6f712ecd393c761238ffa65cdee0983c03a3e45e
-  VIETmisc.6013.b: "저의 궁정에 합류하시려거든, 기꺼이 영접하겠습니다." # c17aab7bb6d81574ecb4f5915882c7556c2ead76
-  VIETmisc.6014.t: "부끄럽습니다!" # 50fa1fe9cbf717dc89c35b3f139d01078178504e
-  VIETmisc.6014.desc: "“부끄러운 행동입니다!” [shamer.GetTitledFirstName]가 말했습니다. “#italic 부끄러운 행동입니다!#! 왕실 법정 안에 있습니다! 당신들의 나쁜 태도와 부적절한 행동은 이 법정을 망치고, 저희 [ROOT.Char.GetTitleAsNameNoTooltip]의 명예를 세계 군주들에게 깎아내립니다!”\n\n[shamer.GetFirstNameNoTooltip]은 제 몇몇 시종들과 또다시 문제가 있는 것 같습니다. [shamer.GetSheHe|U]는, 특히 법정 안에서는, 그들에게 항상 높은 기대를 가지고 있습니다. 그 기대는 때때로 만족시키기 어려운 것 같습니다.\n\n제 시종들은 [shamer.GetFirstNameNoTooltip]에게 실수에 대해 겸손하게 사과합니다(그것이 실제 실수였는지, 아니면 그저 변명인지는 모르겠지만). 그리고 생각해 보니, 이런 행동을 통해 [shamer.GetFirstNameNoTooltip]은 어쩌면 일부 사람들에게 이 법정에서 제가 시종들을 훈계하고 책망하는 권위를 간접적으로 침해하는 것처럼 보일 수도 있습니다. #italic 제#!" # a182ae719b922c910c8b4373226967d3ab25e149
-  VIETmisc.6014.a: "[shamer.GetFirstNameNoTooltip]는 필요하다고 생각하면 그들을 꾸짖을 권리가 있습니다." # 60c1868792d32fb9d28dd1bdd10d6f08ea924ab9
-  VIETmisc.6014.b: "저는 여기서 [ROOT.Char.GetTitleAsNameNoTooltip]입니다. 당신은 아니에요! 이제 그만하십시오." # 36996c331e826e7d1c3264668176646a756aef40
-  VIETmisc.6015.t: "오, 안돼!" # 844be082cea840e2782de9b7902d67fbe8036806
-  VIETmisc.6015.desc: "내 궁궐 안에서, 평범한 [ROOT.Char.GetTitleAsNameNoTooltip]으로서 평범한 하루를 보내고 있었습니다. 솔직히 말해서, 지루해지기 시작했습니다. 그리고…\n\n#italic #bold 쾅!!!#!#!\n\n모두가 놀라서 뒤를 돌아봤습니다. 무슨 일이었던 걸까요?\n\n[courtier.GetTitledFirstName]가 소란의 원인을 조사하러 갔고, 알고 보니 큰 벽걸이 그림 중 하나가 떨어져 내리면서 매우 시끄럽고 불쾌한 소음을 냈던 것입니다. 다행히 다친 사람은 없었지만, 어색한 사건이었습니다. 심지어 저 같은 군주에게 불운이 닥치기 전에는 종종 이처럼 기이하고 우연해 보이며 불길한 사건들이 선행한다는 [ROOT.Char.GetCulture.GetName]의 민담과 미신을 떠올릴 수도 있을 것입니다." # cf9b5afe7e2227401369735189f2e1bf879bbcf4
-  VIETmisc.6015.a: "별일 아니겠지. 저 물건 다시 걸어 두자!" # 2a6dabe5e58abca808bd9b67ae03b850f7f1a2ff
-  VIETmisc.6016.t: "존재하지 않는 사악한 궁정 시녀" # a81e47759cda679c80b1424c33d2cae63f13d460
-  VIETmisc.6016.desc: "이 지역에는 저의 왕실에 특히 악명 높고 부패한 궁정 신하 [fake.GetFullNameNoTooltip]가 있다는 소문이 퍼지고 있습니다.  [fake.GetSheHe]가 저의 손해를 보면서 어떤 끔찍한 일에 연루된다는 흥미로운 이야기가 지역 전설이 되어 버렸습니다. \n\n문제는, 저는 그런 이름과 묘사에 맞는 궁정 신하가 없다는 것입니다.\n\n어떤 날에는, 제 궁정을 둘러보며, 이런 소문을 만든 사람이 바로 이곳에 있는 사람 중 한 명인지 궁금해집니다. 이 소문이 어디서, 언제 처음 생겨났는지 아무도 모릅니다.  어쨌든, 이런 이야기들은 사람들이 제 궁정과 저를 군주로서 바라보는 시각에 영향을 미치고 있습니다." # a2f78ba49963d5bea0630a5bb7b2e21ddf0995ce
-  VIETmisc.6016.a: "그 때문에 명성이 실추되지 않기를 바랍니다!" # 10a7a8cd3afdb13d13808ac1ea20cc87ea6e7c63
-  VIETmisc.6016.b: "이른바 [fake.GetFirstNameNoTooltip]이란 자를 내 궁궐에서 몰아내십시오!" # 64a73f280c4ce40aba1f441ddf3f474b90f35a17
-  VIETmisc.6017.t: "존재하지 않는 훌륭한 궁정 신하" # ef65bdd82986d5394e52296a4dc238db01b7be9f
-  VIETmisc.6017.desc: "이 지역에 저희 왕궁에 신성하고 훌륭한 신하 [fake.GetFullNameNoTooltip]가 있다는 소문이 퍼져 나가고 있다는 소식을 들었습니다.  저희 이름으로 백성을 돕고 보호하기 위해 [fake.GetSheHe]가 한 위대한 업적에 대한 영감을 주는 이야기는 지역 민담의 일부가 되었습니다.\n\n\n그래도 이렇게 좋지만, 그 이름과 묘사에 맞는 신하는 없었습니다.\n\n\n어떤 날에는, 궁궐 주변을 둘러보며 어쩌면 이곳 사람 중 한 명이 그런 이야기의 영감을 주었을지 생각합니다.  이 소문이 처음 어디서 언제 생겨났는지 알 수 없습니다.  어쨌든, 이러한 이야기는 백성들이 저희 궁정과 저를 군주로서 보는 방식에 영향을 미치고 있습니다." # 89d3aae34f14fac1de9ded29d975015c7a206667
-  VIETmisc.6017.a: "저와 저의 궁정을 높이 평가하는 사람들이 많다는군요." # c7798d93df93063645cbb6db49aa7f78bcd01957
-  VIETmisc.6017.b: "[가짜.이름없는첫번째이름]에 대한 노래를 작사하도록 시인들을 후원하십시오!" # 2fe9af66adf441c81d0b4c89f2be2453ff0195b7
-  VIETmisc.6018.t: "뛰어난 연설 능력" # f32d45fef2dd84ed75bc841cd3f0231779065293
-  VIETmisc.6018.desc: "오늘의 궁중 회의에서 [orator.GetTitledFirstName]은 방문한 외국 사절단에게 연설을 해야 했습니다. 놀랍게도, [orator.GetSheHe]는 실제로 훌륭한 연설을 펼쳤습니다. 비록 [orator.GetHerHis] 수사학 능력은 더 발전할 여지가 있지만, 사절단들은 [orator.GetFirstNamePossessiveNoTooltip]의 말솜씨가 정중하고 뛰어나며, 이는 저의 왕실 궁정의 위엄을 잘 드러낸다고 감탄했습니다." # a4a50c6fd0bdc2a1f22fc2da7a54320c3380fa35
-  VIETmisc.6018.a: "오늘 [orator.GetFirstNameNoTooltip]님의 노고는 칭찬할 만합니다!" # 54602c967f14f403d875ae77a0b26e8b38c7096a
-  VIETmisc.6018.b: "평범한 연설을 칭찬할 사람이 있을까요?" # b209a7f50274f3c528db80fe5cd5c83acd6571f6
-  VIETmisc.6019.t: "대중 민요" # 511f5083b1744b3570ece0f15afc9ac443d855c3
-  VIETmisc.6019.desc: "[county.GetNameNoTier]의 전통 민요가 최근 일대에 명성을 얻고 있습니다. 독특한 스타일이 온 나라로 퍼져나가고 있기 때문입니다.  오늘, 민요 애호가인 [courtier.GetTitledFirstName]은 왕실 악사들에게 [county.GetAdjectiveNoTooltip] 풍의 음악을 작곡하거나 연주하도록 권하고 있습니다." # 9ffffe3b43bcd684aceedb7ab8940ec3584d2f1a
-  VIETmisc.6019.a: "그 음악은 예전에 들었지만, 매력을 잘 모르겠어요." # 759b64f34a0f08701299e7d1d62294cb321e0e82
-  VIETmisc.6019.b: "[county.GetAdjectiveNoTooltip] 스타일의 음악을 받아들이도록 하십시오." # 2e9c7b6b0c24cdd48b03c3dd50c66355d6624677
-  VIETmisc.6020.t: "아몬드 우유" # f31f1e6a276eea2c370b5429fa6b75b7e31523e7
-  VIETmisc.6020.desc: "[ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.GetTitleAsNameNoTooltip]로서, 저는 언제나 [ROOT.Char.GetFaith.HighGodNameAlternate]의 충실한 신도로서의 이미지를 향상시킬 방법을 찾고 있습니다. 제 [chaplain.GetCouncilTitle] [chaplain.GetTitledFirstName]가 오늘 저와의 면담에서 흥미로운 아이디어를 제안했습니다.\n\n“[ROOT.Char.GetLadyLord]님께,” [chaplain.GetSheHe]는 설명했습니다. “아마도 당신께서는 단식 기간 동안 동물성 우유 대신 절제의 표시로 아몬드 우유의 가치를 아실 것입니다.”\n\n“맞습니다.”라고 저는 말했습니다. “그러면 이 아몬드는 어떻게 활용할 수 있을까요?”\n\n“좋습니다. 왜 우리 요리사들이 연회나 기타 모임에서 아몬드를 더 자주 사용하지 않겠습니까?” [chaplain.GetFirstNameNoTooltip]는 질문했습니다. “물론, 아몬드 우유는 사치품이기 때문에 비용이 많이 들겠지만, 당신이 매년 [ROOT.Char.GetFaith.ReligiousText]의 가르침을 실천하려는 노력을 보여줄 수 있습니다. 이는 세계의 [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] 법정에서 당신의 이미지에 좋은 영향을 미칠 것입니다.”" # 3007a512b7dc70b8e78ea8f04ce7e75f000dcb50
-  VIETmisc.6020.a: "아몬드 우유, 좋네요." # 7ab79314843441a5f336b095dd33542651741766
-  VIETmisc.6020.b: "그건 너무 비싸요." # 2bb95a848f5907eab5859e7c20e9085d252bd549
-  VIETmisc.6020.info: "#bold 역사적 배경:# 오늘날 아몬드 우유는 현대적인 유행으로 여겨지지만, 실제로는 중세 시대, 특히 상류층 사이에서 매우 인기가 많았습니다. 기독교 유럽에서는 종종 동물성 우유 (특히 사순절 기간)의 대용품으로 사용되었습니다. 아몬드 우유는 중세 요리책에 두루 등장하여 수프와 디저트부터 해산물 요리까지 다양한 음식에 활용되었으며, 때로는 그 자체로도 즐겨졌습니다." # 5cddc64d8f740deed760b6f631840e458aa2d6a9
-  VIETmisc.6021.t: "소란" # 250ba0cdde46f26994fcf9f922184653c989036a
-  VIETmisc.6021.desc: "오늘의 궁중 예절과 평화로운 분위기가 큰 소음으로 깨졌습니다.\n\n"이런 소란의 원인이 무엇이지?" 하고, 조사하기 위해 일어섰습니다. 제 목소리는 단호하지만 우울했습니다.\n\n궁정으로 들어가는 입구에서, [courtier.GetTitledFirstName]이 궁정으로 들어오자 넘어지고 말았습니다. [courtier.GetSheHe|U]는 [courtier.GetHerHis] 옷에 걸려 완전히 헝클어졌고, 궁정 시종들이 도와주려고 애쓰는 와중에 실망스러운 말들을 지껄였습니다.\n\n잠시 후, [courtier.GetFirstNameNoTooltip]은 자신이 얼마나 어리석어 보였는지 깨달았습니다. 궁정의 다른 사람들은 킥킥거리고 속삭이며 [courtier.GetHerHim]을 가리키며 웃었고, [courtier.GetSheHe]는 제게 다가가는 제 모습을 보며 얼굴이 붉어졌습니다." # ed78f3a723c78621c7b7dbeb15add572dce53ad6
-  VIETmisc.6021.a: "[courtier.GetFirstNamePossessiveNoTooltip] 불운을 비웃는 것은 결례입니다." # 931b8d1f16f2317b4cb170ec6f6299b64e4a9328
-  VIETmisc.6021.b: "웃기네요. 당신은 정말 바보 같았어요." # ff8624b4f703ebc1823e45a5505a2a42ffba2589
-  VIETmisc.6021.c: "그래, 상관없어. 계속 이어나가자." # 48cad3e2d09b4b8918984dc638be215ea20ba27b
-  VIET_every_courtier_tt_laughing: "모든 [courtier|E]들은 그 상황이 재미있다고 생각했습니다." # 79edb8357b4e29f18698d4c6b600e2b12db1d635
-  VIETmisc.6022.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6022.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6022.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6023.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6023.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6023.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6024.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6024.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6024.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6025.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6025.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6025.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6026.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6026.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6026.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6027.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6027.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6027.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6028.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6028.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6028.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6029.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6029.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6029.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6030.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6030.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6030.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6031.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6031.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6031.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6032.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6032.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6032.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6033.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6033.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6033.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6034.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6034.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6034.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6035.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6035.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6035.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6036.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6036.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6036.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6037.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6037.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6037.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6038.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6038.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6038.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6039.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6039.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6039.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6040.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6040.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6040.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6041.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6041.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6041.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6042.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6042.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6042.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6043.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6043.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6043.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6044.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6044.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6044.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6045.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6045.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6045.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6046.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6046.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6046.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6047.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6047.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6047.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6048.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6048.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6048.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6049.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6049.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6049.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6050.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6050.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6050.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6051.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6051.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6051.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6052.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6052.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6052.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6053.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6053.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6053.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6054.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6054.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6054.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6055.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6055.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6055.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6056.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6056.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6056.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6057.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6057.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6057.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6058.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6058.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6058.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6059.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6059.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6059.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6060.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6060.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6060.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6061.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6061.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6061.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6062.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6062.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6062.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6063.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6063.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6063.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6064.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6064.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6064.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6065.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6065.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6065.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6066.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6066.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6066.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6067.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6067.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6067.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6068.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6068.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6068.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6069.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6069.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6069.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6070.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6070.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6070.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6071.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6071.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6071.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6072.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6072.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6072.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6073.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6073.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6073.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6074.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6074.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6074.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6075.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6075.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6075.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6076.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6076.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6076.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6077.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6077.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6077.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6078.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6078.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6078.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6079.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6079.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6079.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6080.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6080.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6080.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6081.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6081.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6081.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6082.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6082.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6082.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6083.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6083.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6083.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6084.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6084.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6084.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6085.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6085.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6085.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6086.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6086.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6086.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6087.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6087.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6087.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6088.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6088.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6088.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6089.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6089.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6089.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6090.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6090.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6090.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6091.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6091.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6091.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6092.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6092.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6092.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6093.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6093.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6093.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6094.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6094.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6094.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6095.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6095.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6095.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6096.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6096.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6096.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6097.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6097.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6097.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6098.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6098.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6098.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6099.t: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6099.desc: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
-  VIETmisc.6099.a: "xxxxx" # 9addbf544119efa4a64223b649750a510f0d463f
+  VIETmisc.6000.t: "공개 토론" # 7830631962888090714
+  VIETmisc.6000.desc: "[intellectual_1.GetFirstName]와 [intellectual_2.GetFirstName]라는 두 명의 학자가 저의 궁정에 도착했습니다.  그들은 지역 학계에서 [ROOT.Char.GetFaith.ReligiousText]의 다양하고 흥미로운 해석, 그리고 다른 신학적 논점들로 유명합니다.  그들은 치열한 라이벌이며, 공개 토론을 통해 서로의 주장을 반박하고자 합니다. 저와 다른 궁정 구성원들은 관객으로 이들의 토론을 지켜볼 것입니다.\n\n[intellectual_1.GetFirstNameNoTooltip]는 우리 신앙의 고전적 이해를 옹호하는 굳건한 전통주의자로 알려져 있습니다. 반면 [intellectual_2.GetFirstNameNoTooltip]는 독창적이고 반항적인 학자입니다.  [intellectual_2.GetSheHe]는 이단적 견해를 갖고 있지 않지만, [ROOT.Char.GetFaith.GetAdjective] 신학에 대해 상당히 혁신적인 해석을 제시합니다.\n\n그들의 활발한 토론에서, 두 학자 모두 논증, 반박, 재반박 등에 뛰어난 능력을 보여주었습니다. 저의 궁정 구성원들은 대체로 어느 쪽도 토론에서 우위를 점하지 못했다고 생각합니다. 따라서 누가 승리했는지 공식적으로 선언해 줄 것을 저에게 기대하고 있습니다." # 14272384044839191452
+  VIETmisc.6000.desc.traditionalist: "저의 [chaplain.GetCouncilTitle] [chaplain.GetTitledFirstName]는 [intellectual_1.GetFirstNameNoTooltip]를 지지하는 듯합니다. [chaplain.GetSheHe]는 이렇게 말씀하십니다. “[intellectual_1.GetSheHe|U]는 [ROOT.Char.GetFaith.GetName]의 정통적인 이해를 옹호하셨습니다. [intellectual_2.GetFirstNameNoTooltip]는 이단이 아니지만, 편안하지 못할 정도로 이단에 가깝습니다.”" # 10740966287354346595
+  VIETmisc.6000.desc.innovator: "제 [chaplain.GetCouncilTitle] [chaplain.GetTitledFirstName]는 [intellectual_2.GetFirstNameNoTooltip]를 지지하는 것 같습니다. [chaplain.GetSheHe]는 “[intellectual_2.GetSheHe|U]는 항상 새로운 방법으로 [ROOT.Char.GetFaith.GetAdjective] 신학에 접근할 수 있다는 것을 보여줍니다. [intellectual_1.GetFirstNameNoTooltip]는 안타깝게도 전통에만 매달려서 [ROOT.Char.GetFaith.HighGodName]께서 우리에게 무엇을 하라고 원하시는지 고려하지 않고 있습니다.”라고 말했습니다." # 9427496530738987087
+  VIETmisc.6000.a: "[intellectual_1.GetFirstName]이 정통 사상을 옹호하는 논쟁에서 더 설득력 있는 주장을 펼쳤습니다." # 17602971980610911255
+  VIETmisc.6000.a.toast: "[intellectual_1.GetFirstName]께서 궁정에 머물기로 결정하셨습니다!" # 6524427126781865644
+  VIETmisc.6000.b: "[intellectual_2.GetFirstName]는 혁신적인 종교적 신념을 주장하며 토론에서 승리했습니다." # 11087524178934839053
+  VIETmisc.6000.b.toast: "[intellectual_2.GetFirstName]께서 귀하의 궁정에 머물기로 하셨습니다!" # 8355345013192419840
+  VIETmisc.6000.c: "둘 다 내 마음을 얻지는 못했지만, 재미있는 토론이었습니다!" # 9505462519830662822
+  VIETmisc.6001.t: "강탈 귀족" # 17621935914828663463
+  VIETmisc.6001.desc: "지난 몇 달 동안, [bandit.GetFullName]라는 강도 영주가 [county.GetNameNoTier]에서 활동한다는 소식을 들었습니다. 이 못된 자는 비천한 귀족으로서, 제 왕실의 권위에 반항하여 [bandit.GetHerHis] 영지에 지나가는 사람들에게 정당한 통행료 외에 추가 요금을 부과하는 만행을 저질렀습니다.  여정자들은 추가 요금을 지불하거나 강도나 납치를 당하고 몸값을 요구받을지 선택해야 했습니다. \n\n어쨌든, 이 교활한 범죄자는 얼마 동안 체포를 피했지만… 이제는 아니군요. 우연히, 제 관리들이 [bandit.GetHerHim]을 체포했고, [bandit.GetSheHe]는 판결을 받기 위해 저에게 끌려왔습니다. 제 허락 없이 이러한 행위를 저지른 것은 제 명성에 큰 오점입니다. 따라서 [bandit.GetSheHe]는 그에 상응하는 처벌을 받아야 합니다." # 18216305566259993107
+  VIETmisc.6001.a: "적은 벌금으로 [bandit.GetHerHim]에게 교훈을 주도록 하겠습니다." # 11146003727818917311
+  VIETmisc.6001.b: "자비를 베풀면, [bandit.GetSheHe]는 제게 일할 수 있습니다." # 8945059868427451139
+  VIETmisc.6001.c: "법은 명확합니다. 이 범죄자는 사형에 처해질 것입니다!" # 14000353965496408679
+  VIETmisc.6001.d: "[강도.그녀의그]의 칭호와 계급을 박탈합니다." # 16794618397648752585
+  VIETmisc.6001.info: "#bold 역사적 배경:#!  "강탈 귀족"은 중세 시대, 특히 왕권이 약화된 시기에 지배 계층과 귀족들이 자신의 지위와 자원을 이용하여 여행자와 상인에게 높은 세금과 통행료를 부당하게 거둬들인 현상을 일컫는 일반적인 용어입니다. 예를 들어, 프랑스의 루이 6세는 1100년대 초반에 이러한 강탈 귀족들과 오랜 시간 동안 싸워야 했습니다. 이러한 악명 높은 인물들은 나중에 19세기 미국 속어로 불량하고 부유한 사업가들을 지칭하는 용어로 사용되었습니다." # 13874651706833331449
+  VIETmisc.6002.t: "부적절한 행위" # 8345422460138239688
+  VIETmisc.6002.desc: "최근 [relative.GetTitledFirstName]의 행실로 인해 궁궐에 좋지 않은 소문이 퍼지고 있습니다. [relative.GetHerHis] 예의범절은 심각하게 부족하며, 여러 외교 사절을 모욕하기도 했습니다.  궁중 예절을 무시하는 일이 잦아,  [relative.GetFirstNameNoTooltip]가 저와 관련이 있다는 이유로  [relative.GetSheHe]는 그러한 무례함과 부적절한 행동을 감행할 수 있다고 생각하는 것 같습니다.\n\n이러한 문제가 심각해지자 [complainer.GetTitledFirstName]께서 이 문제를 상의하러 오셨습니다.\n\n"[ ROOT.Char.GetLadyLord ]께서, [relative.GetTitledFirstNamePossessiveNoTooltip]의 용납할 수 없는 행실에 대해 대처해야 합니다." [complainer.GetFirstNameNoTooltip]가 간청했습니다. "이는 스스로 나쁜 행위일 뿐만 아니라, #italic 당신#께서도 불명예스럽게 비춰질 수 있습니다. [ROOT.Char.GetTitleAsNameNoTooltip]로서, 특히 가족 구성원을 포함한 궁중 질서를 유지해야 합니다!"" # 4977168731463636831
+  VIETmisc.6002.a: "[relative.GetFirstNameNoTooltip]에게 엄중한 충고를 해 줄 것입니다." # 18054913204923993045
+  VIETmisc.6002.a.tooltip: "[relative.GetTitledFirstNameNoTooltip]을 엄중히 꾸짖습니다." # 9714444154528275623
+  VIETmisc.6002.a.success: "[relative.GetFirstNameNoTooltip]가 [relative.GetHerHis] 행실을 바꾸기로 동의했습니다." # 4408826452616655560
+  VIETmisc.6002.a.failure: "[relative.GetFirstNameNoTooltip]은 당신의 요구에 동의하지 않습니다." # 11533007465125678437
+  VIETmisc.6002.b: "[relative.GetHerHim]을 조심스럽게 설득해 보겠습니다." # 15680498106961357385
+  VIETmisc.6002.b.tooltip: "[relative.GetTitledFirstNameNoTooltip]께, 더욱 신중한 접근 방식을 취하시기 바랍니다." # 8088585069848022728
+  VIETmisc.6002.b.success: "[relative.GetFirstNameNoTooltip]의 마음을 움직여 [relative.GetHerHis] 행동을 바꾸셨습니다." # 12651613924439193344
+  VIETmisc.6002.b.failure: "귀의 귀에는 닿지 않습니다." # 11265800742922824216
+  VIETmisc.6002.c: "[relative.GetSheHe]가 아무에게도 해를 끼치지 않는다면, 그냥 [relative.GetHerHim]을 두십시오." # 10145311581782240201
+  VIETmisc.6003.t: "실수" # 2929122065289875531
+  VIETmisc.6003.desc: "왕실의 의례는 어떤 왕궁에서든 일상생활의 중요한 부분입니다. 어떤 이들에게는 지루할 수 있겠지만, 왕실의 권력과 지위를 강조하기 위해 꾸준히 수행해야 합니다.\n\n그런데 오늘 [courtier.GetTitledFirstName]은 무슨 실수를 저질렀을까요? 아침에 내가 법정에 들어서는 그저 평범한 의례였는데, 참석한 모든 사람들은 각자의 역할을 수행해야 했습니다. 특정 제스처를 취하고, 특정 자세를 유지하고, 특정 공식적인 말을 해야 하는 것이었는데, [courtier.GetSheHe]의 실수로 의례가 갑자기 중단되었습니다. [courtier.GetSheHe]는 이런 의례를 수없이 해왔지만 말입니다.\n\n내가 [courtier.GetFirstNameNoTooltip] 옆을 지나가자, 모든 사람들이 불운한 [courtier.GetWomanMan]을 바라봅니다. 부끄러운 표정이 [courtier.GetHerHis] 얼굴에 가득 찬 모습입니다. 내 개인적인 감정과는 별개로, 내가 [ROOT.Char.GetTitleAsNameNoTooltip]로서, 왕실의 한 구성원도 기본적인 의무를 수행하지 못한다면, 그것은 좋은 모습이 아니라고 생각합니다." # 6417199377104322817
+  VIETmisc.6003.a: "별일 아니에요! 실수는 종종 일어나죠." # 7535419154269565838
+  VIETmisc.6003.b: "모두 앞에서 [courtier.GetHerHim]을 꾸짖겠습니다." # 6473727809573378464
+  VIETmisc.6003.c: "[courtier.GetHerHim]을 따로 불러 꾸짖겠습니다." # 3427960180862847959
+  VIETmisc.6004.t: "거부하는 사절" # 11028592078612651317
+  VIETmisc.6004.desc: "[envoy.GetTitledFirstName], [neighbor.GetTitledFirstName]의 사절로서, [envoy.GetHerHis] 군주로부터 저희 궁정을 방문하라는 명을 받았습니다. 저희는 이 사절을 예우를 갖춰 맞이했지만, 여러 가지 사항에 대해 이야기하는 도중, [envoy.GetSheHe]는 저희 궁정의 수준이 부족하다고 함부로 말했습니다. 참으로 모욕적인 발언입니다!\n\n특히, [envoy.GetFirstNameNoTooltip]는 이렇게 말했습니다. “당신과 같은 위대한 [ROOT.Char.GetTitleAsNameNoTooltip]의 궁정은… 더 웅장해야 했습니다. 이 방은 매우 작고 어둡고, 장식은 평범하고 재미없으며, 다른 방의 계단은 – 모든 이가 아는 바와 같이, 좋은 궁정에는 훌륭하고 장엄한 계단이 필요합니다!”\n\n[envoy.GetSheHe|U]는 한숨을 쉬며 계속해서 지껄였습니다. “솔직히 말해서, 이 '왕궁'은 단순한 공작이나 소수 지도자의 궁정과 크게 다르지 않습니다. 어디에 그 위엄과 경외감이 있습니까?”" # 4606624377740537299
+  VIETmisc.6004.a: "[envoy.GetSheHe|U]는 융통성이 없지만, 조금 화려하게 치장해보는 것도 나쁘진 않을 듯합니다." # 9353925153930268720
+  VIETmisc.6004.b: "저 무례한 괴수를 [neighbor.GetFirstNameNoTooltip]로 돌려보내십시오!" # 10760747274123276605
+  VIETmisc.6004.c: "국가의 중요한 사안에 집중합시다." # 13521963675080180669
+  VIETmisc.6005.t: "사치스러운 의식" # 16815504611772510279
+  VIETmisc.6005.desc: "궁중 의례는 어떤 왕실 법정의 일상적인 절차에서 중요한 부분입니다. 자존심 있는 군주는 위엄을 유지해야 하며, 이러한 의례는 그러한 목적을 효과적으로 달성하는 방법입니다.\n\n하지만 저의 몇몇 신하들은 저희 궁중에서 규칙적으로 행해지는 [ROOT.Char.GetCulture.GetName]과 [ROOT.Char.GetFaith.GetAdjective] 의례 중 몇 가지가 다소 과도하며, 돈의 낭비라고 말했습니다.\n\n[courtier.GetTitledFirstName]는 특히 더 화려한 의례들을 줄여야 한다고 주장하는 저의 신하들 중에서도 가장 앞장서 있습니다. “[courtier.GetSheHe]는 어느 날 저에게 이렇게 말했습니다. “이러한 허례허식에 더 이상 돈을 쓰지 않아도 되는 돈을 생각해 보십시오! 그 돈은 실제로 유용한 데 사용될 수 있습니다.”" # 18157746752158145264
+  VIETmisc.6005.a: "훌륭한 지적입니다. 제안 사항을 구현하겠습니다." # 4764079443801214206
+  VIETmisc.6005.b: "아, 더 좋은 생각이 있어요: #italic 의식#의 숫자를 늘리겠어요!" # 7227101932232555523
+  VIETmisc.6005.c: "이 의식들은 중요합니다." # 17074780982721309282
+  VIETmisc.6006.t: "아이의 실수" # 4158865019656555254
+  VIETmisc.6006.desc: "[child.GetFirstName]는 아직 어린 자녀이지만, 왕실 교육의 일환으로써 궁중의 일상적인 업무를 관찰하는 것이 중요합니다. 그렇게 함으로써 [child.GetSheHe]가 성인이 되었을 때, 어떤 궁궐이든 적절하게 행동할 수 있도록 준비될 것입니다.\n\n그러나 오늘 [child.GetFirstNameNoTooltip]은 실수를 저질렀습니다. [child.GetSheHe]는 [nice_courtier.GetTitledFirstName]께 존경하는 태도를 보이지 못했습니다. [nice_courtier.GetFirstNameNoTooltip]은 웃으며 [child.GetFirstNameNoTooltip]이 어린아이일 뿐이기에 이번 실수를 통해 배울 것이라고 말했지만, 이 사건을 목격한 [mean_courtier.GetFirstName]은 매우 부적절한 행동이었다며, 제가 [child.GetFirstNameNoTooltip]을 징계하고 궁중 예절을 지키도록 가르쳐야 한다고 말했습니다." # 8079371140361222545
+  VIETmisc.6006.a: "[nice_courtier.GetFirstNameNoTooltip]께서 괜찮으시다면 저도 괜찮겠습니다." # 1129213629367478995
+  VIETmisc.6006.b: "[mean_courtier.GetFirstNameNoTooltip] 말씀이 맞습니다.  [child.GetFirstNameNoTooltip]를 꾸짖겠습니다." # 3038886861122295245
+  VIETmisc.6006.c: "[child.GetFirstNameNoTooltip]은 이미 [child.GetSheHe]가 무엇을 잘못했는지 알아차린 것 같습니다." # 13586443341286535445
+  VIETmisc.6007.t: "방해하는 하인" # 14209913485686393027
+  VIETmisc.6007.desc: "[servant.GetFirstName]이라는 하인이 때때로 궁중 업무를 보좌하기 위해 내 궁궐에서 여러 가지 일을 해야 합니다. 문제가 있다면 그가 극도로 매력적이라는 겁니다. 제대로 된 화장품과 좋은 옷을 입지 않은 보통 사람이 이렇게 매력적일 수 있다니 말이죠. \n\n사실, 좀 더 정확하게 말하자면, 그는 단순히 극도로 매력적인 것이 아니라, #italic 눈을 사로잡을 만큼#! 매력적입니다. [궁정대신.칭호이름]은 최근에 [하인.소유격]의 미모가 궁정 신하들과 하인들의 업무 수행 능력을 방해한다고 말했습니다. \n\n\"[servant.GetFirstName]이 저기서... 저런 하찮은 [servant.GetFirstName]이 저기 있어서, 어떻게 일을 할 수 있겠어요,\" [궁정대신.성별]은 말했습니다, \"저희를 흥분시키고, 그의 놀랍도록 매력적인 외모로 유혹하잖아요?\"" # 5028461312731953833
+  VIETmisc.6007.a: "[servant.GetFirstNameNoTooltip]은 궁정 밖의 다른 임무를 맡게 될 것입니다." # 1317293431136772637
+  VIETmisc.6007.b: "이렇게 매력적인 사람은 계급이 높아져야 마땅합니다!" # 17414813056062376092
+  VIETmisc.6007.c: "그건 당신의 문제지, 남의 문제가 아니야." # 967910492408888481
+  VIETmisc.6008.t: "졸고 있습니다" # 3346238774259331614
+  VIETmisc.6008.desc: "오늘, 궁중 의례에 참여했습니다. 왕으로서의 권력과 지위를 강화하기 위한 단순한 인사말과 의복, 제스처의 의식이었습니다.\n\n이러한 의식은 정말 지루했습니다.\n\n사실, 오늘의 의식은 너무 지루해서 잠깐 졸았습니다.\n\n[random_courtier.GetTitledFirstName]가 너무 큰 기침소리를 냈기 때문에 깨어났습니다. 어쨌든, 모두 제가 잠든 것을 알았지만, 저를 불쾌하게 할까 봐 아무렇지도 않은 척했습니다." # 17882763331960126545
+  VIETmisc.6008.a: "모두들, 제가 실수를 했습니다. 저처럼 하지 마십시오." # 6432501441023688380
+  VIETmisc.6008.b: "잘못했지만, 그 사실을 드러내서는 안 됩니다." # 5474166589856401753
+  VIETmisc.6008.c: "음… 네… 아무 일도 일어나지 않았습니다… 어디서부터였죠?" # 4252492306196867887
+  VIETmisc.6009.t: "계단은 어디에 있습니까?" # 8297890205456806169
+  VIETmisc.6009.desc: "오늘 저희 궁궐에는 [county.GetNameNoTier] 출신의 유명한 귀족이자 여행가 [traveler.GetFullName]님께서 방문하셨습니다. [traveler.GetHerHis] 방문 중, 저는 [traveler.GetHerHim]께 저희 궁궐의 대궐이 [traveler.GetHerHis] 여정 중 보았던 다른 곳들과 어떻게 비교되는지 물었습니다.\n\n“[traveler.GetHerHim]께서는 솔직하게 말씀해주셔도 좋습니다,” 저는 [traveler.GetHerHim]을 안심시켰습니다. “저는 제 궁궐을 어떻게 개선할 수 있는지 알고 싶습니다.”\n\n“[ROOT.Char.GetLadyLord]님, 저는 [traveler.GetHerHis] 궁궐이 괜찮다고 생각합니다,” [traveler.GetFirstNameNoTooltip]는 말했습니다. “단 하나, 좋은 계단이 부족하다는 점입니다! 요즘 다른 궁궐에서는 웅장한 계단을 #italic 어디에서도# 찾아볼 수 없습니다. 이상하지 않나요?”\n\n“지금까지는 전혀 눈치채지 못했지만, [traveler.GetHerHis] 말씀이 맞습니다!” 저는 동의했습니다.\n\n“맞아요! 큰, 장엄한 계단은 건물 내부를 훨씬 더 멋지게 보이게 할 수 있다는 것을 모두 알고 있습니다,” [traveler.GetFirstNameNoTooltip]는 말했습니다. “여기에 정말 멋진 큰 계단이 있거나, 아마 저기, 또는 다른 방에 있으면, [ROOT.Char.GetTitledFirstNameNoTooltip]께서 다른 군주들보다 #italic 한 단계 위#에 있다는 것을 보여줄 것입니다.”" # 17802426169568850481
+  VIETmisc.6009.a: "멋진 생각이에요! 저 다른 방에 계단을 더 만들겠어요." # 6395653968528362640
+  VIETmisc.6009.b: "반면에... 정말 계단이 더 필요할까요?" # 8553259939095758757
+  VIETmisc.6010.t: "소규모 개보수" # 11622242936762722679
+  VIETmisc.6010.desc: "어제 궁중 회의실에 대한 소규모 개축이 마무리되었습니다.  왕으로서 매일 이곳을 드나드는 사람들이 많아, 상당한 마모가 발생합니다. 따라서 이곳이 품위 있게 보이도록 유지하는 것이 중요합니다.\n\n하지만 최근 개축으로 인해 회의실에 잔해물이 남아 있는 것 같습니다. 신하들이 열심히 청소하고 있지만, 이 작업에 하루 이틀이 걸릴 수도 있으며, 현재 왕실의 품위를  несколько… 손상시키는 상황입니다." # 11276853807631854126
+  VIETmisc.6010.a: "이번 주에는 다른 곳에서 궁궐을 열어야 할 것 같습니다." # 18036343864773346488
+  VIETmisc.6010.b: "빨리 정리해! 더럽힌 걸 빨리 치워 아니면!" # 3543049412959376752
+  VIETmisc.6011.t: "[parent.GetMotherFather|U]의 잔소리가 심합니다." # 7677118637943634977
+  VIETmisc.6011.desc: "평범한 [ROOT.Char.GetTitleAsNameNoTooltip]로서 평범한 하루를 보내고 있었습니다.\n\n하지만 제 예상과 달리 평화롭지는 않았습니다. 아침 의식 후, 제 [parent.GetMotherFather]인 [parent.GetTitledFirstName]은 몇몇 궁정 귀족들을 불러, 부적절한 수다나 행실, 옷차림이 어긋남, 업무에 대한 노력 부족 등을 지적하며 꾸짖었습니다.\n\n제가 [parent.GetHerHim]을 진정시키려 하자, [parent.GetMotherFather]은 나를 노려보며 손가락으로 가리키며 말했습니다. “[ROOT.Char.GetFirstNameNoTooltip]! 어떤 궁정을 운영하고 있는 거야? 여기의 무례함에 대해 책임을 져야 해. 네가 이제 [ROOT.Char.GetTitleAsNameNoTooltip]이지만, 아직도 네가 어린아이인 것처럼 모든 일을 해야만 하네!”\n\n긴 침묵이 이어지고 나서, [parent.GetSheHe]는 부드러운 어조로 덧붙였습니다. “그런데, 배가 고프면, 제가 일찍 요리사에게 당신이 좋아하는 간식을 준비해 달라고 부탁했어요. 요즘 너무 쇠약해 보이니, 더 많이 먹어야 해!”" # 12111875977397639622
+  VIETmisc.6011.a: "[parent.GetMotherFather|U], 그만둬! 내가 [ROOT.Char.GetTitleAsNameNoTooltip]인데!" # 9838279067622625918
+  VIETmisc.6011.b: "아! [parent.GetMotherFather] 없이는 어떻게 살아가겠습니까?" # 1975377455385395571
+  VIETmisc.6011.info: "#emphasis 역사적 배경:#! 역사상의 군주들을 무한한 권력을 가진 강력한 존재로 생각하곤 하지만, 실제로 가장 강력한 군주라 할지라도 특히 부모, 특히 어머니와 같은 특정 권력자들에게 굴복해야 할 때가 많았습니다. 예를 들어, 위대한 징기스칸조차도 어머니의 조언을 경청했다고 알려져 있습니다." # 15044024493845826621
+  VIETmisc.6012.t: "부패한 관리 적발!" # 10552717595852786210
+  VIETmisc.6012.desc: "얼마 전, [courtier.GetTitledFirstName]가 [county.GetName]의 한 마을에서 저를 대신하여 공식적인 업무를 처리하고 있었습니다. 그곳에서 [courtier.GetSheHe]는 제 하급 관리인 [official.GetFullName]이 농민들을 괴롭히고, 육체적으로 밀치며, 돈을 갈취하려 하고, 특히 미모가 뛰어난 농민들에게 음담패설을 하는 장면을 목격했습니다. \n\n이러한 불의에 분노한 [courtier.GetFirstNameNoTooltip]은 [official.GetFirstNameNoTooltip]에게 다가가 그만두라고 경고했습니다. [official.GetFirstNameNoTooltip]은 [courtier.GetFirstNameNoTooltip]을 무시하며, [courtier.GetSheHe]가 아무것도 아닌 존재라고 생각했습니다. 하지만 [courtier.GetFirstNameNoTooltip]은 [courtier.GetSheHe]가 바로 저의 직접적인 대표임을 밝혔습니다.\n\n왕실 대표를 모욕하는 것은 결코 가볍게 여길 일이 아닙니다. 그리고 지역 주민들의 수많은 불만을 고려하여, [courtier.GetFirstNameNoTooltip]은 그 어리석은 자를 저에게 판단을 받게 하기 위해 데려왔습니다. [courtier.GetFirstNamePossessiveNoTooltip]는 만약 제가 [official.GetFirstNameNoTooltip]를 저의 궁정에서, 모든 사람들 앞에서 처벌한다면, 나머지 영토에도 확고한 경고가 될 것이라고 판단했습니다." # 13081939450679106973
+  VIETmisc.6012.a: "[official.GetFirstNameNoTooltip]님, 다시는 그러지 마십시오." # 3584102468237364490
+  VIETmisc.6012.b: "[관리]의 직위를 박탈하고 [관리]를 투옥합니다." # 18194513425505074209
+  VIETmisc.6012.c: "[official.GetFirstNameNoTooltip] #italic 을#! 벌하고 [courtier.GetFirstNameNoTooltip]에게는 상을 주겠습니다!" # 6826242493200346296
+  VIETmisc.6013.t: "손님의 감탄" # 8805636485780594138
+  VIETmisc.6013.desc: "[county.GetName]의 귀족 대표단 여러 분이 최근 저의 궁정을 방문하셨습니다.  저는 그들을 몇 주 동안 숙박하며 국가의 중요한 문제를 논의하고 훌륭한 연회와 즐거운 시간을 보냈습니다.\n\n\n그들이 떠나기 전, [dignitary.GetFullName]이라는 [dignitary.GetWomanMan]은 [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]에 가보고 싶어 했다고 말했습니다.  이 지역을 직접 보고 나서 [dignitary.GetSheHe]는 매우 감탄하여 저의 궁정에 봉사하고 싶다는 뜻을 밝혔습니다.\n\n\n하지만 [dignitary.GetFirstNameNoTooltip]은 [dignitary.GetHerHis] 고향에서도 재능 있고 능력 있는 지역사회 지도자로 유명하며, 사회 발전에 큰 기여를 하고 있습니다." # 3609539759787540814
+  VIETmisc.6013.a: "당신의 백성들이 당신을 필요로 합니다. 고국에서 위대한 업적을 이루십시오!" # 16721241562425633224
+  VIETmisc.6013.b: "저의 궁정에 합류하시려거든, 기꺼이 영접하겠습니다." # 3009782604189195354
+  VIETmisc.6014.t: "부끄럽습니다!" # 7566612308501004415
+  VIETmisc.6014.desc: "“부끄러운 행동입니다!” [shamer.GetTitledFirstName]가 말했습니다. “#italic 부끄러운 행동입니다!#! 왕실 법정 안에 있습니다! 당신들의 나쁜 태도와 부적절한 행동은 이 법정을 망치고, 저희 [ROOT.Char.GetTitleAsNameNoTooltip]의 명예를 세계 군주들에게 깎아내립니다!”\n\n[shamer.GetFirstNameNoTooltip]은 제 몇몇 시종들과 또다시 문제가 있는 것 같습니다. [shamer.GetSheHe|U]는, 특히 법정 안에서는, 그들에게 항상 높은 기대를 가지고 있습니다. 그 기대는 때때로 만족시키기 어려운 것 같습니다.\n\n제 시종들은 [shamer.GetFirstNameNoTooltip]에게 실수에 대해 겸손하게 사과합니다(그것이 실제 실수였는지, 아니면 그저 변명인지는 모르겠지만). 그리고 생각해 보니, 이런 행동을 통해 [shamer.GetFirstNameNoTooltip]은 어쩌면 일부 사람들에게 이 법정에서 제가 시종들을 훈계하고 책망하는 권위를 간접적으로 침해하는 것처럼 보일 수도 있습니다. #italic 제#!" # 13185516873834371824
+  VIETmisc.6014.a: "[shamer.GetFirstNameNoTooltip]는 필요하다고 생각하면 그들을 꾸짖을 권리가 있습니다." # 15879100725814845845
+  VIETmisc.6014.b: "저는 여기서 [ROOT.Char.GetTitleAsNameNoTooltip]입니다. 당신은 아니에요! 이제 그만하십시오." # 936338903212129999
+  VIETmisc.6015.t: "오, 안돼!" # 10629474522453437493
+  VIETmisc.6015.desc: "내 궁궐 안에서, 평범한 [ROOT.Char.GetTitleAsNameNoTooltip]으로서 평범한 하루를 보내고 있었습니다. 솔직히 말해서, 지루해지기 시작했습니다. 그리고…\n\n#italic #bold 쾅!!!#!#!\n\n모두가 놀라서 뒤를 돌아봤습니다. 무슨 일이었던 걸까요?\n\n[courtier.GetTitledFirstName]가 소란의 원인을 조사하러 갔고, 알고 보니 큰 벽걸이 그림 중 하나가 떨어져 내리면서 매우 시끄럽고 불쾌한 소음을 냈던 것입니다. 다행히 다친 사람은 없었지만, 어색한 사건이었습니다. 심지어 저 같은 군주에게 불운이 닥치기 전에는 종종 이처럼 기이하고 우연해 보이며 불길한 사건들이 선행한다는 [ROOT.Char.GetCulture.GetName]의 민담과 미신을 떠올릴 수도 있을 것입니다." # 8024326117878466397
+  VIETmisc.6015.a: "별일 아니겠지. 저 물건 다시 걸어 두자!" # 12409729681628847448
+  VIETmisc.6016.t: "존재하지 않는 사악한 궁정 시녀" # 8213276263990306617
+  VIETmisc.6016.desc: "이 지역에는 저의 왕실에 특히 악명 높고 부패한 궁정 신하 [fake.GetFullNameNoTooltip]가 있다는 소문이 퍼지고 있습니다.  [fake.GetSheHe]가 저의 손해를 보면서 어떤 끔찍한 일에 연루된다는 흥미로운 이야기가 지역 전설이 되어 버렸습니다. \n\n문제는, 저는 그런 이름과 묘사에 맞는 궁정 신하가 없다는 것입니다.\n\n어떤 날에는, 제 궁정을 둘러보며, 이런 소문을 만든 사람이 바로 이곳에 있는 사람 중 한 명인지 궁금해집니다. 이 소문이 어디서, 언제 처음 생겨났는지 아무도 모릅니다.  어쨌든, 이런 이야기들은 사람들이 제 궁정과 저를 군주로서 바라보는 시각에 영향을 미치고 있습니다." # 15805583292660220973
+  VIETmisc.6016.a: "그 때문에 명성이 실추되지 않기를 바랍니다!" # 2405110230885744823
+  VIETmisc.6016.b: "이른바 [fake.GetFirstNameNoTooltip]이란 자를 내 궁궐에서 몰아내십시오!" # 3865025656363971609
+  VIETmisc.6017.t: "존재하지 않는 훌륭한 궁정 신하" # 6704524177076754848
+  VIETmisc.6017.desc: "이 지역에 저희 왕궁에 신성하고 훌륭한 신하 [fake.GetFullNameNoTooltip]가 있다는 소문이 퍼져 나가고 있다는 소식을 들었습니다.  저희 이름으로 백성을 돕고 보호하기 위해 [fake.GetSheHe]가 한 위대한 업적에 대한 영감을 주는 이야기는 지역 민담의 일부가 되었습니다.\n\n\n그래도 이렇게 좋지만, 그 이름과 묘사에 맞는 신하는 없었습니다.\n\n\n어떤 날에는, 궁궐 주변을 둘러보며 어쩌면 이곳 사람 중 한 명이 그런 이야기의 영감을 주었을지 생각합니다.  이 소문이 처음 어디서 언제 생겨났는지 알 수 없습니다.  어쨌든, 이러한 이야기는 백성들이 저희 궁정과 저를 군주로서 보는 방식에 영향을 미치고 있습니다." # 11560880181863223244
+  VIETmisc.6017.a: "저와 저의 궁정을 높이 평가하는 사람들이 많다는군요." # 8054575070038017155
+  VIETmisc.6017.b: "[가짜.이름없는첫번째이름]에 대한 노래를 작사하도록 시인들을 후원하십시오!" # 13524410862076564324
+  VIETmisc.6018.t: "뛰어난 연설 능력" # 18266151252209717277
+  VIETmisc.6018.desc: "오늘의 궁중 회의에서 [orator.GetTitledFirstName]은 방문한 외국 사절단에게 연설을 해야 했습니다. 놀랍게도, [orator.GetSheHe]는 실제로 훌륭한 연설을 펼쳤습니다. 비록 [orator.GetHerHis] 수사학 능력은 더 발전할 여지가 있지만, 사절단들은 [orator.GetFirstNamePossessiveNoTooltip]의 말솜씨가 정중하고 뛰어나며, 이는 저의 왕실 궁정의 위엄을 잘 드러낸다고 감탄했습니다." # 16569441454369618939
+  VIETmisc.6018.a: "오늘 [orator.GetFirstNameNoTooltip]님의 노고는 칭찬할 만합니다!" # 12810551941266305701
+  VIETmisc.6018.b: "평범한 연설을 칭찬할 사람이 있을까요?" # 1955880473098243599
+  VIETmisc.6019.t: "대중 민요" # 16919800249787971155
+  VIETmisc.6019.desc: "[county.GetNameNoTier]의 전통 민요가 최근 일대에 명성을 얻고 있습니다. 독특한 스타일이 온 나라로 퍼져나가고 있기 때문입니다.  오늘, 민요 애호가인 [courtier.GetTitledFirstName]은 왕실 악사들에게 [county.GetAdjectiveNoTooltip] 풍의 음악을 작곡하거나 연주하도록 권하고 있습니다." # 13057010427902226324
+  VIETmisc.6019.a: "그 음악은 예전에 들었지만, 매력을 잘 모르겠어요." # 14112811783866070951
+  VIETmisc.6019.b: "[county.GetAdjectiveNoTooltip] 스타일의 음악을 받아들이도록 하십시오." # 14307778516359327078
+  VIETmisc.6020.t: "아몬드 우유" # 12149023316074002212
+  VIETmisc.6020.desc: "[ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.GetTitleAsNameNoTooltip]로서, 저는 언제나 [ROOT.Char.GetFaith.HighGodNameAlternate]의 충실한 신도로서의 이미지를 향상시킬 방법을 찾고 있습니다. 제 [chaplain.GetCouncilTitle] [chaplain.GetTitledFirstName]가 오늘 저와의 면담에서 흥미로운 아이디어를 제안했습니다.\n\n“[ROOT.Char.GetLadyLord]님께,” [chaplain.GetSheHe]는 설명했습니다. “아마도 당신께서는 단식 기간 동안 동물성 우유 대신 절제의 표시로 아몬드 우유의 가치를 아실 것입니다.”\n\n“맞습니다.”라고 저는 말했습니다. “그러면 이 아몬드는 어떻게 활용할 수 있을까요?”\n\n“좋습니다. 왜 우리 요리사들이 연회나 기타 모임에서 아몬드를 더 자주 사용하지 않겠습니까?” [chaplain.GetFirstNameNoTooltip]는 질문했습니다. “물론, 아몬드 우유는 사치품이기 때문에 비용이 많이 들겠지만, 당신이 매년 [ROOT.Char.GetFaith.ReligiousText]의 가르침을 실천하려는 노력을 보여줄 수 있습니다. 이는 세계의 [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] 법정에서 당신의 이미지에 좋은 영향을 미칠 것입니다.”" # 7627439182002630686
+  VIETmisc.6020.a: "아몬드 우유, 좋네요." # 2861221977898864676
+  VIETmisc.6020.b: "그건 너무 비싸요." # 15479593287425439418
+  VIETmisc.6020.info: "#bold 역사적 배경:# 오늘날 아몬드 우유는 현대적인 유행으로 여겨지지만, 실제로는 중세 시대, 특히 상류층 사이에서 매우 인기가 많았습니다. 기독교 유럽에서는 종종 동물성 우유 (특히 사순절 기간)의 대용품으로 사용되었습니다. 아몬드 우유는 중세 요리책에 두루 등장하여 수프와 디저트부터 해산물 요리까지 다양한 음식에 활용되었으며, 때로는 그 자체로도 즐겨졌습니다." # 4751759950357660907
+  VIETmisc.6021.t: "소란" # 7134515605714216590
+  VIETmisc.6021.desc: "오늘의 궁중 예절과 평화로운 분위기가 큰 소음으로 깨졌습니다.\n\n"이런 소란의 원인이 무엇이지?" 하고, 조사하기 위해 일어섰습니다. 제 목소리는 단호하지만 우울했습니다.\n\n궁정으로 들어가는 입구에서, [courtier.GetTitledFirstName]이 궁정으로 들어오자 넘어지고 말았습니다. [courtier.GetSheHe|U]는 [courtier.GetHerHis] 옷에 걸려 완전히 헝클어졌고, 궁정 시종들이 도와주려고 애쓰는 와중에 실망스러운 말들을 지껄였습니다.\n\n잠시 후, [courtier.GetFirstNameNoTooltip]은 자신이 얼마나 어리석어 보였는지 깨달았습니다. 궁정의 다른 사람들은 킥킥거리고 속삭이며 [courtier.GetHerHim]을 가리키며 웃었고, [courtier.GetSheHe]는 제게 다가가는 제 모습을 보며 얼굴이 붉어졌습니다." # 1368791426165869026
+  VIETmisc.6021.a: "[courtier.GetFirstNamePossessiveNoTooltip] 불운을 비웃는 것은 결례입니다." # 11180570705908989704
+  VIETmisc.6021.b: "웃기네요. 당신은 정말 바보 같았어요." # 57147458818886431
+  VIETmisc.6021.c: "그래, 상관없어. 계속 이어나가자." # 13900077492272258393
+  VIET_every_courtier_tt_laughing: "모든 [courtier|E]들은 그 상황이 재미있다고 생각했습니다." # 14563474992898488034
+  VIETmisc.6022.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6022.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6022.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6023.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6023.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6023.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6024.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6024.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6024.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6025.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6025.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6025.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6026.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6026.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6026.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6027.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6027.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6027.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6028.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6028.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6028.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6029.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6029.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6029.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6030.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6030.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6030.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6031.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6031.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6031.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6032.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6032.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6032.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6033.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6033.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6033.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6034.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6034.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6034.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6035.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6035.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6035.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6036.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6036.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6036.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6037.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6037.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6037.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6038.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6038.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6038.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6039.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6039.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6039.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6040.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6040.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6040.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6041.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6041.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6041.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6042.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6042.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6042.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6043.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6043.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6043.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6044.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6044.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6044.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6045.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6045.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6045.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6046.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6046.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6046.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6047.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6047.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6047.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6048.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6048.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6048.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6049.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6049.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6049.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6050.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6050.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6050.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6051.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6051.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6051.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6052.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6052.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6052.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6053.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6053.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6053.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6054.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6054.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6054.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6055.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6055.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6055.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6056.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6056.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6056.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6057.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6057.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6057.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6058.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6058.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6058.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6059.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6059.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6059.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6060.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6060.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6060.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6061.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6061.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6061.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6062.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6062.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6062.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6063.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6063.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6063.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6064.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6064.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6064.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6065.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6065.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6065.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6066.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6066.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6066.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6067.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6067.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6067.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6068.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6068.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6068.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6069.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6069.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6069.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6070.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6070.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6070.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6071.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6071.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6071.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6072.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6072.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6072.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6073.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6073.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6073.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6074.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6074.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6074.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6075.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6075.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6075.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6076.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6076.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6076.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6077.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6077.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6077.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6078.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6078.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6078.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6079.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6079.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6079.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6080.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6080.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6080.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6081.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6081.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6081.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6082.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6082.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6082.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6083.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6083.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6083.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6084.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6084.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6084.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6085.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6085.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6085.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6086.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6086.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6086.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6087.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6087.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6087.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6088.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6088.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6088.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6089.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6089.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6089.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6090.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6090.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6090.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6091.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6091.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6091.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6092.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6092.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6092.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6093.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6093.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6093.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6094.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6094.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6094.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6095.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6095.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6095.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6096.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6096.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6096.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6097.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6097.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6097.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6098.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6098.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6098.a: "xxxxx" # 1951045980481827005
+  VIETmisc.6099.t: "xxxxx" # 1951045980481827005
+  VIETmisc.6099.desc: "xxxxx" # 1951045980481827005
+  VIETmisc.6099.a: "xxxxx" # 1951045980481827005
