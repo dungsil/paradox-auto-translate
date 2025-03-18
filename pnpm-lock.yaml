@@ -18,8 +18,8 @@ importers:
         specifier: 22.13.10
         version: 22.13.10
       consola:
-        specifier: 3.4.0
-        version: 3.4.0
+        specifier: 3.4.2
+        version: 3.4.2
       dotenv:
         specifier: 16.4.7
         version: 16.4.7
@@ -48,8 +48,8 @@ packages:
   '@types/node@22.13.10':
     resolution: {integrity: sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw==}
 
-  consola@3.4.0:
-    resolution: {integrity: sha512-EiPU8G6dQG0GFHNR8ljnZFki/8a+cQwEQ+7wpxdChl02Q8HXlwEZWD5lqAF8vC2sEC3Tehr8hy7vErz88LHyUA==}
+  consola@3.4.2:
+    resolution: {integrity: sha512-5IKcdX0nnYavi6G7TtOhwkYzyjfJlatbjMjuLSfE2kYT5pMDOilZ4OvMhi637CcDICTmz3wARPoyhqyX1Y+XvA==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
   dotenv@16.4.7:
@@ -84,7 +84,7 @@ snapshots:
     dependencies:
       undici-types: 6.20.0
 
-  consola@3.4.0: {}
+  consola@3.4.2: {}
 
   dotenv@16.4.7: {}
 
