@@ -74,7 +74,8 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
 
   const sourceContent = await readFile(sourcePath, 'utf-8')
   const sourceYaml = parseYaml(sourceContent)
-  let targetYaml = parseYaml(targetContent)
+  const targetYaml = parseYaml(targetContent)
+  const newYaml: Record<`l_${string}`, Record<string, [string, string]>> = {}
 
   log.info(`[${mode}/${file}] 원본 키 갯수: ${Object.keys(sourceContent).length}`)
   log.info(`[${mode}/${file}] 번역 키 갯수: ${Object.keys(targetContent).length}`)
@@ -83,7 +84,7 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
   const langKey = Object.keys(targetYaml)[0]
   if (langKey.startsWith('l_')) {
     log.debug(`[${mode}/${file}] 언어 키 발견! "${langKey}" -> "l_korean"`)
-    targetYaml = { l_korean: targetYaml[langKey] }
+    newYaml.l_korean = {}
   }
 
   for (const [key, [sourceValue]] of Object.entries(sourceYaml[`l_${sourceLanguage}`])) {
@@ -94,13 +95,14 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
 
     // 해싱 처리용 유틸리티
     if (onlyHash) {
-      targetYaml.l_korean[key] = [targetValue, sourceHash]
+      newYaml.l_korean[key] = [targetValue, sourceHash]
       log.debug(`[${mode}/${file}:${key}] 해시 업데이트: ${targetHash} -> ${sourceHash}`)
       continue
     }
 
     if (targetValue && (sourceHash === targetHash)) {
       log.verbose(`[${mode}/${file}:${key}] 번역파일 문자열: ${targetHash} | "${targetValue}" (번역됨)`)
+      newYaml.l_korean[key] = [targetValue, targetHash]
       continue
     }
 
@@ -110,10 +112,10 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
     log.start(`[${mode}/${file}:${key}] 번역 요청: ${sourceHash} | "${sourceValue}"`)
     const translatedValue = await translate(sourceValue)
     log.verbose(`[${mode}/${file}:${key}] 번역된 문자열: ${sourceHash} | "${translatedValue}"`)
-    targetYaml.l_korean[key] = [translatedValue, sourceHash]
+    newYaml.l_korean[key] = [translatedValue, sourceHash]
   }
 
-  const updatedContent = stringifyYaml(targetYaml)
+  const updatedContent = stringifyYaml(newYaml)
   await writeFile(targetPath, updatedContent, 'utf-8')
   log.success(`[${mode}/${file}] 번역 완료 (번역 파일 위치: ${targetPath})`)
 }

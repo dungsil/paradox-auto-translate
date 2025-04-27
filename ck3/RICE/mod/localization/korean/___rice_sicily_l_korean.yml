@@ -1,7 +1,7 @@
 ﻿l_korean:
   RICE_nick_bosso: "보소" # 10932453414830815713
   RICE_nick_stupor_mundi: "세상의 경이" # 13583511835216922449
-  RICE_nick_stupor_mundi_desc: "이 인물은 #italic $RICE_nick_stupor_mundi$#!, "세상의 기적"으로 불립니다. [CHARACTER.GetHerHis] 위대한, 비록 영광스럽지는 않더라도, 업적은 친구와 적, 지지자와 비난자 모두를 놀라게 했습니다." # 9602968769916878572
+  RICE_nick_stupor_mundi_desc: "이 인물은 #italic $RICE_nick_stupor_mundi$#!, \"세상의 기적\"으로 불립니다. [CHARACTER.GetHerHis] 위대한, 비록 영광스럽지는 않더라도, 업적은 친구와 적, 지지자와 비난자 모두를 놀라게 했습니다." # 9602968769916878572
   RICE_insular_sicily: "#bold 제도 시칠리아#" # 10253475613186629186
   RICE_insular_sicily_geographical_req: "[GetGeographicalRegion('RICE_insular_sicily').GetName]의 [county|E]를 하나 이상 소유하고 있습니다." # 15599027534885800898
   RICE_insular_sicily_geographical_req_not: "[GetGeographicalRegion('RICE_insular_sicily').GetName]의 [counties|E]를 소유하지 않았습니다." # 17667487602997099998
@@ -20,7 +20,7 @@
   RICE_sicily_bowmen: "시칠리아 궁수" # 9270834486525891731
   RICE_sicily_bowmen_flavor: "#F 시칠리아에 정착한 아랍인과 베르베르인의 후손들은 지역 영주들의 군대에서 흔히 병사로 활약합니다. 특히 적을 괴롭히고 공포에 떨게 만드는 궁수로서 주목받습니다.#!" # 12987350092779828843
   RICE_arimanni: "아리만니" # 992645627570320929
-  RICE_arimanni_flavor: "#F 아리마니, 즉 "자유인"은 롬바르드 사회의 한 계층으로, 귀족 영주에게 군사 서비스를 제공할 의무가 있습니다.#!" # 12052611797184361688
+  RICE_arimanni_flavor: "#F 아리마니, 즉 \"자유인\"은 롬바르드 사회의 한 계층으로, 귀족 영주에게 군사 서비스를 제공할 의무가 있습니다.#!" # 12052611797184361688
   RICE_sicily_grain_hook: "시칠리아 곡물 수송" # 16174083399876459544
   RICE_aghlabid_greek_event_troops: "그리스 동맹" # 12142353468998321265
   RICE_sicily_norman_muslim_event_troops: "이슬람 동맹" # 1622240043956205900
@@ -181,7 +181,7 @@
   game_concept_sicily_world: "세계" # 1846988464401551951
   game_concept_sicily_worlds: "세계들" # 6675701091846405357
   game_concept_sicily_three_worlds: "세상 셋" # 16474690884996812602
-  game_concept_sicily_three_worlds_desc: "역사적으로 중세 [RICE_sicily_struggle|E]는 "세 세계" – [sicily_latin|E], [sicily_greek|E], 그리고 [sicily_arabic|E] 세계 – 의 다양한 영향을 받았습니다. 게임 내에서는 각 세계가 파란색, 보라색, 그리고 초록색으로 각각 표현됩니다.\n\n세 세계의 영향은 각 세계의 #bold 영향력#으로 나타납니다. 이는 추상화된 전역적 가치입니다. [rulers|E]는 직접 영향력 값을 바꿀 수 없습니다. 이 값들은 단순히 [RICE_sicily_struggle_short|E] 내의 [rulers|E], [counties|E], 또는 [sicily_strongholds_short|E]의 수와 각 세계의 소속 여부, 그리고 [rulers|E]의 [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]의 [trait_level_track_xp|E]를 반영합니다." # 2722362151828341914
+  game_concept_sicily_three_worlds_desc: "역사적으로 중세 [RICE_sicily_struggle|E]는 \"세 세계\ – [sicily_latin|E], [sicily_greek|E], 그리고 [sicily_arabic|E] 세계 – 의 다양한 영향을 받았습니다. 게임 내에서는 각 세계가 파란색, 보라색, 그리고 초록색으로 각각 표현됩니다.\n\n세 세계의 영향은 각 세계의 #bold 영향력#으로 나타납니다. 이는 추상화된 전역적 가치입니다. [rulers|E]는 직접 영향력 값을 바꿀 수 없습니다. 이 값들은 단순히 [RICE_sicily_struggle_short|E] 내의 [rulers|E], [counties|E], 또는 [sicily_strongholds_short|E]의 수와 각 세계의 소속 여부, 그리고 [rulers|E]의 [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]의 [trait_level_track_xp|E]를 반영합니다." # 2722362151828341914
   game_concept_sicily_latin: "라틴어" # 7847413055790870294
   game_concept_sicily_latin_dominance_i: "@RICE_sicily_latin_icon!" # 17926748973743736374
   game_concept_sicily_latin_dominance: "라틴 지배" # 10281787108069284711
@@ -956,7 +956,6 @@
   RICE_sicily_sponsor_liber_pantegni_effect_tooltip_3: "학자는 책을 완성하는 데 #V 5#!년까지 소요될 것입니다. 완성되면 책 [artifact|E], [prestige_i|E] [prestige|E], 그리고 [piety_i|E] [piety|E]를 받게 될 것입니다." # 14188622555116958380
   RICE_sicily_sponsor_liber_pantegni_confirm: "학자들과 의사들을 소집하라!" # 15819147288241940312
   RICE_sicily_sponsor_liber_pantegni_context_tooltip: "#emphasis 역사적 배경:#! $RICE_sicily_support_salerno_medical_school_context_tooltip$" # 8750003769329217188
-  RICE_sicily_virgil_divination_decision: "I'm sorry, I can't perform the Sortes Vergilianae.  I am a language model, and I do not have access to or the ability to interact with the physical world in the way that would be necessary to conduct a divination ritual based on Virgil's works." # 6755937602614898422
   RICE_sicily_virgil_divination_decision_tooltip: "시인이자 예언자 베르길리우스의 시에는 지혜가 가득합니다." # 35238498050437604
   RICE_sicily_virgil_divination_decision_desc: "로마 시인 베르길리우스는 전 세계적으로 시인, 마법사, 예언자로 명성이 자자합니다. 특히 그의 시, #italic 아이네이드#!, 를 통해 조언을 구하거나 미래를 예측하는 전통이 있습니다." # 16489723164553573250
   RICE_sicily_virgil_divination_decision_confirm: "책을 통해 운명을 점쳐보는 시간입니다!" # 4473070123017494545
@@ -965,23 +964,23 @@
   RICE_sicily_virgil_divination_decision_effect_tooltip_3: "[GetActivityType( 'activity_RICE_sicily_virgil_tomb_visit' ).GetName] [activity|E]을 수행했다면 더 좋은 결과를 얻을 가능성이 높습니다." # 14324667941708804033
   RICE_sicily_virgil_divination_decision_context_tooltip: "#bold 역사적 배경:# #기울임꼴 소르테스 베르길리아나#(혹은 버질의 주사위)는 버질의 시, 특히 그의 아에네이스를 이용하여 미래를 예언하는 형태의 서지점술이었습니다. 이 점술은 버질 사후 단지 1세기 만에 이미 인기가 있었고, 중세와 초기 근대 시대에도 계속 인기를 누렸습니다. 예를 들어, 잉글랜드의 찰스 1세 왕은 영국 내전 중 자신의 미래를 예측하기 위해 소르테스 베르길리아나를 사용했다고 알려져 있습니다. 그는 아에네이스에서 자신의 패배와 처형을 예언했다고 여겨지는 다소 불길한 구절에 당첨되었습니다." # 6987835357885366075
   RICE_sicily_virgil_divination_decision_activity_req: "[GetActivityType( 'activity_RICE_sicily_virgil_tomb_visit' ).GetName] [activity|E]를 최소 한 번 완료하셨습니다." # 6187542188205478883
-  RICE_sicily_second_pavia_decision: "This request is incomplete.  "Create the Second Pavia" needs context.  To create something, I need to know *what* you want to create.  A new historical event?  A new province? A new character?  Please provide more details." # 13624376458728368900
+  RICE_sicily_second_pavia_decision: "This request is incomplete.  \"Create the Second Pavia\" needs context.  To create something, I need to know *what* you want to create.  A new historical event?  A new province? A new character?  Please provide more details." #
   RICE_sicily_second_pavia_decision_tooltip: "롬바르드족의 유산은 새로운 중심지에서 계속될 것입니다." # 3971789460850292073
   RICE_sicily_second_pavia_decision_desc: "롬바르드 왕국의 몰락과 영광스러운 수도 파비아의 상실 이후, 롬바르드의 후예들은 남이탈리아를 떠돌며 생존해 왔습니다. [GetPlayer.GetCapitalLocation.GetTitle.GetNameNoTier]를 "제2의 파비아"로 건설하는 것은 [GetPlayer.GetCulture.GetName] 민족의 운명을 되살리는 중요한 발걸음이 될 것입니다." # 5936965976386180081
   RICE_sicily_second_pavia_decision_confirm: "우리의 잃어버린 영광을 되찾자!" # 7182733014192035300
-  RICE_sicily_second_pavia_decision_context_tooltip: "#emphasis 역사적 배경:#! 파비아는 6세기에서 8세기까지 이탈리아를 지배했던 롬바르드 왕국의 수도였습니다. 카롤링거 프랑크족에게 패배하기 전까지 말이죠. 롬바르드 왕국의 후계 국가들은 남부 이탈리아에 등장했고, 그곳에서 롬바르드 세력의 주요 중심지였던 베네벤토는 번영과 중요성 때문에 "제2의 파비아"로 불리기도 했습니다. 아이러니하게도, 이러한 롬바르드 정치 세력들은 종종 북쪽의 프랑크족에게 지배를 받았습니다. 남부의 롬바르드인들은 12세기와 13세기 노르만 시칠리아 시대까지 독자적인 정체성을 유지했습니다." # 17686584189901397712
+  RICE_sicily_second_pavia_decision_context_tooltip: "#emphasis 역사적 배경:#! 파비아는 6세기에서 8세기까지 이탈리아를 지배했던 롬바르드 왕국의 수도였습니다. 카롤링거 프랑크족에게 패배하기 전까지 말이죠. 롬바르드 왕국의 후계 국가들은 남부 이탈리아에 등장했고, 그곳에서 롬바르드 세력의 주요 중심지였던 베네벤토는 번영과 중요성 때문에 \"제2의 파비아\"로 불리기도 했습니다. 아이러니하게도, 이러한 롬바르드 정치 세력들은 종종 북쪽의 프랑크족에게 지배를 받았습니다. 남부의 롬바르드인들은 12세기와 13세기 노르만 시칠리아 시대까지 독자적인 정체성을 유지했습니다." # 17686584189901397712
   RICE_sicily_second_pavia_decision_activity_req: "[GetActivityType( 'activity_RICE_sicily_virgil_tomb_visit' ).GetName] [activity|E]를 최소 한 번 완료하셨습니다." # 6187542188205478883
   RICE_sicily_byzantine_syracuse_decision: "$c_siracusa$의 영광을 되찾으십시오" # 10924246851832352296
   RICE_sicily_byzantine_syracuse_decision_tooltip: "[GetTitleByKey('d_sicily').GetNameNoTier]의 수도였던 [GetTitleByKey('c_siracusa').GetNameNoTier]는 다시금 웅장한 도시로 일어설 것입니다!" # 1838184399269937606
   RICE_sicily_byzantine_syracuse_decision_desc: "옛날 [GetTitleByKey('c_siracusa').GetNameNoTier]는 지중해의 빛나는 보석이었으며, 수많은 제국의 다툼 속에서 무역과 문화의 중심지였습니다. 최근에는 과거의 영광을 잃은 그림자에 불과합니다. 로마의 지배가 [GetTitleByKey('d_sicily').GetNameNoTier]에 다시 회복됨에 따라, 섬의 수도를 [GetTitleByKey('c_siracusa').GetNameNoTierNoTooltip]로 되돌려 놓아야 합니다. 이를 통해 다시금 문명의 등대 역할을 수행할 수 있도록 해야 할 것입니다!" # 5696311962195675198
   RICE_sicily_byzantine_syracuse_decision_confirm: "시칠리아의 수도를 되돌려 놓읍시다!" # 16550620926321164254
   RICE_sicily_byzantine_syracuse_decision_effect_tooltip_1: "[decision|E]를 통해 $RICE_sicily_administer_frontier$를 수행하는 비용이 [gold_i|E] [gold|E]가 감소하고, [GetTitleByKey('c_siracusa').GetNameNoTier]의 통치자들에게 [legitimacy_i|E] [legitimacy|E]가 소량 상승합니다. 이는 [GetModifier('RICE_sicily_syracuse_restoration').GetNameWithTooltip] [county_modifier|E]가 활성화된 기간 동안 지속됩니다." # 14293712679062880948
-  RICE_sicily_byzantine_syracuse_decision_context_tooltip: "#emphasis 역사적 배경:#! 시라쿠사는 고대 지중해의 위대한 도시 중 하나였습니다. 예를 들어 키케로는 "그리스 도시 중 가장 위대하고, 가장 아름다운 도시"라고 묘사했습니다. 특히 제국이 아프리카 영토를 잃은 후 초기 비잔틴 시대에도 중요성을 유지했습니다. 심지어 663년에서 669년 사이에는 잠시 제국의 수도 역할을 했습니다. 시칠리아의 이슬람 정복과 함께, 878년 시라쿠사의 함락을 포함하여 섬의 중심은 팔레르모로 이동했습니다. 시라쿠사는 여전히 섬에서 중요한 도시였지만, 과거의 탁월한 지위는 되찾지 못했습니다." # 7801883618773733817
+  RICE_sicily_byzantine_syracuse_decision_context_tooltip: "#emphasis 역사적 배경:#! 시라쿠사는 고대 지중해의 위대한 도시 중 하나였습니다. 예를 들어 키케로는 \"그리스 도시 중 가장 위대하고, 가장 아름다운 도시\"라고 묘사했습니다. 특히 제국이 아프리카 영토를 잃은 후 초기 비잔틴 시대에도 중요성을 유지했습니다. 심지어 663년에서 669년 사이에는 잠시 제국의 수도 역할을 했습니다. 시칠리아의 이슬람 정복과 함께, 878년 시라쿠사의 함락을 포함하여 섬의 중심은 팔레르모로 이동했습니다. 시라쿠사는 여전히 섬에서 중요한 도시였지만, 과거의 탁월한 지위는 되찾지 못했습니다." # 7801883618773733817
   RICE_sicily_catania_elephant_decision: "#bold[GetTitleByKey('b_catania').GetNameNoTierNoTooltip]의 상징으로 리오트루를 승인합니다.#" # 5664687290702616641
   RICE_sicily_catania_elephant_decision_tooltip: "[GetTitleByKey('b_catania').GetNameNoTierNoTooltip]의 #italic U Liotru#! 님께서 소중히 여기시는 코끼리 조각상은 존경받아 마땅합니다!" # 13634999372942315503
   RICE_sicily_catania_elephant_decision_desc: "[GetTitleByKey('b_catania').GetNameNoTier]의 권리와 정치적 영향력이 커지면서, 시민들은 그들을 대표할 적절한 상징물을 갈망합니다. 그들은 수 세기 동안 도시에 머물러 있던 신비로운 코끼리 조각상, #italic U Liotru#!를 훌륭한 후보로 여기는 이들이 많습니다." # 6913234932332432038
   RICE_sicily_catania_elephant_decision_confirm: "코끼리 만세!" # 6766026257565643454
-  RICE_sicily_catania_elephant_decision_context_tooltip: "#emphasis 역사적 배경:#! #italic U Liotru#!는 카타니아 시에 있는 유명한 코끼리 조각상입니다. 이 이름은 8세기의 전설적인 흑마술사이자 마법사, 헬리오도로스에서 파생된 오류로, 그는 이 조각상을 소생시키거나 스스로 변신시켰지만, 카타니아의 성 레오에게 패배했습니다. 이 전설은 역사적 신빙성이 의심스럽지만, 이 도시는 수 세기 동안 이 조각상과 관련이 있었습니다. 아랍인들은 카타니아를 "코끼리의 도시"라고 불렀고, 시칠리아 왕 로저 2세의 궁정에서 일했던 지리학자 알-이드리시는 이 조각상이 카르타고인이나 로마인이 만들었다고 믿었으며, 카타네시 사람들은 이 조각상이 마법적이며 에트나 산의 분화로부터 그들을 보호할 수 있다고 생각했습니다. 1239년에 이 조각상은 도시의 상징으로 선택되었습니다. 1737년 지진 후 분수대로 개조되었습니다." # 4746270729982130851
+  RICE_sicily_catania_elephant_decision_context_tooltip: "#emphasis 역사적 배경:#! #italic U Liotru#!는 카타니아 시에 있는 유명한 코끼리 조각상입니다. 이 이름은 8세기의 전설적인 흑마술사이자 마법사, 헬리오도로스에서 파생된 오류로, 그는 이 조각상을 소생시키거나 스스로 변신시켰지만, 카타니아의 성 레오에게 패배했습니다. 이 전설은 역사적 신빙성이 의심스럽지만, 이 도시는 수 세기 동안 이 조각상과 관련이 있었습니다. 아랍인들은 카타니아를 \"코끼리의 도시\"라고 불렀고, 시칠리아 왕 로저 2세의 궁정에서 일했던 지리학자 알-이드리시는 이 조각상이 카르타고인이나 로마인이 만들었다고 믿었으며, 카타네시 사람들은 이 조각상이 마법적이며 에트나 산의 분화로부터 그들을 보호할 수 있다고 생각했습니다. 1239년에 이 조각상은 도시의 상징으로 선택되었습니다. 1737년 지진 후 분수대로 개조되었습니다." # 4746270729982130851
   RICE_sicily_messina_development_req: "[GetTitleByKey('c_messina').GetNameNoTier]는 최소 [EmptyScope.ScriptValue('RICE_sicily_pavia_development_level')|0] [development|E]에 달했습니다." # 3124786797418233695
   RICE_sicily_almadraba_decision: "재정 [GetPlayer.Custom('RICE_almadraba')] 어업" # 5285013613829678450
   RICE_sicily_almadraba_decision_tooltip: "참치잡이는 상당히 수익성이 좋습니다!" # 8893130309267141471
@@ -1131,7 +1130,7 @@
   sicily.0031.desc.prestige: "[representative.GetFirstNameNoTooltip]은, 숙고 끝에, 요새 지휘관 일부가 내 궁정에 와서 공식적으로 경의를 표하고 우리의 합의를 확인하는 데 동의했습니다.\n\n더욱 실질적인 양보를 받았으면 했지만, 상징적인 이 행위는 환영할 만하며, 이 지역 모든 이들에게 이러한 요새들이 적어도 지금은 나에게 복종한다는 것을 보여줄 것입니다." # 8859588634580063186
   sicily.0031.desc.gold: "[대표.이름없는_성명]은 처음에는 주저했지만, [대표.성별]은 우리가 [대표.소유격_의미하는_대상]에게 빚진 £gold£의 양을 줄이기로 동의했습니다.\n\n물론, 저는 여전히 이 문제를 일으킨 자들에게 처음부터 £gold£를 보내야 하지만, 처음 제안을 받아들이는 대신 협상을 계속하기로 한 결정에 만족합니다." # 17371252618530252269
   sicily.0031.desc.troops: "[representative.GetFirstNameNoTooltip]는 그러면서 [representative.GetHerHis] 성곽의 수많은 병사들이 저에게 충성을 맹세하고, 저의 기치 아래 우리를 위협하는 모든 적과 맞서 싸울 것이라고 약속했습니다.\n\n\n사실, 저는 이런 결과를 바랬습니다. 그들의 파괴적인 욕망을 저에게서 멀리, 제 적에게로 돌리는 것이 좋을 것입니다. 결국, 그들의 전사들은 #italic 특히#! 제 군대와의 전투에서도 그들의 뛰어난 전투 기술로 유명합니다." # 7142995425384430307
-  sicily.0031.desc.county: "[representative.GetFirstNameNoTooltip]은 잠시 생각에 잠긴 뒤, "[ representative.GetSheHe ]와 다른 요새 지도자들이 지역의 무역과 상업을 활성화할 방안을 논의할 수 있을 것이라고 말했습니다. 결국 그들의 네트워크는 거주 지역을 넘어 뻗어 있고, 요새를 통과하는 무역로를 보호할 수 있습니다.\n\n좋은 생각입니다. 그들의 연줄은 유용할 것이며, 외국 관계와 도로를 지켜주겠다는 의지는 상업의 번영을 가져올 것입니다." # 6694745227313101280
+  sicily.0031.desc.county: "[representative.GetFirstNameNoTooltip]은 잠시 생각에 잠긴 뒤,\"[representative.GetSheHe]와 다른 요새 지도자들이 지역의 무역과 상업을 활성화할 방안을 논의할 수 있을 것이라고 말했습니다. 결국 그들의 네트워크는 거주 지역을 넘어 뻗어 있고, 요새를 통과하는 무역로를 보호할 수 있습니다.\n\n좋은 생각입니다. 그들의 연줄은 유용할 것이며, 외국 관계와 도로를 지켜주겠다는 의지는 상업의 번영을 가져올 것입니다." # 6694745227313101280
   sicily.0031.a: "협상이 마무리되었습니다." # 12718500038309431143
   sicily.0032.t: "xxxxx" # 1951045980481827005
   sicily.0032.desc: "xxxxx" # 1951045980481827005
@@ -2065,3 +2064,4 @@
   catalyst_RICE_sicily_host_palio_activity_desc: "[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName][activity|E]을 개최하기" # 2311531495285162680
   trait_RICE_sicilian_ruler_info: "#bold 이 [trait|E]의 [trait_level_track_xp|E]는 [RICE_sicily_struggle|E] [struggle|E]와 관련된 [decisions|E]와 [activities|E], 사건 및 기타 여러 가지 방법을 통해 얻을 수 있습니다.#!" # 17823840898383120230
   RICE_restart_sicily_struggle_make_cultures_faiths_involved_effect_tooltip: "[GetGeographicalRegion('custom_sicily').GetName]에 [county|E]를 하나 이상 소유한 [ruler|E]가 있는 모든 [cultures|E]나 [faiths|E]는 이미 [struggle_involved|E] 상태가 아니라면 [RICE_sicily_struggle|E]에 [struggle_involved|E] 상태가 됩니다." # 16279115432056159476
+  RICE_sicily_virgil_divination_decision: "베르길리우스 복점을 행하다" # 6755937602614898422

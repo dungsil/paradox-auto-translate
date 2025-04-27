@@ -1,5 +1,7 @@
 // noinspection SpellCheckingInspection
 const dictionaries: Record<string, string> = {
+  'af Möre': '아프 뫼레',
+  'af Fasge': '아프 파스게',
   anuket: '아누케트',
   'basic skill': '기본 능력',
   blemmye: '블렘미',
@@ -13,6 +15,7 @@ const dictionaries: Record<string, string> = {
   elephantine: '엘레판티네',
   excellent: '훌륭하군',
   'excellent!': '훌륭하군!',
+  ganger: '갱어',
   hexi: '하서',
   'high king': '고왕',
   'historical context:': '역사적 배경:',

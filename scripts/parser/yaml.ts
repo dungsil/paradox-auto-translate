@@ -46,7 +46,9 @@ export function stringifyYaml (data: Record<string, Record<string, [string, stri
     result += `\uFEFF${topKey}:\n` // '\uFEFF' : UTF-8 BOM
 
     for (const [key, [translatedText, hash]] of Object.entries(topValue)) {
-      result += `  ${key}: "${translatedText}" # ${hash}\n`
+      const encodedTranslatedText = translatedText.replaceAll(/((?<!\\)(\\\\)*)"/g, '$1\\"')
+
+      result += `  ${key}: "${encodedTranslatedText}" # ${hash}\n`
     }
 
   }
