@@ -73,25 +73,26 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
   log.start(`[${mode}/${file}] 원본 파일 경로: ${sourcePath}`)
 
   const sourceContent = await readFile(sourcePath, 'utf-8')
-  const sourceYaml = parseYaml(sourceContent)
+  const sourceYaml: Record<`l_${string}`, Record<string, [string, string]>> = parseYaml(sourceContent)
   const targetYaml = parseYaml(targetContent)
-  const newYaml: Record<`l_${string}`, Record<string, [string, string]>> = {}
+  const newYaml: Record<`l_${string}`, Record<string, [string, string]>> = {
+    l_korean: {}
+  }
 
   log.info(`[${mode}/${file}] 원본 키 갯수: ${Object.keys(sourceContent).length}`)
   log.info(`[${mode}/${file}] 번역 키 갯수: ${Object.keys(targetContent).length}`)
 
   // 최상위 언어 코드 정의 변경
-  const langKey = Object.keys(targetYaml)[0]
+  const langKey = Object.keys(targetYaml)[0] || 'l_korean'
   if (langKey.startsWith('l_')) {
     log.debug(`[${mode}/${file}] 언어 키 발견! "${langKey}" -> "l_korean"`)
-    newYaml.l_korean = {}
   }
 
   for (const [key, [sourceValue]] of Object.entries(sourceYaml[`l_${sourceLanguage}`])) {
     const sourceHash = hashing(sourceValue)
     log.verbose(`[${mode}/${file}:${key}] 원본파일 문자열: ${sourceHash} | "${sourceValue}" `)
 
-    const [targetValue, targetHash] = targetYaml.l_korean[key] || []
+    const [targetValue, targetHash] = targetYaml[langKey][key] || []
 
     // 해싱 처리용 유틸리티
     if (onlyHash) {
@@ -111,7 +112,7 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
     // 번역 요청
     log.start(`[${mode}/${file}:${key}] 번역 요청: ${sourceHash} | "${sourceValue}"`)
     const translatedValue = await translate(sourceValue)
-    log.verbose(`[${mode}/${file}:${key}] 번역된 문자열: ${sourceHash} | "${translatedValue}"`)
+    log.debug(`\t> 번역된 문자열: "${translatedValue}"`)
     newYaml.l_korean[key] = [translatedValue, sourceHash]
   }
 

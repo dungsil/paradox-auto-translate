@@ -30,13 +30,13 @@ export async function translate (text: string): Promise<string> {
   }
 
   // 캐시에 이미 번역된 텍스트가 있는 경우 캐시에서 반환
-  if (hasCache(normalizedText)) {
-    return getCache(normalizedText)!
+  if (await hasCache(normalizedText)) {
+    return await getCache(normalizedText)!
   }
 
   // 실제 AI 번역 요청
   const translatedText = await translateAI(text)
-  setCache(text, translatedText)
+  await setCache(text, translatedText)
 
   return translatedText
 }

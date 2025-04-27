@@ -1,13 +1,26 @@
-const translationCache = new Map<string, string>()
+import process from 'node:process'
+import { join } from 'node:path'
+import {createDatabase} from 'db0'
+import libSql from "db0/connectors/libsql/node";
+import { createStorage } from 'unstorage'
+import dbDriver from "unstorage/drivers/db0";
 
-export function hasCache (key: string) {
-  return translationCache.has(key)
+
+const database = createDatabase(libSql({ url: `file:translate-cache.db` }));
+const translationCache = createStorage({
+  driver: dbDriver({
+    database,
+  })
+})
+
+export async function hasCache (key: string): Promise<boolean> {
+  return await translationCache.hasItem(key)
 }
 
-export function getCache (key: string) {
-  return translationCache.get(key)
+export async function getCache (key: string): Promise<string | null> {
+  return await translationCache.getItem<string>(key)
 }
 
-export function setCache (key: string, value: string) {
-  translationCache.set(key, value)
+export async function setCache (key: string, value: string): Promise<void> {
+  await translationCache.setItem(key, value)
 }
