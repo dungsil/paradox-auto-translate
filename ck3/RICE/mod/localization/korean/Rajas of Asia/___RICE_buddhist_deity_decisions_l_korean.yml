@@ -1,128 +1,128 @@
 ﻿l_korean:
-  YIDAM_GLOSS: "#bold 여담#!는 [GetReligionByKey('bon_religion').GetAdjective] 종교와 티베트 [GetReligionByKey('buddhism_religion').GetName]에서 영적 각성에 이르도록 도와주는 명상적 신입니다. 그들은 특히 #italic 신 ヨガ#!(데바타요가)에서 중요한 부분을 차지하며, 기도와 만트라 암송, 또는 신의 시각화를 포함합니다." # 11973059711811581845
-  NAT_GLOSS: "#bold 나츠#는 전통적으로 [GetGeographicalRegion('world_burma').GetName]에서 숭배되는 신들입니다. 이러한 신들과 버마 민간 종교는 일반적으로 [GetReligionByKey('buddhism_religion').GetAdjective] 종교 의식과 깊이 융합되어 있습니다." # 16021395701871274466
-  RICE_select_personal_deity_tibet_decision: "개인적인 이드암을 선택하십시오." # 18383213587011213312
-  select_personal_deity_tibet_decision_desc: "[Glossary( 'Yidam', 'YIDAM_GLOSS' )]은 봉[GetReligionByKey('bon_religion').GetAdjective]과 $heritage_tibetan_name$ [GetReligionByKey('buddhism_religion').GetAdjective] 신앙에서 영적 깨달음에 이르는 데 도움을 주는 명상 수행의 대상입니다. 특정 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]에 집중함으로써 완전한 깨달음의 길을 가는 데 도움이 될 수 있습니다.\n\n어떤 깨달은 존재가 가장 저에게 호소하는지 결정해야 합니다." # 2820309076487313135
-  RICE_select_personal_deity_tibet_decision_confirm: "위담을 생각해 보십시오." # 11034407889436843427
-  select_personal_yidam_decision_tooltip: "[Glossary( 'Yidam', 'YIDAM_GLOSS' )]의 인물을 누구로 할지 생각해 보세요." # 5073548137255983314
-  select_personal_yidam_decision_tt: "선택한 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]와 관련된 #P 긍정적# [modifier|E]를 얻습니다." # 11285961459065950264
-  RICE_select_personal_nat_decision: "개인적 낫을 선택하세요." # 10742249436917243560
-  select_personal_nat_decision_desc: "#bold 나투#는 [GetReligionByKey('burmic_religion').GetAdjective] 신앙에서 영적 깨달음에 도움을 주거나 해를 방지하는 존재입니다. 특정 나투에 집중함으로써 완전한 깨달음의 길을 가는데 도움을 받을 수 있습니다. \n\n어떤 깨달은 존재가 나에게 가장 큰 호소력을 지닌지 결정해야 합니다." # 14923430703210396610
-  RICE_select_personal_nat_decision_confirm: "나투를 생각해보세요." # 9172573332198220083
-  select_personal_nat_decision_tooltip: "내 넷(Nat)이 누가 적절할지 생각해봐야겠군." # 12469839317809130572
-  select_personal_nat_decision_tt: "선택한 국적과 관련된 #P 긍정적# [modifier|E]를 얻으십시오." # 10767847077315849180
-  RICE_select_personal_deity_buddhist_decision: "개인적인 명상 신을 선택하세요." # 100507461525056758
-  select_personal_deity_buddhist_decision_desc: "많은 [GetReligionByKey('buddhism_religion').GetAdherentNamePlural]은 #bold 명상의 신, 부처 또는 보살#에게 헌신하여 열반에 이르기를 갈망합니다. 저 또한 그들 중 한 분에게 헌신함으로써 완전한 깨달음의 길을 가는 데 도움을 받을 수 있으리라 믿습니다. \n\n어떤 신성한 존재가 제게 가장 큰 호소력을 지니는지 결정해야 하겠습니다." # 11157511555192716782
-  RICE_select_personal_deity_buddhist_decision_confirm: "신앙의 신을 묵상해 보세요." # 1130324275298200494
-  select_personal_deity_buddhist_decision_tooltip: "수행의 신으로 누구를 생각해야 할지 고민해보십시오." # 16475363131324068318
-  select_personal_meditional_deity_decision_tt: "선택하신 명상 신과 관련된 #P 긍정적# [수정자|E]를 얻으십시오." # 17171975550974134459
-  dharma_buddhism.200.t: "개인적인 예담" # 9137818035778838925
-  dharma_buddhism.200.desc: "[Glossary( 'Yidam', 'YIDAM_GLOSS' )]은 수행자의 영적 각성을 돕는 명상의 신격입니다. 그분들 중 한 분께 헌신함으로써, 완전한 깨달음에 집중하는 데 도움을 받을 것입니다.\n\n저는 특정 [ROOT.Char.GetFaith.GetAdjective] 신을 경배하는 데 집중하고 싶습니다..." # 16083192173353842584
-  dharma_buddhism.200.gyalmo: "우주 여왕, 시페 걀모" # 9197749497890931044
-  dharma_buddhism.200.shenlha: "신할라 오카르, 자비의 상게" # 839365412175931002
-  dharma_buddhism.200.shenrab: "톤파 쳄랍, 본교의 완벽한 계몽자이자 창시자" # 15574827444803234481
-  dharma_buddhism.200.yeshe: "예셰 왈모, 모든 본 지혜의 수호자이자 보존자" # 5933981298965946039
-  dharma_buddhism.200.takla: "탁라 메바르, 불타는 호랑이 신" # 15148131615022519267
-  dharma_buddhism.200.zhambala: "재물과 번영을 상징하는 신, 잠바 라" # 17902086256995742148
-  dharma_buddhism.200.chamma: "셰라브 챔마, 모든 깨달은 이의 어머니, 모든 사랑과 자비의 근원" # 4210646621356310771
-  dharma_buddhism.200.palden: "팔덴 라모, 분노로 가득 찬 영광스러운 여신" # 8362674720553701771
-  dharma_buddhism.200.tara: "타라, 해방의 어머니이자 자비와 행동의 보살" # 15721923090376408660
-  dharma_buddhism.200.avalokitesvara: "관세음보살, 모든 부처님의 자비를 상징하는 보살" # 7172057002780734970
-  dharma_buddhism.200.yamantaka: "야만타카, 죽음의 군주 정복자" # 7393749950069943890
-  dharma_buddhism.200.hevajra: "헤바즈라, 격렬한 명상의 신" # 13486828893784222215
-  dharma_buddhism.200.vajrayogini: "보살, 모든 부처님의 다키니" # 794609993572312907
+  YIDAM_GLOSS: "#bold 이담#!은 [GetReligionByKey('bon_religion').GetAdjective] 종교와 티베트 [GetReligionByKey('buddhism_religion').GetName]에서 영적 깨달음에 도달하는 것을 돕는 명상 본존입니다.\n이는 이 종교들의 영적 수행의 중요한 부분이며, 특히 #italic 본존 요가#! (devatayoga)는 기도와 만트라 낭송, 또는 본존 시각화를 포함합니다." # 11973059711811581845
+  NAT_GLOSS: "#bold 나트#!는 전통적으로 [GetGeographicalRegion('world_burma').GetName]에서 숭배되는 신들입니다. 이 신들에 대한 숭배는 일반적인 버마 민속 종교와 함께 [GetReligionByKey('buddhism_religion').GetAdjective] 종교의 관습들과 강하게 융합되었습니다." # 16021395701871274466
+  RICE_select_personal_deity_tibet_decision: "개인적인 이담 선택" # 18383213587011213312
+  select_personal_deity_tibet_decision_desc: "[Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 [GetReligionByKey('bon_religion').GetAdjective] 신앙과 $heritage_tibetan_name$ [GetReligionByKey('buddhism_religion').GetAdjective] 신앙에서 영적인 깨달음에 도달하도록 돕는 명상 신이다. 특정 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]에 집중함으로써, 그들은 완전히 깨달은 존재가 되기 위한 나의 길을 도울 수 있다.\n\n나를 가장 부르는 깨달은 존재가 누구인지 결정해야 한다." # 2820309076487313135
+  RICE_select_personal_deity_tibet_decision_confirm: "이담을 사색하다" # 11034407889436843427
+  select_personal_yidam_decision_tooltip: "귀하의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 누가 되어야 할지 생각해 보십시오." # 5073548137255983314
+  select_personal_yidam_decision_tt: "선택한 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]와 관련된 #P positive#! [modifier|E]를 얻습니다." # 11285961459065950264
+  RICE_select_personal_nat_decision: "개인적인 나트를 선택" # 10742249436917243560
+  select_personal_nat_decision_desc: "#bold 낫#!은 [GetReligionByKey('burmic_religion').GetAdjective] 신앙에서 영적인 깨달음에 이르게 하거나 해악으로부터 보호할 수 있는 정령입니다. 특정 낫에 집중함으로써, 그들은 제가 완전히 깨달은 존재가 되기 위한 길에서 저를 도울 수 있습니다.\n\n저는 어떤 깨달은 존재가 저에게 가장 끌리는지 결정해야 합니다." # 14923430703210396610
+  RICE_select_personal_nat_decision_confirm: "나트에 대해 숙고하다" # 9172573332198220083
+  select_personal_nat_decision_tooltip: "당신의 Nat가 누구여야 할지 생각해보세요." # 12469839317809130572
+  select_personal_nat_decision_tt: "귀하가 선택한 성격과 관련된 #P 긍정적#! [modifier|E]를 획득합니다." # 10767847077315849180
+  RICE_select_personal_deity_buddhist_decision: "개인 명상 신 선택" # 100507461525056758
+  select_personal_deity_buddhist_decision_desc: "많은 [GetReligionByKey('buddhism_religion').GetAdherentNamePlural]은 그들이 깨달음을 얻도록 돕기 위해 #bold 명상 신격, 부처, 혹은 보살!#에게 귀의합니다.\n\n그들 중 하나에게 귀의함으로써, 그들이 완전한 깨달음을 얻은 존재가 되기 위한 나의 길에서 나를 도울 수 있습니다. 나는 어떤 신성한 존재에게 가장 마음이 끌리는지 결정해야 한다." # 11157511555192716782
+  RICE_select_personal_deity_buddhist_decision_confirm: "신을 명상한다" # 1130324275298200494
+  select_personal_deity_buddhist_decision_tooltip: "누구를 명상 대상으로 삼을지 생각해 보시오." # 16475363131324068318
+  select_personal_meditional_deity_decision_tt: "당신이 선택한 명상 신과 관련된 #P 긍정적인#! [modifier|E]를 획득합니다." # 17171975550974134459
+  dharma_buddhism.200.t: "개인의 이담" # 9137818035778838925
+  dharma_buddhism.200.desc: "[Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 영적 깨달음에 이르는 것을 돕는 명상 신격입니다.\n그들 중 하나에게 헌신함으로써, 완전한 깨달음을 얻는 데 집중하도록 도울 것입니다.\n\n나는 특정 [ROOT.Char.GetFaith.GetAdjective] 신격 숭배에 집중하고자 합니다..." # 16083192173353842584
+  dharma_buddhism.200.gyalmo: "시페 걀모, 우주의 여왕" # 9197749497890931044
+  dharma_buddhism.200.shenlha: "쉔라 오카르, 자비의 상예" # 839365412175931002
+  dharma_buddhism.200.shenrab: "톤파 셴랍, 완전히 깨달은 자이자 뵌의 창시자" # 15574827444803234481
+  dharma_buddhism.200.yeshe: "예셰 왈모, 모든 뵌 지혜의 수호자" # 5933981298965946039
+  dharma_buddhism.200.takla: "타클라 메바르, 화염의 호랑이 신" # 15148131615022519267
+  dharma_buddhism.200.zhambala: "잠바 라, 부와 번영을 구현하는 신격" # 17902086256995742148
+  dharma_buddhism.200.chamma: "쉐랍 참마, 모든 깨달은 존재들의 어머니, 온갖 자비의 근원" # 4210646621356310771
+  dharma_buddhism.200.palden: "팔덴 라모, 노한 영광스러운 여신" # 8362674720553701771
+  dharma_buddhism.200.tara: "타라, 해탈의 어머니 그리고 자비와 실천의 보살" # 15721923090376408660
+  dharma_buddhism.200.avalokitesvara: "관음보살, 모든 부처의 자비를 구현하는 보살" # 7172057002780734970
+  dharma_buddhism.200.yamantaka: "야만타카, 죽음의 군주의 정복자" # 7393749950069943890
+  dharma_buddhism.200.hevajra: "헤바즈라, 맹렬한 명상 본존" # 13486828893784222215
+  dharma_buddhism.200.vajrayogini: "바즈라요기니, 모든 부처의 다키니" # 794609993572312907
   dharma_buddhism.200.optout: "아직 결정할 준비가 되지 않았습니다." # 13073017640616239433
   dharma_buddhism.201.t: "개인 [Glossary( 'Nat', 'NAT_GLOSS' )]" # 1011272298286571995
-  dharma_buddhism.201.desc: "[Glossary( 'Nat', 'NAT_GLOSS' )]은 버마의 영적인 깨달음을 이끄는 존재입니다. 그들에게 헌신하면, 완전한 깨달음에 집중하는 데 도움을 받습니다.\n\n저는 특정 [ROOT.Char.GetFaith.GetAdjective] [Glossary( 'Nat', 'NAT_GLOSS' )]에게 숭배를 집중하고 싶습니다..." # 3866319048925783962
-  dharma_buddhism.201.thagyamin: "신들의 왕, 타가미안" # 3830547685135750742
-  dharma_buddhism.201.mahagiri: "마하기리, 위대한 산의 영주" # 10998270517177260137
-  dharma_buddhism.201.hnamadawgyi: "헌마다우기, 왕족 여동생" # 718266803473635012
-  dharma_buddhism.201.ponmagyi: "폰마기, 곡식과 다산의 신" # 10751901247124008413
-  dharma_buddhism.201.sivalia: "시발리, 여행자와 집을 보호하는 아라한" # 1022603492462768833
-  dharma_buddhism.201.nabay: "슈웨 나바이, 매력적인 부인." # 7614244629478711904
-  dharma_buddhism.201.thurathadi: "엘로퀀스의 천재, 투라타디" # 2982865976027805958
-  dharma_buddhism.201.panhtwar: "판트바르, 국토 수호자" # 1524873917667921583
-  dharma_buddhism.201.lokanat: "모든 부처의 자비를 상징하는 보살, 로카나트." # 15266264111919932465
-  dharma_buddhism.201.shin: "신 우파구타, 위험으로부터 백성을 보호하는 아라한" # 6318841218777559701
-  dharma_buddhism.201.manimekhala: "바다의 수호자, 마니메칼라." # 8758533153510795069
+  dharma_buddhism.201.desc: "[Glossary( 'Nat', 'NAT_GLOSS' )]는 버마 정령으로, 영적 깨달음에 도달하도록 돕습니다. 그들 중 하나에게 헌신함으로써, 그들은 제가 완전한 해탈을 성취하는 데 집중하도록 도울 것입니다.\n\n특정 [ROOT.Char.GetFaith.GetAdjective] [Glossary( 'Nat', 'NAT_GLOSS' )]를 숭배하는 데 집중하고 싶습니다..." # 3866319048925783962
+  dharma_buddhism.201.thagyamin: "타갸민, 신들의 왕" # 3830547685135750742
+  dharma_buddhism.201.mahagiri: "마하기리, 위대한 산의 군주" # 10998270517177260137
+  dharma_buddhism.201.hnamadawgyi: "흐나마다우지, 왕실 자매" # 718266803473635012
+  dharma_buddhism.201.ponmagyi: "폰마지, 벼와 풍요의 낫" # 10751901247124008413
+  dharma_buddhism.201.sivalia: "시왈리, 나그네와 집을 수호하는 아라한" # 1022603492462768833
+  dharma_buddhism.201.nabay: "슈웨 나베이, 매력적인 아내." # 7614244629478711904
+  dharma_buddhism.201.thurathadi: "투라타디, 웅변의 나트" # 2982865976027805958
+  dharma_buddhism.201.panhtwar: "판투아, 나라의 수호자" # 1524873917667921583
+  dharma_buddhism.201.lokanat: "로카나트, 모든 부처의 자비의 화신인 보살." # 15266264111919932465
+  dharma_buddhism.201.shin: "신 우파구타, 위험으로부터 사람들을 지키는 아라한" # 6318841218777559701
+  dharma_buddhism.201.manimekhala: "마니메칼라, 바다의 수호자." # 8758533153510795069
   dharma_buddhism.201.optout: "아직 결정할 준비가 되지 않았습니다." # 13073017640616239433
-  dharma_buddhism.202.t: "개인적인 명상 신" # 9510859857148969332
-  dharma_buddhism.202.desc: "수행의 신은 깨달음에 이르도록 돕는 신, 불교의 부처 또는 보살입니다. 그들을 숭배함으로써 완전한 깨달음에 집중할 수 있도록 도움을 받을 것입니다.\n\n저는 특정한 [ROOT.Char.GetFaith.GetAdjective] 신을 숭배하는 데 집중하고자 합니다..." # 18414159372975040431
-  dharma_buddhism.202.guanyin: "관음보살" # 901234197942475748
-  dharma_buddhism.202.mahasthamaprapta: "마하스탐프라프타, 지혜의 힘을 상징하는 보살" # 8657809983542578695
-  dharma_buddhism.202.ksitigarbha: "지장보살, 여섯 법계를 가르치는 보살" # 10517399726070759089
-  dharma_buddhism.202.bhaisajyaguru: "약사여래, 고통을 치유하는 약사불" # 17165743151481319898
-  dharma_buddhism.202.vasudhara: "부(富)와 번영, 풍요의 보살, 바수다라" # 6593791322203307172
-  dharma_buddhism.202.vajrapani: "바즈라파니, 붓다 깨달음의 수호자이자 인도자" # 11641997944709658464
-  dharma_buddhism.202.manjushri: "만주스리, 지혜의 온화한 영광" # 13976385877291438293
-  dharma_buddhism.202.samantabhadra: "수행과 명상의 보살, 사만다바드라" # 8766415375044955973
-  dharma_buddhism.202.tara: "자비와 행동의 보살, 타라" # 630292350749199152
-  dharma_buddhism.202.avalokitesvara: "관세음보살, 모든 부처님의 자비를 상징하는 보살" # 7172057002780734970
-  dharma_buddhism.202.Ratnasambhava: "오행불 중 하나인 5대 염불, 시기와 탐욕을 파괴하는 라트나삼바바" # 9651839099676584263
-  dharma_buddhism.202.vajrasattva: "바즈라파니, 붓다 깨달음의 수호자이자 인도자" # 11641997944709658464
-  buddhist_deity_sipe_gyalmo: "시페 걀모께 헌신하여" # 9421908405189817931
-  buddhist_deity_sipe_gyalmo_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 우주의 여왕, 시페 걀모입니다." # 14257639724303624941
-  buddhist_deity_shenlha_okar: "신할라 오카르에 헌신하여" # 6344502540598016208
-  buddhist_deity_shenlha_okar_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 자비의 상게, 센하 오카르입니다." # 9378249548187799856
-  buddhist_deity_tonpa_shenrab: "톤파 쳉랍에 헌신하여" # 10124583724348310620
-  buddhist_deity_tonpa_shenrab_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 완벽하게 깨달은 존재, 톤파 셩랍입니다." # 13561664004782996806
-  buddhist_deity_yeshe_walmo: "예셰 발모에게 헌신합니다" # 18138315300611356000
-  buddhist_deity_yeshe_walmo_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 모든 본 지혜의 수호자, 예셰 왈모입니다." # 7850100928865120968
-  buddhist_deity_takla_mebar: "탁라 메바르에 충성을 다하여" # 2552914598250325333
-  buddhist_deity_takla_mebar_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 불꽃 호랑이 신, 탁라 메바르입니다." # 1562754095991952690
-  buddhist_deity_Zhambala: "잠바 라에게 충성합니다." # 11499137586639543480
-  buddhist_deity_Zhambala_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 재물과 번영을 상징하는 잠바 르하입니다." # 15753380627026753343
-  buddhist_deity_sherab_chamma: "셰라브 참마에 충성합니다" # 12334728486717809511
-  buddhist_deity_sherab_chamma_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 셰라브 차마, 모든 깨달은 자의 어머니입니다." # 14517224940120988029
-  buddhist_deity_palden_lhamo: "팔덴 라모에게 헌신하여" # 6173894791243898750
-  buddhist_deity_palden_lhamo_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 분노의 영광스러운 여신, 팔덴 라모입니다." # 7092078454148662384
-  buddhist_deity_tara: "타라에 충성합니다" # 8499537802707212357
-  buddhist_deity_tara_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 해탈의 어머니 타라입니다." # 17615995218515491042
-  buddhist_deity_avalokitesvara: "관음보살에 헌신한" # 5746413610466333622
-  buddhist_deity_avalokitesvara_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 모든 불보살의 자비를 상징하는 관세음보살입니다." # 5181081478611837110
-  buddhist_deity_yamantaka: "야만타카에 헌신하여" # 7390353050221817333
-  buddhist_deity_yamantaka_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 죽음의 군주를 정복한 야만타카입니다." # 8798189544267183317
-  buddhist_deity_hevajra: "헤바즈라에 헌신합니다" # 3899037981778760862
-  buddhist_deity_hevajra_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 격렬한 명상 신, 헤바자라입니다." # 9250427256343543222
-  buddhist_deity_vajrayogini: "바즈라요기니에 헌신합니다" # 11102575361292537908
-  buddhist_deity_vajrayogini_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]은 모든 부처님의 다키니인 vajrayogini입니다." # 13299598157687773521
-  nat_ari_thagyamin: "타기아민께 헌신하여" # 4546881311337899540
-  nat_ari_thagyamin_desc: "이 인물의 개인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 신들의 왕 타기아민입니다." # 15533565443556201911
-  nat_ari_mahagiri: "마하기리에 충성합니다" # 6139529954901994297
-  nat_ari_mahagiri_desc: "이 인물의 개인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 대산의 영주 마하기리입니다." # 13857701699518339427
-  nat_ari_hnamadawgyi: "헌마다우기에게 충성을 다하여" # 9082891340894264437
-  nat_ari_hnamadawgyi_desc: "이 인물의 개인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 왕실 자매, Hnamadawgyi입니다." # 16768546085519187711
-  nat_ari_ponmagyi: "폰마기에게 헌신하여" # 5256282788425937901
-  nat_ari_ponmagyi_desc: "이 인물의 개인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 벼와 다산의 나트, 폰마기입니다." # 18403839757200396864
-  nat_ari_sivali: "시발리에게 충성을 다하여" # 382753311906188766
-  nat_ari_sivali_desc: "이 인물의 개인 [Glossary( 'Nat', 'NAT_GLOSS' )]은 여행자와 집을 보호하는 아라한, 시발리입니다." # 6305040521470721668
-  nat_ari_shwe_nabay: "슈웨 나바이에 헌신하여" # 17606655775091839287
-  nat_ari_shwe_nabay_desc: "이 인물의 개인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 매력적인 아내, 슈웨 나바이입니다." # 13520168117414402911
-  nat_therevada_thurathadi: "투라타디에 헌신하여" # 4415766232930471410
-  nat_therevada_thurathadi_desc: "이 인물의 개인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 설득의 신, 투라타디입니다." # 16298121392938615058
-  nat_therevada_lokanat: "판트바르에 헌신합니다" # 11552988341652831522
-  nat_therevada_lokanat_desc: "이 인물의 개인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 나라의 수호자, 판트바르입니다." # 15200065804738828867
-  nat_therevada_panhtwar: "로카낫에 헌신하여" # 11952930509510901773
-  nat_therevada_panhtwar_desc: "이 인물의 개인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 모든 불교의 자비를 상징하는 보살, 로카나트입니다." # 10530266685825521156
-  nat_therevada_shin_upagutta: "신 우파굽타에게 헌신하여" # 8249830879373169328
-  nat_therevada_shin_upagutta_desc: "이 인물의 개인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 위험으로부터 사람들을 보호하는 아라한, 신 우파구타입니다." # 13507285511591262968
-  nat_therevada_manimekhala: "마니메칼라에 헌신하여" # 17622261141328722128
-  nat_therevada_manimekhala_desc: "이 인물의 개인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 바다의 수호자, 마니메칼라입니다." # 16064185296236176487
-  buddhist_deity_guanyin: "관음보살께 헌신하여" # 10262319950671327029
-  buddhist_deity_guanyin_desc: "이 인물은 자비와 자애의 보살, 관음보살에 헌신하고 있습니다." # 3421761755586769340
-  buddhist_deity_mahasthamaprapta: "마하스다마프라타에 헌신합니다" # 3395598741836540092
-  buddhist_deity_mahasthamaprapta_desc: "이 인물은 지혜의 힘을 상징하는 보살 마하스탐프라프타에 헌신하고 있습니다." # 11127467498246480160
-  buddhist_deity_ksitigarbha: "지장보살에 헌신하여" # 1649853043995813051
-  buddhist_deity_ksitigarbha_desc: "이 인물은 모든 여섯 세계를 가르치는 보살 지장보살에 헌신하고 있습니다." # 5911122231998814529
-  buddhist_deity_vasudhara: "바수다라에 헌신하여" # 12009929846618280925
-  buddhist_deity_vasudhara_desc: "이 인물은 부, 번영, 풍요의 보살, 바수다라에게 헌신하고 있습니다." # 4163923254708781854
-  buddhist_deity_bhaisajyaguru: "비사자야구루에 헌신하여" # 4571695564181141464
-  buddhist_deity_bhaisajyaguru_desc: "이 인물은 고통을 치유하는 약사여래에게 헌신하고 있습니다." # 14397057580829917955
-  buddhist_deity_manjushri: "만주리보살께 헌신하여" # 7128366651237964595
-  buddhist_deity_manjushri_desc: "이 인물은 지혜의 온화한 영광, 만주스리에게 헌신하고 있습니다." # 11147016176786866358
-  buddhist_deity_vajrapani: "바즈라파니에 헌신하여" # 5762507106211272594
-  buddhist_deity_vajrapani_desc: "이 인물은 붓다 갓탐의 수호자이자 인도자,  vajrapani에게 헌신하고 있습니다." # 15696141331028425416
-  buddhist_deity_samantabhadra: "사만다바드라에 헌신하여" # 9939388438224770998
-  buddhist_deity_samantabhadra_desc: "이 인물은 수행과 명상의 보살, 사만다바드라에게 헌신적입니다." # 10758078648313616285
-  buddhist_deity_ratnasambhava: "라트나삼바바에 헌신합니다" # 5441525636043537554
-  buddhist_deity_ratnasambhava_desc: "이 인물은 질투와 탐욕을 파괴하는 오불 중 하나인 롯나삼바바에 충실합니다." # 5532888741635823667
+  dharma_buddhism.202.t: "개인 명상 신" # 9510859857148969332
+  dharma_buddhism.202.desc: "수련 신이란 영적 깨달음에 도달하는 데 도움을 주는 신, 부처, 또는 보살입니다. 그들 중 한 분께 헌신함으로써, 그분들은 내가 완전한 깨달음을 얻는 데 집중하도록 도울 것입니다.\n\n나는 특정 [ROOT.Char.GetFaith.GetAdjective] 신께 봉헌하는 데 집중하고 싶습니다..." # 18414159372975040431
+  dharma_buddhism.202.guanyin: "관음, 자비의 보살" # 901234197942475748
+  dharma_buddhism.202.mahasthamaprapta: "대세지보살, 지혜의 힘을 상징하는 보살" # 8657809983542578695
+  dharma_buddhism.202.ksitigarbha: "지장보살, 육도의 모든 중생을 가르치는 보살" # 10517399726070759089
+  dharma_buddhism.202.bhaisajyaguru: "바이샤지야구루, 고통을 치유하는 약사불" # 17165743151481319898
+  dharma_buddhism.202.vasudhara: "바수다라, 부와 번영, 풍요의 보살" # 6593791322203307172
+  dharma_buddhism.202.vajrapani: "금강수보살, 고타마 붓다의 수호자이자 길잡이" # 11641997944709658464
+  dharma_buddhism.202.manjushri: "문수보살, 온화한 지혜의 광명" # 13976385877291438293
+  dharma_buddhism.202.samantabhadra: "보현보살, 행과 명상의 보살" # 8766415375044955973
+  dharma_buddhism.202.tara: "타라, 자비와 행동의 보살" # 630292350749199152
+  dharma_buddhism.202.avalokitesvara: "관음보살, 모든 부처의 자비를 구현하는 보살" # 7172057002780734970
+  dharma_buddhism.202.Ratnasambhava: "보생불, 오방불 중 하나, 시기와 탐욕을 멸하는 자" # 9651839099676584263
+  dharma_buddhism.202.vajrasattva: "금강수보살, 고타마 붓다의 수호자이자 길잡이" # 11641997944709658464
+  buddhist_deity_sipe_gyalmo: "시페 걀모를 숭봉하는" # 9421908405189817931
+  buddhist_deity_sipe_gyalmo_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]은 시페 기알모, 우주의 여왕입니다." # 14257639724303624941
+  buddhist_deity_shenlha_okar: "쉔라 오카르에게 헌신하는" # 6344502540598016208
+  buddhist_deity_shenlha_okar_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 자비의 상계인 셴라 오카르입니다." # 9378249548187799856
+  buddhist_deity_tonpa_shenrab: "돈파 센랍에게 헌신하는" # 10124583724348310620
+  buddhist_deity_tonpa_shenrab_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 톤파 센랍, 완전한 깨달음을 얻은 자입니다." # 13561664004782996806
+  buddhist_deity_yeshe_walmo: "예셰 왈모에게 헌신하는" # 18138315300611356000
+  buddhist_deity_yeshe_walmo_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 예셰 왈모, 모든 뵌 지혜의 수호자입니다." # 7850100928865120968
+  buddhist_deity_takla_mebar: "타클라 메바르에게 헌신하는" # 2552914598250325333
+  buddhist_deity_takla_mebar_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 타클라 메바르, 불타는 호랑이 신입니다." # 1562754095991952690
+  buddhist_deity_Zhambala: "잠바 라에게 헌신하는" # 11499137586639543480
+  buddhist_deity_Zhambala_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]은 부와 번영을 상징하는 잠바 라흐이며," # 15753380627026753343
+  buddhist_deity_sherab_chamma: "셰랍 참마에게 헌신하는" # 12334728486717809511
+  buddhist_deity_sherab_chamma_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 셰랍 차마, 모든 깨달은 존재들의 어머니입니다," # 14517224940120988029
+  buddhist_deity_palden_lhamo: "팔덴 라모에게 헌신하는" # 6173894791243898750
+  buddhist_deity_palden_lhamo_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]은 진노하고 영광스러운 여신인 팔덴 람모입니다." # 7092078454148662384
+  buddhist_deity_tara: "타라에 헌신하는" # 8499537802707212357
+  buddhist_deity_tara_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 해탈의 어머니인 타라입니다." # 17615995218515491042
+  buddhist_deity_avalokitesvara: "관세음보살에게 귀의한" # 5746413610466333622
+  buddhist_deity_avalokitesvara_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]은 모든 부처의 자비를 구현하는 관세음보살입니다." # 5181081478611837110
+  buddhist_deity_yamantaka: "야만타카에 헌신하는" # 7390353050221817333
+  buddhist_deity_yamantaka_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 야만타카, 죽음의 군주를 정복한 자입니다." # 8798189544267183317
+  buddhist_deity_hevajra: "헤바즈라에 헌신하는" # 3899037981778760862
+  buddhist_deity_hevajra_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]는 헤바즈라, 분노 명상 신입니다." # 9250427256343543222
+  buddhist_deity_vajrayogini: "바즈라요기니에게 헌신하는" # 11102575361292537908
+  buddhist_deity_vajrayogini_desc: "이 인물의 [Glossary( 'Yidam', 'YIDAM_GLOSS' )]은 모든 부처님들의 다키니인 와지라요기니입니다." # 13299598157687773521
+  nat_ari_thagyamin: "타갸민에게 헌신하는" # 4546881311337899540
+  nat_ari_thagyamin_desc: "이 인물의 개인적인 [Glossary( 'Nat', 'NAT_GLOSS' )]은 타갸민, 신들의 왕입니다." # 15533565443556201911
+  nat_ari_mahagiri: "마하기리에게 헌신하는" # 6139529954901994297
+  nat_ari_mahagiri_desc: "이 인물의 개인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 마하기리, 위대한 산의 군주입니다." # 13857701699518339427
+  nat_ari_hnamadawgyi: "흐나마다우지에게 헌신하는" # 9082891340894264437
+  nat_ari_hnamadawgyi_desc: "이 인물의 개인적인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 흐나마다우지, 왕족 누이입니다." # 16768546085519187711
+  nat_ari_ponmagyi: "폰마기에게 헌신하는" # 5256282788425937901
+  nat_ari_ponmagyi_desc: "이 인물의 개인적인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 폰마지, 쌀과 풍요의 낫입니다." # 18403839757200396864
+  nat_ari_sivali: "시왈리에게 헌신하는" # 382753311906188766
+  nat_ari_sivali_desc: "이 인물의 개인적인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 여행자와 가정을 수호하는 아라한인 시왈리입니다." # 6305040521470721668
+  nat_ari_shwe_nabay: "쉐 나배에게 헌신하는" # 17606655775091839287
+  nat_ari_shwe_nabay_desc: "이 인물의 개인적인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 슈웨 나바이, 매혹적인 아내입니다." # 13520168117414402911
+  nat_therevada_thurathadi: "투라타디에게 헌신하는" # 4415766232930471410
+  nat_therevada_thurathadi_desc: "이 인물의 개인적인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 투라타디, 웅변의 낫입니다." # 16298121392938615058
+  nat_therevada_lokanat: "판트와르에게 헌신하는" # 11552988341652831522
+  nat_therevada_lokanat_desc: "이 [character|E]의 개인적인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 판트와르, 국가의 수호자입니다." # 15200065804738828867
+  nat_therevada_panhtwar: "로카낫 헌신" # 11952930509510901773
+  nat_therevada_panhtwar_desc: "이 인물의 개인적인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 모든 부처의 자비를 구현하는 보살인 로카나트입니다." # 10530266685825521156
+  nat_therevada_shin_upagutta: "신 우파구타에 헌신하는" # 8249830879373169328
+  nat_therevada_shin_upagutta_desc: "이 인물의 개인적인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 위험으로부터 사람들을 보호하는 아라한, 신 우파구타입니다." # 13507285511591262968
+  nat_therevada_manimekhala: "마니메칼라에 헌신하는" # 17622261141328722128
+  nat_therevada_manimekhala_desc: "이 인물의 개인적인 [Glossary( 'Nat', 'NAT_GLOSS' )]는 마니메칼라, 바다의 수호자입니다." # 16064185296236176487
+  buddhist_deity_guanyin: "관음에게 헌신하는" # 10262319950671327029
+  buddhist_deity_guanyin_desc: "이 인물은 자비의 보살인 관음보살을 신봉합니다." # 3421761755586769340
+  buddhist_deity_mahasthamaprapta: "마하스타마프랍타에게 헌신함" # 3395598741836540092
+  buddhist_deity_mahasthamaprapta_desc: "이 인물은 지혜의 힘을 상징하는 보살인 대세지보살에게 귀의했습니다." # 11127467498246480160
+  buddhist_deity_ksitigarbha: "지장보살을 신봉하는" # 1649853043995813051
+  buddhist_deity_ksitigarbha_desc: "이 인물은 육도에 설법하는 보살인 지장보살을 신봉한다." # 5911122231998814529
+  buddhist_deity_vasudhara: "바수다라에게 헌신하는" # 12009929846618280925
+  buddhist_deity_vasudhara_desc: "이 인물은 재산, 번영, 풍요의 보살인 바수다라를 신봉합니다." # 4163923254708781854
+  buddhist_deity_bhaisajyaguru: "약사여래 귀의자" # 4571695564181141464
+  buddhist_deity_bhaisajyaguru_desc: "이 인물은 고통을 치유하는 약사여래, 바이샤지야구루를 신봉합니다." # 14397057580829917955
+  buddhist_deity_manjushri: "문수보살에게 헌신하는" # 7128366651237964595
+  buddhist_deity_manjushri_desc: "이 인물은 문수사리, 지혜의 온화한 영광에 헌신하는." # 11147016176786866358
+  buddhist_deity_vajrapani: "바즈라파니에 헌신하는" # 5762507106211272594
+  buddhist_deity_vajrapani_desc: "이 인물은 고타마 붓다의 수호자이자 인도자인 바즈라파니를 섬깁니다." # 15696141331028425416
+  buddhist_deity_samantabhadra: "보현보살에게 헌신하는" # 9939388438224770998
+  buddhist_deity_samantabhadra_desc: "이 인물은 수행과 선정의 보살인 보현보살에게 헌신합니다." # 10758078648313616285
+  buddhist_deity_ratnasambhava: "라트나삼바바에게 헌신하는" # 5441525636043537554
+  buddhist_deity_ratnasambhava_desc: "이 인물은 오방불 중 한 분이시며 질투와 탐욕을 파괴하시는 라트나삼바바에게 헌신하고 있습니다." # 5532888741635823667
