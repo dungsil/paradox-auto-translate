@@ -9,11 +9,11 @@
   RICE_drokpa_horsemen_flavor: "#F 티베트 유목민들은 대체로 강인하고 굳센 민족이지만, 티베트 최고봉인 창탕 고원 출신 유목민들은 정말 무서운 존재입니다.  많은 이들이 그들을 용맹하고 냉혹한 기병으로 두려워합니다.#!" # 12037252595809967366
   fervor_gain_bon_convert: "$old_bon$의 변환" # 7388731577561950110
   innovation_RICE_glacier_grafting: "빙하 이식" # 7525568146123480084
-  innovation_RICE_glacier_grafting_desc: "빙하 결혼 의식을 통해 지역 주민들은 남성 빙하와 여성 빙하를 결합하여 새로운 빙하를 창출할 수 있습니다. 이는 산과 계곡의 농경지를 관개하는 데 활용됩니다." # 7525568146123480084
+  innovation_RICE_glacier_grafting_desc: "빙하 혼인이라는 의례화된 과정을 통해, 현지인들은 산과 계곡의 농지에 물을 대기 위해 숫빙하와 암빙하를 결합시켜 새로운 빙하를 만들어낼 수 있습니다." # 5267861715969039128
   innovation_RICE_netsang_relationships: "넷상 관계" # 2822963733318107111
-  innovation_RICE_netsang_relationships_desc: "히말라야 고원의 유목 가족들은 종종 히말라야 남쪽 지역의 가족들과 세대를 이어가는 '가상' 친족 관계인 넷상을 맺습니다. 이러한 관계를 맺은 가족들은 서로에게 무역 특권을 부여하고, 서로의 땅을 방문할 때에는 숙박을 제공합니다." # 2822963733318107111
-  RICE_glacier_grafting_activity_unlock: "[GetTerrain( 'mountains' ).GetName] 또는 [GetTerrain( 'desert_mountains' ).GetName]에서 [GetActivityType( 'activity_RICE_glacier_marriage' ).GetName] [활동|E]를 해제합니다." # 35c478bacc7ecb06f997a8f2509eb13ab65c42dc
-  RICE_netsang_relationships_bonus_tt: "#V $RICE_zhangzhung_western_tibet_salt_decision$! 결정의 비용이 [gold_i|E] [gold|E] 더 적습니다." # 9085024957775922909
+  innovation_RICE_netsang_relationships_desc: "히말라야 고원의 유목민 가문들은 히말라야 남쪽 지역 가문들과 네창(Netsang)이라 불리는 '가상의' 친족 관계를 맺는 경우가 흔합니다. 여러 세대에 걸쳐 이어지는 이런 관계의 가문들은 서로에게 교역 특권을 제공하며, 상대 가문이 자신들의 땅을 방문할 때 접대하는 역할을 수행합니다." # 11327011672570957068
+  RICE_glacier_grafting_activity_unlock: "[GetTerrain( 'mountains' ).GetName] 또는 [GetTerrain( 'desert_mountains' ).GetName] 지형에서 [GetActivityType( 'activity_RICE_glacier_marriage' ).GetName] [activity|E]를 해금합니다." # 4385111243796195368
+  RICE_netsang_relationships_bonus_tt: "[decision|E] #V $RICE_zhangzhung_western_tibet_salt_decision$#!은/는 [gold_i|E] [gold|E] 비용이 덜 듭니다" # 5668907458867885141
   bon_religion_opinion: "$bon_religion_adherent$의 의견" # 13994734382200906911
   nick_RICE_guru_rinpoche: "구루 린포체" # 454575335116702228
   nick_RICE_guru_rinpoche_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)]는 많은 라마교 신자들로부터 샤카무니 불[CHARACTER.GetShortUINameNoTooltipNoFormat|U]가 탄생한 [GetGeographicalRegion('world_tibet').GetName]에 밀교를 전파하는 데 도움을 준 역사적 부처님의 현신으로 숭배받습니다. [CHARACTER.GetSheHe|U]는 따라서 #italic 구루 린포체#!, 즉 귀한 스승이라고 불립니다. [CHARACTER.GetSheHe|U]는 또한 #italic [GetTitleByKey('b_oddiyana').GetNameNoTier]에서 태어난 연꽃#!이라고도 불립니다." # 12127317171315755021
@@ -932,15 +932,15 @@
   zhangzhung.0089.t: "xxxxx" # 1951045980481827005
   zhangzhung.0089.desc: "xxxxx" # 1951045980481827005
   zhangzhung.0089.a: "xxxxx" # 1951045980481827005
-  zhangzhung.0090.t: "xxxxx" # 1951045980481827005
-  zhangzhung.0090.desc: "xxxxx" # 1951045980481827005
-  zhangzhung.0090.a: "xxxxx" # 1951045980481827005
-  zhangzhung.0091.t: "xxxxx" # 1951045980481827005
-  zhangzhung.0091.desc: "xxxxx" # 1951045980481827005
-  zhangzhung.0091.a: "xxxxx" # 1951045980481827005
-  zhangzhung.0092.t: "xxxxx" # 1951045980481827005
-  zhangzhung.0092.desc: "xxxxx" # 1951045980481827005
-  zhangzhung.0092.a: "xxxxx" # 1951045980481827005
+  zhangzhung.0090.t: "준비" # 666839747819429162
+  zhangzhung.0090.desc: "[county.GetNameNoTier]의 [culture.GetName] 주민들은 오래전 높은 산에서 빙하를 키우는 법을 #bold 빙하 혼인#!이라는 과정을 통해 배웠습니다. 이 과정에서 숫빙하와 암빙하 조각을 합쳐 새로운 빙하를 만듭니다.\n이를 통해 주민들은 여러 해에 걸쳐 자신들의 밭과 농작물에 꾸준히 관개 용수를 공급할 수 있게 됩니다.\n\n저는 곧 [location.GetName]로 여행을 떠나 제가 직접 후원한 빙하 혼인을 목격할 것입니다. 모두가 새로운 빙하가 앞으로 여러 해 동안 주민들에게 풍요를 가져다 주기를 희망하고 있습니다." # 11460279047831591815
+  zhangzhung.0090.a: "산으로!" # 9787992526273383845
+  zhangzhung.0091.t: "남성 빙하와 여성 빙하" # 8282750223040570828
+  zhangzhung.0091.desc: "[location.GetName]에 도착했을 때, 마침 빙하 결혼식이 시작될 참이었습니다.\n\n각 마을에서 온 강인하고 튼튼한 [ROOT.Char.Custom('WomenMenPeople_GenderPreference')]들은 산으로 들어가 수컷 빙하와 암컷 빙하의 조각을 수집합니다. 수컷 빙하는 더 갈색이고 회색이며 잔해가 더 많고, 암컷 빙하는 더 순수한 흰색과 파란색입니다.\n\n조각을 수집한 후, 이 [ROOT.Char.Custom('WomenMenPeople_GenderPreference')]들은 조각이 차갑게 유지되도록 건초와 숯으로 채워진 특수 바구니에 넣은 뒤, 새로운 빙하의 지정된 장소로 운반합니다. 이제부터 우리는 이 두 빙하의 결혼이 풍요롭도록 다양한 [ROOT.Char.GetFaith.GetAdjective] 기도와 희생을 바칠 것입니다." # 11903170131907854201
+  zhangzhung.0091.a: "이것이 성공적인 '결혼'이 되기를 바라오!" # 16157077071218731777
+  zhangzhung.0092.t: "새로운 빙하의 탄생" # 15947411924528101247
+  zhangzhung.0092.desc: "우리는 그 조각들을 구하러 떠난 지 며칠 만에, 새로운 빙하가 생길 산에서 수컷 빙하와 암컷 빙하의 조각을 운반하고 있는 [ROOT.Char.Custom('WomenMenPeople_GenderPreference')]와 만났습니다. 그들은 조각들이 땅에 닿지 않도록 조심스럽게 운반했으며, 내내 [ROOT.Char.GetFaith.GetAdjective] 기도를 올렸습니다.\n\n우리는 현장에서 빙하 조각들이 물, 숯, 톱밥, 천 조각, 밀 껍질과 함께 섞이는 것을 지켜봅니다. 현지인들은 이러한 물질이 새로운 빙하를 차갑게 유지한다고 말합니다.\n\n또 다른 기도와 의식을 거친 후, 결혼이 완성됩니다. 그리고 지금부터 수년 후, 우리는 이 자리에 수년에 걸쳐 아름다운 빙하가 자라기를 바랄 수밖에 없습니다 – 아래 계곡과 언덕에 풍부한 물을 공급할 빙하 말입니다!" # 1260189041949592874
+  zhangzhung.0092.a: "거대하고 웅장한 빙하가 되기를 기원하자." # 5417759979805075859
   zhangzhung.0093.t: "xxxxx" # 1951045980481827005
   zhangzhung.0093.desc: "xxxxx" # 1951045980481827005
   zhangzhung.0093.a: "xxxxx" # 1951045980481827005
@@ -1333,3 +1333,33 @@
   dharma_festivals.067.desc: "로사르 축제가 마침내 끝났습니다. 축제의 즐거운 분위기는 앞으로도 여러 날 동안 이어질 것입니다. 하지만 모든 것은 변치 않는 법이라, 좋은 일도 언젠가는 끝나야 하는 듯합니다." # 10256710432693864158
   dharma_festivals.067.home: "축제가 이제 끝났습니다." # 493449509155308930
   RICE_glacier_grafting_decision_unlock: "undefined" # 4070685994757610250
+  activity_RICE_glacier_marriage_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_glacier_marriage: "빙하 결혼" # 6413759800821444928
+  activity_RICE_glacier_marriage_desc: "'수컷 빙하'와 '암컷 빙하'의 조각들을 일종의 결혼식과 같은 의례적인 의식에서 함께 모음으로써, 산에 새로운 빙하를 이식하여 아래 계곡과 언덕에 추가적인 관개 수원지를 제공할 수 있습니다." # 12172478194699058645
+  activity_RICE_glacier_marriage_selection_tooltip: "지역 주민들의 빙하 혼례 의식을 돕습니다.\n$activity_RICE_glacier_marriage_context_tooltip$" # 6781618440341595628
+  activity_RICE_glacier_marriage_context_tooltip: "#emphasis 역사적 배경:#! 힌두쿠시 산맥과 서부 히말라야 산맥에는 관개 목적으로 빙하를 '키우는' 전통이 존재합니다. 이는 소위 '빙하 결혼'이라는 의례화된 과정을 통해 이루어지는데, 파편과 흙 때문에 회색이나 갈색 빛깔을 띠는 '남성' 빙하와 더 순수한 빛깔의 '여성' 빙하 사이의 결혼입니다. 전설에 따르면, 중세 시대에 성직자들이 현지인들에게 이러한 방법을 가르쳐 몽골인, 티베트인, 혹은 카슈가르의 통치자들이라고도 일컬어지는 침략자들로부터 자신들을 보호하기 위한 자연 방벽을 만들었다고 합니다." # 8669462437439229245
+  activity_RICE_glacier_marriage_host_desc: "\n$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n\n$BULLET_WITH_TAB$[piety_i|E][piety|E]\n\n$BULLET_WITH_TAB$[activity|E]가 벌어지는 [county|E]는 [development_i|E] [development|E]와 [gold_i|E] [taxes|E]를 증진하는 #P beneficial#! [county_modifier|E|E]를 획득합니다." # 15738424840432029997
+  activity_RICE_glacier_marriage_guest_desc: "$activity_RICE_glacier_marriage_host_desc$" # 6398353649918391545
+  activity_RICE_glacier_marriage_destination_selection: "$activity_RICE_glacier_marriage_province_desc$" # 1787673961539814725
+  activity_RICE_glacier_marriage_guest_help_text: "$activity_RICE_glacier_marriage$" # 12609155805049353067
+  activity_RICE_glacier_marriage_predicted_cost: "이 [activity|E]의 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 658366464949161382
+  activity_RICE_glacier_marriage_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_glacier_marriage' ).GetName] 끝났습니다, 그리고 새로운 빙하가 탄생했습니다!" # 16990706893097838293
+  RICE_glacier_marriage_sacrifice_amount: "희생" # 11421588474970910012
+  RICE_glacier_marriage_sacrifice_amount_small: "소박한 희생" # 1441759101154490516
+  RICE_glacier_marriage_sacrifice_amount_small_desc: "$BULLET_WITH_TAB$기본 [piety_i|E]를 얻습니다 #V [EmptyScope.ScriptValue('RICE_glacier_marriage_base_piety_small')]#! [piety|E]\n$BULLET_WITH_TAB$기본 [prestige_i|E]를 얻습니다 #V [EmptyScope.ScriptValue('RICE_glacier_marriage_base_prestige_small')]#! [prestige|E]\n$BULLET_WITH_TAB$[activity|E]가 열리는 [county|E]에서 더 강력한 [county_modifiers|E]를 얻을 확률이 낮아집니다\n\n#weak 이 빙하 결혼식이 잘 진행되도록 현지 영혼에게 적절한 제물을 바칠 것입니다. #!" # 1884916731937424768
+  RICE_glacier_marriage_sacrifice_amount_medium: "보통" # 7377651229498775580
+  RICE_glacier_marriage_sacrifice_amount_medium_desc: "$BULLET_WITH_TAB$[신앙심|E] 기본 수치를 획득합니다 #V [EmptyScope.ScriptValue('RICE_glacier_marriage_base_piety_medium')]#! [piety|E]\n$BULLET_WITH_TAB$[위신|E] 기본 수치를 획득합니다 #V [EmptyScope.ScriptValue('RICE_glacier_marriage_base_prestige_medium')]#! [prestige|E]\n$BULLET_WITH_TAB$[활동|E]이 이루어지는 [지역|E]에 더 강력한 [지역 수정자|E]를 획득할 상당한 확률\n\n#weak 빙하 결혼이 성공적으로 이루어지려면 지역 정령들에게 보잘것없는 희생보다 더 큰 것을 바쳐야 합니다. #!" # 17644142001860456052
+  RICE_glacier_marriage_sacrifice_amount_large: "대형" # 2290692482761374841
+  RICE_glacier_marriage_sacrifice_amount_large_desc: "$BULLET_WITH_TAB$[piety_i|E] 기본 획득 #V [EmptyScope.ScriptValue('RICE_glacier_marriage_base_piety_large')]#! [piety|E]\n$BULLET_WITH_TAB$[prestige_i|E] 기본 획득 #V [EmptyScope.ScriptValue('RICE_glacier_marriage_base_prestige_large')]#! [prestige|E]\n$BULLET_WITH_TAB$[activity|E]가 진행되는 [county|E]에서 더 강력한 [county_modifiers|E] 획득 확률 증가\n\n#weak 이 빙하 결혼식이 순조롭게 진행되게 하려면, 지역 영혼들에게 성대한 희생 제물을 바쳐야 하며, 그 이하는 안 됩니다.#!" # 12503885570276577347
+  RICE_glacier_marriage_wedding_phase: "결혼식" # 1116248789541768685
+  RICE_glacier_marriage_wedding_phase_desc: "우리는 남성 빙하와 여성 빙하를 합쳐 새로운 빙하를 만들어냅니다." # 3264252413704992111
+  RICE_glacier_marriage_ritual_intent_header: "의례:" # 13781907821707693583
+  RICE_glacier_marriage_ritual_intent: "의례" # 15674658978138415862
+  RICE_glacier_marriage_ritual_intent_desc: "당신은 산악에서 남녀 빙하의 혼례에 참여하게 됩니다." # 1583477428316222447
+  RICE_glacier_marriage_completed_log_title: "$activity_RICE_glacier_marriage$ 종료" # 16898564583181668727
+  RICE_glacier_marriage_completed_log: "[CHARACTER.GetShortUIName|U]께서 $activity_RICE_glacier_marriage$ 목격을 마쳤습니다." # 11306015215693759641
+  TRAVEL_NAME_FOR_activity_RICE_glacier_marriage: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_glacier_marriage$" # 5712029230398824518
+  activity_RICE_glacier_marriage_province_mountains_desc: "빙하는 산악의 한랭한 지형에서 찾을 수 있습니다." # 14138233486840048786
+  RICE_glacier_marriage_modifier_small: "빙하 결혼 (소소한 성공)" # 7363854837972360426
+  RICE_glacier_marriage_modifier_medium: "빙하 결혼 (중간 성공)" # 12953234135229795186
+  RICE_glacier_marriage_modifier_large: "빙하 결혼 (대성공)" # 10541351788495224763

@@ -2061,6 +2061,7 @@
   sicily.0299.desc: "xxxxx" # 1951045980481827005
   sicily.0299.a: "xxxxx" # 1951045980481827005
   RICE_sicily_struggle_correct_involvement_tt: "당신은 [struggle_involved|E]에 휘말렸습니다. [RICE_sicily_struggle|E]" # 4120106387198950728
-  catalyst_RICE_sicily_host_palio_activity: "[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] [activity|E]를 주최하였습니다. [struggle_catalyst_catalyst|E]" # 72e5bd6c7932463cbead2b19addcb7575d9af27d
-  catalyst_RICE_sicily_host_palio_activity_desc: "[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] [activity|E]를 개최합니다." # e665c0bba5f1016a10bf70364bc348940cf4ed45
+  catalyst_RICE_sicily_host_palio_activity: "[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] [activity|E] [struggle_catalyst_catalyst|E]을 개최했습니다" # 5513678221058501665
+  catalyst_RICE_sicily_host_palio_activity_desc: "[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName][activity|E]을 개최하기" # 2311531495285162680
   trait_RICE_sicilian_ruler_info: "#bold 이 [trait|E]의 [trait_level_track_xp|E]는 [RICE_sicily_struggle|E] [struggle|E]와 관련된 [decisions|E]와 [activities|E], 사건 및 기타 여러 가지 방법을 통해 얻을 수 있습니다.#!" # 17823840898383120230
+  RICE_restart_sicily_struggle_make_cultures_faiths_involved_effect_tooltip: "[GetGeographicalRegion('custom_sicily').GetName]에 [county|E]를 하나 이상 소유한 [ruler|E]가 있는 모든 [cultures|E]나 [faiths|E]는 이미 [struggle_involved|E] 상태가 아니라면 [RICE_sicily_struggle|E]에 [struggle_involved|E] 상태가 됩니다." # 16279115432056159476
