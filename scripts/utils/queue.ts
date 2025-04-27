@@ -20,11 +20,11 @@ async function processQueue () {
     return
   }
 
-  // 초당 최대 1개까지만 요청을 보낼 수 있도록 제한
+  // 초당 최대 4개까지만 요청을 보낼 수 있도록 제한
   const now = Date.now()
   const timeSinceLastRequest = now - lastRequestTime
-  if (timeSinceLastRequest < 1000) {
-    setTimeout(processQueue, 1000 - timeSinceLastRequest)
+  if (timeSinceLastRequest < 100) {
+    setTimeout(processQueue, 100 - timeSinceLastRequest)
     return
   }
 

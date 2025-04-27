@@ -19,6 +19,8 @@ interface ModMeta {
 }
 
 export async function processModTranslations ({ rootDir, mods, onlyHash = false }: ModTranslationsOptions): Promise<void> {
+  const processes: Promise<void>[] = []
+
   for (const mod of mods) {
     log.start(`[${mod}] 작업 시작 (원본 파일 경로: ${rootDir}/${mod})`)
     const modDir = join(rootDir, mod)
@@ -44,10 +46,12 @@ export async function processModTranslations ({ rootDir, mods, onlyHash = false 
       for (const file of sourceFiles) {
         // 언어파일 이름이 `_l_언어코드.yml` 형식이면 처리
         if (file.endsWith(`_l_${meta.upstream.language}.yml`)) {
-          await processLanguageFile(mod, sourceDir, targetDir, file, meta.upstream.language, onlyHash)
+          processes.push(processLanguageFile(mod, sourceDir, targetDir, file, meta.upstream.language, onlyHash))
         }
       }
     }
+
+    await Promise.all(processes)
 
     log.success(`[${mod}] 번역 완료`)
   }
@@ -57,7 +61,9 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
   const sourcePath = join(sourceDir, file)
 
   // 파일 순서를 최상위로 유지해 덮어쓸 수 있도록 앞에 '___'를 붙임 (ex: `___00_culture_l_english.yml`)
-  const targetPath = join(targetBaseDir, dirname(file), '___' + basename(file).replace(`_l_${sourceLanguage}.yml`, '_l_korean.yml'))
+  const targetParentDir = join(targetBaseDir, dirname(file))
+  await mkdir(targetParentDir, { recursive: true })
+  const targetPath = join(targetParentDir, '___' + basename(file).replace(`_l_${sourceLanguage}.yml`, '_l_korean.yml'))
 
   let targetContent = ''
   try {
