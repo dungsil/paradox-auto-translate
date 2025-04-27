@@ -23,7 +23,7 @@ const gemini = (model: string) => ai.getGenerativeModel({
 export async function translateAI (text: string) {
   return new Promise<string>((resolve, reject) => {
     try {
-      return translateAIByModel(resolve, gemini('gemini-2.5-pro-preview-03-25'), text)
+      return translateAIByModel(resolve, gemini('gemini-2.5-flash-preview-04-17'), text)
     } catch (e) {
       try {
         return translateAIByModel(resolve, gemini('gemini-1.5-flash-8b'), text)
