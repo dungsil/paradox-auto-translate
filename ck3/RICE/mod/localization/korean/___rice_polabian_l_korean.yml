@@ -1,106 +1,106 @@
 ﻿l_korean:
-  sorbian: "소르브인" # 7519793205204291373
-  sorbian_prefix: "소르비아어" # 7519793205204291373
+  sorbian: "소르브" # 7519793205204291373
+  sorbian_prefix: "소르브" # 7519793205204291373
   sorbian_collective_noun: "소르비아인" # 13506655454750045903
-  name_list_sorbian: "소르비아어" # 7519793205204291373
-  RICE_nemesis_reason_krutoj_murder: "[CHARACTER.GetShortUIName|U](이)는 [CHARACTER.CharWereWas] [TARGET_CHARACTER.GetShortUINamePossessive]의 아버지 고트샬크를 타도하고 살해한 이교도 반란에 연루되어 [CHARACTER.GetHerselfHimself](을)를 위해 왕좌를 차지했습니다. 양측 모두 이제 서로를 제거하려는 [aspirations|E](을)를 가지고 있습니다." # 5353084666882255455
-  RICE_polabian_near_rugen_req: "[capital|E]이 [GetTitleByKey('c_rugen').GetNameNoTier] 근처에 있습니다" # 9497925940534568578
-  RICE_marzanna_loc_polish: "마르자나" # 2940704637915179624
+  name_list_sorbian: "소르브" # 7519793205204291373
+  RICE_nemesis_reason_krutoj_murder: "[CHARACTER.GetShortUIName|U] [CharWereWas(CHARACTER)] 이교도 반란에 가담했습니다. 이 반란으로 [TARGET_CHARACTER.GetShortUINamePossessive] 아버지인 고트샬크가 타도되고 살해되었으며, [CHARACTER.GetHerselfHimself]는 그 후 왕좌를 차지했습니다. 양측은 이제 서로를 제거하려는 [aspirations|E]를 품고 있습니다." # 5353084666882255455
+  RICE_polabian_near_rugen_req: "[capital|E]이(가) [GetTitleByKey('c_rugen').GetNameNoTier] 근처에 있습니다." # 9497925940534568578
+  RICE_marzanna_loc_polish: "마잔나" # 2940704637915179624
   RICE_marzanna_loc_czech: "모라나" # 4262628565328524334
-  RICE_no_liege_or_above_pagan: "당신 위의 [lieges|E] 중 [GetReligionFamily('rf_pagan').GetName]은 없습니다" # 15527094997274488221
+  RICE_no_liege_or_above_pagan: "당신 위의 [lieges|E]는 [GetReligionFamily('rf_pagan').GetName]가 아닙니다" # 15527094997274488221
   game_concept_svetovit_idol_short: "우상" # 3539981524249214646
   game_concept_svetovit_short: "스베토비트" # 595903596678804907
   game_concept_arkona_short: "아르코나" # 15642574048993508374
   game_concept_idol_of_arkona: "아르코나의 우상" # 1463813489818532725
   game_concept_idol_of_svetovit: "스베토비트의 우상" # 15385415412485947226
-  game_concept_idol_of_svetovit_desc: "역사적으로 독일 북동부의 뤼겐 섬에 있는 아르코나는 슬라브 이교도들에게 중요한 종교적 장소였습니다. 그곳의 신전에는 커다란 우상이 있었는데, 이것이 게임 내 여러 기능의 주제입니다.\n\n첫째, [GetModifier('RICE_polabian_temple_of_arkona_modifier').GetNameWithTooltip] [county_modifier|E]가 뤼겐(또는 라니)의 [county|E]에 배치되었습니다. 그 효과는 섬의 [ruler|E]가 이교도인지 비이교도인지에 따라 각각 #P 긍정적#! 또는 #N 부정적#!일 수 있습니다. [modifier|E]가 있는 한, 근처의 이교도들은 다양한 은총을 얻기 위해 $RICE_polabian_gift_to_svetovit_decision$ [decision|E]을 할 수 있습니다.\n\n비이교도는 $RICE_polabian_destroy_arkona_temple$ [decision|E]을 하면 [modifier|E]를 영구적으로 제거하고 이교도들이 스벤토비트 [decision|E]을 하지 못하도록 막을 수 있습니다. 만약 이교도가 나중에 섬을 되찾는 데 성공한다면, 반대로 $RICE_polabian_restore_arkona_temple$ [decision|E]을 할 수 있습니다." # 4027426766431420267
-  RICE_polabian_aspiration_budivoj_henry_desc: "#bold [역사적 야망 주요 목표]#!\n$EFFECT_LIST_BULLET$[완전히 장악] [GetTitleByKey('d_nordmark').GetNameNoTier]\n$EFFECT_LIST_BULLET$[GetTitleByKey('d_nordmark').GetNameNoTier]의 [통치자]가 되십시오\n$EFFECT_LIST_BULLET$크루토이를 사망시키거나, 그가 더 이상 [칭호]를 소유하지 않도록 하십시오\n\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$@명성 아이콘! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [명성] 획득\n$EFFECT_LIST_BULLET$[왕조]가 [GetModifier('RICE_polabian_scions_of_saint_gottschalk').GetNameWithTooltip] [수정자]를 획득합니다\n\n\n#bold [역사적 야망 추가 목표]#!\n$EFFECT_LIST_BULLET$기독교 신앙을 유지하십시오 (보상: @신앙 아이콘! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [신앙])\n$EFFECT_LIST_BULLET$형제로서 크루토이를 직접 살해하십시오 (보상: @왕조 명성 아이콘! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [왕조 명성])#!" # 3192660078359922102
-  RICE_polabian_historical_aspiration_action_budivoj_henry: "#italic 갓츠할크, 당신의 아버지는 이교도 반란군에 의해 숨졌습니다. 그를 복수하기 위해, 당신과 당신의 형제는 반란이 새 지도자로 선출한 귀족 크루토이를 교묘히 제압해야 합니다.#!$RICE_polabian_aspiration_budivoj_henry_desc$" # 10702895090228577805
+  game_concept_idol_of_svetovit_desc: "역사적으로 독일 북동부 뤼겐 섬의 아르코나는 슬라브 이교도들의 주요 종교적 장소였습니다. 그곳의 신전에는 거대한 우상이 안치되어 있었는데, 이것이 게임 내 여러 특징의 대상이 됩니다.\n\n첫째, [GetModifier('RICE_polabian_temple_of_arkona_modifier').GetNameWithTooltip] [county_modifier|E]가 뤼겐(또는 라니)의 [county|E]에 배치되었습니다. 이 효과는 섬의 [ruler|E]가 각각 이교도인지 비이교도인지에 따라 #P 긍정적#!이거나 #N 부정적#!일 수 있습니다. 이 [modifier|E]가 존재하는 한, 근처 이교도들은 $RICE_polabian_gift_to_svetovit_decision$ 결단을 내려 다양한 혜택을 얻으려 시도할 수 있습니다.\n\n비이교도들은 $RICE_polabian_destroy_arkona_temple$ 결단을 내리면 [modifier|E]를 영구적으로 제거하고 이교도들이 스비아토비트 [decision|E]를 내리는 것을 막을 수 있습니다. 만약 이후 이교도가 섬을 되찾는 데 성공한다면, 반대로 $RICE_polabian_restore_arkona_temple$ 결단을 내릴 수 있습니다." # 4027426766431420267
+  RICE_polabian_aspiration_budivoj_henry_desc: "\n\n#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$[completely_control|E] [GetTitleByKey('d_nordmark').GetNameNoTier]\n$EFFECT_LIST_BULLET$[GetTitleByKey('d_nordmark').GetNameNoTier]의 [ruler|E]가 되십시오\n$EFFECT_LIST_BULLET$크루토이가 사망했거나 [titles|E]를 보유하지 않도록 하십시오\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$[dynasty|E]에 [GetModifier('RICE_polabian_scions_of_saint_gottschalk').GetNameWithTooltip] [modifier|E]가 부여됩니다\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$기독교 신앙 유지 (보상: @piety_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [piety|E])\n$EFFECT_LIST_BULLET$형제 중 한 명으로 크루토이 직접 처치 (보상: @dynasty_prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [dynasty_prestige|E])#!" # 3192660078359922102
+  RICE_polabian_historical_aspiration_action_budivoj_henry: "#italic 그대의 부친, 고트샤크는 이교도 반란군에게 살해당했다. 그의 복수를 위해, 그대와 그대의 형제는 반란군이 새 지도자로 선출한 귀족, 크루토이를 책략으로 압도해야 한다.#!$RICE_polabian_aspiration_budivoj_henry_desc$" # 10702895090228577805
   RICE_polabian_historical_aspiration_modifier_desc_budivoj_henry: "[GetModifier('RICE_polabian_aspiration_gottschalk_sons_revenge').GetNameWithTooltip]" # 2824326579925323826
-  RICE_polabian_aspiration_krutoj_desc: "#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$[completely_control|E] [GetTitleByKey('d_nordmark').GetNameNoTier]\n$EFFECT_LIST_BULLET$[GetTitleByKey('d_nordmark').GetNameNoTier]의 [ruler|E]가 되십시오.\n$EFFECT_LIST_BULLET$[completely_control|E] [GetTitleByKey('d_holstein').GetNameNoTier] 또는 [GetTitleByKey('d_ostmark').GetNameNoTier]\n$EFFECT_LIST_BULLET$슬라브 이교를 유지하십시오\n$EFFECT_LIST_BULLET$부디보이와 헨리가 죽었는지 확인하십시오\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$[dynasty|E]가 [GetModifier('RICE_polabian_defenders_of_svetovit').GetNameWithTooltip] [modifier|E] 획득\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$최소 한 번 $RICE_polabian_gift_to_svetovit_decision$ [decision|E] 내리기(보상: @piety_icon! #V 200#! [piety|E], 최대 [piety_i|E] #V 1000#!까지)\n$EFFECT_LIST_BULLET$부디보이 및/또는 헨리를 직접 처치하십시오(보상: 각 처치 시 @dynasty_prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_small_resource_bonus')]#! [dynasty_prestige|E])#!" # 1814891528193197031
-  RICE_polabian_historical_aspiration_action_krutoj: "#italic 오보트리트의 이교 귀족들이 기독교도 고츠할크를 몰아내고 당신이 권력을 잡았지만, 부디보이와 헨리라는 고츠할크의 살아남은 아들들을 제거하여 이 일을 마무리해야 합니다.#!$RICE_polabian_aspiration_krutoj_desc$" # 14879695730698448477
+  RICE_polabian_aspiration_krutoj_desc: "\n\n#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$[GetTitleByKey('d_nordmark').GetNameNoTier] [completely_control|E]\n$EFFECT_LIST_BULLET$[GetTitleByKey('d_nordmark').GetNameNoTier]의 [ruler|E]가 되기\n$EFFECT_LIST_BULLET$[GetTitleByKey('d_holstein').GetNameNoTier] 또는 [GetTitleByKey('d_ostmark').GetNameNoTier] [completely_control|E]\n$EFFECT_LIST_BULLET$슬라브 이교 유지\n$EFFECT_LIST_BULLET$부디보이와 헨리가 죽은 상태 유지\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$[dynasty|E]가 [GetModifier('RICE_polabian_defenders_of_svetovit').GetNameWithTooltip] [modifier|E]를 얻습니다\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$[decision|E] $RICE_polabian_gift_to_svetovit_decision$ 최소 한 번 실행 (보상: 실행할 때마다 @piety_icon! #V 200#! [piety|E] 획득, 최대 [piety_i|E] #V 1000#!)\n$EFFECT_LIST_BULLET$부디보이 및/또는 헨리 직접 처치 (보상: 각 인물당 @dynasty_prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_small_resource_bonus')]#! [dynasty_prestige|E])#!" # 1814891528193197031
+  RICE_polabian_historical_aspiration_action_krutoj: "#italic 당신은 이교도 오보트리테 귀족들이 기독교도 고트샬크를 타도했을 때 권력을 잡았지만, 고트샬크의 살아남은 아들 부디보이와 헨리를 죽임으로써 그 일을 마무리지어야 합니다.#!$RICE_polabian_aspiration_krutoj_desc$" # 14879695730698448477
   RICE_polabian_historical_aspiration_modifier_desc_krutoj: "[GetModifier('RICE_polabian_aspiration_krutoj_finish_job').GetNameWithTooltip]" # 16368910172585956784
-  RICE_polabian_zapust_festival_host_memory: "[GetActivityType( 'activity_RICE_polabian_zapust_festival' ).GetName]을 기념했습니다" # 11456709060339335146
-  RICE_polabian_zapust_festival_host_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_polabian_zapust_festival' ).GetName]을 기념했습니다" # 2863345483764451355
-  RICE_polabian_zapust_festival_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_polabian_zapust_festival' ).GetName] 축제를 기념했습니다" # 13733351707953505643
-  RICE_polabian_zapust_festival_host_memory_third_perspective: "[owner.GetName]가 [GetActivityType(  'activity_RICE_polabian_zapust_festival' ).GetName]을 축하했습니다." # 4502700489010605486
-  RICE_polabian_zapust_festival_guest_memory: "[host.GetTitledFirstName]과 함께 [GetActivityType( 'activity_RICE_polabian_zapust_festival' ).GetName] 축제를 기념했습니다" # 17230377638640160692
-  RICE_polabian_zapust_festival_guest_memory_first_perspective: "[host.GetTitledFirstName] 님과 함께 [GetActivityType( 'activity_RICE_polabian_zapust_festival' ).GetName]을(를) 축하했습니다" # 6878284794479004047
-  RICE_polabian_zapust_festival_guest_memory_second_perspective: "[host.GetTitledFirstName](이)와 함께 [GetActivityType( 'activity_RICE_polabian_zapust_festival' ).GetName]을(를) 축하했습니다" # 8461064189496643514
-  RICE_polabian_zapust_festival_guest_memory_third_perspective: "[owner.GetName]이 [host.GetTitledFirstName]와 함께 [GetActivityType('activity_RICE_polabian_zapust_festival').GetName]를 기념했습니다" # 82339261896347365
+  RICE_polabian_zapust_festival_host_memory: "[GetActivityType( 'activity_RICE_polabian_zapust_festival' ).GetName]를 개최했다" # 11456709060339335146
+  RICE_polabian_zapust_festival_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_polabian_zapust_festival' ).GetName]를 축하했습니다" # 2863345483764451355
+  RICE_polabian_zapust_festival_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_polabian_zapust_festival' ).GetName]를 기념했다" # 13733351707953505643
+  RICE_polabian_zapust_festival_host_memory_third_perspective: "[owner.GetName]는 [GetActivityType( 'activity_RICE_polabian_zapust_festival' ).GetName]을 축하했습니다" # 4502700489010605486
+  RICE_polabian_zapust_festival_guest_memory: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_polabian_zapust_festival' ).GetName]을 축하했습니다." # 17230377638640160692
+  RICE_polabian_zapust_festival_guest_memory_first_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_polabian_zapust_festival' ).GetName]를 기념했습니다." # 6878284794479004047
+  RICE_polabian_zapust_festival_guest_memory_second_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_polabian_zapust_festival' ).GetName]를 축하했습니다." # 8461064189496643514
+  RICE_polabian_zapust_festival_guest_memory_third_perspective: "[owner.GetName]가 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_polabian_zapust_festival' ).GetName]를 축하했습니다." # 82339261896347365
   RICE_polabian_drowning_marzanna_host_memory: "[GetActivityType( 'activity_RICE_polabian_drowning_marzanna' ).GetName]에 참여했습니다" # 5302374010270148617
-  RICE_polabian_drowning_marzanna_host_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_polabian_drowning_marzanna' ).GetName]에 참여했습니다." # 5952950820918592713
+  RICE_polabian_drowning_marzanna_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_polabian_drowning_marzanna' ).GetName]에 참여했다." # 5952950820918592713
   RICE_polabian_drowning_marzanna_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_polabian_drowning_marzanna' ).GetName]에 참여했습니다" # 2816819519338664453
-  RICE_polabian_drowning_marzanna_host_memory_third_perspective: "[owner.GetName]님이 [GetActivityType('activity_RICE_polabian_drowning_marzanna').GetName]에 참여했습니다" # 3503780733252259008
-  RICE_polabian_drowning_marzanna_guest_memory: "[host.GetTitledFirstName] 님과 함께 [GetActivityType( 'activity_RICE_polabian_drowning_marzanna' ).GetName]에 참여했습니다" # 17937508237433472828
-  RICE_polabian_drowning_marzanna_guest_memory_first_perspective: "[host.GetTitledFirstName]님과 함께 [GetActivityType( 'activity_RICE_polabian_drowning_marzanna' ).GetName]에 참여했습니다" # 13972968276497098705
-  RICE_polabian_drowning_marzanna_guest_memory_second_perspective: "[host.GetTitledFirstName]님과 함께 [GetActivityType( 'activity_RICE_polabian_drowning_marzanna' ).GetName]에 참여했습니다" # 8888549386370359276
-  RICE_polabian_drowning_marzanna_guest_memory_third_perspective: "[owner.GetName]가 [host.GetTitledFirstName]와 함께 [GetActivityType(  'activity_RICE_polabian_drowning_marzanna' ).GetName]에 참여했습니다." # 17731831293223264281
+  RICE_polabian_drowning_marzanna_host_memory_third_perspective: "[owner.GetName]이 [GetActivityType( 'activity_RICE_polabian_drowning_marzanna' ).GetName]에 참여했습니다." # 3503780733252259008
+  RICE_polabian_drowning_marzanna_guest_memory: "[GetActivityType( 'activity_RICE_polabian_drowning_marzanna' ).GetName]에 [host.GetTitledFirstName]와 함께 참여했습니다" # 17937508237433472828
+  RICE_polabian_drowning_marzanna_guest_memory_first_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_polabian_drowning_marzanna' ).GetName]에 참가했습니다." # 13972968276497098705
+  RICE_polabian_drowning_marzanna_guest_memory_second_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_polabian_drowning_marzanna' ).GetName]에 참가했습니다." # 8888549386370359276
+  RICE_polabian_drowning_marzanna_guest_memory_third_perspective: "[owner.GetName]이/가 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_polabian_drowning_marzanna' ).GetName]에 참가했습니다." # 17731831293223264281
   activity_RICE_polabian_drowning_marzanna_host_an_a: "$host_activity_a$" # 13713790857143020716
-  activity_RICE_polabian_drowning_marzanna: "[GetPlayer.Custom('RICE_marzanna')] 익사" # 5356287041815287715
-  activity_RICE_polabian_drowning_marzanna_desc: "겨울이 곧 끝나갑니다. [GetPlayer.Custom('RICE_marzanna')]의 허수아비를 불태우고 강에 빠뜨리는 것보다 추운 달들을 작별하는 더 좋은 방법이 있을까요?" # 14734495282770849291
-  activity_RICE_polabian_drowning_marzanna_selection_tooltip: "이 전통적인 서슬라브 의식에서 겨울의 끝을 기념하십시오.\n\n$activity_RICE_polabian_drowning_marzanna_context_tooltip$" # 13040182364426253499
-  activity_RICE_polabian_drowning_marzanna_context_tooltip: "#bold 역사적 배경:#! 기독교 이전, 서슬라브족 사이에서 마르잔나 또는 모라나 여신은 죽음, 재생, 그리고 다산의 신이었습니다. 겨울이 끝나고 봄이 오기를 기다리며, 사람들은 전통적으로 마르잔나의 인형을 만들어 지역 물에 태워 던져 버렸습니다. 슬라브족의 기독교화 이후, 교회 당국은 이 의식을 금지하려는 반복적인 시도를 했지만, 오늘날에도 폴란드, 체코 공화국, 슬로바키아와 같은 국가에서 이 의식은 지속되고 있습니다. 하지만 요즘에는 종교적인 의미는 사라지고, 특히 아이들에게는 즐거운 행사로 변했습니다." # 9809225871251990528
-  activity_RICE_polabian_drowning_marzanna_host_desc: "$BULLET_WITH_TAB$ 이교도일 경우 [piety_i] [piety|E] 획득\n$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 감소\n$BULLET_WITH_TAB$ 소유한 모든 [county|E]에 대해 [GetModifier('RICE_polabian_drowning_marzanna_county_modifier').GetNameWithTooltip] [county_modifier|E]를 얻을 확률\n$BULLET_WITH_TAB$ 특히 [piety_level|E]이 낮을 경우 #N 부정적인#! 징조 [character_modifier|E]를 얻을 소량의 확률" # 372966865715859558
-  activity_RICE_polabian_drowning_marzanna_province_desc: "강에 던져 버려." # 6115228817469843588
+  activity_RICE_polabian_drowning_marzanna: "[GetPlayer.Custom('RICE_marzanna')]의 익사" # 5356287041815287715
+  activity_RICE_polabian_drowning_marzanna_desc: "겨울이 곧 끝나가고 있습니다. [GetPlayer.Custom('RICE_marzanna')]의 인형을 태우고 그녀를 강에 빠뜨리는 것보다 추운 계절에 작별을 고하는 데 이보다 더 나은 방법이 있겠습니까?" # 14734495282770849291
+  activity_RICE_polabian_drowning_marzanna_selection_tooltip: "이 전통적인 서슬라브족 의식에서 겨울의 끝을 축하하십시오.\n\n$activity_RICE_polabian_drowning_marzanna_context_tooltip$" # 13040182364426253499
+  activity_RICE_polabian_drowning_marzanna_context_tooltip: "#bold 역사적 배경:#! 기독교 이전 시대에, 마르잔나 또는 모라나는 서슬라브족 사이에서 죽음, 부활, 풍요의 여신이었습니다. 겨울이 끝날 무렵, 봄을 맞이하기 위해, 사람들은 전통적으로 마르잔나의 형상을 만들었고, 이것은 이후 태워지고 지역 수역에 가라앉혀졌습니다. 슬라브족이 기독교화된 이후, 교회 당국에 의해 이 의식을 금지하려는 반복적인 시도가 있었지만, 폴란드, 체코, 슬로바키아와 같은 국가에서 오늘날까지 지속되고 있습니다. 하지만 오늘날에는, 종교적인 의미를 잃고, 더욱 즐거운 행사가 되었으며, 특히 아이들을 위한 것입니다." # 9809225871251990528
+  activity_RICE_polabian_drowning_marzanna_host_desc: "$BULLET_WITH_TAB$부족 종교 신자일 경우 [piety_i] [piety|E]를 얻습니다.\n$BULLET_WITH_TAB$[stress_loss_i|E]만큼의 [stress|E]를 상실합니다.\n$BULLET_WITH_TAB$소유한 모든 [county|E]이 [GetModifier('RICE_polabian_drowning_marzanna_county_modifier').GetNameWithTooltip] [county_modifier|E]를 얻을 확률\n$BULLET_WITH_TAB$#N 나쁜#! 징조 [character_modifier|E]를 획득할 낮은 확률, 특히 [piety_level|E]이 낮다면" # 372966865715859558
+  activity_RICE_polabian_drowning_marzanna_province_desc: "강에 던져버려" # 6115228817469843588
   activity_RICE_polabian_drowning_marzanna_destination_selection: "$activity_RICE_polabian_drowning_marzanna_province_desc$" # 7510399354318086850
   activity_RICE_polabian_drowning_marzanna_guest_help_text: "$activity_RICE_polabian_drowning_marzanna$" # 5607315929817927975
-  activity_RICE_polabian_drowning_marzanna_predicted_cost: "[GetPlayer.Custom('RICE_marzanna')]의 익사 의식을 주최하는 비용은 선택한 [activity_options|E]에 따라 달라집니다." # 10636702680369351402
-  activity_RICE_polabian_drowning_marzanna_conclusion_desc: "[GetActivityType( 'activity_RICE_polabian_drowning_marzanna' ).GetName]이 끝났습니다. [GetPlayer.GetFaith.PantheonTerm]의 은총 아래 겨울이 가고 봄이 시작되기를!" # 16598032824236251824
+  activity_RICE_polabian_drowning_marzanna_predicted_cost: "[GetPlayer.Custom('RICE_marzanna')] 익사 의식 주최 비용은 귀하가 선택하는 [activity_options|E]에 따라 달라집니다." # 10636702680369351402
+  activity_RICE_polabian_drowning_marzanna_conclusion_desc: "[GetActivityType( 'activity_RICE_polabian_drowning_marzanna' ).GetName]가 끝났습니다. [GetPlayer.GetFaith.PantheonTerm]의 은총 아래, 겨울이 물러가고 봄이 시작되기를!" # 16598032824236251824
   RICE_polabian_drowning_marzanna_ceremony_phase: "의식" # 3878012746933025863
-  RICE_polabian_drowning_marzanna_ceremony_phase_desc: "모르잔나의 우상을 강물에 던질 시간입니다!" # 15918161328406488376
-  RICE_polabian_drowning_marzanna_ritual_intent_header: "의례:" # 13781907821707693583
-  RICE_polabian_drowning_marzanna_ritual_intent: "의식" # 15674658978138415862
-  RICE_polabian_drowning_marzanna_ritual_intent_desc: "당신은 이 유서 깊은 [GetPlayer.GetCulture.GetName] 전통에 충실히 참여할 것입니다." # 3420248309085239644
-  RICE_polabian_drowning_marzanna_completed_log_title: "[GetPlayer.Custom('RICE_marzanna')] 익사 완료" # 4210114931576650598
-  RICE_polabian_drowning_marzanna_completed_log: "[CHARACTER.GetShortUIName|U]이(가) [GetPlayer.Custom('RICE_marzanna')]를 물에 빠뜨리는 지역 행사에 참여하는 것을 마쳤습니다." # 12981590602504293471
+  RICE_polabian_drowning_marzanna_ceremony_phase_desc: "모르잔나의 형상을 강 속으로 내던질 때가 되었다!" # 15918161328406488376
+  RICE_polabian_drowning_marzanna_ritual_intent_header: "의례" # 13781907821707693583
+  RICE_polabian_drowning_marzanna_ritual_intent: "의례" # 15674658978138415862
+  RICE_polabian_drowning_marzanna_ritual_intent_desc: "그대는 마땅히 이 유서 깊은, [GetPlayer.GetCulture.GetName] 전통을 이행해야 할 것이오." # 3420248309085239644
+  RICE_polabian_drowning_marzanna_completed_log_title: "[GetPlayer.Custom('RICE_marzanna')] 익사 의식 완료" # 4210114931576650598
+  RICE_polabian_drowning_marzanna_completed_log: "[CHARACTER.GetShortUIName|U]는 지역에서 [GetPlayer.Custom('RICE_marzanna')]를 익사시키는 풍습에 참여를 마쳤습니다." # 12981590602504293471
   TRAVEL_NAME_FOR_activity_RICE_polabian_drowning_marzanna: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_polabian_drowning_marzanna$" # 7879613245827573275
-  RICE_decision_polabian_drowning_marzanna_month_req: "2월 또는 3월" # 18124480208904879647
+  RICE_decision_polabian_drowning_marzanna_month_req: "월이 2월 또는 3월입니다." # 18124480208904879647
   RICE_polabian_drowning_marzanna_superstition_1_log_title: "불운" # 9569347683887569838
-  RICE_polabian_drowning_marzanna_superstition_1_log: "[CHARACTER.GetShortUIName|U]이(가) 물에 있는 동안 [GetPlayer.Custom('RICE_marzanna')]의 형상을 실수로 만졌습니다." # 13930474604298404455
+  RICE_polabian_drowning_marzanna_superstition_1_log: "[CHARACTER.GetShortUIName|U]는 물에 떠 있던 [GetPlayer.Custom('RICE_marzanna')]의 형상을 실수로 만졌습니다." # 13930474604298404455
   RICE_polabian_drowning_marzanna_superstition_2_log_title: "불운" # 9569347683887569838
-  RICE_polabian_drowning_marzanna_superstition_2_log: "[CHARACTER.GetShortUIName|U]가 익사했던 장소를 떠난 후 우연히 [GetPlayer.Custom('RICE_marzanna')]의 위패를 돌아보았습니다." # 16748566138890630230
+  RICE_polabian_drowning_marzanna_superstition_2_log: "[CHARACTER.GetShortUIName|U]는 그녀가 물에 빠진 장소를 떠난 뒤, 우연히 [GetPlayer.Custom('RICE_marzanna')]의 형상을 뒤돌아보았습니다." # 16748566138890630230
   RICE_polabian_drowning_marzanna_superstition_3_log_title: "불운" # 9569347683887569838
-  RICE_polabian_drowning_marzanna_superstition_3_log: "[CHARACTER.GetShortUIName|U]이(가) [GetPlayer.Custom('RICE_marzanna')]의 모형을 물에 빠뜨린 후 돌아오는 길에 실수로 넘어졌습니다." # 3308586928580633041
-  RICE_activity_result_drowning_of_marzanna_modifier: "[host.GetTitledFirstNamePossessive] [counties|E] 중 하나 이상이 [GetModifier('RICE_polabian_drowning_marzanna_county_modifier').GetNameWithTooltip] [county_modifier|E]를 얻었습니다" # 6221492011511090322
+  RICE_polabian_drowning_marzanna_superstition_3_log: "[CHARACTER.GetShortUIName|U]가 [GetPlayer.Custom('RICE_marzanna')]의 형상을 물에 빠뜨린 후 돌아오는 길에 실수로 넘어졌습니다." # 3308586928580633041
+  RICE_activity_result_drowning_of_marzanna_modifier: "[host.GetTitledFirstNamePossessive] [counties|E] 중 일부가 [GetModifier('RICE_polabian_drowning_marzanna_county_modifier').GetNameWithTooltip] [county_modifier|E]을(를) 획득했습니다" # 6221492011511090322
   activity_RICE_polabian_zapust_festival_host_an_a: "$host_activity_a$" # 13713790857143020716
   activity_RICE_polabian_zapust_festival: "자푸스트 축제" # 15338391319907718039
-  activity_RICE_polabian_zapust_festival_desc: "겨울이 한창 깊어졌으니 곧 많은 지역 사회에서 자푸스트 축제를 기념할 것입니다. 올해 자푸스트 축제에 참여하여 이 추운 겨울 달에 흥과 따뜻함을 찾아야 합니다!" # 12852813998546007394
-  activity_RICE_polabian_zapust_festival_selection_tooltip: "자푸스트 축제를 기념하십시오.\n\n$activity_RICE_polabian_zapust_festival_context_tooltip$" # 18241705028417278359
-  activity_RICE_polabian_zapust_festival_context_tooltip: "#bold 역사적 배경:# 현대 시대, 자푸스트는 동부 독일 루사티아의 소르브족이 행하는 축제입니다. 사순절 전, 또는 섣달 대보름 기간에 열리며, 기독교 이전의 전통이 있을 가능성도 있습니다. 자푸스트와 같은 전통은 소르브족이 마지막으로 남은 폴라브 슬라브족으로서 자신들의 정체성과 문화를 유지하는 데 중요한 역할을 합니다. 여기서의 묘사는 주로 현대 축제의 영향을 받았습니다." # 12920937289612061312
-  activity_RICE_polabian_zapust_festival_host_desc: "\n$BULLET_WITH_TAB$ [prestige_i|E][prestige|E] 획득\n$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 상실\n$BULLET_WITH_TAB$ 소유한 모든 [county|E]에서 [GetModifier('RICE_polabian_zapust_festival_county_modifier').GetNameWithTooltip] [county_modifier|E] 획득 기회" # 14147431536583033516
+  activity_RICE_polabian_zapust_festival_desc: "겨울이 깊어졌습니다. 이는 많은 지역 공동체들이 곧 자푸스트 축제를 기념할 것임을 의미합니다. 올해 우리는 자푸스트 축제에 참여하여 이 추운 겨울 동안 약간의 즐거움과 온기를 찾아야 합니다!" # 12852813998546007394
+  activity_RICE_polabian_zapust_festival_selection_tooltip: "자푸스트 축제를 거행합니다.\n\n$activity_RICE_polabian_zapust_festival_context_tooltip$" # 18241705028417278359
+  activity_RICE_polabian_zapust_festival_context_tooltip: "#emphasis 역사적 배경:#! 현대 시대에 자푸스트는 독일 동부 루사티아의 소르비아인들이 행하는 축제입니다. 이것은 사순절 직전, 즉 사육제 기간 동안 열리지만 기독교 이전의 선례가 있을 수도 있습니다. 자푸스트와 같은 전통은 마지막 남은 폴라비아 슬라브 민족으로서 소르비아인들이 그들의 정체성과 문화를 유지하는 데 중요합니다. 여기서의 묘사는 주로 현대의 사건에 영향을 받았습니다." # 12920937289612061312
+  activity_RICE_polabian_zapust_festival_host_desc: "\n$BULLET_WITH_TAB$[prestige_i|E][prestige|E] 획득\n$BULLET_WITH_TAB$[stress_loss_i|E][stress|E] 상실\n$BULLET_WITH_TAB$소유한 모든 [county|E]에 대해 [GetModifier('RICE_polabian_zapust_festival_county_modifier').GetNameWithTooltip] [county_modifier|E]를 얻을 확률" # 14147431536583033516
   activity_RICE_polabian_zapust_festival_destination_selection: "$activity_RICE_polabian_zapust_festival_province_desc$" # 6732551314315796418
   activity_RICE_polabian_zapust_festival_guest_help_text: "$activity_RICE_polabian_zapust_festival$" # 3820891292170555752
-  activity_RICE_polabian_zapust_festival_predicted_cost: "자푸스트 축제를 개최하는 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 11038835298082441679
-  activity_RICE_polabian_zapust_festival_conclusion_desc: "[GetActivityType( 'activity_RICE_polabian_zapust_festival' ).GetName]이 끝났습니다. 정말 즐거운 행사였습니다!" # 15340807382124829869
-  RICE_polabian_zapust_festival_celebration_phase: "축제" # 8745396489141951886
-  RICE_polabian_zapust_festival_celebration_phase_desc: "자푸스트 축제는 정말 축제 분위기가 물씬 풍깁니다!" # 278645819426261308
+  activity_RICE_polabian_zapust_festival_predicted_cost: "자푸스트 축제를 주최하는 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 11038835298082441679
+  activity_RICE_polabian_zapust_festival_conclusion_desc: "[GetActivityType( 'activity_RICE_polabian_zapust_festival' ).GetName]가 끝났습니다. 참으로 기쁜 행사였소!" # 15340807382124829869
+  RICE_polabian_zapust_festival_celebration_phase: "축하" # 8745396489141951886
+  RICE_polabian_zapust_festival_celebration_phase_desc: "자푸스트 축제는 참으로 흥겨운 시기입니다!" # 278645819426261308
   RICE_polabian_zapust_festival_community_intent_header: "커뮤니티:" # 7934550964328998982
-  RICE_polabian_zapust_festival_community_intent: "공동체" # 15637845118509028219
-  RICE_polabian_zapust_festival_community_intent_desc: "지역 사회와 사회 관계망에 적극적으로 참여하십시오. 획득하는 명성 외에 추가 [prestige_i|E] [prestige|E]을 얻습니다. 또한 [GetTrait('diligent').GetName( GetNullCharacter )|U] 또는 [GetTrait('ambitious').GetName( GetNullCharacter )]이라면 추가 [stress_i|E] [stress|E]를 잃습니다." # 12999959021839419978
+  RICE_polabian_zapust_festival_community_intent: "커뮤니티:" # 15637845118509028219
+  RICE_polabian_zapust_festival_community_intent_desc: "지역 공동체 및 사회 관계에 참여하는 데 집중할 것입니다. [prestige_i|E] [prestige|E]를 추가로 얻게 될 것입니다. [GetTrait('diligent').GetName( GetNullCharacter )|U] 또는 [GetTrait('ambitious').GetName( GetNullCharacter )] 특성이 있다면 추가로 [stress_i|E] [stress|E]를 상실합니다." # 12999959021839419978
   RICE_polabian_zapust_festival_fun_intent_header: "재미:" # 14619476848063890036
-  RICE_polabian_zapust_festival_fun_intent: "재미" # 488089071180702662
-  RICE_polabian_zapust_festival_fun_intent_desc: "이것은 즐겁게 시간을 보낼 좋은 기회입니다! 특히 당신이 [GetTrait('gregarious').GetName( GetNullCharacter )|U], [GetTrait('lazy').GetName( GetNullCharacter )], 또는 [GetTrait('gluttonous').GetName( GetNullCharacter )]라면 더욱더 많은 [stress_i|E] [stress|E]를 잃을 것입니다." # 1193137061725174999
-  RICE_polabian_zapust_festival_completed_log_title: "자푸스트 축제가 종료되었습니다" # 8829282757784529865
-  RICE_polabian_zapust_festival_completed_log: "[CHARACTER.GetShortUIName|U]이(가) 지역 자푸스트 축제 참석을 마쳤습니다." # 16958044211214292426
+  RICE_polabian_zapust_festival_fun_intent: "재미:" # 488089071180702662
+  RICE_polabian_zapust_festival_fun_intent_desc: "잔뜩 즐거운 시간을 보낼 기회입니다! [stress_i|E] [stress|E]가 훨씬 더 많이 감소합니다. 특히 [GetTrait('gregarious').GetName( GetNullCharacter )|U], [GetTrait('lazy').GetName( GetNullCharacter )], 또는 [GetTrait('gluttonous').GetName( GetNullCharacter )] 특성이 있다면 말입니다." # 1193137061725174999
+  RICE_polabian_zapust_festival_completed_log_title: "자푸스트 축제 종료" # 8829282757784529865
+  RICE_polabian_zapust_festival_completed_log: "[CHARACTER.GetShortUIName|U]가 현지 자푸스트 축제 참여를 마쳤습니다." # 16958044211214292426
   TRAVEL_NAME_FOR_activity_RICE_polabian_zapust_festival: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_polabian_zapust_festival$" # 17573381722864490515
-  RICE_activity_result_zapust_modifier: "[host.GetTitledFirstNamePossessive] [counties|E] 중 하나 이상이 [GetModifier('RICE_polabian_zapust_festival_county_modifier').GetNameWithTooltip] [county_modifier|E]를 얻었습니다" # 4815032638967904678
+  RICE_activity_result_zapust_modifier: "[host.GetTitledFirstNamePossessive] [counties|E] 중 한 곳 이상이 [GetModifier('RICE_polabian_zapust_festival_county_modifier').GetNameWithTooltip] [county_modifier|E]를 얻었습니다." # 4815032638967904678
   RICE_polabian_zapust_grand_donation_log_title: "대규모 기부" # 6857927670107474017
-  RICE_polabian_zapust_grand_donation_log: "[CHARACTER.GetShortUIName|U]이 자푸스트 행렬이 [CHARACTER.GetHerHim]에게 왔을 때 큰 기부를 했습니다." # 11010999602683706298
+  RICE_polabian_zapust_grand_donation_log: "[CHARACTER.GetShortUIName|U] 자푸스트 행렬이 [CHARACTER.GetHerHim]에게 왔을 때 거액을 기부했습니다." # 11010999602683706298
   RICE_polabian_temple_of_arkona_modifier: "스베토비트의 우상" # 15385415412485947226
-  RICE_polabian_temple_of_arkona_modifier_desc: "#EMP [svetovit_신상|E]는 근처에 있는 이교 [영주|E]들에게 [decision|E]을 내리도록 하여 $RICE_svetovit_헌물_결정$을 취하게 합니다. 이 [수정어|E]는 매년 초에 이 [지역|E]의 지배자가 이교도인지 아닌지에 따라 #P 긍정적#!과 #N 부정적#! 사이를 전환합니다. 비이교도들은 [decision|E]을 통해 그것을 파괴할 수 있습니다.#!" # 14278086712388133476
+  RICE_polabian_temple_of_arkona_modifier_desc: "#EMP [idol_of_svetovit|E]는 인근에 있는 이교 [faith|E]를 따르는 모든 [landed|E] [rulers|E]가 $RICE_polabian_gift_to_svetovit_decision$ [decision|E]을 내릴 수 있게 합니다. 이 [modifier|E]는 또한 이 [county|E]가 각각 이교도 또는 비이교도에게 통치되는지 여부에 따라 매년 초에 #P 긍정적#! 및 #N 부정적#! 변형 사이를 전환합니다. 비이교도는 [decision|E]을 통해 이를 철거할 수 있습니다.#!\n\n" # 14278086712388133476
   RICE_polabian_temple_of_arkona_modifier_non_pagan: "$RICE_polabian_temple_of_arkona_modifier$" # 7287185735533114229
   RICE_polabian_temple_of_arkona_modifier_non_pagan_desc: "$RICE_polabian_temple_of_arkona_modifier_desc$" # 8686490045890203993
-  RICE_polabian_aspiration_gottschalk_sons_revenge: "[aspiration|E]: 성 고트샬크 복수" # 2821758397011179891
-  RICE_polabian_aspiration_gottschalk_sons_revenge_desc: "#italic 부디보이와 헨리의 아버지 고츠할크는 이교도 반란군에게 살해당했습니다. 아버지의 복수를 위해, 그들은 반란군이 새로운 지도자로 선출한 귀족 크루토이를 교묘하게 제압해야 합니다.#!$RICE_polabian_aspiration_budivoj_henry_desc$" # 7391171909290990816
-  RICE_polabian_aspiration_krutoj_finish_job: "[aspiration|E]: 고트샬크의 아들들 제거" # 8403442659895215208
-  RICE_polabian_aspiration_krutoj_finish_job_desc: "#italic 크루토이가 이교도 오보트리트 귀족들이 기독교도 갓츠할크를 몰아낼 때 권력을 잡았지만, 부디보이와 헨리라는 갓츠할크의 살아남은 아들들을 죽여야 비로소 업무를 마칠 수 있습니다.#!$RICE_polabian_aspiration_krutoj_desc$" # 9375547231556522079
+  RICE_polabian_aspiration_gottschalk_sons_revenge: "[aspiration|E]: 성자 고트샬크의 복수" # 2821758397011179891
+  RICE_polabian_aspiration_gottschalk_sons_revenge_desc: "#italic 부디보이와 헨리의 아버지 고트샬크는 이교도 반란군에게 살해당했습니다. 아버지의 복수를 위해 그들은 반란군이 새로운 지도자로 선출한 귀족, 크루토이를 능가해야 합니다.#!$RICE_polabian_aspiration_budivoj_henry_desc$\n\n" # 7391171909290990816
+  RICE_polabian_aspiration_krutoj_finish_job: "[aspiration|E]: 고트샤크의 아들들 제거" # 8403442659895215208
+  RICE_polabian_aspiration_krutoj_finish_job_desc: "#italic 크루토이는 이교도 오보트리트 귀족들이 기독교도 고츠칼크를 몰아내고 집권했으나, 고츠칼크의 살아남은 아들들인 부디보이와 헨리를 죽여 그 일을 마무리해야 합니다.#!$RICE_polabian_aspiration_krutoj_desc$" # 9375547231556522079
   RICE_polabian_scions_of_saint_gottschalk: "성 고트샬크의 후예" # 4276357196757149046
-  RICE_polabian_scions_of_saint_gottschalk_desc: "이 왕조의 일원인 성 고트샬크는 [GetTitleByKey('d_nordmark').GetNameNoTier]의 정당한 통치자였으나, 반란을 일으킨 이교도들에게 축출당했습니다. 그의 아들 부디보이와 헨리는 이교도 크루토이 경쟁자로부터 그들의 선조의 봉토를 되찾아 아버지의 복수를 했습니다." # 5592612975120961842
-  RICE_polabian_defenders_of_svetovit: "스베토비트의 수호자" # 7012399697370588659
-  RICE_polabian_defenders_of_svetovit_desc: "이 왕조의 일원인 크루토이는 소위 성인 고트샬크의 아들들인 크리스티교인 보디보이와 헨리를 제거함으로써 [GetTitleByKey('d_nordmark').GetNameNoTier]에 대한 크리스티교의 침입에 저항했습니다." # 4780043991458412483
-  RICE_polabian_svetovit_oracle_modifier_1: "스베토비트의 좋은 예측" # 10975455558512395904
-  RICE_polabian_svetovit_oracle_modifier_1_desc: "이 인물은 최근에 [arkona_short|E]에 있는 [idol_of_svetovit|E]에게 공물을 바쳤습니다. 다음 추수 축제 동안 스베토비트의 사제들은 내년에 대한 좋은 예측을 받았으며, 이는 이 인물와 그 전에 [svetovit_short|E]에게 선물을 준 모든 사람들에게 좋은 영향을 미칩니다." # 1235569010158818152
+  RICE_polabian_scions_of_saint_gottschalk_desc: "이 왕조의 일원인 성(聖) 고트샤르크는 [GetTitleByKey('d_nordmark').GetNameNoTier]의 정당한 통치자였으나, 반란을 일으킨 이교도들에게 축출당했습니다. 그의 아들 부디보이와 하인리히는 경쟁 상대인 이교도 크루토이로부터 그들의 선조 대대로 물려온 봉토를 되찾아 아버지의 복수를 했습니다." # 5592612975120961842
+  RICE_polabian_defenders_of_svetovit: "스베토비트의 수호자들" # 7012399697370588659
+  RICE_polabian_defenders_of_svetovit_desc: "이 왕조의 일원인 크루토이는 이른바 성자라 불린 고트샬크의 아들들인 기독교도 보디보이와 헨리, 자신의 경쟁자들을 제거함으로써 [GetTitleByKey('d_nordmark').GetNameNoTier]에 대한 기독교 세력의 침입에 저항했다." # 4780043991458412483
+  RICE_polabian_svetovit_oracle_modifier_1: "스베토비트의 좋은 예언" # 10975455558512395904
+  RICE_polabian_svetovit_oracle_modifier_1_desc: "이 인물은 최근 [arkona_short|E]에 있는 [idol_of_svetovit|E]에게 공물을 바쳤습니다. 뒤이은 수확 축제에서 스베토비트의 사제들이 내년에 대한 좋은 예언을 받았으며, 이는 이 인물과 그때까지 [svetovit_short|E]에게 선물을 바쳤던 모든 이들에게 좋은 결과를 가져올 것입니다." # 1235569010158818152
   RICE_polabian_svetovit_oracle_modifier_2: "$RICE_polabian_svetovit_oracle_modifier_1$" # 2827632957475714647
   RICE_polabian_svetovit_oracle_modifier_2_desc: "$RICE_polabian_svetovit_oracle_modifier_1_desc$" # 11622235137233246916
   RICE_polabian_svetovit_oracle_modifier_3: "$RICE_polabian_svetovit_oracle_modifier_1$" # 2827632957475714647
@@ -118,55 +118,55 @@
   RICE_polabian_svetovit_oracle_modifier_9: "$RICE_polabian_svetovit_oracle_modifier_1$" # 2827632957475714647
   RICE_polabian_svetovit_oracle_modifier_9_desc: "$RICE_polabian_svetovit_oracle_modifier_1_desc$" # 11622235137233246916
   RICE_polabian_zapust_festival_county_modifier: "성공적인 자푸스트 축제" # 13918191108132931241
-  RICE_polabian_zapust_festival_county_modifier_desc: "이 지역은 최근 주요 자푸스트 축제를 성공적으로 개최했습니다. 이 축제는 이곳에 사는 사람들을 하나로 모아 사회적 유대와 지역 사회 및 가족 간의 관계를 강화했습니다." # 14987286765577270886
-  RICE_polabian_drowning_marzanna_county_modifier: "마르잔나 성공적인 익사" # 18434930626060821989
-  RICE_polabian_drowning_marzanna_county_modifier_desc: "이 지역에서는 최근에 [GetPlayer.Custom('RICE_marzanna')]의 인형을 물에 빠뜨리는 의식을 치르는 전통을 기념했습니다. 지역 주민들은 이 의식이 매우 잘 진행되어 이 지역에 사는 모든 사람들에게 풍년이 보장되었다고 믿습니다." # 467334109428976487
-  RICE_polabian_marzanna_superstition_1: "마르자나의 허수아비를 실수로 건드렸습니다" # 570969654877823003
-  RICE_polabian_marzanna_superstition_2: "마잔나의 허수아비를 되돌아보았습니다" # 10362274191504700993
-  RICE_polabian_marzanna_superstition_3: "익사 후 마르잔나가 쓰러졌다" # 1324207275956009263
-  RICE_polabian_destroy_arkona_idol_modifier: "스베토비트 우상 파괴" # 6398382017828725208
-  RICE_polabian_restore_arkona_idol_modifier: "스벤토비트 우상 복원됨" # 11860843621182112018
-  RICE_polabian_renovated_slavic_ringfort: "개조된 슬라브식 환상 요새" # 9274030878541600714
-  RICE_polabian_beef_dumplings_horseradish_sauce: "겨자 소스를 곁들인 소고기 만두를 먹었습니다" # 9476282089531352222
-  RICE_polabian_graben_modifier: "통치자들이 그라벤으로부터 말을 보호하는 데 도움을 주었습니다" # 2573169114647311642
-  RICE_polabian_powerful_svetovit_priests: "스베토비트의 강력한 사제" # 9049740765385249292
-  RICE_polabian_powerful_svetovit_priests_desc: "아르코나에 있는 스벤토비트 신전의 중요성으로 인해 그곳에 거주하는 사제들의 영향력이 커졌고, 이 지역 세속 지도자들의 권위는 약화되었습니다." # 6672913379528938718
-  RICE_polabian_oppressing_svetovit_priests: "스베토비트 사제들의 억압" # 7362286942722903304
-  RICE_polabian_oppressing_svetovit_priests_desc: "아르코나의 스베토비트 신전이 두드러짐에 따라 그곳에 거주하는 사제들은 세속 지도자들을 희생시켜 과도한 권력을 얻었으며, 이제 그들은 자신들의 영향력을 억제하고 권위를 재확립하기 위해 할 수 있는 모든 일을 하고 있습니다." # 2592309369801029616
-  RICE_polabian_cooperating_svetovit_priests: "스베토비트 협력 사제" # 157832452405050978
-  RICE_polabian_cooperating_svetovit_priests_desc: "아르코나의 스베토비트 사원의 위상으로 인해 그곳에 거주하는 사제들은 상당한 권력과 영향력을 얻었습니다. 이는 세속 지도자들과의 긴장으로 이어질 수 있었지만, 대신 양측은 이해에 도달하고 지역의 발전을 위해 협력합니다." # 10789450458796256619
+  RICE_polabian_zapust_festival_county_modifier_desc: "이 지역에서 최근 성공적인 대규모의 자푸스트 축제가 열렸습니다. 이 축제는 여기에 사는 사람들을 한데 모으며, 그들의 사회적 유대를 강화하고, 이 지역 공동체들과 가족들 간의 결속을 다졌습니다." # 14987286765577270886
+  RICE_polabian_drowning_marzanna_county_modifier: "마르잔나 수장 성공" # 18434930626060821989
+  RICE_polabian_drowning_marzanna_county_modifier_desc: "이 지역에서는 최근 [GetPlayer.Custom('RICE_marzanna')]의 인형을 의례적으로 물에 빠뜨리는 전통 의식을 치렀습니다. 현지인들은 이 의식이 아주 잘 치러졌으며, 이 지역에 사는 모든 이들을 위한 풍작을 보장한다고 믿고 있습니다." # 467334109428976487
+  RICE_polabian_marzanna_superstition_1: "실수로 마르잔나의 형상을 건드렸다" # 570969654877823003
+  RICE_polabian_marzanna_superstition_2: "마르잔나의 형상을 뒤돌아보았다" # 10362274191504700993
+  RICE_polabian_marzanna_superstition_3: "마레잔나를 익사시킨 후 쓰러짐" # 1324207275956009263
+  RICE_polabian_destroy_arkona_idol_modifier: "스비아토비트의 우상을 철거했다" # 6398382017828725208
+  RICE_polabian_restore_arkona_idol_modifier: "스베토비트의 우상을 복원했습니다" # 11860843621182112018
+  RICE_polabian_renovated_slavic_ringfort: "개축된 슬라브 링포트" # 9274030878541600714
+  RICE_polabian_beef_dumplings_horseradish_sauce: "서양 고추냉이 소스를 곁들여 소고기 만두를 먹었다." # 9476282089531352222
+  RICE_polabian_graben_modifier: "통치자들은 그라벤으로부터 말들을 보호하는 것을 도왔다." # 2573169114647311642
+  RICE_polabian_powerful_svetovit_priests: "스베토비트의 강력한 성직자들" # 9049740765385249292
+  RICE_polabian_powerful_svetovit_priests_desc: "아르코나의 스베토비트 신전이 명성을 떨치면서, 그곳에 거주하는 사제들의 영향력이 커져 그 지역 세속 지도자들의 권위가 약화되었습니다." # 6672913379528938718
+  RICE_polabian_oppressing_svetovit_priests: "스베토비트 사제단 억압" # 7362286942722903304
+  RICE_polabian_oppressing_svetovit_priests_desc: "아르코나에 위치한 스비아토비트 신전의 #EMP 위세#로 인해, 그곳에 거주하는 사제들이 세속 지도자들을 희생시키며 지나치게 많은 권력을 얻었습니다. 이제 세속 지도자들은 사제들의 영향력을 억제하고 자신들의 권위를 재확인하기 위해 온 힘을 다하고 있습니다." # 2592309369801029616
+  RICE_polabian_cooperating_svetovit_priests: "스베토비트의 협력하는 사제들" # 157832452405050978
+  RICE_polabian_cooperating_svetovit_priests_desc: "아르코나에 위치한 스베토비트 신전의 부각으로 인해, 그곳에 거주하는 사제들은 막대한 권력과 영향력을 얻게 되었습니다. 이는 세속 지도자들과의 긴장으로 이어질 수도 있었으나, 대신 양측은 이해를 통해 지역 발전을 위해 협력하는 관계를 구축했습니다." # 10789450458796256619
   RICE_polabian_spreewald: "슈프레발트" # 2822237229966007800
-  RICE_polabian_spreewald_desc: "#italic 슈프레발트#!는 슈프레 강의 거대한 내륙 삼각주입니다. 이 지역은 숲, 늪, 초원으로 가득 차 있으며 자연 및 인공 수로, 운하, 관개 시설도 있습니다. 수세기 동안 지역 사회는 이 독특한 풍경에 잘 적응해 왔습니다." # 12844391764225915422
-  RICE_polabian_destroy_arkona_temple: "아르코나의 우상 철거" # 17147189298283394217
-  RICE_polabian_destroy_arkona_temple_tooltip: "숭배하는 신에게 모욕적인 존재입니다." # 2406777006206105126
-  RICE_polabian_destroy_arkona_temple_desc: "오랫동안 [GetTitleByKey('c_rugen').GetNameNoTier] 섬은 이교도 신 [svetovit_short|E]에게 봉헌된 아르코나의 사원이 있는 곳이었습니다. 이 지역에서 스벤토비트와 그의 사기꾼 사제들의 영향력을 근절하기 위해, 우리는 아르코나 사원의 중심인 [idol_of_svetovit|E]을 파괴해야 합니다." # 8022261948778286610
-  RICE_polabian_destroy_arkona_temple_confirm: "섬의 우상을 파괴해야 합니다!" # 18030814436687107108
-  RICE_polabian_destroy_arkona_temple_effect_tooltip_1: "이교 [rulers|E]는 더 이상 [arkona_short|E]에서 $RICE_polabian_gift_to_svetovit_decision$ [decision|E]을 내릴 수 없습니다." # 5142913920863141760
-  RICE_polabian_destroy_arkona_temple_context_tooltip: "#bold 역사적 배경:# 루겐 섬(현대 독일)에 위치한 아르코나 신전은 초기 중세 시대 슬라브 족의 주요 종교 유적이었습니다. 이곳은 지역 주민들이 공물을 바치던 스베토비트 신을 위한 유명한 우상이 모셔져 있었으며, 강력한 제사장들은 다음 수확량의 결과를 예측하는 의식을 행했습니다. 1168년, 덴마크 왕 발데마르 1세와 덴마크의 아브살론 주교가 이끄는 덴마크 군대가 아르코나를 점령하면서, 이 우상은 파괴되었고, 그 섬은 점차 기독교화되었습니다." # 11289254136573736280
-  RICE_polabian_restore_arkona_temple: "아르코나의 우상 복원" # 10132923476845336133
-  RICE_polabian_restore_arkona_temple_tooltip: "우리 백성이 한때 숭배했던 우상을 복원해야 합니다!" # 2429586135408573692
-  RICE_polabian_restore_arkona_temple_desc: "수년 동안 [GetTitleByKey('c_rugen').GetNameNoTier] 섬은 아르코나에 위치한 위대한 신 [svetovit_short|E]를 숭배하는 강력한 사원의 보금자리였습니다. 하지만 악랄한 야만족들은 사원의 상당 부분을 파괴하고 거대한 [idol_of_svetovit|E]를 무너뜨렸습니다. 이제 우리가 이 섬을 다스리게 된 만큼, [svetovit_idol_short|E]를 재건하는 것이 우리의 의무입니다." # 226076215903819160
-  RICE_polabian_restore_arkona_temple_confirm: "오래된 신들이 아르코나로 돌아오리라!" # 8852408295453365507
-  RICE_polabian_restore_arkona_temple_effect_tooltip_1: "이교도 [rulers|E]는 이제 [arkona_short|E]에서 $RICE_polabian_gift_to_svetovit_decision$ [decision|E]을 다시 내릴 수 있습니다." # 6881776539623119427
+  RICE_polabian_spreewald_desc: "#italic 슈프레발트#!는 슈프레 강이 형성한 거대한 내륙 삼각주입니다. 이 지역은 숲, 습지, 초원뿐만 아니라 자연적 및 인공적 수로, 운하, 관개 시설로 가득합니다. 수백 년 동안 지역 공동체는 이 독특한 지형에 잘 적응해 왔습니다." # 12844391764225915422
+  RICE_polabian_destroy_arkona_temple: "아르코나의 우상 타파" # 17147189298283394217
+  RICE_polabian_destroy_arkona_temple_tooltip: "우상의 계속된 존재는 [ROOT.Char.GetFaith.HighGodName]께 대한 모욕입니다!" # 2406777006206105126
+  RICE_polabian_destroy_arkona_temple_desc: "수년 동안, [GetTitleByKey('c_rugen').GetNameNoTier] 섬의 아르코나에는 이교 신 [svetovit_short|E]에게 봉헌된 신전이 있었습니다. 이 지역에서 [svetovit_short|E]와 그 사기꾼 사제들의 영향력을 근절하기 위해, 우리는 아르코나 신전의 핵심인 [idol_of_svetovit|E]를 파괴해야 합니다." # 8022261948778286610
+  RICE_polabian_destroy_arkona_temple_confirm: "섬의 우상은 파괴되어야만 합니다!" # 18030814436687107108
+  RICE_polabian_destroy_arkona_temple_effect_tooltip_1: "이교도 [rulers|E]는 [arkona_short|E]에서 $RICE_polabian_gift_to_svetovit_decision$ [decision|E]를 더 이상 취할 수 없을 것입니다." # 5142913920863141760
+  RICE_polabian_destroy_arkona_temple_context_tooltip: "#emphasis 역사적 배경:#! 뤼겐 섬(현대 독일 지역)에 위치한 아르코나 신전은 중세 초기 슬라브 이교도에게 중요한 종교 유적지였습니다. 이곳은 신 스베토비트에게 바쳐진 유명한 우상의 본거지였으며, 그에게는 주변 지역 사람들로부터 공물이 바쳐졌고, 강력한 사제들은 다음 수확 결과를 예측하는 의식을 수행했습니다. 기원후 1168년, 발데마르 1세 국왕과 덴마크의 압살론 주교 휘하의 덴마크 군대가 아르코나를 점령한 후, 우상은 파괴되었고 섬은 점진적으로 기독교화되었습니다." # 11289254136573736280
+  RICE_polabian_restore_arkona_temple: "아르코나의 신상 복원" # 10132923476845336133
+  RICE_polabian_restore_arkona_temple_tooltip: "우리 백성이 예전에 숭배했던 신상이 복원되어야 합니다!" # 2429586135408573692
+  RICE_polabian_restore_arkona_temple_desc: "수많은 세월 동안, [GetTitleByKey('c_rugen').GetNameNoTier] 섬은 위대한 신 [svetovit_short|E]에게 바쳐진 아르코나의 강력한 신전의 본거지였습니다.\n아, 사악한 야만인들이 신전의 상당 부분을 파괴하고 위대한 [idol_of_svetovit|E]를 무너뜨렸습니다.\n이제 우리가 이 섬을 다스리니, [svetovit_idol_short|E]를 재건하는 것이 우리의 의무입니다." # 226076215903819160
+  RICE_polabian_restore_arkona_temple_confirm: "옛 신들이 아르코나로 돌아오리라!" # 8852408295453365507
+  RICE_polabian_restore_arkona_temple_effect_tooltip_1: "이교도 [rulers|E]는 이제 [arkona_short|E]에서 $RICE_polabian_gift_to_svetovit_decision$에 해당하는 [decision|E]을(를) 다시 내릴 수 있습니다" # 6881776539623119427
   RICE_polabian_restore_arkona_temple_context_tooltip: "$RICE_polabian_destroy_arkona_temple_context_tooltip$" # 505591730525953976
-  RICE_polabian_gift_to_svetovit_decision: "스베토비트에게 선물 바치기" # 7522217233089630762
-  RICE_polabian_gift_to_svetovit_decision_tooltip: "올해 후반에 잠재적인 [modifiers|E]를 얻기 위해 [idol_of_svetovit|E]에게 선물을 주십시오" # 8094781394359282701
-  RICE_polabian_gift_to_svetovit_decision_desc: "강력한 [idol_of_svetovit|E]이 [GetTitleByKey('c_rugen').GetNameNoTier] 섬의 아르코나 곶에 있는 거대한 사원에 서 있습니다. 옛 신들을 존경하고 [svetovit_short|E]에게 좋은 선물을 보내는 자들은 아마 그의 축복을 받을 것입니다." # 17718150678564491139
-  RICE_polabian_gift_to_svetovit_decision_confirm: "스베토비트에게 바칠 공물을 준비하십시오!" # 16699066758250879651
-  RICE_polabian_gift_to_svetovit_decision_effect_tooltip_1: "[idol_of_svetovit|E]에게 보낼 선물의 크기를 선택하여, [piety_i|E] [piety|E]와 [prestige_i|E] [prestige|E]를 얼마나 얻을지 결정합니다." # 4024414035472940499
-  RICE_polabian_gift_to_svetovit_decision_effect_tooltip_2: "#bold 11월#!에 신탁의 점괘가 좋을지(#V 50%#! 확률) 통보받게 됩니다. 점괘가 좋다면 선물 규모에 따라 유리한 [character_modifier|E]를 획득할 기회를 포함해 추가 보너스를 받을 수 있습니다." # 4394232586432920205
+  RICE_polabian_gift_to_svetovit_decision: "스비아토비트에게 제물을 바치기" # 7522217233089630762
+  RICE_polabian_gift_to_svetovit_decision_tooltip: "[idol_of_svetovit|E]에게 한 해 중 나중에 발생할 수 있는 잠재적인 [modifiers|E]를 대가로 선물을 바칩니다." # 8094781394359282701
+  RICE_polabian_gift_to_svetovit_decision_desc: "강력한 [idol_of_svetovit|E]는 [GetTitleByKey('c_rugen').GetNameNoTier] 섬의 아르코나 곶에 위치한 대사원에 서 있습니다. 옛 신들을 존경하고 [svetovit_short|E]에게 값진 선물을 보내는 자들은 아마 그의 축복을 받을 것입니다." # 17718150678564491139
+  RICE_polabian_gift_to_svetovit_decision_confirm: "스베토비트께 바칠 제물을 준비하라!" # 16699066758250879651
+  RICE_polabian_gift_to_svetovit_decision_effect_tooltip_1: "귀하는 [idol_of_svetovit|E]에게 보낼 선물의 규모를 선택하게 되며, 이는 귀하가 얻게 될 [piety_i|E] [piety|E]와 [prestige_i|E] [prestige|E]의 양에 영향을 미칩니다." # 4024414035472940499
+  RICE_polabian_gift_to_svetovit_decision_effect_tooltip_2: "#bold 11월#!에 신탁의 점술이 길할지 통보받으실 겁니다(#V 50%#! 확률). 만약 길하다면, 봉헌물의 크기에 따라 유익한 [character_modifier|E]를 받을 확률을 포함하여 그때 추가적인 보너스를 받을 수 있습니다." # 4394232586432920205
   RICE_polabian_gift_to_svetovit_decision_context_tooltip: "$RICE_polabian_destroy_arkona_temple_context_tooltip$" # 505591730525953976
-  RICE_polabian_gift_to_svetovit_decision_type: "선물의 크기를 선택하세요." # 3452518456192071352
-  RICE_polabian_gift_to_svetovit_decision_gui: "[svetovit_short|E]에게 줄 선물의 크기를 선택하십시오" # 14333614284141125190
-  RICE_polabian_gift_to_svetovit_decision_small_option: "#Bold 겸손한 선물#!" # 511262504135902729
+  RICE_polabian_gift_to_svetovit_decision_type: "선물의 크기를 선택하십시오" # 3452518456192071352
+  RICE_polabian_gift_to_svetovit_decision_gui: "[svetovit_short|E]에게 바칠 선물의 규모를 선택하십시오" # 14333614284141125190
+  RICE_polabian_gift_to_svetovit_decision_small_option: "#Bold 소박한 선물#!" # 511262504135902729
   RICE_polabian_gift_to_svetovit_decision_small_option_desc: "$RICE_polabian_gift_to_svetovit_decision_small_option$" # 15828082323741919447
-  RICE_polabian_gift_to_svetovit_decision_small_option_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_small_cost')]#!#!\n\n$EFFECT_LIST_BULLET$ #P 점괘가 좋을 경우 유리한 [modifier|E]을 받을 확률 #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_modifier_chance_small')]%#!#!\n$EFFECT_LIST_BULLET$ [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_small_bonus')]#! [piety|E] 획득, 점괘가 좋을 경우 추가 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_small_bonus')]#! [piety|E] 획득\n$EFFECT_LIST_BULLET$ [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_small_bonus')]#! [prestige|E] 획득" # 13512943922561705203
-  RICE_polabian_gift_to_svetovit_decision_medium_option: "#Bold 위대한 선물#!" # 10394718222474283470
+  RICE_polabian_gift_to_svetovit_decision_small_option_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_small_cost')]#!#!\n$EFFECT_LIST_BULLET$ #P [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_modifier_chance_small')]%#! 신탁의 결과가 좋다면 유용한 [modifier|E]를 받을 확률\n$EFFECT_LIST_BULLET$ 신탁의 결과가 좋다면 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_small_bonus')]#! [piety|E]와 추가 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_small_bonus')]#! [piety|E]를 얻음\n$EFFECT_LIST_BULLET$ [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_small_bonus')]#! [prestige|E]를 얻음" # 13512943922561705203
+  RICE_polabian_gift_to_svetovit_decision_medium_option: "#Bold 위대한 선물!#" # 10394718222474283470
   RICE_polabian_gift_to_svetovit_decision_medium_option_desc: "$RICE_polabian_gift_to_svetovit_decision_medium_option$" # 7793764896381124598
-  RICE_polabian_gift_to_svetovit_decision_medium_option_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_medium_cost')]#!#!\n\n$EFFECT_LIST_BULLET$ #P 신탁의 점괘가 좋으면 [modifier|E] 이점을 얻을 확률 #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_modifier_chance_medium')]%#! \n$EFFECT_LIST_BULLET$ [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_medium_bonus')]#! [piety|E] 획득. 신탁의 점괘가 좋으면 추가로 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_medium_bonus')]#! [piety|E] 획득\n$EFFECT_LIST_BULLET$ [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_medium_bonus')]#! [prestige|E] 획득" # 13321949863026802588
-  RICE_polabian_gift_to_svetovit_decision_large_option: "#Bold 대대적인 선물#!" # 14603715162589187745
+  RICE_polabian_gift_to_svetovit_decision_medium_option_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_medium_cost')]#!#!\n\n$EFFECT_LIST_BULLET$ #P [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_modifier_chance_medium')]%#! 신탁이 좋다면 이로운 [modifier|E]를 받을 확률\n$EFFECT_LIST_BULLET$ 신탁이 좋다면 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_medium_bonus')]#! [piety|E]와 추가로 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_medium_bonus')]#! [piety|E] 획득\n$EFFECT_LIST_BULLET$ [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_medium_bonus')]#! [prestige|E] 획득" # 13321949863026802588
+  RICE_polabian_gift_to_svetovit_decision_large_option: "#bold 성대한 선물#!" # 14603715162589187745
   RICE_polabian_gift_to_svetovit_decision_large_option_desc: "$RICE_polabian_gift_to_svetovit_decision_large_option$" # 8571536928198289854
-  RICE_polabian_gift_to_svetovit_decision_large_option_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_large_cost')]#!#!\n\n$EFFECT_LIST_BULLET$ #P [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_modifier_chance_large')]%#! 예언이 좋으면 유익한 [modifier|E]를 받을 확률\n$EFFECT_LIST_BULLET$ 예언이 좋으면 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_large_bonus')]#! [piety|E]와 추가 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_large_bonus')]#! [piety|E]를 받음\n$EFFECT_LIST_BULLET$ [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_large_bonus')]#! [prestige|E]를 받음" # 4141975518946288734
+  RICE_polabian_gift_to_svetovit_decision_large_option_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_large_cost')]#!#!\n$EFFECT_LIST_BULLET$ #P [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_modifier_chance_large')]%#! 확률로 오라클의 점괘가 좋다면 유익한 [modifier|E] 획득\n$EFFECT_LIST_BULLET$ 오라클의 점괘가 좋다면 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_large_bonus')]#! [piety|E] 획득 및 추가 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_large_bonus')]#! [piety|E] 획득\n$EFFECT_LIST_BULLET$ [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_polabian_svetovit_offering_large_bonus')]#! [prestige|E] 획득" # 4141975518946288734
   polabian.0000.t: "xxxxx" # 1951045980481827005
   polabian.0000.desc: "xxxxx" # 1951045980481827005
   polabian.0000.a: "xxxxx" # 1951045980481827005
@@ -197,27 +197,27 @@
   polabian.0009.t: "xxxxx" # 1951045980481827005
   polabian.0009.desc: "xxxxx" # 1951045980481827005
   polabian.0009.a: "xxxxx" # 1951045980481827005
-  polabian.0010.t: "성인 [gottschalk.GetFirstNameNoTooltip]의 아들들" # 7594897315503706514
-  polabian.0010.desc: "불과 몇 달 전, 오보트리테의 [christian.GetAdjective] 왕자인 [gottschalk.GetFirstName]은 [gottschalk.GetHerHis] [slavic.GetAdjective] 이교도 부족의 반란 중에 사망했습니다. 그 후 반란군은 그들 중에서 [krutoj.GetFirstName]를 선출하여 새로운 오보트리테 왕자로 삼았습니다.\n\n[christian.GetAdjectiveNoTooltip] 오보트리테인에게 희망은 혼란 속에서 살아남아 망명한 [gottschalk.GetFirstNamePossessiveNoTooltip] 두 아들, [budivoj.GetFirstName]와 [henry.GetFirstName]에게 남아 있습니다. 그들은 쓰러진 아버지의 복수를 위해 피를 갈구하지만, 자신들이 약한 입장에 있다는 것을 깨닫고 작센의 통치자, [ordulf.GetFirstName] 및 [ordulf.GetHerHis] 아들 [magnus.GetFirstName]와 동맹을 맺고 때를 기다리고 있습니다. 한편, [krutoj.GetFirstNameNoTooltip]은 형제들이 [krutoj.GetHerselfHimself]와 [christian.GetName]에 반대하는 오보트리테인에게 장기적인 위협이라는 것을 알고 있습니다.\n\n전쟁, 음모 또는 기타 수단을 통해서든 양측이 자신의 열망을 실현하고 다른 쪽을 제거하려 하는 것은 시간문제일 뿐입니다." # 12217775903603282528
-  polabian.0010.a: "아버지, 저희가 땅을 되찾고 아버지의 원수를 갚을 것입니다!" # 11019728490066170944
-  polabian.0010.tooltip: "#bold 부디보이와 헨리크의 [aspiration|E]: 성 갓츠할크를 위한 복수#!$RICE_polabian_aspiration_budivoj_henry_desc$" # 11724118405622852950
+  polabian.0010.t: "성자 [gottschalk.GetFirstNameNoTooltip]의 아들들" # 7594897315503706514
+  polabian.0010.desc: "불과 몇 달 전, 오보트리테스의 [christian.GetAdjective] 공작 [gottschalk.GetFirstName]은 [gottschalk.GetHerHis] [slavic.GetAdjective] 이교도 부족민들에 의한 봉기 중에 살해당했습니다. 반란군들은 이어서 그들 중에서 [krutoj.GetFirstName]을 선출하여 오보트리테스의 새 공작으로 삼았습니다.\n\n[christian.GetAdjectiveNoTooltip] 오보트리테스인들에게 희망은 혼란 속에서 살아남아 망명한 [gottschalk.GetFirstNamePossessiveNoTooltip] 두 아들, [budivoj.GetFirstName]와 [henry.GetFirstName]에게 남아 있습니다. 그들은 쓰러진 아버지의 복수를 위해 피를 쫓고 있지만, 자신들이 취약한 위치에 있음을 깨닫고 때를 기다리며 작센의 통치자 [ordulf.GetFirstName]과 [ordulf.GetHerHis] 아들 [magnus.GetFirstName]와 동맹을 맺었습니다. [krutoj.GetFirstNameNoTooltip]는 그들 나름대로 형제들이 [krutoj.GetHerselfHimself]와 [christian.GetName]에 확고하게 반대하는 오보트리테스인들에게 장기적인 위협이라는 것을 알고 있습니다.\n\n전쟁이든, 음모든, 다른 수단이든 상관없이 양측이 자신들의 열망을 충족시키려 하고 다른 한쪽을 제거하려 할 것은 시간 문제입니다." # 12217775903603282528
+  polabian.0010.a: "아버지, 우리는 우리의 땅을 되찾고 당신의 원수를 갚으리다!" # 11019728490066170944
+  polabian.0010.tooltip: "#bold 부디보이와 헨리크의 [aspiration|E]: 성 고트샬크에게 복수!#$RICE_polabian_aspiration_budivoj_henry_desc$\n" # 11724118405622852950
   polabian.0011.t: "[krutoj.GetFirstNameNoTooltip] 벤드" # 8773225084344862528
-  polabian.0011.desc: "#F 역사적 배경:#\n여러 세기에 걸쳐 엘베와 오데르 강 사이의 땅을 차지한 폴라브족은 부족 정치 체제에서 왕국으로 발전하는 단계를 밟고 있었습니다. #F 부족 지도자들이 #F공작#F으로 알려진 더 높은 지위를 취하는 시점까지 말입니다. 1066년 시작 시점에 #F폴라비아#F에는 네 명의 강력한 #F공작#F이 있으며, 이들 모두는 한때 폰데르의 공작이자 부족의 지도자였던 #bold 크루토#의 후손입니다. 모든 #F폴라비아#F #F공작#F은 #bold #F고왕#을#F 선출할 권리를 갖고 있지만, 서로의 권력에 대한 경계는 매우 모호하고 때로는 피비린내 나기도 합니다. 폴란드 왕과 독일 왕도 이 지역을 노리고 있으며, 이 두 왕국의 영향력과 이교 부족들의 영향력 사이에서 균형을 맞춰야 합니다. 다른 부족들이 무너졌지만 폴라브족은 아직 그들의 지위를 굳건히 하고 있습니다." # 4648794470274219960
-  polabian.0011.a: "[gottschalk.GetFirstNamePossessiveNoTooltip] 아들들은 우리가 무시할 수 없는 위협입니다!" # 5127264507507652025
-  polabian.0011.tooltip: "#bold 크루토이의 [aspiration|E]: 고츠샬크의 자손들을 제거하라!#$RICE_polabian_aspiration_krutoj_desc$" # 5778064877330242909
+  polabian.0011.desc: "$polabian.0010.desc$" # 4648794470274219960
+  polabian.0011.a: "[gottschalk.GetFirstNamePossessiveNoTooltip]의 아들들은 우리가 간과할 수 없는 위협이다!" # 5127264507507652025
+  polabian.0011.tooltip: "#bold 크루토이의 [aspiration|E]: 고트샬크의 아들들 제거#!$RICE_polabian_aspiration_krutoj_desc$\n" # 5778064877330242909
   polabian.0012.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
-  polabian.0012.desc: "저는 아직도 우리의 아버지, [gottschalk.GetTitledFirstName]께서 광신적이고 이단적인 반역자들에게 살해당하시고, 그 후 더러운 [krutoj.GetFirstName]가 [GetTitleByKey('d_nordmark').GetNameNoTier]의 새로운 "지배자"로 선출되었을 때를 기억합니다. 저와 [brother.GetFirstName]는 도망쳐야 했습니다.\n\n이제 저희는 최근에 이 땅의 통치자로서의 정당한 권리를 되찾을 뿐만 아니라 아버지의 복수를 하기 위해 개선하여 돌아왔습니다." # 16292013373654228972
-  polabian.0012.desc.alive: "운명의 기묘한 반전으로, 이제 [krutoj.GetFirstNameNoTooltip]이 비겁한 모습 그대로 유배를 떠났습니다." # 3226517618610128056
-  polabian.0012.desc.direct: "우리의 손으로, 우리는 그의 죄 때문에 [krutoj.GetFirstNameNoTooltip]를 죽였다. 마침내 우리는 당연한 복수를 얻었다!" # 15412987880416093017
-  polabian.0012.desc.indirect: "우리는 [krutoj.GetFirstNameNoTooltip]를 직접 죽이지 않았지만, [ROOT.Char.GetFaith.PantheonTerm]께서 주신 축복에 대해 불평하지 않을 것입니다." # 3274223767659484478
-  polabian.0012.desc.one_brother: "내 형제 [brother.GetFirstNameNoTooltip]가 이 날을 보러 왔으면 좋았을 텐데. 하지만 나는 우리 아버지의 유산을 이 땅의 덕망 있고 정당한 통치자로서 이어가기 위해 최선을 다할 것입니다." # 2300976300225814905
-  polabian.0012.desc.both_brothers: "제 형제 [brother.GetFirstNameNoTooltip]와 저는 물론 저희 백성들도 이제 더 나은 미래를 기대할 수 있습니다. 저희는 아버지의 유산을 이어나가기 위해 최선을 다할 것입니다." # 6507964496311977330
-  polabian.0012.a: "우리의 성스러운 아버지가 [ROOT.Char.GetFaith.PositiveAfterLife]에서 미소짓고 계십니다!" # 14782654901138652791
+  polabian.0012.desc: "우리의 사랑하는 아버지, [gottschalk.GetTitledFirstName]께서 열성적인 이단 반란군에게 시해당하시고, 그들이 [krutoj.GetFirstName]라는 역겨운 자를 [GetTitleByKey('d_nordmark').GetNameNoTier]의 새로운 '지배자'로 세웠던 때가 아직도 생생합니다.\n\n저와 [brother.GetFirstName]는 도망쳐야 했습니다.\n\n이제, 우리는 최근 승리하며 돌아왔습니다. 이 땅의 지배자로서 정당한 계승권을 되찾고, 아버지의 복수를 하기 위해서 말입니다." # 16292013373654228972
+  polabian.0012.desc.alive: "운명의 놀라운 변덕으로, 이제 그 겁쟁이 [krutoj.GetFirstNameNoTooltip]가 망명했습니다." # 3226517618610128056
+  polabian.0012.desc.direct: "우리의 손으로 직접, 우리는 그의 죄악 때문에 [krutoj.GetFirstNameNoTooltip]를 죽였다.\n마침내, 우리는 마땅한 복수를 해냈다!" # 15412987880416093017
+  polabian.0012.desc.indirect: "[krutoj.GetFirstNameNoTooltip]를 직접 죽인 것은 아니지만, [ROOT.Char.GetFaith.PantheonTerm]께서 내리신 어떤 축복에 대해서도 불평하지는 않을 것이다." # 3274223767659484478
+  polabian.0012.desc.one_brother: "\n\n내 형제 [brother.GetFirstNameNoTooltip]가 이 날을 함께 볼 수 있었다면 좋을 텐데.\n하지만, 이 땅의 덕스럽고 정당한 통치자로서 우리 아버지의 유산을 이어받기 위해 최선을 다할 것이다." # 2300976300225814905
+  polabian.0012.desc.both_brothers: "\n\n제 형제 [brother.GetFirstNameNoTooltip]와 저, 그리고 저희 백성들도 이제 더 나은 미래를 기대할 수 있게 되었습니다. 저희는 최선을 다해 아버지의 유산을 이어가겠습니다." # 6507964496311977330
+  polabian.0012.a: "성부께서 [ROOT.Char.GetFaith.PositiveAfterLife]에서 환히 내려다보고 계십니다!" # 14782654901138652791
   polabian.0013.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
-  polabian.0013.desc: "저와 동료 반군들이 [gottschalk.GetFirstName]를 물리치고 [GetTitleByKey('d_nordmark').GetNameNoTier]을 장악하여 전통적인 방식을 되살린 후, 그의 아들인 [budivoj.GetFirstName]와 [henry.GetFirstName]가 계속해서 우리의 골칫거리로 남아 있었습니다. 그들은 우리 편 중에서 그들처럼 [christian.GetName]을 따르는 이들을 주로 하여 많은 지지자를 보유하고 있었습니다. 그들이 제거되기 전까지 저는 이 지역 부족에 대한 제 통치를 확고히 할 수 없을 것입니다.\n\n[christian.GetAdjective] 왕국의 압도적인 세력처럼 더 큰 위협에 직면해 있지만, 저는 우리 영토를 확보했고 두 형제가 더 이상 우리에게 문제를 일으키지 않도록 했습니다." # 17656707392666890501
-  polabian.0013.desc.direct: "제 노력 덕분에 저는 그들을 모두 죽일 수 있었고, 저의 직접적인 행동을 통해 그들을 [ROOT.Char.GetFaith.NegativeAfterLife]의 어두운 심연으로 보냈습니다." # 16789168297835329797
-  polabian.0013.desc.indirect: "#italic 둘 다#! 죽음에 직접적인 책임은 없었지만, [ROOT.Char.GetFaith.PantheonTerm]께서 보내주신 축복에 대해서는 불평하지 않겠습니다." # 10688838828263640490
-  polabian.0013.a: "이제 미래의 위협에 대비해야 합니다." # 1979241430563290908
+  polabian.0013.desc: "나와 동료 반란군들이 우리 전통적인 방식들을 회복하기 위해 [gottschalk.GetFirstName]을(를) 격파하고 [GetTitleByKey('d_nordmark').GetNameNoTier]을(를) 장악한 뒤, 그의 아들들인 [budivoj.GetFirstName]과(와) [henry.GetFirstName]은(는) 여전히 우리에게 골칫거리로 남아있었습니다. 그들에게는 우리 대열 내에서도 지지자들이 많았는데, 주로 그들처럼 [christian.GetName]을(를) 따르는 자들이었습니다. 그들을 제거하기 전까지는 나는 이 지역의 부족들에 대한 통치를 확고히 할 수 없었습니다.\n\n우리는 [christian.GetAdjective] 왕국들의 압도적인 힘처럼 여전히 더 큰 위협들에 직면해 있지만, 나는 우리의 영토들을 확보했고 이제 그 두 형제가 우리에게 더 이상 아무 문제도 일으키지 않도록 했습니다." # 17656707392666890501
+  polabian.0013.desc.direct: "내 노력 덕분에 직접적인 행동으로 그들 둘 모두를 처치하여, [ROOT.Char.GetFaith.NegativeAfterLife]의 어두운 심연으로 보내버렸다." # 16789168297835329797
+  polabian.0013.desc.indirect: "내가 직접적으로 #italic 둘의#! 죽음에 책임을 지지는 않았지만, [ROOT.Char.GetFaith.PantheonTerm]께서 우리에게 보내신 어떠한 축복에 대해서도 불평하지 않을 것이다." # 10688838828263640490
+  polabian.0013.a: "앞으로 닥쳐올 위협에 대비해야만 합니다." # 1979241430563290908
   polabian.0014.t: "xxxxx" # 1951045980481827005
   polabian.0014.desc: "xxxxx" # 1951045980481827005
   polabian.0014.a: "xxxxx" # 1951045980481827005
@@ -237,22 +237,22 @@
   polabian.0019.desc: "xxxxx" # 1951045980481827005
   polabian.0019.a: "xxxxx" # 1951045980481827005
   polabian.0020.t: "준비" # 666839747819429162
-  polabian.0020.desc.culture: "매년 겨울이 끝나면, [GetPlayer.GetCulture.GetCollectiveNoun]" # 4081849858307011317
+  polabian.0020.desc.culture: "매년, 겨울이 끝날 무렵, [GetPlayer.GetCulture.GetCollectiveNoun]" # 4081849858307011317
   polabian.0020.desc.not_culture: "매년 겨울이 끝날 무렵, 현지 주민들은" # 13999571177084895011
-  polabian.0020.desc: "[GetPlayer.Custom('RICE_marzanna')]의 익사를 기념하기 위해 모이십시오. 좀 더 정확히 말하자면 [GetPlayer.Custom('RICE_marzanna')]의 인형 익사를 기념하는 것입니다.\n\n올해 저는 지역 정착지에서 열리는 이런 행사 중 하나에 참여했으며, 의식이 성공적으로 진행될 수 있도록 자금과 하인들의 인력 등 제가 할 수 있는 모든 것을 기여할 것입니다. 지금까지 지역 주민들이 흰 천, 리본, 목걸이로 짚을 조심스럽게 장식하여 인형을 만드는 등 당일을 준비하는 데 열심히 노력하는 모습을 보았습니다." # 14791433822563332516
-  polabian.0020.desc.non_pagan: "[GetPlayer.Custom('RICE_marzanna')]이 옛날에 죽음, 부활, 풍요의 여신이었다는 점을 고려하면, 열성적인 [ROOT.Char.GetFaith.GetAdjective] [GetPlayer.GetFaith.PriestNeuterPlural]은 이 전통을 이단적인 미신이라고 비난할지도 모릅니다. 하지만 후회하는 것보다 안전한 것이 낫습니다. 재미있는 행사인 것은 말할 것도 없고요!" # 12410191882581739890
-  polabian.0020.desc.pagan: "이 전통은 여러 세대에 걸쳐 이어져 왔으며, 매년 제대로 수행하는 것이 중요합니다. [GetPlayer.Custom('RICE_marzanna')]는 죽음, 재생, 풍요의 여신이며, 그녀의 인형을 물에 빠뜨림으로써 봄의 도래를 앞당기고 풍작을 보장할 수 있습니다." # 2725359467789566981
-  polabian.0020.a: "곧 우리는 모형을 물에 빠뜨릴 것입니다!" # 1261230788585081144
-  polabian.0021.t: "모형 행진" # 14618112082501371190
-  polabian.0021.desc: "마침내, [GetPlayer.Custom('RICE_marzanna')]의 인형이 완성되었습니다! 천과 다른 장식물로 아름답게 장식된 이 커다란 밀짚 인형을 들고 마을을 행진하는 지역 젊은이들을 보는 것은 그야말로 장관입니다. 겨울의 끝과 봄의 시작이 곧 우리에게 다가올 것이기 때문에, 이 행사를 위해 모인 지역 주민들은 환호합니다!\n\n인형은 하루 종일 모든 집을 지나기 위해 마을을 돌면서 높이 들려집니다. 때로는 도중에 물웅덩이에 담그기도 합니다.\n\n저녁이 되면 우리 모두 마을 근처의 강으로 향합니다." # 15517894247506600145
-  polabian.0021.a: "[GetPlayer.Custom('RICE_marzanna')]를 물에 빠뜨릴 시간입니다!" # 8279192193512848242
-  polabian.0022.t: "물속으로!" # 6879405041353859783
-  polabian.0022.desc: "곧, [GetPlayer.Custom('RICE_marzanna')]의 인형이 지역 강으로 옮겨집니다. 몇몇 사람들이 인형에 불을 붙이려 하고, 불이 붙기 시작하는 것처럼 보이자, 모두 환호하며 인형을 물에 던집니다.\n\n하지만, 우리는 너무 오래 머무를 수 없습니다. 인형은 죽음을 가지고 다니기에 그곳에 머무는 것은 불운을 가져온다고 합니다. 우리는 인형을 만지거나 뒤돌아보지 않도록 조심하며 마을로 돌아가야 합니다." # 12385234098138546667
-  polabian.0022.a: "서둘러 돌아가자." # 5449560363039888772
-  polabian.0022.tooltip: "의식 후 불운을 겪었습니다" # 11447086825426730052
+  polabian.0020.desc: "[GetPlayer.Custom('RICE_marzanna')]의 인형 – 보다 정확히는 [GetPlayer.Custom('RICE_marzanna')]의 인형을 물에 빠뜨리는 – 행사에 참여하기 위해 모입니다.\n\n올해에는 제가 지역 정착지에서 열리는 이 행사에 직접 참여하여, 의식이 성공적으로 치러지도록 자금과 하인들의 인력 등 제가 할 수 있는 것을 기여했습니다. 현재까지는 주민들이 그날을 위해 열심히 준비하는 모습을 지켜보고 있습니다. 특히 짚을 가져다가 흰 천, 리본, 목걸이 등으로 정성껏 장식하여 인형을 만들고 있습니다." # 14791433822563332516
+  polabian.0020.desc.non_pagan: "[GetPlayer.Custom('RICE_marzanna')] 예로부터 죽음, 부활, 다산의 여신이었음을 감안하면, 열정적인 [ROOT.Char.GetFaith.GetAdjective] [GetPlayer.GetFaith.PriestNeuterPlural] 이 전통을 이단적인 미신으로 비난할 수도 있습니다. 하지만, 후회하는 것보다 미리 대비하는 것이 낫습니다 — 게다가 재미있는 행사이기도 하니 말입니다!" # 12410191882581739890
+  polabian.0020.desc.pagan: "이 전통은 여러 세대에 걸쳐 이어져 왔으며, 매년 제대로 수행하는 것이 중요합니다. [GetPlayer.Custom('RICE_marzanna')]는 죽음, 부활, 풍요의 여신이며, 그녀의 인형을 물에 빠뜨림으로써 봄의 도래를 앞당기고 풍작을 보장할 수 있습니다." # 2725359467789566981
+  polabian.0020.a: "이제 곧 인형을 물에 빠뜨릴 것이다!" # 1261230788585081144
+  polabian.0021.t: "초상 행렬" # 14618112082501371190
+  polabian.0021.desc: "마침내, [GetPlayer.Custom('RICE_marzanna')]의 인형이 완성되었습니다! 천과 다른 장식으로 아름답게 꾸며진 이 커다란 짚 인형을 들고 지역 젊은이들이 마을을 돌며 행진하는 모습은 정말 장관입니다. 이 행사를 위해 모인 지역 주민들은 겨울의 끝과 봄의 시작이 곧 다가옴에 환호합니다!\n\n낮이 지나면서 인형은 마을 곳곳으로 옮겨져 모든 집을 지나갈 때 높이 들려 있습니다. 때로는 도중에 웅덩이에 담가지기도 합니다.\n\n저녁 무렵에는 모두 마을 근처 강으로 향합니다." # 15517894247506600145
+  polabian.0021.a: "이제 [GetPlayer.Custom('RICE_marzanna')]를 물에 빠뜨릴 때다!" # 8279192193512848242
+  polabian.0022.t: "물 속으로!" # 6879405041353859783
+  polabian.0022.desc: "이윽고, [GetPlayer.Custom('RICE_marzanna')]의 형상이 마을 강가로 옮겨졌습니다. 몇몇 사람이 불을 붙이기 위해 애썼고, 타기 시작하는 것 같자마자 모두가 형상이 물에 던져지는 것을 보며 환호했습니다.\n\n하지만 우리는 오래 머물 수 없습니다. 형상은 죽음을 함께 가져오기 때문이며, 따라서 그 자리에 머무르는 것은 불운을 가져온다고들 합니다. 우리는 형상을 만지거나 뒤돌아보지 않도록 주의하며 마을로 돌아가야 합니다." # 12385234098138546667
+  polabian.0022.a: "빨리 돌아가자." # 5449560363039888772
+  polabian.0022.tooltip: "의식을 마치고 난 후 불운을 겪었습니다." # 11447086825426730052
   polabian.0023.t: "결론" # 3822412533199628403
-  polabian.0023.desc: "마을로 돌아오니, 저를 기리는 즐거운 연회가 준비되어 있었습니다. 제가 매일 방문하는 것은 아니니, 오늘은 특별한 날입니다.\n\n자리에 앉아 소박한 피에로기, 코티지 치즈, 푸짐한 수프를 즐기며, 올해 [GetPlayer.Custom('RICE_marzanna')]의 익사를 목격한 경험을 되돌아봅니다. 모두가 봄이 빨리 오기를 희망할 뿐만 아니라 필요로 하기에, 우리의 삶이 그것에 달려있을지도 모르기 때문에, 진지하면서도 즐거운 행사였습니다." # 13068273008957435613
-  polabian.0023.a: "올해 풍년이 들기를 바랍니다!" # 15047959243426268923
+  polabian.0023.desc: "마을로 돌아오니, 나를 기리는 즐거운 연회가 차려져 있습니다. 어찌 되었든 매일 찾아오는 것도 아니고, 오늘은 특별한 날입니다.\n\n자리에 앉아 소박한 피에로기와 콰르크 치즈, 푸짐한 수프를 즐기며, 올해 [GetPlayer.Custom('RICE_marzanna')] 익사 의식을 목격했던 경험을 되돌아봅니다.\n\n모두가 봄이 빨리 오기를 바랄 뿐 아니라 – 반드시 그래야만 하기에 – 우리의 생명이 달려 있을 수도 있는, 즐거우면서도 진중한 행사였습니다." # 13068273008957435613
+  polabian.0023.a: "올해 풍작이 있기를!" # 15047959243426268923
   polabian.0024.t: "xxxxx" # 1951045980481827005
   polabian.0024.desc: "xxxxx" # 1951045980481827005
   polabian.0024.a: "xxxxx" # 1951045980481827005
@@ -271,15 +271,15 @@
   polabian.0029.t: "xxxxx" # 1951045980481827005
   polabian.0029.desc: "xxxxx" # 1951045980481827005
   polabian.0029.a: "xxxxx" # 1951045980481827005
-  polabian.0030.t: "불운한 접촉" # 2577774137694515030
-  polabian.0030.desc: "앗, 으앙!\n\n마을로 돌아가려고 뒤돌았는데, 발걸음을 잘못 재서 강쪽으로 넘어져 [GetPlayer.Custom('RICE_marzanna')]의 숭상물 일부를 실수로 만졌어요.\n\n물에 빠지기 전에 제 몸을 붙잡았거나 불타는 부분을 만지지 않았다면 좋았을 텐데요.\n\n아쉽게도, 미신에 따르면 물에 젖은 숭상물의 어떤 부분이라도 만지는 것은 불운한 일이라고 해요. 이미 주민들 중 일부는 고개를 절레절레 흔들고, 일부는 제 손가락을 걱정스럽게 쳐다보고 있는데, 숭상물을 만진 손은 고통을 겪는다고 하니까요." # 16416717699427631414
-  polabian.0030.a: "내 손이나 나에게 나쁜 일이 일어나지 않기를 바랍니다." # 15479217367179411754
-  polabian.0031.t: "뒤돌아보지 마십시오!" # 17231391077247471927
-  polabian.0031.desc: "내가 무슨 생각을 한 거지?\n\n우리가 마을로 돌아가는 길에, 내 뒤에서 소리가 들려 본능적으로 뒤를 돌아봤다. 그러자 내 가장 가까이에 있던 사람들에게서 웅성거림과 조용한 숨소리가 들렸다.\n\n[GetPlayer.Custom('RICE_marzanna')]의 모형을 물에 던진 후에는 뒤를 돌아보면 안 된다는 오래된 미신이 있다. 그렇게 하는 자들은 가까운 미래에 여러 가지 질병으로 고통받을 것이라고 한다." # 12701729898685127583
-  polabian.0031.a: "분명 괜찮을 거야... 아마도...." # 13683361970974403943
+  polabian.0030.t: "불운한 손길" # 2577774137694515030
+  polabian.0030.desc: "앗!\n\n마을로 돌아가려 돌아서는 순간, 발을 잘못 디뎌 강 쪽으로 비틀거렸고, 우연히 [GetPlayer.Custom('RICE_marzanna')] 인형의 일부를 건드리고 말았다.\n\n물에 빠지기 전에 균형을 잡아서 다행이었다거나, 불타는 부분을 건드리지 않아서 다행이었다고 말하고 싶지만...\n\n안타깝게도, 미신에 따르면 인형이 일단 물에 들어가면 어떤 부분이든 건드리는 것은 불운을 가져온다고 한다. 벌써부터 몇몇 지역 주민들이 고개를 젓지 않으려 애쓰는 모습이 보이고, 어떤 이들은 걱정스러운 눈으로 내 손을 바라보고 있다. 인형을 만진 손은 고통받는다고 전해지기 때문이다." # 16416717699427631414
+  polabian.0030.a: "내 손이나 나에게 아무런 나쁜 일이 일어나지 않기를 바라자." # 15479217367179411754
+  polabian.0031.t: "뒤돌아보지 마!" # 17231391077247471927
+  polabian.0031.desc: "내가 무슨 생각을 한 거지?\n\n마을로 돌아오는 길에 등 뒤에서 소리가 나기에 본능적으로 뒤를 돌아보았다. 그러자마자 가장 가까이에 있던 이들로부터 쉬쉬거리는 소리와 조용한 탄성이 새어 나왔다.\n\n옛 미신에 따르면 [GetPlayer.Custom('RICE_marzanna')]의 형상을 물에 던져 넣고 나면 절대 뒤돌아보아서는 안 된다. 그렇게 하는 자는 가까운 시일 내에 온갖 병고에 시달리게 될 것이라 한다." # 12701729898685127583
+  polabian.0031.a: "괜찮을 거야... 싶은데..." # 13683361970974403943
   polabian.0032.t: "실수" # 16207350062171174054
-  polabian.0032.desc: "저주받을!\n\n마을로 돌아가는 길을 걷고 있었는데, 내가 발을 헛디뎌 흙바닥에 크게 넘어졌소. 몇몇 하인들이 달려와 나를 일으켜 세웠지만, 그 자리에 있던 모두가 그 광경을 보았소.\n\n이 모든 상황에 대한 당혹감만이 내가 걱정해야 할 전부라면 얼마나 좋을까. 많은 사람들이 [GetPlayer.Custom('RICE_marzanna')]의 모형을 익사시킨 후 집으로 돌아오는 길에 넘어지거나 발을 헛디디면 자신이나 가까운 사람에게 죽음을 포함한 불운이 닥칠 것이라는 미신을 믿고 있소." # 13038416118780664347
-  polabian.0032.a: "오 이런, 오 이런...." # 16794291123665044134
+  polabian.0032.desc: "이런!\n\n마을로 돌아가는 길을 걷던 중, 제가 발을 헛디뎌 진흙 속에 크게 넘어지고 말았습니다. 제 하인 몇 명이 저를 일으켜 세우려 달려왔지만, 그 자리에 있던 모두가 그 광경을 보았습니다.\n\n이 모든 상황에 대한 당혹감이 제가 걱정해야 할 전부라면 좋겠습니다만.\n많은 이들이 미신을 믿고 있습니다. [GetPlayer.Custom('RICE_marzanna')]의 형상을 물에 빠뜨린 후 집으로 돌아가는 길에 넘어지거나 발을 헛디디면, 자신이나 가까운 사람의 죽음을 포함한 불운이 닥칠 것이라는 미신 말입니다." # 13038416118780664347
+  polabian.0032.a: "아차, 아차…" # 16794291123665044134
   polabian.0033.t: "xxxxx" # 1951045980481827005
   polabian.0033.desc: "xxxxx" # 1951045980481827005
   polabian.0033.a: "xxxxx" # 1951045980481827005
@@ -331,31 +331,31 @@
   polabian.0049.t: "xxxxx" # 1951045980481827005
   polabian.0049.desc: "xxxxx" # 1951045980481827005
   polabian.0049.a: "xxxxx" # 1951045980481827005
-  polabian.0050.t: "스베토비트에게 바치는 선물" # 14210853607779389728
-  polabian.0050.desc: "[GetTitleByKey('c_rugen').GetNameNoTier] 섬의 위대한 아르코나 신전에는 신 스베토비트를 섬기는 우상이 있습니다. 네 머리의 우상은 장엄하고 뛰어나며, 오른손에는 큰 텅 빈 뿔을, 왼팔에는 활을 들고 있습니다.\n\n가까운 곳과 먼 곳에서 사람들은 스베토비트의 은총을 얻고 경건함을 보여주기 위해 우상에게 예물을 바칩니다. 저도 마찬가지로 제 재산의 일부를 [GetTitleByKey('c_rugen').GetNameNoTierNoTooltip] 에 예물로 보냈습니다.\n\n해가 저물 무렵, 스베토비트의 사제들은 미래를 점치는 다양한 의식을 거행하는 장엄한 의식을 치릅니다. 제 예물이 스베토비트를 만족시키기를 바랍니다." # 9237748127607561791
-  polabian.0050.a: "[GetTitleByKey('c_rugen').GetNameNoTierNoTooltip]의 소식을 간절히 기다립니다." # 18446185340289357903
+  polabian.0050.t: "스베토비트께 드리는 선물" # 14210853607779389728
+  polabian.0050.desc: "[GetTitleByKey('c_rugen').GetNameNoTier] 섬의 위대한 아르코나 신전에는 신 스베토비트를 위한 숭배의 우상이 있습니다. 네 머리의 우상은 압도적이고 비할 데 없이 장엄하며, 오른손에는 큰 텅 빈 뿔을 들고 왼팔에는 활을 쥐고 있습니다.\n\n멀리서 온 사람들과 가까이에서 온 사람들은 스베토비트의 은총을 얻기 위해, 그리고 경건함을 표하기 위해 우상에게 예물을 바칩니다. 저도 그렇게 했습니다. 제 재산의 일부를 [GetTitleByKey('c_rugen').GetNameNoTierNoTooltip]에 예물로 보냈습니다.\n\n해가 저물 무렵, 스베토비트의 사제들은 장엄한 의식 속에서 미래를 점치는 여러 의례를 행합니다. 제 헌물이 스베토비트를 기쁘게 해주기를 바랍니다." # 9237748127607561791
+  polabian.0050.a: "[GetTitleByKey('c_rugen').GetNameNoTierNoTooltip]의 소식을 기다립니다." # 18446185340289357903
   polabian.0050.tooltip: "$RICE_polabian_gift_to_svetovit_decision_effect_tooltip_2$" # 6672779816829860816
-  polabian.0051.t: "오라클의 결과" # 15040247631411436155
-  polabian.0051.desc: "[GetTitleByKey('c_rugen').GetNameNoTier]의 아르코나 사원에 있는 스베토비트 사제들이 올해 전통적인 점술 의식을 거행했으며 동물 제물도 바쳤다는 소식을 들었습니다. 고대 전통에 따라 그들은 전날 밤 뿔피리에 술을 채웁니다. 다음 날, 사당에 들어서면 뿔피리에 얼마나 많은 술이 남아 있는지에 따라 신탁의 결과가 결정됩니다. 그 후 사제들은 스베토비트 발치에 술을 붓고 번영을 기원합니다." # 13599793398276968925
-  polabian.0051.desc.bad: "올해 점괘 결과는 좋지 않았습니다. 뿔에 예전보다 술이 눈에 띄게 적었습니다. 슬프게도 이는 이 지역이 흉작을 보거나 아예 수확을 하지 못할 뿐만 아니라, 올해 스베토비트에게 선물을 준 사람들에게도 좋지 않은 영향을 줄 수 있다는 것을 의미합니다. 저 자신도 포함해서요." # 9743982226616151919
-  polabian.0051.desc.good: "올해 점괘 결과는 좋았습니다. 뿔잔이 술로 가득 차 있었으니까요. 이 지역은 풍작을 맞이할 것이며, 이는 올해 스베보티트에게 선물을 바친 저를 포함한 모든 사람에게 좋은 영향을 미칠 것입니다." # 17440933717522829600
-  polabian.0051.a: "스베토비트가 말했으니, 상관없다!" # 8334431094974236068
+  polabian.0051.t: "신탁의 결과" # 15040247631411436155
+  polabian.0051.desc: "[GetTitleByKey('c_rugen').GetNameNoTier]의 아르코나 사원에 있는 스베토비트 사제들이 올해 전통적인 점술 의식, 즉 동물 희생을 포함한 의식을 행했다는 소식을 받았습니다.  고대 전통에 따라, 그들은 전날 밤 뿔잔에 술을 가득 채웁니다. 다음 날, 신전에 들어서면, 점술 결과는 뿔잔에 남은 술의 양에 따라 달라집니다. 이후, 사제들은 스베토비트의 발 앞에 술을 쏟고 번영을 기원합니다." # 13599793398276968925
+  polabian.0051.desc.bad: "올해 점복 결과가 좋지 않았습니다.  뿔잔 속의 술이 예전보다 현저히 줄었기 때문입니다.  아쉽게도 이는 지역에 흉작이 들거나 혹은 전혀 수확이 없을 뿐만 아니라, 올해 스베토비트에게 제물을 바친 사람들에게, 저를 포함하여, 좋지 않은 영향을 미칠 수 있습니다." # 9743982226616151919
+  polabian.0051.desc.good: "올해 점괘는 좋았습니다.  뿔잔은 여전히 술로 가득 차 있었으니, 이 지역은 풍년을 맞이할 것이며, 올해 스베보티트에게 예물을 바친 모든 이들에게, 저를 포함하여, 좋은 결과가 있을 것입니다." # 17440933717522829600
+  polabian.0051.a: "스베토비트가 말씀하셨으니, 어쩔 수 없습니다!" # 8334431094974236068
   polabian.0052.t: "헛된 노력" # 7923339536631507392
-  polabian.0052.desc: "잔혹하고 신성모독적인 야만인들이 [GetTitleByKey('c_rugen').GetNameNoTier] 섬에 있는 위대한 아르코나 신전을 약탈했을 뿐만 아니라, 그곳에 있던 한때 웅장했던 스베토비트 우상까지 파괴했습니다. 이 비극 때문에, 제가 최근에 스베토비트에게 보낸 선물들은 더 이상 그것을 받을 우상이 없기에 모두 헛수고가 되었습니다." # 2493317067912885894
-  polabian.0052.a: "내 선물이 헛되이 보내졌구나!" # 15012322634456516912
-  polabian.0052.tooltip: "$RICE_polabian_gift_to_svetovit_decision$ 결정을 내려도 아무런 보너스를 받지 못합니다." # 12425399948269512762
-  polabian.0053.t: "우상 거부" # 17506542695657249679
-  polabian.0053.desc: "얼마 전, 저는 [GetTitleByKey('c_rugen').GetNameNoTier] 섬의 아르코나 사원에 있는 스베토비트의 위대한 우상에게 선물을 보냈습니다. 하지만 최근에 저는 [ROOT.Char.GetFaith.GetName](으)로 개종했으며, 이 종교는 스베토비트의 교활하고 사기성이 짙으며 탐욕스러운 사제들을 지원하기 위한 모독적인 헌물에 대해 일절 관용을 베풀지 않습니다.\n\n과거를 바꿀 수는 없지만, 앞으로는 스베토비트의 우상과 아무런 관련이 없을 것입니다." # 2322118534285611627
-  polabian.0053.a: "잘 됐다! 이제 [ROOT.Char.GetFaith.HighGodName]께 기도하겠소." # 4569577695376616724
+  polabian.0052.desc: "[GetTitleByKey('c_rugen').GetNameNoTier] 섬의 아르코나 대사원은 잔혹하고 신성모독적인 야만족들에 의해 파괴되었으며, 예전에는 장엄했던 스베토비트 신상도 파괴되었습니다. 이 비극으로 인해 저는 최근 스베토비트에게 보낸 선물들이 더 이상 받을 신상이 없어 헛수고가 되어버렸습니다." # 2493317067912885894
+  polabian.0052.a: "선물은 헛되이 보내졌습니다!" # 15012322634456516912
+  polabian.0052.tooltip: "$RICE_polabian_gift_to_svetovit_decision$ 결정을 내리시더라도 어떠한 은총도 받지 못하실 것입니다." # 12425399948269512762
+  polabian.0053.t: "숭배를 거부하다" # 17506542695657249679
+  polabian.0053.desc: "얼마 전, [GetTitleByKey('c_rugen').GetNameNoTier] 섬 아르코나 신전의 위대한 스베토비트 신상에 선물을 보냈습니다. 하지만 최근 [ROOT.Char.GetFaith.GetName]로 개종하면서, 스베토비트의 음흉하고 속임수가 많은 사제들을 위해 이러한 신성모독적인 제물을 더 이상 받아들이지 않게 되었습니다.\n\n과거는 바꿀 수 없지만, 앞으로는 스베토비트 신상과 아무런 관련이 없을 것입니다." # 2322118534285611627
+  polabian.0053.a: "잘 가! 이제 [ROOT.Char.GetFaith.HighGodName]께 기도드리겠네." # 4569577695376616724
   polabian.0054.t: "xxxxx" # 1951045980481827005
   polabian.0054.desc: "xxxxx" # 1951045980481827005
   polabian.0054.a: "xxxxx" # 1951045980481827005
   polabian.0055.t: "스베토비트 우상 파괴" # 11808446458481767347
-  polabian.0055.desc: "오랜 세월 동안 스베토비트 우상은 [GetTitleByKey('c_rugen').GetNameNoTier] 섬의 아르코나 사원에 자랑스럽게 서 있었습니다.\n\n하지만 오늘날은 [arkona_destroyer.GetFaith.GetName]을 믿는 사람들에게 위대한 날입니다. 섬을 다스리는 [arkona_destroyer.GetTitledFirstName]은 스베토비트를 숭배하는 것을 못마땅하게 여깁니다. 옳든 그르든, [arkona_destroyer.GetSheHe]는 사악한 자들이 이 "신"에게 뒤틀린 욕망을 들어달라고 간청하고, 사기꾼 사제들이 순진한 바보들을 속여 그들의 돈을 그의 이름으로 빼앗고 있으며, 그저 망상에 빠진 자들만이 그 우상을 숭배한다고 믿습니다. [arkona_destroyer.GetSheHe]는 그 우상을 평범한 나무 조각에 불과하다고 여깁니다.\n\n[arkona_destroyer.GetFirstNameNoTooltip]은 [arkona_destroyer.GetHerHis] [chaplain.GetCouncilTitle]인 [chaplain.GetFirstName]에게 스베토비트 우상을 찢어 조각내라고 명령했습니다. 이제부터 그들은 [arkona_destroyer.GetFaith.HighGodName]의 빛을 따를 것입니다." # 9894790776334386714
-  polabian.0055.a: "스베토비트 신앙을 믿는 자들의 끝인가?" # 1730280727531938086
+  polabian.0055.desc: "수년간, 스베토비트의 우상은 [GetTitleByKey('c_rugen').GetNameNoTier] 섬 아르코나 사원에 우뚝 서 있었습니다.\n\n그러나 오늘은 [arkona_destroyer.GetFaith.GetName]을 믿는 이들에게는 위대한 날입니다. 그 섬을 다스리는 [arkona_destroyer.GetTitledFirstName]은 스베토비트 숭배를 곱지 않게 여깁니다. 옳든 그르든, [arkona_destroyer.GetSheHe]는 악한 자들이 이 \"신\"에게 그들의 비뚤어진 욕망을 이루어 달라고 간청하며, 사기꾼 사제들이 순진한 어리석은 자들을 속여 그의 이름으로 돈을 뜯어낸다고 믿고, 오직 미혹된 자들만이 그 우상을 숭배한다고 여깁니다. [arkona_destroyer.GetSheHe]는 그 우상이 단순한 나무 조각에 불과하다고 생각합니다.\n\n[arkona_destroyer.GetFirstNameNoTooltip]은 [arkona_destroyer.GetHerHis] [chaplain.GetCouncilTitle], [chaplain.GetFirstName]에게 스베토비트의 우상을 파괴하고 조각조각 부수라고 명령했습니다. 이제부터는 그들은 [arkona_destroyer.GetFaith.HighGodName]의 빛을 따를 것입니다." # 9894790776334386714
+  polabian.0055.a: "스베토비트 신도들의 종말인가?" # 1730280727531938086
   polabian.0056.t: "스베토비트 우상 복원" # 16397879861727035902
-  polabian.0056.desc: "오래전, [GetTitleByKey('c_rugen').GetNameNoTier] 섬의 아르코나 사원은 스베토비트 신의 위대한 우상의 고향이었습니다. 그러나 이후 스베토비트를 믿지 않는 자들에 의해 파괴되었고, 그들은 자신의 신앙에 대한 사랑으로 그렇게 했다고 주장했습니다. 반면에 그들을 비판하는 자들은 스베토비트를 믿는 자들을 공포에 떨게 하고 통제하려는 폭압적인 행위에 불과하다고 보았습니다.\n\n어쨌든, 섬의 현재 [arkona_restorer.GetFaith.GetAdjective] 통치자인 [arkona_restorer.GetTitledFirstName]은 [arkona_restorer.GetHerHis] [chaplain.GetCouncilTitle]인 [chaplain.GetTitledFirstName]에게 주민들을 이끌고 옛날 것보다 더 웅장하지는 않더라도 그에 못지않은 새로운 스베토비트 우상을 건설하고 봉헌하라고 명령함에 따라 시대가 변하고 있습니다.\n\n이제 스베토비트를 기리고 숭배하려는 사람들은 다시 한 번 그렇게 할 수 있으며, 그의 호의를 얻기 위해 그에게 선물을 바칠 수 있습니다." # 10585793312170571087
-  polabian.0056.a: "이번에는 우상이 견딜 수 있을까요?" # 1651929625109397133
+  polabian.0056.desc: "오래 전, [GetTitleByKey('c_rugen').GetNameNoTier] 섬의 아르코나 신전에는 신 스베토비트의 위대한 우상이 있었습니다. 그러나 스베토비트를 믿지 않는 자들에 의해, 그들이 자신의 신앙을 위해서라며, 그 신전은 파괴되었습니다. 반면, 스베토비트 신자들을 공포에 떨게 하고 지배하기 위한 폭정이라고 비난하는 이들도 있었습니다.\n\n어쨌든, 세상은 변화하고 있으며, 섬의 현재 [arkona_restorer.GetFaith.GetAdjective] 통치자 [arkona_restorer.GetTitledFirstName]는 스베토비트에게 더욱 웅장한, 아니 더욱 위대한 새로운 우상을 세우고 봉헌할 것을 지방 주민들에게 명령했습니다. 그것은 바로 [arkona_restorer.GetHerHis] [chaplain.GetCouncilTitle]인 [chaplain.GetTitledFirstName]에게 맡겨졌습니다.\n\n이제 스베토비트를 존경하고 숭배하고자 하는 자들은 다시 그를 숭배할 수 있으며, 그에게 선물을 바쳐 그의 은총을 얻을 수 있습니다." # 10585793312170571087
+  polabian.0056.a: "이번에도 우상은 버틸 수 있을까?" # 1651929625109397133
   polabian.0057.t: "xxxxx" # 1951045980481827005
   polabian.0057.desc: "xxxxx" # 1951045980481827005
   polabian.0057.a: "xxxxx" # 1951045980481827005
@@ -366,21 +366,21 @@
   polabian.0059.desc: "xxxxx" # 1951045980481827005
   polabian.0059.a: "xxxxx" # 1951045980481827005
   polabian.0060.t: "준비" # 666839747819429162
-  polabian.0060.desc.intro: "겨울은 황량하고 암울한 시기입니다." # 17005644765074273815
-  polabian.0060.desc.culture: "따라서, 많은 [GetPlayer.GetCulture.GetCollectiveNoun]" # 15992958600721120184
-  polabian.0060.desc.not_culture: "따라서, 내 통치 아래 있는 일부 현지인들은" # 17676016613469371869
-  polabian.0060.desc: "전통적으로 겨울의 추위와 그에 관련된 다른 악마와 악의 세력을 몰아내기 위한 연례 축제인 자푸스트 축제를 개최해 왔습니다. 하지만 종종 그것은 모두가 즐거워하는 좋은 핑계일 뿐입니다.\n\n저는 올해 지역 자푸스트 축제에 참여하고 있으며 축제가 열릴 마을에 도착했습니다. 모두가 축제를 준비하느라 분주하고 여기저기서 활기가 넘치며, 특히 행사의 중심이 되는 행렬을 포함하여 축제가 시작되기를 기다릴 수 없습니다." # 16885930224415283098
-  polabian.0060.a: "여기 밖은 춥지만 기다릴 가치가 있을 거야!" # 1700212784694359310
-  polabian.0061.t: "행렬이 시작됩니다" # 8537164078020554358
-  polabian.0061.desc: "자푸스트 축제가 시작됩니다!\n\n겨울의 냉기조차도 가장 낮은 사람들부터 가장 높은 사람들, 그리고 저 자신까지도 축제에 참여하는 것을 막을 수 없습니다. 모두 가장 좋은 옷을 차려입고 마을 중앙에 모였습니다. 특히 미혼의 젊은이들은 자신의 상태를 나타내기 위해 화려한 꽃과 리본으로 장식했습니다.\n\n개회 연설 후, 대규모 행렬이 마을을 가로질러 이동하며, 음악가들이 최대한 크게 연주하고 모든 사람들이 응원하고 춤을 추며 지나갑니다. 화려한 리본으로 장식된 나무 막대기를 들고 있는 행렬의 선두는 행렬을 이끌며 저와 같은 저명한 지역 인사들을 방문하여 기부함에 상징적인 기부를 합니다." # 11260147041355268463
-  polabian.0061.a: "여기 당신의 기부금이 있습니다." # 8785553825309714647
-  polabian.0061.b: "#italic 실제#! 이 기회를 위한 기부입니다!" # 8508185701723399851
-  polabian.0062.t: "행렬이 끝났습니다" # 5463970387629308398
-  polabian.0062.desc: "행렬이 계속되면서 관중에게 술, 과자 및 기타 간식을 제공하고 전체 분위기는 더욱 소란스러워지지만 나쁜 의미는 아닙니다!\n\n결국 사람들은 대부분 겨울이라는 사실조차 잊어버리는 것 같습니다. 많은 현지인들이 행렬과 함께 춤을 추고 축하하며 행렬을 따라 정착지 전체를 돌기 때문입니다.\n\n행렬이 마을 중앙에서 시작된 곳으로 돌아오면 모두가 위대한 저녁 만찬을 준비합니다. 이 자리에서는 추운 날씨에 우리의 정신을 따뜻하게 하기 위해 많은 식사, 많은 음주, 많은 춤이 있을 것입니다!" # 4310517911877722462
-  polabian.0062.a: "모두가 즐거운 시간을 보냈습니다." # 2682013873469628918
+  polabian.0060.desc.intro: "겨울은 황량하고 쓸쓸한 계절입니다." # 17005644765074273815
+  polabian.0060.desc.culture: "따라서 많은 [GetPlayer.GetCulture.GetCollectiveNoun]" # 15992958600721120184
+  polabian.0060.desc.not_culture: "따라서, 저의 통치 아래 있는 일부 지역 주민들은" # 17676016613469371869
+  polabian.0060.desc: "예전부터 겨울 추위와 그와 관련된 악귀 및 악령들을 쫓아내는 연례 축제로서 자푸스트 축제를 기념해 왔습니다. 하지만 종종 사람들이 즐겁게 시간을 보내는 좋은 구실에 불과합니다.  \n\n올해 지역 자푸스트 축제에 참여하기 위해 축제가 열리는 마을에 도착했습니다.  모두 축제 준비로 분주하게 이리저리 움직이고 있으며, 특히 축제 중심인 행렬이 시작되는 것을 정말 기대하고 있습니다." # 16885930224415283098
+  polabian.0060.a: "여기는 쌀쌀하지만, 기다림만큼 보람이 있을 거야!" # 1700212784694359310
+  polabian.0061.t: "행렬이 시작됩니다." # 8537164078020554358
+  polabian.0061.desc: "자푸스트 축제가 시작되었습니다!\n\n겨울 바람의 싸늘함조차도, 가장 낮은 자리에 있는 이들부터 가장 높은 자리에 있는 나까지, 모두가 최고의 옷차림으로 마을 중앙에 모여들게 하지 못합니다. 특히 미혼 청년들은 신분을 나타내는 화려한 꽃과 리본으로 장식합니다.\n\n몇몇 개회사에 이어, 장엄한 행렬이 마을을 가로지릅니다. 음악가들이 가능한 한 큰 소리로 악기를 연주하며, 모든 사람들이 함성과 춤으로 행렬을 맞이합니다. 화려한 리본으로 장식된 나무막대기를 든 행렬 지휘자가 행렬을 이끌면서 나를 포함한 지역 유력자들을 방문하며, 상징적인 기부금을 모금함에 기증합니다." # 11260147041355268463
+  polabian.0061.a: "기부금이 도착했습니다." # 8785553825309714647
+  polabian.0061.b: "#italic 진심으로# 드리는 기부금입니다!" # 8508185701723399851
+  polabian.0062.t: "행렬이 끝났습니다." # 5463970387629308398
+  polabian.0062.desc: "행렬이 계속되며, 구경객들에게 술과 과자, 기타 간식을 제공하자 분위기는 더욱 활기차지지만, 나쁜 의미로는 아닙니다!\n\n결국, 많은 주민들이 행렬과 함께 춤추고 축하하며 마을 전체를 둘러싼 행렬을 따라 다니자, 겨울이라는 사실은 거의 잊혀집니다.\n\n행렬이 마을 중심부 출발점으로 돌아오면, 모두들 밤에 열리는 대규모 연회를 위해 준비합니다. 추운 날씨에 마음을 녹이기 위한 풍성한 음식, 술, 춤이 이어질 것입니다!" # 4310517911877722462
+  polabian.0062.a: "모두 즐거운 시간을 보냈습니다." # 2682013873469628918
   polabian.0063.t: "결론" # 3822412533199628403
-  polabian.0063.desc: "솔직히 어젯밤 축제 이후로 꽤 피곤하네요. 그래도 모두 즐거웠던 건 확실합니다.\n\n어쨌든 자푸스트 축제는 끝났습니다. 아직 겨울이지만, 봄이 그만큼 더 가까워진 느낌입니다. 봄이 아무리 빨리 오면 좋을지라도, 방금 끝난 축제에 참여한 것에 불평할 사람은 없을 겁니다." # 2318651043309205560
-  polabian.0063.a: "지금까지 꽤 즐거웠습니다!" # 18365005165476276677
+  polabian.0063.desc: "어젯밤 축제 이후로 꽤 지쳤습니다. 그래도 모두 즐거웠다는 건 분명합니다.\n\n재미있었던 자푸스 축제는 이제 끝났습니다. 아직 겨울이지만, 봄이 훨씬 더 가까워진 것 같습니다. 봄이 얼마나 빨리 오기를 바라는지 모르겠지만, 지금 끝난 축제에 참여했던 대부분의 사람들이 불평할 것 같지는 않습니다." # 2318651043309205560
+  polabian.0063.a: "정말 재밌었네!" # 18365005165476276677
   polabian.0064.t: "xxxxx" # 1951045980481827005
   polabian.0064.desc: "xxxxx" # 1951045980481827005
   polabian.0064.a: "xxxxx" # 1951045980481827005
@@ -429,33 +429,33 @@
   polabian.0079.t: "xxxxx" # 1951045980481827005
   polabian.0079.desc: "xxxxx" # 1951045980481827005
   polabian.0079.a: "xxxxx" # 1951045980481827005
-  polabian.0080.t: "스베토비트에게 조공을 바치다" # 9822763518209453697
-  polabian.0080.desc: "[GetTitleByKey('c_rugen').GetNameNoTier] 섬의 아르코나 사원은 스베토비트 신을 모시는 거대한 우상의 본거지입니다. 그곳의 이교도 사제들은 막강한 정치적 권력을 갖고 있습니다. 그들은 가장 낮은 평민부터 가장 강력한 족장에 이르기까지 모든 지역 주민으로부터 공물을 받을 뿐만 아니라 그 지역에서 활동하는 여행객과 외국 상인으로부터 스베토비트의 이름으로 세금을 요구할 정도로 탐욕스럽습니다.\n\n어쨌든, 섬에서 사업을 하는 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier] 출신의 [ROOT.Char.GetFaith.GetAdjective] 상인들이 이 세금을 내도록 강요받고 있다고 들었습니다. 그들은 망설이지 않고 세금을 냅니다. 그들은 사업을 하는 데 필수적이며 다른 관세와 마찬가지라고 말하지만, 제 궁정의 일부 사람들은 어떻게 [ROOT.Char.GetFaith.HighGodName]을 숭배하는 [ROOT.Char.GetFaith.GetAdherentName]이 거짓 신을 위해 그 사기꾼 사제들에게 돈을 줄 수 있는지 의문을 제기합니다." # 1201239776436947245
-  polabian.0080.a: "이 불경한 상인들을 처벌해야 합니다!" # 6854875927369487426
-  polabian.0080.b: "문제가 뭐지? 사업은 사업일 뿐이야." # 15107277615525267334
-  polabian.0081.t: "고대 슬라브족 환상 요새" # 15654568400676615396
-  polabian.0081.desc: "[county.GetNameNoTier]에는 몇 세대 전, 알 수 없는 슬라브 부족이 건설한 버려진 옛 성채가 있습니다. 그 부족이 다른 곳으로 이주했는지, 적에게 패배했는지, 아니면 현지 인구에 동화되었는지는 알 수 없습니다.\n\n어쨌든, 성채는 최고의 상태는 아니지만, 그 전성기 모습을 상상하기 어렵지 않습니다. 세계 다른 지역의 웅장한 요새들에 비하면 소박했을지라도, 그곳에 거주했던 슬라브 부족을 보호한 효과적인 방어 구조였습니다. 더 중요한 것은, 성채의 흙과 나무로 된 성벽이 아직 상당히 견고하므로, 약간의 개선만으로도 다시 사용할 수 있다는 점입니다." # 9753946079701709551
-  polabian.0081.a: "네, 이 지역에 방어 시설이 더 필요합니다." # 6960111545853885257
-  polabian.0081.b: "재건하는 것은 시간과 자원 낭비입니다." # 8510166357409433099
-  polabian.0082.t: "스베토비트를 위한 공물" # 4423929904723727995
-  polabian.0082.desc: "[GetTitleByKey('c_rugen').GetNameNoTier] 섬의 아르코나 신전은 신 스베토비트를 위한 위대한 우상을 숭배합니다. 거기에 거주하는 이교 사제들은 막강한 정치적 영향력을 행사하며, 하층 민중부터 가장 강력한 추장까지 모든 지역 주민들로부터 공물을 받을 뿐만 아니라, 지역을 운항하는 여행객 및 외국 상인들에게도 스베토비트의 영광을 위한 세금을 징수합니다.\n\n[GetTitleByKey('c_rugen').GetNameNoTierNoTooltip]의 통치자로서, 저는 이 사제들과 협력하며, 때로는 그들의 공물 중 일부를 우리 협력의 표시로 받습니다. 오늘, 바로 그러한 공물을 받았습니다." # 17832350291531864443
-  polabian.0082.a: "스베토비트에게 영광을!" # 692484851781298551
-  polabian.0083.t: "닭 때리기" # 2885853034045785996
-  polabian.0083.desc: "닭 때리기는 따뜻한 계절에 [ROOT.Char.GetCulture.GetName]의 오래된 풍습이며, 오늘 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier] 근처의 [ROOT.Char.GetCulture.GetNameNoTooltip] 마을을 지나가다가 현지인들이 이 풍습을 행하는 것을 보게 되었습니다.\n\n닭은 막대기와 나뭇가지로 덮인 구덩이에 묻혀 있었고, 눈을 가린 젊은이들이 차례대로 도리깨를 사용하여 닭을 때려 죽일 때마다 모두 웃고 환호했습니다. 저는 시끄러운 행사가 진행되어 닭이 죽을 때까지 멀리서 지켜보았고, 그 후에는 최고 입찰자에게 판매되었습니다.\n\n현지 마을을 방문하고 평민들이 고풍스러운 전통에 참여하는 것을 보는 것은 단순한 즐거움입니다." # 14210217116305197620
-  polabian.0083.a: "폭력은 정말 구경하기 재미있지!" # 9209148989583859502
-  polabian.0083.b: "여전히... 지나치게 잔혹했습니다." # 4150015139395951061
+  polabian.0080.t: "스베토비트에게 공물을 바칩니다." # 9822763518209453697
+  polabian.0080.desc: "[GetTitleByKey('c_rugen').GetNameNoTier] 섬 아르코나 신전은 신 스베토비트를 위한 위대한 우상을 모시고 있습니다. 그곳의 이교 사제들은 큰 정치적 권력을 지니고 있으며, 가장 낮은 평민에서 가장 강력한 지도자에 이르기까지 모든 현지인들로부터 공물을 받을 뿐만 아니라, 지역을 운영하는 여행객과 외국 상인들로부터 스베토비트의 이름으로 세금을 요구할 만큼 탐욕스럽습니다. \n\n어쨌든, 제가 들은 바에 따르면, 그 섬에서 사업을 하는 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier] 출신의 [ROOT.Char.GetFaith.GetAdjective] 상인들은 이러한 세금을 주저 없이 지불하고 있습니다. 그들은 사업을 수행하는 데 필요하다고 말하며, 다른 관세와 마찬가지라고 합니다. 하지만 저희 궁중 일부는 어떻게 [ROOT.Char.GetFaith.HighGodName]를 숭배하는 어떠한 [ROOT.Char.GetFaith.GetAdherentName]이 거짓 신을 위한 그런 사기꾼 사제들에게 돈을 줄 수 있는지 의문을 제기합니다." # 1201239776436947245
+  polabian.0080.a: "이 이교도 상인들을 응징해야 합니다!" # 6854875927369487426
+  polabian.0080.b: "문제는 뭔가? 사업은 사업일 뿐이지." # 15107277615525267334
+  polabian.0081.t: "고대 슬라브 징검다리 요새" # 15654568400676615396
+  polabian.0081.desc: "[county.GetNameNoTier]에는 몇 세대 전 알 수 없는 슬라브 부족이 건설한 버려진 옛 고리 요새가 있습니다. 그 부족이 다른 곳으로 이주했는지, 적에게 패배했는지, 아니면 현재 인구에 동화되었는지는 알 수 없습니다.\n\n어쨌든, 요새는 상태가 좋지 않지만, 전성기 모습을 상상하기는 어렵지 않습니다. 세계 다른 지역의 웅장한 요새들에 비하면 겸손한 규모이지만, 여기에 살던 슬라브 부족을 보호했던 효과적인 방어 구조였습니다. 더 중요한 것은, 요새의 흙과 나무로 된 성벽이 여전히 상당히 견고하기 때문에, 약간의 개축만으로 다시 사용할 수 있다는 것입니다." # 9753946079701709551
+  polabian.0081.a: "지역 방어를 더 강화해야 합니다." # 6960111545853885257
+  polabian.0081.b: "재건은 시간과 자원의 낭비일 뿐입니다." # 8510166357409433099
+  polabian.0082.t: "스베토비트에게 공물을 바칩니다." # 4423929904723727995
+  polabian.0082.desc: "[GetTitleByKey('c_rugen').GetNameNoTier] 섬 아르코나 신전에는 신 스베토비트를 위한 위대한 우상이 모셔져 있습니다. 거기 거주하는 이교 사제들은 큰 정치적 권력을 지닙니다. 그들은 하층 민중부터 가장 강력한 수장에 이르기까지 모든 지역 주민들에게서 공물을 받을 뿐만 아니라, 그 지역에서 활동하는 여행객과 외국 상인들에게도 스베토비트의 영광을 위한 세금을 부과합니다.\n\n[GetTitleByKey('c_rugen').GetNameNoTierNoTooltip]의 통치자로서, 저는 이러한 사제들과 협력하여 일하며, 때때로 이러한 공물을 우리 협력의 표시로 받기도 합니다. 오늘, 바로 그러한 공물을 받았습니다." # 17832350291531864443
+  polabian.0082.a: "스베토비트께 영광을!" # 692484851781298551
+  polabian.0083.t: "수탉 싸움" # 2885853034045785996
+  polabian.0083.desc: "수탉 싸움은 따뜻한 계절의 오래된 [ROOT.Char.GetCulture.GetName] 풍습이며, 오늘 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier] 근처의 [ROOT.Char.GetCulture.GetNameNoTooltip] 마을을 지나가면서 현지인들이 이를 즐기는 모습을 목격할 기회가 있었습니다.\n\n수탉이 나무 막대와 나뭇가지로 덮인 구덩이 속에 묻혀 있고, 눈가리개를 한 젊은이들이 차례대로 방망이로 수탉을 때려 죽이는 모습에 모두가 웃음과 함성으로 가득 찼습니다. 저는 멀찍이 서서 수탉이 죽을 때까지 시끄러운 행사가 계속되는 것을 지켜보았고, 이후에는 최고 가격에 팔렸습니다.\n\n지역 마을을 방문하여 평민들이 독특한 전통에 참여하는 모습을 보는 것은 단순한 기쁨입니다." # 14210217116305197620
+  polabian.0083.a: "폭력은 정말 재밌는 구경거리군!" # 9209148989583859502
+  polabian.0083.b: "아직도… 불필요하게 잔혹했습니다." # 4150015139395951061
   polabian.0084.t: "그라벤" # 8003515963440307628
-  polabian.0084.desc: "[county.GetNameNoTier]의 [ROOT.Char.GetCulture.GetName] 마을들 사이에서 최근 #italic 그라벤#! 또는 #italic 드라벤#!이 돌아다니며 주민들의 말을 죽이고 있다는 소문이 빠르게 퍼지고 있습니다.\n\n[ROOT.Char.GetCulture.GetNameNoTooltip] 전설에 따르면 이 생물은 말다리를 가지고 동굴과 숲에 살며 종종 남자의 모습으로 변한다고 합니다. 더욱 중요한 것은, 그들이 말을 먹는 것을 즐긴다고 합니다.\n\n일부 관리들은 이것이 단지 라이벌 가문 간의 지역 분쟁이 과열된 사례라고 생각합니다. 결국 불만을 품은 농부가 이웃의 말을 죽일 수도 있으니까요. 그러나 다른 사람들은 이러한 보고에 어느 정도 진실이 있을 수 있으며, 마을 사람들이 말을 보호하는 데 필요한 조치를 지역 경비병에게 맡겨야 한다고 믿습니다." # 15512602549891603022
+  polabian.0084.desc: "[ROOT.Char.GetCulture.GetName] 마을, [county.GetNameNoTier] 주변에 #italic 그라벤#!, 또는 #italic 드라벤#!이 돌아다니며 최근 주민들의 말을 죽이고 있다는 소문이 빠르게 퍼지고 있습니다.\n\n[ROOT.Char.GetCulture.GetNameNoTooltip] 전설에 따르면, 이 괴물들은 말의 다리를 가지고 동굴과 숲에서 살며, 종종 사람의 모습을 하고 나타납니다. 더 중요한 점은, 말을 먹는 것을 좋아한다는 소문입니다.\n\n일부 관리들은 이것이 라이벌 가족 간의 지역 분쟁으로, 걷잡을 수 없이 커진 것에 불과하다고 생각합니다. 결국, 불만스러운 농부가 이웃의 말을 죽일 수도 있기 때문입니다. 하지만 다른 이들은 이 소문에 진실성이 있을 가능성이 있다고 믿으며, 우리 지방 경비대가 마을 주민들이 말을 보호하도록 지원해야 한다고 생각합니다." # 15512602549891603022
   polabian.0084.a: "지역 주민들의 말을 보호하는 데 도움을 주자." # 15001900390910465349
-  polabian.0084.b: "이것은 그저 미신적인 헛소리에 불과합니다." # 17603629664434744986
-  polabian.0085.t: "[ROOT.Char.GetCulture.GetNameNoTooltip] 소고기 만두" # 1278083140914643912
-  polabian.0085.desc: "저는 공식적인 업무차 인근의 [ROOT.Char.GetCulture.GetName] 마을을 방문하고 있습니다. 현지인들은 저에게 좋은 음식을 제공하기 위해 최선을 다하고 있으며, 최고의 요리는 서양고추냉이 소스를 곁들인 전통적인 [ROOT.Char.GetCulture.GetNameNoTooltip] 소고기 만두입니다." # 6285212184820154618
-  polabian.0085.a: "맛있네요, 감사합니다!" # 2402895048296855732
-  polabian.0086.t: "강력한 사제" # 2541408741630194401
-  polabian.0086.desc: "[GetTitleByKey('c_rugen').GetName]에 있는 아르코나 사원은 스베토비트의 위대한 우상을 모시고 있으며, 이 지역의 많은 사람들에게 숭배받고 있습니다.\n\n섬에 거주하는 스베토비트의 사제들은 매우 강력합니다. 그들은 지역 주민들에게 큰 영향력을 행사하고 있으며, 비록 제가 기술적으로 [GetTitleByKey('c_rugen').GetNameNoTier]를 다스리고 있지만, 조심해야 합니다.\n\n최근 들어 이 사제들은 제 희생을 통해 권력과 영향력이 커지고 있습니다. 섬의 제 관리들은 사제들이 자신들과 뜻을 같이하지 않으면 업무를 수행하기 어렵다고 불평합니다." # 5406033900599343549
-  polabian.0086.a: "우리는 그들에게 대항할 수 없습니다. 적어도 공개적으로는 말입니다." # 17763043801583415065
-  polabian.0086.b: "이 사제들은 #italic 저의#! 권위를 존중할 것입니다." # 8054620761202407792
-  polabian.0086.c: "사제들과 합의할 수 있습니다." # 7884601660057151837
+  polabian.0084.b: "그저 미신에 불과한 헛소리일 뿐입니다." # 17603629664434744986
+  polabian.0085.t: "[ROOT.Char.GetCulture.GetNameNoTooltip] 쇠고기 만두" # 1278083140914643912
+  polabian.0085.desc: "근처 [ROOT.Char.GetCulture.GetName] 마을을 공무차 방문했습니다. 주민들은 제게 최선을 다해 좋은 음식을 대접하고 있으며, 별미는 전통적인 [ROOT.Char.GetCulture.GetNameNoTooltip] 소고기 만두에 겨자 소스입니다." # 6285212184820154618
+  polabian.0085.a: "맛있군! 감사합니다!" # 2402895048296855732
+  polabian.0086.t: "강력한 성직자들" # 2541408741630194401
+  polabian.0086.desc: "[GetTitleByKey('c_rugen').GetName]의 아르코나 신전에는 스베토비트의 위대한 우상이 모셔져 있으며, 그곳은 이 지역 많은 이들에게 존경받는 곳입니다.\n\n섬에 사는 스베토비트의 사제들은 매우 강력합니다. 그들은 지역 주민들에게 큰 영향력을 행사하며, 제가 명목상 [GetTitleByKey('c_rugen').GetNameNoTier]를 다스리고 있지만, 조심해야만 합니다.\n\n최근 이러한 사제들은 제 덕분에 세력과 영향력을 키우고 있습니다. 섬의 관리들은 사제들 중 일부가 그들과 의견이 일치하지 않으면 그들의 업무를 수행하기가 어렵다고 불평합니다." # 5406033900599343549
+  polabian.0086.a: "그들을 적극적으로 반대할 수는 없을 겁니다. 적어도 공개적으로는 말이죠." # 17763043801583415065
+  polabian.0086.b: "이 신관들은 #italic 저의 권위를 존중할 것입니다." # 8054620761202407792
+  polabian.0086.c: "사제들과 합의점을 찾아볼 수 있겠군." # 7884601660057151837
   polabian.0087.t: "xxxxx" # 1951045980481827005
   polabian.0087.desc: "xxxxx" # 1951045980481827005
   polabian.0087.a: "xxxxx" # 1951045980481827005

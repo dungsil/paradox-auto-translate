@@ -2,164 +2,164 @@
   dynn_RICE_pisa: "피사" # 158341911287601894
   dynn_RICE_seth: "세트" # 619422167831556261
   Trapelicino: "트라펠리치노" # 6823079508956600136
-  BOOKMARK_RELATION_FORMER_EMPLOYER: "(이전 고용주)" # 5142773717558828950
+  BOOKMARK_RELATION_FORMER_EMPLOYER: "(전 고용주)" # 5142773717558828950
   innovation_RICE_dragomans: "통역관" # 18021948695163496113
-  innovation_RICE_dragomans_desc: "지중해는 다양한 민족, 문화, 신앙의 각축장입니다. 드라고만이라고 불리는 숙련된 공식 통역관은 단순한 번역가일 뿐만 아니라, 자신의 문화적 지식과 명성을 활용하여 국제 상업과 정치를 원활하게 합니다." # 6085139253121233451
-  RICE_mediterranean_pirate_legitimacy_desc: "[지지도_i|E] [지지도|E] 손실 감소, [지지도_i|E] [지지도|E] 획득 증가, [decision|E]을 내려 [지중해_해적|E]과 접촉할 때" # 3841053825526504251
-  RICE_indian_ocean_pirate_cooldown_desc: "[decision|E] [인도양 해적|E]과 접촉하기의 재사용 대기 시간이 5년에서 #V 4#!년으로 감소했습니다." # 15272713995175804949
+  innovation_RICE_dragomans_desc: "지중해는 다양한 민족, 문화, 신앙의 무대입니다. 드라고만이라고 불리는 숙련된 공식 통역관은 단순히 번역가일 뿐만 아니라, 국제 무역과 정치를 촉진하기 위해 그들의 문화 지식과 명성을 활용합니다." # 6085139253121233451
+  RICE_mediterranean_pirate_legitimacy_desc: "[지중해_해적|E] 접촉 [결단|E] 실행 시, [legitimacy_i|E] [legitimacy|E] 감소량이 줄어들고, [legitimacy_i|E] [legitimacy|E] 획득량이 늘어납니다." # 3841053825526504251
+  RICE_indian_ocean_pirate_cooldown_desc: "[indian_ocean_pirates|E]에게 접촉하는 [decision|E]의 재사용 대기시간이 5년에서 #V 4#!년으로 감소했습니다." # 15272713995175804949
   RICE_aegean_region: "에게 해" # 7418318260919607532
-  RICE_every_coastal_county_in_aegean: "[GetGeographicalRegion('RICE_aegean_region').GetName]에서 소유한 모든 해안 [county|E]" # 4199470220999008265
-  RICE_every_coastal_county_in_mediterranean: "[GetGeographicalRegion('RICE_mediterranean_region').GetName] 지역에 소유한 모든 연안 [county|E]" # 3058632410789800810
+  RICE_every_coastal_county_in_aegean: "[GetGeographicalRegion('RICE_aegean_region').GetName] 내 귀하가 소유한 모든 해안 [county|E]" # 4199470220999008265
+  RICE_every_coastal_county_in_mediterranean: "[GetGeographicalRegion('RICE_mediterranean_region').GetName] 내 당신이 소유한 모든 해안 [county|E]" # 3058632410789800810
   RICE_mediterranean_pirate_spawn_event_troops: "지중해 해적" # 2671333412960673305
   game_concept_mediterranean_pirate: "지중해 해적" # 16437947877737123559
   game_concept_mediterranean_pirates: "지중해 해적" # 2671333412960673305
   game_concept_RICE_pirate: "해적" # 4878056412161366534
   game_concept_RICE_pirates: "해적" # 10879830082974508073
-  game_concept_RICE_pirate_desc: "해적은 RICE에서 [special_buildings|E] 및 [decisions|E]와 같은 여러 방식으로 표현됩니다. 지중해와 인도양의 [rulers|E]는 특정 조건이 충족되면 각각 [mediterranean_pirates|E] 및 [indian_ocean_pirates|E]와 상호 작용할 수 있습니다." # 487301926831227381
-  game_concept_mediterranean_local_pirate: "현지 해적" # 16205042067334868494
+  game_concept_RICE_pirate_desc: "RICE에서는 해적이 [special_buildings|E]와 [decisions|E] 같은 여러 가지 방식으로 나타납니다. 지중해와 인도양의 [rulers|E]는 특정 조건이 충족될 경우 각각 [mediterranean_pirates|E]와 [indian_ocean_pirates|E]와 상호작용할 수 있습니다." # 487301926831227381
+  game_concept_mediterranean_local_pirate: "지역 해적" # 16205042067334868494
   game_concept_mediterranean_local_pirates: "지역 해적" # 14800408829530387227
-  game_concept_mediterranean_pirate_desc: "지중해의 [RICE_pirates|E]와 해적들은 게임에서 여러 가지 방식으로 표현됩니다. 먼저, 지중해를 따라 특정 조건을 충족하는 통치자는 $building_type_RICE_mediterranean_pirate_den_01$이라는 [special_building|E]을 건설하는 [decision|E]을 내릴 수 있습니다. 이 건물은 다수의 군사적 및 경제적 보너스를 제공하며, 일부 [counties|E]는 게임 시작 시 이미 이 건물을 가지고 있으며, 일반적으로 역사적으로 해적을 접대하거나 그들과 협력한 것으로 유명한 이탈리아 공화국과 같은 곳입니다.\n\n또한 여러 옵션이 있는 $RICE_pirate_mediterranean_decision$을 선택하는 [decision|E]도 있습니다. 대부분의 옵션은 영토에 $building_type_RICE_mediterranean_pirate_den_01$이 있거나, 앞서 언급한 [decision|E]의 $RICE_pirate_establish_relations_name$ 옵션을 통해 얻을 수 있는 $RICE_pirate_mediterranean_connections_modifier$ [modifier|E]를 통해 해제됩니다." # 5725026202190458904
-  building_type_RICE_lesbos_fortress_of_mytilene_01: "미틸레네 요새" # 5232321279604738830
-  building_type_RICE_lesbos_fortress_of_mytilene_01_desc: "수백 년 동안 레스보스 섬은 에게 해의 중요한 로마 방어 요새로서 역할을 해왔습니다. 주요 도시인 미틸레네의 성은 섬과 에게 해 지역을 방어하고 에게 해를 통한 무역 흐름을 보호하는 데 중요한 역할을 해왔습니다." # 6192213098441077414
+  game_concept_mediterranean_pirate_desc: "지중해의 [RICE_pirates|E] 및 사략선은 게임 내에서 여러 방식으로 표현됩니다. 먼저, 지중해 연안에서 특정 조건을 충족하는 통치자는 $building_type_RICE_mediterranean_pirate_den_01$이라 불리는 [special_building|E]를 건설하는 [decision|E]을 내릴 수 있습니다. 이 건물은 다수의 군사 및 경제 보너스를 제공하며, 몇몇 [counties|E]는 게임 시작 시 이미 이 건물을 보유하고 있는데, 대개 역사적으로 이탈리아 공화국처럼 해적을 돕거나 협력하는 것으로 유명한 곳들입니다.\n\n여러 선택지가 있는 $RICE_pirate_mediterranean_decision$ [decision|E]도 있습니다. 대부분의 선택지는 영토 내에 $building_type_RICE_mediterranean_pirate_den_01$을 보유하거나, 앞서 언급된 [decision|E]의 $RICE_pirate_establish_relations_name$ 선택지를 통해 얻을 수 있는 $RICE_pirate_mediterranean_connections_modifier$ [modifier|E]를 통해 잠금 해제됩니다." # 5725026202190458904
+  building_type_RICE_lesbos_fortress_of_mytilene_01: "미틸리니 요새" # 5232321279604738830
+  building_type_RICE_lesbos_fortress_of_mytilene_01_desc: "수세기 동안 레스보스 섬은 에게 해에서 로마 방어선의 중요한 보루 역할을 해왔습니다. 그 주요 도시인 미틸레네의 성채는 에게 해 전역의 무역 흐름을 보호했을 뿐만 아니라, 섬과 이 에게 해 지역을 방어하는 데 핵심적인 역할을 했습니다." # 6192213098441077414
   building_RICE_lesbos_fortress_of_mytilene_01: "$building_type_RICE_lesbos_fortress_of_mytilene_01$" # 10361110044998085625
   building_RICE_lesbos_fortress_of_mytilene_01_desc: "$building_type_RICE_lesbos_fortress_of_mytilene_01_desc$" # 9110423398858889381
   building_RICE_lesbos_fortress_of_mytilene_02: "확장된 $building_type_RICE_lesbos_fortress_of_mytilene_01$" # 12035729213140845664
   building_RICE_lesbos_fortress_of_mytilene_02_desc: "$building_type_RICE_lesbos_fortress_of_mytilene_01_desc$" # 9110423398858889381
   building_type_RICE_mediterranean_pirate_den_01: "지중해 해적 소굴" # 6292543698873302114
-  building_type_RICE_mediterranean_pirate_den_01_desc: "무장 상인과 해적의 경계는 종종 모호합니다. 단순 약탈은 장기적인 목표로 삼기에 적합하지 않은 경우가 많으므로, 지중해와 같은 해양 지역에서는 종종 엘리트들이 해적과 협력하여 이익과 이득을 얻고 경제적 경쟁자인 적을 약화시키려 합니다." # 15792376546375944324
-  building_RICE_mediterranean_pirate_den_01: "도둑 은신처" # 15568881954145402940
-  building_RICE_mediterranean_pirate_den_01_desc: "이 지역의 해적들은 이제 국가의 간접적인 지원을 받아 서로의 적을 노리지만, 지중해 이 지역에 발판을 마련하기 시작한 단계에 불과합니다." # 2402412308914010758
+  building_type_RICE_mediterranean_pirate_den_01_desc: "무장 상인과 해적의 경계선은 종종 모호합니다. 단순 약탈은 장기적으로 실현 가능한 목표가 아닌 경우가 많으므로, 지중해와 같은 많은 해양 지역에서 엘리트들은 종종 이익과 수익을 위해 해적들과 협력하며, 경제적 경쟁자인 공동의 적들을 약화시키기도 합니다." # 15792376546375944324
+  building_RICE_mediterranean_pirate_den_01: "도적 소굴" # 15568881954145402940
+  building_RICE_mediterranean_pirate_den_01_desc: "비록 이제는 공동의 적을 공격하기 위해 국가로부터 간접적인 지원을 받고 있지만, 이 지역의 해적들은 지중해 이 일대에 이제 막 거점을 확보하기 시작했을 뿐입니다." # 2402412308914010758
   building_RICE_mediterranean_pirate_den_02: "암시장" # 2820867376589737327
-  building_RICE_mediterranean_pirate_den_02_desc: "이 지역의 해적들은 현지 영주들과 더욱 긴밀히 협력하여 경쟁 상인의 상품을 훔치고 다른 곳으로 밀수하고 있습니다. 이는 수익성이 좋은 거래이며, 지중해에서는 드물지 않습니다." # 1742615280515484943
+  building_RICE_mediterranean_pirate_den_02_desc: "이 지역의 해적들은 경쟁 상인들로부터 상품을 강탈하고 다른 곳으로 밀수하기 위해 지역 영주들과 더욱 긴밀히 공조하고 있습니다. 이는 수익성 있는 거래이며, 지중해에서는 드물지 않은 일입니다." # 1742615280515484943
   building_RICE_mediterranean_pirate_den_03: "해적 항구" # 17691484996744889339
-  building_RICE_mediterranean_pirate_den_03_desc: "이곳의 해적단은 지역 통치자들의 도움을 받아 함대를 관리하고 교역에 참여할 수 있는 자체적인 성역을 유지할 만큼 충분한 부와 영향력을 축적했습니다." # 8304416978641151762
-  building_RICE_mediterranean_pirate_den_04: "해상 요새" # 14211986981835860739
-  building_RICE_mediterranean_pirate_den_04_desc: "이곳은 이 해안을 지키고, 해적들과 그들을 지원하는 지방 통치자들을 억누르기 위한 강력한 요새입니다. 그들의 재산을 채우든 적과 싸우든, 이 두 집단의 이해관계는 같습니다." # 13967038885145248764
+  building_RICE_mediterranean_pirate_den_03_desc: "이곳의 해적단들은 지역 통치자들의 도움을 받아 함대를 관리하고 무역에 종사할 수 있는 자신들만의 성역을 유지하기에 충분한 부와 영향력을 축적했습니다." # 8304416978641151762
+  building_RICE_mediterranean_pirate_den_04: "해상 성채" # 14211986981835860739
+  building_RICE_mediterranean_pirate_den_04_desc: "여기에 깃든 해적들과 그들을 지원하는 지역 통치자들, 둘 모두에게 감히 맞서는 자들을 위협하며 이 해안을 지키는 강력한 요새가 자리하고 있습니다. 전리품을 채우든 적과 싸우든, 이 두 집단의 이익은 하나로 통합니다." # 13967038885145248764
   activity_RICE_roman_kalends_host_an_a: "$host_activity_a$" # 13713790857143020716
-  activity_RICE_roman_kalends: "칼렌드" # 1062438644660672734
-  activity_RICE_roman_kalends_desc: "고대 로마인들은 1월의 시작을 새해의 시작으로 기념했습니다. 이 기념은 지중해와 중동의 많은 공동체에서 계속되고 있습니다." # 11262433936081333891
-  activity_RICE_roman_kalends_selection_tooltip: "칼렌드를 기념합니다.\n\n$activity_RICE_roman_kalends_context_tooltip$" # 7301157995037606379
-  activity_RICE_roman_kalends_context_tooltip: "#emphasis 역사적 배경:#! 1월의 칼렌드는 고대 로마에서 전통적인 새해 축제였습니다. 새해 시작일이 다른 날짜로 옮겨진 후에도 지중해와 중동의 비잔틴 영향권 지역에서는 여전히 축하했습니다. 그때쯤에는 다른 로마 칼렌드, 즉 다른 달의 시작이 더 이상 축하되지 않았기 때문에 이 축일은 단순히 칼렌드 또는 중세 그리스어로 칼란다이로 알려졌습니다. 비잔틴 교회 당국은 칼렌드를 이단적인 이교 관습으로 비난했지만, 무슬림 땅의 정교회 기독교인들에게는 종교적인 기독교 정체성의 상징이 되었습니다. 어쨌든 비잔틴과 무슬림 자료에 따르면 칼렌드는 인기가 떨어졌고 13세기 또는 14세기까지 사라진 것으로 보입니다." # 13995787136259892772
-  activity_RICE_roman_kalends_host_desc: "$BULLET_WITH_TAB$#P 명성 획득#! [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$스트레스 감소 [stress_loss_i|E][stress|E]\n$BULLET_WITH_TAB$초대받은 사람들의 주최자에 대한 [opinions|E] 증가\n$BULLET_WITH_TAB$[capital|E] [county|E]에 #V 5#!년 동안 [GetModifier('RICE_kalends_celebrated_modifier').GetNameWithTooltip] [county_modifier|E] 부여\n$BULLET_WITH_TAB$#N 신앙심 감소#! [piety_i|E][piety|E] $RICE_roman_kalends_devotion_intent$ [intent|E]를 선택하거나 [GetReligionByKey('hellenism_religion').GetAdjective] [faith|E]를 따르지 않는 경우" # 9732657607226468499
+  activity_RICE_roman_kalends: "칼렌다이" # 1062438644660672734
+  activity_RICE_roman_kalends_desc: "고대 로마인들은 1월의 도래를 새해의 시작으로 기념했습니다. 이 기념은 지중해와 중동의 많은 공동체들 사이에서 계속되고 있습니다." # 11262433936081333891
+  activity_RICE_roman_kalends_selection_tooltip: "칼렌다를 경축하다.\n\n$activity_RICE_roman_kalends_context_tooltip$" # 7301157995037606379
+  activity_RICE_roman_kalends_context_tooltip: "#emphasis 역사적 배경:#! 1월의 칼렌다이는 고대 로마에서 전통적인 새해 기념일이었습니다. 한 해의 시작이 다른 날짜로 바뀌고 나서도, 여전히 지중해와 중동의 비잔티움 제국 영향권에서 기념되었습니다. 그때쯤에는 이 축일은 단순히 칼렌다이, 중세 그리스어로는 칼란다이라고 불렸는데, 다른 로마식 칼렌다이, 즉 다른 달의 시작은 더 이상 기념되지 않았기 때문입니다. 비잔티움 교회 당국은 칼렌다이를 이단적인 이교도 풍습이라고 비난했지만, 무슬림 땅에 사는 정교회 신자들에게는 종교적 기독교 정체성의 상징이 되었습니다. 어느 쪽이든, 비잔티움 및 무슬림 사료에 따르면, 칼렌다이는 인기가 시들해져 13세기 또는 14세기쯤에는 사라진 것으로 보입니다." # 13995787136259892772
+  activity_RICE_roman_kalends_host_desc: "\n$BULLET_WITH_TAB$#P 획득#! [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$[stress|E] [stress_loss_i|E] 상실\n$BULLET_WITH_TAB$초대받은 인물의 주최자에 대한 [opinions|E] 상승\n$BULLET_WITH_TAB$[capital|E] [county|E]는 #V 5#!년 동안 [GetModifier('RICE_kalends_celebrated_modifier').GetNameWithTooltip] [county_modifier|E]를 획득합니다\n$BULLET_WITH_TAB$#N 상실#! [piety_i|E][piety|E] (단, $RICE_roman_kalends_devotion_intent$ [intent|E]를 선택하거나 [GetReligionByKey('hellenism_religion').GetAdjective] [faith|E]를 따를 시 면제)" # 9732657607226468499
   activity_RICE_roman_kalends_guest_desc: "$activity_RICE_roman_kalends_host_desc$" # 18221561438110267656
   activity_RICE_roman_kalends_destination_selection: "$activity_RICE_roman_kalends_province_desc$" # 12045870191072460000
   activity_RICE_roman_kalends_guest_help_text: "$activity_RICE_roman_kalends$" # 13039371817461952191
-  activity_RICE_roman_kalends_predicted_cost: "이 [activity|E]의 비용은 주로 당신의 [income|E]에 따라 결정됩니다." # 10498845032472754788
-  activity_RICE_roman_kalends_conclusion_desc: "우리 [GetActivityType( 'activity_RICE_roman_kalends' ).GetName] 행사가 끝났습니다. 정말 기쁜 날입니다!" # 9034901605906290971
-  RICE_roman_kalends_celebration_phase: "축제" # 8745396489141951886
-  RICE_roman_kalends_celebration_phase_desc: ""칼렌데스가 오면," 현지 속담에 따르면, "따뜻하게 지내고 실내에 머무르십시오."" # 14026478625229866288
+  activity_RICE_roman_kalends_predicted_cost: "본 [활동|E]의 비용은 주로 [수입|E]에 기반합니다." # 10498845032472754788
+  activity_RICE_roman_kalends_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_roman_kalends' ).GetName]가 끝났습니다. 정말 즐거운 행사였습니다!" # 9034901605906290971
+  RICE_roman_kalends_celebration_phase: "축하" # 8745396489141951886
+  RICE_roman_kalends_celebration_phase_desc: "'칼렌드가 오면,' 현지 속담에 이르기를, '따뜻하게 지내고 실내에 머물러라.'" # 14026478625229866288
   RICE_roman_kalends_festive_intent_header: "축제:" # 8815145433511295814
-  RICE_roman_kalends_festive_intent: "축제" # 15164774729156442531
-  RICE_roman_kalends_festive_intent_desc: "당신은 긴장을 풀고 즐거운 시간을 보냅니다. 추가 [stress_loss_i|E] [stress|E]를 잃고, [GetTrait('gregarious').GetName( GetNullCharacter )] 또는 [GetTrait('gluttonous').GetName( GetNullCharacter )]일 경우 더 많이 잃습니다." # 5191273724221539457
+  RICE_roman_kalends_festive_intent: "축제:" # 15164774729156442531
+  RICE_roman_kalends_festive_intent_desc: "긴장을 풀고 즐거운 시간을 보냅니다. 추가 [stress_loss_i|E]의 [stress|E]를 잃으며, 만약 당신이 [GetTrait('gregarious').GetName( GetNullCharacter )]이거나 [GetTrait('gluttonous').GetName( GetNullCharacter )]이면 더욱 많이 잃습니다." # 5191273724221539457
   RICE_roman_kalends_devotion_intent_header: "신앙심:" # 4201487173289154186
-  RICE_roman_kalends_devotion_intent: "헌신" # 13046272498566933790
-  RICE_roman_kalends_devotion_intent_desc: "당신의 종교적 정체성을 강화합니다. [신앙도_i|E] [신앙도|E]를 잃는 대신 #P 획득합니다#!. 당신 위의 [봉신|E]이 다른 [종교|E]를 따르는 경우 #bold 두 배#!로 증가합니다. 당신이 [GetTrait('zealous').GetName( GetNullCharacter )] 또는 [GetTrait('diligent').GetName( GetNullCharacter )]인 경우 더 많은 [스트레스_loss_i|E] [stress|E]를 잃습니다." # 521256160443576964
-  RICE_roman_kalends_generosity_intent_header: "관대함:" # 2598692737917792853
-  RICE_roman_kalends_generosity_intent: "관대함" # 7055109435000099171
-  RICE_roman_kalends_generosity_intent_desc: "선물 주기에 정말 열중하시네요. #P +100%#! 선물 주기로 인한 [opinion|E] 상승. [stress_loss_i|E] [stress|E] 감소가 더 커집니다. [GetTrait('generous').GetName( GetNullCharacter )] 또는 [GetTrait('compassionate').GetName( GetNullCharacter )]이라면." # 16374460701478942147
+  RICE_roman_kalends_devotion_intent: "신앙심:" # 13046272498566933790
+  RICE_roman_kalends_devotion_intent_desc: "종교적 정체성을 강화합니다.\n[piety|E]를 잃는 대신 #P [piety_i|E]를 얻습니다#!; 상위에 다른 [religion|E]을 따르는 [liege|E]가 있다면 이는 #bold 두 배#!가 됩니다.\n[GetTrait('zealous').GetName( GetNullCharacter )]이나 [GetTrait('diligent').GetName( GetNullCharacter )] 특성을 가지고 있다면 [stress|E]를 [stress_loss_i|E] 더 잃습니다." # 521256160443576964
+  RICE_roman_kalends_generosity_intent_header: "자선:" # 2598692737917792853
+  RICE_roman_kalends_generosity_intent: "자선:" # 7055109435000099171
+  RICE_roman_kalends_generosity_intent_desc: "선물 주는 행위를 정말 즐기는군요.\n선물 증정으로 인한 [opinion|E] #P +100%#! 증가.\n만약 [GetTrait('generous').GetName( GetNullCharacter )] 특성이나 [GetTrait('compassionate').GetName( GetNullCharacter )] 특성을 가졌다면 [stress_loss_i|E] [stress|E]를 더 많이 잃습니다." # 16374460701478942147
   RICE_roman_kalends_gift_type: "선물" # 13080234212047682245
   RICE_roman_kalends_gift_small: "겸손한" # 9351313465329914901
-  RICE_roman_kalends_gift_small_desc: "$EFFECT_LIST_BULLET$ 기본 [prestige_i|E] #V [EmptyScope.ScriptValue('RICE_roman_kalends_gift_gain_small_base')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$ 이 [activity|E]에 참석하는 모든 [character|E]로부터 #P 4#! [opinion|E] 획득\n$EFFECT_LIST_BULLET$ 당신은 최대 #V [gold_i|E][GetPlayer.MakeScope.ScriptValue('tiny_gold_value')]#!의 선물을 받을 수 #italic 있습니다#!.\n\n#weak 이번에는 작은 선물 교환으로 충분합니다.#!" # 11137108903947766138
+  RICE_roman_kalends_gift_small_desc: "$EFFECT_LIST_BULLET$[prestige_i|E]를 #V [EmptyScope.ScriptValue('RICE_roman_kalends_gift_gain_small_base')]#! 기본 획득\n$EFFECT_LIST_BULLET$이 [activity|E]에 참석한 모든 [character|E]로부터 #P 4#! [opinion|E] 획득\n$EFFECT_LIST_BULLET$당신 자신은 최대 #V [gold_i|E][GetPlayer.MakeScope.ScriptValue('tiny_gold_value')]#!의 선물을 #italic 받을 수도 있습니다#!.\n\n#weak 이번에는 작은 선물 교환만 할 것입니다.#!" # 11137108903947766138
   RICE_roman_kalends_gift_medium: "평균" # 17705814244814514937
-  RICE_roman_kalends_gift_medium_desc: "$EFFECT_LIST_BULLET$ 기본 [prestige_i|E] #V [EmptyScope.ScriptValue('RICE_roman_kalends_gift_gain_medium_base')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$ 이번 [activity|E]에 참석한 모든 [character|E]로부터 #P 8#! [opinion|E] 획득\n$EFFECT_LIST_BULLET$본인 또한 #italic 최대#! #V [gold_i|E][GetPlayer.MakeScope.ScriptValue('minor_gold_value')]#! 상당의 선물을 받을 수 있음\n\n#weak 축제 분위기에는 축제 분위기에 맞는 선물 교환이 필요합니다!#" # 7967929912636755748
+  RICE_roman_kalends_gift_medium_desc: "$EFFECT_LIST_BULLET$기본 [prestige_i|E] #V [EmptyScope.ScriptValue('RICE_roman_kalends_gift_gain_medium_base')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$이 [activity|E]에 참석한 모든 [character|E]에게서 #P 8#! [opinion|E] 획득\n$EFFECT_LIST_BULLET$당신 자신은 최대 #V [gold_i|E][GetPlayer.MakeScope.ScriptValue('minor_gold_value')]#! 만큼의 선물을 #italic 받을#! 수 있습니다!\n\n#weak 축제에는 축제 선물이 빠질 수 없죠!#!" # 7967929912636755748
   RICE_roman_kalends_gift_large: "상당한" # 13455308899440073070
-  RICE_roman_kalends_gift_large_desc: "$EFFECT_LIST_BULLET$기본 [명예_i|E] #V [EmptyScope.ScriptValue('RICE_roman_kalends_gift_gain_large_base')]#! [명예|E] 획득\n$EFFECT_LIST_BULLET$이 [행사|E]에 참석하는 모든 [인물|E]에게 #P 12#! [호감도|E] 증가\n$EFFECT_LIST_BULLET$당신은 최대 #V [금_i|E][GetPlayer.MakeScope.ScriptValue('medium_gold_value')]#!의 선물을 받을 수 있습니다\n\n#weak 난 모든 사람에게 훌륭한 선물을 주며 카렌드의 정신을 진심으로 받아들일 것입니다!#!" # 13504377180458695533
-  RICE_roman_kalends_gift_amount: "선물의 크기" # 16808120998537556001
-  RICE_roman_kalends_completed_log_title: "$activity_RICE_roman_kalends$ 종료됨" # 14559863161964623779
-  RICE_roman_kalends_completed_log: "[CHARACTER.GetShortUIName|U](이)가 $activity_RICE_roman_kalends$ 축제를 마쳤습니다." # 5746034778194766716
-  TRAVEL_NAME_FOR_activity_RICE_roman_kalends: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_roman_kalends$" # 12286218567358324238
+  RICE_roman_kalends_gift_large_desc: "$EFFECT_LIST_BULLET$기본 [prestige_i|E] #V [EmptyScope.ScriptValue('RICE_roman_kalends_gift_gain_large_base')]#! [prestige|E]를 획득합니다.\n$EFFECT_LIST_BULLET$본 [activity|E]에 참석한 모든 [character|E]로부터 #P 12#! [opinion|E]를 획득합니다.\n$EFFECT_LIST_BULLET$당신 스스로도 최대 #V [gold_i|E][GetPlayer.MakeScope.ScriptValue('medium_gold_value')]#!까지의 선물을 #italic 받을 수도#! 있습니다.\n\n#weak 모두에게 성대한 선물을 베풀어 칼렌다의 정신을 진정으로 받아들이겠소!#!" # 13504377180458695533
+  RICE_roman_kalends_gift_amount: "증여 규모" # 16808120998537556001
+  RICE_roman_kalends_completed_log_title: "$activity_RICE_roman_kalends$ 종료" # 14559863161964623779
+  RICE_roman_kalends_completed_log: "[CHARACTER.GetShortUIName|U]가 $activity_RICE_roman_kalends$ 축하를 마쳤습니다." # 5746034778194766716
+  TRAVEL_NAME_FOR_activity_RICE_roman_kalends: "[Character.GetFirstNamePossessiveNoTooltip] 로마 축월" # 12286218567358324238
   RICE_decision_kalends_month_requirement: "월은 10월과 11월 사이여야 합니다." # 13251332270021558211
-  RICE_kalends_opinion: "칼렌드 선물 증정" # 16324708145290747850
-  activity_RICE_hot_springs_visit_lesbos_thermi_province_desc: "#P +++ [GetTitleByKey('c_lesbos').GetNameNoTier]의 테르미에 있는 [hot_springs|E]는 독특한 [hot_springs|E]입니다.#!\n\n#italic 이것은 [character_modifier|E]인 [GetModifier('RICE_lesbos_visit_thermi_normal').GetNameWithTooltip]를 얻게 합니다. 만약 당신이 [GetReligionByKey('hellenism_religion').GetAdjective] [faith|E]를 따른다면, 대신 [modifier|E]인 [GetModifier('RICE_lesbos_visit_thermi_artemis').GetNameWithTooltip]를 얻고, 추가로 약간의 [piety_i|E] [piety|E]를 얻을 것입니다.#!" # 2042978053148820634
-  RICE_pirate_mediterranean_connections_modifier: "지중해 해적 연계" # 14217670591695162109
-  RICE_pirate_mediterranean_connections_modifier_desc: "이 인물은 지중해의 특정 해적 집단과 연관이 있습니다.\n\n#EMP [decision|E]에서 $RICE_pirate_mediterranean_decision$로 다양한 옵션을 해제합니다.!#" # 15269390179921436330
-  RICE_kalends_celebrated_modifier: "최근 칼렌드 축제" # 12500943755833607660
+  RICE_kalends_opinion: "칼렌즈 선물 증정" # 16324708145290747850
+  activity_RICE_hot_springs_visit_lesbos_thermi_province_desc: "\n#P +++ [GetTitleByKey('c_lesbos').GetNameNoTier]의 테르미에 있는 [hot_springs|E]는 고유한 [hot_springs|E]입니다.#!\n\n#italic 이것은 [GetModifier('RICE_lesbos_visit_thermi_normal').GetNameWithTooltip] [character_modifier|E]를 얻도록 할 것입니다. 만약 당신이 [GetReligionByKey('hellenism_religion').GetAdjective] [faith|E]를 따른다면, 대신 [GetModifier('RICE_lesbos_visit_thermi_artemis').GetNameWithTooltip] [modifier|E]를 얻을 것이며, 추가로 약간의 [piety_i|E] [piety|E]도 얻을 것입니다.#!" # 2042978053148820634
+  RICE_pirate_mediterranean_connections_modifier: "지중해 해적 연줄" # 14217670591695162109
+  RICE_pirate_mediterranean_connections_modifier_desc: "이 인물은 지중해의 특정 해적 집단과 연줄이 있습니다.\n#EMP [decision|E] $RICE_pirate_mediterranean_decision$의 다양한 선택지를 잠금 해제합니다.#!" # 15269390179921436330
+  RICE_kalends_celebrated_modifier: "최근 칼렌드 기념" # 12500943755833607660
   RICE_lesbos_mediterranean_pirate_infestation: "해적 창궐" # 13903469855409467172
-  RICE_lesbos_mediterranean_infestation_desc: "지역 통치자들이 약탈과 교역에 있어 상호 이익을 위해 지역 해적들에게 협력을 제안하기 시작했으며, 해적들이 이 땅에 영구적인 기지를 세우는 것을 허용했습니다. 하지만 해적 지도부가 동료 해적들을 통제하고 인근 공동체 및 지역 권력 구조에 통합하는 데는 시간이 좀 걸릴 것입니다." # 1291127219689404151
+  RICE_lesbos_mediterranean_infestation_desc: "지역 통치자들은 약탈 및 교역에 있어 상호 이익을 위해 이 땅에 영구적인 기지를 세우는 것을 허용하며 지역 해적들과 협력하려 합니다. 그러나 해적 지도부가 동료 해적들을 통제하에 두고 인근 공동체 및 지역 권력 구조에 통합시키기까지는 시간이 좀 걸릴 것입니다." # 1291127219689404151
   RICE_lesbos_recently_fortified_aegean: "최근 요새화된 에게해 영토" # 3223098574307233155
   RICE_mediterranean_pirate_sales: "지중해 해적 시장" # 5070721474274959137
-  RICE_mediterranean_pirate_sales_desc: "지역 통치자들은 해적(또는 적어도 그들과 관계를 맺고 있는 해적)이 불법으로 획득한 물건이든 아니든 이 지역에서 그들의 물건을 판매할 수 있도록 허용합니다. 결국 많은 '해적'이 또한 상인이며, 혹은 다른 말로 많은 상인들이 틈틈이 해적 행위를 합니다." # 10124932167980077858
-  RICE_ransomed_pirate_prisoners: "몸값을 받고 풀려난 해적 포로" # 14326777073984203645
-  RICE_ransomed_pirate_prisoners_desc: "최근 지역 통치자들이 해적 행위 및 습격의 결과로 포로로 잡힌 이곳 거주민들을 몸값을 지불하여 석방시키기 위해 그들의 인맥을 활용했습니다." # 15899432626928466534
-  RICE_kalends_dressed_up_as_animal: "칼렌드 축제에서 동물로 변장함" # 11145250690524265655
-  RICE_kalends_dressed_up_as_animal_desc: "최근 #italic 칼렌드# 축제 동안 이 인물은 일종의 동물로 분장한 가장 무도회에 참가했습니다." # 3866158778055741210
-  RICE_kalends_crossdressed: "칼렌드 축제에서 여장함" # 7329971968509433077
-  RICE_kalends_crossdressed_desc: "최근 #italic Kalends#! 축제 기간 중, 이 인물은 반대 성별의 의복과 스타일로 차려입었습니다." # 13550102142451163661
-  RICE_lesbos_sick_from_kalends_feasting: "칼렌즈 축제 과식" # 6116626432482117105
-  RICE_lesbos_sick_from_kalends_feasting_desc: "최근 #italic 칼렌스#! 축제에서 이 인물은 과식과 과음을 하여 병에 걸렸습니다." # 16182800764474187850
-  RICE_roman_kalends_modifier: "축제 칼렌드" # 12926693089826414189
-  RICE_lesbos_thinking_about_hephaestus_legends: "헤파이스토스 전설에 대한 생각" # 5754646411915535775
-  RICE_lesbos_wine_modifier: "레즈보스 와인" # 16633310977190708870
-  RICE_lesbos_likes_sappho: "사포에게서 영감을 받음" # 1566648995686197157
-  RICE_lesbos_likes_terpander: "테르판드로스의 영향을 받아" # 1194749643242935066
-  RICE_lesbos_likes_alcaeus: "알카이오스에 영감을 받아" # 1693027172167222185
+  RICE_mediterranean_pirate_sales_desc: "지역 통치자들은 해적들(또는 적어도 그들과 협력 관계에 있는 자들)이 이 지역에서 그들의 상품을, 부당하게 얻은 것이든 아니든, 판매하도록 허용합니다. 사실, 많은 '해적'들도 상인이며, 다시 말해 많은 상인들이 부업으로 해적질에 가담합니다." # 10124932167980077858
+  RICE_ransomed_pirate_prisoners: "몸값 지불된 해적 포로" # 14326777073984203645
+  RICE_ransomed_pirate_prisoners_desc: "지역 통치자들은 최근 그들의 인맥을 동원하여 다양한 해적 행위와 약탈로 사로잡혔던 이곳 주민 다수를 몸값을 지불하여 구출했습니다." # 15899432626928466534
+  RICE_kalends_dressed_up_as_animal: "칼렌다 기간 중 동물 분장" # 11145250690524265655
+  RICE_kalends_dressed_up_as_animal_desc: "최근 #italic 칼렌즈#! 축제 기간 동안, 이 인물은 가장 무도회에 참가하여 어떤 동물로 분장했습니다." # 3866158778055741210
+  RICE_kalends_crossdressed: "칼렌데스 기간의 복장 전환" # 7329971968509433077
+  RICE_kalends_crossdressed_desc: "최근 #italic Kalends#! 축제 중에, 이 [character|E]는 반대 성별의 옷과 복장을 따라 입었습니다." # 13550102142451163661
+  RICE_lesbos_sick_from_kalends_feasting: "칼렌데 중 과식" # 6116626432482117105
+  RICE_lesbos_sick_from_kalends_feasting_desc: "최근 #italic 칼렌데스#! 축제에서 이 인물은 너무 많이 먹고 마셔서 병이 나게 되었다." # 16182800764474187850
+  RICE_roman_kalends_modifier: "축성된 칼렌다이" # 12926693089826414189
+  RICE_lesbos_thinking_about_hephaestus_legends: "헤파이스토스의 전설에 대해 생각하기" # 5754646411915535775
+  RICE_lesbos_wine_modifier: "레스보스 포도주" # 16633310977190708870
+  RICE_lesbos_likes_sappho: "사포에게서 영감을 받아" # 1566648995686197157
+  RICE_lesbos_likes_terpander: "터르판데르에게서 영감을 받은" # 1194749643242935066
+  RICE_lesbos_likes_alcaeus: "알카이오스에게서 영감을 받아" # 1693027172167222185
   RICE_lesbos_sappho_duplication: "두 사포 이론" # 15972585453414970205
-  RICE_lesbos_sappho_duplication_desc: "레즈보스 섬 출신의 유명한 시인 사포의 실제 역사에 대해서는 논란이 있는데, 시인 사포와 매춘부 사포에 대한 전설이 있기 때문입니다. 이 인물은 시인 사포와 매춘부 사포, 두 명의 사포가 있었다고 주장함으로써 이 불일치를 해소하는 이론을 믿습니다. 즉, 시인은 속된 여성이기에는 너무 웅변적이었을 것이라는 논리입니다." # 6206774254944570788
-  RICE_lesbos_sappho_narrativisation: "사포의 개량 이론" # 10370371593564472975
-  RICE_lesbos_sappho_narrativisation_desc: "레즈보스 섬 출신의 유명한 시인 사포에 대한 전설은 사포가 시인이자 매춘부였다는 설이 있어 실제 역사를 두고 논란이 있습니다. 이 인물은 사포가 원래는 천박한 여성이었으나 시간이 지나면서 스스로를 개선하여 더욱 웅변적인 사람이 되었다는 이론으로 이러한 불일치를 해소하는 이론을 믿습니다. 적어도 더 나은 이야기니까요." # 16789487879643892268
+  RICE_lesbos_sappho_duplication_desc: "레스보스 섬 출신 유명 시인 사포의 실제 역사적 사실을 두고 논란이 분분합니다. 이는 시인 사포와 창녀 사포라는 상반된 전설 때문입니다. 이 인물은 이러한 불일치를 해소하고자 시인 사포와 창녀 사포, 이렇게 두 명의 사포가 존재했다는 이론을 믿습니다. 그의 논리는 다음과 같습니다. 여성 시인이었다면 너무나도 능변이어서 저속한 여인일 리가 없다는 것입니다." # 6206774254944570788
+  RICE_lesbos_sappho_narrativisation: "사포의 개선 이론" # 10370371593564472975
+  RICE_lesbos_sappho_narrativisation_desc: "레즈보스 섬 출신의 유명한 시인 사포에 대한 실제 역사에는 시인 사포와 매춘부 사포에 대한 전설들을 고려할 때 논란이 있다. 이 인물은 이러한 불일치를 해소하는 이론, 즉 사포가 본래 저속한 여인이었으나 시간이 지나며 스스로를 발전시켜 더 유창해졌다는 이론을 믿는다 – 적어도 더 나은 이야기로 만들기는 한다." # 16789487879643892268
   RICE_lesbos_studying_aristotle_biology: "아리스토텔레스의 생물학 연구 검토" # 7048385706038232672
-  RICE_lesbos_visit_thermi_artemis: "레즈보스의 테르미 방문" # 10874578736532554387
-  RICE_lesbos_visit_thermi_artemis_desc: "이 인물은 최근에 레스보스 섬을 방문하여 테르미 온천에서 휴식을 취했습니다. 그곳은 치유력으로 유명하며, 아르테미스 여신에게 신성한 장소로 여겨집니다." # 16230569014232841788
+  RICE_lesbos_visit_thermi_artemis: "레스보스의 테르미를 방문했다" # 10874578736532554387
+  RICE_lesbos_visit_thermi_artemis_desc: "이 인물은 최근 레스보스 섬의 테르미 온천을 방문하여 휴식을 취했습니다. 그곳은 치유력이 있다고 알려져 있으며, 여신 아르테미스에게 바쳐진 신성한 장소로 여겨집니다." # 16230569014232841788
   RICE_lesbos_visit_thermi_normal: "$RICE_lesbos_visit_thermi_artemis$" # 13518181301110319554
-  RICE_lesbos_visit_thermi_normal_desc: "이 인물은 최근 치료 효능으로 유명한 테르미 온천에서 휴식을 취하기 위해 레스보스 섬을 방문했습니다." # 17948729651202565874
+  RICE_lesbos_visit_thermi_normal_desc: "이 인물은 최근에 치유 효과로 알려진 테르미 온천을 방문하고 휴식을 취하기 위해 레스보스 섬으로 갔습니다." # 17948729651202565874
   RICE_indian_ocean_pirate_infestation_2: "$RICE_socotra_pirate_infestation$" # 8425192414036957022
-  RICE_indian_ocean_pirate_infestation_2_desc: "지역 통치자들이 이 지역에서 활동하는 해적들과 맺었던 이전 합의를 파기했습니다. 이로 인해 많은 해적 또는 이전 해적들이 남아 있었고 이전에는 지역 상업 및 정치 기관에 통합되었기 때문에 단기적인 혼란이 야기되었습니다." # 43943943200974856
-  RICE_mediterranean_reneged_pirate_deals: "지중해 해적과의 합의 파기" # 3467528670468270546
-  RICE_mediterranean_reneged_pirate_deals_desc: "#EMP [mediterranean_pirates|E]와 관련된 특정 [decisions|E]을 내리는 것을 방지합니다!#" # 1263184884981055697
+  RICE_indian_ocean_pirate_infestation_2_desc: "지역 통치자들은 이 지역에서 활동하는 해적들과의 이전 합의를 파기했습니다. 이는 많은 해적이나 전직 해적들이 여전히 남아있고 이전에 지역 상업 및 정치 기관에 통합되었기에 단기적인 혼란을 야기했습니다." # 43943943200974856
+  RICE_mediterranean_reneged_pirate_deals: "지중해 해적과의 계약 파기" # 3467528670468270546
+  RICE_mediterranean_reneged_pirate_deals_desc: "#EMP 특정 [지중해 해적|E]과 관련된 [결단|E]을 취할 수 없게 합니다.#!" # 1263184884981055697
   RICE_pirate_mediterranean_decision: "지중해 해적과 접촉" # 140646606267671403
-  RICE_pirate_mediterranean_decision_tooltip: "해적이 항상 적은 아닙니다. 때로는, 많은 경우에, 친구가 될 수도 있고, 적어도 유용한 도구가 될 수도 있습니다!" # 3385376262130005902
-  RICE_pirate_mediterranean_decision_desc: "[GetGeographicalRegion('RICE_mediterranean_region').GetName]는 언제나 해적들의 본거지였습니다. 숙련된 [rulers|E]는 상호 이익을 위해 협력적인 해적들과 언제 협력해야 하는지 알고 있습니다." # 18237498604561866569
-  RICE_pirate_mediterranean_decision_confirm: "해적은 우리에게 자산이 될 수 있습니다." # 8269337865923156535
-  RICE_pirate_mediterranean_decision_requirement_1: "#V 지중해 해적 소굴#!이 있는 [county|E]를 소유하거나 [GetModifier('RICE_pirate_mediterranean_connections_modifier').GetNameWithTooltip] [character_modifier|E] 보유" # 17656882877639762947
-  RICE_NOT_pirate_mediterranean_decision_requirement_1: "#bold 해적 동굴#!이 있는 [county|E]를 소유하지 않거나 [GetModifier('RICE_pirate_mediterranean_connections_modifier').GetNameWithTooltip] [character_modifier|E]를 보유하지 않습니다." # 17094347392394140951
+  RICE_pirate_mediterranean_decision_tooltip: "해적이 항상 적은 아니야 - 때로는, 아주 자주, 그들은 친구가 될 수 있어, 아니면 적어도 유용한 도구는 되지!" # 3385376262130005902
+  RICE_pirate_mediterranean_decision_desc: "[GetGeographicalRegion('RICE_mediterranean_region').GetName]는 늘 해적의 소굴이었습니다. 숙련된 [rulers|E]는 상호 이익을 위해 협력적인 해적들과 언제 협력해야 할지를 압니다." # 18237498604561866569
+  RICE_pirate_mediterranean_decision_confirm: "해적은 우리에게 자산이 될 수 있다." # 8269337865923156535
+  RICE_pirate_mediterranean_decision_requirement_1: "#V 지중해 해적 소굴#!을 가진 [county|E]를 소유하거나 [GetModifier('RICE_pirate_mediterranean_connections_modifier').GetNameWithTooltip] [character_modifier|E]를 보유" # 17656882877639762947
+  RICE_NOT_pirate_mediterranean_decision_requirement_1: "귀하는 #V 해적 소굴#!이 있는 [county|E]를 소유하거나, [GetModifier('RICE_pirate_mediterranean_connections_modifier').GetNameWithTooltip] [character_modifier|E]를 보유하고 있지 #bold 않습니다#!" # 17094347392394140951
   RICE_pirate_mediterranean_decision_context_tooltip: "$RICE_socotra_collaborate_with_pirates_context_tooltip$" # 8049344977440282555
-  RICE_PIRATE_PICK_ACTION_TYPE: "분명히 우리는 몇 가지 공통 관심사를 가지고 있을 겁니다..." # 16447212946916216838
+  RICE_PIRATE_PICK_ACTION_TYPE: "확실히 우리에겐 공통 관심사가 있겠지요..." # 16447212946916216838
   RICE_pirate_establish_relations_name: "관계 수립" # 4667287189579288083
   RICE_pirate_establish_relations_desc: "$RICE_pirate_establish_relations_name$" # 3300988579453022283
-  RICE_pirate_establish_relations_tooltip: "#italic 우리가 해적들과 연합하려면, 우선 그들과 정기적으로 소통해야 합니다!#" # 12970076850632831232
-  RICE_pirate_establish_relations_effect_tooltip_1: "$RICE_pirate_mediterranean_decision$ [decision|E]의 다른 옵션에 접근할 수 있습니다" # 11378891467190631416
+  RICE_pirate_establish_relations_tooltip: "#italic 우리가 해적들과 관계를 맺으려 한다면, 우선적으로 그들과 정기적으로 소통해야 할 필요가 있다.#!" # 12970076850632831232
+  RICE_pirate_establish_relations_effect_tooltip_1: "이제 [decision|E] $RICE_pirate_mediterranean_decision$에서 다른 선택지들을 이용할 수 있습니다." # 11378891467190631416
   RICE_pirate_acquire_booty_name: "전리품 획득" # 4302184589132269304
   RICE_pirate_acquire_booty_desc: "$RICE_pirate_acquire_booty_name$" # 6514937490311623508
-  RICE_pirate_acquire_booty_tooltip: "#italic 저희는 저희와 함께 일하는 해적들이 탈취한 전리품 중 일부를 받을 권리가 있습니다!#" # 2189054555079774578
-  RICE_pirate_acquire_booty_effect_tooltip_1: "#V [gold_i|E][GetPlayer.MakeScope.ScriptValue('RICE_pirate_booty_min_value')|0]#! 와 #V [gold_i|E][GetPlayer.MakeScope.ScriptValue('RICE_pirate_booty_max_value')|0]#! 사이의 무작위한 양의 [gold|E]를 받게 됩니다." # 15217299128061117628
-  RICE_pirate_acquire_booty_effect_tooltip_2: "획득할 수 있는 최소 및 최대 [gold_i|E] [gold|E] 양은 [diplomacy_i|E] [diplomacy|E], [stewardship_i|E] [stewardship|E] 및 [intrigue_i|E] [intrigue|E]에 영향을 받습니다." # 9122713663161899565
+  RICE_pirate_acquire_booty_tooltip: "#italic 우리가 협력하는 해적들이 노획한 노획물의 일부를 우리가 차지할 권리가 있다.#!" # 2189054555079774578
+  RICE_pirate_acquire_booty_effect_tooltip_1: "#V [gold_i|E][GetPlayer.MakeScope.ScriptValue('RICE_pirate_booty_min_value')|0]#!에서 #V [gold_i|E][GetPlayer.MakeScope.ScriptValue('RICE_pirate_booty_max_value')|0]#! 사이의 무작위 양의 [gold|E]를 획득하게 됩니다." # 15217299128061117628
+  RICE_pirate_acquire_booty_effect_tooltip_2: "귀하가 획득할 수 있는 최소 및 최대 [gold_i|E] [gold|E] 액수는 귀하의 [diplomacy_i|E] [diplomacy|E], [stewardship_i|E] [stewardship|E], 그리고 [intrigue_i|E] [intrigue|E]에 영향을 받습니다." # 9122713663161899565
   RICE_pirate_authorize_sales_name: "판매 승인" # 17870577127594382506
   RICE_pirate_authorize_sales_desc: "$RICE_pirate_authorize_sales_name$" # 4658207788601712403
-  RICE_pirate_authorize_sales_tooltip: "#italic 우리가 함께 일하는 해적들은 지역 경제를 활성화하기 위해 약탈물을 팔아야 합니다!#" # 2012428137597556065
-  RICE_pirate_recruit_pirates_name: "해적 모집" # 796405499840487520
+  RICE_pirate_authorize_sales_tooltip: "#italic 우리가 협력하는 해적들은 지역 경제 활성화를 위해 전리품을 팔아야 한다.##!" # 2012428137597556065
+  RICE_pirate_recruit_pirates_name: "코르세르 모집" # 796405499840487520
   RICE_pirate_recruit_pirates_desc: "$RICE_pirate_recruit_pirates_name$" # 9254790286386609958
-  RICE_pirate_recruit_pirates_tooltip: "#italic 우리의 협력 해적들은 전투 경험을 바탕으로 숙련된 군인이 될 수 있을 것입니다!#" # 1452564620732822056
-  RICE_pirate_recruit_pirates_effect_tooltip_1: "#V 200#!에서 #V 500#! 사이의 [special_troops|E]와 약간의 [men_at_arms|E]를 받습니다." # 12659893175194012445
-  RICE_pirate_ransom_prisoners_name: "포로 몸값" # 12548882477684306168
+  RICE_pirate_recruit_pirates_tooltip: "#italic 저 해적들은 전투 경험이 풍부하니, 숙련된 병사로 쓸 수 있겠소.#!" # 1452564620732822056
+  RICE_pirate_recruit_pirates_effect_tooltip_1: "당신은 #V 200#!에서 #V 500#! 사이의 [special_troops|E]를 받게 될 것입니다. 일부 [men_at_arms|E]를 포함하여." # 12659893175194012445
+  RICE_pirate_ransom_prisoners_name: "포로 몸값 요구" # 12548882477684306168
   RICE_pirate_ransom_prisoners_desc: "$RICE_pirate_ransom_prisoners_name$" # 16835351758288007162
-  RICE_pirate_ransom_prisoners_tooltip: "#italic 우리는 해적 네트워크를 이용하여 다른 해적들에게 사로잡힌 우리 백성들을 찾아 집으로 돌려보낼 수 있습니다... 물론 대가가 따르겠지만요.#!" # 1878852978102587172
-  RICE_pirate_ransom_prisoners_effect_tooltip_1: "#N 잃을 것입니다#! #V [gold_i|E][GetPlayer.MakeScope.ScriptValue('RICE_pirate_ransom_min_value')|0]#!와 #V [gold_i|E][GetPlayer.MakeScope.ScriptValue('RICE_pirate_ransom_max_value')|0]#! 사이의 무작위 금액의 [gold|E]을 몸값을 지불하기 위해" # 4661971022913274061
-  RICE_pirate_ransom_prisoners_effect_tooltip_2: "지불해야 하는 [gold_i|E] [gold|E]의 양은 당신의 [diplomacy_i|E] [diplomacy|E], [martial_i|E] [martial|E], [intrigue_i|E] [intrigue|E]에 영향을 받습니다." # 3557418239672568630
-  RICE_mediterranean_collaborate_with_pirates: "지중해 해적과 협력" # 10039082919778414671
-  RICE_mediterranean_collaborate_with_pirates_tooltip: "[mediterranean_local_pirates|E]와 협상하여 그들이 당신 영토 내에서 작전 기지를 유지하는 것을 허용하는 대신 그들의 수익 일부를 받고 당신의 보호를 받는 상인들을 괴롭히지 않겠다는 약속을 받습니다." # 8998741035524379240
-  RICE_mediterranean_collaborate_with_pirates_desc: "서로의 적을 이용하여 이익을 얻을 수 있는데 왜 이 [mediterranean_pirates|E]와 싸우는가?" # 4250086204803448616
+  RICE_pirate_ransom_prisoners_tooltip: "#italic 우리는 다른 해적들에게 붙잡힌 우리의 백성을 찾아내고 귀환시키기 위해 해적 망을 이용할 수 있습니다... 물론 대가를 치러야 합니다.#!" # 1878852978102587172
+  RICE_pirate_ransom_prisoners_effect_tooltip_1: "몸값을 지불하기 위해 #N #V [gold_i|E][GetPlayer.MakeScope.ScriptValue('RICE_pirate_ransom_min_value')|0]#!에서 #V [gold_i|E][GetPlayer.MakeScope.ScriptValue('RICE_pirate_ransom_max_value')|0]#! 사이의 무작위 금액의 [금|E]를 잃습니다#!!" # 4661971022913274061
+  RICE_pirate_ransom_prisoners_effect_tooltip_2: "지불해야 할 [gold_i|E] [gold|E]의 양은 귀하의 [diplomacy_i|E] [diplomacy|E], [martial_i|E] [martial|E], [intrigue_i|E] [intrigue|E]에 영향을 받습니다." # 3557418239672568630
+  RICE_mediterranean_collaborate_with_pirates: "지중해 해적과 협력하기" # 10039082919778414671
+  RICE_mediterranean_collaborate_with_pirates_tooltip: "[mediterranean_local_pirates|E]와 협상하여 당신의 영토에 기지를 유지하도록 허가하고, 그들의 수익 일부와 당신의 보호하에 있는 상인들을 괴롭히지 않겠다는 약속을 받는 대가로 거래할 것입니다." # 8998741035524379240
+  RICE_mediterranean_collaborate_with_pirates_desc: "[mediterranean_pirates|E]와 맞서 싸울 필요가 있겠는가? 협력하여 서로의 적에게서 이익을 얻을 수 있는데?" # 4250086204803448616
   RICE_mediterranean_collaborate_with_pirates_effect_tooltip_1: "$RICE_socotra_collaborate_with_pirates_effect_tooltip$" # 6762010778919243878
-  RICE_mediterranean_collaborate_with_pirates_effect_tooltip_2: "#V 해적 소굴#이 있는 [counties|E]를 소유한 [rulers|E]는 어느 수역에 있는지에 따라 해적과 협력하기 위한 [decision|E]의 모든 옵션에 영구적으로 접근할 수 있습니다." # 13303904902949263506
-  RICE_mediterranean_collaborate_with_pirates_confirm: "상호 이익을 위해 협상합시다!" # 8820521520335484746
-  RICE_mediterranean_collaborate_with_pirates_requirement_1: "수도는 지중해 연안에 위치하며, 다른 [특수 건물|E]가 없습니다." # 6777589256174678375
-  RICE_mediterranean_collaborate_with_pirates_requirement_2: "당신의 [dynasty|E] 가 [GetDynastyPerk('RICE_mediterranean_indian_ocean_legacy_3').GetName] [dynasty_perk|E] 를 해금했습니다." # 13165059554241005834
+  RICE_mediterranean_collaborate_with_pirates_effect_tooltip_2: "#V 해적 소굴#!가 있는 [counties|E]를 소유한 [rulers|E]는 어떤 수역에 위치해 있는지에 따라 [decision|E] 해적과 협력에서 모든 선택지에 영구적인 접근 권한을 가집니다." # 13303904902949263506
+  RICE_mediterranean_collaborate_with_pirates_confirm: "우리의 상호 이익을 위해 협상합시다!" # 8820521520335484746
+  RICE_mediterranean_collaborate_with_pirates_requirement_1: "수도는 지중해 연안에 있으며 다른 [special_buildings|E]이 없습니다." # 6777589256174678375
+  RICE_mediterranean_collaborate_with_pirates_requirement_2: "귀하의 [dynasty|E]가 [GetDynastyPerk('RICE_mediterranean_indian_ocean_legacy_3').GetName] [dynasty_perk|E]를 잠금 해제했습니다" # 13165059554241005834
   RICE_mediterranean_collaborate_with_pirates_requirement_3: "$RICE_socotra_collaborate_with_pirates_requirement_3$" # 6267765846976739313
   RICE_mediterranean_collaborate_with_pirates_context_tooltip: "$RICE_socotra_collaborate_with_pirates_context_tooltip$" # 8049344977440282555
-  RICE_lesbos_fortify_aegean_decision: "에게 해 영토 강화" # 10784077183063277232
-  RICE_lesbos_fortify_aegean_decision_tooltip: "[GetGeographicalRegion('RICE_aegean_region').GetName]은 위험한 곳입니다!" # 11671836023579985275
-  RICE_lesbos_fortify_aegean_decision_desc: "수많은 섬, 작은 만, 반도로 이루어진 [GetGeographicalRegion('RICE_aegean_region').GetName]은 위험한 곳입니다. 폭풍과 난파의 위험은 제쳐두고라도 해적 행위와 군사적 [raids|E]는 항상 위협이 됩니다. 이러한 공격의 효과를 무력화하려면 이 지역에서 우리 영토를 요새화해야 합니다." # 17390633375607400177
-  RICE_lesbos_fortify_aegean_decision_effect_tooltip_1: "이 [decision|E]의 [금화_i|E] [금화|E] 및 [명성_i|E] [명성|E] 비용은 [GetGeographicalRegion('RICE_aegean_region').GetName]에서 소유한 해안 [백작령|E]의 수에 따라 달라집니다." # 5302924733732247104
-  RICE_lesbos_fortify_aegean_decision_confirm: "[GetGeographicalRegion('RICE_aegean_region').GetNameNoTooltip]가 더 안전해질 것입니다!" # 13849884292935484753
-  RICE_lesbos_fortify_aegean_decision_context_tooltip: "#emphasis 역사적 배경:#! 고대부터 [GetGeographicalRegion('RICE_aegean_region').GetNameNoTooltip]은 전략적 지리적 위치로 인해 빈번한 해적 행위, 해상 습격, 해전의 표적이 되어 왔습니다. 예를 들어, 젊은 율리우스 카이사르는 에게 해에서 해적들에게 붙잡혔는데, 그는 "농담으로" 몸값이 지불되면 그들을 십자가에 못 박겠다고 약속했고, 실제로 나중에 이 해적들을 사로잡아 죽였습니다. 수 세기에 걸쳐 이 지역 사람들은 이러한 공격으로부터 스스로를 보호하기 위해 다양한 방법을 개발하게 되었습니다." # 15036844560489932806
+  RICE_lesbos_fortify_aegean_decision: "에이지언 영토 요새화" # 10784077183063277232
+  RICE_lesbos_fortify_aegean_decision_tooltip: "[GetGeographicalRegion('RICE_aegean_region').GetName]는 위험한 곳입니다!" # 11671836023579985275
+  RICE_lesbos_fortify_aegean_decision_desc: "수많은 섬, 작은 만, 반도로 이루어진 [GetGeographicalRegion('RICE_aegean_region').GetName]는 위험한 곳입니다. 폭풍과 난파의 위험은 차치하더라도, 해적과 군사적 [raids|E]는 항상 위협적입니다. 그러한 공격의 효율을 무력화하기 위해, 이 지역의 우리 영토를 요새화해야 합니다." # 17390633375607400177
+  RICE_lesbos_fortify_aegean_decision_effect_tooltip_1: "이 [decision|E]의 [gold_i|E] [gold|E]와 [prestige_i|E] [prestige|E] 소모량은 [GetGeographicalRegion('RICE_aegean_region').GetName] 내 귀하가 소유한 해안 [백작령|E] 수에 따라 달라집니다." # 5302924733732247104
+  RICE_lesbos_fortify_aegean_decision_confirm: "[GetGeographicalRegion('RICE_aegean_region').GetNameNoTooltip]는 더 안전해질 것입니다!" # 13849884292935484753
+  RICE_lesbos_fortify_aegean_decision_context_tooltip: "#emphasis 역사적 배경:#! 고대부터 전략적인 지리적 위치 때문에 [GetGeographicalRegion('RICE_aegean_region').GetNameNoTooltip]에서는 잦은 해적 행위, 해상 습격, 해전이 끊이지 않았습니다. 예를 들어, 젊은 율리우스 카이사르는 에게 해에서 해적에게 붙잡혔는데, 그는 몸값이 지불된 후 해적들을 십자가에 못 박겠다고 '농담 삼아' 약속했고, 실제로 나중에 이 해적들을 붙잡아 죽였습니다. 수 세기에 걸쳐 이 지역 사람들은 그러한 공격으로부터 자신을 보호하기 위한 다양한 방법을 발전시켰습니다." # 15036844560489932806
   RICE_mediterranean_renege_on_pirate_collaboration: "지중해 해적 협력 파기" # 17669367912753592103
-  RICE_mediterranean_renege_on_pirate_collaboration_tooltip: "[mediterranean_local_pirates|E]와 맺은 모든 합의를 파기하고 그들이 당신의 영토 내에서 작전 기지를 유지하는 것을 금지할 것입니다." # 6251442917466811798
-  RICE_mediterranean_renege_on_pirate_collaboration_desc: "이 [mediterranean_local_pirates|E]는 협력할 가치가 없을 정도로 골칫거리입니다. 많은 이들이 상인이지만, 악명이 높은 사람들도 많으니 이제 그들의 혼란에서 벗어날 때입니다." # 15756648107209133882
-  RICE_mediterranean_renege_on_pirate_collaboration_effect_tooltip_1: "#V $building_type_RICE_mediterranean_pirate_den_01$#! [특수 건물|E]을 보유한 모든 소유 [백작령|E]에서 해당 [건물|E]이 제거됩니다." # 12403859648818561939
-  RICE_mediterranean_renege_on_pirate_collaboration_effect_tooltip_2: "이를 실행하는 데 드는 [gold_i|E] [gold|E] 및 [prestige_i|E] [prestige|E] 비용과 획득하는 [legitimacy_i|E] [legitimacy|E]는 소유한 [counties|E]에 있는 이러한 [buildings|E]의 수와 그 수준, 그리고 [diplomacy_i|E] [diplomacy|E], [martial_i|E] [martial|E] 및 [intrigue_i|E] [intrigue|E] [skills|E]에 따라 달라집니다." # 15371768012707353430
-  RICE_mediterranean_renege_on_pirate_collaboration_effect_tooltip_3: "@warning_icon! #X 게임 제약으로 인해 이 [buildings|E]의 [special_building|E] 슬롯은 제거되지 않습니다!#" # 14707610796457459197
-  RICE_every_county_with_mediterranean_pirate_building_tt: "#V $building_type_RICE_mediterranean_pirate_den_01$#! [특수 건물|E]이 있는 모든 [county|E]" # 7435469418137613335
-  RICE_mediterranean_renege_on_pirate_collaboration_confirm: "그들은 좋아하지 않겠지만, 우리는 해야 합니다" # 5783375992893383446
-  RICE_mediterranean_renege_on_pirate_collaboration_req: "#V $building_type_RICE_mediterranean_pirate_den_01$#! [special_building|E]이 있는 [county|E] 소유" # 11537367108938297060
+  RICE_mediterranean_renege_on_pirate_collaboration_tooltip: "[mediterranean_local_pirates|E]와 맺은 협정을 취소하고, 그들이 그대의 영토에 어떠한 작전 기지도 유지하는 것을 금지할 것입니다." # 6251442917466811798
+  RICE_mediterranean_renege_on_pirate_collaboration_desc: "[mediterranean_local_pirates|E]와 함께 일하는 것은 득보다 실이 많습니다. 많은 이들이 상인이지만, 또한 악명 높은 자들도 많으니, 이제 그들의 혼란에서 벗어날 때입니다." # 15756648107209133882
+  RICE_mediterranean_renege_on_pirate_collaboration_effect_tooltip_1: "당신이 소유한 모든 [counties|E] 중 #V $building_type_RICE_mediterranean_pirate_den_01$#! [special_building|E]을(를) 가진 경우 해당 [buildings|E]이(가) 제거됩니다" # 12403859648818561939
+  RICE_mediterranean_renege_on_pirate_collaboration_effect_tooltip_2: "이것을 수행하는 데 드는 [gold_i|E] [gold|E]와 [prestige_i|E] [prestige|E] 비용, 그리고 얻는 [legitimacy_i|E] [legitimacy|E]는 소유한 [counties|E]에 얼마나 많은 [buildings|E]가 있고 건물들의 단계가 어떤지, 뿐만 아니라 [diplomacy_i|E] [diplomacy|E], [martial_i|E] [martial|E], [intrigue_i|E] [intrigue|E] [skills|E]에도 따라 달라집니다." # 15371768012707353430
+  RICE_mediterranean_renege_on_pirate_collaboration_effect_tooltip_3: "@warning_icon! #X 게임의 한계로 인해 [special_building|E] [buildings|E]의 슬롯은 제거되지 않습니다!#" # 14707610796457459197
+  RICE_every_county_with_mediterranean_pirate_building_tt: "모든 [county|E]는 #V $building_type_RICE_mediterranean_pirate_den_01$#! [special_building|E]를 보유하고 있습니다." # 7435469418137613335
+  RICE_mediterranean_renege_on_pirate_collaboration_confirm: "그들은 좋아하지 않겠지만, 우리는 반드시 그래야만 한다" # 5783375992893383446
+  RICE_mediterranean_renege_on_pirate_collaboration_req: "#V $building_type_RICE_mediterranean_pirate_den_01$#!! [special_building|E]이(가) 있는 [county|E]를 소유하십시오." # 11537367108938297060
   RICE_mediterranean_renege_on_pirate_collaboration_context_tooltip: "$RICE_socotra_collaborate_with_pirates_context_tooltip$" # 8049344977440282555
   lesbos.0000.t: "xxxxx" # 1951045980481827005
   lesbos.0000.desc: "xxxxx" # 1951045980481827005
@@ -192,15 +192,15 @@
   lesbos.0009.desc: "xxxxx" # 1951045980481827005
   lesbos.0009.a: "xxxxx" # 1951045980481827005
   lesbos.0010.t: "[GetGeographicalRegion('RICE_aegean_region').GetNameNoTooltip] 요새화" # 5349555198706345756
-  lesbos.0010.desc: "[GetGeographicalRegion('RICE_aegean_region').GetName]은 지중해를 따라 전략적 요충지에 위치해 있습니다. 따라서 무역, 외교, 여행을 위한 항해를 용이하게 하지만, 불행히도 적들의 습격과 우리와 연합하지 않은 해적들의 해적 행위 또한 용이하게 합니다.\n\n이러한 해상 위협에 대처하기 위해 저는 [GetGeographicalRegion('RICE_aegean_region').GetNameNoTooltip] 영토의 방어를 강화하기 위해 자원을 따로 마련했습니다. 여기에는 새로운 요새 건설 또는 기존 요새 강화, 들어오는 배를 알리는 감시탑 건설, 방어 전술에 대한 지역 주민 훈련, 취약한 정착지를 더 안전한 장소로 이동하는 등 다양한 작업이 포함됩니다." # 17774370124133001163
-  lesbos.0010.a: "우리는 이곳의 해안 땅을 지킬 것입니다." # 1233547170794122042
+  lesbos.0010.desc: "[GetGeographicalRegion('RICE_aegean_region').GetName]는 지중해 연안의 전략적 지역에 위치하고 있습니다. 이로 인해 무역, 외교, 여행을 위한 항해를 용이하게 하지만, 또한 안타깝게도 적들의 습격과 우리와 동맹을 맺지 않은 해적들의 해적질 역시 용이하게 합니다.\n\n이러한 해상 위협에 대처하기 위해, 나는 [GetGeographicalRegion('RICE_aegean_region').GetNameNoTooltip]의 내 영토 방비를 강화하고자 일부 자원을 할당했습니다.\n\n여기에는 새로운 요새를 건설하거나 기존 요새를 강화하는 것, 다가오는 선박을 알리기 위한 감시탑을 건설하는 것, 현지 주민들에게 방어 전술을 훈련시키는 것, 그리고 취약한 정착지를 더 안전한 곳으로 옮기는 것 등 다양한 작업이 포함될 것입니다." # 17774370124133001163
+  lesbos.0010.a: "이곳에서 우리의 해안 영토를 지킬 것이다." # 1233547170794122042
   lesbos.0011.t: "테르미로!" # 17338113422714172425
-  lesbos.0011.desc: "[GetGeographicalRegion('RICE_aegean_region').GetName]에는 고대부터 알려진 온천이 많으며, 그중 더 유명한 곳은 [GetTitleByKey('c_lesbos').GetNameNoTier]의 (이름에 걸맞게) 테르미 정착지에 있습니다.\n\n옛날 사람들은 이곳에서 [GetReligionByKey('hellenism_religion').GetAdjective] 여신 아르테미스를 숭배했다고 합니다. 어쨌든 오늘날에도 이 온천은 치유력으로 현지인들 사이에서 어느 정도 유명합니다." # 12997607126555172478
-  lesbos.0011.a: "이것은 멋지고 가치 있는 방문이 될 것입니다." # 9548445161062560439
+  lesbos.0011.desc: "고대로부터 알려진 [GetGeographicalRegion('RICE_aegean_region').GetName]에는 많은 온천이 있으며, 그중 가장 유명한 곳 중 하나는 [GetTitleByKey('c_lesbos').GetNameNoTier]에 있는 (이름이 적절하게 붙여진) 테르미 마을에 위치해 있습니다.\n\n고대인들이 이곳에서도 [GetReligionByKey('hellenism_religion').GetAdjective] 여신 아르테미스를 숭배했다고 합니다. 아무튼, 오늘날까지도 이 온천들은 치유 효능 덕분에 지역 주민들 사이에서 어느 정도 명성을 가지고 있습니다." # 12997607126555172478
+  lesbos.0011.a: "이번 방문은 좋고 보람 있을 것이다." # 9548445161062560439
   lesbos.0012.t: "테르미 온천" # 2005031940666617145
-  lesbos.0012.desc: "드디어 [GetTitleByKey('c_lesbos').GetNameNoTier]의 테르미 온천에 도착했습니다! 테르미는 해안 옆에 있는 비교적 소박하고 조용한 마을이며, 온천으로 휴식을 취하기에 적합한 장소입니다.\n\n물에 몸을 담그니, 여기 오는 길에 작은 고대 유적 몇 군데가 눈에 띄었습니다. 아마도 고대 성소의 흔적인 것 같습니다." # 4562319717454755355
-  lesbos.0012.desc.hellenic_pagan: "물론, 이곳이 예전에 아르테미스 여신을 숭배하던 중심지였으며, 이 샘물이 여신에게 신성하다는 것을 잘 알고 있습니다. [ROOT.Char.GetFaith.GetName]의 신도로서, 저는 사냥꾼으로서 우리를 보호하고 이 샘물을 통해 우리를 치유하는 #bold 아르테미스 테르미아#!에게 기도할 수 있을 뿐입니다." # 17636335327968622264
-  lesbos.0012.a: "어쨌든, 여기에 올 수 있어서 기쁩니다!" # 425068820604446797
+  lesbos.0012.desc: "마침내 [GetTitleByKey('c_lesbos').GetNameNoTier]의 테르미 온천에 도착했군! 테르미는 해안가 옆 비교적 소박하고 한적한 마을이며, 온천욕을 즐기기에 적합한 장소군.\n\n물에 몸을 담그고 있는데 여기 오는 길에 작고 오래된 유적 몇 개를 발견했지. 아마도 고대 성소의 잔해일지도 모르겠군." # 4562319717454755355
+  lesbos.0012.desc.hellenic_pagan: "\n\n이곳이 한때 여신 아르테미스를 숭배하는 중심지였음을 잘 알고 있소. 이 샘물들이 그녀에게 성스럽기 때문이지. [ROOT.Char.GetFaith.GetName] 신앙의 신봉자로서, 사냥꾼으로서 우리를 보호하시고 이 샘물을 통해 우리를 치유하시는 #bold 아르테미스 테르미아#!께 기도를 바칠 수밖에 없겠소." # 17636335327968622264
+  lesbos.0012.a: "어쨌든 이곳에 오게 되어 기쁩니다!" # 425068820604446797
   lesbos.0013.t: "xxxxx" # 1951045980481827005
   lesbos.0013.desc: "xxxxx" # 1951045980481827005
   lesbos.0013.a: "xxxxx" # 1951045980481827005
@@ -223,60 +223,60 @@
   lesbos.0019.desc: "xxxxx" # 1951045980481827005
   lesbos.0019.a: "xxxxx" # 1951045980481827005
   lesbos.0020.t: "준비" # 666839747819429162
-  lesbos.0020.desc: "곧 1월이 되면 #italic 칼렌드#! (또는 고대 로마 시대에 알려진 대로 #italic 1월의 칼렌드#!)를 기념할 때가 될 것입니다. 그 시절에는 새해의 시작을 알렸습니다.\n\n이번에는 저도 축제에 꼭 참가할 것입니다. 어쩌면 조금 소란스러울 수도 있겠지만, 반면에 특히 추운 계절에는 선물과 기쁨과 행복을 나누는 계절이기도 합니다." # 1310197259277598074
-  lesbos.0020.a: "자, 성대한 축제를 준비해 봅시다!" # 7353100696082166724
+  lesbos.0020.desc: "곧 1월이 다가옵니다. 이는 곧 #italic 칼렌데스#!를 (또는 #italic 1월의 칼렌데스#!라고도 불렸던, 고대 로마 시대에 새해의 시작을 기념했던) 축하할 때가 되었음을 의미합니다.\n\n이번에는 저도 꼭 축제에 참여할 생각입니다. 조금 소란스러울 수도 있겠지만, 한편으로는 특히 추운 겨울철에 선물을 주고받고 기쁨과 행복을 나누는 시기이기도 합니다." # 1310197259277598074
+  lesbos.0020.a: "성대한 축제를 준비하세!" # 7353100696082166724
   lesbos.0021.t: "축제가 시작됩니다" # 11865301109608308555
-  lesbos.0021.desc: "#italic 칼렌드#!가 다가왔습니다!\n\n추운 겨울철, 고대 로마 시대부터 부자든 가난한 자든, 남자든 여자든, 젊은 사람이든 노인이든, 모두 함께 모여 즐거워하고 맛있는 음식과 술을 즐기며 서로 선물을 주고받았습니다. 저택은 빛을 발하는 불씨로 가득 차 있고, 여기서도 다른 곳에서 흥겨워하는 사람들의 함성이 들립니다." # 14243889734428333959
-  lesbos.0021.a: "자, 흥겹게 놀아보자!" # 7330156138968350248
-  lesbos.0022.t: "축제가 끝났습니다" # 5451096929251395077
-  lesbos.0022.desc: "#italic 칼렌드#!가 끝났습니다. 주변의 시끄러운 소란과 즐거움이 사라지고, 평범한 일상이 다시 시작되고 있습니다.\n\n즐거운 행사였으며, 항상 그렇듯이, 내년에 다시 이 기쁨을 만끽할 수 있기를 바랍니다." # 4190108496786237560
-  lesbos.0022.a: "다시 일상적인 삶의 고뇌로 돌아가자!" # 688956410888384443
+  lesbos.0021.desc: "#italic 칼렌데스#!가 도래했습니다!\n\n고대 로마 시대부터 내려오는 추운 겨울철이면, 부유하든 가난하든, 남자든 여자든, 젊든 늙었든 모두 이처럼 한데 모여 즐거운 시간을 보내고, 맛있는 음식과 음료로 잔치를 벌이고, 서로에게 선물을 주고받았습니다. 제 저택은 불빛으로 가득 차 있으며, 이곳에서조차 다른 곳에서 흥에 취한 자들의 환호성이 들립니다." # 14243889734428333959
+  lesbos.0021.a: "이리 오게나, 그래, 즐겨 보세!" # 7330156138968350248
+  lesbos.0022.t: "연회 종료" # 5451096929251395077
+  lesbos.0022.desc: "#italic 칼렌즈#!가 마무리되었고, 우리 주위의 모든 떠들썩한 소음과 즐거움이 가라앉고 있습니다. 평범한 삶이 다시 자리 잡기 시작하면서 말입니다.\n\n늘 그랬듯이, 즐거운 행사였습니다. 그리고 그저 바라건대, 1년 뒤에 다시 이 행사를 기념할 수 있기를 바랍니다." # 4190108496786237560
+  lesbos.0022.a: "일상의 고투로 돌아오다" # 688956410888384443
   lesbos.0023.t: "선물 교환" # 11840468344592675560
-  lesbos.0023.desc: "#italic 칼렌드#! 동안 서로 선물을 주고받는 것은 오래된 관습입니다. 이러한 선물 교환은 휴일의 중요한 하이라이트 중 하나입니다.\n\n물론 저는 제 역할을 다하여 제 가족과 동료들을 위해 선물을 준비했습니다. 그들은 또한 저를 위해 같은 일을 했습니다." # 1968165325680925049
-  lesbos.0023.a: "올해 주고받은 멋진 선물들이군요!" # 14158829742351915275
+  lesbos.0023.desc: "#italic 칼렌데스#! 기간 동안 서로 선물을 주고받는 것은 오랜 관습입니다. 이러한 선물 교환은 명절의 중요한 하이라이트 중 하나입니다.\n\n저 또한 당연히 제 역할을 다해 제 가솔과 측근들을 위해 선물을 마련했습니다. 그들 역시 저에게 똑같이 해 주었습니다." # 1968165325680925049
+  lesbos.0023.a: "올해 주고받은 선물이 정말 훌륭하군요!" # 14158829742351915275
   lesbos.0024.t: "xxxxx" # 1951045980481827005
   lesbos.0024.desc: "xxxxx" # 1951045980481827005
   lesbos.0024.a: "xxxxx" # 1951045980481827005
   lesbos.0025.t: "못마땅해하는 [ROOT.Char.Custom('DefaultPriestTitlePlural')]" # 10788235539931480662
-  lesbos.0025.desc: "#italic 칼렌스#!를 재미있고 즐거운 행사로 여기는 사람이 많지만, 모두가 그렇게 생각하는 것은 아닙니다.\n\n예를 들어 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]은 전통적으로 이교도의 명절이자, 우리의 판단을 흐리게 하고 [ROOT.Char.GetFaith.HighGodName]를 모욕하는, 없애야 할 어두운 과거의 유물이라고 여기며 비판해 왔습니다.\n\n모두가 이러한 불평꾼들에게 관심을 기울이는 것은 아니지만, [chaplain.GetCouncilTitle] [chaplain.GetTitledFirstName]은 최근 축제에 대한 [chaplain.GetHerHis]의 불만을 특히 강하게 표명하고 있습니다." # 17195852524546338770
-  lesbos.0025.a: "[chaplain.GetHerHim]에게 너무 진지하게 받아들이지 말라고 명령하세요." # 15298556492108164916
-  lesbos.0025.b: "[chaplain.GetHerHim]께 앞으로는 자제하겠다고 전해 주십시오" # 2931727150925685652
-  lesbos.0026.t: "이교도 통치 하에서" # 17943058636859062272
-  lesbos.0026.desc: "#italic 칼렌드#!가 아무리 즐거울 수 있다고 해도, 그것은 또한 중요한 종교적 행사입니다. 적어도 [liege.GetFirstName]님과 같은 특정 [liege.GetFaith.GetAdjective] [liege.GetTitleAsNameNoTooltip]의 통치 아래 사는 우리와 같은 독실한 [ROOT.Char.GetFaith.GetAdherentNamePlural]에게는 그렇습니다.\n\n이 축제 행사를 통해 우리는 고대 신앙과 관습에 대한 헌신을 강화할 수 있으며, [liege.GetTitledFirstNameNoTooltip]님조차도 #italic 칼렌드#!를 기념할 때 느끼는 자부심을 빼앗을 수 없습니다. 따라서 저는 축제 중간에 오늘 [ROOT.Char.GetFaith.HighGodName]에게 기도를 드리기 위해 지역 [ROOT.Char.GetFaith.HouseOfWorship]에 시간을 내어 갔습니다." # 17972088359566450567
-  lesbos.0026.a: "저희는 #italic 칼렌스#! 동안에도 충실한 [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]입니다." # 14841599779493876445
+  lesbos.0025.desc: "많은 이들에게 #italic 칼렌데#!가 즐겁고 유쾌한 행사로 여겨지는 반면, 모두가 같은 마음은 아니다.\n\n예를 들어, [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]는 전통적으로 이를 이교도 명절이자 우리가 없애야 할 어두운 과거의 유물로 여기며 비판해왔다. 그것이 우리의 판단력을 흐리게 하고 [ROOT.Char.GetFaith.HighGodName]을 모독하기 때문이다.\n\n모두가 이 흥을 깨는 자들에게 귀 기울이는 것은 아니지만, [chaplain.GetCouncilTitle] [chaplain.GetTitledFirstName]는 최근 축제에 대한 그 불만을 특히 노골적으로 표현하고 있습니다." # 17195852524546338770
+  lesbos.0025.a: "[chaplain.GetHerHim]에게 너무 진지하게 받아들이지 않도록 말하라" # 15298556492108164916
+  lesbos.0025.b: "[chaplain.GetHerHim]에게 앞으로는 자제하겠다고 전하게." # 2931727150925685652
+  lesbos.0026.t: "이교 지배 하에" # 17943058636859062272
+  lesbos.0026.desc: "#italic 칼렌즈#!가 아무리 즐거울지라도, 그것은 또한 중요한 종교적 행사입니다. 적어도 예컨대 [liege.GetFirstName]과 같은 [liege.GetFaith.GetAdjective] [liege.GetTitleAsNameNoTooltip]의 지배하에 살고 있는 우리처럼 독실한 [ROOT.Char.GetFaith.GetAdherentNamePlural]에게는 말입니다.\n\n\n\n이 축제 행사를 통해 우리는 고대의 신앙과 관습에 대한 우리의 헌신을 다질 수 있으며, [liege.GetTitledFirstNameNoTooltip]조차도 우리가 #italic 칼렌즈#!를 기념할 때 느끼는 자부심을 빼앗을 수 없습니다.\n\n\n\n따라서 저는 오늘 축제 중간에 지역의 [ROOT.Char.GetFaith.HouseOfWorship]에 갈 시간을 내어 [ROOT.Char.GetFaith.HighGodName]께 기도를 올리려 합니다." # 17972088359566450567
+  lesbos.0026.a: "우리는 충실한 [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]입니다, 심지어 #italic 칼렌드# 기간 중에도!" # 14841599779493876445
   lesbos.0027.t: "연회와 음주" # 931064322493085033
-  lesbos.0027.desc: "#italic 칼렌드#!의 큰 부분은 바로 연회와 음주입니다! 올해도 다르지 않으며, 제 하인들은 온갖 종류의 [ROOT.Char.GetCulture.GetName] 요리 진미로 이루어진 훌륭하고 멋진 식사를 준비했습니다!\n\n솔직히 말해서, 가끔은 이 축제의 다른 행사들보다 이 연회를 더 기대하는 사람들도 있습니다." # 752919018603158289
-  lesbos.0027.a: "그들을 탓할 수 없지! 모두 드세요!" # 3618474855179696186
-  lesbos.0027.b: "휴일이지만, 과하게 하지는 않겠습니다." # 5788504381982743091
-  lesbos.0028.t: "가면 무도회" # 15149836326408129665
-  lesbos.0028.desc: "밖에서 시끄러운 소리가 들려 무슨 일인지 살펴보니 가장무도회를 벌이는 무리였습니다. 몇몇 남자는 여자로, 몇몇 여자는 남자로, 또 다른 사람들은 동물로 분장했습니다.\n\n이 무리 모두가 분장한 것 같지는 않지만, 모두 아주 즐거워 보입니다." # 16117933898856723578
-  lesbos.0028.a: "이봐, 저들의 작은 행진에 우리도 합류하는 게 어때?" # 7992480242562840278
-  lesbos.0028.b: "대담한 모습으로 꾸며보고 싶으시군요!" # 11550540951942020188
-  lesbos.0028.c: "여기서 위장 행렬을 관찰할 수 있습니다." # 3935778212607443205
-  lesbos.0029.t: "어린이 캐럴" # 14678170959022457008
-  lesbos.0029.desc: "밖에서 캐럴을 부르는 아이들의 목소리가 틀림없이 들립니다. "칼렌드! 칼렌드!" 그들은 최면에 걸린 듯한 구호를 외칩니다.\n\n이런 아이들이 찾아올 때마다 사탕이나 금을 조금씩 주는 것이 중요합니다. #italic 칼렌드#! 동안의 오래된 관습이기 때문입니다.\n\n하인들이 문을 열고 어린아이들의 감미로운 목소리가 우리 귀에 울려 퍼집니다. 노래가 끝나자 하인들은 아이들에게 사탕과 돈을 주도록 허락해 달라는 듯이 저를 쳐다봅니다." # 2550818073098632504
-  lesbos.0029.a: "자, 어린아이들에게 사탕을 나눠주세요." # 16663947616115851336
-  lesbos.0029.b: "이 사랑스러운 아이들에게 큰 선물을 줘야 합니다!" # 10631662289578584684
-  lesbos.0029.c: "우리는 여기서 자선 사업을 하는 것이 아니야. 작별이다, 꼬맹이들아!" # 15716091465328162105
-  lesbos.0030.t: "과욕" # 17841068724951530422
-  lesbos.0030.desc: "#italic 칼렌즈# 기간 동안 사람들이 과식을 하는 것은 드문 일이 아닙니다.\n\n안타깝게도 [eater.GetTitledFirstName]도 이러한 문제에 빠졌습니다. 축제 연회에서 [eater.GetSheHe]은 너무 많이 먹고 마셨습니다.\n\n하지만 [eater.GetFirstNameNoTooltip]은 나머지 축제들을 놓치고 싶지 않습니다!" # 6099956153377777538
-  lesbos.0030.a: "[eater.GetFirstNameNoTooltip]님, 좀 쉬셔야 합니다." # 5431784208476570135
-  lesbos.0031.t: "고뇌" # 4457844848868311359
-  lesbos.0031.desc: "선물을 주고받는 것은 #italic 칼렌드#!의 중요한 부분이지만, 이는 또한 선물에 대한 많은 논의가 있다는 것을 의미합니다.\n\n즉, 어떤 사람들은 선물 증정이 충분하지 않으며 이것이 축일을 더 나쁘게 만들고 있다고 말합니다. 다른 사람들은 선물 증정이 너무 많으며 이것 또한 축일을 망치고 있다고 말합니다. 또 다른 사람들은 다른 사람들로부터 적절한 선물을 받을 수 있을지 걱정하고 있습니다." # 9764720720244361371
-  lesbos.0031.a: "선물이 중요한 것이 아니라 마음이 중요한 것입니다!" # 4824075987108552558
-  lesbos.0031.b: "선물 주는 것을 더 진지하게 받아들여야 합니다." # 2629660647303218317
-  lesbos.0032.t: "파티" # 14453033236364221081
-  lesbos.0032.desc: "#italic 칼렌드# 동안 마을에 가기로 했습니다! 왜냐구요? 당연히 파티를 위해서죠!\n\n많은 사람들이 모여 흥겹게 즐기고 있으며, 활기와 에너지로 가득합니다. 물론 조금 소란스러워질 수도 있지만, 모두 즐겁게 즐기기 위한 것이죠!" # 15720024103850264913
-  lesbos.0032.a: "모두와 함께 파티에 참여하는 게 낫겠어." # 6173456098399565281
-  lesbos.0032.b: "저는 그냥 멀리서 지켜보겠습니다." # 7675318420903723755
-  lesbos.0033.t: "계층 혼합" # 16174495999746615523
-  lesbos.0033.desc: "#italic 칼렌드#! 동안의 연회는 당연한 것이지만, 이 연회가 그 해 동안 열리는 다른 연회와 다른 점은 하인과 노예들이 마치 동등한 사람인 것처럼 연회에 주인과 함께 참여한다는 것입니다.\n\n자신보다 못한 사람들과 함께 식사하는 것이 자선 정신으로 하인과 노예를 더 잘 알게 되면서 어떤 사람들에게는 가장 불쾌한 경험은 아닙니다. 그러나 다른 사람들은 그러한 하찮은 유형과 어울리고 싶지 않아 그런 것을 싫어합니다." # 2897030868918925905
-  lesbos.0033.a: "재미있고 사려 깊은 연습입니다." # 5761818010289803443
-  lesbos.0033.b: "저는 저보다 못한 자들과 함께 식사해야 하는 것을 좋아하지 않습니다." # 8537098149261901863
+  lesbos.0027.desc: "칼렌다스#italic #의 중요한 부분은 바로 모든 연회와 음주입니다! 올해도 다르지 않습니다, 그리고 저의 하인들이 훌륭하고 멋진 식사를 준비했습니다.\n\n[ROOT.Char.GetCulture.GetName]의 온갖 미식으로 구성된 것입니다!\n솔직히 말하자면, 때로는, 이 휴일의 다른 것보다 연회를 더 기대하는 이들도 있습니다." # 752919018603158289
+  lesbos.0027.a: "그들을 탓할 수 없지! 모두들 마음껏 들도록 해!" # 3618474855179696186
+  lesbos.0027.b: "휴일이긴 하나, 무리하지 않겠다." # 5788504381982743091
+  lesbos.0028.t: "가면무도회" # 15149836326408129665
+  lesbos.0028.desc: "밖에서 시끄러운 소란이 들려 나가 보니, 변장한 무리들이 몰려들고 있었습니다.  여자 옷을 입은 남자들, 남자 옷을 입은 여자들, 짐승으로 변장한 이들까지, 온갖 모습의 사람들로 가득했습니다.\n\n모두가 변장한 것은 아니었지만, 즐거워 보이는 표정들을 보니 신나는 분위기였습니다." # 16117933898856723578
+  lesbos.0028.a: "어서 그들의 작은 행렬에 합류하지 않겠습니까?" # 7992480242562840278
+  lesbos.0028.b: "대담하게 차려입고 싶군!" # 11550540951942020188
+  lesbos.0028.c: "여기서 가면 무도회를 관찰할 수 있습니다." # 3935778212607443205
+  lesbos.0029.t: "어린이들의 캐롤" # 14678170959022457008
+  lesbos.0029.desc: "밖에서 아이들이 찬송가를 부르는 소리가 분명하게 들립니다. “칼렌드! 칼렌드!” 그들은 매혹적인 주문처럼 부릅니다.\n\n\n이런 아이들이 나타날 때면, #italic 칼렌드# 기간 동안의 옛 풍습처럼 그들에게 약간의 사탕이나 금화를 주는 것이 중요합니다.\n\n\n제 하인들이 문을 열고, 어린이들의 달콤한 목소리가 제 귀에 가득 찹니다. 노래가 끝나면, 제 하인들은 아이들에게 사탕과 돈을 주도록 허락해 달라고 저에게 눈짓합니다." # 2550818073098632504
+  lesbos.0029.a: "어린이들에게 사탕을 주십시오." # 16663947616115851336
+  lesbos.0029.b: "이 사랑스러운 아이들은 큰 선물을 받을 자격이 있습니다!" # 10631662289578584684
+  lesbos.0029.c: "여기는 자선 사업을 하지 않습니다 – 작별, 아이들!" # 15716091465328162105
+  lesbos.0030.t: "지나치게 하는 것" # 17841068724951530422
+  lesbos.0030.desc: "#italic 칼렌드# 기간에 조금 과식하는 건 예상 밖 일이 아니지요. \n\n아쉽게도 [eater.GetTitledFirstName]이 그 문제에 희생자가 되었네. 연회에서 [eater.GetSheHe]는 너무 많이 먹고 마셨어.\n\n하지만 [eater.GetFirstNameNoTooltip]은 축제의 잔여 행사들을 놓치고 싶지 않아!" # 6099956153377777538
+  lesbos.0030.a: "[eater.GetFirstNameNoTooltip]님, 쉬셔야 합니다." # 5431784208476570135
+  lesbos.0031.t: "묵상" # 4457844848868311359
+  lesbos.0031.desc: "#italic 칼렌드#는 선물 주고받는 것이 중요한 부분이지만, 이는 많은 논쟁을 야기합니다. \n\n즉, 어떤 이들은 선물이 너무 적다고 말하며, 이로 인해 축제가 더 나빠지고 있다고 주장합니다. 또 다른 이들은 선물이 너무 많다고 말하며, 이 역시 축제를 망친다고 말합니다. 그리고 또 다른 이들은 다른 사람들로부터 충분한 선물을 받을 수 있을지 걱정합니다." # 9764720720244361371
+  lesbos.0031.a: "선물이 아닌 마음이 중요합니다!" # 4824075987108552558
+  lesbos.0031.b: "선물 주는 일을 더 진지하게 받아들여야 합니다." # 2629660647303218317
+  lesbos.0032.t: "연회" # 14453033236364221081
+  lesbos.0032.desc: "#italic 칼렌드# 기간에 마을로 향하기로 했습니다. 왜냐하면, 즐거운 시간을 보내기 위해서죠!\n\n많은 사람들이 모여서 흥겨운 시간을 보내고 있으며, 공기는 흥분과 활력으로 가득 차 있습니다. 물론, 다소 시끄러워질 수도 있지만, 모두 즐거운 시간입니다!" # 15720024103850264913
+  lesbos.0032.a: "모두와 함께 즐거운 파티에 참여하는 게 좋겠군." # 6173456098399565281
+  lesbos.0032.b: "멀리서 지켜보겠습니다." # 7675318420903723755
+  lesbos.0033.t: "계급 혼합" # 16174495999746615523
+  lesbos.0033.desc: "#italic 칼렌드# 기간의 연회는 당연한 일이지만, 다른 연회들과 구별되는 점은 하인과 노예들이 주인과 함께 연회에 참석하여 마치 평등한 존재인 것처럼 식사하는 데 있습니다.\n\n하인과 노예들과 함께 식사하는 것이 불쾌한 경험은 아니지만, 어떤 이들은 그러한 자리에서 하인과 노예들을 더 잘 알아가고 자비로운 마음으로 다가가는 기회로 여기지만, 다른 이들은 저러한 하찮은 존재들과 어울리는 것을 꺼립니다." # 2897030868918925905
+  lesbos.0033.a: "재밌고 깊이 있는 연습이네요." # 5761818010289803443
+  lesbos.0033.b: "하급자들과 식사해야 하는 게 싫어." # 8537098149261901863
   lesbos.0034.t: "외국인" # 13893630503040247006
-  lesbos.0034.desc: "저는 근처에 머무는 외국 상인들과 여행객들에 대해 알고 있습니다. 그들의 백성들은 전통적으로 #italic 칼렌스#!를 기념하지 않지만, 저희가 이 외국인들을 초대하여 축하 행사에 함께하는 것은 드문 일이 아닙니다.\n\n일부 외부인들은 이 휴일을 불쾌하고 저속한 행사로 여기며, 자신들의 동족들에게 우리의 "부적절한" 축하 행사와 흥청망청함에서 멀리 떨어져 있으라고 경고합니다. 하지만 다른 사람들은 축제에 참여하는 것을 꺼리지 않습니다.\n\n외국인들을 초대하여 함께 할까요?" # 8005491103842469110
-  lesbos.0034.a: "물론입니다. 많을수록 좋죠!" # 17485293892940184681
-  lesbos.0034.b: "아마 그들은 관심 없을 겁니다." # 7071677936358094279
+  lesbos.0034.desc: "근처에 외국 상인과 여행객들이 몇몇 머물고 있다는 것을 알고 있습니다. 그들의 민족은 전통적으로 #italic Kalends#!을 기념하지 않지만, 우리가 그 외국인들을 축하 행사에 초대하는 것이 드문 일은 아닙니다.\n\n일부 외국인들은 이 날을 모욕적이고 저속한 날로 여기며, 그들의 종족에게 우리의 “부적절한” 축제와 흥청거림에서 멀리 떨어지라고 경고합니다. 그러나 다른 이들은 축제에 참여하는 것을 마다하지 않습니다.\n\n혹시 외국인들을 우리의 축제에 초대해야 할까요?" # 8005491103842469110
+  lesbos.0034.a: "더욱 많을수록 좋군!" # 17485293892940184681
+  lesbos.0034.b: "그들은 아마 관심이 없을 겁니다." # 7071677936358094279
   lesbos.0035.t: "xxxxx" # 1951045980481827005
   lesbos.0035.desc: "xxxxx" # 1951045980481827005
   lesbos.0035.a: "xxxxx" # 1951045980481827005
@@ -322,13 +322,13 @@
   lesbos.0049.t: "xxxxx" # 1951045980481827005
   lesbos.0049.desc: "xxxxx" # 1951045980481827005
   lesbos.0049.a: "xxxxx" # 1951045980481827005
-  lesbos.0050.t: "지중해의 해적" # 7290094512166958420
-  lesbos.0050.desc: "수년간 해적들은 [capital_province.GetName] 해안에서 활동하며 지중해를 항해하는 상선들을 약탈했지만, 우리가 협력하면 더 많은 것을 얻을 수 있습니다. 결국, 우리가 거래하는 일반 상인들이 추가 돈을 벌기 위해 해적질을 하는 것은 드문 일이 아니며, 해적들이 기업가인 영주들에게 자신들의 서비스를 제공하는 것 또한 들어본 적 없는 일은 아닙니다. 하지만 이전에는 이러한 일들이 우리 왕국 내에서 임시방편적이고 무질서하게 이루어졌습니다.\n\n이제 우리는 현지 해적들과 합의를 했습니다. 그들이 우리 영토에 공식 기지를 세우도록 허용하는 대가로 그들은 우리를 대신하여 적들의 해안을 습격하고 전리품의 일부를 우리에게 제공하며, 우리의 군사적 모험을 지원할 것입니다. 해적과 협력하는 것은 부끄러운 일이 아닙니다. 이것은 끊임없이 역동적이고 위험한 지중해 세계에서 우리의 경제적, 정치적 이익을 보호하기 위한 또 다른 도구일 뿐입니다." # 2245134159525112310
-  lesbos.0050.a: "그들은 우리의 이익에 크게 기여할 것입니다." # 11681873248104416019
+  lesbos.0050.t: "지중해 해적들" # 7290094512166958420
+  lesbos.0050.desc: "[capital_province.GetName] 해안을 기반으로 지중해를 항해하는 상선들을 노략질해온 해적들은 오랫동안 활개쳤지만, 협력을 통해 더 큰 이익을 얻을 수 있습니다. 결국 평범한 상인들, 우리가 거래하는 상인들과 같이, 추가적인 돈벌이를 위해 해적질을 하는 일이 드물지 않으며, 해적들이 기업적인 영주들에게 그들의 용역을 제공하는 것 역시 흔한 일입니다. 하지만 이전에는 그러한 일들이 우리 영역 내에서 임시적이고 무질서한 방식으로 이루어졌습니다.\n\n이제 우리는 현지 해적들과 거래를 성사시켰습니다. 우리 영토 내에 공식적인 기지를 설치할 수 있도록 허락하는 대가로 그들은 우리 적들의 해안을 대신하여 약탈하고, 약탈품 일부를 우리와 나누며, 우리의 군사적 진출을 지원할 것입니다. 해적들과 관계를 맺는 데는 부끄러운 점이 없습니다. 이는 지중해의 끊임없이 변화하고 위험한 세계에서 우리의 경제적, 정치적 이익을 보호하기 위한 또 다른 수단에 불과합니다." # 2245134159525112310
+  lesbos.0050.a: "그들은 우리의 이익을 잘 섬길 것입니다." # 11681873248104416019
   lesbos.0050.tooltip: "$RICE_mediterranean_collaborate_with_pirates_effect_tooltip_2$" # 17006102609883991063
-  lesbos.0051.t: "#bold The Mastic Villages of Chios#! #F Historical context:#F The island of [GetTitle.GetNameNoTier] is renowned for its mastic production. The Mastic villages are a unique group of fortified villages on the southern part of the island of #bold Chios#!. They were built during the Genoese period and are very similar in design, which was inspired by military requirements rather than local patterns. They are very distinctive compared to the other villages of [GetTitle.GetNameNoTier]. The villages of the region are connected to each other through watchposts and a network of paths, which is what makes this region difficult to take over." # 7180266086193088693
-  lesbos.0051.desc: "내 영토에 너무 오랫동안 해적들이 존재하는 것을 참아왔다. 그들과의 "협약"은 우리에게 유리하게 작용하지 않았고, 많은 해적들이 존경받는 상인이기는 하지만, 평균적인 사기꾼이나 강도만큼이나 탐욕스럽다면 과연 그들을 신뢰할 수 있을까?\n\n따라서 나는 [GetGeographicalRegion('RICE_mediterranean_region').GetName] 지역의 해적 집단과의 모든 협약을 즉시 파기하라는 명령을 내렸다. 그들은 더 이상 법적 보호를 받지 못하며, 우리와 협력하여 내 영토에 기지를 설치할 수 없다. 그들은 더 이상 우리에게 #italic 도움이#! 되지 않기 때문이다.\n\n나는 내 군대에 해적들이 우리의 명령에 따르도록 감시하도록 명령했다. 평화롭게 떠나주길 바라기만 한다...." # 11778904881305857574
-  lesbos.0051.a: "실수하지 않았기를 바랍니다...." # 6607196777035957105
+  lesbos.0051.t: "$lesbos.0050.t$" # 7180266086193088693
+  lesbos.0051.desc: "저희 영토에 난립하는 해적들의 존재는 너무 오래 참아왔습니다.  해적들과의 \"협약\"은 우리에게 전혀 도움이 되지 않았으며, 그들 중 많은 이들이 존경받는 상인이기는 하지만, 평범한 사기꾼이나 강도 못지않은 탐욕스러움을 가진 자들을 과연 신뢰할 수 있을까요?\n\n따라서 저는 [GetGeographicalRegion('RICE_mediterranean_region').GetName] 지역의 해적 집단들과 모든 협약을 즉각 파기하라는 명령을 내렸습니다. 그들은 더 이상 영토 내에서 법적 보호를 받을 수 없으며, 우리와의 협력을 통해 거점을 마련할 수 없습니다. 그들이 더 이상 우리에게 #italic 위해#! 일하지 않기 때문입니다.\n\n저는 저희 군대에게 이러한 해적들이 저희 명령에 순응하도록 하라는 명령을 내렸습니다. 그들이 평화롭게 떠나기를 바랄 뿐입니다..." # 11778904881305857574
+  lesbos.0051.a: "실수하지 않았기를 바랍니다..." # 6607196777035957105
   lesbos.0052.t: "xxxxx" # 1951045980481827005
   lesbos.0052.desc: "xxxxx" # 1951045980481827005
   lesbos.0052.a: "xxxxx" # 1951045980481827005
@@ -353,22 +353,22 @@
   lesbos.0059.t: "xxxxx" # 1951045980481827005
   lesbos.0059.desc: "xxxxx" # 1951045980481827005
   lesbos.0059.a: "xxxxx" # 1951045980481827005
-  mediterranean_pirate_intro_text: "[GetGeographicalRegion('RICE_mediterranean_region').GetName]에 연줄이 있는 해적 집단이 활동 중인데, 그들은 제 영토를 공격하지 않고 상호 이해관계가 일치할 때 저를 돕기로 동의했습니다." # 8337190491002360894
-  lesbos.0060.t: "해적: 관계 형성" # 3629878746621603655
-  lesbos.0060.desc: "고대부터 공해에는 해적이 들끓었습니다.\n\n그렇기에 수 세기 동안 통치자들은 다양한 방식으로 해적을 이용하고자 했습니다. 결국 우리 중 많은 사람들은 이해관계를 공유하고 있으니까요. 게다가 많은 해적들이 실제로는 상인이기도 하므로 항상 이익을 얻을 가능성이 있습니다.\n\n다른 많은 통치자들의 선례를 따라, 저는 관리들에게 우리와 협력할 의향이 있는 해적 집단들과 생산적인 관계를 맺도록 지시했습니다. 그들이 내 항구에 은신처를 제공한다 해도 그들이 완전히 우리 통제하에 있는 것은 아닐지라도, 특히 그들이 내 영토를 공격하지 않기로 동의한다면 장기적으로 서로 도울 수 있을 것입니다." # 14337829029150537674
-  lesbos.0060.a: "실용적이고 필요한 조치입니다." # 3907159241504226176
+  mediterranean_pirate_intro_text: "[GetGeographicalRegion('RICE_mediterranean_region').GetName] 지역 해적들과의 연계가 있습니다. 그들은 저의 영토를 공격하지 않고, 공동 이익이 발생할 경우 도움을 줄 것을 약속했습니다." # 8337190491002360894
+  lesbos.0060.t: "해적들: 관계 수립" # 3629878746621603655
+  lesbos.0060.desc: "고대부터 바다에는 해적들이 끊이지 않았습니다.\n\n그러므로 수 세기 동안 군주들은 다양한 방법으로 해적들을 이용하려고 노력해왔습니다.  결국 우리는 많은 공통점을 가지고 있으니까요.  게다가 많은 해적들은 사실 상인이기도 하므로, 항상 이익을 낼 가능성이 있습니다.\n\n이러한 수많은 다른 군주들의 발자취를 따라, 제 관리들에게 해적 무리들과 협력할 의향이 있는 자들과 유익한 관계를 맺도록 지시했습니다.  제 항구에 그들을 피난처를 제공하더라도, 그들은 진정으로 우리의 통제 아래 있는 것은 아닐지라도, 특히 그들이 제 영토를 공격하지 않기로 동의한다면, 장기적으로 서로에게 도움이 될 수 있을 것입니다." # 14337829029150537674
+  lesbos.0060.a: "현실적이고 필수적인 조치." # 3907159241504226176
   lesbos.0061.t: "해적: 전리품 획득" # 14034865941826294605
-  lesbos.0061.desc: "최근에 저는 이 해적들이 어딘가에서 습격으로 상당한 전리품을 얻었다는 소식을 들었습니다.\n\n우리의 이전 합의의 일환으로 그들은 노예에서 금, 무기, 식량, 귀중한 예술품 등 모든 종류의 훌륭한 상품을 포함한 이 전리품의 일부를 넘겨주었습니다." # 3067862002054362009
-  lesbos.0061.a: "아, 그들의 아름다운 전리품이로군!" # 8599157128126101021
+  lesbos.0061.desc: "최근, 이 해적들이 어디선가 약탈한 풍부한 전리품을 얻었다는 소식을 접했습니다.\n\n이전 합의에 따라 그들은 노예와 금, 무기, 식량, 귀중한 예술품 등 모든 종류의 훌륭한 상품을 포함한 이 전리품 일부를 넘겨주었습니다." # 3067862002054362009
+  lesbos.0061.a: "아, 그들의 멋진 전리품이로군!" # 8599157128126101021
   lesbos.0062.t: "해적: 판매 승인" # 11150361833592887693
-  lesbos.0062.desc: "최근 이 해적들은 노예, 금, 무기, 식량, 귀중한 예술품 등 많은 전리품을 획득하며 생산적인 활동을 펼쳤습니다.\n\n그들은 제 영토의 항구에서 이 물건들을 판매할 수 있도록 허락해달라고 요청했습니다. 어찌 이런 제안을 거절할 수 있겠습니까?" # 5039161355183434664
-  lesbos.0062.a: "이것은 지역 경제를 활성화할 것입니다." # 17135225112055244266
-  lesbos.0063.t: "해적: 코르사르 모집" # 6166418238136479392
-  lesbos.0063.desc: "이 해적들의 군사 경험은 상당하며, 내 군대에 귀중한 자산이 될 수 있을 것입니다.\n\n나는 이 해적들과 더 영구적인 계약을 맺어, 내 깃발 아래에서 나를 위해 직접 싸우도록 모집하기로 결정했습니다." # 9608888311712531144
-  lesbos.0063.a: "그들이 믿음직한 군인임을 증명하길 바라자." # 11979645674450538471
-  lesbos.0064.t: "해적: 포로 몸값 요구" # 13371954594534084992
-  lesbos.0064.desc: "제 신하들 중 일부가 해적에게 붙잡혔다는 소식을 들었습니다. 제가 연결되어 있는 "우리" 해적이 아닌 것은 분명합니다. 그들은 제 영토를 건드리지 않는다는 합의가 되어 있기 때문입니다.\n\n그럼에도 불구하고, 우리의 우호적인 해적들은 큰 자산입니다. 제 백성들이 붙잡힌 친구와 가족을 풀어달라고 요청했을 때, 우리의 해적들은 자신들의 네트워크를 이용하여 제가 이 포로들을 석방할 수 있도록 도와주었습니다. 물론 제가 몸값을 지불한다면 말입니다." # 5526177470963248050
-  lesbos.0064.a: "몸값이 지불되었고, 포로들은 고향으로 돌아올 수 있습니다." # 3587887933179386494
+  lesbos.0062.desc: "최근 이 해적들은 노예, 금, 무기, 식량, 귀중한 예술품 등 좋은 전리품을 많이 획득하여 활발하게 활동하고 있습니다.\n\n그들이 이러한 물품들을 저의 영역 항구에서 판매할 수 있도록 허락해 달라고 요청하였습니다.  이런 제안을 거절할 수 있을까요?" # 5039161355183434664
+  lesbos.0062.a: "지역 경제가 활성화될 것입니다." # 17135225112055244266
+  lesbos.0063.t: "해적: 해적 모병" # 6166418238136479392
+  lesbos.0063.desc: "이 해적들의 군사적 경험은 상당하며, 내 군대에 귀중한 자산이 될 수 있습니다.\n\n나는 이 해적들과 더욱 지속적인 협약을 맺고, 나의 기치 아래 직접 싸우도록 영입하기로 결정했습니다." # 9608888311712531144
+  lesbos.0063.a: "믿을 만한 병사들이 되기를 바랍니다." # 11979645674450538471
+  lesbos.0064.t: "해적: 포로 몸값 협상" # 13371954594534084992
+  lesbos.0064.desc: "백성들 중 일부가 해적들에게 붙잡혔다는 소식을 들었습니다. 물론, 저와 협약을 맺은 \"우리\" 해적들은 제 영토를 함부로 건드리지 않습니다. \n\n하지만, 친선 관계인 해적들은 큰 자산입니다. 백성들이 붙잡힌 친구와 가족을 구출해달라고 간청했을 때, 우리 해적들은 그들의 네트워크를 활용하여 몸값을 지불하면 포로들을 석방해주었습니다." # 5526177470963248050
+  lesbos.0064.a: "몸값이 지불되었고, 포로들은 고향으로 돌아갈 수 있습니다." # 3587887933179386494
   lesbos.0065.t: "xxxxx" # 1951045980481827005
   lesbos.0065.desc: "xxxxx" # 1951045980481827005
   lesbos.0065.a: "xxxxx" # 1951045980481827005
@@ -415,27 +415,27 @@
   lesbos.0079.desc: "xxxxx" # 1951045980481827005
   lesbos.0079.a: "xxxxx" # 1951045980481827005
   lesbos.0080.t: "헤파이스토스의 대장간" # 9203982734980244683
-  lesbos.0080.desc: "고대에 [GetTitleByKey('c_lesbos').GetNameNoTier] 근처의 작은 섬인 렘노스는 [GetReligionByKey('hellenism_religion').GetAdjective] 대장장이 신 헤파이스토스의 위대한 대장간이 있던 곳이라고 전해졌습니다. 신화에 따르면 이 섬은 헤파이스토스가 아기였을 때 아버지 제우스가 처음으로 땅으로 던진 곳이었기 때문에 헤파이스토스에게 신성한 곳이었습니다.\n\n저는 이 사건에 대한 몇 가지 민담을 들었는데, 물론 저는 [ROOT.Char.GetFaith.GetAdjective] 방식을 따르고 헤파이스토스가 아닌 [ROOT.Char.GetFaith.HighGodName]에게 기도하지만 이 이야기가 흥미롭다는 것을 부인할 수 없습니다. 이 에게해의 여러 섬들에 관한 어떤 종류의 다른 이야기가 널리 퍼져 있을지 누가 알겠습니까?" # 7114328504348031826
-  lesbos.0080.a: "분명 그런 이야기가 많을 겁니다." # 7966375544491112614
-  lesbos.0081.t: "림니오 와인" # 17663178732000204036
-  lesbos.0081.desc: "제가 통치하는 [GetTitleByKey('c_lesbos').GetNameNoTier]의 지역 주민들이 저에게 #italic 림니오#! 포도주를 선물했습니다. 림니오 포도주는 아리스토텔레스와 같은 고전 문헌에 언급될 정도로 고대부터 이 섬의 특산물로 알려져 있었습니다. 심지어 고대 의사 갈렌도 이 섬의 포도주를 세계 최고 중 하나로 여겼습니다!\n\n어쨌든 이 포도주는 연회에 아주 좋거나, 혼자 즐기기에도 좋을 것입니다!" # 4660010061951981489
-  lesbos.0081.a: "훌륭한 선물입니다!" # 16468352431175360542
-  lesbos.0082.t: "가장 위대한 레즈비언 시인?" # 8369842196182767925
-  lesbos.0082.desc: "고대 시대, [GetTitleByKey('c_lesbos').GetNameNoTier] 섬은 #italic 시인의 섬#!이라는 별명으로 불렸습니다. 섬에는 여러 유명한 시인들이 거주했기 때문입니다. 최근 저는 가장 유명한 시인들에 대해 생각해 왔습니다.\n\n#bold 사포#!는 지금까지 살았던 가장 위대한 여성 시인 중 한 명으로 여겨지며, 남녀의 사랑을 감동적으로 표현하는 능력은 뛰어납니다. 하지만 그녀의 추잡한 생활 방식에 대한 비판도 있습니다.\n\n#bold 테르판데르#!는 음악 악기와 가사 스타일의 혁신으로 인해 고대 음악의 창시자 중 한 명으로 당연히 여겨집니다. 그리고 그는 상당히 활기찬 파티 동물이기도 했습니다.\n\n#bold 알카이오스#!는 사포와 동시대 사람으로 또 다른 혁신가이자 역사상 가장 위대한 서정시인 중 한 명이었습니다. 하지만 그와 그의 형제들은 종종 지역 정치 분쟁에 휘말렸습니다." # 2062224147940595765
-  lesbos.0082.a: "사포는 내가 가장 좋아하는 사람이야" # 9309850155937274747
-  lesbos.0082.b: "테르판드로스는 내가 가장 좋아하는 사람입니다" # 409365432465713309
-  lesbos.0082.c: "알카이오스는 제가 가장 좋아하는 사람입니다" # 4097557712273611804
+  lesbos.0080.desc: "옛날, [GetTitleByKey('c_lesbos').GetNameNoTier] 근처 작은 섬 레스보스는 헤파이스토스, 대장간의 [GetReligionByKey('hellenism_religion').GetAdjective] 신의 위대한 제련소가 있던 곳이라고 전해졌습니다. 신화에 따르면, 그 섬은 헤파이스토스의 아버지인 제우스가 아기였던 그를 땅으로 던졌던 곳이기 때문에 신성한 곳이었습니다.\n\n이 사건에 관한 민담을 듣다 보니, 물론 저는 [ROOT.Char.GetFaith.GetAdjective] 신앙을 따르고 [ROOT.Char.GetFaith.HighGodName]께 기도하지만, 헤파이스토스가 아니더라도 그 이야기가 흥미롭다는 것을 부인할 수 없습니다. 이 에게해에 있는 여러 섬들에 대해 어떤 이야기들이 더 있을지 누가 알겠습니까?" # 7114328504348031826
+  lesbos.0080.a: "이러한 이야기는 많을 것입니다." # 7966375544491112614
+  lesbos.0081.t: "림니오 포도주" # 17663178732000204036
+  lesbos.0081.desc: "[GetTitleByKey('c_lesbos').GetNameNoTier]의 백성들이 저에게 #italic 림니오# 와인을 선물로 주었습니다. 고대부터 이 섬의 특산품으로 알려져 있으며, 아리스토텔레스와 같은 고전 저술가들에 의해 언급될 정도로 유명합니다. 심지어 고대 의사 갈렌조차도 이 섬의 와인을 세계 최고의 와인 중 하나로 여겼다고 합니다!\n\n어쨌든, 이 와인은 연회에 적절하며, 혼자 즐기기에도 좋을 것입니다!" # 4660010061951981489
+  lesbos.0081.a: "훌륭한 선물이군!" # 16468352431175360542
+  lesbos.0082.t: "최고의 레즈비언 시인?" # 8369842196182767925
+  lesbos.0082.desc: "옛날, [GetTitleByKey('c_lesbos').GetNameNoTier] 섬은 #italic 시인들의 섬#!이라는 별칭으로 불렸습니다. 섬에는 여러 유명한 시인들이 살았기 때문입니다. 요즘, 저는 그중 가장 유명한 이들을 떠올립니다.\n\n#bold 사포#!는 역사상 가장 위대한 여성 시인 중 한 명으로 여겨집니다. 남녀의 사랑을 아름답게 표현하는 그녀의 능력은 탁월하지만, 일부 사람들은 그녀의 방탕한 생활에 대해 비난합니다.\n\n#bold 테르판데르#!는 음악 악기와 서정적인 스타일의 혁신으로 고대 음악의 창시자 중 한 명으로 칭송받습니다. 그리고 꽤나 활발한 파티 애호가였다고 합니다.\n\n#bold 알카이오스#!는 사포와 동시대 사람이었으며, 또 다른 혁신적인 시인이자 역사상 가장 위대한 서정시인 중 한 명입니다. 그러나 그와 그의 형제들은 종종 지역 정치 분쟁에 휘말렸습니다." # 2062224147940595765
+  lesbos.0082.a: "사포가 제일 좋아요" # 9309850155937274747
+  lesbos.0082.b: "테르판데르가 제일 좋아요" # 409365432465713309
+  lesbos.0082.c: "알케우스가 제일 좋아요." # 4097557712273611804
   lesbos.0083.t: "사포의 진실된 이야기" # 8875067078798873170
-  lesbos.0083.desc: "사포는 [GetTitleByKey('c_lesbos').GetNameNoTier]에서 가장 유명한 인물 중 한 명입니다. 하지만 고대부터 그녀는 논란의 여지가 있는 인물이었습니다. 많은 사람이 그녀를 웅변적인 시인으로 알고 있지만, 다른 사람들은 그녀가 남자와 여자를 가리지 않고 자유롭게 잠자리를 같이하는 천박한 매춘부였다고 믿습니다. 수년 동안 학자들은 이러한 불일치에 대해 다양한 해결책을 제시했습니다.\n\n일부에서는 사포라는 이름을 가진 유명한 여성이 실제로 두 명이었으며, 나중에 혼동되었다고 생각합니다. 한 명은 유명한 시인이었고, 다른 한 명은 부도덕한 코르티잔이었습니다.\n\n그러나 다른 사람들은 이것이 지나치게 복잡하다고 생각하며 사포는 단 한 명이었다고 믿습니다. 대신 그녀는 원래 미덕이 부족했지만 시간이 지나면서 자신을 개선하여 유명한 시인이 되었다고 합니다." # 606250025446910668
-  lesbos.0083.a: "저는 사포가 두 명이었을 가능성이 있다고 생각합니다!" # 15979724566932212045
+  lesbos.0083.desc: "사포는 [GetTitleByKey('c_lesbos').GetNameNoTier]에서 가장 유명한 인물 중 한 명입니다. 그러나 고대부터 그녀는 논란의 인물이었습니다. 많은 사람들은 그녀를 뛰어난 시인으로 알지만, 다른 이들은 그녀가 남녀와 자유롭게 잠자리를 가진 음탕한 창녀였다고 믿습니다. 수년 동안 학자들은 이러한 차이점에 대한 여러 해결책을 제시해 왔습니다.\n\n어떤 이들은 사실 사포라는 이름의 유명한 여성 두 명이 나중에 혼동되었을 것이라고 믿습니다. 한 명은 유명한 시인이고 다른 한 명은 부도덕한 기녀였습니다.\n\n하지만 다른 이들은 이것이 문제를 지나치게 복잡하게 만든다고 생각하고, 사포는 오직 한 명뿐이라고 믿습니다. 대신 그녀는 처음에는 덕망이 부족했지만, 시간이 지남에 따라 자신을 개선하여 유명한 시인이 되었습니다." # 606250025446910668
+  lesbos.0083.a: "사포가 둘 정도 있었을 것 같아요." # 15979724566932212045
   lesbos.0083.b: "사포는 자신을 향상시키기 위해 열심히 노력했을 것입니다." # 3742815260653522445
-  lesbos.0084.t: "[GetTitleByKey('c_lesbos').GetNameNoTierNoTooltip]의 석화된 숲" # 754707407212284873
-  lesbos.0084.desc: "[GetTitleByKey('c_lesbos').GetNameNoTier] 섬에는 특이한 지형지물, 즉 나무가 돌로 변한 거대한 석화된 숲이 있습니다. 아무도 그곳이 어떻게 생겨났는지 모릅니다.\n\n오늘, 몇몇 방문한 고위 인사들이 그 지형지물에 대해 문의했고, 우리는 우리가 아는 것을 기꺼이 알려주었습니다." # 9989519619393539147
-  lesbos.0084.a: "세상은 경이로움으로 가득 차 있으며, 우리의 섬도 예외는 아닙니다!" # 14453375081259414678
-  lesbos.0085.t: "아리스토텔레스와 석호" # 4798743765101148453
-  lesbos.0085.desc: "어느 날, 저와 신하들은 [GetTitleByKey('c_lesbos').GetNameNoTier]의 역사에 대해 이야기를 나누다가 누군가가 위대한 아리스토텔레스가 몇 년 동안 그 섬에서 살았다는 사실을 언급했습니다.\n\n이 기간 동안 철학자는 칼로니스 석호를 연구하면서 그곳의 동식물에 대한 이해를 높이는 데 시간을 보냈습니다. 그렇게 함으로써 그는 생물학에 대한 많은 아이디어와 관찰을 이끌어냈습니다. 예를 들어 그는 지역 어부들에게 지역 동물과 식물에서 무엇을 알아챘는지 묻는 데 시간을 보냈고, 오늘날에도 가르치는 많은 중요한 결론을 도출했습니다." # 17470497970735675062
-  lesbos.0085.a: "아리스토텔레스의 작품을 좀 더 공부해야겠어…." # 7252156581457409120
-  lesbos.0085.b: "아리스토텔레스에게는 참으로 힘든 일일 것 같군." # 2708285881066837255
+  lesbos.0084.t: "[GetTitleByKey('c_lesbos').GetNameNoTierNoTooltip]의 화석림" # 754707407212284873
+  lesbos.0084.desc: "[GetTitleByKey('c_lesbos').GetNameNoTier] 섬에는 기이한 지리적 명소가 있습니다. 나무가 돌로 변한 거대한 석화림이죠. 그 기원은 아무도 모릅니다.\n\n\n오늘, 몇몇 방문 귀빈들이 그 명소에 대해 문의하였고, 우리는 알고 있는 바를 자세히 설명해 드렸습니다." # 9989519619393539147
+  lesbos.0084.a: "세상은 경이로움으로 가득하네 – 우리 섬도 예외가 아니지!" # 14453375081259414678
+  lesbos.0085.t: "아리스토텔레스와 호수" # 4798743765101148453
+  lesbos.0085.desc: "어느 날, 내 신하들과 나는 [GetTitleByKey('c_lesbos').GetNameNoTier]의 역사에 대해 이야기하고 있었는데, 누군가가 위대한 아리스토텔레스가 그 섬에 몇 년 동안 살았다는 사실을 언급했습니다.\n\n이 기간 동안, 그 철학자는 칼로니스 갯벌을 연구하여 그곳의 동식물을 더 잘 이해하기 위해 시간을 보냈습니다. 이러한 노력은 그의 생물학적 사고와 관찰에 많은 영향을 주었습니다. 예를 들어, 그는 현지 어부들에게 현지 동식물에 대한 관찰 내용을 질문하고 오늘날까지도 우리가 배우는 중요한 결론을 많이 도출했습니다." # 17470497970735675062
+  lesbos.0085.a: "아리스토텔레스의 저작을 더욱 공부해야겠군…" # 7252156581457409120
+  lesbos.0085.b: "아리스토텔레스에게는 꽤나 힘든 일인 것 같군." # 2708285881066837255
   lesbos.0086.t: "xxxxx" # 1951045980481827005
   lesbos.0086.desc: "xxxxx" # 1951045980481827005
   lesbos.0086.a: "xxxxx" # 1951045980481827005

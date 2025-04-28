@@ -1,300 +1,301 @@
 ﻿l_korean:
   RICE_sardinia_region: "$d_sardinia$" # 10942758607733507526
-  RICE_every_owned_sardinia_county: "소유한 [GetGeographicalRegion('RICE_sardinia_region').GetName] 내 모든 [county|E]" # 6353019117556874156
-  RICE_every_sardinia_county: "[GetGeographicalRegion('RICE_sardinia_region').GetName]의 모든 [county|E]" # 329653804741568369
-  RICE_fervor_gain_sardinia_fervor: "사르데냐 충성" # 3642314066773276239
+  RICE_every_owned_sardinia_county: "귀하의 [GetGeographicalRegion('RICE_sardinia_region').GetName] 내 모든 [county|E]" # 6353019117556874156
+  RICE_every_sardinia_county: "[GetGeographicalRegion('RICE_sardinia_region').GetName] 내 모든 [county|E]" # 329653804741568369
+  RICE_fervor_gain_sardinia_fervor: "사르데냐의 충성" # 3642314066773276239
   innovation_RICE_condaghes: "콘다게스" # 9193493668749065614
-  innovation_RICE_condaghes_desc: "#italic 콘다게스#!는 상속, 구매, 기증, 소송 및 종교 기관과 관련된 기타 재정 및 법률 행위를 기록하는 독특한 유형의 사르데냐 행정 문서입니다. 이것은 섬이 비잔틴 제국으로부터 물려받은 관료적 관행의 진화입니다." # 7926849508591958554
+  innovation_RICE_condaghes_desc: "#italic 콘다게스#는! 사르데냐의 독특한 행정 문서 유형으로, 종교 기관과 관련된 문맥에서 상속, 구매, 기증, 소송 및 기타 재정적, 법적 행위를 기록합니다. 이는 사르데냐가 비잔틴 제국으로부터 물려받은 관료적 관행의 발전 형태입니다." # 7926849508591958554
   innovation_RICE_palio_races: "팔리오 경주" # 1975135252244117044
-  innovation_RICE_palio_races_desc: "이탈리아가 도시화됨에 따라 일부 도시와 마을에서는 세속적 행사와 특히 종교적 행사를 위해 #italic 팔리오#!라고 불리는 축제적이고 화려한 경마 대회를 자체적으로 시작했습니다. 이러한 경주는 지역 문화의 유명한 부분이 되었으며, 사회 계층이나 지위에 관계없이 관련된 모든 사람에게 시민적 자부심의 원천이 되었습니다." # 11438185908237243760
-  RICE_palio_activity_unlock: "[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] [activity|E] 활성화" # 12123281633969678052
-  RICE_palio_decision_unlock: "#V $RICE_sardinia_inaugurate_major_palio$#! 및 #V $RICE_sardinia_invest_in_palio_horses$#! 결정을 잠금 해제합니다." # 8267801126893706369
+  innovation_RICE_palio_races_desc: "이탈리아가 도시화됨에 따라, 일부 도시와 마을들은 세속적인, 특히 종교적인 행사들을 위해 #italic 팔리오#!라 불리는 축제와 같고 눈부신 경마 전통을 시작했습니다. 이 경마들은 지역 문화의 중요한 부분으로 자리 잡았고, 사회 계층이나 신분에 상관없이 관련된 모든 사람들에게 시민적 자부심의 원천이 되었습니다." # 11438185908237243760
+  RICE_palio_activity_unlock: "[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] [activity|E]를 이용 가능하게 합니다." # 12123281633969678052
+  RICE_palio_decision_unlock: "#V $RICE_sardinia_inaugurate_major_palio$#! 및 #V $RICE_sardinia_invest_in_palio_horses$#! [decisions|E]을(를) 잠금 해제합니다" # 8267801126893706369
   RICE_roman_africa_region: "로마 아프리카" # 12460851452853493200
   RICE_ifriqiya_region: "이프리키야" # 5234340553679474095
-  RICE_sardinia_region_req: "[capital|E]은 [GetGeographicalRegion('RICE_sardinia_region').GetName]에 있습니다" # 7419345602264750247
-  RICE_sardinia_byzantine_admin_weak_hook: "사르데냐 연계" # 15442301801151603378
+  RICE_sardinia_region_req: "[capital|E]은 [GetGeographicalRegion('RICE_sardinia_region').GetName]에 있습니다." # 7419345602264750247
+  RICE_sardinia_byzantine_admin_weak_hook: "사르데냐의 연줄" # 15442301801151603378
   RICE_sardinia_byzantine_admin_strong_hook: "$RICE_sardinia_byzantine_admin_weak_hook$" # 3791096421825315697
-  RICE_sardinia_ties_reason_placeholder: "[CHARACTER.GetShortUIName|U]와 [TARGET_CHARACTER.GetShortUIName]는 [GetGeographicalRegion('RICE_sardinia_region').GetName]와 [GetGeographicalRegion('world_africa_north').GetName] 사이의 관계를 구축하기 위해 협력했습니다." # 10531680401405247567
-  RICE_condaghe_decision_unlock: "#V $RICE_sardinia_condaghe_decision$# 해금" # 9371687319581825057
+  RICE_sardinia_ties_reason_placeholder: "[CHARACTER.GetShortUIName|U]와 [TARGET_CHARACTER.GetShortUIName]는 협력하여 [GetGeographicalRegion('RICE_sardinia_region').GetName]와 [GetGeographicalRegion('world_africa_north').GetName] 사이의 유대 관계를 쌓았습니다." # 10531680401405247567
+  RICE_condaghe_decision_unlock: "[decision|E] #V $RICE_sardinia_condaghe_decision$#!을(를) 이용할 수 있게 됩니다!" # 9371687319581825057
   RICE_sardinia_none_ending_catholic_loc: "$heritage_latin_name$" # 2180482954420420141
   RICE_sardinia_none_ending_orthodox_loc: "$heritage_byzantine_name$" # 1865404956117612384
   RICE_sardinia_none_ending_north_african_loc: "$heritage_berber_name$" # 9092386267344628239
-  RICE_culture_head_req: "당신의 [culture|E]의 [culture_head|E]" # 16229385642259741291
-  RICE_not_has_major_palio_req: "당신의 수도 [duchy|E] 내 [county|E] 어느 곳에도 [GetModifier('RICE_sardinia_palio_race_religious_modifier').GetNameWithTooltip], [GetModifier('RICE_sardinia_palio_race_civic_modifier').GetNameWithTooltip], 또는 [GetModifier('RICE_sardinia_palio_race_dynastic_modifier').GetNameWithTooltip] [county_modifier|E]가 없습니다." # 10994053580752635262
-  RICE_capital_coastal_county: "당신의 수도는 해안 [county|E]입니다" # 13103132068602696875
+  RICE_culture_head_req: "[culture|E]의 [culture_head|E]" # 16229385642259741291
+  RICE_not_has_major_palio_req: "[capital|E]의 [duchy|E] 내 어떤 [county|E]도 [GetModifier('RICE_sardinia_palio_race_religious_modifier').GetNameWithTooltip], [GetModifier('RICE_sardinia_palio_race_civic_modifier').GetNameWithTooltip], 또는 [GetModifier('RICE_sardinia_palio_race_dynastic_modifier').GetNameWithTooltip] [county_modifier|E]를 보유하고 있지 않습니다." # 10994053580752635262
+  RICE_capital_coastal_county: "귀하의 수도는 해안에 위치한 [county|E]입니다." # 13103132068602696875
   RICE_sardinia_condaghe_artifact_name: "[condaghe_person.GetTitledFirstNameNoTooltip]의 콘다게" # 3373753614012725732
-  RICE_sardinia_condaghe_artifact_desc: "이 #italic 콘다게#!는 [condaghe_person.GetTitledFirstName] 님과 [condaghe_person.GetHerHis] 가문, [condaghe_person.GetDynasty.GetName] [dynasty|E](이)의 요청에 따라 제작되거나 발견되었습니다. 사르데냐에서 유래된 다른 #italic 콘다게#!처럼, 종교 기관 및 재산과 관련된 가문의 다양한 재정 및 법적 활동을 반영하는 행정 문서입니다." # 9619905875499735481
-  building_type_RICE_sardinia_su_nuraxi: "수 누라크시" # 5558086510927351852
-  building_type_RICE_sardinia_su_nuraxi_desc: "사르데냐의 황무지에서는 수많은 #italic 누라게#! 석조 유적을 찾아볼 수 있습니다. 수 누락시는 아마도 이 중 가장 인상적인 것일 것입니다. 원래 건축자들은 누구였든 오래 전에 세상을 떠났을지 모르지만, 그들이 지은 구조물은 여전히 피난처나 건축 자재의 자유로운 공급원으로 가끔 사용됩니다." # 17452360317650094058
+  RICE_sardinia_condaghe_artifact_desc: "이 #italic 콘다게#!는 [condaghe_person.GetTitledFirstName]의 의뢰로 만들어지거나 발견되었거나 [condaghe_person.GetHerHis]의 가문, [condaghe_person.GetDynasty.GetName] [dynasty|E]를 위한 것입니다. 사르디니아에서 유래한 다른 #italic 콘다게#들처럼, 이것은 종교 기관 및 재산과 관련된 가문의 다양한 재정 및 법률 활동을 반영하는 행정 문서입니다." # 9619905875499735481
+  building_type_RICE_sardinia_su_nuraxi: "수 누락시" # 5558086510927351852
+  building_type_RICE_sardinia_su_nuraxi_desc: "사르디니아의 황야에서는 수많은 #italic 누라게#! 석조 유적을 찾아볼 수 있습니다. 그중 수 누락시는 아마도 가장 인상적일 것입니다. 누가 지었든 원래의 건축가들은 사라진 지 오래되었을 수 있지만, 그들이 지은 구조물들은 은신처로든, 무료 건축 자재 공급원으로든 여전히 가끔 사용되고 있습니다." # 17452360317650094058
   building_RICE_sardinia_su_nuraxi: "$building_type_RICE_sardinia_su_nuraxi$" # 9257398926882013515
   building_RICE_sardinia_su_nuraxi_desc: "$building_type_RICE_sardinia_su_nuraxi_desc$" # 12309863103328646912
   game_concept_palio_races: "팔리오 경주" # 1975135252244117044
-  game_concept_palio_race: "팔리오 경마" # 4541704099822960074
-  game_concept_palios: "팔리오스" # 15300722745139640702
+  game_concept_palio_race: "팔리오 경주" # 4541704099822960074
+  game_concept_palios: "파리오스" # 15300722745139640702
   game_concept_palio: "팔리오" # 16720833653265931553
-  game_concept_palio_desc: "$game_concept_palio$는 이탈리아에서 인기 있는 경마의 한 종류를 의미합니다. [GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName]는 $innovation_RICE_palio_races$ [혁신|E]을 통해 해금되는 [활동|E]으로, [명성_i|E] [명성|E], [신앙심_i|E] [신앙심|E], [가문_명성|E] [가문_명성|E] 보상을 얻을 수 있는 좋은 기회입니다. 이 [활동|E]은 또한 개최된 지역에 [지역_수정치|E]를 부여합니다.\n\n팔리오에는 종교적, 시민적, 왕조적 세 가지 유형이 있으며 보너스가 다릅니다. 더 야심 찬 [통치자|E]는 $RICE_sardinia_inaugurate_major_palio$ [decision|E]을 내릴 수 있습니다. 이를 통해 팔리오에서 얻는 보너스를 강화하는 특별한 [지역_수정치|E]가 수도에 배치되지만 [공작령|E]당 하나만 존재할 수 있습니다.\n\n팔리오 [활동|E] 중, [가문_수장|E]인 주최자와 참석자는 경주에서 많은 갈망을 받는 #bold 팔리오 깃발#!을 얻기 위해 기수와 말을 후원할 수 있습니다. [통치자|E]는 $RICE_sardinia_invest_in_palio_horses$ [decision|E]을 통해 승리 확률을 높일 수도 있습니다." # 12851191088470881631
+  game_concept_palio_desc: "$game_concept_palio$는 이탈리아에서 인기 있는 일종의 경마를 지칭합니다. [GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName]은 $innovation_RICE_palio_races$ [innovation|E]를 통해 해금되는 [activity|E]이며, [prestige_i|E] [prestige|E], [piety_i|E] [piety|E], [dynasty_prestige|E] [dynasty_prestige|E] 보상을 획득할 수 있는 훌륭한 기회입니다. 이 [activity|E]가 개최되는 곳에서는 [county_modifier|E]도 부여됩니다.\n\n팔리오에는 세 가지 유형이 있으며, 각기 다른 보너스를 제공합니다. 종교, 시민, 왕조 유형이 있습니다. 더 야심찬 [rulers|E]는 $RICE_sardinia_inaugurate_major_palio$ [decision|E]를 내릴 수 있습니다. 이는 수도에 특별한 [county_modifier|E]를 부여하여 팔리오를 통해 얻는 보너스를 강화합니다. 단, [duchy|E]당 하나만 존재할 수 있습니다.\n\n팔리오 [activity|E] 기간 동안, 주최자와 [house_heads|E]인 참석자들은 경주에 기수와 말을 후원하여 모두가 탐내는 #bold 팔리오 깃발#!을 차지할 수 있습니다. [rulers|E]는 $RICE_sardinia_invest_in_palio_horses$ [decision|E]를 내려서 승리 확률을 높일 수도 있습니다." # 12851191088470881631
   activity_RICE_sardinia_palio_race_host_an_a: "$host_activity_a$" # 13713790857143020716
   activity_RICE_sardinia_palio_race: "팔리오 말 경주" # 14326889729311888703
-  activity_RICE_sardinia_palio_race_desc: "마을에서 대규모 [palio_race|E] 경주를 개최합시다. 이 스릴 넘치는 말 경주는 주요 종교 축제나 세속 행사의 중심 역할을 할 수 있습니다." # 4633992558154199337
-  activity_RICE_sardinia_palio_race_selection_tooltip: "[domain|E]에서 [palio_race|E]를 개최합니다.\n\n$activity_RICE_sardinia_palio_race_context_tooltip$" # 4401860915359972054
-  activity_RICE_sardinia_palio_race_context_tooltip: "#emphasis 역사적 배경:#! 이탈리아의 팔리오(Palio)와 사르디니아의 사 사르티글리아(Sa Sartiglia)와 같은 행사는 말 경주입니다. 팔리오의 기록은 중세 시대까지 거슬러 올라가지만, 로마 시대의 선례가 있었을 가능성도 있습니다. 중세와 르네상스 시대에 이르러, 팔리오는 성인 축일과 밀접하게 연결된 중요한 종교 및 시민 행사였습니다. 대부분의 현대 팔리오와 유사한 말 경주는 최근의 발명 또는 오래된 전통의 재창조입니다. 가장 오래된 팔리오이자 가장 유명한 팔리오는 시에나의 것으로, 현대 형태는 1633년에 시작되었습니다. 하지만 1239년의 문서에는 팔리오의 규칙이 자세히 언급되어, 그 이전에도 오랫동안 행해졌음을 시사합니다." # 10983296842815273673
-  activity_RICE_sardinia_palio_race_host_desc: "$BULLET_WITH_TAB$[stress_loss_i|E][stress|E] 감소\n$BULLET_WITH_TAB$당신의 [intent|E] 및 [activity_options|E]에 따라 [prestige_i|E][prestige|E], [piety_i|E][piety|E] 및/또는 [dynasty_prestige_i|E][dynasty_prestige|E] 획득\n$BULLET_WITH_TAB$ [activity|E] [location|E]의 [county|E]에 #P 긍정적#! [county_modifier|E] 효과 부여\n$BULLET_WITH_TAB$다른 참석자들의 [opinion|E] 증가\n$BULLET_WITH_TAB$[palio_race|E]에 참가하고 승리하면 추가 보상 획득" # 12444650367204797029
-  activity_RICE_sardinia_palio_race_guest_desc: "$BULLET_WITH_TAB$스트레스 [stress_loss_i|E][stress|E] 감소\n$BULLET_WITH_TAB$참여 의도와 주최자가 선택한 활동에 따라 명성 [prestige_i|E][prestige|E] 및/또는 경건함 [piety_i|E][piety|E] 획득\n$BULLET_WITH_TAB$[주최자_가문_수장]이라면 [팔리오_경주] 참여 및 우승으로 추가 보상 획득" # 3789948359928969672
+  activity_RICE_sardinia_palio_race_desc: "읍내에서 성대한 [palio_race|E]를 개최합시다. 이 짜릿한 경마들은 주요 종교 축제나 세속적인 행사의 중심이 될 수 있습니다." # 4633992558154199337
+  activity_RICE_sardinia_palio_race_selection_tooltip: "[domain|E] 내에서 [palio_race|E]를 주최하십시오.\n\n$activity_RICE_sardinia_palio_race_context_tooltip$" # 4401860915359972054
+  activity_RICE_sardinia_palio_race_context_tooltip: "#emphasis 역사적 배경:#! 팔리오스와 사르데냐의 사 사르틸리아 같은 유사한 관행들은 이탈리아의 경마 유형입니다. 팔리오스의 첫 기록은 중세 시대로 거슬러 올라가지만, 로마 시대의 선례가 있었을 수도 있습니다. 중세와 르네상스 시대 동안, 이것들은 중요한 종교적 및 시민적 행사였으며, 종종 성인 축일과 관련이 있었습니다. 대부분의 현대 팔리오스와 상응하는 경마 경주들은 최근에 발명된 것이거나 오래된 전통을 재창조한 것입니다. 현존하는 가장 오래되고 가장 유명한 팔리오는 시에나의 팔리오로, 현대 형태는 기원후 1633년으로 거슬러 올라갑니다. 그러나 기원후 1239년의 문헌에도 기록되어 있으며, 거기서 팔리오의 규칙이 다소 상세하게 논의되어, 그 이전에도 수년 동안 열렸음을 시사합니다." # 10983296842815273673
+  activity_RICE_sardinia_palio_race_host_desc: "\n$BULLET_WITH_TAB$[stress_loss_i|E][stress|E]를 잃습니다\n$BULLET_WITH_TAB$귀하의 [intent|E] 및 [activity_options|E]에 따라 [prestige_i|E][prestige|E], [piety_i|E][piety|E], 또는 [dynasty_prestige_i|E][dynasty_prestige|E]를 획득합니다.\n$BULLET_WITH_TAB$[activity|E] [location|E]의 [county|E]는 #P 긍정적인#! [county_modifier|E]를 획득합니다.\n$BULLET_WITH_TAB$다른 참석자들로부터의 증가된 [opinion|E]\n$BULLET_WITH_TAB$[palio_race|E]에 참여하고 승리함으로써 얻는 추가 보상" # 12444650367204797029
+  activity_RICE_sardinia_palio_race_guest_desc: "\n$BULLET_WITH_TAB$[stress_loss_i|E][stress|E] 상실\n$BULLET_WITH_TAB$귀하의 [intent|E] 및 주최자가 선택한 [activity_options|E]에 따라 [prestige_i|E][prestige|E] 및/또는 [piety_i|E][piety|E] 획득\n$BULLET_WITH_TAB`[house_head|E]인 경우 [palio_race|E]에 참가하여 우승함으로써 추가 보상 획득" # 3789948359928969672
   activity_RICE_sardinia_palio_race_destination_selection: "$activity_RICE_sardinia_palio_race_province_desc$" # 8743420576970220150
   activity_RICE_sardinia_palio_race_guest_help_text: "$activity_RICE_sardinia_palio_race$" # 14240358716668670004
-  activity_RICE_sardinia_palio_race_predicted_cost: "이번 방문 비용은 당신의 [income|E]과 선택한 [activity_options|E]에 따라 결정됩니다." # 3376579215048647533
-  activity_RICE_sardinia_palio_race_conclusion_desc: "[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName]이(가) 끝났습니다. 정말 흥미진진하고 가슴 졸이는 광경이었습니다!" # 9692773724854099287
+  activity_RICE_sardinia_palio_race_predicted_cost: "이 방문의 비용은 귀하의 [income|E]와 선택하신 [activity_options|E]에 기반합니다." # 3376579215048647533
+  activity_RICE_sardinia_palio_race_conclusion_desc: "[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName]이/가 종료되었습니다. 정말 흥미진진하고 가슴 졸이는 볼거리였습니다!" # 9692773724854099287
   RICE_sardinia_palio_race_religious: "종교" # 2133516543927886705
-  RICE_sardinia_palio_race_religious_desc: "$EFFECT_LIST_BULLET$ [팔리오|E]는 지역 성인 또는 종교적 인물을 기리기 위해 개최됩니다.\n$EFFECT_LIST_BULLET$ #P +25%#! #V 총#! 다른 선택지에 비해 [신앙도_i][신앙도|E]\n$EFFECT_LIST_BULLET$ [팔리오|E]가 열리는 [백작령|E]은 [금_i|E] [세금|E]을 증가시키는 [백작령_modifier|E]를 얻을 가능성이 더 높습니다\n$EFFECT_LIST_BULLET$ [활동|E] [장소|E]가 있는 [백작령|E]이 [GetModifier('RICE_sardinia_palio_race_religious_modifier').GetNameWithTooltip] [백작령_modifier|E]를 가지고 있는 경우 #P +50%#! [명성_i|E][명성|E] 및 [신앙도_i|E][신앙도|E] 보상\n\n#약 성스러운 날은 모든 사람들이 이러한 경마와 같은 것을 위해 한자리에 모이는 좋은 방법입니다.#!" # 18201204389111504303
-  RICE_sardinia_palio_race_civic: "시민권" # 15141324619591927719
-  RICE_sardinia_palio_race_civic_desc: "$EFFECT_LIST_BULLET$ 지역 역사에서 중요한 사건을 기념하기 위해 [palio|E]가 개최됩니다.\n$EFFECT_LIST_BULLET$ #P +25%#! 다른 선택지에 비해 #V 총#! [prestige_i][prestige|E]\n$EFFECT_LIST_BULLET$ [palio|E]가 개최되는 [county|E]는 [development_i|E] [development|E]를 증가시키는 [county_modifier|E]를 얻을 가능성이 더 높습니다.\n$EFFECT_LIST_BULLET$ [activity|E] [location|E]가 위치한 [county|E]에 [GetModifier('RICE_sardinia_palio_race_civic_modifier').GetNameWithTooltip] [county_modifier|E]가 있는 경우 #P +50%#! [prestige_i|E][prestige|E] 및 [piety_i|E][piety|E] 보상\n#weak 우리 고향의 업적을 기림으로써 이 경마는 우리를 공동체로서 하나로 묶을 것입니다!#!" # 8064289505380755936
+  RICE_sardinia_palio_race_religious_desc: "$EFFECT_LIST_BULLET$ 해당 지역의 성인 또는 종교적 인물을 기리기 위해 [palio|E]가 개최됩니다.\n$EFFECT_LIST_BULLET$ #P +25%#! #V total#! 다른 선택지들과 비교하여 [piety_i][piety|E]\n$EFFECT_LIST_BULLET$ [palio|E]가 열리는 [county|E]는 [gold_i|E] [tax|E]를 증가시키는 [county_modifier|E]를 얻을 가능성이 더 높습니다.\n$EFFECT_LIST_BULLET$ #P +50%#! [prestige_i|E][prestige|E] 및 [piety_i|E][piety|E] 보상, 만약 [activity|E] [location|E]의 [county|E]가 [GetModifier('RICE_sardinia_palio_race_religious_modifier').GetNameWithTooltip] [county_modifier|E]를 보유하고 있다면\n\n#weak 이런 성스러운 날에 모두가 한자리에 모여 경마를 하는 것은 좋은 일입니다.#" # 18201204389111504303
+  RICE_sardinia_palio_race_civic: "도시" # 15141324619591927719
+  RICE_sardinia_palio_race_civic_desc: "$EFFECT_LIST_BULLET$ [palio|E]는 지역 역사상 주요 사건을 기념하기 위해 개최됩니다.\n$EFFECT_LIST_BULLET$ 다른 선택지들에 비해 #P +25%#! #V 총#! [prestige_i][prestige|E] 획득\n$EFFECT_LIST_BULLET$ [palio|E]가 개최되는 [county|E]는 [development_i|E] [development|E]를 증가시키는 [county_modifier|E]를 얻을 확률이 높아집니다.\n$EFFECT_LIST_BULLET$ [activity|E]의 [location|E]인 [county|E]에 [GetModifier('RICE_sardinia_palio_race_civic_modifier').GetNameWithTooltip] [county_modifier|E]가 있다면 #P +50%#! [prestige_i|E][prestige|E] 및 [piety_i|E][piety|E] 보상 획득\n\n#weak 조국의 업적을 기리며 이 경마 대회가 우리를 하나의 공동체로 묶어줄 것입니다!#!" # 8064289505380755936
   RICE_sardinia_palio_race_dynastic: "왕조의" # 18302483347248271068
-  RICE_sardinia_palio_race_dynastic_desc: "$EFFECT_LIST_BULLET$ 이 [팔리오|E]는 이 지역에 대한 당신의 [GetPlayer.GetDynastyNameNoTooltip] 통치를 기념하기 위해 개최될 것입니다.\n$EFFECT_LIST_BULLET$ #P +25%#! #V 총#! 다른 선택지에 비해 [dynasty_prestige_i|E][dynasty_prestige|E] 증가\n$EFFECT_LIST_BULLET$ [팔리오|E]가 개최되는 [county|E]는 [building|E] 비용을 줄이는 [county_modifier|E]를 얻을 가능성이 더 높습니다.\n$EFFECT_LIST_BULLET$ [활동|E] [location|E]이 있는 [county|E]가 [GetModifier('RICE_sardinia_palio_race_dynastic_modifier').GetNameWithTooltip] [county_modifier|E]를 가지고 있다면 #P +50%#! [prestige_i|E][prestige|E] 및 [piety_i|E][piety|E] 보상 증가\n\n#weak 우리가 이곳에 건설한 위대한 땅을 모두에게 보여줌으로써 이 경마를 통해 우리 가문의 명성을 높입시다!#!" # 16814087428369048553
-  RICE_sardinia_palio_race_banner_type: "팔리오 배너" # 10249000662630325303
+  RICE_sardinia_palio_race_dynastic_desc: "$EFFECT_LIST_BULLET$ [palio|E] 경주는 해당 지역에 대한 귀하의 [GetPlayer.GetDynastyNameNoTooltip] 통치를 축하할 것입니다.\n$EFFECT_LIST_BULLET$ #P +25%#! #V 총#! [dynasty_prestige_i|E][dynasty_prestige|E] 다른 선택지에 비해\n$EFFECT_LIST_BULLET$ [palio|E]가 개최되는 [county|E]는 [building|E] 건설 비용을 줄여주는 [county_modifier|E]를 얻을 가능성이 높아집니다\n$EFFECT_LIST_BULLET$ #P +50%#! [prestige_i|E][prestige|E] 및 [piety_i|E][piety|E] 보상을 얻으며, 만약 [activity|E] [location|E]이 위치한 [county|E]가 [GetModifier('RICE_sardinia_palio_race_dynastic_modifier').GetNameWithTooltip] [county_modifier|E]를 보유하고 있을 경우\n\n#weak 이 경마를 통해 우리 가문의 명성을 드높이고, 우리가 이곳에 건설한 위대한 땅을 모두에게 보여줍시다!#" # 16814087428369048553
+  RICE_sardinia_palio_race_banner_type: "팔리오 기" # 10249000662630325303
   RICE_sardinia_palio_race_banner_small: "평균" # 17705814244814514937
-  RICE_sardinia_palio_race_banner_small_desc: "$EFFECT_LIST_BULLET$기본 #V 100#! [prestige_i|E] [prestige|E]를 [palio|E]에서 얻습니다.\n$EFFECT_LIST_BULLET$[palio|E] [county_modifiers|E]의 향상된 확률이 없습니다.\n$EFFECT_LIST_BULLET$[palio|E]를 승리한 귀족 [house|E]는 [GetModifier('RICE_sardinia_palio_victory_minor').GetNameWithTooltip] [modifier|E]를 받고, 그들의 왕조는 #V [EmptyScope.ScriptValue('RICE_sardinia_palio_horse_race_dynasty_prestige_victory_small')]#! [dynasty_prestige|E]를 얻습니다.\n\n#weak 이러한 경마 대회에서 우승자에게 수여되는 일반적인 종류의 현수막을 제작할 예술가들을 후원할 것입니다.#!" # 2477259840474099345
-  RICE_sardinia_palio_race_banner_medium: "거대" # 2290692482761374841
-  RICE_sardinia_palio_race_banner_medium_desc: "$EFFECT_LIST_BULLET$ [palio|E]에서 기본 #V 200#! [prestige_i|E] [prestige|E] 획득\n$EFFECT_LIST_BULLET$더 나은 [palio|E] [county_modifiers|E]를 얻을 확률이 다소 증가\n$EFFECT_LIST_BULLET$상륙한 [house|E]가 [palio|E]에서 승리하면 [GetModifier('RICE_sardinia_palio_victory_minor').GetNameWithTooltip] [modifier|E]를 받고, 그들의 왕조는 [dynasty_prestige_i|E] #V [EmptyScope.ScriptValue('RICE_sardinia_palio_horse_race_dynasty_prestige_victory_medium')]#! [dynasty_prestige|E]를 얻습니다.\n\n#weak 우리가 고용한 장인들은 이 경마의 영광스러운 승자에게 걸맞는, 우리 공동체를 잘 보여주는 깃발을 만들어야 합니다!#" # 14874622807265410314
-  RICE_sardinia_palio_race_banner_large: "대" # 12082063477865153151
-  RICE_sardinia_palio_race_banner_large_desc: "$EFFECT_LIST_BULLET$기본 [prestige|E] 300 및 [palio|E]에서 [prestige_i|E] 획득\n$EFFECT_LIST_BULLET$[palio|E] [county_modifiers|E] 향상 확률 대폭 증가\n$EFFECT_LIST_BULLET$영지를 소유한 [house|E]가 [palio|E]에서 우승하면 [GetModifier('RICE_sardinia_palio_victory_minor').GetNameWithTooltip] [modifier|E]를 획득하고, 가문은 [dynasty_prestige_i|E] #V [EmptyScope.ScriptValue('RICE_sardinia_palio_horse_race_dynasty_prestige_victory_large')]#! [dynasty_prestige|E]를 획득합니다\n#weak 돈을 아끼지 마십시오! 우리가 의뢰한 장인들은 팔리오에서 승리하도록 사람들에게 동기를 부여하는 웅장한 깃발을 만들 것입니다.#!" # 6278208863908400975
-  RICE_sardinia_palio_race_charity_type: "자선 금액" # 9891655630657782198
-  RICE_sardinia_palio_race_charity_small: "필수" # 13137723630276950336
-  RICE_sardinia_palio_race_charity_small_desc: "$EFFECT_LIST_BULLET$기본 #V 100#! [piety_i|E] [piety|E]을(를) [palio|E]에서 획득합니다\n$EFFECT_LIST_BULLET$이 [activity|E]에 참석하는 모든 [character|E]로부터 추가적인 [opinion|E]을(를) 얻지 않습니다\n\n#weak 이번 행사 기간 동안 가난하고 궁핍하며 지참금이 필요한 여성들에게 예상되는 기부금을 제공할 것입니다.#" # 16619695082001457223
-  RICE_sardinia_palio_race_charity_medium: "관대한" # 13767644511734953340
-  RICE_sardinia_palio_race_charity_medium_desc: "$EFFECT_LIST_BULLET$ 기본 #V 200#! [piety_i|E] [piety|E]을(를) [palio|E]에서 얻습니다.\n$EFFECT_LIST_BULLET$ 이 [activity|E]에 참여하는 모든 [character|E]에게 추가 #P 10#! [opinion|E]을(를) 얻습니다.\n\n#weak 이 행사 동안 가난하고 궁핍한 자들과 지참금이 필요한 여성들에게 큰 기부를 제공하는 데 최선을 다할 것입니다.#!" # 426720361983307144
+  RICE_sardinia_palio_race_banner_small_desc: "$EFFECT_LIST_BULLET$기본 #V 100#! [prestige_i|E] [prestige|E]를 [palio|E]에서 획득합니다.\n$EFFECT_LIST_BULLET$더 나은 [palio|E] [county_modifiers|E]를 얻을 확률이 증가하지 않습니다.\n$EFFECT_LIST_BULLET$봉건 [house|E]가 [palio|E]에서 우승하면, [GetModifier('RICE_sardinia_palio_victory_minor').GetNameWithTooltip] [modifier|E]를 획득하며, 해당 왕조는 [dynasty_prestige_i|E] #V [EmptyScope.ScriptValue('RICE_sardinia_palio_horse_race_dynasty_prestige_victory_small')]#! [dynasty_prestige|E]를 얻습니다.\n\n#weak 저희는 장인들을 후원하여 이 경마 대회의 우승자에게 수여되는 일반적인 형태의 기를 제작할 것입니다.#!" # 2477259840474099345
+  RICE_sardinia_palio_race_banner_medium: "거대한" # 2290692482761374841
+  RICE_sardinia_palio_race_banner_medium_desc: "$EFFECT_LIST_BULLET$[팔리오|E]에서 기본적으로 #V 200#! [위신_i|E] [위신|E]을(를) 얻습니다.\n$EFFECT_LIST_BULLET$더 나은 [팔리오|E] [백작령_보너스|E]를 얻을 확률이 약간 증가합니다.\n$EFFECT_LIST_BULLET$봉신 [가문|E]이 [팔리오|E]에서 우승하면, 그들은 [GetModifier('RICE_sardinia_palio_victory_minor').GetNameWithTooltip] [보너스|E]를 받으며, 그들의 [왕조|E]는 [왕조_위신_i|E] #V [EmptyScope.ScriptValue('RICE_sardinia_palio_horse_race_dynasty_prestige_victory_medium')]#! [왕조_위신|E]을(를) 얻습니다.\n\n#weak 우리가 고용하는 장인들은 이 경마의 영광스러운 우승자에 걸맞는 깃발을 만들어야 합니다. 이는 우리 공동체에 좋은 영향을 줄 것입니다.#!" # 14874622807265410314
+  RICE_sardinia_palio_race_banner_large: "성대한" # 12082063477865153151
+  RICE_sardinia_palio_race_banner_large_desc: "$EFFECT_LIST_BULLET$[palio|E]를 통해 기본 #V 300#! [prestige_i|E] [prestige|E]를 획득합니다.\n$EFFECT_LIST_BULLET$더 나은 [palio|E] [county_modifiers|E]를 얻을 확률이 크게 증가합니다.\n$EFFECT_LIST_BULLET$영지를 보유한 [house|E]가 [palio|E]에서 승리하면, [GetModifier('RICE_sardinia_palio_victory_minor').GetNameWithTooltip] [modifier|E]를 획득하며, 그들의 왕조는 [dynasty_prestige_i|E] #V [EmptyScope.ScriptValue('RICE_sardinia_palio_horse_race_dynasty_prestige_victory_large')]#! [dynasty_prestige|E]를 얻습니다.\n\n#weak 아낌없이 쓰시오! 우리가 고용한 장인들이 백성들이 팔리오에서 승리하도록 동기를 부여할 훌륭한 깃발을 제작할 것이오.#!" # 6278208863908400975
+  RICE_sardinia_palio_race_charity_type: "자선 액수" # 9891655630657782198
+  RICE_sardinia_palio_race_charity_small: "의무적인" # 13137723630276950336
+  RICE_sardinia_palio_race_charity_small_desc: "$EFFECT_LIST_BULLET$[palio|E]로부터 기본 #V 100#! [piety_i|E] [piety|E]를 얻습니다.\n$EFFECT_LIST_BULLET$이 [activity|E]에 참여하는 모든 [character|E]로부터 추가 [opinion|E]을 얻지 못합니다.\n\n#weak 이번 행사를 통해 가난하고 어려운 이들과 지참금이 필요한 여성들에게 예정된 기부금을 제공할 것입니다.#!" # 16619695082001457223
+  RICE_sardinia_palio_race_charity_medium: "관대함" # 13767644511734953340
+  RICE_sardinia_palio_race_charity_medium_desc: "$EFFECT_LIST_BULLET$기본 #V 200#! [piety_i|E] [piety|E]를 [palio|E]로부터 획득\n$EFFECT_LIST_BULLET$이 [activity|E]에 참석하는 모든 [character|E]으로부터 추가 #P 10#! [opinion|E]를 획득\n\n#weak 우리는 이 시기에 가난하고 궁핍한 이들, 그리고 지참금이 필요한 여성들에게 기꺼이 나서서 많은 기부를 제공할 것입니다.#!" # 426720361983307144
   RICE_sardinia_palio_race_charity_large: "매우 관대함" # 2931691326411223974
-  RICE_sardinia_palio_race_charity_large_desc: "$EFFECT_LIST_BULLET$ [팔리오|E]에서 기본 #V 300#! [명성|E] [명성|E] 획득\n$EFFECT_LIST_BULLET$ 이 [활동|E]에 참석하는 모든 [인물|E]로부터 추가 #P 20#! [호감도|E] 획득\n\n#weak 지금은 공동체가 단합할 때입니다! 우리는 이 행사 동안 가난하고 궁핍한 사람들과 지참금이 필요한 여성들에게 광범위한 기부를 해야 합니다.#!" # 5790052584885116629
+  RICE_sardinia_palio_race_charity_large_desc: "$EFFECT_LIST_BULLET$기본 #V 300#! [prestige_i|E] [prestige|E]를 [palio|E]에서 획득합니다.\n$EFFECT_LIST_BULLET$이 [activity|E]에 참석한 모든 [character|E]에게서 추가 #P 20#! [opinion|E]를 획득합니다.\n\n#weak 이것은 공동체가 함께 모일 시간입니다! 이 시기에 가난한 자, 궁핍한 자, 지참금이 필요한 여성에게 광범위한 기부를 해야 합니다.#!" # 5790052584885116629
   RICE_sardinia_palio_race_preparations_type: "경주 준비" # 9590575785701148570
-  RICE_sardinia_palio_race_preparations_none: "참여하지 않음" # 2127542394456112237
-  RICE_sardinia_palio_race_preparations_none_desc: "$EFFECT_LIST_BULLET$귀족 가문은 [palio_race|E]에 참가하는 기수에게 비용을 지불하지 않습니다.\n$EFFECT_LIST_BULLET$[palio_race|E]에서 우승하여 보상을 받을 기회를 #N 포기합니다#!\n\n#weak 이러한 스포츠 경기에 참가하는 데는 비용이 많이 듭니다. 우리 자금은 처음부터 행사를 조직하는 데 사용하는 것이 낫습니다.#!" # 1803019970561777089
+  RICE_sardinia_palio_race_preparations_none: "개입 안 함" # 2127542394456112237
+  RICE_sardinia_palio_race_preparations_none_desc: "$EFFECT_LIST_BULLET$귀하의 [house|E]는 [palio_race|E]에 참가할 기수를 고용하는 데 어떤 비용도 지불하지 않습니다.\n$EFFECT_LIST_BULLET$귀하는 [palio_race|E]에서 승리하여 보상을 얻을 기회를 #N 포기하게#! 될 것입니다.\n\n#weak 이러한 스포츠 경기에 참가하는 것은 비용이 많이 듭니다. 우리의 자금은 애초에 이 이벤트를 조직하는 데 더 잘 쓰입니다.#!" # 1803019970561777089
   RICE_sardinia_palio_race_preparations_basic: "기본" # 11884452299886114628
-  RICE_sardinia_palio_race_preparations_basic_desc: "$EFFECT_LIST_BULLET$당신의 [가문|E]은 [팔리오_경주|E]에서 우승할 기본 확률을 가집니다\n$EFFECT_LIST_BULLET$이 확률은 당신의 [가문|E]의 누군가가 #V $RICE_sardinia_invest_in_palio_horses$#! [decision|E]을 내린 경우 향상될 수 있습니다\n\n#weak 우리 기수와 말들은 훈련과 운동, 그리고 말의 요법을 조정하는 등, 행사 준비를 평소대로 해야 합니다!#" # 9268757646602740227
+  RICE_sardinia_palio_race_preparations_basic_desc: "$EFFECT_LIST_BULLET$귀하의 [house|E]는 [palio_race|E]에서 승리할 기본 확률을 갖게 됩니다.\n$EFFECT_LIST_BULLET$[house|E] 내 누군가가 #V $RICE_sardinia_invest_in_palio_horses$# [decision|E]를 내렸다면 이 확률은 개선될 수 있습니다!\n\n#weak 우리 기수와 말들은 말들을 위한 훈련 및 운동이나 식단 조절과 같은 경기를 위한 평소대로의 준비를 해야 합니다.#!" # 9268757646602740227
   RICE_sardinia_palio_race_preparations_extensive: "광범위한" # 18052776340121252692
-  RICE_sardinia_palio_race_preparations_extensive_desc: "$EFFECT_LIST_BULLET$당신의 [가문|E]가 [팔리오 경주|E]에서 승리할 가능성이 #P 더 높아집니다#!\n$EFFECT_LIST_BULLET$당신의 [가문|E]의 구성원이 [decision|E]을 내려 #V $RICE_sardinia_invest_in_palio_horses$#! 경우 이 가능성은 더욱 높아집니다!\n\n#weak 이 경주에서 승리하기 위해서는 기수와 말이 승리할 수 있도록 평소보다 더욱 노력해야 합니다.#!" # 8977342417635606190
+  RICE_sardinia_palio_race_preparations_extensive_desc: "$EFFECT_LIST_BULLET$귀하의 [house|E]은 [palio_race|E]에서 승리할 #P 더 높은#! 확률을 가집니다\n$EFFECT_LIST_BULLET$귀하의 [house|E] 내 누군가가 #V $RICE_sardinia_invest_in_palio_horses$# [decision|E]을 내렸다면 이 확률은 향상될 수 있습니다!\n\n#weak 우리가 이 이벤트를 우승하려면, 기수와 말이 승리할 수 있도록 평소 이상으로 최선을 다해야 합니다.#!" # 8977342417635606190
   RICE_sardinia_palio_race_palio_phase: "팔리오" # 16720833653265931553
-  RICE_sardinia_palio_race_palio_phase_desc: "모두가 볼 수 있는 흥미진진한 경마!" # 12841475424214204545
+  RICE_sardinia_palio_race_palio_phase_desc: "만인이 볼 수 있는 흥미진진한 경마 시합!" # 12841475424214204545
   RICE_sardinia_palio_race_fun_intent_header: "재미:" # 14619476848063890036
-  RICE_sardinia_palio_race_fun_intent: "재미" # 488089071180702662
-  RICE_sardinia_palio_race_fun_intent_desc: "흥겨움과 설렘이 가득한 분위기에 빠져 보세요. 추가적인 [stress|E] [stress_loss_i|E]를 잃습니다." # 7434066993497055131
-  RICE_sardinia_palio_race_networking_intent_header: "네트워킹:" # 3779486998227847164
-  RICE_sardinia_palio_race_networking_intent: "네트워킹" # 391479207845626790
-  RICE_sardinia_palio_race_networking_intent_desc: "이 기회를 통해 다른 사람들을 만나십시오. 추가 [prestige_i|E] #V 100#! [prestige|E]을 얻습니다." # 11364706597888227087
-  RICE_sardinia_palio_race_veneration_intent_header: "숭배:" # 11483976911669431841
+  RICE_sardinia_palio_race_fun_intent: "재미:" # 488089071180702662
+  RICE_sardinia_palio_race_fun_intent_desc: "환희와 흥분의 분위기에 푹 빠져보세요. 추가 [stress_loss_i|E]만큼 [stress|E]가 감소합니다." # 7434066993497055131
+  RICE_sardinia_palio_race_networking_intent_header: "인맥:" # 3779486998227847164
+  RICE_sardinia_palio_race_networking_intent: "인맥:" # 391479207845626790
+  RICE_sardinia_palio_race_networking_intent_desc: "다른 사람들을 만날 기회로 삼으십시오. 추가로 [prestige_i|E] #V 100#! [prestige|E]를 획득합니다." # 11364706597888227087
+  RICE_sardinia_palio_race_veneration_intent_header: "숭배" # 11483976911669431841
   RICE_sardinia_palio_race_veneration_intent: "숭배" # 14388067154218009764
-  RICE_sardinia_palio_race_veneration_intent_desc: "이 행사가 헌정된 성인을 기리십시오. 추가로 [piety_i|E] #V 100#! [piety|E]를 얻습니다." # 14946886324911661722
-  RICE_sardinia_palio_race_pomp_intent_header: "화려함:" # 10123861866095286467
-  RICE_sardinia_palio_race_pomp_intent: "허영" # 15686632620650761771
-  RICE_sardinia_palio_race_pomp_intent_desc: "모든 사람에게 깊은 인상을 남길 웅장한 [palio|E]를 개최하십시오. 추가 [dynasty_prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('minor_dynasty_prestige_value')]#! [dynasty_prestige|E]를 얻습니다." # 18434077796706500417
-  RICE_sardinia_palio_race_completed_log_title: "$activity_RICE_sardinia_palio_race$ 종료됨" # 17778124950693084659
-  RICE_sardinia_palio_race_completed_log: "[CHARACTER.GetShortUIName|U]이 [PROVINCE.GetBaronyNameExplicitly]의 팔리오와 그 축제에 참석하는 것을 마쳤습니다." # 9049693446178188537
-  TRAVEL_NAME_FOR_activity_RICE_sardinia_palio_race: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_sardinia_palio_race$" # 17241410762745368464
-  RICE_sardinia_palio_race_banner_amount: "팔리오 깃발 비용" # 6983975073322120786
-  RICE_sardinia_palio_race_charity_amount: "팔리오 경기 중 자선 기부" # 3295774378720717469
+  RICE_sardinia_palio_race_veneration_intent_desc: "이 행사가 헌정된 성스러운 분을 기립니다. 추가로 [piety_i|E] #V 100#! [신앙심|E]을 얻습니다." # 14946886324911661722
+  RICE_sardinia_palio_race_pomp_intent_header: "위엄:" # 10123861866095286467
+  RICE_sardinia_palio_race_pomp_intent: "위엄:" # 15686632620650761771
+  RICE_sardinia_palio_race_pomp_intent_desc: "모두를 감탄시킬 성대한 [팔리오|E]를 개최한다.\n추가 [dynasty_prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('minor_dynasty_prestige_value')]#! [dynasty_prestige|E]를 획득합니다." # 18434077796706500417
+  RICE_sardinia_palio_race_completed_log_title: "$activity_RICE_sardinia_palio_race$ 종료" # 17778124950693084659
+  RICE_sardinia_palio_race_completed_log: "[CHARACTER.GetShortUIName|U]는 [PROVINCE.GetBaronyNameExplicitly]의 [palio|E]와 그와 관련된 축제들에 참석을 마쳤습니다." # 9049693446178188537
+  TRAVEL_NAME_FOR_activity_RICE_sardinia_palio_race: "[Character.GetFirstNamePossessiveNoTooltip]의 $activity_RICE_sardinia_palio_race$" # 17241410762745368464
+  RICE_sardinia_palio_race_banner_amount: "팔리오 기치 비용" # 6983975073322120786
+  RICE_sardinia_palio_race_charity_amount: "팔리오 중 자선 기부" # 3295774378720717469
   RICE_sardinia_palio_prepare_race_basic_log_title: "기본 준비" # 1512288669034176133
-  RICE_sardinia_palio_prepare_race_basic_log: "[house|E] [CHARACTER.GetHouse.GetBaseName]은 [CHARACTER.GetShortUIName|U]의 지시에 따라 [palio|E]에 참가할 예정이며, 경주를 위해 #bold 기본#! 준비를 마친 것으로 알려져 있습니다." # 13348249701243069160
-  RICE_sardinia_palio_prepare_race_extensive_log_title: "대대적인 준비" # 1180004792202083246
-  RICE_sardinia_palio_prepare_race_extensive_log: "[house|E] [CHARACTER.GetHouse.GetBaseName](은)는 [CHARACTER.GetShortUIName|U]의 지시에 따라 [palio|E]에 참가할 것이며, 경주를 위해 #P #bold 광범위한#!#! 준비를 마쳤다고 합니다." # 15851838897556280927
-  RICE_sardinia_palio_patrician_won_log_title: "승자: 하급 귀족 가문" # 17013053201091166266
+  RICE_sardinia_palio_prepare_race_basic_log: "[house|E] [CHARACTER.GetHouse.GetBaseName] 가문은 [CHARACTER.GetShortUIName|U]의 지시에 따라 [palio|E]에 참가할 것이며, 경주를 위한 #bold 기본#! 준비를 마쳤다고 합니다." # 13348249701243069160
+  RICE_sardinia_palio_prepare_race_extensive_log_title: "광범위한 준비" # 1180004792202083246
+  RICE_sardinia_palio_prepare_race_extensive_log: "[house|E] [CHARACTER.GetHouse.GetBaseName]는 [CHARACTER.GetShortUIName|U]의 지시에 따라 [palio|E]에 참가할 것이며, 경주를 위해 #P #bold extensive#!#! 준비를 마쳤다고 합니다." # 15851838897556280927
+  RICE_sardinia_palio_patrician_won_log_title: "우승자: 소귀족 가문" # 17013053201091166266
   RICE_sardinia_palio_patrician_won_log: "[palio_race|E]에서 우승한 말은 [PROVINCE.GetBaronyNameExplicitly]의 하급 귀족 가문 출신입니다." # 17984022055556634337
-  RICE_sardinia_palio_merchant_won_log_title: "승리자: 상인 가문" # 16153136264087903722
-  RICE_sardinia_palio_merchant_won_log: "[palio_race|E]에서 우승한 말은 [PROVINCE.GetBaronyNameExplicitly] 출신의 상인 가문에서 나왔습니다." # 7965282846565849454
-  RICE_sardinia_palio_ruler_won_log_title: "승자: 가문 [CHARACTER.GetHouse.GetBaseNameNoTooltip]" # 6302159421062444974
-  RICE_sardinia_palio_ruler_won_log: "[palio_race|E]에서 우승한 말은 [CHARACTER.GetHouse.GetBaseName] 가문의 소유입니다." # 6097780162150291283
+  RICE_sardinia_palio_merchant_won_log_title: "승자: 상인 가문" # 16153136264087903722
+  RICE_sardinia_palio_merchant_won_log: "[palio_race|E]에서 승리한 말은 [PROVINCE.GetBaronyNameExplicitly]의 상인 가문 출신입니다." # 7965282846565849454
+  RICE_sardinia_palio_ruler_won_log_title: "승자: [CHARACTER.GetHouse.GetBaseNameNoTooltip] 가문" # 6302159421062444974
+  RICE_sardinia_palio_ruler_won_log: "[palio_race|E]에서 우승한 말은 [house|E] [CHARACTER.GetHouse.GetBaseName]의 것이었습니다." # 6097780162150291283
   RICE_sardinia_palio_mercato_log_title: "메르카토에서 쇼핑하기" # 14152827556961819873
-  RICE_sardinia_palio_mercato_log: "[CHARACTER.GetShortUIName|U](이)가 [palio|E]가 끝난 후 #italic 메르카토#!에서 쇼핑을 했습니다." # 9465904525979882254
-  RICE_sardinia_palio_race_religious_province_desc: "#P ++ 이 [county|E]에는 유명한 종교 [palio_race|E] 전통이 있습니다.!#\n\n#italic #V 종교#! [palio|E]가 개최된다면 다른 잠재적 위치에 비해 더 많은 보너스를 얻게 될 것입니다.!#" # 16074890738024998891
-  RICE_sardinia_palio_race_civic_province_desc: "#P ++ 이 [county|E]에는 유명한 시민 [palio_race|E] 전통이 있습니다.#!\n\n#italic 만약 #V 시민#! [palio|E]가 개최된다면 다른 잠재적 위치와 비교했을 때 더 많은 보너스를 얻게 됩니다.#!" # 18437550526871883062
-  RICE_sardinia_palio_race_dynastic_province_desc: "#P ++ 이 [county|E]에는 유명한 왕조 [palio_race|E] 전통이 있습니다.#!\n\n#italic 이로 인해 #V 왕조#! [palio|E]가 개최될 경우 다른 잠재적 위치보다 더 많은 보너스를 얻을 수 있습니다.#!" # 6906393678872403847
+  RICE_sardinia_palio_mercato_log: "[palio|E]가 끝난 후, [CHARACTER.GetShortUIName|U]는 #italic 시장#!에서 쇼핑을 했습니다." # 9465904525979882254
+  RICE_sardinia_palio_race_religious_province_desc: "\n#P ++ 이 [county|E]에는 유명한 종교적 [palio_race|E] 전통이 있습니다.#!\n\n#italic 이는 #V 종교적#! [palio|E]가 개최된다면 다른 잠재적인 위치에 비해 추가적인 보너스를 얻는 것으로 이어질 것입니다.#!" # 16074890738024998891
+  RICE_sardinia_palio_race_civic_province_desc: "\n#P ++ 이 [county|E]에는 유명한 시빅 [palio_race|E] 전통이 있습니다.#!\n\n#italic #V 시민#! [palio|E]가 개최될 경우 다른 잠재적인 장소에 비해 더 많은 보너스를 얻게 됩니다. #!" # 18437550526871883062
+  RICE_sardinia_palio_race_dynastic_province_desc: "\n#P ++ 이 [county|E]에는 유명한 가문의 [palio_race|E] 전통이 있습니다.#!\n\n#italic 이것은 #V 가문의#! [palio|E]가 개최될 경우, 다른 잠재적 위치보다 더 많은 보너스를 얻게 됨을 의미합니다.#!" # 6906393678872403847
   RICE_sardinia_palio_race_religious_modifier: "종교적 팔리오 전통" # 9248544722592328804
-  RICE_sardinia_palio_race_religious_modifier_desc: "이 지역은 지역 성인이나 성스러운 인물을 기리는 유명한 팔리오 축제의 고향입니다. 이 팔리오 전통은 가까운 곳과 먼 곳에서 관중을 불러 모으고, 특히 지역의 영적 명성에 있어서 명성을 높입니다.\n\n#EMP 이 지역의 [county|E]에서 [GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName]이 열리면, #P +50%#!의 기본 [prestige_i|E][prestige|E]와 [piety_i|E][piety|E] 보상을 #bold 종교적#! [activity_option|E] 옵션이 선택된 경우 [host|E]와 참석자들이 받게 됩니다.#!" # 8526946717513968009
+  RICE_sardinia_palio_race_religious_modifier_desc: "이 지역은 지역 성인 또는 성스러운 이를 기리는 유명한 팔리오가 자리 잡고 있습니다. 이 팔리오 전통은 원근 각지에서 관람객을 끌어 모으며, 지역의 명성을 높이는데, 특히 정신적 명성에 관해서는 더욱 그러합니다.\n\n#EMP [GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName]가 이 [county|E]에서 열릴 때, [host|E]와 참석자들은 #P +50%#!의 기본 [prestige_i|E][prestige|E] 및 [piety_i|E][piety|E] 보상을 얻게 됩니다. #bold 종교적#! [activity_option|E]을 선택한 경우 말입니다.#!" # 8526946717513968009
   RICE_sardinia_palio_race_civic_modifier: "시민 팔리오 전통" # 9849448314296811430
-  RICE_sardinia_palio_race_civic_modifier_desc: "이 지역은 지역 사회의 유대감을 기념하는 유명한 팔리오의 본고장입니다. 이 팔리오 전통은 가까운 곳과 먼 곳에서 관람객을 끌어들이고, 이 지역의 명성을 높이며, 사회적 기회와 참가자들의 시민적 자부심으로 알려져 있습니다.\n\n#EMP 이 [county|E]에서 [GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName]이 개최될 때, [host|E]와 참석자는 #bold 시민#! [activity_option|E]이 선택된 경우 기본 [prestige_i|E][prestige|E] 및 [piety_i|E][piety|E] 보상에 #P +50%#!를 받습니다." # 591681275673489456
-  RICE_sardinia_palio_race_dynastic_modifier: "왕가의 팔리오 전통" # 10560841996489434571
-  RICE_sardinia_palio_race_dynastic_modifier_desc: "이 지역은 과거 통치자들의 전설과 위엄을 기리는 유명한 팔리오의 본고장입니다. 이 팔리오 전통은 가까운 곳과 먼 곳에서 관람객을 끌어모아 해당 지역의 명성과 역사 및 신화에 대한 지식을 높입니다.\n\n#EMP 이 [county|E]에서 [GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName]가 개최되면, #bold 왕조#! [activity_option|E]가 선택된 경우 [host|E]와 참석자는 기본 [prestige_i|E][prestige|E] 및 [piety_i|E][piety|E] 보상에 #P +50%#!를 받습니다." # 5793297620239470254
-  RICE_sardinia_north_african_settlement_modifier: "사르다니야" # 2948519882197443003
-  RICE_sardinia_north_african_settlement_modifier_desc: "북아프리카의 이 지역에는 사르데냐에서 온 기독교 이주민들이 자신들의 고향 이름을 따서 사르다니야라고 부르는 마을이 있습니다. 이곳은 과일로 유명하며, 문화적 또는 종교적 차이에도 불구하고 지역 부족들과 강력한 동맹을 맺고 있습니다.\n\n#EMP 사르데냐 기독교 [courtiers|E]는 이 [county|E]를 소유하거나 그 근처에 있는 [rulers|E]의 [court|E]에서 소규모로 생성될 수 있는 기회를 가집니다.#!" # 7170011154962680230
-  RICE_is_ali_ibn_mujahid: "무자히드의 아들" # 7980549684824103300
-  RICE_is_ali_ibn_mujahid_desc: "알리의 아버지 무자히드는 서기 1015년에 사르데냐 섬을 침략했습니다. 그는 피사와 제노바 공화국에 패배했고, 어린 알리는 포로로 잡혀 신성 로마 황제의 궁정으로 보내져 기독교인으로 자랐습니다. 박식하고 올바른 알리는 이슬람으로 개종했지만 여전히 기독교인들에게 동정심을 가지고 있습니다.\n\n[d_sardinia]의 작위 및 그 [counties|E]에 대한 [unpressed_claim|E]으로 시작합니다." # 5055239909047271955
-  RICE_sardinia_malaria_modifier: "사르데냐 말라리아 발생" # 2888615532375925994
-  RICE_sardinia_malaria_modifier_desc: "고대부터 사르데냐는 말라리아의 온상으로 악명이 높았습니다. 현재 이 지역은 이러한 질병의 발발로 고통받고 있습니다." # 8730515900400974710
+  RICE_sardinia_palio_race_civic_modifier_desc: "이 지역은 공동체의 유대를 기념하는 유명한 팔리오의 본고장입니다. 이 팔리오 전통은 근처와 먼 곳에서 관중들을 끌어모으며, 지역의 명성을 높이고, 참여자들의 사회적 기회와 시민 자부심으로 알려져 있습니다.\n\n#EMP 이 [county|E]에서 [GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName]가 열릴 때, #bold 시민#! [activity_option|E]가 선택되면 [host|E]와 참석자들은 기본 [prestige_i|E][prestige|E] 및 [piety_i|E][piety|E] 보상에 #P +50%#!를 받게 됩니다.#!" # 591681275673489456
+  RICE_sardinia_palio_race_dynastic_modifier: "왕조 팔리오 전통" # 10560841996489434571
+  RICE_sardinia_palio_race_dynastic_modifier_desc: "이 지역에는 과거 지배자들의 전설과 위신을 기리는 유명한 팔리오가 있습니다. 이 팔리오 전통은 먼 곳과 가까운 곳 모두에서 관람객을 끌어들이고, 지역의 명성 및 역사와 신화에 대한 지식을 높입니다.\n\n#EMP 이 [county|E]에서 [GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName]가 열릴 때, #bold 왕조#! [activity_option|E]이 선택되면 [host|E]와 참석자는 기본 [prestige_i|E][prestige|E] 및 [piety_i|E][piety|E] 보상에 #P +50%#!를 받습니다.##!" # 5793297620239470254
+  RICE_sardinia_north_african_settlement_modifier: "사르데냐" # 2948519882197443003
+  RICE_sardinia_north_african_settlement_modifier_desc: "북아프리카의 이 지역에는 사르데냐 기독교 이주민들이 자신들의 고향의 이름을 따 사르다니아라고 이름 붙인 마을이 있습니다. 이 마을은 과일로 유명하며, 어떠한 문화적 또는 종교적 차이에도 불구하고 지역 부족들과 강력한 동맹을 맺고 있습니다.\n\n#EMP 이 [county|E]를 소유하거나 그 근처에 있는 [rulers|E]의 [court|E]에 사르데냐 기독교 [courtiers|E]가 출현할 확률이 적습니다.#!" # 7170011154962680230
+  RICE_is_ali_ibn_mujahid: "무야히드의 아들" # 7980549684824103300
+  RICE_is_ali_ibn_mujahid_desc: "알리의 아버지 무자히드는 서기 1015년에 사르데냐 섬을 침공했습니다. 그는 피사와 제노아 공화국에게 패배했으며, 그들은 어린 알리를 사로잡아 신성 로마 황제의 궁정으로 데려갔고 그곳에서 그는 기독교인으로 길러졌습니다. 학식 있고 올곧은 알리는 다시 이슬람으로 개종했지만, 여전히 기독교인들에게 동정심을 가지고 있습니다.\n\n[GetTitleByKey('d_sardinia').GetNameNoTier]와 그 [counties|E]에 대한 [unpressed_claim|E]를 소유한 채로 시작합니다." # 5055239909047271955
+  RICE_sardinia_malaria_modifier: "사르데냐 말라리아 창궐" # 2888615532375925994
+  RICE_sardinia_malaria_modifier_desc: "고대부터 사르데냐는 말라리아의 온상으로 악명 높았습니다. 현재, 이 지역은 이 질병의 창궐로 고통받고 있습니다." # 8730515900400974710
   RICE_sardinia_latin_monks: "사르데냐의 라틴 수도승" # 9625018597707433481
-  RICE_sardinia_opinion_pope_catholic_decision: "사르데냐의 가톨릭 교회 지원" # 3979117735860078172
-  RICE_sardinia_byzantine_administration: "사르데냐에서 부활한 비잔티움 행정" # 8022371718723125208
-  RICE_sardinia_opinion_roman_emperor_decision: "사르데냐 행정 재활성화" # 12366180234973605371
+  RICE_sardinia_opinion_pope_catholic_decision: "사르데냐에서 가톨릭 교회를 지원했다" # 3979117735860078172
+  RICE_sardinia_byzantine_administration: "사르디니아의 재건된 비잔티움 행정" # 8022371718723125208
+  RICE_sardinia_opinion_roman_emperor_decision: "사르데냐 행정의 부흥" # 12366180234973605371
   RICE_sardinia_north_african_networks: "사르데냐에서 북아프리카 네트워크 확장" # 7498802734405793383
   RICE_sardinia_north_african_option_piracy: "사르데냐 해적 활동 증가" # 14441528173916170668
-  RICE_sardinia_north_african_option_piracy_desc: "사르데냐는 북아프리카와 서유럽을 연결하는 교통 요충지 역할을 하면서 경제적 중요성이 커지고 있지만, 이는 지중해 양쪽에서 해적들의 주목을 끌고 있습니다. 이 지역에는 작은 해적 은신처와 기지들이 흩어져 있어, 주민들과 지나가는 상선들을 노리고 있습니다." # 2596072993462234879
+  RICE_sardinia_north_african_option_piracy_desc: "사르데냐는 북아프리카와 서유럽을 연결하며 경제적 중요성이 커지고 있지만, 이는 지중해 양안 해적들의 이목을 끌고 있습니다. 소규모 해적 은신처와 기지가 이 지역에 산재해 있으며, 지역 주민들과 지나가는 무역선들을 약탈하고 있습니다." # 2596072993462234879
   RICE_sardinia_none_fortifications: "사르데냐 요새" # 17426153420885240814
-  RICE_sardinia_north_african_decision_opinion_lesser: "사르데냐-북아프리카 소규모 연계" # 7692948471535521175
-  RICE_sardinia_north_african_decision_opinion_greater: "주요 사르데냐-북아프리카 연계" # 10698918801884984486
-  RICE_sardinia_cagliari_salt_modifier: "칼리아리의 염전" # 6177920799084138408
-  RICE_sardinia_cagliari_salt_modifier_desc: "사르데냐의 도시 칼리아리 근처에는 여러 염전이 있습니다. 이곳은 로마 시대부터 개발되어 왔으며, 이를 통제할 수 있는 사람에게 큰 이익을 가져다줍니다." # 7611648087687132700
-  RICE_sardinia_condaghe_modifier: "가문의 콘다게 기록 재정비" # 4638762129517140637
+  RICE_sardinia_north_african_decision_opinion_lesser: "경미한 사르데냐-북아프리카 관계" # 7692948471535521175
+  RICE_sardinia_north_african_decision_opinion_greater: "주요 사르데냐-북아프리카 관계" # 10698918801884984486
+  RICE_sardinia_cagliari_salt_modifier: "칼리아리 염전" # 6177920799084138408
+  RICE_sardinia_cagliari_salt_modifier_desc: "사르데냐의 도시 칼리아리 근처에는 여러 개의 염전이 위치해 있다. 이곳은 로마 시대부터 개발되어 왔으며, 그곳을 운 좋게 지배하는 자에게 상당한 이윤을 남긴다." # 7611648087687132700
+  RICE_sardinia_condaghe_modifier: "재정비된 가문의 콘다게 기록" # 4638762129517140637
   RICE_sardinia_palio_horse_investment_small_modifier: "팔리오 경주마에 대한 소규모 투자" # 17828152412297738311
-  RICE_sardinia_palio_horse_investment_small_modifier_desc: "#황제#는 [palio_races|E]에서 승리할 가능성을 조금 높입니다!" # 5177866749287861189
-  RICE_sardinia_palio_horse_investment_medium_modifier: "팔리오 경주마에 대한 주요 투자" # 15387631883276204244
-  RICE_sardinia_palio_horse_investment_medium_modifier_desc: "#EMP는 [palio_races|E]에서 승리할 확률을 조금 높입니다#!" # 8823651695325685257
-  RICE_sardinia_palio_horse_investment_large_modifier: "팔리오 경주마에 대한 막대한 투자" # 14362408892913086924
-  RICE_sardinia_palio_horse_investment_large_modifier_desc: "#EMP는 [palio_races|E] 승리 확률을 적당히 높입니다#!" # 8030276025375255670
-  RICE_sardinia_palio_victory_minor: "팔리오 배너" # 10249000662630325303
-  RICE_sardinia_palio_victory_minor_desc: "이 [house|E]는 최근 지역 [palio_race|E]에서 승리했습니다. 그들의 말 승리에 대한 보상으로, 그들은 표준 [palio|E] 깃발을 받았습니다." # 6176682013622555272
-  RICE_sardinia_palio_victory_major: "위대한 팔리오 깃발" # 10605795111346588223
-  RICE_sardinia_palio_victory_major_desc: "이 [house|E]는 최근 유명한 [palio_race|E]에서 승리했습니다. 말의 승리에 대한 보상으로 그들은 매우 세련되고 멋진 [palio|E] 깃발을 받았습니다." # 11334056858935420163
-  RICE_sardinia_palio_victory_great: "장대한 팔리오 깃발" # 12200506344086680026
-  RICE_sardinia_palio_victory_great_desc: "이 [house|E] 가문은 최근 유명한 [palio_race|E]에서 우승했습니다. 그들의 말이 승리한 것에 대한 보상으로, 그들은 비길 데 없이 아름다운 [palio|E] 깃발을 받았습니다." # 15499074257358250254
-  RICE_sardinia_mercato_trinkets: "메르카토의 장신구" # 7302961617233556111
-  RICE_sardinia_mercato_trinkets_desc: "이 인물은 최근 [palio_race|E] 이후 지역 길드에서 주최한 #italic 메르카토#!, 즉 공공 시장에서 보석과 휘장 같은 여러 사치품을 구매했습니다." # 5293929972940096077
+  RICE_sardinia_palio_horse_investment_small_modifier_desc: "#EMP [palio_races|E] 승리 확률을 미미하게 증가시킵니다!#" # 5177866749287861189
+  RICE_sardinia_palio_horse_investment_medium_modifier: "팔리오 경주마에 대규모 투자" # 15387631883276204244
+  RICE_sardinia_palio_horse_investment_medium_modifier_desc: "#EMP [팔리오 경주|E] 승리 확률을 소량 증가시킵니다!#" # 8823651695325685257
+  RICE_sardinia_palio_horse_investment_large_modifier: "막대한 팔리오 경주마 투자" # 14362408892913086924
+  RICE_sardinia_palio_horse_investment_large_modifier_desc: "#EMP [palio_races|E] 승리 확률을 적당히 높입니다#!" # 8030276025375255670
+  RICE_sardinia_palio_victory_minor: "팔리오 기" # 10249000662630325303
+  RICE_sardinia_palio_victory_minor_desc: "이 [house|E]는 최근 지역 [palio_race|E]에서 승리했습니다. 말의 승리에 대한 보상으로, 그들은 표준 [palio|E] 깃발을 획득했습니다." # 6176682013622555272
+  RICE_sardinia_palio_victory_major: "대 팔리오 기" # 10605795111346588223
+  RICE_sardinia_palio_victory_major_desc: "이 [house|E]는 최근 유명한 [palio_race|E]에서 우승했습니다. 말의 승리에 대한 보상으로, 그들은 매우 세련되고 아름다운 [palio|E] 깃발을 획득했습니다." # 11334056858935420163
+  RICE_sardinia_palio_victory_great: "웅장한 팔리오 깃발" # 12200506344086680026
+  RICE_sardinia_palio_victory_great_desc: "이 [가문|E]은 최근 유명한 [팔리오 경주|E]에서 우승했습니다. 말의 승리에 대한 보상으로, 비할 바 없이 아름다운 [팔리오|E] 깃발을 얻었습니다." # 15499074257358250254
+  RICE_sardinia_mercato_trinkets: "메르카토에서 온 잡동사니" # 7302961617233556111
+  RICE_sardinia_mercato_trinkets_desc: "이 인물은 [palio_race|E] 이후 지역 길드가 주최한 #italic 메르카토#!, 즉 공개 시장에서 보석과 직물 같은 다수의 사치품을 최근 구매했습니다." # 5293929972940096077
   RICE_sardinia_palio_modifier_gold_small: "소규모 팔리오" # 5139377691247855684
-  RICE_sardinia_palio_modifier_gold_small_desc: "최근 이곳에서 스릴 넘치는 지역 팔리오 경주가 열렸습니다. 격렬한 말 경주와 우승 가문에 수여된 화려한 팔리오 깃발, 그 외의 모든 재미있는 행사들은 기억에 남을 만한 행사였고, 지역 주민들에게 영감을 주었습니다." # 4153912883437483614
+  RICE_sardinia_palio_modifier_gold_small_desc: "최근 이곳에서 스릴 넘치는 지역 팔리오 경주가 열렸습니다. 경주에 참여한 말들의 치열한 경쟁과, 우승 가문에게 수여된 팔리오 깃발의 화려함은 다른 즐거운 행사들과 더불어 기억에 남을 만한 행사로 만들었으며, 이는 지역 주민들에게 영감을 주었습니다." # 4153912883437483614
   RICE_sardinia_palio_modifier_development_small: "$RICE_sardinia_palio_modifier_gold_small$" # 6326390928567869726
   RICE_sardinia_palio_modifier_development_small_desc: "$RICE_sardinia_palio_modifier_gold_small_desc$" # 9101966515322802487
   RICE_sardinia_palio_modifier_building_small: "$RICE_sardinia_palio_modifier_gold_small$" # 6326390928567869726
   RICE_sardinia_palio_modifier_building_small_desc: "$RICE_sardinia_palio_modifier_gold_small_desc$" # 9101966515322802487
   RICE_sardinia_palio_modifier_gold_medium: "주요 팔리오" # 3523951447199620587
-  RICE_sardinia_palio_modifier_gold_medium_desc: "최근 이곳에서 주목할 만한 팔리오 경기가 열렸습니다. 참가한 말들 간의 치열한 경쟁과 우승 가문에 수여된 화려한 팔리오 깃발, 그리고 다른 모든 재미있는 행사들이 겹쳐 잊지 못할 추억이 되었고, 이는 지역 주민들에게 영감을 주었습니다." # 13148544622486801394
+  RICE_sardinia_palio_modifier_gold_medium_desc: "주목할 만한 팔리오 경주가 최근 이곳에서 개최되었습니다. 참가한 말들의 치열한 경쟁과 우승 가문에 주어진 팔리오 깃발의 화려함은 다른 모든 재미있는 행사들과 더불어 이 행사를 기억에 남을 만한 것으로 만들었으며, 이는 지역 주민들에게 큰 영감을 주었습니다." # 13148544622486801394
   RICE_sardinia_palio_modifier_development_medium: "$RICE_sardinia_palio_modifier_gold_medium$" # 1500394701599428233
   RICE_sardinia_palio_modifier_development_medium_desc: "$RICE_sardinia_palio_modifier_gold_medium_desc$" # 15195658252076966169
   RICE_sardinia_palio_modifier_building_medium: "$RICE_sardinia_palio_modifier_gold_medium$" # 1500394701599428233
   RICE_sardinia_palio_modifier_building_medium_desc: "$RICE_sardinia_palio_modifier_gold_medium_desc$" # 15195658252076966169
-  RICE_sardinia_palio_modifier_gold_large: "위대한 팔리오" # 11799460496178119539
-  RICE_sardinia_palio_modifier_gold_large_desc: "최근 이곳에서 멋진 팔리오가 열렸습니다. 참여한 말들 사이의 치열한 경쟁과 우승 가문에 주어진 팔리오 깃발의 화려함, 그리고 다른 모든 재미있는 행사들은 잊지 못할 행사로 만들었고, 따라서 지역 주민들에게 영감을 주었습니다." # 1395529126763460783
+  RICE_sardinia_palio_modifier_gold_large: "대 팔리오" # 11799460496178119539
+  RICE_sardinia_palio_modifier_gold_large_desc: "이곳에서 최근 성대한 팔리오가 개최되었습니다. 참여한 말들 간의 치열한 경쟁과 우승한 가문에게 수여된 팔리오 깃발의 화려함은, 다른 모든 재미있는 행사들과 더불어 기억에 남을 만한 행사였으며, 따라서 지역 주민들에게 영감을 주었습니다." # 1395529126763460783
   RICE_sardinia_palio_modifier_development_large: "$RICE_sardinia_palio_modifier_gold_large$" # 3730944306482777817
   RICE_sardinia_palio_modifier_development_large_desc: "$RICE_sardinia_palio_modifier_gold_large_desc$" # 443087027707760145
   RICE_sardinia_palio_modifier_building_large: "$RICE_sardinia_palio_modifier_gold_large$" # 3730944306482777817
   RICE_sardinia_palio_modifier_building_large_desc: "$RICE_sardinia_palio_modifier_gold_large_desc$" # 443087027707760145
-  opinion_attended_palio_guest: "팔리오에 초대했습니다." # 6621795984189227733
-  opinion_attended_palio_host: "내 팔리오에 참석함" # 10537585304984018521
+  opinion_attended_palio_guest: "팔리오에 초대받음" # 6621795984189227733
+  opinion_attended_palio_host: "나의 팔리오 참석" # 10537585304984018521
   RICE_sardinia_alghero_modifier: "알게로 공동체" # 8520055880006003697
-  RICE_sardinia_alghero_modifier_desc: "알게로 시는 이베리아 식민지 개척자들의 후손으로 이루어진 대규모 공동체의 본거지이며, 이들은 이베리아어의 방언인 알게로어를 사용합니다. 이 공동체가 이베리아와 맺은 연줄로 인해 이 도시는 무역과 해상 교통의 중요한 중심지가 되었습니다." # 203220916598230491
+  RICE_sardinia_alghero_modifier_desc: "알게로 시에는 이베리아 식민 개척자들의 후손들로 이루어진 대규모 공동체가 거주하며, 이들은 이베리아 언어의 방언인 알게레세어를 사용합니다. 공동체가 이베리아와 유대를 맺고 있기에, 이 도시는 무역 및 해상 교통의 중요한 중심지가 되었습니다." # 203220916598230491
   RICE_sardinia_bad_casu_marzu: "카수 마르주로 인한 소화 문제" # 5688271154084357182
-  RICE_sardinia_seadas: "맛있는 사르데냐 세아다스 먹기" # 13578507933364121032
+  RICE_sardinia_seadas: "맛있는 사르데냐식 세아다스를 먹었다" # 13578507933364121032
   RICE_sardinia_bidemortos_marked: "비데모르토스의 불길한 경고" # 10889399646639348743
-  RICE_sardinia_bidemortos_marked_desc: "#italic bidemortos#!, 사르데냐 민속에서 죽은 자를 볼 수 있는 능력이 있다고 전해지는 사람이, 죽은 자들의 행렬에서 이 인물을 봤다고 합니다. 이는 곧 이 인물이 곧 죽을 것이라는 의미라고 합니다." # 4736497369849562364
-  RICE_sardinia_aradia_bad_dream: "아라디아의 꿈속 벌" # 6577188149899589649
-  RICE_sardinia_aradia_bad_dream_desc: "사르데냐 민속에서 등장하는 인물인 아라디아가 꿈속에서 이 여자를 방문했습니다. 아라디아는 이 여자가 방적과 직조를 게을리했다는 이유로 벌을 내렸습니다." # 2587487151272146470
-  RICE_sardinia_aradia_good_dream: "꿈속에서 아라디아에게 보상받음" # 13949211185154322150
-  RICE_sardinia_aradia_good_dream_desc: "사르데냐 민담에 등장하는 아라디아가 꿈속에서 이 여인을 찾아왔습니다. 아라디아는 그녀의 물레질과 직조 솜씨가 근면하다고 칭찬하며 보상을 내렸습니다." # 2181861046726082792
-  RICE_sardinia_public_prayers_to_saint_saturninus: "성 사투르니누스에게 드리는 공공 기도" # 17793709319253334357
-  RICE_sardinia_transformed_nuraghe: "누라게가 예배당으로 변모함" # 2312477520522271836
-  RICE_sardinia_shepherds_paths: "사르데냐에서 양치기의 길을 탐험했습니다" # 4455796487456235266
-  RICE_sardinia_decide_sardinia_orientation: "사르데냐의 방향 결정" # 3698569249833298198
-  RICE_sardinia_decide_sardinia_orientation_tooltip: "라틴 서방과 그리스 동방은 오랫동안 [GetGeographicalRegion('RICE_sardinia_region').GetName]에서 영향력을 두고 경쟁해 왔으며, 섬은 충성의 방향을 결정해야 합니다." # 5324558157799662932
-  RICE_sardinia_decide_sardinia_orientation_desc: "세대를 거쳐 [GetGeographicalRegion('RICE_sardinia_region').GetName]는 지중해 중심부의 변방으로서 라틴 서방과 그리스 동방 세계 사이에서 어색하게 양분되어 왔습니다. 이제 섬의 #italic judicati#!, 즉 판사들이 어디로 지도와 지원을 구할지 결정할 때가 되었습니다." # 10916936263334123103
-  RICE_sardinia_decide_sardinia_orientation_confirm: "사르데냐의 운명이 기다립니다!" # 3877457622103750148
-  RICE_sardinia_decide_sardinia_orientation_effect_tooltip.catholic.1: "$tradition_RICE_judicati_name$ [전통|E]을 가진 모든 [문화|E]는 이미 #bold $heritage_latin_name$#! [유산|E]이 아니라면 #bold $heritage_latin_name$#! [유산|E]이 됩니다." # 3474762157243187651
-  RICE_sardinia_decide_sardinia_orientation_effect_tooltip.catholic.2: "[GetGeographicalRegion('RICE_sardinia_region').GetName]의 [rulers|E]에게 #bold $RICE_sardinia_catholic_decision$#! 결정이 해제됩니다." # 11870527757732299003
-  RICE_sardinia_decide_sardinia_orientation_effect_tooltip.orthodox.1: "$tradition_RICE_judicati_name$ [전통|E]을 가진 모든 [문화|E]는 이미 [유산|E]이 아닐 경우 #bold $heritage_byzantine_name$#! [유산|E]이 됩니다." # 4149118687047758252
-  RICE_sardinia_decide_sardinia_orientation_effect_tooltip.orthodox.2: "#bold $RICE_sardinia_orthodox_decision$#! [decision|E]은 [GetGeographicalRegion('RICE_sardinia_region').GetName] 지역의 [통치자|E]들에게 해금됩니다" # 4301739619375023945
-  RICE_sardinia_decide_sardinia_orientation_effect_tooltip.north_african.1: "$tradition_RICE_judicati_name$ [전통|E]을 가진 모든 [문화|E]는 아직 #bold $heritage_berber_name$#! [유산|E]이 아니라면 #bold $heritage_berber_name$#! [유산|E]이 됩니다." # 7953119016986094725
-  RICE_sardinia_decide_sardinia_orientation_effect_tooltip.north_african.2: "#bold $RICE_sardinia_north_african_decision$#! 결정은 [GetGeographicalRegion('RICE_sardinia_region').GetName]의 [rulers|E]에게 해제됩니다" # 751455451317579164
-  RICE_sardinia_decide_sardinia_orientation_effect_tooltip.none.1: "$tradition_RICE_judicati_name$ [전통|E]을 가진 모든 [문화|E]는 원할 경우 #bold $heritage_latin_name$#!, #bold $heritage_byzantine_name$#! 또는 #bold $heritage_berber_name$#! [유산|E]으로 변경할 수 있습니다" # 8304467426084289233
-  RICE_sardinia_decide_sardinia_orientation_effect_tooltip.none.2: "#bold $RICE_sardinia_none_decision$#! 결정을 내릴 수 있는 [decision|E]은 [GetGeographicalRegion('RICE_sardinia_region').GetName]의 [rulers|E]에게 해제됩니다." # 13168150846983608057
-  RICE_sardinia_decide_sardinia_orientation_context_tooltip: "#emphasis 역사적 배경:#! 사르데냐는 오늘날 이탈리아의 일부이지만, 고대와 중세 시대에는 지중해 지역의 다양한 지역들과 밀접한 관계를 맺었습니다. 수 세기 동안, 사르데냐는 페니키아, 그리스, 로마, 반달족, 비잔틴 제국, 아랍, 베르베르, 이탈리아, 이베리아 사회 등의 영향을 받았거나 이들과 교류를 이어왔습니다." # 14807551410604931567
+  RICE_sardinia_bidemortos_marked_desc: "사르데냐 민담에 따르면 망자를 볼 수 있는 능력이 있다고 하는 #italic 비데모르토스#!가 망자의 행렬에서 이 인물을 보았다고 합니다. 이는 소문에 따르면 이 인물이 곧 죽을 것이라는 의미입니다." # 4736497369849562364
+  RICE_sardinia_aradia_bad_dream: "꿈속에서 아라디아에게 징벌받다" # 6577188149899589649
+  RICE_sardinia_aradia_bad_dream_desc: "사르데냐 민담 속 인물인 아라디아가 이 여인을 꿈에서 찾아왔습니다. 그녀는 여인이 방적과 직조에 게으름을 피웠다는 이유로 벌을 내렸습니다." # 2587487151272146470
+  RICE_sardinia_aradia_good_dream: "아라디아에게 꿈속에서 보상받음" # 13949211185154322150
+  RICE_sardinia_aradia_good_dream_desc: "사르데냐 민담 속 인물인 아라디아가 꿈에서 이 여인을 찾아왔습니다. 아라디아는 그 여인이 방적과 직조 일에 부지런했다며 보상을 주었습니다." # 2181861046726082792
+  RICE_sardinia_public_prayers_to_saint_saturninus: "성 사투르니누스에게 드리는 공개 기도" # 17793709319253334357
+  RICE_sardinia_transformed_nuraghe: "누라게가 예배소로 변모" # 2312477520522271836
+  RICE_sardinia_shepherds_paths: "사르데냐에서 몇몇 목동의 길을 탐험했다" # 4455796487456235266
+  RICE_sardinia_decide_sardinia_orientation: "사르데냐의 지향 결정" # 3698569249833298198
+  RICE_sardinia_decide_sardinia_orientation_tooltip: "라틴 서방과 그리스 동방은 오랫동안 [GetGeographicalRegion('RICE_sardinia_region').GetName]에서 영향력을 다투어왔습니다. 섬은 자신의 충성심이 어디에 있는지 결정해야 합니다." # 5324558157799662932
+  RICE_sardinia_decide_sardinia_orientation_desc: "수 세대 동안, [GetGeographicalRegion('RICE_sardinia_region').GetName]는 지중해의 중심부에 위치한 변방으로서, 라틴 서방과 그리스 동방의 세계들 사이에서 어색하게 걸쳐져 왔습니다.\n이 섬의 #italic 유지카티#!, 혹은 판관들이 지도와 지원을 위해 어디를 향해 기댈지 결정할 때가 되었습니다." # 10916936263334123103
+  RICE_sardinia_decide_sardinia_orientation_confirm: "운명이 사르데냐를 기다린다!" # 3877457622103750148
+  RICE_sardinia_decide_sardinia_orientation_effect_tooltip.catholic.1: "$tradition_RICE_judicati_name$ [전통|E]을(를) 가진 모든 [cultures|E]은(는) 이미 #bold $heritage_latin_name$#! [heritage|E]이(가) 아닌 경우 #bold $heritage_latin_name$#! [heritage|E]이(가) 됩니다." # 3474762157243187651
+  RICE_sardinia_decide_sardinia_orientation_effect_tooltip.catholic.2: "[GetGeographicalRegion('RICE_sardinia_region').GetName] 지역 내 [rulers|E]들에게 #bold $RICE_sardinia_catholic_decision$#! [decision|E]이/가 해금되었습니다." # 11870527757732299003
+  RICE_sardinia_decide_sardinia_orientation_effect_tooltip.orthodox.1: "모든 [문화|E]는 $tradition_RICE_judicati_name$ [전통|E]을 가지고 있을 경우, 이미 그렇지 않다면 #bold $heritage_byzantine_name$#! [유산|E]을 갖게 됩니다." # 4149118687047758252
+  RICE_sardinia_decide_sardinia_orientation_effect_tooltip.orthodox.2: "[GetGeographicalRegion('RICE_sardinia_region').GetName] 내 [rulers|E]에게 #bold $RICE_sardinia_orthodox_decision$#! 하는 [decision|E]이(가) 해금되었습니다." # 4301739619375023945
+  RICE_sardinia_decide_sardinia_orientation_effect_tooltip.north_african.1: "$tradition_RICE_judicati_name$ [tradition|E]를 가진 모든 [cultures|E]는 이미 갖추고 있지 않다면 #bold $heritage_berber_name$#! [heritage|E]를 갖게 됩니다." # 7953119016986094725
+  RICE_sardinia_decide_sardinia_orientation_effect_tooltip.north_african.2: "[GetGeographicalRegion('RICE_sardinia_region').GetName] 내 [rulers|E]는 #bold $RICE_sardinia_north_african_decision$#! [decision|E]를 사용할 수 있습니다." # 751455451317579164
+  RICE_sardinia_decide_sardinia_orientation_effect_tooltip.none.1: "$tradition_RICE_judicati_name$ [tradition|E]을(를) 보유한 모든 [culture|E]는 원한다면 #bold $heritage_latin_name$#!, #bold $heritage_byzantine_name$#!, 또는 #bold $heritage_berber_name$#! [heritage|E]으로 변경할 수 있습니다." # 8304467426084289233
+  RICE_sardinia_decide_sardinia_orientation_effect_tooltip.none.2: "#bold $RICE_sardinia_none_decision$#! [decision|E]이(가) [GetGeographicalRegion('RICE_sardinia_region').GetName]의 [rulers|E]에게 잠금 해제되었습니다." # 13168150846983608057
+  RICE_sardinia_decide_sardinia_orientation_context_tooltip: "#emphasis 역사적 배경:#! 사르데냐는 오늘날 이탈리아의 일부지만, 고대 및 중세 시대에는 지중해의 다른 많은 지역과 연결되어 있었습니다. 수세기에 걸쳐 푸닉, 그리스, 로마, 반달, 비잔티움, 아랍 및 베르베르, 이탈리아, 이베리아 사회와 영향을 받거나 교류했습니다." # 14807551410604931567
   CHOOSE_SARDINIA_ORIENTATION: "$RICE_sardinia_decide_sardinia_orientation_confirm$" # 8404837115645382923
-  choose_catholic_name: "라틴 서부" # 4672721056010750717
+  choose_catholic_name: "서방 라틴" # 4672721056010750717
   choose_catholic_desc: "$choose_catholic_name$" # 4119761476691706136
-  choose_catholic_tooltip: "[GetTitleByKey('b_roma').GetNameNoTier]는 [GetTitleByKey('b_constantinople').GetNameNoTier]보다 [GetGeographicalRegion('RICE_sardinia_region').GetName]에 더 가까이 있으며, [GetTitleByKey('b_constantinople').GetNameNoTier]는 오랫동안 이 섬을 소홀히 했습니다. [GetFaithByKey('catholic').GetAdjective] 교회의 영향력을 이 섬에 전파하려는 노력을 지원함으로써, 라틴 서방과의 유대를 강화하고 미래를 위한 새로운 희망을 찾을 수 있습니다." # 5097093548199443829
-  choose_orthodox_name: "그리스 동부" # 454220764242755629
+  choose_catholic_tooltip: "[GetTitleByKey('b_roma').GetNameNoTier]는 너무 오랫동안 섬을 방치해 온 [GetTitleByKey('b_constantinople').GetNameNoTier]보다 [GetGeographicalRegion('RICE_sardinia_region').GetName]에 더 가깝습니다. [GetFaithByKey('catholic').GetAdjective] 교회가 섬에 영향력을 전파하려는 노력을 지원함으로써, 우리는 라틴 서방과의 관계를 개선하고 미래를 위한 새로운 희망을 찾을 수 있습니다." # 5097093548199443829
+  choose_orthodox_name: "동방 그리스" # 454220764242755629
   choose_orthodox_desc: "$choose_orthodox_name$" # 14771063128996845223
-  choose_orthodox_tooltip: "[GetReligionByKey('islam_religion').GetName]에게 북아프리카를 잃은 후, [GetGeographicalRegion('RICE_sardinia_region').GetName]는 섬과 [GetTitleByKey('b_constantinople').GetNameNoTier] 사이의 물리적 거리에도 불구하고 [GetTitleByKey('e_byzantium').GetNameNoTier]의 중요한 전초 기지가 되었습니다. 섬이 번영하려면 그리스 동부와의 관계를 강화해야 합니다." # 9572655251971298458
+  choose_orthodox_tooltip: "북아프리카가 [GetReligionByKey('islam_religion').GetName]에게 상실된 후, [GetGeographicalRegion('RICE_sardinia_region').GetName]는 섬과 [GetTitleByKey('b_constantinople').GetNameNoTier] 사이의 물리적인 거리에도 불구하고 [GetTitleByKey('e_byzantium').GetNameNoTier]의 중요한 전초 기지가 되었습니다. 섬이 번영하려면 그리스 동방과의 관계를 강화해야 합니다." # 9572655251971298458
   choose_north_african_name: "북아프리카" # 12155084977253678609
   choose_north_african_desc: "$choose_north_african_name$" # 18107342203822178192
-  choose_north_african_tooltip: "[GetGeographicalRegion('world_africa_north').GetName]에서 습격을 받았지만, [GetTitleByKey('b_roma').GetNameNoTier]와 [GetTitleByKey('b_constantinople').GetNameNoTier]의 위선적이고 자만심에 가득 찬 지도자들이 우리와 다르다고 할 수 있을까? 우리는 오랫동안 아프리카와 경제적, 문화적, 정치적 관계를 공유해 왔으며, 오히려 그 관계를 발전시켜야 한다." # 2812260855743431255
+  choose_north_african_tooltip: "비록 [GetGeographicalRegion('world_africa_north').GetName]으로부터 약탈의 대상이 되었지만, [GetTitleByKey('b_roma').GetNameNoTier]와 [GetTitleByKey('b_constantinople').GetNameNoTier]에 있는 두 얼굴의 오만한 지도자들이라고 다를 바 있겠는가? 우리는 수년 동안 아프리카와 경제적, 문화적, 정치적 유대를 공유해왔으니, 그 대신 그 관계를 발전시켜야 한다." # 2812260855743431255
+  choose_none_name: "없음" # 4387124778405518223
   choose_none_desc: "$choose_none_name$" # 17249287554555283166
-  choose_none_tooltip: "[GetTitleByKey('e_byzantium').GetNameNoTier]은(는) 그들의 본거지로 후퇴하면서 [GetGeographicalRegion('RICE_sardinia_region').GetName]을 사실상 늑대들에게 던져버렸습니다. 그러나 우리는 [GetTitleByKey('k_papal_state').GetDefinitiveName]과 그들의 탐욕스러운 하수인들의 의도나 [GetGeographicalRegion('world_africa_north').GetName]의 굶주린 군벌들을 신뢰할 수 없습니다. 우리는 섬이 영적으로나 정치적으로 새로운 길을 개척할 수 있도록 재정비해야 합니다." # 17276623447157710299
-  RICE_sardinia_inaugurate_major_palio: "주요 팔리오 개막" # 15009241758298278444
-  RICE_sardinia_inaugurate_major_palio_tooltip: "우리 땅에 웅장한 전통을 세웁시다!" # 14565487806733515810
-  RICE_sardinia_inaugurate_major_palio_desc: "[GetPlayer.GetCulture.GetName]의 도시에서는 [palio_races|E]를 개최하는 전통이 인기를 얻고 있습니다. [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetName]은 매년 이 지역의 [palios|E]의 모범으로 여겨질 만큼 웅장하고 장엄하며 스릴 넘치는 [palio|E]가 열려야 합니다." # 5284912794740212545
-  RICE_sardinia_inaugurate_major_palio_confirm: "네, 시작해 봅시다!" # 331371430259311057
-  RICE_sardinia_inaugurate_major_palio_effect_tooltip_1: "[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] [activities|E]가 [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]에서 개최되는 경우, 주최자와 참석자는 #P +50%#!의 기본 [prestige_i|E][prestige|E]와 [piety_i|E][piety|E] 보상을 받습니다. #V 종교적#! [activity_option|E] 옵션을 선택하면 보상이 지급됩니다." # 3033106804389108965
-  RICE_sardinia_inaugurate_major_palio_effect_tooltip_2: "향후 [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]에서 열리는 [GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] [activities|E]에서, [host|E]와 참석자는 #V 시민#! [activity_option|E]을 선택하면 기본 [prestige_i|E][prestige|E]와 [piety_i|E][piety|E] 보상에 #P +50%#!를 받습니다." # 2940464828691455058
-  RICE_sardinia_inaugurate_major_palio_effect_tooltip_3: "[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] [activities|E]이 [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]에서 열릴 때, [host|E]와 참석자들은 #V 왕조#! [activity_option|E]이 선택되면 기본 [prestige_i|E][prestige|E]와 [piety_i|E][piety|E] 보상에 #P +50%#!를 받습니다." # 10466169751876312666
-  RICE_sardinia_inaugurate_major_palio_effect_tooltip_4: "@warning_icon! #X [공작령|E] 당 하나의 주요 팔리오만 존재할 수 있습니다!#" # 14530148531717568140
-  RICE_sardinia_inaugurate_major_palio_context_tooltip: "#bold 역사적 배경:#! $activity_RICE_사르데냐_팔리오_경주_context_tooltip$" # 9258218915073314922
-  CHOOSE_MAJOR_PALIO_TYPE: "우리 팔리오 축제는 역대 최고가 될 것입니다!" # 2891168611294233528
+  choose_none_tooltip: "[GetTitleByKey('e_byzantium').GetNameNoTier]은 그들이 심장부로 퇴각하면서 사실상 [GetGeographicalRegion('RICE_sardinia_region').GetName]을 위험에 내던졌습니다. 하지만 우리는 [GetTitleByKey('k_papal_state').GetDefinitiveName]과 그들의 탐욕스러운 하수인들, 또는 [GetGeographicalRegion('world_africa_north').GetName]의 탐욕스러운 군벌들의 의도를 신뢰할 수 없습니다. 우리는 이 섬이 영적으로나 정치적으로나 스스로 새로운 길을 개척하도록 그 방향을 재설정해야만 합니다." # 17276623447157710299
+  RICE_sardinia_inaugurate_major_palio: "성대한 팔리오 개최" # 15009241758298278444
+  RICE_sardinia_inaugurate_major_palio_tooltip: "우리 영지에 위대한 전통을 정립하자!" # 14565487806733515810
+  RICE_sardinia_inaugurate_major_palio_desc: "[GetPlayer.GetCulture.GetName] 문화권의 도시 중심부에서는 [palio_races|E]를 개최하는 전통이 인기를 얻고 있습니다. [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetName]은 매년 [palio|E]가 열리는 장소가 되어야 합니다. 너무나 장대하고, 너무나 웅장하며, 너무나 박진감 넘쳐서 이 지역 전체에서 [palios|E]의 모범으로 여겨질 만한 [palio|E] 말입니다." # 5284912794740212545
+  RICE_sardinia_inaugurate_major_palio_confirm: "시작해보지!" # 331371430259311057
+  RICE_sardinia_inaugurate_major_palio_effect_tooltip_1: "향후 [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]에서 개최되는 [GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] [activities|E]의 경우,\n[activity_option|E]로 #V 종교#!를 선택하면\n[host|E]와 참가자는 기본 [prestige_i|E][prestige|E] 및 [piety_i|E][piety|E] 보상에 #P +50%#!를 받게 됩니다." # 3033106804389108965
+  RICE_sardinia_inaugurate_major_palio_effect_tooltip_2: "[GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]에서 열리는 향후 [GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] [activities|E]에 참여하는 주최자와 참석자는 #P +50%#!의 기본 [prestige_i|E][prestige|E] 및 [piety_i|E][piety|E] 보상을 받게 됩니다. #V 시민권#! [activity_option|E]이 선택될 경우." # 2940464828691455058
+  RICE_sardinia_inaugurate_major_palio_effect_tooltip_3: "[GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]에서 열리는 미래의 [GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] [activities|E]에 참여하는 주최자와 참석자는 #P +50%#!의 기본 [prestige_i|E][prestige|E] 및 [piety_i|E][piety|E] 보상을 받게 될 것입니다. #V 왕가의#! [activity_option|E] 옵션이 선택될 경우." # 10466169751876312666
+  RICE_sardinia_inaugurate_major_palio_effect_tooltip_4: "@경고_아이콘! #X [de_jure|E] [duchy|E]에는 #V 하나#의 주요 팔리오만 허용됩니다!" # 14530148531717568140
+  RICE_sardinia_inaugurate_major_palio_context_tooltip: "#bold 역사적 배경:#! $activity_RICE_sardinia_palio_race_context_tooltip$" # 9258218915073314922
+  CHOOSE_MAJOR_PALIO_TYPE: "우리의 팔리오는 역사상 최고가 될 것입니다!" # 2891168611294233528
   choose_religious_name: "종교 축제" # 8327054661938006593
   choose_religious_desc: "$choose_religious_name$" # 10942941925810539912
-  choose_religious_tooltip: "[GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]의 유명한 [palio|E] 경주가 지역 성인 또는 성자를 기리는 축제의 일부로 개최될 것입니다. [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]은 이러한 축제를 통해 우리 [faith|E]에 대한 영적 헌신으로 유명해질 것입니다." # 11114612564896455599
+  choose_religious_tooltip: "유명한 [palio|E]가 [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]의 지역 성인이나 성스러운 존재를 기리는 축제의 일환으로 개최될 것입니다. [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]는 이러한 축제를 통해 우리 [faith|E]에 대한 숭고한 신앙심으로 유명해질 것입니다." # 11114612564896455599
   choose_civic_name: "시민 기념" # 6525742591564223262
   choose_civic_desc: "$choose_civic_name$" # 4561173495546551503
-  choose_civic_tooltip: "[GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier] 지역의 유명한 [palio|E]가 지역 역사의 중요한 사건을 기념할 것입니다. 과거를 기리고 [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] 지역에서 전례 없는 공동체 의식을 구축함으로써 사람들은 위대한 업적을 이루도록 영감을 받을 것입니다." # 9949171910065944458
-  choose_dynastic_name: "왕조 축제" # 5859301419319982228
+  choose_civic_tooltip: "[GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier] 지역의 유명한 [palio|E]가 이 지역 역사의 중요한 사건을 기념할 것입니다.  과거를 기리고 [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] 지역에서 전례 없는 공동체 의식을 조성함으로써, 백성들은 위대한 업적을 이루도록 영감을 받을 것입니다." # 9949171910065944458
+  choose_dynastic_name: "왕실 잔치" # 5859301419319982228
   choose_dynastic_desc: "$choose_dynastic_name$" # 16855317077820356064
-  choose_dynastic_tooltip: "[GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]의 유명한 [palio|E]는 지역 [rulers|E]의 업적과 승리를 기념할 것입니다. 그렇게 함으로써, [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]에 사는 사람들은 그들을 다스리는 부담을 지닌 사람들에 대해 더 큰 감사를 할 수 있습니다." # 2660973035839772357
-  RICE_saridinia_sardaniya_decision: "사르데냐 기독교 이주민 환영" # 14008552313817796881
-  RICE_saridinia_sardaniya_decision_tooltip: "사르데냐 출신의 일부 기독교인들이 [GetGeographicalRegion('RICE_ifriqiya_region').GetName]에 정착하기를 원합니다." # 9556048181006795844
-  RICE_saridinia_sardaniya_decision_desc: "[GetReligionByKey('christianity_religion').GetName]은 수 세기 동안 [GetGeographicalRegion('RICE_ifriqiya_region').GetName]에 존재해 왔습니다. 공동체의 수를 늘리기 위해, [GetGeographicalRegion('RICE_sardinia_region').GetName] 출신의 [GetReligionByKey('christianity_religion').GetAdjectiveNoTooltip] 이주민 일부가 [GetGeographicalRegion('RICE_ifriqiya_region').GetName] 어딘가에 정착하기를 원합니다. 심지어 그중 일부는 여러 세대 전에 이주했던 북아프리카인의 후손이기도 합니다." # 7395257401695760671
-  RICE_saridinia_sardaniya_decision_confirm: "우리가 유리한 합의를 이끌어낼 수 있을까요?" # 4980162627216095198
-  RICE_saridinia_sardaniya_decision_effect_tooltip_1: "사르데냐 기독교 [신하|E]는 사르데냐인이 결국 정착하는 [백작령|E]을 소유하거나 그 근처에 있는 [통치자|E]의 [궁정|E]에 나타날 확률이 낮습니다." # 16214897741158503411
-  RICE_saridinia_sardaniya_decision_effect_tooltip_2: "귀하의 [county|E] 내 임의의 [현|E]에 [GetModifier('RICE_sardinia_north_african_settlement_modifier').GetNameWithTooltip] [수정자|E]가 영구적으로 적용되고, [개발_i|E] [개발|E]가 약간 증가합니다." # 4034880511335927062
-  RICE_saridinia_sardaniya_decision_context_tooltip: "#emphasis 역사적 배경:#! 중세 이슬람 자료에는 사르디니아인 집단이 북아프리카 카이루안 근처에 세운 마을, 사르다니야가 언급되어 있습니다. 이 마을은 수백 년 동안 존속했으며, 아마도 수십 세대 전 북아프리카 기독교도들이 사르디니아로 피신한 자손일 가능성이 높습니다." # 3989262824541953424
-  RICE_ifriqiya_region_geographical_req: "[GetGeographicalRegion('RICE_ifriqiya_region').GetName] 지역에서 하나 이상의 [county|E]를 소유하십시오" # 12733113416081907703
-  RICE_sardinia_catholic_decision: "사르데냐의 라틴 교회 강화" # 17812732099826014926
-  RICE_sardinia_catholic_decision_tooltip: "[GetGeographicalRegion('RICE_sardinia_region').GetName]에는 교육받은 라틴 수도승들이 절실히 필요합니다" # 2391573732289000787
-  RICE_sardinia_catholic_decision_desc: "[GetGeographicalRegion('RICE_sardinia_region').GetName]이 라틴 서방으로 방향을 전환한 이후로, 섬의 [rulers|E]들은 저를 포함하여 이곳의 [GetPlayer.GetFaith.GetReligion.GetAdjective] 교회를 개혁하기 위한 노력을 계속해 왔습니다. 그렇게 하는 좋은 방법은 교황청과 협력하여 이곳에 교회 당국을 데려오고 종교 건물을 재건하는 것입니다." # 383743166028730804
-  RICE_sardinia_catholic_decision_confirm: "사르데냐의 교회가 번성할 것입니다!" # 9973917165244488967
-  RICE_sardinia_catholic_decision_effect_tooltip_1: "[GetReligionByKey('christianity_religion').GetAdjective] [통치자|E]가 [GetGeographicalRegion('RICE_sardinia_region').GetName] 외곽에서 당신의 섬 [백작령|E] 중 하나에 대한 미청구 소유권을 얻을 작은 확률이 있습니다." # 6476733952630040415
-  RICE_sardinia_catholic_decision_effect_tooltip_2: "[GetFaithByKey('catholic').GetAdjective] [GetFaithByKey('catholic').PriestMale]이 [신하|E]로 등장할 확률이 적습니다" # 10585562017214106910
-  RICE_sardinia_catholic_decision_effect_tooltip_3: "얻는 [piety|E]는 귀하의 [faith|E]가 [GetFaithByKey('catholic').GetName]이거나 [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName] [doctrine|E]를 가지고 있거나 다른 [GetReligionByKey('christianity_religion').GetAdjective] [faith|E]인지에 따라 달라집니다." # 18119812742025710146
-  RICE_sardinia_catholic_decision_context_tooltip: "#bold 역사적 배경:#! 11세기까지, 사르데냐 교회는 비잔틴 기독교의 영향권 아래 있었습니다. 그러나 비잔틴 권력의 쇠퇴와 1054년의 대분열 속에서, 교황청은 11세기 후반 사르데냐와의 관계를 재개하며, 지역 성직자들에 대한 권위를 행사하고 사르데냐의 종교 기반 시설을 가톨릭 교회의 나머지 지역과 일치하도록 개혁하려고 노력했습니다. 처음에는 엇갈린 결과가 있었습니다. 피사 공화국과, 제노바 같은 인근 기독교 국가들은 이 노력에 적극적으로 참여했는데, 부분적으로는 이 섬에 대한 영향력을 확대하려는 목표를 달성하기 위한 것이었습니다." # 11434105383147776057
-  RICE_sardinia_orthodox_decision: "사르데냐에서 비잔티움 행정력 재활성화" # 15478336997928389535
-  RICE_sardinia_orthodox_decision_tooltip: "[GetGeographicalRegion('RICE_sardinia_region').GetName]에는 법률 및 관료제 개선이 필요합니다" # 6822837249195165138
-  RICE_sardinia_orthodox_decision_desc: "[GetGeographicalRegion('RICE_sardinia_region').GetName]이 다시 그리스 동방으로 방향을 전환한 이후, 저와 같은 섬의 [rulers|E]들은 전쟁, 투쟁, 방치로 인해 수세기 동안 손실된 행정 기반 시설을 재건하기 위해 계속 노력해 왔습니다. 이 섬은 새로운 법률, 헌장, 공식 임명 및 정부 절차 덕분에 번영할 것입니다." # 10075735608303921625
-  RICE_sardinia_orthodox_decision_confirm: "로마의 유산은 계속됩니다." # 5780260951628300463
-  RICE_sardinia_orthodox_decision_effect_tooltip_1: "[GetTitleByKey('e_byzantium').GetNameNoTier] 또는 [GetTitleByKey('e_roman_empire').GetNameNoTier]의 [ruler|E]나 그들의 [vassals|E] 중 하나가 당신에게 (강하거나 약한) [hook_i|E][hook|E]을 얻을 확률이 낮습니다." # 10694301598246799782
-  RICE_sardinia_orthodox_decision_effect_tooltip_2: "비잔틴 행정관이 [courtier|E](으)로 생성될 가능성이 낮습니다." # 6870494419289483104
-  RICE_sardinia_orthodox_decision_effect_tooltip_3: "당신이 얻는 [prestige|E]는 [GetTitleByKey('e_byzantium').GetNameNoTier] 또는 [GetTitleByKey('e_roman_empire').GetNameNoTier]의 통치자가 당신에게 갖는 [opinion|E]에 따라 달라집니다." # 13192096572212108566
-  RICE_sardinia_orthodox_decision_context_tooltip: "#emphasis 역사적 배경:#! 서로마 제국은 456년에 섬을 잃고 534년에 주스티니아누스 황제에 의해 재탈환되면서 사르데냐를 잃었습니다. 이후 수세기 동안, 특히 7세기 아랍의 북아프리카 정복 이후에는 로마 통치의 서방 경계지역으로서 중요한 역할을 했습니다. 그러나 1000년대에 이르러 비잔티움의 영향권에서 벗어났습니다. 이러한 변화의 원인은 학자들 사이에서 뜨겁게 논쟁되는 주제입니다. 하지만 비잔티움의 영향이 사르데냐의 종교, 법률, 문화에 미쳤다는 사실은 부인할 수 없습니다." # 14341758935893756504
-  RICE_sardinia_north_african_decision: "사르데냐의 북아프리카 네트워크 확장" # 10963973653782230931
-  RICE_sardinia_north_african_decision_tooltip: "[GetGeographicalRegion('RICE_sardinia_region').GetName]와 [GetGeographicalRegion('RICE_ifriqiya_region').GetName]는 더 가까워져야 합니다" # 3415238167801108022
-  RICE_sardinia_north_african_decision_desc: "[GetGeographicalRegion('RICE_sardinia_region').GetName]가 [GetGeographicalRegion('RICE_ifriqiya_region').GetName] 방향으로 전환한 이후로, 저를 비롯한 섬의 [rulers|E]들은 이 지역과 정치적, 경제적, 문화적 관계를 구축하기 위한 다양한 방법을 모색해 왔습니다. 옛 로마 제국의 곡창 지대였던 북아프리카는 우리에게 많은 것을 제공할 수 있습니다." # 1577079628116193856
+  choose_dynastic_tooltip: "[GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]의 명성 높은 [palio|E]가 그 지역 [rulers|E]의 업적과 승리를 기념할 것입니다. 이를 통해 [GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]에 사는 백성들은 그들을 다스리는 이들의 어려움을 더욱 이해할 수 있을 것입니다." # 2660973035839772357
+  RICE_saridinia_sardaniya_decision: "사르데냐 기독교 이주민 여러분, 환영합니다." # 14008552313817796881
+  RICE_saridinia_sardaniya_decision_tooltip: "사르데냐 출신의 기독교인들이 [GetGeographicalRegion('RICE_ifriqiya_region').GetName]에 정착하고자 합니다." # 9556048181006795844
+  RICE_saridinia_sardaniya_decision_desc: "[GetReligionByKey('christianity_religion').GetName]는 [GetGeographicalRegion('RICE_ifriqiya_region').GetName]에서 수세기 동안 존재해 왔습니다. 공동체의 규모를 키우기 위해 [GetGeographicalRegion('RICE_sardinia_region').GetName] 출신의 일부 [GetReligionByKey('christianity_religion').GetAdjectiveNoTooltip] 이주민들이 [GetGeographicalRegion('RICE_ifriqiya_region').GetName] 어딘가에 정착하고자 합니다. 그 중 일부는 세대 전에 북아프리카에서 이주해 온 사람들의 후손일지도 모릅니다." # 7395257401695760671
+  RICE_saridinia_sardaniya_decision_confirm: "좋은 합의를 이끌어낼 수 있을지도 모르겠습니다." # 4980162627216095198
+  RICE_saridinia_sardaniya_decision_effect_tooltip_1: "사르디니아 기독교 [궁정|E]는 [군주|E]의 [궁정|E]에 소수의 기회로 등장할 수 있습니다. 그들은 사르디니아인들이 결국 정착하는 [주|E]를 소유하거나 그 주변에 있는 [군주|E]의 영역에서 태어날 수 있습니다." # 16214897741158503411
+  RICE_saridinia_sardaniya_decision_effect_tooltip_2: "귀하의 [영지|E] 내 임의의 [주|E]가 [GetModifier('RICE_sardinia_north_african_settlement_modifier').GetNameWithTooltip] [수정자|E]를 영구적으로 얻고 [개발도|E]가 조금 증가할 것입니다." # 4034880511335927062
+  RICE_saridinia_sardaniya_decision_context_tooltip: "#bold 역사적 배경:# 중세 이슬람 자료는 사르디니아인 집단이 북아프리카 카이루안 근처에 세운 마을, 사르디냐라는 마을에 대해 언급합니다.  그 마을은 몇 세기에 걸쳐 존속했으며, 아마도 세대 전에 북아프리카 기독교도들이 사르디니아로 피신한 후손일 가능성이 있습니다." # 3989262824541953424
+  RICE_ifriqiya_region_geographical_req: "[GetGeographicalRegion('RICE_ifriqiya_region').GetName]에 적어도 하나의 [county|E]를 소유하고 있습니다." # 12733113416081907703
+  RICE_sardinia_catholic_decision: "사르데냐의 라틴 교회를 강화합니다." # 17812732099826014926
+  RICE_sardinia_catholic_decision_tooltip: "[GetGeographicalRegion('RICE_sardinia_region').GetName] 지역은 학식 있는 라틴 수도승이 절실히 필요합니다." # 2391573732289000787
+  RICE_sardinia_catholic_decision_desc: "[GetGeographicalRegion('RICE_sardinia_region').GetName]이 라틴 서방과의 방향을 바꾼 이후로, 저를 포함한 그 섬의 [rulers|E]는 이곳의 [GetPlayer.GetFaith.GetReligion.GetAdjective] 교회를 개혁하기 위해 꾸준히 노력해 왔습니다.  신성 로마 교황청과 협력하여 교회 권력자들을 이곳으로 불러들여 종교 건물들을 재건하는 것이 좋은 방법입니다." # 383743166028730804
+  RICE_sardinia_catholic_decision_confirm: "사르데냐의 교회가 번영할 것입니다!" # 9973917165244488967
+  RICE_sardinia_catholic_decision_effect_tooltip_1: "[GetGeographicalRegion('RICE_sardinia_region').GetName] 외곽의 근처 [GetReligionByKey('christianity_religion').GetAdjective] [ruler|E]가 그 섬의 여러분의 [counties|E] 중 하나에 대한 [unpressed_claim|E]을 얻을 가능성이 조금 있습니다." # 6476733952630040415
+  RICE_sardinia_catholic_decision_effect_tooltip_2: "소수의 가능성으로 [GetFaithByKey('catholic').GetAdjective] [GetFaithByKey('catholic').PriestMale]가 [courtier|E]로 등장할 수 있습니다." # 10585562017214106910
+  RICE_sardinia_catholic_decision_effect_tooltip_3: "[신앙도|E]는 귀하의 [종교|E]가 [GetFaithByKey('catholic').GetName]인지, [GetFaithDoctrine('special_doctrine_ecumenical_christian').GetBaseName] [교리|E]를 가진지, 아니면 다른 [GetReligionByKey('christianity_religion').GetAdjective] [종교|E]인지에 따라 달라집니다." # 18119812742025710146
+  RICE_sardinia_catholic_decision_context_tooltip: "#bold 역사적 배경:#! 11세기까지, 사르데냐 교회는 비잔틴 기독교의 영향권에 있었습니다. 그러나 비잔틴 권력의 쇠퇴와 1054년의 대분열을 배경으로, 교황청은 11세기 말에 사르데냐와의 관계를 재개하여 지역 성직자들을 통제하고 사르데냐의 종교 기반을 카톨릭 교회의 나머지 지역과 일치시키려 노력했습니다. 처음에는 다소 엇갈린 결과가 있었습니다. 피사 공화국과, 게노아와 같은 인근 기독교 국가들은 이 노력에 적극적으로 참여했는데, 이는 부분적으로 섬에 대한 영향력을 확장하려는 목적 때문이었습니다." # 11434105383147776057
+  RICE_sardinia_orthodox_decision: "사르디니아의 비잔틴 행정력을 되살리다" # 15478336997928389535
+  RICE_sardinia_orthodox_decision_tooltip: "[GetGeographicalRegion('RICE_sardinia_region').GetName]은 법률과 관료 제도 개선이 필요합니다." # 6822837249195165138
+  RICE_sardinia_orthodox_decision_desc: "[GetGeographicalRegion('RICE_sardinia_region').GetName]이 그리스 동방으로 방향을 돌린 이래로, 그 섬의 [rulers|E], 나 자신을 포함하여, 수세기 동안 전쟁, 분쟁, 그리고 방치로 인해 상실된 행정 인프라를 재건하기 위해 끊임없이 노력해 왔습니다. 새로운 법령, 헌장, 공직 임명, 그리고 정부 절차 덕분에 이 섬은 번영할 것입니다." # 10075735608303921625
+  RICE_sardinia_orthodox_decision_confirm: "로마의 유산은 영원히 이어집니다." # 5780260951628300463
+  RICE_sardinia_orthodox_decision_effect_tooltip_1: "[GetTitleByKey('e_byzantium').GetNameNoTier] 또는 [GetTitleByKey('e_roman_empire').GetNameNoTier]의 군주, 또는 그들의 봉신 중 한 명이 당신에게 약간의 [hook_i|E][hook|E] (강력하거나 약함)을 걸 가능성이 있습니다." # 10694301598246799782
+  RICE_sardinia_orthodox_decision_effect_tooltip_2: "비잔틴 행정관이 [궁정|E]으로 등장할 가능성이 약간 있습니다." # 6870494419289483104
+  RICE_sardinia_orthodox_decision_effect_tooltip_3: "[prestige|E]는 [GetTitleByKey('e_byzantium').GetNameNoTier] 또는 [GetTitleByKey('e_roman_empire').GetNameNoTier]의 통치자가 당신에 대해 갖는 [opinion|E]에 따라 달라집니다." # 13192096572212108566
+  RICE_sardinia_orthodox_decision_context_tooltip: "#bold 역사적 배경:# 서로마 제국은 서기 456년 2월, 사르디니아를 반달족에게 잃었습니다. 그러나 유스티니아누스 황제는 서기 534년에 이 섬을 재탈환했습니다. 이후 수백 년 동안 사르디니아는 특히 7세기에 아랍인들이 북아프리카를 정복한 후 서로마의 서방 변경 지역으로서의 역할을 했습니다. 하지만 1000년대에 이르러 사르디니아는 더 이상 비잔틴 제국의 영향권에 속하지 않았습니다. 이러한 변화의 원인은 학자들 사이에서 뜨겁게 논쟁되는 주제입니다. 그럼에도 불구하고, 비잔틴 제국의 영향력은 사르디니아의 종교, 법률, 문화에 부인할 수 없을 정도로 깊게 자리잡고 있었습니다." # 14341758935893756504
+  RICE_sardinia_north_african_decision: "사르데냐의 북아프리카 네트워크를 확장하십시오." # 10963973653782230931
+  RICE_sardinia_north_african_decision_tooltip: "[GetGeographicalRegion('RICE_sardinia_region').GetName]과 [GetGeographicalRegion('RICE_ifriqiya_region').GetName]는 서로 가까워져야 합니다." # 3415238167801108022
+  RICE_sardinia_north_african_decision_desc: "[GetGeographicalRegion('RICE_sardinia_region').GetName]이 [GetGeographicalRegion('RICE_ifriqiya_region').GetName] 방향으로 방향을 전환한 이래로, 저와 같은 그 섬의 통치자들은 그 지역과 정치적, 경제적, 문화적 유대를 쌓는 여러 가지 방법을 모색해 왔습니다. 북아프리카는 과거 로마 제국의 곡창지대였기에 우리에게 제공할 것이 많습니다." # 1577079628116193856
   RICE_sardinia_north_african_decision_confirm: "사르데냐는 지중해를 연결할 것입니다." # 8089198496255438218
-  RICE_sardinia_north_african_decision_effect_tooltip_1: "[GetGeographicalRegion('RICE_ifriqiya_region').GetName] 지역의 무작위 [ruler|E]와 당신이 서로에 대한 [opinion|E]이 개선되거나, 심지어 [friends|E]가 될 수도 있습니다" # 9780121219501088092
-  RICE_sardinia_north_african_decision_effect_tooltip_2: "[GetGeographicalRegion('RICE_sardinia_region').GetName]에 소유한 각 [county|E]는 낮은 확률로 [GetModifier('RICE_sardinia_north_african_option_piracy').GetNameWithTooltip] [modifier|E]를 획득합니다." # 4345093307172240211
-  RICE_sardinia_north_african_decision_effect_tooltip_3: "북아프리카 상인이 [courtier|E]로 생성될 확률이 적습니다" # 18016846752215185695
-  RICE_sardinia_north_african_decision_effect_tooltip_4: "[명성|E]과 [신앙심|E]은 [계급|E]에 따라 달라집니다." # 1587305602023707503
-  RICE_sardinia_north_african_decision_context_tooltip: "#bold 역사적 배경:# 사르데냐는 고대부터 북아프리카와 밀접한 관계를 맺어왔습니다. 예컨대, 카르타고인들이 이 섬 일부를 식민지화한 것이 그 예시입니다. 또한, 456년부터 534년까지 반달족이 지배했던 시기에, 반달족은 많은 베르베르인들을 이 섬으로 강제 이주시켰습니다. 그리스와 로마의 자료들은 종종 사르데냐인들을 북아프리카 출신으로 여겼으며, 이러한 관점은 12세기 안달루시아 지리학자이자 학자였던 알-이드리시의 저술과 같은 중세 자료에서도 반복되었습니다." # 5592922122473236351
-  RICE_saridnia_north_african_decision_effect.message: "[pirate_county.GetNameNoTierNoTooltip]에 해적 출몰!" # 13892078796436826839
-  RICE_sardinia_none_decision: "사르데냐 요새화" # 9473824392992545656
-  RICE_sardinia_none_decision_tooltip: "[GetGeographicalRegion('RICE_sardinia_region').GetName]은 모든 면에서 방어해야 합니다" # 2469176771898819512
-  RICE_sardinia_none_decision_desc: "[GetGeographicalRegion('RICE_sardinia_region').GetName]이 보다 독립적인 관점으로 방향을 전환한 이후, 저를 비롯한 섬의 [rulers|E]들은 외부 및 내부 위협으로부터 사랑하는 섬을 보호하기 위해 세심한 주의를 기울여 왔습니다." # 13070592863431318971
+  RICE_sardinia_north_african_decision_effect_tooltip_1: "당신과 [GetGeographicalRegion('RICE_ifriqiya_region').GetName]의 무작위 [ruler|E] 사이에 서로에 대한 호감도가 향상되거나, 심지어 [friends|E]가 될 가능성이 있습니다." # 9780121219501088092
+  RICE_sardinia_north_african_decision_effect_tooltip_2: "[GetGeographicalRegion('RICE_sardinia_region').GetName]에 소유한 각 [county|E]는 [GetModifier('RICE_sardinia_north_african_option_piracy').GetNameWithTooltip] [modifier|E]를 얻을 가능성이 조금 있습니다." # 4345093307172240211
+  RICE_sardinia_north_african_decision_effect_tooltip_3: "북아프리카 상인이 [courtier|E]로 등장할 가능성이 약간 있습니다." # 18016846752215185695
+  RICE_sardinia_north_african_decision_effect_tooltip_4: "획득하는 [명성|E]과 [경건|E]은 당신의 [등급|E]에 따라 달라집니다." # 1587305602023707503
+  RICE_sardinia_north_african_decision_context_tooltip: "#bold 역사적 배경:# 사르데냐는 고대부터 북아프리카와 밀접한 관계를 가져왔습니다. 카르타고인들이 섬의 일부를 식민지화한 것이 그 예시 중 하나입니다. 또한 456년부터 534년까지 반달족의 지배 기간 동안, 반달족은 많은 베르베르족을 섬으로 이주시켰습니다. 그리스와 로마의 자료는 종종 사르데냐인들이 북아프리카 출신이라고 여겼으며, 12세기 안달루시아 지리학자이자 학자 알-이드리시의 저술과 같은 중세 자료에서도 이러한 주장이 반복되었습니다." # 5592922122473236351
+  RICE_saridnia_north_african_decision_effect.message: "[pirate_county.GetNameNoTierNoTooltip]에 해적 출현!" # 13892078796436826839
+  RICE_sardinia_none_decision: "사르데냐를 강화하십시오." # 9473824392992545656
+  RICE_sardinia_none_decision_tooltip: "[GetGeographicalRegion('RICE_sardinia_region').GetName]은 모든 방향으로부터 방어되어야 합니다." # 2469176771898819512
+  RICE_sardinia_none_decision_desc: "[GetGeographicalRegion('RICE_sardinia_region').GetName]이 독립적인 방향으로 기울어진 이후로, 저를 포함한 그 섬의 [rulers|E]들은 외부와 내부의 위협으로부터 우리의 소중한 섬을 보호하기 위해 큰 노력을 기울여 왔습니다." # 13070592863431318971
   RICE_sardinia_none_decision_confirm: "섬은 스스로를 지켜야 합니다." # 11174303249034137059
-  RICE_sardinia_none_decision_effect_tooltip_1: "높은 [education_trait|E]를 가진 재능 있는 지역 주민이 [courtier|E]로 등장할 가능성이 있습니다" # 8307040220168906508
-  RICE_sardinia_none_decision_effect_tooltip_2: "[명성|E]과 [신앙심|E]은 [계급|E]에 따라 달라집니다." # 1587305602023707503
-  RICE_sardinia_none_decision_context_tooltip: "#emphasis 역사적 배경:#! 사르데냐는 지중해 역사 상 이율배반적인 위치에 놓여 있었습니다. 거대한 바다 한가운데 위치한 섬이면서도, 동시에 외부인들에게는 오랜 세월 동안 야만인으로 여겨진 변방이었습니다. 예컨대 키케로 같은 로마 자료는 사르데냐인을 난폭한 도둑으로 묘사했습니다. 수세기 후인 12세기 안달루시아 지리학자이자 학자였던 알-이드리시 또한 비슷하게 사르데냐인을 고집스럽고 야만적인 민족으로 묘사했습니다. 로마와 북아프리카의 영향을 받았던 중세 사르데냐인이 고대 로마 이전의 사르데냐인과는 달랐음에도 불구하고, 수백 년에 걸쳐 등장하는 자료들은 사르데냐에 대한 유사한 고정관념을 사용하는 것으로 보입니다. 어떤 사람들이 실제로 그곳에 살았든 간에 말입니다." # 3281145944453552192
-  RICE_saridnia_none_decision_effect.message: "[GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]에서 해적 발견!" # 12006240059710754504
-  RICE_sardinia_condaghe_decision: "콘다게스 가문의 재편성" # 2346016701084861722
-  RICE_sardinia_condaghe_decision_tooltip: "#italic condaghes#를 재정비한 지도 꽤 되었군요." # 14691261621263719358
-  RICE_sardinia_condaghe_decision_desc: "#italic 콩다게스#!는 [GetPlayer.GetCulture.GetName] 행정 문서로, 종교 재산 및 기관과 관련된 내용을 담고 있습니다. 법적 분쟁이나 가족 재산 및 종교 기부 기록을 참고할 필요가 있을 경우, [GetPlayer.GetDynasty.GetBaseName] [dynasty|E]의 #italic 콩다게스#!가 정상적인지 확인해야 합니다." # 13224339995310080923
-  RICE_sardinia_condaghe_decision_confirm: "#italic 콘다게스#를 모으세요!!" # 8910957901000071349
-  RICE_sardinia_condaghe_decision_effect_tooltip_1: "[위신|E] [EmptyScope.ScriptValue('RICE_sardinia_condaghe_prestige_gain_min')]#!에서 [위신|E] #V [EmptyScope.ScriptValue('RICE_sardinia_condaghe_prestige_gain_max')]#! 사이의 무작위 양을 얻습니다" # 14730730884317624833
-  RICE_sardinia_condaghe_decision_effect_tooltip_2: "#V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_condaghe_chance')]%#! 확률로, 귀하의 [관리력|E]와 [학문|E]에 따라 #V 콩다게#! [유물|E]를 얻을 수 있습니다." # 2737716752338229211
-  RICE_sardinia_condaghe_decision_context_tooltip: "#emphasis 역사적 배경:#! 콘다게는 중세 사르데냐의 행정 문서 유형으로, 종종 교회나 수도원과 같은 종교 기관과 관련된 재정 및 법률 행위에 사용되었습니다. 만들어진 지 수 세기가 지난 후에도 법적 사건에 사용되기도 했습니다. 현재는 극소수만 남아 있지만, 사르데냐의 중세 역사와 사르데냐 고어를 이해하려는 학자들에게는 귀중한 자료입니다." # 6537086088293867260
-  RICE_sardinia_invest_in_palio_horses: "팔리오 경주마에 투자" # 414194699075247472
-  RICE_sardinia_invest_in_palio_horses_tooltip: "[GetPlayer.GetHouse.GetNameNoTooltip]은 적절한 말에 투자하면 [palio_races|E]에서 승리할 수 있습니다" # 18305212533230539785
-  RICE_sardinia_invest_in_palio_horses_desc: "[GetPlayer.GetCulture.GetName] [houses|E]는 [GetPlayer.GetHouse.GetName] 가문과 같이 가문의 지위를 나타내는 표시로 경주 전용으로 사육된 말을 몇 마리 이상 소유하고 있습니다. 참가하는 [palio_races|E]에서 좋은 성적을 내려면 기수들이 최고의 경주마를 탈 수 있도록 해야 합니다." # 17202147445988556826
-  RICE_sardinia_invest_in_palio_horses_confirm: "말을 위한 자금을 마련하십시오" # 12777105258266621532
-  RICE_sardinia_invest_in_palio_horses_effect_tooltip_1: "투자된 [gold_i|E] [gold|E]의 양에 따라 무작위로 [prestige_i|E] [prestige|E]와 [dynasty_prestige_i|E] [dynasty_prestige|E]를 얻습니다" # 1202080827658041583
-  RICE_sardinia_invest_in_palio_horses_effect_tooltip_2: "\n[house|E] [GetPlayer.GetHouse.GetName] 가 #V 5#!년에서 #V 15#!년 사이의 무작위 지속 시간을 갖는 [modifier|E]를 얻습니다. 투자하는 [gold_i|E] [gold|E]가 많을수록 [modifier|E]가 강해지며, 효과는 다음과 같습니다.\n$EFFECT_LIST_BULLET$월간 [prestige_i|E][prestige|E] 획득량 증가\n$EFFECT_LIST_BULLET$기병 [men_at_arms|E] 유지비 감소\n$EFFECT_LIST_BULLET$[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName]에서 승리할 확률 증가\n" # 7078106165188676384
-  RICE_sardinia_invest_in_palio_horses_context_tooltip: "#bold 역사적 배경:#! 후기 중세와 르네상스 시대 이탈리아에서, 강력한 왕가들은 경쟁 왕가들과의 경쟁 수단으로 경주마를 소유하는 데 앞장섰습니다. 파리오 경주가 대표적입니다. 15세기가 되면, 북아프리카 출신 #italic 바르베리#! 품종의 말들이 이탈리아 파리오 경주에서 주로 사용되었지만, 오스만 제국 출신 #italic 투르키#! 말들과 같은 다른 품종도 드물게 등장했습니다. 예를 들어, 르네상스 시대 이탈리아에서 경주마의 품질로 유명했던 만투아의 곤차가 가문은 오스만 제국과 긴밀한 외교 관계를 유지하며 그곳에서 많은 말들을 수입했습니다." # 4193064589831643429
-  RICE_sardinia_invest_in_palio_horses_type: "투자 규모를 선택하십시오" # 3917422362061537916
-  RICE_sardinia_invest_in_palio_horses_gui: "[팔리오|E] 경주마에 얼마나 투자할지 선택하세요" # 3395502332920562313
-  RICE_sardinia_invest_in_palio_horses_small_option: "#Bold 소규모 투자#!" # 1087342111654893080
+  RICE_sardinia_none_decision_effect_tooltip_1: "재능 있는 지역 출신의 [교육_특성|E]가 높은 인물이 [궁정|E]에 등장할 가능성이 있습니다." # 8307040220168906508
+  RICE_sardinia_none_decision_effect_tooltip_2: "획득하는 [명성|E]과 [경건|E]은 당신의 [등급|E]에 따라 달라집니다." # 1587305602023707503
+  RICE_sardinia_none_decision_context_tooltip: "#bold 역사적 배경:# 사르데냐는 지중해 역사 상 모순된 위치를 차지해 왔습니다. 거대한 바다 한가운데 섬이지만, 동시에 외부인들에게는 야만인으로 여겨진 변방이었습니다. 예컨대 키케로와 같은 로마 자료들은 사르데냐인들을 반항적인 도둑으로 묘사했습니다. 수백 년 후, 12세기 안달루시아 지리학자이자 학자였던 알-이드리시 또한 비슷하게 사르데냐인들을 고집스럽고 야만적인 민족으로 묘사했습니다. 중세 사르데냐인들은 로마와 북아프리카의 영향을 받았지만, 고대 로마 이전의 사르데냐인들과는 달랐습니다. 그럼에도 불구하고, 수세기 동안의 자료들은 사르데냐를 묘사하는 데 비슷한 전형적인 이미지를 사용하는 듯합니다. 누가 실제로 거기에 살았든 간에 말입니다." # 3281145944453552192
+  RICE_saridnia_none_decision_effect.message: "[GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]에 해적 출몰!" # 12006240059710754504
+  RICE_sardinia_condaghe_decision: "가족의 콩다게를 다시 컴파일합니다." # 2346016701084861722
+  RICE_sardinia_condaghe_decision_tooltip: "#italic 콘다게스#를 재정비한 지도 꽤 오래 되었군요!" # 14691261621263719358
+  RICE_sardinia_condaghe_decision_desc: "#italic 컨다게스#!는 종교 재산 및 기관과 관련된 [GetPlayer.GetCulture.GetName] 행정 문서입니다. 법적 분쟁에 대비하거나 가족 소유 및 종교 기부를 참고하기 위해 [GetPlayer.GetDynasty.GetBaseName] [dynasty|E]의 #italic 컨다게스#!가 정상적인지 확인해야 합니다." # 13224339995310080923
+  RICE_sardinia_condaghe_decision_confirm: "#italic 콘다게스#를 수집하십시오!" # 8910957901000071349
+  RICE_sardinia_condaghe_decision_effect_tooltip_1: "[prestige|E]가 [prestige_i|E] #V [EmptyScope.ScriptValue('RICE_sardinia_condaghe_prestige_gain_min')]#!와 [prestige_i|E] #V [EmptyScope.ScriptValue('RICE_sardinia_condaghe_prestige_gain_max')]#! 사이의 랜덤한 값으로 증가합니다." # 14730730884317624833
+  RICE_sardinia_condaghe_decision_effect_tooltip_2: "#V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_condaghe_chance')]%#!의 확률로 귀하의 관리력과 학문에 따라 #V 콘다게#! [유물|E]를 얻을 수 있습니다." # 2737716752338229211
+  RICE_sardinia_condaghe_decision_context_tooltip: "#bold 역사적 배경:#! 콘다게는 중세 사르데냐의 행정 문서 유형으로, 종종 교회나 수도원과 같은 종교 기관과 관련된 재정 및 법률 행위에 사용되었습니다. 그들은 작성된 지 수 세기가 지난 후에도 법률 사건에 사용되었던 것으로 알려져 있습니다. 현재는 극소수만이 남아 있지만, 사르데냐의 중세 역사와 사르데냐어의 더 오래된 단계를 이해하려는 학자들에게는 귀중한 자료입니다." # 6537086088293867260
+  RICE_sardinia_invest_in_palio_horses: "팔리오 경주마에 투자하십시오." # 414194699075247472
+  RICE_sardinia_invest_in_palio_horses_tooltip: "[GetPlayer.GetHouse.GetNameNoTooltip]가 적절한 말에 투자한다면 [palio_races|E]에서 승리할 수 있습니다." # 18305212533230539785
+  RICE_sardinia_invest_in_palio_horses_desc: "[GetPlayer.GetCulture.GetName] [houses|E]와 같이 [GetPlayer.GetHouse.GetName] 집안은 일반적으로 우리의 지위를 보여주는 경주용으로 특별히 사육된 말들을 몇 마리 이상 소유하고 있습니다.  만약 우리가 참여하는 모든 [palio_races|E]에서 성공하고자 한다면, 우리 기수들이 최고의 경주마를 갖도록 해야 합니다." # 17202147445988556826
+  RICE_sardinia_invest_in_palio_horses_confirm: "말을 위한 자금을 마련합니다." # 12777105258266621532
+  RICE_sardinia_invest_in_palio_horses_effect_tooltip_1: "투자된 £금£의 양에 따라 무작위로 [prestige_i|E] [prestige|E]와 [dynasty_prestige_i|E] [dynasty_prestige|E]를 획득하게 됩니다." # 1202080827658041583
+  RICE_sardinia_invest_in_palio_horses_effect_tooltip_2: "[house|E] [GetPlayer.GetHouse.GetName]가 #V 5#년에서 #V 15#년 사이의 기간 동안 지속되는 [modifier|E]를 받게 됩니다. 투자하는 £gold£가 많을수록 [modifier|E]의 효과가 강해집니다. 이는 다음과 같습니다.:\n$EFFECT_LIST_BULLET$매월 [prestige_i|E][prestige|E] 획득량 증가\n$EFFECT_LIST_BULLET$기병 [men_at_arms|E]의 유지비 감소\n$EFFECT_LIST_BULLET$[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] 승리 확률 증가" # 7078106165188676384
+  RICE_sardinia_invest_in_palio_horses_context_tooltip: "#bold 역사적 배경:#! 후기 중세와 르네상스 시대 이탈리아에서는 강력한 왕가들이 경쟁 왕가들과의 대결, 예컨대 팔리오 경주,  수단으로 경주마를 소유하는 것이 흔했습니다. 15세기가 되면 북아프리카 출신의 #italic barberi#! 품종의 말들이 이탈리아 팔리오 경주에서 주로 사용되었지만, 오스만 제국 출신의 #italic turchi#!와 같이 다른 품종들도 드물게 보였습니다. 예를 들어, 르네상스 이탈리아에서 경주마의 품질로 유명했던 만투아의 곤차가 가문은 밀접한 외교 관계를 유지하던 오스만 제국으로부터 많은 말들을 수입했습니다." # 4193064589831643429
+  RICE_sardinia_invest_in_palio_horses_type: "투자할 금액을 결정하십시오." # 3917422362061537916
+  RICE_sardinia_invest_in_palio_horses_gui: "[palio|E] 경주마에 얼마나 투자할지 결정하세요." # 3395502332920562313
+  RICE_sardinia_invest_in_palio_horses_small_option: "#Bold 소액 투자#!" # 1087342111654893080
   RICE_sardinia_invest_in_palio_horses_small_option_desc: "$RICE_sardinia_invest_in_palio_horses_small_option$" # 15801918212046773013
-  RICE_sardinia_invest_in_palio_horses_small_option_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_small_cost')]#!#!\n\n$EFFECT_LIST_BULLET$ [위신_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_prestige_gain_small_min')]#!와 [위신_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_prestige_gain_small_max')]#! [위신|E] 사이의 값을 받습니다\n$EFFECT_LIST_BULLET$ [GetPlayer.GetDynasty.GetName] [왕조|E]가 [왕조_위신_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_dynasty_prestige_gain_small_min')]#!와 [왕조_위신_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_dynasty_prestige_gain_small_max')]#! [왕조_위신|E] 사이의 값을 받습니다\n$EFFECT_LIST_BULLET$[가문|E] [GetPlayer.GetHouse.GetName]이 #V 5#!년에서 #V 15#!년 사이의 기간 동안 [GetModifier('RICE_sardinia_palio_horse_investment_small_modifier').GetNameWithTooltip] [modifier|E]를 받습니다" # 1404529351867104304
+  RICE_sardinia_invest_in_palio_horses_small_option_tooltip: "@gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_small_cost')]#!#!\n\n$EFFECT_LIST_BULLET$ [명예|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_prestige_gain_small_min')]#!와 #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_prestige_gain_small_max')]#! 사이의 [명예|E]를 획득합니다.\n$EFFECT_LIST_BULLET$ [GetPlayer.GetDynasty.GetName] [왕가|E]는 [왕가 명예|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_dynasty_prestige_gain_small_min')]#!와 #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_dynasty_prestige_gain_small_max')]#! 사이를 획득합니다.\n$EFFECT_LIST_BULLET$[가문|E] [GetPlayer.GetHouse.GetName]은 #V 5#!년에서 #V 15#!년 사이 기간 동안 [GetModifier('RICE_sardinia_palio_horse_investment_small_modifier').GetNameWithTooltip] [수정|E]를 받습니다." # 1404529351867104304
   RICE_sardinia_invest_in_palio_horses_medium_option: "#Bold 주요 투자#!" # 14585583368540347258
   RICE_sardinia_invest_in_palio_horses_medium_option_desc: "$RICE_sardinia_invest_in_palio_horses_medium_option$" # 2824321955726362346
-  RICE_sardinia_invest_in_palio_horses_medium_option_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_medium_cost')]#!#!\n\n$EFFECT_LIST_BULLET$ [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_prestige_gain_medium_min')]#!과 [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_prestige_gain_medium_max')]#! 사이의 [prestige|E]를 받습니다\n$EFFECT_LIST_BULLET$ [GetPlayer.GetDynasty.GetName] [dynasty|E] 가문이 [dynasty_prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_dynasty_prestige_gain_medium_min')]#!과 [dynasty_prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_dynasty_prestige_gain_medium_max')]#! 사이의 [dynasty_prestige|E]를 받습니다\n$EFFECT_LIST_BULLET$[house|E] [GetPlayer.GetHouse.GetName] 가문이 #V 5#!년에서 #V 15#!년 사이의 기간 동안 [GetModifier('RICE_sardinia_palio_horse_investment_medium_modifier').GetNameWithTooltip] [modifier|E]를 받습니다" # 17012855572924446105
-  RICE_sardinia_invest_in_palio_horses_large_option: "#Bold 위대한 투자#!" # 11652391870373589260
+  RICE_sardinia_invest_in_palio_horses_medium_option_tooltip: "금화 @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_medium_cost')]#!#!\n\n$EFFECT_LIST_BULLET$ [명성|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_prestige_gain_medium_min')]#!와 #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_prestige_gain_medium_max')]#! 사이의 [명성|E]를 얻으십니다.\n$EFFECT_LIST_BULLET$ [GetPlayer.GetDynasty.GetName] [왕가|E]는 [왕가의 명예|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_dynasty_prestige_gain_medium_min')]#!와 #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_dynasty_prestige_gain_medium_max')]#! 사이의 [왕가의 명예|E]를 받습니다.\n$EFFECT_LIST_BULLET$[가문|E] [GetPlayer.GetHouse.GetName]은 #V 5#!년에서 #V 15#!년 동안 [GetModifier('RICE_sardinia_palio_horse_investment_medium_modifier').GetNameWithTooltip] [수정|E]를 받습니다." # 17012855572924446105
+  RICE_sardinia_invest_in_palio_horses_large_option: "#Bold 위대한 투자!#" # 11652391870373589260
   RICE_sardinia_invest_in_palio_horses_large_option_desc: "$RICE_sardinia_invest_in_palio_horses_large_option$" # 13575196633430568871
-  RICE_sardinia_invest_in_palio_horses_large_option_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_large_cost')]#!#!\n\n$EFFECT_LIST_BULLET$ [위신_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_prestige_gain_large_min')]#!과 [위신_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_prestige_gain_large_max')]#! [위신|E] 사이의 값을 받습니다\n$EFFECT_LIST_BULLET$ [GetPlayer.GetDynasty.GetName] [왕조|E]는 [왕조_위신_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_dynasty_prestige_gain_large_min')]#!과 [왕조_위신_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_dynasty_prestige_gain_large_max')]#! [왕조_위신|E] 사이의 값을 받습니다\n$EFFECT_LIST_BULLET$[가문|E] [GetPlayer.GetHouse.GetName]는 #V 5#!년에서 #V 15#!년 사이 동안 [GetModifier('RICE_sardinia_palio_horse_investment_large_modifier').GetNameWithTooltip] [modifier|E]를 받습니다" # 12400069976468440752
-  RICE_sardinia_palio_horses_recent_req: "귀하의 [가문|E]에는 현재 [팔리오|E] 경주마 [수식어|E]가 없습니다." # 7368215574821681258
-  RICE_saridinia_algherese_decision: "[GetPlayer.GetCulture.GetNameNoTooltip] 식민주의자들을 알게로로 파견합니다" # 5644556515735168736
-  RICE_saridinia_algherese_decision_tooltip: "[GetPlayer.GetCulture.GetNameNoTooltip] 문화권 식민지 개척자들을 [GetGeographicalRegion('RICE_sardinia_region').GetName]로 데려와야 합니다" # 15062118178180703328
-  RICE_saridinia_algherese_decision_desc: "[GetGeographicalRegion('RICE_sardinia_region').GetName]에 $heritage_iberian_name$의 영향력이 증가함에 따라 섬의 제멋대로인 토착민들을 [control|E]하는 것이 어려워졌습니다. 이 상황을 개선하기 위해 [GetPlayer.GetCulture.GetName] 식민지 주민들을 데려와야 하며, 항구 마을인 [GetTitleByKey('b_alghero').GetNameNoTier]가 그에 완벽한 장소입니다." # 15432848274585789271
-  RICE_saridinia_algherese_decision_effect_tooltip_1: "[GetTitleByKey('b_alghero').GetNameNoTier]에 무역항 건물이 추가되거나, 이미 있는 경우 [building|E] 슬롯이 없더라도 업그레이드됩니다" # 8001078909499656369
-  RICE_saridinia_algherese_decision_confirm: "[GetPlayer.GetCulture.GetNameNoTooltip] 식민지 개척자들을 초대하십시오!" # 8099780371125521792
-  RICE_saridinia_algherese_decision_context_tooltip: "#emphasis 역사적 배경:#! 1102년에 건설된 현대의 알게로 도시는 수많은 해를 거쳐 지중해의 전략적 항구 도시였다. 아라곤 왕국은 14세기에 사르데냐를 정복했고, 이 지역의 반란 이후 아라곤인들은 도시의 원주민들을 추방하고 카탈루냐인 이주민들을 데려와 알게로를 아라곤 통치의 중심지로 만들었다. 현재 이탈리아에서 공식적으로 소수 언어로 인정받는 알게로 방언은 카탈루냐어의 지방 방언으로, 이주민들의 후손들이 사용하는 언어이다." # 6825157334175770180
+  RICE_sardinia_invest_in_palio_horses_large_option_tooltip: "금화 @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_large_cost')]#!#!\n$EFFECT_LIST_BULLET$ [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_prestige_gain_large_min')]#!에서 #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_prestige_gain_large_max')]#!까지 [prestige|E]를 획득합니다.\n$EFFECT_LIST_BULLET$[GetPlayer.GetDynasty.GetName] [dynasty|E]는 [dynasty_prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_dynasty_prestige_gain_large_min')]#!에서 #V [GetPlayer.MakeScope.ScriptValue('RICE_sardinia_palio_horse_investment_dynasty_prestige_gain_large_max')]#!까지 [dynasty_prestige|E]를 얻습니다.\n$EFFECT_LIST_BULLET$[house|E] [GetPlayer.GetHouse.GetName]는 #V 5#!년에서 #V 15#!년까지 [GetModifier('RICE_sardinia_palio_horse_investment_large_modifier').GetNameWithTooltip] [modifier|E]를 받습니다." # 12400069976468440752
+  RICE_sardinia_palio_horses_recent_req: "귀하의 [house|E]에는 현재 [palio|E] 경주마 [modifier|E]가 없습니다." # 7368215574821681258
+  RICE_saridinia_algherese_decision: "[GetPlayer.GetCulture.GetNameNoTooltip] 이주민들을 알게로에 파견합니다." # 5644556515735168736
+  RICE_saridinia_algherese_decision_tooltip: "[GetPlayer.GetCulture.GetNameNoTooltip] 이민자들을 [GetGeographicalRegion('RICE_sardinia_region').GetName]으로 이주시켜야 합니다." # 15062118178180703328
+  RICE_saridinia_algherese_decision_desc: "이제 [GetGeographicalRegion('RICE_sardinia_region').GetName] 지역에 $heritage_iberian_name$ 출신의 인구가 증가함에 따라, 그들의 통제가 어려워졌습니다.  이 상황을 해결하기 위해 [GetPlayer.GetCulture.GetName] 식민자들을 이주시켜야 할 필요가 있으며, [GetTitleByKey('b_alghero').GetNameNoTier] 항구 도시가 그에 적합한 장소입니다." # 15432848274585789271
+  RICE_saridinia_algherese_decision_effect_tooltip_1: "무역 항구 건물이 [GetTitleByKey('b_alghero').GetNameNoTier]에 추가되거나, 이미 존재하는 경우 업그레이드될 것입니다. [건물|E] 슬롯이 남아 있지 않더라도 말입니다." # 8001078909499656369
+  RICE_saridinia_algherese_decision_confirm: "[GetPlayer.GetCulture.GetNameNoTooltip] 개척자들을 초대합니다!" # 8099780371125521792
+  RICE_saridinia_algherese_decision_context_tooltip: "#bold 역사적 배경:# 1102년에 건설된 현대의 알게로 도시는 오랫동안 전략적인 지중해 항구였습니다. 아라곤 왕국은 14세기에 사르데냐를 정복했습니다. 이 지역의 일부 반란 이후 아라곤인들은 도시의 현지 주민들을 추방하고 카탈루냐 식민자들을 데려와 알게로를 아라곤 통치의 중심지로 만들었습니다. 현재 이탈리아에서 공식적으로 소수 언어로 인정받는 알게르어는 카탈루냐어의 방언으로, 식민자들의 후손들이 사용하는 언어입니다." # 6825157334175770180
   sardinia.0000.t: "xxxxx" # 1951045980481827005
   sardinia.0000.desc: "xxxxx" # 1951045980481827005
   sardinia.0000.a: "xxxxx" # 1951045980481827005
@@ -304,157 +305,158 @@
   sardinia.0002.t: "xxxxx" # 1951045980481827005
   sardinia.0002.desc: "xxxxx" # 1951045980481827005
   sardinia.0002.a: "xxxxx" # 1951045980481827005
-  sardinia.0003.title: "[county.GetNameNoTierNoTooltip]의 말라리아" # 4435018418169607950
-  sardinia.0003.tooltip: "[GetModifier('RICE_sardinia_malaria_modifier').GetNameWithTooltip]이(가) [county.GetNameNoTier]에서 발생했습니다." # 17062038788607013700
-  sardinia.malaria.tooltip: "[GetGeographicalRegion('RICE_sardinia_region').GetName]는 말라리아의 온상으로 악명이 높습니다." # 2411392089935988394
-  sardinia.0004.t.catholic: "라틴 유디카티" # 8424208622366592473
-  sardinia.0004.t.orthodox: "비잔티움 유디카티" # 12543125512746800428
-  sardinia.0004.t.north_african: "북아프리카의 재판관" # 9394059198636616939
-  sardinia.0004.t.none: "독립적인 심판관" # 1424385940511499757
-  sardinia.0004.t.backup: "유디카티" # 16189259592011191386
-  sardinia.0004.desc: "[GetGeographicalRegion('RICE_sardinia_region').GetName]에서 로마의 권위가 쇠퇴한 이후, 그 통치자들인 #italic 유디카티#! 또는 재판관들은 섬의 안정을 유지하기 위해 고군분투해 왔습니다. 그럼에도 불구하고 섬의 고립에도 불구하고 라틴 서부, 그리스 동부, 심지어 북아프리카까지 다양한 방식으로 그 궤적에 영향을 미쳐 왔습니다. 때로는 평화롭게, 때로는 그렇지 않게 말입니다.\n\n섬에 큰 영향력을 행사하는 [sardinia_leader.GetTitledFirstName]은 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]의 미래가 지중해의 나머지 지역과 관련하여 스스로를 어떻게 지향하는지에 달려 있음을 이해하고 있습니다." # 17258177927566197500
-  sardinia.0004.desc.catholic: "[sardinia_leader.GetFirstNameNoTooltip]와 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]의 다른 지도자들은 섬에서 교회를 강화하려는 그들의 노력을 지지하며 [GetFaithByKey('catholic').GetAdjective] 교회 당국에 제안을 해 왔습니다. [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]를 라틴 서방으로 재정향함으로써, #italic 유디카티#!는 교회에서 강력한 친구이자 보호자를 찾기를 희망합니다." # 1244857830369185482
-  sardinia.0004.desc.orthodox: "[sardinia_leader.GetFirstNameNoTooltip]와 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]의 다른 지도자들은 과거 로마 행정 체계를 재건하고 섬을 그리스 동부의 영향권 아래로 되돌리기 위해 노력했습니다. [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]을 그리스 동부로 재지향함으로써 #italic 주디카티#!는 안정적인 로마 행정 체계 아래 질서를 회복할 수 있습니다." # 6105507408648948131
-  sardinia.0004.desc.north_african: "과거 북아프리카의 공격에도 불구하고, [sardinia_leader.GetFirstNameNoTooltip]와 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]의 다른 지도자들은 남쪽 이웃과의 경제적, 정치적, 문화적 유대의 중요성을 이해합니다. [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]을 북아프리카로 재정비함으로써 이러한 유대는 더욱 강해질 것이며, #italic judicati#!가 통치하는 땅은 번영할 수 있기를 바랍니다." # 17930304387482011290
-  sardinia.0004.desc.none: "[sardinia_leader.GetFirstNameNoTooltip]와 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]의 다른 지도자들은 라틴 서부, 그리스 동부, 북아프리카 그 어느 곳도 자신들을 진심으로 위하지 않음을 알고 있습니다. [GetPlayer.Custom('RICE_sardinia_none_ending_type')]의 영향을 받기는 하지만, [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]를 보다 독립적인 관점으로 재정립함으로써 #italic 유디카티#!와 그 백성은 외부 세력의 조작과 착취를 피할 수 있기를 바랍니다." # 17184856342023700228
-  sardinia.0004.a: "이 과정이 완료되려면 [sardinia_leader.GetFaith.GetNameNoTooltip]도 받아들여야 합니다…." # 9319637880570795795
+  sardinia.0003.title: "[county.GetNameNoTierNoTooltip]의 말라리아 발생" # 4435018418169607950
+  sardinia.0003.tooltip: "[GetModifier('RICE_sardinia_malaria_modifier').GetNameWithTooltip]가 [county.GetNameNoTier]에서 발생했습니다." # 17062038788607013700
+  sardinia.malaria.tooltip: "[GetGeographicalRegion('RICE_sardinia_region').GetName]은 말라리아의 온상으로 악명 높습니다." # 2411392089935988394
+  sardinia.0004.t.catholic: "라틴 판결" # 8424208622366592473
+  sardinia.0004.t.orthodox: "비잔티움의 판결권" # 12543125512746800428
+  sardinia.0004.t.north_african: "북아프리카의 판결권" # 9394059198636616939
+  sardinia.0004.t.none: "독립적인 재판관들" # 1424385940511499757
+  sardinia.0004.t.backup: "주디카티" # 16189259592011191386
+  sardinia.0004.desc: "[GetGeographicalRegion('RICE_sardinia_region').GetName]의 로마 권력 쇠퇴 이후, 그곳 통치자들은 #italic 판사#들, 즉 #italic 주디카티#라고 불리는 이들은 섬의 안정을 유지하기 위해 고군분투해 왔습니다. 하지만 섬의 고립에도 불구하고, 라틴 서방, 그리스 동방, 심지어 북아프리카까지도 서로 다른 방식으로 그들의 운명에 영향을 미쳐왔습니다. 때로는 평화롭게, 때로는 그렇지 못하게 말입니다.\n\n\n[sardinia_leader.GetTitledFirstName]는 이 섬에 큰 영향력을 행사하는 자로서 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]의 미래는 지중해 다른 지역과 어떻게 관계를 맺느냐에 달려 있다는 사실을 잘 알고 있습니다." # 17258177927566197500
+  sardinia.0004.desc.catholic: "[sardinia_leader.GetFirstNameNoTooltip]과 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]의 다른 지도자들은 로마 가톨릭 교회 당국에 접근하여 섬의 교회를 강화하기 위한 노력을 지지했습니다.  [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]을 라틴 서방으로 재편함으로써, #italic 재판관#!들은 교회에서 강력한 친구와 수호자를 찾기를 바랍니다." # 1244857830369185482
+  sardinia.0004.desc.orthodox: "[sardinia_leader.GetFirstNameNoTooltip]와 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]의 다른 지도자들은 고대 로마 행정을 재건하고 섬을 그리스 동방의 영향권 아래로 다시 복귀시키려는 노력을 기울였습니다. [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]을 그리스 동방으로 재편함으로써 #italic 주디카티#!는 안정적인 로마 행정 하에 질서를 회복할 수 있습니다." # 6105507408648948131
+  sardinia.0004.desc.north_african: "과거 북아프리카의 공격에도 불구하고, [sardinia_leader.GetFirstNameNoTooltip]와 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]의 다른 지도자들은 남쪽 이웃들과 맺은 경제적, 정치적, 문화적 유대의 중요성을 이해하고 있습니다. [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]을 북아프리카 방향으로 재편함으로써 이러한 유대는 더욱 강화될 것이며, #italic 주디카티#!가 다스리는 땅들은 희망적으로 번영할 것입니다." # 17930304387482011290
+  sardinia.0004.desc.none: "[sardinia_leader.GetFirstNameNoTooltip]와 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]의 다른 지도자들은 라틴 서방, 그리스 동방, 또는 북아프리카 어느 누구도 그들의 이익을 진심으로 생각하지 않는다는 것을 알고 있습니다. [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]를 보다 독립적인 방향으로 재편함으로써, [GetPlayer.Custom('RICE_sardinia_none_ending_type')]의 영향을 받으면서도, #italic 쥐디카티#!와 그들의 백성은 외부 세력의 조작과 착취를 피할 수 있기를 바랍니다." # 17184856342023700228
+  sardinia.0004.a: "[sardinia_leader.GetFaith.GetNameNoTooltip]도 받아들여야 과정을 완료할 수 있습니다…." # 9319637880570795795
   sardinia.0004.b: "$sardinia.0004.a$" # 8051489744135210800
-  sardinia.0004.c: "이것이 현명한 결정이었는지는 시간이 지나야 알 수 있을 것입니다." # 2611111188036909197
-  sardinia.0004.catholic.tradition: "[문화|E] 중 해당 문화가 있는 경우, $tradition_RICE_judicati_name$ [전통|E]이 $tradition_RICE_judicati_catholic_name$ [전통|E]으로 업그레이드됩니다." # 13910562343537275365
-  sardinia.0004.orthodox.tradition: "[cultures|E] 문화권에서 $tradition_RICE_judicati_name$ [tradition|E] 전통을 가진 모든 문화는 $tradition_RICE_judicati_orthodox_name$ [tradition|E] 전통으로 업그레이드됩니다." # 16967318509059056369
-  sardinia.0004.north_african.tradition: "[culture|E] 문화를 가진 모든 경우에, $tradition_RICE_judicati_name$ [tradition|E] 전통이 $tradition_RICE_judicati_north_african_name$ [tradition|E] 전통으로 업그레이드됩니다." # 5962001473401084167
-  sardinia.0004.none.tradition: "해당하는 모든 [문화|E]에서 $tradition_RICE_judicati_name$ [전통|E]가 $tradition_RICE_judicati_none_name$ [전통|E]으로 업그레이드됩니다." # 6739577688065678011
-  sardinia.0005.t: "[GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]와 더 큰 독립" # 5059578698521444155
-  sardinia.0005.desc: "최근 들어 저와 같은 [GetGeographicalRegion('RICE_sardinia_region').GetName]의 지도자들은 섬이 더욱 독립적인 시각을 가져야 할 필요성을 느끼게 되었습니다.\n\n하지만 그렇다고 해서 지중해의 다른 지역과 맺고 있는 관계를 고려하여 섬을 세상과 완전히 단절해야 한다는 의미는 아닙니다. 우리 섬에 미치는 다양한 영향력은 사실상 더 큰 독립을 향한 우리의 탐색에 자산이 될 수 있습니다.\n\n섬에서 가장 유력한 통치자인 지금, 우리의 미래를 결정하고 라틴 서부, 그리스 동부 또는 북아프리카의 사상과 관행에서 영감을 얻을지, 그리고 그들의 문화에 흡수되지 않으면서 자립심과 힘을 재확인할지 여부는 저에게 달려 있습니다." # 630748911642599045
-  sardinia.0005.a: "라틴 서부 - 고대 로마의 심장부" # 4474183841621549345
-  sardinia.0005.a.tooltip: "#bold 같은 신앙의 통치자들로부터 받는 의견 +$VALUE$#" # 3869044669724733702
-  sardinia.0005.b: "그리스 동방 – 우리는 동로마의 유산을 상속받았습니다" # 8644466256689180389
-  sardinia.0005.b.tooltip: "#F If we choose the Orthodox faith, the island of Sardinia will become part of the Patriarchate of Constantinople and begin to drift towards the Byzantine cultural sphere. The effects are listed below.#" # 10839226043878281613
-  sardinia.0005.c: "북아프리카 - 다양하고 거친 사람들의 땅" # 13955155669928020464
-  sardinia.0005.c.tooltip: "#bold 북아프리카 문화를 받아들입니다.#!\n사르데냐는 [GetCulture('culture_north_african').GetAdjective] 문화로 전향하여, 기존의 문화를 포기합니다. 또한, $RICE_decision_sardinia_orientation_north_african_effect_desc$" # 7586230229153447522
-  sardinia.0006.t: "새로운 알게로 공동체" # 1985989286177390407
-  sardinia.0006.desc: "[alghero_settlement_liege.GetTitledFirstNamePossessive]가 [GetGeographicalRegion('RICE_sardinia_region').GetName]에서 유지하는 권력은 미약했으며, 출신에 관계없이 지역 주민의 저항에 사로잡혀 있었습니다. 그러나 [alghero_settlement_liege.GetHerHis|U] 관리와 고문들은 이 문제에 대한 해결책을 제안했고, 이는 이후 실행되었습니다.\n\n[GetGeographicalRegion('world_europe_west_iberia').GetName] 출신의 많은 [culture.GetCollectiveNoun]이 섬에 정착하는 데 관심을 가지고 있으며, [GetTitleByKey('b_alghero').GetNameNoTier] 정착지는 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]와 [GetGeographicalRegion('world_europe_west_iberia').GetNameNoTooltip] 사이의 주요 연결 역할을 할 수 있는 항구 도시이므로 완벽한 위치입니다.\n\n따라서, 이 지역에서 미래의 문제를 미연에 방지하기 위해 [alghero_settlement_liege.GetFirstNameNoTooltip]는 대부분의 지역 주민을 추방한 후, 유망한 [culture.GetNameNoTooltip] 식민지 주민을 마을로 데려왔습니다. 이제 도시는 [alghero_settlement_liege.GetHerHis]의 통치에 더 순응적인 [culture.GetLanguage.GetName] 언어를 사용하는 [culture.GetNameNoTooltip] 사람들로 가득 차게 될 것입니다." # 1780713499817380474
-  sardinia.0006.a: "[GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]의 시대가 바뀌고 있습니다." # 11069034209596696106
+  sardinia.0004.c: "시간이 그 판단을 내려줄 것이다." # 2611111188036909197
+  sardinia.0004.catholic.tradition: "그들의 문화에 해당되는 모든 [cultures|E]에 대해, $tradition_RICE_judicati_name$ [tradition|E]는 $tradition_RICE_judicati_catholic_name$ [tradition|E]로 업그레이드됩니다." # 13910562343537275365
+  sardinia.0004.orthodox.tradition: "그것을 가진 모든 [문화|E]에 대해, $tradition_RICE_judicati_name$ [전통|E]는 $tradition_RICE_judicati_orthodox_name$ [전통|E]로 승격됩니다." # 16967318509059056369
+  sardinia.0004.north_african.tradition: "[culture|E]가 보유한 모든 문화권에서 $tradition_RICE_judicati_name$ [tradition|E]는 $tradition_RICE_judicati_north_african_name$ [tradition|E]로 승격됩니다." # 5962001473401084167
+  sardinia.0004.none.tradition: "그[culture|E]들 중 해당 문화를 가진 모든 국가의 $tradition_RICE_judicati_name$ [tradition|E]는 $tradition_RICE_judicati_none_name$ [tradition|E]로 업그레이드됩니다." # 6739577688065678011
+  sardinia.0005.t: "[GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]와 더 큰 자치권" # 5059578698521444155
+  sardinia.0005.desc: "[GetGeographicalRegion('RICE_sardinia_region').GetName]의 지도자들, 저를 포함하여, 최근 섬의 보다 독립적인 미래에 대한 필요성을 인지하고 있습니다.\n\n그러나 지중해와의 끈끈한 유대감을 고려할 때, 섬을 완전히 고립시켜야 한다는 뜻은 아닙니다. 실제로 섬에 영향을 미치는 다양한 문화는 더욱 독립적인 미래를 향한 우리의 여정에 자산이 될 수 있습니다.\n\n섬에서 가장 영향력 있는 지도자로서, 이제 저는 우리의 미래를 결정하고, 라틴 서방, 그리스 동방, 또는 북아프리카의 사상과 관습에서 영감을 받아야 하는지를 결정해야 합니다. 그러나 그 문화에 흡수되지 않고, 자립과 강력함을 재확립해야 합니다." # 630748911642599045
+  sardinia.0005.a: "라틴 서방 – 고대 로마의 심장부" # 4474183841621549345
+  sardinia.0005.a.tooltip: "$RICE_sardinia_decide_sardinia_orientation_effect_tooltip.catholic.1$" # 3869044669724733702
+  sardinia.0005.b: "그리스 동방 - 우리는 동방 로마의 유산을 계승한 자들입니다." # 8644466256689180389
+  sardinia.0005.b.tooltip: "$RICE_sardinia_decide_sardinia_orientation_effect_tooltip.orthodox.1$" # 10839226043878281613
+  sardinia.0005.c: "북아프리카 – 다양하고 험준한 민족의 땅" # 13955155669928020464
+  sardinia.0005.c.tooltip: "$RICE_sardinia_decide_sardinia_orientation_effect_tooltip.north_african.1$" # 7586230229153447522
+  sardinia.0006.t: "새로운 알제리 공동체" # 1985989286177390407
+  sardinia.0006.desc: "[alghero_settlement_liege.GetTitledFirstNamePossessive]께서 [GetGeographicalRegion('RICE_sardinia_region').GetName] 지배는 매우 불안정했고, 그들의 기원과 상관없이 현지 저항에 시달렸습니다. 하지만 [alghero_settlement_liege.GetHerHis|U] 관리들과 자문관들은 이 문제에 대한 해결책을 제시하고, 이후 실행에 옮겼습니다.\n\n많은 [culture.GetCollectiveNoun]들이 [GetGeographicalRegion('world_europe_west_iberia').GetName]에서 이 섬에 정착하고자 하는 의향을 보였고, [GetTitleByKey('b_alghero').GetNameNoTier] 정착지는 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]과 [GetGeographicalRegion('world_europe_west_iberia').GetNameNoTooltip]를 연결하는 주요 항구 도시이기에 이상적인 장소였습니다.\n\n따라서 향후 지역의 문제를 예방하기 위해 [alghero_settlement_liege.GetFirstNameNoTooltip]께서는 현지 주민 대부분을 추방하고, 도시에 새로운 [culture.GetNameNoTooltip] 이주민들을 유치했습니다. 이제 그 도시는 [culture.GetNameNoTooltip] 사용자들로 가득 차 [culture.GetLanguage.GetName] 언어를 구사하며, [alghero_settlement_liege.GetHerHis]의 지배에 더욱 순응할 것입니다." # 1780713499817380474
+  sardinia.0006.a: "[GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]의 시대는 변화하고 있습니다." # 11069034209596696106
   sardinia.0007.t: "새로운 팔리오 전통" # 4781693948744229789
-  sardinia.0007.desc: "이 지역에서 팔리오 경주가 더욱 인기를 끌면서, 사람들은 고향을 함께 기념하는 멋진 행사가 되었습니다.\n\n여러 도시에서 다른 주요 행사와 함께 팔리오 경주를 개최하지만, 때로는 임시 행사로 진행될 수도 있습니다. 저는 [capital.GetNameNoTier]의 저명 인사들과 협력하여 이곳에 대규모 팔리오 경주를 출범시켰으며, 앞으로 정기적으로 개최되어 지역 주민의 자부심을 높이고, 이 지역에서 [capital.GetNameNoTierNoTooltip]를 유명하게 만들 새로운 전통을 확립할 것입니다.\n\n특히 팔리오 경주는" # 3721370912800392085
-  sardinia.0007.desc.religious: "지역 주민들에게 이미 인기 있는 주요 종교 휴일 동안. 따라서 이 새로운 팔리오 전통은 엄숙한 신앙과 축제적인 흥분을 결합하여 현지인들에게 영감을 주는 강한 영적 의미를 가질 것입니다." # 11134822538810326728
-  sardinia.0007.desc.civic: "[capital.GetNameNoTierNoTooltip]의 역사에서 중요한 역사적 사건을 기념하기 위해서입니다. 결국 현지인들의 시민적 자긍심은 그들이 왜 고향을 자랑스러워해야 하는지 기억할 때 더욱 깊어질 수 있습니다." # 5985074016806186282
-  sardinia.0007.desc.dynastic: "[ROOT.Char.GetHouse.GetName] 가문에 최근에 일어난 행운을 기념하여, 현지인들과 긴밀히 연결하여 함께 승리를 축하하는 것이 현명합니다." # 12925236290141399432
-  sardinia.0007.a: "이 전통이 오랫동안 지속되기를 바랍니다!" # 15527743650309830701
+  sardinia.0007.desc: "이 지역에서 팔리오 경주가 더욱 인기를 얻은 이후로, 사람들이 모여 고향을 축하하는 훌륭한 기회가 되었습니다.\n\n\n다양한 도시들이 다른 주요 행사와 함께 자체 팔리오를 개최하지만, 때로는 임시적인 행사일 수 있습니다. 저는 [capital.GetNameNoTier]의 유력자들과 함께 그곳에서 주요 팔리오를 개최하고, 앞으로 정기적으로 개최하여 새로운 전통을 확립하는 데 협력했습니다. 이는 지역 주민들의 시민 자부심을 높이고, [capital.GetNameNoTierNoTooltip]을 이 지역에서 유명하게 만들 것입니다.\n\n\n특히, 팔리오는" # 3721370912800392085
+  sardinia.0007.desc.religious: "이미 지역 주민들에게 인기 있는 중요한 종교 축제 기간에 열리는 이 새로운 팔리오 전통은, 엄숙한 신앙과 축제적인 열정을 결합하여 지역 주민들에게 큰 영향력을 행사하는 강렬한 영성적 의미를 지닐 것입니다." # 11134822538810326728
+  sardinia.0007.desc.civic: "[capital.GetNameNoTierNoTooltip] 역사의 중요한 사건을 기념하기 위해.  주민들의 지역 자긍심은 고향에 대해 자랑스러워해야 할 이유를 기억할 때 더욱 깊어질 것입니다." # 5985074016806186282
+  sardinia.0007.desc.dynastic: "[ROOT.Char.GetHouse.GetName] 가문에 최근 있었던 행운의 사건들을 기리며, 주민들과 긴밀히 연결하여 함께 승리를 기뻐하는 것이 현명합니다." # 12925236290141399432
+  sardinia.0007.a: "이 전통이 오랫동안 이어지길 바랍니다!" # 15527743650309830701
   sardinia.0008.t: "xxxxx" # 1951045980481827005
   sardinia.0008.desc: "xxxxx" # 1951045980481827005
   sardinia.0008.a: "xxxxx" # 1951045980481827005
   sardinia.0009.t: "xxxxx" # 1951045980481827005
   sardinia.0009.desc: "xxxxx" # 1951045980481827005
   sardinia.0009.a: "xxxxx" # 1951045980481827005
-  sardinia.0010.t: "사르다니야" # 2948519882197443003
-  sardinia.0010.desc: "[christianity.GetAdjective] [sardinian.GetCollectiveNoun] 중에서 [GetGeographicalRegion('RICE_sardinia_region').GetName] 섬에서 [GetGeographicalRegion('RICE_ifriqiya_region').GetName]로 이주하려는 사람들이 있다는 소식을 들었습니다.\n\n어쩌면 고향의 불안정 때문일 수도 있고, 단순한 모험심이나 다른 곳에서 더 큰 기회를 얻고 싶어서일 수도 있습니다. 또한 그들 중 일부는 몇 년 전에 [GetGeographicalRegion('RICE_ifriqiya_region').GetNameNoTooltip]에서 도망친 [african_roman.GetName] 난민의 후손이라고도 합니다.\n\n그들의 지도자들은 특히 [sardaniya_location.GetNameNoTier] 지역 어딘가에 #italic 사르다니야#!라는 마을을 세우기를 희망하고 있습니다. 그들을 환영하고 그들의 관습과 신앙을 유지하게 해 준다면, 그들의 수가 많지 않더라도 정치적, 경제적 이익을 얻을 수 있을 것입니다." # 13262728053701377615
-  sardinia.0010.a: "우리의 보호 아래 사르다니야가 번성하기를." # 14919664320927143657
-  sardinia.0010.tooltip: "사르데냐 기독교 [신하|E]는 [sardaniya_location.GetNameNoTier] 백작령을 소유하거나 그 근처에 있는 [통치자|E]의 [궁정|E]에 나타날 확률이 적습니다." # 5485939292549585359
+  sardinia.0010.t: "사르데냐" # 2948519882197443003
+  sardinia.0010.desc: "[christianity.GetAdjective] 사르데냐인들이 [GetGeographicalRegion('RICE_sardinia_region').GetName] 섬에서 [GetGeographicalRegion('RICE_ifriqiya_region').GetName]로 이주하려 한다는 소식을 들었습니다.#newline#\n\n아마도 그들의 고향에 불안정이 초래되어 그렇게 하려는지도 모르겠고, 아니면 단순히 모험심과 다른 곳에서의 더 나은 기회를 갈망하는 것일 수도 있습니다. 또한 그들 중 일부가 [african_roman.GetName] 난민들의 후손이라고 하며, 그들은 수년 전 [GetGeographicalRegion('RICE_ifriqiya_region').GetNameNoTooltip]에서 도망쳤다고도 합니다.#newline#\n\n어쨌든, 그들의 지도자들은 이 지역, 특히 [sardaniya_location.GetNameNoTier]에 #italic 사르다니아#라는 마을을 세우고자 합니다. 그들을 환영하고, 그들의 풍습과 신앙을 지켜주도록 허락한다면, 그들의 수가 많지는 않더라도 정치적, 경제적 이득을 얻을 수 있을 것입니다." # 13262728053701377615
+  sardinia.0010.a: "사르다니아가 우리의 보호 아래 번영하길 바랍니다." # 14919664320927143657
+  sardinia.0010.tooltip: "사르데냐 기독교 [사신|E]는 [지역|E] [사르디니아_지역.이름없음]을 소유하거나 그 근처에 있는 [통치자|E]의 [궁정|E]에서 소량의 확률로 생성될 수 있습니다." # 5485939292549585359
   sardinia.0011.t: "xxxxx" # 1951045980481827005
   sardinia.0011.desc: "xxxxx" # 1951045980481827005
   sardinia.0011.a: "xxxxx" # 1951045980481827005
-  sardinia.0012.t: "사르다니야에서" # 1994499164524083574
-  sardinia.0012.desc: "[GetGeographicalRegion('RICE_ifriqiya_region').GetName]에는 많은 민족이 살고 있습니다. [sardaniya_county.GetNameNoTier]에 위치한 #italic 사르다니야#! 마을에는 원래 [GetGeographicalRegion('RICE_sardinia_region').GetName] 출신인 기독교인들의 활기찬 공동체가 있습니다.\n\n#italic 사르다니야#! 출신의 [sardinian_culture.GetName] [courtier.GetWomanMan]인 [courtier.GetFullName]이 [courtier.GetHerHis] 봉사를 제안했습니다. 아마도 [courtier.GetHerHis]의 재능을 가진 누군가를 활용할 수 있을 것입니다…." # 16928884228474380676
-  sardinia.0012.a: "네, [courtier.GetSheHe]는 제 궁정에 환영합니다." # 8581091337682753474
-  sardinia.0012.b: "아니요, [courtier.GetHerHis]의 도움이 필요하지 않습니다." # 12759626570879209922
+  sardinia.0012.t: "사르다니아에서" # 1994499164524083574
+  sardinia.0012.desc: "[GetGeographicalRegion('RICE_ifriqiya_region').GetName]에는 다양한 민족이 거주하고 있습니다. [sardaniya_county.GetNameNoTier]에 위치한 #italic 서르디니아# 마을은 원래 [GetGeographicalRegion('RICE_sardinia_region').GetName] 출신의 활발한 기독교 공동체의 고향입니다.\n\n#italic 서르디니아# 출신의 [sardinian_culture.GetName] [courtier.GetWomanMan] [courtier.GetFullName]이 저에게 그[courtier.GetHerHis] 재능을 제안했습니다. 아마도 그[courtier.GetHerHis] 재능을 활용할 수 있을지도…" # 16928884228474380676
+  sardinia.0012.a: "네, [courtier.GetSheHe]는 저의 궁정에 환영합니다." # 8581091337682753474
+  sardinia.0012.b: "아니, [courtier.GetHerHis]의 봉사는 필요하지 않습니다." # 12759626570879209922
   sardinia.0013.t: "[afro_roman.GetCollectiveNounNoTooltip]" # 18171827573601761878
-  sardinia.0013.desc: "고대에 [GetGeographicalRegion('RICE_ifriqiya_region').GetName]는 라틴어 방언을 사용하는 많은 [GetReligionByKey('christianity_religion').GetAdjective] [afro_roman.GetCollectiveNoun]의 본거지였습니다. [GetReligionByKey('islam_religion').GetName]이 도래한 이후 이 공동체는 개종하거나 다른 곳으로 이민을 가면서 쇠퇴했습니다.\n\n어쨌든, [courtier.GetTitledFirstName]은 살아남은 이 고대 공동체의 일원 중 하나로, 저를 섬기기 위해 제 궁정에 도착했습니다." # 14882502467589457243
-  sardinia.0013.desc.north_africa: "[courtier.GetSheHe]가 [GetGeographicalRegion('RICE_ifriqiya_region').GetNameNoTooltip] 출신이므로, [courtier.GetSheHe]는 지역 업무를 도와주기를 바랍니다." # 3069010907581310772
-  sardinia.0013.desc.other: "[courtier.GetHerHis] 형제자매들처럼 [courtier.GetSheHe]도 [GetGeographicalRegion('RICE_ifriqiya_region').GetNameNoTooltip]의 해안 너머 더 나은 기회를 찾아 다른 곳으로 떠나려 합니다." # 15930169246362511687
+  sardinia.0013.desc: "옛날 [GetGeographicalRegion('RICE_ifriqiya_region').GetName]에는 많은 기독교 [afro_roman.GetCollectiveNoun]들이 살았습니다. 그들은 라틴어 방언을 사용했습니다. [GetReligionByKey('islam_religion').GetName]의 등장 이후, 그들은 개종하거나 다른 곳으로 이주하면서 그들의 공동체는 줄어들었습니다.\n\n어쨌든, [courtier.GetTitledFirstName]은 이 옛 공동체의 생존자 중 한 명으로, 제 궁궐에 와서 저에게 봉사하고자 합니다." # 14882502467589457243
+  sardinia.0013.desc.north_africa: "[courtier.GetSheHe]는 [GetGeographicalRegion('RICE_ifriqiya_region').GetNameNoTooltip] 출신으로, 지역 문제 해결을 위해 우리를 돕고자 합니다." # 3069010907581310772
+  sardinia.0013.desc.other: "어떤 [courtier.GetHerHis] 형제들처럼, [courtier.GetSheHe]는 [GetGeographicalRegion('RICE_ifriqiya_region').GetNameNoTooltip] 해안 너머 다른 곳에서 더 나은 기회를 찾고 있습니다." # 15930169246362511687
   sardinia.0013.a: "$sardinia.0012.a$" # 15332634695827329987
-  sardinia.0013.b: "#bold ACCENT MESSAGE#! 다음은 [GetCharacter.GetTitledFirstName]을(를) 위한 £gold_icon£ @gold_icon@ @value|0@을(를) 추가하는 #italic 이탈리엔추크# 자금을 제공합니다. #n\n#n\n[GetCharacter.GetTitledFirstName]을(를) 섬에서 제거하기 위해 원로원은 #italic 이탈리엔추크#의 자금을 승인했습니다." # 17726078159149781090
+  sardinia.0013.b: "$sardinia.0012.b$" # 17726078159149781090
   sardinia.0014.t: "교회 강화" # 3090265198225596296
-  sardinia.0014.desc.intro: "라틴 교회는 [GetGeographicalRegion('RICE_sardinia_region').GetName]에서 계속 확장하고 있지만, 더 많은 노력이 필요합니다. 따라서 저는 최근 [catholic.GetAdjective] 성직자들을 섬으로 초청하고 예배 장소를 재건했으며, 그곳의 종교적 기반 시설을 지원하기 위해 자금을 할당했습니다." # 15458788173383794723
-  sardinia.0014.desc.pope: "[pope.GetTitledFirstName]님께서 제 행동에 특히 만족하셨습니다." # 14609376821872870
-  sardinia.0014.desc.priest: "사실, [GetFaithByKey('catholic').PriestNeuterPlural] 중 한 명인 [priest.GetFirstName]는 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]에서 교회의 성장을 촉진하는 것을 돕기 위해 제 궁정에 합류했습니다." # 1194276829635767724
-  sardinia.0014.desc.opportunist: "아아, 도착하는 이들 성직자 중 다수는 [opportunist.GetFullName]의 후원을 받았으며, 이 연줄을 통해 [opportunist.GetHerHis]는 제 영토, 특히 [claimed_county.GetNameNoTier]에 대한 영향력을 키웠습니다.\n\n[ROOT.Char.GetFaith.HighGodName]의 은총으로 [opportunist.GetFirstNamePossessiveNoTooltip]의 불명예스러운 조작은 간과되거나 처벌받지 않고 넘어가지 않을 것이며, 그것은 제 행위의 영적으로 유익한 결과에 영향을 미치지 않을 것입니다." # 917756022496479148
-  sardinia.0014.desc.conclusion: "전반적으로, 저의 행위는 섬과 교회 전체에 영적으로 유익할 것입니다." # 17636378759434469323
-  sardinia.0014.a: "[ROOT.Char.GetFaith.HighGodNameAlternate]께서 우리를 인도하시고 보호하시기를!" # 14927590187701930379
-  sardinia.0015.t: "행정 활성화" # 676780692269706555
-  sardinia.0015.desc.intro: "[GetGeographicalRegion('RICE_sardinia_region').GetName]는 로마 제국의 초기 속주 중 하나였지만, 제국의 서쪽 절반이 붕괴되면서 지역 후미진 곳으로 전락하여 소홀히 취급되었습니다.\n\n상황이 크게 개선되었지만, 섬의 로마 행정부를 부활시킬 필요가 있습니다. 따라서 저는 섬의 관료제를 재정비하고, 새로운 법률과 헌장을 제정하고, 정부 절차를 개혁하기 위한 조치를 취했습니다." # 13274038096409567380
-  sardinia.0015.desc.emperor: "황제 [emperor.GetFirstName] 폐하께서 저를 돕기 위해 여러 관리를 보내셨습니다." # 8027813962643005296
-  sardinia.0015.desc.no_emperor: "[ROOT.Char.GetTitleAsNameNoTooltip]으로서, 저를 도울 수 있는 많은 관리가 있습니다." # 11691009150847814008
-  sardinia.0015.desc.official: "그들 중 한 명인 [official.GetFirstName]은 이러한 노력을 더 잘 조율하기 위해 제 궁정에 합류했습니다." # 5835983259934427765
-  sardinia.0015.desc.opportunist: "불행히도 [opportunist.GetTitledFirstName]는 이 일에 [opportunist.GetHerselfHimself]를 크게 끌어들여 상황을 [opportunist.GetHerHis]에게 유리하게 조작한 것 같습니다. [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]은 내 행동으로 이익을 얻겠지만, [opportunist.GetFirstNameNoTooltip] 주변에서는 신중하게 행동해야 합니다." # 4617715009588050582
-  sardinia.0015.desc.conclusion: "제 행동 덕분에 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]는 안정적이고 번영하는 섬이 될 것입니다." # 9737663871747161387
-  sardinia.0015.a: "[GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]은 번성할 것이라고 확신합니다." # 15594627657319271483
+  sardinia.0014.desc.intro: "라틴 교회는 [GetGeographicalRegion('RICE_sardinia_region').GetName]에서 계속 확장되고 있지만, 더욱 노력해야 할 부분이 있습니다. 따라서 최근 그 섬에 [catholic.GetAdjective] 성직자들을 초청하고, 예배 장소를 재건했으며, 종교 시설 지원을 위해 기금을 할당했습니다." # 15458788173383794723
+  sardinia.0014.desc.pope: "[교황.칭호이름]께서는 저의 행동에 특별히 만족하십니다." # 14609376821872870
+  sardinia.0014.desc.priest: "실제로, [GetFaithByKey('catholic').PriestNeuterPlural] 중 한 명인 [priest.GetFirstName] 신부가 제 궁정에 합류하여 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip] 교회 성장을 돕기 위해 나섰습니다." # 1194276829635767724
+  sardinia.0014.desc.opportunist: "아, 이곳에 온 많은 성직자들은 [opportunist.GetFullName]의 후원을 받았습니다. 그러한 연줄을 통해 [opportunist.GetHerHis] 영향력은 특히 [claimed_county.GetNameNoTier] 지역에서 커졌습니다.\n\n\n[ROOT.Char.GetFaith.HighGodName]의 은총으로, [opportunist.GetFirstNamePossessiveNoTooltip]의 비열한 조작은 눈감아주지 않을 것이며, 그 대가를 치러야 할 것입니다. 그리고 그것은 저의 행위로 얻는 영적인 혜택에 영향을 미치지 못할 것입니다." # 917756022496479148
+  sardinia.0014.desc.conclusion: "대체로, 제 행적은 영적으로 이 섬과 교회 전체에 이로울 것입니다." # 17636378759434469323
+  sardinia.0014.a: "[ROOT.Char.GetFaith.HighGodNameAlternate]께서 우리를 인도하고 보호하소서!" # 14927590187701930379
+  sardinia.0015.t: "행정 재건" # 676780692269706555
+  sardinia.0015.desc.intro: "[GetGeographicalRegion('RICE_sardinia_region').GetName]는 로마 제국의 초기 속주 중 하나였으나, 제국 서부의 붕괴와 함께 지역 변방으로 쇠락했습니다.\n\n하지만 상황은 크게 개선되었으나, 이 섬의 로마 행정 체계를 되살리는 것이 필요합니다. 따라서, 저는 이 섬의 관료 제도를 재편하고, 새로운 법률과 헌장을 제정하며, 정부 절차를 개선하기 위한 조치를 취했습니다." # 13274038096409567380
+  sardinia.0015.desc.emperor: "황제 [emperor.GetFirstName] [emperor.GetHerselfHimself]께서 저를 돕기 위해 수많은 관리들을 보내셨습니다." # 8027813962643005296
+  sardinia.0015.desc.no_emperor: "[ROOT.Char.GetTitleAsNameNoTooltip]로서, 저는 여러 관리들을 거느리고 있습니다." # 11691009150847814008
+  sardinia.0015.desc.official: "그중 한 명인 [official.GetFirstName]이 나의 궁정에 합류하여 이러한 노력을 더욱 효율적으로 조정하는 데 도움을 주기로 하였습니다." # 5835983259934427765
+  sardinia.0015.desc.opportunist: "안타깝게도, [opportunist.GetTitledFirstName]은 이 일에 큰 영향력을 행사하며 상황을 [opportunist.GetHerHis] 이익에 맞춰 조작한 듯합니다. [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]는 제 행동으로 이익을 얻겠지만, [opportunist.GetFirstNameNoTooltip] 주변에는 신중을 기해야 할 것 같습니다." # 4617715009588050582
+  sardinia.0015.desc.conclusion: "제 행동 덕분에 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]는 안정되고 번영하는 섬이 될 것입니다." # 9737663871747161387
+  sardinia.0015.a: "[GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]이 번영할 것이라 확신합니다." # 15594627657319271483
   sardinia.0016.t: "북아프리카 네트워크 확장" # 5432801036410697854
-  sardinia.0016.desc.intro: "[GetGeographicalRegion('RICE_sardinia_region').GetName]가 북아프리카를 향해 재정립한 이후로, 지중해 전역에서 섬의 정치, 경제, 문화적 네트워크가 강화되었습니다. 그리하여 저는 최근 정착민을 초청하고, 대사관을 교환하고, 무역을 장려하는 등 북아프리카와의 관계를 구축하기 위해 노력했습니다." # 16804060235727901868
-  sardinia.0016.desc.north_african_ruler: "저의 노력은 [north_african_ruler.GetFullName] 님의 눈에도 띄었으며, [north_african_ruler.GetHerHis] 영토와 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip] 간의 유대 관계를 강화하는 데에도 큰 역할을 하셨습니다. 이는 우리 모두에게 이득이 될 것입니다." # 12283744233286593105
-  sardinia.0016.desc.no_north_african_ruler: "바라건대, 북아프리카의 몇몇 통치자들과 다른 중요 인사들이 바다나 신앙, 문화로 나뉘어 있을지라도 저의 노력을 알아주기를 바랍니다." # 3631099826249191206
-  sardinia.0016.desc.merchant: "또한, [county.GetNameNoTier] 출신의 [north_african_culture.GetName] 상인 [merchant.GetFirstName]이 우리 영토 간의 관계 개선을 돕기 위해 제 궁정에 도착했습니다." # 12796155561247219106
-  sardinia.0016.desc.conclusion: "이러한 번영은 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]를 약탈하려 하거나 심지어 섬 주변의 증가된 해상 교통을 대상으로 작전 기지로 사용하려는 탐욕스러운 해적과 불량배의 관심을 끌 수 있습니다. 하지만 이러한 일이 발생하더라도 장기적인 이점이 그만한 가치가 있기를 바랍니다." # 7251057149319001154
-  sardinia.0016.a: "지중해는 정말로 기회의 바다입니다." # 501481845943563783
-  sardinia.0017.t: "섬을 요새화하기" # 10731933123549270844
-  sardinia.0017.desc.intro: "[GetGeographicalRegion('RICE_sardinia_region').GetName]가 현실이 아닌 정신적으로 독립된 섬으로 부상한 후, 지역 사회는 외부 침입으로부터 섬을 보호하기 위해 열심히 노력해 왔습니다. 저는 최근 섬의 방어 시설을 재건하거나 오랜 검증을 거친 [GetPlayer.Custom('RICE_sardinia_none_ending_type')] 기술을 사용하여 새로운 방어 시설을 건설하고 습격이나 공격에 대비하도록 주민들을 훈련시키는 등 이러한 프로젝트에 참여하기 위해 노력했습니다." # 8579078700706619416
-  sardinia.0017.desc.local: "현지인들 중 상당수가 제 개입을 기뻐하고 있습니다. 그중 [county.GetNameNoTier] 출신의 저명한 인사 [local.GetFirstName] 님이 저를 돕기 위해 궁정에 도착하기까지 했습니다." # 9673089053932898881
-  sardinia.0017.desc.conclusion: "우리가 경계를 늦추지 않는 한, [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]는 외부 세력의 사소한 변덕이나 조종에 휘둘리지 않는 지중해의 자랑스럽고 자급자족적인 일부로 남을 것입니다." # 15996441209779031749
-  sardinia.0017.a: "[GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip] 만세!" # 12958048978859809605
-  sardinia.0018.t: "[ROOT.Char.GetDynasty.GetBaseNameNoTooltip]의 콘다그" # 3564955191870223358
-  sardinia.0018.desc: "시간이 흐르면서, [ROOT.Char.GetCulture.GetName] 사람들은 우리 종교 기관과 건물과 관련된 기부, 기증, 임대, 구매, 소송 및 기타 재정 및 법적 활동을 추적하기 위해 #italic 콘다게스#!를 광범위하게 사용했습니다.\n\n[ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]의 유명 가문들, 특히 [ROOT.Char.GetDynasty.GetBaseName] 가문을 비롯하여 수년 동안 여러 #italic 콘다게스#!를 작성했습니다. 그러나 그것들은 흩어져 있습니다. 일부는 우리 거주지와 사무실에 보관되어 있는 반면, 다른 일부는 지역 [ROOT.Char.GetFaith.HouseOfWorship]에 보관되어 있으며, 항상 상태가 좋은 것은 아닙니다.\n\n따라서 저는 우리 가문의 #italic 콘다게스#!를 최대한 많이 찾아 재편집하라고 명령했습니다. 이것은 우리가 법적 분쟁에 휘말리거나 부동산을 사고파는 것과 같은 다양한 거래를 하고 싶거나 심지어 우리 가문의 과거 자선 활동을 다른 사람에게 보여주고 싶을 때와 같이 미래에 큰 도움이 될 것입니다." # 7469276547734451332
-  sardinia.0018.a: "지금이라도 이걸 하는 것이 다행이군!" # 3776478501476049761
+  sardinia.0016.desc.intro: "[GetGeographicalRegion('RICE_sardinia_region').GetName]이 북아프리카로 방향을 전환한 이후 지중해를 가로질러 섬의 정치, 경제, 문화 네트워크가 강화되어 왔습니다. 그래서 최근 북아프리카와의 관계를 구축하기 위해 이주자를 초청하고, 사절을 교환하며, 무역을 장려하는 등의 노력을 기울였습니다." # 16804060235727901868
+  sardinia.0016.desc.north_african_ruler: "[북아프리카_지배자.GetFullName]께서 저의 노력을 눈여겨보셨습니다. [북아프리카_지배자.GetHerHis] 영토와 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]의 관계 강화에도 적극적으로 나서셨습니다. 서로에게 이익이 될 만한 일입니다." # 12283744233286593105
+  sardinia.0016.desc.no_north_african_ruler: "북아프리카의 중요 인물들과 통치자들이, 바다나 믿음, 문화로 인해 갈라져 있더라도, 제 노력을 이해해 주기를 바랍니다." # 3631099826249191206
+  sardinia.0016.desc.merchant: "[북아프리카문화.이름] 상인 [상인.이름]이 [지역.단계없는이름]에서 저희 궁정에 도착하여 양국 간 개선된 관계를 돕기 위해 찾아왔습니다." # 12796155561247219106
+  sardinia.0016.desc.conclusion: "그러한 번영은 약탈을 탐내는 탐욕스러운 해적과 못된 자들의 관심을 끌 가능성이 있으며, 그들은 [GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]를 약탈하거나 심지어 그 섬 주변 증가하는 해상 교통로를 공격하는 거점으로 삼을지도 모릅니다. 하지만 이러한 일이 발생하더라도 장기적인 이익이 충분히 보상될 것이라고 기대합니다." # 7251057149319001154
+  sardinia.0016.a: "지중해는 참으로 기회가 넘쳐나는 바다입니다." # 501481845943563783
+  sardinia.0017.t: "섬을 강화하는 중" # 10731933123549270844
+  sardinia.0017.desc.intro: "[GetGeographicalRegion('RICE_sardinia_region').GetName]이 실질적인 독립은 아니지만 정신적으로 섬으로 떨어져 나간 이후, 현지 공동체는 외부 침략으로부터 섬을 보호하기 위해 열심히 노력해 왔습니다. 저는 최근 이러한 프로젝트에 참여하여 시간이 검증된 [GetPlayer.Custom('RICE_sardinia_none_ending_type')] 기술을 이용하여 섬의 방어 시설을 재건하거나 새로 건설하고, 주민들을 훈련시켜 모든 습격 및 공격에 대비하도록 노력했습니다." # 8579078700706619416
+  sardinia.0017.desc.local: "지역 주민들 가운데 많은 이들이 저의 참여에 만족하는 듯합니다. 그중 [county.GetNameNoTier] 출신 유력한 인사 [local.GetFirstName]께서 저의 궁정에 도움을 주기 위해 찾아오셨습니다." # 9673089053932898881
+  sardinia.0017.desc.conclusion: "[GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]가 지중해의 자랑스럽고 자급자족적인 일부로 남아 있으려면, 우리는 계속 경계를 늦추지 말아야 합니다. 외부 세력의 사소한 욕심과 조작에 휘둘리지 않을 것입니다." # 15996441209779031749
+  sardinia.0017.a: "[GetGeographicalRegion('RICE_sardinia_region').GetNameNoTooltip]의 영원한 번영을 빕니다!" # 12958048978859809605
+  sardinia.0018.t: "[ROOT.Char.GetDynasty.GetBaseNameNoTooltip]의 콩다게스" # 3564955191870223358
+  sardinia.0018.desc: "시간이 흘러, [ROOT.Char.GetCulture.GetName] 사람들은 #italic condaghes#!를 광범위하게 활용하여 종교 기관 및 건물과 관련된 기부, 기증, 임대, 구매, 소송 등의 재정 및 법률 활동을 추적해 왔습니다.\n\n주목할 만한 대부분의 [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip] 가문, [ROOT.Char.GetDynasty.GetBaseName] 가문을 포함하여, 수많은 #italic condaghes#!를 작성해 왔습니다. 하지만 이들은 산재해 있으며, 일부는 자택이나 사무실에 보관되고, 다른 일부는 지역 [ROOT.Char.GetFaith.HouseOfWorship]에 보관되어 있으며, 항상 양호한 상태가 아닙니다.\n\n따라서, 저는 우리 가문의 #italic condaghes#!를 가능한 많이 찾아 다시 정리하도록 명령했습니다. 이는 향후 법적 분쟁에 휘말렸을 때, 재산 매매 등의 거래에 참여할 때, 또는 단순히 다른 이들에게 가문의 과거 자선 행위를 보여주고자 할 때 큰 도움이 될 것입니다." # 7469276547734451332
+  sardinia.0018.a: "지금 이렇게 하는 것이 다행이군!" # 3776478501476049761
   sardinia.0019.t: "팔리오 말에 투자하기" # 17612880941938420282
-  sardinia.0019.desc.intro: "[GetPlayer.GetCulture.GetName]와 같은 위대한 [GetPlayer.GetHouse.GetName] 가문은 훌륭하게 품종 개량된 경주마를 소유하는 것이 예상됩니다. 이러한 말이 없다면, 영광스러운 팔리오 경주에서 다른 가문들과 경쟁력을 갖추기 어려울 것입니다.\n\n그 이유는" # 6555262567785789251
-  sardinia.0019.desc.investor: "제가 주도권을 잡았습니다" # 7266934424005926254
-  sardinia.0019.desc.other: "[ROOT.Char.Custom2('RelationToMe', palio_horse_investor)](이)가 주도권을 잡았습니다" # 8500903876187122337
-  sardinia.0019.desc.conclusion: "우리 가문의 경주마에 추가 투자를 할 것입니다. 기존 마구간에서 사육하거나, 해외에서 새로운 말을 사거나, 둘 다 할 가능성이 높습니다. 우리가 계획을 잘 세운다면, 앞으로 몇 년 동안 이 지역의 팔리오스를 지배할 수 있을 것입니다!" # 15490030006772401959
-  sardinia.0019.a: "우리 말들이 우리에게 많은 위대한 승리를 가져다줄 것입니다!" # 2983867903058189502
-  sardinia.0019.small.tooltip: "[house|E]가 [GetModifier('RICE_sardinia_palio_horse_investment_small_modifier').GetNameWithTooltip] [modifier|E]를 보유하는 동안, [palio_race|E]에서 승리할 확률이 아주 약간 증가합니다." # 7448541355208791055
-  sardinia.0019.medium.tooltip: "[가문|E]이 [GetModifier('RICE_sardinia_palio_horse_investment_medium_modifier').GetNameWithTooltip] [modifier|E]를 보유하는 동안, [팔리오_경주|E]에서 승리할 확률이 소폭 증가합니다" # 15422668655924998120
-  sardinia.0019.large.tooltip: "[house|E]가 [GetModifier('RICE_sardinia_palio_horse_investment_large_modifier').GetNameWithTooltip] [modifier|E]를 보유하는 동안, [palio_race|E]에서 승리할 확률이 보통 수준으로 증가합니다." # 5368391055656442905
-  sardinia.0020.t: "떠날 준비" # 17059901927481154147
-  sardinia.0020.desc: "[host.GetTitledFirstName]께서 [location.GetName]에서 성대한 팔리오를 개최한다는 소식을 들었을 때, 저는 꼭 참석해야겠다고 생각했습니다. 이 지역 전역에서 고위 인사와 귀족들이 이 경마를 보러 올 수 있으며, 어쨌든 모두에게 축제 분위기가 될 것입니다.\n\n여행 준비를 마쳤으니, 이제 팔리오로 향할 시간입니다." # 7655617189593906554
-  sardinia.0020.a: "정말 재미있기를 바랍니다!" # 14148682086268505466
-  sardinia.0021.t: "팔리오에 참가하시겠습니까?" # 14903107092826680933
-  sardinia.0021.desc: "팔리오를 기대하며, 이러한 경주가 [ROOT.Char.GetHouse.GetName] 가문과 같은 위대한 가문이 명성과 위신을 얻을 수 있는 절호의 기회라는 것을 생각해 봅니다... 우리 가문의 경주마를 데려와 이 대회에 참가하는 한 말입니다. 그렇긴 하지만, 이런 일을 위해 말을 준비하는 데는 꽤 많은 비용이 듭니다." # 15561882205878939790
-  sardinia.0021.a: "그래서 이번에는 여기에서 지켜보기만 하는 것입니다." # 4387790121968240436
-  sardinia.0021.a.tooltip: "당신의 [house|E]는 [palio_race|E]에 참여하는 기수에게 돈을 지불하지 않을 것이며, #N [palio_race|E]에서 승리하여 보상을 얻을 기회를 포기합니다#!" # 7003351841646524507
-  sardinia.0021.b: "저희 최고의 경주마가 이번 기회를 위해 준비되었습니다." # 5820363435278896291
-  sardinia.0021.b.tooltip: "당신의 [house|E]는 [palio_race|E]에서 우승할 기본 확률을 갖습니다. 당신의 [house|E]의 누군가가 #V $RICE_sardinia_invest_in_palio_horses$#! [decision|E]을 내린 경우 이 확률을 높일 수 있습니다." # 17929679171658690675
-  sardinia.0021.c: "이 경주에서 이길 수 있도록 많은 투자를 했습니다!" # 8899350911511741745
-  sardinia.0021.c.tooltip: "당신의 [house|E]는 [palio_race|E]에서 #P 더 높은#! 승리 확률을 갖게 됩니다. 당신의 [house|E] 구성원 중 누군가가 #V $RICE_sardinia_invest_in_palio_horses$#! [decision|E]을 내렸다면 이 확률은 개선될 수 있습니다." # 127951648735687815
+  sardinia.0019.desc.intro: "[GetPlayer.GetCulture.GetName]와 같은 위대한 [GetPlayer.GetHouse.GetName] 가문이 훌륭한 경주마를 기르는 것은 당연한 일입니다. 그런 말이 없다면, 영광스러운 팔리오 경마에서 다른 가문들과 경쟁할 수 없을 것입니다.\n\n그렇기 때문에" # 6555262567785789251
+  sardinia.0019.desc.investor: "스스로 나섰습니다." # 7266934424005926254
+  sardinia.0019.desc.other: "[ROOT.Char.Custom2('RelationToMe', palio_horse_investor)]가 주도권을 잡았습니다." # 8500903876187122337
+  sardinia.0019.desc.conclusion: "우리 집의 경주마에 더 투자하기 위해, 기존의 경주마 품종 개량, 해외에서 새 경주마 구매, 또는 아마도 둘 다를 고려할 것입니다.  만약 우리가 잘 해낸다면, 지역의 팔리오 경주에서 수년간 우위를 차지할 것입니다!" # 15490030006772401959
+  sardinia.0019.a: "우리 기병은 많은 위대한 승리를 가져다줄 것입니다!" # 2983867903058189502
+  sardinia.0019.small.tooltip: "[house|E]가 [GetModifier('RICE_sardinia_palio_horse_investment_small_modifier').GetNameWithTooltip] [modifier|E]를 보유하는 한, [palio_race|E]에서 승리할 가능성이 조금 높아집니다." # 7448541355208791055
+  sardinia.0019.medium.tooltip: "귀하의 [house|E]가 [GetModifier('RICE_sardinia_palio_horse_investment_medium_modifier').GetNameWithTooltip] [modifier|E]를 보유하는 동안, [palio_race|E]에서 승리할 확률이 조금 높아집니다." # 15422668655924998120
+  sardinia.0019.large.tooltip: "[house|E]가 [GetModifier('RICE_sardinia_palio_horse_investment_large_modifier').GetNameWithTooltip] [modifier|E]를 보유하는 한, [palio_race|E]에서 승리할 가능성이 상당히 높아집니다." # 5368391055656442905
+  sardinia.0020.t: "떠나려 합니다" # 17059901927481154147
+  sardinia.0020.desc: "[host.GetTitledFirstName]께서 [location.GetName]에서 대규모 팔리오 경주를 개최하신다는 소식을 접하자, 참석하지 않을 수 없었습니다. 이 지역의 귀족들과 고관대작들이 이 말 경주를 지켜볼 것이며, 누구에게나 축제가 될 것이기 때문입니다.\n\n여행 준비를 마치고, 이제 팔리오 경주로 향합니다." # 7655617189593906554
+  sardinia.0020.a: "즐거운 시간이 되기를 바랍니다!" # 14148682086268505466
+  sardinia.0021.t: "팔리오 대회에 참가하시겠습니까?" # 14903107092826680933
+  sardinia.0021.desc: "파리오가 다가오는 것을 생각하며, [ROOT.Char.GetHouse.GetName] 같은 대가문이 명예와 명성을 얻을 좋은 기회라는 것을 되새깁니다. 물론, 가족의 경주마를 출전시켜 이 경쟁에 참여한다면 말입니다. 그러나 이런 준비를 위해서는 엄청난 비용이 필요하다는 사실을 잊어서는 안 됩니다." # 15561882205878939790
+  sardinia.0021.a: "그래서 이번엔 지켜보기만 하기로 했어." # 4387790121968240436
+  sardinia.0021.a.tooltip: "귀하의 [house|E]는 [palio_race|E]에 참여할 기수에게 아무런 돈도 지불하지 않으며, [palio_race|E]에서의 승리로 얻을 수 있는 보상 기회를 #N 포기#합니다." # 7003351841646524507
+  sardinia.0021.b: "우리 최고의 경주마가 이 자리에 대비되어 있습니다." # 5820363435278896291
+  sardinia.0021.b.tooltip: "귀하의 [house|E]는 기본적으로 [palio_race|E]에서 승리할 확률을 가지고 있습니다. 이 확률은 귀하의 [house|E] 소속 누군가가 #V $RICE_sardinia_invest_in_palio_horses$# 결정을 내렸다면 향상될 수 있습니다." # 17929679171658690675
+  sardinia.0021.c: "이번 경주에서 이길 수 있도록 많은 투자를 했습니다!" # 8899350911511741745
+  sardinia.0021.c.tooltip: "귀하의 [house|E]는 [palio_race|E]에서 승리할 #P 더 높은# 확률을 가질 것입니다.  만약 귀하의 [house|E] 소속 누군가가 #V $RICE_sardinia_invest_in_palio_horses$# 결정을 내렸다면 이 확률을 높일 수 있습니다." # 127951648735687815
   sardinia.0022.t: "도착" # 4877148824439775158
-  sardinia.0022.desc: "저는 지금 [actual_location.GetName]에 도착했고, 너무 늦지 않게 도착했습니다. 이곳 사람들은 곧 열릴 팔리오를 준비하며 이리저리 뛰어다니느라 흥분으로 들떠 있으며, 방문객들은 멀리서나 가까이서나 도착하고 있습니다. 팔리오는 단순히 경주 자체만이 아닙니다. 경주는 결국 축제 기간의 절정일 뿐이므로 해야 할 일이 많습니다. 이번에는 팔리오가 개최됩니다." # 18182401961114908549
-  sardinia.0022.desc.religious.christian: "[actual_location.GetName]에서 인기 있는 [faith.GetAdjective] 성인의 축일을 기념하기 위해." # 13683062238581654574
-  sardinia.0022.desc.religious.non_christian: "지역 [faith.GetAdjective] 성인을 기리는 종교 행사를 기념합니다." # 1821786825584661622
-  sardinia.0022.desc.civic: "[actual_location.GetName]의 시민 역사에서 중요한 기념일을 기념하기 위해." # 2583432734142716600
-  sardinia.0022.desc.dynastic: "[host.GetHouse.GetName] 가문의 최근 사건과 승리를 기리며." # 12211805457323645726
-  sardinia.0022.desc.horses: "나중에 팔리오 경주에 참가할 말과 기수도 확인합니다. 현재로서는 모든 것이 잘 진행되는 것 같습니다. 바라건대, 이번에는 그들이 이기기를 바랍니다!" # 13432364108245050816
+  sardinia.0022.desc: "이제 [actual_location.GetName]에 도착했는데, 참으로 적절한 시점입니다. 이곳 사람들은 곧 열릴 팔리오를 위해 분주하게 움직이고 있으며, 멀고 가까운 곳에서 손님들이 몰려들고 있습니다.\n\n팔리오는 단순히 경주 그 자체가 아닙니다. 경주는 결국 축제 기간의 절정일 뿐이므로, 해야 할 일이 많습니다. 이번 팔리오는" # 18182401961114908549
+  sardinia.0022.desc.religious.christian: "[actual_location.GetName]의 인기 있는 [faith.GetAdjective] 성인의 축일을 기념하여 성대한 연회를 베풀겠습니다." # 13683062238581654574
+  sardinia.0022.desc.religious.non_christian: "지역 [faith.GetAdjective] 성인을 기리기 위한 종교 행사를 축하하기 위해." # 1821786825584661622
+  sardinia.0022.desc.civic: "[actual_location.GetName] 시민 역사의 중요한 기념일에 기념하기 위해서." # 2583432734142716600
+  sardinia.0022.desc.dynastic: "[host.GetHouse.GetName] 가문의 최근 승리와 업적을 기리며." # 12211805457323645726
+  sardinia.0022.desc.horses: "말과 기수를 점검해 보았습니다. 현재까지는 문제가 없어 보입니다. 이번엔 꼭 이길 수 있기를 바랍니다!" # 13432364108245050816
   sardinia.0022.a: "최종 준비를 감독해야 합니다." # 13175809324006664929
-  sardinia.0023.a: "자리를 잡읍시다." # 9761342550073180551
-  sardinia.0024.t: "제공 및 연회" # 17462066012220180357
-  sardinia.0024.desc: "오늘 밤, 이곳 [actual_location.GetName]의 주민들과 방문객 모두가 #italic offerta#!, 즉 [host.GetFaith.GetAdjective] 제례 의식에 참여합니다. 이 의식은 너무나 중요해서 참석하지 않은 지역 주민에게는 벌금이 부과됩니다.\n\n그 후 [host.Custom('DefaultPriestTitlePlural')]과 연예인 등을 포함한 시내 행렬이 이어지고, 우리는 주요 시립 건물 중 한 곳에 도착하여 저를 포함한 많은 존경받는 손님들을 위한 성대한 연회가 열립니다." # 8736287978338282462
-  sardinia.0024.a: "멋지고 축제 분위기가 나는 행사입니다!" # 4173172954911706330
-  sardinia.0026.t: "경주 시작!" # 13047339293830641939
-  sardinia.0026.desc.intro.christian: "오늘은 성인의 축일 아침입니다." # 5492555550052986739
-  sardinia.0026.desc.intro: "오늘은 공휴일 아침입니다." # 10604672785025164383
-  sardinia.0026.desc: "우리는 모두 먼저 [actual_location.GetName]에 있는 주요 [host.GetFaith.HouseOfWorship]에서 더 많은 공물을 바치기 전에 또 다른 성대한 행렬을 목격해야 합니다. 모두 좋고 재미있지만, 팔리오의 흥분과는 비교가 되지 않습니다. 팔리오가 시작될 무렵에는 시골의 거지와 농민부터 저와 같은 상인과 귀족까지, 각계각층의 사람들로 거리가 가득 찹니다. 말들이 줄지어 서 있을 때," # 6367448952899975556
-  sardinia.0026.desc.horses: "우리 가문을 대표하는 말, [ROOT.Char.GetHouse.GetName]의 말이 우리 가문의 색깔로 장식된 장비를 착용한 것을 보았다! 나와 나의 가신들은 격렬하게 환호하며 기수를 격려한다." # 9598391306361148704
-  sardinia.0026.desc.none: "나는 다양한 가문의 색깔로 장식된 장비를 착용한 말들을 보는데, 대부분 귀족이지만 평민들도 일부 있습니다. 모두가 그들을 향해 열광적으로 환호하고 있습니다." # 13567924514012202047
-  sardinia.0026.desc.conclusion: "나팔 소리와 함께 경주가 시작되고, 말들은 초자연적인 속도로 도시로 질주합니다!" # 4576984142147922527
-  sardinia.0026.info: "#bold 역사적 배경:#! 현대 시대에 이르러 시에나에서 가장 오래된 팔리오 대회인 #italic 팔리오 디 시에나#!은 일반적으로 도시의 중앙 광장인 #italic 피아짜 델 캄포#!를 돌아가는 형태로 치러집니다. 하지만 17세기 이전의 시에나 팔리오는 원형 경주가 아니었습니다. 대신 도시 성문에서 또는 성문 밖에서 시작하여 도시를 거쳐 지나간 후 마을 광장에서 끝났습니다." # 17071650298343379122
-  sardinia.0028.t: "결승선으로!" # 17226918277758728121
-  sardinia.0028.desc: "공중에서 우레와 같은 소리가 들립니다. 결승선을 향해 달려오는 빠른 말발굽 소리뿐만 아니라 흥분한 군중의 환호와 고함 소리도 들립니다. 그러다 우리는 모두 보게 됩니다. 한 마리의 말이 결승선을 통과하는 것을." # 18424110368434280943
-  sardinia.0028.desc.house_host: "우승마는 다름 아닌 우리 [house|E] [palio_winner.GetHouse.GetName] 가문의 말입니다! 기쁨에 소리치고 웃지 않을 수 없군요! 다른 귀족 가문들은 모두 우리를 부러워하며 쳐다볼 것이며, 모두가 우리 가문의 이름을 경외하며 말할 것입니다." # 2674497706926098533
-  sardinia.0028.desc.house_other: "우승마는 [palio_winner.GetTitledFirstName]의 후원을 받는 [house|E] [palio_winner.GetHouse.GetName] 가문의 소유입니다. 의심할 여지 없이 [palio_winner.GetHouse.GetNameNoTooltip] 가문과 그들의 종자들은 이 결과에 매우 기뻐할 것입니다." # 3576827589857259358
-  sardinia.0028.desc.merchant: "우승한 말은 분명히 돈을 잘 낸 상인 가문의 것입니다. 그들은 우리처럼 엘리트 귀족은 아니지만, 그들의 업적은 인상적이라는 것을 마지못해 인정해야 합니다." # 16285865040962236847
-  sardinia.0028.desc.patrician: "우승마는 [actual_location.GetNameNoTooltip]의 소규모 귀족 가문 중 한 곳 소유입니다. 오늘은 분명히 그들 가문의 역사에 길이 남을 날이 될 것입니다." # 16454640318605640215
-  sardinia.0028.desc.conclusion: "승리한 말의 기수가 팔리오를 주관한 관리들에게 다가가 이 대회에서 승리했다는 증표로 팔리오 깃발을 받습니다. 모두가 환호하고 축하하며 외치는 가운데 우레와 같은 소리가 도시 전체에 울려 퍼집니다." # 15592104400961341968
-  sardinia.0028.a: "팔리오 경주가 끝나지만, 아직 더 많은 것이 남아 있습니다!" # 11934143793146152504
+  sardinia.0023.a: "자리 잡아 봅시다." # 9761342550073180551
+  sardinia.0024.t: "제안과 연회" # 17462066012220180357
+  sardinia.0024.desc: "오늘 밤, [actual_location.GetName] 주민들과 방문객들을 포함한 모든 이들이 #italic offerta#!, 즉 [host.GetFaith.GetAdjective] 제물 의식에 참여합니다. 이 의식은 지역 주민들이 참석하지 않을 경우 벌금이 부과될 정도로 중요합니다.\n\n이후 마을을 행진합니다. 이 행진에는 [host.Custom('DefaultPriestTitlePlural')], 연예인 등이 참여합니다. 그리고 마침내 중요한 시청 건물 앞에 도착하여, 저를 포함한 많은 귀빈들을 위해 장엄한 연회가 준비되어 있습니다." # 8736287978338282462
+  sardinia.0024.a: "즐거운 축제입니다!" # 4173172954911706330
+  sardinia.0026.t: "대결이 시작됩니다!" # 13047339293830641939
+  sardinia.0026.desc.intro.christian: "성인 축일 아침입니다." # 5492555550052986739
+  sardinia.0026.desc.intro: "오늘은 축일 아침입니다." # 10604672785025164383
+  sardinia.0026.desc: "저희 모두 우선 [actual_location.GetName]에 있는 주요 [host.GetFaith.HouseOfWorship]에 더 많은 공물을 바치기 전에 또 다른 대규모 행렬을 목격해야 합니다. 모두 좋고 재미있지만, 팔리오의 흥분과는 비교가 되지 않습니다.\n\n팔리오가 시작될 무렵이면 거리에는 온갖 계층의 사람들이 줄지어 서 있습니다. 시골에서 온 거지와 농민부터 저와 같은 상인과 귀족까지 말입니다. 말이 줄을 설 때," # 6367448952899975556
+  sardinia.0026.desc.horses: "우리 가문, [ROOT.Char.GetHouse.GetName]을 상징하는 말이 가문의 색으로 장식된 장비를 착용하고 있군! 나와 내 수행원들은 열렬히 환호하며 기수를 격려한다." # 9598391306361148704
+  sardinia.0026.desc.none: "여러 가문의 문장으로 장식된 장비를 착용한 말들이 보이는데, 대부분 귀족 가문이지만 평민 가문의 문장도 몇몇 보인다. 모두가 열광적으로 환호하고 있다." # 13567924514012202047
+  sardinia.0026.desc.conclusion: "트럼펫 소리와 함께 경주가 시작되고, 말들이 초자연적인 속도로 도시로 질주합니다!" # 4576984142147922527
+  sardinia.0026.a: "가자! 가자! 가자!" # 7620981686862616562
+  sardinia.0026.info: "#emphasis 역사적 배경:#! 현대에 현존하는 가장 오래된 팔리오인 시에나의 #italic 팔리오 디 시에나#!는 일반적으로 도시의 주요 광장인 #italic 델 캄포 광장#! 주변의 서킷에서 개최됩니다. 그러나 17세기 이전에는 시에나의 팔리오는 순환적으로 진행되지 않았습니다. 대신, 도시 문 안이나 밖에서 시작하여 도시를 통과한 다음 광장에서 끝났습니다." # 17071650298343379122
+  sardinia.0028.t: "결승선을 향해!" # 17226918277758728121
+  sardinia.0028.desc: "공중에서 우레와 같은 소리가 울려 퍼집니다. 결승선을 향해 달려오는 빠른 말발굽 소리뿐만 아니라 흥분한 관중들의 함성과 고함 소리가 천둥처럼 울려 퍼집니다. 그리고 마침내 모두가 봅니다. 한 마리의 말이 결승선을 통과하는 것을!" # 18424110368434280943
+  sardinia.0028.desc.house_host: "우승마는 우리 [house|E] [palio_winner.GetHouse.GetName](으)로 밝혀졌습니다! 기쁨에 소리치고 웃음을 터뜨릴 수밖에 없군요! 다른 귀족 가문들은 분명 질투에 찬 눈으로 우리를 바라볼 겁니다. 모든 이들이 경외심을 담아 우리 가문의 이름을 입에 올릴 테니까요." # 2674497706926098533
+  sardinia.0028.desc.house_other: "우승마는 [palio_winner.GetTitledFirstName]께서 후원하는 [house|E] [palio_winner.GetHouse.GetName] 가문의 소유입니다. 의심할 여지 없이, [palio_winner.GetHouse.GetNameNoTooltip] 가문과 그 가신들은 이 결과에 매우 기뻐할 것입니다." # 3576827589857259358
+  sardinia.0028.desc.merchant: "우승한 말은 분명히 값을 후하게 쳐준 상인 가문의 소유입니다. 그들은 우리 같은 엘리트 귀족은 아니지만, 그들의 업적은 인상적이라고 마지못해 인정해야겠습니다." # 16285865040962236847
+  sardinia.0028.desc.patrician: "우승마는 [actual_location.GetNameNoTooltip]의 하급 귀족 가문 중 하나의 소유입니다. 그들의 가문 역사에 길이 남을 날이 될 것입니다." # 16454640318605640215
+  sardinia.0028.desc.conclusion: "경주에서 승리한 기수가 팔리오 깃발을 받기 위해 이 경기를 주최한 관리들에게 다가갑니다. 이는 이 대회에서 승리했다는 표시입니다. 모두가 환호하고 축하하는 가운데 우레와 같은 소리가 도시 전체를 가득 채웁니다." # 15592104400961341968
+  sardinia.0028.a: "팔리오 경주가 막을 내렸지만, 아직 더 남았습니다!" # 11934143793146152504
   sardinia.0028.b: "승리는 달콤하지만, 축제는 끝나지 않았습니다!" # 4536414897295470898
-  sardinia.0028.info: "#emphasis 역사적 배경:#! 중세와 르네상스 시대의 팔리오 경주에서 승리한 기수들은 종종 그들의 봉사에 대한 대가를 받았습니다. 일부는 여성이었거나 심지어 어린아이였는데, 후자는 그들의 작은 키 때문이었습니다. 예를 들어, 1581년 8월 15일에 시에나에서 열린 팔리오 경주는 12세 목동 소녀인 비르지니아 탓치가 이겼습니다. 그녀는 시인들에게 일종의 여성 전사로 묘사될 뿐만 아니라, 당시 시에나는 피렌체의 지배를 받고 있었기에, 그녀는 피렌체 지배에 대한 지역 자긍심과 저항의 상징이 되었습니다." # 3482621460067041527
-  sardinia.0030.t: "대연회" # 546564002087414286
-  sardinia.0030.desc.intro: "경주가 끝나자 도시 전체가 아수라장이 되었지만, 모두가 흥청망청 축제를 즐기는 좋은 종류의 아수라장이었습니다. 이는 이러한 휴일 동안 팔리오가 끝나면 하는 전통입니다.\n\n지역 관리들은 또한 자선 기부를 할 시간을 갖습니다." # 6975352864684809352
-  sardinia.0030.desc.host: "#bold Historical Context:#\n\nThe Kingdom of $k_nubia$ was once a powerful state that threatened even the mighty Byzantine Empire. The Kingdom of $k_nobadia$, however, formed by the Nobatae after the fall of the Kingdom of $k_murus$, is not nearly as strong. The Nobatae have many issues - not the least of which is that the $c_nobadia$ has been divided between two brothers. There are other threats as well; the $d_alodia$ to the south follows a rival sect of Miaphysite Christianity, and the Blemmyes to the east continue to raid along the Nile. But there is also opportunity; there are still many temples dedicated to the old gods, like the temple of Isis at Philae, and the Kingdom of $k_makuria$ to the north is also relatively weak. Perhaps it is time for the Nobatae to unify Nubia once more.\n\n#bold 역사적 배경:#\n\n$k_nubia$ 왕국은 한때 강력한 국가로서, 강력한 비잔티움 제국조차 위협했습니다. 그러나 $k_murus$ 왕국 몰락 후 노바타에인들이 세운 $k_nobadia$ 왕국은 그다지 강하지 않습니다. 노바타에인들에게는 많은 문제가 있습니다. 그 중에서도 $c_nobadia$가 두 형제에게 분할된 것이 가장 큰 문제입니다. 다른 위협도 있습니다. 남쪽의 $d_alodia$는 미아피시스 기독교의 경쟁 종파를 따르고 있으며, 동쪽의 블렘미는 나일 강을 따라 계속 습격합니다. 그러나 기회도 있습니다. 필레의 이시스 신전과 같이 옛 신에게 바쳐진 사원이 여전히 많고, 북쪽의 $k_makuria$ 왕국도 비교적 약합니다. 어쩌면 노바타에인들이 누비아를 다시 한번 통일할 때가 된 것일지도 모릅니다." # 13921629330573334334
+  sardinia.0028.info: "#emphasis 역사적 배경:#! 중세 및 르네상스 시대 팔리오의 우승 기수들은 종종 그 대가로 보수를 받았습니다. 그들 중에는 여성이나 심지어 어린 아이들도 있었는데, 특히 어린 아이들은 작은 체구 때문에 기수로 활약했습니다. 예를 들어, 1581년 8월 15일 시에나에서 열린 팔리오는 12세의 양치기 소녀인 비르지니아 타치가 우승했습니다. 그녀는 시인들에 의해 일종의 여성 전사로 불멸의 존재가 되었을 뿐만 아니라, 당시 시에나가 피렌체의 지배를 받고 있었기 때문에 피렌체 지배에 대한 지역적 자부심과 저항의 상징이 되었습니다." # 3482621460067041527
+  sardinia.0030.t: "성대한 연회" # 546564002087414286
+  sardinia.0030.desc.intro: "경주가 끝나자 도시 전체가 혼란에 빠졌지만, 모두가 흥청망청 축제를 즐기고 연회를 베푸는 좋은 혼란입니다. 이러한 휴일에 팔리오가 끝나면 늘 그래왔습니다.\n\n지역 관리들은 자선 기부를 할 시간도 갖습니다." # 6975352864684809352
+  sardinia.0030.desc.host: "제가 제공한" # 13921629330573334334
   sardinia.0030.desc.guest: "[host.GetTitledFirstName] 제공" # 13097341175641152760
-  sardinia.0030.desc.conclusion: "가난하고 궁핍한 사람들에게 베풀었습니다. 또한 가난한 젊은 여성들에게 추첨을 통해 지참금이 주어졌고, 일부 죄수들은 사면되어 풀려났습니다.\n\n의심할 여지 없이, 아무도 [ROOT.Char.GetFaith.HighGodName]의 자비와 은혜를 잊지 못할 것입니다. 하지만 전반적으로 분위기는 활기차고 생동감 있으며 모두가 즐거운 시간을 보내고 있습니다!" # 16986887366580914701
-  sardinia.0030.a: "[actual_location.GetNameNoTooltip]에서 파티를 제대로 여는군요!" # 6595287964234249547
-  sardinia.0030.info: "#bold 역사적 배경:#  팔리오 경주는 종종 종교 축제일에 열렸기 때문에 도시와 경주를 주관한 자들에게 자선 행위를 할 기회를 제공했습니다. 하지만 이를 통해 지역 정부는 공공 질서 유지를 위한 명백한 역할을 수행할 수 있었습니다. 예를 들어, 젊은 여성들에게 주례를 제공하는 것은 절망 때문에 매춘을 하지 않도록 도울 수 있으며, 죄수들을 석방하는 것은 감옥의 과밀 문제를 완화하는 데 도움이 되었습니다." # 13337041270252608801
+  sardinia.0030.desc.conclusion: "가난하고 궁핍한 자들에게 베풀었습니다. 또한 가난한 젊은 여성들에게 추첨을 통해 지참금을 주었고, 일부 죄수들은 사면되어 석방되었습니다.\n\n의심할 여지 없이, 누구도 [ROOT.Char.GetFaith.HighGodName]의 자비와 은혜를 잊지 못할 것입니다. 여전히, 전반적으로 분위기는 활기차고 생동감 넘치며, 모두가 즐거운 시간을 보내고 있습니다!" # 16986887366580914701
+  sardinia.0030.a: "[actual_location.GetNameNoTooltip]은 파티 여는 법을 제대로 아는군!" # 6595287964234249547
+  sardinia.0030.info: "#emphasis 역사적 배경:#! 팔리오 경주는 종교 축일에 자주 열렸으므로, 도시와 팔리오 경주 주최측이 자선 행위를 할 기회이기도 했습니다. 그러나 이는 또한 지방 정부가 공공 질서 유지에 가시적인 역할을 할 수 있게 해주었습니다. 예를 들어, 젊은 여성들에게 지참금을 제공하는 것은 절망에 빠져 매춘부가 되는 것을 막고, 죄수들을 석방하는 것은 교도소의 과밀화를 줄이는 데 도움이 되었습니다." # 13337041270252608801
   sardinia.0031.t: "메르카토" # 726413878188278316
-  sardinia.0031.desc: "축제와 팔리오가 막을 내리고 먼 곳에서 온 손님들이 짐을 싸기 시작하자, 지역 길드와 상인들이 그들의 상품을 전시하기 위해 거대한 #italic 메르카토#!, 즉 공공 시장을 열었습니다.\n\n이러한 상업 행사를 개최하는 전통은 저와 같은 사람들이 모든 흥분이 끝난 후 마음을 가라앉히기 위해 몇 가지 장신구를 쇼핑하기에 좋은 기회입니다.\n\n지난 며칠간의 즐거움이 모두 끝나버렸다는 것을 생각하니 이상하네요...." # 11990661255168845508
-  sardinia.0031.a: "떠나기 전에 쇼핑할 필요는 없습니다." # 8901448417054555175
-  sardinia.0031.b: "떠나기 전에 여기서 몇 가지 물건을 사고 싶습니다…." # 9114009290614956930
+  sardinia.0031.desc: "휴일과 팔리오 경주가 막을 내리고, 멀리서 온 손님들이 짐을 싸기 시작하자 현지 길드와 상인들이 그들의 상품을 전시하기 위해 거대한 #italic 메르카토#!, 즉 공공 시장을 열었습니다.\n\n이러한 상업 행사를 개최하는 전통은 저와 같은 사람들이 모든 흥분이 끝난 후 기분 전환을 위해 장신구를 쇼핑할 수 있는 좋은 기회입니다.\n\n지난 며칠간의 모든 즐거움이 끝났다는 것을 생각하니 이상합니다...." # 11990661255168845508
+  sardinia.0031.a: "떠나기 전에 쇼핑할 필요 없어." # 8901448417054555175
+  sardinia.0031.b: "가기 전에 여기서 물건 좀 사 가고 싶습니다…." # 9114009290614956930
   sardinia.0032.t: "xxxxx" # 1951045980481827005
   sardinia.0032.desc: "xxxxx" # 1951045980481827005
   sardinia.0032.a: "xxxxx" # 1951045980481827005
@@ -509,79 +511,81 @@
   sardinia.0049.t: "xxxxx" # 1951045980481827005
   sardinia.0049.desc: "xxxxx" # 1951045980481827005
   sardinia.0049.a: "xxxxx" # 1951045980481827005
-  sardinia.0050.t: "매우 위험한 특별 치즈" # 9508130420573086597
-  sardinia.0050.desc: "저는 #italic 이스푼티누#!, 연대감을 강화하고 과거의 도움에 보답하기 위한 작은 전통 [ROOT.Char.GetCulture.GetName] 축제에 와 있습니다. 이번 축제는 [ROOT.Char.GetTitleAsNameNoTooltip]로서 지역 유지들을 도운 저를 기리기 위해 열렸습니다.\n\n음식은 맛있으며, 구운 빵, 삶은 빵, 그리고 온갖 방식으로 조린 고기 등 소박한 [ROOT.Char.GetCulture.GetNameNoTooltip] 요리의 진미를 맛볼 수 있습니다. 축제의 하이라이트는 살아있는 구더기가 있는 썩은 양 치즈인 #italic 카수 마르주#!입니다.\n\n외국인들은 이 치즈를 혐오스럽게 생각하거나 적어도 비웃을 수도 있지만, 우리는 더 잘 압니다. 맛있습니다! 그렇긴 하지만, 꿈틀거리는 구더기를 질식시키기 위해 치즈를 봉지에 넣어 먹기 전에 먹는다고 해서 수치스러운 일은 아니지만, 다른 사람들은 살아있는 채로 먹는 것을 선호합니다." # 9718861082602102468
-  sardinia.0050.a: "나는 겁쟁이가 아니니, 치즈를 있는 그대로 먹을 것이다!" # 12488028178065678043
-  sardinia.0050.b: "먼저 가방에 치즈를 넣겠습니다." # 4034433195139443296
-  sardinia.0050.c: "다시 생각해 보니, 외국인들의 말이 일리가 있군…." # 4953127327478892840
-  sardinia.0050.info: "#bold 역사적 배경:#! #italic 카수 마르주#!는 아마도 사르데냐 전통 요리 중 가장 악명 높은 요리일 것입니다. 치즈 속 벌레가 소화관 기생충 감염을 일으킬 수 있기 때문에 이탈리아에서는 판매가 금지되어 있지만, 여전히 대규모로 생산 및 소비되고 있습니다.\n\n그렇지만, 파리 유충을 음식으로 먹는 것은 사르데냐 요리에만 국한되는 것은 아닙니다. 파리 유충은 고대부터 이미 음식 재료로 인식되었던 것으로 알려져 있습니다. 예를 들어, 로마 작가 플리니우스 장로는 당시 파리 유충이 고급 식품으로 여겨졌다고 언급했습니다. 따라서 #italic 카수 마르주#!는 더 오래된 전통을 가진 음식일 가능성이 있습니다." # 12339434722438845802
-  sardinia.0050.bad.toast: "속이 좋지 않습니다" # 10506873700681686835
+  sardinia.0050.t: "아주 위험하고 특별한 치즈" # 9508130420573086597
+  sardinia.0050.desc: "저는 연대를 강화하고 과거의 도움에 보답하기 위해 열리는 작은 전통 [ROOT.Char.GetCulture.GetName](으)로, #italic ispuntinu#!에 와 있습니다. 이번 연회는 [ROOT.Char.GetTitleAsNameNoTooltip]로서 제가 지역 유지들을 도운 것을 기념하기 위해 열리고 있습니다.\n\n음식은 맛있고, 구이, 삶기, 찜 등 온갖 방법으로 조리한 다양한 빵과 고기 등 소박한 [ROOT.Char.GetCulture.GetNameNoTooltip] 요리의 즐거움을 선사합니다. 연회의 하이라이트는 #italic casu marzu#!입니다. 살아있는 구더기가 들어 있는 썩은 양젖 치즈입니다.\n\n외국인들은 이 치즈를 혐오스럽게 생각하거나, 적어도 비웃을 수 있지만, 우리는 더 잘 알고 있습니다. 맛있습니다! 그렇다고 해서 먹기 전에 꿈틀거리는 유충을 질식시키기 위해 치즈를 봉지에 넣는 것을 부끄러워할 필요는 없지만, 다른 사람들은 살아있는 채로 먹는 것을 선호합니다." # 9718861082602102468
+  sardinia.0050.a: "난 겁쟁이가 아니야, 치즈를 있는 그대로 먹겠어!" # 12488028178065678043
+  sardinia.0050.b: "치즈를 먼저 가방에 넣을게요." # 4034433195139443296
+  sardinia.0050.c: "다시 생각해보니, 외국인들의 말이 일리가 있는 것 같군…." # 4953127327478892840
+  sardinia.0050.info: "#emphasis 역사적 배경:#! #italic 카수 마르주#!는 전통적인 사르데냐 요리에서 가장 악명 높은 요리라고 할 수 있습니다. 치즈 속 구더기는 소화기관의 기생충 감염을 일으킬 수 있기 때문에 이탈리아에서 판매가 금지되어 있지만, 여전히 대규모로 생산되고 소비되고 있습니다.\n\n하지만 구더기를 섭취하는 것은 사르데냐 요리에만 국한된 것이 아닙니다. 예를 들어 구더기를 식량으로 사용하는 것은 이미 고대부터 증명되었습니다. 예를 들어 로마 작가 플리니우스는 구더기가 당대 고급 음식으로 여겨졌다고 언급했습니다. 따라서 #italic 카수 마르주#!는 더 오래된 선례를 가지고 있을 가능성이 있습니다." # 12339434722438845802
+  sardinia.0050.bad.toast: "속이 좋지 않다" # 10506873700681686835
   sardinia.0051.t: "세아다스" # 13128294978208146486
-  sardinia.0051.desc: "[ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]에 있는 [culture.GetName] 마을을 방문하는 동안, 현지인들이 #italic 세아다스#!를 선물했습니다. 세아다스는 페코리노 치즈, 레몬과 오렌지 주스 및 껍질, 라드로 채워진 튀긴 만두로 만들어진 전통적인 [culture.GetNameNoTooltip] 디저트이며, 꿀, 설탕, 소금으로 덮여 있습니다. 소박한 기원에도 불구하고 맛있는 간식입니다." # 5118754338667769813
-  sardinia.0051.a: "짭짤하고 달콤한 맛의 조화가 훌륭하군요!" # 11349531289576708132
+  sardinia.0051.desc: "[ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier]의 [culture.GetName] 마을을 방문하던 중, 현지인들이 #italic 세아다스#! 를 선물했습니다. 이는 페코리노 치즈, 레몬 및 오렌지 주스, 껍질, 라드를 채워 튀긴 만두로 만든 전통적인 [culture.GetNameNoTooltip] 디저트이며, 꿀, 설탕, 소금을 얹었습니다. 소박한 기원에도 불구하고 맛있는 간식입니다." # 5118754338667769813
+  sardinia.0051.a: "달콤하고 짭짤한 맛이 훌륭하게 어우러졌군!" # 11349531289576708132
   sardinia.0052.t: "수수께끼의 누라게" # 2678803652754791835
-  sardinia.0052.desc: "#italic 누라게#!는 [GetGeographicalRegion('RICE_sardinia_region').GetName]에서 흔히 볼 수 있는 풍경입니다. 이 돌 기념물들은 어디에나 있습니다. \n\n하지만 그 기원은 정확히 아는 사람이 없습니다. 궁정 신하들과 이에 대해 논의했지만, 모두 다른 이론을 제시하고 있을 뿐입니다." # 10221754265617939282
-  sardinia.0052.a: "분명히 오래전에 사라진 거인 종족이 건설한 것입니다!" # 6845538204195572953
+  sardinia.0052.desc: "#italic 누라게#! [GetGeographicalRegion('RICE_sardinia_region').GetName]에서 흔히 볼 수 있는 풍경입니다. 이 석조 기념물은 어디에나 있습니다.\n\n하지만 아무도 그 기원을 알지 못합니다. 저는 이 주제에 대해 제 신하 몇 명과 논의했는데, 모두 다른 이론을 제시했습니다." # 10221754265617939282
+  sardinia.0052.a: "분명히 오래 전에 사라진 거인족이 지은 것이 분명해!" # 6845538204195572953
   sardinia.0052.b: "구조물은 고대 통치자들의 성이어야 합니다." # 11492463806092488698
-  sardinia.0052.c: "이것들은 고대의 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] [ROOT.Char.GetFaith.HouseOfWorshipPlural]여야 했습니다." # 410284263394268293
-  sardinia.0052.d: "솔직히, 그들이 무엇인지도 모르겠고 알고 싶지도 않아." # 444965592704942850
-  sardinia.0052.info: "#bold 역사적 배경:# 누라게는 사르데냐 섬 전역에서 발견되는 고대 거석 건축물의 일종입니다. 주로 섬의 청동기와 철기 시대에 건설되었으며, 그 일반적인 기능은 불확실하며, 통치자의 궁전, 요새, 평범한 주택, 숭배 장소 등 누라게마다 다양했을 가능성이 높습니다.\n\n누라기 문명은 포에니, 그리스, 로마의 지배에 밀려났지만, 그들의 문화 요소가 후대에 남아 있었을 가능성이 있습니다. 누라게는 중세 시대에 이르러도 때때로 재사용되었으며, 사람들은 건축 프로젝트에 돌을 재활용하거나 교회와 같은 새로운 구조물의 기초로 사용하거나 혹은 피난처로 활용했습니다." # 14996614046659429511
-  sardinia.0053.t: "불길한 조짐" # 12658387913053898750
-  sardinia.0053.desc: "[ROOT.Char.GetCulture.GetName]의 민담에 따르면, 죽은 자를 볼 수 있는 #italic 비데모르토스#!라고 불리는 사람들이 있습니다. 더 구체적으로 그들은 달이나 자정에 죽은 자들의 행렬인 헤로디아스의 군대라고 알려진 것을 볼 수 있습니다.\n\n이와 관련하여 놀라운 소식이 전해졌습니다. 한 지역의 #italic 비데모르토스#!는 시골을 여행하던 중 그러한 행렬에서 [doomed.GetTitledFirstName]을 보았다고 주장합니다. 이것은 보통 나쁜 징조입니다. 그러한 행렬에서 살아있는 사람이 목격되면 1년 안에 죽는다고 합니다." # 12639020478981292824
+  sardinia.0052.c: "이것들은 고대의 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] [ROOT.Char.GetFaith.HouseOfWorshipPlural]이었음에 틀림없습니다." # 410284263394268293
+  sardinia.0052.d: "솔직히 뭔지도 모르겠고 알고 싶지도 않아." # 444965592704942850
+  sardinia.0052.info: "#emphasis 역사적 배경:#! 누라게는 사르데냐 섬 전체에서 발견되는 일종의 고대 거석 구조물입니다. 이들은 주로 섬의 청동기 시대와 철기 시대에 지어졌습니다. 그 일반적인 기능은 불확실하며 통치자를 위한 궁전, 요새, 일반 주택, 예배 장소 등 누라게마다 달랐을 수 있습니다.\n\n알려진 바와 같이 누라게 문명은 페니키아, 그리스, 로마의 통치로 대체되었지만, 그 문화 요소가 후기에도 살아남았을 가능성이 있습니다. 누라게는 중세 시대에도 여전히 때때로 재점유되어 사람들이 건설 프로젝트를 위해 돌을 재사용하거나 교회와 같은 새로운 구조물의 기초로 사용하거나 피난처로 사용했습니다." # 14996614046659429511
+  sardinia.0053.t: "불길한 징조" # 12658387913053898750
+  sardinia.0053.desc: "[ROOT.Char.GetCulture.GetName]의 민간 설화에 따르면 #italic bidemortos#!라고 불리는, 죽은 자를 볼 수 있는 사람들이 있다고 합니다. 더 구체적으로 말하면, 그들은 달이 뜨거나 자정에 죽은 자들의 행렬인 헤로디아스의 무리를 볼 수 있습니다.\n\n이와 관련하여 놀라운 소식을 접했습니다. 한 지역 #italic bidemortos#!가 시골을 여행하던 중 그러한 행렬에서 [doomed.GetTitledFirstName]을 보았다고 주장합니다. 이것은 대개 불길한 징조입니다. 그러한 행렬에서 살아있는 사람이 목격되면 1년 안에 죽는다고 전해집니다." # 12639020478981292824
   sardinia.0053.a: "[doomed.GetFirstNameNoTooltip] 님, [ROOT.Char.GetFaith.HighGodName]께 기도해야 합니다!" # 6550068071251007123
-  sardinia.0053.a.tooltip: "[doomed.GetFirstNameNoTooltip]가 열심히 기도하면, 어쩌면 [GetPlayer.GetFaith.HighGodName]께서 [doomed.GetHerHim]을 구원하고 [ROOT.Char.GetFaith.DeathDeityName]께서 오시는 것을 막을 수 있을지도 모릅니다." # 3383945954752509022
-  sardinia.0053.b: "#italic bidemortos#!는 어리석은 미신일 뿐입니다." # 6838153306412434890
-  sardinia.0053.b.tooltip: "[doomed.GetFirstNameNoTooltip]은 두려워할 것이 없습니다! 분명히 #italic 비데모르토스#!는 그저 환상을 본 것일 뿐입니다. 분명히 나쁜 일은 없을 겁니다. 분명히." # 11088207586358096687
-  sardinia.0053.info: "#bold 역사적 배경:#! 사르데냐 민담에는 #이탤릭 bidemortos#!라는 존재가 있습니다. 이들은 죽은 자들의 행렬을 볼 수 있는 능력을 지닌 것으로 알려져 있습니다. 이 행렬은 #이탤릭 su traigozzu#!(큰 기차), #이탤릭 sa regula morte#!(죽은 자들의 무리), 또는 사르데냐 북동부 갈루라 지역에서는 #이탤릭 sa frotta de Erode#!(헤롯의 무리)로 불립니다. 후자의 이름은 헤롯 유대의 공주이자 요한 침례자의 처형을 유발했다고 알려진 헤로디아스를 둘러싼 기독교 전설과의 연관성을 시사합니다." # 8806110318468044406
-  sardinia.0054.t: "오멘이 실현됨" # 12258201967381011157
-  sardinia.0054.desc: "음…. 이건 좀 그렇군.\n\n#italic bidemortos#!가 결국 옳았던 것 같군. [doomed.GetTitledFirstName]이 어젯밤 갑작스럽고 급작스러운 병으로 사망했다는 소식을 방금 받았네." # 13712100109662124813
-  sardinia.0054.a: "어찌 이리 불안한가…." # 5812346600052966171
+  sardinia.0053.a.tooltip: "만약 [doomed.GetFirstNameNoTooltip]이 간절히 기도한다면, 어쩌면 [GetPlayer.GetFaith.HighGodName]께서 [doomed.GetHerHim]을 구원하시고 [ROOT.Char.GetFaith.DeathDeityName]께서 오시는 것을 막을 수 있을지도 모릅니다." # 3383945954752509022
+  sardinia.0053.b: "#italic 비데모르토스#!는 어리석은 미신일 뿐입니다." # 6838153306412434890
+  sardinia.0053.b.tooltip: "[doomed.GetFirstNameNoTooltip]은 두려워할 것이 없습니다! 분명히 #italic bidemortos#!는 그저 환영을 본 것일 겁니다. 분명히 나쁜 일은 일어나지 않을 겁니다. 분명히." # 11088207586358096687
+  sardinia.0053.info: "#emphasis 역사적 배경:#! 사르데냐 민속에서 #italic bidemortos#!는 죽은 자들의 행렬을 볼 수 있는 능력을 가진 사람들이라고 합니다. 이 행렬은 #italic su traigozzu#! (큰 기차), #italic sa regula morte#! (죽은 자들의 무리), 또는 사르데냐 북동부 갈루라에서는 #italic sa frotta de Erode#! (헤로디아의 무리)라고 불립니다. 후자의 이름은 세례 요한의 처형을 초래했다고 전해지는 헤로디아 유대의 공주인 헤로디아를 둘러싼 기독교 전설과 관련이 있을 수 있습니다." # 8806110318468044406
+  sardinia.0054.t: "예언이 이루어졌습니다" # 12258201967381011157
+  sardinia.0054.desc: "음…. 이건 좀 그렇군.\n\n#italic 비데모르토스#!의 말이 결국 맞았던 것 같군. 어젯밤, [doomed.GetTitledFirstName]께서 갑작스러운 병환으로 세상을 떠나셨다는 소식을 방금 들었소." # 13712100109662124813
+  sardinia.0054.a: "얼마나 불안한지…." # 5812346600052966171
   sardinia.0055.t: "정의로운 아라디아" # 11744039625902651724
-  sardinia.0055.desc: "[dreamer.GetTitledFirstName] 님은 어젯밤 꿈에서 정의로운 아라디아가 방문했다고 말합니다.\n\n[ROOT.Char.GetCulture.GetName] 이야기에서 그녀는 섬에 흩어져 있는 동굴과 석조 기념물에 사는 #italic 야나스#! 또는 착한 요정들의 지도자입니다. 그녀는 악의적인 상대인 악마 아라디아와 대조됩니다.\n\n어쨌든, #italic 야나스#!는 방적과 직조를 열심히 하는 여성에게는 보상을 주고, 게으른 여성에게는 벌을 줍니다. 그렇게 함으로써 여성들은 더욱 열심히 일하도록 장려받지만, [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]은 그러한 것들이 미신이라고 말합니다.\n\n어쨌든, [dreamer.GetFirstNameNoTooltip] 님은 아라디아에 대한 꿈이" # 12064066694226976863
+  sardinia.0055.desc: "[dreamer.GetTitledFirstName]는 어젯밤 정의로운 아라디아가 꿈에 나타났다고 합니다.\n\n[ROOT.Char.GetCulture.GetName] 이야기에서 그녀는 섬 곳곳에 있는 동굴과 석조 기념물에 사는 #italic janas#!, 즉 착한 요정들의 지도자입니다. 그녀는 악한 상대인 악마 아라디아와 대조됩니다.\n\n어쨌든 #italic janas#!는 열심히 물레를 돌리고 직물을 짜는 여인들에게 보상을 주고, 게으른 여인들에게는 벌을 줍니다. 그런 식으로 여성들은 더욱 열심히 일하도록 장려되지만, [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]는 그런 것들이 미신이라고 말합니다.\n\n어쨌든 [dreamer.GetFirstNameNoTooltip]는 아라디아에 대한 꿈이" # 12064066694226976863
   sardinia.0055.desc.bad: "악몽." # 13132743303952351445
-  sardinia.0055.desc.good: "좋은 꿈." # 4158564145538698682
-  sardinia.0055.a: "분명히 아라디아가 당신을 인도했을 겁니다." # 14275680256772289372
-  sardinia.0055.b: "그건 내게는 허튼소리처럼 들리는군." # 4274363362917515447
-  sardinia.0055.info: "#emphasis 역사적 배경:#! 아라디아는 서사르디니아 신화의 인물로 중세 시대 이탈리아에서 이 섬으로 건너왔습니다. \n\n아라디아는 고대 로마 여신 디아나와 헤롯 왕가의 공주이자 요한 침례자의 처형을 일으켰다고 알려진 헤롯디아의 요소를 결합했습니다. 중세 서사르디니아에 도착한 후 아라디아는 선한 존재(정의로운 아라디아)와 악한 존재(악마 아라디아)로 나뉘었지만, 교회 당국은 이러한 이야기에 대한 믿음을 억제했습니다.\n\n일부 주장과 달리, 아라디아는 서사르디니아에서 고대 이교도 신앙이 어떻게 살아남았는지 보여주는 증거가 아니라고 생각됩니다. 오히려 아라디아는 시간이 흐르면서 신화와 전설이 어떻게 변화하는지 보여주는 흥미로운 사례이며, 특정한 기독교 민간 종교의 발전을 반영합니다." # 12343197444627289177
+  sardinia.0055.desc.good: "좋은 꿈 꿔." # 4158564145538698682
+  sardinia.0055.a: "아라디아가 분명 그대를 인도했을 겁니다." # 14275680256772289372
+  sardinia.0055.b: "그건 내겐 허황된 소리처럼 들리는군." # 4274363362917515447
+  sardinia.0055.info: "#emphasis 역사적 배경:#! 아라디아는 사르데냐 신화에 등장하는 인물로 중세 시대 이탈리아에서 섬으로 유입되었습니다.\n\n아라디아는 고대 로마 여신인 디아나와 세례 요한의 처형을 야기했다고 추정되는 헤롯 왕가의 공주인 헤로디아의 요소를 결합했습니다. 아라디아는 중세 사르데냐에 도착한 후 정의로운 아라디아(선)와 악마 아라디아(악)라는 두 개의 뚜렷한 인물로 나뉘었지만 교회 당국은 그러한 이야기에 대한 믿음을 낙담시켰습니다.\n\n일부 주장과는 달리 아라디아가 사르데냐에서 고대 이교주의의 생존에 대한 증거일 가능성은 낮습니다. 대신 아라디아의 모습은 특정 기독교 민속 종교의 사례를 반영하여 시간이 지남에 따라 신화와 전설이 매혹적으로 진화했음을 보여줍니다." # 12343197444627289177
   sardinia.0056.t: "성 사투르니누스" # 4113063656755645712
-  sardinia.0056.desc: "저의 [chaplain.GetCouncilTitle] [chaplain.GetTitledFirstName]께서 최근에 칼리아리의 성 사투르니누스께 더욱 열렬히 기도해야 한다고 제안하셨습니다.\n\n“[GetTitleByKey('b_cagliari').GetNameNoTier]의 수호성인일 뿐만 아니라, 어찌 보면 [GetGeographicalRegion('RICE_sardinia_region').GetName] 섬 전체의 수호자이기도 합니다.” [chaplain.GetFirstNameNoTooltip]께서 강조하셨습니다. “그분께서 당신을 보호해 주실 수 있으니 [ROOT.Char.GetFaith.HighGodName]의 뜻을 이룰 수 있고, 현지인들도 당신께 감사할 것입니다.”" # 14900121949086760966
-  sardinia.0056.a: "여기저기서 개인적인 기도를 할 수 있습니다." # 9201875128481655866
-  sardinia.0056.b: "성 사투르니누스에게 하는 공공 기도는 좋을 것입니다." # 5474716476747034489
-  sardinia.0056.info: "#emphasis 역사적 배경:#! 전설에 따르면, 카알리아리의 성 사투르니누스는 로마 황제 디오클레티아누스(284-305년) 치세에 로마인들에 의해 순교했다고 합니다. 그는 사르데냐의 성인들 중 하나로, 그리스 정교회와 더 깊은 연관이 있는 성인들과는 대조적으로, 사르데냐가 가톨릭 서방과 연합한 이후 중세 시대에 인기가 쇠퇴하면서도 지역적으로 여전히 존경받는 인물로 남아있습니다." # 8909999879311243516
+  sardinia.0056.desc: "저의 [chaplain.GetCouncilTitle]이신 [chaplain.GetTitledFirstName]께서는 제가 칼리아리의 성 사투르니노에게 더욱 열렬히 기도해야 한다고 최근에 말씀하셨습니다.\n\n“[GetTitleByKey('b_cagliari').GetNameNoTier]의 수호성인일 뿐만 아니라, 어떻게 보면 [GetGeographicalRegion('RICE_sardinia_region').GetName] 섬 전체의 보호자이기도 합니다.”라고 [chaplain.GetFirstNameNoTooltip]께서 강조하셨습니다. “그분은 폐하를 보호하시어 저희가 [ROOT.Char.GetFaith.HighGodName]의 뜻을 이룰 수 있도록 도우실 것이며, 현지인들도 감사하게 여길 것입니다.”" # 14900121949086760966
+  sardinia.0056.a: "여기저기서 개인적인 기도를 드릴 수 있습니다." # 9201875128481655866
+  sardinia.0056.b: "성 사투르니노에게 바치는 공공 기도는 좋을 것입니다." # 5474716476747034489
+  sardinia.0056.info: "#emphasis 역사적 배경:#! 전설에 따르면 칼리아리의 성 사투르니누스는 로마 황제 디오클레티아누스(284~305년) 통치 기간 동안 로마인에 의해 순교했습니다. 그는 사르데냐가 가톨릭 서방과 제휴한 후 중세 시대에 인기가 하락한 그리스 정교회와 더 관련된 성도들과는 대조적으로, 지역 숭배의 인기 있는 인물로 남아 있는 사르데냐 성도 중 한 명이었습니다." # 8909999879311243516
   sardinia.0057.t: "가짜 불라토리우" # 12921570772723147263
-  sardinia.0057.desc: "최근 법률 소송에서, [ROOT.Char.GetFaith.HouseOfWorship]에 예속된 농노 가문이 [ROOT.Char.GetFaith.HouseOfWorship]은 자신들에 대한 권리가 없으며 자신들은 자유인이라고 주장했습니다. 그들은 이를 증명하기 위해 제 #italic 불라토리우#! - #italic 유디카티#!의 인장 - 이 봉인된 서신을 제출했으나, 이는 위조된 것으로 밝혀졌습니다.\n\n#italic 제#! 이름으로 문서를 위조한 이 허황된, 경솔한 농민들에게 유죄 판결을 내리는 것은 당연한 처벌입니다. 하지만 몇몇 신하들은 너무 가혹하다고 주장하며, [ROOT.Char.GetFaith.HighGodName]을 기려 자비를 베풀어야 한다고 제안합니다." # 11057789026724811839
-  sardinia.0057.a: "농노들을 사면하고 그들을 [ROOT.Char.GetFaith.HouseOfWorship](으)로 돌려보냅니다." # 16571740030801597215
-  sardinia.0057.b: "나쁜 선례를 만들 수 있습니다. 처형하십시오." # 2846811299031725295
-  sardinia.0057.info: "#bold 역사적 배경:# 이 사건은 12세기 아르보레아 판결권에서 기록된 사건을 바탕으로 합니다. #italic 콘다게 디 산타 마리아 디 보나르카도#는 아르보레아에서 남아있는 몇 안 되는 #italic 콘다게# 중 하나이며, 중세 사르데냐 역사에 중요한 자료입니다.\n\n이 #italic 콘다게#의 132번 카드는 어느 수도원의 농노였던 일곱 형제 자매가 실제로 자유민이며, 수도원이 그들에 대한 권리를 주장할 수 없다고 주장한 내용을 기록하고 있습니다.\n\n이 사건은 법정에 회부되었고, 형제 자매들은 사르데냐의 판사이자 통치자였던 코미타로부터 #italic 불라토리우# (사르데냐어의 그리스어 차용어로, 인장의 두 면을 찍는 죔쇠를 의미함)로 인증된 편지를 증거로 제시했습니다.\n\n하지만 #italic 콘다게#에 따르면, 그 편지는 위조된 것으로 판명되었고, 코미타는 그들을 사형에 처할 것을 명령했습니다.  농노들은 코미타의 어머니 안나가 마지막 순간에 개입하여 성모 마리아를 기리는 의미로 형을 면해줄 것을 설득함으로써 사형을 면했습니다. 그들은 이후 수도원으로 돌려보내졌습니다." # 12604082845682219638
-  sardinia.0058.t: "실제 또는 사기?" # 6373467931112502620
-  sardinia.0058.desc: "[ROOT.Char.GetCulture.GetCollectiveNoun]의 #italic 콘다게스#!는 법적 소송을 해결하는 데 유용한 기록입니다. 물론 이는 때때로 이러한 문서가 위조된다는 것을 의미합니다.\n\n지금 저는 난처한 상황에 처했습니다. 한 귀족과 현지 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitle')]이 농노 소유권을 놓고 다투고 있습니다. 귀족은 자신의 주장을 입증하는 증거를 제공한다고 주장하는 아버지 시대의 #italic 콘다게#!를 제시했지만, 편리하게도 해당 #italic 콘다게#!에 서명한 증인은 아무도 살아 있지 않습니다. [ROOT.Char.Custom('DefaultPriestTitle')]은 #italic 콘다게#!가 위조라고 주장합니다.\n\n법적 절차에 따라 저는 [ROOT.Char.GetTitleAsNameNoTooltip]으로서 결정을 내려야 합니다. 저는 #italic 콘다게#!를 살펴보고 다음과 같이 결정합니다..." # 4169214129615381683
+  sardinia.0057.desc: "최근 법정 소송에서 [ROOT.Char.GetFaith.HouseOfWorship]에 예속된 농노 가문이 [ROOT.Char.GetFaith.HouseOfWorship]이 자신들에게 아무런 권리가 없으며 자유인이라고 주장했습니다. 그들은 이를 증명하기 위해 저의 #italic 불라토리우#!, 즉 #italic 유디카티#!의 도장이 찍힌 서신을 제시했지만, 위조된 것으로 밝혀졌습니다.\n\n#italic 저#!의 이름으로 문서를 위조한 이 오만하고 경솔한 농민들에게 형벌을 내리는 것이 당연한 처벌입니다. 하지만 몇몇 신하들은 너무 가혹하다며 [ROOT.Char.GetFaith.HighGodName]을 기리는 의미로 자비를 베풀어야 한다고 제안합니다." # 11057789026724811839
+  sardinia.0057.a: "농노들을 사면하고 [ROOT.Char.GetFaith.HouseOfWorship](으)로 돌려보내십시오." # 16571740030801597215
+  sardinia.0057.b: "나쁜 선례를 남기겠군. 처형하시오." # 2846811299031725295
+  sardinia.0057.info: "#emphasis 역사적 배경:#! 이 사건은 12세기에 기록된 아르보레아 재판관령의 사건을 기반으로 합니다. #italic 콘다게 디 산타 마리아 디 보나르카도#!는 아르보레아에서 살아남은 몇 안 되는 #italic 콘다게#! 중 하나이며 중세 사르데냐 역사에 대한 중요한 자료입니다.\n\n이 #italic 콘다게#!의 카드 132번에는 특정 수도원의 농노인 일곱 남매가 실제로 자유민이며 수도원이 자신들에 대한 권리가 없다고 주장한 내용이 기록되어 있습니다.\n\n이 문제는 법정으로 옮겨졌고, 형제자매는 사르데냐의 재판관이자 통치자인 코미타의 편지를 증거로 제시했습니다. 편지에는 #italic 불라토리우#!가 봉인되어 있었는데, 이는 사르데냐에서 그리스어 차용어로, 양면에 강제로 각인된 인장의 매트릭스를 지닌 집게를 의미합니다.\n\n#italic 콘다게#!에 따르면 그 편지는 위조된 것으로 밝혀졌고, 코미타는 그들에게 사형을 선고했습니다. 그 농노들은 코미타의 어머니 안나가 막판에 개입하여 성모 마리아를 기리기 위해 그들을 살려달라고 설득한 덕분에 사형을 면할 수 있었습니다. 그들은 이후 수도원으로 돌려보내졌습니다." # 12604082845682219638
+  sardinia.0058.t: "진실 혹은 사기?" # 6373467931112502620
+  sardinia.0058.desc: "[ROOT.Char.GetCulture.GetCollectiveNoun] 중 #italic 콘다게스#!는 법적 소송을 해결하는 데 유용한 기록입니다. 물론, 때로는 이러한 문서가 위조되기도 합니다.\n\n지금 저는 곤경에 처했습니다. 한 귀족과 지역 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitle')]이 농노 소유권을 놓고 다투고 있습니다. 귀족은 아버지 시대의 #italic 콘다게#!를 제시하며 자신의 주장을 뒷받침하는 증거라고 주장하지만, 그 #italic 콘다게#!에 서명한 증인들은 모두 편리하게도 살아 있지 않습니다. [ROOT.Char.Custom('DefaultPriestTitle')]은 #italic 콘다게#!가 위조라고 주장합니다.\n\n법적 절차에 따라 저는 [ROOT.Char.GetTitleAsNameNoTooltip]으로서 결정을 내려야 합니다. #italic 콘다게#!를 살펴본 후, 저는 다음과 같이 결정합니다..." # 4169214129615381683
   sardinia.0058.a: "이 귀족의 #italic 콘다게#!는 합법적인 것으로 보입니다." # 9837656754139548822
-  sardinia.0058.b: "[ROOT.Char.Custom('DefaultPriestTitle')]의 말이 맞습니다. 생존한 증인이 없다는 것은 수상합니다." # 13622788983657007700
-  sardinia.0058.info: "#bold 역사적 배경:#! 이 사건은 12세기 아르보레아 심판국에서 발생한 사건을 바탕으로 기록되었습니다. #italic 컨다게 디 산타 마리아 디 보나르카도#!는 아르보레아에서 남아있는 몇 안 되는 #italic 컨다게#! 중 하나로, 중세 사르디니아 역사에 중요한 자료입니다.\n\n178-179번 카드에는 니콜라우 수도원장과 소고스의 고안티네 사이의 하인 소유권 분쟁 재판이 기록되어 있습니다. 재판 과정에서 고안티네는 아버지 시절의 #italic 컨다게#!를 증거로 제출했지만, 이를 서명한 증인 중 살아있는 사람은 아무도 없었습니다.\n\n재판에 참석한 모든 사람들은 #italic 컨다게#!가 위조된 것이라고 판단했습니다." # 222356486010762377
-  sardinia.0059.t: "기부" # 12429290498819228440
-  sardinia.0059.desc: "인근의 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetFaith.HouseOfWorship]에 대한 종복과 동물 기증이 필요합니다. 기증이 완료되면, [ROOT.Char.GetCulture.GetLanguage.GetName] 언어로 #italic condaghe#!에 기록되어 [ROOT.Char.GetHouse.GetName] 가문의 관대함이 후세에 전해질 것입니다." # 16491343024728219023
+  sardinia.0058.b: "[ROOT.Char.Custom('DefaultPriestTitle')]께서 옳습니다. 생존한 증인이 없다는 점이 수상합니다." # 13622788983657007700
+  sardinia.0058.info: "#emphasis 역사적 배경:#! 이 사건은 12세기에 기록된 아르보레아의 재판관령에 근거합니다. 이는 아르보레아에서 살아남은 몇 안 되는 #italic 콘다게#! 중 하나이며 중세 사르데냐 역사의 중요한 자료인 #italic 산타 마리아 디 보나르카도 콘다게#!입니다.\n\n카드 178-179는 하인 소유권을 놓고 싸운 니콜라우 선임 수도사, 그리고 고안티네 데 소고스 간의 재판을 기록합니다. 재판 과정에서 고안티네는 아버지 시대의 #italic 콘다게#!를 증거로 제시했지만, 서명한 증인 중 아무도 살아 있지 않았습니다.\n\n결과적으로 법정에 참석한 모든 사람들은 #italic 콘다게#!가 위조라고 추정했습니다." # 222356486010762377
+  sardinia.0059.t: "기부금" # 12429290498819228440
+  sardinia.0059.desc: "저는 근처에 있는 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetFaith.HouseOfWorship]에 하인과 동물을 기증할 수 있다는 것을 알게 되었습니다. 기증이 완료되면 [ROOT.Char.GetCulture.GetLanguage.GetName] 언어로 작성된 #italic condaghe#!에 기록될 것입니다. 따라서 모든 이들이 저의 기증과 [ROOT.Char.GetHouse.GetName] 가문의 너그러움을 대대로 기억할 것입니다." # 16491343024728219023
   sardinia.0059.a: "기부금을 준비하십시오!" # 13135091115972425424
-  sardinia.0059.b: "이걸 할 여유가 없습니다." # 8851726055421787617
-  sardinia.0060.t: "별로 좋지 않은 명성" # 2995546041917733102
-  sardinia.0060.desc: "오늘 저는 [ROOT.Char.GetCapitalLocation.GetName]에서 먼 곳에서 온 고위 인사를 접견합니다. 그는 질병과 야만인들의 땅이라는 명성이 있는 사르데냐에 가는 것을 경계했다고 합니다. 그러한 소문은 외국에서 흔히 있습니다." # 10706619628914807668
-  sardinia.0060.a: "보시다시피, 우리 섬도 아름답습니다." # 9513318932245022508
-  sardinia.0060.c: "솔직히, 우리 섬은 #italic 끔찍한#! 곳입니다." # 16073612147105704692
-  sardinia.0060.info: "#emphasis 역사적 배경:#! 고대와 중세 시대, 사르데냐는 섬에 창궐한 말라리아와 주민들의 (출신에 관계없이) 흉폭하고 완고하며 심지어는 범죄 경향까지 지닌다는 고정관념으로 인해 나쁜 평판을 얻었습니다.\n\n예를 들어, 1263년 섬에 대한 교회 권한을 가진 피사 대주교 프리드리히 비스콘티가 방문을 준비하면서 “그토록 공포와 고독이 넘치는 땅에서 어떻게 이 일을 해낼 수 있을까? 사람들이 이곳을 찾는 이유는 단지 큰 이익을 얻기 위해서뿐일 텐데.”라고 말했고, “사르데냐는 병든 땅 그 자체였고, 사람들은 거기서 떠나자마자 곧 병에 걸린다.”라고 언급했습니다." # 3779912467478933693
+  sardinia.0059.b: "이건 감당할 수 없어." # 8851726055421787617
+  sardinia.0060.t: "신통치 않은 명성" # 2995546041917733102
+  sardinia.0060.desc: "오늘 [ROOT.Char.GetCapitalLocation.GetName]에서 먼 곳에서 온 고위 인사를 제 궁정으로 모셨습니다. 그는 질병과 야만인들의 땅이라는 소문 때문에 사르데냐에 가는 것을 꺼렸다고 인정했습니다. 그러한 소문은 외국 땅에서는 드문 일이 아닙니다." # 10706619628914807668
+  sardinia.0060.a: "보시다시피 저희 섬도 아름답습니다." # 9513318932245022508
+  sardinia.0060.b: "아니요, 오해하신 것 같습니다. 편향된 것도 아닙니다." # 15279968277500106776
+  sardinia.0060.c: "솔직히 우리 섬은 #italic 끔찍해#!" # 16073612147105704692
+  sardinia.0060.info: "#emphasis 역사적 배경:#! 고대와 중세 시대에 사르데냐는 섬의 말라리아 유행과 그 주민(출신에 상관없이)이 다소 흉포하고 완고하며 심지어 범죄 성향이 있다는 고정관념 때문에 평판이 좋지 않았습니다.\n\n예를 들어 섬에 대한 교회 권위를 가진 피사 대주교 프레데리크 비스콘티가 1263년에 섬을 방문할 준비를 했을 때 그는 \"좋은 이익을 얻기 위해서만 가는 공포와 고독의 땅에서 어떻게 살아남을 수 있을까?\"라고 말했습니다. 그리고 \"사르데냐는 병들었고, 실제로 그곳을 떠나는 모든 사람이 곧 병에 걸리기 때문에 병이 의인화되었다\"라고 말했습니다." # 3779912467478933693
   sardinia.0061.t: "유망한 누라게" # 6292591300135971522
-  sardinia.0061.desc: "제 영지의 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]들이 [county.GetNameNoTier]에서 미래에 인근 공동체에 봉사할 작은 성소의 잠재적 부지로 유망한 #italic 누라게#!를 발견했습니다. 그들은 제가 그 장소를 제대로 된 예배당으로 바꾸는 데 자금을 지원해 주기를 바랍니다.\n\n이러한 고대 석조 기념물을 이런 식으로 재사용하는 것은 흔하며, 종교적 또는 사업적 이유로 현지인들이 자주 방문합니다. 하나를 지역 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 예배 장소로 바꾸는 것은 옳고 현명한 일입니다." # 8087133138029948424
-  sardinia.0061.a: "[ROOT.Char.Custom('DefaultPriestTitlePlural')]이 이 사업을 위한 자금을 받을 것입니다." # 14806114089609178225
+  sardinia.0061.desc: "제 영토 내 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]께서 [county.GetNameNoTier]에서 미래의 작은 성소로 쓰일 만한 #italic 누라게#!를 발견했습니다. 그들은 제가 그 장소를 제대로 된 예배당으로 만들 자금을 지원해 주길 바랍니다.\n\n이러한 고대 석조 기념물을 이런 식으로 재사용하는 것은 흔한 일이며 종교적 또는 사업적 이유로 지역 주민들이 자주 방문합니다. 그러한 곳을 지역 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 예배 장소로 바꾸는 것은 옳고 현명한 일입니다." # 8087133138029948424
+  sardinia.0061.a: "[ROOT.Char.Custom('DefaultPriestTitlePlural')]께서 이 사업에 필요한 자금을 지원받게 될 것입니다." # 14806114089609178225
   sardinia.0061.b: "지금은 그들을 도울 수 없습니다." # 3331587962817509953
-  sardinia.0062.t: "[culture.GetNameNoTooltip] 목소리 노래" # 1794925116507485889
-  sardinia.0062.desc: "오늘, [county.GetNameNoTier] 출신의 [culture.GetName] 평민 몇 명이 #italic 칸투 아 테노레#! 노래에 능숙하여 우리 궁정에 와서 공연을 올렸습니다. 이는 [GetGeographicalRegion('RICE_sardinia_region').GetName]에서 유래한 독특하고 오래된 창법입니다.\n\n네 명의 가수는 공연의 대부분을 원형으로 서서 진행합니다. 그중 한 명이 시를 읊으면 나머지 세 명이 반주 코러스를 부릅니다. 듣기 좋은 소리이며, 그들의 노래는 광범위한 주제를 다룹니다.\n\n공연이 끝나면 예상대로 재능 있는 가수들에게 보상을 나누어줍니다." # 8851963956887736889
-  sardinia.0062.b: "숙련된 가수는 단순한 선물 이상의 것을 받을 자격이 있습니다!" # 6189744735225623806
-  sardinia.0062.info: "#emphasis 역사적 배경:#! #italic 칸투 아 테노레#! 또는 #italic 칸토 아 테노레#!는 사르데냐 섬, 특히 중부 지역에서 전승되는 목소리 내기 기법으로, 일반적으로 네 명의 남성이 함께 부릅니다. 비공식적인 자리뿐만 아니라 결혼식이나 종교 축제와 같은 공식적인 행사에서도 연주될 수 있습니다." # 14139796685629300021
+  sardinia.0062.t: "[culture.GetNameNoTooltip] 목소리 울림" # 1794925116507485889
+  sardinia.0062.desc: "오늘, #italic 칸투 아 테노레#! 노래에 능숙한 [county.GetNameNoTier] 출신 [culture.GetName] 평민들이 우리를 위해 공연하기 위해 내 궁정에 도착했습니다. 이는 [GetGeographicalRegion('RICE_sardinia_region').GetName]에서 유래한 독특하고 오래된 형태의 목 노래입니다.\n\n대부분의 공연 동안 네 명의 가수가 원을 그리며 서 있습니다. 그들 중 한 명이 시를 외우고, 다른 세 명은 반주 코러스로 노래합니다. 듣기 좋은 소리이며, 그들의 노래는 광범위한 주제를 다룹니다.\n\n공연이 끝나면 예상대로 이 재능 있는 가수들에게 보상을 나눠줍니다." # 8851963956887736889
+  sardinia.0062.a: "훌륭한 성과에 감사합니다." # 5853250073038941494
+  sardinia.0062.b: "훌륭한 가수는 단순한 선물 이상을 받을 자격이 있지!" # 6189744735225623806
+  sardinia.0062.info: "#emphasis 역사적 배경:#! #italic Cantu a tenore#! 또는 #italic canto a tenore#!는 사르데냐 토착 목 노래 형식으로, 특히 중앙 지역에서 유래되었으며 보통 네 명의 남성 그룹이 부릅니다. 비공식적인 행사뿐만 아니라 결혼식이나 종교 축제와 같은 공식적인 모임에서도 공연될 수 있습니다." # 14139796685629300021
   sardinia.0063.t: "양치기의 길" # 12267680260609669784
-  sardinia.0063.desc: "[GetGeographicalRegion('RICE_sardinia_region').GetName] 전역에서 목동들을 찾을 수 있습니다. 최근 저는 [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] 전역에 흩어져 있는 목동의 길이라 불리는 곳을 탐험했습니다. 험준한 산, 계곡, 강 등을 따라 이어져 있습니다.\n\n편안한 여행이었고, 주변 지역에서 제 관리와 병사들이 이용할 수 있는 잠재적인 도로를 아는 것도 중요합니다." # 10838407507597122919
+  sardinia.0063.desc: "양치기들은 [GetGeographicalRegion('RICE_sardinia_region').GetName] 전역에서 발견됩니다. 최근 저는 [ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip] 곳곳에 흩어져 있는 이른바 양치기의 길을 탐험하며 험준한 산, 계곡, 강 등을 탐험하는 시간을 가졌습니다.\n\n편안한 여행이었고, 관리들과 군인들이 주변 지역에서 이용할 수 있는 잠재적인 도로를 아는 것도 중요합니다." # 10838407507597122919
   sardinia.0063.a: "이 정보는 유용할 것입니다." # 10736638971435874595
   sardinia.0064.t: "지아라 말" # 8004153108261244951
-  sardinia.0064.desc: "[ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]의 시골길을 걷다가 작은 #italic 지아라#! 말 무리를 발견했습니다. 사람들이 기억하는 한, 섬에서 이 작은 야생마 무리를 발견할 수 있습니다. 그들은 자유롭게 섬의 험준한 지형을 가로질러 원하는 곳으로 이동하며, 바라보는 것만으로도 사랑스럽습니다." # 13582500232590482107
-  sardinia.0064.a: "작을지라도 여전히 장엄한 광경입니다!" # 15984850783256014973
-  sardinia.0064.info: "#emphasis 역사적 배경:#! #italic 지아라#! 말은 사르데냐 전역에서 발견되는 소형종 말입니다. 이 말이 섬 원산의 고대 종인지, 아니면 후대에 푸니키아인이나 로마 식민지 개척자들이 사르데냐에 들여온 말의 후손인지는 불확실합니다. 어느 쪽이든, 수세기 동안 #italic 지아라#! 말의 무리가 사르데냐 전역에서 확인되었습니다. 하지만 현재는 그 수가 수백 마리로 줄었으며, 사르데냐 남부의 #italic 제스투리 지아라#! 고원 지역에만 국한되어 있습니다." # 18025362026397037666
+  sardinia.0064.desc: "[ROOT.Char.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTierNoTooltip]의 시골길을 걷다가 #italic 지아라#! 조랑말 무리를 발견했습니다. 옛날부터 이 섬에는 이 작은 야생마 무리가 있었다고 합니다. 그들은 자유롭게 섬의 험준한 지형을 가로지르며, 그 모습을 보는 것은 즐거움입니다." # 13582500232590482107
+  sardinia.0064.a: "작을지라도, 여전히 장엄한 광경이군!" # 15984850783256014973
+  sardinia.0064.info: "#emphasis 역사적 배경:#! #italic 지아라#! 말은 사르데냐 전역에서 발견되는 작은 말 품종입니다. 그 기원이 섬 고유의 고대 품종인지, 아니면 이후 페니키아 또는 로마 식민지 개척자들이 사르데냐에 들여온 말의 후손인지는 불확실합니다. 어찌 됐든 수세기 동안 야생 #italic 지아라#! 말 무리가 사르데냐 전역에서 확인되었습니다. 그러나 현재 그 개체 수는 수백 마리로 줄어들었고 #italic 제스투리 지아라#!라고 불리는 남부 사르데냐의 고원 지역에만 국한되어 있습니다." # 18025362026397037666
   sardinia.0065.t: "xxxxx" # 1951045980481827005
   sardinia.0065.desc: "xxxxx" # 1951045980481827005
   sardinia.0065.a: "xxxxx" # 1951045980481827005
@@ -687,7 +691,3 @@
   sardinia.0099.t: "xxxxx" # 1951045980481827005
   sardinia.0099.desc: "xxxxx" # 1951045980481827005
   sardinia.0099.a: "xxxxx" # 1951045980481827005
-  choose_none_name: "없음" # 4387124778405518223
-  sardinia.0026.a: "#bold 출격! 출격! 출격!#" # 7620981686862616562
-  sardinia.0060.b: "죄송합니다.  제가 잘못 이해했거나 편견을 가졌다면 사과드립니다." # 15279968277500106776
-  sardinia.0062.a: "훌륭한 성능에 감사합니다." # 5853250073038941494

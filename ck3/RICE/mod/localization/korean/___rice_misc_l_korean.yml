@@ -1,360 +1,372 @@
 ﻿l_korean:
   rule_RICE_intro_event: "RICE 소개 이벤트" # 8081016221241070018
   setting_RICE_intro_event_on: "켜짐" # 14367041983676599459
-  setting_RICE_intro_event_on_desc: "게임에 진입하면 RICE 버전과 최신 기능을 알려주는 소개 이벤트가 한 번 발생합니다. 이 이벤트는 모드가 올바르게 설치되었고 최신 버전을 사용하고 있는지 확인하는 데 도움이 됩니다." # 11839336696882962670
-  setting_RICE_intro_event_off: "끄기" # 8927729592684634549
-  setting_RICE_intro_event_off_desc: "소개 이벤트가 비활성화됩니다." # 11155068692559715121
+  setting_RICE_intro_event_on_desc: "게임 로드 시 한 번 발동되는 도입 이벤트가 있습니다. 이 이벤트는 사용 중인 RICE의 버전과 최신 기능을 알려줍니다. 이를 통해 모드가 제대로 설치되었고 최신 버전을 사용 중인지 확인할 수 있습니다." # 11839336696882962670
+  setting_RICE_intro_event_off: "끔" # 8927729592684634549
+  setting_RICE_intro_event_off_desc: "인트로 이벤트가 비활성화됩니다." # 11155068692559715121
   RICEintro.0000.t: "RICE 1.15.0 \"라다크\"" # 1921761012173748130
-  RICEintro.0000.desc: "RICE 1.15.0이 성공적으로 설치되었습니다. 이 이벤트는 게임 시작 시에만 발생하며 게임 규칙을 통해 비활성화할 수 있습니다.\n최신 업데이트에 추가된 일부 기능은 새 게임이 필요합니다. Steam 창작마당, PI 포럼 또는 제 디스코드에서 버그를 보고하거나 피드백을 자유롭게 제공해 주십시오.\n\nRICE는 현재 전 세계에 걸쳐 다양한 문화, 종교, 지역을 다루는 #V #Bold 38#!#!개의 풍미 팩을 포함하고 있습니다. 가장 새로운 풍미 팩은 #V #Bold 갈리치아-볼히니아: 붉은 루스의 국경 지대#!#!입니다.\n\n이 풍미 팩은 [RICE_culture.GetName] [culture|E]에 새로운 풍미를 추가하는 데 중점을 두며, 특히 [GetGeographicalRegion('RICE_galicia_volhynia_region').GetName] 지역에 해당합니다." # 7355687265628009510
-  RICEintro.0000.a: "좋습니다!" # 2933982366699918903
-  RICEintro.0000.b: "이번 업데이트의 새로운 추가 사항에 대한 개요를 알려드리겠습니다." # 2296478953061761299
-  RICEintro.0000.c: "이 메시지를 향후 저장에서 비활성화하십시오." # 15745156042237332393
-  RICEintro.0000.c.tooltip: "#EMP 이 옵션을 선택하시면, 앞으로 이 저장 파일의 성공적인 업데이트를 확인하는 메시지를 받지 못하게 된다는 점을 유념하십시오!#" # 11916024186952248667
-  RICEintro_intro_tooltip: "#EMP 라다크는 동부 카슈미르와 서부 티베트에 걸쳐있는 지역입니다. 역사적으로는 다양한 문명, 왕국, 종교의 전략적 교차로에 위치했습니다.#!" # 6251081127220902051
-  RICEintro_TFE_warning_tooltip: "#V #bold 몰락한 독수리#!#!가 실행 중인 것으로 감지되었습니다. 이것이 사실이라면 #bold 새로운 게임을 시작하기 전에 모드 로드 순서에서 TFE가 RICE #underline 아래에#! 있는지 확인하십시오#!" # 5055225297519247687
-  RICEintro_ROA_warning_tooltip: "#V #bold 아시아의 라자#!#! 모드가 실행 중인 것으로 감지되었습니다. 이것이 사실이라면 새 게임을 시작하기 전에 #bold 모드 로드 순서에서 RICE #underline 아래에#! ROA가 있는지 확인하십시오#!" # 13831992960958359029
-  RICE_decision_pagan_requirement: "이교 [faith|E]를 따름" # 2667718468984044947
-  RICEintro.0010.t: "향미 팩 정보" # 11542925778436597374
-  RICEintro.0010.desc: "어떤 풍미 팩에 대해 더 알고 싶으신가요?" # 12143648013106233900
+  RICEintro.0000.desc: "RICE 1.15.0이 성공적으로 설치되었습니다. 이 이벤트는 게임 시작 시에만 발생하며 게임 규칙을 통해 비활성화할 수 있습니다.\n최신 업데이트에 추가된 일부 기능은 새 게임에서만 작동합니다. Steam 창작마당, PI 포럼 또는 제 디스코드 채널에 버그를 신고하거나 피드백을 제공해주시기 바랍니다.\n\nRICE는 현재 전 세계의 다양한 [culture|E], 종교 및 지역을 다루는 #V #Bold 38#!#!개의 플레이버 팩을 포함하고 있습니다. 가장 최신 플레이버 팩은 #V #Bold 갈리치아-볼히니아: 붉은 루스의 국경지대#!#!입니다.\n\n이 플레이버 팩은 [RICE_culture.GetName] [culture|E]에 새로운 재미를 더하는 데 중점을 두고 있으며, 특히 [GetGeographicalRegion('RICE_galicia_volhynia_region').GetName] 지역에서 두드러집니다." # 7355687265628009510
+  RICEintro.0000.a: "좋군!" # 2933982366699918903
+  RICEintro.0000.b: "이번 업데이트의 새로운 추가 사항에 대해 간략히 알려주시겠습니까?" # 2296478953061761299
+  RICEintro.0000.c: "앞으로 이 저장 파일에서는 이 메시지 표시 안 함" # 15745156042237332393
+  RICEintro.0000.c.tooltip: "#EMP 이 선택지를 고르신다면, 향후 이 저장 파일에 대해 업데이트 성공 여부를 확인하는 이 메시지를 다시 받지 못할 것임을 인지하십시오#!!" # 11916024186952248667
+  RICEintro_intro_tooltip: "#bold EMP Ladakh는 동카슈미르와 서티베트에 걸쳐있는 지역입니다. 역사적으로, 그곳은 다양한 문명, 왕국, 그리고 종교 사이의 전략적 요충지였습니다#!" # 6251081127220902051
+  RICEintro_TFE_warning_tooltip: "\n----------------------------------------\n\n#V #bold 타락한 독수리#!#!가 실행 중인 것으로 감지되었습니다. 만약 그렇다면 부디 #bold 새 게임을 시작하기 전에 TFE가 모드 적용 순서에서 RICE의 #underline 아래#에 있는지 확인하십시오#!" # 5055225297519247687
+  RICEintro_ROA_warning_tooltip: "\n----------------------------------------\n\n#V #bold 라자스 오브 아시아#!#! 모드가 실행 중인 것으로 감지되었습니다. 사실이라면, 새 게임을 시작하기 전에 #bold ROA가 모드 로드 순서에서 RICE #underline 아래#!에 있는지 확인해 주십시오#!" # 13831992960958359029
+  RICE_decision_pagan_requirement: "이교 [신앙|E]을 믿는" # 2667718468984044947
+  RICEintro.0010.t: "플레이버 팩 정보" # 11542925778436597374
+  RICEintro.0010.desc: "어떤 플레이버 팩에 대해 더 자세히 알아보시겠습니까?" # 12143648013106233900
   RICEintro.0010.next: "더 보기" # 3231560424367054433
-  RICEintro.0010.done: "알겠습니다." # 6154390443076094741
-  RICEintro.0010.siwa: "시와: 서부 사막의 오아시스" # 12175675886163553819
+  RICEintro.0010.done: "됐습니다. 게임으로 돌아가겠습니다." # 6154390443076094741
+  RICEintro.0010.siwa: "시와: 서부 사막의 오아시스들" # 12175675886163553819
   RICEintro.0010.chios: "히오스: 유향의 섬" # 1282627192893547414
-  RICEintro.info.a: "네, 게임을 시작하겠습니다." # 7476598484832380011
-  RICEintro.info.b: "다른 플레이버 팩을 보려면 메뉴로 돌아가세요" # 2789363905072078717
-  RICEintro.0020.t: "시와: 서부 사막의 오아시스" # 12175675886163553819
-  RICEintro.0020.desc: "- 아문 신전과 히비스 신전을 재건하고, 이후 신탁의 인도를 구하거나 서부 사막의 지역 신들을 숭배하십시오\n- 휴식을 위해 시와의 태양의 샘을 방문하십시오" # 5638724598198949271
+  RICEintro.info.a: "좋군, 시작해보지!" # 7476598484832380011
+  RICEintro.info.b: "다른 플레이버 팩을 보려면 메뉴로 돌아가십시오." # 2789363905072078717
+  RICEintro.0020.t: "시와: 서부 사막의 오아시스들" # 12175675886163553819
+  RICEintro.0020.desc: "- 아문 신탁과 히비스 신전을 재건하고, 그 후에 각각 신탁의 인도를 구하거나 서부 사막의 지역 신들을 숭배하다.\n- 휴식을 취하기 위해 시와에 있는 태양의 샘을 방문하다." # 5638724598198949271
   RICEintro.0021.t: "히오스: 유향의 섬" # 1282627192893547414
-  RICEintro.0021.desc: "- 매년 봄에 열리는 카니발 축제인 티미아나의 모스트라에 참석합니다\n- 지역 경제 또는 기반 시설을 개선하기 위해 결정을 통해 히오스에 유향 마을을 건설합니다\n- 히오스가 고향이라고 알려진 호메로스 기념비를 세웁니다\n- 히오스에 있는 새로운 유향 산업 건물을 활용합니다" # 11380065287441711498
-  RICEintro.0010.siberia: "시베리아: 순록의 사람들" # 6248910813046424235
-  RICEintro.0022.t: "시베리아: 순록의 사람들" # 6248910813046424235
-  RICEintro.0022.desc: "- 투르크족 통치자는 순록을 희생하여 자신과 우주에 대한 더 큰 이해를 얻을 수 있습니다.\n- 북부 통치자는 타이가에서 순록 무리를 확장할 수 있습니다.\n- 시베리아 문화권: 에벤크족, 니브흐족, 야쿠트족, 예니세이족, 유카기르족 방랑자들이 가끔 북부 통치자들의 궁정에 나타나 신하들에게 새로운 생존 기술을 가르칩니다." # 8647308158306555982
+  RICEintro.0021.desc: "- 티미아나의 모스트라에 참석 (매년 봄에 열리는 카니발 축제)\n- 결정을 통해 히오스에 유향 마을 건설 (지역 경제 또는 기반 시설 개선을 위해)\n- 고향이 히오스에 있다고 알려진 호메로스의 기념비 건립\n- 히오스에 있는 새로운 유향 산업 건물 활용" # 11380065287441711498
+  RICEintro.0010.siberia: "시베리아: 순록의 백성" # 6248910813046424235
+  RICEintro.0022.t: "시베리아: 순록의 백성" # 6248910813046424235
+  RICEintro.0022.desc: "- 투르미계 통치자들은 자신과 우주에 대한 더 깊은 이해를 얻기 위해 순록을 희생할 수 있습니다.\n- 북방 통치자들은 타이가에서 순록 무리를 확장할 수 있습니다.\n- 시베리아 문화권: 에벤크, 니브흐, 야쿠트, 예니세이어, 유카기르 유랑자들이 때때로 북방 통치자들의 궁정에 등장하여 궁정 신하들에게 새로운 생존 기술을 가르칩니다." # 8647308158306555982
   rule_RICE_historical_context: "RICE 역사적 배경 툴팁" # 1472129392270596667
   setting_RICE_historical_context_on: "켜짐" # 14367041983676599459
-  setting_RICE_historical_context_on_desc: "RICE의 다양한 기능에 대한 맥락을 제공하는 도구 설명이 때때로 있습니다.  저는 종종 맛과 게임성을 위해 역사에 예술적 자유를 부여하기 때문에, 이는 그러한 상황을 설명하는 것입니다." # 13804947190237243101
-  setting_RICE_historical_context_off: "#높이 올리시오#!" # 2019327670389252092
-  setting_RICE_historical_context_off_desc: "RICE의 일부 측면에 대한 역사적 배경을 제공하는 툴팁이 간혹 나타나지 않습니다. 이는 해당 툴팁이 몰입을 방해한다고 생각하는 몰입 순수주의자들을 위한 것입니다." # 765278216720223080
+  setting_RICE_historical_context_on_desc: "RICE의 다양한 기능에 대한 배경 설명을 제공하는 툴팁이 가끔 있습니다. 제가 때때로 게임의 재미와 플레이를 위해 역사적 사실에서 벗어나기도 하므로, 이를 통해 그러한 상황들도 알 수 있습니다." # 13804947190237243101
+  setting_RICE_historical_context_off: "#high 끄기#!" # 2019327670389252092
+  setting_RICE_historical_context_off_desc: "RICE의 일부 측면에 대한 역사적 배경을 제공하는 간헐적인 툴팁이 표시되지 않습니다. 이 설정은 해당 툴팁이 몰입감을 해친다고 느끼는 플레이어들을 위한 것입니다." # 765278216720223080
   rule_RICE_music: "RICE 음악" # 2265862363348975230
-  setting_RICE_music_off: "#높이 올리시오#!" # 2019327670389252092
-  setting_RICE_music_off_desc: "RICE 모드에서 추가된 음악 트랙이 재생되지 않습니다." # 10816166186976530552
+  setting_RICE_music_off: "#high 끄기#!" # 2019327670389252092
+  setting_RICE_music_off_desc: "RICE 모드 음악 트랙이 재생되지 않습니다." # 10816166186976530552
   setting_RICE_music_default: "기본" # 8341519292606584866
-  setting_RICE_music_default_desc: "RICE 모드에서 추가된 음악 트랙은 적절한 지역에서 플레이하거나, 올바른 문화 또는 종교로 플레이하는 경우에만 재생됩니다." # 8154566601946502370
-  setting_RICE_music_unrestricted: "#high 제한 없음#!" # 3033804177292889934
-  setting_RICE_music_unrestricted_desc: "RICE 모드에서 추가된 음악 트랙은 지역, 문화 또는 종교에 관계없이 재생됩니다." # 8598032030493969367
-  setting_RICE_music_no_vocal_music: "#고음 없는 음악#!" # 5823983672750875425
-  setting_RICE_music_no_vocal_music_desc: "노래가 포함된 음악은 비활성화됩니다. 배경 음악과 악기 연주 음악은 계속 재생됩니다." # 12161489044479967167
-  rule_RICE_new_characters: "RICE 시작 시 특징 이벤트" # 10023906159002560081
-  setting_RICE_new_characters_off: "#높이 올리시오#!" # 2019327670389252092
-  setting_RICE_new_characters_off_desc: "RICE의 게임 시작 풍미 이벤트는 게임플레이 효과가 있는 경우를 #emp 제외하고#! 트리거되지 않습니다." # 7194581767416254549
+  setting_RICE_music_default_desc: "RICE 모드에서 추가된 음악 트랙은 적절한 지역에서 플레이하거나 올바른 문화나 종교로 플레이하고 있을 때만 재생됩니다." # 8154566601946502370
+  setting_RICE_music_unrestricted: "#high 무제한!#" # 3033804177292889934
+  setting_RICE_music_unrestricted_desc: "RICE 모드에 의해 추가된 음악 트랙은 당신의 지역, 문화, 또는 종교와 관계없이 재생됩니다." # 8598032030493969367
+  setting_RICE_music_no_vocal_music: "#high 성악 없음#!" # 5823983672750875425
+  setting_RICE_music_no_vocal_music_desc: "노래가 있는 음악은 비활성화됩니다. 주변 배경음악과 연주곡 음악은 계속 재생됩니다." # 12161489044479967167
+  rule_RICE_new_characters: "RICE 시작 풍미 이벤트" # 10023906159002560081
+  setting_RICE_new_characters_off: "#high 끄기#!" # 2019327670389252092
+  setting_RICE_new_characters_off_desc: "RICE의 게임 시작 플레이버 이벤트는 발동하지 않습니다, #emp 예외#!로 게임플레이 효과가 있는 이벤트를 제외하고." # 7194581767416254549
   setting_RICE_new_characters_default: "기본" # 8341519292606584866
-  setting_RICE_new_characters_default_desc: "RICE는 현재 상황에 대한 정보를 제공하기 위해 위치 또는 인물에 따라 게임 시작 시 이벤트를 트리거할 수 있습니다." # 443273654576793029
-  rule_RICE_event_frequency: "쌀 생산량 이벤트 빈도" # 7257434964245599311
+  setting_RICE_new_characters_default_desc: "RICE는 게임 시작 시 위치나 인물에 따라 현재 상황에 대한 정보를 제공하기 위해 이벤트를 발생시킬 수 있습니다." # 443273654576793029
+  rule_RICE_event_frequency: "RICE 이벤트 빈도" # 7257434964245599311
   setting_RICE_event_frequency_default: "기본" # 8341519292606584866
-  setting_RICE_event_frequency_default_desc: "RICE의 일반적인 풍미 이벤트는 기본 비율로 발동됩니다." # 6911931068200238330
-  setting_RICE_event_frequency_high: "#고 고#!" # 2127951051890626638
-  setting_RICE_event_frequency_high_desc: "RICE의 일반적인 풍미 이벤트가 다소 더 자주 발생합니다. 경고: RNG 작동 방식 때문에, 한 번에 여러 이벤트가 표시되거나, 오랜 기간 동안 이벤트가 전혀 표시되지 않을 수도 있습니다." # 12670042428479530050
+  setting_RICE_event_frequency_default_desc: "RICE의 일반 이벤트는 기본 빈도로 발동합니다." # 6911931068200238330
+  setting_RICE_event_frequency_high: "#high 고#" # 2127951051890626638
+  setting_RICE_event_frequency_high_desc: "RICE의 일반 플레이버 이벤트가 조금 더 자주 발생합니다. 주의: RNG 작동 방식 때문에, 여전히 한 번에 많은 이벤트를 보거나 긴 시간 동안 이벤트가 없을 수도 있습니다." # 12670042428479530050
   setting_RICE_event_frequency_very_high: "#high 매우 높음#!" # 2569242554647442629
-  setting_RICE_event_frequency_very_high_desc: "RICE의 일반적인 풍미 이벤트가 훨씬 더 자주 발생합니다. 이로 인해 이벤트 스팸이 발생할 수 있습니다! 경고: RNG 작동 방식 때문에, 한 번에 많은 이벤트가 나타나거나 오랫동안 이벤트가 전혀 나타나지 않을 수도 있습니다." # 11220023438131734170
+  setting_RICE_event_frequency_very_high_desc: "RICE의 일반 이벤트가 훨씬 더 자주 발생합니다. 이는 이벤트 과다 발생을 유발할 수 있습니다!\n경고: RNG(랜덤 난수 생성) 방식 때문에 여전히 많은 이벤트가 한꺼번에 발생하거나 장기간 이벤트가 발생하지 않을 수 있습니다." # 11220023438131734170
   setting_RICE_event_frequency_low: "#high Low#!" # 18150675065678100062
-  setting_RICE_event_frequency_low_desc: "RICE의 일반적인 풍미 이벤트가 다소 덜 자주 발생합니다. 경고: RNG 작동 방식 때문에 한 번에 많은 이벤트가 발생하거나 오랜 시간 동안 이벤트가 없을 수도 있습니다." # 8053676753084303096
+  setting_RICE_event_frequency_low_desc: "RICE의 일반 이벤트 발생 빈도가 다소 줄어듭니다.\n#bold 경고:# RNG의 작동 방식 때문에, 여전히 한 번에 많은 이벤트가 발생하거나 오랫동안 이벤트가 발생하지 않을 수 있습니다." # 8053676753084303096
   setting_RICE_event_frequency_very_low: "#high 매우 낮음#!" # 9570597036003984827
-  setting_RICE_event_frequency_very_low_desc: "RICE의 일반적인 풍미 이벤트는 훨씬 덜 자주 발생합니다. 드물게 이벤트가 발생할 수 있습니다! 경고: RNG 작동 방식 때문에, 여전히 많은 이벤트가 한 번에 발생하거나, 오랜 기간 동안 이벤트가 전혀 발생하지 않을 수도 있습니다." # 8515495669391609435
-  rule_RICE_courtier_spawn_frequency: "쌀 관리자 등장 빈도" # 13665093576718967910
+  setting_RICE_event_frequency_very_low_desc: "RICE의 일반 특색 이벤트 발생 빈도가 훨씬 감소합니다. 이벤트 발생이 드물어질 수 있습니다! 경고: RNG 작동 방식 특성상, 여전히 많은 이벤트가 한 번에 발생하거나 오랜 기간 이벤트가 전혀 발생하지 않을 수 있습니다." # 8515495669391609435
+  rule_RICE_courtier_spawn_frequency: "RICE 궁정 인물 생성 빈도" # 13665093576718967910
   setting_RICE_courtier_spawn_frequency_default: "기본" # 8341519292606584866
-  setting_RICE_courtier_spawn_frequency_default_desc: "RICE의 궁정 신하 생성 이벤트가 기본 비율로 발동합니다." # 7034852013988224559
-  setting_RICE_courtier_spawn_frequency_high: "#고 고#!" # 2127951051890626638
-  setting_RICE_courtier_spawn_frequency_high_desc: "RICE의 궁정 신하 생성 이벤트가 약간 더 자주 발동됩니다." # 10585394729552316915
+  setting_RICE_courtier_spawn_frequency_default_desc: "RICE의 신하 생성 이벤트는 기본 확률로 발동합니다." # 7034852013988224559
+  setting_RICE_courtier_spawn_frequency_high: "#high 고#" # 2127951051890626638
+  setting_RICE_courtier_spawn_frequency_high_desc: "RICE의 궁정 인물 생성 이벤트가 약간 더 자주 발동합니다." # 10585394729552316915
   setting_RICE_courtier_spawn_frequency_very_high: "#high 매우 높음#!" # 2569242554647442629
-  setting_RICE_courtier_spawn_frequency_very_high_desc: "RICE의 궁정 신하 생성 이벤트가 훨씬 더 자주 발동됩니다." # 6803125527876090873
+  setting_RICE_courtier_spawn_frequency_very_high_desc: "RICE의 궁정 신하 등장 이벤트가 훨씬 더 자주 발동합니다." # 6803125527876090873
   setting_RICE_courtier_spawn_frequency_low: "#high Low#!" # 18150675065678100062
-  setting_RICE_courtier_spawn_frequency_low_desc: "RICE의 궁정 신하 생성 이벤트가 다소 덜 자주 발생합니다." # 9387032550738128697
+  setting_RICE_courtier_spawn_frequency_low_desc: "RICE의 궁정인 등장 이벤트가 다소 덜 자주 발동합니다." # 9387032550738128697
   setting_RICE_courtier_spawn_frequency_very_low: "#high 매우 낮음#!" # 9570597036003984827
-  setting_RICE_courtier_spawn_frequency_very_low_desc: "RICE 궁정 신하 생성 이벤트가 훨씬 덜 자주 발생합니다." # 7400132757259179097
+  setting_RICE_courtier_spawn_frequency_very_low_desc: "RICE의 시종 생성 이벤트가 훨씬 덜 자주 발동됩니다." # 7400132757259179097
   rule_RICE_tuareg_emergence: "RICE 투아레그 등장" # 8692039503721376937
   setting_RICE_tuareg_emergence_default: "기본" # 8341519292606584866
-  setting_RICE_tuareg_emergence_default_desc: "투아레그 [culture|E]는 $culture_era_high_medieval$ [era|E] 이후 [decision|E]를 통해 생성될 수 있습니다. 투아레그를 추가하는 모드는 RICE의 구현을 재정의합니다." # 7547485448072628617
-  setting_RICE_tuareg_emergence_already: "#높음 게임 시작 시 존재!#" # 2371437435635184734
-  setting_RICE_tuareg_emergence_already_desc: "게임 시작 시 투아레그 [culture|E] 문화가 존재합니다. RICE는 투아레그를 게임 시작 시 지도에 필요한 대로 배치하기 위해 다른 모드의 투아레그 구현을 덮어씁니다." # 5156312222784766888
-  setting_RICE_tuareg_emergence_early: "#high 조기 등장#!" # 5316655082484944017
-  setting_RICE_tuareg_emergence_early_desc: "투아레그 [culture|E]는 $culture_era_early_medieval$ [era|E] 시대 초기에 [decision|E]을 통해 등장할 수 있습니다. RICE는 다른 모드의 투아레그를 덮어쓰고 필요한 경우 게임 시작 시 지도에서 제거합니다." # 2228024274761133875
-  setting_RICE_tuareg_emergence_override: "#high 다른 모드 덮어쓰기#!" # 13811155891916207394
-  setting_RICE_tuareg_emergence_override_desc: "투아레그 [culture|E]는 $culture_era_high_medieval$ [era|E] 이후 [decision|E]을 통해 생성될 수 있습니다. RICE는 다른 모드의 투아레그를 덮어쓰고 필요한 경우 게임 시작 시 지도에서 제거합니다." # 4517602530731729469
-  rule_RICE_yazidi_emergence: "RICE 야지디교의 부상" # 2362036100662707214
+  setting_RICE_tuareg_emergence_default_desc: "투아레그 [culture|E]는 $culture_era_high_medieval$ [era|E] 이후 [decision|E]을 통해 등장할 수 있습니다. 투아레그를 추가하는 모드는 RICE의 구현보다 우선합니다." # 7547485448072628617
+  setting_RICE_tuareg_emergence_already: "#high 게임 시작 시 존재함!#" # 2371437435635184734
+  setting_RICE_tuareg_emergence_already_desc: "투아레그 [culture|E]는 게임 시작 시 존재합니다. RICE는 필요에 따라 게임 시작 시 지도에 투아레그를 배치하기 위해 다른 모드의 구현을 덮어씁니다." # 5156312222784766888
+  setting_RICE_tuareg_emergence_early: "#high 조기 출현#!" # 5316655082484944017
+  setting_RICE_tuareg_emergence_early_desc: "투아레그 [문화|E]는 이르면 $culture_era_early_medieval$ [시대|E]부터 [결단|E]을 통해 생성될 수 있습니다. RICE는 다른 모드의 투아레그를 덮어쓰고 필요에 따라 게임 시작 시 지도에서 제거합니다." # 2228024274761133875
+  setting_RICE_tuareg_emergence_override: "#high 다른 모드 무시#!" # 13811155891916207394
+  setting_RICE_tuareg_emergence_override_desc: "투아레그 [culture|E]는 $culture_era_high_medieval$ [era|E] 및 그 이후에 [decision|E]를 통해 생성될 수 있습니다. RICE는 다른 모드의 투아레그를 우선하며, 필요에 따라 게임 시작 시 지도에서 제거합니다." # 4517602530731729469
+  rule_RICE_yazidi_emergence: "RICE 야지디 출현" # 2362036100662707214
   setting_RICE_yazidi_emergence_default: "기본" # 8341519292606584866
-  setting_RICE_yazidi_emergence_default_desc: "야지디 [faith|E]은 게임 시작 후 반세기 후에 무작위로 생성될 수 있지만, 12세기 이후에 생성될 가능성이 더 높습니다." # 3391120785297170868
-  setting_RICE_yazidi_emergence_historical: "#높은 역사적 배경#!" # 9566534081795727488
+  setting_RICE_yazidi_emergence_default_desc: "야지디 [신앙|E]는 게임 시작 후 반 세기 뒤 무작위로 출현할 수 있지만, 12세기 이후 출현할 가능성이 더 높습니다." # 3391120785297170868
+  setting_RICE_yazidi_emergence_historical: "#high 역사적!#" # 9566534081795727488
   setting_RICE_yazidi_emergence_historical_desc: "야지디 [faith|E]는 12세기 중반 이후에만 무작위로 생성될 수 있습니다." # 17021926209440938303
-  setting_RICE_yazidi_emergence_unrestricted: "#high 제한 없음#!" # 3033804177292889934
-  setting_RICE_yazidi_emergence_unrestricted_desc: "야지디 [faith|E]는 언제든지 생성될 수 있습니다." # 18264949632957044292
-  rule_RICE_yarsani_emergence: "RICE 야르사니의 부상" # 12210324029244904822
+  setting_RICE_yazidi_emergence_unrestricted: "#high 무제한!#" # 3033804177292889934
+  setting_RICE_yazidi_emergence_unrestricted_desc: "야지디 [faith|E]는 언제든지 출현할 수 있습니다." # 18264949632957044292
+  rule_RICE_yarsani_emergence: "RICE 야르산교 등장" # 12210324029244904822
   setting_RICE_yarsani_emergence_default: "기본" # 8341519292606584866
-  setting_RICE_yarsani_emergence_default_desc: "야르사니 [faith|E]는 게임 시작 후 반세기 후에 무작위로 생성될 수 있지만, 13세기 중반 이후에 생성될 가능성이 더 높습니다." # 17896217593751608609
-  setting_RICE_yarsani_emergence_historical: "#높은 역사적 배경#!" # 9566534081795727488
-  setting_RICE_yarsani_emergence_historical_desc: "야르사니 [faith|E]는 14세기 중반 이후에만 무작위로 생성될 수 있습니다." # 4900991101279393828
-  setting_RICE_yarsani_emergence_unrestricted: "#high 제한 없음#!" # 3033804177292889934
-  setting_RICE_yarsani_emergence_unrestricted_desc: "야르사니 [faith|E]는 언제든 발생할 수 있습니다." # 16981591934564274300
-  rule_RICE_afro_roman_counties: "쌀 $african_roman$ 존재" # 4246045542284264034
+  setting_RICE_yarsani_emergence_default_desc: "야르사니 [신앙|E]는 게임 시작 후 50년이 지나면 무작위로 등장할 수 있지만, 13세기 중반 이후에는 더 자주 등장합니다." # 17896217593751608609
+  setting_RICE_yarsani_emergence_historical: "#high 역사적!#" # 9566534081795727488
+  setting_RICE_yarsani_emergence_historical_desc: "야르산 [신앙|E]은 14세기 중반 이후에만 무작위로 발생할 수 있습니다." # 4900991101279393828
+  setting_RICE_yarsani_emergence_unrestricted: "#high 무제한!#" # 3033804177292889934
+  setting_RICE_yarsani_emergence_unrestricted_desc: "야르산 [faith|E]는 언제든지 출현할 수 있습니다." # 16981591934564274300
+  rule_RICE_afro_roman_counties: "RICE $african_roman$ 존재" # 4246045542284264034
   setting_RICE_afro_roman_counties_default: "기본" # 8341519292606584866
-  setting_RICE_afro_roman_counties_default_desc: "바닐라 시작 날짜에는 북아프리카에 $african_roman$ 및 $catholic_adj$ [counties|E]가 없습니다. 이를 추가하는 다른 모드가 이를 덮어씁니다." # 15423893630712455881
-  setting_RICE_afro_roman_counties_reduced: "#고도 반현실적#!" # 17340033266858295598
-  setting_RICE_afro_roman_counties_reduced_desc: "바닐라 시작 날짜에서 북아프리카에는 두어 개의 $african_roman$ 및 $catholic_adj$ [counties|E]가 있는데, 이는 해당 지역에서 두드러지게 생존한 곳입니다. 이를 추가하는 다른 모드들은 이를 덮어씁니다." # 17441655882895481938
-  setting_RICE_afro_roman_counties_extensive: "#과장됨!#" # 3598381278607975588
-  setting_RICE_afro_roman_counties_extensive_desc: "바닐라 시작 날짜에서 북아프리카에는 실제보다 훨씬 많은 $african_roman$ 및 $catholic_adj$ [counties|E]가 있습니다. 다른 모드가 추가되면 이 설정을 덮어씁니다." # 16765753577535553465
-  rule_RICE_easter_egg_characters: "RICE 부활절 달걀 인물" # 13642941742245534111
+  setting_RICE_afro_roman_counties_default_desc: "바닐라 시작 연도에는 북아프리카에 $african_roman$와 $catholic_adj$ [counties|E]가 존재하지 않습니다. 그것들을 추가하는 다른 모드들이 이를 덮어씁니다." # 15423893630712455881
+  setting_RICE_afro_roman_counties_reduced: "#high 반현실적#!" # 17340033266858295598
+  setting_RICE_afro_roman_counties_reduced_desc: "북아프리카에는 바닐라 시작 일자에 그들이 눈에 띄게 생존했던 지역들에 몇몇 $african_roman$ 및 $catholic_adj$ [counties|E]가 있습니다. 그들을 추가하는 다른 모드는 이것을 덮어씁니다." # 17441655882895481938
+  setting_RICE_afro_roman_counties_extensive: "#high 과장된!#" # 3598381278607975588
+  setting_RICE_afro_roman_counties_extensive_desc: "기본 시작 날짜의 북아프리카에는 $african_roman$ 및 $catholic_adj$ [counties|E]가 실제 존재보다 훨씬 더 많습니다. 이것들을 추가하는 다른 모드들은 이것을 덮어씁니다." # 16765753577535553465
+  rule_RICE_easter_egg_characters: "RICE 이스터 에그 인물" # 13642941742245534111
   setting_RICE_easter_egg_characters_default: "기본" # 8341519292606584866
-  setting_RICE_easter_egg_characters_default_desc: "RICE 모드에서 추가된 이스터 에그 인물들이 게임 시작 시 정상적으로 표시됩니다." # 16198821160409554745
+  setting_RICE_easter_egg_characters_default_desc: "RICE 모드에 의해 추가된 이스터 에그 캐릭터는 게임 시작 시 정상적으로 등장합니다." # 16198821160409554745
   setting_RICE_easter_egg_characters_removed: "#high 비활성화됨#!" # 9987668721544881868
-  setting_RICE_easter_egg_characters_removed_desc: "RICE 모드에서 추가된 이스터 에그 인물은 게임 시작 시 게임에 나타나지 않습니다." # 4756290487205324117
+  setting_RICE_easter_egg_characters_removed_desc: "RICE 모드에 의해 추가된 이스터 에그 인물들은 게임 시작 시 게임에 등장하지 않습니다." # 4756290487205324117
   rule_RICE_warning_events: "RICE 경고 이벤트" # 13097656273095930555
   setting_RICE_warning_events_default: "켜짐" # 14367041983676599459
-  setting_RICE_warning_events_default_desc: "게임 시작 시 잘못된 로드 순서, 게임 내 잠재적인 이상 동작 등에 대한 경고 이벤트가 감지되면 트리거됩니다(그렇지 않으면 스팸처럼 표시되지 않음)." # 12374531807067798136
-  setting_RICE_warning_events_removed: "#높이 올리시오#!" # 2019327670389252092
-  setting_RICE_warning_events_removed_desc: "경고 이벤트가 게임 시작 시 발생하지 않습니다. #warning @warning_icon! 이는 게임을 망가뜨릴 수 있는 심각한 문제에 대한 중요한 경고를 놓칠 수 있으므로, 어떤 행동을 하는지 알고 있는 경우가 아니면 절대로 권장하지 않습니다!#" # 7824599279713466653
+  setting_RICE_warning_events_default_desc: "부적절한 불러오기 순서, 게임 내에서 발생할 수 있는 이상한 행동 등에 대해 경고하는 이벤트는 감지될 경우 게임 시작 시 발동됩니다 (즉, 감지되지 않으면 경고 메시지가 반복해서 뜨지 않습니다)." # 12374531807067798136
+  setting_RICE_warning_events_removed: "#high 끄기#!" # 2019327670389252092
+  setting_RICE_warning_events_removed_desc: "시작 시 경고 이벤트가 발생하지 않습니다. #warning @warning_icon! 당신이 무엇을 하는지 알지 못한다면 강력히 권장하지 않습니다. 게임 진행을 막는 심각한 문제에 대한 중요한 경고를 놓칠 수 있기 때문입니다!#!" # 7824599279713466653
   rule_RICE_adventurers: "RICE 역사적 모험가" # 4084116289599393553
   setting_RICE_adventurers_default: "켜짐" # 14367041983676599459
-  setting_RICE_adventurers_default_desc: "[모험가|E]는 각 시작 날짜에 RICE에 의해 추가되어 일반적으로 나타납니다." # 18230138606500013815
-  setting_RICE_adventurers_disable_fictitious: "#high 허구 비활성화#!" # 3727276389560778996
-  setting_RICE_adventurers_disable_fictitious_desc: "RICE에서 추가된 역사적 인물도 전설적인 인물도 아닌 반쯤 그럴듯한 [adventurers|E]는 플레이어가 조종하는 경우를 제외하고 게임이 로드된 후 비활성화됩니다." # 14324903002125093000
-  setting_RICE_adventurers_disable_all: "#high 모두 비활성화!#" # 15335831633115230369
-  setting_RICE_adventurers_disable_all_desc: "RICE에서 추가한 [adventurers|E]는 플레이어가 조종하는 것을 제외하고 게임 로드 후 모두 비활성화됩니다." # 10824371845348743027
+  setting_RICE_adventurers_default_desc: "RICE 모드에 의해 각 시작 연도에서 추가된 [adventurers|E]는 정상적으로 나타납니다." # 18230138606500013815
+  setting_RICE_adventurers_disable_fictitious: "#high 가상 요소 비활성화#!" # 3727276389560778996
+  setting_RICE_adventurers_disable_fictitious_desc: "각 시작 날짜에 RICE에 의해 추가된, 역사적이거나 전설적이지는 않지만 반쯤 그럴듯한 [모험가|E]는 플레이어가 조작하는 경우를 제외하고 게임 로딩 후 비활성화됩니다." # 14324903002125093000
+  setting_RICE_adventurers_disable_all: "#high 모두 비활성화#!" # 15335831633115230369
+  setting_RICE_adventurers_disable_all_desc: "RICE에 의해 각 시작 날짜에 추가된 [adventurers|E]는 게임이 로드된 후 플레이어가 조종하는 모든 것을 제외하고 모두 비활성화됩니다." # 10824371845348743027
+  rule_RICE_rus_emergence: "RICE 루스 부상" # 9522231465068015120
+  setting_RICE_rus_emergence_default: "기본" # 8341519292606584866
+  setting_RICE_rus_emergence_default_desc: "초기 시작 연도에 $russian$ [문화|E]는 [결단|E]을 통해 발생할 수 있습니다.\n다른 모드의 $east_slavic_group$ 문화 설정이 이를 덮어쓸 수 있습니다.\n#warning @warning_icon! 설정은 게임 시작 후에 적용됩니다!#!" # 12353446026646358547
+  setting_RICE_rus_emergence_already: "#high 바닐라#" # 5994410695585669193
+  setting_RICE_rus_emergence_already_desc: "더 이른 시작 일에는, $russian$ [문화|E]가 바닐라처럼 게임 시작 시 존재합니다. 다른 모드의 $east_slavic_group$ 문화 설정이 이를 덮어쓸 수 있습니다." # 3627684719956602720
+  setting_RICE_rus_emergence_partial: "#high 부분#" # 13342509436853145068
+  setting_RICE_rus_emergence_partial_desc: "이전 시작 날짜에서는, $russian$ [culture|E]가 일부 [counties|E]에서 게임 시작 시점에 존재하지만, 전부는 아닙니다. 다른 모드의 $east_slavic_group$ 문화 설정이 이를 덮어쓸 수 있습니다. #warning @warning_icon! 설정은 게임 시작 이후에 적용됩니다!#!" # 8208693361549284045
+  setting_RICE_rus_emergence_override: "#high 다른 모드 무시#!" # 13811155891916207394
+  setting_RICE_rus_emergence_override_desc: "이른 시작 연대에서, $russian$ [culture|E]는 [decision|E]를 통해 생성될 수 있습니다. 이는 다른 모드들의 $east_slavic_group$ 문화 설정을 덮어쓰려 시도할 것입니다. #warning @warning_icon! 설정은 게임 시작 후에 적용됩니다!#!" # 3565093001234058332
   game_rule_category_RICE: "RICE" # 16323720634412588219
   game_rule_category_greenland: "그린란드" # 4107930907952466001
   game_rule_category_vinland: "빈란드" # 15439313187920129142
   game_rule_category_sri_lanka: "스리랑카" # 13061208163620670410
-  RICE_baklava_test_name: "바클라바 성스러운 조각" # 830695488749352005
-  RICE_baklava_test_desc: "보통 바클라바는 먹어야 합니다. 이 바클라바 조각은 숭배해야 합니다. 바클라바는 신성하며, 바클라바는 알파이자 오메가이며, 이것은 바클라바의 왕이자 바클라바들의 왕 중 왕이기 때문입니다." # 3253195785771247612
-  RICEintro.8888.t: "디저트의 왕 중 왕" # 15750732628996040242
-  RICEintro.8888.desc: "[ROOT.Char.GetFaith.GetName]에게 알려진 가장 위대한 성스러운 유물, [RICE_baklava_test.GetName]를 발견했습니다!" # 9593146449218229172
-  RICEintro.8888.a: "바클라바를 숭배할 수는 있지만 먹을 수는 없다니... 아이러니하군." # 334796864753170837
-  RICE_misc_myra_santa_claus: "성 니콜라스의 땅" # 11534114317419229771
-  RICE_misc_myra_santa_claus_desc: "자선, 신앙심, 니케아 정교 수호로 유명한 성 니콜라스는 미라에서 태어났으며, 4세기 경 그곳의 주교가 되었습니다. 미라에 있는 한 교회에는 성인의 무덤이 있으며, 그는 지역 주민들에게 자주 숭배받고 있습니다." # 2104748839227558082
-  RICE_misc_engaged_with_local_religious_practices: "지역 종교 관습에 참여함" # 5157707459688254390
-  RICE_nile_river_valley: "나일 계곡" # 11479069151299435718
-  RICE_hephthalite_heartland_region: "헤프탈라이트 심장부" # 16219189806140167551
-  RICE_hephthalite_former_empire_region: "이전 에프탈 제국" # 5705625091120405454
+  RICE_baklava_test_name: "신성한 바클라바 조각!" # 830695488749352005
+  RICE_baklava_test_desc: "일반적으로, 바클라바는 먹어야 한다. 이 바클라바 조각은 그 대신 숭배해야 한다. 바클라바는 신성하기 때문이니, 바클라바는 알파이자 오메가이며, 이것이야말로 바클라바 중의 바클라바이요, 바클라바의 왕중왕이다." # 3253195785771247612
+  RICEintro.8888.t: "사막의 제왕" # 15750732628996040242
+  RICEintro.8888.desc: "[ROOT.Char.GetFaith.GetName]에게 알려진 가장 위대한 성유물인 [RICE_baklava_test.GetName]을(를) 발견했습니다!" # 9593146449218229172
+  RICEintro.8888.a: "숭배할 수는 있는데 먹을 수는 없다니, 이 바클라바가 참 아이러니하군..." # 334796864753170837
+  RICE_misc_myra_santa_claus: "성 니콜라우스의 땅" # 11534114317419229771
+  RICE_misc_myra_santa_claus_desc: "자선, 신심, 그리고 니케아 정통 교리의 수호자로 유명한 성 니콜라오스는 뮈라에서 태어나 4세기에 그곳의 주교가 되었다. 뮈라에 있는 한 교회에는 그 성인의 무덤이 안치되어 있으며, 현지 주민들에게 자주 공경받는다." # 2104748839227558082
+  RICE_misc_engaged_with_local_religious_practices: "현지 종교 관습과 교류함" # 5157707459688254390
+  RICE_nile_river_valley: "나일강 유역" # 11479069151299435718
+  RICE_hephthalite_heartland_region: "에프탈의 심장부" # 16219189806140167551
+  RICE_hephthalite_former_empire_region: "옛 엽달 제국" # 5705625091120405454
   RICE_sogdia: "소그디아나" # 12389935594352785231
-  RICE_greater_pamir_region: "더욱 광대한 파미르 지역" # 8388335348209095412
+  RICE_greater_pamir_region: "대 파미르 지역" # 8388335348209095412
   RICE_brittany_horse_region: "브르타뉴 및 인접 지역" # 17701268740422672643
   action_RICE_historical_aspiration: "[GetPlayer.Custom('RICE_historical_aspiration_action_title_name')]" # 11110513065511628458
-  action_RICE_historical_aspiration_label: "당신에게 달성할 수 있는 [historical_aspirations|E]이 있습니다" # 3088901280367166315
-  action_RICE_historical_aspiration_desc_default: "하나 이상의 [목표|E]를 달성하여 [포부|E]를 이루고 다양한 보상을 얻으세요." # 18245156233832033699
+  action_RICE_historical_aspiration_label: "[historical_aspirations|E]를 달성해 볼 수 있습니다" # 3088901280367166315
+  action_RICE_historical_aspiration_desc_default: "다양한 보상을 얻기 위해 하나 이상의 [objectives|E]를 완수하여 그대의 [aspiration|E]을 달성하십시오." # 18245156233832033699
   action_RICE_historical_aspiration_desc: "[GetPlayer.Custom('RICE_historical_aspiration_action_desc')]" # 891117861478239489
-  action_RICE_historical_aspiration_click: "#당신의 인물을 보려면 클릭하십시오!#" # 15810112739006709897
-  RICE_historical_aspiration_fulfilled: "[GetPlayer.GetTitledFirstName] 님께서 [GetPlayer.GetHerHis] [GetPlayer.Custom('RICE_historical_aspiration_modifier_desc')]을(를) 이루셨습니다." # 12950234104406976318
-  RICE_historical_aspiration_fulfilled_title: "염원 달성" # 11509128207384711189
+  action_RICE_historical_aspiration_click: "#I 내 인물 보기#!" # 15810112739006709897
+  RICE_historical_aspiration_fulfilled: "[GetPlayer.GetTitledFirstName]께서 [GetPlayer.GetHerHis] [GetPlayer.Custom('RICE_historical_aspiration_modifier_desc')]를 완수하셨습니다." # 12950234104406976318
+  RICE_historical_aspiration_fulfilled_title: "숙원 달성" # 11509128207384711189
   TimothEe: "티모테" # 4162170990533481043
   dynn_umlaut: "움라우트" # 3803744615244913730
-  RICE_robber_baron: "강도 귀족" # 9467565162171457251
-  RICE_robber_baron_desc: "이 인물은 악명 높은 강도 귀족으로 알려진 지주이거나 한때 지주였습니다." # 10561060587926532100
-  RICE_dynn_yngling_motto: "명예로, 우리는 극복한다" # 13510113384523651412
+  RICE_robber_baron: "강도 남작" # 9467565162171457251
+  RICE_robber_baron_desc: "이 인물은 악명 높은 산적 남작으로 알려졌던 지주였거나, 현재 그러합니다." # 10561060587926532100
+  RICE_dynn_yngling_motto: "명예로써 우리는 극복하리라" # 13510113384523651412
   Goliath: "골리앗" # 4722524408798155140
-  dynn_von_bern: "베른의" # 8618270525867681899
+  dynn_von_bern: "폰 베른" # 8618270525867681899
   Weilian: "웨이리안" # 15960400328285721859
-  Chenyu: "첸위" # 18229542385553249836
+  Chenyu: "첸유" # 18229542385553249836
   Valerie: "발레리" # 11448700949970169718
-  RICE_friend_reason_placeholder: "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](이)는 서로의 회사를 즐기게 되었습니다." # 5719785269926253061
-  RICE_rival_reason_placeholder: "[CHARACTER.GetShortUIName|U](와)과 [TARGET_CHARACTER.GetShortUIName](은)는 몇 가지 차이로 인해 서로를 싫어하게 되었습니다." # 18121270760993488226
-  RICE_activity_result_gained_piety: "[piety_i] [piety|E] 획득" # 9102024060383912977
-  RICE_activity_result_gained_prestige: "[prestige_i] [prestige|E] 획득" # 5781316025150891959
-  RICE_activity_result_gained_dynasty_prestige: "[dynasty_prestige_i] [dynasty_prestige|E] 획득" # 3378709043662098657
-  RICE_activity_result_gained_smaller_piety: "소량의 [piety_i] [piety|E](을)를 얻었습니다" # 5333555842238392330
-  RICE_activity_result_gained_smaller_prestige: "소량의 [prestige_i] [prestige|E]를 얻었습니다" # 5209610668931753173
-  RICE_hot_springs_county_req: "[realm|E]에 유명한 [hot_springs|E]가 있는 [county|E]가 하나 이상 있습니다." # 160061556505073582
-  RICE_not_tribal_government_req: "귀하의 [government|E]은(는) [GetGovernment( 'tribal_government' ).GetName]이(가) 아닙니다" # 14257633235862052735
-  RICE_has_tribal_holding_req: "소유한 모든 [county|E]에는 [부족 영토|E]가 있습니다." # 6324052420449835900
-  RICE_has_castle_holding_req: "소유한 모든 [county|E]에는 [castle_holding|E]이 있습니다." # 3910797213224370242
-  RICE_has_city_holding_req: "소유한 [county|E]에는 [city_holding|E]가 있습니다" # 14963053009318332584
-  RICE_has_temple_holding_req: "소유한 모든 [county|E]에는 [temple_holding|E]이 있습니다." # 3583505366548237179
-  RICE_NOT_has_castle_holding_req: "[castle_holding|E]이 있는 [county|E]를 소유하지 않음" # 10539917324029786134
-  RICE_NOT_has_city_holding_req: "[도시_보유지|E]가 있는 [백작령|E]을 소유하지 않았습니다" # 137990083939878292
-  RICE_NOT_has_temple_holding_req: "[temple_holding|E]이 있는 [county|E]를 소유하지 않음" # 16488865393726669892
-  RICE_NOT_has_tribal_holding_req: "[부족 영지|E]를 보유한 [백작령|E]을 소유하지 않았습니다" # 13562642988425033095
+  RICE_friend_reason_placeholder: "[CHARACTER.GetShortUIName|U]와 [TARGET_CHARACTER.GetShortUIName]는 서로 함께 있는 것을 즐기게 되었다." # 5719785269926253061
+  RICE_rival_reason_placeholder: "[CHARACTER.GetShortUIName|U]와 [TARGET_CHARACTER.GetShortUIName]는 어떤 차이 때문에 서로 사이가 나빠졌습니다." # 18121270760993488226
+  RICE_activity_result_gained_piety: "[piety_i] [piety|E]를 획득했습니다" # 9102024060383912977
+  RICE_activity_result_gained_prestige: "[prestige_i] [prestige|E]를 획득했습니다" # 5781316025150891959
+  RICE_activity_result_gained_dynasty_prestige: "[dynasty_prestige_i] [dynasty_prestige|E]를 획득했습니다" # 3378709043662098657
+  RICE_activity_result_gained_smaller_piety: "[piety_i] [piety|E] 소량 획득했습니다" # 5333555842238392330
+  RICE_activity_result_gained_smaller_prestige: "소량의 [prestige_i] [prestige|E]를 획득했습니다." # 5209610668931753173
+  RICE_hot_springs_county_req: "[realm|E] 내 최소 하나 이상의 [county|E]가 유명한 [hot_springs|E]를 가지고 있습니다" # 160061556505073582
+  RICE_not_tribal_government_req: "귀하의 [government|E]는 [GetGovernment( 'tribal_government' ).GetName]이(가) 아닙니다." # 14257633235862052735
+  RICE_has_tribal_holding_req: "소유한 모든 [county|E]는 [tribal_holding|E]를 보유합니다" # 6324052420449835900
+  RICE_has_castle_holding_req: "소유한 모든 [county|E]는 [castle_holding|E]를 보유합니다" # 3910797213224370242
+  RICE_has_city_holding_req: "귀하가 소유한 모든 [county|E]는 [city_holding|E]를 보유하고 있습니다." # 14963053009318332584
+  RICE_has_temple_holding_req: "소유한 모든 [county|E]는 [temple_holding|E]를 보유합니다" # 3583505366548237179
+  RICE_NOT_has_castle_holding_req: "[castle_holding|E]가 있는 [county|E]를 소유하지 않는다" # 10539917324029786134
+  RICE_NOT_has_city_holding_req: "[city_holding|E]를 가진 [county|E]를 보유하고 있지 않음" # 137990083939878292
+  RICE_NOT_has_temple_holding_req: "[temple_holding|E]가 있는 [county|E]를 소유하지 않음" # 16488865393726669892
+  RICE_NOT_has_tribal_holding_req: "[tribal_holding|E]를 가진 [county|E]를 소유하고 있지 않음" # 13562642988425033095
   activity_RICE_hot_springs_visit_host_an_a: "$host_activity_a$" # 13713790857143020716
   activity_RICE_hot_springs_visit: "온천 방문" # 647038537016052024
-  activity_RICE_hot_springs_visit_desc: "이 세상에는 많은 유명한 [hot_springs|E]가 있으며, 저는 다행히도 그 중 하나 가까이에 살고 있습니다. 스트레스를 해소하고 일상의 걱정을 잊기 위해 방문해야겠습니다." # 9117503003778629014
-  activity_RICE_hot_springs_visit_selection_tooltip: "현지 [hot_springs|E]에서 휴식을 취하십시오.\n\n$activity_RICE_hot_springs_visit_context_tooltip$" # 11870276385542662825
-  activity_RICE_hot_springs_visit_context_tooltip: "#emphasis 역사적 배경:#! 온천은 일반적으로 화산 활동과 같은 지열에서 기원합니다. 온천은 수천 년 동안 인간에 의해 사용되어 왔으며, 많은 온천은 전통적으로 치유 또는 치료 효과가 있다고 믿어집니다." # 3319482386439957716
-  activity_RICE_hot_springs_visit_host_desc: "$BULLET_WITH_TAB$ [stress_loss_i|E] [stress|E] 감소\n$BULLET_WITH_TAB$ 위치에 따라 다른 추가 혜택 가능" # 5796056523830155341
+  activity_RICE_hot_springs_visit_desc: "이 세상에는 유명한 [온천|E]이 많이 있으며, 운 좋게도 그중 하나와 가깝게 살고 있습니다. 일상생활의 걱정에서 벗어나 스트레스를 풀기 위해 그곳을 방문해야 합니다." # 9117503003778629014
+  activity_RICE_hot_springs_visit_selection_tooltip: "현지 [hot_springs|E]에서 휴식하기.\n\n$activity_RICE_hot_springs_visit_context_tooltip$" # 11870276385542662825
+  activity_RICE_hot_springs_visit_context_tooltip: "#emphasis 역사적 배경:#! 온천은 일반적으로 화산 활동과 같은 지열 기원을 가집니다. 온천은 수천 년 동안 인류에게 사용되어 왔으며, 많은 온천은 전통적으로 치유 또는 치료 효과가 있다고 여겨집니다." # 3319482386439957716
+  activity_RICE_hot_springs_visit_host_desc: "\n$BULLET_WITH_TAB$[stress_loss_i|E] [stress|E] 잃습니다\n$BULLET_WITH_TAB$장소에 따라 다른 추가 효과를 받을 수 있습니다" # 5796056523830155341
   activity_RICE_hot_springs_visit_guest_desc: "$activity_RICE_hot_springs_visit_host_desc$" # 7559639311752796954
-  activity_RICE_hot_springs_visit_province_desc: "#N - 이곳의 [hot_springs|E]는 잘 알려져 있지는 않지만, 휴식을 취하기에는 충분할 것입니다.#!\n#weak 잘 알려진 [hot_springs|E]에 비해 [stress|E] 감소 효과가 적고 특별한 보너스도 없습니다." # 14525305317641161905
+  activity_RICE_hot_springs_visit_province_desc: "\n#N - 여기 [hot_springs|E]는 그다지 유명하지 않지만, 휴식을 취하기에는 여전히 충분할 것입니다.#!\n#weak 이는 더 유명한 [hot_springs|E]에 비해 [stress_loss_i|E] [stress|E] 감소량이 적고, 특별한 보너스가 없다는 것을 의미합니다." # 14525305317641161905
   activity_RICE_hot_springs_visit_guest_help_text: "$activity_RICE_hot_springs_visit$" # 8371966182751922926
-  activity_RICE_hot_springs_visit_predicted_cost: "[온천|E] 방문 비용은 선택한 [활동 옵션|E]에 따라 다릅니다." # 2977282388472990312
+  activity_RICE_hot_springs_visit_predicted_cost: "[hot_springs|E] 방문 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 2977282388472990312
   activity_RICE_hot_springs_visit_conclusion_desc: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]이 끝났습니다. 즐겁고 편안한 경험이었습니다!" # 9596727532240645524
   RICE_hot_springs_visit_type: "방문 유형" # 13536966538934268351
-  RICE_hot_springs_visit_type_public: "공개" # 1131600380983114635
-  RICE_hot_springs_visit_type_public_desc: "$EFFECT_LIST_BULLET$ 선택한 [온천|E]로의 고급스러운 공개 여행입니다. 현지인들은 방문객의 만족을 위해 최선을 다할 것입니다.\n$EFFECT_LIST_BULLET$ #bold 개인적인#! 방문에 비해 더 많은 [명성_i][명성|E]를 얻지만, [stress_loss_i|E] [stress|E]는 더 적게 잃습니다.\n\n#weak 다른 사람들과 함께하지 않고 어떻게 휴식을 취할 수 있을까요? 즐거운 시간에 다른 사람을 피하는 사람만이 사회적으로나 개인적으로 무능한 사람일 것입니다!#!" # 4908795685839267265
-  RICE_hot_springs_visit_type_private: "개인" # 3600583866601844156
-  RICE_hot_springs_visit_type_private_desc: "$EFFECT_LIST_BULLET$ 선택하신 [hot_springs|E]로의 개인 여행이 될 것이며, 눈에 띄지 않게 조용히 휴식을 취할 수 있습니다.\n$EFFECT_LIST_BULLET$ #bold 공개#! 방문에 비해 더 많은 [stress_loss_i|E] [stress|E]를 줄이지만, [prestige_i][prestige|E]는 더 적게 얻습니다. (또는 방문하는 장소에 따라 전혀 얻지 못할 수도 있습니다.)\n\n#weak 다른 사람이 있어야 즐거운 사람은 자기 자신에게 편안함을 느끼지 못합니다. 조용하고 평화로운 환경에서 휴식을 취하는 것이 가장 좋습니다.#!" # 17213279264011434280
+  RICE_hot_springs_visit_type_public: "공공" # 1131600380983114635
+  RICE_hot_springs_visit_type_public_desc: "$EFFECT_LIST_BULLET$ 선택하신 [hot_springs|E]로의 대외적인 공적 여행이 될 것입니다. 지역 주민들은 방문을 즐겁게 만들기 위해 최선을 다할 것입니다.\n$EFFECT_LIST_BULLET$ #bold 사적인#! 방문과 비교하여 [prestige_i][prestige|E]를 더 많이 얻게 되지만, [stress_loss_i|E] [stress|E]를 더 적게 잃습니다.\n\n#weak 다른 사람과 함께하지 않는 휴식이란 무엇인가? 사교적이고 개인적으로 무능한 사람만이 즐거운 시간을 보낼 때 다른 사람을 피할 것이다!#!" # 4908795685839267265
+  RICE_hot_springs_visit_type_private: "사적인" # 3600583866601844156
+  RICE_hot_springs_visit_type_private_desc: "$EFFECT_LIST_BULLET$ 선택한 [hot_springs|E]으로 떠나는 조용하고 사적인 여행이 됩니다. 평화롭게 휴식을 취하기 위해 관심을 끄는 일을 피할 것입니다.\n$EFFECT_LIST_BULLET$ #bold 공개적#! 방문과 비교하여 더 많은 [stress_loss_i|E] [stress|E]를 잃지만, 더 적은 [prestige_i][prestige|E]를 얻습니다 (방문하는 장소에 따라 아예 얻지 못할 수도 있습니다.).\n\n#weak 남이 있어야 재미를 느끼는 자들은 스스로에게 편안함을 느끼지 못한다. 조용하고 평화로운 곳에서 쉬는 것이 최선이다.#!" # 17213279264011434280
   RICE_hot_springs_visit_leisure_phase: "여가" # 7868806935305589529
   RICE_hot_springs_visit_leisure_phase_desc: "[hot_springs|E]를 즐길 시간입니다!" # 9934324071243380023
   RICE_hot_springs_visit_relaxation_intent_header: "휴식:" # 14517665651769141762
-  RICE_hot_springs_visit_relaxation_intent: "휴식" # 5134121907771394555
-  RICE_hot_springs_visit_relaxation_intent_desc: "선택한 [hot_springs|E]에서 휴식을 취할 것입니다." # 13072927786999235424
+  RICE_hot_springs_visit_relaxation_intent: "휴식:" # 5134121907771394555
+  RICE_hot_springs_visit_relaxation_intent_desc: "선택하신 [hot_springs|E]에서 휴식을 취하실 것입니다." # 13072927786999235424
   RICE_hot_springs_visit_completed_log_title: "온천 방문 완료" # 1616705207528316220
-  RICE_hot_springs_visit_completed_log: "[CHARACTER.GetShortUIName|U](이)가 [PROVINCE.GetBaronyNameExplicitly]의 [hot_springs|E](으)로의 방문을 완료했습니다." # 14798992536289298181
+  RICE_hot_springs_visit_completed_log: "[CHARACTER.GetShortUIName|U]께서 [PROVINCE.GetBaronyNameExplicitly]에 있는 [hot_springs|E] 방문을 마쳤습니다." # 14798992536289298181
   TRAVEL_NAME_FOR_activity_RICE_hot_springs_visit: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_hot_springs_visit$" # 1779414369856157414
   activity_RICE_local_pilgrimage: "지역 순례" # 10334250218750586114
-  activity_RICE_local_pilgrimage_desc: "세계에는 지역 성지가 많이 있습니다. 이러한 장소는 [faithpossessive|E] 주요 [holy_sites|E]만큼 눈에 띄지는 않아서 장거리 [pilgrimages|E]의 대상이 되는 경우는 드물지만, 여전히 주변 지역의 신도들을 끌어들입니다." # 5614416500868816931
-  activity_RICE_local_pilgrimage_selection_tooltip: "[local_순례|E]를 떠납니다.\n\n$activity_RICE_local_pilgrimage_context_tooltip$" # 10643669713571099553
-  activity_RICE_local_pilgrimage_context_tooltip: "#emphasis 역사적 배경:#! 순례는 종종 메카, 예루살렘, 산티아고, 보드가야와 같은 유명한 종교 성지로의 웅장한 여정을 떠올리게 하지만, 지역적인 목적지로의 순례도 흔했습니다. 이들 중 일부는 유명한 성지보다 더 오랫동안 숭배와 숭상의 중심지였습니다. 그들은 종종 지역 전설 및 문화와 관련이 있으며, 여행이 어려웠던 전근대 시대에는 이러한 장소로 여행하는 것이 더 실용적이었습니다." # 5393693812791771381
-  activity_RICE_local_pilgrimage_host_desc: "$BULLET_WITH_TAB$ [신앙도_i|E][신앙도|E] 획득\n$BULLET_WITH_TAB$ [stress_loss_i|E] [stress|E] 상실\n$BULLET_WITH_TAB$ [GetTrait('pilgrim').GetName( GetNullCharacter )] [특성|E] / [GetTrait('pilgrim').GetName( GetNullCharacter )] [특성_수준_추적_경험치|E]" # 5617381781335626209
+  activity_RICE_local_pilgrimage_desc: "세계는 지역 성지로 가득합니다. 이곳들은 종종 [신앙의|E] 주요 [성지들|E]만큼 유명하지 않으며, 따라서 장거리 [순례|E]의 대상이 되는 경우가 드뭅니다. 하지만 여전히 주변 지역의 신봉자들을 끌어모읍니다." # 5614416500868816931
+  activity_RICE_local_pilgrimage_selection_tooltip: "[local_pilgrimage|E]을 떠나십시오.\n\n$activity_RICE_local_pilgrimage_context_tooltip$" # 10643669713571099553
+  activity_RICE_local_pilgrimage_context_tooltip: "#emphasis 역사적 배경:#! 순례는 종종 메카, 예루살렘, 산티아고, 보드가야와 같은 잘 알려진 종교 성지로의 거대한 여정을 떠올리게 하지만, 지역 및 지방의 순례지 또한 과거에도, 현재에도 흔했습니다. 이들 중 일부는 더 유명한 성지만큼이나, 혹은 그보다 더 오랫동안 숭배와 경배의 중심지였습니다. 이러한 순례지는 종종 지역 전설과 문화와 연결되어 있으며, 여행이 어려웠던 근대 이전 시대에는 이들 장소로 향하는 것이 더 실용적인 경우가 많았습니다." # 5393693812791771381
+  activity_RICE_local_pilgrimage_host_desc: "\n$BULLET_WITH_TAB$[piety_i|E][piety|E] 획득\n$BULLET_WITH_TAB$[stress_loss_i|E] [stress|E] 상실\n$BULLET_WITH_TAB$[GetTrait('pilgrim').GetName( GetNullCharacter )] [trait|E] / [GetTrait('pilgrim').GetName( GetNullCharacter )] [trait_level_track_xp|E]" # 5617381781335626209
   activity_RICE_local_pilgrimage_guest_desc: "$activity_RICE_local_pilgrimage_host_desc$" # 13592859189337072896
   activity_RICE_local_pilgrimage_destination_selection: "$activity_RICE_local_pilgrimage_province_desc$" # 10541515699325273294
   activity_RICE_local_pilgrimage_guest_help_text: "$activity_RICE_local_pilgrimage$" # 163418827341843233
   activity_RICE_local_pilgrimage_predicted_cost: "[local_pilgrimage|E]의 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 15267312677226829027
-  activity_RICE_local_pilgrimage_conclusion_desc: "[GetActivityType( 'activity_RICE_local_pilgrimage' ).GetName]이(가) 끝났습니다. 훌륭한 종교적 경험이었습니다!" # 6205572364169622914
+  activity_RICE_local_pilgrimage_conclusion_desc: "[GetActivityType( 'activity_RICE_local_pilgrimage' ).GetName]가 끝났습니다. 훌륭한 종교적 경험이었습니다!" # 6205572364169622914
   RICE_local_pilgrimage_type: "방문 유형" # 13536966538934268351
   RICE_local_pilgrimage_type_devotion: "헌신의 행위" # 5056375514284585292
-  RICE_local_pilgrimage_type_devotion_desc: "$EFFECT_LIST_BULLET$ 다른 [신앙심|E] 획득량에 더하여 [신앙심_i|E] #V 100#! 획득\n$EFFECT_LIST_BULLET$ 다른 선택지에 비해 [특성('순례자').GetName( GetNullCharacter )] [특성|E]의 [특성_레벨_추적_경험치|E] 두 배 획득\n\n#weak 비록 주요 성지로 여행하는 것은 아니지만, 우리는 여전히 순례 중이며, 이를 진지하게 받아들여야 합니다.!#" # 17926775420525508190
+  RICE_local_pilgrimage_type_devotion_desc: "\n$EFFECT_LIST_BULLET$[piety_i|E] #V 100#!을 다른 [piety|E] 획득에 더해 얻습니다.\n$EFFECT_LIST_BULLET$[GetTrait('pilgrim').GetName( GetNullCharacter )] [trait|E]에 대하여 다른 선택지에 비해 두 배의 [trait_level_track_xp|E]를 얻습니다.\n\n#weak 반드시 주요 성지로 향하는 것은 아니지만, 우리는 여전히 순례를 하고 있으며, 이를 진지하게 받아들여야 합니다.#!" # 17926775420525508190
   RICE_local_pilgrimage_type_observance: "종교 의례" # 14173320208471015566
-  RICE_local_pilgrimage_type_observance_desc: "$EFFECT_LIST_BULLET$기타 [prestige|E] 획득량에 추가하여 [prestige_i|E] 100을 획득합니다.#V 100#!\n$EFFECT_LIST_BULLET$지역 종교 관습에 따라 [GetPlayer.GetFaith.PantheonTerm]을 존중하면, 신하들에게 자신을 이해하고 그들의 생활 방식을 존중하는 지도자임을 보여줄 수 있습니다. [GetModifier('RICE_misc_engaged_with_local_religious_practices').GetNameWithTooltip] [character_modifier|E]를 획득합니다." # 13511769572469339206
-  RICE_local_pilgrimage_type_vacation: "영적 휴가" # 16295648943498046187
-  RICE_local_pilgrimage_type_vacation_desc: "$EFFECT_LIST_BULLET$ 다른 선택지에 비해 [stress_loss_i|E] [stress|E]를 훨씬 많이 잃습니다\n\n#weak 정신적, 육체적 회복은 모든 장기적인 종교 체험에서 중요한 측면이며, [GetPlayer.GetFaith.PantheonTerm]에 더 가까이 다가갈 수 있게 해줍니다!#" # 3869466596457489233
+  RICE_local_pilgrimage_type_observance_desc: "\n$EFFECT_LIST_BULLET$[prestige|E] 획득 외 추가로 [prestige_i|E] #V 100#! 획득\n$EFFECT_LIST_BULLET$[GetModifier('RICE_misc_engaged_with_local_religious_practices').GetNameWithTooltip] [character_modifier|E] 획득\n\n#weak 현지 관습에 따라 [GetPlayer.GetFaith.PantheonTerm]를 기리는 것은 신민들에게 그들과 그들의 삶의 방식을 이해하고 있음을 보여줄 수 있습니다. #!" # 13511769572469339206
+  RICE_local_pilgrimage_type_vacation: "영적 수양" # 16295648943498046187
+  RICE_local_pilgrimage_type_vacation_desc: "\n$EFFECT_LIST_BULLET$ 다른 선택지에 비해 [stress_loss_i|E] [stress|E]를 훨씬 더 많이 잃습니다\n\n#weak 정신적, 신체적으로 회복하는 것 또한 어떠한 장기적인 종교적 경험에서도 중요한 측면이며, 이를 통해 [GetPlayer.GetFaith.PantheonTerm]에 더 가까워질 수 있습니다.#!" # 3869466596457489233
   RICE_local_pilgrimage_pilgrimage_phase: "$pilgrimage_phase_solo$" # 2968942166107446400
   RICE_local_pilgrimage_pilgrimage_phase_desc: "$pilgrimage_phase_solo_desc$" # 452109899452581433
   RICE_local_pilgrimage_worship_intent_header: "숭배:" # 5975529624042931288
-  RICE_local_pilgrimage_worship_intent: "숭배" # 7766295194512236388
-  RICE_local_pilgrimage_worship_intent_desc: "이 [local_pilgrimage|E]의 종교적 측면에 집중하고 싶습니다. 다른 이득 외에 추가 [piety_i|E] [piety|E]를 얻습니다. [GetTrait('zealous').GetName( GetNullCharacter )] 또는 [GetTrait('calm').GetName( GetNullCharacter )] 특성을 보유한 경우 추가 [stress_loss_i|E] [stress|E]를 잃습니다." # 9943268571595745665
-  RICE_local_pilgrimage_model_intent_header: "롤 모델:" # 2690343712157251389
-  RICE_local_pilgrimage_model_intent: "역할 모델" # 15667250431010229361
-  RICE_local_pilgrimage_model_intent_desc: "이 지역의 모든 [GetPlayer.GetFaith.GetAdherentNamePlural]에게 이번 [local_pilgrimage|E]를 통해 모범을 보이십시오. 다른 이득 외에도 더 많은 [prestige_i|E] [prestige|E]를 얻습니다. 만약 당신이 [GetTrait('ambitious').GetName( GetNullCharacter )] 또는 [GetTrait('diligent').GetName( GetNullCharacter )]라면 추가 [stress_loss_i|E] [stress|E]를 잃습니다." # 5736045332808381070
+  RICE_local_pilgrimage_worship_intent: "숭배:" # 7766295194512236388
+  RICE_local_pilgrimage_worship_intent_desc: "이 [local_pilgrimage|E]의 종교적인 측면에 집중하고 싶습니다.\n다른 이득에 더하여 [piety_i|E] [piety|E]를 더 얻습니다.\n만약 당신이 [GetTrait('zealous').GetName( GetNullCharacter )] 또는 [GetTrait('calm').GetName( GetNullCharacter )] 특성을 가졌다면 추가 [stress_loss_i|E] [stress|E] 감소를 얻습니다." # 9943268571595745665
+  RICE_local_pilgrimage_model_intent_header: "본보기:" # 2690343712157251389
+  RICE_local_pilgrimage_model_intent: "본보기:" # 15667250431010229361
+  RICE_local_pilgrimage_model_intent_desc: "이 [local_pilgrimage|E]에 참여함으로써 이 지역 모든 [GetPlayer.GetFaith.GetAdherentNamePlural]에게 모범을 보일 것입니다. 다른 이득에 더하여 더 많은 [prestige_i|E] [prestige|E]를 획득합니다. 만약 당신이 [GetTrait('ambitious').GetName( GetNullCharacter )] 특성이거나 [GetTrait('diligent').GetName( GetNullCharacter )] 특성이라면 추가적인 [stress_loss_i|E] [stress|E]를 잃습니다." # 5736045332808381070
   RICE_local_pilgrimage_curiosity_intent_header: "호기심:" # 6542558464702859944
-  RICE_local_pilgrimage_curiosity_intent: "호기심" # 6560274987374450652
-  RICE_local_pilgrimage_curiosity_intent_desc: "당신은 이 [local_pilgrimage|E]를 떠나면서, 현지 주민, 그들의 문제, 그리고 그들이 [GetPlayer.GetFaith.GetName]을 어떻게 수행하는지 더 잘 이해하고 싶습니다. 당신의 [lifestyle|E]에서 [experience|E]를 얻습니다. 만약 당신이 [GetTrait('humble').GetName( GetNullCharacter )] 또는 [GetTrait('just').GetName( GetNullCharacter )]라면 추가적인 [stress_loss_i|E] [stress|E]를 잃습니다." # 12781922788632846907
-  RICE_local_pilgrimage_completed_log_title: "지역 순례 완료" # 4914369661525092964
-  RICE_local_pilgrimage_completed_log: "[CHARACTER.GetShortUIName|U](이)가 [PROVINCE.GetBaronyNameExplicitly](으)로 [local_pilgrimage|E](을)를 완료했습니다." # 14320389929684909204
-  TRAVEL_NAME_FOR_activity_RICE_local_pilgrimage: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_local_pilgrimage$" # 1311567001231395453
-  RICE_local_pilgrimage_county_req: "[top_realm|E|E]에 [지역 순례|E]로 유명한 장소가 있는 [county|E]가 하나 이상 있습니다" # 2109634866831842978
+  RICE_local_pilgrimage_curiosity_intent: "호기심:" # 6560274987374450652
+  RICE_local_pilgrimage_curiosity_intent_desc: "이 [local_pilgrimage|E]를 떠나면서 지역 주민들과 그들의 문제점, 그리고 그들이 [GetPlayer.GetFaith.GetName]를 어떻게 신봉하는지 더 잘 이해하고 싶어합니다. 당신의 [lifestyle|E]에서 [experience|E]를 얻습니다. 만약 당신이 [GetTrait('humble').GetName( GetNullCharacter )]이거나 [GetTrait('just').GetName( GetNullCharacter )]라면 추가적인 [stress_loss_i|E] [stress|E]를 잃습니다." # 12781922788632846907
+  RICE_local_pilgrimage_completed_log_title: "지역 순례 완료됨" # 4914369661525092964
+  RICE_local_pilgrimage_completed_log: "[CHARACTER.GetShortUIName|U]께서 [CHARACTER.GetHerHis] [PROVINCE.GetBaronyNameExplicitly]로의 [local_pilgrimage|E]를 완료하셨습니다." # 14320389929684909204
+  TRAVEL_NAME_FOR_activity_RICE_local_pilgrimage: "[Character.GetFirstNamePossessiveNoTooltip]$activity_RICE_local_pilgrimage$" # 1311567001231395453
+  RICE_local_pilgrimage_county_req: "[최상위 봉역|E|E] 내에 [지역 성지순례|E]를 위한 주목할 만한 장소가 있는 [백작령|E]가 적어도 하나 존재합니다." # 2109634866831842978
   NOT_RICE_local_pilgrimage_county_req: "$RICE_hot_springs_county_req$" # 13510738772406884580
-  RICE_local_pilgrimage_votive_offering_type: "공물" # 1626538731888735885
+  RICE_local_pilgrimage_votive_offering_type: "봉헌" # 1626538731888735885
   RICE_local_pilgrimage_votive_offering_type_small: "기본 봉헌물" # 18347591411903449294
-  RICE_local_pilgrimage_votive_offering_type_small_desc: "$EFFECT_LIST_BULLET$ [activity|E] 완료 시 [piety_i|E] #V 50#! 기본 획득.\n\n#weak 순례 목적지에 도착하면 [GetPlayer.GetFaith.PantheonTerm]에게 어떤 형태로든 공물을 바치는 것이 좋은 관례입니다.#!" # 7931407720452004919
-  RICE_local_pilgrimage_votive_offering_type_medium: "대규모 봉헌물" # 17111687436958267106
-  RICE_local_pilgrimage_votive_offering_type_medium_desc: "$EFFECT_LIST_BULLET$[activity|E] 완료 시 [piety_i|E] #V 100#! 기본 획득.\n\n#weak "소규모" 순례에서도 상당한 공물을 바쳐 [GetPlayer.GetFaith.PantheonTerm]을 제대로 공경해야 합니다.!#" # 2891940937492351761
-  RICE_local_pilgrimage_votive_offering_type_large: "소규모 [GetPlayer.GetFaith.HouseOfWorship|U] 토지 증여" # 12114519482378903822
-  RICE_local_pilgrimage_votive_offering_type_large_desc: "$EFFECT_LIST_BULLET$[piety_i|E] 기본 획득량 #V 200#! [activity|E] 완료 시.\n$EFFECT_LIST_BULLET$[development_i|E] [development|E] 진행도 #P 증가#! (수도)에서 #V [EmptyScope.ScriptValue('minor_development_progress_gain')]#! [activity|E] 완료 시#!\n\n#weak 순례를 떠날 때, 현명한 통치자는 그들의 헌신을 증명하기 위해 종교 기관에 토지를 기증할 것이며, 그리하여 [GetPlayer.GetFaith.PantheonTerm]의 영광을 드높일 것입니다.#!" # 5484790321345388584
+  RICE_local_pilgrimage_votive_offering_type_small_desc: "$EFFECT_LIST_BULLET$[piety_i|E] #V 50#! 기본 획득: [활동|E] 완료 시\n\n#weak 순례 목적지에 도착하면 [GetPlayer.GetFaith.PantheonTerm]에 일종의 봉헌을 하는 것이 좋은 관례입니다.#!" # 7931407720452004919
+  RICE_local_pilgrimage_votive_offering_type_medium: "성대한 봉헌물" # 17111687436958267106
+  RICE_local_pilgrimage_votive_offering_type_medium_desc: "$EFFECT_LIST_BULLET$[activity|E] 완료 시 [piety_i|E] #V 100#! 기본 획득\n\n#weak \"소규모\" 순례 중에도 [GetPlayer.GetFaith.PantheonTerm]에게 상당한 헌물을 바쳐 제대로 경의를 표해야 합니다.#!" # 2891940937492351761
+  RICE_local_pilgrimage_votive_offering_type_large: "소규모 [GetPlayer.GetFaith.HouseOfWorship|U] 토지 부여" # 12114519482378903822
+  RICE_local_pilgrimage_votive_offering_type_large_desc: "$EFFECT_LIST_BULLET$[piety_i|E] #V 200#! 기본 획득: [activity|E] 완료 시\n$EFFECT_LIST_BULLET$[capital|E]의 [development_i|E] [development|E] 진척도 #P [EmptyScope.ScriptValue('minor_development_progress_gain')]#V만큼 증가#!: [activity|E] 완료 시#!\n\n#weak 순례를 떠날 때, 자신의 헌신을 증명하기 위해 현명한 통치자는 종교 시설에 토지를 기증하고, 이를 통해 [GetPlayer.GetFaith.PantheonTerm]의 영광을 드높입니다.#!" # 5484790321345388584
   game_concept_hot_springs: "온천" # 8181879117728660562
   game_concept_hot_spring: "온천" # 7608341854607656724
-  game_concept_hot_springs_desc: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]는 많은 [rulers|E]가 [stress|E]를 해소하기 위한 방법으로 이용할 수 있는 [activity|E] 유형입니다. 이 [activity|E]에는 두 가지 [activity_options|E]이 있습니다. 방문이 좀 더 공개적이고 주목받는 행사가 될지, 아니면 사적인 은밀한 일이 될지 선택할 수 있습니다.\n\n시와에 있는 태양의 샘과 같이 지도 곳곳에서 발견되는 몇 가지 #bold 특별한#! 온천이 있습니다. 이러한 지역 중 한 곳이 있는 [realm|E]에 있다면 그곳으로 [travel|E]하기로 결정하면 유용한 [character_modifiers|E]와 같은 추가 보너스를 얻을 수 있습니다." # 15288173686532163527
+  game_concept_hot_springs_desc: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]은 많은 [rulers|E]가 [stress|E]를 해소하는 방법으로 이용할 수 있는 일종의 [activity|E]입니다. 여기에는 두 가지 [activity_options|E]가 있습니다. 방문을 좀 더 공개적이고 이목을 끄는 행사로 할지, 아니면 대신 사적이고 조용한 일로 할지입니다.\n\n지도 곳곳에는 시와의 태양의 샘물과 같이 몇몇 #bold 고유한#! 온천이 있습니다. 이러한 장소 중 한 곳이 있는 [realm|E]에 있다면, 그곳으로 [travel|E]하기로 결정할 경우 유용한 [character_modifiers|E]와 같은 추가 보너스를 얻을 수 있습니다." # 15288173686532163527
   game_concept_local_pilgrimage_short: "순례" # 15686460129054708940
-  game_concept_local_pilgrimages_short: "순례" # 7955676647959467271
+  game_concept_local_pilgrimages_short: "성지순례" # 7955676647959467271
   game_concept_local_pilgrimage: "지역 순례" # 10334250218750586114
-  game_concept_local_pilgrimages: "지역 순례" # 11430723927777496554
-  game_concept_local_pilgrimage_desc: "$game_concept_local_pilgrimages$는 특정 종교 장소 근처를 다스리거나 거주하는 [통치자|E]가 이용할 수 있는 [활동|E]입니다. 이러한 순례는 규모와 영향력이 훨씬 더 작은 규모이므로, 자신의 [faith|E]의 [성지|E]로 가는 더 웅장한 [순례|E]와는 구별됩니다.\n\n모든 사람이 현지 순례에 접근할 수 있는 것은 아닙니다. 또한, [통치자|E]가 적절한 위치에 있더라도 특정 [decision|E]을 내리거나 특정 이벤트가 발생해야만 사용할 수 있는 현지 순례가 많습니다. 현지 순례는 때로는 제공하는 혜택이나 순례를 갈 수 있는 사람들의 지리적 범위를 늘릴 수 있는 추가 특별 [decision|E]과 관련되기도 합니다.\n\n그럼에도 불구하고, 일반 [순례|E]보다 더 적은 혜택을 제공하지만, 현지 순례는 특정 목적지에 따라 특별한 [인물_모디파이어|E]와 같은 고유한 혜택을 제공하는 경우가 많습니다. 또한, 더 웅장한 [순례|E]를 준비하기 위해 일반 [순례|E]보다 느린 속도이긴 하지만, [GetTrait('pilgrim').GetName( GetNullCharacter )] [특성_레벨_트랙_XP|E]을 얻는 데 좋은 방법입니다." # 17562593228110268033
-  game_concept_aspiring: "야망" # 297683825570704205
-  game_concept_aspires: "열망함" # 10560010359615094533
-  game_concept_aspired: "열망하는" # 11533683879460386850
-  game_concept_aspire: "야망" # 2232911883679365896
-  game_concept_aspiration: "열망" # 6204533382103334096
-  game_concept_aspirations: "열망" # 12658286261684878112
-  game_concept_historical_aspiration: "역사적 야망" # 16249550667993392130
-  game_concept_historical_aspirations: "역사적 야망" # 10330753275432524078
-  game_concept_historical_aspirations_desc: "$game_concept_historical_aspirations$는 게임 시작 시 특정 역사적 [characters|E]에게 제공되는 간단하고 선택적인 퀘스트입니다. 업적과는 달리, 이러한 목표를 달성하면 [modifiers|E] 또는 @dynasty_prestige_icon! [dynasty_prestige|E]와 같은 다양한 보너스가 주어집니다.\n\n목표는 일반적으로 광범위한 가능성이나 가설보다는 인물의 구체적인 역사적 상황과 동기를 반영하며, 플레이어가 해당 인물의 실제 삶의 욕망과 경험을 역할극으로 연기하도록 장려하는 데 목적이 있습니다.\n\n목표는 두 가지 유형의 목표로 구성됩니다. 목표를 달성하려면 [historical_aspiration_main_objectives|E]를 만족해야 합니다. 반대로, [historical_aspiration_bonus_objectives|E]는 만족할 필요는 없지만 그렇게 하면 추가 보너스를 얻을 수 있습니다. 목표는 [decision|E]를 내리는 것과 같은 직접적인 행동이거나 특정 [religion|E]을 따르는 것과 같은 수동적인 행동일 수 있습니다.\n\n목표 달성은 즉시가 아니라 연도의 #V 시작#! 시점에 계산된다는 점에 유의해야 합니다. 즉, 연초에 목표를 달성하면 목표가 완료됩니다. 이는 보너스 목표를 달성할 약간의 유예 시간이 있음을 의미합니다." # 2541453490335663499
+  game_concept_local_pilgrimages: "지역 성지 순례" # 11430723927777496554
+  game_concept_local_pilgrimage_desc: "$game_concept_local_pilgrimages$는 특정 종교적 장소 근처를 통치하거나 거주하는 [rulers|E]가 이용할 수 있는 [activities|E]입니다. 이 순례는 자신의 [faith|E]의 [holy_sites|E]로 향하는 더 성대한 [pilgrimages|E]와는 다릅니다. 그 범위와 영향력이 훨씬 작기 때문입니다.\n\n모두가 지역 순례에 접근할 수 있는 것은 아닙니다. 또한, [ruler|E]가 올바른 위치에 있더라도, 다수의 지역 순례는 특정 [decisions|E]가 내려지거나 특정 사건이 발생해야만 가능하게 됩니다. 지역 순례는 때때로 그것이 제공하는 이점을 증가시키거나, 그곳으로 갈 수 있는 사람들의 지리적 범위를 증가시킬 수 있는 추가적인 특별 [decisions|E]와도 연결됩니다.\n\n그럼에도 불구하고, 일반 [pilgrimages|E]보다 적은 이점을 제공함에도 불구하고, 지역 순례는 종종 특정 목적지에 따라 특별 [character_modifiers|E]와 같은 고유한 이점을 제공합니다. 추가적으로, 비록 일반 [pilgrimages|E]보다 느린 속도이긴 하지만, 더 성대한 [pilgrimage|E]를 준비하기 위해 [GetTrait('pilgrim').GetName( GetNullCharacter )] [trait_level_track_xp|E]를 얻기에 좋은 방법입니다." # 17562593228110268033
+  game_concept_aspiring: "야심찬" # 297683825570704205
+  game_concept_aspires: "염원" # 10560010359615094533
+  game_concept_aspired: "포부를 품은" # 11533683879460386850
+  game_concept_aspire: "포부" # 2232911883679365896
+  game_concept_aspiration: "야망" # 6204533382103334096
+  game_concept_aspirations: "야망" # 12658286261684878112
+  game_concept_historical_aspiration: "역사적 열망" # 16249550667993392130
+  game_concept_historical_aspirations: "역사적 포부" # 10330753275432524078
+  game_concept_historical_aspirations_desc: "$game_concept_historical_aspirations$는 게임 시작 시 특정 역사적 [characters|E]에게 제공되는 간단하고 선택적인 퀘스트입니다. 업적과는 달리, 이 열망은 완료 시 [modifiers|E]나 @dynasty_prestige_icon! [dynasty_prestige|E] 등 다양한 보너스를 부여합니다.\n\n열망은 위대한 가능성이나 가설보다는 인물의 특정 역사적 환경과 동기를 일반적으로 반영하며, 플레이어가 그 인물의 실제 삶의 소망과 경험을 역할극하도록 장려하기 위한 것입니다.\n\n열망은 두 가지 유형의 목표로 구성됩니다. 열망을 완수하기 위해서는 [historical_aspiration_main_objectives|E]를 충족해야 합니다. 반대로 [historical_aspiration_bonus_objectives|E]는 반드시 충족할 필요는 없지만, 달성 시 추가 보너스를 얻습니다. 목표는 [decision|E]을(를) 수행하는 것과 같은 직접적인 행동일 수도 있고, 특정 [religion|E]을(를) 따르는 것과 같은 수동적인 것일 수도 있습니다.\n\n열망 완료는 즉시가 아니라 연도 #V 시작#! 시 계산된다는 점에 유의하는 것이 중요합니다. 즉, 연초에 목표를 달성하면 열망을 완수하게 됩니다. 이는 보너스 목표를 달성할 약간의 여유 시간이 있다는 의미입니다." # 2541453490335663499
   game_concept_historical_aspiration_main_objective: "주요 목표" # 5127468834709097111
   game_concept_historical_aspiration_main_objectives: "주요 목표" # 17287282516593711390
-  game_concept_historical_aspiration_main_objectives_desc: "$game_concept_historical_aspiration_main_objectives$는 역사적 인물이 자신의 [historical_aspiration|E]를 달성하기 위해 충족해야 하는 필수 조건입니다. [historical_aspiration_bonus_objectives|E]와는 달리, 선택 사항입니다.\n\n주요 목표 또는 목표가 충족되면 해당 인물은 관련 보상,  [historical_aspiration_bonus_objectives|E] 달성 보상을 포함하여, 받게 됩니다." # 10218941996024599366
+  game_concept_historical_aspiration_main_objectives_desc: "$game_concept_historical_aspiration_main_objectives$는 역사적 인물이 [historical_aspiration|E]를 달성하기 위해 충족해야 하는 전제 조건입니다 (해당 열망을 가진 인물에 한하여). 이는 선택 사항인 [historical_aspiration_bonus_objectives|E]와 다릅니다.\n\n주 목표(들)이 충족되면, 해당 인물은 관련 보상을 받게 됩니다. 여기에는 충족한 모든 [historical_aspiration_bonus_objectives|E]로부터 오는 보상도 포함됩니다." # 10218941996024599366
   game_concept_historical_aspiration_bonus_objective: "보너스 목표" # 4334839388610662923
   game_concept_historical_aspiration_bonus_objectives: "보너스 목표" # 18210994989590026904
-  game_concept_historical_aspiration_bonus_objectives_desc: "$game_concept_historical_aspiration_bonus_objectives$는 역사적 인물이 [historical_aspiration|E]을 달성하려고 할 때 시도할 수 있는 추가적인 선택 목표입니다. [historical_aspiration_main_objectives|E]와는 대조적으로 필수는 아니지만, 달성 시 더 많은 보상을 제공합니다.\n\n그러나 보너스 보상을 받으려면 [historical_aspiration_bonus_objectives|E]는 [historical_aspiration_main_objectives|E]를 달성할 때 충족해야 합니다. 나중에 충족되면 인물은 그러한 보상을 받지 못합니다." # 17034638372031402984
-  RICE_hot_springs_visit_host_memory: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을(를) 했습니다" # 16928400122632079216
-  RICE_hot_springs_visit_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을(를) 했습니다" # 5192337977979560218
-  RICE_hot_springs_visit_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을 했습니다." # 12984635039912405058
-  RICE_hot_springs_visit_host_memory_third_perspective: "[owner.GetName](이)가 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName](을)를 했습니다" # 10887164994746119135
-  RICE_hot_springs_visit_guest_memory: "[host.GetTitledFirstName](이)와 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName](을)를 떠났습니다" # 17511076952225305602
+  game_concept_historical_aspiration_bonus_objectives_desc: "$game_concept_historical_aspiration_bonus_objectives$는 역사적 인물이 [historical_aspiration|E]을(를) 수행할 때(해당하는 인물에 한해) 달성하려고 시도할 수 있는 추가적이고 선택적인 목표입니다. [historical_aspiration_main_objectives|E]와 달리, 이들은 필수는 아니지만, 추구한다면 추가 보상을 제공합니다.\n\n하지만 보너스 보상을 받으려면 [historical_aspiration_main_objectives|E]가 달성될 때 [historical_aspiration_bonus_objectives|E]도 충족되어야 합니다. 이후에 충족되면 인물은 해당 보상을 받지 못합니다." # 17034638372031402984
+  RICE_hot_springs_visit_host_memory: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을 벌였습니다" # 16928400122632079216
+  RICE_hot_springs_visit_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을 다녀왔습니다." # 5192337977979560218
+  RICE_hot_springs_visit_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]를 하셨습니다." # 12984635039912405058
+  RICE_hot_springs_visit_host_memory_third_perspective: "[owner.GetName]이 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을 하였습니다." # 10887164994746119135
+  RICE_hot_springs_visit_guest_memory: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]에 다녀왔습니다." # 17511076952225305602
   RICE_hot_springs_visit_guest_memory_first_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]에 다녀왔습니다." # 594878592509663480
-  RICE_hot_springs_visit_guest_memory_second_perspective: "당신은 [host.GetTitledFirstName]님과 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을(를) 갔습니다." # 1004164798446582247
-  RICE_hot_springs_visit_guest_memory_third_perspective: "[owner.GetName]이 [host.GetTitledFirstName](와)과 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName](을)를 떠났습니다" # 3130754913359803347
-  RICE_local_pilgrimage_host_memory: "[local_pilgrimage|E] 순례를 떠났습니다" # 6548118772392399071
-  RICE_local_pilgrimage_host_memory_first_perspective: "[local_pilgrimage|E] 순례를 다녀왔습니다" # 4362441262227951276
-  RICE_local_pilgrimage_host_memory_second_perspective: "[local_pilgrimage|E] 순례를 다녀왔습니다" # 18187416768885021879
-  RICE_local_pilgrimage_host_memory_third_perspective: "[owner.GetName]이 [local_pilgrimage|E] 순례를 떠났습니다" # 6906274636314267420
-  RICE_local_pilgrimage_guest_memory: "[host.GetTitledFirstName] 님과 함께 [host.GetHerHis] [local_pilgrimage|E]에 동행했습니다." # 13171133548566240752
-  RICE_local_pilgrimage_guest_memory_first_perspective: "저는 [host.GetTitledFirstName] 님의 [host.GetHerHis] [local_pilgrimage|E]에 동행했습니다." # 18191205153152807997
-  RICE_local_pilgrimage_guest_memory_second_perspective: "[호스트.GetTitledFirstName]과 함께 [호스트.GetHerHis] [local_pilgrimage|E]에 동행했습니다." # 13894101271489298036
-  RICE_local_pilgrimage_guest_memory_third_perspective: "[owner.GetName]이 [host.GetTitledFirstName](을)를 따라 [host.GetHerHis] [local_pilgrimage|E]에 동행했습니다" # 7455522995696792000
-  RICE_local_veneration_option: "지역 신전에서 숭배" # 14919677601605705823
-  RICE_local_veneration_option_desc: "여행 중에, 당신은 지역 [GetPlayer.GetFaith.GetReligion.GetAdjective] 성인이나 다른 신성한 존재들이 축복한 장소를 지나갈 수 있으며, 그들을 만날 때마다 존경을 표하는 것이 중요합니다." # 15171145693351773991
-  RICE_local_veneration_option_effect_1: "자신의 [종교|E]를 따르는 [남작령|E]에 들어갈 때마다, 자신의 [학습|E] 및 [신앙심_단계|E]에 따라 [신앙심_i|E] #V 1#!과 [신앙심_i|E] #V [빈 범위.ScriptValue('minor_piety_value')|0]#! 사이의 값을 얻을 수 있는 확률이 #V [GetPlayer.MakeScope.ScriptValue('RICE_local_veneration_option_bonus_chance')]%#!입니다." # 17776834874561084970
-  RICE_local_veneration_option.toast.success: "현지 [GetPlayer.GetFaith.GetReligion.GetAdjective] 신전에서 기도했습니다" # 8556392351217000857
-  RICEintro.0030.t: "@warning_icon! 잘못된 로드 순서 감지됨" # 13099549724619633039
-  RICEintro.0030.desc: "아시아의 라자와 RICE가 현재 모드 목록에서 실행 중이지만 로드 순서가 잘못되었습니다.\n\n이 메시지는 게임 시작 시에만 나타나므로 향후 유사한 문제는 감지하지 못합니다. 또한 감지 시스템이 완벽하지 않아 잘못된 경고를 표시할 수도 있습니다.\n\n#bold #warning @warning_icon! 로드 순서에서 아시아의 라자가 RICE #underline 다음에#! 로드되었는지 확인하세요. 또한 새 게임을 시작해야 합니다.#!#!" # 5461840487658596918
-  RICEintro.0031.t: "@warning_icon! 잘못된 로드 순서 감지됨" # 13099549724619633039
-  RICEintro.0031.desc: "현재 모드 목록에서 낙오된 독수리와 RICE가 부적절한 로드 순서로 실행 중인 것으로 감지되었습니다.\n\n이 메시지는 게임 시작 시에만 나타나므로 향후 유사한 문제는 감지하지 않습니다. 또한 감지 시스템이 완벽하지 않아 오탐이 발생할 수 있음을 참고하십시오.\n\n#bold #warning @warning_icon! 낙오된 독수리 모드를 #underline RICE 모드 #after#! 로드 순서에 배치해야 합니다. 새 게임을 시작해야 합니다.#!#!" # 11753857744927234360
-  RICEintro.0032.t: "@alert_icon! 모든 업적의 어머니 없음" # 5472511653206947174
-  RICEintro.0032.desc: "이는 RICE에서 새로 추가한 아프리카 이교 신앙(예: [ROOT.Char.GetFaith.GetReligion.GetAdjective] [faith|E]인 [ROOT.Char.GetFaith.GetName])은 #warning 안 됨#! #bold 우리 모두의 어머니#! 업적에 포함되지 않는다는 사실을 알려드리는 친절한 알림입니다. 바닐라의 아프리카 이교 [faiths|E]만 포함됩니다. 다른 모드가 이를 변경할 수 있습니다.\n\n이 메시지는 중요한 경고는 아니지만 향후 혼란을 방지하기 위한 친절한 알림입니다." # 10182004900848272595
-  d_laamp_RICE_thabit_ibn_qurra: "고대 유물 보존자" # 12873703112160499513
+  RICE_hot_springs_visit_guest_memory_second_perspective: "[host.GetTitledFirstName]과 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]에 다녀왔습니다." # 1004164798446582247
+  RICE_hot_springs_visit_guest_memory_third_perspective: "[owner.GetName]은 [host.GetTitledFirstName]과 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]에 다녀왔습니다." # 3130754913359803347
+  RICE_local_pilgrimage_host_memory: "[지역 순례|E]를 다녀왔습니다." # 6548118772392399071
+  RICE_local_pilgrimage_host_memory_first_perspective: "[지역 순례|E]를 떠났습니다." # 4362441262227951276
+  RICE_local_pilgrimage_host_memory_second_perspective: "[지역 순례|E]를 다녀오셨습니다." # 18187416768885021879
+  RICE_local_pilgrimage_host_memory_third_perspective: "[owner.GetName]은 [local_pilgrimage|E]에 나섰습니다." # 6906274636314267420
+  RICE_local_pilgrimage_guest_memory: "[주인공.칭호를가진이름]을 [주인공.그의/그녀의] [지역순례|E]에 동행했습니다." # 13171133548566240752
+  RICE_local_pilgrimage_guest_memory_first_perspective: "저는 [host.GetTitledFirstName]께서 [host.GetHerHis] [local_pilgrimage|E]에 동행했습니다." # 18191205153152807997
+  RICE_local_pilgrimage_guest_memory_second_perspective: "[host.GetTitledFirstName]께서 [local_pilgrimage|E]에 함께하시도록 안내해 드렸습니다." # 13894101271489298036
+  RICE_local_pilgrimage_guest_memory_third_perspective: "[owner.GetName]은 [host.GetTitledFirstName]와 함께 [host.GetHerHis] [local_pilgrimage|E]에 동행했습니다." # 7455522995696792000
+  RICE_local_veneration_option: "지역 신사에 경배하기" # 14919677601605705823
+  RICE_local_veneration_option_desc: "여정 중에, 당신은 현지의 [GetPlayer.GetFaith.GetReligion.GetAdjective] 성인이나 다른 신성한 존재들이 축복한 곳들을 지나갈 수 있습니다. 만나는 곳마다 그들에게 경의를 표하는 것이 중요합니다." # 15171145693351773991
+  RICE_local_veneration_option_effect_1: "[religion|E]를 따르는 모든 [barony|E]에 들어갈 때마다 #V [GetPlayer.MakeScope.ScriptValue('RICE_local_veneration_option_bonus_chance')]%#!의 확률로 [learning|E]와 [piety_level|E]에 따라 [piety_i|E] #V 1#!부터 [piety_i|E] #V [EmptyScope.ScriptValue('minor_piety_value')|0]#!까지의 경건함을 얻을 수 있습니다." # 17776834874561084970
+  RICE_local_veneration_option.toast.success: "지역 [GetPlayer.GetFaith.GetReligion.GetAdjective] 신전에서 기도하셨습니다." # 8556392351217000857
+  RICEintro.0030.t: "@warning_icon! 부적절한 로드 순서가 감지되었습니다." # 13099549724619633039
+  RICEintro.0030.desc: "아시아의 라자들과 RICE가 현재 모드 목록에 적재되어 있지만, 적절한 로드 순서가 아닌 것으로 감지되었습니다.\n\n이 메시지는 게임 시작 시에만 나타나므로, 향후 유사한 문제는 감지하지 않습니다. 또한 감지 시스템이 완벽하지 않아 오탐일 가능성이 있음을 유념하십시오.\n\n#bold #경고 @경고_아이콘! 아시아의 라자들은 RICE #underline 뒤에#! 로드해야 합니다. 새로운 게임을 시작해야 합니다.#!#!" # 5461840487658596918
+  RICEintro.0030.a: "네" # 7171999794136174692
+  RICEintro.0031.t: "@warning_icon! 부적절한 로드 순서가 감지되었습니다." # 13099549724619633039
+  RICEintro.0031.desc: "추락한 독수리와 RICE가 현재 모드 목록에 로드되었지만, 적절한 로드 순서가 아닌 것으로 감지되었습니다.\n\n이 메시지는 게임 시작 시에만 나타나므로 향후 유사한 문제는 감지하지 못합니다. 또한 감지 시스템이 완벽하지 않아 오탐 가능성이 있음을 유의해 주십시오.\n\n#bold #경고 @경고_아이콘! 추락한 독수리는 #밑줄 RICE 다음에#! 로드되어야 합니다. 새로운 게임을 시작해야 합니다.#!#!" # 11753857744927234360
+  RICEintro.0031.a: "네" # 7171999794136174692
+  RICEintro.0032.t: "@alert_icon! 만인의 어머니 업적 달성 실패" # 5472511653206947174
+  RICEintro.0032.desc: "RICE에서 새롭게 추가된 아프리카 이교 신앙, 예컨대 [ROOT.Char.GetFaith.GetReligion.GetAdjective] [faith|E], [ROOT.Char.GetFaith.GetName]는 #경고 아님#! #굵은 글씨 어머니 우리 모두#! 업적 달성에 포함되지 않습니다. 오직 기본 게임의 아프리카 이교 [faiths|E]만 포함됩니다.  다른 모드에 의해 이 내용이 변경될 수 있음을 유념하십시오.\n\n이 메시지는 심각한 경고가 아닌, 향후 혼란을 방지하기 위한 친절한 안내입니다." # 10182004900848272595
+  RICEintro.0032.a: "네" # 7171999794136174692
+  d_laamp_RICE_thabit_ibn_qurra: "고대 유물 보존자들" # 12873703112160499513
   d_laamp_RICE_thabit_ibn_qurra_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_ibn_wahshiyya: "나바테아 농업인" # 2143115575944014802
+  d_laamp_RICE_ibn_wahshiyya: "나바테아 농부들" # 2143115575944014802
   d_laamp_RICE_ibn_wahshiyya_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_al_wuhsha_al_dallala: "소망받는 자" # 9090256302913284616
+  d_laamp_RICE_al_wuhsha_al_dallala: "소망하는 자들" # 9090256302913284616
   d_laamp_RICE_al_wuhsha_al_dallala_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_michael_scot: "세계 최고의 학자" # 2893617069377557070
+  d_laamp_RICE_michael_scot: "세계 최고의 학자들" # 2893617069377557070
   d_laamp_RICE_michael_scot_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_korean_867: "신라의 사절" # 16547409216272473139
+  d_laamp_RICE_korean_867: "신라 사신들" # 16547409216272473139
   d_laamp_RICE_korean_867_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_laamp_RICE_cynewulf: "성스러운 시인들" # 13735997203418262317
   d_laamp_RICE_cynewulf_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_hiwi_al_balkhi: "악명 높은 자유 사상가" # 17469713915295366357
+  d_laamp_RICE_hiwi_al_balkhi: "악명 높은 자유 사상가들" # 17469713915295366357
   d_laamp_RICE_hiwi_al_balkhi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_al_balkhi: "세속 의사" # 5583717179334174356
+  d_laamp_RICE_al_balkhi: "세속 의사들" # 5583717179334174356
   d_laamp_RICE_al_balkhi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_oranmiyan: "오두두와의 후예" # 10782440735429644337
+  d_laamp_RICE_oranmiyan: "오두두와의 후예들" # 10782440735429644337
   d_laamp_RICE_oranmiyan_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_bartholomew_leslie: "헝가리 청년들" # 10555157929961704797
+  d_laamp_RICE_bartholomew_leslie: "헝가리 젊은이들" # 10555157929961704797
   d_laamp_RICE_bartholomew_leslie_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_laamp_RICE_chakrapani_datta: "귀족 의사" # 5546710501026701076
   d_laamp_RICE_chakrapani_datta_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_laamp_RICE_ibn_nabhan: "하란인의 마지막" # 3131732764230034556
   d_laamp_RICE_ibn_nabhan_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_nasir_khusraw: "호라산 선교사" # 16028723335439496936
+  d_laamp_RICE_nasir_khusraw: "호라산의 선교사들" # 16028723335439496936
   d_laamp_RICE_nasir_khusraw_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_longibardopoulos: "롬바르드족의 아들들" # 5180654051910004756
+  d_laamp_RICE_longibardopoulos: "롬바르드의 자손들" # 5180654051910004756
   d_laamp_RICE_longibardopoulos_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_al_kashgari: "튀르크의 자부심" # 4716725447461795763
+  d_laamp_RICE_al_kashgari: "투르크의 자존심" # 4716725447461795763
   d_laamp_RICE_al_kashgari_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_tzachas: "룸의 약탈자" # 13138235968727528249
+  d_laamp_RICE_tzachas: "룸의 약탈자들" # 13138235968727528249
   d_laamp_RICE_tzachas_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_hafsa: "아부 자파르의 조문객" # 1554806718050022605
+  d_laamp_RICE_hafsa: "아부 자파르의 애도자들" # 1554806718050022605
   d_laamp_RICE_hafsa_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_trapelicino: "부정직한 자들" # 12890716013424774934
+  d_laamp_RICE_trapelicino: "불량한 자들" # 12890716013424774934
   d_laamp_RICE_trapelicino_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_laamp_RICE_eldad_ha_dani: "단의 아들들" # 3273856898177214154
   d_laamp_RICE_eldad_ha_dani_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_laamp_RICE_ohthere: "바다코끼리 사냥꾼" # 6993616839679057427
   d_laamp_RICE_ohthere_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_wulfstan: "발트해의 여행자들" # 8667402008956416477
+  d_laamp_RICE_wulfstan: "발틱 해의 여행자들" # 8667402008956416477
   d_laamp_RICE_wulfstan_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_laamp_RICE_japheth: "왕족 상인" # 3699730919547210046
   d_laamp_RICE_japheth_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_ibn_al_qatta_al_siqilli: "시의 귀한 진주" # 753900176863932369
+  d_laamp_RICE_ibn_al_qatta_al_siqilli: "시의 보배로운 진주들" # 753900176863932369
   d_laamp_RICE_ibn_al_qatta_al_siqilli_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_ali_kalbid: "바누 칼브의 전사" # 3862341295370783734
+  d_laamp_RICE_ali_kalbid: "반우 칼렙 전사들" # 3862341295370783734
   d_laamp_RICE_ali_kalbid_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_last_murong: "끈질긴 기병대" # 8100913374839638995
+  d_laamp_RICE_last_murong: "지속적인 기병대" # 8100913374839638995
   d_laamp_RICE_last_murong_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_hugo_von_hildesheim: "발트해 상인" # 13959512986741559290
+  d_laamp_RICE_hugo_von_hildesheim: "발트 무역상" # 13959512986741559290
   d_laamp_RICE_hugo_von_hildesheim_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_guglielmo_grasso: "교활한 약탈자" # 11389171107339792066
+  d_laamp_RICE_guglielmo_grasso: "사악한 약탈자들" # 11389171107339792066
   d_laamp_RICE_guglielmo_grasso_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_manikkavacakar: "종교적 교사" # 15439913838253617385
+  d_laamp_RICE_manikkavacakar: "종교 교수" # 15439913838253617385
   d_laamp_RICE_manikkavacakar_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_malay_867: "스리비자야 상인" # 1353460943585060455
+  d_laamp_RICE_malay_867: "슈리비자야 상인들" # 1353460943585060455
   d_laamp_RICE_malay_867_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_laamp_RICE_malay_1066: "$d_laamp_RICE_malay_867$" # 10338775974968483185
   d_laamp_RICE_malay_1066_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_laamp_RICE_malay_1178: "$d_laamp_RICE_malay_867$" # 10338775974968483185
   d_laamp_RICE_malay_1178_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_swahili_867: "아자니아 상인" # 4346827371891099402
+  d_laamp_RICE_swahili_867: "아자니아의 상인들" # 4346827371891099402
   d_laamp_RICE_swahili_867_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_swahili_1066: "킬와 상인" # 15264882770733151895
+  d_laamp_RICE_swahili_1066: "킬와 상인들" # 15264882770733151895
   d_laamp_RICE_swahili_1066_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_laamp_RICE_swahili_1178: "$d_laamp_RICE_swahili_1066$" # 1991531548627520220
   d_laamp_RICE_swahili_1178_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_solomon_ibn_gabirol: "생명의 원천" # 9755796885952000914
+  d_laamp_RICE_solomon_ibn_gabirol: "생명의 근원" # 9755796885952000914
   d_laamp_RICE_solomon_ibn_gabirol_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_ikhshidid: "$c_ferghana$의 왕자들" # 11098884411174408680
+  d_laamp_RICE_ikhshidid: "$c_ferghana$의 공자들" # 11098884411174408680
   d_laamp_RICE_ikhshidid_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_al_turki_egypt: "도덕 집행자" # 8658719346163509004
+  d_laamp_RICE_al_turki_egypt: "도덕의 집행자들" # 8658719346163509004
   d_laamp_RICE_al_turki_egypt_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_laamp_RICE_wangara_867: "왕가라 상인" # 18164505341413830511
   d_laamp_RICE_wangara_867_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
@@ -362,41 +374,45 @@
   d_laamp_RICE_wangara_1066_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_laamp_RICE_wangara_1178: "$d_laamp_RICE_wangara_867$" # 6393320194915784388
   d_laamp_RICE_wangara_1178_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_andreas_archbishop_of_bari: "정의로운 개종자" # 395158725112808462
+  d_laamp_RICE_andreas_archbishop_of_bari: "정의로운 개종자들" # 395158725112808462
   d_laamp_RICE_andreas_archbishop_of_bari_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_ishaq_ibn_kundaj: "카자르의 주먹" # 4800437940579665256
+  d_laamp_RICE_ishaq_ibn_kundaj: "하자르의 주먹" # 4800437940579665256
   d_laamp_RICE_ishaq_ibn_kundaj_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_margaret_of_beverley: "십자군 참여자" # 12028105590680318692
+  d_laamp_RICE_margaret_of_beverley: "십자군 원정자들" # 12028105590680318692
   d_laamp_RICE_margaret_of_beverley_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_ahmad_ibn_rusta: "귀중한 기록 편찬자" # 4930347470557691492
+  d_laamp_RICE_ahmad_ibn_rusta: "귀중한 기록의 편찬자들" # 4930347470557691492
   d_laamp_RICE_ahmad_ibn_rusta_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_ali_al_harawi: "방랑하는 이방인과 외톨이" # 10577962492596869905
+  d_laamp_RICE_ali_al_harawi: "방랑하는 이방인들과 고독한 자들" # 10577962492596869905
   d_laamp_RICE_ali_al_harawi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_geoffrey_burel: "민중의 성전 전사" # 2397559594466771776
+  d_laamp_RICE_geoffrey_burel: "백성의 성전사들" # 2397559594466771776
   d_laamp_RICE_geoffrey_burel_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_al_tabari: "지식 탐구자" # 15604241601668223260
+  d_laamp_RICE_al_tabari: "지식의 추구자들" # 15604241601668223260
   d_laamp_RICE_al_tabari_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_laamp_RICE_symeon_seth: "사원 건축가" # 17006506355809817651
   d_laamp_RICE_symeon_seth_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_laamp_RICE_bappa_beary: "자연의 제자들" # 3785658115137768091
   d_laamp_RICE_bappa_beary_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_abd_al_latif_al_baghdadi: "합리적 지식 탐구자" # 12765267919527475739
+  d_laamp_RICE_abd_al_latif_al_baghdadi: "이성적 지식 추구자들" # 12765267919527475739
   d_laamp_RICE_abd_al_latif_al_baghdadi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_audun_of_the_west_fjords: "행운의 선물 전달자" # 17332071971736517220
+  d_laamp_RICE_audun_of_the_west_fjords: "행운의 선물 주는 이들" # 17332071971736517220
   d_laamp_RICE_audun_of_the_west_fjords_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_al_yaqubi: "국가 연대기 편찬자" # 13114477738655106210
+  d_laamp_RICE_al_yaqubi: "국가 연대기" # 13114477738655106210
   d_laamp_RICE_al_yaqubi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_ishaq_bin_yahuda: "지칠 줄 모르는 행운 추구자" # 7870891030223234658
+  d_laamp_RICE_ishaq_bin_yahuda: "피곤할 줄 모르는 운명 추구자들" # 7870891030223234658
   d_laamp_RICE_ishaq_bin_yahuda_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_yusuf_balasaguni: "축복받은 현자" # 5352463872376179985
+  d_laamp_RICE_yusuf_balasaguni: "가호받은 현자들" # 5352463872376179985
   d_laamp_RICE_yusuf_balasaguni_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_al_kanemi: "웅변적인 아프리카인" # 2916903357595227000
+  d_laamp_RICE_al_kanemi: "웅변하는 아프리카인들" # 2916903357595227000
   d_laamp_RICE_al_kanemi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
+  d_laamp_RICE_nyangrel: "보물 발견자들" # 5067895300185557011
+  d_laamp_RICE_nyangrel_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
+  d_laamp_RICE_khutsa_dawo: "실현된 계몽가들" # 9370639067499562799
+  d_laamp_RICE_khutsa_dawo_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_nf_RICE_li_shichang: "$dynn_Li$ 가문" # 6906695611536060873
   d_nf_RICE_li_shichang_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_nf_RICE_zhai_dunhuang: "$dynn_zhai$ 가문" # 13864192181880426652
   d_nf_RICE_zhai_dunhuang_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_nf_RICE_dunhuang_zhang: "$dynn_Zhang$ 가문" # 922652285077009488
+  d_nf_RICE_dunhuang_zhang: "$dynn_장$ 가문" # 922652285077009488
   d_nf_RICE_dunhuang_zhang_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_nf_RICE_dunhuang_cao: "$dynn_Cao$ 가문" # 12155006200347381470
   d_nf_RICE_dunhuang_cao_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
@@ -404,7 +420,7 @@
   d_nf_RICE_dunhuang_li_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_nf_RICE_dunhuang_yin: "$dynn_Yin$ 가문" # 4611991353018390361
   d_nf_RICE_dunhuang_yin_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_nf_RICE_dunhuang_suo: "$dynn_Suo$ 가족" # 8154961113235710583
+  d_nf_RICE_dunhuang_suo: "$dynn_Suo$ 가문" # 8154961113235710583
   d_nf_RICE_dunhuang_suo_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_nf_RICE_dunhuang_yan: "$dynn_Yan$ 가문" # 2376539090070187129
   d_nf_RICE_dunhuang_yan_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
@@ -412,21 +428,21 @@
   d_nf_RICE_dunhuang_an_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_nf_RICE_dunhuang_gao: "$dynn_Gao$ 가문" # 14555807785646151869
   d_nf_RICE_dunhuang_gao_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_nf_RICE_dunhuang_kang: "$dynn_Kang$ 가문" # 5623278302329121359
+  d_nf_RICE_dunhuang_kang: "$dynn_강$ 가문" # 5623278302329121359
   d_nf_RICE_dunhuang_kang_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_nf_RICE_dunhuang_zhang_2: "$dynn_Zhang$ 가문" # 922652285077009488
+  d_nf_RICE_dunhuang_zhang_2: "$dynn_장$ 가문" # 922652285077009488
   d_nf_RICE_dunhuang_zhang_2_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_nf_RICE_dunhuang_song: "$dynn_Song$ 가문" # 1055985008780936346
   d_nf_RICE_dunhuang_song_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_nf_RICE_dunhuang_zhu: "$dynn_Zhu$ 가문" # 8565362393358259660
+  d_nf_RICE_dunhuang_zhu: "$dynn_주$ 가문" # 8565362393358259660
   d_nf_RICE_dunhuang_zhu_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_nf_RICE_dunhuang_zhang_3: "$dynn_Zhang$ 가문" # 922652285077009488
+  d_nf_RICE_dunhuang_zhang_3: "$dynn_장$ 가문" # 922652285077009488
   d_nf_RICE_dunhuang_zhang_3_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_nf_RICE_dunhuang_wu: "$dynn_Wu$ 가문" # 1883586916607653689
   d_nf_RICE_dunhuang_wu_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   d_nf_RICE_mahmud_yalavach: "$dynn_Yalavach$ 가문" # 4050381765246535827
   d_nf_RICE_mahmud_yalavach_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_nf_RICE_al_uzgandi: "알 우즈간디 가문" # 3880427530486783350
+  d_nf_RICE_al_uzgandi: "알-우즈간디 가문" # 3880427530486783350
   d_nf_RICE_al_uzgandi_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
   RICEmisc.0000.t: "xxxxx" # 1951045980481827005
   RICEmisc.0000.desc: "xxxxx" # 1951045980481827005
@@ -458,15 +474,15 @@
   RICEmisc.0009.t: "xxxxx" # 1951045980481827005
   RICEmisc.0009.desc: "xxxxx" # 1951045980481827005
   RICEmisc.0009.a: "xxxxx" # 1951045980481827005
-  RICEmisc.0011.t: "여정이 시작됩니다" # 9698579941998381735
-  RICEmisc.0011.desc: "[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName]로 [ROOT.Char.GetInvolvedActivity.GetShortName](을)를 위한 여정을 시작할 시간입니다. 이 여행을 준비하는 두통과 번거로움은 결국 목적지에 도달했을 때 그만한 가치가 있을 것이라고 확신합니다... 적어도 그렇게 되기를 바라야 할 것입니다. 그렇지 않으면 여행 준비로 인한 모든 스트레스가 헛수고가 될 테니까요." # 7414818866934797355
-  RICEmisc.0011.a: "우리가 좋은 이유 때문에 이러한 어려움을 겪는 것입니다." # 5238792602042800629
+  RICEmisc.0011.t: "여정이 시작됩니다." # 9698579941998381735
+  RICEmisc.0011.desc: "[ROOT.Char.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName]로 향하는 [ROOT.Char.GetInvolvedActivity.GetShortName] 여정이 시작될 시간입니다. 이 여정을 준비하는 머리 아프고 귀찮은 일들이 결국 목적지에 도착했을 때 보람 있을 거라고 확신합니다... 아니면 그렇게 되기를 바라야 할 뿐이겠지요. 아니면 이 모든 여정 준비를 위한 스트레스는 헛수고였을 뿐일 테니까요." # 7414818866934797355
+  RICEmisc.0011.a: "좋은 이유가 있어서 이런 어려움을 겪는 거지." # 5238792602042800629
   RICEmisc.0012.t: "[ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]의 온천" # 15343256689844679108
-  RICEmisc.0012.desc: "저희는 [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]의 현지 온천 중 한 곳에 도착했습니다. 이 온천이 다른 유명한 온천들만큼 유명하지는 않지만, 따뜻한 물에 몸을 담그는 것은 여전히 매우 즐거운 경험입니다!" # 7618171759778340288
-  RICEmisc.0012.desc.private: "일상생활에서 이렇게 편안함을 느꼈던 적이 드물었던 것 같습니다. 눈을 감고 긴장을 풀면, 잠시나마 모든 걱정이 마음에서 사라집니다." # 8420060693881320946
-  RICEmisc.0012.desc.public: "이곳에 있는 동안 저는 지역 주민들과 이야기를 나누고 이 지역의 몇몇 저명한 인사들을 만날 시간을 가집니다. 이렇게 휴식을 취하면서 사교 활동을 하는 것은 좋습니다." # 11523865641068083136
-  RICEmisc.0012.desc.conclusion: "이 방문이 이렇게 짧게 끝나다니 아쉽지만, 여기 있는 동안 최대한 즐겨보도록 해야겠어." # 5724856440172913424
-  RICEmisc.0012.a: "여기에 와서 다행입니다." # 13233789310137757577
+  RICEmisc.0012.desc: "[ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]의 지역 온천에 도착했습니다. 유명하지는 않지만, 따뜻한 물에 몸을 담그니 꽤 만족스러운 경험입니다!" # 7618171759778340288
+  RICEmisc.0012.desc.private: "평소처럼 편안함을 느껴본 적이 거의 없어. 눈을 감고 쉬는데, 잠시라도 모든 걱정이 사라지는 것 같아." # 8420060693881320946
+  RICEmisc.0012.desc.public: "이곳에 머무는 동안, 주민들과 이야기를 나누고 지역 유력자들과 만나는 시간도 갖습니다.  이렇게 편안하게 교류하는 것도 좋습니다." # 11523865641068083136
+  RICEmisc.0012.desc.conclusion: "이번 방문이 짧아 아쉽지만, 머무는 동안 최선을 다하겠습니다." # 5724856440172913424
+  RICEmisc.0012.a: "여기 와서 다행입니다." # 13233789310137757577
   RICEmisc.0013.t: "xxxxx" # 1951045980481827005
   RICEmisc.0013.desc: "xxxxx" # 1951045980481827005
   RICEmisc.0013.a: "xxxxx" # 1951045980481827005
@@ -1028,19 +1044,3 @@
   RICEintro.0199.t: "xxxxx" # 1951045980481827005
   RICEintro.0199.desc: "xxxxx" # 1951045980481827005
   RICEintro.0199.a: "xxxxx" # 1951045980481827005
-  RICEintro.0030.a: "네" # 7171999794136174692
-  RICEintro.0031.a: "네" # 7171999794136174692
-  RICEintro.0032.a: "네" # 7171999794136174692
-  rule_RICE_rus_emergence: "쌀 러시아 출현" # 9522231465068015120
-  setting_RICE_rus_emergence_default: "기본값" # 8341519292606584866
-  setting_RICE_rus_emergence_default_desc: "초기 시작 시점에서는 $russian$ [문화|E]가 [결정|E]를 통해 등장할 수 있습니다. 다른 모드의 $east_slavic_group$ 문화 설정이 이를 대체할 수 있습니다. #경고 @경고아이콘! 설정은 게임 시작 후 적용됩니다!#!" # 12353446026646358547
-  setting_RICE_rus_emergence_already: "#고전 버전#" # 5994410695585669193
-  setting_RICE_rus_emergence_already_desc: "초기 시작 시점에서 $russian$ [문화|E]가 기본 설정대로 게임 시작 시 존재합니다. 다른 모드의 $east_slavic_group$ 문화 설정이 이를 대체할 수 있습니다." # 3627684719956602720
-  setting_RICE_rus_emergence_partial: "#부분적 고왕#" # 13342509436853145068
-  setting_RICE_rus_emergence_partial_desc: "초기 시작 날짜에서 $russian$ [culture|E]는 게임 시작 시 일부 [counties|E]에 존재하지만, 모든 지역에 존재하는 것은 아닙니다. 다른 모드의 $east_slavic_group$ 문화 설정이 이를 덮어쓸 수 있습니다. #경고 @warning_icon! 설정은 게임 시작 후 적용됩니다!#!" # 8208693361549284045
-  setting_RICE_rus_emergence_override: "#고왕 다른 모드를 우선시합니다!#" # 13811155891916207394
-  setting_RICE_rus_emergence_override_desc: "초기 시작 시점에서 $russian$ [문화|E]는 [결정|E]를 통해 생성될 수 있습니다. 이는 다른 모드의 $동슬라브_그룹$ 문화 설정을 재정의하려고 시도할 것입니다. #경고 @경고_아이콘! 설정은 게임 시작 후 적용됩니다!#!" # 3565093001234058332
-  d_laamp_RICE_nyangrel: "보물 발굴자들" # 5067895300185557011
-  d_laamp_RICE_nyangrel_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047
-  d_laamp_RICE_khutsa_dawo: "계몽가들이 나타났습니다" # 9370639067499562799
-  d_laamp_RICE_khutsa_dawo_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047

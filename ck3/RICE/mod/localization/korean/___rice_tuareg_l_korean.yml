@@ -1,72 +1,72 @@
 ﻿l_korean:
-  RICE_every_berber_county: "$heritage_berber_name$ [유산|E]의 [문화|E]를 가진 당신의 [영토|E] 내 모든 [백작령|E]" # 16409410551832230381
-  RICE_every_berber_courtier: "$heritage_berber_name$ [유산|E]을 가진 [문화|E]의 모든 [신하|E] 또는 [객인|E]" # 14740171846960304229
-  RICE_every_berber_vassal: "$heritage_berber_name$ [유산|E]을 가진 [문화|E]의 모든 [봉신|E]" # 12410151754094253397
+  RICE_every_berber_county: "당신의 [realm|E] 내에서 $heritage_berber_name$ [heritage|E]의 [culture|E]를 가지고 있는 모든 [county|E]" # 16409410551832230381
+  RICE_every_berber_courtier: "$heritage_berber_name$ [heritage|E]를 가진 [culture|E]에 속한 모든 [courtier|E]나 [guest|E]" # 14740171846960304229
+  RICE_every_berber_vassal: "$heritage_berber_name$ [heritage|E]을 가진 [culture|E]의 모든 [vassal|E]" # 12410151754094253397
   e_air: "아이르" # 6162580993069564745
   e_air_adj: "아이르" # 6162580993069564745
-  RICE_tuareg_legend_new_title_name: "사하라 대제국" # 13799786069141440348
-  RICE_tuareg_legend_new_title_desc: "[founder.GetTitledFirstName]의 영웅적인 활약으로 사하라 대부분이 [GetTitleByKey('e_air').GetName]의 통치 하에 정복되었습니다." # 5145331962878577026
-  RICE_tuareg_legend_chapter_opening_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은(는) 훌륭한 가문 출신임에 틀림없소. 그렇지 않고서야 어떻게 [ROOT.Legend.GetProtagonist.GetSheHe]이(가) 사하라의 소규모 부족들을 그토록 많이 [ROOT.Legend.GetProtagonist.GetHerHis]의 통치 아래 통합할 수 있었겠소?" # 2603937932728886830
-  RICE_tuareg_legend_chapter_motivation_new_title: "[ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip]는 광대한 사하라 사막의 수많은 부족과 민족 중 하나에 불과했습니다. 그들 중 한 명인 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은 이러한 상황에 만족하지 못했습니다. [ROOT.Legend.GetProtagonist.GetSheHe]는 현명하게 [ROOT.Legend.GetProtagonist.GetHerHis] 백성들에게 물었습니다. 그들은 무역과 전투에서 언제든 그들을 능가할 수 있는 적들의 자비에 만족해야 하는가?" # 13096111355673101601
-  RICE_tuareg_legend_chapter_famous_deed_new_title: "새로운 활력으로, 그리고 [ROOT.Legend.GetProtagonist.GetHerHis] 지도력 아래에서, [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip] 백성들은 자신들의 땅을 개발하고, 교역을 하고, 증오하는 적에 맞서 전쟁과 약탈을 벌이는 위대한 업적에 헌신했습니다." # 5179855074000614971
-  RICE_tuareg_legend_chapter_extra_deed_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은 그리 오래 걸리지 않아 지중해에서 아프리카 심장부까지 뻗은 강력한 신국가를 [ROOT.Legend.GetProtagonist.GetHerHis] 통치 아래 세웠습니다. 이 국가는 [ROOT.Legend.GetProperty( 'title' ).Title.GetNameNoTooltip]라 불리며 수많은 무역로를 장악하고 여러 부족을 다스렸습니다." # 4552059593397093774
-  RICE_tuareg_legend_chapter_conclusion_new_title: "[ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip]는 다시는 이처럼 위대한 지도자를 보지 못할 것입니다. [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]님과 같은 위대한 [ROOT.Legend.GetProtagonist.GetWomanMan]만이 이렇게 강력한 제국을 건설할 수 있었습니다." # 15407072835804852192
-  RICE_tuareg_dream_incubation_host_memory: "[GetActivityType( 'activity_RICE_tuareg_dream_incubation' ).GetName] 의식을 거행했습니다" # 5960778949195764345
-  RICE_tuareg_dream_incubation_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_tuareg_dream_incubation' ).GetName] 의식을 거행했습니다" # 1886933881751798282
-  RICE_tuareg_dream_incubation_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_tuareg_dream_incubation' ).GetName] 의례를 수행했습니다" # 17000682524321924710
-  RICE_tuareg_dream_incubation_host_memory_third_perspective: "[owner.GetName]이 [GetActivityType( 'activity_RICE_tuareg_dream_incubation' ).GetName] 의식을 행했습니다." # 13950256624140906149
+  RICE_tuareg_legend_new_title_name: "대사하라 제국" # 13799786069141440348
+  RICE_tuareg_legend_new_title_desc: "[founder.GetTitledFirstName]의 영웅적 위업을 통해 사하라 대부분이 [GetTitleByKey('e_air').GetName]의 치하에 정복되었습니다." # 5145331962878577026
+  RICE_tuareg_legend_chapter_opening_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은/는 유서 깊은 가문 출신임에 틀림없다. 그렇지 않고서야 어떻게 [ROOT.Legend.GetProtagonist.GetSheHe]가 사하라의 수많은 소 부족을 [ROOT.Legend.GetProtagonist.GetHerHis]의 통치 하에 규합할 수 있었겠는가?" # 2603937932728886830
+  RICE_tuareg_legend_chapter_motivation_new_title: "`[ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip]`는 광대한 사하라 사막에 사는 수많은 부족과 백성들 중 하나에 불과했습니다. 그들 중 한 명인 `[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]`는 이러한 상황에 만족하지 않았습니다. `[ROOT.Legend.GetProtagonist.GetSheHe]`가 `[ROOT.Legend.GetProtagonist.GetHerHis]` 백성들에게 현명하게 물었듯, 언제든 무역과 전투에서 그들을 능가할 수 있는 적들의 자비에 기대 그저 만족하며 살아가야만 하는 것인가?" # 13096111355673101601
+  RICE_tuareg_legend_chapter_famous_deed_new_title: "새로운 활력을 얻어, [ROOT.Legend.GetProtagonist.GetHerHis] 지도 하에, [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip] 백성들은 자신들의 땅을 개발하고, 무역에 참여하고, 자신들이 증오하는 적들에 맞서 전쟁을 벌이고 약탈을 감행하는 위대한 업적에 헌신했습니다." # 5179855074000614971
+  RICE_tuareg_legend_chapter_extra_deed_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]는 오래지 않아 [ROOT.Legend.GetProtagonist.GetHerHis]의 통치 하에 [ROOT.Legend.GetProperty( 'title' ).Title.GetNameNoTooltip]라 불리는 새로운 강력한 국가를 통합하는 데 성공했고, 지중해에서 아프리카 깊숙한 곳까지 뻗어 나가며 많은 교역로를 장악하고 여러 부족들을 다스렸습니다." # 4552059593397093774
+  RICE_tuareg_legend_chapter_conclusion_new_title: "[ROOT.Legend.GetProperty( 'culture' ).Culture.GetCollectiveNounNoTooltip]은 다시는 이만큼 위대한 지도자를 볼 수 없을 것이다, 이는 분명하다. 오직 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]과 같은 위대한 [ROOT.Legend.GetProtagonist.GetWomanMan]만이 이토록 강대한 제국을 건설할 수 있었으리라." # 15407072835804852192
+  RICE_tuareg_dream_incubation_host_memory: "[GetActivityType( 'activity_RICE_tuareg_dream_incubation' ).GetName] 의식을 행했습니다" # 5960778949195764345
+  RICE_tuareg_dream_incubation_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_tuareg_dream_incubation' ).GetName] 의식을 수행했습니다." # 1886933881751798282
+  RICE_tuareg_dream_incubation_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_tuareg_dream_incubation' ).GetName] 의식을 수행했습니다" # 17000682524321924710
+  RICE_tuareg_dream_incubation_host_memory_third_perspective: "[owner.GetName]은 [GetActivityType( 'activity_RICE_tuareg_dream_incubation' ).GetName] 의식을 수행했습니다." # 13950256624140906149
   activity_RICE_tuareg_dream_incubation_host_an_a: "$host_activity_a$" # 13713790857143020716
-  activity_RICE_tuareg_dream_incubation: "꿈을 이용한 치유" # 2940780733320019256
-  activity_RICE_tuareg_dream_incubation_desc: "중요한 결정을 내리기 전에, 우리는 우리에게 중요한 사람들의 무덤을 방문하여 그곳에서 잠들기 전에 [GetPlayer.GetFaith.GetAdjective] 기도를 드리는 고대 관습을 가지고 있습니다. 이 고대 무덤에서 잠을 자는 동안 영혼이 우리에게 주는 꿈은 좋은 선택을 하는 데 필요한 통찰력을 줄 것입니다!" # 6567166019035227562
-  activity_RICE_tuareg_dream_incubation_context_tooltip: "#emphasis 역사적 배경:#! 아마지그족 여러 부족 사이에서, 특히 무덤 주변에서 꿈 해몽은 세대를 거듭하며 이어져 온 관습입니다.  오늘날에도 일부 아마지그 부족에서 이 관습은 계속되고 있습니다. 예를 들어, 헤로도토스는 고대 리비아 부족인 나사모네스족이 중요한 결정을 내리기 전에 조상의 무덤에서 잠을 자곤 했다고 기록했습니다. 그들이 꾸었던 꿈은 어떤 행동을 취해야 할지 판단하는 데 도움이 되었다고 합니다." # 14700846088266076495
-  activity_RICE_tuareg_dream_incubation_selection_tooltip: "무덤으로 가서 잠을 자고 통찰력을 얻습니다.\n\n$activity_RICE_tuareg_dream_incubation_context_tooltip$" # 7669029594441118549
-  activity_RICE_tuareg_dream_incubation_host_desc: "$BULLET_WITH_TAB$[명성_i] [명성|E]\n$BULLET_WITH_TAB$[경건_i] [경건|E]\n$BULLET_WITH_TAB$#V [GetPlayer.MakeScope.ScriptValue('RICE_tuareg_dream_chance_value')]%#! 확률로, 당신의 [죄|E], [덕목|E], [특성|E], [학문|E], 그리고 [경건_수준|E]에 따라 무작위로 #P 유익한#! [인물_수정|E]를 얻을 수 있습니다." # 13323613787487920555
+  activity_RICE_tuareg_dream_incubation: "입몽" # 2940780733320019256
+  activity_RICE_tuareg_dream_incubation_desc: "중요한 결정을 내리기 전에, 우리에게는 중요한 인물들의 무덤을 방문하여 [GetPlayer.GetFaith.GetAdjective] 기도를 올린 뒤 그곳에서 잠드는 오래된 관습이 있습니다. 이 오래된 무덤에서 잠들어 있는 동안 영혼들이 우리에게 주는 꿈은 좋은 선택을 하기 위해 우리가 필요한 통찰을 선사할 것입니다!" # 6567166019035227562
+  activity_RICE_tuareg_dream_incubation_context_tooltip: "#emphasis 역사적 배경:#! 아마지그 부족들 사이에서 특히 무덤에서의 꿈 점술은 수 세기 동안 이어져 온 관습이며, 일부 아마지그 부족 사이에서는 오늘날까지도 행해지고 있습니다. 예를 들어, 헤로도토스는 고대 리비아 부족인 나사모네스가 중요한 결정을 내리기 전에 선조들의 무덤에서 잠을 잤다고 기록했습니다. 그들이 꾼 꿈은 어떤 행동 방침을 취할지 결정하는 데 도움이 되었습니다." # 14700846088266076495
+  activity_RICE_tuareg_dream_incubation_selection_tooltip: "무덤으로 이동하여 그곳에서 잠을 자고 통찰력을 얻습니다.\n\n$activity_RICE_tuareg_dream_incubation_context_tooltip$" # 7669029594441118549
+  activity_RICE_tuareg_dream_incubation_host_desc: "\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[sins|E], [virtues|E], [traits|E], [learning|E], 그리고 [piety_level|E]에 따라 무작위 #P 유익한#! [character_modifier|E]를 얻을 #V [GetPlayer.MakeScope.ScriptValue('RICE_tuareg_dream_chance_value')]%#! 확률" # 13323613787487920555
   activity_RICE_tuareg_dream_incubation_guest_desc: "$activity_RICE_tuareg_dream_incubation_host_desc$" # 11538998190808542550
-  activity_RICE_tuareg_dream_incubation_province_desc: "여기 방문할 수 있는 무덤이 있습니다!" # 16222003204483568064
-  activity_RICE_tuareg_dream_incubation_destination_selection: "[GetPlayer.GetFaith.PriestNeuterPlural]는 이 땅에 고대 무덤이 많이 흩어져 있다고 말합니다." # 16169890288425729584
+  activity_RICE_tuareg_dream_incubation_province_desc: "이곳에 방문할 만한 무덤이 있습니다!" # 16222003204483568064
+  activity_RICE_tuareg_dream_incubation_destination_selection: "[GetPlayer.GetFaith.PriestNeuterPlural]는 이 땅 곳곳에 많은 고대 무덤이 흩어져 있다고 말합니다." # 16169890288425729584
   activity_RICE_tuareg_dream_incubation_guest_help_text: "$activity_RICE_tuareg_dream_incubation$" # 15130329173551756790
-  activity_RICE_tuareg_dream_incubation_predicted_cost: "꿈을 불러오는 의식을 수행하는 비용은 선택한 [activity_options|E]에 따라 달라집니다." # 13143191460230827638
-  activity_RICE_tuareg_dream_incubation_conclusion_desc: "무덤에서 잠들었습니다. [GetActivityType( 'activity_RICE_tuareg_dream_incubation' ).GetName] 의식이 완료되었습니다!" # 4142436452797458246
-  RICE_tuareg_dream_incubation_type_personal: "개인적 통찰" # 10230968504085664230
-  RICE_tuareg_dream_incubation_type_personal_desc: "$EFFECT_LIST_BULLET$ 개인적인 문제, 예컨대 관계, 건강, 삶의 방식과 관련된 #P 유익한#! [character_modifier|E] 통찰력을 얻으려 노력할 것입니다.\n\n#weak 꿈은 현실의 법칙에 구속되지 않기 때문에, 우리가 누구인지 더 잘 이해할 수 있는 방법입니다.#!" # 5796363487096994416
+  activity_RICE_tuareg_dream_incubation_predicted_cost: "꿈 해몽 의식을 수행하는 데 드는 비용은 귀하께서 선택하시는 [activity_options|E]에 따라 달라집니다." # 13143191460230827638
+  activity_RICE_tuareg_dream_incubation_conclusion_desc: "나는 무덤에서 잠들었다. [GetActivityType( 'activity_RICE_tuareg_dream_incubation' ).GetName] 의식이 이렇게 끝났다!" # 4142436452797458246
+  RICE_tuareg_dream_incubation_type_personal: "개인적인 통찰" # 10230968504085664230
+  RICE_tuareg_dream_incubation_type_personal_desc: "$EFFECT_LIST_BULLET$ 통찰을 구하며 어쩌면 개인적인 문제들, 예컨대 관계, 건강, 삶의 방식 등에 관한 #P 유익한#! [character_modifier|E]를 얻을 수도 있습니다.\n\n#weak 현실의 법칙에 얽매이지 않는 꿈속에서 우리는 사람으로서 자신이 누구인지 더 잘 이해할 수 있습니다.##" # 5796363487096994416
   RICE_tuareg_dream_incubation_type_political: "정치적 통찰" # 14004483278974779242
-  RICE_tuareg_dream_incubation_type_political_desc: "$EFFECT_LIST_BULLET$ 정치적 문제(가신, 전쟁, 명성 등)와 관련된 통찰력을 얻고 #P 유익한#! [character_modifier|E]를 얻을 수도 있습니다.\n\n#weak 역사는 꿈의 경고를 듣지 않아 엄청난 재앙을 겪은 수많은 통치자들을 보여줍니다. 당신이 직면한 내외부적 위협에 대해 영혼이 조언이나 경고를 한다면 주의 깊게 살펴보십시오!#!" # 9638179049709013659
-  RICE_tuareg_dream_incubation_type_communal: "공동체의 통찰" # 13519762113403728225
-  RICE_tuareg_dream_incubation_type_communal_desc: "$EFFECT_LIST_BULLET$ 당신은 통찰력을 추구하고, 당신의 왕국과 백성을 다스리는 최선의 방법에 관련된 #P 유익한#! [character_modifier|E]을 얻을 수 있습니다.\n\n#weak 훌륭한 통치자는 꿈의 형태이든 아니든 고대의 지혜를 사용하여 백성을 인도합니다.#!" # 10802515638322977042
+  RICE_tuareg_dream_incubation_type_political_desc: "$EFFECT_LIST_BULLET$ 당신은 통찰력을 얻고, 아마도 봉신, 전쟁, 그리고 명성 같은 정치적 사안과 관련된 #P 유익한#! [인물 수정치|E]를 얻게 될 것입니다.\n\n#weak 역사는 꿈의 경고에 귀 기울이지 않아 큰 재앙을 겪은 수많은 통치자들에 대해 말해줍니다. 만약 영혼들이 당신이 직면한 내외부의 위협에 대해 조언이나 경고를 해준다면, 세심히 주의하십시오!#!" # 9638179049709013659
+  RICE_tuareg_dream_incubation_type_communal: "공동체 식견" # 13519762113403728225
+  RICE_tuareg_dream_incubation_type_communal_desc: "$EFFECT_LIST_BULLET$ 통찰력을 구하고 어쩌면 당신의 영역과 백성을 가장 잘 다스리는 방법에 관련된 #P 유익한#! [character_modifier|E]를 얻을 수 있습니다.\n\n#weak 좋은 통치자는 꿈의 형태이든 아니든 상관없이 옛 선현의 지혜를 사용하여 백성을 앞으로 이끌기 마련입니다.#!" # 10802515638322977042
   RICE_tuareg_dream_incubation_tomb_type: "무덤" # 2011862283505075699
-  RICE_tuareg_dream_incubation_tomb_type_random: "임의의 저명 인물" # 11731273050076148948
-  RICE_tuareg_dream_incubation_tomb_type_random_desc: "$EFFECT_LIST_BULLET$ 저명한 현지인의 무덤에서 잠을 잡니다.\n\n#weak 우리보다 먼저 온 자들이 많습니다. 이 영혼들은 우리가 모르는 것을 무엇을 알고 있을까요?#!" # 4952373832791088892
-  RICE_tuareg_dream_incubation_tomb_type_ancestor: "조상" # 137976835637699698
-  RICE_tuareg_dream_incubation_tomb_type_ancestor_desc: "$EFFECT_LIST_BULLET$ [GetPlayer.GetDynasty.GetNameNoTooltip] [dynasty|E]의 조상의 무덤에서 잠을 청합니다.\n$EFFECT_LIST_BULLET$ [activity|E] 종료 시 #V 50#!의 [prestige_i]를 얻습니다\n$EFFECT_LIST_BULLET$ 꿈을 꿀 확률이 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%#! 증가하고, [activity|E] 장소가 [city|E]에 있다면 추가로 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%#! 증가합니다\n\n#weak 아주 먼 조상 중 한 명이 이곳에 묻혀 있다고 합니다. 그들이 후손에게 전하고 싶은 말이 많을 것입니다!#!" # 14900926023939765874
+  RICE_tuareg_dream_incubation_tomb_type_random: "무작위 저명한 인물" # 11731273050076148948
+  RICE_tuareg_dream_incubation_tomb_type_random_desc: "$EFFECT_LIST_BULLET$ 저명한 지역 인사의 무덤에서 잠들기.\n\n#weak 우리 이전에 수많은 이들이 있었다. 이 영혼들은 우리가 모르는 무엇을 알고 있는가?#!" # 4952373832791088892
+  RICE_tuareg_dream_incubation_tomb_type_ancestor: "선조" # 137976835637699698
+  RICE_tuareg_dream_incubation_tomb_type_ancestor_desc: "$EFFECT_LIST_BULLET$ [GetPlayer.GetDynasty.GetNameNoTooltip] [dynasty|E]의 선조의 묘지에서 잠들기.\n$EFFECT_LIST_BULLET$ [activity|E] 종료 시 [prestige_i] #V 50#! 획득\n$EFFECT_LIST_BULLET$ 꿈을 꿀 확률 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%#! 증가, [activity|E] 장소가 [city|E]인 경우 추가로 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%#! 증가\n\n#weak 이곳에 아주 먼 조상님 한 분이 묻혀 계신다고 전해집니다. 그들은 후손들에게 전하고 싶은 말이 많을 것입니다!#!" # 14900926023939765874
   RICE_tuareg_dream_incubation_tomb_type_saint: "지역 성인" # 11880943541934316270
-  RICE_tuareg_dream_incubation_tomb_type_saint_desc: "$EFFECT_LIST_BULLET$ 성스러운 [GetPlayer.GetFaith.GetAdjective] [GetPlayer.GetFaith.PriestNeuter]의 무덤에서 잠을 잡니다.\n$EFFECT_LIST_BULLET$ [activity|E]의 끝에 [piety_i] #V 50#!를 얻습니다.\n$EFFECT_LIST_BULLET$ 꿈을 꾸는 확률이 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%#! 증가하며, [activity|E] 장소가 [church_holding|E]에 위치하면 추가로 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%#! 증가합니다.\n\n#weak 현자의 업적과 지혜는 그들이 세상을 떠난 후에도 살아있는 사람들을 영감을 줄 수 있습니다.#" # 6603421923039903405
-  RICE_tuareg_dream_incubation_dream_phase: "꿈을 이용한 치유" # 2940780733320019256
-  RICE_tuareg_dream_incubation_dream_phase_desc: "옛날 옛적 꿈속에서..." # 15959759731918578797
+  RICE_tuareg_dream_incubation_tomb_type_saint_desc: "$EFFECT_LIST_BULLET$ 신성한 [GetPlayer.GetFaith.GetAdjective] [GetPlayer.GetFaith.PriestNeuter]의 무덤에서 잠들기.\n$EFFECT_LIST_BULLET$ [activity|E] 종료 시 [piety_i] #V 50#! 획득\n$EFFECT_LIST_BULLET$ 꿈을 꿀 확률이 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%#! 증가하며, 만약 [activity|E] 위치가 [church_holding|E]라면 추가로 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%#! 더 증가합니다.\n\n#weak 현자의 업적과 지혜는 그들이 세상을 떠난 후에도 살아 있는 자에게 영감을 줄 수 있습니다.#!" # 6603421923039903405
+  RICE_tuareg_dream_incubation_dream_phase: "입몽" # 2940780733320019256
+  RICE_tuareg_dream_incubation_dream_phase_desc: "아련한 꿈속에서...." # 15959759731918578797
   RICE_insight_understanding_header: "이해:" # 4809161251735078089
-  RICE_insight_understanding: "이해" # 5314353771306289756
-  RICE_insight_understanding_desc: "당신은 꿈 점을 통해 당신이 직면한 문제에 대한 잠재적인 해결책을 진정으로 찾고 싶어합니다. [activity|E]가 끝나면 [stress_loss_i] [stress|E]를 잃습니다." # 12864025407383126143
+  RICE_insight_understanding: "이해:" # 5314353771306289756
+  RICE_insight_understanding_desc: "당신은 꿈 점을 통해 직면한 문제에 대한 잠재적 해결책을 진심으로 찾고자 합니다.\n[activity|E] 종료 시 [stress_loss_i] [stress|E]를 잃습니다." # 12864025407383126143
   RICE_ritual_intent_header: "의례:" # 2622564977231457393
-  RICE_ritual_intent: "의식" # 15674658978138415862
-  RICE_ritual_intent_desc: "이 꿈 해몽이 도움이 될지 안 될지 믿든 안 믿든, 당신은 이 의식을 수행하는 데 있어 의무감을 보여주고 싶어합니다. [활동|E]이 끝날 때 추가 [신앙심_i|E] [신앙심|E]과 [명성_i|E] [명성|E]을 얻습니다." # 7643404294210657171
+  RICE_ritual_intent: "의례" # 15674658978138415862
+  RICE_ritual_intent_desc: "이 꿈 점괘가 도움이 될 것이라 믿든 안 믿든, 이 의식을 행하는 데 있어 당신의 의무감을 보이고 싶습니다. [activity|E] 종료 시 추가로 [piety_i|E] [piety|E] 및 [prestige_i|E] [prestige|E]를 획득합니다." # 7643404294210657171
   RICE_curiosity_intent_header: "호기심:" # 6542558464702859944
-  RICE_curiosity_intent: "호기심" # 6560274987374450652
-  RICE_curiosity_intent_desc: "꿈과 저승 자체가, 꿈해몽 결과보다 더욱 당신을 매혹합니다.  [lifestyle|E]에 대한 [experience|E]를 얻으세요." # 11382942157538875139
-  RICE_tuareg_dream_incubation_completed_log_title: "꿈 배양 완료" # 13521172196524993053
-  RICE_tuareg_dream_incubation_completed_log: "[CHARACTER.GetShortUIName|U]이 무덤에서 꿈 점술 의식을 마쳤습니다" # 1907928115564002177
+  RICE_curiosity_intent: "호기심:" # 6560274987374450652
+  RICE_curiosity_intent_desc: "꿈과 내세 그 자체는 몽점의 결과보다 당신을 더 매료시킵니다.\n[lifestyle|E]에서 [experience|E]를 획득합니다." # 11382942157538875139
+  RICE_tuareg_dream_incubation_completed_log_title: "꿈 의식 완료됨" # 13521172196524993053
+  RICE_tuareg_dream_incubation_completed_log: "[CHARACTER.GetShortUIName|U]가 무덤에서 꿈 해몽 의식을 마쳤습니다." # 1907928115564002177
   TRAVEL_NAME_FOR_activity_RICE_tuareg_dream_incubation: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_tuareg_dream_incubation$" # 14945193678752080479
-  activity_RICE_tuareg_dream_incubation_wilderness_province_desc: "#P ++ 이곳의 황야는 문명에서 멀리 떨어져 있습니다.#!\n\n#italic 이 [activity|E]가 끝나면 [prestige_i|E] #V 25#!과 [piety_i|E] #V 25#!을 얻을 수 있습니다.#!" # 8805337682688104997
-  activity_RICE_tuareg_dream_incubation_temple_province_desc: "#P ++ 이곳에 중요한 [church_holding|E]이 있습니다.#!\n\n#italic 이로 인해 이번 [activity|E] 종료 시 [piety_i|E] #V 50#!을 획득하게 되며, #Bold 지역 성인#!의 무덤에서 잠을 자면 꿈을 꿀 확률이 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%#! 증가합니다." # 4242568916876475652
-  activity_RICE_tuareg_dream_incubation_city_province_desc: "#P ++ 여기에 상당히 큰 [도시|E]가 있습니다.#!\n\n#italic 이것은 이 [활동|E] 종료 시 [명성_i|E]를 #V 50# 얻게 되며, #Bold 조상#!의 무덤에서 잠을 자면 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%의 꿈을 꾸는 확률이 증가합니다.#!" # 3082284077648715336
-  RICE_tuareg_dream_ancestor_tomb_desc: "조상의 무덤으로 향함" # 9960848461700989711
-  RICE_tuareg_dream_saint_tomb_desc: "성인의 무덤으로 향함" # 17869793693809164298
-  activity_RICE_hot_springs_visit_tafadek_province_desc: "#P +++ 타파데크의 [hot_springs|E]는 독특한 [hot_springs|E]입니다.#!\n\n#italic 이것은 [GetModifier('RICE_tuareg_tafadek_springs_modifier').GetNameWithTooltip] [character_modifier|E]를 얻게 해줄 것입니다.#!" # 7651249646615378659
-  RICE_tuareg_tafadek_springs_modifier: "타파데크 샘 방문" # 1910780796834658722
-  RICE_tuareg_tolerates_other_customs: "다른 관습에 대한 관용" # 18348209610117140201
-  RICE_tuareg_takarakit_modifier: "타카라키트를 구현합니다" # 10849361646319089958
-  RICE_tuareg_takarakit_modifier_desc: "이 인물은 일부 아마지그인들 사이에서 매우 존경받는 미덕인 #italic 타카라킷#!, 즉 자제력을 진정으로 구현한다고 여겨집니다." # 13090245898298842422
-  RICE_tuareg_inadan_good: "명망 높은 이나단 장인" # 17319050424305108685
+  activity_RICE_tuareg_dream_incubation_wilderness_province_desc: "\n#P ++ 이곳의 황야는 문명과 멀리 떨어져 있습니다.#!\n\n#italic 이는 이 [activity|E]가 종료될 때 [prestige_i|E] #V 25#!와 [piety_i|E] #V 25#!를 획득하게 할 것입니다.#!" # 8805337682688104997
+  activity_RICE_tuareg_dream_incubation_temple_province_desc: "\n#P ++ 여기에는 #bold 두드러진 [church_holding|E]가 있습니다.#!\n\n#italic 이는 해당 [activity|E] 종료 시 [piety_i|E] #V 50#!를 얻게 할 것이며, 만약 #Bold 지역 성인#!의 무덤에서 잠든다면, 꿈을 꿀 확률이 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%.#!만큼 증가합니다.#" # 4242568916876475652
+  activity_RICE_tuareg_dream_incubation_city_province_desc: "\n#P ++ 상당한 규모의 [city|E]가 이곳에 있습니다.#!\n\n#italic 이는 이 [activity|E] 종료 시점에 [prestige_i|E] #V 50#!을 얻게 하며, 만약 #Bold 선조#!의 무덤에서 잠을 잘 경우, 꿈을 꿀 확률을 #V [EmptyScope.ScriptValue('RICE_tuareg_dream_location_holding_bonus_value')|0]%#! 증가시킵니다.#" # 3082284077648715336
+  RICE_tuareg_dream_ancestor_tomb_desc: "조상의 묘소 방문" # 9960848461700989711
+  RICE_tuareg_dream_saint_tomb_desc: "성묘에 가기" # 17869793693809164298
+  activity_RICE_hot_springs_visit_tafadek_province_desc: "\n#P +++ 타파데크의 [hot_springs|E]는 독특한 [hot_springs|E]입니다.#!\n\n#italic 이를 통해 [GetModifier('RICE_tuareg_tafadek_springs_modifier').GetNameWithTooltip] [character_modifier|E]를 획득하게 될 것입니다.#!" # 7651249646615378659
+  RICE_tuareg_tafadek_springs_modifier: "타파데크 온천 방문함" # 1910780796834658722
+  RICE_tuareg_tolerates_other_customs: "다른 풍습 용인" # 18348209610117140201
+  RICE_tuareg_takarakit_modifier: "타카라키트의 화신" # 10849361646319089958
+  RICE_tuareg_takarakit_modifier_desc: "이 인물은 몇몇 사람들에게 #italic takarakit#!, 즉 일부 아미지그 민족들 사이에서 높이 평가되는 신중함의 미덕을 진정으로 구현한다고 여겨집니다." # 13090245898298842422
+  RICE_tuareg_inadan_good: "저명한 인아단 장인들" # 17319050424305108685
   RICE_tuareg_heartland_modifier: "투아레그 심장부" # 3596571797649157557
-  RICE_tuareg_heartland_modifier_desc: "이 지역은 투아레그 민족과 그 후손들의 중심지로 여겨집니다. 많은 사람들이 공동체 문제를 해결하고, 교역을 하고, 종교적인 이유로 이곳에 모입니다." # 7086369793393043528
+  RICE_tuareg_heartland_modifier_desc: "이 지역은 투아레그 민족과 그 후손들의 중심지로 여겨집니다. 많은 이들이 공동체 문제를 해결하고, 무역을 행하며, 종교적 이유로 이곳에 모입니다." # 7086369793393043528
   RICE_tuareg_dream_personal_1: "꿈 점술 (개인)" # 11902105712902153025
   RICE_tuareg_dream_personal_2: "$RICE_tuareg_dream_personal_1$" # 493305308751254087
   RICE_tuareg_dream_personal_3: "$RICE_tuareg_dream_personal_1$" # 493305308751254087
@@ -87,7 +87,7 @@
   RICE_tuareg_dream_personal_18: "$RICE_tuareg_dream_personal_1$" # 493305308751254087
   RICE_tuareg_dream_personal_19: "$RICE_tuareg_dream_personal_1$" # 493305308751254087
   RICE_tuareg_dream_personal_20: "$RICE_tuareg_dream_personal_1$" # 493305308751254087
-  RICE_tuareg_dream_political_1: "꿈 점술 (정치)" # 4963612798099077836
+  RICE_tuareg_dream_political_1: "꿈 점술 (정치적)" # 4963612798099077836
   RICE_tuareg_dream_political_2: "$RICE_tuareg_dream_political_1$" # 11064476101241064445
   RICE_tuareg_dream_political_3: "$RICE_tuareg_dream_political_1$" # 11064476101241064445
   RICE_tuareg_dream_political_4: "$RICE_tuareg_dream_political_1$" # 11064476101241064445
@@ -107,7 +107,7 @@
   RICE_tuareg_dream_political_18: "$RICE_tuareg_dream_political_1$" # 11064476101241064445
   RICE_tuareg_dream_political_19: "$RICE_tuareg_dream_political_1$" # 11064476101241064445
   RICE_tuareg_dream_political_20: "$RICE_tuareg_dream_political_1$" # 11064476101241064445
-  RICE_tuareg_dream_communal_1: "꿈 해몽 (공동)" # 17727689288456471036
+  RICE_tuareg_dream_communal_1: "꿈 점술 (공동)" # 17727689288456471036
   RICE_tuareg_dream_communal_2: "$RICE_tuareg_dream_communal_1$" # 10447019861052329991
   RICE_tuareg_dream_communal_3: "$RICE_tuareg_dream_communal_1$" # 10447019861052329991
   RICE_tuareg_dream_communal_4: "$RICE_tuareg_dream_communal_1$" # 10447019861052329991
@@ -127,118 +127,118 @@
   RICE_tuareg_dream_communal_18: "$RICE_tuareg_dream_communal_1$" # 10447019861052329991
   RICE_tuareg_dream_communal_19: "$RICE_tuareg_dream_communal_1$" # 10447019861052329991
   RICE_tuareg_dream_communal_20: "$RICE_tuareg_dream_communal_1$" # 10447019861052329991
-  RICE_tuareg_emergence_decision: "$tuareg$ 고향 설립" # 17657564691327515525
-  RICE_tuareg_emergence_decision_tooltip: "우리 조상들은 여러 세대에 걸쳐 사하라 사막을 방랑했지만, 어쩌면 우리는 새로운 고향을 찾을 수 있을지도 모릅니다." # 17933886010519516616
-  RICE_tuareg_emergence_decision_desc: "우리 $heritage_berber_name$ 조상들은 수 세대 동안 사하라 사막을 떠돌아다녔습니다. 사하라 남부에 사는 우리들 중 많은 이들은 우리 자신의 시간이 검증된 유목 생활 방식을 계속 이어갈 수 있는 새로운 고향을 찾고자 합니다." # 5309836830118667134
-  RICE_tuareg_emergence_decision_confirm: "씨족장들을 소집하십시오!" # 17370147386361442764
-  RICE_tuareg_emergence_decision_effect_tooltip_1: "이 [decision|E]은 [decision|E]인 $RICE_tuareg_found_empire_of_air$을 가능하게 하며, 이는 [GetTitleByKey('e_air').GetName]을 제공합니다." # 18318253398710754923
-  RICE_tuareg_emergence_decision_context_tooltip: "#bold 역사적 배경:#  투아레그는 사하라 중앙 및 남부 지역에 거주하는 아마지그족(또는 "베르베르족")의 집단입니다. 투아레그라는 용어는 후기 중세 시대에나 처음 등장하지만, 투아레그의 선조 부족들인 람투나와 마수파와 같은 집단들은 더 이전 시대부터 기록되어 있습니다. 투아레그는 아마지그족의 후손으로, 현재 지역으로 이주하여 토착 아프리카 인구를 정복하고/또는 통합했습니다." # 18089335660902078228
-  RICE_tuareg_found_empire_of_air: "$tuareg_collective_noun$를 통합하십시오" # 17787474185018682341
-  RICE_tuareg_found_empire_of_air_tooltip: "사하라 사막을 가로지르는 새로운 강력한 제국을 건설할 때입니다!" # 13718264397511759719
-  RICE_tuareg_found_empire_of_air_desc: "우리 $tuareg_collective_noun$은 사하라와 사헬이 서로 접경하는 지역에 확고히 자리를 잡았습니다. 사하라 횡단 무역에 대한 우리의 통제는 우리를 번성하게 만들었고, 이제 우리는 스스로를 새로운 [empire|E]인 아이르 제국으로 통합하여 우리의 영향력을 더욱 확장할 때입니다!" # 4667796591341038769
-  RICE_tuareg_found_empire_of_air_confirm: "때가 왔소!" # 7387865894764375018
-  RICE_tuareg_found_empire_of_air_effect_tooltip_1: "사원소는 그럴 수 있지." # 10824172109891935327
-  RICE_tuareg_found_empire_of_air_context_tooltip: "#emphasis 역사적 배경:#! 아이르 술탄국, 또는 아가데즈 술탄국은 1400년대 어느 시점에 설립된 투아레그 국가였습니다. 전설에 따르면, 비록 그럴듯하지 않고 시대착오적인 전설이지만, 끊임없는 전쟁으로 고통받던 지역 부족들이 콘스탄티노플의 오스만 제국에 사절을 파견하여 그들의 왕자 중 한 명을 지도자이자 통합적인 인물로 요청했다고 합니다. 아가데즈 도시를 중심으로 한 이 왕국은 사하라횡단 무역으로 번영했습니다. 비록 16세기에 송가이에 일시적으로 정복당했지만, 그 외에는 1900년 프랑스 식민지화가 이루어질 때까지 독립을 유지했습니다." # 15340065910053519602
-  RICE_tuareg_dream_subject_1: "광활하고 텅 빈 사막" # 374113433248580034
-  RICE_tuareg_dream_subject_2: "높이 나는 새" # 10044801462748484390
-  RICE_tuareg_dream_subject_3: "고양이" # 9306454285855108800
-  RICE_tuareg_dream_subject_4: "개" # 6337569416267866493
-  RICE_tuareg_dream_subject_5: "가까운 가족" # 10038559056315213444
+  RICE_tuareg_emergence_decision: "$tuareg$ 본거지 수립" # 17657564691327515525
+  RICE_tuareg_emergence_decision_tooltip: "우리 조상들은 대대로 사하라 사막을 떠돌아다녔습니다. 허나 어쩌면 우리 스스로 새로운 고향을 찾을 수 있을지도 모릅니다." # 17933886010519516616
+  RICE_tuareg_emergence_decision_desc: "우리의 $heritage_berber_name$ 조상들은 수 세대 동안 사하라 사막을 유랑해 왔습니다.\n사하라 남부 가장자리에 살고 있는 우리 동족 중 많은 이들이, 오랫동안 이어져 온 우리의 유목 생활 방식을 계속할 수 있는 새로운 보금자리를 스스로 찾고자 합니다." # 5309836830118667134
+  RICE_tuareg_emergence_decision_confirm: "씨족장들을 소집하라!" # 17370147386361442764
+  RICE_tuareg_emergence_decision_effect_tooltip_1: "이 [결단|E]은 추가적인 [결단|E], $RICE_tuareg_found_empire_of_air$을 활성화합니다. 이를 통해 당신은 [GetTitleByKey('e_air').GetName]를 얻게 됩니다." # 18318253398710754923
+  RICE_tuareg_emergence_decision_context_tooltip: "#emphasis 역사적 배경:#! 투아레그족은 아마지그('베르베르'라고도 불리는)의 한 집단으로, 중앙 및 남부 사하라의 상당 부분을 차지하고 있습니다. 투아레그라는 용어는 빨라도 중세 후기에 들어서야 나타나지만, 람투나족과 마수파족 같은 투아레그족의 여러 조상 부족들은 그 이전 시기부터 기록되어 있습니다. 투아레그족은 현재 위치로 이주하여 원주민 아프리카 인구를 정복하거나 통합한 아마지그족의 후예입니다." # 18089335660902078228
+  RICE_tuareg_found_empire_of_air: "$tuareg_collective_noun$ 통일" # 17787474185018682341
+  RICE_tuareg_found_empire_of_air_tooltip: "사하라 너머에 새롭고 강력한 제국을 건설할 때입니다!" # 13718264397511759719
+  RICE_tuareg_found_empire_of_air_desc: "우리 $tuareg_collective_noun$는 사하라와 사헬이 서로 접하는 지역에 확고히 자리잡았습니다. 사하라 횡단 무역에 대한 우리의 통제는 우리를 번영케 했으며, 이제 우리의 영향력을 더욱 확장할 때입니다. 스스로를 새로운 [empire|E]으로 통합함으로써 말입니다: 아이르 제국!" # 4667796591341038769
+  RICE_tuareg_found_empire_of_air_confirm: "때가 왔습니다!" # 7387865894764375018
+  RICE_tuareg_found_empire_of_air_effect_tooltip_1: "사대 원소란 그저 그런 것이지." # 10824172109891935327
+  RICE_tuareg_found_empire_of_air_context_tooltip: "#emphasis 역사적 배경:#! 아일 술탄국 혹은 아가데즈 술탄국은 서기 1400년대 언젠가 건국된 투아레그 국가였습니다. 믿기 어렵고 시대착오적인 전설에 따르면, 수년간의 끊임없는 전쟁 끝에 현지 부족들이 지도자이자 통일의 상징적 존재로 삼기 위해 오스만 왕자 중 한 명을 요청하고자 콘스탄티노플의 오스만 제국에 사절을 보냈을 때 이 술탄국이 건국되었다고 합니다. 아가데즈 시를 중심으로 한 이 왕국은 사하라 횡단 무역으로 부유해졌습니다. 비록 16세기에는 잠시 송가이에게 정복되었지만, 그 외에는 1900년 프랑스의 식민지화까지 독립을 유지했습니다." # 15340065910053519602
+  RICE_tuareg_dream_subject_1: "광활한 텅 빈 사막" # 374113433248580034
+  RICE_tuareg_dream_subject_2: "하늘 높이 나는 새" # 10044801462748484390
+  RICE_tuareg_dream_subject_3: "고양이들" # 9306454285855108800
+  RICE_tuareg_dream_subject_4: "개들" # 6337569416267866493
+  RICE_tuareg_dream_subject_5: "내 직계 가족" # 10038559056315213444
   RICE_tuareg_dream_subject_6: "[ROOT.Char.GetFaith.PantheonTerm]" # 18438492109760240374
-  RICE_tuareg_dream_subject_7: "압도적인 공포감" # 3025043200255344613
+  RICE_tuareg_dream_subject_7: "압도적인 두려움" # 3025043200255344613
   RICE_tuareg_dream_subject_8: "[ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]" # 7410810426148502845
   RICE_tuareg_dream_subject_9: "[ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetFaith.HouseOfWorship]" # 8482039900069115841
-  RICE_tuareg_dream_subject_10: "사막의 무성한 오아시스" # 14512238180831050083
-  RICE_tuareg_dream_subject_11: "강대한 강" # 6338220692858403807
-  RICE_tuareg_dream_subject_12: "번개, 천둥, 그리고 비" # 5292798696012049544
-  RICE_tuareg_dream_subject_13: "사람들이 웃고 있음" # 8463085362028851210
-  RICE_tuareg_dream_subject_14: "사람들이 울고 있습니다" # 8226404222790110690
+  RICE_tuareg_dream_subject_10: "사막 속의 무성한 오아시스" # 14512238180831050083
+  RICE_tuareg_dream_subject_11: "거대한 강" # 6338220692858403807
+  RICE_tuareg_dream_subject_12: "천둥, 번개, 그리고 비" # 5292798696012049544
+  RICE_tuareg_dream_subject_13: "사람들이 웃고 있다" # 8463085362028851210
+  RICE_tuareg_dream_subject_14: "울음소리" # 8226404222790110690
   RICE_tuareg_dream_subject_15: "두 군대 간의 전투" # 10087196692581616819
   RICE_tuareg_dream_subject_16: "말" # 4038599307775655709
   RICE_tuareg_dream_subject_17: "낙타" # 16419518757323447794
-  RICE_tuareg_dream_subject_18: "아름다운 일출" # 4358224773570526851
-  RICE_tuareg_dream_subject_19: "숨 막히는 석양" # 247192755884893080
-  RICE_tuareg_dream_subject_20: "아름다운 젊은 여성" # 14983936608490925353
-  RICE_tuareg_dream_subject_21: "훤칠한 용모의 젊은이" # 8160215320429858238
+  RICE_tuareg_dream_subject_18: "장엄한 일출" # 4358224773570526851
+  RICE_tuareg_dream_subject_19: "숨 막히는 노을" # 247192755884893080
+  RICE_tuareg_dream_subject_20: "빼어난 미모의 젊은 여인들" # 14983936608490925353
+  RICE_tuareg_dream_subject_21: "수려한 외모의 젊은 남자들" # 8160215320429858238
   RICE_tuareg_dream_subject_22: "끝없는 책과 두루마리" # 16821568273100777296
-  RICE_tuareg_dream_subject_23: "모닥불이 꺼지고 있다" # 10448877460980661540
-  RICE_tuareg_dream_subject_24: "높이 떠 있는 달" # 12610942601903953146
-  RICE_tuareg_dream_subject_25: "높이 떠오른 태양" # 11327148679651487319
+  RICE_tuareg_dream_subject_23: "모닥불이 사그라든다" # 10448877460980661540
+  RICE_tuareg_dream_subject_24: "하늘 높이 걸린 달" # 12610942601903953146
+  RICE_tuareg_dream_subject_25: "저 높은 곳의 태양" # 11327148679651487319
   RICE_tuareg_dream_subject_26: "밤하늘의 별들" # 8764293133259331434
-  RICE_tuareg_dream_subject_27: "땅 위를 기어가는 뱀" # 1640522551092722207
-  RICE_tuareg_dream_subject_28: "많은 양의 바클라바" # 9267348284074598354
+  RICE_tuareg_dream_subject_27: "땅바닥을 기어가는 뱀" # 1640522551092722207
+  RICE_tuareg_dream_subject_28: "아주 많은 바클라바" # 9267348284074598354
   RICE_tuareg_dream_subject_29: "대장장이 작업 중" # 4380922417892234478
-  RICE_tuareg_dream_subject_30: "주인에게서 도망치는 노예" # 11460032161414817001
-  RICE_tuareg_dream_subject_31: "상인들의 카라반" # 16861134942756181650
-  RICE_tuareg_dream_subject_32: "아이들이 게임을 하고 있습니다" # 1414535381247328210
+  RICE_tuareg_dream_subject_30: "주인에게서 도망치는 노예들" # 11460032161414817001
+  RICE_tuareg_dream_subject_31: "상인 대상단" # 16861134942756181650
+  RICE_tuareg_dream_subject_32: "아이들이 놀이를 하고 있습니다" # 1414535381247328210
   RICE_tuareg_dream_subject_33: "은 장신구" # 2803341599887866206
-  RICE_tuareg_dream_subject_34: "고대 검" # 11719257376643767404
-  RICE_tuareg_dream_subject_35: "활기찬 음악" # 14010642897982132549
-  RICE_tuareg_dream_subject_36: "내 주위엔 텅 빈 공허뿐입니다." # 4842096957464321421
+  RICE_tuareg_dream_subject_34: "고대의 검" # 11719257376643767404
+  RICE_tuareg_dream_subject_35: "경쾌한 음악" # 14010642897982132549
+  RICE_tuareg_dream_subject_36: "내 주위에는 오직 공허뿐이다" # 4842096957464321421
   RICE_tuareg_dream_subject_37: "금화" # 6406909578172240593
   RICE_tuareg_dream_subject_38: "노인" # 8947903871156557271
-  RICE_tuareg_dream_subject_39: "내 부모님" # 16396523177764511566
+  RICE_tuareg_dream_subject_39: "부모님" # 16396523177764511566
   RICE_tuareg_dream_subject_40: "모래폭풍" # 3956906141156706349
-  RICE_tuareg_dream_subject_41: "바위 투성이" # 16388251281824110523
-  RICE_tuareg_dream_subject_42: "고대 비문 같은 것" # 11744417662589598410
+  RICE_tuareg_dream_subject_41: "아주 많은 바위들" # 16388251281824110523
+  RICE_tuareg_dream_subject_42: "고대의 어떤 명문" # 11744417662589598410
   RICE_tuareg_dream_subject_43: "웅장한 궁전" # 9171615027199986250
-  RICE_tuareg_dream_subject_44: "하늘의 궁전" # 13660812942515514865
+  RICE_tuareg_dream_subject_44: "하늘 위의 궁전" # 13660812942515514865
   RICE_tuareg_dream_subject_45: "망치와 모루" # 13167417815703363856
   RICE_tuareg_dream_subject_46: "내 심장의 고동" # 12212438015918958251
-  RICE_tuareg_dream_subject_47: "시들어가는 식물" # 363361559049947540
+  RICE_tuareg_dream_subject_47: "죽어가는 식물" # 363361559049947540
   RICE_tuareg_dream_subject_48: "꽃" # 10857672278735439085
-  RICE_tuareg_dream_subject_49: "은은한 향수 냄새" # 1203350766723285560
-  RICE_tuareg_dream_subject_50: "누군가로부터의 따뜻한 포옹" # 4850092278112932949
-  RICE_tuareg_dream_action_1: "좋은 사람들과 함께 잔치를 벌였습니다" # 7088127911459661351
-  RICE_tuareg_dream_action_2: "라이벌과의 전투에 나섰습니다" # 13002058996976785086
-  RICE_tuareg_dream_action_3: "[ROOT.Char.GetFaith.HighGodName]에게 기도하고 있었습니다" # 5421926695240388770
-  RICE_tuareg_dream_action_4: "주체할 수 없이 흐느껴 울고 있었습니다" # 5515796525598875055
-  RICE_tuareg_dream_action_5: "이상한 이유로 웃고 있었다" # 16173003985201984520
-  RICE_tuareg_dream_action_6: "훌륭한 농담에 웃었습니다." # 15556404333969109982
-  RICE_tuareg_dream_action_7: "하늘로 떠올랐습니다" # 4522828927622814458
-  RICE_tuareg_dream_action_8: "머나먼 땅으로 여행을 떠났습니다" # 13066120309955636364
-  RICE_tuareg_dream_action_9: "거대한 교역 도시를 방문했습니다" # 8112953005372683939
-  RICE_tuareg_dream_action_10: "시장에서 상인들과 흥정함" # 11828930602288410482
-  RICE_tuareg_dream_action_11: "늘 하던 대로 궁정을 열었습니다" # 14513688971057206491
-  RICE_tuareg_dream_action_12: "알 수 없는 암살자에게 살해당했습니다" # 18031100670724253995
-  RICE_tuareg_dream_action_13: "내가 아는 누군가에게 살해당했습니다" # 14392480297108168171
-  RICE_tuareg_dream_action_14: "알 수 없는 낯선 이를 살해했습니다" # 15112943457477477556
-  RICE_tuareg_dream_action_15: "I can't help you with that.  If you are having thoughts of harming yourself or others, please reach out to a crisis hotline or mental health professional.  There are people who want to help." # 4881425955241977300
-  RICE_tuareg_dream_action_16: "어린 시절로 돌아가 행복한 삶을 살았습니다" # 14244725192738605083
-  RICE_tuareg_dream_action_17: "부모님을 만나 현명한 조언을 들었습니다" # 5177366706196430259
-  RICE_tuareg_dream_action_18: "부모님을 만났지만, 꾸중을 들었습니다." # 5739829922372599491
-  RICE_tuareg_dream_action_19: "춤추고, 춤추고, 다시 춤을 췄습니다" # 5809868747850899011
-  RICE_tuareg_dream_action_20: "...에 대한 큰 향수를 느꼈습니다." # 5357867201171999548
-  RICE_tuareg_dream_action_21: "과거의 인물을 만났습니다" # 14168874083906760238
-  RICE_tuareg_dream_action_22: "진정 차를 마셨습니다" # 10611604843451775830
-  RICE_tuareg_dream_action_23: "누군가에게 어떤 종류의 게임에서 졌습니다" # 168475964085882705
-  RICE_tuareg_dream_action_24: "어떤 고대 역사적 사건을 되살리고 있었습니다." # 6340585144341019844
-  RICE_tuareg_dream_action_25: "사막에서 고대 기념물을 발견했습니다" # 3683052805800833604
-  RICE_tuareg_dream_action_26: "야생 동물을 사냥하고 있었습니다" # 10734518629964124322
-  RICE_tuareg_dream_action_27: "노예 중 하나를 구타하고 있었습니다" # 7206687246120503467
-  RICE_tuareg_dream_action_28: "제 노예 중 한 명을 해방했습니다" # 633082370993721126
-  RICE_tuareg_dream_action_29: "시원하고 상쾌한 물에 목욕을 하다" # 1699334113357888891
-  RICE_tuareg_dream_action_30: "외국인이 다른 언어를 사용하는 것을 이해하지 못함" # 15079115567470314060
-  RICE_tuareg_dream_action_31: "인생의 모든 것에 대해 너무 스트레스를 받았습니다" # 1237407949847804643
-  RICE_tuareg_dream_action_32: "내가 현실에서 알고 있다고 생각하지 않았던 노래를 불렀어" # 1712238695869043165
-  RICE_tuareg_dream_action_33: "강한 전사들로 가득한 강력한 군대를 이끌고 진군했습니다" # 6418967736731043523
-  RICE_tuareg_dream_action_34: "나무 아래서 쉬었다" # 16544412871112253007
-  RICE_tuareg_dream_action_35: "팔을 퍼덕여 새처럼 날아오를 때까지" # 7568562361769915552
-  RICE_tuareg_dream_action_36: "내 하인의 아버지라고 주장하는 말하는 고양이를 보았다" # 16306611971544805792
-  RICE_tuareg_dream_action_37: "아이가 태어나는 것을 목격했습니다." # 5561011472579338671
-  RICE_tuareg_dream_action_38: "정말, 정말 맛있는 음식을 먹었습니다." # 2582664240059027150
-  RICE_tuareg_dream_action_39: "무의미하고 쓸데없는 일로 아무나 붙잡고 논쟁함" # 9955443910870399176
-  RICE_tuareg_dream_action_40: "[ROOT.Char.GetFaith.DevilName]에 의해 미래로 던져져, [ROOT.Char.GetFaith.DevilHerHis]의 악이 법이 된 곳" # 15761547859997440725
-  RICE_tuareg_dream_action_41: "탐정처럼 몇 가지 미스터리를 풀었습니다." # 875759988263353858
-  RICE_tuareg_dream_action_42: "강에서 수영을 하며 휴식을 취함" # 14170091322751181043
-  RICE_tuareg_dream_action_43: "연못에 돌멩이를 던졌습니다" # 7104807199204672287
-  RICE_tuareg_dream_action_44: "새로 변신하여 날아갔다." # 13714266007912490336
-  RICE_tuareg_dream_action_45: "일종의 짐승으로 변형됨" # 12708193033955340662
-  RICE_tuareg_dream_action_46: "밤의 어둠 속에서 멀리 위로, 별들 사이를 춤췄습니다" # 7861910004607922669
-  RICE_tuareg_dream_action_47: "외설적이고 선정적인 행위에 관여함" # 4507976136153778779
-  RICE_tuareg_dream_action_48: "낭만적인 행위에 가담했습니다" # 5396263314283100437
-  RICE_tuareg_dream_action_49: "꽤 아름다운 사람과 손을 잡았습니다" # 13872569596654451286
-  RICE_tuareg_dream_action_50: "이상하게도, 꿈속에서 꿈을 꾸고 있었다" # 6167592621919908236
+  RICE_tuareg_dream_subject_49: "은은한 향수 향기" # 1203350766723285560
+  RICE_tuareg_dream_subject_50: "따뜻한 포옹" # 4850092278112932949
+  RICE_tuareg_dream_action_1: "좋은 일행과 함께 연회를 가졌다" # 7088127911459661351
+  RICE_tuareg_dream_action_2: "나의 숙적들과 맞서 싸웠다" # 13002058996976785086
+  RICE_tuareg_dream_action_3: "[ROOT.Char.GetFaith.HighGodName]께 기도하고 있었습니다" # 5421926695240388770
+  RICE_tuareg_dream_action_4: "하염없이 흐느끼고 있었다" # 5515796525598875055
+  RICE_tuareg_dream_action_5: "무슨 이상한 이유로 웃고 있었다" # 16173003985201984520
+  RICE_tuareg_dream_action_6: "훌륭한 농담에 웃고 있었다" # 15556404333969109982
+  RICE_tuareg_dream_action_7: "하늘로 떠올랐다" # 4522828927622814458
+  RICE_tuareg_dream_action_8: "먼 곳으로 원행 중이었다" # 13066120309955636364
+  RICE_tuareg_dream_action_9: "큰 교역 도시를 방문했다" # 8112953005372683939
+  RICE_tuareg_dream_action_10: "시장에서 상인들과 흥정했다" # 11828930602288410482
+  RICE_tuareg_dream_action_11: "늘 하듯이 궁정을 열고 있었다" # 14513688971057206491
+  RICE_tuareg_dream_action_12: "정체불명의 암살자에 의해 암살당했습니다" # 18031100670724253995
+  RICE_tuareg_dream_action_13: "아는 사람에게 살해당했습니다" # 14392480297108168171
+  RICE_tuareg_dream_action_14: "미상의 낯선 자를 살해했다" # 15112943457477477556
+  RICE_tuareg_dream_action_15: "내가 아는 사람을 죽였다" # 4881425955241977300
+  RICE_tuareg_dream_action_16: "다시 아이가 되어 행복한 삶을 살고 있었다" # 14244725192738605083
+  RICE_tuareg_dream_action_17: "부모님을 만났고, 그분들께서 현명한 조언을 해 주셨습니다" # 5177366706196430259
+  RICE_tuareg_dream_action_18: "부모님을 만났는데, 그분들이 나를 꾸짖으셨다" # 5739829922372599491
+  RICE_tuareg_dream_action_19: "춤추고, 춤추고, 계속 춤을 추었다" # 5809868747850899011
+  RICE_tuareg_dream_action_20: "무엇인가에 대한 강한 향수를 느꼈다..." # 5357867201171999548
+  RICE_tuareg_dream_action_21: "옛 사람과 마주쳤습니다" # 14168874083906760238
+  RICE_tuareg_dream_action_22: "진정시키는 차를 마셨다" # 10611604843451775830
+  RICE_tuareg_dream_action_23: "어떤 내기에서 누구에게 졌다" # 168475964085882705
+  RICE_tuareg_dream_action_24: "어떤 고대의 역사적 사건을 재현하고 있었다" # 6340585144341019844
+  RICE_tuareg_dream_action_25: "사막에서 고대 유적을 마주쳤다" # 3683052805800833604
+  RICE_tuareg_dream_action_26: "야생 동물을 사냥하고 있었다" # 10734518629964124322
+  RICE_tuareg_dream_action_27: "내 노예 중 하나를 매질하고 있었다" # 7206687246120503467
+  RICE_tuareg_dream_action_28: "내 노예 한 명을 해방했다" # 633082370993721126
+  RICE_tuareg_dream_action_29: "시원하고 상쾌한 물에 몸을 담그다" # 1699334113357888891
+  RICE_tuareg_dream_action_30: "외국인들이 다른 언어를 사용하는 것을 이해하지 못했습니다" # 15079115567470314060
+  RICE_tuareg_dream_action_31: "살아가는 모든 일에 극심한 스트레스를 느꼈다" # 1237407949847804643
+  RICE_tuareg_dream_action_32: "현실에서는 알지 못했던 노래를 불렀다" # 1712238695869043165
+  RICE_tuareg_dream_action_33: "막강한 군대, 강력한 전사들로 가득한 채 진군했다" # 6418967736731043523
+  RICE_tuareg_dream_action_34: "나무 아래서 휴식을 취했다" # 16544412871112253007
+  RICE_tuareg_dream_action_35: "새처럼 날 수 있을 때까지 팔을 퍼덕이며" # 7568562361769915552
+  RICE_tuareg_dream_action_36: "내 하인의 아버지라고 주장하는 말하는 고양이를 보았습니다" # 16306611971544805792
+  RICE_tuareg_dream_action_37: "아이의 탄생을 목격했다" # 5561011472579338671
+  RICE_tuareg_dream_action_38: "정말 정말 맛있는 음식을 먹었다" # 2582664240059027150
+  RICE_tuareg_dream_action_39: "사소하고 쓸데없는 일로 낯선 이들과 다투다" # 9955443910870399176
+  RICE_tuareg_dream_action_40: "[ROOT.Char.GetFaith.DevilName]에게 내던져져 [ROOT.Char.GetFaith.DevilHerHis] 악행이 법이 되는 미래로 왔다" # 15761547859997440725
+  RICE_tuareg_dream_action_41: "몇 가지 미스터리를 탐정처럼 해결했다" # 875759988263353858
+  RICE_tuareg_dream_action_42: "강에서 수영하며 심신을 달래다" # 14170091322751181043
+  RICE_tuareg_dream_action_43: "연못에 돌을 던졌다" # 7104807199204672287
+  RICE_tuareg_dream_action_44: "새로 변신하여 날아가 버렸다" # 13714266007912490336
+  RICE_tuareg_dream_action_45: "모종의 짐승으로 변모했다" # 12708193033955340662
+  RICE_tuareg_dream_action_46: "밤의 어둠 속, 저 높은 곳에서 별들 사이를 춤추었다" # 7861910004607922669
+  RICE_tuareg_dream_action_47: "음란하고 성적인 행위에 가담함" # 4507976136153778779
+  RICE_tuareg_dream_action_48: "로맨틱한 행위를 저지름" # 5396263314283100437
+  RICE_tuareg_dream_action_49: "아주 아름다운 누군가와 손을 잡았다" # 13872569596654451286
+  RICE_tuareg_dream_action_50: "묘하게도 어쩐지 꿈속에서 꿈을 꾸고 있었다" # 6167592621919908236
   tuareg.0000.t: "xxxxx" # 1951045980481827005
   tuareg.0000.desc: "xxxxx" # 1951045980481827005
   tuareg.0000.a: "xxxxx" # 1951045980481827005
@@ -269,19 +269,19 @@
   tuareg.0009.t: "xxxxx" # 1951045980481827005
   tuareg.0009.desc: "xxxxx" # 1951045980481827005
   tuareg.0009.a: "xxxxx" # 1951045980481827005
-  tuareg.0010.t: "[tuareg.GetCollectiveNounNoTooltip]의 부상" # 17935377415214454692
-  tuareg.0010.desc: "[tuareg_founder.GetTitledFirstName]와 [tuareg_founder.GetHerHis] 부족의 조상들은 수 세기 동안 사하라 사막에서 살아왔습니다. 이 땅은 사막 부족들이 다양한 이유로 모이거나 갈라지면서 정치적 충성과 연맹이 자주 바뀌는 것을 목격합니다.\n\n[tuareg_founder.GetFirstNameNoTooltip]는 이 지역의 정치 지형에 또 다른 큰 변화를 시작했습니다. [tuareg_founder.GetSheHe|U]는 [tuareg_founder.GetSheHe]와 [tuareg_founder.GetHerHim] 같은 다른 사람들이 고대 로마 시대에 살았던 전설적인 $heritage_berber_name$ 여왕인 티난의 후손인 [tuareg.GetName]라고 선언했습니다. [tuareg.GetCollectiveNoun]은 수년에 걸쳐 부족 여성에 대한 큰 존경과 남성이 특히 파란색 또는 남색으로 염색한 #italic 타겔무스트#! 베일을 써야 한다는 주장과 같이 형제들과 구별되는 관습과 가치를 발전시켜 왔습니다.\n\n어쨌든, [tuareg.GetNameNoTooltip]의 부상은 사하라 역사의 궤적을 바꿀 것입니다." # 13175165950584599782
-  tuareg.0010.a: "[tuareg.GetCollectiveNounNoTooltip]는 무엇을 달성할까요?" # 8101735064840385467
-  tuareg.0010.tooltip: "$tradition_RICE_tuareg_name$ [전통|E]을 가진 모든 [문화|E]는 이제 [decision|E] $RICE_tuareg_found_empire_of_air$를 통해 [GetTitleByKey('e_air').GetName]을(를) 얻을 수 있습니다." # 14322469090474335506
+  tuareg.0010.t: "[tuareg.GetCollectiveNounNoTooltip]의 봉기" # 17935377415214454692
+  tuareg.0010.desc: "[tuareg_founder.GetTitledFirstName]와 [tuareg_founder.GetHerHis] 부족의 선조들은 수 세기 동안 사하라 사막에서 살아왔습니다. 이 땅들은 사막 부족들이 여러 가지 이유로 모이거나 흩어짐에 따라 정치적 충성심과 연합 관계에 잦은 변화를 겪습니다.\n\n[tuareg_founder.GetFirstNameNoTooltip]은 이 지역의 정치 지형에 또 다른 중대한 변화를 일으켰습니다. [tuareg_founder.GetSheHe|U]는 [tuareg_founder.GetSheHe]와 그와 같은 다른 이들이 고대 로마 시대에 살았던 전설적인 $heritage_berber_name$ 여왕 틴 히난의 후예인 [tuareg.GetName]이라고 선포했습니다. [tuareg.GetCollectiveNoun]은 수년 동안 부족 여성에 대한 깊은 존경심, 그리고 남성이 특히 푸른색이나 남색으로 물들인 #italic 타겔무스트#를 써서 베일을 착용해야 한다는 고집 등 동족과 구별되는 관습과 가치를 발전시켜 왔습니다.\n\n아무튼, [tuareg.GetNameNoTooltip]의 부상은 사하라 역사 전개에 의심할 여지 없이 변화를 가져올 것입니다." # 13175165950584599782
+  tuareg.0010.a: "[tuareg.GetCollectiveNounNoTooltip]은 무엇을 성취할 것인가?" # 8101735064840385467
+  tuareg.0010.tooltip: "[GetTitleByKey('e_air').GetName]를 부여하는 $RICE_tuareg_found_empire_of_air$ [decision|E]는 이제 $tradition_RICE_tuareg_name$ [tradition|E]를 보유한 모든 [cultures|E]가 이용할 수 있습니다." # 14322469090474335506
   tuareg.0011.t: "[tuareg.GetNameNoTooltip] 제국" # 15908680034876857080
-  tuareg.0011.desc: "오래전, [tuareg.GetCollectiveNoun](이)가 사하라와 사헬이 만나는 지역에 도착하여 탁 트인 사막과 건조한 평원에 새로운 보금자리를 마련했습니다.\n\n이제, 이러한 초기 개척자들의 후손 중 한 명인 - 혈통이든 정신이든 - [tuareg_unifier.GetTitledFirstName](이)가 이 지역의 많은 부족을 통합하여 새롭고 강력한 국가인 [GetTitleByKey('e_air').GetName](을)를 세웠습니다.\n\n이미 [GetTitleByKey('e_air').GetNameNoTierNoTooltip](은)는 사하라를 가로지르는 사하라 횡단 무역로의 상당 부분을 통제하고 있습니다. 아프리카 전역의 통치자들은 [tuareg_unifier.GetFirstNameNoTooltip](이)와 [tuareg_unifier.GetHerHis] 왕국이 계속해서 영향력과 부를 늘리는 것을 의심할 여지 없이 지켜볼 것입니다.\n\n결국, 이러한 사막 모래 속에서 많은 제국이 흥망성쇠를 거듭하므로 [GetTitleByKey('e_air').GetNameNoTierNoTooltip](이)가 얼마나 오랫동안 강력하고 영향력 있는 상태를 유지할지는 시간이 지나야 알 수 있을 것입니다." # 4567230926769575791
+  tuareg.0011.desc: "수많은 해 전, [tuareg.GetCollectiveNoun]은 사하라와 사헬이 만나는 지역에 도착하여 개방된 사막과 건조한 평원에 새로운 보금자리를 마련했습니다.\n\n이제, 이들 원조 개척자들의 후예 중 한 명인 [tuareg_unifier.GetTitledFirstName]는 – 혈연으로든 정신적으로든 – 이 지역의 많은 부족을 통합하여 [GetTitleByKey('e_air').GetName]라는 새로운 강력한 국가를 세웠습니다.\n\n이미, [GetTitleByKey('e_air').GetNameNoTierNoTooltip]은 사하라를 가로지르는 사하라 횡단 무역로의 상당 부분을 장악하고 있습니다. 아프리카 전역의 통치자들은 [tuareg_unifier.GetFirstNameNoTooltip]와 [tuareg_unifier.GetHerHis] 영역이 영향력과 부를 계속해서 키워 나가는 모습을 틀림없이 지켜볼 것입니다.\n\n결국, 이 사막 모래 위에서 수많은 제국이 흥망성쇠를 맞이하므로, [GetTitleByKey('e_air').GetNameNoTierNoTooltip]이 얼마나 오랫동안 강성하고 중요할지는 시간만이 말해줄 것입니다." # 4567230926769575791
   tuareg.0011.a: "사하라의 역사에 새로운 장이 시작됩니다." # 6816238915393948487
   tuareg.0012.t: "아이르 산맥으로" # 12603145611893594598
-  tuareg.0012.desc: "저는 [GetGeographicalRegion('world_africa_sahara').GetName] 깊숙한 곳, 외딴 아이르 산맥으로 여행을 떠나기로 했습니다. 왜 그 누구도 이런 건조한 땅에, 이런 곳으로 가려고 할까요? 물론 온천 때문입니다!\n\n그 지역에는 많은 온천이 있으며, 그중 일부는 치유력으로 유명합니다. 특히 제가 방문하고 싶은 곳은 타파데크 온천입니다." # 12285105666873175520
+  tuareg.0012.desc: "저는 [GetGeographicalRegion('world_africa_sahara').GetName] 깊숙한 곳에 있는 아에르 산맥 외딴 곳으로 여정을 떠나기로 결심했습니다.\n\n\n그런 메마른 땅의 그런 곳에 누가 왜 갈까요? 물론, 온천 때문이죠!\n\n\n그 지역에는 많은 온천이 있으며, 일부는 그 치유 효과로 유명합니다. 제가 특히 방문하고 싶은 곳은 타파데크 온천입니다." # 12285105666873175520
   tuareg.0012.a: "고된 여정이 그만한 가치가 있기를 바랍니다." # 5076718196406626822
-  tuareg.0013.t: "타파덱 샘물" # 9068662423477498689
-  tuareg.0013.desc: "여정이 힘들었지만, 저는 목적지인 아이르 산맥에서 가장 유명한 온천 중 하나인 타파데크 온천에 도착했습니다.\n\n이 물에 몸을 담그니 편안하고 활력이 넘치는 기분이 듭니다. 어쩌면 이 물이 훌륭한 약효를 지니고 있다는 말이 사실일지도 모릅니다!" # 15078089244365393741
-  tuareg.0013.a: "여기 오게 되어 정말 기쁩니다." # 13646527759978049128
+  tuareg.0013.t: "타파데크 샘" # 9068662423477498689
+  tuareg.0013.desc: "여정은 힘들었지만, 아이르 산맥에서 손꼽히는 온천 중 하나인 타파데크 샘이라는 목적지에 도착했습니다.\n\n이 물에 몸을 담그니 긴장이 풀리고 활력이 샘솟는 것을 느낍니다. 어쩌면 사람들이 말하는 것처럼 이 물이 정말 약효가 뛰어난 것일지도 모릅니다!" # 15078089244365393741
+  tuareg.0013.a: "여기에 있게 되어 정말 기쁩니다." # 13646527759978049128
   tuareg.0014.t: "xxxxx" # 1951045980481827005
   tuareg.0014.desc: "xxxxx" # 1951045980481827005
   tuareg.0014.a: "xxxxx" # 1951045980481827005
@@ -301,24 +301,24 @@
   tuareg.0019.desc: "xxxxx" # 1951045980481827005
   tuareg.0019.a: "xxxxx" # 1951045980481827005
   tuareg.0020.t: "준비" # 666839747819429162
-  tuareg.0020.desc.intro: "[ROOT.Char.GetTitleAsNameNoTooltip]로서, 저에게는 많은 걱정과 책임이 있습니다." # 8761501917649393511
-  tuareg.0020.desc.faith: "[ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetFaith.PantheonTerm]을 믿는 사람들 사이에서," # 2335938143587491946
-  tuareg.0020.desc.culture: "[ROOT.Char.GetCulture.GetCollectiveNoun] 중에서," # 3720639566472396950
-  tuareg.0020.desc: "죽은 자들의 무덤에서 꿈을 통해 조언을 구하는 것은 드문 일이 아닙니다. 수 세기 동안 무덤에서 잠을 자는 것이 우리의 전통이었으며, 그곳에서 꾸는 꿈은 세상사에 대한 위대한 통찰력을 준다고 합니다.\n\n긴 여행 끝에 저는 [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]에 도착했습니다." # 8720034165020952929
-  tuareg.0020.desc.notable: "오래전 이곳에 살았던 지역의 유명 인사가 묻혀 있다고 합니다." # 10314667528841977720
-  tuareg.0020.desc.ancestor: "여기 어딘가에 먼 조상이 묻혀 있다고 합니다." # 15470126752615551828
-  tuareg.0020.desc.saint: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 성인이 이곳에 묻혔다고 전해집니다." # 17459309180822370503
-  tuareg.0020.desc.personal: "최근 개인적인 일로 마음이 무겁습니다. 이 무덤에서 꾸는 꿈이 개인적인 문제를 해결하는 데 올바른 방향으로 나아가도록 저를 이끌어주기를 바랍니다." # 10214742732550643662
-  tuareg.0020.desc.political: "정치적 문제가 머릿속에서 떠나질 않습니다. 적과 경쟁 세력이든, 내 부하들이든, 그 누구든, 이 무덤에서 꾸는 꿈이 어떻게 그들을 신중하게 대해야 할지 알려주기를 바랍니다." # 18275110139664294695
-  tuareg.0020.desc.communal: "공동체의 안녕이 가장 걱정됩니다. 내가 그들의 지도자로서 올바른 일을 하고 있는 것일까요? 아니면 현재 행동 방식을 바꿔야 할까요? 이 무덤에서 꾸는 꿈이 내가 찾는 답을 주기를 바랍니다." # 17820904498889984418
-  tuareg.0020.a: "이 의식을 위해 잘 준비해야 해." # 1330337317339819998
+  tuareg.0020.desc.intro: "[ROOT.Char.GetTitleAsNameNoTooltip]로서, 많은 걱정과 책임이 따릅니다." # 8761501917649393511
+  tuareg.0020.desc.faith: "[ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetFaith.PantheonTerm]를 믿는 자들 중에서," # 2335938143587491946
+  tuareg.0020.desc.culture: "[ROOT.Char.GetCulture.GetCollectiveNoun] 중에," # 3720639566472396950
+  tuareg.0020.desc: "망자들의 무덤에서 꿈을 통해 조언을 구하는 것은 드문 일이 아닙니다. 수 세기 동안, 우리는 그러한 무덤에서 잠을 청하는 것을 전통으로 삼아왔습니다. 그곳에서 꾸는 꿈은 세상의 일들에 대한 위대한 통찰을 준다고 알려져 있습니다.\n\n오랜 여행 끝에, 저는 [ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]에 도착했습니다." # 8720034165020952929
+  tuareg.0020.desc.notable: "오래전에 살았던 지역의 저명한 인물이 이곳에 묻혀 있다고 전해집니다." # 10314667528841977720
+  tuareg.0020.desc.ancestor: "나의 먼 조상 중 한 분이 이곳에 묻혀 있다고 합니다." # 15470126752615551828
+  tuareg.0020.desc.saint: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 성인이 이곳에 묻혀 있다고 합니다." # 17459309180822370503
+  tuareg.0020.desc.personal: "\n\n최근 개인적인 문제들로 마음이 무거웠습니다. 이 무덤에서 꾸는 꿈들이 제 개인적인 일을 처리하는 데 있어서 올바른 방향으로 이끌어 주길 바랍니다." # 10214742732550643662
+  tuareg.0020.desc.political: "정치 문제가 많이 떠올랐습니다. 적과 반대 세력, 혹은 부하들, 누구든 간에, 이 무덤에서 꾸는 꿈이 그들을 어떻게 신중하게 다룰지 알려주기를 바랍니다." # 18275110139664294695
+  tuareg.0020.desc.communal: "사람들의 복지를 가장 걱정합니다. 지금 내가 하는 일이 제대로 된 것일까요? 아니면 현재 방향을 바꿔야 할까요? 이 무덤에서 꾸는 꿈이 내가 찾는 답을 주기를 바랍니다." # 17820904498889984418
+  tuareg.0020.a: "이 의식을 위해 잘 준비해야겠군." # 1330337317339819998
   tuareg.0021.t: "무덤" # 8022959051572043264
-  tuareg.0021.desc: "[ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]의 무덤에 도착하자 밤이 찾아왔습니다. 잠들기 전 어떻게 잠을 자고 무엇을 해야 하는지에 대한 지역 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]의 지시를 받은 후, 저는 이 의식을 수행할 준비가 되었습니다!\n\n잠에 들면서, 제 마음은 저를 괴롭혀온 삶의 문제들에 대한 질문에 집중합니다." # 17272357339893396426
-  tuareg.0021.a: "꿈의 세계로 떠날 시간입니다…." # 1171232516033578366
+  tuareg.0021.desc: "[ROOT.Char.GetInvolvedActivity.GetCurrentPhase.GetLocation.GetName]의 무덤 앞, 어둠이 내려앉습니다. 현지의 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]의 잠자는 법과 의식에 대한 지침을 받고, 잠자리에 들 준비가 되었습니다!\n\n잠이 들면서, 삶의 어려움에 대한 궁금증이 마음속에 깊이 자리 잡습니다." # 17272357339893396426
+  tuareg.0021.a: "꿈속 세계로 여행을 떠날 시간입니다." # 1171232516033578366
   tuareg.0022.t: "꿈" # 18057225915407325943
-  tuareg.0022.desc.failure: "해돋이가 떠오르기 시작하자, 나는 피곤하고 비몽사몽한 채로 잠에서 깨어났습니다. 불행히도, 간밤의 꿈을 잘 기억하지 못했고, 내가 기억할 수 있는 몇 가지 세부 사항을 지역 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]에게 말해주었지만, 그들은 그것을 별로 이해하지 못했습니다.\n\n슬프게도, [ROOT.Char.GetFaith.PantheonTerm] [ROOT.Char.GetFaith.PantheonTermHasHave] 내가 어떤 조언을 받을 가치가 없다고 결정한 것 같습니다.\n\n적어도, 중요한 사람의 무덤을 방문했다는 것은 알 수 있겠네요." # 1305268728387490941
-  tuareg.0022.desc.success: "해돋이 하늘 위로 해가 떠오르기 시작하자, 나는 상쾌하고 활력이 넘치는 기분으로 잠에서 깨어났습니다. 정신이 맑아진 나는 지난밤 꿈에서 기억나는 것을 지역 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]에게 말했습니다.\n\n내가 기억할 수 있는 꿈의 주요 사건은 #Bold [ROOT.Char.Custom('RICE_tuareg_dream_subject')]#!이 등장했으며, 내가 #Bold [ROOT.Char.Custom('RICE_tuareg_dream_action')]#!했다는 것입니다.\n\n어쨌든 [ROOT.Char.Custom('DefaultPriestTitlePlural')]은 내가 꿈을 해석하는 것을 도왔고, [ROOT.Char.GetFaith.PantheonTerm]이 내 일에 대해 무엇을 전달하고 싶어하는지 알려주었습니다. 나는 모든 면에서 신성한 지도를 받아 안도감이 듭니다." # 17839035654176588819
-  tuareg.0022.a: "이제, 집으로 돌아갈 시간입니다." # 1885059049377709041
+  tuareg.0022.desc.failure: "해가 떠오르기 시작하자 잠에서 깨어났습니다. 피곤하고 졸린 기분이었습니다. 어젯밤 꿈은 잘 기억나지 않았고, 기억나는 몇 가지 단편을 현지 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]께 말씀드렸지만, 그들은 꿈의 의미를 잘 알 수 없다고 말했습니다.\n\n\n유감스럽게도, [ROOT.Char.GetFaith.PantheonTerm] [ROOT.Char.GetFaith.PantheonTermHasHave]는 저에게 조언을 해줄 만한 가치가 없다고 판단한 것 같습니다.\n\n\n적어도 중요한 사람의 무덤을 방문했으니 다행이라고 생각합니다." # 1305268728387490941
+  tuareg.0022.desc.success: "해가 떠오르기 시작하자 잠에서 깨어 상쾌함과 활력을 느꼈습니다. 어제 밤 꿈속에서 기억나는 내용들을 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]께 자세히 말씀드렸습니다.\n\n기억나는 꿈의 주요 내용은 #Bold [ROOT.Char.Custom('RICE_tuareg_dream_subject')]#였고, 저는 #Bold [ROOT.Char.Custom('RICE_tuareg_dream_action')]#했습니다.\n\n어쨌든 [ROOT.Char.Custom('DefaultPriestTitlePlural')]께서 꿈을 해몽해주시며, [ROOT.Char.GetFaith.PantheonTerm]께서 제 일에 대해 전하고자 하신 메시지를 알려주셨습니다. 결론적으로 신성한 가르침을 받아 안심이 됩니다." # 17839035654176588819
+  tuareg.0022.a: "이제 집으로 돌아갈 시간입니다." # 1885059049377709041
   tuareg.0023.t: "xxxxx" # 1951045980481827005
   tuareg.0023.desc: "xxxxx" # 1951045980481827005
   tuareg.0023.a: "xxxxx" # 1951045980481827005
@@ -401,23 +401,24 @@
   tuareg.0049.desc: "xxxxx" # 1951045980481827005
   tuareg.0049.a: "xxxxx" # 1951045980481827005
   tuareg.0050.t: "켈 타겔무스트" # 2988850775966823181
-  tuareg.0050.desc: "우리 병사들이 쓰는 베일, 바로 #italic 타겔무스트#! 는 우리 민족의 고귀한 상징이 아니오? 아름다울 뿐만 아니라, 모두에게 자신의 씨족과 지위를 훌륭하게 드러내는 방법이 아니오?\n\n하지만 우리를 조롱하고 멸시하며 비웃는 자들이 있소. 그들은 [ROOT.Char.GetCulture.GetName] 남자가 여자 같다고 말하오. 자기네 땅에서는 여자들이 베일을 쓰기 때문이오." # 16283585595432665687
-  tuareg.0050.a: "터무니없는 소리! 남자들은 의심할 여지 없이 베일을 써야 합니다." # 17744074749219211221
-  tuareg.0050.b: "다른 곳은 다른 관습을 가지고 있지 않나요?" # 12366618276205075854
-  tuareg.0050.info: "#emphasis 역사적 배경:#! 투아레그는 입막이, #italic 태젤무스트#!로 불리는 특이한 입막이 전통으로 유명합니다. 주변 문화와 달리 남성들이 여성이 아닌 남성들의 입과 코를 가리는 전통을 지닙니다. 성인 남성들은 심지어 낯선 이방인이나 지위가 높은 사람에게 자신의 입이나 코를 보이는 것을 부끄러워합니다. 역사적으로 이러한 관습은 투아레그와 연관된 특정 베르베르/아마지그 부족 사이에서도 확인됩니다. 예를 들어, 11세기에 북아프리카와 이베리아 대부분을 지배한 알모라비드는 알모하드 같은 적들로부터 이러한 관습 때문에 비난받았습니다." # 2359361167941624699
-  tuareg.0051.t: "타카라키트" # 18168793792197283091
-  tuareg.0051.desc: "[ROOT.Char.GetCulture.GetCollectiveNoun]은 #italic 켈 타겔무스트#!, 즉 베일의 사람들로서, #italic 타카라키트#! 또는 자제라는 미덕을 매우 중요하게 여깁니다. 즉, 분노, 사랑 등 강한 감정을 간접적인 수단으로 전달하는 사람을 매우 존경합니다.\n\n최근 [courtier.GetFirstName]은 #italic 타카라키트#!를 잘 구현하는 것으로 명성을 얻었습니다. 제 궁정과 다른 곳의 많은 사람들이 [courtier.GetHerHim]을 이 점에 대해 칭찬했습니다." # 14658951551093721514
-  tuareg.0051.a: "왜 다들 그렇게 말하는지 알겠어!" # 10339452521891874368
+  tuareg.0050.desc: "우리 군사가 쓰는 베일 – #italic 태겔무스트#! – 그것은 우리 민족의 고귀한 상징이 아니겠는가? 그것은 보기 좋고, 모든 이에게 자신의 집단과 지위를 아름답게 드러내는 방법이 아니겠는가?\n\n그러나 거기에는 우리를 조롱하고, 경멸하고, 이 때문에 우리를 비난하는 자들이 있다. 그들은 [ROOT.Char.GetCulture.GetName] 사람들은 여성과 같다고 말한다. 왜냐하면 그들의 땅에서는 여성들이 베일을 쓰기 때문이다." # 16283585595432665687
+  tuareg.0050.a: "허황된 생각이군! 남자들은 반드시 베일을 써야 한다." # 17744074749219211221
+  tuareg.0050.b: "각 지역마다 풍습이 다르지 않나요?" # 12366618276205075854
+  tuareg.0050.info: "#bold 역사적 배경:#! 투아레그는 #italic 태그엘무스트#라는 입가리개로 유명합니다. 주변 문화들과 달리, 그들은 남성을 가리고 여성을 가리지 않는 전통을 가지고 있습니다. 성인 남성은 심지어 남에게 또는 신분이 높은 이에게 자신의 입이나 코를 드러내는 것을 부끄러워합니다. 역사적으로 이러한 관행은 투아레그와 관련된 일부 베르베르/아마지그 부족들 사이에서 확인됩니다. 예를 들어, 11세기 북아프리카와 이베리아 대부분을 지배했던 알모라비드는 알모하드와 같은 적들로부터 이 관행 때문에 비난받았습니다." # 2359361167941624699
+  tuareg.0051.t: "타라라킷" # 18168793792197283091
+  tuareg.0051.desc: "[ROOT.Char.GetCulture.GetCollectiveNoun]는 #italic 켈 타젤무스트#!로서, 베일의 백성으로서 #italic 타라카킷#!, 곧 절제를 매우 중히 여깁니다. 즉, 분노, 사랑과 같은 강렬한 감정을 간접적인 방법으로 표현하는 이들은 높은 존경을 받습니다.\n\n최근 [courtier.GetFirstName]은 #italic 타라카킷#!를 잘 구현하는 것으로 명성을 얻었습니다. 저의 궁정과 그 외 여러 곳에서 많은 이들이 [courtier.GetHerHim]의 이러한 점을 칭찬했습니다." # 14658951551093721514
+  tuareg.0051.a: "그럴 만도 하군!" # 10339452521891874368
   tuareg.0052.t: "타구엘라" # 4402771114929575158
-  tuareg.0052.desc: "오늘, 저는 양과 염소 고기, 향신료를 곁들인 #italic taguella#!를 특히 맛있게 먹고 있습니다. 이 납작빵은 [ROOT.Char.GetCulture.GetName] 요리의 주식으로, 모든 이들이 기억할 수 있을 만큼 오래되었습니다." # 14774120732658525690
-  tuareg.0052.a: "냠냠!" # 256549839276810079
+  tuareg.0052.desc: "오늘은 특히 맛있는 #italic 타굴라#를 양고기와 염소고기, 향신료와 함께 즐기고 있습니다. 이 납작한 빵은 [ROOT.Char.GetCulture.GetName] 요리의 필수품으로, 기억이 미치는 한 오랫동안 이어져 왔습니다." # 14774120732658525690
+  tuareg.0052.a: "쩝쩝!" # 256549839276810079
   tuareg.0053.t: "이나단" # 3542393215713513400
-  tuareg.0053.desc: "#italic [county.GetNameNoTier]의 이나단#!은 최근 그들의 제품으로 큰 명성을 얻었습니다. 저와 같은 [ROOT.Char.GetCulture.GetName] 사람들의 엘리트 귀족 계층은 세습된 대장장이, 보석 세공인, 장인 계층과 거리를 두지만, 그들의 작품이 우리에게 큰 도움이 된다는 것은 의심할 여지가 없습니다." # 1479306464815357465
-  tuareg.0053.a: "좋아요." # 14573920459424355735
-  tuareg.0054.t: "티피나그" # 9565788333921707874
-  tuareg.0054.desc: "저는 거주지 근처 [county.GetNameNoTier]의 황무지에서 #italic 티피나그#! 문자로 된 고대 비문을 발견했습니다.\n\n#italic 티피나그#! 문자로 된 비문을 발견하는 것은 드문 일이 아닙니다. 우리 [ROOT.Char.GetCulture.GetCollectiveNoun]은 조상들이 수 세대 전에 그랬던 것처럼 여전히 이 문자를 사용합니다.\n\n어쨌든, 제가 발견한 비문은 매우 닳아서 읽기가 어렵습니다. 원래 조각가가 누구였고 무엇을 말하고 싶었는지 상상할 수 있을 뿐입니다!" # 16804883124664804584
-  tuareg.0054.a: "아마 중요한 일이었을지도 모릅니다." # 14430238383001361756
-  tuareg.0054.b: "혹시 영혼이 만든 것일까요?" # 4958643328949441458
+  tuareg.0053.desc: "[county.GetNameNoTier]의 #italic 이나단#!는 최근 그들의 제품으로 큰 명성을 얻었습니다.  비록 저와 같은 [ROOT.Char.GetCulture.GetName] 귀족 계층은 대대로 대장장이, 보석 세공사, 그리고 장인들의 그러한 계층과 거리를 두지만, 그들의 작품은 분명 우리에게 큰 도움이 됩니다." # 1479306464815357465
+  tuareg.0053.a: "듣게 되어 기쁩니다." # 14573920459424355735
+  tuareg.0054.t: "티피나흐" # 9565788333921707874
+  tuareg.0054.desc: "[county.GetNameNoTier] 거주지 근처 들판에서 #italic tifinagh#! 문자의 고대 비문들을 발견했습니다.\n\n#italic tifinagh#! 비문은 흔치 않은 일이 아니며, 우리 조상들처럼 우리 [ROOT.Char.GetCulture.GetCollectiveNoun] 역시 여전히 이 문자를 사용하고 있습니다.\n\n하지만 제가 발견한 비문은 매우 낡고 읽기 어렵습니다. 과연 누가 새겼으며 무엇을 말하고자 했을까 상상만 할 뿐입니다!" # 16804883124664804584
+  tuareg.0054.a: "아마 중요한 일이었을지도 모르겠군." # 14430238383001361756
+  tuareg.0054.b: "아마도 이것은 어떤 영혼이 만들었나 봅니다." # 4958643328949441458
+  tuareg.0054.c: "기다려, 풀 수 있을 것 같아…." # 15362601323117578330
   tuareg.0055.t: "xxxxx" # 1951045980481827005
   tuareg.0055.desc: "xxxxx" # 1951045980481827005
   tuareg.0055.a: "xxxxx" # 1951045980481827005
@@ -553,4 +554,3 @@
   tuareg.0099.t: "xxxxx" # 1951045980481827005
   tuareg.0099.desc: "xxxxx" # 1951045980481827005
   tuareg.0099.a: "xxxxx" # 1951045980481827005
-  tuareg.0054.c: "기다려, 내가 해독할 수 있을 것 같아…" # 15362601323117578330

@@ -1,251 +1,251 @@
 ﻿l_korean:
-  RICE_volga_dnieper_trade_region: "볼가 및 드네프르 무역 지역" # 9165222723932978688
-  RICE_galicia_volhynia_region: "갈리시아-볼히니아" # 4581179074232321508
-  RICE_european_cochineal_region: "치명적 염색 생산 지역" # 16050572224752409185
-  RICE_cochineal_region_req: "[GetGeographicalRegion('RICE_european_cochineal_region').GetName]의 [county|E]를 소유하고 있습니다." # 6934755816366047214
-  RICE_volga_dnieper_geographical_req: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]의 [county|E]를 소유하고 있습니다." # 13693489407819070138
-  RICE_every_cochineal_region_county: "[GetGeographicalRegion('RICE_european_cochineal_region').GetName]에 소유한 모든 [county|E]" # 7022072221521622163
-  RICE_every_varangian_trade_region_county: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역에 소유한 모든 [county|E]" # 14115739453221729389
-  RICE_cochineal_industry_effect_desc_01: "#bold $RICE_galicia2_support_cochineal_industry$# 결정을 내릴 경우, 기본 [county_modifier|E] 대신 이 [county|E]는 향상된 [GetModifier('RICE_galicia2_cochineal_modifier_2').GetNameWithTooltip] [modifier|E]를 얻습니다." # 2622000491923450217
-  RICE_cochineal_industry_effect_desc_02: "#bold $RICE_galicia2_support_cochineal_industry$# 결정을 내릴 경우, 기본 [county_modifier|E] 대신 이 [county|E]는 향상된 [GetModifier('RICE_galicia2_cochineal_modifier_3').GetNameWithTooltip] [modifier|E]를 얻습니다." # 17802000602820369782
-  RICE_cochineal_industry_effect_desc_03: "#bold $RICE_galicia2_support_cochineal_industry$# 결정을 내릴 경우, 기본 [county_modifier|E] 대신 이 [county|E]는 개선된 [GetModifier('RICE_galicia2_cochineal_modifier_4').GetNameWithTooltip] [modifier|E]를 얻습니다." # 2968788052371230810
+  RICE_volga_dnieper_trade_region: "볼가-드네프르 무역 지역" # 9165222723932978688
+  RICE_galicia_volhynia_region: "갈리치아-볼히니아" # 4581179074232321508
+  RICE_european_cochineal_region: "코치닐 생산 지역" # 16050572224752409185
+  RICE_cochineal_region_req: "[GetGeographicalRegion('RICE_european_cochineal_region').GetName] 내에 [county|E]를 소유" # 6934755816366047214
+  RICE_volga_dnieper_geographical_req: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 내의 [county|E]를 보유" # 13693489407819070138
+  RICE_every_cochineal_region_county: "[GetGeographicalRegion('RICE_european_cochineal_region').GetName] 내 소유한 모든 [county|E]" # 7022072221521622163
+  RICE_every_varangian_trade_region_county: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 내에서 소유한 모든 [county|E]" # 14115739453221729389
+  RICE_cochineal_industry_effect_desc_01: "#bold $RICE_galicia2_support_cochineal_industry$#! [decision|E]을(를) 선택하면, 기본 [county_modifier|E] 대신 이 [county|E]는 개선된 [GetModifier('RICE_galicia2_cochineal_modifier_2').GetNameWithTooltip] [modifier|E]를 얻습니다." # 2622000491923450217
+  RICE_cochineal_industry_effect_desc_02: "#bold $RICE_galicia2_support_cochineal_industry$#! [decision|E]을(를) 선택하면, 기본 [county_modifier|E] 대신 이 [county|E]는 개선된 [GetModifier('RICE_galicia2_cochineal_modifier_3').GetNameWithTooltip] [modifier|E]를 얻게 됩니다." # 17802000602820369782
+  RICE_cochineal_industry_effect_desc_03: "[결단|E] #bold $RICE_galicia2_support_cochineal_industry$#을(를) 택할 때, 기본 [county_modifier|E] 대신, 이 [county|E]는 개선된 [GetModifier('RICE_galicia2_cochineal_modifier_4').GetNameWithTooltip] [modifier|E]를 얻습니다." # 2968788052371230810
   ghw_region_russia: "루스" # 15889526489462176874
   dynn_kormylchych: "코르밀치치" # 4346332179965011183
   Yavolod: "야볼로드" # 11729683422545391493
-  RICE_nick_osmomysl: "오스만" # 5357576891130327060
-  RICE_nick_osmomysl_desc: "[CharYourHerHis(CHARACTER)]의 뛰어난 지혜 덕분에 [CHARACTER.GetShortUINameNoTooltipNoFormat]은 #italic 오스모미슬#이라는 별명을 얻었습니다. 팔면을 가진다는 뜻입니다." # 4840738648044864059
-  RICE_volga_dnieper_merchants_option: "볼가-드니에프 상인들" # 5424725043807404802
-  RICE_volga_dnieper_merchants_option_desc: "대규모 상인 카르반과 함께 여행하면 여정이 지연될 수 있지만, 인원이 많을수록 안전합니다. 이들 상인들은 동유럽의 운반로를 능숙하게 횡단하는 경험이 풍부하며, 그들과 함께 여행하면 때때로 사업 기회가 생길 수 있습니다!" # 6550474439377594101
-  RICE_volga_dnieper_merchant_recruited_tt: "[RICE_merchant.GetNamePossessive] 상단이 귀하의 호위대에 합류했습니다." # 9641823546894948420
-  RICE_volga_dnieper_merchants_option_effect_1: "[barony|E]에 들어갈 때마다 #V [GetPlayer.MakeScope.ScriptValue('RICE_volga_dnieper_merchant_travel_option_event_chance')]%#!의 확률로 무역 거래를 통해 적은 양의 £gold£를 얻을 수 있습니다. 이는 귀하의 외교력과 관리력에 따라 달라집니다." # 16279260349885766049
-  RICE_galicia2_boyar_event_troops: "보야르 군대" # 17867313578227130786
-  RICE_rival_galicia2_brotherly_competition: "[CHARACTER.GetShortUINamePossessive|U]와 [TARGET_CHARACTER.GetShortUIName]은 야로슬라프 오소미슬의 서거 후 [GetTitleByKey('d_halych').GetNameNoTier]를 두고 경쟁하고 있습니다." # 5843439794906733503
+  RICE_nick_osmomysl: "오스모미슬" # 5357576891130327060
+  RICE_nick_osmomysl_desc: "[CharYourHerHis(CHARACTER)] 명성이 자자한 지혜 덕분에, [CHARACTER.GetShortUINameNoTooltipNoFormat][CharHaveHas(CHARACTER)] '#italic Osmomysl#!'이라는 별명을 얻었으며, 그 뜻은 '여덟 가지 마음'입니다." # 4840738648044864059
+  RICE_volga_dnieper_merchants_option: "볼가-드네프르 상인단" # 5424725043807404802
+  RICE_volga_dnieper_merchants_option_desc: "대규모 상인 대상단과 함께 이동하면 여정이 느려질 수 있지만, 다수 속에 안전함이 있다네. 이 상인들은 동유럽의 포르타주 경로를 건너는 데 경험이 풍부하며, 그들과 함께 여행하면 때때로 사업 기회를 얻을 수 있을지도 모른다네!" # 6550474439377594101
+  RICE_volga_dnieper_merchant_recruited_tt: "[RICE_merchant.GetNamePossessive]의 상단이 귀하의 수행단에 합류했습니다" # 9641823546894948420
+  RICE_volga_dnieper_merchants_option_effect_1: "[barony|E]에 들어갈 때마다, #V [GetPlayer.MakeScope.ScriptValue('RICE_volga_dnieper_merchant_travel_option_event_chance')]%#! 확률로 무역 거래에서 소량의 [gold_i|E] [gold|E]를 얻을 수 있으며, 이는 [diplomacy|E]와 [stewardship|E]에 따라 달라집니다." # 16279260349885766049
+  RICE_galicia2_boyar_event_troops: "보야르 병력" # 17867313578227130786
+  RICE_rival_galicia2_brotherly_competition: "[CHARACTER.GetShortUINamePossessive|U]와 [TARGET_CHARACTER.GetShortUIName]는 야로슬라프 오스모미슬의 사망 이후 [GetTitleByKey('d_halych').GetNameNoTier]를 놓고 경쟁하고 있습니다." # 5843439794906733503
   dynn_bernatovich: "베르나토비치" # 673656334762439270
   slavic_religion_opinion: "$slavic_religion_opinion_adherent$ 의견" # 14663170580070119113
-  game_concept_volga_dnieper_merchants: "볼가-드니에프 상인들" # 5424725043807404802
-  game_concept_volga_dnieper_merchant: "볼가-드니에프 상인" # 10410210075505544588
-  game_concept_volga_dnieper_merchant_desc: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역에 영토를 소유하고 있다면, 때때로 $game_concept_volga_dnieper_merchant$ 인물이 $trait_RICE_volga_dnieper_merchant$ [trait|E]를 지닌 채 귀하의 [court|E]에 나타날 가능성이 있습니다.  그들의 연줄을 활용하여 무역 상품 전문 분야에 따라 [income|E]를 증대시키는 [character_modifier|E]와 추가 보너스를 얻을 수 있습니다. [court|E]에 초청하지 않더라도 이러한 보너스를 얻을 수 있습니다.\n\n\n이 지역 무역과 관련된 다양한 옵션을 가진 $RICE_develop_portage_routes$ [decision|E]를 이용할 수도 있습니다.\n\n\n귀하 자신도 $RICE_volga_dnieper_merchants_option$ [travel_option|E]를 선택하여 [traveling|E]하는 동안 $trait_RICE_volga_dnieper_merchant$ [trait|E]를 얻으려고 노력할 수 있습니다. 이는 때때로 해당 [trait|E]를 획득하거나, 해당 [trait|E]의 [trait_level_track_xp|E]를 높이는 데 도움이 되는 사건을 발생시킵니다." # 15298597906085035719
-  building_type_RICE_kamianets_podilskyi_castle_01: "카미아네츠-포딜스키 요새" # 11358206814016627870
-  building_type_RICE_kamianets_podilskyi_castle_01_desc: "카미아네츠-포딜스키는 포딜리아 지역의 전략적 교차로에 위치한 작지만 중요한 요새입니다. 무역로와 침략군이 자주 이곳을 지납니다." # 51004951349580281
-  building_RICE_kamianets_podilskyi_castle_01: "카미아네츠-포딜스키 요새" # 13693613416434070970
+  game_concept_volga_dnieper_merchants: "볼가-드네프르 상인단" # 5424725043807404802
+  game_concept_volga_dnieper_merchant: "볼가-드네프르 상인" # 10410210075505544588
+  game_concept_volga_dnieper_merchant_desc: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 내 영지를 소유하고 있다면, 종종 $trait_RICE_volga_dnieper_merchant$ [trait|E] 특성을 가진 $game_concept_volga_dnieper_merchant$가 [court|E]에 등장할 확률이 있습니다. 그들의 연줄을 활용하기로 선택할 수 있으며, 이는 그들이 전문으로 하는 교역품에 따라 귀하에게 [income|E]를 증진시키고 다른 보너스들도 제공하는 [character_modifier|E]를 부여합니다. 이 보너스들은 그들을 [court|E]로 초대하지 않더라도 얻을 수 있습니다.\n\n또한 이 지역의 무역과 관련된 다양한 선택지를 포함하는 $RICE_develop_portage_routes$ [decision|E]에 접근할 수 있게 됩니다.\n\n귀하 자신도 [traveling|E] 중 $RICE_volga_dnieper_merchants_option$ [travel_option|E] 선택지를 택하여 $trait_RICE_volga_dnieper_merchant$ [trait|E] 특성을 얻으려 시도할 수 있습니다. 이는 간혹 이벤트를 발생시켜 해당 [trait|E]를 얻기 위해 노력하거나, 해당 [trait|E]의 [trait_level_track_xp|E]를 증가시킬 수 있게 합니다." # 15298597906085035719
+  building_type_RICE_kamianets_podilskyi_castle_01: "카먀네츠-포딜스키 성채" # 11358206814016627870
+  building_type_RICE_kamianets_podilskyi_castle_01_desc: "카미아네츠-포딜스키는 포딜리아 지역의 전략적으로 중요한 교차점에 위치한 작지만 중요한 요새입니다. 무역 상단뿐만 아니라 침략군도 자주 이곳을 통과합니다." # 51004951349580281
+  building_RICE_kamianets_podilskyi_castle_01: "카미야네츠-포딜스키 요새" # 13693613416434070970
   building_RICE_kamianets_podilskyi_castle_01_desc: "$building_type_RICE_kamianets_podilskyi_castle_01_desc$" # 2676943374994695338
-  building_RICE_kamianets_podilskyi_castle_02: "카미아네츠-포딜스키이 성" # 10603885459011718404
-  building_RICE_kamianets_podilskyi_castle_02_desc: "포디리아 지방의 전략적 요충지에 이 웅장한 요새가 자리 잡고 있습니다. 무역로와 침략군이 이곳을 자주 드나듭니다. 여러 왕조가 이 성의 건축에 독특한 요소를 더했으며, 대부분의 공격을 쉽게 막아낼 수 있습니다." # 9231544937055357597
+  building_RICE_kamianets_podilskyi_castle_02: "카미야네츠-포딜스키 성" # 10603885459011718404
+  building_RICE_kamianets_podilskyi_castle_02_desc: "이 인상적인 요새는 포딜리아 지역의 전략적 교차로에 위치해 있습니다. 무역 상인뿐만 아니라 침략군도 이곳을 자주 통과합니다. 연이은 통치자들이 이 성의 건축 양식에 자신만의 고유한 요소를 더했으며, 이 성은 대부분의 공격에 쉽게 버텨낼 수 있습니다." # 9231544937055357597
   building_type_RICE_galicia2_cochineal_industry_01: "코치닐 산업" # 5880941660423677707
-  building_type_RICE_galicia2_cochineal_industry_01_desc: "[Glossary( 'cochineal', 'COCHINEAL_GLOSS' )] 벌레 유충을 채집하는 농장에서 붉은색 염료가 생산됩니다. 이 벌레는 여러 [GetGeographicalRegion('RICE_european_cochineal_region').GetName] 지역에 서식합니다. 이 염료는 국제 시장에서 높은 가격에 거래됩니다." # 2414490316695066093
-  building_RICE_galicia2_cochineal_industry_01: "소규모 콕치닐 재배지" # 4733196566057352557
-  building_RICE_galicia2_cochineal_industry_01_desc: "더욱 체계적으로 식민지에서 [Glossary( 'cochineal', 'COCHINEAL_GLOSS' )]을 채취함으로써, 이 곤충으로부터 생산되는 붉은 염료의 양이 크게 증가합니다." # 17745067516229745140
-  building_RICE_galicia2_cochineal_industry_02: "주요 석류나무 농장들" # 840646253273420644
-  building_RICE_galicia2_cochineal_industry_02_desc: "이 지역의 [Glossary( 'cochineal', 'COCHINEAL_GLOSS' )] 농장들이 운영 규모를 확장함에 따라, 이곳 곤충으로부터 생산되는 붉은 염료가 더 많은 해외 시장으로 판매될 수 있도록 외국 상인들과의 협력이 강화되었습니다." # 12415038190372096974
-  building_RICE_galicia2_cochineal_industry_03: "코치닐 농장 대규모 확장" # 13541584695145859074
-  building_RICE_galicia2_cochineal_industry_03_desc: "이 지역은 유라시아에서 가장 큰 [Glossary( 'cochineal', 'COCHINEAL_GLOSS' )] 농장 중 일부를 보유하고 있습니다.  여기서 벌레에서 추출한 붉은 색소는 많은 국제 시장에서 고가에 거래됩니다." # 9111409798782840015
-  trait_RICE_volga_dnieper_merchant: "볼가-드니에프 상인" # 10410210075505544588
-  trait_RICE_volga_dnieper_merchant_desc: "볼가와 드니프르 강 유역 및 주변 지역의 교역로에서 두각을 나타내는 상인입니다. 그들은 교역, 여행, 협상의 기술을 갖추고 있습니다." # 12765911039099238327
-  trait_RICE_volga_dnieper_merchant_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]은 볼가 강과 드니프로 강 유역 및 그 주변 지역의 교역로를 따라 활발하게 활동하는 중요한 상인입니다. [ROOT.GetCharacter.GetSheHe|U]는 교역, 여행, 협상의 기술을 갖추고 있습니다." # 13526514279813185333
-  trait_RICE_volga_dnieper_merchant_2: "명성 높은 볼가-드니프르 상인" # 4897460972821679192
+  building_type_RICE_galicia2_cochineal_industry_01_desc: "붉은 염료는 다양한 [GetGeographicalRegion('RICE_european_cochineal_region').GetName]에서 발견되는 [Glossary( 'cochineal', 'COCHINEAL_GLOSS' )] 곤충의 유충을 수확하는 농장에서 생산됩니다. 이 염료는 국제 시장에서 고가에 팔립니다." # 2414490316695066093
+  building_RICE_galicia2_cochineal_industry_01: "소규모 코치닐 농장" # 4733196566057352557
+  building_RICE_galicia2_cochineal_industry_01_desc: "[Glossary( 'cochineal', 'COCHINEAL_GLOSS' )]를 농장에서 더 체계적인 방식으로 채집하여, 이 벌레들로부터 생산되는 붉은 염료의 양이 크게 증가합니다." # 17745067516229745140
+  building_RICE_galicia2_cochineal_industry_02: "대규모 코치닐 농장" # 840646253273420644
+  building_RICE_galicia2_cochineal_industry_02_desc: "이 지역의 [Glossary( 'cochineal', 'COCHINEAL_GLOSS' )] 재배지가 운영을 확장함에 따라, 외국 상인들과 더 강한 유대감을 형성했습니다. 이로 인해 이곳 곤충들로부터 생산되는 붉은 염료가 국제적으로 더욱 많은 시장에 판매될 수 있게 되었습니다." # 12415038190372096974
+  building_RICE_galicia2_cochineal_industry_03: "광범위한 코치닐 재배지" # 13541584695145859074
+  building_RICE_galicia2_cochineal_industry_03_desc: "이 지역에는 유라시아에서 가장 큰 규모의 [Glossary( 'cochineal', 'COCHINEAL_GLOSS' )] 재배지가 일부 있습니다. 이곳에서 코치닐 곤충 유충으로 생산되는 붉은 염료는 국제적으로 많은 시장에서 고가에 판매됩니다." # 9111409798782840015
+  trait_RICE_volga_dnieper_merchant: "볼가-드네프르 상인" # 10410210075505544588
+  trait_RICE_volga_dnieper_merchant_desc: "이 인물은 볼가 강 및 드네프르 강 유역과 그 주변 지역 무역로에서 저명한 상인입니다. 그들은 무역, 여행, 협상 기술에 경험이 있습니다." # 12765911039099238327
+  trait_RICE_volga_dnieper_merchant_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]는 볼가 강과 드네프르 강 유역 및 주변 지역의 교역로에서 저명한 상인입니다. [ROOT.GetCharacter.GetSheHe|U]는 교역, 여행, 협상의 기술에 경험이 있습니다." # 13526514279813185333
+  trait_RICE_volga_dnieper_merchant_2: "저명한 볼가-드네프르 상인" # 4897460972821679192
   trait_RICE_volga_dnieper_merchant_2_desc: "$trait_RICE_volga_dnieper_merchant_desc$" # 3749570196166569546
   trait_RICE_volga_dnieper_merchant_2_character_desc: "$trait_RICE_volga_dnieper_merchant_character_desc$" # 17420056511764336909
-  trait_RICE_volga_dnieper_merchant_3: "전설적인 볼가-드니프르 상인" # 8939739610429729707
+  trait_RICE_volga_dnieper_merchant_3: "전설적인 볼가-드네프르 상인" # 8939739610429729707
   trait_RICE_volga_dnieper_merchant_3_desc: "$trait_RICE_volga_dnieper_merchant_desc$" # 3749570196166569546
   trait_RICE_volga_dnieper_merchant_3_character_desc: "$trait_RICE_volga_dnieper_merchant_character_desc$" # 17420056511764336909
   trait_track_RICE_volga_dnieper_merchant: "$trait_RICE_volga_dnieper_merchant$" # 17427398978366641462
-  trait_track_RICE_volga_dnieper_merchant_desc: "동유럽의 강과 숲은 외부인들에게는 혹독하고 불길한 땅으로 비춰지지만, 특히 다양한 사치품을 거래하는 데 있어 세계 각지로 팔 수 있는 많은 기회를 제공합니다." # 5913234579021293291
-  RICE_galicia2_aspiration_roman_desc: "#bold 역사적 야망 주요 목표#!\n$EFFECT_LIST_BULLET$ 갈리치아-볼히니아의 [독립|E] [군주|E]가 되십시오.\n$EFFECT_LIST_BULLET$[완전 장악|E] 할리치, 볼히니아, 그리고 체르벤 시티를 장악하십시오.\n$EFFECT_LIST_BULLET$[신앙도|E]가 [GetModifier( 'piety_level_3' ).GetNameWithTooltip|L] 이상이어야 합니다.\n$EFFECT_LIST_BULLET$[명예도|E]가 [GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L] 이상이어야 합니다.\n$EFFECT_LIST_BULLET$[비잔틴 제국]이 존재해야 합니다.\n$EFFECT_LIST_BULLET$[종교|E]가 [비잔틴 제국]의 [군주|E]와 동일해야 합니다.\n$EFFECT_LIST_BULLET$[비잔틴 제국]과 전쟁 중이 되지 마십시오.\n\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$ @정통성_아이콘! #V [EmptyScope.ScriptValue('medium_legitimacy_gain')]#! [정통성|E]를 얻으십시오.\n$EFFECT_LIST_BULLET$ [외교 스타일|E] [특전|E]를 얻으십시오.\n$EFFECT_LIST_BULLET$ #V 1000#! [특수 부대|E], 몇몇 [병력|E] 포함을 받으십시오.\n$EFFECT_LIST_BULLET$[비잔틴 제국]이 존재한다면, 자격을 갖춘 비잔틴 왕족 또는 귀족 여성과의 [혼인|E]을 얻으십시오.  @정통성_아이콘! [정통성|E] 및 [명예도|E] [명예|E]를 얻을 수 있습니다. (가지고 있는 [배우자|E]와는 이혼해야 할 수도 있습니다.)\n$EFFECT_LIST_BULLET$[비잔틴 제국]이 존재한다면, [비잔틴 제국]의 [군주|E]와 [동맹|E]을 얻으십시오.\n\n\n#bold 역사적 야망 보너스 목표#!\n$EFFECT_LIST_BULLET$ 키예프 [지역|E]를 장악하십시오. (보상: [전투 스타일|E] [특전|E]를 얻으십시오.)\n$EFFECT_LIST_BULLET$[정통성|E] [정통성 수준|E]가 5가 되십시오. (보상: #V 1000#! [특수 부대|E], 몇몇 [병력|E] 포함을 받으십시오.)" # 10905049700840114462
-  RICE_galicia2_historical_aspiration_action_roman: "#italic 루리크 왕조가 서로 다투는 동안, 동유럽에 새로운 권력 중심지를 세우고 루스의 영적 어머니인 [GetTitleByKey('e_byzantium').GetNameNoTier]의 존경을 얻을 기회입니다.#!$RICE_galicia2_aspiration_roman_desc$" # 13734775800234955584
+  trait_track_RICE_volga_dnieper_merchant_desc: "외부인들에게는 혹독하고 불길한 땅으로 보일지라도, 동유럽의 강과 숲은 무역에 다양한 기회를 제공합니다. 특히 전 세계로 팔려 나가는 다양한 사치품 교역에서 그러합니다." # 5913234579021293291
+  RICE_galicia2_aspiration_roman_desc: "\n\n#bold [historical_aspiration_main_objectives|E]#!\n\n$EFFECT_LIST_BULLET$[GetTitleByKey('k_galicia-volhynia').GetNameNoTier]의 [independent|E] [ruler|E]가 되십시오\n\n$EFFECT_LIST_BULLET$[GetTitleByKey('d_halych').GetNameNoTier], [GetTitleByKey('d_volhynia').GetNameNoTier], 와 [GetTitleByKey('d_cherven_cities').GetNameNoTier]을 [completely_control|E]하십시오\n\n$EFFECT_LIST_BULLET$[piety_level|E]을 [GetModifier( 'piety_level_3' ).GetNameWithTooltip|L] 이상으로 유지하십시오\n\n$EFFECT_LIST_BULLET$[prestige_level|E]을 [GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L] 이상으로 유지하십시오\n\n$EFFECT_LIST_BULLET$[GetTitleByKey('e_byzantium').GetNameNoTier]이 여전히 존재해야 합니다\n\n$EFFECT_LIST_BULLET$[GetTitleByKey('e_byzantium').GetNameNoTier]의 [ruler|E]와 같은 [religion|E]이어야 합니다\n\n$EFFECT_LIST_BULLET$[GetTitleByKey('e_byzantium').GetNameNoTier]와 [war|E] 중이지 않아야 합니다\n\n\n#bold 보상#!\n\n$EFFECT_LIST_BULLET$@legitimacy_icon! #V [EmptyScope.ScriptValue('medium_legitimacy_gain')]#! [legitimacy|E] 획득\n\n$EFFECT_LIST_BULLET$[diplomacy_lifestyle|E] [perk|E] 획득\n\n$EFFECT_LIST_BULLET$#V 1000#! [special_troops|E] 획득, 일부 [men_at_arms|E] 포함\n\n$EFFECT_LIST_BULLET$[GetTitleByKey('e_byzantium').GetNameNoTier]이 여전히 존재한다면, 적격한 비잔티움 제국 왕족 또는 귀족 여성과 [marriage|E]를 맺어 추가적인 @legitimacy_icon! [legitimacy|E] 및 [prestige_i|E] [prestige|E] 획득 (현재 [spouse|E]와 [divorce|E]해야 할 수도 있습니다)\n\n$EFFECT_LIST_BULLET$[GetTitleByKey('e_byzantium').GetNameNoTier]이 여전히 존재한다면, 그 [ruler|E]와 [alliance|E] 획득\n\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n\n$EFFECT_LIST_BULLET$[GetTitleByKey('c_kiev').GetNameNoTier]의 [county|E] 통제 (보상: [martial_lifestyle|E] [perk|E] 획득)\n\n$EFFECT_LIST_BULLET$[legitimacy_i|E] [legitimacy_level|E] 5 보유 (보상: #V 1000#! [special_troops|E] 획득, 일부 [men_at_arms|E] 포함)" # 10905049700840114462
+  RICE_galicia2_historical_aspiration_action_roman: "#italic 류리크 가문이 내분으로 다투는 동안, 이는 귀하에게 동유럽에 새로운 세력의 중심지를 세우고 루스의 정신적인 어머니인 [GetTitleByKey('e_byzantium').GetNameNoTier]의 존경을 받을 기회가 됩니다.#$RICE_galicia2_aspiration_roman_desc$" # 13734775800234955584
   RICE_galicia2_historical_aspiration_modifier_desc_roman: "[GetModifier('RICE_galicia2_aspiration_unify_galicia_and_volhynia').GetNameWithTooltip]" # 10140744706858881026
-  RICE_galicia2_aspiration_oleg_desc: "#bold 역사적 야망 주요 목표#!\n$EFFECT_LIST_BULLET$[완전 지배|E]하고 [독립|E] [통치자|E]로서 [GetTitleByKey('d_halych').GetNameNoTier]의 [직책|E]를 획득\n$EFFECT_LIST_BULLET$블라디미르 야로슬라비치(당신의 형제) 사망\n$EFFECT_LIST_BULLET$모든 직접적인 [봉신|E]는 당신에 의해 [위압|E] 또는 [굴복|E]되었거나, 또는 최소 #P 25#!의 [호감도|E]를 가지고 있습니다.\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$ @정당성_아이콘! #V [EmptyScope.ScriptValue('중간_정당성_증가')]#! [정당성|E] 획득\n$EFFECT_LIST_BULLET$ @명성_아이콘! #V [EmptyScope.ScriptValue('RICE_야망_대규모_자원_보너스')]#! [명성|E] 획득\n$EFFECT_LIST_BULLET$[음모 스타일|E] [보너스|E] 획득\n$EFFECT_LIST_BULLET$[GetModifier('RICE_galicia2_oleg_negative_modifier').GetNameWithTooltip] [수정자|E]를 상실하고 그 대신 #P 유익한#! 버전을 획득\n\n#bold 역사적 야망 보너스 목표#!\n$EFFECT_LIST_BULLET$[신앙 수준|E]가 [GetModifier( '신앙_수준_3' ).GetNameWithTooltip|L] 이상인 경우 (보상: [외교 스타일|E] [보너스|E] 획득)\n$EFFECT_LIST_BULLET$[정당성_i|E] [정당성 수준|E]가 5인 경우 (보상: #V 1000#! [특수 부대|E], 몇몇 [병력|E] 포함)" # 10412600993099697353
-  RICE_galicia2_historical_aspiration_action_oleg: "#italic 아버지의 뜻대로 [GetTitleByKey('d_halych').GetNameNoTier]를 물려받더라도, 어머니를 잔혹하게 살해할 뻔했던 권력욕에 눈이 먼 갈리시아의 귀족들을 제어하기 위해 최선을 다해야만 합니다.#!$RICE_galicia2_aspiration_oleg_desc$" # 10290676873608395477
+  RICE_galicia2_aspiration_oleg_desc: "\n\n#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$[completely_control|E]하고 [independent|E] [ruler|E]로서 [GetTitleByKey('d_halych').GetNameNoTier]의 [title|E]를 소유하십시오\n$EFFECT_LIST_BULLET$블라디미르 야로슬라비치(당신의 이복형)가 사망했습니다\n$EFFECT_LIST_BULLET$모든 직속 [vassal|E]이 당신에게 [intimidated|E] 또는 [cowed|E]되었거나, 당신에 대해 최소 #P 25#! [opinion|E]을 가지고 있습니다\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$@legitimacy_icon! #V [EmptyScope.ScriptValue('medium_legitimacy_gain')]#! [legitimacy|E]를 획득합니다\n$EFFECT_LIST_BULLET$@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! [prestige|E]를 획득합니다\n$EFFECT_LIST_BULLET$[intrigue_lifestyle|E] [perk|E]를 획득합니다\n$EFFECT_LIST_BULLET$[GetModifier('RICE_galicia2_oleg_negative_modifier').GetNameWithTooltip] [modifier|E]를 잃고 대신 #P 유익한#! 버전의 효과를 획득합니다\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$[piety_level|E]이 [GetModifier( 'piety_level_3' ).GetNameWithTooltip|L] 이상이어야 합니다 (보상: [diplomacy_lifestyle|E] [perk|E]를 획득합니다)\n$EFFECT_LIST_BULLET$[legitimacy_i|E] [legitimacy_level|E]이 5여야 합니다 (보상: 일부 [men_at_arms|E]를 포함하여 #V 1000#! [special_troops|E]를 받습니다)" # 10412600993099697353
+  RICE_galicia2_historical_aspiration_action_oleg: "#italic 비록 부친께서 바라시는 대로 [GetTitleByKey('d_halych').GetNameNoTier]를 상속받게 되더라도, 심지어 그대 어머니를 잔인하게 살해하기까지 했던 권력에 굶주린 갈리치 보야르들을 억제하기 위해 전력을 다해야 할 것입니다.#!$RICE_galicia2_aspiration_oleg_desc$" # 10290676873608395477
   RICE_galicia2_historical_aspiration_modifier_desc_oleg: "[GetModifier('RICE_galicia2_aspiration_secure_rule_against_galician_boyars').GetNameWithTooltip]" # 1800146312352804861
-  RICE_galicia2_aspiration_unify_galicia_and_volhynia: "$d_할리치$와 $d_볼히니아$를 통일한다." # 13059840594584702645
-  RICE_galicia2_aspiration_unify_galicia_and_volhynia_desc: "#italic 루리크 왕가가 서로 다투는 와중, 로마는 동유럽에 새로운 권력 중심지를 세우고 루스의 영적 어머니, [GetTitleByKey('e_byzantium').GetNameNoTier]의 존경을 얻을 기회입니다.#!$RICE_galicia2_aspiration_roman_desc$\n\n" # 9113500218161753864
-  RICE_galicia2_aspiration_secure_rule_against_galician_boyars: "갈리시아 보야르에 맞서 안정적인 통치를 확립하기" # 4872225182675648767
-  RICE_galicia2_aspiration_secure_rule_against_galician_boyars_desc: "#italic 올레그가 아버지의 뜻대로 [GetTitleByKey('d_halych').GetNameNoTier]를 상속받더라도, 권력욕에 눈이 먼 갈리치아 보야르들을 억제하기 위해 최선을 다해야 합니다. 그들은 심지어 올레그의 어머니를 잔혹하게 살해하기까지 했습니다.#!$RICE_galicia2_aspiration_oleg_desc$" # 13546810679708667222
+  RICE_galicia2_aspiration_unify_galicia_and_volhynia: "[야망|E]: $d_halych$와 $d_volhynia$ 통일" # 13059840594584702645
+  RICE_galicia2_aspiration_unify_galicia_and_volhynia_desc: "#italic 류리크 가문이 서로 다투는 동안, 이는 로만에게 동유럽에 새로운 권력 중심지를 세우고 루스의 정신적 어머니, [GetTitleByKey('e_byzantium').GetNameNoTier]의 존경을 얻을 기회입니다.#!$RICE_galicia2_aspiration_roman_desc$\n\n" # 9113500218161753864
+  RICE_galicia2_aspiration_secure_rule_against_galician_boyars: "[aspiration|E]: 갈리시아 보야르로부터 통치 강화" # 4872225182675648767
+  RICE_galicia2_aspiration_secure_rule_against_galician_boyars_desc: "#italic 올레그의 아버지가 바라듯 올레그가 [GetTitleByKey('d_halych').GetNameNoTier]를 계승한다 할지라도, 그는 권력욕에 눈이 멀어 감히 올레그의 어머니를 잔혹하게 살해했던 갈리시아 보야르들을 통제하기 위해 모든 힘을 쏟아야 할 것입니다.#!$RICE_galicia2_aspiration_oleg_desc$\n\n" # 13546810679708667222
   activity_RICE_galicia2_kupala_night_host_an_a: "$host_activity_a$" # 13713790857143020716
   activity_RICE_galicia2_kupala_night: "쿠팔라 밤" # 12066953711489339553
-  activity_RICE_galicia2_kupala_night_desc: "많은 슬라브 민족에게 여름 지점은 의식적 중요성과 함께 큰 축제의 시기입니다." # 5820702411657889882
-  activity_RICE_galicia2_kupala_night_selection_tooltip: "쿠팔라 밤을 축하합니다.\n\n$activity_RICE_galicia2_kupala_night_context_tooltip$" # 16028862724764629955
-  activity_RICE_galicia2_kupala_night_context_tooltip: "#bold 역사적 배경:# 쿠팔라는 슬라브 민족, 특히 서슬라브와 동슬라브의 전통적인 하지 축제입니다. 중세 시대부터 기록되어 있지만, 기독교 당국에 의해 이교도적인 풍습으로 간주되어 억압하려는 시도가 있었습니다. 이 활동을 통해 묘사되는 쿠팔라 밤은 여러 슬라브 국가의 현대적 관습을 혼합한 것이며, 따라서 중세 시대의 실제 축제를 반영하지 못할 수 있습니다." # 4189645967472471769
-  activity_RICE_galicia2_kupala_night_host_desc: "$BULLET_WITH_TAB$#P 얻음#! [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$잃음 [stress_loss_i|E][stress|E]\n$BULLET_WITH_TAB$#P 유익한#! [character_modifiers|E] 얻을 가능성\n$BULLET_WITH_TAB$소유한 [counties|E]가 #P 유익한#! [county_modifiers|E] 얻을 가능성\n$BULLET_WITH_TAB$비이교 [faith|E]를 따르는 경우 [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName] [doctrine|E] 또는 $tenet_unreformed_syncretism_name$ [core_tenet|E] 없이 #N 잃음#! [piety_i|E][piety|E]" # 10183010209282932546
+  activity_RICE_galicia2_kupala_night_desc: "많은 슬라브 민족들에게 하지는 의식적 중요성과 성대한 축제를 동시에 갖는 시간입니다." # 5820702411657889882
+  activity_RICE_galicia2_kupala_night_selection_tooltip: "쿠팔라 밤을 기념하십시오.\n\n$activity_RICE_galicia2_kupala_night_context_tooltip$" # 16028862724764629955
+  activity_RICE_galicia2_kupala_night_context_tooltip: "#emphasis 역사적 배경:#! 쿠팔라는 슬라브족, 특히 서슬라브족과 동슬라브족의 전통적인 하지 축제입니다. 이는 중세 시대부터 기록되어 왔으나, 기독교 당국에 의해 이교도의 미신적 행위로 간주되어 수세기에 걸쳐 탄압 시도가 있었습니다. 이 활동에서의 쿠팔라 밤 묘사는 여러 슬라브 국가들의 다양한 현대 관습을 느슨하게 혼합한 것에 기반하며, 따라서 중세 시대의 실제 역사적 축제를 그대로 반영하지는 않을 수 있습니다." # 4189645967472471769
+  activity_RICE_galicia2_kupala_night_host_desc: "\n$BULLET_WITH_TAB$#P 획득#! [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$상실 [stress_loss_i|E][stress|E]\n$BULLET_WITH_TAB$#P 유익한#! [character_modifiers|E] 획득 확률\n$BULLET_WITH_TAB$소유한 [counties|E]에 #P 유익한#! [county_modifiers|E] 획득 확률\n$BULLET_WITH_TAB$#N 상실#! [piety_i|E][piety|E] (비이교 [faith|E]를 신봉하고 [GetFaithDoctrine('doctrine_pluralism_pluralistic').GetBaseName] [doctrine|E] 또는 $tenet_unreformed_syncretism_name$ [core_tenet|E]이(가) 없을 시)" # 10183010209282932546
   activity_RICE_galicia2_kupala_night_guest_desc: "$activity_RICE_galicia2_kupala_night_host_desc$" # 17885420860471173808
   activity_RICE_galicia2_kupala_night_destination_selection: "$activity_RICE_galicia2_kupala_night_province_desc$" # 12253416054099677223
   activity_RICE_galicia2_kupala_night_guest_help_text: "$activity_RICE_galicia2_kupala_night$" # 5294242308949805842
-  activity_RICE_galicia2_kupala_night_predicted_cost: "이 [활동|E]의 비용은 주로 귀하의 [소득|E]에 기반합니다." # 10498845032472754788
-  activity_RICE_galicia2_kupala_night_conclusion_desc: "[GetActivityType( 'activity_RICE_galicia2_kupala_night' ).GetName]가 끝나고, 여름이 시작되었습니다!" # 13768435334231853894
+  activity_RICE_galicia2_kupala_night_predicted_cost: "본 [활동|E]의 비용은 주로 [수입|E]에 기반합니다." # 10498845032472754788
+  activity_RICE_galicia2_kupala_night_conclusion_desc: "[GetActivityType( 'activity_RICE_galicia2_kupala_night' ).GetName]이 막을 내렸고, 여름이 시작되었습니다!" # 13768435334231853894
   RICE_galicia2_kupala_night_celebration_phase: "축하" # 8745396489141951886
-  RICE_galicia2_kupala_night_celebration_phase_desc: "여름 지점이 다가왔습니다!" # 14602279756925638466
-  RICE_galicia2_kupala_night_fun_intent_header: "재밌다!" # 14619476848063890036
-  RICE_galicia2_kupala_night_fun_intent: "재밌어" # 488089071180702662
-  RICE_galicia2_kupala_night_fun_intent_desc: "모두와 함께 즐거운 시간을 보내세요.  추가적인 [stress_loss_i|E] [stress|E]를 잃고, [GetTrait('gregarious').GetName( GetNullCharacter )] 또는 [GetTrait('lustful').GetName( GetNullCharacter )]이라면 더욱 많이 잃을 것입니다." # 17047728395089199093
+  RICE_galicia2_kupala_night_celebration_phase_desc: "하지가 왔습니다!" # 14602279756925638466
+  RICE_galicia2_kupala_night_fun_intent_header: "재미:" # 14619476848063890036
+  RICE_galicia2_kupala_night_fun_intent: "재미:" # 488089071180702662
+  RICE_galicia2_kupala_night_fun_intent_desc: "모두와 즐겁게 지내는 데 집중합니다. [stress_loss_i|E] 만큼 추가 [stress|E]를 잃습니다. 만약 당신이 [GetTrait('gregarious').GetName( GetNullCharacter )]이거나 [GetTrait('lustful').GetName( GetNullCharacter )]이라면 더욱 많이 잃습니다." # 17047728395089199093
   RICE_galicia2_kupala_night_lavation_intent_header: "세정:" # 14272183024349148980
-  RICE_galicia2_kupala_night_lavation_intent: "세정" # 12523917171717847128
-  RICE_galicia2_kupala_night_lavation_intent_desc: "의식과 정화에 집중하십시오.  이교도라면 [piety_i|E] [piety|E]를 더 얻고, 그렇지 않다면 [prestige_i|E] [prestige|E]를 더 얻습니다.  근면하거나 [GetTrait('paranoid').GetName( GetNullCharacter )]하신 분이라면 [stress_loss_i|E] [stress|E]를 더 잃으실 겁니다." # 10582629106462876194
+  RICE_galicia2_kupala_night_lavation_intent: "세정:" # 12523917171717847128
+  RICE_galicia2_kupala_night_lavation_intent_desc: "의식과 자신을 정화하는 데 집중합니다. 이교도라면 [piety_i|E]의 [piety|E]를 더 얻거나, 이교도가 아니라면 [prestige_i|E]의 [prestige|E]를 더 얻습니다. [GetTrait('diligent').GetName( GetNullCharacter )]이거나 [GetTrait('paranoid').GetName( GetNullCharacter )]이라면 [stress_loss_i|E]의 [stress|E]를 더 잃습니다." # 10582629106462876194
   RICE_galicia2_kupala_night_herb_gathering_intent_header: "약초 채집:" # 10376595267610260596
-  RICE_galicia2_kupala_night_herb_gathering_intent: "약초 채집" # 11095766843783379184
-  RICE_galicia2_kupala_night_herb_gathering_intent_desc: "식물 채집에 집중합니다.  #P 유익한#! [modifier|E]에 관한 이벤트가 발생하며, [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )] 발견 확률이 증가합니다.  이 이벤트로 인해 일반적으로 얻지 못하는 [prestige_i|E] [prestige|E]를 획득합니다.  [GetTrait('patient').GetName( GetNullCharacter )]이거나 [GetTrait('humble').GetName( GetNullCharacter )]이면 더 많은 [stress_loss_i|E] [stress|E]를 잃습니다." # 12184303285333767004
-  RICE_galicia2_kupala_night_completed_log_title: "$activity_RICE_galicia2_kupala_night$ 행사가 끝났습니다." # 17947155795673305159
+  RICE_galicia2_kupala_night_herb_gathering_intent: "약초 채집:" # 11095766843783379184
+  RICE_galicia2_kupala_night_herb_gathering_intent_desc: "식물을 채집하는 데 집중합니다.\n약초에 관한 이벤트가 반드시 발생하여 #P 유익한#! [modifier|E]를 획득합니다. 또한 [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )]를 찾을 확률이 증가합니다.\n이 이벤트로부터 [prestige_i|E]의 [prestige|E]를 추가로 획득합니다 (일반적으로는 얻지 못합니다).\n[GetTrait('patient').GetName( GetNullCharacter )]이거나 [GetTrait('humble').GetName( GetNullCharacter )]이라면 [stress_loss_i|E]의 [stress|E]를 추가로 잃습니다." # 12184303285333767004
+  RICE_galicia2_kupala_night_completed_log_title: "$activity_RICE_galicia2_kupala_night$ 막을 내립니다" # 17947155795673305159
   RICE_galicia2_kupala_night_completed_log: "[CHARACTER.GetShortUIName|U]가 $activity_RICE_galicia2_kupala_night$ 축제를 마쳤습니다." # 16559671868662343485
-  TRAVEL_NAME_FOR_activity_RICE_galicia2_kupala_night: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_galicia2_kupala_night$" # 3626965680437346391
+  TRAVEL_NAME_FOR_activity_RICE_galicia2_kupala_night: "[Character.GetFirstNamePossessiveNoTooltip] 쿠팔라 밤" # 3626965680437346391
   RICE_galicia2_kupala_night_found_searching_for_herbs_log_title: "식물 채집" # 1586533806845009704
-  RICE_galicia2_kupala_night_found_searching_for_herbs_log: "[CHARACTER.GetShortUIName|U]는 여러 가지 약초, 꽃, 그리고 식물을 모으는 데 시간을 보냈습니다." # 17154155292939370876
-  RICE_galicia2_kupala_night_found_fern_flower_log_title: "금잔화" # 6770888602545538961
-  RICE_galicia2_kupala_night_found_fern_flower_log: "[CHARACTER.GetShortUIName|U]가 전설적인 [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )]를 발견했다고 합니다." # 14490185586535515877
-  RICE_galicia2_kupala_night_amorous_encounter_log_title: "애정 어린 만남" # 15276869061767330040
-  RICE_galicia2_kupala_night_amorous_encounter_log: "[CHARACTER.GetShortUIName|U]가 [lover.GetShortUIName|U]와 함께 오랜 시간 산야를 헤매고 돌아와서 불가에 돌아왔습니다." # 14851230268035981361
+  RICE_galicia2_kupala_night_found_searching_for_herbs_log: "[CHARACTER.GetShortUIName|U]는 다양한 약초, 꽃, 식물을 모으는 데 시간을 보냈습니다." # 17154155292939370876
+  RICE_galicia2_kupala_night_found_fern_flower_log_title: "고사리 꽃" # 6770888602545538961
+  RICE_galicia2_kupala_night_found_fern_flower_log: "[CHARACTER.GetShortUIName|U]께서 전설적인 [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )]을 찾았다고 전해집니다." # 14490185586535515877
+  RICE_galicia2_kupala_night_amorous_encounter_log_title: "밀회" # 15276869061767330040
+  RICE_galicia2_kupala_night_amorous_encounter_log: "[CHARACTER.GetShortUIName|U]는 [lover.GetShortUIName|U]와 함께 야생에서 꽤 오랜 시간을 보낸 후, 모닥불가로 돌아오는 모습이 목격되었습니다." # 14851230268035981361
   RICE_activity_result_kupala_night_county_modifier: "[host.GetTitledFirstNamePossessive] [counties|E] 중 하나 이상이 [GetModifier('RICE_kupala_night_county_modifier').GetNameWithTooltip] [county_modifier|E]를 얻었습니다." # 7710381936778819874
   RICE_galicia2_cochineal_modifier_1: "코치닐 산업 투자 (1단계)" # 10712460051571533677
-  RICE_galicia2_cochineal_modifier_1_desc: "여기서 재배되는 붉은 염료는 [Glossary( 'cochineal', 'COCHINEAL_GLOSS' )] 벌레의 유충으로부터 얻어지며, 수익성 높은 수출품입니다. 지역 통치자들은 이러한 염료의 수확과 수출을 적극 지원하고 있습니다.\n\n#EMP 이 [modifier|E]의 강도는 이 [county|E]의 [duchy|E]가 $building_type_RICE_galicia2_cochineal_industry_01$ [duchy_building|E]를 보유하고 있었는지 여부에 따라 결정됩니다. [decision|E]가 $RICE_galicia2_support_cochineal_industry$일 때입니다.#!" # 3780831540797467340
+  RICE_galicia2_cochineal_modifier_1_desc: "이곳 농장에서 생산되는 붉은 염료는 [Glossary( 'cochineal', 'COCHINEAL_GLOSS' )] 곤충의 유충에서 나오며, 수익성 있는 수출품입니다. 지역 통치자들은 이 염료의 수확과 수출을 지원하기 위해 최선을 다하고 있습니다.\n\n#EMP 이 [modifier|E]의 효과는 이 [county|E]가 속한 [duchy|E]에 $RICE_galicia2_support_cochineal_industry$ [decision|E]이(가) 내려졌을 때 $building_type_RICE_galicia2_cochineal_industry_01$ [duchy_building|E]이(가) 있었는지 여부에 기반합니다.#!" # 3780831540797467340
   RICE_galicia2_cochineal_modifier_2: "코치닐 산업 투자 (2단계)" # 17570879164306880041
   RICE_galicia2_cochineal_modifier_2_desc: "$RICE_galicia2_cochineal_modifier_1_desc$" # 15301538554637055212
   RICE_galicia2_cochineal_modifier_3: "코치닐 산업 투자 (3단계)" # 15818254937645485864
   RICE_galicia2_cochineal_modifier_3_desc: "$RICE_galicia2_cochineal_modifier_1_desc$" # 15301538554637055212
-  RICE_galicia2_cochineal_modifier_4: "코치닐 산업 투자 (4단계)" # 9491679386295125004
+  RICE_galicia2_cochineal_modifier_4: "코치닐 산업 투자 (레벨 4)" # 9491679386295125004
   RICE_galicia2_cochineal_modifier_4_desc: "$RICE_galicia2_cochineal_modifier_1_desc$" # 15301538554637055212
   RICE_galicia2_oleg_negative_modifier: "마녀의 아들" # 11023011964583980220
-  RICE_galicia2_oleg_negative_modifier_desc: "올레그의 어머니, 아나스타시아는 갈리치아의 보야르들에 의해 마녀로 몰려, 갈리치아의 통치자, 팔려는 야로슬라브 8세를 저주했다는 의혹을 받으며 장작더미에 태워졌습니다. 이것이 진실이었는지, 아니면 권력욕에 눈이 멀어 보야르들이 퍼뜨린 선전이었는지는 알 수 없지만, 올레그는 이로 인해 깊은 상처를 입었습니다.\n\n#EMP 이 부정적인 [modifier|E]는 올레그가 [GetModifier('RICE_galicia2_aspiration_secure_rule_against_galician_boyars').GetNameWithTooltip]를 이행하면 제거됩니다.#!" # 12445080804586131264
-  RICE_galicia2_oleg_positive_modifier_1: "마녀의 잔혹한 아들" # 5388573686402096869
-  RICE_galicia2_oleg_positive_modifier_1_desc: "올레그의 어머니, 아나스타시아는 갈리치아의 보야르들에 의해 마녀로 몰려, 갈리치아의 통치자 야로슬라프 팔면왕을 저주했다는 혐의로 장작더미에 태워졌습니다. 올레그는 어두운 과거를 극복하고 존경받는 군주가 되었지만, 어머니의 아들이라는 오명은 떨쳐낼 수 없었고, 많은 이들은 그를 두려워하며 일부는 그가 어머니의 마법 능력을 물려받았다고 의심합니다." # 10633116938712288816
-  RICE_galicia2_oleg_positive_modifier_2: "마녀의 사랑하는 아들" # 16938179087376445172
-  RICE_galicia2_oleg_positive_modifier_2_desc: "올레그의 어머니, 아나스타시아는 갈리치아의 보야르들에 의해 마녀로 몰려, 갈리치아 통치자 야로슬라프 팔심(八心)을 저주했다는 이유로 장작더미에 태워졌습니다. 올레그는 어두운 과거를 딛고 존경받는 군주가 되었지만, 어머니의 아들임을 벗어나지 못한 오명은 여전합니다. 하지만 많은 평민들은 그를 인정받을 만한 지도자, 보야르 귀족들의 힘을 견제할 수 있는 지도자로 보고 있습니다." # 8353686431117120402
-  RICE_galicia2_oleg_positive_modifier_3: "마녀의 학문적인 아들" # 10006448039217718499
-  RICE_galicia2_oleg_positive_modifier_3_desc: "올레그의 어머니, 아나스타샤는 갈리치아의 보야르들에 의해 마녀로 몰려, 갈리치아의 통치자, 야로슬라프 팔심을 저주했다는 의혹으로 화형대에 올랐습니다. 올레그는 어두운 과거를 딛고, 존경받는 군주가 되었습니다. 하지만 어머니의 아들로서의 오명은 씻지 못했지만, 많은 이들이 그가 스스로 이름을 날리기 위해 노력하는 모습을 억지로 칭찬하게 되었습니다." # 6507055066402968005
-  RICE_portage_erect_stones_nonchristian_modifier: "포티지 돌" # 2207386799252360153
-  RICE_portage_erect_stones_nonchristian_modifier_desc: "지역 지배자들이 최근 중요한 무역로변의 운하 통로 근처에 있는, 새로 세워진 또는 개보수된 이동식 돌들을 세웠습니다. 이 돌들은 여행자들이 현재 위치와 목적지를 알 수 있도록 도와줍니다." # 4833514541146927285
-  RICE_portage_erect_stones_christian_modifier: "포티지 교차로" # 16359896932863629467
-  RICE_portage_erect_stones_christian_modifier_desc: "지역 통치자들이 최근 중요한 교역로에 있는 운하 지점 근처에 있는 이동식 돌 십자가를 새로 세우거나, 기존 것을 보수했습니다. 이러한 돌은 여행자들이 어디에 있는지, 어디로 가야 하는지 알 수 있도록 도와줍니다." # 9485604655629881740
-  RICE_portage_levy_boat_builders_modifier: "징수된 배 건조업자들" # 359250223957055185
-  RICE_portage_levy_boat_builders_modifier_desc: "이 인물은 그가 다스리는 영토 내 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역 농민들에게 배를 건조하고 수리하도록 징수를 내렸습니다." # 4007623087254657767
-  RICE_portage_maintain_hauling_sites_modifier: "포티지 운반장 유지" # 11264747252612257484
-  RICE_portage_maintain_hauling_sites_modifier_desc: "이 지역의 운하 항로 시설 개선을 위해 지역 통치자들이 최근 노력을 기울였습니다." # 11005605077816228603
-  RICE_portage_promote_merchants_modifier: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetNameNoTooltip] 지역의 무역 촉진" # 3959935951465226814
-  RICE_portage_promote_merchants_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역의 무역을 지원하기 위한 조치를 취했습니다. 이를 통해 그들의 개인적인 사업 네트워크도 확장하고 있습니다." # 208436591310065916
+  RICE_galicia2_oleg_negative_modifier_desc: "올레그의 어머니 아나스타샤는 갈리치아의 보야르들에게 마녀로 비난받아, 갈리치아의 통치자 '여덟 지혜의' 야로슬라프에게 마법을 걸었다는 이유로 화형당했습니다. 이것이 진실이었든, 권력에 굶주린 보야르들의 정치 선전이었든 간에, 이는 올레그에게 어두운 흔적을 남겼습니다.\n\n\n#EMP 이 부정적인 [modifier|E]는 올레그가 자신의 [GetModifier('RICE_galicia2_aspiration_secure_rule_against_galician_boyars').GetNameWithTooltip]를 달성하면 제거될 것입니다.#!" # 12445080804586131264
+  RICE_galicia2_oleg_positive_modifier_1: "마녀의 냉혹한 아들" # 5388573686402096869
+  RICE_galicia2_oleg_positive_modifier_1_desc: "올레그의 어머니 아나스타샤는 갈리치아의 보야르들에 의해 마녀라는 혐의로 고발당했고, 갈리치아의 통치자 야로슬라프 팔지공을 자신의 주술 아래 두었다는 이유로 화형당했습니다. 올레그는 자신의 어두운 배경을 극복하고 존경받는 통치자가 되었습니다; 어머니의 아들이라는 낙인에서 완전히 벗어나지는 못했지만, 많은 이들이 그를 두려워하며 심지어 몇몇은 그가 어머니의 소문난 주술적 힘을 이어받았다고 의심합니다.#!" # 10633116938712288816
+  RICE_galicia2_oleg_positive_modifier_2: "마녀의 총애하는 아들" # 16938179087376445172
+  RICE_galicia2_oleg_positive_modifier_2_desc: "올레그의 어머니 아나스타시아는 갈리시아의 보야르들에 의해 마녀로 몰려, 갈리시아의 통치자인 8지능 야로슬라프에게 마법을 걸었다는 혐의로 화형당했습니다. 올레그는 자신의 어두운 과거를 극복하고 존경받는 통치자가 되었습니다. 그는 어머니의 아들이라는 낙인에서 완전히 벗어나진 못했지만, 많은 평민들은 그를 호감 가는 지도자로 보고 있으며, 보야르 귀족들의 권력을 견제할 수 있을 것이라 여깁니다.#!" # 8353686431117120402
+  RICE_galicia2_oleg_positive_modifier_3: "마녀의 학구적인 아들" # 10006448039217718499
+  RICE_galicia2_oleg_positive_modifier_3_desc: "올레그의 어머니 아나스타샤는 갈리치아의 보야르들에게 마녀라고 고발당해, 갈리치아의 통치자 여덟 지혜의 야로슬라프를 마법에 걸리게 했다는 죄목으로 화형에 처해졌습니다. 올레그는 자신의 어두운 배경을 극복하고 존경받는 통치자가 되었습니다. 어머니의 아들이라는 낙인에서 완전히 벗어나지는 못했지만, 스스로 명성을 쌓기 위해 열심히 노력했기 때문에 많은 이들이 마지못해 그를 존경하게 되었습니다." # 6507055066402968005
+  RICE_portage_erect_stones_nonchristian_modifier: "운반석" # 2207386799252360153
+  RICE_portage_erect_stones_nonchristian_modifier_desc: "이곳에서, 지역 통치자들이 최근에 새로운 이동석을 세우거나 기존의 것을 보수했습니다. 특히 중요한 교역로를 따라 있는 포티지 지점 근처에 위치한 것들입니다. 이 돌들은 여행자들이 자신들이 어디에 있고 어디로 가는지 알 수 있도록 돕습니다." # 4833514541146927285
+  RICE_portage_erect_stones_christian_modifier: "포티지 십자가들" # 16359896932863629467
+  RICE_portage_erect_stones_christian_modifier_desc: "이곳에서 지역 통치자들은 최근 새로운 여행용 돌 십자가를 세웠거나 기존의 것을 보수했습니다. 특히 중요한 무역로를 따라 배를 옮기는 장소 근처에 위치한 것들을 주로 보수했습니다. 이 돌들은 여행자들이 자신이 어디에 있는지, 어디로 향하는지 알도록 돕습니다." # 9485604655629881740
+  RICE_portage_levy_boat_builders_modifier: "징집 조선공" # 359250223957055185
+  RICE_portage_levy_boat_builders_modifier_desc: "이 인물은 자신이 통치하는 영토, [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에 있는 농민들을 징집하여 자신을 위한 배를 건조하고 수리하게 했습니다." # 4007623087254657767
+  RICE_portage_maintain_hauling_sites_modifier: "육상 운반 지점 관리됨" # 11264747252612257484
+  RICE_portage_maintain_hauling_sites_modifier_desc: "지역 통치자들이 최근 이 지역의 운송로 기반 시설 개선에 착수했습니다." # 11005605077816228603
+  RICE_portage_promote_merchants_modifier: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetNameNoTooltip] 교역 증진" # 3959935951465226814
+  RICE_portage_promote_merchants_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역의 무역을 지원하기 위한 조치를 취했으며, 이를 통해 자신의 사적인 사업망도 확장하고 있습니다." # 208436591310065916
   RICE_portage_reinforce_river_forts_modifier: "강화된 강변 요새" # 4921774037027255266
-  RICE_portage_reinforce_river_forts_modifier_desc: "최근 지역 통치자들이 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역의 교역로에 중요한 요새들을 중심으로 기존의 요새들을 보강하고 수리하며, 새로운 요새들을 건설했습니다." # 14269856935084000545
-  RICE_portage_encourage_settlement_modifier: "개척 장려" # 16112071962804845904
-  RICE_portage_encourage_settlement_modifier_desc: "최근, 먼 곳에서 이주민들이 와서 새로운 정착지를 건설하거나 기존 정착지의 인구를 늘리고 있습니다. 이러한 정착지는 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]의 상업망에 속하며, 많은 정착지가 중요한 운하 이동로에 있습니다." # 5557786584963626152
-  RICE_volga_dnieper_trade_amber_modifier: "볼가-드니프르 무역: 호박" # 6807492124293385411
-  RICE_volga_dnieper_trade_amber_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에서 호박 무역을 지원하고 있습니다. 이 귀중한 물질은 주로 발트해 지역에서 채취되며, 보석과 약으로 모두 사용됩니다." # 5464663198713927387
-  RICE_volga_dnieper_trade_honey_modifier: "볼가-드니프르 무역로: 꿀과 밀랍" # 5885960551750723435
-  RICE_volga_dnieper_trade_honey_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에서 꿀과 밀랍 무역을 적극 지지하고 있습니다. 동유럽 강변 지역에서 벌꿀 제품은 중요한 수출품입니다." # 8192246304009030802
-  RICE_volga_dnieper_trade_slaves_modifier: "볼가-드니프르 무역: 노예" # 16989858928348314786
-  RICE_volga_dnieper_trade_slaves_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역의 노예 무역을 지원하고 있습니다. 북유럽과 동유럽, 서부 스텝 지역에서 약탈한 사람들은 유라시아 노예 시장에서 종종 노예로 팔립니다." # 8954213750045115736
-  RICE_volga_dnieper_trade_furs_modifier: "볼가-드니프르 무역: 모피" # 292542588184347962
-  RICE_volga_dnieper_trade_furs_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역의 모피 무역을 지원하고 있습니다. 이 모피들은 대부분 북유럽 원산의 다양한 동물들로부터 나옵니다. 그들은 추운 날씨에 살아남기 위해 두꺼운 털을 가지고 있습니다." # 17797604525946303975
-  RICE_volga_dnieper_trade_weapons_modifier: "볼가-드니프로 무역: 무기" # 12082426450626261647
-  RICE_volga_dnieper_trade_weapons_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역의 무기 무역을 지원하고 있습니다.  정교하게 만들어진 철제 무기의 흐름은 이 무역로를 따라 양방향으로 흘러가지만, 많은 수가 스칸디나비아에서 유래합니다." # 6768306566021396881
-  RICE_volga_dnieper_trade_ivory_modifier: "볼가-드니프르 무역: 바다코끼리 상아" # 18024160957877476493
-  RICE_volga_dnieper_trade_ivory_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역의 해마 뿔 무역을 적극적으로 지원하고 있습니다. 대부분의 해마 뿔은 [greenland|E]에서 공급되지만, 북해에서도 일부 해마 뿔이 나옵니다." # 12714109402253096326
-  RICE_volga_dnieper_trade_textiles_modifier: "볼가-드니에프르 무역: 직물" # 7922840358262747697
-  RICE_volga_dnieper_trade_textiles_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역의 직물 무역을 적극적으로 지원하고 있습니다.  직물에는 아마와 양모가 포함되지만, 가장 수익성이 높은 직물은 지중해, 중동, 그리고 중국 각지에서 생산되는 실크입니다." # 5406490033304883632
-  RICE_volga_dnieper_trade_coins_modifier: "볼가-드니프르 무역: 금화" # 3748736394372817723
-  RICE_volga_dnieper_trade_coins_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역의 은과 금화 무역을 적극적으로 지원하고 있습니다.  고향에서 멀리 떨어져 있지만, 은 디르함과 같은 화폐는 현지 경제에서 널리 유통되고 있습니다." # 7450197842102489611
-  RICE_volga_dnieper_trade_spices_modifier: "볼가-드니프르 무역: 향신료" # 6234264574811389131
-  RICE_volga_dnieper_trade_spices_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역의 향신료 무역을 적극 지지하고 있습니다. 시장에 나오는 다양한 향신료들은 온 세상에서 모여들며, 누구나 이 무역이 수지 맞는 사업임을 알고 있습니다." # 77525023553850322
-  RICE_volga_dnieper_trade_wines_modifier: "볼가-드니프르 무역: 포도주" # 8264981788320519877
-  RICE_volga_dnieper_trade_wines_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역의 포도주 무역을 적극적으로 지원하고 있습니다. 지중해 지역에서 생산된 포도주는 북유럽, 특히 귀족 계층에서 큰 인기를 얻고 있습니다." # 9518181295183812745
-  RICE_volga_dnieper_trade_art_modifier: "볼가-드니프로 무역: 예술" # 18001248071500295332
-  RICE_volga_dnieper_trade_art_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역의 예술품 교역을 적극적으로 지원하고 있습니다. 비잔티움의 종교적인 상징물과 조각품, 중동과 동아시아의 화려한 장식품인 도자기 등 예술품은 그 소유자들에게는 교양과 부유함을 상징합니다." # 18034290589733194552
-  RICE_galicia2_found_fern_flower: "이끼꽃을 발견했습니다." # 8001935999317987796
-  RICE_galicia2_found_fern_flower_desc: "이 인물은 슬라브 전통의 하지절기인 쿠팔라 밤에 [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )]을 발견했다고 알려져 있으며, 그 결과 기적적인 능력을 얻었다고 합니다." # 2254028278309418369
-  RICE_kupala_night_herbs_modifier: "쿠팔라 밤에 채집한 약초들" # 12250667502062321092
+  RICE_portage_reinforce_river_forts_modifier_desc: "지역 통치자들이 최근 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역 내에서, 특히 무역에 필수적인 전략적 요충지를 따라 기존 요새들을 강화하고 보수했으며, 새로운 요새들을 건설했습니다." # 14269856935084000545
+  RICE_portage_encourage_settlement_modifier: "정착 장려" # 16112071962804845904
+  RICE_portage_encourage_settlement_modifier_desc: "요근래, 외지에서 온 이주민들이 새로운 정착지를 개척하거나 기존 정착지의 인구를 늘리고 있습니다. 이 정착지들은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]의 상업망에 속해 있으며, 그중 상당수는 중요한 포르타지 경로에 있습니다." # 5557786584963626152
+  RICE_volga_dnieper_trade_amber_modifier: "볼가-드네프르 무역: 호박" # 6807492124293385411
+  RICE_volga_dnieper_trade_amber_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에서 호박 무역을 지원하고 있습니다. 이 귀중한 물질은 주로 발트 지역에서 채취되며, 장신구와 의약품 모두에 사용됩니다." # 5464663198713927387
+  RICE_volga_dnieper_trade_honey_modifier: "볼가-드네프르 무역: 꿀과 밀랍" # 5885960551750723435
+  RICE_volga_dnieper_trade_honey_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에서 꿀과 밀랍 교역을 지원하고 있습니다. 벌꿀 제품은 동유럽 강변 지역의 중요한 수출품입니다." # 8192246304009030802
+  RICE_volga_dnieper_trade_slaves_modifier: "볼가-드네프르 무역: 노예" # 16989858928348314786
+  RICE_volga_dnieper_trade_slaves_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에서 노예 무역을 지원하고 있습니다. 북유럽과 동유럽, 그리고 서부 스텝 전역에서 습격으로 붙잡힌 이들은 유라시아 노예 시장에서 종종 노예로 팔립니다." # 8954213750045115736
+  RICE_volga_dnieper_trade_furs_modifier: "볼가-드네프르 무역: 모피" # 292542588184347962
+  RICE_volga_dnieper_trade_furs_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에서 모피 교역을 지원하고 있습니다. 이 모피 대부분은 북유럽 토착 동물에게서 얻은 것으로, 그들은 추운 환경에서 살아남기 위해 두꺼운 모피를 가지고 있습니다." # 17797604525946303975
+  RICE_volga_dnieper_trade_weapons_modifier: "볼가-드네프르 무역: 무기" # 12082426450626261647
+  RICE_volga_dnieper_trade_weapons_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에서 무기 무역을 지원하고 있습니다. 정교하게 가공된 철제 무기의 흐름은 이 무역로를 따라 양방향으로 오가지만, 많은 것들이 스칸디나비아에서 옵니다." # 6768306566021396881
+  RICE_volga_dnieper_trade_ivory_modifier: "볼가-드네프르 교역: 바다코끼리 상아" # 18024160957877476493
+  RICE_volga_dnieper_trade_ivory_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역에서 해마 상아 무역을 지원하고 있습니다. 상아의 대부분은 [greenland|E]에서 오지만, 북해 또한 이 상아의 부차적인 공급원입니다." # 12714109402253096326
+  RICE_volga_dnieper_trade_textiles_modifier: "볼가-드네프르 무역: 직물" # 7922840358262747697
+  RICE_volga_dnieper_trade_textiles_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역의 직물 무역을 지지하고 있습니다. 그러한 직물에는 아마포와 양모가 포함되지만, 가장 수익성이 좋은 종류는 지중해, 중동, 중국의 여러 지역에서 생산되는 비단입니다." # 5406490033304883632
+  RICE_volga_dnieper_trade_coins_modifier: "볼가-드네프르 무역: 주화" # 3748736394372817723
+  RICE_volga_dnieper_trade_coins_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역에서 은화와 금화 무역을 지원하고 있습니다. 본토에서 멀리 떨어져 있음에도 불구하고, 은 디르함 같은 이 화폐들은 지역 경제에서 광범위하게 유통되고 있습니다." # 7450197842102489611
+  RICE_volga_dnieper_trade_spices_modifier: "볼가-드네프르 무역: 향신료" # 6234264574811389131
+  RICE_volga_dnieper_trade_spices_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에서 향신료 무역을 지원하고 있습니다. 시장에 나와 있는 수많은 향신료들은 세계 각지에서 오며, 모두가 그것이 수익성 높은 무역임을 알고 있습니다." # 77525023553850322
+  RICE_volga_dnieper_trade_wines_modifier: "볼가-드네프르 무역: 포도주" # 8264981788320519877
+  RICE_volga_dnieper_trade_wines_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에서 와인 무역을 지원하고 있습니다. 지중해 지역에서 생산된 와인은 북유럽 등 많은 곳에서, 특히 엘리트 계층 사이에서 수요가 높습니다." # 9518181295183812745
+  RICE_volga_dnieper_trade_art_modifier: "볼가-드네프르 교역: 예술" # 18001248071500295332
+  RICE_volga_dnieper_trade_art_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에서의 미술품 무역을 후원하고 있습니다. 비잔티움에서 온 종교 성상과 조각, 또는 중동과 동아시아에서 온 자기와 같은 정교한 장식품 등, 그러한 미술품은 그것을 감당할 수 있는 자들에게는 교양과 부유함의 상징입니다." # 18034290589733194552
+  RICE_galicia2_found_fern_flower: "고사리 꽃을 찾았다" # 8001935999317987796
+  RICE_galicia2_found_fern_flower_desc: "전통적인 슬라브 하지 축제인 쿠팔라 밤에 [Glossary( '고사리꽃', 'FERN_FLOWER_GLOSS' )]을(를) 찾았다고 전해지는 이 인물은, 그 결과로 기적적인 힘을 얻었다고 합니다." # 2254028278309418369
+  RICE_kupala_night_herbs_modifier: "쿠팔라의 밤 약초 채집" # 12250667502062321092
   RICE_kupala_night_county_modifier: "성공적인 쿠팔라 축제" # 2888386094779276185
-  RICE_rus_founder_modifier: "위대한 $russian$족장" # 4086386731937573826
-  RICE_rus_founder_modifier_desc: "이 인물은 동유럽에서 $러시아$ 민족의 부상에 중요한 역할을 수행했습니다." # 18073059051071302740
-  RICE_galicia2_cremation_crackdown: "이교도 화장 풍습에 대한 단속" # 15145406107534540937
-  RICE_galicia2_cremation_continued: "이교도 화장 관습에 대한 관용" # 16478990263008831364
-  RICE_galicia2_cochineal_explainer: "코치닐 무역에 대한 지식" # 4634475453519977051
-  RICE_galicia2_suspicious_of_cochineal_merchants: "코치닐 상인들에 대한 의심스러운 점" # 8941942623072827863
-  RICE_galicia2_galicia_volhynia_architecture_modifier: "갈리시아-볼히니아 건축의 번영" # 4421232645745052728
-  bhakti_slavic_perun: "영광스러운 페룬" # 6762240640402362246
-  bhakti_slavic_perun_desc: "이 군주는 폭풍, 번개, 금속 무기를 다스리는 최고 신 페룬에게 우상을 세웠습니다." # 1819780896204985874
-  bhakti_slavic_veles: "존경하는 벨레스" # 9174065213393324713
-  bhakti_slavic_veles_desc: "이 통치자는 물의 지하 세계와 소, 시, 마법의 신인 벨레스에게 우상을 세웠습니다." # 12574640005562270936
-  bhakti_slavic_stribog: "존경하는 스트리보그" # 12773798213726447259
-  bhakti_slavic_stribog_desc: "이 통치자는 바람의 부(富)를 가져다주는 신, 스트리보그에게 신상을 세웠습니다." # 6362491308297103930
-  bhakti_slavic_mokosh: "존경하는 모코쉬" # 8096541810159246327
-  bhakti_slavic_mokosh_desc: "이 군주는 여성의 어머니이자 수호자, 그리고 직조, 양, 그리고 출산의 여신인 모코쉬에게 우상을 세웠습니다." # 3839836700021870753
-  bhakti_slavic_simargl: "존경하는 시마르글" # 11205295606033418405
-  bhakti_slavic_simargl_desc: "이 군주는 하늘과 땅 사이의 중재자이자 씨앗, 싹, 인간을 보호하는 날개 달린 개, 시마르글에게 제단을 세웠습니다." # 13286746959226653731
-  bhakti_slavic_khors_dazhbog: "존경하는 혹스 다즈보그" # 7207769095573896632
-  bhakti_slavic_khors_dazhbog_desc: "이 군주는 태양과 달, 풍요와 선한 신인 혹스와 다즈보그에게 신상을 세웠습니다." # 1349058438909190677
-  RICE_galicia2_support_cochineal_industry: "편홍 산업 지원" # 8124229269787158471
-  RICE_galicia2_support_cochineal_industry_tooltip: "[Glossary( 'cochineal', 'COCHINEAL_GLOSS' )]는 수익성 있는 수출품입니다!" # 4852858808180028240
-  RICE_galicia2_support_cochineal_industry_desc: "우리 영토 일부가 [GetGeographicalRegion('RICE_european_cochineal_region').GetName] 지역에 있습니다. [Glossary( 'cochineal', 'COCHINEAL_GLOSS' )] 벌레가 만드는 붉은색 염료는 전 세계에 거래되는 매우 수익성 높은 상품입니다. 이 산업을 지원한다면 상인들은 이 염료를 광범위하게 대량으로 수출할 수 있을 것입니다." # 15110287889864576461
-  RICE_galicia2_support_cochineal_industry_effect_tooltip_1: "이 [modifier|E]의 강도는 $building_type_RICE_galicia2_cochineal_industry_01$ [duchy_building|E]가 있는 [duchy|E]의 [counties|e]에서 증가합니다." # 9256470845379932356
-  RICE_galicia2_support_cochineal_industry_confirm: "이러한 버그는 우리에게 많은 부를 가져다줍니다!" # 8059623622350515281
-  RICE_galicia2_support_cochineal_industry_context_tooltip: "#bold 역사적 배경:#! 폴란드 코치닐 (#italic Porphyrophora polonica#!)과 아르메니아 코치닐 (#italic Porphyrophora hamelii#!)은 동유럽과 아르메니아 고원 일대에 자생하는 곤충 종으로, 그 애벌레는 수세기 동안 붉은 색 염료를 생산하는 데 사용되어 왔습니다. 이 붉은 염료는 희귀하고 매우 귀하게 여겨지는 사치품이었으며, 한때 폴란드-리투아니아 연방의 주요 수출품 중 하나가 되었습니다. 그러나 1500년대에 미국 코치닐 (#italic Dactylopius coccus#!)에서 얻은 붉은 염료로 대체될 때까지 그러했습니다." # 3771986205353183
-  RICE_develop_portage_routes: "볼가와 드네프르 무역로를 개발합니다." # 11903606669654894711
-  RICE_develop_portage_routes_tooltip: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]의 무역로를 개선합니다." # 10148390543576175673
-  RICE_develop_portage_routes_desc: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]를 통해 오랫동안 무역이 흘러왔습니다. 그 영향력을 무시하는 어리석은 [ruler|E]는 없을 것입니다. 제 영토 내 무역로를 따라 무역을 장려하기 위해 자원을 할애해야 합니다." # 12715003503474641548
-  RICE_develop_portage_routes_effect_tooltip_1: "xxxxxxxxxxxxxxxxxxxxxxxxx" # 13883167292712443334
-  RICE_develop_portage_routes_confirm: "무역이 이곳을 통해 흘러들 것입니다!" # 14221501999622773885
-  RICE_develop_portage_routes_context_tooltip: "#bold 역사적 배경:#! 중세 동유럽의 역사에서 무역은 중요한 역할을 수행했습니다. 이 지역을 가로지르는 무역로는 때때로 바랑인에서 그리스인으로 가는 길로 알려져 있지만, 이 길은 종종 여러 민족과 지역을 포함하여 유럽 일부 지역을 유라시아 초원, 비잔티움, 중동과 연결했습니다. 이러한 무역로의 주목할 만한 특징은 운하 이동, 즉 여행 중에 배를 육로로 운송하는 광범위한 사용이었습니다." # 9469653463620617154
+  RICE_rus_founder_modifier: "위대한 $russian$ 수장" # 4086386731937573826
+  RICE_rus_founder_modifier_desc: "이 인물은 동유럽에서 $russian$ 민족의 부흥에 주요한 역할을 했습니다." # 18073059051071302740
+  RICE_galicia2_cremation_crackdown: "이교도 화장 풍습 단속" # 15145406107534540937
+  RICE_galicia2_cremation_continued: "이교도 화장 풍습 용인" # 16478990263008831364
+  RICE_galicia2_cochineal_explainer: "코치닐 무역의 지식" # 4634475453519977051
+  RICE_galicia2_suspicious_of_cochineal_merchants: "코치닐 상인 의심" # 8941942623072827863
+  RICE_galicia2_galicia_volhynia_architecture_modifier: "갈리치아-볼히니아 건축의 융성" # 4421232645745052728
+  bhakti_slavic_perun: "존경받는 페룬" # 6762240640402362246
+  bhakti_slavic_perun_desc: "이 통치자는 최고신이자 폭풍우, 천둥, 그리고 금속 무기의 권능을 다스리는 페룬에게 우상을 세웠다." # 1819780896204985874
+  bhakti_slavic_veles: "존경하옵는 벨레스" # 9174065213393324713
+  bhakti_slavic_veles_desc: "이 통치자는 수중 저승의 지배자이며 가축, 시, 그리고 마법의 신인 벨레스에게 우상을 세웠습니다." # 12574640005562270936
+  bhakti_slavic_stribog: "존경받는 스트리보그" # 12773798213726447259
+  bhakti_slavic_stribog_desc: "이 군주는 부를 퍼뜨리는 바람의 신 스트리보그에게 바치는 신상을 세웠습니다." # 6362491308297103930
+  bhakti_slavic_mokosh: "존경하는 모코쉬시여" # 8096541810159246327
+  bhakti_slavic_mokosh_desc: "이 통치자는 여성의 수호자이자 직조, 양, 출산의 여신인 어머니 모코시에게 우상을 세웠습니다." # 3839836700021870753
+  bhakti_slavic_simargl: "공경하는 시마르글" # 11205295606033418405
+  bhakti_slavic_simargl_desc: "이 통치자는 날개 달린 개이자 천상과 지상 사이의 중재자이며 씨앗, 새싹, 인간의 수호자인 시마르글에게 우상을 세웠습니다." # 13286746959226653731
+  bhakti_slavic_khors_dazhbog: "존경하는 호르스 다주보그" # 7207769095573896632
+  bhakti_slavic_khors_dazhbog_desc: "이 통치자는 태양과 달, 풍요와 선함의 신 코르스와 다지보그에게 우상을 세웠습니다." # 1349058438909190677
+  RICE_galicia2_support_cochineal_industry: "코치닐 산업 지원" # 8124229269787158471
+  RICE_galicia2_support_cochineal_industry_tooltip: "[Glossary( 'cochineal', 'COCHINEAL_GLOSS' )] 수익성 있는 수출품입니다!" # 4852858808180028240
+  RICE_galicia2_support_cochineal_industry_desc: "우리 영토 일부가 [GetGeographicalRegion('RICE_european_cochineal_region').GetName] 지역에 위치해 있습니다. [Glossary( 'cochineal', 'COCHINEAL_GLOSS' )] 곤충에서 생산되는 붉은 염료는 전 세계에서 판매되는 매우 수익성 높은 상품입니다. 우리가 이 산업을 지원하면 상인들이 이 염료를 대량으로 멀리까지 계속 수출할 수 있습니다." # 15110287889864576461
+  RICE_galicia2_support_cochineal_industry_effect_tooltip_1: "$building_type_RICE_galicia2_cochineal_industry_01$ [duchy_building|E]이(가) 있는 [duchy|E] 내 [counties|e]에 적용될 때, 이 [modifier|E]의 위력이 증가합니다." # 9256470845379932356
+  RICE_galicia2_support_cochineal_industry_confirm: "이것들이 우리에게 많은 부를 안겨주는군!" # 8059623622350515281
+  RICE_galicia2_support_cochineal_industry_context_tooltip: "#emphasis 역사적 배경:#! 폴란드 코치닐(#italic Porphyrophora polonica#!)과 아르메니아 코치닐(#italic Porphyrophora hamelii#!)은 두 종의 곤충으로, 각각 동유럽 일부와 아르메니아 고원 지대에 서식합니다. 이 곤충들의 유충은 수 세기 동안 붉은 염료를 생산하는 데 사용되었습니다. 이 붉은 염료는 희귀하고 수요가 높은 사치품이었으며, 한때 폴란드-리투아니아 연방의 주요 수출품 중 하나가 되었습니다. 1500년대에 아메리카 코치닐(#italic Dactylopius coccus#!)로 만든 붉은 염료로 대체되기 전까지 말입니다." # 3771986205353183
+  RICE_develop_portage_routes: "볼가와 드네프르 무역로 개발" # 11903606669654894711
+  RICE_develop_portage_routes_tooltip: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]의 무역로를 개선한다" # 10148390543576175673
+  RICE_develop_portage_routes_desc: "무역이 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]를 통해 수년 동안 흘렀으며, 어리석은 [ruler|E]만이 그것이 자신의 [realm|E] 경제에 미치는 영향을 무시할 것입니다. 나는 이 무역로를 따라 내 영토에서 무역을 장려하기 위해 자원을 투입해야 합니다." # 12715003503474641548
+  RICE_develop_portage_routes_effect_tooltip_1: "엑스엑스엑스엑스엑스엑스엑스엑스엑스엑스엑스엑스엑스엑스엑스엑스엑스엑스엑스엑스엑스엑스엑스엑스" # 13883167292712443334
+  RICE_develop_portage_routes_confirm: "무역이 이곳으로 흐를 것입니다!" # 14221501999622773885
+  RICE_develop_portage_routes_context_tooltip: "#emphasis 역사적 배경:#! 중세 동유럽 역사에서 무역은 중요한 역할을 했습니다. 이 지역을 지나는 무역로는 종종 '바랑인에게서 그리스인으로 가는 길'로 알려져 왔지만, 실제로는 다양한 민족과 지역이 연관되어 있었으며, 유럽 일부와 유라시아 스텝 지역, 비잔티움, 중동을 연결했습니다. 이 무역로의 주목할 만한 특징 중 하나는 포르타주, 즉 여행 중 배를 육지로 옮기는 것이 광범위하게 사용되었다는 점입니다." # 9469653463620617154
   RICE_PORTAGE_PICK_ACTION_TYPE: "$RICE_develop_portage_routes_confirm$" # 8938548232919237889
-  RICE_portage_erect_stones_nonchristian_name: "포장석을 세우다" # 16625037420290980532
+  RICE_portage_erect_stones_nonchristian_name: "포티지 표지석 설치" # 16625037420290980532
   RICE_portage_erect_stones_nonchristian_desc: "$RICE_portage_erect_stones_nonchristian_name$" # 17364188936746971336
-  RICE_portage_erect_stones_nonchristian_tooltip: "@gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_portage_decision_low_cost')|0]!#!#!\n#italic 표시된 돌들이 이러한 무역로를 따라 여행자들이 길을 찾도록 돕습니다.#!" # 4653319341211243174
+  RICE_portage_erect_stones_nonchristian_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_portage_decision_low_cost')|0]#!#!\n\n#italic 표식된 돌들은 여행자들이 이 교역로를 탐색하는 데 도움을 줍니다.#!" # 4653319341211243174
   RICE_portage_erect_stones_nonchristian_effect_tooltip_1: "xxxxx" # 1951045980481827005
-  RICE_portage_erect_stones_christian_name: "포티지 십자가를 세우다" # 16790656543844630025
+  RICE_portage_erect_stones_christian_name: "포티지 십자가 세우기" # 16790656543844630025
   RICE_portage_erect_stones_christian_desc: "$RICE_portage_erect_stones_christian_name$" # 858093087763044588
-  RICE_portage_erect_stones_christian_tooltip: "금 @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_portage_decision_low_cost')|0]#!#!\n#italic 상인들이 이 무역로를 안전하게 이용할 수 있도록 표시가 되어 있습니다.#" # 1826407233324317051
+  RICE_portage_erect_stones_christian_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_portage_decision_low_cost')|0]#!#!\n\n#italic 표시된 십자가는 여행자들이 이 무역로를 따라 이동하는 데 도움이 됩니다.#!" # 1826407233324317051
   RICE_portage_erect_stones_christian_effect_tooltip_1: "xxxxx" # 1951045980481827005
-  RICE_portage_levy_boat_builders_name: "징집 선박 건조업자" # 3683504008280283865
+  RICE_portage_levy_boat_builders_name: "조선공 소집" # 3683504008280283865
   RICE_portage_levy_boat_builders_desc: "$RICE_portage_levy_boat_builders_name$" # 6917423932926636889
-  RICE_portage_levy_boat_builders_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_portage_decision_low_cost')|0]!#!#!\n\n#italic 토착 농민들에게 강과 바다를 항해할 배를 지어달라고 요청할 권리가 있습니다.#!" # 14046103808446701581
+  RICE_portage_levy_boat_builders_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_portage_decision_low_cost')|0]#!#!\n\n#italic 우리가 강과 바다를 건너야 할 때, 지역 농민들에게 필요한 배를 만들라고 요구하는 것은 우리의 권리입니다.#!" # 14046103808446701581
   RICE_portage_levy_boat_builders_effect_tooltip_1: "xxxxx" # 1951045980481827005
-  RICE_portage_maintain_hauling_sites_name: "운송 지점 유지" # 6106889493149708025
+  RICE_portage_maintain_hauling_sites_name: "채취/수송 거점 유지" # 6106889493149708025
   RICE_portage_maintain_hauling_sites_desc: "$RICE_portage_maintain_hauling_sites_name$" # 11838366296913728862
-  RICE_portage_maintain_hauling_sites_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_portage_decision_medium_cost')|0]#!#!\n\n#italic 운하 지역의 수송 거점 질을 개선하면 모든 사람의 이동이 더욱 용이해질 것입니다.#!" # 15658325181756393984
+  RICE_portage_maintain_hauling_sites_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_portage_decision_medium_cost')|0]#!#!\n\n#italic 운반로를 따라 현지 운반 시설의 품질을 개선하면 모든 사람의 여행이 더 쉬워질 것입니다.#!" # 15658325181756393984
   RICE_portage_maintain_hauling_sites_effect_tooltip_1: "xxxxx" # 1951045980481827005
-  RICE_portage_reinforce_river_forts_name: "강변 요새 강화" # 10359873967308397656
+  RICE_portage_reinforce_river_forts_name: "강변 요새 보강" # 10359873967308397656
   RICE_portage_reinforce_river_forts_desc: "$RICE_portage_reinforce_river_forts_name$" # 7541333831438335333
-  RICE_portage_reinforce_river_forts_tooltip: "@gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_portage_decision_high_cost')|0]#!#!\n#italic 요충지에 있는 교역로, 특히 인기 있는 운반지점에 요새를 배치해야 합니다.#" # 5183368237894784683
+  RICE_portage_reinforce_river_forts_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_portage_decision_high_cost')|0]#!#!\n\n#italic 요새는 이 교역로의 전략적 요지를 차지해야만 합니다, 특히 중요한 육로 운송 지점에서는 더욱 그렇습니다.#!" # 5183368237894784683
   RICE_portage_reinforce_river_forts_effect_tooltip_1: "xxxxx" # 1951045980481827005
   RICE_portage_promote_merchants_name: "무역품 증진" # 16538635382109598144
   RICE_portage_promote_merchants_desc: "$RICE_portage_promote_merchants_name$" # 1740055428489301804
-  RICE_portage_promote_merchants_tooltip: "금 @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_portage_decision_medium_cost')|0]!#!#!\n#italic 이 땅을 통해 많은 물자가 흘러들어옵니다. 이러한 교역을 지원해야 합니다.#!" # 13451428032047958422
-  RICE_portage_promote_merchants_effect_tooltip_1: "당신의 [diplomacy_i|E] [diplomacy|E]와 [stewardship_i|E] [stewardship|E]를 고려할 때, 향후 5년 안에 당신의 궁정에 [volga_dnieper_merchant|E]가 나타나 사업 제안을 할 가능성이 #V [GetPlayer.MakeScope.ScriptValue('RICE_portage_decision_merchant_chance')|0]%#! 있습니다." # 16888168702585183547
-  RICE_portage_encourage_settlement_name: "정착을 장려합니다." # 6344965724836462798
+  RICE_portage_promote_merchants_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_portage_decision_medium_cost')|0]#!#!\n\n#italic 이 땅에는 많은 상품이 흐르고 있으니, 우리는 이러한 상업을 지원해야 합니다.#!" # 13451428032047958422
+  RICE_portage_promote_merchants_effect_tooltip_1: "귀하의 [diplomacy_i|E] [diplomacy|E]와 [stewardship_i|E] [stewardship|E]에 기반하여, 향후 5년 내에 [volga_dnieper_merchant|E]가 궁정에 등장하여 사업 거래를 제안할 #V [GetPlayer.MakeScope.ScriptValue('RICE_portage_decision_merchant_chance')|0]%#! 확률이 있습니다." # 16888168702585183547
+  RICE_portage_encourage_settlement_name: "이주를 장려합니다." # 6344965724836462798
   RICE_portage_encourage_settlement_desc: "$RICE_portage_encourage_settlement_name$" # 13111843980200699647
-  RICE_portage_encourage_settlement_tooltip: "@gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_portage_decision_high_cost')|0]!#!#!\n\n#italic 이 지역의 무역로를 장악하고 이익을 얻으려면 도시들이 중요합니다.#!" # 5547107165506585656
-  RICE_portage_encourage_settlement_effect_tooltip_1: "소유하고 있는 [counties|E] 중 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역의 몇몇이 귀하의 [culture|E]와 [faith|E]로 개종할 가능성이 매우 낮습니다." # 16205933678570627470
-  RICE_rus_culture_decision: "$russian$ 문화를 수립합니다." # 15291863667332980399
-  RICE_rus_culture_decision_tooltip: "동유럽에 새로운 민족이 등장했습니다!" # 15270436977826874039
-  RICE_rus_culture_decision_desc: "시간이 흘러 동유럽 강변 지역의 여러 [문화|E]는 서로 혼합되고 영향을 주고받았습니다. 아마도 이들 다투는 부족들이 하나로 통합된다면, 무역로를 장악하고 존경받는 강력한 세력이 될 수 있을 것입니다...." # 16992516671848384376
-  RICE_rus_culture_decision_effect_tooltip_1: "[rus_culture.GetName] [culture|E]는 귀하의 [capital|E]인 [capital_culture.GetName]의 [culture|E] 유산, 즉 현재 [capital_culture.GetHeritage.GetName]을 이어받게 됩니다." # 10340386913597287573
-  RICE_rus_culture_decision_effect_tooltip_2: "[rus_culture.GetCollectiveNoun]의 주요 [language|E]가 기존의 [rus_culture.GetLanguage.GetName] 공용어가 될지, 아니면 귀하의 모국어 또는 귀하의 [capital|E]의 [culture|E] 언어 (다를 경우)가 될지 결정하십시오." # 15182730422633529189
-  RICE_rus_culture_decision_effect_tooltip_3: "[rus_culture.GetName] [culture|E]는 하나 또는 둘의 임의의 유효한 [전통|E]를 얻게 됩니다." # 10933807318414417959
-  RICE_rus_culture_decision_effect_tooltip_4: "몇몇 [counties|E]가 무작위로 [rus_culture.GetName] [culture|E]로 개종될 것입니다." # 4879319114456282734
-  RICE_rus_culture_decision_effect_tooltip_5: "루스 [지역|E]의 [통치자|E]와 [현|E], 특히 주요 강과 도시 주변의 [봉신|E]들과 그들이 [루스_문화.이름] [문화|E]로 개종할 가능성이 있습니다." # 6253687001167566810
+  RICE_portage_encourage_settlement_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_portage_decision_high_cost')|0]#!#!\n\n#italic 이 지역의 무역로를 장악하고 이익을 얻으려면 마을이 중요합니다.#!" # 5547107165506585656
+  RICE_portage_encourage_settlement_effect_tooltip_1: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역 내 귀하가 소유한 [counties|E]가 아주 낮은 확률로 귀하의 [culture|E]와 [faith|E]로 개종할 가능성이 있습니다." # 16205933678570627470
+  RICE_rus_culture_decision: "$russian$ 문화를 확립합니다." # 15291863667332980399
+  RICE_rus_culture_decision_tooltip: "동유럽에 새로운 민족이 등장하고 있습니다!" # 15270436977826874039
+  RICE_rus_culture_decision_desc: "시간이 흐르며 동유럽의 강변 지역에서는 많은 [문화|E]가 서로 혼합되고 영향을 주고받았습니다. 아마도 이러한 다툼을 벌이는 부족들이 하나로 통합된다면 무역로를 장악하고 존경받는 강력한 세력이 될 수 있을 것입니다...." # 16992516671848384376
+  RICE_rus_culture_decision_effect_tooltip_1: "[rus_culture.GetName] [culture|E]는 귀하의 [capital|E] [capital_culture.GetName]의 [culture|E] 유산, 즉 현재 [capital_culture.GetHeritage.GetName]을 계승하게 됩니다." # 10340386913597287573
+  RICE_rus_culture_decision_effect_tooltip_2: "[rus_culture.GetCollectiveNoun]의 주요 [language|E]가 기존의 [rus_culture.GetLanguage.GetName] 교역어가 될지, 아니면 귀하의 모국어이거나, 귀하의 [capital|E]의 [culture|E] 언어 (다를 경우)가 될지 결정하십니다." # 15182730422633529189
+  RICE_rus_culture_decision_effect_tooltip_3: "[rus_culture.GetName] [culture|E]는 하나 또는 두 개의 무작위 유효 [traditions|E]를 얻게 됩니다." # 10933807318414417959
+  RICE_rus_culture_decision_effect_tooltip_4: "귀하의 여러 [counties|E]가 무작위로 [rus_culture.GetName] [culture|E]로 개종할 것입니다." # 4879319114456282734
+  RICE_rus_culture_decision_effect_tooltip_5: "루스 [지역|E]의 [군주|E]와 [군현|E], 특히 귀하의 [봉신|E]들과 주요 강과 도시에 위치한 자들은 [루스_문화.이름] [문화|E]로 개종할 가능성이 있습니다." # 6253687001167566810
   RICE_rus_culture_decision_confirm: "$russian_collective_noun$이 이 땅을 지배할 것입니다!" # 11988073879850412878
-  RICE_rus_culture_decision_context_tooltip: "#bold 역사적 배경:# 루스인의 민족 형성 과정은 아직 논쟁의 여지가 있지만, 스칸디나비아의 영향을 받은 초기 루스인들은 슬라브족뿐만 아니라 핀란드인과 발트족과 같은 다른 민족들도 지배했다고 믿어집니다. 장기적으로 이들은 루리크 왕가의 통치 아래 통합되면서 결국 동슬라브족으로 동화되었습니다. 루스인은 결국 현대 러시아인, 우크라이나인, 벨라루스인의 조상이 될 것입니다." # 9674737940835228596
-  select_personal_deity_slavic_decision: "슬라브 신에게 신앙을 바치다" # 6173630848622827556
+  RICE_rus_culture_decision_context_tooltip: "#emphasis 역사적 배경:#! 루스인의 민족 형성 과정은 아직 논쟁 중이지만, 스칸디나비아의 영향을 받은 초기 루스인들은 슬라브족뿐만 아니라 핀란드인과 발트족 같은 다른 민족들도 지배했던 것으로 여겨집니다. 장기적으로, 루스인 왕자들의 통치 아래 통합되면서 이들 민족은 결국 동슬라브족으로 동화되었습니다. 루스인들은 결국 현대 러시아인, 우크라이나인, 벨로루시인의 조상이 될 것입니다." # 9674737940835228596
+  select_personal_deity_slavic_decision: "슬라브 신에게 우상을 세우다" # 6173630848622827556
   select_personal_deity_slavic_decision_tooltip: "[ROOT.Char.GetFaith.PantheonTerm]에 대해 생각해 봅니다." # 1307953023939092809
-  select_personal_deity_slavic_decision_desc: "#F 슬라브 통치자로서 백성의 신들을 공경하는 것은 나의 의무이며, 번영을 보장하고 보여주는 일입니다.  나에게 호감을 주는 신을 선택하고, 백성들이 볼 수 있도록 신상을 세워야 합니다.#!" # 1376547801507458922
-  select_personal_deity_slavic_decision_confirm: "특정 신에게 신상을 봉헌하다" # 4971531605825156862
-  select_personal_deity_slavic_decision_tt: "신상을 세우시고 경배하십니다." # 6287441470785197994
-  select_personal_deity_slavic_decision.select_perun: "번개를 쥔 페룬" # 8157738084858751993
+  select_personal_deity_slavic_decision_desc: "#F 슬라브 통치자로서 백성의 신들을 공경하고 번영을 보장하는 것은 나의 의무입니다.  내게 호감을 주는 신을 선택하고, 백성들이 볼 수 있도록 우상을 세워야 합니다.#!" # 1376547801507458922
+  select_personal_deity_slavic_decision_confirm: "특정 신에게 우상을 바치다" # 4971531605825156862
+  select_personal_deity_slavic_decision_tt: "신상을 세우고 경배합니다." # 6287441470785197994
+  select_personal_deity_slavic_decision.select_perun: "뇌신 페룬" # 8157738084858751993
   select_personal_deity_slavic_decision.select_veles: "지하세계의 통치자, 벨레스" # 17864505673786281809
-  select_personal_deity_slavic_decision.select_stribog: "스트리보그, 퍼지는 바람" # 3425703497202299572
-  select_personal_deity_slavic_decision.select_mokosh: "모코쉬, 어머니 여신" # 2997130263026264845
+  select_personal_deity_slavic_decision.select_stribog: "스트리보그, 번개 바람" # 3425703497202299572
+  select_personal_deity_slavic_decision.select_mokosh: "모코시, 어머니 여신" # 2997130263026264845
   select_personal_deity_slavic_decision.select_simargl: "시마르글, 날개 달린 개들" # 13017507690229434851
   select_personal_deity_slavic_decision.select_khors_dazhbog: "크호르 다즈보그, 태양과 달" # 13042799770063628896
   galicia2.0000.t: "$galicia2.0002.t$" # 11324948930013807765
-  galicia2.0000.desc: "동유럽의 정착민들과 부족들 사이에 [rus_culture.GetCollectiveNoun]의 부상으로, 이미 나의 영역 내에서 이 새로운 정체성을 따르는 자들이 나타나고 있습니다.\n\n[rus_culture.GetCollectiveNounNoTooltip]의 풍습과 관행, 그들의 다양한 [rus_culture.GetLanguage.GetName] 언어를 받아들이면서 주변 이웃들과 긴밀한 관계를 구축하는 것은 나의 정치적, 경제적 영향력을 확장하는 데 도움이 될 수 있습니다." # 6254513887424890242
+  galicia2.0000.desc: "동유럽의 정착민들과 부족들 사이에서 [rus_culture.GetCollectiveNoun]의 등장으로, 이미 내 영역 내에서 그들 새로운 정체성을 따르는 자들이 있습니다.\n\n[rus_culture.GetCollectiveNounNoTooltip]의 풍습과 관행, 그들의 다양한 [rus_culture.GetLanguage.GetName] 언어를 받아들이며 이웃들과 더욱 긴밀한 관계를 구축하는 것이 내 정치적, 경제적 영향력을 확장하는 데 도움이 될 수 있습니다." # 6254513887424890242
   galicia2.0000.a: "xxxxx" # 1951045980481827005
   galicia2.0001.t: "$galicia2.0002.t$" # 11324948930013807765
-  galicia2.0001.desc: "시간이 흘러 동유럽의 숲과 산, 습지와 강변에는 다양한 부족과 민족이 뒤섞여 살게 되었습니다. 교역과 정착지의 발전으로 이 지역에는 새로운 정체성이 떠오르게 되었습니다. 바로 [rus_culture.GetCollectiveNoun]의 정체성입니다.\n\n저는 이른바 [rus_culture.GetNameNoTooltip] 영주들 중에서 가장 강력한 존재로 여겨지고 있습니다. [rus_culture.GetHeritage.GetNameNoTooltip] 부족이 이 새로운 정체성의 핵심을 이루지만, 다른 [rus_culture.GetCollectiveNounNoTooltip]들은 다양한 기원을 가지고 있습니다.\n\n사회적 연대를 유지하기 위해 하나의 언어 사용을 장려해야 합니다. [old_rus_culture.GetLanguage.GetName]는 오랫동안 이 지역의 공용어였습니다." # 16255947806573672279
+  galicia2.0001.desc: "시간이 흐르며, 동유럽의 숲과 언덕, 늪지와 강변에는 여러 부족과 민족이 서로 섞여 살게 되었습니다. 무역의 발달과 다양한 정착지의 성장으로, 이 지역에 새로운 정체성이 떠오르는 것은 시간문제였습니다. 바로 [rus_culture.GetCollectiveNoun]의 등장입니다.\n\n이제 저는 이른바 [rus_culture.GetNameNoTooltip] 영주들 중 가장 강력한 존재로 여겨집니다. [rus_culture.GetHeritage.GetNameNoTooltip] 부족들이 이 새로운 정체성의 핵심을 이루고 있지만, 다른 [rus_culture.GetCollectiveNounNoTooltip]들은 그 기원이 다릅니다.\n\n사회적 연대를 유지하기 위해 하나의 언어 사용을 장려해야 합니다. [old_rus_culture.GetLanguage.GetName]는 오랫동안 이 지역의 공용어였습니다." # 16255947806573672279
   galicia2.0001.desc.east_slavic: "그렇게 바꿀 이유는 없다고 생각합니다. 이미 많은 사람들이 알고 있으니까요." # 11019727288076392610
-  galicia2.0001.desc.non_east_slavic: "하지만 [original_culture.GetLanguage.GetName]을 새로운 교역어로 승격시키는 논리에는 설득력이 있습니다." # 6867135674657204285
-  galicia2.0001.a: "[old_rus_culture.GetLanguage.GetNameNoTooltip]가 계속해서 공용어로 남도록 하겠습니다." # 13878170126883688748
-  galicia2.0001.b: "[original_culture.GetLanguage.GetNameNoTooltip]이 더 나은 교역 언어가 될 것입니다." # 5642329937930678504
+  galicia2.0001.desc.non_east_slavic: "하지만 [original_culture.GetLanguage.GetName]를 새로운 교역어로 승격시키는 논리적 근거를 보았습니다." # 6867135674657204285
+  galicia2.0001.a: "[old_rus_culture.GetLanguage.GetNameNoTooltip]를 공용어로 유지하도록 하겠습니다." # 13878170126883688748
+  galicia2.0001.b: "[original_culture.GetLanguage.GetNameNoTooltip]이 더 나은 국제어가 될 것입니다." # 5642329937930678504
   galicia2.0002.t: "[rus_culture.GetCollectiveNounNoTooltip]의 부상" # 12201601132102613608
-  galicia2.0002.desc: "수세기 동안, 수많은 민족과 부족들이 동유럽의 숲, 언덕, 늪지대, 그리고 강변에 자리 잡았습니다. 볼가 강, 돈 강, 그리고 드네프르 강을 따라 자리 잡은 정착지의 무역과 정치적 변화가 성장함에 따라, 새로운 민족이 이른바 #italic 도시의 땅#!에서 떠오르고 있습니다. 상호 영향, 교환, 그리고 동화의 과정의 결정체인 이들은 바로 [rus_culture.GetCollectiveNoun]입니다.\n\n[rus_founder.GetTitledFirstName]는 [original_culture.GetName] 출신으로 이 새로운 정체성의 전형적인 사례입니다. [rus_founder.GetSheHe]는 [rus_founder.GetHerHis] 영향력과 힘을 활용하여 [ROOT.Char.GetPrimaryTitle.GetBaseName]의 [rus_culture.GetCollectiveNoun] – 그들의 조상적 기원에 상관없이 – 이 지역에서 지배적인 정치, 문화, 그리고 경제적 힘이 되도록 하였습니다.\n\n더 오래된 [rus_culture.GetHeritage.GetNameNoTooltip] 부족들이 [rus_culture.GetName] 정체성의 지배적인 문화적 핵심을 이루고 있습니다." # 2221808269390637355
-  galicia2.0002.desc.east_slavic: "그들의 [rus_culture.GetLanguage.GetName] 언어는 오랫동안 이 지역의 공용어로 사용되어 왔으며, [rus_culture.GetNameNoTooltip]의 지배는 앞으로도 그러한 상황이 계속될 것이라고 확신시켜줍니다." # 967728995387980712
-  galicia2.0002.desc.non_east_slavic: "예전에는 [old_rus_culture.GetLanguage.GetName]이 이 지역의 공용어였지만, 최근 문화 및 정치 변화로 인해 [rus_culture.GetLanguage.GetName]이 새로운 주요 언어로 자리매김했습니다." # 13281159396763765867
-  galicia2.0002.a: "도시의 땅에 흥미로운 변화가 일어났습니다!" # 12259716000462839860
+  galicia2.0002.desc: "수세기 동안, 많은 민족과 부족이 동유럽의 숲, 언덕, 습지, 강변에 거주해 왔습니다. 볼가, 돈, 그리고 드니프로 강과 같은 강변 정착지의 무역과 정치 변화가 발전함에 따라, 새로운 민족이 #italic 도시의 땅#이라 불리는 곳에서 떠오르고 있습니다. 이는 상호 영향, 교환, 그리고 동화 과정의 결실인데요, 바로 [rus_culture.GetCollectiveNoun]입니다.\n\n[rus_founder.GetTitledFirstName], [original_culture.GetName] 출신의 그[rus_founder.GetSheHe]는 [rus_founder.GetHerHis] 영향력과 힘을 이용하여 [ROOT.Char.GetPrimaryTitle.GetBaseName]의 [rus_culture.GetCollectiveNoun] – 그들의 조상적 기원과 상관없이 – 이 지역의 지배적인 정치, 문화, 경제적 힘이 되었습니다.\n\n더 오래된 [rus_culture.GetHeritage.GetNameNoTooltip] 부족들은 [rus_culture.GetName] 정체성의 주요 문화적 핵심을 이룹니다." # 2221808269390637355
+  galicia2.0002.desc.east_slavic: "그들의 [rus_culture.GetLanguage.GetName] 언어는 오랫동안 이 지역의 공용어로 사용되어 왔으며, [rus_culture.GetNameNoTooltip]의 지배는 앞으로도 그러한 지위를 유지할 것이라고 확신합니다." # 967728995387980712
+  galicia2.0002.desc.non_east_slavic: "[old_rus_culture.GetLanguage.GetName]이 이 지역의 공용어였으나, 최근 문화적, 정치적 변화로 인해 [rus_culture.GetLanguage.GetName]이 새로운 주요 언어로 자리매김하였습니다." # 13281159396763765867
+  galicia2.0002.a: "도시의 땅에서 흥미로운 변화가 일어났습니다!" # 12259716000462839860
   galicia2.0003.t: "$galicia2.0002.t$" # 11324948930013807765
-  galicia2.0003.desc: "동유럽의 정착민들과 부족들 사이에 [rus_culture.GetCollectiveNoun]의 부상으로, 이미 나의 영역 내에서 이 새로운 정체성을 따르는 자들이 나타나고 있습니다.\n\n[rus_culture.GetCollectiveNounNoTooltip]의 풍습과 관행, 그들의 다양한 [rus_culture.GetLanguage.GetName] 언어를 받아들이면서 주변 이웃들과 긴밀한 관계를 구축하는 것은 나의 정치적, 경제적 영향력을 확장하는 데 도움이 될 수 있습니다." # 6254513887424890242
-  galicia2.0003.a: "우리는 이제 [rus_culture.GetNameNoTooltip]입니다." # 6485914873983757184
+  galicia2.0003.desc: "동유럽의 정착민들과 부족들 사이에서 [rus_culture.GetCollectiveNoun]의 등장으로, 이미 내 영역 내에서 그들 새로운 정체성을 따르는 자들이 있습니다.\n\n[rus_culture.GetCollectiveNounNoTooltip]의 풍습과 관행, 그들의 다양한 [rus_culture.GetLanguage.GetName] 언어를 받아들이며 이웃들과 더욱 긴밀한 관계를 구축하는 것이 내 정치적, 경제적 영향력을 확장하는 데 도움이 될 수 있습니다." # 6254513887424890242
+  galicia2.0003.a: "이제 우리는 [rus_culture.GetNameNoTooltip]입니다." # 6485914873983757184
   galicia2.0003.b: "저는 언제나 [ROOT.Char.GetCulture.GetNameNoTooltip]일 것입니다!" # 9922859560110400314
   galicia2.0004.t: "xxxxx" # 1951045980481827005
   galicia2.0004.desc: "xxxxx" # 1951045980481827005
@@ -265,13 +265,13 @@
   galicia2.0009.t: "xxxxx" # 1951045980481827005
   galicia2.0009.desc: "xxxxx" # 1951045980481827005
   galicia2.0009.a: "xxxxx" # 1951045980481827005
-  galicia2.0010.t: "볼가와 드니프르 지역의 무역" # 16888990224951418521
-  galicia2.0010.desc: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]는 여행자들에게 험난할 수 있지만, 다양한 출신의 상인들이 이 강과 숲, 언덕, 습지들을 자주 드나들며 이익과 모험을 추구합니다.\n\n최근 저는 [RICE_volga_dnieper_merchant_spawn.GetFirstName]라는 [culture.GetName] 출신의, [faith.GetAdjective] 신앙을 가진 상인과 친분을 맺었습니다. 그분은 이 지역의 교역로를 익숙하게 다니며, 특히 [GetPlayer.Custom('RICE_volga_dnieper_good_type_loc')] 교역에 정통합니다.\n\n[RICE_volga_dnieper_merchant_spawn.GetFirstNameNoTooltip]와 긴밀한 관계를 맺는 것이 제 영역의 교역을 촉진하는 데 도움이 될 수 있습니다. 어쩌면 그분을 저의 궁정에 초대할 수도 있을 것입니다." # 13039231463750472237
-  galicia2.0010.a: "[RICE_volga_dnieper_merchant_spawn.GetFirstNameNoTooltip]께서, 저를 위해 일해주시겠습니까?" # 17805494725112754396
-  galicia2.0010.b: "거래를 해보지, [RICE_volga_dnieper_merchant_spawn.GetFirstNameNoTooltip]!" # 2858855292401448894
+  galicia2.0010.t: "볼가와 드네프르 강 유역의 무역" # 16888990224951418521
+  galicia2.0010.desc: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]은 일부 여행객에게는 험난한 길이 될 수 있으나, 여러 지역의 상인들이 이 강과 숲, 산, 습지들을 자주 드나들며 이익과 모험을 추구합니다.\n\n최근 저는 [RICE_volga_dnieper_merchant_spawn.GetFirstName]이라는 [culture.GetName] 출신의, [faith.GetAdjective] 신앙을 가진 상인과 친분을 맺었습니다. [RICE_volga_dnieper_merchant_spawn.GetSheHe|U]는 이 지역의 무역로를 잘 아는 경험 많은 상인이며, 특히 [GetPlayer.Custom('RICE_volga_dnieper_good_type_loc')] 무역에 정통합니다.\n\n[RICE_volga_dnieper_merchant_spawn.GetFirstNameNoTooltip]과의 협력 관계는 저의 영역 내 무역을 증진시킬 수 있는 좋은 기회가 될 것입니다.  아니면 그분을 제 궁정에 초대해 볼 수도 있겠군요." # 13039231463750472237
+  galicia2.0010.a: "[RICE_volga_dnieper_merchant_spawn.GetFirstNameNoTooltip]께서, 저를 위해 일하시겠습니까?" # 17805494725112754396
+  galicia2.0010.b: "딜을 좀 봐요, [RICE_volga_dnieper_merchant_spawn.GetFirstNameNoTooltip]!" # 2858855292401448894
   galicia2.0010.c: "이 노점상과는 일할 생각이 없습니다." # 1839508414406142596
   RICE_volga_dnieper_good_type_loc_furs: "모피" # 8271302472808447736
-  RICE_volga_dnieper_good_type_loc_amber: "황색 호박" # 2064458468528422567
+  RICE_volga_dnieper_good_type_loc_amber: "암버" # 2064458468528422567
   RICE_volga_dnieper_good_type_loc_honey: "꿀과 밀랍" # 13487444323494772139
   RICE_volga_dnieper_good_type_loc_slaves: "노예" # 8981625736933883366
   RICE_volga_dnieper_good_type_loc_weapons: "무기" # 14058906704368141727
@@ -281,29 +281,29 @@
   RICE_volga_dnieper_good_type_loc_spices: "향신료" # 14371508420107184812
   RICE_volga_dnieper_good_type_loc_wines: "포도주" # 8596688436437419946
   RICE_volga_dnieper_good_type_loc_art: "예술" # 5864169866309822200
-  galicia2.0011.t: "볼가-드니에프르 무역" # 2609305940804765020
+  galicia2.0011.t: "$travel_event_prefix$ 볼가-드니프르 무역" # 2609305940804765020
   galicia2.0011.desc: "$sus.0001.desc$" # 14616179362502734390
   galicia2.0011.a: "$sus.0001.a$" # 14097836596725708333
   galicia2.0011.b: "$sus.0001.b$" # 16170894306468653032
   galicia2.0011.b.failure: "$sus.0001.b.failure$" # 10244786469165914241
   galicia2.0011.b.success: "$sus.0001.b.success$" # 12213007599100476414
-  RICE_volga_dnieper_merchant_trait_gain_tooltip: "#약하 #V [GetPlayer.MakeScope.Var('RICE_volga_dnieper_merchant_success_count').GetValue]!번의 무역로를 통해 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역에 성공적인 거래를 성사시켰습니다. 거래 횟수가 많을수록 [GetTrait('RICE_trans_saharan_merchant').GetName( GetNullCharacter )] [trait|E]를 얻을 가능성이 높아집니다." # 931071132009486071
-  RICE_volga_dnieper_number_of_successes_tooltip: "#약하 당신은 이전에 #V [GetPlayer.MakeScope.Var('RICE_volga_dnieper_merchant_success_count').GetValue]번의 성공적인 무역 거래를 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역의 무역로와 연결하여 성사시켰습니다!" # 3854594276649503832
-  galicia2.0012.t: "신에게 경의를 표하다" # 17639333994492582788
-  galicia2.0012.desc: "슬라브 통치자로서, 백성의 신들을 존경하고 그들의 축복을 받으며, 우리 백성과 다른 이들에게 번영을 누리고 있음을 보여주는 것은 나의 의무입니다. 특정 신에게 우상을 바쳐 경배함으로써, 의심할 여지 없이 신성한 수호신의 축복을 얻고, 백성에게 나, 그들의 통치자로서 어떤 가치관과 우선순위를 지니고 있는지 보여줄 것입니다." # 15009800966432665875
-  galicia2.0012.perun: "번개신, 페르운." # 12224517682594787245
-  galicia2.0012.perun.tt: "천둥과 번개, 금속 무기를 휘두르는 강력한 신, 페룬이 신들의 수장입니다.\n\n페룬을 숭배하는 것은 고귀하고 위엄 있는 통치자에게 자연스러운 선택입니다." # 3831042282324221966
+  RICE_volga_dnieper_merchant_trait_gain_tooltip: "#약하 #V [GetPlayer.MakeScope.Var('RICE_volga_dnieper_merchant_success_count').GetValue]개의 성공적인 무역 거래를 #V [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에 연결된 무역로를 통해 이전에 확보하셨습니다. 거래를 더 많이 성사시킬수록 [GetTrait('RICE_trans_saharan_merchant').GetName( GetNullCharacter )] [trait|E]를 얻을 가능성이 높아집니다." # 931071132009486071
+  RICE_volga_dnieper_number_of_successes_tooltip: "#약하 #V [GetPlayer.MakeScope.Var('RICE_volga_dnieper_merchant_success_count').GetValue]개의 성공적인 무역 거래를 #V [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에 연결된 무역로에서 이전에 성사시켰습니다!" # 3854594276649503832
+  galicia2.0012.t: "신앙을 기리다" # 17639333994492582788
+  galicia2.0012.desc: "슬라브 통치자로서, 백성의 신들을 공경하고 그들의 축복을 받으며, 우리 백성과 다른 이들에게 우리가 번영을 누리고 있음을 보여주는 것은 나의 의무입니다. 특정 신에게 우상을 바쳐 경건을 표함으로써, 의심할 바 없이 신성한 수호신의 축복을 받고, 백성들에게 통치자로서 내가 지닌 가치관과 우선순위를 보여줄 것입니다." # 15009800966432665875
+  galicia2.0012.perun: "천둥의 신, 페룬." # 12224517682594787245
+  galicia2.0012.perun.tt: "천둥과 번개, 그리고 금속 무기를 다루는 강력한 신, 페룬이 신들의 수장입니다.\n\n페룬을 숭배하는 것이 귀족적이고 위엄 있는 통치자에게 자연스러운 선택입니다." # 3831042282324221966
   galicia2.0012.veles: "지하세계의 통치자, 벨레스." # 8159930749022636318
-  galicia2.0012.veles.tt: "베레스, 페룬의 대응자로서, 물의 지하세계를 다스리고 소, 시, 마법과 관련된 부를 상징합니다.\n\n베레스의 가치를 구현하는 것은 나에게 반대하는 모든 이들을 두려움에 떨게 할 것입니다." # 1350004847268975530
+  galicia2.0012.veles.tt: "벨레스, 페룬의 대척점에 있는 존재는 물의 지하 세계를 다스리고, 가축, 시, 마법과 관련된 부를 상징합니다.\n\n벨레스의 가치를 상징하는 것은 반대하는 자들 모두에게 공포를 불어넣을 것입니다." # 1350004847268975530
   galicia2.0012.stribog: "스트리보그, 퍼지는 바람." # 5129238966518537444
-  galicia2.0012.stribog.tt: "스트리보그, 바람의 아버지, 봄의 도약과 부의 확산을 상징합니다.\n\n스트리보그를 기리는 것은 우리의 상인, 농부, 사절에게 호의적인 바람을 가져다줄 것입니다." # 4234372154025521162
-  galicia2.0012.khors_dazhbog: "호르 다즈보그, 태양과 달." # 3816169048761590488
-  galicia2.0012.khors_dazhbog.tt: "호르스와 다즈보그는 태양과 달, 풍요와 선함과 관련이 있습니다.\n\n호르스 다즈보그를 숭배하는 것은 백성에게 번영과 정의를 향한 나의 헌신을 보여줄 것입니다." # 4745704188604134296
-  galicia2.0012.mokosh: "모코쉬, 어머니 신." # 16660502108329455721
-  galicia2.0012.mokosh.tt: "모코시, 어머니 신으로서 여성을 보호하고, 양, 직조, 그리고 출산과 관련이 있습니다.\n\n모코시를 기리는 것은 풍요로운 수확과 성장하는 공동체를 보장할 것입니다." # 236490656251613416
-  galicia2.0012.simargl: "심아르글, 날개 달린 개들." # 11403928606115838465
-  galicia2.0012.simargl.tt: "심마르글, 날개 달린 개들은 씨앗, 싹, 그리고 인간을 보호하며, 하늘과 땅의 신들 사이의 중재자 역할을 합니다.\n\n심마르글을 공경하는 것은 수확과 백성을 악한 존재로부터 보호할 것입니다." # 9131756367473104885
-  galicia2.0012.optout: "이제 그럴 때가 아닙니다." # 14534329768365775041
+  galicia2.0012.stribog.tt: "스트리보그, 바람의 아버지, 봄의 도약과 부의 확산을 상징합니다.\n\n스트리보그를 기리는 것은 우리의 상인, 농부, 그리고 사절에게 좋은 바람을 가져다 줄 것입니다." # 4234372154025521162
+  galicia2.0012.khors_dazhbog: "크호르 다즈보그, 태양과 달." # 3816169048761590488
+  galicia2.0012.khors_dazhbog.tt: "호르스와 다즈보그는 태양과 달, 풍요, 선함과 관련이 있습니다.\n\n호르스 다즈보그를 숭배하는 것은 백성들에게 제가 번영과 정의를 지향한다는 약속을 보여줄 것입니다." # 4745704188604134296
+  galicia2.0012.mokosh: "모코시, 어머니 신." # 16660502108329455721
+  galicia2.0012.mokosh.tt: "모코쉬, 어머니 여신은 여성의 수호자이며, 양, 직조, 그리고 출산과 관련되어 있습니다.\n\n모코쉬를 숭배하면 풍요로운 수확과 성장하는 공동체를 보장할 것입니다." # 236490656251613416
+  galicia2.0012.simargl: "시마르글, 날개 달린 개들." # 11403928606115838465
+  galicia2.0012.simargl.tt: "심아르글, 날개 달린 개들은 씨앗, 싹, 그리고 인간을 보호하며 하늘과 땅의 신들 사이의 중개자 역할을 합니다.\n\n심아르글을 공경하면 수확과 백성을 악의적인 요소들로부터 보호할 것입니다." # 9131756367473104885
+  galicia2.0012.optout: "이제는 그때가 아닙니다." # 14534329768365775041
   galicia2.0012.flavor: "$religious_decision.0101.flavor$" # 16283048483600419573
   galicia2.0013.t: "xxxxx" # 1951045980481827005
   galicia2.0013.desc: "xxxxx" # 1951045980481827005
@@ -326,31 +326,31 @@
   galicia2.0019.t: "xxxxx" # 1951045980481827005
   galicia2.0019.desc: "xxxxx" # 1951045980481827005
   galicia2.0019.a: "xxxxx" # 1951045980481827005
-  galicia2.0020.t: "코친일" # 7611316314944970535
-  galicia2.0020.desc: "저의 영토 중 일부는 [GetGeographicalRegion('RICE_european_cochineal_region').GetName] 지역에 속합니다.  [Glossary( 'cochineal', 'COCHINEAL_GLOSS' )] 벌레의 유충은 값비싼 붉은색 염료를 생산하는 데 사용될 수 있으며, 외국 시장에서 엄청난 가격에 거래됩니다.\n\n\n이러한 중요한 꼭두각시 산업을 지원하지 않는 것은 어리석은 일입니다. 저는 바로 그렇게 하고 있습니다. 이 지역의 꼭두각시 농장에 투자하고, 상인들이 이 제품을 구매하여 다른 곳에서 판매하도록 장려함으로써 지역 경제 성장을 도울 수 있으며, 물론 이 무역에 대한 세금 부과를 통해 상당한 수입을 얻을 수 있습니다." # 17402551079673787045
+  galicia2.0020.t: "코치닐" # 7611316314944970535
+  galicia2.0020.desc: "저의 영토 중 일부는 [GetGeographicalRegion('RICE_european_cochineal_region').GetName] 지역에 있습니다. [Glossary( 'cochineal', 'COCHINEAL_GLOSS' )] 벌레의 유충은 외국 시장에서 엄청난 가격에 거래되는 아름다운 붉은 색 염료를 생산하는 데 사용될 수 있습니다.\n\n이 코치닐 산업을 지원하는 것이 얼마나 중요한지, 바보만 몰라볼 것입니다. 그리고 저는 정확히 그렇게 하고 있습니다. 이 지역의 코치닐 농장에 투자하고, 상인들이 이 제품을 구입하여 다른 곳에 판매하도록 장려함으로써, 우리는 지역 경제를 성장시키고, 물론 이 무역에 대한 세금을 부과하여 좋은 돈을 벌 수 있을 것입니다." # 17402551079673787045
   galicia2.0020.a: "이 붉은 염료는 우리에게 많은 이익을 가져다줄 것입니다." # 17028644936445022240
-  galicia2.portage.decision.intro: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]의 무역로가 저의 영토를 통과하므로, 이 무역로를 최대한 발전시키지 않는 것은 어리석은 일입니다." # 6080726918453654944
-  galicia2.0021.t: "포티지 돌" # 2207386799252360153
-  galicia2.0021.desc: "$galicia2.portage.decision.intro$여행의 돌들은 어떤 여정에도 중요한 부분입니다. 이 세심하게 조각된 돌들은 여행자들에게 장소나 방향에 대한 정보를 전달하고, 경계를 정의하며, 그곳 권력을 가진 사람들의 존재를 상징합니다.\n\n따라서 제 영역 내 이러한 돌들을 유지하고, 필요한 곳에 새로운 돌들을 새기기 위해 자원을 할당하도록 명령했습니다. 상인, 순례자, 모험가 또는 제 군사들과 같은 여행자들은 어디에 있고 어디로 가야 하는지 알 수 있어야 합니다." # 6596079068587864517
-  galicia2.0021.a: "여행 계획을 알 수 있어서 좋군요." # 10041969373264740561
-  galicia2.0022.t: "포티지 교차로" # 16359896932863629467
-  galicia2.0022.desc: "$galicia2.portage.decision.intro$여행길목의 십자가는 중요한 역할을 합니다. 정교하게 조각된 십자가는 여행자들에게 장소나 방향 정보를 전달하고, 경계를 표시하며, 그곳을 다스리는 사람들의 존재를 상징합니다.\n\n따라서, 저는 나라 안에 있는 이러한 십자가의 유지 보수를 위해 자원을 할당하고, 필요한 곳에 새로운 십자가를 세우도록 명령했습니다. 상인, 순례자, 모험가, 또는 제 군사들과 같은 여행객들은 자신들의 위치와 목적지를 명확히 알아야 합니다." # 12292622099276175373
+  galicia2.portage.decision.intro: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]의 무역로가 저의 영토를 통과하므로, 이 무역로를 최대한 발전시키는 데 자원을 투입하지 않는 것은 어리석은 일일 것입니다." # 6080726918453654944
+  galicia2.0021.t: "운반석" # 2207386799252360153
+  galicia2.0021.desc: "여행자들을 위한 돌길 표지석은 중요한 여정의 일부입니다. 이 정교하게 조각된 돌은 지나가는 이들에게 장소 정보나 길안내, 경계를 알려주며, 그 지역의 권력자들의 존재를 상징합니다.\n\n따라서 내 영토 내 기존 표지석의 유지와 필요한 곳에 새로운 표지석을 세우기 위해 자원을 할당하도록 명령했습니다. 상인, 순례자, 모험가, 아니면 나의 병사들과 같은 모든 여행자들은 자신들의 위치와 목적지를 알아야 합니다." # 6596079068587864517
+  galicia2.0021.a: "가는 곳이 어딘지 아는 게 좋지 않나요?" # 10041969373264740561
+  galicia2.0022.t: "포티지 십자가들" # 16359896932863629467
+  galicia2.0022.desc: "$galicia2.portage.decision.intro$여행로의 십자가는 중요한 부분입니다. 이 정교하게 조각된 십자가는 여행자들에게 장소나 방향에 대한 정보를 전달하고, 경계를 구분하며, 그곳을 다스리는 사람들의 존재를 상징합니다.\n\n따라서 제 영역 내 이러한 십자가의 유지에 자원을 할당하고, 필요한 곳에 새로운 십자가를 세우도록 명령했습니다. 상인, 순례자, 모험가, 또는 저의 병사든, 여행자들은 그들이 있는 곳과 가는 곳을 알아야 합니다." # 12292622099276175373
   galicia2.0022.a: "$galicia2.0021.a$" # 13383846051290028192
-  galicia2.0023.t: "선박 건조자 징수" # 8048476733425766195
-  galicia2.0023.desc: "$galicia2.portage.decision.intro$오랜 세월 이 지역에서는 저와 같은 [ROOT.Char.GetTitleAsNameNoTooltip]께서 지방 농민들을 징발하여 주군을 위한 배를 건조할 권리가 있었습니다. 이 배들은 이 땅을 가로지르는 강과 운하를 따라 이동하는 데 특히 유용할 것입니다.\n\n우리는 여행, 무역, 또는 군사적인 이유로 이 배들이 필요할 수 있으며, 이 농민들의 의무와 책임은 최선을 다하는 것입니다. 제가 요청한 배가 적절한 품질일 것이라는 점만 기대할 수 있습니다." # 5679022081115543411
-  galicia2.0023.a: "항해하여, 항해하여, 항해하여 떠나자!" # 1084939746011030149
-  galicia2.0024.t: "운송 거점 유지" # 7291867324949502750
-  galicia2.0024.desc: "이러한 많은 항로는 운반 – 즉, 사람의 손이나짐승의 도움으로 배를 육지로 옮기는 행위를 통해, 이 지역을 점치는 수많은 강과 호수 사이를 이동할 수 있도록 합니다.\n\n어떤 장소는 운반에 더 적합한 경향이 있으며, 가능한 곳에 운하를 수리하거나 건설하고, 해당 장소 주변의 장애물을 제거하고, 배를 정박하거나 여행자들이 캠프를 설치할 수 있는 휴식 공간 등 다른 편의 시설을 제공하는 것이 유익할 것입니다." # 11680868844183513241
-  galicia2.0024.a: "이로써 모든 이들에게 운하 이용이 더 쉬워질 것입니다." # 7531134791457035330
+  galicia2.0023.t: "선박 건조자들을 소집합니다" # 8048476733425766195
+  galicia2.0023.desc: "$galicia2.portage.decision.intro$옛부터 이 지역에서는 저와 같은 [ROOT.Char.GetTitleAsNameNoTooltip]가 백성들에게 배를 만들도록 명령할 권리가 있었습니다. 이 배들은 이 땅을 가로지르는 강과 운하를 오가는 데 특히 유용할 것입니다.  \n\n여행, 무역, 또는 군사적 목적으로 이 배들이 필요할 수 있으며, 백성들의 의무이자 책임은 최선을 다하는 것입니다. 부디 제가 요청한 배가 훌륭한 품질이기를 바랍니다." # 5679022081115543411
+  galicia2.0023.a: "항해를 떠나, 항해를 떠나, 항해를 떠나자!" # 1084939746011030149
+  galicia2.0024.t: "수송 지점 유지" # 7291867324949502750
+  galicia2.0024.desc: "이 지역의 수많은 강과 호수를 오가는 데는 운하가 필요합니다.  이 운하의 운송은 육로를 통해 배를 운반하는, 즉 사람이나짐승의 도움을 받아 배를 육지로 옮기는 방법에 의존합니다.\n\n일부 지역은 다른 지역보다 운반에 더 적합합니다. 따라서 가능한 한 그러한 지역의 운하를 개선하거나 건설하는 데 인력을 투입하여 배를 이동하기 쉽게 하고 장애물을 제거하고, 배를 쉴 수 있는 곳이나 여행자들이 캠핑할 수 있는 편의 시설을 마련하는 것이 좋습니다." # 11680868844183513241
+  galicia2.0024.a: "이것으로 모든 이들에게 운송이 더욱 수월해질 것입니다." # 7531134791457035330
   galicia2.0025.t: "무역 상품" # 2767297776605761977
-  galicia2.0025.desc: "이 지역을 통해 다양한 무역 물품이 흘러갑니다. 일부는 멀고 신비한 땅에서 나와, 아직 듣도 보도 못한 이국적인 물건들입니다.  그것들은 귀족 계층이 원하는 사치품에서부터 우리 모두 일상생활에서 사용하는 일반적인 물건까지 다양합니다.\n\n저는 상인들이 거래를 더 쉽게 할 수 있도록 이러한 물품의 무역을 지원하기로 결정했습니다. 내 영토로 드나드는 물품의 증가는 이곳의 번영을 더욱 이끌 것입니다." # 10015123130355153414
+  galicia2.0025.desc: "이 지역을 통해 다양한 교역품이 흘러듭니다. 그중 일부는 먼 이국땅에서 온 것으로, 아직 그 존재를 듣지 못한 이들도 많습니다. 이들은 귀족 계층이 원하는 사치품부터 우리 모두 일상생활에서 사용하는 평범한 물품까지 다양합니다.\n\n저는 상인들이 사업을 하기 더 쉬워지도록 이러한 교역품의 거래를 지원하기로 결정했습니다. 나라 안팎으로 오가는 물품이 늘어나면 이곳의 번영이 더 커질 것입니다." # 10015123130355153414
   galicia2.0025.a: "무역은 흘러야 합니다!" # 13576582252167304901
-  galicia2.0026.t: "강변 요새를 강화하다" # 7405389315028532913
-  galicia2.0026.desc: "이 무역로를 따라 전략적인 요충지에 작은 전초기지와 요새가 자리 잡고 있습니다. 특히 배를 육로로 옮기는 곳, 즉 수로를 따라 육로로 옮기는 곳이 중요합니다.\n\n저는 영토 내 이러한 위치에 있는 기존 요새들을 강화하고 필요에 따라 수리하며, 적절한 곳에는 새로운 요새를 건설하도록 명령했습니다." # 2591331396312162845
-  galicia2.0026.a: "이 길들은 정의로운 여행자들에게 안전할 것입니다!" # 3698223139903708733
-  galicia2.0027.t: "정착지에 대한 장려" # 4996090668032291750
-  galicia2.0027.desc: "이 무역로에는 전략적인 위치에 여러 정착촌이 흩어져 있으며, 특히 배를 육로로 옮기는 곳인 운하가 있습니다. 이러한 곳은 종종 서로 다른 부족과 민족, 문화 및 종교 사이의 만남의 장소입니다.\n\n제 관리들에게 저의 영역 내 다른 지역에서 이들 무역로 주변에 새로운 정착촌을 건설하거나 기존 정착촌의 인구를 보강하도록 지시했습니다. 이는 이러한 지역의 성장을 촉진하고 지역 경제를 자극할 것입니다." # 2195839048781926003
-  galicia2.0027.a: "이 마을들이 번영하기를 바랍니다." # 1420064779446955773
+  galicia2.0026.t: "강변 요새 강화" # 7405389315028532913
+  galicia2.0026.desc: "이 무역로에는 전략적인 장소에 작은 요새와 방어진지가 자리 잡고 있으며, 특히 배를 육로로 옮기는 곳인 운하 지역이 있습니다.\n\n저는 영토 내 이러한 곳에 있는 일부 기존 요새를 강화하고 필요한 곳은 수리하고, 적절한 곳에는 새로운 요새를 건설할 것을 명령했습니다." # 2591331396312162845
+  galicia2.0026.a: "이 길은 정의로운 여행객들에게 안전할 것입니다!" # 3698223139903708733
+  galicia2.0027.t: "개척을 장려합니다" # 4996090668032291750
+  galicia2.0027.desc: "이 무역로에는 전략적인 장소에 정착촌들이 흩어져 있으며, 특히 배를 육로로 옮겨야 하는 포장지점이 그러한 곳입니다. 이러한 곳은 종종 여러 부족과 민족, 문화와 종교 사이의 만남의 장소가 되곤 합니다.\n\n저는 제 관리들에게 영내 다른 지역에서 사람들을 이주시켜 이러한 무역로 주변에 새로운 정착촌을 건설하거나 기존 정착촌의 인구를 강화하도록 지시했습니다. 이는 이러한 곳의 성장을 촉진하고 지역 경제를 자극할 것입니다." # 2195839048781926003
+  galicia2.0027.a: "이 마을들이 번영하길 바랍니다." # 1420064779446955773
   galicia2.0028.t: "xxxxx" # 1951045980481827005
   galicia2.0028.desc: "xxxxx" # 1951045980481827005
   galicia2.0028.a: "xxxxx" # 1951045980481827005
@@ -358,37 +358,37 @@
   galicia2.0029.desc: "xxxxx" # 1951045980481827005
   galicia2.0029.a: "xxxxx" # 1951045980481827005
   galicia2.0030.t: "야로슬라프의 후계자들" # 17769989264032028791
-  galicia2.0030.desc: "아버지 [yaroslav.GetTitledFirstName]께서 저를 [GetTitleByKey('d_halych').GetNameNoTier]의 통치자 후계자로 선택하신 이유를 의심하는 여지는 없소. 친형 [vladimir.GetFirstName]은 나보다 나이가 많고, 합법적인 아내에게서 태어났지만, 권력욕에 눈이 멀어 자멸적인 짓만 일삼는 어리석은 놈이오. 저는 아직 젊고, 합법적인 자식도 아니지만, 그에 비해 훌륭해 보이소.\n\n하지만 이 빌어먹을 보야르들! 그들은 아버지의 정실 부인이 아닌, 아버지의 정부였던 제 어머니를 마녀라고 모함하여 불 속에서 죽였소.\n\n그들을 모두 없애 버리고 싶지만, 세상이 완벽하지 않다는 건 알고 있소. 아버지의 직책을 물려받는다면, 보야르들은 골칫거리가 될 것이오. 그들은 저를 마녀의 아들로서 통치자로서 자격이 없다고 주장하고, [vladimir.GetFirstNameNoTooltip]를 이용해 더 큰 권력을 쥐려 들 것이오. 살아남으려면 조심해야 하오." # 15724571427048687989
-  galicia2.0030.a: "하늘 어머니여, 우리의 적들로부터 저를 보호하여 주소서…" # 13249521184683871016
+  galicia2.0030.desc: "아버지 [yaroslav.GetTitledFirstName]께서 저를 [GetTitleByKey('d_halych').GetNameNoTier]의 통치자로서 후계자로 정하신 이유를 전혀 의심하지 않습니다.  동생 [vladimir.GetFirstName]은 나보다 나이가 많고, 합법적인 아내에게서 태어났지만, 권력을 탐하는 보야르들에게 쉽게 휘둘리는 방탕하고 낭비적인 멍청이일 뿐입니다.  아직 어린 나이에 불과하고, 불법적인 자식이지만, 비교적 뛰어나 보입니다.\n\n하지만 이 저주스러운 보야르들!  그들은 제 순수한 어머니, 아버지의 정부였던 어머니를 마녀라고 선언했습니다.  그래서 몇 년 전, 그들은 그녀를 장작더미에 태워 죽였습니다.\n\n모두 없애버리고 싶지만, 세상은 완벽하지 않습니다.  만약 아버지의 칭호를 물려받는다면, 보야르들은 문제를 일으킬 것입니다.  그들은 저, 마녀의 아들이 통치할 자격이 없다고 주장하며, [vladimir.GetFirstNameNoTooltip]를 이용해 더 큰 권력을 얻으려 할 것입니다.  살아남으려면 조심해야 합니다." # 15724571427048687989
+  galicia2.0030.a: "하늘의 어머니여, 저를 우리 적들로부터 보호하여 주소서…" # 13249521184683871016
   galicia2.0031.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
-  galicia2.0031.desc: "드디어. 오랜 세월 끝에.\n\n제 노력으로 [GetTitleByKey('d_halych').GetNameNoTier]가 제 굳건한 지배 아래 들어왔음을 확신할 수 있습니다. 어머니, 이제 하늘나라에서 편안히 쉬실 수 있기를 바랍니다. 저의 타락한 동생 [vladimir.GetFirstNameNoTooltip]는 죽었습니다. 더 이상 보야르들은 그를 이용하여 제 통치에 저항할 수 없습니다.\n\n그리고 그 무능한 보야르들? 그들은 저를 그들의 지배자로 받아들이거나, 이곳에 환영받지 못한다는 것을 받아들이는 것을 배우게 되었습니다. 그들은 이제 더 이상 저의 아버지의 뜻, 아니 제 뜻에 반항하지 않을 것입니다.\n\n일부는 여전히 저를 마녀의 아들로 부르지만, 그들은 두려움과 존경심을 동시에 담아서 그렇게 합니다. #italic 저#! 는 이제 [GetTitleByKey('d_halych').GetNameNoTier]를 다스립니다. 다른 누구도 아닙니다." # 10638281718669982230
-  galicia2.0031.a: "어둠의 마법도 능숙하다고들 하네. 그들을 두려워하게 하라!" # 9013507675044125728
+  galicia2.0031.desc: "마침내. 오랫동안 기다리던 순간입니다. \\n제 노력으로 [GetTitleByKey('d_halych').GetNameNoTier]가 저의 굳건한 통제 아래 들어왔습니다. 어머니, 이제 하늘나라에서 편히 쉬실 수 있기를 바랍니다. 저의 타락한 동생, [vladimir.GetFirstNameNoTooltip]는 죽었습니다. 귀족들은 이제 그를 이용하여 제 통치에 저항할 수 없습니다.\\n그리고 그 무능한 귀족들 자신? 그들은 저를 지배자로 받아들이거나, 여기서 환영받지 못할 것이라는 것을 받아들였습니다. 그들은 이제 저의 아버지의 뜻, 아니 제 뜻에 더 이상 반항하지 않을 것입니다.\\n어머니, 일부는 여전히 저를 마녀의 아들이라고 부르지만, 그들은 두려움과 존경심을 섞어 그렇게 말합니다. #italic 저#! 이제 [GetTitleByKey('d_halych').GetNameNoTier]를 다스립니다. 다른 누구도 아닙니다." # 10638281718669982230
+  galicia2.0031.a: "어둠의 마법도 능숙하다고들 하지. 그들을 두려워하게 하라!" # 9013507675044125728
   galicia2.0031.b: "백성들의 지지가 있으니 – #italic 그게# 참된 힘이지!" # 9295879546667290757
-  galicia2.0031.c: "노고 끝에 이제는 지도자로서 존경받게 되었습니다." # 10709270489800046018
+  galicia2.0031.c: "노력 끝에 이제는 존경받는 지도자가 되었습니다." # 10709270489800046018
   galicia2.0032.t: "[GetTitleByKey('d_volhynia').GetNameNoTierNoTooltip]의 공작" # 4130250331726569592
-  galicia2.0032.desc: "[ROOT.Char.GetDynasty.GetName] 왕자들은 수십 년간 단결하지 못했습니다. [ROOT.Char.GetCulture.GetCollectiveNoun]의 땅은 우리 왕가의 왕자들, 외국의 전쟁 영주들, 그리고 감사하지 않고 탐욕스러운 보야르와 평민들 사이의 사소한 다툼에 휩쓸렸습니다.\n\n\n예를 들어, [GetTitleByKey('d_novgorod').GetNameNoTier] 사람들은 한때 저를 그들의 통치자로 초청했습니다. 하지만 짧은 재임 기간 동안 저에게 했던 모든 일에도 불구하고, 그들은 강제로 저에게 떠나라고 요구했습니다. 세상이란 그런 법입니다.\n\n\n몇 년 전, 저는 아버지의 뒤를 이어 [GetTitleByKey('d_volhynia').GetNameNoTier]의 통치자가 되었습니다. 이곳 [ROOT.Char.GetDynasty.GetNameNoTooltip] 영토의 제 영역에서 권력 기반을 확립하는 것이 필수적입니다. 하지만 군사력은 중요하지만, 저를 너무 멀리 데려다주지는 못할 것입니다. 저는 강력한 동맹을 찾아야 합니다.\n\n\n저는 [GetTitleByKey('k_poland').GetNameNoTier]의 통치자들과 혈연으로 연결되어 있지만, 그들의 의도를 경계합니다. 저는 [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]의 영적 어머니인 [GetTitleByKey('e_byzantium').GetNameNoTier]의 통치자들이 이 어려운 시기에 의지할 수 있는 강력한 동맹을 원한다는 소문을 들었습니다." # 1434366574384971873
-  galicia2.0032.a: "아마도 로마의 동맹이 될 만큼 나를 증명할 수 있을지도 모르겠군." # 3187498904923164501
+  galicia2.0032.desc: "[ROOT.Char.GetDynasty.GetName] 공자들은 수십 년간 단합하지 못했습니다. [ROOT.Char.GetCulture.GetCollectiveNoun]의 땅은 우리 왕가의 공자들, 외세 장수들, 그리고 감사하지 않는 탐욕스러운 보야르와 평민들 사이의 사소한 다툼에 휩싸였습니다.\n\n예를 들어, [GetTitleByKey('d_novgorod').GetNameNoTier] 사람들은 한때 저를 그들의 지배자로 초청했습니다. 하지만 짧은 재임 기간 동안 저에 대한 모든 노력에도 불구하고, 그들은 억지로 저를 떠나라고 요구했습니다. 이런 것이 세상의 모습입니다.\n\n몇 년 전, 저는 아버지의 뒤를 이어 [GetTitleByKey('d_volhynia').GetNameNoTier]의 통치자가 되었습니다. 여기, [ROOT.Char.GetDynasty.GetNameNoTooltip] 영토의 이곳에서 권력 기반을 구축하는 것이 필수적입니다. 하지만 군사력은 중요하지만, 그 이상으로 나아가는 데는 한계가 있습니다. 저는 강력한 동맹을 찾아야 합니다.\n\n비록 [GetTitleByKey('k_poland').GetNameNoTier]의 통치자들과 혈연으로 연결되어 있지만, 그들의 의도에 대해 경계합니다. [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]의 영적 어머니인 [GetTitleByKey('e_byzantium').GetNameNoTier]의 통치자들이 어려운 시기에 의지할 수 있는 강력한 동맹을 원한다는 소문을 들었습니다." # 1434366574384971873
+  galicia2.0032.a: "로마의 동맹이 될 자격이 있다는 것을 증명해 보이겠습니다." # 3187498904923164501
   galicia2.0033.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
-  galicia2.0033.desc: "[ROOT.Char.GetDynasty.GetName] 가문의 왕자들 중 가장 강력한 자리에 올랐음은 의심의 여지가 없습니다.  나의 의지로 세운 강력한 왕국, [GetTitleByKey('k_galicia-volhynia').GetNameNoTier]를 지배하며 말입니다. 심지어 다른 다툼 많은 왕자들조차도 어느 정도 나의 권위를 인정해야 합니다.\n\n심지어 [emperor.GetTitledFirstName], [GetTitleByKey('e_byzantium').GetNameNoTier]의 통치자조차도 내 힘을 알고, 동맹을 제안하는 사절을 보냈습니다. 로마인들의 든든한 수호자이자 친구가 된다는 것은 참으로 영광스러운 일입니다!\n\n[emperor.GetFirstNameNoTooltip]은 심지어 [wife.GetFirstName] [wife.GetDynasty.GetName]와의 결혼을 제안했습니다." # 14819487813855595431
-  galicia2.0033.desc.princess: "[황제.GetHerHis] 가족 중 누군가와의 혼인 제안은 결코 가볍지 않습니다 – [황제.GetSheHe]는 절실히 동맹을 원하고 계십니다." # 3724688368090578945
-  galicia2.0033.desc.noble: "[wife.GetSheHe|U]는 저명한 비잔틴 귀족 가문 출신이시며, [wife.GetSheHe]는 제게 제국과의 유용한 관계를 제공할 수 있을 것입니다." # 1460120213220080561
-  galicia2.0033.a: "[wife.GetFirstNameNoTooltip]과의 결혼으로 나의 지위와 업적을 드높이겠노라!" # 18276558597655261159
-  galicia2.0033.b: "현재 결혼 생활은 잘 되어 있지만, 동맹은 나에게 도움이 될 것입니다." # 6290444750754436986
-  galicia2.0033.c: "결혼은 필요치 않습니다. 그들은 제가 동맹으로서 신뢰할 만하다고 생각할 것입니다." # 12560351032209455741
-  galicia2.0034.t: "[roman.GetTitledFirstNameNoTooltip]: 잠재적 동맹?" # 4671205185261490918
-  galicia2.0034.desc: "[roman.GetDynasty.GetName] 왕자들의 북방 영토에서 새로운 강력한 군주가 등장했습니다. [roman.GetTitledFirstName]은 최근 [GetTitleByKey('k_galicia-volhynia').GetNameNoTier]를 장악했으며, 흥미롭게도 [roman.GetFirstName]은 저희에게 접근을 시도하고 있으며, [roman.GetSheHe]는 저와의 동맹에 열려 있습니다. 특히 북방 국경을 확보하려 한다면 [roman.GetSheHe|U]는 유용한 동맹자가 될 수 있습니다.\n\n[roman.GetFirstNameNoTooltip]의 요구는 없지만, 고위 비잔티움 귀족 여성과의 혼례를 제안하면 [roman.GetHerHim]을 저희 영향권에 묶어 동맹을 강화할 수 있습니다. [noble.GetFullName]이 그런 후보로 거론되고 있습니다." # 18273960571035180115
-  galicia2.0034.desc.princess: "가족 구성원과의 혼인도 고려하고 있습니다.  자문관들은 [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('princess'))] [princess.GetFirstName] 공주가 더 좋은 선택이 될 수 있다고 말합니다." # 15175801721426073368
+  galicia2.0033.desc: "[ROOT.Char.GetDynasty.GetName] 가문의 왕자 중, 저보다 강력한 자는 드물 것입니다. 저는 제 뜻으로 세운 강력한 왕국, [GetTitleByKey('k_galicia-volhynia').GetNameNoTier]를 지배하고 있으니 말입니다.  심지어 다른 싸움치는 왕자들도 어느 정도는 제 권위를 인정해야 합니다.\n\n심지어 [emperor.GetTitledFirstName], [GetTitleByKey('e_byzantium').GetNameNoTier]의 통치자조차 제 위세를 알고, 제게 동맹을 제안하는 사절을 보냈습니다. 로마인의 굳건한 수호자이자 친구가 되는 영광이란!\n\n[emperor.GetFirstNameNoTooltip]은 심지어 [wife.GetFirstName] [wife.GetDynasty.GetName]의 손녀를 제게 혼인 제안했습니다." # 14819487813855595431
+  galicia2.0033.desc.princess: "[황제.GetHerHis] 친족과의 혼인을 제안하는 것은 결코 가볍지 않습니다. – [황제.GetSheHe]는 필사적으로 동맹을 원합니다." # 3724688368090578945
+  galicia2.0033.desc.noble: "[wife.GetSheHe|U]는 저명한 비잔틴 귀족 가문 출신이며, 그분은 제게 제국과의 유용한 관계를 제공할 수 있습니다." # 1460120213220080561
+  galicia2.0033.a: "[wife.GetFirstNameNoTooltip]와의 결혼으로 나의 지위와 업적을 보여주겠노라!" # 18276558597655261159
+  galicia2.0033.b: "현재 결혼 생활은 잘 되어 있지만, 동맹은 나에게 유익할 것입니다." # 6290444750754436986
+  galicia2.0033.c: "결혼은 필요치 않습니다. 그들은 나를 동맹으로 신뢰할 것입니다." # 12560351032209455741
+  galicia2.0034.t: "[roman.GetTitledFirstNameNoTooltip]: 잠재적인 동맹?" # 4671205185261490918
+  galicia2.0034.desc: "[roman.GetDynasty.GetName] 왕가의 북방 영토에서 새로운 강력한 통치자가 등장했습니다. [roman.GetTitledFirstName]은 최근 [GetTitleByKey('k_galicia-volhynia').GetNameNoTier]를 장악했습니다. 흥미롭게도, [roman.GetFirstName]은 저희에게 접근하여 저와 동맹을 맺는 데 열려 있습니다. [roman.GetSheHe|U]는 특히 북방 국경을 확보하려 할 때 유용한 동맹자가 될 수 있습니다.\n\n[roman.GetFirstNameNoTooltip]의 요구는 없지만, 비잔틴 귀족 여성과의 결혼을 제안하는 것은 [roman.GetHerHim]을 저희 영향권에 묶어 동맹을 강화하는 데 도움이 될 수 있습니다. [noble.GetFullName]은 이러한 후보로 떠올랐습니다." # 18273960571035180115
+  galicia2.0034.desc.princess: "가족 구성원과의 혼인도 고려해 볼 만합니다. 자문관들은 그[ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('princess'))] [princess.GetFirstName] 공주가 더욱 뛰어난 배우자 후보가 될 수 있다고 말했습니다." # 15175801721426073368
   galicia2.0034.a: "[roman.GetHerHim] [princess.GetFullNamePossessive]의 손을 청혼합니다." # 3523580481293317042
-  galicia2.0034.b: "[roman.GetHerHim] [noble.GetFullNamePossessive] 손을 빌려 결혼을 제안하시겠습니까?" # 4887775599803812742
-  galicia2.0034.c: "이 동맹을 확보하기 위해서는 결혼이 필요하지 않습니다." # 16630226758473842716
+  galicia2.0034.b: "[roman.GetHerHim]께서 [noble.GetFullNamePossessive]의 손길을 청혼합니다." # 4887775599803812742
+  galicia2.0034.c: "이 동맹을 확보하기 위해 결혼은 필요하지 않습니다." # 16630226758473842716
   galicia2.0034.tooltip: "[roman.GetFirstNameNoTooltip]이 결혼 제안을 거절할 수 있지만(특히 [roman.GetSheHe]가 이미 결혼했고 이혼을 거부하는 경우), 동맹은 여전히 성립될 것입니다." # 4873699395805896754
   galicia2.0035.t: "[roman.GetTitledFirstNameNoTooltip]: 새로운 동맹" # 17968375384280305502
-  galicia2.0035.desc: "[roman.GetFullName]이 [wife.GetFirstName] [wife.GetDynasty.GetName]과의 연합 강화를 위해 결혼 제안을 수락했다는 소식을 들었습니다. 이 연합이 양측 모두에게 좋은 결과를 가져다주기를 바라며, [roman.GetFirstNameNoTooltip]이 우리의 북방 국경을 확보하는 데 도움을 주기를 빕니다!\n\n더 나아가, 이 연합을 통해 [wife.GetFirstNameNoTooltip]이 이 북방 지역에 [GetTitleByKey('e_byzantium').GetAdjectiveNoTooltip]의 영향력을 퍼뜨릴 수 있기를 기대해봅니다." # 6626720822275453704
-  galicia2.0035.a: "[ROOT.Char.GetFaith.HighGodName]께 이 동맹이 오래도록 이어지기를 기원합니다." # 6400980762301148750
+  galicia2.0035.desc: "[roman.GetFullName]께서 우리 동맹을 더욱 굳건히 하기 위해 [wife.GetFirstName] [wife.GetDynasty.GetName]와의 결혼을 받아들이셨다는 소식을 전해 들었습니다. 이 동맹이 양측에 이로울 수 있기를 바라며, [roman.GetFirstNameNoTooltip]께서 우리의 북쪽 국경 확보를 도와주시기를 기대합니다!\n\n더욱이, 이번 동맹을 통해 [wife.GetFirstNameNoTooltip]께서 이 북쪽 땅에 [GetTitleByKey('e_byzantium').GetAdjectiveNoTooltip]의 영향력을 펼칠 수 있기를 기대합니다." # 6626720822275453704
+  galicia2.0035.a: "[ROOT.Char.GetFaith.HighGodName]께 기도드립니다. 이 동맹이 오래도록 지속되기를 바랍니다." # 6400980762301148750
   galicia2.0036.t: "$galicia2.0035.t$" # 18401427867732390660
-  galicia2.0036.desc: "[roman.GetFullName]이 [wife.GetFirstName]과의 혼례 제안을 거절했다는 소식을 들었습니다.  그분은 우리 동맹을 공고히 하는 데 그러한 결혼이 필요하지 않다고 여기는 듯합니다." # 13274500283770539724
-  galicia2.0036.desc.wife: "[roman.GetFirstNameNoTooltip]가 [roman.GetHerHis] 현재의 결혼 생활에 만족한다는 소식을 들었습니다." # 6675637701696954008
-  galicia2.0036.desc.conclusion: "결국 이것이 좋은 일인지 나쁜 일인지는 확신할 수 없지만, 동맹을 모욕하지 않기 위해서는 [roman.GetHerHis] 결정을 존중해야 할 것 같습니다. 다행히도 우리는 여전히 이 북쪽 땅에 [GetTitleByKey('e_byzantium').GetAdjectiveNoTooltip] 영향력을 퍼뜨릴 수 있기를 바랍니다." # 8263220972269700232
+  galicia2.0036.desc: "[roman.GetFullName]이 [wife.GetFirstName]과의 결혼 제안을 거절했다는 소식을 들었습니다. [roman.GetSheHe]는 그러한 결혼이 우리 동맹을 공고히 하는 데 필요하지 않다고 생각하는 것 같습니다." # 13274500283770539724
+  galicia2.0036.desc.wife: "[roman.GetFirstNameNoTooltip]께서 [roman.GetHerHis] 현재의 결혼 생활에 만족하신다는 소식을 들었습니다." # 6675637701696954008
+  galicia2.0036.desc.conclusion: "결국, 이것이 좋은 일인지 나쁜 일인지 확신할 수 없지만, 동맹을 모욕하지 않기 위해서는 [roman.GetHerHis] 결정을 존중해야 할 것 같습니다. 다행히 이 북쪽 땅에 [GetTitleByKey('e_byzantium').GetAdjectiveNoTooltip] 영향력을 계속 퍼뜨릴 수 있기를 바랍니다." # 8263220972269700232
   galicia2.0036.a: "$galicia2.0035.a$" # 515782507077244920
   galicia2.0037.t: "xxxxx" # 1951045980481827005
   galicia2.0037.desc: "xxxxx" # 1951045980481827005
@@ -399,11 +399,11 @@
   galicia2.0039.t: "xxxxx" # 1951045980481827005
   galicia2.0039.desc: "xxxxx" # 1951045980481827005
   galicia2.0039.a: "xxxxx" # 1951045980481827005
-  galicia2.0040.t: "두 형제, 하나의 유산" # 16340912286172238970
-  galicia2.0040.desc: "[야로슬라프.GetTitledFirstName]의 아버지께서 돌아가셨습니다. 많은 이들이 그를 위대한 군주로 칭송하며 [야로슬라프.GetNickname]이라는 칭호를 수여하셨습니다.\n\n하지만 그의 죽음과 함께, 형제 간의 갈등이 불가피해 보입니다." # 7304111283849481208
-  galicia2.0040.desc.vladimir: "[oleg.GetFirstName], 저 저주받은 마녀 [anastasia.GetFirstName]의 자식, 아버지의 칭호를 물려받았습니다. 제 것이어야 할 칭호를 말입니다! 아버지는 현명한 사람이 아니었고, 얄미운 여인의 말에 귀 기울였지, 아버지의 진정한 아내이자 저의 어머니의 말씀은 외면하셨습니다.\n\n저를 지지할 많은 보야르들이 있습니다. 하지만 그들은 완전히 믿을 수 없습니다. 다른 동맹을 찾아야 할지도 모릅니다. 예를 들어 먼 [vladimir.GetDynasty.GetName] 친척들, 혹은 외국 군주들 중에서 말입니다. 결국, 제 사치스러운 생활을 계속 누리기 위해 필요한 일이라면 무엇이든 할 것입니다. 분명히, 저에게 마땅한 생활입니다. [oleg.GetFirstNameNoTooltip]와는 다릅니다!" # 6369161895999297031
-  galicia2.0040.desc.oleg: "저 뽐내는 짓거리만 하는 사악한 [vladimir.GetFirstName]은, 그가 나의 형제이니만큼 아버지가 내게 물려주신 작위를 상속받았어야 했습니다. 아버지는 [vladimir.GetFirstNameNoTooltip]이 무능한 통치자일 것이며, 어머니 [anastasia.GetFirstName]을 잔혹하게 살해한 바로 그 귀족들에게 쉽게 지배당할 것이라고 예견하셨을 것입니다.\n\n바로 그 귀족들은 [vladimir.GetFirstNameNoTooltip]이 왕위에 오르도록 모든 노력을 기울일 것입니다. 이 문제의 귀족들을 달래고, [vladimir.GetFirstNameNoTooltip]을 제거하고 살아남기 위해서는 다른 곳에서, 예를 들어 먼 친척인 [vladimir.GetDynasty.GetName] 가문이나 심지어 외국 군주들과 같은 동맹을 찾아야 할 것입니다. 아버지는 제가 더 나은 상속자임을 아셨고, 나는 아버지께 실망시키지 않을 것입니다!" # 13131243437585503917
-  galicia2.0040.a: "주의하시오, ‘귀한’ 형제여 – 당신은 #italic 막힐#! 것입니다!" # 3340110447751032214
+  galicia2.0040.t: "두 형제, 하나의 상속" # 16340912286172238970
+  galicia2.0040.desc: "[yaroslav.GetTitledFirstName] 아버지께서 돌아가셨습니다. 많은 이들이 그분을 위대한 군주 [yaroslav.GetNickname]으로 칭송하였습니다.\n\n하지만 그분의 죽음과 함께 형제들 사이의 갈등은 불가피해 보입니다." # 7304111283849481208
+  galicia2.0040.desc.vladimir: "[oleg.GetFirstName], 저 저주받은 마녀 [anastasia.GetFirstName]의 새끼는, 마땅히 제 것이어야 할 아버지의 칭호를 물려받았습니다! 아버지는 현명한 사람이 아니었고, 제 어머니, 그의 참된 아내가 아닌, 꼬맹이 애첩의 말만 들었던 어리석은 사람이었습니다.\n\n제 주장을 밀어붙일 경우, 많은 보야르들이 제 편에 설 것을 약속했습니다. 하지만 그들은 완전히 믿을 수 없다는 것을 알고 있습니다. 먼 [vladimir.GetDynasty.GetName] 친척이나 심지어 외국 군주들과 같은 다른 곳에서 동맹을 찾아야 할지도 모릅니다. 결국, 제가 당연히 누려야 할 사치스러운 삶을 계속 이어나가기 위해 필요한 모든 일을 할 것입니다. – [oleg.GetFirstNameNoTooltip] 같은 삶이 아닌 말입니다!" # 6369161895999297031
+  galicia2.0040.desc.oleg: "그 오만하고 거만한 퇴폐자 [vladimir.GetFirstName]는, 그가 제 장자 반형제이기 때문에 원래 저에게 아버지가 내려주신 작위를 물려받아야 했습니다. 아버지는 [vladimir.GetFirstNameNoTooltip]이 무능한 통치자이며, 어머니 [anastasia.GetFirstName]를 잔혹하게 살해한 바로 그 보야르들에 의해 손쉽게 통제될 것을 예견하셨을 것입니다.\n\n바로 그 보야르들은 [vladimir.GetFirstNameNoTooltip]을 왕위에 올리기 위해 모든 노력을 다할 것입니다. 저는 이 문제적인 보야르들을 진정시키고, [vladimir.GetFirstNameNoTooltip]을 제거하고 살아남기 위해 먼 곳의 [vladimir.GetDynasty.GetName] 친척들, 또는 심지어 외국 군주들과 같은 다른 곳에서 동맹을 찾아야 할지도 모릅니다. 아버지는 제가 더 나은 상속자임을 알고 계셨고, 저는 그분을 실망시키지 않을 것입니다!" # 13131243437585503917
+  galicia2.0040.a: "주의하라, ‘귀한’ 형제여 – 네 #italic 멈출#! 것이다!" # 3340110447751032214
   galicia2.0041.t: "xxxxx" # 1951045980481827005
   galicia2.0041.desc: "xxxxx" # 1951045980481827005
   galicia2.0041.a: "xxxxx" # 1951045980481827005
@@ -432,38 +432,38 @@
   galicia2.0049.desc: "xxxxx" # 1951045980481827005
   galicia2.0049.a: "xxxxx" # 1951045980481827005
   galicia2.0050.t: "준비" # 666839747819429162
-  galicia2.0050.desc: "여름 지점이 다가왔으니, 즉 쿠팔라 밤 축제를 기념할 때가 되었습니다! 아무도 기억하지 못할 만큼 오랫동안 우리의 풍습이었습니다.\n\n근처 마을로 가서 축제에 참여할 예정입니다." # 7829770517578150535
-  galicia2.0050.desc.non_pagan: "일부 열렬한 [ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]는 그 풍습을 비난하며, 축제에 참여하는 자들은 [ROOT.Char.GetFaith.DevilName]의 명령에 따라 어둠의 힘을 숭배한다고 주장하지만, 대다수는 그들의 헛소리를 무시합니다." # 9461677820317974841
+  galicia2.0050.desc: "하지만 여름 지점이 다가왔고, 그것은 쿠팔라 밤을 축하할 때라는 뜻입니다!  누구도 기억할 수 있을 만큼 오랫동안 우리의 방식이었습니다.\n\n근처 마을에 가서 축제에 참여할 예정입니다." # 7829770517578150535
+  galicia2.0050.desc.non_pagan: "일부 열성적인 [ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]는 그 풍습을 비난하며, 축제에 참여하는 자들이 [ROOT.Char.GetFaith.DevilName]의 명령을 따르고 어둠의 힘을 숭배한다고 주장하지만, 대다수 사람들은 그들의 헛소리를 무시합니다." # 9461677820317974841
   galicia2.0050.a: "곧 하지가 다가옵니다!" # 10183307926148998958
   galicia2.0051.t: "수질 정화" # 10610341653320421541
-  galicia2.0051.desc: "쿠팔라 축제의 날입니다!\n\n정화는 언제나 이 날의 중요한 부분이었습니다. 불과 물을 통한 정화입니다. 물론 밤늦게는 불길이 타오를 횃불이 기다리고 있겠지만, 지금은 물을 통해 우리 자신을 정화하는 데 집중해야 합니다.\n\n축제에 참여한 사람들은 마을 주변의 강, 호수, 샘물, 어떤 물줄기라도 있는 곳에 모여들었습니다. 마을 사람들 중 일부는 축제의 일환으로 약초와 식물을 찾아 나섰지만, 저는 물에 몸을 담그며 스스로를 치유하고 정화하는 시간을 갖습니다." # 7154431232616147040
-  galicia2.0051.a: "벌써 꽤나 정화된 기분입니다." # 5645376709917459852
-  galicia2.0052.t: "불가마" # 1319056604201783164
-  galicia2.0052.desc: "해가 저물 무렵, 쿠팔라 불길은 장관을 이룹니다. 특히 미혼 남녀가 나무뿐만 아니라 낡은 옷과 부서진 물건들, 그리고 그날 마을 주민들이 꺾어온 꽃과 약초로 만든 화환까지 넣어 불을 지폈습니다. 무엇보다 중요한 것은 정화 의식을 위해 불 속에 던져진 짚 인형입니다.\n\n화환을 쓴 남녀가 불 주변을 춤추며 때로는 저속한 노래를 부릅니다. 그 자리에 있던 젊은 연인 몇몇은 불 위를 뛰어넘으려 합니다. 성공적으로 뛰어넘는 이들은 행운과 재물을 얻었다고 합니다." # 333962641446455963
-  galicia2.0052.desc.lover: "[jumper.GetFirstName]가 나를 의미심장하게 흘끗 쳐다보는군요.  함께 불 위로 뛰어넘어 보는 건 어떨까요?" # 10733949339780559734
+  galicia2.0051.desc: "쿠팔라 축제날입니다!\n\n정화는 오늘 하루에도 중요한 부분입니다. 불과 물을 통해 정화하는 것이지요.  밤늦게는 불꽃놀이가 있겠지만, 지금은 물로 스스로를 깨끗이 하는 데 집중해야 합니다.\n\n마을 주민들은 강, 호수, 샘물, 그리고 마을 주변에 있는 모든 물줄기로 모여 축제를 즐깁니다.  일부 마을 주민들은 축제의 일환으로 약초와 식물을 찾으러 갔지만, 저는 물에 몸을 담그며 나를 치유하고 정화하는 시간을 가집니다." # 7154431232616147040
+  galicia2.0051.a: "이미 꽤 정화된 기분입니다." # 5645376709917459852
+  galicia2.0052.t: "번화한 불길" # 1319056604201783164
+  galicia2.0052.desc: "해가 저물 무렵, 꾸팔라 불길은 장관입니다. 불은 특히 미혼의 젊은 남자와 여자들이 나무뿐 아니라 낡은 옷과 부서진 물건들, 그리고 그날 마을 사람들이 꺾어 온 꽃과 허브로 만든 화환으로 만들었습니다. 무엇보다 중요한 것은 정화 의식을 위해 불 속에 던져지는 짚 인형입니다.\n\n화환을 쓴 남자와 여자들이 불 주위를 춤추며, 때로는 농담어린 노래를 부릅니다. 그 자리에 있는 젊은 연인들은 불 위를 뛰어넘으려 애씁니다. 성공적으로 뛰어넘는 이들은 행운과 재물을 얻었다고 합니다." # 333962641446455963
+  galicia2.0052.desc.lover: "[jumper.GetFirstName]가 나를 뜻깊게 흘끔 쳐다보네.  함께 불 속으로 뛰어들어 보는 건 어떨까?" # 10733949339780559734
   galicia2.0052.a: "꽤나 축제 분위기네." # 18060885914161435955
-  galicia2.0052.b: "자, [jumper.GetFirstNameNoTooltip]님, 불 위로 뛰어넘어봅시다!" # 5226548583500457266
-  galicia2.0053.t: "식물을 찾으십니까?" # 11311907136124759885
-  galicia2.0053.desc: "밤이 깊어지면, 일부 사람들은 하루 종일 찾아다녔던 귀중한 약초와 식물을 찾아 들판으로 나섭니다. 하지만 밤은 특별한 시간입니다. 행운아라면 이때 가장 유명하고 찾기 어려운 보물, 바로 [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )]을 발견할 수 있다고 합니다.\n\n보통 이끼는 꽃이 없습니다. 이러한 꽃은 쿠팔라 밤에만 피는 것으로 알려져 있습니다. 이러한 꽃을 발견하고, 이 꽃을 지키는 위험한 정령의 손아귀에서 벗어나면 기적적인 힘을 얻는다고 합니다." # 18059970036424850342
-  galicia2.0053.a: "여기서 동료들과 함께 있는 게 좋습니다." # 10448074840108443512
-  galicia2.0053.b: "고사리꽃을 찾는 일이 재미있겠군!" # 2539315630819412804
-  galicia2.0053.b.tooltip: "희귀하고 전설적인 [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )]을 찾으려면, 작은 확률로 발견할 수 있습니다." # 12699330655459765644
+  galicia2.0052.b: "자, [jumper.GetFirstNameNoTooltip]님, 불길을 건너뛰어 봅시다!" # 5226548583500457266
+  galicia2.0053.t: "식물을 찾으시는군요?" # 11311907136124759885
+  galicia2.0053.desc: "밤이 깊어짐에 따라, 일부 사람들은 하루 종일 그래왔듯이 귀중한 약초와 식물을 찾아 들판으로 나섭니다. 하지만 밤은 특별한 시간입니다. 행운을 가진 소수만이 찾는 가장 유명하고도 흔적 없는 보물, [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )]을 발견할 수 있는 때라고 전해지기 때문입니다.\n\n보통, 양치류는 꽃이 없습니다. 그런 꽃은 쿠팔라 밤에만 피는 것으로 알려져 있습니다. 그러한 꽃을 발견하고, 그 꽃들을 지키는 위험한 영혼들의 손아귀에서 벗어나는 데 성공한 사람은 기적적인 능력을 얻는다고 합니다." # 18059970036424850342
+  galicia2.0053.a: "여기서 친구들과 함께 있는 게 더 좋습니다." # 10448074840108443512
+  galicia2.0053.b: "고사리 꽃을 찾는 것이 재미있겠군!" # 2539315630819412804
+  galicia2.0053.b.tooltip: "희귀하고 전설적인 [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )]을 찾으려고 합니다.  발견 확률은 낮습니다." # 12699330655459765644
   galicia2.0054.t: "결론" # 3822412533199628403
-  galicia2.0054.desc: "많은 시간이 흘러, 쿠팔라 불꽃놀이가 드디어 꺼지려 하고 있습니다. 관례대로 저와 모든 사람들이, 좋은 운을 빌며 죽어가는 불씨 위를 뛰어넘고 있습니다.\n\n글쎄, 분명 즐겁고, 중요한 의식들을 치러야 했던 만큼 정화되는 경험이었어요. 이제 여름이 정말 시작되었네요." # 8771115085585913176
-  galicia2.0054.a: "여름이 왔군요." # 5569904409978745432
+  galicia2.0054.desc: "많은 시간이 흘러, 쿠팔라 불길이 드디어 꺼져가기 시작했습니다. 관습대로 저와 모든 사람들은 좋은 운을 기원하며 꺼져가는 불씨 위를 뛰어넘었습니다.\n\n글쎄, 정말 재미있었고, 물론 우리가 해야 할 중요한 의식들을 고려하면 정화의 시간이기도 했습니다. 이제 여름이 진정으로 시작되었습니다." # 8771115085585913176
+  galicia2.0054.a: "겨울이 다가오고 있습니다." # 5569904409978745432
   galicia2.0055.t: "식물 채집" # 1586533806845009704
-  galicia2.0055.desc: "쿠팔라 기간에 약초, 꽃, 그리고 다양한 식물을 모으는 풍습은 중요합니다. 올해 저는 쿠팔라 기간에 이러한 활동에 참여하게 되었습니다.\n\n여름 지점에 이러한 식물들은 큰 힘을 얻는다고 하니, 이때 모으는 것이 좋다고 합니다. 아마 나중에 [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )]도 찾을 수 있을지도 모르겠네요…." # 9240434238135784616
-  galicia2.0055.a: "편하게 즐기겠습니다." # 3557483061625563001
-  galicia2.0055.b: "이 중요한 일에 집중해야겠군!" # 13118092929325665770
-  galicia2.0055.b.tooltip: "후에 찾기로 결정하면 [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )]을 발견할 가능성이 조금 #P 증가합니다!" # 10017139100302541138
-  galicia2.0056.t: "Fern Flower" # 16599054300932763334
-  galicia2.0056.desc: "믿을 수 없어… 아니, 내 눈이 속이고 있는 게 아닐 거야…\n\n이게 바로 그것이구나. 이건 [표제어( '이끼꽃', '이끼꽃_표제' )]여야 해. 응, 꽃이 전설에 나온 것처럼 붉어…\n\n위험한 정령들이 그 존재를 발견하기 전에 꺾어서 내게 가져가야 해." # 15791198796680286581
-  galicia2.0056.a: "그렇소! 그렇소! [ROOT.Char.GetFaith.HighGodName]께 감사하노라! 이것을 찾았으니!" # 12350180104092290209
-  galicia2.0057.t: "애정 어린 만남인가?" # 5361546612440075965
-  galicia2.0057.desc: "어찌하여 이곳에서 그대를 만나게 되었는지, 참으로 우연이군, [ROOT.Char.Custom('RomanticComplimentAdjective')] [ROOT.Char.Custom('RomanticComplimentNoun')]…\n\n돌아서니 [lover.GetFirstName]가 미소를 머금고 그대의 얼굴을 바라보고 있었네.\n\n나는 쿠팔라 밤에 다른 이들처럼 꽃과 약초, 그리고 그 밖의 식물들을 찾아 헤매고 있었지. 특히 [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )] 같은 것 말이야. 물론 들판을 헤매다 다른 이들과 만나는 일도 흔하니, 특히 젊은 연인들은 “찾아다니는” 척하며 사랑을 나누는 일도 종종 있지." # 1459363193835092720
-  galicia2.0057.a: "참으로 재미있는 우연이군요. 서로 \"도와\"주는 것도 좋겠네요…." # 14822532712780570796
-  galicia2.0057.a.tooltip: "자연 속에서 즐거운 시간을 보냈군요." # 4568783597854040121
-  galicia2.0057.b: "좋군, 여기에 있다니 – 식물 좀 찾아줄 수 있겠나요?" # 13541738578894751018
+  galicia2.0055.desc: "쿠팔라 기간에 약초, 꽃, 다양한 식물을 채집하는 풍습은 중요합니다. 올해 쿠팔라 기간에 이에 참여하게 되었습니다.\n\n여름 지점 기간에 이러한 식물들은 특별한 힘을 얻는다고 하니, 이 시기가 그러한 식물을 채집하기에 아주 좋은 때라고 합니다. 아마 나중에 [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )]를 찾을 수 있을지도…" # 9240434238135784616
+  galicia2.0055.a: "편하게 하고 즐겁게 하겠습니다." # 3557483061625563001
+  galicia2.0055.b: "이 중요한 임무에 집중해야겠군!" # 13118092929325665770
+  galicia2.0055.b.tooltip: "후에 찾기로 결정하면 [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )]을 발견할 가능성이 약간 #P 증가합니다!" # 10017139100302541138
+  galicia2.0056.t: "번영의 꽃" # 16599054300932763334
+  galicia2.0056.desc: "믿을 수가 없어… 내 눈이 속이는 게 아니겠지…\n\n이게 바로 그거야. [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )]가 분명해. 그래, 꽃이 전설처럼 붉은데…\n\n위험한 영혼들이 지키는 꽃이니, 내 존재를 발각되기 전에 따서 내 곁에 두어야 해." # 15791198796680286581
+  galicia2.0056.a: "예! 예! [ROOT.Char.GetFaith.HighGodName]께 감사합니다! 이걸 발견했네요!" # 12350180104092290209
+  galicia2.0057.t: "애정 어린 만남?" # 5361546612440075965
+  galicia2.0057.desc: "어떻게 여기서 그대를 만나게 되었는지, 정말 우연이군, [ROOT.Char.Custom('RomanticComplimentAdjective')] [ROOT.Char.Custom('RomanticComplimentNoun')]…\n\n돌아서 보니, [lover.GetFirstName]이 미소를 머금은 채 그대의 [lover.GetHerHis] 얼굴로 다가오네.\n\n나는 쿠팔라 밤에 다른 사람들처럼 꽃과 약초, 그리고 다른 식물들을 찾아 모으려 했었지. 특히 [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )] 말이야. 물론, 모두가 들판에서 찾아다니니, 때때로 다른 사람들을 만나게 되고, 특히 젊은 연인들은 \"찾는\" 동안 사랑스러운 모험을 즐기는 일도 드물지 않지." # 1459363193835092720
+  galicia2.0057.a: "재밌는 우연이군요. 서로 \"돕\"자고요…." # 14822532712780570796
+  galicia2.0057.a.tooltip: "#약간 자연 속에서 즐거운 시간을 보냈습니다.#!" # 4568783597854040121
+  galicia2.0057.b: "좋군요!  식물들을 찾아드릴 수 있겠습니다." # 13541738578894751018
   galicia2.0058.t: "xxxxx" # 1951045980481827005
   galicia2.0058.desc: "xxxxx" # 1951045980481827005
   galicia2.0058.a: "xxxxx" # 1951045980481827005
@@ -530,31 +530,31 @@
   galicia2.0079.t: "xxxxx" # 1951045980481827005
   galicia2.0079.desc: "xxxxx" # 1951045980481827005
   galicia2.0079.a: "xxxxx" # 1951045980481827005
-  galicia2.0080.t: "[county.GetNameNoTierNoTooltip]에서 화장이 행해졌습니다." # 5740347582931128510
-  galicia2.0080.desc: "염려스러운 [ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]로부터 [county.GetNameNoTier] 주변 여러 마을에서, 일부 마을의 [ROOT.Char.GetFaith.GetReligion.GetAdherentNamePluralNoTooltip]들이 여전히 고인을 화장하는 [GetReligionByKey('slavic_religion').GetName]의 옛 풍습을 지키고 있다는 소식을 받았습니다.\n\n저의 [chaplain.GetCouncilTitle], [chaplain.GetTitledFirstName]는 이러한 풍습에 제동을 걸어야 한다고 주장합니다.  제대로 된 [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] 장례식이 점차 퍼지고 있지만, [chaplain.GetSheHe]는 그 속도가 충분하지 않다고 우려하고 있습니다." # 2419266724997442421
+  galicia2.0080.t: "[county.GetNameNoTierNoTooltip]에서 화장이 행해지고 있습니다." # 5740347582931128510
+  galicia2.0080.desc: "[ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')]의 우려하는 소식이 [county.GetNameNoTier] 주변의 여러 마을에서 일부 [ROOT.Char.GetFaith.GetReligion.GetAdherentNamePluralNoTooltip]들이 여전히 고인을 화장하는 [GetReligionByKey('slavic_religion').GetName] 풍습을 지키고 있다는군요.\n\n저의 [chaplain.GetCouncilTitle], [chaplain.GetTitledFirstName]는 이 문제에 대해 어떤 조치가 취해져야 한다고 강력하게 주장합니다.  제대로 된 [ROOT.Char.GetFaith.GetReligion.GetAdjectiveNoTooltip] 장례식을 받아들이는 풍습이 점차 확산되고 있지만, [chaplain.GetSheHe]는 그 속도가 충분하지 않다고 걱정합니다." # 2419266724997442421
   galicia2.0080.a: "이 이교도적인 관습은 막아야 합니다." # 1394778567160671804
-  galicia2.0080.b: "농민들을 강요하여 변화시키는 것은 노력할 가치가 없습니다." # 2213231235369629344
-  galicia2.0080.info: "#bold 역사적 배경:# 최근까지도 많은 기독교 교파에서 화장은 신의 창조물에 대한 무례한 행위이며, 신체의 부활을 방해한다고 여겨 부정적으로 인식되었습니다. 그럼에도 불구하고 기독교화 이후에도 많은 슬라브 민족들 사이에서 화장이 계속되었습니다. 때로는 더 일반적으로 받아들여지는 기독교 장례식과 함께 이루어진 것으로 보입니다. 예를 들어, [GetTitleByKey('d_mazovia').GetAdjectiveNoTooltip]와 루스의 국경 지역, 즉 서슬라브와 동슬라브가 거주하는 지역에서는 13세기까지 화장과 매장이 모두 행해졌다는 고고학적 증거가 있습니다. 이 지역에서 매장의 증가는 심지어 다른 지역에서 이주해 온 기독교 인구와 관련이 있을 것이라는 가설이 제기됩니다." # 17408625755253073206
+  galicia2.0080.b: "농민들을 강요하여 변화시키려는 노력은 보람이 없을 겁니다." # 2213231235369629344
+  galicia2.0080.info: "#bold 역사적 배경:# 최근까지 많은 기독교 교파들은 화장을 신의 창조물에 대한 불경과 신체 부활에 대한 방해로 여겨 부정적으로 바라보았습니다. 그럼에도 불구하고, 기독교화 이후에도 많은 슬라브 민족들 사이에서 화장은 여전히 행해졌으며, 때로는 더욱 받아들여지는 기독교 장례식과 함께 병행된 것으로 보입니다. 예를 들어, 서슬라브와 동슬라브가 거주하는 [GetTitleByKey('d_mazovia').GetAdjectiveNoTooltip]와 루스의 국경 지역에서는 13세기까지 화장과 매장이 모두 행해졌다는 고고학적 증거가 있습니다. 이 지역에서 매장의 증가는 심지어 다른 곳에서 이주해 온 기독교 인구와 관련이 있다는 가설이 제기되고 있습니다." # 17408625755253073206
   galicia2.0081.t: "[GetGeographicalRegion('RICE_galicia_volhynia_region').GetNameNoTooltip]의 건축 양식" # 8702140902988314759
-  galicia2.0081.desc: "[GetGeographicalRegion('RICE_galicia_volhynia_region').GetName]의 건축 양식은 오랫동안 지역의 위치적 특성상 중부 유럽, 동부 유럽, 그리고 비잔티움의 영향이 어우러져 왔습니다.\n\n최근 몇몇 신하들이 [county.GetNameNoTier] 출신 [culture.GetName] 장인들과 연락을 취했습니다. 그들은 이러한 혼합된 건축 양식으로 아름다운 기념물과 건물을 건설하는 데 뛰어난 기술을 지녔습니다. 그들은 제가 상당한 보수를 지불한다면 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]에 정착하여 여러 건축 프로젝트에 참여하고자 합니다.\n\n그들이 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]의 건축적인 위용에 큰 기여를 할 수 있을 것이라는 점은 의심의 여지가 없습니다!" # 5047001828694348225
+  galicia2.0081.desc: "[GetGeographicalRegion('RICE_galicia_volhynia_region').GetName]의 건축 양식은 오랫동안 중부 유럽, 동부 유럽, 비잔틴 양식의 혼합이었는데, 이는 그 지역의 위치 때문입니다.\n\n\n최근 몇몇 관료들이 [culture.GetName] 장인들과 연락을 했습니다. 그들은 [county.GetNameNoTier] 출신으로 이 혼합 건축 양식으로 아름다운 기념물과 건물을 건설하는 기술로 유명합니다.  만약 그들에게 상당한 보상을 준다면, 그들은 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]에 정착하여 다양한 건설 프로젝트에 참여하고 싶어 합니다.\n\n\n틀림없이 그들은 [ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]의 건축적인 위용에 크게 기여할 수 있을 것입니다!" # 5047001828694348225
   galicia2.0081.a: "[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTierNoTooltip]에 오신 것을 환영합니다!" # 5996801461407407414
-  galicia2.0081.b: "그들의 도움은 필요하지 않습니다." # 11712015319300337295
-  galicia2.0081.info: "#bold 역사적 배경:#! 12세기와 13세기경, [GetGeographicalRegion('RICE_galicia_volhynia_region').GetName]에는 고대 루스 양식과 11~12세기에 유럽 대부분을 지배했던 로마네스크 양식이 융합된 독특한 건축 양식이 등장했습니다. 폴란드, 헝가리, 체코 공화국 출신 건축가와 장인들이 지역 귀족들의 후원을 받으며 이러한 전통 발전에 중요한 역할을 했을 것이라고 추측됩니다. 예를 들어, 이 전통의 초기 건물 중 하나인 구세주 4주형 교회(1140년대 후반)와 [GetTitleByKey('c_halych').GetNameNoTier]의 승천 대성당(1140년대 말~1150년대 초)은 폴란드 장인들의 공으로 건설되었을 가능성이 있습니다." # 12303566823963201594
-  galicia2.0082.t: "코치닐 상인들" # 3983850631659141012
-  galicia2.0082.desc: "[Glossary( 'cochineal', 'COCHINEAL_GLOSS' )]은 저의 영토에서 수익성이 높은 수출품 중 하나이지만, 한 가지 문제가 있습니다. 그것은 일 년 중 특정 시기에만 생산될 수 있으며, 일반적으로 곤충의 애벌레를 수확할 수 있는 여름의 짧은 기간 동안만 가능합니다.  주변에 넉넉하게 공급될 만큼 많은 양의 [Glossary( 'cochineal', 'COCHINEAL_GLOSS' )]가 없어 가격이 높아집니다.\n\n오늘 저를 방문한 외교 사절은 이 점을 이해하지 못했습니다. 우리의 대화는 [Glossary( 'cochineal', 'COCHINEAL_GLOSS' )]에 관한 주제로 이어졌고, 이 외교 사절은 생산자들을 비난하지는 않았지만, [Glossary( 'cochineal', 'COCHINEAL_GLOSS' )]를 거래하는 상인들을 비웃으며 그들은 좋은 [Glossary( 'cochineal', 'COCHINEAL_GLOSS' )]를 얻기가 어려워 특별한 대우를 받아야 하는 교활한 무리라고 주장했습니다." # 12809137215467766593
-  galicia2.0082.a: "사신에게 벌레집 거래가 어떻게 이루어지는지 설명해야 합니다." # 1035502998332369791
+  galicia2.0081.b: "그들의 도움은 필요치 않습니다." # 11712015319300337295
+  galicia2.0081.info: "#bold 역사적 배경:# 12세기와 13세기경, [GetGeographicalRegion('RICE_galicia_volhynia_region').GetName]에서는 고대 러시아 건축 양식과 11세기와 12세기 유럽을 지배했던 로마네스크 양식이 융합된 독특한 건축 양식이 등장했습니다. 폴란드, 헝가리, 체코 공화국의 건축가와 장인들이 지역 귀족들의 후원을 받아 이 전통의 발전에 중요한 역할을 했다고 추측됩니다. 예를 들어, 이 전통의 초기 건축물 중 일부는 1140년대 후반에 지어진 구세주 4주탑 교회와 1140~1150년대 전환기에 지어진 [GetTitleByKey('c_halych').GetNameNoTier]의 승천 대성당으로, 폴란드 장인들의 공을 인정받는 건물입니다." # 12303566823963201594
+  galicia2.0082.t: "코치닐 상인" # 3983850631659141012
+  galicia2.0082.desc: "[Glossary( 'cochineal', 'COCHINEAL_GLOSS' )]은 저의 영토에서 수익성이 높은 수출품 중 하나이나, 한 가지 문제가 있습니다.  그것은 일 년 중 특정 시기에만 생산될 수 있습니다.  보통 여름철, 깍지벌레 유충을 수확할 수 있는 좁은 시간대에만 생산됩니다.  따라서 깍지벌레는 결코 풍부하지 않아 가격이 높게 형성됩니다.\n\n오늘 저를 방문한 외교 사절은 이 점을 이해하지 못했습니다.  우리의 대화는 깍지벌레로 이어졌고, 그 외교 사절은 생산자들을 비난하지는 않았지만, 깍지벌레를 거래하는 상인들을 비웃었습니다.  그들은 훌륭한 깍지벌레를 얻기가 어려워 특별 대우를 받아야 하는 교활한 무리라고 주장했습니다." # 12809137215467766593
+  galicia2.0082.a: "사절에게 벌레깍지염색 무역이 어떻게 작동하는지 설명해야 합니다." # 1035502998332369791
   galicia2.0082.b: "사신의 말이 틀리지 않았습니다. 상인들은 정말 못된 짓을 합니다." # 6183197751098360046
-  galicia2.0083.t: "선조들의 여정에 대한 여행자의 기록" # 13264209818331738443
-  galicia2.0083.desc: "오늘, 한 박식한 학자로부터 재미있고 흥미로운 이야기를 들었습니다. 그는 옛날 외국 여행자의 글을 우연히 발견했다고 하는데, 그 여행자는 우리 조상의 땅, [ROOT.Char.GetCulture.GetCollectiveNoun]의 땅을 지나갔다고 합니다.\n\n그 여행자는 우리 선조들에 대해 이렇게 적었다고 합니다. “난 그렇게 완벽한 신체를 가진 사람들을 본 적이 없어. 키가 척박한 야자수처럼 크고, 금발에 홍조가 돌았지.”\n\n하지만 그 여행자는 상당히 편견이 많았던 모양입니다. 우리 조상들을 “가장 더러운” 사람들이라고 묘사하며, “청결에 무관심하고, 함부로 관계를 맺고 씻지 않는 짐승 같은” 사람들이라고 주장했습니다." # 2355323783180663917
-  galicia2.0083.a: "좋고 나쁜 면 모두 어느 정도는 사실일 거라고 생각합니다." # 6497766336240210662
-  galicia2.0083.b: "우리 조상들에 대한 재미있고, 분명히 허황된 이야기들이군!" # 6598301363701813700
-  galicia2.0083.c: "저 '여행자'는 거만하고 편견에 찬 멍청이군!" # 11255533169429857145
-  galicia2.0083.info: "#bold 역사적 배경:# 10세기 아랍 탐험가 이븐 파드란은 아바스 칼리파가 볼가 불가리아 왕에게 파견한 사절단 일원으로 동유럽 일부 지역을 여행했습니다. 이 이벤트의 인용문은 그가 목격한 루스족의 장례식에 대한 그의 기록에서 나왔습니다. 그의 기록에는 루스족 수장의 장례식이 화장과 수장의 노예 소녀를 제물로 바치는 의식을 포함하고 있었습니다. 이븐 파드란의 루스 통역관은 장례식 중에 그에게 “당신 아랍인들은 바보입니다.”라며 “가장 사랑하고 존경하는 사람들을 땅에 묻어 벌레와 곤충에게 갉아먹게 합니다. 우리는 그를 순식간에 태워서 즉시 천국에 들어가게 합니다.”라고 웃으며 말했다고 합니다." # 15677404256972520189
-  galicia2.0084.t: "호지위드 수프" # 12398627212115436354
-  galicia2.0084.desc: "[ROOT.Char.GetCurrentLocation.GetName] 여행 중, 우리는 밤을 지새우기 위해 겸손한 [culture.GetName] 농부들의 집에서 잠시 쉬었습니다. 밖에서 자는 것보다는 나았지만, 그리 편안한 곳은 아니었습니다. 하지만 그들의 환대는 참으로 따뜻했습니다.\n\n다음 날, 우리는 #italic 돼지풀#!로 만든 수프를 먹었습니다. 혹은, 더 정확하게 말하자면, 이 식물의 절인 줄기, 잎, 꽃차례로 만든 것이지요. 빈민들의 음식이었겠지만, 신선하고 매콤한 맛이 참으로 좋았습니다!" # 13680001284921736309
-  galicia2.0084.a: "손님맞이에 감사합니다. 그리고 맛있는 수프에 감사드립니다." # 8362264628757598166
-  galicia2.0084.b: "음… 정말 맛있는 음식이 그리워…" # 821991675297101189
-  galicia2.0084.info: "#bold 역사적 배경:# #italic 보르슈#는 우크라이나, 폴란드, 러시아 등 여러 슬라브 국가의 음식 문화에서 널리 퍼져 있습니다. 이것은 다갈색 사탕무로 만든 수프입니다. 그 역사적 선구자는 #italic 돼지풀#로 만든 신맛이 나는 수프였습니다. 돼지풀 식물의 일부를 잘라 물에 절여 두면 발효된 제품이 생겨서 이것으로 수프를 만들었습니다." # 14358697697948208721
+  galicia2.0083.t: "선조들의 여정에 관한 여행자의 기록" # 13264209818331738443
+  galicia2.0083.desc: "오늘, 박식한 학자로부터 재미있고 흥미로운 이야기를 들었습니다.  그는  옛날 외국 여행자의 기록을 발견했다는데,  그 여행자는 우리 조상의 땅, [ROOT.Char.GetCulture.GetCollectiveNoun]의 땅을 지나갔다고 합니다.\n\n그 여행자는 우리 선조들에 대해 이렇게 적었다고 합니다. \"저는 그처럼 훌륭한 체격을 가진 사람들을 본 적이 없습니다.  대추야자수처럼 키가 크고, 금발에 홍익했지요.\" \n\n하지만, 그 여행자는 또한 매우 편견이 많았습니다.  그는 우리 조상을 \"가장 더러운\" 사람들이라고 묘사했고, \"자신을 깨끗이 하지 않는 버릇 때문에 들짐승과 같다\"고 말했지요.  또한, 무분별하게 교합을 하고 씻지 않는다고 했습니다." # 2355323783180663917
+  galicia2.0083.a: "좋고 나쁜 면 모두 어느 정도는 진실일 것이라고 생각합니다." # 6497766336240210662
+  galicia2.0083.b: "우리 조상들에 대한 재밌는, 분명히 허구적인 이야기들이 많군요!" # 6598301363701813700
+  galicia2.0083.c: "저 괴짜 '여행자'는 거만하고 편견에 사로잡힌 얼간이에 불과하군!" # 11255533169429857145
+  galicia2.0083.info: "#bold 역사적 배경:# 10세기 아랍 탐험가 이븐 파드란은 아바스 칼리파가 볼가 불가리아 왕에게 파견한 사절단 일원으로 동유럽 일부 지역을 여행했습니다. 이 이벤트의 인용문은 그가 목격한 루스족의 장례식에 대한 그의 기록에서 나온 것입니다. 그의 기록에는 루스족 수장의 장례식에 대한 자세한 묘사가 포함되어 있으며, 이는 화장과 수장의 노예 소녀 중 한 명을 의식적으로 죽이는 행위를 포함했습니다.  이븐 파드란의 루스 통역관은 장례식 중에 \"너희 아랍인들은 바보들이다\"라고 웃으며 말했고, \"너희는 너희에게 가장 소중하고 가장 존경받는 사람들을 땅에 묻어 벌레와 곤충이 갉아먹게 하지만, 우리는 그를 순식간에 태워서 하늘나라로 바로 데려가게 한다\"라고 말했다고 합니다." # 15677404256972520189
+  galicia2.0084.t: "호그위드 수프" # 12398627212115436354
+  galicia2.0084.desc: "[ROOT.Char.GetCurrentLocation.GetName] 여행 중, 저녁을 위해 겸손한 [culture.GetName] 농부들의 집에서 잠시 머물렀습니다. 밖에서 자는 것보다는 낫지만, 그리 편안한 숙소는 아니었습니다. 하지만 주인들은 매우 친절했습니다.\n\n\n다음 날, #italic 돼지풀#!로 만든 수프를 먹었습니다. 아니, 더 정확히 말하면 이 식물의 절인 줄기, 잎, 꽃차례로 만든 수프였습니다. 비록 평범한 농민들의 음식이었지만, 신선하고 매콤한 맛이 있어 꽤나 훌륭했습니다!" # 13680001284921736309
+  galicia2.0084.a: "손님맞이에 감사하고, 맛있는 수프에 감사드립니다." # 8362264628757598166
+  galicia2.0084.b: "젠장…. 정말 맛있는 음식이 그립네…." # 821991675297101189
+  galicia2.0084.info: "#bold 역사적 배경:#! #기울임꼴 보르슈#!는 우크라이나, 폴란드, 러시아 등 여러 슬라브 국가의 음식 문화에서 널리 퍼져 있는 음식입니다.  붉은빛 양배추로 만든 국입니다. 그 역사적 선구자는 #기울임꼴 돼지풀#!로 만든 신맛이 나는 국이었습니다. 돼지풀 식물의 일부를 다져 물에 절여 두면 발효된 제품이 생기고, 이를 이용하여 국을 만들었습니다." # 14358697697948208721
   galicia2.0085.t: "xxxxx" # 1951045980481827005
   galicia2.0085.desc: "xxxxx" # 1951045980481827005
   galicia2.0085.a: "xxxxx" # 1951045980481827005

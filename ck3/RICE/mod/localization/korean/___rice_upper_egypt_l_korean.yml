@@ -1,383 +1,387 @@
 ﻿l_korean:
-  RICE_upper_egypt_every_nile_county_desc: "[GetGeographicalRegion('RICE_nile_river_valley').GetName]에서 소유한 모든 [county|E]" # 18400414728451162603
-  Yarjukh: "야르주크" # 18278972743238438944
-  Shukayr: "슈카이르" # 2442406575486139165
-  dynn_shukayr: "알-카딤" # 13302938578046537131
-  dynn_al_mudabbir: "알무다비르" # 12490178069065677446
+  RICE_upper_egypt_every_nile_county_desc: "귀하가 [GetGeographicalRegion('RICE_nile_river_valley').GetName] 내에 소유하고 있는 모든 [county|E]" # 18400414728451162603
+  Yarjukh: "야르주흐" # 18278972743238438944
+  Shukayr: "슈케어" # 2442406575486139165
+  dynn_shukayr: "알 하딤" # 13302938578046537131
+  dynn_al_mudabbir: "알-무다비르" # 12490178069065677446
   Miyas: "미야스" # 12711730913003766701
   dynn_al_tabataba: "알-타바타바" # 4221058244869793267
   dynn_al_sufi: "알-수피" # 17425718879394365513
   dynn_sukunid: "수쿠니드" # 15466267431051379756
-  dynn_al_farghani: "알 파르가니" # 10560443379797319225
-  dynn_al_kan: "알-칸" # 2879521919334589292
-  dynn_al_madhara_i: "알-마드하라" # 13867728046915779168
-  bugha_al_asghar: "부하 알-아스가르" # 17968316214966054151
+  dynn_al_farghani: "알-파르가니" # 10560443379797319225
+  dynn_al_kan: "알칸" # 2879521919334589292
+  dynn_al_madhara_i: "알-마드하라위" # 13867728046915779168
+  bugha_al_asghar: "부가 알 아스가르" # 17968316214966054151
   Abu_Ruh_Sukun: "아부 루흐 수쿤" # 14717290979278511756
   Abu_Jafar_Muhammad: "아부 자파르 무함마드" # 12762539580258662170
   Mukarram: "무카람" # 17482423258162038580
   Lamis: "라미스" # 11887064552840635273
-  Maymunah: "마이무나" # 16138282477341366620
-  dynn_yarjukhid: "야르주히드" # 7121625884084549036
-  dynn_al_daya: "알-다야" # 18407104406509347820
-  nick_RICE_al_dallala: "알우흐샤 알달랄라" # 10481766259981792634
-  nick_RICE_al_dallala_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)]는 [CharYourHerHis(CHARACTER)] 성공적인 사업 경력, 특히 중개인 ("알-달랄라")로 유명합니다. [CharYouSheHe(CHARACTER)|U]는 또한 "매력적인 사람" (알-우흐샤)으로도 알려져 있습니다." # 13685426908629738833
-  Sitt_Ghazal: "시트 가잘" # 2409429906517754573
-  Arye: "아리에" # 13877346302021455851
-  Juff: "쥬프" # 9960973854412712593
-  Tughj: "투그지" # 4489600611504575476
+  Maymunah: "메이무나" # 16138282477341366620
+  dynn_yarjukhid: "야르주키드" # 7121625884084549036
+  dynn_al_daya: "알다야" # 18407104406509347820
+  nick_RICE_al_dallala: "알-우흐샤 알-달랄라" # 10481766259981792634
+  nick_RICE_al_dallala_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U] [CharAreIs(CHARACTER)] [CharYourHerHis(CHARACTER)]의 성공적인 사업 경력, 특히 중개인(\"알-달랄라\")으로서의 경력으로 알려져 있습니다. [CharYouSheHe(CHARACTER)|U]는/은 \"바람직한 자\"(\"알-우흐샤\")로도 알려져 있습니다." # 13685426908629738833
+  Sitt_Ghazal: "싯트 가잘" # 2409429906517754573
+  Arye: "아리예" # 13877346302021455851
+  Juff: "줍" # 9960973854412712593
+  Tughj: "투그흐즈" # 4489600611504575476
   Wazar: "와자르" # 13356400485241779334
-  dynn_RICE_ikhshidid: "이크시드" # 7326974712039486850
-  dynn_RICE_turki: "튀르키" # 4762005653597584530
-  Azjur: "아즈주르" # 12896731690592624849
+  dynn_RICE_ikhshidid: "이흐시드" # 7326974712039486850
+  dynn_RICE_turki: "튀르크" # 4762005653597584530
+  Azjur: "아주르" # 12896731690592624849
   Ulugh: "울루그" # 1988511954731225957
-  game_concept_nile_flood: "나일강 범람" # 12904550849714625254
-  game_concept_nile_flood_desc: "나일강의 범람은 파라오 시대부터 이집트의 삶에서 중요한 부분이었으며, 매년 나일강은 일정량 범람하여 [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 있는 [counties|E]에 결과에 따라 [county_modifier|E]가 적용됩니다.\n\n대부분의 경우, 홍수는 정상적이며 게임 내 효과는 없을 것입니다. 홍수가 평소보다 좋으면 [county_modifiers|E]는 다양한 이점을 제공하고, 좋지 않거나 나일강이 범람하면 [county_modifiers|E]는 불이익을 줍니다.\n\n[culture|E]에 #Bold $tradition_RICE_children_of_the_nile_name$#! [tradition|E]이 있다면, 홍수와 관련된 두 가지 특별한 [activities|E]를 이용할 수 있습니다. 홍수가 좋으면 [GetActivityType('activity_RICE_upper_egypt_open_nile_canals').GetName]을 할 수 있으며, 좋지 않으면 #bold $RICE_upper_egypt_pray_for_a_good_nile_flood$#!을 할 수 있습니다.\n\n또한, 세 번째 [decision|E]인 #Bold $RICE_upper_egypt_renovate_local_nilometers$.#!를 사용할 수 있습니다. 이는 향후 좋지 않은 홍수의 영향을 완화하는 데 도움이 되므로 중요한 [decision|E]입니다." # 14388688093787928281
-  game_concept_temples_of_aswan: "아스완 사원" # 8827666519526968480
-  game_concept_temple_in_aswan: "아스완의 사원" # 18172368521868618600
+  game_concept_nile_flood: "나일 홍수" # 12904550849714625254
+  game_concept_nile_flood_desc: "나일 강 범람은 파라오 시대부터 이집트 생활의 중요한 일부였습니다.\n\n매년 나일 강은 특정량만큼 범람하며, [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 위치한 [counties|E]는 그 결과에 따라 [county_modifier|E]를 얻습니다.\n\n대부분의 경우, 범람은 정상적이며 게임 내 효과는 없습니다. 범람이 평소보다 나으면 [county_modifiers|E]가 다양한 혜택을 주지만, 빈약하거나 나일 강이 과도하게 범람하면 [county_modifiers|E]가 불이익을 줍니다.\n\n만약 귀하의 [culture|E]가 #Bold $tradition_RICE_children_of_the_nile_name$#! [tradition|E]를 가지고 있다면, 범람과 관련된 두 가지 특별한 [activities|E]를 이용할 수 있습니다. 범람이 좋으면 [GetActivityType('activity_RICE_upper_egypt_open_nile_canals').GetName]을, 빈약하면 #bold $RICE_upper_egypt_pray_for_a_good_nile_flood$#!을 할 수 있습니다.\n\n또한, 세 번째 [decision|E]인 #Bold $RICE_upper_egypt_renovate_local_nilometers$.#!을 이용할 수 있습니다. 이것은 장차 빈약한 범람의 효과를 완화하는 데 도움이 되므로 중요한 [decision|E]입니다." # 14388688093787928281
+  game_concept_temples_of_aswan: "아스완의 사원들" # 8827666519526968480
+  game_concept_temple_in_aswan: "아스완의 신전" # 18172368521868618600
   game_concept_temples_of_aswan_city: "아스완" # 6760714295602090191
-  game_concept_temples_of_aswan_desc: "아스완은 이집트 남부의 주요 도시로, 전통적으로 이집트와 누비아의 경계 역할을 했으며, 역사적으로 두 문명 모두에게 종교적으로 큰 중요성을 지녔기에 여러 사원이 있었습니다.\n\n특정 이교도 [faith|E]을 믿는다면 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]([지역_순례|E]의 한 종류)을 할 수 있으며, 엘레판티네, 필레, 칼라브샤 사원에서 기도하는 것을 선택할 수 있습니다. 각 장소에서 세 신 중 하나를 숭배하는 데 집중하여 다양한 축복을 받을 수 있습니다.\n\n그러나 이 [활동|E|E]는 항상 가능한 것은 아닙니다. 이 세 장소의 사원은 해당 [faith|E]을 믿지 않는 [통치자|E]에 의해 #bold 공식적으로 폐쇄#!될 수 있으며, 접근이 불가능해집니다. 세 곳 모두 폐쇄되면 [활동|E]을 사용할 수 없습니다. 다행히 적절한 이교도 [faith|E]을 가진 사람이라면 언제든지 #bold 공식적으로 재개방#!하여 다시 접근할 수 있습니다." # 17471930655868677374
-  game_concept_darb_al_arbain: "다르브 알-아르바인" # 859453503712547409
-  game_concept_darb_al_arbain_desc: "다르 알-아르바인(또는 40일 길)은 이집트 아슈트와 누비아 남부의 다르푸르 사이를 연결하는 주요 카라반 노선입니다. 이 노선은 파라오 시대부터 존재했으며, 19세기까지도 사용되었습니다.\n\n이 노선을 통해 연결된 8개 [county|E]의 [rulers|E]는 #Bold $RICE_upper_egypt_reinforce_the_darb_al_arbain$#! 결정을 할 수 있습니다. 이 결정을 통해 다르 알-아르바인에 있는 #V 1개#! [county|E]에서 #Bold 20#!년 동안 [GetModifier('RICE_upper_egypt_reinforced_darb_al_arbain').GetNameWithTooltip] [county_modifier|E]를 얻을 수 있습니다.\n\n북쪽에서 남쪽으로 이어지는 8개 [counties|E]는 다음과 같습니다.\n\n$EFFECT_LIST_BULLET$이집트의 아슈트, 카르가, 아스완\n$EFFECT_LIST_BULLET$누비아의 카르 압림, 사이\n$EFFECT_LIST_BULLET$다르 알-리흐, 엘-파셰르, 아인 파라 (다르푸르)" # 17186298361052923891
-  RICE_upper_egypt_open_nile_canals_host_memory: "나일강 범람을 기념하기 위해 나일강 운하를 개통했습니다." # 1701576567003583735
-  RICE_upper_egypt_open_nile_canals_host_memory_first_perspective: "좋은 [nile_flood|E]을 축하하기 위해 나일 강 운하를 개통했습니다" # 5639248589273589755
-  RICE_upper_egypt_open_nile_canals_host_memory_second_perspective: "당신은 좋은 [nile_flood|E]을 기념하기 위해 나일강 운하를 개통했습니다" # 12684723261216709216
-  RICE_upper_egypt_open_nile_canals_host_memory_third_perspective: "[owner.GetName]이 나일강의 범람을 기념하기 위해 나일강 운하를 개통했습니다" # 17570724452510228765
-  RICE_upper_egypt_open_nile_canals_guest_memory: "[host.GetTitledFirstName](이)가 풍년[nile_flood|E]을 축하하기 위해 나일강 운하를 개방하는 것을 보았습니다" # 4959537400454683677
-  RICE_upper_egypt_open_nile_canals_guest_memory_first_perspective: "[host.GetTitledFirstName] 님이 풍요로운 [nile_flood|E]을 기념하여 나일강 운하를 개통하는 것을 보았습니다." # 11983302146781713883
-  RICE_upper_egypt_open_nile_canals_guest_memory_second_perspective: "[host.GetTitledFirstName]님이 좋은 [nile_flood|E]을 축하하기 위해 나일강 운하를 여는 것을 보셨습니다" # 4302322301684808309
-  RICE_upper_egypt_open_nile_canals_guest_memory_third_perspective: "[owner.GetName]는 [host.GetTitledFirstName]가 좋은 [nile_flood|E]를 기념하여 나일 운하를 개방하는 것을 지켜보았습니다." # 3719446936255056998
-  RICE_upper_egypt_pray_good_nile_flood_host_memory: "나쁜 [nile_flood|E]로 인해 참회 의식을 거행했습니다" # 1548892395991033189
-  RICE_upper_egypt_pray_good_nile_flood_host_memory_first_perspective: "나쁜 [nile_flood|E] 때문에 참회 의식을 조직했습니다." # 11476493671682463812
-  RICE_upper_egypt_pray_good_nile_flood_host_memory_second_perspective: "나쁜 [nile_flood|E]로 인해 참회 의식을 조직했습니다" # 13190843393739071971
-  RICE_upper_egypt_pray_good_nile_flood_host_memory_third_perspective: "[owner.GetName]이 나쁜 [nile_flood|E]로 인해 참회 의식을 거행했습니다" # 7139405393354864929
-  RICE_upper_egypt_pray_good_nile_flood_guest_memory: "[host.GetTitledFirstName]님은 나쁜 [nile_flood|E]로 인해 [host.GetSheHe]께서 조직한 참회 의식에 참여했습니다" # 12909412353579926522
-  RICE_upper_egypt_pray_good_nile_flood_guest_memory_first_perspective: "[host.GetTitledFirstName]은 나쁜 [nile_flood|E] 때문에 [host.GetSheHe]가 조직한 참회 의식에 참여했습니다" # 12909412353579926522
-  RICE_upper_egypt_pray_good_nile_flood_guest_memory_second_perspective: "[호스트.칭호소유자명칭]과 함께 [호스트.그녀/그]가 주최한 나쁜 [나일 홍수|E]로 인한 회개 의식에 참여했습니다." # 7055271991246625684
-  RICE_upper_egypt_pray_good_nile_flood_guest_memory_third_perspective: "[host.GetTitledFirstName]은 나쁜 [nile_flood|E] 때문에 [host.GetSheHe]가 조직한 참회 의식에 참여했습니다" # 12909412353579926522
-  RICE_upper_egypt_visit_aswan_temples_host_memory: "[GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]에 나섰습니다" # 16419129313690272753
-  RICE_upper_egypt_visit_aswan_temples_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]에 다녀왔습니다." # 9289288945280331709
-  RICE_upper_egypt_visit_aswan_temples_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]을(를) 다녀왔습니다" # 3273427958831518658
-  RICE_upper_egypt_visit_aswan_temples_host_memory_third_perspective: "[owner.GetName]이 [GetActivityType(  'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]에 참여했습니다" # 2669761498069449434
-  RICE_upper_egypt_visit_aswan_temples_guest_memory: "[host. GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]을 떠났습니다" # 467235081972807913
-  RICE_upper_egypt_visit_aswan_temples_guest_memory_first_perspective: "[host.GetTitledFirstName]님과 함께 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]에 갔습니다." # 4433963283982242464
-  RICE_upper_egypt_visit_aswan_temples_guest_memory_second_perspective: "[GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]을 [host.GetTitledFirstName]과 함께 다녀왔습니다." # 16206243238476359771
-  RICE_upper_egypt_visit_aswan_temples_guest_memory_third_perspective: "[owner.GetName]이(가) [host.GetTitledFirstName]과(와) 함께 [GetActivityType('activity_RICE_upper_egypt_visit_aswan_temples').GetName]에 참여했습니다" # 3502976080133615474
-  activity_upper_egypt_pray_at_philae: "필레에서 기도하기 위한 여행" # 9962569008789201461
-  activity_upper_egypt_pray_at_philae_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 필레에서 기도하기 위한 여행" # 11283275533875152203
-  activity_upper_egypt_pray_at_elephantine: "엘레판티네 기도 여행" # 15630415860693800227
-  activity_upper_egypt_pray_at_elephantine_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 엘레판티네 기도 여행" # 16044299905954280701
-  activity_upper_egypt_pray_at_kalabsha: "칼라브샤 기도 여행" # 15804128620037517116
+  game_concept_temples_of_aswan_desc: "아스완은 이집트 남부의 주요 도시로, 전통적으로 이집트와 누비아 사이의 국경 역할을 했습니다. 이곳은 양 문명 모두에게 종교적으로 대단히 중요한 곳이었기에, 역사적으로 수많은 신전들의 본거지였습니다.\n\n특정 이교 [faiths|E]를 믿는다면, 일종의 [local_pilgrimage|E]인 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]을 행할 수 있으며, 엘레판티네, 필레, 칼라브샤의 신전 중 한 곳에서 기도하는 것을 선택할 수 있습니다.\n각 장소에서는 차례로 세 신 중 하나를 숭배하는 데 집중할 수 있으며, 잠재적으로 다양한 혜택을 얻을 수 있습니다.\n\n하지만 이 [activity|E|E]가 항상 가능한 것은 아닙니다. 이 세 곳의 신전들은 해당 [faiths|E]를 믿지 않는 [ruler|E]에 의해 #bold 공식적으로 폐쇄#!되어 접근할 수 없게 될 수 있기 때문입니다.\n세 곳 모두 폐쇄되면 해당 [activity|E]는 이용할 수 없습니다.\n밝은 면은, 적절한 이교 [faiths|E]를 믿는 누구든 언제든지 #bold 공식적으로 재개방#!하여 다시 접근 가능하게 만들 수 있다는 점입니다." # 17471930655868677374
+  game_concept_darb_al_arbain: "다르브 알 아르바인" # 859453503712547409
+  game_concept_darb_al_arbain_desc: "달브 알-아르바인(혹은 40일의 길)은 이집트의 아시우트와 누비아 남부의 다르푸르를 잇는 주요 대상 교역로입니다. 이 길은 파라오 시대부터 존재했으며, 19세기까지도 사용되었습니다.\n\n이 길로 연결된 여덟 [counties|E]의 [rulers|E]는 #Bold $RICE_upper_egypt_reinforce_the_darb_al_arbain$#! [decision|E]을(를) 사용할 수 있습니다. 이 결정은 달브 알-아르바인에 접한 #Bold 한#! [county|E]에 [GetModifier('RICE_upper_egypt_reinforced_darb_al_arbain').GetNameWithTooltip] [county_modifier|E]를 #V 20#!년 동안 부여합니다.\n\n북쪽에서 남쪽 순서대로, 이 여덟 [counties|E]는 다음과 같습니다:\n\n$EFFECT_LIST_BULLET$이집트의 아시우트, 하르가, 아스완\n$EFFECT_LIST_BULLET$누비아의 카스르 이브림, 사이\n$EFFECT_LIST_BULLET$다르푸르의 다르 알-리흐, 엘-파셰르, 아인 파라" # 17186298361052923891
+  RICE_upper_egypt_open_nile_canals_host_memory: "좋은 [nile_flood|E]를 기념하여 나일 강 운하를 개방했다" # 1701576567003583735
+  RICE_upper_egypt_open_nile_canals_host_memory_first_perspective: "풍족한 [nile_flood|E]를 기념하여 나일강 운하를 개방했습니다" # 5639248589273589755
+  RICE_upper_egypt_open_nile_canals_host_memory_second_perspective: "그대는 [nile_flood|E]의 풍요를 기념하여 나일강 운하를 열었소" # 12684723261216709216
+  RICE_upper_egypt_open_nile_canals_host_memory_third_perspective: "[owner.GetName]는 좋은 [nile_flood|E]를 기념하기 위해 나일 운하를 개방했습니다." # 17570724452510228765
+  RICE_upper_egypt_open_nile_canals_guest_memory: "[host.GetTitledFirstName]가 풍요로운 [nile_flood|E]를 기념하고자 나일강 운하를 개방하는 것을 관찰했습니다" # 4959537400454683677
+  RICE_upper_egypt_open_nile_canals_guest_memory_first_perspective: "나는 [host.GetTitledFirstName]이 좋은 [nile_flood|E]를 축하하기 위해 나일강 운하를 여는 것을 지켜보았다" # 11983302146781713883
+  RICE_upper_egypt_open_nile_canals_guest_memory_second_perspective: "당신은 [host.GetTitledFirstName]가 풍년이 든 [nile_flood|E]를 기념하기 위해 나일 운하를 여는 것을 지켜보았습니다" # 4302322301684808309
+  RICE_upper_egypt_open_nile_canals_guest_memory_third_perspective: "[owner.GetName](은/는) [host.GetTitledFirstName](이/가) 풍족한 [nile_flood|E](을/를) 축하하기 위해 나일 운하를 개방하는 것을 지켜보았습니다." # 3719446936255056998
+  RICE_upper_egypt_pray_good_nile_flood_host_memory: "[nile_flood|E]의 흉작으로 인해 참회 의식을 거행했습니다" # 1548892395991033189
+  RICE_upper_egypt_pray_good_nile_flood_host_memory_first_perspective: "나쁜 [nile_flood|E] 때문에 속죄 의식을 치렀습니다." # 11476493671682463812
+  RICE_upper_egypt_pray_good_nile_flood_host_memory_second_perspective: "귀하께서는 좋지 않은 [nile_flood|E] 때문에 속죄 의식을 주관하셨습니다" # 13190843393739071971
+  RICE_upper_egypt_pray_good_nile_flood_host_memory_third_perspective: "[owner.GetName]가 나쁜 [nile_flood|E]로 인해 참회 의식을 올렸습니다" # 7139405393354864929
+  RICE_upper_egypt_pray_good_nile_flood_guest_memory: "심한 [nile_flood|E] 때문에 [host.GetSheHe]이(가) 개최한 참회 의식에 [host.GetTitledFirstName]와(과) 함께 참여했습니다." # 12909412353579926522
+  RICE_upper_egypt_pray_good_nile_flood_guest_memory_first_perspective: "심한 [nile_flood|E] 때문에 [host.GetSheHe]이(가) 개최한 참회 의식에 [host.GetTitledFirstName]와(과) 함께 참여했습니다." # 12909412353579926522
+  RICE_upper_egypt_pray_good_nile_flood_guest_memory_second_perspective: "[host.GetTitledFirstName]이(가) 좋지 않은 [nile_flood|E] 때문에 [host.GetSheHe]이(가) 주최한 회개 의식에 합류했습니다." # 7055271991246625684
+  RICE_upper_egypt_pray_good_nile_flood_guest_memory_third_perspective: "심한 [nile_flood|E] 때문에 [host.GetSheHe]이(가) 개최한 참회 의식에 [host.GetTitledFirstName]와(과) 함께 참여했습니다." # 12909412353579926522
+  RICE_upper_egypt_visit_aswan_temples_host_memory: "[GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]에 다녀왔다" # 16419129313690272753
+  RICE_upper_egypt_visit_aswan_temples_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]에 참여했습니다" # 9289288945280331709
+  RICE_upper_egypt_visit_aswan_temples_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]에 참여했습니다" # 3273427958831518658
+  RICE_upper_egypt_visit_aswan_temples_host_memory_third_perspective: "[owner.GetName]는 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]에 나섰습니다" # 2669761498069449434
+  RICE_upper_egypt_visit_aswan_temples_guest_memory: "[host. GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]에 나섰습니다" # 467235081972807913
+  RICE_upper_egypt_visit_aswan_temples_guest_memory_first_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]에 참여했습니다." # 4433963283982242464
+  RICE_upper_egypt_visit_aswan_temples_guest_memory_second_perspective: "귀하는 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]에 [host.GetTitledFirstName]와(과) 함께 참여하셨습니다." # 16206243238476359771
+  RICE_upper_egypt_visit_aswan_temples_guest_memory_third_perspective: "[owner.GetName]는 [host.GetTitledFirstName]와(과) 함께 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]에 참여했습니다" # 3502976080133615474
+  activity_upper_egypt_pray_at_philae: "필레 참배 여행" # 9962569008789201461
+  activity_upper_egypt_pray_at_philae_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 필레 기도 여행" # 11283275533875152203
+  activity_upper_egypt_pray_at_elephantine: "엘레판티네 순례" # 15630415860693800227
+  activity_upper_egypt_pray_at_elephantine_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 엘레판티네에 기도하러 가는 길" # 16044299905954280701
+  activity_upper_egypt_pray_at_kalabsha: "칼라브샤 순례" # 15804128620037517116
   activity_upper_egypt_pray_at_kalabsha_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 칼라브샤 기도 여행" # 471898061698491582
   activity_upper_egypt_open_nile_canals: "나일 운하 개통" # 1244793610449949077
-  activity_upper_egypt_open_nile_canals_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 나일강 운하 개통" # 6561264617507118454
-  activity_upper_egypt_pray_good_nile_flood: "나일강 범람 피해 이후의 참회" # 685104864558728392
-  activity_upper_egypt_pray_good_nile_flood_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 나일강 범람 실패 후의 참회" # 5714602044992700457
+  activity_upper_egypt_open_nile_canals_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 나일 강 운하 개통" # 6561264617507118454
+  activity_upper_egypt_pray_good_nile_flood: "나일강의 부족한 범람 후 회개" # 685104864558728392
+  activity_upper_egypt_pray_good_nile_flood_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] 부진한 나일강 범람 이후의 회개" # 5714602044992700457
   activity_RICE_upper_egypt_open_nile_canals_host_an_a: "$host_activity_an$" # 2045561106244749009
-  activity_RICE_upper_egypt_open_nile_canals: "나일 강 운하 개통" # 1244793610449949077
-  activity_RICE_upper_egypt_open_nile_canals_desc: "만약 이집트에서 올해 [nile_flood|E]이 풍족하다면, 우리는 강물의 연례 범람을 이용하고 농경지에 물을 더욱 효율적으로 분배하기 위해 관개수로를 개방해야 합니다. 수로 개방은 파라오 시대부터 중요한 의식이었습니다." # 14471824726470530868
-  activity_RICE_upper_egypt_open_nile_canals_selection_tooltip: "나일 운하를 개방하여 좋은 [nile_flood|E]를 축하합니다.\n\n$RICE_upper_egypt_celebrate_nile_canal_opening_context_tooltip$" # 4264981041145508692
-  activity_RICE_upper_egypt_open_nile_canals_host_desc: "$BULLET_WITH_TAB$ [신앙심_i|E][신앙심|E], [명성_i|E][명성|E]을 얻고, [나일강_범람|E]의 상태에 따라 #P 유익한#! [인물_모디파이어|E]를 얻습니다." # 3072910411278041224
+  activity_RICE_upper_egypt_open_nile_canals: "나일 운하 개통" # 1244793610449949077
+  activity_RICE_upper_egypt_open_nile_canals_desc: "만약 올해 이집트의 [nile_flood|E]가 좋다면, 우리는 강 연례 범람을 활용하고 농경지에 물을 더 효율적으로 분배하기 위해 수로를 열어야 합니다. 수로를 여는 것은 파라오 시대부터 중요한 의식이었습니다." # 14471824726470530868
+  activity_RICE_upper_egypt_open_nile_canals_selection_tooltip: "풍요로운 [nile_flood|E]를 기념하기 위해 나일 운하를 엽니다.\n\n$RICE_upper_egypt_celebrate_nile_canal_opening_context_tooltip$" # 4264981041145508692
+  activity_RICE_upper_egypt_open_nile_canals_host_desc: "$BULLET_WITH_TAB$[nile_flood|E]가 얼마나 좋았는지에 따라 [piety_i|E][piety|E], [prestige_i|E][prestige|E], 그리고 #P 유익한#! [character_modifier|E]를 얻습니다" # 3072910411278041224
   activity_RICE_upper_egypt_open_nile_canals_guest_desc: "$activity_RICE_upper_egypt_open_nile_canals_host_desc$" # 909591527029413977
   activity_RICE_upper_egypt_open_nile_canals_guest_help_text: "$activity_RICE_upper_egypt_open_nile_canals$" # 16058219739114826317
-  activity_RICE_upper_egypt_open_nile_canals_predicted_cost: "나일 강 운하 개통 의식 비용은 선택한 [activity_options|E]에 따라 달라집니다." # 9239065657974742999
+  activity_RICE_upper_egypt_open_nile_canals_predicted_cost: "나일강 운하 개방 의식을 수행하는 비용은 [activity_options|E]에 따라 달라집니다." # 9239065657974742999
   RICE_upper_egypt_pray_good_nile_flood_cost: "의식 규모" # 17442884821123139964
-  activity_RICE_upper_egypt_open_nile_canals_conclusion_desc: "[GetActivityType( 'activity_RICE_upper_egypt_open_nile_canals' ).GetName]을(를) 공식적으로 완료했습니다. 올해 나일강이 풍요로운 수확을 가져다주기를 바랍니다!" # 4825499055100777245
-  RICE_upper_egypt_open_nile_canals_type_normal: "일반 의례" # 3943968086161538174
-  RICE_upper_egypt_open_nile_canals_type_normal_desc: "$EFFECT_LIST_BULLET$ 의무의 일부로서 의식을 수행합니다.\n$EFFECT_LIST_BULLET$ 얻는 [prestige_i|E] [prestige|E] 및 [piety_i|E] [piety|E]의 양은 #bold 대규모 의식#보다 적습니다!\n\n#weak 태고부터 나일강은 매년 범람했으며, 올해도 다르지 않습니다!#" # 1962020059730896165
+  activity_RICE_upper_egypt_open_nile_canals_conclusion_desc: "내 소임을 다하여 격식대로 [GetActivityType( 'activity_RICE_upper_egypt_open_nile_canals' ).GetName]를 수행했습니다. 올해 나일 강께서 우리에게 풍성한 수확을 내리시기를!" # 4825499055100777245
+  RICE_upper_egypt_open_nile_canals_type_normal: "일반적인 의식" # 3943968086161538174
+  RICE_upper_egypt_open_nile_canals_type_normal_desc: "$EFFECT_LIST_BULLET$ 의무의 일부로서 의례를 행합니다.\n$EFFECT_LIST_BULLET$ [prestige_i|E] [prestige|E]와 [piety_i|E] [piety|E]를 얻는 양이 #bold 성대한 의례#보다 적습니다!\n\n#weak 예로부터 나일강은 매년 범람해 왔으며, 올해도 다르지 않습니다.##!" # 1962020059730896165
   RICE_upper_egypt_open_nile_canals_type_grand: "성대한 의식" # 16066639319489382057
-  RICE_upper_egypt_open_nile_canals_type_grand_desc: "$EFFECT_LIST_BULLET$ 나일강 운하 개통을 위한 성대한 의식을 준비합니다.\n$EFFECT_LIST_BULLET$ #V 50%#! 더 많은 [prestige_i|E] [prestige|E] 및 [piety_i|E] [piety|E]를 #bold 일반 의식#보다 획득합니다!\n$EFFECT_LIST_BULLET$ 약간의 [dynasty_prestige_i|E] [dynasty_prestige|E]를 획득합니다.\n\n#weak 올해는 나일강 홍수가 아주 잘 났으니, 평소보다 더 화려한 축제가 필요합니다!#!" # 13020603594860271896
-  RICE_upper_egypt_open_nile_canals_opening_phase: "역사적 배경:\n#F The region of Nubia has always been a vital region for the control of the Nile. From the earliest times, the Kingdom of Kush has been a power in the region, with rich deposits of gold. The kings of Kush dominated the trade routes and were a power to be reckoned with. Despite this, however, Nubia has always been plagued with enemies, the nomadic #bold Blemmyae#! tribes that raided its territories from the deserts to the east, and the Egyptians who sought to control the south and its valuable resources. By the 9th Century, the Kushite kingdom had collapsed, its successor states were now the targets of the same forces that tore it apart. #!\n#F The Egyptians, or more specifically, the Tulunids, have begun their conquest south along the Nile, seeking to control the gold mines of the south. The #bold Blemmyae#! are as dangerous as ever, raiding and pillaging settlements at their leisure, they have no ruler to speak of and are incredibly dangerous. To the north, the Byzantine Empire seeks to use its influence to its advantage, looking to weaken the Islamic world. The Nubian kingdoms of #bold Makuria#!, #bold Alodia#!, and #bold Nobadia#! are under constant pressure, and they will need to grow strong to survive.#!\n\n#F Characters of Note:#!\n\n#F In #bold Makuria#!, the King is still a relatively strong one, seeking to keep his kingdom together. But with the #bold Blemmyae#! encroaching from the East, his situation is becoming more precarious. He will need strong allies to survive.#!\n#F The #bold Blemmyes#! are a collection of tribes, each led by its own chieftain. They are fiercely independent and are primarily concerned with raiding and pillaging. However, some powerful figures among them, such as the #bold High King#! of the #bold Blemmyae#!, may see the advantages of a more organized polity. The #bold Blemmyae#! are a dangerous threat to both Makuria, Alodia and Egypt.#!\n#F In the North, the Egyptians have recently established themselves, but the situation is volatile and will need to be stabilized. To the East of Egypt, the #bold Hejaz#! has become independent, and poses another threat to the Egyptians. There is a huge potential for expansion here.#!\n#F Finally, the Byzantine Empire, while far to the north, still plays a key role in this region. They have allies in the form of #bold Chios#! and other minor powers, and have the potential to extend their influence through naval dominance.#!" # 14147273140690528908
-  RICE_upper_egypt_open_nile_canals_opening_phase_desc: "우리는 위대한 나일 강의 물 덕분에 번영합니다." # 7294763241687002578
-  RICE_upper_egypt_open_nile_canals_celebration_intent_header: "축제:" # 15837984053617632930
-  RICE_upper_egypt_open_nile_canals_celebration_intent: "축제" # 8745396489141951886
-  RICE_upper_egypt_open_nile_canals_celebration_intent_desc: "좋은 [nile_flood|E]는 축하할 만한 일입니다!" # 14269189837532322593
-  RICE_upper_egypt_open_nile_canals_completed_log_title: "나일 강 운하 개통 완료" # 15686153873643494740
-  RICE_upper_egypt_open_nile_canals_completed_log: "[CHARACTER.GetShortUIName|U]이 나일강 운하 개통을 완료했습니다" # 17080612316100121944
+  RICE_upper_egypt_open_nile_canals_type_grand_desc: "$EFFECT_LIST_BULLET$ 나일강 운하 개통을 위한 성대한 의식을 준비한다.\n$EFFECT_LIST_BULLET$ #bold 일반 의식#!에 비해 #V 50%#! 더 많은 [prestige_i|E] [prestige|E] 및 [piety_i|E] [piety|E]를 획득한다!\n$EFFECT_LIST_BULLET$ 소량의 [dynasty_prestige_i|E] [dynasty_prestige|E]를 획득한다.\n\n#weak 올해 나일강의 범람이 이토록 풍족하니, 평소보다 더 성대한 축하 행사가 필요하다!#!" # 13020603594860271896
+  RICE_upper_egypt_open_nile_canals_opening_phase: "시작" # 14147273140690528908
+  RICE_upper_egypt_open_nile_canals_opening_phase_desc: "우리가 번영하는 것은 오직 위대한 나일 강물 덕분입니다." # 7294763241687002578
+  RICE_upper_egypt_open_nile_canals_celebration_intent_header: "축하" # 15837984053617632930
+  RICE_upper_egypt_open_nile_canals_celebration_intent: "축하" # 8745396489141951886
+  RICE_upper_egypt_open_nile_canals_celebration_intent_desc: "좋은 [nile_flood|E]은 축하할 일이다!" # 14269189837532322593
+  RICE_upper_egypt_open_nile_canals_completed_log_title: "나일강 운하 개통 완료" # 15686153873643494740
+  RICE_upper_egypt_open_nile_canals_completed_log: "[CHARACTER.GetShortUIName|U]가 나일 운하 개통을 완료했습니다." # 17080612316100121944
   TRAVEL_NAME_FOR_activity_RICE_upper_egypt_open_nile_canals: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_upper_egypt_open_nile_canals$" # 6355902345467238256
   activity_RICE_upper_egypt_pray_good_nile_flood_host_an_a: "$host_activity_a$" # 13713790857143020716
   activity_RICE_upper_egypt_pray_good_nile_flood: "나일강 범람 참회 의식" # 10894787432907598416
-  activity_RICE_upper_egypt_pray_good_nile_flood_desc: "때때로 [nile_flood|E]는 나일 강을 따라 괜찮은 수확을 하는 데 필요한 최적의 양에 미치지 못할 때가 있습니다. 그런 일이 생기면 다시는 그런 일이 일어나지 않도록 우리의 죄를 용서해 달라고 간청해야 합니다!" # 2293800972750624993
-  activity_RICE_upper_egypt_pray_good_nile_flood_selection_tooltip: "더 나은 [nile_flood|E]를 기원하십시오.\n\n$RICE_upper_egypt_pray_for_a_good_nile_flood_context_tooltip$" # 4303360493442400893
-  activity_RICE_upper_egypt_pray_good_nile_flood_host_desc: "$BULLET_WITH_TAB$[신앙도_i|E][신앙도|E]\n$BULLET_WITH_TAB$[명성_i|E][명성|E]\n$BULLET_WITH_TAB$소유한 모든 [counties|E]에서 [GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 나쁜 [nile_flood|E]의 부정적인 영향을 완화하기 위해 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 얻을 확률\n보상의 효과는 [traits|E], [virtues|E], [sins|E] 및 [piety_level|E]에 따라 달라집니다." # 10907968289073746033
+  activity_RICE_upper_egypt_pray_good_nile_flood_desc: "때로는 [nile_flood|E]가 나일 강을 따라 괜찮은 수확에 필요한 최적의 양에 미치지 못할 때, 이상적이지 않은 경우가 있습니다. 그런 일이 발생하면, 다시는 그런 일이 일어나지 않도록 우리의 죄를 용서해 달라고 간청해야 합니다!" # 2293800972750624993
+  activity_RICE_upper_egypt_pray_good_nile_flood_selection_tooltip: "[nile_flood|E]가 더 나아지기를 기원합니다.\n\n$RICE_upper_egypt_pray_for_a_good_nile_flood_context_tooltip$" # 4303360493442400893
+  activity_RICE_upper_egypt_pray_good_nile_flood_host_desc: "\n$BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$[GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 소유한 모든 [counties|E]에서 나쁜 [nile_flood|E]의 부정적 효과를 완화할 수 있는 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 얻을 확률.\n\n보상의 효과는 귀하의 [traits|E], [virtues|E], [sins|E] 및 [piety_level|E]에 따라 달라집니다." # 10907968289073746033
   activity_RICE_upper_egypt_pray_good_nile_flood_guest_help_text: "$activity_RICE_upper_egypt_pray_good_nile_flood$" # 2267111985755022582
-  activity_RICE_upper_egypt_pray_good_nile_flood_predicted_cost: "참회 의식 비용은 선택한 [activity_options|E]에 따라 다릅니다." # 1015858591720385998
+  activity_RICE_upper_egypt_pray_good_nile_flood_predicted_cost: "속죄 의식의 비용은 당신이 선택하는 [activity_options|E]에 따라 달라집니다." # 1015858591720385998
   activity_RICE_upper_egypt_pray_good_nile_flood_cost: "의식 규모" # 17442884821123139964
-  activity_RICE_upper_egypt_pray_good_nile_flood_conclusion_desc: "[GetActivityType( 'activity_RICE_upper_egypt_pray_good_nile_flood' ).GetName]을(를) 마쳤습니다. [GetPlayer.GetFaith.HighGodName]께서 우리의 기도를 들어주시길 바랍니다!" # 15554056880201276808
+  activity_RICE_upper_egypt_pray_good_nile_flood_conclusion_desc: "[GetActivityType( 'activity_RICE_upper_egypt_pray_good_nile_flood' ).GetName]을 거행했습니다.\n[GetPlayer.GetFaith.HighGodName]께서 저희의 기도를 들어주시길 바라옵니다!" # 15554056880201276808
   RICE_upper_egypt_pray_good_nile_flood_amount_type: "의식 규모" # 17442884821123139964
-  RICE_upper_egypt_pray_good_nile_flood_amount_type_small: "작음" # 11665425638542725414
-  RICE_upper_egypt_pray_good_nile_flood_amount_type_small_desc: "$EFFECT_LIST_BULLET$ 좋은 [nile_flood|E]를 기원하고 나쁜 [nile_flood|E]에 대해 참회하는 의무적인 의식을 수행합니다.\n$EFFECT_LIST_BULLET$ 더 적은 양의 [piety_i|E][piety|E] 및 [prestige_i|E][prestige|E] 획득#!\n$EFFECT_LIST_BULLET$ [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 소유한 모든 [counties|E]에서 얻을 가능성 감소\n\n#weak 분명히, 우리의 진지한 참회 바램은 충분할 것이며, [GetPlayer.GetFaith.HighGodName]께서 우리의 기도에 귀를 기울이실 것입니다.#!" # 16786662765413795199
+  RICE_upper_egypt_pray_good_nile_flood_amount_type_small: "작은" # 11665425638542725414
+  RICE_upper_egypt_pray_good_nile_flood_amount_type_small_desc: "$EFFECT_LIST_BULLET$ 좋은 [nile_flood|E]을 기원하고 나쁜 [nile_flood|E]에 속죄하기 위한 의무적인 의식을 행합니다.\n$EFFECT_LIST_BULLET$ 더 적은 양의 [piety_i|E][piety|E] 및 [prestige_i|E][prestige|E] 획득#!\n$EFFECT_LIST_BULLET$ [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 소유한 모든 [counties|E]에서 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 얻을 확률이 줄어듭니다.\n\n#weak 우리의 진심 어린 속죄 의지가 충분할 것이며, [GetPlayer.GetFaith.HighGodName]께서 우리의 기도를 들어주실 것입니다.#!" # 16786662765413795199
   RICE_upper_egypt_pray_good_nile_flood_amount_type_medium: "보통" # 7377651229498775580
-  RICE_upper_egypt_pray_good_nile_flood_amount_type_medium_desc: "$EFFECT_LIST_BULLET$ 나일강 범람이 잘 되기를 기도하고 나빴을 경우 회개하는 의무적인 의식을 거행합니다.\n$EFFECT_LIST_BULLET$ 적당한 양의 [piety_i|E][piety|E] 및 [prestige_i|E][prestige|E] 획득#!\n$EFFECT_LIST_BULLET$ [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 소유한 모든 [counties|E]에서 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 얻을 상당한 확률\n\n#weak 범람이 나쁠 때, 우리는 회개하고 우리를 구원해 주시기를 [GetPlayer.GetFaith.HighGodName]께 기도하기 위해 할 수 있는 일을 해야 합니다. 최소한의 노력만으로는 안 됩니다.#!" # 10500378190124537690
-  RICE_upper_egypt_pray_good_nile_flood_amount_type_large: "거대" # 2290692482761374841
-  RICE_upper_egypt_pray_good_nile_flood_amount_type_large_desc: "$EFFECT_LIST_BULLET$ 좋은 [nile_flood|E]를 위해 의무적인 제례를 행하고 나쁜 [nile_flood|E]에 대해 회개합니다.\n$EFFECT_LIST_BULLET$ 더 많은 [piety_i|E][piety|E]와 [prestige_i|E][prestige|E]를 얻습니다#!\n$EFFECT_LIST_BULLET$ [GetGeographicalRegion('RICE_nile_river_valley').GetName]에 있는 모든 [counties|E]에서 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 얻을 확률이 높아집니다.\n\n#weak 우리의 죄는 나일강의 현재 상태를 초래할 만큼 심각합니다. 우리는 [GetPlayer.GetFaith.HighGodName]에게 진심으로, 진심으로, 깊이 회개하고 있다는 것을 증명하기 위해 노력해야 합니다.#!" # 13803957989159000964
+  RICE_upper_egypt_pray_good_nile_flood_amount_type_medium_desc: "$EFFECT_LIST_BULLET$ 좋은 [nile_flood|E]을 기원하고 나쁜 것에는 참회하기 위한 의무적인 의식을 수행합니다.\n$EFFECT_LIST_BULLET$ 적당한 양의 [piety_i|E][piety|E]와 [prestige_i|E][prestige|E]를 획득합니다#!\n$EFFECT_LIST_BULLET$ [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 당신이 소유한 모든 [counties|E]에서 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 얻을 괜찮은 확률.\n\n#weak 범람이 좋지 않을 때, 우리는 참회하고 [GetPlayer.GetFaith.HighGodName]에게 구원해달라고 기도하며 할 수 있는 것을 다 해야 합니다. 우리는 최소한만 할 수는 없습니다.#!" # 10500378190124537690
+  RICE_upper_egypt_pray_good_nile_flood_amount_type_large: "거대한" # 2290692482761374841
+  RICE_upper_egypt_pray_good_nile_flood_amount_type_large_desc: "$EFFECT_LIST_BULLET$ 좋은 [nile_flood|E]을 기원하고 나쁜 [nile_flood|E]에 대해 속죄하는 의무적인 의식을 수행합니다.\n$EFFECT_LIST_BULLET$ 더 많은 양의 [piety_i|E][piety|E]과 [prestige_i|E][prestige|E] 획득#!\n$EFFECT_LIST_BULLET$ [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 귀하가 소유한 모든 [counties|E]에서 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E] 획득 확률 증가\n\n#weak 우리의 죄가 끔찍하여 나일 강의 현재 상태를 초래했습니다. 우리는 진정으로, 성실하게, 깊이 회개하고자 함을 [GetPlayer.GetFaith.HighGodName]께 증명하기 위해 모든 노력을 기울여야 합니다.#!" # 13803957989159000964
   RICE_upper_egypt_pray_good_nile_flood_prayer_phase: "기도" # 3105075337060657930
-  RICE_upper_egypt_pray_good_nile_flood_prayer_phase_desc: "오, [GetPlayer.GetFaith.HighGodName]시여, 저희의 자비를 구하는 간청을 들어주시고, 나일강이 다시 한번 흘러가게 해주소서!" # 14774373692528541867
-  RICE_upper_egypt_pray_good_nile_flood_repentance_intent_header: "참회:" # 6685203553936951424
-  RICE_upper_egypt_pray_good_nile_flood_repentance_intent: "참회" # 13957113317036907974
-  RICE_upper_egypt_pray_good_nile_flood_repentance_intent_desc: "우리의 죄 때문에 나쁜 [nile_flood|E]이 발생했습니다. 공동체로서 우리는 이 일에 대해 집단적으로 회개해야 합니다." # 13865932834397907395
+  RICE_upper_egypt_pray_good_nile_flood_prayer_phase_desc: "오 [GetPlayer.GetFaith.HighGodName]시여, 저희의 자비를 비는 탄원을 들으시어, 나일 강이 마땅히 흘러야 하는 대로 다시 흐르게 하소서!" # 14774373692528541867
+  RICE_upper_egypt_pray_good_nile_flood_repentance_intent_header: "회개:" # 6685203553936951424
+  RICE_upper_egypt_pray_good_nile_flood_repentance_intent: "회개:" # 13957113317036907974
+  RICE_upper_egypt_pray_good_nile_flood_repentance_intent_desc: "흉작을 부르는 [nile_flood|E]는 우리 죄 때문에 일어난 것이다. 공동체로서, 우리는 다 함께 속죄해야 한다." # 13865932834397907395
   RICE_upper_egypt_pray_good_nile_flood_completed_log_title: "나일강 범람 참회 의식" # 10894787432907598416
-  RICE_upper_egypt_pray_good_nile_flood_completed_log: "[CHARACTER.GetShortUIName|U](이)가 나일 강 범람 참회 의식을 마쳤습니다" # 10787213336897204165
-  RICE_activity_result_nile_flood_repentance_modifier: "[host.GetTitledFirstNamePossessive]의 [counties|E] 중 하나 이상이 [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 획득했습니다." # 17816366507397489304
-  TRAVEL_NAME_FOR_activity_RICE_upper_egypt_pray_good_nile_flood: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_upper_egypt_pray_good_nile_flood$" # 1093119992942529121
+  RICE_upper_egypt_pray_good_nile_flood_completed_log: "[CHARACTER.GetShortUIName|U]는 [CHARACTER.GetHerHis] 나일 강 홍수 참회 의식을 마쳤습니다" # 10787213336897204165
+  RICE_activity_result_nile_flood_repentance_modifier: "[host.GetTitledFirstNamePossessive] [counties|E] 중 한 곳 이상이 [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 위치한 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 얻었습니다." # 17816366507397489304
+  TRAVEL_NAME_FOR_activity_RICE_upper_egypt_pray_good_nile_flood: "[Character.GetFirstNamePossessiveNoTooltip] 나일 강 범람 기원" # 1093119992942529121
   activity_RICE_upper_egypt_visit_aswan_temples_host_an_a: "$host_activity_a$" # 13713790857143020716
-  activity_RICE_upper_egypt_visit_aswan_temples: "아스완 신전 방문" # 16255638253010411917
-  activity_RICE_upper_egypt_visit_aswan_temples_desc: "나일 강의 첫 번째 폭포는 수 세기 동안 숭배의 중심지였으며, 여러 [temples_of_aswan|E]이 있는 것을 보면 파라오 시대 이전부터 그랬을 수도 있습니다." # 8306172334983788989
-  activity_RICE_upper_egypt_visit_aswan_temples_selection_tooltip: "[temples_of_aswan|E]으로 [local_pilgrimage|E]를 떠나십시오.\n\n$RICE_upper_egypt_pray_at_a_temple_in_aswan_context_tooltip$" # 9769959022460339856
-  activity_RICE_upper_egypt_visit_aswan_temples_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ 어디서 누구를 숭배하느냐에 따라 #P 긍정적#! [character_modifier|E]를 얻을 기회가 있습니다" # 13354647039005070891
+  activity_RICE_upper_egypt_visit_aswan_temples: "아스완의 신전 방문" # 16255638253010411917
+  activity_RICE_upper_egypt_visit_aswan_temples_desc: "나일강 제1 폭포는 수세기 동안 숭배의 중심지였습니다. 그곳에 [temples_of_aswan|E]가 자리 잡고 있음을 감안하면, 어쩌면 파라오 시대보다도 더 오래되었을지도 모릅니다." # 8306172334983788989
+  activity_RICE_upper_egypt_visit_aswan_temples_selection_tooltip: "[temples_of_aswan|E]로 [local_pilgrimage|E]를 떠나십시오.\n\n$RICE_upper_egypt_pray_at_a_temple_in_aswan_context_tooltip$" # 9769959022460339856
+  activity_RICE_upper_egypt_visit_aswan_temples_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ 어디서 누구를 숭배하는지에 따라 #P 긍정적#! [character_modifier|E] 획득 가능" # 13354647039005070891
   activity_RICE_upper_egypt_visit_aswan_temples_guest_desc: "$activity_RICE_upper_egypt_visit_aswan_temples_host_desc$" # 14016511465846930500
-  activity_RICE_upper_egypt_visit_aswan_temples_province_desc: "고대부터 나일 강의 첫 번째 폭포는 많은 신성한 장소의 고향이었습니다." # 14622392402332000562
+  activity_RICE_upper_egypt_visit_aswan_temples_province_desc: "고대부터 나일강 제1 폭포에는 많은 성지가 자리 잡고 있었습니다." # 14622392402332000562
   activity_RICE_upper_egypt_visit_aswan_temples_destination_selection: "$activity_RICE_upper_egypt_visit_aswan_temples_province_desc$" # 1534470559549020666
   activity_RICE_upper_egypt_visit_aswan_temples_guest_help_text: "$activity_RICE_upper_egypt_visit_aswan_temples$" # 18163217682208408206
-  activity_RICE_upper_egypt_visit_aswan_temples_predicted_cost: "[GetTitleByKey('b_aswan').GetNameNoTier]으로의 [local_pilgrimage|E] 비용은 선택한 [activity_options|E]에 따라 달라집니다." # 14754048338138975856
-  activity_RICE_upper_egypt_visit_aswan_temples_conclusion_desc: "저희의 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]이(가) 끝났습니다. 신들께서 저희의 기도를 들어주셨기를 바랄 뿐입니다!" # 13268256903813989776
+  activity_RICE_upper_egypt_visit_aswan_temples_predicted_cost: "[GetTitleByKey('b_aswan').GetNameNoTier]로의 [local_pilgrimage|E] 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 14754048338138975856
+  activity_RICE_upper_egypt_visit_aswan_temples_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]는 끝났습니다. 바라건대, 신들께서 우리의 기도를 들어주셨기를 바랍니다!" # 13268256903813989776
   RICE_upper_egypt_visit_aswan_temples_completed_log_title: "아스완 신전 방문 완료" # 16076160580680568385
-  RICE_upper_egypt_visit_aswan_temples_completed_log: "[CHARACTER.GetShortUIName|U](이)가 [CHARACTER.GetHerHis] [local_pilgrimage|E](을)를 완료하여 [temples_of_aswan|E](을)를 방문했습니다." # 14620765800759981311
+  RICE_upper_egypt_visit_aswan_temples_completed_log: "[CHARACTER.GetShortUIName|U]가 [CHARACTER.GetHerHis] [local_pilgrimage|E]를 완료하고 [temples_of_aswan|E]를 방문했습니다." # 14620765800759981311
   TRAVEL_NAME_FOR_activity_RICE_upper_egypt_visit_aswan_temples: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_upper_egypt_visit_aswan_temples$" # 10285023179107156968
   activity_RICE_upper_egypt_visit_aswan_temples_owner: "순례자" # 384073485693042227
-  RICE_upper_egypt_visit_aswan_temples_open_req: "엘레판티네, 필레 또는 칼라브샤의 사원 중 하나 이상이 열려 있습니다" # 4715381267934827060
+  RICE_upper_egypt_visit_aswan_temples_open_req: "엘레판티네, 필레, 칼라브샤의 사원 중 적어도 하나가 개방되어 있습니다" # 4715381267934827060
   building_type_RICE_upper_egypt_temple_of_luxor_01: "룩소르 신전" # 16286347454461359958
-  building_type_RICE_upper_egypt_temple_of_luxor_01_desc: "이집트에는 수많은 위대한 기념물이 있으며, 룩소르 신전은 고대 이집트의 뛰어난 공학 유산의 가장 훌륭한 본보기로 수세기 동안 서 있었습니다.\n\n룩소르는 한때 파라오가 소유했던 힘의 증거이며, 그들의 왕권을 숭배하기 위해 헌정된 신전입니다. 고대 파라오들은 오래전에 사라졌지만, 사람들이 그 원래의 목적을 잊더라도 그들이 지은 이 신전은 수세기 동안 지속될 것입니다." # 16487156351287810449
+  building_type_RICE_upper_egypt_temple_of_luxor_01_desc: "이집트 전역에는 수많은 위대한 기념물이 있으며, 룩소르 신전은 고대 이집트의 찬란한 공학 유산 중 가장 훌륭한 본보기로서 수 세기 동안 그 자리를 지켜왔습니다.\n\n룩소르는 파라오의 왕권을 숭배하기 위해 지어진 신전으로서, 그들이 한때 가졌던 권력의 증거입니다. 비록 고대 파라오들은 오래전에 사라졌지만, 사람들이 그 원래 목적을 잊더라도 그들이 지은 이 신전은 분명 수 세기 동안 지속될 것입니다." # 16487156351287810449
   building_RICE_upper_egypt_temple_of_luxor_01: "룩소르 신전" # 16286347454461359958
   building_RICE_upper_egypt_temple_of_luxor_01_desc: "$building_type_RICE_upper_egypt_temple_of_luxor_01_desc$" # 17331465675767998500
   building_RICE_upper_egypt_temple_of_luxor_02: "룩소르 교회" # 17525216184485476255
-  building_RICE_upper_egypt_temple_of_luxor_02_desc: "이집트에는 수많은 위대한 기념물이 있으며, 룩소르 신전은 고대 이집트의 뛰어난 공학 유산의 가장 훌륭한 예로서 수 세기 동안 서 있었습니다.\n\n룩소르는 한때 파라오들이 가졌던 힘의 증거이지만, 그들은 더 이상 없습니다. 신전의 일부는 교회로 개조되었습니다. 또한 독실한 기독교인들이 신전 유적을 따라 정착하여 집, 상점, 병영 등을 짓습니다." # 17341660832643966360
+  building_RICE_upper_egypt_temple_of_luxor_02_desc: "이집트 전역에는 수많은 위대한 기념물이 자리하고 있으며, 룩소르 신전은 수세기 동안 고대 이집트의 경이로운 건축 기술 유산을 보여주는 가장 훌륭한 사례로 자리해 왔습니다.\n\n룩소르는 한때 파라오가 지녔던 힘을 증명하는 증거입니다만, 그들은 더 이상 존재하지 않습니다. 신전의 일부는 교회로 개조되었습니다. 더불어, 독실한 기독교인들이 신전 유적을 따라 정착하여 집, 상점, 병영 등을 짓고 있습니다." # 17341660832643966360
   building_RICE_upper_egypt_temple_of_luxor_03: "룩소르 모스크" # 10642419297625328833
-  building_RICE_upper_egypt_temple_of_luxor_03_desc: "이집트 전역에는 수많은 위대한 기념물이 있으며, 룩소르 신전은 수세기 동안 고대 이집트의 훌륭한 엔지니어링 유산의 가장 훌륭한 예시로 서 있었습니다.\n\n룩소르는 한때 파라오가 소유했던 권력의 증거이지만, 그들은 더 이상 존재하지 않습니다. 과거 기독교인들이 신전 일부를 교회로 개조했고, 현재는 이슬람교도들이 그 안에서 모스크를 세우며 동일한 일을 하고 있습니다. 또한 독실한 무슬림들은 신전 유적을 따라 정착하며 집, 상점, 막사 등을 짓고 있습니다." # 15480356230784620803
+  building_RICE_upper_egypt_temple_of_luxor_03_desc: "이집트 전역에 걸쳐 많은 위대한 기념비들이 자리하고 있으며, 룩소르 신전은 수백 년 동안 고대 이집트의 찬란한 공학 유산의 가장 훌륭한 본보기로서 서 있었습니다.\n\n룩소르는 한때 파라오들이 지녔던 힘의 증거이지만, 그들은 이제 더 이상 존재하지 않습니다. 기독교도들은 이전에 신전 일부를 교회로 개조했고, 이제 무슬림들도 그 안에 모스크를 세우며 똑같이 했습니다. 추가적으로, 독실한 무슬림들이 신전 유적을 따라 정착하며 집, 상점, 병영 등을 짓고 있습니다." # 15480356230784620803
   RICE_nile_normal_flood: "[nile_flood|E]: 보통" # 15467855338218283017
-  RICE_nile_normal_flood_desc: "나일강의 수위가 16 큐빗까지 상승했습니다. 이 정도면 올해 이집트의 수확량은 괜찮을 것입니다.\n\n#italic $tradition_RICE_children_of_the_nile_name$#! [tradition|E]를 가진 [cultures|E]의 경우 [GetActivityType('activity_RICE_upper_egypt_open_nile_canals').GetName] [activity|E]을 잠금 해제합니다!" # 13482189070960063252
+  RICE_nile_normal_flood_desc: "나일 강물이 16큐빗 높이까지 불어났습니다. 적절한 범람으로, 올해 이집트의 수확량이 괜찮을 것임을 의미합니다.\n\n#italic [GetActivityType('activity_RICE_upper_egypt_open_nile_canals').GetName] [activity|E]가 #Bold $tradition_RICE_children_of_the_nile_name$#! [tradition|E]#!를 보유한 [cultures|E]에게 해금됩니다.#" # 13482189070960063252
   RICE_nile_high_flood: "[nile_flood|E]: 높음" # 17985417963279709859
-  RICE_nile_high_flood_desc: "나일강 수위가 17 큐빗까지 상승했으며, 이는 최적의 범람으로 올해 이집트의 수확이 풍년일 것임을 의미합니다.\n\n#italic [tradition|E]인 #Bold $tradition_RICE_children_of_the_nile_name$#!을 가진 [cultures|E]에 대해 [GetActivityType('activity_RICE_upper_egypt_open_nile_canals').GetName] [activity|E]을(를) 해제합니다#!" # 12105290004074622316
+  RICE_nile_high_flood_desc: "나일 강물이 17큐빗까지 차올랐습니다. 이는 최적의 범람으로, 올해 이집트의 수확이 풍성할 것이라는 뜻입니다.\n\n#italic #Bold $tradition_RICE_children_of_the_nile_name$#! [tradition|E]#!를 가진 [cultures|E]가 [GetActivityType('activity_RICE_upper_egypt_open_nile_canals').GetName] [activity|E]를 잠금 해제합니다.\n#!" # 12105290004074622316
   RICE_nile_very_high_flood: "[nile_flood|E]: 매우 높음" # 67335049304601674
-  RICE_nile_very_high_flood_desc: "나일 강의 수위가 18큐빗까지 상승했으며, 이는 매우 풍부한 범람으로 올해 이집트의 수확량이 엄청날 것임을 의미합니다.\n\n#italic #Bold $tradition_RICE_children_of_the_nile_name$#! [전통|E]을 보유한 [문화|E]에 대해 [GetActivityType('activity_RICE_upper_egypt_open_nile_canals').GetName] [활동|E]을 해제합니다.!" # 9706750201017036181
-  RICE_nile_overflooding_flood: "[nile_flood|E]: 범람" # 9740771137257138289
-  RICE_nile_overflooding_flood_desc: "나일강 수위가 19큐빗 이상으로 상승하여 위험할 정도로 높은 범람으로 올해 이집트의 농경지를 침수시키고 수확을 망칠 가능성이 있습니다.\n\n#italic #F $tradition_RICE_children_of_the_nile_name$#! [tradition|E]을 보유한 [cultures|E]에 대해 [GetActivityType('activity_RICE_upper_egypt_pray_good_nile_flood').GetName] [activity|E] 해제#!" # 15966687973736721843
-  RICE_nile_low_flood: "[nile_flood|E]: 낮음" # 17390774437581150267
-  RICE_nile_low_flood_desc: "나일강 수위가 14~15 큐빗으로 상승했는데, 이는 평균 이하의 범람으로 올해 이집트의 수확이 미미할 것임을 의미합니다.\n\n#italic $tradition_RICE_children_of_the_nile_name$#! [전통|E]을 보유한 [문화|E]의 경우 [GetActivityType('activity_RICE_upper_egypt_pray_good_nile_flood').GetName] [활동|E]을(를) 잠금 해제합니다!" # 14355403939591393227
-  RICE_nile_very_low_flood: "[nile_flood|E]: 매우 낮음" # 761519571520590873
-  RICE_nile_very_low_flood_desc: "나일 강의 물이 14큐빗에 이르지 못했습니다. 심각하게 낮은 홍수는 이집트에서 올해 농작물이 매우 부족하거나 전혀 수확되지 않을 것을 의미합니다.\n\n#italic [activity|E] [activity_RICE_upper_egypt_pray_good_nile_flood].GetName#을 해제합니다. #Bold $tradition_RICE_children_of_the_nile_name$# [tradition|E]를 가진 [cultures|E]에 대해." # 17810771348261059832
-  RICE_nile_renovated_nilometers: "개조된 나일강 수위계" # 2574136598588571131
-  RICE_nile_renovated_nilometers_desc: "이 지역의 여러 나일강 수위계가 최근에 중요한 수리 및 유지 보수 작업을 거쳤습니다. 신뢰할 수 있는 나일강 수위계를 보유하는 것이 나일강 홍수를 막을 수는 없지만, 지역 당국이 홍수 범람으로 인한 공황과 피해를 최소화하기 위해 준비하고 빠르게 대처할 시간을 확보할 수 있습니다.\n\n#italic 이 [county_modifier|E]가 활성화된 동안 [nile_flood|E]가 좋지 않으면 이 [county|E]는 그 해의 부정적인 효과를 일부(전부는 아님) 상쇄하기 위해 [GetModifier('RICE_nile_mitigated_bad_flood').GetNameWithTooltip] [county_modifier|E]를 얻게 됩니다.#!" # 16207271384769283366
-  RICE_nile_mitigated_bad_flood: "완화된 불운 [nile_flood|E]" # 9012101216749016935
-  RICE_nile_mitigated_bad_flood_desc: "올해의 나일강 범람은 이상적이지 못했지만, 이 지역의 현명한 지도자들이 최근 지역 나일 수위계를 더욱 효율적이고 신뢰성 있게 개보수하고 수리하여 관리들이 홍수의 최악의 영향을 완화하고 평민들 사이의 공황을 다소 줄일 수 있었습니다." # 4232996517534281629
-  RICE_upper_egypt_recently_closed_philae: "필레가 공식적으로 폐쇄됨" # 834302629822816029
-  RICE_upper_egypt_recently_closed_philae_desc: "[temples_of_aswan_city|E] 근처 필레의 신전은 한동안 버려져 있었고 최근에 공식적으로 폐쇄되었습니다." # 4422007696454603799
+  RICE_nile_very_high_flood_desc: "나일 강 물이 18 큐빗까지 불어났습니다. 이는 경이로울 정도로 좋은 범람으로, 올해 이집트에서 수확이 매우 풍성할 것을 의미합니다.\n\n#italic [GetActivityType('activity_RICE_upper_egypt_open_nile_canals').GetName] [activity|E]를 #Bold $tradition_RICE_children_of_the_nile_name$#! [tradition|E]#!를 가진 [cultures|E]에 대해 잠금 해제합니다.#" # 9706750201017036181
+  RICE_nile_overflooding_flood: "[나일강 홍수|E]: 범람" # 9740771137257138289
+  RICE_nile_overflooding_flood_desc: "나일강 물이 19 큐빗 이상으로 불어났습니다. 이는 위험할 정도로 높은 범람으로, 올해 이집트의 농경지를 수몰시키고 수확을 망칠 가능성이 높습니다.\n\n#italic [GetActivityType('activity_RICE_upper_egypt_pray_good_nile_flood').GetName] [activity|E]가 #Bold $tradition_RICE_children_of_the_nile_name$# ! [tradition|E]#!를 보유한 [cultures|E]에게 잠금 해제됩니다.#" # 15966687973736721843
+  RICE_nile_low_flood: "나일강 범람: 낮음" # 17390774437581150267
+  RICE_nile_low_flood_desc: "나일 강 수위가 14~15큐빗까지밖에 오르지 않았습니다. 평년보다 낮은 범람으로, 올해 이집트의 수확이 빈약할 것임을 의미합니다.\n\n#italic #Bold $tradition_RICE_children_of_the_nile_name$#! [tradition|E]#!를 보유한 [cultures|E]에게는 [GetActivityType('activity_RICE_upper_egypt_pray_good_nile_flood').GetName] [activity|E]가 잠금 해제됩니다.#" # 14355403939591393227
+  RICE_nile_very_low_flood: "나일강 범람: 매우 낮음" # 761519571520590873
+  RICE_nile_very_low_flood_desc: "나일강의 물이 열네 큐빗에도 미치지 못했습니다. 이는 올해 이집트의 수확량이 끔찍하거나 전무할 것임을 의미하는 매우 낮은 범람입니다.\n\n#italic [cultures|E]가 #Bold $tradition_RICE_children_of_the_nile_name$#! [tradition|E]#!를 가지고 있다면, [GetActivityType('activity_RICE_upper_egypt_pray_good_nile_flood').GetName] [activity|E]를 잠금 해제합니다.#" # 17810771348261059832
+  RICE_nile_renovated_nilometers: "개선된 나일강 수위계" # 2574136598588571131
+  RICE_nile_renovated_nilometers_desc: "이 지역의 나일강 수위계 몇몇이 최근 중요한 수리 및 보수 작업을 거쳤다. 신뢰할 수 있는 나일강 수위계를 갖는다고 해서 나일강의 흉작을 막을 수는 없지만, 그들은 현지 당국이 대비하고 신속하게 대응할 시간을 확보할 수 있게 해 그러한 범람으로 인한 공황과 여파를 최소화할 수 있다.\n\n#italic 이 [county_modifier|E]가 활성화된 동안 [nile_flood|E]가 흉작일 경우, 이 [county|E]는 해당 연도의 부정적인 효과 일부(전부는 아님)를 상쇄하기 위해 [GetModifier('RICE_nile_mitigated_bad_flood').GetNameWithTooltip] [county_modifier|E]를 얻는다.#!" # 16207271384769283366
+  RICE_nile_mitigated_bad_flood: "심한 [nile_flood|E] 완화됨" # 9012101216749016935
+  RICE_nile_mitigated_bad_flood_desc: "올해 나일강 범람이 이상적이지 못했으나, 이 지역의 신중한 지도자들은 최근 지역 나일로미터를 재정비하고 수리하여 더 효율적이고 신뢰성 있게 만들었습니다. 덕분에 관리들은 홍수로 인한 최악의 피해 일부를 완화하고 백성들 사이의 공황을 어느 정도 줄일 수 있었습니다." # 4232996517534281629
+  RICE_upper_egypt_recently_closed_philae: "필레 공식 폐쇄" # 834302629822816029
+  RICE_upper_egypt_recently_closed_philae_desc: "[temples_of_aswan_city|E] 근처의 필레 신전은 한동안 버려져 있었다가 최근 공식적으로 폐쇄되었습니다." # 4422007696454603799
   RICE_upper_egypt_recently_closed_elephantine: "엘레판티네 공식 폐쇄" # 15969028766027701936
-  RICE_upper_egypt_recently_closed_elephantine_desc: "[temples_of_aswan_city|E] 근처의 엘레판티네 사원들은 한동안 버려져 있었고 최근 공식적으로 폐쇄되었습니다." # 10974220200370091667
+  RICE_upper_egypt_recently_closed_elephantine_desc: "[temples_of_aswan_city|E] 근처의 엘레판티네 사원들은 한동안 버려져 있다가 최근에 공식적으로 폐쇄되었습니다." # 10974220200370091667
   RICE_upper_egypt_recently_closed_kalabsha: "칼라브샤 공식 폐쇄" # 14895006628190419069
-  RICE_upper_egypt_recently_closed_kalabsha_desc: "[temples_of_aswan_city|E] 근처 칼라브샤의 신전은 한동안 버려졌다가 최근에 공식적으로 폐쇄되었습니다." # 5230945688916150704
-  RICE_upper_egypt_recently_reopened_philae: "필레 정식 재개장" # 3254873076735645134
-  RICE_upper_egypt_recently_reopened_philae_desc: "[temples_of_aswan_city|E] 근처의 필레 신전은 버려졌던 곳이었으나 최근 공식적으로 재개장되었습니다." # 9481419214222700288
-  RICE_upper_egypt_recently_reopened_elephantine: "엘레판티네 정식 재개장" # 17018821406704204844
-  RICE_upper_egypt_recently_reopened_elephantine_desc: "[temples_of_aswan_city|E] 근처에 있는 엘레판티네의 사원들은 폐허가 되었었지만, 최근 공식적으로 재개장했습니다." # 5387337671532082354
-  RICE_upper_egypt_recently_reopened_kalabsha: "칼라브샤 공식 재개장" # 9355697771756211893
-  RICE_upper_egypt_recently_reopened_kalabsha_desc: "최근에 버려졌던 [temples_of_aswan_city|E] 근처의 칼라브샤 사원이 공식적으로 재개장했습니다." # 15865559324928138635
-  RICE_upper_egypt_worshipped_at_philae: "필레에서 숭배됨" # 4752581330254041335
-  RICE_upper_egypt_worshipped_at_philae_desc: "이 인물은 최근 아스완 근처의 필레 신전에 가서 이시스와 그곳의 여러 신들에게 경의를 표했습니다." # 6007824654031995562
-  RICE_upper_egypt_worshipped_at_elephantine: "엘레판티네에서 숭배됨" # 196514024663798479
-  RICE_upper_egypt_worshipped_at_elephantine_desc: "이 인물은 최근 아스완 근처의 엘레판티네 사원에 가서 크눔과 그곳의 다른 여러 신들에게 경의를 표했습니다." # 11558676284524148986
-  RICE_upper_egypt_worshipped_at_kalabsha: "칼라브샤에서 숭배함" # 1453235236926689136
-  RICE_upper_egypt_worshipped_at_kalabsha_desc: "이 인물은 최근 아스완 근처의 칼라브샤 신전에 가서 만둘리스와 그곳의 다른 여러 신들에게 경의를 표했습니다." # 3235715842615476194
-  RICE_upper_egypt_philae_honored_isis: "필레에서 이시스의 축복을 받음" # 14757792400666893860
-  RICE_upper_egypt_philae_honored_isis_desc: "이 인물은 최근 위대한 어머니 여신인 이시스에게 경의를 표하기 위해 아스완 근처의 필레 신전에 갔으며, 여신의 축복을 받은 것으로 여겨집니다." # 10922721972330068273
-  RICE_upper_egypt_philae_honored_osiris: "필레에서 오시리스의 축복을 받음" # 17355098706617257896
-  RICE_upper_egypt_philae_honored_osiris_desc: "이 인물은 최근 죽음과 재생의 군주인 오시리스에게 경의를 표하기 위해 아스완 근처의 필레 신전에 갔으며, 신의 축복을 받았다고 여겨집니다." # 13543856110332481035
-  RICE_upper_egypt_philae_honored_horus: "필레에서 호루스의 축복을 받았습니다" # 6097078139320153208
-  RICE_upper_egypt_philae_honored_horus_desc: "이 인물은 최근 아스완 근처의 필레 신전에 가서 매의 왕 호루스에게 경의를 표했으며, 신의 축복을 받은 것으로 여겨집니다." # 544153772307113508
-  RICE_upper_egypt_elephantine_honored_khnum: "엘레판티네에서 크눔의 축복을 받음" # 591162808078025537
-  RICE_upper_egypt_elephantine_honored_khnum_desc: "이 인물은 최근 아스완 근처의 엘레판티네 사원에 가서 신성한 도공 크눔에게 경의를 표했으며 신의 축복을 받은 것으로 여겨집니다." # 10924923753408115503
-  RICE_upper_egypt_elephantine_honored_satet: "엘레판티네에서 사티스의 축복을 받다" # 7855977131486508082
-  RICE_upper_egypt_elephantine_honored_satet_desc: "이 인물은 최근 남쪽의 수호신인 사티스에게 경의를 표하기 위해 아스완 근처의 엘레판티네 사원에 다녀왔으며, 여신의 축복을 받은 것으로 여겨집니다." # 1946558095482306392
-  RICE_upper_egypt_elephantine_honored_anuket: "엘레판티네의 아누케트의 축복을 받음" # 8025987937227289098
-  RICE_upper_egypt_elephantine_honored_anuket_desc: "이 인물은 최근 아스완 근처의 엘레판티네 사원에 가서 나일 강 급류의 여신인 아누케트에게 경의를 표했으며, 여신의 축복을 받은 것으로 여겨집니다." # 6202525429031604884
-  RICE_upper_egypt_kalabsha_honored_mandulis: "칼라브샤에서 만둘리스의 축복을 받음" # 5009587135234675307
-  RICE_upper_egypt_kalabsha_honored_mandulis_desc: "이 인물은 최근 아스완 근처 칼라브샤 사원에 가서 탈미스의 모든 것을 꿰뚫어보는 군주 만둘리스에게 경의를 표했으며, 신의 축복을 받은 것으로 여겨집니다." # 9557820865545710038
-  RICE_upper_egypt_kalabsha_honored_imhotep: "칼라브샤에서 임호테프의 축복을 받음" # 1331175548222636321
-  RICE_upper_egypt_kalabsha_honored_imhotep_desc: "이 인물은 최근 아스완 근처의 칼라브샤 신전에 가서 불멸의 건축가이자 의사인 임호테프에게 경의를 표했으며, 신의 축복을 받은 것으로 여겨집니다." # 7501545178464905460
-  RICE_upper_egypt_kalabsha_honored_tutu: "칼라브샤에서 투투의 축복을 받음" # 17360469713756074873
-  RICE_upper_egypt_kalabsha_honored_tutu_desc: "이 인물은 최근 아스완 근처 칼라브샤 신전에 가서 악마의 주인 투투에게 경의를 표했으며, 신의 축복을 받았다고 알려져 있습니다." # 7885643946705256373
-  RICE_upper_egypt_reinforced_darb_al_arbain: "다르브 알 아르바인 강화 감시 초소" # 7217935375121642403
-  RICE_upper_egypt_reinforced_darb_al_arbain_desc: "다르브 알 아르바인, 즉 40일 길은 이집트에서 다르푸르까지 나일 강 서쪽 사막을 가로지르는 캐러밴 길입니다. 최근 현지 당국은 이 길의 특정 구간 및 하위 노선에 있는 감시 초소를 양호한 상태로 유지하기 위해 노력하여 이곳을 통과하는 캐러밴을 보호하고 피난처를 제공할 수 있도록 했습니다." # 7680200820552104461
-  RICE_nile_flood_repentance: "나일강 범람 실패에 대한 적절한 참회" # 16656420683683750541
-  RICE_nile_flood_repentance_desc: "올해 나일강의 홍수가 좋지 않자 당국과 성직자들은 여러 대규모 기도 행사를 조직했는데, 많은 사람들이 나일강의 좋지 않은 상황이 사람들의 죄의 결과라고 믿기 때문입니다. 이러한 공개적인 신앙 표시는 적어도 이 지역에서는 공황 상태가 악화되는 것을 막았습니다." # 11837006284218854340
-  RICE_nile_opened_canal_normal: "나일강 운하 개통 (정상 범람)" # 15586173299367055003
-  RICE_nile_opened_canal_normal_desc: "최근 나일강 범람이 적절하게 이루어졌으므로, 이 인물은 최근 성대한 의식에서 나일강 운하의 정식 개통을 기념했습니다." # 6619385553876624630
+  RICE_upper_egypt_recently_closed_kalabsha_desc: "[temples_of_aswan_city|E] 근처 칼라브샤 신전은 한동안 버려져 있었고 최근 공식적으로 폐쇄되었습니다." # 5230945688916150704
+  RICE_upper_egypt_recently_reopened_philae: "필레 정식 재개방" # 3254873076735645134
+  RICE_upper_egypt_recently_reopened_philae_desc: "[temples_of_aswan_city|E] 근처, 버려졌던 필레 신전이 최근 정식으로 재개장했습니다." # 9481419214222700288
+  RICE_upper_egypt_recently_reopened_elephantine: "엘레판티네 공식 재개" # 17018821406704204844
+  RICE_upper_egypt_recently_reopened_elephantine_desc: "버려졌었던, [temples_of_aswan_city|E] 근처 엘레판티네의 사원들이 최근에 막 공식적으로 다시 문을 열었습니다." # 5387337671532082354
+  RICE_upper_egypt_recently_reopened_kalabsha: "칼라브샤 정식 재개방" # 9355697771756211893
+  RICE_upper_egypt_recently_reopened_kalabsha_desc: "[temples_of_aswan_city|E] 근처에 있는 버려졌던 칼라브샤 신전이 최근 공식적으로 다시 문을 열었습니다." # 15865559324928138635
+  RICE_upper_egypt_worshipped_at_philae: "필레에서 숭배받는" # 4752581330254041335
+  RICE_upper_egypt_worshipped_at_philae_desc: "이 인물은 최근 아스완 근처 필레 신전에 가서 이시스와 그곳의 다른 여러 신들께 경의를 표했습니다." # 6007824654031995562
+  RICE_upper_egypt_worshipped_at_elephantine: "엘레판티네에서 숭배받는" # 196514024663798479
+  RICE_upper_egypt_worshipped_at_elephantine_desc: "이 인물은 최근 아스완 근처에 있는 엘레판티네의 신전들을 방문하여 크눔 신과 그곳의 다른 여러 신들에게 경배를 표했습니다." # 11558676284524148986
+  RICE_upper_egypt_worshipped_at_kalabsha: "칼라브샤에서 숭배되는" # 1453235236926689136
+  RICE_upper_egypt_worshipped_at_kalabsha_desc: "이 인물은 최근에 아스완 근처에 있는 칼라브샤 신전으로 가서 만둘리스와 그곳의 다른 여러 신들에게 경의를 표했습니다." # 3235715842615476194
+  RICE_upper_egypt_philae_honored_isis: "필레에서 이시스의 축복을 받은" # 14757792400666893860
+  RICE_upper_egypt_philae_honored_isis_desc: "이 인물은 최근 아스완 근처의 필레 신전을 방문하여 위대한 어머니 여신 이시스에게 경의를 표했으며, 여신의 축복을 받았다고 여겨집니다." # 10922721972330068273
+  RICE_upper_egypt_philae_honored_osiris: "필레의 오시리스에게 축복받은" # 17355098706617257896
+  RICE_upper_egypt_philae_honored_osiris_desc: "이 인물은 최근 아스완 근처의 필레 신전을 방문하여 죽음과 환생의 주 오시리스에게 경의를 표했고, 신의 축복을 받았다고 믿어집니다." # 13543856110332481035
+  RICE_upper_egypt_philae_honored_horus: "필레에서 호루스의 축복을 받은" # 6097078139320153208
+  RICE_upper_egypt_philae_honored_horus_desc: "이 인물은 최근 아스완 근처 필레 신전에 가서 매의 왕 호루스에게 경의를 표했으며, 신의 축복을 받았다고 전해집니다." # 544153772307113508
+  RICE_upper_egypt_elephantine_honored_khnum: "엘레판티네에서 크눔의 축복을 받은" # 591162808078025537
+  RICE_upper_egypt_elephantine_honored_khnum_desc: "이 인물은 최근 아스완 근처 엘레판티네 신전들을 방문하여 신성한 도예가 크눔에게 경의를 표했으며, 신의 축복을 받은 것으로 여겨진다." # 10924923753408115503
+  RICE_upper_egypt_elephantine_honored_satet: "엘레판티네의 사티스에게 축복받은" # 7855977131486508082
+  RICE_upper_egypt_elephantine_honored_satet_desc: "이 인물은 최근 아스완 근처에 있는 엘레판티네 신전을 방문하여 남쪽의 수호자인 사티스에게 경의를 표했으며, 여신의 축복을 받았다고 여겨집니다." # 1946558095482306392
+  RICE_upper_egypt_elephantine_honored_anuket: "엘레판티네에서 아누케트의 축복을 받았습니다" # 8025987937227289098
+  RICE_upper_egypt_elephantine_honored_anuket_desc: "이 인물은 최근 아스완 인근의 엘레판티네 신전을 방문하여, 나일강 폭포의 여신 아누케트에게 경의를 표했으며, 여신의 축복을 받은 것으로 여겨집니다." # 6202525429031604884
+  RICE_upper_egypt_kalabsha_honored_mandulis: "칼라브샤에서 만둘리스에게 축복받은" # 5009587135234675307
+  RICE_upper_egypt_kalabsha_honored_mandulis_desc: "이 인물은 최근 아스완 근처에 있는 칼라브샤 신전에 가서 탈미스의 모든 것을 보는 주님인 만둘리스에게 경의를 표하고 신의 축복을 받았다고 여겨집니다." # 9557820865545710038
+  RICE_upper_egypt_kalabsha_honored_imhotep: "칼라브샤에서 임호테프에게 축복받은" # 1331175548222636321
+  RICE_upper_egypt_kalabsha_honored_imhotep_desc: "이 인물은 최근 아스완 근처의 칼라브샤 신전에 가서 불멸의 건축가이자 의사인 임호테프에게 경의를 표했고, 신의 축복을 받았다고 믿어집니다." # 7501545178464905460
+  RICE_upper_egypt_kalabsha_honored_tutu: "칼라브샤의 투투에게 축복받음" # 17360469713756074873
+  RICE_upper_egypt_kalabsha_honored_tutu_desc: "이 인물은 최근 아스완 근처 칼라브샤의 신전을 방문하여 악마의 주인인 투투에게 경의를 표했고, 신의 축복을 받은 것으로 여겨집니다." # 7885643946705256373
+  RICE_upper_egypt_reinforced_darb_al_arbain: "강화된 다르브 알아르바인 감시 초소" # 7217935375121642403
+  RICE_upper_egypt_reinforced_darb_al_arbain_desc: "\"다르브 알-아르바인\", 혹은 \"40일 길\"은 나일 강 서쪽의 사막을 가로질러 이집트에서 다르푸르까지 이어지는 대상 경로입니다. 현지 당국은 최근 이 길의 특정 부분 및/또는 그 지선에 늘어선 전초 기지들이 잘 정비되도록 노력을 기울여왔습니다. 이를 통해 이곳을 지나는 대상들을 보호하고 피난처를 제공할 수 있게 되었습니다." # 7680200820552104461
+  RICE_nile_flood_repentance: "빈약한 나일 강 범람에 대한 적절한 회개" # 16656420683683750541
+  RICE_nile_flood_repentance_desc: "올해 나일강 홍수가 좋지 않자, 당국과 성직자들은 백성의 죄악 때문이라 믿는 이들이 많아 여러 차례 대규모 기도 행사를 개최했습니다. 이러한 공적인 신앙 표현 덕분에, 적어도 이 지역에서는 대혼란이 일어나는 것을 막을 수 있었습니다." # 11837006284218854340
+  RICE_nile_opened_canal_normal: "나일 운하 개통 (보통 홍수)" # 15586173299367055003
+  RICE_nile_opened_canal_normal_desc: "최근 훌륭한 나일 홍수가 있었기에, 그 인물은 나일 운하의 공식 개통식을 장엄한 의식으로 거행했습니다." # 6619385553876624630
   RICE_nile_opened_canal_high: "나일 운하 개통 (대홍수)" # 13031876389439941080
-  RICE_nile_opened_canal_high_desc: "최근에 나일강의 수위가 높게 올라갔으므로, 이 인물은 최근 성대한 의식에서 나일강 운하의 공식 개통을 기념했습니다." # 9713453998258597692
-  RICE_nile_opened_canal_very_high: "나일 운하 개통 (매우 높은 수위)" # 16375219823353447258
-  RICE_nile_opened_canal_very_high_desc: "최근 나일강이 훌륭하게 범람하여 이 인물은 성대한 의식에서 나일강 운하의 정식 개통을 축하했습니다." # 9715099803817064842
-  RICE_upper_egypt_helped_hippo_victims: "하마 공격 희생자에게 기부함" # 17516327733083849291
-  RICE_upper_egypt_khirs_lands_tensions: "키르스 영토를 둘러싼 긴장" # 12382007167133958436
-  RICE_upper_egypt_khirs_lands_tensions_desc: "키르는 나일 강을 따라 농업에는 부적합하지만 유목민이 정착하기에 매력적인, 잡초가 무성한 땅입니다. 최근 유목민들이 이 지역의 그러한 땅으로 이동하여 지역 마을 주민들과의 긴장을 야기했습니다. 당국은 갈등을 해결하고 양측을 중재하기 위해 많은 노력을 기울이지 않았고, 이는 긴장을 더욱 고조시켰습니다." # 5948697183834757347
-  RICE_upper_egypt_khirs_tensions_pastoralists: "유목 목축민들이 키르족의 땅으로 이동합니다" # 1940355978094512158
-  RICE_upper_egypt_khirs_tensions_pastoralists_desc: "키르스는 나일 강을 따라 농업에 부적합하지만 유목민들이 정착하기에 매력적인 목초지가 우거진 땅입니다. 최근 유목민들이 이 지역의 그러한 땅으로 이동하여 지역 마을 주민들과 긴장이 고조되었습니다. 당국은 유목민들이 문제를 일으키지 않는 한 머무를 수 있다고 주장하며 유목민들의 편을 들었습니다." # 16774137407692521153
-  RICE_upper_egypt_khirs_tensions_villagers: "촌민들이 키르스 땅에서 유목민들을 쫓아낸다." # 9644788258860852253
-  RICE_upper_egypt_khirs_tensions_villagers_desc: "키르스는 나일 강을 따라 농업에는 적합하지 않지만 유목민들이 정착하기에 매력적인 목초지가 있는 잡초가 만연한 땅입니다. 최근에 유목민들이 이 지역의 그러한 땅으로 이동해 왔으며, 이는 지역 마을 사람들과의 긴장으로 이어졌습니다. 당국은 마을 사람들의 편을 들었습니다. 마을 사람들이 유목민을 위협으로 간주하면 그들을 쫓아낼 수 있습니다." # 6323661025456050421
-  RICE_upper_egypt_khirs_tensions_resolved: "키르스 영토 분쟁 해결됨" # 6946739746946111203
-  RICE_upper_egypt_khirs_tensions_resolved_desc: "키르스는 나일강을 따라 농업에는 적합하지 않지만 유목민들이 정착하기에 매력적인 잡초가 무성한 땅입니다. 최근 유목민들이 이 지역의 이러한 땅으로 이주하여 지역 주민들과의 긴장을 야기했습니다. 당국은 양측이 타협하여 평화롭게 공존할 수 있도록 설득하는 데 성공했습니다." # 3355067237400726686
-  RICE_upper_egypt_studied_nilometer_records: "나일 강 수위 측정 기록 연구" # 15743660647387796037
-  RICE_upper_egypt_new_temple_village: "오래된 사원 안의 새로운 마을" # 9712985936301630584
-  RICE_upper_egypt_new_temple_village_desc: "이집트의 풍경에는 고대 기념물들이 흩어져 있으며, 사람들이 기념물 안팎에 마을을 짓는 것은 드문 일이 아닙니다. 그러한 마을 중 하나가 전략적으로 중요한 위치에 있는 신전 내 이 지역에 생겨났습니다." # 11447380292188360403
-  RICE_upper_egypt_ate_ful_medames: "훌 메다메스를 맛있게 먹었습니다" # 10019572647079717718
-  RICE_upper_egypt_ate_ful_medames_desc: "콩과 향신료, 레몬, 그리고 더 많은 재료가 어우러진 풍성한 스튜 – 맛있지 않은 게 뭐가 있을까요?" # 8320847755139996672
-  RICE_upper_egypt_opinion_ruthless_egyptian_officials: "무자비한 이집트 관리들에 대한 적개심" # 6400367830740197997
-  RICE_upper_egypt_worshipped_at_aswan: "아스완 신전에서 숭배받음" # 4421656402684958953
-  RICE_upper_egypt_celebrate_nile_canal_opening: "나일 강 운하 개통을 기념하십시오" # 4561705598775393067
-  RICE_upper_egypt_celebrate_nile_canal_opening_tooltip: "올해 나일강 범람이 좋았네!" # 12324009183945445354
-  RICE_upper_egypt_celebrate_nile_canal_opening_desc: "이집트에서 올해 [nile_flood|E]가 좋았기 때문에 곧 관개수로를 개방하여 강물의 연례적인 범람을 활용하고 농지에 더 효율적으로 물을 분배할 수 있을 것입니다. 수로 개통은 중요한 의식이며, 올해는 성대한 볼거리를 만들 것입니다!" # 7655690040483567121
-  RICE_upper_egypt_celebrate_nile_canal_opening_effect_tooltip: "[명성|E], [faith|E] 및 #P 긍정적#! [인물_보정|E]을 얻을 것이며, 그 강도는 [나일강_범람|E]의 결과에 따라 달라집니다" # 747409744379093843
-  RICE_upper_egypt_celebrate_nile_canal_opening_confirm: "나일강 범람이 올해는 좋았으니 [ROOT.Char.GetFaith.HighGodName]께 감사하십시오!" # 10025509314456999767
-  RICE_upper_egypt_celebrate_nile_canal_opening_context_tooltip: "#bold 역사적 배경:#! 파라오 시대부터 이집트인들은 나일강의 해마다 범람을 이용하여 농업 생산량을 극대화하기 위한 관개 운하를 건설했습니다. 나일강이 어느 정도 수위까지 상승하면 이러한 운하 개통이 상징적인 의미를 지녔으며, 이집트의 기독교화와 이슬람화 이후에도 여러 의례가 이어졌습니다. 맘루크 왕조는 이러한 의례를 새로운 수준으로 끌어올려 나일강 범람을 축하하는 화려하고 성대한 행사를 개발했습니다." # 5991225248918110920
-  RICE_upper_egypt_pray_for_a_good_nile_flood: "나일 홍수가 좋지 않았던 후 회개하다" # 5761963492133262915
-  RICE_upper_egypt_pray_for_a_good_nile_flood_tooltip: "그들은 우리가 죄 때문에 벌을 받고 있다고 말합니다..." # 285790918418480461
-  RICE_upper_egypt_pray_for_a_good_nile_flood_desc: "올해 이집트에서는 [nile_flood|E]가 나일 강을 따라 괜찮은 수확을 내기에 필요한 최적량에 미치지 못해 이상적이지 못했습니다. 다시는 이런 일이 일어나지 않도록 우리의 죄를 용서해 달라고 간청해야 합니다!" # 917602487837441443
-  RICE_upper_egypt_pray_for_a_good_nile_flood_effect_tooltip_1: "[미덕|E], [죄악|E], [특성|E], [신앙심_단계|E] 및 잃을 의향이 있는 [금전|E]의 양에 따라, 약간의 [신앙심|E]과 [명성|E]을 얻을 수 있으며, [GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 소유한 [백작령|E]은 #italic 부정적인 영향을 다소 상쇄하기 위해#! [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [백작령_수정치|E]를 얻을 수 있습니다." # 6540522251652697777
-  RICE_upper_egypt_pray_for_a_good_nile_flood_effect_tooltip_2: "나일강이 범람하지 않았다면, [THIS.Char.GetFaith.HighGodName]께서 당신의 기도를 들으시고 나일강의 물이 불어날 가능성이 매우 희박합니다" # 2890679954997021639
-  RICE_upper_egypt_pray_for_a_good_nile_flood_confirm: "[ROOT.Char.GetFaith.HighGodName]시여, 저희를 용서하소서!" # 3894493230054256378
-  RICE_upper_egypt_pray_for_a_good_nile_flood_context_tooltip: "#emphasis 역사적 배경:#! 나일 강 홍수가 적정 수준(보통 16 큐빗)에 이르지 못하면, 이집트는 흉작, 사회 혼란, 반란으로 이어지는 위험한 상황에 처했습니다. 중세 기록에는 기독교도와 이슬람교도 이집트인들이 기근의 해에 충분한 홍수를 내려달라고 신에게 간청하는 모습이 나타나 있으며, 당대 문헌에서 한 종교의 우월성을 주장하는 근거로 활용되었습니다." # 6718295993825191133
-  RICE_decision_good_nile_flood_req: "올해 [nile_flood|E]는 평범하거나, 높거나, 매우 높습니다" # 8358163093436740032
-  RICE_decision_bad_nile_flood_req: "올해 [nile_flood|E]는 낮거나, 매우 낮거나, 범람했습니다." # 16341422262975885811
-  RICE_decision_low_nile_flood_req: "올해 [nile_flood|E]은 낮거나 매우 낮습니다." # 8956264820688218989
-  RICE_decision_nile_valley_geographical_req: "[GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 [county|E]를 소유하고 있습니다" # 6879126605274077614
-  RICE_decision_nile_flood_month_req: "월은 8월, 9월, 또는 10월입니다." # 1004186098150656325
-  RICE_upper_egypt_renovate_local_nilometers: "지역 나일로미터 개조" # 14250785538737332602
-  RICE_upper_egypt_renovate_local_nilometers_tooltip: "닐로미터가 잘 작동하는 것이 중요합니다." # 1763961535843399445
-  RICE_upper_egypt_renovate_local_nilometers_desc: "제 영지에 있는 나일 수위 관측소 일부가 수리 및 유지 보수가 필요하다는 보고를 받았습니다. 이 기회를 활용하여 관측소를 개보수하고 개선할 수도 있을 것입니다." # 13194311244478417328
-  RICE_upper_egypt_renovate_local_nilometers_effect_tooltip_1: "만약 [nile_flood|E]가 좋지 않다면(즉, 낮음, 매우 낮음 또는 범람), [GetGeographicalRegion('RICE_nile_river_valley').GetName]에 소유한 [counties|E]는 페널티를 부분적으로 상쇄하기 위해 [GetModifier('RICE_nile_mitigated_bad_flood').GetNameWithTooltip] [county_modifier|E]를 받습니다." # 16362806853536711191
-  RICE_upper_egypt_renovate_local_nilometers_confirm: "이것은 중요한 작업입니다." # 17831285375739606328
-  RICE_upper_egypt_renovate_local_nilometers_context_tooltip: "#emphasis 역사적 배경:#! 나일강 수위를 홍수기 동안 측정하기 위해 설계된 구조물인 나일로미터는 파라오 시대, 로마 시대, 그리고 중세 시대에 상당한 정치적, 경제적, 종교적 중요성을 지녔습니다.  홍수의 양호함이나 악화에 대한 신속한 대응을 가능하게 하였기 때문입니다. 아랍 정복 이후 카이로의 라우다 섬에 위치한 나일로미터는 이집트에서 가장 중요한 구조물이 되었습니다. 이 나일로미터는 홍수기 동안 매일 술탄에게 보고하는, 세습 관직인 이븐 아비 알-라드다드가 관리했습니다. 실제로, 중세 나일로미터의 기록은 매우 광범위하여 이 시대의 나일강 홍수 패턴을 놀라울 정도로 정확하게 재구성할 수 있을 정도로 방대한 양으로, 어떠한 역사적 환경 현상보다도 뛰어납니다." # 3612648716183761390
-  RICE_upper_egypt_aswan_temple_decision_choose_where_to_pray: "아스완의 신성한 섬을 선택하십시오" # 7993796865434478368
-  RICE_upper_egypt_temple_philae_option: "#Bold #V 필레#!#!\n이시스, 오시리스, 호루스에게 기도하라" # 135989621464120178
-  RICE_upper_egypt_temple_philae_option_desc: "이시스, 오시리스, 호루스에게 기도하십시오" # 6616931077076902173
-  RICE_upper_egypt_temple_philae_option_tooltip: "#V 필레#!는 이집트와 누비아의 전통적인 국경을 표시하며, 위대한 여신 #V 이시스#!와 그녀의 형제이자 남편 오시리스, 그리고 그들의 아들 호루스를 숭배하는 중심지입니다.\n#약 여기서 기도하면 월간 경험치 획득, 지방 명성, 그리고 속국들의 호감도를 향상시킬 수 있습니다#!" # 12260731229284937185
+  RICE_nile_opened_canal_high_desc: "최근 훌륭한 나일 홍수가 있었기에, 이 인물은 최근 나일 운하 개통식을 성대한 의식으로 거행했습니다." # 9713453998258597692
+  RICE_nile_opened_canal_very_high: "나일 운하 개통 (매우 높은 홍수)" # 16375219823353447258
+  RICE_nile_opened_canal_very_high_desc: "최근 훌륭하고 매우 높은 나일 강 홍수가 있었으므로, 이 인물은 최근 대규모 의식을 통해 나일 운하 개통식을 공식적으로 거행했습니다." # 9715099803817064842
+  RICE_upper_egypt_helped_hippo_victims: "하마 공격 피해자에게 기부했습니다." # 17516327733083849291
+  RICE_upper_egypt_khirs_lands_tensions: "키르스 땅에 대한 긴장감이 고조되고 있습니다." # 12382007167133958436
+  RICE_upper_egypt_khirs_lands_tensions_desc: "나일 강변의 잡초 무성한 땅, 즉 농업에 적합하지 않은 희르 지역에 최근 유목민들이 정착하여 주민들과 갈등이 발생했습니다. 당국은 양측의 분쟁 해결과 중재에 별다른 노력을 기울이지 않아 긴장감이 더욱 고조되었습니다." # 5948697183834757347
+  RICE_upper_egypt_khirs_tensions_pastoralists: "유목민 목축자들이 키르스 땅으로 이주하고 있습니다." # 1940355978094512158
+  RICE_upper_egypt_khirs_tensions_pastoralists_desc: "나일 강변의 잡초가 무성한 척박한 땅, 즉 킬르는 농업에 부적합하지만 목축 유목민이 정착하기에 매력적인 곳입니다. 최근 이 지역의 유목민들이 이러한 땅에 정착하면서 주민들과 갈등이 발생했습니다. 당국은 유목민들이 문제를 일으키지 않는 한 그곳에 머물 수 있다고 주장하며 유목민 편을 들었습니다." # 16774137407692521153
+  RICE_upper_egypt_khirs_tensions_villagers: "촌민들이 키르스 땅에서 유목민들을 몰아냅니다." # 9644788258860852253
+  RICE_upper_egypt_khirs_tensions_villagers_desc: "나일 강변의 잡초 무성한 땅, 즉 킬르스는 농업에 적합하지 않지만 유목민에게는 목초지를 제공하는 매력적인 곳입니다. 최근 이 지역의 유목민들이 그러한 땅에 정착하면서 주민들과 갈등이 발생하였습니다. 당국은 주민들의 편을 들어, 주민들이 유목민을 위협으로 여기면 그들을 쫓아낼 수 있도록 지원하고 있습니다." # 6323661025456050421
+  RICE_upper_egypt_khirs_tensions_resolved: "키르스 땅 분쟁 해결됨" # 6946739746946111203
+  RICE_upper_egypt_khirs_tensions_resolved_desc: "나일 강변의 잡초 무성한 땅, 즉 농업에는 적합하지 않지만 유목민에게는 매력적인 곳인 힐스 지역에 최근 유목민들이 정착하면서 마을 주민들과 갈등이 발생했습니다. 당국은 양측이 서로 조정에 합의하여 평화롭게 공존할 수 있도록 설득했습니다." # 3355067237400726686
+  RICE_upper_egypt_studied_nilometer_records: "나일계측기록을 연구했습니다." # 15743660647387796037
+  RICE_upper_egypt_new_temple_village: "낡은 사원 안에 새 마을이 생겨났습니다." # 9712985936301630584
+  RICE_upper_egypt_new_temple_village_desc: "이집트 대지에는 고대 유적들이 점재하며, 그 주변에 마을이 형성되는 것은 흔한 일입니다. 이 지역의 한 사원 안, 전략적이고 중요한 위치에 자리 잡은 신전 안에 그러한 마을이 생겨났습니다." # 11447380292188360403
+  RICE_upper_egypt_ate_ful_medames: "좋은 풀 메다임을 먹었네요" # 10019572647079717718
+  RICE_upper_egypt_ate_ful_medames_desc: "콩과 향신료, 레몬을 더한 풍성한 스튜 - 좋아하지 않을 이유가 있을까요?" # 8320847755139996672
+  RICE_upper_egypt_opinion_ruthless_egyptian_officials: "무자비한 이집트 관리들에 대한 적대감" # 6400367830740197997
+  RICE_upper_egypt_worshipped_at_aswan: "아스완 신전에서 숭배받다" # 4421656402684958953
+  RICE_upper_egypt_azjur_pilgrim: "이집트 전 총독" # 12906052631430589270
+  RICE_upper_egypt_azjur_pilgrim_desc: "그 인물은 이집트의 엄격하고 때로는 인기 없는 총독이었으나, 아흐메드 이븐 툴룬에게 자리를 내주었습니다. 그는 이후 더욱 영적인 야망에 집중하고 있습니다." # 2133196539087166118
+  RICE_upper_egypt_azjur_official: "$RICE_upper_egypt_azjur_pilgrim$" # 16430500506526065795
+  RICE_upper_egypt_azjur_official_desc: "이 인물은 이집트의 엄격하고 때로는 인기 없는 총독이었으나, 아흐메드 이븐 툴룬에게 자리를 빼앗겼습니다. 이후 그는 다른 수단을 통해 정치적 야망을 추구해왔습니다." # 9144257296657375346
+  RICE_upper_egypt_celebrate_nile_canal_opening: "나일 운하 개통을 축하합니다!" # 4561705598775393067
+  RICE_upper_egypt_celebrate_nile_canal_opening_tooltip: "나일 강 홍수가 올해는 좋았군!" # 12324009183945445354
+  RICE_upper_egypt_celebrate_nile_canal_opening_desc: "이집트의 올해 [nile_flood|E]가 풍부하여 곧 강의 해마다 범람하는 물을 이용하여 관개 수로를 개방하고 농경지에 물을 더 효율적으로 분배할 수 있게 될 것입니다. 수로 개방은 중요한 의식이며, 올해는 그 기념 행사를 장엄하게 치르겠습니다!" # 7655690040483567121
+  RICE_upper_egypt_celebrate_nile_canal_opening_effect_tooltip: "[명성|E]를 얻으시고, [신앙심|E]를 얻으며, #P 긍정적#! [인물_수정자|E]를 얻으실 것입니다. 그 강도는 [나일강_범람|E]의 결과에 따라 달라집니다." # 747409744379093843
+  RICE_upper_egypt_celebrate_nile_canal_opening_confirm: "닐로스 강의 범람이 올해는 좋았네, [ROOT.Char.GetFaith.HighGodName]께 감사드립니다!" # 10025509314456999767
+  RICE_upper_egypt_celebrate_nile_canal_opening_context_tooltip: "#bold 역사적 배경:# 파라오 시대부터 이집트인들은 나일 강의 매년 범람을 이용하여 농업 생산량을 극대화하기 위해 관개 수로를 건설해 왔습니다. 나일 강이 적정 수위까지 상승하면 이러한 수로 개통은 상징적인 중요성을 지니며, 이집트의 기독교화와 이슬람화 이후에도 살아남은 다양한 의식들이 포함되었습니다. 파티마 왕조는 이러한 의식을 새로운 차원으로 끌어올려 나일 강 범람을 축하하는 정교한 의식과 장엄함을 발전시켰습니다." # 5991225248918110920
+  RICE_upper_egypt_pray_for_a_good_nile_flood: "나일 홍수가 좋지 못했던 후에 회개하십시오." # 5761963492133262915
+  RICE_upper_egypt_pray_for_a_good_nile_flood_tooltip: "죄악으로 인하여 벌을 받는다고들 합니다..." # 285790918418480461
+  RICE_upper_egypt_pray_for_a_good_nile_flood_desc: "올해 이집트의 [nile_flood|E]는 좋지 않았습니다. 나일 강 주변 농사에 필요한 최적의 물량에 미치지 못했습니다.  이런 일이 다시는 없도록 우리의 죄를 용서해달라고 간청해야 합니다!" # 917602487837441443
+  RICE_upper_egypt_pray_for_a_good_nile_flood_effect_tooltip_1: "[덕목|E], [죄악|E], [특성|E], [신앙도|E] 및 얼마나 많은 £금액£을 잃을 의향이 있느냐에 따라 [신앙도|E]와 [명성|E]를 얻을 수 있습니다.  [지역|E]를 소유하고 있으며, [GetGeographicalRegion('RICE_nile_river_valley').GetName] #italic 가까이#!에 위치한 [지역|E]는 홍수 재해의 부정적 영향을 어느 정도 상쇄하기 위해 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [지역_수정자|E]를 얻을 수 있습니다." # 6540522251652697777
+  RICE_upper_egypt_pray_for_a_good_nile_flood_effect_tooltip_2: "나일 강이 범람하지 않으면, [THIS.Char.GetFaith.HighGodName]께서 기도를 들어주실 가능성이 극히 낮고 나일 강의 물이 불어오를 것입니다." # 2890679954997021639
+  RICE_upper_egypt_pray_for_a_good_nile_flood_confirm: "[ROOT.Char.GetFaith.HighGodName]께서, 우리를 용서하소서!" # 3894493230054256378
+  RICE_upper_egypt_pray_for_a_good_nile_flood_context_tooltip: "#bold 역사적 배경:# 나일강 홍수가 적정 수위(보통 16 큐빗)에 미달하면 이집트에는 기근, 사회 혼란, 반란 등 위험한 상황이 발생했던 것이 역사적 사실입니다. 기록에 따르면, 악년도에 기독교인과 이슬람교도 이집트인들이 충분한 홍수를 내려달라고 신에게 간청하는 모습이 나타나는데, 당시 문헌에서는 한 종교의 우월성을 보여주는 증거로 활용되었습니다." # 6718295993825191133
+  RICE_decision_good_nile_flood_req: "올해 나일 강 홍수는 평년, 높음, 또는 매우 높습니다." # 8358163093436740032
+  RICE_decision_bad_nile_flood_req: "올해 나일 강 홍수가 낮거나, 매우 낮거나, 또는 범람했습니다." # 16341422262975885811
+  RICE_decision_low_nile_flood_req: "올해 나일 범람이 심각하게 적습니다." # 8956264820688218989
+  RICE_decision_nile_valley_geographical_req: "[GetGeographicalRegion('RICE_nile_river_valley').GetName]에 있는 [county|E]를 소유하고 계십니다." # 6879126605274077614
+  RICE_decision_nile_flood_month_req: "8월, 9월, 또는 10월입니다." # 1004186098150656325
+  RICE_upper_egypt_renovate_local_nilometers: "지역 나일계측기를 개보수합니다." # 14250785538737332602
+  RICE_upper_egypt_renovate_local_nilometers_tooltip: "닐로미터가 제대로 작동하는 것이 중요합니다." # 1763961535843399445
+  RICE_upper_egypt_renovate_local_nilometers_desc: "저의 영지 내 일부 닐로미터가 수리와 유지보수가 필요하다는 보고를 받았습니다. 이 기회를 활용하여 닐로미터를 개선하고 개량할 수 있겠군요." # 13194311244478417328
+  RICE_upper_egypt_renovate_local_nilometers_effect_tooltip_1: "만약 [nile_flood|E]가 부족(낮음, 매우 낮음, 또는 범람)하다면, [GetGeographicalRegion('RICE_nile_river_valley').GetName]에 소유한 [counties|E]는 [GetModifier('RICE_nile_mitigated_bad_flood').GetNameWithTooltip] [county_modifier|E]를 받아 홍수로 인한 불이익을 부분적으로 상쇄할 것입니다." # 16362806853536711191
+  RICE_upper_egypt_renovate_local_nilometers_confirm: "중요한 일입니다." # 17831285375739606328
+  RICE_upper_egypt_renovate_local_nilometers_context_tooltip: "#bold 역사적 배경:# 나일강의 홍수기에 수위를 측정하기 위해 설계된 구조물, 즉 닐로미터는 파라오 시대, 로마 시대, 그리고 중세 시대에 상당한 정치적, 경제적, 종교적 중요성을 지녔습니다. 이는 좋은 홍수 또는 나쁜 홍수에 신속하게 대응할 수 있도록 당국이 보장했기 때문입니다. 아랍 정복 이후 카이로의 라우다 섬에 있는 닐로미터가 이집트에서 가장 중요한 닐로미터로 자리 잡았습니다. 이는 홍수기 동안 매일 술탄에게 보고하는, 세습 관직인 이븐 아비 알-라드가 관리했습니다. 실제로, 중세 닐로미터의 데이터는 놀라울 정도로 정확한 수준으로 이 시기 나일강 홍수 패턴을 재구성할 수 있을 만큼 방대한데, 이는 어떤 역사적인 환경 현상에서도 찾아볼 수 없는 수준입니다." # 3612648716183761390
+  RICE_upper_egypt_aswan_temple_decision_choose_where_to_pray: "아스완의 성스러운 섬을 선택하십시오." # 7993796865434478368
+  RICE_upper_egypt_temple_philae_option: "#Bold #V 필레#!#!\n이시스, 오시리스, 그리고 호루스께 기도하라" # 135989621464120178
+  RICE_upper_egypt_temple_philae_option_desc: "이시스, 오시리스, 호루스께 기도하라" # 6616931077076902173
+  RICE_upper_egypt_temple_philae_option_tooltip: "#V 필레#!는 이집트와 누비아의 전통적인 국경을 표시하며, 위대한 여신 #V 이시스#!와 그 형제이자 남편 오시리스, 그리고 그들의 아들 호루스를 숭배하는 중심지입니다.\n#약 여기서 기도하면 월별 경험치 획득, 지방 명망, 그리고 봉신들의 평가에 집중할 수 있습니다#!" # 12260731229284937185
   RICE_upper_egypt_temple_philae_option_closed: "#X 필레 신전이 버려지고 공식적으로 폐쇄되었습니다#!" # 4724279715189660804
   NOT_RICE_upper_egypt_temple_philae_option_closed: "#X 필레 신전이 버려지고 공식적으로 폐쇄되었습니다#!" # 4724279715189660804
-  RICE_upper_egypt_temple_elephantine_option: "#Bold 엘레판티네#!#!\n크눔, 사티스, 그리고 아누케트께 기도하라" # 9879252020632560761
-  RICE_upper_egypt_temple_elephantine_option_desc: "크눔, 사티스, 아누케트에게 기도하십시오" # 8986592282403321545
-  RICE_upper_egypt_temple_elephantine_option_tooltip: "#V 엘레판티네#!는 나일 강 신 #V 크눔#!의 거처로 여겨지며, 크눔, 사티스, 아누케트 삼신의 숭배 중심지입니다. 이들은 모두 나일 강의 신성하고 보호적인 존재들입니다.\n#약 여기서 기도하면 세금 수입, 용병 유지, 그리고 풍요에 집중할 수 있을 것입니다#!" # 8559884054023728514
+  RICE_upper_egypt_temple_elephantine_option: "#Bold #V 엘레판티네#!#!\n크눔, 사티스, 그리고 아누케트께 기도하라" # 9879252020632560761
+  RICE_upper_egypt_temple_elephantine_option_desc: "크눔, 사티스, 그리고 아누케트에게 기도하라." # 8986592282403321545
+  RICE_upper_egypt_temple_elephantine_option_tooltip: "#V 엘레판티네#!는 나일 신 #V 크눔#!의 거처로 여겨지며, 크눔, 사티스, 아누케트 삼신을 숭배하는 중심지입니다. 이들은 모두 나일 강의 신성하고 보호적인 존재들입니다. \n#약 여기서 기도하는 것은 세금 수입, 용병 유지, 그리고 풍요에 집중하는 데 도움이 될 것입니다#!" # 8559884054023728514
   RICE_upper_egypt_temple_elephantine_option_closed: "#X 엘레판티네 신전이 버려지고 공식적으로 폐쇄되었습니다#!" # 1440876380534714681
   NOT_RICE_upper_egypt_temple_elephantine_option_closed: "#X 엘레판티네 신전이 버려지고 공식적으로 폐쇄되었습니다#!" # 1440876380534714681
-  RICE_upper_egypt_temple_kalabsha_option: "#Bold #V 칼라브샤#!#!\n만둘리스, 임호테프, 그리고 투투에게 기도하소서" # 9331302913017226335
-  RICE_upper_egypt_temple_kalabsha_option_desc: "만둘리스, 임호테프, 투투에게 기도하십시오" # 3638433404886539749
-  RICE_upper_egypt_temple_kalabsha_option_tooltip: "#V 칼라브샤#!는 누비아에서 기원한 태양과 달의 신 #V 만둘리스#!의 주요 성지입니다. 그곳의 사원은 현명한 임호테프와 수호신 투투 같은 다른 신들도 봉헌되어 있습니다.\n#weak 여기서 기도하면 명성, 건물 건설 비용, 그리고 적대적인 음모 저항력에 집중할 수 있습니다#!" # 13840439653137187569
-  RICE_upper_egypt_temple_kalabsha_option_closed: "#X 칼라브샤 신전이 버려지고 공식적으로 폐쇄되었습니다!#" # 395884298150983883
-  NOT_RICE_upper_egypt_temple_kalabsha_option_closed: "#X 칼라브샤 신전이 버려지고 공식적으로 폐쇄되었습니다!#" # 395884298150983883
-  RICE_upper_egypt_pray_at_a_temple_in_aswan: "아스완의 신전에서 기도하십시오" # 7782427648601514914
-  RICE_upper_egypt_pray_at_a_temple_in_aswan_tooltip: "아스완의 사원이 나를 부른다" # 17380208545639252749
-  RICE_upper_egypt_pray_at_a_temple_in_aswan_desc: "나일강의 첫 번째 급류는 파라오 시대 이전부터 수 세기 동안 숭배의 중심지였습니다. 그리 멀지 않은 곳에 살고 있으니, [temples_of_aswan|E]에서 신들을 숭배하기 위해 그곳으로 여행을 떠나고 싶습니다." # 10897984926767950375
-  RICE_upper_egypt_pray_at_a_temple_in_aswan_effect_tooltip: "[aswan_county.GetNameNoTier]에서 어떤 제물을 바치고 어디서 기도하느냐에 따라 무작위 양의 [piety|E]와 잠재적으로 다양한 #P 긍정적#! [character_modifiers|E]를 받게 됩니다." # 11991780537194409486
+  RICE_upper_egypt_temple_kalabsha_option: "#Bold #V 칼라브샤#!#!\n만둘리스, 임호테프, 그리고 투투에게 기도하라" # 9331302913017226335
+  RICE_upper_egypt_temple_kalabsha_option_desc: "만둘리스, 임호테프, 그리고 투투에게 기도하라." # 3638433404886539749
+  RICE_upper_egypt_temple_kalabsha_option_tooltip: "#V 칼라브샤#!는 누비아에서 기원한 태양과 달의 신 #V 만둘리스#!의 주요 성지입니다. 그곳의 사원은 또한 현명한 임호테프와 수호신 투투 같은 다른 신들에게도 헌정되어 있습니다. \n#약 여기서 기도하면 명성, 건물 건설 비용, 그리고 적대적인 계획 저항에 집중할 수 있습니다#!" # 13840439653137187569
+  RICE_upper_egypt_temple_kalabsha_option_closed: "#X 칼라브샤 신전이 버려지고 공식적으로 폐쇄되었습니다#!" # 395884298150983883
+  NOT_RICE_upper_egypt_temple_kalabsha_option_closed: "#X 칼라브샤 신전이 버려지고 공식적으로 폐쇄되었습니다#!" # 395884298150983883
+  RICE_upper_egypt_pray_at_a_temple_in_aswan: "아스완의 사원에서 기도하십시오." # 7782427648601514914
+  RICE_upper_egypt_pray_at_a_temple_in_aswan_tooltip: "아스완의 신전이 나를 부릅니다" # 17380208545639252749
+  RICE_upper_egypt_pray_at_a_temple_in_aswan_desc: "나일 강 제1폭포는 수백 년 동안, 아마도 파라오 시대 이전부터 신앙의 중심지였습니다. 저는 그리 멀지 않게 살고 있기에, [temples_of_aswan|E]에서 신들을 숭배하기 위해 방문하고 싶습니다." # 10897984926767950375
+  RICE_upper_egypt_pray_at_a_temple_in_aswan_effect_tooltip: "[아스완_카운티.이름없는계층]에서 어떤 제물을 바치고 어디서 기도하느냐에 따라 [신앙도|E]가 임의적으로 증가하고, 다양한 #P 긍정적#! [캐릭터_수정자|E]가 부여될 수 있습니다." # 11991780537194409486
   RICE_upper_egypt_pray_at_a_temple_in_aswan_confirm: "아스완으로!" # 8874699344624056929
-  RICE_upper_egypt_pray_at_a_temple_in_aswan_all_temples_closed: "#X 엘레판티네, 칼라브샤, 필레의 사원들은 모두 공식적으로 폐쇄되었으며, 접근을 위해 다시 개방되어야 합니다#!" # 16353996644627647598
-  NOT_RICE_upper_egypt_pray_at_a_temple_in_aswan_all_temples_closed: "#X 엘레판티네, 칼라브샤, 필레의 사원들은 모두 공식적으로 폐쇄되었으며, 접근을 위해 다시 개방되어야 합니다#!" # 16353996644627647598
-  RICE_upper_egypt_pray_at_a_temple_in_aswan_philae_closed: "#X 필레 신전이 이 시점에 공식적으로 폐쇄되었습니다#!" # 6517322972593270318
-  RICE_upper_egypt_pray_at_a_temple_in_aswan_elephantine_closed: "#X 엘레판티네 신전이 현재 폐쇄되었습니다#!" # 8679913576969349478
-  RICE_upper_egypt_pray_at_a_temple_in_aswan_kalabsha_closed: "#X 칼라브샤 신전이 이때 공식적으로 폐쇄되었습니다#!" # 5255079068100324353
-  RICE_upper_egypt_pray_at_a_temple_in_aswan_context_tooltip: "#emphasis 역사적 배경:#! 아스완 주변의 여러 섬들은 고대 이집트인들과 누비아인들에게 종교적으로 매우 중요한 곳이었습니다. 많은 신전이 존재하여 신도들과 순례자들에게 인기가 많았습니다. 후기 고대 시대에도 이집트의 기독교화에도 불구하고, 이곳은 이교도 숭배의 활발한 장소였으며, 블렘미의 공식 사절단들은 6세기까지 이곳을 방문했습니다. 결국 이집트 다른 지역과 마찬가지로 이 섬들도 버려졌고, 이후 건물들은 다른 용도로 또는 건축 자재로 재활용되었습니다." # 7478951382045537743
-  RICE_upper_egypt_temple_of_philae_context_tooltip: "#bold 역사적 배경:#! 이집트의 파라오 시대와 그리스-로마 시대 후기에, 아스완 근처 필레 섬의 신전은 이시스를 위한 숭배 중심지가 되었습니다. 이시스는 이집트인들과 인근 누비아인들, 그리고 블렘미족들에 의해 숭배받았습니다. 역사상 마지막으로 알려진 상형 문자는 394년에 이시스의 사제 네스메테라크헴에 의해 필레 신전에 새겨졌습니다. 이시스의 사제들이 남긴 데모틱 문자(상형 문자의 속어적이고 필기체인 후손)의 그림문자는 451/452년까지도 확인됩니다." # 17158196456145067266
-  RICE_upper_egypt_temple_of_elephantine_context_tooltip: "#emphasis 역사적 배경:#! 엘레판티네 섬은 이집트의 중요한 종교 중심지였습니다. 이 섬은 토기, 나일 강, 그리고 나일 강 발원지를 수호하는 신인 크눔 신의 고향으로 여겨졌습니다. 엘레판티네에는 크눔, 그의 배우자이자 전쟁, 사냥, 나일 홍수의 여신인 사티스, 그리고 나일 강 자체이자 욕망의 여신인 아누케트로 구성된, 이른바 엘레판티네 삼신을 위한 여러 신전이 있었습니다. 로마 시대에 이르러 엘레판티네는 필레 신전의 중요성에 가려져 쇠퇴하기 시작했습니다." # 17012622199509939405
-  RICE_upper_egypt_temple_of_kalabsha_context_tooltip: "#bold 역사적 배경:#! 아스완에서 걸어서 몇 시간 거리의 절벽 위에 자리 잡은 칼라브샤 신전은 로마 황제 아우구스투스 치세에 누비아 신 망둘리스를 숭배하는 중심지로 건립되었습니다. 망둘리스는 두 가지 측면, 태양을 상징하는 망둘리스 장로와 달을 상징하는 망둘리스 아이를 지녔습니다.  이 신전에는 다른 여러 신들도 함께 모셔졌습니다. 나중에 누비아가 기독교화되면서, 이 신전은 일정 기간 동안 교회로 재활용되었습니다. 흥미롭게도, 이 신전은 공식적으로 완공되지 않았습니다." # 11175020088349941702
-  RICE_upper_egypt_close_temple_of_philae: "필레 신전을 공식적으로 폐쇄합니다" # 10958326879811515943
-  RICE_upper_egypt_close_temple_of_philae_tooltip: "#italic "그대 위대한 자들아, 내 업적을 바라보고 절망하라!"#" # 17725133133897706697
-  RICE_upper_egypt_close_temple_of_philae_desc: "[temples_of_aswan_city|E]에 있는 필레 섬은 오랫동안 이교 숭배의 중심지였지만, 그 사원은 더 이상 그 목적으로 거의 사용되지 않습니다. 이제 정식으로 폐쇄하고, 남아 있는 숭배자들이 있다면 내쫓을 때입니다." # 9272226630365475033
-  RICE_upper_egypt_close_temple_of_philae_effect_tooltip: "이교도들이 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName] 활동을 수행할 경우, 필레는 더 이상 옵션이 되지 않습니다. 모든 잠재적인 신전 위치가 폐쇄된 경우, 해당 [activity|E] 활동은 더 이상 이용할 수 없습니다." # 7128040339314298294
-  RICE_upper_egypt_close_temple_of_philae_confirm: "이제 이 일을 할 때입니다." # 7443324977353751265
+  RICE_upper_egypt_pray_at_a_temple_in_aswan_all_temples_closed: "#X 엘레판티네, 칼라브샤, 필레의 사원들은 모두 공식적으로 폐쇄되었으며, 다시 이용 가능하도록 개방되어야 합니다#!" # 16353996644627647598
+  NOT_RICE_upper_egypt_pray_at_a_temple_in_aswan_all_temples_closed: "#X 엘레판티네, 칼라브샤, 필레의 사원들은 모두 공식적으로 폐쇄되었으며, 다시 이용 가능하도록 개방되어야 합니다#!" # 16353996644627647598
+  RICE_upper_egypt_pray_at_a_temple_in_aswan_philae_closed: "#X 필레 신전이 이 시간에 공식적으로 폐쇄되었습니다#!" # 6517322972593270318
+  RICE_upper_egypt_pray_at_a_temple_in_aswan_elephantine_closed: "#X 엘레판티네 신전이 현재 공식적으로 폐쇄되었습니다#!" # 8679913576969349478
+  RICE_upper_egypt_pray_at_a_temple_in_aswan_kalabsha_closed: "#X 이제 칼라브샤 신전이 공식적으로 폐쇄되었습니다#!" # 5255079068100324353
+  RICE_upper_egypt_pray_at_a_temple_in_aswan_context_tooltip: "#bold 역사적 배경:# 아스완 주변에는 고대 이집트인들과 누비아인들에게 종교적으로 중요한 여러 섬들이 있었습니다. 이곳에는 많은 신전이 자리 잡고 있어 신도들과 순례자들에게 인기가 많았습니다. 후기 고대에는 이집트의 기독교화에도 불구하고, 이곳은 여전히 이교도 숭배의 활발한 장소였으며, 블렘미 사절단은 6세기까지도 이곳을 방문했습니다. 결국 이집트 다른 지역과 마찬가지로 이곳도 버려졌고, 그 후 건물들은 다른 용도로 또는 건축 자재로 재활용되었습니다." # 7478951382045537743
+  RICE_upper_egypt_temple_of_philae_context_tooltip: "#bold 역사적 배경:#! 이집트 역사의 후기 파라오 시대와 그리스-로마 시대에, 아스완 근처 필레 섬의 신전은 이집트인들과 인근 누비아인, 블렘미족들이 숭배하던 이시스 숭배의 중심지가 되었습니다. 역사상 마지막으로 알려진 상형 문자 비문은 이시스의 사제인 네스메테라케임에 의해 394년 서기 필레 신전에 새겨졌습니다. 이시스 신관들의 민중 문자(상형 문자의 속어, 서체 유래)로 된 그림 문자 또한 서기 451/452년까지 확인됩니다." # 17158196456145067266
+  RICE_upper_egypt_temple_of_elephantine_context_tooltip: "#bold 역사적 배경:#  엘레판티네 섬은 이집트의 중요한 종교 중심지였습니다. 이곳은 토기, 나일강, 그리고 그 발원지의 수호신인 크눔 신의 고향으로 여겨졌습니다. 엘레판티네에는 크눔, 그를 짝으로 하는 전쟁, 사냥, 나일강 홍수의 여신 사티스, 그리고 나일강 그 자체이자 욕망의 여신인 아누케트로 구성된, 일명 엘레판티네 삼신을 숭배하는 여러 신전이 있었습니다. 엘레판티네는 로마 시대에 이미 쇠퇴하기 시작했습니다. 필레 신전의 중요성에 가려졌기 때문입니다." # 17012622199509939405
+  RICE_upper_egypt_temple_of_kalabsha_context_tooltip: "#bold 역사적 배경:#! 아스완에서 몇 시간 거리에 위치한 곶에, 칼라브샤 신전은 로마 황제 아우구스투스 치세에 누비아 신령 만둘리스를 위한 숭배 중심지로 건립되었습니다. 만둘리스는 두 가지 측면을 가졌습니다. 태양적 측면인 만둘리스 장로와 달의 측면인 만둘리스 아이입니다. 또한 다른 여러 신들도 이 신전에 존재했습니다. 나중에 누비아가 기독교화되면서, 이 신전은 잠시 동안 교회로 재사용되었습니다. 흥미롭게도, 신전은 결코 공식적인 완성을 보지 못했습니다." # 11175020088349941702
+  RICE_upper_egypt_close_temple_of_philae: "필레 신전을 공식적으로 폐쇄합니다." # 10958326879811515943
+  RICE_upper_egypt_close_temple_of_philae_tooltip: "#italic \"나의 업적을 바라보라, 강자여, 그리고 절망하라!\"#" # 17725133133897706697
+  RICE_upper_egypt_close_temple_of_philae_desc: "[temples_of_aswan_city|E]의 필레 섬은 오랫동안 이교도 숭배의 중심지였으나, 그 사당은 이제 그 목적으로 거의 사용되지 않습니다.  더 이상 남아 있는 숭배자라면 추방하여, 이제 공식적으로 그곳을 폐쇄할 때입니다." # 9272226630365475033
+  RICE_upper_egypt_close_temple_of_philae_effect_tooltip: "이교도들이 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]를 할 경우, 필레는 더 이상 선택지가 되지 않습니다. 모든 잠재적인 사원 위치가 폐쇄된 경우, [activity|E]는 더 이상 이용할 수 없습니다." # 7128040339314298294
+  RICE_upper_egypt_close_temple_of_philae_confirm: "이제 시작해야 할 때입니다." # 7443324977353751265
   RICE_upper_egypt_close_temple_of_philae_context_tooltip: "$RICE_upper_egypt_temple_of_philae_context_tooltip$" # 10673924609953608817
-  RICE_upper_egypt_reopen_temple_of_philae: "필레 신전의 공식 재개장" # 6273911353432173695
-  RICE_upper_egypt_reopen_temple_of_philae_tooltip: "이 사원은 얼마나 오래된 걸까!" # 433382060415696713
-  RICE_upper_egypt_reopen_temple_of_philae_desc: "[temples_of_aswan_city|E]에 있는 필레 섬은 한때 이교 숭배의 중심지였습니다. 그러나 지금은 주요 사원이 버려져 있습니다. 이곳을 재정비하고 [ROOT.Char.Custom('DefaultPriestTitlePlural')]로 채운 다음, 사원 안에서 다시 신들을 기릴 수 있도록 사원을 다시 열어야 합니다." # 10186674818847943260
-  RICE_upper_egypt_reopen_temple_of_philae_effect_tooltip: "이교도가 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName] 활동을 할 때, 이제 필레에서 기도할 수 있습니다. [aswan_county.GetNameNoTier] 근처의 모든 주요 사원이 폐쇄되어 이전에는 해당 [activity|E]을 사용할 수 없었던 경우, 이제 사용할 수 있습니다." # 8917748279423557323
-  RICE_upper_egypt_reopen_temple_of_philae_confirm: "네, 시작해 봅시다!" # 331371430259311057
+  RICE_upper_egypt_reopen_temple_of_philae: "필레 신전을 공식적으로 재개합니다." # 6273911353432173695
+  RICE_upper_egypt_reopen_temple_of_philae_tooltip: "이 신전의 나이가 얼마나 될까!" # 433382060415696713
+  RICE_upper_egypt_reopen_temple_of_philae_desc: "[temples_of_aswan_city|E]의 필레 섬은 과거 이교도 숭배의 중심지였습니다. 그러나 주요 사원은 현재 버려져 있습니다. 우리는 그곳을 복원하고 [ROOT.Char.Custom('DefaultPriestTitlePlural')]로 채워 사원을 다시 열어 모든 이가 그 안에서 신들을 숭배할 수 있도록 해야 합니다." # 10186674818847943260
+  RICE_upper_egypt_reopen_temple_of_philae_effect_tooltip: "이교도들이 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]를 수행하면, 필레가 이제 기도할 수 있는 장소로 제공됩니다. 만약 [activity|E]가 이전에 [aswan_county.GetNameNoTier] 근처의 모든 주요 사원이 폐쇄되어 이용 불가능했다면, 이제 이용 가능해집니다." # 8917748279423557323
+  RICE_upper_egypt_reopen_temple_of_philae_confirm: "시작해보지!" # 331371430259311057
   RICE_upper_egypt_reopen_temple_of_philae_context_tooltip: "$RICE_upper_egypt_temple_of_philae_context_tooltip$" # 10673924609953608817
-  RICE_upper_egypt_close_temple_of_elephantine: "엘레판티네 신전을 공식적으로 폐쇄합니다" # 14468516624354395572
-  RICE_upper_egypt_close_temple_of_elephantine_tooltip: "#italic "그대 위대한 자들아, 내 업적을 바라보고 절망하라!"#" # 17725133133897706697
-  RICE_upper_egypt_close_temple_of_elephantine_desc: "[temples_of_aswan_city|E]에 있는 엘레판티네 섬은 수년간 이교 숭배의 중심지였지만, 현재 그 목적을 위해 사용되는 경우는 거의 없습니다. 이제 정식으로 폐쇄하고 남아 있는 숭배자들이 있다면 그들을 쫓아낼 때입니다." # 15958537321537820567
-  RICE_upper_egypt_close_temple_of_elephantine_effect_tooltip: "이교도가 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]을 할 때 엘레판티네는 더 이상 선택 사항이 아닙니다. 잠재적인 모든 사원 위치가 닫히면 [activity|E]는 더 이상 사용할 수 없습니다." # 1777885186129497095
-  RICE_upper_egypt_close_temple_of_elephantine_confirm: "이제 이 일을 할 때입니다." # 7443324977353751265
+  RICE_upper_egypt_close_temple_of_elephantine: "엘레판티네 신전들을 공식적으로 폐쇄합니다." # 14468516624354395572
+  RICE_upper_egypt_close_temple_of_elephantine_tooltip: "#italic \"나의 업적을 바라보라, 강자여, 그리고 절망하라!\"#" # 17725133133897706697
+  RICE_upper_egypt_close_temple_of_elephantine_desc: "엘레판티네 섬, [temples_of_aswan_city|E]의 중심지였던 그곳은 오랫동안 이교도의 숭배의 중심지였으나, 이제 그 사당들은 거의 그 목적으로 쓰이지 않습니다. 이제 우리는 공식적으로 그 사당들을 폐쇄하고, 남아있는 숭배자들을 추방할 때입니다. 만약 그들이 남아 있다면 말이죠." # 15958537321537820567
+  RICE_upper_egypt_close_temple_of_elephantine_effect_tooltip: "이교도들이 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]를 수행할 경우, 엘레판티네는 더 이상 선택지가 되지 않습니다. 모든 잠재적인 사원 위치가 폐쇄되면, 그 [activity|E]는 더 이상 이용할 수 없습니다." # 1777885186129497095
+  RICE_upper_egypt_close_temple_of_elephantine_confirm: "이제 시작해야 할 때입니다." # 7443324977353751265
   RICE_upper_egypt_close_temple_of_elephantine_context_tooltip: "$RICE_upper_egypt_temple_of_elephantine_context_tooltip$" # 9498208666862621908
-  RICE_upper_egypt_reopen_temple_of_elephantine: "엘레판티네의 사원을 정식으로 재개장합니다" # 7788182914136937469
-  RICE_upper_egypt_reopen_temple_of_elephantine_tooltip: "이 신전들이 얼마나 오래되었을까!" # 1147948687790319437
-  RICE_upper_egypt_reopen_temple_of_elephantine_desc: "[temples_of_aswan_city|E]에 있는 엘레판티네 섬은 한때 이교 숭배의 중심지였습니다. 그러나 이제 그 사원들은 버려져 있습니다. 이곳을 보수하고, [ROOT.Char.Custom('DefaultPriestTitlePlural')]을 배치하고, 모든 사람들이 그 안의 신들을 다시 숭배할 수 있도록 이 사원들을 재개장해야 합니다." # 7844192028214120779
-  RICE_upper_egypt_reopen_temple_of_elephantine_effect_tooltip: "이교도가 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName] 활동을 할 때, 엘레판티네에서 기도할 수 있게 됩니다. 만약 [aswan_county.GetNameNoTier] 근처의 모든 주요 사원이 폐쇄되어 이전에는 [activity|E] 활동을 할 수 없었다면, 이제는 가능합니다." # 9828647416130152629
-  RICE_upper_egypt_reopen_temple_of_elephantine_confirm: "네, 시작해 봅시다!" # 331371430259311057
+  RICE_upper_egypt_reopen_temple_of_elephantine: "엘레판티네 신전을 다시 공식적으로 개방하다" # 7788182914136937469
+  RICE_upper_egypt_reopen_temple_of_elephantine_tooltip: "저런 사원들이 얼마나 오래되었을까!" # 1147948687790319437
+  RICE_upper_egypt_reopen_temple_of_elephantine_desc: "엘레판티네 섬, [temples_of_aswan_city|E]에는 과거 이교도 숭배의 중심지였습니다. 하지만 이제 그 신전들은 버려진 채입니다. 우리는 그곳을 복구하고 [ROOT.Char.Custom('DefaultPriestTitlePlural')]로 채워 모든 이가 다시 신들을 숭배할 수 있도록 신전을 재개해야 합니다." # 7844192028214120779
+  RICE_upper_egypt_reopen_temple_of_elephantine_effect_tooltip: "이교도들이 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]를 수행하면, 엘레판티네는 이제 기도할 수 있는 장소로 추가됩니다. 이전에 [aswan_county.GetNameNoTier] 근처의 주요 사원들이 모두 문을 닫아 [activity|E]를 할 수 없었던 경우, 이제 이용 가능해집니다." # 9828647416130152629
+  RICE_upper_egypt_reopen_temple_of_elephantine_confirm: "시작해보지!" # 331371430259311057
   RICE_upper_egypt_reopen_temple_of_elephantine_context_tooltip: "$RICE_upper_egypt_temple_of_elephantine_context_tooltip$" # 9498208666862621908
-  RICE_upper_egypt_close_temple_of_kalabsha: "칼라브샤 사원 폐쇄 공식화" # 2516297633944998653
-  RICE_upper_egypt_close_temple_of_kalabsha_tooltip: "#italic "그대 위대한 자들아, 내 업적을 바라보고 절망하라!"#" # 17725133133897706697
-  RICE_upper_egypt_close_temple_of_kalabsha_desc: "[temples_of_aswan_city|E]에서 약간 남쪽에 위치한 칼라브샤는 오랫동안 이교 숭배의 중심지였지만, 이제는 그 목적으로 거의 사용되지 않습니다. 이제 우리는 공식적으로 그곳을 폐쇄하고 남아 있는 숭배자들이 있다면 그들을 쫓아낼 때입니다." # 2024429534976305336
-  RICE_upper_egypt_close_temple_of_kalabsha_effect_tooltip: "이교도가 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]를 수행하면 칼라브샤는 더 이상 선택 사항이 아닙니다. 가능한 모든 사원 위치가 닫히면 [activity|E]를 더 이상 사용할 수 없습니다." # 18332643553748563265
-  RICE_upper_egypt_close_temple_of_kalabsha_confirm: "이제 이 일을 할 때입니다." # 7443324977353751265
+  RICE_upper_egypt_close_temple_of_kalabsha: "칼라브샤 신전을 공식적으로 폐쇄합니다." # 2516297633944998653
+  RICE_upper_egypt_close_temple_of_kalabsha_tooltip: "#italic \"나의 업적을 바라보라, 강자여, 그리고 절망하라!\"#" # 17725133133897706697
+  RICE_upper_egypt_close_temple_of_kalabsha_desc: "칼라브샤는 아스완 신전 [temples_of_aswan_city|E] 남쪽 조금 떨어진 곳에 위치하여 오랫동안 이교도 숭배의 중심지였으나, 이제 그 신전은 거의 그런 용도로 사용되지 않습니다. 이제 그곳을 공식적으로 폐쇄하고 남은 숭배자들을, 만약 있다면, 쫓아낼 때가 되었습니다." # 2024429534976305336
+  RICE_upper_egypt_close_temple_of_kalabsha_effect_tooltip: "이교도들이 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]을 할 경우, 칼라브샤는 더 이상 선택지가 되지 않습니다. 모든 잠재적인 사원 위치가 폐쇄된 경우, [activity|E]는 더 이상 이용할 수 없습니다." # 18332643553748563265
+  RICE_upper_egypt_close_temple_of_kalabsha_confirm: "이제 시작해야 할 때입니다." # 7443324977353751265
   RICE_upper_egypt_close_temple_of_kalabsha_context_tooltip: "$RICE_upper_egypt_temple_of_kalabsha_context_tooltip$" # 6662048188305394146
-  RICE_upper_egypt_reopen_temple_of_kalabsha: "칼라브샤 사원 공식 재개장" # 5967041078860190892
-  RICE_upper_egypt_reopen_temple_of_kalabsha_tooltip: "이 사원은 얼마나 오래된 걸까!" # 433382060415696713
-  RICE_upper_egypt_reopen_temple_of_kalabsha_desc: "[temples_of_aswan_city|E]에서 약간 남쪽에 위치한 칼라브샤는 한때 이교 숭배의 중심지였습니다. 그러나 지금은 사원이 버려져 있습니다. 우리는 이곳을 개조하고, [ROOT.Char.Custom('DefaultPriestTitlePlural')]를 배치하고, 모든 사람들이 그 안에서 다시 신들을 기릴 수 있도록 사원을 재개방해야 합니다." # 6273990393612396018
-  RICE_upper_egypt_reopen_temple_of_kalabsha_effect_tooltip: "이교도가 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName] 활동을 할 때 칼라브샤가 기도할 수 있는 선택지로 추가됩니다. 이전에 [aswan_county.GetNameNoTier] 근처의 모든 주요 사원이 폐쇄되어 [activity|E]를 이용할 수 없었던 경우 이제 이용할 수 있습니다." # 11113645087458638523
-  RICE_upper_egypt_reopen_temple_of_kalabsha_confirm: "네, 시작해 봅시다!" # 331371430259311057
+  RICE_upper_egypt_reopen_temple_of_kalabsha: "칼라브샤 신전을 공식적으로 재개합니다." # 5967041078860190892
+  RICE_upper_egypt_reopen_temple_of_kalabsha_tooltip: "이 신전의 나이가 얼마나 될까!" # 433382060415696713
+  RICE_upper_egypt_reopen_temple_of_kalabsha_desc: "칼라브샤는 [temples_of_aswan_city|E] 남쪽 조금에 위치하여 과거에는 이교도 숭배의 중심지였습니다. 그러나 현재는 신전이 버려져 있습니다. 우리는 그곳을 복원하고 [ROOT.Char.Custom('DefaultPriestTitlePlural')]로 채워 신전을 다시 개방하여 모든 이들이 그 안에서 신들을 다시 경배하게 해야 합니다." # 6273990393612396018
+  RICE_upper_egypt_reopen_temple_of_kalabsha_effect_tooltip: "이교도가 [GetActivityType( 'activity_RICE_upper_egypt_visit_aswan_temples' ).GetName]을 수행하면, 이제 칼라브샤가 기도 장소로 선택 가능해집니다. 만약 이전에 [aswan_county.GetNameNoTier] 근처의 주요 사원들이 모두 문을 닫아 [activity|E]가 이용 불가능했다면, 이제 이용 가능합니다." # 11113645087458638523
+  RICE_upper_egypt_reopen_temple_of_kalabsha_confirm: "시작해보지!" # 331371430259311057
   RICE_upper_egypt_reopen_temple_of_kalabsha_context_tooltip: "$RICE_upper_egypt_temple_of_kalabsha_context_tooltip$" # 6662048188305394146
   RICE_upper_egypt_reopen_aswan_temple_closed_req: "[aswan_county.GetNameNoTier]의 사원 하나 이상이 버려지고 공식적으로 폐쇄되었습니다." # 14099588526925662467
-  RICE_upper_egypt_close_temple_aswan_religion_req: "아스완 [county|E]는 케메트, 헬레닉, 아마지그, 셈족 이교 신앙이 아닙니다" # 16378404121170463092
-  RICE_upper_egypt_close_temple_kalabsha_religion_req: "칼라브샤 [county|E]는 케메트교, 헬레니즘, 아마지그교, 셈족 이교도도 아닙니다" # 14179705199538201209
-  RICE_upper_egypt_reopen_temple_aswan_religion_req: "아스완 [county|E]는 케메트교, 헬레니즘, 아마지그교 또는 셈족 이교를 믿습니다." # 8505355381502151170
-  RICE_upper_egypt_reopen_temple_kalabsha_religion_req: "칼라브샤 [county|E]는 케메트, 헬레닉, 아마지그 또는 셈족 이교도입니다" # 4211963257464866192
+  RICE_upper_egypt_close_temple_aswan_religion_req: "아스완 [county|E]는 케메트, 헬레네, 아마지그, 또는 셈족 이교도가 아닙니다." # 16378404121170463092
+  RICE_upper_egypt_close_temple_kalabsha_religion_req: "칼라브샤 [county|E]는 이집트, 그리스, 아마지그, 셈족의 이교도가 아닙니다." # 14179705199538201209
+  RICE_upper_egypt_reopen_temple_aswan_religion_req: "아스완 [county|E]은 케메트, 헬레네, 아마지그, 또는 셈족 이교도입니다." # 8505355381502151170
+  RICE_upper_egypt_reopen_temple_kalabsha_religion_req: "칼라브샤 [county|E]는 케메트, 헬레네, 아마지그, 또는 셈족 이교도입니다." # 4211963257464866192
   RICE_upper_egypt_temple_philae_recent_reopening_req: "아스완 [county|E]에는 [GetModifier('RICE_upper_egypt_recently_reopened_philae').GetNameWithTooltip] [county_modifier|E]가 없습니다." # 633197539011097124
-  RICE_upper_egypt_temple_philae_recent_closing_req: "아스완 [county|E]에는 [GetModifier('RICE_upper_egypt_recently_closed_philae').GetNameWithTooltip] [county_modifier|E]가 없습니다." # 17282132895505598115
-  RICE_upper_egypt_temple_elephantine_recent_reopening_req: "아스완 [county|E]에는 [GetModifier('RICE_upper_egypt_recently_reopened_elephantine').GetNameWithTooltip] [county_modifier|E]가 없습니다" # 9637083665688257820
-  RICE_upper_egypt_temple_elephantine_recent_closing_req: "아스완 [county|E]에는 [GetModifier('RICE_upper_egypt_recently_closed_elephantine').GetNameWithTooltip] [county_modifier|E]가 없습니다" # 1355778556922412981
-  RICE_upper_egypt_temple_kalabsha_recent_reopening_req: "칼라브샤 [county|E]에는 [GetModifier('RICE_upper_egypt_recently_reopened_kalabsha').GetNameWithTooltip] [county_modifier|E]가 없습니다" # 6154866703156515340
-  RICE_upper_egypt_temple_kalabsha_recent_closing_req: "칼라브샤 [county|E]는 [GetModifier('RICE_upper_egypt_recently_closed_kalabsha').GetNameWithTooltip] [카운티_수정자|E]를 가지고 있지 않습니다." # 15114618413857401415
-  RICE_upper_egypt_reinforce_the_darb_al_arbain: "다르브 알 아르바인 강화" # 12018068747756508951
-  RICE_upper_egypt_reinforce_the_darb_al_arbain_tooltip: "이곳은 이동에 중요한 통로입니다. 안전을 확보합시다!" # 4445091978131532144
-  RICE_upper_egypt_reinforce_the_darb_al_arbain_desc: "[darb_al_arbain|E]은 이집트와 아프리카의 나머지 지역을 연결하는 나일강 서쪽 사막을 통과하는 중요한 대상로입니다. 제가 [darb_al_arbain|E]를 따라 통제하는 영토에는 이 힘들지만 수익성이 좋은 노선과 보조 노선을 안전하게 유지하기 위한 몇 개의 작은 외딴 요새와 전초 기지가 있습니다. 이 시설들이 수리해야 할 필요가 있다는 보고를 받았습니다." # 13579992233783151431
-  RICE_upper_egypt_reinforce_the_darb_al_arbain_effect_tooltip: "강화하기로 선택한 [county|E]는 #V 20#!년 동안 [GetModifier('RICE_upper_egypt_reinforced_darb_al_arbain').GetNameWithTooltip] [county_modifier|E]를 받습니다." # 7504193001741628045
-  RICE_upper_egypt_reinforce_the_darb_al_arbain_confirm: "네, 시작해 봅시다!" # 331371430259311057
-  RICE_upper_egypt_reinforce_the_darb_al_arbain_context_tooltip: "#emphasis 역사적 배경:#!  다르브 알-아르바인, 혹은 사십일 길이라 불리는 이 무역로는 이집트 아수트에서 다르푸르 쿠베이(또는 쿠바이)까지 이어지는 교역로였습니다. 이 길은 칼가, 셀리마, 둔쿨 같은 여러 오아시스를 거쳐 지나갔습니다. 또한 이 길은 뉘비아의 둥골라와 사이와 같이 나일강을 따라 여러 지점들과 연결되는 보조 노선도 가지고 있었습니다. 이 험난한 길은 물이 부족한 척박한 지형을 관통하여 이집트와 아프리카 대륙 사이의 금, 노예, 상아, 그리고 다른 물품의 운송과 교역을 위해 파라오 시대부터 사용되어 왔습니다. 또한 로마 시대부터 오스만 제국 시대(19세기 말까지)까지 이 지역의 국가들에 의해 요새와 전초기지로 강화되었습니다." # 15873801091509623946
-  RICE_upper_egypt_darb_al_arbain_decision_choose_where_to_reinforce: "다르브 알-아르바인 길을 따라 위치를 선택하십시오" # 14389346063989001865
-  RICE_upper_egypt_darb_al_arbain_decision: "[darb_al_arbain|E] 또는 하위 경로를 따라 소유한 지역" # 787324227178071745
-  RICE_upper_egypt_darb_asyut_option: "#Bold #V 아수트#!#!" # 10512888679718169645
-  RICE_upper_egypt_darb_asyut_option_desc: "나일 강을 따라 있는 다르브 알-아르바인의 북쪽 끝" # 869913442230557683
+  RICE_upper_egypt_temple_philae_recent_closing_req: "아스완 [county|E]는 [GetModifier('RICE_upper_egypt_recently_closed_philae').GetNameWithTooltip] [county_modifier|E]를 가지고 있지 않습니다." # 17282132895505598115
+  RICE_upper_egypt_temple_elephantine_recent_reopening_req: "아스완 [county|E]에는 [GetModifier('RICE_upper_egypt_recently_reopened_elephantine').GetNameWithTooltip] [county_modifier|E]가 없습니다." # 9637083665688257820
+  RICE_upper_egypt_temple_elephantine_recent_closing_req: "아스완 [county|E]는 [GetModifier('RICE_upper_egypt_recently_closed_elephantine').GetNameWithTooltip] [county_modifier|E]를 가지고 있지 않습니다." # 1355778556922412981
+  RICE_upper_egypt_temple_kalabsha_recent_reopening_req: "칼라브샤 백작령은 [GetModifier('RICE_upper_egypt_recently_reopened_kalabsha').GetNameWithTooltip] [county_modifier|E]를 보유하고 있지 않습니다." # 6154866703156515340
+  RICE_upper_egypt_temple_kalabsha_recent_closing_req: "칼라브샤 [county|E]는 [GetModifier('RICE_upper_egypt_recently_closed_kalabsha').GetNameWithTooltip] [county_modifier|E]를 보유하지 않았습니다." # 15114618413857401415
+  RICE_upper_egypt_reinforce_the_darb_al_arbain: "다르 알-아르바인을 강화하십시오." # 12018068747756508951
+  RICE_upper_egypt_reinforce_the_darb_al_arbain_tooltip: "이 중요한 통로는 안전하게 유지해야 합니다!" # 4445091978131532144
+  RICE_upper_egypt_reinforce_the_darb_al_arbain_desc: "[darb_al_arbain|E]는 나일 강 서쪽 사막을 가로지르는 중요한 상단 길로, 이집트를 아프리카 대륙과 연결합니다. 제가 통치하는 [darb_al_arbain|E] 지역에는 이 험난하지만 수익성 높은 상단 길과 그에 이은 부수적인 노선을 보호하기 위해 몇몇 작고 멀리 떨어진 요새와 전초기지가 있습니다. 보고에 따르면 이러한 요새와 전초기지의 수리가 필요할 수 있다고 합니다." # 13579992233783151431
+  RICE_upper_egypt_reinforce_the_darb_al_arbain_effect_tooltip: "선택하신 [county|E]는 #V 20#!년 동안 [GetModifier('RICE_upper_egypt_reinforced_darb_al_arbain').GetNameWithTooltip] [county_modifier|E]를 얻게 됩니다." # 7504193001741628045
+  RICE_upper_egypt_reinforce_the_darb_al_arbain_confirm: "시작해보지!" # 331371430259311057
+  RICE_upper_egypt_reinforce_the_darb_al_arbain_context_tooltip: "#bold 역사적 배경:#  다르브 알-아르바인, 또는 사십일 길은 이집트 아수트와 다르푸르의 콥베이(혹은 쿠바이) 사이의 무역로였습니다. 이 길은 칼가, 셀리마, 둔쿨과 같은 여러 와디를 지나갔습니다. 또한 이 길은 눌바의 둥골라와 사이와 같은 나일강 주변의 여러 지점과 연결되는 보조 경로를 가지고 있었습니다. 이 험난한 길은 물이 부족한 척박한 지형을 횡단했지만, 파라오 시대부터 이집트와 아프리카 다른 지역 사이의 금, 노예, 상아, 그리고 다른 물품 운송과 무역에 사용되었습니다. 로마 시대부터 19세기까지 지역 국가들에 의해 요새와 전초기지가 설치되어 이 길을 보강했습니다." # 15873801091509623946
+  RICE_upper_egypt_darb_al_arbain_decision_choose_where_to_reinforce: "다르브 알-아르바인을 따라 위치를 선택하세요." # 14389346063989001865
+  RICE_upper_egypt_darb_al_arbain_decision: "[darb_al_arbain|E] 또는 그 부속 노선에 속한 당신의 소유 지역들" # 787324227178071745
+  RICE_upper_egypt_darb_asyut_option: "#Bold #V 아시웃#!#!" # 10512888679718169645
+  RICE_upper_egypt_darb_asyut_option_desc: "나일 강변 다르브 알-아르바인의 북쪽 끝" # 869913442230557683
   RICE_upper_egypt_darb_asyut_option_tooltip: "$RICE_upper_egypt_darb_asyut_option_desc$" # 5848403647162294733
-  RICE_upper_egypt_darb_kharga_option: "#Bold #V 카르가 오아시스#!#!" # 9498444427497584722
-  RICE_upper_egypt_darb_kharga_option_desc: "서부 오아시스, 아프리카의 나머지 지역으로 가는 관문" # 4693148849184367096
+  RICE_upper_egypt_darb_kharga_option: "#Bold #V 칼가 오아시스#!#!" # 9498444427497584722
+  RICE_upper_egypt_darb_kharga_option_desc: "서부 오아시스, 아프리카 나머지 지역으로 향하는 관문" # 4693148849184367096
   RICE_upper_egypt_darb_kharga_option_tooltip: "$RICE_upper_egypt_darb_kharga_option_desc$" # 4396972970026163629
   RICE_upper_egypt_darb_aswan_option: "#Bold #V 아스완#!#!" # 10268656652029945231
-  RICE_upper_egypt_darb_aswan_option_desc: "이집트와 누비아의 국경인 제1 급류" # 14676506357695579735
+  RICE_upper_egypt_darb_aswan_option_desc: "첫 번째 협곡, 이집트와 누비아의 국경" # 14676506357695579735
   RICE_upper_egypt_darb_aswan_option_tooltip: "$RICE_upper_egypt_darb_aswan_option_desc$" # 17625907147721829493
-  RICE_upper_egypt_darb_qasr_ibrim_option: "#Bold #V 이브림 성채#!#!" # 3002764516821749772
+  RICE_upper_egypt_darb_qasr_ibrim_option: "#Bold #V 카스르 이브림#!#!" # 3002764516821749772
   RICE_upper_egypt_darb_qasr_ibrim_option_desc: "동부 사막의 와디 알라키로 이어지는 길" # 15480130166207030098
   RICE_upper_egypt_darb_qasr_ibrim_option_tooltip: "$RICE_upper_egypt_darb_qasr_ibrim_option_desc$" # 13905879505962543659
   RICE_upper_egypt_darb_sai_option: "#Bold #V 사이#!#!" # 16752422549298164662
-  RICE_upper_egypt_darb_sai_option_desc: "다르브 알 아르바인의 주요 누비아 오아시스인 셀리마 오아시스로 가는 최적의 경로" # 10845926056532808791
+  RICE_upper_egypt_darb_sai_option_desc: "세리마 오아시스, 다르브 알-아르바인의 주요 누비아 오아시스로 가는 최상의 경로는" # 10845926056532808791
   RICE_upper_egypt_darb_sai_option_tooltip: "$RICE_upper_egypt_darb_sai_option_desc$" # 7951223713893306715
-  RICE_upper_egypt_darb_dar_al_rih_option: "#Bold #V 다르 알-리흐#!#!" # 9517029416895278005
-  RICE_upper_egypt_darb_dar_al_rih_option_desc: "다르브 알-아르바인이 이곳에서 남쪽 끝에 다다릅니다." # 8139166280194859929
+  RICE_upper_egypt_darb_dar_al_rih_option: "#Bold #V 다르 알-리히#!#!" # 9517029416895278005
+  RICE_upper_egypt_darb_dar_al_rih_option_desc: "다르 알 아르바인이 이곳 남단에 이르렀습니다." # 8139166280194859929
   RICE_upper_egypt_darb_dar_al_rih_option_tooltip: "$RICE_upper_egypt_darb_dar_al_rih_option_desc$" # 7608818302537178255
-  RICE_upper_egypt_darb_el_fasher_option: "#Bold #V 엘파셰르#!#!" # 2739387014555470764
-  RICE_upper_egypt_darb_el_fasher_option_desc: "다르브 알-아르바인의 남쪽 끝으로, 누비아를 동쪽으로 바라보고 있습니다" # 11891931169977727491
+  RICE_upper_egypt_darb_el_fasher_option: "#Bold #V 엘파샤르#!#!" # 2739387014555470764
+  RICE_upper_egypt_darb_el_fasher_option_desc: "다르 알 아르바인 남단, 동쪽으로 누비아를 바라보다." # 11891931169977727491
   RICE_upper_egypt_darb_el_fasher_option_tooltip: "$RICE_upper_egypt_darb_el_fasher_option_desc$" # 2564194925612918431
-  RICE_upper_egypt_darb_ayn_farah_option: "#Bold #V 아인 파라흐#!#!" # 13221106628487400502
-  RICE_upper_egypt_darb_ayn_farah_option_desc: "다르 알아르바인 남단, 서쪽으로 카넴-보르누를 바라보다" # 8348897581546703014
+  RICE_upper_egypt_darb_ayn_farah_option: "#Bold #V 아인 파라#!#!" # 13221106628487400502
+  RICE_upper_egypt_darb_ayn_farah_option_desc: "다르 알-아르바인 남단, 서쪽으로 카넴-보르누를 바라보다." # 8348897581546703014
   RICE_upper_egypt_darb_ayn_farah_option_tooltip: "$RICE_upper_egypt_darb_ayn_farah_option_desc$" # 16451506371497857685
-  RICE_upper_egypt_reintroduce_faith_luxor_temple: "룩소르 신전 재봉헌" # 5816276159241265570
-  RICE_upper_egypt_reintroduce_faith_luxor_temple_tooltip: "룩소르의 주요 종교 건물을 우리 믿음에 맞게 변경해야 합니다." # 307174350037661132
-  RICE_upper_egypt_reintroduce_faith_luxor_temple_desc: "[ROOT.Char.GetFaith.GetReligion.GetAdjective] 신자들이 상이집트에서 다시 증가하고 있습니다. 따라서 룩소르 신전이 현재 우리의 [ROOT.Char.Custom('DefaultPriestTitlePlural')]에 의해 종교 의식에 사용되지 않는 것은 이상합니다. 우리는 그곳을 수리하여 적절한 [ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.GetFaith.HouseOfWorship]로 만들어야 합니다." # 1557759030359878344
-  RICE_upper_egypt_reintroduce_faith_luxor_temple_effect_tooltip: "이 [decision|E]을 내리면 현재 호환되지 않는 [faith|E]을 따르기 때문에 비활성화된 [qus_county.GetNameNoTier]의 [특수_건물|E]을 사용할 수 있게 됩니다." # 1094380611403324257
-  RICE_upper_egypt_reintroduce_faith_luxor_temple_confirm: "처리해 봅시다!" # 17162756205734400980
-  RICE_upper_egypt_reintroduce_faith_luxor_temple_context_tooltip: "#emphasis 역사적 배경:#! 룩소르 신전은 기원전 1400년경에 처음 건설되었으며, 카르낙 신전과 함께 당시 이집트 지역 주요 신전 중 하나였습니다. 수 세기 동안 다양한 종교를 가진 사람들에 의해 사용되고 재건되었습니다. 어느 시점에는 심지어 신전 아래에 마을이 형성될 정도였습니다. 현재는 신전 한쪽 모퉁이에 모스크가 세워져 있습니다." # 15209037391519772159
-  RICE_upper_egypt_luxor_recently_changed_req: "룩소르는 최근 20년 이내에 다른 신앙으로 재헌납되지 않았습니다" # 18367926938307408054
-  RICE_upper_egypt_luxor_qus_faith_req: "쿠스 백작령이 당신의 [faith|E]를 따릅니다" # 8023680425643708843
-  upper_egypt.0001.t: "이집트의 갈림길" # 263634267291585949
-  upper_egypt.0001.desc: "[ibn_tulun.GetTitledFirstName]은 최근 칼리파의 이름으로 나일 강 지역을 통치하도록 임명되었습니다. 그는 더 큰 선을 위해 이집트의 권위를 중앙 집중화하는 것을 목표로 삼고 있지만, 일은 불안정한 출발을 보이고 있습니다. 서쪽에서는 칼리파 알리의 반항적인 후손인 [al_tabataba.GetFirstName]와 [al_sufi.GetFirstName]가 계속해서 평화와 안정을 위협하고 있습니다. [ibn_tulun.GetFirstNameNoTooltip]은 [al_kan.GetFirstName], [al_madharai.GetFirstName], [al_farghani.GetFirstName], 그리고 그의 맏아들인 [ibn_tulun_son.GetFirstName]과 같은 유능한 관리들을 휘하에 두고 있지만, 후자의 두 사람은 잔혹한 야망을 가지고 있다는 소문이 있습니다.\n\n그러나 [ibn_tulun.GetFirstNamePossessiveNoTooltip]의 주요 문제는 수년간 이집트에서 복무한 여러 베테랑 관리들과의 경쟁 관계입니다. 이것이 진정한 오해 때문인지, 아니면 음모와 상충하는 야망 때문인지는 말하기 어렵습니다. 그들 중에서도 두드러진 인물은 우체국장이자 이집트의 비공식 정보 장교인 [shukayr.GetFullName]와, 과거 칼리파들과의 우정만큼이나 잔혹함과 가혹한 세금 정책으로 악명이 높은 수석 행정관인 [al_mudabbir.GetFullName]입니다. 현재 양측 모두 칼리파의 궁정에서 음모를 꾸미고 있지만, #italic 어떤 일#!이 일어나는 것은 시간문제일 뿐입니다." # 10866101512925832995
-  upper_egypt.0001.a: "나일 강 유역의 땅에는 어떤 운명이 기다리고 있을까?" # 4390365306955267867
-  upper_egypt.0001.tooltip.ibn_tulun: "#emphasis 역사적 배경:#!  튀르크 노예병 출신의 이븐 툴룬은 이집트 총독으로 재임하는 동안 뛰어난 행정가로서의 능력을 입증했습니다. 로마와 아랍 지배자가 이어졌던 이집트는 이후 프톨레마이오스 시대 이후 최초로 거의 독립적인 국가를 수립했습니다.\n\n884년 이븐 툴룬이 사망한 후, 그가 세운 툴룬 왕조는 905년까지 불과 20년밖에 존속하지 못했습니다. 그럼에도 불구하고, 그의 행보는 압바스 제국의 중앙 권력을 분열시킬 많은 총독들과 장수들의 야심을 이끈 선구자적인 인물 중 한 명으로 기록될 것입니다." # 14797541328486698897
-  upper_egypt.0001.tooltip.al_tabataba: "#emphasis 역사적 배경:#! 859년, 바르카 근처에서 아바스 왕조에 대항하여 반란을 일으킨 부하 알-아스가르 아흐마드 이븐 무함마드 이븐 알-타바타바는 알리 칼리프의 후손인 아이드 계통이었습니다. 그는 자신을 칼리프로 선언했지만, 결국 툴루니드 군대에 패배하고 869년 이집트에서 처형되었습니다." # 7750348170112820630
-  upper_egypt.0001.tooltip.al_sufi: "#emphasis 역사적 배경:#! 이브라힘 이븐 무함마드 이븐 알-수피는 860년대 이집트에서 아바스 왕조에 반기를 든 알리 칼리프의 후손, 또는 알리드였습니다. 그의 반란은 869년 에스나 주민 대학살로 절정에 달했습니다.\n\n툴루니드 군대에 패배한 후 그는 서부 오아시스로 후퇴한 다음 872년 동부 사막에 기반을 둔 장군 알-움마리에게 공격을 시도했습니다. 다시 패배한 그는 돌아가는 길에 아스완을 약탈한 후 메카로 도망쳐서 체포되었습니다. 이븐 툴룬은 그를 잠시 감금한 후 메디나로 가도록 허락했습니다.\n\n알-수피의 한 지지자였던 아부 루흐 수쿤은 873-874년에 반란을 일으켰습니다. 그는 잠시 동안 성공적으로 저항했지만 이븐 툴룬과 휴전 협정에 합의했습니다." # 4962004717138783058
-  upper_egypt.0001.tooltip.al_kan: "#bold 역사적 배경:#! 아부 자파르 무함마드 이븐 '압둘 알-칸은 이븐 툴룬 휘하에서 재능 있는 관료로서, 그의 궁중 장관으로 일했습니다. 그는 중세 이집트의 중요한 #italic 디완#! (다양한 이슬람 국가에서 중요한 정부 부처를 나타내는 용어)인 #italic 디완 알-인샤'#!의 설립에 관여했을 가능성이 있습니다. 이 기관은 통치자의 서신, 청원, 칙령과 관련된 서류 업무를 처리하는 서무부였습니다. 그는 891년에 사망했습니다." # 12070825290449643498
-  upper_egypt.0001.tooltip.al_madharai: "#bold 역사적 배경:# 알-마드하라'이 가문은 이집트와 시리아의 저명한 관료 가문으로, 툴루니드 왕조, 아바스 왕조, 이크쉬이드 왕조 등 여러 왕조에서 봉직했습니다. 이 가문의 첫 번째 저명한 인물은 879년 아부 바크르 아흐마드 이븐 이브라힘 알-마드하라'이로, 이븐 툴룬에 의해 재정 감독관으로 임명되었습니다.\n\n\n그의 사망 후, 그의 아들 알리와 알-후세인은 각각 이집트와 시리아를 물려받았습니다. 알리의 아들 아흐마드와 무함마드 또한 10세기 초에 높은 직책에 올랐습니다. 이후 가문은 바그다드의 관료 파벌 간의 궁중 정쟁에 휘말리게 되었고, 특히 시아파 관리 가문인 바누'알-푸라트 가문에 대한 반대 세력에 합류했습니다." # 18171462060877193699
-  upper_egypt.0001.tooltip.ibn_tulun_son: "#emphasis 역사적 배경:#! 알압바스는 툴루니드 왕조의 창시자 이븐 툴룬의 장남이었으며, 처음에는 아버지의 후계자로 예정되어 있었습니다. 이븐 툴룬은 시리아 지역을 장악하려는 야심을 품고 879년 이집트에 알압바스를 대리자로 남겼습니다. 하지만 순진했던 알압바스는 그의 주변 사람들에게 속아 881년 권력을 찬탈하려 하였습니다. \n\n알압바스는 결국 이븐 툴룬에게 체포되었습니다. 이후 이븐 툴룬은 아들의 성격을 시험하기 위해 음모자들의 눈을 찔러 손을 자르라는 명령을 내렸습니다. 이는 알압바스가 거부할 것으로 예상했습니다. 하지만 알압바스는 주저하지 않고 명령을 따랐습니다. 이에 이븐 툴룬은 아들의 잔혹함과 신뢰할 수 없음에 깊이 슬퍼하며 울었다고 합니다. 그리고 그를 감옥에 가두었습니다. 이븐 툴룬의 다른 아들이자 후계자 훔라와이는 884년 알압바스를 처형했습니다." # 17852357319638496824
-  upper_egypt.0001.tooltip.shukayr: "#bold 역사적 배경:#! 슈카이르 알-카딤은 이집트의 우체국장이었으며, 이븐 툴룬이 총독으로 취임했을 때 그를 맞이했습니다. 아바스 왕조의 우편 서비스인 #기울임꼴 바리드#의 수장으로서, 그는 칼리프와 이집트의 비밀정보 책임자와의 서신 왕래를 담당했습니다.\n\n이븐 툴룬이 처음 도착했을 때, 슈카이르와 또 다른 관리인 증오받는 세금 징수관 이븐 알-무다비르는 그에게 10000 디나르의 선물을 바쳤습니다. 이 선물은 그들과 알-무다비르가 자치권을 유지하도록 하는 제스처였지만, 이븐 툴룬은 자신의 권위를 주장하기 위해 거절했습니다.\n\n그 후, 이븐 툴룬과 이러한 관리들은 아바스 법정에서 서로를 제치려는 음모를 벌였습니다. 결국, 이븐 툴룬은 872년경 슈카이르의 해임을 성사시켰고, 슈카이르는 곧 사망했습니다." # 16024241631576631011
-  upper_egypt.0001.tooltip.al_mudabbir: "#emphasis 역사적 배경:#! 이븐 무다비르는 아바스 칼리파국의 고위 행정관으로, 페르시아계 출신일 가능성이 있습니다. 그는 형제 이브라힘과 함께 여러 칼리프들과 친분을 유지하며 저명한 문인으로 명성을 날렸습니다. 그러나 라이벌들의 음모로 인해 투옥되었고, 861년 이집트의 주요 세금 징수관으로 임명되었습니다. 그는 세수 증대를 위해 엄격한 조치들을 취했으며, 이는 많은 사람들에게 이슬람교 율법(꾸란)에 어긋나는 것으로 여겨져 비난을 받았습니다.\n\n이븐 툴룬이 처음 이집트에 도착했을 때, 이븐 알-무다비르와 다른 관리인 슈카이르는 그에게 1만 디나르의 선물을 전달하며 환영했습니다. 이 선물은 이븐 툴룬과 이븐 알-무다비르가 자치권을 유지하는 데 도움을 주려는 의도였지만, 이븐 툴룬은 자신의 권위를 과시하기 위해 이를 거절했습니다.\n\n이후 이븐 툴룬과 이 관리들은 아바스 궁정에서 서로를 견제하며 음모를 펼쳤습니다. 결국 이븐 툴룬은 음모에서 승리하여 871년 이븐 알-무다비르를 투옥했습니다. 그는 몇 차례 더 풀려났다가 다시 투옥되었고, 결국 883년 또는 884년에 감옥에서 사망했습니다. 한편, 이븐 알-무다비르의 형제 이브라힘은 감옥 담을 뚫고 대담하게 탈출하여 바그다드로 향했고, 893년 사망할 때까지 관리직을 수행했습니다." # 10325324396260711449
-  upper_egypt.0001.tooltip.al_farghani: "#emphasis 역사적 배경:#! 무함마드 이븐 알-파라즈 알-파르가니는 874년 또는 875년에 바르카의 투루니드 총독으로서 이븐 투룬에 대한 반란을 선포했습니다. 투루니드 군대는 바르카를 향해 장기간의 포위 공격을 벌였고, 공성 무기를 동원하여 도시를 성공적으로 함락했습니다. 그럼에도 불구하고 이븐 투룬은 이후 반란을 진압하는 과정에서 큰 자제력을 보여주었습니다." # 1862603075957446297
-  upper_egypt.0001.tooltip.no: "[THIS.Char.GetTitledFirstNameNoTooltip](으)로 계속 플레이합니다." # 4608741627758893655
-  upper_egypt.0001.b: "제 이야기는 툴루니드 가문의 장남인 [ibn_tulun_son.GetFirstName]과 함께합니다." # 5323043802698008744
-  upper_egypt.0001.c: "내 이야기는 이집트의 우체국장 [shukayr.GetFirstName]과 함께합니다." # 13922113856174408120
-  upper_egypt.0001.d: "저의 이야기는 시인이자 무자비한 세금 징수관인 [al_mudabbir.GetFirstName]님과 함께합니다." # 9273931915545345151
+  RICE_upper_egypt_reintroduce_faith_luxor_temple: "룩소르 신전 재헌납" # 5816276159241265570
+  RICE_upper_egypt_reintroduce_faith_luxor_temple_tooltip: "룩소르의 주요 종교 건물은 우리 신앙을 반영하도록 변경되어야 합니다." # 307174350037661132
+  RICE_upper_egypt_reintroduce_faith_luxor_temple_desc: "상이집트 지역에서 [ROOT.Char.GetFaith.GetReligion.GetAdjective] 신도들이 다시 늘어나고 있습니다. 그런데 룩소르 신전이 저희 [ROOT.Char.Custom('DefaultPriestTitlePlural')]의 종교 의식 장소로 사용되지 않고 있는 것은 이상합니다. 이곳을 개선하여 제대로 된 [ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.GetFaith.HouseOfWorship]로 만들어야 합니다." # 1557759030359878344
+  RICE_upper_egypt_reintroduce_faith_luxor_temple_effect_tooltip: "이 [결정|E]을 내리시면 [qus_county.GetNameNoTier]의 [special_building|E]를 활용할 수 있습니다. 현재는 호환되지 않는 [faith|E]를 따르고 있어 사용이 불가능합니다." # 1094380611403324257
+  RICE_upper_egypt_reintroduce_faith_luxor_temple_confirm: "이것 처리합시다!" # 17162756205734400980
+  RICE_upper_egypt_reintroduce_faith_luxor_temple_context_tooltip: "#bold 역사적 배경:#! 룩소르 신전은 기원전 1400년경에 처음 건설되었으며, 카르낙 신전과 함께 이 지역 주요 이집트 신전 중 하나였습니다. 세월이 흐르면서 다양한 종교를 가진 사람들에 의해 사용되고 재사용되었으며; 한때는 신전 아래에 마을이 형성되었을 정도였습니다. 현재는 신전 한 구석에 모스크가 세워져 있습니다." # 15209037391519772159
+  RICE_upper_egypt_luxor_recently_changed_req: "룩소르는 최근 20년 이내에 다른 신앙으로 재헌납되지 않았습니다." # 18367926938307408054
+  RICE_upper_egypt_luxor_qus_faith_req: "쿠스 [county|E]는 당신의 [faith|E]를 따릅니다." # 8023680425643708843
+  upper_egypt.0001.t: "이집트, 갈림길에 서다" # 263634267291585949
+  upper_egypt.0001.desc: "최근 [ibn_tulun.GetTitledFirstName]이 칼리프의 명으로 나일 강 유역의 땅을 다스리도록 임명되었습니다. 그가 이집트에 권력을 집중하여 더 나은 미래를 만들고자 하는 뜻은 숭고하지만, 시작은 순탄치 않습니다. 서쪽에서는 칼리프 알리의 반역적인 후손들, [al_tabataba.GetFirstName]과 [al_sufi.GetFirstName]이 평화와 안정을 위협하고 있습니다. [ibn_tulun.GetFirstNameNoTooltip]은 [al_kan.GetFirstName], [al_madharai.GetFirstName], [al_farghani.GetFirstName], 그리고 그의 장남 [ibn_tulun_son.GetFirstName]과 같은 유능한 관리들을 거느리고 있지만, 후자 둘은 자신만의 잔혹한 야심을 품고 있다는 소문이 돌고 있습니다.\n\n하지만 [ibn_tulun.GetFirstNamePossessiveNoTooltip]의 주된 문제는 이집트에서 수년간 복무한 베테랑 관리들과의 라이벌 의식입니다. 이것이 진정한 오해 때문인지, 아니면 음모와 상반되는 야망 때문인지는 알 수 없습니다. 그들 중 뛰어난 인물로는 우편국장이자 이집트의 비공식 정보 책임자 [shukayr.GetFullName]과, 시인이자 과거 칼리프들과의 우정으로 유명하지만, 동시에 잔혹함과 가혹한 세금 정책으로 악명 높은 수석 행정관 [al_mudabbir.GetFullName]이 있습니다. 현재는 양측 모두 칼리프 궁정에서 음모의 게임을 펼치고 있지만, #italic 어떤 일#이 일어나기는 시간 문제일 뿐입니다." # 10866101512925832995
+  upper_egypt.0001.a: "나일 강 유역의 땅에는 어떤 운명이 숨겨져 있을까?" # 4390365306955267867
+  upper_egypt.0001.tooltip.ibn_tulun: "#bold 역사적 배경:# 이븐 툴룬은 본래 튀르크 노예 병사였으나, 이집트 총독 재임 기간 동안 뛰어난 행정가로서의 능력을 입증했습니다. 이집트가 로마와 아랍 지배자들의 연속적인 통치를 받은 후, 그는 프톨레마이오스 시대 이후 이집트에서 최초의 사실상 독립 국가를 건설했습니다.\n\n884년 이븐 툴룬이 사망한 후, 그가 세운 툴루니드 왕조는 905년까지 불과 20년 동안 존속했지만, 그는 아바스 왕조 중앙 권력의 분열을 가져올 수많은 총독과 장군들의 야망의 길을 열었습니다." # 14797541328486698897
+  upper_egypt.0001.tooltip.al_tabataba: "#bold 역사적 배경:# 859년, 바르카 근처에서 아바스 왕조에 맞서 반란을 일으킨 부하 알-아스가르 아흐마드 이븐 무함마드 이븐 알-타바타바는 알리 칼리프의 후손인 알리드였습니다. 그는 스스로 칼리프를 선언했지만, 결국 툴루니드 군대에 패배하여 869년 이집트에서 처형당했습니다." # 7750348170112820630
+  upper_egypt.0001.tooltip.al_sufi: "#bold 역사적 배경:# 이브라힘 이븐 무함마드 이븐 알-수피는 860년대 이집트에서 아바스 왕조에 반기를 든 알리 칼리프의 후손, 또는 알리드였으며, 869년 에스나 주민 대학살로 절정에 달했습니다.\n\n투루니드 군대에 패배한 후 서부 오아시스로 후퇴했으며, 872년 동부 사막에 기반을 둔 장군 알-움마리 공격을 시도했습니다. 다시 패배한 후, 그는 돌아가는 길에 아스완을 황폐화했고, 메카로 도망친 후 체포되었습니다. 이븐 투룬은 그를 некоторое время 감금한 후 메디나로 가도록 허락했습니다.\n\n알-수피의 추종자 중 한 명인 아부 루흐 수쿤은 873-874년 반란을 일으켰습니다. 그는 некоторое время 성공적으로 저항했지만 이븐 투룬과 휴전 조약을 맺었습니다." # 4962004717138783058
+  upper_egypt.0001.tooltip.al_kan: "#bold 역사적 배경:#! 아부 자파르 무함마드 이븐 '압둘 알-칸은 이븐 툴룬 휘하에서 재능 있는 관료로서 재상으로 일했습니다. 그는 중세 이집트의 중요한 #이탤릭 디완#! (여러 이슬람 국가에서 중요한 정부 부처를 가리키는 용어)인 #이탤릭 디완 알-인샤'#!를 설립했을 가능성이 있으며, 이는 통치자의 서신, 청원 및 칙령과 관련된 서류 업무를 처리하는 서기관부였습니다. 그는 891년에 사망했습니다." # 12070825290449643498
+  upper_egypt.0001.tooltip.al_madharai: "#bold 역사적 배경:# 알-마드하라'이 가문은 이집트와 시리아의 저명한 관료 가문으로, 툴루니드, 아바스 왕조, 이크쉬이드 왕조 등 여러 왕조에 봉직했습니다. 이 가문의 첫 번째 저명한 인물은 아부 바크르 아흐마드 이븐 이브라힘 알-마드하라'이였으며, 879년 이븐 툴룬에 의해 재정 감독관으로 임명되었습니다.\n\n그의 사망 후, 그의 아들 알리와 알-후세인은 각각 이집트와 시리아를 계승했습니다. 알리의 아들 아흐마드와 무함마드 또한 10세기 초반에 높은 지위에 올랐습니다. 그들의 후반기에 이르러 이 가문은 바그다드의 관료 파벌 간의 궁중 음모에 휘말리게 되었으며, 특히 시아파 관료 가문인 바누'알-푸라트 가문에 대한 반대에 가담했습니다." # 18171462060877193699
+  upper_egypt.0001.tooltip.ibn_tulun_son: "#bold 역사적 배경:#! 알압바스는 툴루니드 왕조의 창시자 이븐 툴룬의 장남이었으며, 초기에는 아버지의 후계자로 예정되어 있었습니다. 이븐 툴룬은 시리아 지역을 장악하려는 야심을 품었고, 879년에 알압바스를 이집트의 대리인으로 남겨두었습니다. 그러나 속임수에 쉽게 넘어가는 알압바스는 그의 수하들에 의해 쉽게 조종당하여 스스로 권력을 잡으려 하였습니다.\n\n알압바스는 결국 881년에 이븐 툴룬에게 체포되었습니다. 이후 이븐 툴룬은 그의 충성심을 시험하기 위해, 아들에게 음모자들의 눈을 찌르고 손을 자르라고 명령했습니다.  그는 아들이 거부할 것이라 예상했지만, 알압바스는 주저함 없이 명령을 따랐습니다. 이븐 툴룬은 아들의 잔혹함과 신뢰할 수 없음에 깊은 슬픔에 빠져 눈물을 흘렸다는 이야기가 전해집니다. 이후 그를 감금하였고, 이븐 툴룬의 다른 아들이자 후계자인 훔라와이히는 884년 알압바스를 처형했습니다." # 17852357319638496824
+  upper_egypt.0001.tooltip.shukayr: "#bold 역사적 배경:#! 슈카이르 알-카딤은 이븐 툴룬이 이집트 총독으로 부임했을 당시 이집트의 우편 책임자였습니다. 아바스 왕조의 우편 시스템인 #기울임꼴 바리드#의 수장으로서 그는 칼리프와의 서신 왕래를 처리하고 이집트의 최고 정보 책임자 역할을 했습니다.\n\n이븐 툴룬이 처음 이집트에 도착했을 때, 슈카이르와 또 다른 관리인 혐오스러운 세금 책임자 이븐 알-무다비르는 1만 디나르의 선물로 그를 맞이했습니다. 이 선물은 그들과 알-무다비르가 자치권을 유지할 수 있도록 하려는 의도였지만, 이븐 툴룬은 자신의 권위를 확립하기 위해 이를 거절했습니다.\n\n그 후, 이븐 툴룬과 이러한 관리들은 아바스 궁정에서 서로를 견제하며 많은 음모가 있었습니다. 결국, 이븐 툴룬은 872년경 슈카이르의 해임을 성사시켰고, 슈카이르는 곧 사망했습니다." # 16024241631576631011
+  upper_egypt.0001.tooltip.al_mudabbir: "#bold 역사적 배경:# 이븐 무다비르는 아바스 칼리파국에서 고위 관리직을 역임한 인물로, 페르시아 출신일 가능성이 높습니다. 그는 형제 이브라힘과 함께 몇몇 칼리프들과 친분을 유지하며 저명한 문인으로 알려져 있었습니다. 그러나 그의 라이벌들의 음모로 인해 투옥되었고, 861년 이집트의 주요 세금 징수 책임자로 임명되었습니다. 그는 세수를 늘리기 위해 엄격한 조치들을 시행했으며, 이는 많은 사람들에게 이슬람교의 가르침에 어긋나는 것으로 여겨져 비난을 받았습니다.\n\n이븐 툴룬이 처음 도착했을 때, 이븐 알-무다비르와 다른 관리인 슈카이르는 10000 디나르의 선물로 그를 맞이했습니다. 이 선물은 그와 이븐 알-무다비르가 자치권을 유지하도록 하는 제스처였지만, 이븐 툴룬은 자신의 권위를 강조하며 이를 거절했습니다.\n\n이후 이븐 툴룬과 이들 관리들은 아바스 궁정에서 서로를 견제하고 음모를 꾸미며 치열한 정쟁을 벌였습니다. 결국 이븐 툴룬은 이러한 정쟁에서 승리하여 871년 이븐 알-무다비르를 투옥했습니다. 그는 몇 차례 더 투옥과 석방을 반복하다 883년 또는 884년에 감옥에서 사망했습니다. 반면에 이븐 알-무다비르의 형제 이브라힘은 감옥 담을 뚫고 대담하게 탈출하여 바그다드로 향해, 893년 사망할 때까지 관료로서 봉직했습니다." # 10325324396260711449
+  upper_egypt.0001.tooltip.al_farghani: "#bold 역사적 배경:#! 무함마드 이븐 알-파라즈 알-파르가니는 874년 또는 875년에 이븐 툴룬에 대항하여 반란을 일으킨 바르카의 툴루니드 총독이었습니다. 툴루니드 군대는 바르카를 향해 오랜 포위 공격을 펼쳤으며, 공성 무기를 동원하여 도시를 성공적으로 함락했습니다. 그럼에도 불구하고, 이븐 툴룬은 이후 반란을 진압하면서 큰 절제를 보여주었습니다." # 1862603075957446297
+  upper_egypt.0001.tooltip.no: "[THIS.Char.GetTitledFirstNameNoTooltip]으로 계속 플레이합니다." # 4608741627758893655
+  upper_egypt.0001.b: "내 이야기는 [ibn_tulun_son.GetFirstName]，툴루니드 왕가의 장남과 함께 시작됩니다." # 5323043802698008744
+  upper_egypt.0001.c: "내 이야기는 이집트의 우편국장 [shukayr.GetFirstName]과 함께 시작합니다." # 13922113856174408120
+  upper_egypt.0001.d: "내 이야기는 시인이자 냉혹한 세금징수원인 [al_mudabbir.GetFirstName]과 함께합니다." # 9273931915545345151
   upper_egypt.0002.t: "xxxxx" # 1951045980481827005
   upper_egypt.0002.desc: "xxxxx" # 1951045980481827005
   upper_egypt.0002.a: "xxxxx" # 1951045980481827005
@@ -402,20 +406,24 @@
   upper_egypt.0009.t: "xxxxx" # 1951045980481827005
   upper_egypt.0009.desc: "xxxxx" # 1951045980481827005
   upper_egypt.0009.a: "xxxxx" # 1951045980481827005
-  upper_egypt.0010.t: "다르브 알 아르바인" # 12155946597922059426
-  upper_egypt.0010.desc: "다르브 알-아르바인 길은 제가 다스리는 영토를 가로지르는 중요한 교역로입니다. 작은 요새와 전초 기지가 길을 따라 여기저기 흩어져 있으며, 저는 도로 일부를 따라 이러한 시설을 강화하는 데 자원을 할애하기로 결정했습니다. 대상과 여행자들이 강도나 갈증에 대한 두려움 없이 사막의 고속도로를 가로지를 수 있도록 말입니다. 결국 이 도로를 안전하고 안정적으로 유지하는 것이 제 의무입니다." # 5347236891512891793
-  upper_egypt.0010.a: "이것은 무역에도 좋을 것입니다!" # 5485079280283417845
+  upper_egypt.0010.t: "아르바인" # 12155946597922059426
+  upper_egypt.0010.desc: "아르바인 대로는 내가 다스리는 영토를 가로지르는 중요한 교역로입니다. 작은 요새와 전초기지들이 그 길에 흩어져 있으며, 나는 이 길의 일부 구간을 강화하기 위해 자원을 투입하기로 결정했습니다. 그래서 상인과 여행자들이 도적이나 갈증 없이 이 사막의 대로를 안전하게 통과할 수 있도록 말입니다. 결국 이 길을 안전하고 믿을 수 있게 유지하는 것은 내 의무입니다." # 5347236891512891793
+  upper_egypt.0010.a: "무역에도 좋을 듯합니다!" # 5485079280283417845
   upper_egypt.0011.t: "새로운 룩소르" # 1067944245466128469
-  upper_egypt.0011.desc: "룩소르를 방문하는 사람은 누구나 [qus_county.GetNameNoTier]에 수세기 동안 서 있었던 룩소르 신전의 아름다움과 웅장함을 부인할 수 없습니다. 그러나 이곳이 완벽한 [ROOT.Char.GetFaith.HouseOfWorship] 역할을 한다는 사실에도 불구하고, [ROOT.Char.GetFaith.GetReligion.GetAdjective] 신앙의 신자들은 이곳에서 예배를 드리지 않습니다. 적어도 오랫동안 예배를 드리지 않았습니다.\n\n오늘 그것이 바뀝니다.\n\n저는 많은 [ROOT.Char.Custom('DefaultPriestTitlePlural')]을 모셔 이 오래된 성지를 재헌납하여 이제 지역 사회에 적절한 [ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.GetFaith.HouseOfWorship] 역할을 할 수 있도록 할 것입니다. 곧 [ROOT.Char.GetFaith.GetReligion.GetAdjective] 기도의 소리가 다시 그 홀 전체에 울려 퍼질 것입니다!" # 10383309450639440499
-  upper_egypt.0011.a: "좋아, 좋아." # 8104802304157004145
-  upper_egypt.0012.t: "전 총독" # 4547932276104617199
-  upper_egypt.0012.desc: "저는 [GetTitleByKey('k_egypt').GetNameNoTier]에서 오랫동안 경력을 쌓았지만, 이제 모든 것이 끝났습니다. 가령, 해당 지방의 [Glossary( 'shurta', 'SHURTA_GLOSS' )] 수장으로 복무했었습니다. 저는 반란을 진압했고, 도덕과 공공 질서를 위해 새로운 변화와 규제를 엄격하게 시행했습니다. 죄인들과 불신자들은 그것을 싫어했고 큰 소리로 항의했으며, 결국 저는 관직에서 해임되었습니다.\n\n칼리파 정부로부터 [GetTitleByKey('k_egypt').GetNameNoTierNoTooltip]의 총독으로 임명되었을 때, 저는 경력을 더 쌓을 두 번째 기회를 얻었습니다. 아, 하지만 이 또한 오래가지 못했습니다. 제가 곧 [ibn_tulun.GetFirstName]이라는 이름의 어떤 벼락출세한 노예 병사에 의해 교체되었기 때문입니다.\n\n하지만 옛 일자리를 잃은 것이 새로운 삶을 시작하는 데 필요한 기회가 될 수도 있습니다… 제가 정말로 원한다면 말이죠. 하지만 우선, [GetTitleByKey('c_cairo').GetNameNoTier]의 숨 막히는 분위기를 떠나야 합니다. 이곳에서 제가 그렇게 인기 있는 것도 아니고요." # 14257509377091175061
-  upper_egypt.0012.a: "홍해의 항구들로 향하라" # 5629213049415807832
+  upper_egypt.0011.desc: "룩소르를 방문하는 이는 누구든 룩소르 신전의 아름다움과 위용을 부인할 수 없을 것입니다. 이 신전은 [qus_county.GetNameNoTier]에 수세기 동안 우뚝 서 있었습니다. 그러나 이 장소가 완벽한 [ROOT.Char.GetFaith.HouseOfWorship]가 되기에 적합하다는 사실에도 불구하고, [ROOT.Char.GetFaith.GetReligion.GetAdjective] 신앙의 신도들은 여기서 예배하지 않았습니다. 적어도 오랫동안은 그랬습니다.\n\n오늘 그 상황이 바뀌었습니다.\n\n저는 여러 [ROOT.Char.Custom('DefaultPriestTitlePlural')]를 데려와 이 오래되고 신성한 장소를 재헌납하였습니다. 이제 그곳이 마땅한 [ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.GetFaith.HouseOfWorship]로서 공동체에 봉사할 수 있게 되었습니다. 머지않아 [ROOT.Char.GetFaith.GetReligion.GetAdjective]의 기도 소리가 그 홀 전체에 다시 울려 퍼질 것입니다!" # 10383309450639440499
+  upper_egypt.0011.a: "좋군, 좋군." # 8104802304157004145
+  upper_egypt.0012.t: "옛 총독" # 4547932276104617199
+  upper_egypt.0012.desc: "[GetTitleByKey('k_egypt').GetNameNoTier]에서 오랜 경력을 보냈지만, 이제 모든 것이 끝났습니다. 예를 들어, 그 지역의 [Glossary( 'shurta', 'SHURTA_GLOSS' )] 책임자로 일했습니다. 반란을 진압하고 도덕과 질서를 위해 새로운 변화와 제한을 엄격하게 시행했습니다. 죄인들과 이교도들은 그것을 싫어하고 크게 항의했고, 그래서 직위에서 해임되었습니다.\n\n\n칼리파 정부가 [GetTitleByKey('k_egypt').GetNameNoTierNoTooltip] 총독으로 임명되어 제2의 기회를 얻었습니다. 하지만 이것도 곧 짧게 끝났습니다. [ibn_tulun.GetFirstName]라는 어떤 급제자 노예 병사가 저를 대신했습니다.\n\n\n하지만 옛 직책을 잃은 것은 제가 새로운 삶을 시작할 기회가 될 수도 있습니다… 제가 원한다면 말이죠. 하지만 우선 [GetTitleByKey('c_cairo').GetNameNoTier]의 답답한 분위기를 벗어나야 합니다. 여기서 제가 얼마나 인기 있는지도 아니거든요." # 14257509377091175061
+  upper_egypt.0012.a: "홍해 항구로 향하십시오." # 5629213049415807832
+  upper_egypt.0012.a.tooltip: "아마도 이제 모든 선량한 [GetReligionByKey('islam_religion').GetAdherentNamePlural]처럼 순례를 떠날 때가 된 것 같군..." # 2331033370962043053
+  upper_egypt.0012.b: "레반트 항구로 향하십시오." # 10588756483907599684
+  upper_egypt.0012.b.tooltip: "아마도 칼리파국의 중심으로 돌아가서 거기서 일자리를 찾아볼 수 있을지도 모르겠군…" # 17952867573365036609
+  upper_egypt.0012.info: "#emphasis 역사적 배경:#! 아즈주르 알-투르키는 이븐 툴룬 이전에 1년간 이집트 총독을 역임했습니다.  기술적으로 그의 임기는 868년에 끝났지만,  게임 내에서는 867년에 이븐 툴룬이 이집트를 다스리도록 설정되어 툴룬 왕조의 지배가 시작되도록 했습니다. 이러한 연대 차이를 무시하더라도, 그는 총독에 임명되기 전에도 엄격하고 인기 없는 관리로 알려져 있었습니다.  이븐 툴룬이 그의 자리를 이어받은 후 알-투르키의 행적은 여러 기록에 따라 다릅니다.  메카 순례를 떠났다는 설도 있고, 칼리프로 돌아가 따뜻한 환영을 받으며 다른 정부 직책을 맡았다는 설도 있습니다." # 7242684125148801185
   upper_egypt.0013.t: "레반트" # 8888147840515775937
-  upper_egypt.0013.desc: "[GetTitleByKey('b_acre').GetNameNoTier]의 항구에 도착했습니다. 이 도시의 조선소는 칼리프국의 장엄한 해군에서 중요한 부분을 차지하고 있으며, 이곳에는 상인들과 순례자들이 무수히 드나듭니다.\n\n이곳에 도착한 후, 칼리프국의 심장부에서 벌어지는 최근의 정치적 상황에 대한 소식을 들었습니다. 아무래도 전쟁과 불안정이 그 지역에 큰 피해를 입힌 듯합니다. 이는 행정가나 군사령관으로서의 새로운 직업을 얻을 기회가 될 수 있지만, 다른 한편으로는 여전히 많은 위험이 도사리고 있을 수 있습니다.\n\n상황이 어떻든, 다음 행보를 결정하는 동안 일단 [GetTitleByKey('b_acre').GetNameNoTierNoTooltip]에서 잠시 휴식을 취하는 것이 좋겠다고 생각합니다." # 5358533331795606086
-  upper_egypt.0013.a: "여기서 할 만한 것을 찾아봐야겠군…." # 1973732117458778171
-  upper_egypt.0014.t: "홍해" # 5646212541334997693
-  upper_egypt.0014.desc: "동부 사막을 가로지르는 힘든 여정 끝에, 저는 홍해 옆 [GetTitleByKey('b_qusayr').GetNameNoTier]에 도착했습니다.\n\n이곳에 도착한 후, 저는 이 [GetReligionByKey('islam_religion').GetName] 국경 지대의 현 상황에 대해 들었습니다. 현지 주민들은 이곳을 지나는 이교도 약탈자들과 피에 굶주린 군벌들에 대해 이야기하지만, 헌신적이고 용감한 상인들과 순례자들에 대해서도 마찬가지로 이야기합니다. 어쩌면 저는 [GetTitleByKey('b_makka').GetNameNoTier]로 향하여 하즈 순례에 참여해야 할지도 모릅니다. 다른 한편으로는, 어쩌면 다른 곳에 기회가 있는지 보기 위해 기다려야 할지도 모릅니다.\n\n어떠한 경우에도, 다음에 무엇을 할지 결정하는 동안 잠시 [GetTitleByKey('b_qusayr').GetNameNoTierNoTooltip]에서 휴식을 취하는 것이 저에게 최선이라고 생각합니다." # 11152014103947133651
+  upper_egypt.0013.desc: "[GetTitleByKey('b_acre').GetNameNoTier] 항구에 도착했습니다. 이 도시의 조선소에는 칼리파국 해군의 중요한 부분이 자리 잡고 있으며, 상인들과 순례자들이 끊임없이 드나듭니다.\n\n도착한 후 칼리파국 내륙의 최근 정치적 변화에 대한 소식을 들었습니다. 전쟁과 불안정이 이 지역에 큰 영향을 미친 것 같습니다. 행정관이나 군사 지휘관으로서의 새로운 직책을 얻을 기회가 될 수도 있지만, 반대로 여전히 많은 위험이 도사리고 있을 수도 있습니다.\n\n어떤 경우든, 다음 행동을 결정하기 전에 [GetTitleByKey('b_acre').GetNameNoTierNoTooltip]에서 잠시 휴식을 취하는 것이 좋을 것 같습니다." # 5358533331795606086
+  upper_egypt.0013.a: "여기서 할 일을 찾아봐야겠군…" # 1973732117458778171
+  upper_egypt.0014.t: "붉은 바다" # 5646212541334997693
+  upper_egypt.0014.desc: "동방 사막을 험난하게 여정을 마치고, 적색해변의 [GetTitleByKey('b_qusayr').GetNameNoTier]에 도착하였습니다.\n\n이곳에 도착하여 [GetReligionByKey('islam_religion').GetName]의 이 변경 지역 상황을 들었습니다. 현지인들은 이곳을 드나드는 이교도 약탈자들과 잔혹한 전쟁 지도자들에 대해 말하지만, 또한 헌신적이고 용감한 상인들과 순례자들에 대한 이야기도 있습니다. 아마도 [GetTitleByKey('b_makka').GetNameNoTier]로 향하여 순례를 다녀올지도 모릅니다. 반면에, 다른 곳에서 기회가 있을지 기다리는 것도 고려해야 할 것입니다.\n\n어느 쪽이든, 다음 행동을 결정하기 전에 잠시 [GetTitleByKey('b_qusayr').GetNameNoTierNoTooltip]에서 휴식을 취하는 것이 좋을 것 같습니다." # 11152014103947133651
   upper_egypt.0014.a: "$upper_egypt.0013.a$" # 6161361783450933093
   upper_egypt.0015.t: "xxxxx" # 1951045980481827005
   upper_egypt.0015.desc: "xxxxx" # 1951045980481827005
@@ -432,33 +440,33 @@
   upper_egypt.0019.t: "xxxxx" # 1951045980481827005
   upper_egypt.0019.desc: "xxxxx" # 1951045980481827005
   upper_egypt.0019.a: "xxxxx" # 1951045980481827005
-  upper_egypt.0020.notification.flood.normal: "나일 수위계 보고: 올해 나일강 [nile_flood|E] 평범함" # 9440661751665525030
-  upper_egypt.0020.notification.flood.high: "나일 수위계 보고: 금년 나일강 범람 수위 높음" # 13905191907091690447
-  upper_egypt.0020.notification.flood.very_high: "나일 수위계 보고: 올해 [nile_flood|E] 매우 높음" # 2439205973834761722
-  upper_egypt.0020.notification.flood.overflooding: "나일 수위계 보고: 올해 [nile_flood|E] 범람" # 5800094971883783858
-  upper_egypt.0020.notification.flood.low: "나일 강 수위계 보고: 올해 [nile_flood|E] 낮음" # 14547190011597326293
-  upper_egypt.0020.notification.flood.very_low: "나일 수위계 보고: 올해 [nile_flood|E] 수위가 매우 낮음" # 10197774807544664184
+  upper_egypt.0020.notification.flood.normal: "나일계 측량 보고서: 올해는 평년 [nile_flood|E]입니다." # 9440661751665525030
+  upper_egypt.0020.notification.flood.high: "나일계 수위 보고: 올해 범람이 심각합니다." # 13905191907091690447
+  upper_egypt.0020.notification.flood.very_high: "나일계 수위 보고서: 올해 매우 높음 [nile_flood|E]" # 2439205973834761722
+  upper_egypt.0020.notification.flood.overflooding: "나일강 수위 관측 보고: 올해 홍수가 범람했습니다." # 5800094971883783858
+  upper_egypt.0020.notification.flood.low: "나일 미터 보고서: 올해 홍수량이 낮음" # 14547190011597326293
+  upper_egypt.0020.notification.flood.very_low: "나일 미터 보고서: 올해 범람 수위 매우 낮음" # 10197774807544664184
   upper_egypt.0020.t: "xxxxx" # 1951045980481827005
   upper_egypt.0020.desc: "xxxxx" # 1951045980481827005
   upper_egypt.0020.a: "xxxxx" # 1951045980481827005
-  upper_egypt.0021.t: "나일로미터" # 13969169294922751515
-  upper_egypt.0021.desc: "파라오 시대부터 나일 강 수위계는 수 세기 동안 [GetGeographicalRegion('RICE_nile_river_valley').GetName] 사회의 필수적인 부분이었습니다. 이 구조물은 나일강의 범람 수위를 측정하는 데 도움을 주며, 이 지식은 한편으로는 번영을, 다른 한편으로는 혼돈을 의미할 수 있습니다. 따라서 저는 제가 다스리는 영토에 있는 여러 개의 나일 강 수위계를 개조하고 수리하여 신뢰할 수 있고 정확하게 유지하도록 명령했습니다. 필요한 경우 다른 나일 강 수위계도 건설할 수 있습니다." # 13140467691095916307
-  upper_egypt.0021.a: "이것이 앞으로 몇 년 동안 우리에게 도움이 되기를 바랍니다." # 11150733284983902646
-  upper_egypt.0022.t: "나일 강 운하 개통" # 1244793610449949077
-  upper_egypt.0022.desc: "매년 나일강이 범람하며, 이집트에 사는 모든 사람들의 삶은 이것에 달려 있습니다. 예로부터 그래왔습니다.\n\n나일강의 범람은 다행히 올해에도 좋았으며, 나일강을 따라 사는 농부들은 최악의 경우에도 적절한 수확을 기대할 수 있습니다. 곧, 이집트 전역의 운하를 열어 곧 비옥해질 농지에 관개 도랑과 수로를 통해 물을 공급할 수 있습니다. 관리들이 성대한 의식을 갖추어 이 운하를 개방하는 것은 [ROOT.Char.GetCulture.GetName]의 전통입니다.\n\n이미 준비가 진행 중입니다." # 493233113665016594
-  upper_egypt.0022.desc.normal: "운하를 개통하는 의례를 계획했습니다. 우리의 행운을 축하합시다!" # 11291916787347108182
-  upper_egypt.0022.desc.grand: "올해 의식 준비에 많은 노력이 들어갔습니다. 평소보다 더욱 화려하고 기쁨이 넘치는 의식을 치르고 싶기 때문입니다." # 16430665644927885216
-  upper_egypt.0022.a: "올해의 나일강 범람을 축하합시다!" # 14914495690840536787
-  upper_egypt.0023.t: "나일강 운하가 개통되었습니다" # 11533283262700506060
-  upper_egypt.0023.desc: "오늘은 나일강의 풍부한 범람 이후 운하를 개방하는 공식 의식이 있는 날입니다.\n\n멋진 군마를 타고 저는 운하 입구의 댐으로 이동하며, 뒤를 이어 관리, 궁정 신하, 병사, 귀족, [ROOT.Char.Custom('DefaultPriestTitlePlural')], 기타 고위 인사들의 행렬이 뒤따릅니다. 나일강 해안선을 따라 각계각층의 사람들이 몰려들어 행사를 지켜봅니다.\n\n[ROOT.Char.Custom('DefaultPriestTitlePlural')]이 기도를 하고 다른 의식이 완료되면, 저에게 창이 주어지고, 그 창을 댐에 던집니다. 그런 다음 한 무리의 사람들이 댐을 부수고 물이 운하로 흘러들게 합니다. 귀머거리와 벙어리들로 가득 찬 첫 번째 배가 곧 운하로 보내집니다(물론, 전통에 따라 나중에 그들은 저의 자선을 받게 될 것입니다).\n\n의식이 끝나자 군중에서 큰 환호성이 터져 나오고 축제가 시작됩니다." # 13444641242245986704
-  upper_egypt.0023.a: "이제 파종이 시작되기까지 몇 달만 기다리면 됩니다." # 5898865734730759004
-  upper_egypt.0024.t: "회개하십시오! 회개하십시오!" # 7292915309670567170
-  upper_egypt.0024.desc: "매년 나일강은 범람하며, 이집트에 사는 모든 사람의 삶은 이것에 달려 있습니다. 태곳적부터 그래 왔습니다.\n\n하지만 재앙이 닥쳐 홍수가 없는 해가 있습니다. 모두가 공포에 질린 가운데, 올해가 바로 그런 해입니다. 저와 같은 [ROOT.Char.GetCulture.GetName] [ROOT.Char.GetFaith.GetAdherentNamePlural]에게는 이와 같은 가뭄이 흔히 우리의 죄에 대한 [ROOT.Char.GetFaith.PantheonTerm]의 벌로 해석됩니다.\n\n이러한 상황을 고려하여 제 영토 내 모든 사람들이 느끼는 공황과 불만을 진정시키기 위해 [ROOT.Char.GetFaith.PantheonTerm]에게 용서와 자비를 구하는 웅장한 기도, 봉헌, 탄원 의식을 조직하기로 결정했습니다. 바라건대 [ROOT.Char.GetFaith.HighGodName]께서 우리의 진심 어린 참회를 듣고 앞으로 더 나은 행운을 얻을 수 있기를 바랍니다." # 6349774306485291071
-  upper_egypt.0024.a: "우리는 #italic 반드시#! 우리의 뉘우침을 보여야 합니다!" # 11781713797519458539
-  upper_egypt.0024.tooltip: "더 많은 [gold|E]를 쓸수록 의식은 더 웅장해지고 참회가 진정성 있게 받아들여질 가능성이 높아집니다. 하지만 당신의 [virtues|E], [sins|E], [traits|E] 그리고 [piety_level|E] 역시 이러한 확률에 영향을 미친다는 것을 알아두십시오." # 10623954595921187795
+  upper_egypt.0021.t: "닐로미터" # 13969169294922751515
+  upper_egypt.0021.desc: "파라오 시대부터 [GetGeographicalRegion('RICE_nile_river_valley').GetName]에서는 수세기 동안 나일 강 홍수의 높이를 측정하는 필수적인 시설, 즉 닐로미터가 사회의 중요한 부분이었습니다. 이러한 구조물들은 나일 강 홍수의 높이를 측정하는 데 도움이 되며, 이 지식은 한편으로는 번영, 다른 한편으로는 혼돈의 차이를 의미할 수 있습니다. 따라서, 내가 통치하는 영토 내 여러 닐로미터를 개선하고 수리하여 신뢰성과 정확성을 유지하도록 명령했습니다. 필요에 따라 다른 닐로미터도 건설될 것입니다." # 13140467691095916307
+  upper_egypt.0021.a: "앞으로 이것이 우리에게 잘 봉사하길 바랍니다." # 11150733284983902646
+  upper_egypt.0022.t: "나일 운하 개통" # 1244793610449949077
+  upper_egypt.0022.desc: "매년 나일강이 범람합니다. 이집트에 사는 모든 이들의 생존은 이에 달려 있습니다. 언제부터인가 이러한 일이 이어져 왔습니다.\n\n다행히 올해 나일강 범람은 좋았으며, 나일강 상류와 하류의 농부들은 최악의 경우에도 적절한 수확을 기대할 수 있습니다. 곧 이집트 전역의 운하를 개방하여, 곧 비옥해질 농경지에 관개수로와 수로를 통해 물을 공급할 수 있을 것입니다. [ROOT.Char.GetCulture.GetName]의 전통에 따라, 관료들은 화려하고 웅장한 의식을 거행하여 이러한 운하를 개방합니다.\n\n준비는 이미 한창입니다." # 493233113665016594
+  upper_egypt.0022.desc.normal: "이제 운하 개통식을 위한 의례를 준비했습니다. 우리의 행운을 기리며 축하합시다!" # 11291916787347108182
+  upper_egypt.0022.desc.grand: "올해 의식 준비에 많은 노력이 들어갔습니다.  평소보다 더욱 화려하고 즐거운 축제로 만들고 싶었기 때문입니다." # 16430665644927885216
+  upper_egypt.0022.a: "올해 훌륭한 나일 강 홍수를 축하합시다!" # 14914495690840536787
+  upper_egypt.0023.t: "나일 운하가 개통되었습니다." # 11533283262700506060
+  upper_egypt.0023.desc: "오늘은 훌륭한 나일 강 홍수 이후 나일 운하 개통식이 거행되는 날입니다.\n\n빼어난 말 위에 올라타 운하 입구의 둑으로 향합니다. 관료, 궁정 사람들, 병사, 귀족, [ROOT.Char.Custom('DefaultPriestTitlePlural')], 그리고 다른 고관들이 뒤따릅니다. 나일 강변에는 모든 계층의 사람들이 이 행사를 지켜보기 위해 몰려듭니다.\n\n[ROOT.Char.Custom('DefaultPriestTitlePlural')]들이 기도와 다른 의식을 마친 후, 저에게 창이 주어집니다. 그 창을 둑에 던집니다. 이어 사람들이 둑을 부수어 운하에 물이 넘치게 합니다. 처음으로 운하를 따라 귀머거리와 벙어리들이 탄 배가 내려갑니다 (그들은 나중에 전통에 따라 제가 베푸는 자선을 받게 될 것입니다).\n\n식이 끝나자 군중들 사이에서 큰 환호성이 터져 나오고 축제가 시작됩니다." # 13444641242245986704
+  upper_egypt.0023.a: "몇 달만 기다리면 곧 농사를 시작할 수 있습니다." # 5898865734730759004
+  upper_egypt.0024.t: "회개하시오, 회개하시오!" # 7292915309670567170
+  upper_egypt.0024.desc: "나일강은 매년 범람하며 이집트 사람들의 삶은 이것에 달려 있습니다. 이는 태곳적부터 그래왔습니다.\n\n그러나 재앙이 닥쳐 홍수가 나지 않는 해가 있습니다. 모두가 공포에 떨게도 올해가 바로 그런 해입니다. 저와 같은 [ROOT.Char.GetCulture.GetName] [ROOT.Char.GetFaith.GetAdherentNamePlural]에게 이와 같은 빈약한 홍수는 우리의 죄에 대한 [ROOT.Char.GetFaith.PantheonTerm]의 징벌로 해석됩니다.\n\n이를 감안하여, 제 영토 내 모든 사람들이 느끼고 있을 공황과 좌절감을 달래기 위해 저는 [ROOT.Char.GetFaith.PantheonTerm]께 용서와 자비를 구하는 웅장한 기도 의식과 제물, 간청을 조직하기로 결정했습니다. 바라건대, [ROOT.Char.GetFaith.HighGodName]께서 우리의 진심 어린 참회의 표현을 들으시고 앞으로 더 나은 운이 따르기를 바랍니다." # 6349774306485291071
+  upper_egypt.0024.a: "저희는 #italic 반드시#! 회개해야 합니다!" # 11781713797519458539
+  upper_egypt.0024.tooltip: "[gold|E]을 많이 쓸수록 의식은 더욱 성대해지고 참회가 진실되게 여겨질 가능성이 높아집니다. 그러나 [virtues|E], [sins|E], [traits|E] 및 [piety_level|E] 또한 이러한 가능성에 영향을 미친다는 점에 유의하십시오." # 10623954595921187795
   upper_egypt.0025.t: "나일 강의 참회" # 4766503616978006687
-  upper_egypt.0025.desc: "저와 많은 이들이 나일 강을 따라 참회와 기도를 위한 성대한 의식을 준비하는 데 며칠을 보냈고, 오늘, 저희의 계획이 결실을 맺습니다.\n\n가장 낮은 거지부터 가장 강력한 귀족에 이르기까지 모든 계층의 수많은 사람들이 합의된 장소에 모였습니다. 저는 군중을 이끌고 끝없이 기도하는 듯한 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')] 옆에 있습니다.\n\n해가 질 때까지 우리는 나일 강을 따라 왔다 갔다 하며 외침과 암송 소리는 점점 커집니다. 우리의 목소리는 하나의 비탄과 후회의 교향곡으로 합쳐져 [ROOT.Char.GetFaith.HighGodName]께 우리의 간청을 들어주시고, 미래의 나일 강 홍수가 더 나아질 수 있도록 우리에게 미덕과 거룩함을 고취해 주시기를 간청합니다." # 16447671971259700902
-  upper_egypt.0025.a: "[ROOT.Char.GetFaith.HighGodName]께서 우리의 진정한 회개를 인정하실까?" # 3477444771128334345
+  upper_egypt.0025.desc: "저와 많은 이들이 며칠 동안 나일 강을 따라 참회와 기도의 성대한 의식을 준비했고, 오늘, 우리의 계획이 결실을 맺습니다.\n\n가장 낮은 거지부터 가장 강력한 귀족에 이르기까지, 사회 모든 계층에서 온 수많은 사람들이 합의된 장소에 모였습니다. 저는 군중을 이끌고 끊임없이 기도를 반복하는 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitlePlural')] 옆에 있습니다.\n\n하루가 길어지면서 우리는 나일 강을 따라 앞뒤로 걷기까지 하고, 외침과 낭송은 점점 더 커집니다. 우리의 목소리는 하나의 통탄과 후회의 교향곡으로 합쳐져, [ROOT.Char.GetFaith.HighGodName]께서 우리의 간청을 들어주시고 우리에게 미덕과 거룩함을 불어넣어 주시어 미래의 나일 강 범람이 더 나아지기를 바랍니다." # 16447671971259700902
+  upper_egypt.0025.a: "[ROOT.Char.GetFaith.HighGodName]께서 우리의 진정한 참회를 알아주실까?" # 3477444771128334345
   upper_egypt.0026.t: "xxxxx" # 1951045980481827005
   upper_egypt.0026.desc: "xxxxx" # 1951045980481827005
   upper_egypt.0026.a: "xxxxx" # 1951045980481827005
@@ -502,82 +510,82 @@
   upper_egypt.0039.desc: "xxxxx" # 1951045980481827005
   upper_egypt.0039.a: "xxxxx" # 1951045980481827005
   upper_egypt.0040.t: "아스완으로!" # 8874699344624056929
-  upper_egypt.0040.desc.intro: "[aswan_county.GetNameNoTier] 도시 주변 지역은 오랜 세월 동안 많은 고대 신앙을 가진 사람들에게 신성한 장소로 여겨져 왔습니다. 도시 바로 옆에 있는 나일 강 제1폭포는 이집트와 누비아의 전통적인 경계를 표시하지만, 양쪽 국경에서 사람들이 [aswan_county.GetNameNoTier]를 찾아 신전에서 기도했습니다. 심지어 멀리서 온 강력한 왕들도 신들에게 경의를 표하기 위해 인상적인 사절단을 여기에 보냈습니다. 저 역시 그런 여행을 계획하고 있습니다." # 13638169104524942304
-  upper_egypt.0040.desc.philae: "#V 필레#! 섬은 제1 급류 바로 위에 위치해 있으며 이시스의 주요 숭배 중심지이며, 나아가 그녀의 형제이자 남편인 오시리스와 그들의 아들 호루스 숭배 중심지입니다. 이 세 명은 가장 중요한 신들 중 일부입니다. 이 신성한 가족을 기념하는 기념물인 필레 사원이 이번 여행의 목적지가 될 것입니다." # 11262258760034370361
-  upper_egypt.0040.desc.elephantine: "#V 엘레판티네#! 섬은 나일강 첫 번째 급류 하류에 위치하며, 나일강 근원의 신인 크눔과 그의 아내 사티스, 그리고 그들의 딸 아누케트의 집으로 오랫동안 여겨져 왔습니다. 이 신성한 나일강의 수호자들을 기리기 위해 지어진 엘레판티네의 신전들이 이번 여행의 목적지가 될 것입니다." # 5620405038688314325
-  upper_egypt.0040.desc.kalabsha: "#V 칼라브샤#! 섬은 제1 폭포에서 약간 상류에 위치하며, 태양과 달의 신 만둘리스와 임호테프, 투투와 같은 다른 작은 신들을 모시는 중요한 숭배 중심지입니다. 이 다양한 신들에게 헌정된 칼라브샤 신전이 이번 여행의 목적지가 될 것입니다." # 8370019032934725607
+  upper_egypt.0040.desc.intro: "아득한 옛날부터 [aswan_county.GetNameNoTier] 주변 지역은 옛 신들을 숭배하는 많은 사람들에게 신성한 곳으로 여겨져 왔습니다. 도시 바로 옆에 있는 나일 강의 첫 번째 급류는 이집트와 누비아의 전통적인 경계를 나타내지만, 국경 양쪽의 사람들은 사원에서 기도하기 위해 [aswan_county.GetNameNoTier]로 여행을 왔습니다. 멀리 떨어진 곳의 강력한 왕들조차도 신들에게 경의를 표하기 위해 인상적인 대표단을 이곳으로 보냈습니다. 저 또한 그러한 여행을 계획하고 있습니다." # 13638169104524942304
+  upper_egypt.0040.desc.philae: "#V 필레#! 섬은 제1의 카타락트 바로 위에 위치해 있으며 이시스 숭배의 주요 중심지입니다. 더 나아가 이시스의 형제이자 남편인 오시리스와 그들의 아들 호루스 숭배의 중심지이기도 합니다. 이 세 신은 모두 가장 중요한 신들입니다. 이 신성한 가족을 기리는 기념물인 필레 신전은 이번 여행의 목적지가 될 것입니다." # 11262258760034370361
+  upper_egypt.0040.desc.elephantine: "#V 엘레판티네#! 섬은 나일강 첫 번째 급류 하류에 위치해 있으며, 오랫동안 나일강 수원지의 신인 크눔과 그의 아내 사티스, 그리고 그들의 딸 아누케트의 집으로 여겨져 왔습니다. 이 신성한 나일강의 수호자들을 기리기 위해 세워진 엘레판티네 사원은 이번 여행의 목적지가 될 것입니다." # 5620405038688314325
+  upper_egypt.0040.desc.kalabsha: "제1폭포에서 약간 상류에 위치한 #V 칼라브샤#! 섬은 태양과 달의 신인 만둘리스를 비롯하여 임호테프와 투투와 같은 다른 소신들을 위한 중요한 숭배 중심지입니다. 이 모든 다양한 신들에게 바쳐진 칼라브샤 신전이 이번 여행의 목적지가 될 것입니다." # 8370019032934725607
   upper_egypt.0040.a: "이제 그곳으로 떠날 시간입니다." # 10841960738838674847
   upper_egypt.0041.t: "필레 신전" # 1985934838739064791
-  upper_egypt.0041.desc: "저와 저명한 관리들과 [ROOT.Char.Custom('DefaultPriestTitlePlural')]로 구성된 대표단은 신들에게 경의를 표하기 위해 [aswan_county.GetNameNoTier] 인근의 필레 신전에 도착했습니다. 이번 행사를 기념하기 위해 신전의 돌에 비문을 새긴 후, 우리는 신전으로 안내받았습니다.\n\n그곳에서 우리는 이시스, 오시리스, 호루스 및 다른 신들을 기리는 다양한 의식에 참여했으며, 특히 우유를 바치는 의식을 치렀습니다. 하얀 달콤한 우유를 신들에게 바치는 제물 위에 붓고 기도를 외우며 신을 숭배하는 데 전념합니다.\n\n방문이 끝나기 전에, 제 헌신을 표명하기 위해 특히 필레에 있는 한 신에게 큰 제물을 바쳐야 합니다." # 8840295366016550472
-  upper_egypt.0041.a: "생명을 주는 신성한 젖을 가진 어머니 여신 이시스" # 12887625384104889803
-  upper_egypt.0041.b: "오시리스, 죽은 자들의 군주여, 그를 위해 젖이 회춘하네" # 10006637369251942920
-  upper_egypt.0041.c: "어머니의 신성한 젖으로 정화된 매 왕 호루스" # 9656154516928813209
-  upper_egypt.0041.a.toast: "어머니 여신 이시스가 당신을 축복합니다!" # 5879259679176384983
-  upper_egypt.0041.b.toast: "죽은 자들의 군주 오시리스께서 당신을 축복하십니다!" # 583151525130962372
-  upper_egypt.0041.c.toast: "매 왕 호루스께서 당신을 축복하십니다!" # 11920420262692572625
+  upper_egypt.0041.desc: "저와 저명한 관리들과 [ROOT.Char.Custom('DefaultPriestTitlePlural')]로 구성된 대표단은 신들에게 경의를 표하기 위해 [aswan_county.GetNameNoTier] 근처의 필레 신전에 도착했습니다. 이번 행사를 기념하기 위해 신전 돌에 비문을 새긴 후, 우리는 신전으로 안내되었습니다.\n\n그곳에서 우리는 우유 제물을 바치는 것을 비롯하여 이시스, 오시리스, 호루스 및 다른 신들을 기리는 다양한 의식에 참여했습니다. 우리는 기도문을 암송하고 신 숭배에 마음을 쏟으면서 하얗고 달콤한 우유를 신들에게 바치는 제물 위에 붓습니다.\n\n방문이 끝나기 전에, 제 헌신을 표명하기 위해 필레에 있는 특정 신에게 큰 제물을 바쳐야 합니다." # 8840295366016550472
+  upper_egypt.0041.a: "생명을 주는 신성한 젖을 가진 어머니 여신, 이시스" # 12887625384104889803
+  upper_egypt.0041.b: "오시리스, 죽은 자들의 군주, 그를 위해 우유는 활력을 되찾아주리라" # 10006637369251942920
+  upper_egypt.0041.c: "매의 왕 호루스, 어머니의 신성한 젖으로 정화되다" # 9656154516928813209
+  upper_egypt.0041.a.toast: "어머니 여신 이시스께서 당신을 축복하시길!" # 5879259679176384983
+  upper_egypt.0041.b.toast: "죽음의 신 오시리스께서 당신을 축복하십니다!" # 583151525130962372
+  upper_egypt.0041.c.toast: "매의 왕 호루스께서 그대를 축복하시리라!" # 11920420262692572625
   upper_egypt.0042.t: "엘레판티네의 신전" # 2602011957595633937
-  upper_egypt.0042.desc: "저와 저명한 관리들과 [ROOT.Char.Custom('DefaultPriestTitlePlural')]로 이루어진 대표단은 [aswan_county.GetNameNoTier] 근처의 엘레판티네 섬에 있는 사원에 신께 경의를 표하기 위해 도착했습니다. 우리는 섬의 여러 사원을 방문했는데, 각 사원은 특정 신에게 바쳐졌습니다.\n\n그곳에서 우리는 크눔, 그의 아내 사티스, 그리고 그들의 딸 아누케트로 이루어진 엘레판티네 삼신을 기리는 다양한 의식에 참여했습니다. 이 세 명은 나일강을 지키고 매년 강의 범람이 일어나도록 보장합니다.\n\n저의 방문이 끝나기 전에 저의 헌신을 고백하기 위해 엘레판티네에서 특정 신에게 큰 제물을 바쳐야 합니다." # 5181663237273627320
-  upper_egypt.0042.a: "나일강의 근원이자 신성한 도공 신 크눔" # 5076338071537942897
-  upper_egypt.0042.b: "사티스, "쏘는 자", 나일강 범람의 여신" # 9077336696754030076
-  upper_egypt.0042.c: "아누케트, 나일강 급류를 포용하는 여신" # 17029686938231854775
-  upper_egypt.0042.a.toast: "크눔, 신성한 도공이시여, 당신을 축복하소서!" # 15945124853049315811
-  upper_egypt.0042.b.toast: "사티스, "쏜 자"가 당신을 축복합니다!" # 10832810949942063812
-  upper_egypt.0042.c.toast: "아누케트, 포용자가 당신을 축복합니다!" # 2518096685779741247
-  upper_egypt.0043.t: "칼라브샤 사원" # 724993773886156576
-  upper_egypt.0043.desc: "저와 저명한 관리들과 [ROOT.Char.Custom('DefaultPriestTitlePlural')] 대표단은 신들에게 경의를 표하기 위해 [aswan_county.GetNameNoTier] 근처의 칼라브샤 섬에 도착했습니다. 우리는 섬에 있는 여러 신전을 방문했는데, 각 신전은 특정 신에게 헌정되었습니다. 신전은 북쪽과 남쪽으로 나뉘어 있으며, 각 구역은 다른 신들을 기립니다.\n\n그곳에서 우리는 만둘리스 장로, 그의 태양 모습, 그리고 만둘리스 젊은이, 그의 달의 모습인 만둘리스를 기리는 다양한 의식에 참여했습니다. 우리는 또한 임호테프, 투투, 그리고 더 많은 다른 작은 신들도 기렸습니다.\n\n제 방문이 끝나기 전에, 제 헌신을 고백하기 위해, 칼라브샤의 한 신에게 큰 제물을 바쳐야 합니다." # 6850248154544621970
+  upper_egypt.0042.desc: "저와 저명한 관리들과 [ROOT.Char.Custom('DefaultPriestTitlePlural')]로 구성된 대표단은 [aswan_county.GetNameNoTier] 근처의 엘레판티네 섬에 있는 신전에 참배하러 왔습니다. 우리는 섬의 여러 신전을 방문했는데, 각 신전은 특정 신에게 봉헌되었습니다.\n\n그곳에서 우리는 크눔, 그의 아내 사티스, 그리고 그들의 딸 아누케트로 이루어진 엘레판티네 삼위일체 신에게 경의를 표하는 다양한 의식에 참여했습니다. 이 세 신은 나일강을 지키고 매년 강이 범람하도록 보장합니다.\n\n제 방문이 끝나기 전에, 제 헌신을 표명하기 위해 엘레판티네에 있는 특정 신에게 큰 공물을 바쳐야 합니다." # 5181663237273627320
+  upper_egypt.0042.a: "크눔, 신성한 도공이자 나일강의 근원을 다스리는 신" # 5076338071537942897
+  upper_egypt.0042.b: "사티스, \"화살을 쏘는 여인\", 나일강 범람의 여신" # 9077336696754030076
+  upper_egypt.0042.c: "나일 강 폭포의 포용자, 여신 아누케트" # 17029686938231854775
+  upper_egypt.0042.a.toast: "신성한 도공, 크눔께서 당신을 축복하셨습니다!" # 15945124853049315811
+  upper_egypt.0042.b.toast: "사티스, \"활을 쏘는 자\"께서 그대에게 축복을 내리시리!" # 10832810949942063812
+  upper_egypt.0042.c.toast: "포옹자 아누케트께서 당신을 축복하시리라!" # 2518096685779741247
+  upper_egypt.0043.t: "칼라브샤 신전" # 724993773886156576
+  upper_egypt.0043.desc: "저와 저명한 관리들과 [ROOT.Char.Custom('DefaultPriestTitlePlural')]로 구성된 대표단은 신들께 경의를 표하기 위해 [aswan_county.GetNameNoTier] 근처의 칼라브샤 섬에 도착했습니다. 저희는 섬에 있는 여러 사원을 방문했는데, 각 사원은 특정 신에게 봉헌되었습니다. 그 사원은 남쪽과 북쪽으로 나뉘어 있으며 각 구역은 서로 다른 신을 기립니다.\n\n그곳에서 저희는 만둘리스 장로인 만둘리스, 그의 태양의 모습, 그리고 그의 달의 모습인 만둘리스 주니어를 기리기 위해 다양한 의식에 참여했습니다. 저희는 또한 임호테프, 투투 등과 같은 다른 하위 신들도 기렸습니다.\n\n제 방문이 끝나기 전에, 제 헌신을 고백하기 위해 칼라브샤의 특정 신에게 큰 공물을 바쳐야 합니다." # 6850248154544621970
   upper_egypt.0043.a: "만둘리스, 모든 것의 왕이자 전능한 아이온이시여" # 319515385619895610
-  upper_egypt.0043.b: "임호테프, 프타의 아들이자 반신 건축가이자 치료사" # 12515270370889432687
-  upper_egypt.0043.c: "네이트의 아들 투투, 세크메트 악마의 지배자" # 11423131699206758052
-  upper_egypt.0043.a.toast: "만둘리스, 만물의 왕이 당신을 축복합니다!" # 6580619106858770979
+  upper_egypt.0043.b: "임호테프, 프타의 아들이자 반신 건축가이며 치유사" # 12515270370889432687
+  upper_egypt.0043.c: "네이트의 아들이자 세크메트 악마의 지배자 투투" # 11423131699206758052
+  upper_egypt.0043.a.toast: "만둘리스, 만물의 왕께서 당신을 축복하시리라!" # 6580619106858770979
   upper_egypt.0043.b.toast: "임호테프, 프타의 아들이 당신을 축복합니다!" # 7214197828516941885
   upper_egypt.0043.c.toast: "네이트의 아들 투투께서 당신을 축복하십니다!" # 7832363862981373284
-  upper_egypt.0044.t: "필레 신전의 공식적인 폐쇄" # 5471720939016623558
-  upper_egypt.0044.desc: "오랜 세월 동안 [aswan_county.GetNameNoTier] 근처의 필레 섬에 있는 사원은 이 지역 이교도들의 성지로 기능했습니다. 블렘미아와 누비아 내륙 먼 곳에 사는 숭배자들조차도 이곳으로 와서 이시스와 다른 신들에게 기도하곤 했습니다.\n\n그러나 이제 사원 부지는 조용하고 황량해졌습니다. 요즈음에는 이따금 떠돌아다니는 사람이나 이시스에 동조하는 것으로 의심되는 몇몇 신성 모독자 외에는 아무도 필레에 오지 않습니다.\n\n이제 우리는 필레 사원을 공식적으로 폐쇄하고 [ROOT.Char.GetFaith.GetAdjective] 신앙의 우월성을 보여줘야 할 때입니다. 이 구조물은 파괴하기에는 너무 크므로 그대로 두고 이단적인 숭배가 이곳에서 발생하는 것을 금지하겠습니다." # 2873381358917665985
-  upper_egypt.0044.a: "어쩌면 지역 주민들이 지역 건축 프로젝트에서 고대 돌을 사용할 수도 있습니다!" # 12561703195058855429
-  upper_egypt.0045.t: "필레가 공식적으로 폐쇄됨" # 13246871574117615968
-  upper_egypt.0045.desc: "[aswan_county.GetNameNoTier] 인근 필레 섬의 신전은 한때 블렘미아와 누비아의 내륙 지역에서 온 이시스 숭배자들을 섬겼습니다. 그러나 최근에는 이시스와 같은 옛 신들을 더 이상 따르지 않는 지역 주민들의 무관심으로 사실상 버려졌습니다.\n\n따라서 [temple_ender.GetTitledFirstName]은 최근 신전을 폐쇄하고 [temple_ender.GetFaith.GetAdjective] 신앙의 우월성을 보여주기 위해 그곳에서 이단적인 숭배가 일어나는 것을 금지했습니다. 구조물은 여전히 ​​존재하지만 앞으로 수년 동안 사용되지 않고 버려진 채로 남아 있을 것입니다." # 2540393431599225836
-  upper_egypt.0045.a: "이해했습니다…." # 7444174860215724874
-  upper_egypt.0046.t: "엘레판티네 신전의 공식 폐쇄" # 15020300522077329686
-  upper_egypt.0046.desc: "수년 동안 [아스완_카운티.이름없음] 근처의 엘레판티네 섬에 있는 사원들은 이 지역 이교도들에게 성지 역할을 해왔습니다. 나일 강의 신, 크눔의 고향으로 여겨지면서, 많은 사람들은 이 섬을 신성한 땅으로 생각했습니다.\n\n하지만 이제 이 사원들은 침묵하고 황량합니다. 요즘 엘레판티네에는 우연히 방문하는 사람이나 크눔 신에게 동정적인 몇몇 의심스러운 이단자 외에는 아무도 오지 않습니다.\n\n이제는 공식적으로 엘레판티네 사원들을 폐쇄하고, [ROOT.인물.종교.형용사] 신앙의 우월성을 보여줄 때입니다. 건물들은 너무 커서 파괴할 수 없습니다. 그러니 그대로 두고 이곳에서 이단적인 예배가 이루어지지 않도록 금지하겠습니다." # 1645020513538079503
-  upper_egypt.0046.a: "어쩌면 지역 주민들이 지역 건축 프로젝트에서 고대 돌을 사용할 수도 있습니다!" # 12561703195058855429
-  upper_egypt.0047.t: "엘레판티네가 공식적으로 폐쇄됨" # 11890092807547876782
-  upper_egypt.0047.desc: "[aswan_county.GetNameNoTier] 근처 엘레판티네 섬의 신전들은 한때 나일강의 신 크눔을 숭배하려는 이교도들을 위해 봉사했습니다. 그러나 최근에는 크눔과 같은 옛 신을 더 이상 따르지 않는 지역 주민들의 무관심으로 인해 사실상 버려졌습니다.\n\n따라서 [temple_ender.GetTitledFirstName]는 최근 신전을 폐쇄하고 [temple_ender.GetFaith.GetAdjective] 신앙의 우월성을 입증하기 위해 그곳에서 이단적인 숭배가 이루어지는 것을 금지했습니다. 구조물은 여전히 서 있지만, 앞으로 몇 년 동안 사용되지 않고 버려진 채로 남아있을 가능성이 큽니다." # 13680271022978881022
-  upper_egypt.0047.a: "이해했습니다…." # 7444174860215724874
+  upper_egypt.0044.t: "필레 신전의 공식 폐쇄" # 5471720939016623558
+  upper_egypt.0044.desc: "수년간, [aswan_county.GetNameNoTier] 근처 필레 섬의 사원은 이 지역 이교도들의 신성한 장소 역할을 했습니다. 멀리 떨어진 블렘미아와 누비아 내륙에 사는 헌신적인 신도들조차 이곳으로 와서 이시스와 다른 신들에게 기도했습니다.\n\n하지만 지금은 사원 경내가 조용하고 버려졌습니다. 요즘 필레에 오는 사람은 가끔 방랑자나 이시스에 동정적인 몇몇 불경한 자들뿐입니다.\n\n이제 필레 신전을 공식적으로 폐쇄하고 [ROOT.Char.GetFaith.GetAdjective] 신앙의 우월성을 보여줄 때입니다. 구조물이 너무 커서 파괴할 수 없으니 그냥 두고 이교도 숭배가 이곳에서 일어나는 것을 금지할 것입니다." # 2873381358917665985
+  upper_egypt.0044.a: "어쩌면 현지인들이 지역 건설 프로젝트에 고대 석재를 사용할 수도 있을 겁니다!" # 12561703195058855429
+  upper_egypt.0045.t: "필레가 공식적으로 폐쇄되었습니다" # 13246871574117615968
+  upper_egypt.0045.desc: "[aswan_county.GetNameNoTier] 인근 필레 섬의 신전은 한때 블렘미아와 누비아의 오지에서 온 이시스 숭배자들을 섬겼습니다. 하지만 최근에는 이시스 같은 옛 신을 더 이상 따르지 않는 현지인들의 무관심으로 인해 사실상 버려졌습니다.\n\n따라서 [temple_ender.GetTitledFirstName]는 최근 신전을 폐쇄하고 [temple_ender.GetFaith.GetAdjective] 신앙의 우월성을 입증하기 위해 그곳에서 이단적인 숭배를 금지했습니다. 구조물은 여전히 서 있지만 앞으로 몇 년 동안 사용되지 않고 버려질 가능성이 높습니다." # 2540393431599225836
+  upper_egypt.0045.a: "그렇군요…." # 7444174860215724874
+  upper_egypt.0046.t: "엘레판티네 신전의 공식적인 폐쇄" # 15020300522077329686
+  upper_egypt.0046.desc: "수년 동안 [aswan_county.GetNameNoTier] 근처 엘레판티네 섬의 사원은 이 지역 이교도들의 성지로 여겨져 왔습니다. 나일강의 신 크눔의 고향으로 여겨지는 이곳은 많은 사람들이 신성한 땅이라고 믿었습니다.\n\n하지만 지금은 같은 사원 부지가 조용하고 버려져 있습니다. 요즘 엘레판티네에 오는 사람은 가끔 방랑자나 크눔에게 호의적인 신성 모독자들이 전부입니다.\n\n이제 엘레판티네 사원을 공식적으로 폐쇄하고 [ROOT.Char.GetFaith.GetAdjective] 신앙의 우월성을 입증할 때입니다. 구조물이 너무 커서 파괴할 수 없으니 그대로 두고 이교 숭배가 이곳에서 이루어지지 않도록 금지할 것입니다." # 1645020513538079503
+  upper_egypt.0046.a: "어쩌면 현지인들이 지역 건설 프로젝트에 고대 석재를 사용할 수도 있을 겁니다!" # 12561703195058855429
+  upper_egypt.0047.t: "엘레판티네가 공식적으로 폐쇄되었습니다" # 11890092807547876782
+  upper_egypt.0047.desc: "[aswan_county.GetNameNoTier] 인근 엘레판티네 섬의 사원들은 한때 나일강의 신 크눔을 숭배하려는 이교도들을 위해 지어졌습니다. 하지만 최근에는 크눔과 같은 옛 신을 더 이상 따르지 않는 지역 주민들의 무관심으로 사실상 버려졌습니다.\n\n따라서 [temple_ender.GetTitledFirstName]은 최근 사원을 폐쇄하고 [temple_ender.GetFaith.GetAdjective] 신앙의 우월성을 보여주기 위해 그곳에서 이단 숭배를 금지했습니다. 비록 구조물은 여전히 ​​서 있지만 앞으로 몇 년 동안 사용되지 않고 버려질 가능성이 높습니다." # 13680271022978881022
+  upper_egypt.0047.a: "그렇군요…." # 7444174860215724874
   upper_egypt.0048.t: "칼라브샤 신전 공식 폐쇄" # 6624925109282622346
-  upper_egypt.0048.desc: "오랫동안 [aswan_county.GetNameNoTier] 근처의 칼라브샤 섬에 있는 신전은 이 지역 이교도들의 성지로 기능했습니다. 이곳은 누비아와 이집트 전역에서 숭배받던 신 만둘리스를 숭배하는 사람들에게 인기가 있었습니다.\n\n하지만 현재 신전 부지는 조용하고 버려져 있습니다. 최근에는 칼라브샤 신전에 방랑자나 만둘리스를 지지하는 불경스러운 자들 외에는 아무도 오지 않습니다.\n\n이제 칼라브샤 신전을 공식적으로 폐쇄하고 [ROOT.Char.GetFaith.GetAdjective] 신앙의 우월성을 보여줄 때입니다. 구조물이 너무 커서 파괴할 수 없으니 그대로 두고 이단적인 숭배가 여기서 이루어지는 것을 금지하겠습니다." # 2853716055342197082
-  upper_egypt.0048.a: "어쩌면 지역 주민들이 지역 건축 프로젝트에서 고대 돌을 사용할 수도 있습니다!" # 12561703195058855429
+  upper_egypt.0048.desc: "수년간 [aswan_county.GetNameNoTier] 근처 칼라브샤 섬의 사원은 이 지역 이교도들의 성지로 여겨졌습니다. 그곳은 누비아와 이집트 전역에서 숭배받던 만둘리스 신을 숭배하는 사람들에게 인기가 많았습니다.\n\n하지만 지금은 사원 경내가 조용하고 버려져 있습니다. 요즘에는 칼라브샤 사원에 오는 사람이 거의 없으며, 가끔 방랑자나 만둘리스를 숭배하는 불경한 자들만이 찾아올 뿐입니다.\n\n이제 칼라브샤 신전을 공식적으로 폐쇄하고 [ROOT.Char.GetFaith.GetAdjective] 신앙의 우월성을 입증할 때입니다. 구조물이 너무 커서 파괴할 수 없으니 그대로 두고 이단 숭배를 금지해야 합니다." # 2853716055342197082
+  upper_egypt.0048.a: "어쩌면 현지인들이 지역 건설 프로젝트에 고대 석재를 사용할 수도 있을 겁니다!" # 12561703195058855429
   upper_egypt.0049.t: "칼라브샤가 공식적으로 폐쇄되었습니다" # 11810923399684144247
-  upper_egypt.0049.desc: "[aswan_county.GetNameNoTier] 근처 칼라브샤 섬의 사원은 한때 만둘리스 신에게 헌신한 이교도들을 섬겼습니다. 하지만 최근에는 만둘리스와 같은 옛 신들을 더 이상 따르지 않는 지역 주민들의 무관심으로 인해 사실상 버려졌습니다.\n\n따라서 [temple_ender.GetTitledFirstName]은 최근 그 사원을 폐쇄하고 [temple_ender.GetFaith.GetAdjective] 신앙의 우월성을 보여주기 위해 그곳에서 이교 숭배를 금지했습니다. 그 구조물은 여전히 서 있지만 앞으로 몇 년 동안 사용되지 않고 버려진 채로 남아 있을 가능성이 높습니다." # 14231428395364542800
-  upper_egypt.0049.a: "이해했습니다…." # 7444174860215724874
+  upper_egypt.0049.desc: "[aswan_county.GetNameNoTier] 근처 칼라브샤 섬의 사원은 한때 만둘리스 신에게 헌신한 이교도들에게 봉사했습니다. 그러나 최근에는 만둘리스와 같은 옛 신을 더 이상 따르지 않는 지역 주민들의 무관심으로 인해 사실상 버려졌습니다.\n\n따라서 [temple_ender.GetTitledFirstName]는 최근에 사원을 폐쇄하고 그곳에서 이단적인 숭배가 일어나는 것을 금지하여 [temple_ender.GetFaith.GetAdjective] 신앙의 우월성을 입증했습니다. 비록 구조물은 여전히 서 있지만, 앞으로 몇 년 동안 사용되지 않고 버려질 가능성이 높습니다." # 14231428395364542800
+  upper_egypt.0049.a: "그렇군요…." # 7444174860215724874
   upper_egypt.0050.t: "필레 신전 공식 재개장" # 17737099965438446674
-  upper_egypt.0050.desc: "수년 전, [aswan_county.GetNameNoTier] 근처의 필레 섬에 있는 신전은 이 지역의 이교도들에게 신성한 장소 역할을 했습니다. 심지어 블렘미아와 누비아의 내륙 깊숙한 곳에 살던 헌신자들도 이곳으로 와서 이시스와 다른 신들에게 기도했습니다. 어느 시점에서 지역 주민들이 이시스 숭배에서 등을 돌리자 이 신전은 버려지고 공식적으로 폐쇄되었습니다.\n\n그러나 이제 필레에 새로운 날이 밝았습니다. 사람들이 옛 방식으로 되돌아보고 있기 때문입니다. 저는 성대한 의식을 통해 신전을 개보수하고 재개방하기 위한 조치를 공식적으로 취했으며, [ROOT.Char.Custom('DefaultPriestTitlePlural')]를 모셔 다시 예배 장소로 기능할 수 있도록 했습니다." # 11205272327028382619
+  upper_egypt.0050.desc: "수년 전, [aswan_county.GetNameNoTier] 인근 필레 섬의 사원은 이 지역 이교도들의 성지로 기능했습니다. 멀리 블렘미야와 누비아 내륙에 사는 신도들조차 이곳에 와서 이시스와 다른 신들에게 기도했습니다. 어느 시점에서, 일단 지역 주민들이 이시스 숭배에서 돌아선 후, 그곳은 버려지고 공식적으로 폐쇄되었습니다.\n\n하지만 이제 필레에 새로운 날이 밝았습니다. 사람들은 옛날 방식으로 되돌아보고 있습니다. 웅장한 의식에서 저는 사원을 개조하고 재개방하기 위한 조치를 공식적으로 취했으며, [ROOT.Char.Custom('DefaultPriestTitlePlural')]을 데려와서 그곳이 다시 예배 장소로 기능할 수 있도록 했습니다." # 11205272327028382619
   upper_egypt.0050.a: "이시스 만세!" # 6684334798371466903
   upper_egypt.0051.t: "필레 신전 공식 재개장" # 17737099965438446674
-  upper_egypt.0051.desc: "[aswan_county.GetNameNoTier] 인근 필레 섬의 거대한 신전은 한때 블렘미아와 누비아의 배후지에서 멀리 떨어진 곳에서 온 이시스 숭배자들을 섬겼습니다. 몇 년 전, 그곳은 공식적으로 폐쇄되고 버려졌지만, [temple_restorer.GetTitledFirstName]의 노력 덕분에 변화하고 있습니다.\n\n독실한 [temple_restorer.GetFaith.GetAdherentName] 신자인 [temple_restorer.GetFirstName]는 신전을 이전의 영광으로 되돌리고 공식적으로 재개장하기 위해 노력했습니다. 이시스와 다른 신들을 숭배하는 신도들이 이 신성한 예배의 집에서 예배를 드리기 위해 몰려들고 있습니다." # 9655620306245997642
-  upper_egypt.0051.a: "흥미로운 소식이군요...." # 14999355406101336855
-  upper_egypt.0052.t: "엘레판티네 신전 공식 재개장" # 2247299773961031726
-  upper_egypt.0052.desc: "몇 년 전, [aswan_county.GetNameNoTier] 근처의 엘레판티네 섬에 있는 사원은 이 지역 이교도들의 신성한 장소로 사용되었습니다. 나일강의 신 크눔의 고향으로 여겨졌으며, 많은 사람들이 이 섬을 신성한 땅이라고 믿었습니다. 어느 시점에서 사원들은 버려지고 공식적으로 폐쇄되었으며, 이는 지역 주민들이 크눔 숭배에서 돌아섰기 때문입니다.\n\n그러나 이제 엘레판티네에 새로운 날이 밝아오고 있으며, 사람들은 옛 방식을 되돌아보고 있습니다. 성대한 의식에서 저는 사원을 개조하고 재개방하기 위한 조치를 공식적으로 취했으며, [ROOT.Char.Custom('DefaultPriestTitlePlural')]을 불러 다시 예배 장소로 기능할 수 있도록 했습니다." # 3725328360404335995
+  upper_egypt.0051.desc: "[aswan_county.GetNameNoTier] 근처 필레 섬의 거대한 신전은 한때 블렘미아와 누비아의 오지에서 온 이시스 숭배자들을 섬겼습니다. 몇 년 전, 그곳은 공식적으로 폐쇄되고 버려졌지만, [temple_restorer.GetTitledFirstName]의 노력 덕분에 상황이 바뀌고 있습니다.\n\n 독실한 [temple_restorer.GetFaith.GetAdherentName]인 [temple_restorer.GetFirstName]께서는 신전을 예전의 영광으로 되돌리고 공식적으로 재개방하기 위해 노력해 왔습니다. 이시스와 다른 신들을 숭배하는 신자들이 이 신성한 예배당에서 예배를 드리기 위해 떼를 지어 돌아오고 있습니다." # 9655620306245997642
+  upper_egypt.0051.a: "흥미로운 소식..." # 14999355406101336855
+  upper_egypt.0052.t: "엘레판티네 신전 재개방" # 2247299773961031726
+  upper_egypt.0052.desc: "오래전 [aswan_county.GetNameNoTier] 인근 엘레판티네 섬의 사원들은 이 지역 이교도들의 성지로 기능했습니다. 나일 강의 신 크눔의 고향으로 여겨졌던 이곳은 신성한 땅이라고 믿는 이들이 많았습니다. 하지만 어느 시점에서 주민들이 크눔 숭배에서 등을 돌리자 사원들은 버려지고 공식적으로 폐쇄되었습니다.\n\n하지만 이제 엘레판티네에 새로운 날이 밝았습니다. 사람들이 옛 방식을 되돌아보고 있기 때문입니다. 성대한 의식을 통해 저는 사원들을 복원하고 재개방하기 위한 조치를 공식적으로 취했으며, [ROOT.Char.Custom('DefaultPriestTitlePlural')]을 모셔와 그곳이 다시 예배 장소로 기능할 수 있도록 했습니다." # 3725328360404335995
   upper_egypt.0052.a: "크눔을 찬양하라!" # 9460014152337265055
-  upper_egypt.0053.t: "엘레판티네 신전 공식 재개장" # 2247299773961031726
-  upper_egypt.0053.desc: "[aswan_county.GetNameNoTier] 근처의 엘레판티네 섬에 있는 위대한 사원들은 한때 나일 강의 신 크눔을 기리고자 하는 이교도들을 위해 봉사했습니다. 몇 년 전, 그들은 공식적으로 폐쇄되고 버려졌지만, [temple_restorer.GetTitledFirstName]의 노력 덕분에 상황이 바뀌고 있습니다. \n\n독실한 [temple_restorer.GetFaith.GetAdherentName]인 [temple_restorer.GetFirstName]은 사원을 이전의 영광으로 되돌리고 공식적으로 재개장하기 위해 노력해 왔습니다. 크눔과 다른 신들을 숭배하는 신도들이 이 신성한 예배 장소에서 예배를 드리기 위해 떼를 지어 돌아오고 있습니다." # 4229831702466586898
-  upper_egypt.0053.a: "흥미로운 소식이군요...." # 14999355406101336855
-  upper_egypt.0054.t: "칼라브샤 신전 공식 재개장" # 17438848405951962777
-  upper_egypt.0054.desc: "몇 년 전, [aswan_county.GetNameNoTier] 근처의 칼라브샤 섬에 있는 신전은 이 지역 이교도들의 성지 역할을 했습니다. 누비아와 이집트 전역에서 숭배받는 신 만둘리스를 모시는 사람들에게 인기가 많았습니다. 어느 시점에서, 현지인들이 이시스 숭배에서 돌아선 후 버려지고 공식적으로 폐쇄되었습니다.\n\n그러나 이제 칼라브샤에 새로운 날이 밝아오고 있으며, 사람들은 옛 방식으로 되돌아가고 있습니다. 성대한 의식에서 저는 신전을 개조하고 재개방하기 위한 조치를 공식적으로 취했으며, [ROOT.Char.Custom('DefaultPriestTitlePlural')]을 불러들여 다시 예배당 기능을 할 수 있도록 했습니다." # 12299383967931979452
+  upper_egypt.0053.t: "엘레판티네 신전 재개방" # 2247299773961031726
+  upper_egypt.0053.desc: "[aswan_county.GetNameNoTier] 인근 엘레판티네 섬의 위대한 사원은 한때 나일 강의 신 크눔을 숭배하려는 이교도들을 위한 곳이었습니다. 오래전, 그곳들은 공식적으로 폐쇄되고 버려졌지만, [temple_restorer.GetTitledFirstName]의 노력 덕분에 변화하고 있습니다.\n\n독실한 [temple_restorer.GetFaith.GetAdherentName] 신자인 [temple_restorer.GetFirstName]은 사원을 이전의 영광으로 되돌리고 공식적으로 재개방하기 위해 노력해 왔습니다. 크눔과 다른 신들에게 헌신하는 신자들이 이 신성한 예배당에서 예배하기 위해 떼를 지어 돌아오고 있습니다." # 4229831702466586898
+  upper_egypt.0053.a: "흥미로운 소식..." # 14999355406101336855
+  upper_egypt.0054.t: "칼라브샤 신전 재개장" # 17438848405951962777
+  upper_egypt.0054.desc: "수년 전, [aswan_county.GetNameNoTier] 근처 칼라브샤 섬의 사원은 이 지역 이교도들의 성지로 기능했습니다. 그곳은 누비아와 이집트 전역에서 숭배받던 만둘리스 신을 숭배하는 이들 사이에서 인기가 높았습니다. 어느 시점에선가 방치되어 공식적으로 폐쇄되었고, 지역 주민들은 이시스 숭배에서 등을 돌렸습니다.\n\n하지만 이제 칼라브샤에 새로운 날이 밝았습니다. 사람들이 과거의 길을 되돌아보고 있기 때문입니다. 성대한 의식에서 저는 그곳을 복원하고 재개방하기 위한 조치를 공식적으로 취했으며, 그곳이 다시 예배당으로 기능할 수 있도록 [ROOT.Char.Custom('DefaultPriestTitlePlural')]를 모셔왔습니다." # 12299383967931979452
   upper_egypt.0054.a: "만둘리스를 찬양하라!" # 14186215544326963995
-  upper_egypt.0055.t: "칼라브샤 신전 공식 재개장" # 17438848405951962777
-  upper_egypt.0055.desc: "[aswan_county.GetNameNoTier] 근처의 칼라브샤 섬에 있는 거대한 사원은 한때 만둘리스 신을 숭배하는 이교도들을 섬겼습니다. 몇 년 전, 그곳은 공식적으로 폐쇄되고 버려졌지만, [temple_restorer.GetTitledFirstName]의 노력 덕분에 상황이 바뀌고 있습니다.\n\n\n 독실한 [temple_restorer.GetFaith.GetAdherentName]인 [temple_restorer.GetFirstName]는 사원을 이전의 영광으로 복원하고 공식적으로 재개장하기 위해 노력을 기울였습니다. 만둘리스와 다른 신들을 숭배하는 신자들이 이 신성한 예배 장소에서 예배하기 위해 몰려들고 있습니다." # 3184712303649163988
-  upper_egypt.0055.a: "흥미로운 소식이군요...." # 14999355406101336855
-  upper_egypt.0056.t: "제1 폭포" # 13400401742755922367
-  upper_egypt.0056.desc.intro: "저는 지금 나일강 제1급류의 신성한 장소에 와 있습니다. 이곳은 옛날에 평민과 파라오 모두가 방문했던 곳입니다." # 292575873576345139
-  upper_egypt.0056.desc.one: "아아, 이 지역은 이전의 영광을 잃고 그림자만 남았으며, 현재 문을 연 주요 사원은 하나뿐입니다." # 10641696984115066424
-  upper_egypt.0056.desc.multiple: "기도할 수 있는 성지가 몇 군데 있지만, 방문하는 동안 집중할 곳을 하나 선택해야 합니다." # 11804057401922277967
-  upper_egypt.0056.desc.philae: "#V 필레#! 섬은 제1 폭포 바로 위에 위치하며 이시스 숭배의 주요 중심지이며, 나아가 그녀의 형제이자 남편인 오시리스와 그들의 아들 호루스를 숭배하는 중심지입니다. 이 세 명 모두 가장 중요한 신들 중 일부입니다." # 16825661759937154954
-  upper_egypt.0056.desc.elephantine: "#V 엘레판티네#! 섬은 나일강 첫 번째 폭포 하류에 위치하고 있으며 오랫동안 나일강 근원의 신 크눔과 그의 아내 사티스, 그리고 그들의 딸 아누케트의 집으로 여겨져 왔습니다." # 7495531964136580604
-  upper_egypt.0056.desc.kalabsha: "#V 칼라브샤#! 섬은 제1 급류에서 약간 상류에 위치하며, 태양과 달의 신인 만둘리스와 임호테프, 투투와 같은 다른 소규모 신들을 위한 중요한 숭배 중심지입니다." # 570944958672131886
+  upper_egypt.0055.t: "칼라브샤 신전 재개장" # 17438848405951962777
+  upper_egypt.0055.desc: "[aswan_county.GetNameNoTier] 인근 칼라브샤 섬의 거대한 사원은 한때 만둘리스 신에게 헌신하는 이교도들을 위해 봉사했습니다. 몇 년 전, 그곳은 공식적으로 폐쇄되고 버려졌지만, [temple_restorer.GetTitledFirstName]의 노력 덕분에 상황이 바뀌고 있습니다.\n\n 독실한 [temple_restorer.GetFaith.GetAdherentName]인 [temple_restorer.GetFirstName]은 사원을 옛 영광으로 되돌리고 공식적으로 재개방하기 위해 노력했습니다. 만둘리스와 다른 신들을 숭배하는 신도들이 이 신성한 예배당에서 예배를 드리기 위해 떼를 지어 돌아오고 있습니다." # 3184712303649163988
+  upper_egypt.0055.a: "흥미로운 소식..." # 14999355406101336855
+  upper_egypt.0056.t: "제1폭포" # 13400401742755922367
+  upper_egypt.0056.desc.intro: "저는 지금 나일강 제1의 카타락트의 신성한 장소에 와 있습니다. 이곳은 예전에 평민과 파라오 모두가 방문했던 곳입니다." # 292575873576345139
+  upper_egypt.0056.desc.one: "아아, 이 지역은 예전의 영광을 잃고 현재는 주요 사원 하나만이 문을 열고 있소." # 10641696984115066424
+  upper_egypt.0056.desc.multiple: "기도할 수 있는 신성한 장소가 몇 군데 있지만, 방문하는 동안 집중할 곳을 선택해야 합니다." # 11804057401922277967
+  upper_egypt.0056.desc.philae: "첫 번째 폭포 바로 위에 위치한 #V 필레#! 섬은 이시스 숭배의 주요 중심지이며, 더 나아가 그녀의 형제이자 남편인 오시리스와 그들의 아들 호루스 숭배의 중심지이기도 합니다. 이 세 신은 가장 중요한 신들입니다." # 16825661759937154954
+  upper_egypt.0056.desc.elephantine: "#V 엘레판티네# 섬은 나일강 첫 번째 급류에서 하류에 위치하며 오랫동안 나일강 근원의 신 크눔과 그의 아내 사티스, 그리고 그들의 딸 아누케트의 집으로 여겨져 왔습니다." # 7495531964136580604
+  upper_egypt.0056.desc.kalabsha: "제1 폭포에서 조금 상류에 위치한 #V 칼라브샤#! 섬은 태양과 달의 신인 만둘리스와 임호테프, 투투와 같은 다른 소신들을 숭배하는 중요한 신앙 중심지입니다." # 570944958672131886
   upper_egypt.0056.a: "필레로!" # 9607619591945413921
   upper_egypt.0056.b: "엘레판티네로!" # 11474787158191394579
   upper_egypt.0056.c: "칼라브샤로!" # 17505292865670708070
-  upper_egypt.0056.d: "열린 어떤 사원이든 가자." # 14325512471697721104
+  upper_egypt.0056.d: "어떤 사원이든 열려 있는 곳으로 가자." # 14325512471697721104
   upper_egypt.0057.t: "xxxxx" # 1951045980481827005
   upper_egypt.0057.desc: "xxxxx" # 1951045980481827005
   upper_egypt.0057.a: "xxxxx" # 1951045980481827005
@@ -588,37 +596,37 @@
   upper_egypt.0059.desc: "xxxxx" # 1951045980481827005
   upper_egypt.0059.a: "xxxxx" # 1951045980481827005
   upper_egypt.0060.t: "하마 공격" # 979546808939642129
-  upper_egypt.0060.desc: "하마는 [GetGeographicalRegion('RICE_nile_river_valley').GetName]의 위아래에서 발견될 수 있습니다. 최근 들어 그 수가 줄어들고 있지만, 사람들은 여전히 하마를 자주 마주치며 이 짐승들은 종종 흉포하고 공격적입니다. 하마를 피하는 것이 현명하다고들 말합니다.\n\n안타깝게도 최근에 하마 한 마리가 [county.GetNameNoTier]에서 날뛰었습니다. 그 하마는 용감한 지역 사냥꾼과 경비병들에게 제압되기 전에 많은 사람들을 죽였습니다." # 9569679297450495071
-  upper_egypt.0060.a: "이런.... 안타깝군요." # 2101395035587917035
-  upper_egypt.0060.b: "피해자 가족들에게 기부합시다." # 12490710723036298006
-  upper_egypt.0061.t: "나일 강을 따라 이루어지는 시찰" # 6692636709665860945
-  upper_egypt.0061.desc: "오늘 저는 [GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 제 영토를 일부 순찰할 것입니다. 특히, 저는 농촌 지역을 시찰할 것입니다. 결국, 농업은 수천 년 전부터 나일 강을 따라 삶의 주요한 부분이었으므로, 이 농장들이 충분한 식량을 생산할 수 있는지 확인하는 것이 중요합니다.\n\n어쨌든, 저는 농부들과 지역 관리들과 함께 지역 관개망이 어떻게 작동하는지에 대해 몇 시간 동안 대화합니다. 우리는 매년 나일강 범람을 최대한 활용할 수 있도록 이것들이 항상 좋은 상태인지 확인해야 합니다." # 8915821514513051340
+  upper_egypt.0060.desc: "하마는 [GetGeographicalRegion('RICE_nile_river_valley').GetName]의 상류와 하류에서 발견됩니다. 최근 그 수가 줄어들고 있지만 사람들은 여전히 하마를 자주 마주치며, 이 짐승들은 종종 사납고 공격적입니다. 그들은 항상 이 하마들을 피하는 것이 현명하다고 말합니다.\n\n슬프게도, 그러한 하마 한 마리가 최근 [county.GetNameNoTier]에서 날뛰었습니다. 그것은 마침내 용감한 지역 사냥꾼과 경비병들에 의해 제압되기 전에 많은 사람들을 죽였습니다." # 9569679297450495071
+  upper_egypt.0060.a: "이런…. 안타까운 소식이군요." # 2101395035587917035
+  upper_egypt.0060.b: "희생자 가족들에게 기부합시다." # 12490710723036298006
+  upper_egypt.0061.t: "나일 강 시찰" # 6692636709665860945
+  upper_egypt.0061.desc: "오늘 나는 [GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 내 영토의 일부를 시찰하고 있습니다. 특히 농촌 지역을 방문할 예정입니다. 결국 농업은 수천 년은 아니더라도 수세기 동안 나일 강을 따라 살아가는 데 큰 부분을 차지해 왔으므로 이러한 농장에서 적절한 식량을 생산할 수 있도록 하는 것이 중요합니다.\n\n어쨌든 나는 농부들과 지역 관리들과 여러 시간 동안 지역 관개 시설이 어떻게 운영되고 있는지에 대해 이야기를 나눕니다. 우리는 나일 강의 연례 범람을 최대한 활용할 수 있도록 항상 이 시설들이 양호한 상태인지 확인해야 합니다." # 8915821514513051340
   upper_egypt.0061.a: "지루하지만 필요한 작업입니다." # 5092906349006041076
-  upper_egypt.0062.t: "히르스" # 9519967978098168298
-  upper_egypt.0062.desc: "최근 [county.GetNameNoTier]에서, 여러 유목 목축민들이 #italic 키르스#!라고 알려진 땅을 이용하기 위해 이주해 왔습니다. 이곳은 나일 강을 따라 있는 지역으로, 많은 잡초가 자라고 현지 주민들이 경작지로 바꾸기 위한 관리를 하지 않아 농업에 적합하지 않습니다.\n\n그렇기는 하지만, 이 마을 주민들이 이러한 땅을 사용하지 않는다고 해서 누군가가 이웃으로 오는 것을 기꺼이 환영한다는 의미는 아닙니다. 마을 주민과 목축민 사이에 긴장이 고조되고 있으며, 저는 이 상황을 신중하게 처리해야 합니다." # 11676920853000724276
-  upper_egypt.0062.a: "양측이 알아서 해결하게 두십시오. 저와는 상관없는 일입니다." # 12536558753808292659
-  upper_egypt.0062.b: "목축민들이 문제를 일으키지 않는 한, 환영합니다." # 13992558808861724468
+  upper_egypt.0062.t: "키르스" # 9519967978098168298
+  upper_egypt.0062.desc: "최근 [county.GetNameNoTier]에서 유목민 목축업자들이 #italic khirs#!라고 알려진 땅을 이용하기 위해 이주해 왔습니다. 이 땅은 나일강을 따라 위치하며 잡초가 많고, 지역 주민들이 농지로 개간하지 않아 농업에는 적합하지 않습니다.\n\n그렇다고 해서 마을 사람들이 이 땅을 사용하지 않는다고 해서 다른 사람들을 이웃으로 기꺼이 받아들인다는 의미는 아닙니다. 마을 사람들과 목축업자 사이에 긴장이 고조되고 있으며, 이 상황을 신중하게 처리해야 합니다." # 11676920853000724276
+  upper_egypt.0062.a: "양쪽이 알아서 해결하게 두십시오. 저는 상관없습니다." # 12536558753808292659
+  upper_egypt.0062.b: "유목민들이 문제를 일으키지 않는 한 환영이다." # 13992558808861724468
   upper_egypt.0062.c: "마을 사람들은 원한다면 유목민들을 쫓아낼 권리가 있습니다." # 17109567134436144556
-  upper_egypt.0062.d: "제가 양측이 합의에 이를 수 있도록 돕겠습니다." # 8278455557990309413
+  upper_egypt.0062.d: "양측이 합의에 이르도록 돕겠습니다." # 8278455557990309413
   upper_egypt.0063.t: "나일 강의 선물" # 599012473827887983
-  upper_egypt.0063.desc: "저는 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitle')]께서 [GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 제 영토에서 설교하는 것을 듣고 있습니다.\n\n설교에서 [ROOT.Char.Custom('DefaultPriestTitle')]께서는 [ROOT.Char.GetFaith.HighGodName]께서 우리를 총애하신다고 말씀하시며, 이것이 나일강 범람이 일어나는 이유이며, 우리가 이집트의 풍요를 이용할 수 있는 것은 [ROOT.Char.GetFaith.HighGodName]의 은혜 덕분이라고 설명하십니다. 우리가 [ROOT.Char.GetFaith.HighGodName]을 기리고 [ROOT.Char.GetFaith.GetAdjective] 종교를 따르면 나일강 범람은 훌륭해집니다. 우리가 [ROOT.Char.GetFaith.HighGodName]을 실망시키고 죄를 지으면 겸손하고 죄를 피하라고 상기시키기 위해 나일강 범람이 좋지 않게 됩니다. 그래서 [ROOT.Char.GetFaith.HighGodName]이 없으면 우리는 나일강을 따라 수확할 작물이 없을 것입니다." # 4343334690974563480
-  upper_egypt.0063.a: "진실로 그러하오! 나일 강에서 얻는 식량은 [ROOT.Char.GetFaith.HighGodName] 덕분이라오." # 489556539253937481
-  upper_egypt.0063.b: "진실이지만, 풍작은 모든 사람의 힘든 노고 덕분이기도 합니다." # 12856645240320909628
-  upper_egypt.0064.t: "나일 강가에서 기도하기" # 15687296996011549631
-  upper_egypt.0064.desc: "저는 [county.GetNameNoTier]에서 [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 여행하던 중 나일강을 바라보며 기도하는 여러 [ROOT.Char.Custom('DefaultPriestTitlePlural')]을 만났습니다. 그들에게 무엇을 하고 있는지 묻자, 그들은 다음 번 나일강이 범람할 때 좋은 범람을 보장하기 위해 [ROOT.Char.GetFaith.HighGodName]에게 기도하고 있다고 설명했습니다. 결국, 나일강 범람은 예측할 수 있지만 그 범람의 결과는 예측할 수 없기 때문입니다." # 7921301728663792542
-  upper_egypt.0064.a: "가야 하지만, 행운을 빌어요." # 6790687541366059141
-  upper_egypt.0064.b: "어쩌면 당신의 기도에 함께해도 될까요?" # 8317146015248554718
+  upper_egypt.0063.desc: "[GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 제 영지에서 온 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitle')]의 설교를 듣고 있습니다.\n\n설교에서 [ROOT.Char.Custom('DefaultPriestTitle')]은 [ROOT.Char.GetFaith.HighGodName]께서 우리를 얼마나 총애하시는지, 그리고 이것이 나일강 범람이 일어나는 이유이며, 이집트의 풍요로움을 이용할 수 있게 된 것은 모두 [ROOT.Char.GetFaith.HighGodName]의 은총 덕분이라고 말합니다. 우리가 [ROOT.Char.GetFaith.HighGodName]을 존경하고 [ROOT.Char.GetFaith.GetAdjective] 종교를 따르면 나일강의 범람은 훌륭합니다. 우리가 [ROOT.Char.GetFaith.HighGodName]을 실망시키고 죄를 지으면 우리에게 겸손하고 죄를 피하라고 상기시키기 위해 나일강의 빈약한 범람을 얻게 됩니다. 따라서 [ROOT.Char.GetFaith.HighGodName]이 없다면 우리는 나일강을 따라 수확할 농작물이 없을 것입니다." # 4343334690974563480
+  upper_egypt.0063.a: "정녕 그렇습니다! 나일 강에서 얻는 식량은 모두 [ROOT.Char.GetFaith.HighGodName] 덕분입니다." # 489556539253937481
+  upper_egypt.0063.b: "물론 그렇긴 하지만, 풍작은 모두의 노고 덕분이기도 하지." # 12856645240320909628
+  upper_egypt.0064.t: "나일 강가의 기도" # 15687296996011549631
+  upper_egypt.0064.desc: "저는 [GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 [county.GetNameNoTier]를 여행하던 중 나일강을 향해 기도하는 여러 [ROOT.Char.Custom('DefaultPriestTitlePlural')]을 만났습니다. 그들에게 무엇을 하고 있는지 묻자, 그들은 나일강이 다음 번에 범람할 때 좋은 침수를 보장하기 위해 [ROOT.Char.GetFaith.HighGodName]에게 기도하고 있다고 설명했습니다. 결국 나일강의 범람은 예측 가능하지만, 침수의 결과는 그렇지 않기 때문입니다." # 7921301728663792542
+  upper_egypt.0064.a: "가봐야 하지만, 행운을 빌겠네." # 6790687541366059141
+  upper_egypt.0064.b: "어쩌면 제가 당신의 기도에 동참해도 될까요?" # 8317146015248554718
   upper_egypt.0065.t: "나일로미터 기록" # 15956678741689093350
-  upper_egypt.0065.desc: "최근 나일강 범람에 관한 정보를 한 학자가 수집했다는 사실을 알게 되었습니다. [GetGeographicalRegion('RICE_nile_river_valley').GetName] 전역에서 발견된 나일강 수위계 덕분에 우리는 수 세기 전부터 나일강 범람이 얼마나 좋았는지에 대한 비교적 정확한 기록을 가지고 있습니다.\n\n저는 매일 하는 일에서 잠시 시간을 내어 이러한 기록을 연구하고 그 안에 담긴 정보를 다른 지역 학자들과 논의해 볼 생각을 했습니다. 아마도 이 지식은 나일강을 따라 제 영토를 더 잘 관리하는 방법에 대한 통찰력을 제공해 줄 수 있을 것입니다." # 13609634019661200978
-  upper_egypt.0065.a: "네, 이것은 저와 같은 지도자가 알아야 할 중요한 지식입니다." # 8392163571306730117
-  upper_egypt.0065.b: "시간이 없습니다. 이미 나일강에 대해 조언해줄 사람들이 있습니다." # 4082432441447355522
-  upper_egypt.0066.t: "신전 용도 변경" # 18397811570886579922
-  upper_egypt.0066.desc: "아득한 옛날에 지어진 고대 기념물과 웅장한 건축물은 [GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 흔히 볼 수 있습니다. 일부는 너무 커서 오랫동안 버려진 후에도 다양한 용도로 재사용할 수 있습니다.\n\n어쨌든, [county.GetNameNoTier]의 한 지역 관리에 따르면 그곳의 마을 사람들이 일종의 오래된 사원 단지처럼 보이는 건물을 사용하는 데 관심을 보였다고 합니다. 이 마을 사람들은 마을을 확장하기 위해 이 사원 내부에 집, 상점 및 기타 필요한 구조물을 지을 계획입니다. 이 아이디어는 다른 곳에 무작위로 건물을 짓는 대신 튼튼하고 견고하며 여러 세대에 걸쳐 지속된 사원 벽을 활용하는 것이 효율적일 것이라는 생각입니다.\n\n그러나 이 마을은 전략적 위치에 있지만 가장 부유한 정착지는 아니며 이 계획이 실현되려면 약간의 도움이 필요합니다." # 5213448579254053548
-  upper_egypt.0066.a: "물론입니다! 저는 이 사업에 재정적으로 지원할 수 있습니다." # 8198847753739843285
-  upper_egypt.0066.b: "지금은 그들을 도울 수 없지만, 행운을 빌어 줍니다." # 16959506117777883962
+  upper_egypt.0065.desc: "최근 제가 아는 학자가 나일강 범람에 대한 정보를 정리했다는 소식을 들었습니다. [GetGeographicalRegion('RICE_nile_river_valley').GetName] 곳곳에서 발견된 나일강 수위 측정 덕분에 우리는 수 세기 전부터 나일강 범람이 얼마나 좋았는지에 대한 비교적 정확한 기록을 가지고 있습니다.\n\n시간을 내어 이 기록들을 연구하고 그 안에 담긴 정보를 다른 지역 학자들과 논의해 볼까 생각 중입니다. 아마도 이 지식은 제가 나일강을 따라 영토를 더 잘 관리하는 방법에 대한 통찰력을 제공할 수 있을 것입니다." # 13609634019661200978
+  upper_egypt.0065.a: "네, 저 같은 지도자가 갖춰야 할 중요한 지식입니다." # 8392163571306730117
+  upper_egypt.0065.b: "시간이 없다. 나일강에 대해 조언해 줄 사람들은 이미 있다." # 4082432441447355522
+  upper_egypt.0066.t: "사원 용도 변경" # 18397811570886579922
+  upper_egypt.0066.desc: "태고에 지어진 고대 기념물과 거대한 건축물들은 [GetGeographicalRegion('RICE_nile_river_valley').GetName]에서 흔히 볼 수 있습니다. 그중 일부는 너무 커서 오랫동안 버려진 후에도 다양한 용도로 재사용할 수 있습니다.\n\n어쨌든, [county.GetNameNoTier]의 한 지역 관리에 따르면, 그곳의 마을 주민들은 일종의 오래된 사원 복합 시설로 보이는 건축물을 사용하는 데 관심을 보이고 있다고 합니다. 이 마을 주민들은 마을을 확장하기 위해 이 사원 내부에 집, 상점 및 기타 필요한 구조물을 지으려고 합니다. 그 생각은 다른 곳에 무작위로 짓는 대신, 튼튼하고 견고하며 여러 세대에 걸쳐 지속된 사원 벽을 활용하는 것이 효율적이라는 것입니다.\n\n하지만, 마을은 전략적 위치에 있지만, 가장 부유한 정착지는 아니며, 이를 위해서는 약간의 도움이 필요합니다." # 5213448579254053548
+  upper_egypt.0066.a: "물론입니다! 이 사업을 재정적으로 지원할 수 있습니다." # 8198847753739843285
+  upper_egypt.0066.b: "지금은 그들을 도울 수 없지만, 행운을 빌어줘야지." # 16959506117777883962
   upper_egypt.0067.t: "풀 메다메스" # 5101366157447812145
-  upper_egypt.0067.desc: "[GetGeographicalRegion('RICE_nile_river_valley').GetName] 지역의 마을을 방문하며 #italic 풀 메담스# 요리를 즐기고 있습니다. 올리브유와 다양한 향신료, 장식으로 버무려진 콩 요리는 이 지역 사람들에게 세대를 이어 사랑받는 푸짐한 스튜입니다." # 15966087692969104271
-  upper_egypt.0067.a: "맛있습니다!" # 2028573091546184424
+  upper_egypt.0067.desc: "[GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 위치한 마을을 방문하는 동안 #italic 풀 메다메스#! 요리를 즐기고 있습니다. 이 요리는 올리브 오일과 다양한 향신료, 고명을 곁들인 누에콩 스튜로, 오랫동안 이 지역의 많은 사람들에게 인기가 있습니다." # 15966087692969104271
+  upper_egypt.0067.a: "맛있군!" # 2028573091546184424
   upper_egypt.0068.t: "xxxxx" # 1951045980481827005
   upper_egypt.0068.desc: "xxxxx" # 1951045980481827005
   upper_egypt.0068.a: "xxxxx" # 1951045980481827005
@@ -715,11 +723,3 @@
   upper_egypt.0099.t: "xxxxx" # 1951045980481827005
   upper_egypt.0099.desc: "xxxxx" # 1951045980481827005
   upper_egypt.0099.a: "xxxxx" # 1951045980481827005
-  RICE_upper_egypt_azjur_pilgrim: "이집트 전 총독" # 12906052631430589270
-  RICE_upper_egypt_azjur_pilgrim_desc: "이 인물은 아흐마드 이븐 툴룬으로 대체될 때까지 한때 이집트의 엄격하고 때로는 인기 없는 총독이었으며, 그 이후로는 더욱 정신적인 야망에 집중해왔습니다." # 2133196539087166118
-  RICE_upper_egypt_azjur_official: "$RICE_upper_egypt_azjur_pilgrim$" # 16430500506526065795
-  RICE_upper_egypt_azjur_official_desc: "이 인물은 아흐마드 이븐 툴룬으로 대체될 때까지 엄격했으며 때로는 인기가 없는 이집트의 총독이었습니다. 그는 그 이후로 다른 수단을 통해 그의 정치 경력을 발전시키려 노력해 왔습니다." # 9144257296657375346
-  upper_egypt.0012.a.tooltip: "아마도 내가 하즈 순례를 갈 때가 된 것 같다, 모든 선량한 [GetReligionByKey('islam_religion').GetAdherentNamePlural]들처럼..." # 2331033370962043053
-  upper_egypt.0012.b: "레반트의 항구로 향하라" # 10588756483907599684
-  upper_egypt.0012.b.tooltip: "어쩌면 칼리파국의 심장부로 돌아가서, 거기서 일자리를 찾아볼 수 있을지도 모르겠군…" # 17952867573365036609
-  upper_egypt.0012.info: "\n#emphasis 역사적 배경:#! 아즈주르 알-투르키는 아흐마드 이븐 툴룬 이전 1년간 이집트의 총독이었습니다. 엄밀히 말해 그의 재임 기간은 868년에 끝났지만, 바닐라에서는 툴룬 왕조가 통치자로 시작하도록 하기 위해 867년에 이븐 툴룬이 대신 이집트를 통치하게 만들었습니다. 연대기의 이러한 사소한 불일치는 무시하고, 그는 총독으로 임명되기 전부터 이미 청교도적이고 인기 없는 관료였습니다. 출처에 따라 이븐 툴룬이 그의 옛 직위를 이어받은 후 알-투르키에게 무슨 일이 일어났는지 다릅니다: 메카로 성지 순례(하즈)를 갔거나, 혹은 칼리프에게 돌아가 따뜻하게 환영받고 다른 정부 직책을 얻었다고 합니다." # 7242684125148801185

@@ -1,156 +1,156 @@
 ﻿l_korean:
-  RICE_red_sea_al_umari_spawn_event_troops: "알 우마리의 추종자" # 6724385182571832403
-  RICE_indian_ocean_legacy_2_requirement_desc: "가문은 #V 해상 무역#! 가문 유산에서 #V 국제적인 항구#! 특성을 보유하고 있습니다" # 8529488870666903748
-  RICE_red_sea_rubbans_option: "루반" # 6280581743506797164
-  RICE_red_sea_rubbans_option_desc: "루반은 홍해를 항해하는 데 능숙한 숙련된 조종사 유형입니다. 그들은 위험한 지역과 위험한 해안선이 종종 되는 위험한 미로를 통과하는 방법을 알고 있습니다. 그들 없이 홍해를 항해하려는 사람은 자신의 위험을 감수하는 것입니다!" # 4705632273973853060
+  RICE_red_sea_al_umari_spawn_event_troops: "알-우마리의 추종자들" # 6724385182571832403
+  RICE_indian_ocean_legacy_2_requirement_desc: "왕조는 #V 해상 무역#! 왕조 유산에서 #V 대도회 항구#! 특성을 얻었습니다." # 8529488870666903748
+  RICE_red_sea_rubbans_option: "루방" # 6280581743506797164
+  RICE_red_sea_rubbans_option_desc: "루반은 홍해를 항해하는 데 사용되는 숙련된 항해사의 일종입니다. 그들은 어떤 지역이 위험한지, 그리고 위험한 해안선이 종종 그러한 위험의 미로를 어떻게 통과하는지 압니다. 그들 없이 홍해를 항해하려는 사람은 누구든 스스로의 위험을 감수해야 합니다!" # 4705632273973853060
   RICE_red_sea_region: "홍해 지역" # 15177818228907439956
-  RICE_red_sea_geographical_req: "[GetGeographicalRegion('RICE_red_sea_region').GetName] 지역의 [county|E]를 소유하고 있습니다" # 828560767263127341
-  RICE_red_sea_coastal_geographical_req: "[GetGeographicalRegion('RICE_red_sea_region').GetName] 지역의 [county|E] 또는 [domicile|E]을 소유하고 있습니다" # 15912837450133889594
-  every_county_RICE_east_africa: "[GetGeographicalRegion('world_africa_east').GetName]에 소유한 모든 [county|E]" # 5463583675433358947
+  RICE_red_sea_geographical_req: "당신은 [GetGeographicalRegion('RICE_red_sea_region').GetName] 내 [county|E]를 소유하고 있습니다." # 828560767263127341
+  RICE_red_sea_coastal_geographical_req: "[GetGeographicalRegion('RICE_red_sea_region').GetName] 내 [county|E] 또는 [domicile|E]를 소유하고 있습니다" # 15912837450133889594
+  every_county_RICE_east_africa: "[GetGeographicalRegion('world_africa_east').GetName] 내 소유 중인 모든 [county|E]" # 5463583675433358947
   dynn_RICE_mahli: "말리" # 6293473274950520424
   nick_RICE_ha_dani: "하-다니" # 17466118553973685450
-  nick_RICE_ha_dani_desc: "이 기이한 [CHARACTER.GetWomanMan]은 자신이 아프리카 어딘가에 살고 있다는 잃어버린 단 지파의 후손이라고 주장합니다. 많은 유대인들이 [CharYourHerHis(CHARACTER)]의 선동적인 이야기를 설득력 있다고 생각하지만, 모두가 그런 것은 아닙니다." # 2311968853655421224
+  nick_RICE_ha_dani_desc: "이 기이한 [CHARACTER.GetWomanMan]는 잃어버린 단 지파의 후손이라고 주장하며, 그에 따르면 그들은 아프리카 어딘가에 살고 있다고 말합니다. 많은 유대인들이 [CharYourHerHis(CHARACTER)] 기이한 이야기에 설득력을 느꼈지만, 전부는 아니었습니다." # 2311968853655421224
   dynn_RICE_bundar: "분다리드" # 11455433138869729714
   Bundar: "분다르" # 11213572783994519279
-  game_concept_red_sea_ferry: "홍해 연락선" # 6843574945234926184
-  game_concept_red_sea_ferries: "홍해 연락선" # 7354992881506464868
-  game_concept_red_sea_ferry_desc: "홍해를 따라 여러 주 - 즉 #V 아이드합#!, #V 수아킨#!, 그리고 #V 제다#! - 에는 다양한 보너스를 제공하는 $game_concept_red_sea_ferry$라는 [special_building|E]이 있습니다. 이러한 항구는 홍해를 횡단하려는 하지 순례자들의 주요 통로 역할을 합니다.\n\n아이드합 또는 수아킨의 모든 [ruler|E]는 순례자들에게 #V 세금을 인상#!하는 [decision|E]을 사용할 수도 있습니다. 그러나 그렇게 하면 부정적인 결과도 따릅니다. 또한 아이드합과 수아킨은 전통적으로 라이벌이었기 때문에 한 곳에서 세금을 인상하면 일부 순례자 통행량이 다른 도시로 전환됩니다." # 2296292410468470336
-  RICE_red_sea_aspiration_al_umari_desc: "#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$ 독립적인 왕 또는 황제 계급의 통치자가 되십시오.\n$EFFECT_LIST_BULLET$ [GetTitleByKey('c_aswan').GetNameNoTier], [GetTitleByKey('c_qus').GetNameNoTier], [GetTitleByKey('c_qurta').GetNameNoTier], 및 [GetTitleByKey('c_naqis').GetNameNoTier]을 완전히 장악하십시오.\n$EFFECT_LIST_BULLET$ 재정에 최소 [gold_i|E] #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! 금을 보유하십시오.\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$ @gold_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! 금을 얻으십시오.\n$EFFECT_LIST_BULLET$ 동아프리카 지역의 영지 내 모든 백작령에 @development_icon! #V [EmptyScope.ScriptValue('RICE_red_sea_al_umari_aspiration_dev_bonus')]#! 개발도를 얻으십시오.\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$ 최소 @dread_icon! #V 80#! 공포를 소유하십시오. (보상: [전투적 생활 방식|E] 특전 획득)\n$EFFECT_LIST_BULLET$ 최소 두 명의 라이벌 또는 원수를 소유하십시오. (보상: [권모술수적 생활 방식|E] 특전 획득)" # 320436697936970581
-  RICE_red_sea_historical_aspiration_action_al_umari: "#italic 아바스 왕조의 권력 공백을 이용하고 적들을 짓밟음으로써 동방 사막의 부를 쌓고, 홍해 연안에서 가장 두려운 용병장으로 떠오르길 바랍니다.#!$RICE_red_sea_aspiration_al_umari_desc$" # 8673921878245919860
+  game_concept_red_sea_ferry: "홍해 도선" # 6843574945234926184
+  game_concept_red_sea_ferries: "홍해 나룻배" # 7354992881506464868
+  game_concept_red_sea_ferry_desc: "홍해를 따라 여러 주가 있습니다 - 즉, #V 아이다브#!, #V 수아킨#!, 그리고 #V 제다#!에 말이죠 - 해당 주에는 $game_concept_red_sea_ferry$라는 이름의 [special_building|E]이(가) 있으며, 다양한 보너스를 제공합니다. 이 항구들은 홍해를 건너 여행하고자 하는 하즈 순례자들을 위한 주요 통로 역할을 합니다.\n\n아이다브나 수아킨의 모든 [ruler|E]는 그곳 순례자들에게 #V 세금을 인상#!하는 [decision|E]을(를) 사용할 수 있습니다. 하지만 그렇게 할 경우 부정적인 결과도 따릅니다. 추가로, 아이다브와 수아킨은 전통적으로 경쟁 상대였기 때문에 한쪽에 세금을 인상하면 순례자 통행량의 일부가 다른 도시로 전환될 것입니다." # 2296292410468470336
+  RICE_red_sea_aspiration_al_umari_desc: "\n\n#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$[independent|E] [king|E] 또는 [emperor|E] [rank|E] [ruler|E]가 될 것\n$EFFECT_LIST_BULLET$[completely_control|E] [GetTitleByKey('c_aswan').GetNameNoTier], [GetTitleByKey('c_qus').GetNameNoTier], [GetTitleByKey('c_qurta').GetNameNoTier], 그리고 [GetTitleByKey('c_naqis').GetNameNoTier]를 완전히 통제할 것\n$EFFECT_LIST_BULLET$국고에 최소 [gold_i|E] #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! 이상의 금화를 보유할 것\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$@gold_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [gold|E] 획득\n$EFFECT_LIST_BULLET$[GetGeographicalRegion('world_africa_east').GetName] 지역 내 당신의 [realm|E]에 있는 모든 [county|E]가 @development_icon! #V [EmptyScope.ScriptValue('RICE_red_sea_al_umari_aspiration_dev_bonus')]#! [development|E]를 획득\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$최소 @dread_icon! #V 80#! 이상의 [dread|E]를 보유할 것 (보상: [martial_lifestyle|E] [perk|E] 하나 획득)\n$EFFECT_LIST_BULLET$최소 두 명 이상의 [rivals|E] 또는 [nemeses|E]를 보유할 것 (보상: [intrigue_lifestyle|E] [perk|E] 하나 획득)" # 320436697936970581
+  RICE_red_sea_historical_aspiration_action_al_umari: "#italic 아바스조의 권력 공백을 이용하고 적들을 무자비하게 학살하여, 당신은 동방 사막의 부로 곳간을 채우고 홍해 연안에서 가장 두려운 군벌로 부상하길 희망합니다.#!$RICE_red_sea_aspiration_al_umari_desc$" # 8673921878245919860
   RICE_red_sea_historical_aspiration_modifier_desc_al_umari: "[GetModifier('RICE_red_sea_aspiration_red_sea_riches').GetNameWithTooltip]" # 12235406217506718281
   building_type_RICE_red_sea_mount_smaragdus_mines_01: "스마라그두스 산의 에메랄드 광산" # 7004703124722631028
-  building_type_RICE_red_sea_mount_smaragdus_mines_01_desc: "고대 이집트 시대부터 동부 사막(로마인들에게는 스마라그두스 산으로 알려짐)의 이 지역 광산은 전 세계 에메랄드의 대부분을 제공해 왔습니다." # 2563535083991274319
-  building_RICE_red_sea_mount_smaragdus_mines_01: "에메랄드 광산 정착지" # 13287054216713059876
-  building_RICE_red_sea_mount_smaragdus_mines_01_desc: "노예와 노동자 집단이 작은 정착지에서 살면서 알려진 세계에서 몇 안 되는 에메랄드 공급원 중 한 곳에서 밤낮으로 고생하고 있습니다." # 10988355156287243508
+  building_type_RICE_red_sea_mount_smaragdus_mines_01_desc: "고대 이집트 시대부터, 동부 사막의 이 지역에 있는 (로마인들에게는 스마라그두스 산으로 알려진) 광산들은 세계 에메랄드의 대부분을 공급해왔습니다." # 2563535083991274319
+  building_RICE_red_sea_mount_smaragdus_mines_01: "에메랄드 채굴 정착지" # 13287054216713059876
+  building_RICE_red_sea_mount_smaragdus_mines_01_desc: "알려진 세계에서 몇 안 되는 에메랄드 산지 중 하나인 이곳에서, 작은 정착지에 사는 노예들과 노동자 집단은 밤낮으로 고역을 바칩니다." # 10988355156287243508
   building_RICE_red_sea_mount_smaragdus_mines_02: "에메랄드 광산" # 6411309084126468695
-  building_RICE_red_sea_mount_smaragdus_mines_02_desc: "주변 정착지가 성장함에 따라 더 많은 에메랄드가 채굴되고 있습니다. 기술자들이 생산량을 늘리기 위해 투입되었고, 상인들이 에메랄드 수송을 촉진하기 위해 상점을 열었습니다." # 17669604710483357886
-  building_RICE_red_sea_mount_smaragdus_mines_03: "대형 에메랄드 광산" # 11680753902476267891
-  building_RICE_red_sea_mount_smaragdus_mines_03_desc: "나일 계곡과 홍해 모두와 긴밀한 연결로 인해, 이 지역의 마을들은 세계 시장에 좋은 양의 에메랄드를 생산합니다." # 11391778143259365181
-  building_RICE_red_sea_mount_smaragdus_mines_04: "에메랄드 광산 단지" # 11695070466490424636
-  building_RICE_red_sea_mount_smaragdus_mines_04_desc: "이 지역의 정착지는 고대 파라오와 카이사르 시대 이후로 볼 수 없었던 규모와 인구를 자랑하며, 세계에 엄청난 양의 에메랄드를 채굴합니다." # 3849706838629643075
+  building_RICE_red_sea_mount_smaragdus_mines_02_desc: "인근 정착지가 성장함에 따라 에메랄드가 점점 더 많이 채굴되고 있습니다. 생산량을 늘리기 위해 기술자들이 투입되었으며, 상인들은 에메랄드 운송을 신속히 처리하기 위해 점포를 차렸습니다." # 17669604710483357886
+  building_RICE_red_sea_mount_smaragdus_mines_03: "대규모 에메랄드 광산" # 11680753902476267891
+  building_RICE_red_sea_mount_smaragdus_mines_03_desc: "나일강 유역 및 홍해 모두와 강한 연계를 지닌 이 지역 마을들에서는 세계 시장에 내다 팔 에메랄드가 풍부하게 생산됩니다." # 11391778143259365181
+  building_RICE_red_sea_mount_smaragdus_mines_04: "에메랄드 채굴 단지" # 11695070466490424636
+  building_RICE_red_sea_mount_smaragdus_mines_04_desc: "이 지역의 정착지들은 고대 파라오와 카이사르 시절 이후로 본 적 없는 크기와 인구를 자랑하며, 세계에 공급하기 위해 막대한 양의 에메랄드를 채굴합니다." # 3849706838629643075
   building_type_RICE_red_sea_wadi_allaqi_mines_01: "와디 알라키 광산" # 7919359946324699963
-  building_type_RICE_red_sea_wadi_allaqi_mines_01_desc: "과거 파라오들이 착취했던 와디 알라키의 금광은 여전히 이집트와 같은 인근 지역에 상당한 양의 금을 제공합니다." # 16406906203279865128
-  building_RICE_red_sea_wadi_allaqi_mines_01: "와디 알라키 광산 정착지" # 14804511467748211502
+  building_type_RICE_red_sea_wadi_allaqi_mines_01_desc: "옛 파라오들에 의해 한때 개발되었던 와디 알라키의 금광은 이집트와 같은 인근 지역에 여전히 상당한 양의 금을 공급하고 있습니다." # 16406906203279865128
+  building_RICE_red_sea_wadi_allaqi_mines_01: "와디 알라키 채광 정착지" # 14804511467748211502
   building_RICE_red_sea_wadi_allaqi_mines_01_desc: "$building_rammelsberg_mines_01_desc$" # 1826550512862699185
   building_RICE_red_sea_wadi_allaqi_mines_02: "와디 알라키 광산" # 5133910207911438174
   building_RICE_red_sea_wadi_allaqi_mines_02_desc: "$building_rammelsberg_mines_02_desc$" # 17900462089297107088
-  building_RICE_red_sea_wadi_allaqi_mines_03: "와디 알라키 광산" # 2860662780208654922
+  building_RICE_red_sea_wadi_allaqi_mines_03: "와디 알라키 대광산" # 2860662780208654922
   building_RICE_red_sea_wadi_allaqi_mines_03_desc: "$building_rammelsberg_mines_03_desc$" # 16535131840662613047
-  building_RICE_red_sea_wadi_allaqi_mines_04: "와디 알라키 광산 단지" # 6140243755379515467
+  building_RICE_red_sea_wadi_allaqi_mines_04: "와디 알라키 채광 단지" # 6140243755379515467
   building_RICE_red_sea_wadi_allaqi_mines_04_desc: "$building_rammelsberg_mines_04_desc$" # 498090809535580329
   building_type_RICE_red_sea_al_baha_mines_01: "알바하 광산" # 11195134662415223880
-  building_type_RICE_red_sea_al_baha_mines_01_desc: "알바하 지역에는 다양한 아랍 국가들이 채굴한 금, 은, 구리 매장지가 많이 있습니다. 이러한 금속들은 일반적으로 인근 정착지, 특히 지역 중심지인 아샴에서 가공됩니다." # 4931268924860553472
+  building_type_RICE_red_sea_al_baha_mines_01_desc: "알바하 지역은 다수의 금, 은, 구리 광상을 보유하고 있으며, 이는 다양한 아랍 국가들에 의해 채취되었습니다. 이러한 금속은 대개 인근 취락에서 가공되며, 특히 지역 중심지인 아샴에서 이루어집니다." # 4931268924860553472
   building_RICE_red_sea_al_baha_mines_01: "알바하 광산 정착지" # 6677697222970253665
   building_RICE_red_sea_al_baha_mines_01_desc: "$building_rammelsberg_mines_01_desc$" # 1826550512862699185
   building_RICE_red_sea_al_baha_mines_02: "알바하 광산" # 3764309309547762924
   building_RICE_red_sea_al_baha_mines_02_desc: "$building_rammelsberg_mines_02_desc$" # 17900462089297107088
-  building_RICE_red_sea_al_baha_mines_03: "대규모 알바하 광산" # 10908419707022705441
+  building_RICE_red_sea_al_baha_mines_03: "대형 알-바하 광산" # 10908419707022705441
   building_RICE_red_sea_al_baha_mines_03_desc: "$building_rammelsberg_mines_03_desc$" # 16535131840662613047
-  building_RICE_red_sea_al_baha_mines_04: "알-바하 광산 단지" # 6920022197827053194
+  building_RICE_red_sea_al_baha_mines_04: "알바하 광산 단지" # 6920022197827053194
   building_RICE_red_sea_al_baha_mines_04_desc: "$building_rammelsberg_mines_04_desc$" # 498090809535580329
-  building_type_RICE_red_sea_ferry_01: "홍해 연락선" # 6843574945234926184
-  building_type_RICE_red_sea_ferry_01_desc: "무슬림 순례자들이 하지를 위해 가는 주요 경로가 여러 개 있습니다. 그중 더 인기 있는 경로는 배를 타고 홍해를 건너는 것이며, 이곳의 주요 정착지는 메카로 가는 도중에 순례자들이 지나가는 주요 휴식처가 되었습니다." # 13255416464722988500
+  building_type_RICE_red_sea_ferry_01: "홍해 도선" # 6843574945234926184
+  building_type_RICE_red_sea_ferry_01_desc: "무슬림 순례자들이 하지를 떠나는 주요 경로에는 여러 가지가 있습니다. 그중 인기 있는 한 경로는 홍해를 배로 건너는 것이며, 이곳의 주요 정착지는 메카로 향하는 순례자들을 위한 주요 휴게소가 되었습니다." # 13255416464722988500
   building_RICE_red_sea_ferry_01: "사막 역참" # 7209088864011692213
-  building_RICE_red_sea_ferry_01_desc: "메카를 오가는 순례자들이 배로 이동할 때 최소한의 지원을 제공하기 위해 우물, 간이 숙소, 베두인 약탈자를 감시하기 위한 작은 감시탑과 같은 기본적인 기반 시설이 마련되었습니다." # 1530291065151998388
+  building_RICE_red_sea_ferry_01_desc: "우물, 기초적인 숙소, 베두인 약탈자를 경계하기 위한 작은 감시탑과 같은 기본 기반 시설이 배편으로 메카를 오가는 하즈 순례자들에게 최소한의 도움을 제공하기 위해 설치되었습니다." # 1530291065151998388
   building_RICE_red_sea_ferry_02: "순례자 부두" # 16513049829078500010
-  building_RICE_red_sea_ferry_02_desc: "이 항구에 도착하는 하즈 순례자들의 캐러밴을 지원하기 위한 더 광범위한 기반 시설을 개발하는 데 자원이 투입되었습니다. 이는 또한 지역 경제에도 도움이 되었습니다." # 16888931258173250155
-  building_RICE_red_sea_ferry_03: "홍해 숙소" # 17486498040874609773
-  building_RICE_red_sea_ferry_03_desc: "바닷길로 순례를 떠나는 하즈 순례자들의 주요 경유지로 자리 잡은 이곳에는 이제 순례자들을 위한 서비스와 다양한 숙박 시설을 제공하는 구역이 전체에 걸쳐 조성되어 있습니다." # 3381887804646186348
-  building_RICE_red_sea_ferry_04: "순례자 캐러밴서라이" # 653014613250543843
-  building_RICE_red_sea_ferry_04_desc: "이 해안 항구는 정기적으로 항구를 통과하는 수많은 하지 순례자들로 유명합니다. 거대하고 잘 조직된 페리, 여관, 요새 및 시장 시스템은 이 대상들에게 편안함, 안전 및 무역 기회를 제공합니다." # 16129649631588688836
+  building_RICE_red_sea_ferry_02_desc: "이 항구에 도착하는 하즈 순례 대상들을 지원하기 위한 더 광범위한 기반 시설 개발에 자원을 투입했습니다. 이는 또한 지역 경제에도 도움이 되었습니다." # 16888931258173250155
+  building_RICE_red_sea_ferry_03: "홍해 여관" # 17486498040874609773
+  building_RICE_red_sea_ferry_03_desc: "해상으로 여행하고자 하는 하즈 순례객들을 위한 주요 기항지로 자리매김하면서, 이 정착지의 구역 전체가 이제 이들 순례객들을 위한 다양한 숙박 시설과 서비스를 제공하는 데 전념하게 되었습니다." # 3381887804646186348
+  building_RICE_red_sea_ferry_04: "순례자 대상 숙소" # 653014613250543843
+  building_RICE_red_sea_ferry_04_desc: "이 해안 항구는 정기적으로 항구를 통과하는 엄청난 수의 하즈 순례자로 유명합니다. 나룻배, 여관, 요새, 시장으로 이루어진 거대하고 잘 정비된 시스템은 이 순례자들에게 안락함, 안전, 무역 기회를 제공합니다." # 16129649631588688836
   building_type_RICE_red_sea_pearl_industry_01: "진주 산업" # 4846173620761996890
-  building_type_RICE_red_sea_pearl_industry_01_desc: "이 지역의 해안은 진주가 풍부하여 주요 수익원입니다." # 1440406824764554126
+  building_type_RICE_red_sea_pearl_industry_01_desc: "이 지역의 해안은 진주가 풍부하며 주요 수익원입니다." # 1440406824764554126
   building_RICE_red_sea_pearl_industry_01: "진주 잠수부" # 3256242968590314897
-  building_RICE_red_sea_pearl_industry_01_desc: "수 세기 동안 이 지역에서 진주 채취가 이루어졌지만, 현재는 더 조직적인 방식으로 진행되고 있습니다." # 9615798461175927584
+  building_RICE_red_sea_pearl_industry_01_desc: "이 지역에서 수세기 동안 진주 채취가 행해져 왔지만, 이제는 더 체계적인 방식으로 이루어지고 있습니다." # 9615798461175927584
   building_RICE_red_sea_pearl_industry_02: "진주 상인" # 6027764703197662761
-  building_RICE_red_sea_pearl_industry_02_desc: "이 지역 진주 산업의 성장으로 상인들과 지역 당국은 이를 지원하기 위한 인프라 확장에 관심을 보이고 있습니다." # 139878586799372636
-  building_RICE_red_sea_pearl_industry_03: "진주 채취 중심지" # 16423791878888927065
-  building_RICE_red_sea_pearl_industry_03_desc: "이 지역은 진주 산업에 있어 가장 수익성이 높은 곳 중 하나로 여겨집니다. 이곳에서 얻은 진주는 아일랜드에서 캐세이까지 세계 곳곳으로 운송됩니다." # 14141960048443342071
-  building_type_RICE_red_sea_al_radrad_mines_01: "알라드라드 광산" # 12743747962022107742
-  building_type_RICE_red_sea_al_radrad_mines_01_desc: "많은 야자수가 흩어져 있는 물이 풍부한 계곡에 위치한 알라드라드 마을(알자발리라고도 함)은 중요한 은 매장지와 가깝습니다. 이 광산 단지는 원래 페르시아 광부들이 세웠으며, 여전히 광석을 제련하는 데 사용되는 많은 야금로가 있습니다. 너무 많아서 광산 근처에 오는 새들은 용광로에서 나오는 엄청난 불과 연기 때문에 죽는다고 합니다." # 10344824941882176628
-  building_RICE_red_sea_al_radrad_mines_01: "알라드라드 광산 정착지" # 716544561790259849
+  building_RICE_red_sea_pearl_industry_02_desc: "이 지역의 진주 산업 성장에 따라 상인들과 지역 당국은 이를 지원하기 위한 기반 시설 확장에 관심을 가지게 되었습니다." # 139878586799372636
+  building_RICE_red_sea_pearl_industry_03: "진주 채집지" # 16423791878888927065
+  building_RICE_red_sea_pearl_industry_03_desc: "이 지역은 진주 산업에 있어서 가장 수익성이 높은 곳 중 하나로 여겨집니다. 이곳에서 얻은 진주는 아일랜드에서 키타이에 이르기까지 세계의 먼 곳까지 선적됩니다." # 14141960048443342071
+  building_type_RICE_red_sea_al_radrad_mines_01: "알-라드라드 광산" # 12743747962022107742
+  building_type_RICE_red_sea_al_radrad_mines_01_desc: "많은 야자수가 점점이 박힌 물이 흐르는 계곡에 위치한 알라드라드 마을 (알자발리라고도 알려짐)은 중요한 은 채취지 근처에 있습니다. 광산 단지는 원래 페르시아인 광부들에 의해 건설되었으며, 여전히 광석을 제련하는 데 사용되는 많은 제련 가마가 있습니다. 사실 너무 많아서, 가마에서 나오는 엄청난 화염과 연기 때문에 광산 근처에 오는 새들이 죽어 떨어진다고들 합니다." # 10344824941882176628
+  building_RICE_red_sea_al_radrad_mines_01: "알-라드라드 광산 정착지" # 716544561790259849
   building_RICE_red_sea_al_radrad_mines_01_desc: "$building_rammelsberg_mines_01_desc$" # 1826550512862699185
-  building_RICE_red_sea_al_radrad_mines_02: "알 라드라드 광산" # 17465043832237076536
+  building_RICE_red_sea_al_radrad_mines_02: "알-라드라드 광산" # 17465043832237076536
   building_RICE_red_sea_al_radrad_mines_02_desc: "$building_rammelsberg_mines_02_desc$" # 17900462089297107088
   building_RICE_red_sea_al_radrad_mines_03: "대형 알-라드라드 광산" # 3908262644138261845
   building_RICE_red_sea_al_radrad_mines_03_desc: "$building_rammelsberg_mines_03_desc$" # 16535131840662613047
-  building_RICE_red_sea_al_radrad_mines_04: "알 라드라드 광산 단지" # 16026760831214331157
+  building_RICE_red_sea_al_radrad_mines_04: "알-라드라드 채광 단지" # 16026760831214331157
   building_RICE_red_sea_al_radrad_mines_04_desc: "$building_rammelsberg_mines_04_desc$" # 498090809535580329
   RICE_red_sea_egypt_textile_industry: "이집트 직물 제조 중심지" # 6776503853799664514
-  RICE_red_sea_egypt_textile_industry_desc: "파라오 시대부터 섬유는 이집트의 주요 수출품이었습니다. 이러한 숙련된 제품들은 전 세계적으로 높은 수요를 보이며, 지중해와 홍해를 따라 있는 항구를 통해 먼 나라로 자주 운송되었습니다." # 5168038972234092577
-  RICE_red_sea_is_al_umari: "학자, 상인, 군벌" # 430830365539811509
-  RICE_red_sea_is_al_umari_desc: "메디나에서 태어난 알 우마리는 냉혹한 학자이자 사업가로, 특히 이집트 동부 사막의 수익성이 좋은 광산을 확보하여 그곳에 개인 영지를 개척하고자 합니다. 교활하고 잔인하지만 교양 있고 카리스마가 넘치며 열렬한 신앙심을 가진 그는 적만큼 많은 추종자를 거느리고 있습니다." # 11948623688911437680
+  RICE_red_sea_egypt_textile_industry_desc: "파라오 시대부터 쭉, 직물은 이집트의 주요 수출품이었습니다. 이렇게 숙련된 솜씨로 만들어진 직물들은 전 세계적으로 수요가 높으며, 지중해와 홍해 연안의 항구를 통해 종종 먼 땅으로 운송됩니다." # 5168038972234092577
+  RICE_red_sea_is_al_umari: "학자, 상인, 그리고 군벌" # 430830365539811509
+  RICE_red_sea_is_al_umari_desc: "메디나에서 태어난 알-우마리는 무자비한 학자이자 사업가로, 특히 수익성 높은 광산을 확보하기 위해 이집트의 동부 사막에 자신만의 봉토를 개척하려 합니다. 교활하고 잔인하지만 교양 있고 카리스마 있으며 독실한 신앙심을 가진 그는 따르는 자들만큼이나 많은 적을 두고 있습니다." # 11948623688911437680
   RICE_red_sea_allaqi_mines_rediscovered: "와디 알라키의 골드 러시" # 16780463477553731509
-  RICE_red_sea_allaqi_mines_rediscovered_desc: "와디 알라키의 고대 금광이 최근 재발견되어 이 지역에 골드 러시를 불러일으켰습니다. 하지만 지역 지도자들이 이 위험한 국경 지대에 대한 통제권을 확립하려면 수년과 막대한 투자가 필요할 것입니다." # 15056993394946739334
-  RICE_red_sea_aswan_investors: "아스완의 투자" # 8402639233520021999
-  RICE_red_sea_aswan_investors_desc: "와디 알라키의 금광은 최근 이 지역의 골드 러시를 틈타 부를 축적하려는 아스완의 부유한 엘리트들로부터 투자를 받았습니다." # 14801293301826107976
-  RICE_red_sea_gold_rush_rivals: "와디 알라키 금광을 둘러싼 경쟁" # 1724065246097965225
-  RICE_red_sea_aydhab_increased_pilgrims: "하지 순례자 수 증가" # 8275826306686312331
-  RICE_red_sea_aydhab_increased_pilgrims_desc: "수아킨의 항구를 이용해 홍해를 건너 메카로 가는 순례자들에게 근시안적인 수아킨 통치자들이 악명 높은 세금을 부과하는 바람에, 일부 순례자들은 이제 수아킨의 전통적인 경쟁 도시인 아이다브 항구를 이용하는 것을 선호합니다. 그러나 아이다브 통치자들이 계속해서 관대할지는 시간이 지나야 알 수 있을 것입니다...." # 2635203457220321868
-  RICE_red_sea_suakin_increased_pilgrims: "하지 순례자 수 증가" # 8275826306686312331
-  RICE_red_sea_suakin_increased_pilgrims_desc: "아이다브의 근시안적인 통치자들이 메카로 가기 위해 홍해를 건너는 하즈 순례자들에게 아이다브 항구를 이용하는 것에 대해 악명 높은 세금을 부과했기 때문에, 일부 순례자들은 이제 아이다브의 전통적인 라이벌인 수아킨 항구를 이용하는 것을 선호합니다. 하지만 수아킨의 통치자들이 계속해서 관대할지는 시간이 지나봐야 알 수 있습니다...." # 18205119013304753652
-  RICE_red_sea_aydhab_extra_hajj_taxes: "순례자에게 부과된 추가 세금" # 7566248897524141565
-  RICE_red_sea_aydhab_extra_hajj_taxes_desc: "아이드합의 약탈적인 통치자들이 메카로 가기 위해 홍해를 건너는 순례자들이 항구를 이용하는 데 추가 세금을 부과하기로 결정했습니다. 아이드합의 전통적인 라이벌인 수아킨의 엘리트들은 이 새로운 정책에 대해 어떻게 생각할지 궁금해집니다..." # 6489792164890306476
-  RICE_red_sea_suakin_extra_hajj_taxes: "하지 순례자에게 부과되는 추가 세금" # 7566248897524141565
-  RICE_red_sea_suakin_extra_hajj_taxes_desc: "수아킨의 약탈적인 지배자들이 메카로 가는 홍해 횡단을 위해 항구를 이용하려는 하지 순례자들에게 추가 세금을 부과하기로 결정했습니다. 아이다브의 엘리트들, 수아킨의 전통적인 라이벌은 이 새로운 정책에 대해 어떻게 생각할지 궁금하지 않을 수 없습니다..." # 18276676022086512252
-  RICE_red_sea_expanding_mining_operations: "주로 광업 사업에 집중" # 2793250297679794604
-  RICE_red_sea_expanding_eastern_desert_mining_infrastruture: "동부 사막에서 광업 운영의 대규모 확장" # 221820544000990208
-  RICE_red_sea_chinese_ceramics: "중국산 새로운 도자기 세트를 소유하고 있습니다." # 3852924969163823138
-  RICE_red_sea_gazelles_nearby: "거주지 근처에서 풀을 뜯는 가젤" # 9883246069841303279
+  RICE_red_sea_allaqi_mines_rediscovered_desc: "와디 알라키의 고대 금광이 최근 재발견되어, 이 지역에 골드 러시를 불러왔습니다. 하지만 지역 지도자들이 이 위험한 변경 지역에 어느 정도 통제력을 확립하기까지는 수년의 시간과 막대한 양의 투자가 필요할 것입니다." # 15056993394946739334
+  RICE_red_sea_aswan_investors: "아스완에서의 투자" # 8402639233520021999
+  RICE_red_sea_aswan_investors_desc: "와디 알라키의 금광에 최근 아스완의 부유한 엘리트들로부터 투자가 유입되었습니다. 이들은 이 지역의 골드 러시 기회를 잡고자 합니다." # 14801293301826107976
+  RICE_red_sea_gold_rush_rivals: "와디 알라키 금광 경쟁" # 1724065246097965225
+  RICE_red_sea_aydhab_increased_pilgrims: "하즈 순례자 수 증가" # 8275826306686312331
+  RICE_red_sea_aydhab_increased_pilgrims_desc: "수아킨의 근시안적인 통치자들이 메카로 가기 위해 홍해를 건너 여행하는 하즈 순례자들에게 부과하는 악명 높은 세금 때문에, 일부 순례자들은 이제 수아킨의 전통적인 라이벌인 아이다브 항구를 이용하는 것을 선호하게 되었습니다. 하지만 아이다브의 통치자들이 계속 그렇게 관대할지는 시간이 지나야 알 수 있습니다...." # 2635203457220321868
+  RICE_red_sea_suakin_increased_pilgrims: "하즈 순례자 수 증가" # 8275826306686312331
+  RICE_red_sea_suakin_increased_pilgrims_desc: "메카에 도달하기 위해 아이다브 항구를 이용하여 홍해를 건너는 하지 순례자들에게 아이다브의 근시안적인 통치자들이 악명 높은 세금을 부과함에 따라, 일부 순례자들은 이제 아이다브의 전통적인 경쟁자인 수아킨의 항구를 이용하는 것을 선호하고 있습니다. 하지만 수아킨의 통치자들이 앞으로도 계속 관대할지는 시간이 지나야 알 수 있을 것입니다..." # 18205119013304753652
+  RICE_red_sea_aydhab_extra_hajj_taxes: "하즈 순례자에게 부과되는 추가 세금" # 7566248897524141565
+  RICE_red_sea_aydhab_extra_hajj_taxes_desc: "아이다브의 약탈적인 통치자들은 메카에 도달하기 위해 홍해를 건너 여행하려는 하즈 순례자들이 그들의 항구를 이용하는 것에 대해 추가 세금을 징수하기로 결정했습니다. 아이다브의 전통적인 경쟁 상대인 수아킨의 엘리트들이 이 새로운 정책에 대해 어떻게 생각할지 궁금해지는군요." # 6489792164890306476
+  RICE_red_sea_suakin_extra_hajj_taxes: "하즈 순례자에게 부과되는 추가 세금" # 7566248897524141565
+  RICE_red_sea_suakin_extra_hajj_taxes_desc: "메카로 향하는 하지 순례자들이 수아킨 항구를 이용해 홍해를 건널 때 추가 세금을 징수하기로 수아킨의 탐욕스러운 통치자들이 결정했습니다. 수아킨의 전통적인 라이벌인 아이다브의 지배층이 이 새로운 정책에 대해 어떻게 생각할지 궁금해지는군요...." # 18276676022086512252
+  RICE_red_sea_expanding_mining_operations: "주로 광업에 치중" # 2793250297679794604
+  RICE_red_sea_expanding_eastern_desert_mining_infrastruture: "동방 사막 광업의 대규모 확장" # 221820544000990208
+  RICE_red_sea_chinese_ceramics: "중국제 새 도자기 세트 보유" # 3852924969163823138
+  RICE_red_sea_gazelles_nearby: "저택 근처에서 방목하는 가젤" # 9883246069841303279
   RICE_red_sea_gazelles_meat: "맛있는 가젤 고기 즐기기" # 18023685272287052514
   RICE_red_sea_beautiful_ostrich_egg: "장식용 타조알" # 11574638459367790914
-  RICE_red_sea_bought_dairy: "최근에 염소, 우유, 버터를 구매했습니다" # 7359737359935051776
-  RICE_red_sea_bought_ostrich_egg: "최근에 구매한 타조 알" # 2743996266769395505
-  RICE_red_sea_bought_slave: "최근에 마음에 드는 새 노예를 샀습니다" # 4261277263646169300
-  RICE_red_sea_bought_camels: "최근에 튼튼하고 강한 낙타를 구매했습니다" # 7291271547173206091
-  RICE_red_sea_massawa_mosque: "동료들의 모스크" # 8921772133434868643
-  RICE_red_sea_massawa_mosque_desc: "마사와 정착지에는 작고 수수하지만 현지 무슬림에게 매우 중요한 모스크가 있습니다. 이곳은 세계에서 가장 먼저 지어진 모스크 중 하나로 여겨지기 때문입니다. 전설에 따르면, 예언자 무함마드가 박해로 인해 메카를 떠났을 때 그의 추종자 중 일부가 마사와로 피신하여 이 모스크를 지었다고 합니다." # 4613722510576092805
-  RICE_red_sea_aspiration_red_sea_riches: "[aspiration|E]: 홍해를 말리십시오" # 11221399009276471130
-  RICE_red_sea_aspiration_red_sea_riches_desc: "#italic 아바스 왕조의 권력 공백을 이용하고 적들을 잔혹하게 제압하여, 알-우마리는 동부 사막의 부를 쌓고 홍해 연안에서 가장 두려운 장군으로 떠오르기를 바랍니다.#!$RICE_red_sea_aspiration_al_umari_desc$" # 7232400784529268187
-  RICE_red_sea_seek_investors_from_aswan: "아스완에서 투자자 찾기" # 4926535241008582437
-  RICE_red_sea_seek_investors_from_aswan_tooltip: "와디 알라키의 [통치자|E]로서, 당신은 광산 투자자들을 찾을 것입니다." # 10552823139683702194
-  RICE_red_sea_seek_investors_from_aswan_effect_tooltip: "와디 알라키의 금광 개발을 지원할 아스완의 투자자들을 찾을 것입니다" # 7768022439908746121
-  RICE_red_sea_seek_investors_from_aswan_effect_tooltip_2: "이것은 이집트의 [ruler|E]가 당신에게 가지는 [opinion|E]을 #N 감소시킬#! 수 있습니다" # 12698531568534259815
-  RICE_red_sea_seek_investors_from_aswan_desc: "이집트 동부 사막의 제가 다스리는 지역에서 최근 대규모 금 매장지가 발견되었습니다. 이러한 채굴 사업이 장기적으로 수익을 내려면 이집트의 유력 상인과 엘리트, 특히 인근 아스완의 투자가 필요할 것입니다." # 11613236394357342508
-  RICE_red_sea_seek_investors_from_aswan_confirm: "아스완의 상인들에게 보내는 편지!" # 7536973538399764509
-  RICE_red_sea_seek_investors_from_aswan_context_tooltip: "#emphasis 역사적 배경:#! 이집트 파라오들은 과거 와디 알라키에서 금광을 채굴했습니다. 10세기, 이 금광의 재발견은 지역에 큰 번영을 가져왔습니다. 특히 이 금광과 연결된 주요 중계무역 도시인 아이드합과 아스완은 큰 호황을 누렸습니다." # 17683134017526389121
-  RICE_red_sea_sudan_gold_rush_happening: "와디 알라키 백작령에는 현재 #V 와디 알라키의 황금 광맥#! [county_modifier|E]이 있습니다" # 16753432905852105822
-  RICE_red_sea_increase_taxes_aydhab: "아이답의 하지 순례자에게 세금 인상" # 13146558697266292796
-  RICE_red_sea_increase_taxes_aydhab_tooltip: "아이다압의 [ruler|E]로서, [red_sea_ferry|E]를 통과하는 순례자들에게 추가 세금을 부과할 것입니다." # 6731754823323566531
-  RICE_red_sea_increase_taxes_aydhab_desc: "매일, 무슬림 순례자들의 대상이 메카를 오가는 길에 아이드합의 [red_sea_ferry|E]를 통과합니다. 이 여행자들에게 추가 세금을 부과할 수도 있습니다. 아프리카에서 메카로 가는 안전하고 신뢰할 수 있는 경로는 몇 개 없으므로 선택의 여지가 없을 것입니다. 하지만 그렇게 하면 아이드합의 경쟁 항구인 수아킨이 순례자들에게 더 매력적인 목적지가 될 수도 있습니다...." # 9529839564387592765
-  RICE_red_sea_increase_taxes_aydhab_confirm: "네, 시작해 봅시다!" # 331371430259311057
-  RICE_red_sea_increase_taxes_aydhab_context_tooltip: "#bold 역사적 배경:#  메카로 향하는 순례자들을 위한 홍해를 건너는 주요 항구는 아예다브와 같이 몇 군데에 불과했으며, 때로는 그 지배자들은 순례자들에게 추가 세금을 부과했습니다.  하지만, 순례자 유입을 아예다브의 주요 경쟁 도시인 수아킨으로 돌리지 않도록 과도한 세금 부과에 신중해야 했습니다." # 2450219678830573143
-  RICE_red_sea_hajj_extra_taxes_aydhab_trigger_desc: "#V 아이드합#에는 현재 추가 세금이 부과되지 않고 있습니다!" # 7688203826011599539
-  RICE_red_sea_increase_taxes_suakin: "수아킨의 하즈 순례자 세금 증가" # 14790279236476175303
-  RICE_red_sea_increase_taxes_suakin_tooltip: "수아킨의 [ruler|E]으로서, 당신은 [red_sea_ferry|E]를 통과하는 하지 순례자들에게 추가 세금을 부과할 것입니다" # 10765831401282219562
-  RICE_red_sea_increase_taxes_suakin_desc: "매일, 무슬림 순례자들의 대상들이 메카를 오가는 길에 수아킨의 [red_sea_ferry|E]를 통과합니다. 어쩌면 이 여행자들에게 추가 세금을 부과할 수도 있을 것입니다. 아프리카에서 메카로 가는 안전하고 신뢰할 수 있는 길이 많지 않다는 점을 감안하면 그들에게 선택의 여지가 없을 것입니다. 하지만 그렇게 하면 수아킨의 경쟁 항구인 아이다브가 순례자들에게 더 매력적인 목적지가 될 수도 있습니다..." # 15337774417947660729
-  RICE_red_sea_increase_taxes_suakin_confirm: "네, 시작해 봅시다!" # 331371430259311057
-  RICE_red_sea_increase_taxes_suakin_context_tooltip: "#bold 역사적 배경:# 홍해를 건너 메카로 향하는 순례자들을 위한 주요 항구는 수아킨과 같은 소수에 불과했으며, 때때로 그 지역 통치자들은 순례자들에게 추가 세금을 부과했습니다. 그러나 순례자들의 유입을 수아킨의 주요 경쟁 도시인 아이드하브로 돌리는 일이 없도록 조심해야 했습니다." # 5519255234221982561
-  RICE_red_sea_hajj_extra_taxes_suakin_trigger_desc: "현재 #V 수아킨#에서는 추가 세금이 부과되지 않고 있습니다." # 14442952018410826833
-  RICE_red_sea_organized_the_red_sea_ferries: "홍해 페리 조직" # 13049877783163083390
-  RICE_red_sea_organized_the_red_sea_ferries_tooltip: "메카를 오가는 순례자들은 안전한 여행을 할 자격이 있습니다." # 12963607775664682191
-  RICE_red_sea_organized_the_red_sea_ferries_effect_tooltip: "[aydhab_county.GetNameNoTier]와 [suakin_county.GetNameNoTier]의 [rulers|E]는 [red_sea_ferries|E]를 이용하는 하지 순례자에게 세금을 #V 인상하는#! [decision|E]을 할 수 있습니다." # 260653406686369163
-  RICE_red_sea_organized_the_red_sea_ferries_desc: "하지를 수행하는 것은 헌신적인 무슬림에게 위험하지만 중요한 여정입니다. 순례자들의 여정을 더 안전하게 만들기 위해, 저와 이 지역의 다른 무슬림 지도자들은 위험한 바다를 건너 사람들을 수송할 수 있는 신뢰할 수 있는 [red_sea_ferries|E] 자금을 지원하기 위해 노력을 조율해야 합니다." # 7165945388065540602
-  RICE_red_sea_organized_the_red_sea_ferries_confirm: "인샬라, 이것은 많은 순례자들에게 도움이 될 것입니다!" # 16119780902631134249
-  RICE_red_sea_organized_the_red_sea_ferries_context_tooltip: "#emphasis 역사적 배경:# 중세 시대, 메카로 향하는 이슬람 순례자들은 안전하게 여행하기 위해서는 주로 홍해 서쪽의 수아킨과 아이드합, 동쪽의 제다 등 몇몇 항구를 이용해야 했습니다." # 4227643522031504852
+  RICE_red_sea_bought_dairy: "최근에 구매한 염소, 우유, 그리고 버터" # 7359737359935051776
+  RICE_red_sea_bought_ostrich_egg: "최근 구매한 타조 알" # 2743996266769395505
+  RICE_red_sea_bought_slave: "최근에 마음에 드는 새 노예를 구매했습니다" # 4261277263646169300
+  RICE_red_sea_bought_camels: "최근 들여온 튼튼하고 강건한 낙타들" # 7291271547173206091
+  RICE_red_sea_massawa_mosque: "사하바 모스크" # 8921772133434868643
+  RICE_red_sea_massawa_mosque_desc: "마사와 정착지에는 작고 소박하지만 현지 무슬림에게 매우 중요한 모스크가 하나 있습니다. 그곳이 세계에서 가장 일찍 지어진 모스크 중 하나라고 믿어지기 때문입니다. 전설에 따르면, 예언자 무함마드가 박해 때문에 메카를 떠났을 때, 그의 일부 추종자들이 마사와에서 피난처를 찾았고 그곳에 이 모스크를 건축했다고 합니다." # 4613722510576092805
+  RICE_red_sea_aspiration_red_sea_riches: "[aspiration|E]: 홍해를 피 말리게 하다" # 11221399009276471130
+  RICE_red_sea_aspiration_red_sea_riches_desc: "#italic 압바스 왕조의 권력 공백을 이용하고 적들에게 잔혹한 수단을 사용하여, 알-우마리는 동방 사막의 부를 자신의 금고로 채우고 홍해 연안에서 가장 두려운 전쟁 군주로 부상하려 합니다.#!$RICE_red_sea_aspiration_al_umari_desc$" # 7232400784529268187
+  RICE_red_sea_seek_investors_from_aswan: "아스완 투자자 물색" # 4926535241008582437
+  RICE_red_sea_seek_investors_from_aswan_tooltip: "와디 알라끼의 [ruler|E]으로서, 그 광산에 투자할 사람을 찾을 것입니다." # 10552823139683702194
+  RICE_red_sea_seek_investors_from_aswan_effect_tooltip: "와디 알라키 금광의 개발을 돕기 위해 아스완에서 투자자를 찾아 나설 것입니다." # 7768022439908746121
+  RICE_red_sea_seek_investors_from_aswan_effect_tooltip_2: "이것은 이집트 [ruler|E]의 귀하에 대한 [opinion|E]를 #N 감소시킬 수도 있습니다#!" # 12698531568534259815
+  RICE_red_sea_seek_investors_from_aswan_desc: "내가 통치하는 이집트 동부 사막 일부 지역에서 대규모 금광이 최근 발견되었습니다. 이러한 채굴 작업이 장기적으로 수익성이 있으려면, 특히 인근 아스완의 이집트 유력 상인과 귀족들의 투자가 필요할 것입니다." # 11613236394357342508
+  RICE_red_sea_seek_investors_from_aswan_confirm: "아스완의 상인들에게 편지를 써라!" # 7536973538399764509
+  RICE_red_sea_seek_investors_from_aswan_context_tooltip: "#emphasis 역사적 배경:#! 한때 이집트의 파라오들이 와디 알라키에서 금을 채굴했습니다. 10세기에 이 금광들이 재발견되면서 골드러시가 일어났고, 이는 해당 지역, 특히 와디 알라키와 연결된 아이다브와 아스완과 같은 주요 무역 거점에 큰 번영을 가져다주었습니다." # 17683134017526389121
+  RICE_red_sea_sudan_gold_rush_happening: "와디 알라키 [county|E]는 현재 #V 와디 알라키의 골드 러시#! [county_modifier|E]를 보유하고 있습니다." # 16753432905852105822
+  RICE_red_sea_increase_taxes_aydhab: "아이다브에서 하즈 순례자 세금 인상" # 13146558697266292796
+  RICE_red_sea_increase_taxes_aydhab_tooltip: "아이자브의 [ruler|E]로서, 그곳의 [red_sea_ferry|E]를 통과하는 하즈 순례자들에게 추가 세금을 부과하게 됩니다." # 6731754823323566531
+  RICE_red_sea_increase_taxes_aydhab_desc: "매일, 메카를 오가는 무슬림 순례자 대상들이 아이다브의 [red_sea_ferry|E]를 통과합니다. 어쩌면 이 여행객들에게 추가적인 세금을 부과할 수 있을 것입니다 - 아프리카에서 메카로 가는 안전하고 믿을 만한 길이 많지 않으니 그들에게는 다른 선택지가 없을 것입니다. 하지만, 그렇게 하면 아이다브의 경쟁 항구인 수아킨이 순례자들에게 더 매력적인 목적지가 될 수도 있습니다...." # 9529839564387592765
+  RICE_red_sea_increase_taxes_aydhab_confirm: "시작해보지!" # 331371430259311057
+  RICE_red_sea_increase_taxes_aydhab_context_tooltip: "#emphasis 역사적 배경:# 이슬람 성지 메카를 오가는 하즈 순례자들을 홍해를 건너 실어나르던 주요 항구는 아이다브 등 극소수에 불과했습니다. 때때로 이곳의 통치자들은 하즈 순례자들에게 추가적인 세금을 부과하기도 했지만, 지나치게 욕심을 부리면 순례자들이 아이다브의 주요 경쟁 상대인 수아킨으로 경로를 바꾸게 될 수 있었기에 신중해야 했습니다." # 2450219678830573143
+  RICE_red_sea_hajj_extra_taxes_aydhab_trigger_desc: "현재 #V Aydhab#에서는 추가 세금이 부과되고 있지 않습니다!" # 7688203826011599539
+  RICE_red_sea_increase_taxes_suakin: "수아킨에서 하즈 순례자 세금 증액" # 14790279236476175303
+  RICE_red_sea_increase_taxes_suakin_tooltip: "수아킨의 [ruler|E]로서, 그곳의 [red_sea_ferry|E]를 통과하는 하즈 순례자들에게 추가적인 세금을 징수할 것입니다." # 10765831401282219562
+  RICE_red_sea_increase_taxes_suakin_desc: "매일, 무슬림 순례자 대상들이 메카를 오가는 길에 수아킨의 [red_sea_ferry|E]를 통과합니다. 아마 이 여행자들에게 약간의 추가 세금을 부과할 수 있을 것입니다. 아프리카에서 메카까지 안전하고 믿을 수 있는 경로가 그리 많지 않으니 그들에게는 선택의 여지가 없을 것입니다. 하지만, 그렇게 하면 수아킨의 경쟁 항구인 아이다브가 순례자들에게 더 매력적인 목적지가 될 수도 있습니다...." # 15337774417947660729
+  RICE_red_sea_increase_taxes_suakin_confirm: "시작해보지!" # 331371430259311057
+  RICE_red_sea_increase_taxes_suakin_context_tooltip: "#emphasis 역사적 배경:#! 홍해를 가로질러 메카를 오가는 하즈 순례자들을 실어 나르는 주요 항구는 수아킨과 같은 몇 곳뿐이었고, 때때로 그곳의 통치자들은 하즈 순례자들에게 추가 세금을 부과했습니다. 하지만 순례자 교통이 방향을 틀어 수아킨의 주요 경쟁 상대인 아이다브로 가지 않도록, 지나치게 하지 않도록 조심해야 했습니다." # 5519255234221982561
+  RICE_red_sea_hajj_extra_taxes_suakin_trigger_desc: "#V Suakin#에서는 현재 추가 세금이 부과되지 않고 있습니다!" # 14442952018410826833
+  RICE_red_sea_organized_the_red_sea_ferries: "홍해 나룻배를 정비하십시오" # 13049877783163083390
+  RICE_red_sea_organized_the_red_sea_ferries_tooltip: "메카를 오가는 순례자들은 안전한 여행을 보장받아야 합니다." # 12963607775664682191
+  RICE_red_sea_organized_the_red_sea_ferries_effect_tooltip: "[aydhab_county.GetNameNoTier]와 [suakin_county.GetNameNoTier]의 [rulers|E]는 이제 [red_sea_ferries|E]를 이용하는 하즈 순례자들에 대한 세금을 인상하는 [decision|E]인 #V 하즈 순례자에 대한 세금 인상#! 을(를) 내릴 수 있습니다." # 260653406686369163
+  RICE_red_sea_organized_the_red_sea_ferries_desc: "하즈 순례는 모든 경건한 무슬림에게 위험하지만 중요한 여정입니다. 순례자들이 그 여정을 더 안전하게 할 수 있도록, 나와 이 지역의 다른 무슬림 지도자들은 위험한 바다를 건너 사람들을 수송할 수 있는 신뢰할 수 있는 [red_sea_ferries|E]에 자금을 지원하는 노력을 기울여야 합니다." # 7165945388065540602
+  RICE_red_sea_organized_the_red_sea_ferries_confirm: "이것은 많은 순례자들에게 도움이 될 것입니다, 인샬라!" # 16119780902631134249
+  RICE_red_sea_organized_the_red_sea_ferries_context_tooltip: "#emphasis 역사적 배경:#! 중세 시대 동안, 홍해를 건너 메카를 오가는 무슬림 순례자들은 안전하게 여행하려면 몇 안 되는 항구를 통해야 했습니다. 주로 홍해 서쪽에는 수아킨과 아이다브, 동쪽에는 제다가 있었습니다." # 4227643522031504852
   red_sea.0000.t: "xxxxx" # 1951045980481827005
   red_sea.0000.desc: "xxxxx" # 1951045980481827005
   red_sea.0000.a: "xxxxx" # 1951045980481827005
-  red_sea.0001.t: "아스완의 투자" # 8402639233520021999
-  red_sea.0001.desc: "[wadi_allaqi_region.GetNameNoTier] 지역의 금광 개발 작업은 이미 시작되었지만, 이 작업을 확장하기 위해 이집트 [aswan_region.GetNameNoTier] 지역의 투자자들의 도움을 요청했습니다. 이는 광산 마을에 더 많은 이주민을 유치하거나, 용병을 고용하고 정착지를 방어하기 위한 병력을 동원하거나, 지역 인프라를 개발하는 데 사용될 것입니다." # 6415443473521768984
-  red_sea.0001.desc.egypt_ruler: "이집트의 통치자로서, 나는 이러한 투자가 이 왕국의 번영을 증진시키기를 바랍니다. 언젠가는 나의 부가 고대 파라오의 부에 필적할 수 있기를 바랍니다!" # 958692127928066204
-  red_sea.0001.desc.not_egypt_ruler: "그러나 이는 이집트의 현재 통치자 [egypt_ruler.GetTitledFirstName]의 분노를 샀습니다. 우리는 이미 그와 불안정한 관계를 맺고 있으며, [egypt_ruler.GetSheHe]는 우리의 노력을 [egypt_ruler.GetHerHim]에게서 이익을 빼앗고 지역의 경제적 독립을 발전시키려는 움직임으로 보고 있습니다." # 4992449552169532404
-  red_sea.0001.a: "이것은 매우 수익성이 좋은 사업입니다!" # 1111023158316328840
-  red_sea.0002.t: "독립 광업 활동" # 4509943400129536263
-  red_sea.0002.desc: "[gold_miner.GetTitledFirstName](이)가 이집트 상류 지역, 특히 [aswan_region.GetNameNoTier]의 지역 유지 및 상인들에게 [wadi_allaqi_region.GetNameNoTier]의 금광에 투자하라고 연락하고 있다는 사실을 알게 되었습니다. 이집트 전체의 통치자로서 저는 이 사업에서 자원과 이익을 감독하고 할당할 권리가 있지만, [gold_miner.GetFirstNameNoTooltip]은 제 권위를 폄하하는 방식으로 행동합니다!" # 7463409555302906235
-  red_sea.0002.a: "나의 눈엣가시! [gold_miner.GetFirstNameNoTooltip]을 경계해야겠어." # 8509350814149276700
-  red_sea.0003.t: "이슬람 순례자를 위한 홍해 페리" # 4889083152479041386
-  red_sea.0003.desc: "이슬람교는 젊은 신앙이지만, 참된 종교는 이미 전 세계로 빠르게 퍼져 나가고 있습니다. 예를 들어, 상당수의 아프리카 무슬림 순례자들이 매일 메카에 도착합니다. 이 강인한 사람들은 용서할 수 없는 사하라 사막의 위험과 그 이상의 것들을 무릅쓰고 하즈에 참여합니다.\n\n이 헌신적인 무슬림들의 힘겨운 여정을 돕기 위해, 이 지역의 무슬림 지도자들은 홍해의 주요 항구에 여러 척의 페리를 조직하기 위해 자원을 모았습니다. 이전에는 홍해를 건너는 것이 무질서하고 흩어진 일이었습니다. 이제 우리는 더 나은 조직된 기반 시설을 갖추고 있기 때문에 순례자들은 어느 정도 편안함과 안전을 가지고 이 바다를 건널 수 있습니다. 개선의 여지가 항상 있지만, 이는 중요한 성과입니다." # 6365185289799478057
+  red_sea.0001.t: "아스완에서의 투자" # 8402639233520021999
+  red_sea.0001.desc: "비록 [wadi_allaqi_region.GetNameNoTier]라고 알려진 지역의 금광 개발 작업은 이미 시작되었으나, 우리는 이집트의 [aswan_region.GetNameNoTier] 출신 투자자들의 도움을 구했습니다. 이 작업들을 확장하는 데 도움을 받기 위해서인데, 이는 이 채굴 마을들로 더 많은 정착민을 유치하거나, 이 정착지들을 방어하기 위해 용병을 고용하고 병력을 징집하거나, 혹은 지역 인프라를 개발하는 것 등입니다.\n\n" # 6415443473521768984
+  red_sea.0001.desc.egypt_ruler: "이집트의 통치자로서, 나는 이 투자들이 이 영역의 번영을 증진시키기를 희망하오. 어쩌면 언젠가 나의 부가 고대 파라오들의 그것과 비견될 수도 있겠지!" # 958692127928066204
+  red_sea.0001.desc.not_egypt_ruler: "하지만 이것은 이집트의 현 통치자 [egypt_ruler.GetTitledFirstName]의 분노를 샀습니다. 우리는 이미 그와 불편한 관계에 있었으며, [egypt_ruler.GetSheHe]는 우리의 노력을 [egypt_ruler.GetHerHim]의 이윤을 박탈하고 지역의 경제적 독립성을 발전시키려는 시도로 보았기 때문입니다." # 4992449552169532404
+  red_sea.0001.a: "역시, 이것은 아주 수익성 좋은 사업이로군!" # 1111023158316328840
+  red_sea.0002.t: "독립 광업 운영" # 4509943400129536263
+  red_sea.0002.desc: "내 귀에 들어온 바로는 [gold_miner.GetTitledFirstName]가 상이집트, 특히 [aswan_region.GetNameNoTier]의 지역 귀족 및 상인들과 접촉하며, [wadi_allaqi_region.GetNameNoTier]의 금광에 투자하는 것에 대해 이야기하고 있다고 하오. 이집트 전체의 지배자로서, 이 사업의 자원과 수익을 감독하고 분배할 권리는 나에게 있거늘, [gold_miner.GetFirstNameNoTooltip]는 내 권위를 깎아내리는 방식으로 행동하고 있소!" # 7463409555302906235
+  red_sea.0002.a: "눈엣가시로군! [gold_miner.GetFirstNameNoTooltip]를 경계해야 할 필요가 있군." # 8509350814149276700
+  red_sea.0003.t: "홍해 무슬림 순례선" # 4889083152479041386
+  red_sea.0003.desc: "이슬람은 신생 신앙이지만, 진정한 신앙은 이미 세계 전역으로 빠르게 확산되고 있습니다. 예를 들어, 아프리카 출신의 상당수 무슬림 순례자들이 매일 메카에 도착합니다. 이 강건한 영혼들은 용서 없는 사하라 사막 등의 위험을 무릅쓰고 오직 하즈에 참여하기 위해섭니다.\n\n이 경건한 무슬림들의 힘겨운 여정을 돕기 위해, 이 지역의 무슬림 지도자들은 자원을 모아 홍해 연안의 주요 항구들에서 여러 척의 페리선을 조직했습니다. 이전에는 그곳을 건너는 것이 무질서하고 분산된 일이었습니다. 이제 더 잘 조직된 인프라가 갖춰졌기에, 순례자들은 어느 정도 편안함과 안전을 가지고 이 물길을 건널 수 있습니다. 개선할 여지는 언제나 있지만, 이것은 그럼에도 불구하고 중요한 성과입니다." # 6365185289799478057
   red_sea.0003.a: "알함둘릴라!" # 6236614661490064245
-  red_sea.0003.b: "알겠습니다...." # 7817620493409054810
-  red_sea.0004.t: "동료들의 모스크" # 8921772133434868643
-  red_sea.0004.desc: "홍해에서 무슬림의 영향력이 점점 강해짐에 따라 [massawa_county.GetNameNoTier]의 많은 무슬림들은 자신들의 신앙의 생존이 불확실했던 어렵고 초기 시절을 기억하고 있습니다. 그 시기에 예언자 무함마드의 동료들을 포함한 소수의 무슬림 무리가 항구 도시로 피신하여 작은 모스크를 세웠습니다. 일부에서는 지금도 서 있는 이 건물이 세계 최초의 모스크라고 주장하기도 합니다.\n\n어쨌든, 동료들의 모스크로 알려진 이 모스크는 이와 관련된 전설 때문에 무슬림 세계에서 더 큰 명성과 명성을 얻었습니다. 이것은 분명히 이 지역에서 [massawa_county.GetNameNoTier]의 위상에 좋은 징조입니다." # 8976921239656928525
-  red_sea.0004.a: "흥미롭군요!" # 10192862565275920482
+  red_sea.0003.b: "알겠습니다..." # 7817620493409054810
+  red_sea.0004.t: "사하바 모스크" # 8921772133434868643
+  red_sea.0004.desc: "홍해에 이슬람 세력이 점점 더 강력해짐에 따라, [massawa_county.GetNameNoTier]의 많은 무슬림들은 자신들의 신앙 생존이 불확실했던 어려운 초기 시절을 떠올리고 있습니다. 바로 그때, 소수의 무슬림 집단이 예언자 무함마드의 동반자 몇몇을 포함하여 이 항구 도시에 피난하여 그곳에 작은 모스크를 세웠습니다. 심지어 아직도 서 있는 이 건물이 세계 최초의 모스크라고 주장하는 이들도 있습니다.\n\n어떻든 간에, 지금은 동반자의 모스크로 알려진 이 모스크는 이와 관련된 전설 때문에 무슬림 세계에서 더 큰 명성과 명성을 얻었습니다. 이는 분명히 이 지역에서 [massawa_county.GetNameNoTier]의 위신에 좋은 징조입니다." # 8976921239656928525
+  red_sea.0004.a: "흥미롭군!" # 10192862565275920482
   red_sea.0005.t: "xxxxx" # 1951045980481827005
   red_sea.0005.desc: "xxxxx" # 1951045980481827005
   red_sea.0005.a: "xxxxx" # 1951045980481827005
@@ -166,22 +166,22 @@
   red_sea.0009.t: "xxxxx" # 1951045980481827005
   red_sea.0009.desc: "xxxxx" # 1951045980481827005
   red_sea.0009.a: "xxxxx" # 1951045980481827005
-  red_sea.0010.t: "아이드합의 추가 세금" # 518181126952608720
-  red_sea.0010.desc: "메카를 오가는 순례자 대상의 대규모 캐러밴이 [aydhab_region.GetNameNoTier]의 중요한 항구를 통과하며 홍해를 안전하게 건너는 대가로 지불하는 세금을 통해 이미 저에게 주요 수입원이 되고 있습니다. 일부는 순례자들에게 추가 세금을 부과하는 저의 새로운 정책을 잔인하고 부당하다고 볼 수도 있지만, 저는 제 금고에 더 많은 부를 가져오는 데 필요하다고 결정했으며 [aydhab_region.GetNameNoTier]의 많은 엘리트들이 이 아이디어에 동참하고 있습니다. 어쨌든, 저는 홍해를 따라 [aydhab_region.GetNameNoTier]의 전통적인 경쟁자인 [suakin_region.GetNameNoTier]의 엘리트들이 이러한 발전을 매우 관심 있게 지켜보고 있다는 것을 알고 있습니다…." # 5895788956141913297
-  red_sea.0010.a: "아이드하브의 순례자들로부터 더 많은 이익을 얻을 수도 있겠군!" # 1526454860599740179
-  red_sea.0011.t: "아이드하브 추가 세금" # 518181126952608720
-  red_sea.0011.desc: "최근에 [extra_taxer.GetTitledFirstName]께서 [aydhab_region.GetNameNoTier]의 통치자로서 메카를 오가는 하즈 순례자들이 도시 항구를 지날 때 추가 세금을 부과하기로 결정했다는 소식을 들었습니다. 실용적인 관점에서 볼 때 나쁜 생각은 아닙니다. 아프리카에서 홍해를 건너 여행하려는 순례자들에게 안전하고 신뢰할 수 있는 항구는 매우 적기 때문입니다.\n\n하지만 제가 통치하는 [suakin_region.GetNameNoTier]도 #italic 다른#! 항구 중 하나입니다. 사실 [suakin_region.GetNameNoTier]의 엘리트들은 전통적으로 [aydhab_region.GetNameNoTier]를 자신들의 라이벌로 여겨 왔습니다." # 4912722576635788730
-  red_sea.0011.desc.no_tax: "이 귀족들 중 일부는 [extra_taxer.GetFirstNamePossessiveNoTooltip] 정책이 시야가 좁다고 말하며, [suakin_region.GetNameNoTier]로 순례자들을 불러들일 것이라고 주장합니다. 다른 이들은 우리가 통과하는 모든 순례자에게 직접 추가 세금을 부과하는 것도 나쁘지 않을 수 있다고 말합니다!" # 9389639839336414180
-  red_sea.0011.desc.tax: "공정하게 말하자면, 우리 스스로도 [suakin_region.GetNameNoTier]을 통과하는 순례자들에게 추가 세금을 부과해 왔으니, [extra_taxer.GetTitledFirstNameNoTooltip]은 단순히 우리의 냉소적인 책략을 모방하는 것으로 보입니다." # 6997112200840148550
-  red_sea.0011.a: "아이다브에서 흥미로운 발전이 일어나고 있군요." # 8801557605689642100
-  red_sea.0012.t: "수아킨의 추가 세금" # 17954236271433845349
-  red_sea.0012.desc: "메카를 오가는 순례자 행렬이 [suakin_region.GetNameNoTier]의 중요한 항구를 지나면서 이미 제게 상당한 수입을 가져다주고 있습니다. 그들은 홍해를 안전하게 건너기 위해 세금을 내기 때문입니다. 일부는 순례자들에게 추가 세금을 부과하는 제 새로운 정책을 잔혹하고 불공정하다고 여길 수 있지만, 저는 제 창고에 더 많은 재산을 가져오는 데 필요하다고 판단했으며 [suakin_region.GetNameNoTier]의 많은 엘리트들도 이 생각에 동의합니다. 어쨌든 저는 홍해를 따라 [suakin_region.GetNameNoTier]의 전통적인 라이벌인 [aydhab_region.GetNameNoTier]의 엘리트들이 이 발전을 큰 관심을 가지고 지켜보고 있다는 것을 알고 있습니다..." # 3892126951567255410
-  red_sea.0012.a: "수아킨의 순례자들로부터 더 많은 이득을 얻을 수도 있겠군요!" # 18313266579191070886
-  red_sea.0013.t: "수아킨의 추가 세금" # 17954236271433845349
-  red_sea.0013.desc: "최근에 저는 [suakin_region.GetNameNoTier]의 통치자인 [extra_taxer.GetTitledFirstName]이 메카를 오가는 길에 도시 항구를 통과하는 모든 하지 순례자에게 추가 세금을 부과하기로 결정했다는 소식을 들었습니다. 실용적인 관점에서 보면 나쁜 생각은 아닙니다. 홍해를 건너 여행하려는 아프리카 순례자들에게 안전하고 신뢰할 수 있는 항구는 거의 없기 때문입니다.\n\n하지만 제가 다스리는 [aydhab_region.GetNameNoTier]가 #italic 다른#! 항구 중 하나입니다. 사실 [aydhab_region.GetNameNoTier]의 엘리트들은 전통적으로 [suakin_region.GetNameNoTier]를 그들의 라이벌로 여겨 왔습니다." # 12715236485254514588
-  red_sea.0013.desc.no_tax: "일부 고위 인사들은 [extra_taxer.GetFirstNamePossessiveNoTooltip]의 정책이 근시안적이라고 말합니다. 이는 [aydhab_region.GetNameNoTier]로 더 많은 순례자를 불러들일 것이기 때문입니다. 다른 사람들은 우리 영지를 지나는 순례자들에게 추가 세금을 부과하는 것이 나쁘지 않을 것이라고 말합니다!" # 13419240207372198368
-  red_sea.0013.desc.tax: "솔직히 말해서, 우리 스스로도 [aydhab_region.GetNameNoTier]를 통과하는 순례자들에게 추가 세금을 부과하고 있었으니, [extra_taxer.GetTitledFirstNameNoTooltip]는 우리의 냉소적인 책략을 그저 모방하는 것으로 보입니다." # 11961004397970193706
-  red_sea.0013.a: "하지만 수아킨에서 벌어지는 상황은 흥미롭군요." # 13052942943208235136
+  red_sea.0010.t: "아이드합 추가 세금" # 518181126952608720
+  red_sea.0010.desc: "메카를 오가며 [aydhab_region.GetNameNoTier]의 중요한 항구를 통과하는 수많은 순례자 대상단은 홍해를 가로지르는 안전 통행에 대해 그들이 내는 세금을 통해 이미 저에게 주요 수입원이 되고 있습니다. 일부에서는 이 순례자들에게 추가 세금을 부과하는 저의 새로운 정책을 잔혹하고 부당하다고 볼 수도 있지만, 저는 이것이 제 금고에 더 많은 부를 가져오기 위해 필요하다고 결정했으며, [aydhab_region.GetNameNoTier]의 많은 엘리트층 역시 이 생각에 찬성하고 있습니다. 어쨌든, 저는 [aydhab_region.GetNameNoTier]의 홍해 연안 전통적인 경쟁자인 [suakin_region.GetNameNoTier]의 엘리트층이 이러한 상황을 큰 관심으로 주시하고 있다는 것을 알고 있습니다…." # 5895788956141913297
+  red_sea.0010.a: "아이다브의 순례자들에게서 이익을 더 거두는 것도 나쁘지 않겠군!" # 1526454860599740179
+  red_sea.0011.t: "아이드합 추가 세금" # 518181126952608720
+  red_sea.0011.desc: "[aydhab_region.GetNameNoTier]의 통치자 [extra_taxer.GetTitledFirstName]께서 최근 메카로 향하거나 돌아오는 길에 해당 도시의 항구를 지나는 모든 하자르 순례자들에게 추가 세금을 징수하기로 결정했다는 소식을 방금 접했습니다. 실용적인 관점에서 보자면 그리 나쁜 생각은 아닙니다. 홍해를 건너고자 하는 아프리카 출신 순례자들에게 안전하고 신뢰할 수 있는 항구는 극히 드물기 때문입니다.\n\n하지만 공교롭게도 제가 다스리는 [suakin_region.GetNameNoTier] 역시 #italic 그 다른#! 항구들 중 하나입니다. 사실 [suakin_region.GetNameNoTier]의 엘리트들은 전통적으로 [aydhab_region.GetNameNoTier]를 자신들의 경쟁 상대로 여겨왔습니다." # 4912722576635788730
+  red_sea.0011.desc.no_tax: "이들 귀족 중 일부는 제게 [extra_taxer.GetFirstNamePossessiveNoTooltip] 정책은 단기적인 시야에 그친다고 말했습니다. 이는 대신 [suakin_region.GetNameNoTier]로 더 많은 순례자들을 끌어들일 것이기 때문입니다. 또 다른 이들은 우리가 직접 통과하는 순례자들에게 추가 세금을 부과하는 것도 나쁘지 않은 생각이라고 합니다!" # 9389639839336414180
+  red_sea.0011.desc.tax: "솔직히 말해, 우리 스스로도 어쨌든 [suakin_region.GetNameNoTier]를 지나는 순례자들에게 추가 세금을 징수하고 있었으니, [extra_taxer.GetTitledFirstNameNoTooltip]가 우리의 냉소적인 술책을 그저 모방하고 있을 뿐인 것 같습니다." # 6997112200840148550
+  red_sea.0011.a: "아이다브에서는 그럼에도 불구하고 흥미로운 전개가 벌어지고 있군." # 8801557605689642100
+  red_sea.0012.t: "수아킨에서의 추가 세금" # 17954236271433845349
+  red_sea.0012.desc: "수많은 순례자 행렬이 메카를 오가며 [suakin_region.GetNameNoTier]의 주요 항구를 지나고 있습니다. 이들은 홍해를 안전하게 건너기 위해 세금을 지불하며 이미 저에게 큰 수입원이 되고 있습니다.\n일부는 이 순례자들에게 추가 세금을 부과하는 저의 새로운 정책을 잔인하고 부당하다고 볼 수도 있지만, 저는 제 금고에 더 많은 부를 가져오기 위해 이것이 필요하다고 결정했습니다. 그리고 [suakin_region.GetNameNoTier]의 많은 엘리트들이 이 생각에 동의하고 있습니다.\n어쨌든, 저는 홍해 연안에 위치한 [suakin_region.GetNameNoTier]의 전통적인 경쟁 상대인 [aydhab_region.GetNameNoTier]의 엘리트들이 이러한 전개를 큰 관심을 가지고 지켜보고 있다는 것을 알고 있습니다…." # 3892126951567255410
+  red_sea.0012.a: "수아킨 순례자들로 더 돈을 벌어봐야겠군!" # 18313266579191070886
+  red_sea.0013.t: "수아킨에서의 추가 세금" # 17954236271433845349
+  red_sea.0013.desc: "최근 [suakin_region.GetNameNoTier]의 통치자인 [extra_taxer.GetTitledFirstName]께서 메카를 오가는 길에 도시의 항구를 거치는 하지 순례자들에게 추가 세금을 부과하기로 결정했다는 소식을 들었습니다. 현실적인 관점에서 보면 나쁜 아이디어는 아닙니다. 홍해를 건너 여행하려는 아프리카 출신 순례자들에게 안전하고 신뢰할 수 있다고 여겨지는 항구는 극히 드물기 때문입니다.\n\n하지만 제가 다스리는 [aydhab_region.GetNameNoTier]가 바로 그 #italic 다른# 항구 중 하나라는 사실이 있습니다. 사실, [aydhab_region.GetNameNoTier]의 엘리트층은 전통적으로 [suakin_region.GetNameNoTier]를 그들의 경쟁자로 여겨왔습니다." # 12715236485254514588
+  red_sea.0013.desc.no_tax: "이들 엘리트 중 일부는 [extra_taxer.GetFirstNamePossessiveNoTooltip] 정책이 대신 [aydhab_region.GetNameNoTier]로 순례자들을 더 끌어들일 것이므로 근시안적이라고 내게 말했습니다. 다른 이들은 지나가는 어떤 순례자에게든 우리가 직접 추가적인 세금을 징수하는 것이 나쁘지 않을 수도 있다고 말합니다!" # 13419240207372198368
+  red_sea.0013.desc.tax: "솔직히 말해, 우리 자신도 어쨌든 [aydhab_region.GetNameNoTier]을 지나는 순례자들에게 추가 세금을 부과해 왔으니, [extra_taxer.GetTitledFirstNameNoTooltip]는 그저 우리의 냉소적인 책략을 따라 하는 것일 뿐인 듯하네." # 11961004397970193706
+  red_sea.0013.a: "수아킨에서 벌어지는 일들은 그럼에도 불구하고 흥미롭습니다." # 13052942943208235136
   red_sea.0014.t: "xxxxx" # 1951045980481827005
   red_sea.0014.desc: "xxxxx" # 1951045980481827005
   red_sea.0014.a: "xxxxx" # 1951045980481827005
@@ -200,31 +200,31 @@
   red_sea.0019.t: "xxxxx" # 1951045980481827005
   red_sea.0019.desc: "xxxxx" # 1951045980481827005
   red_sea.0019.a: "xxxxx" # 1951045980481827005
-  red_sea.0020.t: "알우마리의 이야기" # 14671632518708134589
-  red_sea.0020.desc: "나는 조언가들의 경고를 비웃었다.\n\n그들은 내가 너무 무모하다고, 너무 탐욕스럽다고, 너무 피에 굶주렸다고 말했다.\n\n최근의 실패로 겸손해진 것은 사실이지만, 칼리파의 영광을 위해 이 동부 사막의 오지를 통제하려는 나의 열정과 신앙의 정도를 그들은 깨닫지 못하는 것인가? 이전 칼리파의 총독들과 관리들은 [wadi_allaqi_region.GetNameNoTier]에 숨겨진 막대한 미개척 부를 깨닫지 못했지만, 나는 이 땅에 왔을 때 다르게 보았다." # 5094013761675511529
-  red_sea.0020.a: "어떻게 여기에 오게 되었지?" # 6469542646808160496
-  red_sea.0021.t: "알-'우마리의 기원" # 8445022119899465397
-  red_sea.0021.desc: "나는 오래전 메디나에서 태어났으며, 칼을 쓰는 자나 돈을 다루는 자가 아니라 글과 배움을 좇는 자로 시작했습니다. 적들이 나에게 가하는 무자비함에도 불구하고, 나는 여전히 마음속 깊이 학자이며, #italic 하디스#!를 깊이 연구했고 시를 막힘없이 암송할 수 있습니다. 나의 여행은 명목상 아바스 왕조가 다스리는 모든 땅, 수년간 공부했던 푸스타트에서 영적 중심지인 카이루안에 이르기까지 펼쳐졌습니다. 이러한 경험들이 나를 형성했고 내가 누구인지 만들었으며, 특히..." # 505660414597789714
-  red_sea.0021.a: "오래전 일이지만 지금도 좋게 기억하는 메디나에서의 어린 시절." # 2811663893095441427
-  red_sea.0021.b: "푸스타트의 스승님들께서 삶과 철학, 신앙에 대해 많은 것을 가르쳐 주셨을 때." # 3302962554650408612
-  red_sea.0021.c: "위대한 카이루안에서는 학자들뿐만 아니라 상인과 모험가들도 만날 수 있었습니다." # 5309376549955891969
-  red_sea.0022.t: "알 우마리의 계획" # 10173768776867676793
-  red_sea.0022.desc: "일련의 사건을 통해 나일강과 홍해 사이의 건조한 땅인 동부 사막에 발을 들여놓게 되었습니다. 박식하고 독실한 학자라는 명성 덕분에 저는 [wadi_allaqi_region.GetNameNoTier]에 거점을 마련하는 데 도움을 준 많은 추종자들을 끌어들였고, 그곳에서 대규모 채굴 작업을 시작했으며, 특히 금 채굴이 가장 두드러졌습니다. 수익은 막대했습니다. 하지만 저와 제 전사들이 남쪽의 이교도들을 막아냈음에도 불구하고, 저의 존재는 이집트의 무슬림 총독들에게 위협으로 여겨졌습니다.\n\n결국 저는 이러한 수단 족장들의 사소한 다툼에 개입하여 그들의 땅을 약탈하고 노예를 얻기 위해 그들의 정착지를 습격했으며, 동시에 이집트 총독인 [ibn_tulun.GetTitledFirstName]과도 여러 차례 충돌했습니다. 아아, 저는 감당할 수 있는 것보다 더 많이 물어뜯었고, [wadi_allaqi_region.GetNameNoTier] 산악 지대에 있는 저의 기지로 쫓겨났습니다. 그곳에는 많은 수익성 있는 광산이 있습니다.\n\n이제 상처를 핥고 난 후, 저는 지역 강자로서의 위상을 재확인할 준비를 할 것입니다. 어떤 이들은 저에게 너무 무모하거나, 너무 탐욕스럽거나, 너무 피에 굶주리지 말라고 경고하지만, 저는 이제 더 늙고 현명해졌습니다. 저는 앞으로의 행보에 대해 신중하게 생각했습니다." # 16243009231911398316
-  red_sea.0022.a: "[ibn_tulun.GetTitledFirstName]은(는) 내가 [ibn_tulun.GetHerHis]보다 못하지 않다면 [ibn_tulun.GetHerHis]의 동등한 자격으로 나를 받아들일 것입니다!" # 10102599834605998269
-  red_sea.0022.b: "저는 수단의 이교도들에 대한 공격으로 계속해서 이익을 얻을 것입니다." # 1622423119095307061
-  red_sea.0022.c: "어쩌면 [ibn_tulun.GetTitledFirstName]님과 저는 합의하여 함께 일할 수 있을지도 모릅니다." # 7202291570772341316
-  red_sea.0022.d: "채굴 사업 확장에 집중해야 합니다. 부를 쌓아야죠!" # 5490710962346990481
+  red_sea.0020.t: "알-우마리의 이야기" # 14671632518708134589
+  red_sea.0020.desc: "내 고문들의 경고를 비웃었다.\n그들은 내가 너무 무모하다고 했다. 그들은 내가 너무 탐욕스럽다고 했다. 그들은 내가 너무 잔혹하다고 했다.\n물론, 최근의 좌절로 깨달음을 얻긴 했지만, 그들은 칼리프국의 영광을 위해 동부 사막의 이 후미진 지역을 통제하려는 나의 열정과 신념의 깊이를 깨닫지 못하는 것인가?\n칼리프국의 이전 총독들과 관료들은 [wadi_allaqi_region.GetNameNoTier]에 숨겨진 막대하고 아직 개발되지 않은 부를 깨닫지 못했다. 하지만 나는 이 땅에 왔을 때 다르게 보았다." # 5094013761675511529
+  red_sea.0020.a: "내가 어찌 이곳에 오게 되었나?" # 6469542646808160496
+  red_sea.0021.t: "알 우마리의 기원" # 8445022119899465397
+  red_sea.0021.desc: "저는 오래 전 메디나에서 태어났습니다. 검술가도, 상인도 아닌, 문예와 학문에 전념하는 사람으로 시작했습니다.\n제 적들이 저를 아무리 냉혹하다 평할지라도, 저는 본질적으로 #italic 하디스#!를 깊이 연구하고 시를 막힘없이 읊을 수 있는 학자입니다.\n제 여정은 수년간 공부했던 푸스타트부터 카이르완의 정신적 중심지까지, 아바스 왕조가 명목상 지배하던 모든 땅을 거쳤습니다.\n이러한 경험들이 저를 빚고 현재의 저를 만들었습니다. 특히..." # 505660414597789714
+  red_sea.0021.a: "오래전 일이기는 하지만, 메디나에서 보낸 내 어린 시절을 애틋하게 기억한다." # 2811663893095441427
+  red_sea.0021.b: "푸스타트의 스승들은 나에게 삶, 철학, 신앙에 대해 많은 것을 가르쳐 주었다." # 3302962554650408612
+  red_sea.0021.c: "위대한 카이르완, 그곳에서 나는 학자들뿐만 아니라 상인들과 모험가들도 만났다." # 5309376549955891969
+  red_sea.0022.t: "알-우마리의 계획" # 10173768776867676793
+  red_sea.0022.desc: "일련의 사건들을 통해 나는 나일 강과 홍해 사이의 메마른 땅, 동부 사막으로 우연히 발을 들였다. 박식하고 경건한 학자로서의 명성 덕분에, 나는 [wadi_allaqi_region.GetNameNoTier]에 거점을 마련하도록 돕는 많은 추종자들을 끌어모았다. 그곳에서 우리는 대규모 광산 운영을 시작했고, 특히 금 채굴이 두드러졌다. 이익은 엄청났다. 그러나 비록 나와 내 전사들이 남쪽의 이교도들을 막아냈음에도 불구하고, 이집트의 무슬림 총독들은 나의 존재를 위협으로 여겼다.\n\n결국 나는 이 수단 부족장들의 사소한 다툼에 개입하여 그들의 땅을 황폐화시키고 정착지를 습격하여 노예로 삼았다. 그리고 동시에 이집트 총독 [ibn_tulun.GetTitledFirstName]와도 여러 차례 충돌했다. 아, 나는 감당할 수 있는 것보다 더 큰 것을 물었고, 많은 수익성 좋은 광산들이 있는 [wadi_allaqi_region.GetNameNoTier] 산맥에 있는 내 거점으로 밀려났다.\n\n이제 상처를 핥은 뒤, 지역 강자로서 나 자신을 재확립할 준비를 할 것이다. 어떤 이들은 내게 너무 무모하거나, 너무 탐욕스럽거나, 너무 잔혹해지지 말라고 경고하지만, 나는 이제 더 나이가 들고 현명해졌다. 내 다음 단계에 대해 신중하게 생각했다." # 16243009231911398316
+  red_sea.0022.a: "[ibn_tulun.GetTitledFirstName]는 나를 [ibn_tulun.GetHerHis] 동등한 자로, 아니 [ibn_tulun.GetHerHis] 우월한 자로 받아들일 것이다!" # 10102599834605998269
+  red_sea.0022.b: "나는 계속해서 수단의 이교도들을 공격하여 이익을 얻을 것이다." # 1622423119095307061
+  red_sea.0022.c: "어쩌면 [ibn_tulun.GetTitledFirstName]와 제가 합의를 보고 함께 협력할 수 있을지도 모릅니다." # 7202291570772341316
+  red_sea.0022.d: "내 광산 개발 확대에 집중해야겠어. 재물이 최고지!" # 5490710962346990481
   red_sea.0023.t: "알-우마리의 야망" # 6095905817446127284
-  red_sea.0023.desc: "이번에는 실수를 반복하지 않고, 이전보다 더 위대해질 것이다! 나는 칼리파의 후손이다! 나는 #italic 하디스#!와 시를 통달한 학자이다! 나는 북쪽의 툴룬 왕조와 남쪽의 수단의 이교도들의 심장에 공포를 심어주는 군벌이다! 나는 동부 사막을 황량한 모래와 바위의 공허에서 나일강의 도시들과 홍해의 항구로 매일 금과 에메랄드를 운반하는 대상들로 가득 찬 번성하는 광산의 땅으로 바꾼 모험가이다!" # 16529110616086342140
-  red_sea.0023.desc.focus_tulun: "저는 [ibn_tulun.GetTitledFirstName]이 가하는 위협을 중화하는 데 집중할 것입니다. 이집트의 통치자로서, [ibn_tulun.GetSheHe]은 제가 홍해와 동부 사막을 따라 이 땅을 통제하고 있다는 사실에 격분하여 제가 내딛는 모든 발걸음에 대해 음모를 꾸밀 것입니다. 이미 [ibn_tulun.GetHerHim]을 두 번이나 격퇴했지만, 저는 경계를 늦추지 않고 조심해야 합니다. 제가 [ibn_tulun.GetHerHis]의 눈엣가시인 만큼, [ibn_tulun.GetSheHe] 역시 제 눈엣가시이기 때문입니다." # 12374856628006197624
-  red_sea.0023.desc.focus_nubia: "저는 수단의 야만인들을 계속 공격하는 데 집중할 것입니다. 수년간 저는 그들을 습격하여 노예로 삼았고, 저의 귀한 금광만큼 많은 이익을 얻었습니다. 제가 이 족장들이 얼마나 강력할 수 있는지 과소평가한 것은 실수였습니다. 하지만 노예 무역은 너무나도 수익성이 높은 수입원이므로, 이전의 실수로부터 배우면서 더 교활해질 것입니다." # 4357918235868131944
-  red_sea.0023.desc.focus_allies: "저는 [ibn_tulun.GetTitledFirstName]와 모종의 합의를 이루도록 노력하는 데 집중하겠습니다. 제가 [ibn_tulun.GetHerHim]을 두 번이나 꺾었으니, [ibn_tulun.GetSheHe]가 거부한다면 바보일 것입니다. 자존심을 버리는 것은 쉽지 않지만, 저는 [ibn_tulun.GetSheHe]와 제가 이익과 공동의 적을 공유한다고 생각합니다. 그러니 서로의 차이를 화해할 수 있다면 남쪽의 이교도들을 상대로 번영하고 승리할 수 있을지도 모릅니다." # 5682330268381237227
-  red_sea.0023.desc.focus_build: "저는 [wadi_allaqi_region.GetNameNoTier]의 광업 기반 시설을 개발하는 데 노력을 집중할 것입니다. 이전에 제가 너무 무모했다고 말했던 부하들의 말이 옳았다는 것을 인정해야 합니다. 저는 교훈을 얻었습니다. 이제 대신 부를 축적하고 제 대의에 추종자들을 끌어들여 힘을 키울 것입니다. 제 본거지를 확보해야만 [ibn_tulun.GetTitledFirstName]과 수단의 이교도들을 모두 공격할 수 있을 것입니다." # 8604002354172183201
-  red_sea.0023.a: "이번에는 성공할 것이고, 이 지역 최고의 전쟁 영주가 될 것이다." # 14946518671306600942
-  red_sea.0023.info: "#emphasis 역사적 배경:#! 850년대 어느 시기에 이집트에 도착한 알-움라리는 학자, 모험가, 상인으로서 쌓아온 상당한 부를 이미 가지고 있었습니다.\n\n알-움라리는 노예 무역과 와디 알라키 지역의 광산에 투자했으며, 아스완에 기반을 구축한 후 지역 정치 분쟁에 휘말렸습니다. 그의 광산 사업은 누비아로의 악명 높은 노예 습격으로 유지되었으며, 노예는 엄청난 수로 잡혀갔습니다. 맘루크 시대의 후대 역사가 알-막리지에 따르면, 아스완 지역 남자들의 대부분의 측실들은 누비아 노예였습니다. 시간이 지나면서, 그는 정당한 이유 없이 잔혹한 명성을 얻었습니다.\n\n이집트에 있던 알-움라리의 존재는 이집트 국가의 권력을 중앙집권하려던 새로운 아바스 왕조 총독 이븐 툴룬에게 큰 우려거리였습니다. 868년에 이븐 툴룬의 군대는 알-움라리를 굴복시키기 위해 파견되었지만 완전히 패배했습니다. 결국, 알-움라리의 잔혹함이 그의 몰락을 가져왔습니다. 그의 동료들이 그를 살해하고 그의 머리를 이븐 툴룬에게 보냈습니다. 이븐 툴룬은 개인적으로는 라이벌의 죽음에 기뻐했을 가능성이 높지만, 공개적으로 알-움라리의 머리를 큰 존경심을 가지고 방부 처리하고 매장했으며, 그 머리를 전달한 자들의 배신을 요약 처형으로 응징했습니다.\n\n전반적으로, 알-움라리의 삶은 이 시대에 아바스 왕조 국가를 희생시키면서 자신만의 사적인 부와 권력을 구축하려는 전쟁 지도자들의 성장하는 권력을 반영합니다." # 8858409165912946221
+  red_sea.0023.desc: "이번에는 실수를 되풀이하지 않고 이전보다 더욱 위대해질 것이다! 나는 칼리프의 후예다! 나는 #italic 하디스#!와 시를 통달한 학자다! 나는 북쪽의 툴룬 왕조와 남쪽 수단의 이교도들에게 병사들로 공포를 심어주는 전쟁군주다! 나는 동부 사막을 불모의 모래와 암석 벌판에서 번성하는 광산의 땅으로 바꾸고, 매일 카라반들이 나일 강 유역 도시와 홍해 항구로 금과 에메랄드를 실어 나르는 수완 좋은 모험가다!" # 16529110616086342140
+  red_sea.0023.desc.focus_tulun: "[ibn_tulun.GetTitledFirstName]가 가하는 위협을 무력화하는 데 노력을 집중할 것이다. 이집트의 통치자로서, [ibn_tulun.GetSheHe]는 내가 홍해와 동부 사막 연안의 땅을 통치한다는 사실에 격분하고 있으며, 내가 나아가는 모든 단계마다 나를 상대로 음모를 꾸밀 것이다. 비록 내가 [ibn_tulun.GetHerHim]를 이미 두 번 격파했지만, 경계하고 방심하지 말아야 한다. 왜냐하면 내가 [ibn_tulun.GetHerHis]에게 가시 같은 존재인 만큼, [ibn_tulun.GetSheHe]도 내게 가시 같은 존재이기 때문이다." # 12374856628006197624
+  red_sea.0023.desc.focus_nubia: "나는 수단의 야만인들을 향한 공격을 계속하는 데 노력을 집중할 것이다.\n수년간 나는 그들을 습격하여 노예를 얻었고, 귀금속 광산만큼이나 많은 수익을 올렸다.\n이 족장들이 얼마나 강력할 수 있는지 과소평가하는 실수를 저지르긴 했다.\n하지만 노예 무역은 너무나 수익성 높은 수입원이므로, 과거의 실수를 통해 배우며 그저 더욱 교활하게 대처할 것이다." # 4357918235868131944
+  red_sea.0023.desc.focus_allies: "[ibn_tulun.GetTitledFirstName]와 모종의 합의를 마련하는 데 노력을 집중할 것입니다. [ibn_tulun.GetHerHim]를 두 번이나 패배시켰으니, [ibn_tulun.GetSheHe]가 거절한다면 어리석은 일이 될 것입니다. 자존심을 굽히는 것은 쉽지 않지만, [ibn_tulun.GetSheHe]와 저에게는 공동의 이익과 공동의 적이 있다고 믿습니다. 그러니 차이점을 화해시킬 수 있다면, 남쪽의 이교도들에 맞서 번영하고 승리할 수 있을지도 모릅니다." # 5682330268381237227
+  red_sea.0023.desc.focus_build: "[wadi_allaqi_region.GetNameNoTier]의 광업 기반시설 개발에 주력할 것입니다. 이전에도 신하들 중 일부가 제 행동이 너무 무모했다고 했던 말들이 옳았음을 인정하지 않을 수 없습니다. 교훈을 얻었습니다. 이제 그 대신 부를 쌓고 대의에 따를 추종자를 모아 세력을 키울 것입니다. 기반을 확고히 다졌을 때 비로소 [ibn_tulun.GetTitledFirstName]와 수단의 이교도들을 공격할 수 있을 것입니다." # 8604002354172183201
+  red_sea.0023.a: "이번에는 성공하여, 이 지역의 가장 위대한 무장이 될 것이다." # 14946518671306600942
+  red_sea.0023.info: "#emphasis 역사적 배경:#! 서기 850년대 알-우마리가 이집트에 도착했을 당시, 그는 이미 학자, 모험가, 상인으로서 수년간 축적한 상당한 부를 가지고 있었습니다.\n\n알-우마리는 노예 무역과 와디 알라키 주변 지역의 광산에 투자했으며, 아스완에 거점을 마련한 후에는 현지 정치 갈등에 휘말렸습니다. 그의 광산 사업은 누비아를 대상으로 한 악명 높은 노예 습격으로 유지되었습니다. 노예는 너무나도 많은 양이 붙잡혀, 훗날 맘루크 시대의 역사가인 알-마크리지는 아스완 남성들의 배우자 대부분이 누비아 노예였다고 주장할 정도였습니다. 시간이 흐르면서, 그는 당연히도 무자비하다는 평판을 얻게 되었습니다.\n\n알-우마리의 이집트 내 존재는 이집트 국가의 권위를 중앙집권화하고자 했던 새 아바스 칼리프국의 총독 이븐 툴룬에게 큰 걱정거리였습니다. 알-우마리를 굴복시키기 위해 서기 868년에 툴룬 왕조의 군대가 파견되었으나 처참히 패배했습니다. 결국 알-우마리의 잔혹함이 그의 몰락을 불렀습니다. 그의 부하들이 그를 암살하고 그의 머리를 이븐 툴룬에게 보냈습니다. 이븐 툴룬은 아마도 개인적으로는 경쟁자의 죽음에 기뻐했겠지만, 대중적으로는 알-우마리의 머리를 정중하게 방부 처리하여 매장했으며, 그것을 가져온 자들의 배신에 대해서는 즉결 처형으로 앙갚음했습니다.\n\n종합하자면, 알-우마리의 삶은 이 시기 아바스 칼리프국을 희생시키면서 자신의 개인적 부와 권력을 쌓으려 했던 군벌들의 힘이 커지고 있음을 반영합니다." # 8858409165912946221
   red_sea.0024.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
-  red_sea.0024.desc: "오래전, 나는 덥고 먼지투성이인 동부 사막의 황무지에 도착했습니다. 하지만 나는 이 땅에 모래와 바위 그 이상의 것이 있다는 것을 알고 있었습니다.\n\n나의 지능, 교활함, 그리고 무자비함이 나를 오늘날 이 자리까지 이끌었습니다. 나는 이제 누비아의 광산과 노예들로부터 엄청난 부를 얻으며 홍해의 상당 부분을 장악했습니다. 나의 적들은 더 이상 나와 싸우지 않습니다. 그들은 내 앞에서 두려움에 떨거나, 죽거나 둘 중 하나입니다.\n\n수년간의 노력, 수년간의 고생, 수년간의 피... 그 모든 것이 보상받았습니다. 나는 더 이상 하찮은 군벌이 아니라, 내 왕국의 [ROOT.Char.GetTitleAsNameNoTooltip]입니다!" # 6136588556020816630
-  red_sea.0024.a: "이제 감히 나에게 도전할 자는 어리석은 자뿐이리라." # 1077820612194432392
+  red_sea.0024.desc: "오래전, 나는 덥고 먼지 가득한 동부 사막의 황무지에 도착했다.\n\n하지만 이 땅에는 단순한 모래와 바위 이상의 것이 있다는 것을 알고 있었다. 나의 지능, 교활함, 무자비함이 나를 오늘날의 자리에 오게 했다. 이제 나는 홍해의 상당 부분을 장악했고, 누비아의 광산과 노예들이 내게 셀 수 없이 많은 부를 안겨주었다. 내 적들은 더 이상 내게 맞서 싸우지 못한다. 그들은 내 앞에서 두려움에 떨거나, 이미 죽어버렸다.\n\n수년간의 노력, 수년간의 고생, 수년간의 피.... 그 모든 것이 결실을 맺었다. 나는 더 이상 하찮은 군벌이 아니라, 내 왕국의 [ROOT.Char.GetTitleAsNameNoTooltip]이다!" # 6136588556020816630
+  red_sea.0024.a: "이제 감히 나에게 도전하는 자는 오직 멍청이뿐이다." # 1077820612194432392
   red_sea.0025.t: "xxxxx" # 1951045980481827005
   red_sea.0025.desc: "xxxxx" # 1951045980481827005
   red_sea.0025.a: "xxxxx" # 1951045980481827005
@@ -240,51 +240,51 @@
   red_sea.0029.t: "xxxxx" # 1951045980481827005
   red_sea.0029.desc: "xxxxx" # 1951045980481827005
   red_sea.0029.a: "xxxxx" # 1951045980481827005
-  red_sea.0030.t: "무알림과 루반" # 6796190791079812527
-  red_sea.0030.desc: "홍해 지역에서 잘 알려진 몇몇 탐험가가 제 궁정을 방문했습니다. 그들은 #italic mu’allim#!으로 알려진 심해 항해에 숙련된 항해사이며, 제게 그들의 기술의 기본을 설명하고 있습니다. 이들은 인도양 항구 간을 항해하는 데 천문학 지식을 습득하고 적용하는 데 평생을 바쳤습니다.\n\n저는 이 #italic mu’allim#!들이 주로 홍해에서만 항해 경험이 있는 현지 선장인 #italic rubban#!에 대해 무시하는 태도를 보이는 것을 알아챘습니다. 하지만 여기 많은 사람들은 #italic rubban#!이 홍해의 다양한 암초와 섬, 그리고 그곳을 횡단하는 방법과 같은 지역 지리에 대한 전승으로 가득 차 있다는 것을 알고 있습니다. 궁극적으로 이 #italic mu’allim#!들은 #italic rubban#!의 지식을 자신들의 지식보다 열등한 것으로 여기는 것 같습니다." # 2239641243382692660
-  red_sea.0030.a: "누구나 지리를 암기할 수 있지만, 별을 이해하는 것은 다른 문제입니다!" # 8515283349949468823
-  red_sea.0030.b: "이러한 지식들은 동등하게 가치가 있으며, 저들은 너무 자만심이 강합니다." # 14626185053353200168
-  red_sea.0031.t: "적색 해상의 난파선" # 1501542698755681554
-  red_sea.0031.desc: "홍해에서 상선이 난파되는 일은 흔합니다. 그러한 선박 중 하나가 방금 제 영토 해안에 좌초되었습니다. 그 배에는 상당한 양의 전리품이 실려 있고, 선박 소유주와 선원들은 모두 이방인 이교도입니다. 제 병사들이 그들을 구금했습니다. 선장은 이 상인들의 동기를 의심하고 있는데, 그들이 다른 왕국의 스파이나 타락한 자들일 수 있기 때문입니다! 그는 제가 이 야만인들을 노예로 삼고 그들의 물건을 빼앗을 것을 제안합니다. 어쨌든 이 지역에서는 흔한 관행이므로 그의 조언을 주의 깊게 고려합니다." # 11203568246425135869
-  red_sea.0031.a: "예, 생존자들을 노예로 삼고 그들의 물건을 빼앗으십시오." # 1823217009683258831
-  red_sea.0031.b: "노예화는 너무 심합니다. 그들의 재물만 빼앗읍시다." # 8437246932117270186
-  red_sea.0031.c: "잔인하게 대할 필요는 없습니다. 가장 가까운 항구까지 호위하십시오." # 13316293365235121145
+  red_sea.0030.t: "무알림과 룹반" # 6796190791079812527
+  red_sea.0030.desc: "홍해 지역에서 잘 알려진 몇몇 탐험가가 나의 궁정을 방문했습니다. 이들은 #italic 무알림#!으로 알려진 심해 숙련 항해사이며, 그들의 기예의 기초를 제게 설명하고 있습니다. 이들은 평생을 천문학 지식을 통달하고 인도양 항구 간 이동에 이를 적용하는 데 헌신했습니다.\n\n저는 이 #italic 무알림#!들이 #italic 룹반#! - 주로 홍해에서만 항해 경험이 있는 지역 선장 - 들에게 경멸적인 태도를 보이는 것을 알아차렸습니다. 그러나 이곳의 많은 이들은 #italic 룹반#!들이 홍해의 다양한 암초와 섬들, 그리고 그곳을 항해하는 방법에 대한 지역 지식으로 가득하다는 것을 알고 있습니다. 결국 이 #italic 무알림#!들은 #italic 룹반#!들의 지식을 자신들의 것보다 열등하게 여기는 듯합니다." # 2239641243382692660
+  red_sea.0030.a: "지리는 누구나 외울 수 있지. 별을 이해하는 건 다른 문제야!" # 8515283349949468823
+  red_sea.0030.b: "이들 지식은 마찬가지로 귀중하지만, 그들은 너무 자만심이 강합니다." # 14626185053353200168
+  red_sea.0031.t: "적색 해상의 난파" # 1501542698755681554
+  red_sea.0031.desc: "적국의 상인들이 운반하던 상선이 홍해에서 난파하여 저의 영토 해변에 표류했습니다. 막대한 전리품이 실려 있지만, 선장과 승무원들은 모두 외교적인 적입니다. 군사들이 그들을 구금했고, 선장은 이들의 동기가 의심스럽다고 보고합니다. 첩자일 가능성도 있고, 다른 왕국의 타락한 자들이라는 의심입니다! 그들은 이 이교도들을 노예로 삼고 그들의 재물을 빼앗으라고 조언합니다. 이 지역에서는 흔한 관행이라고 하니, 저는 그의 조언을 신중하게 고려해 봅니다." # 11203568246425135869
+  red_sea.0031.a: "생존자들을 노예로 삼고 그들의 재산을 빼앗으십시오." # 1823217009683258831
+  red_sea.0031.b: "노예화는 지나칩니다. 그들의 재산만 가져가도록 하죠." # 8437246932117270186
+  red_sea.0031.c: "잔혹하지 않게 그들을 가까운 항구로 호위하십시오." # 13316293365235121145
   red_sea.0032.t: "중국 도자기" # 18409358630077484614
-  red_sea.0032.desc: "중국 도자기는 매우 멀리서 왔음에도 불구하고 홍해에서 인기 있는 고급 품목입니다. 아니면, 어쩌면 바로 그렇기 때문에 인기가 많은 걸지도 모릅니다. 최근에 집을 장식하는 데 매우 관심을 보였던 [ceramic_lover.GetTitledFirstName]이 생각났습니다. 현지 시장에서 도자기를 구경하다가 그가 생각났습니다. 어쩌면 관대하고 사려 깊은 면모를 보여줄 수 있을지도 모릅니다." # 3653653119668539719
-  red_sea.0032.a: "물론이죠! 선물로 몇 개 사는 것도 좋은 생각이겠네요." # 9980645174715289107
-  red_sea.0032.b: "저는 중국 도자기를 몇 개 사서 가지고 싶습니다." # 12325385248346105807
+  red_sea.0032.desc: "중국 도자기는 멀리 떨어진 곳에서 온 물건임에도 불구하고 홍해 지역에서 인기 있는 사치품입니다.  혹은, 바로 그 이유 때문에 더 인기가 있는지도 모르겠습니다.  저는 최근 그 지역 시장에서 몇 개를 구경하던 중, 최근 도자기에 큰 관심을 보였던 [ceramic_lover.GetTitledFirstName]을 떠올렸습니다. 아름다운 집 인테리어 장식으로 말이죠.  아마 제 관대한 모습을 보여줄 기회가 될 수 있을 겁니다." # 3653653119668539719
+  red_sea.0032.a: "선물로 사는 것도 좋을 것 같아요." # 9980645174715289107
+  red_sea.0032.b: "저는 제 몫으로 중국 도자기를 좀 사고 싶습니다." # 12325385248346105807
   red_sea.0032.c: "분명 [ceramic_lover.GetSheHe]는 제 도움 없이도 도자기를 살 시간이 있을 겁니다." # 14282000833186911403
-  red_sea.0033.t: "거만한 순례자" # 7724408860474429986
-  red_sea.0033.desc: "저 멀리서 온 유명한 무슬림 귀족이 홍해 루트를 따라 하즈 순례에 참여하고 있으며, 내 영토를 지나가고 있습니다. 내 궁정의 일부 사람들은 그가 이곳에 머무는 동안 내가 그를 접대해야 한다고 제안합니다. 그가 순례를 마치고 홍해를 건너 돌아간 후, 그가 나에 대해 어떤 좋은 이야기를 할지 누가 알겠습니까? 하지만 이 사람은 허례허식적인 취향을 가진 속물이라는 사실이 알려져 있습니다. 그가 순례 중이며 겸손함을 전혀 보이지 않는다는 것이 아이러니하지 않습니까?" # 16873060652401659584
-  red_sea.0033.a: "나는 그처럼 거만한 남자를 접대하는 데 관심이 없다." # 11473241109640820819
-  red_sea.0033.b: "물론입니다! 그분을 기리는 성대한 연회를 준비하십시오!" # 11352434114677989131
+  red_sea.0033.t: "허풍떠는 순례자" # 7724408860474429986
+  red_sea.0033.desc: "멀리서 온 뛰어난 이슬람 귀족이 현재 메카 순례를 위해 홍해를 통해 여행 중이며, 저의 영토를 거쳐 지나갑니다. 궁정의 일부는 그가 여기에 머물도록 환대해야 한다고 제안합니다. 순례를 마치고 홍해를 건너 돌아오면, 그가 제게 어떤 좋은 이야기를 해줄지 누가 알 수 있겠습니까? 하지만, 이 사람이 오만하고 거만한 취향을 지닌 인물로 알려져 있습니다. 아이러니하게도, 순례 여정에 나섰음에도 겸손함은 전혀 보이지 않습니다." # 16873060652401659584
+  red_sea.0033.a: "그런 허세떠는 자를 맞이할 생각은 전혀 없네." # 11473241109640820819
+  red_sea.0033.b: "그의 영광을 위해 웅장한 연회를 준비하십시오!" # 11352434114677989131
   red_sea.0034.t: "가젤" # 1139068964730002637
-  red_sea.0034.desc: "가젤은 아주 오래전부터 홍해 주변의 건조한 땅에서 살아왔습니다. 가젤은 평화롭고 온순한 생물이며 최근에는 제 거주지에서 멀지 않은 곳으로 이사 온 가젤도 꽤 있습니다. 게다가 이 가젤들은 상당히 길들여진 듯하며 제 존재를 그다지 두려워하지 않는 것 같습니다." # 17122457875698306331
-  red_sea.0034.a: "[ROOT.Char.GetFaith.HighGodName]께서 내리신 징표다! 그들이 원하는 만큼 여기서 풀을 뜯게 하라." # 4303390679965870336
-  red_sea.0034.b: "이렇게 하면 사냥감으로 쉽게 유인할 수 있습니다." # 5666903093832478602
-  red_sea.0034.c: "저들을 좋아하지 않아 - 이 해충들을 쫓아낼 방법을 찾아봐!" # 16805256799033919277
-  red_sea.0035.t: "타조 알" # 11024656981714437124
-  red_sea.0035.desc: "타조는 홍해 주변 지역 전체에서 발견됩니다. 전통적으로 이 지역에서는 타조 알을 작은 물건을 담는 용기나 물통 대용으로 사용했으며, 수출품으로도 상당히 인기가 높습니다. 오늘 저는 통치 아래에 있는 일부 현지인들에게 선물로 아름답고 다채로운 무늬로 장식된 타조 알을 받았습니다." # 3195117910400533821
-  red_sea.0035.a: "훌륭한 선물입니다!" # 15619163187394448097
+  red_sea.0034.desc: "홍해 주변의 메마른 땅에 사는 영양은 누구도 기억하는 만큼 오랫동안 살아왔습니다. 그들은 평화롭고 온순한 동물이며, 그중 상당수가 최근 저의 거주지 근처로 이주해 왔습니다. 게다가 이 영양들은 상당히 온순해 보이며, 제 존재를 두려워하지 않는 것 같습니다." # 17122457875698306331
+  red_sea.0034.a: "[ROOT.Char.GetFaith.HighGodName]의 징표!  그들이 원하는 만큼 이곳에서 풀을 뜯도록 하십시오." # 4303390679965870336
+  red_sea.0034.b: "이렇게 하면 사냥감으로 유인하기가 쉬워질 겁니다." # 5666903093832478602
+  red_sea.0034.c: "그들은 마음에 들지 않습니다.  이 해충들을 쫓아내는 방법을 찾으십시오!" # 16805256799033919277
+  red_sea.0035.t: "타조알" # 11024656981714437124
+  red_sea.0035.desc: "홍해 주변 지역 곳곳에 타조가 서식합니다. 이 지역에서는 전통적으로 타조알을 작은 물건을 담는 용기, 심지어 물주머니 대용으로도 사용하며, 상당히 인기 있는 수출품입니다. 오늘 제가 다스리는 지역의 일부 주민들로부터 아름답고 다채로운 무늬로 장식된 그러한 타조알을 선물로 받았습니다." # 3195117910400533821
+  red_sea.0035.a: "훌륭한 선물이군!" # 15619163187394448097
   red_sea.0036.t: "하이에나 공격" # 13769101549147377978
-  red_sea.0036.desc: "이집트 동부 사막의 일부 영토를 통치하고 계시는군요. 이 지역은 나일강과 홍해 사이를 여행하는 상인과 순례자들의 캐러밴이 자주 이용하는 곳이죠. 최근에, 저명한 지역 상인의 소유인 캐러밴이 밤에 야영하던 중 하이에나 무리에게 습격을 받았습니다. 이 지역에서는 종종 일어나는 일이지요. 하이에나의 공격은 일반적으로 사람들에게 큰 해를 끼치지는 않지만, 사업에는 지장을 줄 수 있습니다. 사실, 그 상인은 식료품을 거래하고 있었는데, 하이에나들이 그의 상품을 꽤 많이 먹어치웠다고 합니다! 어쨌든, 이 사람은 비교적 잘 알려져 있으니, 이번 개인적인 좌절 이후 그에게 관용을 베풀어 도와주는 것이 좋을지도 모르겠습니다." # 6098524209825079188
-  red_sea.0036.a: "그는 이미 부유하니, 괜찮을 거예요." # 17909145423806229676
-  red_sea.0036.b: "관대해지는 것을 두려워하지 않겠습니다!" # 4138233327611977747
-  red_sea.0037.t: "멀미하는 순례자" # 453492821299035194
-  red_sea.0037.desc: "저는 메카 순례를 마치고 집으로 돌아가는 저명한 무슬림 귀족을 맞이하고 있습니다. 그에게 모험담을 들려달라고 부탁하자, 그는 여정 중 가장 무서웠던 일은 페리 보트를 타고 홍해를 건넌 것이었다고 말합니다.\n\n"저는 전에 바다에 나가본 적이 없었습니다!" 그가 설명합니다. "저는 내내 구토를 하지 않으려고 노예에게 매달려 있어야 했습니다. 아시다시피, 그녀는 해안 지역에서 태어나 배를 타는 데 익숙했기에 저의 나약함을 보고 웃더군요. 만약 그녀에 대한 애정이 없었다면 당장 그 괄괄한 계집을 채찍질했을지도 모릅니다... 아니면 그냥 너무 속이 안 좋아서 대응할 수 없었을지도 모릅니다...."" # 17199139571052845850
-  red_sea.0037.a: "전에 항해를 해본 적이 없는 사람들에게는 쉽지 않습니다!" # 2672034236791156707
-  red_sea.0037.b: "당신의 노예가 충성스럽고 그 시련에서 당신을 도왔으니 기뻐하십시오." # 3930841124260395647
-  red_sea.0037.c: "나도 웃었을 거야. 당신은 정말 불쌍하고 약해 보이는 사람이군." # 7864478032324487652
+  red_sea.0036.desc: "이집트 동부 사막에 소유한 영토에서, 나일 강과 홍해 사이를 오가는 상인과 순례자의 짐승들(카라반)이 자주 드나드는 지역입니다. 최근, 저명한 현지 상인이 소유한 이러한 카라반이 밤에 야영 중 흔히 일어나는 일로 하이에나 무리의 공격을 받았습니다. 일반적으로 하이에나의 공격은 사람들에게 큰 피해를 주지는 않지만, 사업에 장애를 줄 수 있습니다. 사실, 그 상인은 식량을 거래하고 있었고, 하이에나들은 그의 상품 중 상당량을 먹어 치웠습니다! 어쨌든, 이 사람이 상당히 유명하기 때문에, 개인적인 어려움을 겪은 그를 돕기 위한 관대함을 보여주는 것이 좋을 것입니다." # 6098524209825079188
+  red_sea.0036.a: "벌써 부유하시니 괜찮으실 겁니다." # 17909145423806229676
+  red_sea.0036.b: "관대함을 마다하지 않겠습니다!" # 4138233327611977747
+  red_sea.0037.t: "바닷멀미하는 순례자" # 453492821299035194
+  red_sea.0037.desc: "메카 순례를 마치고 귀향하는 저명한 무슬림 귀족을 맞이했습니다. 그에게 여정에 대한 이야기를 묻자, 그는 배를 타고 홍해를 건넌 것이 가장 무서웠다고 말했습니다.\n\n\"저는 전에 바다에 나온 적이 없었습니다!\" 그는 설명했습니다. \"토하지 않으려고 종들에게 매달려야 했어요. 그녀는 해안 지역에서 태어났고, 배 타는 데 익숙했기 때문에 제 약점을 보고 웃었죠. 그 자리에서 그녀를 때리고 싶었지만, 그녀를 아끼는 마음에 참았습니다… 아니면, 너무 메스껍고 대응할 힘이 없었는지도 모르겠네요…\"" # 17199139571052845850
+  red_sea.0037.a: "처음 배를 타본 사람들에게는 쉽지 않습니다!" # 2672034236791156707
+  red_sea.0037.b: "그 노예가 충성스럽고 그 시련에서 당신을 도왔다는 것을 기뻐하십시오." # 3930841124260395647
+  red_sea.0037.c: "웃었을 겁니다. - 당신은 초라하고 약한 남자처럼 보이네요." # 7864478032324487652
   red_sea.0038.t: "홍해 산호" # 795509538828434060
-  red_sea.0038.desc: "오늘 나는 홍해를 따라 해변을 산책하기로 했다. 내 영토의 이 지역에는 여러 산호초가 있다. 얼마나 아름다운지 - 눈을 즐겁게 하는 멋진 향연이다!" # 13247493695342547814
-  red_sea.0038.a: "이걸 더 많이 해야겠어." # 5967233951265895896
-  red_sea.0039.t: "적색 해상의 조우" # 11145260011042691957
-  red_sea.0039.desc: "홍해는 유목민 무리뿐만 아니라 대규모 왕국의 식민지까지 수세기 동안 사람들이 거주해 왔습니다. 오늘 아침, 홍해 연안을 따라 제 영토의 일부를 여행하던 중 해안가에서 일종의 오래된 구조물처럼 보이는 것을 발견했는데, 그것은 작고 버려진 오두막집 또는 진흙과 갈대로 만든 것이었습니다. 그것이 10년 전에 지어졌는지, 아니면 수세기 전에 지어졌는지 누가 알겠습니까?\n\n그곳에서 쉬는 동안 대규모 목동 무리가 지나갔습니다. 그들은 인근 마을의 상인들과 교역하기 위해 이동 중이었고 우리와 함께 일부 상품을 교환하겠다고 제안했습니다." # 11115406084922931551
-  red_sea.0039.a: "저는 당신의 염소 몇 마리와 우유, 버터를 사겠습니다." # 17516312650348895544
-  red_sea.0039.b: "타조 알은 아름다워 보입니다. 물을 저장하는 데 사용할 수 있습니까?" # 1314252639303483134
-  red_sea.0039.c: "저기 있는 당신 노예가 인상적이군요. 얼마에 팔 건가요?" # 13934587434880129274
-  red_sea.0039.d: "당신이 가진 낙타들은 매우 튼튼하고 강해 보이는군요!" # 3576825462980956994
-  red_sea.0039.e: "저는 무역에는 관심이 없지만, 여행에서 행운을 빕니다." # 4253362036922280084
+  red_sea.0038.desc: "오늘은 홍해 연안의 해변을 거닐기로 했습니다.  이곳, 제 영토 내에는 여러 산호초가 펼쳐져 있습니다. 얼마나 아름다운지, 눈을 즐겁게 하는 장관입니다!" # 13247493695342547814
+  red_sea.0038.a: "이런 일을 더 많이 해야겠어." # 5967233951265895896
+  red_sea.0039.t: "적해 연안에서의 조우" # 11145260011042691957
+  red_sea.0039.desc: "적색해는 수백 년 동안 유목민 무리와 대형 왕국의 식민지 모두가 거주해 온 곳입니다. 오늘 초, 저의 영역 내 적색해 연안을 여행하던 중 해변에 어떤 종류의 오래된 구조물, 작은 버려진 흙과 갈대 집 같은 것을 발견했습니다. 이것이 십 년 전에 지어진 것인지, 수백 년 전에 지어진 것인지 알 수 없습니다.\n\n그곳에서 휴식을 취하는 동안, 많은 목축민들이 지나갔습니다. 그들은 인근 도시에 가서 현지 상인들과 거래하기 위해 여행 중이었으며, 그들의 상품 일부를 우리와 교환하겠다고 제안했습니다." # 11115406084922931551
+  red_sea.0039.a: "몇 마리의 염소와 우유, 버터를 사겠습니다." # 17516312650348895544
+  red_sea.0039.b: "저 낙타알이 정말 아름답군요 - 물을 저장하는 데 쓸 수 있을까요?" # 1314252639303483134
+  red_sea.0039.c: "저기 노예가 꽤 인상적이군요. 얼마에 사면 되나요?" # 13934587434880129274
+  red_sea.0039.d: "당신의 낙타들이 상당히 튼튼하고 강해 보입니다!" # 3576825462980956994
+  red_sea.0039.e: "거래에는 관심이 없지만, 여정에는 행운을 빕니다." # 4253362036922280084
   red_sea.0040.t: "xxxxx" # 1951045980481827005
   red_sea.0040.desc: "xxxxx" # 1951045980481827005
   red_sea.0040.a: "xxxxx" # 1951045980481827005

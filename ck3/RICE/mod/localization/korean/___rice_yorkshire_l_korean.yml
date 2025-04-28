@@ -1,219 +1,223 @@
 ﻿l_korean:
-  RICE_decision_norman_culture_requirement: "당신의 [culture|E]는 노르만 문화에서 파생되었거나 혼합되었습니다." # 4279490913375808313
+  RICE_decision_norman_culture_requirement: "귀하의 [culture|E]는 노르만에서 유래하거나 혼합되었습니다." # 4279490913375808313
   dynn_RICE_beverley: "베벌리" # 13081913999497960922
   Hulno: "훌노" # 6353308113761154751
-  game_concept_john_of_beverley: "존 오브 베벌리" # 4627703807643225376
-  game_concept_bishop_john: "주교 요한" # 27181077252742084
+  RICE_yorkshire_margaret_helmet_name: "솥 투구" # 11718019795937166695
+  RICE_yorkshire_margaret_helmet_desc: "[GetGeographicalRegion('custom_england').GetName] 출신의 순례 여성인 [margaret.GetFirstName] [margaret.GetDynasty.GetName]은 [margaret.GetFaith.GetReligion.GetAdjective] 십자군 서약을 한 몸으로, 이교도와의 싸움에 휘말렸을 때 냄비로 이 투구를 즉석에서 만들었습니다.\n일부는 여성 전사에 대한 일반적인 태도를 반영하여 이 투구를 기이하게 보지만, 이것은 [margaret.GetFirstNamePossessiveNoTooltip]의 용맹함과 열정의 상징이기도 합니다." # 1790994851376613856
+  game_concept_john_of_beverley: "베벌리의 존" # 4627703807643225376
+  game_concept_bishop_john: "주교 존" # 27181077252742084
   game_concept_saint_john_of_beverley_short: "성 요한" # 18392885096719235363
-  game_concept_saint_john_of_beverley: "베벌리의 성 요한" # 16378335323290057793
-  game_concept_saint_john_of_beverley_desc: "$game_concept_saint_john_of_beverley$는 8세기 초 요크의 주교였으며, 역사적으로 1037년에 시성되어 중세 잉글랜드에서 널리 존경받는 성인이었습니다.\n\n867년 책갈피에서 성 요한은 아직 시성되지 않았습니다. 그렇게 되려면 먼저 [군주|E]가 그에게 #V 경의를 표하는#! [decision|E]을 내려야 합니다. 그로부터 100년 후, 다른 [군주|E]가 #V 그의 시성을 확보하는#! [decision|E]을 내릴 수 있습니다.\n\n성 요한이 시성된 후 또는 1066년 책갈피에서 시작하는 경우, 해당 지역의 [군주|E]는 그에게 경의를 표하기 위해 #V 베벌리로 순례를 떠나는#! [decision|E]을 내릴 수 있습니다. #V 이스트 라이딩#!의 [군주|E]인 [왕|E] 또는 [황제|E]가 이것을 한 번 이상 수행하면 평생 한 번만 취할 수 있지만 강력한 군사 [인물_모디파이어|E]를 부여하는 #V 성 요한의 깃발을 빌리는#! [decision|E]에 접근할 수 있습니다. 이전에 같은 순례를 두 번 이상 가면 보너스가 훨씬 더 강력해집니다." # 16126993176424185577
-  game_concept_charter_fair: "헌장 박람회" # 4702372416789841697
-  game_concept_charter_fairs: "헌장 시장" # 15006152086615804699
-  game_concept_charter_fair_desc: "중세 영국에서 $game_concept_charter_fair$는 일부 정착지에 부여된 중요한 특권이었습니다. 게임 내에서 [decision|E]를 통해 이 특권을 부여받을 수 있는 여러 정착지가 있으며, 이는 경제를 증진시키는 적절한 [county_modifiers|E]를 제공합니다. 스탬퍼드, 보스턴, 윈체스터, 노샘프턴, 스토어브리지(캠브리지), 스카보로가 있습니다.\n\n첫 네 정착지는 역사적으로 가장 중요한 장터 중 일부였기 때문에 서로 연결되어 있습니다. 네 곳 모두의 장터 헌장이 부여되면 [county_modifiers|E]를 업그레이드한 후 특별 이벤트가 발생합니다. 또한 스토어브리지(캠브리지)와 스카보로(가곡 스카보로 페어의 영감을 준 유명한 장터)에도 헌장을 부여할 수 있습니다.\n\n헌장은 [duke|E] 이상의 지위를 가진 경우에만 부여할 수 있습니다. 하지만 [king|E] 또는 [emperor|E]인 경우 요구 사항이 훨씬 쉬워집니다. 만약 더 낮은 [rank|E]라면 [king|E] 또는 [emperor|E]의 영역에 있어야 하고, 헌장을 요청하기 위해 [top_liege|E]에게 상당한 양의 [prestige|E]를 지불해야 합니다." # 17670732935050337075
-  RICE_yorkshire_stamford_bull_run_host_memory: "[GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참여했습니다" # 12886376768138356117
-  RICE_yorkshire_stamford_bull_run_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다" # 12305988283029194354
+  game_concept_saint_john_of_beverley: "성 요한 오브 베벌리" # 16378335323290057793
+  game_concept_saint_john_of_beverley_desc: "$game_concept_saint_john_of_beverley$는 8세기 초 요크의 주교였습니다. 그는 역사적으로 1037년에 시성되었으며, 중세 잉글랜드에서 널리 존경받는 성인이었습니다.\n\n867년 책갈피에서는 성 요한이 아직 시성되지 않았습니다. 시성이 이루어지려면 먼저 한 명의 [ruler|E]가 그에게 #V 경의를 표하는#! [decision|E]를 내려야 합니다. 그로부터 100년 뒤, 다른 [ruler|E]가 #V 시성 확보#! [decision|E]를 내릴 수 있습니다.\n\n성 요한이 시성되거나 1066년 책갈피에서 시작하는 경우, 해당 지역의 [rulers|E]는 그에게 경의를 표하기 위해 #V 베벌리로 순례를 떠나는#! [decision|E]를 내릴 수 있습니다. #V 이스트 라이딩#!의 [liege|E]인 [king|E] 또는 [emperor|E]가 이를 최소 한 번 수행하면 평생에 한 번만 내릴 수 있는 #V 성 요한의 깃발을 빌리는#! [decision|E]에 접근할 수 있게 되며, 이는 강력한 군사 [character_modifier|E]를 부여합니다. 사전에 같은 순례를 여러 번 다녀온 경우, 보너스는 더욱 강력해질 것입니다." # 16126993176424185577
+  game_concept_charter_fair: "특허 시장" # 4702372416789841697
+  game_concept_charter_fairs: "정기 시장 특허" # 15006152086615804699
+  game_concept_charter_fair_desc: "중세 잉글랜드에서 $game_concept_charter_fair$는 일부 정착지에 부여된 중요한 특권이었습니다. 게임에서, 이 특권은 [decision|E]을(를) 통해 여러 정착지에 부여될 수 있으며, 적절한 [county_modifiers|E]을(를) 부여하여 경제력을 증진시킵니다: 스탬퍼드, 보스턴, 윈체스터, 노샘프턴, 스투어브리지 (케임브리지), 스카버러.\n\n처음 네 개의 정착지는 역사적으로 가장 유명했던 몇몇 시장이었기 때문에 서로 연결됩니다. 네 곳 모두에 헌장이 부여되면, 그들의 [county_modifiers|E]가 업그레이드된 후 어느 시점에 특별 이벤트가 발생합니다. 헌장은 또한 케임브리지의 스투어브리지, 그리고 스카버러(스카버러 페어라는 노래의 영감이 된 유명한 시장 때문에)에도 부여될 수 있습니다.\n\n헌장은 최소 [duke|E] 이상일 때만 부여될 수 있으며, [king|E]이나 [emperor|E]이라면 요구 조건이 더 쉽습니다. 더 낮은 [rank|E]이라면, [king|E]이나 [emperor|E]의 [realm|E]에 속해 있어야 하며 귀하의 [top_liege|E]에게 헌장 부여를 청원하기 위해 상당한 양의 [prestige|E]를 지불해야 합니다." # 17670732935050337075
+  RICE_yorkshire_stamford_bull_run_host_memory: "[GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했다" # 12886376768138356117
+  RICE_yorkshire_stamford_bull_run_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다." # 12305988283029194354
   RICE_yorkshire_stamford_bull_run_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참여했습니다" # 7076632661456980427
-  RICE_yorkshire_stamford_bull_run_host_memory_third_perspective: "[owner.GetName]이(가) [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다." # 17599034424214833415
-  RICE_yorkshire_stamford_bull_run_guest_memory: "[GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 [host.GetTitledFirstName]와 함께 참석했습니다." # 3944050103025448251
-  RICE_yorkshire_stamford_bull_run_guest_memory_first_perspective: "[host.GetTitledFirstName]님과 함께 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다." # 14509656836341225113
-  RICE_yorkshire_stamford_bull_run_guest_memory_second_perspective: "[host.GetTitledFirstName]님과 함께 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다" # 11623375619773996862
-  RICE_yorkshire_stamford_bull_run_guest_memory_third_perspective: "[owner.GetName]이(가) [host.GetTitledFirstName]와(과) 함께 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다." # 3853637877467561676
-  RICE_yorkshire_beverley_pilgrimage_host_memory: "[GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 나섰습니다" # 2233240443501345498
-  RICE_yorkshire_beverley_pilgrimage_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 갔습니다" # 1364366443483738094
-  RICE_yorkshire_beverley_pilgrimage_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName] 순례를 다녀왔습니다" # 4853618133534454473
-  RICE_yorkshire_beverley_pilgrimage_host_memory_third_perspective: "[owner.GetName] 님이 [GetActivityType(  'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]을 떠났습니다" # 12356671795163344520
-  RICE_yorkshire_beverley_pilgrimage_guest_memory: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 참여했습니다" # 14186072689592830248
-  RICE_yorkshire_beverley_pilgrimage_guest_memory_first_perspective: "저는 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 [host.GetTitledFirstName]와 함께 다녀왔습니다." # 9617918509352348391
-  RICE_yorkshire_beverley_pilgrimage_guest_memory_second_perspective: "[host.GetTitledFirstName]과 함께 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]을 다녀왔습니다" # 12278484215512597284
-  RICE_yorkshire_beverley_pilgrimage_guest_memory_third_perspective: "[owner.GetName]이(가) [host.GetTitledFirstName]와(과) 함께 [GetActivityType('activity_RICE_yorkshire_beverley_pilgrimage').GetName]에 참가했습니다." # 16260778954619735140
+  RICE_yorkshire_stamford_bull_run_host_memory_third_perspective: "[owner.GetName]이 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다" # 17599034424214833415
+  RICE_yorkshire_stamford_bull_run_guest_memory: "[GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName] 활동에 [host.GetTitledFirstName] 와/과 함께 참석했습니다" # 3944050103025448251
+  RICE_yorkshire_stamford_bull_run_guest_memory_first_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했다." # 14509656836341225113
+  RICE_yorkshire_stamford_bull_run_guest_memory_second_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]에 참석했습니다." # 11623375619773996862
+  RICE_yorkshire_stamford_bull_run_guest_memory_third_perspective: "[owner.GetName]이/가 [host.GetTitledFirstName]와 함께 [GetActivityType('activity_RICE_yorkshire_stamford_bull_run').GetName]에 참가했습니다." # 3853637877467561676
+  RICE_yorkshire_beverley_pilgrimage_host_memory: "[GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]을 다녀왔다" # 2233240443501345498
+  RICE_yorkshire_beverley_pilgrimage_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 다녀왔다" # 1364366443483738094
+  RICE_yorkshire_beverley_pilgrimage_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 참여했습니다" # 4853618133534454473
+  RICE_yorkshire_beverley_pilgrimage_host_memory_third_perspective: "[owner.GetName]께서 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]를 떠났습니다" # 12356671795163344520
+  RICE_yorkshire_beverley_pilgrimage_guest_memory: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 다녀왔습니다." # 14186072689592830248
+  RICE_yorkshire_beverley_pilgrimage_guest_memory_first_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 다녀왔다." # 9617918509352348391
+  RICE_yorkshire_beverley_pilgrimage_guest_memory_second_perspective: "[host.GetTitledFirstName]와/과 함께 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 참여했습니다." # 12278484215512597284
+  RICE_yorkshire_beverley_pilgrimage_guest_memory_third_perspective: "[owner.GetName]는 [host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 참가했습니다." # 16260778954619735140
   activity_RICE_yorkshire_stamford_bull_run_host_an_a: "$host_activity_a$" # 13713790857143020716
-  activity_RICE_yorkshire_stamford_bull_run: "스탬퍼드 불 런" # 798734791069938715
-  activity_RICE_yorkshire_stamford_bull_run_desc: "[GetTitleByKey('b_stamford').GetNameNoTier]의 황소 경주는 악명 높을 정도로 소란스럽고 폭력적인 행사로, 사람들이 마을 거리를 지나 황소를 쫓아가 죽입니다. 더 '교양 있는' 망나니들은 못마땅할 수도 있지만, 모두 다 재미를 위한 것입니다!" # 14285796706692691517
-  activity_RICE_yorkshire_stamford_bull_run_selection_tooltip: "스탬퍼드 황소 경주에 참여하십시오.\n\n$RICE_yorkshire_spectate_the_stamford_bull_run_context_tooltip$" # 13696927250804381714
-  activity_RICE_yorkshire_stamford_bull_run_host_desc: "$BULLET_WITH_TAB$[$prestige_i|E]명예[$prestige|E]$\n$BULLET_WITH_TAB$[$stress_loss_i|E]스트레스 감소[$stress|E]$\n$BULLET_WITH_TAB$[GetModifier('RICE_yorkshire_was_at_stamford_bull_run').GetNameWithTooltip] [character_modifier|E]" # 10965836446136564217
-  activity_RICE_yorkshire_stamford_bull_run_guest_desc: "\n$BULLET_WITH_TAB$스트레스 [stress|E] 감소 [stress_loss_i|E]" # 16733720253981348149
+  activity_RICE_yorkshire_stamford_bull_run: "스탬퍼드 불런" # 798734791069938715
+  activity_RICE_yorkshire_stamford_bull_run_desc: "[GetTitleByKey('b_stamford').GetNameNoTier]의 황소 달리기는 악명 높을 만큼 소란스럽고 폭력적인 행사로, 마을 거리를 통해 황소를 쫓고 죽입니다. 더 '교양 있는' 사람들은 못마땅해할지도 모르지만, 다 즐기자고 하는 일입니다!" # 14285796706692691517
+  activity_RICE_yorkshire_stamford_bull_run_selection_tooltip: "스탬퍼드 황소 달리기 축제에 참석합니다.\n\n$RICE_yorkshire_spectate_the_stamford_bull_run_context_tooltip$" # 13696927250804381714
+  activity_RICE_yorkshire_stamford_bull_run_host_desc: "\n$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$상실 [stress_loss_i|E][stress|E]\n$BULLET_WITH_TAB$ [GetModifier('RICE_yorkshire_was_at_stamford_bull_run').GetNameWithTooltip] [character_modifier|E]" # 10965836446136564217
+  activity_RICE_yorkshire_stamford_bull_run_guest_desc: "\n$BULLET_WITH_TAB$[stress_loss_i|E][stress|E] 감소" # 16733720253981348149
   activity_RICE_yorkshire_stamford_bull_run_destination_selection: "$activity_RICE_yorkshire_stamford_bull_run_province_desc$" # 6224738822435895350
   activity_RICE_yorkshire_stamford_bull_run_guest_help_text: "$activity_RICE_yorkshire_stamford_bull_run$" # 2665069194049334403
-  activity_RICE_yorkshire_stamford_bull_run_predicted_cost: "이 방문 비용은 주로 당신의 [income|E]에 따라 결정됩니다." # 8882918087865338503
-  activity_RICE_yorkshire_stamford_bull_run_conclusion_desc: "올해의 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName]이(가) 막을 내렸습니다. 대중을 즐겁게 하는 데는 오래되고 무분별한 폭력만큼 좋은 것이 없죠!" # 12774152314003606360
-  RICE_yorkshire_stamford_bull_run_chase_phase: "추격" # 3490868574375345098
-  RICE_yorkshire_stamford_bull_run_chase_phase_desc: "선택된 황소는 풀려나 군중에게 미끼로 사용되며, 잡히고 죽어 도살되기 전에 쫓겨다니게 됩니다." # 9521805996305485260
-  RICE_yorkshire_stamford_bull_run_bloody_fun_intent_header: "피에 굶주린 재미:" # 303752267063851627
-  RICE_yorkshire_stamford_bull_run_bloody_fun_intent: "잔혹한 즐거움" # 4416204749231209827
-  RICE_yorkshire_stamford_bull_run_bloody_fun_intent_desc: "당신은 #italic 결국#! [GetTitleByKey('b_stamford').GetNameNoTier]에 와서 소를 죽이려 하는군요. 신나게 즐겨야 할 겁니다!" # 5032977333460548977
-  RICE_yorkshire_stamford_bull_run_completed_log_title: "스탬퍼드 황소 경주 참석 완료" # 14019051621251802081
-  RICE_yorkshire_stamford_bull_run_completed_log: "[CHARACTER.GetShortUIName|U](이)가 스탬퍼드 황소 경주에 참석을 마쳤습니다" # 2320840233452079049
-  TRAVEL_NAME_FOR_activity_RICE_yorkshire_stamford_bull_run: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_yorkshire_stamford_bull_run$" # 383240668566254381
+  activity_RICE_yorkshire_stamford_bull_run_predicted_cost: "이 방문 비용은 주로 귀하의 [income|E]에 기반합니다." # 8882918087865338503
+  activity_RICE_yorkshire_stamford_bull_run_conclusion_desc: "올해의 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName] 막을 내렸습니다. 대중을 즐겁게 하는 데는 예스러운, 무의미한 폭력만 한 것이 없죠!" # 12774152314003606360
+  RICE_yorkshire_stamford_bull_run_chase_phase: "체이스" # 3490868574375345098
+  RICE_yorkshire_stamford_bull_run_chase_phase_desc: "선택된 황소는 풀려나 군중에 의해 도발당하며, 이리저리 쫓기다가 잡혀 도살되고 해체됩니다." # 9521805996305485260
+  RICE_yorkshire_stamford_bull_run_bloody_fun_intent_header: "피의 즐거움:" # 303752267063851627
+  RICE_yorkshire_stamford_bull_run_bloody_fun_intent: "피의 즐거움:" # 4416204749231209827
+  RICE_yorkshire_stamford_bull_run_bloody_fun_intent_desc: "결국 [GetTitleByKey('b_stamford').GetNameNoTier]에 황소를 죽이러 #italic 오시는군요#! 난리가 나도록 재미있어야 할 겁니다!" # 5032977333460548977
+  RICE_yorkshire_stamford_bull_run_completed_log_title: "스탬퍼드 황소 달리기 참석을 마쳤습니다" # 14019051621251802081
+  RICE_yorkshire_stamford_bull_run_completed_log: "[CHARACTER.GetShortUIName|U]가 스탬퍼드 불 런 참석을 마쳤습니다." # 2320840233452079049
+  TRAVEL_NAME_FOR_activity_RICE_yorkshire_stamford_bull_run: "[Character.GetFirstNamePossessiveNoTooltip]$activity_RICE_yorkshire_stamford_bull_run$" # 383240668566254381
   activity_RICE_yorkshire_beverley_pilgrimage_an_a: "$host_activity_a$" # 13713790857143020716
-  activity_RICE_yorkshire_beverley_pilgrimage: "베벌리 순례" # 8655834564631197574
-  activity_RICE_yorkshire_beverley_pilgrimage_desc: "[saint_john_of_beverley|E]는 영국에서 가장 인기 있는 성인 중 한 명이며, 많은 순례자들이 요크셔의 비벌리에 모여 그를 숭배합니다. 그를 헌신적으로 섬기는 덕망 있는 통치자들은 힘과 승리를 얻게 될 것이라고 합니다." # 11147291876691963206
-  activity_RICE_yorkshire_beverley_pilgrimage_selection_tooltip: "[saint_john_of_beverley|E]를 숭배하기 위해 [local_pilgrimage|E]를 떠납니다.\n\n$RICE_yorkshire_secure_canonization_of_john_of_beverley_context_tooltip$" # 15486265303598279365
-  activity_RICE_yorkshire_beverley_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ 이 [local_pilgrimage|E]를 완료하면 [saint_john_of_beverley|E]의 깃발을 빌리는 [decision|E]을 내릴 수 있습니다.\n$BULLET_WITH_TAB$ 이 [local_pilgrimage|E]를 여러 번 수행하면 [saint_john_of_beverley|E]의 깃발을 빌리는 [decision|E]의 효과가 증가합니다." # 9664965257464444445
+  activity_RICE_yorkshire_beverley_pilgrimage: "베벌리 성지 순례" # 8655834564631197574
+  activity_RICE_yorkshire_beverley_pilgrimage_desc: "[saint_john_of_beverley|E]는 브리튼에서 가장 인기 있는 성인 중 한 분입니다. 많은 순례자들이 그를 공경하기 위해 요크셔의 베벌리로 몰려듭니다. 그에게 헌신하는 덕망 있는 통치자들은 힘과 승리로 축복받을 것이라 합니다." # 11147291876691963206
+  activity_RICE_yorkshire_beverley_pilgrimage_selection_tooltip: "[saint_john_of_beverley|E] 성인을 기리기 위해 [local_pilgrimage|E] 순례를 떠나십시오.\n$RICE_yorkshire_secure_canonization_of_john_of_beverley_context_tooltip$" # 15486265303598279365
+  activity_RICE_yorkshire_beverley_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ 이 [local_pilgrimage|E]을(를) 완료하면 [saint_john_of_beverley|E]의 깃발을 빌리는 [decision|E]을(를) 내릴 수 있는 능력을 부여합니다.\n$BULLET_WITH_TAB$ 이 [local_pilgrimage|E]을(를) 여러 번 수행하면 [saint_john_of_beverley|E]의 깃발을 빌리는 [decision|E]의 효과가 증가합니다." # 9664965257464444445
   activity_RICE_yorkshire_beverley_pilgrimage_guest_desc: "$activity_RICE_yorkshire_beverley_pilgrimage_host_desc$" # 13119892126080939978
   activity_RICE_yorkshire_beverley_pilgrimage_destination_selection: "$activity_RICE_yorkshire_beverley_pilgrimage_province_desc$" # 8245357132281654522
   activity_RICE_yorkshire_beverley_pilgrimage_guest_help_text: "$activity_RICE_yorkshire_beverley_pilgrimage$" # 11758793264439100649
-  activity_RICE_yorkshire_beverley_pilgrimage_predicted_cost: "베벌리로 향하는 [local_pilgrimage|E]의 비용은 선택한 [activity_options|E]에 따라 달라집니다." # 9313308954044963369
-  activity_RICE_yorkshire_beverley_pilgrimage_conclusion_desc: "저희의 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]이(가) 끝났습니다. [saint_john_of_beverley|E]을(를) 숭배할 기회를 얻어 좋았습니다." # 13666378330269043429
-  RICE_yorkshire_beverley_pilgrimage_completed_log_title: "베벌리 순례 완료" # 11563446405663441712
-  RICE_yorkshire_beverley_pilgrimage_completed_log: "[CHARACTER.GetShortUIName|U](이)가 베벌리로 [local_pilgrimage|E](을)를 완료했습니다." # 1629982577278741790
-  RICE_yorkshire_beverley_pilgrimage_banner_inspiration_log_title: "성 요한의 깃발에서 영감을 받았습니다" # 1082451361133898193
-  RICE_yorkshire_beverley_pilgrimage_banner_inspiration_log: "[CHARACTER.GetShortUIName|U]은(는) [saint_john_of_beverley|E]의 깃발에서 영감을 받았습니다." # 5911405852886157770
+  activity_RICE_yorkshire_beverley_pilgrimage_predicted_cost: "베벌리까지의 [local_pilgrimage|E] 비용은 선택하는 [activity_options|E]에 따라 달라집니다." # 9313308954044963369
+  activity_RICE_yorkshire_beverley_pilgrimage_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]이(가) 끝났습니다. [saint_john_of_beverley|E]을(를) 기릴 수 있는 기회를 가질 수 있어 좋았습니다." # 13666378330269043429
+  RICE_yorkshire_beverley_pilgrimage_completed_log_title: "베벌리 성지순례 완료" # 11563446405663441712
+  RICE_yorkshire_beverley_pilgrimage_completed_log: "[CHARACTER.GetShortUIName|U]께서 베벌리로 [CHARACTER.GetHerHis] [local_pilgrimage|E]를 마쳤습니다" # 1629982577278741790
+  RICE_yorkshire_beverley_pilgrimage_banner_inspiration_log_title: "성 요한의 기치에서 영감을 받아" # 1082451361133898193
+  RICE_yorkshire_beverley_pilgrimage_banner_inspiration_log: "[CHARACTER.GetShortUIName|U]은 [saint_john_of_beverley|E]의 깃발에서 영감을 받았습니다" # 5911405852886157770
   TRAVEL_NAME_FOR_activity_RICE_yorkshire_beverley_pilgrimage: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_yorkshire_beverley_pilgrimage$" # 7134591267550468250
   activity_RICE_yorkshire_beverley_pilgrimage_owner: "순례자" # 384073485693042227
-  building_type_RICE_yorkshire_foss_dyke: "포스 둑" # 14895621776311828018
-  building_type_RICE_yorkshire_foss_dyke_desc: "포스 다이크는 영국 제도에서 여전히 운영 중인 가장 오래된 운하 중 하나이며, 로마 시대로 거슬러 올라갈 수도 있습니다. 포스 다이크는 톡세이의 트렌트 강과 링컨 정착지를 연결합니다." # 10546515409104726135
+  building_type_RICE_yorkshire_foss_dyke: "포스 다이크" # 14895621776311828018
+  building_type_RICE_yorkshire_foss_dyke_desc: "포스 다이크는 브리튼 제도에서 여전히 운영 중인 가장 오래된 운하 중 하나이며, 그 기원은 로마 시대까지 거슬러 올라갈 수 있습니다. 이 운하는 톡시에 있는 트렌트 강과 링컨 정착지를 연결합니다." # 10546515409104726135
   building_RICE_yorkshire_foss_dyke: "$building_type_RICE_yorkshire_foss_dyke$" # 17601009305554076076
   building_RICE_yorkshire_foss_dyke_desc: "$building_type_RICE_yorkshire_foss_dyke_desc$" # 823493667218329670
-  building_type_RICE_yorkshire_humber_ferry: "험버 연락망" # 11280486418420865134
-  building_type_RICE_yorkshire_humber_ferry_desc: "험버는 링컨셔와 요크셔를 가르는 큰 강어귀입니다. 여러 정착지에 이 수역을 가로지르는 연락선을 운행할 권한이 부여되었으며, 이는 잉글랜드 남부에서 요크셔로 가는 주요 경로 중 하나 역할을 합니다." # 16509983171230106996
+  building_type_RICE_yorkshire_humber_ferry: "험버 나루터 망" # 11280486418420865134
+  building_type_RICE_yorkshire_humber_ferry_desc: "험버는 링컨셔와 요크셔를 경계로 하는 거대한 하구입니다. 몇몇 정착지에 이 수역을 건너는 나루를 운영할 권리가 부여되었는데, 이는 남부 잉글랜드에서 요크셔로 향하는 주요 경로 중 하나로서 기능합니다." # 16509983171230106996
   building_RICE_yorkshire_humber_ferry: "$building_type_RICE_yorkshire_humber_ferry$" # 7579569304006358146
   building_RICE_yorkshire_humber_ferry_desc: "$building_type_RICE_yorkshire_humber_ferry_desc$" # 3653739225932013809
-  building_type_RICE_english_wool_industry_01: "영국 양모 산업" # 16062948240246623987
-  building_type_RICE_english_wool_industry_01_desc: "양모는 잉글랜드 중세 경제의 근간이자 원동력입니다." # 11272619473692833960
+  building_type_RICE_english_wool_industry_01: "잉글랜드 양모 산업" # 16062948240246623987
+  building_type_RICE_english_wool_industry_01_desc: "양모는 잉글랜드 중세 경제의 중추이자 원동력입니다." # 11272619473692833960
   building_RICE_english_wool_industry_01: "양털 목초지" # 4638962919755281960
-  building_RICE_english_wool_industry_01_desc: "대륙 유럽에서 양모 수요가 증가함에 따라 자급자족 수준의 양모 생산이 점차 현지 및 외국 상인들의 투자를 지원받는 중앙 집중식 산업으로 바뀌고 있습니다." # 14477928934706973431
-  building_RICE_english_wool_industry_02: "양모 시장" # 6816592017173555978
-  building_RICE_english_wool_industry_02_desc: "해당 지역에서는 국가의 지원을 받아 양모 산업이 계속 번성하고 있습니다. 지역 도시 중심지에서는 양모를 가공하여 유럽의 다른 지역으로 수출할 준비를 합니다." # 5359788218400989491
-  building_RICE_english_wool_industry_03: "양모 교역소" # 15996008767193560985
-  building_RICE_english_wool_industry_03_desc: "이 지역은 영국 제도에서 주요한 대규모 양모 산업 중심지 중 하나입니다. 상인들이 각지에서 몰려와 사업을 벌이고 막대한 이익을 내어 지역에 큰 번영과 부를 가져다줍니다." # 8420042577093361918
-  RICE_yorkshire_scarborough_fair_modifier: "스카버러 시장" # 16074211024927707306
-  RICE_yorkshire_scarborough_fair_modifier_desc: "스카보로 해변 마을은 최근 8월과 9월에 거래 박람회를 개최할 수 있는 특허를 받았습니다. 영국 제도에서 가장 큰 박람회는 아니지만, 이는 분명히 수년 동안 지역 경제와 문화에 긍정적인 영향을 미칠 것입니다.\n\n#italic 스카보로 박람회에 가시겠습니까?#!\n#italic 깻잎, 세이지, 로즈마리 그리고 꿀풀#!\n#italic 거기 사는 사람에게 내 생각 전해주세요#!\n#italic 그/그녀는 한때 나의 진정한 사랑이었지요#!" # 6765906135474387718
-  RICE_yorkshire_scarborough_fair_patron: "스카버러에 박람회 개최를 위한 헌장 수여" # 8987146368911779237
-  RICE_yorkshire_scarborough_fair_patron_desc: "#italic 스카보로우 박람회에 가시겠습니까?#!\n#italic 딜, 샐비어, 로즈마리와 백리향#!\n#italic 거기에 사는 사람에게 저를 기억해 달라고 전해 주십시오#!\n#italic 그는/그녀는 한때 제 진정한 사랑이었습니다#!" # 13554748550756040401
-  RICE_yorkshire_john_of_beverley_blessing: "비벌리의 주교 존이 축복함" # 13083247913864284704
-  RICE_yorkshire_john_of_beverley_blessing_desc: "그들은 이 영주 또는 여인이 요크셔에서 특별히 숭배받는 8세기 영국 주교인 베벌리의 존에게 축복을 받았으며, 일부 군사적 성공은 존 주교의 영혼의 개입 덕분이라고 말합니다." # 15207868323780344505
-  RICE_yorkshire_beverley_sanctuary_timer: "최근에 지어진 존 주교의 성소" # 7824937619171281311
-  RICE_yorkshire_beverley_sanctuary_timer_desc: "베벌리 주교 존의 숭배가 날마다 커지고 있으며, 지역 지도자가 베벌리에 있는 그의 무덤 주변에 상당한 규모의 성소 건설을 도왔습니다. 이는 의심할 여지 없이 마을의 영적 명성과 경제에 유리하게 작용할 것입니다. 존 오브 베벌리가 성인으로 인정받는 것은 시간문제라고 말하는 사람들도 있습니다." # 10008603555446613960
-  RICE_yorkshire_saint_john_banner_inspired: "성 요한 벨베리의 기치에 영감을 받아" # 2006152391951978607
+  building_RICE_english_wool_industry_01_desc: "유럽 대륙으로부터의 양털 수요가 증가하면서, 소규모 자급 생산은 점차 현지 및 외국 상인들의 투자를 통해 지원받는 집약적 산업으로 대체되고 있습니다." # 14477928934706973431
+  building_RICE_english_wool_industry_02: "양털 시장" # 6816592017173555978
+  building_RICE_english_wool_industry_02_desc: "이 지역의 양모 산업은 국가의 지원 하에 계속해서 번성하고 번영하고 있습니다. 지역의 도시 중심지들은 양모를 가공하여 유럽의 다른 지역으로 수출하기 위해 준비합니다." # 5359788218400989491
+  building_RICE_english_wool_industry_03: "양모 집산지" # 15996008767193560985
+  building_RICE_english_wool_industry_03_desc: "이 지역은 브리튼 제도의 주요 양모 산업 중심지 중 하나로, 규모가 매우 큽니다. 상인들이 사방에서 몰려와 거래를 하고, 엄청난 이익이 발생하여 이 지역에 큰 번영과 부를 가져다 줍니다." # 8420042577093361918
+  RICE_yorkshire_scarborough_fair_modifier: "스카버러 페어" # 16074211024927707306
+  RICE_yorkshire_scarborough_fair_modifier_desc: "스카버러 해안 도시가 최근 매년 8월과 9월에 무역 박람회를 개최할 수 있는 헌장을 수여받았습니다. 브리튼 제도에서 가장 큰 박람회는 아닐지라도, 분명 오랜 기간 동안 지역 경제와 문화에 긍정적인 영향을 미칠 것입니다.\n\n#italic 스카버러 박람회에 가시나요?#!\n\n#italic 파슬리, 세이지, 로즈마리, 타임#!\n\n#italic 그곳에 사는 이에게 저를 기억해 달라 전해주오#!\n\n#italic 그/그녀는 한때 진정한 나의 사랑이었소#!\n" # 6765906135474387718
+  RICE_yorkshire_scarborough_fair_patron: "스카버러에 박람회 개최 특허장 부여" # 8987146368911779237
+  RICE_yorkshire_scarborough_fair_patron_desc: "#italic 스카버러 장에 가시나요?#!\n#italic 파슬리, 세이지, 로즈메리 그리고 타임!#\n#italic 그곳에 사는 이에게 저를 기억한다고 전해주세요#\n#italic 그는 한때 제 진정한 사랑이었습니다!#" # 13554748550756040401
+  RICE_yorkshire_john_of_beverley_blessing: "베벌리의 요한 주교의 축복을 받은" # 13083247913864284704
+  RICE_yorkshire_john_of_beverley_blessing_desc: "이 영주는 8세기 잉글랜드 주교이며 특히 요크셔에서 숭배받는 베버리의 존에게 축복받았다고들 합니다. 일부 군사적 성공은 주교 존의 영혼의 개입 덕분이라 합니다." # 15207868323780344505
+  RICE_yorkshire_beverley_sanctuary_timer: "존 주교의 성소 최근 완공" # 7824937619171281311
+  RICE_yorkshire_beverley_sanctuary_timer_desc: "베벌리의 주교 성 요한에 대한 숭배가 날마다 커지고 있으며, 이에 따라 지역 지도자가 베벌리에 있는 그의 무덤 주변에 상당한 규모의 성소 건설을 도왔습니다. 이는 의심할 여지 없이 마을의 영적 명성과 경제에 도움이 될 것입니다. 베벌리의 요한이 성인으로 인정받는 것은 시간 문제일 뿐이라고 말하는 사람들도 있습니다." # 10008603555446613960
+  RICE_yorkshire_saint_john_banner_inspired: "세인트 존 오브 베벌리 깃발에서 영감을 받아" # 2006152391951978607
   RICE_yorkshire_saint_johns_banner_1: "성 요한의 깃발 (1)" # 10380180632826282539
-  RICE_yorkshire_saint_johns_banner_1_desc: "이 통치자는 현재 일반적으로 베벌리의 성소에 보관되어 있는 베벌리의 성 요한의 깃발을 빌리고 있습니다. 많은 사람들이 이 깃발을 휘두르는 자에게 영광스러운 승리를 가져다준다고 알려져 있기에 위대하고 신성한 힘을 가졌다고 여겨 왔습니다." # 12756977570492812023
+  RICE_yorkshire_saint_johns_banner_1_desc: "이 통치자는 현재 베벌리에 있는 성인의 성소에 보통 보관되어 있는 베벌리의 성 요한의 깃발을 빌리고 있습니다. 많은 이들이 이 깃발을 휘두르는 자에게 영광스러운 승리를 가져다준다고 전해지기에, 위대하고 신성한 힘을 부여했습니다." # 12756977570492812023
   RICE_yorkshire_saint_johns_banner_2: "성 요한의 깃발 (2)" # 16494167640730149485
   RICE_yorkshire_saint_johns_banner_2_desc: "$RICE_yorkshire_saint_johns_banner_1_desc$" # 18147355606296796312
   RICE_yorkshire_saint_johns_banner_3: "성 요한의 깃발 (3)" # 12130899188620703183
   RICE_yorkshire_saint_johns_banner_3_desc: "$RICE_yorkshire_saint_johns_banner_1_desc$" # 18147355606296796312
   RICE_yorkshire_saint_johns_banner_4: "성 요한의 깃발 (4)" # 1988388773692063402
   RICE_yorkshire_saint_johns_banner_4_desc: "$RICE_yorkshire_saint_johns_banner_1_desc$" # 18147355606296796312
-  RICE_yorkshire_charter_fair_stamford: "스탬퍼드의 정기 시장" # 15460105739441448455
-  RICE_yorkshire_charter_fair_stamford_desc: "사순절 기간에 열리는 스탬퍼드 박람회는 잉글랜드에서 가장 큰 무역 박람회 중 하나이며, 이 지역에 많은 무역과 번영을 가져다줍니다." # 7200282006982897732
-  RICE_yorkshire_charter_fair_boston: "보스턴 헌장 박람회" # 16626226349723390655
-  RICE_yorkshire_charter_fair_boston_desc: "7월에 열리는 보스턴 박람회는 잉글랜드에서 가장 큰 무역 박람회 중 하나이며, 이 지역에 많은 무역과 번영을 가져다줍니다." # 5669974122939341763
-  RICE_yorkshire_charter_fair_winchester: "윈체스터의 헌장 박람회" # 2216470800412046143
-  RICE_yorkshire_charter_fair_winchester_desc: "9월에 열리는 윈체스터 박람회는 잉글랜드에서 가장 큰 무역 박람회 중 하나이며, 이 지역에 많은 무역과 번영을 가져다줍니다." # 4400109629967563289
-  RICE_yorkshire_charter_fair_northampton: "노샘프턴의 특허 장터" # 12386640272407739254
-  RICE_yorkshire_charter_fair_northampton_desc: "11월에 열리는 노샘프턴 박람회는 잉글랜드에서 가장 큰 무역 박람회 중 하나이며, 이 지역에 많은 무역과 번영을 가져다줍니다." # 7208032763655283785
-  RICE_yorkshire_charter_fair_stamford_upgraded: "스탬포드 대장터 박람회" # 1512781180972579056
-  RICE_yorkshire_charter_fair_stamford_upgraded_desc: "사순절에 열리는 스탬퍼드 장터는 잉글랜드에서 가장 중요한 교역 시장 중 하나이며, 이 지역에 많은 교역과 번영을 가져다줍니다. 이 장터는 보스턴, 윈체스터, 노샘프턴 장터를 포함한 다른 주요 장터들과 일련의 순서를 이룹니다." # 3372952132672304026
-  RICE_yorkshire_charter_fair_boston_upgraded: "보스턴의 대헌장 박람회" # 10624328000248876093
-  RICE_yorkshire_charter_fair_boston_upgraded_desc: "7월에 열리는 보스턴 박람회는 잉글랜드에서 가장 중요한 무역 박람회 중 하나로, 이 지역에 많은 무역과 번영을 가져다줍니다. 이 박람회는 스탬퍼드, 윈체스터, 노샘프턴 박람회를 포함한 다른 대규모 박람회와 함께 일련의 순서를 형성합니다." # 11200051326557188775
-  RICE_yorkshire_charter_fair_winchester_upgraded: "윈체스터 대헌장 박람회" # 13563551566395318761
-  RICE_yorkshire_charter_fair_winchester_upgraded_desc: "9월에 열리는 윈체스터 박람회는 잉글랜드에서 가장 중요한 무역 박람회 중 하나이며, 이 지역에 많은 무역과 번영을 가져다줍니다. 이는 스탬퍼드, 보스턴, 노샘프턴과 같은 다른 주요 박람회들과 함께 일련의 순서를 이룹니다." # 7816471161198982843
-  RICE_yorkshire_charter_fair_northampton_upgraded: "노샘프턴 대헌장 박람회" # 3153391487990570777
-  RICE_yorkshire_charter_fair_northampton_upgraded_desc: "11월에 열리는 노샘프턴 박람회는 잉글랜드에서 가장 중요한 무역 박람회 중 하나로, 이 지역에 많은 무역과 번영을 가져다줍니다. 이 박람회는 스탬퍼드, 보스턴, 윈체스터 박람회를 포함한 다른 주요 박람회와 순차적인 관계를 형성합니다." # 5630642204449788456
-  RICE_yorkshire_charter_fair_stourbridge: "스토어브리지 박람회" # 1589224117781468697
-  RICE_yorkshire_charter_fair_stourbridge_desc: "케임브리지 마을이 스토어브리지 공동지를 따라 장을 열 권리를 부여받았습니다. 이곳은 유럽에서 가장 큰 장 중 하나가 되어, 이 지역에 많은 부와 명성을 가져다주고 있습니다." # 14860805883797339672
-  RICE_yorkshire_recently_granted_grand_charter_fair: "최근에 특허 박람회 권한을 부여받았습니다" # 18435234987138109221
-  RICE_yorkshire_recently_granted_grand_charter_fair_desc: "이 통치자는 최근 잉글랜드의 한 정착지에 대헌장 박람회를 개최할 권리를 부여했거나, 주도적으로 자신의 영주에게 청원하여 성공적으로 허가를 받았습니다." # 13444425486788107240
-  RICE_yorkshire_participated_in_stamford_bull_run: "스탬퍼드 황소 달리기에 직접 참여했습니다." # 10870157280857147569
-  RICE_yorkshire_was_at_stamford_bull_run: "최근 스탬퍼드 황소 경주에 참석했습니다" # 10996836935721947381
-  RICE_yorkshire_grant_scarborough_fair_charter: "스카버러에게 정기 시장 개최권을 부여합니다" # 8544518109879845976
-  RICE_yorkshire_grant_scarborough_fair_charter_tooltip: "스카버러는 [charter_fair|E]를 개최할 권리를 부여받아야 합니다" # 11142260552286353567
-  RICE_yorkshire_grant_scarborough_fair_charter_desc: "해안 마을 스카버러는 꽤 오랫동안 자체 [charter_fair|E]를 개최할 권리를 요청해 왔습니다. 영국 다른 지역에도 중요한 장터가 많지만, 스카버러 마을에는 특별하고 기억에 남는 무언가가 있습니다." # 9829700550723155149
-  RICE_yorkshire_grant_scarborough_fair_charter_confirm: "파슬리, 세이지, 로즈마리, 그리고 백리향...." # 11328407609004013442
-  RICE_yorkshire_grant_scarborough_fair_charter_context_tooltip: "#bold 역사적 배경:#! 1253년, 잉글랜드의 헨리 3세 왕은 스카버러 시에 왕실 헌장을 수여하여 많은 특권을 부여했습니다. 이 헌장에는 상업 박람회 개최 권리가 포함되었으며, 1788년까지 지속되었습니다. 영국에서 가장 중요한 박람회는 아니었지만, 유명한 영국 민요, "스카버러 박람회"의 영감을 준 박람회였습니다. 이 노래의 가사는 주인공이 과거 연인에게 스카버러 박람회에서 만나기 위해 일련의 불가능한 과제를 완수하라고 요구하는 내용입니다." # 14733128749669354398
-  RICE_yorkshire_pay_homage_to_john_of_beverley: "베벌리의 요한에게 경의를 표하십시오" # 11900027546390995978
-  RICE_yorkshire_pay_homage_to_john_of_beverley_tooltip: "[john_of_beverley|E]의 무덤을 방문해야 합니다" # 4504044331081451706
-  RICE_yorkshire_pay_homage_to_john_of_beverley_desc: "최근 수십 년 동안 요크 주교 [존 오브 버클리|E]의 명성은 경건한 기독교인들 사이에서 높아지고 있습니다. 그의 후원자들에게 군사적 성공을 가져다주었다고 여기는 사람들도 있습니다. 이 인물에게 경의를 표할 뿐만 아니라 버클리에 그의 무덤 주변에 성소를 세우는 것이 좋을지도 모릅니다." # 11080083260972631768
-  RICE_yorkshire_pay_homage_to_john_of_beverley_effect_tooltip: "이 [decision|E]이 내려진 후 #V세기#! 후에, [john_of_beverley|E]가 시성될 수 있으며, 이는 #V 요크#! 근처의 기독교 [통치자|E]가 #V 베벌리로 순례를 떠나는#! [decision|E]을 내릴 수 있도록 할 것입니다." # 6879553797619741772
-  RICE_yorkshire_pay_homage_to_john_of_beverley_confirm: "베벌리로 간다!" # 13059853711446066780
-  RICE_yorkshire_pay_homage_to_john_of_beverley_context_tooltip: "#emphasis 역사적 배경:#! 요크의 존(존 오브 버비) 주교는 700년대 초반 요크의 주교로 재직했습니다. 그는 후에 뛰어난 중세 영어 성인이 되었지만, 1037년에 시성되기 전에도 이미 그의 신앙 공동체는 상당 기간 활발하게 활동하고 있었습니다. 후기 중세 자료에 따르면, 에텔스탄 왕은 934년에 존 주교의 무덤을 방문했으며, 이후 존의 도움으로 군사적 승리를 거두었다고 합니다. 감사의 표시로 그는 존 주교의 무덤 주위에 성역(성지)을 세웠습니다. 성역 건립은 아마도 점진적인 과정이었겠지만, 이 전설은 존 오브 버비의 영향력과 중요성을 잘 보여줍니다." # 10442917895496856341
-  RICE_yorkshire_secure_canonization_of_john_of_beverley: "존 오브 베벌리의 안전한 시성" # 8727751775878223078
-  RICE_yorkshire_secure_canonization_of_john_of_beverley_tooltip: "[bishop_john|E]을 존경하고 숭배해야 합니다" # 4256668790492610501
-  RICE_yorkshire_secure_canonization_of_john_of_beverley_desc: "요크의 고(故) 주교인 [john_of_beverley|E]는 오랫동안 요크 주변에 거주하는 사람들에게 수호자이자 영적 지도자로 존경받았습니다. 우리는 지역 성직자들과 협력하여 교회 당국에 그의 공식적인 시성을 추진해야 합니다." # 1624725538911054615
-  RICE_yorkshire_secure_canonization_of_john_of_beverley_effect_tooltip: "#V 요크# 근처의 기독교 [통치자|E]는 이제 #V 베벌리로 순례를 떠나는# [decision|E]을 내릴 수 있습니다." # 6207967285924829135
-  RICE_yorkshire_secure_canonization_of_john_of_beverley_confirm: "옳은 일입니다." # 9414594427197146785
-  RICE_yorkshire_secure_canonization_of_john_of_beverley_context_tooltip: "#bold 역사적 배경:#! 요크 주교 존 오브 베버리(John of Beverley)는 700년대 초반에 활동했습니다. 1037년 성인으로 추봉된 그는 중세 시대 영국의 가장 저명한 성인 중 한 명으로 여겨집니다. 여러 영국 왕들이 그의 신앙을 지지했는데, 예를 들어 헨리 5세는 아쟁쿠르 전투 승리를 존의 개입 덕분이라고 여겼습니다. 성인 존은 베버리에 강력한 수호신으로서, 중세 시대에 베버리의 정치적 특권과 경제 성장에 큰 도움을 주었습니다." # 10452445455940282776
-  RICE_yorkshire_beverley_century_passed_req: "[bishop_john|E]의 무덤 주변의 성소가 건설된 지 적어도 #V 세기#!가 지났습니다." # 4301957328931939543
-  RICE_yorkshire_go_on_a_pilgrimage_to_beverley: "베벌리로 순례를 떠나십시오" # 3925403622868985867
+  RICE_yorkshire_charter_fair_stamford: "스탬퍼드 칙허 장시" # 15460105739441448455
+  RICE_yorkshire_charter_fair_stamford_desc: "사순절 기간에 열리는 스탬퍼드 장터는 잉글랜드의 주요 교역 장터 중 하나이며, 해당 지역에 많은 교역과 번영을 가져옵니다." # 7200282006982897732
+  RICE_yorkshire_charter_fair_boston: "보스턴의 칙허 시장" # 16626226349723390655
+  RICE_yorkshire_charter_fair_boston_desc: "7월에 열리는 보스턴 장은 잉글랜드에서 가장 큰 무역 장터 중 하나이며, 그 지역에 많은 무역과 번영을 가져다줍니다." # 5669974122939341763
+  RICE_yorkshire_charter_fair_winchester: "윈체스터 헌장 정기시" # 2216470800412046143
+  RICE_yorkshire_charter_fair_winchester_desc: "9월에 열리는 윈체스터 시장은 잉글랜드에서 규모가 큰 무역 시장 중 하나이며 이 지역에 많은 무역과 번영을 가져다 줍니다." # 4400109629967563289
+  RICE_yorkshire_charter_fair_northampton: "노샘프턴의 칙허 시장" # 12386640272407739254
+  RICE_yorkshire_charter_fair_northampton_desc: "노샘프턴 장은 11월에 열리며 잉글랜드에서 더 큰 교역 박람회 중 하나이고 이 지역에 많은 교역과 번영을 가져다줍니다." # 7208032763655283785
+  RICE_yorkshire_charter_fair_stamford_upgraded: "스탬퍼드 대헌장 장" # 1512781180972579056
+  RICE_yorkshire_charter_fair_stamford_upgraded_desc: "사순절 기간에 열리는 스탬퍼드 시장은 잉글랜드에서 가장 중요한 교역 시장 중 하나로, 이 지역에 많은 교역과 번영을 가져옵니다. 이는 보스턴, 윈체스터, 노샘프턴 시장을 포함한 다른 주요 시장들과 일련의 순서를 이룹니다." # 3372952132672304026
+  RICE_yorkshire_charter_fair_boston_upgraded: "보스턴 대헌장 시장" # 10624328000248876093
+  RICE_yorkshire_charter_fair_boston_upgraded_desc: "7월에 열리는 보스턴 박람회는 잉글랜드의 가장 중요한 무역 박람회 중 하나입니다. 이는 그 지역에 많은 무역과 번영을 가져다 주기 때문입니다.\n이는 스탬퍼드, 윈체스터, 노샘프턴의 박람회를 포함하여 다른 위대한 박람회들과 함께 일련의 정해진 순서를 이룹니다." # 11200051326557188775
+  RICE_yorkshire_charter_fair_winchester_upgraded: "윈체스터 대 칙허 장시" # 13563551566395318761
+  RICE_yorkshire_charter_fair_winchester_upgraded_desc: "9월에 열리는 윈체스터 시장은 잉글랜드에서 가장 중요한 무역 시장 중 하나이며, 이곳으로 많은 무역과 번영을 가져오기 때문입니다. 이는 스탬퍼드, 보스턴, 노샘프턴 등에서 열리는 다른 주요 시장들과 일련의 연계망을 형성합니다." # 7816471161198982843
+  RICE_yorkshire_charter_fair_northampton_upgraded: "노샘프턴 대 칙허 시장" # 3153391487990570777
+  RICE_yorkshire_charter_fair_northampton_upgraded_desc: "11월에 열리는 노샘프턴 박람회는 해당 지역에 많은 무역과 번영을 가져다주는 잉글랜드의 가장 중요한 무역 박람회 중 하나입니다. 이는 스탬퍼드, 보스턴, 윈체스터의 박람회를 포함한 다른 대규모 박람회들과 함께 정해진 순서를 이룹니다." # 5630642204449788456
+  RICE_yorkshire_charter_fair_stourbridge: "스토어브리지 페어" # 1589224117781468697
+  RICE_yorkshire_charter_fair_stourbridge_desc: "케임브리지 도시는 스터브리지 공용지를 따라 장을 개최할 권리를 허가받았습니다. 이곳은 유럽에서 가장 큰 장 중 하나가 되고 있으며, 이 지역에 많은 부와 위신을 가져다주고 있습니다." # 14860805883797339672
+  RICE_yorkshire_recently_granted_grand_charter_fair: "최근 헌장 시장을 부여받음" # 18435234987138109221
+  RICE_yorkshire_recently_granted_grand_charter_fair_desc: "이 통치자는 최근 잉글랜드의 한 정착지에 대헌장 장터를 열 권리를 부여했거나, 주도적으로 그의 주군에게 그렇게 하도록 성공적으로 청원했습니다." # 13444425486788107240
+  RICE_yorkshire_participated_in_stamford_bull_run: "스탬퍼드 황소 달리기에 직접 참여함" # 10870157280857147569
+  RICE_yorkshire_was_at_stamford_bull_run: "최근 스탬퍼드 불 런에 참여함" # 10996836935721947381
+  RICE_yorkshire_margaret_of_beverley_modifier: "여장부처럼" # 9628308073958589724
+  RICE_yorkshire_margaret_of_beverley_modifier_desc: "전쟁과 고난을 두려워하지만, 이 여인은 그런 두려움에 굴하지 않으려 합니다. 그녀는 십자군 서약을 맹세했으며, [Glossary( 'virago', 'VIRAGO_GLOSS' )]의 기질을 가지고 있기에 필요하다면 영웅적인 위업을 달성하기 위해 무기를 들 것입니다." # 7331667679533058441
+  RICE_yorkshire_grant_scarborough_fair_charter: "스카버러에 헌장 박람회 부여" # 8544518109879845976
+  RICE_yorkshire_grant_scarborough_fair_charter_tooltip: "스카버러에 [charter_fair|E] 개최권이 부여되어야 합니다" # 11142260552286353567
+  RICE_yorkshire_grant_scarborough_fair_charter_desc: "해안 마을 스카버러는 꽤 오랫동안 자신들의 [charter_fair|E]를 개최할 권리를 요청해 왔습니다. 브리튼 다른 곳에도 중요한 박람회들이 많지만, 스카버러 마을에는 특별하고 기억할 만한 무언가가 있습니다." # 9829700550723155149
+  RICE_yorkshire_grant_scarborough_fair_charter_confirm: "파슬리, 세이지, 로즈메리, 그리고 타임...." # 11328407609004013442
+  RICE_yorkshire_grant_scarborough_fair_charter_context_tooltip: "#emphasis 역사적 배경:#! 1253년, 잉글랜드의 #bold 헨리 3세# #bold 왕#은 스카버러 시에 왕실 헌장을 하사했으며, 이는 무역 박람회를 개최할 권리를 포함한 많은 특권을 부여했습니다. 이 박람회는 1788년까지 지속되었고 마침내 막을 내렸습니다. 잉글랜드에서 가장 중요한 박람회는 아니었지만, 유명한 잉글랜드 민요인 '스카버러 페어'에 영감을 줄 만큼 충분히 널리 알려졌습니다. 이 노래의 가사는 화자가 옛 연인에게 관계를 다시 시작하고 싶다면 일련의 불가능한 과업을 완수하고 스카버러 페어에서 만나자고 요구하는 내용을 중심으로 전개됩니다." # 14733128749669354398
+  RICE_yorkshire_pay_homage_to_john_of_beverley: "베벌리의 존에게 경의를 표하다" # 11900027546390995978
+  RICE_yorkshire_pay_homage_to_john_of_beverley_tooltip: "[john_of_beverley|E]의 무덤을 방문해야겠다" # 4504044331081451706
+  RICE_yorkshire_pay_homage_to_john_of_beverley_desc: "요크의 고(故) 주교, [john_of_beverley|E]의 명성이 최근 수십 년간 경건한 기독교 신자들 사이에서 높아지고 있습니다. 심지어 그의 후원자들에게 군사적 성공까지 기인한다고 여기는 사람들도 있습니다. 이 분께 경의를 표할 뿐만 아니라, 베벌리에 있는 그의 무덤 주위에 성지를 설립하는 것이 좋을지도 모릅니다." # 11080083260972631768
+  RICE_yorkshire_pay_homage_to_john_of_beverley_effect_tooltip: "이 [decision|E]이(가) 내려진 지 #V century#! 후, [john_of_beverley|E]가 시성될 수 있으며, 이는 #V York#! 근처의 기독교 [rulers|E]들이 #V Go on a Pilgrimage to Beverley#! [decision|E]을(를) 내릴 수 있도록 할 것입니다." # 6879553797619741772
+  RICE_yorkshire_pay_homage_to_john_of_beverley_confirm: "베벌리로 가노라!" # 13059853711446066780
+  RICE_yorkshire_pay_homage_to_john_of_beverley_context_tooltip: "#emphasis 역사적 배경:#! 베벌리의 존은 700년대 초 요크의 주교로 봉사했습니다. 그가 나중에 가장 저명한 중세 잉글랜드 성인 중 한 명이 되었지만, 그의 숭배는 1037년 시성되기 전부터 이미 상당히 오랫동안 활발했습니다. 후대 중세 사료에 따르면, 애설스턴 왕은 934년에 존 주교의 무덤을 방문했고 이후 존 덕분에 군사적 승리를 거두었으며, 이에 대한 감사로 베벌리에 있는 존의 무덤 주위에 성소를 세웠습니다. 성소의 설립은 아마도 좀 더 점진적인 과정이었을 가능성이 높지만, 이 전설은 베벌리의 존의 영향력과 중요성을 잘 반영합니다." # 10442917895496856341
+  RICE_yorkshire_secure_canonization_of_john_of_beverley: "베벌리의 요한 시성 확보" # 8727751775878223078
+  RICE_yorkshire_secure_canonization_of_john_of_beverley_tooltip: "우리는 [bishop_john|E]를 공경하고 숭상해야 합니다." # 4256668790492610501
+  RICE_yorkshire_secure_canonization_of_john_of_beverley_desc: "고 요크의 주교, [john_of_beverley|E]께서는 오랫동안 요크 주변에 사는 사람들에게 그들의 수호자이자 영적 지도자로 추앙받아 왔습니다. 우리는 지역 성직자들과 협력하여 교회 당국에 그의 공식적인 시성을 추진해야 합니다." # 1624725538911054615
+  RICE_yorkshire_secure_canonization_of_john_of_beverley_effect_tooltip: "#V 요크#! 근처의 기독교 [통치자들|E]은 이제 #V 베벌리 순례를 떠나는#! [결단|E]을 내릴 수 있습니다." # 6207967285924829135
+  RICE_yorkshire_secure_canonization_of_john_of_beverley_confirm: "마땅히 해야 할 일이다." # 9414594427197146785
+  RICE_yorkshire_secure_canonization_of_john_of_beverley_context_tooltip: "#emphasis 역사적 배경:!# 베벌리의 존은 700년대 초반 요크의 주교로 봉직했습니다. 1037년에 성인으로 시성된 그는 중세 시대 잉글랜드의 가장 저명한 성인 중 한 명으로 여겨집니다. 몇몇 잉글랜드 왕들은 그의 성인 숭배의 지지자였습니다. 예를 들어, 헨리 5세는 아쟁쿠르에서의 승리를 존의 개입 덕분으로 돌렸습니다. 성인 존은 베벌리에 강력한 수호성인으로 증명되었으며, 중세 시대 동안 그곳이 정치적 특권과 경제적 성장을 얻도록 도왔습니다." # 10452445455940282776
+  RICE_yorkshire_beverley_century_passed_req: "[bishop_john|E]의 무덤 주변 성소가 건설된 지 최소한 #5세기#!가 흘렀습니다." # 4301957328931939543
+  RICE_yorkshire_go_on_a_pilgrimage_to_beverley: "베벌리로 순례 가기" # 3925403622868985867
   RICE_yorkshire_go_on_a_pilgrimage_to_beverley_tooltip: "[saint_john_of_beverley|E]에게 경의를 표할 시간입니다!" # 9808220111140459250
-  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_desc: "[saint_john_of_beverley|E]께 경의를 표하기 위해 순례를 떠나고 싶습니다. 그에게 헌신한 덕이 있는 통치자들은 힘과 승리를 축복받는다고 합니다." # 1253033911449762629
-  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_confirm: "준비합시다!" # 1830976368998437983
-  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_effect_tooltip: "이 순례를 완료하면 다른 요구 사항을 충족하는 한 #V 베벌리의 성 요한의 깃발 빌리기#! [decision|E] 결정을 내릴 수 있습니다." # 3932860220857067044
-  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_effect_2_tooltip: "이 순례를 여러 번 가면 [decision|E] '#V 성 베벌리의 성 요한의 깃발 빌리기#!'의 혜택이 증가합니다." # 15916263669561542496
+  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_desc: "[saint_john_of_beverley|E]에게 경의를 표하고자 성지 순례를 떠나고 싶습니다. 그에게 헌신적인 덕 있는 통치자는 힘과 승리를 축복받는다고 합니다." # 1253033911449762629
+  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_confirm: "시작해보지!" # 1830976368998437983
+  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_effect_tooltip: "이 성지 순례를 완료하면 다른 요구 사항을 충족하는 한 #V 베벌리 성 요한의 깃발을 빌린다#! [decision|E]을(를) 취할 수 있는 능력을 얻게 됩니다" # 3932860220857067044
+  RICE_yorkshire_go_on_a_pilgrimage_to_beverley_effect_2_tooltip: "이 성지순례에 여러 번 참여하는 것은 #V 세인트 존 오브 베벌리의 깃발을 빌리는 것#! [decision|E]의 효과를 증가시킬 것입니다!" # 15916263669561542496
   RICE_yorkshire_go_on_a_pilgrimage_to_beverley_context_tooltip: "$RICE_yorkshire_secure_canonization_of_john_of_beverley_context_tooltip$" # 10342925304109424783
-  RICE_yorkshire_beverley_pilgrimage_distance_req: "[realm_capital|E]는 #V 벌리#에 가깝습니다." # 4466604310159747334
-  RICE_yorkshire_beverley_pilgrimage_english_culture_req: "[realm_capital|E]은 브리튼 제도, 프랑스 또는 저지대에 있습니다." # 18127381428216187984
-  RICE_yorkshire_borrow_banner_of_saint_john: "성 요한의 깃발을 빌리십시오" # 5042189455276862806
-  RICE_yorkshire_borrow_banner_of_saint_john_tooltip: "[saint_john_of_beverley_short|E]의 깃발은 그것을 휘두르는 자에게 강력한 유물입니다" # 11589881749485102237
-  RICE_yorkshire_borrow_banner_of_saint_john_desc: "[saint_john_of_beverley|E]의 깃발은 소지자에게 강력한 군사력을 부여한다고 합니다. 저는 그 깃발을 들 자격이 있습니다. 세속적인 권력이나 그런 종류의 것을 탐내서가 아니라, [ROOT.Char.GetFaith.GetAdjective] 교회의 적들을 쳐부수기 위해서입니다." # 7790810622314236038
-  RICE_yorkshire_borrow_banner_of_saint_john_effect_tooltip: "[character_modifier|E]의 강도는 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]를 몇 번 갔는지에 따라 달라집니다." # 17815515787720715026
-  RICE_yorkshire_borrow_banner_of_saint_john_effect_2_tooltip: "#X 이 결정은 평생 단 한 번만 내릴 수 있습니다.  신중하게 사용 시기를 고려하십시오!#!" # 43455404205615878
-  RICE_yorkshire_st_john_banner_not_taken_req: "현재 [saint_john_of_beverley_short|E]의 깃발을 빌린 사람은 없습니다" # 4264464104985687879
-  RICE_yorkshire_st_john_banner_pilgrimage_req: "적어도 한 번 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 참여했습니다." # 14796526120587685095
-  RICE_yorkshire_st_john_banner_east_riding_req: "귀하 또는 모든 봉신이 이스트라이딩 [county|E] 소유하고 있습니다" # 7846659526947129213
-  RICE_yorkshire_borrow_banner_of_saint_john_confirm: "[ROOT.Char.GetFaith.HighGodName]의 이름으로 깃발을 휘두르리라!" # 8018223645008003171
-  RICE_yorkshire_borrow_banner_of_saint_john_context_tooltip: "#emphasis 역사적 배경:#! 성 요한의 기치는 중세 시대 영국 지도자들에 의해 여러 차례 휘둘러졌습니다. 예를 들어, 에드워드 1세는 1296년과 1300년의 스코틀랜드 원정에 이 기치를 함께 가지고 있었습니다. 수세기 동안의 이러한 다양한 군사적 성공은 성인의 명성을 더욱 굳히는 데 기여했습니다." # 5793175840339614769
-  RICE_yorkshire_borrow_banner_req: "현재 깃발은 다른 [ruler|E]의 소유가 아닙니다" # 11114645451478512248
-  RICE_yorkshire_spectate_the_stamford_bull_run: "스탬퍼드 황소 경주 참관" # 9850224800968197509
-  RICE_yorkshire_spectate_the_stamford_bull_run_tooltip: "스탬퍼드에서 매년 열리는 황소 경주를 방문하십시오" # 7743689082581704623
-  RICE_yorkshire_spectate_the_stamford_bull_run_desc: "스탬퍼드의 황소 경주는 재미있는 행사 같네요! 올해 꼭 참가해서 즐겨봐야겠어요." # 3226066684692246889
-  RICE_yorkshire_spectate_the_stamford_bull_run_effect_tooltip: "[bull_run_stamford.GetNameNoTier]를 방문하여 스릴 넘치는 (그리고 떠들썩한) 재미를 즐겼습니다" # 7143454070753273687
-  RICE_decision_bull_run_month_requirement: "월은 8월에서 10월 사이여야 합니다." # 9074046564142542111
-  RICE_decision_bull_run_distance_requirement: "[realm_capital|E]는 #V 스탬퍼드#에 가깝습니다." # 11636235175553840144
-  RICE_yorkshire_spectate_the_stamford_bull_run_confirm: "기대가 됩니다!" # 15237425321543376298
-  RICE_yorkshire_spectate_the_stamford_bull_run_context_tooltip: "#bold 역사적 배경:#! 스템포드는 매년 11월 13일에 황소 몰이 축제를 개최했던 것으로 알려져 있습니다. 최초의 명시적인 기록은 1389년으로 거슬러 올라가지만, 그 이전에도 오랫동안 이어져 왔을 가능성이 높습니다. 현지 전설에 따르면, 이 관습은 13세기 초, 한 현지 노르만 영주가 마을의 정육점들이 싸우는 두 황소를 한 암소를 두고 헤어지게 돕는 것을 도왔던 시절에 시작되었다고 합니다. 그는 이 모습을 매우 즐거워했고, 매년 이러한 축제가 재현되기를 제안했습니다. 스템포드에서만 볼 수 있는 축제는 아니었지만, 시끄러운 축제는 청교도 시대를 지나기도 했으며, 결국 1839년 대중적 소란으로 인해 금지되었습니다." # 6909607963982415276
-  RICE_yorkshire_charter_fair_granted_recently_req: "당신의 [realm|E]에서 최근에 주요 특허 박람회를 수여하기 위한 [decision|E]을 내린 사람이 없습니다" # 11074511362902495794
-  RICE_yorkshire_grant_stamford_charter_fair: "스탬퍼드에 정기 시장 개최 권한 부여" # 6397488966031720277
+  RICE_yorkshire_beverley_pilgrimage_distance_req: "[수도|E]는 #V Beverley#!와 가깝습니다." # 4466604310159747334
+  RICE_yorkshire_beverley_pilgrimage_english_culture_req: "[realm_capital|E]은(는) 브리튼 제도, 프랑스, 또는 저지대 지방에 위치합니다" # 18127381428216187984
+  RICE_yorkshire_borrow_banner_of_saint_john: "성 요한의 깃발 빌리기" # 5042189455276862806
+  RICE_yorkshire_borrow_banner_of_saint_john_tooltip: "[saint_john_of_beverley_short|E]의 깃발은 그것을 휘두르는 자에게 강력한 성유물입니다" # 11589881749485102237
+  RICE_yorkshire_borrow_banner_of_saint_john_desc: "[saint_john_of_beverley|E]의 기치는 소지자에게 위대한 군사적 능력을 부여한다고 합니다. 저는 제가 그것을 휘두를 자격이 있다고 생각합니다 - [ROOT.Char.GetFaith.GetAdjective] 교회의 적들을 무찌르기 위해서입니다. 물론 세속적인 권력이나 그런 종류의 것을 탐내서가 아닙니다." # 7790810622314236038
+  RICE_yorkshire_borrow_banner_of_saint_john_effect_tooltip: "[character_modifier|E]의 강도는 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 몇 번 갔는지에 따라 달라집니다." # 17815515787720715026
+  RICE_yorkshire_borrow_banner_of_saint_john_effect_2_tooltip: "#X 이 결정은 일생에 단 한 번만 내릴 수 있습니다 - 언제 사용할지 신중하게 생각하십시오!#!" # 43455404205615878
+  RICE_yorkshire_st_john_banner_not_taken_req: "아무도 현재 [saint_john_of_beverley_short|E]의 기치를 빌리지 않았습니다." # 4264464104985687879
+  RICE_yorkshire_st_john_banner_pilgrimage_req: "최소 한 번 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 참여함" # 14796526120587685095
+  RICE_yorkshire_st_john_banner_east_riding_req: "그대 또는 아무 봉신이 이스트 라이딩 [county|E]를 소유하고 있다" # 7846659526947129213
+  RICE_yorkshire_borrow_banner_of_saint_john_confirm: "[ROOT.Char.GetFaith.HighGodName]의 이름으로 기치를 높이 들리라!" # 8018223645008003171
+  RICE_yorkshire_borrow_banner_of_saint_john_context_tooltip: "#emphasis 역사적 배경:#! 성 요한의 깃발은 중세 시대의 여러 시점에 걸쳐 여러 잉글랜드 지도자들이 휘둘렀습니다. 예를 들어, 에드워드 1세는 1296년과 1300년 스코틀랜드 원정 시 깃발을 가지고 있었습니다. 수세기에 걸친 이러한 다양한 군사적 성공은 성인의 명성을 굳건히 하는 데 일조했을 뿐입니다." # 5793175840339614769
+  RICE_yorkshire_borrow_banner_req: "깃발은 현재 다른 어떤 [ruler|E]의 소유도 아닙니다." # 11114645451478512248
+  RICE_yorkshire_spectate_the_stamford_bull_run: "스탬퍼드 황소 달리기 관전하기" # 9850224800968197509
+  RICE_yorkshire_spectate_the_stamford_bull_run_tooltip: "스탬퍼드 마을에 들러 연례 황소 몰이를 구경한다" # 7743689082581704623
+  RICE_yorkshire_spectate_the_stamford_bull_run_desc: "스탬퍼드의 소 몰이 축제는 재밌을 것 같군! 올해는 참가하여 참석해야겠다!" # 3226066684692246889
+  RICE_yorkshire_spectate_the_stamford_bull_run_effect_tooltip: "[bull_run_stamford.GetNameNoTier]에서 흥미진진하고 (소란스러운) 즐거운 시간을 보낸다" # 7143454070753273687
+  RICE_decision_bull_run_month_requirement: "월은 8월부터 10월까지여야 합니다" # 9074046564142542111
+  RICE_decision_bull_run_distance_requirement: "[realm_capital|E]는 #V Stamford#와 가깝습니다!" # 11636235175553840144
+  RICE_yorkshire_spectate_the_stamford_bull_run_confirm: "흥미진진한 일이 기다립니다!" # 15237425321543376298
+  RICE_yorkshire_spectate_the_stamford_bull_run_context_tooltip: "#emphasis 역사적 배경:#! 스탬퍼드 마을에서는 한때 매년 11월 13일에 황소 달리기 행사가 열렸습니다. 이 행사에 대한 가장 오래된 명시적인 언급은 서기 1389년으로 거슬러 올라가지만, 그전에도 얼마 동안 계속되었을 가능성이 높습니다. 아마도 꾸며낸 전설에 따르면, 이 전통은 13세기 초에 한 지역 노르만 영주가 암소를 두고 싸우는 두 마리의 황소를 떼어놓는 것을 도운 몇몇 지역 푸줏간 주인들을 도우면서 시작되었다고 합니다. 그는 그것을 너무 즐겨 매년 행사를 재현하자고 제안했습니다. 스탬퍼드만의 고유한 행사는 아니었지만, 소란스러운 축제는 청교도 시대까지도 살아남았고, 그것이 야기한 큰 공공 질서 문란 때문에 1839년 이후 마침내 금지되었습니다." # 6909607963982415276
+  RICE_yorkshire_charter_fair_granted_recently_req: "[realm|E] 내 그 누구도 최근에 [decision|E] '#bold 대규모 특허 시장 허가#'를 내린 적이 없습니다" # 11074511362902495794
+  RICE_yorkshire_grant_stamford_charter_fair: "스탬퍼드에 칙허 박람회 부여" # 6397488966031720277
   RICE_yorkshire_grant_stamford_charter_fair_tooltip: "스탬퍼드는 [charter_fair|E]를 개최할 권리를 부여받아야 합니다" # 10631437420420257324
-  RICE_yorkshire_grant_stamford_charter_fair_desc: "#V 스템포드#!는 영국에서 점차 중요하고 영향력 있는 무역 중심지로 자리 잡고 있습니다. 지역 상인들과 유력자들은 도시에 주요 [charter_fair|E] 개최 특권을 부여해 줄 것을 요청하고 있습니다." # 13608235414462093020
-  RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip: "귀하는 [가신|E]에게 이 정착지에 [정기 시장|E]을 개설할 권리를 부여해 달라고 청원하고 기본 비용 외에 상당한 양의 [명성|E]을 추가로 지불할 것입니다." # 6821692057067727697
-  RICE_yorkshire_grant_stamford_charter_fair_confirm: "완료되었는지 확인하십시오." # 12789241033859963003
-  RICE_yorkshire_grant_stamford_charter_fair_context_tooltip: "#bold 역사적 배경:#! 영국에서 왕실 칙령으로 설립된 연례 거리 시장인 칙령 박람회는 중세 시대에 많이 존재했으며, 그 이전에도 선례가 있었을 가능성이 큽니다. 특히 스탬퍼드, 보스턴, 윈체스터, 노샘프턴 등의 칙령 박람회는 매우 유명하여, 서열에 따라 순차적으로 개최되었고, 그 사이에 더 작은 박람회들이 자리 잡았습니다. 샹파뉴 박람회만큼 크지는 않았지만, 영국의 칙령 박람회는 유럽 전역의 많은 상인들을 끌어들였습니다." # 3040529984223632432
-  RICE_yorkshire_grant_boston_charter_fair: "보스턴에 정기 시장 개최 권한 부여" # 11386222028367407779
-  RICE_yorkshire_grant_boston_charter_fair_tooltip: "보스턴은 [charter_fair|E]를 개최할 권리가 주어져야 합니다." # 15590267049950746914
-  RICE_yorkshire_grant_boston_charter_fair_desc: "#V 보스톤#!은 영국에서 점차 중요하고 영향력 있는 무역 중심지로 성장하고 있습니다. 지역 상인들과 유력자들은 이 정착지에 중요한 [charter_fair|E] 개최 특권을 부여해 달라고 요청하고 있습니다." # 2010825720789405916
+  RICE_yorkshire_grant_stamford_charter_fair_desc: "#V Stamford#!는 잉글랜드에서 무역의 중심지로서 점점 더 중요하고 영향력 있는 곳이 되고 있습니다. 현지의 상인들과 유력자들이 마을에 대규모 [charter_fair|E]를 개최할 특권을 부여해달라고 요청하고 있습니다." # 13608235414462093020
+  RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip: "당신은 [liege|E]에게 이 정착지에 [charter_fair|E] 권리를 허락해 달라고 청원하게 될 것입니다. 하지만 기본 비용에 더해 상당한 양의 [prestige|E]도 지불해야 할 것입니다." # 6821692057067727697
+  RICE_yorkshire_grant_stamford_charter_fair_confirm: "성사시키도록 하라." # 12789241033859963003
+  RICE_yorkshire_grant_stamford_charter_fair_context_tooltip: "#emphasis 역사적 배경:#! 칙허 시장은 잉글랜드에서 왕실 칙허로 설립된 연례 거리 시장입니다. 이들 중 다수는 중세 시대로 거슬러 올라가지만, 그 이전에도 선례가 있었을 수 있습니다. 일부 칙허 시장, 특히 스탬퍼드, 보스턴, 윈체스터, 노샘프턴의 시장들은 매우 유명하여 정해진 순서를 형성했고, 그 사이에 더 작은 시장들이 열렸습니다. 샹파뉴 시장만큼 크지는 않았지만, 잉글랜드 칙허 시장들은 그럼에도 불구하고 유럽 전역의 많은 상인들을 끌어모았습니다." # 3040529984223632432
+  RICE_yorkshire_grant_boston_charter_fair: "보스턴에 특허 시장을 부여" # 11386222028367407779
+  RICE_yorkshire_grant_boston_charter_fair_tooltip: "보스턴은 [charter_fair|E]를 개최할 권리를 부여받아야 합니다." # 15590267049950746914
+  RICE_yorkshire_grant_boston_charter_fair_desc: "잉글랜드에서 #V 보스턴#!은 점점 더 중요하고 영향력 있는 무역 중심지가 되고 있습니다. 지역 상인들과 명사들은 정착지가 대규모 [charter_fair|E]를 개최할 특권을 부여받기를 요청하고 있습니다." # 2010825720789405916
   RICE_yorkshire_grant_boston_charter_fair_effect_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip$" # 7945850151986979407
   RICE_yorkshire_grant_boston_charter_fair_confirm: "$RICE_yorkshire_grant_stamford_charter_fair_confirm$" # 438686852617434866
   RICE_yorkshire_grant_boston_charter_fair_context_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_context_tooltip$" # 13833191276856374584
-  RICE_yorkshire_grant_winchester_charter_fair: "윈체스터에 특허 시장을 허가합니다" # 4799206750275213679
-  RICE_yorkshire_grant_winchester_charter_fair_tooltip: "윈체스터는 [charter_fair|E]를 개최할 권리를 부여받아야 합니다" # 12256145563525694199
-  RICE_yorkshire_grant_winchester_charter_fair_desc: "#V 윈체스터#!는 영국에서 점차 중요해지고 영향력 있는 무역 중심지가 되고 있습니다. 지역 상인들과 유력자들은 이 지역에 주요 [charter_fair|E] 개최 특권을 부여해 달라고 요청하고 있습니다." # 3530303737209555328
+  RICE_yorkshire_grant_winchester_charter_fair: "윈체스터에 특허 박람회 부여" # 4799206750275213679
+  RICE_yorkshire_grant_winchester_charter_fair_tooltip: "윈체스터에 [charter_fair|E] 개최권을 부여해야 합니다." # 12256145563525694199
+  RICE_yorkshire_grant_winchester_charter_fair_desc: "#V 윈체스터#!는 잉글랜드에서 점점 더 중요하고 영향력 있는 무역 중심지가 되어가고 있습니다. 현지 상인들과 명망가들이 정착지에 대규모 [charter_fair|E]를 개최할 특권을 부여해 줄 것을 요청하고 있습니다." # 3530303737209555328
   RICE_yorkshire_grant_winchester_charter_fair_effect_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip$" # 7945850151986979407
   RICE_yorkshire_grant_winchester_charter_fair_confirm: "$RICE_yorkshire_grant_stamford_charter_fair_confirm$" # 438686852617434866
   RICE_yorkshire_grant_winchester_charter_fair_context_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_context_tooltip$" # 13833191276856374584
-  RICE_yorkshire_grant_northampton_charter_fair: "노샘프턴에 특허장 정기 시장을 허가합니다" # 17533414152922699151
-  RICE_yorkshire_grant_northampton_charter_fair_tooltip: "#V 노샘프턴#!에 [charter_fair|E] 개최 권한이 부여되어야 합니다." # 10347776221158699100
-  RICE_yorkshire_grant_northampton_charter_fair_desc: "노샘프턴은 잉글랜드에서 점점 더 중요하고 영향력 있는 무역 중심지가 되고 있습니다. 지역 상인들과 유지들은 이 정착지에 주요 [charter_fair|E]를 개최할 수 있는 특권을 부여해 줄 것을 요청해 왔습니다." # 6772455831801191147
+  RICE_yorkshire_grant_northampton_charter_fair: "노샘프턴에 칙허 시장을 수여" # 17533414152922699151
+  RICE_yorkshire_grant_northampton_charter_fair_tooltip: "#V 노샘프턴#!은 [charter_fair|E]를 개최할 권리를 부여받아야 한다" # 10347776221158699100
+  RICE_yorkshire_grant_northampton_charter_fair_desc: "노샘프턴은 잉글랜드에서 점점 중요하고 영향력 있는 무역 중심지가 되어가고 있습니다. 지역 상인들과 유지들은 정착지에 주요 [charter_fair|E]를 개최할 특권을 부여해 달라고 요청해왔습니다." # 6772455831801191147
   RICE_yorkshire_grant_northampton_charter_fair_effect_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_effect_tooltip$" # 7945850151986979407
   RICE_yorkshire_grant_northampton_charter_fair_confirm: "$RICE_yorkshire_grant_stamford_charter_fair_confirm$" # 438686852617434866
   RICE_yorkshire_grant_northampton_charter_fair_context_tooltip: "$RICE_yorkshire_grant_stamford_charter_fair_context_tooltip$" # 13833191276856374584
-  RICE_yorkshire_grant_stourbridge_charter_fair: "스토어브리지에 케임브리지 특허 박람회를 허가합니다" # 6579762900589487971
-  RICE_yorkshire_grant_stourbridge_charter_fair_tooltip: "케임브리지는 스토어브리지 커먼에서 [charter_fair|E]를 개최할 권한을 부여받아야 합니다" # 3249922997743934018
-  RICE_yorkshire_grant_stourbridge_charter_fair_desc: "캠브리지의 정착민들은 스토어브리지 공원을 따라 자체 [charter_fair|E]를 개최할 권리를 오랫동안 요청해 왔습니다. 영국 다른 곳에도 중요한 박람회가 많이 있지만, 스토어브리지 박람회는 유리한 위치 때문에 매우 성공적일 것이라는 느낌이 듭니다." # 11403586284743598527
-  RICE_yorkshire_grant_stourbridge_charter_fair_confirm: "훌륭한 생각입니다! 해봅시다!" # 7654528530981333608
-  RICE_yorkshire_grant_stourbridge_charter_fair_context_tooltip: "#bold 역사적 배경:#! 스터브리지 박람회는 케임브리지에서 가장 중요한 무역 박람회였습니다. 실제로, 후기 중세와 초기 근대 시대에 유럽에서 가장 큰 무역 박람회 중 하나가 되었습니다. 이는 소설 #italic 순례자의 여정#에서 빈곤 박람회에 영감을 주었고, 아이작 뉴턴과 같은 여러 유명 인사들이 방문했습니다. 이 박람회는 마지막으로 1933년에 개최되었으며, 1934년에 공식적으로 폐지되었습니다." # 13841651661364731311
-  RICE_yorkshire_sheffield_cutlery: "최근에 구입한 셰필드 식기류" # 4798980431449716518
-  RICE_yorkshire_stamford_ware_feasts: "연회용 뉴 스탬퍼드 도자기" # 2881942303699140364
-  RICE_yorkshire_stamford_ware_pots: "하인들이 사용하는 새로운 스탬퍼드 식기" # 12117454042860986236
-  RICE_yorkshire_stamford_ware_decor: "새 스탬퍼드 도자기를 가구로 사용" # 9797311028783351859
-  RICE_yorkshire_vale_of_york: "요크 계곡이 번영합니다" # 12386184808756834210
-  RICE_yorkshire_wensleydale_cheese: "선물 받은 웬슬리데일 치즈" # 4118455832943445111
-  RICE_yorkshire_alcuin_spiritual_quote: "알쿠인의 지혜에서 영감을 얻음" # 7165089989642816131
-  RICE_yorkshire_alcuin_masses_quote: "알쿠인의 조언에서 영감을 얻어" # 2522282106361122344
-  RICE_yorkshire_caedmons_hymn: "케드먼 찬가에서 영감을 얻음" # 3360066410757717096
-  RICE_yorkshire_crowland_pilgrims: "크롤랜드로 향하는 순례자 증가" # 9514501751048262847
-  RICE_yorkshire_crowland_pilgrims_desc: "최근 들어 크로울랜드 수도원의 성 구틀락 성지에는 평소보다 더 많은 방문객이 찾고 있습니다." # 2662091906712341626
-  RICE_yorkshire_river_swale_lead: "스월 강변의 납 광산 붐" # 12343685149900490823
+  RICE_yorkshire_grant_stourbridge_charter_fair: "케임브리지에게 스토브리지에 특허 시장을 수여한다" # 6579762900589487971
+  RICE_yorkshire_grant_stourbridge_charter_fair_tooltip: "캠브리지는 스토어브리지 코먼에 [charter_fair|E]를 개최할 권리를 부여받아야 합니다" # 3249922997743934018
+  RICE_yorkshire_grant_stourbridge_charter_fair_desc: "케임브리지 정착지는 스터브리지 커먼을 따라 자체적인 [charter_fair|E]를 개최할 권리를 꽤 오랫동안 요청해 오고 있습니다. 브리튼의 다른 곳에도 중요한 시장이 많이 있지만, 스터브리지의 시장은 유리한 위치 때문에 매우 성공적일 것이라는 느낌이 듭니다." # 11403586284743598527
+  RICE_yorkshire_grant_stourbridge_charter_fair_confirm: "훌륭한 생각입니다! 합시다!" # 7654528530981333608
+  RICE_yorkshire_grant_stourbridge_charter_fair_context_tooltip: "#emphasis 역사적 배경:#! 스터브리지 박람회는 케임브리지에서 가장 중요한 무역 박람회였습니다. 실제로, 이 박람회는 후기 중세 및 초기 근대 시대에 유럽에서 가장 큰 무역 박람회 중 하나가 되었습니다. 예를 들어, 이 박람회는 소설 #italic 천로역정#!의 '허영의 시장(Vanity Fair)'에 영감을 주었으며, 아이작 뉴턴과 같은 여러 유명 인사들이 방문했습니다. 이 박람회는 1933년에 마지막으로 개최되었고 1934년에 공식적으로 폐지되었습니다." # 13841651661364731311
+  RICE_yorkshire_sheffield_cutlery: "최근 구매한 셰필드 식기" # 4798980431449716518
+  RICE_yorkshire_stamford_ware_feasts: "새 스탬포드 웨어: 연회용" # 2881942303699140364
+  RICE_yorkshire_stamford_ware_pots: "하인용 새로운 스탬퍼드 도자기" # 12117454042860986236
+  RICE_yorkshire_stamford_ware_decor: "신 스탬퍼드 도기를 실내 장식으로" # 9797311028783351859
+  RICE_yorkshire_vale_of_york: "요크 계곡은 번영 중입니다" # 12386184808756834210
+  RICE_yorkshire_wensleydale_cheese: "선물된 웬슬리데일 치즈" # 4118455832943445111
+  RICE_yorkshire_alcuin_spiritual_quote: "알퀸의 지혜에서 영감을 받아" # 7165089989642816131
+  RICE_yorkshire_alcuin_masses_quote: "알퀸의 조언에서 영감을 받아" # 2522282106361122344
+  RICE_yorkshire_caedmons_hymn: "케드몬의 찬가에서 영감을 얻은" # 3360066410757717096
+  RICE_yorkshire_crowland_pilgrims: "크롤랜드 순례자 증가" # 9514501751048262847
+  RICE_yorkshire_crowland_pilgrims_desc: "크롤랜드 대수도원의 크롤랜드의 성 구틀라크 성소가 최근 들어 평소보다 더 많은 방문객을 끌어모으고 있습니다." # 2662091906712341626
+  RICE_yorkshire_river_swale_lead: "스월 강 유역의 납 채굴 붐" # 12343685149900490823
   yorkshire.0000.t: "xxxxx" # 1951045980481827005
   yorkshire.0000.desc: "xxxxx" # 1951045980481827005
   yorkshire.0000.a: "xxxxx" # 1951045980481827005
-  yorkshire.0001.t: "스카버러 장터에 가시나요?" # 8935524253588788426
-  yorkshire.0001.desc: "이제 [scarborough_barony.GetNameNoTier] 백성들은 이 도시에 정기 시장 개최를 허가해 달라고 오랫동안 요청했습니다. 지역 관리들은 이 지역의 지속적인 번영을 장려하기 위해 더 많은 정기 시장이 이 지역에 허가되는 것이 중요하다고 판단했습니다.\n\n이에 따라 스카버러는 매년 8월과 9월에 시장을 열 수 있는 허가를 받았습니다. 잉글랜드의 다른 지역의 정기 시장만큼 유명해지지는 않더라도, 먼 곳에서 온 여행자와 상인들을 끌어모아 이 지역 경제에 기여할 것입니다." # 3100693046009822382
-  yorkshire.0001.a: "파슬리, 세이지, 로즈마리, 그리고 백리향!" # 15150697274879738157
+  yorkshire.0001.t: "스카버러 페어에 가는 길이신가요?" # 8935524253588788426
+  yorkshire.0001.desc: "[scarborough_barony.GetNameNoTier] 백성들은 오랫동안 시장이 열리는 특별한 날, 즉 장터가 열리는 날을 원했습니다. 이 지역의 번영을 계속 유지하기 위해 지역 관리는 그러한 장터를 더 많이 허용하는 것이 중요하다고 판단했습니다.\n\n따라서 스카르보로는 매년 8월과 9월에 장터를 열 수 있도록 특허를 받았습니다. 영국 다른 지역의 장터만큼 유명하지는 않겠지만, 그럼에도 불구하고 멀리서 온 여행객과 상인들을 끌어들여 지역 경제에 기여할 것입니다." # 3100693046009822382
+  yorkshire.0001.a: "월계수, 샐비어, 로즈마리, 그리고 백리향!" # 15150697274879738157
   yorkshire.0002.t: "xxxxx" # 1951045980481827005
   yorkshire.0002.desc: "xxxxx" # 1951045980481827005
   yorkshire.0002.a: "xxxxx" # 1951045980481827005
-  yorkshire.0003.t: "스토어브리지 박람회" # 1589224117781468697
-  yorkshire.0003.desc: "[cambridge_barony.GetNameNoTier] 마을과 인근 여러 정착지가 경제적으로 성장하고 있으며, 런던 외곽의 잉글랜드 중부에서 가장 눈에 띄는 상업 중심지 중 하나입니다. 지속적인 번영을 장려하기 위해 지역 관리들은 이 지역에 더 많은 특허 박람회를 허가하는 것이 중요하다고 판단했습니다.\n\n따라서 케임브리지 인근의 스토어브리지에는 매년 8월이나 9월에 박람회를 개최할 수 있는 특허가 부여되었습니다. 스토어브리지의 위치는 뉴마켓과 같은 이 지역의 여러 주요 마을로 이어지는 도로에 위치하여 매우 전략적이고 유리하다고 말하는 사람들이 많습니다. 이는 더 많은 교통과 무역을 유치할 것입니다." # 15684563230755282280
+  yorkshire.0003.t: "스토어브리지 페어" # 1589224117781468697
+  yorkshire.0003.desc: "[cambridge_barony.GetNameNoTier]와 그 주변 마을들은 경제적으로 번창하고 있으며, 런던 외 중앙 잉글랜드에서 상업의 주요 거점 중 하나로 자리 잡았습니다. 지속적인 번영을 위해 지역 관리들은 이 지역에 더 많은 장터를 허가하는 것이 중요하다고 판단했습니다.\n\n따라서 케임브리지 인근의 스토어브리지에 매년 8월 또는 9월에 장터를 열도록 특허가 부여되었습니다. 스토어브리지의 위치는 뉴마켓과 같은 지역의 몇몇 주요 마을로 가는 길에 있어 전략적이고 유리한 위치에 있다는 의견이 많습니다. 이는 더 많은 교통량과 무역을 유발할 것으로 예상됩니다." # 15684563230755282280
   yorkshire.0003.a: "아주 좋군!" # 14656373444608048459
   yorkshire.0004.t: "xxxxx" # 1951045980481827005
   yorkshire.0004.desc: "xxxxx" # 1951045980481827005
@@ -233,12 +237,15 @@
   yorkshire.0009.t: "xxxxx" # 1951045980481827005
   yorkshire.0009.desc: "xxxxx" # 1951045980481827005
   yorkshire.0009.a: "xxxxx" # 1951045980481827005
-  yorkshire.0010.t: "#bold 맹렬한 여장부#" # 2539304384362581150
-  yorkshire.0010.desc: "제 부모님께서 선량한 [GetReligionByKey('christianity_religion').GetAdherentNamePlural]로서 [GetTitleByKey('d_york').GetNameNoTier]에서 순례를 오셨을 때, 저는 오래 전 [GetTitleByKey('b_jerusalem').GetNameNoTier]에서 태어났습니다. 부모님께서 돌아가신 후, 저는 프랑스에서 수도사로서 자신의 소명을 찾은 제 어린 남동생 [thomas.GetFirstName]을 몇 년간 키우며 보냈습니다.\n\n이제 저는 성인 여성이 되어 저 자신의 순례를 위해 이 위대한 성지로 돌아왔습니다. 전해드릴 소식이 생기면 [thomas.GetFirstNameNoTooltip]에게 서신을 보낼 수도 있을 겁니다. 소문에 의하면 [GetReligionByKey('christianity_religion').GetAdjective]과 [GetReligionByKey('islam_religion').GetAdjective]의 군대가 곧 레반트에서 충돌할 것이라 합니다.\n\n순례를 시작할 때 십자군 서약을 했습니다. 그리고 저 같은 여자라도 성지 수호를 위해 할 수 있는 일은 할 수 있습니다. 제 마음속에 두려움을 느끼지만, 전능하신 주님의 이름으로 싸워야만 한다면 저는 그 두려움을 이겨내고 맹렬한 [Glossary( 'virago', 'VIRAGO_GLOSS' )]가 될 것입니다." # 16265448078384237782
-  yorkshire.0010.a: "주 예수 그리스도여, 저를 보호하시고 인도하소서!" # 12446525359534919881
-  yorkshire.0011.t: "냄비 투구" # 7545920926217417302
-  yorkshire.0011.desc: "성지로 향하는 나의 성지 순례는 쉽지 않았네. 사방에 위험이 도사리고 있고, 때로는 여인조차 싸워야만 하네.\n\n나는 산적과 이교도, 온갖 악인들을 만났고, 최근의 난투극 중에는 심지어 나를 보호하기 위해 냄비로 투구를 즉석으로 만들어 써야 했네!\n\n아마도 냄비를 머리에 쓴 여인보다 더 기묘한 것들도 있겠지만, 어떤 이들은 이 생각을 비웃을지도 모르네. 하지만 이 “투구”는 어느 정도 효과를 보였으니, 아마도 이것을 간직할 가치가 있을지도 모르네. 보호를 위해서도, 그리고 나의 성전 서약을 되새기기 위해서도 말이네." # 8831179321609160801
-  yorkshire.0011.a: "이 냄비를 투구로 쓰겠다." # 14265381455399488321
+  yorkshire.0010.t: "맹렬한 여장부" # 2539304384362581150
+  yorkshire.0010.desc: "[GetTitleByKey('b_jerusalem').GetNameNoTier]에서 오래 전에 태어났습니다. 부모님은 [GetTitleByKey('d_york').GetNameNoTier]에서 순례를 떠나신, 훌륭한 기독교 신자셨지요. 부모님이 돌아가시고, 나는 어린 동생 [thomas.GetFirstName]을 키우며 많은 세월을 보냈습니다. 동생은 프랑스에서 수도자가 되고자 했습니다.\n\n이제, 나 홀로 성지순례를 떠나 위대한 성스러운 도시로 돌아왔습니다. 어쩌면, [thomas.GetFirstNameNoTooltip]에게 소식을 전할 기회가 있을 것입니다.  소문에 의하면,  기독교와 이슬람군대가 곧 레반트에서 충돌할 것이라고 합니다.\n\n순례를 시작하며 십자군 서약을 했지요. 나 같은 여자라도 성스러운 땅을 지키는 데 기여할 수 있을 것입니다. 마음속 두려움을 느끼지만, 전능한 주님의 이름으로 싸워야 한다면, 그런 두려움을 극복하고 용맹한 여전사가 되겠습니다." # 16265448078384237782
+  yorkshire.0010.a: "주 예수 그리스도여, 나를 보호하시고 인도하소서!" # 12446525359534919881
+  yorkshire.0010.info: "#bold 역사적 배경:#! 베리의 마거릿은 영국의 순례자였으며, 십자군 전쟁 중, 특히 제3차 십자군 당시 1187년 예루살렘 공성전과 1188년 안티오크 공성전에 참전한, 역사적으로 기록된 여성 전투 참여 사례 중 드문 경우입니다. 그녀는 이후 더 많은 여정과 모험을 거듭한 후, 수년 뒤 프랑스의 수녀원으로 은퇴했습니다. 그녀의 삶에 대한 주요 자료는 그녀의 동생인, 현대 프랑스 피카르디 지역의 수도승 토마스입니다. 그는 흥미롭게도, 한때 캔터베리 대주교인 유명한 토마스 베케트의 가정부의 일원이었습니다." # 5297747121996759469
+  yorkshire.0011.t: "요리솥 헬멧" # 7545920926217417302
+  yorkshire.0011.desc: "성지 순례길이 녹록지 않았습니다. 어디를 가든 위험이 도사리고 있었고, 때로는 여자라 할지라도 싸워야 할 때가 있었습니다.\n\n도적과 이교도, 온갖 악당들을 만났고, 최근 한 싸움에서는 심지어 요리솥을 써서 헬멧 삼아 스스로를 지켜야 했습니다!\n\n머리에 요리솥을 쓴 여자보다 더 이상한 일이 세상에 있을까요. 아마도 그런 생각에 웃는 사람들도 있을 겁니다. 하지만 이 '헬멧'은 어느 정도 효과가 있었으니, 방어 수단으로서나 십자군 서약을 상기시켜주는 기념품으로서 유용할지도 모릅니다." # 8831179321609160801
+  yorkshire.0011.a: "이 솥을 헬멧으로 쓰겠어." # 14265381455399488321
+  yorkshire.0011.b: "요리솥을 머리 장식으로 쓰는 건 말도 안 돼." # 14897346748766243750
+  yorkshire.0011.info: "#bold 역사적 배경:# 1187년 살라딘이 예루살렘을 포위했을 때, 마가렛 오브 베버리의 형이자 그녀의 삶에 대한 주요 근거를 제공한 수도사 토마스에 따르면, 마가렛은 도시 방어에 적극적으로 참여했다고 합니다.  그녀는 솥을 개조하여 헬멧으로 사용해야 했다고 합니다.  이 사건이 실제로 발생했는지, 아니면 꾸며낸 이야기인지는 불확실합니다.  비현실적이지 않지만, 중세 시대에 여성 전사는 특이하게 묘사되었으며, 풍자적이거나 우스꽝스러운 요소를 담고 있었을 가능성도 배제할 수 없습니다." # 1022111231904845378
   yorkshire.0012.t: "xxxxx" # 1951045980481827005
   yorkshire.0012.desc: "xxxxx" # 1951045980481827005
   yorkshire.0012.a: "xxxxx" # 1951045980481827005
@@ -263,26 +270,26 @@
   yorkshire.0019.t: "xxxxx" # 1951045980481827005
   yorkshire.0019.desc: "xxxxx" # 1951045980481827005
   yorkshire.0019.a: "xxxxx" # 1951045980481827005
-  yorkshire.0020.t: "베벌리의 주교 존" # 9316347286374647332
-  yorkshire.0020.desc: "오래전, 8세기로 거슬러 올라가면 요크의 주교는 존 오브 베벌리라는 가장 거룩하고 신앙심 깊은 사람이었습니다. 최근 몇 년 동안 그는 많은 기적을 일으켰다고 현지인들이 숭배하는 대상이 되었습니다. 심지어 나 자신도 그런 기적의 잠재적인 수혜자 중 하나라고 생각해야 할 정도입니다. 내 군사 관련 여러 사건들이 그분의 영향 덕분이며, 내가 필요할 때 하나님께서 나를 도우셨기 때문인 것 같습니다.\n\n그 결과, 오늘 나는 그분이 세우신 베벌리 마을([beverley_location.GetNameNoTier]에 위치)에 있는 그의 무덤을 방문하여 이 위대한 분에게 경의를 표하기로 했습니다. 나는 그분의 기억을 제대로 기리기 위해 그의 무덤 주변에 상당한 규모의 성소를 건설하기로 맹세했습니다." # 14408221553419731391
-  yorkshire.0020.a: "어떤 이들은 그가 언젠가 성인이 될 것이라고 말하지만, 누가 알까?" # 17402705094123047384
-  yorkshire.0020.tooltip: "약 1세기 후, 이스트라이딩의 통치자는 베벌리의 성 요한 시성식을 지지하는 [decision|E]을 내릴 수 있습니다." # 9834125804227453627
-  yorkshire.0021.t: "베벌리의 주교 존" # 9316347286374647332
-  yorkshire.0021.desc: "최근에 [homage_person.GetTitledFirstName]께서 [beverley_location.GetNameNoTier]에 있는 베벌리에 위치한 베벌리의 존의 무덤을 방문했습니다. 요크의 주교였던 이 8세기 성직자는 매우 거룩하고 신앙심이 깊은 사람으로 여겨지며 수년 동안 현지인들의 숭배를 받아왔습니다.\n\n고(故) 존 주교는 여러 군사 문제에서 [homage_person.GetTitledFirstName]에게 많은 도움을 제공한 것으로 알려져 있습니다. 이 때문에 [homage_person.GetSheHe]께서는 존 주교의 무덤 주변에 상당한 규모의 성소를 건설하라고 명령했습니다. 존 주교의 전설이 계속해서 커진다면 언젠가는 그가 성인으로 시성되는 것을 볼 수 있을까요?" # 2745581147826207444
-  yorkshire.0021.a: "시간만이 말해줄 것입니다." # 13029075585362017751
-  yorkshire.0021.tooltip: "약 1세기 후, 이스트라이딩의 통치자는 베벌리의 성 요한 시성식을 지지하는 [decision|E]을 내릴 수 있습니다." # 9834125804227453627
-  yorkshire.0022.t: "베벌리의 성 요한" # 16378335323290057793
-  yorkshire.0022.desc: "8세기 요크의 주교였던 베벌리의 존의 전설은 세월이 흐를수록 더욱 커지고 있습니다. 이 지역에는 그가 성인으로 시성되기를 청원하는 사람들이 많으며, 그에게 기인한 기적이 매우 많기 때문입니다.\n\n[ROOT.Char.GetFaith.GetAdjective] 교회는 이에 동의하는 것으로 보이며, 몇몇 [ROOT.Char.Custom('DefaultPriestTitlePlural')]이 베벌리의 존의 기적과 삶에 대한 의무 조사를 위해 파견된 후, 그를 정식으로 성인으로 선포했습니다.\n\n그가 건설하는 데 도움을 준 도시인 베벌리는 그의 무덤을 보관하게 되어 엄청난 위신과 명예를 얻게 될 것입니다. 성 요한의 공식 시성과 함께 더 많은 순례자들이 찾아올 것으로 예상되며, 이는 정착지에 경제적, 정신적으로 도움이 될 것입니다." # 1573638345610859343
+  yorkshire.0020.t: "베벌리의 요한 주교" # 9316347286374647332
+  yorkshire.0020.desc: "8세기, 요크의 주교였던 존 오브 베벌리가, 매우 성스럽고 경건한 인물이었음은 널리 알려져 있습니다. 최근 수년간 그는 지역 주민들에게 많은 기적을 행했다는 숭배의 대상이 되었지요. 저 역시 이러한 기적의 잠재적 수혜자 중 하나라고 할 수 있을 것 같습니다. 제 군사 행보와 관련된 여러 사건들이 그의 영향 때문이라고 여겨지며, 실로 어려운 시기에 신께서 도움을 베풀어주셨다고 믿습니다.\n\n\n그 결과, 오늘 저는 이 위대한 인물에게 직접 경의를 표하기 위해 그의 설립한 베벌리 마을([beverley_location.GetNameNoTier])에 있는 그의 묘소를 방문하기로 결정했습니다. 그의 숭고한 업적을 기리기 위해 그의 묘소 주변에 상당 규모의 성소를 건립할 것을 서약했습니다." # 14408221553419731391
+  yorkshire.0020.a: "어떤 이들은 언젠가 성인이 될 것이라고 말하지만, 누가 알겠는가?" # 17402705094123047384
+  yorkshire.0020.tooltip: "백 년 후, 동부 이스트 라이트링의 통치자는 성 요한 베벌리의 시성을 지지하기 위한 [결정|E]을 내릴 수 있습니다." # 9834125804227453627
+  yorkshire.0021.t: "베벌리의 요한 주교" # 9316347286374647332
+  yorkshire.0021.desc: "최근 [homage_person.GetTitledFirstName]은 [beverley_location.GetNameNoTier]에 위치한 비벌리의 존 오브 비벌리(John of Beverley) 무덤을 방문했습니다. 8세기 요크 주교였던 그 성직자는 매우 성스럽고 경건한 인물로, 오랫동안 지역 주민들에게 숭배받아 왔습니다.\n\n세상을 떠난 존 주교는 [homage_person.GetSheHe]에게 여러 군사적 업무에서 많은 도움을 주었다고 평가받고 있습니다. 이에 [homage_person.GetSheHe]는 존 주교의 무덤 주변에 상당한 규모의 성역 건설을 명령했습니다. 만약 존 주교의 전설이 계속 퍼진다면, 언젠가 성인으로 시성될 수 있을까요?" # 2745581147826207444
+  yorkshire.0021.a: "시간이 지나봐야 알겠지." # 13029075585362017751
+  yorkshire.0021.tooltip: "백 년 후, 동부 이스트 라이트링의 통치자는 성 요한 베벌리의 시성을 지지하기 위한 [결정|E]을 내릴 수 있습니다." # 9834125804227453627
+  yorkshire.0022.t: "성 요한 오브 베벌리" # 16378335323290057793
+  yorkshire.0022.desc: "요크의 8세기 주교, 존 오브 비벌리의 전설은 세월이 흐를수록 더욱 빛나고 있습니다. 그 지역에는 그의 성스러운 능력에 기적이 많이 나타났다는 주장으로 그의 성인 추대를 탄원하는 이들이 많습니다.\n\n[ROOT.Char.GetFaith.GetAdjective] 교회 또한 이에 동의하는 듯하며, 존 오브 비벌리의 기적과 삶에 대한 필수 조사를 위해 여러 [ROOT.Char.Custom('DefaultPriestTitlePlural')]을 파견한 후, 그를 공식적으로 성인으로 선언했습니다.\n\n그가 세운 도시, 비벌리에는 그의 무덤이 자리 잡게 되어 큰 명성과 영광을 얻게 될 것입니다. 성 존의 공식적인 성인 추대는 더 많은 순례자가 방문하는 것을 예상할 수 있으며, 이는 도시에 경제적, 영적으로 큰 도움이 될 것입니다." # 1573638345610859343
   yorkshire.0022.a: "아주 좋군" # 2006367686461631787
-  yorkshire.0022.tooltip: "베벌리 인근의 통치자는 이제 [saint_john_of_beverley_short|E]의 무덤에서 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]을 진행하고 그의 깃발을 빌릴 수 있습니다." # 9465796851537258462
-  yorkshire.0023.t: "베벌리의 성 요한" # 16378335323290057793
-  yorkshire.0023.desc: "수년 동안, 잉글랜드 북부에서는 많은 이들이 [john_of_beverley_canonizer.GetFaith.GetAdjective] 교회가 8세기 요크의 주교였던 베벌리의 성 요한을 성인으로 인정하여 성인의 지위를 부여할 것을 청원했습니다. [john_of_beverley_canonizer.GetTitledFirstName]이 이끄는 지역 성직자와 지도자들의 노력 덕분에 마침내 이루어졌습니다.\n\n그가 세우는 데 도움을 준 마을인 베벌리는 그의 무덤이 있는 곳으로서 큰 명성과 영예를 얻을 것입니다. 성 요한의 공식적인 시성으로 인해 더 많은 순례자들이 찾아올 것으로 예상되며, 이는 정착지에 경제적, 정신적으로 도움이 될 것입니다." # 17343869914659985323
+  yorkshire.0022.tooltip: "비벌리 근처 군주들은 이제 비벌리 성인 요한의 무덤에서 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 참여하고 그 깃발을 빌릴 수 있습니다." # 9465796851537258462
+  yorkshire.0023.t: "성 요한 오브 베벌리" # 16378335323290057793
+  yorkshire.0023.desc: "수년간 북부 영국에서는 8세기 요크 주교였던 존 오브 버클리의 성인 추대를 위해 [john_of_beverley_canonizer.GetFaith.GetAdjective] 교회에 청원해왔습니다. 지역 성직자들과 지도자들의 노력, 특히 [john_of_beverley_canonizer.GetTitledFirstName]의 주도 아래, 이 소원이 마침내 이루어졌습니다.\n\n그가 건설하는데 기여한 도시 버클리는 그의 무덤이 있는 곳이기에 틀림없이 큰 명성과 영광을 얻을 것입니다. 성인 존의 공식적인 성인 추대와 더불어, 더 많은 순례자들이 찾아올 것으로 예상되며, 이는 도시에 경제적, 영적으로 큰 이득을 가져다줄 것입니다." # 17343869914659985323
   yorkshire.0023.a: "흥미로운 소식입니다!" # 9139321692458641818
-  yorkshire.0023.tooltip: "베벌리 인근의 통치자들은 이제 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]을 떠날 수 있으며, 그의 깃발을 빌릴 수도 있습니다." # 5191000790762461914
+  yorkshire.0023.tooltip: "비벌리 근처 군주들은 이제 [GetActivityType( 'activity_RICE_yorkshire_beverley_pilgrimage' ).GetName]에 참여할 수 있으며, 그들의 기치를 빌릴 수 있습니다." # 5191000790762461914
   yorkshire.0024.t: "깃발" # 15521572410899838394
-  yorkshire.0024.desc: "베벌리에서 현지 성직자들과 만나 예상대로 즐거운 시간을 보낸 후, 그들은 전설적인 베벌리 성 요한의 깃발을 꺼냈습니다. 전설에 따르면 이 신성한 유물은 수많은 용감한 영주들에게 군사적 승리를 가져다주었다고 합니다. 그것은 아름다운 광경이며, 그것을 보존하는 수도사들이 전투에 들고 가도록 해달라는 저의 요청을 받아들인 것에 대해 영광으로 생각합니다. 저는 분명히 이것을 기독교의 적들, 그리고 선하고 정의로운 모든 것의 적들에 맞서 사용할 것을 맹세합니다." # 17570747738070640981
-  yorkshire.0024.a: "확실합니다." # 5920423734624967304
-  yorkshire.0024.tooltip: "만약 사망하거나 모든 [titles|E]를 잃으면, 깃발은 [heir|E]에게 계승되지 않고 베벌리의 성 요한 성소로 반환됩니다." # 234154340554596335
+  yorkshire.0024.desc: "베벌리의 현지 성직자들과 예상대로 즐거운 인사를 나눈 후, 그들은 전설적인 성 요한 베벌리 기적의 깃발을 내놓았습니다. 이 성스러운 유물은 전설에 따르면 수많은 용감한 영주들에게 군사적 승리를 가져다주었다고 합니다. 아름다운 광경입니다. 그 유물을 보존하는 수도사들이 저의 요청을 받아들여 전쟁터로 함께 가져갈 수 있게 허락해주셔서 영광입니다. 확실히 기독교의 적과, 모든 선과 정의의 적을 상대로 이 깃발을 사용할 것을 맹세합니다." # 17570747738070640981
+  yorkshire.0024.a: "물론입니다." # 5920423734624967304
+  yorkshire.0024.tooltip: "사망하거나 모든 [칭호|E]를 상실하면, 그 깃발은 [상속인|E]에게 이어지지 않고, 벌리의 성 요한 수호소로 돌아갈 것입니다." # 234154340554596335
   yorkshire.0025.t: "xxxxx" # 1951045980481827005
   yorkshire.0025.desc: "xxxxx" # 1951045980481827005
   yorkshire.0025.a: "xxxxx" # 1951045980481827005
@@ -299,26 +306,26 @@
   yorkshire.0029.desc: "xxxxx" # 1951045980481827005
   yorkshire.0029.a: "xxxxx" # 1951045980481827005
   yorkshire.0030.t: "준비" # 666839747819429162
-  yorkshire.0030.desc: "저는 [beverley_location.GetNameNoTier]의 베벌리 마을로 가서 베벌리의 성 요한의 무덤을 방문하기로 했습니다. 그는 매우 거룩한 사람이며, 그의 삶은 전설과 같고, 전쟁과 정치에서 많은 지도자에게 행운을 가져다주었다고 합니다. 물론, 저의 진정한 목적은 그럼에도 불구하고 영적인 필요를 위해 그곳에 가는 것이어야 할 것입니다." # 17931722224136346529
-  yorkshire.0030.a: "곧 그곳으로 떠날 준비를 하겠습니다!" # 4516512420640322928
+  yorkshire.0030.desc: "[beverley_location.GetNameNoTier]의 베벌리 마을로 향하는 것이 시기라고 생각합니다. 성 요한 베벌리의 무덤을 참배하려고 합니다. 그는 매우 성스러운 분으로, 그의 삶은 전설 그 자체이며, 수많은 지도자들에게 전쟁과 정치에서 행운을 가져다주었다고 알려져 있습니다. 물론, 제 진정한 목적은 영적인 필요를 위해서 거기로 가는 것입니다." # 17931722224136346529
+  yorkshire.0030.a: "곧 거기에 가려고 준비할 겁니다!" # 4516512420640322928
   yorkshire.0031.t: "베벌리에게" # 1346983293645795613
-  yorkshire.0031.desc: "오늘, 베벌리 마을로 향하는 여정이 시작됩니다! 저는 겸손하고 경건한 순례자에 불과한 몸으로 성 요한의 무덤으로 나아갈 것입니다." # 11953554660049277244
-  yorkshire.0031.a: "비벌리의 들판과 언덕으로 갑니다!" # 6595145619527699568
-  yorkshire.0032.t: "베벌리 도착" # 11734704459071473558
-  yorkshire.0032.desc: "저는 베벌리 마을에 도착했습니다. 베벌리는 성 요한과 관련이 없었다면 영국에서 평범한 정착지 중 하나였을 것입니다. 성 요한의 성역이 있다는 것은 마을의 자랑이자 기쁨이며, 마을의 특권을 침해하는 자는 성인 자신이 직접 쳐부술 것이라고 하니 조심스럽게 존경을 표해야 합니다. 묘소를 방문하겠지만, 먼저 교회에서 기도하고 오늘 밤은 휴식을 취하겠습니다." # 1023489309666010416
-  yorkshire.0032.a: "여기 오니 좋군요." # 1229912578487587622
+  yorkshire.0031.desc: "오늘부터 벌리 읍으로의 여정이 시작됩니다! 성 요한의 무덤을 향해, 보잘것없고 경건한 순례자로서 출발합니다." # 11953554660049277244
+  yorkshire.0031.a: "비벌리의 초원과 언덕으로 갑니다!" # 6595145619527699568
+  yorkshire.0032.t: "비벌리에 도착합니다." # 11734704459071473558
+  yorkshire.0032.desc: "베벌리라는 마을에 도착했습니다. 베벌리는 영국에서 평범한 마을에 불과했겠지만, 성 요한과의 연관성 덕분에 예외였습니다. 성 요한의 성소는 이 마을의 자랑이며, 누구든지 이 마을의 특권을 어기면 성인 자신에게 벌을 받을 것이라고 합니다. 그러므로 신중하고 존경심을 갖고 행동해야 합니다. 무덤을 방문하겠지만, 먼저 교회에서 기도하고 오늘 밤은 잠시 쉬겠습니다." # 1023489309666010416
+  yorkshire.0032.a: "여기 계셔서 좋습니다." # 1229912578487587622
   yorkshire.0033.t: "무덤" # 8022959051572043264
-  yorkshire.0033.desc: "저는 지금 성 요한의 무덤에 와 있습니다. 이렇게 성스러운 분이 여기에 묻혀 계시다니! 그분에 대한 전설이 많은데, 흔히 알려진 것은 그분이 악마에게 속아 중대한 죄를 저지른 은둔자였고, 그 결과로 많은 고통을 겪고 회개한 끝에 요크의 주교가 되었다는 것입니다.\n\n특히 저의 관심을 끄는 것은 요한의 깃발인데, 많은 사람들이 그것에 엄청난 군사적 힘이 있다고 믿습니다. 그 깃발을 휘두르는 영주나 여인은 전투에서 항상 성공할 것이라고 합니다!" # 15737816387719401287
-  yorkshire.0033.desc.banner_present: "\n\n나는 호기심을 가지고 깃발을 관찰합니다. 언젠가 [ROOT.Char.GetFaith.GetAdjective] 교회의 이름으로, 그리고 우리의 적들을 쳐부수기 위해 유용하게 사용할 수 있을지도 모릅니다." # 8251494753021873658
-  yorkshire.0033.desc.banner_not_present: "현재 깃발은 다른 곳에 빌려간 상태라 교회에 없지만, 이곳의 많은 이들이 그것에 대해 경건한 목소리로 속삭입니다. 언젠가는 저도 그것을 볼 수 있을지도 모르겠습니다." # 4656660515610664016
-  yorkshire.0033.a: "기도하며 조용히 앉아 있습니다." # 3704749458113500633
-  yorkshire.0033.toast: "당신은 깃발의 전설에 영감을 받았습니다!" # 10964677361032079995
-  yorkshire.0034.t: "회고" # 17959168538573374949
-  yorkshire.0034.desc: "성 요한의 무덤을 떠나면서, 내가 목격하고 경험한 것을 되돌아봅니다. 마치 현명하고 경건한 성인께서 나를 [ROOT.Char.GetTitledFirstName](으)로서 더 위대한 일을 이루도록 인도하시는 듯한 큰 영적 평화를 느낍니다." # 5992196986825833479
-  yorkshire.0034.a: "베벌리를 방문한 것은 좋은 경험이었습니다." # 6691352988516204246
-  yorkshire.0035.t: "집으로 다시" # 8982195001821718435
-  yorkshire.0035.desc: "베벌리 성지 순례를 마치고 마침내 집으로 돌아왔습니다. 그곳에서 성 베벌리의 요한의 무덤에 경의를 표했습니다. 모든 것을 고려했을 때 좋은 결정이었고, 여행 전체가 보람 있었습니다." # 6621142893893404277
-  yorkshire.0035.a: "언젠가 다시 방문할 수 있을까요?" # 2143792109126308534
+  yorkshire.0033.desc: "성 요한의 무덤에 섰습니다. 이토록 성스러운 분이 여기에 묻혀 있다니! 그에 대한 전설은 많습니다. 마귀에 속아 심각한 죄를 짓고, 요크의 주교가 되기 전에 회개하며 큰 고통을 겪었다는 이야기가 유명합니다.\n\n저는 특히 요한의 깃발에 관심이 있습니다. 많은 이들이 그 깃발에 뛰어난 군사력이 있다고 전합니다. 그 깃발을 든 주인은 전투에서 항상 승리한다고 합니다!" # 15737816387719401287
+  yorkshire.0033.desc.banner_present: "깃발을 유심히 살펴봅니다. 언젠가 그 깃발을 활용할 기회가 있을지도 모르겠군요. 물론 [ROOT.Char.GetFaith.GetAdjective] 교회의 이름으로, 그리고 우리 적들을 격퇴하기 위해서 말입니다." # 8251494753021873658
+  yorkshire.0033.desc.banner_not_present: "현재 성당에는 깃발이 없는데, 다른 곳에서 빌려가고 있기 때문입니다. 하지만 여기서 많은 사람들이 그 깃발에 대해 존경심 어린 속삭임으로 이야기합니다. 아마 언젠가는 직접 볼 수 있겠지요." # 4656660515610664016
+  yorkshire.0033.a: "묵묵히 기도에 잠깁니다." # 3704749458113500633
+  yorkshire.0033.toast: "깃발의 전설에 감명받았습니다!" # 10964677361032079995
+  yorkshire.0034.t: "반성" # 17959168538573374949
+  yorkshire.0034.desc: "성 요한의 무덤을 나서며, 목격하고 경험한 모든 것을 되짚어봅니다. 현명하고 경건한 성인이 저를 [ROOT.Char.GetTitledFirstName]로서 더 큰 업적을 이루도록 인도해주시는 듯한 큰 영적 평화를 느낍니다." # 5992196986825833479
+  yorkshire.0034.a: "비벌리 방문은 좋은 경험이었습니다." # 6691352988516204246
+  yorkshire.0035.t: "고향으로 돌아왔네" # 8982195001821718435
+  yorkshire.0035.desc: "비벌리 순례에서 마침내 귀국했습니다. 성 요한 비벌리의 무덤에 경건한 예배를 드리고 돌아왔습니다. 결론적으로 좋은 결정이었고, 여정 전체가 값진 시간이었습니다." # 6621142893893404277
+  yorkshire.0035.a: "언젠가 다시 찾아올지도 모르겠습니다." # 2143792109126308534
   yorkshire.0036.t: "xxxxx" # 1951045980481827005
   yorkshire.0036.desc: "xxxxx" # 1951045980481827005
   yorkshire.0036.a: "xxxxx" # 1951045980481827005
@@ -361,38 +368,38 @@
   yorkshire.0049.t: "xxxxx" # 1951045980481827005
   yorkshire.0049.desc: "xxxxx" # 1951045980481827005
   yorkshire.0049.a: "xxxxx" # 1951045980481827005
-  yorkshire.0050.t: "스탬퍼드의 황소" # 7696118327492750622
-  yorkshire.0050.desc: "[stamford_barony.GetNameNoTier] 마을을 방문했을 때, 멀지 않은 초원에서 암소를 두고 두 마리의 황소가 싸우는 것을 보았습니다. 저는 안전한 거리에서 그 광경을 재미있게 구경했습니다. 그러다 [stamford_barony.GetNameNoTier] 출신의 정육점 주인 몇 명이 개들을 데리고 황소를 떼어놓으러 왔습니다. 하지만 이는 황소들을 더욱 격분시킨 듯했습니다!\n\n황소들이 정착지를 짓밟자, 당황한 마을 사람들이 이리저리 뛰어다녔습니다. 의무감이 들어서 저와 경비병 몇 명이 정육점 주인들과 마을 사람들과 합류하여 황소들을 진정시키기로 했습니다. 물론 우리는 성공했습니다." # 17034234135371294734
-  yorkshire.0050.a: "그만큼 정신없었지만, 꽤 재미있었어요!" # 8460836010440054710
-  yorkshire.0051.t: "스탬퍼드의 황소 돌진" # 13749217073931213335
-  yorkshire.0051.desc: "[stamford_barony.GetNameNoTier]의 주민들은 황소를 진압하는 데 도움을 준 것에 감사하며, 나를 기리기 위한 즉석 연회를 엽니다. 나는 너무 즐거웠기 때문에 [stamford_barony.GetNameNoTier]의 군주로서, 매년 좋은 전통적인 황소 달리기로 이 사건을 재연하고 기념하는 한, 황소들이 싸우던 목초지를 지역 정육점 주인들에게 영구적으로 주기로 결정했습니다. 매년 축제에 참여하기 위해 하루 더 쉬는 것을 싫어할 사람은 없겠죠?" # 11835861396911256464
-  yorkshire.0051.a: "저는 곧 스탬퍼드로 돌아가기를 바랍니다!" # 6344315695209270974
-  yorkshire.0051.tooltip: "이제부터 [stamford_barony.GetNameNoTier] 근처에 [county_capital|E]을 가진 [rulers|E]는 매년 11월 즈음에 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName] [activity|E]에 참여할 수 있습니다" # 18376391785756613075
-  yorkshire.0052.t: "스탬퍼드의 황소 돌진" # 13749217073931213335
-  yorkshire.0052.desc: "[bull_runner.GetTitledFirstName]이 [stamford_barony.GetNameNoTier]의 주민들을 도와 마을을 휩쓸던 황소 몇 마리를 영웅적으로 진정시켰다는 소문이 빠르게 퍼지고 있습니다. 그 후, [bull_runner.GetSheHe]은 이 사건을 매년 축제와 황소 달리기로 기념해달라고 요청했습니다." # 9305241758091668744
-  yorkshire.0052.a: "언젠가 스탬퍼드를 방문하여 이것을 직접 목격할지도 모르겠군요." # 14691823176558529093
+  yorkshire.0050.t: "스탬퍼드의 황소들" # 7696118327492750622
+  yorkshire.0050.desc: "[stamford_barony.GetNameNoTier] 마을을 방문하던 중, 그리 멀지 않은 들판에서 두 황소가 암소를 차지하기 위해 싸우는 광경을 목격했습니다. 안전한 거리에서 흥미롭게 그 장면을 지켜보았지만, 곧 [stamford_barony.GetNameNoTier] 출신의 여러 정육점 주인들이 개들과 함께 황소들을 떼어놓으려고 달려왔습니다. 하지만, 이는 오히려 황소들의 분노를 더욱 격발시켰을 뿐입니다!\n\n황소들은 마을을 짓밟으며, 겁에 질린 주민들이 이리저리 뛰어다녔습니다. 임무는 저와 수많은 호위병들이 정육점 주인들과 마을 사람들과 함께 황소들을 진정시키기 위한 것이었고, 물론 우리는 성공했습니다." # 17034234135371294734
+  yorkshire.0050.a: "그건 정말 미쳤지만, 재밌었어!" # 8460836010440054710
+  yorkshire.0051.t: "스탬포드의 황소싸움" # 13749217073931213335
+  yorkshire.0051.desc: "[stamford_barony.GetNameNoTier]의 시민들은 소들을 진정시키도록 도와준 데 감사하며, 제게 작은 자발적 연회를 베풀었습니다.  [stamford_barony.GetNameNoTier]의 영주로서, 저는 소들이 싸우던 그 풀밭을 영구히 현지 정육점들에게 하사하기로 결정했습니다.  단, 매년 이 행사를 재현하고, 좋은, 오래된 방식의 소 몰이 축제로 기념해야만 하는 조건입니다.  매년 한가지 축제를 더 즐길 수 있다니, 누구도 반대하지 않으시겠죠?" # 11835861396911256464
+  yorkshire.0051.a: "스탬포드로 곧 돌아가기를 바랍니다!" # 6344315695209270974
+  yorkshire.0051.tooltip: "이제 [county_capital|E]가 [stamford_barony.GetNameNoTier] 근처인 [rulers|E]는 매년 11월경 [GetActivityType( 'activity_RICE_yorkshire_stamford_bull_run' ).GetName] [activity|E]에 참여할 수 있습니다." # 18376391785756613075
+  yorkshire.0052.t: "스탬포드의 황소싸움" # 13749217073931213335
+  yorkshire.0052.desc: "[bull_runner.GetTitledFirstName] 영웅이 [stamford_barony.GetNameNoTier] 시민들을 위해 난폭하게 돌진하던 황소 몇 마리를 진정시키는 데 큰 도움을 주었다는 소문이 빠르게 퍼지고 있습니다. 그 후, [bull_runner.GetSheHe]는 이 사건을 기념하기 위해 매년 축제와 황소 몰이를 하는 행사를 열 것을 요청했습니다." # 9305241758091668744
+  yorkshire.0052.a: "언젠가 스탬포드를 방문하여 이를 목격해보고 싶군." # 14691823176558529093
   yorkshire.0052.tooltip: "$yorkshire.0051.tooltip$" # 6853237895817491141
-  yorkshire.0053.t: "스탬퍼드 도착" # 4705830558355240191
-  yorkshire.0053.desc.bull_runner: "저는 올해 [stamford_barony.GetNameNoTier]의 황소 달리기를 관람하기로 했습니다. 전통에 따르면 이 행사는 오래전 [bull_runner.GetSheHe]께서 몇몇 지역 정육점 주인들이 폭주하는 황소 몇 마리를 진정시키는 것을 도왔을 때 시작되었다고 합니다. 이 축제의 떠들썩한 분위기를 좋지 않게 보는 사람들도 있지만, 저는 올해 뭔가 흥미로운 것을 보기를 바랍니다!" # 5292227650170694791
-  yorkshire.0053.desc.not_bull_runner: "저는 올해 [stamford_barony.GetNameNoTier]에서 열리는 소몰이 경기를 구경하기로 했습니다. 예전에 있었던 재미있는 사건 이후로 매년 소몰이 경기를 개최하자는 제 제안에 지역 주민들이 동의해서 기쁩니다. 그 축제의 떠들썩하고 카니발 같은 분위기를 경멸하는 사람들도 있지만, 올해는 뭔가 흥미로운 것을 볼 수 있기를 바랍니다!" # 4121219127973337939
-  yorkshire.0053.a: "이것은 아주 신나는 난장판이 될 거야!" # 9512693372549217386
-  yorkshire.0054.t: "거의 다 됐습니다!" # 8545233594367186874
-  yorkshire.0054.desc: "마침내, [stamford_barony.GetNameNoTier]의 소몰이가 내일 시작될 예정입니다. 저는 지역의 하급 귀족들과 저명한 마을 사람들로부터 환영받습니다. 그들 중 한 명이 이 전통의 중요한 참가자인 정육점 사람들이 주요 행사를 위해 찾을 수 있는 가장 거칠고 난폭한 소를 선택하는 것을 마쳤다고 말합니다. 어쨌든 저는 이 광경을 직접 목격하기를 기대합니다!\n\n잠자리에 들기 전에, 제가 직접 소몰이에 참가해야 할지, 아니면 그저 관찰만 해야 할지 궁금합니다. 일부 고지식한 사람들은 이미 저처럼 위엄 있는 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetTitleAsNameNoTooltip]에게 어울리지 않고 부적절하며 무례한, 그런 소란스럽고 피비린내 나는 사건에 제가 있는 것을 못마땅하게 생각하고 있으며, 적극적인 참여는 상황을 더욱 악화시킬 뿐입니다. 반면에, 그것은 아주 재미있을 수도 있습니다." # 8642373815912729789
+  yorkshire.0053.t: "스탬퍼드에 도착했습니다." # 4705830558355240191
+  yorkshire.0053.desc.bull_runner: "올해 [stamford_barony.GetNameNoTier]의 황소 몰이 구경에 참여하기로 결정했습니다. 전설에 따르면, 이 행사는 오래전 [bull_runner.GetSheHe]가 일부 지역 정육점 주인들과 함께 난폭한 황소들을 진정시키면서 시작되었다고 합니다.  흥겨운 축제 분위기에 냉소적인 시선을 보내는 이들도 있지만, 올해는 정말 흥미로운 광경을 보게 될 것 같습니다!" # 5292227650170694791
+  yorkshire.0053.desc.not_bull_runner: "올해 [stamford_barony.GetNameNoTier]의 황소 몰이 구경에 참여하기로 결정했습니다.  지난번 즐거웠던 사건 이후, 매년 황소 몰이를 개최하자는 제안에 현지 주민들이 동의해주셔서 기쁩니다.  이 축제의 시끄럽고 축제 분위기를 깔보는 이들도 있지만, 올해도 흥미로운 광경을 보게 되기를 바랍니다!" # 4121219127973337939
+  yorkshire.0053.a: "시끄럽고 재밌을 거야!" # 9512693372549217386
+  yorkshire.0054.t: "시간이 거의 다 되었습니다!" # 8545233594367186874
+  yorkshire.0054.desc: "마침내 내일 [stamford_barony.GetNameNoTier] 황소 몰이가 시작될 예정입니다. 여러 지역의 하급 귀족과 유명한 시민들이 저를 맞이합니다. 그들 중 한 사람이, 이 전통에 중요한 참여자인 도살자들이 주요 행사를 위해 찾을 수 있는 가장 거칠고 폭력적인 황소를 골랐다고 말합니다. 어쨌든, 직접 그 장관을 지켜보고 싶습니다!\n\n잠자리에 들기 전, 저 스스로 황소 몰이에 참여할지, 아니면 그저 지켜볼지 고민합니다. 몇몇 엄격한 사람들은 저 같은 고귀한 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetTitleAsNameNoTooltip]가 이처럼 시끄럽고 피비린내 나는 일에 참여하는 것을 부적절하고 무지하다고 비난하며, 적극적인 참여는 일이 더 악화될 수 있을 것입니다. 반면, 즐거울 수도 있겠죠." # 8642373815912729789
   yorkshire.0054.a: "내일 참여하겠습니다." # 4216874657136845832
   yorkshire.0054.b: "멀리서 지켜보겠습니다." # 14409938184001967398
   yorkshire.0055.t: "아침 준비" # 15677787270148005985
-  yorkshire.0055.desc: "아침이 밝았습니다. 오늘은 스탬퍼드 황소 달리기 대회가 열리는 날입니다! 지역 [ROOT.Char.GetFaith.HouseOfWorship]의 종이 울려 황소 달리기가 곧 시작된다는 것을 알립니다. 마을 공고 담당자가 모든 주민에게 상점 문과 대문을 닫으라고 발표합니다. 모두가 모이자 행운의 상징으로 많은 사람들이 몸에 바른 흙과 황소 배설물을 섞은 \"황소 똥\" 냄새가 진동합니다. 모든 것이 정리되면 황소가 풀려나고 남자, 여자, 아이들이 모두 황소를 쫓으면서 대혼란이 시작됩니다!" # 2279583001507511044
-  yorkshire.0055.a: "준비되셨습니다!" # 9130825338543950614
+  yorkshire.0055.desc: "아침이 밝았고, 오늘은 그날입니다. 스탬퍼드의 황소 달리기가 시작될 날입니다! 지역 [ROOT.Char.GetFaith.HouseOfWorship]의 종소리가 울리며, 황소 달리기가 시작될 것을 알립니다. 마을 광고꾼은 모든 마을 사람들에게 가게 문과 문을 닫으라고 외칩니다. 모두 모이자, 많은 사람들이 행운의 징표로 몸에 바른 흙과 황소 분변의 혼합물인 \"황소 흙\" 냄새가 진동합니다. 모든 것이 준비되면 황소가 풀려나고, 남자, 여자, 아이들이 모두 황소를 쫓아가는 대혼란이 시작됩니다!" # 2279583001507511044
+  yorkshire.0055.a: "이제 시작이다!" # 9130825338543950614
   yorkshire.0056.t: "황소 전투" # 887631586801398794
-  yorkshire.0056.desc.bull_runner: "황소 뒤를 쫓아 뛰면서 혼란 외에는 아무것도 경험하지 못합니다. 물론, 저를 보호하기 위해 호위병 몇 명이 동행하고 있지만, 응원과 함성, 떠들썩한 소리에 휩쓸려 그들 또한 즐거워하는 것 같습니다. 특별히 지정된 사람이 통 안에서 비트에 맞춰 굴러가는 모습을 보며 웃음이 터져 나옵니다." # 8448739204392707142
-  yorkshire.0056.desc.not_bull_runner: "마을 사람들과 지역 귀족들이 황소를 쫓는 모습을 보니 온통 혼란스럽습니다. 많은 사람들이 일상생활에서는 우스꽝스러울 정도로 야한 옷을 입고 있지만, 여기 축제 분위기에는 어울리며 황소를 더욱 자극하기 위한 것입니다. 특별히 지정된 사람은 심지어 통 속에서 구르며 박자에 맞춰 움직입니다." # 18026512113093399954
-  yorkshire.0056.a: "#bold Historical Context:#! The Blemmyae were a nomadic people of Nubia that flourished from at least 600 BCE to 8th century CE. They are often described in classical sources as being acephalous, without a head, and having their facial features on their chest. This description is very unlikely to be factual, but it may derive from a practice of wearing very high chest armor, or large tattoos on the chest. They are thought to be related to the Medjay, and fought in many wars with the Ptolemaic Kingdom of Egypt, and later against the Roman Empire. The Blemmyae also constructed temples to the Egyptian gods #italic Isis# and #italic Osiris#, and the Nubian god #italic Mandulis#, and claimed that the temple at #italic Philae# belonged to them. Their main center was at #italic Kalabsha#, and their influence extended up to #italic Elephantine#. In Crusader Kings III, they're represented as a tribal people with some unique mechanics.\n#bold 역사적 배경:#! 블렘미는 기원전 600년부터 서기 8세기까지 번성했던 누비아의 유목민족입니다. 그들은 고전 문헌에서 종종 머리가 없고 얼굴 특징이 가슴에 있는 무두인으로 묘사됩니다. 이러한 묘사는 사실일 가능성이 매우 낮지만, 매우 높은 가슴 갑옷을 착용하거나 가슴에 큰 문신을 새기는 관행에서 유래했을 수 있습니다. 그들은 메자이와 관련이 있는 것으로 생각되며, 이집트 프톨레마이오스 왕국과 나중에 로마 제국과의 많은 전쟁에 참전했습니다. 블렘미는 또한 이집트 신 #italic 이시스#와 #italic 오시리스# 그리고 누비아 신 #italic 만둘리스#에게 신전을 지었고 #italic 필레#의 신전이 자신들의 것이라고 주장했습니다. 그들의 주요 중심지는 #italic 칼라브샤#였으며 그들의 영향력은 #italic 엘레판티네#까지 확장되었습니다. Crusader Kings III에서 그들은 몇 가지 독특한 메커니즘을 가진 부족민으로 표현됩니다." # 966250337938503311
+  yorkshire.0056.desc.bull_runner: "황소를 직접 쫓아다니니 온통 혼돈 그 자체입니다. 제 보호를 위해 몇몇 수호대원들이 따라오지만, 우리는 함성과 소란, 시끄러운 소리에 휩싸여 그들 역시 즐기는 듯합니다. 특별히 지정된 사람이 통에 몸을 실어 흥겨운 박자에 맞춰 굴러가는 모습을 보며 웃음이 터져 나옵니다." # 8448739204392707142
+  yorkshire.0056.desc.not_bull_runner: "온 동네가 온통 혼란에 휩싸였습니다. 시민들과 지역 귀족들이 황소를 쫓고 있습니다.  많은 사람들이 평소에는 어울리지 않을 만큼 화려하고 튀는 옷을 입고 있지만, 여기 축제 분위기에 어울리고 황소를 더욱 자극하려는 의도인 듯합니다.  특별히 지정된 사람은 심지어 통에 몸을 실어 뛰어가는 모습입니다." # 18026512113093399954
+  yorkshire.0056.a: "자! 시작하자!" # 966250337938503311
   yorkshire.0057.t: "황소가 잡혔습니다" # 1721717962091266385
-  yorkshire.0057.desc: "마침내 황소는 스탬퍼드 근처의 소위 황소 초원까지 쫓겨났고, 그곳에서 첫 황소 달리기가 벌어졌으며 성공적으로 잡혀 도살되었습니다. 정육점들이 소고기를 준비하는 동안 온 마을은 유쾌하고 술에 취한 노래와 춤으로 떠들썩합니다.\n\n#italic 오, 모든 멋진 소년들이여!#!\n#italic 멋진 황소를 미끼로 삼기 좋아하는 자들이여,#!\n#italic 소란을 즐기는 자들이여,#!\n#italic 배불리 먹게 될 것이오!#!\n#italic 스탬퍼드의 황소 달리기 날에는,#!\n#italic 그대들에게 아주 멋진 연극을 보여주리라;#!\n#italic 그대는 전에 본 적이 없을 것이고, 이렇게 말하겠지,#!\n#italic 그대가 스탬퍼드에서 보게 될 것이라고!#!" # 11508329772847630626
-  yorkshire.0057.a: "연회가 정말 기대되네요." # 12194650780845295121
-  yorkshire.0058.t: "황소 전투가 끝났다" # 8753551278581407871
-  yorkshire.0058.desc: "일반적으로 스탬퍼드 황소 경주에서 황소 고기는 지역 귀족, 시 공무원 및 길드에서 자선의 표시로 가난하고 궁핍한 사람들을 위해 조각되어 요리됩니다. 우리는 모두 좋은 음식과 음료를 즐기고 밤늦게까지 춤을 춥니다." # 5675286968528961795
-  yorkshire.0058.a: "전반적으로 꽤 재미있었습니다!" # 13121961431286890746
+  yorkshire.0057.desc: "마침내, 소는 스탬포드 근처, 소라 불리는 초원으로 몰려들어 처음 소몰이가 시작된 곳으로 쫓겨가며 붙잡히고 도축되었습니다. 정육점들이 소고기를 준비하는 동안, 온 마을은 즐거운 취중 노래와 춤으로 흥겨워졌습니다.\n\n\n#italic 모든 아름다운 사내 여러분들,#!\n#italic 아름다운 소를 유인하는 것을 좋아하는 여러분,#!\n#italic 시끄러운 소리를 즐기는 여러분,#!\n#italic 배가 부르도록 즐기십시오.#!\n#italic 스탬포드의 소몰이 날,#!\n#italic 우리는 그러한 용감한 놀이를 보여줄 것입니다;#!\n#italic 여러분은 스탬포드에서 볼 수 있듯, 전에 본 적이 없을 것입니다.#!" # 11508329772847630626
+  yorkshire.0057.a: "연회가 너무 기다려집니다." # 12194650780845295121
+  yorkshire.0058.t: "황소싸움 결론" # 8753551278581407871
+  yorkshire.0058.desc: "스탬포드 황소 달리기 행사에서, 황소 고기는 지역 귀족, 도시 관리관, 그리고 길드의 자선의 표시로 가난하고 어려운 이들을 위해 썰려 요리됩니다.  우리는 모두 맛있는 음식과 음료를 즐기고 밤늦도록 춤을 추며 즐겁게 보냅니다." # 5675286968528961795
+  yorkshire.0058.a: "전반적으로 재밌었습니다!" # 13121961431286890746
   yorkshire.0059.t: "xxxxx" # 1951045980481827005
   yorkshire.0059.desc: "xxxxx" # 1951045980481827005
   yorkshire.0059.a: "xxxxx" # 1951045980481827005
@@ -426,73 +433,73 @@
   yorkshire.0069.t: "xxxxx" # 1951045980481827005
   yorkshire.0069.desc: "xxxxx" # 1951045980481827005
   yorkshire.0069.a: "xxxxx" # 1951045980481827005
-  charter_fair_granted_others_tooltip: "[stamford_barony.GetNameNoTier], [boston_barony.GetNameNoTier], [winchester_barony.GetNameNoTier], 그리고 [northampton_barony.GetNameNoTier]가 모두 정기 시장을 허가받으면, 나중에 특별 이벤트가 무작위로 발생하여 해당 [county_modifiers|E]를 업그레이드합니다." # 16302896000179844682
-  yorkshire.0070.t: "스탬퍼드의 특허 박람회" # 17980835990227518130
-  yorkshire.0070.desc: "[stamford_barony.GetNameNoTier]의 지역 유지들과 하급 귀족들은 꽤 오랫동안 정착지에 대규모 특허 박람회를 개최할 권한을 부여해달라고 요구해 왔습니다. 저는 그들에게 그러한 특권을 부여하기로 결정했습니다. 이제부터 매년 사순절 중반경에 마을에서 그러한 박람회를 개최할 것입니다. 평범한 시장 박람회가 아니라 상당한 규모의 박람회가 될 것입니다." # 10163011981784403987
-  yorkshire.0070.a: "이로 인해 지역 경제가 상당히 활성화될 것입니다." # 14079463852608384417
-  yorkshire.0071.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # 9568243148989551984
-  yorkshire.0071.desc: "[stamford_barony.GetNameNoTier](이)가 현재 귀하의 관할에 속해 있으므로, 저는 여러 지역 시민들과 하위 귀족의 요청에 따라 [stamford_barony.GetNameNoTier]에 매년 사순절 중반경에 대헌장 박람회를 개최할 권리를 부여했음을 알려드립니다. 이는 지역 경제를 상당히 활성화시킬 것입니다." # 13768141457540648794
+  charter_fair_granted_others_tooltip: "[stamford_barony.GetNameNoTier], [boston_barony.GetNameNoTier], [winchester_barony.GetNameNoTier], 그리고 [northampton_barony.GetNameNoTier]에 모두 장터 특권이 부여되면, 훗날 특별한 사건이 무작위로 발생하여 그들의 [county_modifiers|E]를 향상시킬 것입니다." # 16302896000179844682
+  yorkshire.0070.t: "스탬퍼드 헌장 박람회" # 17980835990227518130
+  yorkshire.0070.desc: "[stamford_barony.GetNameNoTier]의 시민들과 하급 귀족들은 오랫동안 대규모 특별 박람회 개최 권한을 요구해 왔습니다. 저는 그들의 요구를 수락하기로 결정했습니다. 이제 매년 사순절 중반 무렵, 그 도시는 규모가 큰, 평범한 시장 박람회가 아닌, 대규모 특별 박람회를 개최할 것입니다." # 10163011981784403987
+  yorkshire.0070.a: "이로써 지역 경제가 상당히 활성화될 것입니다." # 14079463852608384417
+  yorkshire.0071.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]께:" # 9568243148989551984
+  yorkshire.0071.desc: "현재 귀하의 관할 하에 있는 [stamford_barony.GetNameNoTier] 지역은, 지역 시민들과 하급 귀족들의 요청에 따라 봄철 절기인 춘분 무렵에 매년 큰 장터를 개최할 권한을 부여받았습니다. 이는 지역 경제에 상당한 활력을 불어넣어 줄 것입니다." # 13768141457540648794
   yorkshire.0071.a: "훌륭한 소식입니다!" # 7561930491156402048
-  yorkshire.0072.t: "스탬퍼드의 특허 박람회" # 17980835990227518130
-  yorkshire.0072.desc: "[stamford_barony.GetNameNoTier]의 지역 유지와 하급 귀족들은 꽤 오랫동안 이 정착지에 대규모 특허 정기 시장을 열 권한을 부여할 것을 요구해 왔습니다. 미천한 [ROOT.Char.GetTitleAsNameNoTooltip]인 저는 그러한 권한을 부여할 권위가 없지만, 이 땅의 [charter_granter.GetTitleAsNameNoTooltip]이신 [charter_granter.GetTitledFirstName]님께 그렇게 해 주시도록 청원할 수 있습니다. 그러나 이분들에게 이 일의 장점을 설득하려면 제 노력이 좀 필요할 것입니다." # 5578382335782190925
-  yorkshire.0072.a: "제 청원이 받아들여지기를 바랍니다!" # 1157128755398448409
-  yorkshire.0073.opening: "[stamford_owner.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # 16574864844234232889
-  yorkshire.0073.desc: "이 편지가 부디 좋은 소식으로 전해지길 바랍니다. [stamford_barony.GetNameNoTier]의 지역 유지들과 하급 귀족들이 사순절 중반 즈음에 매년 대헌장 박람회를 개최할 수 있는 권한을 요구했습니다. 이는 당신의 승인을 필요로 하기에, 이 요청에 귀 기울여 주시길 청원합니다. 그렇게 한다면 지역 경제가 상당히 활성화될 것입니다." # 14879822374379258754
-  yorkshire.0073.a: "알겠습니다. 허락해 드리겠습니다." # 865754886200976791
-  yorkshire.0074.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # 9568243148989551984
-  yorkshire.0074.desc: "저는 [stamford_barony.GetNameNoTier]에서 사순절 중간 즈음에 매년 대규모 특허 박람회를 개최할 권리를 부여해달라는 귀하의 요청을 신중히 검토했습니다. 이는 훌륭한 아이디어이며, 귀하의 주도성에 찬사를 보냅니다. 이에 [stamford_barony.GetNameNoTier]에 그러한 특권을 부여합니다. 이제 이것이 이 지역에 더 많은 번영을 가져다주기를 바랍니다!" # 17807550376273160318
-  yorkshire.0074.a: "다행이네요!" # 16605045162407740144
-  yorkshire.0075.t: "보스턴의 특허 정기 시장" # 3671783645165735384
-  yorkshire.0075.desc: "[boston_barony.GetNameNoTier]의 지역 유지들과 하급 귀족들은 오랫동안 정착지에 대규모 특허 정기 시장을 개최할 권한을 부여해 줄 것을 요구해 왔습니다. 저는 그들에게 그러한 특권을 부여하기로 결정했습니다. 이제부터 매년 7월경에 마을에서는 대규모 시장이 열릴 것입니다. 확실히 평범한 시장이 아니라 상당한 규모의 시장일 것입니다." # 1981582967239256062
-  yorkshire.0075.a: "이로 인해 지역 경제가 상당히 활성화될 것입니다." # 14079463852608384417
-  yorkshire.0076.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # 9568243148989551984
-  yorkshire.0076.desc: "현재 귀하의 관할 아래에 있는 [boston_barony.GetNameNoTier]에 대해 알려드립니다.  많은 지역 시민들과 하급 귀족들의 요청에 따라, 저는 매년 7월경 [boston_barony.GetNameNoTier]에서 큰 장터를 열도록 허가했습니다. 이는 지역 경제를 상당히 활성화시킬 것입니다." # 1252822532846637496
-  yorkshire.0076.a: "기쁜 소식이 있습니다!" # 7561930491156402048
-  yorkshire.0077.t: "보스턴의 특허 정기 시장" # 3671783645165735384
-  yorkshire.0077.desc: "[boston_barony.GetNameNoTier]의 지역 부르주아와 하급 귀족들이 이 정착지에 오랫동안 대규모 특허 박람회를 개최할 권한을 부여해 달라고 요구해 왔습니다. 저는 단순한 [ROOT.Char.GetTitleAsNameNoTooltip]이므로 그러한 권한을 부여할 권한이 없지만, 이 땅의 [charter_granter.GetTitleAsNameNoTooltip]이신 [charter_granter.GetTitledFirstName]에게 그렇게 해 달라고 청원할 수 있습니다. 그러나 그들에게 이것의 장점을 설득하려면 저의 노력이 필요할 것입니다." # 13684067792265573297
-  yorkshire.0077.a: "제 청원이 받아들여지기를 바랍니다!" # 1157128755398448409
-  yorkshire.0078.opening: "[boston_owner.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # 8511826195895867920
-  yorkshire.0078.desc: "이 편지가 당신에게 좋은 소식을 전하기를 바랍니다. [boston_barony.GetNameNoTier]의 지역 주민들과 하급 귀족들이 매년 7월경에 대 헌장 박람회를 개최할 권한을 요청했습니다. 이는 당신의 승인을 필요로 하므로, 이 요청을 들어주시면 지역 경제에 상당한 도움이 될 것이므로 이 청원을 들어주시기를 청합니다." # 13421534422098736635
-  yorkshire.0078.a: "알겠습니다. 허락해 드리겠습니다." # 865754886200976791
-  yorkshire.0079.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # 9568243148989551984
-  yorkshire.0079.desc: "저는 매년 7월경에 [boston_barony.GetNameNoTier]에서 대규모 특허 박람회를 개최할 수 있는 권한을 부여해 달라는 귀하의 요청을 신중하게 고려했습니다. 이는 훌륭한 아이디어이며, 귀하의 주도적인 행동에 감탄했습니다. 이에 [boston_barony.GetNameNoTier]에 그러한 특권을 부여합니다. 이제 이것이 이 지역에 더 많은 번영을 가져다주기를 바랍니다!" # 4561906833150815320
-  yorkshire.0079.a: "다행이네요!" # 16605045162407740144
-  yorkshire.0080.t: "윈체스터의 특허 시장" # 8597624277167811646
-  yorkshire.0080.desc: "[winchester_barony.GetNameNoTier]의 지역 자치 시민과 하위 귀족들은 꽤 오랫동안 마을에 대규모 특허 박람회를 개최할 권리를 부여해 줄 것을 요구해 왔습니다. 저는 그들에게 그러한 특권을 부여하기로 결정했습니다. 이제부터 매년 9월경에 마을에서 평범한 시장 박람회가 아닌 상당한 규모의 박람회를 개최할 것입니다." # 2718757359638082946
-  yorkshire.0080.a: "이로 인해 지역 경제가 상당히 활성화될 것입니다." # 14079463852608384417
-  yorkshire.0081.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # 9568243148989551984
-  yorkshire.0081.desc: "현재 [winchester_barony.GetNameNoTier](이)가 귀하의 관할 하에 있으므로, 다수의 지역 부르주아와 하급 귀족의 요청에 따라 [winchester_barony.GetNameNoTier]에 매년 9월경에 대규모 특허 박람회를 개최할 권한을 부여했음을 알려드립니다. 이는 지역 경제에 상당한 활력을 불어넣을 것입니다." # 12437591960757005398
-  yorkshire.0081.a: "기쁜 소식이 있습니다!" # 7561930491156402048
-  yorkshire.0082.t: "윈체스터의 특허 시장" # 8597624277167811646
-  yorkshire.0082.desc: "[winchester_barony.GetNameNoTier]의 지역 자치 도시민과 하급 귀족들은 이 정착지에 오랫동안 대헌장 박람회를 개최할 권리를 부여해달라고 요구해 왔습니다. 단지 [ROOT.Char.GetTitleAsNameNoTooltip]에 불과한 저는 그러한 권리를 부여할 권한이 없지만, 이 땅의 [charter_granter.GetTitleAsNameNoTooltip]이신 [charter_granter.GetTitledFirstName]님께 청원하여 그렇게 해 주실 것을 요청할 수는 있습니다. 그러나 그렇게 하려면 그분들을 설득하기 위해 어느 정도의 노력이 필요할 것입니다." # 14203084352939534894
-  yorkshire.0082.a: "제 청원이 받아들여지기를 바랍니다!" # 1157128755398448409
-  yorkshire.0083.opening: "[winchester_owner.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # 13333054962830328010
-  yorkshire.0083.desc: "이 서신이 귀하의 심신에 평안을 가져다주기를 바랍니다. [winchester_barony.GetNameNoTier]의 지방 자치 시민들과 하급 귀족들이 매년 9월경에 대 헌장 박람회를 개최할 수 있는 권한을 요청했습니다. 이것은 귀하의 승인을 필요로 하므로, 이 요청을 들어주시기를 청원합니다. 그렇게 하면 지역 경제가 상당히 활성화될 것입니다." # 2702372757378391626
-  yorkshire.0083.a: "알겠습니다. 허락해 드리겠습니다." # 865754886200976791
-  yorkshire.0084.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # 9568243148989551984
-  yorkshire.0084.desc: "매년 9월경에 [winchester_barony.GetNameNoTier]에서 대규모 특허 장터를 개최할 수 있는 권한을 부여해 달라는 귀하의 요청을 신중히 검토했습니다. 이는 훌륭한 아이디어이며, 귀하의 주도적인 태도에 찬사를 보냅니다. 이에 [winchester_barony.GetNameNoTier]에 그러한 특권을 부여합니다. 이제 이것이 이 지역에 더 많은 번영을 가져다주기를 바랍니다!" # 17971485710240307661
-  yorkshire.0084.a: "다행이네요!" # 16605045162407740144
-  yorkshire.0085.t: "노샘프턴의 특허 장터" # 3492644613208497988
-  yorkshire.0085.desc: "[northampton_barony.GetNameNoTier]의 지역 시민들과 하급 귀족들은 오랫동안 대규모 헌장 박람회를 열 권리를 요구해 왔습니다. 저는 그들의 요구를 수락하기로 결정했습니다. 이제 매년 12월경, 이 마을은 그러한 박람회를 개최할 것입니다. 물론 평범한 시장 박람회가 아닌, 규모가 상당한 박람회가 될 것입니다." # 7763216238403500433
-  yorkshire.0085.a: "이로 인해 지역 경제가 상당히 활성화될 것입니다." # 14079463852608384417
-  yorkshire.0086.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # 9568243148989551984
-  yorkshire.0086.desc: "[northampton_barony.GetNameNoTier](이)가 현재 귀하의 관할권에 속하므로, 저는 여러 지역의 시민과 하급 귀족의 요청에 따라 [northampton_barony.GetNameNoTier]에 매년 12월경에 대규모 특허 박람회를 개최할 권리를 부여했음을 알려드립니다. 이는 지역 경제를 상당히 활성화할 것입니다." # 9442215210837837710
-  yorkshire.0086.a: "기쁜 소식이 있습니다!" # 7561930491156402048
-  yorkshire.0087.t: "노샘프턴의 특허 장터" # 3492644613208497988
-  yorkshire.0087.desc: "[northampton_barony.GetNameNoTier]의 지역 유지와 하급 귀족들은 오랫동안 이 지역에 대규모 특허 박람회를 개최할 권리를 부여해 달라고 요구해 왔습니다. 미미한 [ROOT.Char.GetTitleAsNameNoTooltip]에 불과한 저는 그러한 권한을 부여할 권한이 없지만, 이 땅의 [charter_granter.GetTitleAsNameNoTooltip]인 [charter_granter.GetTitledFirstName]에게 청원하여 그렇게 할 수 있습니다. 하지만 그들에게 이 일의 장점을 설득하려면 제 노력이 좀 필요할 것입니다." # 13024540930858356708
-  yorkshire.0087.a: "제 청원이 받아들여지기를 바랍니다!" # 1157128755398448409
-  yorkshire.0088.opening: "[northampton_owner.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # 792696260900032351
-  yorkshire.0088.desc: "이 서신이 당신을 좋은 기분으로 찾아뵙기를 바랍니다. [northampton_barony.GetNameNoTier]의 지역 주민과 하급 귀족들이 매년 12월경에 대 헌장 박람회를 개최할 수 있는 권한을 부여해달라고 요청했습니다. 이는 당신의 승인이 필요하므로, 그렇게 하면 지역 경제가 크게 활성화될 것이므로 이 요청을 들어주시기를 청원합니다." # 4189150482540630023
-  yorkshire.0088.a: "알겠습니다. 허락해 드리겠습니다." # 865754886200976791
-  yorkshire.0089.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]:" # 9568243148989551984
-  yorkshire.0089.desc: "저는 매년 12월경에 [northampton_barony.GetNameNoTier]에 대규모 특허 박람회를 개최할 수 있는 권한을 부여해 달라는 귀하의 요청을 신중히 검토했습니다. 이것은 훌륭한 아이디어이며, 귀하의 주도에 대해 칭찬합니다. 이에 [northampton_barony.GetNameNoTier]에 그러한 특권을 부여합니다. 이제 이것이 이 지역에 더 많은 번영을 가져다주기를 바랍니다!" # 14381755098618557852
-  yorkshire.0089.a: "다행이네요!" # 16605045162407740144
+  yorkshire.0072.t: "스탬퍼드 헌장 박람회" # 17980835990227518130
+  yorkshire.0072.desc: "[stamford_barony.GetNameNoTier]의 시민들과 하급 귀족들은 오랫동안 대규모 헌장 박람회 개최를 요구해 왔습니다. 저, 단순한 [ROOT.Char.GetTitleAsNameNoTooltip]로서 그러한 권리를 부여할 권한은 없습니다만, 이 지역의 [charter_granter.GetTitleAsNameNoTooltip]이신 [charter_granter.GetTitledFirstName]께 청원하여 이를 성사시킬 수 있습니다. 그러나 그들을 설득하기 위해서는 저의 노력이 필요할 것입니다." # 5578382335782190925
+  yorkshire.0072.a: "청원이 받아들여지길 바랍니다!" # 1157128755398448409
+  yorkshire.0073.opening: "[stamford_owner.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]께:" # 16574864844234232889
+  yorkshire.0073.desc: "이 편지가 여러분의 기분이 좋으시기를 바랍니다. [stamford_barony.GetNameNoTier]의 시민들과 하급 귀족들은 매년 부활절 전후에 큰 장터를 열 수 있는 권리를 요구했습니다. 이것은 여러분의 승인이 필요한 일이므로, 이 요구를 들어주시면 지역 경제가 상당히 활성화될 것이기에 이를 간청드립니다." # 14879822374379258754
+  yorkshire.0073.a: "아주 좋군. 허락하겠네." # 865754886200976791
+  yorkshire.0074.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]께:" # 9568243148989551984
+  yorkshire.0074.desc: "[stamford_barony.GetNameNoTier]에 매년 춘분 무렵에 대규모 장터를 개최할 권리를 수여하는 것에 대해 신중히 고려했습니다. 이는 훌륭한 아이디어이며, 이러한 노력에 칭찬을 보냅니다. 이에 따라 [stamford_barony.GetNameNoTier]에 그러한 특권을 부여합니다. 이제 이것이 그 지역에 더 많은 번영을 가져다주기를 바랍니다!" # 17807550376273160318
+  yorkshire.0074.a: "잘 풀려서 다행이군!" # 16605045162407740144
+  yorkshire.0075.t: "보스턴의 헌장 박람회" # 3671783645165735384
+  yorkshire.0075.desc: "[boston_barony.GetNameNoTier]의 시민들과 하급 귀족들은 오랫동안 대규모 헌장 박람회를 개최할 권리를 요구해 왔습니다. 그들의 요청을 수락하기로 결정했습니다. 이제 매년 7월경, 그 도시는 이러한 대규모 박람회를 개최할 것입니다. 일반적인 시장 박람회가 아닌, 규모가 상당한 박람회가 될 것입니다." # 1981582967239256062
+  yorkshire.0075.a: "이로써 지역 경제가 상당히 활성화될 것입니다." # 14079463852608384417
+  yorkshire.0076.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]께:" # 9568243148989551984
+  yorkshire.0076.desc: "현재 귀하의 관할 하에 있는 [boston_barony.GetNameNoTier] 지역은, 여러 지역의 시민들과 하급 귀족들의 요청에 따라 매년 7월경에 대규모 헌장 박람회를 개최할 권한을 부여받았습니다. 이는 지역 경제를 상당히 촉진할 것으로 예상됩니다." # 1252822532846637496
+  yorkshire.0076.a: "훌륭한 소식입니다!" # 7561930491156402048
+  yorkshire.0077.t: "보스턴의 헌장 박람회" # 3671783645165735384
+  yorkshire.0077.desc: "[boston_barony.GetNameNoTier]의 시민들과 하급 귀족들은 오랫동안 대규모 헌장 박람회를 개최할 권리를 요구해 왔습니다. 저는 단지 [ROOT.Char.GetTitleAsNameNoTooltip]에 불과하므로 그러한 권리를 직접 허락할 권한이 없습니다. 하지만 이 땅의 [charter_granter.GetTitleAsNameNoTooltip]이신 [charter_granter.GetTitledFirstName]께 청원하여 이를 이루도록 노력할 수 있습니다. 그러나 그들을 설득하는 데는 상당한 노력이 필요할 것입니다." # 13684067792265573297
+  yorkshire.0077.a: "청원이 받아들여지길 바랍니다!" # 1157128755398448409
+  yorkshire.0078.opening: "[boston_owner.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]께," # 8511826195895867920
+  yorkshire.0078.desc: "[boston_barony.GetNameNoTier]의 시민들과 하급 귀족들은 매년 7월경에 큰 장터를 열 수 있도록 허가해 줄 것을 요청했습니다.  귀하의 승인이 필요하므로, 그들의 요청을 수용하여 지역 경제를 크게 활성화시켜 줄 것을 간청드립니다." # 13421534422098736635
+  yorkshire.0078.a: "아주 좋군. 허락하겠네." # 865754886200976791
+  yorkshire.0079.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]께:" # 9568243148989551984
+  yorkshire.0079.desc: "[boston_barony.GetNameNoTier]에 매년 7월경에 대규모 헌장 박람회를 개최할 권리를 부여하는 데 대해 신중하게 고려했습니다. 이는 훌륭한 아이디어이며, 이러한 노력을 높이 평가합니다. 이에 따라 [boston_barony.GetNameNoTier]에 그러한 특권을 수여합니다. 이제 이것이 그 지역에 더 많은 번영을 가져다주기를 바랍니다!" # 4561906833150815320
+  yorkshire.0079.a: "잘 풀려서 다행이군!" # 16605045162407740144
+  yorkshire.0080.t: "윈체스터 헌장 박람회" # 8597624277167811646
+  yorkshire.0080.desc: "[winchester_barony.GetNameNoTier]의 시민들과 하급 귀족들은 오랫동안 대규모 헌장 박람회 개최를 요구해왔습니다. 저는 그들의 요구를 수락하기로 결정했습니다. 이제 매년 9월경, 그 도시는 그러한 박람회를 개최할 것입니다. 물론 평범한 시장 박람회가 아니라 규모가 상당한 박람회가 될 것입니다." # 2718757359638082946
+  yorkshire.0080.a: "이로써 지역 경제가 상당히 활성화될 것입니다." # 14079463852608384417
+  yorkshire.0081.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]께:" # 9568243148989551984
+  yorkshire.0081.desc: "현재 귀하의 관할 하에 있는 [winchester_barony.GetNameNoTier] 지방이, 여러 지역 시민들과 하급 귀족들의 요청에 따라 매년 9월경에 큰 헌장 박람회를 개최할 권리를 부여받았음을 알려드립니다. 이는 지역 경제를 상당히 활성화시킬 것으로 예상됩니다." # 12437591960757005398
+  yorkshire.0081.a: "훌륭한 소식입니다!" # 7561930491156402048
+  yorkshire.0082.t: "윈체스터 헌장 박람회" # 8597624277167811646
+  yorkshire.0082.desc: "[winchester_barony.GetNameNoTier]의 시민들과 하급 귀족들은 오랫동안 대규모 헌장 박람회를 개최할 권리를 요구해 왔습니다. 저는 단순한 [ROOT.Char.GetTitleAsNameNoTooltip]일 뿐이기에 그러한 권리를 직접 부여할 권한이 없지만, 이 땅의 [charter_granter.GetTitleAsNameNoTooltip]이신 [charter_granter.GetTitledFirstName]께 이를 청원할 수는 있습니다. 그러나 그들을 설득하기 위해선 노력이 필요할 것입니다." # 14203084352939534894
+  yorkshire.0082.a: "청원이 받아들여지길 바랍니다!" # 1157128755398448409
+  yorkshire.0083.opening: "[winchester_owner.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]께:" # 13333054962830328010
+  yorkshire.0083.desc: "이 편지가 좋은 심정으로 당신을 찾아주기를 바랍니다. [winchester_barony.GetNameNoTier]의 시민들과 하급 귀족들은 매년 9월 경에 큰 헌장 박람회를 열 수 있는 권리를 요구했습니다. 이는 당신의 승인이 필요하므로, 그들의 요청을 들어주시어 지역 경제를 상당히 활성화시켜야 한다고 간청드립니다." # 2702372757378391626
+  yorkshire.0083.a: "아주 좋군. 허락하겠네." # 865754886200976791
+  yorkshire.0084.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]께:" # 9568243148989551984
+  yorkshire.0084.desc: "[winchester_barony.GetNameNoTier]에 매년 9월경 대규모 장터를 개최할 권리를 수여하는 데 깊이 고심하였습니다. 이는 훌륭한 아이디어이며, 당신의 주도성에 찬사를 보냅니다. 이에 따라 [winchester_barony.GetNameNoTier]에 그러한 특권을 수여합니다. 이제 이것이 그 지역에 더 큰 번영을 가져다주기를 바랍니다!" # 17971485710240307661
+  yorkshire.0084.a: "잘 풀려서 다행이군!" # 16605045162407740144
+  yorkshire.0085.t: "노샘프턴 헌장 박람회" # 3492644613208497988
+  yorkshire.0085.desc: "[northampton_barony.GetNameNoTier]의 지역 시민들과 하급 귀족들은 오랫동안 그 마을에 대규모 헌장 박람회를 개최할 권리를 허가해달라고 요구해왔습니다. 저는 그들에게 그러한 특권을 수여하기로 결정했습니다. 이제부터 매년 12월경에 그 마을은 이러한 박람회를 개최할 것입니다. 물론 평범한 시장 박람회가 아니라 상당한 규모의 박람회가 될 것입니다." # 7763216238403500433
+  yorkshire.0085.a: "이로써 지역 경제가 상당히 활성화될 것입니다." # 14079463852608384417
+  yorkshire.0086.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]께:" # 9568243148989551984
+  yorkshire.0086.desc: "현재 귀하의 관할 아래 있는 [northampton_barony.GetNameNoTier] 지방은, 여러 지역 시민들과 하급 귀족들의 요청에 따라 저는 매년 12월경에 거대한 헌장 박람회를 개최할 권리를 부여했습니다. 이는 지역 경제를 상당히 활성화시킬 것으로 예상됩니다." # 9442215210837837710
+  yorkshire.0086.a: "훌륭한 소식입니다!" # 7561930491156402048
+  yorkshire.0087.t: "노샘프턴 헌장 박람회" # 3492644613208497988
+  yorkshire.0087.desc: "[northampton_barony.GetNameNoTier]의 시민들과 하급 귀족들은 오랫동안 대규모 헌장 박람회 개최를 요구해 왔습니다. 저는 단지 [ROOT.Char.GetTitleAsNameNoTooltip]일 뿐, 이러한 권리를 허락할 권한이 없습니다. 하지만, 이 땅의 [charter_granter.GetTitleAsNameNoTooltip]인 [charter_granter.GetTitledFirstName]께 청원하여 이를 이룰 수 있습니다.  하지만, 그들을 설득하기 위해서는 제 쪽에서도 노력이 필요할 것입니다." # 13024540930858356708
+  yorkshire.0087.a: "청원이 받아들여지길 바랍니다!" # 1157128755398448409
+  yorkshire.0088.opening: "[northampton_owner.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]께:" # 792696260900032351
+  yorkshire.0088.desc: "이 편지가 귀하의 기분 좋은 날에 전달되기를 바랍니다. [northampton_barony.GetNameNoTier]의 시민들과 하급 귀족들은 매년 12월경에 큰 장터를 열 수 있는 권한을 요청했습니다. 귀하의 승인이 필요하므로, 이 요청을 수용하시면 지역 경제가 상당히 활성화될 것이기에 이렇게 간청드립니다." # 4189150482540630023
+  yorkshire.0088.a: "아주 좋군. 허락하겠네." # 865754886200976791
+  yorkshire.0089.opening: "[charter_granter.Custom2('AppropriateGreeting', ROOT.Char)] [ROOT.Char.GetTitledFirstName]께:" # 9568243148989551984
+  yorkshire.0089.desc: "[northampton_barony.GetNameNoTier]에 매년 12월경에 대규모 헌장 박람회를 개최할 권리를 수여하는 것에 대해 신중하게 고려했습니다. 이는 훌륭한 아이디어이며, 여러분의 주도성을 칭찬합니다. 이에 따라 [northampton_barony.GetNameNoTier]에게 이러한 특권을 수여합니다. 이제 이것이 그 지역에 더 많은 번영을 가져다주기를 바랍니다!" # 14381755098618557852
+  yorkshire.0089.a: "잘 풀려서 다행이군!" # 16605045162407740144
   yorkshire.0090.t: "xxxxx" # 1951045980481827005
   yorkshire.0090.desc: "xxxxx" # 1951045980481827005
   yorkshire.0090.a: "xxxxx" # 1951045980481827005
-  yorkshire.0091.t: "잉글랜드의 특허 박람회" # 17567596378817088346
-  yorkshire.0091.desc: "오랜 세월 동안 잉글랜드, 웨일스, 콘월의 여러 도시들은 왕실 관리로부터 소위 특허 시장을 열 수 있는 특권을 부여받았습니다. 이러한 연례 시장은 많은 정착지에 번영의 중요한 원천이 되었지만, 일부는 더 많은 사업을 유치하는 면에서 다른 곳보다 뛰어납니다.\n\n특히, 몇몇 시장은 최근에 가장 두드러지게 되었는데, 예를 들어 사순절 중반의 [stamford_barony.GetNameNoTier] 시장, 7월의 [boston_barony.GetNameNoTier] 시장, 9월의 [winchester_barony.GetNameNoTier] 시장, 11월의 [northampton_barony.GetNameNoTier] 시장 등이 있습니다. 결과적으로 이러한 시장들은 일종의 연속적인 순서를 형성하여 현지 상인과 멀리 떨어진 외국인 모두에게 매우 인기가 높으며, 다른 곳의 보조 시장들이 그 사이를 메우고 있습니다." # 11559167206868458207
-  yorkshire.0091.a: "지역 경제가 활발해 보입니다!" # 2333571832179000180
+  yorkshire.0091.t: "잉글랜드의 장터 박람회" # 17567596378817088346
+  yorkshire.0091.desc: "잉글랜드, 웨일즈, 그리고 콘월 전역의 여러 도시들은 오랫동안 왕실 관리자들로부터 소위 헌장 박람회를 개최할 특권을 부여받아왔습니다. 이 연례 시장은 많은 정착지에 번영의 중요한 원천이었지만, 일부는 다른 곳보다 더 많은 사업을 유치하는 것으로 두드러집니다.\n\n특히, 최근 들어 [stamford_barony.GetNameNoTier]의 사순절 중반, [boston_barony.GetNameNoTier]의 7월, [winchester_barony.GetNameNoTier]의 9월, 그리고 [northampton_barony.GetNameNoTier]의 11월에 열리는 박람회가 가장 주목받는 박람회 중 하나가 되었습니다. 결과적으로 이러한 박람회는 일종의 일정한 순서를 이루고, 지역 상인들과 먼 곳에서 온 외국인들 모두에게 매우 인기가 많아졌으며, 다른 곳의 보조 박람회들이 그 사이를 메우고 있습니다." # 11559167206868458207
+  yorkshire.0091.a: "지역 경제가 호황을 누리고 있는 듯합니다!" # 2333571832179000180
   yorkshire.0092.t: "xxxxx" # 1951045980481827005
   yorkshire.0092.desc: "xxxxx" # 1951045980481827005
   yorkshire.0092.a: "xxxxx" # 1951045980481827005
@@ -517,54 +524,55 @@
   yorkshire.0099.t: "xxxxx" # 1951045980481827005
   yorkshire.0099.desc: "xxxxx" # 1951045980481827005
   yorkshire.0099.a: "xxxxx" # 1951045980481827005
-  yorkshire.0100.t: "셰필드 칼붙이" # 3365569575947651216
-  yorkshire.0100.desc: "떠돌이 상인이 마을에 왔는데, 마침 [sheffield_barony.GetNameNoTier]에서 만든 칼붙이를 팔고 있습니다. 마을은 칼붙이 생산 중심지로 명성을 얻고 있으며, 모두가 이 칼붙이의 높은 품질을 알고 있습니다." # 3425658061609209288
+  yorkshire.0100.t: "셰필드 칼국" # 3365569575947651216
+  yorkshire.0100.desc: "[sheffield_barony.GetNameNoTier] 출신의 여행 상인이 마을에 들렀습니다. 그가 판매하는 식기류는 뛰어난 품질로 유명하며, 마을은 이제 식기류 생산 중심지로 명성을 얻고 있습니다." # 3425658061609209288
   yorkshire.0100.a: "구매하고 싶습니다!" # 4455555373725115888
-  yorkshire.0101.t: "스탬퍼드 웨어" # 1096937114206655883
-  yorkshire.0101.desc: "[stamford_barony.GetNameNoTier]는 잉글랜드 전역에 걸쳐 많은 고급 유약 도자기를 공급하는 곳이며, 많은 도공들이 이곳에서 가마를 운영합니다. 그 품질 수준이 항상 대륙의 비슷한 도자기와 견줄 만한 것은 아니지만, 그럼에도 불구하고 좋은 제품으로 여겨지며, 주석 대신 은을 약간 사용한다는 점에서 전형적인 잉글랜드 유약 도자기 중에서는 독특합니다. 어쨌든, 저는 순회 상인에게서 온 것을 살 기회를 얻었습니다." # 230757132648560058
-  yorkshire.0101.a: "내 연회를 위한 새 투수와 그릇이라니 좋은 소리인데!" # 16312887184066784648
-  yorkshire.0101.b: "제 하인들이 물건을 들고 다닐 수 있도록 항아리와 단지를 주세요." # 3354650424348708103
-  yorkshire.0101.c: "집 장식으로 살 수 있는 멋진 도자기가 있나요?" # 10407643761522135543
-  yorkshire.0101.d: "지금은 도자기가 필요 없을 것 같습니다." # 10046872149054852119
+  yorkshire.0100.b: "감사합니다." # 15623903445057823386
+  yorkshire.0101.t: "스탬포드 위어" # 1096937114206655883
+  yorkshire.0101.desc: "[stamford_barony.GetNameNoTier]는 영국 전역에 훌륭한 유약 도자기를 공급하는 곳이며, 많은 도공들이 그곳에서 가마를 운영합니다. 대륙의 유사한 도자기에 비해 품질이 항상 동등하지는 않지만, 그럼에도 불구하고 좋은 제품으로 여겨지며, 일반적인 영국 유약 도자기와는 달리 약간의 은을 주석 대신 사용하는 독특한 특징을 지닙니다. 어쨌든, 여행 상인으로부터 도착한 일부를 구입할 기회가 있습니다." # 230757132648560058
+  yorkshire.0101.a: "연회를 위해 새 잔과 접시가 준비된다는 소식, 좋군!" # 16312887184066784648
+  yorkshire.0101.b: "하인들이 물건을 담을 수 있도록 항아리와 그릇을 마련해 주십시오." # 3354650424348708103
+  yorkshire.0101.c: "집 장식용 아름다운 도자기를 판매하십니까?" # 10407643761522135543
+  yorkshire.0101.d: "지금은 도자기가 필요하지 않을 것 같습니다." # 10046872149054852119
   yorkshire.0102.t: "휘트비 뱀돌" # 875391379413405303
-  yorkshire.0102.desc: "저는 [whitby_barony.GetNameNoTier]의 지역 귀족을 방문하고 있습니다. 그는 그곳에서 발견한 아름다운 뱀돌을 보여주고 있습니다. 이 특이한 유물은 [whitby_barony.GetNameNoTier]에 풍부합니다.\n\n일부 사람들은 이것들이 성인 남녀에 의해 돌로 변한 뱀이라고 말합니다. [whitby_barony.GetNameNoTier]에서는 오래전 수녀원장이었던 성녀 힐다가 이 위대한 기적의 원인이라고 여겨집니다. 자연 철학자나 학식 있는 사람들은 이 돌이 폭풍이나 지구 광물의 변화와 같은 자연 현상의 결과일 가능성이 높다고 말합니다.\n\n제 지인은 그 문제의 진실에 대해 확신이 없다고 말하지만, 그는 단순히 이러한 돌들의 기하학적 아름다움, 특히 자신이 소유한 돌을 감상하기를 좋아한다고 말합니다." # 6955644394549564234
-  yorkshire.0102.a: "분명히 신성한 사람들의 일종의 기적이었습니다." # 6477386305404183680
-  yorkshire.0102.b: "학자들은 그것이 자연적인 현상이라고 말합니다. 저는 그들의 말을 신뢰합니다." # 1909318446573533067
-  yorkshire.0102.c: "네, 무엇이든 간에, 그 아름다움을 감탄해 봅시다!" # 7306038713382739763
-  yorkshire.0102.d: "그들은 재미없어 보입니다 - 다른 것을 보여주실 수 있나요?" # 5399740444697451499
+  yorkshire.0102.desc: "[whitby_barony.GetNameNoTier]의 한 귀족에게 방문하여 그가 발견한 아름다운 뱀돌을 보고 있습니다. 이러한 특이한 유물들은 [whitby_barony.GetNameNoTier]에 풍부하게 존재합니다.\n\n어떤 이들은 성스러운 수도승과 수녀들이 뱀을 돌로 바꾸었다고 말합니다. [whitby_barony.GetNameNoTier]에서는 옛날 수녀원장, 성 힐다가 이러한 큰 기적에 책임이 있다고 여겨집니다. 반면, 자연 철학자들과 학자들은 이러한 돌들이 천둥 번개나 지구의 광물 변화와 같은 자연 현상의 결과일 가능성이 높다고 주장합니다.\n\n제 동료는 진실 여부에 대해 확신하지 못하지만, 단순히 소유하고 있는 그 돌의 기하학적인 아름다움에 감탄할 뿐입니다." # 6955644394549564234
+  yorkshire.0102.a: "분명 신성한 사람들의 어떤 기적이었음이 분명합니다." # 6477386305404183680
+  yorkshire.0102.b: "학자들은 자연현상이라고 말합니다.  그들의 말을 믿겠습니다." # 1909318446573533067
+  yorkshire.0102.c: "그래, 무엇이든 아름다움에 감탄하자!" # 7306038713382739763
+  yorkshire.0102.d: "재미없군요.  다른 게 있나요?" # 5399740444697451499
   yorkshire.0103.t: "요크 계곡" # 13878936800982304972
-  yorkshire.0103.desc: "요크 계곡은 로마 시대 이전부터 [york_barony.GetNameNoTier] 서쪽에 위치한 주로 농업에 사용되는 평지 지역입니다. 그곳의 비옥한 땅에서 최근에는 평소보다 훨씬 더 풍부한 수확이 이루어지고 있습니다." # 16415791233858693335
-  yorkshire.0103.a: "좋습니다!" # 1084156244293852094
-  yorkshire.0104.t: "크나르와 주문" # 14009172390686880923
-  yorkshire.0104.desc: "요크셔에서 크누르 앤 스펠이라는 게임이 점점 인기를 얻고 있으며, 특히 선술집과 펍의 평민들 사이에서 유행하고 있습니다. 심지어 귀족들도 이 게임을 즐기기 시작했습니다.\n\n이 게임에서 플레이어는 막대기(#italic 스펠#!)로 공(#italic 크누르#!)을 최대한 세게 치려고 시도합니다. 몇 라운드를 거친 후, 평균적으로 공을 가장 멀리 친 플레이어가 승자로 선언됩니다.\n\n어쨌든, 저는 여러 지인들과 이 게임을 하도록 초대받았습니다. 이런 종류의 스포츠에서 제 능력을 보여줄 좋은 기회가 될 수 있습니다." # 11645046112980008348
-  yorkshire.0104.a: "재밌을 것 같네요!" # 9696452418732890793
-  yorkshire.0104.b: "이런 사소한 유희에는 관심이 없습니다." # 1553997887239852668
-  yorkshire.0104.tooltip: "#italic 크누르 앤 스펠# 게임을 플레이하세요! - 아마도 #bold 승리#하여 다른 사람들에게 깊은 인상을 남길 수도 있습니다!" # 11755810497467817475
-  yorkshire.0104.toast.win: "당신이 이겼습니다!" # 14507763626867772516
-  yorkshire.0104.toast.lose: "당신이 졌습니다!" # 1061525578932184711
+  yorkshire.0103.desc: "요크 계곡은 로마 시대 이전부터 서쪽의 [york_barony.GetNameNoTier] 서쪽에 위치한 평야 지대로, 주로 농업에 이용되어 왔습니다. 비옥한 토지는 최근 평소보다 더 풍요로운 수확을 안겨주고 있습니다." # 16415791233858693335
+  yorkshire.0103.a: "좋은 소식이군요!" # 1084156244293852094
+  yorkshire.0104.t: "느르르와 주문" # 14009172390686880923
+  yorkshire.0104.desc: "요크셔에서, 특히 주점과 술집의 평민들 사이에서, 널리 퍼지고 있는 게임 '느르르와 주문'이 점점 더 인기가 높아지고 있습니다. 심지어 귀족들도 이제 즐기기 시작했습니다.\n\n이 게임에서 플레이어들은 막대기(#italic 주문#!)로 공(#italic 느르르#!)을 가능한 한 세게 치려고 노력합니다. 여러 라운드가 끝난 후, 평균적으로 공을 가장 멀리 친 플레이어가 승자로 선언됩니다.\n\n어쨌든, 저는 여러 지인들과 함께 이 게임을 해보도록 초대받았습니다. 이런 종류의 스포츠에서 실력을 발휘할 좋은 기회가 될 것 같습니다." # 11645046112980008348
+  yorkshire.0104.a: "재밌을 것 같아!" # 9696452418732890793
+  yorkshire.0104.b: "이런 하찮은 유희에 관심이 없다." # 1553997887239852668
+  yorkshire.0104.tooltip: "#italic 넛과 주문#을 해보세요! - #bold 승리#하고 다른 이들을 감탄시킬지도 몰라요!" # 11755810497467817475
+  yorkshire.0104.toast.win: "이겼습니다!" # 14507763626867772516
+  yorkshire.0104.toast.lose: "졌습니다!" # 1061525578932184711
   yorkshire.0105.t: "웬슬리데일 치즈" # 2506949100066408708
-  yorkshire.0105.desc: "[north_riding_county.GetNameNoTier]의 작은 계곡인 웬슬리데일은 오래전 그곳에 정착하여 이 지역에 조리법을 소개한 프랑스 로크포르 출신의 수도사들이 만든 맛있는 치즈를 생산하는 것으로 이 지역에서 알려져 있습니다. 어쨌든 일부 지역 주민들이 이 치즈를 선물로 저에게 가져다주었습니다." # 16852358933771053865
-  yorkshire.0105.a: "연회에 훌륭한 일부가 될 것입니다!" # 12036996889150477163
+  yorkshire.0105.desc: "[north_riding_county.GetNameNoTier]의 작은 골짜기, 윈슬리데일은 그 지역에서 로크포르의 수도사들이 오래 전 정착해 그곳에 요리법을 전파한 맛있는 치즈로 유명합니다. 어쨌든, 일부 지역 주민들이 제게 이 치즈를 선물로 주었습니다." # 16852358933771053865
+  yorkshire.0105.a: "연회의 중요한 부분이 될 것입니다!" # 12036996889150477163
   yorkshire.0106.t: "알쿠인" # 10133393111436681933
-  yorkshire.0106.desc: ""몸보다 영혼을 더 소중히 여기십시오. 영혼은 남고 몸은 사라지기 때문입니다."\n\n"그리고 '민중의 목소리가 신의 목소리다'라고 계속 말하는 자들의 말에 귀 기울이지 마십시오. 군중의 소란은 항상 광기에 가깝기 때문입니다."" # 2849425385444168327
-  yorkshire.0106.a: "첫 번째 인용문이 나를 부르네 - 우리는 영적인 세계를 생각해야만 해!" # 2363859878407452951
-  yorkshire.0106.b: "두 번째 인용문은 좋습니다. 대중은 기껏해야 다루기 힘든 폭도입니다." # 11995326422773897921
-  yorkshire.0107.t: "케드몬의 찬가" # 9876012389498457378
-  yorkshire.0107.desc: "7세기 앵글로색슨 시인 케드몬은 [whitby_barony.GetNameNoTier] 수도원에서 소치는 목동이자 나중에는 수도승으로 살았습니다. 그의 가장 유명한 작품인 '케드몬의 찬가'를 오늘 지역 시인이 저에게 낭송해 주고, 그 후 원고 사본을 선물해 주려 합니다.\n\n#italic 이제 우리는 하늘의 수호자,#!\n#italic 건축가의 힘과 그의 목적,#!\n#italic 영광의 아버지의 업적을 존경해야 합니다#!\n#italic 영원한 주님께서 모든 경이로움의 기원을 세우셨으니;#!\n#italic 그분께서 인류의 자녀를 위해 처음으로 창조하셨네#!\n#italic 지붕으로서의 하늘을, 거룩한 창조자여.#!\n#italic 그런 다음 인류의 수호자여,#!\n#italic 영원한 주님, 그 후 중간 구역을 지정하셨네,#!\n#italic 인간을 위한 땅을, 전능하신 주님.#!" # 13570611843304602597
-  yorkshire.0107.a: "정말 아름답고 감명 깊은 시네요!" # 9345443732687709498
-  yorkshire.0108.t: "크롤랜드의 성 구틀락" # 4486187872431572846
-  yorkshire.0108.desc: "크로울랜드의 성 구슬락은 [lincolnshire_county.GetNameNoTier]에서 숭배받는 인기 있는 지역 성인입니다. 크로울랜드 수도원의 그의 성지는 항상 지역 순례자들에게 인기가 있었고 치유력으로 명성이 높았지만, 최근 들어 평소보다 더 많은 사람들이 찾아오고 있습니다." # 4276871443686743731
-  yorkshire.0108.a: "이것은 경제적으로나 정신적으로 그 지역에 도움이 될 것입니다!" # 6022624161451788276
-  yorkshire.0109.t: "스웨일 강" # 12350357326989302880
-  yorkshire.0109.desc: "수 세대에 걸쳐 잉글랜드에서 가장 빠르게 흐르는 강 중 하나인 [north_riding_county.GetNameNoTier]의 스웨일 강 주변 지역은 납 광업의 지역 중심지였습니다. 최근 이 지역에서 납 수요가 증가하면서 납 산업이 경제적 호황을 누리고 있습니다." # 11814354900777913860
-  yorkshire.0109.a: "좋아요, 좋아요." # 8104802304157004145
+  yorkshire.0106.desc: "알쿠인, 요크 출신의 저명한 학자이자 수도사이자 샤를마뉴 궁정의 중요한 지식인이었던 그분의 삶과 시대에 대해 숙고하고 있습니다. 그는 당대의 많은 중요한 사상가들을 길러냈고, 제가 그의 출생지와 성장지에서 그리 멀지 않은 영토를 다스린다는 생각에 조금의 자부심을 느낍니다.  그의 유명한 말씀 몇 가지를 기억합니다.\n\n\"몸보다 영혼을 더욱 돌보십시오. 왜냐하면 영혼은 영속하지만 몸은 멸망하기 때문입니다.\"\n\n\"그리고 '백성의 목소리는 신의 목소리다'라고 계속 말하는 자들을 듣지 마십시오. 왜냐하면 군중의 소란은 항상 미쳐가기에 가깝기 때문입니다.\"" # 2849425385444168327
+  yorkshire.0106.a: "첫 번째 인용구가 저를 부릅니다. 우리는 영적인 세계를 생각해야 합니다!" # 2363859878407452951
+  yorkshire.0106.b: "두 번째 인용구는 좋습니다. - 대중은 기껏해야 통제 불능의 무리일 뿐입니다." # 11995326422773897921
+  yorkshire.0107.t: "케드몬의 찬미" # 9876012389498457378
+  yorkshire.0107.desc: "제7세기 앵글로색슨 시인, 케드몬은 [whitby_barony.GetNameNoTier] 수도원에서 목동으로 일하다가 이후 수도승이 되었답니다. 그의 가장 유명한 작품, 케드몬의 찬가가 오늘 현지 시인에 의해 낭송될 예정이며, 그 후 필사본이 제게 전달될 것입니다.\n\n#italic 하늘의 수호자를 존경해야 하네,#!\n#italic 건축가의 위대함과 그의 목적을,#!\n#italic 영광의 아버지의 업적을#!\n#italic 영원한 주님이 모든 경이로움의 기원을 세우신 것처럼,#!\n#italic 그는 처음 인간의 자녀를 위해#!\n#italic 하늘을 지붕으로, 거룩한 창조주로써 창조했네.#!\n#italic 인류의 수호자,#!\n#italic 영원한 주님은 그 후 중앙 지역을,#!\n#italic 인간을 위한 땅을, 전능하신 주님께서 정하셨네." # 13570611843304602597
+  yorkshire.0107.a: "아름답고 감동적인 시구이군요!" # 9345443732687709498
+  yorkshire.0108.t: "크로우랜드의 성 굿락" # 4486187872431572846
+  yorkshire.0108.desc: "크롤랜드의 성 구트락은 [lincolnshire_county.GetNameNoTier]에서 숭배받는 인기 있는 지역 성인입니다.  크롤랜드 수도원의 그분의 성소는 항상 지역 순례자들에게 인기가 많았고, 치유의 능력으로 유명하지만, 최근 들어 평소보다 더 많은 사람들이 찾고 있습니다." # 4276871443686743731
+  yorkshire.0108.a: "이 지역에 경제적, 영적으로 도움이 될 것입니다!" # 6022624161451788276
+  yorkshire.0109.t: "스월 강" # 12350357326989302880
+  yorkshire.0109.desc: "수세대에 걸쳐 [north_riding_county.GetNameNoTier]의 스월 강 유역, 영국에서 가장 급류가 빠른 강 중 하나는 지역의 주요 납 광산 중심지였습니다. 최근 이 지역의 납 산업은 지역의 납 수요 증가로 인해 경제적 호황을 맞고 있습니다." # 11814354900777913860
+  yorkshire.0109.a: "좋군, 좋군." # 8104802304157004145
   yorkshire.0110.t: "페니 헤지" # 2156076944297961837
-  yorkshire.0110.desc: "[whitby_barony.GetNameNoTier]의 지역 전설에 따르면, 이 마을의 전통 중 하나인 #bold 페니 헤지#!에 대한 이야기가 전해져 옵니다. 전설에 따르면, 세 명의 지역 귀족이 멧돼지를 쫓아 인근 숲에서 사냥을 하고 있었습니다. 멧돼지는 친절한 은둔자의 거처로 들어갔고, 은둔자는 사냥꾼들이 지나가는 것을 허락하지 않았습니다. 사냥꾼들은 살육욕에 불타올라 은둔자가 자신들의 앞길을 막은 것에 분노하여 은둔자를 죽였습니다. 사냥꾼들은 격렬한 감정 속에서 저지른 행동에 경악했습니다. 은둔자는 죽어가면서 그들에게 [ROOT.Char.GetFaith.HighGodName]께서 그들과 그들의 후손들이 매년 의식을 행한다면 그들의 죄를 용서해 주실 것이라고 말했습니다.\n\n그 이후로, 휘트비 사람들은 매년 말뚝을 엮어 짧은 울타리를 만드는 의식을 거행합니다. 그들은 에스크 강을 따라 큰 의식을 치르며 울타리를 세우고, 울타리가 세 번의 조수를 견뎌내야 합니다." # 3123726374617247511
-  yorkshire.0110.a: "재미있는 이야기이긴 하지만, 실제로 일어난 일이라고는 생각되지 않아요." # 13163234788854134863
-  yorkshire.0110.b: "도덕적인 이야기이며, [whitby_barony.GetNameNoTier]의 사람들이 그것을 기억하는 것은 좋은 일입니다." # 3172902088818523356
-  yorkshire.0111.t: "암소와 송아지" # 8923030636851341489
-  yorkshire.0111.desc: "저는 [west_riding_county.GetNameNoTier]를 지나가고 있는데, 특히 #bold 일클리 무어#!로 알려진 지역을 지나고 있습니다. 그곳에는 '암소와 송아지'를 닮았다 하여 현지인들이 그렇게 부르는 거대한 암석 지형이 있습니다. 지역 전설에 따르면, 그 두 바위는 예전에 하나였으나 한때 요크셔에 살았던 거인 롬볼트가 그의 아내이자 적의 분노를 피해 도망치던 중 쫓기다가 실수로 바위를 밟아 두 개로 갈라졌다고 합니다.\n\n어쨌든, 매우 아름다운 광경이며, 바위들은 나머지 풀과 하늘을 배경으로 매우 우아하게 자리 잡고 있습니다." # 18006498635637793002
-  yorkshire.0111.a: "자연에 이런 경이로움이 존재하다니!" # 3648668474549597365
+  yorkshire.0110.desc: "[whitby_barony.GetNameNoTier]의 지역 전설에 따르면, 마을의 전통인 #bold 동전 울타리#에 대한 이야기가 전해집니다. 전설에 따르면, 세 명의 귀족이 근처 숲에서 멧돼지를 사냥하고 있었습니다. 멧돼지는 자비로운 수도승의 집으로 들어갔고, 수도승은 사냥꾼들이 통과하는 것을 거부했습니다. 혈기로 가득 찬 사냥꾼들은 그들의 길을 막은 데 분노하여 수도승을 죽였습니다. 사냥꾼들은 격한 감정 속에서 저지른 일에 끔찍한 충격을 받았습니다. 수도승이 죽어가는 와중에, 그들은 [ROOT.Char.GetFaith.HighGodName]께서 그들의 죄를 용서하실 것이라고 말했고, 그들과 그들의 후손은 매년 의식을 행해야 합니다.\n\n이후부터 휘트비 사람들은 매년 작은 울타리를 엮어 만드는 의식을 거행합니다. 그들은 에스크 강변에 엄숙한 의식을 통해 울타리를 세우고, 세 차례의 조류가 지나도록 견딜 수 있도록 해야 합니다." # 3123726374617247511
+  yorkshire.0110.a: "재미있는 이야기이지만, 실제로 일어났을 가능성은 낮다고 생각합니다." # 13163234788854134863
+  yorkshire.0110.b: "수훈이 되는 이야기이며, [whitby_barony.GetNameNoTier] 백성들이 기억해주는 것이 다행입니다." # 3172902088818523356
+  yorkshire.0111.t: "소와 송아지" # 8923030636851341489
+  yorkshire.0111.desc: "[west_riding_county.GetNameNoTier]를 지나고 있습니다. 특히 #bold 일클리 모어#! 지역을 지나고 있는데요. 그곳에는 큰 바위 형성물이 있어, 주민들은 그 모양이 소와 송아지처럼 보인다고 “소와 송아지”라고 부릅니다.  지역 전설에 따르면, 이 두 바위는 한때 하나였는데, 요크셔에 살았던 거인 롬볼드가 (재밌게도) 자신의 아내, 적의 분노로부터 도망치던 중 우연히 그 바위에 발을 디디면서 쪼개졌다고 합니다. \n\n어쨌든, 아름다운 풍경입니다. 그리고 바위들은 주변의 풀밭과 하늘과 아주 멋지게 어울립니다." # 18006498635637793002
+  yorkshire.0111.a: "자연의 경이로움이 이처럼 존재한다니!" # 3648668474549597365
   yorkshire.0112.t: "xxxxx" # 1951045980481827005
   yorkshire.0112.desc: "xxxxx" # 1951045980481827005
   yorkshire.0112.a: "xxxxx" # 1951045980481827005
@@ -829,11 +837,3 @@
   yorkshire.0199.t: "xxxxx" # 1951045980481827005
   yorkshire.0199.desc: "xxxxx" # 1951045980481827005
   yorkshire.0199.a: "xxxxx" # 1951045980481827005
-  yorkshire.0100.b: "네, 알겠습니다." # 15623903445057823386
-  RICE_yorkshire_margaret_helmet_name: "솥 투구" # 11718019795937166695
-  RICE_yorkshire_margaret_helmet_desc: "[margaret.GetFirstName] [margaret.GetDynasty.GetName]은(는) [GetGeographicalRegion('custom_england').GetName]에서 온 [margaret.GetFaith.GetReligion.GetAdjective] 십자군 서약을 한 순례자 여성이었습니다. 그녀는 이교도들과 싸움에 휘말렸을 때 이 투구를 냄비로 임시로 만들었습니다. 이 투구는 여성 전사에 대한 일반적인 태도를 반영하여 일부에게는 이상하게 여겨지기도 하지만, 또한 [margaret.GetFirstNamePossessiveNoTooltip] 용기와 열의의 표식이기도 합니다." # 1790994851376613856
-  RICE_yorkshire_margaret_of_beverley_modifier: "맹렬한 여장부처럼" # 9628308073958589724
-  RICE_yorkshire_margaret_of_beverley_modifier_desc: "전쟁과 고난을 두려워하지만, 이 여인은 그러한 두려움에 지배당하려 하지 않는다. 그녀는 십자군 서약을 맺었으며, 그리고 [Glossary( 'virago', 'VIRAGO_GLOSS' )]와 같은 기질을 가지고 있어, 필요하다면 무기를 들고 영웅적인 업적을 수행할 것이다." # 7331667679533058441
-  yorkshire.0010.info: "#emphasis 역사적 배경:#\n베벌리의 마거릿은 잉글랜드인 순례자였으며, 역사적으로 기록된 여성 중 드물게 십자군 전쟁 중 전투에 참전했습니다. 특히 제3차 십자군 전쟁 중인 1187년 예루살렘 공방전과 1188년 살라딘의 군대에 의한 안티오키아 공방전에 참여했습니다. 그 후 여러 여행과 모험을 거친 뒤, 수년 후 프랑스의 수녀원으로 은퇴했습니다. 그녀의 삶에 대한 주요 자료는 현대 프랑스의 피카르디에 근거지를 둔 수도승인 그녀의 남동생 토마스입니다. 흥미롭게도, 그는 한동안 유명한 캔터베리 대주교 토마스 베켓의 가문에 속해 있었습니다." # 5297747121996759469
-  yorkshire.0011.b: "머리에 솥을 뒤집어쓰다니, 말도 안 되는 소리로군." # 14897346748766243750
-  yorkshire.0011.info: "#emphasis 역사적 배경:#! 베벌리의 마거릿에 대한 주된 기록을 남긴 그녀의 남동생인 수도사 토마스에 따르면, 1187년 살라딘의 예루살렘 공성전 당시 마거릿은 도시 방어에 적극적으로 참여했으며, 냄비를 투구로 임시방편하여 사용해야 했다고 한다. 이 사건이 실제로 일어난 일인지, 아니면 꾸며낸 이야기인지는 불확실하다. 가능성이 전혀 없는 것은 아니지만, 이는 또한 중세 시대에 전사 여성을 기이하게 묘사하는 경향을 반영하며, 풍자적이거나 희극적인 요소가 포함되었을 수도 있다." # 1022111231904845378
