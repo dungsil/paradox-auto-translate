@@ -29,6 +29,7 @@ const dictionaries: Record<string, string> = {
   karakoram: '카라코람',
   khnum: '크눔',
   king: '왕',
+  landless: '비지주',
   'let\'s get started!': '시작해보지!',
   mandulis: '만둘리스',
   mastic: '유향',

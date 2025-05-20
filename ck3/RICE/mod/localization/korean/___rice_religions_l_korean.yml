@@ -844,6 +844,25 @@
   doctrine_parameter_rice_baptism_decision_unlocked_active: "$RICE_khuzestan_gnostic_baptism_rite$ [decision|E]을 내릴 수 있습니다" # 8553706260268733545
   rice_prayer_love_doctrine_name: "정화로서의 자손 번성" # 11852502959720845054
   rice_prayer_love_doctrine_desc: "다른 영지주의자들과는 달리, 우리는 성교를 긍정적인 영적 힘이자 부부가 신에게 더 가까이 다가가 가족의 유대를 더 잘 이해하는 방법으로 봅니다." # 4608134397762890145
+  rice_light_purification_doctrine_name: "정화로서의 빛의 해방" # 15527735053947735857
+  rice_light_purification_doctrine_desc: "우리의 영혼은 빛의 세계에서 왔으나, 어둠의 세계에서 온 물질에 갇혀 있습니다. 예언자 마니의 가르침을 따르면, 물질로부터 빛을 해방하여 빛의 세계와 다시 하나 될 수 있습니다." # 34114796622257664
+  doctrine_parameter_rice_bema_feast_activity_unlocked_active: "[GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E]를 이용할 수 있게 됩니다." # 16770753616360187017
+  doctrine_parameter_rice_manichean_manuscript_unlocked_active: "필사본 위임 [decision|E]를 수행할 수 있습니다" # 16639936261048961654
+  doctrine_parameter_rice_manichean_weekly_confession_unlocked_active: "[decision|E] $RICE_manichean_confession_decision$를(을) 내릴 수 있습니다." # 15238338643134677003
+  special_doctrine_rice_doctrine_late_manicheism_abandon_name: "숨겨진 빛" # 10976552597861732705
+  rice_doctrine_late_manicheism_abandon_name: "$special_doctrine_rice_doctrine_late_manicheism_abandon_name$" # 16921225050864762962
+  special_doctrine_rice_doctrine_late_manicheism_abandon_desc: "빛의 종교는 최근 많은 고난을 겪었으며, 일부 지역에서는 그 신봉자들이 잠행하거나 농민 봉기에 가담했습니다. 어둠의 세력이 강성해지는 동안에도, 마니의 추종자들, 그리고 빛은 결국 승리할 것입니다!" # 974638859387549171
+  doctrine_parameter_rice_unlock_manichean_mechanics_cost_more_gold: "[결단|E]인 원고 의뢰와 $RICE_manichean_confession_decision$ 및 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [활동|E] 비용이 더 많이 듭니다." # 7090761857470360907
+  doctrine_parameter_rice_unlock_manichean_manuscripts_lower_learning_req: "[decision|E] '#bold 원고 제작 의뢰#'를 선택하면, 직접 원고를 작성하기 위한 [learning|E] 요구 능력치가 [learning_i|E] #V 12#!에서 [learning_i|E] #V 8#!로 감소합니다." # 10471982397505537420
+  special_doctrine_rice_doctrine_late_manicheism_support_name: "증폭된 빛" # 6002680316484289278
+  rice_doctrine_late_manicheism_support_name: "$special_doctrine_rice_doctrine_late_manicheism_support_name$" # 9105069408550705483
+  special_doctrine_rice_doctrine_late_manicheism_support_desc: "빛의 종교는 최근 많은 고통을 겪었습니다. 심지어 [Glossary( 'Elect', 'ELECT_GLOSS' )]조차 내부로부터 악의적인 비방에 시달렸기 때문입니다. 그리하여 세속 지도자들과 종교 지도자들은 관계를 강화하고 연대의식을 다졌습니다. 함께, 그들은 어둠에 맞서 빛을 해방할 것입니다!" # 6780454678316894922
+  doctrine_parameter_rice_unlock_manichean_bema_festival_legitimacy_bonus: "[GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E] 완료 시 소량의 [legitimacy_i|E] [legitimacy|E]를 얻습니다" # 10050046635746628545
+  special_doctrine_rice_doctrine_late_manicheism_reform_name: "복원된 빛" # 1224277003924500723
+  rice_doctrine_late_manicheism_reform_name: "$special_doctrine_rice_doctrine_late_manicheism_reform_name$" # 18135758409594200432
+  special_doctrine_rice_doctrine_late_manicheism_reform_desc: "빛의 종교는 최근 몇 년간 많은 고통을 겪었으며, 그 지도자들은 교회가 너무 해이해지고 타락했다는 [Glossary( 'dinavariya', 'DINAVARIYA_GLOSS' )]의 경고에 귀를 기울일 필요가 있음을 깨달았습니다.\n절실히 필요했던 개혁을 통해 빛은 해방되고, 어둠은 물리쳐질 것입니다!" # 7373609012296946355
+  doctrine_parameter_rice_unlock_manichean_improved_sin_loss_chances: "$RICE_manichean_confession_decision$ [decision|E]을 수행하거나 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E]에 참여할 때, 나쁜 [traits|E]를 잃을 확률이 #P 두 배#가 됩니다!" # 12792151848841686136
+  doctrine_parameter_rice_unlock_manichean_mechanics_cost_less_gold: "원고 위촉 [decisions|E]과 $RICE_manichean_confession_decision$ [decisions|E], 그리고 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E]의 [gold_i|E] [gold|E] 비용이 감소합니다." # 30703147324540238
   rice_doctrine_zoroastrian_yazatas_name: "야자타스" # 17174465067736259752
   rice_doctrine_zoroastrian_yazatas_desc: "$game_concept_yazatas_desc$" # 3169137870760091308
   rice_zoroastrian_sassanian_doctrine_name: "사산조 야자타" # 5523429454315819236

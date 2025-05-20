@@ -1,0 +1,659 @@
+﻿l_korean:
+  dynn_RICE_shingqo_sheli_tutung: "셸리 투퉁" # 15697847950137383942
+  dynn_RICE_tatatunga: "타타퉁이드" # 7245561029469559383
+  RICE_former_uyghur_influence_region: "옛 $e_uyghur_khanate$의 영향권" # 17894564513354984462
+  RICE_every_county_in_former_uyghur_influence_region: "[GetGeographicalRegion('RICE_former_uyghur_influence_region').GetName] 내 모든 [county|E]" # 12616410174106003632
+  fervor_gain_RICE_manichean_increased_government_patronage: "교회 내 부패 의혹에 맞서는 강력한 지원" # 18087797368691545764
+  fervor_gain_RICE_manichean_religious_reforms: "교회 내 부패에 맞서기 위한 종교 개혁" # 1729211118788607315
+  fervor_loss_RICE_manichean_declining_elite_support: "교회 내 부패로 인한 귀족 지지 감소" # 8127928371510916193
+  fervor_loss_RICE_manichean_archegos_flee: "$d_manichean$이 중앙아시아로 도망쳤습니다" # 17328649116729405761
+  Adityazen: "아디티아젠" # 7926874779773817114
+  Huaiyu: "화이위" # 16507223430502980103
+  RICE_dynn_mani: "파티키드" # 5705034191868809319
+  Pattik: "파틱" # 674879447555022306
+  Sisin: "시신" # 16745833339612002059
+  Innaios: "인나이오스" # 12128949760536689232
+  Mihr: "미흐르" # 17951845001922781765
+  Zad_Hurmuz: "잣 후르무즈" # 7553814527530254054
+  Abu_Hilal: "아부 힐랄" # 15174360914849051789
+  Aryaman_Puhr: "아리야만 푸르" # 5584323605104675631
+  RICE_dynn_al_dayhuri: "다이후리" # 1752616205566085831
+  Wahman: "와흐만" # 15979540255215659702
+  RICE_every_manichean_county_owned_or_vassal_mesopotamia: "이 [ruler|E] 또는 그들의 [vassals|E]가 소유하고, [GetGeographicalRegion('world_mesopotamia').GetName]에 위치하며, [GetFaithDoctrine('rice_light_purification_doctrine').GetBaseName] [doctrine|E]를 가진 [faith|E]를 따르는 모든 [county|E]" # 17721950243522119580
+  RICE_archegos_exists_req: "현재 [GetTitleByKey('d_manichean').GetNameNoTierNoTooltip]에는 [holder|E]가 있습니다." # 12077889544372463239
+  RICE_manichean_vassals_or_below_exists_req: "[vassals|e] 또는 그 이하 중 [GetFaithDoctrine('rice_light_purification_doctrine').GetBaseName] [doctrine|E]를 가진 [faith|E]를 따르는 이는 없습니다" # 16879853885193970347
+  RICE_you_or_vassal_own_kufa_req: "귀하 또는 귀하 휘하의 [ruler|E]가 [GetTitleByKey('c_kufa').GetNameNoTierNoTooltip] [county|E]를 소유하고 있습니다" # 12123115317791257804
+  TRAIT_FLAG_DESC_rice_lin_deng_decision_unlock: "#bold $RICE_manichean_lin_deng_decision$!# [decision|E]을(를) [faith|E] 또는 [culture|E]에 관계없이 사용할 수 있게 됩니다." # 9151339163449289926
+  TRAIT_FLAG_DESC_rice_lin_deng_interaction_unlock: "#bold 린 등의 가르침 전수#[interaction|E]의 잠금을 해제합니다!" # 2876341169961945430
+  TRAIT_FLAG_DESC_rice_lin_deng_cheaper: "[decision|E] $RICE_manichean_lin_deng_decision$는 [piety_i|E] [piety|E]를 더 많이 제공합니다." # 18166714853032340259
+  RICE_nick_zahag_i_mani: "자하그-이 마니" # 10902773009934832916
+  RICE_nick_zahag_i_mani_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U][CharHaveHas(CHARACTER)] 예언자 마니의 추종자들에 의해 #italic Zahag-i Mani#!, 즉 마니의 현현(顯現)이라고 선포되었습니다. 조상의 고향인 메소포타미아에서 마니의 가르침을 부흥시키려는 [CharYourHerHis(CHARACTER)] 노력 때문입니다." # 9184870164367934623
+  RICE_every_county_in_mesopotamia: "[GetGeographicalRegion('world_mesopotamia').GetName] 내 모든 [county|E]" # 4927506101042019698
+  RICE_manichean_religious_head_title_yamag: "야마그" # 1202555045373083993
+  RICE_manichean_religious_head_title_yamag_name: "야마가테" # 3177125126547084581
+  RICE_manichean_religious_head_title_archegos: "아르케고스" # 17910913393867294613
+  RICE_manichean_religious_head_title_archegos_name: "교회" # 14338413994635232911
+  RICE_former_uyghur_influence_region_capital_req: "[capital|E]는 [GetGeographicalRegion('RICE_former_uyghur_influence_region').GetName]에 있습니다" # 9165440649611915700
+  RICE_greater_qocho_region: "고창의 새 위구르 중심지" # 3154241193659695862
+  RICE_every_county_in_greater_qocho_region: "[GetGeographicalRegion('RICE_greater_qocho_region').GetName] 내 모든 [county|E]" # 8870597327059738598
+  RICE_greater_qocho_region_capital_req: "[capital|E] [GetGeographicalRegion('RICE_greater_qocho_region').GetName]에 있습니다." # 15426478670445761175
+  RICE_arzhang_opinion: "아름다운 #italic 아르장#! (마니교의 그림 책)" # 17563208394655884130
+  RICE_ugyhur_bokut_event_troops: "위구르 병력" # 13937136574322421927
+  RICE_khotan_bokut_event_troops: "동맹된 호탄 병력" # 10203773570072622210
+  RICE_guiyi_bokut_event_troops: "중국 동맹 병력" # 17007071915224651164
+  RICE_ming_cult_troops: "명교 신도" # 7712605850438538997
+  RICE_opinion_chastised_me: "저를 책망했습니다" # 12646419451265585124
+  RICE_opinion_mutual_intellectual_ruminations: "상호 지적 사색" # 7946532701129788673
+  Yixin: "이신" # 3827403134201749867
+  Pingshan: "핑산" # 12353419930667843891
+  Shingqo: "싱고" # 13082849014218134472
+  RICE_manichean_reviver_legend_name: "마니의 발출" # 2137502468890136033
+  RICE_manichean_reviver_legend_desc: "마니의 추종자들이 – 최종 선지자이자 예수 그리스도의 사도, 그리고 광명의 부처이신 – 그 하수인들이 세상 곳곳에서 그들을 박해하던 [faith.DevilName]의 세력 앞에서 모든 희망을 잃었을 때, [reviver.GetTitledFirstName]는 신도들을 이끌고 마니의 신성한 고향인 [GetGeographicalRegion('world_mesopotamia').GetName]을 되찾고 그곳에 그의 가르침을 다시 전파하였다." # 14573389301963405171
+  RICE_manichean_reviver_legend_chapter_opening_new_title: "어둠의 날들이 있었다, [ROOT.Legend.GetProperty( 'faith' ).Faith.DevilName]이 매 순간 마니의 독실한 추종자들을 패배시킨 듯 보일 때. 교회의 억압과 모독은 흔한 일이었고, 심지어 많은 교회의 일원들마저 죄와 절망에 빠졌다." # 1172119897327384036
+  RICE_manichean_reviver_legend_chapter_motivation_new_title: "하지만 모든 일이 교회를 거스른 것은 아니었다. 마니를 찬양하라! 교회는 길을 잃었으나, 위대하고 강력한 [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip]이라는 새로운 수호자를 얻었다. [ROOT.Legend.GetProtagonist.GetSheHe|U]는 마니교 공동체가 얼마나 궁핍하고 빈곤해졌는지, 어둠 앞에서 얼마나 나약해 보이는지 보았다. 하지만 [ROOT.Legend.GetProtagonist.GetSheHe]는 빛을 수호하고 해방하기 위해 치열하게 싸워야 한다는 것을 알았다." # 5585075003301540790
+  RICE_manichean_reviver_legend_chapter_famous_deed_new_title: "의로운 선정자와 청문자로 이루어진 병력을 모아, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]는 마니의 고향인 비옥한 초승달 지대의 비옥한 평원을 휩쓸고 들어가, 죄 많고 흉악한 [ROOT.Legend.GetProperty( 'faith' ).Faith.DevilName]의 세력을 쓸어버렸습니다. 마니의 추종자들은 티그리스와 유프라테스 사이에서 다시 권력을 잡았으며, [ROOT.Legend.GetProtagonist.GetFirstNamePossessiveNoTooltip]의 지도 하에 그곳에서 교회를 재건하기 시작했습니다." # 4680965333745223936
+  RICE_manichean_reviver_legend_chapter_extra_deed_new_title: "심지어 마니교 교단의 지도자인 #italic 아르케고스#!도 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]의 비호 아래 바빌론에 있는 그들의 옛 거처로 돌아갈 수 있게 된 것은 다행스러운 일입니다." # 12455632994948451359
+  RICE_manichean_reviver_legend_chapter_conclusion_new_title: "마니의 교회가 비옥한 초승달 지대로 귀환하고 그에 이은 부활을 이룩한 것은 기적이라 해도 과언이 아니다. 하지만 그러한 기적은 [ROOT.Legend.GetProtagonist.GetTitledFirstNameNoTooltip]의 지도와 권위 아래에서 [ROOT.Legend.GetProperty( 'faith' ).Faith.DevilName]의 악에 맞서 치열하게 싸운 선출자들과 청취자들의 영웅적인 업적을 통해서만 가능했다. 수백 년 후에도 의심할 여지 없이 마니교 교회는 [ROOT.Legend.GetProtagonist.GetHerHis]의 이름을 계속 기릴 것이며, 빛의 종교를 구원하고 전파하기 위한 [ROOT.Legend.GetProtagonist.GetHerHis]의 노력 덕분으로 [ROOT.Legend.GetProtagonist.GetHerHim]를 마니의 사도들과 동등하게 여길 것이다." # 4830116332911591330
+  RICE_manichean_mani_sealstone_name: "마니의 인장석" # 1877523905675753771
+  RICE_manichean_mani_sealstone_desc: "오래 전, 예언자 마니는 [manichean_faith.GetAdjective] 교회의 창시자로, 자신과 그 양옆에 두 추종자를 묘사한 수정 돌도장을 가졌다고 전해집니다.\n여러 세대에 걸친 충실한 [manichean_faith.GetAdherentNamePluralNoTooltip]은 그의 수난과 [Glossary( 'parinirvana', 'MANICHEAN_PARINIRVANA_GLOSS' )] 후에 그것을 성유물로 간직했습니다. 그것은 마니 교회의 다양한 박해 중에 어느 시점에 분실되었습니다.\n\n그 돌도장은 수년 후에 [discoverer.GetTitledFirstName]의 노력 덕분에 재발견되었습니다. 오랜 세월에도 불구하고 그것은 거의 온전하게 보존되었으며, 그 위에 새겨진 [syriac_culture.GetName] 문구는 아직도 대부분 읽을 수 있습니다: \"마니, 예수 그리스도의 사도\"." # 7828182660757808840
+  RICE_manichean_manuscript_creator_self_name: "[ROOT.Char.GetTitledFirstName]" # 1704218440891384633
+  RICE_manichean_manuscript_creator_others_name: "[ROOT.Char.GetTitledFirstName]의 후원을 받는 필사자" # 16696760357293193587
+  RICE_manichean_manuscript_opening_desc: "[ROOT.Char.GetCulture.GetLanguage.GetName]어로 [GetPlayer.Custom('RICE_manichean_manuscript_creator')]가 작성한 이 문서는 [ROOT.Char.GetFaith.GetAdjective] 필사본의 명성 높은 품질과 아름다움의 한 예입니다." # 10696470139819981001
+  RICE_random_manichean_canonical_scripture_01: "[ROOT.Char.GetFaith.GetNameNoTooltip]의 가장 중요한 경전인 #bold 마니 복음#! 또는 #bold 살아있는 복음#!은, 오해로 왜곡되었지만, 메시아이자 영광스러운 예수의 진정한 이야기를 전하는 하나뿐인 참된 복음이기 때문입니다." # 3953457315607220243
+  RICE_random_manichean_canonical_scripture_02: "#bold 생명의 보물#!, 이는 예언자 마니의 가르침을 담고 있으며, 우주의 인간의 위치에 관한 내용과 우리의 어떤 부분이 빛의 영역에서 오고 어떤 부분이 어둠의 영역에서 오는지를 다룹니다." # 8520488287610737719
+  RICE_random_manichean_canonical_scripture_03: "#bold 성서신집#!, 예언자 마니와 그의 직계 제자들이 주고받은 서신 모음집입니다. 그것은 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 교리에 대해 설명하며, 왜 그런 교리가 옳은지를 역설합니다." # 1352260039505685975
+  RICE_random_manichean_canonical_scripture_04: "#bold 시편과 기도문#!, 예언자 마니와 그의 직계 제자들이 쓴 시집." # 1166226484798234082
+  RICE_random_manichean_canonical_scripture_05: "그 #bold 프라그마테이아#!, 인류의 역사를 [ROOT.Char.GetFaith.GetAdjective]적 관점에서 서술하는 서적." # 13797973468559184616
+  RICE_random_manichean_canonical_scripture_06: "#bold 거인의 서#!는 아브라함계 종교의 창세기 이야기를 확장하는 책입니다. [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 가르침에 따르면, 대홍수 이전에 악마들이 인류에게 공포스러운 지배를 확립했고, 인간 여성과의 사이에서 거인족을 낳았으며, 이후 빛의 세력이 그들을 격파하고 감금했습니다." # 15655613973519680772
+  RICE_random_manichean_canonical_scripture_07: "#bold 신비의 서#!, 영혼의 본질에 대한 다양한 주제를 논하며, 거짓 예언자들의 가르침을 비판하고, 마지막 예언자 마니의 진리를 역설하는" # 6969248105467550498
+  RICE_manichean_artifact_seven_treatises_name: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 정경" # 15089847964530323811
+  RICE_manichean_artifact_seven_treatises_desc: "[ROOT.Char.GetFaith.GetName]는 7개의 논문 또는 경전을 가지고 있습니다.\n\n이 특정 사본은 [GetPlayer.Custom('RICE_random_manichean_canonical_scripture')]입니다.\n\n#EMP 이 [artifact|E]를 장착하면 $RICE_manichean_confession_decision$ [decision|E] 및 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E]의 [gold_i|E] [gold|E] 비용이 감소합니다.#!" # 3225817991272422132
+  RICE_manichean_artifact_shabuhragan_name: "샤부흐라간" # 18035910937672012874
+  RICE_manichean_artifact_shabuhragan_desc: "$RICE_manichean_manuscript_opening_desc$ 이 필사본은 #bold 샤부흐라간#의 사본입니다! 이는 마니 자신이 사산조 샤한샤 샤푸르 1세를 위해 그의 가르침을 요약하고자 저술한 것입니다. 이 책은 [ROOT.Char.GetFaith.GetNameNoTooltip]의 중요한 교훈들을 소개하거나 되새기기에 훌륭한 서적입니다.\n\n#EMP 이 [artifact|E]를 장착하면 소유자는 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E]에서 추가 [prestige_i|E]의 [prestige|E]를 얻을 수 있습니다.#!" # 10074131948159930923
+  RICE_manichean_artifact_arzhang_name: "아르장" # 6237091846912727873
+  RICE_manichean_artifact_arzhang_desc: "$RICE_manichean_manuscript_opening_desc$ 이 필사본은 #bold 아르장#! 혹은 그림의 책이라 불리는 것으로, 마니 본인이 지닌 예술적 재능을 활용하여 주로 삽화로 구성되어 있습니다. 마니는 그러한 그림들이 자신의 다른 경전을 읽지 못하는 대중에게 자신의 가르침을 전파하는 데 도움이 되리라는 것을 알고 있었습니다.\n\n#EMP 이 [artifact|E]를 장비하면 소유주는 그가 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E]를 주최할 때 모든 참석자로부터 추가적인 [opinion_i|E] [opinion|E]를 얻게 됩니다.#!" # 18028680834822798899
+  RICE_manichean_artifact_kephalaia_name: "케팔라이아" # 2031367240251992547
+  RICE_manichean_artifact_kephalaia_desc: "$RICE_manichean_manuscript_opening_desc$ 이 필사본은 마니의 가르침을 설명하는 텍스트인 #bold 케팔라이아#!의 모음집입니다. 종종 마니의 삶의 예시를 인용하기도 합니다. 이 이야기들은 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 신앙에 대해 설명할 뿐만 아니라 이야기나 문학 작품으로서도 가치가 있습니다.\n\n#EMP 이 [artifact|E]를 장착하면 소유자는 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E]에서 추가 [piety_i|E] [piety|E]를 얻을 수 있습니다.#!" # 18324954719133911721
+  RICE_manichean_artifact_hymn_book_name: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 성가집" # 2865083653018617644
+  RICE_manichean_artifact_hymn_book_desc: "이 필사본에는 종교적이든 정치적이든 일상적이든 다양한 의식 중에 부를 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 찬송가들이 담겨 있습니다. 일상 의식에서 이 찬송가들의 꾸준한 존재는 [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]에게 마니의 가르침을 상기시키는 데 도움이 됩니다.\n\n#EMP 이 [artifact|E]를 장비하면 소유자는 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E]를 개최할 때 추가 [legitimacy_i|E] [legitimacy|E]를 얻을 수 있습니다. #!" # 163726561355317399
+  RICE_manichean_artifact_confessional_texts_name: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 신앙 고백 문구" # 1875017750423109986
+  RICE_manichean_artifact_confessional_texts_desc: "이 사본은 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 고해성사 서적들을 포함하고 있습니다. 그것들은 [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]에게 그들의 죄를 고백하는 과정을 통해 길을 안내하는데, 이는 마니의 가르침을 따르는 이들에게 중요한 행위입니다. 이는 빛을 해방하는 데 도움이 되는 중요한 방법 중 하나로 알려져 있기 때문입니다.\n\n#EMP 이 [artifact|E]를 장착하면 그 소유자는 $RICE_manichean_confession_decision$ [decision|E]와 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E]로부터 추가 [stress_loss_i|E] [stress|E]를 잃습니다. #!" # 11019479354154174552
+  RICE_manichean_artifact_parables_and_tales_name: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 비유와 설화" # 4080260382863951759
+  RICE_manichean_artifact_parables_and_tales_desc: "$RICE_manichean_manuscript_opening_desc$ 이 필사본은 다양한 [ROOT.Char.GetCulture.GetNameNoTooltip] #bold 우화와 이야기#를 담고 있습니다! 마니의 가르침 관점에서 풀어쓴 내용입니다.\n\n이 재미있는 이야기들을 재해석한 의도는 마니의 이미 헌신적인 추종자들과 그의 가르침에 열려 있는 이들 모두를 그의 교리에 대한 더 나은 이해로 이끌기 위함입니다.\n\n#EMP 이 [artifact|E]를 장비하면 소유자는 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E]에서 추가적인 [lifestyle_experience|E]를 얻을 수 있습니다.#!" # 1982508776240124400
+  RICE_manichean_artifact_other_religions_texts_name: "[other_faith.GetAdjectiveNoTooltip] 성전에 대한 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 해석" # 9603988406133208364
+  RICE_manichean_artifact_other_religions_texts_desc: "이 사본은 성스러운 #bold [other_faith.GetAdjective] 성서#!의 수정된 사본입니다.\n\n예언자 마니는 다른 신앙에 대해 배우는 추종자들을 낙담시키지 않았습니다. 사실, 그는 다른 종교 서적에 숨겨져 있던 그의 진실을 찾고, 그것들을 \"올바르게\" 재해석하여 그의 가르침에 더 잘 맞도록 격려했습니다.\n\n#EMP 이 [artifact|E]를 장착하면 마니의 가르침을 따르는 [faiths|E]를 위한 사본 편찬 [decision|E]의 [gold_i|E] [gold|E] 비용이 감소합니다.#!" # 9683303248860159530
+  trait_RICE_disciple_of_lin_deng_info: "\n\n#emphasis 이 [trait|E]에 대한 [trait_level_track_xp|E]는 $rice_light_purification_doctrine$ [doctrine|E]를 가진 [faiths|E]와 관련된 다양한 [decisions|E] 및 [activities|E]를 완료하여 획득할 수 있습니다#" # 2442361630290024517
+  trait_RICE_disciple_of_lin_deng: "린 등의 제자" # 10209328761372518788
+  trait_RICE_disciple_of_lin_deng_desc: "이 인물은 중국 동남부 출신의 전설적인 마니교 지도자, 현자, 마법사 린덩의 제자의 후예인 의례의 달인입니다. 린덩은 그의 영웅적인 행위로 인해 오늘날까지 현지인들에게 추앙받고 있습니다. 이 인물은 린덩의 유산을 계승하고 이 영적인 계보를 잇는 데 신앙과 관계없이 헌신하고 있습니다.\n\n#weak 이 [trait|E]는 이 인물의 [children|E]가 [adults|E]가 되면 상속됩니다.#!" # 9085567825483954390
+  trait_RICE_disciple_of_lin_deng_character_desc: "[ROOT.GetCharacter.GetFirstNameNoTooltip]는 동남 중국 출신의 전설적인 마니교 지도자이자 현자, 마법사인 린덩의 제자로부터 내려온 인물로, 린덩은 오늘날까지도 그 영웅적인 행위로 지역 주민들에게 숭배받고 있습니다. [ROOT.GetCharacter.GetFirstNameNoTooltip]는 [ROOT.GetCharacter.GetHerHis] 신앙과 상관없이 린덩의 유산을 이어받고 이 영적인 계통을 계속 이어나가기로 헌신했습니다.\n\n#weak 이 [trait|E]는 해당 인물의 [children|E]가 [adults|E]가 되면 상속됩니다.#!" # 7721113363350080126
+  trait_RICE_disciple_of_lin_deng_2: "덕망 높은 제자" # 13676857688490377572
+  trait_RICE_disciple_of_lin_deng_2_desc: "$trait_RICE_disciple_of_lin_deng_desc$" # 378675129400838418
+  trait_RICE_disciple_of_lin_deng_2_character_desc: "$trait_RICE_disciple_of_lin_deng_character_desc$" # 8308737974627350503
+  trait_RICE_disciple_of_lin_deng_3: "전설의 제자" # 789041706509498839
+  trait_RICE_disciple_of_lin_deng_3_desc: "$trait_RICE_disciple_of_lin_deng_desc$" # 378675129400838418
+  trait_RICE_disciple_of_lin_deng_3_character_desc: "$trait_RICE_disciple_of_lin_deng_character_desc$" # 8308737974627350503
+  trait_track_RICE_disciple_of_lin_deng: "$trait_RICE_disciple_of_lin_deng$" # 4477093483410514662
+  trait_track_RICE_disciple_of_lin_deng_desc: "#italic 타오르는 성스러운 불꽃이 나의 마른 몸을 태우는구나. 삶은 비통하나, 죽음 또한 고통스럽다. 오직 밝음만이 선을 행하고 악을 근절할 수 있다.#!" # 16903961162925360675
+  RICE_manichean_aspiration_chen_pingshan_desc: "\n\n#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$[GetTrait('RICE_disciple_of_lin_deng').GetName( GetNullCharacter )] [trait|E]의 [trait_level_track_xp|E] #V 100#! 달성\n$EFFECT_LIST_BULLET$[GetTrait('RICE_disciple_of_lin_deng').GetName( GetNullCharacter )] [trait|E]를 가진 [adult|E] 자녀를 최소 한 명 보유\n$EFFECT_LIST_BULLET$[GetModifier( 'piety_level_3' ).GetNameWithTooltip|L] 이상 [piety_level|E] 달성\n$EFFECT_LIST_BULLET$$RICE_manichean_lin_deng_decision$ [decision|E]을 최소 한 번 실행\n$EFFECT_LIST_BULLET$$rice_light_purification_doctrine_name$ [doctrine|E]를 가진 [faith|E] 유지\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$[dynasty|E]에 대한 [GetModifier('RICE_manichean_lin_deng_spiritual_lineage_modifier').GetNameWithTooltip] [modifier|E] 획득\n$EFFECT_LIST_BULLET$[learning_lifestyle|E] [perk|E] 획득\n$EFFECT_LIST_BULLET$@piety_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! [piety|E] 획득\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$[GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L] 이상 [prestige_level|E] 달성 (보상: [diplomacy_lifestyle|E] [perk|E] 획득)\n$EFFECT_LIST_BULLET$$RICE_manichean_recruit_ming_cultists$ [decision|E]을 최소 한 번 실행 (보상: [martial_lifestyle|E] [perk|E] 획득)" # 15408815729122108506
+  RICE_manichean_historical_aspiration_action_chen_pingshan: "#italic 당신의 옛 스승, 린덩은 세상에 비견할 바 없는 빛의 부처 마니의 가르침뿐만 아니라 타인을 돕는 다양한 종교 의식에 대해서도 많은 것을 가르쳤습니다.#그가 세상을 떠나면서, 당신은 스승의 가르침을 숙달하고 그가 일군 영적 공동체와 영적 계보를 유지해야 할 의무를 지게 되었습니다.#!$RICE_manichean_aspiration_chen_pingshan_desc$" # 17782200431433198159
+  RICE_manichean_historical_aspiration_modifier_desc_chen_pingshan: "린덩의 유산 계승 (마니교 염원)" # 8943305711229502674
+  RICE_manichean_aspiration_bokut_desc: "\n\n#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$$uyghur$ [culture|E]이거나, $uyghur$에서 유래된 $heritage_turkic_name$ [heritage|E]를 가진 [culture|E]일 것\n$EFFECT_LIST_BULLET$[independent|E] [king|E] 또는 [emperor|E]일 것\n$EFFECT_LIST_BULLET$[GetGeographicalRegion('RICE_greater_qocho_region').GetName] [region|E]을 [completely_control|E]할 것\n$EFFECT_LIST_BULLET$[GetActivityType( 'activity_RICE_tarim_basin_bezeklik_pilgrimage' ).GetName]을(를) 최소 한 번 수행할 것\n$EFFECT_LIST_BULLET$[GetModifier( 'piety_level_3' ).GetNameWithTooltip|L] 등급 이상의 [piety_level|E]을 보유할 것\n$EFFECT_LIST_BULLET$[GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L] 등급 이상의 [prestige_level|E]을 보유할 것\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$@legitimacy_icon! #V [EmptyScope.ScriptValue('medium_legitimacy_gain')]#! [legitimacy|E]을 획득\n$EFFECT_LIST_BULLET$#V 1000#!의 [special_troops|E]을 획득 (일부 [men_at_arms|E] 포함)\n$EFFECT_LIST_BULLET$@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! [prestige|E]을 획득\n$EFFECT_LIST_BULLET$[GetGeographicalRegion('RICE_greater_qocho_region').GetName] 내 모든 [county|E]가 @development_icon! #V [EmptyScope.ScriptValue('RICE_red_sea_al_umari_aspiration_dev_bonus')]#! [development|E]를 얻음\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$[GetTitleByKey('k_khotan').GetNameNoTier]의 [ruler|E]와 [allied|E]이거나 조공국 또는 [vassal|E]로 삼거나, 해당 [title|E]을 파괴하거나 보유할 것 (보상: #V 1000#!의 $heritage_iranian_name$ 및 $heritage_turkic_name$ [special_troops|E] 획득 (일부 [men_at_arms|E] 포함))\n$EFFECT_LIST_BULLET$[GetTitleByKey('k_guiyi').GetNameNoTier]의 [ruler|E]와 [allied|E]이거나 조공국 또는 [vassal|E]로 삼거나, 해당 [title|E]을 파괴하거나 보유할 것 (보상: #V 1000#!의 $heritage_chinese_name$ [special_troops|E] 획득 (일부 [men_at_arms|E] 포함))\n$EFFECT_LIST_BULLET$$RICE_uyghur_manichean_church_decision$ [decision|E]를 내릴 것 (보상: @dynasty_prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! [dynasty_prestige|E])" # 12792766213761581009
+  RICE_manichean_historical_aspiration_action_bokut: "#italic 옛 위구르 카간국의 가장 큰 잔존 국가 지도자로서, 당신은 정력적인 경쟁자 군주들과 쇠퇴하는 마니교 교단에 직면해 있습니다. 하지만 당신은 당신 백성의 옛 정치적, 종교적, 경제적 영향력을 어느 정도 회복하려는 큰 야망을 품고 있습니다.#!$RICE_manichean_aspiration_bokut_desc$" # 12300755799829613730
+  RICE_manichean_historical_aspiration_modifier_desc_bokut: "[GetModifier('RICE_manichean_aspiration_reclaim_uyghur_power_in_qocho').GetNameWithTooltip]" # 11891344784165193285
+  RICE_manichean_aspiration_continue_lin_dengs_legacy: "[aspiration|E]: 린 덩의 유산을 계승하기" # 5318173187689334765
+  RICE_manichean_aspiration_continue_lin_dengs_legacy_desc: "#italic 진평산의 작고한 사부, 린덩은 빛의 부처 마니의 비할 바 없는 교리와 다른 이들을 돕는 다양한 종교 의식에 대해 그에게 많은 것을 가르쳤다. 린덩이 세상을 떠나면서, 진평산은 린덩의 가르침을 숙달하고, 그의 사부가 키워온 영적 공동체와 영적 계보를 유지할 의무를 지게 되었다.#!$RICE_manichean_aspiration_chen_pingshan_desc$\n\n" # 10348039537783728464
+  RICE_manichean_aspiration_reclaim_uyghur_power_in_qocho: "[aspiration|E]: 코초에서 위구르 세력 부흥시키기" # 2049136640386504272
+  RICE_manichean_aspiration_reclaim_uyghur_power_in_qocho_desc: "#italic 이전 위구르 카간국의 가장 큰 잔여 국가 지도자로서, 보쿠트는 활기찬 라이벌 통치자들과 쇠퇴하는 마니교 교회에 직면해 있지만, 그에게는 이 지역에서 자신의 백성의 이전 정치적, 종교적, 경제적 영향력의 일부를 복원하겠다는 거대한 야망이 있습니다.#!$RICE_manichean_aspiration_bokut_desc$" # 7470343424840781525
+  activity_RICE_manichean_bema_festival_host_an_a: "$host_activity_a$" # 13713790857143020716
+  activity_RICE_manichean_bema_festival: "베마 축제" # 17603435704663241829
+  activity_RICE_manichean_bema_festival_desc: "종교적 한 해의 끝에 최후의 예언자인 마니의 추종자들은 그의 고난을 기념하며, 그 후 그는 [Glossary( 'parinirvana', 'MANICHEAN_PARINIRVANA_GLOSS' )]에 들었다고 합니다. 이 베마 축제 동안 신도들은 물질의 감옥에서 빛을 해방시키기 위한 의례를 행하며, 마니 본인이 직접 내려와 사죄를 베푼다고 합니다." # 16412980514259993273
+  activity_RICE_manichean_bema_festival_selection_tooltip: "베마 축제에 참여하십시오.\n\n$activity_RICE_manichean_bema_festival_context_tooltip$" # 12269928544275428166
+  activity_RICE_manichean_bema_festival_context_tooltip: "#emphasis 역사적 배경:#! 베마 축제는 마니교도들에게 종교년의 끝을 알리는 동시에 마니교의 창시자인 마니의 순교를 기념하는 행사였습니다. 축제의 이름인 '베마'는 그리스어로 단상, 무대 또는 심판관의 좌석을 뜻하는 단어에서 유래했으며, 행사의 중심에는 마니가 내려와 신도들의 죄를 사해주리라 믿어지는 빈 왕좌가 놓였습니다." # 6441965844745722150
+  activity_RICE_manichean_bema_festival_host_desc: "\n$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$[stress_loss_i|E][stress|E] 감소\n$BULLET_WITH_TAB$#P 긍정적#! [character_modifiers|E]\n$BULLET_WITH_TAB$아주 드물게, [sinful|E] 또는 부정적 [traits|E] 잃음" # 7526489382792534625
+  activity_RICE_manichean_bema_festival_guest_desc: "$activity_RICE_manichean_bema_festival_host_desc$" # 13092917946236869052
+  activity_RICE_manichean_bema_festival_destination_selection: "$activity_RICE_manichean_bema_festival_province_desc$" # 6536088153957254598
+  activity_RICE_manichean_bema_festival_guest_help_text: "$activity_RICE_manichean_bema_festival$" # 14284453699380151313
+  activity_RICE_manichean_bema_festival_predicted_cost: "이 [activity|E]의 비용은 선택하시는 [activity_options|E]에 따라 달라집니다." # 658366464949161382
+  activity_RICE_manichean_bema_festival_conclusion_desc: "올해의 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName]가 막을 내렸고, 의롭고 진정으로 회개한 자들은 죄 사함을 받았습니다!" # 7393091747467182649
+  RICE_manichean_bema_festival_fasting_length_type: "빠른 기간" # 4787216614355401444
+  RICE_manichean_bema_festival_fasting_length_type_day: "어느 날" # 11030582103748171229
+  RICE_manichean_bema_festival_fasting_length_type_day_desc: "$BULLET_WITH_TAB$부정적 [traits|E]를 잃을 확률이 아주 낮아집니다.\n$BULLET_WITH_TAB$[health|E]에 영향을 미치는 부정적 [modifier|E]를 얻을 확률이 거의 없습니다.\n$BULLET_WITH_TAB$기본량의 [stress_loss_i|E] #V [EmptyScope.ScriptValue('miniscule_stress_impact_loss')]#! [stress|E]를 잃습니다.\n\n#weak 베마 축제 준비를 위해 하루 금식하는 것만으로도 충분하겠지. 어차피 나는 [Glossary( 'Elect', 'ELECT_GLOSS' )]가 아니니까.#!" # 2463640458737681691
+  RICE_manichean_bema_festival_fasting_length_type_week: "일주일" # 13959289460554995722
+  RICE_manichean_bema_festival_fasting_length_type_week_desc: "$BULLET_WITH_TAB$부정적 [traits|E]를 잃을 확률이 낮아집니다\n$BULLET_WITH_TAB$[health|E]에 영향을 주는 부정적 [modifier|E]를 얻을 확률이 매우 낮아집니다\n$BULLET_WITH_TAB$기본 [stress_loss_i|E]만큼의 #V [EmptyScope.ScriptValue('minor_stress_impact_loss')]#! [stress|E]를 잃습니다\n\n#weak 비록 나는 [Glossary( 'Elect', 'ELECT_GLOSS' )]의 구성원이 아니지만, 베마 축제 전에 적절히 단식하여 마니 교리에 대한 나의 헌신을 보여야 한다.#!" # 16182065875928536397
+  RICE_manichean_bema_festival_fasting_length_type_month: "월" # 1877396161793931344
+  RICE_manichean_bema_festival_fasting_length_type_month_desc: "$BULLET_WITH_TAB$부정적인 [traits|E]를 잃을 상당한 확률\n$BULLET_WITH_TAB$[health|E]에 영향을 주는 부정적인 [modifier|E]를 얻을 낮은 확률\n$BULLET_WITH_TAB$기본 [stress_loss_i|E] #V [EmptyScope.ScriptValue('medium_stress_impact_loss')]#! [stress|E]를 잃습니다.\n\n#weak 제가 [Glossary( 'Elect', 'ELECT_GLOSS' )]의 일원이 아닐지라도, 마니의 가르침을 따르는 자로서 제 의무는 베마 축제 전에 많은 금식을 행하여 빛을 해방하기 위해 제가 할 수 있는 일을 하는 것입니다!#!" # 18104146320608025385
+  RICE_manichean_bema_festival_fruit_alms_type: "과일 자선" # 403143580654289162
+  RICE_manichean_bema_festival_fruit_alms_type_small: "소박한 과일 자선" # 1285840025975400719
+  RICE_manichean_bema_festival_fruit_alms_type_small_desc: "$BULLET_WITH_TAB$기본적으로 [piety_i|E] #V [EmptyScope.ScriptValue('RICE_manichean_bema_festival_base_piety_small')]#!의 [piety|E]를 획득합니다\n$BULLET_WITH_TAB$기본적으로 [prestige_i|E] #V [EmptyScope.ScriptValue('RICE_manichean_bema_festival_base_prestige_small')]#!의 [prestige|E]를 획득합니다\n\n#weak 빛을 해방하기 위해 [Glossary( 'Elect', 'ELECT_GLOSS' )]께서 드실 적절한 양의 과일을 바치겠습니다.#!" # 4275789546136217225
+  RICE_manichean_bema_festival_fruit_alms_type_medium: "풍성한 과일 구호품" # 14125078172365757192
+  RICE_manichean_bema_festival_fruit_alms_type_medium_desc: "$BULLET_WITH_TAB$기본 [piety_i|E] #V [EmptyScope.ScriptValue('RICE_manichean_bema_festival_base_piety_medium')]#!를 얻습니다. [piety|E]\n$BULLET_WITH_TAB$기본 [prestige_i|E] #V [EmptyScope.ScriptValue('RICE_manichean_bema_festival_base_prestige_medium')]#!를 얻습니다. [prestige|E]\n\n#weak 많은 빛을 해방시킬 수 있도록, 제가 먹을 [Glossary( 'Elect', 'ELECT_GLOSS' )]들을 위해 아낌없는 과일을 제공하겠습니다.#!" # 3548753426986725085
+  RICE_manichean_bema_festival_fruit_alms_type_large: "풍족한 과일 보시" # 12500354689814961209
+  RICE_manichean_bema_festival_fruit_alms_type_large_desc: "$BULLET_WITH_TAB$기본 [piety_i|E] 수치 #V [EmptyScope.ScriptValue('RICE_manichean_bema_festival_base_piety_large')]#! 획득 [piety|E]\n$BULLET_WITH_TAB$기본 [prestige_i|E] 수치 #V [EmptyScope.ScriptValue('RICE_manichean_bema_festival_base_prestige_large')]# 획득 [prestige|E]\n\n#weak [Glossary( 'Elect', 'ELECT_GLOSS' )]들이 먹을 수 있도록 가능한 한 많은 과일을 바칠 것이다. 그렇게 함으로써 우리는 무수한 양의 빛을 해방할 것이다.#!" # 14946993033141643965
+  RICE_manichean_bema_festival_ceremony_phase: "의식" # 3878012746933025863
+  RICE_manichean_bema_festival_ceremony_phase_desc: "마니께서 우리에게 오시어, 우리가 빛을 해방할 때 우리에게 사죄를 허락하시니." # 1063044074058458368
+  RICE_manichean_bema_festival_liberation_intent_header: "정화:" # 5875181858905716875
+  RICE_manichean_bema_festival_liberation_intent: "정화:" # 18330810802070193901
+  RICE_manichean_bema_festival_liberation_intent_desc: "의식을 정확히 수행하여 빛을 해방시키는 데 집중합니다.\n기본량에 더하여 추가적인 [prestige_i|E] [prestige|E]를 얻습니다.\n귀하의 [faith|E] 소속 모든 성직자 [vassals|E]와 [courtiers|E]는 귀하에 대한 [opinion_i|E] #P +10#! [opinion|E]를 얻습니다.\n귀하가 [GetTrait('diligent').GetName( GetNullCharacter )|U]거나 [GetTrait('ambitious').GetName( GetNullCharacter )]라면 추가적인 [stress_i|E] [stress|E]를 잃습니다." # 11650051941417354300
+  RICE_manichean_bema_festival_spiritual_guidance_intent_header: "영적 인도:" # 11158369892422307498
+  RICE_manichean_bema_festival_spiritual_guidance_intent: "영적 인도:" # 13034170467502703569
+  RICE_manichean_bema_festival_spiritual_guidance_intent_desc: "[Glossary( 'Elect', 'ELECT_GLOSS' )]의 설교를 통해 배우는 데 집중합니다. [lifestyle|E] [experience|E]와 더불어 [legitimacy_i|E] [legitimacy|E]를 획득합니다. 만약 귀하가 [GetTrait('patient').GetName( GetNullCharacter )|U]이거나 [GetTrait('content').GetName( GetNullCharacter )]이라면 추가 [stress_i|E] [stress|E]가 감소합니다." # 1555964158324309186
+  RICE_manichean_bema_festival_confession_intent_header: "고해:" # 11255816135185598151
+  RICE_manichean_bema_festival_confession_intent: "고해:" # 16918075923551812686
+  RICE_manichean_bema_festival_confession_intent_desc: "죄를 회개하는 데 집중하십시오. 기본량 외에 더 많은 [piety_i|E] [piety|E]를 얻습니다. [sinful|E] 또는 부정적인 [traits|E]를 잃을 확률이 증가합니다. [GetTrait('honest').GetName( GetNullCharacter )|U]이거나 [GetTrait('humble').GetName( GetNullCharacter )]라면 추가적인 [stress_i|E] [stress|E]를 잃습니다." # 1395790633776423777
+  RICE_manichean_bema_festival_completed_log_title: "$activity_RICE_manichean_bema_festival$ 종료되었습니다" # 1141278593208564320
+  RICE_manichean_bema_festival_completed_log: "[CHARACTER.GetShortUIName|U]은(는) 올해의 $activity_RICE_manichean_bema_festival$ 참가 일정을 마쳤습니다." # 1298754935946482443
+  TRAVEL_NAME_FOR_activity_RICE_manichean_bema_festival: "[Character.GetFirstNamePossessiveNoTooltip]의 마니교 베마 축제" # 17202636926475966155
+  RICE_manichean_bema_festival_lose_sin_log_title: "효과적인 고해" # 15396233997311562649
+  RICE_manichean_bema_festival_lose_sin_log: "[CHARACTER.GetShortUIName|U]은 마니에게 진심 어린 고백을 한 후 더 나아졌습니다." # 6593367332504907144
+  RICE_manichean_fast_health_malus_effect_log_title: "금식 어려움" # 11928481242657401839
+  RICE_manichean_fast_health_malus_effect_log: "[CHARACTER.GetShortUINamePossessive|U] 몸이 금식 기간을 잘 견디지 못했습니다." # 10148921105399924703
+  RICE_manichean_uyghur_manicheism_decline: "$manichean_adj$ 교단 쇠퇴" # 10011246662772600699
+  RICE_manichean_uyghur_manicheism_decline_desc: "마니교 교회는 이 지역에서 차질을 겪었으며, 일컬어지는 성직자들의 부패는 대중적 환멸을 야기하여 교회로부터 자원을 다른 생산적인 활동으로 점차 전용하는 지역 엘리트들의 지지 부족을 초래했습니다.\n\n#EMP 해당 [doctrine|E]을 지닌 [faith|E]을 따르는 이 [county|E]의 [rulers|E]는 해당 [faith|E]을 따르고 이 [modifier|E]가 활성화된 한 주기적으로 소량의 [prestige_i|E] [prestige|E]와 [piety_i|E] [piety|E]를 #N 상실#!합니다.\n#!" # 8173049503339662091
+  RICE_manichean_persecutor_of_zindiqs: "진디크의 박해자" # 7253417768663301469
+  RICE_manichean_persecutor_of_zindiqs_desc: "이 인물이 [GetGeographicalRegion('world_mesopotamia').GetName]의 강력한 통치자로서 해당 지역의 [Glossary( 'zindiqs', 'ZINDIQ_GLOSS' )]에 대한 새로운 박해 시대를 열어, 그들의 수를 크게 줄이고 그들의 종교 지도자들을 동쪽으로 도피시켰습니다." # 12987954316726994922
+  RICE_manichean_uyghur_manicheism_empowered_elect: "강화된 선출" # 9148075820167700850
+  RICE_manichean_uyghur_manicheism_empowered_elect_desc: "[GetFaithByKey('manichean').GetAdjective] 교회는 이 지역에서 좌절을 겪었습니다. 성직자들의 부패 의혹 또한 도움이 되지 않았죠. 지역 [GetFaithByKey('manichean').GetAdjectiveNoTooltip] 귀족들은 [Glossary( 'Elect', 'ELECT_GLOSS' )]에 대한 지지를 재확인하며, 모든 부패 소문을 신성모독적인 비방이라 비난했습니다. 이는 교회의 권력과 영향력을 다시 활성화하는 데 기여했습니다.\n\n#EMP 이 [modifier|E]가 활성화되어 있는 동안, $rice_light_purification_doctrine_name$ [doctrine|E] 신앙을 따르는 이 [county|E]의 [rulers|E]는 마니교회 및 그 기관들과의 연관으로 인해 주기적으로 무작위적인 [prestige_i|E] [prestige|E] 상승을 얻습니다.\n#!" # 16744190789840617604
+  RICE_manichean_uyghur_manicheism_reformed_church: "개혁된 $manichean_adj$ 교회" # 5533744352761324057
+  RICE_manichean_uyghur_manicheism_reformed_church_desc: "[GetFaithByKey('manichean').GetAdjective] 교회는 이 지역에서 난항을 겪고 있으며, 성직자들의 부패 의혹이 사태를 더 악화시켰습니다. 지역 [GetFaithByKey('manichean').GetAdjectiveNoTooltip] 엘리트들은 [Glossary( 'Elect', 'ELECT_GLOSS' )]을(를) 개혁하는 데 큰 영향력을 행사했으며, 이를 통해 교회를 재건하고 신뢰를 회복하기를 희망하고 있습니다.\n\n#EMP 이 [county|E]의 [rulers|E] 중 $rice_light_purification_doctrine_name$ [doctrine|E]을(를) 가진 [faith|E]를 따르는 [rulers|E]은(는) 이 [modifier|E]가 활성화된 동안 마니교 교회 개혁에 관여한 덕분에 주기적으로 [piety_i|E] [piety|E]이(가) 무작위로 상승하는 효과를 받습니다.#" # 17873452238146576174
+  RICE_manichean_uyghur_decision_support_character_modifier: "$manichean_adj$ 교회를 지지함" # 428171097378999429
+  RICE_manichean_uyghur_decision_support_character_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_greater_qocho_region').GetName] 지역 내에서 일부 엘리트들 사이에서 [GetFaithByKey('manichean').GetAdjective] 교회에 대한 지지도를 높이는 데 중요한 역할을 합니다. 빛의 종교를 신실하게 따르는 일부 추종자들은 이를 환영하지만, 성직자들의 부패에 실망한 다른 이들은 이를 반대합니다.\n\n#EMP 이 [modifier|E]는 이 인물이 $rice_light_purification_doctrine_name$ [doctrine|E]를 보유하지 않은 [faith|E]로 개종하는 경우 제거됩니다.\n#!" # 1119939431284386073
+  RICE_manichean_uyghur_decision_reform_character_modifier: "$manichean_adj$ 교단 개혁자" # 4532364330326378288
+  RICE_manichean_uyghur_decision_reform_character_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_greater_qocho_region').GetName]의 [GetFaithByKey('manichean').GetAdjective] 교단 내에서 진행된 최근 개혁에서 중요한 역할을 수행합니다. 강경파들은 이를 영적 기관의 힘을 약화시키는 부당한 정치적 간섭으로 비난하지만, 다른 이들, 특히 성직자의 부패에 환멸을 느꼈던 이들은 진심으로 찬성합니다.\n#EMP 이 [modifier|E]는 이 인물이 $rice_light_purification_doctrine_name$ [doctrine|E]가 없는 [faith|E]로 개종할 경우 제거될 것입니다.\n#!" # 446106242507783148
+  RICE_manichean_uyghur_decision_abandon_character_modifier: "$manichean_adj$ 교회를 버렸다" # 9804203023210642863
+  RICE_manichean_uyghur_decision_abandon_character_modifier_desc: "이 인물은 [GetGeographicalRegion('RICE_greater_qocho_region').GetName] 지역의 주요 정치적 인물이었기에, 그의 빛의 신앙에 대한 공개적인 환멸은 현재의 종교적 신념과 상관없이 사회 각계각층에서 교회의 지지를 약화시켰습니다." # 2884017553954327548
+  RICE_manichean_lin_deng_spiritual_lineage_modifier: "린 덩의 영적 계승" # 10248190526469451436
+  RICE_manichean_lin_deng_spiritual_lineage_modifier_desc: "이 가문의 구성원들은 광명의 종교 일원이었던 현명하고 자비로운 현자, 위대한 린덩의 정통 제자 첸핑산의 후예입니다." # 8110497234460364938
+  RICE_manichean_lin_deng_blessing_1: "린 등의 축복" # 1598698193236018175
+  RICE_manichean_lin_deng_blessing_2: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_3: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_4: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_5: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_6: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_7: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_8: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_9: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_10: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_11: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_12: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_13: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_14: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_15: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_16: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_17: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_18: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_lin_deng_blessing_19: "$RICE_manichean_lin_deng_blessing_1$" # 5734650999412334501
+  RICE_manichean_supports_books: "마니교 서적의 생산 및 보존 지원" # 14944709185183174494
+  RICE_manichean_dislikes_those_who_defame_mani: "마니의 비판자들을 강경하게 증오" # 14589080440854598183
+  RICE_manichean_dislikes_those_who_defame_mani_desc: "이 인물은 빛의 예언자, 마니를 모욕하는 자들에 대해 강한 의견을 표명했습니다." # 5351022679233088716
+  RICE_manichean_patient_with_anti_manicheans: "마니 비판자들에 대한 인내" # 12724705395085749459
+  RICE_manichean_patient_with_anti_manicheans_desc: "이 인물은 빛의 예언자 마니를 모독하는 이들은 그저 잘못 인도되었을 뿐이며 본질적으로 악의적이지 않다고 믿습니다." # 4678423974170815071
+  RICE_manichean_denigrated_the_elect: "선출된 자 폄하" # 14193713589717036723
+  RICE_manichean_denigrated_the_elect_desc: "이 인물은 마니교의 [Glossary( 'Elect', 'ELECT_GLOSS' )]에 대해 빈정거리는 발언을 해온 전력이 있습니다." # 8913239620969898796
+  RICE_manichean_helping_manichean_merchants: "마니교 상인 돕기" # 2748021592288589190
+  RICE_manichean_confiscated_manichean_merchants: "마니교 상인들의 몰수된 물품" # 633936485531595704
+  RICE_manichean_understanding_towards_christians: "기독교도 관용" # 16326708014771207631
+  RICE_manichean_dislikes_christians: "기독교도에게 강하게 반대 의견을 표명함" # 8222705507704845226
+  RICE_manichean_freed_slaves: "마니교의 이름으로 해방된 노예" # 17518161725310558414
+  RICE_manichean_freed_slaves_desc: "이 인물은 다수의 노예들의 자유를 사들였고, 매니교 가르침의 권장에 따라 그들은 매니교 [Glossary( 'Elect', 'ELECT_GLOSS' )]의 보살핌에 맡겨졌습니다." # 18181235715853754322
+  RICE_manichean_careful_mingjiao: "신중한 마니의 추종자" # 3770895667989668183
+  RICE_manichean_careful_mingjiao_desc: "이 인물은 빛의 부처 마니의 추종자들이 어떠한 탄압이나 갈등 속에서도 살아남기 위해, 중화권에서 다른 신앙을 따르며 그들을 '채식주의 악마 숭배자들'이라 비난하고 중상모략하는 소위 정통 종교 당국자들의 의심을 사지 않도록 조심해야 한다고 믿습니다." # 6677215302218460889
+  RICE_manichean_protect_mingjiao: "마니교 반란자" # 17568199947783191052
+  RICE_manichean_protect_mingjiao_desc: "이 인물은, 어떤 탄압에서도 살아남기 위해, 중화 세계에서 소위 정통 종교 당국의 폭정으로부터 스스로를 방어하기 위해, 빛의 부처 마니의 추종자들이 선제적인 조치를 취해야 한다고 믿습니다." # 17816130374028500593
+  RICE_manichean_writing_manuscript: "마니교 원고 연구 중" # 2908550641766392183
+  RICE_uyghur_manichean_church_decision: "$uyghur$ [GetFaithByKey('manichean').GetNameNoTooltip]의 미래를 좌우하다" # 323519509095833993
+  RICE_uyghur_manichean_church_decision_tooltip: "마니" # 4502404034836779475
+  RICE_uyghur_manichean_church_decision_desc: "[GetFaithByKey('manichean').GetAdjective] 교회는 [GetTitleByKey('e_uyghur_khanate').GetNameNoTier]의 멸망과 중국에서의 박해 이후 쇠퇴했습니다.\n이제 많은 이들이 [Glossary( 'Elect', 'ELECT_GLOSS' )]들이 부패하고 탐욕스러워졌다고 주장합니다.\n강력한 [ROOT.Char.GetCulture.GetName] [GetFaithByKey('manichean').GetAdjectiveNoTooltip]로서, 아마도 제가 이 상황에 대해 무언가 해야 할 것입니다...." # 6338087028321790209
+  RICE_uyghur_manichean_church_decision_effect_tooltip_1: "마니" # 4502404034836779475
+  RICE_uyghur_manichean_church_decision_confirm: "우리는 영적 진리를 찾아낼 것입니다." # 16254524545853945948
+  RICE_uyghur_manichean_church_decision_context_tooltip: "#emphasis 역사적 배경:#! 위구르 카간국은 8세기 후반 지배층이 개종한 후 역사상 어느 시점에서든 마니교를 지지한 유일한 주요 세계 세력이었습니다. 따라서 기원후 840년경 카간국의 멸망은 마니교 교회에 큰 타격을 입혔습니다. 교회는 위구르의 잔존 왕국인 코초 왕국에서 한동안 계속 존속했지만, 그 지배층은 여러 가지 이유로 점차 불교로 개종했습니다. 위구르 마니교 신자들은 몽골 시대까지 존속했을 수도 있지만, 대부분의 위구르인은 11세기까지는 불교로 개종했습니다." # 9501004504375465230
+  RICE_manichean_uyghur_decision_PICK_TYPE: "$RICE_uyghur_manichean_church_decision_confirm$" # 11873930204481596685
+  RICE_manichean_uyghur_decision_select_text: "[GetFaithByKey('manichean').GetAdjective] 교회 내부의 소문난 부패에 대해 무엇을 해야 하는가?\n$select_one_of_the_available_option_step_one_top_text$" # 9011583639989944298
+  RICE_manichean_uyghur_decision_support_name: "#Bold 선출 지지#!" # 6015001988478956463
+  RICE_manichean_uyghur_decision_support_desc: "$RICE_manichean_uyghur_decision_support_name$" # 7674466389318621155
+  RICE_manichean_uyghur_decision_support_tooltip: "#italic 필요 이상으로 [Glossary( 'Elect', 'ELECT_GLOSS' )]을/를 타락했다고 비난하는 자는 $manicheanism_devil_name$의 뜻을 섬기는 것이니 – 우리는 교회가 몰락하는 것을 막기 위해 교회를 지원해야 한다!#!" # 6315109654793125619
+  RICE_manichean_uyghur_decision_reform_name: "#Bold 교회 바로잡기!#" # 16144928985083216129
+  RICE_manichean_uyghur_decision_reform_desc: "$RICE_manichean_uyghur_decision_reform_name$" # 1183412464702775003
+  RICE_manichean_uyghur_decision_reform_tooltip: "#italic 그리 오래되지 않은 옛날, 우리 선조들은 [Glossary( 'dinavariya', 'DINAVARIYA_GLOSS' )] 들은 [GetGeographicalRegion('RICE_region_mesopotamia').GetName]에 사는 우리 동포들이 너무 해이하다고 비판했습니다. 이제 너무 늦기 전에 우리들의 [Glossary( 'Elect', 'ELECT_GLOSS' )] 을(를) 개혁해야 할 차례입니다!#" # 14079935277369733038
+  RICE_manichean_uyghur_decision_abandon_name: "#bold 빛의 종교를 버리다#!" # 6237264419232272029
+  RICE_manichean_uyghur_decision_abandon_desc: "$RICE_manichean_uyghur_decision_abandon_name$" # 9210732687154730777
+  RICE_manichean_uyghur_decision_abandon_tooltip: "#italic 소위 [Glossary( 'Elect', 'ELECT_GLOSS' )]이(가) 타락하고 미덕과 영성이 부족하다면, 그것이 [GetFaithByKey('manichean').GetNameNoTooltip] 그 자체에 대해 무엇을 말해주는가? 나 또한 환멸을 느끼고 있으며, 다른 곳에서 영적 인도를 찾고 싶다....#!" # 13683169132499428388
+  RICE_manichean_uyghur_decision_abandon_effect_1: "당신의 [domain|E] 내 [county|E] 중 신봉자가 있는 다른 [faith|E]로 개종하는 이벤트를 받게 될 것입니다.\n원한다면 당장은 개종하지 않을 수도 있습니다." # 104756681503456937
+  RICE_manichean_uyghur_decision_abandon_effect_2: "[GetGeographicalRegion('RICE_greater_qocho_region').GetName]에 속한 모든 [GetFaithByKey('manichean').GetAdjective] [rulers|E] (자신을 포함하여)는 #Bold [GetFaithByKey('manichean').GetNameNoTooltip]으로부터 개종#!하는 [decision|E]에 #V 100#!년 동안 접근할 수 있게 될 것입니다." # 17426994167870569272
+  RICE_manichean_uyghur_decision_abandon_effect_3: "다른 [GetFaithByKey('manichean').GetAdjective] [rulers|E]들은 [region|E] 내에서 시간이 지남에 따라 이 [decision|E]을(를) 택할 수도 있지만, 반드시 그러는 것은 아닙니다." # 3530555964830107035
+  RICE_manichean_manuscript_decision: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 필사본 의뢰" # 5117553317572170699
+  RICE_manichean_manuscript_decision_tooltip: "마니의 가르침을 전파하기 위한 종교 서적 편찬" # 8283382965100696563
+  RICE_manichean_manuscript_decision_desc: "마니께서 저희에게 책을 중히 여기라 가르치셨습니다. 이는 오직 기록된 글을 통해서만 [ROOT.Char.GetFaith.GetAdjective] 가르침이 일관성과 진정성을 가지고 전수될 수 있기 때문입니다." # 10277620669089783812
+  RICE_manichean_manuscript_decision_effect_tooltip_1: "원고가 완성되면 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('medium_piety_gain')]#! [piety|E]를 얻습니다" # 17493808336342179982
+  RICE_manichean_manuscript_decision_effect_tooltip_2: "학습력이 최소 #V [GetPlayer.MakeScope.ScriptValue('RICE_manichean_manuscript_learning_req_value')]#! [learning_i|E] [learning|E] 이상이라면, 직접 필사본을 작성하는 선택지를 택하여 추가로 [prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('medium_prestige_gain')]#! [prestige|E]를 얻을 수 있습니다. 하지만 진행되는 동안 [GetModifier('RICE_manichean_writing_manuscript').GetNameWithTooltip] [modifier|E]를 갖게 됩니다" # 2232751974752157407
+  RICE_manichean_manuscript_decision_effect_tooltip_3: "[GetTrait('RICE_disciple_of_lin_deng').GetName( GetNullCharacter )] [trait|E]의 [trait_level_track_xp|E]를 #V [GetPlayer.MakeScope.ScriptValue('RICE_lin_deng_trait_xp_gain_value_medium')]#! 획득합니다." # 11086844562666036191
+  RICE_manichean_manuscript_decision_confirm: "마니의 가르침이 지속되기를!" # 9564927291003622768
+  RICE_manichean_manuscript_decision_context_tooltip: "#emphasis 역사적 배경:#! 마니는 이전 예언자들의 가르침이 처음에는 기록되지 않았기 때문에 시간이 지나면서 왜곡되었다고 믿었으므로, 기록된 단어의 중요성을 추종자들에게 강조했습니다. 그는 읽을 수 없는 사람들을 위해 자신의 가르침을 그림으로 그리기도 했습니다. 이 때문에 마니교 경전은 마니교도들 사이에서 존경받았을 뿐만 아니라 품질에 대한 명성을 얻었습니다. 예를 들어, 이슬람 자료에서는 심지어 적대적인 자료에서도 마니교 서적의 아름다움은 일종의 경구였습니다." # 3511805832684011867
+  RICE_manichean_manuscript_decision_select_text: "다른 예언자들과는 달리, 마니께서는 그의 가르침이 영원히 순수하고 부패하지 않은 채로 남을 수 있도록,\n우리에게 그의 말씀을 기록하도록 촉구하셨습니다." # 16997520132078403088
+  RICE_MANICHEAN_MANUSCRIPT_PICK_TYPE: "$RICE_manichean_manuscript_decision_confirm$" # 7978923632857311039
+  RICE_manichean_manuscript_seven_treatises_name: "#Bold 칠논고!#" # 18361436224832102683
+  RICE_manichean_manuscript_seven_treatises_desc: "$RICE_manichean_manuscript_seven_treatises_name$" # 7817911196963909691
+  RICE_manichean_manuscript_seven_treatises_tooltip: "#italic 마니교 경전은 마니 본인이 직접 저술한 일곱 권의 책으로 이루어져 있습니다.#!\n\n장착 시, 이 [artifact|E]는 $RICE_manichean_confession_decision$ [decision|E] 및 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E]에 대한 [gold_i|E] [gold|E] 비용을 감소시킵니다." # 17976752502280918534
+  RICE_manichean_manuscript_shabuhragan_name: "#Bold 샤부흐라간!#" # 15081837875992345719
+  RICE_manichean_manuscript_shabuhragan_desc: "$RICE_manichean_manuscript_shabuhragan_name$" # 16894581655332787143
+  RICE_manichean_manuscript_shabuhragan_tooltip: "#italic '샤푸르에게 헌정'이라는 뜻의 샤부흐라간은 마니 자신이 저술한 마니교 가르침의 요약본입니다.#!\n\n장착 시, 이 [artifact|E]는 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E]에서 추가 [prestige_i|E]의 [prestige|E]를 얻게 해 줍니다." # 7353253732678578646
+  RICE_manichean_manuscript_arzhang_name: "#Bold 아르장#!" # 11293314222482082225
+  RICE_manichean_manuscript_arzhang_desc: "$RICE_manichean_manuscript_arzhang_name$" # 3371058129233815989
+  RICE_manichean_manuscript_arzhang_tooltip: "#italic 아르장, 혹은 그림의 책은 예언자 마니께서 문맹자들을 위해 그의 심오한 가르침을 설명하고자 직접 그리신 그림 모음집입니다.#!\n\n장착 시, 이 [artifact|E]는 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E]를 개최할 때 모든 참석자로부터 추가적인 [opinion_i|E] [opinion|E]를 얻게 해줍니다." # 9938350841623001735
+  RICE_manichean_manuscript_kephalaia_name: "#bold 케팔리아이#" # 2053577816837046550
+  RICE_manichean_manuscript_kephalaia_desc: "$RICE_manichean_manuscript_kephalaia_name$" # 4422835058812233313
+  RICE_manichean_manuscript_kephalaia_tooltip: "#italic 비록 주요 마니교 정경은 아니지만, 케팔라리아는 마니의 가르침을 상세히 설명하는 문학 작품입니다. 많은 부분이 마니의 삶에 대한 기록이기도 합니다.#!\n\n\n\n장착하면, 이 [artifact|E]는 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E]에서 추가적인 [piety_i|E] [piety|E]를 얻게 해 줍니다." # 8804463128975835529
+  RICE_manichean_manuscript_hymn_book_name: "#bold 찬송가집#!" # 7217725290444446145
+  RICE_manichean_manuscript_hymn_book_desc: "$RICE_manichean_manuscript_hymn_book_name$" # 17686454295592549543
+  RICE_manichean_manuscript_hymn_book_tooltip: "#italic 다양한 마니교 찬송가가 의례 목적으로 작곡되었으며, 그중 많은 것들이 중요한 정치 및 일상 의식에 사용됩니다.#!\n\n이 [artifact|E]를 장착하면 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E] 주최 시 추가 [legitimacy_i|E] [legitimacy|E]를 얻게 됩니다." # 12868306018618532106
+  RICE_manichean_manuscript_confessional_texts_name: "#bold 고백록#!" # 3872535541713165252
+  RICE_manichean_manuscript_confessional_texts_desc: "$RICE_manichean_manuscript_confessional_texts_name$" # 3725605980716949131
+  RICE_manichean_manuscript_confessional_texts_tooltip: "#italic 어둠과 싸우기 위해 개인이 할 수 있는 가장 중요한 영적인 행동 중 하나인 죄의 고해성사를 인도할 텍스트를 갖는 것은 유용합니다.#!\n\n장착 시, 이 [artifact|E]는 $RICE_manichean_confession_decision$ [decision|E]와 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E]로부터 추가 [stress_loss_i|E] [stress|E]를 잃게 해줍니다." # 16596847101048679694
+  RICE_manichean_manuscript_parables_and_tales_name: "#Bold 우화와 설화#!" # 12200873544555600711
+  RICE_manichean_manuscript_parables_and_tales_desc: "$RICE_manichean_manuscript_parables_and_tales_name$" # 4534778831826141108
+  RICE_manichean_manuscript_parables_and_tales_tooltip: "#italic 마니의 가르침에 따라 어떻게 하면 가장 잘 살아갈 수 있는지 사람들에게 가르치고 교육하는 방법이 바로 이야기입니다.#!\n\n장착 시, 이 [artifact|E]는 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E]를 통해 추가적인 [lifestyle_experience|E]를 얻게 해줍니다." # 3463241291168524105
+  RICE_manichean_manuscript_other_religions_texts_name: "#Bold 다른 종교의 경전!#" # 2981737825365471915
+  RICE_manichean_manuscript_other_religions_texts_desc: "$RICE_manichean_manuscript_other_religions_texts_name$" # 1344391702814532689
+  RICE_manichean_manuscript_other_religions_texts_tooltip: "#italic 마니는 자신의 추종자들에게 다른 신앙의 계시된 경전을 수집하여 마니의 위대한 지혜에 적용하고 추가하는 것을 의무 중 하나로 삼았다고 말했습니다.#!\n\n장착 시, 이 [artifact|E]는 마니의 가르침을 따르는 [faiths|E]의 필사본 제작 의뢰 [decision|E]에 드는 [gold_i|E] [gold|E] 비용을 감소시킵니다." # 17192610988268248730
+  RICE_manichean_confession_decision: "주간 고해성사 수행" # 5350532372008365117
+  RICE_manichean_confession_decision_tooltip: "주간 죄 고백은 귀하의 [faith|E]에서 중요한 관행입니다." # 16668427988437705597
+  RICE_manichean_confession_decision_desc: "스스로를 정화하기 위해, [ROOT.Char.GetFaith.GetAdherentNamePlural]로서 우리의 죄를 자주 고해하는 것이 중요합니다. [Glossary( 'Elect', 'ELECT_GLOSS' )]에 속하지 않은 이들은 적어도 매주 한 번 이것을 행해야 합니다." # 4231945779409967244
+  RICE_manichean_confession_decision_effect_tooltip_1: "#V [GetPlayer.MakeScope.ScriptValue('RICE_manichean_confession_lose_sin_chance')]%#!의 확률로 #N 부정적인#! 혹은 #N 죄악의#! [trait|E]를 잃고, [piety_level|E]와 [traits|E]에 따라 #P 긍정적인#! [trait|E]를 얻습니다." # 14215940229322465989
+  RICE_manichean_confession_decision_effect_tooltip_2: "[piety_level|E]에 따라 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_manichean_confession_piety_gain_min')|0]#! [piety|E]부터 [piety_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_manichean_confession_piety_gain_max')|0]#! [piety|E]까지의 무작위 [piety|E]을 얻습니다" # 2176974842666316011
+  RICE_manichean_confession_decision_confirm: "우리 죄가 빛을 막는도다!" # 16050066191403621928
+  RICE_manichean_confession_decision_context_tooltip: "#emphasis 역사적 배경:#!\n마니교 신자들의 중요한 의무 중 하나는 주간 의식이었습니다. 이때 평신도와 성직자는 함께 모여 죄를 고해하고 고도로 의례화된 방식으로 속죄해야 했습니다. 이러한 주간 모임이 일요일에 열렸는지 월요일에 열렸는지에 대해서는 기록마다 차이가 있으나, 고해성사 중에 일어나는 일에 대해 지역별로 차이가 있었을 가능성이 높습니다. 예를 들어 중앙 아시아와 중국 마니교의 고해성사 의식은 불교의 영향을 받았을 수도 있습니다." # 3792884368474589872
+  RICE_manichean_confession_lose_sin_effect_tooltip: "$RICE_manichean_confession_decision_effect_tooltip_1$" # 10043879772553659365
+  RICE_manichean_lin_deng_decision: "림 등 숭배" # 7657370703689246662
+  RICE_manichean_lin_deng_decision_tooltip: "린 등" # 13069146687773081986
+  RICE_manichean_lin_deng_decision_desc: "위대한 술사 린 덩은 심오한 가르침과 의식을 우리에게 전수한 비견할 데 없는 영웅입니다. 그리하여 우리는 그의 죽음 이후에도 그의 영혼이 우리를 축복하고 보호하도록 그를 정기적으로 숭배합니다." # 2041385046160215146
+  RICE_manichean_lin_deng_decision_effect_tooltip_1: "당신은 #V [GetPlayer.MakeScope.ScriptValue('RICE_manichean_lin_deng_decision_modifier_chance')]%#! 확률로 유용한 #P 긍정적#! [modifiers|E]를 획득할 수 있으며, 그 확률은 당신의 [piety_level|E], [traits|E], 그리고 [learning_i|E] [learning|E]에 따라 달라집니다." # 14294935882891111096
+  RICE_manichean_lin_deng_decision_confirm: "그분께서 저희를 보호하시고 인도하시옵소서!" # 95645064481207088
+  RICE_manichean_lin_deng_decision_context_tooltip: "#emphasis 역사적 배경:#! 역사적으로 동남 중국의 복건(푸젠) 지역에 마니교가 16세기 후반까지 생존했던 것은 상당 부분 1059년 사망할 때까지 복건에서 활동했던 마니교 지도자 린덩(林登) 덕분입니다. 린덩의 마법 능력은 전설적이었으며, 그는 오늘날까지도 현지인들에게 숭배받고 있습니다. 한 전설에 따르면 그가 죽은 후 도시에 불이 났을 때, 사람들이 하늘에서 하얀 예복을 입은 남자가 철선(쇠부채)으로 불을 끄는 것을 보았다고 합니다. 그는 아래에 있는 현지인들에게 자신이 다름 아닌 린덩이라고 말했습니다. 오늘날 린덩의 제자 천핑산(陳平山)의 후손인 복건의 현지 사제이자 의례가인 첸페이상(陳培相)은 명확한 마니교 기원을 지닌 필사본을 소유하고 있으며, 이는 마니교 연구자들에게 결정적인 역할을 해왔습니다." # 8863211478725317903
+  RICE_gnostic_alms_decision: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] [ROOT.Char.GetFaith.PriestNeuterPlural]에게 자선을 베풀다" # 5180849284112879420
+  RICE_gnostic_alms_decision_mandaean: "지드카 수행" # 13384004648243418692
+  RICE_gnostic_alms_decision_manichean: "선택받은 자들에게 자선 베풀기" # 7166448155728992250
+  RICE_gnostic_alms_decision_tooltip: "지식을 지니고 신의 구원을 위해 기도하는 성직자들은 가능한 모든 방식으로 지원받아야 합니다." # 9306869631315832262
+  RICE_gnostic_alms_decision_desc: "[ROOT.Char.GetFaith.GetName]의 계율은 우리에게 가르치노라, 신성한 구원을 위해 기도하고 의식을 행하고자 자신들의 지식을 사용하여 밤낮으로 힘쓰는 우리의 성직자들에게 구휼품을 나누어 주라고." # 10876783997758394475
+  RICE_gnostic_alms_decision_effect_tooltip_1: "이 [decision|E]의 [gold_i|E] [gold|E] 비용은 귀하의 [faith|E]의 [counties|E]를 얼마나 많이 소유하고 있는지에 따라 달라집니다." # 15890356838051232017
+  RICE_gnostic_alms_decision_confirm: "그들은 우리의 도움을 받을 만하다!" # 10125411912237479037
+  RICE_gnostic_alms_decision_context_tooltip: "#emphasis 역사적 배경:#! 성직자에게 자선을 베푸는 것은 소위 영지주의 신앙을 포함한 여러 신앙에서 중요한 부분입니다. 이는 일부 영지주의 종교에서 성직자들이 다양한 종류의 일반적인 일에 종사하는 것이 권장되지 않거나 금지되었기 때문에 특히 중요했습니다. 예를 들어 마니교는 성직자 계급인 선택된 자들이 음식을 수확하고 빵을 굽는 것을 포함한 여러 가지 다른 일을 금지했습니다." # 1286959823098685069
+  RICE_persecute_manicheans_in_mesopotamia: "[GetGeographicalRegion('world_mesopotamia').GetNameNoTooltip]에서 진디크 박해" # 8524348276323795876
+  RICE_persecute_manicheans_in_mesopotamia_tooltip: "[GetGeographicalRegion('world_mesopotamia').GetName]의 [Glossary( 'zindiqs', 'ZINDIQ_GLOSS' )]는 위험한 무리입니다!" # 6895075303695992296
+  RICE_persecute_manicheans_in_mesopotamia_desc: "[GetGeographicalRegion('world_mesopotamia').GetName]에서 거짓 선지자 마니를 믿는 [Glossary( 'zindiqs', 'ZINDIQ_GLOSS' )]들은 너무 오랫동안 묵인되어 왔습니다. 그들은 다시는 다른 사람들을 기만하고 그들의 거짓말과 역겹고 섬뜩한 관습으로 우리의 사회를 파괴할 수 없도록 철저히 억압되어야 합니다." # 16665605071564875253
+  RICE_persecute_manicheans_in_mesopotamia_effect_tooltip_1: "xxxxx" # 15292533088765523909
+  RICE_persecute_manicheans_in_mesopotamia_confirm: "이 피에 굶주린 이단자들에게 수천 번의 저주를!" # 18284949823784108130
+  RICE_persecute_manicheans_in_mesopotamia_context_tooltip: "#emphasis 역사적 배경:#! 마니교는 소수 종교로서 전 세계 여러 곳에서 역사적으로 수많은 박해를 받았습니다. 아바스 시대 동안 마니교도들은 다른 종교 신봉자들에게 의심의 눈초리를 받았습니다. 예를 들어, 그들은 점술 의식에서 희생자의 머리를 사용하는 인신공양을 행했다고 여겨졌습니다. 마니교의 발상지인 메소포타미아에서 마지막 대규모 박해는 알무크타디르 재위 기간(서기 908-932년)에 일어났으며, 이때 교회 수장인 아르케고스를 포함한 마니교 공동체의 잔존 세력은 동쪽으로 도망쳐 사마르칸트로 향했습니다." # 13174279975643367387
+  RICE_revive_manicheism_in_mesopotamia: "[GetGeographicalRegion('world_mesopotamia').GetNameNoTooltip]에서 마니의 가르침을 부활시키십시오" # 3776418862643458475
+  RICE_revive_manicheism_in_mesopotamia_tooltip: "[GetGeographicalRegion('world_mesopotamia').GetName]은 우리 예언자 마니의 고향이니, 어둠으로부터 해방되어야만 합니다." # 9675108779476185862
+  RICE_revive_manicheism_in_mesopotamia_desc: "[GetGeographicalRegion('world_mesopotamia').GetName]는 우리 예언자 마니의 고향이었습니다.\n수세기에 걸쳐, 이 유서 깊은 땅은 어둠의 영향에 휩싸였고, 그를 따르는 자들은 그곳에서 박해받았습니다.\n두 강 사이의 땅은 마니의 가르침으로 다시 밝혀져야 합니다!" # 9669438896546064570
+  RICE_revive_manicheism_in_mesopotamia_effect_tooltip_1: "[GetFaithByKey('manichean').GetAdjective] [head_of_faith|E]는 이미 거기에 있지 않다면 [GetTitleByKey('c_kufa').GetNameNoTier]으로 돌아갑니다." # 14257086895801365018
+  RICE_revive_manicheism_in_mesopotamia_effect_tooltip_2: "[GetFaithByKey('manichean').GetAdjective] [head_of_faith|E]은 현재 [holder|E]이 없다면 재건됩니다." # 10466538137914843724
+  RICE_revive_manicheism_in_mesopotamia_effect_tooltip_3: "마니교도가 아닌 [rulers|E]는 $RICE_persecute_manicheans_in_mesopotamia$ [decision|E]를 내릴 수 없습니다." # 12530247962494730566
+  RICE_revive_manicheism_in_mesopotamia_confirm: "빛을 위하여! 마니를 위하여!" # 6912790361713287508
+  RICE_revive_manicheism_in_mesopotamia_context_tooltip: "$RICE_persecute_manicheans_in_mesopotamia_context_tooltip$" # 1532880930681866300
+  RICE_manichean_convert_away_decision: "[ROOT.Char.GetFaith.GetNameNoTooltip]에서 개종" # 4270423754069809247
+  RICE_manichean_convert_away_decision_tooltip: "어쩌면 다른 [faiths|E]가 더 좋을 수도 있겠군...." # 13205467728963874198
+  RICE_manichean_convert_away_decision_desc: "오랜 세월 동안, [GetTitleByKey('e_uyghur_khanate').GetNameNoTier]의 후계자들은 마니 선지자의 가르침에 매달려왔습니다. 그러나 [ROOT.Char.GetFaith.GetAdjective] 교회 내의 부패 혐의와 그 쇠락은 일부 사람들을 빛의 종교에서 멀어지게 만들고 있습니다..." # 6517703594464108797
+  RICE_manichean_convert_away_decision_effect_tooltip_1: "당신은 [GetPlayer.GetFaith.GetName]에서 당신이 선택한 [faith|E]로 개종합니다" # 9839464625414448944
+  RICE_manichean_convert_away_decision_confirm: "우리 새로운 신앙을 찾아봅시다!" # 776255061398384944
+  RICE_manichean_convert_away_decision_context_tooltip: "$RICE_uyghur_manichean_church_decision_context_tooltip$" # 9725304309358188538
+  RICE_ADOPT_NEW_UYGHUR_FAITH_PICK_ACTION_TYPE: "$RICE_manichean_convert_away_decision_confirm$" # 2080467355451788731
+  RICE_manichean_convert_to_nangchos_name: "[GetFaithByKey('lamaism').GetName]" # 11524319460922365152
+  RICE_manichean_convert_to_nangchos_desc: "[GetFaithByKey('lamaism').GetNameNoTooltip]" # 1553333024799797202
+  RICE_manichean_convert_to_nangchos_tooltip: "[GetGeographicalRegion('world_tibet').GetName]에서 온 [GetFaithByKey('lamaism').GetAdjective] 수도승들을 비단길을 따라서는 드물지 않게 볼 수 있습니다. 그들이 [GetReligionByKey('buddhism_religion').GetAdjective] 다르마를 설교하는 방식은 [GetFaithByKey('manichean').GetName]에서 우리가 익숙한 것과 완전히 다르지는 않으며, 그들은 모든 중생을 구원하는 것에 대해 이야기합니다... 하지만 그들의 말이 더 이치에 맞는 것일까요?" # 13121046045866889340
+  RICE_manichean_convert_to_mahayana_name: "[GetFaithByKey('mahayana').GetName]" # 11133408013248348124
+  RICE_manichean_convert_to_mahayana_desc: "[GetFaithByKey('mahayana').GetNameNoTooltip]" # 6452220549192997194
+  RICE_manichean_convert_to_mahayana_tooltip: "[GetReligionByKey('buddhism_religion').GetName]의 [GetFaithByKey('mahayana').GetName] 종파는 비단길 전역에서 성행하며, 그 포교하는 수도승들은 예전 [GetFaithByKey('manichean').GetName] 포교사들을 연상시킵니다. 그들이 일체 중생의 구원에 대해 설교하는 것을 보면, 더 많은 절제력과 덕이 있는지도 모르겠습니다만... 과연 그들의 말을 진정으로 믿을 수 있을까요?" # 9696944713737898406
+  RICE_manichean_convert_to_vajrayana_name: "금강승" # 6635884936435067064
+  RICE_manichean_convert_to_vajrayana_desc: "[GetFaithByKey('vajrayana').GetNameNoTooltip]" # 6071235381685669132
+  RICE_manichean_convert_to_vajrayana_tooltip: "[GetReligionByKey('buddhism_religion').GetName]의 [GetFaithByKey('vajrayana').GetName] 종파 의식은 깨달음을 가져다줄 뿐만 아니라, [GetFaithByKey('manichean').GetName]의 다채롭고 활기 넘치는 의식도 떠올리게 한다. 열반과 모든 중생을 돕는 것에 대한 이야기는 어쩌면 더 매력적일지도 모른다... 하지만 그것이 진실로 여겨지기에 충분할까?" # 1236244752999787329
+  RICE_manichean_convert_to_zhengyi_name: "[GetFaithByKey('zhengyi').GetName]" # 15242731379245553867
+  RICE_manichean_convert_to_zhengyi_desc: "정일도" # 10968910924442306639
+  RICE_manichean_convert_to_zhengyi_tooltip: "중원에는 중국 예언자 노자가 사실 빛의 예언자 마니였다고 주장하는 이들이 있습니다.\n과거에는 [GetFaithByKey('manichean').GetAdjective] 선교사들이 이리 주장했지만, 지금은 그 반대였으리라 생각하는 이들도 있습니다.\n그렇다면 [GetFaithByKey('zhengyi').GetName]로 개종하는 것이 과연 그리 큰 도약일까요?" # 8252788410359072299
+  RICE_manichean_convert_to_nestorian_name: "네스토리우스파" # 16898562356523810907
+  RICE_manichean_convert_to_nestorian_desc: "[GetFaithByKey('nestorian').GetNameNoTooltip]" # 7528773339128403878
+  RICE_manichean_convert_to_nestorian_tooltip: "[GetFaithByKey('nestorian').GetName] 교회는 중앙아시아, 심지어 유목민들에게까지 퍼져나갔습니다. [GetFaithByKey('manichean').GetName]의 중요한 교리는 마니가 예수의 사도이며, [GetReligionByKey('christianity_religion').GetAdherentNamePlural]은 타락한 가르침을 따르는 이단이라는 것입니다.\n\n하지만 그 반대라면 어떨까요?" # 389108607351137556
+  RICE_manichean_convert_to_maturidi_name: "[GetFaithByKey('maturidi').GetName]" # 5648966459109796115
+  RICE_manichean_convert_to_maturidi_desc: "[GetFaithByKey('maturidi').GetNameNoTooltip]" # 14040613506075460700
+  RICE_manichean_convert_to_maturidi_tooltip: "[GetReligionByKey('islam_religion').GetName]의 부흥은 세계사를 영원히 바꾸었습니다. 그 신봉자들이 이야기하는 정의와 자선은 매혹적이며, 그뿐만 아니라 그들은 그 교리가 이전에 타락한 가르침을 부활시킨 것이라고 주장하는 예언자를 믿습니다. 과연 그들이 진정으로 타락하지 않은 구원의 메시지를 가지고 있는 것일까요?" # 327046629748388095
+  RICE_manichean_convert_to_khurmazta_name: "[GetFaithByKey('khurmazta').GetName]" # 3761067629123984479
+  RICE_manichean_convert_to_khurmazta_desc: "쿠르마즈타" # 16110099145300800492
+  RICE_manichean_convert_to_khurmazta_tooltip: "수세기 동안, [GetFaithByKey('manichean').GetAdjective] 공동체와 [GetReligionByKey('zoroastrianism_religion').GetAdjective] 공동체가 나란히 살아왔으며, 우리는 실크로드 전역에서 [GetFaithByKey('khurmazta').GetName]의 형태로 발견되는 후자의 지역적 변형에 익숙합니다. 어쩌면 진실은 이 모든 시간 동안 우리 가운데 숨겨져 있었던 걸까요?" # 7337735507489004981
+  RICE_manichean_recruit_ming_cultists: "명교 광신도 모집" # 1229767446492773952
+  RICE_manichean_recruit_ming_cultists_tooltip: "xxxxx" # 1951045980481827005
+  RICE_manichean_recruit_ming_cultists_desc: "[ROOT.Char.GetCulture.GetName]의 [ROOT.Char.GetFaith.GetName] 신도들은 형제자매와 같으며, 수 세대 동안 악의 세력에 의해 억압받아 왔습니다. 우리는 단결하여 함께 무기를 들고, 세상을 타락하고 탐욕스러운 자들로부터 지켜내야 합니다!" # 9405229327549242774
+  RICE_manichean_recruit_ming_cultists_effect_tooltip_1: "이 [decision|E]을(를) 수행하는 데 드는 [gold_i|E] [gold|E]와 [piety_i|E] [piety|E] 비용은 귀하의 [diplomacy_i|E] [diplomacy|E] 및 [learning_i|E] [learning|E]에 각각 기반합니다." # 213325815909401635
+  RICE_manichean_recruit_ming_cultists_effect_tooltip_2: "이 [decision|E]의 재사용 대기시간은 귀하의 [stewardship_i|E] [stewardship|E]에 기반합니다." # 17411921186904581150
+  RICE_manichean_recruit_ming_cultists_effect_tooltip_3: "귀하의 [martial|E] [martial|E] 및 [intrigue|E] [intrigue|E]에 따라 #V [GetPlayer.MakeScope.ScriptValue('RICE_manichean_recruit_ming_cultists_levies_amount')]#! [levies|E]을(를) 얻게 됩니다." # 10252302788158434842
+  RICE_manichean_recruit_ming_cultists_effect_tooltip_4: "기본 #V 300#! [men_at_arms|E]를 얻습니다, 그리고 다음 [traits|E] 각각에 대해 추가 #V 100#! [men_at_arms|E] (무작위 유형)를 얻습니다:\n$EFFECT_LIST_BULLET$[GetTrait('lifestyle_mystic').GetName( GetNullCharacter )|U]\n$EFFECT_LIST_BULLET$[GetTrait('lifestyle_herbalist').GetName( GetNullCharacter )|U]\n$EFFECT_LIST_BULLET$[GetTrait('lifestyle_physician').GetName( GetNullCharacter )|U]\n$EFFECT_LIST_BULLET$[GetTrait('scholar').GetName( GetNullCharacter )|U]\n$EFFECT_LIST_BULLET$[GetTrait('peasant_leader').GetName( GetNullCharacter )|U]\n$EFFECT_LIST_BULLET$[GetTrait('heresiarch').GetName( GetNullCharacter )|U]" # 12409079367143667155
+  RICE_manichean_recruit_ming_cultists_confirm: "사람들을 고통에서 구원하고, 악을 없애라!" # 17273815993275608327
+  RICE_manichean_recruit_ming_cultists_context_tooltip: "#emphasis 역사적 배경:#! 중세 시대 중국 공식 자료에서는 이단 반란 집단 다수를 ‘채식주의 귀신 숭배’ 마니교도로 규정하며 고정관념을 씌웠으나, 이는 중국 마니교가 다른 마니교 공동체에 비해 더 무력적인 성격을 띠었다는 점에서 어느 정도 진실이 있습니다. 아마도 정부의 거듭되는 탄압으로부터 자신들을 보호하기 위해서였을 것입니다. 예를 들어, 많은 마니교도들이 무술에 능했다고 전해지며, 중국 마니교 공동체들은 여러 농민 반란에 연루되었을 가능성이 높습니다. 사실, 중국 마니교는 무협(무술 역사 판타지) 장르 최고의 작가 중 한 명인 김용이 쓴 #italic 무협#! 소설에 등장하는 가상의 무술 유파인 명교의 큰 영감이 되었습니다." # 15934313311471100456
+  manichean.0000.t: "xxxxx" # 1951045980481827005
+  manichean.0000.desc: "xxxxx" # 1951045980481827005
+  manichean.0000.a: "xxxxx" # 1951045980481827005
+  manichean.0001.t: "마니의 가르침이 [GetGeographicalRegion('RICE_region_mesopotamia').GetNameNoTooltip]으로 돌아왔습니다" # 726775364666894864
+  manichean.0001.desc: "메시아 예수의 사도이자 빛의 예언자인 마니는 [GetGeographicalRegion('RICE_region_mesopotamia').GetName]에서 태어나 그곳에서 교리를 전파하기 시작했는데, 그 교리는 모든 다른 종교의 집대성일 뿐만 아니라 심오함과 진리 면에서 그들을 능가한다고 일컬어집니다.\n\n최근 들어, 마니의 제자들은 연이은 역경을 겪어왔으며, 다른 종교 신봉자들로부터 억압, 차별, 폭력에 직면했습니다. 특히 그의 고향에서 더욱 그러했습니다.\n\n하지만 [manichean_reviver.GetTitledFirstName] 덕분에 상황이 바뀌고 있습니다. 그는 [manichean_reviver.GetFaith.GetName]의 강력한 후원자로, [GetGeographicalRegion('RICE_region_mesopotamia').GetNameNoTooltip]의 상당 부분을 통치하며 그 지역에서 마니의 가르침 부흥을 이끌었습니다.\n\n마침내, 빛의 종교 신봉자들은 그들이 그토록 오랫동안 갈망하고 기도해왔던 평화와 자유를 독실하고 자비로운 통치자 아래에서 누리게 되었습니다. 비옥한 초승달 지대의 도시들은 이제 수많은 아름다운 [manichean_reviver.GetFaith.GetAdjectiveNoTooltip] 사본, 그림, 예술품을 생산하고 있습니다. 그곳 주민들은 예언자 마니와 [manichean_reviver.GetFaith.HighGodName]의 영광을 기리는 찬송가를 부릅니다. 그리고 그곳에 사는 [Glossary( 'Elect', 'ELECT_GLOSS' )]는 어둠과 물질의 세력에 맞선 성전에서 빛을 해방하기 위해 완벽하고 덕스러운 삶을 살기 위해 밤낮으로 지칠 줄 모르고 노력합니다." # 539230533183734683
+  manichean.0001.a: "이것은 마니교 역사의 새로운 장입니다." # 2902482115377660479
+  manichean.0002.t: "수도원주의 문제" # 9977930291077482197
+  manichean.0002.desc: "우리의 최근 마니 교회를 본향인 [GetGeographicalRegion('RICE_region_mesopotamia').GetName]에서 부흥시킨 성공은, 이제 많은 [manichean_reviver.GetFaith.GetAdjective] [Glossary( 'Elect', 'ELECT_GLOSS' )] 사이에서 흔해진 #bold 수도주의#! 관행에 대한 의문을 제기했습니다.\n\n어떤 이들은 수도주의의 필요성을 재고하기 시작했으며, 이는 교회가 다른 종교, 특히 [GetReligionByKey('buddhism_religion').GetName]으로부터 잘못되게 받아들인 관행이라고 주장합니다. 마니께서 가르치신 것처럼, 우리가 진정한 가르침을 전파하기 위해 다른 신앙의 사상을 차용한다고 해서 #italic 모든 것#!을 받아들여야 하는 것은 아니라는 것입니다.\n\n다른 이들은 수도 생활이 우리 교회에 나중에 도입되었든 아니든 관계없이, 이는 좋은 관습이라고 주장합니다. 왜냐하면 선민을 악한 어둠의 세상으로부터 고립시켜 빛의 해방이라는 영적 활동에 도움을 주기 때문입니다." # 15830164743509123890
+  manichean.0002.a: "수도원주의를 폐지할 필요는 없습니다." # 13437790957266459947
+  manichean.0002.a.tooltip: "[GetFaithDoctrine('tenet_monasticism').GetBaseName] [doctrine|E]는 대체되지 않을 것입니다." # 8739912540543834425
+  manichean.0002.b: "네, 이 기회를 포착하여 [manichean_reviver.GetFaith.GetNameNoTooltip]을/를 개혁하도록 합시다." # 18134077092030900786
+  manichean.0002.b.tooltip: "[Glossary( 'Elect', 'ELECT_GLOSS' )]의 영향력 있는 구성원들의 제안에 따라, [manichean_reviver.GetFaith.GetNameNoTooltip]은 이 새로운 [doctrine|E]을(를) 채택해야 한다." # 14293378791903123904
+  manichean.0003.t: "xxxxx" # 1951045980481827005
+  manichean.0003.desc: "xxxxx" # 1951045980481827005
+  manichean.0003.a: "xxxxx" # 1951045980481827005
+  manichean.0004.t: "[GetFaithByKey('manichean').GetNameNoTooltip]의 한 시대의 끝" # 1830271803101430252
+  manichean.0004.desc: "좋지 않은 소식이 세계 곳곳에 흩어진 [GetFaithByKey('manichean').GetAdjective] 공동체 전체에 퍼지고 있습니다: [persecutor.GetTitledFirstName]가 중동에서 [GetFaithByKey('manichean').GetAdherentNamePluralNoTooltip]에 대한 새로운 박해 시대를 불러왔습니다. 이전 통치자들에 의한 박해도 예언자 마니 그 자신이 살았던 시대로 거슬러 올라갈 만큼 있었지만, 이번에는 다릅니다.\n\n탄압이 너무 심각해서 [archegos.GetTitledFirstName], [GetFaithByKey('manichean').GetAdjectiveNoTooltip] 교회의 지도자조차 [GetFaithByKey('manichean').GetNameNoTooltip]의 전통적인 중심지이자 고향인 [GetGeographicalRegion('RICE_region_mesopotamia').GetName]가 더 이상 빛을 숭배하는 자들에게 안전하지 않다고 믿고 있습니다.\n\n[archegos.GetSheHe]는 물러나 [persecutor.GetFaith.GetName]으로 개종하라는 압력을 받았으나, [archegos.GetFirstNameNoTooltip] 대신 일부 충실한 신도들과 함께 실크로드를 따라 동쪽으로, 중국을 향해 도망쳤습니다. 그곳에는 아직 옛 [GetFaithByKey('manichean').GetAdjectiveNoTooltip] 공동체가 남아있습니다. 그 결과 [county.GetNameNoTier]에 [GetTitleByKey('d_manichean').GetNameNoTier]의 새로운 본거지를 재건했습니다.\n\n위기에서 위기로 고통받아온 [GetFaithByKey('manichean').GetNameNoTooltip]가 이번 위기에서도 살아남을 수 있을지는 오직 시간이 말해줄 것입니다." # 8384086097664757178
+  manichean.0004.a: "[ROOT.Char.GetFaith.DevilName]의 세력이 더욱 강성해지고 있습니다!" # 5643281270492252350
+  manichean.0004.b: "[GetTitleByKey('d_manichean').GetNameNoTierNoTooltip]는 장차 다시 피난해야 할까요?" # 12906769545450920043
+  manichean.0004.tooltip: "[GetTitleByKey('d_manichean').GetNameNoTierNoTooltip]께서 [GetTitleByKey('c_kufa').GetNameNoTier]에서 [GetTitleByKey('c_samarkand').GetNameNoTier]으로 본거지를 옮겼습니다." # 4296179192983523998
+  manichean.0005.t: "xxxxx" # 1951045980481827005
+  manichean.0005.desc: "xxxxx" # 1951045980481827005
+  manichean.0005.a: "xxxxx" # 1951045980481827005
+  manichean.0006.t: "마니의 인장석" # 5964658320690586418
+  manichean.0006.desc: "몇 년 전, [GetGeographicalRegion('RICE_region_mesopotamia').GetNameNoTooltip]에 있던 우리 종교의 적들이 마니의 추종자들에게 강요하여 그의 유물을 훼손하고 파괴하게 만들었습니다. 우리는 그 유물들이 모두 역사 속으로 사라졌다고 생각했습니다.\n\n하지만 하나를 제외하고는 모두 사라진 듯합니다.\n\n처음에는 믿을 수 없었지만, 제가 통치하는 영토의 경건한 [ROOT.Char.GetFaith.GetAdherentNamePlural]에 의해 어찌 된 영문인지 #bold 마니의 봉인석#!이 회수되었고, 제 왕국의 [Glossary( 'Elect', 'ELECT_GLOSS' )] 중 가장 현명하고 박식한 이들에 의해 그 진위가 확인되었습니다.\n\n그 유물은 아마도 마니의 마지막이자 유일하게 살아남은 유물일 것이며, 다시는 소실되거나 파괴될 위협을 받지 않도록 제 보호 아래 놓였습니다. – 이 봉인석이 한때 예수의 사도 본인이 사용했던 것이라니 놀랍습니다!" # 4332726227034253078
+  manichean.0006.a: "빛이 점점 더 밝아지고 있습니다." # 14426824525174642691
+  manichean.0007.t: "$manichean.0006.t$" # 4855475005201689533
+  manichean.0007.desc: "빛의 예언자이자 마니교 교회의 창시자인 마니의 추종자라 스스로 여기는 이들에게 고무적인 소식이 전 세계로 퍼지고 있습니다.\n\n#bold 마니의 인장석#!이 회수되어, [discoverer.GetFaith.GetAdjective] 교리의 추종자인 [discoverer.GetTitledFirstName]의 직접적인 보호 아래 놓였습니다. 그 진위성은 [discoverer.GetFaith.GetAdjectiveNoTooltip] [Glossary( 'Elect', 'ELECT_GLOSS' )]에 의해 확인되었으며, 다른 성유물들이 고대에 벌어진 신앙 박해로 파괴되었기 때문에, 이 인장석은 아마도 예언자 마니의 마지막 남은 성유물일 가능성이 높기에, 전 세계의 마니교 신자들은 크게 기뻐하고 있습니다." # 15253509447862590805
+  manichean.0007.a: "마니의 추종자들에게 참으로 경사스러운 일입니다." # 4628072348354656760
+  manichean.0008.t: "xxxxx" # 1951045980481827005
+  manichean.0008.desc: "xxxxx" # 1951045980481827005
+  manichean.0008.a: "xxxxx" # 1951045980481827005
+  manichean.0009.t: "xxxxx" # 1951045980481827005
+  manichean.0009.desc: "xxxxx" # 1951045980481827005
+  manichean.0009.a: "xxxxx" # 1951045980481827005
+  RICE_uyghur_manichean_decision_intro: "한때 빛의 종교의 강력한 수호자였던 [GetTitleByKey('e_uyghur_khanate').GetNameNoTier]가 무너지고, 전 세계 다른 국가들에서 박해가 자행된 이후로, 마니의 교회는 최근 큰 고통을 겪었습니다. 설상가상으로, [Glossary( 'Elect', 'ELECT_GLOSS' )]들이 타락하여 사치스러운 생활을 영위하며 마니의 가르침을 무시하고 있다는 비난이 일고 있습니다.\n\n[GetGeographicalRegion('RICE_greater_qocho_region').GetName]에서 마니의 교회가 겪고 있는 이 심화되는 위기에 대응하여, 그곳의 강력한 통치자인 [uyghur_leader.GetTitledFirstName]는" # 9630934077882613041
+  RICE_uyghur_manichean_decision_conclusion: "\n\n이것이 진정한 열정과 미덕에서 비롯되었든, 정치적 편의에서 비롯되었든, 아니면 둘 다이든 간에, [uyghur_leader.GetFirstNamePossessive] 치세는 빛의 종교 역사에 있어 분수령이 될 순간입니다. 오직 시간만이 [uyghur_leader.GetHerHis] 행동과 그 지역의 다른 신도 및 비신도들의 행동이 마니의 종교 궤적에 어떤 영향을 미칠지 말해줄 것입니다." # 13674352898852609346
+  manichean.0010.t: "마니교 교회 지원 재개" # 14357319020378892872
+  manichean.0010.desc: "$RICE_uyghur_manichean_decision_intro$[uyghur_leader.GetCulture.GetName] [uyghur_leader.GetFaith.GetAdjective] 기관에 대한 지원을 강화하기 위한 캠페인을 벌였습니다. 재정적 지원부터 더 큰 정치적 영향력을 부여하는 것에 이르기까지 다양한 수단을 동원했습니다. [uyghur_leader.GetSheHe|U] 또한 [Glossary( 'Elect', 'ELECT_GLOSS' )]가 부패했다는 거짓 주장으로 그들을 폄하하는 자들은 빛을 파괴하려 드는 [uyghur_leader.GetFaith.DevilName]의 하인과 다를 바 없다고 선포했습니다.$RICE_uyghur_manichean_decision_conclusion$" # 18031668373512464222
+  manichean.0010.a: "[uyghur_leader.GetCulture.GetCollectiveNounNoTooltip]의 땅에는 격동의 시기가 도래했습니다...." # 1972871183579678689
+  manichean.0011.t: "마니 교회 내 필수적인 개혁" # 4433292072774265011
+  manichean.0011.desc: "$RICE_uyghur_manichean_decision_intro$[uyghur_leader.GetCulture.GetName] [uyghur_leader.GetFaith.GetAdjective] 제도를 다양한 수단을 통해 개혁하는 운동에 착수했습니다. [uyghur_leader.GetSheHe|U]는 일부 [Glossary( 'Elect', 'ELECT_GLOSS' )]들의 부패와 탐욕에 대한 비난을 분명히 진지하게 받아들이고 있지만, 그들이 더 나은 방향으로 변화할 수 있다고 믿습니다. 확실히, 일부 [Glossary( 'Elect', 'ELECT_GLOSS' )]들은 그들이 정치적 간섭이라고 여기는 것에 불만을 가지고 있지만, 다른 독실한 [uyghur_leader.GetFaith.GetAdherentNamePluralNoTooltip]들은 교회를 활성화하기 위한 이러한 매우 필요한 개혁들을 환영하고 있습니다.$RICE_uyghur_manichean_decision_conclusion$" # 2920447459285049168
+  manichean.0011.a: "$manichean.0010.a$" # 2177517739909690624
+  manichean.0012.t: "마니교를 버림" # 9785316538736467984
+  manichean.0012.desc: "$RICE_uyghur_manichean_decision_intro$[uyghur_leader.GetSheHe]는 [uyghur_leader.GetCulture.GetName] [uyghur_leader.GetFaith.GetAdjective] 제도와 [uyghur_leader.GetSheHe]가 믿기에 마니 교회의 부패와 탐욕에 대해 불만을 품고 있으며, 실망한 것 아니냐는 소문까지 돌고 있음을 매우 공개적으로 드러냈습니다. [Glossary( 'Elect', 'ELECT_GLOSS' )]에 대한 지지도는 폭락했으며, [uyghur_leader.GetFirstNameNoTooltip]가 다른 종교 신봉자들을 후원하려 하고, [uyghur_leader.GetFaith.GetAdjectiveNoTooltip] 재산과 영지를 다른 용도로 전용하려 한다는 소문이 돌고 있습니다.$RICE_uyghur_manichean_decision_conclusion$" # 2130317231310855192
+  manichean.0012.a: "$manichean.0010.a$" # 2177517739909690624
+  manichean.0013.t: "[ROOT.Char.GetCulture.GetNameNoTooltip] [ROOT.Char.GetFaith.GetNameNoTooltip]에 대한 환멸" # 8764950758365097845
+  manichean.0013.desc: "나는 공개적으로, 또한 만천하에 [ROOT.Char.GetCulture.GetName] [ROOT.Char.GetFaith.GetAdjective] 기관들에 대한 불만을 표출했고 환멸을 느꼈습니다. 이는 놀랄 것 없이 내 영역 안에서 상당한 논란을 불러왔습니다.\n\n내 영토에서 발견되는 [new_faith.GetName]은 최근 들어 내게 흥미를 불러일으켰습니다. 그 신앙의 추종자들은 강직하고 칭찬할 만해 보이며, 이는 내가 믿기에 [ROOT.Char.GetFaith.GetName] 내에서 너무 흔해진 부패와는 거리가 멉니다.\n\n하지만 자신의 신앙에 싫증을 느끼는 것과 도약하여 새로운 교리를 받아들이는 것은 별개의 문제입니다." # 18131772616815450106
+  manichean.0013.desc.chaplain: "저의 [chaplain.GetCouncilTitle]인 [chaplain.GetTitledFirstName]이 제가 [ROOT.Char.GetCulture.GetNameNoTooltip] [ROOT.Char.GetFaith.GetNameNoTooltip]에 대한 모든 지원을 중단하려 한다는 소문을 듣고 제게 재고해 달라고 간청했습니다." # 3683849962817015492
+  manichean.0013.a: "결정했노라: [new_faith.GetName]이야말로 진정한 종교이니라!" # 11254832385082082450
+  manichean.0013.b: "환멸을 느낍니다만, 개종하기에는 너무 부담스럽습니다." # 9673512396080631656
+  manichean.0013.b.tooltip: "당장 개종하지 않더라도, 향후 #V 100#!년 동안 그렇게 할 수 있는 [decision|E]를 계속 이용할 수 있습니다." # 1673888860974424959
+  manichean.0014.t: "잔존국의 왕" # 3819665573198367510
+  manichean.0014.desc: "[GetTitleByKey('e_uyghur_khanate').GetNameNoTier]는 한때 강대한 중국, 티베트, 아랍 제국들과 나란히 세계의 위대한 강국 중 하나로서, 그리고 [GetFaithByKey('manichean').GetAdjective] 교회의 수호자로서 위용을 떨쳤습니다. 만약 우리 조상들께서 우리의 현 상태를 보신다면 통곡하실 것입니다!\n\n제국이 붕괴된 후, 우리는 사방으로 흩어졌습니다. [ROOT.Char.GetCulture.GetCollectiveNoun]의 한 갈래는 [GetTitleByKey('c_kara_khoja').GetNameNoTierNoTooltip] 주변 지역으로 도피하여, 제가 다스리는 카간국의 잔여 국가를 세웠습니다. 이곳에서 우리 [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]는 단합을 위해 애써왔으나, 우리는 분열되어 있으며, 특히 [GetTitleByKey('k_guiyi').GetNameNoTier]를 비롯한 많은 적들을 마주하고 있으며, 우리가 오랫동안 지원해 온 [GetFaithByKey('manichean').GetAdjectiveNoTooltip] 교회조차 부패와 영적 무능함에 대한 비난에 시달리고 있습니다.\n\n하지만 지금은 위대한 기회의 시간입니다. 왜냐하면 우리 [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]만이 고난을 겪는 것이 아니기 때문입니다. 우리의 경쟁자들 또한 그들의 고난을 겪고 있으며, 심지어 영적인 위기조차 중요한 종교적 변화를 위한 자극제가 될 수 있습니다." # 12038412940950940568
+  manichean.0014.a: "무슨 일이 있어도, 내 백성을 이끌고 전진하는 데 최선을 다할 것이다!" # 13638140863063097533
+  manichean.0014.info: "#emphasis 역사적 배경:#! 840년경에 부상한 키르기즈에게 위구르 카간국이 패배한 후, 위구르의 잔존 세력은 이 지역에 흩어졌습니다. 위구르 잔존 국가들 중 가장 강력했던 것은 고창국으로, 중가르 분지와 북부 타림 분지를 중심으로 했습니다. 9세기 수십 년 동안, 고창국은 귀의군의 중국 통치자들(명목상 당나라의 일부)과 이 지역의 패권을 놓고 경쟁했으며, 양측은 여러 차례 서로 공격했습니다." # 10846134847154120818
+  manichean.0015.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
+  manichean.0015.desc: "[GetTitleByKey('e_uyghur_khanate').GetNameNoTier]는(은) 한때 스텝 지역을 지배했습니다. 강대한 중국, 티베트, 아랍 제국조차 우리 선조들을 동등하게 대해야 했습니다. 제국의 붕괴는 우리 민족에게 큰 타격이었고, 우리는 사방으로 흩어졌습니다.\n\n옛 제국이 진정으로 복원되었다고 주장할 수는 없습니다. 적어도 옛 방식 그대로는 말입니다. 그러나 저는 외교, 전쟁, 종교 기관의 지원 등을 통해 [ROOT.Char.GetCulture.GetCollectiveNoun]을(를) 위한 [GetGeographicalRegion('RICE_greater_qocho_region').GetName]를(을) 통합했습니다.\n\n[ROOT.Char.GetPrimaryTitle.GetName]은(는) 옛 칸국의 잔존 국가가 아니라, 그 자체로 강력한 왕국입니다. 새로운 본거지가 세워졌으니, 우리는 다시 한번 다른 강력한 왕국들과 동등하게 어깨를 나란히 할 수 있습니다." # 5205557185425230110
+  manichean.0015.a: "우리의 미래는 의심할 여지 없이 밝으리라." # 1047334118064271171
+  manichean.0016.t: "새로운 신앙" # 11084713187360779318
+  manichean.0016.desc: "마니 교회는 [GetGeographicalRegion('RICE_former_uyghur_influence_region').GetName]에서 크게 쇠퇴했습니다. 강력한 후원자들의 부재와, 외지에서의 계속되는 탄압, 그리고 [Glossary( 'Elect', 'ELECT_GLOSS' )] 계층 내부에 만연한 부패, 탐욕, 사치스러운 생활 방식에 대한 수많은 비난 때문입니다.\n\n점점 더 많은 사회 엘리트 구성원들이 [ROOT.Char.GetCulture.GetName] [ROOT.Char.GetFaith.GetAdjective] 기관에 대한 지지를 철회하거나 전적으로 거부함에 따라, 저 또한 그들의 선례를 따르기로 결정했습니다.\n\n이제 저는 더욱 매력적인 교리를 가진 [new_faith.GetName]으로 향했습니다. 제 영역에도 이미 그 신봉자들이 있었으며, 제가 마니의 거짓 가르침이 아닌 그들과 함께 서 있다는 사실에 기뻐하고 있습니다. 우리 모두 [new_faith.HighGodName]께 헌신하며, 더 덕스럽고 고무적인 [new_faith.GetAdjectiveNoTooltip] [new_faith.PriestNeuterPlural]들을 지지합시다!" # 3971649406005970056
+  manichean.0016.a: "[new_faith.HighGodNameAlternate]께 영광 있으라!" # 15370728206496154553
+  manichean.0017.t: "xxxxx" # 1951045980481827005
+  manichean.0017.desc: "xxxxx" # 1951045980481827005
+  manichean.0017.a: "xxxxx" # 1951045980481827005
+  manichean.0017.title: "마니 교회 지원" # 2267695423581844693
+  manichean.0017.tooltip: "[Glossary( 'Elect', 'ELECT_GLOSS' )]에 대한 귀하의 지속적인 지지는 귀하에게 좋은 평가를 가져다 줍니다." # 5048861929161139816
+  manichean.0018.t: "xxxxx" # 1951045980481827005
+  manichean.0018.desc: "xxxxx" # 1951045980481827005
+  manichean.0018.a: "xxxxx" # 1951045980481827005
+  manichean.0018.title: "마니 교회 개혁" # 16350146597799618354
+  manichean.0018.tooltip: "[Glossary( 'Elect', 'ELECT_GLOSS' )] 내에서 개혁을 장려하려는 그대의 노력은 그대에게 좋은 영향을 줍니다." # 18223062110100959207
+  manichean.0019.t: "xxxxx" # 1951045980481827005
+  manichean.0019.desc: "xxxxx" # 1951045980481827005
+  manichean.0019.a: "xxxxx" # 1951045980481827005
+  manichean.0019.title: "마니 교회의 쇠퇴" # 14517994105182922185
+  manichean.0019.tooltip: "명목상일지라도, 부패했다는 의혹을 받는 [Glossary( 'Elect', 'ELECT_GLOSS' )]에 대한 귀하의 지지는 일부를 귀하의 지도력에 대해 회의적으로 만들었습니다." # 16655410887160290289
+  manichean.0020.t: "인류를 고통에서 구원하십시오, 악을 제거하십시오" # 15182212947216048034
+  manichean.0020.desc: "[ROOT.Char.GetFaith.GetName]는 우리에게 진정한 교리를 보존하고, 선행을 베풀며, 악을 제거하는 것이라 가르칩니다. 가엾게도, 내 세계의 백성들이여! 그들은 참으로 많은 고난을 겪고 있소!\n\n부패하고 탐욕스러우며 강대한 자들이 여전히 수많은 존재들에게 고통을 만들어내고 있는데, 어찌 그러한 것들을 이룰 수 있단 말인가? 수 세기에 걸쳐 우리의 움직임이 많은 이들에게 억압받아 왔는데, 어찌 억압받는 자들을 돕기 위한 영웅적인 위업을 달성할 수 있단 말인가?\n\n[GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetNameNoTier]에서 나는 빛의 종교를 믿거나 우리의 가르침에 흥미를 느끼는, 농민과 학자들부터 군인, 장인, 수도승 등 수많은 뜻을 같이하는 추종자들을 모집하는 데 성공했소. 형제자매로서 공통의 대의로 하나 되어, 그들은 세상의 고통과 악으로부터 세상을 구원하기 위해 나를 따르겠다고 맹세했소." # 10532858444774035747
+  manichean.0020.a: "더 밝은 미래를 향하여!" # 6136898849310996406
+  manichean.0021.t: "주간 고해" # 1866154020627458976
+  manichean.0021.desc: "[ROOT.Char.GetFaith.GetName]의 가장 중요한 교리 중 하나는 매주 월요일의 주간 고해 의식입니다. 죄는 빛 —그리고 우리의 영혼—이 어둠의 세계인 이 물질 세계로부터 구원받는 것을 지연시키므로, 더 많은 빛을 해방하기 위해 예언자 마니께서는 우리에게 고해 의식을 가르치셨습니다.\n\n이번 주에는 이전보다 더 이 의식에 집중해야겠다는 영감을 받았습니다. [Glossary( 'Elect', 'ELECT_GLOSS' )]께서 저와 다른 [Glossary( 'hearers', 'HEARER_GLOSS' )]로부터 고해를 듣기 위해 모였습니다.\n\n우리는 최근의 행위를 되돌아보며 선과 악을 구분하고, 더 나은 사람이 되도록 자신을 단련하라고 촉구하는 매우 정형화된 전례와 찬가를 낭송합니다. 그리고 죄가 적을수록, 더 많은 빛을 해방할 수 있습니다." # 3288079809452101396
+  manichean.0021.a: "우리 영혼들 – 그리고 모든 빛 – 은 어둠으로부터 해방될 것이다!" # 6225096799647306678
+  manichean.0022.t: "xxxxx" # 1951045980481827005
+  manichean.0022.desc: "xxxxx" # 1951045980481827005
+  manichean.0022.a: "xxxxx" # 1951045980481827005
+  manichean.0023.t: "xxxxx" # 1951045980481827005
+  manichean.0023.desc: "xxxxx" # 1951045980481827005
+  manichean.0023.a: "xxxxx" # 1951045980481827005
+  manichean.0024.t: "xxxxx" # 1951045980481827005
+  manichean.0024.desc: "xxxxx" # 1951045980481827005
+  manichean.0024.a: "xxxxx" # 1951045980481827005
+  manichean.0025.t: "xxxxx" # 1951045980481827005
+  manichean.0025.desc: "xxxxx" # 1951045980481827005
+  manichean.0025.a: "xxxxx" # 1951045980481827005
+  manichean.0026.t: "xxxxx" # 1951045980481827005
+  manichean.0026.desc: "xxxxx" # 1951045980481827005
+  manichean.0026.a: "xxxxx" # 1951045980481827005
+  manichean.0027.t: "xxxxx" # 1951045980481827005
+  manichean.0027.desc: "xxxxx" # 1951045980481827005
+  manichean.0027.a: "xxxxx" # 1951045980481827005
+  manichean.0028.t: "xxxxx" # 1951045980481827005
+  manichean.0028.desc: "xxxxx" # 1951045980481827005
+  manichean.0028.a: "xxxxx" # 1951045980481827005
+  manichean.0029.t: "xxxxx" # 1951045980481827005
+  manichean.0029.desc: "xxxxx" # 1951045980481827005
+  manichean.0029.a: "xxxxx" # 1951045980481827005
+  manichean.0030.t: "금식이 시작됩니다" # 14538167473580992819
+  manichean.0030.desc: "#italic 베마#! 축제가 곧 다가옵니다. [ROOT.Char.GetFaith.GetName]의 가장 중요한 축제입니다. 이때는 우리가 예수의 사도이신 마니의 순교를 기억하는 때입니다. 그분은 우리가 고백하는 죄를 사하시기 위해 영적인 모습으로 우리에게 오실 것입니다. 우리가 이 어둡고 물질적인 세상에서 빛을 해방함과 동시에 말입니다.\n\n하지만 베마 축제 전에, 저와 같은 [Glossary( 'hearers', 'HEARER_GLOSS' )]들은 준비로서 반드시 금식을 해야 합니다. 우리는 물질 속에 갇힌 빛의 속박을 지속시키는 것을 피할 것입니다. 예를 들어 음식을 먹는 것 (특히 채식이 아닌 것), 취하게 하는 것을 섭취하는 것, 그리고 성적인 행위를 하는 것을 말입니다." # 8029300120614787827
+  manichean.0030.a: "축제가 시작되기 전에 우리는 우리 자신을 #italic 정화할 것입니다#!." # 15630516066341511200
+  manichean.0031.t: "함께 모임" # 3189378394724534912
+  manichean.0031.desc: "#italic 베마#! 축제를 위해 준비 기간 동안의 금식을 마쳤습니다. 이제 몸을 정화했으니 행사를 제대로 시작할 수 있습니다.\n\n우리는 모두 중앙 홀로 줄지어 들어가 [Glossary( 'Elect', 'ELECT_GLOSS' )]와 함께 모입니다. 홀 끝에는 우리 예언자 마니의 초상화만 놓인 빈 왕좌가 있습니다. 이곳에서 그가 영적으로 강림하여 참회 후 우리의 죄를 사해주실 것입니다." # 5268126059635482938
+  manichean.0031.a: "모두 모였으니, 이제 시작합시다." # 937096180418886000
+  manichean.0031.a.toast: "금식 기간이 당신의 건강을 악화시켰습니다" # 15127879505564863649
+  manichean.0032.t: "고해" # 14095364123674535130
+  manichean.0032.desc.intro: "처음에는 단순하게 시작됩니다. [Glossary( 'Elect', 'ELECT_GLOSS' )] 중 한 명의 기도가 맥박처럼 울려 퍼집니다. 그러다 갑자기, 방 안의 모든 [Glossary( 'Elect', 'ELECT_GLOSS' )]와 [Glossary( 'hearers', 'HEARER_GLOSS' )]들이 하나둘씩 목소리를 보태기 시작합니다.\n\n우리는 함께 모여 신앙의 성가를 부릅니다. 우리는 함께 모여 마니의 [Glossary( 'parinirvana', 'MANICHEAN_PARINIRVANA_GLOSS' )]를 기억하며 슬픔에 잠겨 눈물 흘립니다. 우리는 함께 모여 기쁨에 잠겨 눈물 흘립니다. 우리의 죄를 고백하면, 저 높은 곳의 빛으로부터 마니가 내려와 우리의 죄를 사하시기 때문입니다.\n\n잠시 동안, 나를 둘러싼 것은 오직 빛, 순수, 권능, 지혜의 소리뿐입니다. 그리고 마니의 초상화 외에는 비어 있는 #italic 베마#! 옥좌의 환영이 보입니다." # 17333764783386147494
+  manichean.0032.desc.change: "\n\n성스러움과 정신적 순수함 외에는 아무것도 없으니, 나의 죄를 되돌아보고 죄가 나를 떠나감을 느끼는도다… 나는 변모한 [ROOT.Char.GetWomanMan]이다!" # 14606793622799043932
+  manichean.0032.a: "참으로 영광스러운, 아니, 기적적인 경험입니다!" # 3802714406453697288
+  manichean.0033.t: "선택된 자" # 16903642948917832761
+  manichean.0033.desc: "참회 의식의 압도적인 감정, 소리, 환상이 지난 후, 우리는 #italic 베마#! 축제의 다음 부분으로 넘어갑니다.\n\n한 해 내내 [Glossary( 'Elect', 'ELECT_GLOSS' )]들은 채식을 유지합니다. 식물을 섭취함으로써, 이 성스러운 인물들은 가장 많은 빛을 천상으로 되돌려 보내고, 물질 세계에서 빛을 해방시킬 수 있기 때문입니다.\n\n#italic 베마#! 축제는 아마도 이를 위한 가장 중요한 기회일 것입니다. 그리고 [Glossary( 'Elect', 'ELECT_GLOSS' )]들은 빛과 우리의 영혼의 구원을 위해 기도하면서, 우리가 그들을 위해 딴 식물을 고귀하게 먹습니다.\n\n이어서 [Glossary( 'Elect', 'ELECT_GLOSS' )]들은 마니의 심오한 가르침을 설파하고 다가올 한 해 동안 우리의 선행을 계속하도록 촉구하는 다양한 설교를 합니다." # 11079664497055811389
+  manichean.0033.a: "어둠으로부터 빛이 해방되게 하소서." # 7056038883114536228
+  manichean.0034.t: "결론" # 3822412533199628403
+  manichean.0034.desc: "마침내 올해의 #italic 베마#! 축제가 끝이 났습니다. 마니께서 우리가 고백한 죄에서 우리를 사하여 주러 오셨으니, 점점 더 많은 빛이 해방되어 천상으로 돌아갔습니다.\n이처럼 강력하고, 위대하며, 강렬한 의식은 일 년에 한 번만 일어나지만, 다음 기회를 위해 우리는 준비할 것입니다.\n그때까지 우리는 빛을 해방시키기 위해 미덕의 행위를 실천하는 데 최선을 다해야 하며, 우리가 할 수 있는 모든 곳에서 어둠을 경멸해야 합니다." # 6066761371290984969
+  manichean.0034.a: "우리는 마니, 지고의 광명자의 진리를 찬양합니다!" # 4019270434310897612
+  manichean.0035.t: "xxxxx" # 1951045980481827005
+  manichean.0035.desc: "xxxxx" # 1951045980481827005
+  manichean.0035.a: "xxxxx" # 1951045980481827005
+  manichean.0036.t: "xxxxx" # 1951045980481827005
+  manichean.0036.desc: "xxxxx" # 1951045980481827005
+  manichean.0036.a: "xxxxx" # 1951045980481827005
+  manichean.0037.t: "xxxxx" # 1951045980481827005
+  manichean.0037.desc: "xxxxx" # 1951045980481827005
+  manichean.0037.a: "xxxxx" # 1951045980481827005
+  manichean.0038.t: "xxxxx" # 1951045980481827005
+  manichean.0038.desc: "xxxxx" # 1951045980481827005
+  manichean.0038.a: "xxxxx" # 1951045980481827005
+  manichean.0039.t: "xxxxx" # 1951045980481827005
+  manichean.0039.desc: "xxxxx" # 1951045980481827005
+  manichean.0039.a: "xxxxx" # 1951045980481827005
+  manichean.0040.t: "xxxxx" # 1951045980481827005
+  manichean.0040.desc: "xxxxx" # 1951045980481827005
+  manichean.0040.a: "xxxxx" # 1951045980481827005
+  manichean.0041.t: "xxxxx" # 1951045980481827005
+  manichean.0041.desc: "xxxxx" # 1951045980481827005
+  manichean.0041.a: "xxxxx" # 1951045980481827005
+  manichean.0042.t: "xxxxx" # 1951045980481827005
+  manichean.0042.desc: "xxxxx" # 1951045980481827005
+  manichean.0042.a: "xxxxx" # 1951045980481827005
+  manichean.0043.t: "xxxxx" # 1951045980481827005
+  manichean.0043.desc: "xxxxx" # 1951045980481827005
+  manichean.0043.a: "xxxxx" # 1951045980481827005
+  manichean.0044.t: "xxxxx" # 1951045980481827005
+  manichean.0044.desc: "xxxxx" # 1951045980481827005
+  manichean.0044.a: "xxxxx" # 1951045980481827005
+  manichean.0045.t: "xxxxx" # 1951045980481827005
+  manichean.0045.desc: "xxxxx" # 1951045980481827005
+  manichean.0045.a: "xxxxx" # 1951045980481827005
+  manichean.0046.t: "xxxxx" # 1951045980481827005
+  manichean.0046.desc: "xxxxx" # 1951045980481827005
+  manichean.0046.a: "xxxxx" # 1951045980481827005
+  manichean.0047.t: "xxxxx" # 1951045980481827005
+  manichean.0047.desc: "xxxxx" # 1951045980481827005
+  manichean.0047.a: "xxxxx" # 1951045980481827005
+  manichean.0048.t: "xxxxx" # 1951045980481827005
+  manichean.0048.desc: "xxxxx" # 1951045980481827005
+  manichean.0048.a: "xxxxx" # 1951045980481827005
+  manichean.0049.t: "xxxxx" # 1951045980481827005
+  manichean.0049.desc: "xxxxx" # 1951045980481827005
+  manichean.0049.a: "xxxxx" # 1951045980481827005
+  manichean.0050.t: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 필사본 발주" # 13522208905699137954
+  manichean.0050.desc: "예언자 마니께서 가르치셨듯이, 책은 참된 종교를 보존하는 데 중요합니다. 다른 예언자들의 교리는 생애가 끝난 후 기록되어 왜곡되었으나, 마니께서는 현명하셨기에 그 가르침을 보존하기 위해 그분의 말씀, 그리고 가르침과 일치하는 모든 말씀을 우리가 할 수 있는 한 최대한 기록하도록 촉구하셨습니다.\n\n저는 [ROOT.Char.GetCulture.GetName]의 우화와 이야기 책을 편찬하고 싶습니다. 이러한 대중적인 이야기는 [ROOT.Char.GetFaith.GetName]의 가르침을 신자들에게 가르치는 강력한 방법입니다.\n\n저는 다른 이, 특히 [Glossary( 'Elect', 'ELECT_GLOSS' )]의 구성원에게 이 일을 부탁할 수도 있습니다... 아니면 제가 직접 할 수도 있습니다. #italic 만약#! 제가 집필에 충분한 재능이 있다면 말입니다. 결국 책은 성스러운 것이기에, 마니의 심오한 가르침을 상세히 설명하는 성스러운 서적을 집필하는 것 자체가 숭배 행위입니다." # 9521704117541653036
+  manichean.0050.a: "이 필사본 작업에 서기들을 고용하겠습니다." # 3041191273682573331
+  manichean.0050.b: "저는 이 필사본을 직접 만들 수 있습니다!" # 1919385360660986396
+  manichean.0050.tooltip: "원고 완성까지는 1년까지 소요될 수 있으나, 어쩌면 더 빨리 끝낼 수도 있습니다." # 6556370235708988043
+  manichean.0051.t: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 필사본" # 13525904644484366567
+  manichean.0051.desc.self: "수많은 날과 주에 걸친 끝없는 고생 끝에, 나는 빛의 예언자 마니의 심오한 가르침을 섬기고자 [ROOT.Char.GetCulture.GetName] 예술 양식이 혼합된 [ROOT.Char.GetFaith.GetAdjective] 사본 작업을 마쳤다.\n\n완성된 사본이 세상에서 가장 아름답지는 않을지라도, 마니께서 우리에게 가르치셨듯이, 가능한 모든 방법을 통하여 그분의 비할 데 없는 가르침을 세상 사람들에게 전파하는 것은 그 자체로 고결한 행위이다.\n\n특히 이 사본은" # 13808589170888547807
+  manichean.0051.desc.other: "여러 날과 주간의 노고 끝에, 제가 의뢰한 [ROOT.Char.GetFaith.GetAdjective] 사본 작업에 참여한 서기들이 작업물을 완성했습니다. 이는 [ROOT.Char.GetCulture.GetName]의 예술 양식이 가미된 것으로, 빛의 예언자 마니의 심오한 가르침을 위한 것입니다.\n\n모든 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 사본이 그렇듯, 그 아름다움은 우리 학자들의 기량, 우리 장인들의 미학, 그리고 우리 신념의 진실을 증명합니다.\n\n이 사본은 특히" # 15993072076108024298
+  manichean.0051.desc: "#bold 일곱 경전# 중 하나로, [ROOT.Char.GetFaith.GetNameNoTooltip] 신앙의 중요한 정경입니다. 이 전서들에는 마니 교회를 세상 끝까지 이끌 현명한 가르침이 담겨 있습니다." # 17683765199521081249
+  manichean.0051.a: "이 사본이 마니의 가르침을 퍼뜨리는 데 도움이 되기를 바랍니다." # 13543561890113051567
+  manichean.0052.desc: "#bold 샤푸라간#!는 마니가 사산조 샤한샤 샤푸르 1세에게 제공했던 자신의 가르침을 요약한 것입니다. 이는 우리 신앙의 중요한 교리들을 소개하거나 상기시키기에 훌륭한 텍스트입니다." # 7571782562195670818
+  manichean.0053.desc: "#bold 아르장#!, 즉 그림의 서 — 마니 친히 그린 그림을 베껴 그리는 것은 그의 글을 쓰는 것보다 더 어려울 수 있으나, 문맹의 대중들에게 그의 가르침을 전파하려면 이는 필수적인 작업입니다!" # 15920255282209775834
+  manichean.0054.desc: "#bold 케팔라이아#!, 마니의 가르침을 해설하는 경전들의 모음집입니다. 종종 마니의 삶의 예시를 들며 설명합니다. 이러한 이야기들은 우리의 신념에 대해 가르칠 뿐만 아니라, 이야기이자 문학 작품으로서도 가치를 지닙니다." # 11397055881353987875
+  manichean.0055.desc: "#bold 찬송가집#은 종교적이든 정치적이든, 혹은 더 일상적인 것이든 다양한 의식에서 부를 찬송가를 담고 있는 책입니다. 그것들이 우리의 일상적인 의식에 늘 함께하는 것은 우리에게 마니의 가르침을 기억하도록 도와줍니다." # 6329116790787603618
+  manichean.0056.desc: "#bold 고해 문서#!로, 이는 죄를 고백하는 과정을 안내하며, 우리 종교의 중요한 수행입니다. 마니께서 우리에게 가르치셨듯, 이것은 빛을 해방하는 중요한 방법 중 하나입니다." # 1005363553570630629
+  manichean.0057.desc: "다양한 [ROOT.Char.GetCulture.GetNameNoTooltip] #bold 비유와 이야기#!, 마니의 가르침에 따라 이야기되는. 이 흥미로운 이야기들을 통하여, 마니가 우리에게 가르친 것을 더 잘 이해할 수 있기를 바랍니다." # 7080299772697694435
+  manichean.0058.desc: "성스러운 #bold [other_faith.GetAdjective] 경전#!의 수정본입니다. 마니께서는 저희가 다른 신앙에 대해 배우는 것을 막지 않으셨습니다. 사실, 그는 다른 종교 경전 속에 숨겨진 그의 진리를 발견하고 이를 올바르게 재해석하라고 저희를 격려하셨습니다." # 5461908235147561509
+  manichean.0059.t: "취소된 원고" # 9099605890820465270
+  manichean.0059.desc: "얼마 전, 선지자라 자칭하는 마니의 가르침을 전파할 목적으로 필사본 제작을 의뢰했습니다.\n\n저는 이제 [ROOT.Char.GetFaith.GetName]을(를) 믿게 되었으며, 이른바 빛의 종교의 그릇된 교리를 따르지 않습니다. 따라서 저는 이 필사본의 제작을 중단시켰습니다." # 8343998568218775568
+  manichean.0059.a: "새롭고 더 나은 신앙의 길을 찾았소." # 6949430210259781327
+  manichean.0060.t: "xxxxx" # 1951045980481827005
+  manichean.0060.desc: "xxxxx" # 1951045980481827005
+  manichean.0060.a: "xxxxx" # 1951045980481827005
+  manichean.0061.t: "xxxxx" # 1951045980481827005
+  manichean.0061.desc: "xxxxx" # 1951045980481827005
+  manichean.0061.a: "xxxxx" # 1951045980481827005
+  manichean.0062.t: "xxxxx" # 1951045980481827005
+  manichean.0062.desc: "xxxxx" # 1951045980481827005
+  manichean.0062.a: "xxxxx" # 1951045980481827005
+  manichean.0063.t: "xxxxx" # 1951045980481827005
+  manichean.0063.desc: "xxxxx" # 1951045980481827005
+  manichean.0063.a: "xxxxx" # 1951045980481827005
+  manichean.0064.t: "xxxxx" # 1951045980481827005
+  manichean.0064.desc: "xxxxx" # 1951045980481827005
+  manichean.0064.a: "xxxxx" # 1951045980481827005
+  manichean.0065.t: "xxxxx" # 1951045980481827005
+  manichean.0065.desc: "xxxxx" # 1951045980481827005
+  manichean.0065.a: "xxxxx" # 1951045980481827005
+  manichean.0066.t: "xxxxx" # 1951045980481827005
+  manichean.0066.desc: "xxxxx" # 1951045980481827005
+  manichean.0066.a: "xxxxx" # 1951045980481827005
+  manichean.0067.t: "xxxxx" # 1951045980481827005
+  manichean.0067.desc: "xxxxx" # 1951045980481827005
+  manichean.0067.a: "xxxxx" # 1951045980481827005
+  manichean.0068.t: "xxxxx" # 1951045980481827005
+  manichean.0068.desc: "xxxxx" # 1951045980481827005
+  manichean.0068.a: "xxxxx" # 1951045980481827005
+  manichean.0069.t: "xxxxx" # 1951045980481827005
+  manichean.0069.desc: "xxxxx" # 1951045980481827005
+  manichean.0069.a: "xxxxx" # 1951045980481827005
+  manichean.0070.t: "독서 애호" # 13538731053322669410
+  manichean.0070.desc: "[ROOT.Char.GetFaith.GetName]는 서적에 대한 깊은 존경심에 뿌리내린 종교입니다. 어쨌든, 우리의 예언자 마니께서는 그의 가르침을 충실히 기록하는 방법으로 기록된 말씀을 높이 평가하셨는데, 이는 이전의 예언자들이 그들의 교리가 후대 추종자들에 의해 왜곡되고 오해받기 전에 실패했던 바입니다.\n\n우리를 경멸하는 이교도들조차 종종 마지못해 우리 서적의 아름다움과 그것들을 보존하려는 우리의 헌신을 칭찬합니다!\n\n최근 이에 대해 되돌아보았습니다. 제가 [Glossary( 'Elect', 'ELECT_GLOSS' )]가 서적을 만들고 보존하려는 그들의 노력에 충분히 지원했는가? 아마도 그렇지 않은 듯합니다. 아마도 그러한 노력에 더 많은 자원을 쏟아야 할 것입니다." # 15952179536022932553
+  manichean.0070.a: "저는 [ROOT.Char.GetTitleAsNameNoTooltip]으로서 이미 충분한 일을 하고 있습니다." # 749365705851502515
+  manichean.0070.b: "책 살 돈을 좀 더 떼어두자, 그래." # 13469272613624215967
+  manichean.0070.info: "#emphasis 역사적 배경:#! 마니교도들은 서책을 매우 깊이 숭상했습니다. 마니가 자신의 가르침을 후대를 위해 기록하는 수단으로서 기록된 글자에 얼마나 큰 중요성을 부여했는지를 고려할 때 당연한 일이었습니다. 마니는 이전 예언자들이 그러지 못했고, 이는 그들의 종교가 타락하는 결과를 낳았다고 주장했습니다. 심지어 다른 신앙을 가진 추종자들의 당대 논쟁적 기록들조차, 마니교도들을 비판하는 편이었음에도, 마니교도들이 서책에 부여하는 중요성과 그 필사본들의 아름다움을 인정했습니다. 이슬람 작가 알자히즈(대략 기원후 776–868/869년)는 예를 들어, 그의 친구 이브라힘 알신디가 언젠가 그에게 말했다고 이렇게 썼습니다. “[Glossary( 'zindiqs', 'ZINDIQ_GLOSS' )]가 깨끗하고 하얀 종이를 사고 반짝이는 검은 잉크를 사용하는 데 그렇게까지 돈을 쏟아붓지 않았더라면 좋았을 텐데, 그리고 아름다운 서체에 그토록 큰 가치를 두지 않았더라면, 서기들을 열성적으로 일하도록 부추기지 않았더라면 좋았을 텐데. 진정으로, 내가 본 어떤 종이도 그들의 서책에 쓰인 종이에 비할 수 없으며, 그곳에 쓰인 아름다운 서체에 비할 만한 서체도 없소.”" # 1690343818342829028
+  manichean.0071.t: "마니 화가" # 17212914517600759561
+  manichean.0071.desc: "오늘날까지 우리가 [ROOT.Char.GetFaith.GetAdherentNamePlural]로서 따르는 참된 가르침을 가르치신 우리의 예언자 마니께서는 수 세기에 걸쳐 비신도들의 관심을 끌었습니다. 그들은 그에 대해 온갖 기이한 이야기들을 지어냈는데, 어떤 것은 아첨하는 것이었고, 어떤 것은 그렇지 않았습니다.\n\n예를 들어, 마니께서는 예술적 재능이 있었습니다. 우리의 성서 중 하나인 #italic 아르장#!, 그림의 서는 마니 자신이 그린 그림들로 이루어져 있을 정도입니다. 최근 제가 들은 바에 따르면, 이 때문에 [GetReligionByKey('zoroastrianism_religion').GetName]와 [GetReligionByKey('islam_religion').GetName]의 추종자들은 종종 그를 “단지” 위대한 화가로 말한다고 합니다. 일부는 그의 심미적 감정의 깊이를 인정하며 마니를 칭찬하지만, 많은 이들은 폄하하는 방식으로 그렇게 합니다. 그들은 아마도 의도적으로 [GetReligionByKey('zoroastrianism_religion').GetAdjective] 종교를 그의 기이한 그림과 이야기로 파괴하려 했던 화가에게 우리가 속은 바보라고 암시하는 것입니다." # 11156535194948161747
+  manichean.0071.a: "마니를 헐뜯는 자들은 용납될 수 없다." # 5194510780369435589
+  manichean.0071.b: "그들은 그릇되었으나, 그들을 계몽하는 것은 우리의 책무이다." # 16273078187075534032
+  manichean.0072.t: "진혼 봉사" # 17568208132642536127
+  manichean.0072.desc: "몇몇 떠돌아다니는 [ROOT.Char.GetFaith.GetAdjective]의 [Glossary( 'Elect', 'ELECT_GLOSS' )]가 여정 중 오늘 제 궁정에 들렀습니다.\n\n오늘 아침 일찍 그들은 마니의 가르침에 대해 지혜로운 설교를 했습니다. 이제 저녁이 되어, 그들은 매일의 성스러운 식사를 준비하고 있습니다. 결국, 마니께서 우리에게 가르치신 대로, [Glossary( 'Elect', 'ELECT_GLOSS' )]는 하루에 단 한 번만 모여 식사할 수 있으며, 그 식사 동안 물질 세계, 즉 어둠의 속박으로부터 빛을 구원하기 위해 기도와 찬송에 전념해야 합니다.\n\n일반적으로, 소위 영혼 봉사라는 형태로, 저와 같은 [Glossary( 'hearers', 'HEARER_GLOSS' )]는 [Glossary( 'Elect', 'ELECT_GLOSS' )]에게 채식 음식으로 보시를 해야 합니다. 특히 오이와 멜론인데, 그러한 음식은 해방될 수 있는 빛을 가장 높은 농도로 함유하고 있기 때문입니다." # 6750834172614410052
+  manichean.0072.a: "선출된 이들의 식사를 위해 채식 음식을 제공하십시오." # 3391397637415704941
+  manichean.0072.b: "선택받은 자들에게 많은 채식 음식을 시주하라 – 빛을 해방하라!" # 16333590783796209585
+  manichean.0072.c: "왜 선택받은 자들이 내게 속한 음식을 얻어먹어야 하는가?" # 1634522244942221469
+  manichean.0073.t: "그들의 트림으로" # 16089913021335609335
+  manichean.0073.desc: "[courtier.GetFaith.GetName]을 따르는 [courtier.GetTitledFirstName]가 [ROOT.Char.GetFaith.GetName]의 영적 관습과 풍습에 항상 동의하지 않는 것은 놀라운 일이 아닙니다.\n\n예를 들어, 오늘 어떤 [ROOT.Char.GetFaith.GetAdjective] [Glossary( 'Elect', 'ELECT_GLOSS' )] 수행자들이 저희를 방문하여 선지자 마니의 현명한 가르침에 대한 설교를 했습니다. 이후 그들은 저녁에 채식으로 의례 식사를 하며, 기도를 통해 음식 안에 갇힌 빛, 즉 물질 세계에 갇혀 있던 빛을 해방시켰습니다.\n\n수행자들이 식사를 마친 후, [courtier.GetFirstNameNoTooltip]가 비꼬듯이 이렇게 말하는 것을 들었습니다. “저 [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]들은 트림으로 세상을 정화한다고 주장하는군!”" # 15279506504229873405
+  manichean.0073.a: "선택받은 자들을 모독해서는 안 된다!" # 13536635193024201839
+  manichean.0073.b: "방금 말은 못 들은 걸로 하겠네…" # 6986147682231479625
+  manichean.0073.info: "#emphasis 역사적 배경:#! 이 인용문은 젊은 시절 한때 마니교 신자였던 북아프리카 기독교 신학자이자 지식인인 히포의 성 아우구스티노(354년 ~ 430년)의 저술에서 거의 그대로 가져왔습니다. 이후 마니교를 부인했음에도 불구하고, 그 자신도 한때 마니의 종교를 믿었기에 마니교의 관습과 신앙에 대한 귀중한 일차 자료로 남아있습니다." # 10670238524108430201
+  manichean.0074.t: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 상인들" # 101531668179665582
+  manichean.0074.desc: "수 세기에 걸쳐, 비단길 곳곳의 많은 상인들이 빛의 종교인 마니의 가르침을 따랐습니다. 따라서 제 영토에 있는 [ROOT.Char.GetFaith.GetAdjective] 상인들이 여행 사이에 [ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 종교 건물들을 자신들의 물품과 재산을 보관하는 장소로 사용하기를 좋아하는 것은 놀라운 일이 아닙니다.\n\n이들 상인들 중 일부는 [ROOT.Char.GetTitleAsNameNoTooltip]로서 제 권력과 자원을 사용하여 도둑과 산적들로부터 이 성지들을 보호해 줄 것을 요청하고 있습니다." # 8508688369060509445
+  manichean.0074.a: "네, 제가 기꺼이 돕겠습니다." # 17584167077899704489
+  manichean.0074.b: "이를 감당할 여력이 없습니다." # 9449714544872557196
+  manichean.0074.c: "대신 그들의 물품을 몰수하겠다!" # 3473124022538594360
+  manichean.0074.info: "#emphasis 역사적 배경:#! 마니교는 비단길 상인들, 특히 소그드인과 위구르인들 사이에서 인기 있는 종교였는데, 이들은 마니교 수도원과 사원을 은행 및 보관소로 자주 활용했습니다. 예를 들어, 9세기 중국 당나라가 마니교도를 박해했을 때, 그들은 마니교 종교 기관에 속한 물품과 재산뿐만 아니라, 해당 장소에 물품과 재산을 보관했던 마니교 상인들에게 속한 물품과 재산까지도 몰수했습니다." # 16686931831640797346
+  manichean.0075.t: "물에 물 붓기" # 11178287926417140603
+  manichean.0075.desc: "오늘, 지역의 [ROOT.Char.GetFaith.GetAdjective] [Glossary( 'Elect', 'ELECT_GLOSS' )]이 마니의 가르침에 대한 설교를 하고 있습니다. 마니 본인의 저서 중 한 구절이 특히 제 흥미를 끕니다:\n\n#italic 이전의 모든 종교에 담긴 글과 지혜와 계시와 비유와 시편이 모든 곳에서 수집되었습니다. 그것들은 나의 종교로 전해졌습니다. 그것들은 물이 물에 더해져 많은 물이 되듯, 내가 드러낸 지혜에 더해졌습니다. 다시 말해, 고대 서적들이 내 글에 더해져 위대한 지혜가 된 방식과 같습니다.#!\n\n이것을 통해 광명의 종교의 가르침을 풍요롭게 하기 위해 다른 신앙을 이해하고 그 가르침을 우리 자신의 것으로 받아들이는 것이 왜 중요한지 새삼 깨닫게 됩니다." # 7105547099431684108
+  manichean.0075.a: "우리는 다른 신앙들로부터 열정적으로 배워야 합니다!" # 15526894668856710236
+  manichean.0075.b: "다른 신앙으로부터 배울 수는 있지만, 대단히 조심해야 합니다." # 7718015259895780204
+  manichean.0076.t: "영광의 예수" # 5012237741678818786
+  manichean.0076.desc: "[GetReligionByKey('christianity_religion').GetAdjective] 교회는 예수 그리스도를 자신들의 것이라 주장하나, 우리 [ROOT.Char.GetFaith.GetAdherentNamePlural]가 참된 복음을 소유하고 있다는 것을 알고 있습니다.\n\n저는 최근 이에 대해 생각해 보았는데, 이 어리석은 이른바 그리스도의 추종자들이 그리스도의 사도인 마니의 교리를 무시하는 것을 생각하면 격분이 치밀어 오릅니다. 마니는 그들의 타락한 형태의 예수 종교가 아닌, 그가 진정으로 우리에게 가르치셨던 찬란한 예수의 타락하지 않은 교리를 우리에게 계시한 자입니다…." # 1979279901444325253
+  manichean.0076.a: "너무 화낼 순 없지 – 그들을 좀 참아줘야만 해." # 6447104323643950562
+  manichean.0076.b: "저 어리석은 기독교도들은 위험한 이단들이다." # 3649372584747714457
+  manichean.0076.info: "#emphasis 역사적 배경:#! 마니교의 예언자 마니는 예수, 부처, 조로아스터 같은 이전 예언자들이 그와 똑같은 가르침을 가르쳤다고 주장했다. 하지만 이 예언자들은 (마니와는 달리) 그들의 가르침을 기록하지 않았기 때문에 이후 추종자들이 그들의 원래 가르침을 오해하고 잘못 해석했다는 것이다. 특히 마니는 예수에 대해 강한 존경심을 가졌던 것으로 보이며, 이는 마니교 자체에도 반영되어 있다. 그리고 이후의 마니교도들은 마니의 순교를 예수의 수난과 유사한 것으로 여기며 종종 마니를 예수에 비유했다. 심지어 페르시아의 신학자 아브드 알-자바르(935 – 1025년)의 저술과 같은 후대의 이슬람 사료조차도, 마니교도들이 자신이야말로 진정한 복음을 소유한 그리스도의 '진정한' 추종자라고 주장했음을 기록하고 있다." # 15192139406983896393
+  manichean.0077.t: "[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] 텍스트 복사 중" # 6726373723989877363
+  manichean.0077.desc: "저는 오늘 [ROOT.Char.GetCulture.GetName] 출신의 [ROOT.Char.GetFaith.GetAdjective] [Glossary( 'Elect', 'ELECT_GLOSS' )]를 만나, 그들이 직면한 문제들과 제가 예언자 마니의 가르침을 전파하고, 우리를 영적으로 인도하며, 물질 세계에서 빛을 해방하는 그들의 작업을 어떻게 지원할 수 있는지에 대해 논의할 예정입니다. 우리는 다양한 문제와 해결책을 논의하며 회동은 충분히 생산적이었습니다.\n\n회담이 끝난 후, 저는 [Glossary( 'Elect', 'ELECT_GLOSS' )]와 좀 더 가벼운 대화를 나누었습니다. 대화 주제는 책을 베끼고 쓰는 일로 흘러갔습니다. 마니께서 경전을 그의 가르침을 물려줄 신뢰할 만한 방법으로 소중히 여기라고 지시하셨기에, [Glossary( 'Elect', 'ELECT_GLOSS' )]는 끊임없이 경전을 베껴 쓰고 다시 베껴 쓰는 의무를 가집니다.\n\n한 [Glossary( 'Elect', 'ELECT_GLOSS' )]가 유머러스하게 말했습니다. \"피곤하기 짝이 없소! 내 손은 늘 지치고 쑤신다오.\" \"하지만 이것은 우리가 하는 중요한 일이오. 그리해야 빛의 종교가 결코 꺼지지 않을 테니 말이오.\"" # 3762689574395189789
+  manichean.0077.a: "네, 선택받은 자들이 있는 한 결코 꺼지지 않을 것이오." # 17043756671589188208
+  manichean.0077.b: "그런 고된 일은 하지 않아도 돼서 다행이군." # 10743954279382662439
+  manichean.0078.t: "알과 병아리" # 10994594896219849712
+  manichean.0078.desc: "오래된 [ROOT.Char.GetFaith.GetAdjective] 경전을 공부하고 있네.\n여기에는 우리 선지자 마니께서 당대 다른 철학자 및 사상가들과 나누신 논쟁 일부가 기록되어 있지.\n\n빛의 선지자의 말씀은 언제나처럼 깨달음을 주지만, 그중 일부는… 좋게 말해 비의적이군.\n특히 한 구절이 날 당혹스럽게 하네. “#EMP 알 안의 병아리가 죽으면, 그 영혼은 어떻게 알 밖으로 나오는가?#!”\n\n너무 당혹스러워서 내 [chaplain.GetCouncilTitle]인 [chaplain.GetTitledFirstName]에게도 물어봤지, 하지만 [chaplain.GetSheHe]는 나만큼이나 당혹스러워하더군." # 7017689231047597019
+  manichean.0078.a: "마니는 가끔 우리가 이해하기에는 너무 심오하다!" # 12300503566299373101
+  manichean.0078.b: "이게 서기가 베껴 쓰다 틀린 건가…." # 15562167463224913915
+  manichean.0078.info: "#emphasis 역사적 배경:#! 이것은 이집트에서 원래 발견된 필사본으로, 아마도 고대 후기의 이집트 마니교 공동체에 속했을 것으로 추정되는 더블린 케팔라이아에서 따온 실제 구절입니다. 케팔라이아는 마니의 가르침을 확장하는 마니교 문헌으로, 종종 그의 생애에 관한 이야기에서 영감을 얻고, 따라서 이슬람 [Glossary( 'hadiths', 'HADITHS_GLOSS' )]에 비견될 수 있습니다. 콥트어로 작성된 더블린 케팔라이아의 내용은 다양한 종교의 신앙과 문제에 대한 지식을 갖춘 공동체를 보여주며, 이는 다문화, 다종교적 환경에서 만들어졌음을 시사합니다. 흥미롭게도, 원래 파피루스 필사본은 수세기 동안의 마모, 매몰, 액체 침수, 덧칠 등으로 심하게 훼손되어, 2007년이 되어서야 학자들이 현대 기술 – 주로 다중 스펙트럼 및 컴퓨터 강화 사진 기술 –을 사용하여 글을 정성껏 번역할 수 있었습니다. 이 필사본은 현재 아일랜드 더블린에 있는 체스터 비티 도서관에 보관되어 있습니다." # 2253531979121090019
+  manichean.0079.t: "노예 해방, 빛의 해방" # 10445406951839971631
+  manichean.0079.desc: "[courtier.GetTitledFirstName]께서 오늘 저에게 한 가지 제안을 가져왔습니다.\n\n“예언자 마니의 충실한 추종자로서,” [courtier.GetSheHe]는 설명합니다, “[ROOT.Char.GetFaith.GetAdjective] 경전에서 노예들을 사서 해방하고, 그들을 [Glossary( 'Elect', 'ELECT_GLOSS' )]의 보살핌 아래 두어 그들의 제자이자 하인이 되게 하라고 이르시는 것을 기억하실 것입니다. 폐하와 같은 위대한 [ROOT.Char.GetTitleAsNameNoTooltip]께서는 많은 노예를 해방시킬 수 있으며, 그들은 미래의 [Glossary( 'Elect', 'ELECT_GLOSS' )]가 되어 우리 교회에 큰 봉사를 할 수 있습니다. 그리하여 우리는 더욱 많은 빛을 해방할 수 있습니다.”" # 15036890878135673506
+  manichean.0079.a: "현명한 제안이군! 그러면 노예들을 해방시키도록 하지." # 304789206536482929
+  manichean.0079.b: "알겠습니다만, 자금이 부족합니다." # 13438672328095278941
+  manichean.0080.t: "채식주의 악마 숭배자들" # 7429600645091760351
+  manichean.0080.desc: "우리의 신념을 이해하지 못하며 [ROOT.Char.GetFaith.GetName]의 추종자인 우리를 \"채식주의 악마 숭배자\"라고 비방하는 [ROOT.Char.GetCulture.GetCollectiveNoun]들이 있습니다. 그들은 우리가 [GetReligionByKey('buddhism_religion').GetName]의 분파인 척 행세하며 대중을 악한 존재의 숭배로 이끈다고 말합니다.\n\n어찌 그토록 우리를 오해할 수 있단 말입니까? 우리는 그저 빛을 숭배하고 해방시키며, 물질과 어둠의 세계가 주는 고통으로부터 인류를 구원하고자 할 뿐입니다. 우리는 광명의 부처이신 마니의 올바른 추종자입니다!\n\n이 무슨 불행이요, 이 무슨 불행이란 말입니까! 많은 저의 동료 [ROOT.Char.GetFaith.GetAdherentNamePlural]들이 우리의 신념을 공유하지 않는 다른 [ROOT.Char.GetCulture.GetCollectiveNoun]들을 경계하는 것은 당연한 일입니다." # 15731104295056740891
+  manichean.0080.a: "이 암흑 시대에는 실로 조심해야만 합니다." # 1865225699091664583
+  manichean.0080.b: "우리는 스스로를 보호하고 우리의 압제자들에게 저항해야 합니다." # 10356429893673478917
+  manichean.0080.info: "#emphasis 역사적 배경:#! 중국에서는 마니교도들을 \"채식하는 악마 숭배자\"라고 불렀는데, 특히 송나라 시대에 그랬습니다. 이는 마니교가 영혼과 빛을 해방하는 방법으로 채식주의를 강조했기 때문일 수 있습니다. 이 용어는 불교나 유교 같은 정통 종교 교리에 따르지 않는 다른 이단 종파들을 낙인찍는 데 널리 사용되어, 일부 학자들은 이 시기에 마니교라고 알려진 특정 종파나 반란 집단이 과연 마니교였는지조차 의문을 제기할 정도입니다. 그들은 단순히 신용을 떨어뜨리기 위해 \"채식하는 악마 숭배자\"라고 불렸을 가능성도 있습니다." # 16756877330190353521
+  manichean.0081.t: "xxxxx" # 1951045980481827005
+  manichean.0081.desc: "xxxxx" # 1951045980481827005
+  manichean.0081.a: "xxxxx" # 1951045980481827005
+  manichean.0082.t: "xxxxx" # 1951045980481827005
+  manichean.0082.desc: "xxxxx" # 1951045980481827005
+  manichean.0082.a: "xxxxx" # 1951045980481827005
+  manichean.0083.t: "xxxxx" # 1951045980481827005
+  manichean.0083.desc: "xxxxx" # 1951045980481827005
+  manichean.0083.a: "xxxxx" # 1951045980481827005
+  manichean.0084.t: "xxxxx" # 1951045980481827005
+  manichean.0084.desc: "xxxxx" # 1951045980481827005
+  manichean.0084.a: "xxxxx" # 1951045980481827005
+  manichean.0085.t: "xxxxx" # 1951045980481827005
+  manichean.0085.desc: "xxxxx" # 1951045980481827005
+  manichean.0085.a: "xxxxx" # 1951045980481827005
+  manichean.0086.t: "xxxxx" # 1951045980481827005
+  manichean.0086.desc: "xxxxx" # 1951045980481827005
+  manichean.0086.a: "xxxxx" # 1951045980481827005
+  manichean.0087.t: "xxxxx" # 1951045980481827005
+  manichean.0087.desc: "xxxxx" # 1951045980481827005
+  manichean.0087.a: "xxxxx" # 1951045980481827005
+  manichean.0088.t: "xxxxx" # 1951045980481827005
+  manichean.0088.desc: "xxxxx" # 1951045980481827005
+  manichean.0088.a: "xxxxx" # 1951045980481827005
+  manichean.0089.t: "xxxxx" # 1951045980481827005
+  manichean.0089.desc: "xxxxx" # 1951045980481827005
+  manichean.0089.a: "xxxxx" # 1951045980481827005
+  manichean.0090.t: "[lin_deng.GetDynasty.GetNameNoTooltip] [lin_deng.GetFirstNameNoTooltip]의 제자" # 9311922851023328035
+  manichean.0090.desc: "스승 [lin_deng.GetDynasty.GetName] [lin_deng.GetFirstName]께서 별세하신 지 벌써 몇 년이 흘렀습니다. 빛의 종교 교리를 전파하고 타인을 도우려던 그분의 노력은 결코 잊히지 않을 것입니다.\n\n흥미롭게도, 얼마 전 기적이 일어났다고 보고되었습니다. 이곳에서 그리 멀지 않은 [lin_deng.GetCulture.GetName] 도시에 도시 성문에 큰 불이 났고, 모두의 목숨이 위협받고 있었습니다. 모든 희망이 사라졌을 때, 사람들은 하늘에서 흰 가운을 입고 철제 부채를 든 인물을 보았습니다. 그는 그 부채를 사용하여 불을 껐습니다.\n\n그러고 나서 그는 사라지기 전에 그들에게 말했습니다. \"나는 창시 상완(昌西 上灣)의 [lin_deng.GetDynasty.GetName] [lin_deng.GetFirstName]이다.\"\n\n그 이후로, [lin_deng.GetFaith.GetAdherentNamePlural]은 물론 [GetReligionByKey('buddhism_religion').GetAdherentNamePlural]과 [GetReligionByKey('taoism_religion').GetAdherentNamePlural] 같은 다른 종교의 추종자들까지도 나의 스승께 기도하기 시작했습니다. 빛의 부처 마니의 비할 데 없는 교리에 대한 관심을 되살린 것은 좋은 일입니다. 하지만 그분이 나를 후계자로 지명했음에도 불구하고, 내가 스승의 일을 계속하려면 할 일이 많습니다…." # 16443205320009019401
+  manichean.0090.a: "순수, 빛, 권능, 그리고 지혜를 위하여." # 17530923316078161672
+  manichean.0090.info: "#emphasis 역사적 배경:#! 11세기 중국의 알려지지 않은 마니교 지도자인 첸핑산은 더 잘 알려진 현자이자 주술사였던 린덩의 제자였습니다. 린덩은 중국 남동부의 푸젠으로 마니교를 전파하여 이후 수 세기 동안 중국에서 마니교의 생존을 보장하는 데 큰 역할을 했습니다.\n\n린덩은 그의 전설적인 업적으로 오늘날까지 현지인들에게 존경받고 있습니다.\n\n첸핑산에 대해 알려진 바는 많지 않지만, 그의 현대 후손인 첸페이샹에게 계승된 마니교 의식 필사본은 중국 마니교 역사를 연구하는 학자들에게 큰 자산이 되었습니다." # 2908010829280455706
+  manichean.0091.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
+  manichean.0091.desc: "오랫동안, 저는 스승이신 [lin_deng.GetDynasty.GetName] [lin_deng.GetFirstName.GetName]의 그림자 아래서 고생하며, 마니, 빛의 부처의 가르침을 전파하려는 그분의 노력을 이어나가기 위해 열심히 일해왔습니다. 성공하지 못할까 두려워 의심과 걱정이 늘 함께였습니다.\n\n깨달음은 천천히 찾아왔지만, 어느 날 제게 다가왔습니다. 제가 비록 제 스승은 아닐지라도 – 그분은 위대한 현자이자 마법사이셨기에, 영적인 힘으로 누가 그분과 견줄 수 있겠습니까? – 저 또한 변화를 만들어냈고 그분의 이름에 영광을 돌리고 있음을 깨달았습니다. 저의 노력을 통해 훨씬 더 많은 사람들이 마니의 비길 데 없는 교리를 받아들이게 되었고, 저희는 많은 마을과 정착지에 걸쳐 빛의 종교의 효과적인 공동체를 세웠습니다.\n\n할 일이 아직 많지만, 저의 노력이 헛되지 않았음을 알고서 조금 더 편안하게 쉴 수 있게 되었습니다." # 12826758635078932970
+  manichean.0091.a: "정결, 빛, 권능, 지혜!" # 5670916049950301537
+  manichean.0092.t: "린 사부 숭배" # 7969892342781595013
+  manichean.0092.desc: "우리의 관습은 광명교의 위대한 스승인 린 등을 숭배하는 것입니다. 그는 사후에도 무력한 자를 보호하고 궁핍한 자를 보살폈습니다.\n오늘 우리는 그가 이전처럼 우리를 축복하고 인도해 주기를 바라는 마음으로 이 위대한 분을 위해 풍성한 희생을 준비했습니다. 그리하여 우리는 수년에 걸쳐 우리에게 전승된 정해진 올바른 의식과 제례를 수행하기 위해 모였습니다. 스승 린의 전설적인 행적을 되새기고, 그가 오래전 우리 모두에게 전해준 심오한 가르침을 기리며 말입니다. 무엇보다도 우리는 광명의 부처인 마니의 만트라를 기억합니다: 순수, 빛, 힘, 그리고 지혜." # 2554363496531549253
+  manichean.0092.desc.blessing: "\n\n[ROOT.Char.GetFaith.GetAdjectiveNoTooltip] [ROOT.Char.GetFaith.PriestNeuterPlural]가 의식이 끝난 후 저에게 다가와서, 린 등이 우리에게 많은 축복을 내렸다고 믿는다고, 심지어는 그렇게 말하기까지 했습니다!" # 11606822614963823826
+  manichean.0092.a: "정결, 빛, 권능, 지혜!" # 5670916049950301537
+  manichean.0093.t: "xxxxx" # 1951045980481827005
+  manichean.0093.desc: "xxxxx" # 1951045980481827005
+  manichean.0093.a: "xxxxx" # 1951045980481827005
+  manichean.0094.t: "xxxxx" # 1951045980481827005
+  manichean.0094.desc: "xxxxx" # 1951045980481827005
+  manichean.0094.a: "xxxxx" # 1951045980481827005
+  manichean.0095.t: "xxxxx" # 1951045980481827005
+  manichean.0095.desc: "xxxxx" # 1951045980481827005
+  manichean.0095.a: "xxxxx" # 1951045980481827005
+  manichean.0096.t: "xxxxx" # 1951045980481827005
+  manichean.0096.desc: "xxxxx" # 1951045980481827005
+  manichean.0096.a: "xxxxx" # 1951045980481827005
+  manichean.0097.t: "xxxxx" # 1951045980481827005
+  manichean.0097.desc: "xxxxx" # 1951045980481827005
+  manichean.0097.a: "xxxxx" # 1951045980481827005
+  manichean.0098.t: "xxxxx" # 1951045980481827005
+  manichean.0098.desc: "xxxxx" # 1951045980481827005
+  manichean.0098.a: "xxxxx" # 1951045980481827005
+  manichean.0099.t: "xxxxx" # 1951045980481827005
+  manichean.0099.desc: "xxxxx" # 1951045980481827005
+  manichean.0099.a: "xxxxx" # 1951045980481827005

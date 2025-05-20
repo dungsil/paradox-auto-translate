@@ -186,7 +186,7 @@
   RICE_terma_sacred_image_desc: "이 [RICE_terma|E]는 [GetPlayer.Custom('RICE_random_tibetan_buddhist_figure')]가 다른 여러 인물들에게 둘러싸여 있는 예술적인 묘사입니다. 그들은 모두 다양한 명상 또는 의식 자세를 취하며 보는 이를 평온하게 응시하고 있습니다." # 7680858591846011266
   RICE_terma_sacred_image_questioned_desc: "수년간, 시간의 파괴 속에 잃어버린 발견에 대한 소문이 돌았습니다. 눈에 잘 띄게 숨겨진 고대의 지식은, #EMP 가치 있는 영혼#이 발견하기를 기다리고 있습니다. 어쩌면 제가 바로 그 영혼일지도 모릅니다.\n\n기묘한 힘이 깃든 신성한 형상이 제 앞에 놓여 있습니다. 신비로운 에너지로 떨리는 듯합니다.\n\n하지만 이것이 단순한 신화일까요, 미신적인 사람들이 지어낸 공상적인 이야기일까요, 아니면 이 속삭임에 진실이 있는 걸까요?" # 6449712669808823788
   RICE_terma_sacred_image_accepted_desc: "$RICE_terma_intro_desc$$RICE_terma_sacred_image_desc$\n\n$RICE_terma_intro_accepted_desc$" # 2704554523305277742
-  RICE_terma_sacred_image_venerated_desc: "" # 7857552696811982680
+  RICE_terma_sacred_image_venerated_desc: "$RICE_terma_intro_desc$\n$RICE_terma_sacred_image_desc$\n\n$RICE_terma_intro_venerated_desc$" # 7857552696811982680
   RICE_terma_ritual_instrument_name: "[terton.GetFaith.GetAdjectiveNoTooltip] 의식 도구" # 3304679043181289042
   RICE_terma_ritual_instrument_desc: "이 [RICE_terma|E]는 [GetPlayer.Custom('RICE_terma_ritual_object')]으로 만들어진 [GetPlayer.Custom('RICE_terma_ritual_object_material')]로, 다양한 [terton.GetFaith.GetAdjectiveNoTooltip] 의식과 제례에 사용됩니다." # 18029298245132591680
   RICE_terma_ritual_instrument_questioned_desc: "$RICE_terma_intro_desc$$RICE_terma_ritual_instrument_desc$\n$RICE_terma_intro_questioned_desc$" # 17948866224014039611
