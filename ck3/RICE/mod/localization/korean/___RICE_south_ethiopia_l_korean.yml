@@ -72,7 +72,7 @@
   TRAVEL_NAME_FOR_activity_RICE_south_ethiopia_cattle_counting_ceremony: "[Character.GetFirstNamePossessiveNoTooltip] 소 세기 의식" # 3273965687786667006
   RICE_special_guest_gimuwa: "기무와 후보자" # 5550082325697377993
   RICE_special_guest_gimuwa_for_host: "$RICE_special_guest_gimuwa$" # 8127206811527088968
-  RICE_special_guest_gimuwa_desc: "$RICE_special_guest_gimuwa$는 [GetActivityType( 'activity_RICE_south_ethiopia_cattle_counting_ceremony' ).GetName]에서 영예를 받는 가축 소유주의 반대 성별에 해당하는 #bold 배우자#! 또는 #bold 부모#!입니다. 이들도 이들만의 의식인 #italic 기무와#!에서 영예를 받습니다. 주최자에 대한 이들의 [opinion|E]가 영구적으로 증가하며, [activity|E]가 끝날 때 [prestige_i|E] [prestige|E]를 얻고 [GetTrait('RICE_cattle_owner_spouse').GetName( GetNullCharacter )] [trait|E]도 얻습니다.\n\n#N $RICE_special_guest_gimuwa$ 자격을 갖추려면, 하객은 주최자의 무봉토 상태의 배우자 또는 반대 성별의 부모여야 하며, 나이가 최소 30세 이상이어야 합니다.#!" # 14066370822488686407
+  RICE_special_guest_gimuwa_desc: "$RICE_special_guest_gimuwa$는 [GetActivityType( 'activity_RICE_south_ethiopia_cattle_counting_ceremony' ).GetName]에서 영예를 받는 가축 소유주의 반대 성별에 해당하는 #bold 배우자#! 또는 #bold 부모#!입니다. 이들도 이들만의 의식인 #italic 기무와#!에서 영예를 받습니다. 주최자에 대한 이들의 [opinion|E]가 영구적으로 증가하며, [activity|E]가 끝날 때 [prestige_i|E] [prestige|E]를 얻고 [GetTrait('RICE_cattle_owner_spouse').GetName( GetNullCharacter )] [trait|E]도 얻습니다.\n\n#N $RICE_special_guest_gimuwa$ 자격을 갖추려면, 하객은 주최자의 비지주 상태의 배우자 또는 반대 성별의 부모여야 하며, 나이가 최소 30세 이상이어야 합니다.#!" # 14066370822488686407
   RICE_special_guest_gimuwa_desc_for_host: "$RICE_special_guest_gimuwa_desc$" # 1221230038464301844
   RICE_south_ethiopia_cattle_counting_ceremony_gimuwa_log_title: "기무와 의식" # 3528689174420230194
   RICE_south_ethiopia_cattle_counting_ceremony_gimuwa_log: "[CHARACTER.GetShortUIName|U]는 #italic Gimuwa!# 의식을 치른 후 #italic Gimuwa!#의 지위를 획득했습니다." # 17581700753275628261
