@@ -154,7 +154,7 @@
   RICE_culture_in_africa_desc: "[culture|E]는 [GetGeographicalRegion('world_africa').GetName]에 [봉토|E]의 #V 5%#를 보유하고 있지 않습니다." # 12540208679582561145
   tradition_RICE_munya_estates_name: "무냐 영지" # 11868141621133368535
   tradition_RICE_munya_estates_desc: "[GetGeographicalRegion('world_europe_west_iberia').GetName]의 구릉지와 농지에서 이 문화의 사람들은 #italic 문야#라 불리는 커다란 저택을 짓습니다. 건축학적 아름다움 외에도, 그곳은 사람들이 휴식을 취하고, 학자와 시인이 교류하며, 농업 및 식물학 실험이 이루어지는 장소로도 기능합니다." # 12439447297459460124
-  culture_parameter_unlock_rice_munya_activity: "[religion|E]에 관계없이, [munya|E]에서 휴가 활동을 개최하는 [activities|E]를 이용 가능하게 합니다." # 3205980973763147466
+  culture_parameter_unlock_rice_munya_activity: "[religion|E]나 위치에 관계없이 [munya|E]에서 휴가를 개최할 수 있는 [activities|E]를 해금합니다." # 12167239650302865551
   culture_parameter_unlock_rice_munya_activity_cost: "[munya|E] 활동의 비용을 감소시킵니다" # 5805461448590098989
   culture_parameter_unlock_rice_munya_activity_private_variety: "[GetActivityType( 'activity_RICE_granada_munya_vacation_private' ).GetName] [activity|E]에 대해 #V $RICE_granada_munya_vacation_private_type_agriculture$#! 및 #V $RICE_granada_munya_vacation_private_type_botany$#! [activity_options|E]을(를) 잠금 해제합니다." # 15312778520220061246
   culture_parameter_unlock_rice_munya_activity_group_variety: "[GetActivityType( 'activity_RICE_granada_munya_vacation_group' ).GetName] [activity|E]에 대해 #V $RICE_granada_munya_vacation_group_type_gardens$#!와 #V $RICE_granada_munya_vacation_group_type_poetry$#! [activity_options|E]를 잠금 해제합니다." # 15687805873635635994
