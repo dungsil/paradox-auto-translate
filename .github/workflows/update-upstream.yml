@@ -42,6 +42,6 @@ jobs:
             cd -
           done
       - name: 변경사항 업데이트
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: "chore: 업스트림 저장소 업데이트"
