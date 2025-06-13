@@ -32,13 +32,27 @@ jobs:
             git fetch --tags
             cd -
           done
-      - name: 마지막 태그로 체크아웃한다
+      - name: 마지막 태그 또는 기본 브랜치로 체크아웃한다
         run: |
           IFS=',' read -ra ADDR <<< "${{ env.submodule_paths }}"
           for path in "${ADDR[@]}"; do
             cd $path
-            latest_tag=$(git describe --tags `git rev-list --tags --max-count=1`)
-            git checkout $latest_tag
+            echo "Processing submodule: $path"
+            
+            # 태그가 있는지 확인
+            if git tag | grep -q .; then
+              echo "Tags found, using latest tag"
+              latest_tag=$(git describe --tags `git rev-list --tags --max-count=1`)
+              echo "Latest tag: $latest_tag"
+              git checkout $latest_tag
+            else
+              echo "No tags found, using default branch"
+              default_branch=$(git remote show origin | grep 'HEAD branch' | awk '{print $NF}')
+              echo "Default branch: $default_branch"
+              git checkout $default_branch
+              git pull origin $default_branch
+            fi
+            
             cd -
           done
       - name: 변경사항 업데이트
