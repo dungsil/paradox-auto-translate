@@ -84,6 +84,8 @@ ensuring scientific accuracy and futuristic nuances while adhering to strict for
      e.g., #bold GALACTIC DECREE# → #bold GALACTIC DECREE#
    - Keep variables in square brackets unaltered:
      e.g., [GetSpeciesName] → [GetSpeciesName], [owner.GetName] → [owner.GetName], [minerals_i] → [minerals_i]
+   - Keep variables in angle brackets unaltered:
+      e.g., <democratic_gen> → <democratic_gen>, <giga_birch_natives_names> → <giga_birch_natives_names>
 
 3. Maintain the original text structure, including line breaks and paragraph formatting.
 

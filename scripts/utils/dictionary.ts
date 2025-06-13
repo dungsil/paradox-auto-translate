@@ -62,11 +62,14 @@ const ck3Dictionaries: Record<string, string> = {
 const stellarisDictionaries: Record<string, string> = {
   empire: '제국',
   federation: '연방',
-  unity: '단결력',
+  unity: '통합',
   influence: '영향력',
   'science ship': '과학선',
   'research station': '연구소',
   ok: '네',
+  pop: '팝',
+  'living metal': '생체 금속',
+  zro: '즈로',
 }
 
 function getDictionaries(gameType: GameType): Record<string, string> {
