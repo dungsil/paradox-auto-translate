@@ -6,8 +6,10 @@
   "scripts": {
     "ck3": "jiti scripts/ck3.ts",
     "ck3:update-hash": "jiti scripts/ck3.ts onlyHash",
+    "ck3:update-dict": "jiti scripts/ck3-update-dict.ts",
     "stellaris": "jiti scripts/stellaris.ts",
-    "stellaris:update-hash": "jiti scripts/stellaris.ts onlyHash"
+    "stellaris:update-hash": "jiti scripts/stellaris.ts onlyHash",
+    "stellaris:update-dict": "jiti scripts/stellaris-update-dict.ts"
   },
   "devDependencies": {
     "@google/generative-ai": "0.24.1",

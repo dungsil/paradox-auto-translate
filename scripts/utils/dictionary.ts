@@ -72,7 +72,7 @@ const stellarisDictionaries: Record<string, string> = {
   zro: '즈로',
 }
 
-function getDictionaries(gameType: GameType): Record<string, string> {
+export function getDictionaries(gameType: GameType): Record<string, string> {
   switch (gameType) {
     case 'ck3':
       return ck3Dictionaries
