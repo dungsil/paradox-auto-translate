@@ -14,37 +14,24 @@ const generationConfig = {
   maxOutputTokens: 8192,
 }
 
-// 모델 캐시 (gameType + model 조합으로 캐시)
-const modelCache = new Map<string, GenerativeModel>()
+const gemini = (model: string, gameType: GameType) => ai.getGenerativeModel({
+  model,
+  generationConfig,
+  systemInstruction: getSystemPrompt(gameType),
+})
 
-const gemini = (model: string, gameType: GameType) => {
-  const cacheKey = `${gameType}-${model}`
-  
-  if (!modelCache.has(cacheKey)) {
-    modelCache.set(cacheKey, ai.getGenerativeModel({
-      model,
-      generationConfig,
-      systemInstruction: getSystemPrompt(gameType),
-    }))
-  }
-  
-  return modelCache.get(cacheKey)!
-}
-
-export async function translateAI (text: string, gameType: GameType = 'ck3'): Promise<string> {
-  // 첫 번째 모델 시도
-  try {
-    return await new Promise<string>((resolve, reject) => {
-      translateAIByModel(resolve, gemini('gemini-2.5-flash-preview-04-17', gameType), text)
-        .catch(reject)
-    })
-  } catch (error) {
-    // 두 번째 모델로 폴백
-    return await new Promise<string>((resolve, reject) => {
-      translateAIByModel(resolve, gemini('gemini-1.5-flash-8b', gameType), text)
-        .catch(reject)
-    })
-  }
+export async function translateAI (text: string, gameType: GameType = 'ck3') {
+  return new Promise<string>((resolve, reject) => {
+    try {
+      return translateAIByModel(resolve, gemini('gemini-2.5-flash-preview-04-17', gameType), text)
+    } catch (e) {
+      try {
+        return translateAIByModel(resolve, gemini('gemini-1.5-flash-8b', gameType), text)
+      } catch (ee) {
+        reject(ee)
+      }
+    }
+  })
 }
 
 async function translateAIByModel (resolve: (value: string | PromiseLike<string>) => void, model: GenerativeModel, text: string): Promise<void> {
