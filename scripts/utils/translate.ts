@@ -6,6 +6,7 @@ import { type GameType } from './prompts'
 
 const INNER_FUNCTION_REGEX = /^\[([\w.]+(?:\|[\w.]+)?|[\w.]+\.[\w.]+\(['\w.]+'\))]$/
 const VARIABLE_REGEX = /^\$[a-zA-Z0-9_\-.]+\$$/
+const INVALID_TRANSLATION_REGEX = /\[[가-힣]/g
 
 export async function translate (text: string, gameType: GameType = 'ck3', retry: number = 0): Promise<string> {
 
@@ -31,24 +32,23 @@ export async function translate (text: string, gameType: GameType = 'ck3', retry
     return normalizedText
   }
 
-  // 단어 사전에 있는 경우 캐시에 저장하고 반환
+  // 단어 사전에 있는 경우 즉시 반환 (동기적 조회)
   if (hasDictionary(normalizedText, gameType)) {
     return getDictionary(normalizedText, gameType)!
   }
 
-  // 캐시에 이미 번역된 텍스트가 있는 경우 캐시에서 반환
-  if (await hasCache(normalizedText, gameType)) {
-    return await getCache(normalizedText, gameType)!
+  // 캐시 조회 (비동기)
+  const cachedResult = await getCache(normalizedText, gameType)
+  if (cachedResult !== null) {
+    return cachedResult
   }
 
   // 실제 AI 번역 요청
   const translatedText = await translateAI(text, gameType)
 
-  // 잘못된 결과 재 번역 시도
-  if (
-    translatedText.toLowerCase().includes('language model') ||
-    translatedText.match(/\[[가-힣]/g)
-  ) {
+  // 잘못된 결과 검증 (조기 반환으로 최적화)
+  const lowerTranslated = translatedText.toLowerCase()
+  if (lowerTranslated.includes('language model') || INVALID_TRANSLATION_REGEX.test(translatedText)) {
     return await translate(text, gameType, retry + 1)
   }
 

@@ -5,37 +5,39 @@ const translationQueue: Array<() => Promise<void>> = []
 
 const MAX_RETRIES = 5
 const RETRY_DELAYS = [0, 1_000, 2_000, 8_000, 10_000, 60_000] // 밀리초 단위
+const RATE_LIMIT_INTERVAL = 250 // 250ms = 초당 4개 요청
 
 let lastRequestTime = 0
+let isProcessing = false
 
 export async function addQueue (newQueue: () => Promise<void>) {
   translationQueue.push(newQueue)
 
-  processQueue()
+  // 이미 처리 중이 아닐 때만 새로운 처리 시작
+  if (!isProcessing) {
+    processQueue()
+  }
 }
 
 async function processQueue () {
-  // 큐가 없으면 종료
-  if (translationQueue.length === 0) {
-    return
-  }
+  isProcessing = true
+  
+  while (translationQueue.length > 0) {
+    // 레이트 리미팅 확인
+    const now = Date.now()
+    const timeSinceLastRequest = now - lastRequestTime
+    if (timeSinceLastRequest < RATE_LIMIT_INTERVAL) {
+      await delay(RATE_LIMIT_INTERVAL - timeSinceLastRequest)
+    }
 
-  // 초당 최대 4개까지만 요청을 보낼 수 있도록 제한
-  const now = Date.now()
-  const timeSinceLastRequest = now - lastRequestTime
-  if (timeSinceLastRequest < 100) {
-    setTimeout(processQueue, 100 - timeSinceLastRequest)
-    return
+    const task = translationQueue.shift()
+    if (task) {
+      lastRequestTime = Date.now()
+      await executeTaskWithRetry(task)
+    }
   }
-
-  const task = translationQueue.shift()
-  if (task) {
-    lastRequestTime = now
-    await executeTaskWithRetry(task)
-
-    // 처리 완료후 세로운 큐 실행
-    processQueue()
-  }
+  
+  isProcessing = false
 }
 
 async function executeTaskWithRetry (task: () => Promise<void>, retryCount = 0): Promise<void> {
