@@ -6,22 +6,22 @@ import { log } from './utils/logger'
 
 async function main () {
   try {
-    const ck3Dir = join(import.meta.dirname, '..', 'ck3')
-    const mods = await readdir(ck3Dir)
+    const stellarisDir = join(import.meta.dirname, '..', 'stellaris')
+    const mods = await readdir(stellarisDir)
     const onlyHash = process.argv?.[2] === 'onlyHash'
 
     log.box(
       `
-      CK3 번역 스크립트 구동
-      - 번역 대상 경로: ${ck3Dir}
+      Stellaris 번역 스크립트 구동
+      - 번역 대상 경로: ${stellarisDir}
       - 번역 대상 모드 (${mods.length}개): ${mods}
       `,
     )
 
     await processModTranslations({
-      rootDir: ck3Dir,
+      rootDir: stellarisDir,
       mods,
-      gameType: 'ck3',
+      gameType: 'stellaris',
       onlyHash
     })
 

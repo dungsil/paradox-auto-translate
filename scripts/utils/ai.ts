@@ -1,6 +1,6 @@
 import { type GenerativeModel, GoogleGenerativeAI } from '@google/generative-ai'
 import dotenv from 'dotenv'
-import { Ck3_SYSTEM_PROMPT } from './prompts'
+import { type GameType, getSystemPrompt } from './prompts'
 import { addQueue } from './queue'
 
 dotenv.config()
@@ -14,19 +14,19 @@ const generationConfig = {
   maxOutputTokens: 8192,
 }
 
-const gemini = (model: string) => ai.getGenerativeModel({
+const gemini = (model: string, gameType: GameType) => ai.getGenerativeModel({
   model,
   generationConfig,
-  systemInstruction: Ck3_SYSTEM_PROMPT,
+  systemInstruction: getSystemPrompt(gameType),
 })
 
-export async function translateAI (text: string) {
+export async function translateAI (text: string, gameType: GameType = 'ck3') {
   return new Promise<string>((resolve, reject) => {
     try {
-      return translateAIByModel(resolve, gemini('gemini-2.5-flash-preview-04-17'), text)
+      return translateAIByModel(resolve, gemini('gemini-2.5-flash-preview-04-17', gameType), text)
     } catch (e) {
       try {
-        return translateAIByModel(resolve, gemini('gemini-1.5-flash-8b'), text)
+        return translateAIByModel(resolve, gemini('gemini-1.5-flash-8b', gameType), text)
       } catch (ee) {
         reject(ee)
       }

@@ -4,10 +4,23 @@ import { parseToml, parseYaml, stringifyYaml } from '../parser'
 import { hashing } from '../utils/hashing'
 import { log } from '../utils/logger'
 import { translate } from '../utils/translate'
+import { type GameType } from '../utils/prompts'
+
+function getLocalizationFolderName(gameType: GameType): string {
+  switch (gameType) {
+    case 'ck3':
+      return 'localization'
+    case 'stellaris':
+      return 'localisation'
+    default:
+      throw new Error(`Unsupported game type: ${gameType}`)
+  }
+}
 
 interface ModTranslationsOptions {
   rootDir: string
   mods: string[]
+  gameType: GameType
   onlyHash?: boolean
 }
 
@@ -18,7 +31,7 @@ interface ModMeta {
   };
 }
 
-export async function processModTranslations ({ rootDir, mods, onlyHash = false }: ModTranslationsOptions): Promise<void> {
+export async function processModTranslations ({ rootDir, mods, gameType, onlyHash = false }: ModTranslationsOptions): Promise<void> {
   const processes: Promise<void>[] = []
 
   for (const mod of mods) {
@@ -37,7 +50,8 @@ export async function processModTranslations ({ rootDir, mods, onlyHash = false 
 
     for (const locPath of meta.upstream.localization) {
       const sourceDir = join(modDir, 'upstream', locPath)
-      const targetDir = join(modDir, 'mod', 'localization', sourceDir.includes('replace') ? 'korean/replace' : 'korean')
+      const localizationFolder = getLocalizationFolderName(gameType)
+      const targetDir = join(modDir, 'mod', localizationFolder, sourceDir.includes('replace') ? 'korean/replace' : 'korean')
 
       // 모드 디렉토리 생성
       await mkdir(targetDir, { recursive: true })
@@ -46,7 +60,7 @@ export async function processModTranslations ({ rootDir, mods, onlyHash = false 
       for (const file of sourceFiles) {
         // 언어파일 이름이 `_l_언어코드.yml` 형식이면 처리
         if (file.endsWith(`_l_${meta.upstream.language}.yml`)) {
-          processes.push(processLanguageFile(mod, sourceDir, targetDir, file, meta.upstream.language, onlyHash))
+          processes.push(processLanguageFile(mod, sourceDir, targetDir, file, meta.upstream.language, gameType, onlyHash))
         }
       }
     }
@@ -57,7 +71,7 @@ export async function processModTranslations ({ rootDir, mods, onlyHash = false 
   }
 }
 
-async function processLanguageFile (mode: string, sourceDir: string, targetBaseDir: string, file: string, sourceLanguage: string, onlyHash: boolean): Promise<void> {
+async function processLanguageFile (mode: string, sourceDir: string, targetBaseDir: string, file: string, sourceLanguage: string, gameType: GameType, onlyHash: boolean): Promise<void> {
   const sourcePath = join(sourceDir, file)
 
   // 파일 순서를 최상위로 유지해 덮어쓸 수 있도록 앞에 '___'를 붙임 (ex: `___00_culture_l_english.yml`)
@@ -117,7 +131,7 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
 
     // 번역 요청
     log.start(`[${mode}/${file}:${key}] 번역 요청: ${sourceHash} | "${sourceValue}"`)
-    const translatedValue = await translate(sourceValue)
+    const translatedValue = await translate(sourceValue, gameType)
     log.debug(`\t> 번역된 문자열: "${translatedValue}"`)
     newYaml.l_korean[key] = [translatedValue, sourceHash]
   }
