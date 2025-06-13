@@ -63,7 +63,7 @@ Wrong translation: "귀하의 [county|E] 내 [지역|E]는 모두 [베트남 유
 
 ### Translation Memory:
 Refer to the provided translation memory for consistent terminology:
-${getTranslationMemories()}
+${getTranslationMemories('ck3')}
 
 Proceed with the translation, ensuring historical authenticity, game-specific accuracy, and adherence to "Crusader Kings III" style and medieval context.
 Always output Hangul, never provide the English alphabet.
@@ -129,7 +129,7 @@ Translation: "[empire|E] 내 모든 [planet|E]는 [GetModifier('example_modifier
 
 ### Translation Memory:
 Refer to the provided translation memory for consistent terminology:
-${getTranslationMemories()}
+${getTranslationMemories('stellaris')}
 
 Proceed with the translation, ensuring scientific authenticity, game-specific accuracy, and adherence to "Stellaris" style and futuristic context.
 Always output Hangul, never provide the English alphabet.

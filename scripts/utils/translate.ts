@@ -32,13 +32,13 @@ export async function translate (text: string, gameType: GameType = 'ck3', retry
   }
 
   // 단어 사전에 있는 경우 캐시에 저장하고 반환
-  if (hasDictionary(normalizedText)) {
-    return getDictionary(normalizedText)!
+  if (hasDictionary(normalizedText, gameType)) {
+    return getDictionary(normalizedText, gameType)!
   }
 
   // 캐시에 이미 번역된 텍스트가 있는 경우 캐시에서 반환
-  if (await hasCache(normalizedText)) {
-    return await getCache(normalizedText)!
+  if (await hasCache(normalizedText, gameType)) {
+    return await getCache(normalizedText, gameType)!
   }
 
   // 실제 AI 번역 요청
@@ -52,6 +52,6 @@ export async function translate (text: string, gameType: GameType = 'ck3', retry
     return await translate(text, gameType, retry + 1)
   }
 
-  await setCache(text, translatedText)
+  await setCache(text, translatedText, gameType)
   return translatedText
 }

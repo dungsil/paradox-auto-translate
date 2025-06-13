@@ -1,5 +1,8 @@
 // noinspection SpellCheckingInspection
-const dictionaries: Record<string, string> = {
+import { type GameType } from './prompts'
+
+// CK3 전용 딕셔너리
+const ck3Dictionaries: Record<string, string> = {
   'af Möre': '아프 뫼레',
   'af Fasge': '아프 파스게',
   anuket: '아누케트',
@@ -55,15 +58,40 @@ const dictionaries: Record<string, string> = {
   xxxxx: 'xxxxx', // RICE, VIET 에서 사용하는 플레이스 홀더로 API 요청 되지 않도록 사전에 추가
 }
 
-export function hasDictionary (key: string) {
+// Stellaris 전용 딕셔너리
+const stellarisDictionaries: Record<string, string> = {
+  empire: '제국',
+  federation: '연방',
+  unity: '단결력',
+  influence: '영향력',
+  'science ship': '과학선',
+  'research station': '연구소',
+  ok: '네',
+}
+
+function getDictionaries(gameType: GameType): Record<string, string> {
+  switch (gameType) {
+    case 'ck3':
+      return ck3Dictionaries
+    case 'stellaris':
+      return stellarisDictionaries
+    default:
+      throw new Error(`Unsupported game type: ${gameType}`)
+  }
+}
+
+export function hasDictionary (key: string, gameType: GameType = 'ck3') {
+  const dictionaries = getDictionaries(gameType)
   return Object.hasOwn(dictionaries, normalizeKey(key))
 }
 
-export function getDictionary (key: string): string | null {
+export function getDictionary (key: string, gameType: GameType = 'ck3'): string | null {
+  const dictionaries = getDictionaries(gameType)
   return dictionaries[normalizeKey(key)] || null
 }
 
-export function getTranslationMemories (): string {
+export function getTranslationMemories (gameType: GameType = 'ck3'): string {
+  const dictionaries = getDictionaries(gameType)
   return Object.keys(dictionaries).map((key) => ` - "${key}" → "${dictionaries[key]}"`).join('\n')
 }
 
