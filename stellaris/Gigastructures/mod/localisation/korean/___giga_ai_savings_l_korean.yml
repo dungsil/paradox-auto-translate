@@ -1,0 +1,133 @@
+﻿l_korean:
+  giga_ai_savings_info: "기가스 AI 메가스트럭처 절감 정보" # 17129781596844453452
+  giga_ai_savings_info_desc: "§L재정 계획 지원.§!" # 10605841134171591247
+  mod_giga_ai_savings_tooltips_minerals_produces_add: "AI가 거대 구조물 건설을 위해 따로 확보해 둔 자원의 양을 보여줍니다. 이 값은 지원되는 거대 구조물의 건설 비용에서 차감되며, 건설이 시작될 때 감소합니다.\n\n§E중요 경제 거대 구조물:§!\n£alloys£ $alloys$: §Y[giga_ai_savings_important_alloys]§!\n£unity£ $unity$: §Y[giga_ai_savings_important_unity]§!\n\n§E보조 경제 거대 구조물:§!\n£alloys£ $alloys$: §Y[giga_ai_savings_resource_alloys]§!\n£unity£ $unity$: §Y[giga_ai_savings_resource_unity]§!\n\n§E유틸리티 거대 구조물:§!\n£alloys£ $alloys$: §Y[giga_ai_savings_utility_alloys]§!\n£unity£ $unity$: §Y[giga_ai_savings_utility_unity]§!\n\n§E군사 거대 구조물:§!\n£alloys£ $alloys$: §Y[giga_ai_savings_military_alloys]§!\n£unity£ $unity$: §Y[giga_ai_savings_military_unity]§!\n\n값이 제대로 표시되도록 하는 더미 보정치입니다." # 16634537431005337069
+  r_giga_ai_savings: "인공지능 예금 계좌" # 7622433213636059552
+  r_giga_ai_savings_desc: "이것은 AI 거대 구조물 건설 비용 절감 기능에 대한 수정치를 제공하는 AI 전용 유물입니다. 플레이어에게는 아무런 효과가 없으며, 연초에 플레이어가 소유한 경우 제거됩니다.\n\n§L후울라 후울라! 자원아 쏟아져라!§!" # 11038893790622229090
+  giga_ai_savings_desc: "절감액에 따른 이 거대 구조물 건설 비용 조정" # 4673856778761589855
+  giga_ai_savings_attack_moon_alloys: "공격 위성 합금" # 16679037468277642546
+  giga_ai_savings_attack_moon_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_attack_moon_alloys_cost_add: "공격 달 합금 비용" # 12774076894050088201
+  giga_ai_savings_crystal_megabore_alloys: "결정 메가보어 합금" # 16302229363052989696
+  giga_ai_savings_crystal_megabore_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_crystal_megabore_alloys_cost_add: "결정체 메가보어 합금 비용" # 7457888958917631603
+  giga_ai_savings_dyson_sphere_alloys: "다이슨 구체 합금" # 417909277495316358
+  giga_ai_savings_dyson_sphere_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_dyson_sphere_alloys_cost_add: "다이슨 스피어 합금 건설 비용" # 4896403272404768490
+  giga_ai_savings_equatorial_shipyard_alloys: "적도 조선소 합금" # 2792556437208306281
+  giga_ai_savings_equatorial_shipyard_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_equatorial_shipyard_alloys_cost_add: "적도 조선소 합금 비용" # 3429187856097613195
+  giga_ai_savings_maginot_world_alloys: "마지노 행성 합금" # 901580358027890817
+  giga_ai_savings_maginot_world_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_maginot_world_alloys_cost_add: "마지노 행성 합금 비용" # 17371349081768541287
+  giga_ai_savings_matter_decompressor_alloys: "물질 감압기 합금" # 2303517829719813195
+  giga_ai_savings_matter_decompressor_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_matter_decompressor_alloys_cost_add: "물질 감압기 합금 비용" # 15889639855300096943
+  giga_ai_savings_mega_art_installation_alloys: "메가 예술 설치물 합금" # 5691199056218800171
+  giga_ai_savings_mega_art_installation_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_mega_art_installation_alloys_cost_add: "메가 예술 설치물 합금 비용" # 784258255043563390
+  giga_ai_savings_mega_shipyard_alloys: "메가 조선소 합금" # 7204272570127028523
+  giga_ai_savings_mega_shipyard_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_mega_shipyard_alloys_cost_add: "메가 조선소 합금 비용" # 10986598060105165830
+  giga_ai_savings_neutronium_gigaforge_alloys: "중성자늄 기가 주조소 합금" # 8151810647993173817
+  giga_ai_savings_neutronium_gigaforge_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_neutronium_gigaforge_alloys_cost_add: "중성자 물질 기가 제련소 합금 비용" # 7336337481585310739
+  giga_ai_savings_planetary_computer_alloys: "행성 컴퓨터 합금" # 11935059959145225148
+  giga_ai_savings_planetary_computer_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_planetary_computer_alloys_cost_add: "행성 컴퓨터 합금 비용" # 720224892289964440
+  giga_ai_savings_science_nexus_alloys: "과학 넥서스 합금" # 3943177064630561766
+  giga_ai_savings_science_nexus_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_science_nexus_alloys_cost_add: "과학 연결체 합금 비용" # 17572084260742968128
+  giga_ai_savings_sentry_array_alloys: "센트리 어레이 합금" # 15503156960808181395
+  giga_ai_savings_sentry_array_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_sentry_array_alloys_cost_add: "감시 초계 기지 합금 비용" # 14944579093572174904
+  giga_ai_savings_star_lifter_alloys: "별 인양 합금" # 9463027236323918261
+  giga_ai_savings_star_lifter_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_star_lifter_alloys_cost_add: "항성 리프터 합금 비용" # 2765606751121507060
+  giga_ai_savings_strategic_coordination_alloys: "전략적 조정 센터 합금" # 17606686813494725787
+  giga_ai_savings_strategic_coordination_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_strategic_coordination_alloys_cost_add: "전략 사령부 필요 합금" # 13276254642149450577
+  giga_ai_savings_succ_alloys: "S.U.C.C. 합금" # 6310635513685407393
+  giga_ai_savings_succ_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_succ_alloys_cost_add: "S.U.C.C. 합금 비용" # 1795564854363344144
+  giga_ai_savings_yggdrasil_orchid_alloys: "이그드라실 오키드 복합체 합금" # 7430306216667003997
+  giga_ai_savings_yggdrasil_orchid_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_yggdrasil_orchid_alloys_cost_add: "이그드라실 오키드 복합체 합금 소모량" # 14122424742582038735
+  giga_ai_savings_attack_moon_unity: "공격 위성 통합" # 2962374361587917478
+  giga_ai_savings_attack_moon_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_attack_moon_unity_cost_add: "공격 위성 통합 비용" # 15523820008457869378
+  giga_ai_savings_crystal_megabore_unity: "수정 메가보어 통합" # 3894388141090325098
+  giga_ai_savings_crystal_megabore_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_crystal_megabore_unity_cost_add: "크리스탈 메가보어 통합 비용" # 7588011994304811074
+  giga_ai_savings_dyson_sphere_unity: "다이슨 스피어 통합" # 13794140196089878704
+  giga_ai_savings_dyson_sphere_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_dyson_sphere_unity_cost_add: "다이슨 구체 단결력 비용" # 1321980264847882049
+  giga_ai_savings_equatorial_shipyard_unity: "적도 조선소 통합" # 2606359081799756501
+  giga_ai_savings_equatorial_shipyard_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_equatorial_shipyard_unity_cost_add: "적도 조선소 통합 비용" # 7040759655517299761
+  giga_ai_savings_maginot_world_unity: "마지노 세계 통합" # 16517319244955865912
+  giga_ai_savings_maginot_world_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_maginot_world_unity_cost_add: "마지노 세계 통합 비용" # 17252032126631693315
+  giga_ai_savings_matter_decompressor_unity: "물질 감압기 통합" # 6626409154320117826
+  giga_ai_savings_matter_decompressor_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_matter_decompressor_unity_cost_add: "물질 감압기 통합 비용" # 6391232857407708628
+  giga_ai_savings_mega_art_installation_unity: "메가 아트 설치물 통합" # 13634954387882200954
+  giga_ai_savings_mega_art_installation_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_mega_art_installation_unity_cost_add: "메가 예술 설치물 통합 비용" # 8050357177539748215
+  giga_ai_savings_mega_shipyard_unity: "거대 조선소 통합" # 10402714764166076102
+  giga_ai_savings_mega_shipyard_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_mega_shipyard_unity_cost_add: "메가 조선소 통합 비용" # 2552275686061788039
+  giga_ai_savings_neutronium_gigaforge_unity: "뉴트로늄 기가 주조소 통합" # 12026337651327048187
+  giga_ai_savings_neutronium_gigaforge_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_neutronium_gigaforge_unity_cost_add: "뉴트로늄 기가포지 통합 비용" # 3356734694964210896
+  giga_ai_savings_planetary_computer_unity: "행성 컴퓨터 통합" # 12870922063657440603
+  giga_ai_savings_planetary_computer_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_planetary_computer_unity_cost_add: "행성 컴퓨터 통합 비용" # 13592323888330687299
+  giga_ai_savings_science_nexus_unity: "과학 연결체 통합" # 18329096631851325156
+  giga_ai_savings_science_nexus_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_science_nexus_unity_cost_add: "과학 연결체 통합 비용" # 4793911821989349254
+  giga_ai_savings_sentry_array_unity: "센트리 어레이 통합" # 16253622982771465068
+  giga_ai_savings_sentry_array_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_sentry_array_unity_cost_add: "감시 배열 통합 비용" # 2350736254673766606
+  giga_ai_savings_star_lifter_unity: "항성 채취기 통합" # 4950906150072732009
+  giga_ai_savings_star_lifter_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_star_lifter_unity_cost_add: "별 채취기 통합 비용" # 16473513689304689669
+  giga_ai_savings_strategic_coordination_unity: "전략 조정 센터 통합" # 11435486422469906317
+  giga_ai_savings_strategic_coordination_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_strategic_coordination_unity_cost_add: "전략적 조정 센터 통합 비용" # 8940847166089197740
+  giga_ai_savings_succ_unity: "S.U.C.C. 통합" # 10042757036598726832
+  giga_ai_savings_succ_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_succ_unity_cost_add: "S.U.C.C. 통합 비용" # 1164761470613273757
+  giga_ai_savings_yggdrasil_orchid_unity: "이그드라실 난초 복합체 통합" # 17678734949753507493
+  giga_ai_savings_yggdrasil_orchid_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_yggdrasil_orchid_unity_cost_add: "위그드라실 난초 복합체 통합 비용" # 3668667936664779199
+  giga_ai_savings_hrae_mc_alloys: "흐라에-MC 합금" # 12899545903105099054
+  giga_ai_savings_hrae_mc_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_hrae_mc_alloys_cost_add: "흐래-엠씨 합금 소모" # 9250290275632269729
+  giga_ai_savings_hyperstructural_ass_alloys: "초구조물 건조장 합금" # 11895170679627445146
+  giga_ai_savings_hyperstructural_ass_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_hyperstructural_ass_alloys_cost_add: "초구조 조립 시설 합금 비용" # 15701468120198780180
+  giga_ai_savings_lunar_macroreplicator_alloys: "달 매크로 조립 합금" # 17719962372852777985
+  giga_ai_savings_lunar_macroreplicator_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_lunar_macroreplicator_alloys_cost_add: "월면 매크로 패브리케이터 합금 비용" # 15086847099158227584
+  giga_ai_savings_matrioshka_brain_alloys: "마트료시카 브레인 합금" # 6882215421444139799
+  giga_ai_savings_matrioshka_brain_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_matrioshka_brain_alloys_cost_add: "마트로시카 두뇌 합금 비용" # 3298941225889267414
+  giga_ai_savings_nidavellir_forge_alloys: "니다벨리르 초단조 합금" # 9508500836581109016
+  giga_ai_savings_nidavellir_forge_alloys_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_nidavellir_forge_alloys_cost_add: "니더벨리르 하이퍼포지 합금 비용" # 15000520923967194279
+  giga_ai_savings_hrae_mc_unity: "흐래-MC 통합" # 2282534198415173653
+  giga_ai_savings_hrae_mc_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_hrae_mc_unity_cost_add: "HRAE-MC 통합 비용" # 13308280255811122519
+  giga_ai_savings_hyperstructural_ass_unity: "하이퍼 구조 조립 야드 통합" # 17862148483897668437
+  giga_ai_savings_hyperstructural_ass_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_hyperstructural_ass_unity_cost_add: "과초구조 조립 시설 통합 비용" # 12295205835116898151
+  giga_ai_savings_lunar_macroreplicator_unity: "월면 거대 조립기 통합" # 12823577822660546191
+  giga_ai_savings_lunar_macroreplicator_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_lunar_macroreplicator_unity_cost_add: "월면 거대 조립기 통합 비용" # 14059644125391811814
+  giga_ai_savings_matrioshka_brain_unity: "마트료시카 브레인 통합" # 17016618460973781622
+  giga_ai_savings_matrioshka_brain_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_matrioshka_brain_unity_cost_add: "마트료시카 브레인 통합 비용" # 17691378694211159703
+  giga_ai_savings_nidavellir_forge_unity: "니더벨리르 하이퍼 단조 통합" # 3823139084345714282
+  giga_ai_savings_nidavellir_forge_unity_desc: "$giga_ai_savings_desc$" # 17280909679205383672
+  mod_giga_nidavellir_forge_unity_cost_add: "니더벨리르 하이퍼포지 통합 비용" # 14077661919850581412

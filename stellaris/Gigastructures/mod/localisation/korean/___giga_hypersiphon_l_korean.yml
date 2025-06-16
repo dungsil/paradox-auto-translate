@@ -1,0 +1,222 @@
+﻿l_korean:
+  giga_hypersiphon_power_estimate: "§H계산된 전력 추정:§!\n- 최대 함대 수용량: §Y[this.GigaGetNavalCap]§!\n- 사용 중인 함대 수용량: §Y[this.GigaGetUsedNavalCap]§!\n- 현재 함대 전투력: §Y[this.GigaGetFleetPower]§!\n\n- 추정 전력: §Y[This.giga_hypersiphon_incursion_power]§!" # 5212805714693076579
+  giga_project_hypersiphon_portal: "슈라우드 침입 조사" # 7575950448591647876
+  giga_project_hypersiphon_portal_DESC: "우리를 공격한 적대적인 사이오닉 개체들이 사용한 수수께끼의 장막 차원문 잔해가 우리의 $name_psy_siphon$ 네트워크를 더 잘 조정할 수 있게 해줄 수도 있습니다." # 17875003929319027072
+  giga_tech_shroud_conduit: "장막 직통 연결" # 908552565637210679
+  giga_tech_shroud_conduit_desc: "깊은 명상과 연구 끝에, 우리 텔레파스들은 장막으로 알려진 영역으로 안정적인 터널을 여는 것이 가능할지도 모른다고 믿습니다.\n규모는 아원자적이지만, 이 터널을 제어하여 사용하면 위험하고 비싼 의식에 한정되는 에너지의 이점을 우리 사이오닉 인구가 얻도록 가능하게 할 것입니다." # 10184543992658010242
+  giga_tech_psychic_hypersiphon: "통로 개방" # 10236533901644388407
+  giga_tech_psychic_hypersiphon_desc: "장막은 이상한 영역입니다. 새로운 격리 기술과 막대한 텔레파시 능력을 결합하여, 거시적 규모로 우리 현실을 장막의 영역과 직접 연결하는 것이 가능해질 수 있습니다. 그렇게 하는 것은 우리의 장막 도관을 크게 개선하여, 우리의 번영을 새로운 경지로 이끌 수 있습니다. 원치 않는 에너지의 누출 가능성은 피할 수 없다고 이론화되어 있지만, 기껏해야 최소한일 뿐입니다." # 12943170190646253216
+  giga_dialog.1401.name: "$name_psy_siphon$ 건설" # 3117913472088756939
+  giga_dialog.1401.desc: "우리 기술자들이 미래의 $name_psy_siphon$ 건설 부지를 마련했습니다. 이것은 장막 자체로부터 에너지를 추출할 것입니다!\n\n일단 완공되면, 우리 행성 $building_giga_shroud_conduit$ 시설의 힘이 크게 강화되어, 우리를 새로운 번영의 높이로 이끌 것입니다." # 3148504257973463534
+  giga_dialog.1401.a: "알겠습니다." # 12076608091024442278
+  giga_dialog.1402.name: "$name_psy_siphon$ 봉쇄 구조체" # 503526957923930975
+  giga_dialog.1402.desc: "$name_psy_siphon$의 격리 프레임이 이제 설치되었습니다!\n\n이것은 끓어오르는 순수한 사이오닉 에너지 구체를 담도록 설계되었으며, 우리 텔레파시 능력자들이 장막의 에너지를 전달하려는 노력의 중심을 형성합니다.\n\n마지막 단계는 포털 자체를 여는 데 사용되는 장비의 건설이 될 것입니다." # 7841682237751717333
+  giga_dialog.1402.a: "의식 재료를 수집하십시오." # 16142329605289768995
+  giga_dialog.1404.name: "$name_psy_siphon$ 완료됨" # 17732026646398709831
+  giga_dialog.1404.desc: "[giga_system.GetName] 근처에 우리의 현실과 장막을 연결하는 거대한 차원문이 완전히 활성화되었습니다!\n\n이 인공적인 정신 세계 관문에서 이제 순수한 에너지가 쏟아져 나오고 있으며, 우리의 텔레파스들은 이 직접적인 연결이 그들의 사이오닉 능력에 부여하는 거대한 혜택을 이미 느끼고 있습니다!" # 1556155799240747387
+  giga_dialog.1404.a: "우리는 비물질계의 주인이다." # 7046362828127611465
+  psychic_hypersiphon_0: "$gc_mega$$name_psy_siphon$ 건설 현장" # 11675704139746606184
+  psychic_hypersiphon_0_DESC: "이 건설 현장은 향후 $name_psy_siphon$ 건설을 위한 기지로 사용될 것입니다." # 5622895093915284072
+  psychic_hypersiphon_0_MEGASTRUCTURE_DETAILS: "$giga_list_category_megastructure$ - $giga_list_category_psionics$ - $giga_list_category_advanced_resource_production$\n§Y장막§! 차원문을 열어 §Y$building_giga_shroud_conduit$§! 건물들을 강화시키는. - $giga_list_potentially_hazardous$\n추가 하이퍼 사이펀은 각 건물에 대한 효과를 증가시킬 것입니다.\n§L우리 우주와 장막을 연결하여 우리의 사이오닉 능력을 강화시키는 거대한 차원문." # 2627682609682809173
+  psychic_hypersiphon_1: "$name_psy_siphon$ 봉쇄 구조체" # 503526957923930975
+  psychic_hypersiphon_1_DESC: "이 거대한 구조물은 장막에서 추출된 에너지를 수용하고 정제하는 중심핵 역할을 할 것입니다. 중앙 틀은 순수 사이오닉 에너지로 만들어진 작은 \"별\"을 수용하고 안정화하며, 강력한 사이오닉 능력자들 집단의 초점 역할을 수행할 것입니다." # 9467987177559000050
+  psychic_hypersiphon_2: "$name_psy_siphon$" # 9961102777592129408
+  psychic_hypersiphon_2_DESC: "완전히 작동되고 안정화된 $name_psy_siphon$. 우리 현실과 장막을 연결하는 차원문이 완전히 활성화되었으며, 순수한 장막 정수를 방출하고 있습니다." # 970425237947694222
+  giga_psy_siphon_interaction_title: "§H기능 해금:§! 강화된 $building_giga_shroud_conduit$" # 8551873534109536700
+  giga_psy_siphon_interaction_desc: "§H강화된 $building_giga_shroud_conduit$§!\n건설된 $name_psy_siphon$ 건물당, £building£ §Y$building_giga_shroud_conduit$§! 건물은 추가 일자리를 제공하고, 행성의 정신 능력자 팝마다 £sr_psionic_sublimate£ §Y$sr_psionic_sublimate$§!를 생산합니다.\n\n이는 도관에 약간의 §R불안정성§!을 발생시킬 수 있으나, 중대한 영향을 미칠 가능성은 낮습니다..." # 11118088419896949305
+  psychic_hypersiphon_3_aeternum: "이터나이트 $name_psy_siphon$" # 9461123274445005512
+  psychic_hypersiphon_3_aeternum_DESC: "태고의 옛날 에테르눔이 건설한, 완전히 가동되고 안정화된 $name_psy_siphon$입니다. 우리의 현실과 장막을 연결하는 차원문은 완전히 활성화되었으며, 불안정의 징후 없이 순수한 장막 정수를 방출하고 있습니다." # 1546209071885463366
+  building_giga_shroud_conduit: "장막 도관" # 6168778918929692188
+  building_giga_shroud_conduit_desc: "거대한 사이오닉 시설이 슈라우드 에너지를 강제로 추출하여 행성 표면에 재분배하고, 염동력 능력을 크게 증진시킵니다." # 16768308049730221374
+  building_giga_shroud_conduit_hypersiphon_hint: "\n§Y$psychic_hypersiphon_2$§! 거대구조물을 건설하면, 추가적인 일자리를 제공하고 행성 내 각 £pop£ §Y사이오닉 팝§!마다 £sr_psionic_sublimate£ §Y$sr_psionic_sublimate$§!를 산출합니다." # 16117983565825785557
+  building_giga_shroud_conduit_hypersiphon_safe_effect: "\n이 건물에 영향을 주는 사이킥 하이퍼 사이펀: §Y[owner.GetHypersiphonNetworkSize]§!\n\n§Y[this.GetHypersiphonPopCount]§! 사이오닉 팝으로부터 £sr_psionic_sublimate£ §Y$sr_psionic_sublimate$§!를 생산합니다." # 14623859410949491679
+  building_giga_shroud_conduit_hypersiphon_effect: "\n이 건물에 힘을 실어주는 사이킥 하이퍼사이펀: §Y[owner.GetHypersiphonNetworkSize]§!\n\n§Y[this.GetHypersiphonPopCount]§! 사이오닉 팝으로부터 £sr_psionic_sublimate£ §Y$sr_psionic_sublimate$§! 와 §R불안정§!을 생성합니다." # 2380545363085477127
+  decision_hypersiphon_mass_summon: "$shroud_summoned_army_plural$ 대규모 소환" # 16514828685061778632
+  decision_hypersiphon_mass_summon_effect: "§G[owner.GetHypersiphonSummonCount]§! §Y$shroud_summoned_army_plural$§!를 소환합니다. 행성에 있는 [owner.GetGigaShroudConduitJobIcon] §Y[owner.GetGigaShroudConduitJob]§! 일자리 및 £pop£ §Y사이오닉 팝§!의 숫자에 기반합니다." # 1789107311510573873
+  decision_hypersiphon_mass_summon_desc: "복잡한 의식 준비와 막대한 양의 농축된 $sr_psionic_sublimate$를 사용하여, 장막 실체들을 대규모로 소환할 수 있습니다." # 17271058281921498036
+  job_giga_shroud_conduit_worker: "장막 도관 기술자" # 6599587924167071663
+  job_giga_shroud_conduit_worker_plural: "장막 도관 기술자들" # 8759060127003500098
+  job_giga_shroud_conduit_worker_desc: "$building_giga_shroud_conduit$에 의해 열린 미세한 장막 터널들의 관리를 맡은 전문가들." # 15532566115525976524
+  job_giga_shroud_conduit_worker_effect_desc: "£job_giga_shroud_conduit_worker£ 또는 $job_giga_shroud_conduit_worker_plural$는 행성 생산성을 증진시키기 위해 £energy£ §Y$energy$§!를 조율하여 £unity£ §Y$unity$§!를 생산합니다." # 5836586306097277525
+  mod_job_giga_shroud_conduit_worker_add: "$job_giga_shroud_conduit_worker$ 일자리" # 264325895743606776
+  mod_job_giga_shroud_conduit_worker_per_pop: "§G+1§! $VALUE$ 팝당 $job_giga_shroud_conduit_worker$ 직업" # 17227557514280197309
+  mod_job_giga_shroud_conduit_worker_per_pop_short: "\n§G+1§! $VALUE$ £pop£당 £mod_job_giga_shroud_conduit_worker_add£" # 3030728465513581531
+  job_giga_shroud_conduit_worker_icon: "£장막 도관 작업자£" # 11925301240567771890
+  job_giga_shroud_conduit_priest: "장막 소통자" # 4629448911500272706
+  job_giga_shroud_conduit_priest_plural: "장막 교감자" # 14820941605002688210
+  job_giga_shroud_conduit_priest_desc: "$building_giga_shroud_conduit$에 의해 생성된 섬세한 연결들을 관리하는 임무를 맡은 사이오닉 성직자" # 3661239057354435133
+  job_giga_shroud_conduit_priest_effect_desc: "£job_giga_shroud_conduit_priest£ $job_giga_shroud_conduit_priest_plural$은 £energy£ §Y$energy$§!을(를) 사용하여 £unity£ §Y$unity$§!을(를) 생산하고, £amenities£ $MOD_PLANET_AMENITIES_ADD$을(를) 제공하며, 행성 생산성을 증진합니다." # 5602535296183819399
+  mod_job_giga_shroud_conduit_priest_add: "$job_giga_shroud_conduit_priest$ 직업" # 10464234356755249936
+  mod_job_giga_shroud_conduit_priest_per_pop: "§G+1§! $VALUE$ 팝당 $job_giga_shroud_conduit_priest$ 직업" # 10292264916626203043
+  mod_job_giga_shroud_conduit_priest_per_pop_short: "\n§G+1§! £mod_job_giga_shroud_conduit_priest_add£ $VALUE$ £pop£당" # 6482663746549720518
+  job_giga_shroud_conduit_priest_icon: "기가 장막 도관 성직자" # 18233715836081949096
+  job_giga_shroud_conduit_drone: "장막 도관 드론" # 17591958876384422934
+  job_giga_shroud_conduit_drone_plural: "장막 도관 드론" # 7021363258338885928
+  job_giga_shroud_conduit_drone_desc: "$building_giga_shroud_conduit$에서 생성된 섬세한 연결망 관리에 특화된 사이오닉 활성 드론입니다." # 14753991932469849009
+  job_giga_shroud_conduit_drone_effect_desc: "£job_giga_shroud_conduit_drone£ $job_giga_shroud_conduit_drone_plural$는 £energy£ §Y$energy$§!를 전달하여 £unity£ §Y$unity$§!를 생산하고 행성 생산성을 증폭시킵니다." # 16339433606235388904
+  mod_job_giga_shroud_conduit_drone_add: "$job_giga_shroud_conduit_drone$ 직업" # 14455696916857428472
+  mod_job_giga_shroud_conduit_drone_per_pop: "§G+1§! $VALUE$ 팝당 $job_giga_shroud_conduit_drone$ 일자리" # 13578358290063055787
+  mod_job_giga_shroud_conduit_drone_per_pop_short: "\n§G+1§! $VALUE$ £pop£당 £mod_job_giga_shroud_conduit_worker_add£" # 3030728465513581531
+  job_giga_shroud_conduit_drone_icon: "£장막_도관_드론£" # 8499759240693934815
+  giga_situation_hypersiphon_tracker_type: "$name_psy_siphon$ 추적기" # 4296372279971823380
+  giga_situation_hypersiphon_tracker: "[target.planet.GetName] $name_psy_siphon$ 추적" # 1169118464959471340
+  giga_situation_hypersiphon_tracker_desc: "이 $name_psy_siphon$ 관련 이벤트를 관리합니다." # 9895323021649262158
+  giga_situation_hypersiphon_instability: "장막 도관 불안정" # 9164444101278834560
+  giga_situation_hypersiphon_instability_type: "$giga_situation_hypersiphon_instability$" # 2340342339194256326
+  giga_situation_hypersiphon_instability_desc: "우리 $name_psy_siphon$에 의해 생성된 거시적 사이오닉 터널은 장막의 국지적 구조 내에서 요동을 야기하고 있습니다.\n측정치에 따르면 활동 급증은 우리의 초기 예측을 훨씬 능가하며, 에너지 수준이 너무 높게 상승할 경우 우리는 부정적인 효과를 경험하기 시작할 수 있습니다." # 2134900454636905384
+  giga_situation_hypersiphon_instability_monthly_change_tooltip: "£mod_black_hole£ §Y장막 통로 불안정§!은 £building£ §Y$building_giga_shroud_conduit$§! 건물이 §Y$name_psy_siphon$§! 거대 구조물에 의해 강화되어 발생합니다." # 16564555368973626304
+  giga_situation_hypersiphon_instability_progress_instability: "$building_giga_shroud_conduit$ 건물" # 3881404681529715793
+  giga_situation_hypersiphon_instability_progress_decay: "자연 쇠퇴" # 9316639928995439245
+  giga_situation_hypersiphon_instability_progress_mitigate: "$giga_situation_hypersiphon_instability_approach_mitigate$" # 8938708543689017059
+  giga_situation_hypersiphon_instability_progress_encourage: "$giga_situation_hypersiphon_instability_approach_encourage$" # 13769099532561025406
+  giga_situation_hypersiphon_instability_stage_1: "§E경미한§! 장막 불안정성" # 18375792824964362435
+  giga_situation_hypersiphon_instability_stage_1_effect: "혼란스러운 장막 관련 사건이 §Every rarely§! 발생할 수 있습니다." # 2426323209113222707
+  giga_situation_hypersiphon_instability_stage_2: "§GLow§! 장막 불안정" # 3583915751820421171
+  giga_situation_hypersiphon_instability_stage_2_effect: "혼란을 일으킬 수 있는 장막 관련 사건이 §G드물게§! 발생할 수 있습니다." # 5589353600220696945
+  giga_situation_hypersiphon_instability_stage_3: "§Y보통§! 장막 불안정" # 5893070804520074032
+  giga_situation_hypersiphon_instability_stage_3_effect: "혼란스러운 장막 관련 사건들이 §Y드물게§! 발생할 수 있습니다." # 15087415567019364371
+  giga_situation_hypersiphon_instability_stage_4: "§H높음§! 장막 불안정" # 2708252325373436899
+  giga_situation_hypersiphon_instability_stage_4_effect: "혼란스러운 장막 관련 사건들이 §H자주§! 발생할 것입니다!" # 767433557654220094
+  giga_situation_hypersiphon_instability_stage_5: "§R극심한§! 장막 불안정성" # 9362097969723925832
+  giga_situation_hypersiphon_instability_stage_5_effect: "혼란스러운 장막 관련 사건들이 §R매우 자주§! 발생할 것입니다." # 5836906982887194419
+  giga_situation_hypersiphon_instability_approach_neutral: "관찰" # 330157039100913708
+  giga_situation_hypersiphon_instability_approach_neutral_desc: "장막은 신비로우며 제대로 이해되지 않은 영역입니다. 무언가가 오고 있음을 알고 있지만, 형체가 없고 덧없습니다. 계속 관찰할 것입니다." # 7796954107365410271
+  giga_situation_hypersiphon_instability_approach_neutral_effect: "우리는 장막 내의 변동을 계속 관측할 것입니다." # 14063427606858624482
+  giga_situation_hypersiphon_instability_approach_encourage: "격려" # 11699803272632471861
+  giga_situation_hypersiphon_instability_approach_encourage_desc: "우리의 위대함을 가로막는 자들을 분노하게 만들지라도, 이 힘을 남김없이 활용하는 것이 필수적입니다." # 902720651693846732
+  giga_situation_hypersiphon_instability_approach_encourage_effect: "[GetGigaShroudConduitJobIcon]§Y[GetGigaShroudConduitJob]§! 직업은 생산량 증진에 §G더 효과적§!입니다. 하지만 상황 진행 속도가 §R25%§! 빨라지며, 부정적인 이벤트가 더 자주 발생합니다.\n" # 14036638900964069131
+  giga_situation_hypersiphon_instability_approach_mitigate: "완화" # 16291536178495777293
+  giga_situation_hypersiphon_instability_approach_mitigate_desc: "그들의 분노를 사지 않도록, 장막과 그 거주자들에게 미치는 영향을 최소화해야 합니다." # 2605026131174705536
+  giga_situation_hypersiphon_instability_approach_mitigate_effect: "상황 진행 속도가 §G50%§! 감소합니다! 부정적 사건 발생 빈도가 감소하며, 하지만 [GetGigaShroudConduitJobIcon]§Y[GetGigaShroudConduitJob]§! 작업이 생산량 증폭에 §R덜 효과적§!입니다.\n" # 1252802282490345179
+  giga_situation_hypersiphon_instability_complete_effect: "또 다른 대규모 장막 침공이 우리 영토 내 어딘가에서 발생할 것입니다." # 6540862737232360873
+  giga_situation_hypersiphon_instability_complete_effect_unknown: "이 에너지들이 증폭되도록 방치할 경우 그 결과는 현재 미지수입니다." # 11790479204735734805
+  giga_situation_hypersiphon_instability_fail_effect: "성위가 다시 평온해집니다." # 855660318542266676
+  giga_hypersiphon.002.name: "보이지 않는 흐름" # 9000603587882705629
+  giga_hypersiphon.002.desc: "우리 텔레파스들의 마음속에 부드러운 불안감으로 시작되었지만, 그것은 빠르게 더 큰 것이 되었습니다.\n\n이제 분명한 것은 장막의 실체로부터 직접 에너지를 이 정도의 양으로 수집하는 것이 우리가 처음 예상했던 것보다 더 많은 난기류를 그 흐름 내에 유발하고 있다는 것입니다.\n\n현재로서는 이러한 교란이 미래에 우리에게 정확히 무엇을 의미할지 확신할 수 없지만, 강도가 계속해서 증가한다면 그곳에 머무르는 힘들의 주의를 끌기 시작할 수 있습니다.\n\n일단, 우리는 관찰할 것입니다." # 7716896503483788441
+  giga_hypersiphon.002.a: "우려스러운." # 8152766879692455040
+  giga_hypersiphon.010.name: "장막 사이펀 오작동" # 17862925818667671240
+  giga_hypersiphon.010.desc: "[hypersiphon_target.GetName]의 $building_giga_shroud_conduit$ 승무원들이 [hypersiphon_target.GetPlanetMoon]에서 막대한 사이오닉 에너지 급증을 보고하고 있습니다. 이는 표면에 물리적인 교란으로 나타나고 있습니다.\n\n피해 지역은 사용 불가능하게 되었으며, 수복하려면 집중적인 노력이 필요할 것입니다." # 7314111853197077753
+  giga_hypersiphon.010.a: "불편하군." # 6531889656728475819
+  giga_hypersiphon.010.result.1: "[hypersiphon_target.GetName]의 일부 지역이 영체성 폐기물에 오염되었습니다." # 8698330887159039738
+  giga_hypersiphon.010.result.2: "[hypersiphon_target.GetName]의 넓은 지역이 외계 에테르 폐기물로 오염되었습니다." # 13607920388304978136
+  giga_hypersiphon.010.result.3: "[hypersiphon_target.GetName] 표면에 변칙적인 구역이 형성되어 우리 [hypersiphon_target.owner.GetScientistPlural]을 크게 당황시키고 있습니다." # 18420147021505988757
+  giga_hypersiphon.010.result.4: "$giga_hypersiphon.010.result.3$" # 10063266695211712158
+  giga_hypersiphon.010.result.5: "[hypersiphon_target.GetName]의 거대한 지역이 격렬한 사이오닉 폭풍 시스템에 휩싸여 표면 전역에 큰 피해를 입혔지만, 장막과의 연결고리 역할을 하고 있습니다." # 17018872074953817787
+  giga_hypersiphon.020.name: "[hypersiphon_target.GetName]에서 장막 소" # 17505084887947803073
+  giga_hypersiphon.020.desc.first: "[hypersiphon_target.GetName] 성계에 거대한 사이오닉 폭풍이 발생하여 우주의 작전 수행에 큰 혼란을 야기하고 있습니다.\n\n기묘하게도, 겉보기에는 수동적인 다수의 장막 존재들이 해당 성계에 출현했습니다. 우리 원거리 정신 감응자들은 이들을 \"장막 소(Shroud Cows)\"라고 이름 붙였는데, 이는 그들이 티얀키와 놀라울 만큼 닮았기 때문입니다. 신체적 외형과 사이오닉 노래 둘 다에서 말이죠." # 3011175525841364139
+  giga_hypersiphon.020.desc.normal: "쉬라우드 생명체가 [hypersiphon_target.GetName] 성계에 출현했으며, 교란성 사이오닉 폭풍도 다시 한번 동반되었습니다." # 3003750763583151421
+  giga_hypersiphon.020.desc.damage: "또 다른 사이오닉 폭풍이 [hypersiphon_target.GetName] 성계에 형성되었습니다. 더 많은 슈라우드 카우가 또한 출현했으며, 현지 선박과 시설에 대해 즉시 적대적입니다." # 5001341413291880864
+  giga_hypersiphon.020.a: "기묘하군..." # 1832928615989040665
+  giga_hypersiphon.020.b: "더 있다고?" # 6913718677049570122
+  giga_hypersiphon.020.c: "전투 태세!" # 13228870924290481047
+  giga_hypersiphon.020.effect: "[hypersiphon_target.GetName]에 사이오닉 폭풍이 발생했으며, 장막 동물군을 함께 데려왔습니다!" # 16754707577048348696
+  giga_hypersiphon.022.name: "[hypersiphon_target.GetName]에서 장막 교란 진정" # 685345915074054336
+  giga_hypersiphon.022.desc: "[hypersiphon_target.GetName] 성계의 사이오닉 폭풍이 사라지고 작전이 정상으로 돌아왔습니다.\n\n그와 함께 나타났던 수수께끼의 형상들도 흔적도 없이 사라졌습니다." # 14235532120605014934
+  giga_hypersiphon.022.a: "일단 이해했습니다." # 12398273382034236017
+  giga_hypersiphon.030.name: "[hypersiphon_target.GetName]에서 파멸의 환상" # 15244350541941595799
+  giga_hypersiphon.030.desc: "[hypersiphon_target.GetName]의 주민들은 최근 끔찍한 꿈과 다가올 재앙의 환영에 시달리고 있습니다.\n\n[hypersiphon_target.GetPlanetMoon]의 여러 산업 부문에서는 기묘한 일들이 보고되었습니다. 사이오닉 피드백으로 인해 사망률이 증가하고 기계 고장이 속출하고 있습니다.\n\n저희 텔레파시 능력자들은 강력한 장막 관련 존재가 자리를 잡았으며, 그 효과가 사라지기까지 시간이 걸릴 수 있다고 보고했습니다." # 8115348899937962185
+  giga_hypersiphon.030.a: "걱정스럽군." # 7192134136509792973
+  giga_hypersiphon.030.result.1.1: "죽음과 파괴가 이 세계에 찾아왔습니다." # 8521238897501432143
+  giga_hypersiphon.030.result.1.2: "이 행성 전역에 걸쳐 막대한 파괴가 초래되었습니다." # 8584975776690735707
+  giga_hypersiphon.030.result.1.3: "이 세계에 광범위한 파괴가 덮쳐왔습니다." # 2617981134716581363
+  giga_hypersiphon.040.name: "[hypersiphon_target.GetName]에 장막 침공 발생!" # 11347680725119828582
+  giga_hypersiphon.040.desc: "적대적인 장막 실체가 [hypersiphon_target.GetName] 성계에서 나타났습니다!\n\n초기 보고서에 따르면 그들은 명확한 목적 없이 불규칙하게 이동하며, 시야에 들어오는 모든 것을 공격하고 있습니다. 우리 염력 사용자들은 이 유령들이 본래 차원과의 연결이 부족하며, 생명 에너지의 원천 없이는 그들의 에너지가 결국 우주 공간으로 소멸할 것이라고 추측합니다." # 3563149221649256554
+  giga_hypersiphon.040.a: "유감이군." # 6660131399564793137
+  giga_hypersiphon.040.result: "§L악의와 혼란스러운 목적을 지닌 방문자들...§!" # 7551182454786638116
+  giga_hypersiphon.100.name: "[hypersiphon_target.GetName]에 대규모 장막 침공!" # 17494046923774474740
+  giga_hypersiphon.100.desc: "적대적인 수많은 장막 존재들이 [hypersiphon_target.GetName] 성계에 나타났습니다. 일종의 균열 근처에 무리지어 있습니다.\n\n그들은 성계 내 우리 시설을 향해 직접적인 공격을 가하는 것으로 보이며, 이는 어떤 형태의 조직적인 행동을 시사합니다. 우리 정신 감응 능력자들은 그들이 모성 차원과 지속적인 연결을 유지함으로써 우리 차원에서 무기한 활동하며 성계 경계를 넘어 방랑할 수도 있다고 추측합니다." # 10292586770529774882
+  giga_hypersiphon.100.a: "즉시 반격 준비!" # 5589526174232831776
+  giga_hypersiphon.100.restart: "상황 재시작: §Y$giga_situation_hypersiphon_instability$§!\n\n§M장막 너머에서, 악의와 분노를 품고...§!" # 5405212064778400497
+  giga_hypersiphon.101.name: "사이오닉 에너지 스파이크" # 2657392703072818715
+  giga_hypersiphon.101.desc: "[hypersiphon_target.owner.GetName] 내에 위치한 [hypersiphon_target.GetName] 성계에서 거대한 에너지 신호가 감지되었습니다. 초기 보고서에 따르면, 일종의 적대적 현신들이 균열에서 출현하여 성계 내 모든 것을 공격하고 있다고 합니다." # 4282220556376656860
+  giga_hypersiphon.101.a: "걱정스럽군." # 7192134136509792973
+  giga_hypersiphon.103.name: "장막이 집어삼킨 식민지" # 15601291078464114012
+  giga_hypersiphon.103.desc: "장막 존재들의 지속적인 공격으로 [This.GetName]의 정착지가 파괴되었고, 행성은 두터운 사이오닉 폭풍 구름에 휩싸였습니다.\n표면에서 탐지 가능한 생명체가 모두 쓸려나간 것으로 보이며, 행성 측정 결과에 따르면 기괴하고 물리 법칙을 거스르는 상황이 이제 전역에 만연해 있습니다." # 5908419330331300449
+  giga_hypersiphon.103.a: "비극이군요." # 3424476103130214559
+  giga_hypersiphon.105.name: "장막 침입 격퇴됨" # 12007495750507763053
+  giga_hypersiphon.105.desc.first: "아군이 [fromfrom.solar_system.GetName] 성계에 있는 장막 차원 균열을 성공적으로 폐쇄했습니다. 장막과의 연결이 끊기자, 그곳에서 출현한 적대적인 존재들은 빠르게 소멸하며 무력화되었습니다.\n\n한 가지 의문이 남습니다. 이 문제에 대한 우리의 장기적인 해결책은 무엇일까요? 불안정성은 여전하며, 상황이 변하지 않는다면 이는 다시 발생할 것입니다. 침입자들의 희미한 흔적이 폐쇄된 구멍 주변에 여전히 남아있으며, 아군 함선에 남은 잔해를 연구할 수 있습니다.\n\n아마 그것이 우리가 찾는 해답을 가져다줄지도 모릅니다." # 2711366151645682079
+  giga_hypersiphon.105.desc.other: "우리 병력이 [fromfrom.solar_system.GetName] 항성계의 장막 균열을 성공적으로 붕괴시켰습니다. 장막과의 연결이 끊기자, 거기서 출현한 적대적 존재들은 빠르게 소멸하며 무해해졌습니다.\n\n장막은 여전히 동요하고 있습니다. 우리 일은 끝이 없어 보입니다." # 7472937477766873058
+  giga_hypersiphon.105.a: "흥미로운 기회..." # 18274838727484595688
+  giga_hypersiphon.105.b: "항상 경계하는." # 4666707824201466400
+  giga_hypersiphon.106.name: "장막 차원문 폐쇄됨" # 10297395855790964963
+  giga_hypersiphon.106.desc: "아군 병력이 [fromfrom.solar_system.GetName] 항성계 내 에너지 균열을 성공적으로 붕괴시켰습니다.\n근원과의 연결이 단절되면서 균열에서 출현했던 적대적 실체들은 급속히 소멸했으며, 무해해졌습니다.\n\n탐지 결과에 따르면 해당 구역은 이제 안전하며, 유의미한 잔류 에너지 반응은 없습니다." # 16634874934828747510
+  giga_hypersiphon.106.a: "바라건대, 계속 그러기를 바랍니다." # 2459109972967732457
+  giga_hypersiphon.107.name: "장막 침입 격퇴됨" # 12007495750507763053
+  giga_hypersiphon.107.desc.first: "[from.GetName] 소속 함대가 [fromfrom.solar_system.GetName] 성계에서 성공적으로 장막 균열을 붕괴시켰습니다. 장막과의 연결이 끊기면서 그곳에서 출현했던 적대적 존재들은 빠르게 소멸되어 무해한 상태가 되었습니다.\n\n하지만 한 가지 의문이 남습니다. 이 문제에 대한 장기적인 해결책은 무엇일까요? 불안정성은 여전히 남아 있으며, 이대로라면 같은 일이 다시 발생할 것입니다. 침입자들의 희미한 신호가 폐쇄된 구멍 주변에 여전히 남아 있으며, 우리 함선에 남은 잔류물을 연구할 수 있습니다.\n\n어쩌면 그것이 우리가 찾는 해답을 줄지도 모릅니다." # 15448673261773017978
+  giga_hypersiphon.107.desc.other: "[from.GetName]의 병력들이 [fromfrom.solar_system.GetName] 성계의 장막 균열을 성공적으로 무너뜨렸습니다.\n\n장막과의 연결이 단절되면서 그곳에서 나타난 적대적 실체들은 빠르게 소멸했고, 무해해졌습니다.\n\n장막은 여전히 요동치고 있습니다. 앞으로 또 다른 침입이 발생할 가능성이 높아 보입니다." # 16946082979386220086
+  giga_hypersiphon.107.a: "흥미로운 기회..." # 18274838727484595688
+  giga_hypersiphon.107.b: "어쩌면 이번에는 계속 닫혀 있을지도 모르겠군..." # 17399536065976022283
+  giga_hypersiphon.108.name: "장막 차원문 폐쇄됨" # 10297395855790964963
+  giga_hypersiphon.108.desc: "[from.GetName]에 소속된 병력이 [fromfrom.solar_system.GetName] 성계의 에너지 균열을 성공적으로 붕괴시켰습니다. 기원과의 연결이 끊기자, 그곳에서 출현했던 적대적 개체들은 빠르게 소멸하여 무해해졌습니다.\n\n보고에 따르면 해당 지역은 이제 안전하며, 유의미한 에너지 반응 잔여물이 없습니다." # 14993651439248797617
+  giga_hypersiphon.108.a: "알겠습니다." # 12076608091024442278
+  giga_hypersiphon.109.name: "성막 차원문 분석 완료" # 2910520441463838145
+  giga_hypersiphon.109.desc: "장막 침입자들이 남긴 잔해에 대한 예비 분석 결과, 우리 장막 전도체와 초과흡수기가 장막의 흐름에 어떻게 영향을 미치는지에 대한 일부 통찰을 얻었습니다.\n\n안전 조치를 신중하게 적용하고 정밀하게 수행된 의식은 우리 연결의 부정적인 효과를 완화할 수 있게 해줄 것입니다. 하지만 추가적인 주의를 기울이면 우리 전도체 시설의 경제적 이득이 감소할 것입니다.\n\n대안으로, 발생하고 있는 피해를 무시하고 대신 수확 가능한 에너지를 끌어들여 전도체 부스팅에 집중할 수 있습니다. 이는 우리 전도체의 이득을 향상시키겠지만, 부정적인 반응이 더 자주 발생하게 할 수도 있습니다." # 3402340618043231944
+  giga_hypersiphon.109.a: "흥미롭군." # 9903619114818313320
+  giga_hypersiphon.109.effect: "§Y$giga_situation_hypersiphon_instability$§! 상황에 대한 §Y$giga_situation_hypersiphon_instability_approach_mitigate$§! 및 §Y$giga_situation_hypersiphon_instability_approach_encourage$§! 접근법을 해금합니다." # 7502082693502389554
+  d_giga_hypersiphon_goop: "£blocker£ 장막 방출" # 9737803059607419923
+  d_giga_hypersiphon_goop_desc: "압축된 사이오닉 정수와 에너제틱 잔류물, 존재론적으로 극도로 유독합니다." # 13026125350356270030
+  d_giga_hypersiphon_psionic_anomaly: "£blocker£ 변칙적인 지대" # 12647151851085189977
+  d_giga_hypersiphon_psionic_anomaly_desc: "자연 법칙이 바람에 흔들리는 나뭇가지처럼 휘어지는 지역." # 8950370365693403722
+  d_giga_hypersiphon_psionic_supercell_planet: "£blocker£ 사이오닉 슈퍼셀" # 18070337814686650422
+  d_giga_hypersiphon_psionic_supercell_planet_desc: "행성 표면의 광대한 지역을 집어삼켜 거주 불가능하게 만들고, 전체 주민들의 정신에 사이오닉 충격파를 보내는 맹렬한 폭풍." # 4106254742023549463
+  d_giga_hypersiphon_psionic_supercell_artificial: "£blocker£ 사이오닉 시스템 간섭" # 7567273111365263984
+  d_giga_hypersiphon_psionic_supercell_artificial_desc: "국지 시스템에 상당한 간섭을 야기하는 거대한 사이오닉 이상 현상입니다. 전 주민의 집단 의식을 통해 충격파가 빈번히 퍼져나갑니다." # 10389889448024049202
+  NAME_Giga_Hypersiphon_Cows: "떠도는 환영" # 3066342240688141642
+  NAME_Giga_Hypersiphon_Cows_Fleet: "장막 소" # 1473354424425235148
+  giga_hypersiphon_shroud_cow_cow: "장막 소 여족장" # 17638263355339889355
+  NAME_Giga_Hypersiphon_Tiyanki_Cow: "$giga_hypersiphon_shroud_cow_cow$" # 6277222833354628258
+  giga_hypersiphon_shroud_cow_bull: "장막 소 수장" # 11495623613628441577
+  NAME_Giga_Hypersiphon_Tiyanki_Bull: "$giga_hypersiphon_shroud_cow_bull$" # 11309393575812273173
+  giga_hypersiphon_shroud_cow_hatchling: "장막 소 새끼" # 17786139825486846643
+  NAME_Giga_Hypersiphon_Tiyanki_Hatchling: "$giga_hypersiphon_shroud_cow_hatchling$" # 890132314714779553
+  giga_hypersiphon_shroud_cow_calf: "장막 소 유체" # 10277528160809051917
+  NAME_Giga_Hypersiphon_Tiyanki_Calf: "$giga_hypersiphon_shroud_cow_calf$" # 4154458475647819760
+  NAME_Giga_Hypersiphon_Incursion: "장막 존재" # 15232393780914915410
+  NAME_Giga_Hypersiphon_Incursion_Fleet: "적대적 망령" # 15929391974137895085
+  giga_hypersiphon_shroud_entity_small: "장막 정령" # 1175725318004927489
+  giga_hypersiphon_shroud_entity_small_design: "경미한 장막 발현" # 14562965946882341604
+  giga_hypersiphon_shroud_entity_small_1: "$giga_hypersiphon_shroud_entity_small_design$ (범주 1)" # 2048027867935803173
+  giga_hypersiphon_shroud_entity_small_section_1: "$giga_hypersiphon_shroud_entity_small_1$" # 7284947653544156174
+  giga_hypersiphon_shroud_entity_small_2: "$giga_hypersiphon_shroud_entity_small_design$ (2단계)" # 14288670037197476814
+  giga_hypersiphon_shroud_entity_small_section_2: "$giga_hypersiphon_shroud_entity_small_2$" # 17407104939581571434
+  giga_hypersiphon_shroud_entity_small_3: "$giga_hypersiphon_shroud_entity_small_design$ (범주 3)" # 4223730382337399496
+  giga_hypersiphon_shroud_entity_small_section_3: "$giga_hypersiphon_shroud_entity_small_3$" # 13169355270321365438
+  giga_hypersiphon_shroud_entity_small_4: "$giga_hypersiphon_shroud_entity_small_design$ (카테고리 4)" # 10906032157314026265
+  giga_hypersiphon_shroud_entity_small_section_4: "$giga_hypersiphon_shroud_entity_small_4$" # 16962230862306630594
+  giga_hypersiphon_shroud_entity_small_5: "$giga_hypersiphon_shroud_entity_small_design$ (카테고리 5)" # 10095503957561865588
+  giga_hypersiphon_shroud_entity_small_section_5: "$giga_hypersiphon_shroud_entity_small_5$" # 12388065171126062892
+  giga_hypersiphon_shroud_entity_small_6: "$giga_hypersiphon_shroud_entity_small_design$ (카테고리 6)" # 11886745841133199414
+  giga_hypersiphon_shroud_entity_small_section_6: "$giga_hypersiphon_shroud_entity_small_6$" # 17613194881202008797
+  giga_hypersiphon_shroud_entity_large: "장막 폭풍" # 8661790137365375619
+  giga_hypersiphon_shroud_entity_large_design: "주요 장막 발현" # 6955170783104728246
+  giga_hypersiphon_shroud_entity_large_1: "$giga_hypersiphon_shroud_entity_large_design$ (카테고리 1)" # 10338791093227164477
+  giga_hypersiphon_shroud_entity_large_section_1: "$giga_hypersiphon_shroud_entity_large_1$" # 358709914470133448
+  giga_hypersiphon_shroud_entity_large_2: "$giga_hypersiphon_shroud_entity_large_design$ (카테고리 2)" # 3631615975294680067
+  giga_hypersiphon_shroud_entity_large_section_2: "$giga_hypersiphon_shroud_entity_large_2$" # 4326664225106327943
+  giga_hypersiphon_shroud_entity_large_3: "$giga_hypersiphon_shroud_entity_large_design$ (범주 3)" # 5348387737634746964
+  giga_hypersiphon_shroud_entity_large_section_3: "$giga_hypersiphon_shroud_entity_large_3$" # 10250051625905547749
+  giga_hypersiphon_shroud_entity_large_4: "$giga_hypersiphon_shroud_entity_large_design$ (범주 4)" # 5620555332733151916
+  giga_hypersiphon_shroud_entity_large_section_4: "$giga_hypersiphon_shroud_entity_large_4$" # 5079254185888141800
+  giga_hypersiphon_shroud_entity_large_5: "$giga_hypersiphon_shroud_entity_large_design$ (5등급 범주)" # 4483135010878732069
+  giga_hypersiphon_shroud_entity_large_section_5: "$giga_hypersiphon_shroud_entity_large_5$" # 9718878624234957869
+  giga_hypersiphon_shroud_entity_large_6: "$giga_hypersiphon_shroud_entity_large_design$ (범주 6)" # 16661977671619555386
+  giga_hypersiphon_shroud_entity_large_section_6: "$giga_hypersiphon_shroud_entity_large_6$" # 6379850261179419645
+  giga_hypersiphon_incursion_starbase: "장막 요새" # 5953410046955096633
+  NAME_Giga_Hypersiphon_Incursion_Starbase: "$giga_hypersiphon_incursion_starbase$" # 16370010817290793954
+  giga_hypersiphon_incursion_portal: "차원문" # 12640722612829545336
+  NAME_Giga_Hypersiphon_Incursion_Portal: "장막 앵커" # 10635559418400056665
+  giga_hypersiphon_instability_resources: "파멸의 환영:" # 3151986777632938205
+  giga_hypersiphon_instability_resources_energy: "$giga_hypersiphon_instability_resources$ 엔트로피 공허" # 2719433744319334392
+  giga_hypersiphon_instability_resources_energy_desc: "움직임이 둔화되고, 전하가 비정상적인 속도로 소산됩니다." # 4369410202681431258
+  giga_hypersiphon_instability_resources_minerals: "$giga_hypersiphon_instability_resources$ 비자연적인 폐기물" # 5759488472538670865
+  giga_hypersiphon_instability_resources_minerals_desc: "여기 조금, 저기 조금... 사실 이건 처음부터 다시 시작하자..." # 518326046739503067
+  giga_hypersiphon_instability_resources_food: "$giga_hypersiphon_instability_resources$ 게걸스러운 소모" # 2041427964058121200
+  giga_hypersiphon_instability_resources_food_desc: "결코 만족하지 않고, 결코 채워지지 않으며, 결코 완성되지 않는다." # 12995703471657440239
+  giga_hypersiphon_instability_resources_alloys: "$giga_hypersiphon_instability_resources$ 물질적 매료" # 6172186225982696235
+  giga_hypersiphon_instability_resources_alloys_desc: "개조하고, 실험하며, 실패를 두려워하지 않는 채워지지 않는 갈망" # 1719389333719274496
+  giga_hypersiphon_instability_resources_consumer_goods: "$giga_hypersiphon_instability_resources$ 탐욕 징후" # 13702768991021394505
+  giga_hypersiphon_instability_resources_consumer_goods_desc: "욕구와 필요의 종합은 탐욕의 소용돌이로 이어졌습니다." # 6363530715317748424
+  giga_hypersiphon_instability_resources_unity: "$giga_hypersiphon_instability_resources$ 벽 속의 속삭임" # 13676643659036979297
+  giga_hypersiphon_instability_resources_unity_desc: "모든 건축물은 경멸로 들끓고, 모든 구획은 숨 막히게 느껴집니다." # 214831836699962138
+  giga_hypersiphon_instability_resources_research: "$giga_hypersiphon_instability_resources$ 흐려진 인지" # 1851612496999579437
+  giga_hypersiphon_instability_resources_research_desc: "알 수 없는 병폐로 인해 명석한 정신이 무뎌진다." # 11837136180970327514

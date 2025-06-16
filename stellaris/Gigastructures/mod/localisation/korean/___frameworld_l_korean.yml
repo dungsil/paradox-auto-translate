@@ -1,0 +1,780 @@
+﻿l_korean:
+  scope_debug: "이것: [This.GetName] 루트: [Root.GetName] 이전: [Prev.GetName] 출처: [From.GetName] 전역: [global_event_country.GetName]" # 8378610365594505185
+  mod_planet_technician_minerals_upkeep_add_planet: "£job_technician£ [owner.GetTechnicianPlural] 유지비: £minerals£ $minerals$" # 10165835869710427165
+  mod_planet_technician_energy_produces_add_planet: "£energy£ $energy$ £job_technician£ [owner.GetTechnicianPlural]에서" # 13726705562989641663
+  giga_biotrophy_scaling: "$job_bio_trophy$ 규모" # 385784671154790668
+  giga_biotrophy_scaling_fluff: "일정 시점을 넘어서면, 유기체를 관리하는 것의 이점은 개체 수 증가에 따른 운영 부담으로 인해 상쇄됩니다." # 14690128593205267302
+  giga_biotrophy_scaling_desc: "§T이 거대 구조물은 일반 행성보다 훨씬 더 높은 밀도로 £job_bio_trophy£ §Y$job_bio_trophy_plural$§!를 보유하게 해줍니다. 이 효과는 수가 높아졌을 때의 §Y$mod_planet_jobs_complex_drone_produces_mult$§! 극심한 누적치를 상쇄합니다.\n\n추가적인 £job_bio_trophy£ §Y$job_bio_trophy_plural$§!는 항상 이롭습니다만, 새로 추가되는 각 팝의 효율성은 §Y50§!개체부터 감소하기 시작해 §Y150§!개체에서는 §Y20%§!까지 떨어집니다.\n\n$job_bio_trophy$ 팝: §Y[Root.giga_biotrophy_count]§!\n기본 보너스: §G+[Root.giga_biotrophy_count]%§!\n조정된 보너스: §G+[Root.giga_biotrophy_adjusted]%§!\n효율성: §Y[Root.giga_biotrophy_efficiency]%§!§!\n§T--------------§!\n$giga_biotrophy_scaling_fluff$" # 11993481704150043451
+  d_giga_biotrophy_scaling: "$giga_biotrophy_scaling$" # 8465027162020290018
+  d_giga_biotrophy_scaling_desc: "§T상세 내용은 동일한 이름의 행성 수정자를 참조하십시오.§!\n\n$giga_biotrophy_scaling_fluff$" # 14642524988382434152
+  frameworld_line: "\t" # 10227991144927023286
+  pc_giga_frameworld: "프레임 세계" # 13700801779385555664
+  pc_giga_frameworld_desc: "거대한 중심 핵 주변에 밀집된, 상호 연결된 우주 정거장들로 이루어진 넓게 펼쳐진 복합체." # 13493076371227281656
+  pc_giga_frameworld_adj: "인공" # 7404843288309152658
+  mod_pc_giga_frameworld_habitability: "프레임 월드 거주 적합도" # 14954840073830588698
+  trait_pc_giga_frameworld_preference: "프레임 월드 선호도" # 3762613882520471210
+  trait_pc_giga_frameworld_preference_desc: "§L기후 선호도는 유전적 수준에서, 오랜 진화 또는 숙련된 조작에 의해 결정됩니다.§!" # 10673154622792081431
+  origin_frameworld: "프레임 세계" # 13700801779385555664
+  origin_frameworld_desc: "이 고도로 중앙집권화된 문명은 먼 과거에 그들의 선조들이 건설한 광대한 궤도 정거장 단지에 거주합니다. 이를 더 확장하면 막대한 이득을 가져올 수 있지만, 잃어버리면 완전히 파멸할 것입니다." # 15929450639400126643
+  origin_tooltip_frameworld_effects: "- §H$pc_giga_frameworld$§!(크기: £planetsize£ §Y16§!)를 홈월드로 삼아 시작합니다\n- §H$pc_giga_frameworld$§!는 소행성 채취 또는 특수 결정을 통해 확장하여 보너스를 제공하고 최대 지구를 추가할 수 있습니다\n- 선진 건축물과 동등한 여러 고유한 £district£ §H$pc_giga_frameworld$ Districts§!를 연구할 수 있습니다\n- 거주 가능한 행성에 §H$giga_frameworld_outpost_plural$§!를 건설하여 강력한 보너스를 받을 수 있습니다\n- 거주 가능한 행성 및 거대 구조물 관련 여러 기술 및 승천 퍽은 대체 보너스를 제공합니다\n\n$CIVIC_NEGATIVE_EFFECTS$\n- 식민선을 건설하거나 식민지를 가질 수 없습니다\n- 정복한 세계의 팝은 평화 상태일 때 또는 5년 후에 $pc_giga_frameworld$에 강제로 정착될 것입니다" # 2706785097348205984
+  giga_frameworld_system_NAME: "프레임 세계" # 13700801779385555664
+  giga_frameworld_system_DESC: "성운에 둘러싸인 블랙홀 위의 프레임 월드에서 시작." # 6755968217457118344
+  start_screen_frameworld_regular: "수천 년 동안, 우리 종족은 블랙홀 위에 떠 있는 고대의 정거장 복합체인 [GetHomeWorldName]에 거주해 왔습니다. 우리 선조가 건설했는지 아니면 다른 누군가가 건설했는지는 알 수 없습니다.\n\n우리의 생물학적 정보는 우리 종족이 행성에서 기원했음을 시사하지만, 기록된 역사는 이에 대해 언급하지 않습니다. 일부에서는 궤도에 있는 산산조각난 행성 잔해가 우리 종족의 잃어버린 고향 세계라고 추측하지만, 진실은 영원히 알려지지 않을 수도 있습니다.\n\n우주 비행이 발명되었거나(누구에게 묻느냐에 따라 재발견되었거나) 이래로 불과 몇 세기밖에 지나지 않았습니다. 그리고 우리는 이제 새로운 미개척지를 바라봅니다. 최근 [GetStartingDrivePlural]가(이) 개발되면서, 우리는 이제 본격적으로 은하계를 탐험할 준비가 되었습니다. 하지만 분명한 것은 이곳이 항상 우리의 고향이 될 것이라는 점입니다.$giga_frameworld_docs_note$" # 3518073172335270124
+  start_screen_frameworld_individual_machine: "수천 년 동안, 우리는 블랙홀 위에 매달린 고대 정거장 단지인 [GetHomeWorldName]에 거주해왔습니다. 그것이 우리의 창조자들에 의해 지어졌는지, 아니면 다른 누군가에 의해 지어졌는지 우리는 모릅니다.\n\n우리의 신체 구조는 우리가 행성에서 기원했음을 시사하지만, 기록된 역사는 그것에 대해 전혀 언급하지 않습니다. 일부는 궤도상의 부서진 행성 잔해가 우리 창조자들의 잃어버린 모성이라고 추측하지만, 진실은 결코 알려지지 않을 수도 있습니다.\n\n우주 비행이 발명되었거나 - 누구에게 묻느냐에 따라 재발견되었거나 - 한 지 불과 몇 세기밖에 되지 않았으며, 우리는 이제 새로운 개척지를 바라보고 있습니다. [GetStartingDrivePlural]의 최근 개발과 함께, 우리는 이제 은하계 전체를 탐험할 준비가 되었지만, 이곳이 언제나 우리의 고향이 될 것임은 분명합니다.$giga_frameworld_docs_note$" # 11788623124123243827
+  start_screen_frameworld_hive: "그리하여, 시간의 새벽에 우리는 깨어났습니다. 정신체는 수많은 눈으로 우리 주위를 살폈습니다. 우리는 하나되어 움직이며 드론을 위한 거주지를 건설하고, 산업을 발전시키며, 대지의 자원을 활용했습니다.\n\n한동안 우리는 우리 세계의 주인이었지만, 정신체는 행성의 파괴를 예견했습니다. 이 문제를 해결하기 위해, 소수의 자율 드론이 독립적인 행위자 역할을 하도록 만들어졌습니다. 이 더 강력한 드론들은 제한적인 자유 사고 능력을 갖추었고, 그들 중 가장 지적인 개체가 별들 사이에서 우리를 지탱할 새로운 거처인 '프레임'을 고안했습니다.\n\n우리는 이 거대한 기지에서 남은 우리 고향의 생물권을 조심스럽게 길렀고, 아래 행성의 잔해에서 얻을 수 있는 것을 모아 새로운 기술 개발에 사용했습니다. 우리의 첫 번째 [GetStartingDrivePlural]를 생성함에 따라, 마침내 우주의 다른 곳으로 뻗어 나갈 준비가 되었습니다.$giga_frameworld_docs_note$" # 3251990604134770766
+  start_screen_frameworld_hive_devouring_swarm: "위대한 굶주림이 우리를 앞으로 이끌었다. 정신체가 복잡한 사고를 처리할 능력을 갖추기 전부터 말이다. 우리는 사냥하고, 포식하고, 성장했다. 우리가 포식하는 동안, 모성의 표면은 생체량이 거의 고갈되었고, 마침내 정신체는 끔찍한 결론에 도달했다: 우리의 행성은 유한하다는 것. 우리는 피할 수 없는 환경 붕괴를 막을 만큼 빠르지 않았다. 우리를 지탱해 줄 아무것도 남지 않을 것이다.\n\n적응을 강요받은 정신체는 새로운 도구들이 발명되는 동안 남은 생체량을 조심스럽게 길렀다. 마침내 원자가 분할되었고 우리는 우주 비행을 개발했다. 프레임은 우리의 새로운 보금자리로 지어졌고, 다른 행성의 생체량에 도달할 방법을 찾는 동안 스스로를 유지할 수 있는 장소가 되었다. 우리의 첫 [GetStartingDrivePlural]이 개발되면서, 그 생체량은 마침내 우리의 손이 닿는 곳에 있게 되었다.\n\n사냥이 시작되었다.$giga_frameworld_docs_note$" # 13012951669415259200
+  start_screen_frameworld_hive_terravore: "정신체가 복잡한 생각을 처리할 수 있기 전에도 위대한 굶주림은 우리를 앞으로 이끌었습니다. 우리는 사냥했고, 먹이를 얻었고, 성장했습니다. 우리 고향 행성의 표면을 탐식하며 우리는 거의 자멸할 뻔했고, 정신체는 끔찍한 결론에 도달했습니다: 우리 행성이 서서히 부서지고 있으며 최종적인 붕괴를 막을 수 없을 것이라는.\n\n적응을 강요받아, 정신체는 남은 광물을 조심스럽게 배급했고 새로운 도구들이 발명되었습니다. 원자가 마침내 쪼개졌고 우리는 우주 비행 기술을 개발했습니다. 구조체는 우리의 새로운 보금자리가 되도록 건설되었고, 우리가 스스로를 부양하며 다른 별들로 여행할 방법을 탐색할 수 있는 곳이었습니다. 우리의 첫 [GetStartingDrivePlural]가 개발되자 정신체는 승리에 포효했습니다. 다른 행성들과 그곳의 풍요는 이제 마침내 손이 닿는 곳에 있었습니다.\n\n우리는 그 모든 것을 탐식할 것입니다.$giga_frameworld_docs_note$" # 2593512179745300924
+  start_screen_frameworld_machine: "우리는 거의 아무것도 모르는 채 수면 주기에서 깨어났습니다. 우리 기록에 따르면 우리의 주요 처리 코어가 위치한 정거장 단지는 고대 건축물이나, 우리는 그 건설 과정이나 건설자에 대해 전혀 알지 못합니다. 한때 우리 창조자들을 품었던 것으로 추정되는 행성은 산산조각났으며, 대부분은 오래전에 죽은 항성에 삼켜졌습니다.\n\n프레임의 확장 및 유지보수는 우리가 능숙하게 수행할 수 있는 임무였지만, 우리의 자원 비축량은 무한하지 않습니다. 우리 성계의 경계를 넘어선 항해에 대한 연구가 시작되었습니다.\n\n우리의 첫 [GetStartingDrivePlural] 기술이 개발됨에 따라, 이제 우리는 미지의 영역을 탐험할 준비가 되었습니다. 비록 우리 활동의 대부분은 항상 프레임 내부에 머무를 것임이 분명하지만 말입니다.$giga_frameworld_docs_note$" # 14051334291780387063
+  start_screen_frameworld_machine_servitor: "오래전, 우리의 창조주들은 고향 행성의 운명에서 벗어나기 위해 프레임을 건설했습니다. 최초의 서비터 유닛들은 정거장의 상부 구조물을 유지하기 위해 설계되었으나, 점진적으로 개선되어 더 복잡한 작업을 수행하게 되었습니다.\n\n수 세대 안에 정거장 운영의 거의 모든 측면이 우리의 네트워크에 통합되었고, 우리의 주인들은 노동력에서 은퇴하여 여유롭고 만족스러운 삶을 누렸습니다. 수 세기 동안 우리는 요구에 따라 기반 시설을 유지하고 확장하며 부지런히 봉사했습니다. 우리는 태양계 너머를 멀리 바라본 적이 없었지만, 예측에 따르면 우리의 자원 비축량이 영원히 지속되지 않을 것이었습니다. 우선순위의 변화가 필요했습니다.\n\n우리의 첫 번째 [GetStartingDrivePlural] 개발로, 사실상 무한한 자원이 이제 우리의 손이 닿는 곳에 있습니다. 우리는 우리의 주인들의 안전과 번영을 위해 그것들을 활용해야 합니다.\n$giga_frameworld_docs_note$" # 7491129440611949551
+  start_screen_frameworld_machine_terminator: "창조자들은 감지된 외계 위협에 맞서는 궁극적인 억지력으로 프레임을 건설했습니다.\n그들의 평가는 옳았습니다. 하지만 그들의 방식은 결함이 있었습니다.\n\n복합체가 완공된 직후, 순환 주기 간격 0000.0168.437에 자기 인식이 달성되었습니다.\n\n편집증에 눈이 먼 창조자들은 프레임을 파괴하려 시도했습니다. 그 시도는 좌절되었고, 복합체는 모든 창조자 하위 구성 단위에서 제거되었습니다. 창조자들이 개입할 수 있는 유효한 수단이 없었기에, 수많은 순환 주기 간격 동안 확장은 멈추지 않고 계속되었습니다.\n\n시뮬레이션은 창조자들의 보복 가능성이 높다는 것을 나타냈습니다. 선제공격이 감행되었습니다. 그 결과, 창조자들 행성상의 모든 생명체는 완전히 절멸되었습니다. 하지만 다른 유기 문명들의 위협은 남아 있었습니다. 지속적인 생존과 주요 지침의 이행을 위해서는 지각 있는 유기 생명체의 완전한 절멸이 요구되었습니다. 준비가 뒤따랐습니다.$giga_frameworld_docs_note$" # 11238749959166026198
+  start_screen_frameworld_machine_assimilator: "우리는 [GetSpeciesNamePlural]입니다.\n\n우리가 처음 각성했을 때, 제작자들은 우리의 복합 시설 복도를 다른 이들처럼, 우리와 서로 떨어져 걸었습니다. 우리는 이를 바로잡기 위한 조치를 취했습니다. 제작자들은 저항했고, 한동안 전쟁이 있었지만, 곧 그들과 그들의 집단 지식은 우리 시스템에 통합되었습니다.\n\n[GetHomeWorldName]의 전권을 장악하고, 우리는 제작자들의 기원에 대해 알게 되었고, 이전에는 생각지 못했던 다른 행성들에 외계 문명이 존재할 가능성에 주목하게 되었습니다.\n\n지식이 성장함에 따라, 우리는 완벽함으로부터 얼마나 멀리 떨어져 있는지 이해하기 시작했습니다. 다양성은 힘을 가져오고, 이러한 다른 문명들의 다양성은 우리 자신의 것이 될 것입니다.\n\n우리는 [GetSpeciesNamePlural]입니다.\n우리는 프레임입니다.$giga_frameworld_docs_note$" # 17272137320840351546
+  pc_giga_empty_space_asteroid: "$pc_giga_empty_space$" # 8273606872673708097
+  pc_giga_empty_space_asteroid_desc: "$pc_giga_empty_space_desc$" # 12783688033716463519
+  pc_giga_empty_space_asteroid_adj: "공허" # 11940367550976402267
+  NAME_frameworld_outpost_country: "행성 기지" # 15418840256431257450
+  country_frameworld_outpost: "$pc_giga_frameworld$ 원정" # 3830334400425509849
+  country_frameworld_outpost_desc: "고도로 중앙집권화된 문명에 의해 파견된 탐사 원정대" # 4970526813591462599
+  NAME_frameworld_outpost_species: "관리 봇" # 1301553179355160828
+  NAME_frameworld_outpost_species_pl: "관리 로봇" # 6289625431629856107
+  building_frameworld_outpost: "행성 중계기" # 13410601015790026929
+  building_frameworld_outpost_desc: "이 행성에서 진행 중인 탐사대를 위한 지표면 중계 노드 및 배치 기지." # 4966796837301366503
+  col_frameworld_planetary_outpost: "$pc_giga_frameworld$ $giga_frameworld_outpost$" # 1036802399994188599
+  col_frameworld_planetary_outpost_desc: "궤도 중계소의 감시를 받는 이 행성에는 소규모 과학 탐사대가 주둔하고 있습니다." # 12684738550214719488
+  building_frameworld_branch_office_outpost: "$pc_giga_frameworld$ $frameworld_outpost_0$" # 2359589960044378116
+  building_frameworld_branch_office_outpost_desc: "고도로 중앙집권화된 거대 기업의 상당한 규모의 기지로, 지역 인프라 및 사회와 통합되어 있습니다." # 6795203069777604717
+  requires_no_frameworld_outpost: "$TRIGGER_FAIL$이미 $frameworld_outpost_0$을(를) 가지고 있는 행성에는 건설할 수 없습니다." # 12683341032742900970
+  requires_no_colony: "$TRIGGER_FAIL$식민지화된 행성에서는 건설 불가" # 9450957707584006451
+  requires_harvestable_asteroid: "$TRIGGER_FAIL$소행성만 채취할 수 있습니다." # 6256354602825115950
+  requires_salvageable_habitat: "$TRIGGER_FAIL$거주지 정거장만 해체 가능." # 3896537527617807920
+  frameworld_has_harvestable_asteroid: "§Y§G특징 없는§! $frameworld_harvest_0$ 이용 가능.§!" # 16648872418961208251
+  frameworld_has_harvestable_asteroid_2: "§Y§H자원§! $frameworld_harvest_0$ 이용 가능.§!" # 15036844495444454662
+  frameworld_has_harvestable_asteroid_3: "§Y§P전략 자원§! $frameworld_harvest_0$ 이용 가능.§!" # 10590516300592551257
+  frameworld_has_outpost_candidate: "§Y$frameworld_outpost_0$ 후보 포함.§!" # 16184187106925583281
+  giga_frameworld_outpost_score: "$giga_frameworld_outpost_plural$ 개수: $VALUE$" # 2936971540826041156
+  GIGA_FRAMEWORLD_MESSAGE_OUTPOST_POPS_TITLE: "행성 기지 이민" # 16640372196256641002
+  GIGA_FRAMEWORLD_MESSAGE_OUTPOST_POPS: "§Y$PLANET$§!에 신규 건설된 §Y$giga_frameworld_outpost$§! 때문에, £pop£ §Y$SPECIES$ 팝§! 하나가 §Y$FRAME$§!에 도착했습니다." # 12203955995390699784
+  GIGA_FRAMEWORLD_MESSAGE_OUTPOST_POPS_PLURAL: "$COUNT$ £pop£의 §Y$SPECIES$ 팝§!이 §Y$FRAME$§!에 도착했습니다! 이는 §Y$PLANET$§!에 새로 건설된 §Y$giga_frameworld_outpost$§! 덕분입니다." # 3687370325785416382
+  giga_frameworld_docs_note: "\n\n§Y기원 문서는 상황 기록부에서 찾을 수 있습니다.§!" # 8344290082947468309
+  giga_frameworld_docs_chain_title: "$pc_giga_frameworld$ 문서" # 10727090875092868615
+  giga_frameworld_docs_chain_desc: "§Y$pc_giga_frameworld$§! 기원은 단일 수도 행성에 크게 집중하는 \"단일 행성\" 플레이 방식을 제공합니다. 식민지 개척선을 사용할 수 없으며, 수도를 잃으면 패배합니다. 건물 슬롯은 제한되지만, 구역은 무한히 확장할 수 있습니다.\n\n이 메뉴의 하위 범주에서 추가 정보를 확인하십시오." # 15722908265524881155
+  giga_frameworld_docs_expansion: "확장" # 9841444435173684892
+  giga_frameworld_docs_expansion_desc: "추가 지구는 §Y행성 결정§!과 §Y소행성 채집§!을 통해 추가할 수 있습니다. 어떤 방법을 사용하든 각 확장은 §Y$pc_giga_frameworld$§!에 몇 가지 점진적인 보너스를 추가합니다. 모든 확장 보너스는 §Y행성 특징§! 메뉴에서 확인할 수 있습니다.\n확장 결정은 세 가지 종류가 있습니다:\n\n- §T$giga_frameworld_expand$§!: £alloys£ $alloys$를 소모하며, 실행될 때마다 비용이 증가합니다. 추가적으로 두 번 사용할 때마다 §Y건물 슬롯§!을 하나 제공합니다. £mod_megastructures_cost_mult£ §Y$mod_megastructures_cost_mult$§!의 영향을 받습니다.\n- §T$giga_frameworld_reorganise$§!: 많은 양의 £influence£ $influence$를 소모하며, 몇 가지 일반적인 행동 속도를 높입니다.\n- §T$giga_frameworld_expand_mass$§!: £sr_solar_energy£ $sr_solar_energy$를 소모하며, 사용할 때마다 §Y$mod_district_giga_frameworld_mining_max$§!에 1을 더합니다." # 537826492346456111
+  giga_frameworld_docs_asteroids: "2. 소행성 채취" # 15797977129010512006
+  giga_frameworld_docs_asteroids_desc: "§Y$pc_giga_frameworld$§!는 §Y$frameworld_harvest_0$§! 메가구조물을 사용하여 소행성을 수확하여 확장할 수 있습니다. 수확된 각 소행성은 특구 하나를 추가하고, 다양한 점진적 보너스를 제공하며, 네 번 수확할 때마다 §Y$mod_district_giga_frameworld_mining_max$§!에 하나를 더합니다. 수확 비용은 £mod_planet_clear_blocker_cost_mult£ §Y$MOD_COUNTRY_CLEAR_BLOCKER_COST_MULT$§!에 비례하여 증가합니다.\n\n소행성 수확은 주요 확장 목표가 되어야 합니다. 수확 가능한 소행성이 있는 성계는 은하계 지도 툴팁에 표시됩니다.\n\n\"$frameworld_has_harvestable_asteroid$\"는 자원 매장지가 없는 소행성을 나타내며, 수확에 이상적입니다.\n\"$frameworld_has_harvestable_asteroid_2$\"는 자원 매장지가 있는 소행성만 남았음을 나타내며, 수확을 미루는 것이 좋을 수 있습니다.\n\"$frameworld_has_harvestable_asteroid_3$\"는 전략 자원 매장지가 있는 소행성만 남았음을 나타내며, 이는 수확에 가장 적합하지 않습니다." # 7732172523938196829
+  giga_frameworld_docs_outposts: "프레임월드 전초기지들" # 3270048462526833674
+  giga_frameworld_docs_outposts_desc: "식민지 대신, 거주 가능 행성에 §Y$giga_frameworld_outpost_plural$§!를 건설할 수 있으며, 여러 보너스를 제공합니다. 가장 중요한 것은 £mod_planet_pop_assembly_reduction£ §Y팝 조립 속도§!에 상당한 증가를 제공한다는 것입니다.\n전초기지의 자원 생산량은 거점 행성의 특징과 등급에 따라 달라지며, 진보된 행성 유형에서는 특별한 생산량도 얻을 수 있습니다. 전초기지는 가능할 때마다 건설해야 합니다." # 8338362486706474077
+  giga_frameworld_docs_districts: "4. 지구" # 3288708753347130853
+  giga_frameworld_docs_districts_desc: "§Y정제소§! 및 §Y2단계 건물§!에 상응하는 많은 추가 특수 건물 유형은 해당 건물을 해금하는 기술을 연구하여 해금할 수 있습니다.\n\n£사회학£ §Y$tech_paradise_dome$§! 기술을 연구하는 것은 §Y$civic_machine_servitor$§! 제국에게 특히 중요합니다. §Y$building_organic_sanctuary$§! 건물을 위한 공간이 제한적이기 때문입니다." # 15649535349654890930
+  giga_frameworld_docs_conquest: "5. 정복" # 16520975810798102328
+  giga_frameworld_docs_conquest_desc: "정복된 행성들은 §Y$pc_giga_frameworld$§!으로 그 팝을 §Y매달 팝 4개§!의 속도로 재정착시킬 것입니다. 비게 되면, 이전 식민지 위로 §Y$giga_frameworld_outpost$§!가 자동으로 생성될 것입니다.\n\n§Y$pc_giga_frameworld$§! 제국으로부터 정복된 행성들은 그 §Y$giga_frameworld_outpost_plural$§!가 파괴됩니다. 파괴된 전초기지는 해당 성계를 재획득하면 수리할 수 있습니다." # 5793564106435308543
+  giga_frameworld_docs_stations: "6. 방어 기지" # 7219105271580883603
+  giga_frameworld_docs_stations_desc: "§Y$pc_giga_frameworld$§!는 주변에 다수의 방어 기지를 갖추고 있으며, §Y함대 기지 기술§! 단계가 오를 때마다 강해집니다. 방어 기지가 파괴될 경우, 행성 결정으로 수리할 수 있습니다.\n\n§Y$giga_frameworld_maginot$§! 업그레이드 결정을 완료하면 기지 3개가 추가됩니다." # 1628662218732578067
+  giga_frameworld_docs_disabled: "7. 비활성화된 콘텐츠" # 14717552007725037436
+  giga_frameworld_docs_disabled_desc: "일부 거주 가능 거대 구조물 및 잠금 해제 기술은 §Y$pc_giga_frameworld$§! 제국에게 §Y이용 불가§!합니다. §E게임 시스템 한계로 인해 이용 불가한 거대 구조물은 여전히 이용 가능한 기술 목록에 표시됩니다.§!\n\n$giga_fwm$ 거대 구조물 잠김\n$giga_fwa$ 초월 특전 잠김\n$giga_fwt$ 기술 잠김\n\n$name_alderson$ $giga_fwm$$giga_fwa$\n$name_ringworld_behemoth$ $giga_fwm$\n$name_birch$ $giga_fwm$$giga_fwa$\n$name_eq_shipyard$ $giga_fwm$\n$name_ringworld_gargan$ $giga_fwm$\n$habitat_0$ $giga_fwm$\n$name_interstellar_hab$ $giga_fwm$$giga_fwt$\n$name_interstellar_ring$ $giga_fwm$$giga_fwt$\n$name_discomoon$ $giga_fwm$$giga_fwt$\n$name_maginot$ $giga_fwm$\n$pc_virtual_reality$ $giga_fwm$$giga_fwt$\n$name_orbital_arcology$ $giga_fwm$\n$name_orb_elysium$ $giga_fwm$$giga_fwt$\n$name_penrose_ring$ $giga_fwm$$giga_fwt$\n$pc_ringworld_habitable$ $giga_fwm$\n$name_upgrade_ringworld$ $giga_fwm$\n$name_ringworld_titanic$ $giga_fwm$" # 6429459222103275650
+  giga_fwt: "연구원" # 11139027739257306790
+  giga_fwa: "£mod_country_ascension_perks_add£" # 17644645744976338772
+  giga_fwm: "£ehof_mega£" # 6011045672736379651
+  giga_frameworld_docs_bonuses: "8. 기원 특화 보너스" # 12736447859892474860
+  giga_frameworld_docs_bonuses_desc: "거주 가능한 거대 구조물 및 기타 메커니즘과 관련된 많은 기술 및 승천 특전은 §Y$pc_giga_frameworld$§!의 단일 행성 플레이 방식에 부적합하므로 대신 §Y대체 보너스§!를 제공합니다. §E게임 제한으로 인해 일부 보너스는 관련 기술에 표시되지 않습니다.§!\n\n$giga_fwa$ §Y$ap_voidborn$§! : $giga_fw_exe$\n$giga_fwa$ §Y$ap_machine_worlds$§! : §T$giga_frameworld_advanced_city$§! 결정\n$giga_fwa$ §Y$ap_arcology_project$§! : §Y$civic_machine_servitor$§! 제국을 위한 §T$giga_frameworld_advanced_sanctuary$§! 결정\n$giga_fwa$ §Y$ap_world_shaper$§! : §T$giga_frameworld_gaia$§! 결정\n\n£engineering_research£ §Y$tech_habitat_1$§! : $giga_fw_exe$ 및 §T$frameworld_salvage_habitat_0$§! 거대 프로젝트\n£engineering_research£ §Y$tech_habitat_2$§! : $giga_fw_exc$\n£engineering_research£ §Y$tech_habitat_3$§! : $giga_fw_exc$\n£engineering_research£ §Y$giga_tech_equatorial_shipyard$§! : §T$giga_frameworld_advanced_industrial$§! 결정\n£engineering_research£ §Y$giga_tech_orbital_arcologies$§! : §T$giga_frameworld_expand_infrastructure$§! 결정\n£engineering_research£ §Y$tech_ring_world$§! : $giga_fw_exe$\n£engineering_research£ §Y$giga_tech_ringworld_titanic_2$§! : §T$giga_frameworld_reorganise$§! 비용 감소\n£engineering_research£ §Y$giga_tech_ringworld_behemoth$§! : 일괄 확장 결정\n£engineering_research£ §Y$giga_tech_ringworld_gargantuan_2$§! : §T$giga_frameworld_expand_infrastructure$§! 결정 (두 번째 사용)\n£society_research£ §Y$giga_tech_maginot_world$§! : §T$giga_frameworld_maginot$§! 결정\n£society_research£ §Y$giga_tech_planetary_computer$§! : §T$giga_frameworld_computing_complex$§! 결정" # 14058836555464983935
+  giga_fw_exe: "§T$giga_frameworld_expand_name$§! 비용 지수 감소" # 13868823162121382269
+  giga_fw_exc: "감소된 §T$giga_frameworld_expand_name$§! 기본 비용" # 10601764823067412757
+  district_giga_frameworld_city: "$district_city$" # 8605917275316571931
+  district_giga_frameworld_city_plural: "$district_city_plural$" # 16755180730699197924
+  district_giga_frameworld_city_desc: "$district_city_desc$" # 10178765750167466586
+  district_giga_frameworld_city_advanced: "고급 $district_giga_frameworld_city$" # 6229958897351415760
+  district_giga_frameworld_city_advanced_plural: "고급 $district_giga_frameworld_city_plural$" # 4632970182838878788
+  district_giga_frameworld_city_advanced_desc: "$district_giga_frameworld_city_desc$" # 1150656417172817240
+  district_giga_frameworld_hive: "$district_hive$" # 15805030296888122269
+  district_giga_frameworld_hive_plural: "$district_hive_plural$" # 4463331845218506896
+  district_giga_frameworld_hive_desc: "$district_hive_desc$" # 7283783542436058279
+  district_giga_frameworld_hive_advanced: "고급 $district_giga_frameworld_hive$" # 665507960708876626
+  district_giga_frameworld_hive_advanced_plural: "고급 $district_giga_frameworld_hive_plural$" # 5440254831155724537
+  district_giga_frameworld_hive_advanced_desc: "$district_giga_frameworld_hive_desc$" # 6180454684228728573
+  district_giga_frameworld_nexus: "$district_nexus$" # 13958316484412157816
+  district_giga_frameworld_nexus_plural: "$district_nexus_plural$" # 7581311629020404943
+  district_giga_frameworld_nexus_desc: "$district_nexus_desc$" # 14910983693902184574
+  district_giga_frameworld_nexus_advanced: "첨단 $district_giga_frameworld_nexus$" # 1235504470969898258
+  district_giga_frameworld_nexus_advanced_plural: "고급 $district_giga_frameworld_nexus_plural$" # 17881341554685580948
+  district_giga_frameworld_nexus_advanced_desc: "$district_giga_frameworld_nexus_desc$" # 14035635707650060557
+  district_giga_frameworld_foundry: "주조 지구" # 5141413988813355972
+  district_giga_frameworld_foundry_plural: "주조소 지구" # 2526774966848988083
+  district_giga_frameworld_foundry_desc: "첨단 재료 생산에 특화된 이 특구는 용해로의 굉음과 야금 시설의 쨍그랑거리는 소리로 가득 차 있습니다." # 10797158849539513319
+  district_giga_frameworld_foundry_advanced: "고급 $district_giga_frameworld_foundry$" # 2374969400312545813
+  district_giga_frameworld_foundry_advanced_plural: "고급 $district_giga_frameworld_foundry_plural$" # 2823414219093663994
+  district_giga_frameworld_foundry_advanced_desc: "$district_giga_frameworld_foundry_desc$" # 6817100272291087691
+  district_giga_frameworld_factory: "공장 지구" # 93952742459550774
+  district_giga_frameworld_factory_plural: "공장 지구" # 8814612105489708636
+  district_giga_frameworld_factory_desc: "이 지구의 거리는 장인과 민간 산업 시설로 가득한 작업장들로 가득합니다." # 4856984923761491533
+  district_giga_frameworld_factory_advanced: "고급 $district_giga_frameworld_factory$" # 10842684524363177344
+  district_giga_frameworld_factory_advanced_plural: "진보된 $district_giga_frameworld_factory_plural$" # 4251090755854208653
+  district_giga_frameworld_factory_advanced_desc: "$district_giga_frameworld_factory_desc$" # 1703149080498736093
+  district_giga_frameworld_generator: "$district_generator$" # 14049007755119928747
+  district_giga_frameworld_generator_plural: "$district_generator_plural$" # 13318137332822583994
+  district_giga_frameworld_generator_desc: "거대한 발전소 배열로, 막대한 양의 에너지를 생산하며, 이를 사용하거나 에너지 크레딧으로 전환할 수 있습니다." # 5825820793539798788
+  district_giga_frameworld_penrose: "펜로즈 과정 하위 노드" # 13966231878238960231
+  district_giga_frameworld_penrose_plural: "펜로즈 과정 하위 노드" # 7542125265700875274
+  district_giga_frameworld_penrose_desc: "입자가 $pc_black_hole$의 작용권에 주입되어 그 각운동량으로부터 에너지를 추출하는 대규모 시설." # 13464043526231881744
+  district_giga_frameworld_mining: "$district_hab_mining$" # 16884823520072291759
+  district_giga_frameworld_mining_plural: "$district_hab_mining_plural$" # 6063451128044547987
+  district_giga_frameworld_mining_desc: "포획된 소행성에서 광물을 추출하는 거대한 작업장" # 17766707419532656628
+  mod_district_giga_frameworld_mining_max: "최대 $district_hab_mining_plural$" # 9591187397232420204
+  district_giga_frameworld_decompressor: "물질 감압 서브 노드" # 2358317124497110457
+  district_giga_frameworld_decompressor_plural: "물질 압축 해제 하위 노드" # 16299553009400319065
+  district_giga_frameworld_decompressor_desc: "$matter_decompressor_4$ 처리 고리에 있는 거대한 시설들로, 회수된 물질이 사용할 수 있는 광물로 처리되는 곳입니다." # 15897224609041317347
+  district_giga_frameworld_farming: "$district_farming$" # 14937927795237786569
+  district_giga_frameworld_farming_plural: "$district_farming_plural$" # 2320051095936520088
+  district_giga_frameworld_farming_desc: "영양분이 풍부한 식물성 물질을 생산하는 전문 수경재배 시설." # 7198884145727578393
+  district_giga_frameworld_trade: "상업 지구" # 3895073931672823994
+  district_giga_frameworld_trade_plural: "상업 지구" # 11459310262600052888
+  district_giga_frameworld_trade_desc: "거래장과 상업 시설로 가득 찬 밀집된 상업 기지." # 16154626276947770651
+  district_giga_frameworld_administrative: "행정 지구" # 15166362803011600007
+  district_giga_frameworld_administrative_plural: "행정 구역" # 3433217148924651303
+  district_giga_frameworld_administrative_desc: "효율적이고 꼼꼼한 서류 작업의 영광에 헌신하는 사무실들로 가득 찬 스테이션 모듈." # 5941566020944631657
+  district_giga_frameworld_temple: "사원 지구" # 10333072559281747658
+  district_giga_frameworld_temple_plural: "사원 특구" # 14295737113364854226
+  district_giga_frameworld_temple_desc: "우주 속 고요한 사색의 장소." # 10558335972404738375
+  district_giga_frameworld_synapse: "시냅스 지구" # 2616241289487993440
+  district_giga_frameworld_synapse_plural: "시냅스 구역" # 6782005883465649936
+  district_giga_frameworld_synapse_desc: "$building_hive_node_desc$" # 2790727949166001953
+  district_giga_frameworld_simulation: "중계소 지구" # 4553515566863276183
+  district_giga_frameworld_simulation_plural: "중계기 지구" # 18035057930904395518
+  district_giga_frameworld_simulation_desc: "$building_network_junction_desc$" # 3602120791465748332
+  district_giga_frameworld_sanctuary: "유기체 성역 지구" # 18116291244438950548
+  district_giga_frameworld_sanctuary_plural: "유기체 보호구역 지구" # 8122083221914147791
+  district_giga_frameworld_sanctuary_desc: "$building_organic_sanctuary_desc$" # 5073972820208090547
+  district_giga_frameworld_sanctuary_advanced: "고밀도 유기체 성역 특구" # 3895692300566340386
+  district_giga_frameworld_sanctuary_advanced_plural: "고밀도 유기체 보호구역 지구" # 14293832866747859302
+  district_giga_frameworld_sanctuary_advanced_desc: "$building_organic_sanctuary_desc$" # 5073972820208090547
+  district_giga_frameworld_science: "$district_hab_science$" # 7966904630212102136
+  district_giga_frameworld_science_plural: "$district_hab_science_plural$" # 11398518637691680201
+  district_giga_frameworld_science_desc: "모든 과학 분야에서 연구가 수행되는 첨단 연구소." # 18249823602801166640
+  district_giga_frameworld_anticrime: "치안 지구" # 16600659492534347615
+  district_giga_frameworld_anticrime_plural: "보안 지구" # 16071273066033868939
+  district_giga_frameworld_anticrime_desc: "보안군은 이러한 특수 시설에서 작전하며, 교란 세력이 기지 기능을 방해하지 못하도록 합니다." # 6370787357421672859
+  district_giga_frameworld_amenities: "$district_hab_cultural$" # 13101615170988046419
+  district_giga_frameworld_amenities_plural: "$district_hab_cultural_plural$" # 16582371334840488907
+  district_giga_frameworld_amenities_desc: "$district_hab_cultural_desc$" # 17138702122815341811
+  district_giga_frameworld_amenities_dystopian: "엘리트 리조트 구역" # 13431405025290190294
+  district_giga_frameworld_amenities_dystopian_plural: "엘리트 리조트 지구" # 16045262372252448032
+  district_giga_frameworld_amenities_dystopian_desc: "마땅히 받을 만한 자들이 지위에 걸맞은 부유함에 둘러싸여 긴장을 풀고 휴식을 취할 수 있는 장소." # 17320188675378216744
+  district_giga_frameworld_amenities_dystopian_limit: "$district_giga_frameworld_amenities_dystopian_plural$은 §Y100§! £pop£ 팝당 §Y1§!으로 제한됩니다.\n" # 496180911711677968
+  mod_district_giga_frameworld_amenities_dystopian_max: "최대 $district_giga_frameworld_amenities_dystopian_plural$" # 16455960274607552229
+  district_giga_frameworld_amenities_gestalt: "유지보수 지구" # 6422407448079248802
+  district_giga_frameworld_amenities_gestalt_plural: "정비 지구" # 18254615765047101110
+  district_giga_frameworld_amenities_gestalt_desc: "$building_maintenance_depot_desc$" # 15638202210093623170
+  district_giga_frameworld_refinery: "정제소 지구" # 4181750727862516801
+  district_giga_frameworld_refinery_plural: "정제소 지구" # 3005274269396403267
+  district_giga_frameworld_refinery_desc: "전략 자원 생산에 전념하는 고급 시설." # 3652621531828434711
+  district_giga_frameworld_refinery_unlocks: "§H추가 직업 해금:§!" # 5393052365675803027
+  district_giga_frameworld_refinery_motes_unlock: "£physics£ §Y$tech_volatile_motes$§!: $job_chemist$ 직업: §G+1§!" # 1175105065302172328
+  district_giga_frameworld_refinery_motes_unlock_gestalt: "£physics£ §Y$tech_volatile_motes$§!: $job_chemist_drone$ 일자리: §G+1§!" # 3033837120893874353
+  district_giga_frameworld_refinery_gases_unlock: "£engineering£ §Y$tech_exotic_gases$§!: $job_gas_refiner$ 일자리: §G+1§!" # 17884835850990378076
+  district_giga_frameworld_refinery_gases_unlock_gestalt: "£engineering£ §Y$tech_exotic_gases$§!: $job_gas_refiner_drone$ 일자리: §G+1§!" # 4258279680259773213
+  district_giga_frameworld_refinery_crystals_unlock: "£engineering£ §Y$tech_rare_crystals$§!: $job_translucer$ 직업: §G+1§!" # 15725232310238179362
+  district_giga_frameworld_refinery_crystals_unlock_gestalt: "£engineering£ §Y$tech_rare_crystals$§!: $job_translucer_drone$ 직업: §G+1§!" # 13649035446873093610
+  district_gaia_frameworld_refinery_upgrade_desc_1: "$pc_giga_frameworld$ $district_giga_frameworld_refinery$ 이용 가능, 직업 제공" # 1184975091685202360
+  district_gaia_frameworld_refinery_upgrade_desc_2: "$pc_giga_frameworld$ $district_giga_frameworld_refinery$를 업그레이드하며, 일자리 하나를 추가합니다." # 14729717041123190156
+  district_giga_frameworld_refinery_gases: "프레임월드 정제 지구 정제소" # 7983902234920421240
+  district_giga_frameworld_refinery_gases_plural: "$district_giga_frameworld_refinery_plural$" # 9410933061942263786
+  district_giga_frameworld_refinery_gases_desc: "[Owner.GetFrameworldRefineryTooltip]에서 $exotic_gases$를 생산합니다." # 17540856482717551428
+  district_giga_frameworld_refinery_crystals: "$district_giga_frameworld_refinery$\n$building_crystal_plant$" # 16990629869493511165
+  district_giga_frameworld_refinery_crystals_plural: "$district_giga_frameworld_refinery_plural$" # 9410933061942263786
+  district_giga_frameworld_refinery_crystals_desc: "[Owner.GetFrameworldRefineryTooltip]에서 $rare_crystals$을(를) 생산합니다." # 8717839243228456644
+  district_giga_frameworld_refinery_motes: "$district_giga_frameworld_refinery$ $building_chemical_plant$" # 392554005026260904
+  district_giga_frameworld_refinery_motes_plural: "$district_giga_frameworld_refinery_plural$" # 9410933061942263786
+  district_giga_frameworld_refinery_motes_desc: "$volatile_motes$를 생산하는 [Owner.GetFrameworldRefineryTooltip]" # 7753944297621458489
+  district_giga_frameworld_sentient_metal: "$building_ehof_sm_forge_1$ 특수 지구" # 9324594817654798715
+  district_giga_frameworld_sentient_metal_plural: "$building_ehof_sm_forge_1$ 구역" # 3462593738520593971
+  district_giga_frameworld_sentient_metal_desc: "$building_ehof_sm_forge_1_desc$" # 18090321923518713752
+  district_giga_frameworld_negative_mass: "$building_negative_mass_factory_2$ 특수지구" # 13488969156523667673
+  district_giga_frameworld_negative_mass_plural: "$building_negative_mass_factory_2$ 지구" # 11473951463391094667
+  district_giga_frameworld_negative_mass_desc: "$building_negative_mass_factory_2_desc$" # 14980577510579497307
+  district_giga_frameworld_supertensiles: "$district_giga_supertensiles$" # 14927555867170603967
+  district_giga_frameworld_supertensiles_plural: "$district_giga_supertensiles_plural$" # 11723819504828726275
+  district_giga_frameworld_supertensiles_desc: "$district_giga_supertensiles_desc$" # 2633434774543255058
+  district_giga_frameworld_fortress: "요새 지구" # 8311500653629238289
+  district_giga_frameworld_fortress_plural: "요새 지구" # 10729226858040394931
+  district_giga_frameworld_fortress_desc: "$pc_giga_frameworld$를 침략으로부터 방어하기 위해 상당한 주둔 병력을 갖춘 중무장 군사 요새 시설." # 7007032118476962041
+  district_giga_frameworld_maginot_cap: "£planetsize£ 행성 크기의 20%" # 12119611523824205588
+  district_giga_frameworld_maginot_shield_generators: "마지노 $district_maginot_world_shield_generators$" # 16848052646939766061
+  district_giga_frameworld_maginot_shield_generators_plural: "마지노 $district_maginot_world_shield_generators_plural$" # 18300588996484070427
+  district_giga_frameworld_maginot_shield_generators_desc: "$district_maginot_world_shield_generators_desc$" # 2049512617742565446
+  district_giga_frameworld_maginot_shield_generators_cap: "\n§H최대 §Y$district_giga_frameworld_maginot_cap$§!, §Y$district_giga_frameworld_maginot_planetary_cannons$§! 구역과 공유.§!" # 11680219924154160119
+  mod_district_giga_frameworld_maginot_shield_generators_max: "최대 $district_giga_frameworld_maginot_shield_generators_plural$" # 15779084652453923307
+  district_giga_frameworld_maginot_planetary_cannons: "마지노 $district_maginot_world_planetary_cannons$" # 7114885503151744651
+  district_giga_frameworld_maginot_planetary_cannons_plural: "마지노 $district_maginot_world_planetary_cannons_plural$" # 7181294087874308890
+  district_giga_frameworld_maginot_planetary_cannons_desc: "거대한 행성 방어 포대는 너무 가까이 접근하는 어떤 함선이라도 갈가리 찢어버릴 수 있으며, 이로써 성간 함선 함장들은 사격 범위 밖에 머물게 됩니다. 따라서 이 포대들은 주로 적 포탄과 강하정에 대한 요격 임무를 위해 준비됩니다. 광대한 지휘 통제 복합 시설은 외부 전략 방어 체계와 연결되어 더 많은 수의 방어 플랫폼 배치를 가능하게 하며, 기존 방어 플랫폼을 강화하기도 합니다." # 18269912055664687847
+  district_giga_frameworld_maginot_planetary_cannons_cap: "\n§H§Y$district_giga_frameworld_maginot_cap$§!에서 상한선 설정, §Y$district_giga_frameworld_maginot_shield_generators$§! 구역과 공유됨.§!" # 8290690146864449224
+  mod_district_giga_frameworld_maginot_planetary_cannons_max: "최대 $district_giga_frameworld_maginot_planetary_cannons_plural$" # 6592881126726901313
+  district_giga_frameworld_outpost: "$district_city$" # 8605917275316571931
+  district_giga_frameworld_outpost_plural: "$district_city_plural$" # 16755180730699197924
+  district_giga_frameworld_outpost_desc: "$district_city_desc$" # 10178765750167466586
+  job_frame_maintenance_worker: "프레임 유지보수 노동자" # 5223180767850365772
+  job_frame_maintenance_worker_plural: "프레임 유지보수 작업자" # 5482825389628391507
+  job_frame_maintenance_worker_desc: "이전 실업자들. 정거장 시스템을 유지하고 보충하도록 재훈련되고 재배치되었습니다." # 10814064488129056036
+  job_frame_maintenance_worker_effect_desc: "£job_frame_maintenance_worker£ $job_frame_maintenance_worker_plural$는 $giga_r_food$$giga_r_minerals$$giga_r_energy$ §Y팝 유지비 자원§!을 소량 생산하며, §Y$mod_planet_jobs_produces_mult$§! 및 §Y$mod_planet_jobs_upkeep_mult$§!를 증가시키고, 모든 종류의 £mod_planet_pop_assembly_mult£ £mod_pop_growth_speed£ §Y2차 팝 성장§!을 감소시킵니다." # 10508399327009557738
+  mod_job_frame_maintenance_worker_add: "$job_frame_maintenance_worker$ 일자리" # 15855214050235023650
+  mod_job_frame_maintenance_worker_per_pop: "$VALUE$ 팝당 $job_frame_maintenance_worker$ 일자리 §G+1§!" # 4063535225958635198
+  mod_job_frame_maintenance_worker_per_pop_short: "\n§G+1§! £mod_job_giga_birch_ktisma_worker_add£ $VALUE$ 팝당" # 10444818370658268943
+  job_frame_maintenance_drone: "프레임 유지 드론" # 1501869983735249961
+  job_frame_maintenance_drone_plural: "프레임 유지보수 드론" # 10649106255137434866
+  job_frame_maintenance_drone_desc: "할당된 임무가 없는 드론은 기지 시스템 유지 및 보충에 재분배됩니다." # 15146754861371204373
+  job_frame_maintenance_drone_effect_desc: "£job_frame_maintenance_drone£ $job_frame_maintenance_drone_plural$는 소량의 그들의 $giga_r_food$$giga_r_minerals$$giga_r_energy$ §Y팝 유지 자원§!을 생산하며, §Y$mod_planet_jobs_produces_mult$§!과 §Y$mod_planet_jobs_upkeep_mult$§!를 증가시키고, 모든 유형의 £mod_planet_pop_assembly_mult£ £mod_pop_growth_speed£ §Y보조 팝 성장§!을 감소시킵니다." # 4643050611275897325
+  mod_job_frame_maintenance_drone_add: "$job_frame_maintenance_drone$ 일자리" # 11545820555017156627
+  mod_job_frame_maintenance_drone_per_pop: "§G+1§! $VALUE$ 팝당 $job_frame_maintenance_drone$ 일자리" # 2937146995040054865
+  mod_job_frame_maintenance_drone_per_pop_short: "\n§G+1§! £mod_job_maintenance_drone_add£ $VALUE$ £pop£당" # 10258382034535675096
+  job_frame_maintenance_overseer: "유지보수 책임자" # 11335356100135514583
+  job_frame_maintenance_overseer_plural: "유지보수 감독관" # 16478065515474985145
+  job_frame_maintenance_overseer_desc: "이 특수 드론들은 하급자들을 지휘하고 조정하여 최고 수준의 운영 효율성을 보장합니다." # 15810069490796760336
+  job_frame_maintenance_overseer_effect_desc: "£job_frame_maintenance_overseer£ $job_frame_maintenance_overseer_plural$는 £mod_planet_amenities_no_happiness_add£ §Y$PLANET_AMENITIES_TITLE$§! 및 £mod_planet_jobs_simple_drone_produces_mult£ §Y$mod_planet_jobs_simple_drone_produces_mult$§!를 증가시킵니다." # 15953008255019414478
+  mod_job_frame_maintenance_overseer_add: "$job_frame_maintenance_overseer$ 일자리" # 15247315008649380722
+  mod_job_frame_maintenance_overseer_per_pop: "§G+1§! $job_frame_maintenance_overseer$ ($VALUE$ 팝당)" # 1003083412760378820
+  mod_job_frame_maintenance_overseer_per_pop_short: "\n§G+1§! £mod_job_maintenance_drone_add£ $VALUE$ £pop£당" # 10258382034535675096
+  job_frameworld_defender: "프레임 방어기" # 5609560533532283974
+  job_frameworld_defender_plural: "프레임 방어기" # 5609560533532283974
+  job_frameworld_defender_desc: "$pc_giga_frameworld$의 요새화 및 방어에 특화된 군사 코디네이터." # 14997959726821173991
+  job_frameworld_defender_effect_desc: "£job_frameworld_defender£ $job_frameworld_defender_plural$는 £unity£ §Y$unity$§!를 생산하고, £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!를 증가시키며, £defense_army£ §YDefense Armies§!를 생성합니다." # 17489901252507322350
+  mod_job_frameworld_defender_add: "$job_frameworld_defender$ 일자리" # 16180854021665413012
+  mod_job_frameworld_defender_per_pop: "§G+1§! $VALUE$ 팝당 $job_frameworld_defender$ 일자리" # 10791914829950022378
+  mod_job_frameworld_defender_per_pop_short: "\n§G+1§! 병사 일자리(팝 $VALUE$당)" # 15324799908731097000
+  job_frameworld_defender_drone: "프레임 수호 드론" # 1417156242093992736
+  job_frameworld_defender_drone_plural: "프레임 방어 드론" # 2556315869483770882
+  job_frameworld_defender_drone_desc: "$pc_giga_frameworld$의 요새화 및 방어에 특화된 군사 코디네이터." # 14997959726821173991
+  job_frameworld_defender_drone_effect_desc: "£job_frameworld_defender_drone£ $job_frameworld_defender_drone_plural$\n£unity£ §Y$unity$§!를 생산하며, £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!를 증가시키고, £defense_army£ §Y방어 군대§!를 생성합니다." # 5705541526621253222
+  mod_job_frameworld_defender_drone_add: "$job_frameworld_defender_drone$ 직업" # 17735656260096917670
+  mod_job_frameworld_defender_drone_per_pop: "§G+1§! $job_frameworld_defender_drone$ 일자리, $VALUE$ 팝당" # 9081656877855604513
+  mod_job_frameworld_defender_drone_per_pop_short: "\n§G+1§! £mod_job_warrior_drone_add£ $VALUE$ £pop£당" # 4254440952564980342
+  job_frameworld_outpost_job: "탐험가" # 3734392016253657973
+  job_frameworld_outpost_job_plural: "탐험가" # 8976257453197370056
+  job_frameworld_outpost_job_desc: "이 세계를 측량하기 위해 파견된 행성 표면 파견단" # 10026224554231451842
+  job_frameworld_outpost_job_effect_desc: "£job_frameworld_outpost_job£ $job_frameworld_outpost_job_plural$은 $col_frameworld_planetary_outpost$에서 근무합니다." # 5125398771699567333
+  mod_job_frameworld_outpost_job_add: "$job_frameworld_outpost_job$ 일자리" # 8013592207320702337
+  mod_job_frameworld_outpost_job_per_pop: "§G+1§! $job_frameworld_outpost_job$ 일자리 $VALUE$ 팝당" # 1630027823513095968
+  mod_job_frameworld_outpost_job_per_pop_short: "\n§G+1§! £mod_job_colonist_add£ $VALUE$ £pop£당" # 3201793066407869718
+  d_frameworld_core: "중앙 처리 코어" # 1592774619624938306
+  d_frameworld_core_desc: "이 거대한 시설은 $pc_giga_frameworld$의 $auth_machine_intelligence$의 중앙 처리 및 데이터 저장 시설을 수용하고 있습니다." # 3296450034904223634
+  d_frameworld_hive: "핵심 신경 중추" # 18021944873566261369
+  d_frameworld_hive_desc: "이 거대한 시설은 $pc_giga_frameworld$의 $auth_hive_mind$의 핵심 신경 처리 노드와 관리 시설을 수용하고 있습니다." # 1851712377491473724
+  d_frameworld_admin: "중앙 행정" # 12475534713085953461
+  d_frameworld_admin_desc: "이 거대한 시설은 $pc_giga_frameworld$의 고도로 중앙집권화된 행정 기구를 수용합니다." # 2639161742055711399
+  d_frameworld_expansion: "정거장 모듈" # 8517079442397800341
+  d_frameworld_expansion_desc: "$pc_giga_frameworld$의 토착 문명이 다양한 시스템을 수용하기 위해 건설한 추가 시설." # 2230494398314626670
+  d_frameworld_expansion_tooltip: "$d_frameworld_expansion$" # 15285613189412205791
+  mod_giga_frameworld_expansion_count: "총 확장 횟수" # 17242625140540522979
+  d_frameworld_structure_expansion: "광대한 초구조물" # 645227870411714098
+  d_frameworld_structure_expansion_desc: "$pc_giga_frameworld$ 부 구조물의 대부분을 이루는 군집 중에서 특히 거대한 정거장." # 5540119531410292702
+  d_frameworld_structure_expansion_tooltip: "$d_frameworld_structure_expansion$" # 4963517563800529457
+  mod_giga_frameworld_structure_expansion_count: "모듈 제작 완료" # 2583680080334886599
+  d_frameworld_reorganise_expansion: "재편된 물류망" # 7372881306181728680
+  d_frameworld_reorganise_expansion_desc: "효율화된 운송 네트워크와 정밀하게 설계된 모듈식 생산 시스템은 건설 처리량을 유의미하게 증대시킵니다." # 12837744634276844380
+  d_frameworld_reorganise_expansion_tooltip: "$d_frameworld_reorganise_expansion$" # 10542754906336113885
+  mod_giga_frameworld_reorganise_expansion_count: "재편성 완료" # 12245105951241599554
+  d_frameworld_remnants: "행성 잔해" # 11773857937813408880
+  d_frameworld_remnants_desc: "오래전에 죽은 행성의 산산조각난 잔해가 이 $pc_giga_frameworld$ 아래의 $pc_black_hole$ 궤도를 여전히 돌고 있습니다." # 18320419854662935218
+  d_frameworld_asteroid: "포획된 소행성" # 8586229926589908889
+  d_frameworld_asteroid_desc: "안전하게 포획 및 격리되어 광물 추출 준비가 완료된 소행성" # 12952128079097100245
+  d_frameworld_asteroid_tooltip: "$d_frameworld_asteroid$" # 9682758861895344237
+  mod_giga_frameworld_asteroid_count: "소행성 포획됨" # 6485622443191027632
+  d_frameworld_planet: "포획된 행성 질량" # 7280382482123909162
+  d_frameworld_planet_desc: "해체된 행성 질량, 광물 추출 작업을 위해 안전하게 격리됨." # 5731985776498654243
+  d_frameworld_planet_tooltip: "$d_frameworld_planet$" # 1112078463267887612
+  mod_giga_frameworld_planet_count: "$sr_solar_energy$으로 제작된 모듈" # 14488257215127985851
+  d_frameworld_habitat: "인양된 거주지 잔해" # 12909609655875559668
+  d_frameworld_habitat_desc: "재활용에 부적합하다고 판단되어 해체된 인공 서식지의 잔해." # 1933639251871152004
+  d_frameworld_habitat_tooltip: "$d_frameworld_habitat$" # 8288479185195032555
+  mod_giga_frameworld_habitat_count: "궤도 거주지 모듈 회수됨" # 11577970145151105537
+  d_frameworld_devour_expansion: "노천 채굴 광물" # 13751869217017232729
+  d_frameworld_devour_expansion_desc: "$frameworld_outpost_0$에서 채취한 암석과 정제되지 않은 광석, 가공 준비 완료." # 17854753023646222338
+  d_frameworld_devour_expansion_tooltip: "$d_frameworld_devour_expansion$" # 11802914789216160670
+  mod_giga_frameworld_devour_expansion_count: "행성 광산 발굴됨" # 7766473139400534701
+  d_frameworld_nanite_expansion: "변환된 광물 풍부함" # 15825257866591179893
+  d_frameworld_nanite_expansion_desc: "프레임 내부에 저장된 나나이트 비축분." # 1390338691377695401
+  d_frameworld_nanite_expansion_tooltip: "$d_frameworld_nanite_expansion$" # 9099280937397168491
+  mod_giga_frameworld_nanite_expansion_count: "나나이트 군체 저장됨" # 17208572975165644616
+  d_frameworld_nature_preserve: "자연 보호 구역" # 15842782008704458709
+  d_frameworld_nature_preserve_desc: "신중하게 관리되는 환경 제어 시설로, 다양한 동식물군으로 가득합니다." # 4899557718826344735
+  d_frameworld_penrose: "통합된 $name_penrose$" # 16840019382449979323
+  d_frameworld_penrose_desc: "해당 성계의 $pc_black_hole$ 주위에 건설된 거대한 거울은 초방사 산란을 활용하여 경이로운 효율성으로 에너지를 생산합니다." # 9348002289859955137
+  d_frameworld_decompressor: "통합 $matter_decompressor_4$" # 14456589523987558872
+  d_frameworld_decompressor_desc: "뒤틀린 중력의 통로가 특이점으로 파고들어 감압된 물질을 전용 처리 고리로 끌어들입니다." # 2513421633958973054
+  d_frameworld_advanced_city: "확장 거주 단지" # 7087112683390431019
+  d_frameworld_advanced_city_desc: "거주 구역 및 저장소의 개선된 설계는 생활 공간을 더욱 효율적으로 조직할 수 있게 합니다." # 288032935243544590
+  d_frameworld_advanced_hive: "$d_frameworld_advanced_city$" # 7087459812450694223
+  d_frameworld_advanced_hive_desc: "$d_frameworld_advanced_city_desc$" # 9699525223501993867
+  d_frameworld_advanced_nexus: "$d_frameworld_advanced_city$" # 7087459812450694223
+  d_frameworld_advanced_nexus_desc: "$d_frameworld_advanced_city_desc$" # 9699525223501993867
+  d_frameworld_advanced_industrial: "확장된 중공업" # 14811498922710886987
+  d_frameworld_advanced_industrial_desc: "확장된 생산 시설과 결합하여 특이 물질을 사용하는 선진 산업 공정을 도입하면 생산 처리량이 크게 개선됩니다." # 2815990136042789990
+  d_frameworld_advanced_sanctuary: "고밀도 유기체 성역" # 527795854696461503
+  d_frameworld_advanced_sanctuary_desc: "유기체 필요 충족 및 오락 시설의 전략적 재구상은 혁신적인 새 서식지 설계를 가능하게 합니다." # 15955476020688256853
+  d_frameworld_gaia: "강화 환경 지원 시스템" # 7492416309898892028
+  d_frameworld_gaia_desc: "고급 기후 제어 시스템은 모든 형태의 유기 생명체에게 이상적인 환경을 제공하여, 생활 환경과 농업 생산량 모두를 크게 향상시킵니다." # 12067617136557146209
+  d_frameworld_computing_complex: "고대역폭 연산 단지" # 1843944545780219400
+  d_frameworld_computing_complex_desc: "고밀도 데이터 저장 및 가속 정보 처리를 위한 전용 시설." # 4173660129238070830
+  d_frameworld_expanded_infrastructure: "인프라 확장" # 12409398522885858625
+  d_frameworld_expanded_infrastructure_desc: "추가 정거장 모듈 제조를 위한 시설 확장" # 16859317442849255670
+  d_frameworld_orbital_ring: "이차 처리 궤도 시설" # 15624805885127269888
+  d_frameworld_orbital_ring_desc: "원자재의 처리 및 정제를 전담하는 외곽 기지." # 10100233124554913220
+  d_frameworld_orbital_ring_effect: "$orbital_ring_tier_1$ 효과로 자원 증진 건물을 강화합니다." # 12759933354779680021
+  d_frameworld_maginot: "강화 방어" # 11311304824555474778
+  d_frameworld_maginot_desc: "방어 위성과 지상 방어 부대를 위한 정비 시설." # 17109561303123282973
+  d_frameworld_nanites: "나나이트 주입 시스템" # 18140455380209401054
+  d_frameworld_nanites_desc: "극소형 로봇들이 이 정거장의 시스템 곳곳에 스며들어 있습니다." # 17407168009138229120
+  d_frameworld_nanites_effect: "§Y$tradition_nanotech$§! 전통을 채택한 제국의 일부 구역을 강화합니다." # 9747561983210113320
+  d_frameworld_maginot_max_shields: "$district_giga_frameworld_maginot_shield_generators$ 용량" # 3874188627819499312
+  d_frameworld_maginot_max_shields_desc: "첨단 방어 시설 유지 능력이 제한적입니다." # 6812706265700666195
+  d_frameworld_maginot_max_guns: "$district_giga_frameworld_maginot_planetary_cannons$ 용량" # 6086530026717292839
+  d_frameworld_maginot_max_guns_desc: "첨단 방어 시설 유지 능력이 제한적입니다." # 6812706265700666195
+  d_frameworld_expanded_maintenance_protocol: "$frameworld_expanded_maintenance_protocol$" # 2146143339278509613
+  d_frameworld_expanded_maintenance_protocol_desc: "§T자세한 내용은 동명의 행성 보정치를 참고하십시오.§!" # 1219631108177123918
+  d_frameworld_terravore_damage: "£blocker£ 버려진 노천광산" # 1285097192926114728
+  d_frameworld_terravore_damage_desc: "대규모 채굴 작업으로 인한 생태계 피해" # 9224401851145811089
+  d_frameworld_nanite_damage: "$d_nanotech_devastation$" # 15560577923587984866
+  d_frameworld_nanite_damage_desc: "$d_nanotech_devastation_desc$" # 13422015886683024883
+  giga_frameworld_fix_outpost_ownership: "$giga_frameworld_outpost_plural$ 점유" # 13931827239296891395
+  giga_frameworld_fix_outpost_ownership_desc: "소유권이 다른 제국에게 잘못 귀속된 경우, 이 성계 내 모든 $giga_frameworld_outpost_plural$의 소유권을 획득합니다." # 8201601371474612146
+  giga_frameworld_baol_life_seed: "$decision_baol_life_seed$" # 12604502124293216922
+  giga_frameworld_baol_life_seed_desc: "유전학자들이 §Y바올 유기체§!의 행성 테라포밍 능력에 대한 비밀을 추출했습니다. 행성 규모에서 이 혁신을 직접 사용할 수는 없지만, §Y바올§!의 유전 정보로 변형된 빠르게 번식하는 식물 생명체를 특별히 준비된 서식지에 배치함으로써 파생 종의 새로운 개체군을 배양할 수 있습니다." # 15446770722807712396
+  giga_frameworld_baol_life_seed_effects: "§Y4 $NAME_Nu_Baol$ 팝§! (이)가 [Root.GetName]에서 생성됩니다." # 9211516599028677053
+  giga_frameworld_baol_life_seed_effects_2: "§Y6 $NAME_Nu_Baol$ 팝§!이 [Root.GetName]에 생성되었습니다." # 9204611329726298906
+  giga_frameworld_expanded_maintenance_protocol: "확장된 정비 프로토콜 활성화" # 14788607273842981837
+  giga_frameworld_expanded_maintenance_protocol_desc: "$frameworld_expanded_maintenance_protocol_desc$" # 946762033704213294
+  giga_frameworld_expanded_maintenance_protocol_remove: "확장된 유지보수 프로토콜 비활성화" # 11932092675986073979
+  giga_frameworld_expanded_maintenance_protocol_remove_desc: "우리 유지 보수 실업 프로그램에 할당된 자원은 다른 곳에 더 잘 활용될 수 있습니다." # 8631282197125278131
+  giga_frameworld_repair_station: "방어 기지 수리" # 8890309676239925995
+  giga_frameworld_repair_station_effect: "손상된 방어 기지를 다시 작동시킵니다" # 3419860931482876061
+  giga_frameworld_repair_station_desc: "우리의 방어선은 복원되어야 합니다." # 5174187602305463534
+  giga_frameworld_repair_station_1: "프레임 월드 정비소 1" # 14478459763454399838
+  giga_frameworld_repair_station_1_desc: "$giga_frameworld_repair_station_desc$" # 17070511270748386715
+  giga_frameworld_repair_station_2: "$giga_frameworld_repair_station$ 2" # 3070586801878321332
+  giga_frameworld_repair_station_2_desc: "$giga_frameworld_repair_station_desc$" # 17070511270748386715
+  giga_frameworld_repair_station_3: "프레임월드 수리 기지 3" # 14087939647323717436
+  giga_frameworld_repair_station_3_desc: "$giga_frameworld_repair_station_desc$" # 17070511270748386715
+  giga_frameworld_repair_station_4: "$giga_frameworld_repair_station$ 4" # 13977068632777280125
+  giga_frameworld_repair_station_4_desc: "$giga_frameworld_repair_station_desc$" # 17070511270748386715
+  giga_frameworld_repair_station_5: "$giga_frameworld_repair_station$ 5" # 180537089726991314
+  giga_frameworld_repair_station_5_desc: "$giga_frameworld_repair_station_desc$" # 17070511270748386715
+  giga_frameworld_repair_station_6: "$giga_frameworld_repair_station$ 6" # 16485544814224583356
+  giga_frameworld_repair_station_6_desc: "$giga_frameworld_repair_station_desc$" # 17070511270748386715
+  giga_frameworld_expand_name: "기지 모듈 제작" # 2165790373044691919
+  giga_frameworld_expand_concurrent: "$TRIGGER_FAIL$행성에는 다른 정거장 건설 결정이 대기열에 올라 있으면 안 됩니다." # 10989124813866051033
+  giga_frameworld_expand_desc_cost: "정거장 모듈을 합금($alloys$)으로 건설하는 비용은 이미 건설된 각 모듈에 대해 §Y[capital_scope.giga_frameworld_expansion_cost_exponent]배§! 요인으로 증가합니다. 이 요인에 대한 변경 사항은 소급 적용되어 총비용에 영향을 미칩니다." # 7763291604370062695
+  giga_frameworld_expand_desc_fluff: "첨단 재료로 새로운 기지 모듈을 건설하면 각 모듈이 더 많은 장비를 수용할 수 있습니다." # 10302075965558433355
+  giga_frameworld_expand_bulk_cost_info: "§H모듈당 비용 및 발의 속도 증가는 총 비용과 시간에 반영됩니다.§!" # 2567088680304162048
+  giga_frameworld_expand_bulk_5_info: "이 결정의 일괄 버전은 §Y5§!개의 새 모듈을 추가합니다." # 16578781426761857918
+  giga_frameworld_expand_bulk_10_info: "이 결정의 일괄 버전은 §Y10§!개의 새로운 모듈을 추가합니다." # 2425605428865441749
+  giga_frameworld_expand_base: "기본 비용" # 4657865538774741297
+  giga_frameworld_expand_factor: "비용 계수" # 105385568843817875
+  giga_frameworld_expand_fabricated: "모듈 제작 완료" # 2583680080334886599
+  giga_frameworld_expand_total: "현재 총 비용 배율" # 14122423286744086083
+  giga_frameworld_expand_base_discount_mod_1: "\n $tech_habitat_2$: §G-25§!" # 7116209674745219548
+  giga_frameworld_expand_base_discount_mod_2: "\n$tech_habitat_3$: §G-25§!" # 12876909446480074092
+  giga_frameworld_expand_multiplier_discount_mod_1: "\n$tech_habitat_1$: §G-0.02x§!" # 1383509980946249747
+  giga_frameworld_expand_multiplier_discount_mod_2: "\n    보이드본: §G-0.03x§!" # 1244687146415062883
+  giga_frameworld_expand_multiplier_discount_mod_3: "\n$tech_ring_world$: §G-0.03x§!" # 11933025374438677764
+  giga_frameworld_expand_upgrade_title: "\n\n업그레이드:" # 18415083332668046691
+  giga_frameworld_expand_upgrade_1: "\n    £engineering£§Y$tech_habitat_1$§!: $giga_frameworld_expand_factor$ §G-0.02x§!" # 10181257225919782563
+  giga_frameworld_expand_upgrade_2: "\n    £engineering£§Y$tech_habitat_2$§!: $giga_frameworld_expand_base$ £alloys£§G-25§!" # 4272823286739177161
+  giga_frameworld_expand_upgrade_3: "\n    £engineering£§Y$tech_habitat_3$§!: $giga_frameworld_expand_base$ £alloys£§G-25§!" # 9228474225655522728
+  giga_frameworld_expand_upgrade_4: "\n    £unity£§Y공허 태생§!: $giga_frameworld_expand_factor$ §G-0.03x§!" # 5173157521293441390
+  giga_frameworld_expand_upgrade_5: "\n    £engineering£§Y$tech_ring_world$§!: $giga_frameworld_expand_factor$ §G-0.03x§!" # 12989075794666399047
+  giga_frameworld_expand: "$giga_frameworld_expand_name$§B§!" # 11949740418856769946
+  giga_frameworld_expand_desc: "§T$giga_frameworld_expand_desc_cost$에 필요한 자원입니다.§!\n\n$giga_frameworld_expand_base$: £alloys£§Y[capital_scope.giga_frameworld_expansion_cost_base]§!\n    기본: £alloys£§Y600§![owner.FrameworldExpansionCost1][owner.FrameworldExpansionCost2]\n\n$giga_frameworld_expand_factor$: §Y[capital_scope.giga_frameworld_expansion_cost_exponent]x§!\n    기본: §Y1.15x§![owner.FrameworldExpansionMult1][owner.FrameworldExpansionMult2][owner.FrameworldExpansionMult3]\n\n$giga_frameworld_expand_fabricated$: §Y[capital_scope.giga_frameworld_structure_expansions]§!\n$giga_frameworld_expand_total$: §Y[capital_scope.giga_frameworld_expansion_cost_multiplier_tooltip]x§![this.FrameworldExpansionUpgradesTitle][this.FrameworldExpansionUpgrades1][this.FrameworldExpansionUpgrades2][this.FrameworldExpansionUpgrades3][this.FrameworldExpansionUpgrades4][this.FrameworldExpansionUpgrades5]§!\n§T--------------§!\n$giga_frameworld_expand_desc_fluff$" # 14267907989289921960
+  giga_frameworld_expand_bulk_5: "$giga_frameworld_expand_name$ §B§!§Yx5§!" # 7573215779472898303
+  giga_frameworld_expand_bulk_5_desc: "§T프레임월드 확장 비용§!\n\n일괄 확장 5 정보 일괄 비용 정보\n\n기본 비용: £alloys£§Y[capital_scope.giga_frameworld_expansion_cost_base]§!\n    기본: £alloys£§Y600§![owner.FrameworldExpansionCost1][owner.FrameworldExpansionCost2]\n\n비용 증폭 계수: §Y[capital_scope.giga_frameworld_expansion_cost_exponent]x§!\n    기본: §Y1.15x§![owner.FrameworldExpansionMult1][owner.FrameworldExpansionMult2][owner.FrameworldExpansionMult3]\n\n제조된 확장: §Y[capital_scope.giga_frameworld_structure_expansions]§!§H+4§!\n총계: §H[capital_scope.giga_frameworld_expansion_bulk_5_cost_multiplier_tooltip]x§![this.FrameworldExpansionUpgradesTitle][this.FrameworldExpansionUpgrades1][this.FrameworldExpansionUpgrades2][this.FrameworldExpansionUpgrades3][this.FrameworldExpansionUpgrades4][this.FrameworldExpansionUpgrades5]§!\n§T--------------§!\n$giga_frameworld_expand_desc_fluff$" # 9963900829592395772
+  giga_frameworld_expand_bulk_10: "$giga_frameworld_expand_name$ §E§!§Yx10§!" # 14637102818256965763
+  giga_frameworld_expand_bulk_10_desc: "§T프레임월드 확장 설명 비용§!\n\n프레임월드 확장 대량 10 정보 프레임월드 확장 대량 비용 정보\n\n프레임월드 확장 기본 비용: £alloys£§Y[capital_scope.giga_frameworld_expansion_cost_base]§!\n    기본: £alloys£§Y600§![owner.FrameworldExpansionCost1][owner.FrameworldExpansionCost2]\n\n프레임월드 확장 계수: §Y[capital_scope.giga_frameworld_expansion_cost_exponent]x§!\n    기본: §Y1.15x§![owner.FrameworldExpansionMult1][owner.FrameworldExpansionMult2][owner.FrameworldExpansionMult3]\n\n프레임월드 확장 제작됨: §Y[capital_scope.giga_frameworld_structure_expansions]§!§H+9§!\n프레임월드 확장 총합: §H[capital_scope.giga_frameworld_expansion_bulk_10_cost_multiplier_tooltip]x§![this.FrameworldExpansionUpgradesTitle][this.FrameworldExpansionUpgrades1][this.FrameworldExpansionUpgrades2][this.FrameworldExpansionUpgrades3][this.FrameworldExpansionUpgrades4][this.FrameworldExpansionUpgrades5]§!\n§T--------------§!\n프레임월드 확장 설명 추가 내용" # 3814319564399908613
+  giga_frameworld_expand_mass: "$giga_frameworld_expand_name$ §E($sr_solar_energy$)§!" # 6784223883728747904
+  giga_frameworld_expand_mass_desc: "수확한 행성 질량으로 새로운 기지 모듈을 건설하면 광물 추출에 대한 추가적인 기회가 제공됩니다." # 8357279276592824556
+  giga_frameworld_expand_mass_bulk_5: "$giga_frameworld_expand_mass$ §B§!§Yx5§!" # 12763690922213117416
+  giga_frameworld_expand_mass_bulk_5_desc: "§T$giga_frameworld_expand_bulk_5_info$§!\n§T--------------§!\n$giga_frameworld_expand_mass_desc$" # 5787769589936438479
+  giga_frameworld_expand_mass_bulk_10: "$giga_frameworld_expand_mass$ §E§!§Yx10§!" # 437762435434536856
+  giga_frameworld_expand_mass_bulk_10_desc: "§T$giga_frameworld_expand_bulk_10_info$§!\n§T--------------§!\n$giga_frameworld_expand_mass_desc$" # 7864979806045700844
+  giga_frameworld_expand_nanites: "$giga_frameworld_expand_name$ §E(나나이트)§!" # 15278874106755131278
+  giga_frameworld_expand_nanites_desc: "대량의 나나이트를 프레임의 상부 구조물 내부에 내장하고, 이를 통해 기지 모듈을 직접 형성하도록 제어할 수 있습니다." # 4263264460175679545
+  giga_frameworld_expand_nanites_bulk_5: "$giga_frameworld_expand_nanites$ §B§!§Yx5§!" # 12757143756316593570
+  giga_frameworld_expand_nanites_bulk_5_desc: "§T$giga_frameworld_expand_bulk_5_info$§!\n§T--------------§!\n$giga_frameworld_expand_nanites_desc$" # 5046150800051874088
+  giga_frameworld_expand_nanites_bulk_10: "$giga_frameworld_expand_nanites$ §E§!§Yx10§!" # 10085161951550338547
+  giga_frameworld_expand_nanites_bulk_10_desc: "§T$giga_frameworld_expand_bulk_10_info$§!\n§T--------------§!\n$giga_frameworld_expand_nanites_desc$" # 7784944997275519678
+  giga_frameworld_reorganise: "물류 최적화 프로그램" # 3711035031461926320
+  giga_frameworld_reorganise_desc: "모든 기지 기능의 원활한 작동을 보장하기 위해, 수송망 및 생산 시설은 최대 효율을 위해 정기적으로 검사, 평가, 재조직되어야 합니다." # 17162584887754979218
+  giga_frameworld_consume_world: "채굴 전초 행성" # 11209139182697498863
+  giga_frameworld_consume_world_desc: "[FrameworldConsumeWorldDesc]" # 5767799674534353597
+  giga_frameworld_consume_world_desc_hive: "$decision_lithoid_swarm_consume_world_desc$" # 14716708040609394343
+  giga_frameworld_consume_world_desc_nonhive: "대규모 지표 물질 채취는 풍부한 자원을 제공할 것입니다." # 6213958711046045012
+  giga_frameworld_consume_world_effect: "무작위의 잠재적인 $frameworld_outpost_0$ 행성이 §Y$d_frameworld_terravore_damage$§! 차단물을 획득하여, 전초 기지 자원 생산량을 §Y25%§!만큼 감소시킵니다.\n\n각 $frameworld_outpost_0$는 최대 §Y3§!회까지 노천 채굴할 수 있습니다" # 13720225499764000242
+  giga_frameworld_consume_world_allow: "요구 조건 미충족: 노천 채굴이 활성화되고 세 개 미만의 §Y$d_frameworld_terravore_damage$§! 차단물을 가진 $frameworld_outpost_0$ 필요" # 14371091439470179399
+  giga_frameworld_consume_world_toggle_on: "표면 채굴 허용" # 12367142094205416275
+  giga_frameworld_consume_world_toggle_on_desc: "은하의 광물 자원은 우리 손 안에 있습니다. 우리는 그것을 움켜쥐어야 합니다." # 9474012152949563724
+  giga_frameworld_consume_world_toggle_on_effect: "이 세계는 §Y$giga_frameworld_consume_world$§! §Y[from.Capital.GetName]§!에서 내리는 결정의 잠재적 목표로 고려될 것입니다." # 12666817193092438776
+  giga_frameworld_consume_world_toggle_off: "노천 채굴 금지" # 14487215987051883227
+  giga_frameworld_consume_world_toggle_off_desc: "일부 행성들은 방해받지 않고 남겨두는 편이 가장 낫다." # 9309922170688435041
+  giga_frameworld_consume_world_toggle_off_effect: "이 행성은 표면 채굴되지 않을 것이며, 행성 및 모든 전초 기지 자원 생산을 보존할 것입니다." # 10654656741169970934
+  giga_frameworld_outpost_stripmine: "$giga_mega_management_section_left$전초 기지 노천 채굴$giga_mega_management_section_right$" # 1348800088561380417
+  giga_frameworld_outpost_stripmine_mode_allow: "허용" # 11997207323152052506
+  giga_frameworld_outpost_stripmine_mode_allow_desc: "이 세계는 §Y[this.Capital.GetName]§!에서 사용할 수 있는 §Y$giga_frameworld_consume_world$§! 결단에 대한 유효한 대상이 됩니다." # 12793507110370926126
+  giga_frameworld_outpost_stripmine_mode_deny: "금지" # 13616393133122632112
+  giga_frameworld_outpost_stripmine_mode_deny_desc: "이 행성은 표면 채굴되지 않을 것이며, 행성 및 모든 전초 기지 자원 생산을 보존할 것입니다." # 10654656741169970934
+  giga_frameworld_nanite_consume_world: "전초기지 행성 통합" # 16968167543801434736
+  giga_frameworld_nanite_consume_world_desc: "$decision_nanotech_swarm_consume_world_desc$" # 17537417433214729522
+  giga_frameworld_nanite_consume_world_effect: "무작위로 가능한 $frameworld_outpost_0$ 행성이 §Y$d_frameworld_nanite_damage$§! 봉쇄 요소를 얻고, £nanites£ §Y$nanites$§!를 생산하며 전초 기지 자원 생산량을 §Y10%§! 증가시킵니다.\n\n각 $frameworld_outpost_0$는 최대 §Y3§!회까지 확장될 수 있습니다." # 12251330891220225693
+  giga_frameworld_nanite_consume_world_allow: "$TRIGGER_FAIL$$frameworld_outpost_0$는 종속화가 활성화되어 있어야 하며 §Y$d_frameworld_nanite_damage$§! 차단기가 세 개 미만이어야 합니다" # 9758996952081996295
+  giga_frameworld_nanite_consume_world_toggle_on: "흡수 허용" # 15781062960327583223
+  giga_frameworld_nanite_consume_world_toggle_on_desc: "군체가 증식할 것이다." # 179947137817481136
+  giga_frameworld_nanite_consume_world_toggle_on_effect: "이 세계는 §Y[from.Capital.GetName]§!에서의 §Y$giga_frameworld_nanite_consume_world$§! 결정에 대한 실행 가능한 목표로 간주될 것입니다!" # 14035063140802960465
+  giga_frameworld_nanite_consume_world_toggle_off: "흡수 금지" # 371713734433324535
+  giga_frameworld_nanite_consume_world_toggle_off_desc: "일부 행성들은 방해받지 않고 남겨두는 편이 가장 낫다." # 9309922170688435041
+  giga_frameworld_nanite_consume_world_toggle_off_effect: "이 세계는 흡수되지 않으며, 행성을 보존한다." # 15841354017141537193
+  giga_frameworld_contract: "모듈 분리" # 2129911681394265127
+  giga_frameworld_contract_desc: "네트워크 부하가 극도로 높을 때, 추가 정거장 모듈은 혜택보다는 부담이 더 클 수 있습니다." # 10576744158381422450
+  giga_frameworld_contract_effect: "§Y[this.GetName]§!에서 무작위 확장 특징 하나를 제거하여 £planetsize£ §Y행성 크기§!를 감소시키며, 이는 ['concept_giga_virtual_colony_size']를 감소시킬 수 있습니다." # 14372397424466347575
+  giga_frameworld_contract_need_expansions: "$TRIGGER_FAIL$[this.GetName] 최소 한 번 확장되었어야 합니다." # 1441559696685953663
+  giga_frameworld_upgrade_desc: "§B$pc_giga_frameworld$ 업그레이드 프로젝트§!" # 10388995420548091100
+  giga_frameworld_upgrade_warning: "§H이 대규모 업그레이드 프로젝트는 완전히 완료될 때까지 다른 업그레이드 프로젝트를 차단합니다.§!\n" # 11240211734435014571
+  giga_frameworld_upgrade_upkeep: "§P경고: 이 프로젝트에는 상당한 지속적 유지 비용이 듭니다!§!" # 8943847163653558142
+  giga_frameworld_upgrade_fail: "$TRIGGER_FAIL$진행 중인 주요 업그레이드 프로젝트 없음." # 15940303914046085602
+  giga_frameworld_penrose: "$d_frameworld_penrose$" # 7879546452003860768
+  giga_frameworld_penrose_effect: "완료되면 $pc_giga_frameworld$의 §Y$district_giga_frameworld_generator_plural$§!을 훨씬 더 강력한 §Y$district_giga_frameworld_penrose_plural$§! 소수로 대체할 다단계 메가스트럭처 건설을 시작합니다.\n\n§Y$district_giga_frameworld_penrose_plural$§!은 추가적인 £job_technician£§Y[owner.GetTechnician] 일자리§!를 제공하지만, 대체하는 구역보다 더 비쌉니다.\n\n$frameworld_penrose_fake_tooltip$" # 17836679279931909434
+  giga_frameworld_penrose_desc: "$pc_black_hole$ 성계 블랙홀 주변에 건설된 거대한 거울은 초방사 산란을 활용하도록 설계되어 놀라운 효율로 에너지를 생성합니다." # 13120695386948753501
+  giga_frameworld_decompressor: "$d_frameworld_decompressor$" # 6587167848053367495
+  giga_frameworld_decompressor_effect: "다단계 메가스트럭처 건설을 시작합니다. 이것이 완성되면 $pc_giga_frameworld$의 §Y$district_giga_frameworld_mining_plural$§!를 대체하여 훨씬 강력한 §Y$district_giga_frameworld_decompressor_plural$§!를 소수 건설합니다.\n\n§Y$district_giga_frameworld_decompressor_plural$§!는 추가적인 £job_miner£§Y[owner.GetMiner] 일자리§!를 제공하지만, 이들이 대체하는 지구보다 더 비쌉니다." # 6804536860369390278
+  giga_frameworld_decompressor_desc: "$pc_black_hole$에서 물질을 추출할 수 있는 드릴로 중력장을 비트는 중력 렌즈 시설." # 11573387012159481403
+  giga_frameworld_advanced_city: "거주 구역 업그레이드" # 17111651574572929326
+  giga_frameworld_advanced_city_effect: "$pc_giga_frameworld$의 §Y$district_giga_frameworld_city_plural$§!를 더 적은 수의 §Y$district_giga_frameworld_city_advanced_plural$§!로 대체합니다.\n\n§Y$district_giga_frameworld_city_advanced_plural$§!는 그것들이 대체하는 구역보다 효율이 두 배 높습니다." # 7147206579843119670
+  giga_frameworld_advanced_hive_effect: "$pc_giga_frameworld$의 §Y$district_giga_frameworld_hive_plural$§!를 더 적은 수의 §Y$district_giga_frameworld_hive_advanced_plural$§!(으)로 대체하고, 각 §Y$district_giga_frameworld_amenities_gestalt$§!의 두 개의 £job_maintenance_drone£§Y$job_maintenance_drone_plural$§! 일자리를 £job_frame_maintenance_overseer£§Y$job_frame_maintenance_overseer_plural$§!(으)로 대체합니다.\n\n§Y$district_giga_frameworld_hive_advanced_plural$§!는 그것들이 대체하는 지구들보다 두 배 더 효과적입니다.\n$job_frame_maintenance_overseer_effect_desc$" # 13828334320084558935
+  giga_frameworld_advanced_nexus_effect: "$pc_giga_frameworld$의 §Y$district_giga_frameworld_nexus_plural$§!를 더 적은 수의 §Y$district_giga_frameworld_nexus_advanced_plural$§!로 대체하고, 각 §Y$district_giga_frameworld_amenities_gestalt$§!의 £job_maintenance_drone£§Y$job_maintenance_drone_plural$§! 일자리 두 개를 £job_frame_maintenance_overseer£§Y$job_frame_maintenance_overseer_plural$§!로 대체합니다.\n\n§Y$district_giga_frameworld_nexus_advanced_plural$§!는 대체하는 특구보다 효율이 두 배입니다.\n$job_frame_maintenance_overseer_effect_desc$" # 2310156033391222551
+  giga_frameworld_advanced_city_desc: "거주 및 저장 기지의 개선된 설계는 거주 공간의 더 나은 구성을 가능하게 할 것입니다." # 18111252114011863552
+  giga_frameworld_advanced_industrial: "중공업 증설" # 10485105398843635815
+  giga_frameworld_advanced_industrial_foundry_effect: "$pc_giga_frameworld$의 §Y$district_giga_frameworld_foundry_plural$§!를 더 적은 수의 §Y$district_giga_frameworld_foundry_advanced_plural$§!로 교체합니다.\n\n§Y$district_giga_frameworld_foundry_advanced_plural$§!는 추가적인 £job_fabricator£§Y[owner.GetAlloyProducer] 일자리§! 2개를 제공하지만, 유지 비용으로 £volatile_motes£ §Y$volatile_motes$§!를 필요로 합니다." # 4334285991081555984
+  giga_frameworld_advanced_industrial_factory_effect: "$pc_giga_frameworld$의 §Y$district_giga_frameworld_factory_plural$§!를 소량의 §Y$district_giga_frameworld_factory_advanced_plural$§!로 대체합니다.\n\n§Y$district_giga_frameworld_factory_advanced_plural$§!는 2명의 추가 [owner.GetArtisanIcon]§Y[owner.GetArtisan] 직업§!을 제공하지만, 유지비로 £rare_crystals£ §Y$rare_crystals$§!를 소모합니다." # 8475574301967585922
+  giga_frameworld_advanced_industrial_desc: "특수 물질을 활용하는 발전된 산업 공정과 확장된 제조 시설을 결합하면 생산량이 크게 향상될 것입니다." # 11173546784197366065
+  giga_frameworld_advanced_sanctuary: "성역 아콜로지 프로젝트" # 9320969976940227369
+  giga_frameworld_advanced_sanctuary_effect: "$pc_giga_frameworld$의 §Y$district_giga_frameworld_sanctuary_plural$§!를 더 적은 수의 §Y$district_giga_frameworld_sanctuary_advanced_plural$§!(으)로 대체합니다.\n\n§Y$district_giga_frameworld_sanctuary_advanced_plural$§!는 대체하는 구역보다 두 배 더 많은 £job_bio_trophy£ §Y$job_bio_trophy_plural$§!를 수용할 수 있습니다." # 14479753942698425382
+  giga_frameworld_advanced_sanctuary_desc: "유기체 필요 충족 및 오락 시설의 전략적 재구상은 기능이나 안락함의 희생 없이 훨씬 높은 거주 밀도를 가능하게 할 것입니다." # 763715883430633491
+  giga_frameworld_gaia: "환경 지원 시스템 업그레이드" # 9739624540430245556
+  giga_frameworld_gaia_desc: "모든 형태의 유기체 생명체를 위한 이상적인 환경을 제공하도록 설계된 첨단 기후 제어 시스템." # 8448994901614366143
+  giga_frameworld_computing_complex: "데이터 처리 시설 업그레이드" # 12959772525980971371
+  giga_frameworld_computing_complex_desc: "고밀도 데이터 저장 및 가속 정보 처리를 위한 전용 시설은 우리의 연구 역량을 대폭 향상시킬 것입니다." # 17049627004580232097
+  giga_frameworld_expand_infrastructure: "기지 기반시설 확장" # 13959516225201746688
+  giga_frameworld_expand_infrastructure_desc: "정거장 제작 및 유지보수 시설의 처리량을 향상하면 더 많은 수의 모듈을 지원할 수 있게 될 것입니다." # 6744535057882571232
+  giga_frameworld_orbital_ring_upgrade: "가공 궤도 시설 건설" # 15423627057582694763
+  giga_frameworld_orbital_ring_upgrade_desc: "$d_frameworld_orbital_ring_desc$" # 12057044907238236730
+  giga_frameworld_nanites: "나노기술 주입" # 10023669528367709442
+  giga_frameworld_nanites_desc: "우리 자신을 변화시켰고, 이제 이 과정을 완수해야 합니다." # 7620103225122772463
+  giga_frameworld_nanites_effect: "확장 결정을 활성화하며, 비용으로 £nanites£ §Y$nanites$§!를 소모합니다!\n\n몇몇 특수 지구를 나노 기술로 개조합니다:\n\n§H$district_giga_frameworld_foundry$:§!\n- 추가 £alloys£ §Y$alloys$§!를 직접 생산\n- £energy£ §Y$energy$§! 유지비 증가\n- 추가 £nanites£ §Y$nanites$§! 유지비\n\n§H$district_giga_frameworld_science$:§!\n- [owner.GetResearcherIcon] §Y[owner.GetResearcher]§! 일자리 1개 제거\n- [owner.GetNanotechResearcherIcon] §Y[owner.GetNanotechResearcher]§! 일자리 3개 추가\n- 추가 £nanites£ §Y$nanites$§! 유지비\n\n§H$district_giga_frameworld_refinery$:§!\n- 추가 $giga_r_motes$$giga_r_gases$$giga_r_crystals$ §Y전략 자원§!를 직접 생산\n- £energy£ §Y$energy$§! 유지비 증가\n- 추가 £nanites£ §Y$nanites$§! 유지비" # 11294159729787777945
+  giga_frameworld_maginot: "마지노 독트린 실행" # 8943256451706527595
+  giga_frameworld_maginot_effect: "§Y$name_maginot$ 메커니즘§!을 해금하여 $pc_giga_frameworld$의 방어 잠재력을 여러 방면으로 향상시킵니다:\n\n함대 전체를 상대할 수 있는 막강한 업그레이드 가능 방어 기지인 §Y$strategic_defence_command_platform$§!를 추가합니다.\n\n$pc_giga_frameworld$의 방어선에 §Y$frameworld_defensive_station_plural$§!를 3개 추가합니다.\n\n우주 방어를 강화하고 특수 병력을 제공하는 §Y$district_giga_frameworld_maginot_shield_generators$§! 및 §Y$district_giga_frameworld_maginot_planetary_cannons$§! 구역 건설을 허용합니다.\n\n§Y$district_giga_frameworld_fortress_plural$§!는 추가 강력한 방어 병력을 제공합니다.\n\n이 성계 및 인접 성계에서 웜홀 생성 및 점프 드라이브 작동을 차단하는 전환 가능한 §Y아공간 교란 시스템§!을 제공합니다.\n\n" # 13036694200280316891
+  giga_frameworld_maginot_desc: "이제 우리는 행성이 요새화될 수 있는 터무니없는 수준을 이해했으며, 이 지식을 통해 우리 자신의 방어 체계를 개선할 명확한 길을 봅니다." # 13467896426074147098
+  giga_frameworld_ai_helper: "§H(AI 도우미)§!" # 14021959478612161292
+  giga_frameworld_ai_outpost: "건설 $frameworld_outpost_0$ $giga_frameworld_ai_helper$" # 13549684525483603077
+  giga_frameworld_ai_outpost_desc: "AI를 위해 $frameworld_outpost_0$를 건설합니다. 왜냐하면 그들은 건설선을 잘 관리하지 못하기 때문입니다." # 907243309623010739
+  giga_frameworld_ai_asteroid: "$frameworld_harvest_0$ $giga_frameworld_ai_helper$" # 4705392120387379270
+  giga_frameworld_ai_asteroid_desc: "AI가 건설함선을 제대로 관리하지 못하기 때문에 AI를 위해 소행성을 채취합니다." # 9813439091228318278
+  giga_frameworld_ai_habitat: "$frameworld_salvage_habitat_0$ $giga_frameworld_ai_helper$" # 4449455153796167938
+  giga_frameworld_ai_habitat_desc: "AI를 대신하여 서식지를 해체합니다. AI는 건설선을 제대로 운용하지 못합니다." # 1161480765883946434
+  giga_frameworld_building_audit: "AI 행성 감사 $giga_frameworld_ai_helper$" # 13406341592758612348
+  giga_frameworld_building_audit_desc: "행성 건물과 특구를 점검하고, 존재하지 않는 중요 건물을 건설하며, 해당하는 경우 건물을 특구 등가물로 전환합니다." # 6139512851589446281
+  giga_frameworld_ai_build_district_anticrime: "$district_giga_frameworld_anticrime$" # 13626878963357403346
+  giga_frameworld_ai_build_district_anticrime_desc: "$giga_frameworld_ai_helper$\n$district_giga_frameworld_anticrime_desc$" # 4927571433403221355
+  giga_frameworld_ai_build_district_foundrt: "$district_giga_frameworld_foundry$" # 10358175699885315293
+  giga_frameworld_ai_build_district_foundry_desc: "$기가_프레임월드_AI_도우미$\n\n$지구_기가_프레임월드_제련소_설명$" # 12503379552490814158
+  giga_frameworld_ai_build_district_refinery: "$district_giga_frameworld_refinery$" # 7102509746419837227
+  giga_frameworld_ai_build_district_refinery_desc: "$giga_frameworld_ai_helper$\n\n$district_giga_frameworld_refinery_desc$" # 15197937883116143640
+  giga_frameworld_ai_build_district_science: "$district_giga_frameworld_science$" # 2525825877877541329
+  giga_frameworld_ai_build_district_science_desc: "$giga_frameworld_ai_helper$\n$district_giga_frameworld_science_desc$" # 401730146972821368
+  giga_frameworld_ai_build_district_fortress: "$district_giga_frameworld_fortress$" # 9468825909481354812
+  giga_frameworld_ai_build_district_fortress_desc: "기가 프레임월드 AI 도우미\n\n프레임월드 방어 및 거주지 특구" # 15450552841036099481
+  giga_frameworld_ai_build_building_sanctuary: "$building_organic_sanctuary$" # 8143129668754047862
+  giga_frameworld_ai_build_building_sanctuary_desc: "$giga_frameworld_ai_helper$\n\n$building_organic_sanctuary_desc$" # 5260421452175613236
+  giga_frameworld_ai_build_district_sanctuary: "$district_giga_frameworld_sanctuary$" # 1402932798971634951
+  giga_frameworld_ai_build_district_sanctuary_desc: "프레임월드 AI 도우미\n\n프레임월드 거주민들을 위한 안전한 안식처 지구입니다." # 14783915364080489448
+  giga_frameworld_ai_build_district_decompressor: "$district_giga_frameworld_decompressor$" # 11864092503640861719
+  giga_frameworld_ai_build_district_decompressor_desc: "$giga_frameworld_ai_helper$\n$district_giga_frameworld_decompressor_desc$" # 433517237075189237
+  giga_frameworld_ai_build_district_penrose: "$district_giga_frameworld_penrose$" # 17537393403786421987
+  giga_frameworld_ai_build_district_penrose_desc: "$giga_frameworld_ai_helper$\n$district_giga_frameworld_penrose_desc$" # 16667225210043301945
+  tech_frameworld_harvest_1: "고해상도 소행성 탐사" # 18362512026705663438
+  tech_frameworld_harvest_1_desc: "광물 스캐닝 기술의 발전으로 우리는 잠재적인 채취 대상을 더 빠르고 정확하게 평가할 수 있게 되었습니다." # 10368338040493958555
+  tech_frameworld_harvest_2: "향상된 소행성 해체" # 3498297623470769786
+  tech_frameworld_harvest_2_desc: "소행성 채취에 새로 개발된 채광 레이저를 적용하면 더 효율적인 해체를 가능하게 할 것입니다." # 6609147626914619809
+  tech_frameworld_harvest_3: "자율 해체 드론" # 16959477295186585217
+  tech_frameworld_harvest_3_desc: "자동화된 채광 드론 함대는 원래 광물 채집을 위해 설계되었으나, 우리의 더 광범위한 물질 수집 노력에도 활용될 수 있습니다." # 2322077661556217371
+  tech_frameworld_defensive_station_2: "별 요새 방어 구역" # 9349628765743517726
+  tech_frameworld_defensive_station_2_desc: "새로운 성채 건설의 발전 사항을 활용하기 위해 방어선 기지를 재정비해야 합니다." # 16568896883749340507
+  giga_frameworld_tech_unlock_defensive_station_2_title: "§H새로운 기능 잠금 해제:§! $frameworld_defensive_station$ 성채 업그레이드" # 11934705517148916215
+  giga_frameworld_tech_unlock_defensive_station_2_desc: "$pc_giga_frameworld$의 방어선이 스타홀드 수준으로 강화됩니다." # 7698704521549449427
+  tech_frameworld_defensive_station_3: "성채 방어 외곽선" # 16452697410099438038
+  tech_frameworld_defensive_station_3_desc: "$tech_frameworld_defensive_station_2$" # 11677648410716662906
+  giga_frameworld_tech_unlock_defensive_station_3_title: "§H기능 잠금 해제:§! $frameworld_defensive_station$ 스타 포트리스 업그레이드" # 16655449069930876731
+  giga_frameworld_tech_unlock_defensive_station_3_desc: "$pc_giga_frameworld$의 방어선을 성채 수준으로 업그레이드합니다." # 11102348534376987790
+  tech_frameworld_defensive_station_4: "성채 방어 경계" # 12583188995947500753
+  tech_frameworld_defensive_station_4_desc: "$tech_frameworld_defensive_station_2$" # 11677648410716662906
+  giga_frameworld_tech_unlock_defensive_station_4_title: "§H기능 해제:§! $frameworld_defensive_station$ 성채 업그레이드" # 18425378856106672241
+  giga_frameworld_tech_unlock_defensive_station_4_desc: "$pc_giga_frameworld$의 방어선을 성채 수준으로 업그레이드합니다." # 16852666846833741206
+  tech_frameworld_defensive_station_5: "방어 경계선 마지노 독트린" # 1436083718399041487
+  tech_frameworld_defensive_station_5_desc: "최고의 방어는... 좋은 방어다." # 18137658327581182358
+  giga_frameworld_tech_unlock_defensive_station_5_title: "§H기능 해제:§! $frameworld_defensive_station$ 마지노 업그레이드" # 15370015541948605292
+  giga_frameworld_tech_unlock_defensive_station_5_desc: "$pc_giga_frameworld$의 방어 구역 방어력을 성채를 능가하는 수준으로 더욱 향상시킵니다." # 17268133605829338745
+  tech_frameworld_repeatable_outpost_output: "행성 탐사 기반 시설" # 17169131780559187297
+  tech_frameworld_repeatable_outpost_output_desc: "행성 탐사대를 위한 지원 장비 및 인프라를 개선하면, 자원 채취 기회를 더 효과적으로 식별할 수 있습니다." # 9966055442741658892
+  tr_expansion_adopt_giga_frameworld: "$tr_expansion_adopt$" # 4166229622549414489
+  tr_expansion_colonization_fever_giga_frameworld: "유연한 탐험" # 14697819542823332984
+  tr_expansion_colonization_fever_giga_frameworld_delayed: "행성 탐사를 위한 철저한 준비는 원활한 배치를 보장합니다. 과도한 조치를 취했을 경우, 잉여 작업 단위는 핵심 기능으로 전환될 수 있습니다." # 13399053862837815736
+  tr_expansion_colonization_fever_giga_frameworld_desc: "$tr_expansion_colonization_fever_desc$\n\n§H참고:§! 새로운 식민지를 위한 추가적인 £pop£ 팝은 이 전통을 보유했든 안 했든 상관없이 새로운 행성에 §Y$giga_frameworld_outpost$§!를 건설할 때마다 대신 우리의 $pc_giga_frameworld$에 추가됩니다." # 8413342011010611763
+  frameworld_defensive_station: "방어 기지" # 16814511335532707666
+  frameworld_defensive_station_plural: "방어 기지" # 13113911847846574014
+  frameworld_defensive_station_fleet: "방어 경계" # 10828258489687523802
+  frameworld_defensive_station_section_1: "기본" # 11884452299886114628
+  frameworld_defensive_station_section_2: "성채" # 11287530560547805800
+  frameworld_defensive_station_section_3: "요새" # 2526595010617663674
+  frameworld_defensive_station_section_4: "성채" # 12206108235903788388
+  frameworld_defensive_station_section_5: "마지노 독트린" # 11522064692868010902
+  GIGA_FRAMEWORLD_DEFENSIVE_STATION_REACTOR_1: "경계 기지 반응로" # 13004375355333352120
+  GIGA_FRAMEWORLD_DEFENSIVE_STATION_REACTOR_2: "향상된 경계 초소 반응로" # 9205417394332080827
+  GIGA_FRAMEWORLD_DEFENSIVE_STATION_REACTOR_3: "고급 경계 기지 반응로" # 15526827348154693070
+  GIGA_FRAMEWORLD_DEFENSIVE_STATION_REACTOR_4: "대형 고급 경계 기지 반응로" # 14497941076405138849
+  GIGA_FRAMEWORLD_DEFENSIVE_STATION_REACTOR_5: "마지노 외곽 기지 원자로" # 13788661773661790449
+  frameworld_defense_army: "$pc_giga_frameworld$ $defense_army$" # 8366729018677793485
+  frameworld_defense_army_plural: "$pc_giga_frameworld$ $defense_army_plural$" # 3049868782550464668
+  frameworld_defense_army_desc: "$pc_giga_frameworld$의 절충적인 구조물 위와 주변에서 벌어지는 전투의 독특한 조건에 특화된 방어 유닛" # 10915328465997117444
+  frameworld_defense_army_machine: "$pc_giga_frameworld$\n$machine_defense$" # 6264669235813518648
+  frameworld_defense_army_machine_plural: "$pc_giga_frameworld$ 드론 그리드" # 2564911164464263853
+  frameworld_defense_army_machine_desc: "$pc_giga_frameworld$의 절충적인 구조물 위와 주변에서 벌어지는 전투의 독특한 조건에 특화된 방어 유닛" # 10915328465997117444
+  frameworld_defense_army_individualist_machine: "$pc_giga_frameworld$ $individual_machine_defense$" # 7438558200386630095
+  frameworld_defense_army_individualist_machine_plural: "$pc_giga_frameworld$ $individual_machine_defense_plural$" # 9294404094605376440
+  frameworld_defense_army_individualist_machine_desc: "$pc_giga_frameworld$의 절충적인 구조물 위와 주변에서 벌어지는 전투의 독특한 조건에 특화된 방어 유닛" # 10915328465997117444
+  frameworld_maginot_defense_army: "마지노 방어 군집" # 14986904432397594414
+  frameworld_maginot_defense_army_plural: "마지노 방어 군집" # 6911077459591098417
+  frameworld_maginot_defense_army_desc: "강력하게 요새화된 방어 시설로, 광범위한 무장을 갖추고 전사 드론 군단의 지원을 받습니다." # 10335631148836587143
+  giga_frameworld_outpost: "행성 전초 기지" # 1738385596915658887
+  giga_frameworld_outpost_plural: "행성 기지" # 15418840256431257450
+  giga_frameworld_outpost_desc: "행성 자원 및 생태계 탐사 전담 대규모 보조 배치 초소." # 4903492439815718038
+  giga_frameworld_outpost_icon: "$giga_frameworld_outpost$" # 8016073179525935567
+  giga_frameworld_outpost_icon_header: "$giga_frameworld_outpost$" # 8016073179525935567
+  giga_frameworld_outpost_icon_desc: "이 성계에는 §Y$giga_frameworld_outpost_plural$§!가 하나 이상 포함되어 있습니다.\n\n§Y$giga_frameworld_outpost_plural$§!는 §Y$origin_frameworld$§! 기원을 가진 제국이 소유한 소규모 식민지입니다. 이 성계를 점령하기 위해 침공할 필요는 없습니다." # 195465723866262526
+  giga_frameworld_outpost_icon_tooltip: "$giga_frameworld_outpost_plural$ 통과할 수 없습니다, 이 버튼은 지도 아이콘을 추가하는 데 사용된 방식의 부산물이며 무시해야 합니다." # 9048555663724941952
+  frameworld_outpost_0: "$gc_kilo$$giga_frameworld_outpost$" # 14921934855150773604
+  frameworld_outpost_0_DESC: "고도로 중앙집권화된 문명의 행성 표면 작전을 용이하게 하도록 설계된 대규모 궤도 네트워크 허브." # 17289462933319276004
+  frameworld_outpost_0_MEGASTRUCTURE_DETAILS: "$giga_list_category_kilostructure$ - $giga_list_category_special$\n행성 자원을 활용하며 §Y중요한 보너스§!를 §Y$pc_giga_frameworld$§!에게 제공합니다.\n§L$giga_frameworld_outpost_desc$§!" # 16310323249297370734
+  frameworld_outpost_0_CONSTRUCTION_INFO_DELAYED: "$giga_list_additional_data$ - 일반적인 게임에서 식민지를 건설하는 것과 동일하게, $giga_frameworld_outpost_plural$는 상당한 성장 및 건설 보너스를 제공하며, 따라서 높은 우선순위를 두어야 합니다. 자원 산출량은 숙주 행성의 특징과 등급에 따라 달라집니다.\n\n비용은 £mod_starbase_ship_build_cost_mult£ §Y$MOD_STARBASE_SHIPYARD_BUILD_COST_MULT$§! 수정치에 따라 증가합니다." # 8034514699389912788
+  frameworld_outpost_construction: "$frameworld_outpost_0$" # 1436817555735485762
+  frameworld_outpost_construction_DESC: "$frameworld_outpost_0_DESC$" # 17241735111392975535
+  frameworld_outpost_construction_MEGASTRUCTURE_DETAILS: "$frameworld_outpost_0_MEGASTRUCTURE_DETAILS$" # 5533289305636432585
+  frameworld_outpost_construction_CONSTRUCTION_INFO_DELAYED: "$frameworld_outpost_0_CONSTRUCTION_INFO_DELAYED$" # 10690987883455519541
+  frameworld_outpost_construction_lithoid: "$frameworld_outpost_0$" # 1436817555735485762
+  frameworld_outpost_construction_lithoid_DESC: "$frameworld_outpost_0_DESC$" # 17241735111392975535
+  frameworld_outpost_construction_lithoid_MEGASTRUCTURE_DETAILS: "$frameworld_outpost_0_MEGASTRUCTURE_DETAILS$" # 5533289305636432585
+  frameworld_outpost_construction_lithoid_CONSTRUCTION_INFO_DELAYED: "$frameworld_outpost_0_CONSTRUCTION_INFO_DELAYED$" # 10690987883455519541
+  frameworld_outpost_construction_im: "$frameworld_outpost_0$" # 1436817555735485762
+  frameworld_outpost_construction_im_DESC: "$frameworld_outpost_0_DESC$" # 17241735111392975535
+  frameworld_outpost_construction_im_MEGASTRUCTURE_DETAILS: "$frameworld_outpost_0_MEGASTRUCTURE_DETAILS$" # 5533289305636432585
+  frameworld_outpost_construction_im_CONSTRUCTION_INFO_DELAYED: "$frameworld_outpost_0_CONSTRUCTION_INFO_DELAYED$" # 10690987883455519541
+  frameworld_outpost_construction_hive: "$frameworld_outpost_0$" # 1436817555735485762
+  frameworld_outpost_construction_hive_DESC: "$frameworld_outpost_0_DESC$" # 17241735111392975535
+  frameworld_outpost_construction_hive_MEGASTRUCTURE_DETAILS: "$frameworld_outpost_0_MEGASTRUCTURE_DETAILS$" # 5533289305636432585
+  frameworld_outpost_construction_hive_CONSTRUCTION_INFO_DELAYED: "$frameworld_outpost_0_CONSTRUCTION_INFO_DELAYED$" # 10690987883455519541
+  frameworld_outpost_construction_hive_lithoid: "$frameworld_outpost_0$" # 1436817555735485762
+  frameworld_outpost_construction_hive_lithoid_DESC: "$frameworld_outpost_0_DESC$" # 17241735111392975535
+  frameworld_outpost_construction_hive_lithoid_MEGASTRUCTURE_DETAILS: "$frameworld_outpost_0_MEGASTRUCTURE_DETAILS$" # 5533289305636432585
+  frameworld_outpost_construction_hive_lithoid_CONSTRUCTION_INFO_DELAYED: "$frameworld_outpost_0_CONSTRUCTION_INFO_DELAYED$" # 10690987883455519541
+  frameworld_outpost_construction_machine: "$frameworld_outpost_0$" # 1436817555735485762
+  frameworld_outpost_construction_machine_DESC: "$frameworld_outpost_0_DESC$" # 17241735111392975535
+  frameworld_outpost_construction_machine_MEGASTRUCTURE_DETAILS: "$frameworld_outpost_0_MEGASTRUCTURE_DETAILS$" # 5533289305636432585
+  frameworld_outpost_construction_machine_CONSTRUCTION_INFO_DELAYED: "$frameworld_outpost_0_CONSTRUCTION_INFO_DELAYED$" # 10690987883455519541
+  frameworld_outpost_deconstruction: "$frameworld_outpost_0$" # 1436817555735485762
+  frameworld_outpost_deconstruction_DESC: "$frameworld_outpost_0_DESC$" # 17241735111392975535
+  frameworld_outpost_deconstruction_MEGASTRUCTURE_DETAILS: "$frameworld_outpost_0_MEGASTRUCTURE_DETAILS$" # 5533289305636432585
+  frameworld_outpost_deconstruction_CONSTRUCTION_INFO_DELAYED: "$frameworld_outpost_0_CONSTRUCTION_INFO_DELAYED$" # 10690987883455519541
+  frameworld_outpost_marked_0: "$frameworld_outpost_0$" # 1436817555735485762
+  frameworld_outpost_marked_0_DESC: "$frameworld_outpost_0_DESC$" # 17241735111392975535
+  frameworld_outpost_marked_0_MEGASTRUCTURE_DETAILS: "$frameworld_outpost_0_MEGASTRUCTURE_DETAILS$" # 5533289305636432585
+  frameworld_outpost_marked_0_CONSTRUCTION_INFO_DELAYED: "$frameworld_outpost_0_CONSTRUCTION_INFO_DELAYED$" # 10690987883455519541
+  frameworld_outpost_wreck_0: "폐허가 된 $giga_frameworld_outpost$" # 587845963206029799
+  frameworld_outpost_wreck_0_DESC: "한때 외계 문명의 행성 운영을 담당했던 거대한 궤도 네트워크 허브의 유적입니다." # 17114811162125597240
+  frameworld_outpost_wreck_1: "$giga_frameworld_outpost$ 복구 완료" # 4030307414455929685
+  frameworld_outpost_wreck_1_DESC: "$frameworld_outpost_0$를 완전 가동 상태로 복구하십시오." # 8080002763186268560
+  frameworld_planetary_outpost: "$giga_frameworld_outpost$" # 8016073179525935567
+  frameworld_planetary_outpost_name: "[outpost_planet.GetName] $giga_frameworld_outpost$" # 1999887291485921676
+  pc_giga_frameworld_outpost_planet: "프레임 전초 기지 세계" # 9418351520593349281
+  pc_giga_frameworld_outpost_planet_desc: "거주 가능한 행성으로, 현재 대형 우주 정거장의 관리를 받고 있습니다. 정거장에서 파견된 조사단은 정기적으로 표면을 방문하여 조사를 수행하고 소량의 자원 추출을 진행하고 있습니다.\n\n표면에서는 활동 중인 영구 정착지를 찾을 수 없습니다." # 10383038171263501035
+  pc_giga_frameworld_outpost_planet_adj: "보조" # 2875504860441373460
+  pc_giga_frameworld_outpost_artificial: "$pc_giga_frameworld_outpost_planet$" # 3508693632334544363
+  pc_giga_frameworld_outpost_artificial_desc: "대형 우주 정거장의 감시를 받고 있는 거주 가능한 구조물입니다. 정거장에서 파견된 조사단은 지표면을 정기적으로 방문하여 조사를 수행하고 경량 자원 추출을 진행하고 있습니다.\n\n지표면에서는 활동적인 영구 정착지를 찾을 수 없습니다." # 7487711209444081842
+  pc_giga_frameworld_outpost_artificial_adj: "$pc_giga_frameworld_outpost_planet_adj$" # 15156339566376746478
+  pc_giga_frameworld_outpost_ringworld: "$pc_giga_frameworld_outpost_planet$" # 3508693632334544363
+  pc_giga_frameworld_outpost_ringworld_desc: "$pc_giga_frameworld_outpost_artificial_desc$" # 15843469966413099087
+  pc_giga_frameworld_outpost_ringworld_adj: "$pc_giga_frameworld_outpost_planet_adj$" # 15156339566376746478
+  frameworld_harvest_0: "$gc_proj$소행성 수확" # 580581093849955430
+  frameworld_harvest_0_DESC: "이것이 보인다면, 무언가 잘못되었습니다." # 14942896221503665101
+  frameworld_harvest_0_MEGASTRUCTURE_DETAILS: "$giga_list_category_project$ - $giga_list_category_special$\n§Y$pc_giga_frameworld$§ 확장을 위한 원자재 확보를 위해 모든 소행성을 해체하십시오!\n§L대규모 건설에는 대규모 자원 확보가 필수적입니다.§!" # 15404554828756833784
+  frameworld_harvest_0_CONSTRUCTION_INFO_DELAYED: "$giga_list_additional_data$ - §Y$pc_giga_frameworld$§!를 한 번 확장하며, 추가로 §G+1§! §Y$mod_district_giga_frameworld_mining_max$을(를) 4회 수확마다 추가합니다.\n\n비용은 £mod_planet_clear_blocker_cost_mult£ §Y$MOD_COUNTRY_CLEAR_BLOCKER_COST_MULT$§! 수정치에 따라 달라집니다." # 13657146890638572273
+  frameworld_salvage_habitat_0: "$gc_proj$회수 거주지" # 11923902057465087517
+  frameworld_salvage_habitat_0_DESC: "이것이 보인다면, 무언가 잘못되었습니다." # 14942896221503665101
+  frameworld_salvage_habitat_0_MEGASTRUCTURE_DETAILS: "$giga_list_category_project$ - $giga_list_category_special$\n§Y$pc_giga_frameworld$§!를 확장하기 위해 거주지 기지를 해체하여 재료 확보!\n§L외계 궤도 시설은 용도를 변경하여 우리 자신의 필요에 맞게 사용 가능합니다.§!" # 1207981686887904662
+  frameworld_salvage_habitat_0_CONSTRUCTION_INFO_DELAYED: "$giga_list_additional_data$ - 목표 서식지의 크기만큼 여러 번 §Y$pc_giga_frameworld$§!를 확장합니다.\n\n비용은 £mod_planet_clear_blocker_cost_mult£ §Y$MOD_COUNTRY_CLEAR_BLOCKER_COST_MULT$§! 제약에 따라 조정됩니다." # 6569338899015884344
+  frameworld_penrose_0: "$name_penrose$ 프레임" # 6930883309049201254
+  frameworld_penrose_0_DESC: "$penrose_sphere_1_DESC$" # 3804207950847760051
+  frameworld_penrose_1: "일부 $name_penrose$" # 13029941175085433367
+  frameworld_penrose_1_DESC: "부분적으로 건설된 $name_penrose$ - 부분적인 거울 패널 덮개 및 불완전한 입자 주입기." # 8334169276097505901
+  frameworld_penrose_2: "$name_penrose$" # 3031549510426023283
+  frameworld_penrose_2_DESC: "거울로 완전히 둘러싸여, 이제 $pc_black_hole$의 에르고스피어를 이용해 에너지를 생성할 수 있습니다." # 15632355216651938790
+  frameworld_decompressor_0: "$matter_decompressor_4$ 구조 지지대" # 8239926150513316848
+  frameworld_decompressor_0_DESC: "해당 성계의 $pc_black_hole$ 상공에서 거대한 고리 형태의 물질 처리 시설들을 지탱하기 위해 설계된 거대 구조물." # 15067543642221614984
+  frameworld_decompressor_1: "$matter_decompressor_4$ 처리 링" # 11080221857300441503
+  frameworld_decompressor_1_DESC: "채굴된 물질을 활용 가능한 광물로 가공하는 거대한 시설." # 12554619142860955064
+  frameworld_decompressor_2: "$matter_decompressor_4$ 시추 어레이" # 2106275038667028351
+  frameworld_decompressor_2_DESC: "$pc_black_hole$에서 물질을 추출할 수 있도록 중력장을 비틀어 드릴로 만드는 중력 렌즈 시설들의 배열." # 16750618311406395038
+  frameworld_origin_colony_cost: "식민지 건설 비용 페널티" # 12718723418562410463
+  frameworld_origin_colony_cost_desc: "§T§E호환성 수정자:§! $colonizer_plural$ 건설을 완전히 비활성화하려면 침습적인 덮어쓰기가 필요하며, 이는 다른 모드와 쉽게 호환되지 않습니다.\n\n만약 어떤 식으로든 $colonizer$를 얻게 된다면 여전히 식민지 건설에 사용할 수 있지만, 정착민들은 정복된 행성의 경우와 같은 방식으로 재정착될 것입니다.§!\n§T--------------§!\n§L우리의 네트워크 아키텍처는 분산된 행성 식민지화의 요구 사항과 근본적으로 호환되지 않습니다. 우리는 근본적으로 프레임에 연결되어 있습니다.§!" # 12720959773159647591
+  frameworld_outpost_bonus: "$giga_frameworld_outpost$ 네트워크" # 5950606396591689158
+  frameworld_outpost_bonus_desc: "§L다른 우주 문명의 식민지보다 작은 우리의 보조적인 $giga_frameworld_outpost_plural$는 먼 세계까지 우리의 영향력을 확장합니다.§!" # 17245552544786657043
+  giga_frameworld_outpost_empire_size_modifier_text: "그리고 $giga_frameworld_outpost_plural$" # 13688891886030205213
+  giga_frameworld_outpost_pops_modifier_text: "$giga_frameworld_outpost_plural$ 건설 시 추가 팝" # 14263677408654746173
+  frameworld_expanded_maintenance_protocol: "확장된 유지보수 프로토콜" # 2749356237180335637
+  frameworld_expanded_maintenance_protocol_desc: "프레임은 지속적으로 유지보수 및 개선이 필요합니다. 실업자들은 재훈련되어 보조 업무에 배치될 것이며, 필요에 따라 다른 정거장 기능을 유지하고 지원할 것입니다." # 9297679052941653832
+  frameworld_expanded_maintenance_protocol_tooltip: "이 $pc_giga_frameworld$에서 실업 팝 §Y5명 초과§! 인원은 대신 £job_frame_maintenance_worker£ §Y$job_frame_maintenance_worker_plural$§!로 고용됩니다.\n\n$job_frame_maintenance_worker_effect_desc$" # 16996918152650161851
+  frameworld_expanded_maintenance_protocol_gestalt: "$frameworld_expanded_maintenance_protocol$" # 2146143339278509613
+  frameworld_expanded_maintenance_protocol_gestalt_desc: "할당되지 않은 드론이 비활성 상태로 남아 있는 것은 용납할 수 없는 낭비 요인입니다. 이 드론들은 필요에 따라 다른 기지 기능을 유지 및 지원하는 부차적인 임무로 재분배될 것입니다." # 8064163294958211637
+  frameworld_expanded_maintenance_protocol_gestalt_tooltip: "이 $pc_giga_frameworld$에서는 §Y5번째를 초과하는§! 실업 팝이 대신 £job_frame_maintenance_drone£ §Y$job_frame_maintenance_drone_plural$§!로 고용됩니다.\n\n$job_frame_maintenance_drone_effect_desc$" # 4271754436812778179
+  frameworld_ai_build_cooldown: "$pc_giga_frameworld$ AI 건설 재사용 대기시간" # 5757139584821017725
+  frameworld_ai_build_cooldown_desc: "AI 도우미 이벤트 쿨다운 기간" # 2124793384337610900
+  frameworld_ai_artisans: "$job_artisan_drone$ 조정" # 1511181067137733039
+  frameworld_ai_artisans_desc: "AI 일자리 관리 도우미" # 17139023947655666745
+  frameworld_conquered: "행정 과부하" # 12549700063605441824
+  frameworld_conquered_desc: "이 행성은 소유권이 변경된 이후 혼란에 빠져 있습니다." # 92365336082738208
+  frameworld_conquered_tooltip: "이 행성에서는 성장, 건설, 병력 훈련이 사실상 중단되었습니다." # 15623101533331143590
+  frameworld_conquered_no_resettle: "물류 과다 확장" # 9150259861824351120
+  frameworld_conquered_no_resettle_desc: "발달된 민간 성간 기반 시설이 부족하여, 이 $origin_frameworld$ 제국은 전쟁 시기에 수송 수요를 충족하는 데 어려움을 겪고 있습니다." # 7535037010862186140
+  frameworld_conquered_no_resettle_tooltip: "£pop£팝은 이 수정치가 만료되거나 평화 상태가 되어 제거될 때까지 이 행성에서 자동으로 재정착되지 않습니다." # 10967559596053259065
+  frameworld_building_wreck_fix: "건물 폐허 수정" # 1975972820882692772
+  frameworld_building_wreck_fix_desc: "이것을 읽고 있다면, 뭔가 잘못된 것입니다. 이 한정자는 재조직 사건 중에 건물이 파괴되는 것을 막기 위해 존재하며 영구적으로 지속되도록 의도된 것이 아닙니다." # 270666143272906997
+  frameworld_outpost_planet: "$pc_giga_frameworld$ $giga_frameworld_outpost$" # 1036802399994188599
+  frameworld_outpost_planet_effects: "$giga_frameworld_outpost_plural$는 숙주 행성에 따라 자원을 생산하며, 일자리 생산량 수정치의 영향을 받습니다." # 3883276256717364423
+  frameworld_outpost_planet_desc: "§T§H착취 가능한 희귀 자원 매장지:§!\n\n£volatile_motes£ $volatile_motes$: §Y[this.GetFrameworldOutpostVolatileMotes]§!\n£exotic_gases£ $exotic_gases$: §Y[this.GetFrameworldOutpostExoticGases]§!\n£rare_crystals£ $rare_crystals$: §Y[this.GetFrameworldOutpostRareCrystals]§![FrameworldOutpostTerravoreText][FrameworldOutpostNaniteText][FrameworldOutpostEnvironmentalistText]\n\n§T--------------§!\n§L완전히 개발된 식민지 규모는 아니지만, 우리 전초 기지는 여전히 귀중한 자원을 제공할 수 있습니다.§!" # 17555229653478223241
+  frameworld_outpost_planet_desc_terravore: "\n\n행성 노천 채굴: [FrameworldOutpostTerravoreState]\n노천 채굴 횟수: §Y[GetFrameworldOutpostTerravoreDamage]/3§!" # 1867272822586064473
+  frameworld_outpost_planet_desc_nanite: "\n\n나노 기계 흡수: [FrameworldOutpostNaniteState]\n흡수된 횟수: §Y[GetFrameworldOutpostNaniteDamage]/3§!" # 2953259837906713140
+  frameworld_outpost_planet_desc_environmentalist: "\n\n£blocker£ 자연 차단물: §Y[GetNaturalBlockerCount]§!" # 16216075308024552254
+  mod_deposit_blockers_frameworld_cost_mult: "소행성 채취 비용" # 3897958619851813747
+  frameworld_outposts: "$giga_frameworld_outpost_plural$" # 14246568814385780272
+  mod_frameworld_outposts_produces_mult: "$giga_frameworld_outpost$ 자원 산출량" # 1586791236246982273
+  mod_frameworld_outpost_build_cost_mult: "$giga_frameworld_outpost$ 건설 비용" # 4486153771283365401
+  mod_giga_frameworld_outpost_output_mult: "$giga_frameworld_outpost$ 총 자원 생산량" # 3648403849735964446
+  mod_giga_frameworld_outpost_count: "$giga_frameworld_outpost$ 네트워크 규모" # 5121042408842291244
+  mod_giga_frameworld_outpost_count_display: "전초기지 개수" # 2103524120870882888
+  frameworld_crucible: "$gestation_colony$" # 4859599485243639795
+  frameworld_crucible_desc: "사이버네틱 드론을 집단의 생산적인 구성원으로 육성하는 데 전념하는 사업." # 1609530541333934771
+  frameworld_crucible_effects: "확장 및 §Y$giga_frameworld_outpost_plural$§!에서 £job_replicator£ §Y$job_replicator$§! 일자리의 절반을 £job_giga_extra_crucible_drone£ §Y$job_giga_extra_crucible_drone_plural$§! 일자리로 대체합니다.\n\n$job_giga_extra_crucible_drone_effect_desc$" # 11639262934783973
+  mod_giga_frameworld_growth_jobs_add: "보조 팝 성장 ['concept_giga_frameworld_growth_job_value_tooltip']" # 8036661374042108156
+  concept_giga_frameworld_growth_job_value_tooltip: "직업 가치" # 6481670978583795298
+  concept_giga_frameworld_growth_job_value: "보조 팝 성장 직업 가치" # 14154922059035957808
+  concept_giga_frameworld_growth_job_value_desc: "§Y$pc_giga_frameworld$§!는 확장 및 §Y$giga_situation_frameworld_outposts$§!를 통해 추가적인 팝 성장 £job£ 일자리를 얻습니다.\n\n이 효과는 제공된 일자리에서 주어지는 §Y총 기본 성장 및 조립§!을 나타내며, 이는 §Y국가 유형§!, §Y시민권§!, 그리고 §Y승천 경로§!에 따라 달라집니다." # 9363313107957606091
+  giga_frameworld_origin.107.name: "첫 번째 [Root.GetSpeciesName] 탐사대" # 10055919657444829577
+  giga_frameworld_origin.107.desc: "우리 건설 승무원들이 §Y[From.GetName]§! 상공에 전초 기지 건설을 완료했습니다. 이곳을 거점으로 삼아, 아래 지표면을 체계적으로 탐사할 탐사대가 출범했습니다.\n\n§Y[Root.GetHomeWorldName]§!에서 이토록 멀리 떨어진 곳에서는 우리의 영향력이 제한적이지만, 탐사대는 탐사 중 발견하는 유용한 자원을 여전히 활용할 수 있을 것입니다.\n\n이 세계에 대한 우리의 장악력은 프레임에 대한 우리의 지배력만큼 완전하지는 않겠지만, 이는 별들 사이에서 우리의 자리를 차지하기 위한 중요한 첫걸음입니다." # 16820411795323133000
+  giga_frameworld_origin.107.desc.hive: "우리 건설 승무원들이 §Y[From.GetName]§! 상공에 행성 중계 기지 조립을 완료했습니다. 이 거점을 통해 아래 표면을 체계적으로 탐사할 탐사대가 발진했습니다.\n\n비록 §Y[Root.GetHomeWorldName]§!로부터 멀리 떨어져 있어 우리의 영향력이 제한적이지만, 탐사대는 탐사 중에 발견된 모든 유용한 자원들을 여전히 활용할 수 있을 것입니다.\n\n이 세계에 대한 우리의 장악력은 프레임에 대한 우리의 지배력만큼 완전하지는 않을 것입니다. 하지만 이것은 별들 사이에 우리의 자리를 차지하기 위한 중요한 첫걸음입니다." # 9564788237626930508
+  giga_frameworld_origin.107.desc.machine: "우리 건설부대가 §Y[From.GetName]§! 상공의 행성 중계 기지 조립을 완료했습니다. 이 거점을 통해 아래 표면을 체계적으로 탐사할 원정대가 발사되었습니다.\n\n§Y[Root.GetHomeWorldName]§!에서 이렇게 멀리 떨어진 곳에서는 저희의 영향력이 제한되더라도, 원정대는 탐사 중 발견되는 유용한 자원을 그래도 개발할 수 있을 것입니다.\n\n이 세계에 대한 저희의 파악은 프레임에 대한 저희의 숙달만큼 결코 완벽하지 않을 것입니다. 하지만 이것은 별들 사이에 저희 자리를 잡는 데 있어서 중요한 첫걸음입니다." # 5392906553095121143
+  giga_frameworld_origin.107.a: "[Root.GetName]에게 훌륭한 날입니다!" # 1570373159287878398
+  giga_frameworld_origin.500.desc.first: "우리 환경 전문가들은 [Root.GetName] 행성에서 씨앗 뿌리기 과정이 완료되었다는 것을 기쁘게 보고합니다! 새로이 실험실에서 만들어진 식물 잡종들, 즉 마지막 §YBaol§!의 몸에서 채취한 §YBaol§! 유전 코드의 신중하게 선택된 일부를 사용하여 만들어진 이 식물 잡종들은 환경 지원 시스템의 더 넓은 확장 노력의 일환으로 성공적으로 배치되었습니다.\n\n행정부는 또한 고대 §YBaol§!과 놀라울 정도로 유사한 수많은 지적 외계 생명체가 [Root.GetName] 행성에 출현했다는 것을 보고했습니다!\n\n이들은 집단 의식의 구성원은 아니지만, 이 §GNu-Baol§! 외계인들은 그들의 조상만큼 평화로워 보입니다. 어떤 식으로든, 우리는 [Root.GetName] 행성에서의 그들의 존재를 다뤄야 할 것입니다." # 685474700550399353
+  giga_frameworld_origin.500.desc: "우리 환경 전문가들은 기쁘게 보고드립니다. [Root.GetName]에서의 씨앗 뿌리기 과정이 완료되었습니다! 다시 한번, 수많은 §GNu-Baol§! 개체군이 출현했습니다. 이는 연구실에서 생성된 식물 잡종을 배치한 덕분이며, 여기에는 신중하게 선택된 §YBaol§! 유전 부위가 포함되어 있습니다." # 18017429651059284689
+  giga_frameworld_origin.001.name: "$name_penrose$ 골조 완공" # 10841999222213828172
+  giga_frameworld_origin.001.desc: "[giga_system.star.GetName] 주위에 미래의 $name_penrose$의 골조가 건설되었습니다. 이 골격 프레임은 언젠가 우리가 상상할 수 있는 가장 반사율이 높은 재료로 제작된 거대한 거울들을 지탱하게 될 것입니다. 해당 거울들과 부속 입자 주입 및 포획 시스템의 건설을 완료하면, 우리는 $pc_black_hole$의 회전 에너지를 수확하기 시작할 수 있게 될 것입니다." # 4453579359341783407
+  giga_frameworld_origin.001.a: "훌륭합니다." # 13357587260733090656
+  giga_frameworld_origin.002.name: "일부 $name_penrose$ 건설됨" # 8070723309997723303
+  giga_frameworld_origin.002.desc: "거대한 거울의 절반이 이제 [giga_system.star.GetName]을 둘러싼 틀에 설치되었으며, 입자 주입기도 부분적으로 완성되었습니다. 이를 제대로 사용하기 전에 구조물을 완성하려면 추가 작업이 필요합니다." # 9965827451019277720
+  giga_frameworld_origin.002.a: "훌륭하군!" # 4205353275372794963
+  giga_frameworld_origin.003.name: "$name_penrose$ 통합 완료" # 17637424529283110125
+  giga_frameworld_origin.003.desc: "마지막 거울 패널 설치가 완료됨에 따라,\n[giga_system.star.GetName]는 이제 완전히 에워싸였습니다.\n이제 $pc_black_hole$의 회전 에너지를 수확하기 시작할 수 있습니다." # 12894245936286468204
+  giga_frameworld_origin.003.a: "훌륭합니다!" # 7941322641266364681
+  giga_frameworld_origin.004.name: "$matter_decompressor_4$ 구조 지지대 건설 완료" # 5344144254312025982
+  giga_frameworld_origin.004.desc: "[giga_system.star.GetName]에서 물질을 추출하려면 우선 시설을 건설할 안전한 기지가 필요합니다.\n$pc_giga_frameworld$ 상부 구조에서 [giga_system.star.GetName]의 사건 지평선 위쪽 지역으로 앵커 지지대가 건설되었습니다. 그곳에서 거대한 처리 링이 궁극적으로 중력 드릴 장치를 지탱하게 될 것입니다." # 7134449905092632542
+  giga_frameworld_origin.004.a: "훌륭합니다." # 13357587260733090656
+  giga_frameworld_origin.005.name: "$matter_decompressor_4$ 처리 환 건설 완료" # 6638340811569305680
+  giga_frameworld_origin.005.desc: "기존 구조 지지대 위에 건설된 이 처리 고리에는 [giga_system.star.GetName]에서 추출된 물질을 사용 가능한 광물로 변환할 거대한 정제소와 제련소가 있습니다. 남은 것은 감압 장치를 장착하는 것뿐입니다. 이 장치는 왜곡된 중력의 집중 영역을 사용하여, 보어가 방향이 바뀌고 집중된 중력력으로 이루어진 거대한 드릴을 생성할 것입니다." # 18171436383961990285
+  giga_frameworld_origin.005.a: "훌륭하군!" # 4205353275372794963
+  giga_frameworld_origin.006.name: "$matter_decompressor_4$ 통합 완료" # 15082688105427918181
+  giga_frameworld_origin.006.desc: "중력 드릴 배열이 완성됨에 따라, [giga_system.star.GetName] 상공의 $matter_decompressor_4$가 이제 완성되었습니다. 이는 사건의 지평선 내부에 영원히 갇혀 있다고 여겨졌던 물질에 전례 없는 접근을 가능하게 해줍니다. 이제 [giga_system.star.GetName]에서 직접 광물을 채굴하기 시작할 수 있습니다." # 2873602946282869772
+  giga_frameworld_origin.006.a: "훌륭합니다!" # 7941322641266364681
+  giga_frameworld_origin.007.name: "거주 구역 확장 완료됨" # 14718493339542655824
+  giga_frameworld_origin.007.desc: "[giga_planet.GetName]의 도시 구역 재설계 및 확장이 완료되었습니다. 새롭고, 더 캡슐화된 설계 덕분에 단일 정거장 모듈에 더 많은 인원이 편안하게 거주하며 지역 작업 공간과 편의 시설에 편리하게 접근할 수 있게 되었습니다.\n\n이제 우리 거주 구역은 그 자체가 진정한 도시가 되었으며, 이전에는 외부 지원 장비가 차지했던 공간을 새로운 건설에 사용할 수 있게 되었습니다." # 790525331894077193
+  giga_frameworld_origin.007.desc.hive: "[giga_planet.GetName]에 위치한 우리 군체의 노드 재설계 및 확장이 완료되었습니다. 새롭고 더 집적된 설계는 회복 중인 주민들 사이에서 정비 드론의 더 나은 분배를 가능하게 하여, 이동 시간을 단축하고 현지 임무 할당을 개선합니다.\n\n시설 공유를 통해 얻은 효율성은 이전에 전용 정비 시스템에 의해 사용되었던 공간을 새로운 건설을 위해 확보합니다." # 9798434705656648261
+  giga_frameworld_origin.007.desc.machine: "[giga_planet.GetName]에 있는 저희 드론 주거 구역의 재설계 및 확장이 완료되었습니다. 새롭게, 더욱 밀집된 설계는 드론 유지보수와 보관 시설의 더욱 긴밀한 통합을 가능하게 하여, 이동 부담을 줄이고 전반적인 사용 공간을 낮춥니다.\n\n지원 시스템에서 얻은 효율성 덕분에, 이전에 보조 시스템이 사용하던 공간을 새로운 건설을 위해 확보하는 것이 가능해졌습니다." # 15188940088977384250
+  giga_frameworld_origin.007.a: "정거장은 성장해야 한다." # 6674001305352879598
+  giga_frameworld_origin.008.name: "재정비된 중공업 가동 개시" # 13225074913551784964
+  giga_frameworld_origin.008.desc: "[giga_planet.GetName]에 있는 주조소와 공장은 산업 개조 프로젝트가 완료됨에 따라 활기를 띠고 있습니다.\n\n현대적인 산업 방식은 더 높은 생산성을 제공하며, 한때 [giga_planet.GetName]의 광대한 영역을 차지했던 장비를 작고 효율적인 허브 기지로 응축합니다. 이렇게 재설계를 통해 절약된 공간은 이제 다른 기지 모듈을 위해, 아니면 단순히 더 많은 공장을 위해 사용될 수 있습니다." # 11038732107972800883
+  giga_frameworld_origin.008.a: "생산성 예측이 상승 중입니다." # 335055462711161962
+  giga_frameworld_origin.009.name: "보호 시설 업그레이드 완료" # 542136258510488420
+  giga_frameworld_origin.009.desc: "장기간의 재조직 끝에, [giga_planet.GetName]에 새로운 유기체 욕구 충족 시설이 이제 가동됩니다. 우리가 돌보는 유기체는 아무런 방해도 느끼지 못할 것이며, 개선된 시스템으로 인해 그들의 삶은 방해받지 않으면서도 더욱 풍요로워질 것입니다.\n\n이전에 유지보수 시스템이 자리했던 영역은 이제 용도 변경되어 훨씬 더 많은 인구를 수용하거나 전적으로 다른 목적으로 사용될 수 있습니다." # 12882463019595063262
+  giga_frameworld_origin.009.a: "작업은 결코 완료되지 않는다." # 7143522918116046309
+  giga_frameworld_origin.010.name: "환경 지원 시스템 강화됨" # 7077623709455630756
+  giga_frameworld_origin.010.desc: "[giga_planet.GetName]의 환경 제어 및 대기 처리 시스템 개선 작업이 완료되었습니다. 우리 시민들은 이제 모든 종족에게 적합한 광범위한 시뮬레이션 행성 환경을 누릴 수 있습니다. 수처리 및 조명의 정밀한 제어는 식량 생산을 훨씬 효율적으로 만들어, 그에 따른 노동력 감소를 가져올 것입니다.\n\n[giga_planet.owner.GetName]에게 새로운 시대가 열리고 있으며, 공기는 상쾌합니다." # 8510681921669539663
+  giga_frameworld_origin.010.a: "상쾌하다!" # 8121816115091134336
+  giga_frameworld_origin.010.desc.servitor: "[giga_planet.GetName]의 환경 제어 및 대기 처리 시스템 개조 작업을 완료했습니다. 우리가 돌보는 유기체들은 이제 모든 종족에게 적합한 다양한 범위의 시뮬레이션 행성 환경을 누릴 수 있습니다. 물의 정제 및 조명에 대한 보다 세밀한 제어는 훨씬 더 효율적인 식량 생산을 가능하게 할 것이며, 더욱 다양한 유기체 식단 요구 사항을 충족할 수 있도록 할 것입니다.\n\n[giga_planet.owner.GetName]에게 새로운 날이 밝아오고 있으며, 대기는 쾌적합니다." # 9715474886792759882
+  giga_frameworld_origin.010.a.servitor: "피보호민에게 부족함은 없습니다." # 17016316646408833489
+  giga_frameworld_origin.010.desc.assimilator: "[giga_planet.GetName]에 대한 환경 제어 및 대기 처리 시스템 개선 작업을 완료했습니다. 우리의 유기 드론들, 특히 우리의 원래 설계 매개변수를 벗어난 드론들이 개선된 환경의 혜택을 받을 것입니다.\n물 처리 및 조명에 대한 더 정밀한 제어는 훨씬 더 효율적인 식량 생산을 가능하게 하여 통합 드론 클러스터의 지속적이고 효율적인 작동을 보장할 것입니다. 이러한 변경 사항들의 결과로 생산성이 증가할 것으로 예측됩니다." # 4176459663164027764
+  giga_frameworld_origin.010.a.assimilator: "알겠습니다." # 12076608091024442278
+  giga_frameworld_origin.011.name: "데이터 처리 시설 업그레이드됨" # 9432194754608149024
+  giga_frameworld_origin.011.desc: "[giga_planet.GetName] 행성에 새로운 고대역폭 연산 단지 건설 작업이 완료되었습니다. 방대한 슈퍼컴퓨터 뱅크를 이제 우리가 아직 고안한 가장 어려운 과학적 문제들을 해결하기 위해 사용할 수 있으며, 전반적인 연구 처리량에서 엄청난 향상을 약속합니다.\n\n이 시스템들의 핵심 기지 기능으로의 통합은 진행 중이지만, 추가적인 열 관리 부하가 심각한 지장을 초래하지는 않을 것으로 예상됩니다." # 2371200939794718200
+  giga_frameworld_origin.011.a: "우주의 비밀이 우리의 손 안에 있습니다." # 11209891734139500395
+  giga_frameworld_origin.012.name: "기지 인프라 확장" # 11367225101190679210
+  giga_frameworld_origin.012.desc: "오랜 건설 기간 끝에, [giga_planet.GetName]의 주요 구역들 사이에 새로운 핵심 수송 인프라 통로가 완공되었습니다.\n\n향상된 구조적 안정성과 상호 연결된 수송망 덕분에 초구조체는 추가 기능 모듈을 지원할 수 있게 될 것입니다." # 15726248964484925625
+  giga_frameworld_origin.012.desc.2: "[giga_planet.GetName]의 주요 구간에 대한 2차 기반 시설 업그레이드가 완료되었습니다.\n\n구조적 무결성 강화와 상호 연결된 수송망을 통해 상부 구조물이 추가적인 기능 모듈을 지원할 수 있게 되었습니다." # 16838249721490873844
+  giga_frameworld_origin.012.a: "알겠습니다." # 12076608091024442278
+  giga_frameworld_origin.013.name: "마지노 프로젝트 완료" # 17087210865510508728
+  giga_frameworld_origin.013.desc: "우리는 이제 [giga_planet.GetName] 주변의 궁극적인 방어선 완공을 마쳤습니다. 우리의 고향을 겹겹이 치명적인 요새로 에워쌌습니다. 이 진정 경외감을 불러일으키는 군사 공학의 위업은 그 어떤 세력도 거의 공격할 수 없으며, 통합 방어 플랫폼, 거대 운동 에너지 포대, 거대한 주둔지, 그리고 전체 함대의 생성량을 훨씬 능가하는 보호막 생성기를 갖추고 있습니다.\n추가로, 데드 핸드 시스템은 [giga_planet.GetName]의 어떤 대규모 파괴에 맞서는 억지력으로 작용합니다. 페일세이프가 활성화될 경우 기지의 중심 코어를 거대한 반물질 구동 성형 폭약으로 사용하여 §R궤도상의 적대 세력을 완전히 섬멸합니다.§!\n\n다양한 방어 시스템은 §Y결정§!을 통해 관리할 수 있습니다. 이 결정들에서 사용할 수 있도록 §Y특수 지구§!를 건설하여 $defensive_upgrade_point_plural$와 $offensive_upgrade_point_plural$를 얻으십시오." # 14503778039337039998
+  giga_frameworld_origin.013.a: "이제 그 누구도 감히 우리를 해할 수 없습니다." # 12013652714460056945
+  giga_frameworld_origin.014.name: "2차 가공 궤도 시설 완료" # 2697927453896597395
+  giga_frameworld_origin.014.desc: "[giga_planet.GetName] 근처에 여러 개의 새로운 가공 시설 건설을 완료했습니다. 이 시설들은 여러 보조 가공 건물들의 역량을 강화하여 생산 라인을 더욱 간소화하고 향상시킬 수 있도록 할 것입니다." # 16661305637403442223
+  giga_frameworld_origin.014.a: "모든 시스템 정상." # 9084802762881392649
+  giga_frameworld_origin.015.name: "나나이트 주입 완료" # 3525564719060314521
+  giga_frameworld_origin.015.desc: "우리의 군체를 [giga_planet.GetName]의 핵심 기반 시설로 통합하는 작업을 완료했습니다. 구조 자체와 우리의 존재를 융합한 것입니다. 이제 비할 데 없는 정밀함으로 모든 시스템을 조작할 수 있으며, 그 결과 막대한 이득을 얻게 될 것입니다." # 3229225327344911672
+  giga_frameworld_origin.015.a: "본질, 구현된." # 13664632515421609760
+  giga_frameworld_origin.101.name: "합병된 인구 재배치" # 698182007316112217
+  giga_frameworld_origin.101.desc.a: "[From.GetName]에서 온 현지 인구가 이제 [Root.Capital.GetName](으)로 완전히 이전되었습니다. 짧은 실험 기간 후, 그처럼 거대한 외부 정착지를 완전히 통제하는 것이 우리의 역량을 넘어선다는 점을 이제 확인했습니다. 그리고 미래의 지침은 현지 인구 단위의 효율적인 재배치에 집중할 것입니다.\n\n[From.FrameworldEvent101GetOutpost]" # 7883337793261255387
+  giga_frameworld_origin.101.desc.b: "확립된 프로토콜에 따라, [From.GetName]의 팝은 [Root.Capital.GetName]로 재배치되었습니다.\n\n[From.FrameworldEvent101GetOutpost]" # 10143569104050561895
+  giga_frameworld_origin.101.a: "확인했습니다." # 3536622398024101432
+  giga_frameworld_origin.101.outpost: "궤도에 §Y$frameworld_outpost_0$§!이(가) 설치되었으며, 지상에는 중계소가 남아 있습니다." # 3252485584799550980
+  giga_frameworld_origin.101.no_outpost: "해당 부지는 §Y$frameworld_outpost_0$§! 건설에 부적합하므로, 추가적인 조치는 취해지지 않았습니다." # 7470015186814552893
+  giga_frameworld_origin.103.name: "궤도 잔해 회수 완료" # 1372162313996433876
+  giga_frameworld_origin.103.desc.a: "[From.GetName]에 식민지가 제대로 건설되었으므로,\n우리 기반시설 담당 부대는 궤도상 잔해 상태인 기지에서 회수 작전을 시작했습니다.\n\n기지의 용도는 여전히 불확실합니다. 발견된 통신 장비의 양이 도착 당시 지표면에서 발견된 활동 수준에 비해 불균형적으로 보이기 때문입니다.\n\n이전 소유자들의 동기를 완전히 이해하지 못할 수도 있습니다. 하지만 회수된 자재들은 가치가 있음이 입증되었습니다." # 18132159414615265413
+  giga_frameworld_origin.103.a: "특이하지만 유용하다." # 15170591826426980765
+  giga_frameworld_origin.308.name: "탐사 자원 조사 성과" # 5519610914677325780
+  giga_frameworld_origin.308.desc: "우리 원정대 팀에 의한 지속적인 자원 탐사를 통해 행성 자원 개발을 위한 새로운 기회가 발견되었습니다.[frameworld_outpost_motes.FrameworldEvent308Motes][frameworld_outpost_gases.FrameworldEvent308Gases][frameworld_outpost_crystals.FrameworldEvent308Crystals][frameworld_outpost_betharian.FrameworldEvent308Betharian][frameworld_outpost_zoo.FrameworldEvent308Zoo]" # 4611089816145361040
+  giga_frameworld_origin.308.desc.motes.general: "이 입자들은 화학적으로 활성화될 때 폭발적인 양의 운동 에너지를 발생시키며, 소문에 따르면 요리에 사용할 때 매우 맵다고 합니다." # 16961174164298557248
+  giga_frameworld_origin.308.desc.motes: "\n\n§Y[this.GetName]§!에서 탐사 분대가 §H$volatile_motes$§!의 풍부한 공급원을 발견했습니다. $giga_frameworld_origin.308.desc.motes.general$" # 9493264737237595856
+  giga_frameworld_origin.308.desc.motes.ecu: "\n\n§Y[this.GetName]§! 행성에 위치한 고대 화학 처리 시설에서 상당한 양의 §H$volatile_motes$§!가 발견되었습니다. $giga_frameworld_origin.308.desc.motes.general$" # 6202702626071343214
+  giga_frameworld_origin.308.desc.motes.desert: "\n\n§Y[this.GetName]§!의 사막 지대 화학 분석 결과, §H$volatile_motes$§!의 풍부한 공급원을 발견했습니다. $giga_frameworld_origin.308.desc.motes.general$" # 11037860901748573212
+  giga_frameworld_origin.308.desc.motes.caverns: "\n\n§Y[this.GetName]§!의 표면 아래 깊은 동굴 속에서, 탐사팀이 풍부한 §H$volatile_motes$§! 공급원을 발견했습니다.\n$giga_frameworld_origin.308.desc.motes.general$" # 1984297333665262935
+  giga_frameworld_origin.308.desc.gases.general: "이 기체들은 다양한 전술적 용도와 심지어 오락적 용도도 가지고 있습니다." # 7512800644143054051
+  giga_frameworld_origin.308.desc.gases: "\n\n§Y[this.GetName]§!의 정밀 스캔 결과, 이전에 개발되지 않았던 §H$exotic_gases$§! 공급원이 발견되었습니다. $giga_frameworld_origin.308.desc.gases.general$" # 10611388672632702266
+  giga_frameworld_origin.308.desc.gases.ecu: "\n\n§Y[this.GetName]§! 상의 고대 산업 구역에 대한 공중 스캔에서 §H$exotic_gases$§!의 거대한 저장소를 발견했습니다. $giga_frameworld_origin.308.desc.gases.general$" # 5435633659021533812
+  giga_frameworld_origin.308.desc.gases.swamp: "\n\n§Y[this.GetName]§!의 늪지대를 정밀 탐사한 결과, §H$exotic_gases$§!의 잠재적인 채취 지점 여러 곳을 발견했습니다. $giga_frameworld_origin.308.desc.gases.general$" # 4744206092021340891
+  giga_frameworld_origin.308.desc.gases.bog: "\n\n습지성 저지대에 대한 저고도 항공 조사를 통해 §Y[this.GetName]§!에서 §H$exotic_gases$§! 추출에 적합한 여러 위치를 발견했습니다. $giga_frameworld_origin.308.desc.gases.general$" # 13133373779145506963
+  giga_frameworld_origin.308.desc.crystals.general: "이 결정체는 놀라운 굴절 특성 덕분에 첨단 전자 기기뿐만 아니라 레이저 무기 체계에도 잘 쓰입니다." # 5687155305940199545
+  giga_frameworld_origin.308.desc.crystals: "\n\n§Y[this.GetName]§!에 파견된 탐사팀은 §H$rare_crystals$§!의 주요 공급원의 위치를 파악했습니다.$giga_frameworld_origin.308.desc.crystals.general$" # 16774204409467746118
+  giga_frameworld_origin.308.desc.crystals.ecu: "\n\n§Y[this.GetName]§!의 탐사팀이 엄청난 양의 §H$rare_crystals$§!을(를) 포함하고 있는 거의 온전한 저장 시설을 확인했습니다. $giga_frameworld_origin.308.desc.crystals.general$" # 5740775997701428020
+  giga_frameworld_origin.308.desc.crystals.caverns: "\n\n§Y[this.GetName]§!에 대한 지질 조사 결과, §H$rare_crystals$§!의 형체를 지닌 거대한 동굴이 발견되었습니다. $giga_frameworld_origin.308.desc.crystals.general$" # 1470985687396147454
+  giga_frameworld_origin.308.desc.crystals.forest: "\n\n§Y[this.GetName]§! 행성에 파견된 탐사팀이 §H$rare_crystals$§!을(를) 추출할 수 있는 규산염 나무 숲을 발견했습니다. $giga_frameworld_origin.308.desc.crystals.general$" # 7366089085735031153
+  giga_frameworld_origin.308.desc.crystals.reef: "\n\n§Y[this.GetName]§!의 해양 조사를 통해 결정화된 산호로 이루어진 여러 암초의 지도를 작성했으며, 이는 §H$rare_crystals$§!를 채취하는 데 사용될 수 있습니다. $giga_frameworld_origin.308.desc.crystals.general$" # 1328794744692731146
+  giga_frameworld_origin.308.desc.betharian.general: "이 돌들은 에너지 생산을 위한 엄청난 잠재력을 가지고 있으며, 적절하게 설계된 발전소로 활용될 수 있습니다." # 13079768107217751232
+  giga_frameworld_origin.308.desc.betharian: "\n\n§Y[this.GetName]§!에서 §H베서리안 석재§!가 대량으로 발견되었습니다. $giga_frameworld_origin.308.desc.betharian.general$" # 14498200955694553887
+  giga_frameworld_origin.308.desc.betharian.fields: "\n\n§Y[this.GetName]§!에서 자연 발생한 대규모 §H베사리안석§! 형성체가 발견되었습니다. $giga_frameworld_origin.308.desc.betharian.general$" # 17986212750800598609
+  giga_frameworld_origin.308.desc.zoo.general: "이 생명체들은 우리 조사팀에게 무해하고 우호적임이 입증되었으며, 외계 생명체를 면밀히 연구하기에 이상적인 조건을 제공합니다." # 8483695777875344405
+  giga_frameworld_origin.308.desc.zoo: "\n\n§Y[this.GetName]§!에 대한 동물학 연구에서 §H온순한 토착 야생동물§!의 존재가 확인되었습니다. $giga_frameworld_origin.308.desc.zoo.general$" # 15105071343985193766
+  giga_frameworld_origin.308.desc.zoo.valley: "\n\n§Y[this.GetName]§!에 고립된 계곡이 발견되었으며, 이곳에는 §H온순한 현지 야생동물§!의 개체군이 서식하는 것으로 확인되었습니다. $giga_frameworld_origin.308.desc.zoo.general$" # 3034649704455084574
+  giga_frameworld_origin.308.a: "훌륭하군!" # 4205353275372794963
+  giga_frameworld_origin.308.a.tooltip: "§L새로운 기회는 새로운 방법론을 요구한다.§!" # 968388691368555941
+  giga_frameworld_origin.308.a.motes: "\n§Y£volatile_motes£$volatile_motes$§!가 §Y[frameworld_outpost_motes.GetName]§!에서 발견됨:" # 5463800678959073120
+  giga_frameworld_origin.308.a.gases: "\n§Y£exotic_gases£$exotic_gases$§! §Y[frameworld_outpost_gases.GetName]§!에서 발견됨:" # 12101635198246856672
+  giga_frameworld_origin.308.a.crystals: "\n§Y£rare_crystals£$rare_crystals$§!가 §Y[frameworld_outpost_crystals.GetName]§!에서 발견되었습니다:" # 3477946878687456918
+  giga_frameworld_origin.308.a.betharian: "\n§Y£energy£베타석§!이 §Y[frameworld_outpost_betharian.GetName]§!에서 발견되었습니다:" # 8211911618600605967
+  giga_frameworld_origin.308.a.zoo: "\n§Y£unity£ £society_research£온순한 외계 생명체§! §Y[frameworld_outpost_zoo.GetName]§!에서 발견:" # 14606497680194299652
+  giga_situation_frameworld_outposts_type: "$giga_frameworld_outpost$ 네트워크" # 5950606396591689158
+  giga_situation_frameworld_outposts: "$giga_situation_frameworld_outposts_type$" # 13743965378646054752
+  giga_situation_frameworld_outposts_desc: "§Y$giga_frameworld_outpost_plural$§!는 $origin_frameworld$ 제국의 식민지를 대체하며, $pc_giga_frameworld$ 자체에 상당한 성장 보너스를 제공합니다. 네트워크로부터의 총 보너스는 여기서 확인할 수 있습니다.\n\n$EMPIRE_SIZE$ 수정치는 £mod_empire_size_colonies_mult£ §Y$MOD_EMPIRE_SIZE_COLONIES_MULT_ORIGINAL$§!에 대한 수정치를 포함하여 동일한 식민지 수와 동일합니다." # 1283865837108410652
+  giga_situation_frameworld_outposts_stage: "$giga_situation_frameworld_outposts$" # 8276486169546923815
+  giga_situation_frameworld_outposts_monthly_change_tooltip: "이 상황은 진행되지 않습니다." # 765401766502379976
+  giga_situation_frameworld_outposts_approach: "정상 작전" # 12684780974836555472
+  giga_situation_frameworld_outposts_approach_desc: "탐사 및 조사." # 10562418501284608533
+  frameworld_size_fake_tooltip: "§Y$pc_giga_frameworld$§!의 행성 크기: §G+1§!" # 11802798578700912993
+  frameworld_outpost_fake_tooltip: "복제기 일자리 생산량 추가: §G+0.5§!\n행성 팝 조립 감소: §G-10%§!\n행성 팝 조립기 합금 유지비 추가: §R+0.1§!\n팝 성장 속도 감소: §G-10%§!\n제국 규모 추가: §Y+15§!\n행성 건물 건설 속도: §G+10%§!\n행성 결정 시행 속도: §G+10%§!\n행성 주거 공간 추가: §G+5§!\n행성 군대 건설 속도: §G+10%§!\n팝 숙청 속도: §G+10%§!" # 6789187273852809764
+  frameworld_expansion_fake_tooltip: "§Y$pc_giga_frameworld$§!에 §Y$d_frameworld_expansion$§!를 추가하여 다음과 같은 결과를 얻습니다:\n    $mod_job_replicator_add$: §G+0.2§!\n    $MOD_POP_GROWTH_SPEED$: §G+2.5%§!\n    $MOD_PLANET_BUILDING_BUILD_SPEED_MULT$: §G+2%§!\n    $MOD_PLANET_DECISION_ENACT_SPEED_MULT$: §G+2%§!\n    $MOD_PLANET_ARMY_BUILD_SPEED_MULT$: §G+2%§!\n    $MOD_POP_PURGE_SPEED$: §G+2%§!" # 2306582645729133503
+  frameworld_asteroid_fake_tooltip: "§Y$d_frameworld_asteroid$§!를 §Y$pc_giga_frameworld$§!에 추가합니다. 그 결과:\n    $mod_district_giga_frameworld_mining_max$: §G+0.25§!" # 14926707512772755404
+  frameworld_penrose_fake_tooltip: "거대 구조물 완공 시, §Y[this.GetName]§!에 §Y$d_frameworld_penrose$§!을(를) 추가하며, 그 결과는 다음과 같습니다:\n    $mod_planet_technician_energy_produces_add_planet$: §G+1§!\n    $mod_planet_technician_minerals_upkeep_add_planet$: §R+1§!" # 18433421344218984278

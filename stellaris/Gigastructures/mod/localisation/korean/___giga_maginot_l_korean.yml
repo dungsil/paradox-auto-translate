@@ -1,0 +1,302 @@
+﻿l_korean:
+  name_maginot: "마지노 세계" # 5864391174086302576
+  is_giga_maginot_world: "$TRIGGER_FAIL$§R마지노 행성이어야 합니다.§!" # 8416070900607771244
+  giga_tech_repeatable_maginot_cap: "마지노 세계 관리 프로토콜" # 13639998765438262245
+  giga_tech_repeatable_maginot_cap_desc: "고급 건설 및 유지보수 규약을 통해 우리 제국의 국경 내에서 추가적인 §Y마지노 행성§!을 건설하고 관리할 수 있습니다." # 14351228504914715524
+  giga_maginot_capacity_increase_title: "$Y마지노 행성$! 수용량: $G+1$!" # 4833423087049085810
+  giga_maginot_capacity_increase_desc: "§Y마지노 행성§!에 대한 제국 수용량이 §G+1§! 증가합니다!" # 16044730470648669715
+  d_maginot_subspace_disruptor: "마지노 아공간 교란 시스템" # 8535391590653304157
+  d_maginot_subspace_disruptor_desc: "이 $name_maginot_world$는 아공간을 통해 전파되는 강력한 방해장을 발생시켜, 이 성계에서 웜홀 작동을 방해합니다. 추가적으로, 이 성계와 주변 성계에서는 도약 추진기를 사용할 수 없습니다." # 1901496467871893201
+  heavy_defender: "중 수호자" # 10892374634421342510
+  heavy_defender_desc: "행성 방어 전담 특수 임무 부대" # 13925435162033493300
+  heavy_defender_plural: "중장 방어" # 6310996386946959258
+  robot_heavy_defender: "로봇 중형 방어자" # 17076727216766709268
+  robot_heavy_defender_desc: "행성 방어에 특화된 특수 로봇 기동대." # 15144789768971311031
+  robot_heavy_defender_plural: "중장갑 로봇 수비병" # 4761431939622816669
+  machine_heavy_defender: "중 기계 방어자" # 2714733052875851095
+  machine_heavy_defender_desc: "행성 방어 특화 중전투 부대." # 11427744498328106207
+  machine_heavy_defender_plural: "기계 수호자" # 16758449648691489617
+  maginot_artillery_army: "행성 포대" # 4609257217193017994
+  maginot_artillery_army_desc: "침략군을 격멸할 수 있지만 비교적 취약한 거대 포대." # 887662832684782757
+  maginot_artillery_army_plural: "행성 포대" # 13369750545630333769
+  maginot_shield_army: "쉴드 배터리" # 1528361217187793348
+  maginot_shield_army_desc: "피해를 흡수하기 위해 설계된 거대한 방어막 생성기." # 3465473783685068759
+  maginot_shield_army_plural: "방어막 축전기" # 15850358032468766883
+  maginot_bunker_army: "요새화 망" # 9917981532865770744
+  maginot_bunker_army_desc: "적의 진격을 최대한 저지하기 위한 광대한 벙커, 참호, 숨겨진 대포의 네트워크." # 12011307695231721064
+  maginot_bunker_army_plural: "방어 네트워크" # 15025388843041156009
+  maginot_assault_unit: "마지노 강습 부대" # 7912908200059420976
+  maginot_assault_unit_desc: "$name_maginot$ 시설에서 훈련된 특수 부대, 공격 작전 및 행성 침공용." # 8264562693514449655
+  maginot_machine_assault_unit: "$maginot_assault_unit$" # 14666910804662910601
+  maginot_machine_assault_unit_desc: "$maginot_assault_unit_desc$" # 6255178819488973062
+  NAME_planetary_artillery: "행성 포대" # 4609257217193017994
+  NAME_shield_battery: "쉴드 배터리" # 1528361217187793348
+  NAME_fortification_network: "요새화 망" # 9917981532865770744
+  NAME_heavy_defender: "중방어 부대" # 16933788636810990002
+  building_giga_maginot_stronghold: "마지노 요새 단지" # 8766335958960555050
+  building_giga_maginot_stronghold_desc: "과도한 요새화 분야의 새로운 기술은 이와 같은 복합체 건설을 가능케 합니다. 여기에 $name_maginot_world$를 건설하면 이러한 방어 시설이 행성 전체를 감싸도록 확장될 것입니다." # 6380809352957737930
+  building_giga_maginot_global_bunker: "마지노 행성 벙커 시스템" # 15745119638133553436
+  building_giga_maginot_global_bunker_desc: "행성 전체에 걸친 심층 벙커 시스템은 우리 군대가 이 행성에 있는 동안 전례 없는 타격력을 부여합니다." # 10644418899536884909
+  decision_maginot_anti_jump_on: "£maginot_bunker_01£ 마지노 아공간 교란장 활성화" # 2012066584165143303
+  decision_maginot_anti_jump_on_desc: "$name_maginot_world$에서 아공간 교란장 생성이 시작되었습니다. 이는 이 성계 및 인접 성계의 아공간 사용을 방해합니다. 다만 다른 성계에서는 그 효과가 약해집니다." # 15590457778776884330
+  decision_maginot_anti_jump_on_effect: "이 성계와 §Y1번 점프 거리 내에 있는§! §Y귀하(또는 봉신) 제국이 소유한§! 모든 성계는 §Y점프 드라이브 사용§! 및 §Y아공간 이동§!을 막는 특별한 효과를 받습니다. $name_maginot_world$ 자체의 성계는 §YNDB 또는 QSO의 표적이 될 수 없습니다§!. 효과는 결정 발동 시점에 적용됩니다. 따라서 새로 생성/정복한 성계를 보호하려면 껐다가 다시 켜십시오." # 4818384767487825530
+  decision_maginot_anti_jump_on_must_not_already_be_active: "£trigger_no£ 이 항성계 또는 인근 항성계 내 다른 $name_maginot_world$은(는) 이미 아공간 교란장을 생성 중입니다." # 1816997077501602159
+  decision_maginot_anti_jump_off: "£maginot_bunker_01£ 마지노 초공간 교란장 해제" # 8098761894705176038
+  decision_maginot_anti_jump_off_desc: "유지보수 비용을 절감하거나 표적 지정 매개변수를 업데이트하기 위해 장이 비활성화되었습니다." # 12840756470578448190
+  decision_maginot_anti_jump_off_effect: "이 성계와 §Y1 점프 거리§! 내에 있으며 §Y귀하(또는 봉신) 제국 소유§!인 모든 성계의 점프 드라이브 보호막이 비활성화됩니다. 해당 기능을 켜고 끄면 새로 생성/정복된 성계도 적용됩니다." # 13298274826603185044
+  decision_maginot_basic_garrison_check: "£maginot_bunker_08£ 마지노 주둔군 갱신" # 9763653984939189335
+  decision_maginot_basic_garrison_check_desc: "인원 점검을 실시하고 수비대가 경계를 늦추지 않고 준비되었는지 확인하십시오." # 1390850500867213665
+  decision_maginot_basic_garrison_check_effect: "존재해야 하는 기본 §Y5개 병력 수비대§!를 삭제하고 다시 추가하여, $name_maginot_world$에 대한 기본 지상 방어력을 제공합니다.\n§Y궤도 방어망§!, §Y방어막 발생기 배열§!, §Y벙커 단지§!에 의해 부여된 병력을 재충전합니다." # 17675654265369697113
+  maginot_wait_for_army_refresh: "£trigger_no£ 다시 시도하기 전에 효과가 업데이트되도록 게임을 일시정지 해제하세요." # 14699915647429411079
+  decision_maginot_repair_strategic_defence_command: "£maginot_bunker_02£ 마지노 보수 전략 방어 사령부" # 16414953107261800014
+  decision_maginot_repair_strategic_defence_command_effect: "궤도 방어 체계를 수리합니다. 궤도 방어 관리가 다시 가능해집니다." # 5911810319687215054
+  decision_maginot_repair_strategic_defence_command_desc: "이 행성은 최근 전투에서 여전히 회복 중입니다." # 13820725850646217939
+  decision_maginot_basic_point_check: "£maginot_bunker_03£ §G마지노 포인트 값§!" # 13922716855732902886
+  decision_maginot_basic_point_check_effect: "§Y현재 점수 가치:§! \n§E[this.giga_maginot_current_SD_platform_count] SD 플랫폼§! \n§E[this.maginot_offensive_upgrade_points_current] $offensive_upgrade_point_plural$ 사용 가능§! | [this.maginot_offensive_upgrade_points_max] 일자리 최대치 \n§E[this.maginot_defensive_upgrade_points_current] $defensive_upgrade_point_plural$ 사용 가능§! | [this.maginot_defensive_upgrade_points_max] 일자리 최대치 \n§Y현재 마지노 방벽 보정치:§! \n§S[this.maginot_orbital_defence_hp_upgrades] HP 업그레이드§! \n§G+[this.maginot_orbital_defence_hp_display]%§! $MOD_SHIP_HULL_MULT$ \n§G+[this.maginot_orbital_defence_hp_display]%§! $MOD_SHIP_ARMOR_MULT$ \n§G+[this.maginot_orbital_defence_hp_display]%§! $MOD_SHIP_SHIELD_MULT$ \n§G+[this.maginot_orbital_defence_hp_regen_display]§! $MOD_SHIP_HULL_REGEN_ADD_STATIC$ \n§G+[this.maginot_orbital_defence_hp_regen_display]§! $MOD_SHIP_ARMOR_REGEN_ADD_STATIC$ \n§G+[this.maginot_orbital_defence_hp_regen_display]§! $MOD_SHIP_SHIELD_REGEN_ADD_STATIC$ \n§S[this.maginot_orbital_defence_atk_upgrades] 공격력 업그레이드§! \n§G+[this.maginot_orbital_defence_atk_display]%§! $MOD_SHIP_WEAPON_DAMAGE$ \n§G+[this.maginot_orbital_defence_atk_display]%§! $MOD_SHIP_FIRE_RATE_MULT$ \n§S[this.maginot_orbital_defence_trg_upgrades] 추적/사거리 업그레이드§! \n§G+[this.maginot_orbital_defence_range_display]%§! $MOD_SHIP_WEAPON_RANGE_MULT$ \n§G+[this.maginot_orbital_defence_tracking_display]§! $MOD_SHIP_TRACKING_ADD$" # 5281616409631316721
+  decision_maginot_basic_point_check_desc: "이 결정을 클릭하면 업그레이드 점수 및 SD 플랫폼 수와 같은 값이 새로고침되어 다른 결정에서 사용할 수 있게 됩니다." # 18439643364172280552
+  decision_maginot_construct_secondary_SD_platform: "£maginot_bunker_04£ §S마지노 시설 보조 SD 플랫폼§!" # 16524853167400308152
+  decision_maginot_construct_secondary_SD_platform_effect: "§Y2§! $offensive_upgrade_point_plural$를 소모하여 지원 전략 방어 플랫폼으로 사용할 새로운 $name_asteroid_artillery$를 생성합니다.\n§Y현재 플랫폼:§! [this.giga_maginot_current_SD_platform_count]\n§E[this.maginot_offensive_upgrade_points_current] $offensive_upgrade_point_plural$ 사용 가능§!" # 17103638635315136367
+  decision_maginot_construct_secondary_SD_platform_desc: "소행성을 궤도로 끌어와 채굴하는 것은 구식이고, 그것들의 속을 비워 방어 플랫폼으로 사용하는 것은 훨씬 더 흥미롭습니다." # 18425891088234810944
+  decision_maginot_orbital_defence_hp_upgrade: "£maginot_bunker_05£ §B마지노 궤도 방어 시스템 강화§!" # 9549393988060995900
+  decision_maginot_orbital_defence_hp_upgrade_effect: "§R비용: [this.maginot_orbital_defence_hp_cost] £alloys£ $alloys$§! \n§Y1§! $defensive_upgrade_point$ 소모\n선체 §Y+25%§! $MOD_SHIP_HULL_MULT$ | 현재 §G+[this.maginot_orbital_defence_hp_display]%§! \n방어력 §Y+25%§! $MOD_SHIP_ARMOR_MULT$ | 현재 §G+[this.maginot_orbital_defence_hp_display]%§! \n보호막 §Y+25%§! $MOD_SHIP_SHIELD_MULT$ | 현재 §G+[this.maginot_orbital_defence_hp_display]%§! \n선체 재생력 §Y+500§! $MOD_SHIP_HULL_REGEN_ADD_STATIC$ | 현재 §G+[this.maginot_orbital_defence_hp_regen_display]§! \n방어력 재생력 §Y+500§! $MOD_SHIP_ARMOR_REGEN_ADD_STATIC$ | 현재 §G+[this.maginot_orbital_defence_hp_regen_display]§! \n보호막 재생력 §Y+500§! $MOD_SHIP_SHIELD_REGEN_ADD_STATIC$ | 현재 §G+[this.maginot_orbital_defence_hp_regen_display]§! \n§Y현재 레벨:§! [this.maginot_orbital_defence_hp_upgrades]\n§E사용 가능 $defensive_upgrade_point_plural$: [this.maginot_defensive_upgrade_points_current]§!" # 12626440450778468865
+  decision_maginot_orbital_defence_hp_upgrade_desc: "방어막 생성기는 궤도 플랫폼에 방어막을 기여할 수 있을 뿐만 아니라, 선체 내구도를 강화하기 위해 분자 결속 생성기로도 변환될 수 있습니다." # 2971562903621448755
+  decision_maginot_orbital_defence_atk_upgrade: "£maginot_bunker_06£ §R마지노 업그레이드 궤도 화력§!" # 5060768520759486126
+  decision_maginot_orbital_defence_atk_upgrade_effect: "§R비용: [this.maginot_orbital_defence_atk_cost] £alloys£ $alloys$§!\n§Y1§! $offensive_upgrade_point$를 소모하여 다음 효과를 얻습니다.\n+10% $MOD_SHIP_WEAPON_DAMAGE$ | 현재 §G+[this.maginot_orbital_defence_atk_display]%§!\n+10% $MOD_SHIP_FIRE_RATE_MULT$ | 현재 §G+[this.maginot_orbital_defence_atk_display]%§!\n§Y현재 레벨:§! [this.maginot_orbital_defence_atk_upgrades]\n§E사용 가능 $offensive_upgrade_point_plural$: [this.maginot_offensive_upgrade_points_current]§!" # 10097034558156464079
+  decision_maginot_orbital_defence_atk_upgrade_desc: "대포는 많을수록 좋습니다. 거대한 궤도 방어 편대의 끊임없이 향상되는 조율을 위한 업링크 시설 확충 역시 해가 되지 않습니다." # 5887627098191635150
+  decision_maginot_orbital_defence_trg_upgrade: "£maginot_bunker_07£ §M마지노 궤도 조준 체계§!" # 14526005250268476137
+  decision_maginot_orbital_defence_trg_upgrade_effect: "§R비용: [this.maginot_orbital_defence_trg_cost] £alloys£ $alloys$§!\n방어 강화 포인트 §Y1§! 소모 시\n+20% $MOD_SHIP_WEAPON_RANGE_MULT$ | 현재 §G+[this.maginot_orbital_defence_range_display]%§!\n+5 $MOD_SHIP_TRACKING_ADD$ | 현재 §G+[this.maginot_orbital_defence_tracking_display]§!\n§Y현재 레벨:§! [this.maginot_orbital_defence_trg_upgrades]\n§E[this.maginot_defensive_upgrade_points_current] $defensive_upgrade_point_plural$ 사용 가능§!" # 14989964481191919682
+  decision_maginot_orbital_defence_trg_upgrade_desc: "행성 센서 기지는 방어막 발생기를 대체하여 개선된 목표 지정 정보를 제공하고 태양계 전체를 감시할 수 있습니다." # 7000534954905312931
+  defensive_upgrade_point: "£job_maginot_shield_generator_operator£ 방어 업그레이드 지점" # 15767811696858688811
+  defensive_upgrade_point_plural: "$defensive_upgrade_point$들" # 12021365930606345106
+  offensive_upgrade_point: "£job_maginot_planetary_cannon_operator£ 공격 강화 점" # 7990832346241569558
+  offensive_upgrade_point_plural: "$offensive_upgrade_point$s" # 11201064334914644485
+  maginot_no_offensive_upgrade_points_available: "£trigger_no£ $offensive_upgrade_point_plural$가 없습니다" # 1674621465805607534
+  maginot_no_defensive_upgrade_points_available: "£trigger_no£ 사용할 수 있는 $defensive_upgrade_point_plural$(이)가 없습니다" # 10762442975333062221
+  maginot_targetting_upgrade_hard_cap: "£trigger_no£ 조준 시스템은 총 §Y5회§!만 업그레이드할 수 있습니다." # 6647778449289001643
+  decision_maginot_mass_recruitment: "£maginot_bunker_09£ 마지노 대규모 징집" # 5241484531575148097
+  decision_maginot_mass_recruitment_desc: "마지노 시설은 대규모의 특수 병력을 동시 훈련하여 우리 제국의 공세적 정복을 지원할 수 있게 합니다." # 1338564858118123980
+  decision_maginot_mass_recruitment_effect: "§Y[this.maginot_bunker_count]§!의 특수 마지노 돌격군을 동시에 모집합니다.\n\n\n병력 수는 행성의 §Y[maginot_world_bunker_name]§! 지구 수에 기반하며, 최소 §Y1§!입니다." # 3952211891164662325
+  decision_maginot_mass_recruitment_katzenpanzer: "£maginot_bunker_10£ 마지노 대규모 카첸판처 모집" # 10503213971351777442
+  decision_maginot_mass_recruitment_katzenpanzer_desc: "$name_maginot$는 카첸의 $riesigerkatzenpanzer_assault$를 대량 건조하기에 완벽한 장소입니다." # 15091853844921246934
+  decision_maginot_mass_recruitment_katzenpanzer_effect: "§Y[this.maginot_bunker_count]§!의 $riesigerkatzenpanzer_assault$ 군대를 동시에 모집합니다.\n\n군대 수는 해당 행성에 있는 §Y[maginot_world_bunker_name]§! 구역의 수에 따라 결정되며, 최소 §Y1§!개는 보장됩니다." # 7485933260285860579
+  district_maginot_world_barracks: "병영 지구" # 18267807707517104006
+  district_maginot_world_barracks_desc: "지표면 및 지하에 병력을 수용하기 위한 광대한 지원 시설로, 다양한 오락 및 휴양 구역을 포함합니다." # 2205917111483980099
+  district_maginot_world_barracks_plural: "병영 지구" # 17162707632974059557
+  district_maginot_world_shield_generators: "방어막 생성기 집합체" # 2551389920003744750
+  district_maginot_world_shield_generators_desc: "단일 함선으로는 전례 없는 규모의 방출기가 전체 함대에 필적하는 수준의 역장을 생성합니다. 추가적인 근접 방어 무기와 요격 미사일 사일로는 대부분의 탄약이 그 거리까지 도달하는 것조차 막습니다. 특화된 지원 시설은 궤도 플랫폼 방어막을 보강하는 데 사용될 수 있습니다." # 18391693510025884465
+  district_maginot_world_shield_generators_plural: "방어막 생성기 배열" # 7537612232899712401
+  job_maginot_planetary_shield_effect_desc: "\n1개의 §YShield Battery§! 병력을 제공하며, 이 병력은 막대한 양의 적 포화를 흡수할 수 있습니다." # 11697381551904662628
+  district_maginot_world_planetary_cannons: "궤도 방어망" # 17748680879318449615
+  district_maginot_world_planetary_cannons_desc: "거대한 행성 포대는 저궤도상의 어떠한 함선이라도 갈가리 찢을 수 있습니다. - 함장들은 그들의 사격 범위에서 충분히 벗어나 있도록 만듭니다. 따라서 이 포대는 주로 적의 포격과 강하선을 요격하는 임무에 대비합니다. 거대한 지휘 통제 복합체는 궤도 전략 방어 체계와 연동되어, 더 많은 수의 플랫폼 배치를 허용하고 기존 플랫폼을 강화합니다." # 1228722248059990121
+  district_maginot_world_planetary_cannons_plural: "궤도 방어망" # 11800072553608291056
+  job_maginot_planetary_artillery_effect_desc: "\n극심한 피해를 입히지만 비교적 취약한 1개의 §Y행성 포격§! 부대를 제공합니다." # 3450779095531527885
+  district_maginot_world_bunkers: "벙커 복합체" # 10596526320897519550
+  district_maginot_world_bunkers_desc: "눈 닿는 데까지 벙커와 중대지 무기가 가득합니다. 이 행성의 지면은 끝없는 참호, 전차 방어벽, 중 방벽으로 뒤덮여 있으며, 이는 그 어떤 것도 직선으로 이동할 수 없게 만듭니다. 위장된 포대들은 적군에게 지옥을 퍼부을 준비가 되어 있으며, 중첩된 사격 구역이 행성의 모든 지면을 사정권에 둡니다. 광범위한 훈련 시설은 우리 병사들이 어떤 비상 사태에도 대비할 수 있도록 하며, 온갖 종류의 지형에서 훈련이 끊임없이 실시됩니다." # 10831836795327082095
+  district_maginot_world_bunkers_plural: "벙커 단지" # 12815355894341013356
+  job_maginot_planetary_bunker_effect_desc: "\n적 병력의 사기를 크게 저하시키고 동시에 꾸준한 피해를 입히는 §Y요새화 네트워크§! 군대 1개를 제공합니다." # 11075225214041646063
+  district_maginot_ringworld_barracks: "병영 구역" # 8784972544259491488
+  district_maginot_ringworld_barracks_desc: "이 링월드 표면 및 내부에 병력을 주둔시키기 위한 거대한 지원 시설로, 다양한 여가 및 오락 구역을 포함합니다." # 9926877913331442418
+  district_maginot_ringworld_barracks_plural: "병영 구획" # 6332942832841406958
+  district_maginot_ringworld_shield_generators: "방어막 생성기 구획" # 7604840012271958717
+  district_maginot_ringworld_shield_generators_desc: "단일 함선에서 전례 없는 규모의 방사체들은 함대 전체에 필적하는 방어막을 생성합니다. 추가적인 근접 방어 무장과 미사일 요격 미사일 사일로는 대부분의 군수품이 거기까지 도달하기도 전에 저지합니다. 전문 지원 시설은 근접 우주 플랫폼의 방어막을 보충하는 데 사용될 수 있습니다." # 532305618850606191
+  district_maginot_ringworld_shield_generators_plural: "방어막 발생기 구획" # 10730829169542265746
+  district_maginot_ringworld_planetary_cannons: "궤도 방어 구역" # 16969148991607844505
+  district_maginot_ringworld_planetary_cannons_desc: "우리 링월드에 대규모 무기 포대를 장비하여 저궤도 내의 모든 함선을 분쇄할 만한 능력을 갖추게 되었습니다. 이는 함선 함장들이 사격 범위 밖에 머무르도록 보장합니다.\n따라서 주포는 주로 적의 탄약이나 강습정에 대한 요격 임무에 대비하고 있습니다.\n거대한 지휘 및 통제 복합시설은 근지점 전략 방어 시스템과 연동되어, 더 많은 플랫폼의 배치를 가능케 하고 기존의 플랫폼을 강화합니다." # 178999242128520827
+  district_maginot_ringworld_planetary_cannons_plural: "궤도 방어 구역" # 2144286090257481693
+  district_maginot_ringworld_bunkers: "벙커 구역" # 15468510555597590271
+  district_maginot_ringworld_bunkers_desc: "눈길이 닿는 곳까지 벙커와 중지상 무기가 이어지며, 심지어 머리 위로 굽어 있는 지형에까지 확장됩니다. 링월드의 이 구역은 재래식 표면을 갖추고 있지 않으며, 마치 심우주로 곧장 떨어지는 듯한 수많은 급경사와 함께 파괴된 지형을 이루고 있습니다. 위장된 포대는 적군에게 지옥을 퍼부을 준비가 되어 있으며, 그들의 중첩된 사선은 부피의 모든 입방미터를 커버합니다. 대규모 훈련 시설은 우리 병력이 어떤 비상 상황에도 대비할 수 있도록 보장하며, 우주 근접 및 승선 작전을 포함하여 모든 종류의 지형에서 훈련이 지속적으로 실시됩니다." # 16650240559514512264
+  district_maginot_ringworld_bunkers_plural: "벙커 구역" # 8331471660883784512
+  maginot_destruction.2000.name: "$name_maginot_world$ 점령됨" # 9623753902508002110
+  maginot_destruction.2000.desc: "우리 병력이 [From.GetStarName] 성계 내의 $name_maginot_world$ [From.GetName]를 성공적으로 점령했다고 보고합니다. 전투는 거대한 벙커와 방어 시설의 미로를 통과하며 행성의 지각 깊숙이까지 이어졌으나, 결국 우리 병력이 우위를 입증했습니다. 그 시스템을 담당한 적 지휘관들이 끝까지 항전했음에도 불구하고, 교활한 데드 핸드 비상 안전 장치 시스템의 발사는 저지되었습니다. 행성 파괴가 성공적으로 회피되었으며, 이제 우리는 모든 $name_maginot_world$ 기능에 대한 완전한 통제권을 확보할 수 있습니다.\n§Y참고로 아공간 교란 시스템은 수동으로 재활성화해야 합니다.§!" # 3836470587710500581
+  maginot_destruction.2000.a: "훌륭하군!" # 4205353275372794963
+  maginot_destruction.2010.name: "$name_maginot_world$ 점령됨" # 9623753902508002110
+  maginot_destruction.2010.desc: "우리는 [From.GetStarName] 성계에 있는 $name_maginot_world$ [From.GetName] 행성을 상실했습니다. 행성 지각 깊숙이 이어지는 광대한 지하 벙커 및 방어 시설망에도 불구하고, 적군은 여전히 우리 경계선을 돌파하여 지휘 센터를 점령했습니다. 그들은 데드 핸드 최종 안전 장치를 성공적으로 비활성화했으며, 이는 행성 파괴가 회피되었음을 의미합니다. 적군은 이제 강력한 방어 시설이자 우리 방어선의 핵심을 통제하고 있습니다.\n현재 우리 지휘 인력이 이미 사망하지 않았다면, 이 실패에 대한 지옥 같은 책임 추궁이 있었을 것입니다." # 7266200339582958792
+  maginot_destruction.2010.a: "그렇습니다." # 13728127113371319220
+  maginot_destruction.2001.name: "[From.GetStarName]에서 데드 핸드 활성화 성공!" # 15911114255471719677
+  maginot_destruction.2001.desc: "최악의 사태가 발생했습니다. [From.GetStarName]계에 위치한 $name_maginot_world$ [From.GetName]이(가) 모든 인원과 함께 상실되었습니다.\n\n적이 행성을 파괴할 만큼 강력한 무기를 배치한 후, 데드 핸드 반물질 구속 시스템이 의도한 대로 실패했으며 즉시 막대한 양의 에너지를 방출했습니다. 교묘한 배치와 대규모 지구 공학을 통해, 폭발은 의도한 대로 방향이 바뀌어 효과적으로 대륙 크기의 지각 조각을 단일 초강력 성형 폭약으로 전환했습니다.\n\n[From.GetName]의 희생이 헛되지 않았음에 기뻐할 수 있습니다. 왜냐하면 궤도에 남아있던 모든 함선은 이 무기에 의해 소멸되었을 것이기 때문입니다. 행성 자체보다 훨씬 큰 함선만이 우리의 분노를 견딜 수 있었을 것입니다.\n\n§Y참고: 아공간 교란 시스템이 격렬하게 비활성화되었으며, 그 피드백으로 인해 인근 성계의 유사 장치들이 강제로 종료되었을 것입니다. 남아있는 모든 $name_maginot_world_plural$은(는) 해당 시스템을 수동으로 재활성화해야 합니다.§!" # 4894537193083108434
+  maginot_destruction.2001.a: "이번 일로 우리 행성을 날려버린 대가를 깨닫게 될 것이다." # 14707886249227186527
+  maginot_destruction.2002.name: "재앙: [From.GetStarName]!" # 8613874245792871898
+  maginot_destruction.2002.desc: "§R[From.GetStarName] 성계에 있는 $name_maginot_world$ [From.GetName]을(를) 말살하는 임무를 맡은 우리 함대에 재앙이 닥쳤습니다!§!\n무기 배치는 계획대로 진행되고 있었지만, 행성이 갑자기 금이 가더니 대륙 크기의 덩어리가 아광속에 가까운 속도로 튀어나오면서 상상할 수 없이 거대한 초가열 플라스마 창을 만들어냈습니다. 궤도상의 모든 함선은 전자기 스펙트럼 방사선의 거대한 폭발과 멈추지 않는 운동 에너지의 맹공에 의해 보호막이 즉시 과부하되었으며, 그 결과 막대하며 치명적일 수 있는 구조적 손상을 입었습니다. 소형 함선은 즉시 파괴되었고, 모든 승무원을 잃었습니다.\n\n적들은 누군가 자신들의 행성을 파괴하려 시도할 경우를 대비하여 터무니없을 정도의 반물질을 비축한 것으로 보입니다. 우리는 앞으로 마주칠 모든 $name_maginot_world_plural$에서 유사한 비상 안전 장치를 발견할 것으로 예상합니다. 만약 우리가 지상팀을 활용하여 이러한 기계를 신중하게 비활성화하지 않는다면, 행성 자체가 최후의 무기로 사용되어 더 많은 함선 손실이 발생할 수 있습니다." # 11159896976004976245
+  maginot_destruction.2002.a: "수치스럽군." # 17718456936094958192
+  maginot_destruction.2003.name: "[From.GetStarName]에서 엄청난 실패!" # 12612874607913835814
+  maginot_destruction.2003.desc: "§R[From.GetStarName] 성계의 $name_maginot_world$ [From.GetName] 행성을 파괴하려던 우리의 거대함선에 재앙이 닥쳤습니다!§!\n\n명령대로 행성은 파괴된 듯 보였으나, 마지막 방어선이 무너지는 바로 그 순간 대륙 크기의 거대한 덩어리가 거의 상대론적인 속도로 날아가 상상조차 할 수 없는 거대한 과열 플라스마 창을 만들어냈습니다. 우리의 거대함선과 그 시스템은 전 스펙트럼 방사선의 엄청난 폭발과 끊임없는 운동 에너지 공세에 즉시 과부하가 걸렸고, 엄청난 직접적인 구조적 손상을 입었습니다. 우리는 그것이 생존했는지조차 아직 확인하려 노력 중입니다. 그것으로 모자라, 궤도에 남아있던 모든 함선들도 유사한 영향을 받아, 모든 소형 함선이 순식간에 파괴되었습니다.\n\n적이 자신들의 세계를 파괴하려는 시도가 있을 경우를 대비한 비상 안전 장치로 엄청난 양의 반물질을 비축해 둔 것으로 보입니다. 앞으로 마주칠 다른 $name_maginot_world_plural$에서도 유사한 비상 안전 장치를 발견할 것으로 예상됩니다. 이런 장치를 지상 팀을 투입하여 신중하게 비활성화하지 않는다면, 행성 자체가 최종 병기로 사용되면서 더 큰 손실을 입게 될 것입니다." # 9563905051597037571
+  maginot_destruction.2003.a: "그거 비용이 많이 들었어!" # 8013024453700248182
+  maginot_destruction.2004.name: "$name_maginot_world$는 [From.GetStarName]에서 출발했습니다." # 11299488890958516987
+  maginot_destruction.2004.desc: "[From.GetStarName] 성계의 $name_maginot_world$ [From.GetName]이(가) 호라이즌 니들로 승선되었습니다.\n\n마지막 장교들이 승선한 후, 데드 핸드 반물질 격리 시스템은 의도대로 고장 나도록 허용되었습니다. 이토록 강력한 방어 시스템을 무인 상태로 남겨 다른 국가들이 손쉽게 사용할 수 있게 되는 것을 결코 바라지 않기 때문입니다.\n대륙 크기 규모의 플라즈마 성형 폭발은 텅 빈 우주 공간으로 향하게 하여, 이미 승선된 식민지와 호라이즌 니들 시스템의 아주 값비싼 손실을 피했습니다. 니들 자체는 우주 발사체의 반동과 2차 효과로부터 잘 보호되지만, $name_maginot_world$에 속한 다른 플랫폼과 우주 기반 시스템들은 그렇지 않으며, 그것을 공전하는 모든 것은 우주 먼지로 변해버렸습니다. 저희는 군함이나 민간 함선이 아무것도 궤도에 남아있지 않았기를 간절히 바랍니다.\n\n다음 식민지를 향하여!" # 8191253746331945505
+  maginot_destruction.2004.a: "모든 것이 계획대로 진행되고 있습니다." # 14493518449839641467
+  maginot_orbital_defence.1004.name: "마지노 전략 방위 사령부 파괴됨!" # 17148409855356800922
+  maginot_orbital_defence.1004.desc: "$name_maginot_world$ §Y[maginot_world_location.GetName]§! 주위를 도는 방어용 궤도 사령부 기지가 §Y[maginot_orbital_defence_destroyer.GetName]§!와의 격렬한 전투 이후 파괴되었습니다.\n\n우리의 궤도 방어 시설은 무작위 잔해로 전락했지만, 중앙 방어 기지는 시간이 지나면 재건될 수 있습니다. 마지노 행성 자체는 온전하게 남아 있으며 여전히 지상 침공에 저항할 것입니다. 업그레이드가 적용되었다면, 방어 시설을 수리하면 적용되었던 업그레이드를 유지할 수 있습니다. 보조 SD 플랫폼은 복원되지 않으며, 처음부터 다시 건설해야 합니다." # 13348865384093804698
+  maginot_orbital_defence.1004.a: "제기랄!" # 13744548603425100052
+  maginot_orbital_defence.1006.name: "마지노 전략 방어 사령부 수리 완료!" # 14935390171015498490
+  maginot_orbital_defence.1006.desc: "저희는 $name_maginot_world$ §Y[maginot_world_location.GetName]§!를 공전하는 사령부 기지를 성공적으로 수리했습니다!.\n\n\n해당 구조물이 정상 작동 상태로 복구되었으며, 이제 저희 영역을 방어할 준비가 되었습니다.\n\n\n해당 구조물에 이전에 적용된 모든 업그레이드는 보존되었지만, 보조 SD 플랫폼은 보존되지 않았습니다." # 9517241581367999059
+  maginot_orbital_defence.1006.a: "훌륭하군!" # 4941506436412555079
+  job_maginot_central_command: "마지노 중앙 사령부 참모진" # 3766027014641443624
+  job_maginot_central_command_plural: "마지노 중앙 사령부 참모진" # 3766027014641443624
+  job_maginot_central_command_desc: "$name_maginot_world$를 감독하는 총참모부입니다. 제국이 보유한 최고의 장교들로 구성되어 있죠. 그들은 가장 깊숙한 지휘 복합 시설에서 방대한 행성 방어 체계를 지휘하며, 조국을 위해 목숨을 바칠 준비가 되어 있습니다." # 14518788933743241650
+  job_maginot_central_command_effect_desc: "£job_maginot_central_command£ $job_maginot_central_command_plural$는 £crime£ §Y$PLANET_CRIME_TITLE$§!를 감소시키고,\n£mod_planet_stability_add£ §Y$PLANET_STABILITY_TITLE$§!를 증가시키며,\n£defense_army£ §Y방어군§!을 생성하고,\n£mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!를 증가시키며,\n그리고 £unity£ §Y통합§!과 £influence£ §Y영향력§!을 생산합니다." # 6061576798094504347
+  mod_job_maginot_central_command_add: "$job_maginot_central_command$" # 4812291742573896905
+  job_maginot_central_command_gestalt: "마지노 중앙 사령부 드론" # 15338749688899890124
+  job_maginot_central_command_gestalt_plural: "마지노 중앙 사령부 드론" # 15338749688899890124
+  job_maginot_central_command_gestalt_desc: "특별히 선발된, 지휘 임무에 특히 적합한 드론들로, $name_maginot_world$를 감독하도록 배치되었습니다. 그들은 가장 깊은 지휘 복합 시설에서 광대한 행성 방어 체계를 지휘합니다." # 2566012227451201956
+  job_maginot_central_command_gestalt_effect_desc: "£job_maginot_central_command_gestalt£ $job_maginot_central_command_gestalt_plural$는 £crime£ §Y$PLANET_CRIME_TITLE$§!을(를) 감소시키고, £mod_planet_stability_add£ §Y$PLANET_STABILITY_TITLE$§!을(를) 증가시키며, £defense_army£ §YDefense Armies§!을(를) 생성하고, £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!을(를) 증가시키며, £unity£ §Y$unity$§!과(와) £influence£ §YInfluence§!을(를) 생산합니다." # 2462510002964274519
+  mod_job_maginot_central_command_gestalt_add: "$job_maginot_central_command_gestalt$" # 1485458680757563811
+  job_maginot_shield_generator_operator: "보호막 생성기 운용병" # 17296585302709526063
+  job_maginot_shield_generator_operator_plural: "보호막 생성기 운영자" # 15557474442107191402
+  job_maginot_shield_generator_operator_desc: "도시 구획 크기의 발전기 배열을 운영하도록 훈련받았으며, 그 외에도 $name_maginot_world$가 적 포격 위협으로부터 상당히 안전하게 유지되도록 보장합니다." # 18399541855957463715
+  job_maginot_shield_generator_operator_effect_desc: "£job_maginot_shield_generator_operator£ $job_maginot_shield_generator_operator_plural$는 £energy£ §Y$energy$§!와 £alloys£ §Y$alloys$§!를 £unity£ §YUnity§!로 변환하며,\n$name_maginot_world$에 대한 §Y방어 시설 업그레이드§!를 활성화합니다.\n일자리당 §Y$defensive_upgrade_point$§! 1을 제공합니다." # 14252078148302567742
+  mod_job_maginot_shield_generator_operator_add: "$job_maginot_shield_generator_operator$" # 17402722615822897650
+  job_maginot_shield_generator_operator_gestalt: "방어막 생성기 운용 드론" # 9377175123256406875
+  job_maginot_shield_generator_operator_gestalt_plural: "방어막 생성기 운용 드론" # 9911758457887251147
+  job_maginot_shield_generator_operator_gestalt_desc: "도시 구획 크기의 발전기 배열을 운영하도록 훈련받았으며, 그 외에도 $name_maginot_world$가 적 포격 위협으로부터 상당히 안전하게 유지되도록 보장합니다." # 18399541855957463715
+  job_maginot_shield_generator_operator_gestalt_effect_desc: "£job_maginot_shield_generator_operator_gestalt£ $job_maginot_shield_generator_operator_gestalt_plural$는 £energy£ §Y$energy$§!와 £alloys£ §Y$alloys$§!를 £unity£ §YUnity§!으로 변환하고 $name_maginot_world$에 §Y방어 업그레이드§!를 활성화합니다. 일자리당 1 §Y$defensive_upgrade_point$§!를 제공합니다." # 2900459422040911785
+  mod_job_maginot_shield_generator_operator_gestalt_add: "$job_maginot_shield_generator_operator_gestalt$" # 1835722478445785215
+  job_maginot_planetary_cannon_operator: "방어망 조작원" # 10450340277336090661
+  job_maginot_planetary_cannon_operator_plural: "방어망 운영자" # 7690853189664362465
+  job_maginot_planetary_cannon_operator_desc: "숙련된 공학자 무리가 행성 방어포와 궤도 통신망을 모두 유지보수합니다. 훈련된 요원들은 지상 무기와 궤도 SD 플랫폼 모두에 배치되어, 감히 $name_maginot_world$와 성계를 공유할 정도로 어리석은 모든 적대 세력과 교전합니다." # 10947813195174693738
+  job_maginot_planetary_cannon_operator_effect_desc: "£job_maginot_planetary_cannon_operator£ $job_maginot_planetary_cannon_operator_plural$는 £energy£ §Y$energy$§!와 £alloys£ §Y$alloys$§!를 £unity£ §Y통합§!으로 변환하고 $name_maginot_world$에 대한 §Y공격 업그레이드§!를 활성화합니다. 직업당 1 §Y$offensive_upgrade_point$§!." # 11015985372425564258
+  mod_job_maginot_planetary_cannon_operator_add: "$job_maginot_planetary_cannon_operator$" # 4062677635127627889
+  job_maginot_planetary_cannon_operator_gestalt: "방어망 운용 드론" # 2650629225993666361
+  job_maginot_planetary_cannon_operator_gestalt_plural: "방어망 운영자 드론" # 5529948804771865915
+  job_maginot_planetary_cannon_operator_gestalt_desc: "훈련된 기술자 드론 무리가 행성 포대와 궤도 상부 연결망 둘 모두를 유지보수합니다. 전투 드론은 지상 무기뿐만 아니라 궤도 SD 플랫폼에도 배치되어, $name_maginot_world$와 성계를 공유할 만큼 어리석은 모든 적대적인 존재와 교전합니다." # 13156785951139254030
+  job_maginot_planetary_cannon_operator_gestalt_effect_desc: "£job_maginot_planetary_cannon_operator_gestalt£ $job_maginot_planetary_cannon_operator_gestalt_plural$는 £energy£ §Y$energy$§!와 £alloys£ §Y$alloys$§!를 £unity£ §YUnity§!로 전환하고 $name_maginot_world$에 대한 §Y공격 업그레이드§!를 활성화합니다. 일자리당 §Y$offensive_upgrade_point$§! 1개." # 11675595885116647626
+  mod_job_maginot_planetary_cannon_operator_gestalt_add: "$job_maginot_planetary_cannon_operator_gestalt$" # 10572324575778666118
+  job_maginot_bunker_officer: "마지노 방어 사령관" # 936857450053276629
+  job_maginot_bunker_officer_plural: "마지노 방어 사령관들" # 14836440595622207835
+  job_maginot_bunker_officer_desc: "벙커 구역 전체의 방어를 조직화하는 임무를 맡은 장교들." # 9619277674019317831
+  job_maginot_bunker_officer_effect_desc: "£마지노 벙커 장교£ $job_maginot_bunker_officer_plural$는 £energy£ §Y$energy$§!와 £alloys£ §Y$alloys$§!를 £unity£ §Y$unity$§!로 전환하며, £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!를 늘리고 £defense_army£ §YDefense Armies§!를 생성합니다!" # 4757796087525928973
+  mod_job_maginot_bunker_officer_add: "$job_maginot_bunker_officer$" # 5614691716721418274
+  job_maginot_bunker_officer_gestalt: "마지노 방어 사령부 드론" # 7207727989856280166
+  job_maginot_bunker_officer_gestalt_plural: "마지노 방어 사령부 드론" # 10862024662725646751
+  job_maginot_bunker_officer_gestalt_desc: "전체 벙커 섹터 방어 조직화를 위해 특별히 제작된 드론" # 3686722668709802115
+  job_maginot_bunker_officer_gestalt_effect_desc: "£job_maginot_bunker_officer_gestalt£ $job_maginot_bunker_officer_gestalt_plural$는 £energy£ §Y$energy$§!와 £alloys£ §Y$alloys$§!, 그리고 £unity£ §Y$unity$§!를 생산하며, £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§!를 증가시키고 £defense_army£ §Y방어 병력§!를 생성합니다." # 3344286445199469210
+  mod_job_maginot_bunker_officer_gestalt_add: "$job_maginot_bunker_officer_gestalt$" # 14032114701097046769
+  job_maginot_military_police: "마지노 군사경찰" # 1626972351244968914
+  job_maginot_military_police_plural: "마지노 군사경찰" # 1626972351244968914
+  job_maginot_military_police_desc: "평화 유지 및 법 집행 임무를 맡은 이들은 일상적으로 무장한 군 병력을 상대하도록 특별 훈련을 받았습니다. 이는 $name_maginot_world$에서의 삶에 있어 변함없는 일과입니다." # 17377509787444993002
+  job_maginot_military_police_effect_desc: "£job_maginot_military_police£ $job_maginot_military_police_plural$는 £crime£ §Y$PLANET_CRIME_TITLE$§!를 감소시키고, £mod_planet_stability_add£ §Y$PLANET_STABILITY_TITLE$§!를 증가시키며, £defense_army£ §Y방어군§!을 생성합니다." # 5753214639213586847
+  mod_job_maginot_military_police_add: "$job_maginot_military_police$" # 17657086185855428197
+  maginot_world_0: "$gc_mega$$name_maginot_world$ 건설 현장" # 4563923243689872071
+  maginot_world_0_DESC: "아래 행성에 건설될 미래의 $name_maginot_world$ 건설 현장.\n이 거대한 요새는 언젠가 행성 맨틀 깊숙이 파고들고 대기권을 넘어 심우주까지 뻗어 나갈 것이며, 적에게 거의 난공불락의 장애물을 제시할 것입니다.\n행성의 모든 구역은 고유한 방어 구역으로 대체될 것이며, 행성 방어 플랫폼 관리가 가능해질 것입니다.\n$orbital_ring_tier_1_plural$는 통합되어 제거됩니다." # 10223370852828856975
+  maginot_world_0_MEGASTRUCTURE_DETAILS: "£gigastructural£ $giga_list_category_megastructure$ - $giga_list_category_defensive$\n대규모의 §Y방어 병력§!, §Y초광속 방해막§!을 제공하고 §Y도약 추진기§!를 차단합니다 - §B마지노 요새 단지 건물이 있는 행성이 필요합니다§!\n§L행성 전체를 뒤덮는 거대한 요새 단지는, 궁극적인 행성 방어를 제공합니다.§!" # 11022988417584590111
+  maginot_world_1: "$name_maginot_world$ 골조" # 943105946239877633
+  maginot_world_1_DESC: "초기 행성 개조, 굴착, 우주 엘리베이터 건설 및 부속 방어 고리의 건설 시작이 이루어졌습니다. 최심부 벙커 굴착이 완료되었고, 데드 핸드 시스템의 설치 작업이 시작될 수 있습니다." # 6868236876658311707
+  maginot_world_2: "$name_maginot_world$" # 16775828653963692130
+  maginot_world_2_DESC: "어떤 적군에게도 절대적으로 난공불락이 되는 것을 목표로 삼는 거대한 행성 규모의 요새." # 16118197985450041460
+  maginot_world_ringworld_0: "$name_maginot_ringworld$ 건설 현장" # 16973415595880311075
+  maginot_world_ringworld_0_DESC: "미래 $name_maginot_ringworld$ 건설 현장입니다. 아래 링월드 구역에 건설될 것입니다.\n이 거대한 요새는 언젠가 링 구조체를 변형시켜 적들에게 거의 난공불락의 장애물을 선사할 것입니다.\n링월드의 모든 구역은 고유한 방어 구역으로 대체될 것이며, 행성 방어 플랫폼 관리가 가능해질 것입니다." # 10945577494821523918
+  maginot_world_ringworld_0_MEGASTRUCTURE_DETAILS: "이것은 보이지 않아야 합니다." # 5904241891113922012
+  maginot_world_ringworld_1: "$name_maginot_ringworld$ 초구조물" # 12439589095159225728
+  maginot_world_ringworld_1_DESC: "전반적인 상부 구조에 대한 대규모 변경 사항을 포함하는 초기 링월드 변환. 최심부 벙커가 설치되었으며, 데드 핸드 시스템의 설치가 시작될 수 있습니다." # 12098660234602826236
+  maginot_world_ringworld_2: "$name_maginot_ringworld$" # 16792973171741478399
+  maginot_world_ringworld_2_DESC: "어떤 적대 세력에게도 절대 함락되지 않도록 설계된 거대한 링 요새." # 5272187634457327854
+  requires_maginotable_planet_type: "$TRIGGER_FAIL$마지노 세계는 일반 행성, 가스 행성 거주지, 또는 링월드 구역에서만 건설될 수 있습니다." # 6742401619694590946
+  requires_not_maginot_world: "$TRIGGER_FAIL$ 마지노 행성 위에는 마지노 행성을 건설할 수 없습니다. 당연하잖아요." # 14403146991440495255
+  requires_maginot_stronghold_built: "$TRIGGER_FAIL$우리는 $building_giga_maginot_stronghold$를 먼저 건설하여 행성 벙커를 위한 건설 공간을 마련해야 합니다." # 12891426205798721218
+  giga_dialog.5001.name: "$name_maginot_world$ 건설 부지 완료" # 6351071197493359480
+  giga_dialog.5001.desc: "미래의 $name_maginot_world$ 건설 현장이 [giga_system.GetName] 성계에서 이제 막 완료되었습니다. 곧 이 행성은 하나의 거대한 요새 단지가 되어, 우리는 궁극의 방어 체계를 갖추게 될 것입니다.\n\n§S이 행성의 모든 특구는 고유 방어 특구로 대체될 것이며, 행성 방어 관리가 가능해질 것입니다. $orbital_ring_tier_1_plural$은(는) 통합되어 제거될 것입니다.§!\n\n§R경고: $name_maginot_world$에는 식민지 파괴 시 행성을 폭파시키고 궤도상의 모든 함선을 말살하는 비상 안전 장치가 특징입니다!§!" # 12425016760491236389
+  giga_dialog.5001.a: "훌륭하군!" # 4205353275372794963
+  giga_dialog.5002.name: "$name_maginot_world$ 내부 완료" # 4880185454105577469
+  giga_dialog.5002.desc: "[giga_system.GetName] 성계 내의 $name_maginot_world$ 완성에 한 걸음 더 다가섰습니다.\n지구화 작업과 우주 기반 건설 작업은 순조롭게 진행되고 있으며, 최심부 벙커 및 지휘 센터를 위한 공간을 굴착했습니다.\n이제 반물질 기반의 페일 세이프 시스템을 설치할 준비가 되었으며, 초기 행성 방어 체계 구축을 최종 완료할 것입니다." # 13607456214273990170
+  giga_dialog.5002.a: "훌륭하군!" # 4205353275372794963
+  giga_dialog.5003.name: "$name_maginot_world$ 완성되었습니다!" # 12774337016433339277
+  giga_dialog.5003.desc: "멋진 소식입니다! [giga_system.GetName] 시스템에서, 우주 공간에서 행성의 맨틀까지 뻗어 있는 궁극의 요새 건설을 완료했습니다.\n이 경이로운 구조물은 어떤 세력으로도 거의 난공불락입니다. 통합 궤도 방어 시설, 행성 포대, 광대한 지표면 벙커, 심층 지하 지휘 복합체, 그리고 전 함대의 방어막 생성 능력을 훨씬 능가하는 방어막 발생기를 갖추고 있습니다.\n\n게다가, 최종 데드 핸드 시스템은 심지어 전면적인 행성 파괴로부터도 방어합니다. 안전 장치가 활성화될 경우 행성 전체를 광대한 반물질 추진 성형 작약탄으로 사용하여 - 궤도상의 모든 적대 세력을 §R완전히 말살합니다.§!\n\n\n다양한 방어 시스템은 §Y결정§!을 통해 관리할 수 있습니다. §Y구역§!을 건설하고 §Y직업§!에 인력을 배치하여 해당 결정에 사용할 §E$defensive_upgrade_point_plural$§!과 §E$offensive_upgrade_point_plural$§!을 획득하십시오." # 2331654011564126730
+  giga_dialog.5003.a: "마침내, 우리는 안전해졌습니다." # 13766582615934015965
+  giga_dialog.5004.name: "$name_maginot_ringworld$ 건설 현장 완료" # 17453248447248840539
+  giga_dialog.5004.desc: "미래의 $name_maginot_ringworld$ 건설 현장이 [giga_system.GetName] 항성계에 이제 막 완성되었습니다. 곧 이 링의 일부는 하나의 거대한 요새 단지가 될 것이며, 우리는 궁극의 방어 수단을 가지게 될 것입니다.\n\n§S행성 내 모든 특구는 고유 방어 특구로 대체될 것이며, 근궤도 방어 플랫폼 관리가 가능해질 것입니다.§!\n\n§R경고: $name_maginot_ringworld$에는 식민지 파괴 시 세계를 폭발시키고 궤도상의 모든 함선을 전멸시키는 비상 안전 장치가 탑재되어 있습니다!§!" # 6048248637892144173
+  giga_dialog.5004.a: "훌륭하군!" # 4205353275372794963
+  giga_dialog.5005.name: "$name_maginot_ringworld$ 외부 완료" # 1139122142048472278
+  giga_dialog.5005.desc: "[giga_system.GetName] 성계에서 $name_maginot_ringworld$의 완성에 또 한 걸음 더 가까워졌습니다. 우주 기반 건설과 표면 재편이 순조롭게 진행 중이며, 가장 깊은 벙커와 지휘 센터를 위한 공간을 선정했습니다. 이제 반물질 기반 페일세이프 시스템을 설치하고 초기 고리 방어 시설을 마무리할 준비가 되었습니다." # 7527322046196771647
+  giga_dialog.5005.a: "훌륭하군!" # 4205353275372794963
+  giga_dialog.5006.name: "$name_maginot_ringworld$ 완성!" # 16340542725496495070
+  giga_dialog.5006.desc: "환상적인 소식입니다! [giga_system.GetName] 성계에, 항성 전체를 부분적으로 에워싸는 궁극의 요새 건설을 완료했습니다. 이 경외로운 구조물은 사실상 어떤 세력으로도 함락시킬 수 없습니다. 통합 근접 방어 체계, 초대형 구조물 포대, 광대한 벙커 구획, 깊이 매설된 지휘 본부, 그리고 함대 전체의 생성 능력을 훨씬 뛰어넘는 방어막 생성기가 특징입니다.\n게다가 최종 데드 핸드 시스템은 안전장치 작동 시 전체 초대형 구조물을 광대한 반물질 연료 성형 작약으로 사용하여 심지어 대규모 구획 파괴까지 방어합니다 - §R궤도상의 모든 적성 세력을 완전히 소멸시킵니다.§!\n\n다양한 방어 시스템은 §Y결정§!을 통해 관리할 수 있습니다. §Y지구§!를 건설하고 §Y일자리§!에 인력을 배치하여 이러한 결정에 사용할 수 있는 §E$defensive_upgrade_point_plural$§! 및 §E$offensive_upgrade_point_plural$§!를 얻으십시오." # 1323466964668595831
+  giga_dialog.5006.a: "마침내, 우리는 안전해졌습니다." # 13766582615934015965
+  NAME_maginot_orbital_defence_fleet: "행성 방어 사령부" # 16174998259356456650
+  NAME_maginot_strategic_defence_command_platform: "전략 방위 사령부" # 7153936871252640340
+  NAME_maginot_secondary_platform: "보조 전략 방어 플랫폼" # 17656151631491410301
+  maginot_anti_jump_on: "초공간 교란 시스템 활성화" # 10094716313550049305
+  maginot_anti_jump_on_desc: "$name_maginot_world$는 아공간을 통해 전파되는 강력한 교란장을 생성하여 이 성계 내의 웜홀 작동을 방해합니다. 추가적으로, 이 성계와 인접 성계들에서 도약 추진기가 작동 불능 상태가 됩니다." # 4718733087709961534
+  maginot_anti_jump_star_modifier: "활성 아공간 교란 장" # 5905423411510075055
+  maginot_anti_jump_star_modifier_desc: "이 성계는 강력한 방해장의 영향을 받고 있어, 아공간 도약 및 도약 추진체 사용이 불가능합니다." # 3180335836222865542
+  giga_maginot_orbital_defence_hp: "마지노 SD 플랫폼 방어 업그레이드" # 11959677180413935263
+  giga_maginot_orbital_defence_atk: "마지노 SD 플랫폼 무기 업그레이드" # 4358977098970417815
+  giga_maginot_orbital_defence_trg: "마지노 SD 플랫폼 타겟팅 업그레이드" # 17198088976487435521
+  giga_maginot_firepower_1: "개량된 마지노 화력 기술" # 7461078312658564357
+  giga_maginot_planetcraft_upgrade: "마지노 행성함 업그레이드 기술" # 10361645647784846858
+  giga_maginot_systemcraft_upgrade: "마지노 시스템크래프트 업그레이드 기술" # 1845641766739536755
+  name_maginot_world: "마지노 세계" # 5864391174086302576
+  name_maginot_world_plural: "마지노 행성" # 11713523721335806538
+  name_maginot_gas_giant: "마지노 가스 행성" # 3484236457307438555
+  name_maginot_gas_giant_plural: "마지노 가스 행성" # 3484236457307438555
+  name_maginot_ringworld: "마지노 링월드" # 15042560920819820496
+  name_maginot_ringworld_plural: "마지노 링 월드" # 13941678817744689004
+  pc_giga_maginot_world: "$name_maginot_world$" # 16775828653963692130
+  pc_giga_maginot_world_desc: "어떤 적군에게도 절대적으로 난공불락이 되는 것을 목표로 삼는 거대한 행성 규모의 요새." # 16118197985450041460
+  pc_giga_maginot_world_adj: "$name_maginot_world$" # 16775828653963692130
+  pc_giga_maginot_gas_giant: "$name_maginot_gas_giant$" # 7987309189034792194
+  pc_giga_maginot_gas_giant_desc: "가스 행성 전체를 아우르는 거대한 요새. 어떤 적군에게도 완전히 난공불락이 되는 것을 목표로 삼습니다." # 12340729058264623052
+  pc_giga_maginot_gas_giant_adj: "$name_maginot_gas_giant$" # 7987309189034792194
+  pc_giga_maginot_ringworld: "$name_maginot_ringworld$" # 16792973171741478399
+  pc_giga_maginot_ringworld_desc: "항성을 둘러싸고 있으며, 그 어떤 적군에게도 절대 함락되지 않는 난공불락을 목표로 하는 거대한 요새 대." # 845757841916525732
+  pc_giga_maginot_ringworld_adj: "$name_maginot_ringworld$" # 16792973171741478399
+  mod_pc_giga_maginot_world_habitability: "$name_maginot_world$ 거주 적합도" # 11362807855272035521
+  trait_pc_giga_maginot_world_preference: "$name_maginot_world$ 선호도" # 5668999904180122385
+  trait_pc_giga_maginot_world_preference_desc: "이 종족은 거대한 벙커 복합체의 안전을 선호하도록 진화했습니다." # 15201343786101756037
+  mod_pc_giga_maginot_gas_giant_habitability: "$name_maginot_gas_giant$ 거주 적합도" # 2175960498371195258
+  trait_pc_giga_maginot_gas_giant_preference: "$name_maginot_gas_giant$ 선호" # 6639166146733251284
+  trait_pc_giga_maginot_gas_giant_preference_desc: "이 종족은 거대한 구름 기반 벙커 복합체의 보안성을 선호하도록 진화했습니다." # 13243023402042151177
+  mod_pc_giga_maginot_ringworld_habitability: "$name_maginot_ringworld$ 거주 적합도" # 8167945179584803417
+  trait_pc_giga_maginot_ringworld_preference: "$name_maginot_ringworld$ 선호도" # 16278185612587883251
+  trait_pc_giga_maginot_ringworld_preference_desc: "이 종족은 거대한 링월드 벙커 단지의 안전을 선호하도록 진화했습니다." # 14287203453942502657
+  d_maginot_command: "중앙 마지노 사령부 단지" # 12260347481212455858
+  d_maginot_command_desc: "행성 내 가장 깊고 가장 강력하게 방어되는 지휘 통제 벙커. 또한 행성 파괴 시를 대비한 거대한 반물질 기반 데드 핸드 시스템을 수용합니다." # 7979711419399345053
+  d_maginot_construction_blocker: "진행 중인 마지노 건설 현장" # 5480342486534184713
+  d_maginot_construction_blocker_desc: "이 진지를 요새화하고 있습니다." # 5157694017939619049
+  col_mw_maginot: "$name_maginot_world$" # 16775828653963692130
+  col_mw_maginot_desc: "이 행성 요새는 궁극의 방어 구조물로, 외세 침공을 거의 불가능하게 만듭니다." # 18031272046204815917
+  strategic_defence_command_platform: "마지노 전략 방어 사령부 플랫폼" # 12939320202693141944
+  strategic_defence_command_platform_plural: "마지노 전략 방어 사령부 플랫폼" # 12939320202693141944
+  allow_maginot_strategic_defence_command_platform: "§H플랫폼 유형 잠금 해제:§! $strategic_defence_command_platform$" # 16230811782420898154
+  maginot_strategic_defence_command_platform_desc: "마지노 행성들의 궤도 방어 지휘를 위한 중앙 플랫폼" # 13732138288381028513
+  strategic_defence_command_platform_bow_01_key: "궤도 창 투사기" # 7904945321982083921
+  strategic_defence_command_platform_bow2_01_key: "중앙 사령부" # 14072060597380440539
+  strategic_defence_command_platform_mid1_01_key: "중궤도 무기" # 14908330583775664008
+  strategic_defence_command_platform_mid2_01_key: "궤도 타격 전투기" # 3048851462081572053
+  strategic_defence_command_platform_stern_01_key: "궤도 지원 플랫폼" # 1979590724557639190
+  planet_strategic_defence_command_platform_bow_01_key: "개량된 궤도 랜스 투사기" # 4167914326728478291
+  planet_strategic_defence_command_platform_bow2_01_key: "업그레이드된 중앙 사령부" # 3872030070012845621
+  planet_strategic_defence_command_platform_mid1_01_key: "강화된 궤도 중무기" # 17677723528483940891
+  planet_strategic_defence_command_platform_mid2_01_key: "강화된 궤도 폭격함" # 12583281250931246696
+  planet_strategic_defence_command_platform_stern_01_key: "개량된 궤도 지원 플랫폼" # 7633645521524337520
+  system_strategic_defence_command_platform_bow_01_key: "궤도 랜스 네트워크" # 562294380030200746
+  system_strategic_defence_command_platform_bow2_01_key: "지휘 네트워크" # 14388393374063256805
+  system_strategic_defence_command_platform_mid1_01_key: "보조 중포대" # 8384761251176918938
+  system_strategic_defence_command_platform_mid2_01_key: "궤도 격납고 네트워크" # 1250414005698775590
+  system_strategic_defence_command_platform_stern_01_key: "궤도 지원 플랫폼 네트워크" # 15504202052592233042
+  GIGA_MAGINOT_REACTOR: "마지노 동력 시스템" # 1990699480629699812
+  GIGA_MAGINOT_REACTOR_DESC: "호스트 $name_maginot_world$ 및 그 지하 전력 시스템과의 다중 예비 연결이 모든 궤도 작전에 에너지를 공급합니다." # 6561471763625084564
+  GIGA_MAGINOT_PLANET_REACTOR: "업그레이드된 마지노 동력 시스템" # 6062147167080849037
+  GIGA_MAGINOT_PLANET_REACTOR_DESC: "행성급 함선 기술은 행성 내 발전 시설에 여러 개선을 가능하게 했습니다." # 6688207206561966025
+  GIGA_MAGINOT_STAR_REACTOR: "코로나 채취 네트워크" # 16834940779289145623
+  GIGA_MAGINOT_STAR_REACTOR_DESC: "고차원 공학 및 항성 제어 능력의 숙달을 통해 비국소성 항성 추출기가 모든 마지노 시스템에 동력을 공급할 수 있습니다." # 6984499177960713959
+  GIGA_MAGINOT_OMEGA_LANCE: "오메가 소멸 광선" # 2723449447610437085
+  GIGA_MAGINOT_OMEGA_LANCE_DESC: "우리 $name_maginot_world$를 보호하기 위해선 그야말로 달 크기만 한 무기가 필요합니다. 숙주 행성의 핵에 설치된 거대한 원자로로 구동되고 지각 아래 수많은 시스템으로 제어되는 이 에너지 랜스는 경로상의 모든 것을 갈가리 찢어버릴 수 있으며, 또 그렇게 할 것입니다." # 10380244920664266841
+  GIGA_MAGINOT_KINETIC_BATTERY: "중행성 포대" # 13824703682754434736
+  GIGA_MAGINOT_KINETIC_BATTERY_DESC: "$name_maginot_world$의 표면에 건설된 거대한 운동 에너지 포대로, 궤도 시스템과 상호 연결될 때 엄청난 파괴력을 발휘할 수 있습니다." # 8128581835024579830
+  GIGA_MAGINOT_DEFENCE_DRONE_SWARM: "궤도 방어 드론 군체" # 8493461592622334900
+  GIGA_MAGINOT_DEFENCE_DRONE_SWARM_DESC: "호스트인 $name_maginot_world$에 연결된 드론 무리로서, 승무원이 필요하지 않으며, 자체적인 보호막 생성기나 독립적인 지휘 코어도 필요하지 않습니다. 따라서 비슷한 크기의 자유 비행 공격기보다 전투에서 더 효과적으로 운용될 수 있습니다." # 6864984725379422103
+  giga_tech_maginot_world: "궁극의 거점 방어 이론" # 9772084676450097620
+  giga_tech_maginot_world_desc: "제국을 방어하기 위해 궁극의 방어 거점을 건설해야만 합니다. 그리고 행성 전체를 거대한 요새 복합체인 $name_maginot_world$로 변모시켜야 합니다.\n\n이 행성에는 궤도 방어 시설, 행성 포대, 무수한 벙커, 심층 지하 지휘 복합체, 대륙 크기의 방어막 생성기가 갖춰질 것입니다. 더불어, 적 콜로서스급 함선에 대한 억지력으로 데드 핸드 시스템이 개발될 것입니다.\n\n§Y행성 건물은 $name_maginot_world$ 건설을 시작하는 데 필요합니다§! 하지만 이 건물은 완전한 개발에 적합하지 않은 다른 위치에도 건설할 수 있습니다." # 17942617247563946863
+  maginot_desc: "어떤 적군에게도 절대적으로 난공불락이 되는 것을 목표로 삼는 거대한 행성 규모의 요새." # 16118197985450041460
+  allow_maginot: "§H거대 구조물 잠금 해제:§! $name_maginot_world$" # 8821211052308032459
+  giga_tech_maginot_firepower_1: "향상된 마지노 화력" # 889091990827733263
+  giga_tech_maginot_firepower_1_desc: "실용적인 개발이 완료됨에 따라, 우리는 이제 $name_maginot_world$ 체계에 대한 다양한 최적화와 관련하여 더 나아가 한계를 확장하는 것에 집중할 수 있습니다. 특히, 더욱 강력한 화력에 말이죠." # 14038464396874829503
+  allow_giga_maginot_firepower_1: "마지노 무기 피해: §G+25%§!\n\n마지노 무기 발사 속도: §G+10%§!\n\n마지노 무기 사거리: §G+20%§!" # 15408076150233580592
+  maginot_display_firepower_1: "\n§B$giga_tech_maginot_firepower_1$ 기술§!: \n§G+25%§! $MOD_SHIP_WEAPON_DAMAGE$ \n§G+10%§! $MOD_SHIP_FIRE_RATE_MULT$ \n§G+20%§! $MOD_SHIP_WEAPON_RANGE_MULT$" # 203629286252196412
+  giga_tech_maginot_planetcraft_upgrade: "갱신된 마지노 보강 기술" # 15359646113617362569
+  giga_tech_maginot_planetcraft_upgrade_desc: "최신 세대 천체 전함 연구는 마지노 요새 보강의 몇 가지 가능한 개선점을 드러냈으며, 이는 더 큰 위협에 맞서 이 구조물을 더욱 내구성이 뛰어나게 만들 수 있게 해줍니다. 추가적으로, 일부 무기 및 반응로 개선은 개조될 수 있습니다." # 2426583852716331236
+  allow_giga_maginot_planetcraft_upgrade: "§H플랫폼 구역 잠금 해제:§! 업그레이드된 마지노 전략 방어 플랫폼\n마지노 무기 공격력: §G+50%§!\n마지노 선체: §G+500 000§!\n마지노 장갑: §G+200 000§!\n마지노 보호막: §G+200 000§!" # 14654547484936060295
+  maginot_display_planetcraft_upgrade: "§B$giga_tech_maginot_planetcraft_upgrade$ 기술§!:\n§G+50%§! 함선 무기 피해\n§G+500 000§! 함선 선체 내구도\n§G+200 000§! 함선 장갑\n§G+200 000§! 함선 보호막" # 4633121379789271853
+  giga_tech_maginot_systemcraft_upgrade: "초고 개조" # 5875353540845827915
+  giga_tech_maginot_systemcraft_upgrade_desc: "별들조차 우리의 명령에 따라 움직일지라도, 우리는 방어를 게을리해서는 안 됩니다. 우리의 최신 혁신 기술은 마지노 보호 조치에 몇 가지 근본적인 개선을 가능하게 합니다." # 2392023254073611167
+  allow_giga_maginot_systemcraft_upgrade: "§H플랫폼 섹션 해금:§! 성계급 마지노 전략 방어 플랫폼\n마지노 무기 피해: §G+250%§!\n마지노 무기 발사 속도: §G+100%§!\n마지노 명중률: §G+20§!\n마지노 추적: §G+10§!\n마지노 선체: §G+5 000 000§!\n마지노 방어력: §G+2 000 000§!\n마지노 방어막: §G+2 000 000§!" # 11267269225739413999
+  maginot_display_systemcraft_upgrade: "§B$giga_tech_maginot_systemcraft_upgrade$ 기술§!: \n§G+250%§! $MOD_SHIP_WEAPON_DAMAGE$ \n§G+100%§! $MOD_SHIP_FIRE_RATE_MULT$ \n§G+20§! $MOD_SHIP_ACCURACY_ADD$ \n§G+10§! $MOD_SHIP_TRACKING_ADD$ \n§G+5 000 000§! $MOD_SHIP_HULL_ADD$ \n§G+2 000 000§! $MOD_SHIP_ARMOR_ADD$ \n§G+2 000 000§! $MOD_SHIP_SHIELD_ADD$" # 14483854227573121680

@@ -1,0 +1,348 @@
+﻿l_korean:
+  MOD_COUNTRY_MEGASTRUCTURE_BUILD_CAP_ADD_amb: "최대 $building_giga_megaworkshop_hub_plural$" # 10903718006739146103
+  MOD_COUNTRY_MEGASTRUCTURE_BUILD_CAP_ADD_original: "거대 건축물 건설 용량" # 13584596020089522795
+  mod_country_resource_max_giga_sr_amb_megaconstruction_add: "$giga_sr_amb_megaconstruction$ 저장 용량" # 14068804308342856944
+  mod_country_giga_sr_amb_megaconstruction_produces_mult: "월간 $giga_sr_amb_megaconstruction$" # 3896292729559549786
+  mod_country_base_giga_sr_amb_megaconstruction_produces_add: "월간 $giga_sr_amb_megaconstruction$" # 3896292729559549786
+  mod_megastructures_giga_sr_amb_megaconstruction_upkeep_mult: "거대 구조물 $giga_sr_amb_megaconstruction$ 유지비" # 7177092907431759312
+  mod_planet_giga_megaengineers_produces_mult: "£job_giga_megaengineer£ $planet_giga_megaengineers$ 산출량" # 1591170591453713878
+  mod_planet_giga_megaengineers_upkeep_mult: "$planet_giga_megaengineers$ 유지비" # 15177573653533757726
+  mod_planet_giga_megaengineers_job_giga_sr_amb_megaconstruction_produces_add: "£job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]으로부터 £giga_sr_amb_megaconstruction£ $giga_sr_amb_megaconstruction$" # 7622353815141504411
+  mod_planet_giga_megaengineers_job_alloys_upkeep_add: "£job_giga_megaengineer£ [giga_amb_megaengineer_name_plural] 유지비: £alloys£ $alloys$" # 712237395214636537
+  mod_planet_giga_megaengineers_job_ehof_sr_sentient_metal_upkeep_add: "£ehof_sr_sentient_metal£ $ehof_sr_sentient_metal$ 유지 £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]" # 14204252414980644844
+  mod_planet_giga_megaengineers_job_unity_upkeep_add: "£unity£ $unity$ £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]의 유지 비용" # 2901108544964217884
+  mod_planet_giga_megaengineers_job_minerals_upkeep_add: "£광물£ $minerals$ £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]의 유지비" # 8342241258182913060
+  mod_planet_giga_megaengineers_job_energy_upkeep_add: "£energy£ $energy$ £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]의 유지비" # 9644285672494241981
+  mod_planet_giga_megaengineering_overseers_giga_sr_amb_megaconstruction_produces_add: "[giga_amb_megaengineering_overseer_name_plural] £job_giga_megaengineering_overseer£으로부터 £giga_sr_amb_megaconstruction£ $giga_sr_amb_megaconstruction$" # 4768097265900218018
+  mod_planet_giga_megaengineering_overseers_alloys_upkeep_add: "£alloys£ $alloys$ 유지 비용: £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]" # 7022374944003392656
+  mod_planet_giga_megaengineering_overseers_ehof_sr_sentient_metal_upkeep_add: "£job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]의 £ehof_sr_sentient_metal£ $ehof_sr_sentient_metal$ 유지 비용" # 14606512355623058252
+  mod_planet_giga_megaengineering_overseers_unity_upkeep_add: "£unity£ $unity$ £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseeing_name_plural]의 유지비" # 11949025364240915215
+  mod_planet_giga_megaengineering_overseers_energy_upkeep_add: "£energy£ $energy$ £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]의 유지비" # 3690634061898753070
+  mod_planet_giga_megaengineering_overseers_minerals_upkeep_add: "$minerals$ £minerals£ [giga_amb_megaengineering_overseer_name_plural] 유지비" # 15455208894126138883
+  mod_planet_giga_megaengineering_overseers_food_upkeep_add: "£food£ $food$ £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]의 유지비" # 5030461568713355593
+  mod_planet_giga_megaengineering_overseers_consumer_goods_upkeep_add: "£consumer_goods£ $consumer_goods$ £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural] 유지비" # 11750617853938542440
+  giga_tooltip_positive: "§G+" # 15288271211863828670
+  giga_tooltip_positive_bad: "§R+" # 1597222694952619232
+  giga_tooltip_negative: "§R" # 16123708913174128434
+  giga_tooltip_negative_good: "§G" # 5159540161339981307
+  giga_tooltip_neutral: "§Y" # 10179514944925197952
+  giga_tooltip_trailing_decimal: ".0" # 13230525842448053830
+  mod_giga_amb_tooltips_minerals_produces_add: "§W--------------§!\n§H세부 정보:§!\n\n£giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§! 수입: [This.giga_amb_income_colour][This.giga_amb_income]§!\n이번 달 잠재적 투자 (비축분 포함): [This.giga_amb_stockpile_drain_colour][This.giga_amb_stockpile_drain]§!\n\n£giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!당 기본 건설 속도: §G+[giga_amb_ratio]§!\n총 기본 건설 속도 (수확 체감 이전): [This.giga_amb_total_progress_colour][This.giga_amb_total_progress]§!\n\n[This.giga_amb_ai_details]§H활성 거대 구조물 건설 프로젝트:§!\n\n비구조물 프로젝트: §Y[This.giga_amb_building_technical]§!\n킬로구조물: §Y[This.giga_amb_building_kilos]§!\n거대 구조물: §Y[This.giga_amb_building_megas]§!\n기가구조물: §Y[This.giga_amb_building_gigas]§!\n\n프로젝트당 기본 건설 속도" # 12705230892872655156
+  mod_giga_amb_tooltips_minerals_cost_mult: "£giga_sr_amb_megaconstruction£ $giga_sr_amb_megaconstruction$이(가) $MOD_MEGASTRUCTURE_BUILD_SPEED_ADD$ 당 필요" # 5833456216665274447
+  giga_amb_ai_details: "AI 건설 상한: §Y[This.giga_amb_ai_limit]§!\n\n" # 4777229418600992978
+  giga_supertensiles_subsidies: "거대 구조물 기여도" # 13777958821665801312
+  giga_supertensiles_subsidies_desc: "이 조항은 종속국이 종주국에게 매달 지불해야 할 의무가 있는 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!의 양을 규정합니다. 이 수치는 종속국의 현재 월간 생산량의 백분율입니다.\n\n음수 값은 종주국이 오히려 종속국에게 지불해야 할 의무가 있음을 의미하지만, 여전히 종속국의 현재 월간 생산량의 백분율을 기반으로 합니다.\n\n§E이 조항은 조건부로 숨겨진 자원 범주가 종속국 합의를 깨뜨리는 엔진 한계로 인해 별도의 범주에 있습니다. 문제가 해결되면 기여 범주로 다시 이동됩니다.§!" # 17674294008433305940
+  giga_resource_subsidies_supertensiles: "초인장 물질" # 15179234397293603803
+  giga_supertensiles_prospectorium_bonus_subject_1: "$mod_country_giga_sr_amb_megaconstruction_produces_mult$: §G+10%§!\n이 보너스는 전문가 등급에 따라 증가합니다." # 7613090376537678130
+  giga_supertensiles_prospectorium_bonus_subject_2: "$mod_country_giga_sr_amb_megaconstruction_produces_mult$: §G+20%§!\n이 보너스는 전문가 등급에 따라 증가합니다." # 590581540161784730
+  giga_supertensiles_prospectorium_bonus_subject_3: "$mod_country_giga_sr_amb_megaconstruction_produces_mult$: §G+30%§!\n이 보너스는 전문가 등급에 따라 증가합니다." # 640352403766940046
+  building_giga_megaworkshop: "분자 주조소" # 6920984667153078744
+  building_giga_megaworkshop_plural: "분자 주조소" # 11493043262214033423
+  building_giga_megaworkshop_desc: "이 시설들은 분자 조립 배열과 티 하나 없는 무균실로 가득 차 있으며, 대규모 궤도 건설 프로젝트에 필요한 고도 특수 재료들을 생산합니다." # 4584273768566869235
+  mod_planet_building_giga_megaworkshop_build_speed_mult: "$building_giga_megaworkshop$ 건설 속도" # 3928739496303125969
+  building_giga_megaworkshop_hub: "거대 건설 물류 허브" # 4874474578103146933
+  building_giga_megaworkshop_hub_plural: "메가건설 물류 허브" # 2867778914876112452
+  building_giga_megaworkshop_hub_desc: "전문가들이 원대한 설계를 실현시키기 위해 거대한 수송선 및 건설선 함대를 지휘하는 동안, 분자 주조소는 막대한 양의 건설 자재를 쏟아냅니다." # 7141284425870669717
+  mod_planet_building_giga_megaworkshop_hub_build_speed_mult: "$building_giga_megaworkshop_hub$ 건설 속도" # 3165158126270285423
+  building_giga_supertensiles_mines: "$giga_sr_amb_megaconstruction$ 추출기" # 16404595105682226305
+  building_giga_supertensiles_mines_plural: "$giga_sr_amb_megaconstruction$ 추출기" # 16404595105682226305
+  building_giga_supertensiles_mines_desc: "드문 경우, 적절한 조건이 갖춰지면 자연적으로 상상하기 힘든 강도의 물질이 형성될 수 있습니다." # 17634073126514410357
+  mod_building_giga_supertensiles_mines_max: "최대 $building_giga_supertensiles_mines$" # 14906363293559599255
+  building_giga_living_metal_infusion_plant: "생체 금속 주입 공장" # 7086305451483829460
+  building_giga_living_metal_infusion_plant_plural: "생체 금속 주입 시설" # 7838876801766405004
+  building_giga_living_metal_infusion_plant_desc: "생체 금속의 재생 특성을 우리 제조 공정에 통합하는 것은 심우주 건설 사업에 큰 도움이 될 것입니다." # 10445964988809719414
+  building_giga_fe_megaworkshop: "나노 조립기" # 9841318928451195570
+  building_giga_fe_megaworkshop_plural: "나노 조립기" # 6826522621187440389
+  building_giga_fe_megaworkshop_desc: "거대한 분자 합성 배열이 복제기 베이와 함께 작동하여 원광석을 가공해 궤도 건설용 재료로 만들어냅니다." # 5645126602815895077
+  building_giga_fe_megaworkshop_2: "다원자 도가니" # 3120037269142983909
+  building_giga_fe_megaworkshop_2_plural: "다원자 도가니" # 8225287053583836590
+  building_giga_fe_megaworkshop_2_desc: "이 시설들은 중력을 왜곡하여 한때 불가능하다고 여겨졌던 안정적인 배열로 원자를 결합시킵니다." # 4971851813562446325
+  holding_giga_megaworkshop: "거대 물류 수출 부두" # 18183737109987874814
+  holding_giga_megaworkshop_plural: "거대 물류 수출 부두" # 18183737109987874814
+  holding_giga_megaworkshop_desc: "외계 제국이 소유한 분자 주조소는 현지 자원을 이용해 먼 건설 프로젝트에 자원을 공급합니다. 일부는 심지어 이를 허영심의 프로젝트라고 부를 수도 있습니다." # 15022593720170508037
+  ove_requires_giga_tech_amb_supertensiles: "$overlord_has_technology$ £physics£ §Y$giga_tech_amb_supertensiles$§!" # 5475475063810376490
+  planet_giga_megaengineers: "거대 건설직" # 11826850893027291537
+  planet_giga_megaengineers_job: "슈퍼텐실 기술자 일자리" # 12783915326581607147
+  planet_giga_megaengineering_overseers: "거대 건축 관리자 직업" # 11972772147335058270
+  planet_giga_overlord_megaengineers: "오버로드 초인장 공학자" # 2360982242932220587
+  job_giga_megaengineer: "초인장 기술자" # 1074653599818849356
+  job_giga_megaengineer_plural: "초인장 기술자" # 636720255194224101
+  job_giga_megaengineer_desc: "대규모 우주 건설에 사용되는 특수 자재는 그에 상응하는 전문 인력을 필요로 합니다." # 1123511006417538015
+  job_giga_megaengineer_effect_desc: "£job_giga_megaengineer£ $job_giga_megaengineer_plural$는 £alloys£ §Y$alloys$§!와 £unity£ §Y$unity$§!를 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!으로 전환합니다." # 3809545440853170107
+  mod_job_giga_megaengineer_add: "$job_giga_megaengineer$ 일자리" # 1738862431839874112
+  mod_job_giga_megaengineer_per_pop: "§G+1§! $VALUE$ 팝당 $job_giga_megaengineer$ 일자리" # 12398150394531720018
+  mod_job_giga_megaengineer_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineer_add£ $VALUE$ £pop£당" # 2210227575030741259
+  job_giga_megaengineer_drone: "슈퍼텐사일 드론" # 12243721433463812209
+  job_giga_megaengineer_drone_plural: "슈파텐사일즈 드론" # 11887340349216211269
+  job_giga_megaengineer_drone_desc: "대규모 우주 건설에 사용되는 특수 자재는 그에 상응하는 전문 인력을 필요로 합니다." # 1123511006417538015
+  job_giga_megaengineer_drone_effect_desc: "£job_giga_megaengineer_drone£ $job_giga_megaengineer_drone_plural$은 £alloys£ §Y$alloys$§!와 £unity£ §Y$unity$§!를 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!으로 변환합니다." # 4840515741318697508
+  mod_job_giga_megaengineer_drone_add: "$job_giga_megaengineer_drone$ 직업" # 802061098373771861
+  mod_job_giga_megaengineer_drone_per_pop: "§G+1§! $VALUE$ 팝당 $job_giga_megaengineer_drone$ 일자리" # 16323563221819400402
+  mod_job_giga_megaengineer_drone_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineer_add£ $VALUE$ £pop£당" # 2210227575030741259
+  job_giga_amb_fe_acolyte_foundry: "주조소의 시종" # 9232760574046795330
+  job_giga_amb_fe_acolyte_foundry_plural: "주조소의 추종자들" # 7031114450097720526
+  job_giga_amb_fe_acolyte_foundry_desc: "이제 조선공 이오작의 업적을 고려해보십시오. 그는 우리에게 빛나는 실을 주었고, 거기서부터 위대한 은빛 돛이 짜여져 순례선들을 태워 보냈습니다." # 2838150522327333055
+  job_giga_amb_fe_acolyte_foundry_effect_desc: "£job_giga_amb_fe_acolyte_foundry£ $job_giga_amb_fe_acolyte_foundry_plural$는 £alloys£ §Y$alloys$§!와 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!를 생산합니다." # 6930735900066248219
+  mod_job_giga_amb_fe_acolyte_foundry_add: "$job_giga_amb_fe_acolyte_foundry$ 일자리" # 11341448058993312035
+  mod_job_giga_amb_fe_acolyte_foundry_per_pop: "팝 $VALUE$당 $job_giga_amb_fe_acolyte_foundry$ 일자리 §G+1§!" # 4448572512243199801
+  mod_job_giga_amb_fe_acolyte_foundry_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineer_add£ $VALUE$ £pop£당" # 2210227575030741259
+  job_giga_megaengineering_overseer: "거대 건설 감독관" # 7786256961325003794
+  job_giga_megaengineering_overseer_plural: "메가건설 감독관" # 6046872905970551655
+  job_giga_megaengineering_overseer_desc: "이 귀하디귀한 과학자들은 그 분야 최정상급으로, 우주 건설 및 초대형 물류 프로젝트 분야 최고의 전문가들입니다." # 7389246734312827228
+  job_giga_megaengineering_overseer_effect_desc: "대량의 £alloys£ §Y$alloys$§!와 £unity£ §Y$unity$§!를 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!으로 변환하지만, 유지비가 증가합니다." # 9055694382438519295
+  mod_job_giga_megaengineering_overseer_add: "$job_giga_megaengineering_overseer$ 직업" # 8110311981102520809
+  mod_job_giga_megaengineering_overseer_per_pop: "§G+1§! $job_giga_megaengineering_overseer$ 일자리 $VALUE$ 팝당" # 1035898275650257657
+  mod_job_giga_megaengineering_overseer_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineering_overseer_add£ $VALUE$ £pop£ 당" # 17253800956281599445
+  job_giga_megaengineering_overseer_drone: "거대구조물 건설 감독관" # 11710472946234361478
+  job_giga_megaengineering_overseer_drone_plural: "거대 구조물 건설 감독관" # 15237785669775926684
+  job_giga_megaengineering_overseer_drone_desc: "이 고도로 전문화된 드론 클러스터는 초대규모 건설 및 물류 프로젝트 관리에 필요한 엄청난 양의 처리 작업을 감당합니다." # 13418597053418582260
+  job_giga_megaengineering_overseer_drone_effect_desc: "£job_giga_megaengineering_overseer_drone£ $job_giga_megaengineering_overseer_drone_plural$은 대량의 £alloys£ §Y$alloys$§!와 £unity£ §Y$unity$§!를 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!으로 변환하지만 유지비가 증가합니다." # 8674880329842902983
+  mod_job_giga_megaengineering_overseer_drone_add: "$job_giga_megaengineering_overseer_drone$ 직업" # 17550521675320044496
+  mod_job_giga_megaengineering_overseer_drone_per_pop: "§G+1§! $job_giga_megaengineering_overseer_drone$ 직업 $VALUE$ 팝당" # 16561606138911856345
+  mod_job_giga_megaengineering_overseer_drone_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineering_overseer_add£ $VALUE$ £pop£ 당" # 17253800956281599445
+  job_giga_amb_fe_celestial_architect: "천체 건축가" # 14653617179556973311
+  job_giga_amb_fe_celestial_architect_plural: "천상의 건축가" # 6279526999677665475
+  job_giga_amb_fe_celestial_architect_desc: "우주 그 자체를 빚는 것은 위대한 영예이며, 동시에 그보다 훨씬 더 큰 책임입니다." # 16246493239394147177
+  job_giga_amb_fe_celestial_architect_effect_desc: "£job_giga_amb_fe_celestial_architect£ $job_giga_amb_fe_celestial_architect_plural$가 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§를 대량 생산합니다!" # 16588916451539692287
+  mod_job_giga_amb_fe_celestial_architect_add: "$job_giga_amb_fe_celestial_architect$ 직업" # 11638335938887374275
+  mod_job_giga_amb_fe_celestial_architect_per_pop: "§G+1§! $job_giga_amb_fe_celestial_architect$ 직업 $VALUE$ 팝당" # 3256498762314246587
+  mod_job_giga_amb_fe_celestial_architect_per_pop_short: "\n§G+1§! £mod_job_giga_amb_fe_celestial_architect_add£ 당 $VALUE$ £pop£" # 8179796831476745091
+  job_giga_supertensiles_extractor: "초인장 추출기" # 3276144512000081169
+  job_giga_supertensiles_extractor_plural: "슈퍼텐사일 추출기" # 11051455869373020552
+  job_giga_supertensiles_extractor_desc: "정밀 채굴 장비와 화학 처리 기술이 자연적이고 혼돈된 상태의 초인장 소재를 해체하는 데 사용됩니다." # 7812663962716419309
+  job_giga_supertensiles_extractor_effect_desc: "£job_giga_supertensiles_extractor£ $job_giga_supertensiles_extractor_plural$는 £giga_sr_amb_megaconstruction£을(를) §Y$giga_sr_amb_megaconstruction$§ 생산합니다!" # 17923276423791874066
+  mod_job_giga_supertensiles_extractor_add: "$job_giga_supertensiles_extractor$ 일자리" # 16172901230464306419
+  mod_job_giga_supertensiles_extractor_per_pop: "§G+1§! $job_giga_supertensiles_extractor$ 일자리 $VALUE$ 팝마다" # 10397356987340276039
+  mod_job_giga_supertensiles_extractor_per_pop_short: "\n§G+1§! £mod_job_giga_supertensiles_extractor_add£ $VALUE$ 팝마다" # 15915812942662642787
+  job_giga_supertensiles_extractor_drone: "슈퍼텐사일 채취 드론" # 18208440098973646709
+  job_giga_supertensiles_extractor_drone_plural: "수퍼텐사일 추출 드론" # 4337680270797355134
+  job_giga_supertensiles_extractor_drone_desc: "정밀 채굴 장비와 화학 처리 기술이 자연적이고 혼돈된 상태의 초인장 소재를 해체하는 데 사용됩니다." # 7812663962716419309
+  job_giga_supertensiles_extractor_drone_effect_desc: "£job_giga_supertensiles_extractor_drone£ $job_giga_supertensiles_extractor_drone_plural$은/는 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!를 생산합니다." # 11193230559730131229
+  mod_job_giga_supertensiles_extractor_drone_add: "$job_giga_supertensiles_extractor_drone$ 일자리" # 1274841808627527497
+  mod_job_giga_supertensiles_extractor_drone_per_pop: "§G+1§! $job_giga_supertensiles_extractor_drone$ 일자리 $VALUE$ 팝당" # 18138115794681182345
+  mod_job_giga_supertensiles_extractor_drone_per_pop_short: "\n§G+1§! £mod_job_giga_supertensiles_extractor_add£ $VALUE$ 팝마다" # 15915812942662642787
+  job_giga_overlord_megaengineer: "오버로드 초강력 인장 섬유 기술자" # 1165109881129746448
+  job_giga_overlord_megaengineer_plural: "오버로드 초인장 공학자" # 2360982242932220587
+  job_giga_overlord_megaengineer_desc: "$job_giga_megaengineer_desc$" # 16036733350835034202
+  job_giga_overlord_megaengineer_effect_desc: "£지배자 메가엔지니어£ $job_giga_overlord_megaengineer_plural$는 속국의 £합금£ §Y$alloys$§!과 £통합£ §Y$unity$§!을 패권국을 위한 £거대 구조물£ §Y$giga_sr_amb_megaconstruction$§!으로 변환합니다." # 15552130112365981933
+  mod_job_giga_overlord_megaengineer_add: "거대 공학 총책임자 직업" # 13855528446647495910
+  mod_job_giga_overlord_megaengineer_per_pop: "$VALUE$ 팝당 §G+1§! $job_giga_overlord_megaengineer$ 일자리" # 5869143513831144417
+  mod_job_giga_overlord_megaengineer_per_pop_short: "\n§G+1§! £mod_job_giga_overlord_megaengineer_add£ $VALUE$ £pop£당" # 18187939068277038823
+  job_giga_overlord_megaengineer_drone: "대군주 초인장 공학 드론" # 15266883475337887271
+  job_giga_overlord_megaengineer_drone_plural: "초월자 초강력 섬유 공학 드론" # 2611875213234467674
+  job_giga_overlord_megaengineer_drone_desc: "$job_giga_megaengineer_drone_desc$" # 18086390126109819020
+  job_giga_overlord_megaengineer_drone_effect_desc: "£job_giga_overlord_megaengineer_drone£ $job_giga_overlord_megaengineer_drone_plural$는 종속국의 £alloys£ §Y$alloys$§!와 £unity£ §Y$unity$§!를 지배자를 위한 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!으로 변환합니다." # 18328519405632510641
+  mod_job_giga_overlord_megaengineer_drone_add: "$job_giga_overlord_megaengineer_drone$ 일자리" # 17672308281019341585
+  mod_job_giga_overlord_megaengineer_drone_per_pop: "$VALUE$ 팝 당 $job_giga_overlord_megaengineer_drone$ 직업 §G+1§!" # 13336699428217656075
+  mod_job_giga_overlord_megaengineer_drone_per_pop_short: "\n§G+1§! £mod_job_giga_overlord_megaengineer_add£ $VALUE$ £pop£당" # 18187939068277038823
+  giga_amb_base: "직업 기반 거대 건축 메커니즘" # 1506655330105622906
+  giga_amb_base_tooltip: "우리의 $MOD_MEGASTRUCTURE_BUILD_SPEED_ADD$는 우리 제국의 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§! 소득에 기반합니다.\n\n매달, 하나 이상의 거대 구조물이 건설될 때, 우리 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§! 소득의 두 배까지가 우리 비축량에서 차감되고 $MOD_MEGASTRUCTURE_BUILD_SPEED_ADD$(으)로 변환됩니다. 이 값은 그 후 건설 중인 모든 거대 구조물 사이에 분배되며, 분배된 §Y후§! 체감 효과가 적용됩니다.\n\n속도가 어떻게 계산되는지에 대한 자세한 내용은 §Y$giga_amb_speed$§! 국가 특수 효과를 참조하십시오." # 14618306765248842628
+  giga_amb_base_desc: "§L별들 그 자체를 초월하기 위해서는 숙련된 인원과 특수 자재가 필요합니다.§!" # 3093252521975257825
+  giga_amb_storage_capacity: "$giga_sr_amb_megaconstruction$ 저장 용량" # 9560568342702455621
+  giga_amb_storage_capacity_tooltip: "£giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!의 저장 용량은 제한되어 있으며 일반적인 £mod_country_resource_max_add£ §Y$MOD_COUNTRY_RESOURCE_MAX_ADD$§! 수정치로 증가하지 않습니다" # 1388564811257500777
+  giga_amb_storage_capacity_desc: "§L희귀하고 귀중하므로, 우리의 가장 발전된 재료를 각별한 주의를 기울여 보관해야 합니다.§!" # 1725895052357895332
+  giga_amb_speed: "메가건설 속도" # 10040394919235580295
+  giga_amb_speed_desc: "§L전문가와 물자가 제한적이므로, 어디에 배치할지 신중하게 선택해야 합니다.§!" # 2240973370161312781
+  giga_amb_flat_replacement: "메가건축 호환성" # 937154271330756607
+  giga_amb_flat_replacement_desc: "다른 모드가 $MOD_MEGASTRUCTURE_BUILD_SPEED_ADD$를 제공합니다. 이 수정자는 그것을 무효화하고 작업 기반 거대구조 건설 시스템에 적합한 대체 보너스를 제공합니다.\n\n§W--------------§!\n§L거대 규모 방법론에 대한 간결한 수정.§!" # 18007654941394946527
+  giga_amb_ai_limit: "AI 거대 구조물 건설 한계" # 6051519671105558709
+  giga_amb_ai_limit_tooltip: "AI는 건설 속도를 여러 프로젝트에 분산하는 개념을 이해하지 못하며, 이용 가능한 프로젝트가 많을 때 건설 속도를 너무 얇게 분산시키는 경향이 있기 때문에, AI가 동시에 건설할 수 있는 거대 구조물의 수를 인위적으로 제한합니다.\n\n최대 상한에 도달했을 때 일반적으로 프로젝트당 0.75-0.5 속도를 유지하려고 시도합니다. 매년 업데이트됩니다.\n\n상한 값은 §Y$giga_amb_speed$§! 국가 수정자를 참조하십시오." # 4384824470420885846
+  giga_amb_ai_limit_desc: "§L\\\"왜 10개의 링 월드 구역을 1.4의 속도로 건설하고 있는 건가?!\\\" - TTFTCUTS§!" # 13718901328820671951
+  giga_amb_empire_size_penalty: "거대 구조물 제국 규모 패널티" # 3604850412500546580
+  giga_amb_empire_size_penalty_desc: "§L행정 부담이 증가함에 따라 우리 행성들 간 프로젝트 조정이 더욱 다루기 어려워집니다.§!" # 8706119829778139191
+  giga_amb_starting_megas_upkeep_offset: "초기 거대 구조물 유지비 지원" # 1137954350452344456
+  giga_amb_starting_megas_upkeep_offset_desc: "게임 시작 시 소유한 거대 구조물의 기본 유지비 $giga_sr_amb_megaconstruction$를 지불합니다.\n\n§L가장 중요한 우주 시설을 유지보수하지 않은 채 방치하는 것은 순전한 태만이 될 것입니다.§!" # 1443535329207504924
+  giga_sr_amb_megaconstruction: "초인장 재료" # 15685456729277688308
+  giga_sr_amb_megaconstruction_desc_only: "엄청난 수준의 인장 응력을 견딜 수 있는 이러한 첨단 소재는 최대 규모의 우주 시설 건설에 필수적입니다." # 508761097592688423
+  giga_sr_amb_megaconstruction_desc: "$giga_sr_amb_megaconstruction_desc_only$\n\n§L이 자원은 기가스트럭처 사용자 설정 메뉴의 §Y거대 구조물 건설 한계§! 옵션이 §Y직업 기반§!으로 설정된 경우 사용됩니다.§!" # 4021527804464042625
+  giga_tech_amb_supertensiles: "응용 초인장 섬유" # 7826192161418631781
+  giga_tech_amb_supertensiles_desc: "개선된 분자 합성 방법 덕분에 상상하기 거의 불가능한 인장 강도를 가진 물질의 실용적인 응용이 가능해졌습니다." # 17021512071116595469
+  giga_tech_amb_living_metal_infusion: "생체 금속 주입 과정" # 16185462880039526483
+  giga_tech_amb_living_metal_infusion_desc: "생체 금속의 재생 특성은 이론적으로 우리 분자 주조소의 품질과 생산량을 향상시키기 위해 활용될 수 있습니다." # 15981329983441215833
+  giga_tech_amb_sentient_metal_molecular_foundries: "지각 금속 산업용 나노 컴퓨팅" # 274300195229251169
+  giga_tech_amb_sentient_metal_molecular_foundries_desc: "지각 있는 금속의 나노 규모 연산 능력을 활용하는 처리 장비는 분자 조립소 처리량의 극적인 향상으로 이어질 수 있습니다." # 8674609000370635883
+  giga_tech_orbital_ring_supertensiles_mine_hub: "무중력 분자 클린룸 설계" # 12408216842237947954
+  giga_tech_orbital_ring_supertensiles_mine_hub_desc: "우리 궤도 고리에 있는 $giga_sr_amb_megaconstruction$를 위한 전용 처리 공간은 국지적 추출 및 처리 작업을 상당히 증대시킬 수 있는 잠재력을 가지고 있습니다." # 3445875842571102421
+  giga_tech_fe_megaworkshop_1: "$building_giga_fe_megaworkshop$" # 6911136002297212049
+  giga_tech_fe_megaworkshop_1_desc: "$building_giga_fe_megaworkshop_desc$" # 14985904980437436147
+  giga_tech_fe_megaworkshop_2: "$building_giga_fe_megaworkshop_2$" # 4415311323307959421
+  giga_tech_fe_megaworkshop_2_desc: "$building_giga_fe_megaworkshop_2_desc$" # 6008291388193351819
+  district_giga_supertensiles: "분자 조립 지구" # 14956365769512966470
+  district_giga_supertensiles_plural: "분자 주조 지구" # 7129228015005755659
+  district_giga_supertensiles_desc: "$building_giga_megaworkshop_desc$" # 4875778303558754267
+  d_giga_amb_start_bonus: "메가건설 자재 저장소" # 17511516220841371144
+  d_giga_amb_start_bonus_desc: "§W이 매장지에서 제공되는 자원은 시간이 지남에 따라 감소하여 게임 중반까지는 아주 적은 양만 남게 될 것입니다. 현명하게 사용하십시오.§!\n§W--------------§!\n대규모 우주 건설에 적합한 건설 자재 저장고입니다. 안타깝게도 영원히 지속되지는 않을 것입니다..." # 9624435773759491389
+  d_giga_hab_supertensiles_1: "$giga_sr_amb_megaconstruction$ 매장지" # 16689990188930382329
+  d_giga_hab_supertensiles_1_desc: "이 서식지 복합체는 채굴 가능한 초인장 물질 매장지 근처에 건설되었습니다." # 6242953698440389794
+  d_giga_lifeless_supertensiles_1: "$giga_sr_amb_megaconstruction$ 매장지" # 16689990188930382329
+  d_giga_lifeless_supertensiles_1_desc: "이 행성에는 채취 가능한 초인장 재료 원천이 있습니다." # 90282677506191932
+  col_giga_supertensiles_foundry: "메가 물류 센터" # 1694486683878003162
+  col_giga_supertensiles_foundry_desc: "이 행성은 심우주 건설 프로젝트에 집중하는 제조 및 물류 중심지입니다." # 11606720091370200460
+  col_giga_habitat_supertensiles_foundry: "메가 물류 기지" # 9002396866712964217
+  col_giga_habitat_supertensiles_foundry_desc: "거대 구조물 제작에 전념하는 인공 심우주 아콜로지" # 17583970605524781901
+  edict_giga_amb_sentient_metal_supertensiles: "생체 금속 지원 분자 주조 공장" # 17906998781836221082
+  edict_giga_amb_sentient_metal_supertensiles_desc: "지각 있는 금속의 적응 속성은 초인장성 재료 제조에 여러 잠재적 응용 분야를 가집니다.\n\n£job_giga_megaengineer£ §Y$job_giga_megaengineer_plural$§!의 기본 생산량과 유지비를 §Y50%§!만큼 개선합니다.\n\n£job_giga_megaengineering_overseer£ §Y$job_giga_megaengineering_overseer_plural$§!의 기본 생산량과 유지비를 §Y20%§!만큼 개선합니다.\n\n두 직업의 £alloys£ $alloys$ 유지비 §Y절반§!을 £ehof_sr_sentient_metal£ §Y$ehof_sr_sentient_metal$§!로 대체합니다." # 4635666689337846235
+  giga_amb.1000.name: "§Y[FromFrom.GetName]§!: 전략 자원 발견됨" # 3949312322395708890
+  giga_amb.1000.has_tech: "[Root.GetName]은(는) [FromFrom.GetName]에서 이전에는 알려지지 않았던 §H$giga_sr_amb_megaconstruction$§의 근원을 발견했습니다! 자연에서는 불가능하다고 여겨졌던 이 믿을 수 없을 정도로 강한 사슬형 분자들이 매우 특정한 조건 하에서 실제로 형성될 수 있는 것으로 보입니다. 이 새로운 발견은 우리의 인공 초인장 물질 생산량을 보충하는 데 활용될 수 있을 것입니다." # 9915704808546341035
+  giga_amb.1000.no_tech: "[Root.GetName]이(가) [FromFrom.GetName]에서 이전에 알려지지 않은 전략 자원을 발견했습니다. §H$giga_sr_amb_megaconstruction$§!이라 명명된 이 조밀하게 엮인 섬유는 엄청난 수준의 인장 강도를 지니고 있어, 극복하기 어려운 힘으로 인해 이전에 건설이 불가능했던 대규모 프로젝트에 활용될 수 있습니다." # 4672253096696554088
+  giga_amb.1000.tooltip: "£giga_sr_amb_megaconstruction£§Y$giga_sr_amb_megaconstruction$§!\n§E$giga_sr_amb_megaconstruction_desc_only$§!" # 8795514202584102967
+  giga_amb.1001.name: "병참 오판" # 11285477022387621215
+  giga_amb.1001.desc: "우리가 우주 공간으로 첫 발을 내디뎠을 때, 우리는 극복해야 할 새로운 난관들이 있으리란 것을 알고 있었고 그에 맞춰 계획을 세웠습니다. 아니, 적어도 그렇게 생각했습니다. 때로는 문제의 복잡성에 대한 최고의 예측마저도 틀릴 수 있습니다.\n\n대규모 우주 건설을 조직하고 실행하는 현실은 초기 예상보다 우리의 보급선에 더 큰 부담을 주는 것으로 드러났으며, 앞으로 상당한 구조 개편이 필요할 것입니다.\n\n새로운 제조 및 배치 기술에 대한 잠재적인 연구 분야가 이러한 문제들을 해결할 수 있다고 약속하지만, 아직 검증되지 않았습니다." # 17094375310437379617
+  giga_amb.1001.tooltip: "\n§E§Y$giga_tech_amb_supertensiles$§! 연구는 상당한 초구조체 진전을 이루는 데 §P필수적일§! 것입니다." # 3264314881212097774
+  sm_ring_giga_supertensiles_hub: "메가 물류 네트워크 조정관" # 5871380684546924645
+  sm_ring_giga_supertensiles_hub_desc: "이 궤도 시설은 $sr_living_metal$을 사용하여 생산 공정을 효율화함으로써 우리의 지상 기반 $building_giga_megaworkshop_plural$을 강화하는 데 도움을 주며, 이는 전반적인 생산량 증대로 이어집니다." # 833953237511869567
+  sm_ring_giga_supertensiles_mine_hub: "궤도상 클린룸 시설" # 7599107589391638363
+  sm_ring_giga_supertensiles_mine_hub_desc: "궤도 고리 상의 특수 단계 시설 및 클린룸은 그렇지 않으면 낭비될 추출된 물질을 처리할 수 있게 해줍니다.\n\n§T활성화된 £building£ §Y$building_giga_supertensiles_mines$§! 건물당 +1의 £job_giga_supertensiles_extractor£ §Y초인장 추출§! 일자리를 제공합니다.§!" # 17557659813162214469
+  ring_giga_supertensiles_mine_hub_condition: "§R행성은 최소 하나의 £building£ §Y$building_giga_supertensiles_mines$§! 건물을 지원할 수 있어야 합니다.§!" # 2435259943726961452
+  giga_tech_amb_supertensiles_acot_delta: "암흑 물질 강화 초인장 생산" # 2311423032697263946
+  giga_tech_amb_supertensiles_acot_delta_desc: "암흑 물질 기반의 하드 라이트 시스템은 분자 합성에 혁명을 일으킬 잠재력을 가지고 있습니다." # 14751476324618162080
+  job_giga_megaengineer_acot_delta: "경광 물질 기술" # 1970861506342279933
+  job_giga_megaengineer_acot_delta_plural: "하드라이트 물질 기술" # 1648652229400923220
+  job_giga_megaengineer_acot_delta_desc: "경성광 도구와 암흑 물질 압축 기술은 물질 합성률을 극적으로 향상시켰습니다." # 1120852171913493741
+  job_giga_megaengineer_acot_delta_effect_desc: "£job_giga_megaengineer_acot_delta£ $job_giga_megaengineer_acot_delta_plural$는 £alloys£ §Y$alloys$§!, £unity£ §Y$unity$§!, £sr_dark_matter£ §Y$sr_dark_matter$§!, 그리고 £acot_sr_dark_energy£ §Y$acot_sr_dark_energy$§!를 사용하여 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!를 생산합니다." # 4800086268113978898
+  mod_job_giga_megaengineer_acot_delta_add: "$job_giga_megaengineer_acot_delta$ 직업" # 8516641221903528537
+  mod_job_giga_megaengineer_acot_delta_per_pop: "$VALUE$ 팝마다 §G+1§! $job_giga_megaengineer_acot_delta$ 일자리" # 10481779054056551206
+  mod_job_giga_megaengineer_acot_delta_per_pop_short: "\n$VALUE$ £pop£당 £mod_job_giga_megaengineer_acot_delta_add£ §G+1§!" # 17316238959013051376
+  job_giga_megaengineer_drone_acot_delta: "하드라이트 물질 드론" # 140735203624219899
+  job_giga_megaengineer_drone_acot_delta_plural: "하드라이트 물질 드론" # 10440018539776216528
+  job_giga_megaengineer_drone_acot_delta_desc: "경성광 도구와 암흑 물질 압축 기술은 물질 합성률을 극적으로 향상시켰습니다." # 1120852171913493741
+  job_giga_megaengineer_drone_acot_delta_effect_desc: "£job_giga_megaengineer_drone_acot_delta£ $job_giga_megaengineer_drone_acot_delta_plural$는 £alloys£ §Y$alloys$§!, £unity£ §Y$unity$§!, £sr_dark_matter£ §Y$sr_dark_matter$§!, 그리고 £acot_sr_dark_energy£ §Y$acot_sr_dark_energy$§!를 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!로 변환합니다." # 2528437830606204075
+  mod_job_giga_megaengineer_drone_acot_delta_add: "$job_giga_megaengineer_drone_acot_delta$ 일자리" # 3574936646172218815
+  mod_job_giga_megaengineer_drone_acot_delta_per_pop: "§G+1§! $job_giga_megaengineer_drone_acot_delta$ 일자리 ($VALUE$ 팝당)" # 3930948233447892682
+  mod_job_giga_megaengineer_drone_acot_delta_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineer_drone_acot_delta_add£당 $VALUE$ £pop£" # 15136573805736159135
+  job_giga_megaengineering_overseer_acot_delta: "거대 건축 지배자" # 6804011318545272235
+  job_giga_megaengineering_overseer_acot_delta_plural: "거대 구조물 건설 통치자" # 9549114323674078149
+  job_giga_megaengineering_overseer_acot_delta_desc: "선구자와 그들의 거대한 건설 사업이 남긴 발자취를 따라, 우리 전문가들 또한 이 분야에서 성과를 거두고 있습니다." # 16054045623015931014
+  job_giga_megaengineering_overseer_acot_delta_effect_desc: "£job_giga_megaengineering_overseer_acot_delta£ $job_giga_megaengineering_overseer_acot_delta_plural$는 많은 양의 £alloys£ §Y$alloys$§!, £unity£ §Y$unity$§!, £sr_dark_matter£ §Y$sr_dark_matter$§!, 그리고 £acot_sr_dark_energy£ §Y$acot_sr_dark_energy$§!를 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!로 전환하지만 유지비가 증가합니다" # 17831793624945825333
+  mod_job_giga_megaengineering_overseer_acot_delta_add: "$job_giga_megaengineering_overseer_acot_delta$ 직업" # 11791097073678023059
+  mod_job_giga_megaengineering_overseer_acot_delta_per_pop: "§G+1§! $VALUE$ 팝당 $job_giga_megaengineering_overseer_acot_delta$ 직업" # 8931297674787683384
+  mod_job_giga_megaengineering_overseer_acot_delta_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineering_overseer_acot_delta_add£ 당 $VALUE$ £pop£" # 11359608316252677849
+  job_giga_megaengineering_overseer_drone_acot_delta: "거대 건설 정신체" # 13332105869986003712
+  job_giga_megaengineering_overseer_drone_acot_delta_plural: "거대 구조물 집단 의식" # 3861875194811321139
+  job_giga_megaengineering_overseer_drone_acot_delta_desc: "선구자와 그들의 거대한 건설 사업이 남긴 발자취를 따라, 우리 전문가들 또한 이 분야에서 성과를 거두고 있습니다." # 16054045623015931014
+  job_giga_megaengineering_overseer_drone_acot_delta_effect_desc: "£job_giga_megaengineering_overseer_drone_acot_delta£ $job_giga_megaengineering_overseer_drone_acot_delta_plural$은 많은 양의 £alloys£ §Y$alloys$§!, £unity£ §Y$unity$§!, £sr_dark_matter£ §Y$sr_dark_matter$§!, 그리고 £acot_sr_dark_energy£ §Y$acot_sr_dark_energy$§!를 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!으로 변환하지만 유지비가 증가합니다." # 15377886001005982521
+  mod_job_giga_megaengineering_overseer_drone_acot_delta_add: "$job_giga_megaengineering_overseer_drone_acot_delta$ 직업" # 13403481635785246975
+  mod_job_giga_megaengineering_overseer_drone_acot_delta_per_pop: "$VALUE$ 팝당 §G+1§! $job_giga_megaengineering_overseer_drone_acot_delta$ 일자리" # 17666862981254253016
+  mod_job_giga_megaengineering_overseer_drone_acot_delta_per_pop_short: "\n팝 $VALUE$당 £mod_job_giga_megaengineering_overseer_drone_acot_delta_add£ §G+1§!" # 7651844611127624716
+  building_giga_megaworkshop_acot_delta: "암흑 분자 주조소" # 6788357088947524383
+  building_giga_megaworkshop_acot_delta_plural: "암흑 분자 제조창" # 1141643239125491849
+  building_giga_megaworkshop_acot_delta_desc: "경화광 기술은 이전의 어떤 도구보다 더 정밀하고 유연한 원자 집게를 우리에게 주었습니다." # 13170580327655930658
+  mod_planet_building_giga_megaworkshop_acot_delta_build_speed_mult: "$building_giga_megaworkshop_acot_delta$ 건설 속도" # 11595969320996587795
+  building_giga_megaworkshop_hub_acot_delta: "델타 메가건설 물류 허브" # 16010187915635898104
+  building_giga_megaworkshop_hub_acot_delta_plural: "델타 메가건설 물류 허브" # 3180099414699408417
+  building_giga_megaworkshop_hub_acot_delta_desc: "암흑 물질 테더와 중력 싱크 덕분에 막대한 양의 물질을 쉽게 들어 올릴 수 있게 되었습니다. 우리의 궤도 건설 프로젝트가 그 어느 때보다 순조롭게 진행되고 있습니다." # 6983004802725922845
+  mod_planet_building_giga_megaworkshop_hub_acot_delta_build_speed_mult: "$building_giga_megaworkshop_hub_acot_delta$ 건설 속도" # 4960108059163704896
+  giga_tech_amb_supertensiles_acot_alpha: "알파 프로젝트 거대 건설 방법론" # 15271902571695600512
+  giga_tech_amb_supertensiles_acot_alpha_desc: "선구자 물질 디자인에 대한 분석은 분자 제조 분야에서 우리를 새로운 경지로 이끌었습니다." # 5402648839882057079
+  job_giga_megaengineer_acot_alpha: "알파 물질 합성기" # 4711081196897578819
+  job_giga_megaengineer_acot_alpha_plural: "알파 물질 합성체" # 11043713545899462743
+  job_giga_megaengineer_acot_alpha_desc: "암흑 에너지 기반 합성 기술 덕분에 초고강도 물질 생산의 속도와 품질이 향상되었습니다." # 14850640035514310618
+  job_giga_megaengineer_acot_alpha_effect_desc: "£job_giga_megaengineer_acot_alpha£ $job_giga_megaengineer_acot_alpha_plural$는 £alloys£ §Y$alloys$§!, £unity£ §Y$unity$§!, £sr_dark_matter£ §Y$sr_dark_matter$§!, 그리고 £acot_sr_dark_energy£ §Y$acot_sr_dark_energy$§!를 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!으로 생산합니다!" # 4272770342576803921
+  mod_job_giga_megaengineer_acot_alpha_add: "$job_giga_megaengineer_acot_alpha$ 직업" # 8943060604596963182
+  mod_job_giga_megaengineer_acot_alpha_per_pop: "§G+1§! $job_giga_megaengineer_acot_alpha$ 일자리($VALUE$ 팝당)" # 14612992722826780630
+  mod_job_giga_megaengineer_acot_alpha_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineer_acot_alpha_add£ $VALUE$ £pop£당" # 13090366120097029927
+  job_giga_megaengineer_drone_acot_alpha: "알파 물질 드론" # 13800014515509541089
+  job_giga_megaengineer_drone_acot_alpha_plural: "알파 물질 드론" # 2032450256642862662
+  job_giga_megaengineer_drone_acot_alpha_desc: "암흑 에너지 기반 합성 기술 덕분에 초고강도 물질 생산의 속도와 품질이 향상되었습니다." # 14850640035514310618
+  job_giga_megaengineer_drone_acot_alpha_effect_desc: "£job_giga_megaengineer_drone_acot_alpha£ $job_giga_megaengineer_drone_acot_alpha_plural$는 £alloys£ §Y$alloys$§!, £unity£ §Y$unity$§!, £sr_dark_matter£ §Y$sr_dark_matter$§!, 그리고 £acot_sr_dark_energy£ §Y$acot_sr_dark_energy$§!를 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!로 전환합니다." # 10409793544451435154
+  mod_job_giga_megaengineer_drone_acot_alpha_add: "$job_giga_megaengineer_drone_acot_alpha$ 일자리" # 7654222827210229857
+  mod_job_giga_megaengineer_drone_acot_alpha_per_pop: "§G+1§! $VALUE$ 팝당 $job_giga_megaengineer_drone_acot_alpha$ 일자리" # 12688067167531896988
+  mod_job_giga_megaengineer_drone_acot_alpha_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineer_drone_acot_alpha_add£ 당 $VALUE$ £pop£" # 13105059669250547345
+  job_giga_megaengineering_overseer_acot_alpha: "알파 메가건축 패왕" # 1569919242300945126
+  job_giga_megaengineering_overseer_acot_alpha_plural: "알파 거대구조물 건설 지배자들" # 18281233244422604813
+  job_giga_megaengineering_overseer_acot_alpha_desc: "한계를 더욱 극한으로 밀어붙이며, 우리의 거대 건설 전문가들은 이제 선구자들조차 상상하지 못했던 것들을 계획하고 있습니다." # 4031990787884110338
+  job_giga_megaengineering_overseer_acot_alpha_effect_desc: "£job_giga_megaengineering_overseer_acot_alpha£ $job_giga_megaengineering_overseer_acot_alpha_plural$은 £alloys£ §Y$alloys$§!, £unity£ §Y$unity$§!, £sr_dark_matter£ §Y$sr_dark_matter$§!, £acot_sr_dark_energy£ §Y$acot_sr_dark_energy$§!를 대량 소모하여 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!을 생산하지만 유지비가 증가합니다." # 7005346161244786233
+  mod_job_giga_megaengineering_overseer_acot_alpha_add: "$job_giga_megaengineering_overseer_acot_alpha$ 직업" # 2737811724109116422
+  mod_job_giga_megaengineering_overseer_acot_alpha_per_pop: "§G+1§! $job_giga_megaengineering_overseer_acot_alpha$ 일자리 $VALUE$ 팝당" # 462584238874839924
+  mod_job_giga_megaengineering_overseer_acot_alpha_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineering_overseer_acot_alpha_add£ $VALUE$ £pop£당" # 13868140461861451229
+  job_giga_megaengineering_overseer_drone_acot_alpha: "알파 거대 구조물 건설 오버마인드" # 8209455097237488073
+  job_giga_megaengineering_overseer_drone_acot_alpha_plural: "알파 초거대 건설 지배자 정신" # 16756571037344092543
+  job_giga_megaengineering_overseer_drone_acot_alpha_desc: "한계를 더욱 극한으로 밀어붙이며, 우리의 거대 건설 전문가들은 이제 선구자들조차 상상하지 못했던 것들을 계획하고 있습니다." # 4031990787884110338
+  job_giga_megaengineering_overseer_drone_acot_alpha_effect_desc: "£job_giga_megaengineering_overseer_drone_acot_alpha£ $job_giga_megaengineering_overseer_drone_acot_alpha_plural$은 대량의 £alloys£ §Y$alloys$§!, £unity£ §Y$unity$§!, £sr_dark_matter£ §Y$sr_dark_matter$§!와 £acot_sr_dark_energy£ §Y$acot_sr_dark_energy$§!를 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!으로 전환하지만 유지비가 증가합니다." # 2212981460149771212
+  mod_job_giga_megaengineering_overseer_drone_acot_alpha_add: "$job_giga_megaengineering_overseer_drone_acot_alpha$ 직업" # 4199622821947175042
+  mod_job_giga_megaengineering_overseer_drone_acot_alpha_per_pop: "$VALUE$ 팝 당 §G+1§! $job_giga_megaengineering_overseer_drone_acot_alpha$ 일자리" # 7763784582981005211
+  mod_job_giga_megaengineering_overseer_drone_acot_alpha_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineering_overseer_drone_acot_alpha_add£ $VALUE$ £pop£당" # 701597299459305901
+  building_giga_megaworkshop_acot_alpha: "알파 분자 배열" # 8126266586148216956
+  building_giga_megaworkshop_acot_alpha_plural: "알파 분자 배열" # 8126266586148216956
+  building_giga_megaworkshop_acot_alpha_desc: "암흑 에너지 채널링 기술의 추가적인 개발로 더욱 조밀하고 강력한 물질들을 엮어낼 수 있게 되었습니다." # 13750202307171528094
+  mod_planet_building_giga_megaworkshop_acot_alpha_build_speed_mult: "$building_giga_megaworkshop_acot_alpha$ 건설 속도" # 13557018340933203848
+  building_giga_megaworkshop_hub_acot_alpha: "알파 메가건축 물류 허브" # 14525633270432767405
+  building_giga_megaworkshop_hub_acot_alpha_plural: "알파 거대 구조물 물류 거점" # 1849368457730152211
+  building_giga_megaworkshop_hub_acot_alpha_desc: "알파 프로젝트는 선구자들이 사용했던 물류 계획 기술과 그것이 어떻게 개선될 수 있는지에 대한 많은 통찰을 제공했습니다." # 6665580336511713375
+  mod_planet_building_giga_megaworkshop_hub_acot_alpha_build_speed_mult: "$building_giga_megaworkshop_hub_acot_alpha$ 건설 속도" # 12291967401606268965
+  giga_tech_amb_supertensiles_acot_phanon: "룬적 물질 조작 기술" # 9965900292662348191
+  giga_tech_amb_supertensiles_acot_phanon_desc: "룬 에너지의 비의적인 특성은 거대 구조물 건설 분야에서 상당한 발전을 가져올 것으로 기대됩니다." # 1251043332057672008
+  job_giga_megaengineer_acot_phanon: "룬 물질 현자" # 15446700818486604546
+  job_giga_megaengineer_acot_phanon_plural: "룬 물질 대가" # 8741575127311653414
+  job_giga_megaengineer_acot_phanon_desc: "주로 의례적인 칭호이기는 하나, 물질 마법사들은 룬의 힘을 이용해 아원자 수준에서 물질을 조작하는 데 능숙합니다." # 302344556866579155
+  job_giga_megaengineer_acot_phanon_effect_desc: "£job_giga_megaengineer_acot_phanon£ $job_giga_megaengineer_acot_phanon_plural$는 £alloys£ §Y$alloys$§!, £unity£ §Y$unity$§!, £energy£ §Y$energy$§!와 £aot_sr_runic_power£ §Y$aot_sr_runic_power$§!를 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!으로 변환합니다." # 16286713815610586139
+  mod_job_giga_megaengineer_acot_phanon_add: "$job_giga_megaengineer_acot_phanon$ 일자리" # 9456967235581243485
+  mod_job_giga_megaengineer_acot_phanon_per_pop: "§G+1§! $job_giga_megaengineer_acot_phanon$ 일자리 $VALUE$ 팝당" # 9896815086826372065
+  mod_job_giga_megaengineer_acot_phanon_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineer_acot_phanon_add£ $VALUE$ £pop£마다" # 2529074475229657448
+  job_giga_megaengineer_drone_acot_phanon: "룬 문자 물질 조작기" # 862424404145060015
+  job_giga_megaengineer_drone_acot_phanon_plural: "룬 물질 조작기" # 5047538992009831876
+  job_giga_megaengineer_drone_acot_phanon_desc: "이 특수 드론들은 룬 힘을 사용하여 아원자 수준의 물질을 조작하는 데 능숙합니다." # 16907159007586223146
+  job_giga_megaengineer_drone_acot_phanon_effect_desc: "£job_giga_megaengineer_drone_acot_phanon£ $job_giga_megaengineer_drone_acot_phanon_plural$이(가) £alloys£ §Y$alloys$§!, £unity£ §Y$unity$§!, £energy£ §Y$energy$§!, 그리고 £aot_sr_runic_power£ §Y$aot_sr_runic_power$§!를 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!으로 변환합니다." # 6971642011932476272
+  mod_job_giga_megaengineer_drone_acot_phanon_add: "$job_giga_megaengineer_drone_acot_phanon$ 일자리" # 15070842047973372520
+  mod_job_giga_megaengineer_drone_acot_phanon_per_pop: "§G+1§! $job_giga_megaengineer_drone_acot_phanon$ $VALUE$ 팝당" # 11915213506248683009
+  mod_job_giga_megaengineer_drone_acot_phanon_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineer_drone_acot_phanon_add£ $VALUE$ £pop£당" # 13850257663277878335
+  job_giga_megaengineering_overseer_acot_phanon: "거대 구조물 대악마" # 11443227427770354922
+  job_giga_megaengineering_overseer_acot_phanon_plural: "거대 구조물 대 데몬들" # 3532703767817129308
+  job_giga_megaengineering_overseer_acot_phanon_desc: "우리 거대 구조물 건설 작업의 신경 중추로서, 이들은 룬 처리 네트워크를 사용하여 작업 명령을 관리하고 분배하며 헤아릴 수 없는 효율성을 보여줍니다." # 16862986435667081175
+  job_giga_megaengineering_overseer_acot_phanon_effect_desc: "£job_giga_megaengineering_overseer_acot_phanon£ $job_giga_megaengineering_overseer_acot_phanon_plural$는 대량의 £alloys£ §Y$alloys$§!, £unity£ §Y$unity$§!, £energy£ §Y$energy$§!, 그리고 £aot_sr_runic_power£ §Y$aot_sr_runic_power$§!를 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!으로 변환하지만 유지비가 증가합니다" # 17482797710188661590
+  mod_job_giga_megaengineering_overseer_acot_phanon_add: "$job_giga_megaengineering_overseer_acot_phanon$ 직업" # 4645897679182248956
+  mod_job_giga_megaengineering_overseer_acot_phanon_per_pop: "§G+1§! $job_giga_megaengineering_overseer_acot_phanon$ 일자리 (팝 $VALUE$명당)" # 13389411894344068183
+  mod_job_giga_megaengineering_overseer_acot_phanon_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineering_overseer_acot_phanon_add£ 팝 $VALUE$명당" # 376471947814258057
+  job_giga_megaengineering_overseer_drone_acot_phanon: "거대 건축물 데몬 클러스터" # 11371423769895320937
+  job_giga_megaengineering_overseer_drone_acot_phanon_plural: "거대 구조물 데몬 군집" # 7450095589098799579
+  job_giga_megaengineering_overseer_drone_acot_phanon_desc: "우리 메가건축 노력의 중추부인 이 거대한 드론 군집들은 룬 처리 네트워크를 사용하여 작업 명령을 관리하고 분배하며 엄청난 효율성을 발휘합니다." # 1302456978137243680
+  job_giga_megaengineering_overseer_drone_acot_phanon_effect_desc: "£job_giga_megaengineering_overseer_drone_acot_phanon£ $job_giga_megaengineering_overseer_drone_acot_phanon_plural$는 대량의 £alloys£ §Y$alloys$§!, £unity£ §Y$unity$§!, £energy£ §Y$energy$§!, 그리고 £aot_sr_runic_power£ §Y$aot_sr_runic_power$§!를 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!로 전환하지만 유지비가 증가합니다." # 9406983899815491612
+  mod_job_giga_megaengineering_overseer_drone_acot_phanon_add: "$job_giga_megaengineering_overseer_drone_acot_phanon$ 직업" # 1390060483126785702
+  mod_job_giga_megaengineering_overseer_drone_acot_phanon_per_pop: "$VALUE$ 팝 당 §G+1§! $job_giga_megaengineering_overseer_drone_acot_phanon$ 직업" # 15673074113946193343
+  mod_job_giga_megaengineering_overseer_drone_acot_phanon_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineering_overseer_drone_acot_phanon_add£당 $VALUE$ £pop£" # 8595125593421277141
+  building_giga_megaworkshop_acot_phanon: "룬 분자 합성기" # 13591066773325149271
+  building_giga_megaworkshop_acot_phanon_plural: "루닉 분자 합성기" # 3667672291730197280
+  building_giga_megaworkshop_acot_phanon_desc: "룬 에너지의 마법에 가까운 특성 덕분에, 우리의 물질 설계는 상상력에 의해서만 제한됩니다." # 9689287852437620954
+  mod_planet_building_giga_megaworkshop_acot_phanon_build_speed_mult: "$building_giga_megaworkshop_acot_phanon$ 건설 속도" # 5253534284064076024
+  building_giga_megaworkshop_hub_acot_phanon: "루닉 메가건축 물류 허브" # 2225851090663954517
+  building_giga_megaworkshop_hub_acot_phanon_plural: "루닉 거대 구조물 물류 허브" # 3131652042710108741
+  building_giga_megaworkshop_hub_acot_phanon_desc: "이해의 한계에 있는 신비로운 구조물들이 현실을 왜곡하여 하나의 저장 용기에 운송할 더 많은 보급품을 압축합니다." # 3117688458992437631
+  mod_planet_building_giga_megaworkshop_hub_acot_phanon_build_speed_mult: "$building_giga_megaworkshop_hub_acot_phanon$ 건설 속도" # 10307431163253275653
+  giga_tech_amb_supertensiles_acot_sigma: "응용 질량 항성 핵융합" # 3866060746843527147
+  giga_tech_amb_supertensiles_acot_sigma_desc: "우리가 스텔라라이트를 완벽히 다루게 되면서 아원자 수준까지 원하는 대로 세계를 개조할 수 있게 되었습니다." # 10403289252428575292
+  job_giga_megaengineer_acot_sigma: "항성 합성기" # 4301482889606141230
+  job_giga_megaengineer_acot_sigma_plural: "항성 합성기" # 10926729442002619621
+  job_giga_megaengineer_acot_sigma_desc: "이 전문가들은 스텔라라이트의 힘을 사용하여 벌크 재료를 고급 건설 부품으로 융합합니다." # 9621483642005516219
+  job_giga_megaengineer_acot_sigma_effect_desc: "£job_giga_megaengineer_acot_sigma£ $job_giga_megaengineer_acot_sigma_plural$는\n£alloys£ §Y$alloys$§!, £unity£ §Y$unity$§!, £energy£ §Y$energy$§!, 그리고 £acot_sr_stellarite£ §Y$acot_sr_stellarite$§!를\n£giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!으로 변환합니다." # 5103452880268153238
+  mod_job_giga_megaengineer_acot_sigma_add: "$job_giga_megaengineer_acot_sigma$ 직업" # 11017957490317596804
+  mod_job_giga_megaengineer_acot_sigma_per_pop: "§G+1§! $VALUE$ 팝당 $job_giga_megaengineer_acot_sigma$ 직업" # 6528548542445791725
+  mod_job_giga_megaengineer_acot_sigma_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineer_acot_sigma_add£ $VALUE$ £pop£당" # 560008563528734582
+  job_giga_megaengineer_drone_acot_sigma: "성계 합성 드론" # 10430042892643952072
+  job_giga_megaengineer_drone_acot_sigma_plural: "항성 합성 드론" # 6283236920325452463
+  job_giga_megaengineer_drone_acot_sigma_desc: "이 전문 드론들은 스텔라라이트의 힘을 사용하여 벌크 재료를 첨단 건설 부품으로 융합합니다." # 5900815407790410708
+  job_giga_megaengineer_drone_acot_sigma_effect_desc: "£job_giga_megaengineer_drone_acot_sigma£ $job_giga_megaengineer_drone_acot_sigma_plural$은 £alloys£ §Y$alloys$§!, £unity£ §Y$unity$§!, £energy£ §Y$energy$§!, 그리고 £acot_sr_stellarite£ §Y$acot_sr_stellarite$§!를 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!로 전환합니다" # 5015400535596307876
+  mod_job_giga_megaengineer_drone_acot_sigma_add: "$job_giga_megaengineer_drone_acot_sigma$ 작업" # 785749267366088243
+  mod_job_giga_megaengineer_drone_acot_sigma_per_pop: "§G+1§! $VALUE$ 팝당 $job_giga_megaengineer_drone_acot_sigma$ 일자리" # 5545474037086364857
+  mod_job_giga_megaengineer_drone_acot_sigma_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineer_drone_acot_sigma_add£ $VALUE$ £pop£당" # 11141633066424085773
+  job_giga_megaengineering_overseer_acot_sigma: "천상 군주" # 11549646341639416020
+  job_giga_megaengineering_overseer_acot_sigma_plural: "천상의 지배자" # 13666304108126418935
+  job_giga_megaengineering_overseer_acot_sigma_desc: "우리의 성간 건설 작업을 총괄하며, 이들은 별 그 자체의 힘을 휘두릅니다." # 3550332058491945701
+  job_giga_megaengineering_overseer_acot_sigma_effect_desc: "£job_giga_megaengineering_overseer_acot_sigma£ $job_giga_megaengineering_overseer_acot_sigma_plural$은\n£alloys£ §Y$alloys$§!, £unity£ §Y$unity$§!, £energy£ §Y$energy$§!, £acot_sr_stellarite£ §Y$acot_sr_stellarite$§!를 대량으로\n£giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!으로 변환하지만, 유지 비용이 증가합니다." # 10617534035287300871
+  mod_job_giga_megaengineering_overseer_acot_sigma_add: "$job_giga_megaengineering_overseer_acot_sigma$ 일자리" # 5423453412536666211
+  mod_job_giga_megaengineering_overseer_acot_sigma_per_pop: "§G+1§! $job_giga_megaengineering_overseer_acot_sigma$ 직업 $VALUE$ 팝마다" # 11099276124436574547
+  mod_job_giga_megaengineering_overseer_acot_sigma_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineering_overseer_acot_sigma_add£ 당 $VALUE$ £pop£" # 18231241796415980527
+  job_giga_megaengineering_overseer_drone_acot_sigma: "천상의 초월 정신" # 10185299600363086565
+  job_giga_megaengineering_overseer_drone_acot_sigma_plural: "천상 지배 의식" # 11610010089464665468
+  job_giga_megaengineering_overseer_drone_acot_sigma_desc: "우리의 성간 건설 노력을 지배하며, 이 특수 드론 집단들은 별 그 자체의 힘을 휘두릅니다." # 467841208643531894
+  job_giga_megaengineering_overseer_drone_acot_sigma_effect_desc: "£job_giga_megaengineering_overseer_drone_acot_sigma£ $job_giga_megaengineering_overseer_drone_acot_sigma_plural$는 대량의 £alloys£ §Y$alloys$§!, £unity£ §Y$unity$§!, £energy£ §Y$energy$§!, 그리고 £acot_sr_stellarite£ §Y$acot_sr_stellarite$§!를 £giga_sr_amb_megaconstruction£ §Y$giga_sr_amb_megaconstruction$§!으로 변환하지만 유지비가 증가합니다" # 9029744642218969279
+  mod_job_giga_megaengineering_overseer_drone_acot_sigma_add: "$job_giga_megaengineering_overseer_drone_acot_sigma$ 일자리" # 6899143675958784686
+  mod_job_giga_megaengineering_overseer_drone_acot_sigma_per_pop: "$VALUE$ 팝당 $job_giga_megaengineering_overseer_drone_acot_sigma$ 일자리 §G+1§!" # 3063877566636588785
+  mod_job_giga_megaengineering_overseer_drone_acot_sigma_per_pop_short: "\n§G+1§! £mod_job_giga_megaengineering_overseer_drone_acot_sigma_add£ $VALUE$ 팝당" # 234659867029492227
+  building_giga_megaworkshop_acot_sigma: "항성 핵융합 배열" # 9169228220538367986
+  building_giga_megaworkshop_acot_sigma_plural: "항성 융합 어레이" # 11061474067624342489
+  building_giga_megaworkshop_acot_sigma_desc: "최초 항성의 힘이 이제 우리 마음대로 활용할 수 있습니다. 기초 물질에서 어떤 품질의 물질이든 융합하는 것은 필요로 하는 양은 상당하지만 아주 사소한 일입니다." # 12174548682082830134
+  mod_planet_building_giga_megaworkshop_acot_sigma_build_speed_mult: "$building_giga_megaworkshop_acot_sigma$ 건설 속도" # 9389247349128593053
+  building_giga_megaworkshop_hub_acot_sigma: "시그마 초대형 건설 물류 허브" # 16090446843775433970
+  building_giga_megaworkshop_hub_acot_sigma_plural: "시그마 메가건설 물류 허브" # 3276325219901563660
+  building_giga_megaworkshop_hub_acot_sigma_desc: "우주의 지배는 부정할 수 없습니다. 별들조차 우리의 의지에 굴복하며, 우리의 손길은 무한합니다." # 7759533824699180987
+  mod_planet_building_giga_megaworkshop_hub_acot_sigma_build_speed_mult: "$building_giga_megaworkshop_hub_acot_sigma$ 건설 속도" # 4235600920776512365

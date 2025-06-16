@@ -1,0 +1,59 @@
+﻿l_korean:
+  dyson_sphere_0: "$gc_mega$다이슨 구체 건설 부지" # 9446206261061968524
+  dyson_sphere_0_MEGASTRUCTURE_DETAILS: "£gigastructural£ $giga_list_category_megastructure$ - $giga_list_category_basic_resource_production$\n§Y항성§!의 전체 에너지 생산량을 £energy£ §Y에너지§!로 수확합니다 - $giga_list_scales_with_star_size$\n$giga_list_freezes_system$\n§LA $dyson_sphere_5$는 주어진 항성을 완전히 감싸고, 모든 태양 출력을 직접 에너지로 변환합니다.§!" # 17596362104365540317
+  ring_world_1: "$gc_mega$링월드 건설 부지" # 7429982802780067864
+  ring_world_1_MEGASTRUCTURE_DETAILS: "$giga_list_category_megastructure$ - $giga_list_category_habitable_mega$\n§Y4§!개의 거대한 §Y가이아§! 행성 같은 §Y구역§!을 생성하며, §Y에큐메노폴리스§!, §Y기계§!, §Y군집§! 버전으로도 변형할 수 있습니다 - $giga_list_removes_system_planets$\n§LA $pc_ringworld_habitable$는 하나의 성계 내에서 여러 개의 광대한 행성 같은 구역을 허용합니다." # 7328285033348519277
+  add_research_options_galactic_wonders_utopia: "획득한 연구 옵션:\n£engineering_research£§Y$tech_ring_world$§!\n£physics_research£§Y$tech_dyson_sphere$§!\n\n이것이 요구되는 연구 옵션:\n£physics_research£§Y$giga_tech_fusion_suppressor$§!\n£physics_research£§Y$giga_tech_penrose_sphere_2$§!\n£physics_research£§Y$giga_tech_ringworld_titanic_1$§!\n£society_research£§Y$giga_tech_planetary_computer$§!\n£engineering_research£§Y$giga_tech_star_lifter$§!\n£engineering_research£§Y$giga_tech_neutronium_gigaforge$§!\n£engineering_research£§Y$giga_tech_penrose_sphere_3$§!\n£engineering_research£§Y$giga_tech_ringworld_upgrade$§!\n£engineering_research£§Y$giga_tech_ringworld_titanic_2$§!\n£engineering_research£§Y$giga_tech_interstellar_ringworld$§!\n£engineering_research£§Y$giga_tech_war_moon_2$§!\n£engineering_research£§Y$tech_sm_megastructure$§!\n\n이것이 요구되는 승천 특전:\n§Y$ap_gigastructural_constructs$§!" # 7231053955809774470
+  add_research_options_galactic_wonders_utopia_megacorp: "습득 가능한 연구 옵션:\n£engineering_research£§Y$tech_ring_world$§!\n£physics_research£§Y$tech_matter_decompressor$§!\n£physics_research£§Y$tech_dyson_sphere$§!\n\n이 기술을 요구하는 연구 옵션:\n£physics_research£§Y$giga_tech_fusion_suppressor$§!\n£physics_research£§Y$giga_tech_penrose_sphere_2$§!\n£physics_research£§Y$giga_tech_ringworld_titanic_1$§!\n£society_research£§Y$giga_tech_planetary_computer$§!\n£engineering_research£§Y$giga_tech_star_lifter$§!\n£engineering_research£§Y$giga_tech_neutronium_gigaforge$§!\n£engineering_research£§Y$giga_tech_penrose_sphere_3$§!\n£engineering_research£§Y$giga_tech_ringworld_upgrade$§!\n£engineering_research£§Y$giga_tech_ringworld_titanic_2$§!\n£engineering_research£§Y$giga_tech_interstellar_ringworld$§!\n£engineering_research£§Y$giga_tech_war_moon_2$§!\n£engineering_research£§Y$tech_sm_megastructure$§!\n\n이 기술을 요구하는 초월 특전:\n§Y$ap_gigastructural_constructs$§!" # 12973078148796336408
+  ap_master_builders_desc: "거대 구조물 건설은 전례 없는 양의 자원과 계획을 필요로 합니다. 우리는 거대 공학 분야에서 새로운 지평을 열고 있습니다.\n\n이것을 요구하는 승천 특전:\n§Y$ap_vast_expanses$§!" # 9909554542504983349
+  transcendence_tooltip: "요구하는 연구 옵션:\n£society_research£§Y$giga_tech_psychic_hypersiphon_1$§!\n\n모든 종족 구성원이 완전한 사이오닉 잠재력을 해방할 것입니다." # 12426006857783524754
+  ap_galactic_force_projection_desc: "함대는 우리 제국의 의지가 실현되는 수단입니다. 우리는 그 힘에 따라 살거나 죽습니다.\n\n이 기술을 요구하는 연구 옵션:\n£engineering_research£§Y$giga_tech_orbital_bastion$§!" # 8664355059246379172
+  ap_voidborn_desc: "한때 차갑고 극복할 수 없는 장벽으로 여겨졌던 우주 공간은 우리에게 두 번째 고향이 되었습니다. 우리는 우주 깊은 곳에서의 영구적인 거주에 적응했으며, 기반 시설 필요성을 줄이고 서식지에서 다른 기능들을 위한 더 많은 공간을 확보했습니다.\n\n이것을 요구하는 연구 선택지:\n£engineering_research£§Y$giga_tech_interstellar_habitat$§!" # 5594930074318201077
+  enable_colossus_project: "문제 특수 프로젝트: 거대 구조물 프로젝트\n\n이것을 요구하는 승천 특전:\n§Y$ap_vast_expanses$§!" # 7748880032616171835
+  tr_unyielding_finish_desc: "\n§E고유 거대구조물 해금:§! §R$name_maginot$§!\n이것을 요구하는 연구 옵션:\n£society_research£§Y$giga_tech_maginot_world$§!\n\n$MOD_STARBASE_DEFENSE_PLATFORM_CAPACITY_MULT$ §G+50%§!\n$mod_starbases_upkeep_mult$ §G-20%§!\n§Y$military_federation$§! 연방 유형에 대한 접근 권한 부여.\n승천 퍽 해금: §G+1§!" # 2728910545231309137
+  tr_unyielding_federations_finish_desc: "\n§E고유 거대구조물 해금:§! §R$name_maginot$§!\n이것을 요구하는 연구 옵션:\n£society_research£§Y$giga_tech_maginot_world$§!\n\n$MOD_STARBASE_DEFENSE_PLATFORM_CAPACITY_MULT$ §G+50%§!\n$mod_starbases_upkeep_mult$ §G-20%§!\n§Y$military_federation$§! 연방 유형에 대한 접근 권한 부여.\n승천 퍽 해금: §G+1§!" # 2728910545231309137
+  gateway_0: "$gc_kilo$게이트웨이" # 15284917240382098659
+  gateway_0_MEGASTRUCTURE_DETAILS: "$giga_list_category_kilostructure$ - $giga_list_category_transportation$\n§Y즉시 이동§!을 다른 모든 §Y성계 연결망§!으로 가능하게 합니다.\n§L성계 연결망은 어떤 성간 제국의 은하 운송망에서도 핵심적인 부분이며, 올바르게 배치된다면 이동 시간을 대폭 단축할 수 있습니다.§!" # 1678155787939905561
+  gateway_final: "$gc_kilo$게이트웨이" # 15284917240382098659
+  gateway_final_MEGASTRUCTURE_DETAILS: "$giga_list_category_kilostructure$ - $giga_list_category_transportation$\n§Y즉시 이동§!을 다른 모든 §Y성계 연결망§!으로 가능하게 합니다.\n§L성계 연결망은 어떤 성간 제국의 은하 운송망에서도 핵심적인 부분이며, 올바르게 배치된다면 이동 시간을 대폭 단축할 수 있습니다.§!" # 1678155787939905561
+  habitat_central_complex: "$gc_kilo$거주지 중앙 복합체" # 7518769626618425965
+  habitat_central_complex_MEGASTRUCTURE_DETAILS: "$giga_list_category_kilostructure$ - $giga_list_category_habitable_mega$\n인공적인 §Y거주지§!를 생성하며, 추가 §Y궤도 거주지§!를 건설하여 확장할 수 있습니다.\n§LA $habitat_complex$는 영구적인 거주를 위해 설계된 자급자족 기지들의 집합체입니다. 추가 위성 기지는 태양계 전체를 활용할 수 있도록 합니다.§!" # 14245929241162171344
+  major_orbital: "$gc_kilo$대형 거주지 궤도" # 10358930292532032480
+  major_orbital_MEGASTRUCTURE_DETAILS: "$giga_list_category_kilostructure$ - $giga_list_category_habitable_upgrade$\n£district£ §Y$MOD_PLANET_MAX_DISTRICTS_ADD$§!, §Y자원 특구§!, 그리고 £building£ §Y$MOD_PLANET_MAX_BUILDINGS_ADD$§!를 §Y$habitat_complex$§!에 제공합니다!\n§L 현지 서식지 복합 시설의 인구를 위해 추가적인 거주 및 작업 공간을 제공하도록 설계된 대규모 기본 궤도 시설.§!" # 13512588286169646109
+  minor_orbital: "$gc_kilo$ 소형 궤도 거주지" # 2046464491248022980
+  minor_orbital_MEGASTRUCTURE_DETAILS: "$giga_list_category_kilostructure$ - $giga_list_category_habitable_upgrade$\n§Y자원 구역§!과 £building£ §Y$MOD_PLANET_MAX_BUILDINGS_ADD$§!을 §Y$habitat_complex$§!에 제공합니다!\n§L지역 거주지 복합체의 인구를 위한 추가 거주 및 작업 공간을 제공하도록 설계된 작고 기본적인 궤도 시설입니다.§!" # 5905144843923385377
+  interstellar_assembly_0: "$gc_mega$성간 의회 건설 부지" # 16929096856649480432
+  interstellar_assembly_0_MEGASTRUCTURE_DETAILS: "£galwonders£ $giga_list_category_megastructure$ - $giga_list_category_miscellaneous$\n§Y외교 가중치§! 및 §Y특사 수§! 증가\n§L성간 의회는 은하의 세력들이 모이는 장소이며, 이민 매력도와 우리에 대한 국제적 여론을 높입니다.§!" # 6301962708216933345
+  mega_art_installation_0: "$gc_mega$ 메가 예술 설치 부지" # 822427183070652896
+  mega_art_installation_0_MEGASTRUCTURE_DETAILS: "£galwonders£ $giga_list_category_megastructure$ - $giga_list_category_miscellaneous$\n제공합니다 £unity£ §Y통합§! 및 §Y쾌적도§!\n§L항성 규모의 예술적 봉화인 이 시설은 제작자의 정신을 고취시키고 상징합니다.§!" # 601514418836330638
+  mega_shipyard_0: "$gc_mega$거대 조선소 부지" # 802655682228969550
+  mega_shipyard_0_MEGASTRUCTURE_DETAILS: "£galwonders£ $giga_list_category_megastructure$ - $giga_list_category_ship_production$ §H(20 조선소)§!\n§Y함선§!을 생산하고 §Y함선 건조 속도§!를 증가시킵니다.\n§L전적으로 조선에 전념하는 거대한 우주 기지인 $mega_shipyard_3$는 함선을 건조하거나 업그레이드하기 위한 20개의 생산 도크를 보유하고 있습니다.§!" # 3603407267868762146
+  matter_decompressor_0: "$gc_mega$물질 감압 시설" # 5539368818711091726
+  matter_decompressor_0_MEGASTRUCTURE_DETAILS: "£gigastructural£ $giga_list_category_megastructure$ - $giga_list_category_basic_resource_production$\n§Y블랙홀§Y에서 £minerals£ §Y광물§을 채취합니다!\n§L$matter_decompressor_4$는 블랙홀의 중력을 렌즈 삼아, 특이점으로부터 광물을 회수하기 위한 중력 드릴을 형성합니다.§!" # 11700357987708406765
+  think_tank_0: "$gc_mega$과학 넥서스 부지" # 9985217503965040538
+  think_tank_0_MEGASTRUCTURE_DETAILS: "£galwonders£ $giga_list_category_megastructure$ - $giga_list_category_science_production$\n£physics_research£ £society_research£ £engineering_research£ §Y연구§!를 생산하고 §Y연구 속도§!를 §Y15%§!만큼 향상시킵니다.\n§L$think_tank_3$의 연구실과 데이터 뱅크는 엄청난 양의 가공되지 않은 순수한 과학을 생산합니다.§!" # 6966206287494134172
+  spy_orb_0: "$gc_mega$센트리 배열 부지" # 18357646232481782524
+  spy_orb_0_MEGASTRUCTURE_DETAILS: "£은하 불가사의£ $giga_list_category_megastructure$ - $giga_list_category_miscellaneous$\n§Y센서 범위§!를 §Y은하 전체§!에 걸쳐 부여합니다!\n§L$spy_orb_4$의 단계에 따라 센서 범위가 점진적으로 확장되어, 결국 은하 전체를 덮게 됩니다.§!" # 4342447703920841270
+  strategic_coordination_center_0: "$gc_mega$전략 조정 센터 부지" # 10648813624653658596
+  strategic_coordination_center_0_MEGASTRUCTURE_DETAILS: "£galwonders£ $giga_list_category_megastructure$ - $giga_list_category_military$\n§YNaval Capacity§!, §YShip Speed§!, §YStarbase Capacity§!, 그리고 §YPlatform Capacity§!를 증가시킵니다!\n§L국가 성계 기지 네트워크를 동기화하여 방어 및 공격 역량을 증강하는 시설입니다.§!" # 14547785063842283985
+  orbital_ring: "$gc_kilo$궤도 링" # 16476394170662621927
+  orbital_ring_tier_1_MEGASTRUCTURE_DETAILS: "$giga_list_category_kilostructure$ - $giga_list_category_miscellaneous$\n해당 §Y행성§!에 추가적인 §Y전문화§! 및 §Y방어§! 기능을 제공합니다!\n§L§Y$orbital_ring_tier_1$§!은 행성을 둘러싸는 고리 형태를 이루는 우주 기지 변형체입니다.§!" # 10027094413738329312
+  orbital_ring_tier_1_CONSTRUCTION_INFO_DELAYED: "$giga_list_additional_data$ - 궤도 고리는 행성에 방어적 이점을 제공할 수 있으며, 많은 성계 기지 모듈 및 건물뿐만 아니라 거주 모듈과 궤도 생산 시설을 위한 플랫폼을 제공합니다." # 14970404236650779346
+  quantum_catapult_0: "$gc_mega$양자 투석기 부지" # 10365400592221319199
+  quantum_catapult_0_MEGASTRUCTURE_DETAILS: "£galwonders£ $giga_list_category_megastructure$ - $giga_list_category_transportation$\n§Y함대§!를 제한된 정확도로 은하계를 가로질러 사출합니다!\n§L중성자별 또는 펄서의 힘을 집중시켜 공간을 비틀고 함대를 먼 거리로 건너뛰게 하는 장치.§!" # 11369201555284924959
+  quantum_catapult_0_CONSTRUCTION_INFO_DELAYED: "$giga_list_additional_data$ - 초기 양자 투사기는 함대가 의도한 목적지 §H밖§! 성계에 도착하게 할 수 있습니다. 이 '§Y산개 반경§!'은 후속 업그레이드를 통해 감소시킬 수 있습니다." # 16806366907336447511
+  hyper_relay: "$gc_kilo$ 하이퍼 중계기" # 6862416121739306013
+  hyper_relay_MEGASTRUCTURE_DETAILS: "$giga_list_category_kilostructure$ - $giga_list_category_transportation$\n§Y다중 항성계§!에 걸쳐 §Y연결된 상태§!로 건설될 경우 §Y이동 시간§!을 극적으로 감소시킵니다!\n§L단독으로는 쓸모가 없지만, 여러 개의 중계기는 인접한 항성계 간의 이동 시간을 상당히 빠르게 합니다.§!" # 7543575334799588487
+  orbital_arc_furnace_1: "$gc_kilo$$orbital_arc_furnace_4$: 적도대" # 8235646297602607436
+  orbital_arc_furnace_1_MEGASTRUCTURE_DETAILS: "$giga_list_category_kilostructure$ - $giga_list_category_advanced_resource_production$\n용융 행성의 원초적인 힘을 활용하여 §Y$orbital_arc_furnace_4$§!는 접근 불가능했던 광물을 해금하고 성계 전체의 채광 작업을 개선합니다.\n§LA device allowing for large systems to be made into productive powerhouses.§!" # 8825943602458983321
+  dyson_swarm_1: "$gc_kilo$$dyson_swarm_3$: 어레이" # 7800435349122653481
+  dyson_swarm_1_MEGASTRUCTURE_DETAILS: "£gigastructural£ £megaupgrade£ $giga_list_category_kilostructure$ - $giga_list_category_basic_resource_production$\n서로 연결된 위성 배열인 §Y$dyson_swarm_3$§!는 항성 매장량의 생산량을 증대시키도록 설계되었습니다.\n§LA §Y$dyson_swarm_3$§!는 §Y$dyson_sphere_5$§!의 막대한 힘으로 나아가기 위한 발판입니다." # 12882462504870912058
+  dyson_swarm_1_DESC: "상호 연결된 위성체들의 망인 §Y$dyson_swarm_3$§!는 항성 매장량 생산량을 개선하기 위해 설계되었습니다." # 4704257245556925135
+  dyson_swarm_2_DESC: "상호 연결된 위성체들의 망인 §Y$dyson_swarm_3$§!는 항성 매장량 생산량을 개선하기 위해 설계되었습니다." # 4704257245556925135
+  dyson_swarm_3_DESC: "상호 연결된 위성체들의 망인 §Y$dyson_swarm_3$§!는 항성 매장량 생산량을 개선하기 위해 설계되었습니다." # 4704257245556925135
+  cosmogenesis_world_0: "$gc_crisis$$pc_cosmogenesis_world$" # 4518139838698655888
+  cosmogenesis_world_0_MEGASTRUCTURE_DETAILS: "$giga_list_category_crisis$ - $giga_list_category_science_production$\n팝을 효과적으로 소모하여 §Y연구§! 및 §Y고급 논리§!를 생성하는 거대한 저장소 컴퓨터입니다. 효율성 및 소모율은 인구에 따라 상승합니다.\n§L현실의 심층에서 의미를 길어내기 위해서는 새로운 종류의 과학이 필요합니다...§!" # 17541656992346089875
+  cosmogenesis_needle: "$gc_crisis$$NAME_Cosmogenesis_Sphere$" # 315481918392641839
+  cosmogenesis_needle_MEGASTRUCTURE_DETAILS: "$giga_list_category_crisis$ - $giga_list_category_special$\n우리 스스로 만들어낸 현실로 초월하기 위해, 이 우주를 영원히 떠나기 전에 전 문명을 호라이즌 니들에 태워야 합니다.\n§LA우주 법칙에 대한 명백한 위반입니다.§!" # 16466669802725053981
+  grand_archive_0: "$gc_kilo$웅장한 기록 보관소" # 8345242038666751122
+  grand_archive_0_MEGASTRUCTURE_DETAILS: "$giga_list_category_kilostructure$ - $giga_list_category_miscellaneous$\n우리가 은하 전역에서 수집한 가장 귀중한 유물들을 보존 및 전시합니다.\n§L살아있는 우주 생명체를 포함하여, 우리가 은하 전역에서 수집한 주목할 만한 표본들을 수용 및 전시하도록 설계된 전용 궤도 구조물입니다.§!" # 17661792980195262098
