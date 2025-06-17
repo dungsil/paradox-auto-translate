@@ -9,13 +9,13 @@
   mod_planet_giga_megaengineers_upkeep_mult: "$planet_giga_megaengineers$ 유지비" # 15177573653533757726
   mod_planet_giga_megaengineers_job_giga_sr_amb_megaconstruction_produces_add: "£job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]으로부터 £giga_sr_amb_megaconstruction£ $giga_sr_amb_megaconstruction$" # 7622353815141504411
   mod_planet_giga_megaengineers_job_alloys_upkeep_add: "£job_giga_megaengineer£ [giga_amb_megaengineer_name_plural] 유지비: £alloys£ $alloys$" # 712237395214636537
-  mod_planet_giga_megaengineers_job_ehof_sr_sentient_metal_upkeep_add: "£ehof_sr_sentient_metal£ $ehof_sr_sentient_metal$ 유지 £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]" # 14204252414980644844
+  mod_planet_giga_megaengineers_job_giga_sr_sentient_metal_upkeep_add: "£giga_sr_sentient_metal£ 지각 금속 유지비 £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]" # 9579997955276817864
   mod_planet_giga_megaengineers_job_unity_upkeep_add: "£unity£ $unity$ £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]의 유지 비용" # 2901108544964217884
   mod_planet_giga_megaengineers_job_minerals_upkeep_add: "£광물£ $minerals$ £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]의 유지비" # 8342241258182913060
   mod_planet_giga_megaengineers_job_energy_upkeep_add: "£energy£ $energy$ £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]의 유지비" # 9644285672494241981
   mod_planet_giga_megaengineering_overseers_giga_sr_amb_megaconstruction_produces_add: "[giga_amb_megaengineering_overseer_name_plural] £job_giga_megaengineering_overseer£으로부터 £giga_sr_amb_megaconstruction£ $giga_sr_amb_megaconstruction$" # 4768097265900218018
   mod_planet_giga_megaengineering_overseers_alloys_upkeep_add: "£alloys£ $alloys$ 유지 비용: £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]" # 7022374944003392656
-  mod_planet_giga_megaengineering_overseers_ehof_sr_sentient_metal_upkeep_add: "£job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]의 £ehof_sr_sentient_metal£ $ehof_sr_sentient_metal$ 유지 비용" # 14606512355623058252
+  mod_planet_giga_megaengineering_overseers_giga_sr_sentient_metal_upkeep_add: "£giga_sr_sentient_metal£ $giga_sr_sentient_metal$ (£job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural] 유지비)" # 2511376876212240915
   mod_planet_giga_megaengineering_overseers_unity_upkeep_add: "£unity£ $unity$ £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseeing_name_plural]의 유지비" # 11949025364240915215
   mod_planet_giga_megaengineering_overseers_energy_upkeep_add: "£energy£ $energy$ £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]의 유지비" # 3690634061898753070
   mod_planet_giga_megaengineering_overseers_minerals_upkeep_add: "$minerals$ £minerals£ [giga_amb_megaengineering_overseer_name_plural] 유지비" # 15455208894126138883
@@ -181,7 +181,7 @@
   col_giga_habitat_supertensiles_foundry: "메가 물류 기지" # 9002396866712964217
   col_giga_habitat_supertensiles_foundry_desc: "거대 구조물 제작에 전념하는 인공 심우주 아콜로지" # 17583970605524781901
   edict_giga_amb_sentient_metal_supertensiles: "생체 금속 지원 분자 주조 공장" # 17906998781836221082
-  edict_giga_amb_sentient_metal_supertensiles_desc: "지각 있는 금속의 적응 속성은 초인장성 재료 제조에 여러 잠재적 응용 분야를 가집니다.\n\n£job_giga_megaengineer£ §Y$job_giga_megaengineer_plural$§!의 기본 생산량과 유지비를 §Y50%§!만큼 개선합니다.\n\n£job_giga_megaengineering_overseer£ §Y$job_giga_megaengineering_overseer_plural$§!의 기본 생산량과 유지비를 §Y20%§!만큼 개선합니다.\n\n두 직업의 £alloys£ $alloys$ 유지비 §Y절반§!을 £ehof_sr_sentient_metal£ §Y$ehof_sr_sentient_metal$§!로 대체합니다." # 4635666689337846235
+  edict_giga_amb_sentient_metal_supertensiles_desc: "지각 금속의 적응성 특성은 초강성 재료 제조에 여러 잠재적 적용 분야를 가집니다.\n\n£job_giga_megaengineer£ §Y$job_giga_megaengineer_plural$§!의 기본 생산량과 유지비를 §Y50%§!만큼 향상시킵니다.\n\n£job_giga_megaengineering_overseer£ §Y$job_giga_megaengineering_overseer_plural$§!의 기본 생산량과 유지비를 §Y20%§!만큼 향상시킵니다.\n\n두 직업의 §Y£alloys£ $alloys$ 유지비의 절반§!을 £giga_sr_sentient_metal£ §Y$giga_sr_sentient_metal$§!로 대체합니다." # 13636444002362924239
   giga_amb.1000.name: "§Y[FromFrom.GetName]§!: 전략 자원 발견됨" # 3949312322395708890
   giga_amb.1000.has_tech: "[Root.GetName]은(는) [FromFrom.GetName]에서 이전에는 알려지지 않았던 §H$giga_sr_amb_megaconstruction$§의 근원을 발견했습니다! 자연에서는 불가능하다고 여겨졌던 이 믿을 수 없을 정도로 강한 사슬형 분자들이 매우 특정한 조건 하에서 실제로 형성될 수 있는 것으로 보입니다. 이 새로운 발견은 우리의 인공 초인장 물질 생산량을 보충하는 데 활용될 수 있을 것입니다." # 9915704808546341035
   giga_amb.1000.no_tech: "[Root.GetName]이(가) [FromFrom.GetName]에서 이전에 알려지지 않은 전략 자원을 발견했습니다. §H$giga_sr_amb_megaconstruction$§!이라 명명된 이 조밀하게 엮인 섬유는 엄청난 수준의 인장 강도를 지니고 있어, 극복하기 어려운 힘으로 인해 이전에 건설이 불가능했던 대규모 프로젝트에 활용될 수 있습니다." # 4672253096696554088

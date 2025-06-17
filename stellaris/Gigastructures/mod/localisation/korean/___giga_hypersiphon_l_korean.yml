@@ -23,17 +23,17 @@
   psychic_hypersiphon_2: "$name_psy_siphon$" # 9961102777592129408
   psychic_hypersiphon_2_DESC: "완전히 작동되고 안정화된 $name_psy_siphon$. 우리 현실과 장막을 연결하는 차원문이 완전히 활성화되었으며, 순수한 장막 정수를 방출하고 있습니다." # 970425237947694222
   giga_psy_siphon_interaction_title: "§H기능 해금:§! 강화된 $building_giga_shroud_conduit$" # 8551873534109536700
-  giga_psy_siphon_interaction_desc: "§H강화된 $building_giga_shroud_conduit$§!\n건설된 $name_psy_siphon$ 건물당, £building£ §Y$building_giga_shroud_conduit$§! 건물은 추가 일자리를 제공하고, 행성의 정신 능력자 팝마다 £sr_psionic_sublimate£ §Y$sr_psionic_sublimate$§!를 생산합니다.\n\n이는 도관에 약간의 §R불안정성§!을 발생시킬 수 있으나, 중대한 영향을 미칠 가능성은 낮습니다..." # 11118088419896949305
+  giga_psy_siphon_interaction_desc: "§H강화된 $building_giga_shroud_conduit$§!\n$name_psy_siphon$이(가) 건설될 때마다, £building£ §Y$building_giga_shroud_conduit$§! 건물들이 추가 일자리를 부여하며, 행성 내 모든 사이오닉 팝당 £giga_sr_psionic_sublimate£ §Y$giga_sr_psionic_sublimate$§!를 생산합니다.\n\n이로 인해 도관에서 약간의 §R불안정§!이 발생할 수 있지만, 이는 큰 영향을 미칠 가능성은 낮습니다..." # 13391822459719388179
   psychic_hypersiphon_3_aeternum: "이터나이트 $name_psy_siphon$" # 9461123274445005512
   psychic_hypersiphon_3_aeternum_DESC: "태고의 옛날 에테르눔이 건설한, 완전히 가동되고 안정화된 $name_psy_siphon$입니다. 우리의 현실과 장막을 연결하는 차원문은 완전히 활성화되었으며, 불안정의 징후 없이 순수한 장막 정수를 방출하고 있습니다." # 1546209071885463366
   building_giga_shroud_conduit: "장막 도관" # 6168778918929692188
   building_giga_shroud_conduit_desc: "거대한 사이오닉 시설이 슈라우드 에너지를 강제로 추출하여 행성 표면에 재분배하고, 염동력 능력을 크게 증진시킵니다." # 16768308049730221374
-  building_giga_shroud_conduit_hypersiphon_hint: "\n§Y$psychic_hypersiphon_2$§! 거대구조물을 건설하면, 추가적인 일자리를 제공하고 행성 내 각 £pop£ §Y사이오닉 팝§!마다 £sr_psionic_sublimate£ §Y$sr_psionic_sublimate$§!를 산출합니다." # 16117983565825785557
-  building_giga_shroud_conduit_hypersiphon_safe_effect: "\n이 건물에 영향을 주는 사이킥 하이퍼 사이펀: §Y[owner.GetHypersiphonNetworkSize]§!\n\n§Y[this.GetHypersiphonPopCount]§! 사이오닉 팝으로부터 £sr_psionic_sublimate£ §Y$sr_psionic_sublimate$§!를 생산합니다." # 14623859410949491679
-  building_giga_shroud_conduit_hypersiphon_effect: "\n이 건물에 힘을 실어주는 사이킥 하이퍼사이펀: §Y[owner.GetHypersiphonNetworkSize]§!\n\n§Y[this.GetHypersiphonPopCount]§! 사이오닉 팝으로부터 £sr_psionic_sublimate£ §Y$sr_psionic_sublimate$§! 와 §R불안정§!을 생성합니다." # 2380545363085477127
+  building_giga_shroud_conduit_hypersiphon_hint: "\n§Y$psychic_hypersiphon_2$§! 거대 구조물 건설은 추가 일자리를 제공하고, 행성에 있는 £pop£ §Y사이오닉 팝§!마다 £giga_sr_psionic_sublimate£ §Y$giga_sr_psionic_sublimate$§!를 생성합니다." # 510844353086716798
+  building_giga_shroud_conduit_hypersiphon_safe_effect: "\n사이오닉 하이퍼사이펀이 이 건물을 증폭 중: §Y[owner.GetHypersiphonNetworkSize]§!\n\n§Y[this.GetHypersiphonPopCount]§!의 사이오닉 팝으로부터 £giga_sr_psionic_sublimate£ §Y$giga_sr_psionic_sublimate$§! 생산 중" # 4585753066607625714
+  building_giga_shroud_conduit_hypersiphon_effect: "\n이 건물을 강화하는 사이오닉 하이퍼사이펀: §Y[owner.GetHypersiphonNetworkSize]§!\n\n§Y[this.GetHypersiphonPopCount]§! 사이오닉 팝으로부터 £giga_sr_psionic_sublimate£ §Y$giga_sr_psionic_sublimate$§! 및 §R불안정성§! 생산 중" # 2224348126326539505
   decision_hypersiphon_mass_summon: "$shroud_summoned_army_plural$ 대규모 소환" # 16514828685061778632
   decision_hypersiphon_mass_summon_effect: "§G[owner.GetHypersiphonSummonCount]§! §Y$shroud_summoned_army_plural$§!를 소환합니다. 행성에 있는 [owner.GetGigaShroudConduitJobIcon] §Y[owner.GetGigaShroudConduitJob]§! 일자리 및 £pop£ §Y사이오닉 팝§!의 숫자에 기반합니다." # 1789107311510573873
-  decision_hypersiphon_mass_summon_desc: "복잡한 의식 준비와 막대한 양의 농축된 $sr_psionic_sublimate$를 사용하여, 장막 실체들을 대규모로 소환할 수 있습니다." # 17271058281921498036
+  decision_hypersiphon_mass_summon_desc: "정교한 의식 준비와 엄청난 양의 농축된 $giga_sr_psionic_sublimate$가 있다면, 장막 실체를 대규모로 소환할 수 있을 것입니다." # 10502690173580471934
   job_giga_shroud_conduit_worker: "장막 도관 기술자" # 6599587924167071663
   job_giga_shroud_conduit_worker_plural: "장막 도관 기술자들" # 8759060127003500098
   job_giga_shroud_conduit_worker_desc: "$building_giga_shroud_conduit$에 의해 열린 미세한 장막 터널들의 관리를 맡은 전문가들." # 15532566115525976524
