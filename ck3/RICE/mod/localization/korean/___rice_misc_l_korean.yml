@@ -4,8 +4,8 @@
   setting_RICE_intro_event_on_desc: "게임 로드 시 한 번 발동되는 도입 이벤트가 있습니다. 이 이벤트는 사용 중인 RICE의 버전과 최신 기능을 알려줍니다. 이를 통해 모드가 제대로 설치되었고 최신 버전을 사용 중인지 확인할 수 있습니다." # 11839336696882962670
   setting_RICE_intro_event_off: "끔" # 8927729592684634549
   setting_RICE_intro_event_off_desc: "인트로 이벤트가 비활성화됩니다." # 11155068692559715121
-  RICEintro.0000.t: "RICE 1.16.0 \"빛의 부처\"" # 717109703249284726
-  RICEintro.0000.desc: "RICE 1.16.0이 성공적으로 설치되었습니다. 이 이벤트는 게임 시작 시에만 발생하며 게임 규칙으로 비활성화할 수 있습니다. 최신 업데이트에 추가된 일부 기능은 새 게임에서만 사용할 수 있음을 유의하십시오. 버그를 제보하거나 피드백을 제공하시려면 Steam 창작마당, PI 포럼 또는 제 디스코드 채널을 이용해 주십시오.\n\nRICE에는 현재 전 세계의 다양한 [culture|E], [religion|E] 및 [region|E]을 다루는 #V #Bold 39#!#!개의 풍미 팩이 포함되어 있습니다. 가장 새로운 풍미 팩은 #V #Bold 마니교: 빛의 종교#!#!입니다.\n\n이 풍미 팩은 [RICE_religion.GetAdjective] [faith|E]에 새로운 풍미를 더하는 데 중점을 두며, 특히 [RICE_culture.GetCollectiveNoun]와 [RICE_culture_2.GetCollectiveNoun] 사이에서 두드러집니다." # 12156983852756430838
+  RICEintro.0000.t: "RICE 1.16.1 \"차오안\"" # 14021527542042058332
+  RICEintro.0000.desc: "RICE 1.16.1이 성공적으로 설치되었습니다. 이 이벤트는 게임 시작 시에만 발동하며, 게임 규칙을 통해 비활성화할 수 있습니다. 최신 업데이트에 추가된 일부 기능은 새 게임을 시작해야 사용할 수 있습니다. 버그 신고나 피드백은 Steam 창작마당, PI 포럼 또는 제 디스코드 채널을 통해 자유롭게 보내주십시오.\n\nRICE는 현재 #V #Bold 39#!#!개의 플레이버 팩을 포함하고 있으며, 전 세계의 다양한 문화, 종교, 지역을 다룹니다. 최신 플레이버 팩은 #V #Bold 마니교: 빛의 종교#!#!입니다.\n\n이 플레이버 팩은 [RICE_religion.GetAdjective] [faith|E]에 새로운 요소를 추가하는 데 중점을 둡니다. 특히 [RICE_culture.GetCollectiveNoun] 및 [RICE_culture_2.GetCollectiveNoun] 사이에서 말입니다." # 3392077852742480800
   RICEintro.0000.a: "좋군!" # 2933982366699918903
   RICEintro.0000.b: "이번 업데이트의 새로운 추가 사항에 대해 간략히 알려주시겠습니까?" # 2296478953061761299
   RICEintro.0000.c: "앞으로 이 저장 파일에서는 이 메시지 표시 안 함" # 15745156042237332393
@@ -303,6 +303,18 @@
   game_concept_historical_aspiration_bonus_objective: "보너스 목표" # 4334839388610662923
   game_concept_historical_aspiration_bonus_objectives: "보너스 목표" # 18210994989590026904
   game_concept_historical_aspiration_bonus_objectives_desc: "$game_concept_historical_aspiration_bonus_objectives$는 역사적 인물이 [historical_aspiration|E]을(를) 수행할 때(해당하는 인물에 한해) 달성하려고 시도할 수 있는 추가적이고 선택적인 목표입니다. [historical_aspiration_main_objectives|E]와 달리, 이들은 필수는 아니지만, 추구한다면 추가 보상을 제공합니다.\n\n하지만 보너스 보상을 받으려면 [historical_aspiration_main_objectives|E]가 달성될 때 [historical_aspiration_bonus_objectives|E]도 충족되어야 합니다. 이후에 충족되면 인물은 해당 보상을 받지 못합니다." # 17034638372031402984
+  decision_group_type_RICE_greenland_struggle_major: "주요 $RICE_greenland_struggle$ 결단" # 7277899977125781516
+  decision_group_type_RICE_vinland_major: "주요 $game_concept_vinland$ 결정" # 11167159283384618729
+  decision_group_type_RICE_normandy_struggle_major: "주요 $RICE_normandy_struggle$ 결정" # 16583119860334491778
+  decision_group_type_RICE_sri_lanka_struggle_major: "주요 $RICE_sri_lanka_struggle$ 결단" # 16330549466520862267
+  decision_group_type_RICE_sicily_struggle_major: "주요 $RICE_sicily_struggle$ 결정" # 2177469248834620166
+  decision_group_type_RICE_greenland_struggle: "RICE 그린란드 투쟁 결정" # 17925267458714712022
+  decision_group_type_RICE_vinland: "$game_concept_vinland$ 결단" # 8411650220546074203
+  decision_group_type_RICE_normandy_struggle: "$RICE_normandy_struggle$ 결정" # 17327519145383629856
+  decision_group_type_RICE_sri_lanka_struggle: "$RICE_sri_lanka_struggle$ 결단" # 5071917707152829835
+  decision_group_type_RICE_sicily_struggle: "$RICE_sicily_struggle$ 결단" # 1552774352036540074
+  decision_group_type_RICE_religious: "종교 결단" # 10649019340024005501
+  decision_group_type_RICE_regional: "지역 결정" # 3704211461042604162
   RICE_hot_springs_visit_host_memory: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을 벌였습니다" # 16928400122632079216
   RICE_hot_springs_visit_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]을 다녀왔습니다." # 5192337977979560218
   RICE_hot_springs_visit_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]를 하셨습니다." # 12984635039912405058
