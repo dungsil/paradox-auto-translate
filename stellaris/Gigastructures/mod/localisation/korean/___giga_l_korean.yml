@@ -1406,8 +1406,6 @@
   origin_equatorial_shipyard_effects: "용융 행성 주위에 있는 적도 조선소에서 시작합니다.\n- 기계 종족이 아닌 경우, £society_research£ §L$tech_hydroponics$§! 기술에 접근할 수 있게 됩니다." # 1042494447420013944
   giga_equatorial_shipyard_start_NAME: "적도 조선소" # 13442144940611718856
   giga_equatorial_shipyard_start_DESC: "적도 조선소에서 시작" # 10000957490908826822
-  d_predictable_solar_flares: "예측 가능한 태양 플레어" # 4450577996528740520
-  d_predictable_solar_flares_desc: "우리 고향별이 공전하는 항성은 태양 플레어 발생 전에 특정 행동을 보이므로 에너지 추출이 상당히 용이해집니다." # 4342443984953979789
   building_giga_matter_synthesizer: "물질 합성 기지" # 2000670482362610250
   building_giga_matter_synthesizer_desc: "선FTL 문명을 가동하는 데 필요한 원자재를 생산하는, 불가사의한 에너지-질량 변환기의 광대한 복합 시설." # 6538502472557660292
   origin_squareworld: "스퀘어월드" # 5146888039595859082
@@ -1415,8 +1413,6 @@
   origin_squareworld_effects: "스퀘어월드에서 시작" # 3267369616368698106
   giga_squareworld_start_NAME: "스퀘어월드" # 5146888039595859082
   giga_squareworld_start_DESC: "스퀘어월드에서 시작" # 3267369616368698106
-  d_decrepit_tunnels_squareworld: "$d_decrepit_tunnels_1$" # 12877338230707769144
-  d_decrepit_tunnels_squareworld_desc: "$d_decrepit_tunnels_1_desc$" # 10324853476423657564
   origin_flat_world_effects: "모성은 §Y$pc_flat_world$§!입니다.\n거주 적합도 선호는 §Y$trait_pc_continental_preference$§!으로 설정되었습니다." # 13082239064365848844
   origin_flat_world: "평평한 세계" # 843619365371322639
   origin_flat_world_desc: "수백 년 동안, 당신의 종족은 모행성의 기하학적 특성에 대해 논쟁을 벌였습니다. 사진 증거가 있었음에도 불구하고, 지구가 구형이며 증거는 조작되었다고 믿는 사람들에게는 그것만으로는 충분치 않았습니다. 진실은 당신의 문명이 민간 우주 비행을 달성했을 때 비로소 명백해졌습니다." # 9483419000767257218
@@ -1429,15 +1425,11 @@
   origin_planetary_computer_effects: "행성 컴퓨팅 복합체부터 시작" # 17334469348249723687
   building_solar_farm: "태양 에너지 단지" # 13450404684004718579
   building_solar_farm_desc: "행성 시스템 가동에 충분한 에너지를 생산하는 거대 태양광 배열." # 16292819996675451649
-  d_giga_arcane_generator: "$d_arcane_generator$" # 442041212184187313
-  d_giga_arcane_generator_desc: "$d_arcane_generator_desc$" # 11565858194236838589
   giga_behemoth_ring_system_NAME: "위대한 고리" # 13798696968138683132
   giga_behemoth_ring_system_DESC: "죽은 별 주위를 도는 거대한 링월드에서 시작합니다." # 15199925432472455035
   origin_great_ring: "위대한 고리" # 13798696968138683132
   origin_great_ring_desc: "이 항성이 블랙홀로 붕괴되었을 때, 그것은 안쪽 링월드와 그것을 건설했던 선구자 문명을 파괴했습니다. 하지만 바깥쪽 링은 큰 손상 없이 살아남았고, 결국 블랙홀 강착 원반의 희미한 빛에 의해 따뜻해진 채로 그곳에서 새로운 생명이 탄생했습니다." # 17628720537920590474
   origin_tooltip_great_ring_effects: "죽은 별 주위의 거대한 링월드에서 시작합니다.\n- 종족 거주 적합성이 §L링월드§!로 설정됩니다.\n- §R주변에 보장된 거주 적합 행성이 있는 성계가 없습니다§!.\n\n§RAI는 이 기원을 사용할 수 없습니다. 이 기원을 가진 미리 정의된 사용자 지정 AI 제국은 대신 $origin_default$로 생성됩니다.§!" # 9660839380119835038
-  d_great_ring_excavated_mountain: "링월드 자체 수리 시스템 노드" # 8612169301238682199
-  d_great_ring_excavated_mountain_desc: "링월드 자동 자가 수리 시스템의 노출된 노드입니다.\n이는 거대 구조물을 작동 상태로 유지하는 데 필요한 물질을 지속적으로 생성합니다.\n그리고 조심한다면, 우리 인공 거주지에 손상을 입히지 않고 해당 물질 중 일부를 빼돌려 우리의 필요에 사용할 수 있습니다." # 8146269865577550894
   interstellar_habitat_completed_core_MEGASTRUCTURE_DETAILS: "디버그" # 143360522173664303
   giga_interstellar_system_NAME: "성간 거주지" # 10939200719235068662
   giga_interstellar_system_DESC: "성간 링월드에서 시작" # 14952474475440741662
@@ -1448,10 +1440,6 @@
   interstellar_habitat_completed_core_DESC: "$interstellar_habitat_3_DESC$" # 13790607078766302357
   building_giga_interstellar_hydroponic_farm: "수경재배 농장 단지" # 15530836119576723403
   building_giga_interstellar_hydroponic_farm_desc: "수경 농장으로 이루어진 거대한 복합체로, 링월드 인구에게 신선한 식량을 제공합니다. 하지만 이 시설들에는 한계가 있어 지속적으로 증가하는 인구를 영원히 부양할 수는 없습니다." # 9017699562210738794
-  d_ringworld_capital_city: "대수도" # 15597607892757361258
-  d_ringworld_capital_city_desc: "링월드에 건설된 웅장한 수도 도시. 이곳은 링월드 구역의 중심 허브 역할을 하며, 현지 팝에게 다양한 서비스를 제공합니다." # 7003352307753202841
-  d_interstellar_ringworld_commerce_blocker: "버려진 기반 시설" # 17623034251997869369
-  d_interstellar_ringworld_commerce_blocker_desc: "링월드는 거의 무한한 공간을 제공하므로, 토지 재개발에 대한 고려가 거의 이루어지지 않았고, 이로 인해 넓은 지역이 오랫동안 버려진 건물들로 채워져 있습니다. 이 영토들이 정리 및 재개발된다면, 지역 사업이 상당히 성장하여 제국의 부를 증대할 수 있을 것입니다." # 14912889980304091172
   relic_penrose_sphere_1_MEGASTRUCTURE_DETAILS: "디버그" # 143360522173664303
   penrose_rename_capital: "[prevprev.GetName]" # 16481157158238333085
   penrose_rename_planet_01: "[solar_system.GetName] I" # 4784310024163794465
@@ -1479,8 +1467,6 @@
   relic_penrose_sphere_1_DESC: "이 고대 페로즈 구체는 수명이 다해가며, 수리하지 않으면 수천 년 내에 붕괴할 것입니다. 하지만 일부 구성 요소는 여전히 작동하고 있으며, 극소량의 에너지를 생산하고 있습니다." # 17273333827344703195
   relic_penrose_sphere_2: "펜로즈 구체" # 16460377614709249270
   relic_penrose_sphere_2_DESC: "$penrose_sphere_b3_DESC$" # 2073771014878829814
-  d_arcane_mineral_generator: "비전의 변성기" # 6086466742273371251
-  d_arcane_mineral_generator_desc: "마치 허공에서 광물 자원을 생산하는 불가사의한 제법의 고대 장치." # 15601513673087129641
   giga_ring_origins.101.name: "유물 펜로즈 구체 복원됨" # 9581855269251875406
   giga_ring_origins.101.desc: "수년간의 노력 끝에, §L[relic_penrose_sphere.GetName]§! 성계에 있는 유물 펜로즈 구체가 예전의 영광을 되찾았으며 블랙홀의 초복사 산란을 이용하여 다시 한번 막대한 에너지를 생산합니다. 부디 영원히 우리 문명을 보호하고 발전시키기를!" # 4391043716836085761
   origin_pangalactic: "범은하 연맹" # 5850158941572222230
@@ -2655,85 +2641,6 @@
   eeloo_broken_object: "일루 방어 시스템 비활성화" # 6647862804936233243
   eeloo_broken_object_desc: "이 거대한 무장 행성체는 치명적인 손상을 입었지만, 수리가 불가능한 것은 아닙니다." # 4636096408833352173
   eeloo_broken_object_tooltip: "정말 큰 우주선이군요." # 2447353891425872937
-  d_flusion_katown: "나를 교체하세요" # 14507175091903795792
-  d_flusion_katown_desc: "나를 교체하세요" # 14507175091903795792
-  d_fluffy_plains: "폭신한 평원" # 485737206964667424
-  d_fluffy_plains_desc: "강풍이 부는, 넓고 '평평한' 구름 평야." # 8544921466723519185
-  d_gassy_rivers: "가스 강" # 13710469059791742472
-  d_gassy_rivers_desc: "쉽게 채취 가능한 거대한 가스 흐름." # 8431426821117836291
-  d_mote_cloud: "가스 모트 구름" # 12123287577331780078
-  d_mote_cloud_desc: "거대한 휘발성 모트 표류 구름" # 5160232239977522155
-  d_floaters: "부유체 무리" # 2776093214290264219
-  d_floaters_desc: "대기 속을 표류하는 공중 유기체의 거대한 무리들." # 4546287955202353851
-  d_virtual_shipyard: "항성 조선소" # 16263217951496013722
-  d_virtual_shipyard_desc: "이 구역에는 태양광 조선소를 하나만 건설할 수 있습니다." # 10276243359167318830
-  d_zro_cloud: "즈로 성운" # 4249627876468314340
-  d_zro_cloud_desc: "귀중한 즈로 입자로 이루어진, 끝없이 부유하는 거대한 구름." # 14380150076271860352
-  d_alderson_generator: "비전 발전기" # 1783293538819853799
-  d_alderson_generator_desc: "이 고대 기계는 우리 구역 일부를 유지하는 데 필요한 자원을 생산함으로써 우리의 필요에 반응하는 것 같습니다." # 3949696421642557035
-  d_alderson_ruined_district: "구획 정리" # 2957194419982595529
-  d_alderson_ruined_district_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_district_cleared: "최대 구역: §G+1§!" # 4494339216262361789
-  d_alderson_lost01: "$d_birch_lost01$" # 13660422315106926524
-  d_alderson_lost01_desc: "$d_birch_lost01_desc$" # 9036543343083880161
-  d_alderson_lost01_cleared: "§Y[root.GetName]§!에서 §B1 £pops£팝§!을 획득합니다!\n§Y$d_alderson_lost01$§! 차단기를 모두 제거하면 §Y$d_alderson_ruined_district$§! 건설 비용이 §G50%§! 감소합니다." # 15714455334755888424
-  d_alderson_ruined_housing: "넓게 퍼진 슬럼가" # 889853258775986512
-  d_alderson_ruined_housing_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_housing_cleared: "주택: §G+5%§!\n모든 §Y$d_alderson_ruined_housing$§! 차단물을 제거하면 §Y$d_alderson_ruined_district$§!의 비용이 §G50%§! 만큼 감소합니다!" # 1122151701666512300
-  d_alderson_ruined_police: "낡은 기지" # 8497799782297872134
-  d_alderson_ruined_police_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_police_cleared: "집행관 직업: §G+1§!\n§Y$d_alderson_ruined_police$§! 차단기 모두 제거 시 §Y$d_alderson_ruined_district$§! 건설 비용이 §G50%§!만큼 감소합니다." # 8461747976708613106
-  d_alderson_ruined_patrol_drone: "황폐한 타워" # 7986080367406755256
-  d_alderson_ruined_patrol_drone_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_patrol_drone_cleared: "사냥꾼-수색자 일자리: §G+1§!\n모든 §Y$d_alderson_ruined_patrol_drone$§! 차단기를 제거하면 §Y$d_alderson_ruined_district$§! 건설 비용이 §G50%§! 감소합니다." # 2543000351659480114
-  d_alderson_ruined_miner: "물질 합성기 복원" # 11926460364585958207
-  d_alderson_ruined_miner_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_miner_cleared: "광부 직업: §G+5%§!\n§Y$d_alderson_ruined_miner$§! 차단기를 모두 제거하면 §Y$d_alderson_ruined_district$§! 건설 비용이 §G50%§! 감소합니다!" # 17453609358720270340
-  d_alderson_ruined_mining_drone: "물질 합성기 복원" # 11926460364585958207
-  d_alderson_ruined_mining_drone_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_mining_drone_cleared: "채굴 드론 일자리: §G+5%§!\n모든 §Y$d_alderson_ruined_mining_drone_hive$§! 차단물을 제거하면 §Y$d_alderson_ruined_district$§! 건설 비용이 §G50%§ 감소합니다!" # 16208735755156966162
-  d_alderson_ruined_mining_drone_hive: "$d_alderson_ruined_mining_drone$" # 2718587689009020060
-  d_alderson_ruined_mining_drone_hive_desc: "$d_alderson_ruined_mining_drone_desc$" # 12111266503293069593
-  d_alderson_ruined_farmer: "오염된 토양" # 17489007359112395287
-  d_alderson_ruined_farmer_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_farmer_cleared: "농부 일자리: §G+5%§!\n모든 §Y$d_alderson_ruined_farmer$§! 방해물을 정화하면 §Y$d_alderson_ruined_district$§! 특구의 비용이 §G50%§! 감소합니다." # 10791380983011866815
-  d_alderson_ruined_agri_drone: "오염된 토양" # 17489007359112395287
-  d_alderson_ruined_agri_drone_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_agri_drone_cleared: "농업 드론 일자리: §G+5%§!\n모든 §Y$d_alderson_ruined_agri_drone_hive$§! 차단기를 제거하면 §Y$d_alderson_ruined_district$§!의 비용이 §G50%§! 감소합니다." # 10569585740551458579
-  d_alderson_ruined_agri_drone_hive: "$d_alderson_ruined_agri_drone$" # 13639560617231694996
-  d_alderson_ruined_agri_drone_hive_desc: "$d_alderson_ruined_agri_drone_desc$" # 15589320007087529918
-  d_alderson_ruined_technician_hive: "노출된 핵" # 6311936087160479171
-  d_alderson_ruined_technician_hive_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_technician_hive_cleared: "기술 드론 직업: §G+5%§!\n\n\n모든 §Y$d_alderson_ruined_technician_hive$§! 차단물을 제거하면 §Y$d_alderson_ruined_district$§!의 건설 비용이 §G50%§! 감소합니다!" # 1057399886839957777
-  d_alderson_ruined_technician_machine: "노출된 핵" # 6311936087160479171
-  d_alderson_ruined_technician_machine_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_technician_machine_cleared: "기술 드론 일자리: §G+5%§!\n§Y$d_alderson_ruined_technician_machine$§! 차단기 전부를 제거하면 §Y$d_alderson_ruined_district$§! 건설 비용이 §G50%§! 감소합니다!" # 15060511904879910536
-  d_alderson_ruined_maintenance_drone: "파괴된 보급고" # 10983609539104687174
-  d_alderson_ruined_maintenance_drone_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_maintenance_drone_cleared: "유지보수 드론 일자리: §G+5%§!\n모든 §Y$d_alderson_ruined_maintenance_drone_hive$§! 차단물을 제거하면 §Y$d_alderson_ruined_district$§! 건설 비용이 §G50%§!만큼 감소합니다." # 11608247231141858879
-  d_alderson_ruined_maintenance_drone_hive: "$d_alderson_ruined_maintenance_drone$" # 1885576130347842717
-  d_alderson_ruined_maintenance_drone_hive_desc: "$d_alderson_ruined_maintenance_drone_desc$" # 15233201746539675006
-  d_alderson_ruined_clerk: "파괴된 보급고" # 10983609539104687174
-  d_alderson_ruined_clerk_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_clerk_cleared: "사무직 일자리: §G+5%§!\n모든 §Y$d_alderson_ruined_clerk$§! 차단기를 제거하면 §Y$d_alderson_ruined_district$§!의 비용이 §G50%§!만큼 감소합니다." # 16208995214697520645
-  d_alderson_ruined_merchant: "그라운드 제로" # 7795773557789112381
-  d_alderson_ruined_merchant_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_merchant_cleared: "상인 일자리: §G+5%§!\n모든 §Y$d_alderson_ruined_merchant$§! 차단기를 제거하면 §Y$d_alderson_ruined_district$§! 비용이 §G50%§! 감소합니다." # 13441019953273621378
-  d_alderson_ruined_artisan: "오작동하는 제조소" # 7443912798530922342
-  d_alderson_ruined_artisan_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_artisan_cleared: "장인 직업: §G+5%§!\n§Y$d_alderson_ruined_artisan$§! 차단물을 모두 정리하면 §Y$d_alderson_ruined_district$§! 비용이 §G50%§! 감소합니다." # 1119231624122738209
-  d_alderson_ruined_crafters: "오작동하는 제조소" # 7443912798530922342
-  d_alderson_ruined_crafters_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_crafters_cleared: "기술공 일자리: §G+5%§!\n모든 §Y$d_alderson_ruined_artisan$§! 차단물을 제거하면 §Y$d_alderson_ruined_district$§!의 건설 비용이 §G50%§! 감소합니다." # 11282938869758428735
-  d_alderson_ruined_foundry: "녹아내린 주조소" # 4279430749511374437
-  d_alderson_ruined_foundry_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_foundry_cleared: "제련소 일자리: §G+5%§!\n모든 §Y$d_alderson_ruined_foundry$§! 개척지 장애물을 제거하면 §Y$d_alderson_ruined_district$§!의 건설 비용이 §G50%§! 감소합니다." # 11203746092367857654
-  d_alderson_ruined_foundry_hive: "녹아내린 주조소" # 4279430749511374437
-  d_alderson_ruined_foundry_hive_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_foundry_hive_cleared: "용광로 드론 일자리: §G+5%§!\n모든 §Y$d_alderson_ruined_foundry_hive$§! 차단기 제거 시 §Y$d_alderson_ruined_district$§! 건설 비용이 §G50%§! 감소합니다." # 13023842210639999801
-  d_alderson_ruined_foundry_machine: "녹아내린 주조소" # 4279430749511374437
-  d_alderson_ruined_foundry_machine_desc: "알더슨 정화는 막대한 과업이지만, 어딘가에서 시작해야만 합니다." # 7254612520258257262
-  d_alderson_ruined_foundry_machine_cleared: "제조 시설 직업: §G+5%§!\n§Y$d_alderson_ruined_foundry_machine$§! 방해물을 모두 제거하면 §Y$d_alderson_ruined_district$§!의 비용이 §G50%§! 감소합니다." # 17443210029638375122
   REPAIR_EELOO_PROJECT: "병기화된 행성체 수리" # 515857219144036858
   REPAIR_EELOO_PROJECT_DESC: "비록 이 프로젝트의 범위가 거대하지만, 이일루는 여전히 수리 가능한 상태에 있습니다." # 13698553421878660286
   GIGA_EELOO_PROJECT: "빙하 원정" # 2663370650266669312
@@ -4893,18 +4800,6 @@
   r_square_world_hub_powered_DESC: "이 기지는 스퀘어월드의 내부 시스템으로 통하는 원격 접근 지점 역할을 하며, 일종의 중앙 인공지능을 수용하는 것으로 보입니다." # 2698771388111162575
   r_square_world_hub_garyx: "개릭스와 접촉" # 5242981521048732792
   r_square_world_hub_garyx_DESC: "우리는 중앙 인공지능인 개릭스와 통신할 수 있습니다." # 732137734825913456
-  d_giga_lifeless_zro_1: "즈로 매장량" # 1172331962632974906
-  d_giga_lifeless_zro_1_desc: "이 행성에는 채취 가능한 즈로 가루 매장지가 있습니다." # 12725077008717704212
-  d_giga_lifeless_dark_matter_1: "암흑 물질 매장지" # 18211813698194922337
-  d_giga_lifeless_dark_matter_1_desc: "이 행성에는 개발 가능한 암흑 물질 자원이 매장되어 있습니다." # 3227946997414454086
-  d_giga_lifeless_living_metal_1: "생체 금속 매장지" # 360551931466773714
-  d_giga_lifeless_living_metal_1_desc: "이 세계에는 생체 금속의 개발 가능한 근원이 있습니다." # 6972273205726884749
-  d_giga_lifeless_nanites_1: "나나이트 매장지" # 10159690990558349830
-  d_giga_lifeless_nanites_1_desc: "이 행성에는 채굴 가능한 나나이트 원천이 있습니다." # 5022410566104785814
-  d_giga_lifeless_iodizium_1: "아이오디지움 매장지" # 3694495651087444393
-  d_giga_lifeless_iodizium_1_desc: "이 행성에는 채취 가능한 아이오디지움 결정체 자원이 있습니다." # 3750486689770206199
-  d_giga_hab_iodizium_1: "아이오디지움 매장지" # 3694495651087444393
-  d_giga_hab_iodizium_1_desc: "이 서식지 복합체는 개발 가능한 아이오다이슘 결정 매장지 근처에 건설되었습니다." # 10629995690591314368
   giga_tech_terraform_molten: "행성 지열 안정화" # 6511834434624706201
   giga_tech_terraform_molten_desc: "용융 세계는 암석 행성 중 가장 가혹한 곳에 속합니다. 표면은 조수력과 지질 활동으로 인해 갈라져 있습니다. 하지만 거대한 궤도 냉각 광선과 거대구조물 레이저 드릴을 활용하여 지질 구조를 변경하면, 그러한 세계의 표면을 냉각하고 안정화하여 잠재적으로 거주 가능하게 만들 수 있습니다." # 10665018347440695641
   giga_dialog.4001.name: "$name_terraform_molten$ 건설 완료!" # 7831474742432185334
@@ -5651,10 +5546,10 @@
   giga_dialog.3701.desc: "$name_hyperstructural_ass$ 건설 부지가 [giga_system.GetName] 주변에 완료되었습니다! 지금은 별것 아닌 것처럼 보일지 모르지만, 이 가설 구조물은 은하계 역사상 가장 크고 효율적인 조선소를 조립하는 데 사용될 것입니다. 이 조선소는 동시에 수십 대의 함선을 조립할 수 있습니다." # 13180840970442283697
   giga_dialog.3701.a: "좋습니다." # 843958112380023394
   giga_dialog.3702.name: "$name_hyperstructural_ass$ 내부 고리 완료" # 8744852919526937242
-  giga_dialog.3702.desc: "우리 $name_hyperstructural_ass$의 내부 고리가 완성되었습니다! 거대한 핵융합 반응로와 특수 정제 시설을 수용하며, 아직 건설되지 않은 항성 양수 펌프로부터 추출될 플라즈마를 처리하게 됩니다. 처리된 플라즈마의 일부는 구조물 유지에 필요한 합금으로 전환되며, 나머지는 광물로 수출될 것입니다.\n구조물을 가동하기 위해 막대한 수의 과학자가 필요하므로 상당한 공학 유지비가 발생할 것임을 유념하십시오." # 11388259583262751799
+  giga_dialog.3702.desc: "저희 $name_hyperstructural_ass$의 내부 고리가 완료되었습니다! 거대한 핵융합로와 특수 정제 시설을 수용하며, 아직 건설되지 않은 항성 리프팅 펌프가 추출할 플라스마를 처리할 것입니다. 처리된 플라스마의 대부분은 구조물 유지에 사용될 합금으로 전환될 것입니다. 이 구조물의 운영에는 막대한 수의 과학자가 필요하므로 상당한 공학 유지비가 발생할 것임을 유념하십시오." # 13197787821652887684
   giga_dialog.3702.a: "훌륭하군." # 13528797227097630973
   giga_dialog.3703.name: "$name_hyperstructural_ass$ 항성 펌프 완료" # 17242196693536250124
-  giga_dialog.3703.desc: "항성 채취 펌프가 이제 완성됨에 따라, 저희 $name_hyperstructural_ass$는 항성 플라스마를 채취하고 융합하여 소량의 광물을 생산하기 시작했습니다. 저희는 이제 구조물의 외곽 고리 건설을 시작해야 합니다. 이곳에는 거대한 조선소 배열이 들어설 것입니다." # 8669168102703351704
+  giga_dialog.3703.desc: "항성 양수 펌프가 이제 완공됨에 따라, 우리 $name_hyperstructural_ass$는 항성 플라즈마를 채취하고 융합하여 구조물을 지지하는 데 사용되는 소량의 합금을 생산하기 시작했습니다. 이제 우리는 그 자체로 거대한 조선소 배열을 수용할 구조물의 외곽 고리 건설을 시작해야 합니다." # 13392894940182414050
   giga_dialog.3703.a: "경이롭군." # 5810287950095587796
   giga_dialog.3704.name: "$name_hyperstructural_ass$ 외부 고리 완성" # 523251935421004794
   giga_dialog.3704.desc: "야드의 외부 링 완공으로 끝없는 함대 생산이라는 우리의 꿈이 현실로 한 걸음 더 가까워졌습니다. 거대한 트러스 구조로 내부 링에 연결된 이 구조물은 미래의 조선소에 필요한 모든 자원을 공급할 필수 인프라를 갖추고 있습니다. 이제 마침내 조선소 자체를 건설하여 이 프로젝트를 완전히 마무리해야 할 때입니다!" # 3465839501127717391
@@ -5664,14 +5559,14 @@
   giga_dialog.3705.a: "완료되었습니다. 우리는 이제 진정으로 은하의 주인입니다." # 15101208868962203495
   hyperstructural_ass_0: "$gc_giga$$name_hyperstructural_ass$ 건설 현장" # 10529352130825097508
   hyperstructural_ass_0_DESC: "미래의 $name_hyperstructural_ass$ 건설 현장, 비할 데 없는 생산 능력을 지닌 거대한 조선소." # 4834185716496213940
-  hyperstructural_ass_0_MEGASTRUCTURE_DETAILS: "$giga_list_category_gigastructure$ - $giga_list_category_ship_production$ §H(90 조선소)§!\n§Y별§!을 수확하여 §Y함선§!을 조립하고 £minerals£ §Y광물§!, §Y해군 한계치§!, 그리고 §Y함선 건조 속도§!를 생산합니다! - $giga_list_removes_system_planets$ - $giga_list_category_requires_starbase_uplink$\n§L함대를 조립하기 위한 성계 규모의 조선소와 정박지 복합 시설입니다.§!" # 6907517178244073619
+  hyperstructural_ass_0_MEGASTRUCTURE_DETAILS: "$giga_list_category_gigastructure$ - $giga_list_category_ship_production$ §H(조선소 90개)§!\n§Y항성§!을 수확하여 §Y함선§!을 조립하고 §Y함대 한계치§! 및 §Y함선 건조 속도§!를 생산합니다 - $giga_list_removes_system_planets$ - $giga_list_category_requires_starbase_uplink$\n§L함대 건조를 위한 성계 전체 규모의 조선소 및 정박 시설 복합체입니다.§!" # 10006155187073332078
   hyperstructural_ass_0_CONSTRUCTION_INFO_DELAYED: "$giga_list_additional_data$ - 이 구조물의 막대한 전력 요구량 때문에, §YA§! 또는 §YB§! 분광형의 항성 주위에 건설되어야 합니다." # 8097021443274453297
   hyperstructural_ass_1: "$name_hyperstructural_ass$ 내부 고리" # 17031218940858511651
   hyperstructural_ass_1_DESC: "이 거대한 고리는 별에서 추출된 막대한 양의 플라스마를 함선 조립 및 구조 자체의 유지에 필요한 방식으로 처리하는 기계 장치를 갖추고 있습니다." # 10654494697927976666
   hyperstructural_ass_2: "$name_hyperstructural_ass$ 플라즈마 펌프" # 4723580425638149597
-  hyperstructural_ass_2_DESC: "여섯 개의 거대한 플라즈마 펌프. 특수 채취 중력 빔 덕분에 별의 광구에서 플라즈마를 채취할 수 있습니다. 플라즈마의 일부는 광물로 융합되고, 나머지는 이 거대한 구조물을 유지하는 데 사용됩니다." # 8279460145127198382
+  hyperstructural_ass_2_DESC: "특수 채취 중력광선을 활용하여 항성의 광구에서 플라즈마를 채취할 수 있는 여섯 개의 거대한 플라즈마 펌프. 플라즈마는 합금으로 제련되어 이 거대한 구조물을 유지하는 데 사용됩니다." # 7215840242767099929
   hyperstructural_ass_3: "$name_hyperstructural_ass$ 외곽 고리" # 9213449426412332904
-  hyperstructural_ass_3_DESC: "야드 외곽 고리는 대규모 함선 건조장을 지탱하는 데 필요한 기반 시설을 포함하며, 이는 곧 상부 구조에 추가될 것입니다. 또한 방대한 양의 광물과 합금을 저장합니다." # 4296185628570899452
+  hyperstructural_ass_3_DESC: "야드의 외곽 고리에는 곧 초구조에 추가될 거대한 조선소 집합체를 지원하는 데 필요한 기반 시설이 포함되어 있습니다. 또한 막대한 양의 자원을 보관합니다." # 6553366560810495038
   hyperstructural_ass_4: "$name_hyperstructural_ass$" # 13391214259191092296
   hyperstructural_ass_4_DESC: "6개의 거대 항성 리프팅 펌프의 동력으로 가동되는 이 거대한 성계 규모 조선소는 비할 데 없는 생산 능력을 갖추고 있습니다. 조선소 수용량 +90 및 함선 건조 속도 +35%를 부여합니다." # 9081229131111304116
   giga_tech_disco_moon: "초대형 굴절 장치" # 5234148063291468975
@@ -5861,8 +5756,6 @@
   planetary_computer_1_DESC: "완전한 $name_planetary_computer$를 향한 첫걸음. 예비 내부 구조 및 특화 기반시설." # 5439671242835294395
   planetary_computer_2: "$name_planetary_computer$" # 17148726087356041334
   planetary_computer_2_DESC: "완성된 $name_planetary_computer$. 표면의 작업에 막대한 연구 보너스를 제공합니다." # 17839333683431717815
-  d_pcc_origin_blocker: "퇴락한 도관" # 14503395176797679
-  d_pcc_origin_blocker_desc: "행성의 거대한 프로세싱 배열의 상당 부분은 연산 부문 간의 손상된 연결 때문에 우리 연구 시설로부터 현재 접근할 수 없습니다." # 15072731133432489936
   building_giga_pcc_scrap_pile: "거대 고철 더미" # 8940645770150257031
   building_giga_pcc_scrap_pile_desc: "재활용하기 좋은 거대한 고철 더미." # 6744965626397299451
   giga_tech_terraform_gas: "가스 거대 행성 대기 안정화" # 11437664847994705839
@@ -5978,8 +5871,6 @@
   stellar_ring_habitat_restored_DESC: "완전히 수리되어 정착 준비가 완료된 링" # 15602983373525724986
   GIGA_ORBITAL_PLANET_NAME: "[FromFrom.System.GetName] 궤도" # 11214178544606292143
   GIGA_ORBITAL_ANCHOR_NAME: "고리형 구조체 부지" # 9149347378966268963
-  d_giga_orbital_effects: "성계 수송망" # 1516053554106396127
-  d_giga_orbital_effects_desc: "이 성계의 $name_giga_orbital$는 지역 병참 계획을 주도합니다." # 11924916243761756263
   requires_no_existing_orbital: "$TRIGGER_FAIL$성계당 하나의 $name_giga_orbital$만 건설될 수 있습니다." # 11380563243930367087
   giga_dialog.13601.name: "$name_giga_orbital$ 건설 현장 구축 완료" # 5471922917102911890
   giga_dialog.13601.desc: "[giga_system.GetName] 성계 내 $name_giga_orbital$의 건설 부지가 이제 준비되었습니다. 이 궤도 플랫폼은 성계 전역에서 소행성을 수집하기 위한 중계 기지 역할을 할 것이며, 준비가 되면 링의 골조 구조물로 미래에 편입될 것입니다.\n\n§Y참고: 건설에 사용하려는 모든 소행성이 이상 현상이 없어야 하고 특수 프로젝트나 고고학 유적지 연구가 완료되어 있어야 합니다. 그렇지 않으면 수집에서 §R제외§!됩니다. §R선택은 최종§!입니다! 통합 단계가 시작되면!§!" # 14198439938210471688
@@ -8652,14 +8543,6 @@
   giga_aeternum.43281.c: "흥미롭군." # 9903619114818313320
   giga_aeternum.43281.desc.d: "우리 탐사대는 아이온디아에 위치한 거대한 저수지에 대해 철저한 분석을 수행했다고 보고했습니다.\n\n철저한 조사를 통해 저수지 바닥에 놓인 특이한 덩어리를 발견했고, 후속 탐사에서 그것이 §Y거대한 골격§!!임을 밝혀냈습니다. 길이가 100킬로미터를 훌쩍 넘는 이 거대한 표본은 먼 과거에 아에테르눔에 의해 생명공학적으로 개조된 것으로 보이며, 아마도 살아있는 생명체가 얼마나 거대해질 수 있는지 알아내기 위한 시도였을 것입니다.\n\n이 골격은 생명체의 크기와 수명을 최대화하기 위한 고도로 발전된 유전자 개량의 증거를 보여주며, 대략적인 계산에 따르면 이 전체 생명체는 작은 달보다 더 무거웠을 것입니다.\n\n이 생명체가 얼마나 오래 살았는지는 알 수 없지만, 뼈에는 격렬한 파열을 겪었음이 분명하게 드러나 있습니다. 이는 물의 부력에도 불구하고 자체 무게를 견디지 못하고 무너져 내릴 만큼 단순히 너무 컸음을 시사합니다. 이 프로젝트는 이 실패 이후 아에테르눔에 의해 폐기되었을 것이며, 그들은 이를 복제하거나 개선하려는 어떠한 명백한 시도도 하지 않았습니다.\n\n하지만 이것은 아에테르눔의 생명공학 기술과 그들의 과학적 방법 전반에 대한 놀라운 통찰력을 가져왔습니다." # 6448072509074812944
   giga_aeternum.43281.d: "가엾은 것..." # 10152310979050954705
-  d_aeternum_gigantic_fission_reactor: "거대한 핵분열 원자로" # 3253401782103603259
-  d_aeternum_gigantic_fission_reactor_desc: "먼 과거 아에테르눔이 건설한 특이한 핵분열 원자로, 거대한 우라늄 덩어리로 가동되며 막대한 양의 전기를 생산합니다." # 8889186149483258606
-  d_exp_civ_primitive_preserve: "원시 문명 버치 보호구역" # 4576529318400036259
-  d_exp_civ_primitive_preserve_desc: "하나의 원시 문명 전체가 버치 세계의 조각에 거주하고 있습니다. 그들을 연구하는 것은 엄청난 과학적 잠재력을 가집니다." # 2772375438959521725
-  d_exp_civ_space_preserve: "우주 시대 문명 자작나무 보존지" # 17143026092373260793
-  d_exp_civ_space_preserve_desc: "자작나무 세계의 한 조각에 우주 시대 문명 전체가 거주하고 있습니다. 그들을 연구하는 것은 엄청난 과학적 잠재력을 가집니다." # 4165098623256837209
-  d_exp_civ_fe_preserve: "선구자 문명 자작나무 보존지" # 18054906102544176336
-  d_exp_civ_fe_preserve_desc: "버치 월드의 일부에 고대 선구자 문명 전체가 거주하고 있습니다. 그들을 연구하는 것은 엄청난 과학적 잠재력을 의미합니다." # 2183043218304498346
   birch_gain_20_pops: "§Y20 [aet_birch_civilisation.GetName]§! 팝을 획득합니다." # 16577369789320732905
   birch_gain_40_pops: "저희는 §Y40 [aet_birch_civilisation.GetName]§! 팝을 얻었습니다." # 15966453502222450814
   birch_gain_80_pops: "우리는 §Y80 [aet_birch_civilisation.GetName]§! 팝을 얻게 됩니다." # 966141844210673140
@@ -9289,8 +9172,6 @@
   KINETIC_AETERNUM_DESC: "이 무기는 루프 양자 기술에 기반하여, 고전 물리학에 따르면 통상 불가능하다고 여겨지는 속도로 하나의 강력한 발사체를 가속시키기 위해 만들어졌습니다. 여기에는 소량의 사이오닉 잠재력이 강화되어, 발사체가 표적에 충돌하기 전에 자율적으로 유도되고 자체 조정을 수행할 수 있게 합니다." # 9717413971176480265
   AUTOCANNON_AETERNUM: "에테르나이트 루프 양자 빔 방사기" # 18252997536227767605
   AUTOCANNON_AETERNUM_DESC: "이터나이트 빔 방사기는 사이오닉 에너지의 소용돌이에 둘러싸인 응축된 양자장의 지속적인 빔을 집중시킵니다. 이는 가볍고 재빠른 적 함선을 상대로 의도되었으며, 빔 내에 포함된 사이오닉 잠재력은 목표 명중을 확실히 하기 위해 스스로 조정할 수 있게 해줍니다." # 13336217299881473707
-  d_aeternum_decaying_hyperstructure: "쇠퇴하는 초구조물" # 842122835258246876
-  d_aeternum_decaying_hyperstructure_desc: "이 거대 자작나무 행성의 넓은 지역이 수천 년간 방치된 후 황폐화되었습니다. 이곳을 복구하는 것은 의심의 여지 없이 막대한 노력이 필요하겠지만, 이 거대 자작나무 행성의 거주 가능 구역을 다시 확장할 수 있게 해줄 것입니다.\n\n이를 정리하면 §G3§! $aeternum_tech_intel$를 얻게 됩니다." # 12035577896565250418
   col_aeternum_capital: "애터나이트 수도" # 10118911217274009741
   col_aeternum_capital_desc: "고대 아에테르니테 문명의 심장부 역할을 하는 거대한 버치 월드." # 7493738411049877688
   building_giga_aeternum_birch_capital: "애터나이트 수도" # 10118911217274009741
@@ -11101,10 +10982,6 @@
   giga_flavor_systems.1100.desc: "초기 식민지화 단계가 종료된 후, §Y[ROOT.GetName]§!의 거대한 데이터뱅크 및 네트워크 시스템에 대한 개략적인 분석 결과, 행성 컴퓨팅 단지 전체에 관한 한 가지 골칫거리가 드러났습니다.\n\n실제로, 고대 행성 컴퓨터의 대부분은 출처를 알 수 없는 §RRogue AI§!에 의해 점유된 것으로 보이며, 이는 지난 수천 년간 행성 전체를 자신의 처리 코어로 사용해 왔습니다. 또한 이 AI는 이전까지 행성 궤도를 돌던 적대적인 방어 기지들의 배후일 가능성이 높으며, 이는 아마도 침입자들을 막기 위한 수단으로 구축되었을 것입니다.\n\n불행히도, 이 행성 크기의 AI의 의도는 우리에게 완전히 미지수이며, 해당 AI가 사용하는 인프라에 대한 신속한 분석 결과, 그 프로그래밍이 이전에 접했던 어떤 것과도 근본적으로 다르다는 것이 밝혀졌습니다. 더불어 수십 겹의 끊임없이 변화하는 암호화 방식으로 보호되고 있습니다.\n\n그 의도와는 상관없이, 이 초지능 AI는 우리가 자신의 처리 장치를 점유하는 것을 매우 꺼리는 것이 분명하며, 이제 우리의 식민지 개척자들과 적극적으로 싸우고 있습니다. 행성 컴퓨팅 단지의 인프라 일부를 §Y셧다운§!시키거나 나머지 부분에 악성 블로트웨어를 채워 넣어 우리가 행성에 정착하는 것을 방해하고 있습니다.\n\n만약 우리가 컴퓨팅 단지의 처리 능력을 완전히 사용하고자 한다면, 행성에서 AI를 제거하기 위한 대규모 작전을 수행해야 할 것입니다. AI가 행성 전역으로 확산하는 것을 가능하게 하는 분산된 중계기와 서버를 셧다운시켜야 합니다. 추가적으로, AI가 더 노골적으로 적대적이 될 경우를 대비하여 행성에 일부 수비대를 주둔시키는 것이 현명할 수 있습니다." # 3733614402642215852
   giga_flavor_systems.1100.a: "때가 되면 처리될 것이다." # 7496052778794129387
   giga_flavor_systems.1100.b: "폭주 인공지능이 탐지되었습니다. 제거는 필수입니다." # 13488175959773878450
-  d_giga_rogue_ai_relay_servers: "불량 프로세서 어레이" # 10449677144289494658
-  d_giga_rogue_ai_relay_servers_desc: "기반 시설 사보타주 및 식민지 개척자 적극적 살해 시도를 통해 우리와 매 순간 저항하기 위해, 로그 AI가 행성 컴퓨팅 복합체에 그 힘을 투사하는 데 사용하는 광대한 배열의 프로세서와 서버." # 9821731367471121271
-  d_giga_rogue_ai_corrupt_code: "손상된 코드" # 11892568193987409565
-  d_giga_rogue_ai_corrupt_code_desc: "이 행성 연산 복합체의 데이터뱅크 상당 부분이 위험한 블로트웨어 코드로 가득 차 있으며, 이 행성에서의 과학적 노력을 적극적으로 방해하고 있습니다." # 17075491488341020596
   giga_rogue_ai_computer: "행성 폭주 인공지능" # 13135036308529211914
   giga_rogue_ai_computer_desc: "이 행성 컴퓨터 단지의 미궁 같은 행성 규모 데이터뱅크 안에 적대적이고 수천 년 묵은 폭주 AI가 깃들어 있습니다." # 13314446390941487168
   giga_rogue_ai_computer_build_speed: "적대적 구조물" # 18054519439820563405
@@ -11572,123 +11449,6 @@
   col_giga_gas_giant_habitat_factory_desc: "$col_habitat_factory_desc$" # 8257890372710200695
   col_giga_gas_giant_habitat_refinery: "$col_habitat_refinery$" # 17851633190550603913
   col_giga_gas_giant_habitat_refinery_desc: "$col_habitat_refinery_desc$" # 12141203359607530797
-  mod_giga_elysium_host_stability_add: "엘리시움 숙주 행성 안정도" # 2656481053031399164
-  mod_giga_elysium_host_jobs_produces_mult: "엘리시움 기반 행성 직업 산출량" # 11028018947639210399
-  giga_elysium_host_planet: "$name_orb_elysium$ 중심 행성" # 2490440179197226329
-  giga_elysium_host_planet_desc: "상부에서 통제되는 가운데, 이 행성의 통치는 주로 행성 표면 당국에 맡겨졌으며, 그들의 상부는 궤도 기지에서 관측하고 있습니다." # 5560548844594777279
-  giga_elysium_origin_fix: "$name_orb_elysium$ 기원 모성 수정" # 17615469068503671088
-  giga_elysium_origin_fix_desc: "이 수정치를 볼 수 있다면, 뭔가 잘못되었습니다!" # 8072698108316466131
-  giga_elysium_origin_build_speed: "$name_orb_elysium$ 집합체 기원" # 2607910214959159765
-  giga_elysium_origin_build_speed_desc: "이 수정자를 읽을 수 있다면, 문제가 발생했습니다!" # 17598632412719843076
-  giga_elysium_no_host: "행성 지원 부족" # 11145432207490107606
-  giga_elysium_no_host_desc: "아래 행성의 인프라 지원 없이, 이 기지의 거주민들은 고통받고 있습니다." # 9008678058824329903
-  giga_origin_no_elysium: "궤도 감독 없음" # 10714849147151451665
-  giga_origin_no_elysium_desc: "$name_orb_elysium$이 높은 곳에서 그들을 인도하지 못하니, 이 행성의 거주민들은 무질서하고 비효율적입니다." # 15777739513801513506
-  giga_dismantle_elysium: "$name_orb_elysium$ 해체" # 10678872741943558336
-  giga_dismantle_elysium_desc: "이 기지와 그것이 제공하는 억압적인 통제력은 더 이상 우리의 필요에 맞지 않습니다." # 17992274491836358536
-  giga_dismantle_elysium_tooltip: "$name_orb_elysium$가 §R파괴될 것입니다§!" # 10079104557686241964
-  d_giga_elysium_buildings: "행성 지원 기반 시설" # 8475823110973572746
-  d_giga_elysium_buildings_desc: "§W$name_orb_elysium$는 모성에서 잠금 해제되는 모든 슬롯에 대해 £building£ §Y건물 슬롯§!을 얻습니다.§!\n§W--------------§!\n모성으로부터 독립적이지 않은 만큼, 엘리시움은 충분한 지원 시설로부터 큰 이득을 얻습니다." # 11368514829509550214
-  d_giga_elysium_origin_industry: "폐기된 산업 구역" # 10963375583644166175
-  d_giga_elysium_origin_industry_desc: "과거 산업 발전 시기의 유물인 이 시대에 뒤떨어진 제조 시설들은 이제 발전을 가로막을 뿐입니다." # 5590295359911285958
-  d_giga_elysium_origin_industry_effect: "£job_foundry£ §Y[owner.GetAlloyProducer]§! 및 [owner.GetArtisanIcon] §Y[owner.GetArtisan]§! 일자리 일부를 §Y[owner.GetClerkOrMaintenanceDrone]§! 일자리로 대체합니다. 행성 지정이 §YIndustrial§!, §YFoundry§!, 또는 §YFactory§!일 경우." # 8659313983685502017
-  giga_elysium.002.name: "무분별한 [From.GetName] 산업 확장" # 11893084898442929354
-  giga_elysium.002.desc: "§Y[From.GetName]§! 상공의 엘리시움 기지 관제 센터에서 늘어나는 실업률에 대응하여 무허가 산업 활동이 증가하고 있다고 보고했습니다.\n\n이 §Y$d_giga_elysium_cottage_industry$§!는 일자리를 찾는 이들에게 고용을 약속하지만, 동시에 조직 범죄의 불길한 기운을 품고 있습니다.\n\n[From.GetName]에서의 이러한 존재는 행성의 §Y안정도에 부정적인 영향§!을 미칠 가능성이 높으며, 국가의 개입이 필요할 수 있습니다." # 17895893776947335491
-  giga_elysium.002.desc.hive: "[From.GetName] 상공의 엘리시움 정거장에 위치한 저희 관제 센터는 드론의 장기적인 유휴 상태에 대한 대응으로 지표면의 지역 관리 클러스터가 §Y$d_giga_elysium_cottage_industry$§! 건설을 명령했다고 보고했습니다.\n\n이 새로 개발된 지역은 확실히 추가적인 고용을 제공하겠지만, 그 반자율적인 특성이 일탈적인 활동을 유발하고 있으며, 장기적으로는 행성 안정성에 §Y부정적인 영향§!을 미칠 가능성이 높습니다. 제거가 필요해질 수 있습니다." # 7096134630057890962
-  giga_elysium.002.desc.machine: "§Y[From.GetName]§! 상공의 엘리시움 기지 통제 센터가 보고했습니다. 드론의 오랜 유휴 상태에 대응하여, 지표면의 반자율 구조 계획 하위 지성이 §Y$d_giga_elysium_cottage_industry$§! 건설을 명령했다고 합니다.\n\n이 새로 개발된 지역이 실제로 추가적인 고용을 제공하겠지만, 중앙 계획 시스템과의 통합 품질이 낮아 장기적으로 §Y행성 안정도에 부정적인 영향§!을 미칠 가능성이 높습니다. 제거가 필요해질 수도 있습니다." # 12770075949118543698
-  MESSAGE_GIGA_ELYSIUM_COTTAGE_INDUSTRY_TITLE: "무분별한 산업 확장" # 11211792133870631714
-  MESSAGE_GIGA_ELYSIUM_COTTAGE_INDUSTRY: "§Y$SYSTEM$§! 항성계의 §Y$PLANET$§!에서 높은 실업률로 인해 일자리를 제공하기 위한 §Y$d_giga_elysium_cottage_industry$§! 건설로 이어졌습니다." # 12913752779667011950
-  d_giga_elysium_cottage_industry: "임시 산업 지구" # 14507842019716234960
-  d_giga_elysium_cottage_industry_desc: "유휴 인구들은 고용을 제공하기 위해 이러한 가내 산업들을 건설했습니다." # 18331632066555076741
-  giga_elysium.004.name: "[From.GetName] 상에서의 무분별한 도시 확장" # 12596155641141181164
-  giga_elysium.004.desc: "§Y[From.GetName]§! 상공의 엘리시움 정거장에 있는 저희 관제 센터에서 보고하기를, 노숙자 증가에 대응하여 권리를 박탈당한 식민지 개척자 집단이 주요 정착지 외곽에 §Y$d_giga_elysium_slums$§!를 건설했다고 합니다.\n\n통치하기 어렵고 순찰하기 힘든 이곳은 조직범죄의 온상이 될 가능성이 높습니다. 따라서 [From.GetName]에 그것이 존재하는 것은 행성 안정성에 §Y부정적인 영향§!을 미칠 가능성이 높으며, 개입이 필요할 수 있습니다." # 2794585942359549458
-  giga_elysium.004.desc.hive: "§Y[From.GetName]§! 상공의 엘리시움 정거장에 있는 저희 관제 센터 보고에 따르면, 노숙자 수가 증가함에 따라 한 무리의 드론들이 생존 본능에 따라 은신처로 §Y$d_giga_elysium_slums$§!를 건설했습니다.\n\n이 새로 파낸 구조물이 추가적인 주거 공간을 제공하는 것은 사실이지만, 미로 같은 소굴은 이미 행성 거주민 중 일탈적인 요소의 안식처가 되고 있으며 앞으로 §Y행성 안정도에 부정적인 영향§!을 줄 가능성이 높습니다.\n\n철거가 필요할 수 있습니다." # 12681777900106528575
-  giga_elysium.004.desc.machine: "[From.GetName]§! 상공 엘리시움 기지의 통제 센터에서 보고하길, 드론 집결지 시설의 심각한 부족에 대응하여, 표면의 반자율 구조 계획 보조 정신체가 §Y$d_giga_elysium_slums$§!의 건설을 명령했습니다.\n\n이 신설된 지역이 실제로 노숙 드론에게 거처를 제공하겠지만, 굴집 같은 그 구조는 이미 우리 네트워크의 부패한 요소들의 안식처가 되고 있으며, 향후 §Y행성 안정도에 부정적인 영향§!을 미칠 가능성이 높습니다. 철거가 필요할 수 있습니다." # 18033582259284324004
-  MESSAGE_GIGA_ELYSIUM_SLUMS_TITLE: "무분별한 도시 확장" # 6428973505334845591
-  MESSAGE_GIGA_ELYSIUM_SLUMS: "§Y$SYSTEM$§! 성계의 §Y$PLANET$§! 행성에서 심각한 노숙자 문제에 직면하여, 거처를 제공하기 위한 §Y$d_giga_elysium_slums$§! 건설이 진행되었습니다." # 15025808218466879842
-  d_giga_elysium_slums: "임시 주거 구역" # 3186562569603963818
-  d_giga_elysium_slums_desc: "계획성이 떨어지고 일탈 행위가 만연한 이 빈민가들은 꼭 필요한 거주 공간을 제공합니다." # 12543886040791096357
-  giga_elysium.005.name: "[From.GetName]에서 가축 재배치" # 12656492025984067879
-  giga_elysium.005.desc: "§Y[From.GetName]§! 상공 엘리시움 정거장의 우리 통제 센터에서 우리 §Y$LIVESTOCK$ 팝§!들 사이에서 노숙자 문제가 증가함에 따라 현지 당국은 §Y$d_giga_elysium_livestock_pens$§!의 건설을 지시했다고 보고했습니다.\n\n우리 표준 시설보다 덜 통제되어, 거주자들은 더 구조화되지 않은 삶을 살게 될 것이며 앞으로 §Y행성 안정도에 부정적인 영향§!을 미칠 가능성이 높습니다. 해당 시설을 완전히 교체해야 할 필요가 생길 수도 있습니다." # 9058798883363418862
-  giga_elysium.005.desc.hive: "§Y[From.GetName]§! 상공의 엘리시움 정거장에 있는 제어 센터에서 보고에 따르면, 우리 §Y$LIVESTOCK$ 팝§! 사이에서 노숙자가 증가함에 따라 지표면의 지역 관리 클러스터가 §Y$d_giga_elysium_livestock_pens$§! 건설을 명령했습니다.\n\n표준 시설보다 통제가 덜한 이곳의 거주자들은 덜 구조화된 삶을 살게 될 것이며, 앞으로 §Y행성 안정도에 부정적인 영향§!을 미칠 가능성이 높습니다. 해당 시설을 완전히 교체해야 할 필요가 생길 수도 있습니다." # 6908049693334475874
-  giga_elysium.005.desc.machine: "§Y[From.GetName]§! 상공의 엘리시움 기지 관제 센터에서 보고하길, 우리 §Y$slavery_matrix$ 팝§!의 수용 공간이 심각하게 부족해짐에 따라, 지표면의 반자율 구조 계획 서브마인드가 §Y$d_giga_elysium_livestock_pens$§! 건설을 지시했습니다.\n\n표준 시설보다 통제가 덜 되므로, 알려지지 않은 설계 결함을 포함할 수 있으며 향후 §Y행성 안정도§!에 §Y부정적인 영향§!을 줄 가능성이 높습니다. 시설 전체를 교체해야 할 필요가 생길 수도 있습니다." # 16545439350002603772
-  MESSAGE_GIGA_ELYSIUM_LIVESTOCK_PENS_TITLE: "무규제 가축 재배치" # 9226855491118346728
-  MESSAGE_GIGA_ELYSIUM_LIVESTOCK_PENS: "§Y$SYSTEM$§! 성계의 §Y$PLANET$§! 행성에서 노숙하던 가축 £pop£ §YPops§!이(가) 주거지를 제공하기 위해 §Y$d_giga_elysium_livestock_pens$§!으로 이동되었습니다." # 9029889671305999034
-  d_giga_elysium_livestock_pens: "급조된 가축 사육장" # 3736564687844902676
-  d_giga_elysium_livestock_pens_desc: "우리의 표준 시설보다 덜 규제된 이 구역은 우리의 \"손님\"에게 추가적인 자유를 제공합니다. 어쩌면 너무 많은지도 모릅니다." # 1662918671456666153
-  giga_elysium.006.name: "[From.GetName] 해체됨" # 1402890601023408242
-  giga_elysium.006.desc: "[fromfrom.GetName] 상공의 엘리시움 정거장이 성공적으로 해체되었으며, 지표면 행정부가 통제권을 회복했습니다.\n\n남은 모든 거주민은 행성 지표면으로 재배치되었고, 정거장의 잔해는 궤도 이탈되었습니다." # 8409741495219272837
-  giga_elysium.006.desc.egal: "[fromfrom.GetName] 위 엘리시움 정거장이 성공적으로 해체되어, 그곳으로 도피한 엘리트들의 억압적인 통치가 끝났습니다.\n\n모든 남은 거주민들은 행성 표면으로 재배치되었으며, 정거장의 잔해는 궤도 이탈시켰습니다." # 18444588133471246560
-  giga_elysium.006.desc.gestalt: "[fromfrom.GetName] 위 엘리시움 정거장이 성공적으로 해체되었으며, 통제권이 지상 시설로 이전되었습니다.\n\n남은 모든 드론은 행성 표면으로 재배치되었으며, 정거장의 잔해는 궤도에서 이탈했습니다." # 6037860695061521308
-  giga_elysium.006.good: "잘 됐군." # 17796787233491237960
-  district_giga_elysium_housing: "거주 구역" # 16385957133127703641
-  district_giga_elysium_housing_plural: "거주 지구" # 16622095415725374266
-  district_giga_elysium_housing_desc: "넓은 주거 공간이 시뮬레이션된 전원 지역에 배치되어 있으며, 고속 통신 인프라를 직접 이용할 수 있습니다." # 7433679240783115
-  district_giga_elysium_control: "행성 통제소" # 7878595602301104042
-  district_giga_elysium_control_plural: "행성 제어 센터" # 7554345490450013941
-  district_giga_elysium_control_desc: "행성 지상 작전의 신경 중추로, 감독관들이 아래 거주민들로부터 규정 준수를 확보하는 곳입니다." # 17488687419438603434
-  district_giga_elysium_admin: "행정 구역" # 6962182817783410896
-  district_giga_elysium_admin_plural: "행정 구역" # 17157275915570106228
-  district_giga_elysium_admin_desc: "거대한 행정 시설로, 기지와 그 모성의 통신을 관리합니다." # 7856952598764933384
-  district_giga_elysium_science: "연구 구역" # 2406400051347031218
-  district_giga_elysium_science_plural: "연구 지구" # 7596816402514253068
-  district_giga_elysium_science_desc: "가장 뛰어난 인재들이 방해받지 않고 일할 수 있는 첨단 연구소." # 14103440574790132543
-  district_giga_elysium_entertainment: "오락 지구" # 6683579837239022970
-  district_giga_elysium_entertainment_plural: "오락 지구" # 6234174333343275834
-  district_giga_elysium_entertainment_desc: "대중을 만족시키기 위한 끊임없는 콘텐츠를 생산할 수 있는 방송 매체 생산 중심지." # 2565635025125651313
-  building_giga_elysium_host_capital: "엘리시움 행성 통제 센터" # 12270208683206196660
-  building_giga_elysium_host_capital_plural: "엘리시움 행성 통제 센터" # 12270208683206196660
-  building_giga_elysium_host_capital_desc: "지역 관료제의 중심지로, 상급자들을 대신하여 행성을 관리합니다." # 16347489735792455270
-  building_giga_elysium_host_major_capital: "엘리시움 행성 통제 단지" # 9729280903861796997
-  building_giga_elysium_host_major_capital_plural: "엘리시움 행성 통제 복합체" # 12908047190188737397
-  building_giga_elysium_host_major_capital_desc: "궤도상의 상관과 지역 주민 사이를 중개하는 주요 행정 중심지입니다." # 10864277892909235753
-  giga_elysium_dystopian_stability_desc: "\n§H$civic_dystopian_society$:§! 추가로, 궤도를 도는 엘리시움의 £stability£ §Y안정도§!의 §Y50%§!를 받습니다." # 16606619402118548711
-  building_giga_elysium_host_hive_capital: "엘리시움 행성 시냅스 노드" # 17891197159703447743
-  building_giga_elysium_host_hive_capital_plural: "엘리시움 행성 시냅스 노드" # 13323745149939626263
-  building_giga_elysium_host_hive_capital_desc: "집단 의식이 행성 기능을 관리하는 주된 시냅스 중계기." # 16037458479080266470
-  building_giga_elysium_host_hive_major_capital: "엘리시움 행성 시냅스 클러스터" # 17131864802665807866
-  building_giga_elysium_host_hive_major_capital_plural: "엘리시움 행성 시냅스 클러스터" # 13418235860277730464
-  building_giga_elysium_host_hive_major_capital_desc: "의식체가 행성 개발 및 계획에 집중하는 거대한 시냅스 중계기." # 2833609495374390178
-  building_giga_elysium_host_machine_capital: "엘리시움 행성 중계 노드" # 17736487649266687839
-  building_giga_elysium_host_machine_capital_plural: "엘리시움 행성 중계 노드" # 2011701079012912792
-  building_giga_elysium_host_machine_capital_desc: "저 위 궤도 기지로부터의 지시 중계 허브" # 8628386690257531812
-  building_giga_elysium_host_machine_major_capital: "엘리시움 행성 중계 넥서스" # 10508952696440883746
-  building_giga_elysium_host_machine_major_capital_plural: "엘리시움 행성 중계기 연결망" # 2648363579967726679
-  building_giga_elysium_host_machine_major_capital_desc: "강력한 행정 허브이자 중계 센터로서, 궤도에서 전송된 지시를 처리합니다." # 482839449090795565
-  building_giga_elysium_host_jobs: "고용부" # 9586174622115625953
-  building_giga_elysium_host_jobs_plural: "고용 사역원" # 10760605218033117434
-  building_giga_elysium_host_jobs_desc: "일자리가 배정되고 할당량이 내려지는 전면적인 정부 권위." # 12556327418761733339
-  building_giga_elysium_host_jobs_effect: "행성 내 §Y100§! £pop£ 팝당 우리 §YEmpire Type§!과 현재 §YColony Designation§!에 맞춰진 §Y$@giga_elysium_jobs_per_100|*0$§!개 £job£ 직업을 제공합니다." # 9182488855693882209
-  building_giga_elysium_host_jobs_amenities_effect: "행성에 있는 §Y100§! £pop£ 팝마다 우리의 §Y제국 유형§!과 현재 §Y식민지 지정§!에 알맞은 §Y$@giga_elysium_jobs_per_100|*0$§! £job£ 일자리를 제공하며, £job_clerk£ §Y$job_clerk$§! 일자리당 추가 £amenities£ §Y편의 시설§!을 제공합니다." # 3165524207014562785
-  building_giga_elysium_host_hive_jobs: "드론 할당 센터" # 10141457764625747911
-  building_giga_elysium_host_hive_jobs_plural: "일꾼 할당 센터" # 11646053560399998621
-  building_giga_elysium_host_hive_jobs_desc: "행성 전역의 드론 생산성을 유지하는 임무를 맡은, 반자율적인 신경 클러스터를 수용하는 시설." # 18164282200326660381
-  building_giga_elysium_host_machine_jobs: "작업 할당 허브" # 4377881667162909971
-  building_giga_elysium_host_machine_jobs_plural: "임무 할당 허브" # 5215802234236935814
-  building_giga_elysium_host_machine_jobs_desc: "행성 전역의 유휴 드론들에게 작업을 분배하는 연산 노드." # 4518907572356163393
-  building_giga_elysium_host_booster: "보조 산업 지구" # 9863130088041354887
-  building_giga_elysium_host_booster_plural: "보충 산업 구역" # 11739871886796475899
-  building_giga_elysium_host_booster_desc: "행성 생산성을 증진하기 위해 건설된 광대한 산업 지대." # 10809011249223128692
-  building_giga_elysium_host_booster_effect: "£job£ §Y작업 생산량§!을/를 §Y식민지 특화§!에 따라 증진시키며, 모든 £volatile_motes£ £exotic_gases£ £rare_crystals£ §Y전략 자원§! 매장량을 개발하여 채굴 작업을 제공합니다." # 11773942025353080393
-  building_giga_elysium_trash_heap: "거대한 쓰레기 더미" # 13052360717013345862
-  building_giga_elysium_trash_heap_desc: "위쪽 정거장 거주민들이 버린 엄청난 양의 잡다한 잔해 더미. 청소부들이 잔해를 뒤지며 버려진 사치품을 찾고 있습니다." # 12248502031108889504
-  building_giga_elysium_trash_heap_effect: "§Y$orbital_elysium$§!의 §Y가용 $amenity$§!의 §Y$@giga_elysium_trash_amenities|%0$§!에 해당하는 §Y$amenity$§!를 제공합니다." # 13617685866021928158
-  job_giga_elysium_controller: "엘리시안 감독관" # 8302397475910349477
-  job_giga_elysium_controller_plural: "엘리시안 감시자" # 2391623387558396654
-  job_giga_elysium_controller_desc: "권력자들에게는 우매한 대중들을 통제해야 할 의무가 있습니다." # 1448319094420314609
-  job_giga_elysium_controller_effect_desc: "£job_giga_elysium_controller£ $job_giga_elysium_controller_plural$ 은(는) 정거장의 숙주 행성을 위해 £consumer_goods£ §Y$consumer_goods$§! 을(를) £stability£ §Y안정도§! 로 변환합니다." # 8688202880588464445
-  mod_job_giga_elysium_controller_add: "$job_giga_elysium_controller$ 일자리" # 7163426447110404664
-  mod_job_giga_elysium_controller_per_pop: "$VALUE$ 팝당 §G+1§! $job_giga_elysium_controller$ 일자리" # 15728445522031116029
-  mod_job_giga_elysium_controller_per_pop_short: "\n§G+1§! £mod_job_giga_elysium_controller_add£ $VALUE$ 팝당" # 2372149753735252596
-  job_giga_elysium_controller_drone: "엘리시안 감독관 드론" # 6964710936631193369
-  job_giga_elysium_controller_drone_plural: "엘리시안 감독관 드론" # 12569591266574363903
-  job_giga_elysium_controller_drone_desc: "이 드론들은 위에서 지상 작전을 관리하며, 그렇지 않으면 잠재적으로 혼란스러울 수 있는 행성 전반에 걸쳐 질서를 유지합니다." # 16570983690834528351
-  job_giga_elysium_controller_drone_effect_desc: "£job_giga_elysium_controller_drone£ $job_giga_elysium_controller_drone_plural$는 £energy£ §Y$energy$§!을(를) £stability£ §Y$MOD_PLANET_STABILITY_ADD$§!(으)로 변환하여 스테이션의 숙주 행성에 제공합니다" # 7593088734064807505
-  mod_job_giga_elysium_controller_drone_add: "$job_giga_elysium_controller_drone$ 일자리" # 10914326655251747268
-  mod_job_giga_elysium_controller_drone_per_pop: "$VALUE$ 팝당 §G+1§! $job_giga_elysium_controller_drone$ 직업" # 5521208666675393451
-  mod_job_giga_elysium_controller_drone_per_pop_short: "\n§G+1§! £mod_job_giga_elysium_controller_add£ $VALUE$ 팝당" # 2372149753735252596
-  job_giga_elysium_controller_origin_effect_desc: "그리고 £job£ §Y직무 산출§!" # 7186184095578269063
-  giga_elysium_from_station: "$orbital_elysium$에서" # 2469911564556526879
   giga_katzen_submarine: "초공간 보트" # 2340863626238914680
   giga_katzen_submarine_plural: "아공간 함선" # 14288883365805023998
   KATZEN_SPACE_SUBMARINE: "선체" # 2998671016901531661
@@ -11772,8 +11532,6 @@
   giga_flavor_systems.2000.name: "지구 중심적인" # 13118915619321571334
   giga_flavor_systems.2000.desc: "§Y베헤모스§! 성계를 탐사하던 우리 함선 중 하나가 정말이지 물리학 법칙을 무시하는 행성계를 우연히 발견했습니다.\n\n성계 중앙의 갈색 왜성을 공전하는 특이한 대륙형 행성이 있습니다. 이 행성은 갈색 왜성의 낮은 에너지 출력으로 인해 여러 면에서 보았을 때 거주 가능할 리가 없습니다. 하지만 어찌 된 영문인지 작은 태양과 같은 천체가 해당 행성에 아주 가깝게 붙어 공전하며, 안정적인 수권과 표면의 생명체를 유지할 수 있도록 행성에 충분한 열과 에너지를 공급하고 있습니다.\n\n더욱이, 행성에는 여러 지적 종족이 진화했으며, 이들은 발전하여 현재 광범위한 산업화를 겪고 있는 수많은 원시적인 국가들을 형성했습니다.\n\n흥미롭게도, 행성 자체는 비정상적으로 수정 재료가 풍부하며, 원시 문명들은 이 재료들을 기술과 무기에 통합하는 기발한 방법을 찾아냈습니다. 이는 이런 초기 문명치고는 비정상적으로 강력한 군대로 이어졌습니다. 행성의 생태계 자체는 놀랍도록 다양하며, 이는 전체적인 진화와 생물학에 대한 우리의 이해를 거스르는 것처럼 보이는 수많은 이국적이고 난해한 종들을 품고 있습니다.\n\n의심할 여지 없이 이 행성계 전체는 거주 가능한 행성의 발달에 관한 우리의 현재 지식 대부분에 반하며, 이를 연구하는 것은 분명 우리의 과학 기반을 더욱 발전시킬 수 있는 놀라운 기회를 제공할 것입니다." # 12706264327820075164
   giga_flavor_systems.2000.a: "기묘하군." # 8017225409737157603
-  d_everfree_forest: "에버프리 포레스트" # 12544394739022361355
-  d_everfree_forest_desc: "기묘하고 거의 뚫을 수 없는 숲은 마법과도 같은 에너지로 가득 차 있습니다. 이를 개척하는 것은 거대한 규모의 작업이 되겠지만, 그 심오한 생태계를 연구하는 것은 분명 흥미로운 데이터를 산출할 것입니다." # 14927779597338581086
   giga_flavor_systems.2002.name: "파우스트가 원자 시대에 진입하다" # 10445053835641939093
   giga_flavor_systems.2002.desc: "보고에 따르면 §Y[giga_eaw_system.GetName]§! 성계 내 특이한 대륙 행성 §Y파우스트§!에 거주하는 원시 문명이 저위력 핵 장치 개발 및 실험에 성공했습니다.\n\n이 무기들은 현재로서는 비교적 희소하고 비싸지만, 기술이 발전하고 행성 내 다양한 국가들로 확산됨에 따라 기하급수적으로 증가할 것으로 예상됩니다.\n\n흥미롭게도 이 무기들은 동력원으로 기존 우라늄 핵분열에 의존하는 대신, 행성에 풍부한 수정 매장지에 담긴 에너지를 활용하여 엄청난 파괴력을 방출합니다. 우리 관측소는 이를 §Y타우모핵 장치§!라고 부르기 시작했습니다.\n\n이제부터 행성에서 대규모 분쟁이 발생할 경우, 이전보다 훨씬 더 파괴적인 양상을 띠게 될 것입니다." # 17423128225409570607
   giga_flavor_systems.2002.a: "흥미롭군." # 9903619114818313320
@@ -12012,12 +11770,6 @@
   edict_giga_aeternum_bureau_edict: "§M아이터나이트 정보국 열기§!" # 5348790296338811979
   edict_giga_aeternum_bureau_edict_desc: "아에테르눔을 감시하기 위해 아에테르나이트 정보국에 연락하십시오." # 13281584332931646864
   giga_blokkats_canon: "블록캣 외형: §G정규 블록캣§!\n블록캣은 이름에 가장 정확한 \"정식\" 외형을 갖게 됩니다. 이 초상화는 TTFTCUTS가 제작한 3D 애니메이션 초상화입니다. 기본값으로 설정할지 여부를 결정하기 위해 디스코드에서 투표가 진행되었습니다.\n이 외형이 마음에 들지 않는다면, §E스텔라리스 블록캣§!으로 전환하거나 §YGigastructural Engineering - Stellaris Blokkats§! 하위 모드를 통해 기본 외형을 해당 외형으로 설정할 수 있습니다.\n\n£blokkat_canon£\n\n§Y§E스텔라리스 블록캣§!으로 전환하려면 클릭§!" # 5270792671815675364
-  d_giga_decrepit_tunnels_1: "$d_decrepit_tunnels_1$" # 12877338230707769144
-  d_giga_decrepit_tunnels_1_desc: "$d_decrepit_tunnels_1_desc$" # 10324853476423657564
-  d_giga_decrepit_tunnels_2: "$d_decrepit_tunnels_1$" # 12877338230707769144
-  d_giga_decrepit_tunnels_2_desc: "$d_decrepit_tunnels_1_desc$" # 10324853476423657564
-  d_giga_decrepit_tunnels_3: "$d_decrepit_tunnels_1$" # 12877338230707769144
-  d_giga_decrepit_tunnels_3_desc: "$d_decrepit_tunnels_1_desc$" # 10324853476423657564
   giga_list_category_project: "§Y메가스트럭처§!" # 4884359614645467766
   gc_proj: "§Y​§!" # 14670626978993375683
   giga_list_category_kilostructure: "§B킬로 구조체§!" # 10241858697354764828
@@ -12099,7 +11851,6 @@
   origin_incohesive: "외딴 섬" # 3099871952765457186
   origin_incohesive_desc: "이 문명은 우주와 동떨어진 공간에 위치한 황량하고 생명 없는 세계에서 완전히 발전했습니다." # 16605678320745967763
   origin_incohesive_effect_desc: "- §LWormhole-Cohesive Cluster§! 내에서 시작하며, 이웃한 블랙홀 항성계에 파괴된 §LEHOF Alpha§!가 있습니다.\n- EHOF 기술에 대한 일부 진전도 주어져, EHOF를 조기에 복구할 수 있습니다.\n\n§R멀티플레이어에 대해 균형이 맞춰지지 않았습니다." # 12779423099461121769
-  d_ehof_solar_array: "원시 태양 수집기" # 10601974592114288460
   ehof_origin_init_NAME: "응집 군집" # 8967869700289969864
   ehof_origin_init_DESC: "모성은 $ehof_cohesive$ 성단 내 무작위 위치에서 시작합니다." # 1367811301719710916
   ehofo_new_capital_name: "[ehofo_old_world.GetName]" # 5380718475514996583
@@ -12129,8 +11880,6 @@
   ehof_megastructure_restored_origin: "복원 $ehof_ehof_abr$ 알파" # 11549996101236104897
   ehof_megastructure_restored_origin_DESC: "디버그" # 143360522173664303
   mod_country_sr_dark_matter_produces_mult: "월간 암흑 물질" # 17941101617594914116
-  d_small_natural_tunnel: "보레아스 터널" # 4064912396030114124
-  d_small_natural_tunnel_desc: "행성의 대륙 중앙 중 하나에 위치한 거대한 호수를 대양과 연결하는 작은 자연 터널. 그것의 존재는 모든 자연 및 이성 법칙을 초월하는 듯하며, 원주민들은 그것이 신들에 의해 창조되었다고 믿게 된다." # 18003692791868304172
   giga_fallen_empire_misc.1011.name: "이상한 동행자" # 6084460159836147481
   giga_fallen_empire_misc.1011.desc: "원시 문명 세계 §YFlusion§! 주변 우리 관측소는 행성 표면의 일상적인 조사를 통해 궤도 망원경이 마치 아무것도 없는 곳에서 갑자기 나타난 듯한 미확인 개체를 포착했다고 보고했습니다. 그 존재는 행성의 선도적인 초강대국인 §YRoqualian Republic§! 소유의 크고 거의 텅 빈 평원 한가운데에 착륙했습니다.\n\n금빛 투구와 거대한 왕관을 쓴 그 생명체는 플루시온 원주민 종족 중 알려진 어떤 종족과도 일치하지 않습니다. 그러다 다음 몇 시간 동안 평원 주변을 걸어다니며 드문 로쿠알리아 정착지만을 마주쳤습니다.\n\n이는 그 생명체를 눈에 띄게 짜증 나게 했으며, 우리가 한숨으로 추정할 수밖에 없는 것을 내쉬더니 로쿠알리아 현지인들의 경악 속에 밝은 섬광과 함께 갑자기 다시 사라졌습니다.\n\n안타깝게도 관측소는 이 존재에 대한 더 이상의 정보를 수집할 수 없었습니다. 이 특이한 방문객의 본질에 대해 플루시온인들도 우리만큼 혼란스러워하는 듯합니다..." # 8400323791278560313
   giga_fallen_empire_misc.1011.a: "별다른 흥미로운 것은 없습니다." # 15429093286676374724
@@ -12274,10 +12023,6 @@
   giga_fallen_empire_megas.5012.a: "좋게 끝나지 않을 것 같다." # 5367956837527577036
   gamers_modifier: "게이머 경험" # 4713080881097503670
   gamers_fallen_modifier: "게이머 방어 경험" # 6345197557626281786
-  d_flusio_arcology_wreck: "파괴된 거대 도시" # 17849748477716044745
-  d_flusio_arcology_wreck_desc: "플루시오 아콜로지에서 발생한 전투로 부분적으로 또는 완전히 파괴된 도시들." # 500460360055046615
-  d_flusio_arcology_anarchy: "플루시온의 무정부 상태" # 16646561948448807195
-  d_flusio_arcology_anarchy_desc: "플루션의 상당수 지역이 행성에서 카이저를 몰아내기 위한 파괴적인 전투로 인해 발생한 부수적 피해의 결과로 완전한 무정부 상태에 빠졌습니다." # 5876869257241802328
   giga_flusionoperations.6035.name: "플루시온 위기" # 1074965239520045844
   giga_flusionoperations.6035.desc: "카이저의 플루시온 통치가 마침내 끝났지만, 행성과 그 주민들은 아직 안심할 수 없습니다.\n\n카첸에게서 §Y플루시오 아콜로지§!를 되찾기 위한 전투는 행성 표면에 막대한 피해를 입혔으며, 카첸 병사들이 항복을 거부하고 포획을 막기 위해 주변 사회기반시설에 가능한 한 많은 피해를 주기로 선택하면서 상황은 더욱 악화되었습니다.\n\n그 결과, 행성 메가시티의 상당 부분이 전투로 파괴되어 폐허가 되었고, 행성 정부가 방사능 오염이 심하거나 황폐화된 지역에 갇힌 인구에게 제대로 접근하여 보급할 수 없어 행성의 넓은 구역 전체가 무법천지 무정부 상태로 빠졌습니다.\n\n§Y플루시오 아콜로지§!를 이전의 영광으로 복구하고 마침내 그 무한한 잠재력을 누리려면 많은 노력이 필요할 것이 분명합니다." # 15583265984715381171
   giga_flusionoperations.6035.a: "유감이군." # 6660131399564793137
@@ -12441,9 +12186,6 @@
   district_flusion_farming_desc: "이 거대한 농경지대와 온실들은 플루시온의 바다에서 전환된 물을 활용하여 플루시온의 극도로 비옥한 토양에서 엄청난 양의 식량을 재배합니다. 이 땅의 일부는 플루시온 주민들에게 나머지 제국 내에서 발견되는 외계 생태계를 닮은 믿을 수 없을 정도로 아름다운 경관을 제공하고, 동시에 충성스러운 인구들이 즐길 수 있도록 방대한 종류의 다양한 진미를 제공하기 위해 특별히 재형성되었습니다. 생명 공학 식물은 다른 플루시온 산업에서 발생하는 오염이 적절히 완화되도록 보장하여 플루시온 생태계의 폭주성 붕괴를 방지합니다." # 1050157043630103289
   flusion_arcology_modifier: "플루시오-아콜로지" # 13216407299716329049
   flusion_arcology_modifier_desc: "플루시오-아르코텍은 플루시온의 광대한 자원을 최대한 활용하여 행성의 효율성을 극대화합니다. 카토운, 분덴그라드, 테호의 카젠 도시들은 거대하게 확장되어 각각 수십억 명의 주민을 수용하고 있으며, 초고효율 교통 고속도로 네트워크가 전 행성을 둘러쌉니다." # 13753855585244617934
-  d_flusio_arcology_administration: "플루시오-아르코키 행정부" # 6294343021211911643
-  d_flusio_arcology_administration_desc: "플루시온을 감당하는 물류 악몽은 결코 쉬운 일이 아닙니다. 플루시온 아르콜로지가 지지할 수 있는 거대한 지역 수 때문에, 그것을 제대로 관리하기 위해 더욱 세심한 주의가 필요합니다." # 879464044696686221
-  d_flusio_arcology_administration_tooltip: "[giga_flusion_administration_mechanics]" # 3083366610459792673
   giga_flusion_administration_virtual: "§Y+1§!로 ['개념_기가_가상_식민지_크기']를 증가시킵니다.  §Y50§! £지구£지구마다 1개씩." # 8978621189578557041
   ezicania_partisans_0: "주스프리 채석장" # 14592594052780354984
   ezicania_partisans_0_desc: "주스프리 땅은 귀중한 광물이 풍부하여 카첸 산업에 큰 이점을 안겨주지만, 광산 작업이 방해받을 경우 심각한 부족 현상을 초래할 것입니다." # 10402048294297803899
@@ -12627,14 +12369,6 @@
   giga_flusionoperations.3002.a.tooltip: "캣첸의 경계심이 §R1§만큼 §R증가§!합니다." # 12499322766454775982
   giga_flusionoperations.3000.name: "§Y로쿼알트로파 댐§을 파괴한다!" # 10018578158552513695
   giga_flusionoperations.3000.desc: "§Y로콰알트로파 프로젝트§!는 로콰알레아 해의 해수면을 낮추어 농업용수를 대량 확보하고, 산업 공간을 확보하며, 무엇보다도 플루시온에 막대한 에너지를 생산하는 야심찬 사업입니다.\n\n이 댐을 파괴하면 플루시온의 경제에 상당한 영향을 미칠 수 있지만, 행성에 심각한 기후 문제를 초래할 가능성도 있습니다.\n\n§Y성공 시§! :\n§Y플루시온§!과 §Y카츠넨§!은 댐의 에너지 손실과 농업의 중단으로 인해 디버프를 받아 §YShip Speed§! 및 §YWeapons Range§!가 감소합니다.\n카츠넨 경계심은 §R증가§!하며 §R3§! 증가합니다.\n§YR오칼리엔§! 및 §YR아브카니엔§!의 저항은 §Y2§! 감소합니다. (§YExtra Warheads§! 사용 시 §Y3§! 감소)\n\n§Y실패 시§! :\n카츠넨 경계심은 §R증가§!하며 §R1§! 증가합니다.\n\n§Y성공 확률§! :\n기본: §Y70%§!\n§H카츠넨 경계심§!: §R-[flusion_primitives_country.katzen_wary_perc]%§!\n§PExtreme Risk Level§!: §R-40%§!\n§B전역 당파 활동§!: §G+[flusion_primitives_country.flusion_total_res_perc]%§!\n§B메르쿠레이히의 당파들§!: §G+[flusion_primitives_country.mercuria_res_perc]%§!\n총: §Y[flusion_primitives_country.flusion_success_chance_total]%§!" # 12481241910001774387
-  d_solaktropa_project: "로쿼알트로파 프로젝트" # 955513251874549594
-  d_solaktropa_project_desc: "로쿼알트로파 프로젝트는 캣젠족이 개발할 광활한 토지와 농업용 막대한 양의 물을 창출하지만, 플루션의 자연적인 기후를 교란시킵니다." # 17737241572851581574
-  d_solaktropa_project_wreck: "로쿼알트로파 잔해" # 10360564446810585610
-  d_solaktropa_project_wreck_desc: "로쿼알트로파 댐의 파괴로 인해 플루시온과 그 거주민들에게 헤아릴 수 없는 재앙이 초래되었습니다." # 11495198747563231687
-  d_katlantropa_project: "카틀란트로파 프로젝트" # 7343485203940087027
-  d_katlantropa_project_desc: "카틀란트로파 프로젝트는 예전 사막 지역을 관개하여 농업과 관개에 적합하게 만들고 있습니다." # 7118027248159086495
-  d_katlantropa_project_wreck: "카틀란트로파 사막화" # 9126462189880906154
-  d_katlantropa_project_wreck_desc: "카틀란트로파의 파괴로 인해 예전에는 경작지였던 지역들이 광대한 사막으로 변했습니다." # 12762995033726930113
   giga_blow_solak_dam_desc: "§HRisk Level§! - §PExtreme§!\n§HLocation§! - §BRavqualian Strait, Roqualarean Sea§!\n\nMission Requirements:\n§RExtreme Partisan Activity in Ravkanian§!\n§HSignificant Partisan Activity in Rokalien§!\n\n§L§YRoqualtro파§!는 Katzenartig 제국이 Flusion의 주요 해역 중 하나인 §YRoqualarean Sea§!의 해수면을 낮추기 위해 진행하는 대규모 지구공학 프로젝트입니다. 바다를 차단함으로써 해당 해역의 수분은 보충 속도보다 더 빠르게 증발하여 해수면이 낮아집니다.\n\n증발된 수분은 고급 기상 조작 기술을 이용하여 Rokalien 북서쪽의 대규모 섬 Atallria에 펼쳐진 광대한 농경지로 유도되고, 건조된 땅은 Flusion에 더 많은 산업을 집적시키는 데 사용됩니다.\n\n또한, 이 댐은 Flusion 전체를 가동하는 데 필요한 상당량의 에너지를 생산합니다. 이 댐을 파괴하고 이 작은 프로젝트를 무너뜨리는 것은 Flusion의 경제에 큰 타격을 줄 것입니다.§!\n\n§B필수는 아니지만, §YMercurreich§!의 저항력이 높을 경우, 게릴라군이 추가 핵탄두를 밀수하여 폭발을 성공적으로 이끌 수 있으므로 성공 확률이 높아집니다.§!\n\n§BDestroying both the §YRoqualtropa§! and the §YKatlantropa§! Dams will cause an §GAgricultural Crisis§! within the Imperium, which might cause fringe worlds to revolt against the Kaiser's rule!§!\n\n§HBlowing up the dam will cause untold devastation to both §YRokalien§! and §YRavkanien§!'s shores, which will in turn §RLOWER§! the resistance in those areas by §R2§! as their inhabitants are unlikely to support this move.§!" # 96587028805605631
   giga_blow_solak_dam_no: "§Y로쿼알트로파 댐을 파괴하라§!\n\n§H상태§! - §R사용 불가§!$giga_blow_solak_dam_desc$" # 14242852372869692869
   giga_blow_solak_dam_yes: "§Y로쿼알트로파 댐을 파괴하라§!\n\n§H상황§! - §GAvailable§!$giga_blow_solak_dam_desc$" # 8346533751568116635

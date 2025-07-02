@@ -1,0 +1,118 @@
+﻿l_korean:
+  mod_giga_elysium_host_stability_add: "엘리시움 호스트 행성 안정도" # 2656481053031399164
+  mod_giga_elysium_host_jobs_produces_mult: "엘리시움 숙주 행성 작업 산출" # 11028018947639210399
+  giga_elysium_host_planet: "$name_orb_elysium$ 숙주 행성" # 2490440179197226329
+  giga_elysium_host_planet_desc: "상위 통제하에 놓인 이 행성의 행정은 대부분 행성 주둔 당국에 위임되었으며, 그들의 상급자들은 궤도상 정거장에서 이를 주시하고 있습니다." # 5560548844594777279
+  giga_elysium_origin_fix: "$name_orb_elysium$ 기원 모성 수정" # 17615469068503671088
+  giga_elysium_origin_fix_desc: "이 수정치를 볼 수 있다면, 뭔가 잘못되었습니다!" # 8072698108316466131
+  giga_elysium_origin_build_speed: "$name_orb_elysium$ 기원 회합" # 2607910214959159765
+  giga_elysium_origin_build_speed_desc: "이 수정자가 보인다면, 무언가 잘못된 것입니다!" # 17598632412719843076
+  giga_elysium_no_host: "행성 지원 불충분" # 11145432207490107606
+  giga_elysium_no_host_desc: "아래 행성의 기반 시설 지원 없이는, 이 정거장의 거주자들은 고통받고 있습니다." # 9008678058824329903
+  giga_origin_no_elysium: "궤도 통제 없음" # 10714849147151451665
+  giga_origin_no_elysium_desc: "$name_orb_elysium$가 높은 곳에서 그들을 인도해 주지 않으니, 이 행성의 거주민들은 무질서하고 비효율적입니다." # 15777739513801513506
+  giga_dismantle_elysium: "$name_orb_elysium$ 해체" # 10678872741943558336
+  giga_dismantle_elysium_desc: "이 기지와 그것이 제공하는 억압적인 통제는 더 이상 우리의 필요에 적합하지 않습니다." # 17992274491836358536
+  giga_dismantle_elysium_tooltip: "$name_orb_elysium$이 §R파괴됩니다§!" # 10079104557686241964
+  d_giga_elysium_buildings: "행성 지원 기반 시설" # 8475823110973572746
+  d_giga_elysium_buildings_desc: "§W숙주 행성에서 개방되는 모든 건물 슬롯마다, $name_orb_elysium$은 £building£ §Y건물 슬롯§!을 획득합니다.§!\n§W--------------§!\n숙주 행성으로부터 독립적이지 못한 엘리시움은 충분한 지원 기반 시설로부터 막대한 이점을 얻습니다." # 11368514829509550214
+  d_giga_elysium_origin_industry: "버려진 산업 지구" # 10963375583644166175
+  d_giga_elysium_origin_industry_desc: "과거 산업 발전 시대의 유물인 이 노후화된 제조 시설들은 이제 오직 발전을 가로막을 뿐입니다." # 5590295359911285958
+  d_giga_elysium_origin_industry_effect: "일부 £job_foundry£ §Y[owner.GetAlloyProducer]§! 및 [owner.GetArtisanIcon] §Y[owner.GetArtisan]§! 일자리를 §Y[owner.GetClerkOrMaintenanceDrone]§! 일자리로 대체합니다. 해당 행성이 §Y산업§!, §Y주조§!, 또는 §Y제조§! 행성 지정을 보유할 때 적용됩니다." # 8659313983685502017
+  giga_elysium.002.name: "[From.GetName]에서의 무분별한 산업 확장" # 11893084898442929354
+  giga_elysium.002.desc: "§Y[From.GetName]§! 상공의 엘리시움 정거장에 위치한 우리 통제 센터는 실업률 상승에 대응하여 무단 산업 활동이 증가했다고 보고했습니다. 이 §Y$d_giga_elysium_cottage_industry$§!는 구직자들에게 일자리를 약속하지만, 조직 범죄의 불길한 기운을 내포하고 있습니다.\n\n[From.GetName]에서의 이러한 활동은 행성 안정성에 §Y부정적인 영향§!을 미칠 가능성이 높으며, 국가 개입이 필요할 수도 있습니다." # 17895893776947335491
+  giga_elysium.002.desc.hive: "§Y[From.GetName]§! 위 엘리시움 정거장의 통제 센터가 보고합니다. 장기간 지속된 드론의 유휴 상태에 대응하여 지표면의 지역 관리 클러스터가 §Y$d_giga_elysium_cottage_industry$§! 건설을 명령했습니다.\n\n이 새로 개발된 지역은 추가 고용을 제공하겠지만, 그 반자율적인 특성이 일탈적인 활동을 야기하고 있으며, 장기적으로 §Y행성 안정성에 부정적인 영향§!을 미칠 가능성이 높습니다. 제거가 필요해질 수도 있습니다." # 7096134630057890962
+  giga_elysium.002.desc.machine: "§Y[From.GetName]§! 상공의 엘리시움 정거장 통제 센터에서 보고하기를, 드론의 장기 유휴 상태에 대한 응답으로, 표면의 반자동 구조 계획 하위 지성이 §Y$d_giga_elysium_cottage_industry$§!의 건설을 명령했다고 합니다.\n\n이 새로 개발된 지역이 실제로 추가적인 고용을 제공하겠지만, 중앙 계획 시스템과의 통합 품질이 좋지 않아 장기적으로 §Y행성 안정성에 부정적인 영향§!을 미칠 가능성이 큽니다. 제거 조치가 필요할 수도 있습니다." # 12770075949118543698
+  MESSAGE_GIGA_ELYSIUM_COTTAGE_INDUSTRY_TITLE: "무분별한 산업 확장" # 11211792133870631714
+  MESSAGE_GIGA_ELYSIUM_COTTAGE_INDUSTRY: "§Y$SYSTEM$§! 성계의 §Y$PLANET$§!에 높은 실업률이 발생하여, 일자리를 제공하기 위해 §Y$d_giga_elysium_cottage_industry$§!를 건설하게 되었습니다." # 12913752779667011950
+  d_giga_elysium_cottage_industry: "간이 산업 지구" # 14507842019716234960
+  d_giga_elysium_cottage_industry_desc: "이 가내 산업들은 유휴 팝들에 의해 고용 창출을 위해 건설되었습니다." # 18331632066555076741
+  giga_elysium.004.name: "[From.GetName]의 무분별한 도시 팽창" # 12596155641141181164
+  giga_elysium.004.desc: "§Y[From.GetName]§! 상공의 엘리시움 정거장에 있는 우리 관제 센터에서 보고하기를, 노숙자 증가에 대응하여 한 무리의 사회에서 소외된 식민주의자들이 주요 정착지 외곽에 §Y$d_giga_elysium_slums$§!를 건설했다고 합니다.\n\n통제하기 어렵고 순찰하기 더욱 어려운 이곳은 조직 범죄의 온상이 될 가능성이 높습니다. 따라서, [From.GetName]에 이 시설이 존재함으로 인해 §Y행성 안정성에 부정적인 영향§!을 미치고 개입이 필요할 수 있습니다." # 2794585942359549458
+  giga_elysium.004.desc.hive: "§Y[From.GetName]§! 상공의 엘리시움 정거장 관제 센터에서 보고에 따르면, 노숙 인구 증가에 대응하여 한 드론 무리가 생존 본능에 따라 §Y$d_giga_elysium_slums$§!를 건설하여 거처로 삼았다고 합니다.\n\n이 새로이 건설된 구조물이 추가 주거 공간을 제공할 것이 분명하지만, 미로 같은 이 구역은 이미 행성 인구 중 일탈적인 요소들의 안식처가 되어가고 있으며, 앞으로 행성 안정성에 §Y부정적인 영향§!을 미칠 것으로 보입니다. 철거가 필요할 수도 있습니다." # 12681777900106528575
+  giga_elysium.004.desc.machine: "§Y[From.GetName]§! 상공의 엘리시움 정거장에 위치한 저희 통제 센터에서 다음과 같이 보고했습니다. 드론 대기 구역의 심각한 부족에 대응하여, 지표면에 있는 반자율 구조 계획 하위 지능이 §Y$d_giga_elysium_slums$§!의 건설을 명령했습니다.\n\n새로 개발된 이 지역이 실제로 노숙 드론들에게 거처를 제공하겠지만, 그 미로 같은 구조는 이미 우리 네트워크의 부패한 요소들을 위한 은신처가 되고 있으며, 앞으로 §Y행성 안정성§!에 부정적인 영향을 미칠 것으로 예상됩니다. 철거가 필요할 수도 있습니다." # 18033582259284324004
+  MESSAGE_GIGA_ELYSIUM_SLUMS_TITLE: "무분별한 도시 확장" # 6428973505334845591
+  MESSAGE_GIGA_ELYSIUM_SLUMS: "§Y$SYSTEM$§! 성계의 §Y$PLANET$§! 행성에 만연한 노숙자 문제로 인해, 거주지 제공을 위한 §Y$d_giga_elysium_slums$§!의 건설이 추진되었습니다." # 15025808218466879842
+  d_giga_elysium_slums: "간이 주거 지구" # 3186562569603963818
+  d_giga_elysium_slums_desc: "계획이 미흡하고 일탈 행위가 만연한 이 빈민가들은 절실히 필요한 거주 공간을 제공합니다." # 12543886040791096357
+  giga_elysium.005.name: "[From.GetName]에서 가축 재배치" # 12656492025984067879
+  giga_elysium.005.desc: "§Y[From.GetName]§! 상공에 위치한 엘리시움 정거장의 관제 센터에서 보고했습니다. 우리의 §Y$LIVESTOCK$ 팝§!들 사이에서 노숙자가 증가함에 따라, 지방 당국은 §Y$d_giga_elysium_livestock_pens$§! 건설을 명령했습니다.\n\n일반적인 시설보다 통제가 덜한 이곳의 거주민들은 덜 체계적인 삶을 살게 될 것이며, 이는 앞으로 §Y행성 안정도에 부정적인 영향§!을 미칠 가능성이 높습니다. 해당 시설을 완전히 교체해야 할 수도 있습니다." # 9058798883363418862
+  giga_elysium.005.desc.hive: "§Y[From.GetName]§! 상공의 엘리시움 정거장 내 당사 통제 센터가, 당사의 §Y$LIVESTOCK$ 팝§!들 사이에서 증가하는 노숙 문제에 대응하여, 지표면의 지역 관리 클러스터가 §Y$d_giga_elysium_livestock_pens$§!의 건설을 지시했다고 보고합니다.\n\n당사의 표준 시설보다 통제력이 낮은 만큼, 거주자들은 덜 구조화된 삶을 살게 될 것이며 향후 행성 안정성에 §Y부정적인 영향§!을 미칠 가능성이 높습니다. 해당 시설을 완전히 교체하는 것이 필요할 수도 있습니다." # 6908049693334475874
+  giga_elysium.005.desc.machine: "§Y[From.GetName]§! 상공 엘리시움 기지의 우리 통제 센터는 다음과 같이 보고합니다. 우리 §Y$slavery_matrix$ 팝§!들을 위한 저장 공간의 심각한 부족에 대응하여, 지표면의 반자율 구조 계획 하위 지성이 §Y$d_giga_elysium_livestock_pens$§! 건설을 명령했다고 합니다.\n\n표준 시설보다 통제 수준이 낮아, 알려지지 않은 설계 결함을 포함할 수 있으며, 향후 §Y행성 안정성에 부정적인 영향§!을 미칠 가능성이 높습니다. 시설 전체를 교체해야 할 수도 있습니다." # 16545439350002603772
+  MESSAGE_GIGA_ELYSIUM_LIVESTOCK_PENS_TITLE: "무분별한 가축 재배치" # 9226855491118346728
+  MESSAGE_GIGA_ELYSIUM_LIVESTOCK_PENS: "§Y$SYSTEM$§! 성계의 §Y$PLANET$§! 행성에 있는 노숙자 가축 £pop£ §YPops§!이(가) 쉼터를 제공받기 위해 §Y$d_giga_elysium_livestock_pens$§!(으)로 이동되었습니다." # 9029889671305999034
+  d_giga_elysium_livestock_pens: "임시 가축 사육장" # 3736564687844902676
+  d_giga_elysium_livestock_pens_desc: "표준 시설보다 규제가 덜한 이 수용 시설은 저희 \"손님\"들에게 추가적인 자유를 제공합니다. 아마도 너무 많은 자유일지도 모릅니다." # 1662918671456666153
+  giga_elysium.006.name: "[From.GetName] 퇴역했습니다." # 1402890601023408242
+  giga_elysium.006.desc: "[fromfrom.GetName] 상공의 엘리시움 정거장이 성공적으로 해체되어 지표면 행정부에 통제권이 회복되었습니다.\n\n남아있던 모든 거주민들은 행성 표면으로 재배치되었으며, 정거장의 잔해는 궤도 이탈 처리되었습니다." # 8409741495219272837
+  giga_elysium.006.desc.egal: "[fromfrom.GetName] 상공의 엘리시움 정거장이 성공적으로 해체되어, 그곳으로 도피했던 엘리트들의 억압적인 통치가 종식되었습니다.\n\n남아있던 모든 거주민들은 행성 표면으로 재배치되었으며, 정거장의 잔해는 궤도 이탈 처리되었습니다." # 18444588133471246560
+  giga_elysium.006.desc.gestalt: "[fromfrom.GetName] 상공의 엘리시움 정거장이 성공적으로 해체되어, 통제권이 지상 시설로 이관되었습니다.\n\n모든 잔여 드론은 행성 표면으로 재배치되었으며, 정거장의 잔해는 궤도 이탈되었습니다." # 6037860695061521308
+  giga_elysium.006.good: "속 시원하군." # 17796787233491237960
+  district_giga_elysium_housing: "거주 구역" # 16385957133127703641
+  district_giga_elysium_housing_plural: "거주 지구" # 16622095415725374266
+  district_giga_elysium_housing_desc: "시뮬레이션된 전원 풍경 속에 자리 잡은 널찍한 주거 공간으로, 고속 통신 인프라에 직접 연결됩니다." # 7433679240783115
+  district_giga_elysium_control: "행성 관제 센터" # 7878595602301104042
+  district_giga_elysium_control_plural: "행성 통제 센터" # 7554345490450013941
+  district_giga_elysium_control_desc: "행성 내 작전의 신경 중추이며, 감독관들이 하층 인구의 복종을 확보합니다." # 17488687419438603434
+  district_giga_elysium_admin: "행정 지구" # 6962182817783410896
+  district_giga_elysium_admin_plural: "행정 구역" # 17157275915570106228
+  district_giga_elysium_admin_desc: "정거장과 그 모행성을 위한 통신을 관리하는 광활한 행정 시설." # 7856952598764933384
+  district_giga_elysium_science: "연구 지구" # 2406400051347031218
+  district_giga_elysium_science_plural: "연구 지구" # 7596816402514253068
+  district_giga_elysium_science_desc: "우리의 가장 총명한 인재들이 방해받지 않고 연구할 수 있는 첨단 연구실." # 14103440574790132543
+  district_giga_elysium_entertainment: "오락 지구" # 6683579837239022970
+  district_giga_elysium_entertainment_plural: "오락 지구" # 6234174333343275834
+  district_giga_elysium_entertainment_desc: "방송 매체 생산의 중심지이며, 대중을 만족시킬 끝없는 콘텐츠 흐름을 생산할 수 있습니다." # 2565635025125651313
+  building_giga_elysium_host_capital: "엘리시움 행성 통제 센터" # 12270208683206196660
+  building_giga_elysium_host_capital_plural: "엘리시움 행성 통제 센터" # 12270208683206196660
+  building_giga_elysium_host_capital_desc: "상급자들을 대신하여 행성을 관리하는 지역 관료제의 거점입니다." # 16347489735792455270
+  building_giga_elysium_host_major_capital: "엘리시움 행성 통제 단지" # 9729280903861796997
+  building_giga_elysium_host_major_capital_plural: "엘리시움 행성 통제 복합 단지" # 12908047190188737397
+  building_giga_elysium_host_major_capital_desc: "궤도상의 상급자들과 지역 주민들 사이를 조율하는 주요 행정 중심지." # 10864277892909235753
+  giga_elysium_dystopian_stability_desc: "\n§H$civic_dystopian_society$:§! 추가로 궤도를 도는 엘리시움의 £stability£ §Y안정도§!의 §Y50%§!를 획득합니다." # 16606619402118548711
+  building_giga_elysium_host_hive_capital: "엘리시움 행성 시냅스 노드" # 17891197159703447743
+  building_giga_elysium_host_hive_capital_plural: "엘리시움 행성 시냅스 노드" # 13323745149939626263
+  building_giga_elysium_host_hive_capital_desc: "집단 정신이 행성 지상 기능을 관리하는 주 시냅스 중계기." # 16037458479080266470
+  building_giga_elysium_host_hive_major_capital: "엘리시움 행성 시냅스 클러스터" # 17131864802665807866
+  building_giga_elysium_host_hive_major_capital_plural: "엘리시움 행성 시냅스 군집" # 13418235860277730464
+  building_giga_elysium_host_hive_major_capital_desc: "군체의식이 행성 개발 및 계획에 집중하는 거대한 시냅스 중계기." # 2833609495374390178
+  building_giga_elysium_host_machine_capital: "엘리시움 행성 중계 노드" # 17736487649266687839
+  building_giga_elysium_host_machine_capital_plural: "엘리시움 행성 중계 노드" # 2011701079012912792
+  building_giga_elysium_host_machine_capital_desc: "상공의 기지로부터 지시를 중계하는 신호 중계 허브." # 8628386690257531812
+  building_giga_elysium_host_machine_major_capital: "엘리시움 행성 중계 중추" # 10508952696440883746
+  building_giga_elysium_host_machine_major_capital_plural: "엘리시움 행성 중계 넥서스들" # 2648363579967726679
+  building_giga_elysium_host_machine_major_capital_desc: "강력한 행정 허브이자 중계 센터로, 궤도에서 전송된 지시를 처리합니다." # 482839449090795565
+  building_giga_elysium_host_jobs: "고용부" # 9586174622115625953
+  building_giga_elysium_host_jobs_plural: "고용부" # 10760605218033117434
+  building_giga_elysium_host_jobs_desc: "직무가 할당되고 쿼터가 부과되는 전방위적인 정부 당국." # 12556327418761733339
+  building_giga_elysium_host_jobs_effect: "행성 내 §Y100§! £pop£ 팝당 §Y$@giga_elysium_jobs_per_100|*0$§!개의 £job£ 일자리를 제공하며, 이 일자리는 우리 §Y제국 유형§!과 현재의 §Y식민지 지정§!에 맞춰집니다." # 9182488855693882209
+  building_giga_elysium_host_jobs_amenities_effect: "행성의 팝 §Y100§!명당 우리 §Y제국 유형§!과 현재 §Y식민지 지정§!에 적합한 §Y$@giga_elysium_jobs_per_100|*0$§!의 £job£ 일자리를 제공하며, £job_clerk£ §Y$job_clerk$§! 일자리당 추가 £amenities£ §Y쾌적도§!를 제공합니다." # 3165524207014562785
+  building_giga_elysium_host_hive_jobs: "드론 할당 센터" # 10141457764625747911
+  building_giga_elysium_host_hive_jobs_plural: "드론 할당 센터" # 11646053560399998621
+  building_giga_elysium_host_hive_jobs_desc: "행성 전역의 드론 생산성을 유지하는 임무를 맡은 반자율 신경 클러스터를 수용하는 시설." # 18164282200326660381
+  building_giga_elysium_host_machine_jobs: "임무 할당 허브" # 4377881667162909971
+  building_giga_elysium_host_machine_jobs_plural: "임무 배정 허브" # 5215802234236935814
+  building_giga_elysium_host_machine_jobs_desc: "행성 전역의 유휴 드론들에게 작업을 분배하는 연산 노드." # 4518907572356163393
+  building_giga_elysium_host_booster: "보조 산업 구역" # 9863130088041354887
+  building_giga_elysium_host_booster_plural: "보조 산업 부문" # 11739871886796475899
+  building_giga_elysium_host_booster_desc: "행성 생산성을 증강시키기 위해 건설된 거대한 산업 지대." # 10809011249223128692
+  building_giga_elysium_host_booster_effect: "§Y식민지 지정§!에 기반하여 £job£의 §Y작업 생산량§!에 보너스를 제공하며, 모든 £volatile_motes£ £exotic_gases£ £rare_crystals£ §Y전략 자원§! 매장지를 채굴하여 채굴 작업을 제공합니다" # 11773942025353080393
+  building_giga_elysium_trash_heap: "거대한 쓰레기 더미" # 13052360717013345862
+  building_giga_elysium_trash_heap_desc: "상부 정거장 거주민들이 폐기한, 거대한 온갖 종류의 잔해 더미. 청소부들은 그 잔해 속을 뒤지며 폐기된 사치품을 찾고 있다." # 12248502031108889504
+  building_giga_elysium_trash_heap_effect: "§Y$궤도 엘리시움$§!에 있는 §Y사용 가능한 $쾌적도$§!의 §Y$@giga_elysium_trash_amenities|%0$§!만큼의 §Y$쾌적도$§!를 제공합니다." # 13617685866021928158
+  job_giga_elysium_controller: "엘리시안 감독관" # 8302397475910349477
+  job_giga_elysium_controller_plural: "엘리시안 감독관" # 2391623387558396654
+  job_giga_elysium_controller_desc: "권력을 쥔 자들은 우매한 대중을 통제할 의무가 있다." # 1448319094420314609
+  job_giga_elysium_controller_effect_desc: "£job_giga_elysium_controller£ $job_giga_elysium_controller_plural$는 £소비재£ §Y$consumer_goods$§!를 스테이션의 숙주 행성을 위한 £안정도£ §YStability§!로 전환합니다." # 8688202880588464445
+  mod_job_giga_elysium_controller_add: "$job_giga_elysium_controller$ 직업" # 7163426447110404664
+  mod_job_giga_elysium_controller_per_pop: "§G+1§! 기가 엘리시움 제어자 직업 (팝 $VALUE$당)" # 15728445522031116029
+  mod_job_giga_elysium_controller_per_pop_short: "\n§G+1§! £mod_job_giga_elysium_controller_add£ $VALUE$ 팝당" # 2372149753735252596
+  job_giga_elysium_controller_drone: "엘리시안 감독관 드론" # 6964710936631193369
+  job_giga_elysium_controller_drone_plural: "엘리시안 감독관 드론" # 12569591266574363903
+  job_giga_elysium_controller_drone_desc: "이 드론들은 상공에서 행성 운영을 관리하며, 그렇지 않으면 잠재적으로 혼란스러워질 수 있는 행성 전반의 질서를 유지합니다." # 16570983690834528351
+  job_giga_elysium_controller_drone_effect_desc: "£job_giga_elysium_controller_drone£ $job_giga_elysium_controller_drone_plural$는 정거장의 숙주 행성에 £에너지£ §Y$energy$§!를 £안정도£ §Y$MOD_PLANET_STABILITY_ADD$§!로 전환합니다." # 7593088734064807505
+  mod_job_giga_elysium_controller_drone_add: "$job_giga_elysium_controller_drone$ 직업" # 10914326655251747268
+  mod_job_giga_elysium_controller_drone_per_pop: "§G+1§! $job_giga_elysium_controller_drone$ 직업, 팝 $VALUE$개당" # 5521208666675393451
+  mod_job_giga_elysium_controller_drone_per_pop_short: "\n§G+1§! £mod_job_giga_elysium_controller_add£ $VALUE$ 팝당" # 2372149753735252596
+  job_giga_elysium_controller_origin_effect_desc: "그리고 £job£ §YJob Output§!" # 7186184095578269063
+  giga_elysium_from_station: "$orbital_elysium$에서" # 2469911564556526879
