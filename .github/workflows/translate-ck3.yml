@@ -10,10 +10,12 @@ on:
       - "ck3/**/upstream/**/localisation/**"
 
 jobs:
-  update-upstream:
+  translate:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      GOOGLE_AI_STUDIO_TOKEN: "${{secrets.GOOGLE_AI_STUDIO_TOKEN}}"
     steps:
       - uses: actions/checkout@v4
         with:
@@ -21,7 +23,7 @@ jobs:
       - uses: actions/cache@v4
         with:
           key: translate-cache
-          path: ./translate-cache.db
+          path: "**.db"
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
