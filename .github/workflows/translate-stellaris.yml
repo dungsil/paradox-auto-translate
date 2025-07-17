@@ -10,7 +10,7 @@ on:
       - "stellaris/**/upstream/**/localisation/**"
 
 jobs:
-  update-upstream:
+  translate:
     runs-on: ubuntu-latest
     permissions:
       contents: write
