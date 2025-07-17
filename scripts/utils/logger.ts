@@ -5,5 +5,5 @@ export const log = createConsola({
   formatOptions: {
     colors: true,
   },
-  level: LogLevels.debug,
+  level: LogLevels.info,
 })
