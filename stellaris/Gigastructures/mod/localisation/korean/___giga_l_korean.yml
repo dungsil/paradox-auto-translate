@@ -1491,12 +1491,15 @@
   giga_massive_planet_plural: "공격 위성" # 311473619455108557
   giga_war_moon_fe: "고대 공격 달" # 12701664606998627638
   giga_war_moon_fe_plural: "핵심" # 17314848919636016994
+  giga_massive_planet_cap: "전투 위성" # 6371887290380913955
   giga_planet_behemoth: "$name_war_planet$" # 8615688336847294459
   giga_planet_behemoth_plural: "$name_war_planet$들" # 17850681974757548471
   giga_planet_behemoth_fe: "고대 $name_war_planet$" # 10837620686614496979
   giga_planet_behemoth_fe_plural: "고대 $name_war_planet$ 행성들" # 13071236191469470678
+  giga_planet_behemoth_cap: "$giga_planet_behemoth$" # 214349657996452214
   giga_systemcraft: "$name_war_system$" # 13122299119511565625
   giga_systemcraft_plural: "$name_war_system$들" # 3463753323009957381
+  giga_systemcraft_cap: "$giga_systemcraft$" # 3771108497012201623
   Pouchkguard: "푸슈크가드" # 12231941695351768696
   Pouchkguard_plural: "푸츠크가즈" # 17260051880415688254
   quasi_stellar_wormhole: "준성 웜홀" # 10558114412586138705
@@ -9579,6 +9582,7 @@
   ASTEROID_ARTILLERY_BOW: "보조 무장" # 15706299444693916415
   asteroid_artillery: "소행성 포대" # 17509585176599227786
   asteroid_artillery_plural: "소행성 포대" # 10901752024064934293
+  asteroid_artillery_cap: "$asteroid_artillery$" # 7010729805802018246
   REACTOR_ASTEROID: "소행성 동력 핵" # 17035354080553632007
   REACTOR_ASTEROID_DESC: "소행성 지각 깊숙이 거대한 첨단 반응로가 자리해 있으며, 구조물의 방대한 무기 체계에 막대한 에너지를 공급하고 있습니다." # 3944728182615624485
   asteroid_artillery_0: "$gc_kilo$소행성 포격 체계 골격" # 15022701126389636192
@@ -9702,6 +9706,8 @@
   tradition_macroengineering_desc: "대담하게 생각하는 자들은 스스로 우주의 지배자가 될 운명입니다." # 8255615191624767674
   tr_macroengineering_adopt: "거대 공학 전통" # 14219266320228100376
   tr_macroengineering_finish: "거대공학 전통 완료" # 1742534931167179767
+  giga_macroengineering_alloy: "$tr_macroengineering_space_rails$ 전통" # 1141946575500881964
+  giga_macroengineering_alloy_tt: "지역 태양계 내 ['concept_mining_station']당 $job_foundry_plural_with_icon$ 팝당 £alloys£ $alloys$ §G+0.025§!" # 5012705160625329713
   tr_macroengineering_skyhooks: "우주 엘리베이터" # 14105740498854508384
   tr_macroengineering_skyhooks_delayed: "더 간단한 해결책이 존재하는데, 왜 복잡한 해결책을 사용합니까? 스카이훅은 운동 에너지 전달에 전적으로 기반하여, 첨단 기술 없이도 다른 천체들 사이에서 페이로드를 수송하는 비교적 저렴하고 저기술적인 방법입니다. 이는 영구적인 기반 시설이 구축되기 전에 새로 건설된 식민지의 개발을 지원하는 데 사용될 수 있습니다." # 8523949990710451920
   tr_macroengineering_space_rails: "전자기 가속기" # 4487820147251596084

@@ -7,20 +7,20 @@
   mod_megastructures_giga_sr_amb_megaconstruction_upkeep_mult: "거대 구조물 $giga_sr_amb_megaconstruction$ 유지비" # 7177092907431759312
   mod_planet_giga_megaengineers_produces_mult: "£job_giga_megaengineer£ $planet_giga_megaengineers$ 산출량" # 1591170591453713878
   mod_planet_giga_megaengineers_upkeep_mult: "$planet_giga_megaengineers$ 유지비" # 15177573653533757726
-  mod_planet_giga_megaengineers_job_giga_sr_amb_megaconstruction_produces_add: "£job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]으로부터 £giga_sr_amb_megaconstruction£ $giga_sr_amb_megaconstruction$" # 7622353815141504411
-  mod_planet_giga_megaengineers_job_alloys_upkeep_add: "£job_giga_megaengineer£ [giga_amb_megaengineer_name_plural] 유지비: £alloys£ $alloys$" # 712237395214636537
-  mod_planet_giga_megaengineers_job_giga_sr_sentient_metal_upkeep_add: "£giga_sr_sentient_metal£ 지각 금속 유지비 £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]" # 9579997955276817864
-  mod_planet_giga_megaengineers_job_unity_upkeep_add: "£unity£ $unity$ £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]의 유지 비용" # 2901108544964217884
-  mod_planet_giga_megaengineers_job_minerals_upkeep_add: "£광물£ $minerals$ £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]의 유지비" # 8342241258182913060
-  mod_planet_giga_megaengineers_job_energy_upkeep_add: "£energy£ $energy$ £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]의 유지비" # 9644285672494241981
-  mod_planet_giga_megaengineering_overseers_giga_sr_amb_megaconstruction_produces_add: "[giga_amb_megaengineering_overseer_name_plural] £job_giga_megaengineering_overseer£으로부터 £giga_sr_amb_megaconstruction£ $giga_sr_amb_megaconstruction$" # 4768097265900218018
-  mod_planet_giga_megaengineering_overseers_alloys_upkeep_add: "£alloys£ $alloys$ 유지 비용: £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]" # 7022374944003392656
-  mod_planet_giga_megaengineering_overseers_giga_sr_sentient_metal_upkeep_add: "£giga_sr_sentient_metal£ $giga_sr_sentient_metal$ (£job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural] 유지비)" # 2511376876212240915
-  mod_planet_giga_megaengineering_overseers_unity_upkeep_add: "£unity£ $unity$ £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseeing_name_plural]의 유지비" # 11949025364240915215
-  mod_planet_giga_megaengineering_overseers_energy_upkeep_add: "£energy£ $energy$ £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]의 유지비" # 3690634061898753070
-  mod_planet_giga_megaengineering_overseers_minerals_upkeep_add: "$minerals$ £minerals£ [giga_amb_megaengineering_overseer_name_plural] 유지비" # 15455208894126138883
-  mod_planet_giga_megaengineering_overseers_food_upkeep_add: "£food£ $food$ £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]의 유지비" # 5030461568713355593
-  mod_planet_giga_megaengineering_overseers_consumer_goods_upkeep_add: "£consumer_goods£ $consumer_goods$ £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural] 유지비" # 11750617853938542440
+  mod_planet_giga_megaengineers_job_giga_sr_amb_megaconstruction_produces_add: "$pop_group_unit$ £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural] 당 £giga_sr_amb_megaconstruction£ $giga_sr_amb_megaconstruction$" # 1248603897401094675
+  mod_planet_giga_megaengineers_job_alloys_upkeep_add: "£job_giga_megaengineer£ [giga_amb_megaengineer_name_plural] $pop_group_unit$ 당 유지비: £alloys£ $alloys$" # 16612139813164930572
+  mod_planet_giga_megaengineers_job_giga_sr_sentient_metal_upkeep_add: "£giga_sr_sentient_metal£ $giga_sr_sentient_metal$ $pop_group_unit$당 유지 비용 £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]" # 16202677779630467830
+  mod_planet_giga_megaengineers_job_unity_upkeep_add: "£unity£ $unity$ $pop_group_unit$당 유지비 £job_giga_megaengineer£ [giga_amb_megaengineer_name_plural]" # 11157760206185948993
+  mod_planet_giga_megaengineers_job_minerals_upkeep_add: "£minerals£ $minerals$ 유지비(£job_giga_megaengineer£ [giga_amb_megaengineer_name_plural] $pop_group_unit$당)" # 2474617279566009778
+  mod_planet_giga_megaengineers_job_energy_upkeep_add: "£job_giga_megaengineer£ [giga_amb_megaengineer_name_plural] $pop_group_unit$당 £energy£ $energy$ 유지비" # 11300774874323688648
+  mod_planet_giga_megaengineering_overseers_giga_sr_amb_megaconstruction_produces_add: "£giga_sr_amb_megaconstruction£ $giga_sr_amb_megaconstruction$ 당 $pop_group_unit$ £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]" # 17563426189096378192
+  mod_planet_giga_megaengineering_overseers_alloys_upkeep_add: "£alloys£ $alloys$ $pop_group_unit$당 유지비 £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]" # 17777179498965680260
+  mod_planet_giga_megaengineering_overseers_giga_sr_sentient_metal_upkeep_add: "£giga_sr_sentient_metal£ $giga_sr_sentient_metal$\n$pop_group_unit$당 유지비\n£job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]" # 14170734247569931750
+  mod_planet_giga_megaengineering_overseers_unity_upkeep_add: "£job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]의 $pop_group_unit$당 £unity£ $unity$ 유지비" # 4310134430739704815
+  mod_planet_giga_megaengineering_overseers_energy_upkeep_add: "£job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural] $pop_group_unit$당 $energy$ £energy£ 유지비" # 3324322872553850258
+  mod_planet_giga_megaengineering_overseers_minerals_upkeep_add: "£광물£ $minerals$ 팝당 유지비 £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]" # 9945441393107173636
+  mod_planet_giga_megaengineering_overseers_food_upkeep_add: "£food£ $food$ 당 유지비 £job_giga_megaengineering_overseer£ [giga_amb_megaengineering_overseer_name_plural]" # 13732211211816928144
+  mod_planet_giga_megaengineering_overseers_consumer_goods_upkeep_add: "£소비재£ $소비재$ $pop_group_unit$당 유지비\n£job_giga_megaengineering_overseer£\n[giga_amb_megaengineering_overseer_name_plural]" # 17785603652233032009
   giga_tooltip_positive: "§G+" # 15288271211863828670
   giga_tooltip_positive_bad: "§R+" # 1597222694952619232
   giga_tooltip_negative: "§R" # 16123708913174128434
