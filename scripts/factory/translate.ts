@@ -59,7 +59,7 @@ export async function processModTranslations ({ rootDir, mods, gameType, onlyHas
       const sourceFiles = await readdir(sourceDir, { recursive: true })
       for (const file of sourceFiles) {
         // 언어파일 이름이 `_l_언어코드.yml` 형식이면 처리
-        if (file.endsWith(`_l_${meta.upstream.language}.yml`)) {
+        if (file.endsWith(`.yml`) && file.includes(`_l_${meta.upstream.language}`)) {
           processes.push(processLanguageFile(mod, sourceDir, targetDir, file, meta.upstream.language, gameType, onlyHash))
         }
       }
