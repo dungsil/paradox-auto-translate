@@ -2,9 +2,12 @@ name: Stellaris translate
 
 on:
   workflow_dispatch:
-  paths:
-    - "stellaris/**/upstream"
-    - "stellaris/**/upstream/localisation/**"
+  push:
+    branches: [ main ]
+    paths:
+      - "stellaris/**/upstream"
+      - "stellaris/**/upstream/localisation/**"
+      - "stellaris/**/upstream/**/localisation/**"
 
 jobs:
   update-upstream:

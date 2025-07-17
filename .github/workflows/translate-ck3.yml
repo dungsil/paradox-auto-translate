@@ -2,9 +2,12 @@ name: CK3 translate
 
 on:
   workflow_dispatch:
-  paths:
-    - "ck3/**/upstream"
-    - "ck3/**/upstream/localization/**"
+  push:
+    branches: [ main ]
+    paths:
+      - "ck3/**/upstream"
+      - "ck3/**/upstream/localization/**"
+      - "ck3/**/upstream/**/localisation/**"
 
 jobs:
   update-upstream:
