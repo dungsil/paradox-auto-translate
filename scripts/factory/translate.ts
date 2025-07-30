@@ -93,7 +93,7 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
   log.start(`[${mode}/${file}] 원본 파일 경로: ${sourcePath}`)
 
   const sourceContent = await readFile(sourcePath, 'utf-8')
-  const sourceYaml: Record<`l_${string}`, Record<string, [string, string]>> = parseYaml(sourceContent)
+  const sourceYaml: Record<string, Record<string, [string, string | null]>> = parseYaml(sourceContent)
   const targetYaml = parseYaml(targetContent)
   const newYaml: Record<`l_${string}`, Record<string, [string, string]>> = {
     l_korean: {}
