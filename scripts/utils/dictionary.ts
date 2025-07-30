@@ -72,12 +72,19 @@ const stellarisDictionaries: Record<string, string> = {
   zro: '즈로',
 }
 
+// VIC3 전용 딕셔너리
+const vic3Dictionaries: Record<string, string> = {
+  ok: '네',
+}
+
 export function getDictionaries(gameType: GameType): Record<string, string> {
   switch (gameType) {
     case 'ck3':
       return ck3Dictionaries
     case 'stellaris':
       return stellarisDictionaries
+    case 'vic3':
+      return vic3Dictionaries
     default:
       throw new Error(`Unsupported game type: ${gameType}`)
   }
