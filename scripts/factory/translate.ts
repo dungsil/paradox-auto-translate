@@ -9,6 +9,7 @@ import { type GameType } from '../utils/prompts'
 function getLocalizationFolderName(gameType: GameType): string {
   switch (gameType) {
     case 'ck3':
+    case 'vic3':
       return 'localization'
     case 'stellaris':
       return 'localisation'
