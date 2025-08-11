@@ -6,6 +6,7 @@ on:
     branches: [ main ]
     paths:
       - "vic3/**/upstream/localization/**"
+      - "vic3/**/upstream/**/localization/**"
 
 jobs:
   translate:
