@@ -52,7 +52,7 @@
   giga_mbrain_uplink_training: "훈련 시뮬레이터" # 37690022541957445
   building_giga_matrioshka_brain_uplink_training: "$giga_mbrain_uplink$: $giga_mbrain_uplink_training$" # 7224757672311379220
   building_giga_matrioshka_brain_uplink_training_desc: "이 특별히 설계된 가상 공간에서 우리의 최고 인재들은 시간의 제약 없이 그들이 받아 마땅한 가르침을 받을 수 있습니다." # 42514769994172658
-  building_giga_matrioshka_brain_uplink_training_effect: "£job_soldier£ §Y[owner.GetSoldier]§! 일자리당 §G+$@matrioshka_brain_uplink_training_bonus|0$§! £mod_country_naval_cap_add£ $MOD_COUNTRY_NAVAL_CAP_ADD$를 제공합니다.\n" # 7903750044878683774
+  building_giga_matrioshka_brain_uplink_training_effect: "§G+$@matrioshka_brain_uplink_training_bonus|0$§! 및 £job_soldier£ §Y[owner.GetSoldier]§! 직업 $pop_group_unit$당 £mod_country_naval_cap_add£ $MOD_COUNTRY_NAVAL_CAP_ADD$를 제공합니다.\n" # 13448625212187884508
   giga_mbrain_uplink_training_concept: "\n£job_giga_virtual_training_coordinator£ ['building:building_giga_matrioshka_brain_uplink_training', $giga_mbrain_uplink_training$]" # 7355409893029250847
   giga_mbrain_uplink_diplomacy: "가상 영사관" # 3001285126175118424
   building_giga_matrioshka_brain_uplink_diplomacy: "$giga_mbrain_uplink$: $giga_mbrain_uplink_diplomacy$" # 9742796810256708723
@@ -85,7 +85,7 @@
   giga_mbrain_uplink_anti_deviancy: "행동 조절기" # 7228109710168106393
   building_giga_matrioshka_brain_uplink_anti_deviancy: "$giga_mbrain_uplink$: $giga_mbrain_uplink_anti_deviancy$" # 12384644598140836996
   building_giga_matrioshka_brain_uplink_anti_deviancy_desc: "계산 비용이 많이 들지만, 일탈 드론 군집의 형성을 예측하도록 조정된 예측 알고리즘을 통해 그 영향이 심각해지기 전에 그 형성 단계에 개입할 수 있게 해줍니다." # 2526760117352674433
-  building_giga_matrioshka_brain_uplink_anti_deviancy_effect: "기본 £crime£ §Y$PLANET_CRIME_NO_HAPPINESS_TITLE$§!가 드론당 §G$@matrioshka_brain_uplink_anti_deviancy_reduction|0%$§!만큼 곱연산으로 감소합니다.\n" # 10748119254721921262
+  building_giga_matrioshka_brain_uplink_anti_deviancy_effect: "기본 £crime£ §Y$PLANET_CRIME_NO_HAPPINESS_TITLE$§!를 $pop_group_unit$ 드론당 §G$@matrioshka_brain_uplink_anti_deviancy_reduction|0%$§!만큼 승수적으로 감소시킵니다." # 4704377985215585294
   giga_mbrain_uplink_anti_deviancy_concept: "\n£job_patrol_drone£ ['building:building_giga_matrioshka_brain_uplink_anti_deviancy', $giga_mbrain_uplink_anti_deviancy$]" # 17811520512993165517
   giga_mbrain_uplink_robot: "작업 조정자" # 12580129018309881961
   building_giga_matrioshka_brain_uplink_robot: "$giga_mbrain_uplink$: $giga_mbrain_uplink_robot$" # 1343769994506183258
