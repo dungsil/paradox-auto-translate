@@ -28,7 +28,7 @@ jobs:
         run: |
           IFS=',' read -ra ADDR <<< "${{ env.submodule_paths }}"
           for path in "${ADDR[@]}"; do
-            cd $path
+            cd "$path"
             git fetch --tags
             cd -
           done
@@ -36,7 +36,7 @@ jobs:
         run: |
           IFS=',' read -ra ADDR <<< "${{ env.submodule_paths }}"
           for path in "${ADDR[@]}"; do
-            cd $path
+            cd "$path"
             echo "Processing submodule: $path"
             
             # 태그가 있는지 확인
