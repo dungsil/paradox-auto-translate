@@ -1,0 +1,84 @@
+﻿l_korean:
+  WCR_AWC_behavior_text: "이것은 #bold 서양 의복 채택#의 본래 특성입니다!" # 7816933365391368521
+  WCR_vanilla_behavior_text: "이는 #bold 기본 게임#의 원래 동작입니다!" # 15843587648627114041
+  WCR_gov_employee_text: "[Concept('concept_government_building', '$concept_government$')] 및 [Concept('concept_military_building', '$military$')] 직원들은 #p 항상#! 서구화됩니다." # 5261985472934461564
+  WCR_rule_yes: "#b 네#!" # 18093736814553126256
+  WCR_rule_no: "#b 아니오!#" # 8552485977350428801
+  rule_WCR_westernization_type: "#yellow 더블유씨알#! | 서구화 유형" # 11309677139995049335
+  setting_WCR_complex_westernization: "#b 점진적#!" # 18037667930450729810
+  setting_WCR_complex_westernization_desc: "#v 서구화#!는 [concept_journal_entry]를 통해 점진적으로 진행될 것입니다." # 5672348100095476044
+  setting_WCR_simple_westernization: "#b 즉각!#" # 7927059942919425803
+  setting_WCR_simple_westernization_desc: "#v 서구화#!는 결정으로 즉시 발생합니다. $WCR_AWC_behavior_text$" # 12914300933174781831
+  rule_WCR_decision_requirements_type: "#yellow WCR#! | 서구화 조건" # 6024287516814737209
+  setting_WCR_WCF_requirements: "#b 보통!#" # 10338049778521050355
+  setting_WCR_WCF_requirements_desc: "#v 서구화#!를 해금하려면 더욱 #v 복잡하면서도 유연한 요건#!을 충족해야 할 것입니다." # 10914144344484689625
+  setting_WCR_AWC_requirements: "#b 유산#!" # 4334917034128012177
+  setting_WCR_AWC_requirements_desc: "#v 서구화#!는 #bold 서구 의복 채택#!의 #v 간소화된 요건#!을 사용하여 잠금 해제됩니다." # 5304830508679062110
+  rule_WCR_westernization_influences: "#yellow WCR#! | 제복 양식" # 9027539985785587328
+  setting_WCR_enable_influences: "#bold 사용자 선택됨#!" # 3592718529190051221
+  setting_WCR_enable_influences_desc: "[Concept('concept_head_of_state', '군주')]와 군대의 제복 양식은 서구화 과정에서 사용자가 선택하게 됩니다." # 15202862887880762916
+  setting_WCR_disable_influences: "#b 항상 일반적#!" # 17273268050310215590
+  setting_WCR_disable_influences_desc: "[Concept('concept_head_of_state', 'monarchs')]와 군부의 군복 양식은 항상 일반적인 유럽식 군복일 것입니다. $WCR_AWC_behavior_text$" # 9930828865462199656
+  rule_WCR_fake_late_uniforms: "#yellow WCR#! | 가상의 후기 국내 제복 사용" # 12650673050722082386
+  setting_WCR_fake_late_uniforms_yes: "$WCR_rule_yes$" # 1640062021206852763
+  setting_WCR_fake_late_uniforms_yes_desc: "[Concept('concept_country', '$concept_countries$')]은(는) (보유한 경우) 지역 제복 양식을 사용하며, 충분한 [Concept('concept_technology','기술 발전')] 이후 가상의 현대적 디자인을 #p채택할 것입니다#!. #i #underline $dlc010$#! DLC가 필요합니다.#!" # 6051273468455163529
+  setting_WCR_fake_late_uniforms_no: "$WCR_rule_no$" # 5947706863946817779
+  setting_WCR_fake_late_uniforms_no_desc: "[Concept('concept_country', '$concept_countries$')]는 현지 제복 양식(사용 가능한 경우)을 사용하며, #n 게임 후반부에 새로운 제복을 채택하지 않을 것입니다#!." # 14900595962782466669
+  rule_WCR_AI_westernization: "#yellow WCR#! | AI 서구화 허용" # 10612198714603440069
+  setting_WCR_allow_AI_westernization: "$WCR_rule_yes$" # 1640062021206852763
+  setting_WCR_allow_AI_westernization_desc: "AI 국가들은 #p will#! 서구화가 허용됩니다." # 16686478077395504937
+  setting_WCR_block_AI_westernization: "$WCR_rule_no$" # 5947706863946817779
+  setting_WCR_block_AI_westernization_desc: "AI 국가들은 #n 서구화가 허용되지 않을#! 것입니다. $WCR_AWC_behavior_text$" # 10431878385698337956
+  rule_WCR_KOR_westernization: "#yellow WCR#! | $KOR_ADJ$ 서구화 성향" # 14909845294120007230
+  setting_WCR_modded_KOR_westernization: "#b 더블유씨알!#" # 17145367707148319799
+  setting_WCR_modded_KOR_westernization_desc: "#v $KOR$#!는 WCR에 추가된 메커니즘과 조건만으로 서구화를 이룰 것입니다." # 17923899191447765994
+  setting_WCR_mixed_KOR_westernization: "#b 혼합#!" # 9161616701085606758
+  setting_WCR_mixed_KOR_westernization_desc: "#v 한국#!은 WCR에 의해 추가된 메커니즘을 사용하여 서구화할 것이지만, #v $dyn_c_empire_of_korea$#!를 선포한 후에는 서구화 요구 사항을 우회할 수 있습니다." # 5341316362203223776
+  setting_WCR_vanilla_KOR_westernization: "#b 순정#" # 14088225599148155299
+  setting_WCR_vanilla_KOR_westernization_desc: "#v $KOR$#!는 WCR에 의해 무시될 것이며, #v $dyn_c_empire_of_korea$#!를 선포한 후 자동으로 서구화될 것입니다." # 17855232045290768650
+  rule_WCR_KOR_uniforms: "#yellow WCR#! | $KOR_ADJ$ 서양식 제복" # 17336839348504224885
+  setting_WCR_modded_KOR_uniforms: "$setting_WCR_modded_KOR_westernization$" # 3919725135955935237
+  setting_WCR_modded_KOR_uniforms_desc: "$KOR_ADJ$ 제복 양식은 현재 게임 규칙에 따라 WCR을 통해 결정됩니다. #v $setting_WCR_enable_influences$#! 규칙이 활성화되어 있다면, 기본 게임에 포함된 특별한 #v $dyn_c_empire_of_korea$ 제복#!은 선택 가능한 옵션이 됩니다." # 5674352768465050102
+  setting_WCR_vanilla_KOR_uniforms: "$setting_WCR_vanilla_KOR_westernization$" # 6649438662922565481
+  setting_WCR_vanilla_KOR_uniforms_desc: "$KOR_ADJ$ 제복의 양식은 #v $setting_WCR_disable_influences$#! 규칙이 활성화된 경우를 제외하고는, 항상 기본 게임의 특별 #v $dyn_c_empire_of_korea$ 제복#!을 따를 것입니다." # 13988289994087131853
+  rule_WCR_JAP_westernization: "#yellow WCR#! | 일본의 서구화 행동" # 2962028511449270823
+  setting_WCR_modded_JAP_westernization: "$setting_WCR_modded_KOR_westernization$" # 3919725135955935237
+  setting_WCR_modded_JAP_westernization_desc: "#v $JAP$#!는 WCR이 추가한 메커니즘과 조건만을 사용하여 서구화할 것입니다." # 11726388941769727118
+  setting_WCR_mixed_JAP_westernization: "$setting_WCR_mixed_KOR_westernization$" # 9047737942175927890
+  setting_WCR_mixed_JAP_westernization_desc: "#v $JAP$#은 WCR에 의해 추가된 메커니즘을 활용하여 서구화할 것이지만, #v $je_meiji_restoration$#! [concept_journal_entry]를 완료한 후에는 서구화 요구 사항을 우회할 수 있을 것입니다." # 7576162339693150530
+  setting_WCR_vanilla_JAP_westernization: "$setting_WCR_vanilla_KOR_westernization$" # 6649438662922565481
+  setting_WCR_vanilla_JAP_westernization_desc: "#v $JAP$#는 WCR 적용을 받지 않고, #v $je_meiji_restoration$#! [concept_journal_entry]를 완료한 후 자동으로 서구화될 것입니다." # 11132124776974481022
+  rule_WCR_JAP_uniforms: "#yellow WCR#! | $JAP_ADJ$ 서양식 제복" # 14630365451135656291
+  setting_WCR_modded_JAP_uniforms: "$setting_WCR_modded_KOR_westernization$" # 3919725135955935237
+  setting_WCR_modded_JAP_uniforms_desc: "$JAP_ADJ$ 제복 양식은 현재 게임 규칙에 따라 WCR을 통해 결정됩니다. 만약 #v $setting_WCR_enable_influences$#! 규칙이 활성화되어 있다면, 기본 게임에 포함된 특별한 #v $dyn_c_empire_of_japan$ 제복#!을 선택할 수 있습니다." # 17898161212695961959
+  setting_WCR_vanilla_JAP_uniforms: "$setting_WCR_vanilla_KOR_westernization$" # 6649438662922565481
+  setting_WCR_vanilla_JAP_uniforms_desc: "$JAP_ADJ$의 제복 양식은 #v $setting_WCR_disable_influences$#! 규칙이 활성화된 경우를 제외하고, 항상 기본 게임의 특수한 #v $dyn_c_empire_of_japan$ 제복#!이 될 것입니다." # 18196854255717528630
+  rule_WCR_unwesternizeds_type: "#yellow WCR#! | 미서구화된 인구 및 인물 행동" # 49847977095696114
+  setting_WCR_unwesternizeds_type_never: "절대 서구화하지 않음" # 8727947139991141429
+  setting_WCR_unwesternizeds_type_never_desc: "비서구화된 [Concept('concept_pop', '$concept_pops$')] 및 [Concept('concept_character', '$concept_characters$')]은 서구화된 [Concept('concept_country', '$concept_countries$')]에 거주하더라도, 어떠한 [concept_primary_cultures]에도 속하지 않는다면 #n 절대 서구화되지 않을 것입니다#! $WCR_gov_employee_text$" # 16024948306252141483
+  setting_WCR_unwesternizeds_type_migrants: "이민자만 서구화" # 8612368829220606336
+  setting_WCR_unwesternizeds_type_migrants_desc: "서구화된 [concept_country]에 거주하는 미서구화된 [Concept('concept_pop', '$concept_pops$')] 및 [Concept('concept_character', '$concept_characters$')]는 어떤 [concept_primary_cultures]에도 속하지 않는다면 #p 자동으로#! 서구화될 것입니다. $WCR_gov_employee_text$" # 13746684331595830646
+  setting_WCR_unwesternizeds_type_wealth: "부와 수용의 서구화" # 5965389476122695320
+  setting_WCR_unwesternizeds_type_wealth_desc: "서구화된 [Concept('concept_country', '$concept_countries$')] 내에서, 비서구화된 [Concept('concept_pop', '$concept_pops$')] #p는#! 그들의 [concept_sol]과 [Concept('concept_discrimination', '$ACCEPTANCE$')]에 기반하여 서구화될 것입니다. 비서구화된 [Concept('concept_character', '$concept_characters$')] & $WCR_gov_employee_text$" # 11258183313869519669
+  setting_WCR_unwesternizeds_type_always: "항상 서구화" # 11076508300618383133
+  setting_WCR_unwesternizeds_type_always_desc: "서구화된 [Concept('concept_country', '$concept_countries$')]에 거주하는 모든 서구화되지 않은 [Concept('concept_pop', '$concept_pops$')] 및 [Concept('concept_character', '$concept_characters$')]는 #p 항상#! 서구화됩니다." # 8376864734333238713
+  rule_WCR_westernize_traditionalists: "#yellow WCR#! | 전통주의자 서구화" # 17209262195751028817
+  setting_WCR_westernize_traditionalists_yes: "$WCR_rule_yes$" # 1640062021206852763
+  setting_WCR_westernize_traditionalists_yes_desc: "[Concept('concept_character', '$concept_characters$')]은 #v $ideology_traditionalist$#! [concept_ideology]를 지니고 있다면, 서구화를 피할 다른 방법이 없을 경우에만 #p 서구화될 것입니다#!. $WCR_AWC_behavior_text$" # 7514382141631471214
+  setting_WCR_westernize_traditionalists_no: "$WCR_rule_no$" # 5947706863946817779
+  setting_WCR_westernize_traditionalists_no_desc: "[Concept('concept_character', '$concept_characters$')]는 #v $ideology_traditionalist$#! [concept_ideology]를 가지고 있다면 #n 서구화하지 않을 것입니다#!. 그들이 #v $ig_armed_forces$#! [concept_interest_group]의 [concept_leader]이거나 [concept_commander]라면 여전히 서구화할 것입니다." # 12383689853476282571
+  rule_WCR_westernize_ig_rural_folk: "#yellow WCR#! | #green @rural_folk! $ig_rural_folk$#을 서구화하십시오!" # 12879118664629945981
+  setting_WCR_westernize_ig_rural_folk_yes: "$WCR_rule_yes$" # 1640062021206852763
+  setting_WCR_westernize_ig_rural_folk_yes_desc: "#v @rural_folk! $ig_rural_folk$# [concept_interest_group]의 [concept_leader]는 #p will#! 서구화될 것입니다." # 6943192162540202370
+  setting_WCR_westernize_ig_rural_folk_no: "$WCR_rule_no$" # 5947706863946817779
+  setting_WCR_westernize_ig_rural_folk_no_desc: "#v @rural_folk! $ig_rural_folk$#! [concept_interest_group]의 [concept_leader]는 #n 서구화하지 않을 것입니다#! $WCR_AWC_behavior_text$" # 10570660467271050661
+  rule_WCR_westernize_ig_devout: "#yellow WCR#! | #blue @devout! $ig_devout$# 서구화" # 9118053150739471178
+  setting_WCR_westernize_ig_devout_yes: "$WCR_rule_yes$" # 1640062021206852763
+  setting_WCR_westernize_ig_devout_yes_desc: "[concept_leader]는 #v @devout! $ig_devout$#! [concept_interest_group]을 #p 서구화할 것입니다#!." # 8722947056650095948
+  setting_WCR_westernize_ig_devout_no: "$WCR_rule_no$" # 5947706863946817779
+  setting_WCR_westernize_ig_devout_no_desc: "#v @devout! $ig_devout$#! [concept_interest_group]의 [concept_leader]은(는) #n 서구화하지 않을 것입니다#!. $WCR_AWC_behavior_text$" # 696676385068413662
+  rule_WCR_westernize_poor_pop_clothing: "#yellow WCR#! | 빈민층 의복 서구화" # 18319599180042064498
+  setting_WCR_westernize_poor_pop_clothing_yes: "$WCR_rule_yes$" # 1640062021206852763
+  setting_WCR_westernize_poor_pop_clothing_yes_desc: "#yellow $farmers$#!, #yellow $peasants$#!, 그리고 #yellow $laborers$#!는 #v 그들의 복장 전체를 서구화#!할 것입니다. 또한 #v 서구식 모자만 착용#!할 것입니다." # 3424697064915569869
+  setting_WCR_westernize_poor_pop_clothing_no: "$WCR_rule_no$" # 5947706863946817779
+  setting_WCR_westernize_poor_pop_clothing_no_desc: "#yellow $농민$#!, #yellow $소작농$#!, 그리고 #yellow $노동자$#!는 오직 #v 자신들의 모자#를 #v 기존 모자와 혼합하는 방식#으로만 서구화할 것입니다. #yellow $기계공$#!은 여전히 완전히 서구화될 것입니다. $WCR_AWC_behavior_text$" # 7744369378792825114

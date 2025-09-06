@@ -1,0 +1,42 @@
+﻿l_korean:
+  LITERACY_TOOLTIP: "#header [concept_literacy]#!\n#variable [Country.GetNumIncorporatedLiteratePops|*]#!명이 #variable [Country.GetName]#!의 [concept_incorporated_state]에 거주하는 총 #variable [Country.GetIncorporatedPopulation|*]#!명 중 문해력을 지니고 있으며, 그 결과 교육 수준은 [Country.GetIncorporatedLiteracyRate|%v] [Country.GetIncorporatedLiteracyRanking]입니다.\n$TOOLTIP_DELIMITER$\n이는 @innovation![concept_innovation] 상한선을 #tooltippable #tooltip:[GetPlayer.GetTooltipTag],INNOVATION_POINTS_MAX_BREAKDOWN @innovation![Country.GetWeeklyMaxInnovation|1]#!#!로 만듭니다!\n현재 우리는 매주 #tooltippable #tooltip:[GetPlayer.GetTooltipTag],INNOVATION_POINTS_CURRENT_BREAKDOWN #v @innovation![Country.GetWeeklyInnovation|+=1]#!#!#!를 투자하고 있으며, (상한선 미적용 시 @innovation![Country.GetWeeklyRawInnovation|+=1])\n\n또한, 현재 우리의 [concept_literacy]는 매주 #P #tooltippable #tooltip:[GetPlayer.GetTooltipTag],TECHNOLOGY_SPREAD_RATE_BREAKDOWN [Country.GetMinWeeklyTechnologySpread|1]에서 [Country.GetMaxWeeklyTechnologySpread|1]#!#!#!에 달하는 @innovation![concept_innovation]의 [concept_technology_spread] 속도를 제공합니다.[SelectLocalization(EqualTo_int64(GetPlayer.GetTotalPopulation,GetPlayer.GetIncorporatedPopulation),'','LITERACY_UNINCORPORATED_TOOLTIP')]" # 16207253593397021039
+  POP_LITERACY: "교육 수준" # 7958684459916252137
+  LITERACY_0_10: "교육 수준이 #variable 25%# 미만입니다!" # 12422689466153015916
+  LITERACY_10_20: "#variable 10%#!에서 #variable 20%#! 사이의 교육 수준" # 5507309775986298703
+  LITERACY_20_30: "교육 수준 #variable 20%#!와 #variable 30%#! 사이" # 4579877131371219484
+  LITERACY_30_40: "교육 수준 #variable 30%#!에서 #variable 40%#! 사이!" # 6642892219794996428
+  LITERACY_40_50: "교육 수준 #variable 40%#!에서 #variable 50%#! 사이" # 12184140588086777015
+  LITERACY_50_60: "#variable 50%#!와 #variable 60%#! 사이의 교육 수준" # 10878140273817724310
+  LITERACY_60_70: "교육 수준 #variable 60%#!에서 #variable 70%#! 사이" # 10143040215844479923
+  LITERACY_70_80: "교육 수준이 #variable 70%#!에서 #variable 80%#! 사이" # 11085817142718214067
+  LITERACY_80_90: "교육 수준은 #variable 80%#!에서 #variable 90%#! 사이" # 6253827716577176350
+  LITERACY_90_100: "교육 수준 #variable 90%# 이상!" # 5302981177120436052
+  POP_POPULATION_LITERACY: "#header 교육 수준#!\n[Pop.GetLiteracyDesc]" # 15965473711062402830
+  INCORPORATED_LITERACY_LEADERBOARD_HEADER: "#header 편입된 주 교육 수준#!" # 17058044158482041649
+  TOTAL_LITERACY_LEADERBOARD_HEADER: "#header 전국 교육 수준#!" # 12124459756804795661
+  INNOVATION_TOOLTIP: "#header [concept_innovation]#!\n우리는 매주 #v @innovation![Country.GetWeeklyRawInnovation|+=1]#! [concept_innovation]을(를) 생성하고 있습니다:\n[Country.GetWeeklyInnovationDesc]\n\n매주 최대 @innovation![Country.GetWeeklyMaxInnovation|v2] [concept_innovation]이(가) 활성 연구에 투자될 수 있습니다:\n[Country.GetWeeklyMaxInnovationDesc]\n\n투자 한도 또는 활성 연구 부족으로 사용되지 않은 모든 [concept_innovation]은(는) 우리 국가로의 [concept_technology_spread] 속도를 증가시킬 것입니다." # 7359289590501533705
+  INNOVATION_DESCRIPTION: "주간 투자 혁신: #v @innovation![Country.GetWeeklyInnovation|+0]#!" # 1538098012573658940
+  BUILDING_MAP_LIST_PANEL_UNEMPLOYED_HEADER_2: "실업" # 5587113436077884102
+  BUILDING_MAP_LIST_PANEL_HMPS_TRAIT: "이 [concept_state]의 특성" # 14628298401379221351
+  HMPS_ENABLE_DEBUG: "디버그 모드 활성화" # 10299878406794897489
+  PANEL_MILITARY_NAVY_CURRENT_FLOTILLAS_ALT_TOOLTIP: "#header [Country.GetAdjective] 함대#!\n현재: @flotillas! [Country.GetWarships|v] ([Country.GetFlotillasRanking])\n$TOOLTIP_DELIMITER$\n$PANEL_MILITARY_NAVY_POWER_PROJECTION$" # 8644498156935117181
+  PANEL_MILITARY_ARMY_OVERVIEW_ALT_TOOLTIP: "#header [Country.GetAdjective] [Concept('concept_battalion', '$concept_battalions$')] 및 [Concept('concept_conscript_battalion','$concept_conscript_battalions$')]#!\n@battalions![Country.GetRegularBattalions|v] [Concept('concept_battalion', '$concept_battalions$')] (#v [Country.GetFullyMobilizedBattalionsPercentageRaw|0%]#!@mobilization! [Concept('concept_mobilize_battalion', '$concept_mobilize_battalion_mobilized$')])\n@conscripts![Country.CalcConscriptableBattalions|v]개 중 [Country.GetConscriptedBattalions|v]개의 [Concept('concept_conscript_battalion','$concept_conscript_battalions$')] 징집됨\n$TOOLTIP_DELIMITER$\n$PANEL_MILITARY_ARMY_POWER_PROJECTION$" # 1515297580343791932
+  CHARACTER_INTERACTION_CONFIRMATION: "$CHARACTER_INTERACTION_HEADER$$CHARACTER_INTERACTION_EFFECTS$\n\n정말 확실합니까?" # 7733983341375251597
+  isolationism_force_single_market_tt: "[ROOT.GetCountry.GetName] #Bold #RED 자체 시장에 강제 편입됩니다#" # 10351380412717903143
+  state_building_university_max_level_add: "$building_university$ 최대 레벨" # 8896062060590538580
+  state_building_university_max_level_add_desc: "$building_university$ 건물의 최대 레벨에 대한 보너스 또는 페널티." # 8230971726057760023
+  cant_give_away_han_homeland: "[ROOT.GetCountry.GetName]는 #Red [GetCulture('han').GetName]이(가) 본토인 주를 양도할 수 없습니다!#" # 8675189766485029769
+  cant_request_han_homeland: "[ROOT.GetCountry.GetName] #Red [GetCulture('han').GetName] 본토가 있는 주를 요청할 수 없습니다!#" # 10793003377986631115
+  TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_THIRD: "[GetPlayer.GetName]에 있는 모든 [concept_primary_cultures]와 [concept_cultural_heritage_trait]를 공유합니다." # 49915732705575782
+  TRIGGER_SHARES_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_THIRD_NOT: "[GetPlayer.GetName] 내의 어떤 [concept_primary_cultures]와도 [concept_cultural_heritage_trait]를 공유하지 않습니다." # 7530044708174014297
+  TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_THIRD: "[GetPlayer.GetName]에 있는 [concept_primary_cultures] 중 어떤 것과도 [concept_cultural_heritage_trait]가 아닌 [concept_cultural_trait]를 공유합니다." # 16654007341718381774
+  TRIGGER_SHARES_NON_HERITAGE_TRAIT_WITH_ANY_PRIMARY_CULTURE_THIRD_NOT: "[GetPlayer.GetName] 내의 어떤 [concept_primary_cultures]와도 [concept_cultural_heritage_trait]가 아닌 [concept_cultural_trait]를 공유하지 않습니다." # 6836729452296625246
+  decree_encourage_manufacturing_industry: "제조업 노동자 착취" # 15763089791552237540
+  decree_encourage_manufacturing_industry_desc: "노동자들에게 더 높은 노동 강도를 강제하여 제조업 및 서비스 부문 생산량을 증대시킵니다." # 2951402751577992723
+  decree_encourage_agricultural_industry: "농업 노동자 착취" # 14654880053245512320
+  decree_encourage_agricultural_industry_desc: "노동자들이 더 열심히 일하도록 강제하여 농업 및 플랜테이션 부문의 생산량을 증대시킵니다." # 1311855135507296416
+  decree_encourage_resource_industry: "자원 노동자 착취" # 18009182464672001635
+  decree_encourage_resource_industry_desc: "노동자들의 노동 강도를 높여 자원 부문 생산량을 증대시킵니다." # 14297352038991628018
+  this_is_your_subject_dummy: "당신의 종속국으로부터 투자 권한을 요청할 수 없습니다!" # 17678782848361933949
+  TRIGGER_IS_MARKET_REACHABLE_FOR_TRADE: "대상 [concept_market]은 육상 인접성 또는 [concept_shipping_lane]을 통해 무역 가능합니다." # 7340231439852265362
+  TRIGGER_IS_MARKET_REACHABLE_FOR_TRADE_NOT: "대상 [concept_market]은 육상 인접성 또는 [concept_shipping_lane]을(를) 통해 무역으로 #b 연결될 수 없습니다#!" # 8043173224028486917

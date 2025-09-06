@@ -1,0 +1,33 @@
+﻿l_korean:
+  CEFENG_SYSTEM: "$UPB_txt_cefeng_system_custom$" # 10331664855432025515
+  UPB_cefeng_tizhi: "책봉체제" # 7409518223656842151
+  UPB_chaogong_tixi: "조공 체제" # 9633745164458166623
+  UPB_dot_pattern: "원" # 6048381638141882303
+  UPB_pb_china_dragon: "청룡" # 16359621160123653076
+  UPB_identity_china_tributary: "중국 조공 체제" # 9902370528725059371
+  UPB_identity_china_tributary_desc: "이 정체성은 동아시아 문화의 중심으로서 중국의 지배적인 지위를 중심으로 합니다." # 4506238436172672922
+  UPB_principle_group_sinosphere: "중화 패권" # 2985155490684596793
+  UPB_principle_group_sinosphere_desc: "[Concept('concept_power_bloc_member', '$concept_power_bloc_members$')]는 중국을 동아시아 문화의 중심지로 인정하며, 그 대가로 중국 황제의 축복을 받아 그들의 통치를 정당화하고 중국의 막대한 부에 접근할 수 있습니다." # 16995247157931387814
+  UPB_principle_sinosphere_desc: "[Concept('concept_power_bloc_member', '$concept_power_bloc_members$')]는 중국을 동아시아 문화의 중심지로 인정하며, 그 대가로 중국 황제의 축복을 받아 그들의 통치를 정당화하고 중국의 막대한 부에 접근할 수 있습니다." # 16995247157931387814
+  UPB_principle_sinosphere_1_desc: "$UPB_principle_sinosphere_desc$" # 2869890959811934895
+  UPB_principle_sinosphere_2_desc: "$UPB_principle_sinosphere_desc$" # 2869890959811934895
+  UPB_principle_sinosphere_3_desc: "$UPB_principle_sinosphere_desc$" # 2869890959811934895
+  UPB_md_china_hegemon: "아시아의 패권국" # 4895398880578268220
+  UPB_tt_has_chinese_homeland: "[GetCulture('han').GetName] [concept_homeland]이거나, [GetCulture('manchu').GetName] [concept_homeland]이거나, [GetCulture('mongol').GetName] [concept_homeland]인가요?" # 6982142984768206756
+  UPB_tt_is_fully_controlled: "[SCOPE.GetRootScope.GetCountry.GetName]이/가 전적으로 소유합니다." # 1998239387968737000
+  UPB_tt_asian_bloc_members: "#tooltippable;tooltip:[GetPlayer.GetTooltipTag],UPB_tt_asian_members_breakdown 아시아#! [Concept('concept_primary_cultures','$concept_primary_culture$')]을(를) 가진 [Concept('concept_power_bloc_member','$concept_power_bloc_members_non_leader$')]" # 7838516402957717478
+  UPB_tt_asian_members_breakdown: "$UPB_tt_asian_members_breakdown_h$#indent_newline:3 \n• $UPB_tt_asian_members_breakdown_1$\n• $UPB_tt_asian_members_breakdown_2$\n• $UPB_tt_asian_members_breakdown_3$\n• $UPB_tt_asian_members_breakdown_4$\n• $UPB_tt_asian_members_breakdown_5$#!" # 7188477922864819940
+  UPB_tt_asian_members_breakdown_h: "다음 [Concept('concept_cultural_heritage_trait','$concept_cultural_heritage_traits$')] 중 하나라도 가지고 있습니까:" # 17321375603437574752
+  UPB_tt_asian_members_breakdown_1: "#bold $east_asian_heritage$#!" # 31143394995800843
+  UPB_tt_asian_members_breakdown_2: "#bold $north_asian_heritage$#!" # 12437772750491954476
+  UPB_tt_asian_members_breakdown_3: "#bold $southeast_asian_heritage$#!" # 2685580334657021971
+  UPB_tt_asian_members_breakdown_4: "#bold $central_asian_heritage$#!" # 4115175802616857722
+  UPB_tt_asian_members_breakdown_5: "#bold 남아시아 유산#!!" # 16355504396423588730
+  UPB_de_reform_cefeng: "$CEFENG_SYSTEM$ 블록 개혁" # 16194850480714516228
+  UPB_de_reform_cefeng_desc: "천명(天命)을 되찾고 중국을 통일한다면, 과거 중국의 세력권에 있었던 국가들을 연결하는 외교적, 경제적, 조공 관계를 재확립하고 다가올 수세기 동안 아시아에서의 우리의 지위를 공고히 할 수 있을 것입니다!" # 10534031336830212503
+  rule_UPB_gr_cefeng_name: "중국 세력권 이름" # 12859054611304475042
+  setting_UPB_gr_use_cefeng_tizhi: "$UPB_cefeng_tizhi$" # 15059320833105572919
+  setting_UPB_gr_use_cefeng_tizhi_desc: "#yellow $CHI$#는 자신들의 [concept_power_bloc]에 대해 #v $UPB_cefeng_tizhi$#라는 이름을 사용합니다." # 225276332852519559
+  setting_UPB_gr_use_chaogong_tixi: "$UPB_chaogong_tixi$" # 6844134486592049720
+  setting_UPB_gr_use_chaogong_tixi_desc: "#yellow $CHI$#!는 자신의 [concept_power_bloc]에 #v $UPB_chaogong_tixi$#!라는 이름을 사용할 것입니다." # 1797807971919988567
+  UPB_txt_cefeng_system_custom: "[AddLocalizationIf( EqualTo_string(AccessGameRules.AccessNamedGameRule('UPB_gr_cefeng_name').GetSetting.GetKey, 'UPB_gr_use_cefeng_tizhi'), 'UPB_cefeng_tizhi')][AddLocalizationIf( EqualTo_string(AccessGameRules.AccessNamedGameRule('UPB_gr_cefeng_name').GetSetting.GetKey, 'UPB_gr_use_chaogong_tixi'), 'UPB_chaogong_tixi')]" # 2152530303046703094

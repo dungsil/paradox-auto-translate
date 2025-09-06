@@ -1,0 +1,16 @@
+﻿l_korean:
+  je_the_matter_of_ireland: "아일랜드 문제" # 831746410935956086
+  je_the_matter_of_ireland_reason: "아일랜드는 1801년부터 1922년까지 영국의 일부였습니다. 이 시기 거의 내내, 이 섬은 런던에 있는 영국 의회가 아일랜드 더블린 성의 행정부를 통해 통치했습니다. 아일랜드는 19세기에 상당한 어려움을 겪었는데, 특히 1840년대의 대기근은 거의 한 세기 동안 이어진 인구 감소를 촉발했습니다.\n\n#bold 진행 막대#의 상태는 특정 조건에 따라 #tooltippable;tooltip:[Country.GetTooltipTag],je_the_matter_of_ireland_special_tooltip_advance 전진#!하거나 #tooltippable;tooltip:[Country.GetTooltipTag],je_the_matter_of_ireland_special_tooltip_deplete 후퇴#!할 것입니다." # 17967518814375095295
+  je_the_matter_of_ireland_special_tooltip_advance: "• 영국 제도 외부에 어떠한 영토도 (직간접적으로) 소유하지 않음\n• [GetLawType('law_no_colonial_affairs').GetName]를(을) 수립\n• 아일랜드 속주들을 [concept_incorporated_state]로(으로) 격상\n• 아일랜드 속주들에 [GetDecreeType('decree_emergency_relief').GetName]를(을) 제공\n• 아일랜드 속주들에 [GetDecreeType('decree_promote_social_mobility').GetName]를(을) 제정\n• 아일랜드 속주마다 $building_university$ 건설" # 466554272460902205
+  je_the_matter_of_ireland_special_tooltip_deplete: "• 가톨릭 신자 차별" # 14245987720410060358
+  the_matter_of_ireland_progress_bar_name: "통합 대 자치" # 10225139478653360804
+  the_matter_of_ireland_progress_bar_desc_1: "통합" # 6140478326413138088
+  the_matter_of_ireland_progress_bar_desc_2: "자치" # 12750890145705501682
+  matter_of_ireland_failure_tt: "민족주의 파벌이 연합주의 파벌을 압도합니다" # 14469688669272912232
+  matter_of_ireland_success_tt: "연합주의자 파벌이 민족주의자 파벌을 제압합니다" # 7630693827098352696
+  matter_of_ireland_on_fail_tt: "아일랜드 자치령이 세 남부 주에서 창설되며, 높은 자유 열망을 지닙니다." # 12868303183822301863
+  je_imperial_hegemony: "제국 패권" # 11159208408316664508
+  je_imperial_hegemony_reason: "러시아 제국은 타타르족을 격파한 후 중앙집권적 민족 국가로 수립되었습니다. 제국은 모든 비정교회 종교의 포교를 공식적으로 금지하고 러시아 제국 내에 거주하는 수많은 소수 민족에게 러시아 문화를 강요하는 정책인 러시아화 정책을 시행하며 강력한 종교적, 문화적 동질성을 강요했습니다.\n\n제국은 제국 핵심 영토에 자치권을 부여하지 않으며, 그렇게 할 경우 우리의 [concept_interest_group]를 크게 분노하게 만들고 우리의 [concept_authority]를 감소시킬 것입니다.\n이 효과는 우리 자신의 통제보다는 우리의 속국 통제 하에 있는 [GetCulture('russian').GetName], [GetCulture('byelorussian').GetName], [GetCulture('ukrainian').GetName], 혹은 [GetCulture('polish').GetName] [concept_homeland]의 수에 비례하여 증폭될 것입니다." # 17342860725253908718
+  modifier_irish_independence: "아일랜드 독립" # 7309634192607732902
+  modifier_enraged_colonisers: "격분한 식민주의자들" # 12072316499090779156
+  modifier_irish_emigration: "아일랜드 이민" # 17482362572704233333

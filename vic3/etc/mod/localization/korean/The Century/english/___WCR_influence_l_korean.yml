@@ -1,0 +1,48 @@
+﻿l_korean:
+  WCR_ev_american_option: "미국 군복이 꽤 멋지군요!" # 12478269277522454930
+  WCR_ev_british_option: "영국 군복은 꽤 웅장하군요!" # 4924783384389437177
+  WCR_ev_french_option: "프랑스 군복은 매우 세련되어 보입니다!" # 5596526292239842894
+  WCR_ev_german_option: "독일 군복은 정말 근사합니다!" # 6647982919187165226
+  WCR_ev_russian_option: "러시아 제복은 정말 위압적입니다!" # 17530216208224892494
+  WCR_ev_generic_option: "특정한 스타일은 필요 없습니다." # 17102544977617664986
+  WCR_ev_domestic_option: "우리는 [GetPlayer.GetAdjectiveNoFormatting]만의 독자적인 양식을 설계할 것입니다!" # 12448595217737989386
+  WCR_tt_when_in_cmd: "병력 지휘권을 부여받았을 때" # 3389265517713273038
+  WCR_tt_when_in_cmd_df: "[AddLocalizationIf(Not(EqualTo_string(GetPlayer.GetActiveLawFromGroup('lawgroup_governance_principles').GetLawType.GetName, GetLawType('law_monarchy').GetName)), 'WCR_tt_when_in_cmd')]" # 4242901880266569824
+  WCR_tt_domestic_ruler: "[GetPlayer.GetRuler.GetCustom('GetUniversalFullName')]이(가) #v [GetPlayer.GetAdjectiveNoFormatting] 제복#!을(를) 착용할 것입니다.$WCR_tt_when_in_cmd_df$." # 1851931248987574618
+  WCR_tt_american_ruler: "[GetPlayer.GetRuler.GetCustom('GetUniversalFullName')]는 #v 미국식 제복#을 입을 것입니다!$WCR_tt_when_in_cmd_df$." # 13590336490982212335
+  WCR_tt_british_ruler: "[GetPlayer.GetRuler.GetCustom('GetUniversalFullName')]은 #v 영국 제복#을 착용할 것입니다!$WCR_tt_when_in_cmd_df$." # 3128008687312724631
+  WCR_tt_french_ruler: "[GetPlayer.GetRuler.GetCustom('GetUniversalFullName')]이(가) #v 프랑스 제복#!을 입을 것입니다!$WCR_tt_when_in_cmd_df$" # 11908414248875983207
+  WCR_tt_german_ruler: "[GetPlayer.GetRuler.GetCustom('GetUniversalFullName')]은 #v 독일식 제복#!을 입을 것입니다$WCR_tt_when_in_cmd_df$." # 9443207705383895973
+  WCR_tt_russian_ruler: "[GetPlayer.GetRuler.GetCustom('GetUniversalFullName')]은/는 #v 러시아 군복#을 입을 것입니다!$WCR_tt_when_in_cmd_df$" # 11192837473083373520
+  WCR_tt_generic_ruler: "[GetPlayer.GetRuler.GetCustom('GetUniversalFullName')]는 #v 일반적인 유럽식 제복#을 입을 것입니다!$WCR_tt_when_in_cmd_df$." # 17988255460084223378
+  WCR_tt_domestic_army: "[GetPopType('officers').GetName]와 [GetPopType('soldiers').GetName]들이 [GetBuildingType('building_barracks').GetName]에서 근무하며, [Concept('concept_general', '$concept_generals$')]은(는) #v [GetPlayer.GetAdjectiveNoFormatting] 군복#!을(를) 착용할 것입니다." # 1845690374226000737
+  WCR_tt_american_army: "[GetBuildingType('building_barracks').GetName]에서 근무하는 [GetPopType('officers').GetName]과 [GetPopType('soldiers').GetName] 및 [Concept('concept_general', '$concept_generals$')]은(는) #v 미국식 군복#!을 착용할 것입니다." # 3297701475773427698
+  WCR_tt_british_army: "[GetBuildingType('building_barracks').GetName]에서 근무하는 [GetPopType('officers').GetName]와 [GetPopType('soldiers').GetName] 및 [Concept('concept_general', '$concept_generals$')]은(는) #v 영국식 제복#!을 착용할 것입니다." # 13018914565697387436
+  WCR_tt_french_army: "[GetBuildingType('building_barracks').GetName]에서 복무하는 [GetPopType('officers').GetName]와 [GetPopType('soldiers').GetName], 그리고 [Concept('concept_general', '$concept_generals$')]는 #v 프랑스 군복#을 착용할 것입니다!" # 17565387068443110895
+  WCR_tt_german_army: "[GetBuildingType('building_barracks').GetName]에서 근무하는 [GetPopType('officers').GetName] 및 [GetPopType('soldiers').GetName]과 [Concept('concept_general', '$concept_generals$')]은(는) #v 독일 군복#을 착용합니다!" # 7961295566943056790
+  WCR_tt_russian_army: "[GetBuildingType('building_barracks').GetName]에서 근무하는 [GetPopType('officers').GetName] 및 [GetPopType('soldiers').GetName], 그리고 [Concept('concept_general', '$concept_generals$')]은(는) #v 러시아 군복#을(를) 착용할 것입니다!." # 4417147771901719136
+  WCR_tt_generic_army: "[GetPopType('officers').GetName] 및 [GetPopType('soldiers').GetName]가 [GetBuildingType('building_barracks').GetName]에서 근무하고 [Concept('concept_general', '$concept_generals$')]은(는) #v 전형적인 유럽식 제복#을 착용합니다!" # 4801476336306675437
+  WCR_tt_domestic_navy: "[GetBuildingType('building_naval_base').GetName]에서 근무하는 [GetPopType('officers').GetName]와 [GetPopType('soldiers').GetName] 및 [Concept('concept_admiral', '$concept_admirals$')]는 #v [GetPlayer.GetAdjectiveNoFormatting] 제복#!을 착용할 것입니다." # 4177418806313391708
+  WCR_tt_american_navy: "[GetBuildingType('building_naval_base').GetName]에서 근무하는 [GetPopType('officers').GetName] 및 [GetPopType('soldiers').GetName], 그리고 [Concept('concept_admiral', '$concept_admirals$')]은(는) #v 미국식 제복#을 착용할 것입니다!" # 7738043638431115307
+  WCR_tt_british_navy: "[GetBuildingType('building_naval_base').GetName]에서 근무하는 [GetPopType('officers').GetName] 및 [GetPopType('soldiers').GetName], 그리고 [Concept('concept_admiral', '$concept_admirals$')]는 #v 영국군 제복#을 입을 것입니다!" # 1541297197477762625
+  WCR_tt_french_navy: "[GetBuildingType('building_naval_base').GetName]에서 근무하는 [GetPopType('officers').GetName] 및 [GetPopType('soldiers').GetName]와 [Concept('concept_admiral', '$concept_admirals$')]는 #v 프랑스 군복#을 착용할 것입니다!" # 10904874796841028457
+  WCR_tt_german_navy: "[GetPopType('officers').GetName]과 [GetBuildingType('building_naval_base').GetName]에서 근무하는 [GetPopType('soldiers').GetName], 그리고 [Concept('concept_admiral', '$concept_admirals$')]은(는) #v 독일군 제복#을 착용합니다!" # 3415203803549238650
+  WCR_tt_russian_navy: "[GetBuildingType('building_naval_base').GetName]에 복무하는 [GetPopType('officers').GetName]와 [GetPopType('soldiers').GetName], 그리고 [Concept('concept_admiral', '$concept_admirals$')]은 #v 러시아 군복#을 착용할 것입니다!" # 4417734224221703720
+  WCR_tt_generic_navy: "[GetBuildingType('building_naval_base').GetName]에서 근무하는 [GetPopType('officers').GetName]와 [GetPopType('soldiers').GetName], 그리고 [Concept('concept_admiral', '$concept_admirals$')]는 #v 유럽식 일반 제복#!을 착용하게 됩니다." # 15034641811892630510
+  WCR_sire: "폐하" # 7517905205820942424
+  WCR_madam: "부인" # 3890481627278583320
+  WCR_royal: "왕실" # 879296289490521980
+  WCR_exec: "행정부" # 5056913674888737170
+  WCR_military: "군사" # 2899994092264746864
+  WCR_sire_madam: "[AddLocalizationIf(GetPlayer.GetRuler.IsFemale, 'WCR_madam')][AddLocalizationIf(Not(GetPlayer.GetRuler.IsFemale), 'WCR_sire')]" # 202746637031118086
+  WCR_royal_exec: "[AddLocalizationIf(Not(EqualTo_string(GetPlayer.GetActiveLawFromGroup('lawgroup_governance_principles').GetLawType.GetName, GetLawType('law_monarchy').GetName)), 'WCR_exec')][AddLocalizationIf(EqualTo_string(GetPlayer.GetActiveLawFromGroup('lawgroup_governance_principles').GetLawType.GetName, GetLawType('law_monarchy').GetName), 'WCR_royal')]" # 5815523044304732381
+  WCR_military_df: "[AddLocalizationIf(Not(EqualTo_string(GetPlayer.GetActiveLawFromGroup('lawgroup_governance_principles').GetLawType.GetName, GetLawType('law_monarchy').GetName)), 'WCR_military')]" # 17679973707500820860
+  WCR_ev_2_title: "새로운 $WCR_royal_exec$ 복장" # 5856796754206675339
+  WCR_ev_2_desc: "서구화 과정을 시작하기 위해, [GetPlayer.GetRuler.GetCustom('GetUniversalTitle')][GetPlayer.GetRuler.GetCustom('GetUniversalFullName')]을(를) 위한 새로운 $WCR_military_df$군복이 마련되어야 합니다." # 15422062751017293021
+  WCR_ev_2_flavor: "유럽 열강들은 각기 고유한 복식을 가지고 있습니다. $WCR_sire_madam$, 어떤 것을 직접 입어보시겠습니까?" # 5193624135944129696
+  WCR_ev_3_title: "군장" # 13712712110948300213
+  WCR_ev_3_desc: "군부 역시 신형 군복이 필요합니다. 신형 군복의 조달 및 보급 계획은 즉시 시작되어야 합니다." # 14812858417419633378
+  WCR_ev_3_flavor: "군대에는 물론 폐하의 것과 어울리는 새롭고 현대적인 제복이 필요합니다. 군대가 어떤 양식의 제복을 착용하기를 원하십니까?" # 18440860283666102993
+  WCR_ev_4_title: "내해성 슈트" # 9266242249144521604
+  WCR_ev_4_desc: "해군력은 이 시대의 상징이며, 현대 시대에 걸맞은 해군을 갖추지 못한다면 이는 실례가 될 것입니다." # 8475075200956272060
+  WCR_ev_4_flavor: "우리가 서구화 과정을 시작하기 위해 필요한 것은 해군 제복에 대한 귀하의 지시뿐입니다. 무엇으로 하시겠습니까, $WCR_sire_madam$?" # 3790160577227848031
