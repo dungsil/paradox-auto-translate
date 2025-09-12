@@ -5,6 +5,7 @@ on:
   push:
     branches: [ main ]
     paths:
+      - "stellaris/**/upstream/"
       - "stellaris/**/upstream/localisation/**"
       - "stellaris/**/upstream/**/localisation/**"
 
