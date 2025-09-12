@@ -2,12 +2,6 @@
   dlc_tech_res: "기술 및 연구" # 1062450317642946545
   dlc_tech_res_desc: "테크 & 레스는 1836년부터 1990년대, 그 이후까지 새로운 시대, 생산 기술 및 산업 역학을 포함한 심오하고 몰입감 있는 기술 발전 시스템을 추가하는 모드입니다." # 8384328505110313641
   dubois_state_trait_volcano: "화산" # 6792708077593121795
-  dev_0_country: "빈곤한 국가" # 4710663863017141270
-  dev_1_country: "개발도상국" # 3598241339990793449
-  dev_2_country: "준개발국" # 17851174164431074641
-  dev_3_country: "부분적으로 개발된 국가" # 18048879475046107705
-  dev_4_country: "선진국" # 6845750316031411147
-  dev_5_country: "초선진국" # 5216409013344540310
   combat_unit_type_modern_mechanized_infantry: "현대 기계화 보병" # 12643778757253117612
   combat_unit_type_modern_mechanized_infantry_desc: "높은 기동성과 잘 갖춰진 장비를 갖춘 병력으로, 신속하게 배치되어 효과적인 전투 작전을 수행할 수 있습니다." # 1986523411113946641
   combat_unit_type_modern_light_tanks: "현대 경전차" # 4379698116060487447
@@ -86,3 +80,114 @@
   combat_unit_type_rocket_artillery_desc: "로켓을 주된 발사체로 사용하는 대포로, 더 긴 사거리와 강력한 폭발력을 자랑합니다." # 16316984718513414289
   combat_unit_type_modern_carrier: "핵항공모함" # 12113550812919965838
   combat_unit_type_modern_carrier_desc: "원자로 동력 항공모함으로, 작전 배치를 연장하고 병참 제약을 줄입니다." # 2533278361126320809
+  tactical_weapons: "전술 무기" # 10035480302676491947
+  mobilization_option_close_air_support: "근접 항공 지원" # 11561220155863772577
+  mobilization_option_close_air_support_desc: "특수 항공기가 공대지 무장으로 적 지상군을 직접 공격합니다." # 6681926811999170611
+  mobilization_option_supersonic_close_air_support: "초음속 근접 항공 지원" # 18196420566720378767
+  mobilization_option_supersonic_close_air_support_desc: "공대지 무기를 갖춘 초음속 항공기가 적 지상군을 직접 공격합니다." # 6035466752561616507
+  mobilization_option_indirect_air_support: "간접 항공 지원" # 4003162980434715347
+  mobilization_option_indirect_air_support_desc: "다양한 폭격기가 적 전선 후방의 목표물을 공격하여 적 예비대와 보급선을 교란합니다." # 13210434899075849625
+  mobilization_option_supersonic_indirect_air_support: "초음속 간접 항공 지원" # 6863902667631561277
+  mobilization_option_supersonic_indirect_air_support_desc: "초음속 폭격기는 적진 후방의 목표를 공격하여 적 예비대와 보급선을 교란합니다." # 13706740014348191335
+  mobilization_option_paratroopers: "공수부대" # 2822632924566049961
+  mobilization_option_paratroopers_desc: "정예 병력이 낙하산을 사용하여 적 전선 후방의 핵심 목표를 공격합니다." # 8149960001424841742
+  mobilization_option_nuclear_artillery: "핵포병" # 1574975123882834661
+  mobilization_option_nuclear_artillery_desc: "가공할 파괴 무기가 그 길에 있는 모든 것을 소멸시킵니다." # 8401935973065660941
+  mobilization_option_guided_missiles: "유도 미사일" # 12515029906192459592
+  mobilization_option_guided_missiles_desc: "유도 미사일은 적의 목표물을 정밀하게 공격하는 데 사용됩니다." # 4981579963176092094
+  mobilization_option_helicopters_support: "헬리콥터 지원" # 13736295070885289909
+  mobilization_option_helicopters_support_desc: "헬리콥터는 지상 병력에게 지원을 제공하며, 공중 강습에 사용될 수 있습니다." # 13905375663872627694
+  mobilization_option_awacs_support: "에이왁스 지원" # 6180460587319543113
+  mobilization_option_awacs_support_desc: "AWACS 항공기는 정찰에 유용하며 작전 조율에 사용될 수 있습니다." # 17131926473149367685
+  mobilization_option_satellites_support: "위성국 지원" # 8809512282990996305
+  mobilization_option_satellites_support_desc: "위성은 작전 조정을 위해 사용될 수 있는 우주 기반 정찰 시스템입니다." # 6530262384619804674
+  mobilization_option_penicillin_medical_support: "페니실린 의료 지원" # 3255916075580922611
+  mobilization_option_penicillin_medical_support_desc: "페니실린은 감염을 치료하고 전장에서 생명을 구할 수 있는 강력한 항생제입니다." # 7780820277168222110
+  goods_input_light_fuel_add: "@light_fuel! 경유 투입" # 6216783065568310915
+  goods_input_light_fuel_add_desc: "건물에서 소비되는 @light_fuel! 경량 연료의 양" # 14166640901742137640
+  goods_input_pharmaceuticals_add: "@pharmaceuticals! 의약품 투입" # 6527510816699650899
+  goods_input_pharmaceuticals_add_desc: "건물이 소비하는 @pharmaceuticals! 의약품의 양" # 16489838676503468249
+  goods_input_helicopters_add: "@헬리콥터! 헬리콥터 입력" # 2831530052579150527
+  goods_input_helicopters_add_desc: "건물들의 @helicopters! 헬리콥터 소비량" # 5798783979640028336
+  goods_input_processors_add: "@processors! 가공품 투입물" # 16411711618617499633
+  goods_input_processors_add_desc: "건물들의 @processors! 프로세서 소비량" # 14899103024115035791
+  goods_input_missiles_add: "@missiles! 미사일 입력" # 13473186616256652322
+  goods_input_missiles_add_desc: "@missiles! 건물에서 소비되는 미사일" # 35731834594150191
+  goods_input_good_uranium_add: "@good_uranium! 우라늄 투입량" # 3694036268368242828
+  goods_input_good_uranium_add_desc: "건물들이 소비하는 @good_uranium! 우라늄의 양" # 17391728382152936258
+  goods_input_computer_add: "@computer! 컴퓨터 입력" # 8187064360723492017
+  goods_input_computer_add_desc: "건물이 소비하는 @computer! 컴퓨터의 양" # 13921171100089157568
+  goods_input_electroniccomponents_add: "@electroniccomponents! 전자 부품 투입" # 9918339675582381302
+  goods_input_electroniccomponents_add_desc: "건물이 소모하는 @electroniccomponents! 전기 부품의 양" # 3384994248815078320
+  goods_input_space_assets_add: "@space_assets! 우주 자산 입력" # 17240164378081833602
+  goods_input_space_assets_add_desc: "건물에서 소비되는 @space_assets! 우주 자산의 양" # 2427399388364500334
+  goods_input_water_add: "@water! 물 투입량" # 9716105377853744329
+  goods_input_water_add_desc: "@water! 건물에서 소비되는 물의 양" # 3708515668361857950
+  goods_input_telecommunications_add: "@telecommunications! 전기 통신 투입" # 17547414138926758440
+  goods_input_telecommunications_add_desc: "건물들이 소비하는 @telecommunications! 통신량" # 10877859509653849249
+  electronic_support: "전자 지원" # 8957627629172904963
+  nuclear_weapons: "핵무기" # 5627323961255064452
+  mobilization_option_electronic_countermeasures: "전자 대응책" # 6334565004592494429
+  mobilization_option_electronic_countermeasures_desc: "전자전 방해책은 아군 병력을 적의 레이더 및 조준 시스템으로부터 보호하는 데 도움이 됩니다." # 15748759132501104048
+  mobilization_option_electronic_support_measures: "전자 지원 수단" # 15304937265335007300
+  mobilization_option_electronic_support_measures_desc: "전자 지원 조치는 향상된 통신과 조정을 통해 우리 군의 역량을 증강시킵니다." # 8577906889859322793
+  mobilization_option_electronic_attack: "전자 공격" # 2746261841520885249
+  mobilization_option_electronic_attack_desc: "전자 공격 능력은 우리로 하여금 적의 통신 및 표적 시스템을 교란할 수 있게 해줍니다." # 15111287407240745940
+  mobilization_option_electronic_counter_countermeasures: "전자 대대응책" # 18077002041184593772
+  mobilization_option_electronic_counter_countermeasures_desc: "전자 역역대응은 적의 전자전으로부터 아군을 보호하는 데 도움이 됩니다." # 2955873339444684250
+  mobilization_option_icbms_artillery: "대륙간 탄도 미사일 포병" # 10624242370219339544
+  mobilization_option_icbms_artillery_desc: "대륙간 탄도 미사일(ICBM)은 적 목표물에 대한 장거리 타격 능력을 제공합니다." # 9561646621266173112
+  unit_combat_unit_type_modern_heavy_tank_offense_mult: "현대 중전차\n부대 공격력 배율" # 7239910830824610654
+  unit_combat_unit_type_modern_heavy_tank_offense_mult_desc: "현대 중전차\n부대 공격력 배율" # 7239910830824610654
+  unit_combat_unit_type_modern_light_tanks_offense_mult: "현대 경전차 공격력 배율" # 17551905715100052623
+  unit_combat_unit_type_modern_light_tanks_offense_mult_desc: "현대 경전차 공격력 배율" # 17551905715100052623
+  unit_combat_unit_type_main_battle_tanks_offense_mult: "주력 전차 공격력 배율" # 14069699858886790146
+  unit_combat_unit_type_main_battle_tanks_offense_mult_desc: "주력 전차 공격력 배율" # 14069699858886790146
+  unit_combat_unit_type_siege_artillery_offense_mult: "$combat_unit_type_siege_artillery$ $unit_offense_mult$" # 13344774950677082892
+  unit_combat_unit_type_siege_artillery_offense_mult_desc: "$combat_unit_type_siege_artillery$ $unit_offense_mult$" # 13344774950677082892
+  unit_combat_unit_type_siege_artillery_defense_mult: "$combat_unit_type_siege_artillery$ $unit_defense_mult$" # 11994630182937102686
+  unit_combat_unit_type_siege_artillery_defense_mult_desc: "$combat_unit_type_siege_artillery$ $unit_defense_mult$" # 11994630182937102686
+  unit_combat_unit_type_self_propelled_artillery_offense_mult: "$combat_unit_type_self_propelled_artillery$ $unit_offense_mult$" # 18228279499864740975
+  unit_combat_unit_type_self_propelled_artillery_offense_mult_desc: "$combat_unit_type_self_propelled_artillery$ $unit_offense_mult$" # 18228279499864740975
+  unit_combat_unit_type_self_propelled_artillery_defense_mult: "자주포병\n부대 방어력 승수" # 17141088563537271187
+  unit_combat_unit_type_self_propelled_artillery_defense_mult_desc: "자주포병\n부대 방어력 승수" # 17141088563537271187
+  unit_combat_unit_type_modern_mechanized_infantry_offense_mult: "$combat_unit_type_modern_mechanized_infantry$\n$unit_offense_mult$" # 10670717969681574204
+  unit_combat_unit_type_modern_mechanized_infantry_offense_mult_desc: "$combat_unit_type_modern_mechanized_infantry$\n$unit_offense_mult$" # 10670717969681574204
+  unit_combat_unit_type_modern_mechanized_infantry_defense_mult: "현대 기계화 보병\n유닛 방어 승수" # 17448079599220520793
+  unit_combat_unit_type_modern_mechanized_infantry_defense_mult_desc: "현대 기계화 보병\n유닛 방어 승수" # 17448079599220520793
+  unit_combat_unit_type_advanced_mechanized_infantry_offense_mult: "고급 기계화 보병\n유닛 공격력 배율" # 197126066973706591
+  unit_combat_unit_type_advanced_mechanized_infantry_offense_mult_desc: "고급 기계화 보병\n유닛 공격력 배율" # 197126066973706591
+  unit_combat_unit_type_advanced_mechanized_infantry_defense_mult: "고급 기계화 보병\n부대 방어 배율" # 9511330153957894274
+  unit_combat_unit_type_advanced_mechanized_infantry_defense_mult_desc: "고급 기계화 보병\n부대 방어 배율" # 9511330153957894274
+  mobilization_option_rocket_artillery: "로켓" # 12193992866038969155
+  mobilization_option_rocket_artillery_desc: "로켓은 적 병력에 치명적인 양의 폭발물을 투하할 수단을 제공합니다." # 16287705143369363726
+  unit_combat_unit_type_nuclear_submarine_offense_mult: "$combat_unit_type_nuclear_submarine$\n$unit_offense_mult$" # 13749569837256957485
+  unit_combat_unit_type_nuclear_submarine_offense_mult_desc: "$combat_unit_type_nuclear_submarine$\n$unit_offense_mult$" # 13749569837256957485
+  unit_combat_unit_type_nuclear_submarine_defense_mult: "핵잠수함\n유닛 방어력 배수" # 6847517806242275143
+  unit_combat_unit_type_nuclear_submarine_defense_mult_desc: "핵잠수함\n유닛 방어력 배수" # 6847517806242275143
+  unit_combat_unit_type_modern_destroyer_offense_mult: "현대식 구축함\n유닛 공격력 배율" # 4168361349374859708
+  unit_combat_unit_type_modern_destroyer_offense_mult_desc: "현대식 구축함\n유닛 공격력 배율" # 4168361349374859708
+  unit_combat_unit_type_modern_destroyer_defense_mult: "현대 구축함\n유닛 방어 배율" # 8351822840144897729
+  unit_combat_unit_type_modern_destroyer_defense_mult_desc: "현대 구축함\n유닛 방어 배율" # 8351822840144897729
+  unit_combat_unit_type_scout_modern_cruiser_offense_mult: "정찰 현대식 순양함\n부대 공격력 배율" # 8458386781396285190
+  unit_combat_unit_type_scout_modern_cruiser_offense_mult_desc: "정찰 현대식 순양함\n부대 공격력 배율" # 8458386781396285190
+  unit_combat_unit_type_scout_modern_cruiser_defense_mult: "현대식 정찰 순양함\n부대 방어력 배율" # 14099398901075163522
+  unit_combat_unit_type_scout_modern_cruiser_defense_mult_desc: "현대식 정찰 순양함\n부대 방어력 배율" # 14099398901075163522
+  unit_combat_unit_type_modern_battleship_offense_mult: "현대 전함\n유닛 공격력 배율" # 2641478636551113578
+  unit_combat_unit_type_modern_battleship_offense_mult_desc: "현대 전함\n유닛 공격력 배율" # 2641478636551113578
+  unit_combat_unit_type_modern_battleship_defense_mult: "현대식 전함\n부대 방어 배율" # 8990609641489432296
+  unit_combat_unit_type_modern_battleship_defense_mult_desc: "현대식 전함\n부대 방어 배율" # 8990609641489432296
+  unit_combat_unit_type_modern_carrier_offense_mult: "현대식 항공모함\n유닛 공격력 배율" # 927440194017303436
+  unit_combat_unit_type_modern_carrier_offense_mult_desc: "현대식 항공모함\n유닛 공격력 배율" # 927440194017303436
+  unit_combat_unit_type_modern_carrier_defense_mult: "현대형 항공모함\n부대 방어 배율" # 11471623600717307509
+  unit_combat_unit_type_modern_carrier_defense_mult_desc: "현대형 항공모함\n부대 방어 배율" # 11471623600717307509
+  dev_0_country: "빈곤한 국가" # 4710663863017141270
+  dev_1_country: "저개발 국가" # 3591122383854812374
+  dev_2_country: "개발도상국" # 3598241339990793449
+  dev_3_country: "준개발국" # 17851174164431074641
+  dev_4_country: "개발도상국" # 18048879475046107705
+  dev_5_country: "선진국" # 6845750316031411147
+  dev_6_country: "고도 선진국" # 95541061879628258
+  dev_7_country: "초선진국" # 5216409013344540310
+  dev_8_country: "초선진국" # 3725679349394451189
+  decolonization_liberty_desire_counter_modifier: "탈식민화 규칙 상쇄 없음" # 12341328749240625631

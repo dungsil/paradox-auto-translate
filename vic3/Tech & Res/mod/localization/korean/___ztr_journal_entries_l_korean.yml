@@ -16,10 +16,8 @@
   je_ottoman_empire_collapse_goal: "문화적 포용과 권리를 증진하는 법률을 제정하고, 1인당 GDP를 증가시키며, 열강으로서 유럽 지정학에서 지배적인 위치를 유지하십시오. 만약 di JE를 완료한다면, [COUNTRY.GetName]은 붕괴하여 이웃 국가들과 내부 민족들에게 분할될 것입니다." # 7465312061189318949
   je_old_progressive_ideologies: "구 진보적 이념" # 2879438093937541864
   je_old_progressive_ideologies_reason: "[COUNTRY.GetName]의 지식인과 산업가들 사이에서 19세기 후반에 나타나는 최초의 진보주의적 및 [Concept('concept_environment','$concept_환경$')] 법률과 이념을 활성화하며, 입양 및 [Concept('concept_environment','$concept_환경$')] 보호와 같은 권리를 포함합니다." # 12866766041213926130
-  je_old_progressive_ideologies_goal: "인권 기술 연구." # 13271724779261428940
   je_mid_progressive_ideologies: "중도 진보 이념" # 9109730509890663234
   je_mid_progressive_ideologies_reason: "20세기 후반 초기에 나타나는 중도 진보주의적 및 [Concept('concept_environment','$concept_environmental$')] 법률과 이념을 활성화합니다. 여기에는 안락사, 동성애 권리, 우라늄 사용, 그리고 더욱 강력한 오염 규제와 같은 권리들이 포함됩니다." # 15306252386825073191
-  je_mid_progressive_ideologies_goal: "사회 민주주의 기술 연구." # 17499751566639049775
   je_late_progressive_ideologies: "후기 진보 이념" # 9604435266196928119
   je_late_progressive_ideologies_reason: "20세기 말에 등장하는 후기 진보주의적 및 [Concept('concept_environment','$concept_environmental$')] 법률과 이념을 활성화합니다. 여기에는 낙태권, 성소수자 권리, 그리고 광산 및 오염 유발 건물 철거와 같은 극단적인 기후 행동이 포함됩니다." # 16773669164705877186
   je_late_progressive_ideologies_goal: "신자유주의 기술 연구." # 9895149237303232911
@@ -47,3 +45,5 @@
   je_demographic_7_to_8: "VIII 인구 단계" # 16374899645558252674
   je_demographic_7_to_8_reason: "[COUNTRY.GetName]은 #bold 전무한# 출산율과 #bold 극히 낮은# 사망률을 특징으로 하는 [Concept('concept_demographic_stages','$concept_demographic_stage$')]의 8단계에 있습니다.\n\n[Concept('concept_pop_growth','$concept_pop_growth$')]은 #bold 정체된# 상태입니다." # 18119470876878605892
   je_demographic_7_to_8_goal: "높은 [Concept('concept_literacy','$concept_literacy$')], 높은 [Concept('concept_sol','$concept_sol$')], 폐쇄적 국경, 그리고 자유주의 정부는 이 과정을 가속화할 것입니다. 이민, 다문화주의, 그리고 전통적 가치는 이 과정을 늦출 것입니다." # 6903871564594946398
+  je_old_progressive_ideologies_goal: "[COUNTRY.GetName]은 적어도 부분적 개발국이어야 하며 인권 기술을 보유해야 합니다." # 3547486864562774638
+  je_mid_progressive_ideologies_goal: "[COUNTRY.GetName]은 선진국 이상이어야 하며 사회 민주주의 기술을 보유해야 합니다." # 12874953449450790771

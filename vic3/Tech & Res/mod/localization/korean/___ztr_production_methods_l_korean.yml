@@ -293,36 +293,6 @@
   pm_gaudi_no_communication: "통신 없음" # 12181076935477744434
   pm_gaudi_telegraph_office: "전신국" # 6286945775583759472
   pm_elgar_radio_stations: "라디오 방송국" # 5178317668500082128
-  pmg_base_building_hydroponic_type: "유형" # 1769059670591154792
-  pmg_hydroponic_fruits: "과일" # 14237724182217383971
-  pmg_hydroponic_dye: "염료" # 7029170380987803971
-  pmg_hydroponic_cotton: "면화" # 5067416577218455558
-  pmg_hydroponic_tea: "염료" # 7029170380987803971
-  pmg_hydroponic_coffee: "커피" # 14715978859277404571
-  pm_hydroponic_fruits_specialization: "과일 전문화" # 2711363299784940386
-  pm_hydroponic_dye_specialization: "염료 특화" # 18356041573907435494
-  pm_hydroponic_cotton_specialization: "목화 특화" # 7504661035745054243
-  pm_hydroponic_tea_specialization: "차 특화" # 9024861170060940959
-  pm_hydroponic_coffee_specialization: "커피 특화" # 16708821777053680016
-  pm_hydroponic_no_fruits: "비활성화됨" # 1399321916878098753
-  pm_hydroponic_fruits_gericke: "게리케 시스템즈 과일" # 14358148032362974765
-  pm_hydroponic_fruits_acquafarm: "아쿠아팜 시스템즈 과일" # 13368762140062300310
-  pm_hydroponic_no_dye: "비활성화됨" # 1399321916878098753
-  pm_hydroponic_dye_gericke: "게리케 시스템즈 염료" # 2778321065655124397
-  pm_hydroponic_dye_acquafarm: "아쿠아팜 시스템즈 염료" # 8043490863037376983
-  pm_hydroponic_no_cotton: "비활성화됨" # 1399321916878098753
-  pm_hydroponic_cotton_gericke: "게리케 시스템즈 면화" # 6104818503466057046
-  pm_hydroponic_cotton_acquafarm: "아쿠아팜 시스템즈 면화" # 5739277676900241664
-  pm_hydroponic_no_tea: "비활성화됨" # 1399321916878098753
-  pm_hydroponic_tea_gericke: "게리케 시스템스 차" # 5021794659280298585
-  pm_hydroponic_tea_acquafarm: "아쿠아팜 시스템즈 차" # 12254418546598492194
-  pm_hydroponic_no_coffee: "비활성화됨" # 1399321916878098753
-  pm_hydroponic_coffee_gericke: "게리케 시스템즈 커피" # 8362979839321791389
-  pm_hydroponic_coffee_acquafarm: "아쿠아팜 시스템즈 커피" # 13877321326012171478
-  pmg_hydroponic_automation: "자동화" # 18411738171978629847
-  pm_hydroponic_no_automation: "자동화 없음" # 7652304566797465410
-  pm_hydroponic_basic_electric_control: "기본 전기 제어" # 14094882549028163190
-  pm_hydroponic_advanced_electric_control: "선진 전기 제어" # 4934158965090356378
   pmg_urban_center_healtcare: "보건 의료" # 14217266858076441630
   pm_modern_urban_utilities: "현대 도시 공공 시설" # 1223676181553238293
   pm_no_healtcare: "의료 제도가 없음" # 7096117188505171545
@@ -380,7 +350,6 @@
   pm_disabled_direct_reduced_iron: "비활성화됨" # 1399321916878098753
   pm_direct_reduced_iron_hyl_process: "에이치와이엘 공정" # 3029041905005385805
   pm_direct_reduced_iron_midrex_process: "미드렉스 공법" # 1522500838690440973
-  pm_advanced_electric_arc_process: "고급 전기 아크 공정" # 17581352918613482946
   pm_mobile_artillery: "로켓 포병" # 15081891605769264607
   pm_no_tank_production: "전차 없음" # 13808390104523045570
   pm_tank_production: "1세대 전차" # 7797784628588636845
@@ -484,7 +453,6 @@
   pm_internet_data_optimization_heavy_industry_processors: "클라우드 데이터 최적화" # 3163034493859488736
   pmg_data_optimization_heavy_industry_telecommunications: "최적화" # 8147114492625738509
   pm_internet_data_reporting_heavy_industry_telecommunications: "인터넷 데이터 보고" # 12301346942221092580
-  pm_internet_data_optimization_heavy_industry_telecommunications: "클라우드 데이터 최적화" # 3163034493859488736
   pmg_data_optimization_heavy_industry_software: "최적화" # 8147114492625738509
   pm_digital_data_optimization_heavy_industry_software: "디지털 데이터 최적화" # 5438169285567104682
   pm_digital_data_on_premises_heavy_industry_software: "디지털 데이터 온프레미스" # 1487727957435063545
@@ -608,4 +576,74 @@
   pm_digital_audio_workstation: "디지털 오디오 워크스테이션" # 6156923104399791633
   pm_online_content_creation: "온라인 콘텐츠 제작" # 14662515461661411029
   pm_digital_postproduction: "디지털 후반 작업" # 10886693441594959801
+  pm_modern_city_transport: "공공 근대 교통" # 3547617176741282270
   pm_hpgr_comminution: "HPGR 분쇄" # 15265600619577817348
+  pm_oxygen_steel_process: "산소 제강 전로" # 8784287560262820653
+  pmg_base_building_hydroponic_type: "수경 재배 설비" # 1481875802081220725
+  pm_hydroponic_gericke_system: "게리케 시스템즈" # 290393340405695977
+  pm_hydroponic_acquafarm_system: "아쿠아팜 시스템" # 15356727874503107593
+  pm_hydroponic_vertical_farming: "#bold 수직 농업#" # 7926561737748824820
+  pmg_hydroponic_plantation_type: "수경 플랜테이션 유형" # 6006103406237893051
+  pm_hydroponic_fruit: "과일" # 14237724182217383971
+  pm_hydroponic_dye: "염료" # 1894739421136496676
+  pm_hydroponic_cotton: "면화" # 5067416577218455558
+  pm_hydroponic_tea: "차" # 9305415338533484929
+  pm_hydroponic_coffee: "커피" # 14715978859277404571
+  pmg_hydroponic_automation_drone: "자동화" # 18411738171978629847
+  pm_hydroponic_conventional_farming: "재래식 농업" # 11771248066649177404
+  pm_hydroponic_drones_farming: "드론 농업" # 1707205661997583440
+  advanced_plantation_methods_building_coffee_plantation: "고급 플랜테이션 수확" # 10620205622219276350
+  drone_assisted_agriculture_building_coffee_plantation: "드론 지원 영농" # 3271402303643951708
+  advanced_plantation_methods_building_cotton_plantation: "고급 플랜테이션 수확" # 10620205622219276350
+  drone_assisted_agriculture_building_cotton_plantation: "드론 지원 영농" # 3271402303643951708
+  advanced_plantation_methods_building_dye_plantation: "고급 플랜테이션 수확" # 10620205622219276350
+  drone_assisted_agriculture_building_dye_plantation: "드론 지원 영농" # 3271402303643951708
+  advanced_plantation_methods_building_opium_plantation: "고급 플랜테이션 수확" # 10620205622219276350
+  drone_assisted_agriculture_building_opium_plantation: "드론 지원 영농" # 3271402303643951708
+  advanced_plantation_methods_building_tea_plantation: "고급 플랜테이션 수확" # 10620205622219276350
+  drone_assisted_agriculture_building_tea_plantation: "드론 지원 영농" # 3271402303643951708
+  advanced_plantation_methods_building_tobacco_plantation: "고급 플랜테이션 수확" # 10620205622219276350
+  drone_assisted_agriculture_building_tobacco_plantation: "드론 지원 영농" # 3271402303643951708
+  advanced_plantation_methods_building_sugar_plantation: "고급 플랜테이션 수확" # 10620205622219276350
+  drone_assisted_agriculture_building_sugar_plantation: "드론 지원 영농" # 3271402303643951708
+  advanced_plantation_methods_building_banana_plantation: "고급 플랜테이션 수확" # 10620205622219276350
+  drone_assisted_agriculture_building_banana_plantation: "드론 지원 영농" # 3271402303643951708
+  advanced_plantation_methods_building_silk_plantation: "고급 플랜테이션 수확" # 10620205622219276350
+  drone_assisted_agriculture_building_silk_plantation: "드론 지원 영농" # 3271402303643951708
+  advanced_plantation_methods_building_vineyard_plantation: "고급 플랜테이션 수확" # 10620205622219276350
+  drone_assisted_agriculture_building_vineyard_plantation: "드론 지원 영농" # 3271402303643951708
+  pmg_transport_infrastructure_building_railway: "도로 인프라" # 5249506188789503101
+  pm_basic_roads_building_railway: "기본 도로" # 7436866312108739844
+  pm_highways_building_railway: "간선도로" # 3969334153630841660
+  pm_expressways_building_railway: "고속도로" # 3878952220713254793
+  pm_logistics_hubs_building_railway: "물류 허브" # 1735571295202984986
+  pm_internet_data_algorithmic_dispatch_heavy_industry_telecommunications: "알고리즘 최적화" # 10306209424860855498
+  pmg_automation_building_ecommerce_logistics: "자동화" # 18411738171978629847
+  pm_advanced_assembly_lines_building_ecommerce_logistics: "선진 조립 라인" # 9416223957800701698
+  pm_robotic_building_ecommerce_logistics: "로봇 건물" # 8182318609142561588
+  pmg_data_optimization_building_ecommerce_logistics: "데이터 최적화" # 1434155673471641683
+  pm_internet_data_algorithmic_dispatch_heavy_industry: "알고리즘 최적화" # 10306209424860855498
+  pmg_delivery_mode_building_ecommerce_logistics: "배송 모드" # 165647942061591684
+  pm_local_courier_network: "지역 전령망" # 9036454332761173002
+  pm_platform_gig_delivery: "플랫폼 긱 배달" # 12631967275272734267
+  pm_integrated_retail_ecommerce: "통합 소매 강화 상업" # 9287705542242934906
+  pmg_fulfilment_model_building_ecommerce_logistics: "이행 유형" # 16908263932660245031
+  pm_light_store_pickup: "간편 매장 픽업" # 6363736756304074610
+  pm_heavy_centralized_fulfilment: "강력한 중앙집권적 이행" # 13258599349158596080
+  pm_mixed_robotic_microfulfilment: "#bold 복합 로봇 소형 물류 자동화#" # 3128098416493602070
+  pmg_transport_building_ecommerce_logistics: "운송" # 10054269578660534071
+  pm_bike_scooter_transportation: "자전거 및 스쿠터 교통" # 3453720777075457713
+  pm_drone_last_mile: "드론 라스트 마일 배송" # 4770955508060320513
+  pm_truck_van_transportation: "트럭 및 밴 운송" # 6703395539778317178
+  pm_automatized_truck_van_transportation: "자동화된 트럭 및 밴 운송" # 3289522872320354806
+  pm_delivering_on_demand_bakery: "주문형 제빵 배달" # 6644917750562950502
+  pm_high_precision_blasting_building_coal_mine: "정밀 발파" # 12428454820629999812
+  pm_high_precision_blasting_building_iron_mine: "정밀 발파" # 12428454820629999812
+  pm_high_precision_blasting_building_lead_mine: "정밀 발파" # 12428454820629999812
+  pm_high_precision_blasting_building_sulfur_mine: "정밀 발파" # 12428454820629999812
+  pm_high_precision_blasting_building_uranium_mine: "정밀 발파" # 12428454820629999812
+  pm_high_precision_blasting_building_bauxite_mine: "정밀 발파" # 12428454820629999812
+  pm_high_precision_blasting_building_copper_mine: "정밀 발파" # 12428454820629999812
+  pm_high_precision_blasting_building_commonores_mine: "정밀 발파" # 12428454820629999812
+  pm_high_precision_blasting_building_advancedores_mine: "정밀 발파" # 12428454820629999812
+  pm_aluminium_passenger_carriages: "알루미늄 객차" # 1306668243856065790
