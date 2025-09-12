@@ -13,48 +13,17 @@ jobs:
     steps:
       - name: 소스코드 체크아웃
         uses: actions/checkout@v5
+      - name: pnpm 설정
+        uses: pnpm/action-setup@v4
+      - name: Node.js 설정
+        uses: actions/setup-node@v4
         with:
-          submodules: true
-      - name: 서브모듈 경로 파싱
-        run: |
-          submodule_paths=$(awk -F ' = ' '/path/ {printf $2","}' .gitmodules)
-          submodule_paths=${submodule_paths%,}  # 마지막 쉼표 제거
-          echo "submodule_paths=$submodule_paths" >> $GITHUB_ENV
-      - name: 저장소 정보 업데이트
-        run: |
-          git submodule init
-          git submodule update --remote
-      - name: 서브모듈 태그 업데이트
-        run: |
-          IFS=',' read -ra ADDR <<< "${{ env.submodule_paths }}"
-          for path in "${ADDR[@]}"; do
-            cd "$path"
-            git fetch --tags
-            cd -
-          done
-      - name: 마지막 태그 또는 기본 브랜치로 체크아웃한다
-        run: |
-          IFS=',' read -ra ADDR <<< "${{ env.submodule_paths }}"
-          for path in "${ADDR[@]}"; do
-            cd "$path"
-            echo "Processing submodule: $path"
-            
-            # 태그가 있는지 확인
-            if git tag | grep -q .; then
-              echo "Tags found, using latest tag"
-              latest_tag=$(git describe --tags `git rev-list --tags --max-count=1`)
-              echo "Latest tag: $latest_tag"
-              git checkout $latest_tag
-            else
-              echo "No tags found, using default branch"
-              default_branch=$(git remote show origin | grep 'HEAD branch' | awk '{print $NF}')
-              echo "Default branch: $default_branch"
-              git checkout $default_branch
-              git pull origin $default_branch
-            fi
-            
-            cd -
-          done
+          cache: 'pnpm'
+          node-version-file: .node-version
+      - name: 의존성 설치
+        run: pnpm install --frozen-lockfile
+      - name: 업스트림 저장소 업데이트 (최적화된 방식)
+        run: pnpm upstream
       - name: 변경사항 업데이트
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
