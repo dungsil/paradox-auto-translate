@@ -5,6 +5,7 @@ on:
   push:
     branches: [ main ]
     paths:
+      - "vic3/**/upstream/"
       - "vic3/**/upstream/localization/**"
       - "vic3/**/upstream/**/localization/**"
 
