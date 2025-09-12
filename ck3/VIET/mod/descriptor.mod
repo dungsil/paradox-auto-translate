@@ -1,6 +1,6 @@
 name = "DAT :: VIET"
-version = "1.15.6-1"
-supported_version = "1.16.*"
+version = "1.17.0-1"
+supported_version = "1.17.*"
 tags = {
   "Translation"
 }
