@@ -33,15 +33,16 @@ interface MetaTomlConfig {
 /**
  * meta.toml 파일을 기반으로 upstream 설정을 추출합니다
  */
-export async function parseUpstreamConfigs(rootPath: string): Promise<UpstreamConfig[]> {
+export async function parseUpstreamConfigs(rootPath: string, targetGameType?: string): Promise<UpstreamConfig[]> {
   const configs: UpstreamConfig[] = []
   
   // meta.toml 파일들을 찾아서 처리
-  const metaConfigs = await findMetaTomlConfigs(rootPath)
+  const metaConfigs = await findMetaTomlConfigs(rootPath, targetGameType)
   configs.push(...metaConfigs)
   
   if (configs.length === 0) {
-    log.error('meta.toml 파일이 없습니다. 모든 모드 디렉토리에 meta.toml 파일이 필요합니다.')
+    const gameMessage = targetGameType ? `${targetGameType} 게임의 ` : ''
+    log.error(`${gameMessage}meta.toml 파일이 없습니다. 모든 모드 디렉토리에 meta.toml 파일이 필요합니다.`)
     throw new Error('meta.toml 파일이 없습니다')
   }
   
@@ -51,9 +52,9 @@ export async function parseUpstreamConfigs(rootPath: string): Promise<UpstreamCo
 /**
  * 모든 meta.toml 파일을 찾아서 upstream 설정을 추출합니다
  */
-async function findMetaTomlConfigs(rootPath: string): Promise<UpstreamConfig[]> {
+async function findMetaTomlConfigs(rootPath: string, targetGameType?: string): Promise<UpstreamConfig[]> {
   const configs: UpstreamConfig[] = []
-  const gameDirectories = ['ck3', 'vic3', 'stellaris']
+  const gameDirectories = targetGameType ? [targetGameType] : ['ck3', 'vic3', 'stellaris']
   
   for (const gameDir of gameDirectories) {
     const gamePath = join(rootPath, gameDir)
@@ -246,16 +247,19 @@ async function checkoutLatestVersion(repositoryPath: string, configPath: string)
 /**
  * 모든 upstream 리포지토리를 병렬로 업데이트합니다
  */
-export async function updateAllUpstreams(rootPath: string): Promise<void> {
-  const configs = await parseUpstreamConfigs(rootPath)
+export async function updateAllUpstreams(rootPath: string, targetGameType?: string): Promise<void> {
+  const configs = await parseUpstreamConfigs(rootPath, targetGameType)
   
   if (configs.length === 0) {
-    log.warn('업데이트할 upstream 설정을 찾을 수 없습니다')
+    const gameMessage = targetGameType ? `${targetGameType} 게임의 ` : ''
+    log.warn(`업데이트할 ${gameMessage}upstream 설정을 찾을 수 없습니다`)
     return
   }
   
+  const scopeMessage = targetGameType ? `${targetGameType.toUpperCase()} 게임` : '모든 게임'
   log.box(`
     Upstream 최적화 업데이트 시작
+    - 범위: ${scopeMessage}
     - 대상: ${configs.length}개 리포지토리
     - 모드: 병렬 처리 (sparse checkout)
     - 설정 소스: meta.toml 전용
@@ -268,5 +272,6 @@ export async function updateAllUpstreams(rootPath: string): Promise<void> {
   await Promise.all(promises)
   
   const duration = Date.now() - startTime
-  log.success(`모든 upstream 업데이트 완료! (${duration}ms)`)
+  const scopeMessageComplete = targetGameType ? `${targetGameType.toUpperCase()} ` : '모든 '
+  log.success(`${scopeMessageComplete}upstream 업데이트 완료! (${duration}ms)`)
 }
