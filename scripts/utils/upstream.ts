@@ -227,8 +227,9 @@ async function updateExistingRepository(repositoryPath: string, config: Upstream
       return
     }
     
-    // 원격 변경사항 가져오기
-    await execAsync('git fetch origin --tags', { cwd: repositoryPath })
+    // 원격 변경사항 및 태그 가져오기 (원본 워크플로우와 동일)
+    log.start(`[${config.path}] 태그 및 원격 변경사항 가져오는 중...`)
+    await execAsync('git fetch --tags', { cwd: repositoryPath })
     
     // 최신 버전 확인 및 체크아웃
     log.start(`[${config.path}] 업데이트 중...`)
@@ -243,30 +244,35 @@ async function updateExistingRepository(repositoryPath: string, config: Upstream
 
 /**
  * 최신 버전 태그를 체크아웃하거나, 태그가 없는 경우 기본 브랜치의 최신 커밋을 가져옵니다
+ * 원본 워크플로우 로직을 정확히 복제합니다
  */
 async function checkoutLatestVersion(repositoryPath: string, configPath: string): Promise<void> {
-  try {
-    // 1. 최신 버전 태그를 체크아웃
-    const { stdout: latestTag } = await execAsync('git describe --tags --abbrev=0', { cwd: repositoryPath })
-    if (latestTag.trim()) {
-      log.info(`[${configPath}] 최신 태그로 체크아웃: ${latestTag.trim()}`)
-      await execAsync(`git checkout ${latestTag.trim()}`, { cwd: repositoryPath })
-      return
-    }
-  } catch {
-    // 태그가 없는 경우, 2번으로 계속
-  }
+  log.info(`[${configPath}] 버전 확인 중...`)
   
   try {
+    // 1. 태그가 있는지 확인 (원본 워크플로우와 동일한 방식)
+    await execAsync('git tag | grep -q .', { cwd: repositoryPath })
+    
+    // 태그가 있는 경우, 최신 태그로 체크아웃
+    log.info(`[${configPath}] 태그 발견, 최신 태그 사용`)
+    const { stdout: latestTag } = await execAsync('git describe --tags `git rev-list --tags --max-count=1`', { cwd: repositoryPath })
+    const tag = latestTag.trim()
+    log.info(`[${configPath}] 최신 태그: ${tag}`)
+    await execAsync(`git checkout ${tag}`, { cwd: repositoryPath })
+    
+  } catch {
     // 2. 태그가 없는 경우에만 기본 브랜치의 최신 커밋을 가져옴
-    log.info(`[${configPath}] 태그가 없어 기본 브랜치 최신 커밋으로 체크아웃`)
-    await execAsync('git checkout origin/HEAD', { cwd: repositoryPath })
-  } catch (error) {
-    // origin/HEAD가 없는 경우 main 또는 master 시도
+    log.info(`[${configPath}] 태그 없음, 기본 브랜치 사용`)
+    
     try {
-      await execAsync('git checkout origin/main', { cwd: repositoryPath })
-    } catch {
-      await execAsync('git checkout origin/master', { cwd: repositoryPath })
+      const { stdout: defaultBranch } = await execAsync('git remote show origin | grep "HEAD branch" | awk \'{print $NF}\'', { cwd: repositoryPath })
+      const branch = defaultBranch.trim()
+      log.info(`[${configPath}] 기본 브랜치: ${branch}`)
+      await execAsync(`git checkout ${branch}`, { cwd: repositoryPath })
+      await execAsync(`git pull origin ${branch}`, { cwd: repositoryPath })
+    } catch (error) {
+      log.error(`[${configPath}] 기본 브랜치 체크아웃 실패:`, error)
+      throw error
     }
   }
 }
