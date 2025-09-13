@@ -34,7 +34,7 @@ interface ModMeta {
 }
 
 export async function processModTranslations ({ rootDir, mods, gameType, onlyHash = false }: ModTranslationsOptions): Promise<void> {
-  // 번역 작업 전에 upstream 리포지토리를 최적화된 방식으로 업데이트
+  // 번역 작업 전에 upstream 리포지토리를 방식으로 업데이트
   log.start('Upstream 리포지토리 업데이트 중...')
   const projectRoot = join(rootDir, '..') // rootDir은 ck3/ 같은 게임 디렉토리이므로 한 단계 위로
   await updateAllUpstreams(projectRoot)

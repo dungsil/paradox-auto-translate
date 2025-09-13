@@ -1,5 +1,5 @@
 /**
- * 성능 최적화된 upstream 리포지토리 관리 유틸리티
+ * upstream 리포지토리 관리 유틸리티
  * 
  * git submodule 대신 sparse checkout과 partial clone을 사용하여
  * 필요한 localization 파일만 효율적으로 다운로드합니다.
@@ -172,7 +172,7 @@ async function cloneOptimizedRepository(targetPath: string, config: UpstreamConf
     await checkoutLatestVersion(targetPath, config.path)
     
     const duration = Date.now() - startTime
-    log.success(`[${config.path}] 최적화된 클론 완료 (${duration}ms)`)
+    log.success(`[${config.path}] 클론 완료 (${duration}ms)`)
     
   } catch (error) {
     log.error(`[${config.path}] 클론 실패:`, error)
