@@ -22,7 +22,7 @@ jobs:
           node-version-file: .node-version
       - name: 의존성 설치
         run: pnpm install --frozen-lockfile
-      - name: 업스트림 저장소 업데이트 (최적화된 방식)
+      - name: 업스트림 저장소 업데이트
         run: pnpm upstream
       - name: 변경사항 업데이트
         uses: stefanzweifel/git-auto-commit-action@v6

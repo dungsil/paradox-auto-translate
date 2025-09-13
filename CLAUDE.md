@@ -47,13 +47,6 @@ language = "english"                          # Source language
 6. **Caching**: Store translations in database to avoid redundant API calls
 7. **Output**: Generate Korean files with `___` prefix for proper load order
 
-### Performance Optimization
-The project uses an optimized upstream management system instead of traditional git submodules:
-- **97% faster** initial setup (3s vs 1m53s)
-- **99% smaller** downloads (65MB vs 5.6GB) 
-- **Sparse checkout** only downloads needed localization files
-- **Parallel processing** updates multiple repositories simultaneously
-
 ### Key Components
 
 **Core Translation Logic** (`scripts/factory/translate.ts`):

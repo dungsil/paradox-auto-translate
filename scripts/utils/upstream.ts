@@ -30,22 +30,18 @@ interface MetaTomlConfig {
 }
 
 /**
- * meta.toml 파일을 기반으로 upstream 설정을 추출합니다 (하위 호환성 우선)
+ * meta.toml 파일을 기반으로 upstream 설정을 추출합니다
  */
 export async function parseUpstreamConfigs(rootPath: string): Promise<UpstreamConfig[]> {
   const configs: UpstreamConfig[] = []
   
-  // 1. meta.toml 파일들을 찾아서 우선 처리 (하위 호환성)
+  // meta.toml 파일들을 찾아서 처리
   const metaConfigs = await findMetaTomlConfigs(rootPath)
   configs.push(...metaConfigs)
   
-  // 2. .gitmodules에서 meta.toml이 없는 항목들 추가
-  const gitmoduleConfigs = await parseGitmodulesConfig(rootPath)
-  for (const gitConfig of gitmoduleConfigs) {
-    // 이미 meta.toml로 처리된 경로는 건너뛰기
-    if (!configs.some(c => c.path === gitConfig.path)) {
-      configs.push(gitConfig)
-    }
+  if (configs.length === 0) {
+    log.error('meta.toml 파일이 없습니다. 모든 모드 디렉토리에 meta.toml 파일이 필요합니다.')
+    throw new Error('meta.toml 파일이 없습니다')
   }
   
   return configs
@@ -76,12 +72,12 @@ async function findMetaTomlConfigs(rootPath: string): Promise<UpstreamConfig[]> 
               configs.push(config)
             }
           } catch {
-            // meta.toml이 없는 경우는 무시
+            log.info(`[${gameDir}/${modDir.name}] meta.toml 파일이 없음`)
           }
         }
       }
     } catch {
-      // 게임 디렉토리가 없는 경우는 무시
+      log.info(`[${gameDir}] 게임 디렉토리가 존재하지 않음`)
     }
   }
   
@@ -102,17 +98,20 @@ async function parseMetaTomlConfig(metaPath: string, gameDir: string, modName: s
     
     // .gitmodules에서 해당 경로의 URL 찾기
     const upstreamPath = `${gameDir}/${modName}/upstream`
-    const gitmodulesConfig = await parseGitmodulesConfig(dirname(dirname(dirname(metaPath))))
-    const gitmoduleEntry = gitmodulesConfig.find(c => c.path === upstreamPath)
+    const gitmoduleUrl = await getGitmoduleUrl(dirname(dirname(dirname(metaPath))), upstreamPath)
     
-    if (!gitmoduleEntry) {
-      // meta.toml만 있고 .gitmodules에 해당 항목이 없는 경우는 조용히 무시
-      // (예: vic3/etc처럼 특별한 용도의 디렉토리)
-      return null
+    if (!gitmoduleUrl) {
+      log.info(`[${upstreamPath}] .gitmodules에 없음, 일반 파일 기반 upstream으로 처리`)
+      // upstream이 git 기반이 아니라 일반 파일로 업로드된 상황이므로 그대로 진행
+      return {
+        url: '', // 빈 URL로 일반 파일 기반임을 표시
+        path: upstreamPath,
+        localizationPaths: config.upstream.localization
+      }
     }
     
     return {
-      url: gitmoduleEntry.url,
+      url: gitmoduleUrl,
       path: upstreamPath,
       localizationPaths: config.upstream.localization
     }
@@ -123,14 +122,13 @@ async function parseMetaTomlConfig(metaPath: string, gameDir: string, modName: s
 }
 
 /**
- * 기존 git submodule 설정에서 upstream 설정을 추출합니다 (fallback용)
+ * .gitmodules에서 특정 경로의 URL을 찾습니다
  */
-async function parseGitmodulesConfig(rootPath: string): Promise<UpstreamConfig[]> {
+async function getGitmoduleUrl(rootPath: string, targetPath: string): Promise<string | null> {
   try {
     const gitmodulesPath = join(rootPath, '.gitmodules')
     const content = await readFile(gitmodulesPath, 'utf-8')
     
-    const configs: UpstreamConfig[] = []
     const sections = content.split('[submodule').filter(s => s.trim())
     
     for (const section of sections) {
@@ -142,51 +140,32 @@ async function parseGitmodulesConfig(rootPath: string): Promise<UpstreamConfig[]
         const path = pathLine.replace('path =', '').trim()
         const url = urlLine.replace('url =', '').trim()
         
-        // upstream 디렉토리에서 localization 경로 추측 (fallback)
-        const localizationPaths = guessLocalizationPaths(path)
-        
-        configs.push({ url, path, localizationPaths })
+        if (path === targetPath) {
+          return url
+        }
       }
     }
     
-    return configs
+    return null
   } catch (error) {
-    log.warn('Failed to parse .gitmodules, falling back to empty config', error)
-    return []
+    log.warn(`Failed to parse .gitmodules: ${error}`)
+    return null
   }
 }
 
-/**
- * 경로에서 localization 디렉토리를 추측합니다 (fallback용)
- */
-function guessLocalizationPaths(upstreamPath: string): string[] {
-  if (upstreamPath.includes('ck3')) {
-    // CK3 리포지토리들은 다양한 구조를 가질 수 있음
-    return [
-      'localization/english',
-      '*/localization/english'
-    ]
-  } else if (upstreamPath.includes('vic3')) {
-    return [
-      'localization/english',
-      '*/localization/english'
-    ]
-  } else if (upstreamPath.includes('stellaris')) {
-    return [
-      'localisation/english',
-      '*/localisation/english'
-    ]
-  }
-  
-  // 기본값: 모든 localization 변형을 포함  
-  return ['localization/english', 'localisation/english', '*/localization/english', '*/localisation/english']
-}
+
 
 /**
  * 효율적인 방식으로 upstream 리포지토리를 클론하고 localization 파일만 체크아웃합니다
  */
 export async function updateUpstreamOptimized(config: UpstreamConfig, rootPath: string): Promise<void> {
   const fullPath = join(rootPath, config.path)
+  
+  // git 기반이 아닌 일반 파일 업스트림인 경우 건너뛰기
+  if (!config.url) {
+    log.info(`[${config.path}] 일반 파일 기반 upstream, git 업데이트 건너뛰기`)
+    return
+  }
   
   try {
     // 이미 존재하는지 확인
@@ -222,9 +201,9 @@ async function cloneOptimizedRepository(targetPath: string, config: UpstreamConf
     const sparseCheckoutContent = config.localizationPaths.join('\n')
     await writeFile(sparseCheckoutPath, sparseCheckoutContent)
     
-    // 4. 선택적 체크아웃 (필요한 blob만 다운로드)
-    log.start(`[${config.path}] Localization 파일 체크아웃 중...`)
-    await execAsync('git checkout', { cwd: targetPath })
+    // 4. 최신 버전 태그를 체크아웃하거나 기본 브랜치의 최신 커밋을 가져옴
+    log.start(`[${config.path}] 최신 버전 확인 중...`)
+    await checkoutLatestVersion(targetPath, config.path)
     
     const duration = Date.now() - startTime
     log.success(`[${config.path}] 최적화된 클론 완료 (${duration}ms)`)
@@ -249,25 +228,46 @@ async function updateExistingRepository(repositoryPath: string, config: Upstream
     }
     
     // 원격 변경사항 가져오기
-    await execAsync('git fetch origin', { cwd: repositoryPath })
+    await execAsync('git fetch origin --tags', { cwd: repositoryPath })
     
-    // HEAD와 origin/HEAD 비교
-    const { stdout: localHead } = await execAsync('git rev-parse HEAD', { cwd: repositoryPath })
-    const { stdout: remoteHead } = await execAsync('git rev-parse origin/HEAD', { cwd: repositoryPath })
-    
-    if (localHead.trim() === remoteHead.trim()) {
-      log.info(`[${config.path}] 이미 최신 상태입니다`)
-      return
-    }
-    
-    // 업데이트 필요시 체크아웃
+    // 최신 버전 확인 및 체크아웃
     log.start(`[${config.path}] 업데이트 중...`)
-    await execAsync('git checkout origin/HEAD', { cwd: repositoryPath })
+    await checkoutLatestVersion(repositoryPath, config.path)
     log.success(`[${config.path}] 업데이트 완료`)
     
   } catch (error) {
     log.error(`[${config.path}] 업데이트 실패:`, error)
     throw error
+  }
+}
+
+/**
+ * 최신 버전 태그를 체크아웃하거나, 태그가 없는 경우 기본 브랜치의 최신 커밋을 가져옵니다
+ */
+async function checkoutLatestVersion(repositoryPath: string, configPath: string): Promise<void> {
+  try {
+    // 1. 최신 버전 태그를 체크아웃
+    const { stdout: latestTag } = await execAsync('git describe --tags --abbrev=0', { cwd: repositoryPath })
+    if (latestTag.trim()) {
+      log.info(`[${configPath}] 최신 태그로 체크아웃: ${latestTag.trim()}`)
+      await execAsync(`git checkout ${latestTag.trim()}`, { cwd: repositoryPath })
+      return
+    }
+  } catch {
+    // 태그가 없는 경우, 2번으로 계속
+  }
+  
+  try {
+    // 2. 태그가 없는 경우에만 기본 브랜치의 최신 커밋을 가져옴
+    log.info(`[${configPath}] 태그가 없어 기본 브랜치 최신 커밋으로 체크아웃`)
+    await execAsync('git checkout origin/HEAD', { cwd: repositoryPath })
+  } catch (error) {
+    // origin/HEAD가 없는 경우 main 또는 master 시도
+    try {
+      await execAsync('git checkout origin/main', { cwd: repositoryPath })
+    } catch {
+      await execAsync('git checkout origin/master', { cwd: repositoryPath })
+    }
   }
 }
 
