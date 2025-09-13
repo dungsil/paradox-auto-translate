@@ -32,14 +32,25 @@ pnpm install
 
 ### Metadata-Driven Processing
 Each mod directory contains a `meta.toml` file that defines translation configuration:
+
+**Git Repository Source:**
 ```toml
 [upstream]
-localization = ["RICE/localization/english"]  # Source file paths
-language = "english"                          # Source language
+url = "https://github.com/username/mod-repo.git"  # Git repository URL
+localization = ["RICE/localization/english"]      # Source file paths
+language = "english"                              # Source language
+```
+
+**Steam Workshop Source:**
+```toml
+[upstream]
+workshop = "123456789"                            # Steam Workshop mod ID
+localization = ["localization/english"]           # Source file paths  
+language = "english"                              # Source language
 ```
 
 ### Translation Pipeline
-1. **Upstream Update**: Optimized repository sync using sparse checkout (`utils/upstream.ts`)
+1. **Upstream Update**: Optimized repository sync using sparse checkout (`utils/upstream.ts`) or Steam Workshop download via SteamCMD
 2. **Discovery**: Scan for `meta.toml` files in game directories
 3. **Parsing**: Parse YAML localization files (`l_english:` → `l_korean:`)
 4. **Hashing**: Generate content hashes to detect changes (via `utils/hashing.ts`)
@@ -66,6 +77,12 @@ language = "english"                          # Source language
 - Content-based hashing to detect source changes
 - Translation memory with manual dictionary overrides
 - Persistent storage to avoid retranslation
+
+**Upstream Management** (`scripts/utils/upstream.ts`):
+- Git repository cloning with sparse checkout optimization
+- Steam Workshop mod downloading via SteamCMD
+- Automatic SteamCMD installation on Ubuntu/Debian systems
+- Support for multiple Paradox games (CK3, Victoria 3, Stellaris)
 
 ### Directory Structure
 

@@ -18,6 +18,7 @@ const execAsync = promisify(exec)
 
 interface UpstreamConfig {
   url: string
+  workshop?: string
   path: string
   localizationPaths: string[]
 }
@@ -25,6 +26,7 @@ interface UpstreamConfig {
 interface MetaTomlConfig {
   upstream: {
     url?: string
+    workshop?: string
     localization: string[]
     language: string
   }
@@ -100,9 +102,19 @@ async function parseMetaTomlConfig(metaPath: string, gameDir: string, modName: s
     
     const upstreamPath = `${gameDir}/${modName}/upstream`
     
+    // Steam Workshop ID가 있으면 workshop 우선 처리
+    if (config.upstream.workshop) {
+      return {
+        url: '', // workshop의 경우 빈 URL
+        workshop: config.upstream.workshop,
+        path: upstreamPath,
+        localizationPaths: config.upstream.localization
+      }
+    }
+    
     // meta.toml에서 URL을 직접 읽어옴
     if (!config.upstream.url) {
-      log.info(`[${upstreamPath}] meta.toml에 URL이 없음, 일반 파일 기반 upstream으로 처리`)
+      log.info(`[${upstreamPath}] meta.toml에 URL 또는 workshop ID가 없음, 일반 파일 기반 upstream으로 처리`)
       return {
         url: '', // 빈 URL로 일반 파일 기반임을 표시
         path: upstreamPath,
@@ -121,12 +133,192 @@ async function parseMetaTomlConfig(metaPath: string, gameDir: string, modName: s
   }
 }
 
+/**
+ * Steam Workshop에서 모드를 다운로드합니다
+ */
+async function downloadFromSteamWorkshop(targetPath: string, config: UpstreamConfig): Promise<void> {
+  const startTime = Date.now()
+  
+  try {
+    // 디렉토리 생성
+    await mkdir(dirname(targetPath), { recursive: true })
+    
+    // 이미 다운로드된 경우 건너뛰기 (선택적)
+    try {
+      await access(targetPath)
+      log.info(`[${config.path}] Steam Workshop 모드가 이미 존재함, 업데이트 확인 중...`)
+      
+      // 기존 모드가 있는 경우 최신 버전 확인을 위해 재다운로드
+      // TODO: 더 효율적인 업데이트 체크 로직 추가 가능
+    } catch {
+      // 파일이 없으면 새로 다운로드
+    }
+    
+    if (!config.workshop) {
+      throw new Error('Workshop ID가 없습니다')
+    }
+    
+    log.start(`[${config.path}] Steam Workshop에서 모드 다운로드 중... (ID: ${config.workshop})`)
+    
+    // SteamCMD를 사용하여 모드 다운로드
+    await downloadWithSteamCMD(targetPath, config.workshop)
+    
+    const duration = Date.now() - startTime
+    log.success(`[${config.path}] Steam Workshop 다운로드 완료 (${duration}ms)`)
+    
+  } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : String(error)
+    log.error(`[${config.path}] Steam Workshop 다운로드 실패: ${errorMessage}`)
+    
+    // 임시 해결책으로 빈 디렉토리라도 생성해서 이후 과정이 진행되도록 함
+    try {
+      await mkdir(targetPath, { recursive: true })
+      log.warn(`[${config.path}] 빈 upstream 디렉토리를 생성했습니다. 수동으로 모드를 다운로드해주세요.`)
+    } catch (mkdirError) {
+      log.error(`[${config.path}] 디렉토리 생성도 실패했습니다:`, mkdirError)
+    }
+    
+    throw error
+  }
+}
 
 /**
- * 효율적인 방식으로 upstream 리포지토리를 클론하고 localization 파일만 체크아웃합니다
+ * SteamCMD를 사용하여 Steam Workshop 아이템을 다운로드합니다
+ */
+async function downloadWithSteamCMD(targetPath: string, workshopId: string): Promise<void> {
+  // 게임별 앱 ID 매핑 (Workshop 다운로드시 필요)
+  const gameAppIds: Record<string, string> = {
+    'ck3': '1158310',   // Crusader Kings III
+    'vic3': '529340',   // Victoria 3
+    'stellaris': '281990' // Stellaris
+  }
+  
+  // 타겟 경로에서 게임 타입 추출 (예: ck3/MOD_NAME/upstream에서 ck3 추출)
+  const pathParts = targetPath.split('/')
+  const gameType = pathParts.find(part => part in gameAppIds) || 'ck3'
+  const appId = gameAppIds[gameType]
+  
+  // Workshop ID 검증
+  if (!workshopId || !/^\d+$/.test(workshopId)) {
+    throw new Error(`유효하지 않은 Workshop ID: ${workshopId}`)
+  }
+  
+  // SteamCMD 설치 확인
+  try {
+    await execAsync('which steamcmd')
+  } catch {
+    // SteamCMD가 설치되지 않은 경우 설치 시도
+    log.info('SteamCMD가 설치되지 않음, 설치 중...')
+    await installSteamCMD()
+  }
+  
+  // 임시 디렉토리 생성
+  const tempDir = `/tmp/steamcmd-${workshopId}-${Date.now()}`
+  await mkdir(tempDir, { recursive: true })
+  
+  try {
+    // SteamCMD 명령어 구성
+    // 익명으로 로그인하고 workshop 아이템 다운로드
+    const steamcmdCommand = [
+      'steamcmd',
+      '+login anonymous',
+      `+workshop_download_item ${appId} ${workshopId}`,
+      '+quit'
+    ].join(' ')
+    
+    log.debug(`SteamCMD 명령어: ${steamcmdCommand}`)
+    
+    // SteamCMD 실행
+    const { stdout, stderr } = await execAsync(steamcmdCommand, { 
+      cwd: tempDir,
+      timeout: 300000 // 5분 타임아웃
+    })
+    
+    if (stderr) {
+      log.debug(`SteamCMD stderr: ${stderr}`)
+    }
+    
+    // 다운로드된 파일을 타겟 경로로 이동
+    const downloadPath = join(tempDir, '.steam', 'steamcmd', 'steamapps', 'workshop', 'content', appId, workshopId)
+    
+    // 다운로드 경로 확인
+    await access(downloadPath)
+    
+    // 타겟 디렉토리를 삭제하고 다운로드된 내용으로 교체
+    try {
+      await execAsync(`rm -rf "${targetPath}"`)
+    } catch {
+      // 타겟이 없으면 무시
+    }
+    
+    await execAsync(`cp -r "${downloadPath}" "${targetPath}"`)
+    
+    log.success(`Steam Workshop 모드 ${workshopId} 다운로드 완료: ${targetPath}`)
+    
+  } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : String(error)
+    
+    if (errorMessage.includes('timeout')) {
+      throw new Error(`Steam Workshop 다운로드 시간 초과: ${workshopId}. 네트워크를 확인하고 다시 시도해주세요.`)
+    } else if (errorMessage.includes('login')) {
+      throw new Error(`Steam 로그인 실패. Steam Workshop 모드 ${workshopId}에 접근할 수 없습니다.`)
+    } else {
+      throw new Error(`Steam Workshop 다운로드 실패 (${workshopId}): ${errorMessage}`)
+    }
+  } finally {
+    // 임시 디렉토리 정리
+    try {
+      await execAsync(`rm -rf "${tempDir}"`)
+    } catch (error) {
+      log.warn(`임시 디렉토리 정리 실패: ${tempDir}`, error)
+    }
+  }
+}
+
+/**
+ * SteamCMD 설치
+ */
+async function installSteamCMD(): Promise<void> {
+  try {
+    // Ubuntu/Debian 계열에서 SteamCMD 설치
+    log.start('SteamCMD 설치 중...')
+    
+    // 32bit 라이브러리 지원 추가
+    await execAsync('dpkg --add-architecture i386')
+    await execAsync('apt-get update')
+    
+    // SteamCMD 설치 (비대화형)
+    const installCommand = 'DEBIAN_FRONTEND=noninteractive apt-get install -y steamcmd'
+    await execAsync(installCommand)
+    
+    // steamcmd 링크 생성 (보통 /usr/games/steamcmd에 설치됨)
+    try {
+      await execAsync('ln -sf /usr/games/steamcmd /usr/local/bin/steamcmd')
+    } catch {
+      // 링크 생성 실패는 무시 (이미 존재할 수 있음)
+    }
+    
+    log.success('SteamCMD 설치 완료')
+    
+  } catch (error) {
+    log.error('SteamCMD 설치 실패:', error)
+    throw new Error(`SteamCMD 설치에 실패했습니다. 수동으로 설치해주세요: ${error}`)
+  }
+}
+
+
+/**
+ * 효율적인 방식으로 upstream 리포지토리를 클론하거나 Steam Workshop에서 다운로드하고 localization 파일만 체크아웃합니다
  */
 export async function updateUpstreamOptimized(config: UpstreamConfig, rootPath: string): Promise<void> {
   const fullPath = join(rootPath, config.path)
+  
+  // Steam Workshop 모드인 경우
+  if (config.workshop) {
+    log.info(`[${config.path}] Steam Workshop 모드 (ID: ${config.workshop})`)
+    await downloadFromSteamWorkshop(fullPath, config)
+    return
+  }
   
   // git 기반이 아닌 일반 파일 업스트림인 경우 건너뛰기
   if (!config.url) {
