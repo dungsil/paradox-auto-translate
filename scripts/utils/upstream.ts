@@ -154,16 +154,30 @@ async function downloadFromSteamWorkshop(targetPath: string, config: UpstreamCon
       // 파일이 없으면 새로 다운로드
     }
     
+    if (!config.workshop) {
+      throw new Error('Workshop ID가 없습니다')
+    }
+    
     log.start(`[${config.path}] Steam Workshop에서 모드 다운로드 중... (ID: ${config.workshop})`)
     
     // SteamCMD를 사용하여 모드 다운로드
-    await downloadWithSteamCMD(targetPath, config.workshop!)
+    await downloadWithSteamCMD(targetPath, config.workshop)
     
     const duration = Date.now() - startTime
     log.success(`[${config.path}] Steam Workshop 다운로드 완료 (${duration}ms)`)
     
   } catch (error) {
-    log.error(`[${config.path}] Steam Workshop 다운로드 실패:`, error)
+    const errorMessage = error instanceof Error ? error.message : String(error)
+    log.error(`[${config.path}] Steam Workshop 다운로드 실패: ${errorMessage}`)
+    
+    // 임시 해결책으로 빈 디렉토리라도 생성해서 이후 과정이 진행되도록 함
+    try {
+      await mkdir(targetPath, { recursive: true })
+      log.warn(`[${config.path}] 빈 upstream 디렉토리를 생성했습니다. 수동으로 모드를 다운로드해주세요.`)
+    } catch (mkdirError) {
+      log.error(`[${config.path}] 디렉토리 생성도 실패했습니다:`, mkdirError)
+    }
+    
     throw error
   }
 }
@@ -183,6 +197,11 @@ async function downloadWithSteamCMD(targetPath: string, workshopId: string): Pro
   const pathParts = targetPath.split('/')
   const gameType = pathParts.find(part => part in gameAppIds) || 'ck3'
   const appId = gameAppIds[gameType]
+  
+  // Workshop ID 검증
+  if (!workshopId || !/^\d+$/.test(workshopId)) {
+    throw new Error(`유효하지 않은 Workshop ID: ${workshopId}`)
+  }
   
   // SteamCMD 설치 확인
   try {
@@ -210,7 +229,14 @@ async function downloadWithSteamCMD(targetPath: string, workshopId: string): Pro
     log.debug(`SteamCMD 명령어: ${steamcmdCommand}`)
     
     // SteamCMD 실행
-    await execAsync(steamcmdCommand, { cwd: tempDir })
+    const { stdout, stderr } = await execAsync(steamcmdCommand, { 
+      cwd: tempDir,
+      timeout: 300000 // 5분 타임아웃
+    })
+    
+    if (stderr) {
+      log.debug(`SteamCMD stderr: ${stderr}`)
+    }
     
     // 다운로드된 파일을 타겟 경로로 이동
     const downloadPath = join(tempDir, '.steam', 'steamcmd', 'steamapps', 'workshop', 'content', appId, workshopId)
@@ -229,6 +255,16 @@ async function downloadWithSteamCMD(targetPath: string, workshopId: string): Pro
     
     log.success(`Steam Workshop 모드 ${workshopId} 다운로드 완료: ${targetPath}`)
     
+  } catch (error) {
+    const errorMessage = error instanceof Error ? error.message : String(error)
+    
+    if (errorMessage.includes('timeout')) {
+      throw new Error(`Steam Workshop 다운로드 시간 초과: ${workshopId}. 네트워크를 확인하고 다시 시도해주세요.`)
+    } else if (errorMessage.includes('login')) {
+      throw new Error(`Steam 로그인 실패. Steam Workshop 모드 ${workshopId}에 접근할 수 없습니다.`)
+    } else {
+      throw new Error(`Steam Workshop 다운로드 실패 (${workshopId}): ${errorMessage}`)
+    }
   } finally {
     // 임시 디렉토리 정리
     try {
