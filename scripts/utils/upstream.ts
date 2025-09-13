@@ -4,7 +4,7 @@
  * git submodule 대신 sparse checkout과 partial clone을 사용하여
  * 필요한 localization 파일만 효율적으로 다운로드합니다.
  * 
- * meta.toml 파일을 존중하여 하위 호환성을 보장합니다.
+ * meta.toml 파일에서 모든 설정 정보 (URL, localization 경로)를 읽어옵니다.
  */
 
 import { exec } from 'node:child_process'
@@ -24,6 +24,7 @@ interface UpstreamConfig {
 
 interface MetaTomlConfig {
   upstream: {
+    url?: string
     localization: string[]
     language: string
   }
@@ -96,13 +97,11 @@ async function parseMetaTomlConfig(metaPath: string, gameDir: string, modName: s
       return null
     }
     
-    // .gitmodules에서 해당 경로의 URL 찾기
     const upstreamPath = `${gameDir}/${modName}/upstream`
-    const gitmoduleUrl = await getGitmoduleUrl(dirname(dirname(dirname(metaPath))), upstreamPath)
     
-    if (!gitmoduleUrl) {
-      log.info(`[${upstreamPath}] .gitmodules에 없음, 일반 파일 기반 upstream으로 처리`)
-      // upstream이 git 기반이 아니라 일반 파일로 업로드된 상황이므로 그대로 진행
+    // meta.toml에서 URL을 직접 읽어옴
+    if (!config.upstream.url) {
+      log.info(`[${upstreamPath}] meta.toml에 URL이 없음, 일반 파일 기반 upstream으로 처리`)
       return {
         url: '', // 빈 URL로 일반 파일 기반임을 표시
         path: upstreamPath,
@@ -111,7 +110,7 @@ async function parseMetaTomlConfig(metaPath: string, gameDir: string, modName: s
     }
     
     return {
-      url: gitmoduleUrl,
+      url: config.upstream.url,
       path: upstreamPath,
       localizationPaths: config.upstream.localization
     }
@@ -120,39 +119,6 @@ async function parseMetaTomlConfig(metaPath: string, gameDir: string, modName: s
     return null
   }
 }
-
-/**
- * .gitmodules에서 특정 경로의 URL을 찾습니다
- */
-async function getGitmoduleUrl(rootPath: string, targetPath: string): Promise<string | null> {
-  try {
-    const gitmodulesPath = join(rootPath, '.gitmodules')
-    const content = await readFile(gitmodulesPath, 'utf-8')
-    
-    const sections = content.split('[submodule').filter(s => s.trim())
-    
-    for (const section of sections) {
-      const lines = section.split('\n').map(l => l.trim()).filter(l => l)
-      const pathLine = lines.find(l => l.startsWith('path ='))
-      const urlLine = lines.find(l => l.startsWith('url ='))
-      
-      if (pathLine && urlLine) {
-        const path = pathLine.replace('path =', '').trim()
-        const url = urlLine.replace('url =', '').trim()
-        
-        if (path === targetPath) {
-          return url
-        }
-      }
-    }
-    
-    return null
-  } catch (error) {
-    log.warn(`Failed to parse .gitmodules: ${error}`)
-    return null
-  }
-}
-
 
 
 /**
@@ -292,7 +258,7 @@ export async function updateAllUpstreams(rootPath: string): Promise<void> {
     Upstream 최적화 업데이트 시작
     - 대상: ${configs.length}개 리포지토리
     - 모드: 병렬 처리 (sparse checkout)
-    - 설정 소스: meta.toml 우선, .gitmodules fallback
+    - 설정 소스: meta.toml 전용
   `)
   
   const startTime = Date.now()
