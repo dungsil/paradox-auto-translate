@@ -4,6 +4,7 @@ import { parseToml, parseYaml, stringifyYaml } from '../parser'
 import { hashing } from '../utils/hashing'
 import { log } from '../utils/logger'
 import { translate } from '../utils/translate'
+import { updateAllUpstreams } from '../utils/upstream'
 import { type GameType } from '../utils/prompts'
 
 function getLocalizationFolderName(gameType: GameType): string {
@@ -33,6 +34,12 @@ interface ModMeta {
 }
 
 export async function processModTranslations ({ rootDir, mods, gameType, onlyHash = false }: ModTranslationsOptions): Promise<void> {
+  // 번역 작업 전에 해당 게임의 upstream 리포지토리만 업데이트
+  log.start(`${gameType.toUpperCase()} Upstream 리포지토리 업데이트 중...`)
+  const projectRoot = join(rootDir, '..') // rootDir은 ck3/ 같은 게임 디렉토리이므로 한 단계 위로
+  await updateAllUpstreams(projectRoot, gameType)
+  log.success(`${gameType.toUpperCase()} Upstream 리포지토리 업데이트 완료`)
+
   const processes: Promise<void>[] = []
 
   for (const mod of mods) {
