@@ -208,8 +208,17 @@ async function downloadWithSteamCMD(targetPath: string, workshopId: string): Pro
     await execAsync('which steamcmd')
   } catch {
     // SteamCMD가 설치되지 않은 경우 설치 시도
-    log.info('SteamCMD가 설치되지 않음, 설치 중...')
-    await installSteamCMD()
+    log.info('SteamCMD가 설치되지 않음, 설치 시도 중...')
+    try {
+      await installSteamCMD()
+    } catch (installError) {
+      const installErrorMessage = installError instanceof Error ? installError.message : String(installError)
+      throw new Error(`SteamCMD 설치에 실패했습니다.\n\n${installErrorMessage}\n\n` +
+        '대안 방법:\n' +
+        '1. Steam Workshop에서 수동으로 모드를 다운로드\n' +
+        '2. 다운로드한 파일을 해당 upstream 디렉토리에 복사\n' +
+        `3. 또는 git 기반 upstream으로 meta.toml 설정 변경`)
+    }
   }
   
   // 임시 디렉토리 생성
@@ -276,33 +285,127 @@ async function downloadWithSteamCMD(targetPath: string, workshopId: string): Pro
 }
 
 /**
+ * 환경에 따라 적절한 명령어 접두사를 반환합니다 (sudo 사용 여부 결정)
+ */
+async function getCommandPrefix(): Promise<string> {
+  // 이미 root 사용자인지 확인
+  try {
+    const { stdout } = await execAsync('id -u')
+    if (stdout.trim() === '0') {
+      return '' // root 사용자는 sudo 불필요
+    }
+  } catch {
+    // id 명령어 실행 실패시 sudo 시도
+  }
+  
+  // sudo 사용 가능한지 확인
+  try {
+    await execAsync('sudo -n true')
+    return 'sudo ' // sudo 사용 가능
+  } catch {
+    // sudo 없거나 권한 없음
+    return ''
+  }
+}
+
+/**
+ * 시스템이 Ubuntu/Debian 계열인지 확인합니다
+ */
+async function isDebianBased(): Promise<boolean> {
+  try {
+    await execAsync('which apt-get')
+    return true
+  } catch {
+    return false
+  }
+}
+
+/**
  * SteamCMD 설치
  */
 async function installSteamCMD(): Promise<void> {
   try {
-    // Ubuntu/Debian 계열에서 SteamCMD 설치
     log.start('SteamCMD 설치 중...')
     
+    // 시스템 확인
+    if (!(await isDebianBased())) {
+      throw new Error('현재 Ubuntu/Debian 계열 시스템만 자동 설치를 지원합니다. 수동으로 SteamCMD를 설치해주세요.')
+    }
+    
+    const cmdPrefix = await getCommandPrefix()
+    
+    // 권한이 없는 경우 에러 메시지 개선
+    if (!cmdPrefix && process.getuid && process.getuid() !== 0) {
+      throw new Error('SteamCMD 설치에 필요한 권한이 없습니다. 다음 명령어로 수동 설치해주세요:\n' +
+        'sudo dpkg --add-architecture i386\n' +
+        'sudo apt-get update\n' +
+        'echo steam steam/question select "I AGREE" | sudo debconf-set-selections\n' +
+        'echo steam steam/license note "" | sudo debconf-set-selections\n' +
+        'sudo apt-get install -y steamcmd')
+    }
+    
+    log.debug(`명령어 접두사: "${cmdPrefix}"`)
+    
     // 32bit 라이브러리 지원 추가
-    await execAsync('dpkg --add-architecture i386')
-    await execAsync('apt-get update')
+    log.debug('32bit 아키텍처 추가 중...')
+    await execAsync(`${cmdPrefix}dpkg --add-architecture i386`)
+    
+    log.debug('패키지 목록 업데이트 중...')
+    await execAsync(`${cmdPrefix}apt-get update`)
+    
+    // Steam 라이선스 사전 승인 (debconf를 통해)
+    log.debug('Steam 라이선스 사전 승인 중...')
+    await execAsync(`echo steam steam/question select "I AGREE" | ${cmdPrefix}debconf-set-selections`)
+    await execAsync(`echo steam steam/license note "" | ${cmdPrefix}debconf-set-selections`)
     
     // SteamCMD 설치 (비대화형)
-    const installCommand = 'DEBIAN_FRONTEND=noninteractive apt-get install -y steamcmd'
+    log.debug('SteamCMD 패키지 설치 중...')
+    const installCommand = `${cmdPrefix}DEBIAN_FRONTEND=noninteractive apt-get install -y steamcmd`
     await execAsync(installCommand)
     
     // steamcmd 링크 생성 (보통 /usr/games/steamcmd에 설치됨)
     try {
-      await execAsync('ln -sf /usr/games/steamcmd /usr/local/bin/steamcmd')
-    } catch {
+      await execAsync(`${cmdPrefix}ln -sf /usr/games/steamcmd /usr/local/bin/steamcmd`)
+      log.debug('SteamCMD 심볼릭 링크 생성 완료')
+    } catch (linkError) {
+      log.debug('심볼릭 링크 생성 실패 (무시):', linkError)
       // 링크 생성 실패는 무시 (이미 존재할 수 있음)
     }
     
+    // 설치 확인
+    await execAsync('which steamcmd')
     log.success('SteamCMD 설치 완료')
     
   } catch (error) {
-    log.error('SteamCMD 설치 실패:', error)
-    throw new Error(`SteamCMD 설치에 실패했습니다. 수동으로 설치해주세요: ${error}`)
+    const errorMessage = error instanceof Error ? error.message : String(error)
+    log.error('SteamCMD 설치 실패:', errorMessage)
+    
+    // 더 구체적인 에러 메시지 제공
+    if (errorMessage.includes('Permission denied') || errorMessage.includes('권한')) {
+      throw new Error('SteamCMD 설치 권한이 없습니다. 다음 명령어로 수동 설치해주세요:\n' +
+        'sudo dpkg --add-architecture i386\n' +
+        'sudo apt-get update\n' +
+        'echo steam steam/question select "I AGREE" | sudo debconf-set-selections\n' +
+        'echo steam steam/license note "" | sudo debconf-set-selections\n' +
+        'sudo apt-get install -y steamcmd\n' +
+        'sudo ln -sf /usr/games/steamcmd /usr/local/bin/steamcmd')
+    } else if (errorMessage.includes('Steam License Agreement was DECLINED') || errorMessage.includes('license')) {
+      throw new Error('Steam 라이선스 동의가 필요합니다. 다음 명령어로 수동 설치해주세요:\n' +
+        'echo steam steam/question select "I AGREE" | sudo debconf-set-selections\n' +
+        'echo steam steam/license note "" | sudo debconf-set-selections\n' +
+        'sudo apt-get install -y steamcmd')
+    } else if (errorMessage.includes('not found') || errorMessage.includes('command not found')) {
+      throw new Error('시스템에서 필요한 명령어를 찾을 수 없습니다. Ubuntu/Debian 계열 시스템에서만 자동 설치가 지원됩니다.')
+    } else {
+      throw new Error(`SteamCMD 설치에 실패했습니다: ${errorMessage}\n\n` +
+        '수동 설치 방법:\n' +
+        '1. sudo dpkg --add-architecture i386\n' +
+        '2. sudo apt-get update\n' +
+        '3. echo steam steam/question select "I AGREE" | sudo debconf-set-selections\n' +
+        '4. echo steam steam/license note "" | sudo debconf-set-selections\n' +
+        '5. sudo apt-get install -y steamcmd\n' +
+        '6. sudo ln -sf /usr/games/steamcmd /usr/local/bin/steamcmd')
+    }
   }
 }
 
@@ -459,11 +562,25 @@ export async function updateAllUpstreams(rootPath: string, targetGameType?: stri
   
   const startTime = Date.now()
   
-  // 병렬 처리
-  const promises = configs.map(config => updateUpstreamOptimized(config, rootPath))
-  await Promise.all(promises)
+  // 병렬 처리 시 개별 실패가 전체를 중단하지 않도록 개선
+  const results = await Promise.allSettled(
+    configs.map(config => updateUpstreamOptimized(config, rootPath))
+  )
+  
+  // 결과 요약
+  const successful = results.filter(result => result.status === 'fulfilled').length
+  const failed = results.filter(result => result.status === 'rejected').length
   
   const duration = Date.now() - startTime
   const scopeMessageComplete = targetGameType ? `${targetGameType.toUpperCase()} ` : '모든 '
-  log.success(`${scopeMessageComplete}upstream 업데이트 완료! (${duration}ms)`)
+  
+  if (failed === 0) {
+    log.success(`${scopeMessageComplete}upstream 업데이트 완료! (${duration}ms)`)
+  } else if (successful > 0) {
+    log.warn(`${scopeMessageComplete}upstream 업데이트 부분 완료: ${successful}개 성공, ${failed}개 실패 (${duration}ms)`)
+    log.info('실패한 모드들은 건너뛰고 번역을 계속 진행합니다.')
+  } else {
+    log.error(`${scopeMessageComplete}upstream 업데이트 전체 실패 (${duration}ms)`)
+    throw new Error('모든 upstream 업데이트가 실패했습니다')
+  }
 }

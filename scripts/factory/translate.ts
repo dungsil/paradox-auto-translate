@@ -1,4 +1,4 @@
-import { mkdir, readdir, readFile, stat, writeFile } from 'node:fs/promises'
+import { access, mkdir, readdir, readFile, stat, writeFile } from 'node:fs/promises'
 import { basename, dirname, join } from 'pathe'
 import { parseToml, parseYaml, stringifyYaml } from '../parser'
 import { hashing } from '../utils/hashing'
@@ -61,10 +61,25 @@ export async function processModTranslations ({ rootDir, mods, gameType, onlyHas
       const localizationFolder = getLocalizationFolderName(gameType)
       const targetDir = join(modDir, 'mod', localizationFolder, sourceDir.includes('replace') ? 'korean/replace' : 'korean')
 
+      // 소스 디렉토리가 존재하는지 확인
+      try {
+        await access(sourceDir)
+      } catch {
+        log.warn(`[${mod}] 소스 디렉토리가 존재하지 않음: ${locPath} (Steam Workshop 다운로드 실패시 발생할 수 있음)`)
+        continue
+      }
+
       // 모드 디렉토리 생성
       await mkdir(targetDir, { recursive: true })
 
-      const sourceFiles = await readdir(sourceDir, { recursive: true })
+      let sourceFiles: string[]
+      try {
+        sourceFiles = await readdir(sourceDir, { recursive: true })
+      } catch (error) {
+        log.warn(`[${mod}] 소스 디렉토리 읽기 실패 (${locPath}):`, error)
+        continue
+      }
+
       for (const file of sourceFiles) {
         // 언어파일 이름이 `_l_언어코드.yml` 형식이면 처리
         if (file.endsWith(`.yml`) && file.includes(`_l_${meta.upstream.language}`)) {
