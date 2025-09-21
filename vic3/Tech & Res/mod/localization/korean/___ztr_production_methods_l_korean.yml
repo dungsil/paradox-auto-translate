@@ -161,7 +161,6 @@
   pm_no_steam_automation: "자동화 없음" # 7652304566797465410
   pm_copper_pipes: "구리 파이프" # 2553411215913812683
   pm_rotary_valve_engine_building_water_plant: "회전식 밸브 기관" # 14572944410143777332
-  pm_plastics_pipes_and_pet: "HDPE 파이프 및 PET 병" # 12474413668603669153
   pm_basic_smelting_process: "기초 제련 과정" # 10238886343216675250
   pm_electric_arc_process_alloying: "전기 아크 공정 합금화" # 14794216175552173508
   pm_advanced_alloying_techniques: "고급 합금 기술" # 913964428513047949
@@ -330,7 +329,6 @@
   pmg_automation_building_general: "자동화" # 18411738171978629847
   pm_watertube_boiler_building_general: "수관 보일러" # 3203413198244518398
   pm_rotary_valve_engine_building_general: "회전식 밸브 기관" # 14572944410143777332
-  pm_basic_electric_control_building_general: "기본 전자" # 5805372901812737985
   pm_advanced_electric_control_building_general: "마이크로일렉트로닉스" # 10566969940341576269
   pm_assembly_lines_building_electronics_plant: "조립 라인" # 4279296270535528751
   pm_advanced_port: "개량된 항구" # 15160293293605319803
@@ -465,16 +463,6 @@
   pm_conveyor_belt_abattoirs: "컨베이어 벨트 도축장" # 2229496952021074285
   pm_chemical_pulp_recovery: "화학 펄프 회수" # 4507466297022016043
   pm_advanced_composite_paper: "고급 복합 종이" # 6648302799447195710
-  pm_advanced_mining_systems_building_commonores_mine: "선진 광업 시스템" # 14904399512731266181
-  pm_advanced_mining_systems_building_advancedores_mine: "선진 광업 시스템" # 14904399512731266181
-  pm_advanced_mining_systems_building_bauxite_mine: "선진 광업 시스템" # 14904399512731266181
-  pm_advanced_mining_systems_building_copper_mine: "선진 광업 시스템" # 14904399512731266181
-  pm_advanced_mining_systems_building_iron_mine: "선진 광업 시스템" # 14904399512731266181
-  pm_advanced_mining_systems_building_lead_mine: "선진 광업 시스템" # 14904399512731266181
-  pm_advanced_mining_systems_building_sulfur_mine: "선진 광업 시스템" # 14904399512731266181
-  pm_advanced_mining_systems_building_uranium_mine: "선진 광업 시스템" # 14904399512731266181
-  pm_advanced_mining_systems_building_coal_mine: "선진 광업 시스템" # 14904399512731266181
-  pm_advanced_mining_systems_building_rare_earths_mine: "선진 광업 시스템" # 14904399512731266181
   pm_curie_nitroglycerin_building_uranium_mine: "니트로글리세린" # 17545801121319106144
   pm_curie_dynamite_building_uranium_mine: "다이너마이트" # 2457940046546015847
   pm_advanced_assembly_lines_building_automotive_industry: "고급 조립 라인" # 9416223957800701698
@@ -636,7 +624,6 @@
   pm_drone_last_mile: "드론 라스트 마일 배송" # 4770955508060320513
   pm_truck_van_transportation: "트럭 및 밴 운송" # 6703395539778317178
   pm_automatized_truck_van_transportation: "자동화된 트럭 및 밴 운송" # 3289522872320354806
-  pm_delivering_on_demand_bakery: "주문형 제빵 배달" # 6644917750562950502
   pm_high_precision_blasting_building_coal_mine: "정밀 발파" # 12428454820629999812
   pm_high_precision_blasting_building_iron_mine: "정밀 발파" # 12428454820629999812
   pm_high_precision_blasting_building_lead_mine: "정밀 발파" # 12428454820629999812
@@ -647,3 +634,45 @@
   pm_high_precision_blasting_building_commonores_mine: "정밀 발파" # 12428454820629999812
   pm_high_precision_blasting_building_advancedores_mine: "정밀 발파" # 12428454820629999812
   pm_aluminium_passenger_carriages: "알루미늄 객차" # 1306668243856065790
+  pm_nylon: "나일론" # 16240870255290357871
+  pm_polyester: "폴리에스터" # 14442204369105209728
+  pm_delivering_on_demand_bakery: "주문형 배송" # 13760514349063566890
+  pm_plastics_pipes_and_pet: "페트병" # 3364163387679860651
+  pm_basic_electric_control_building_general: "기초 전기 제어" # 14094882549028163190
+  pm_advanced_ammonia_synthesis: "고급 암모니아 합성" # 6328089040599410477
+  pm_mechanized_harvesters: "기계화된 수확기" # 17091182062027968633
+  pm_iot_building_commonalloys_plant: "사물 인터넷 조립 라인" # 7152189685164104908
+  pm_iot_building_ecommerce_logistics: "사물 인터넷 조립 라인" # 7152189685164104908
+  pm_iot_building_robotics_industry: "사물 인터넷 조립 라인" # 7152189685164104908
+  pm_iot_building_battery_plant: "사물 인터넷 조립 라인" # 7152189685164104908
+  pm_iot_building_steel_mills: "사물 인터넷 조립 라인" # 7152189685164104908
+  pm_iot_building_electrics_industry: "사물 인터넷 조립 라인" # 7152189685164104908
+  pm_iot_building_motor_industry: "사물 인터넷 조립 라인" # 7152189685164104908
+  pm_iot_building_automotive_industry: "사물 인터넷 조립 라인" # 7152189685164104908
+  pm_iot_building_aircraft_industry: "사물 인터넷 조립 라인" # 7152189685164104908
+  pmg_mobile_network_building_telecommunications: "무선 통신" # 13696828250682131943
+  pm_no_mobile_network: "무선 네트워크 없음" # 1936321619331875614
+  pm_2g_digital_cellular: "2G 이동통신망" # 2644334476533125886
+  pm_4g_lte_network: "4G LTE 네트워크" # 16951352476048464294
+  pm_5g_advanced_network: "5G 사물 인터넷 네트워크" # 17973645278462921794
+  pm_smart_homeappliances: "스마트 가전제품" # 15787246253010584789
+  pm_heavy_machineries_building_commonores_mine: "중기계" # 7641549071265594723
+  pm_autonomous_and_remote_ops_building_commonores_mine: "A&R 운영" # 4483452765102426904
+  pm_heavy_machineries_building_advancedores_mine: "중기계" # 7641549071265594723
+  pm_autonomous_and_remote_ops_building_advancedores_mine: "A&R 운영" # 4483452765102426904
+  pm_heavy_machineries_building_bauxite_mine: "중기계" # 7641549071265594723
+  pm_autonomous_and_remote_ops_building_bauxite_mine: "A&R 운영" # 4483452765102426904
+  pm_heavy_machineries_building_copper_mine: "중기계" # 7641549071265594723
+  pm_autonomous_and_remote_ops_building_copper_mine: "A&R 운영" # 4483452765102426904
+  pm_heavy_machineries_building_iron_mine: "중기계" # 7641549071265594723
+  pm_autonomous_and_remote_ops_building_iron_mine: "A&R 운영" # 4483452765102426904
+  pm_heavy_machineries_building_lead_mine: "중기계" # 7641549071265594723
+  pm_autonomous_and_remote_ops_building_lead_mine: "A&R 운영" # 4483452765102426904
+  pm_heavy_machineries_building_sulfur_mine: "중기계" # 7641549071265594723
+  pm_autonomous_and_remote_ops_building_sulfur_mine: "A&R 운영" # 4483452765102426904
+  pm_heavy_machineries_building_uranium_mine: "중기계" # 7641549071265594723
+  pm_autonomous_and_remote_ops_building_uranium_mine: "A&R 운영" # 4483452765102426904
+  pm_heavy_machineries_building_coal_mine: "중기계" # 7641549071265594723
+  pm_autonomous_and_remote_ops_building_coal_mine: "A&R 운영" # 4483452765102426904
+  pm_heavy_machineries_building_rare_earths_mine: "중기계" # 7641549071265594723
+  pm_autonomous_and_remote_ops_building_rare_earths_mine: "A&R 운영" # 4483452765102426904
