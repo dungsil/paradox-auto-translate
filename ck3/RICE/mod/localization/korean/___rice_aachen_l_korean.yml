@@ -117,7 +117,8 @@
   RICE_aachen_go_on_aachen_pilgrimage_desc: "저는 아헨의 위대한 도시, 특히 명성 높은 성유물과 성물 보물고를 보관하고 있는 아헨 대성당으로 성지 순례를 떠나고 싶습니다." # 15845145062275461986
   RICE_aachen_go_on_aachen_pilgrimage_confirm: "이번 여행 준비를 시작하도록 하세!" # 1999806788903643706
   RICE_aachen_go_on_aachen_pilgrimage_context_tooltip: "#emphasis 역사적 배경:#! 아헨은 샤를마뉴 대제가 그곳을 수도로 삼았던 시대부터 라인란트의 주요 종교적, 정치적 중심지였습니다. 그렇기에 수 세기에 걸쳐 많은 순례자를 끌어모았습니다." # 3894810754602519766
-  RICE_aachen_close_req: "아헨에 가까운 [realm_capital|E]를 가지고 있다" # 14105932201943514465
+  RICE_aachen_close_req: "귀하의 [capital|E]은 [GetTitleByKey('c_aachen').GetNameNoTier]에 가깝습니다" # 3709692708056341820
+  RICE_aachen_in_aachen_req: "귀하의 [camp|E]는 [GetTitleByKey('b_aachen').GetNameNoTier]에 있습니다." # 12258570059505462113
   aachen.0000.t: "xxxxx" # 1951045980481827005
   aachen.0000.desc: "xxxxx" # 1951045980481827005
   aachen.0000.a: "xxxxx" # 1951045980481827005

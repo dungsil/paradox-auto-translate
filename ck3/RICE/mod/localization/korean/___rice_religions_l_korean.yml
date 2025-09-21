@@ -42,6 +42,12 @@
   holy_site_abbo_wonsho_effect_name: "[holy_site|E]에서 #weak ($holy_site_abbo_wonsho_name$)#!" # 3696202041648879498
   holy_site_kinnaur_name: "킨나우르" # 16396090015209780390
   holy_site_kinnaur_effect_name: "[holy_site|E] #weak ($holy_site_kinnaur_name$)# 에서!" # 12175707807026929482
+  holy_site_kordofan_name: "코르도판" # 1556482206354669518
+  holy_site_kordofan_effect_name: "[holy_site|E]부터 #weak ($holy_site_kordofan_name$)#까지!" # 1211189611372684892
+  holy_site_ayn_farrah_name: "아인 파라" # 15622225238478600204
+  holy_site_ayn_farrah_effect_name: "[holy_site|E]에서 #weak ($holy_site_ayn_farrah_name$)#!" # 3311154617842430948
+  holy_site_abwab_name: "셴디" # 691893528264380067
+  holy_site_abwab_effect_name: "[holy_site|E]에서 #weak ($holy_site_abwab_name$)#!!" # 2108074721700580548
   semitic_religion: "셈족" # 5882046243640426878
   semitic_religion_adj: "셈족" # 5882046243640426878
   semitic_religion_adherent: "셈족" # 5882046243640426878
@@ -530,16 +536,16 @@
   iroquoian_religion_adj: "이로쿼이" # 10765645497186295876
   iroquoian_religion_adherent: "이로쿼이" # 10765645497186295876
   iroquoian_religion_adherent_plural: "이로쿼이족" # 7988120677769040999
-  iroquoian_religion_desc: "이로쿼이어족은 다양한 신앙과 종교적 관습을 따릅니다. #italic 오렌다#!는 만물에 스며드는 영적 힘을 일컫는 말입니다." # 12838993435810489394
-  iroquoian_pagan: "오렌다" # 7078221634367503450
-  iroquoian_pagan_adj: "오렌다" # 7078221634367503450
-  iroquoian_pagan_adherent: "오렌다이스트" # 844473969991030633
-  iroquoian_pagan_adherent_plural: "오렌다이스트" # 15089790716981638013
+  iroquoian_religion_desc: "이로쿼이족은 다양한 신념과 종교적 관습을 따릅니다. #italic 우키-오트콘#!은 만물에 스며들어 있는 영적인 힘을 일컫는 이름입니다." # 8854377569438685643
+  iroquoian_pagan: "우키-오트콘" # 15941655925298282234
+  iroquoian_pagan_adj: "우키-오트콘" # 15941655925298282234
+  iroquoian_pagan_adherent: "우키 옫코니스트" # 7000631300483315249
+  iroquoian_pagan_adherent_plural: "우키-오트코니스트" # 7374056348008841387
   iroquoian_pagan_desc: "$iroquoian_religion_desc$" # 18427236794921120311
-  iroquoian_pagan_old: "오렌다" # 15728105423156602021
-  iroquoian_pagan_old_adj: "오렌다" # 15728105423156602021
-  iroquoian_pagan_old_adherent: "올드 오렌다이스트" # 7302292651553705040
-  iroquoian_pagan_old_adherent_plural: "오렌다인" # 9271484549261926139
+  iroquoian_pagan_old: "늙은 우키-오트콘" # 7938473243518119884
+  iroquoian_pagan_old_adj: "늙은 우키-오트콘" # 7938473243518119884
+  iroquoian_pagan_old_adherent: "노 우키-오트코니스트" # 1596032525349897602
+  iroquoian_pagan_old_adherent_plural: "옛 우키-오트코니스트들" # 5995180098585812276
   iroquoian_pagan_old_desc: "$iroquoian_religion_desc$" # 18427236794921120311
   iroquoian_high_god_name: "대영혼" # 916998128915088345
   iroquoian_high_god_name_possessive: "위대한 영혼의" # 8077795326842847322
@@ -903,3 +909,7 @@
   rice_doctrine_horse_sacrifice_name: "$special_doctrine_rice_doctrine_horse_sacrifice_name$" # 13929441420474515062
   special_doctrine_rice_doctrine_horse_sacrifice_desc: "말은 우리 우주의 경이로운 창조물 중 하나입니다. 말은 합당하게 숭배해야 하며, 우리 종교 의식의 일환으로 천상에 희생되어야 합니다." # 6376816055060635197
   doctrine_parameter_rice_unlock_horse_sacrifice: "[GetActivityType('activity_RICE_mordvin_horse_sacrifice').GetName] [activity|E] 해제" # 10228941733893270791
+  special_doctrine_rice_doctrine_northeast_african_tattoo_name: "아프리카 벽사 문신" # 7870192133023475070
+  rice_doctrine_northeast_african_tattoo_name: "$special_doctrine_rice_doctrine_northeast_african_tattoo_name$" # 5542622868316768932
+  special_doctrine_rice_doctrine_northeast_african_tattoo_desc: "전통적으로, 종교적 상징 문신은 개인의 신념과 무관하게 북동 아프리카에서 마법적, 수호적, 영적인 힘을 가진 것으로 여겨졌습니다." # 15497836344726502916
+  doctrine_parameter_rice_unlock_northeast_african_tattoo_decision: "[culture|E]에 상관없이 #bold $RICE_east_african_tattoo_decision$#! [decision|E]을(를) 해금합니다." # 9694487469892223531

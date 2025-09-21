@@ -30,6 +30,7 @@
   RICE_normandy_give_normandy_realm_req: "인물 $d_normandy$가 [realm_size|E] #V [EmptyScope.ScriptValue('RICE_normandy_give_normandy_realm_value')|0]# 미만의 영지 크기를 가짐!" # 5634659568395560383
   RICE_normandy_start_struggle_tooltip: "[RICE_normandy_struggle|E]이(가) 개시될 것입니다" # 10704244130647851759
   RICE_normandy_avranches_distance_req: "귀하의 [capital|E]는 [GetTitleByKey('c_avranches').GetNameNoTier]와 가깝거나 [GetGeographicalRegion('world_europe_west_francia').GetName] [region|E]에 있습니다" # 5194875811671524748
+  RICE_normandy_in_avranches_req: "귀하의 [camp|E]는 [GetTitleByKey('b_avranches').GetNameNoTier]에 있습니다." # 18212131548174678206
   RICE_normandy_spawn_event_troops_tooltip: "[special_troops|E]를 일부 획득합니다. 여기에는 적어도 하나 이상의 [men_at_arms|E] [regiment|E]가 포함됩니다." # 2701083961337812987
   RICE_normandy_struggle_experienced_adventure_phase_tt: "[struggle_phase_normandy_adventure|E] 단계의 시작을 최소 한 번 경험함. #italic [RICE_normandy_struggle|E] 시작 시의 최초 [struggle_phase_normandy_adventure|E] 단계는 제외#!." # 13050066282394069616
   RICE_normandy_struggle_experienced_acculturation_phase_tt: "[struggle_phase_normandy_acculturation|E]의 시작을 최소 한 번 경험했다." # 9690743403739151743

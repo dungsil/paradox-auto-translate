@@ -143,7 +143,9 @@
   RICE_chios_go_on_a_pilgrimage_to_patmos_effect_tooltip: "방문 중에 종말에 대한 #V 계시#!를 #italic 받을 수도 있습니다#!" # 9367758020195948857
   RICE_chios_go_on_a_pilgrimage_to_patmos_confirm: "시작해보지!" # 8894882888817539911
   RICE_chios_go_on_a_pilgrimage_to_patmos_context_tooltip: "#emphasis 역사적 배경:#!\n수 세기 동안, 파트모스 섬(사모스 섬의 약간 남쪽에 위치한)은 파트모스의 요한(종종 복음사가 요한 및 사도 요한과 동일시되는)이 요한계시록을 저술한 곳으로 알려져 있습니다. 그러나 1088년이 되어서야 비로소 성 크리스토둘로스 라트리노스의 지도하에 로마 황제 알렉시오스 1세의 도움으로 섬에 수도원이 세워졌습니다. 그 이후로 파트모스는 지역 성지 순례지가 되었습니다." # 6808199322105860332
-  RICE_chios_near_chios_req: "[county_capital|E]는 [GetTitleByKey('c_chios').GetNameNoTier]와 가깝습니다." # 3559174319407918963
+  RICE_chios_near_chios_req: "귀하의 [capital|E]은(는) [GetTitleByKey('c_chios').GetNameNoTier]와 가깝습니다." # 1314025557639276348
+  RICE_chios_in_samos_req: "[camp|E]가 [GetTitleByKey('b_samos').GetNameNoTier]에 있습니다." # 9804986669153944579
+  RICE_chios_in_chios_req: "당신의 [camp|E]는 [GetTitleByKey('b_chios').GetNameNoTier]에 있습니다." # 12371727142513242110
   activity_chios_patmos_pilgrimage: "파트모스의 요한계시록 동굴 순례" # 6293334220276787058
   activity_chios_patmos_pilgrimage_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U]의 파트모스 묵시록 동굴 성지순례" # 10232496128825433865
   game_concept_patmos_pilgrimage: "파트모스로의 순례" # 13143497257731621779

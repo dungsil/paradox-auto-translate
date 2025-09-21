@@ -1,7 +1,7 @@
 ﻿l_korean:
-  wenmo: "올말" # 5246531799650384853
-  wenmo_collective_noun: "올말" # 5246531799650384853
-  wenmo_prefix: "올말" # 5246531799650384853
+  wenmo: "와모" # 1571413530317893812
+  wenmo_collective_noun: "와모" # 1571413530317893812
+  wenmo_prefix: "와모" # 1571413530317893812
   RICE_wenmo_history_loc: "[TARGET_CULTURE.GetName]의 통치 아래에서, [CULTURE.GetName] 외 여러 문화권 노예들의 후손으로 형성되었습니다." # 14270299407623738194
   tradition_RICE_silk_road_name: "실크로드의 백성들" # 10524442624430275254
   tradition_RICE_silk_road_desc: "비단길은 하나의 크고 연속적인 무역로가 아니라, 상호 연결된 상업, 사회, 정치 네트워크의 연속입니다. 이 문화의 사람들은 그러한 네트워크에 잘 자리 잡았으며, 유라시아 전역에 걸쳐 스스로 많은 명성과 이익을 얻었습니다." # 6063654004953144450
@@ -54,6 +54,12 @@
   RICE_merchants_option_effect_1: "[barony|E]에 들어갈 때마다, 귀하의 [diplomacy|E]와 [stewardship|E]에 따라 무역 거래를 통해 소량의 [gold_i|E] [gold|E]를 얻을 확률이 #V [GetPlayer.MakeScope.ScriptValue('RICE_silk_road_merchant_travel_option_event_chance')]%#! 있습니다." # 4117725576781990354
   RICE_silk_road_merchant_gain_effect: "[traveling|E]하는 동안 각 성공적인 거래마다 [GetTrait('RICE_silk_road_merchant').GetName( GetPlayer )] [trait|E]를 획득할 약간의 확률이 있습니다." # 15693811965701447696
   RICE_tarim_basin_cao_yijin_aspiration_event_troops: "조의금의 친위대" # 3349559600976276461
+  RICE_tarim_bazin_in_bezeklik_req: "당신의 [camp|E]은/는 [GetTitleByKey('b_bezeklik').GetNameNoTier]에 있습니다." # 13722570095549947115
+  RICE_tarim_basin_in_khotan_req: "귀하의 [camp|E]는 [GetTitleByKey('b_khotan').GetNameNoTier]에 있습니다." # 8875310242378417404
+  RICE_tarim_bazin_in_mogao_req: "귀하의 [camp|E]는 [GetTitleByKey('b_mogao').GetNameNoTier]에 있습니다." # 1923586782907292328
+  RICE_tarim_basin_close_to_shazhou_req: "귀하의 [capital|E]은/는 [GetTitleByKey('c_shazhou').GetNameNoTier]에 가깝습니다." # 16437491034979310493
+  RICE_tarim_basin_in_shazhou_req: "당신의 [camp|E]은 [GetTitleByKey('b_shazhou').GetNameNoTier]에 있습니다." # 16079065125123015343
+  RICE_tarim_basin_in_kashgar_req: "귀하의 [camp|E]는 [GetTitleByKey('b_kashgar').GetNameNoTier]에 있습니다." # 9156932962913404797
   hyuk_joon: "혁준" # 3310014594067813655
   dynn_RICE_wo: "워" # 3617955166734825847
   Daochong: "다오총" # 18338977832030299797

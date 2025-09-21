@@ -11,6 +11,7 @@
   RICE_tuyuhun_qinghaicong_horses_option_desc: "이 천마들은 세상의 어떤 말과도 다릅니다. 귀하의 여행에 사용할 몇 필을 예약하면, 제시간에 목적지에 도착할 수 있을 뿐만 아니라 위엄과 침착함을 갖추고 도착할 수 있을 것입니다." # 12141255101051411050
   RICE_tuyuhun_qinghaicong_horses_option_effect_1: "귀하가 [barony|E]에 들어갈 때마다 #V [GetPlayer.MakeScope.ScriptValue('RICE_tuyuhun_qinghaicong_option_bonus_chance')]%#! 확률로 귀하의 [diplomacy|E]와 [prowess|E]에 따라 [prestige_i|E] #V 1#!에서 [prestige_i|E] #V [EmptyScope.ScriptValue('RICE_tuyuhun_qinghaicong_option_max_value')|0]#! 사이의 값을 얻을 수 있습니다." # 10444332140113702681
   RICE_tuyuhun_qinghaicong_option.toast.success: "귀하의 칭하이충 말들이 지역 주민들에게 인상을 남겼습니다!" # 17273259804728059267
+  unlock_rice_travel_option_qinghaicong_horses_name: "[Glossary('$tradition_RICE_xianbei_scions_name|q$', 'tradition_RICE_xianbei_scions_desc')]" # 14397499771513639434
   RICE_tuyuhun_legend_new_title_name: "토욕혼의 부활" # 301214007716964546
   RICE_tuyuhun_legend_new_title_desc: "한때 뿔뿔이 흩어졌던 토욕혼이 위대한 지도자 [founder.GetTitledFirstName]의 지도 아래 재통합되었습니다." # 11144592644202730763
   RICE_tuyuhun_legend_chapter_opening_new_title: "[ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]이 태어나기 훨씬 전, [ROOT.Legend.GetProperty( 'original_culture' ).Culture.GetNameNoTooltip]은 크게 두려움과 존경을 받았습니다. 하지만 그들은 당과 토번 간의 다툼 속에서 패권 다툼의 말이 되었고, 결국 토번의 침략 이후 와해되었습니다." # 11349872738077303019

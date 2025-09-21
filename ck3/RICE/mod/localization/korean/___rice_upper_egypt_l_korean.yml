@@ -2,10 +2,10 @@
   RICE_upper_egypt_every_nile_county_desc: "귀하가 [GetGeographicalRegion('RICE_nile_river_valley').GetName] 내에 소유하고 있는 모든 [county|E]" # 18400414728451162603
   Yarjukh: "야르주흐" # 18278972743238438944
   Shukayr: "슈케어" # 2442406575486139165
-  dynn_shukayr: "알 하딤" # 13302938578046537131
+  dynn_shukayr: "슈카이리드" # 2720288103246051416
   dynn_al_mudabbir: "알-무다비르" # 12490178069065677446
   Miyas: "미야스" # 12711730913003766701
-  dynn_al_tabataba: "알-타바타바" # 4221058244869793267
+  dynn_al_tabataba: "앗-타바타바이" # 15264614826840863195
   dynn_al_sufi: "알-수피" # 17425718879394365513
   dynn_sukunid: "수쿠니드" # 15466267431051379756
   dynn_al_farghani: "알-파르가니" # 10560443379797319225
@@ -98,18 +98,18 @@
   activity_RICE_upper_egypt_pray_good_nile_flood: "나일강 범람 참회 의식" # 10894787432907598416
   activity_RICE_upper_egypt_pray_good_nile_flood_desc: "때로는 [nile_flood|E]가 나일 강을 따라 괜찮은 수확에 필요한 최적의 양에 미치지 못할 때, 이상적이지 않은 경우가 있습니다. 그런 일이 발생하면, 다시는 그런 일이 일어나지 않도록 우리의 죄를 용서해 달라고 간청해야 합니다!" # 2293800972750624993
   activity_RICE_upper_egypt_pray_good_nile_flood_selection_tooltip: "[nile_flood|E]가 더 나아지기를 기원합니다.\n\n$RICE_upper_egypt_pray_for_a_good_nile_flood_context_tooltip$" # 4303360493442400893
-  activity_RICE_upper_egypt_pray_good_nile_flood_host_desc: "\n$BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$[GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 소유한 모든 [counties|E]에서 나쁜 [nile_flood|E]의 부정적 효과를 완화할 수 있는 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 얻을 확률.\n\n보상의 효과는 귀하의 [traits|E], [virtues|E], [sins|E] 및 [piety_level|E]에 따라 달라집니다." # 10907968289073746033
+  activity_RICE_upper_egypt_pray_good_nile_flood_host_desc: "\n$BULLET_WITH_TAB$[piety_i|E][piety|E]\n$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$[GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 소유한 모든 [counties|E]에서 흉작 [nile_flood|E]의 부정적인 영향을 완화하기 위해 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 획득할 확률\n\n보상의 효율성은 귀하의 [traits|E], [virtues|E], [sins|E] 및 [piety_level|E]에 따라 달라집니다." # 9958444651101723532
   activity_RICE_upper_egypt_pray_good_nile_flood_guest_help_text: "$activity_RICE_upper_egypt_pray_good_nile_flood$" # 2267111985755022582
   activity_RICE_upper_egypt_pray_good_nile_flood_predicted_cost: "속죄 의식의 비용은 당신이 선택하는 [activity_options|E]에 따라 달라집니다." # 1015858591720385998
   activity_RICE_upper_egypt_pray_good_nile_flood_cost: "의식 규모" # 17442884821123139964
   activity_RICE_upper_egypt_pray_good_nile_flood_conclusion_desc: "[GetActivityType( 'activity_RICE_upper_egypt_pray_good_nile_flood' ).GetName]을 거행했습니다.\n[GetPlayer.GetFaith.HighGodName]께서 저희의 기도를 들어주시길 바라옵니다!" # 15554056880201276808
   RICE_upper_egypt_pray_good_nile_flood_amount_type: "의식 규모" # 17442884821123139964
   RICE_upper_egypt_pray_good_nile_flood_amount_type_small: "작은" # 11665425638542725414
-  RICE_upper_egypt_pray_good_nile_flood_amount_type_small_desc: "$EFFECT_LIST_BULLET$ 좋은 [nile_flood|E]을 기원하고 나쁜 [nile_flood|E]에 속죄하기 위한 의무적인 의식을 행합니다.\n$EFFECT_LIST_BULLET$ 더 적은 양의 [piety_i|E][piety|E] 및 [prestige_i|E][prestige|E] 획득#!\n$EFFECT_LIST_BULLET$ [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 소유한 모든 [counties|E]에서 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 얻을 확률이 줄어듭니다.\n\n#weak 우리의 진심 어린 속죄 의지가 충분할 것이며, [GetPlayer.GetFaith.HighGodName]께서 우리의 기도를 들어주실 것입니다.#!" # 16786662765413795199
+  RICE_upper_egypt_pray_good_nile_flood_amount_type_small_desc: "$EFFECT_LIST_BULLET$ 좋은 [nile_flood|E]를 기원하고 나쁜 [nile_flood|E]에 대해 회개하는 의례를 수행합니다.\n$EFFECT_LIST_BULLET$ 소량의 [piety_i|E][piety|E]와 [prestige_i|E][prestige|E] 획득#!\n$EFFECT_LIST_BULLET$ [GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 소유한 모든 [counties|E]에서 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 획득할 확률이 낮아집니다.\n\n#weak 진실된 회개의 염원이라면 충분할 것이며, [GetPlayer.GetFaith.HighGodName]께서 우리의 기도를 들으실 것입니다.#!" # 17415422209849073271
   RICE_upper_egypt_pray_good_nile_flood_amount_type_medium: "보통" # 7377651229498775580
-  RICE_upper_egypt_pray_good_nile_flood_amount_type_medium_desc: "$EFFECT_LIST_BULLET$ 좋은 [nile_flood|E]을 기원하고 나쁜 것에는 참회하기 위한 의무적인 의식을 수행합니다.\n$EFFECT_LIST_BULLET$ 적당한 양의 [piety_i|E][piety|E]와 [prestige_i|E][prestige|E]를 획득합니다#!\n$EFFECT_LIST_BULLET$ [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 당신이 소유한 모든 [counties|E]에서 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 얻을 괜찮은 확률.\n\n#weak 범람이 좋지 않을 때, 우리는 참회하고 [GetPlayer.GetFaith.HighGodName]에게 구원해달라고 기도하며 할 수 있는 것을 다 해야 합니다. 우리는 최소한만 할 수는 없습니다.#!" # 10500378190124537690
+  RICE_upper_egypt_pray_good_nile_flood_amount_type_medium_desc: "$EFFECT_LIST_BULLET$ 좋은 [nile_flood|E]를 위해 기도하고 나쁜 [nile_flood|E]에 대해 회개하는 의무적인 의식을 수행합니다.\n$EFFECT_LIST_BULLET$ 적당량의 [piety_i|E][piety|E]와 [prestige_i|E][prestige|E]를 획득합니다#!\n$EFFECT_LIST_BULLET$ [GetGeographicalRegion('RICE_nile_river_valley').GetName]을(를) 따라 소유한 모든 [counties|E]에서 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 획득할 상당한 확률이 있습니다.\n\n#weak 홍수가 나쁠 때는, 우리는 할 수 있는 모든 것을 다해 회개하고 [GetPlayer.GetFaith.HighGodName]께 우리를 구원해달라고 기도해야 합니다. 우리는 최소한의 의무만 다할 수 없습니다.#!" # 17879626723237297921
   RICE_upper_egypt_pray_good_nile_flood_amount_type_large: "거대한" # 2290692482761374841
-  RICE_upper_egypt_pray_good_nile_flood_amount_type_large_desc: "$EFFECT_LIST_BULLET$ 좋은 [nile_flood|E]을 기원하고 나쁜 [nile_flood|E]에 대해 속죄하는 의무적인 의식을 수행합니다.\n$EFFECT_LIST_BULLET$ 더 많은 양의 [piety_i|E][piety|E]과 [prestige_i|E][prestige|E] 획득#!\n$EFFECT_LIST_BULLET$ [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 귀하가 소유한 모든 [counties|E]에서 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E] 획득 확률 증가\n\n#weak 우리의 죄가 끔찍하여 나일 강의 현재 상태를 초래했습니다. 우리는 진정으로, 성실하게, 깊이 회개하고자 함을 [GetPlayer.GetFaith.HighGodName]께 증명하기 위해 모든 노력을 기울여야 합니다.#!" # 13803957989159000964
+  RICE_upper_egypt_pray_good_nile_flood_amount_type_large_desc: "$EFFECT_LIST_BULLET$ 좋은 [nile_flood|E]를 기원하고 나쁜 [nile_flood|E]에 대해 참회하는 의무적인 의식을 거행하십시오.\n$EFFECT_LIST_BULLET$ 더 많은 [piety_i|E][piety|E] 및 [prestige_i|E][prestige|E]를 획득합니다#!\n$EFFECT_LIST_BULLET$ [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 귀하가 소유한 모든 [counties|E]에서 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 획득할 확률이 높아집니다.\n\n#weak 우리의 죄악은 끔찍하며, 이는 현재 나일강의 상황을 초래했습니다. 우리는 [GetPlayer.GetFaith.HighGodName]께 우리가 진정으로, 성심으로, 깊이 참회하고자 함을 증명하기 위해 특별한 노력을 기울여야 합니다.#!" # 7762794380083508227
   RICE_upper_egypt_pray_good_nile_flood_prayer_phase: "기도" # 3105075337060657930
   RICE_upper_egypt_pray_good_nile_flood_prayer_phase_desc: "오 [GetPlayer.GetFaith.HighGodName]시여, 저희의 자비를 비는 탄원을 들으시어, 나일 강이 마땅히 흘러야 하는 대로 다시 흐르게 하소서!" # 14774373692528541867
   RICE_upper_egypt_pray_good_nile_flood_repentance_intent_header: "회개:" # 6685203553936951424
@@ -117,7 +117,7 @@
   RICE_upper_egypt_pray_good_nile_flood_repentance_intent_desc: "흉작을 부르는 [nile_flood|E]는 우리 죄 때문에 일어난 것이다. 공동체로서, 우리는 다 함께 속죄해야 한다." # 13865932834397907395
   RICE_upper_egypt_pray_good_nile_flood_completed_log_title: "나일강 범람 참회 의식" # 10894787432907598416
   RICE_upper_egypt_pray_good_nile_flood_completed_log: "[CHARACTER.GetShortUIName|U]는 [CHARACTER.GetHerHis] 나일 강 홍수 참회 의식을 마쳤습니다" # 10787213336897204165
-  RICE_activity_result_nile_flood_repentance_modifier: "[host.GetTitledFirstNamePossessive] [counties|E] 중 한 곳 이상이 [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 위치한 [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 얻었습니다." # 17816366507397489304
+  RICE_activity_result_nile_flood_repentance_modifier: "[host.GetTitledFirstNamePossessive] [GetGeographicalRegion('RICE_nile_river_valley').GetName]을(를) 따라 위치한 하나 또는 그 이상의 [counties|E]이(가) [GetModifier('RICE_nile_flood_repentance').GetNameWithTooltip] [county_modifier|E]를 얻었습니다." # 4332468534966903124
   TRAVEL_NAME_FOR_activity_RICE_upper_egypt_pray_good_nile_flood: "[Character.GetFirstNamePossessiveNoTooltip] 나일 강 범람 기원" # 1093119992942529121
   activity_RICE_upper_egypt_visit_aswan_temples_host_an_a: "$host_activity_a$" # 13713790857143020716
   activity_RICE_upper_egypt_visit_aswan_temples: "아스완의 신전 방문" # 16255638253010411917
@@ -135,6 +135,7 @@
   TRAVEL_NAME_FOR_activity_RICE_upper_egypt_visit_aswan_temples: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_upper_egypt_visit_aswan_temples$" # 10285023179107156968
   activity_RICE_upper_egypt_visit_aswan_temples_owner: "순례자" # 384073485693042227
   RICE_upper_egypt_visit_aswan_temples_open_req: "엘레판티네, 필레, 칼라브샤의 사원 중 적어도 하나가 개방되어 있습니다" # 4715381267934827060
+  RICE_upper_egypt_in_aswan_req: "귀하의 [camp|E]는 [GetTitleByKey('b_aswan').GetNameNoTier]에 있습니다." # 13538470228508402401
   building_type_RICE_upper_egypt_temple_of_luxor_01: "룩소르 신전" # 16286347454461359958
   building_type_RICE_upper_egypt_temple_of_luxor_01_desc: "이집트 전역에는 수많은 위대한 기념물이 있으며, 룩소르 신전은 고대 이집트의 찬란한 공학 유산 중 가장 훌륭한 본보기로서 수 세기 동안 그 자리를 지켜왔습니다.\n\n룩소르는 파라오의 왕권을 숭배하기 위해 지어진 신전으로서, 그들이 한때 가졌던 권력의 증거입니다. 비록 고대 파라오들은 오래전에 사라졌지만, 사람들이 그 원래 목적을 잊더라도 그들이 지은 이 신전은 분명 수 세기 동안 지속될 것입니다." # 16487156351287810449
   building_RICE_upper_egypt_temple_of_luxor_01: "룩소르 신전" # 16286347454461359958
@@ -442,12 +443,12 @@
   upper_egypt.0019.t: "xxxxx" # 1951045980481827005
   upper_egypt.0019.desc: "xxxxx" # 1951045980481827005
   upper_egypt.0019.a: "xxxxx" # 1951045980481827005
-  upper_egypt.0020.notification.flood.normal: "나일계 측량 보고서: 올해는 평년 [nile_flood|E]입니다." # 9440661751665525030
-  upper_egypt.0020.notification.flood.high: "나일계 수위 보고: 올해 범람이 심각합니다." # 13905191907091690447
-  upper_egypt.0020.notification.flood.very_high: "나일계 수위 보고서: 올해 매우 높음 [nile_flood|E]" # 2439205973834761722
-  upper_egypt.0020.notification.flood.overflooding: "나일강 수위 관측 보고: 올해 홍수가 범람했습니다." # 5800094971883783858
-  upper_egypt.0020.notification.flood.low: "나일 미터 보고서: 올해 홍수량이 낮음" # 14547190011597326293
-  upper_egypt.0020.notification.flood.very_low: "나일 미터 보고서: 올해 범람 수위 매우 낮음" # 10197774807544664184
+  upper_egypt.0020.notification.flood.normal: "나일로미터 보고서: 정상 [nile_flood|E]" # 11204391265222060549
+  upper_egypt.0020.notification.flood.high: "나일강 수위계 보고: [nile_flood|E] 높음" # 2750825454939879758
+  upper_egypt.0020.notification.flood.very_high: "나일강 수위 보고: 매우 높음 [nile_flood|E]" # 3346248359359089377
+  upper_egypt.0020.notification.flood.overflooding: "나일강 수위계 보고서: [nile_flood|E] 범람했습니다" # 13755391809138252876
+  upper_egypt.0020.notification.flood.low: "닐로미터 보고서: 낮음 [nile_flood|E]" # 9671108695523693354
+  upper_egypt.0020.notification.flood.very_low: "나일로미터 보고서: 매우 낮음 [nile_flood|E]" # 12820220353308562112
   upper_egypt.0020.t: "xxxxx" # 1951045980481827005
   upper_egypt.0020.desc: "xxxxx" # 1951045980481827005
   upper_egypt.0020.a: "xxxxx" # 1951045980481827005
@@ -602,7 +603,7 @@
   upper_egypt.0060.a: "이런…. 안타까운 소식이군요." # 2101395035587917035
   upper_egypt.0060.b: "희생자 가족들에게 기부합시다." # 12490710723036298006
   upper_egypt.0061.t: "나일 강 시찰" # 6692636709665860945
-  upper_egypt.0061.desc: "오늘 나는 [GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 내 영토의 일부를 시찰하고 있습니다. 특히 농촌 지역을 방문할 예정입니다. 결국 농업은 수천 년은 아니더라도 수세기 동안 나일 강을 따라 살아가는 데 큰 부분을 차지해 왔으므로 이러한 농장에서 적절한 식량을 생산할 수 있도록 하는 것이 중요합니다.\n\n어쨌든 나는 농부들과 지역 관리들과 여러 시간 동안 지역 관개 시설이 어떻게 운영되고 있는지에 대해 이야기를 나눕니다. 우리는 나일 강의 연례 범람을 최대한 활용할 수 있도록 항상 이 시설들이 양호한 상태인지 확인해야 합니다." # 8915821514513051340
+  upper_egypt.0061.desc: "오늘 나는 [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 위치한 내 영토 일부를 시찰하고 있습니다. 구체적으로는 농촌 지역 일부를 둘러보기 위해 이동하고 있습니다.\n결국엔 농업은 수천 년은 아니더라도 수 세기 동안 나일 강을 따라 이어져 온 삶의 중요한 부분이었으니, 이 농장들이 충분한 식량을 생산할 수 있도록 내가 보장하는 것이 중요합니다.\n\n어쨌든 나는 지역 관개망이 어떻게 운영되고 있는지에 대해 농부들과 지역 관리들과 몇 시간 동안 이야기를 나눕니다. 매년 찾아오는 나일 강 범람을 우리가 최대한 활용할 수 있도록, 이것들이 항상 좋은 상태를 유지하는지 반드시 확인해야 합니다." # 11113390555060825933
   upper_egypt.0061.a: "지루하지만 필요한 작업입니다." # 5092906349006041076
   upper_egypt.0062.t: "키르스" # 9519967978098168298
   upper_egypt.0062.desc: "최근 [county.GetNameNoTier]에서 유목민 목축업자들이 #italic khirs#!라고 알려진 땅을 이용하기 위해 이주해 왔습니다. 이 땅은 나일강을 따라 위치하며 잡초가 많고, 지역 주민들이 농지로 개간하지 않아 농업에는 적합하지 않습니다.\n\n그렇다고 해서 마을 사람들이 이 땅을 사용하지 않는다고 해서 다른 사람들을 이웃으로 기꺼이 받아들인다는 의미는 아닙니다. 마을 사람들과 목축업자 사이에 긴장이 고조되고 있으며, 이 상황을 신중하게 처리해야 합니다." # 11676920853000724276
@@ -611,11 +612,11 @@
   upper_egypt.0062.c: "마을 사람들은 원한다면 유목민들을 쫓아낼 권리가 있습니다." # 17109567134436144556
   upper_egypt.0062.d: "양측이 합의에 이르도록 돕겠습니다." # 8278455557990309413
   upper_egypt.0063.t: "나일 강의 선물" # 599012473827887983
-  upper_egypt.0063.desc: "[GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 제 영지에서 온 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitle')]의 설교를 듣고 있습니다.\n\n설교에서 [ROOT.Char.Custom('DefaultPriestTitle')]은 [ROOT.Char.GetFaith.HighGodName]께서 우리를 얼마나 총애하시는지, 그리고 이것이 나일강 범람이 일어나는 이유이며, 이집트의 풍요로움을 이용할 수 있게 된 것은 모두 [ROOT.Char.GetFaith.HighGodName]의 은총 덕분이라고 말합니다. 우리가 [ROOT.Char.GetFaith.HighGodName]을 존경하고 [ROOT.Char.GetFaith.GetAdjective] 종교를 따르면 나일강의 범람은 훌륭합니다. 우리가 [ROOT.Char.GetFaith.HighGodName]을 실망시키고 죄를 지으면 우리에게 겸손하고 죄를 피하라고 상기시키기 위해 나일강의 빈약한 범람을 얻게 됩니다. 따라서 [ROOT.Char.GetFaith.HighGodName]이 없다면 우리는 나일강을 따라 수확할 농작물이 없을 것입니다." # 4343334690974563480
+  upper_egypt.0063.desc: "저는 [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 있는 제 영토 출신의 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.Custom('DefaultPriestTitle')]의 설교를 듣고 있습니다.\n\n설교에서 그 [ROOT.Char.Custom('DefaultPriestTitle')]는 [ROOT.Char.GetFaith.HighGodName]께서 우리를 총애하시며, 이것이 나일강 범람이 발생하는 이유를 설명하고, 우리가 이집트의 풍요를 누릴 수 있는 것은 [ROOT.Char.GetFaith.HighGodName]의 은총 덕분이라고 말합니다. 우리가 [ROOT.Char.GetFaith.HighGodName]을 공경하고 [ROOT.Char.GetFaith.GetAdjective] 종교를 따르면, 나일강 범람은 훌륭합니다. 그러나 우리가 [ROOT.Char.GetFaith.HighGodName]을 실망시키고 죄를 지으면, 겸손하고 죄를 피하도록 상기시키기 위해 빈약한 나일강 범람이 일어납니다. 그러므로 [ROOT.Char.GetFaith.HighGodName]이 없었다면, 우리는 나일강을 따라 수확할 작물이 없을 것입니다." # 10157218092266695322
   upper_egypt.0063.a: "정녕 그렇습니다! 나일 강에서 얻는 식량은 모두 [ROOT.Char.GetFaith.HighGodName] 덕분입니다." # 489556539253937481
   upper_egypt.0063.b: "물론 그렇긴 하지만, 풍작은 모두의 노고 덕분이기도 하지." # 12856645240320909628
   upper_egypt.0064.t: "나일 강가의 기도" # 15687296996011549631
-  upper_egypt.0064.desc: "저는 [GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 [county.GetNameNoTier]를 여행하던 중 나일강을 향해 기도하는 여러 [ROOT.Char.Custom('DefaultPriestTitlePlural')]을 만났습니다. 그들에게 무엇을 하고 있는지 묻자, 그들은 나일강이 다음 번에 범람할 때 좋은 침수를 보장하기 위해 [ROOT.Char.GetFaith.HighGodName]에게 기도하고 있다고 설명했습니다. 결국 나일강의 범람은 예측 가능하지만, 침수의 결과는 그렇지 않기 때문입니다." # 7921301728663792542
+  upper_egypt.0064.desc: "나는 [county.GetNameNoTier]을(를) 지나 [GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 여행하던 중, 여러 [ROOT.Char.Custom('DefaultPriestTitlePlural')]이(가) 나일 강을 향해 기도하는 것을 보았다. 무엇을 하는지 묻자, 그들은 다음 나일 강 범람 시 좋은 범람이 일어나도록 [ROOT.Char.GetFaith.HighGodName]께 기도하고 있다고 설명했다. 결국, 나일 강의 범람은 예측 가능하지만, 그 범람의 결과는 예측할 수 없기 때문이었다." # 13854021691466518925
   upper_egypt.0064.a: "가봐야 하지만, 행운을 빌겠네." # 6790687541366059141
   upper_egypt.0064.b: "어쩌면 제가 당신의 기도에 동참해도 될까요?" # 8317146015248554718
   upper_egypt.0065.t: "나일로미터 기록" # 15956678741689093350
@@ -623,11 +624,11 @@
   upper_egypt.0065.a: "네, 저 같은 지도자가 갖춰야 할 중요한 지식입니다." # 8392163571306730117
   upper_egypt.0065.b: "시간이 없다. 나일강에 대해 조언해 줄 사람들은 이미 있다." # 4082432441447355522
   upper_egypt.0066.t: "사원 용도 변경" # 18397811570886579922
-  upper_egypt.0066.desc: "태고에 지어진 고대 기념물과 거대한 건축물들은 [GetGeographicalRegion('RICE_nile_river_valley').GetName]에서 흔히 볼 수 있습니다. 그중 일부는 너무 커서 오랫동안 버려진 후에도 다양한 용도로 재사용할 수 있습니다.\n\n어쨌든, [county.GetNameNoTier]의 한 지역 관리에 따르면, 그곳의 마을 주민들은 일종의 오래된 사원 복합 시설로 보이는 건축물을 사용하는 데 관심을 보이고 있다고 합니다. 이 마을 주민들은 마을을 확장하기 위해 이 사원 내부에 집, 상점 및 기타 필요한 구조물을 지으려고 합니다. 그 생각은 다른 곳에 무작위로 짓는 대신, 튼튼하고 견고하며 여러 세대에 걸쳐 지속된 사원 벽을 활용하는 것이 효율적이라는 것입니다.\n\n하지만, 마을은 전략적 위치에 있지만, 가장 부유한 정착지는 아니며, 이를 위해서는 약간의 도움이 필요합니다." # 5213448579254053548
+  upper_egypt.0066.desc: "[GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 오랜 세월 전에 세워진 고대 기념물과 웅장한 건축물들을 흔히 볼 수 있습니다. 일부는 버려진 지 오래되었음에도 불구하고 다양한 용도로 재사용될 수 있을 만큼 충분히 큽니다.\n\n어쨌든, [county.GetNameNoTier]의 지역 관리의 말에 따르면, 그곳 주민들은 오래된 사원 단지로 보이는 그러한 건물 중 하나를 사용하는 데 관심을 보였습니다. 이 주민들은 사원 내부에 가옥, 상점 및 기타 필요한 구조물들을 건설하여 마을을 확장할 생각입니다. 사원 벽은 튼튼하고 견고하며 여러 세대에 걸쳐 보존되어 왔으므로, 다른 곳에 무작위로 건설하는 대신 사원 벽을 활용하는 것이 효율적이라는 것입니다.\n\n그러나 이 마을은 전략적 위치에 자리하고 있지만, 그곳에서 가장 부유한 정착지는 아닙니다. 따라서 이를 실현하기 위해서는 약간의 도움이 필요합니다." # 9422590676261611269
   upper_egypt.0066.a: "물론입니다! 이 사업을 재정적으로 지원할 수 있습니다." # 8198847753739843285
   upper_egypt.0066.b: "지금은 그들을 도울 수 없지만, 행운을 빌어줘야지." # 16959506117777883962
   upper_egypt.0067.t: "풀 메다메스" # 5101366157447812145
-  upper_egypt.0067.desc: "[GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 위치한 마을을 방문하는 동안 #italic 풀 메다메스#! 요리를 즐기고 있습니다. 이 요리는 올리브 오일과 다양한 향신료, 고명을 곁들인 누에콩 스튜로, 오랫동안 이 지역의 많은 사람들에게 인기가 있습니다." # 15966087692969104271
+  upper_egypt.0067.desc: "[GetGeographicalRegion('RICE_nile_river_valley').GetName]을 따라 한 마을을 방문하던 중, 저는 [Glossary( 'ful medames', 'FUL_MEDAMES_GLOSS' )] 요리를 즐기고 있습니다. 이것은 올리브유와 다양한 향신료 및 고명을 섞은 누에콩으로 만든 든든한 스튜로, 수 세대 동안 이 지역의 많은 사람들에게 사랑받아 왔습니다." # 12491091152230832850
   upper_egypt.0067.a: "맛있군!" # 2028573091546184424
   upper_egypt.0068.t: "xxxxx" # 1951045980481827005
   upper_egypt.0068.desc: "xxxxx" # 1951045980481827005

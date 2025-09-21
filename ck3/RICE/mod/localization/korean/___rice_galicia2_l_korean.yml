@@ -21,7 +21,7 @@
   RICE_galicia2_boyar_event_troops: "보야르 병력" # 17867313578227130786
   RICE_rival_galicia2_brotherly_competition: "[CHARACTER.GetShortUINamePossessive|U]와 [TARGET_CHARACTER.GetShortUIName]는 야로슬라프 오스모미슬의 사망 이후 [GetTitleByKey('d_halych').GetNameNoTier]를 놓고 경쟁하고 있습니다." # 5843439794906733503
   dynn_bernatovich: "베르나토비치" # 673656334762439270
-  slavic_religion_opinion: "$slavic_religion_opinion_adherent$ 의견" # 14663170580070119113
+  slavic_religion_opinion: "$slavic_religion_adherent$ 의견" # 9071198197191716386
   game_concept_volga_dnieper_merchants: "볼가-드네프르 상인단" # 5424725043807404802
   game_concept_volga_dnieper_merchant: "볼가-드네프르 상인" # 10410210075505544588
   game_concept_volga_dnieper_merchant_desc: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 내 영지를 소유하고 있다면, 종종 $trait_RICE_volga_dnieper_merchant$ [trait|E] 특성을 가진 $game_concept_volga_dnieper_merchant$가 [court|E]에 등장할 확률이 있습니다. 그들의 연줄을 활용하기로 선택할 수 있으며, 이는 그들이 전문으로 하는 교역품에 따라 귀하에게 [income|E]를 증진시키고 다른 보너스들도 제공하는 [character_modifier|E]를 부여합니다. 이 보너스들은 그들을 [court|E]로 초대하지 않더라도 얻을 수 있습니다.\n\n또한 이 지역의 무역과 관련된 다양한 선택지를 포함하는 $RICE_develop_portage_routes$ [decision|E]에 접근할 수 있게 됩니다.\n\n귀하 자신도 [traveling|E] 중 $RICE_volga_dnieper_merchants_option$ [travel_option|E] 선택지를 택하여 $trait_RICE_volga_dnieper_merchant$ [trait|E] 특성을 얻으려 시도할 수 있습니다. 이는 간혹 이벤트를 발생시켜 해당 [trait|E]를 얻기 위해 노력하거나, 해당 [trait|E]의 [trait_level_track_xp|E]를 증가시킬 수 있게 합니다." # 15298597906085035719

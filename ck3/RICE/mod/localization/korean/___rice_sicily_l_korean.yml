@@ -46,6 +46,8 @@
   innovation_RICE_mediterranean_cave_settlements_desc: "동굴 거주지는 지중해 전역에서 발견되지만, 특정 지역에서는 더 흔하게 볼 수 있습니다. 동굴 안에 경이로운 도시 전체를 건설하는 것은 공학적, 건축학적, 예술적 지식의 조화를 요구합니다." # 12852921573543442260
   RICE_mediterranean_region: "지중해" # 12402591186983410388
   RICE_sicily_gargano_distance_req: "그대의 [capital|E]은 [GetTitleByKey('c_foggia').GetNameNoTier]에 가깝거나 [GetGeographicalRegion('world_europe_south_italy').GetName] [region|E]에 있습니다." # 7981940885098192070
+  RICE_sicily_in_vieste_req: "귀하의 [camp|E]는 [GetTitleByKey('b_vieste').GetNameNoTier]에 있습니다." # 4382778114422233492
+  RICE_sicily_in_palermo_req: "[camp|E]가 [GetTitleByKey('b_palermo').GetNameNoTier]에 있습니다." # 16595168009905914645
   RICE_conquered_sicily_opinion: "이교도에게서 시칠리아를 정복했다" # 8531685048724156829
   RICE_conquered_souther_italy_opinion: "남부 이탈리아를 이교도들에게서 정복했습니다" # 8001960738859390311
   RICE_repelled_norman_invaders: "노르만 이교도 격퇴" # 8029805902090663572
@@ -147,7 +149,8 @@
   abu_al_qasim_ali: "아부 알-카심 알리" # 5097412964502027275
   dynn_me_habashi: "알-하바시" # 5196777071617296324
   RICE_domicile_sicily_county_req: "[GetGeographicalRegion('custom_sicily').GetName]에 [domicile|E]를 소유" # 3619924470259583353
-  RICE_sicily_close_to_napoli_req: "[capital|E]는 [GetTitleByKey('b_napoli').GetNameNoTier]에 가깝습니다" # 16889578244392200713
+  RICE_sicily_close_to_napoli_req: "[capital|E]이/가 [GetTitleByKey('b_napoli').GetNameNoTier]에 가깝습니다." # 8770717418074163122
+  RICE_sicily_in_napoli_req: "귀하의 [camp|E]는 [GetTitleByKey('b_napoli').GetNameNoTier]에 있습니다." # 7376503867269893920
   dynn_me_sawadid: "아스-사와디" # 15089844955625945967
   RICE_sicily_struggle_correct_involvement_tt: "귀하는 [RICE_sicily_struggle|E]에 [struggle_involved|E]되어 있습니다." # 4120106387198950728
   RICE_restart_sicily_struggle_make_cultures_faiths_involved_effect_tooltip: "[GetGeographicalRegion('custom_sicily').GetName] 내 [county|E]를 소유한 [ruler|E]를 최소 한 명이라도 보유한 모든 [cultures|E] 또는 [faiths|E]은 이미 관여되지 않았다면 [RICE_sicily_struggle|E]에 [struggle_involved|E]하게 됩니다." # 16279115432056159476
