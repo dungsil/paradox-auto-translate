@@ -198,6 +198,9 @@
   desc_hyperstructural_ass: "시스템의 별 주변에 건설된 거대한 조선소입니다. 조선소 슬롯 90개를 제공하며 함대 한계치를 1500 증가시킵니다." # 11614760759378671896
   name_orb_bastion: "궤도 요새" # 3638379127453498591
   allow_orb_bastion: "§H거대 구조물 잠금 해제:§! $name_orb_bastion$" # 13726475464808089807
+  name_planetary_seeder_nexus: "행성 파종 연결체" # 1280342807233996358
+  allow_planetary_seeder_nexus: "§H거대 구조물 잠금 해제:§! $name_planetary_seeder_nexus$" # 1280035034925870411
+  desc_planetary_seeder_nexus: "생명 없는 행성에서 발견되는 흩어진 유기 화합물을 식용 물질로 재처리할 수 있는 다양한 유사 생체 자동 장치를 생산하는 궤도 생체공학 시설." # 3534468919815357282
   giga_zero: "0" # 7148434200721666028
   requires_big_star: "$TRIGGER_FAIL$이 구조물의 막대한 에너지 요구량 때문에, B형성 또는 A형성 주위의 단일 항성계에 건설되어야 합니다." # 16438852342013875319
   requires_habitable: "$TRIGGER_FAIL$거주 가능한 행성만 대상으로 지정해야 합니다." # 3828136845331588996
@@ -307,6 +310,7 @@
   requires_no_orb_eco_arc: "$orbital_artificial_eco_3$를 가진 성계에는 건설할 수 없습니다." # 5351536126663370137
   requires_no_macro_test_site: "$TRIGGER_FAIL$$macro_test_site_3$가 있는 성계에서는 건설할 수 없습니다." # 2018362703703561314
   requires_no_atmosphere_shredder: "$TRIGGER_FAIL$ $atmosphere_shredder_3$가 있는 성계에서는 건설할 수 없습니다." # 4269821634067272752
+  requires_no_planetary_seeder_nexus: "$TRIGGER_FAIL$$planetary_seeder_nexus_3$가 있는 시스템에서는 건설할 수 없습니다." # 2279744972620883926
   cant_fire_without_target: "$TRIGGER_FAIL$$name_ndb$은 발사하기 위해서는 워프 게이트 또는 행성 표적 지정기가 필요합니다." # 14366217109159259158
   cant_explode_two_bombs_at_once: "$TRIGGER_FAIL$두 개의 아공간 왜곡 폭탄이 동시에 폭발하게 할 수 없습니다!" # 268300038555873373
   cant_target_this_planet: "$TRIGGER_FAIL$우리는 이 천체를 대상으로 지정할 수 없습니다." # 14520142746063959537
@@ -331,7 +335,7 @@
   count_owned_pop_trigger: "보유한 팝 수$CONDITIONS$ $IS_NOT$ $COMPARATOR$ $NUM|Y$" # 7998435882307355135
   paluushia_no_ai_observation: "$TRIGGER_FAIL$AI는 팔루시아를 관측해서는 안 된다는 것을 이해하지 못한다." # 831316697114774535
   giga_news_title: "모드 소식 & 최신 변경점" # 5100355015266279083
-  giga_news_log: "§B------------------------ 2025년 9월 25일 ----------------------------§!\n§HMOD 버전, 3.34.3 by Elowiny§!\n§G전체/자세한 패치 노트는 디스코드에서 확인하세요.§!\n버전 3.34.3은 행성 시점과 탱크바운드에 대한 4.1과의 호환성을 제공합니다. 놓친 문제점은 디스코드에 보고해 주세요!\n\n§B--------------------------- 2025년 6월 16일 ---------------------------------§!\n§HMOD 버전, 3.34 by TTFTCUTS, PIECAT & Elowiny§!\n§G전체/자세한 패치 노트는 디스코드에서 확인하세요.§!\n버전 3.34.1은 드디어 §Y카첸아르티히 제국§!을 다시 활성화했으며, 수많은 다른 버그 수정 사항도 포함되어 있습니다!\n\n§B---------------------------- 2025년 5월 6일 ----------------------------------§!\n§HMOD 버전, 3.34 by Elowiny & TTFTCUTS§!\n§G전체/자세한 패치 노트는 디스코드에서 확인하세요.§!\n\n버전 3.34는 §Y4.0§!과의 §Y부분적인 호환성§!을 제공합니다! 그러나 모드의 일부는 현재 수정 중이므로 비활성화되어 있습니다. 여기에는 §Y프레임월드§!, §Y궤도 엘리시움§!, §Y앨더슨 디스크§!, §Y소행성 산업§!, §Y마트료시카 브레인 VR§! (M.B. 출력 보상으로 두 배 증가), §Y링월드 변형§!, §Y성간 서식지§!, §Y카첸아르티히 제국§!, §Y시레날리아§! 및 §Y버치 월드§!의 전체 범위(여전히 사용 가능하지만 단순화됨)가 포함됩니다. 향후 며칠 및 몇 주에 걸쳐 이들을 점진적으로 복구하는 §Y핫픽스§!가 있을 예정입니다!\n\n§B---------------------------- 2025년 4월 3일 ----------------------------------§!\n§HMOD 버전, 3.33 by PIECAT, Tempest, Elowiny & TTFTCUTS§!\n§G전체/자세한 패치 노트는 디스코드에서 확인하세요.§!\n\n버전 3.33은 §YB.I.G. 통§!에 대한 리워크, 새로운 더 쉬운 §Y알파 아에테르눔§! 난이도, 메뉴에 대한 §Y리워크§!, 수많은 QoL 수정, 그리고 메뉴 전에 새로운 §Y설정§! 선택 화면을 제공합니다!\n\n§Y새로운 설정 선택 메뉴에 대한 피드백이 있다면 반드시 디스코드에 남겨주세요!§!\n\n§B--------------------------- 2025년 1월 2일 -------------------------------§!\n§HMOD 버전, 3.32.3 by PIECAT & Tempest§!\n§G전체/자세한 패치 노트는 디스코드에서 확인하세요.§!\n\n§RH§!§HA§!§YP§!§GP§!§BY§! §MN§!§RE§!§HW§! §YY§!§GE§!§BA§!§MR!\n버전 3.32.3은 필요한 수많은 수정 사항과 공간이 부족하여 프리셋의 두 번째 페이지를 제공합니다.\n\n§B-------------------------- 2024년 11월 16일 -----------------------------§!\n마침내 §Y블로캣 초상화§!, §Y팔루쉬 초상화§!, §Y카첸 초상화§! 보조/독립 모드를 3.14로 업데이트했습니다! §YElowiny의 모드§! 컬렉션을 통해 워크숍에서 모두 확인하실 수 있습니다.\n\n§B-------------------------- 2024년 11월 20일 -----------------------------§!\n§HMOD 버전, 3.32 by PIECAT§!\n§G전체/자세한 패치 노트는 디스코드에서 확인하세요.§!\n\n§Y거대 대기 안정화기§!\n가스 구역이 행성의 기술자들에게 이국적인 가스 생산량을 제공하는 강력한 통치자 직업을 제공하도록 재작업되었습니다.\n\n§B-------------------------- 2024년 11월 16일 -----------------------------§!\n§HMOD 버전 3.32 - '영광스러운 귀환을 알리며'§!\n§G전체/자세한 패치 노트는 디스코드에서 확인하세요.§!\n\n§Y초대형 E.H.O.F.§!\n비활성 코어를 중심으로 건설되며, 함대 이동성에 막대한 버프를 제공합니다.\n\n§Y재작업된 테라포밍 메가스트럭처§!\n이제 단일 지점에서 건설되며, 스스로 테라포밍하는 대신 기존 테라포밍을 통해 행성 테라포밍을 가능하게 합니다.\n\n§Y재작업된 채굴장/S.U.C.C./메가보어§!\n더 이상 고갈되지 않으며, 대신 행성에 미립자/가스/결정 매장량을 생성하고 버프합니다.\n\n§Y14개의 새로운 표본§!\n대부분 이벤트 및 위기와 관련되어 있습니다. 모두 찾을 수 있을까요?\n\n§Y승천 특전 통합§!\n앨더슨 디스크는 더 이상 특전을 필요로 하지 않으며, 시스템크래프트 특전은 천체 조립 특전과 통합되었습니다.\n\n§Y카첸아르티히 제국 기본 비활성화§!\n카이저가 준비되지 않은 플레이어에게 미치는 파괴적인 영향으로 인해, 기본적으로 그를 비활성화하는 결정이 내려졌습니다." # 6537067084851275907
+  giga_news_log: "§B------------------------ 2025년 9월 25일 ----------------------------§!\n§H모드 버전 3.35.0 - Elowiny의 '스파블레로니 피자'§!\n§G자세한 전체 패치 노트는 Discord를 참조하십시오.§!\n\n§Y앨더슨 원반 재작업.§!\n앨더슨 원반이 거대한 4구역 특수지구와 함께 돌아왔습니다!\n\n§Y벌크 물질 재작업§!\n대형 거대 구조물은 이제 행성에서 채취한 벌크 물질을 요구합니다. 해체하세요!\n\n§Y행성 씨앗 생성 중추§!\n가스 거성 주위에 건설되며, 전체 성계에 걸쳐 식량 매장량을 생성합니다! Reddit 사용자 markjsno1 님의 r/Stellaris 게시물에서 제안되었습니다.\n\n§B------------------------ 2025년 9월 22일 ----------------------------§!\n§H모드 버전 3.34.3 - Elowiny§!\n§G자세한 전체 패치 노트는 Discord를 참조하십시오.§!\n버전 3.34.3은 행성 시점 및 탱크 바운드에 대한 4.1 호환성을 제공합니다. Discord에서 누락된 문제를 보고해 주십시오!\n\n§B--------------------------- 2025년 6월 16일 ---------------------------------§!\n§H모드 버전 3.34 - TTFTCUTS, PIECAT 및 Elowiny§!\n§G자세한 전체 패치 노트는 Discord를 참조하십시오.§!\n버전 3.34.1은 마침내 #Y카첸아르티히 제국#을 다시 활성화하며, 수많은 다른 버그 수정과 함께 제공됩니다!\n\n§B---------------------------- 2025년 5월 6일 ----------------------------------§!\n§H모드 버전 3.34 - Elowiny 및 TTFTCUTS§!\n§G자세한 전체 패치 노트는 Discord를 참조하십시오.§!\n\n버전 3.34는 #Y4.0#과의 #Y부분적인 호환성#을 제공합니다! 그러나 모드의 일부는 현재 수정 중이므로 비활성화되어 있습니다. 여기에는 #Y프레임월드#, #Y궤도 엘리시움#, #Y앨더슨 원반#, #Y소행성 산업#, #Y마트료시카 브레인 VR# (보상으로 M.B. 출력 2배), #Y링월드 변형#, #Y성간 서식지#, #Y카첸아르티히 제국#, #Y시레날리아#, #Y버치월드#의 전체 범위(여전히 사용 가능하지만 단순화됨)가 포함됩니다. 다음 며칠에서 몇 주 동안 점진적으로 이들을 다시 가져오는 #Y핫픽스#를 기대해 주십시오!\n\n§B---------------------------- 2025년 4월 3일 ----------------------------------§!\n§H모드 버전 3.33 - PIECAT, Tempest, Elowiny 및 TTFTCUTS§!\n§G자세한 전체 패치 노트는 Discord를 참조하십시오.§!\n\n버전 3.33은 #YB.I.G. 발효조#의 재작업, 새로운 더 쉬운 #Y알파 아에테르눔# 난이도, 메뉴의 #Y재작업#, 수많은 QoL 수정, 그리고 메뉴 전의 새로운 #Y구성# 선택 화면을 제공합니다!\n\n§Y새로운 구성 선택 메뉴에 대한 피드백이 있다면 Discord에 남겨주세요!§!\n\n§B--------------------------- 2025년 1월 2일 -------------------------------§!\n§H모드 버전 3.32.3 - PIECAT 및 Tempest§!\n§G자세한 전체 패치 노트는 Discord를 참조하십시오.§!\n\n§RH§!§HA§!§YP§!§GP§!§BY§! §MN§!§RE§!§HW§! §YY§!§GE§!§BA§!§MR§!\n버전 3.32.3은 공간 부족으로 인해 필요한 수많은 수정 사항과 사전 설정에 대한 두 번째 페이지를 제공합니다.\n\n§B-------------------------- 2024년 11월 16일 -----------------------------§!\n마침내 #Y블로캣 초상화#, #Y팔루시 초상화#, #Y카첸 초상화# 하위/단독 모드를 3.14로 업데이트했습니다! #YElowiny의 모드# 컬렉션을 통해 Steam 창작마당에서 모두 확인하실 수 있습니다.\n\n§B-------------------------- 2024년 11월 20일 -----------------------------§!\n§H모드 버전 3.32 - PIECAT§!\n§G자세한 전체 패치 노트는 Discord를 참조하십시오.§!\n\n§Y거대 대기 안정기§!\n가스 특수지구가 재작업되어 행성의 기술자에게 이국적 가스 생산량을 제공하는 강력한 통치자 직업을 제공합니다.\n\n§B-------------------------- 2024년 11월 16일 -----------------------------§!\n§H모드 버전 3.32 - '성공적인 귀환을 축하하며'§!\n§G자세한 전체 패치 노트는 Discord를 참조하십시오.§!\n\n§Y초대형 E.H.O.F.§!\n비활성 핵 주위에 건설되며, 함대 기동성에 엄청난 버프를 제공합니다.\n\n§Y재작업된 테라포밍 거대 구조물§!\n이제 단일 부지에서 건설되며, 자체적으로 테라포밍하는 대신 기존 테라포밍을 통해 행성 테라포밍을 가능하게 합니다.\n\n§Y재작업된 스트립마인/S.U.C.C./메가보어§!\n더 이상 고갈되지 않고, 대신 행성에 미량원소/가스/결정 매장량을 생성하고 버프합니다.\n\n§Y14개의 새로운 표본§!\n대부분 이벤트 및 위기와 관련이 있습니다. 모두 찾을 수 있습니까?\n\n§Y승천 특전 병합§!\n앨더슨 원반은 더 이상 특전을 요구하지 않으며, 성계 건설 특전은 천체 조립 특전과 병합됩니다.\n\n§Y카첸아르티히 제국 기본 비활성화§!\n카이저가 준비되지 않은 플레이어에게 미치는 파괴적인 영향으로 인해, 그를 기본적으로 비활성화하기로 결정했습니다." # 12495936536391046622
   BLOKKAT: "블록캣" # 6796010452648272606
   giga_menu.101.name: "기가스트럭처" # 14328256144094145279
   giga_menu.101.desc: "기간스트럭처 모드의 버전 변경이 감지되어 메뉴가 변경됨에 따라 모든 최대 한도가 초기화되었습니다. 반복 퀘스트 진행도의 손실에 대해 양해 부탁드립니다.\n\n메뉴에서 새로운 최대 한도 설정을 선택해 주십시오." # 5979683285377015292
@@ -341,7 +345,7 @@
   giga_menu.2.confirm.tooltip: "현재 설정을 확인하십시오. '설정 확인' 버튼을 눌러 확인하십시오." # 17871715522576945977
   giga_menu.2.refresh: "§E설정   확인§!" # 14926521723580515096
   giga_menu.2.refresh.tooltip: "여기에서 활성 설정을 재확인할 수 있습니다." # 6324512554186551950
-  giga_menu.1.desc: "v 3.34.3" # 11894773026774995907
+  giga_menu.1.desc: "버전 3.35.0" # 1666498972391050886
   giga_menu.10.title: "선호하는 플레이 방식을 선택하십시오" # 14429419548083863609
   giga_menu.10.confirm: "설정으로 게임 시작" # 1685778828121111228
   giga_menu.10.confirm.tooltip: "맞춤 설정 없이 선택된 구성 사용" # 15519851694962898986
@@ -432,6 +436,7 @@
   giga_menu.hyperstructural_ass: "[root.giga_chk_hyperstructural_ass]" # 6726061751384230882
   giga_menu.stellarhabitat: "[root.giga_chk_stellarhabitat]" # 1871783551682903912
   giga_menu.kugel: "[root.giga_chk_kugel]" # 14975801297139047673
+  giga_menu.planetary_seeder_nexus: "[root.giga_chk_planetary_seeder_nexus]" # 2224702740329036731
   giga_menu.disco_moon: "[root.giga_chk_disco_moon]" # 3634438997363167256
   giga_menu.terraform_gasgiant: "[root.giga_chk_terraform_gasgiant]" # 12120233417004750981
   giga_menu.megabase: "[root.giga_chk_megabase]" # 3444433231505922964
@@ -475,7 +480,7 @@
   giga_menu.2.name: "현재 선택된 설정입니다. 모든 것이 괜찮아 보인다면 설정 확인 버튼을 누르세요." # 14262222844772715083
   giga_menu.2.desc: "$giga_menu.2.name$\n\n§E게임 시작 설정§!\n[root.giga_setting_fe_planetcrafts]\n[root.giga_setting_fed]\n[root.giga_setting_achievements]\n\n§E은하핵 설정§!\n[root.giga_setting_aeternum]\n[root.giga_setting_core]\n\n§E사건 지평선 오프셋 시설§!\n$giga_menu.ehof$\n[root.giga_setting_ehof_ai]\n\n§E컴파운드§!\n[root.giga_setting_compound]\n\n§E카첸 제국§!\n$giga_menu.katzen$\n$giga_menu.katzen_portraits$\n\n§E메가스트럭처 설정§!\n[root.giga_setting_build_cap]\n[root.giga_setting_scaling_dyson]\n[root.giga_setting_scaling_lifter]\n[root.giga_setting_scaling_brain]\n[root.giga_setting_influence]\n[root.giga_setting_habitats]\n\n§E블로캇§!\n$giga_menu.blokkats$\n$giga_menu.blokkats_date$\n$giga_menu.blokkats_portraits$\n$giga_menu.blokkats_guarantee$" # 13626140455240164399
   giga_menu.3.desc: "§E기본 메가스트럭처§!\n$giga_menu.vanilla_dyson$\n$giga_menu.vanilla_interstellar$\n$giga_menu.vanilla_matter$\n$giga_menu.vanilla_art$\n$giga_menu.vanilla_shipyard$\n$giga_menu.vanilla_ringworld$\n$giga_menu.vanilla_nexus$\n$giga_menu.vanilla_array$\n$giga_menu.vanilla_strategic$\n\n§E링월드 옵션§!\n$giga_menu.ringworlds$\n$giga_menu.cityring$\n$giga_menu.hivering$\n$giga_menu.machinering$\n$giga_menu.upgrade$\n\n§E기가스트럭처§!\n$giga_menu.alderson$\n$giga_menu.asteroid_manufactory$\n$giga_menu.terraform_toxic$\n$giga_menu.drill$\n$giga_menu.warmoon$\n$giga_menu.warplanet$\n$giga_menu.birch$\n$giga_menu.crystal$\n$giga_menu.terraform_barren$\n$giga_menu.shipyard$\n$giga_menu.suppressor$\n$giga_menu.geothermal$\n$giga_menu.glue$\n$giga_menu.hraemc$\n$giga_menu.hyperstructural_ass$\n$giga_menu.stellarhabitat$\n$giga_menu.kugel$\n$giga_menu.disco_moon$\n$giga_menu.terraform_gasgiant$" # 10090328264695397899
-  giga_menu.4.desc: "$giga_menu.megabase$ 메가 기지\n$giga_menu.matrioshka_brain$ 마트료시카 브레인\n$giga_menu.gigaforge$ 기가 단조\n$giga_menu.ndb$ 엔디비\n$giga_menu.nidavellir$ 니더벨리르\n$giga_menu.orbital_arcologies$ 궤도형 아콜로지\n$giga_menu.orbital_artificial_eco$ 궤도형 인공 생태계\n$giga_menu.academy$ 아카데미\n$giga_menu.penrose_sphere$ 펜로즈 구체\n$giga_menu.planetary_computer$ 행성 컴퓨터\n$giga_menu.psychic_beacon$ 사이오닉 신호기\n$giga_menu.siphon$ 사이펀\n$giga_menu.quasistellar$ 준항성\n$giga_menu.supermassive_ehof$ 초거대 이호프\n$giga_menu.lifters$ 리프터\n$giga_menu.storm_observatory$ 폭풍 관측소\n$giga_menu.systemcraft$ 시스템크래프트\n$giga_menu.compressor$ 압축기\n$giga_menu.succ$ 수크\n$giga_menu.virtual_reality$ 가상 현실\n$giga_menu.the_vat$ 더 뱃\n$giga_menu.orchid$ 오키드\n$giga_menu.maginot$ 마지노\n$giga_menu.planetaryshipyard$ 행성 조선소" # 6160288451381422688
+  giga_menu.4.desc: "$giga_menu.메가기지$\n$giga_menu.마트료시카_브레인$\n$giga_menu.기가_제련소$\n$giga_menu.NDB$\n$giga_menu.니다벨리르$\n$giga_menu.궤도_아콜로지$\n$giga_menu.궤도_인공_생태계$\n$giga_menu.아카데미$\n$giga_menu.펜로즈_구체$\n$giga_menu.행성_컴퓨터$\n$giga_menu.사이오닉_비콘$\n$giga_menu.사이펀$\n$giga_menu.준항성$\n$giga_menu.초거대_EHOF$\n$giga_menu.리프터$\n$giga_menu.폭풍_관측소$\n$giga_menu.시스템_크래프트$\n$giga_menu.압축기$\n$giga_menu.SUCC$\n$giga_menu.가상_현실$\n$giga_menu.더_뱃$\n$giga_menu.오키드$\n$giga_menu.마지노$\n$giga_menu.행성_조선소$\n$giga_menu.행성_파종자_중추$" # 15632956535726939477
   giga_chk_fe_planetcrafts_0: "£menu_fe_planetcrafts_0£§R몰락 제국 천체: §B없음§!" # 3513712216372731405
   giga_chk_fe_planetcrafts_1: "£menu_fe_planetcrafts_1£§G몰락 제국 천상체: §G일반§!" # 11221908132566709964
   giga_chk_fe_planetcrafts_2: "£menu_fe_planetcrafts_2£§G몰락 제국 천상: §Y높음§!" # 5619891045949575790
@@ -1037,6 +1042,8 @@
   giga_menu_presets_patreon_40: "파트론: §MSV 미스 포춘§!" # 14272916042603459271
   giga_menu_presets_patreon_41: "패트리온: §MLucasif§!" # 14148073009043233403
   giga_menu_presets_patreon_42: "패트리온: §MJin2188§!" # 14863143322090727506
+  giga_menu_presets_patreon_43: "패트리온: §MEragonn1490§!" # 14147631971964736127
+  giga_menu_presets_patreon_44: "패트리온: §MLucy§!" # 13300467206027995758
   giga_menu_presets_other_01: "대회 우승자: §HThe_Strateg1st§!" # 9546388759945176561
   INVESTIGATE_CORE_ANOMALY: "코어 변칙 현상" # 959092719188967513
   INVESTIGATE_CORE_ANOMALY_DESC: "§H[from.GetName]§!에서 발견된 중심 변칙에 대한 탐사 프로젝트가 승인되었습니다. 우리의 최고 [Owner.GetScientistPlural] 및 [Owner.GetEngineerPlural]은 중심 변칙에 도달하여 그 비밀을 밝힐 수 있는 기계를 개발하기 위해 노력하고 있습니다." # 15078933999713055793
@@ -2692,8 +2699,8 @@
   mod_pc_virtual_stellar_industry_habitability: "가상 항성 산업 거주 적합도" # 14265739247807107366
   trait_pc_virtual_stellar_industry_preference: "가상 성계 산업 선호" # 17145287847878685653
   trait_pc_virtual_stellar_industry_preference_desc: "§L기후 선호도는 유전적 수준에서, 오랜 진화 또는 숙련된 조작에 의해 결정됩니다.§!" # 10673154622792081431
-  mod_pc_alderson_slice_gaia_shattered_habitability: "산산조각난 가이아 올더슨 거주 적합도" # 17136435054658344019
-  trait_pc_alderson_slice_gaia_shattered_preference: "깨진 가이아 올더슨 선호" # 10644344183858198210
+  mod_pc_alderson_slice_gaia_shattered_habitability: "파괴된 앨더슨 거주 적합도" # 11276951896199097743
+  trait_pc_alderson_slice_gaia_shattered_preference: "산산조각난 앨더슨 선호" # 16597317837212594384
   trait_pc_alderson_slice_gaia_shattered_preference_desc: "§L기후 선호도는 유전적 수준에서, 오랜 진화 또는 숙련된 조작에 의해 결정됩니다.§!" # 10673154622792081431
   mod_pc_alderson_slice_gaia_habitability: "가이아 거주 적합도" # 16754581855746737085
   trait_pc_alderson_slice_gaia_preference: "가이아 선호" # 16347210548369834107
@@ -3040,6 +3047,66 @@
   district_penrose_industrial: "$district_interstellar_industrial$" # 7866991234856383116
   district_penrose_industrial_plural: "$district_interstellar_industrial_plural$" # 10598675696286562007
   district_penrose_industrial_desc: "$district_interstellar_industrial_desc$" # 17721073223470974181
+  building_automation_1_giga: "기가 자동화 건물" # 7611648788086723975
+  building_automation_1_giga_desc: "벽에 걸린 도시 크기의 명판에 '그것은 자동화됩니다.'라고 쓰여 있습니다." # 13797796469598283734
+  mod_building_automation_1_giga_max: "최대 기가 자동화 건물" # 18383016619594774239
+  building_automation_2_giga: "초거대 최적화 건물" # 15945878411623170991
+  building_automation_2_giga_desc: "정말 최적화될까요?" # 7584390277526690529
+  mod_building_automation_2_giga_max: "최대 기가 최적화 건물" # 13711932210498071024
+  building_automation_1_giga_alderson_tooltip: "자동화 지구당 건물 유지비: §R£energy£+$@automation_district_upkeep_1_alderson$§!" # 8454703982908651618
+  building_automation_2_giga_alderson_tooltip: "자동화된 구역당 건물 유지비: §R£energy£+$@automation_district_upkeep_2_alderson$§!" # 18377292349894686058
+  district_alderson_logistics: "물류 하이퍼세그먼트" # 18342811295276406087
+  district_alderson_logistics_desc: "이 올더슨 슬라이스의 골격과 벽 안에 자리 잡은 이 물류 지구들은 구조물의 주요 통제 시스템들을 수용하며, 그 내외부 작동을 감독하고 최적화합니다." # 3484575400339907609
+  district_alderson_logistics_plural: "물류 하이퍼 세그먼트" # 9489491722722851262
+  district_alderson_gaia: "가이아 하이퍼세그먼트" # 5026813664307938630
+  district_alderson_gaia_desc: "전체 태양계 규모에 달하는, 경이로울 만큼 광대한 목가적인 자연 지대가 가輕미한 도시 또는 산업 개발에 적합합니다." # 12077431549881876991
+  district_alderson_gaia_plural: "가이아 초분절" # 8731485011507025304
+  district_alderson_hive: "군체 초분절" # 18345275536012437547
+  district_alderson_hive_desc: "항성계 전체 규모에 달하는 상상 초월의 거대한 군체형 지형. 경도 도시 또는 산업 개발을 위한 준비가 완료되었습니다." # 14692660956364488874
+  district_alderson_hive_plural: "군체 초분절" # 3845704596084183601
+  district_alderson_machine: "기계 초분절" # 233070400485480339
+  district_alderson_machine_desc: "태양계 전체 크기에 달하는, 정신이 아득해질 정도로 광대한 기계 지형이 경량 도시 또는 산업 개발을 위해 준비되어 있습니다." # 2039679772698996798
+  district_alderson_machine_plural: "기계 초분절" # 1227840110361116186
+  district_alderson_ecu: "에큐메노폴리스 하이퍼세그먼트" # 5621229354906411167
+  district_alderson_ecu_desc: "태양계 전체를 능가하는 생산력을 지닌, 천문학적 단위 면적을 뒤덮은 다양한 형태의 도시-산업 복합체." # 6332702614395479692
+  district_alderson_ecu_plural: "에큐메노폴리스 초구획" # 720135407801393331
+  district_alderson_pcc: "하이퍼세그먼트 연산 중" # 17364153369111043692
+  district_alderson_pcc_desc: "행성 규모의 것과 유사하지만 전체 알더슨 슬라이스에 걸쳐 뻗어 있는, 진정으로 거대한 컴퓨팅 단지입니다. 상상할 수 없는 처리 능력을 자랑하며, 연구에 엄청난 버프를 제공합니다. 여전히 크라이시스는 실행할 수 없습니다." # 8865357390370119193
+  district_alderson_pcc_plural: "하이퍼 세그먼트 연산 중" # 7985721161375217346
+  zone_alderson_energy: "테라스케일 커패시터" # 13598979444772834375
+  zone_alderson_energy_desc: "물리학이 허용하는 모든 에너지를 한계까지 뽑아냅니다." # 12383106340618172017
+  zone_alderson_food: "앨더슨 하이퍼농장" # 13323558448780408471
+  zone_alderson_food_desc: "세계를 몇 번이고 집어삼킬 수 있을 정도로 광활한 들판이 흔들리는 태양 아래에서 평화롭게 자라고 있습니다." # 15367766300992020919
+  zone_alderson_housing: "거주 넥서스" # 4522945371726331687
+  zone_alderson_housing_desc: "은하 전체의 지성체들을 위한 끝없이 광활한 주거지. 이곳을 천 년을 걸어도 여전히 같은 거리 위에 서 있을 것이다." # 12899387908413455032
+  zone_alderson_minerals: "대량 물질 합성기" # 3284264296006026792
+  zone_alderson_minerals_desc: "질량-에너지 등가원리를 자유자재로 적용하여 달 하나 분량의 물질을 존재하게 합니다." # 13152159180965390117
+  zone_alderson_alloys: "초중량 주조소" # 16725134414556066863
+  zone_alderson_alloys_desc: "전함 한 척을 통째로 단일체로 주조할 수 있을 만큼 웅장하고 거대한 용광로." # 10524365125660345178
+  zone_alderson_cg: "초중량 제작기" # 11922684158259065011
+  zone_alderson_cg_desc: "수십억 제곱 킬로미터에 달하는 공간이 오롯이 대중 상품 생산에 할애되어 있습니다. 현대 사회의 유행을 거의 간신히 따라잡을 수 있을 정도의 속도입니다." # 5500510553098530092
+  zone_alderson_factory: "메가스프롤 제조 시설" # 9750775227818596251
+  zone_alderson_factory_desc: "지성체가 공학적으로 만들어낸 모든 견고한 것은 수백만, 수십억 개의 치솟는 배기 굴뚝들 사이, 이곳 어딘가에서 발견될 수 있습니다. 어디냐고는 묻지 마십시오." # 2110026357873853102
+  zone_alderson_fortress: "태양 보루" # 1432919507780804367
+  zone_alderson_fortress_desc: "난공불락의 요새와 병영 네트워크가 행성 전체의 인구보다 많은 병력을 유지합니다." # 5492976412051605717
+  zone_alderson_research_physics: "항성 입자 가속기" # 2362348614216431349
+  zone_alderson_research_physics_desc: "입자를 한층 더 빠르게 가속할 방법을 끊임없이 모색합니다." # 3011360829211886967
+  zone_alderson_research_society: "사회 초시뮬레이터" # 6208055005361914488
+  zone_alderson_research_society_desc: "그들의 청소 장치 속 지적 생명체보다 16조 배 더 빠르게 사회적 및 생물학적 상호작용을 시뮬레이션합니다." # 14669968712177590432
+  zone_alderson_research_engineering: "기가 공학 연구 노드" # 10104080268079839330
+  zone_alderson_research_engineering_desc: "거대한 것들을 사용하여, 더욱 거대한 것들을 건설하는 방법을 알아냅니다." # 11758377144242595775
+  zone_alderson_research: "태양 컴퓨팅 단지" # 5225950319713801010
+  zone_alderson_research_desc: "헛되이 크라이시스 실행 시도 중." # 15608707890723667571
+  zone_alderson_unity: "관료 기가프로세서" # 11572750452700190370
+  zone_alderson_unity_desc: "끝없이 이어진 프로세서들이 오직 디지털 서류 업무 처리에만 전념하고 있습니다." # 471217140253263991
+  zone_alderson_trade: "생태계 만능 예측기" # 16593199805750336375
+  zone_alderson_trade_desc: "우리 제국 전역의 물류 및 경제 예측을 처리하는 과부하된 프로세서들." # 7663888530269292838
+  zone_alderson_housing_optimization: "주거 최적화" # 17281964765564154582
+  zone_alderson_housing_optimization_desc: "이러한 거대 구조물에서 주거가 할당되는 방식의 필연적인 비효율성을 한 명의 시민씩 해결합니다." # 5493733408050723115
+  zone_alderson_infrastructure_optimization: "인프라 최적화" # 17244838281406312146
+  zone_alderson_infrastructure_optimization_desc: "테라미터 거리에 걸쳐 테라톤을 이동시키는 데 테라초가 소요되지 않도록 하는 방법 강구." # 17672183595439286682
+  zone_alderson_pop_growth: "인구 최적화" # 11123128788788122165
+  zone_alderson_pop_growth_desc: "행동적, 사회적, 생물학적 패턴을 감독하고 최적화합니다." # 16634117030145745501
   pc_alderson_slice_gaia_shattered: "산산조각난 초구역" # 5590778652227348126
   pc_alderson_slice_gaia_shattered_desc: "기능 부전 상태의 올더슨 원반 세계 거대 부분" # 889676645225461157
   pc_alderson_slice_gaia_shattered_adj: "이것을 일반 대화방에 게시하십시오." # 9885948470343980355
@@ -3564,8 +3631,8 @@
   pc_alderson_slice_machine_desc: "인공 구조물로 뒤덮여 있습니다. 희박한 대기는 대부분 산업 오염 물질로 구성되어 있으며, 생명체의 생존을 지탱할 수 없습니다." # 13972709638725948856
   pc_alderson_slice_pc: "알더슨 컴퓨팅 콤플렉스" # 13917838132356641887
   pc_alderson_slice_pc_desc: "행성 규모의 복합체와 유사하지만, 전체 올더슨 슬라이스에 걸쳐 확장된 진정으로 거대한 컴퓨팅 복합체입니다. 헤아릴 수 없는 처리 능력을 자랑하며, 연구에 엄청난 버프를 제공합니다. 여전히 크라이시스는 실행할 수 없습니다." # 8865357390370119193
-  pc_alderson_slice_gaia: "가이아 올더슨 조각" # 928658679364662829
-  pc_alderson_slice_gaia_desc: "$name_alderson$의 거대한 조각으로, 정말 거대한 인구를 부양할 수 있습니다. 이 조각은 별로부터의 다양한 거리에서 광범위한 기후를 특징으로 하며, 따라서 거의 모든 종족이 거주할 수 있습니다." # 8449309891032117154
+  pc_alderson_slice_gaia: "올더슨 슬라이스" # 15114576440660485445
+  pc_alderson_slice_gaia_desc: "태양계 전체를 가로지르는 $name_alderson$의 거대한 조각은 진정으로 거대한 인구와 그에 상응하는 산업을 부양할 수 있습니다." # 13555019196591136144
   pc_virtual_reality: "$name_matrioshka_brain$ 현실 시뮬레이터" # 5796298346808419376
   pc_virtual_industry: "$name_matrioshka_brain$ 산업 분할" # 5937109124641275629
   pc_virtual_stellar_industry: "$name_matrioshka_brain$ 연산 구역" # 12080718982908285379
@@ -3641,6 +3708,11 @@
   pc_shrouded_equatorial_shipyard_desc: "$name_eq_shipyard$의 내부인 이 링월드는 용해 행성 지각에서 희귀 광물을 추출하여 이를 직접 합금으로 정제하는 데 특화되어 있습니다. 이 링에서 발견될 수 있었던 생명체의 작은 잠재력은 이제 사라졌고, 소용돌이치는 장막 에너지의 조류로 대체되었습니다." # 17637023053284785928
   pc_interstellar_shrouded_ringworld_habitable: "장막의 $name_interstellar_ring$" # 6625488095661945217
   pc_interstellar_shrouded_ringworld_habitable_desc: "성간 공간에 건설된 링월드 거주지로, 중심 특이점 반응로를 중심으로 합니다. 한때 광대한 도시 경관이었던 그 표면은 장막의 힘에 의해 끝없는 광기의 바다로 변해버렸습니다." # 1530663067677911347
+  pc_bulk_matter_cache: "대량 물질 저장소" # 4265187543484785449
+  pc_bulk_matter_cache_desc: "성계 외곽 근처에, 비교적 얇은 용기들에 보관된 대규모 행성 물질 및 가스 저장고." # 18098494334411149001
+  giga_bulk_matter_cache: "대량 물질 저장소" # 4265187543484785449
+  giga_bulk_matter_cache_desc: "이것은 성계 외곽 근처에 비교적 얇은 용기에 저장된 대규모 행성 물질 및 가스 저장고입니다." # 4115199981151264108
+  giga_bulk_matter_cache_tooltip: "이 저장소의 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!는 §Y결단§!을 통해 회수할 수 있습니다." # 18281857021851679622
   sc_habitat: "$name_interstellar_hab$" # 14007605562479707525
   sc_birch: "비활성 코어" # 12086955817722448939
   sc_birch_built: "$sc_birch$" # 1842200546604222258
@@ -4014,6 +4086,10 @@
   giga_tech_repeatable_orbital_artificial_eco_cap_desc: "고급 건설 및 유지보수 프로토콜을 통해 우리 제국의 국경 내에서 추가적인 §Y궤도 인공 생태계§!를 건설 및 관리할 수 있습니다." # 649856783296371178
   giga_orbital_artificial_eco_capacity_increase_title: "§Y궤도 인공 생태계§! 수용량: §G+1§!" # 4892478012437032075
   giga_orbital_artificial_eco_capacity_increase_desc: "§Y궤도 인공 생태계§! 제국 수용량이 §G+1§! 증가합니다." # 12912413676534037453
+  giga_tech_repeatable_planetary_seeder_nexus_cap: "행성 파종 중추 관리 규약" # 3048938766506315791
+  giga_tech_repeatable_planetary_seeder_nexus_cap_desc: "첨단 건설 및 유지보수 규약으로 우리 제국의 국경 내에 추가 §Y행성 씨앗 거점§을 건설하고 관리할 수 있습니다!" # 12392924419215674430
+  giga_planetary_seeder_nexus_capacity_increase_title: "§Y행성 파종 네서스§! 용량: §G+1§!" # 15978254519453062545
+  giga_planetary_seeder_nexus_capacity_increase_desc: "§Y행성 파종기 연결망§!에 대한 제국 수용력이 §G+1§! 증가합니다." # 11855736865997326058
   giga_tech_repeatable_academy_cap: "궤도 요새 관리 규약" # 16347838725274293644
   giga_tech_repeatable_academy_cap_desc: "우리 제국의 국경 내에서 추가 §Y궤도 요새§!의 건설 및 관리를 허용하는 고급 건설 및 유지보수 규약." # 2675503037465401336
   giga_academy_capacity_increase_title: "§Y궤도 요새§! 수용량: §G+1§!" # 4935838675051190753
@@ -9418,6 +9494,10 @@
   giga_flavor.999.desc: "안녕하세요! 기간스트럭처가 최근 업데이트되어, §Y항성 입자 가속기§와 §Y달 반사경§에 새로운 커스터마이징 기능이 추가되었습니다.\n이번 업데이트는 세이브 파일을 손상시키지 않지만, 새로운 기능을 제대로 적용하려면 해당 메가스트럭처를 선택하고 \"관리\" 버튼을 클릭하셔야 할 수도 있습니다.\n\n읽어주셔서 감사합니다, 즐거운 시간 보내세요!" # 854178785691649489
   giga_flavor.999.a: "알겠습니다." # 12076608091024442278
   giga_accelerator.160.a.tooltip: "§Y[accelerator_quasistar.GetName]§! 성계 내 모든 행성이 고온이 됩니다.\n\n만약 존재한다면, 그 §Y항성 입자 가속기§!는 §R파괴§!될 것입니다.\n\n" # 12021787407079093472
+  giga_bulk_matter_cost_disabled: "£menu_disabled£거대 구조물 대량 물질 비용\n\n대형 거대 구조물 건설에 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!가 소모되어, 재료를 위해 여러 행성을 해체해야 할까요?\n\n다음 항목에 적용됩니다: §Y링월드§!, §Y마트료시카 브레인§!, §Y앨더슨 디스크§!, §Y버치 월드§!, §Y준성급 파괴자§!, §Y초거대 E.H.O.F.§! 그리고 §Y니콜-다이슨 빔§!.\n\n비활성화된 경우, £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!는 천체 인쇄에만 필요합니다." # 6617408086188502009
+  giga_bulk_matter_cost_enabled: "£menu_enabled£거대 구조물 대량 물질 비용\n\n대형 거대 구조물이 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!를 요구하여 재료를 위해 여러 행성을 해체해야 할까요?\n\n이는 §Y링월드§!, §Y마트료시카 브레인§!, §Y앨더슨 디스크§!, §Y버치 월드§!, §Y준성 소멸자§!, §Y초거대 E.H.O.F.§!, 그리고 §Y니콜-다이슨 빔§!에 적용됩니다.\n\n비활성화된 경우, £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!는 천체 프린팅에만 필요할 것입니다." # 4126889004534750630
+  giga_planet_bulking_disabled: "£menu_disabled£행성 비대화\n\n£giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!를 사용하여 §Y거주 불가능한 암석 행성§!을 최대 §Y크기 50§!까지 확장하고 §Y가스 행성§!을 헬리폼 가능하게 할 수 있도록 해야 합니까?" # 2648353653661804240
+  giga_planet_bulking_enabled: "£menu_enabled£행성 거대화\n\n£giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!를 사용하여 §Y거주 불능 암석 행성§!을 §Y크기 50§!까지 거대화하고 §Y가스 행성§!을 헬리오스 형태로 개조 가능하도록 해야 할까요?" # 2263641100684844284
   giga_celestial_printing_disabled: "£menu_disabled£공격 위성 생산기\n공격 위성이 달 거대 생산기와 그 관련 메커니즘을 통해 '생산'될 수 있도록 할 것인지 여부입니다. 이 기능과 행성함 생산 기능을 모두 비활성화하면 §Y천상 함선 조립§! 승천 특전이 제거됩니다." # 3571948672291188932
   giga_celestial_printing_enabled: "£menu_enabled£공격 위성 제작기\n공격 위성이 달 거대 제작기 및 관련 메커니즘으로 '인쇄'될 수 있는지 여부입니다. 이것과 행성함 인쇄를 모두 비활성화하면 §Y천체 함선 조립§! 승천 특전이 제거됩니다." # 897373231975545517
   district_giga_alderson_industrial: "산업 초구역" # 5735242109518772373
@@ -9431,28 +9511,50 @@
   REACTOR_MOON_DESC: "소형 무장 행성체의 핵 내부에 자리 잡은 강력한 동력 발전기. 방대한 무기 체계를 구동하기 위해 대량의 에너지를 제공합니다." # 14498864402609946928
   requires_war_planets: "$TRIGGER_FAIL$£engineering_research£ §Y$giga_tech_war_planet$§! 기술이 필요합니다." # 5184360534687043252
   ap_celestial_printing: "천상의 함대" # 2929702551037014424
-  ap_celestial_printing_desc: "$giga_massive_planet_plural$와 $giga_planet_behemoth_plural$는 크기, 화력, 방어 능력 면에서 다른 모든 함선들을 압도합니다. 심지어 막강한 타이탄, 콜로서스, 스타-이터조차도 단 한 척의 $giga_massive_planet$와 비교하면 아무것도 아닙니다. 불행하게도, 그것들의 건조 방식의 특성상 우리는 그것들을 생산할 수 있는 능력에 있어 극도로 제한됩니다.\n\n하지만, 현재 우리의 기술 기반으로는 행성 하나에 해당하는 질량을 특수 메가스트럭처로 옮기는 것은 사소한 일일 것입니다. 그렇게 함으로써 우리는 다양한 천체에서 채취한 원료 £giga_sr_bulk_matter£ §Y$giga_sr_bulk_matter$§!를 공급받아 '천체 전투함'을 '인쇄'할 수 있는 거대한 메가스트럭처를 만들 수 있습니다.\n\n이제 이 가능성을 완전히 받아들이고 무장 행성체의 대량 생산을 시작하여, 마침내 구식 함선들을 없애버릴 때입니다!\n\n이처럼 방대한 양의 물질을 손쉽게 조작하는 능력은 §R진정으로 엄청난§! 함선들의 조립을 위한 길을 열 수도 있습니다." # 11992481005851808135
-  ap_celestial_printing_effects: "\n§Y$giga_systemcraft$§! 조립에 진척을 이룰 수 있게 됩니다.\n\n이는 지구형 행성에서 £giga_sr_bulk_matter£ §Y행성 질량§!을 채취할 수 있게 해주는 강력한 기술에 접근을 허용할 것입니다. 그 후 £giga_sr_bulk_matter£ §Y행성 질량§!은 적합한 후보를 찾을 필요 없이 특수 거대 구조물을 사용하여 §Y공격 위성§!을 조립하는 데 사용될 수 있습니다.\n\n제작된 천체 전함은 약간 더 §R비싸고§! §R시간이 오래 걸리지만§!, §G15%§!의 추가 §Y선체 체력§!, §Y장갑 체력§!, §Y보호막 체력§!뿐만 아니라 §G10%§!의 추가 §Y함선 발사 속도§!를 가집니다.\n\n획득하는 연구 옵션:\n£engineering_research£§Y$giga_tech_planetary_matter_harvesting$§!\n£physics_research£§Y$giga_tech_lunar_assembly$§!\n£physics_research£§Y$giga_tech_war_system_1$§!" # 247848081695184645
-  giga_tech_planetary_matter_harvesting: "초고효율 지각 해체" # 14238760380642353376
-  giga_tech_planetary_matter_harvesting_desc: "우리만의 천상 전함을 조립하기 위해서는 막대한 양의 행성 원자재가 필요할 것입니다. 저렴하고 빠르게 건설된 궤도 중력 견인 광선을 사용하면, 문자 그대로 불과 몇 달 안에 행성 전체를 해체할 수 있습니다. 물질을 정제할 필요가 없기 때문에 과정이 극도로 빠르며, 행성은 단순히 소행성으로 분해되어 필요한 곳으로 운송됩니다." # 17336690626524329912
+  ap_celestial_printing_desc: "$giga_massive_planet_plural$와 $giga_planet_behemoth_plural$는 크기, 화력, 방어 능력 면에서 다른 모든 함선들을 훨씬 능가합니다. 강력한 타이탄, 콜로서스, 스타-이터조차도 단 하나의 $giga_massive_planet$와 비교하면 아무것도 아닙니다. 불행히도, 그들의 건조 방식의 특성상, 우리는 생산 능력에 있어 극도로 제한적입니다.\n\n하지만, 현재 우리의 기술 기반으로는 행성 하나의 질량을 특수 메가스트럭처로 이동시키는 것은 사소한 일입니다. 그렇게 함으로써, 우리는 다양한 천체에서 채취된 원시 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!를 공급받을 때, '천체 전함'을 '프린팅'할 수 있는 거대한 메가스트럭처를 만들 수 있습니다.\n\n이제 우리는 이 가능성을 완전히 받아들이고 무장 행성체들의 대량 생산을 시작하여, 마침내 구시대의 함선들을 폐기해야 할 때입니다!\n\n그토록 방대한 양의 물질을 손쉽게 조작하는 능력은 §R정말로 엄청난§! 함선들을 조립하는 길을 열어줄 수도 있습니다." # 5171367411205193900
+  ap_celestial_printing_effects: "\n우리가 §Y$giga_systemcraft$§! 조립 작업을 진행할 수 있게 해줍니다.\n\n행성에서 채취한 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!를 활용하여 적절한 후보를 찾을 필요 없이 특수 거대 구조물을 사용해 §Y공격 위성§!을 조립할 수 있습니다.\n\n조립된 천체 전함은 약간 더 §R비싸고§! §R시간이 더 많이 소요되지만§!, §Y선체 체력§!, §Y방어력§!, §Y보호막 체력§!이 §G15%§! 추가되며 §Y함선 화력§!이 §G10%§! 추가됩니다.\n\n획득한 연구 옵션:\n£physics_research£§Y$giga_tech_lunar_assembly$§!\n£physics_research£§Y$giga_tech_war_system_1$§!" # 7884650436826643746
+  giga_tech_planetary_matter_dumping: "초고효율 대지 투기" # 156712951127163887
+  giga_tech_planetary_matter_dumping_desc: "행성 표면에 막대한 양의 물질을 쏟아붓는 것은 그 표면에서 물질을 떼어내는 것보다 훨씬 쉽습니다. 하지만 이는 여전히 거대한 사업이며, 행성 하나에 필적하는 질량을 이동시키기 위해서는 극도로 원활한 물류 체계와 조율을 요구합니다." # 2960701441866376282
   giga_tech_lunar_assembly: "달 규모 제작 프로토콜" # 3895031031571819406
   giga_tech_lunar_assembly_desc: "4차원 공학과 나나이트 같은 다양한 방법을 활용함으로써, 대규모 행성 물질을 빠르고 효율적으로 우리가 원하는 형태로 재배열하는 것이 가능해집니다. 이는 사전에 충분한 행성 물질을 수확한다면, 자연 발생 소행성체를 건설 기반으로 삼을 필요 없이 우리만의 공격 위성을 효과적으로 창조할 수 있게 합니다." # 12594136320127518359
   allow_lunar_assembly: "§H거대 구조물 해금:§! 루나 매크로-패브리케이터" # 15698490830593262466
-  allow_lunar_assembly_desc: "야심찬 궤도형 거대 구조물로, 행성 물질과 합금을 가공된 공격 위성으로 변환합니다. 이 구조물은 작동을 위해 £giga_sr_bulk_matter£의 §Y행성 질량§!을 요구하며, 이는 §Y$giga_tech_planetary_matter_harvesting$§! 기술로 부여되는 결정을 사용하여 획득할 수 있습니다." # 5705907086037500367
-  decision_harvest_matter_for_planetary_printing: "£giga_sr_bulk_matter£ §Y행성 질량§ 채취!" # 14551683820604471671
+  allow_lunar_assembly_desc: "행성 물질과 합금을 가공된 공격 위성으로 변환하는 야심찬 궤도 거대 구조물입니다. 이 구조물은 작동하는 데 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!가 필요하며, 이는 §Y$giga_tech_planetary_matter_harvesting$§! 기술로 부여된 결정을 통해 획득할 수 있습니다." # 7500778548309935361
+  decision_harvest_matter_for_planetary_printing_system: "태양계를 해체하여 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§를 획득!" # 17463766779635948997
+  decision_harvest_matter_for_planetary_printing_system_desc: "이 성계의 행성들은 단순히 아무런 목적도 수행하지 않으며, 재료를 얻기 위해 완전히 해체하는 것이 더 유용할 것입니다." # 156512561757029868
+  cant_have_moon: "행성에는 위성이 없어야 합니다. 먼저 남아있는 위성을 모두 해체하십시오." # 17743283981968674365
+  decision_harvest_matter_for_planetary_printing: "£giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§를 위해 행성 해체!" # 14602651978969778274
   decision_harvest_matter_for_planetary_printing_desc: "일부 행성은 별다른 쓸모가 없습니다. 자원을 얻기 위해 완전히 해체하는 편이 더 효율적일 것입니다." # 8076399683553015661
-  decision_build_planetary_matter_harvester: "이는 이 무인성 지구형 행성 궤도에 §Y행성 물질 수확기§!의 건설을 시작할 것입니다.\n일단 완성되면, 이 강력한 거대 구조물은 §Y6개월§!마다 꾸준히 £giga_sr_bulk_matter£ §Y행성 질량§!을 수확하며, 그렇게 할 때마다 행성의 크기를 1씩 줄입니다. 행성의 크기가 1 미만으로 떨어지면, 행성은 §R사라집니다§!. 이 수확용 거대 구조물은 50 £energy£의 §Y월간 유지비§!가 발생합니다.\n\n§R일단 시작된 행성 물질 수확기는 멈출 수 없습니다!§!" # 8868393596435165547
+  decision_recover_bm_in_cache: "저장고에서 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§! 회수" # 5684435953427932732
+  decision_recover_bm_in_cache_tooltip: "이 저장소에는 §Y[PREV.solar_system.giga_system_bm_cache]§! £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!이(가) 들어 있습니다." # 11931398986360679959
+  decision_recover_bm_in_cache_desc: "이 저장고 안에 저장된 것을 채취하십시오." # 9369420411830534400
+  decision_build_planetary_matter_harvester: "이것은 이 천체의 궤도에 §Y행성 물질 수확기§! 건설을 시작합니다.\n\n완공되면, 이 강력한 거대 구조물은 §Y6개월§!마다 꾸준히 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§! 하나를 수확하며, 그렇게 할 때마다 행성의 크기를 1씩 줄입니다. 행성의 크기가 1 미만으로 떨어지면, 행성은 §R사라질§! 것입니다. 물질 수확 거대 구조물은 50 £energy£의 §Y매달 유지 비용§!이 발생합니다.\n\n§R행성 물질 수확기§!는 한번 시작되면 멈출 수 없습니다!§!" # 13320597701977814330
+  decision_dump_matter_on_planet: "폐기 §Y1§! £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§! 행성으로" # 17191362405841634026
+  decision_dump_matter_on_planet_desc: "우리는 이 행성에 잉여 질량을 투기함으로써 이 세계를 비교적 쉽게 확장할 수 있습니다. 이는 지질학적 불안정성을 초래할 수 있습니다." # 1508204644599860396
+  decision_dump_matter_on_planet_5: "행성에 §Y5§! £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§! 투하" # 9254679779560752001
+  decision_dump_matter_on_planet_5_desc: "우리는 이 행성에 잉여 질량을 투기함으로써 이 세계를 비교적 쉽게 확장할 수 있습니다. 이는 지질학적 불안정성을 초래할 수 있습니다." # 1508204644599860396
+  decision_dump_matter_on_gas_giant: "주입 §Y25§! £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§! 헬리오포밍용" # 16382515542106543850
+  decision_dump_matter_on_gas_giant_desc: "이 가스 행성에 막대한 양의 물질을 주입하면, 진정한 항성으로 점화될 수 있을 만큼 충분한 질량을 갖추도록 만들 수 있습니다." # 12177636016910321898
+  decision_dump_matter_on_gas_giant_tooltip: "저희는 §Y준성 압축기§!를 사용하여 이 §Y가스 행성§!을 §Y항성§!으로 점화하여, 에너지를 생성하고 잠재적으로 그 위성들을 거주 가능하게 만들 수 있을 것입니다." # 449016072181695694
+  decision_dump_matter_on_planet_tooltip: "이 방법으로는 크기를 §Y50§!까지 늘릴 수 있습니다. 그 이상이 되면 너무 불안정하고 거대해져서 더 이상 활용할 수 없게 됩니다." # 6012831629810288830
   giga_printer.1001.name: "[planet_being_harvested_for_printing.GetName] 해체 중" # 17213040528657306110
-  giga_printer.1001.desc: "[planet_being_harvested_for_printing.GetName] 주위에 §Y행성 물질 채취기§!가 완성되었습니다. 저렴하지만 강력한 중력 빔이 이제 행성을 빠르게 파괴하고 해체하는 데 사용되며, 이는 §Y6개월§!마다 £giga_sr_bulk_matter£ §Y행성 질량§! 1개를 산출하고 행성 크기를 1 감소시킬 것입니다.\n\n행성 크기가 0에 도달하면 행성은 사라지고 §Y행성 물질 채취기§!는 해체될 것입니다." # 3504479065797601598
+  giga_printer.1001.desc: "§Y행성 물질 채집기§!가 §Y[planet_being_harvested_for_printing.GetName]§! 주변에 완공되었습니다. 저렴하지만 강력한 중력 광선이 사용되어 행성을 빠르게 해체하고 분해하고 있으며, 이로써 6개월마다 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!를 생산하고 행성의 크기를 1 감소시킵니다.\n\n행성의 크기가 0이 되면 행성은 사라지고 §Y행성 물질 채집기§!는 해체될 것입니다." # 17642851628430324649
   giga_printer.1001.a: "즐겁군!" # 6115787588398213199
-  giga_printer.1001.a.tooltip: "이제 우리는 매 §Y6개월§마다 1개의 £giga_sr_bulk_matter£ §Y행성 질량§을 받게 될 것입니다!" # 13664070220494346843
-  moon_printer_orbital_mass_harvester_0: "행성 물질 채취기" # 17509320447957450526
+  giga_printer.1001.a.tooltip: "우리는 이제 §Y6개월§마다 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!를 1개 받게 될 것입니다." # 7548137274876823154
+  moon_printer_orbital_mass_harvester_0: "행성 물질 수확기 부지" # 9177040559289491139
   moon_printer_orbital_mass_harvester_0_DESC: "지구형 행성 주변에 행성 물질 수집기가 건설 중입니다." # 8263102874247531825
-  moon_printer_orbital_mass_harvester_1: "능동형 행성 물질 채집기" # 16302719658821716176
-  moon_printer_orbital_mass_harvester_1_DESC: "이 궤도 장치는 그 아래에 위치한 불운한 암석 천체를 꾸준히 해체하고 있습니다.\n§Y6개월§!마다 £giga_sr_bulk_matter£ §Y행성 질량§! 하나를 산출합니다." # 3827232441513844038
+  moon_printer_orbital_mass_harvester_1: "행성 물질 채취기" # 17509320447957450526
+  moon_printer_orbital_mass_harvester_1_DESC: "이 궤도 장치는 그 아래에 위치한 불운한 천체를 꾸준히 해체하며, §Y6개월§!마다 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§! 하나를 생산합니다." # 16615003403033000086
+  MESSAGE_GIGA_PLANET_DISMANTLE_TITLE: "행성 해체 업데이트" # 7171942785137962253
+  giga_planet_dismantle_start: "§H[planet_being_harvested_for_printing.GetName]§!이 현재 해체되고 있으며, 6개월마다 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!를 산출하고 있습니다." # 3496307241416951477
+  giga_planet_dismantle_end: "§H[planet_being_harvested_depleted.GetName]§!는 완전히 해체되었습니다. §Y500§! £alloys£가 해체기에서 회수되었습니다." # 15852019276588081271
+  giga_printer.1005.name: "[From.solar_system.GetName] 해체" # 1218451235774570056
+  giga_printer.1005.desc: "[From.solar_system.GetName]을(를) 해체하는 데 필요한 §Y행성 물질 수확기§!를 건설하는 데 §Y[ROOT.giga_system_dismantle_cost_alloys]§! £alloys£와 §Y[ROOT.giga_system_dismantle_cost_energy]§! £energy£가 소모될 것입니다. 진행하시겠습니까?" # 17468770188014096158
+  giga_printer.1005.a: "물론입니다." # 15688789531917474180
+  giga_printer.1005.a.tooltip: "§Y행성 물질 수확기§!가 §Y[From.solar_system.GetName]§! 내 모든 유효한 해체 대상 주변에 건설되기 시작할 것입니다." # 4503039289854264484
+  giga_printer.1005.b: "다시 생각해보니, 잊어주십시오." # 3446946586403236877
   lunar_macroreplicator_0: "$gc_giga$달 매크로 제작기 건설 현장" # 3714537454159409176
   lunar_macroreplicator_0_DESC: "행성 원자재와 합금으로 공격 위성 하나를 통째로 건조할 수 있는 거대한 조립 시설의 건설 현장." # 2434384504880370769
-  lunar_macroreplicator_0_MEGASTRUCTURE_DETAILS: "$giga_list_category_gigastructure$ - $giga_list_category_celestial_warship$\n£giga_sr_bulk_matter£ §Y행성 질량§! 및 £alloys£ §Y합금§!을 사용하여 §Y공격 위성§!을 백지에서 제작합니다.\n§L원시 질량에서 통째로 하나의 공격 위성을 말 그대로 \"인쇄\"해내는 거대한 궤도 조립 야드입니다.§!" # 13542592029062254102
+  lunar_macroreplicator_0_MEGASTRUCTURE_DETAILS: "$giga_list_category_gigastructure$ - $giga_list_category_celestial_warship$\n£giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§! 및 £alloys£ §Y합금§!을(를) 사용하여 §Y공격 달§!을(를) 처음부터 제작합니다.\n§L원시 질량으로부터 전체 공격 달을 말 그대로 \"찍어내는\" 거대한 궤도 조립 시설입니다.§!" # 14407398757022729143
   lunar_macroreplicator_0_real: "$lunar_macroreplicator_0$" # 17091683799237280221
   lunar_macroreplicator_0_real_DESC: "$lunar_macroreplicator_0_DESC$" # 5298040460462003380
   lunar_macroreplicator_1: "달 거대 물질 조립기" # 11068615579172968357
@@ -9466,12 +9568,12 @@
   lunar_macroreplicator_ready: "$lunar_macroreplicator_2$" # 14817434660381670530
   lunar_macroreplicator_ready_DESC: "$lunar_macroreplicator_2_DESC$" # 15816281234993429963
   lunar_macroreplicator_make_moon: "공격용 달 제작" # 12499847742420572550
-  lunar_macroreplicator_make_moon_desc: "§Y행성 질량§! 및 §Y합금§!을 사용하여 기존 위성이 필요 없이 완전 기능의 §Y공격 문§!을 생성합니다." # 10717074824071709628
+  lunar_macroreplicator_make_moon_desc: "§H$giga_sr_bulk_matter$§!와 §YAlloys§!를 사용하여 기존의 달 없이 완전한 기능을 갖춘 §YAttack Moon§!을(를) 만드십시오." # 7133335957385385289
   lunar_macroreplicator_make_moon_DESC: "정규 공격 위성에 비해 §Y선체 내구도§!, §Y장갑 내구도§!, §Y보호막 내구도§!가 §G15%§! 추가되고, §YShip Fire Rate§!도 §G10%§! 추가되는 운용 가능한 인공 공격 위성." # 2129245064302724599
   lunar_macroreplicator_make_moon_fake: "$lunar_macroreplicator_make_moon$" # 7689436616739201178
   lunar_macroreplicator_make_moon_fake_DESC: "$lunar_macroreplicator_make_moon_DESC$" # 5964798843840556423
   giga_printer.1000.name: "공격 위성 건조 완료!" # 17999793813355592450
-  giga_printer.1000.desc: "§Y[from.GetName]§! 위 궤도에 위치한 달 거대 조립기가 원시 §Y행성 질량§!과 다량의 합금을 이용하여 완전히 기능하는 §Y공격 위성§! 조립에 성공했음을 보고했습니다!\n\n우리의 설계에 따라 건조된 이 천체 전함은 길이는 수백 킬로미터에 달하며, 거대 구조물에서 방출되어 이제 우리 성간 함대의 전력을 증강할 준비가 되었습니다.\n\n충분한 행성 물질과 합금을 보유하고 있다면, 우리는 즉시 또 다른 하나를 건설할 수 있습니다." # 13431490909474835222
+  giga_printer.1000.desc: "§Y[from.GetName]§! 상공의 달 거대 조립기에서 완전히 작동하는 §Y공격 위성§!이 원시 §H$giga_sr_bulk_matter$§!와 대량의 합금을 통해 성공적으로 조립되었음을 보고합니다!\n\n저희의 설계에 따라 건조된, 수백 킬로미터 길이에 달하는 이 천체 전함은 이후 거대 구조물에서 방출되었으며, 이제 저희 성간 함대에 합류할 준비를 마쳤습니다.\n\n충분한 행성 물질과 합금을 보유하고 있다면, 저희는 즉시 다른 하나를 건조할 수 있습니다." # 4005914096141558575
   giga_printer.1000.a: "장대하군!" # 9781679326480795548
   giga_printer.1000.a.tooltip: "§Y공격 위성§!이(가) 우리 함대에 추가됩니다.\n제작 과정에서, §Y선체 내구도§!, §Y장갑 내구도§!, §Y방어막 내구도§!가 §G15%§! 추가되며, §Y함선 발사 속도§!가 §G10%§! 추가되는 효과를 받습니다." # 13724910682323189805
   printed_celestial_warship: "인공 천상의 전함" # 13669308487563760511
@@ -9481,7 +9583,7 @@
   mod_shipsize_giga_massive_planet_hull_mult: "공격 위성 선체 내구도" # 9460956302105666465
   mod_shipsize_giga_planet_behemoth_hull_mult: "베헤모스 행성함 선체 내구도" # 10732899798145290649
   giga_printer.1002.name: "[planet_being_harvested_depleted.GetName] 해체됨" # 14825304221424487625
-  giga_printer.1002.desc: "§Y행성 물질 수확기§!가 [planet_being_harvested_depleted.GetName]을(를) 완전히 해체했습니다.\n\n행성은 £giga_sr_bulk_matter£ §Y행성 질량§!으로 완전히 전환되었으며, 초구조물은 해체되었습니다.\n\n구조물에서 §Y500§! £alloys£를 회수했습니다." # 12667661655816066529
+  giga_printer.1002.desc: "§Y행성 물질 채취기§!가 [planet_being_harvested_depleted.GetName]을(를) 완전히 해체했습니다.\n\n해당 행성은 전적으로 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!로 전환되었으며, 거대 구조물은 해체되었습니다.\n\n저희는 해당 구조물에서 §Y500§! £alloys£를 회수했습니다." # 479198194189575447
   giga_printer.1002.a: "훌륭하군!" # 4205353275372794963
   giga_printer.1002.a.tooltip: "[planet_being_harvested_depleted.GetName] 사라졌습니다." # 8625450168117443599
   giga_printer.1010.name: "달 매크로 제작기 건설 부지 건설 완료!" # 1731270271147931926
@@ -9491,10 +9593,10 @@
   giga_printer.1011.desc: "§Y[giga_system.GetName]§! 성계에 있는 우리의 §YLunar Macro-Fabricator§! 건설을 위한 또 하나의 단계가 완료되었습니다.\n거대한 물질 조립기가 현재 행성 궤도에 배치되었으며, 이는 공격 문을 조립하는 데 필요한 막대한 양의 행성 물질을 수신하고, 정리하며, 재배열하는 데 사용될 것입니다.\n\n이제 마지막 단계는 물질 조립기 앞에 실제 조립소를 건설하는 것입니다. 이 조립소는 물질 조립기에 의해 전송된 앞서 언급된 행성 물질을 합금과 함께 활용하여 공격 문을 제작할 것입니다." # 10789167334792261559
   giga_printer.1011.a: "훌륭합니다." # 13357587260733090656
   giga_printer.1012.name: "달 매크로 패브리케이터 건설 완료!" # 17671791478879441033
-  giga_printer.1012.desc: "§Y달 거대 조립기§!가 §Y[giga_system.GetName]§! 성계에서 완성되었습니다! 이 경이로운 기술은 막대한 양의 원시 행성 물질과 합금을 완전한 기능을 갖춘 공격 위성으로 신속하게 재배열할 수 있습니다.\n\n이 위성들은 더욱 강력할 뿐만 아니라, 이 거대 구조물은 적절한 후보를 찾을 걱정 없이 그것들을 조립할 수 있게 해줄 것입니다.\n\n필요한 자원이 있다면 언제든지 거대 구조물을 업그레이드하여 공격 위성 건설을 시작할 수 있습니다. 하지만 우리는 결정을 통해 지구형 행성에서 £giga_sr_bulk_matter£ §Y행성 질량§!을 수확해야 할 것입니다." # 4697083938504825597
+  giga_printer.1012.desc: "§Y[giga_system.GetName]§! 성계에서 §YLunar Macro-Fabricator§!가 완성되었습니다! 이 경이로운 기술은 엄청난 양의 행성 원료 물질과 합금을 완전한 기능을 갖춘 공격 달로 신속하게 재배열할 수 있습니다.\n\n이 달들은 더욱 강력할 뿐만 아니라, 이 거대 구조물은 적절한 후보를 찾는 것에 대해 걱정할 필요 없이 그것들을 조립할 수 있게 해줄 것입니다.\n\n필요한 자원이 있을 때마다 거대 구조물을 업그레이드하여 공격 달의 건설을 시작할 수 있습니다. 하지만 우리는 결정을 사용하여 지구형 행성에서 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!를 수확해야 할 것입니다." # 3286367696096740824
   giga_printer.1012.a: "훌륭하군." # 13528797227097630973
   giga_printer.1015.name: "천상의 군함 조립소" # 16262838429463459603
-  giga_printer.1015.desc: "처음부터 완전한 천상 전함을 조립하는 것은 쉬운 일이 아니며, 이 함선들을 건조하려면 우리 영토 내의 모든 무인 암석 행성에서 채취해야 할 막대한 양의 행성 질량이 필요할 것입니다.\n\n그렇게 하려면 우리는 먼저 §Y$giga_tech_planetary_matter_harvesting$§! 기술을 연구해야 할 것입니다. 이 기술은 모든 암석 행성에서 시행할 수 있는 §Y결정§!에 대한 접근 권한을 부여할 것입니다. 해당 결정은 우리에게 £giga_sr_bulk_matter£의 §Y행성 질량§!을 제공할 것입니다. 이 질량은 나중에 §Y$giga_tech_lunar_assembly$§! 기술로 잠금 해제되는 실제 조립 메가구조물에 투입될 수 있습니다.\n\n이 모든 과정이 자연 후보 행성에 공격 위성을 건설하는 것보다 더 비싸겠지만, 제작된 천상 전함은 §G15%§!의 추가 §Y선체 체력§!, §Y방어력 체력§!, 그리고 §Y방어막 체력§!의 이점을 얻으며, §G10%§!의 추가 §Y함선 화력§!도 얻습니다.\n\n이는 효과적으로 우리 영토 내 후보 행성의 수와 관계없이 천상 전함을 건조할 수 있게 해줄 것입니다. 하지만 상당한 수의 전함을 건조하고 싶다면 여전히 막대한 양의 쓸모없는 암석 천체를 해체해야 할 것입니다." # 4916880290499600240
+  giga_printer.1015.desc: "#bold 천상의 전함# 전체를 처음부터 조립하는 것은 결코 쉬운 일이 아니며, 이 함선을 건조하려면 우리 영토 내의 모든 무인 암석 행성에서 채취해야 할 막대한 양의 행성 질량이 필요할 것입니다.\n\n그렇게 하려면, 우리는 먼저 §Y$giga_tech_planetary_matter_harvesting$§! 기술을 연구해야 하며, 이 기술은 모든 암석 행성에서 시행할 수 있는 §Y결정§!에 대한 접근 권한을 부여할 것입니다. 이 결정은 우리에게 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!를 제공할 것이며, 이 질량은 나중에 §Y$giga_tech_lunar_assembly$§! 기술로 잠금 해제되는 실제 조립 거대구조물에 공급될 수 있습니다.\n\n전체 과정이 자연적으로 적합한 후보에 공격 위성을 건설하는 것보다 더 많은 비용이 들겠지만, 제작된 천상의 전함은 §G15%§! 추가적인 §Y선체 내구도§!, §Y장갑 내구도§!, §Y방어막 내구도§!의 이점을 얻을 뿐만 아니라 §G10%§! 추가적인 §Y함선 공격 속도§!의 이점도 얻습니다.\n\n이는 효과적으로 우리 영토 내 후보지의 수에 관계없이 천상의 전함을 건설할 수 있게 해줄 것이지만, 상당한 수의 전함을 건설하려면 여전히 많은 양의 쓸모없는 암석 천체를 해체해야 할 것입니다." # 10863019121119449693
   giga_printer.1015.a: "알겠습니다." # 10286267384228979576
   ap_planetcraft_primacy: "행성급 병기 우위" # 8993024085960100868
   ap_planetcraft_primacy_desc: "우리가 천체 전함의 인공 조립 기술을 숙달했으니, 왜 계속해서 은하의 다른 이들이 사용하는 터무니없이 작고 약한 전함에 신경 써야 합니까? 대신, 이제 우리는 무장 천체로 구성된 거대한 대함대를 조립하는 데 전적으로 집중하여, 은하 자체가 우리를 위해 싸우게 할 것입니다! 어떤 이들은 이를 정신 나간 짓 또는 광기라고 말할지 모르지만, 우리는 이를 야망이라고 부릅니다." # 4238577785532919787
@@ -11167,10 +11269,10 @@
   giga_tech_planet_assembly: "행성 규모 제조 규약" # 8647200420317905468
   giga_tech_planet_assembly_desc: "달 거대-조립 방식의 대규모 확대는 단순한 공격 위성 대신 거대 행성함 전체를 조립할 수 있게 해줄 수 있습니다. 터무니없어 보일 수도 있지만, 사전에 충분한 행성 물질을 수확한다면 어쩌면 가능할지도 모릅니다." # 11271167953120716779
   allow_planet_assembly: "§H거대 구조물 잠금 해제:§! 베히모스 조립 시설" # 15687448333515844675
-  allow_planet_assembly_desc: "행성 물질과 합금을 가공하여 거대 행성함을 제작하는 달 거대 조립기의 확장형 버전입니다. 이 구조물은 작동하기 위해 £giga_sr_bulk_matter£의 §Y행성 질량§!을 필요로 하며, 이는 §Y$giga_tech_planetary_matter_harvesting$§! 기술을 통해 부여되는 결정을 사용하여 획득할 수 있습니다." # 9189785757176917751
+  allow_planet_assembly_desc: "루나 매크로-패브리케이터의 확장 버전으로, 행성 물질과 합금을 조립된 거대 행성함으로 변환합니다. 이 구조물은 작동하는 데 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!를 필요로 하며, 이는 §Y$giga_tech_planetary_matter_harvesting$§! 기술에 의해 부여되는 결정을 통해 획득할 수 있습니다." # 11781544702782138658
   planetcraft_printer_0: "$gc_giga$거신 조립 시설 건설 현장" # 15479187752940753219
   planetcraft_printer_0_DESC: "원시 행성 물질과 합금으로 완전한 베히모스 행성함 전체를 건조할 수 있는 거대한 조립 시설의 건설 현장." # 5623129765729589624
-  planetcraft_printer_0_MEGASTRUCTURE_DETAILS: "$giga_list_category_gigastructure$ - $giga_list_category_celestial_warship$\n£giga_sr_bulk_matter£ §Y행성 질량§!과 £alloys£ §Y합금§!을 소모하여 §Y거대 행성함§!을 무에서 창조합니다.\n§L말 그대로 달 거대 조립기의 확장형으로, 이 강력한 기계는 완전한 거대 행성함을 조립할 수 있습니다.§!" # 2875945172052178950
+  planetcraft_printer_0_MEGASTRUCTURE_DETAILS: "$giga_list_category_gigastructure$ - $giga_list_category_celestial_warship$\n£giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§! 및 £alloys£ §Y합금§!을(를) 사용하여 §Y거대 행성함§!을(를) 처음부터 제작합니다.\n§L말 그대로 달 거대 제조기(Lunar Macro-Fabricator)의 확장형인 이 강력한 기계는 완전한 거대 행성함을 조립할 수 있습니다.§!" # 9927577285621877936
   planetcraft_printer_0_real: "$planetcraft_printer_0$" # 14876200975830304961
   planetcraft_printer_0_real_DESC: "$planetcraft_printer_0_DESC$" # 2046824121284455627
   planetcraft_printer_1: "베히모스 조립 시설 지원" # 10324746440764763874
@@ -11201,10 +11303,10 @@
   giga_printer.2012.desc: "§Y[giga_system.GetName]§! 성계에 있는 우리의 §YBehemoth Assembly Plant§! 건설이 꾸준히 진행되고 있습니다.\n\n건설 중인 구조물 양쪽에 있는 두 개의 거대한 고리형 구조물은 미완성된 거신 행성함을 안정화시켜, 유입되는 모든 행성 물질이 정확히 필요한 곳에 안착하도록 보장할 것입니다. 그것들은 또한 구조물 인력의 상당수와 전반적인 성능을 향상시키기 위한 다양한 부대 시설들을 수용할 것입니다." # 11569892168941020031
   giga_printer.2012.a: "즐겁군!" # 6115787588398213199
   giga_printer.2013.name: "베히모스 조립 공장 건설 완료!" # 14371417443072089892
-  giga_printer.2013.desc: "마침내 §Y[giga_system.GetName]§! 성계에 §Y거대괴수 조립 공장§!이 완성되었습니다! 달 거대-제작소와 마찬가지로, 이 경이로운 기술적 걸작은 엄청난 양의 원시 행성 물질과 합금을 완전한 기능의 거대괴수 행성 함선으로 신속하게 재배열할 수 있습니다.\n\n물론 이 행성 함선들은 \"자연적인\" 것들보다 더 강력할 것이지만, 거대괴수 조립 공장을 통해 적절한 후보를 찾는 것에 대해 걱정할 필요 없이 그것들을 조립할 수 있게 됩니다. 비록 시간이 더 오래 걸리고 전체적으로 더 비쌀 가능성이 있지만 말입니다.\n\n필요한 자원을 확보하는 대로 거대구조물을 업그레이드하여 거대괴수 행성 함선 건설을 시작할 수 있습니다. 하지만 우리는 결정을 통해 지구형 행성에서 £giga_sr_bulk_matter£ §Y행성 질량§!을 채집해야 할 것입니다." # 4370706798267543645
+  giga_printer.2013.desc: "마침내, §Y[giga_system.GetName]§! 성계에 §Y거신 조립 공장§!이(가) 완공되었습니다! 달 거대 조립기와 마찬가지로, 이 경이로운 기술 구조물은 막대한 양의 미가공 행성 물질과 합금을 신속하게 재배열하여 완전한 기능을 갖춘 거신 행성 구조함으로 만들 수 있습니다.\n\n물론, 이 행성 구조함들은 '자연적인' 행성 구조함보다 강력할 것입니다. 그러나 거신 조립 공장은 비록 더 오랜 시간이 걸리고 전반적으로 더 비쌀 가능성이 있지만, 우리가 적절한 후보를 찾을 걱정 없이 그것들을 조립할 수 있게 해줄 것입니다.\n\n거신 행성 구조함의 건설은 필요한 자원이 갖춰지는 언제든지 이 거대 구조물을 업그레이드함으로써 시작될 수 있습니다. 그러나 우리는 결정을 사용하여 지구형 행성에서 £giga_sr_bulk_matter£ §H$giga_sr_bulk_matter$§!을(를) 수확해야 할 것입니다." # 2790029994267827606
   giga_printer.2013.a: "훌륭하군!" # 16848862372218168470
   giga_printer.2000.name: "베헤모스 플래닛크래프트 제작 완료!" # 500997753650918003
-  giga_printer.2000.desc: "§Y[planet_printer_location.GetName]§! 상공의 베헤모스 조립 시설에서 원시 §Y행성 질량§!과 다량의 합금으로 완전히 기능하는 §Y베헤모스 행성체함§!의 조립을 성공적으로 완료했다고 보고했습니다!\n\n우리의 설계에 따라 구축된 이 거대한 천체 전함은 길이가 수만 킬로미터를 넘으며, 이후 메가스트럭처에서 방출되어 이제 우리 성간 함대의 선두에 설 준비가 되었습니다.\n\n우리는 충분한 행성 물질과 합금을 보유하고 있다면 즉시 다음 행성체함 건조를 시작할 수 있습니다." # 7745011198917374473
+  giga_printer.2000.desc: "§Y[planet_printer_location.GetName]§! 상공의 베헤모스 조립 시설에서 순수한 §H$giga_sr_bulk_matter$§!와 대량의 합금으로 완전한 기능의 §Y베헤모스 플래닛크래프트§!를 성공적으로 조립 완료했음을 보고합니다!\n\n우리 설계에 따라 건조된, 길이가 수만 킬로미터에 달하는 이 거대한 천체 전함은 메가스트럭처에서 출격했으며, 이제 우리 성간 함대들의 선봉에 설 준비가 되었습니다.\n\n충분한 행성 물질과 합금을 보유하고 있다면, 우리는 즉시 다른 하나를 건설하기 시작할 수 있습니다." # 16121000897424516444
   giga_printer.2000.a: "장대하군!" # 9781679326480795548
   giga_printer.2000.a.tooltip: "§Y베히모스 행성함§!이 우리 함대에 추가되었습니다.\n제작되었기 때문에, 추가 §G15%§! §Y선체 내구도§!, §Y장갑 내구도§!, §Y보호막 내구도§!와 추가 §G10%§! §Y함선 공격 속도§!가 적용됩니다." # 6972820753432044511
   giga_katzen.8021.name: "[ROOT.GetName], 로퀄리안 공화국에 플루시온 반환!" # 17136459651717658003
@@ -12291,9 +12393,9 @@
   building_katzen_foundry: "카첸 메가분주소" # 3648308851872415072
   building_katzen_foundry_desc: "캣츠 메가주조는 사용 가능한 합금을 대량 생산하지만, 불행히도 그 행성의 기후를 손상시키는 부작용이 있습니다." # 5097365206890317533
   building_katzen_theater: "카첸 엔터테인먼트 컴플렉스" # 10621867211888959297
-  building_katzen_theater_desc: "이 광대한 복합 시설들은 시민들에게 캣츠가 승인한 대량의 대중 매체를 제공하며, 이는 주로 전쟁과 군국주의에 초점을 맞춥니다." # 14063187705260426560
+  building_katzen_theater_desc: "이 거대한 복합 단지들은 시민들에게 주로 전쟁과 군국주의에 초점을 맞춘 대량의 카첸 승인 대중 매체를 제공합니다." # 11879086903900981131
   building_katzen_science: "카젠 연구소" # 9902086631077999111
-  building_katzen_science_desc: "캣츠 과학의 경계를 더욱 넓히기 위해 밤낮으로 연구하는 거대한 시설입니다. (은하계에서 최고라는 소문이 자자합니다.) 하지만 그곳에서 수행되는 실험의 성격은 때때로… 논란의 여지가 있습니다." # 17613896515966034957
+  building_katzen_science_desc: "연구원들이 (은하계 '최고'라고 알려진) 카첸 과학의 지평을 끊임없이 확장하기 위해 부단히 노력하는 대규모 시설입니다. 하지만 그곳에서 수행되는 실험의 본질은 때때로 다소... 논란의 여지가 있습니다. 실험은 종종 자발적이지 않은 피실험자들을 대상으로 진행되며, 이들은 '구제 불능'으로 판단된 범죄자들과 사형수들로 이루어져 있습니다." # 2863436112542400489
   katzenartig_chain_3: "카츠엔 경제 상태" # 9029232110131388300
   katzenartig_chain_3_desc: "§PKatzen 자원§!는 카첸이 사용하는 §Y합금§!, §Y광물§!, §YE너지§!, 그리고 §Y소비재§!의 융합체입니다. 새로운 함선 건조와 그들의 §Y전쟁대장간§! 가동에 필요합니다.\n\n월간 정규 자원과 월간 §PKatzen 자원§! 간의 전환 비율은 다음과 같습니다.\n\n§Y50§! £에너지£ = §Y1§! §PKatzen 자원§!\n§Y20§! £광물£ = §Y1§! §PKatzen 자원§!\n§Y1§! £합금£ = §Y1§! §PKatzen 자원§!\n§Y5§! £소비재£ = §Y1§! §PKatzen 자원§!\n§Y5§! £희귀결정체£/£휘발성입자£/£이국적기체£ = §Y1§! §PKatzen 자원§!\n\n\n현재 §G수입§!: §Y[flusion_primitives_country.kaiser_resource_income]§! §PKatzen 자원§!\n현재 §R지출§!: §Y[flusion_primitives_country.kaiser_resource_spending]§! §PKatzen 자원§!\n\n현재 §H잔고§!: §Y[flusion_primitives_country.kaiser_resource_balance]§! §PKatzen 자원§!\n현재 §B저장량§!: §Y[flusion_primitives_country.kaiser_resource_stockpile]§! §PKatzen 자원§!" # 6986224244178915528
   katzenartig_chain_4: "카첸 연구 노력" # 8400754981546365028

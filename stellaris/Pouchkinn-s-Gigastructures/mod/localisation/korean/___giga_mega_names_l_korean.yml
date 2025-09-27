@@ -111,16 +111,8 @@
   alderson_disk_2: "올더슨 슬라이스 프레임" # 18359980670708246298
   alderson_disk_2_DESC: "완전한 올더슨 슬라이스를 건설하는 데 사용될 거대한 골조입니다." # 3409600490501558487
   alderson_disk_2_MEGASTRUCTURE_DETAILS: "$alderson_disk_2_DESC$" # 10280348919037405446
-  alderson_disk_2_ecu: "아코 월드 알더슨" # 6281811322479091947
-  alderson_disk_2_ecu_DESC: "이 항성계의 가장자리까지 뻗어 있는, $name_alderson$의 거대한 조각입니다. 하나의 거대한 도시처럼 기능하며, 엄청난 양의 산업과 인구를 수용할 수 있습니다.\n\n£consumer_goods£ §Y소비재§!, £alloys£ §Y합금§!, £amenities£ §Y편의§!를 생성하는 구역을 특징으로 합니다." # 14933262918763118447
-  alderson_disk_2_hive: "알더슨 군집체" # 4920040731499038749
-  alderson_disk_2_hive_DESC: "이 태양계의 가장자리까지 쭉 뻗어 있는, $name_alderson$의 거대한 조각. 하나의 거대한 도시로 기능하며, 막대한 양의 산업 시설과 드론을 수용할 수 있습니다.\n\n£minerals£ §YMinerals§!와 £alloys£ §YAlloys§!를 생산하는 구역이 있습니다." # 4256001121097475463
-  alderson_disk_2_machine: "기계 올더슨" # 15680353925401015359
-  alderson_disk_2_machine_DESC: "거대한 $name_alderson$ 조각이 이 태양계의 가장자리까지 뻗어 있습니다. 이것은 하나의 거대한 도시 기능을 하며, 막대한 양의 산업과 인구를 수용할 수 있습니다.\n\n£minerals£ §Y광물§!과 £alloys£ §Y합금§!을 생산하기 위한 지구가 특징입니다." # 18444707171229159930
-  alderson_disk_2_gaia: "가이아 올더슨 조각" # 928658679364662829
-  alderson_disk_2_gaia_DESC: "이 항성계의 가장자리까지 길게 뻗어 있는, 거대한 $name_alderson$의 조각입니다. 표면에 엄청난 수의 사람들을 수용 가능합니다.\n\n£energy£ §YEnergy§!, £food£ §YFood§!, £minerals£ §YMinerals§!를 생산하는 특구를 특징으로 합니다!" # 2055998056857697461
-  alderson_disk_2_pc: "알더슨 컴퓨팅 콤플렉스" # 13917838132356641887
-  alderson_disk_2_pc_DESC: "이 항성계의 가장자리까지 쭉 뻗어 있는, $name_alderson$의 거대한 조각입니다. 헤아릴 수 없는 양의 처리 능력을 보유하고 있습니다.\n\n특수 지구를 보유하여 £physics£, £society£, £engineering£ §YResearch§!와 £unity£ §Yunity§!를 생산할 수 있습니다!" # 6728990344512068
+  alderson_disk_2_gaia: "올더슨 슬라이스" # 15114576440660485445
+  alderson_disk_2_gaia_DESC: "$name_alderson$의 거대한 조각이 이 태양계의 가장자리까지 길게 뻗어 있습니다. 그 표면에는 헤아릴 수 없는 수의 인구를 수용할 수 있습니다." # 15728314407665547954
   alderson_disk_ruined_left: "파괴된 $name_alderson$ 하이퍼 세그먼트" # 2245726903677077777
   alderson_disk_ruined_left_DESC: "이 거대한 구조물을 건설한 주체가 누구인지, 무엇인지는 알려지지 않았습니다. 이 부분은 부분적으로 완성되었으며, 세월이 흐르면서 대대적인 수리가 필요하게 되었습니다." # 9420376803059613208
   alderson_disk_ruined_left_MEGASTRUCTURE_DETAILS: "$alderson_disk_ruined_left_DESC$" # 1125542643700057745
@@ -187,6 +179,18 @@
   kugelblitz_ruined_MEGASTRUCTURE_DETAILS: "$kugelblitz_ruined_DESC$" # 8826410262512702406
   kugelblitz_restored: "$name_kugelblitz$" # 13532564489665137773
   kugelblitz_restored_DESC: "$kugelblitz_2_DESC$" # 2347166031610004146
+  giga_tech_planetary_seeder_nexus: "대규모 극한생물 유지" # 18301180384197392263
+  giga_tech_planetary_seeder_nexus_desc: "고온 및 저온 불모 행성들은 종종 생명의 기본적인 구성 요소들을 가지고 있지만, 단지 적절한 배열로 되어 있지 않을 뿐입니다. 그러나 우주 심해에서 번성하는 쿠톨로이드와 아메바의 발견으로, 이제 생명 없는 행성에 투하되면 이러한 구성 요소들을 축적하여 수확 및 섭취에 적합한 다양한 물질로 재배열할 수 있는 맞춤형 인공 '생명체'를 창조할 가능성이 생겼습니다. 이것들이 하는 일은 흩어진 분자들을 뒤섞고 재배열하여 다양한 식용 화합물로 만드는 것뿐이므로, 이들은 정기적으로 보충되어야 할 것이며 적절한 '생물권'을 구성하지는 않을 것입니다. 하지만 우리 영양 산업에 유용한 재료 공급원이 될 수 있습니다." # 13262271302006311165
+  planetary_seeder_nexus_0: "$gc_kilo$$name_planetary_seeder_nexus$: 유기 생체 센서" # 13114346048772468357
+  planetary_seeder_nexus_0_DESC: "이 부지는 $name_planetary_seeder_nexus$의 건설 기지로 사용될 것입니다. 이는 생명 없는 행성들에서 발견되는 흩어진 유기 화합물을 식량으로 재처리할 수 있는 다양한 유사 생물 자동 기계들을 생산하는 궤도 생체공학 시설입니다. 대형 지질 탐사 배열이 인근 행성들을 끊임없이 스캔하고 탐사정을 배치하여 고도로 농축된 처리 가능 유기 화합물의 위치를 확인합니다." # 7293247659210730347
+  planetary_seeder_nexus_0_MEGASTRUCTURE_DETAILS: "$giga_list_category_kilostructure$ - $giga_list_category_basic_resource_production$\n성계 행성들에 £food£ §Y식량§! 매장지를 생성합니다.\n§L가스 행성 궤도에 건설된 기지는 유기 화합물을 식용 물질로 재처리하는 생체 자동기계를 생산합니다.§!" # 8297156537843670362
+  planetary_seeder_nexus_0_CONSTRUCTION_INFO_DELAYED: "$giga_list_additional_data$ - $planetary_seeder_nexus_1_mod_tooltip$" # 8981484989151742569
+  planetary_seeder_nexus_1: "$name_planetary_seeder_nexus$: 생체 제조소" # 1056484697022024469
+  planetary_seeder_nexus_1_DESC: "지하 대양, 암석 지각, 그리고 기체 대기에서 번성할 수 있는, 영양분 풍부한 식물성 플랑크톤 유사 생명체가 막대한 양으로 생산되어 이 성계 전역으로 퍼져나갑니다." # 17018454153345592109
+  planetary_seeder_nexus_2: "$name_planetary_seeder_nexus$: 효소 식물" # 1917086064464243833
+  planetary_seeder_nexus_2_DESC: "일반적인 생명체를 유지할 수 없는 행성들을 위해, 선진 식물들은 효소가 풍부한 세포 자동자를 생산합니다. 이는 탄소 풍부 행성의 지각과 대기를 결정형 자당 기둥으로 재배열하는 것부터, 탄화수소와 물을 조작하여 단백질 슬러리를 생산하는 것에 이르기까지 놀라운 분자 화학적 위업을 달성할 수 있습니다." # 13736432055209903420
+  planetary_seeder_nexus_3: "$name_planetary_seeder_nexus$" # 14456012699216205841
+  planetary_seeder_nexus_3_DESC: "완비된 $name_planetary_seeder_nexus$는 이 성계 내 거의 모든 행성에 특화된 효소와 영양 생명체를 생산, 배치하고 뒤이어 수확하는 전 과정을 총괄합니다." # 8586101250921708661
   giga_tech_orbital_artificial_eco: "궤도 생태계" # 5602796464254493264
   giga_tech_orbital_artificial_eco_desc: "행성 궤도에 완벽하게 작동하는 복잡한 생태계를 조성하는 것은 상당한 도전이지만, 그러한 기술은 연구 목적의 대규모 행성 궤도 생태계 건설을 가능하게 합니다." # 4399661303773599531
   orbital_artificial_eco_0: "$gc_kilo$$name_orbital_artificial_eco$: 생명 유지 장치" # 8560764196255087801

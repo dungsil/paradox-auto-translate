@@ -232,6 +232,18 @@
   orbital_test_site_4_mod_desc: "$macro_test_site_3_DESC$" # 13184626902141735857
   orbital_test_site_4_mod_tooltip: "미발굴 매장지 규모를 §Y6§!으로 향상시킵니다! £engineering_research£$NEW_LINE$§E$SYSTEM_MODIFIER$§!: $TABBED_NEW_LINE$$mod_station_researchers_engineering_research_produces_mult$: §G+$@kilo_prod_bonus_4_mod_value|%0$§!$TABBED_NEW_LINE$$mod_station_researchers_produces_mult$: §G+$@kilo_prod_bonus_4_mod_value|%0$§!" # 8376340604410850488
   orbital_test_site_restored_mod_tooltip: "이 성계의 모든 적합한 행성, 위성, 소행성에서 규모 §Y6§!의 £engineering_research£ 매장지를 발굴합니다.$NEW_LINE$§E$SYSTEM_MODIFIER$§!: $TABBED_NEW_LINE$$mod_station_researchers_engineering_research_produces_mult$: §G+$@kilo_prod_bonus_4_mod_value|%0$§!$TABBED_NEW_LINE$$mod_station_researchers_produces_mult$: §G+$@kilo_prod_bonus_4_mod_value|%0$§!" # 17741511095631268202
+  planetary_seeder_nexus_1_mod: "$planetary_seeder_nexus_0$" # 11805594290403317129
+  planetary_seeder_nexus_1_mod_desc: "$planetary_seeder_nexus_0_DESC$" # 9026522442207289065
+  planetary_seeder_nexus_1_mod_tooltip: "해당 성계 내 §Y용융§! 또는 §Y거주 가능§! 상태가 아닌 모든 행성, 위성, 소행성에서 규모 §Y1§! £food£ 매장지를 발견합니다.$NEW_LINE$§E$SYSTEM_MODIFIER$§!: $TABBED_NEW_LINE$$station_gatherers_food_produces_mult$: §G+$@arc_furnace_1_mod_value|%0$§!" # 5210322653439324857
+  planetary_seeder_nexus_2_mod: "$planetary_seeder_nexus_1$" # 11773055134827348001
+  planetary_seeder_nexus_2_mod_desc: "$planetary_seeder_nexus_1_DESC$" # 10869918923974547897
+  planetary_seeder_nexus_2_mod_tooltip: "미발굴 매장량을 크기 §Y2§까지 향상시킵니다! £food£\n§E$SYSTEM_MODIFIER$§!: $TABBED_NEW_LINE$정거장 채집 식량 생산 승수: §G+$@arc_furnace_2_mod_value|%0$§!" # 10000658660926313603
+  planetary_seeder_nexus_3_mod: "$planetary_seeder_nexus_2$" # 1496981912196002779
+  planetary_seeder_nexus_3_mod_desc: "$planetary_seeder_nexus_2_DESC$" # 5739637559966267543
+  planetary_seeder_nexus_3_mod_tooltip: "미탐사 매장량을 크기 §Y3§으로 개선합니다! £food£$NEW_LINE$§E$SYSTEM_MODIFIER$§!: $TABBED_NEW_LINE$$station_gatherers_food_produces_mult$: §G+$@arc_furnace_3_mod_value|%0$§!" # 11777647691885526613
+  planetary_seeder_nexus_4_mod: "$planetary_seeder_nexus_3$" # 232130031255526415
+  planetary_seeder_nexus_4_mod_desc: "$planetary_seeder_nexus_3_DESC$" # 271986015343092166
+  planetary_seeder_nexus_4_mod_tooltip: "미발견 매장량을 크기 §Y4§!로 개선합니다!£food£$NEW_LINE$§E$SYSTEM_MODIFIER$§!: $TABBED_NEW_LINE$$station_gatherers_food_produces_mult$: §G+$@arc_furnace_4_mod_value|%0$§!" # 11499100685096394109
   succ_mod: "$succ_1$" # 10495725251826705935
   succ_mod_desc: "$succ_1_DESC$" # 7597578312346287926
   succ_mod_tooltip: "§Y2§! 규모의 £exotic_gases£ 매장량을 발견했습니다." # 15343523318053624539
@@ -262,6 +274,7 @@
   mod_giga_drill_limit_add: "$name_auto_stripmine$ 용량" # 18397121557845030304
   mod_giga_crystal_limit_add: "$name_crystal_megabore$ 용량" # 3806467547866357240
   mod_giga_orbital_artificial_eco_limit_add: "$name_orbital_artificial_eco$ 수용량" # 17804005935262834358
+  mod_giga_planetary_seeder_nexus_limit_add: "$name_planetary_seeder_nexus$ 수용력" # 7492398194489466852
   mod_giga_succ_limit_add: "$name_succ$ 용량" # 4725100967948067927
   mod_giga_terraform_toxic_limit_add: "$name_terraform_toxic$ 수용량" # 4439647885731282580
   mod_giga_terraform_barren_limit_add: "$name_terraform_barren$ 용량" # 12448321444701075854
