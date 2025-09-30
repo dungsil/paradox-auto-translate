@@ -5,7 +5,7 @@
   setting_RICE_intro_event_off: "끔" # 8927729592684634549
   setting_RICE_intro_event_off_desc: "인트로 이벤트가 비활성화됩니다." # 11155068692559715121
   RICEintro.0000.t: "RICE 1.17.0 \"마쿠리아\"" # 18282544586870254689
-  RICEintro.0000.desc: "RICE 1.17.0이 성공적으로 설치되었습니다. 이 이벤트는 게임 시작 시에만 발동하며 게임 규칙을 통해 비활성화할 수 있습니다. 참고로, 최신 업데이트에서 추가된 일부 기능은 새로운 게임을 시작해야 합니다. 버그 신고나 피드백은 Steam 창작마당, PI 포럼 또는 제 디스코드 채널을 통해 자유롭게 해주십시오.\n\nRICE는 현재 #V #Bold 40#!#! 플레이버 팩을 포함하고 있으며, 이는 전 세계의 다양한 문화, 종교, 지역을 다룹니다. 가장 최근의 플레이버 팩은 #V #Bold 누비아: 쿠시의 후예#!#!입니다.\n\n이 플레이버 팩은 [GetGeographicalRegion('RICE_greater_nubia_region').GetName]에 새로운 플레이버를 추가하는 데 중점을 둡니다." # 11289769836665229751
+  RICEintro.0000.desc: "RICE 1.17.0이 성공적으로 설치되었습니다. 이 이벤트는 게임 시작 시에만 발동하며 게임 규칙을 통해 비활성화할 수 있습니다. 최신 업데이트에 추가된 일부 기능은 새로운 게임을 시작해야만 이용할 수 있습니다. 버그를 보고하거나 Steam 창작마당, PI 포럼, 또는 제 디스코드 채널을 통해 피드백을 자유롭게 제공해 주십시오.\n\nRICE에는 현재 전 세계의 다양한 문화, 종교, 지역을 다루는 #V #Bold 40#!#!가지 플레이버 팩이 포함되어 있습니다. 가장 최신 플레이버 팩은 #V #Bold 누비아: 쿠시의 후예들#!#!입니다.\n\n이 플레이버 팩은 [GetGeographicalRegion('RICE_greater_nubia_region').GetName]에 새로운 플레이버를 추가하는 데 중점을 두며, 두 가지 새로운 [situation_situations|E], 즉 [RICE_nile_river|E]와 [RICE_baqt|E]를 포함합니다." # 8296585363928881088
   RICEintro.0000.a: "좋군!" # 2933982366699918903
   RICEintro.0000.b: "이번 업데이트의 새로운 추가 사항에 대해 간략히 알려주시겠습니까?" # 2296478953061761299
   RICEintro.0000.c: "앞으로 이 저장 파일에서는 이 메시지 표시 안 함" # 15745156042237332393
@@ -172,7 +172,7 @@
   action_RICE_historical_aspiration: "[GetPlayer.Custom('RICE_historical_aspiration_action_title_name')]" # 11110513065511628458
   action_RICE_historical_aspiration_label: "[historical_aspirations|E]를 달성해 볼 수 있습니다" # 3088901280367166315
   action_RICE_historical_aspiration_desc_default: "다양한 보상을 얻기 위해 하나 이상의 [objectives|E]를 완수하여 그대의 [aspiration|E]을 달성하십시오." # 18245156233832033699
-  action_RICE_historical_aspiration_desc: "[GetPlayer.Custom('RICE_historical_aspiration_action_desc')]" # 891117861478239489
+  action_RICE_historical_aspiration_desc: "[GetPlayer.Custom('RICE_historical_aspiration_action_desc')]\n\n@alert_icon! #alert_trial [historical_aspirations|E]의 달성 여부는 일반적으로 연초에 계산됩니다.#!" # 14148866787045702811
   action_RICE_historical_aspiration_click: "#I 내 인물 보기#!" # 15810112739006709897
   RICE_historical_aspiration_fulfilled: "[GetPlayer.GetTitledFirstName]께서 [GetPlayer.GetHerHis] [GetPlayer.Custom('RICE_historical_aspiration_modifier_desc')]를 완수하셨습니다." # 12950234104406976318
   RICE_historical_aspiration_fulfilled_title: "숙원 달성" # 11509128207384711189

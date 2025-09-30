@@ -16,6 +16,7 @@
   RICE_indian_ocean_region: "인도양" # 9479278874579653378
   RICE_every_coastal_county_in_indian_ocean: "귀하가 소유한 [GetGeographicalRegion('RICE_indian_ocean_region').GetName] 내 모든 해안 [county|E]" # 2325472525565584377
   RICE_indian_ocean_pirate_spawn_event_troops: "인도양 해적" # 528378064322841476
+  RICE_indian_ocean_region_coastal_req: "[GetGeographicalRegion('RICE_indian_ocean_region').GetName] [region|E] 내의 해안 [county|E]를 적어도 하나 이상 소유하십시오." # 7626193399806318715
   RICE_socotra_legend_new_title_name: "새로운 소코트라" # 3036728752079679637
   RICE_socotra_legend_new_title_desc: "작고 변변치 않은 섬에 불과하지만, [GetTitleByKey('k_socotra').GetNameNoTier]는 수 세기 동안 전설의 소재였습니다. 이곳을 위대한 왕국으로 만든 것은 바로 동등하게 전설적인 통치자인 [founder.GetName]였습니다." # 8147189565203604458
   RICE_socotra_legend_chapter_opening_new_title: "[ROOT.Legend.GetProperty( 'title' ).Title.GetBaseNameNoTooltip] 섬은 전설과 신화, 이국적인 사치품, 고대 민족, 숨 막히는 풍경의 땅입니다. 그러나 옛날 옛적에는 야수들과 악명 높은 바와리지 같은 더욱 사나운 해적들이 살던 땅이었습니다. [ROOT.Legend.GetProtagonist.GetNameNoTooltip] 같은 영광스러운 지도자만이 이 섬을 길들일 수 있었습니다." # 17139032531152139318
