@@ -1,6 +1,6 @@
 name = "DAT :: RICE"
-version = "1.16.0-1"
-supported_version = "1.16.*"
+version = "1.17.0-1"
+supported_version = "1.17.*"
 tags = {
   "Translation"
 }
