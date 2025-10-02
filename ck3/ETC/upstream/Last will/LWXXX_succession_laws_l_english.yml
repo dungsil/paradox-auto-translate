@@ -1,0 +1,20 @@
+﻿l_english:
+lwxxx_last_will: "Last Will"
+
+lwxxx_last_will_elective_succession_law: "#P $lwxxx_last_will$ Behest#!"
+lwxxx_last_will_elective_succession_law_effects: "The [ruler|E] can nominate a [title_heir|E] from among themselves and the [close_family|E], [extended_family|E] and [dynasty|E] of the ruler."
+
+lwxxx_last_will_elective_candidates: "[close_family|E], [extended_family|E] and [dynasty|E]"
+lwxxx_last_will_elective_candidates_tooltip: "In order to be a valid Candidate under #P $lwxxx_last_will$#!, a character must fulfill one of the following conditions:\n$EFFECT_LIST_BULLET$Be a [close_family|E] member of the current ruler, who is not in line to inherit a Theocracy or Republic.\n$EFFECT_LIST_BULLET$Be a [extended_family|E] member of the current ruler, who is not in line to inherit a Theocracy or Republic.\n$EFFECT_LIST_BULLET$Be a member of the ruler's [dynasty|E] who is not in line to inherit a Theocracy or Republic."
+lwxxx_last_will_elective_electors: "Ruler"
+lwxxx_last_will_elective_electors_tooltip: "Only the [ruler|E] can elect a beneficiary for the title."
+
+last_will_succession_law: "#P $lwxxx_last_will$ Succession#!"
+last_will_succession_law_subname: "Oldest Child Inherits"
+last_will_succession_law_effects: "\n#V Under $lwxxx_last_will$ [succession], your oldest child inherits all your [titles] except for the ones subject to a #P $lwxxx_last_will_elective_succession_law$#!.#!\n\n#weak Upon succession, all of the late Ruler's [titles|e] will be given to the [player_heir|E], which is their oldest [eligible_child|E].\n#!"
+
+last_will_succession_law_insufficient_crown_authority_custom_description: "Your [crown_authority|E] is too low for #P Last Will#! succession."
+last_will_succession_law_insufficient_tribal_authority_custom_description: "Your [tribal_authority|E] is too low for #P Last Will#! succession."
+
+lwxxx_title_does_not_have_last_will_law_description: "Title does not have Last Will law"
+lwxxx_claimant_does_not_have_holder_vote_description: "Claimant does not have holder's vote"
