@@ -1,0 +1,15 @@
+﻿l_korean:
+  lwxxx_last_will: "유언" # 14503329305418674618
+  lwxxx_last_will_elective_succession_law: "#P $lwxxx_last_will$ 유언#!" # 2073403473786977602
+  lwxxx_last_will_elective_succession_law_effects: "[ruler|E]는 자신과 [ruler|E]의 [close_family|E], [extended_family|E], [dynasty|E] 중에서 [title_heir|E]를 지명할 수 있습니다." # 6175178606842425491
+  lwxxx_last_will_elective_candidates: "[close_family|E], [extended_family|E] 그리고 [dynasty|E]" # 14234385350485986421
+  lwxxx_last_will_elective_candidates_tooltip: "#P $lwxxx_last_will$#! 하에서 유효한 후보자가 되려면, 인물은 다음 조건 중 하나를 충족해야 합니다:\n$EFFECT_LIST_BULLET$현 통치자의 [close_family|E] 구성원이어야 하며, 신정제나 공화정을 상속받을 순위에 있지 않은 자여야 합니다.\n$EFFECT_LIST_BULLET$현 통치자의 [extended_family|E] 구성원이어야 하며, 신정제나 공화정을 상속받을 순위에 있지 않은 자여야 합니다.\n$EFFECT_LIST_BULLET$통치자의 [dynasty|E] 구성원이어야 하며, 신정제나 공화정을 상속받을 순위에 있지 않은 자여야 합니다." # 11068354094829348664
+  lwxxx_last_will_elective_electors: "군주" # 17879390734824079011
+  lwxxx_last_will_elective_electors_tooltip: "[ruler|E]만이 해당 작위의 수혜자를 선출할 수 있습니다." # 12288190935432563705
+  last_will_succession_law: "#P $lwxxx_last_will$ 계승#!" # 13577753193059270669
+  last_will_succession_law_subname: "맏자식 상속" # 201814300789752813
+  last_will_succession_law_effects: "#V $lwxxx_last_will$ [succession]에 따라, 귀하의 가장 나이 많은 자녀가 #P $lwxxx_last_will_elective_succession_law$#의 적용을 받는 [titles]을(를) 제외하고 모든 [titles]을(를) 상속받습니다.#!\n\n#weak 계승 시, 선대 통치자의 모든 [titles|e]은(는) 그의 가장 나이 많은 [eligible_child|E]인 [player_heir|E]에게 주어질 것입니다.\n#!" # 1340070394067364809
+  last_will_succession_law_insufficient_crown_authority_custom_description: "귀하의 [crown_authority|E]가 #P Last Will#! 계승을 시행하기에는 너무 낮습니다." # 6620867810823943096
+  last_will_succession_law_insufficient_tribal_authority_custom_description: "[tribal_authority|E]가 #P 유언#! 계승에는 너무 낮습니다." # 6075313175232586500
+  lwxxx_title_does_not_have_last_will_law_description: "작위에는 유언법이 없습니다." # 8489270370898203608
+  lwxxx_claimant_does_not_have_holder_vote_description: "계승권자는 작위 보유자의 표를 가지고 있지 않습니다." # 574653246211631830
