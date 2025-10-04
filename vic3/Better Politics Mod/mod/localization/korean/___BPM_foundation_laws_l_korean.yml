@@ -1,0 +1,54 @@
+﻿l_korean:
+  lawgroup_executive_principles: "행정 구조" # 4710433755213267395
+  lawgroup_executive_principles_desc: "[Concept('concept_ruler','국가 원수')]와 [concept_bpm_head_of_government] 간의 관계." # 11244135602716360330
+  law_appointed_by_hos: "[GetPlayer.GetRuler.GetPrimaryRoleTitle] 임명됨" # 11405550318119703813
+  law_appointed_by_hos_desc: "[GetPlayer.GetRuler.GetPrimaryRoleTitle]은 [concept_bpm_head_of_government]를 임명하거나 해임하는 데 있어 절대적인 권한을 유지합니다." # 16982948692543232120
+  law_appointed_on_advice: "자문으로 임명됨" # 10923583050182306863
+  law_appointed_on_advice_desc: "[GetPlayer.GetRuler.GetPrimaryRoleTitle]께서 의회의 공식적인 지지를 받아 [concept_bpm_head_of_government]을(를) 선출합니다." # 1403018579053191010
+  law_no_separate_hog: "통합 집행부" # 17624944390044733338
+  law_no_separate_hog_desc: "[GetPlayer.GetRuler.GetPrimaryRoleTitle]은 또한 [concept_bpm_head_of_government]의 역할도 수행합니다." # 7063122866078039013
+  law_answers_to_legislature: "의례적인 [GetPlayer.GetRuler.GetPrimaryRoleTitle]" # 16365688513009509499
+  law_answers_to_legislature_desc: "[GetPlayer.GetRuler.GetPrimaryRoleTitle]는 순전히 의례적인 직책이며 [concept_bpm_head_of_government]만이 의회에 책임을 집니다." # 16011119917710342951
+  lawgroup_legislative_principles: "입법권" # 11969337406281626418
+  lawgroup_legislative_principles_desc: "입법부와 행정부 간의 관계." # 17651220056728483742
+  law_advisory_body: "자문 기구" # 5576067277202576935
+  law_advisory_body_desc: "의회는 자문 기관에 불과하며 법률을 통과시킬 권한이 없습니다. [GetPlayer.GetRuler.GetPrimaryRoleTitle]의 명목 하에, [GetPlayer.GetCustom('bpm_hog_title')]는 종신 독재관이 될 것입니다." # 7568886493858965682
+  law_separated_powers: "권력 분립" # 1020172624827376781
+  law_separated_powers_desc: "입법부와 [concept_government]는 분리된 실체이며, 각기 뚜렷한 권한과 책임을 가집니다." # 1735757479032687505
+  law_supreme_legislature: "최고 의회" # 12654706614475577852
+  law_supreme_legislature_desc: "입법부는 국가의 최고 권위이며, 입법 기능과 행정 기능을 모두 수행합니다." # 13129921515686251334
+  country_bpm_hog_impact_on_ruler_veto: "[concept_bpm_head_of_government]이 [concept_ruler]의 거부에 미치는 영향" # 8263821533156828460
+  country_bpm_hog_advice_on_ruler_veto: "[concept_bpm_head_of_government] [concept_ideology]은 [Concept('concept_ruler','국가 원수')]의 거부권 행사에 영향을 미칩니다." # 6125157469812417066
+  country_bpm_hog_advice_on_ruler_veto_desc: "자신의 판단에 의존하는 대신, [concept('concept_ruler','국가원수')]의 법률 거부권 행사는 [concept_bpm_head_of_government]의 [concept_ideology]에 의해 영향을 받습니다." # 17137582158249224844
+  country_bpm_hog_veto: "[concept_bpm_head_of_government]만이 거부권에 대한 단독적인 결정을 가집니다" # 9354610923986503665
+  country_bpm_hog_veto_desc: "[Concept('concept_ruler','국가원수')]는 전적으로 의례적인 존재이며, 법안에 거부권을 행사할 수 있는 실질적인 권력은 [concept_bpm_head_of_government]에게 있습니다." # 10310828961871367599
+  country_bpm_hog_hoshogsame: "[concept_bpm_head_of_government]와 [Concept('concept_ruler','Head of State')]는 동일 인물입니다." # 16233649336080353528
+  country_bpm_hog_hoshogsame_desc: "[concept_bpm_head_of_government]와 [Concept('concept_ruler','국가 원수')]는 동일 인물입니다." # 8601230628654451575
+  country_bpm_hog_top_advice: "[concept_bpm_head_of_government]은 모든 [concept_powerful] [Concept('concept_interest_group', '이해 집단')]으로부터 임명될 수 있습니다." # 3674385673466652136
+  country_bpm_hog_top_advice_desc: "정국의 풍파에 좌우되는 [Concept('concept_ruler','국가원수')]와 [Concept('concept_government','concept_bpm_head_of_government')]는 [concept_powerful] [Concept('concept_interest_group', '이익집단')] 중에서 임명되어야 합니다." # 3465823570593786164
+  country_bpm_hog_top_hosapp: "[concept_bpm_head_of_government]은 어떠한 [Concept('concept_interest_group', '이해집단')]으로부터든 임명될 수 있습니다." # 14602486166220312674
+  country_bpm_hog_top_hosapp_desc: "[Concept('concept_ruler','국가원수')]는 독립적이며 강력하여, 임의의 [Concept('concept_interest_group', '이해집단')] 중에서 [Concept('concept_bpm_head_of_government','정부 수반')]을 임명할 수 있습니다." # 6068530268625084202
+  country_bpm_hog_top_parlelec: "의회에서 선출된 [concept_bpm_head_of_government]" # 17180388022968061778
+  country_bpm_hog_top_parlelec_desc: "[Concept('concept_ruler','국가원수')]는 의회가 선출한 [Concept('concept_government','정부수반')]을 임명하는 상징적인 존재에 불과합니다." # 12488485991195230168
+  country_bpm_cabinet_variety: "내각 후보 명단은 다양한 [Concept('concept_interest_group', '이해집단')]으로부터 인재를 차출합니다." # 10739344464010192400
+  country_bpm_cabinet_variety_desc: "행정부는 독립적이고 강력하며, 장관 임명에 있어 자유로운 재량을 갖습니다. 내각 후보 풀은 다양한 [Concept('concept_interest_group', '이해집단')]으로부터 충원됩니다." # 10404846789756084432
+  country_bpm_cabinet_influenced: "내각 후보군이 더 영향력 있는 [Concept('concept_interest_group', '이해집단')] 쪽으로 편향됩니다" # 101728232015141704
+  country_bpm_cabinet_influenced_desc: "행정부는 장관 임명에 있어 정치적 풍향에 좌우됩니다. 내각 후보군은 보다 영향력 있는 [Concept('concept_interest_group', '이해집단')] 쪽으로 편중되는 경향이 있습니다." # 10000473542870956656
+  country_bpm_cabinet_controlled: "내각 후보군은 오직 영향력이 매우 큰 [Concept('concept_interest_group', '이해집단')]으로부터만 차출됩니다." # 1654579289848883645
+  country_bpm_cabinet_controlled_desc: "내각 임명은 대체로 비밀스러운 방에서 결정되며, 대통령은 단지 이를 승인할 뿐입니다. 내각 후보군은 오직 영향력 있는 [Concept('concept_interest_group', '이해집단')] 중에서만 선발됩니다." # 6581273378726428822
+  country_bpm_cabinet_institution_bonus: "추가 @votes_icon! [Concept('concept_bpm_institutional_ig', '제도적 이익집단')]에 대한 위임" # 2779778468934222027
+  country_bpm_cabinet_hog_bonus: "추가적인 @votes_icon! [Concept('concept_interest_group', 'Interest Group')]의 [concept_bpm_head_of_government]에게 위임합니다." # 12480104902441494165
+  country_bpm_cabinet_hos_bonus: "추가 @votes_icon! [Concept('concept_ruler', '국가원수')]의 [Concept('concept_interest_group', '이익 집단')]에게 위임하십시오." # 9081886754900099013
+  country_bpm_cabinet_clout_bonus: "추가적인 @votes_icon! [Concept('concept_interest_group', '이익 집단')]으로부터 [Concept('concept_clout', '영향력')] 위임" # 11460610734174235433
+  country_bpm_cabinet_government_bonus: "추가적인 @votes_icon! [Concept('concept_interest_group', '이익 집단')] [concept_in_government]에 대한 위임" # 5540828014014080059
+  country_bpm_cabinet_party_bonus: "추가 @votes_icon! [Concept('concept_interest_group', '정당')] 내 [Concept('concept_ruler', '국가원수')]의 [Concept('concept_party', '정당')]에 대한 위임" # 4544945828033577350
+  bpm_character_role_protege: "후원자" # 4307640978056185895
+  bpm_appoint_as_pm: "$bpm_hog_title_default$로 임명하십시오" # 717279083400144397
+  bpm_not_anti_establishment_tt: "[concept_interest_group]은 반체제 성향이 아닙니다." # 12456367302049598847
+  bpm_not_extremist_tt: "[concept_interest_group]는 극단주의자가 아닙니다." # 4494499838834996635
+  bpm_appoint_pm_strongest_ig_tt: "가장 강력한 [concept_interest_group]" # 1393664705717641086
+  bpm_appoint_pm_effect_tt: "[Character.GetFullName]가 $bpm_hog_title_default$로 등극합니다" # 5448458267713703564
+  bpm_unappoint_as_pm: "불명예로 축출" # 9591301626151628687
+  bpm_unappoint_pm_effect_tt: "[Character.GetFullName] 님이 $bpm_hog_title_default$ 직을 그만둡니다" # 10677473900540435472
+  country_bpm_hog_inst: "[GetPlayer.GetCustom('bpm_institutional_appointment')]" # 4728199502823480892
+  country_bpm_hog_inst_desc: "[GetPlayer.GetCustom('bpm_institutional_appointment_desc')]" # 15681474350580658079
