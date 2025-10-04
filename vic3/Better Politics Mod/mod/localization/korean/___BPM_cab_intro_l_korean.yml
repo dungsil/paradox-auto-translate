@@ -1,0 +1,9 @@
+﻿l_korean:
+  je_bpm_cabinet_activate: "내각" # 1866012498825786956
+  je_bpm_cabinet_activate_reason: "#bold 진행 막대#! 의 상태는 [concept_bureaucracy] 잉여분이 있을 경우 진척될 것입니다. #bold 진행 막대#! 가 #v 100#! 에 도달하면 [Country.GetName]에 내각이 도입될 것입니다." # 8765026397898618508
+  je_bpm_cabinet_activate_desc: "행정 현대화" # 10771045980565000439
+  bpm_cabinet_event.1.t: "내각의 탄생" # 14229287686188951992
+  bpm_cabinet_event.1.d: "내각이 정치 패널에 있던 [Concept('concept_institution', '제도')] 탭을 대체했습니다. 이제 이곳에서 [Concept('concept_character', '인물')]을 선택하여 귀하의 [concept_government] 행정의 모든 측면을 책임지게 할 수 있습니다. 귀하의 [concept_country]가 원활하게 운영되도록 호환되는 [Concept('concept_character', '인물')]을 신중하게 선택하십시오. 그렇지 않으면 귀하의 [Concept('concept_bpm_synergy', '시너지')]가 저하되고 정부의 효율성이 떨어질 것입니다. 일부 [Concept('concept_interest_group', '이해집단')]은 특정 제도에 [Concept('concept_bpm_antagonism', '적대적')]이며 제도에 적극적으로 맞서 행동할 것입니다." # 5340104760603841971
+  bpm_cabinet_event.1.f: "황제의 모든 국정 행위에는 내각의 자문과 승인이 필요하며, 내각은 이에 대해 책임을 진다." # 5942888108176302161
+  bpm_cabinet_event.1.a: "#red;bold;shadow 제가 한번 해보겠습니다!#!" # 5780457988055845795
+  je_bpm_cabinet_activate_goal: "#bold 진행률 표시줄#!이 #v 100#!에 도달했습니다!" # 15838947236623181910

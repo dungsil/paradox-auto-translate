@@ -1,0 +1,38 @@
+﻿l_korean:
+  state_farmers_education_access_add: "[GetPopType('farmers').GetName]의 교육 접근성" # 8254554595838223103
+  state_farmers_education_access_add_desc: "[GetPopType('farmers').GetName]에 대한 교육 접근성의 보너스 또는 페널티" # 12458569043008407035
+  state_bureaucrats_education_access_add: "[GetPopType('bureaucrats').GetName]의 교육 접근성" # 5350788325762872063
+  state_bureaucrats_education_access_add_desc: "[GetPopType('bureaucrats').GetName]의 교육 접근성에 대한 보너스 또는 페널티" # 180706984709956758
+  state_laborers_education_access_add: "[GetPopType('laborers').GetName]을 위한 교육 접근성" # 1998228799339202627
+  state_laborers_education_access_add_desc: "[GetPopType('laborers').GetName]에 대한 교육 접근성 보너스 또는 페널티" # 17049940056378137563
+  state_machinists_education_access_add: "[GetPopType('machinists').GetName]의 교육 접근성" # 14930981140476010358
+  state_machinists_education_access_add_desc: "[GetPopType('machinists').GetName]에 대한 교육 접근성 보너스 또는 불이익" # 435200199955939050
+  state_soldiers_education_access_add: "[GetPopType('soldiers').GetName]을 위한 교육 접근성" # 4685459831722508784
+  state_soldiers_education_access_add_desc: "[GetPopType('soldiers').GetName]의 교육 접근성에 대한 보너스 또는 페널티" # 15211365053337225013
+  state_officers_education_access_add: "[GetPopType('officers').GetName]의 교육 접근성" # 7156959696365234627
+  state_officers_education_access_add_desc: "[GetPopType('officers').GetName]의 교육 접근성에 대한 보너스 또는 불이익" # 7215040762996759346
+  state_engineers_education_access_add: "[GetPopType('engineers').GetName]를 위한 교육 기회" # 12730781627679479197
+  state_engineers_education_access_add_desc: "[GetPopType('engineers').GetName]의 교육 접근성에 대한 보너스 또는 페널티" # 11634529874739478667
+  state_clergymen_education_access_add: "[GetPopType('clergymen').GetName]의 교육 접근성" # 5937047123096316662
+  state_clergymen_education_access_add_desc: "[GetPopType('clergymen').GetName]에 대한 교육 접근성 보너스 또는 페널티" # 11300340853433458687
+  state_academics_education_access_add: "[GetPopType('academics').GetName]을 위한 교육 접근성" # 8441465140840528392
+  state_academics_education_access_add_desc: "[GetPopType('academics').GetName]의 교육 접근성에 대한 보너스 또는 페널티" # 12797240028122474578
+  building_group_bg_manufacturing_allowed_collectivization_add: "최소 노동자 소유 $bg_manufacturing$ $concept_building$ 단계" # 13803787592688194138
+  building_group_bg_mining_allowed_collectivization_add: "최소 노동자 소유 $bg_mining$ $concept_building$ 단계" # 15536980928504661174
+  building_group_bg_logging_allowed_collectivization_add: "최소 노동자 소유 $bg_logging$ $concept_building$ 단계" # 9127124808806798881
+  building_group_bg_light_industry_allowed_collectivization_add: "최소 노동자 소유 $bg_light_industry$ $concept_building$ 단계" # 8639025682161697056
+  building_group_bg_heavy_industry_allowed_collectivization_add: "최소 노동자 소유 $bg_heavy_industry$ $concept_building$ 단계" # 8857320252602351253
+  building_group_bg_fishing_allowed_collectivization_add: "최소 노동자 소유 $bg_fishing$ $concept_building$ 단계" # 4459618795880453226
+  building_group_bg_oil_extraction_allowed_collectivization_add: "최소 노동자 소유 $bg_oil_extraction$ $concept_building$ 단계" # 3601634702717803553
+  building_group_bg_whaling_allowed_collectivization_add: "최소 노동자 소유 $bg_whaling$ $concept_building$ 단계" # 318839604737655943
+  building_group_bg_rubber_allowed_collectivization_add: "최소 노동자 소유 $bg_rubber$ $concept_building$ 단계" # 9507408325539507858
+  country_synergy_base_add: "기본 시너지" # 14336142189307492863
+  country_synergy_base_add_desc: "국가의 기본 시너지에 대한 보너스 또는 페널티" # 13971555519778845730
+  country_synergy_from_rigidity_add: "[Concept('concept_bpm_political_stability', concept_bpm_political_stability)]로부터의 시너지" # 2904806158168533879
+  country_synergy_from_rigidity_add_desc: "[Concept('concept_bpm_political_stability', concept_bpm_political_stability)]로부터 오는 국가 시너지에 대한 보너스 또는 불이익" # 15129961685526630801
+  country_synergy_from_hos_hog_compatibility: "[GetPlayer.GetRuler.GetPrimaryRoleTitle]와 [GetPlayer.GetCustom('bpm_hog_title_country_spec')] 간의 이념적 근접성으로 인한 시너지" # 6981092870979323124
+  country_synergy_from_hos_hog_compatibility_desc: "[GetPlayer.GetRuler.GetPrimaryRoleTitle]와 $bpm_hog_title_default$의 이념적 근접성으로 인한 국가 시너지 보너스 또는 페널티" # 9172607414559719650
+  country_synergy_from_ideological_compatibility: "[Concept('concept_bpm_cabinet', '내각')]의 이념적 결속력에서 오는 시너지" # 7547256226350386972
+  country_synergy_from_ideological_compatibility_desc: "[Concept('concept_bpm_cabinet', '내각')]의 이념적 결속으로 인한 국가 시너지에 대한 보너스 또는 페널티" # 5457717499224795305
+  country_synergy_from_hos_in_government: "[GetPlayer.GetRuler.GetPrimaryRoleTitle]가 정부에 참여함으로써 얻는 시너지 효과" # 18423434580370691151
+  country_synergy_from_hos_in_government_desc: "[GetPlayer.GetRuler.GetPrimaryRoleTitle]이 정부 내에 있을 때 국가의 시너지에 대한 보너스 또는 페널티" # 17398427272126460928
