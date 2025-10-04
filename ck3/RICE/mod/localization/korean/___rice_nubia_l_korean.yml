@@ -204,7 +204,6 @@
   innovation_RICE_state_sanctioned_treasure_hunting: "국가 공인 보물 사냥" # 11847345755113452534
   innovation_RICE_state_sanctioned_treasure_hunting_desc: "나일 문명의 고대 문명은 모래 속에 묻힌 수많은 오래된 기념물들의 본고장이며, 그 안에는 보물과 잃어버린 지식이 가득합니다. 현명한 통치자는 보물 사냥 산업을 후원하고 규제하여 사회가 이러한 고대 유물로부터 최대한의 이득을 얻을 수 있도록 해야 합니다." # 11381613866189385697
   fervor_gain_RICE_eldad_ha_dani_success: "엘다드 하-다니의 전설" # 6108855525365679048
-  RICE_africa_geographical_req: "귀하께서는 [GetGeographicalRegion('world_africa').GetName] 내의 [county|E] 또는 [domicile|E]를 소유하고 있습니다." # 12276949699632909805
   Ramil: "라밀" # 10028597049399719405
   dynn_RICE_nubia_ramil: "라미리드" # 13634696642483135558
   dynn_RICE_nubia_ionkouda: "응에쉬쉬" # 600852118402072669
@@ -302,7 +301,7 @@
   game_concept_RICE_baqt_goods_short: "물품" # 14846895216114088985
   game_concept_RICE_baqt_good: "바크트 좋군!" # 5242832276046289117
   game_concept_RICE_baqt_goods: "바크트 물품" # 3803856401190043918
-  game_concept_RICE_baqt_goods_desc: "$game_concept_RICE_baqt_goods$는 [RICE_baqt|E] [situation|E]에 참여하는 [rulers|E]가 세 가지 다른 [interactions|E]를 통해 획득할 수 있는 유익한 [character_modifiers|E]입니다:\n\n$BULLET_WITH_TAB$ $RICE_nubia_baqt_propose_exchange$\n$BULLET_WITH_TAB$ $RICE_nubia_baqt_offer_gift$\n$ $BULLET_WITH_TAB$RICE_nubia_baqt_demand_payment$\n\n[ruler|E]가 제공할 수 있는 물품의 종류, 즉 [modifiers|E]는 [RICE_baqt|E]의 두 [situation_sub_regions|E] 중 이집트와 누비아 중 어느 곳에 [capital|E]이 위치하는지에 따라 달라집니다.\n이러한 [interactions|E]는 또한 [rulers|E]들이 서로 [truce|E]를 맺을 수 있도록 해주며, 다른 [rulers|E]가 이러한 [interactions|E]를 수락할 확률은 [RICE_baqt|E]가 현재 어느 [situation_phase|E]에 있는지 등 다양한 요인에 따라 달라집니다.\n\n이러한 [interactions|E]는 #V 오직#! [RICE_baqt_egyptian_rulers|E]와 [RICE_baqt_african_rulers|E] 사이에서만 발생할 수 있습니다." # 4919354292405366844
+  game_concept_RICE_baqt_goods_desc: "$game_concept_RICE_baqt_goods$는 [RICE_baqt|E] [situation|E]에 속한 [rulers|E]가 세 가지 다른 [interactions|E]를 통해 획득할 수 있는 유익한 [character_modifiers|E]입니다:\n\n$BULLET_WITH_TAB$ $RICE_nubia_baqt_propose_exchange$\n$BULLET_WITH_TAB$ $RICE_nubia_baqt_offer_gift$\n$BULLET_WITH_TAB$ $RICE_nubia_baqt_demand_payment$\n\n[ruler|E]가 제공할 수 있는 교역품의 종류, 즉 [modifiers|E]는 [RICE_baqt|E]의 두 [situation_sub_regions|E]인 이집트와 누비아 중 어느 지역에 그들의 [capital|E]이 위치하는지에 따라 달라집니다.\n이러한 [interactions|E]를 통해 [rulers|E]는 서로와 [truce|E]를 맺을 수도 있으며, 다른 [rulers|E]가 이 [interactions|E]를 수락할 확률은 [RICE_baqt|E]가 현재 어떤 [situation_phase|E]에 속해 있는지 등 다양한 요인에 따라 달라집니다.\n\n이러한 [interactions|E]는 [RICE_baqt_egyptian_rulers|E]와 [RICE_baqt_african_rulers|E] 사이에서만 #V 가능합니다#!." # 7058597031694948735
   game_concept_good_nile_flood_short: "좋은 홍수" # 15113143245120818486
   game_concept_good_nile_flood: "좋은 나일강 범람" # 4694402676224824854
   game_concept_good_nile_flood_desc: "[RICE_나일_강|E]의 범람이 좋다고 여겨지는 경우는 다음 [situation_phases|E] 중 하나일 경우입니다:\n\n$BULLET_WITH_TAB$ @RICE_nile_flood_normal_icon! $nile_normal_flood$\n$BULLET_WITH_TAB$ @RICE_nile_flood_high_icon! $nile_high_flood$\n$BULLET_WITH_TAB$ @RICE_nile_flood_very_high_icon! $nile_very_high_flood$" # 13006930315807766669
