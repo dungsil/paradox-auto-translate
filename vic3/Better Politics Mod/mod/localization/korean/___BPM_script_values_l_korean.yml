@@ -1,0 +1,140 @@
+﻿l_korean:
+  BPM_VALUE_BASE: "기본값" # 13147080206639149646
+  BPM_VALUE_RANDOM: "임의의 값" # 13168522018957843162
+  BPM_VALUE_FROM_NO_TECH_MASS_COMMS: "대중 통신 없음 [Concept('concept_technology', 'Tech')]" # 2830872744524753035
+  BPM_VALUE_FROM_LAW_MONARCHY: "[Concept('concept_law', '법률')] [GetLawType('law_monarchy').GetName]" # 11314274245489201804
+  BPM_VALUE_FROM_LAW_TRADITIONALISM: "[Concept('concept_law', '법률')] [GetLawType('law_traditionalism').GetName]" # 5727909340758087418
+  BPM_VALUE_FROM_LAW_AGRARIANISM: "[Concept('concept_law', '법률')] [GetLawType('law_agrarianism').GetName]" # 15736409565937060683
+  BPM_VALUE_FROM_LAW_LAISSEZ_FAIRE: "[Concept('concept_law', '법률')] [GetLawType('law_laissez_faire').GetName]" # 448200497654049415
+  BPM_VALUE_FROM_LAW_INTERVENTIONISM: "[Concept('concept_law', '법률')] [GetLawType('law_interventionism').GetName]" # 3807282722868389375
+  BPM_VALUE_FROM_LAW_HOMESTEADING: "[Concept('concept_law', '법률')] [GetLawType('law_homesteading').GetName]" # 8193920836007131880
+  BPM_VALUE_FROM_LAW_PEASANT_LEVIES: "[Concept('concept_law', '법률')] [GetLawType('law_peasant_levies').GetName]" # 3986854700172073755
+  BPM_VALUE_FROM_LAW_SERFDOM: "[Concept('concept_law', '법률')] [GetLawType('law_serfdom').GetName]" # 17283604541297167847
+  BPM_VALUE_FROM_LAW_TENANT_FARMERS: "[Concept('concept_law', '법률')] [GetLawType('law_tenant_farmers').GetName]" # 8856251348436176875
+  BPM_VALUE_FROM_LAW_COMMERCIALIZED_AGRICULTURE: "[Concept('concept_law', '법률')] [GetLawType('law_commercialized_agriculture').GetName]" # 15999881288531733208
+  BPM_VALUE_FROM_LAW_ISOLATIONISM: "[Concept('concept_law', '법률')] [GetLawType('law_isolationism').GetName]" # 13709375509157532562
+  BPM_VALUE_FROM_LAW_UNREGULATED_WORK_TIME: "[Concept('concept_law', '법률')] [GetLawType('law_unregulated_work_time').GetName]" # 8088667020938960800
+  BPM_VALUE_FROM_LAW_NO_WORKERS_RIGHTS: "[Concept('concept_law', '법률')] [GetLawType('law_no_workers_rights').GetName]" # 8569007352872186264
+  BPM_VALUE_FROM_LAW_NO_WELFARE: "[Concept('concept_law', '법률')] [GetLawType('law_no_social_security').GetName]" # 6613315023006510022
+  BPM_VALUE_FROM_LAW_POOR_LAWS: "[Concept('concept_law', '법률')] [GetLawType('law_poor_laws').GetName]" # 17174022915448284251
+  BPM_VALUE_FROM_LAW_NO_ELECTIONS: "[Concept('concept_law', '법률')] [Concept('concept_election', '선거')] 없음" # 14370849829192928593
+  BPM_VALUE_FROM_LAW_NO_FULL_DEMOCRACY: "[Concept('concept_law', '법률')] 완전한 참정권 투자가 없는 [GetLawType('law_universal_suffrage').GetName] 법률" # 1993714148992579541
+  BPM_VALUE_FROM_LAW_OUTLAWED_DISSENT: "[Concept('concept_law', '법률')] [GetLawType('law_outlawed_dissent').GetName]" # 7095855245095377057
+  BPM_VALUE_FROM_LAW_SOCIALIST_BAN: "[Concept('concept_law', '법률')] [GetLawType('law_party_anti_socialist').GetName]" # 14794331504219302922
+  BPM_VALUE_FROM_LAW_CENSORSHIP: "[Concept('concept_law', '법률')] [GetLawType('law_censorship').GetName]" # 5205496463576702526
+  BPM_VALUE_FROM_LAW_TRADITIONAL_OSTRACISM: "[Concept('concept_law', '법')] [GetLawType('law_traditional_ostracism').GetName]" # 14512936736804159291
+  BPM_VALUE_FROM_LAW_PROTECTED_SPEECH: "[Concept('concept_law', '법률')] [GetLawType('law_protected_speech').GetName]" # 365122252487604656
+  BPM_VALUE_FROM_LAW_ANARCHY: "[Concept('concept_law', '법률')] [GetLawType('law_anarchy').GetName]" # 15892910727718771228
+  BPM_VALUE_FROM_LAW_AD_HOC_CENTRALIZATION: "[Concept('concept_law', '법률')] [GetLawType('law_ad_hoc_centralization').GetName]" # 4454740287482729088
+  BPM_VALUE_FROM_LAW_STATE_RELIGION: "[Concept('concept_law', '법률')] [GetLawType('law_state_religion').GetName]" # 13002977031542383345
+  BPM_VALUE_FROM_LAW_STATE_ATHEISM: "[Concept('concept_law', '법률')] [GetLawType('law_state_atheism').GetName]" # 12030514605607920774
+  BPM_VALUE_FROM_LAW_NO_MULTICULTURALISM: "[Concept('concept_law', '법률')] [GetLawType('law_multicultural').GetName]가 아닌 법률" # 7736919962272621336
+  BPM_VALUE_FROM_INSTITUTION_LOCAL_POLICE: "[Concept('concept_institution', '제도')]의 [GetLawType('law_local_police').GetName]에 대한 투자" # 13740658252154171218
+  BPM_VALUE_FROM_INSTITUTION_NATIONAL_POLICE: "[Concept('concept_institution', '제도')]가 [GetLawType('law_dedicated_police').GetName]에 대한 투자를 진행합니다." # 7601178072311804064
+  BPM_VALUE_FROM_INSTITUTION_MILITARIZED_POLICE: "[Concept('concept_institution', '제도')]의 [GetLawType('law_militarized_police').GetName]에 대한 투자" # 3268207618375289196
+  BPM_VALUE_FROM_INSTITUTION_ELECTED_POLICE: "[Concept('concept_institution', '제도')]가 [GetLawType('law_elected_police').GetName]에 투자함" # 6013426723547692694
+  BPM_VALUE_FROM_INSTITUTION_NATIONAL_GUARD: "[Concept('concept_institution', '제도')]의 [GetLawType('law_national_guard').GetName]에 대한 투자" # 219366706107657625
+  BPM_VALUE_FROM_INSTITUTION_SECRET_POLICE: "[Concept('concept_institution', '제도')]에 대한 [GetLawType('law_secret_police').GetName] 투자" # 2706857167618823326
+  BPM_VALUE_FROM_INSTITUTION_GUARANTEED_LIBERTIES: "[Concept('concept_institution', '제도')] 투자와 [GetLawType('law_guaranteed_liberties').GetName]" # 10243320571940414190
+  BPM_VALUE_FROM_INSTITUTION_SUFFRAGE: "[Concept('concept_institution', '제도')]에 대한 [GetInstitutionType('institution_suffrage').GetName] 투자" # 16524657026410461857
+  BPM_VALUE_FROM_INSTITUTION_CENSORSHIP: "[GetLawType('law_censorship').GetName]에 대한 [Concept('concept_institution', '제도')] 투자" # 3218508648111576128
+  BPM_VALUE_FROM_INSTITUTION_OUTLAWED_DISSENT: "[Concept('concept_institution', '제도')] 투자가 [GetLawType('law_outlawed_dissent').GetName]에 이루어지고 있습니다." # 9175929573675670504
+  BPM_VALUE_FROM_INSTITUTION_RIGHT_OF_ASSEMBLY: "[GetLawType('law_right_of_assembly').GetName]에 대한 [Concept('concept_institution', '제도')] 투자" # 1186187885392310943
+  BPM_VALUE_FROM_REPEATABLE_LAW_POLITICS_TERROR: "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')] [GetLawType('law_repeatable_politics_terror').GetName]" # 18225589661089454588
+  BPM_VALUE_FROM_RADICALS: "[Concept('concept_radical', '급진파')]" # 11898089550871850944
+  BPM_VALUE_FROM_LOYALISTS: "[Concept('concept_loyalist', '충성파')]" # 16956167175403618325
+  BPM_VALUE_FROM_WAR: "[Concept('concept_war_support', '전쟁 지지')]" # 2710994712755172661
+  BPM_VALUE_FROM_WAR_HIGH_SUPPORT: "높은 [Concept('concept_war_support', '전쟁 지지율')]" # 843230677370856180
+  BPM_VALUE_FROM_WAR_MEDIUM_SUPPORT: "보통 [Concept('concept_war_support', '전쟁 지지도')]" # 1046755266292172031
+  BPM_VALUE_FROM_WAR_LOW_SUPPORT: "낮은 [Concept('concept_war_support', '전쟁 지지율')]" # 6572467668742899129
+  BPM_VALUE_FROM_WAR_VERY_LOW_SUPPORT: "매우 낮음 [Concept('concept_war_support', '전쟁 지지')]" # 8619270888443783277
+  BPM_VALUE_FROM_REVOLUTION: "진행 중인 [Concept('concept_revolution', '혁명')]" # 6544273081258960696
+  BPM_VALUE_FROM_INSURRECTION: "[Concept('concept_revolution', '혁명')]의 조짐이 보입니다" # 11435567029382550095
+  BPM_VALUE_FROM_INSURRECTION_CLOUT: "선동적인 [concept_interest_group] [concept_clout]" # 15861827353272900840
+  BPM_VALUE_FROM_ELECTION: "진행 중인 [Concept('concept_election', '선거')]" # 1190955415628550134
+  BPM_VALUE_FROM_LOW_LEGITIMACY: "낮음 (30 미만) [Concept('concept_legitimacy', '정통성')]" # 6395279349669346788
+  BPM_VALUE_FROM_VERY_LOW_LEGITIMACY: "매우 낮음 (10 미만) [Concept('concept_legitimacy', '정통성')]" # 10031984030324088343
+  BPM_VALUE_FROM_ENTRENCHED_INTEREST_GROUPS: "매년 현 집권 중인 [Concept('concept_interest_group', '이해집단')]은 [concept_in_government]를 소모합니다" # 6375893340306046054
+  BPM_VALUE_FROM_RIGIDITY: "[Concept('concept_bpm_political_stability', '$concept_bpm_political_stability$')]" # 9470758526676256642
+  BPM_VALUE_FROM_PEASANT_POPULATION: "[GetPopType('peasants').GetName] 인구" # 10758574329631596264
+  BPM_VALUE_FROM_LABORER_POPULATION: "[GetPopType('laborers').GetName] 인구" # 16557012239200154748
+  BPM_VALUE_FROM_MACHINIST_POPULATION: "[GetPopType('machinists').GetName]" # 5172136446097589601
+  BPM_VALUE_FROM_PEASANT_RADICALS: "[concept_radical] [GetPopType('peasants').GetName]로부터" # 1628276716099335503
+  BPM_VALUE_FROM_LABORER_RADICALS: "[concept_radical] [GetPopType('laborers').GetName]로부터" # 15630439224457726586
+  BPM_VALUE_FROM_MACHINIST_RADICALS: "[concept_radical] [GetPopType('machinists').GetName]로부터" # 16597426101365578148
+  BPM_VALUE_FROM_LABORER_LOYALISTS: "[concept_loyalist] [GetPopType('laborers').GetName]로부터" # 69739404931403483
+  BPM_VALUE_FROM_MACHINIST_LOYALISTS: "[concept_loyalist] [GetPopType('machinists').GetName]로부터" # 17205081138549728686
+  BPM_VALUE_FROM_SYNDICALISM_DEVELOPMENT: "#yellow $je_bpm_syndicalism$#! 일지 항목 진행 상황" # 12263823700701350921
+  BPM_VALUE_FROM_AGRARIAN_SOCIALISM_DEVELOPMENT: "#yellow $je_bpm_agrarian_socialism$#! 일지 항목 진척도" # 18257236578972870278
+  BPM_VALUE_FROM_SOCS_POPULARITY: "[GetInterestGroupVariant('ig_socialists', GetPlayer).GetName]의 인기" # 3535345396433656716
+  BPM_VALUE_FROM_REVSOCS_POPULARITY: "[GetInterestGroupVariant('ig_revolutionist_socialists', GetPlayer).GetName]의 인기" # 13933097892387407981
+  BPM_VALUE_FROM_REFSOCS_POPULARITY: "[GetInterestGroupVariant('ig_reformist_socialists', GetPlayer).GetName]의 인기" # 7107874388092625801
+  BPM_VALUE_FROM_TRADE_UNIONS_POPULARITY: "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]의 인기" # 13438588993707985666
+  BPM_VALUE_FROM_RURAL_FOLK_POPULARITY: "[GetInterestGroupVariant('ig_rural_folk', GetPlayer).GetName]의 인기" # 3358306623276086816
+  BPM_VALUE_FROM_INTELLIGENTSIA_POPULARITY: "[GetInterestGroupVariant('ig_intelligentsia', GetPlayer).GetName]의 인기" # 1836774201159600494
+  BPM_VALUE_FROM_NATLIBS_POPULARITY: "[GetInterestGroupVariant('ig_national_liberals', GetPlayer).GetName]의 인기" # 4130790912596017441
+  BPM_VALUE_FROM_LIBS_POPULARITY: "[GetInterestGroupVariant('ig_liberals', GetPlayer).GetName]의 인기" # 7533478336435111979
+  BPM_VALUE_FROM_INDUSTRIALISTS_POPULARITY: "[GetInterestGroupVariant('ig_industrialists', GetPlayer).GetName]의 인기" # 8155693450175391411
+  BPM_VALUE_FROM_PETTY_BOURGEOISIE_POPULARITY: "[GetInterestGroupVariant('ig_petty_bourgeoisie', GetPlayer).GetName]의 인기" # 13099098093774972774
+  BPM_VALUE_FROM_ARMED_FORCES_POPULARITY: "[GetInterestGroupVariant('ig_armed_forces', GetPlayer).GetName]의 인기" # 7733761340284659079
+  BPM_VALUE_FROM_RADS_POPULARITY: "[GetInterestGroupVariant('ig_radicals', GetPlayer).GetName]의 인기" # 3709503888139545088
+  BPM_VALUE_FROM_REC: "스탤워트파에 대한 아프리카계 미국인의 지지로부터" # 2620278410070573586
+  BPM_VALUE_POWERFUL_ANARCHISTS: "무정부주의자들의 힘이 강하다" # 4385739329726227914
+  BPM_VALUE_BOLSTERED_ANARCHISTS: "무정부주의자 세력 강화됨" # 17615013875968473190
+  BPM_VALUE_ANARCHIST_AGITATORS: "무정부주의 [Concept('concept_agitator', '선동가')]" # 8397528834618455095
+  BPM_VALUE_FROM_MONARCH_POPULARITY: "[Concept('concept_ruler', '군주')] [Concept('concept_popularity', '지지율')] ([GetPlayer.GetRuler.GetFullName])" # 12652557222814318314
+  BPM_VALUE_FROM_MONARCH_POPULARITY_NEGATIVE: "부정적인 [Concept('concept_ruler', '군주')] [Concept('concept_popularity', '인기')] ([GetPlayer.GetRuler.GetFullName])" # 1624689392218164246
+  BPM_VALUE_FROM_N_LEADER_AND_AGITATORS: "[Concept('concept_popularity', '인기')]의 [Concept('concept_leader', '지도자')] 및" # 2572501072919578676
+  BPM_VALUE_FROM_CONSERVATIVE_LEADER_AND_AGITATORS: "$BPM_VALUE_FROM_N_LEADER_AND_AGITATORS$ [GetInterestGroupVariant('ig_conservatives',GetPlayer).GetName]" # 14947187486785171430
+  BPM_VALUE_FROM_REACTIONARY_LEADER_AND_AGITATORS: "$BPM_VALUE_FROM_N_LEADER_AND_AGITATORS$ [GetInterestGroupVariant('ig_reactionaries',GetPlayer).GetName]" # 11140442908241861432
+  BPM_VALUE_FROM_LIBERAL_LEADER_AND_AGITATORS: "$BPM_VALUE_FROM_N_LEADER_AND_AGITATORS$ [GetInterestGroupVariant('ig_liberals',GetPlayer).GetName]" # 5574702175723134058
+  BPM_VALUE_FROM_RADICAL_LEADER_AND_AGITATORS: "$BPM_VALUE_FROM_N_LEADER_AND_AGITATORS$ [GetInterestGroupVariant('ig_radicals',GetPlayer).GetName]" # 1882531604876677831
+  BPM_VALUE_FROM_SOCIALIST_LEADER_AND_AGITATORS: "$BPM_VALUE_FROM_N_LEADER_AND_AGITATORS$ [GetInterestGroupVariant('ig_socialists',GetPlayer).GetName]" # 3527327825518816228
+  BPM_VALUE_FROM_AGRARIAN_SOCIALIST_CHARACTERS: "[GetIdeology('ideology_eco_agrarian_socialist').GetName] 계열 인물들로부터" # 2517788764147567140
+  BPM_VALUE_FROM_SYNDICALIST_CHARACTERS: "#yellow $ideology_syndicalist$#! 인물 인기" # 6238757471210000307
+  BPM_VALUE_FROM_JOURNAL_PROGRESS: "일지 기록 진행 상황" # 10488069773001223533
+  BPM_VALUE_JOURNAL_DURATION: "일지 항목 지속 기간" # 4966176842252502708
+  BPM_VALUE_FROM_PREV_BOMBS: "이전 폭격들로부터" # 16551805740526311431
+  BPM_VALUE_FROM_POTD_CONVICTION: "#분홍색 신념의 힘#!" # 11404206654367778597
+  BPM_VALUE_POTD_ENDED_IN_GP: "#N 행위의 선전#! 이 [concept_great_power]로 막을 내렸습니다." # 3159481021287220968
+  BPM_VALUE_FROM_SYNDICALISM_LEGITIMIZED: "합법화된 생디칼리즘" # 18094778990012510848
+  BPM_VALUE_FROM_FAILED_SYNDICALIST_STRIKES: "실패한 생디칼리스트 파업으로부터" # 8508021979922872763
+  BPM_VALUE_FROM_NO_TECH_ANARCHISM: "#노란색 $무정부주의$#! 연구되지 않음" # 11796515230764827538
+  BPM_VALUE_FROM_SOCIALIST_IGS_POPULARITY: "[Concept('concept_bpm_ig_is_socialist','사회주의자 이익집단')] 인구" # 13372723817856625793
+  BPM_VALUE_FROM_SOCIALISTS_APPROVAL_POPULARITY: "[Concept('concept_bpm_ig_is_socialist','사회주의적 이해집단')] 인구와 [Concept('concept_approval','불만)]" # 8720348688113511299
+  BPM_VALUE_FROM_TRADE_UNION_POPULARITY: "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName] 인구" # 365472525987748973
+  BPM_VALUE_FROM_TRADE_UNIONS_APPROVAL_POPULARITY: "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName] 인구 및 [Concept('concept_approval','Disapproval')]" # 5950696805716301501
+  BPM_VALUE_FROM_TRADE_UNION_CLOUT: "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName] [concept_clout]" # 2541679933172183361
+  BPM_VALUE_FROM_TRADE_UNIONS_APPROVAL_CLOUT: "[GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName] [concept_clout]와 [Concept('concept_approval','Disapproval')]" # 4321122736689906252
+  BPM_VALUE_FROM_POPULAR_ANGRY_TRADE_UNIONS: "$ig_approval_angry$ [GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]" # 10782787989926166125
+  BPM_VALUE_FROM_ONGOING_LIBERAL_REVOLUTION: "진행 중인 [concept_bpm_ig_is_liberal] [concept_revolution]" # 13442789178792672018
+  BPM_VALUE_FROM_ONGOING_SOCIALIST_REVOLUTION: "진행 중인 [concept_bpm_ig_is_socialist] [concept_revolution]" # 17774569338852156063
+  BPM_VALUE_FROM_law_corporatized_unions: "기업화된 노동조합" # 8817373650135988639
+  BPM_VALUE_FROM_law_anti_strike_laws: "[GetLawType('law_anti_strike_laws').GetName]" # 3442352733321146323
+  BPM_VALUE_REVOLUTIONIST_SOCIALISTS_IN_GOVERNMENT: "[GetInterestGroupVariant('ig_revolutionist_socialists', GetPlayer).GetName] [concept_in_government]" # 15436785559473680102
+  BPM_VALUE_REFORMIST_SOCIALISTS_IN_GOVERNMENT: "[GetInterestGroupVariant('ig_reformist_socialists', GetPlayer).GetName] [concept_in_government]" # 10873750897746789515
+  BPM_VALUE_SOCIALISTS_IN_GOVERNMENT: "[GetInterestGroupVariant('ig_socialists', GetPlayer).GetName] [concept_in_government]" # 4939100837152946367
+  BPM_VALUE_STRIKE_EXHAUSTION: "파업 노동자들의 #blue 피로도#!" # 6632355768507625195
+  BPM_VALUE_FROM_NO_GOAL: "파업에는 목표가 없습니다" # 8048374737314569833
+  BPM_VALUE_FROM_CONTENT_LABOR_IGS: "하나 이상의 [Concept('concept_bpm_ig_is_labor', '노동 이해집단')]이 긍정적인 [concept_approval]을 보유하고 있습니다." # 13580948777902011168
+  BPM_MAX_EXHAUSTION_RATE_IN_REVOLUTION: "#blue 극심한 피로#! 활동 중인 [concept_revolution]에서 비율이 제한됨" # 12059643952897338943
+  BPM_VALUE_FROM_RETREATING_STRIKERS: "#P 파업 노동자들이 후퇴하고 있습니다!#!" # 6318191281354899658
+  BPM_VALUE_FROM_PRO_CONSERVATIVE_LAW_PASSING: "[GetInterestGroupVariant('ig_conservatives', GetPlayer).GetName]은 이 일지 항목이 시작된 이래 통과된 [Concept('concept_law', '법률')]을 선호했습니다." # 3063990648045229123
+  BPM_VALUE_FROM_PRO_MODERNIZER_LOBBY_APPEASEMENT: "$bpm_je_all_modernizers$가 선호하는 [Concept('concept_political_lobby', '정당')]의 [Concept('concept_political_lobby_appeasement', '유화책')]" # 6740889478809873586
+  BPM_VALUE_FROM_PRO_MODERNIZER_LAW_PASSING: "[GetInterestGroupVariant('ig_liberals', GetPlayer).GetName] 또는 [GetInterestGroupVariant('ig_radicals', GetPlayer).GetName]이 이번 회고록 시작 이후 통과된 [Concept('concept_law', '법률')]을 선호합니다" # 1967712857140002301
+  BPM_VALUE_FROM_PRO_CONSERVATIVE_REPEATABLE_LAWS: "현재 활성 중인 [Concept('concept_bpm_repeatable_law', '반복 가능한 법률'): 법률]은 [GetLawType('law_repeatable_religion_anti_secular_reaction').GetName], [GetLawType('law_repeatable_military_parades_and_drills').GetName], [GetLawType('law_repeatable_culture_promote_absolutist_values').GetName], 그리고 [GetLawType('law_repeatable_religion_promote_state_religion').GetName]입니다." # 917533471653397157
+  BPM_VALUE_FROM_PRO_LIBERAL_REPEATABLE_LAWS: "다음의 모든 [Concept('concept_bpm_repeatable_law', '반복 가능한 법률')]이 활성화되어 있습니다: [GetLawType('law_repeatable_religion_promote_secular_values').GetName], [GetLawType('law_repeatable_culture_promote_democratic_values').GetName], 그리고 [GetLawType('law_repeatable_culture_invite_foreign_experts').GetName]" # 546561177997059729
+  BPM_VALUE_FROM_MODERNIZER_MINIMUM_BETWEEN_TWO_IDEOLOGIES: "$bpm_je_all_modernizers$와 $bpm_je_all_antimodernizers$ 사이의 #bold 최저#! 변증법적 힘" # 14789560314895644142
+  BPM_VALUE_FROM_MODERNIZER_COPIED_SOCIETY_AMOUNT: "$bpm_je_modernizers_copy_society_button$ 작업이 이전에 사용되었습니다!" # 2211457340349808709
+  BPM_VALUE_FROM_MODERNIZER_DIALECTIC_STRENGTH: "$bpm_je_all_modernizers$의 변증법적 역량" # 2007861575090822018
+  BPM_VALUE_FROM_ANTI_MODERNIZER_DIALECTIC_STRENGTH: "$bpm_je_all_antimodernizers$의 변증법적 역량" # 2726821625640569638
+  BPM_VALUE_FROM_ANTI_SECULAR_REACTION_LAW: "[GetLawType('law_repeatable_religion_anti_secular_reaction').GetName] [Concept('concept_bpm_repeatable_law', '반복 가능 법률')] 시행 중" # 9026352242170287574
+  BPM_VALUE_FROM_PARADES_AND_DRILLS_LAW: "[GetLawType('law_repeatable_military_parades_and_drills').GetName] [Concept('concept_bpm_repeatable_law', '반복 가능한 법률')]가 활성화되었습니다" # 17916518913104249135
+  BPM_VALUE_FROM_PROMOTE_ABSOLUTIST_VALUES_LAW: "[GetLawType('law_repeatable_culture_promote_absolutist_values').GetName] [Concept('concept_bpm_repeatable_law', '반복 법률')] 적용 중" # 5629174324552196371
+  BPM_VALUE_FROM_PROMOTE_STATE_RELIGION_LAW: "[GetLawType('law_repeatable_religion_promote_state_religion').GetName] [Concept('concept_bpm_repeatable_law', '반복법]')가 발효 중입니다" # 8426724749985542650
+  BPM_VALUE_FROM_PROMOTE_SECULAR_VALUES_LAW: "[GetLawType('law_repeatable_religion_promote_secular_values').GetName] [Concept('concept_bpm_repeatable_law', '반복 가능 법률')] 발효 중" # 15001715644027163054
+  BPM_VALUE_FROM_PROMOTE_DEMOCRATIC_VALUES_LAW: "[GetLawType('law_repeatable_culture_promote_democratic_values').GetName] [Concept('concept_bpm_repeatable_law', '반복 법률')] 발효 중" # 17531281271348044808
+  BPM_VALUE_FROM_INVITE_FOREIGN_EXPERTS_LAW: "[GetLawType('law_repeatable_culture_invite_foreign_experts').GetName] [Concept('concept_bpm_repeatable_law', '반복 가능 법률')] 활성" # 7715093893527628620
+  BPM_STABILITY_FROM_WAR_BASE: "#gold 전쟁 진행 중#! 기본 값" # 11701340909623124748
+  BPM_STABILITY_FROM_WAR_OCCUPATION: "#gold 진행 중인 전쟁#! 적 점령" # 13941925196112594309
+  BPM_STABILITY_FROM_WAR_CASUALTIES: "#gold 진행 중인 전쟁#! 사상자" # 6233592706087131896

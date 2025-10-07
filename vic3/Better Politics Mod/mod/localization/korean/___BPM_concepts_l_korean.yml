@@ -1,0 +1,225 @@
+﻿l_korean:
+  concept_bpm_party_ban: "정당 금지" # 17233978227346913491
+  concept_bpm_party_ban_desc: "특정 [Concept('concept_law', '법률')]은 다양한 [Concept('concept_party', '정당')]을 금지시킬 수 있습니다. 금지되면, 어떠한 [Concept('concept_interest_group','$concept_interest_groups$')]도 해당 [Concept('concept_party', '정당')]에 가입할 수 없습니다. 귀국의 언론의 자유 [Concept('concept_law', '법률')]가 정확히 어떤 [Concept('concept_party', '정당')]이 정당 금지로 인해 추방될지를 결정합니다." # 10753627206179819469
+  concept_bpm_bannable_reactionaries: "금지된 반동주의 정당" # 3767980662229943440
+  concept_bpm_bannable_reactionaries_desc: "항상 파시스트 정당을 금지합니다. 검열(또는 그 이상의 조치)은 또한 반응주의 정당도 금지합니다. 반체제 인사 추방은 보수 및 종교 정당도 금지합니다." # 15199535371206949312
+  concept_bpm_bannable_socialists: "사회주의 정당 금지" # 364472005057243157
+  concept_bpm_bannable_socialists_desc: "공산당과 무정부주의 정당(그리고 제2인터내셔널 이전에는 사회민주당)을 항상 금지합니다. 검열(또는 더 강력한 조치)은 또한 사회민주당을 금지합니다(제2인터내셔널 이후인 경우). 불법 반대파는 급진당 또한 금지합니다." # 11252462946730855020
+  concept_bpm_bannable_reactionaries_plus: "사회주의 반대 정당 금지" # 15490630187263498262
+  concept_bpm_bannable_reactionaries_plus_desc: "항상 파시스트당, 반동당, 종교당, 보수당을 금지합니다. 검열(또는 더 강한 조치)은 자유당과 농본주의당도 금지합니다. 불법적 불만은 급진당도 금지합니다." # 13010415531909610456
+  concept_bpm_bannable_socialists_plus: "반(反)전통주의 정당 금지" # 866062929580380527
+  concept_bpm_bannable_socialists_plus_desc: "항상 공산당, 무정부당, 사회민주당, 급진당을 금지합니다. 검열(또는 그보다 강력한 조치)은 자유당과 농본주의당도 금지합니다. 반체제 인사 탄압은 보수당도 금지합니다." # 8932853794320738211
+  concept_bpm_bannable_antiliberals: "자유주의 반대 정당 금지" # 14380097255380323143
+  concept_bpm_bannable_antiliberals_desc: "항상 공산주의, 무정부주의, 파시스트 정당을 (그리고 제2인터내셔널 이전의 사회민주당을) 금지합니다. 검열(또는 더 강력한 조치)은 또한 반동주의 정당(그리고 제2인터내셔널 이후의 사회민주당)을 금지합니다. 반체제 인사 추방은 급진주의 및 종교 정당을 금지합니다." # 4092518234014648261
+  concept_bpm_socialist_agitator: "사회주의 선동가" # 4315688297843836120
+  concept_bpm_socialist_agitator_desc: "[Concept('concept_ideology', '이념')]이나 [Concept('concept_interest_group', '이익 집단')]이 [GetLawType('law_council_republic').GetName] [Concept('concept_law', '법률')]의 제정을 지지하는 선동가." # 15278651260825838568
+  concept_bpm_global_je: "글로벌 일지 항목" # 3947495178954443849
+  concept_bpm_global_je_desc: "모든 국가에서 동시에 활성화되는 일지 항목입니다. 진척도는 이 국가들 간에 공유되며, 진척도에 영향을 미치는 요인은 대개 국제적인 것입니다." # 12846365293222588773
+  concept_bpm_repeatable_law: "반복 가능한 법률" # 14951991152420589927
+  concept_bpm_repeatable_laws: "반복 가능한 법률" # 3918705626058683619
+  concept_bpm_repeatable_law_desc: "$concept_bpm_repeatable_laws$는 국가($\text{Concept('concept\_country', 'Country')}$)가 반복적으로 제정할 수 있는 법률($\text{Concept('concept\_law', 'Laws')}$)입니다. 이러한 법률은 제정될 때마다 기본값으로 초기화됩니다.\n\n$concept\_bpm\_repeatable\_laws$는 즉각적인 효과를 발생시키며 일반 법률보다 더 빠르게 제정됩니다. 일단 통과되면 해당 $concept\_bpm\_repeatable\_law$는 재사용 대기시간에 들어갑니다. 여러 개의 $concept\_bpm\_repeatable\_laws$가 동시에 통과될 수 있으며 그 효과는 중첩됩니다.\n\n@information! #blue #v 유용한 팁:#! 이 법률들은 더욱 의미 있는 개혁이 아직 불가능할 때 의회를 차지할 수 있는 선택적 법률들입니다. 일부 반복 가능한 법률은 위험할 수 있는 상충 관계를 동반하므로, 제정 전에 신중하게 생각해야 합니다.#!" # 7992440754018640490
+  concept_bpm_ideological_ig: "이념적 이해집단" # 15909001931122810907
+  concept_bpm_ideological_ig_desc: "이념적 [Concept('concept_interest_group', '이해집단')]은 그들의 강력한 이념적 특성으로 정의됩니다. 그들은 광범위한 [Concept('concept_law', '법률')]에 대한 강력한 견해를 제공하는 방대한 수의 [Concept('concept_ideology', '이념')]을 가지고 있습니다. 이들은 또한 가장 변덕스러운 [Concept('concept_interest_group', '이해집단')]이기도 합니다. 그들은 종종 [Concept('concept_radical', '급진파')]나 [Concept('concept_loyalist', '충성파')]로부터 지지자를 얻거나 국가 내 다양한 사건의 결과로 지지자를 얻습니다." # 1835324725463850580
+  concept_bpm_institutional_ig: "제도 이익 집단" # 13217390936038973602
+  concept_bpm_institutional_ig_desc: "제도적인 [Concept('concept_interest_group', '이해집단')]은 비교적 비이념적이라는 특징으로 정의됩니다. 이들은 물질적 이익과 가장 직접적으로 관련된 제한된 수의 [Concept('concept_ideology', '이념')]만을 중요하게 여깁니다. 이러한 [Concept('concept_interest_group', '이해집단')]들은 보통 [Concept('concept_bpm_politically_stagnant', '정치적 침체')] 상태의 국가에서 두드러지지만, [Concept('concept_bpm_politically_unstable', '정치적 불안정')] 시기에는 중요성을 잃고 사라지는 경향이 있습니다." # 12425278456526377063
+  tooltip_bpm_ig_is_revolutionary_socialist: "[Concept('concept_bpm_ig_is_revolutionary_socialist', '$concept_bpm_ig_is_revolutionary_socialist$')] [Concept('concept_interest_group', '이해집단')]입니까" # 12136084635041804833
+  concept_bpm_ig_is_revolutionary_socialist: "혁명적 사회주의자" # 16388837865811757632
+  concept_bpm_ig_is_revolutionary_socialist_desc: "[Concept('concept_interest_group', '이해집단')]이 [GetIdeology('ideology_gov_radical_proletarian').GetName] [Concept('concept_ideology', '이념')]을 가졌으며, [GetIdeology('ideology_dop_anarchist').GetName] [Concept('concept_ideology', '이념')]은 가지지 않았습니다. 그들은 당 조직이 사회주의 달성과 국가의 소멸을 위해 필수적이라고 여깁니다." # 12439165121318863641
+  tooltip_bpm_ig_is_anarchist: "[Concept('concept_bpm_ig_is_anarchist', '$concept_bpm_ig_is_anarchist$')] [Concept('concept_interest_group', '이해집단')]입니까" # 1421161901541881138
+  concept_bpm_ig_is_anarchist: "아나키스트" # 5777696145623761088
+  concept_bpm_ig_is_anarchist_desc: "[Concept('concept_interest_group', '이해집단')] 중 [GetIdeology('ideology_dop_anarchist').GetName] 또는 [GetIdeology('ideology_dop_anarcho_syndicalist').GetName] [Concept('concept_ideology', '이념')]을 가진 집단. 그들은 자신들의 즉각적인 목표로 국가를 비롯한 모든 위계질서의 철폐를 신봉합니다." # 1121006940981931970
+  tooltip_bpm_ig_is_radical_socialist: "[Concept('concept_bpm_ig_is_radical_socialist', '$concept_bpm_ig_is_radical_socialist$')] [Concept('concept_interest_group', '이해집단')]입니까" # 4945919809977769368
+  concept_bpm_ig_is_radical_socialist: "급진 사회주의자" # 4427393953592490813
+  concept_bpm_ig_is_radical_socialist_desc: "@ig_socialists! #bold 사회주의자들#! 혁명을 통해 사회주의를 달성해야 한다고 믿는 [Concept('concept_interest_group', '이해 집단')] 또는 [Concept('concept_bpm_ig_is_revolutionary_socialist', '혁명적 사회주의자')]이거나 [Concept('concept_bpm_ig_is_anarchist', '아나키스트')]인 [Concept('concept_interest_group', '이해 집단')]입니다." # 4871748472058954708
+  tooltip_bpm_ig_is_reformist_socialist: "[Concept('concept_bpm_ig_is_reformist_socialist', '$concept_bpm_ig_is_reformist_socialist$')] [Concept('concept_interest_group', '이해집단')]입니까?" # 13117477967575294104
+  concept_bpm_ig_is_reformist_socialist: "개혁주의 사회주의자" # 16985890726724762737
+  concept_bpm_ig_is_reformist_socialist_desc: "@ig_reformist_socialists!# #bold 개혁주의 사회주의자#! [Concept('concept_interest_group', 'Interest Group')] 혹은 [GetIdeology('ideology_gov_moderate_proletarian').GetName] [Concept('concept_ideology', 'Ideology')]를 가진 [Concept('concept_interest_group', 'Interest Group')]. 그들은 혁명이 아닌 개혁을 통해 사회주의에 도달할 수 있다는 믿음을 가지고 있습니다." # 9184679026625654694
+  tooltip_bpm_ig_is_syndicalist: "[Concept('concept_bpm_ig_is_syndicalist', '$concept_bpm_ig_is_syndicalist$')] [Concept('concept_interest_group', '이익집단')]입니까" # 2834839146035380663
+  concept_bpm_ig_is_syndicalist: "생디칼리스트" # 12287891860791190895
+  concept_bpm_ig_is_syndicalist_desc: "[Concept('concept_interest_group', '이해집단')]은 [GetIdeology('ideology_dop_syndicalist').GetName], [GetIdeology('ideology_dop_anarcho_syndicalist').GetName] 또는 [GetIdeology('ideology_dop_syndical_unionist').GetName] [Concept('concept_ideology', '이념')] 중 하나를 가지고 있습니다. 그들은 노동조합이 사회주의 하에서 사회의 구성 단위가 되어야 한다고 믿습니다." # 2451350500802084780
+  tooltip_bpm_ig_is_party_socialist: "[Concept('concept_bpm_ig_is_party_socialist', '$concept_bpm_ig_is_party_socialist$')] [Concept('concept_interest_group', '이해집단')]입니까" # 16278294256906336658
+  concept_bpm_ig_is_party_socialist: "사회주의 정당" # 17705717531384586633
+  concept_bpm_ig_is_party_socialist_desc: "[Concept('concept_interest_group', '이해집단')] 중 [Concept('concept_bpm_ig_is_revolutionary_socialist', '혁명적 사회주의자')]이거나 [Concept('concept_bpm_ig_is_reformist_socialist', '개량주의적 사회주의자')]인 집단. 이들은 규율 잡힌 정당 구조가 사회주의로 나아가는 데 필수적인 단계라고 믿습니다." # 4778155696459626063
+  tooltip_bpm_ig_is_authoritarian_socialist: "[Concept('concept_bpm_ig_is_authoritarian_socialist', '$concept_bpm_ig_is_authoritarian_socialist$')] [Concept('concept_interest_group', '이익집단')]인가" # 5285219915420257271
+  concept_bpm_ig_is_authoritarian_socialist: "권위주의 사회주의자" # 1067909780518057434
+  concept_bpm_ig_is_authoritarian_socialist_desc: "[Concept('concept_interest_group', '이해집단')]으로서 [Concept('concept_bpm_ig_is_socialist', '혁명적 사회주의자')]이며, [GetIdeology('ideology_dop_party_socialist').GetName] 또는 [GetIdeology('ideology_dop_party_state').GetName] [Concept('concept_ideology', '이념')]을 가지고 있습니다. 이들은 혁명의 성과를 수호하기 위해서는 사회주의 국가가 필수적이라고 믿습니다." # 16296066414962640579
+  tooltip_bpm_ig_is_moderate_socialist: "[Concept('concept_bpm_ig_is_moderate_socialist', '$concept_bpm_ig_is_moderate_socialist$')] [Concept('concept_interest_group', '이해집단')]입니까" # 16846238251515023300
+  concept_bpm_ig_is_moderate_socialist: "온건 사회주의자" # 7515854792594921084
+  concept_bpm_ig_is_moderate_socialist_desc: "[Concept('concept_interest_group', '이익 집단')]이면서 동시에 [Concept('concept_bpm_ig_is_party_socialist', '사회주의 정당')]이거나, [GetIdeology('ideology_gov_radical_proletarian').GetName] [Concept('concept_ideology', '이념')]이나 [GetIdeology('ideology_gov_moderate_proletarian').GetName] [Concept('concept_ideology', '이념')]을 보유하고 있지 않으면서, [GetIdeology('ideology_eco_agrarian_socialist').GetName] [Concept('concept_ideology', '이념')]을 보유한 집단입니다. 이들은 완전한 사회주의 경제와 국가가 현 시점에서 너무 나아가고 있다고 믿지만, 여전히 진보적인 개혁은 지지합니다." # 10437268501228577162
+  tooltip_bpm_ig_is_proletarian_socialist: "[Concept('tooltip_bpm_ig_is_proletarian_socialist', '$tooltip_bpm_ig_is_proletarian_socialist$')] [Concept('concept_interest_group', '이해집단')]입니까" # 17663267569708484670
+  concept_bpm_ig_is_proletarian_socialist: "프롤레타리아 사회주의자" # 251552036477600020
+  concept_bpm_ig_is_proletarian_socialist_desc: "[Concept('concept_interest_group', '이해 단체')] 중 [Concept('concept_bpm_ig_is_party_socialist', '사회주의 정당')], [Concept('concept_bpm_ig_is_anarchist', '무정부주의자')], 또는 [Concept('concept_bpm_ig_is_syndicalist', '생디칼리스트')]에 해당하는 단체입니다. 이들은 산업 노동 계급인 프롤레타리아가 사회주의를 실현할 주된 계급이라고 믿습니다." # 3582361104815233456
+  tooltip_bpm_ig_is_socialist: "[Concept('concept_bpm_ig_is_socialist', '$concept_bpm_ig_is_socialist$')] [Concept('concept_interest_group', '이익 집단')]입니까?" # 14293011367526340085
+  concept_bpm_ig_is_socialist: "사회주의자" # 3261957402647864113
+  concept_bpm_ig_is_socialist_desc: "[Concept('concept_interest_group', '이익 집단')] 중 [Concept('concept_bpm_ig_is_proletarian_socialist', '프롤레타리아 사회주의자')]이거나 [GetIdeology('ideology_eco_agrarian_socialist').GetName] [Concept('concept_ideology', '이념')]을 가진 단체. 이들은 생산 수단과 통치가 인민에 의해 직접 통제되는 사회주의가 바람직한 최종 목표라고 믿습니다." # 1344583104905442343
+  tooltip_bpm_ig_is_proletarian: "[Concept('concept_bpm_ig_is_proletarian', '$concept_bpm_ig_is_proletarian$')] [Concept('concept_interest_group', '이해집단')]입니까" # 17202747852652766033
+  concept_bpm_ig_is_proletarian: "프롤레타리아" # 11619132863004024932
+  concept_bpm_ig_is_proletarian_desc: "#bold 노동조합#! [Concept('concept_interest_group', 'Interest Group')]은 [GetLawType(law_corporatized_unions').GetName] 법률 하에 있지 않거나, [Concept('concept_bpm_ig_is_proletarian_socialist', '프롤레타리아 사회주의자')] [Concept('concept_interest_group', '이해집단')]이 아니라면 존재하지 않습니다. 이들은 변화의 시대에 놓인 산업 노동자들의 염원을 대변합니다." # 16331939330356431900
+  tooltip_bpm_ig_is_labor: "[Concept('concept_bpm_ig_is_labor', '$concept_bpm_ig_is_labor$')] [Concept('concept_interest_group', '종속 집단')]인가" # 9525259885400555101
+  concept_bpm_ig_is_labor: "노동" # 1643822327924545748
+  concept_bpm_ig_is_labor_desc: "노동 계층의 염원을 지지하는 [Concept('concept_interest_group', '이익 집단')]으로, [Concept('concept_bpm_ig_is_socialist', '사회주의자')]이거나 [Concept('concept_bpm_ig_is_proletarian', '프롤레타리아')]이다." # 12503751517547445417
+  tooltip_bpm_ig_is_actually_desiring_socialism: "[Concept('concept_bpm_ig_is_actually_desiring_socialism', '$concept_bpm_ig_is_actually_desiring_socialism$')] [Concept('concept_interest_group', '이해집단')]입니까" # 4475416487575988467
+  concept_bpm_ig_is_actually_desiring_socialism: "진정한 사회주의자" # 4669971209676217085
+  concept_bpm_ig_is_actually_desiring_socialism_desc: "#bold 사회주의자#이면서 #bold 온건 사회주의자#가 아닌 [Concept('concept_interest_group', '이익 집단')]. 그들은 사회주의가 가까운 미래에 건설될 수 있고 건설되어야 한다고 믿는다." # 18302442677035835610
+  tooltip_bpm_ig_is_agrarian: "[Concept('concept_bpm_ig_is_agrarian', '$concept_bpm_ig_is_agrarian$')] [Concept('concept_interest_group', '이해집단')]이 맞는가" # 7398466158207141038
+  concept_bpm_ig_is_agrarian: "농업의" # 10987464539595942299
+  concept_bpm_ig_is_agrarian_desc: "[Concept('concept_interest_group', '이해집단')]은(는) [GetIdeology('ideology_eco_agrarian_socialist').GetName], [GetIdeology('ideology_eco_modern_agrarian').GetName], [GetIdeology('ideology_eco_traditional_agrarian').GetName], [GetIdeology('ideology_eco_slave_economy').GetName], [GetIdeology('ideology_eco_serf_economy').GetName], [GetIdeology('ideology_eco_trad_isolationist').GetName] 또는 [GetIdeology('ideology_eco_agrarian_autarky').GetName] [Concept('concept_ideology', '이념')]을(를) 가지고 있으며, 농업의 필요를 최우선으로 하고 이를 경제의 중심으로 간주하는 것을 지지합니다." # 7535345167256048006
+  tooltip_bpm_ig_wants_small_government: "[Concept('concept_bpm_ig_wants_small_government', '$concept_bpm_ig_wants_small_government$')] [Concept('concept_interest_group', '이해집단')]인가요" # 13118694990189325996
+  concept_bpm_ig_wants_small_government: "소규모 정부" # 16369182526223907365
+  concept_bpm_ig_wants_small_government_desc: "[Concept('concept_interest_group', '이해집단')]이 [GetIdeology('ideology_sta_minimal_state').GetName], [GetIdeology('ideology_sta_decentralized_state').GetName], [GetIdeology('ideology_sta_subjugated_state').GetName], 또는 [GetIdeology('ideology_sta_weak_state').GetName] [Concept('concept_ideology', '이념')]을 가지고 있습니다. 그들은 사회의 이익을 위해 시민들(적어도 그들의 집단 지지자들)에게 간섭하지 않는 작은 정부가 필요하다고 믿습니다." # 12577632889885588981
+  tooltip_bpm_ig_is_pro_serfdom: "[Concept('concept_bpm_ig_is_pro_serfdom', '$concept_bpm_ig_is_pro_serfdom$')] [Concept('concept_interest_group', '이익 집단')]입니까" # 6248555200299686106
+  concept_bpm_ig_is_pro_serfdom: "농노제 찬성" # 12015333102965114298
+  concept_bpm_ig_is_pro_serfdom_desc: "[Concept('concept_interest_group', '이익집단')]으로, [GetIdeology('ideology_eco_serf_economy').GetName], [GetIdeology('ideology_eco_trad_isolationist').GetName], 또는 [GetIdeology('ideology_eco_debt_serf_economy').GetName] [Concept('concept_ideology', '이념')]을 가진 집단입니다. 이들은 광대한 농업 영지에 묶여 있는 농노들의 전통적인 구조를 보존하고자 합니다." # 4551326648986946835
+  tooltip_bpm_ig_is_democrat: "[Concept('concept_bpm_ig_is_democrat', '$concept_bpm_ig_is_democrat$')] [Concept('concept_interest_group', '이해집단')]입니까" # 15167232437886605989
+  concept_bpm_ig_is_democrat: "민주적인" # 12500336123865823944
+  concept_bpm_ig_is_democrat_desc: "[Concept('concept_interest_group', '이해집단')]으로, [GetIdeology('ideology_dop_radical_democrat').GetName], [GetIdeology('ideology_dop_moderate_democrat').GetName] 또는 [GetIdeology('ideology_dop_authoritarian_democrat').GetName] [Concept('concept_ideology', '이념')]을 가진 집단입니다. 이들은 현대 시대에 생존하고자 하는 모든 국가는 최소한 어떤 형태의 선거권은 필수적이라고 믿습니다." # 8907477176357801727
+  tooltip_bpm_ig_is_republican: "[Concept('concept_bpm_ig_is_republican', '$concept_bpm_ig_is_republican$')] [Concept('concept_interest_group', '이익 집단')]인가" # 13022859339290889736
+  concept_bpm_ig_is_republican: "공화주의" # 4321275191303353534
+  concept_bpm_ig_is_republican_desc: "[Concept('concept_interest_group', '이해집단')]으로서 [GetIdeology('ideology_gov_liberal_republican').GetName] 또는 [GetIdeology('ideology_gov_radical_republican').GetName] [Concept('concept_ideology', '이념')]을 지니고 있습니다. 이들은 군주제라는 것이 지나간 시대의 유물에 불과하며, 폐지하고 자유주의 공화정으로 대체되어야 한다고 믿습니다." # 15793914446756506201
+  tooltip_bpm_ig_is_radical_liberal: "$concept_bpm_ig_is_radical_liberal$라는 [Concept('concept_interest_group', '이해 집단')]이십니까?" # 12468283037503960934
+  concept_bpm_ig_is_radical_liberal: "급진 자유주의자" # 15688570956309597766
+  concept_bpm_ig_is_radical_liberal_desc: "@ig_radicals! #bold 급진파#! [Concept('concept_interest_group', 'Interest Group')] 또는 [GetIdeology('ideology_dop_radical_democrat').GetName] [Concept('concept_ideology', 'Ideology')]을 가진 [Concept('concept_interest_group', 'Interest Group')]이며, #bold 아닌#! [Concept('concept_bpm_ig_is_actually_desiring_socialism', '$concept_bpm_ig_is_actually_desiring_socialism$')] [Concept('concept_interest_group', 'Interest Group')]입니다. 그들은 사람들이 정부가 존중해야 할 타고난 권리를 가지고 있다고 믿으며, 자유주의의 평등주의적이고 개인주의적인 꿈을 실현하기 위해 투쟁합니다." # 17137910281109609756
+  tooltip_bpm_ig_is_moderate_liberal: "[Concept('concept_bpm_ig_is_moderate_liberal', '$concept_bpm_ig_is_moderate_liberal$')] [Concept('concept_interest_group', '이해집단')]입니까" # 2956045804876581805
+  concept_bpm_ig_is_moderate_liberal: "온건 자유주의자" # 9863972895237609277
+  concept_bpm_ig_is_moderate_liberal_desc: "@ig_liberals! #bold 자유주의자들#! [Concept('concept_interest_group', 'Interest Group')] 혹은 [GetIdeology('ideology_dop_moderate_democrat').GetName] [Concept('concept_ideology', 'Ideology')]을 지닌 [Concept('concept_interest_group', 'Interest Group')]. 그들은 민주주의 증진을 믿지만, 혁명적 혼란을 막기 위해 온건한 속도가 필요하다고 생각한다." # 140796917831370980
+  tooltip_bpm_ig_is_non_religious: "$concept_bpm_ig_is_non_religious$ [Concept('concept_interest_group', '이해집단')]입니까" # 9801084978047810599
+  concept_bpm_ig_is_non_religious: "세속주의자" # 13019306711729723095
+  concept_bpm_ig_is_non_religious_desc: "[Concept('concept_interest_group', '이익 집단')]은 [GetIdeology('ideology_rel_radical_secularist').GetName] 또는 [GetIdeology('ideology_rel_atheist').GetName] [Concept('concept_ideology', '이념')]을 가지고 있으며, 종교는 정부, 특히 그 기관과 법률로부터 배제되어야 한다는 신념을 가지고 있습니다." # 13264942900608038655
+  tooltip_bpm_ig_is_liberal: "[Concept('concept_bpm_ig_is_liberal', '$concept_bpm_ig_is_liberal$')] [Concept('concept_interest_group', '이해 집단')]입니까" # 9133393421359719595
+  concept_bpm_ig_is_liberal: "자유주의" # 13086567676722101150
+  concept_bpm_ig_is_liberal_desc: "급진적 자유주의자([Concept('concept_bpm_ig_is_radical_liberal', 'Radical Liberal')]), 온건 자유주의자([Concept('concept_bpm_ig_is_moderate_liberal', 'Moderate Liberal')]), 그리고 @ig_national_liberals! #bold 국민 자유주의자#!, @ig_market_liberals! #bold 시장 자유주의자#! [Concept('concept_interest_group', '이해집단)]은! 그들은 만인에게 생명, 자유, 그리고 재산을 보장하는 이상을 신봉합니다." # 4688269446349218639
+  tooltip_bpm_ig_is_radical_left: "[Concept('concept_bpm_ig_is_radical_left', '$concept_bpm_ig_is_radical_left$')] [Concept('concept_interest_group', '이익 집단')]입니까" # 5198596316776025416
+  concept_bpm_ig_is_radical_left: "급진 좌파" # 683962965965568359
+  concept_bpm_ig_is_radical_left_desc: "[Concept('concept_bpm_ig_is_radical_liberal', '급진 자유주의자')] 혹은 [Concept('concept_bpm_ig_is_socialist', '사회주의자')] [Concept('concept_interest_group', '이해 집단')]. 이들은 온건파 집단들이 호전적이라 여길 정도의 수준까지 시민적, 정치적 자유를 쟁취해야 한다고 믿습니다." # 10159200256924069837
+  tooltip_bpm_ig_is_abolitionist: "[Concept('concept_bpm_ig_is_abolitionist', '$concept_bpm_ig_is_abolitionist$')] [Concept('concept_interest_group', '이익 집단')]입니까?" # 16584933273532646282
+  concept_bpm_ig_is_abolitionist: "노예제 폐지론자" # 6443228445989637526
+  concept_bpm_ig_is_abolitionist_desc: "[Concept('bpm_ig_is_radical_left', '급진 좌파')] [Concept('concept_interest_group', '이념 집단')] 또는 [GetIdeology('ideology_eco_modern_agrarian').GetName] 또는 [GetIdeology('ideology_eco_modernizer').GetName] [Concept('concept_ideology', '이념')]을 지닌 [Concept('concept_interest_group', '이념 집단')]. 그들은 농노제나 노예제와 같은 강제 노동은 후퇴적이고 잔인한 관행이므로 반드시 폐지되어야 한다고 믿습니다." # 8220444392821983159
+  tooltip_bpm_ig_is_left_wing: "[Concept('concept_bpm_ig_is_left_wing', '$concept_bpm_ig_is_left_wing$')] [Concept('concept_interest_group', '이해집단')]입니까" # 487041312497365390
+  concept_bpm_ig_is_left_wing: "좌파" # 12940277519225388521
+  concept_bpm_ig_is_left_wing_desc: "[Concept('concept_bpm_ig_is_liberal', '자유주의자')] 또는 [Concept('concept_bpm_ig_is_labor', '노동자')] [Concept('concept_interest_group', '이해집단')]. 이들은 일반적으로 자유와 평등의 증진을 신봉하는 광범위한 범주를 대표합니다." # 330237783782981247
+  tooltip_bpm_ig_is_pro_public_welfare: "[Concept('concept_bpm_ig_is_pro_public_welfare', '$concept_bpm_ig_is_pro_public_welfare$')] [Concept('concept_interest_group', '이해집단')]입니까" # 4972249195905736286
+  concept_bpm_ig_is_pro_public_welfare: "복지 옹호" # 12767313416160599289
+  concept_bpm_ig_is_pro_public_welfare_desc: "[Concept('concept_interest_group', '이익 집단')]이 [GetIdeology('ideology_wel_public_welfare').GetName] 또는 [GetIdeology('ideology_wel_expanded_public_welfare').GetName] [Concept('concept_ideology', '이념')]을 가지고 있습니다. 그들은 정의로운 사회라면 국민을 위한 공공 복지가 반드시 있어야 한다고 믿습니다." # 1956590570715584037
+  tooltip_bpm_ig_is_market_liberal: "[Concept('concept_bpm_ig_is_market_liberal', '$concept_bpm_ig_is_market_liberal$')] [Concept('concept_interest_group', '이해집단')]입니까" # 14649462367628477770
+  concept_bpm_ig_is_market_liberal: "시장 자유주의" # 6520069642512289497
+  concept_bpm_ig_is_market_liberal_desc: "[Concept('concept_interest_group', '이해집단')]이 [GetIdeology('ideology_eco_laissez_faire').GetName] [Concept('concept_ideology', '이념')]을 지지합니다. 이들은 진정으로 번영하는 근대 국가를 위해서는 적절한 자유 시장 경제가 필수적이라고 믿습니다." # 9675857469676274414
+  tooltip_bpm_ig_is_feminist: "[Concept('concept_bpm_ig_is_feminist', '$concept_bpm_ig_is_feminist$')] [Concept('concept_interest_group', '이익 집단')]입니까" # 5657863473350669793
+  concept_bpm_ig_is_feminist: "여성주의자" # 7312289578003156232
+  concept_bpm_ig_is_feminist_desc: "여성에게 남성과 동등한 권리가 주어져야 한다는 신념을 가진 [Concept('concept_ideology', '이념')]인 [Concept('concept_interest_group', '이해집단')]입니다." # 12068037306667121638
+  tooltip_bpm_ig_is_religious: "[Concept('concept_bpm_ig_is_religious', '$concept_bpm_ig_is_religious$')] [Concept('concept_interest_group', '종교 단체]입니까?" # 16133660453147183121
+  concept_bpm_ig_is_religious: "도덕주의자" # 10795022972217985862
+  concept_bpm_ig_is_religious_desc: "[Concept('concept_interest_group', '이익 집단')]이 [GetIdeology('ideology_rel_moralist').GetName] 또는 [GetIdeology('ideology_rel_radical_moralist').GetName] [Concept('concept_ideology', '이념')]을 가지고 있습니다. 그들은 종교적 가치의 중요성을 믿으며 세속주의를 혐오합니다." # 9180538773640897133
+  tooltip_bpm_ig_is_anti_welfare: "[Concept('concept_bpm_ig_is_anti_welfare', '$concept_bpm_ig_is_anti_welfare$')] [Concept('concept_interest_group', '이해 집단)']입니까" # 15968443552300415434
+  concept_bpm_ig_is_anti_welfare: "복지 반대" # 7641871275039563907
+  concept_bpm_ig_is_anti_welfare_desc: "[Concept('concept_interest_group', '이해집단')]으로, [GetIdeology('ideology_eco_laissez_faire').GetName], [GetIdeology('ideology_wel_market_welfare').GetName] 또는 [GetIdeology('ideology_wel_no_welfare').GetName] [Concept('concept_ideology', '이념')]을 신봉합니다. 그들은 어떠한 형태의 공공 복지도 가난한 자들의 근면한 성품을 좀먹는 불필요한 낭비라고 믿습니다." # 7451574305205841162
+  tooltip_bpm_ig_is_mainstream_conservative: "[Concept('concept_bpm_ig_is_mainstream_conservative', '$concept_bpm_ig_is_mainstream_conservative$')] [Concept('concept_interest_group', '이익집단')]입니까" # 2425214493824282107
+  concept_bpm_ig_is_mainstream_conservative: "주류 보수파" # 7651621167002518840
+  concept_bpm_ig_is_mainstream_conservative_desc: "@ig_conservatives! #bold 보수주의자#! [Concept('concept_interest_group', '이해집단')]. 그들은 온건한 우익 이데올로기의 가장 흔한 형태를 대변합니다." # 8696220325785663293
+  tooltip_bpm_ig_is_liberal_conservative: "[Concept('concept_bpm_ig_is_liberal_conservative', '$concept_bpm_ig_is_liberal_conservative$')] [Concept('concept_interest_group', '이익 집단')]입니까" # 13990902239161678371
+  concept_bpm_ig_is_liberal_conservative: "자유보수주의" # 2367100040067566070
+  concept_bpm_ig_is_liberal_conservative_desc: "@ig_conservatives! #bold 보수당#! 이 가부주의적(Paternal) 성향을 띠게 된 후, 그리고 @ig_national_liberals! #bold 민족 자유주의자들#! 및 @ig_market_liberals! #bold 시장 자유주의자들#! [Concept('concept_interest_group', 'Interest Group')]과 함께합니다. 그들은 온건한 자유주의와 온건한 보수주의의 조화가 그들의 국가에 최선의 결과를 보장한다고 믿습니다." # 14460386759450475392
+  tooltip_bpm_ig_is_non_paternal_conserative: "[Concept('concept_bpm_ig_is_non_paternal_conserative', '$concept_bpm_ig_is_non_paternal_conserative$')] [Concept('concept_interest_group', '이해집단')]입니까?" # 10384687551669611005
+  concept_bpm_ig_is_non_paternal_conserative: "비부계 보수주의" # 4500854321340195976
+  concept_bpm_ig_is_non_paternal_conserative_desc: "@ig_conservatives! #bold 보수당#! 가부장적 이상을 고수하지 않는 [Concept('concept_interest_group', 'Interest Group')]입니다." # 7233887576998908336
+  tooltip_bpm_ig_is_moderate_conservative: "$concept_bpm_ig_is_moderate_conservative$라는 [Concept('concept_interest_group', '이해집단')]인가요?" # 8223952118555663059
+  concept_bpm_ig_is_moderate_conservative: "온건 보수" # 145173631020787347
+  concept_bpm_ig_is_moderate_conservative_desc: "[Concept('concept_interest_group', '이해 집단')]이 [GetIdeology('ideology_dop_authoritarian_democrat').GetName] [Concept('concept_ideology', '이념')]을 가지고 있습니다. 그들은 현대 시대에는 어느 정도의 민중적 대표가 필요하다는 점은 인정하지만, 국가가 너무 급진적이라고 보는 일들을 막기 위해 강력한 통제 기제가 필요하다고 믿습니다." # 13823879001321032004
+  tooltip_bpm_ig_is_militaristic: "[Concept('concept_bpm_ig_is_militaristic', '$concept_bpm_ig_is_militaristic$')] [Concept('concept_interest_group', '이해집단')]입니까" # 2165532695501531123
+  concept_bpm_ig_is_militaristic: "군국주의적인" # 11183409979301123154
+  concept_bpm_ig_is_militaristic_desc: "[Concept('concept_interest_group', '이해집단')]으로, 이들은 [GetIdeology('ideology_jingoist').GetName], [GetIdeology('ideology_mil_aristocratic_militarist').GetName], [GetIdeology('ideology_mil_mass_army').GetName], [GetIdeology('ideology_mil_institutional_militarist').GetName], [GetIdeology('ideology_mil_emergency').GetName], [GetIdeology('ideology_mil_plutocratic_militarist').GetName] 또는 [GetIdeology('ideology_mil_institutional_militarist').GetName] [Concept('concept_ideology', '이념')]을 가지고 있습니다. 이들은 방어적이든 공격적이든 안보를 위해 크고 강력한 군대가 필요하다고 믿습니다." # 13436437377592894153
+  tooltip_bpm_ig_is_patriotic: "[Concept('concept_bpm_ig_is_patriotic', '$concept_bpm_ig_is_patriotic$')] [Concept('concept_interest_group', '이해집단')]입니까" # 13478880930596247381
+  concept_bpm_ig_is_patriotic: "애국적인" # 7689768029941360011
+  concept_bpm_ig_is_patriotic_desc: "[Concept('concept_interest_group', '이해집단')]은(는) [Concept('concept_bpm_ig_is_militaristic', '$concept_bpm_ig_is_militaristic$')]이거나, [GetIdeology('ideology_mil_frontier_expansion').GetName], [GetIdeology('ideology_mil_patriotic').GetName], [GetIdeology('ideology_mil_patriotic_liberal').GetName] 또는 [GetIdeology('ideology_mil_defensive_patriot').GetName] [Concept('concept_ideology', '이념')]을(를) 보유하고 있습니다. 이들은 군대가 국가에 필요하며 바람직한 제도라고 믿습니다." # 9751041860423509818
+  tooltip_bpm_ig_is_sexist: "[Concept('concept_bpm_ig_is_sexist', '$concept_bpm_ig_is_sexist$')] [Concept('concept_interest_group', '이익 집단')]입니까" # 10728810151245620330
+  concept_bpm_ig_is_sexist: "성차별적인" # 14433352598925506451
+  concept_bpm_ig_is_sexist_desc: "여성이 [Concept('concept_interest_group', '이익 집단')]으로서 [Concept('bpm_ig_is_very_sexist', '$bpm_ig_is_very_sexist$')]하거나 [GetIdeology('ideology_fem_benevolent_sexism').GetName] [Concept('concept_ideology', '이념')]을 가지고 있습니다. 그들은 여성이 남성과 동등한 권리를 가질 수 없거나 가져서는 안 된다는 믿음을 가지고 있습니다." # 15458887261686519824
+  tooltip_bpm_ig_is_very_sexist: "[Concept('concept_bpm_ig_is_very_sexist', '$concept_bpm_ig_is_very_sexist$')] [Concept('concept_interest_group', '이익 집단')]입니까" # 6490126874429984994
+  concept_bpm_ig_is_very_sexist: "지독히 성차별적이군요" # 5041925821367354214
+  concept_bpm_ig_is_very_sexist_desc: "[Concept('concept_interest_group', '이해 집단')]을 가진 단체로, [GetIdeology('ideology_fem_patriarchal').GetName] 또는 [GetIdeology('ideology_fem_moderate_patriarchal').GetName] [Concept('concept_ideology', '이념')]을 추종합니다. 이들은 여성이 남성보다 근본적으로 열등하여 어떠한 형태의 평등한 대우도 불가능하다고 믿습니다." # 1510383220849148320
+  tooltip_bpm_ig_is_monarchist: "[Concept('concept_bpm_ig_is_monarchist', '$concept_bpm_ig_is_monarchist$')] [Concept('concept_interest_group', '종교 집단')]입니까?" # 14024059449835883907
+  concept_bpm_ig_is_monarchist: "군주제주의자" # 17673629716336391079
+  concept_bpm_ig_is_monarchist_desc: "[Concept('concept_interest_group', '이해집단')]은 [GetIdeology('ideology_gov_radical_monarchist').GetName] 또는 [GetIdeology('ideology_gov_moderate_monarchist').GetName] [Concept('concept_ideology', '이념')]을 가지고 있습니다. 이들은 군주제라는 제도가 사회적 안정의 힘이 되든 신성한 권위이든 반드시 필요하다고 믿습니다." # 14490190613354010437
+  tooltip_bpm_ig_is_anti_democratic: "[Concept('concept_bpm_ig_is_anti_democratic', '$concept_bpm_ig_is_anti_democratic$')] [Concept('concept_interest_group', '이해집단')]입니까" # 8836523850785045105
+  concept_bpm_ig_is_anti_democratic: "반민주적인" # 14732105010945982593
+  concept_bpm_ig_is_anti_democratic_desc: "[Concept('concept_interest_group', '이해집단')]으로, [GetIdeology('ideology_dop_technocrat').GetName], [GetIdeology('ideology_dop_meritocratic_autocrat').GetName], [GetIdeology('ideology_dop_meritocratic_autocrat').GetName], [GetIdeology('ideology_dop_party_state').GetName], [GetIdeology('ideology_dop_party_socialist').GetName], [GetIdeology('ideology_dop_dissent').GetName], [GetIdeology('ideology_dop_traditional_power').GetName], [GetIdeology('ideology_dop_oligarch').GetName] 또는 [GetIdeology('ideology_dop_autocrat').GetName] [Concept('concept_ideology', '이념')]을 지니고 있습니다. 이들은 자유 민주주의에 반대한다는 공통점으로 정의되는 광범위한 집단입니다." # 7714597230907699496
+  tooltip_bpm_ig_is_theocratic: "[Concept('concept_bpm_ig_is_theocratic', '$concept_bpm_ig_is_theocratic$')] [Concept('concept_interest_group', '이익집단')]입니까" # 15332758277940669783
+  concept_bpm_ig_is_theocratic: "신정적인" # 14189386928114130661
+  concept_bpm_ig_is_theocratic_desc: "[Concept('concept_interest_group', '이해집단')]으로, [GetIdeology('ideology_gov_theocrat').GetName] [Concept('concept_ideology', '이념')]을 가진 집단입니다. 이들은 사회가 종교 지도자들에 의해 그들의 신앙의 법에 따라 운영되어야 한다고 믿습니다." # 6509044261319463727
+  tooltip_bpm_ig_is_traditionalist: "[Concept('concept_bpm_ig_is_traditionalist', '$concept_bpm_ig_is_traditionalist$')] [Concept('concept_interest_group', '이익 집단')]입니까" # 4543141765161824097
+  concept_bpm_ig_is_traditionalist: "전통주의자" # 17505885482386348427
+  concept_bpm_ig_is_traditionalist_desc: "아니면 @ig_reactionaries! #bold 반동주의자#! [Concept('concept_interest_group', 'Interest Group')]들, 즉 [GetIdeology('ideology_dop_autocrat').GetName], [GetIdeology('ideology_dop_traditional_power').GetName], 혹은 [GetIdeology('ideology_dop_oligarch').GetName] [Concept('concept_ideology', 'Ideology')]을 보유하거나, [Concept('concept_bpm_ig_is_theocratic', '$concept_bpm_ig_is_theocratic$')] [Concept('concept_interest_group', 'Interest Group')]인 집단입니다. 그들은 세상이 언제나 그래왔다고 인식된 전통과 법률을 따르는 것이 더 낫다고 믿으며, 새로운 사상은 사회의 영혼에 위험하다고 여깁니다." # 8666402726767587924
+  tooltip_bpm_ig_is_fascist: "[Concept('concept_bpm_ig_is_fascist', '$concept_bpm_ig_is_fascist$')] [Concept('concept_interest_group', '이해집단')]입니까" # 12931374319633308375
+  concept_bpm_ig_is_fascist: "파시스트" # 4468782137562596950
+  concept_bpm_ig_is_fascist_desc: "@ig_fascists! #bold 파시스트#! [Concept('concept_interest_group', '이해집단')]. 그들은 국가가 전체주의적 지도자의 통치 하에 군국주의와 극단적 민족주의를 조장함으로써 파멸에서 구원될 수 있는 유일한 길은 국가에 대한 완전한 복종뿐이라고 믿습니다." # 14390626253268878452
+  tooltip_bpm_ig_is_radical_right: "[Concept('concept_bpm_ig_is_radical_right', '$concept_bpm_ig_is_radical_right$')] [Concept('concept_interest_group', '이익 집단')]입니까" # 15570366415960629308
+  concept_bpm_ig_is_radical_right: "급진 우파" # 6486536986815461007
+  concept_bpm_ig_is_radical_right_desc: "[Concept('concept_bpm_ig_is_fascist', '$concept_bpm_ig_is_fascist$')]이거나 [Concept('concept_bpm_ig_is_traditionalist', '$concept_bpm_ig_is_traditionalist$')] [Concept('concept_interest_group', '이해집단')]. 이들은 온건한 집단이 호전적이라고 여길 정도로 계층 제도의 창설과 유지를 강력하게 주장합니다." # 13885718221975479118
+  tooltip_bpm_ig_is_right_wing: "[Concept('concept_bpm_ig_is_right_wing', '$concept_bpm_ig_is_right_wing$')] [Concept('concept_interest_group', '이해집단')]입니까" # 440812519670899892
+  concept_bpm_ig_is_right_wing: "우파" # 16049781715540601387
+  concept_bpm_ig_is_right_wing_desc: "[Concept('concept_bpm_ig_is_radical_right', '$concept_bpm_ig_is_radical_right$')]이거나 [Concept('concept_bpm_ig_is_moderate_conservative', '$concept_bpm_ig_is_moderate_conservative$')] [Concept('concept_interest_group', 'Interest Group')]. 이들은 일반적으로 엄격한 위계질서와 권위의 진흥을 신봉하는 광범위한 범주를 대표합니다." # 11438076599583981201
+  tooltip_bpm_ig_is_ideological: "[Concept('concept_bpm_ig_is_ideological', '$concept_bpm_ig_is_ideological$')] [Concept('concept_interest_group', 'Interest Group')]은/는 이념적 [Concept('concept_interest_group', 'Interest Group')]입니다." # 9409880632967578935
+  concept_bpm_ig_is_ideological: "이념적" # 10787296229644160454
+  concept_bpm_ig_is_ideological_desc: "[Concept('concept_bpm_ig_is_institutional', '$concept_bpm_ig_is_institutional$')]이 아닌 [Concept('concept_interest_group', '이해집단')]. 이들은 당면한 물질적 이익이 아닌, 포괄적인 이념에 의해 형성된 사회에 대한 견해를 가지고 있습니다." # 5953463363393800017
+  tooltip_bpm_ig_is_institutional: "[Concept('concept_bpm_ig_is_institutional', '$concept_bpm_ig_is_institutional$')] [Concept('concept_interest_group', '이해집단')]입니까" # 7217186492640852862
+  concept_bpm_ig_is_institutional: "제도적" # 6356695300497241176
+  concept_bpm_ig_is_institutional_desc: "[GetInterestGroupVariant('ig_armed_forces', GetPlayer).GetName], [GetInterestGroupVariant('ig_devout', GetPlayer).GetName], [GetInterestGroupVariant('ig_industrialists', GetPlayer).GetName], [GetInterestGroupVariant('ig_intelligentsia', GetPlayer).GetName], [GetInterestGroupVariant('ig_landowners', GetPlayer).GetName], [GetInterestGroupVariant('ig_petty_bourgeoisie', GetPlayer).GetName], [GetInterestGroupVariant('ig_rural_folk', GetPlayer).GetName] 또는 [GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName] [Concept('concept_interest_group', '이해집단')]. 이들은 대개 당장의 물질적 이익만을 추구하는 주요 사회 집단입니다." # 16580179937030088734
+  tooltip_bpm_ig_is_urban_institutional: "[Concept('concept_bpm_ig_is_urban_institutional', '$concept_bpm_ig_is_urban_institutional$')] [Concept('concept_interest_group', '이해집단')]입니까" # 13896315622703398686
+  concept_bpm_ig_is_urban_institutional: "도시 제도" # 9478444413969030443
+  concept_bpm_ig_is_urban_institutional_desc: "[GetInterestGroupVariant('ig_industrialists', GetPlayer).GetName], [GetInterestGroupVariant('ig_intelligentsia', GetPlayer).GetName], [GetInterestGroupVariant('ig_petty_bourgeoisie', GetPlayer).GetName] 또는 [GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName] [Concept('concept_interest_group', '이익 집단')]. 이들은 도시 중심부에서 권력을 장악하고 있는 기관들입니다." # 6914429848225527681
+  tooltip_bpm_ig_is_rural_institutional: "[Concept('concept_bpm_ig_is_rural_institutional', '$concept_bpm_ig_is_rural_institutional$')] [Concept('concept_interest_group', '이해집단')]입니까" # 16704879871036154402
+  concept_bpm_ig_is_rural_institutional: "농촌 제도" # 15872860151314569409
+  concept_bpm_ig_is_rural_institutional_desc: "[GetInterestGroupVariant('ig_devout', GetPlayer).GetName], [GetInterestGroupVariant('ig_landowners', GetPlayer).GetName] 혹은 [GetInterestGroupVariant('ig_rural_folk', GetPlayer).GetName] [Concept('concept_interest_group', '세력 집단')]. 이들은 농촌 지역에서 권력을 장악하고 있는 기관들입니다." # 8752175694612480713
+  tooltip_bpm_ig_is_state_institutional: "[Concept('concept_bpm_ig_is_state_institutional', '$concept_bpm_ig_is_state_institutional$')] [Concept('concept_interest_group', '이해집단')]입니까" # 17786795221705148211
+  concept_bpm_ig_is_state_institutional: "주 제도" # 11933418553060484843
+  concept_bpm_ig_is_state_institutional_desc: "[GetInterestGroupVariant('ig_armed_forces', GetPlayer).GetName] 또는 [GetInterestGroupVariant('ig_petty_bourgeoisie', GetPlayer).GetName] [Concept('concept_interest_group', '이해집단)], 혹은 [GetLawType(law_theocracy').GetName] 하의 [GetInterestGroupVariant('ig_devout', GetPlayer).GetName] [Concept('concept_interest_group', '이해집단)], 또는 [GetLawType(law_corporatized_unions').GetName] 하의 [GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName] [Concept('concept_interest_group', '이해집단)]. 이들은 국가의 일부이거나 국가가 직접 운영하는 제도들입니다." # 7108663810948153786
+  tooltip_bpm_ig_is_upper_institutional: "[Concept('concept_bpm_ig_is_upper_institutional', '$concept_bpm_ig_is_upper_institutional$')] [Concept('concept_interest_group', '이해집단')]입니까" # 13326247623215425015
+  concept_bpm_ig_is_upper_institutional: "상급 제도" # 5612883888901039921
+  concept_bpm_ig_is_upper_institutional_desc: "[GetInterestGroupVariant('ig_industrialists', GetPlayer).GetName]이거나 [GetInterestGroupVariant('ig_landowners', GetPlayer).GetName] [Concept('concept_interest_group', '관심사 단체')]. 이들은 상류층의 제도들입니다." # 15090049898850664758
+  tooltip_bpm_ig_is_middle_institutional: "[Concept('concept_bpm_ig_is_middle_institutional', '$concept_bpm_ig_is_middle_institutional$')] [Concept('concept_interest_group', '흥미 집단')]입니까?" # 872726141916888756
+  concept_bpm_ig_is_middle_institutional: "중기 제도" # 11126276360370872817
+  concept_bpm_ig_is_middle_institutional_desc: "[GetInterestGroupVariant('ig_armed_forces', GetPlayer).GetName], [GetInterestGroupVariant('ig_devout', GetPlayer).GetName], [GetInterestGroupVariant('ig_intelligentsia', GetPlayer).GetName] 혹은 [GetInterestGroupVariant('ig_petty_bourgeoisie', GetPlayer).GetName] [Concept('concept_interest_group', '이해집단')]. 이들은 중산 계층의 기구입니다." # 5231267005696111228
+  tooltip_bpm_ig_is_lower_institutional: "[Concept('concept_bpm_ig_is_lower_institutional', '$concept_bpm_ig_is_lower_institutional$')] [Concept('concept_interest_group', '이익 집단')]입니까" # 11615794849884108644
+  concept_bpm_ig_is_lower_institutional: "하위 제도" # 10142338663595429460
+  concept_bpm_ig_is_lower_institutional_desc: "[GetInterestGroupVariant('ig_rural_folk', GetPlayer).GetName] 또는 [GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName] [Concept('concept_interest_group', '이해집단')]. 이들은 하층 계급의 제도라 할 수 있습니다." # 17327164310321556508
+  tooltip_bpm_ig_is_isolationist: "[Concept('concept_bpm_ig_is_isolationist', '$concept_bpm_ig_is_isolationist$')] [Concept('concept_interest_group', '이해집단')]입니까" # 12686540548373926797
+  concept_bpm_ig_is_isolationist: "고립주의자" # 8787157408708981068
+  concept_bpm_ig_is_isolationist_desc: "[Concept('concept_interest_group', '이익 집단')]은 [GetIdeology('ideology_eco_autarky').GetName], [GetIdeology('ideology_eco_trad_isolationist').GetName], [GetIdeology('ideology_eco_socialist_autarky').GetName], 또는 [GetIdeology('ideology_eco_agrarian_autarky').GetName] [Concept('concept_ideology', '이념')] 중 하나를 가지고 있습니다. 이들은 고립주의와 자력 갱생에 중점을 두는 것이 자신들의 경제와 국가 전반의 발전을 위한 올바른 길이라고 믿습니다." # 3936634014774484635
+  tooltip_bpm_ig_is_hawkish: "[Concept('concept_bpm_ig_is_tooltip_bpm_ig_is_hawkish', '$concept_bpm_ig_is_tooltip_bpm_ig_is_hawkish$')] [Concept('concept_interest_group', '이해집단')]입니까" # 7582171778790841686
+  concept_bpm_ig_is_tooltip_bpm_ig_is_hawkish: "매" # 2303474994858542892
+  concept_bpm_ig_is_tooltip_bpm_ig_is_hawkish_desc: "[Concept('concept_interest_group', '이익 집단')] 중 하나이며, 이는 [Concept('concept_bpm_ig_is_tooltip_bpm_ig_is_very_hawkish', '$concept_bpm_ig_is_tooltip_bpm_ig_is_very_hawkish$')]이거나, [GetIdeology('ideology_mil_patriotic').GetName], [GetIdeology('ideology_mil_mass_army').GetName], 또는 [GetIdeology('ideology_mil_institutional_militarist').GetName] [Concept('concept_ideology', '이념')]을 보유한 경우입니다. 이들은 군국주의적인 외교 정책을 신봉하며, 외교적 문제 해결보다는 군사적 해결책을 선호합니다." # 4512978865202099486
+  tooltip_bpm_ig_is_very_hawkish: "[Concept('concept_bpm_ig_is_very_hawkish', '$concept_bpm_ig_is_very_hawkish$')] [Concept('concept_interest_group', '이해집단')] 입니까" # 5498813204687043270
+  concept_bpm_ig_is_very_hawkish: "매우 호전적임" # 3262021011353788107
+  concept_bpm_ig_is_very_hawkish_desc: "[Concept('concept_interest_group', '이해집단')]이 [GetIdeology('ideology_jingoist').GetName] 또는 [GetIdeology('ideology_mil_ultramilitarist').GetName] [Concept('concept_ideology', '이념')]을(를) 가지고 있습니다. 이들은 모든 외교적 문제는 주로 무력으로 해결되어야 한다고 믿습니다." # 9190167935649099016
+  tooltip_bpm_ig_is_doveish: "[Concept('concept_bpm_ig_is_doveish', '$concept_bpm_ig_is_doveish$')] [Concept('concept_interest_group', '이해집단')]입니까" # 14520497849358097444
+  concept_bpm_ig_is_doveish: "비둘기파의" # 11902076839668782977
+  concept_bpm_ig_is_doveish_desc: "[Concept('concept_interest_group', '이해집단')]으로, [GetIdeology('ideology_mil_patriotic_liberal').GetName], [GetIdeology('ideology_mil_defensive_patriot').GetName], [GetIdeology('ideology_mil_popular_army').GetName] 또는 [GetIdeology('ideology_mil_antimilitarist').GetName] [Concept('concept_ideology', '이념')]을 가진 집단입니다. 그들은 외교적 문제는 무엇보다도 외교를 통해 해결되어야 한다고 믿습니다." # 2706512749592940739
+  tooltip_bpm_ig_is_unpopular: "[Concept('concept_bpm_ig_is_unpopular', '$concept_bpm_ig_is_unpopular$')] [Concept('concept_interest_group', '이익 집단')]입니까" # 1590932931259268112
+  concept_bpm_ig_is_unpopular: "인기 없는" # 17411741191138096019
+  concept_bpm_ig_is_unpopular_desc: "[Concept('concept_interest_group', '이해 집단')]이 [Concept('concept_bpm_ig_is_popular', '$concept_bpm_ig_is_popular$')]에도 해당하지 않고 [Concept('concept_bpm_ig_is_prominent', '$concept_bpm_ig_is_prominent$')]에도 해당하지 않으면 #bold 비인기#로 간주됩니다." # 15525131379311561476
+  tooltip_bpm_ig_is_popular: "[Concept('concept_bpm_ig_is_popular', '$concept_bpm_ig_is_popular$')] [Concept('concept_interest_group', '이해집단')]의" # 9978126069354450418
+  concept_bpm_ig_is_popular: "대중적인" # 15766721891912698391
+  concept_bpm_ig_is_popular_desc: "[Concept('concept_interest_group', '이해집단')]은 전체 인구의 >1%가 지지할 경우 #bold 대중적#이라고 간주됩니다!" # 14493245958370643834
+  tooltip_bpm_ig_is_prominent: "[Concept('concept_bpm_ig_is_prominent', '$concept_bpm_ig_is_prominent$')] [Concept('concept_interest_group', '세력 집단')] 입니까?" # 16772827042499343613
+  concept_bpm_ig_is_prominent: "저명한" # 2999128815278420046
+  concept_bpm_ig_is_prominent_desc: "[Concept('concept_interest_group', '이해 집단')]이 전체 인구의 >10%의 지지를 얻으면 #bold 유력#하다고 간주됩니다!" # 1867181030656586121
+  tooltip_bpm_country_proletarian_are_popular: "[Concept('concept_bpm_ig_is_proletarian','노동자 이해집단')]의 전체 인구 중 5% (현재 [GetPlayer.MakeScope.ScriptValue('bpm_proletarian_popularity')|%])" # 17160769329501890250
+  concept_bpm_country_proletarian_are_popular: "프롤레타리아 조직들 인기" # 16520037771759198836
+  concept_bpm_country_proletarian_are_popular_desc: "프롤레타리아 조직은 전체 인구 중 [Concept('concept_bpm_ig_is_socialist','사회주의 이익 집단')]에 속한 인구가 5%를 초과할 경우 인기 있는 것으로 간주됩니다." # 17600604749123355756
+  concept_extremist: "반체제" # 17209722641987113859
+  concept_extremist_desc: "우리 [concept_country]의 현 체제에 반대하는 [Concept('concept_interest_group', '이해집단')]." # 9742689226108052589
+  concept_super_extremist: "극단주의자" # 6445235322895058684
+  concept_super_extremist_desc: "우리 [concept_country]의 통념적인 정치의 범위를 훨씬 벗어나 활동하는 [Concept('concept_interest_group', '이해집단')]." # 5942739290074083319
+  concept_bpm_law_support: "법률 지원" # 18122997734337770236
+  concept_bpm_law_support_desc: "입법부에서 법률이 제정되는 것에 대한 지지 수준입니다. 이는 특정 [Concept('concept_interest_group', '이해집단')]이 법률을 지지할지 반대할지를 결정합니다." # 9279778509773525402
+  concept_bpm_cabinet: "내각" # 5938625136258340261
+  concept_bpm_cabinet_desc: "내각은 정부의 고위급 구성원들로 이루어진 기구이며, 행정부를 대표합니다. 이는 다양한 정부 부처의 수반들로 구성되며, 정부의 일상적인 행정을 책임집니다." # 1446321728222707941
+  concept_bpm_ministerial_appointment: "각료 임명" # 17325663802792165173
+  concept_bpm_ministerial_appointment_desc: "[concept_bpm_cabinet]의 [Concept('concept_bpm_minister', '장관')] 직책으로 임명함." # 10516982905671867196
+  concept_bpm_minister: "장관" # 10465190064678811586
+  concept_bpm_minister_desc: "각료들은 [concept_bpm_cabinet]에 임명되어 [Concept('concept_institution', '기관')]의 운영을 감독합니다. 이들은 자신의 [Concept('concept_interest_group', '이익 집단')]과 기관의 투자 수준에 따라 고유한 이점과 단점을 제공합니다." # 14911669783588218922
+  concept_bpm_mandate: "위임" # 6831273217688809715
+  concept_bpm_mandate_desc: "[Concept('concept_in_government','정부')]의 [concept_clout]에서 파생되어 #yellow Executive Principles#! 법률에 따라 가중치가 부여된 위임령은 귀하의 [Concept('concept_interest_group', '이해집단')]에게 분배되며 [Concept('concept_bpm_ministerial_appointment','장관 임명')]에 사용될 수 있습니다. 특정 [Concept('concept_interest_group', '이해집단')]은 특정 [Concept('concept_institution', '부처')]에 더 적합하며, 임명 시 위임령 비용이 더 적게 듭니다." # 12360353657157057893
+  concept_bpm_minister_skill: "장관 기술 수준" # 2845241860791138503
+  concept_bpm_minister_skill_desc: "[concept_bpm_minister]의 기술은 그들의 [Concept('concept_character_trait','특성')], 에 의해 결정되며, 이는 그들의 [Concept('concept_institution', '관료 조직')]의 최대 투자 수준에 영향을 미칩니다:\n @arrow_up! #yellow 숙련된#! [Concept('concept_bpm_minister','관료')]는 그들의 [Concept('concept_institution', '관료 조직')]의 최대 투자 수준을 #P 증가#시킵니다! #v 1#!\n @arrow_down! #yellow 무능한#! [Concept('concept_bpm_minister','관료')]는 그들의 [Concept('concept_institution', '관료 조직')]의 최대 투자 수준을 #N 감소#시킵니다! #v 1#!\n\n#v 관료를 임명하면 사용 가능한 #yellow 가장 유능한#! 후보를 선택하게 됩니다.#!\n개방적이고 민주적인 국가는 더 넓은 범위의 기술 수준을 가진 후보들을 보유하는 반면, 권위주의적이거나 전통주의적인 국가는 유용한 인재를 찾는 데 어려움을 겪을 수 있습니다." # 10762003152919087593
+  concept_bpm_head_of_government: "정부 수반" # 17149476486584694027
+  concept_bpm_head_of_government_desc: "정부 수반은 정부 행정부 내에서 가장 강력한 관료이며, 귀관의 [Concept('concept_bpm_minister','장관')들] 중 으뜸입니다. 일부 국가에서는 이 직책이 국왕이나 대통령에 의해 임명되는 총리이지만, 다른 경우에는 정부 수반이 국가 원수와 동일 인물입니다." # 12184930420152578087

@@ -1,0 +1,120 @@
+﻿l_korean:
+  je_bpm_russia_estates: "러시아 제국의 신분회" # 10594711433118577960
+  je_bpm_russia_estates_reason: "러시아 국가는 수많은 역사적 짐을 안고 격동의 1800년대로 진입합니다. 법률에 엄격히 성문화되어 사회 구조의 모든 계층을 꿰뚫고 있는 것은 #bold 소슬로비예(Sosloviye)#—즉, 개인이 태어날 때부터 주로 세습되는 신분 제도입니다. 이 고대의 신분 제도는 사회 이동성을 저해하고, 갈등을 심화시키며, 혁신을 억누르고 있습니다. 이 제도를 제거하기 위해서는 광범위한 개혁이 필요할 것이며, 이는 러시아의 권력자들이 현대화가 필요하다고 믿을 경우에 해당합니다. 하지만 어쩌면 이 국가는 그 고대의 관습을 다음 세기까지도 변함없이 유지할 수도 있을 것입니다...\n\n$je_bpm_russia_estates_tooltipable_peasants$: [SCOPE.GetRootScope.GetCountry.GetCustom('je_bpm_russia_estates_status_peasants')]\n$je_bpm_russia_estates_tooltipable_nobles$: [SCOPE.GetRootScope.GetCountry.GetCustom('je_bpm_russia_estates_status_nobles')]\n$je_bpm_russia_estates_tooltipable_clergy$: [SCOPE.GetRootScope.GetCountry.GetCustom('je_bpm_russia_estates_status_clergy')]\n$je_bpm_russia_estates_tooltipable_burghers$: [SCOPE.GetRootScope.GetCountry.GetCustom('je_bpm_russia_estates_status_burghers')]\n$je_bpm_russia_estates_tooltipable_foreigners$: [SCOPE.GetRootScope.GetCountry.GetCustom('je_bpm_russia_estates_status_foreigners')]" # 7247624923415734841
+  je_bpm_russia_estates_tooltip_exists: "#설정 존재#!" # 5151362705098120034
+  je_bpm_russia_estates_tooltip_exists_de_jure: "#설정 존재#! (#de_facto 녹색 폐지#!)" # 8676697896096335369
+  je_bpm_russia_estates_tooltip_abolished: "#green 폐지됨#!" # 11192741202336901858
+  je_bpm_russia_estates_tooltip_abolished_racist: "#blue 보호 관세 폐지#!" # 13280275355143685602
+  je_bpm_russia_estates_tooltip_abolished_partial: "#녹색 폐지됨#! (#설정 자체 통치 유지#!)" # 1854399959807523443
+  je_bpm_russia_estates_abolish_peasants_button: "크레스티얀스트보 폐지" # 7994121271561004760
+  je_bpm_russia_estates_abolish_peasants_button_desc: "이 가장 인구가 많은 신분을 폐지하면 러시아의 대다수가 법적으로 평등해질 것이며, 이는 귀족들에게 달갑지 않은 제안일 것입니다. 이러한 변화는 농민들의 자체 통치 기구인 고대의 옵시나(Obscina) 또한 폐지하고 현대화해야 함을 의미합니다." # 975950509978691981
+  je_bpm_russia_estates_abolish_nobles_button: "귀족 제도 폐지" # 5416894176636972597
+  je_bpm_russia_estates_abolish_nobles_button_desc: "귀족 특권을 폐지하면 우리의 최고 인재들이 혈통이 아닌 능력으로 정점에 오를 수 있게 될 것입니다. 당연히 후자가 아닌 전자에 의해 그 자리에 있는 자들은 이러한 조치에 매우 불쾌해할 것입니다." # 15063300976612201413
+  je_bpm_russia_estates_abolish_clergy_button: "두호벤스트보 폐지" # 4634591654284554757
+  je_bpm_russia_estates_abolish_clergy_button_desc: "성직자들의 고유한 특권을 박탈하는 것은 분명 그들의 심기를 불편하게 만들겠지만, 우리가 더욱 세속적인 국가가 되기 위해서는 이 조치가 필수적입니다." # 17089523768952351183
+  je_bpm_russia_estates_abolish_burghers_button: "고로자네 영주원 철폐" # 13090443213826211439
+  je_bpm_russia_estates_abolish_burghers_button_desc: "도시 인구 내 여러 계층의 다양한 특권과 의무를 제거하는 것은 근대화하는 국가에 필수적인 더 큰 사회적 이동성을 허용할 것입니다." # 5298719987945880026
+  je_bpm_russia_estates_abolish_foreigners_button: "이노로드 차별 철폐" # 14443053475254426655
+  je_bpm_russia_estates_abolish_foreigners_button_desc: "우리와 국적이 다른 이들에게 특정 권리와 의무를 부여할 필요는 없습니다." # 7053810674694688215
+  je_bpm_russia_estates_tooltipable_peasants: "#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_russia_estates_tooltip_peasants 크레스티얀스트보 #!" # 14657047994945738611
+  je_bpm_russia_estates_tooltipable_nobles: "#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_russia_estates_tooltip_nobles 묘지크#" # 13398143848332400624
+  je_bpm_russia_estates_tooltipable_clergy: "#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_russia_estates_tooltip_clergy 두호벤스트보 #!" # 2357070696224535266
+  je_bpm_russia_estates_tooltipable_burghers: "#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_russia_estates_tooltip_burghers 고로자네#!" # 586010907653140680
+  je_bpm_russia_estates_tooltipable_foreigners: "#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_russia_estates_tooltip_foreigners 이노로드치 #!" # 14084209726787056029
+  je_bpm_russia_estates_tooltip_peasants: "#v 크레스티얀스트보#!, 즉 농민층은 러시아 인구의 대다수가 속한 신분입니다. 가장 낮은 계층인 크레스티얀스트보는 징병과 세금 징수의 부담을 고스란히 지고 있으며, 가장 가혹한 처벌의 대상이기도 합니다.\n만약 농노제가 법으로 유지된다면, 농민들은 본질적으로 그들의 지역 귀족의 재산이 될 것이며, 이는 당대의 사상가들이 언급하듯 노예제와 다르지 않은 상황일 것입니다." # 10134519383522634295
+  je_bpm_russia_estates_tooltip_nobles: "#v 귀족원#!은 러시아 제국 내의 세습 귀족을 포함하는 신분입니다.\n\n가장 특권적인 신분으로서, 귀족원은 거주지가 있는 토지를 독점적으로 소유할 권리, 징집 및 태형으로부터의 보호, 면세 혜택, 그리고 러시아 행정에 참여할 수 있는 독점적 특권을 부여받습니다." # 17398003500353253945
+  je_bpm_russia_estates_tooltip_clergy: "#v 성직자#!는 러시아 정교회 구성원들로 이루어진 신분 단체입니다. 이 단체는 다른 신분들과 마찬가지로 대부분 세습되지만, 부여하는 특권은 구성원들이 종교 교육을 이수할 것을 요구합니다; 이 단계를 거치지 않을 경우, 해당 개인은 그 대신 다른 (상대적으로 특권층인) 신분을 자신의 것으로 삼아야 합니다.\n\n특권 신분으로서 성직자는 구성원들에게 인두세, 징병제, 신체형을 면제해 줍니다. 정교회 소속이 아닌 성직자들은 이 신분에 속하지 않으며, 이로 인해 그들의 사회적 지위는 다른 신분에 묶이게 됩니다." # 17541012494123772902
+  je_bpm_russia_estates_tooltip_burghers: "#v 고로자네#!, 즉 도시 거주민들은 러시아 도시들에 거주하는 대다수의 인민을 포함하는 신분입니다. 이 신분은 내부적으로 세분화된 독특한 구분을 가지고 있으며, #v 포체트니예 고로자네#! (명망 있는 시민), #v 쿠페체스트보#! (상인), #v 메샤네#! (부르주아), #v 레메슬렌니키#! (장인) 및 #v 라보치예#! (노동자)로 나뉘며, 각 집단마다 권리와 특권이 다릅니다. 특히, 고로자네의 하층 계급인 메샤네들은 크레스티얀스트보와 마찬가지로 신체형을 받을 수 있는 멍에를 공유했습니다.\n\n공식적으로 규정된 구분 외에도, 도시 거주민들 내부에는 비공식적이지만 그 중요성 또한 매우 큰 집단인 #v 라즈노친치#!, 즉 공식적인 신분이 없는 개인들이 존재했습니다. 이들은 러시아 제국 내 다양한 진보적 혹은 혁명적 사회 및 지식인 운동에서 가장 흔하게 발견되는 구성원들입니다." # 1025735529542207225
+  je_bpm_russia_estates_tooltip_foreigners: "#v 이노로지!#, 즉 외국인들은 러시아 제국에 거주하는 비슬라브계 민족을 포괄하는 법적 범주로, 주로 러시아 극동, 시베리아, 중앙아시아 또는 코카서스에 거주합니다.\n\n이들에 대한 대우는 매우 분화되어 있었으며, 국가가 이들을 대우하는 통일된 요소는 러시아의 신분 제도에서 일반적인 면제였고, 필요에 따라 다양한 특권과 차별적 정책이 개별적으로 적용되었습니다." # 3112718987584077455
+  je_bpm_russia_estates_peasants_abolished_trigger: "#v 크레스티얀스트보#를 폐지했습니다!" # 5752767308573799053
+  je_bpm_russia_estates_peasants_abolished_fully_trigger: "#v 크레스티얀스트보#를 법적으로 그리고 사실상 폐지했습니다!" # 15501118319744098067
+  je_bpm_russia_estates_nobles_abolished_trigger: "#v 두랴닌스트보#(귀족 신분) 폐지!" # 2154143978891941556
+  je_bpm_russia_estates_clergy_abolished_trigger: "#v 두호벤스트보#를 폐지했습니다!" # 16214162518503286115
+  je_bpm_russia_estates_burghers_abolished_trigger: "#v 고로샤네 귀족원#을 폐지했습니다!" # 6456380394067768673
+  je_bpm_russia_estates_foreigners_abolished_trigger: "#v 이노로데츠 차별 철폐#!" # 16665510437538438638
+  bpm_russia_foreigners_estate_abolished_good: "이노로드체 법령 재편성" # 4012527276889544405
+  bpm_russia_foreigners_estate_abolished_racist: "이노로데츠 특권 폐지" # 11591707314465554434
+  je_bpm_russia_estates_will_abolish_estate: "해당 신분제는 #green 폐지#될 것입니다!!" # 9701780465341378602
+  je_bpm_russia_estates_will_abolish_estate_de_facto: "해당 영지는 유지되겠지만, 사실상 #green 폐지#됩니다!!" # 1698600467496019839
+  je_bpm_russia_estates_will_abolish_estate_peasants: "더불어, 비록 형식적으로만 남아있을지라도 #v 크레스티안스트보# 계층은 완전히 #green 폐지#될 것입니다!!" # 5172717957036469504
+  je_bpm_russia_estates_will_abolish_estate_foreigners: "러시아인과 이노로데츠 간의 대부분의 구분은 #green 폐지#될 것입니다!!" # 2483887834284091452
+  je_bpm_russia_estates_will_abolish_estate_foreigners_good: "러시아인과 이노로데츠 간의 대부분의 차별은 #green 폐지될# 것입니다! 다만, 그들의 제한적인 전통 자치 제도는 유지될 것입니다." # 6301823950793175920
+  je_bpm_russia_estates_will_abolish_estate_foreigners_racist: "이노로드인(Inorodetz) 인구층에 부여된 특권은 #blue 폐지#될 것이며, 그들의 자치 기구 역시 철폐될 것입니다." # 6671172847068415231
+  bpm_russia.4.t: "영지 및 시민 계급 폐지 칙령" # 14974601590640050399
+  bpm_russia.4.d: "새로운 사회주의 정부는 러시아의 신분제도로 인해 발생한 극심한 불평등 문제에 대해 지체 없이 대처하여, [ROOT.GetCountry.GetName]에 존재하던 모든 기존 신분을 칙령으로 철폐했습니다." # 3587114133530583274
+  bpm_russia.4.f: "1. 지금까지 러시아에 존재했던 모든 계급과 계급적 구별, 계급 특권과 계급적 제한, 계급 조직 및 제도, 그리고 모든 문관 직위는 폐지된다.\n2. 모든 신분(귀족, 상인, 평민, 농민 등), 작위(공작, 백작 등), 그리고 문관 직위 명칭(비밀 고문관, 국무 고문관 등)은 폐지되며, 그 자리에 러시아의 모든 거주민은 러시아 공화국의 시민이라는 모든 이에게 공통된 하나의 명칭을 갖게 된다.\n3. 귀족의 재산은 즉시 해당 젬스트보 기관으로 이관된다.[1]\n4. 상인 및 평민 협회의 재산은 즉시 지방 자치체로 이관된다.\n5. 모든 계급 기관, 거래, 기록 및 문서는 즉시 지방 자치 및 젬스트보 기관으로 이관된다.\n6. 계급 제도와 관련된 모든 법률은 폐지된다.\n\n—중앙 집행 위원회, 1917년" # 11315892853465773069
+  bpm_russia.4.a: "계급 투쟁에서 또다시 승리하였소!" # 8111416843160637178
+  bpm_russia.5.t: "영지 및 시민 계급 폐지 칙령" # 14974601590640050399
+  bpm_russia.5.d: "우리의 최근 개혁의 결과로, 보통 선거권을 갖춘 공화정 제도의 수립은 필연적으로 $ROOT.GetCountry.GetName$에서 신분 제도의 완전한 철회를 가져왔습니다." # 2042176802459269649
+  bpm_russia.5.f: "1. 지금까지 러시아에 존재했던 모든 신분과 신분상의 구별, 신분 특권 및 신분 제한, 신분 조직 및 제도, 그리고 모든 문관 직위가 폐지된다.\n2. 모든 신분(귀족, 상인, 평민, 농민 등), 작위(공작, 백작 등), 그리고 문관 직위 명칭(비밀 고문관, 국무 고문관 등)은 폐지되며, 그 대신 러시아 거주민들은 모두에게 공통되는 단일 명칭, 즉 러시아 공화국의 시민을 칭하게 될 것이다." # 3956915462785889211
+  bpm_russia.5.a: "자유와 평등!" # 15055695689380243772
+  bpm_russia.6.t: "신분제 폐지" # 4823101166087224148
+  bpm_russia.6.d: "[ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle]께서 세심하게 진행하신 작업이 마침내 합당한 결론을 맺었습니다. 모든 신분제가 완전히 폐지됨으로써, 근대적이고 평등한 러시아로 나아가는 또 하나의 장애물이 제거되었습니다." # 13789082482826089390
+  bpm_russia.6.f: "러시아 지식인들의 머릿속에 흥미로운 딜레마가 자리 잡고 있습니다. 지금의 러시아는 진정으로 자유롭지도 않고, 진정한 민주 공화국도 아닙니다. 그럼에도 불구하고 모든 고대의 신분들은 타협 없이 위로부터 하나둘씩 철폐되었습니다. 러시아인들이 신분의 구별 없이 서로를 평등하게 대우하기까지는 시간이 걸리겠지만, 최초의 대담한 조치는 취해졌으며 되돌릴 수는 없습니다." # 9484287645002084584
+  bpm_russia.6.a: "부디 우리가 이것을 후회하지 않기를 바랍니다." # 12697405961907940757
+  bpm_russia.7.t: "봉건 시대의 황혼" # 3775384385599986330
+  bpm_russia.7.d: "우리의 신분제에 관한 마지막 법안이 통과됨에 따라, 우리는 일부 타협을 거쳤지만 러시아의 신분 제도가 사실상 완전히 사라졌다고 말할 수 있게 되었습니다." # 16773526804180923616
+  bpm_russia.7.f: "물론, 신분제는 사라지지 않았습니다. 정부가 때때로 실시한 인구 조사에서 여전히 사람들에게 그들의 신분이 무엇인지 물었습니다. 하지만 점점 더 많은 사람들이 자신이 어떤 신분에 속하는지 알지 못했습니다. 실질적으로 법적으로 그들은 본질적으로 평등했습니다. 적어도 이 고대의 신분제에 관해서는 말입니다..." # 9533919029799901276
+  bpm_russia.7.a: "필수적인 조치입니다." # 16322663227964089801
+  bpm_russia.10.t: "더 이상 크레스티야닌이 아니다" # 11954189373452177920
+  bpm_russia.10.d: "농노제의 폐지와 국가 통치 및 경제의 근대화에 따라, 크레스티얀스트보(농민) 신분은 역사 속의 각주로 전락할 날이 머지않았습니다. 과연 현 정부가 이 장(章)을 마감하는 정부가 될 것인가요?" # 1220728813358817515
+  bpm_russia.10.f: "크레스티아닌은 좋은 소식에 익숙하지 않습니다. 국가 관료들에게서도, 두룐스트보에게서도 마찬가지입니다. 그들이 다가올 때면, 그들의 곡물, 고기, 그리고 먼 전쟁터에서 죽을 젊은이들을 요구하러 왔고, 변명할 기회조차 주지 않은 채 그들을 고발하러 왔을 뿐입니다. 하지만 최근 소식이 바뀌었습니다. 물론 나쁜 소식은 여전히 존재했지만, 좋은 소식 또한 들어오기 시작했습니다. 태형이 폐지되었고, 농노들이 더 이상 영주의 재산이 아니게 되었으며, 비록 제한적일지라도 일부 자유가 주어진 것은 예상치 못한 기쁨이었습니다. 그리고 오늘, 아마도 러시아 농민들에게 또 다른 일련의 좋은 소식이 도달할 날이 될 것입니다." # 6407582578743420856
+  bpm_russia.10.a: "농민들을 영주제로부터 해방시키시오" # 15133749813893643247
+  bpm_russia.10.b: "가장 관련 법률 대부분은 폐지하되, 신분제는 장부에 그대로 두시오" # 9191717925559582696
+  bpm_russia.10.c: "저희에게 시간이 좀 더 필요할 것 같습니다." # 9532898585795941916
+  bpm_russia.11.t: "최후의 귀족들" # 16451726584721353866
+  bpm_russia.11.d: "[ROOT.GetCountry.GetName]의 신분제는 점점 더 약해지고 있으며, 마지막 남은 신분인 $je_bpm_russia_estates_tooltipable_nobles$를 제대로 폐지해야 합니다. 하지만 러시아의 대부분은 이미 그들 신분의 굴레에서 벗어났는데, 이 마지막 조치가 과연 필요할까요?" # 15636228568996520503
+  bpm_russia.11.f: "너무 오랫동안 드보랸예(귀족)들은 모두에게 골칫거리였습니다. 그들이 착취했던 농민들에게도, 억압받던 도시 거주자들에게도 말입니다. 심지어 비대해진 귀족들의 근시안적인 요구에 묶여 있어야 했던 차르들에게조차 그랬습니다. 러시아는 마침내 이 귀족주의적 족쇄로부터 벗어나는 마지막 단계를 밟게 될까요?" # 857004615319097440
+  bpm_russia.11.a: "우리가 그리 할 것이오. 이 시대에 뒤떨어진 관습은 $ROOT.GetCountry.GetName$에 발붙일 곳이 없소!" # 14627515102589510910
+  bpm_russia.11.a2: "우리는 귀족 칭호와 크레스티안스트보(농노) 신분의 잔재를 모두 철폐해야 하오." # 4108505905541064518
+  bpm_russia.11.b: "그들의 작위는 유지시키되, 대다수의 특권은 폐지하라." # 8626802314765880677
+  bpm_russia.11.c: "아마도... 다음 기회에" # 6913243382066874986
+  bpm_russia.12.t: "현실로 돌아오다" # 6672748378003607842
+  bpm_russia.12.desc: "우리 두호벤스트보가 그동안 우리나라에서 막대한 특권을 누려왔습니다. 새로운 세속화 정책에 따라 이를 철회하는 것이 마땅합니다." # 1090303504522567043
+  bpm_russia.12.f: "네, 아마도 그들은 불평할 것입니다. 그들에게 평신도와 동등해지거나 심지어 다른 성직자들과 동등해지는 것조차 억압처럼 느껴질 것입니다. 시간이 지나면 그것이 필요하다는 것을 이해하게 될 것입니다." # 2317108343907010186
+  bpm_russia.12.a: "작위를 철폐하고 특권을 폐지하십시오" # 16607809090337669467
+  bpm_russia.12.b: "직위는 유지될 수 있으나, 그 특권은 유지될 수 없다." # 4987084798259976700
+  bpm_russia.12.d: "영지 내 외국인의 출입을 허용하고 그 특권을 전반적으로 약화시키십시오" # 12239801846964079999
+  bpm_russia.12.c: "재고해야겠소" # 14189788199374236068
+  bpm_russia.13.t: "도시의 시민" # 8339241901785393789
+  bpm_russia.13.d: "다양한 고로자네인들은 그들의 권리와 의무를 명문화한 수많은 법률을 가지고 있었으며, 이는 이미 계층화된 도시 거주 인구를 더욱 세분화했습니다. 이러한 구분을 철회하는 것은 전체 신분 제도를 폐지하는 데 필수적입니다." # 6708880093295400393
+  bpm_russia.13.f: "끝없는 칭호, 명예, 그리고 신분 상징들은 우리의 미래를 건설할 인민들의 유동성에 마찰을 일으키고 있습니다. 우리는 미래를 위하여 이 마찰을 제거해야만 합니다." # 11816433588846724230
+  bpm_russia.13.a: "이 신분제들을 폐지하시오" # 13339992417447483190
+  bpm_russia.13.b: "일부 신분제는 유지하되, 관련 법률은 폐지하십시오." # 13781774481842230886
+  bpm_russia.13.c: "지금은 곤란합니다" # 11820339367203050134
+  bpm_russia.14.t: "이노로데츠 표창" # 3490559992914209881
+  bpm_russia.14.d: "소위 이노로드치(Inorodtsy)는 그들의 삶과 우리가 그들과 상호작용하는 방식을 규율하는 법규와 예외 조항들의 법적 잡동사니에 불과합니다. 이들을 단순화하고 간소화하는 것은 우리의 신분 제도를 폐지하기 위한 필수적인 과정입니다." # 15080551997676360193
+  bpm_russia.14.f: "우리의 의회가 세력을 잃어감에 따라, 우리는 외면할 수 없는 문제에 직면했습니다. 바로 태생이나 신앙으로 인해 수년 동안 우리가 유지해 온 의회 구성원들과 분리되어 있었으며, 예외와 특별한 의무를 부여받았던 거대한 집단, 즉 이노로데츠(Inorodetz)의 지위 문제입니다. 이제 의회가 사라졌으므로, 이노로데츠의 지위에 대한 의문은 점점 더 시급해지고 있습니다." # 2516156163210464442
+  bpm_russia.14.a: "토착 통치 정책 일부 유지" # 8883439270848185627
+  bpm_russia.14.b: "그들의 특권을 박탈하시오. 그들은 나중에 권리를 획득할 것이오." # 8283197579836739090
+  bpm_russia.14.c: "이것은 나중에 처리하겠습니다" # 7993210315223540047
+  je_bpm_russia_patchwork_governance: "국정 간소화" # 6490566782410948098
+  je_bpm_russia_patchwork_governance_reason: "러시아에 정통한 누구나 주목할 만한 점은 그 거대한 영토입니다. 어떤 이들에게는 큰 자부심이자 막강한 힘의 원천이 되지만, 또 다른 이들에게는 복잡하고 거의 비잔틴적인 수준의 예외와 규칙을 필요로 하는 수많은 골칫거리이기도 합니다. 그러나 이 세기에 이르러 러시아를 통치하기 위해서는 이러한 규칙들이 개정되고, 간소화되며, 개선되어야만 합니다.\n\n#tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_russia_patchwork_governance_tooltip_zemstvo 제무스트보#!를 제정하고 #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_russia_patchwork_governance_tooltip_obschina 옵시나#!를 다룸으로써, 우리 거대한 국가의 통치는 개선될 수 있으며, 이는 우리가 즉시 착수해야 할 과업입니다." # 12256070653770680016
+  bpm_russia_obschina_empowered: "옵스치나 (강력함)" # 13822996340124026588
+  bpm_russia_obschina: "옵스치나" # 5896893096646673106
+  bpm_russia_obschina_abolished: "옵시나 폐지됨" # 15333614253646738086
+  bpm_russia_ad_hoc_governance: "체계 없는 통치" # 9599088958804523877
+  bpm_russia_zemstvos: "젬스트보 도입됨" # 5491117513452333588
+  bpm_russia_zemstvos_abolished: "축소된 젬스트보" # 9528712386163233805
+  bpm_russia_ig_promoted_obschina: "옵스치나의 챔피언들" # 5933863746708074189
+  bpm_russia_rapid_bureaucratic_modernization: "신속한 관료제 현대화" # 2368333801766421137
+  je_bpm_russia_patchwork_governance_tooltip_obschina: "#v 옵시나#! 는 러시아 농민들의 자치 기관입니다. 옵시나는 내부 분쟁, 경제 활동을 관리할 수 있으며, 특히 연대 책임을 통해 농민들 사이의 지역 치안 활동을 간소화하고 귀족들의 조세 및 징병을 돕습니다.\n\n그러나 농노제와 토지에 대한 공동 소유가 결합되면서 종종 #v 체르노폴로시차#!, 즉 농민 가구가 사용하는 토지가 관리 불가능하고 멀리 떨어진 조각들로 파편화되어 경제적 비효율성을 초래하게 됩니다." # 4362422030132695887
+  je_bpm_russia_patchwork_governance_tooltip_zemstvo: "#v 젬스트보#! 는 러시아 내 지역 행정을 위한 자치 기구입니다. 경찰권이 없는 젬스트보는 순수하게 조직, 행정 및 조세 관련 문제에만 집중합니다.\n\n하지만 이러한 작은 권한조차도 보수적인 귀족 세력에게는 골칫거리가 되지만, 다양한 진보 세력들이 그들의 힘과 영향력을 행사할 수 있도록 허용합니다." # 4084848570414309401
+  je_bpm_russia_patchwork_governance_abolish_obschina_button: "옵시나 철폐" # 2297936240431040839
+  je_bpm_russia_patchwork_governance_abolish_obschina_button_desc: "옵시나(Obschina) 제도는 우리 농민들에게 어느 정도의 자치권을 허락했으며 마을 내 법 집행을 간소화하는 데 도움을 주었습니다. 경제가 변화하고 경찰력이 점차 표준화됨에 따라, 이 고대의 제도는 자산이 아닌 짐이 되었으니, 짐은 폐지되어야 합니다." # 830782832392755160
+  je_bpm_russia_patchwork_governance_empower_obschina_button: "옵스치나에 권한을 부여하라" # 11339565608324221263
+  je_bpm_russia_patchwork_governance_empower_obschina_button_desc: "옵시나(Obschina)는 러시아의 격동적인 역사 속 폭정의 바다에 있는 소중한 자유의 오아시스입니다. 이 제도의 가장 큰 옹호자들인 나로드니크들은 그들의 목소리를 들을 수 있을 만큼 충분한 정치 자본을 확보했습니다. 옵시나는 역사의 흐름에 휩쓸리지 않을 것입니다. 그것은 우리 자신의, 진정으로 러시아적인 민주 제도이자 급진적 자유주의의 비극과 실패에 대한 진보적인 해독제가 될 것입니다." # 763398538793187511
+  je_bpm_russia_patchwork_governance_institute_zemstvos_button: "젬스트보 설립" # 4650911206539604014
+  je_bpm_russia_patchwork_governance_institute_zemstvos_button_desc: "젬스트보 제도(Zemstvos)는 집행력이 없는 지방 자치 기구로서, 세부적인 지방 행정에 얽매이지 않고 거대한 국가의 의지를 관철하는 능력을 크게 향상시킬 것입니다. 자유주의가 대두하고 있기에, 그들이 대중 통치의 메뚜기들처럼 뿌리내려 위협이 될 수 있으니, 그들 역시 주시해야 할 것입니다." # 15734723987713612160
+  je_bpm_russia_patchwork_governance_abolish_zemstvos_button: "젬스트보(Zemstvos) 축소" # 10727585417377383614
+  je_bpm_russia_patchwork_governance_abolish_zemstvos_button_desc: "젬스키(Zemstvos)의 도입은 우리 국가에 큰 이익을 가져왔지만, 부작용도 없지는 않았습니다. 그들의 불안정성을 조장하는 성격을 제어하기 위해, 그들이 가진 권한을 제한해야 할 것입니다. 결국 그들은 국가를 섬기기 위해 존재하는 것이지, 국가가 그들을 위해 존재하는 것은 아니니까요." # 4659380149646968840
+  bpm_russia.8.t: "신속한 근대화" # 9840912242897622333
+  bpm_russia.8.d: "사회주의자들이 자리를 차지하면서, 이전에는 실현될 수 없었던 $ROOT.GetCountry.GetName$의 통치를 근본적으로 현대화할 정치적 의지가 도래했습니다." # 15251952310123106816
+  bpm_russia.8.f: "차르(Tsar)들이 무능하거나, 혹은 러시아의 낡고 구시대적인 정부 구조를 제대로 개혁할 의지가 없었기에, 이전 정권이 크게 소홀히 했던 부분을 바로잡는 책임이 노동자들의 어깨에 지워지게 되었다." # 11203170833125809471
+  bpm_russia.8.a: "구시대는 가고 신시대가 도래했도다!" # 3858233256660148397
+  bpm_russia.8.b: "우리는 옵시나(Obschinas)를 본보기 삼아 근대화할 것입니다!" # 8788423194587115059
+  bpm_russia_evt_8_warning_old_admin: "#blue @information! 이 페널티는 젬스트보가 수립되지 않았거나, 최근에 폐지되었거나, 옵시나(О́бщина)가 개혁되거나 폐지되지 않은 경우에 증가합니다. 당연히 이러한 요인들의 조합은 더욱 가혹한 페널티로 이어집니다!#" # 4575823118718232162
+  bpm_russia.9.t: "꾸준한 근대화" # 1447924204556551505
+  bpm_russia.9.d: "지난 몇 년간 시행된 개혁들이 마침내 결실을 맺어, 전국적으로 더욱 개선되고 신속한 통치가 이루어지게 되었습니다." # 6948588148870944508
+  bpm_russia.9.f: "러시아 전역에서 보고가 꾸준히 들어오고 있었습니다. 좋은 보고였습니다. 수확량 증가, 세금 징수 개선, 더욱 신뢰할 수 있는 정보에 관한 보고였습니다. 러시아는 언제나 항해가 어려운 나라였지만, 이제 국가라는 배가 명령에 조금 더 민감하게 반응하게 되었습니다." # 1950969951111427066
+  bpm_russia.9.a: "훌륭하군!" # 2437330302850207204

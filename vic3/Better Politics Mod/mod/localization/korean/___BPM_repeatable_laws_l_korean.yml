@@ -1,0 +1,158 @@
+﻿l_korean:
+  bpm_repeatable_law_cooldown: "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')]는 현재 #v [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_cooldown')]#!년의 재사용 대기시간 중에 있습니다." # 2245393814906180641
+  law_repeatable_none: "반복 선택 불가" # 11764044511079574747
+  law_repeatable_none_desc: "현재 [$concept_bpm_repeatable_law$] 개념에 대한 어떠한 재고도 이루어지지 않고 있습니다." # 10807650444212950840
+  bpm_decorative_repeatable_effect_no_permanent: "영구적인 효과 없음" # 644168944988362320
+  bpm_decorative_repeatable_effect_no_permanent_desc: "$concept_bpm_repeatable_law_desc$" # 8092262660421782709
+  bpm_decorative_repeatable_effect_temporary: "임시 효과를 적용합니다" # 12744525997472024852
+  bpm_decorative_repeatable_effect_temporary_desc: "$concept_bpm_repeatable_law_desc$" # 8092262660421782709
+  bpm_last_enacted_repeatable_label: "최종 입법:" # 5642503736192144265
+  bpm_last_enacted_repeatable_countdown: "@clock! #v [Law.MakeScope.ScriptValue('bpm_repeatable_law_countdown_value')]#! 일 남음" # 12155211044560217255
+  bpm_law_effect_tt_repeatable_stronger_from_institution: "#blue @information! 다음 효과들은 해당 국가의 [Concept('concept_investment_level','level')]가 오를 때마다 증가합니다!#" # 3101445190471582815
+  bpm_law_effect_tt_repeatable_stronger_from_home_affairs: "$bpm_law_effect_tt_repeatable_stronger_from_institution$ [GetInstitutionType('institution_home_affairs').GetName]." # 9315444631340068674
+  bpm_decorative_repeatable_stronger_from_home_affairs: "#O [GetInstitutionType('institution_home_affairs').GetName]# 로 개선되었습니다!" # 17056870335042928114
+  bpm_decorative_repeatable_stronger_from_home_affairs_desc: "$bpm_law_effect_tt_repeatable_stronger_from_home_affairs$" # 12516517585217380522
+  bpm_law_effect_tt_repeatable_stronger_from_centralization: "$bpm_law_effect_tt_repeatable_stronger_from_institution$ [GetInstitutionType('institution_centralization').GetName]에서 더 강력해집니다." # 4986125250008565571
+  bpm_decorative_repeatable_stronger_from_centralization: "#O [GetInstitutionType('institution_centralization').GetName]# 로 개선되었습니다!" # 3225433111163590472
+  bpm_decorative_repeatable_stronger_from_centralization_desc: "$bpm_law_effect_tt_repeatable_stronger_from_centralization$" # 13423383910490746150
+  bpm_law_effect_tt_repeatable_stronger_from_culture: "$bpm_law_effect_tt_repeatable_stronger_from_institution$ [GetInstitutionType('institution_culture').GetName]." # 5663699384558920913
+  bpm_decorative_repeatable_stronger_from_culture: "#O [GetInstitutionType('institution_culture').GetName]# 로 개선되었습니다!" # 3945413822745968572
+  bpm_decorative_repeatable_stronger_from_culture_desc: "$bpm_law_effect_tt_repeatable_stronger_from_culture$" # 4584126719070676630
+  bpm_law_effect_tt_repeatable_stronger_from_professional_officers: "@information! #blue 다음 효과들은 [GetLawType('law_professional_officer').GetName] 하에 증가합니다.!" # 10878358577684014969
+  bpm_decorative_repeatable_stronger_from_professional_officers: "#O [GetLawType('law_professional_officer').GetName]# 로 개선됨!" # 4663814231282014894
+  bpm_decorative_repeatable_stronger_from_professional_officers_desc: "$bpm_law_effect_tt_repeatable_stronger_from_professional_officers$" # 4720984596503594367
+  bpm_law_effect_tt_repeatable_stronger_from_non_religious_igs: "@information! #blue 다음 효과들은 [Concept('concept_bpm_ig_is_non_religious', '$concept_bpm_ig_is_non_religious$')] [Concept('concept_interest_group', 'Interest Group')] 중 [Concept('concept_in_government', 'Government')] 또는 [Concept('concept_powerful', 'Powerful')] 상태인 집단 수에 따라 증가합니다." # 6452517910780006117
+  bpm_law_effect_tt_repeatable_stronger_from_religious_igs: "@information! #blue 다음 효과는 [Concept('concept_in_government', '정부')]에 있거나 [Concept('concept_powerful', '강력한')] [Concept('concept_interest_group', '이익 집단')]인 [Concept('concept_bpm_ig_is_religious', '$concept_bpm_ig_is_religious$')]당 증가합니다." # 337439066103909591
+  bpm_law_effect_tt_repeatable_strength_influenced_by_ig_support: "@information! #blue 다음 효과는 정부 내 각 [concept_in_government] 또는 [Concept('concept_powerful', '강력한')] [Concept('concept_interest_group', '이해집단')]의 법안에 대한 의견에 따라 조정됩니다!#" # 14797117373845129058
+  bpm_repeatable_law_ig_happy: "$concept_bpm_repeatable_law$에 흡족해하는 바이다." # 16020991796576808810
+  bpm_repeatable_law_ig_unhappy: "$concept_bpm_repeatable_law$에 불만을 품음" # 2754450022899911007
+  bpm_law_effect_tt_repeatable_different_in_cooperative_ownership: "@information! #blue 다음 효과들은 [GetLawType('law_cooperative_ownership').GetName] 하에서는 다르게 적용됩니다.#" # 14769068889031891167
+  bpm_law_effect_tt_repeatable_different_in_collectivized_agriculture: "@information! #blue 다음 효과들은 [GetLawType('law_collectivized_agriculture').GetName] 하에서 다르게 적용됩니다." # 17858597377261853413
+  lawgroup_repeatable_politics: "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')] - 정치" # 7229621604758962183
+  lawgroup_repeatable_politics_desc: "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_laws$')]은 국가의 정치적 구성에 직접적으로 관련됩니다." # 12421785074929351677
+  law_repeatable_politics_none: "$law_repeatable_none$" # 17125928560036322773
+  law_repeatable_politics_none_desc: "$law_repeatable_none_desc$" # 11380134088644947324
+  law_repeatable_politics_modernize_bureaucracy: "관료제 근대화" # 557974490480651837
+  law_repeatable_politics_modernize_bureaucracy_desc: "지적도 제작, 통일된 도량형 도입, 국가 공용어 통일; 이러한 조치들 중 적어도 일부를 시도하는 것은 우리의 관료 조직이 근대 시대에 제대로 기능하도록 할 것입니다." # 10952676662186850190
+  bpm_law_effect_tt_repeatable_politics_modernize_bureaucracy: "@information! #blue 아직 연구하지 않은 가장 이른 시기의 관료 기술 두 개를 포기합니다. 중앙집권 및 국제 관계를 연구하면 더 이상 사용할 수 없습니다. #!" # 6986439268971697797
+  law_repeatable_politics_military_purge: "군부 숙청" # 14495404385542353681
+  law_repeatable_politics_military_purge_desc: "[GetInterestGroupVariant('ig_armed_forces', GetPlayer).GetName] 내에서 정치적 충성도를 확보하기 위해 광범위하고 폭력적인 숙청을 단행하시오." # 5344827537303215166
+  bpm_repeatable_law_military_purge_result: "군사 숙청의 여파" # 5777195899093223359
+  bpm_law_effect_tt_repeatable_politics_military_purge: "#N 각 #concept_commander#는 숙청당할 #v 25%#! 의 확률을 가집니다!#!" # 6747130579711008801
+  law_repeatable_politics_bureaucratic_purge: "관료 숙청" # 10840126558516584929
+  law_repeatable_politics_bureaucratic_purge_desc: "[GetInterestGroupVariant('ig_petty_bourgeoisie', GetPlayer).GetName] 전반에 걸친 대대적인 숙청을 단행하여 행정 기구의 충성심을 확보하십시오." # 4900450258703259342
+  bpm_repeatable_law_bureaucratic_purge_result: "관료 숙청의 여파" # 17110094282429059918
+  bpm_repeatable_law_bureaucratic_purge_result_ig: "아첨꾼들로 가득 찼음" # 11068968941853619531
+  law_repeatable_politics_popular_concessions: "사소한 양보" # 8893574885423740712
+  law_repeatable_politics_popular_concessions_desc: "사소하지만 짜증나는, 대대적인 개혁 없이 해결할 수 있는 인구의 문제들을 조사하고 조치하십시오." # 2049898682780533513
+  bpm_repeatable_law_popular_concessions_result_permanent: "사소한 양보" # 8893574885423740712
+  law_repeatable_politics_anti_corruption_drive: "부패 척결 운동" # 6068151647980139840
+  bpm_repeatable_law_anti_corruption_drive_result_ig: "부패 방지 결과" # 8908314715675768806
+  bpm_law_effect_tt_politics_anti_corruption_drive: "@information! #blue 가장 많은 [Concept('concept_clout', '영향력')]을 보유한 [Concept('concept_bpm_ig_is_institutional', '제도적')] [Concept('concept_interest_group', '이해집단')]을 대상으로 합니다.!#" # 3976350384755701990
+  bpm_law_effect_tt_repeatable_different_in_reconstruction: "@information! #blue 재건 기간 중에는 다음 효과들이 다르게 적용됩니다." # 4952203882607266904
+  law_repeatable_politics_anti_corruption_drive_desc: "국가 조직 내의 부패를 척결하기 위해 나라의 확고한 이익 집단들을 대상으로 대대적인 숙청을 단행해야 합니다." # 2506351253762198188
+  law_repeatable_politics_great_terror: "[GetPlayer.GetCustom('bpm_repeatable_politics_terror_name')]" # 12311075811273799183
+  law_repeatable_politics_great_terror_desc: "[GetPlayer.GetCustom('bpm_repeatable_politics_terror_target')]에 대한 대대적인 폭력 및 탄압 캠페인을 단행하십시오." # 11025706941309701688
+  bpm_law_effect_tt_politics_great_terror: "@information! #blue 모든 [Concept('concept_in_opposition', 'Opposition')] 내 [Concept('concept_interest_group', 'Interest Groups')]에 대한 [Concept('concept_clout', 'Clout')], [Concept('concept_interest_group_attraction', 'Attraction')], 및 [Concept('concept_approval', 'Approval')]를 감소시키며, 이는 [Concept('concept_bpm_ig_is_ideological', 'Ideological')] [Concept('concept_interest_group', 'Interest Groups')]에 적용됩니다." # 12448315387261569269
+  bpm_repeatable_law_great_terror_result: "대공포정" # 2744360367423415257
+  bpm_repeatable_law_great_terror_result_ig: "테러의 희생자들" # 4332836978945994338
+  bpm_repeatable_politics_terror_name_liberal: "자코바이트 공포정" # 16993212260658271390
+  bpm_repeatable_politics_terror_target_liberal: "인민의 적들" # 9207800227294100444
+  bpm_repeatable_politics_terror_name_white: "백색 테러" # 14265077439628105148
+  bpm_repeatable_politics_terror_target_white: "[GetPlayer.GetName]의 적들" # 4819002693997318570
+  bpm_repeatable_politics_terror_name_red: "적색 테러" # 2905066996502795999
+  bpm_repeatable_politics_terror_target_red: "혁명의 적들" # 16029704875947665864
+  bpm_repeatable_politics_terror_name_great: "대공포정" # 2744360367423415257
+  bpm_repeatable_politics_terror_target_great: "[GetPlayer.GetName]의 적들" # 4819002693997318570
+  lawgroup_repeatable_religion: "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')] - 종교" # 14008696800878030704
+  lawgroup_repeatable_religion_desc: "다양한 종교 문제와 관련된 [Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_laws$')]입니다." # 1932219665393193078
+  law_repeatable_religion_none: "$law_repeatable_none$" # 17125928560036322773
+  law_repeatable_religion_none_desc: "$law_repeatable_none_desc$" # 11380134088644947324
+  law_repeatable_religion_anti_secular_reaction: "반종교 개혁 운동" # 4815313532797217199
+  law_repeatable_religion_anti_secular_reaction_desc: "학계의 세속주의 사상을 타도하여 근대 사상의 확산을 막아야 합니다." # 12471531834531775094
+  bpm_repeatable_law_anti_secular_reaction_result: "반세속주의 반응 결과" # 7680594771670995935
+  law_repeatable_religion_promote_state_religion: "국교 승격" # 947518336216672106
+  law_repeatable_religion_promote_state_religion_desc: "국민들 사이에서 우리 종교를 더욱 적극적으로 장려하는 정책을 시행하십시오." # 18285299302538069943
+  bpm_law_effect_tt_repeatable_promote_state_religion_conversion: "[GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_promote_state_religion_conversion_percent')]%#의 #v [Concept('concept_pop', 'Pops')]#가 #v [Concept('concept_incorporated_state', 'Incorporated States')]#에서 [GetPlayer.GetStateReligion.GetName]로 개종합니다." # 8010525373455930043
+  bpm_repeatable_law_promote_state_religion_result: "국교 장려" # 657106829389637711
+  law_repeatable_religion_promote_secular_values: "세속적 가치 증진" # 6012256389703416941
+  law_repeatable_religion_promote_secular_values_desc: "우리 인구의 보다 세속적인 관점을 장려하기 위한 정책을 시행하십시오." # 1661164528696055926
+  bpm_law_effect_tt_repeatable_promote_secular_values_conversion: "#v [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_promote_secular_values_conversion_percent')]%#! 만큼 [Concept('concept_incorporated_state', 'Incorporated States')] 내의 [Concept('concept_pop', 'Pops')]를 [GetReligion('atheist').GetName]으로 전환시킵니다" # 8943937590291584801
+  bpm_repeatable_law_promote_secular_values_result: "세속적 가치 증진" # 4529172471421207372
+  law_repeatable_religion_anti_religious_violence: "반종교 폭력" # 7550596890204253319
+  law_repeatable_religion_anti_religious_violence_desc: "공개적으로 신앙을 고백하는 자들과 성직자들에 대한 표적화된 폭력과 종교적 상징 및 재산의 파괴를 병행하여 종교 잔존 세력에 대한 압박을 증대하십시오." # 15754283075611499067
+  bpm_law_effect_tt_repeatable_anti_religious_violence_conversion: "#v [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_anti_religious_violence_conversion_percent')]%#! 만큼 [Concept('concept_incorporated_state', 'Incorporated States')] 내의 [Concept('concept_pop', 'Pops')]를 [GetReligion('atheist').GetName]로 개종시킵니다." # 15318172713819400726
+  bpm_repeatable_law_anti_religious_violence_result: "성직자에 대한 탄압" # 6496380349507484558
+  lawgroup_repeatable_nationality: "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')] - 국가적" # 2592271371273190859
+  lawgroup_repeatable_nationality_desc: "우리나라의 국적 및 문화와 관련된 [Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_laws$')]입니다." # 16345365399613472311
+  lawgroup_repeatable_military: "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')] - 군사" # 15769466179087911443
+  lawgroup_repeatable_military_desc: "군사 개혁과 관련된 [concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_laws$')]" # 16092589646337349473
+  law_repeatable_military_none: "$law_repeatable_none$" # 17125928560036322773
+  law_repeatable_military_none_desc: "$law_repeatable_none_desc$" # 11380134088644947324
+  law_repeatable_military_military_reform: "군사 개혁" # 11498497090442615789
+  law_repeatable_military_military_reform_desc: "[GetInterestGroupVariant('ig_armed_forces', GetPlayer).GetName]의 상태를 개선하기 위한 광범위한 캠페인을 조직하여, 무능하거나 퇴행적인 지휘관들을 교체하고 군대에 보다 현대적인 비전을 도입하십시오." # 1303939899315652317
+  bpm_repeatable_law_military_reform_result: "군사 개혁" # 9145060005285112760
+  bpm_repeatable_law_military_reform_result_better: "전문 군사 개혁" # 2782682950799047136
+  law_repeatable_military_parades_and_drills: "군율을 집행하라" # 3186350011512057999
+  law_repeatable_military_parades_and_drills_desc: "군 규율을 강화하고, 태만 행위를 징벌하며, 끊임없이 연병을 실시하고 군대의 일관성을 강제해야 합니다." # 6670219084112646565
+  bpm_repeatable_law_parades_and_drills_result: "퍼레이드와 훈련" # 18368230167847667076
+  law_repeatable_military_improve_soldier_conditions: "군대 상황 개선" # 2681603669586932909
+  law_repeatable_military_improve_soldier_conditions_desc: "우리 하급 군인들의 생활 환경 개선을 위한 일부 규정을 제정하십시오." # 13999891659319724613
+  bpm_repeatable_law_improve_soldier_conditions_result: "향상된 군대 환경" # 14711638021753603977
+  bpm_repeatable_law_improve_soldier_conditions_result_permanent: "개선된 군대 환경 (영구적)" # 5644881677752828339
+  law_repeatable_military_army_defunding: "군비 축소" # 9928687522791173495
+  law_repeatable_military_army_defunding_desc: "평화를 위해 군대를 감축하겠습니다." # 14763982488653244827
+  bpm_repeatable_law_army_defunding_result: "군대 자금 삭감" # 3910546339898600506
+  bpm_repeatable_law_army_defunding_result_permanent: "비둘기파 정치" # 4567687573211710426
+  bpm_decorative_will_be_removed_on_aggressive_war: "공격적인 전쟁 참전으로 인해 수정자 제거됨" # 14003607057776056914
+  bpm_decorative_will_be_removed_on_aggressive_war_desc: "공격자로 전쟁을 시작하거나 참여하면 이 효과가 제거됩니다. 여기에는 내전, 분리 독립 또는 원주민 봉기는 포함되지 않습니다." # 612734575736363902
+  law_repeatable_military_war_propaganda: "전쟁 선전" # 10700023155347512134
+  law_repeatable_military_war_propaganda_desc: "우리 국민들의 전쟁에 대한 인식을 개선하기 위해 애국적 선전을 배포하고 장려하십시오." # 9874726557660816488
+  bpm_law_effect_tt_repeatable_war_propaganda_result: "우리의 모든 [Concept('concept_war', '전쟁')]에 대한 [Concept('concept_war_exhaustion', '전쟁 피로도')]가 #v 25#만큼 감소할 것입니다!" # 11927190172303236707
+  lawgroup_repeatable_culture: "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')] - 문화" # 8506516788122188030
+  lawgroup_repeatable_culture_desc: "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_laws$')]는 우리나라 내 다양한 문화적 사상의 장려를 다루고 있습니다." # 11116387689837363286
+  bpm_law_effect_tt_culture_generic_result: "이 [Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')]은 해당 [Concept('concept_law', '법률')]에 대한 입장을 가진 모든 [Concept('concept_bpm_ig_is_ideological', '이념적인')] [Concept('concept_interest_group', '이해집단')]을 대상으로 합니다. 이는 해당 법률에 대한 찬반 여부에 따라 이들 집단의 [Concept('concept_interest_group_attraction', '매력도')]와 [Concept('concept_approval', '지지율')]에 변화를 가져올 것입니다. 이러한 효과는 해당 법률을 강력히 지지하거나 강력히 반대하는 [Concept('concept_interest_group', '이해집단')]에게 더 강하게 나타납니다." # 12829465984324507252
+  bpm_repeatable_law_culture_generic_result_ig_positive: "확인된 가치" # 16689607939521945055
+  bpm_repeatable_law_culture_generic_result_ig_negative: "거부된 가치" # 239528717243030486
+  law_repeatable_culture_none: "$law_repeatable_none$" # 17125928560036322773
+  law_repeatable_culture_none_desc: "$law_repeatable_none_desc$" # 11380134088644947324
+  law_repeatable_culture_invite_foreign_experts: "외국 전문가 초빙" # 193157172666140962
+  law_repeatable_culture_invite_foreign_experts_desc: "외국인 학자, 철학자, 기술자 등을 초빙하여 우리의 연구 개발을 돕도록 하십시오." # 1007063212675639248
+  bpm_repeatable_law_invite_foreign_experts_result: "초빙 외국 전문가" # 10877250256186295669
+  law_repeatable_culture_promote_democratic_values: "민주적 가치를 증진하시오" # 13299968528806929391
+  law_repeatable_culture_promote_democratic_values_desc: "우리 시민들의 합법적인 민주 참여를 장려하기 위한 정책을 시행하고 캠페인에 자금을 지원하십시오." # 3332318869223617074
+  bpm_repeatable_law_promote_democratic_values_result: "민주적 가치 진작" # 17054396181244666341
+  law_repeatable_culture_promote_absolutist_values: "절대주의 가치를 고양하십시오" # 208381505203805343
+  law_repeatable_culture_promote_absolutist_values_desc: "우리 국가의 안녕을 위해 강력하고 전통적인 전제 정치에 대한 우리의 의지를 더욱 공고히 합시다." # 932370659975929501
+  bpm_repeatable_law_promote_absolutist_values_result: "절대주의 가치 고양" # 7428992337729208545
+  law_repeatable_culture_promote_patriotic_values: "애국적 가치관을 고양시키십시오" # 9655624180377683655
+  law_repeatable_culture_promote_patriotic_values_desc: "우리 국민들에게 애국심을 고취하고 민족 정체성을 강화하기 위한 정책을 시행하십시오." # 12766887544154320454
+  bpm_law_effect_tt_repeatable_promote_patriotic_values_assimilation: "$concept_discriminated$ [Concept('concept_pop', 'Pops')]의 #v [GetPlayer.MakeScope.ScriptValue('bpm_repeatable_law_promote_patriotic_values_assimilation_percent')]%#를 [GetPlayer.GetPrimaryCulturesDesc]로 동화시킵니다. 이는 [ROOT.GetCountry.GetName]이 [GetLawType('law_cultural_exclusion').GetName]을 시행하고 있을 경우에 해당합니다." # 12639536753334271086
+  bpm_repeatable_law_promote_patriotic_values_result: "애국적 가치관 고취" # 1009729410102353047
+  law_repeatable_culture_promote_socialist_values: "사회주의적 가치 증진" # 11179067961120357297
+  law_repeatable_culture_promote_socialist_values_desc: "만민에게 자유와 평등을 수호하겠다는 우리의 헌신을 재확인합니다." # 4027959495308375447
+  bpm_repeatable_law_promote_socialist_values_result: "사회주의적 가치 진흥" # 15001041869468105164
+  law_repeatable_culture_promote_ultranationalist_values: "극단적 민족주의 가치관을 진흥하시오" # 2842209351138229767
+  law_repeatable_culture_promote_ultranationalist_values_desc: "우리의 세계 내 입지에 대하여 호전적, 극단민족주의적이며 타협 없는 관점을 견지할 것임을 천명하노라." # 11161599670875952399
+  bpm_repeatable_law_promote_ultranationalist_values_result: "초국가주의 가치관 고취" # 16092586602377952900
+  lawgroup_repeatable_economy: "[Concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_law$')] - 경제학" # 11149029183554109625
+  lawgroup_repeatable_economy_desc: "우리 국가의 경제 문제와 관련된 [concept('concept_bpm_repeatable_law', '$concept_bpm_repeatable_laws$')]입니다." # 4327074913198969426
+  law_repeatable_economy_none: "$law_repeatable_none$" # 17125928560036322773
+  law_repeatable_economy_none_desc: "$law_repeatable_none_desc$" # 11380134088644947324
+  law_repeatable_economy_liberalization: "경제적 자유화" # 13751609797197109547
+  law_repeatable_economy_liberalization_desc: "다양한 경제적 자유주의 개혁들을 단행하여 민간 산업의 확장을 장려하십시오." # 10570724777635001200
+  bpm_repeatable_law_liberalization_result: "경제적 자유화 진행 중" # 2425968404087885272
+  bpm_repeatable_law_liberalization_socialist_result: "경제적 자유화 진행 중" # 2425968404087885272
+  law_repeatable_economy_agricultural_investment: "농업 투자" # 12566642205074440758
+  law_repeatable_economy_agricultural_investment_desc: "투자와 유익한 입법을 통해 농업 부문을 진흥하십시오" # 6760090563726949130
+  bpm_repeatable_law_agricultural_investment_result: "농업 투자" # 12566642205074440758
+  bpm_repeatable_law_agricultural_investment_socialist_result: "농업 투자" # 12566642205074440758
+  law_repeatable_economy_peasant_corvee: "농민 부역" # 14877489770350372773
+  law_repeatable_economy_peasant_corvee_desc: "국가 산업화를 저렴하게 가속화하기 위해 대출받았거나 국유화된 농민들을 건설 부역에 투입하십시오." # 15518249175481610108
+  bpm_repeatable_law_peasant_corvee_result: "농민 건설" # 4228612082778771012
+  law_repeatable_economy_public_works: "공공 사업" # 6226923953449253857
+  law_repeatable_economy_public_works_desc: "광범위한 공공 건설 사업을 통해 산업 확장을 장려하십시오." # 9463314360847677418
+  bpm_repeatable_law_public_works_result: "공공 사업 계획" # 9536689171807802551
+  law_repeatable_economy_forced_industrialization: "강제적인 산업화" # 9511321451627921758
+  law_repeatable_economy_forced_industrialization_desc: "할당량을 상향하고, 벌칙 노동을 동원하며, 산업 안전 규제를 완화하여 매우 신속한 산업 발전을 도모하십시오." # 10130155547688856935
+  bpm_repeatable_law_forced_industrialization_result: "산업 발전 강제하기" # 6421175330244623408

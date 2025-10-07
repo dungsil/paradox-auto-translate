@@ -1,0 +1,227 @@
+﻿l_korean:
+  bpm_current_reform_title: "$LAW_FROM_TO$" # 1569973254613235579
+  bpm_legislature_name_democracy: "입법부" # 14202272068351871278
+  bpm_legislature_name_oligarchy: "집회" # 2890068270613534547
+  bpm_legislature_name_autocracy: "고문들" # 13236711635993724126
+  bpm_legislature_name_parliament: "의회" # 1208783726581340767
+  bpm_legislature_name_council: "평의회" # 5214203930338573742
+  bpm_legislature_name: "[GetPlayer.GetCustom('bpm_legislature_name')]" # 1380121121043653646
+  bpm_legislature_adj_democracy: "입법" # 778775754546633203
+  bpm_legislature_adj_oligarchy: "집회" # 2890068270613534547
+  bpm_legislature_adj_autocracy: "자문" # 14655460759071833325
+  bpm_legislature_adj_parliament: "의회의" # 8118911406591569440
+  bpm_legislature_adj_council: "평의원" # 3173680542480444558
+  bpm_legislature_adj: "[GetPlayer.GetCustom('bpm_legislature_adj')]" # 10493465589113611635
+  bpm_legislative_vote_name_decision: "의견" # 15548413349191965968
+  bpm_legislative_vote_name_vote: "투표" # 7630609961218181071
+  bpm_legislative_vote_name: "[GetPlayer.GetCustom('bpm_legislative_vote_name')]" # 4319551075337803109
+  bpm_legislative_vote_title: "#v 예상되는 $bpm_legislature_adj$ $bpm_legislative_vote_name$#!" # 6286726286748396337
+  bpm_next_checkpoint_text: "다음 점검 시점: #tooltippable;tooltip:[Law.GetTooltipTag],LAW_NEXT_CHECKPOINT_TIME_FACTORS_TOOLTIP #v [Law.GetCheckpointEndDateString]#!#!#!" # 9228909172297260236
+  bpm_law_yea_votes: "#P 네#!\n#v [GetPlayer.MakeScope.ScriptValue('bpm_law_enactment_yea_votes_cached_value')|%1]#!" # 13667525883070955846
+  bpm_law_nay_votes: "#아니오#!\n#v #variable [GetPlayer.MakeScope.ScriptValue('bpm_law_enactment_nay_votes_cached_value')|%1]#!" # 8436251509611939502
+  bpm_law_voting_final_phase_info: "#v 최종 #Concept('concept_enactment_phase','단계')#에서:" # 8139974760954168221
+  bpm_law_voting_final_phase_legislation_info: "[GetPlayer.GetCustom('bpm_law_voting_final_phase_legislation')]" # 3358357651335860361
+  bpm_law_voting_final_phase_ruler_info: "[GetPlayer.GetCustom('bpm_law_voting_final_phase_ruler')]" # 13190448903096105648
+  bpm_law_voting_final_phase_pass_info: "#v $bpm_legislature_name$#! 이 @approves!#! #P 승인하다#!" # 13890686221677847924
+  bpm_law_voting_final_phase_fail_info: "#v $bpm_legislature_name$#!가 #v @disapproves!#! #N 부결시키다#!" # 2166551251148690377
+  bpm_law_voting_final_phase_must_pass: "@information! #v [GetPlayer.GetRuler.GetPrimaryRoleTitle]#가! @approves! #P #tooltippable;tooltip:bpm_law_voting_veto_tooltip 은 반드시 승인해야 합니다#!#!" # 17723427984577187775
+  bpm_law_voting_final_phase_must_fail: "@경고! #v [GetPlayer.GetRuler.GetPrimaryRoleTitle]#가! @못마땅해합니다! #N #tooltippable;tooltip:bpm_law_voting_veto_tooltip 이 법안을 거부할 것입니다#!#!" # 2514211244522868771
+  bpm_law_voting_final_phase_must_veto: "@경고! #v [GetPlayer.GetRuler.GetPrimaryRoleTitle]#께서! @불쾌해하십니다! #N #tooltippable;tooltip:bpm_law_voting_veto_tooltip 이 법안을 거부할 것입니다#!#!" # 16085896965978742993
+  bpm_law_voting_final_phase_may_pass: "@information! #v [GetPlayer.GetRuler.GetPrimaryRoleTitle]#가! @approves! #YB #tooltippable;tooltip:bpm_law_voting_veto_tooltip 에서 수락할 수 있습니다!#!" # 4186437594743353246
+  bpm_law_voting_tooltip: "이 법안은 [concept_law]로 제정되기 전에 $bpm_legislature_name$을 통과하고 [concept_ruler]의 승인을 받아야 합니다.\n\n현재, #v $bpm_legislature_adj$ $bpm_legislative_vote_name$#! 의 예상 결과는 다음과 같습니다:\n#v [GetPlayer.MakeScope.ScriptValue('bpm_law_enactment_yea_votes_cached_value')|%1]#! #P 찬성#! 대 #v [GetPlayer.MakeScope.ScriptValue('bpm_law_enactment_nay_votes_cached_value')|%1]#! #N 반대#! 입니다.\n\n현재 수치를 기준으로 최종 [Concept('concept_enactment_phase','Phase')] 단계에서는 다음과 같습니다:\n[GetPlayer.GetCustom('bpm_law_voting_final_phase_legislation')]\n[GetPlayer.GetCustom('bpm_law_voting_final_phase_executive')]\n#blue @information! 추가 정보: 더 자세한 내용은 정치/정부 탭으로 이동하여 다양한 항목에 마우스를 올려보십시오.!#" # 3694574256122532115
+  bpm_ruler_law_support_from_legislative_vote_fail: "#v $bpm_legislature_adj$ $bpm_legislative_vote_name$ 50% 미만#!" # 16608833631949629008
+  bpm_ruler_law_support_from_trait_persistent: "#v 불변의#! [concept_character_trait]" # 10392959818105225153
+  bpm_ruler_law_support_from_trait_arrogant: "#v 오만함#! [concept_character_trait]" # 3423346609152347348
+  bpm_ruler_law_support_from_trait_imposing: "#v 위압적#! [concept_character_trait]" # 18201824337063049961
+  bpm_ruler_law_support_from_trait_imperious: "#v 제국의#! [concept_character_trait]" # 7657601268028110804
+  bpm_ruler_law_support_from_trait_tactful: "#v 재치 있음#! [concept_character_trait]" # 16049324241413246353
+  bpm_ruler_law_support_from_trait_honorable: "#v 고결함#! [concept_character_trait]" # 14274063791159298411
+  bpm_ruler_law_support_from_vote_appointed_by_hos: "#v $bpm_legislature_adj$ $bpm_legislative_vote_name$#! [concept_law]은(는) [GetLawType('law_appointed_by_hos').GetName] 하에서 진행됩니다!" # 14302254854917753938
+  bpm_ruler_law_support_from_vote: "#v $bpm_legislature_adj$ $bpm_legislative_vote_name$#!" # 4673869434724434140
+  bpm_ruler_law_support_from_insurrection: "활성 [Concept('concept_revolution', '혁명')]으로부터" # 323349404269925318
+  bpm_ruler_law_support_from_movement: "활성 [concept_political_movement]로부터" # 1241132714077277795
+  bpm_ruler_reluctant_to_relinquish_power: "#v 권력을 넘기기를 꺼리는#!" # 16345034935044963664
+  bpm_ruler_law_support_from_hog_opinion: "[GetPlayer.GetCustom('bpm_hog_title')] [concept_ideology]로부터" # 12109777467683370965
+  bpm_ruler_law_support_from_young: "#v 젊은 시절#로부터!" # 2039710497833591059
+  bpm_ruler_law_support_from_old: "#v 노년기#!" # 2676264209175577044
+  bpm_law_vote_enactment_contribution_info: "#v 예상 #P 예#! 투표는 [GetPlayer.MakeScope.ScriptValue('bpm_law_vote_enactment_contribution_value')|+=%1] [Concept('concept_enactment_success','법안 통과율')]를 부여합니다#!" # 12489459162179257740
+  bpm_law_voting_phase_sways_info: "#v [Concept('concept_bpm_law_sway','법안 지지율 흔들기')]:#! $bpm_law_support_sway_maneuvers$" # 11916033392730727987
+  bpm_law_voting_guarantee_success: "#v 투표는 항상 진행됩니다#!" # 12413622025779335969
+  bpm_law_enactment_outliner_projected_approve: "#v 예상 최종 투표#!: @approves!" # 8054602739285167657
+  bpm_law_enactment_outliner_projected_disapprove: "#v 예상 최종 투표#!: @disapproves!" # 2449210617147180195
+  bpm_law_enactment_outliner_yea: "@승인합니다!" # 8154544659691215500
+  bpm_law_enactment_outliner_nay: "@못마땅해!@" # 5568592788758081277
+  bpm_law_enactment_outliner_vote_label: "투표" # 9609908471161651596
+  bpm_law_enactment_outliner_voting_label: "#v 이제 투표합니다#!" # 9560882627027959406
+  bpm_ig_law_support_tooltip: "[InterestGroup.MakeScope.GetScriptValueDesc('bpm_ig_law_support_total_value')]$bpm_ig_law_support_modifier_breakdown$" # 16120483841326289861
+  bpm_ig_law_support_modifier_breakdown: "$bpm_law_support_ig_add_modifier$$bpm_law_support_country_add_modifier$$bpm_law_support_ig_mult_modifier$$bpm_law_support_country_mult_modifier$" # 16973413389716700737
+  bpm_law_support_ig_add_modifier: "[AddTextIf(Not(EqualTo_string('', InterestGroup.GetModifier.GetDescFor('interest_group_law_support_add'))), Concatenate('\n', InterestGroup.GetModifier.GetDescFor('interest_group_law_support_add')))]" # 15193344158478419412
+  bpm_law_support_country_add_modifier: "[AddTextIf(Not(EqualTo_string('', InterestGroup.GetCountry.GetModifier.GetDescFor('country_base_law_enactment_support_add'))), Concatenate('\n', InterestGroup.GetCountry.GetModifier.GetDescFor('country_base_law_enactment_support_add')))]" # 4505893398458463428
+  bpm_law_support_ig_mult_modifier: "[AddTextIf(Not(EqualTo_string('', InterestGroup.GetModifier.GetDescFor('interest_group_law_support_mult'))), Concatenate('\n', InterestGroup.GetModifier.GetDescFor('interest_group_law_support_mult')))]" # 3457371910168441991
+  bpm_law_support_country_mult_modifier: "[AddTextIf(Not(EqualTo_string('', InterestGroup.GetCountry.GetModifier.GetDescFor('country_base_law_enactment_support_mult'))), Concatenate('\n', InterestGroup.GetCountry.GetModifier.GetDescFor('country_base_law_enactment_support_mult')))]" # 12108262748293978769
+  bpm_ig_law_support_current_law: "#노란색 현재#! [concept_law]" # 5970161663932661552
+  bpm_ig_law_support_current_law_like: "#yellow 현재 만족#! [concept_law]" # 12176395566544748822
+  bpm_ig_law_support_current_law_dislike: "#노란색 현재 불만#! [concept_law]" # 5488111422681544409
+  bpm_ig_law_support_enacting_law: "[concept_law] #yellow 심의 중#!" # 11211010165697843168
+  bpm_ig_law_support_from_party_whip: "[concept_party_whip] #yellow 기반 지지율#! × [Concept('concept_clout', '% Clout Difference')]" # 64109376844341172
+  bpm_ig_law_support_from_low_approval: "#red 낮은 [concept_approval]#로부터!" # 17091488034032593697
+  bpm_ig_law_support_from_very_low_approval: "#빨강 매우 낮은 [concept_approval]#에서!" # 10073209029903759801
+  bpm_ig_law_support_from_ruler: "[Concept('concept_ruler','국가원수')] [concept_law] #yellow 찬성#!" # 14148355610202715137
+  bpm_ig_law_support_from_ruler_ideology: "[Concept('concept_ruler','국가 원수')] [concept_ideology]로부터" # 16015711691453368583
+  bpm_ig_law_support_from_hog_ideology: "정부 수반으로부터 [concept_ideology]" # 13769264473365857994
+  bpm_ig_law_support_from_insurrectionary: "반란 진압으로부터" # 2986989452960031355
+  bpm_ig_law_support_from_stability: "[concept_bpm_political_stability]로부터" # 4246833915843632565
+  bpm_ig_law_support_from_movement: "[Concept('concept_political_movement', '정치 운동')]에서" # 5526639802774515332
+  bpm_ig_law_support_from_petition: "#노랑 청원서#! [concept_law]에 대한 요구" # 18267434002480755600
+  bpm_ig_law_support_from_insurrection_threat: "위협하는 [Concept('concept_revolution', '혁명')]으로부터" # 3071565186749180719
+  bpm_law_enactment_approval_from_events_desc: "이벤트로부터" # 16290289624649872994
+  bpm_law_support: "법안 투표" # 16642380677057463985
+  bpm_law_support_label: "#v $bpm_law_support$#!" # 5832364548956844147
+  bpm_law_enactment_success_vote_contribution: "예정된 법안 투표에서" # 18359228562453067841
+  bpm_ig_law_support_dislikes_compromise: "[InterestGroup.MakeScope.Var('preferred_law').GetLaw.GetName]을 선호함" # 13430806639982942738
+  bpm_from_movement_support: "[Concept('concept_political_movement', '운동')] 지지" # 3246265659105558456
+  bpm_from_movement_activism: "[Concept('concept_political_movement', '운동')] 활동주의" # 13849355959962957825
+  bpm_law_veto.1.t: "[GetPlayer.GetCustom('bpm_law_veto.1.t')]" # 503466600996241064
+  bpm_law_veto.1.t.democracy: "거부 또는 통과?" # 1983552352736169293
+  bpm_law_veto.1.t.autocracy: "거부하시겠습니까, 아니면 수락하시겠습니까?" # 4527389152062475919
+  bpm_law_veto.1.d: "[GetPlayer.GetCustom('bpm_law_veto.1.d')]" # 13661085725360578642
+  bpm_law_veto.1.d.approve: "$bpm_legislature_name$에서 [GetPlayer.GetRuler.GetFullNameWithTitle] 폐하의 책상 위로 최신 법안이 전달되었습니다. [GetPlayer.GetRuler.GetSheHe|U]는 만족스러운 미소를 지으며 법안을 살펴봅니다. 좋은 법안이로군요." # 2103078893207203802
+  bpm_law_veto.1.d.neutral: "$bpm_legislature_name$에서 [GetPlayer.GetRuler.GetFullNameWithTitle] 폐하의 책상으로 최신 법안이 전달되었습니다. 이 사안에 대해 개인적인 의견이 거의 없는 [GetPlayer.GetRuler.GetSheHe]께서는 이 법안에 서명하여 법률로 공포하시거나, 혹은 대중의 분노를 감수하고 거부하실 수 있습니다. [GetPlayer.GetRuler.GetSheHe]께서는 어떻게 하시겠습니까?" # 5933240009992686771
+  bpm_law_veto.1.d.disapprove: "$bpm_legislature_name$에서 온 최신 법안이 [GetPlayer.GetRuler.GetFullNameWithTitle]의 책상에 놓였고, 그는 미간을 찌푸리며 그것을 살펴봅니다. [GetPlayer.GetRuler.GetSheHe|U]는 이를 즉시 거부하고 싶지만, 그렇게 할 경우 상당한 대중적 분노를 감수해야 합니다. 어쩌다 이 지경에 이르렀단 말인가?" # 13150356161643953987
+  bpm_law_veto.1.f: "귀하는 군주의 법률 지지도가 0을 초과할 경우 법안을 #P 수용#할 수 있습니다.\n#v 법률 지지도#!: [GetPlayer.MakeScope.ScriptValue('bpm_law_enactment_executive_approval')|v+=0] #indent_newline:4 \n[GetPlayer.MakeScope.GetScriptValueDesc('bpm_law_enactment_executive_approval')]#!" # 12144815854997265495
+  bpm_law_veto.1.a: "[GetPlayer.GetCustom('bpm_law_veto.1.a')]" # 15366045002073975858
+  bpm_law_veto.1.a.approve: "그리고 훌륭한 법이 될 것입니다." # 8711403843026066615
+  bpm_law_veto.1.a.neutral: "법안에 서명하여 법률로 공포하십시오." # 15539350133555117257
+  bpm_law_veto.1.a.disapprove: "법안에 마지못해 서명하십시오." # 12768788944511766624
+  bpm_law_veto.1.b: "$bpm_legislature_name$에 다시 보내십시오." # 8448327131089855570
+  bpm_law_veto.1.c: "이 물건을 내 눈앞에서 치워주시오!" # 4991587239083708155
+  bpm_button_sways: "동요합니다" # 13975467882940821865
+  concept_bpm_law_sway: "법률에 영향력 행사" # 17293209326526542419
+  concept_bpm_law_sway_desc: "법안 통과 막바지 단계에서 [concept_interest_group]의 표를 얻기 위해 법안 동향(Law Sways)을 이용할 수 있습니다. 귀하는 [Concept('concept_enactment_phase','Enactment Phase')]당 고정된 수의 @maneuvers! 동향 기동(Sway Maneuvers)을 얻게 되며, 각 동향을 위해 [concept_interest_group]의 [concept_clout]에 비례하여 산정된 수치를 지출해야 합니다." # 9784742172679194416
+  bpm_law_support_sway: "[Concept('concept_bpm_law_sway','법안 지지 확보')]" # 16605376355438363412
+  bpm_law_support_sway_label: "[Concept('concept_bpm_law_sway','법안 영향력 행사 비용')]: @기동! [InterestGroup.MakeScope.ScriptValue('bpm_law_enactment_sway_cost')|v0]" # 12265980807143716993
+  bpm_show_hide_law_sways_tooltip: "현재 입법 중인 법률에 대한 [Concept('concept_bpm_law_sway','법률 설득')] 표시/숨기기\n남은 [Concept('concept_bpm_law_sway','설득')] 횟수: @maneuvers!@ [GetPlayer.MakeScope.ScriptValue('bpm_law_sway_maneuvers_value')|v0] (매 [Concept('concept_enactment_phase','국면')]당 #P +[GetPlayer.MakeScope.ScriptValue('bpm_law_sways_per_phase_value')]#!)" # 4159789604927962205
+  bpm_law_support_sway_maneuvers: "남은 기동: @maneuvers![GetPlayer.MakeScope.ScriptValue('bpm_law_sway_maneuvers_value')|v0] (#P +[GetPlayer.MakeScope.ScriptValue('bpm_law_sways_per_phase_value')]#! [Concept('concept_enactment_phase','Phase')]당)" # 13333358554021548260
+  bpm_law_sway_assert_authority: "#v 행정 권한을 확고히 하라#!" # 6230513817294896206
+  bpm_law_sway_assert_authority_used: "단언된 행정 권한" # 11535088057524117664
+  bpm_law_sway_assert_authority_mod: "단언된 행정 권한" # 11535088057524117664
+  bpm_law_sway_assert_authority_cost: "@aut! #N -50#! [GetPlayer.MakeScope.ScriptValue('bpm_law_sway_authority_duration_years')]년 동안 지속" # 7488784770363420330
+  bpm_law_sway_assert_authority_effect: "[GetPlayer.MakeScope.ScriptValue('bpm_law_sway_assert_authority_effect_value')|v0+=]" # 2156007390195188190
+  bpm_law_sway_assert_authority_neg_effect: "[GetPlayer.MakeScope.ScriptValue('bpm_law_sway_assert_authority_neg_effect_value')|v0+=]" # 6645692205252689469
+  bpm_law_sway_entrench_privileges: "#v 이해관계를 확고히 하라#!" # 11549415472361587745
+  bpm_law_sway_entrench_privileges_used: "기득권 세력" # 1651447037456443394
+  bpm_law_sway_entrench_privileges_mod: "기득권 세력" # 1651447037456443394
+  bpm_law_sway_entrench_privileges_cost: "#N +4#! #yellow [concept_bpm_political_stability]#" # 12349971876155801699
+  bpm_law_sway_entrench_privileges_effect: "[GetPlayer.MakeScope.ScriptValue('bpm_law_sway_entrench_privileges_effect_value')|v0+=]" # 1741568142380499014
+  bpm_law_sway_public_debate: "#v 대중 토론 무대#!" # 14701430521240269553
+  bpm_law_sway_public_debate_used: "공개 토론회" # 13337981096522689540
+  bpm_law_sway_public_debate_mod: "공개 토론회" # 13337981096522689540
+  bpm_law_sway_public_debate_cost: "#N -2#! #yellow [concept_bpm_political_stability]#" # 15977394839449364487
+  bpm_law_sway_public_debate_effect: "[GetPlayer.MakeScope.ScriptValue('bpm_law_sway_public_debate_effect_value')|v0+=]" # 9146873241311147828
+  bpm_law_sway_decrease_suffrage: "#v 참정권 훼손#!" # 7052121526184046350
+  bpm_law_sway_decrease_suffrage_used: "#yellow $institution_suffrage$#의 기반이 약화되었습니다! 제도" # 8928174448747380716
+  bpm_law_sway_decrease_suffrage_mod: "#yellow $institution_suffrage$#의 기반이 약화되었습니다! 제도" # 8928174448747380716
+  bpm_law_sway_decrease_suffrage_cost: "#N -1#! #yellow $institution_suffrage$#! 투자" # 18386911873805603504
+  bpm_law_sway_decrease_police: "#v 경찰력 제약#!" # 14980760460788431409
+  bpm_law_sway_decrease_police_used: "자제하는 #yellow 경찰$institution_police$#! 기관" # 13213724112928444060
+  bpm_law_sway_decrease_police_mod: "자제하는 #yellow 경찰$institution_police$#! 기관" # 13213724112928444060
+  bpm_law_sway_decrease_police_cost: "#N -1#! #yellow $institution_police$#! 투자" # 14510352428483666856
+  bpm_law_sway_decrease_home_affairs: "#v 보안 강화#" # 1991440076666182979
+  bpm_law_sway_decrease_home_affairs_used: "#노란색 $institution_home_affairs$# 감소! 기관" # 3284012811020396435
+  bpm_law_sway_decrease_home_affairs_mod: "#노란색 $institution_home_affairs$# 감소! 기관" # 3284012811020396435
+  bpm_law_sway_decrease_home_affairs_cost: "#N -1#! #yellow $institution_home_affairs$#! 투자" # 8848865222431197741
+  bpm_law_sway_decrease_centralization: "#v 자치권 양보#!" # 5163914515807121966
+  bpm_law_sway_decrease_centralization_used: "#yellow $institution_centralization$# 감소! 제도" # 5335149593216010299
+  bpm_law_sway_decrease_centralization_mod: "#yellow $institution_centralization$# 감소! 제도" # 5335149593216010299
+  bpm_law_sway_decrease_centralization_cost: "#N -1#! #yellow $institution_centralization$#! 투자" # 7875372100415874130
+  bpm_law_sway_decrease_institution_effect: "[GetPlayer.MakeScope.ScriptValue('bpm_law_sway_decrease_institution_effect_value')|v0+=]" # 10771794545800608585
+  bpm_law_sway_redeem_favors: "#v 호의 상환#!" # 1707477044138319741
+  bpm_law_sway_redeem_favors_used: "상환된 호의" # 7177872932320938097
+  bpm_law_sway_redeem_favors_mod: "상환된 호의" # 7177872932320938097
+  bpm_law_sway_redeem_favors_cost: "#N -5#! [concept_approval]이 [GetPlayer.MakeScope.ScriptValue('bpm_law_sway_approval_duration_years')]년 동안 유지됩니다" # 11031506147911973499
+  bpm_law_sway_redeem_favors_effect: "[GetPlayer.MakeScope.ScriptValue('bpm_law_sway_redeem_favors_effect_value')|v0+=]" # 14760042865682801657
+  bpm_law_sway_blackmail_leader: "#v 지도자 협박#!" # 12244606795773381599
+  bpm_law_sway_blackmail_leader_used: "협박받는 지도자" # 18293867906815869299
+  bpm_law_sway_blackmail_leader_mod: "협박받는 지도자" # 18293867906815869299
+  bpm_law_sway_blackmail_leader_cost: "#N -5#! [concept_approval]이 [GetPlayer.MakeScope.ScriptValue('bpm_law_sway_approval_duration_years')]년 동안 유지됩니다" # 11031506147911973499
+  bpm_law_sway_blackmail_leader_effect: "[GetPlayer.MakeScope.ScriptValue('bpm_law_sway_blackmail_leader_effect_value')|v0+=]" # 16061467092111058673
+  bpm_law_sway_tax_break_rich: "#v 조세 감면 협상#!" # 7630631887930488373
+  bpm_law_sway_tax_break_rich_used: "배당금 세금 감면" # 6135162941269487723
+  bpm_law_sway_tax_break_rich_mod: "배당금 세금 감면" # 6135162941269487723
+  bpm_law_sway_tax_break_rich_cost: "#N -4%#! [Concept('concept_budget_dividends_taxes','배당금 세율')]이 [GetPlayer.MakeScope.ScriptValue('bpm_law_sway_tax_break_duration_years')]년 동안 적용됩니다." # 2446437277993450704
+  bpm_law_sway_tax_break_rich_effect: "[GetPlayer.MakeScope.ScriptValue('bpm_law_sway_tax_break_rich_effect_value')|v0+=]" # 17684903936242917570
+  bpm_law_sway_tax_break_middle: "#v 조세 감면 협상#!" # 7630631887930488373
+  bpm_law_sway_tax_break_middle_used: "소득세 감면" # 10984918224459731335
+  bpm_law_sway_tax_break_middle_mod: "소득세 감면" # 10984918224459731335
+  bpm_law_sway_tax_break_middle_cost: "#N -2%#! [GetPlayer.MakeScope.ScriptValue('bpm_law_sway_tax_break_duration_years')]년 동안 [Concept('concept_budget_income_taxes','소득세율')]에 대한 영향" # 806134244113742749
+  bpm_law_sway_tax_break_middle_effect: "[GetPlayer.MakeScope.ScriptValue('bpm_law_sway_tax_break_middle_effect_value')|v0+=]" # 10836115961373387922
+  bpm_law_sway_tax_break_poor: "#v 조세 감면 협상#!" # 7630631887930488373
+  bpm_law_sway_tax_break_poor_used: "일인당 세금 감면" # 10613393926951452360
+  bpm_law_sway_tax_break_poor_mod: "일인당 세금 감면" # 10613393926951452360
+  bpm_law_sway_tax_break_poor_cost: "#N -0.04#! [GetPlayer.MakeScope.ScriptValue('bpm_law_sway_tax_break_duration_years')] 년간 [Concept('concept_budget_per_capita_taxes','1인당 세금')]" # 3089847403059582912
+  bpm_law_sway_tax_break_poor_effect: "[GetPlayer.MakeScope.ScriptValue('bpm_law_sway_tax_break_poor_effect_value')|v0+=]" # 751233319726425874
+  bpm_law_sway_tax_break_peasant: "#v 조세 감면 협상#!" # 7630631887930488373
+  bpm_law_sway_tax_break_peasant_used: "농민 세금 감면" # 18388244941188450435
+  bpm_law_sway_tax_break_peasant_mod: "농민 세금 감면" # 18388244941188450435
+  bpm_law_sway_tax_break_peasant_cost: "#N -0.04#! [GetPlayer.MakeScope.ScriptValue('bpm_law_sway_tax_break_duration_years')] 년 동안 [Concept('concept_budget_land_taxes','토지세')]" # 8306014533417664930
+  bpm_law_sway_tax_break_peasant_effect: "[GetPlayer.MakeScope.ScriptValue('bpm_law_sway_tax_break_peasant_effect_value')|v0+=]" # 12170467009432328401
+  bpm_law_sway_construction_racket: "#v 건설 계약 부여#!" # 3051569295795166906
+  bpm_law_sway_construction_racket_used: "건설 계약 승인됨" # 13822416137085110603
+  bpm_law_sway_construction_racket_mod: "건설 계약 승인됨" # 13822416137085110603
+  bpm_law_sway_construction_racket_cost: "#N -4%#! [concept_construction] 효율성, [GetPlayer.MakeScope.ScriptValue('bpm_law_sway_construction_racket_duration_years')]년간" # 219367679086690957
+  bpm_law_sway_construction_racket_effect: "[GetPlayer.MakeScope.ScriptValue('bpm_law_sway_construction_racket_effect_value')|v0+=]" # 14303242895779440756
+  bpm_law_sway_promise: "#v 법안 통과 약속#!" # 7825614947740533490
+  bpm_law_sway_promise_used: "법안 통과 약속" # 11437080684111494302
+  bpm_law_sway_promise_mod: "법안 통과 약속" # 11437080684111494302
+  bpm_law_sway_promise_cost: "@warning! 약속 불이행 시 벌칙" # 17567792247197075354
+  bpm_law_sway_promise_effect: "[GetPlayer.MakeScope.ScriptValue('bpm_law_sway_promise_effect_value')|v0+=]" # 16655633169696372206
+  bpm_law_sway_cabinet: "#v 내각 직책을 약속하기#!" # 12724776523657858050
+  bpm_law_sway_cabinet_promise_used: "내각 직책을 약속함!" # 12641138625177234208
+  bpm_law_sway_cabinet_mod: "내각 직책을 약속함" # 4803904592666898975
+  bpm_law_sway_cabinet_cost: "@warning! 약속 불이행 시 벌칙" # 17567792247197075354
+  bpm_law_sway_cabinet_effect: "[GetPlayer.MakeScope.ScriptValue('bpm_law_sway_cabinet_effect_value')|v0+=]" # 11428065893334075825
+  bpm_government_promise_law_tt: "[SCOPE.gsInterestGroup('bpm_government_promise_ig').GetName]은 향후 5년 이내에 정부가 [SCOPE.sLaw('bpm_government_promise_law_one').GetName]을 통과시키기를 기대할 것입니다." # 7772232035771352515
+  bpm_government_promise_law_tt_cancel: "#blue @information! 우리는 6개월 동안 약속을 협상할 수 없을 것입니다." # 3611204666752338538
+  bpm_government_promise_law_tt_two: "[SCOPE.gsInterestGroup('bpm_government_promise_ig').GetName]은 향후 5년 이내에 정부가 [SCOPE.sLaw('bpm_government_promise_law_two').GetName]을 통과시키기를 기대할 것입니다." # 6041160988583524460
+  bpm_provisional_government_events.2.t: "약속 협상 중" # 17711361910576308341
+  bpm_provisional_government_events.2.d: "우리는 [SCOPE.sLaw('bpm_currently_enacting_law').GetName]의 통과에 대한 그들의 지지를 대가로 [SCOPE.gsInterestGroup('bpm_government_promise_ig').GetName]에게 그들이 원하는 법안을 통과시켜 주겠다고 약속할 수 있습니다." # 8003473989719250170
+  bpm_provisional_government_events.2.f: "...법률은 언제나 사람들에게 자신의 이익을 돌볼 권한을 맡겨야 마땅하다. 왜냐하면 그들의 지역적 상황에서 입법자가 할 수 있는 것보다 그들 자신이 그 이익에 대해 더 잘 판단할 수 있기 때문이다.\n\n—애덤 스미스, 1776#!" # 18283770446582016680
+  bpm_provisional_government_events.3.t: "내각 직책을 약속하다" # 6136793390573471549
+  bpm_provisional_government_events.3.d: "우리는 [SCOPE.sLaw('bpm_currently_enacting_law').GetName] 통과에 대한 그들의 지지를 대가로 [SCOPE.gsInterestGroup('bpm_government_cabinet_promise_ig').GetName]에게 내각 자리를 약속할 수 있습니다." # 7995020317882657799
+  bpm_provisional_government_events.3.f: "...법률은 언제나 사람들에게 자신의 이익을 돌볼 권한을 맡겨야 마땅하다. 왜냐하면 그들의 지역적 상황에서 입법자가 할 수 있는 것보다 그들 자신이 그 이익에 대해 더 잘 판단할 수 있기 때문이다.\n\n—애덤 스미스, 1776#!" # 18283770446582016680
+  bpm_provisional_government_events.3.a: "[SCOPE.sInstitution('bpm_government_promised_position').GetName]의 지도권을 약속하십시오." # 8899506813038048470
+  bpm_provisional_government_events.3.b: "[SCOPE.sInstitution('bpm_government_promised_position_two').GetName]의 지도권을 그들에게 약속하십시오." # 7179138426407663626
+  bpm_provisional_government_events.3.c: "이 제안들은 우리의 국익에 부합하지 않습니다." # 14892874670258038849
+  bpm_government_cabinet_promise_tt_cancel: "#blue @information! 우리는 6개월 동안 약속을 협상할 수 없을 것입니다." # 3611204666752338538
+  bpm_government_cabinet_promise_law_tt: "[SCOPE.gsInterestGroup('bpm_government_cabinet_promise_ig').GetName]은 향후 5년 내에 정부가 그들의 지도자를 [SCOPE.sInstitution('bpm_government_promised_position').GetName]에 임명할 것을 기대할 것입니다." # 2611251529013418130
+  bpm_government_cabinet_promise_law_tt_two: "[SCOPE.gsInterestGroup('bpm_government_cabinet_promise_ig').GetName]은 향후 5년 이내에 정부가 자신들의 지도자를 [SCOPE.sInstitution('bpm_government_promised_position_two').GetName]에 임명해 주기를 기대할 것입니다." # 6799516281635784724
+  bpm_provisional_government_events.2.a: "[SCOPE.sLaw('bpm_government_promise_law_one').GetName] 통과를 약속하다" # 7311189984065370596
+  bpm_provisional_government_events.2.b: "[SCOPE.sLaw('bpm_government_promise_law_two').GetName] 통과를 약속합니다" # 14735768349260589783
+  bpm_provisional_government_events.2.c: "이 제안들은 우리의 국익에 부합하지 않습니다." # 14892874670258038849
+  je_bpm_government_promise_cabinet_tt_complete: "올바른 [Concept('concept_interest_group', 'Interest Group')]의 대신이 임명되었습니다." # 17583350025665091041
+  je_bpm_government_promise_law: "정부 공약" # 164375192873701371
+  je_bpm_government_promise_status: "우리는 [SCOPE.gsInterestGroup('government_promise_ig').GetName]에게 [SCOPE.sLaw('government_promise_law').GetName]를 통과시키겠다고 약속했습니다." # 3672880971732260374
+  je_bpm_government_promise_law_reason: "우리의 국정 행위자들과의 협상 결과, 우리는 법안 통과를 약속함으로써 [SCOPE.gsInterestGroup('government_promise_ig').GetName]에 빚을 지게 되었습니다. 정치적 파장을 피하기 위해 이 법안은 가급적 빨리 통과되어야 합니다." # 13347348308979738889
+  je_bpm_government_promise_cabinet: "내각의 약속" # 5380218140875415366
+  je_bpm_government_promise_cabinet_status: "우리는 [SCOPE.gsInterestGroup('government_promise_ig').GetName]에게 [SCOPE.sInstitution('government_promise_position').GetName]의 내각 직위를 약속했습니다." # 13992329875005199382
+  je_bpm_government_promise_cabinet_reason: "우리의 협상 결과로, 우리는 국내 정치 세력과의 협상에 따라 [SCOPE.gsInterestGroup('government_promise_ig').GetName]에 내각 직위를 약속함으로써 빚을 지게 되었습니다. 정치적 후폭풍을 피하기 위해 이 직위는 가능한 한 빨리 채워져야 합니다." # 10322287043459975699
+  bpm_followed_through_with_promise: "약속을 이행했소" # 9121614045485222691
+  bpm_followed_through_with_promised_content_ig: "약속을 이행했소" # 9121614045485222691
+  bpm_went_back_on_promise: "약속을 어겼습니다" # 13830685108632212411
+  bpm_went_back_on_promise_angry_ig: "약속을 어겼습니다" # 13830685108632212411
+  bpm_went_back_on_cabinet_promise_angry_ig: "내각 약속 철회" # 16012869766760670345
+  bpm_went_back_on_cabinet_promise: "내각 약속 철회" # 16012869766760670345
+  country_bpm_can_not_promise_cabinet_bool: "내각 자리 약속 불가" # 1339559318371896735
+  interest_group_bpm_can_not_promise_cabinet_to_bool: "내각 자리 약속 불가" # 1339559318371896735
+  bpm_ig_increase_law_enactment_approval_small_tt: "[SCOPE.gsInterestGroup('bpm_ig_law_approval_scope').GetName]은 #P +5#! [Concept('concept_bpm_law_sway', '법률 지지력')]을 얻습니다." # 16964488378237494915
+  bpm_ig_increase_law_enactment_approval_medium_tt: "[SCOPE.gsInterestGroup('bpm_ig_law_approval_scope').GetName]은 #P +10#! [Concept('concept_bpm_law_sway', '법안 찬성')]을 획득합니다." # 11762280943241396011
+  bpm_ig_increase_law_enactment_approval_big_tt: "[SCOPE.gsInterestGroup('bpm_ig_law_approval_scope').GetName]이 #P +15#! [Concept('concept_bpm_law_sway', '법률 제정에 대한 지지')]를 얻습니다." # 17358821651762127526
+  bpm_ig_decrease_law_enactment_approval_small_tt: "[SCOPE.gsInterestGroup('bpm_ig_law_approval_scope').GetName]가 #N -5#! [Concept('concept_bpm_law_sway', '법안 지지율')]을 얻습니다." # 16255373177197228087
+  bpm_ig_decrease_law_enactment_approval_medium_tt: "[SCOPE.gsInterestGroup('bpm_ig_law_approval_scope').GetName]이(가) #N -10#! [Concept('concept_bpm_law_sway', '법안 통과 지지도')]을(를) 얻습니다." # 5940436157258407829
+  bpm_ig_decrease_law_enactment_approval_big_tt: "[SCOPE.gsInterestGroup('bpm_ig_law_approval_scope').GetName]이 #N -15#! [Concept('concept_bpm_law_sway', '법안 통과 지지도')]를 획득합니다." # 4887569393447304540
+  bpm_ig_increase_law_enactment_approval_small_ruler_tt: "우리 [concept_ruler]는 #P +5#! [Concept('concept_bpm_law_sway', '법률 통과 지지율')]을 얻습니다!" # 6042453285709436871
+  bpm_ig_increase_law_enactment_approval_medium_ruler_tt: "우리 [concept_ruler]는 #P +10#! [Concept('concept_bpm_law_sway', '법안 통과 지지율')]을 얻습니다!" # 10778939298969730426
+  bpm_ig_increase_law_enactment_approval_big_ruler_tt: "우리 [concept_ruler]는 #P +15#! [Concept('concept_bpm_law_sway', '법률 제정 지지')]를 획득합니다." # 2452754112070889512
+  bpm_ig_decrease_law_enactment_approval_small_ruler_tt: "우리 [concept_ruler]는 #N -5#! [Concept('concept_bpm_law_sway', '법안 통과 지지')]를 받습니다." # 16461480861062358220
+  bpm_ig_decrease_law_enactment_approval_medium_ruler_tt: "우리의 [concept_ruler]은 #N -10#! [Concept('concept_bpm_law_sway', '법률 통과 지지')]을 얻습니다!" # 7526858539636250503
+  bpm_ig_decrease_law_enactment_approval_big_ruler_tt: "우리 [concept_ruler]는 #N -15#! [Concept('concept_bpm_law_sway', '법안 통과 지지')]를 얻습니다." # 8061644483244922570
