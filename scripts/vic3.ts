@@ -43,11 +43,13 @@ async function main () {
       log.success(`번역 완료! 스크립트를 종료합니다. (처리된 모드: ${mods})`)
     }
   } catch (error) {
-    log.error('번역 도중 오류가 발생하였습니다.', error)
-    throw error
+    throw new Error(`VIC3 번역 처리 중 오류 발생: ${error instanceof Error ? error.message : String(error)}`, {
+      cause: error
+    })
   }
 }
 
-main().catch(() => {
+main().catch((error) => {
+  log.error('번역 도중 오류가 발생하였습니다.', error)
   process.exit(1)
 })

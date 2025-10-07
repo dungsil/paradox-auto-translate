@@ -10,8 +10,7 @@ const VARIABLE_REGEX = /^\$[a-zA-Z0-9_\-.]+\$$/
 export async function translate (text: string, gameType: GameType = 'ck3', retry: number = 0): Promise<string> {
 
   if (retry > 5) {
-    log.error('재시도 횟수 초과로 종료, 대상 텍스트: "', text, '"')
-    throw new Error(`번역 재시도 횟수 초과: "${text}"`)
+    throw new Error(`번역 재시도 횟수 초과 (대상 텍스트: "${text}")`)
   }
 
   // 잘못된 형식인 경우 빈 텍스트 반환

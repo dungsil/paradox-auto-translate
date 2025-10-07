@@ -15,11 +15,13 @@ async function main() {
     await updateAllUpstreams(rootDir)
     
   } catch (error) {
-    log.error('Upstream 업데이트 중 오류 발생:', error)
-    throw error
+    throw new Error(`Upstream 업데이트 중 오류 발생: ${error instanceof Error ? error.message : String(error)}`, {
+      cause: error
+    })
   }
 }
 
-main().catch(() => {
+main().catch((error) => {
+  log.error('Upstream 업데이트 중 오류 발생:', error)
   process.exit(1)
 })
