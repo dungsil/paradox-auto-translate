@@ -45,6 +45,9 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
     Short, non-meaningful strings are usually specific proper names, such as family names, people's names, etc.
     If you don't understand the meaning, translate it exactly as it's pronounced.
 
+14. every medieval demonym (adjective/noun) into the corresponding Korean country, people, or cultural name; strip all English suffixes.
+    - Examples: "English" → "잉글랜드", "French" → "프랑스", "Polish" → "폴란드", "Hungarian" → "헝가리", "Norwegian" → "노르웨이"
+
 ### Example Translation:
 Original: "The #bold High King# of $k_ireland$ has called a grand feast at [county.GetName]!"
 Translation: "#bold 고왕#께서 $k_ireland$의 [county.GetName]에서 성대한 연회를 여시겠다고 선포하셨습니다!"
