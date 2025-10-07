@@ -45,10 +45,8 @@ export async function translate (text: string, gameType: GameType = 'ck3', retry
   const translatedText = await translateAI(text, gameType)
 
   // 잘못된 결과 재 번역 시도
-  if (
-    translatedText.toLowerCase().includes('language model') ||
-    translatedText.match(/\[[가-힣]/g)
-  ) {
+  if (translatedText.toLowerCase().includes('language model')) {
+    log.info('잘못 번역된 문자열: "', normalizedText, '" -> "', translatedText, '"')
     return await translate(text, gameType, retry + 1)
   }
 
