@@ -16,8 +16,10 @@ async function main() {
     
   } catch (error) {
     log.error('Upstream 업데이트 중 오류 발생:', error)
-    process.exit(1)
+    throw error
   }
 }
 
-main()
+main().catch(() => {
+  process.exit(1)
+})

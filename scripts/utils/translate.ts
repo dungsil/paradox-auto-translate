@@ -11,7 +11,7 @@ export async function translate (text: string, gameType: GameType = 'ck3', retry
 
   if (retry > 5) {
     log.error('재시도 횟수 초과로 종료, 대상 텍스트: "', text, '"')
-    process.exit(-1)
+    throw new Error(`번역 재시도 횟수 초과: "${text}"`)
   }
 
   // 잘못된 형식인 경우 빈 텍스트 반환

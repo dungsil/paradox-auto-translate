@@ -44,8 +44,10 @@ async function main () {
     }
   } catch (error) {
     log.error('번역 도중 오류가 발생하였습니다.', error)
-    process.exit(1)
+    throw error
   }
 }
 
-main()
+main().catch(() => {
+  process.exit(1)
+})
