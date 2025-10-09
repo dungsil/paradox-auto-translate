@@ -50,6 +50,25 @@ export async function translate (text: string, gameType: GameType = 'ck3', retry
     return await translate(text, gameType, retry + 1)
   }
 
+  // 대괄호 내부의 변수가 번역되었는지 검사
+  const bracketVariablesInSource = text.match(/\[[^\]]+\]/g) || []
+  const bracketVariablesInTranslation = translatedText.match(/\[[^\]]+\]/g) || []
+  
+  if (bracketVariablesInSource.length !== bracketVariablesInTranslation.length) {
+    log.warn('대괄호 변수 불일치 감지: "', normalizedText, '" -> "', translatedText, '"')
+    return await translate(text, gameType, retry + 1)
+  }
+
+  // 대괄호 내부가 한글로 번역되었는지 확인 (한글이 포함되어 있으면 잘못 번역된 것)
+  const hasKoreanInBrackets = bracketVariablesInTranslation.some(variable => 
+    /[가-힣]/.test(variable)
+  )
+  
+  if (hasKoreanInBrackets) {
+    log.warn('대괄호 내 한글 감지 (잘못된 변수 번역): "', normalizedText, '" -> "', translatedText, '"')
+    return await translate(text, gameType, retry + 1)
+  }
+
   await setCache(text, translatedText, gameType)
   return translatedText
 }

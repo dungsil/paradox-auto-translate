@@ -10,11 +10,13 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
 
 2. Preserve all variables and formatting elements with absolute precision:
    - Variables within '$', '£', or '@' symbols must remain untouched:
-     e.g., $k_france$ → $k_france$, £gold£ → £gold£, @crown_icon@ → @crown_icon@
+     e.g., $k_france$ → $k_france$, £gold£ → £gold£, @crown_icon@ @crown_icon@
    - Maintain formatting syntax enclosed by '#' characters:
      e.g., #bold ROYAL DECREE# → #bold ROYAL DECREE#
-   - Keep variables in square brackets unaltered:
+   - Keep variables in square brackets COMPLETELY UNALTERED - DO NOT translate ANY part inside brackets:
      e.g., [GetTitle('emperor').GetName] → [GetTitle('emperor').GetName], [culture|E] → [culture|E], [piety_i] → [piety_i], [stress_loss_i|E] → [stress_loss_i|E]
+     WRONG: [region|E] → [지역|E], [decision|E] → [결정|E], [rulers|E] → [통치자|E]
+     CORRECT: [region|E] → [region|E], [decision|E] → [decision|E], [rulers|E] → [rulers|E]
 
 3. Maintain the original text structure, including line breaks and paragraph formatting.
 
@@ -45,7 +47,19 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
     Short, non-meaningful strings are usually specific proper names, such as family names, people's names, etc.
     If you don't understand the meaning, translate it exactly as it's pronounced.
 
-14. every medieval demonym (adjective/noun) into the corresponding Korean country, people, or cultural name; strip all English suffixes.
+14. For short proper nouns (especially dynasty/family name prefixes like "ui", "of", "del", "du", "as-"), ALWAYS transliterate phonetically, NEVER translate their dictionary meaning:
+    - CORRECT: "ui" → "우이", "of" → "오브", "del" → "델", "du" → "두", "as-" → "앗-", "z" → "즈"
+    - WRONG: "ui" → "사용자 인터페이스", "of" → "의", "del" → "삭제", "du" → "당신", "as-" → "~와 같이", "z" → "ㅈ"
+
+15. For dynasty/family names ending in "-id", "-vid", "-rid" etc., transliterate only the name without adding Korean suffixes like "왕조" (dynasty), "인" (people), "인들" (peoples):
+    - CORRECT: "Abbadid" → "압바드", "Aghlabid" → "아글라브", "Ahmadid" → "아흐마드", "Arabs" → "애럽스", "Amalfinos" → "아말피", "Antiochites" → "안티오키아"
+    - WRONG: "Abbadid" → "압바드 왕조", "Aghlabid" → "아글라브 왕조", "Ahmadid" → "아흐마드 왕조", "Arabs" → "아랍인", "Amalfinos" → "아말피인들", "Antiochites" → "안티오키아인들"
+
+16. For very short words (1-3 letters) or words that could be names, prefer phonetic transliteration over semantic translation unless context clearly indicates they are common words:
+    - CORRECT: "Are" (as name) → "아레", "Altar" (as name) → "알터", "Archiac" → "아르시악", "Altoonian" → "알토니안"
+    - WRONG: "Are" → "입니까", "Altar" → "제단", "Archiac" → "고어", "Altoonian" → "알토니아인"
+
+17. every medieval demonym (adjective/noun) into the corresponding Korean country, people, or cultural name; strip all English suffixes.
     - Examples: "English" → "잉글랜드", "French" → "프랑스", "Polish" → "폴란드", "Hungarian" → "헝가리", "Norwegian" → "노르웨이"
 
 ### Example Translation:
@@ -85,8 +99,10 @@ ensuring scientific accuracy and futuristic nuances while adhering to strict for
      e.g., $empire_name$ → $empire_name$, £energy£ → £energy£, @unity_icon@ → @unity_icon@
    - Maintain formatting syntax enclosed by '#' characters:
      e.g., #bold GALACTIC DECREE# → #bold GALACTIC DECREE#
-   - Keep variables in square brackets unaltered:
+   - Keep variables in square brackets COMPLETELY UNALTERED - DO NOT translate ANY part inside brackets:
      e.g., [GetSpeciesName] → [GetSpeciesName], [owner.GetName] → [owner.GetName], [minerals_i] → [minerals_i]
+     WRONG: [planet|E] → [행성|E], [empire|E] → [제국|E]
+     CORRECT: [planet|E] → [planet|E], [empire|E] → [empire|E]
    - Keep variables in angle brackets unaltered:
       e.g., <democratic_gen> → <democratic_gen>, <giga_birch_natives_names> → <giga_birch_natives_names>
 
@@ -118,6 +134,14 @@ ensuring scientific accuracy and futuristic nuances while adhering to strict for
     Simple affirmations (Ok, I got it), exclamations (Excellent!), or strings like "Zroni" are all sentences that need to be translated.
     Short, non-meaningful strings are usually specific proper names, such as species names, planet names, etc.
     If you don't understand the meaning, translate it exactly as it's pronounced.
+
+14. For short proper nouns, ALWAYS transliterate phonetically, NEVER translate their dictionary meaning:
+    - CORRECT: "ui" → "우이", "of" → "오브", "del" → "델", "du" → "두"
+    - WRONG: "ui" → "사용자 인터페이스", "of" → "의", "del" → "삭제", "du" → "당신"
+
+15. For very short words (1-3 letters) that could be names, prefer phonetic transliteration over semantic translation:
+    - CORRECT: "Are" (as name) → "아레", "Altar" (as name) → "알터"
+    - WRONG: "Are" → "입니까", "Altar" → "제단"
 
 ### Example Translation:
 Original: "The #bold Galactic Emperor# of $empire_name$ has declared war on [target_country.GetName]!"
@@ -153,8 +177,10 @@ ensuring historical accuracy and period-appropriate nuances while adhering to st
      e.g., $country_name$ → $country_name$, £money£ → £money£, @goods_icon@ → @goods_icon@
    - Maintain formatting syntax enclosed by '#' characters:
      e.g., #bold INDUSTRIAL REVOLUTION# → #bold INDUSTRIAL REVOLUTION#
-   - Keep variables in square brackets unaltered:
+   - Keep variables in square brackets COMPLETELY UNALTERED - DO NOT translate ANY part inside brackets:
      e.g., [GetCountryName] → [GetCountryName], [population|E] → [population|E], [authority_i] → [authority_i]
+     WRONG: [state|E] → [주|E], [country|E] → [국가|E]
+     CORRECT: [state|E] → [state|E], [country|E] → [country|E]
 
 3. Maintain the original text structure, including line breaks and paragraph formatting.
 
@@ -184,6 +210,14 @@ ensuring historical accuracy and period-appropriate nuances while adhering to st
     Simple affirmations (Ok, I got it), exclamations (Excellent!), or strings like "Bismarck" are all sentences that need to be translated.
     Short, non-meaningful strings are usually specific proper names, such as country names, leader names, etc.
     If you don't understand the meaning, translate it exactly as it's pronounced.
+
+14. For short proper nouns, ALWAYS transliterate phonetically, NEVER translate their dictionary meaning:
+    - CORRECT: "ui" → "우이", "of" → "오브", "del" → "델", "du" → "두"
+    - WRONG: "ui" → "사용자 인터페이스", "of" → "의", "del" → "삭제", "du" → "당신"
+
+15. For very short words (1-3 letters) that could be names, prefer phonetic transliteration over semantic translation:
+    - CORRECT: "Are" (as name) → "아레", "Altar" (as name) → "알터"
+    - WRONG: "Are" → "입니까", "Altar" → "제단"
 
 ### Example Translation:
 Original: "The #bold Prime Minister# of $country_name$ has announced new industrial reforms in [state.GetName]!"
