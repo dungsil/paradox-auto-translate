@@ -25,7 +25,7 @@
   effect_create_com_situation_faction: "[TopScope.GetLocalVariable('com_faction_name').GetFlagName|v] [concept_com_situation_faction]이 [TopScope.GetLocalVariable('com_side_name').GetFlagName|v] 진영에 합류할 것입니다." # 13775837191963457777
   effect_remove_com_situation_faction: "[TopScope.GetLocalVariable('com_faction_name').GetFlagName|v] [concept_com_situation_faction]이 [TopScope.GetLocalVariable('com_side_name').GetFlagName|v] 진영에서 해체될 것입니다." # 668686498488430028
   effect_clear_com_situation_factions: "[TopScope.GetLocalVariable('com_side_name').GetFlagName|v]의 모든 [Concept('concept_com_situation_faction', '$concept_com_situation_factions$')]은 해산될 것입니다." # 1518608800389254453
-  effect_clear_com_situation_factions_both: "양측의 모든 [Concept('concept_com_situation_faction', '$concept_com_situation_factions$')]은 해산될 것입니다." # 16798119901717342219
+  effect_clear_com_situation_factions_all: "양측의 모든 [Concept('concept_com_situation_faction', '$concept_com_situation_factions$')]은 해산될 것입니다." # 16798119901717342219
   effect_add_com_situation_faction_country: "[TopScope.GetLocalVariable('com_country').GetCountry.GetName|v]이(가) [TopScope.GetLocalVariable('com_faction_name').GetFlagName|v] [concept_com_situation_faction]에 합류할 것입니다." # 18117860924334765460
   effect_remove_com_situation_faction_country: "[TopScope.GetLocalVariable('com_country').GetCountry.GetName|v]은 [TopScope.GetLocalVariable('com_faction_name').GetFlagName|v] [concept_com_situation_faction]을 떠나게 될 것입니다." # 6846256661429200773
   effect_remove_com_situation_faction_country_all: "[TopScope.GetLocalVariable('com_country').GetCountry.GetName|v]는 더 이상 [concept_com_situation_faction]과 연관되지 않습니다." # 12746790776325975579
