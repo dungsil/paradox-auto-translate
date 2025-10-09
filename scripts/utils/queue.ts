@@ -1,15 +1,16 @@
 import { delay } from './delay'
 import { log } from './logger'
 
-const translationQueue: Array<() => Promise<void>> = []
+type Queue = { key: string, queue: () => Promise<void> }
+const translationQueue: Queue[] = []
 
 const MAX_RETRIES = 5
 const RETRY_DELAYS = [0, 1_000, 2_000, 8_000, 10_000, 60_000] // 밀리초 단위
 
 let lastRequestTime = 0
 
-export async function addQueue (newQueue: () => Promise<void>) {
-  translationQueue.push(newQueue)
+export async function addQueue (key: string, newQueue: () => Promise<void>) {
+  translationQueue.push({ key, queue: newQueue })
 
   processQueue()
 }
@@ -38,14 +39,14 @@ async function processQueue () {
   }
 }
 
-async function executeTaskWithRetry (task: () => Promise<void>, retryCount = 0): Promise<void> {
+async function executeTaskWithRetry ({ key, queue: task }: Queue, retryCount = 0): Promise<void> {
   try {
     await task()
   } catch (error) {
     const message = (error as Error).message
     if (message) {
       if (!message.includes('429 Too Many Requests')) {
-        log.warn('요청 실패:', (error as Error).message)
+        log.warn('[', key ,']요청 실패:', (error as Error).message)
         log.debug('\t', error)
       }
     }
@@ -60,7 +61,7 @@ async function executeTaskWithRetry (task: () => Promise<void>, retryCount = 0):
       // 재시도
       return executeTaskWithRetry(task, retryCount + 1)
     } else {
-      log.error('재시도 횟수가 초과되어 종료됩니다:', error)
+      log.error('[', key, ']', '재시도 횟수가 초과되어 종료됩니다:', error)
       throw error
     }
   }

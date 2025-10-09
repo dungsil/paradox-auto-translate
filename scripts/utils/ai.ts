@@ -2,6 +2,7 @@ import { type GenerativeModel, GoogleGenerativeAI } from '@google/generative-ai'
 import dotenv from 'dotenv'
 import { type GameType, getSystemPrompt } from './prompts'
 import { addQueue } from './queue'
+import { log } from './logger'
 
 dotenv.config()
 
@@ -36,12 +37,13 @@ export async function translateAI (text: string, gameType: GameType = 'ck3') {
 
 async function translateAIByModel (resolve: (value: string | PromiseLike<string>) => void, model: GenerativeModel, text: string): Promise<void> {
   return addQueue(
+    text,
     async () => {
       const { response } = await model.generateContent(text)
 
       const translated = response.text().trim()
         .replaceAll(/\n/g, '\\n')
-        .replaceAll(/"/g, '\\"')
+        .replaceAll(/[^\\]"/g, '\\"')
         .replaceAll(/#약(하게|화된|[화한])/g, '#weak')
         .replaceAll(/#강조/g, '#bold')
 
