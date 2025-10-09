@@ -11,6 +11,7 @@ const ck3Dictionaries: Record<string, string> = {
   blemmyes: '블렘미',
   blemmyae: '블렘미',
   blunder: '실수',
+  bogyoszló: '보교슬로',
   character: '인물',
   casual: '무관심',
   chios: '히오스',
