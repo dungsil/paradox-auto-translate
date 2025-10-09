@@ -45,6 +45,10 @@ async function executeTaskWithRetry (task: Queue, retryCount = 0): Promise<void>
   } catch (error) {
     const message = (error as Error).message
     if (message) {
+      if (message.includes('PROHIBITED_CONTENT')) {
+        throw new Error("번역 거부: " + task.key)
+      }
+
       if (!message.includes('429 Too Many Requests')) {
         log.warn('[', task.key ,']요청 실패:', (error as Error).message)
         log.debug('\t', error)
