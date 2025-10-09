@@ -7,10 +7,12 @@ const ck3Dictionaries: Record<string, string> = {
   'af Fasge': '아프 파스게',
   anuket: '아누케트',
   'basic skill': '기본 능력',
+  biornolf: 'Biornolf',
   blemmye: '블렘미',
   blemmyes: '블렘미',
   blemmyae: '블렘미',
   blunder: '실수',
+  'botta-adorno': ' 보타-아도르노',
   bogyoszló: '보교슬로',
   character: '인물',
   casual: '무관심',
@@ -35,11 +37,18 @@ const ck3Dictionaries: Record<string, string> = {
   king: '왕',
   landless: '비지주',
   'let\'s get started!': '시작해보지!',
+  lodolfidi: '로돌피디',
+  loloho: '로로호',
+  namdol: '남돌',
   mandulis: '만둘리스',
   mastic: '유향',
+  mustacon: '무스타콘',
   ok: '네',
   osiris: '오시리스',
+  pełczybog: '펠치복',
   philae: '필레',
+  prosdokimos: '프로스도키모스',
+  ponzone: '폰조네',
   RICE: 'RICE',
   satet: '사티스',
   satis: '사티스',
@@ -47,6 +56,7 @@ const ck3Dictionaries: Record<string, string> = {
   senate: '원로원',
   sinhala: '싱할라어',
   stewardship: '관리력',
+  sæbeorn: '세베른',
   tutu: '투투',
   'very good': '아주 좋군',
   'very good!': '아주 좋군!',
@@ -57,6 +67,8 @@ const ck3Dictionaries: Record<string, string> = {
   zhebu: '절포',
 
   xxxxx: 'xxxxx', // RICE, VIET 에서 사용하는 플레이스 홀더로 API 요청 되지 않도록 사전에 추가
+
+  ærnbiorn: '에른비요른',
 }
 
 // Stellaris 전용 딕셔너리
