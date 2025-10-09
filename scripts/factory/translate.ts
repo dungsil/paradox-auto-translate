@@ -138,7 +138,7 @@ async function processLanguageFile (mode: string, sourceDir: string, targetBaseD
     log.verbose(`[${mode}/${file}:${key}] 번역파일 문자열: ${targetHash} | "${targetValue}"`)
 
     // 번역 요청
-    log.start(`[${mode}/${file}:${key}] 번역 요청: ${sourceHash} | "${sourceValue}"`)
+    log.debug(`[${mode}/${file}:${key}] 번역 요청: ${sourceHash} | "${sourceValue}"`)
     const translatedValue = await translate(sourceValue, gameType)
 
     newYaml.l_korean[key] = [translatedValue, sourceHash]
