@@ -13,7 +13,7 @@
   RICEintro_intro_tooltip: "#EMP “누비아인들은 에티오피아보다 넓고 부유한 나라를 가진 기독교인이다. 이집트의 나일강이 그들의 도시와 지역을 가로질러 흐른다. 그들의 마을은 번성하며 비옥한 땅을 가지고 있다.”\n- 이븐 하우칼, 10세기 이슬람 여행가이자 지리학자#!" # 2648398314517638565
   RICEintro_TFE_warning_tooltip: "\n----------------------------------------\n\n#V #bold 타락한 독수리#!#!가 실행 중인 것으로 감지되었습니다. 만약 그렇다면 부디 #bold 새 게임을 시작하기 전에 TFE가 모드 적용 순서에서 RICE의 #underline 아래#에 있는지 확인하십시오#!" # 5055225297519247687
   RICEintro_ROA_warning_tooltip: "\n----------------------------------------\n\n#V #bold 라자스 오브 아시아#!#! 모드가 실행 중인 것으로 감지되었습니다. 사실이라면, 새 게임을 시작하기 전에 #bold ROA가 모드 로드 순서에서 RICE #underline 아래#!에 있는지 확인해 주십시오#!" # 13831992960958359029
-  RICE_decision_pagan_requirement: "이교 [신앙|E]을 믿는" # 2667718468984044947
+  RICE_decision_pagan_requirement: "이교 [faith|E]을 믿는" # 2667718468984044947
   RICEintro.0010.t: "플레이버 팩 정보" # 11542925778436597374
   RICEintro.0010.desc: "어떤 플레이버 팩에 대해 더 자세히 알아보시겠습니까?" # 12143648013106233900
   RICEintro.0010.next: "더 보기" # 3231560424367054433
@@ -76,21 +76,21 @@
   setting_RICE_tuareg_emergence_already: "#high 게임 시작 시 존재함!#" # 2371437435635184734
   setting_RICE_tuareg_emergence_already_desc: "투아레그 [culture|E]는 게임 시작 시 존재합니다. RICE는 필요에 따라 게임 시작 시 지도에 투아레그를 배치하기 위해 다른 모드의 구현을 덮어씁니다." # 5156312222784766888
   setting_RICE_tuareg_emergence_early: "#high 조기 출현#!" # 5316655082484944017
-  setting_RICE_tuareg_emergence_early_desc: "투아레그 [문화|E]는 이르면 $culture_era_early_medieval$ [시대|E]부터 [결단|E]을 통해 생성될 수 있습니다. RICE는 다른 모드의 투아레그를 덮어쓰고 필요에 따라 게임 시작 시 지도에서 제거합니다." # 2228024274761133875
+  setting_RICE_tuareg_emergence_early_desc: "투아레그 [culture|E]는 이르면 $culture_era_early_medieval$ [era|E]부터 [decision|E]을 통해 생성될 수 있습니다. RICE는 다른 모드의 투아레그를 덮어쓰고 필요에 따라 게임 시작 시 지도에서 제거합니다." # 2228024274761133875
   setting_RICE_tuareg_emergence_override: "#high 다른 모드 무시#!" # 13811155891916207394
   setting_RICE_tuareg_emergence_override_desc: "투아레그 [culture|E]는 $culture_era_high_medieval$ [era|E] 및 그 이후에 [decision|E]를 통해 생성될 수 있습니다. RICE는 다른 모드의 투아레그를 우선하며, 필요에 따라 게임 시작 시 지도에서 제거합니다." # 4517602530731729469
   rule_RICE_yazidi_emergence: "RICE 야지디 출현" # 2362036100662707214
   setting_RICE_yazidi_emergence_default: "기본" # 8341519292606584866
-  setting_RICE_yazidi_emergence_default_desc: "야지디 [신앙|E]는 게임 시작 후 반 세기 뒤 무작위로 출현할 수 있지만, 12세기 이후 출현할 가능성이 더 높습니다." # 3391120785297170868
+  setting_RICE_yazidi_emergence_default_desc: "야지디 [faith|E]는 게임 시작 후 반 세기 뒤 무작위로 출현할 수 있지만, 12세기 이후 출현할 가능성이 더 높습니다." # 3391120785297170868
   setting_RICE_yazidi_emergence_historical: "#high 역사적!#" # 9566534081795727488
   setting_RICE_yazidi_emergence_historical_desc: "야지디 [faith|E]는 12세기 중반 이후에만 무작위로 생성될 수 있습니다." # 17021926209440938303
   setting_RICE_yazidi_emergence_unrestricted: "#high 무제한!#" # 3033804177292889934
   setting_RICE_yazidi_emergence_unrestricted_desc: "야지디 [faith|E]는 언제든지 출현할 수 있습니다." # 18264949632957044292
   rule_RICE_yarsani_emergence: "RICE 야르산교 등장" # 12210324029244904822
   setting_RICE_yarsani_emergence_default: "기본" # 8341519292606584866
-  setting_RICE_yarsani_emergence_default_desc: "야르사니 [신앙|E]는 게임 시작 후 50년이 지나면 무작위로 등장할 수 있지만, 13세기 중반 이후에는 더 자주 등장합니다." # 17896217593751608609
+  setting_RICE_yarsani_emergence_default_desc: "야르사니 [faith|E]는 게임 시작 후 50년이 지나면 무작위로 등장할 수 있지만, 13세기 중반 이후에는 더 자주 등장합니다." # 17896217593751608609
   setting_RICE_yarsani_emergence_historical: "#high 역사적!#" # 9566534081795727488
-  setting_RICE_yarsani_emergence_historical_desc: "야르산 [신앙|E]은 14세기 중반 이후에만 무작위로 발생할 수 있습니다." # 4900991101279393828
+  setting_RICE_yarsani_emergence_historical_desc: "야르산 [faith|E]은 14세기 중반 이후에만 무작위로 발생할 수 있습니다." # 4900991101279393828
   setting_RICE_yarsani_emergence_unrestricted: "#high 무제한!#" # 3033804177292889934
   setting_RICE_yarsani_emergence_unrestricted_desc: "야르산 [faith|E]는 언제든지 출현할 수 있습니다." # 16981591934564274300
   rule_RICE_afro_roman_counties: "RICE $african_roman$ 존재" # 4246045542284264034
@@ -114,14 +114,14 @@
   setting_RICE_adventurers_default: "켜짐" # 14367041983676599459
   setting_RICE_adventurers_default_desc: "RICE 모드에 의해 각 시작 연도에서 추가된 [adventurers|E]는 정상적으로 나타납니다." # 18230138606500013815
   setting_RICE_adventurers_disable_fictitious: "#high 가상 요소 비활성화#!" # 3727276389560778996
-  setting_RICE_adventurers_disable_fictitious_desc: "각 시작 날짜에 RICE에 의해 추가된, 역사적이거나 전설적이지는 않지만 반쯤 그럴듯한 [모험가|E]는 플레이어가 조작하는 경우를 제외하고 게임 로딩 후 비활성화됩니다." # 14324903002125093000
+  setting_RICE_adventurers_disable_fictitious_desc: "각 시작 날짜에 RICE에 의해 추가된, 역사적이거나 전설적이지는 않지만 반쯤 그럴듯한 [adventurers|E]는 플레이어가 조작하는 경우를 제외하고 게임 로딩 후 비활성화됩니다." # 14324903002125093000
   setting_RICE_adventurers_disable_all: "#high 모두 비활성화#!" # 15335831633115230369
   setting_RICE_adventurers_disable_all_desc: "RICE에 의해 각 시작 날짜에 추가된 [adventurers|E]는 게임이 로드된 후 플레이어가 조종하는 모든 것을 제외하고 모두 비활성화됩니다." # 10824371845348743027
   rule_RICE_rus_emergence: "RICE 루스 부상" # 9522231465068015120
   setting_RICE_rus_emergence_default: "기본" # 8341519292606584866
-  setting_RICE_rus_emergence_default_desc: "초기 시작 연도에 $russian$ [문화|E]는 [결단|E]을 통해 발생할 수 있습니다.\n다른 모드의 $east_slavic_group$ 문화 설정이 이를 덮어쓸 수 있습니다.\n#warning @warning_icon! 설정은 게임 시작 후에 적용됩니다!#!" # 12353446026646358547
+  setting_RICE_rus_emergence_default_desc: "초기 시작 연도에 $russian$ [culture|E]는 [decision|E]을 통해 발생할 수 있습니다.\n다른 모드의 $east_slavic_group$ 문화 설정이 이를 덮어쓸 수 있습니다.\n#warning @warning_icon! 설정은 게임 시작 후에 적용됩니다!#!" # 12353446026646358547
   setting_RICE_rus_emergence_already: "#high 바닐라#" # 5994410695585669193
-  setting_RICE_rus_emergence_already_desc: "더 이른 시작 일에는, $russian$ [문화|E]가 바닐라처럼 게임 시작 시 존재합니다. 다른 모드의 $east_slavic_group$ 문화 설정이 이를 덮어쓸 수 있습니다." # 3627684719956602720
+  setting_RICE_rus_emergence_already_desc: "더 이른 시작 일에는, $russian$ [culture|E]가 바닐라처럼 게임 시작 시 존재합니다. 다른 모드의 $east_slavic_group$ 문화 설정이 이를 덮어쓸 수 있습니다." # 3627684719956602720
   setting_RICE_rus_emergence_partial: "#high 부분#" # 13342509436853145068
   setting_RICE_rus_emergence_partial_desc: "이전 시작 날짜에서는, $russian$ [culture|E]가 일부 [counties|E]에서 게임 시작 시점에 존재하지만, 전부는 아닙니다. 다른 모드의 $east_slavic_group$ 문화 설정이 이를 덮어쓸 수 있습니다. #warning @warning_icon! 설정은 게임 시작 이후에 적용됩니다!#!" # 8208693361549284045
   setting_RICE_rus_emergence_override: "#high 다른 모드 무시#!" # 13811155891916207394
@@ -260,11 +260,11 @@
   RICE_local_pilgrimage_completed_log_title: "지역 순례 완료됨" # 4914369661525092964
   RICE_local_pilgrimage_completed_log: "[CHARACTER.GetShortUIName|U]께서 [CHARACTER.GetHerHis] [PROVINCE.GetBaronyNameExplicitly]로의 [local_pilgrimage|E]를 완료하셨습니다." # 14320389929684909204
   TRAVEL_NAME_FOR_activity_RICE_local_pilgrimage: "[Character.GetFirstNamePossessiveNoTooltip]$activity_RICE_local_pilgrimage$" # 1311567001231395453
-  RICE_local_pilgrimage_county_req: "[최상위 봉역|E|E] 내에 [지역 성지순례|E]를 위한 주목할 만한 장소가 있는 [백작령|E]가 적어도 하나 존재합니다." # 2109634866831842978
+  RICE_local_pilgrimage_county_req: "[최상위 봉역|E|E] 내에 [지역 성지순례|E]를 위한 주목할 만한 장소가 있는 [county|E]가 적어도 하나 존재합니다." # 2109634866831842978
   NOT_RICE_local_pilgrimage_county_req: "$RICE_hot_springs_county_req$" # 13510738772406884580
   RICE_local_pilgrimage_votive_offering_type: "봉헌" # 1626538731888735885
   RICE_local_pilgrimage_votive_offering_type_small: "기본 봉헌물" # 18347591411903449294
-  RICE_local_pilgrimage_votive_offering_type_small_desc: "$EFFECT_LIST_BULLET$[piety_i|E] #V 50#! 기본 획득: [활동|E] 완료 시\n\n#weak 순례 목적지에 도착하면 [GetPlayer.GetFaith.PantheonTerm]에 일종의 봉헌을 하는 것이 좋은 관례입니다.#!" # 7931407720452004919
+  RICE_local_pilgrimage_votive_offering_type_small_desc: "$EFFECT_LIST_BULLET$[piety_i|E] #V 50#! 기본 획득: [activity|E] 완료 시\n\n#weak 순례 목적지에 도착하면 [GetPlayer.GetFaith.PantheonTerm]에 일종의 봉헌을 하는 것이 좋은 관례입니다.#!" # 7931407720452004919
   RICE_local_pilgrimage_votive_offering_type_medium: "성대한 봉헌물" # 17111687436958267106
   RICE_local_pilgrimage_votive_offering_type_medium_desc: "$EFFECT_LIST_BULLET$[activity|E] 완료 시 [piety_i|E] #V 100#! 기본 획득\n\n#weak \"소규모\" 순례 중에도 [GetPlayer.GetFaith.PantheonTerm]에게 상당한 헌물을 바쳐 제대로 경의를 표해야 합니다.#!" # 2891940937492351761
   RICE_local_pilgrimage_votive_offering_type_large: "소규모 [GetPlayer.GetFaith.HouseOfWorship|U] 토지 부여" # 12114519482378903822
@@ -279,7 +279,7 @@
   RICE_local_pilgrimage_memorialization_type_medium: "소박한 비문" # 7745385202673013861
   RICE_local_pilgrimage_memorialization_type_medium_desc: "$EFFECT_LIST_BULLET$[activity|E] 완료 시 [prestige_i|E] #V 100#! 기본 획득.\n$EFFECT_LIST_BULLET$[dynasty_prestige|E] #V [GetPlayer.MakeScope.ScriptValue('miniscule_dynasty_prestige_gain')]#! 기본 획득.\n\n#weak 이 영적인 여정을 기념하기 위해, 완료되면 집 근처 어딘가에 비석을 새길 것이다.#!" # 14445307364201400371
   RICE_local_pilgrimage_memorialization_type_large: "기념비" # 2534298656546347221
-  RICE_local_pilgrimage_memorialization_type_large_desc: "$EFFECT_LIST_BULLET$[위신|E] 기본 획득량 #V 200#!, [활동|E] 완료 시\n$EFFECT_LIST_BULLET$[왕조 위신|E] 기본 획득량 #V [GetPlayer.MakeScope.ScriptValue('minor_dynasty_prestige_gain')]#! [왕조 위신|E]\n\n#weak 모두가 나의 종교적 헌신을 알게 되리라. 돌아가면 이 순간을 영원히 기념할 겸손하지만 존경받을 만한 기념비를 세울 것이니!#!" # 2702745520797597479
+  RICE_local_pilgrimage_memorialization_type_large_desc: "$EFFECT_LIST_BULLET$[prestige|E] 기본 획득량 #V 200#!, [activity|E] 완료 시\n$EFFECT_LIST_BULLET$[왕조 위신|E] 기본 획득량 #V [GetPlayer.MakeScope.ScriptValue('minor_dynasty_prestige_gain')]#! [왕조 위신|E]\n\n#weak 모두가 나의 종교적 헌신을 알게 되리라. 돌아가면 이 순간을 영원히 기념할 겸손하지만 존경받을 만한 기념비를 세울 것이니!#!" # 2702745520797597479
   RICE_local_pilgrimage_votive_offering_amount: "봉헌물" # 11499955309892013273
   RICE_local_pilgrimage_memorialization_amount: "기념" # 1285239788461256734
   game_concept_hot_springs: "온천" # 8181879117728660562

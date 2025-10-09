@@ -13,7 +13,7 @@
   innovation_RICE_netsang_relationships: "네트상 관계" # 2822963733318107111
   innovation_RICE_netsang_relationships_desc: "히말라야 고원의 유목민 가문들은 히말라야 남쪽의 가문들과 종종 네창이라 불리는 '허구적' 친족 관계를 맺습니다. 여러 세대에 걸쳐 지속되는 이 관계를 맺은 가문들은 서로에게 무역 특권을 부여하고, 서로의 땅을 방문할 때 주인의 역할을 합니다." # 11327011672570957068
   RICE_glacier_grafting_activity_unlock: "[GetTerrain( 'mountains' ).GetName] 또는 [GetTerrain( 'desert_mountains' ).GetName]에서 [GetActivityType( 'activity_RICE_glacier_marriage' ).GetName] [activity|E]를 해금합니다." # 4385111243796195368
-  RICE_netsang_relationships_bonus_tt: "이 [결단|E] #V $RICE_zhangzhung_western_tibet_salt_decision$#!은/는 [gold_i|E] [gold|E]를 덜 소모합니다." # 5668907458867885141
+  RICE_netsang_relationships_bonus_tt: "이 [decision|E] #V $RICE_zhangzhung_western_tibet_salt_decision$#!은/는 [gold_i|E] [gold|E]를 덜 소모합니다." # 5668907458867885141
   bon_religion_opinion: "$bon_religion_adherent$ 의견" # 13994734382200906911
   nick_RICE_guru_rinpoche: "구루 린포체" # 454575335116702228
   nick_RICE_guru_rinpoche_desc: "[CHARACTER.GetShortUINameNoTooltipNoFormat|U][CharAreIs(CHARACTER)] [GetFaithByKey('lamaism').GetAdherentNamePlural] 다수에게 역사적인 부처인 석가모니 부처의 화신으로 추앙받으며, [GetGeographicalRegion('world_tibet').GetName]에 밀교 가르침을 전파하는 데 기여했습니다. [CHARACTER.GetSheHe|U]는 그리하여 #italic 구루 린포체#!, 즉 귀한 스승이라는 의미로 알려져 있습니다. [CHARACTER.GetSheHe|U]는 #italic [GetTitleByKey('b_oddiyana').GetNameNoTier]에서 연꽃처럼 태어난 자#!라고도 불립니다." # 12127317171315755021
@@ -61,7 +61,7 @@
   nick_RICE_jetsunma_desc: "$nick_RICE_jetsun_desc$" # 15413869318943319234
   fervor_gain_RICE_milarepa_event: "밀라레파의 카일라스 산에서의 추정되는 영적 승리" # 12244642931111127056
   RICE_every_tantric_buddhist_faith: "[GetFaithDoctrine('rice_vajrayana_canon_doctrine').GetBaseName] [doctrine|E]을(를) 가진 모든 [GetReligionByKey('buddhism_religion').GetAdjective] [faith|E]" # 8348076659674873000
-  RICE_every_terton_courtier_or_guest: "[GetTrait('RICE_terton').GetName( GetNullCharacter )] [특성|E] 또는 [GetModifier('RICE_terton_candidate').GetNameWithTooltip] [인물 보너스|E]를 가진 모든 [궁정 신하|E] 또는 [손님|E]" # 10281321567263083562
+  RICE_every_terton_courtier_or_guest: "[GetTrait('RICE_terton').GetName( GetNullCharacter )] [trait|E] 또는 [GetModifier('RICE_terton_candidate').GetNameWithTooltip] [인물 보너스|E]를 가진 모든 [궁정 신하|E] 또는 [손님|E]" # 10281321567263083562
   RICE_patronizing_tertons_opinion: "[Glossary( 'tertöns', 'TERTON_GLOSS' )] 후원" # 5133644184119353959
   Drapa_Ngonshe: "드라파 응왼셰" # 3734975987554071250
   Zhangtag_Karwa: "장탁 카르와" # 13569239402866246708
@@ -73,7 +73,7 @@
   RICE_zhangzhung_pillars_neutral: "[GetPlayer.Custom('RICE_tibet_deities_type')](은/는) 아무런 기도에도 응답하지 않는 것 같다" # 10613765852813373984
   RICE_zhangzhung_pillars_neutral_tooltip: "$RICE_zhangzhung_pillars_neutral$" # 13437106255390783378
   RICE_greater_himalayan_region: "대 히말라야" # 2773217846633796725
-  RICE_greater_himalayan_region_capital_req: "[수도|E]은/는 [GetGeographicalRegion('RICE_greater_himalayan_region').GetName] 지역에 속합니다." # 1445312579649414396
+  RICE_greater_himalayan_region_capital_req: "[capital|E]은/는 [GetGeographicalRegion('RICE_greater_himalayan_region').GetName] 지역에 속합니다." # 1445312579649414396
   Humar: "후마르" # 14022034763949036858
   Milarepa: "밀라레파" # 9467045929041699370
   RICE_tibet_deities_type_deities: "신들" # 10024869336305504466
@@ -257,7 +257,7 @@
   activity_RICE_glacier_marriage_guest_desc: "$activity_RICE_glacier_marriage_host_desc$" # 6398353649918391545
   activity_RICE_glacier_marriage_destination_selection: "$activity_RICE_glacier_marriage_province_desc$" # 1787673961539814725
   activity_RICE_glacier_marriage_guest_help_text: "$activity_RICE_glacier_marriage$" # 12609155805049353067
-  activity_RICE_glacier_marriage_predicted_cost: "이 [활동|E]의 비용은 선택하는 [활동_선택지|E]에 따라 달라집니다." # 658366464949161382
+  activity_RICE_glacier_marriage_predicted_cost: "이 [activity|E]의 비용은 선택하는 [활동_선택지|E]에 따라 달라집니다." # 658366464949161382
   activity_RICE_glacier_marriage_conclusion_desc: "우리의 [GetActivityType( 'activity_RICE_glacier_marriage' ).GetName]가 완료되었고, 새로운 빙하가 탄생했습니다!" # 16990706893097838293
   RICE_glacier_marriage_sacrifice_amount: "희생" # 11421588474970910012
   RICE_glacier_marriage_sacrifice_amount_small: "겸손한 희생" # 1441759101154490516
@@ -265,7 +265,7 @@
   RICE_glacier_marriage_sacrifice_amount_medium: "보통" # 7377651229498775580
   RICE_glacier_marriage_sacrifice_amount_medium_desc: "#bullet \n[piety_i|E]를 기본적으로 #V [EmptyScope.ScriptValue('RICE_glacier_marriage_base_piety_medium')]#! 만큼 얻으십시오. [piety|E]\n#bullet\n[prestige_i|E]를 기본적으로 #V [EmptyScope.ScriptValue('RICE_glacier_marriage_base_prestige_medium')]#! 만큼 얻으십시오. [prestige|E]\n#bullet\n그 행위가 발생하는 [county|E]에서 더 강력한 [county_modifiers|E]를 얻을 가능성이 높습니다.\n\n#weak 빙하 결혼이 성공하기 위해서는 지역 정신들에게 겸손한 제물보다 더 많은 것을 제공해야 합니다.#!" # 17644142001860456052
   RICE_glacier_marriage_sacrifice_amount_large: "거대한" # 2290692482761374841
-  RICE_glacier_marriage_sacrifice_amount_large_desc: "$BULLET_WITH_TAB$[piety_i|E]를 기본적으로 [EmptyScope.ScriptValue('RICE_glacier_marriage_base_piety_large')]만큼 얻습니다. #V [piety|E]\n$BULLET_WITH_TAB$[prestige_i|E]를 기본적으로 [EmptyScope.ScriptValue('RICE_glacier_marriage_base_prestige_large')]만큼 얻습니다. #V [prestige|E]\n$BULLET_WITH_TAB$[활동|E]이 이루어지는 [지역|E]에서 더 강력한 [지역 보너스|E]를 얻을 확률이 높아집니다.\n\n#weak 만약 이 빙하 결혼이 잘 진행되기를 원한다면, 현지 영혼들에게 숭고한 제물을 바쳐야 합니다. 그보다 못한 것은 없습니다.#!" # 12503885570276577347
+  RICE_glacier_marriage_sacrifice_amount_large_desc: "$BULLET_WITH_TAB$[piety_i|E]를 기본적으로 [EmptyScope.ScriptValue('RICE_glacier_marriage_base_piety_large')]만큼 얻습니다. #V [piety|E]\n$BULLET_WITH_TAB$[prestige_i|E]를 기본적으로 [EmptyScope.ScriptValue('RICE_glacier_marriage_base_prestige_large')]만큼 얻습니다. #V [prestige|E]\n$BULLET_WITH_TAB$[activity|E]이 이루어지는 [region|E]에서 더 강력한 [지역 보너스|E]를 얻을 확률이 높아집니다.\n\n#weak 만약 이 빙하 결혼이 잘 진행되기를 원한다면, 현지 영혼들에게 숭고한 제물을 바쳐야 합니다. 그보다 못한 것은 없습니다.#!" # 12503885570276577347
   RICE_glacier_marriage_wedding_phase: "결혼" # 1116248789541768685
   RICE_glacier_marriage_wedding_phase_desc: "남성 빙하와 여성 빙하를 합쳐 새로운 빙하를 창조합니다." # 3264252413704992111
   RICE_glacier_marriage_ritual_intent_header: "의례" # 13781907821707693583
@@ -282,10 +282,10 @@
   activity_RICE_zhangzhung_kinnaur_flower_festival_context_tooltip: "#bold 역사적 배경:#! #기울임꼴 푸라이크#! 축제 혹은 꽃 축제는 현재 인도 히마찰 프라데시 주에 위치한 [GetTitleByKey('d_kinnaur').GetNameNoTier] 계곡에서 전통적으로 지켜오는 축제입니다. 이 축제는 산악 꽃들을 모아서 이 지역 계곡, 산, 숲에 거주하는 지역 신들에게 바치는 것을 중심으로 합니다. 또한, 돌아가신 가족 구성원들에게 존경을 표하고, 지역 점쟁이들에게 미래를 예측해 달라고 요청하는 자리이기도 합니다." # 5916743164051425117
   activity_RICE_zhangzhung_kinnaur_flower_festival_host_desc: "$BULLET_WITH_TAB$명성 증가 [prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$신앙도 증가 [piety_i|E][piety|E]\n$BULLET_WITH_TAB$스트레스 감소 [stress_loss_i|E][stress|E]\n$BULLET_WITH_TAB$신탁의 결과에 따라 자신에게 유익한 [character_modifiers|E] 또는 행사가 열리는 [county|E]에 유익한 [county_modifiers|E]를 얻을 가능성 #P 유리#\n$BULLET_WITH_TAB$신탁을 통해 #bold 꽃 수집가#로 지정된 가족 구성원에게 추가 보너스를 부여할 수 있습니다." # 843132060803960133
   activity_RICE_zhangzhung_kinnaur_flower_festival_guest_desc: "$activity_RICE_zhangzhung_kinnaur_flower_festival_host_desc$" # 14733203611542512989
-  activity_RICE_zhangzhung_kinnaur_flower_festival_province_mountains_desc: "#P ++ 이곳 산에는 아름다운 초원이 있습니다.#!\n\n#italic 이는 이 [활동|E]의 종료 시 [명성_i|E] [명성|E]과 [신앙_i|E] [신앙|E]이 증가하게 될 것입니다.#!" # 4398256133566090641
+  activity_RICE_zhangzhung_kinnaur_flower_festival_province_mountains_desc: "#P ++ 이곳 산에는 아름다운 초원이 있습니다.#!\n\n#italic 이는 이 [activity|E]의 종료 시 [명성_i|E] [prestige|E]과 [신앙_i|E] [faith|E]이 증가하게 될 것입니다.#!" # 4398256133566090641
   activity_RICE_zhangzhung_kinnaur_flower_festival_destination_selection: "$activity_RICE_zhangzhung_kinnaur_flower_festival_province_desc$" # 7083534061307028415
   activity_RICE_zhangzhung_kinnaur_flower_festival_guest_help_text: "$activity_RICE_zhangzhung_kinnaur_flower_festival$" # 15033006866394528620
-  activity_RICE_zhangzhung_kinnaur_flower_festival_predicted_cost: "이 [활동|E]의 비용은 선택하는 [활동_선택지|E]에 따라 달라집니다." # 658366464949161382
+  activity_RICE_zhangzhung_kinnaur_flower_festival_predicted_cost: "이 [activity|E]의 비용은 선택하는 [활동_선택지|E]에 따라 달라집니다." # 658366464949161382
   activity_RICE_zhangzhung_kinnaur_flower_festival_conclusion_desc: "[GetActivityType( 'activity_RICE_zhangzhung_kinnaur_flower_festival' ).GetName] 축제가 끝났습니다. 정말 아름다운 행사였습니다!" # 8659587255357872604
   RICE_zhangzhung_kinnaur_flower_festival_sacrifice_amount_type: "희생량" # 15367156406848473421
   RICE_zhangzhung_kinnaur_flower_festival_sacrifice_amount_small: "작은" # 11665425638542725414
@@ -313,7 +313,7 @@
   TRAVEL_NAME_FOR_activity_RICE_zhangzhung_kinnaur_flower_festival: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_zhangzhung_kinnaur_flower_festival$" # 12010547183456537941
   RICE_special_guest_flower_collector: "꽃 수집가" # 7233310360911066616
   RICE_special_guest_flower_collector_for_host: "$RICE_special_guest_flower_collector$" # 4210976970902172030
-  RICE_special_guest_flower_collector_desc: "각 가문은 그들 중 한 사람을 $RICE_special_guest_flower_collector$로 선발할 수 있습니다. 이들은 신들을 기쁘게 해줄 아름다운 꽃들을 찾아 산속으로 들어가는 영광을 누립니다. 이러한 영광을 얻은 [손님|E]는 [신심_i|E] [신심|E]과 [명성_i|E] [명성|E]을 얻고, 당신에 대한 [호감도|E]가 증가합니다.\n\n#N $RICE_special_guest_flower_collector$ 자격을 얻으려면, 손님은 주인의 가까운 친족 또는 외척 [가족|E] 출신이어야 합니다.#!" # 16765998365730118990
+  RICE_special_guest_flower_collector_desc: "각 가문은 그들 중 한 사람을 $RICE_special_guest_flower_collector$로 선발할 수 있습니다. 이들은 신들을 기쁘게 해줄 아름다운 꽃들을 찾아 산속으로 들어가는 영광을 누립니다. 이러한 영광을 얻은 [손님|E]는 [신심_i|E] [신심|E]과 [명성_i|E] [prestige|E]을 얻고, 당신에 대한 [호감도|E]가 증가합니다.\n\n#N $RICE_special_guest_flower_collector$ 자격을 얻으려면, 손님은 주인의 가까운 친족 또는 외척 [가족|E] 출신이어야 합니다.#!" # 16765998365730118990
   RICE_special_guest_flower_collector_desc_for_host: "$RICE_special_guest_flower_collector_desc$" # 3635746943533733713
   RICE_zhangzhung_kinnaur_flower_festival_collector_returns_log_title: "꽃 수집가들이 돌아왔습니다." # 13098170973955379001
   RICE_zhangzhung_kinnaur_flower_festival_collector_returns_log: "[CHARACTER.GetShortUIName|U]는 다른 꽃 따는 이들과 함께 많은 산꽃을 캤습니다." # 3920337385975861181
@@ -325,7 +325,7 @@
   activity_RICE_festival_losar: "로사르 축제" # 14447579722502513209
   activity_RICE_festival_losar_desc: "티베트력 새해 축제인 로사르는 티베트인들에게 가장 인기 있는 축제 중 하나입니다." # 5574167239387611580
   activity_RICE_festival_losar_selection_tooltip: "새해를 맞이하여 축하드립니다!\n\n$RICE_festival_losar_desc_context_tooltip$" # 17068598407433187796
-  activity_RICE_festival_losar_host_desc: "$BULLET_WITH_TAB$[스트레스_손실_i|E] 스트레스 손실\n$BULLET_WITH_TAB$[신앙_i] 신앙\n$BULLET_WITH_TAB$[명성_i] 명성\n$BULLET_WITH_TAB$최대 [금_i|E] #V [EmptyScope.ScriptValue('RICE_losar_gift_amount')]#! [금] 선물\n$BULLET_WITH_TAB$#P 유익한#! [지역_수정자|E]가 귀하의 [수도|E]에 있습니다." # 7328556346428113569
+  activity_RICE_festival_losar_host_desc: "$BULLET_WITH_TAB$[스트레스_손실_i|E] 스트레스 손실\n$BULLET_WITH_TAB$[신앙_i] 신앙\n$BULLET_WITH_TAB$[명성_i] 명성\n$BULLET_WITH_TAB$최대 [금_i|E] #V [EmptyScope.ScriptValue('RICE_losar_gift_amount')]#! [금] 선물\n$BULLET_WITH_TAB$#P 유익한#! [지역_수정자|E]가 귀하의 [capital|E]에 있습니다." # 7328556346428113569
   RICE_festival_losar_desc_context_tooltip: "#bold 역사적 배경:# 티베트 민족의 새해 축제인 로사르는 전통적으로 15일 동안 계속됩니다. 새해는 티베트 음양력을 기반으로 하며, 일반적으로 그레고리력 2월 또는 3월경에 해당합니다." # 8988447256829650312
   activity_RICE_festival_losar_guest_desc: "[piety_i] [piety|E] 획득" # 15956444138895960840
   activity_RICE_festival_losar_province_desc: "여기가 로살 축제에 초대될 사람들이 모일 곳입니다." # 16755732369194149586
@@ -336,7 +336,7 @@
   dharma_decision_losar_month_requirement: "로사르는 2월 또는 3월경에 열립니다." # 1852606243520839818
   RICE_festival_losar_gift_type: "선물" # 2606541427898960113
   RICE_festival_losar_gift_small: "작은" # 11665425638542725414
-  RICE_festival_losar_gift_small_desc: "$EFFECT_LIST_BULLET$ [수도|E]는 [GetModifier('RICE_losar_small_gift_modifier').GetNameWithTooltip] [지역 보너스|E]를 얻습니다.\n$EFFECT_LIST_BULLET$ 추가 [명예|E]를 #V [EmptyScope.ScriptValue('miniscule_prestige_gain')]#! [명예|E]를 얻습니다.\n\n#weak  로사르 기간에 시민들에게 작고 겸손한 선물을 드립니다. 그들은 더 이상 필요로 하지 않습니다.#!" # 17417299686827442121
+  RICE_festival_losar_gift_small_desc: "$EFFECT_LIST_BULLET$ [capital|E]는 [GetModifier('RICE_losar_small_gift_modifier').GetNameWithTooltip] [지역 보너스|E]를 얻습니다.\n$EFFECT_LIST_BULLET$ 추가 [명예|E]를 #V [EmptyScope.ScriptValue('miniscule_prestige_gain')]#! [명예|E]를 얻습니다.\n\n#weak  로사르 기간에 시민들에게 작고 겸손한 선물을 드립니다. 그들은 더 이상 필요로 하지 않습니다.#!" # 17417299686827442121
   RICE_festival_losar_gift_medium: "보통" # 7377651229498775580
   RICE_festival_losar_gift_medium_desc: "$EFFECT_LIST_BULLET$ [capital|E]는 [GetModifier('RICE_losar_medium_gift_modifier').GetNameWithTooltip] [county_modifier|E]를 얻습니다.\n$EFFECT_LIST_BULLET$ 추가 [prestige_i|E] #V [EmptyScope.ScriptValue('minor_prestige_gain')]#! [prestige|E]를 얻습니다.\n\n#weak 로사르 기간에 백성들에게 존경받는 선물을 베풀어야 합니다. 최소한의 노력만으로는 부족합니다.#!" # 14944843437382130915
   RICE_festival_losar_gift_large: "거대한" # 2290692482761374841
@@ -357,10 +357,10 @@
   RICE_festival_losar_guest_memory_third_perspective: "[owner.GetName]이 [host.GetTitledFirstNamePossessive] [GetActivityType('activity_RICE_festival_losar').GetName]를 성대히 축하했습니다." # 162378507120789485
   RICE_festival_losar_worship_intent_header: "숭배:" # 5975529624042931288
   RICE_festival_losar_worship_intent: "숭배:" # 7766295194512236388
-  RICE_festival_losar_worship_intent_desc: "종교적 축제의 측면에 집중하십시오.  [활동|E]이 끝나면 추가 [신앙도_i|E] #V 50#! [신앙도|E]를 얻습니다.  [열렬한]. 또는 [겸손한]이라면 추가 [스트레스_손실_i|E] [스트레스|E]를 잃습니다." # 9903924849508413186
+  RICE_festival_losar_worship_intent_desc: "종교적 축제의 측면에 집중하십시오.  [activity|E]이 끝나면 추가 [신앙도_i|E] #V 50#! [piety|E]를 얻습니다.  [열렬한]. 또는 [겸손한]이라면 추가 [스트레스_손실_i|E] [스트레스|E]를 잃습니다." # 9903924849508413186
   RICE_festival_losar_reputation_intent_header: "평판:" # 6075904094411210055
   RICE_festival_losar_reputation_intent: "평판:" # 4914268119379995417
-  RICE_festival_losar_reputation_intent_desc: "이 축제 기간 동안의 제물을 통해 그대의 헌신을 만천하에 알리십시오.  [활동|E]을 마치면 추가 [명성_i|E] #V 50#! [명성|E]을 얻습니다.  [욕망] 또는 [거만]의 특성을 지니고 있다면, 추가 [스트레스_손실_i|E] [스트레스|E]를 잃습니다." # 17451666907572612268
+  RICE_festival_losar_reputation_intent_desc: "이 축제 기간 동안의 제물을 통해 그대의 헌신을 만천하에 알리십시오.  [activity|E]을 마치면 추가 [명성_i|E] #V 50#! [prestige|E]을 얻습니다.  [욕망] 또는 [거만]의 특성을 지니고 있다면, 추가 [스트레스_손실_i|E] [스트레스|E]를 잃습니다." # 17451666907572612268
   RICE_losar_large_gift_modifier: "대중에게 보내는 숭고한 로살 선물" # 17821650560498837952
   RICE_losar_large_gift_modifier_desc: "여기 평민들은 최근 로사르 축제의 일환으로 지역 지도자들로부터 값진 선물을 받았습니다." # 14413188953743938139
   RICE_losar_medium_gift_modifier: "대중에게 거대한 로사르 선물" # 14464558069625844035
@@ -674,7 +674,7 @@
   zhangzhung.0016.desc: "[langdarma.GetTitledFirstName] 암살 후 [GetTitleByKey('e_tibet').GetNameNoTier] 제국이 내전으로 붕괴되면서 사회적, 정치적 격변이 일어났을 뿐만 아니라, [GetReligionByKey('buddhism_religion').GetAdjective]과 토착 [GetReligionByKey('bon_religion').GetAdjective] 모두 종교 기관 또한 쇠퇴했습니다.\n\n그러나 진정한 교리를 배우려는 자들에게는 희망이 있습니다. 일부에서는 오래전 이러한 가르침을 전파한 현명한 영적 스승, 특히 [padmasambhava.GetFirstName]께서 현재 시대의 상황을 예견하시고 [Glossary( 'termas', 'TERMA_GLOSS' )] 형태로 가르침과 다른 성물을 숨겨두셨다고 합니다. 이러한 성스러운 보물은 자격 있는 보물 발굴자, 즉 [Glossary( 'tertöns', 'TERTON_GLOSS' )]만이 [Glossary( 'karmic conditions', 'KARMIC_CONDITIONS_GLOSS' )]이 무르익고 사회가 그것을 받아들일 준비가 되었을 때 찾을 수 있었습니다.\n\n최근 [Glossary( 'tertöns', 'TERTON_GLOSS' )]가 [GetGeographicalRegion('world_tibet').GetName] 전역, 특히 [GetFaithByKey('lamaism').GetName]의 #italic 닝마#! 종파와 [GetFaithByKey('bon').GetAdherentNamePlural] 사이에서 나타나기 시작했습니다. 일부 [GetReligionByKey('buddhism_religion').GetAdherentNamePluralNoTooltip]은 #italic tertöns#! 자체에 회의적이지만, 점점 더 많은 #italic terma#!가 발견됨에 따라 이러한 현상이 이 지역 전체에서 더 많은 인정을 받게 될지도 모릅니다." # 5278300283916142368
   zhangzhung.0016.a: "이 #italic 테르퇸#들은 어떤 신성한 #italic 테르마#를 발견할 수 있을까?!" # 18111715911206321984
   zhangzhung.0016.b: "미신적인 헛소리처럼 들리는군!" # 3720754584994200896
-  zhangzhung.0016.tooltip.1: "이제 $heritage_tibetan_name$ [문화|E]를 가지고 [GetReligionByKey('buddhism_religion').GetAdjective] [신앙|E] 또는 [GetReligionByKey('bon_religion').GetAdjective] 또는 [GetReligionByKey('west_himalayan_religion').GetAdjective] [신앙|E]을 따르는 [인물]에게 [RICE_tertons|E]과 관련된 [결정|E]과 이벤트, 그리고 [RICE_termas|E]의 발견이 일어날 수 있습니다. 이때 [GetFaithDoctrine('rice_bon_deities_new_doctrine').GetBaseName] [교리|E]가 있어야 합니다." # 43340704484834871
+  zhangzhung.0016.tooltip.1: "이제 $heritage_tibetan_name$ [culture|E]를 가지고 [GetReligionByKey('buddhism_religion').GetAdjective] [faith|E] 또는 [GetReligionByKey('bon_religion').GetAdjective] 또는 [GetReligionByKey('west_himalayan_religion').GetAdjective] [faith|E]을 따르는 [인물]에게 [RICE_tertons|E]과 관련된 [decision|E]과 이벤트, 그리고 [RICE_termas|E]의 발견이 일어날 수 있습니다. 이때 [GetFaithDoctrine('rice_bon_deities_new_doctrine').GetBaseName] [doctrines|E]가 있어야 합니다." # 43340704484834871
   zhangzhung.0016.tooltip.2: "[RICE_tertons|E](은)는 비교적 드물 것이며, 미래에 더 널리 받아들여지는 현상이 될 때까지 성공 확률이 낮을 것입니다." # 2357021990066297005
   zhangzhung.0016.tooltip.3: "#bold $RICE_zhangzhung_patronize_tertons$#! [decision|E]은 [court|E]에 [RICE_terton|E] 또는 [GetModifier('RICE_terton_candidate').GetNameWithTooltip]를 보유하지 않은 [rulers|E]는 이용할 수 없습니다." # 10871334307438043740
   zhangzhung.0016.info: "#emphasis 역사적 배경:#! $TERTON_GLOSS$" # 12964466740435891767

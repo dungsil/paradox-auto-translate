@@ -16,7 +16,7 @@
   innovation_RICE_khuzi: "비천한 일꾼들" # 10145376821369764554
   innovation_RICE_khuzi_desc: "$tradition_RICE_khuzi_desc$" # 10446659874034819499
   RICE_khuzestan_geographical_req: "[GetTitleByKey('d_khuzestan').GetNameNoTier]에 있는 당신의 [county|E]" # 3931533665844882259
-  RICE_tomb_of_daniel_pilgrimage_distance_req: "귀하의 [수도|E]가 [GetTitleByKey('c_tustar').GetNameNoTier]과 가깝고, $RICE_khuzestan_rebury_daniel$ [결단|E]이 내려졌습니다" # 18121496838374666421
+  RICE_tomb_of_daniel_pilgrimage_distance_req: "귀하의 [capital|E]가 [GetTitleByKey('c_tustar').GetNameNoTier]과 가깝고, $RICE_khuzestan_rebury_daniel$ [decision|E]이 내려졌습니다" # 18121496838374666421
   RICE_khuzestan_region: "$d_khuzestan$" # 13906536969871771134
   RICE_every_county_khuzestan: "[GetTitleByKey('d_khuzestan').GetNameNoTier]의 모든 [county|E]" # 3154203267658252940
   ibn_wahab: "이븐 와합" # 2359193317025484333
@@ -79,9 +79,9 @@
   TRAVEL_NAME_FOR_activity_RICE_mandaean_parwanaya: "[Character.GetFirstNamePossessiveNoTooltip] 파르와나야" # 12636208663296032939
   activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_host_an_a: "$host_activity_a$" # 13713790857143020716
   activity_RICE_khuzestan_tomb_of_daniel_pilgrimage: "다니엘 무덤 성지 순례" # 10785284200942187019
-  activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_desc: "다니엘은 아브라함계 [신앙|E]를 따르는 이들에게 중요한 종교적 인물입니다. [daniels_tomb|E]는 수스에 있다고 알려져 있으며, 따라서 그 지역의 많은 이들이 그에게 참배하러 그곳으로 갑니다." # 14128525668705080944
+  activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_desc: "다니엘은 아브라함계 [faith|E]를 따르는 이들에게 중요한 종교적 인물입니다. [daniels_tomb|E]는 수스에 있다고 알려져 있으며, 따라서 그 지역의 많은 이들이 그에게 참배하러 그곳으로 갑니다." # 14128525668705080944
   activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_selection_tooltip: "[local_pilgrimage|E]에 참여하여 슈슈의 [GetTitleByKey('b_tustar').GetNameNoTier] 근처에 있는 [tomb_of_daniel|E]에 가십시오.\n\n$RICE_khuzestan_tomb_of_daniel_decision_context_tooltip$" # 3938567833974390055
-  activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ [GetModifier('RICE_khuzestan_daniel_pilgrimage_done').GetNameWithTooltip] [인물 보정치|E]" # 4881905650296452709
+  activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ [GetModifier('RICE_khuzestan_daniel_pilgrimage_done').GetNameWithTooltip] [character_modifiers|E]" # 4881905650296452709
   activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_guest_desc: "$activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_host_desc$" # 4718981130483448389
   activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_province_desc: "다니엘의 무덤이 이곳 수슈에 자리하고 있습니다." # 9864612760892104104
   activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_destination_selection: "$activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_province_desc$" # 16302843244662170588
@@ -168,10 +168,10 @@
   RICE_khuzestan_shushtar_bridges_option_desc: "[supply_limit|E]와 [building|E] 비용에 중점을 두십시오" # 11715020502014475809
   RICE_khuzestan_shushtar_bridges_option_tooltip: "$EFFECT_LIST_BULLET$ 복구 효과: [GetModifier('RICE_khuzestan_shushtar_bridges_repair').GetNameWithTooltip]\n$EFFECT_LIST_BULLET$` 보수 효과: [GetModifier('RICE_khuzestan_shushtar_bridges_renovation').GetNameWithTooltip]" # 12155373948146690573
   RICE_khuzestan_shushtar_watermills_option: "#Bold #V 물방앗간#!#!\n$RICE_khuzestan_shushtar_watermills_option_desc$" # 11539146528490143716
-  RICE_khuzestan_shushtar_watermills_option_desc: "[지역 여론|E]" # 6063697030913851748
+  RICE_khuzestan_shushtar_watermills_option_desc: "[county_opinion|E]" # 6063697030913851748
   RICE_khuzestan_shushtar_watermills_option_tooltip: "$EFFECT_LIST_BULLET$ 수리 효과: [GetModifier('RICE_khuzestan_shushtar_watermills_repair').GetNameWithTooltip]\n$EFFECT_LIST_BULLET$ 개조 효과: [GetModifier('RICE_khuzestan_shushtar_watermills_renovation').GetNameWithTooltip]" # 947563804686951481
   RICE_khuzestan_khuzi_status_decision: "쿠지 공동체 격상" # 13204598807246092437
-  RICE_khuzestan_khuzi_status_decision_tooltip: "쿠지 민족을 위해 쿠제스탄에 [왕국|E]을 수립합니다" # 11760797124442927024
+  RICE_khuzestan_khuzi_status_decision_tooltip: "쿠지 민족을 위해 쿠제스탄에 [kingdom|E]을 수립합니다" # 11760797124442927024
   RICE_khuzestan_khuzi_status_decision_desc: "너무 오랫동안, 우리 [ROOT.Char.GetCulture.GetCollectiveNoun]는 이란 및 아랍 이웃들에게 억압받고 경멸당해 왔습니다. [ROOT.Char.GetCulture.GetNameNoTooltip] [ROOT.Char.GetTitleAsNameNoTooltip]로서, 저는 우리 백성을 위해 새로운 왕국을 세우고 우리의 명예와 존엄을 되찾을 힘을 가지고 있습니다." # 14244522466527552216
   RICE_khuzestan_khuzi_status_decision_effect_tooltip_1: "$innovation_RICE_khuzi$ [innovation|E]은(는) [THIS.Char.GetCulture.GetName]에서 #bold 영구적으로#! 제거되었으며, 해당 문화를 가진 모든 다른 [cultures|E]에서도 제거되었습니다." # 7053003242051774565
   RICE_khuzestan_khuzi_status_decision_effect_tooltip_2: "$tradition_RICE_khuzi_name$ [tradition|E]이(가) #bold 업그레이드되었습니다#! 당신의 선택에 따라 [THIS.Char.GetCulture.GetCollectiveNoun] 및 해당 [tradition|E]을(를) 공유하는 다른 모든 [cultures|E]에게 더 나은 보너스를 제공할 것입니다." # 11458807254975351366
@@ -181,7 +181,7 @@
   RICE_khuzestan_parwanaya_festival: "파르와나야 축하" # 13012853635212894424
   RICE_khuzestan_parwanaya_festival_tooltip: "만다야교도들에게 중요한 종교적 행사인 파르와나야 축제를 거행하세요" # 6080611680101424146
   RICE_khuzestan_parwanaya_festival_desc: "많은 [ROOT.Char.GetFaith.GetAdherentNamePlural]에게 #italic 파르와나야#!(혹은 #italic 판자#!)는 한 해 중 가장 중요한 절기 중 하나입니다. 이 절기는 우리가 [ROOT.Char.GetFaith.HighGodName]께서 천사와 우주를 창조하신 때를 기념하는 시간입니다." # 7396040411324533418
-  RICE_khuzestan_parwanaya_festival_effect_tooltip_1: "귀하는 [신앙도|E], [위신|E], 그리고 [GetModifier('RICE_khuzestan_celebrated_parwanaya').GetNameWithTooltip] [character_modifiers|E]를 얻게 될 것입니다." # 153725284794798858
+  RICE_khuzestan_parwanaya_festival_effect_tooltip_1: "귀하는 [piety|E], [prestige|E], 그리고 [GetModifier('RICE_khuzestan_celebrated_parwanaya').GetNameWithTooltip] [character_modifiers|E]를 얻게 될 것입니다." # 153725284794798858
   RICE_khuzestan_parwanaya_festival_confirm: "시작해보지!" # 1830976368998437983
   RICE_khuzestan_parwanaya_festival_context_tooltip: "#emphasis 역사적 배경:#! #italic 파르와나야#! (또는 #italic 판자#!)는 만다야교 민족종교 집단의 주요 축제 중 하나입니다. 숨불타의 8개월 이후 만다야력의 추가 5일 동안 기념되며, 한 해 중 가장 행복하고 길한 시기 중 하나로 여겨집니다." # 10217957948165700493
   RICE_khuzestan_gnostic_baptism_rite: "의례 세례를 받다" # 2718168611020478595
@@ -207,8 +207,8 @@
   khuzestan.0005.a: "우리의 영광스러운 과거, 우리가 엘리마이스였던 때를 보라!" # 11027400948543937682
   khuzestan.0005.b: "사회와 문화를 우선 발전시키자." # 11130349841597355574
   khuzestan.0005.c: "페르시아 만 전역 교역망 구축" # 14280687837477637015
-  RICE_khuzestan_counties_elymaean_tooltip: "$innovation_RICE_khuzi$ [혁신|E]을 보유한 모든 [문화|E]는 이를 영구적으로 상실하는 반면, 해당 [문화|E] 모두가 $tradition_RICE_khuzi_name$ [전통|E]을 업그레이드하여 군사 보너스를 받습니다." # 14598937749819677376
-  RICE_khuzestan_counties_community_tooltip: "모든 [문화|E]는 $innovation_RICE_khuzi$ [혁신|E]을 영구적으로 상실하며, 한편 $tradition_RICE_khuzi_name$ [전통|E]은 강화되어 해당 전통을 가진 모든 [문화|E]에 대해 외교력 보너스를 받게 됩니다." # 9828403260699609638
+  RICE_khuzestan_counties_elymaean_tooltip: "$innovation_RICE_khuzi$ [innovation|E]을 보유한 모든 [culture|E]는 이를 영구적으로 상실하는 반면, 해당 [culture|E] 모두가 $tradition_RICE_khuzi_name$ [tradition|E]을 업그레이드하여 군사 보너스를 받습니다." # 14598937749819677376
+  RICE_khuzestan_counties_community_tooltip: "모든 [culture|E]는 $innovation_RICE_khuzi$ [innovation|E]을 영구적으로 상실하며, 한편 $tradition_RICE_khuzi_name$ [tradition|E]은 강화되어 해당 전통을 가진 모든 [culture|E]에 대해 외교력 보너스를 받게 됩니다." # 9828403260699609638
   RICE_khuzestan_counties_traders_tooltip: "$innovation_RICE_khuzi$ [innovation|E]를 가진 모든 [cultures|E]는 이를 영구적으로 잃게 됩니다. 반면에 $tradition_RICE_khuzi_name$ [tradition|E]는 이를 가진 모든 [cultures|E]에게 경제 보너스를 받도록 업그레이드됩니다." # 6530664761796970495
   khuzestan.0006.t: "$khuzestan.0005.t$" # 15206056259945535721
   khuzestan.0006.desc: "누구든 기억할 수 있는 한 오래도록, [GetGeographicalRegion('RICE_khuzestan_region').GetName]의 고대 원주민들은 아랍인, 이란인, 그리스인 등 다른 세력의 멍에 아래 크게 고통받아 왔습니다. 많은 [khuzi.GetCollectiveNoun]들은 그들의 지배층 주인들을 위한 화장실 시종처럼, 사회에서 굴욕적인 역할로 전락했습니다. 그들 자신의 이름, [khuzi.GetNameNoTooltip]마저 다른 민족들에게 모욕으로 사용되었습니다.\n\n그러나 시대는 변하고 있습니다. [khuzi_hero.GetTitledFirstName]은/는 이 지역을 새로운 왕국으로 통합했고, [khuzi_hero.GetHerHis] 동포인 [khuzi.GetCollectiveNounNoTooltip]들에게 그들의 옛 방식이나 이해할 수 없는 고대 언어를 거부하지 말 것을 강력히 촉구했습니다." # 4378583819496789687

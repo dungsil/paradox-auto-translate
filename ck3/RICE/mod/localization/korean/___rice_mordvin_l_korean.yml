@@ -9,7 +9,7 @@
   tradition_RICE_volga_apiculture_desc: "#F 전 세계에서 양봉과 채밀이 모두 행해지지만, 볼가 지역 사람들은 숙련된 양봉가로 이름 높습니다. 이 문화에서 생산되는 꿀과 밀랍처럼 귀중한 벌꿀 생산품은 종종 해외 시장으로 수출되거나 지역 통치자에게 공물로 바쳐집니다.#!" # 971747177912162399
   culture_parameter_unlock_rice_volga_bee_tribute_decision: "이 [culture|E]의 [counties|E]를 통치하는 이들에게 $RICE_mordvin_extract_beekeeper_tribute$ [decision|E]를 해금합니다." # 6543529408562324896
   culture_parameter_unlock_rice_volga_bee_product_decision: "$RICE_mordvin_acquire_volga_bee_products$ [decision|E]와 다른 [characters|E]에게 $RICE_mordvin_give_bee_products$ [interaction|E]가 해금됩니다." # 1929705057749017673
-  RICE_culture_in_volga_beekeeper_terrain_desc: "[culture|E]는 농지, 범람원, 평지, 삼림, 구릉지, 혹은 습지 [지형|E]를 가진 어떠한 [county|E]에도 존재하지 않습니다." # 11039255228579280397
+  RICE_culture_in_volga_beekeeper_terrain_desc: "[culture|E]는 농지, 범람원, 평지, 삼림, 구릉지, 혹은 습지 [terrain|E]를 가진 어떠한 [county|E]에도 존재하지 않습니다." # 11039255228579280397
   tradition_RICE_finnic_sorcerers_name: "북부 주술사" # 18045956344516895245
   tradition_RICE_finnic_sorcerers_desc: "#F 이 문화에서는 마법이 중요하며, 종종 긍정적으로 여겨집니다; 삶에서 성공한 이들은 종종 강력한 마법사로 여겨집니다. 이국 땅에서는 이 문화의 사람들은 그들의 마법 능력으로 알려져 두려움과 존경을 받습니다.#!" # 8653347783797178105
   RICE_mordvin_beekeeper_tribute_extracted: "볼가 양봉가들에게서 징수된 조공" # 6023390618293550100
@@ -135,7 +135,7 @@
   RICE_misc_sacrifice_horses: "말 희생 의식 거행" # 4644049993993722931
   RICE_misc_sacrifice_horses_desc: "기억하는 한 오랫동안, [ROOT.Char.GetFaith.GetAdjective] 신앙의 신도들 사이에서는 우리의 선조들과 [ROOT.Char.GetFaith.PantheonTerm]에게 말을 희생 제물로 바치는 것이 관습으로 이어져 왔습니다." # 5197324269164366057
   RICE_misc_sacrifice_horses_tooltip: "당신은 말 몇 필을 제물로 바칠 것입니다." # 8141266897244212971
-  RICE_misc_sacrifice_horses_effect_tooltip_1: "말을 희생함으로써, 기꺼이 희생시킬 말의 수에 따라 [신앙도|E], [명성|E], 유익한 [인물 특성|E] 등 다양한 혜택을 잠재적으로 얻을 수 있습니다" # 3914829198440367578
+  RICE_misc_sacrifice_horses_effect_tooltip_1: "말을 희생함으로써, 기꺼이 희생시킬 말의 수에 따라 [piety|E], [prestige|E], 유익한 [character_modifiers|E] 등 다양한 혜택을 잠재적으로 얻을 수 있습니다" # 3914829198440367578
   RICE_misc_sacrifice_horses_confirm: "희생에 적합한 말들을 찾으시오!" # 11177578030555434290
   RICE_misc_sacrifice_horses_context_tooltip: "#emphasis 역사적 배경:#! 말 희생 제의는 노르드인부터 몽골인, 모르드빈인에 이르는 다양한 민족들 사이에서 유라시아의 여러 지역에 걸쳐 흔한 종교 의식이었습니다. 이 사회들에서는 그 말들을 죽은 이와 함께 묻는 것이 흔했습니다. 중세와 근세 시대에는 아브라함 계통 종교와 불교와 같은 다양한 조직화된 신앙들이 확산됨에 따라 그 풍습이 쇠퇴했습니다." # 3511086459620433175
   RICE_misc_sacrifice_horses_type: "말을 몇 마리 희생시킬지 선택하십시오" # 778198362583410949
@@ -148,13 +148,13 @@
   RICE_misc_horse_sacrifice_major_option_tooltip: "#V #Bold 최소 비용: @gold_icon! [EmptyScope.ScriptValue('RICE_misc_horse_sacrifice_cost_major')|0]#!#!\n\n$EFFECT_LIST_BULLET$#V 25#!에서 #V 100#! 사이의 [piety|E]와 [prestige|E]를 얻음\n$EFFECT_LIST_BULLET$무작위 경미한 #italic 또는#! 중대한 효과가 있는 유익한 [character_modifier|E]를 얻음" # 17021274082381402239
   RICE_misc_horse_sacrifice_great_option: "#Bold #V 대희생#!#!\n$RICE_misc_horse_sacrifice_great_option_desc$" # 17095903917586981850
   RICE_misc_horse_sacrifice_great_option_desc: "많은 말을 제물로 바치다" # 16761654823069538663
-  RICE_misc_horse_sacrifice_great_option_tooltip: "#V #Bold 최소 비용: @gold_icon! [EmptyScope.ScriptValue('RICE_misc_horse_sacrifice_cost_great')|0]#!#!\n\n\n$EFFECT_LIST_BULLET$#V 50#!에서 #V 200#! 사이의 [신앙|E] 및 [위신|E] 획득\n$EFFECT_LIST_BULLET$무작위 소, 중, #italic 또는#! 대 효과를 가진 이로운 [인물 특성|E] 획득" # 6796824973330495302
+  RICE_misc_horse_sacrifice_great_option_tooltip: "#V #Bold 최소 비용: @gold_icon! [EmptyScope.ScriptValue('RICE_misc_horse_sacrifice_cost_great')|0]#!#!\n\n\n$EFFECT_LIST_BULLET$#V 50#!에서 #V 200#! 사이의 [faith|E] 및 [prestige|E] 획득\n$EFFECT_LIST_BULLET$무작위 소, 중, #italic 또는#! 대 효과를 가진 이로운 [character_modifiers|E] 획득" # 6796824973330495302
   RICE_misc_horse_sacrifice_ai_option: "$RICE_north_atlantic_expedition_ai_option$" # 8562235743961529778
   RICE_misc_horse_sacrifice_ai_option_desc: "$RICE_north_atlantic_expedition_ai_option_desc$" # 1208083384927985953
   RICE_misc_horse_sacrifice_ai_option_tooltip: "$RICE_north_atlantic_expedition_ai_option_tooltip$" # 11744937266613047631
   RICE_mordvin_extract_beekeeper_tribute: "양봉가에게서 추가 공물 징수" # 8647587447451930635
   RICE_mordvin_extract_beekeeper_tribute_desc: "내 영역에 있는 이들처럼, 볼가 강 유역에서 기원한 민족들은 양봉 능력으로 명성이 자자합니다. 우리는 이미 여러 마을에서 꿀, 밀랍 등을 포함한 벌꿀 생산품 형태로 세금을 거두고 있지만, #italic 훨씬 더# 많이 거둬들이면 어떨까요!?" # 14652284301511221432
-  RICE_mordvin_extract_beekeeper_tribute_tooltip: "지역 양봉업자들에게서 더 많은 공물을 요구하여 추가 [금|E] 획득" # 3047715580628648677
+  RICE_mordvin_extract_beekeeper_tribute_tooltip: "지역 양봉업자들에게서 더 많은 공물을 요구하여 추가 [gold|E] 획득" # 3047715580628648677
   RICE_mordvin_extract_beekeeper_tribute_effect_tooltip_1: "귀하는 #V [gold_i|E] [GetPlayer.MakeScope.ScriptValue('RICE_mordvin_beekeeper_extra_tribute_min_value')]#!부터 #bold 최대#! #V [gold_i|E] [GetPlayer.MakeScope.ScriptValue('RICE_mordvin_beekeeper_extra_tribute_max_value')]#!까지의 임의의 [gold|E]를 획득하게 됩니다." # 38993376224585239
   RICE_mordvin_extract_beekeeper_tribute_effect_tooltip_2: "이 양은 당신의 [stewardship_skill|E]에 따라 달라지며, 당신의 [domain|E]에 있는 [counties|E] 중 $tradition_RICE_volga_apiculture_name$ [tradition|E]를 가진 [culture|E]인 [counties|E]가 몇 개인지에 따라 달라집니다." # 4622037154340712586
   RICE_mordvin_extract_beekeeper_tribute_confirm: "왕국의 모든 양봉가들에게 즉시 알리도록 하라!" # 2266995017555124998

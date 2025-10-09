@@ -62,7 +62,7 @@
   building_RICE_guanche_madeira_levadas: "$building_type_RICE_guanche_madeira_levadas$" # 4337457858643167994
   building_RICE_guanche_madeira_levadas_desc: "$building_type_RICE_guanche_madeira_levadas_desc$" # 5129239761289600743
   RICE_guanche_levada_requirement: "[decision|E] #V Introduce Sugarcane to Madeira#!을(를) 실행했다!" # 6047641945421132234
-  NOT_RICE_guanche_levada_disabled: "[결정|E] #V 마데이라에 사탕수수 도입#!이 내려져야 합니다." # 3476811085571662317
+  NOT_RICE_guanche_levada_disabled: "[decision|E] #V 마데이라에 사탕수수 도입#!이 내려져야 합니다." # 3476811085571662317
   RICE_guanche_madeira_sugarcane_beginning: "마데이라 사탕수수 산업의 탄생" # 14640722121427605497
   RICE_guanche_madeira_sugarcane_beginning_desc: "지중해에서 온 사탕수수가 최근 마데이라에 도입되었고, 현재 그 산업이 번창하고 있습니다. 사방에서 끌려온 노예들은 이곳 사탕수수 농장에서 가혹한 환경 속에서 일하며 귀족들에게 막대한 이익을 가져다주고 있습니다." # 8734974593064793037
   RICE_guanche_fasting_weakness: "단식으로 인한 쇠약" # 6582379657562807113
@@ -162,7 +162,7 @@
   guanche.0011.a: "이 의례에 필요한 마땅한 바를 수행하라." # 11526568489303719497
   guanche.0011.b: "통곡하고 애통하며 단식하는 데 평소보다 더 힘쓰겠다." # 9203184508876289927
   guanche.0011.c: "이것에 정성을 다하십시오. [ROOT.Char.GetFaith.PantheonTerm]께서 우리의 비통한 간청을 들으시도록!" # 1396564767723098291
-  guanche.0011.tooltip: "[위신|E]을 더 많이 소비할수록 [realm_capital|E]에 대한 더 강력한 [county_modifier|E]를 얻을 확률이 #P 증가합니다#!" # 14573119881155931744
+  guanche.0011.tooltip: "[prestige|E]을 더 많이 소비할수록 [realm_capital|E]에 대한 더 강력한 [county_modifier|E]를 얻을 확률이 #P 증가합니다#!" # 14573119881155931744
   guanche.0011.fasting_weakness: "금식 후 몸이 허약해졌습니다." # 4640454728537082117
   guanche.0012.t: "기우제" # 4219874788073564237
   guanche.0012.desc: "사흘 밤낮을 금식한 뒤, 저와 다른 많은 이들은 가축들과 함께 [rain_ritual_county.GetName]에서 가장 높은 지점 중 한 곳, 특히 그곳의 울타리 안 사당으로 향했습니다. 어떤 이들은 춤을 추고, 다른 이들은 듣기 좋은 소리를 내는 특별한 돌, 즉 암석 타악기를 칩니다. 우리는 모두 의식용 불 주변에서 애도의 기도 의식을 올리며 애원했습니다.\n\n저희가 간청하옵나니, [ROOT.Char.GetFaith.CreatorName], [ROOT.Char.GetFaith.WaterGodName], [ROOT.Char.GetFaith.FertilityGodName], 그리고 [ROOT.Char.GetFaith.PantheonTerm] 모두시여, 저희의 제물을 받아주시고 절실히 필요한 비를 내려주시어 살고 번영케 하여주시옵소서.\n\n그 후, [ROOT.Char.Custom('DefaultPriestTitlePlural')]들이 불 주변에 모여 연기를 해석하며 [ROOT.Char.GetFaith.PantheonTerm]과의 소통이 결실을 맺었는지 알아보려 합니다…." # 14416272074647198370

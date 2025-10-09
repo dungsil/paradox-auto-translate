@@ -4,9 +4,9 @@
   RICE_tamilakam_and_lanka: "$k_tamilakam$ 와 $k_lanka$" # 2975452299715686567
   Vijayarajapura: "비자야라자푸라" # 14740199835273006913
   RICE_maritime_silk_road_region: "해상 실크로드" # 13770136784513671930
-  RICE_maritime_silk_road_geographical_req: "[GetGeographicalRegion('RICE_maritime_silk_road_region').GetName]을 따라 [county|E] 혹은 [영지|E]를 소유하고 있습니다" # 15436174093440073364
+  RICE_maritime_silk_road_geographical_req: "[GetGeographicalRegion('RICE_maritime_silk_road_region').GetName]을 따라 [county|E] 혹은 [realm|E]를 소유하고 있습니다" # 15436174093440073364
   NOT_RICE_maritime_silk_road_geographical_req: "[GetGeographicalRegion('RICE_maritime_silk_road_region').GetName]을 따라 [county|E] 또는 [domicile|E]를 소유하고 있지 않습니다." # 7016232553312129148
-  RICE_sri_lanka_capital_req: "[수도|E] 또는 [주 거점|E]가 [GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName]에 있다" # 17024997809079952009
+  RICE_sri_lanka_capital_req: "[capital|E] 또는 [주 거점|E]가 [GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName]에 있다" # 17024997809079952009
   RICE_sri_lanka_values_notification.title: "[RICE_sri_lanka_s_sangha|E]: 현재 [RICE_sri_lanka_prominence|E]" # 17542034015292818368
   RICE_sri_lanka_values_notification.tooltip: "[mahavihara_i|E] [mahavihara|E] : #V [GetGlobalVariable('RICE_mahavihara_prominence').GetValue|0]#! | [abhayagiri_i|E] [abhayagiri|E] : #V [GetGlobalVariable('RICE_abhayagiri_prominence').GetValue|0]#! | [jetavana_i|E] : [RICE_sri_lanka_prominence|E] #V [GetGlobalVariable('RICE_jetavana_prominence').GetValue|0]#!" # 4334386708123691455
   RICE_sri_lanka_values_notification.mahavihara_tooltip: "[mahavihara_i|E] [mahavihara|E]: #V [GetGlobalVariable('RICE_mahavihara_prominence').GetValue|0]#!" # 7011739013830143114
@@ -30,7 +30,7 @@
   RICE_all_held_counties_india_no_church: "[GetGeographicalRegion('world_india').GetName]에서 귀하가 다스리는 [church_holding|E] 없는 모든 [county|E]" # 3046234582043231376
   innovation_RICE_irrigation_tanks: "관개 저수조" # 18058850950249259073
   innovation_RICE_irrigation_tanks_desc: "인도 아대륙 전역에 걸쳐, 빗물을 모으고 보존하기 위해 지역의 지형을 활용하여 특정 유형의 대형 우물과 인공 저수지가 건설됩니다. 이 저수지들은 농업, 음용, 목욕, 종교 의식에 사용될 수 있습니다." # 7449771004799072986
-  RICE_irrigation_tanks_decision_unlock: "#V $RICE_india_irrigation_tank_decision$#을(를) [결단|E]할 수 있습니다!" # 15847474409326392901
+  RICE_irrigation_tanks_decision_unlock: "#V $RICE_india_irrigation_tank_decision$#을(를) [decision|E]할 수 있습니다!" # 15847474409326392901
   culture_parameter_unlock_rice_wewa_irrigation_tank_effects: "[decision|E] #V $RICE_india_irrigation_tank_decision$#!의 비용 감소" # 17920430626907917911
   culture_parameter_unlock_rice_stepwell_irrigation_tank_effects: "#V $RICE_india_irrigation_tank_decision$# [decision|E]을(를) 선택할 때 얻는 [piety_i|E] [piety|E] 및 [prestige_i|E] [prestige|E] 보너스가 증가합니다!" # 17662743897142404216
   innovation_RICE_velakkara_guards: "벨라카라 근위대" # 2981405597801700827
@@ -66,11 +66,11 @@
   RICE_sri_lanka_mahavihara_game_concept_loc: "[mahavihara_i|E] [mahavihara|E]:" # 866173702683642447
   RICE_sri_lanka_abhayagiri_game_concept_loc: "[abhayagiri_i|E] [abhayagiri|E]:" # 5830290637816774188
   RICE_sri_lanka_jetavana_game_concept_loc: "[jetavana_i|E] [jetavana|E]:" # 13651571409206010246
-  RICE_every_theravada_faith: "모든 불교 [신앙|E]가 [GetFaithDoctrine('rice_theravada_canon_doctrine').GetBaseName] [교리|E]를 가집니다" # 17359297866469513793
-  RICE_every_mahavihara_ruler: "[GetTrait('RICE_mahavihara_trait').GetName( GetNullCharacter )] [특성|E]을 보유한 모든 [통치자|E]" # 18174534861849682796
+  RICE_every_theravada_faith: "모든 불교 [faith|E]가 [GetFaithDoctrine('rice_theravada_canon_doctrine').GetBaseName] [doctrines|E]를 가집니다" # 17359297866469513793
+  RICE_every_mahavihara_ruler: "[GetTrait('RICE_mahavihara_trait').GetName( GetNullCharacter )] [trait|E]을 보유한 모든 [rulers|E]" # 18174534861849682796
   RICE_every_abhayagiri_ruler: "[GetTrait('RICE_abhayagiri_trait').GetName( GetNullCharacter )] [trait|E]를 가진 모든 [ruler|E]" # 14559291632907395231
   RICE_every_jetavana_ruler: "모든 [ruler|E]는 [GetTrait('RICE_jetavana_trait').GetName( GetNullCharacter )] [trait|E]를 가진" # 5706037113985591460
-  RICE_every_sri_lanka_county: "귀하가 [GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] 내에서 소유한 모든 [백작령|E]" # 8859802572792265813
+  RICE_every_sri_lanka_county: "귀하가 [GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] 내에서 소유한 모든 [county|E]" # 8859802572792265813
   RICE_sri_lanka_prominence_increase_minor_tooltip: "[GetPlayer.Custom('RICE_sri_lanka_prominence_increase_minor')]" # 17434022960787756031
   RICE_sri_lanka_prominence_increase_medium_tooltip: "[GetPlayer.Custom('RICE_sri_lanka_prominence_increase_medium')]" # 12918428417172262412
   RICE_sri_lanka_prominence_increase_major_tooltip: "[GetPlayer.Custom('RICE_sri_lanka_prominence_increase_major')]" # 7744069318389870560
@@ -179,25 +179,25 @@
   RICE_sri_lanka_legend_chapter_famous_deed_generic: "비록 [ROOT.Legend.GetProtagonist.GetSheHe]가 [GetReligionByKey('buddhism_religion').GetAdjectiveNoTooltip] 교리에 대해 특별히 깊이 배운 것은 아니었지만, [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은 이러한 상황이 영원히 지속될 수 없음을 알고 있었습니다." # 15150906665375887409
   RICE_sri_lanka_legend_chapter_extra_deed_struggle: "[ROOT.Legend.GetProtagonist.GetHerHis] 권위, 도덕적 정의, 그리고 외교술을 바탕으로 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]은 단순히 $k_lanka$뿐 아니라 다른 땅의 [GetReligionByKey('buddhism_religion').GetAdjectiveNoTooltip] 수도자 공동체를 결집시켰습니다. 이는 [ROOT.Legend.GetProperty( 'struggle' ).GetFlagName]를 개혁하고자 함이었습니다. 이단적이고 해로운 사상은 비난받았으며, 자격 미달의 수도승들은 사제직에서 박탈당했습니다. 반면에 올바른 사상은 널리 퍼지고, 덕망 있는 수도승들은 보상받고 새로운 세대의 종교 지도자들을 이끌 방법에 대해 교육받았습니다." # 4310967162053334387
   RICE_sri_lanka_legend_chapter_conclusion_ended_struggle: "부처님께서는 모든 것은 변한다고 가르치셨고, 그분의 가르침도 언젠가 세상에서 사라질 것이라고 하셨지만, 그 날은 아직 오지 않았습니다. [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip] 덕분입니다. [GetReligionByKey('buddhism_religion').GetAdjectiveNoTooltip] 공동체에는 과거 생애에 [ROOT.Legend.GetProtagonist.GetFirstNameNoTooltip]이 [GetReligionByKey('buddhism_religion').GetNameNoTooltip]의 삼보를 보호하는 존재가 되기를 간절히 바랐다고 믿는 이들이 많습니다. 만약 그랬다면, [ROOT.Legend.GetProtagonist.GetSheHe]는 분명 성공하셨을 것입니다." # 1553118998200094047
-  RICE_sri_lanka_duchy_conquest_cb: "$duchy_conquest_cb$ ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [지역|E])" # 7889028893092698746
-  RICE_sri_lanka_county_conquest_cb: "$county_conquest_cb$ ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [지역|E])" # 10924223726437569744
-  RICE_sri_lanka_ducal_conquest_cb: "$ducal_conquest_cb$ ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [지역|E])" # 7097853317862651706
-  RICE_sri_lanka_ireland_laudabiliter_conquest_cb: "$ireland_laudabiliter_conquest_cb$ ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [지역|E])" # 13348779328741572597
-  RICE_SRI_LANKA_CONQUEST_COUNTY_CB_NAME: "$CONQUEST_COUNTY_CB_NAME$ ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [지역|E])" # 15791933225801935626
-  RICE_SRI_LANKA_CONQUEST_DUCHY_CB_NAME: "$CONQUEST_DUCHY_CB_NAME$ ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [지역|E])" # 1905038058637805612
-  RICE_SRI_LANKA_DUCAL_CONQUEST_CB_NAME: "$DUCAL_CONQUEST_CB_NAME$ ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [지역|E])" # 889433279263790376
-  RICE_SRI_LANKA_LAUDABILITER_CONQUEST_CB_NAME: "$LAUDABILITER_CONQUEST_CB_NAME$ ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [지역|E])" # 11339830847920255449
+  RICE_sri_lanka_duchy_conquest_cb: "$duchy_conquest_cb$ ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E])" # 7889028893092698746
+  RICE_sri_lanka_county_conquest_cb: "$county_conquest_cb$ ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E])" # 10924223726437569744
+  RICE_sri_lanka_ducal_conquest_cb: "$ducal_conquest_cb$ ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E])" # 7097853317862651706
+  RICE_sri_lanka_ireland_laudabiliter_conquest_cb: "$ireland_laudabiliter_conquest_cb$ ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E])" # 13348779328741572597
+  RICE_SRI_LANKA_CONQUEST_COUNTY_CB_NAME: "$CONQUEST_COUNTY_CB_NAME$ ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E])" # 15791933225801935626
+  RICE_SRI_LANKA_CONQUEST_DUCHY_CB_NAME: "$CONQUEST_DUCHY_CB_NAME$ ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E])" # 1905038058637805612
+  RICE_SRI_LANKA_DUCAL_CONQUEST_CB_NAME: "$DUCAL_CONQUEST_CB_NAME$ ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E])" # 889433279263790376
+  RICE_SRI_LANKA_LAUDABILITER_CONQUEST_CB_NAME: "$LAUDABILITER_CONQUEST_CB_NAME$ ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E])" # 11339830847920255449
   RICE_sri_lanka_invasion_war: "([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E] 침공)" # 11898298624658681221
-  RICE_sri_lanka_clan_invasion_war: "([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [지역|E])에서  씨족 침략이 발생하였습니다." # 13562527988847367568
+  RICE_sri_lanka_clan_invasion_war: "([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E])에서  씨족 침략이 발생하였습니다." # 13562527988847367568
   RICE_SRI_LANKA_CONQUEST_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] [TITLE.GetBaseName] 정복 ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E])" # 1143223456559534869
-  RICE_SRI_LANKA_CONQUEST_WAR_NAME_BASE: "[공격자.주요직책.형용사][방어자.주요직책.이름] ([쌀농사_스리랑카_투쟁_지역.이름] [지역|E])" # 6767522069475153037
+  RICE_SRI_LANKA_CONQUEST_WAR_NAME_BASE: "[공격자.주요직책.형용사][방어자.주요직책.이름] ([쌀농사_스리랑카_투쟁_지역.이름] [region|E])" # 6767522069475153037
   RICE_SRI_LANKA_DUCAL_CONQUEST_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] 공작 침공, [TITLE.GetBaseNameNoTooltip] 공국 ([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E])" # 15753010005968897065
-  RICE_SRI_LANKA_DUCAL_CONQUEST_WAR_NAME_BASE: "[공격자.주요직책.형용사][방어자.주요직책.이름] ([쌀농사_스리랑카_투쟁_지역.이름] [지역|E])" # 6767522069475153037
-  RICE_SRI_LANKA_LAUDABILITER_CONQUEST_WAR_NAME: "#bold 라우다빌리테르#가 [TITLE.GetBaseName]([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [지역|E])를 정복하기 위한 $ORDER$를 내렸습니다." # 17643644298200123976
-  RICE_SRI_LANKA_LAUDABILITER_CONQUEST_WAR_NAME_BASE: "[공격자.주요직책.형용사][방어자.주요직책.이름] ([쌀농사_스리랑카_투쟁_지역.이름] [지역|E])" # 6767522069475153037
+  RICE_SRI_LANKA_DUCAL_CONQUEST_WAR_NAME_BASE: "[공격자.주요직책.형용사][방어자.주요직책.이름] ([쌀농사_스리랑카_투쟁_지역.이름] [region|E])" # 6767522069475153037
+  RICE_SRI_LANKA_LAUDABILITER_CONQUEST_WAR_NAME: "#bold 라우다빌리테르#가 [TITLE.GetBaseName]([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E])를 정복하기 위한 $ORDER$를 내렸습니다." # 17643644298200123976
+  RICE_SRI_LANKA_LAUDABILITER_CONQUEST_WAR_NAME_BASE: "[공격자.주요직책.형용사][방어자.주요직책.이름] ([쌀농사_스리랑카_투쟁_지역.이름] [region|E])" # 6767522069475153037
   RICE_SRI_LANKA_INVASION_CB_NAME: "[kingdom|E]([GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] [region|E])을 침공하십시오." # 5277384415133559528
-  RICE_SRI_LANKA_INVASION_WAR_NAME: "$ORDER$ [공격자.주요칭호.형용사] 침공 [칭호.기본이름] ([쌀_스리랑카_투쟁_지역].지역명) [지역|E]" # 10457938124087201332
-  RICE_SRI_LANKA_INVASION_WAR_NAME_BASE: "[공격자.주요직책.형용사][방어자.주요직책.이름] ([쌀농사_스리랑카_투쟁_지역.이름] [지역|E])" # 6767522069475153037
+  RICE_SRI_LANKA_INVASION_WAR_NAME: "$ORDER$ [공격자.주요칭호.형용사] 침공 [칭호.기본이름] ([쌀_스리랑카_투쟁_지역].지역명) [region|E]" # 10457938124087201332
+  RICE_SRI_LANKA_INVASION_WAR_NAME_BASE: "[공격자.주요직책.형용사][방어자.주요직책.이름] ([쌀농사_스리랑카_투쟁_지역.이름] [region|E])" # 6767522069475153037
   action_RICE_sri_lanka_align_with_monastery: "스리랑카 수도원과 연합합니다" # 10054715174925316289
   action_RICE_sri_lanka_align_with_monastery_label: "[RICE_sri_lanka_monastery|E]와 연합하고 후원할 수 있습니다. [GetGeographicalRegion('RICE_sri_lanka_struggle_region').GetName] 지역에서." # 10591525741187264986
   action_RICE_sri_lanka_align_with_monastery_desc: "[RICE_sri_lanka_struggle|E]의 흐름을 더욱 크게 바꿀 수 있습니다. $RICE_sri_lanka_choose_monastic_sect$ 결정을 내리면, 선택한 [RICE_sri_lanka_monastery|E]와 관련된 [trait|E]를 얻게 됩니다.\n\n\n#help 후원 [trait|E]는 $RICE_sri_lanka_support_monastery$ 결정을 통해 해당 [RICE_sri_lanka_monastery|E]를 더욱 후원할수록 더 좋은 보너스를 제공합니다.#!" # 7151560361686285750
@@ -374,20 +374,20 @@
   catalyst_RICE_sri_lanka_large_buddhist_holy_site_desc: "대규모 불교 성지를 건설하십시오" # 3283600213034570589
   catalyst_RICE_sri_lanka_hunt: "[GetActivityType( 'activity_hunt' ).GetName] 사냥을 위해 출발하였습니다. [struggle_catalyst_catalyst|E]" # 7700433733520725219
   catalyst_RICE_sri_lanka_hunt_desc: "[GetActivityType( 'activity_hunt' ).GetName]을 위해 여행을 떠납니다." # 14809767546315847984
-  catalyst_RICE_sri_lanka_war_attacker: "[전쟁|E]에서 [분쟁_촉매_촉매|E]로 인해 누군가를 공격했습니다." # 16440638718987960181
-  catalyst_RICE_sri_lanka_war_attacker_desc: "[전쟁|E]에서 공격하십시오." # 16988302755569703052
-  catalyst_RICE_sri_lanka_war_defender: "[전쟁|E]에서 [갈등_촉매_촉매제|E] 공격자를 격퇴했습니다." # 11885741010789514569
-  catalyst_RICE_sri_lanka_war_defender_desc: "[전쟁|E]에서 공격자를 막아내십시오." # 14769908457980059614
+  catalyst_RICE_sri_lanka_war_attacker: "[war|E]에서 [struggle_catalyst_catalyst|E]로 인해 누군가를 공격했습니다." # 16440638718987960181
+  catalyst_RICE_sri_lanka_war_attacker_desc: "[war|E]에서 공격하십시오." # 16988302755569703052
+  catalyst_RICE_sri_lanka_war_defender: "[war|E]에서 [struggle_catalyst_catalyst|E] 공격자를 격퇴했습니다." # 11885741010789514569
+  catalyst_RICE_sri_lanka_war_defender_desc: "[war|E]에서 공격자를 막아내십시오." # 14769908457980059614
   catalyst_RICE_sri_lanka_non_buddhist_ruler: "$buddhism_religion_adj$교를 믿지 않는 [ruler|E]로 [RICE_sri_lanka_short|E] [struggle_catalyst_catalyst|E]에 참여하십시오" # 552397317002466030
   catalyst_RICE_sri_lanka_non_buddhist_ruler_desc: "(연례) [RICE_sri_lanka_short|E]에서 비-$buddhism_religion_adj$ [ruler|E]가 되십시오" # 19052545284562167
-  catalyst_RICE_sri_lanka_buddhist_ruler_one_sin: "[struggle_catalyst_catalyst|E]을 가진 [죄악|E] [특성|E]을 가진 $buddhism_religion_adj$ [통치자|E]가 되십시오" # 6431352847235148488
-  catalyst_RICE_sri_lanka_buddhist_ruler_one_sin_desc: "(연간) [죄악|E] [특성|E] 하나를 가진 $buddhism_religion_adj$ [통치자|E]가 되십시오" # 17012292376045199802
+  catalyst_RICE_sri_lanka_buddhist_ruler_one_sin: "[struggle_catalyst_catalyst|E]을 가진 [죄악|E] [trait|E]을 가진 $buddhism_religion_adj$ [rulers|E]가 되십시오" # 6431352847235148488
+  catalyst_RICE_sri_lanka_buddhist_ruler_one_sin_desc: "(연간) [죄악|E] [trait|E] 하나를 가진 $buddhism_religion_adj$ [rulers|E]가 되십시오" # 17012292376045199802
   catalyst_RICE_sri_lanka_buddhist_ruler_two_sins: "[struggle_catalyst_catalyst|E]와 두 개의 [sinful|E] [traits|E]를 가진 $buddhism_religion_adj$ [ruler|E]가 되십시오." # 4691258495754549000
   catalyst_RICE_sri_lanka_buddhist_ruler_two_sins_desc: "(연례 행사) 두 개의 [sinful|E] [traits|E]를 가진 $buddhism_religion_adj$ [ruler|E]가 되십시오" # 8354209685821660200
   catalyst_RICE_sri_lanka_buddhist_ruler_three_sins: "[sinful|E]한 [traits|E]가 3개 이상인 $buddhism_religion_adj$ [ruler|E]이 될 것 [struggle_catalyst_catalyst|E]" # 8270568386904088410
-  catalyst_RICE_sri_lanka_buddhist_ruler_three_sins_desc: "(매년) 세 개 이상의 [죄악|E] [특성|E]을 가진 $buddhism_religion_adj$ [통치자|E]가 되십시오" # 2960761983898757015
+  catalyst_RICE_sri_lanka_buddhist_ruler_three_sins_desc: "(매년) 세 개 이상의 [죄악|E] [trait|E]을 가진 $buddhism_religion_adj$ [rulers|E]가 되십시오" # 2960761983898757015
   catalyst_RICE_sri_lanka_buddhist_ruler_one_virtue: "[struggle_catalyst_catalyst|E]를 가진 [virtuous|E] [trait|E]를 가진 $buddhism_religion_adj$ [ruler|E]가 되십시오." # 6694172829320344811
-  catalyst_RICE_sri_lanka_buddhist_ruler_one_virtue_desc: "(연례 행사) [미덕|E] [특성|E]을 가진 $buddhism_religion_adj$ [통치자|E] 되기" # 16043893711601834822
+  catalyst_RICE_sri_lanka_buddhist_ruler_one_virtue_desc: "(연례 행사) [미덕|E] [trait|E]을 가진 $buddhism_religion_adj$ [rulers|E] 되기" # 16043893711601834822
   catalyst_RICE_sri_lanka_buddhist_ruler_two_virtues: "[struggle_catalyst_catalyst|E]을 유발하는 두 개의 [virtuous|E] [traits|E]를 가진 $buddhism_religion_adj$ [ruler|E]가 되십시오." # 6431277336628592750
   catalyst_RICE_sri_lanka_buddhist_ruler_two_virtues_desc: "(매년) 두 개의 [virtuous|E] [traits|E]를 가진 $buddhism_religion_adj$ [ruler|E]가 되십시오" # 17384093778720622573
   catalyst_RICE_sri_lanka_buddhist_ruler_three_virtues: "세 개 이상의 [virtuous|E] [traits|E]가 있는 $buddhism_religion_adj$ [ruler|E] [struggle_catalyst_catalyst|E]" # 4563112668604590771
@@ -438,7 +438,7 @@
   game_concept_struggle_phase_sri_lanka_purification_desc: "$struggle_RICE_sri_lanka_phase_purification_desc$" # 6898526910613252689
   game_concept_mahavihara_i: "@RICE_mahavihara_icon!" # 8069904212219704154
   game_concept_mahavihara: "마하비하라" # 16322881263931502414
-  game_concept_mahavihara_desc: "마하비하라 사원은 [아바야기리|E] 및 [제타바나|E]와 함께 [RICE_sri_lanka_struggle|E] 또는 불교 공동체의 세 가지 주요 [RICE_sri_lanka_monasteries|E] 중 하나입니다. 게임 내에서 마하비하라는 주황색 아이콘인 @RICE_mahavihara_icon!로 표시됩니다.\n\n다양한 [결정|E], [활동|E] 등을 통해 마하비하라의 [RICE_sri_lanka_prominence|E]를 높이거나 낮출 수 있습니다. 특히 $RICE_sri_lanka_choose_monastic_sect$ [결정|E]을 내리면 얻을 수 있는 [GetTrait('RICE_mahavihara_trait').GetName( GetNullCharacter )] [특성|E]이 있는 경우 더욱 그렇습니다. [RICE_sri_lanka_short|E]에서 [struggle|E]를 끝내고 싶다면 이 점을 명심하십시오.\n\n역사적으로 마하비하라는 고대 및 중세 스리랑카 불교의 더 '전통주의적' 수도원 또는 종파였습니다. 그들은 일반적으로 인도에서 온 이질적인 사상이라고 여겨지는 것에 대해 회의적이거나 무시했습니다. 전통 연대기에 따르면 그들은 다른 수도원에 맞서 결국 \"승리\"한 사람들이었습니다." # 5732686806950422264
+  game_concept_mahavihara_desc: "마하비하라 사원은 [아바야기리|E] 및 [제타바나|E]와 함께 [RICE_sri_lanka_struggle|E] 또는 불교 공동체의 세 가지 주요 [RICE_sri_lanka_monasteries|E] 중 하나입니다. 게임 내에서 마하비하라는 주황색 아이콘인 @RICE_mahavihara_icon!로 표시됩니다.\n\n다양한 [decision|E], [activity|E] 등을 통해 마하비하라의 [RICE_sri_lanka_prominence|E]를 높이거나 낮출 수 있습니다. 특히 $RICE_sri_lanka_choose_monastic_sect$ [decision|E]을 내리면 얻을 수 있는 [GetTrait('RICE_mahavihara_trait').GetName( GetNullCharacter )] [trait|E]이 있는 경우 더욱 그렇습니다. [RICE_sri_lanka_short|E]에서 [struggle|E]를 끝내고 싶다면 이 점을 명심하십시오.\n\n역사적으로 마하비하라는 고대 및 중세 스리랑카 불교의 더 '전통주의적' 수도원 또는 종파였습니다. 그들은 일반적으로 인도에서 온 이질적인 사상이라고 여겨지는 것에 대해 회의적이거나 무시했습니다. 전통 연대기에 따르면 그들은 다른 수도원에 맞서 결국 \"승리\"한 사람들이었습니다." # 5732686806950422264
   game_concept_abhayagiri_i: "@RICE_abhayagiri_icon!" # 13963727394883055405
   game_concept_abhayagiri: "아바야기리" # 62842117569119588
   game_concept_abhayagiri_desc: "아바야기리는 [mahavihara|E] 및 [jetavana|E]와 함께 [RICE_sri_lanka_struggle|E] 또는 그 불교 공동체의 세 가지 주요 [RICE_sri_lanka_monasteries|E] 중 하나입니다. 게임 내에서 아바야기리는 노란색 아이콘 @RICE_abhayagiri_icon!으로 표시됩니다.\n\n다양한 [decisions|E], [activities|E] 등을 통해 아바야기리의 [RICE_sri_lanka_prominence|E]을 높이거나 낮출 수 있습니다. 특히 $RICE_sri_lanka_choose_monastic_sect$ [decision|E]을 통해 얻을 수 있는 [GetTrait('RICE_abhayagiri_trait').GetName( GetNullCharacter )] [trait|E]이 있는 경우 더욱 그렇습니다. [RICE_sri_lanka_short|E]에서 [struggle|E]를 끝내고 싶다면 이 점을 명심하십시오.\n\n역사적으로 아바야기리는 고대 및 중세 스리랑카 불교의 더 혁신적인 수도원 또는 종파였습니다. 그들은 종종 불교의 마하야나 및 바즈라야나 종류의 아이디어를 스리랑카에서 수행된 테라바다 형태의 불교에 통합했습니다. 한때 그들은 섬에서 가장 큰 주요 수도원이었습니다." # 16922222799795515259
@@ -451,8 +451,8 @@
   game_concept_RICE_grants: "부여" # 16174448829078049884
   game_concept_RICE_land_grant: "토지 수여" # 7878757059145914254
   game_concept_RICE_land_grants: "토지 수여" # 16492496918427760387
-  game_concept_RICE_land_grants_desc: "$buddhism_religion_adj$, $hinduism_religion_adj$ 또는 $jainism_religion_adj$ [신앙|E]을 따르는 [통치자|E]는 $RICE_india_land_grant_decision$을 [결정|E]할 수 있습니다.\n\n이 [결정|E]을 내릴 때, 세 [종교|E] 중 하나에 토지를 하사할지 선택해야 합니다. 즉, 자신이 믿지 않는 [종교|E]에 토지를 하사할 수도 있습니다.\n\n토지를 하사하면 해당 [종교|E] 신도들의 [opinion|E]을 높이는 [character_modifier|E]를 얻고, 여러 혜택이 있는 [county_modifiers|E]를 [counties|E]에 추가합니다. [county_modifier|E]는 [세금|E]을 감소시키지만 [development_growth|E]을 증가시킵니다. 선택한 [종교|E]의 [신앙|E]을 따른다면, [modifier|E]는 또한 [county_opinion|E]을 향상시키지만, 따르지 않는다면, 대신 [modifier|E]는 [development_growth|E]을 훨씬 더 향상시킵니다. [교회_봉신|E]이 있는 자격 있는 [counties|E]는 당신이 얻는 [modifier|E]의 더 강력한 버전을 받습니다.\n\n추가적으로, 이 [결정|E]은 영향을 받는 [counties|E]를 선택한 [종교|E]의 무작위 [신앙|E]으로 개종시킬 약간의 확률이 있습니다." # 14023894183937301095
-  RICE_sri_lanka_aspiration_vijayabahu_desc: "#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$[GetTitleByKey('k_lanka').GetNameNoTier]의 [king|E]이 되십시오\n$EFFECT_LIST_BULLET$$RICE_sri_lanka_polonnaruwa_capital$ [결정|E]을 내리십시오\n$EFFECT_LIST_BULLET$불교 신앙을 유지하십시오\n\n#bold 보상#!\n$EFFECT_LIST_BULLET@@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET##V 500#! [GetMaA('RICE_velakkara').GetName] [special_troops|E] 부대 획득\n$EFFECT_LIST_BULLET$[GetGeographicalRegion('RICE_sri_lanka_alt_region').GetName] 내 모든 [county|E]에 @development_icon! #V [EmptyScope.ScriptValue('RICE_red_sea_al_umari_aspiration_dev_bonus')]#! [development|E] 부여\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$$RICE_india_irrigation_tank_decision$ [결정|E]을 한 번 이상 내리기 (보상: @prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E])\n$EFFECT_LIST_BULLET$$RICE_sri_lanka_support_monastery$ [결정|E]을 한 번 이상 내리기 (보상: @piety_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [piety|E])" # 10690138295154128636
+  game_concept_RICE_land_grants_desc: "$buddhism_religion_adj$, $hinduism_religion_adj$ 또는 $jainism_religion_adj$ [faith|E]을 따르는 [rulers|E]는 $RICE_india_land_grant_decision$을 [decision|E]할 수 있습니다.\n\n이 [decision|E]을 내릴 때, 세 [종교|E] 중 하나에 토지를 하사할지 선택해야 합니다. 즉, 자신이 믿지 않는 [종교|E]에 토지를 하사할 수도 있습니다.\n\n토지를 하사하면 해당 [종교|E] 신도들의 [opinion|E]을 높이는 [character_modifier|E]를 얻고, 여러 혜택이 있는 [county_modifiers|E]를 [counties|E]에 추가합니다. [county_modifier|E]는 [세금|E]을 감소시키지만 [development_growth|E]을 증가시킵니다. 선택한 [종교|E]의 [faith|E]을 따른다면, [modifier|E]는 또한 [county_opinion|E]을 향상시키지만, 따르지 않는다면, 대신 [modifier|E]는 [development_growth|E]을 훨씬 더 향상시킵니다. [교회_봉신|E]이 있는 자격 있는 [counties|E]는 당신이 얻는 [modifier|E]의 더 강력한 버전을 받습니다.\n\n추가적으로, 이 [decision|E]은 영향을 받는 [counties|E]를 선택한 [종교|E]의 무작위 [faith|E]으로 개종시킬 약간의 확률이 있습니다." # 14023894183937301095
+  RICE_sri_lanka_aspiration_vijayabahu_desc: "#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$[GetTitleByKey('k_lanka').GetNameNoTier]의 [king|E]이 되십시오\n$EFFECT_LIST_BULLET$$RICE_sri_lanka_polonnaruwa_capital$ [decision|E]을 내리십시오\n$EFFECT_LIST_BULLET$불교 신앙을 유지하십시오\n\n#bold 보상#!\n$EFFECT_LIST_BULLET@@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET##V 500#! [GetMaA('RICE_velakkara').GetName] [special_troops|E] 부대 획득\n$EFFECT_LIST_BULLET$[GetGeographicalRegion('RICE_sri_lanka_alt_region').GetName] 내 모든 [county|E]에 @development_icon! #V [EmptyScope.ScriptValue('RICE_red_sea_al_umari_aspiration_dev_bonus')]#! [development|E] 부여\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$$RICE_india_irrigation_tank_decision$ [decision|E]을 한 번 이상 내리기 (보상: @prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E])\n$EFFECT_LIST_BULLET$$RICE_sri_lanka_support_monastery$ [decision|E]을 한 번 이상 내리기 (보상: @piety_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [piety|E])" # 10690138295154128636
   RICE_sri_lanka_historical_aspiration_action_vijayabahu: "#italic 수십 년 동안 싱할라족 군벌과 촐라족 군대에 의해 점령당한 $k_lanka$ 섬에 질서를 회복하고 평화를 가져와 새로운 왕국을 세우려 하시는군요!#$RICE_sri_lanka_aspiration_vijayabahu_desc$" # 4227369849200830495
   RICE_sri_lanka_historical_aspiration_modifier_desc_vijayabahu: "[GetModifier('RICE_sri_lanka_aspiration_rule_sri_lanka').GetNameWithTooltip]" # 9630738346519524464
   RICE_sri_lanka_ramasetu_pilgrimage_host_memory: "[GetActivityType( 'activity_RICE_sri_lanka_ramasetu_pilgrimage' ).GetName](으)로 순례를 떠났습니다" # 286285208547750534
@@ -540,7 +540,7 @@
   activity_RICE_sri_lanka_relic_veneration_desc: "신성한 다르마의 땅인 [GetGeographicalRegion('RICE_sri_lanka_alt_region').GetName]에는 수많은 중요한 불교 유물이 있습니다. 저는 그러한 유물을 기리기 위해 열리는 특별한 종교 의식에 참여할 수 있습니다." # 915394074279228819
   activity_RICE_sri_lanka_relic_veneration_selection_tooltip: "[GetGeographicalRegion('RICE_sri_lanka_alt_region').GetName]의 주요 [RICE_sri_lanka_monasteries|E]에 보관된 불교 유물 중 하나를 숭배하십시오.\n\n$activity_RICE_sri_lanka_relic_veneration_context_tooltip$" # 10420413767914856503
   activity_RICE_sri_lanka_relic_veneration_context_tooltip: "#emphasis 역사적 배경:#! 스리랑카는 수많은 불교 유적의 본고장이며, 그중에서도 부처님의 치아 사리가 가장 유명합니다. 치아 사리를 소유하는 것은 섬의 왕들에게 일종의 신성한 권리로 여겨지기까지 했습니다. 현대에 이르러 치아 사리 행렬은 스리랑카에서 가장 유명한 의식 및 축하 행사로 여겨지지만, 그 현재 모습은 사실 비교적 최근에 형성된 것으로 수 세기에 걸쳐 많은 변화를 겪었습니다. 아이러니하게도 게임의 시간적 배경 동안 치아는 처음에는 스리랑카에서 가장 지배적인 수도원이 된 마하비하라에 의해 조롱받았습니다. 그 이유는 치아가 강력하게 그들의 라이벌인 아바야기리와 연관되어 있었고, 마하비하라는 그들의 숭배를 다른 유적, 특히 아누라다푸라의 보리수에 집중했기 때문입니다." # 13699990903470388172
-  activity_RICE_sri_lanka_relic_veneration_host_desc: "$BULLET_WITH_TAB$[stress_loss_i|E]만큼 [스트레스|E] 감소\n$BULLET_WITH_TAB$[piety_i|E]만큼 [신앙도|E] 획득\n$BULLET_WITH_TAB$[prestige_i|E]만큼 [명성|E] 획득\n$BULLET_WITH_TAB$유물에 따라 다양한 [인물 보정치|E]\n$BULLET_WITH_TAB$섬의 [RICE_sri_lanka_monasteries|E]의 [RICE_sri_lanka_prominence|E] 증가, 특히 후원하는 수도원의 경우" # 17755235983624940354
+  activity_RICE_sri_lanka_relic_veneration_host_desc: "$BULLET_WITH_TAB$[stress_loss_i|E]만큼 [스트레스|E] 감소\n$BULLET_WITH_TAB$[piety_i|E]만큼 [piety|E] 획득\n$BULLET_WITH_TAB$[prestige_i|E]만큼 [prestige|E] 획득\n$BULLET_WITH_TAB$유물에 따라 다양한 [character_modifiers|E]\n$BULLET_WITH_TAB$섬의 [RICE_sri_lanka_monasteries|E]의 [RICE_sri_lanka_prominence|E] 증가, 특히 후원하는 수도원의 경우" # 17755235983624940354
   activity_RICE_sri_lanka_relic_veneration_guest_desc: "$activity_RICE_sri_lanka_relic_veneration_host_desc$" # 8937242407221163881
   RICE_sri_lanka_relic_veneration_bodhi_shrine_province: "[GetModifier('RICE_sri_lanka_relic_bodhi_shrine_modifier').GetNameWithTooltip]이(가) 현재 이곳에 있습니다." # 7196148148248246778
   RICE_sri_lanka_relic_veneration_tooth_shrine_province: "[GetModifier('RICE_sri_lanka_relic_tooth_shrine_modifier').GetNameWithTooltip]가 현재 이곳에 있습니다." # 17773308735909561645

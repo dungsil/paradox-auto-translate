@@ -12,8 +12,8 @@
   RICE_decision_ooni_exists_requirement: "누군가 [GetTitleByKey('d_ooni_of_ife').GetNameNoTier]을(를) 보유하고 있습니다" # 87335194227186237
   RICE_ooni: "오오니" # 13866646118784607785
   RICE_all_dynasty_members: "[dynasty|E]의 모든 구성원" # 6087628509305105723
-  RICE_every_religious_vassal: "[신정제 정부|E]를 가진 [봉신|E]" # 2490813024471306939
-  RICE_every_non_religious_vassal: "[신권 정부|E]를 가지지 않은 [봉신|E]" # 2577158394470995206
+  RICE_every_religious_vassal: "[신정제 정부|E]를 가진 [vassal|E]" # 2490813024471306939
+  RICE_every_non_religious_vassal: "[신권 정부|E]를 가지지 않은 [vassal|E]" # 2577158394470995206
   RICE_niger_delta_every_county: "소유한 모든 [county|E]" # 6927015692653563380
   RICE_every_courtier_over_50: "50세 이상의 모든 [courtier|E]" # 8053857271906971733
   RICE_niger_delta_bronze_artifact_unlock: "Bronze Caster [niger_delta_craft_guilds|E]로부터 예술 작품을 조직하거나 의뢰할 수 있는 능력을 잠금 해제합니다. (이 [culture|E]에 $tradition_RICE_kinship_based_craft_guilds_name$ 또는 $tradition_RICE_ritual_hegemony_name$ [traditions|E]이 있는 경우)" # 1385954520520406491
@@ -61,7 +61,7 @@
   innovation_RICE_nsibidi_pictograms_desc: "나이지리아 남동부의 에크페 비밀 결사에 의해 개발된 은시비 기호 체계는 비밀스럽게든 공개적으로든 의사소통에 사용되며, 사법 사건에서도 사용됩니다." # 8292093496850170620
   RICE_niger_delta_kola_nut_interaction: "콜라 열매로 평화 맹세" # 857627051080398143
   RICE_niger_delta_kola_nut_interaction_notification: "신성한 콜라 열매를 당신께 드리고자 합니다. 정식 의례에서 이를 함께 나누며 저희 양측이 평화 맹세를 할 수 있도록 말입니다. 서로에게 악감정이 없음을 확인하고, 잠재적 갈등을 피하며, #italic 이그웨부이케#의 정신으로 협력하도록 합시다!!" # 7720489309531409868
-  RICE_niger_delta_kola_nut_interaction_desc: "[recipient.GetTitledFirstName]와 [콜라 너트|E]에 대해 선제적으로 [휴전|E]을 맺고, 그 대가로 [위신|E]과 [신앙|E]을 얻습니다." # 1423765139953351582
+  RICE_niger_delta_kola_nut_interaction_desc: "[recipient.GetTitledFirstName]와 [콜라 너트|E]에 대해 선제적으로 [휴전|E]을 맺고, 그 대가로 [prestige|E]과 [faith|E]을 얻습니다." # 1423765139953351582
   RICE_niger_delta_kola_nut_interaction.accept.actor.tt: "[recipient.GetTitledFirstName] 콜라 열매를 나누기로 동의합니다." # 11005858906714058218
   RICE_niger_delta_kola_nut_interaction.accept.recipient.tt: "[actor.GetTitledFirstName] 콜라 열매를 함께 나눕니다" # 9367629564756323290
   RICE_niger_delta_kola_nut_interaction.decline.actor.tt: "[recipient.GetTitledFirstName]는 콜라 열매를 나누기를 거부했습니다." # 3968590350042295148
@@ -132,7 +132,7 @@
   activity_RICE_niger_delta_olojo_festival: "올로조 축제" # 10171596312273239187
   activity_RICE_niger_delta_olojo_festival_desc: "인류의 요람이라 불리는 [GetTitleByKey('b_ile-ife').GetNameNoTier] 시에서는 수 세기 동안 Olojo 축제가 열려왔습니다. 이 축제는 이 지역의 역사, 신화, 문화와 깊이 연결되어 있으며, 모든 $west_african_orisha_religion_adherent_plural$의 정신적 지도자인 [GetTrait('RICE_ooni_of_ife').GetName( GetNullCharacter )]께서 취임 선서를 갱신하고 신들에게, 특히 오군에게 희생을 바치는 계기이기도 합니다.\n\n@alert_icon! #alert_trial Olojo 축제는 10월에 시작됩니다. 그 전에 도착하시면, [GetTitleByKey('b_ile-ife').GetNameNoTier]에서 축제가 시작되기를 기다리는 동안 활동은 일시 중지됩니다.#!" # 16047666247843586948
   activity_RICE_niger_delta_olojo_festival_selection_tooltip: "올로조 축제에 참여한다.\n\n$RICE_niger_delta_partake_olojo_festival_context_tooltip$" # 928835494123258658
-  activity_RICE_niger_delta_olojo_festival_host_desc: "\n$BULLET_WITH_TAB$[piety_i|E] [piety|E] 또는 #P 유익한#! [인물_수정자|E]와 같은 다양한 이점을 얻을 수 있습니다.\n$BULLET_WITH_TAB$만약 당신이 직접 Ọọ̀ni라면, 이 [활동|E]으로부터 추가적인 책임과 보너스를 갖게 될 것입니다." # 16628149929795116237
+  activity_RICE_niger_delta_olojo_festival_host_desc: "\n$BULLET_WITH_TAB$[piety_i|E] [piety|E] 또는 #P 유익한#! [인물_수정자|E]와 같은 다양한 이점을 얻을 수 있습니다.\n$BULLET_WITH_TAB$만약 당신이 직접 Ọọ̀ni라면, 이 [activity|E]으로부터 추가적인 책임과 보너스를 갖게 될 것입니다." # 16628149929795116237
   activity_RICE_niger_delta_olojo_festival_guest_desc: "$activity_RICE_niger_delta_olojo_festival_host_desc$" # 16070804242405067810
   activity_RICE_niger_delta_olojo_festival_province_desc: "$c_ife$는 인류의 요람이며, 오로조 축제가 개최될 수 있는 유일한 장소입니다." # 16854234251248605435
   activity_RICE_niger_delta_olojo_festival_destination_selection: "$activity_RICE_niger_delta_olojo_festival_province_desc$" # 8648180628689050310
@@ -215,9 +215,9 @@
   RICE_niger_delta_ironsmith_guild_modifier: "왕립 대장장이 조합" # 985722552865477905
   RICE_niger_delta_ironsmith_guild_modifier_desc: "이 왕조의 영토 내, 가문 내 유대와 연결망으로 서로 이어진 대장장이들이 이 왕조의 왕실 후원 아래 공식적인 길드로 조직되었습니다.\n그들은 상호 이익이 되는 협약 하에 이 가문의 부름에 응하여 아름다운 철 예술품을 만듭니다.\n\n#EMP 이 [dynasty|E]의 모든 [landed|E] [rulers|E]가 ($tradition_RICE_kinship_based_craft_guilds_name$ 혹은 $tradition_RICE_ritual_hegemony_name$ [traditions|E]를 가진 [culture|E]이며, 기타 조건을 충족하는) [niger_delta_craft_guilds|E]에게 예술품 주문 [decision|E]을 내릴 때 #bold 철#! [artifacts|E]를 주문할 능력 사용 가능!" # 4361359862927674414
   RICE_niger_delta_ivory_and_wood_carver_guild_modifier: "상아와 목재 조각 장인 길드" # 6676886721204017660
-  RICE_niger_delta_ivory_and_wood_carver_guild_modifier_desc: "이 왕조의 영토 내 상아 및 목재 조각가들은 가족적 유대와 네트워크를 통해 서로 연결되어, 왕실의 후원 아래 공식적인 조합으로 조직되었습니다. 그들은 서로에게 이익이 되는 관계 속에서 이 가족의 부름에 응하여 아름다운 상아 및 목재 조각품을 제작합니다.\n\n#EMP는 이 왕조의 모든 [영지 소유자|E] (그들의 [문화|E]에 $tradition_RICE_kinship_based_craft_guilds_name$ 또는 $tradition_RICE_ritual_hegemony_name$ [전통|E]이 있으며, 다른 요건을 충족하는)에게 [niger_delta_craft_guilds|E]로부터 예술 작품 의뢰하기 [결정|E]을 내릴 때 #bold 상아 및 목재#! [유물|E]를 의뢰할 수 있는 능력을 해제합니다!" # 15094862543620636978
+  RICE_niger_delta_ivory_and_wood_carver_guild_modifier_desc: "이 왕조의 영토 내 상아 및 목재 조각가들은 가족적 유대와 네트워크를 통해 서로 연결되어, 왕실의 후원 아래 공식적인 조합으로 조직되었습니다. 그들은 서로에게 이익이 되는 관계 속에서 이 가족의 부름에 응하여 아름다운 상아 및 목재 조각품을 제작합니다.\n\n#EMP는 이 왕조의 모든 [영지 소유자|E] (그들의 [culture|E]에 $tradition_RICE_kinship_based_craft_guilds_name$ 또는 $tradition_RICE_ritual_hegemony_name$ [tradition|E]이 있으며, 다른 요건을 충족하는)에게 [niger_delta_craft_guilds|E]로부터 예술 작품 의뢰하기 [decision|E]을 내릴 때 #bold 상아 및 목재#! [artifact|E]를 의뢰할 수 있는 능력을 해제합니다!" # 15094862543620636978
   RICE_niger_delta_bead_maker_guild_modifier: "구슬 장인 길드" # 17629481439683274888
-  RICE_niger_delta_bead_maker_guild_modifier_desc: "이 왕조의 영토 내 구슬 장인들은 가족적 유대와 네트워크로 서로 연결되어, 왕실의 후원 아래 공식적인 조합으로 조직되었습니다. 그들은 상호 이익을 위한 약속 아래, 아름다운 유리 또는 산호 구슬 예술품을 창조하여 이 가문의 부름에 응합니다.\n\n#EMP는 이 [왕조|E]의 모든 [영주|E] (그들의 [문화|E]가 $tradition_RICE_kinship_based_craft_guilds_name$ 또는 $tradition_RICE_ritual_hegemony_name$ [전통|E]을 가지고 있으며, 다른 요건을 충족하는 경우)가 [결정|E]을 통해 [니제르 델타 공예 조합|E]로부터 예술 작품 의뢰하기로 결정했을 때 #bold 유리 또는 산호 구슬!# [유물|E]을 의뢰할 수 있는 능력을 해제합니다!" # 11715504726533039934
+  RICE_niger_delta_bead_maker_guild_modifier_desc: "이 왕조의 영토 내 구슬 장인들은 가족적 유대와 네트워크로 서로 연결되어, 왕실의 후원 아래 공식적인 조합으로 조직되었습니다. 그들은 상호 이익을 위한 약속 아래, 아름다운 유리 또는 산호 구슬 예술품을 창조하여 이 가문의 부름에 응합니다.\n\n#EMP는 이 [왕조|E]의 모든 [영주|E] (그들의 [culture|E]가 $tradition_RICE_kinship_based_craft_guilds_name$ 또는 $tradition_RICE_ritual_hegemony_name$ [tradition|E]을 가지고 있으며, 다른 요건을 충족하는 경우)가 [decision|E]을 통해 [니제르 델타 공예 조합|E]로부터 예술 작품 의뢰하기로 결정했을 때 #bold 유리 또는 산호 구슬!# [artifact|E]을 의뢰할 수 있는 능력을 해제합니다!" # 11715504726533039934
   RICE_niger_delta_opinion_choose_new_yam_date: "신년제 축제 날짜에 대해 문의하셨습니다." # 7874016753818156663
   RICE_niger_delta_successful_new_yam_festival: "성공적인 신년제" # 11139655164544444046
   RICE_niger_delta_successful_new_yam_festival_desc: "이 지방은 최근 중요한 새 감자 축제를 성대하게 거행했습니다. 이 지역의 전통적인 연례 행사로, 현지 주민들은 이번 축제가 매우 잘 치러져 하늘에 기쁨을 드리고 풍요로운 수확을 보장할 것이라고 믿고 있습니다." # 3722695308431582608
@@ -316,34 +316,34 @@
   RICE_niger_delta_bronze_casters_option_tooltip: "#Bold 최소 비용: @gold_icon! 100#!\n다른 예술품보다 더 많은 [piety|E]를 제공합니다.\n[artifacts|E]는 [learning|E]을 향상시킵니다." # 3493472538847922066
   RICE_niger_delta_ivory_and_wood_carvers_option: "#Bold 상아 및 목재 조각가들#!" # 5414632897886982105
   RICE_niger_delta_ivory_and_wood_carvers_option_desc: "상아와 목각은 밀접하게 연결된 두 가지 기술입니다." # 801875030425394003
-  RICE_niger_delta_ivory_and_wood_carvers_option_tooltip: "$EFFECT_LIST_BULLET$#Bold 최소 비용: @gold_icon! 50#!\n$EFFECT_LIST_BULLET$신앙[piety|E], 명성[prestige|E], 왕실 명성[dynasty_prestige|E] 부여 면에서는 다른 예술품보다 약하지만, 일반적으로 저렴합니다.\n$EFFECT_LIST_BULLET$[유물|E]는 상아와 나무 각각 [무력|E]와 [권모술수|E]를 향상시킵니다" # 7638086074188413191
+  RICE_niger_delta_ivory_and_wood_carvers_option_tooltip: "$EFFECT_LIST_BULLET$#Bold 최소 비용: @gold_icon! 50#!\n$EFFECT_LIST_BULLET$신앙[piety|E], 명성[prestige|E], 왕실 명성[dynasty_prestige|E] 부여 면에서는 다른 예술품보다 약하지만, 일반적으로 저렴합니다.\n$EFFECT_LIST_BULLET$[artifact|E]는 상아와 나무 각각 [무력|E]와 [권모술수|E]를 향상시킵니다" # 7638086074188413191
   RICE_niger_delta_beadmakers_option: "#Bold 구슬 장인들#!" # 9276995033503259963
   RICE_niger_delta_beadmakers_option_desc: "유리나 산호로 만든 아름다운 구슬은 진정한 권력과 영향력의 상징입니다." # 6201681239411250761
   RICE_niger_delta_beadmakers_option_tooltip: "#Bold 최소 비용: @gold_icon! 125#!\n$EFFECT_LIST_BULLET$다른 예술품과는 달리 [dynasty_prestige|E]를 제공합니다.\n$EFFECT_LIST_BULLET$해안 지역을 제외한 [artifacts|E]는 유리로 제작됩니다. 해안 지역에서는 대신 산호로 제작됩니다.\n$EFFECT_LIST_BULLET$[artifacts|E]는 [diplomacy|E]를 향상시킵니다." # 3278268256333708612
   RICE_niger_delta_ironsmiths_option: "#Bold 대장장이들#!" # 2277589034626174317
   RICE_niger_delta_ironsmiths_option_desc: "철은 무기나 도구뿐만 아니라 예술에도 사용될 수 있습니다." # 17041818229730536719
-  RICE_niger_delta_ironsmiths_option_tooltip: "#Bold 최소 비용: @gold_icon! 100#!\n다른 예술품보다 더 많은 [영향력|E]를 제공합니다.\n[유물|E]는 [관리력|E]를 향상시킵니다." # 4848941242814756796
+  RICE_niger_delta_ironsmiths_option_tooltip: "#Bold 최소 비용: @gold_icon! 100#!\n다른 예술품보다 더 많은 [영향력|E]를 제공합니다.\n[artifact|E]는 [관리력|E]를 향상시킵니다." # 4848941242814756796
   RICE_niger_delta_currently_commissioning_artwork_req: "현재 [나이지리아 델타 공예 조합]은 귀하를 위한 위탁 작업을 진행하지 않고 있습니다." # 3787264981226657666
   RICE_niger_delta_form_craft_guilds: "혈맹 기반의 장인 조합을 조직합니다." # 15305209124962147313
   RICE_niger_delta_form_craft_guilds_tooltip: "왕실 [나이지리아_델타_장인조합|E]에 대한 권한을 행사하시는군요.  그들이 무엇을 만들어드릴 수 있을까요?" # 11766547759591833910
   RICE_niger_delta_form_craft_guilds_desc: "[ROOT.Char.GetDynasty.GetName] [dynasty|E]는 위대하지만, 더욱 위대해질 수 있습니다. 우리의 힘을 강화하기 위해, 우리 영토 내 장인들을 공식적으로 왕실 [niger_delta_craft_guilds|E]에 조직할 것입니다. 그들의 기존 사회적 네트워크를 우리의 정치 구조에 통합함으로써, 우리 모두 상호 이익을 얻을 것입니다." # 13759703278549350569
-  RICE_niger_delta_form_craft_guilds_effect_tooltip_1: "귀하의 [왕조|E]는 조직하는 [니제르 삼각주 수공업 조합|E]의 종류에 따라 [수정어|E]를 받게 될 것이며, 이를 통해 [결정|E]을 내려 $RICE_니제르 삼각주 수공업 조합 예술 위원회$를 통해 [유물|E] 및 기타 보너스를 얻을 수 있습니다." # 11383363465077471530
+  RICE_niger_delta_form_craft_guilds_effect_tooltip_1: "귀하의 [왕조|E]는 조직하는 [니제르 삼각주 수공업 조합|E]의 종류에 따라 [수정어|E]를 받게 될 것이며, 이를 통해 [decision|E]을 내려 $RICE_니제르 삼각주 수공업 조합 예술 위원회$를 통해 [artifact|E] 및 기타 보너스를 얻을 수 있습니다." # 11383363465077471530
   RICE_niger_delta_pick_a_guild_to_form_type: "길드를 선택하십시오" # 13423593117619956919
   RICE_niger_delta_pick_a_guild_to_form_type_gui: "[니제르 삼각주 공예 길드|E] 중에서 귀하의 [왕가|E]의 후원 아래 조직할 길드를 선택하십시오." # 17069106205553194558
   RICE_niger_delta_form_craft_guilds_confirm: "왕조의 영광을 위해!" # 14766228410728520814
   RICE_niger_delta_form_craft_guilds_context_tooltip: "$RICE_niger_delta_commission_art_from_craft_guilds_context_tooltip$" # 15362765296274945535
   RICE_niger_delta_form_bronze_casters_option: "#Bold 청동 주조자들#!" # 6633148397998598297
   RICE_niger_delta_form_bronze_casters_option_desc: "$RICE_niger_delta_bronze_casters_option_desc$" # 3806465061302088233
-  RICE_niger_delta_form_bronze_casters_option_tooltip: "$EFFECT_LIST_BULLET$[왕조|E]는 [GetModifier('RICE_niger_delta_bronze_caster_guild_modifier').GetNameWithTooltip] [수정|E]를 받습니다.\n$EFFECT_LIST_BULLET$이 [왕조|E]의 어떠한 [영주|E] [군주|E]라도 [niger_delta_craft_guilds|E]로부터 예술품 제작을 [결정|E]하는 경우, #bold 청동#! [유물|E]를 의뢰할 수 있는 능력을 해제합니다(기타 요건을 충족하는 경우). \n$EFFECT_LIST_BULLET$청동 예술품은 다른 유형의 예술품보다 더 많은 [신앙|E]를 얻는 경향이 있습니다.\n\n #X 이 옵션은 귀하의 [문화|E]가 $innovation_lost_wax_casting$ [혁신|E]을 가지고 있는 경우에만 사용할 수 있습니다#!" # 5332719585259932855
+  RICE_niger_delta_form_bronze_casters_option_tooltip: "$EFFECT_LIST_BULLET$[왕조|E]는 [GetModifier('RICE_niger_delta_bronze_caster_guild_modifier').GetNameWithTooltip] [수정|E]를 받습니다.\n$EFFECT_LIST_BULLET$이 [왕조|E]의 어떠한 [영주|E] [rulers|E]라도 [niger_delta_craft_guilds|E]로부터 예술품 제작을 [decision|E]하는 경우, #bold 청동#! [artifact|E]를 의뢰할 수 있는 능력을 해제합니다(기타 요건을 충족하는 경우). \n$EFFECT_LIST_BULLET$청동 예술품은 다른 유형의 예술품보다 더 많은 [faith|E]를 얻는 경향이 있습니다.\n\n #X 이 옵션은 귀하의 [culture|E]가 $innovation_lost_wax_casting$ [innovation|E]을 가지고 있는 경우에만 사용할 수 있습니다#!" # 5332719585259932855
   RICE_niger_delta_form_ivory_and_wood_carvers_option: "#Bold 상아 및 목재 조각가들#!" # 5414632897886982105
   RICE_niger_delta_form_ivory_and_wood_carvers_option_desc: "$RICE_niger_delta_ivory_and_wood_carvers_option_desc$" # 7019924467265954789
   RICE_niger_delta_form_ivory_and_wood_carvers_option_tooltip: "$EFFECT_LIST_BULLET$[dynasty|E]는 [GetModifier('RICE_niger_delta_ivory_and_wood_carver_guild_modifier').GetNameWithTooltip] [modifier|E]를 받게 됩니다.\n$EFFECT_LIST_BULLET$이 [dynasty|E]의 어떠한 [rulers|E]도 [niger_delta_craft_guilds|E]로부터 예술품 제작을 의뢰하는 [decision|E]를 통해 #bold 상아와 목재 조각품#! [artifacts|E]를 제작할 수 있는 능력을 해제합니다. (다른 요건이 충족되는 경우)\n$EFFECT_LIST_BULLET$상아와 목재 조각품은 다른 유형의 예술 작품보다 약하지만, 일반적으로 더 저렴합니다." # 5220742441865406782
   RICE_niger_delta_form_beadmakers_option: "#Bold 구슬 장인들#!" # 9276995033503259963
   RICE_niger_delta_form_beadmakers_option_desc: "$RICE_niger_delta_beadmakers_option_desc$" # 8116753455494544314
-  RICE_niger_delta_form_beadmakers_option_tooltip: "$EFFECT_LIST_BULLET$[왕조|E]는 [GetModifier('RICE_niger_delta_bead_maker_guild_modifier').GetNameWithTooltip] [수정|E]를 받습니다.\n$EFFECT_LIST_BULLET$이 [왕조|E]의 어떠한 [영지 소유자|E]도 [niger_delta_craft_guilds|E]로부터 예술품 위탁을 결정하면 (#bold 유리 또는 산호 구슬#!) [유물|E]을 제작할 수 있습니다 (다른 요구 사항이 충족되는 경우).\n$EFFECT_LIST_BULLET$유리 또는 산호 구슬은 다른 종류의 예술품보다 더 많은 [왕조 명성|E]을 얻을 가능성이 높습니다.\n\n #X 이 옵션은 [왕|E] 또는 [황제|E] [계급|E]이거나, [GetTitleByKey('c_ife').GetName] 또는 [GetTitleByKey('d_ooni_of_ife').GetNameNoTier]를 소유한 경우에만 사용할 수 있습니다#!" # 6469700941583974094
+  RICE_niger_delta_form_beadmakers_option_tooltip: "$EFFECT_LIST_BULLET$[왕조|E]는 [GetModifier('RICE_niger_delta_bead_maker_guild_modifier').GetNameWithTooltip] [수정|E]를 받습니다.\n$EFFECT_LIST_BULLET$이 [왕조|E]의 어떠한 [영지 소유자|E]도 [niger_delta_craft_guilds|E]로부터 예술품 위탁을 결정하면 (#bold 유리 또는 산호 구슬#!) [artifact|E]을 제작할 수 있습니다 (다른 요구 사항이 충족되는 경우).\n$EFFECT_LIST_BULLET$유리 또는 산호 구슬은 다른 종류의 예술품보다 더 많은 [왕조 명성|E]을 얻을 가능성이 높습니다.\n\n #X 이 옵션은 [왕|E] 또는 [황제|E] [rank|E]이거나, [GetTitleByKey('c_ife').GetName] 또는 [GetTitleByKey('d_ooni_of_ife').GetNameNoTier]를 소유한 경우에만 사용할 수 있습니다#!" # 6469700941583974094
   RICE_niger_delta_form_ironsmiths_option: "#Bold 대장장이들#!" # 2277589034626174317
   RICE_niger_delta_form_ironsmiths_option_desc: "$RICE_niger_delta_ironsmiths_option_desc$" # 12442689944642001794
-  RICE_niger_delta_form_ironsmiths_option_tooltip: "$EFFECT_LIST_BULLET$[왕조|E]는 [GetModifier('RICE_niger_delta_ironsmith_guild_modifier').GetNameWithTooltip] [수정자|E]를 받게 됩니다.\n$EFFECT_LIST_BULLET$이 [왕조|E]의 어떤 [영지 소유자|E]도 [니제르 델타 공예 조합|E]로부터 예술품 제작을 의뢰하는 [결정|E]을 내릴 경우 #bold 철# 예술품 [유물|E]을 의뢰할 수 있는 능력을 획득합니다(기타 요건 충족 시). \n$EFFECT_LIST_BULLET$철로 만든 예술품은 다른 종류의 예술품보다 더 많은 [명성|E]을 얻는 경향이 있습니다.\n\n #X 이 옵션은 $prestige_level_3$ [명성 수준|E]을 보유한 경우에만 사용할 수 있습니다#!" # 17597864861994430832
+  RICE_niger_delta_form_ironsmiths_option_tooltip: "$EFFECT_LIST_BULLET$[왕조|E]는 [GetModifier('RICE_niger_delta_ironsmith_guild_modifier').GetNameWithTooltip] [수정자|E]를 받게 됩니다.\n$EFFECT_LIST_BULLET$이 [왕조|E]의 어떤 [영지 소유자|E]도 [니제르 델타 공예 조합|E]로부터 예술품 제작을 의뢰하는 [decision|E]을 내릴 경우 #bold 철# 예술품 [artifact|E]을 의뢰할 수 있는 능력을 획득합니다(기타 요건 충족 시). \n$EFFECT_LIST_BULLET$철로 만든 예술품은 다른 종류의 예술품보다 더 많은 [prestige|E]을 얻는 경향이 있습니다.\n\n #X 이 옵션은 $prestige_level_3$ [명성 수준|E]을 보유한 경우에만 사용할 수 있습니다#!" # 17597864861994430832
   RICE_niger_delta_celebrate_new_yam_festival: "신년 감사제를 축하합니다" # 4300511346665031132
   RICE_niger_delta_celebrate_new_yam_festival_tooltip: "첫 감자 수확이 머지않았습니다...." # 10818969715745911666
   RICE_niger_delta_celebrate_new_yam_festival_desc: "수세기 동안, 얌은 대서양 연안 출신의 [ROOT.Char.GetCulture.GetCollectiveNoun]와 서아프리카 다른 민족들에게 중요한 식량 원천이었습니다. 얌 수확이 임박했으므로, 나는 규모가 큰 새 얌 축제를 준비하고 풍부한 수확에 대해 [ROOT.Char.GetFaith.FertilityGodName]께 감사드려야 합니다." # 17450084072081089437
@@ -384,7 +384,7 @@
   RICE_niger_delta_restore_ooni_to_ife_confirm: "$c_ife$에 Ọọ̀니가 다시 돌아오신 것을 환영합니다!" # 10626361558950675175
   RICE_niger_delta_restore_ooni_to_ife_desc: "$c_ife$를 지배하긴 하지만, 그 진정한 통치자는 Ọọ̀ni, [ROOT.Char.GetFaith.GetReligion.GetAdjective] 공동체의 의례적이고 영적인 수장입니다. 그들은 신성한 도시를 다스려야지, 제가 다스릴 필요는 없습니다." # 5652431616704257269
   RICE_niger_delta_restore_ooni_to_ife_tooltip: "Ọọ̀니가 $c_ife$ 도시를 되찾을 것입니다." # 11100879057465570180
-  RICE_ife_held_by_you_or_vassal_tt: "$c_ife$는 귀하 또는 귀하의 [봉신|E]가 소유해야 합니다." # 15245609845047900543
+  RICE_ife_held_by_you_or_vassal_tt: "$c_ife$는 귀하 또는 귀하의 [vassal|E]가 소유해야 합니다." # 15245609845047900543
   RICE_ife_is_capital: "$c_ife$는 귀하의 [realm_capital|E]가 아닙니다." # 9634223388718390826
   niger_delta.0000.t: "xxxxx" # 1951045980481827005
   niger_delta.0000.desc: "xxxxx" # 1951045980481827005

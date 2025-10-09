@@ -122,7 +122,7 @@
   activity_RICE_pamir_offer_riches_to_zun: "준 우상에 대한 의식 봉헌" # 6799218903804244850
   activity_RICE_pamir_offer_riches_to_zun_desc: "우리의 의로운 풍습은 세속적인 부의 형태로 춘신께 공물을 바치는 것입니다. 춘신을 기쁘게 하는 데는 그분의 우상 앞에 이 예물을 바치는 것보다 더 좋은 방법이 없습니다." # 12858156347325692675
   activity_RICE_pamir_offer_riches_to_zun_selection_tooltip: "위대한 즌의 우상 중 하나에게 당신의 재산을 바치십시오.\n\n$RICE_pamir_offer_riches_to_zun_context_tooltip$" # 15239333520172965667
-  activity_RICE_pamir_offer_riches_to_zun_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [신앙심|E]\n$BULLET_WITH_TAB$[prestige_i] [위신|E]" # 13174538401661946544
+  activity_RICE_pamir_offer_riches_to_zun_host_desc: "\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]" # 13174538401661946544
   activity_RICE_pamir_offer_riches_to_zun_guest_desc: "[piety_i] [piety|E]와 [prestige_i] [prestige|E] 획득" # 917028444697950246
   activity_RICE_pamir_offer_riches_to_zun_province_desc: "즌 신의 주요 우상이 여기에 있다." # 712309841631124568
   activity_RICE_pamir_offer_riches_to_zun_destination_selection: "$activity_RICE_pamir_offer_riches_to_zun_province_desc$" # 8756212073138833930
@@ -239,7 +239,7 @@
   activity_RICE_pamir_goat_sacrifice: "염소 희생" # 7445669093140304339
   activity_RICE_pamir_goat_sacrifice_desc: "$RICE_pamir_sacrifice_goats_desc$" # 6617594333520034800
   activity_RICE_pamir_goat_sacrifice_selection_tooltip: "[GetPlayer.GetFaith.PantheonTerm]께 제물로 염소를 바칩니다.\n\n$RICE_pamir_sacrifice_goats_context_tooltip$" # 17205162828405047494
-  activity_RICE_pamir_goat_sacrifice_host_desc: "$BULLET_WITH_TAB$[신앙도] [신앙도|E]\n$BULLET_WITH_TAB$[명성] [명성|E]\n$BULLET_WITH_TAB$선택한 [덕목|E] 및 [죄악|E], 그리고 [활동 옵션|E]에 따라 #P 유익한#! [캐릭터 수정 사항|E]이 변경됩니다." # 5934617391130574440
+  activity_RICE_pamir_goat_sacrifice_host_desc: "$BULLET_WITH_TAB$[신앙도] [piety|E]\n$BULLET_WITH_TAB$[명성] [prestige|E]\n$BULLET_WITH_TAB$선택한 [덕목|E] 및 [죄악|E], 그리고 [활동 옵션|E]에 따라 #P 유익한#! [캐릭터 수정 사항|E]이 변경됩니다." # 5934617391130574440
   activity_RICE_pamir_goat_sacrifice_guest_desc: "[piety_i] [piety|E] 획득" # 15956444138895960840
   activity_RICE_pamir_goat_sacrifice_province_desc: "여기 제단에서 염소들이 제물로 바쳐질 것입니다." # 7832785073252562503
   activity_RICE_pamir_goat_sacrifice_destination_selection: "$activity_RICE_pamir_goat_sacrifice_province_desc$" # 10088201573410542527
@@ -260,7 +260,7 @@
   RICE_pamir_goat_sacrifice_worship_intent_desc: "염소 제물을 바칠 때, [piety_i|E]가 #V 50# 증가합니다!  [activity|E]를 수행하면 [stress_loss_i|E] [stress|E]가 추가로 감소하며, [GetTrait('zealous').GetName( GetNullCharacter )] 또는 [GetTrait('humble').GetName( GetNullCharacter )] 특성을 가진 경우 더 큰 효과를 볼 수 있습니다." # 2205181014755035613
   RICE_pamir_goat_sacrifice_reputation_intent_header: "평판:" # 6075904094411210055
   RICE_pamir_goat_sacrifice_reputation_intent: "평판:" # 4914268119379995417
-  RICE_pamir_goat_sacrifice_reputation_intent_desc: "이 염소 희생 제례를 통해 당신의 헌신을 만방에 알리십시오.  [활동|E]을 마치면 추가 [명성_증가량|E] #V 50#을 얻으실 겁니다.  당신이 [야심가]이거나 [거만한] 성격이라면, 추가 [스트레스 감소량|E] [스트레스|E]를 얻으실 수 있습니다." # 14735097973202299048
+  RICE_pamir_goat_sacrifice_reputation_intent_desc: "이 염소 희생 제례를 통해 당신의 헌신을 만방에 알리십시오.  [activity|E]을 마치면 추가 [명성_증가량|E] #V 50#을 얻으실 겁니다.  당신이 [야심가]이거나 [거만한] 성격이라면, 추가 [스트레스 감소량|E] [스트레스|E]를 얻으실 수 있습니다." # 14735097973202299048
   RICE_pamir_goat_sacrifice_completed_log_title: "염소 제사 완료" # 12594959563120162958
   RICE_pamir_goat_sacrifice_completed_log: "[CHARACTER.GetShortUIName|U]가 염소 제사를 마쳤습니다." # 11691293663189983981
   RICE_goat_sacrifice_number_of_goats_amount: "제물로 바칠 염소 수" # 10195156643255500989
@@ -507,7 +507,7 @@
   RICE_pamir_comission_nasir_khusraw_work_confirm: "제가 가진 이 질문들에 대한 답은 무엇입니까?" # 15984110511029086613
   RICE_pamir_comission_nasir_khusraw_work_context_tooltip: "#emphasis 역사적 배경:#! 그의 초기 저술만큼 잘 알려지지는 않았지만, 철학과 종교의 화해(#italic Jami al-Hikmatayn#!)는 나시르 쿠스라우의 마지막 작품으로, 지적인 인물이었던 바다흐샨의 에미르 알리 이븐 아사드의 후원을 받았습니다." # 6808713827233481422
   RICE_pamir_nasir_khusraw_passed_away_req: "[nasir_khusraw|E]님이 세상을 떠났습니다" # 1167672992210759649
-  RICE_pamir_nasir_khusraw_at_court_req: "[nasir_khusraw|E](이)가 현재 [궁정|E]에 있습니다" # 12925104302935753310
+  RICE_pamir_nasir_khusraw_at_court_req: "[nasir_khusraw|E](이)가 현재 [court|E]에 있습니다" # 12925104302935753310
   RICE_pamir_attend_chawmos_festival: "차우모스 축제에 참석하십시오" # 3444843868492543062
   RICE_pamir_attend_chawmos_festival_tooltip: "차우모스 축제를 기념할 것입니다." # 1506080204016635980
   RICE_pamir_attend_chawmos_festival_effect_tooltip: "차우모스 축제를 기념합니다" # 11472694217058748278
@@ -1024,7 +1024,7 @@
   pamir.0111.t: "브라후이족의 도래" # 5558355709166420217
   pamir.0111.desc: "여러 세대에 걸쳐 많은 드라비다어를 사용하는 부족들이 인도 중부의 고향에서 북쪽으로 이동했습니다. #V 브라후이#!로 알려진 그들은 여러 차례에 걸쳐 발루치스탄 일부 지역에 정착하여 일부 지역 부족을 흡수했으며 최근에는 이슬람으로 개종했습니다. 그곳에서 그들은 새로운 고향을 찾았고, 그곳에서 유목민과 반유목민으로서 전통적인 생활 방식을 이어가고 있습니다. 그들의 관계가 이 땅에 대한 지배권을 주장하는 지역 통치자들과 어떤 성격을 띨지는 두고 볼 일입니다." # 8189223316443270030
   pamir.0111.a: "알아두면 흥미롭겠군…." # 1093967839446481457
-  RICE_pamir_brahui_migrations_happened_text: "#V 브라후이#족이 발루치스탄으로 이주를 완료했으며, 이제 브라후이 [신하|E]가 해당 지역의 [통치자|E]에게 등용될 기회가 생겼습니다." # 14458705785825244594
+  RICE_pamir_brahui_migrations_happened_text: "#V 브라후이#족이 발루치스탄으로 이주를 완료했으며, 이제 브라후이 [신하|E]가 해당 지역의 [rulers|E]에게 등용될 기회가 생겼습니다." # 14458705785825244594
   pamir.0112.t: "xxxxx" # 1951045980481827005
   pamir.0112.desc: "xxxxx" # 1951045980481827005
   pamir.0112.a: "xxxxx" # 1951045980481827005
@@ -1039,8 +1039,8 @@
   pamir.0115.desc: "요정 왕자이자 [gilgit_county.GetNameNoTier]의 구원자인 [azur_jamshid.GetTitledFirstName]께서 최근 돌아가셨습니다. 수년 전, 그분은 [gilgit_county.GetNameNoTier]의 백성을 이끌어 식인 폭군인 [shri_badat.GetTitledFirstName] 왕을 타도하고 살해하여 더 밝고 나은 미래로 나아갔습니다. 비록 이제 그분은 더 이상 우리 곁에 없지만, 지역 주민들은 앞으로도 여러 세대에 걸쳐 그분의 유산을 기념할 것입니다." # 5827694633008177743
   pamir.0115.a: "흥미롭군…." # 1733113532710551458
   pamir.0115.tooltip: "[azur_jamshid|E]께서 서거하시고, #V Shri Badat의 궁전을 파괴하십시오#! [decision|E]을 통해 [county_modifier|E] [GetModifier('RICE_pamir_shri_badats_palace').GetNameWithTooltip]가 제거되면 #V 파미르#! 및 #V 라다크#! [duchies|E]의 [rulers|E]는 #V 툼실링 축제 후원#! [decision|E]을 내릴 수 있습니다." # 17676911870940462885
-  pamir.0115.tooltip.evil_azur_jamshid: "[azur_jamshid|E]는 죽었지만, 그는 잔혹한 바다트의 유산을 이어감으로써 자신이 처음 구원했던 사람들을 배신했습니다. 그는 스스로 폭군이 되어 이전 폭군의 궁궐을 개축했으며, 그의 악행은 여러 세대에 걸쳐 부정적으로 기억될 것입니다. 따라서 #V 파미르#! 와 #V 라다크#! [공작령|E]의 [통치자|E]는 일반적으로 접근할 수 있는 #V 툼슐링 축제 후원#! [결정|E]에 접근할 수 없게 됩니다." # 8764174396544706490
-  pamir.0115.tooltip.evil_not_azur_jamshid: "[azur_jamshid|E]가 세상을 떠나고 그의 이름이 지역 민담에 기억될지라도, 잔혹한 슈리 바다트의 유산은 여전히 남아 있습니다. 그의 궁전은 여전히 건재할 뿐만 아니라 개조되었고, 지역 주민들은 공포에 떨며 살고 있습니다. 따라서 #V 파미르#! 및 #V 라다크#! [공작령|E]의 [통치자|E]들은 평상시처럼 #V 툼슐링 축제 후원#! [결정|E]에 접근할 수 없습니다." # 13985361346016144367
+  pamir.0115.tooltip.evil_azur_jamshid: "[azur_jamshid|E]는 죽었지만, 그는 잔혹한 바다트의 유산을 이어감으로써 자신이 처음 구원했던 사람들을 배신했습니다. 그는 스스로 폭군이 되어 이전 폭군의 궁궐을 개축했으며, 그의 악행은 여러 세대에 걸쳐 부정적으로 기억될 것입니다. 따라서 #V 파미르#! 와 #V 라다크#! [공작령|E]의 [rulers|E]는 일반적으로 접근할 수 있는 #V 툼슐링 축제 후원#! [decision|E]에 접근할 수 없게 됩니다." # 8764174396544706490
+  pamir.0115.tooltip.evil_not_azur_jamshid: "[azur_jamshid|E]가 세상을 떠나고 그의 이름이 지역 민담에 기억될지라도, 잔혹한 슈리 바다트의 유산은 여전히 남아 있습니다. 그의 궁전은 여전히 건재할 뿐만 아니라 개조되었고, 지역 주민들은 공포에 떨며 살고 있습니다. 따라서 #V 파미르#! 및 #V 라다크#! [공작령|E]의 [rulers|E]들은 평상시처럼 #V 툼슐링 축제 후원#! [decision|E]에 접근할 수 없습니다." # 13985361346016144367
   pamir.0115.desc.evil_azur_jamshid: "요정 왕자이자 [gilgit_county.GetNameNoTier]의 구원자인 [azur_jamshid.GetTitledFirstName]은 더 이상 없습니다. 오래전, 그는 [gilgit_county.GetNameNoTier]의 백성을 이끌어 식인 폭군 왕 [shri_badat.GetTitledFirstName]을 타도하고 살해하여 더 나은 밝은 미래를 맞이했습니다. 하지만 그는 마음속 어둠을 받아들여 자신이 물리친 자를 모방하기 시작했고, 두려움과 증오의 대상이 되는 억압자로 변모했습니다. 무엇이 그를 이 어두운 길로 이끌었는지 누가 알겠습니까?\n\n이제 그의 죽음으로 [gilgit_county.GetNameNoTier]의 백성은 아마 안식을 얻을 것입니다. 아닐 수도 있겠지만요. 어쨌든 그는 이 지역의 민간 전승에서 좋게 기억되지는 않을 것입니다." # 2908100597095183478
   pamir.0115.desc.evil_not_azur_jamshid: "요정 왕자이자 [gilgit_county.GetNameNoTier]의 구원자인 [azur_jamshid.GetTitledFirstName]님께서 최근 세상을 떠나셨습니다. 수년 전, 그분께서는 [gilgit_county.GetNameNoTier]의 백성들을 이끌고 식인 폭군 왕 [shri_badat.GetTitledFirstName]을 타도하고 살해하여 더 나은 밝은 미래로 나아갔습니다. 불행히도, [azur_jamshid.GetFirstName]님께서 땅을 치유하는 임무를 완수하기도 전에 새로운 폭군이 등장하여 [shri_badat.GetTitledFirstName]님의 끔찍한 유산을 이어갔습니다. [azur_jamshid.GetTitledFirstName]님은 좋은 분으로 기억될 수 있지만, 그분은 지역 주민들의 기억 속에서 희미해질 것입니다." # 16866683404118721997
   pamir.0116.t: "xxxxx" # 1951045980481827005

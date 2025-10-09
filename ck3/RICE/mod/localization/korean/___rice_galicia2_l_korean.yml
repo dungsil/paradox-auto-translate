@@ -8,7 +8,7 @@
   RICE_every_varangian_trade_region_county: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 내에서 소유한 모든 [county|E]" # 14115739453221729389
   RICE_cochineal_industry_effect_desc_01: "#bold $RICE_galicia2_support_cochineal_industry$#! [decision|E]을(를) 선택하면, 기본 [county_modifier|E] 대신 이 [county|E]는 개선된 [GetModifier('RICE_galicia2_cochineal_modifier_2').GetNameWithTooltip] [modifier|E]를 얻습니다." # 2622000491923450217
   RICE_cochineal_industry_effect_desc_02: "#bold $RICE_galicia2_support_cochineal_industry$#! [decision|E]을(를) 선택하면, 기본 [county_modifier|E] 대신 이 [county|E]는 개선된 [GetModifier('RICE_galicia2_cochineal_modifier_3').GetNameWithTooltip] [modifier|E]를 얻게 됩니다." # 17802000602820369782
-  RICE_cochineal_industry_effect_desc_03: "[결단|E] #bold $RICE_galicia2_support_cochineal_industry$#을(를) 택할 때, 기본 [county_modifier|E] 대신, 이 [county|E]는 개선된 [GetModifier('RICE_galicia2_cochineal_modifier_4').GetNameWithTooltip] [modifier|E]를 얻습니다." # 2968788052371230810
+  RICE_cochineal_industry_effect_desc_03: "[decision|E] #bold $RICE_galicia2_support_cochineal_industry$#을(를) 택할 때, 기본 [county_modifier|E] 대신, 이 [county|E]는 개선된 [GetModifier('RICE_galicia2_cochineal_modifier_4').GetNameWithTooltip] [modifier|E]를 얻습니다." # 2968788052371230810
   ghw_region_russia: "루스" # 15889526489462176874
   dynn_kormylchych: "코르밀치치" # 4346332179965011183
   Yavolod: "야볼로드" # 11729683422545391493
@@ -56,7 +56,7 @@
   RICE_galicia2_aspiration_oleg_desc: "\n\n#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$[completely_control|E]하고 [independent|E] [ruler|E]로서 [GetTitleByKey('d_halych').GetNameNoTier]의 [title|E]를 소유하십시오\n$EFFECT_LIST_BULLET$블라디미르 야로슬라비치(당신의 이복형)가 사망했습니다\n$EFFECT_LIST_BULLET$모든 직속 [vassal|E]이 당신에게 [intimidated|E] 또는 [cowed|E]되었거나, 당신에 대해 최소 #P 25#! [opinion|E]을 가지고 있습니다\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$@legitimacy_icon! #V [EmptyScope.ScriptValue('medium_legitimacy_gain')]#! [legitimacy|E]를 획득합니다\n$EFFECT_LIST_BULLET$@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! [prestige|E]를 획득합니다\n$EFFECT_LIST_BULLET$[intrigue_lifestyle|E] [perk|E]를 획득합니다\n$EFFECT_LIST_BULLET$[GetModifier('RICE_galicia2_oleg_negative_modifier').GetNameWithTooltip] [modifier|E]를 잃고 대신 #P 유익한#! 버전의 효과를 획득합니다\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$[piety_level|E]이 [GetModifier( 'piety_level_3' ).GetNameWithTooltip|L] 이상이어야 합니다 (보상: [diplomacy_lifestyle|E] [perk|E]를 획득합니다)\n$EFFECT_LIST_BULLET$[legitimacy_i|E] [legitimacy_level|E]이 5여야 합니다 (보상: 일부 [men_at_arms|E]를 포함하여 #V 1000#! [special_troops|E]를 받습니다)" # 10412600993099697353
   RICE_galicia2_historical_aspiration_action_oleg: "#italic 비록 부친께서 바라시는 대로 [GetTitleByKey('d_halych').GetNameNoTier]를 상속받게 되더라도, 심지어 그대 어머니를 잔인하게 살해하기까지 했던 권력에 굶주린 갈리치 보야르들을 억제하기 위해 전력을 다해야 할 것입니다.#!$RICE_galicia2_aspiration_oleg_desc$" # 10290676873608395477
   RICE_galicia2_historical_aspiration_modifier_desc_oleg: "[GetModifier('RICE_galicia2_aspiration_secure_rule_against_galician_boyars').GetNameWithTooltip]" # 1800146312352804861
-  RICE_galicia2_aspiration_unify_galicia_and_volhynia: "[야망|E]: $d_halych$와 $d_volhynia$ 통일" # 13059840594584702645
+  RICE_galicia2_aspiration_unify_galicia_and_volhynia: "[aspiration|E]: $d_halych$와 $d_volhynia$ 통일" # 13059840594584702645
   RICE_galicia2_aspiration_unify_galicia_and_volhynia_desc: "#italic 류리크 가문이 서로 다투는 동안, 이는 로만에게 동유럽에 새로운 권력 중심지를 세우고 루스의 정신적 어머니, [GetTitleByKey('e_byzantium').GetNameNoTier]의 존경을 얻을 기회입니다.#!$RICE_galicia2_aspiration_roman_desc$\n\n" # 9113500218161753864
   RICE_galicia2_aspiration_secure_rule_against_galician_boyars: "[aspiration|E]: 갈리시아 보야르로부터 통치 강화" # 4872225182675648767
   RICE_galicia2_aspiration_secure_rule_against_galician_boyars_desc: "#italic 올레그의 아버지가 바라듯 올레그가 [GetTitleByKey('d_halych').GetNameNoTier]를 계승한다 할지라도, 그는 권력욕에 눈이 멀어 감히 올레그의 어머니를 잔혹하게 살해했던 갈리시아 보야르들을 통제하기 위해 모든 힘을 쏟아야 할 것입니다.#!$RICE_galicia2_aspiration_oleg_desc$\n\n" # 13546810679708667222
@@ -69,7 +69,7 @@
   activity_RICE_galicia2_kupala_night_guest_desc: "$activity_RICE_galicia2_kupala_night_host_desc$" # 17885420860471173808
   activity_RICE_galicia2_kupala_night_destination_selection: "$activity_RICE_galicia2_kupala_night_province_desc$" # 12253416054099677223
   activity_RICE_galicia2_kupala_night_guest_help_text: "$activity_RICE_galicia2_kupala_night$" # 5294242308949805842
-  activity_RICE_galicia2_kupala_night_predicted_cost: "본 [활동|E]의 비용은 주로 [수입|E]에 기반합니다." # 10498845032472754788
+  activity_RICE_galicia2_kupala_night_predicted_cost: "본 [activity|E]의 비용은 주로 [income|E]에 기반합니다." # 10498845032472754788
   activity_RICE_galicia2_kupala_night_conclusion_desc: "[GetActivityType( 'activity_RICE_galicia2_kupala_night' ).GetName]이 막을 내렸고, 여름이 시작되었습니다!" # 13768435334231853894
   RICE_galicia2_kupala_night_celebration_phase: "축하" # 8745396489141951886
   RICE_galicia2_kupala_night_celebration_phase_desc: "하지가 왔습니다!" # 14602279756925638466
@@ -210,12 +210,12 @@
   RICE_portage_encourage_settlement_effect_tooltip_1: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역 내 귀하가 소유한 [counties|E]가 아주 낮은 확률로 귀하의 [culture|E]와 [faith|E]로 개종할 가능성이 있습니다." # 16205933678570627470
   RICE_rus_culture_decision: "$russian$ 문화를 확립합니다." # 15291863667332980399
   RICE_rus_culture_decision_tooltip: "동유럽에 새로운 민족이 등장하고 있습니다!" # 15270436977826874039
-  RICE_rus_culture_decision_desc: "시간이 흐르며 동유럽의 강변 지역에서는 많은 [문화|E]가 서로 혼합되고 영향을 주고받았습니다. 아마도 이러한 다툼을 벌이는 부족들이 하나로 통합된다면 무역로를 장악하고 존경받는 강력한 세력이 될 수 있을 것입니다...." # 16992516671848384376
+  RICE_rus_culture_decision_desc: "시간이 흐르며 동유럽의 강변 지역에서는 많은 [culture|E]가 서로 혼합되고 영향을 주고받았습니다. 아마도 이러한 다툼을 벌이는 부족들이 하나로 통합된다면 무역로를 장악하고 존경받는 강력한 세력이 될 수 있을 것입니다...." # 16992516671848384376
   RICE_rus_culture_decision_effect_tooltip_1: "[rus_culture.GetName] [culture|E]는 귀하의 [capital|E] [capital_culture.GetName]의 [culture|E] 유산, 즉 현재 [capital_culture.GetHeritage.GetName]을 계승하게 됩니다." # 10340386913597287573
   RICE_rus_culture_decision_effect_tooltip_2: "[rus_culture.GetCollectiveNoun]의 주요 [language|E]가 기존의 [rus_culture.GetLanguage.GetName] 교역어가 될지, 아니면 귀하의 모국어이거나, 귀하의 [capital|E]의 [culture|E] 언어 (다를 경우)가 될지 결정하십니다." # 15182730422633529189
   RICE_rus_culture_decision_effect_tooltip_3: "[rus_culture.GetName] [culture|E]는 하나 또는 두 개의 무작위 유효 [traditions|E]를 얻게 됩니다." # 10933807318414417959
   RICE_rus_culture_decision_effect_tooltip_4: "귀하의 여러 [counties|E]가 무작위로 [rus_culture.GetName] [culture|E]로 개종할 것입니다." # 4879319114456282734
-  RICE_rus_culture_decision_effect_tooltip_5: "루스 [지역|E]의 [군주|E]와 [군현|E], 특히 귀하의 [봉신|E]들과 주요 강과 도시에 위치한 자들은 [루스_문화.이름] [문화|E]로 개종할 가능성이 있습니다." # 6253687001167566810
+  RICE_rus_culture_decision_effect_tooltip_5: "루스 [region|E]의 [rulers|E]와 [counties|E], 특히 귀하의 [vassal|E]들과 주요 강과 도시에 위치한 자들은 [루스_문화.이름] [culture|E]로 개종할 가능성이 있습니다." # 6253687001167566810
   RICE_rus_culture_decision_confirm: "$russian_collective_noun$이 이 땅을 지배할 것입니다!" # 11988073879850412878
   RICE_rus_culture_decision_context_tooltip: "#emphasis 역사적 배경:#! 루스인의 민족 형성 과정은 아직 논쟁 중이지만, 스칸디나비아의 영향을 받은 초기 루스인들은 슬라브족뿐만 아니라 핀란드인과 발트족 같은 다른 민족들도 지배했던 것으로 여겨집니다. 장기적으로, 루스인 왕자들의 통치 아래 통합되면서 이들 민족은 결국 동슬라브족으로 동화되었습니다. 루스인들은 결국 현대 러시아인, 우크라이나인, 벨로루시인의 조상이 될 것입니다." # 9674737940835228596
   select_personal_deity_slavic_decision: "슬라브 신에게 우상을 세우다" # 6173630848622827556

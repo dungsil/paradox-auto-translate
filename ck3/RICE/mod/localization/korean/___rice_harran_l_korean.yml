@@ -40,7 +40,7 @@
   trait_track_RICE_the_nabataean_religion_desc: "의례와 이해를 통해 우리는 천상에 가까워진다." # 17863859347773747609
   trait_track_RICE_the_nabataean_lore: "민속 지식" # 5251333111108796901
   trait_track_RICE_the_nabataean_lore_desc: "세대를 거쳐 전해 내려온 이야기들은 계속해서 우리에게 영감을 줍니다." # 966769446721741908
-  RICE_the_nabataean_progress_towards_trait_0_tt: "[THIS.Char.GetShortUINameNoFormat|U]은(는) [GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] [특성|E]을(를) 획득할 수 있습니다." # 17186220763749171168
+  RICE_the_nabataean_progress_towards_trait_0_tt: "[THIS.Char.GetShortUINameNoFormat|U]은(는) [GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E]을(를) 획득할 수 있습니다." # 17186220763749171168
   RICE_the_nabataean_progress_towards_trait_1_tt: "[THIS.Char.GetShortUINamePossessive] [GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E] 경험치 획득량이 약간 증가합니다" # 3306566068029583883
   RICE_the_nabataean_progress_towards_trait_2_tt: "[THIS.Char.GetShortUINamePossessive] [GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E] 경험치 획득량 증가" # 9105142977742006610
   RICE_the_nabataean_progress_towards_trait_3_tt: "[THIS.Char.GetShortUINamePossessive] [GetTrait('RICE_the_nabataean').GetName( GetNullCharacter )] [trait|E] XP 획득량이 크게 증가합니다" # 17775039645606232922
@@ -200,19 +200,19 @@
   RICE_harran_pray_to_a_planet_context_tooltip: "#emphasis 역사적 배경:#! 천체, 특히 칠요(일곱 고전 행성)에 대한 숭배는 레반트와 메소포타미아에서 흔했습니다. 예를 들어, 초기 중세 시대의 무슬림들은 이러한 이유로 하란의 이교도들이 하늘에 대한 위대한 통찰력을 지녔다고 여기곤 했습니다." # 8368074630159203048
   RICE_harran_patronize_the_neoplatonic_academy: "신플라톤 아카데미아 후원하기" # 4491782861976710097
   RICE_harran_patronize_the_neoplatonic_academy_tooltip: "하란에 위치한 [harran_neoplatonic_academy|E]에 필요한 자금을 제공할 것입니다." # 310794917409964396
-  RICE_harran_patronize_the_neoplatonic_academy_effect_tooltip: "[하란인|E]이 등장할 가능성을 높입니다." # 13487111265188252232
+  RICE_harran_patronize_the_neoplatonic_academy_effect_tooltip: "[harranian_characters|E]이 등장할 가능성을 높입니다." # 13487111265188252232
   RICE_harran_patronize_the_neoplatonic_academy_desc: "고대 헬라스 학문의 마지막 흔적으로서, 하란의 [harran_neoplatonic_academy|E]는 그 특이한 신앙과 가르침을 기꺼이 눈감아줄 관대한 통치자들로부터 지속적으로 투자를 필요로 합니다." # 5248758044525085436
   RICE_harran_patronize_the_neoplatonic_academy_confirm: "배움의 이름으로!" # 6055124724634910001
   RICE_harran_patronize_the_neoplatonic_academy_context_tooltip: "#emphasis 역사적 배경:#! 하란 아카데미는 아테네에 기반을 둔 신플라톤주의 아카데미로부터 지적으로 계승되었다고 알려져 있으며, 그 신플라톤주의 아카데미 또한 플라톤이 세운 원래 아카데미로부터의 지적 계승을 주장했습니다. 사실이든 아니든, 하란의 지식인들은 아바스 왕조 궁정에서 과학자, 점성술사, 의사 등으로 중요한 역할을 수행했습니다. 역사적으로 볼 때, 남은 하란 이교도들이 이슬람과 같은 다른 종교로 개종하면서 11세기경에 쇠퇴하여 사라진 것으로 보입니다." # 7945074847640882481
   RICE_harran_revitalize_the_neoplatonic_academy: "신플라톤주의 아카데미아를 재건" # 3628327527825761978
   RICE_harran_revitalize_the_neoplatonic_academy_tooltip: "하란의 [harran_neoplatonic_academy|E]가 잊혀지지 않도록 하겠습니다." # 6952797515325407139
-  RICE_harran_revitalize_the_neoplatonic_academy_effect_tooltip: "[하란 신플라톤 학원|E]가 후세에 걸쳐 학문의 중심지로서 쇠퇴하지 않도록 하십시오." # 478047627480699736
+  RICE_harran_revitalize_the_neoplatonic_academy_effect_tooltip: "[harran_neoplatonic_academy|E]가 후세에 걸쳐 학문의 중심지로서 쇠퇴하지 않도록 하십시오." # 478047627480699736
   RICE_harran_revitalize_the_neoplatonic_academy_desc: "수백 년 동안 [harran_neoplatonic_academy|E]는 되돌릴 수 없는 쇠퇴의 위기에 놓여 있었습니다.  현재까지는 버텨왔지만, 우리는 기다릴 수 없습니다.  고대 철학자들의 정통한 계승자로서 학교의 본래 자리를 되찾기 위해 즉각적인 조치를 취해야 합니다!" # 8083111797336110897
   RICE_harran_revitalize_the_neoplatonic_academy_confirm: "세상은 어둠에 잠기지 않을 것입니다." # 3247995522491195149
   RICE_harran_revitalize_the_neoplatonic_academy_context_tooltip: "#emphasis 역사적 배경:#! 하란 아카데미는 아테네에 기반을 둔 신플라톤주의 아카데미로부터 지적으로 계승되었다고 알려져 있으며, 그 신플라톤주의 아카데미 또한 플라톤이 세운 원래 아카데미로부터의 지적 계승을 주장했습니다. 사실이든 아니든, 하란의 지식인들은 아바스 왕조 궁정에서 과학자, 점성술사, 의사 등으로 중요한 역할을 수행했습니다. 역사적으로 볼 때, 남은 하란 이교도들이 이슬람과 같은 다른 종교로 개종하면서 11세기경에 쇠퇴하여 사라진 것으로 보입니다." # 7945074847640882481
   RICE_harran_make_offerings_moon_temple: "하란 달 신전에 제물을 바치십시오" # 4265711930659548189
   RICE_harran_make_offerings_moon_temple_tooltip: "하란의 [harran_temple_of_the_moon|E]에서 기도하십시오." # 14328613078868631467
-  RICE_harran_make_offerings_moon_temple_effect_tooltip: "[하란 달의 사원|E]에서 기도하면서 [명성|E] 또는 [신앙|E] 중 하나를 얻게 되실 것입니다." # 6384637862319027853
+  RICE_harran_make_offerings_moon_temple_effect_tooltip: "[harran_temple_of_the_moon|E]에서 기도하면서 [prestige|E] 또는 [faith|E] 중 하나를 얻게 되실 것입니다." # 6384637862319027853
   RICE_harran_make_offerings_moon_temple_desc: "로마 제국 시대 이전부터 하란에 자리 잡은 달신 신에게 바치는 사당은, 예상 밖으로도 여전히 존재합니다.  저는 신에게 경의를 표하며 사당에 예물을 바칠 때가 되었습니다." # 9269343034333028853
   RICE_harran_make_offerings_moon_temple_confirm: "선물을 준비하십시오!" # 11056134074796302570
   RICE_harran_make_offerings_moon_temple_context_tooltip: "#bold 메소포타미아 달신 신(Sin)의 숭배는 수메르 시대부터 시작되었으며, 초기 중세 시대에는 하란에서도 확인되었습니다. 하란의 신전, 즐거움의 집(E-hul-hul)은 11세기 중반 어느 시점에 적대적인 이슬람 지도자들에 의해 파괴되었습니다." # 1753139430613556072
@@ -245,15 +245,15 @@
   RICE_harran_welcome_neoplatonists_to_harran: "하란의 신플라톤주의자 여러분, 환영합니다." # 6203092661594759589
   RICE_harran_welcome_neoplatonists_to_harran_tooltip: "이 학자들은 새로운 터전이 필요합니다." # 17064013911316600915
   RICE_harran_welcome_neoplatonists_to_harran_desc: "아테네의 [harran_neoplatonic_academy|E]는 여러 세대에 걸쳐 많은 이교 학자들의 보금자리였으나, 적대적인 현지 당국의 지원 부족으로 인해 고향을 떠나야 했습니다. 그 이후 떠돌아다니며 정착지를 찾고 있는 그들은 다양한 지식 분위기를 자랑하는 하란이 [harran_neoplatonic_academy|E]를 재건하기에 이상적인 장소라고 믿습니다." # 14336136717221141662
-  RICE_harran_welcome_neoplatonists_to_harran_effect_tooltip_1: "[하란인 궁정 인물|E] 한 분이 귀하의 [궁정|E]에 도착할 예정입니다." # 4200286084395372504
+  RICE_harran_welcome_neoplatonists_to_harran_effect_tooltip_1: "[harranian_courtier|E] 한 분이 귀하의 [court|E]에 도착할 예정입니다." # 4200286084395372504
   RICE_harran_welcome_neoplatonists_to_harran_effect_tooltip_2: "중동과 소아시아의 [rulers|E]는 이제 #Bold 신플라톤 학원 후원# 결정을 내릴 수 있습니다." # 6193365837836683206
-  RICE_harran_welcome_neoplatonists_to_harran_effect_tooltip_3: "[하란인_궁정|E]는 이제 중동 일부 지역에서 등장하기 시작할 것입니다." # 7302067656131589879
+  RICE_harran_welcome_neoplatonists_to_harran_effect_tooltip_3: "[harranian_courtiers|E]는 이제 중동 일부 지역에서 등장하기 시작할 것입니다." # 7302067656131589879
   RICE_harran_welcome_neoplatonists_to_harran_confirm: "그들의 옛 지혜가 우리를 밝혀줄 것입니다!" # 12870154316193833208
   RICE_harran_welcome_neoplatonists_to_harran_context_tooltip: "$RICE_harran_stop_funding_the_neoplatonic_academy_context_tooltip$" # 1077264722346857696
   RICE_nabataean_ibn_wahshiyya_decision: "나바테아 농업" # 3586743506639571863
   RICE_nabataean_ibn_wahshiyya_decision_tooltip: "조상들의 지혜는 반드시 지켜져야 합니다!" # 2023738589747231647
   RICE_nabataean_ibn_wahshiyya_decision_desc: "수년간 고대 저술들을 번역하고, 지역 정보원들을 인터뷰하며, 저의 주석을 통해 고대 지혜의 조각들을 모았습니다. 이제 이러한 정보들을 종합하여 책으로 엮을 만큼 충분한 자료를 축적했습니다. 이 책은 대부분의 내용이 농업과 관련되어 있기 때문에 #italic 나바테아 농업#!이라는 제목을 붙일 것입니다." # 10467676323502886967
-  RICE_nabataean_ibn_wahshiyya_decision_effect_tooltip_1: "강력한 책 [유물|E], #V 나바테아 농업#! 을 얻으셨습니다." # 6195030070783368745
+  RICE_nabataean_ibn_wahshiyya_decision_effect_tooltip_1: "강력한 책 [artifact|E], #V 나바테아 농업#! 을 얻으셨습니다." # 6195030070783368745
   RICE_nabataean_ibn_wahshiyya_decision_confirm: "이 지혜는 후세에 전해져야 합니다!" # 3613198159682958189
   RICE_nabataean_ibn_wahshiyya_decision_context_tooltip: "#bold 역사적 배경:#! 이븐 와시야(서기 930년경 사망)는 이슬람 학자이자 농업가였으며, 그가 저술한 대표 저서 #이탤릭 The Nabataean Agriculture#!는 이라크의 나바테안들, 즉 남부 메소포타미아에 거주하던 아람어 사용 숭배자 집단(레반트의 유명한 나바테아 아랍인들과 혼동해서는 안 됨, 페트라를 건설한 그들과는 다름)에 대한 주요 자료입니다.  나바테안 자신이었던 그는 심지어 아람 민담에서 존경받는 아시리아 왕 센나케리브의 후손이라고 주장했습니다. 이 #이탤릭 The Nabataean Agriculture#!는 농업에 초점을 맞추었지만, 마법, 천문학, 종교 등의 주제도 다루고 있습니다.  이는 후대 학자들인 마이모니데스, 이븐 칼둔, 그리고 토마스 아퀴나스에게 높이 평가받고 참고된 저서였습니다." # 14966910865144475521
   RICE_harran_treatise_astronomy_name: "하란 천문표 논문" # 9392745759024171714
@@ -379,7 +379,7 @@
   harran.0025.t: "신플라톤주의의 종말" # 6355845479573745212
   harran.0025.desc: "[harran_county.GetNameNoTier]의 신플라톤 아카데미는 한때 찬란한 학문의 공동체였습니다. 고대 헬레니즘 문명의 마지막 흔적이었죠. 수 세기 동안 아카데미의 철학자와 신비주의자들은 그들의 유서 깊은 지식을 다음 세대에게 물려주었습니다.\n\n하지만 이제 더 이상 그렇지 않습니다.\n\n학교의 마지막 스승이 세상을 떠났고, 재정적, 도덕적 지원이 없으니 아카데미는 역사의 뒤안길로 사라질 것입니다. 한때 번성했던 지성의 공동체 자리에는 이제 낡은 필사본에 희미하게 남은 잉크와 멀어져가는 위대한 역사의 속삭임만 남았습니다." # 12029153296768982044
   harran.0025.a: "그러하니, 그리 되리라." # 12838095197249017475
-  RICE_harran_neoplatonic_academy_dead_tooltip: "중동 [궁정|E]에서는 더 이상 [하란인|E]이 출현하지 않습니다. 또한, 그 지역의 [통치자|E]는 더 이상 [하란 신플라톤주의 학원|E]를 후원하는 [결정|E]을 내릴 수 없습니다." # 3877683590331169821
+  RICE_harran_neoplatonic_academy_dead_tooltip: "중동 [court|E]에서는 더 이상 [harranian_characters|E]이 출현하지 않습니다. 또한, 그 지역의 [rulers|E]는 더 이상 [하란 신플라톤주의 학원|E]를 후원하는 [decision|E]을 내릴 수 없습니다." # 3877683590331169821
   harran.0026.t: "아테네의 신플라톤 아카데미 폐쇄" # 5550921528208623602
   harran.0026.desc: "수세기 동안 [athens_barony.GetNameNoTier]는 #bold 신플라톤 학원#에서 가르치는 학자들의 고향이었습니다. 그들은 고대의 플라톤 학원으로부터 지적 유산을 주장합니다. 종교적 차이에도 불구하고, 저 같은 통치자들은 그들을 참아주고 심지어 그들의 기관을 지원해 왔습니다. 그들이 우리 사회에 어떤 기여를 한다고 잘못 생각했기 때문입니다.\n\n하지만 시대는 변하고 있으며, 우리 국가 예산을 이 사람들과 그들의 학교에 너무 많이 낭비했습니다. 학자들이 저에게 그렇게 하지 말라고 애원했음에도 불구하고, 저는 학원의 지원을 중단하기로 결정했습니다. 이 신플라톤주의자들은 이것이 효과적으로 그들을 추방으로 내몰고 있으며, 그들에게는 집이 없을 것이라고 말합니다. 그에 대해 저는 한 가지 말씀드릴 수밖에 없습니다. 그것은 그들의 문제이며, 제 문제가 아닙니다." # 5744253571259254578
   harran.0026.a: "그들의 운명은 내게 별로 중요하지 않습니다." # 342144908544347240
@@ -392,7 +392,7 @@
   harran.0028.t: "신플라톤주의자들이 하란에 정착합니다." # 12048240979637895773
   harran.0028.desc: "고대 아테네의 존경받던 학문 기관이었던 신플라톤 학파는 유명한 이교 학자들로 가득 차 있었습니다. 그러나 종교적 관점이 달랐던 지역 당국은 결국 그들의 기관에 대한 지원을 중단하여, 더 관대한 통치자를 찾아 추방당하게 되었습니다. 그러나 마침내 그들에게 후원자가 나타났습니다.\n\n저는 이 학자들의 곤경과 그들이 얼마나 오랫동안 방랑했는지에 대해 들었습니다. 그들의 재능이 인정받지 못한 점에 대한 안타까움뿐 아니라, 기회가 찾아왔다는 기대감 또한 느꼈습니다. 이 학자들이 [harran_county.GetNameNoTier]에 피난처를 요청할 생각이라는 소식을 들었을 때, 저는 그들을 제 영토로 맞이해야 한다는 것을 알았습니다. [harran_county.GetNameNoTier]의 이교도 공동체도 이곳에 신플라톤 학파가 다시 세워지는 것을 기뻐하고 있습니다." # 2612212682084105306
   harran.0028.a: "신플라톤 학원에 새로운 날이 밝았습니다." # 14601730501432925515
-  harran.0028.tooltip: "[하란 신플라톤 아카데미|E]가 새로운 보금자리를 찾았습니다. 이제 중동과 소아시아의 [통치자|E]는 #Bold 신플라톤 아카데미를 후원#하는 [결정|E]을 내릴 수 있습니다. 또한, [하란 귀족|E]도 이 지역에 가끔 나타날 것입니다." # 13428483031815134506
+  harran.0028.tooltip: "[하란 신플라톤 아카데미|E]가 새로운 보금자리를 찾았습니다. 이제 중동과 소아시아의 [rulers|E]는 #Bold 신플라톤 아카데미를 후원#하는 [decision|E]을 내릴 수 있습니다. 또한, [하란 귀족|E]도 이 지역에 가끔 나타날 것입니다." # 13428483031815134506
   harran.0029.t: "신플라톤주의자들이 하란에 정착합니다." # 12048240979637895773
   harran.0029.desc: "신플라톤 학파 아카데미는 한때 아테네에서 존경받는 학문 기관이었으며, 저명한 이교 학자들로 가득했습니다. 그러나 종교적 견해가 달랐던 지역 당국은 결국 그들의 기관에 대한 지원을 중단하여, 더 관용적인 통치자를 찾아 추방당하게 했습니다. 마침내 그들은 그들의 후원자를 찾았습니다.\n\n[neoplatonic_academy_lover.GetTitledFirstName]는 오랫동안 방랑했던 이 학자들에게 동정을 베풀었고, 그들과 협약을 맺어 [harran_county.GetNameNoTier]에 정착할 수 있도록 허락했습니다. 도시의 이교도 공동체는 그들의 새로운 고향에 이 저명한 학자들을 환영하게 되어 기쁩니다. 분명히 이것은 신플라톤 전통의 역사에서 새로운 장을 여는 시작입니다." # 15250656346138092720
   harran.0029.a: "과연 그들은 이번에는 얼마나 버틸까?" # 14900069047187042793
@@ -566,7 +566,7 @@
   harran.0069.t: "선택" # 16861619159386104176
   harran.0069.desc: "제 할아버지께서 남겨주신 여러 문헌과 논평을 몇 주 동안 연구한 끝에, 저는 이제 제 내면의 갈등에 대해 더 잘 이해하게 되었습니다. 그것은 바로 그분께서 느끼셨던 것과 같은 갈등이었습니다. 저의 존경하는 조상님들께서는 학식 있는 [hilal_al_sabi.GetFaith.GetAdjective] 학자로서의 지위를 통해 큰 영향력을 얻으셨지만, 요즘에는 그 혈통에 대한 관심이 줄었습니다. 심지어 하란의 신플라톤 아카데미조차 더 이상 존재하지 않습니다.\n\n저는 이 문제에 대해 깊이 생각하고 가족과 제 결정을 논의했습니다. 이 결정에 따른 결과가 있을 수도 있다는 것을 알지만, 제 마음속 깊은 곳에서 저는...에 더 가까운 유대감을 느낀다고 결정했습니다." # 16106994678309808531
   harran.0069.a: "진정한 [ROOT.Char.GetFaith.GetAdjective] 신조는 내가 항상 믿어왔듯이 앞으로도 계속 믿을 것이다." # 2112018712677183914
-  harran.0069.a.tooltip: "하란의 옛 방식은 과거의 희미한 그림자일 뿐입니다. 당신은 당분간 [THIS.Char.GetFaith.GetAdjective] [신앙|E]의 신자로 남을 것입니다." # 7917328078069071565
+  harran.0069.a.tooltip: "하란의 옛 방식은 과거의 희미한 그림자일 뿐입니다. 당신은 당분간 [THIS.Char.GetFaith.GetAdjective] [faith|E]의 신자로 남을 것입니다." # 7917328078069071565
   harran.0069.b: "이제 제가 받아들일 제 조상들의 고대 [thabit_ibn_qurra.GetFaith.GetAdjective] 신앙입니다." # 9900628204915786818
   harran.0069.b.tooltip: "하란의 이교도는 소수이지만, 그들은 자부심을 가져야 하고, 견뎌내야 합니다! 이제 당신의 종교가 된 그들의 진정한 이교도 종교를 실행할 수 있도록 [thabit_ibn_qurra.GetFaith.GetAdjective] 영적, 철학적 텍스트에서 배울 수 있는 모든 것을 배우십시오." # 8312400293080642227
   harran.0070.t: "xxxxx" # 1951045980481827005

@@ -9,15 +9,15 @@
   RICE_sebuk_eri: "세뷱-에리" # 10835668387874607491
   innovation_RICE_qanats: "카나트" # 14584197756065103146
   innovation_RICE_qanats_desc: "중동 및 북아프리카의 상당수 지역에는 물이 가장 필요한 곳으로 물을 운반하기 위해 설계된 특별한 운하 및 지하 수로망이 존재합니다. 카나트, 포가라, 카리즈 등으로 알려진 이러한 공학적 위업들은 고대 페르시아 시절부터 존재해 왔습니다." # 4147758701718374840
-  RICE_yazd_qanat_decision_unlock: "#V $RICE_yazd_build_a_new_qanat$# [결단|E]을 내릴 수 있습니다!" # 11905758021565695661
+  RICE_yazd_qanat_decision_unlock: "#V $RICE_yazd_build_a_new_qanat$# [decision|E]을 내릴 수 있습니다!" # 11905758021565695661
   RICE_yazd_jays_al_sorat_spawn_event_troops: "자이쉬 알-쇼라트" # 15050046597769367144
   RICE_qanat_region: "카나트 기술을 사용하는 지역" # 18251485768142874718
-  RICE_every_persian_turkic_county: "[GetGeographicalRegion('world_middle_east_persia').GetName]에서 당신이 [완전히 통제|E]하고, 그 [culture|E]가 $heritage_turkic_name$ [heritage|E]에 속하는 모든 [county|E]" # 9007550279887565541
+  RICE_every_persian_turkic_county: "[GetGeographicalRegion('world_middle_east_persia').GetName]에서 당신이 [completely_control|E]하고, 그 [culture|E]가 $heritage_turkic_name$ [heritage|E]에 속하는 모든 [county|E]" # 9007550279887565541
   RICE_dynn_ibn_rusta: "이븐 루스타" # 10921440961957738694
   RICE_dynn_yaqubi: "야쿠비" # 9649382933819152185
   innovation_RICE_yakhchals: "야크찰스" # 6756799084603637524
   innovation_RICE_yakhchals_desc: "고대부터 이란고원의 사람들, 특히 더욱 건조한 기후에 사는 이들은 [Glossary( 'Yakhchals', 'YAKHCHAL_GLOSS' )]이라고 알려진 얼음 저장고를 활용해왔습니다. 이것들은 훌륭하게 설계되어 오랜 기간 얼음을 보관할 수 있으며, 음식을 보존하거나 셔벗이나 차게 식힌 포도주 같은 차가운 요리를 준비하는 데 사용됩니다." # 8276994795557392612
-  RICE_yakhchals_decision_unlock: "이 [문화|E]의 [수도|E] 또는 [거주지|E]를 가진 [봉신|E]에게 $RICE_yazd_purchase_yakhchal_ice$ [결단|E]를 잠금 해제합니다." # 9920109462269865600
+  RICE_yakhchals_decision_unlock: "이 [culture|E]의 [capital|E] 또는 [domicile|E]를 가진 [vassal|E]에게 $RICE_yazd_purchase_yakhchal_ice$ [decision|E]를 잠금 해제합니다." # 9920109462269865600
   Auharmazd_dad: "아우하르마즈드-다드" # 11963447856903453203
   Mardan_Farrukh: "마르단-파루크" # 12906029776346573953
   dynn_RICE_auharmazd_dad: "아우하르마즈드-다디드" # 230728622914272522
@@ -40,7 +40,7 @@
   activity_RICE_yazd_sadeh_festival: "사데 제전" # 4709076429601606859
   activity_RICE_yazd_sadeh_festival_desc: "겨울의 추위가 대지를 휩쓸 때, 이란 세계의 전통적인 겨울 축제인 사데 축제의 시간입니다." # 14763159714409290736
   activity_RICE_yazd_sadeh_festival_selection_tooltip: "성대한 사데 축제를 [capital|E]에서 개최하십시오.\n\n$RICE_yazd_celebrate_sadeh_festival_context_tooltip$" # 12822938769232069502
-  activity_RICE_yazd_sadeh_festival_host_desc: "\n$BULLET_WITH_TAB$[prestige_i] [위신|E]\n$BULLET_WITH_TAB$[piety_i] [신앙|E]\n$BULLET_WITH_TAB$[스트레스|E] [stress_loss_i|E] 상실\n$BULLET_WITH_TAB$ [GetModifier('RICE_yazd_recently_celebrated_sadeh').GetNameWithTooltip] [인물 보너스|E]" # 11775482620567531522
+  activity_RICE_yazd_sadeh_festival_host_desc: "\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$[piety_i] [faith|E]\n$BULLET_WITH_TAB$[스트레스|E] [stress_loss_i|E] 상실\n$BULLET_WITH_TAB$ [GetModifier('RICE_yazd_recently_celebrated_sadeh').GetNameWithTooltip] [인물 보너스|E]" # 11775482620567531522
   activity_RICE_yazd_sadeh_festival_guest_desc: "$activity_RICE_yazd_sadeh_festival_host_desc$" # 6317762965555141879
   activity_RICE_yazd_sadeh_festival_destination_selection: "$activity_RICE_yazd_sadeh_festival_province_desc$" # 6551477378818383633
   activity_RICE_yazd_sadeh_festival_guest_help_text: "$activity_RICE_yazd_sadeh_festival$" # 3167421843418348131
@@ -177,7 +177,7 @@
   RICE_yazd_build_a_new_qanat_effect_tooltip_2: "이러한 보너스의 강도는 제공되는 자금의 양에 따라 달라집니다 #weak (최소 비용: @gold_icon! 50)#." # 1384822087583748801
   RICE_yazd_build_a_new_qanat_effect_tooltip_3: "이 보너스들의 효과는 얼마나 많은 자금을 지원하느냐에 따라 달라집니다 #weak (최소 비용: @gold_icon! 40)#!" # 6838958345241871670
   RICE_yazd_build_a_new_qanat_effect_tooltip_4: "당신이 [yazd_county.GetNameNoTier]를 통제하고 있고 그곳이 [GetModifier('RICE_yazd_city_of_windcatchers').GetNameWithTooltip] [county_modifier|E]를 보유하고 있기 때문에, 카나트 건설 비용이 감소합니다" # 5490652734503880065
-  RICE_yazd_build_a_new_qanat_effect_tooltip_5: "만약 당신의 [culture|E]가 #bold $tradition_fp3_irrigation_experts_name$#! [tradition|E]을 보유하고 있다면, 더 많은 [prestige_i|E] [위신|E]을 얻을 것이며 [county_modifier|E]는 10년 대신 #V 15#년 동안 지속될 것입니다" # 3453375138082237609
+  RICE_yazd_build_a_new_qanat_effect_tooltip_5: "만약 당신의 [culture|E]가 #bold $tradition_fp3_irrigation_experts_name$#! [tradition|E]을 보유하고 있다면, 더 많은 [prestige_i|E] [prestige|E]을 얻을 것이며 [county_modifier|E]는 10년 대신 #V 15#년 동안 지속될 것입니다" # 3453375138082237609
   RICE_yazd_build_a_new_qanat_confirm: "건설을 시작하라!" # 2995744644999409286
   RICE_yazd_build_a_new_qanat_context_tooltip: "#emphasis 역사적 배경:#! 이란 고원에서 기원하여 이후 중동, 북아프리카, 중앙아시아 전역으로 퍼져나간 지하 수로 시스템인 카나트는 북아프리카에서는 포가라, 중앙아시아에서는 카레즈, 오만에서는 팔라지 등 다양한 이름으로 불립니다. 수 세기 동안, 심지어 오늘날까지도 이 지역에서 식수, 관개, 냉방 등을 위한 물의 공급원으로 사용되었습니다. 규모는 소수의 농민들이 시작한 아주 작은 노력부터 지역 엘리트들이 자금을 지원한 거대한 공공 사업에 이르기까지 다양했습니다." # 960052308052840581
   RICE_yazd_decision_qanat_requirement: "[county_capital|E]는 중동, 페르시아, 북아프리카, 사하라, 타림, 이베리아, 또는 시칠리아 [region|E] 중 하나에 있습니다" # 666020190569291186
@@ -195,21 +195,21 @@
   RICE_yazd_enlist_jays_al_sorat_context_tooltip: "#emphasis 역사적 배경:#! 가장 광신적인 하와리지파 종파로서, 다른 하와리지파들조차 아즈라크파를 너무 극단적이라고 여겼습니다. 사파르 왕조의 설립자 야쿠브 이븐 알라이스는 이란에서 그들과 전쟁하여 명성과 권력을 얻었습니다. 하지만, 그는 몇몇 아즈라크파를 #italic 자이슈 알슈라트#!라는 특수 부대로 그의 군대에 평화롭게 통합하는 데 성공했습니다. 그럼에도 불구하고, 야쿠브와 그의 형제들은 엄격한 규율로 군대를 근면하게 관리했으며, 하와리지파 부대도 예외가 아니었습니다. 결국, 시간이 지나면서 이 지역의 급진적인 하와리지파 집단은 쇠퇴하였고, 더욱 온건한 신봉자들이 그 자리를 대신했으며, 이들마저도 점차 사라졌습니다." # 8769484000717478592
   RICE_yazd_decision_persia_req: "[county_capital|E]는 페르시아 [region|E]에 있습니다." # 1185844490172273122
   RICE_yazd_saffarid_founder_req: "야곱 사파리드 창시자 또는 그 형제들 중 누구인가?" # 5666726409123066766
-  RICE_yazd_enlist_county_req: "#V 아즈라키트#교를 따르는 [지역|E] 페르시아의 [county|E]를 소유하고 있습니다." # 14702693172022708201
+  RICE_yazd_enlist_county_req: "#V 아즈라키트#교를 따르는 [region|E] 페르시아의 [county|E]를 소유하고 있습니다." # 14702693172022708201
   RICE_yazd_construct_shrine_of_the_twelve_imams: "다아즈다흐 이맘을 건설하다" # 6264474426427897749
   RICE_yazd_construct_shrine_of_the_twelve_imams_tooltip: "야즈드는 시아파 묘를 세우기에 좋은 장소가 될 것입니다." # 1883583555081481740
   RICE_yazd_construct_shrine_of_the_twelve_imams_desc: "야즈드의 시아파 공동체가 도시에 무덤을 건립하자고 제안했습니다. 그것은 #italic 다바즈다 이맘#이라고 불리며, 십이 이맘의 신전으로, 예술과 건축의 최신 발명품을 활용하여 참으로 숭배와 영적 성찰에 걸맞은 장소가 될 것입니다." # 13678411062028332502
-  RICE_yazd_construct_shrine_of_the_twelve_imams_effect_tooltip: "#V 시아파# 신앙을 따르면 [신앙도|E]와 [명성|E] 보너스가 두 배로 증가합니다." # 8932323756361524722
+  RICE_yazd_construct_shrine_of_the_twelve_imams_effect_tooltip: "#V 시아파# 신앙을 따르면 [piety|E]와 [prestige|E] 보너스가 두 배로 증가합니다." # 8932323756361524722
   RICE_yazd_construct_shrine_of_the_twelve_imams_confirm: "묘를 건립하도록 명령합니다." # 14709863259042748274
   RICE_yazd_construct_shrine_of_the_twelve_imams_context_tooltip: "#bold 역사적 배경:# 이란 야즈드에 위치한 십이이맘의 신전(다바즈다 이맘)은 이슬람 역사상 가장 초기의 돔형 사각형 무덤 중 하나입니다. 1038년에 카쿠이드 왕조의 두 시아파 군사 지휘관의 명령으로 건설되었습니다. 삼엽형 스퀸치(후기 이란 중세 건축의 특징적인 요소)의 사용과 이전 유사 건축물에 비해 색상 및 칠한 석고의 활용이 더 많아졌다는 점과 같은 혁신적인 건축 특징을 가지고 있습니다." # 10336310180151725288
   RICE_yazd_purchase_yakhchal_ice: "지역 야치칼에서 얼음 구매하기" # 16520879916203524087
   RICE_yazd_purchase_yakhchal_ice_tooltip: "[GetGeographicalRegion('world_middle_east_persia').GetName] 사람들은 수백 년 동안 얼음을 보관하기 위해 [Glossary( 'Yakhchals', 'YAKHCHAL_GLOSS' )]를 사용해왔습니다." # 2581893017084378373
   RICE_yazd_purchase_yakhchal_ice_desc: "지역 [Glossary( 'Yakhchals', 'YAKHCHAL_GLOSS' )]에서 얼음을 보충해야 음식과 음료가 신선하게 유지될 것 같습니다. 그리고 셔벗도 먹어야 할 것 같군요!" # 2141285826916065551
-  RICE_yazd_purchase_yakhchal_ice_effect_tooltip_1: "이 [결정|E]의 효과는 [모험가|E]인지에 따라 다릅니다." # 6736769649403850391
+  RICE_yazd_purchase_yakhchal_ice_effect_tooltip_1: "이 [decision|E]의 효과는 [adventurers|E]인지에 따라 다릅니다." # 6736769649403850391
   RICE_yazd_purchase_yakhchal_ice_confirm: "현지 야흐찰을 방문하십시오." # 15247072110227763180
   RICE_yazd_purchase_yakhchal_ice_context_tooltip: "#bold 역사적 배경:#! [Glossary( 'Yakhchals', 'YAKHCHAL_GLOSS' )]는 수세기 동안 [GetGeographicalRegion('world_middle_east_persia').GetName]에서 얼음과 눈을 저장하는 데 사용되는 전통적인 건물입니다. 역사적으로 여행자와 현지 주민 모두 현지 야흐찰에서 얼음을 사서 음식과 음료(서붑과 냉각된 포도주 등)를 보존하거나 만들었습니다." # 2349856386233827296
-  RICE_yazd_decision_yakhchal_landless_req: "[주거지|E]는 [문화|E]가 $innovation_RICE_yakhchals$ [혁신|E]을 가진 [지역|E]에 있습니다." # 3731030825038698056
-  RICE_yazd_decision_yakhchal_landed_req: "[수도|E]는 그 [주|E]에 속해 있으며, 그 [문화|E]가 $innovation_RICE_yakhchals$ [혁신|E]을 가지고 있습니다." # 17026919117528449784
+  RICE_yazd_decision_yakhchal_landless_req: "[주거지|E]는 [culture|E]가 $innovation_RICE_yakhchals$ [innovation|E]을 가진 [region|E]에 있습니다." # 3731030825038698056
+  RICE_yazd_decision_yakhchal_landed_req: "[capital|E]는 그 [주|E]에 속해 있으며, 그 [culture|E]가 $innovation_RICE_yakhchals$ [innovation|E]을 가지고 있습니다." # 17026919117528449784
   yazd.0000.t: "xxxxx" # 1951045980481827005
   yazd.0000.desc: "xxxxx" # 1951045980481827005
   yazd.0000.a: "xxxxx" # 1951045980481827005
@@ -316,8 +316,8 @@
   yazd.0025.desc: "훌륭한 토론 끝에 – 때때로 격렬해졌지만 – #italic Xwedodah#! 문제를 심사하기 위해 소집한 의회는 이 문제에 대한 판결을 내렸습니다. #italic Xwedodah#!는 친척 간 결혼을 의미하는가, 아니면 사촌 간 결혼을 의미하는가?\n\n만장일치는 아니었지만, 참석자들의 많은 지지를 받았습니다. 이곳에서 일어난 일을 전 세계의 [ROOT.Char.GetFaith.GetAdjective] 공동체가 알리는 데는 시간이 걸리겠지만, 이것이 #italic Xwedodah#!에 대한 논쟁을 영원히 해결하고, 좋은 생각, 좋은 말, 좋은 행실을 장려하는 데 집중할 수 있기를 바랍니다.\n\n#Bold 따라서, 다음과 같이 선언합니다. [ROOT.Char.GetFaith.HighGodName]께서는 #italic Xwedodah#!를 다음과 같은 사이의 결혼으로 의도하셨습니다.#!" # 12910377516072483156
   yazd.0025.a: "사촌 여러분, [ROOT.Char.GetFaith.HighGodName소유격]의 의도가 수백 년 동안 오해받았습니다." # 14553427490468421847
   yazd.0025.b: "가까운 친척, [ROOT.Char.GetFaith.HighGodNamePossessive]께서는 그들이 인류를 이끄는 길이 되기를 바라십니다." # 2227763604332284798
-  RICE_yazd_change_xwedodah_warning_tooltip: "#X [xwedodah_resolver.GetFaith.GetNameNoTooltip]의 $doctrine_consanguinity_name$ [교리|E]를 결정하는 이 결정은 #bold 영구적#입니다! 되돌릴 수 없습니다!#!" # 16859445484536969098
-  RICE_yazd_keep_xwedodah_tooltip_1: "[GetFaithDoctrine('doctrine_consanguinity_unrestricted').GetBaseName]은 여전히 [xwedodah_resolver.GetFaith.GetName]의 $doctrine_consanguinity_name$ [교리|E]로 이어집니다." # 17317225167478999213
+  RICE_yazd_change_xwedodah_warning_tooltip: "#X [xwedodah_resolver.GetFaith.GetNameNoTooltip]의 $doctrine_consanguinity_name$ [doctrines|E]를 결정하는 이 결정은 #bold 영구적#입니다! 되돌릴 수 없습니다!#!" # 16859445484536969098
+  RICE_yazd_keep_xwedodah_tooltip_1: "[GetFaithDoctrine('doctrine_consanguinity_unrestricted').GetBaseName]은 여전히 [xwedodah_resolver.GetFaith.GetName]의 $doctrine_consanguinity_name$ [doctrines|E]로 이어집니다." # 17317225167478999213
   RICE_yazd_keep_xwedodah_tooltip_2: "[GetFaithDoctrine('tenet_divine_marriage').GetBaseName]은 여전히 [xwedodah_resolver.GetFaith.GetName]의 [core_tenet|E]로 남아 있습니다." # 10102610143928282729
   yazd.0026.t: "[xwedodah_resolver.GetFaith.GetAdjective] 웨도다의 판결" # 5761572789324658428
   yazd.0026.desc.intro: "최근 [xwedodah_resolver.GetTitledFirstName]은 학자들과 [xwedodah_resolver.Custom('DefaultPriestTitlePlural')]로 구성된 회의를 소집하여 현재의 #italic Xwedodah#!에 대한 [xwedodah_resolver.GetFaith.GetAdjective] 이해가 정확한지 논의했습니다. 그들이 논쟁한 핵심 질문은 그것이 혈연 관계의 혼인인지, 아니면 사촌 간의 혼인인지를 가리키는 것이었습니까. 다른 신앙을 가진 추종자들은 오랫동안 이러한 [xwedodah_resolver.GetFaith.GetAdherentNamePlural]의 행위를 비난해 왔으며, 이는 그들 자신의 공동체 내에서도 오랫동안 논란의 여지가 있었습니다. 어쨌든, 회의는 결국 판결에 이르렀습니다." # 17658187444694460145
@@ -325,7 +325,7 @@
   yazd.0026.desc.yes_incest: "여러 증거와 논리에 기반하여, 그들은 #italic Xwedodah#!이 부모와 자식, 또는 형제와 자매와 같은 혈족 간의 결혼을 가리킨다고 주장합니다. 따라서 현재의 관행은 [xwedodah_resolver.GetFaith.ReligiousText]에 기록된 가르침에 부합합니다." # 17217918955460539169
   yazd.0026.desc.conclusion: "이 명령은 반드시 구속력 있는 절대적인 것이 아니지만, 관련된 자들의 영향력 때문에 많은 [xwedodah_resolver.GetFaith.GetAdherentNamePlural]이 따를 가능성이 높습니다." # 10005561638123390015
   yazd.0026.a: "[xwedodah_resolver.GetFaith.GetAdjectiveNoTooltip] 공동체는 이에 대해 어떻게 생각할까요?" # 5049273722298660225
-  yazd.0026.tooltip: "$doctrine_consanguinity_name$ [교리|E]의 [xwedodah_resolver.GetFaith.GetName] 개정은 #bold 영구적#입니다. 되돌릴 수 없습니다." # 11188010638613276104
+  yazd.0026.tooltip: "$doctrine_consanguinity_name$ [doctrines|E]의 [xwedodah_resolver.GetFaith.GetName] 개정은 #bold 영구적#입니다. 되돌릴 수 없습니다." # 11188010638613276104
   yazd.0027.t: "다바즈다흐 이맘" # 10870213974451680806
   yazd.0027.desc.intro: "[yazd_county.GetNameNoTier]의 현지 시아파 공동체의 요청으로, 저는 몇몇 숙련된 장인과 건축가를 고용하여 돈을 모아 #italic 다바즈다 이맘# 또는 십이이맘의 신사당이라는 무덤을 건립했습니다.  도시에서 가장 큰 건물은 아니지만, 여전히 놀라운 건축물입니다. 내부에는 여러 개의 비문이 있는데, 대부분은 코란 구절을 인용하고 있습니다. 그러나 다음과 같은 글귀가 적힌 한 비문이 있습니다. #italic 이 신성한 돔을 건립하도록 명령하신 것은: 신성한 [ROOT.Char.GetTitledFirstNameNoTooltip]으로서 신의 만족을 위해 노력하고 그의 보상을 구하기 위해서입니다.#!" # 10462666906622755642
   yazd.0027.desc.shiite: "시아파 공동체 친구들을 도울 수 있는 기회를 갖게 되어 기쁩니다. [yazd_county.GetNameNoTier]와 세계 다른 곳에서 번영하려면 함께 노력해야 합니다." # 625506207961621850

@@ -44,7 +44,7 @@
   RICE_misc_venerate_ancestors_tooltip: "당신의 [close_family|E]와 함께 의식을 통해 조상에게 경의를 표하십시오" # 13693810721944067060
   RICE_misc_venerate_ancestors_desc.religion: "조상들에 대한 사랑과 존경을 보이고, 내 가문의 유대를 강화하고 싶소. 전통적인 [ROOT.Char.GetFaith.GetAdjective] 방식으로 긴 의식을 치러 그분들을 기리고 숭배해야 하겠소." # 8749218260745075034
   RICE_misc_venerate_ancestors_desc.culture: "저는 조상들께 저의 사랑과 존경을 표하고, 저희 가문을 결속하는 유대를 강화하고자 합니다. 전통적인 [ROOT.Char.GetCulture.GetName] 방식으로 길고 경건한 의식을 거행하여 조상들을 기리고 존경하는 바입니다." # 2428211496876393650
-  RICE_misc_venerate_ancestors_effect_tooltip_1: "[신앙도|E], [위신|E], 그리고 [왕조 위신|E]을 무작위로 얻습니다. (최대 #V [piety_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_bonus_value')]#!, #V [prestige_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_bonus_value')]#!, 그리고 #V [dynasty_prestige_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_dynasty_prestige_value')]#!)" # 11889307025086420060
+  RICE_misc_venerate_ancestors_effect_tooltip_1: "[piety|E], [prestige|E], 그리고 [왕조 위신|E]을 무작위로 얻습니다. (최대 #V [piety_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_bonus_value')]#!, #V [prestige_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_bonus_value')]#!, 그리고 #V [dynasty_prestige_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_dynasty_prestige_value')]#!)" # 11889307025086420060
   RICE_misc_venerate_ancestors_effect_tooltip_2: "획득할 수 있는 이러한 자원의 최대량은 귀하의 [dynasty_prestige_level|E], [virtues|E], 그리고 [sins|E]에 따라 결정됩니다." # 12175955703154247097
   RICE_misc_venerate_ancestors_effect_tooltip_3: "귀하의 [realm|E]에 있는 [family_members|E]는 의식에 참여할 것이며 소량의 [piety|E]와 [prestige|E]도 얻을 수 있습니다." # 3032305986671948367
   RICE_misc_venerate_ancestors_confirm: "조상님들을 기리자!" # 5115803437135761084

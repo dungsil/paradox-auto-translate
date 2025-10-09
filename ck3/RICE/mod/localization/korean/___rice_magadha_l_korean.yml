@@ -279,12 +279,12 @@
   RICE_magadha_convert_rajgir_hot_springs: "라지기르의 신성한 온천을 재건합니다." # 16320331947959965633
   RICE_magadha_convert_rajgir_hot_springs_tooltip: "[ROOT.Char.GetFaith.GetReligion.GetName]을 [hot_springs_of_rajgir_short|E]에서 더욱 적극적으로 지원해야 합니다." # 16825100074310511964
   RICE_magadha_convert_rajgir_hot_springs_desc: "라지기르의 온천은 수세기 동안 불교도, 힌두교도, 자이나교도들로부터 그 정화와 치유의 능력으로 경건하게 숭배받아왔습니다. 현재의 종교적 풍경은 그곳을 찾는 어떠한 [ROOT.Char.GetFaith.GetReligion.GetAdjective] 신도들의 영적 욕구를 더 잘 충족시킬 수 있도록 개선될 필요가 있습니다. 예를 들어, 그곳에 있는 기존의 이단 사당들을 [ROOT.Char.GetFaith.HighGodName]을 기리도록 개조하고, [ROOT.Char.Custom('DefaultPriestTitlePlural')]을 파견하여 이 작업을 감독하게 할 수 있습니다." # 5728309962326874448
-  RICE_magadha_convert_rajgir_hot_springs_effect_tooltip_1.buddhist: "불교 [통치자|E]들이 [결정|E]하여 [라즈기르 온천|E]로 향하면, 그때 [GetModifier('RICE_magadha_rajgir_bonus_buddhist').GetNameWithTooltip] [인물 수정자|E]를 받게 될 것입니다." # 15256844257958252500
+  RICE_magadha_convert_rajgir_hot_springs_effect_tooltip_1.buddhist: "불교 [rulers|E]들이 [decision|E]하여 [라즈기르 온천|E]로 향하면, 그때 [GetModifier('RICE_magadha_rajgir_bonus_buddhist').GetNameWithTooltip] [인물 수정자|E]를 받게 될 것입니다." # 15256844257958252500
   RICE_magadha_convert_rajgir_hot_springs_effect_tooltip_1.hindu: "힌두교 [rulers|E]가 [rajgir_hot_springs|E]로 향하는 것을 결정하면, 이제 그곳에 도착했을 때 [GetModifier('RICE_magadha_rajgir_bonus_hindu').GetNameWithTooltip] [character_modifier|E]를 받게 됩니다." # 9134511503417473839
-  RICE_magadha_convert_rajgir_hot_springs_effect_tooltip_1.jain: "자이나교 [통치자|E]가 [라지기르 온천|E]를 방문하기로 결정하면 이제 그곳에 가면 [GetModifier('RICE_magadha_rajgir_bonus_jain').GetNameWithTooltip] [인물 수정자|E]를 받게 됩니다." # 17858499241491152507
+  RICE_magadha_convert_rajgir_hot_springs_effect_tooltip_1.jain: "자이나교 [rulers|E]가 [라지기르 온천|E]를 방문하기로 결정하면 이제 그곳에 가면 [GetModifier('RICE_magadha_rajgir_bonus_jain').GetNameWithTooltip] [인물 수정자|E]를 받게 됩니다." # 17858499241491152507
   RICE_magadha_convert_rajgir_hot_springs_confirm: "[ROOT.Char.GetFaith.HighGodName]께!" # 7619469339449375949
   RICE_magadha_convert_rajgir_hot_springs_effect_tooltip_2.buddhist: "불교 [rulers|E]가 [hot_springs_of_rajgir|E]에 가기로 결정하면, 그곳에 가는 동안 [GetModifier('RICE_magadha_rajgir_bonus_buddhist').GetNameWithTooltip] [character_modifier|E]를 더 이상 받지 않습니다." # 1167075591108033785
-  RICE_magadha_convert_rajgir_hot_springs_effect_tooltip_2.hindu: "힌두교 [통치자들|E]이 [결정|E]하여 [라지기르 온천|E]로 향하는 자들은 그곳에 가는 동안 더 이상 [GetModifier('RICE_magadha_rajgir_bonus_hindu').GetNameWithTooltip] [인물_수정자|E]를 받지 못할 것입니다." # 8601639907604721186
+  RICE_magadha_convert_rajgir_hot_springs_effect_tooltip_2.hindu: "힌두교 [통치자들|E]이 [decision|E]하여 [라지기르 온천|E]로 향하는 자들은 그곳에 가는 동안 더 이상 [GetModifier('RICE_magadha_rajgir_bonus_hindu').GetNameWithTooltip] [인물_수정자|E]를 받지 못할 것입니다." # 8601639907604721186
   RICE_magadha_convert_rajgir_hot_springs_effect_tooltip_2.jain: "[rulers|E]의 좌정[decide|E]이 [hot_springs_of_rajgir|E]로 향하는 자이나교 [rulers|E]는 더 이상 [GetModifier('RICE_magadha_rajgir_bonus_jain').GetNameWithTooltip] [character_modifier|E]를 받지 못할 것입니다." # 4754261422033103896
   RICE_decision_magadha_convert_rajgir_req: "#P 라지르 온천#의 [county|E] #V 마가다#의 [종교|E]는 현재 당신의 [종교|E]와 다릅니다." # 3433462467730515929
   RICE_magadha_convert_rajgir_hot_springs_context_tooltip: "$RICE_magadha_visit_rajgir_hot_springs_context_tooltip$" # 10287203287000079771
@@ -329,7 +329,7 @@
   magadha.0010.c: "스투파" # 8776551387701354324
   magadha.0010.d: "탑" # 532075601524771159
   magadha.0010.tooltip.temple_1: "사찰은 지역 사회의 중심지가 되어 신앙의 중심이 될 수 있습니다." # 8728085632061300799
-  magadha.0010.tooltip.temple_2: "약 1~2년 후 사원이 완공되면 다른 지역에 비해 더 많은 [명성|E]을 얻게 되고 [신앙심|E]은 상대적으로 적을 것입니다." # 16974806729374372944
+  magadha.0010.tooltip.temple_2: "약 1~2년 후 사원이 완공되면 다른 지역에 비해 더 많은 [prestige|E]을 얻게 되고 [piety|E]은 상대적으로 적을 것입니다." # 16974806729374372944
   magadha.0010.tooltip.monastery_1: "수도원은 수도승들에게 법을 배우고 익힐 수 있는 곳을 제공합니다." # 11250112766008915754
   magadha.0010.tooltip.monastery_2: "수도원이 약 1~2년 후 완공되면, 다른 곳보다 더 많은 [piety|E]를 얻게 될 것입니다." # 10309194610309991031
   magadha.0010.tooltip.stupa_1: "스투파는 그 땅의 종교적 풍경을 향상시키고, 귀중한 유물을 보관할 수 있습니다." # 15961516865464543422

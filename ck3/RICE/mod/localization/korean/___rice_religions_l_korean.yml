@@ -19,7 +19,7 @@
   holy_site_ahaggar_name: "아하가르" # 9958212052017995680
   holy_site_ahaggar_effect_name: "[holy_site|E] #weak ($holy_site_ahaggar_name$)#에서!" # 923946326776713177
   holy_site_tanas_name: "타나스" # 7498720412637308185
-  holy_site_tanas_effect_name: "[성지|E]에서 #weak ($holy_site_tanas_name$)#!" # 4971740735358145302
+  holy_site_tanas_effect_name: "[holy_site|E]에서 #weak ($holy_site_tanas_name$)#!" # 4971740735358145302
   holy_site_beipi_name: "베이피" # 16057523438975022697
   holy_site_beipi_effect_name: "[holy_site|E] #weak ($holy_site_beipi_name$)#에서" # 4797108564900981791
   holy_site_bida_name: "비다" # 7173097998031104744
@@ -772,12 +772,12 @@
   minaro_pagan_old_desc: "$minaro_pagan_desc$" # 13572079910696209751
   game_concept_yazata: "야자타" # 7648753090942239054
   game_concept_yazatas: "야자타스" # 17174465067736259752
-  game_concept_yazatas_desc: "야자타는 $zoroastrianism_religion$에서 숭배 또는 경건의 대상이 되는 존재들입니다. 어떤 이들에게는 독립된 신이지만, 다른 이들에게는 최고 신의 발현이기도 합니다.\n\n$zoroastrianism_religion_adj$ [신앙|E]는 역사, 문화, 지리, 인접한 신앙 체계와의 접촉 등의 이유로 중요했던 야자타 집합을 나타내는 서로 다른 [교리|E]를 가질 수 있습니다.\n\n$rice_zoroastrian_no_yazatas_doctrine_name$ [교리|E]를 가진 [신앙|E]를 제외하고, 모든 $zoroastrianism_religion_adj$ [군주|E]는 $RICE_khwarezm_worship_yazata$라는 [결정|E]에 접근할 수 있습니다. 이 결정은 선택한 야자타에 따라 이점이 있는 일시적인 [캐릭터 수정 사항|E]를 제공합니다. 사용 가능한 야자타는 귀하의 야자타 [교리|E]에 따라 다릅니다.\n\n특정 야자타 [교리|E]는 심지어 [조로아스터교 사원|E]를 건설하는 [결정|E]에 접근할 수 있게 하며, 이는 야자타를 숭배하는 데 더 큰 이점을 제공합니다." # 1492534203989583675
+  game_concept_yazatas_desc: "야자타는 $zoroastrianism_religion$에서 숭배 또는 경건의 대상이 되는 존재들입니다. 어떤 이들에게는 독립된 신이지만, 다른 이들에게는 최고 신의 발현이기도 합니다.\n\n$zoroastrianism_religion_adj$ [faith|E]는 역사, 문화, 지리, 인접한 신앙 체계와의 접촉 등의 이유로 중요했던 야자타 집합을 나타내는 서로 다른 [doctrines|E]를 가질 수 있습니다.\n\n$rice_zoroastrian_no_yazatas_doctrine_name$ [doctrines|E]를 가진 [faith|E]를 제외하고, 모든 $zoroastrianism_religion_adj$ [rulers|E]는 $RICE_khwarezm_worship_yazata$라는 [decision|E]에 접근할 수 있습니다. 이 결정은 선택한 야자타에 따라 이점이 있는 일시적인 [캐릭터 수정 사항|E]를 제공합니다. 사용 가능한 야자타는 귀하의 야자타 [doctrines|E]에 따라 다릅니다.\n\n특정 야자타 [doctrines|E]는 심지어 [조로아스터교 사원|E]를 건설하는 [decision|E]에 접근할 수 있게 하며, 이는 야자타를 숭배하는 데 더 큰 이점을 제공합니다." # 1492534203989583675
   game_concept_zoroastrian_cult_centers_short: "종교 중심지" # 2142296599474036170
   game_concept_zoroastrian_cult_center_short: "컬트 중심지" # 1181497533773867265
   game_concept_zoroastrian_cult_centers: "현지 조로아스터교 숭배 중심지" # 3179233670209212884
   game_concept_zoroastrian_cult_center: "지역 조로아스터교 컬트 중심지" # 11434420457834273464
-  game_concept_zoroastrian_cult_center_desc: "몇몇 $zoroastrianism_religion_adj$ [신앙|E]은 적절한 [야자타|E] [교리|E]가 있다면 $RICE_khwarezm_establish_cult_center$ [결정|E]을 내릴 수 있습니다.\n\n특정 [야자타|E] 숭배가 두드러진 [county|E]는 숭배 중심지이며, 따라서 어떤 [야자타|E]를 위한 숭배 중심지를 세울지 선택하면 해당하는 [county_modifier|E]가 [수도|E]에 배치됩니다. 그 후, [야자타|E] 숭배 [결정|E]을 내리고 숭배 중심지를 소유한 (또는 [봉신|E]이나 그 아래 사람이 소유한) [야자타|E]를 선택하면 일반적으로 얻을 수 있는 [character_modifier|E]의 업그레이드 버전과 추가 [prestige|E] 및 [piety|E]를 얻을 수 있습니다. [공작령|E]당 #bold 하나#!의 숭배 중심지만 있을 수 있다는 점에 유의하세요.\n\n[신앙|E]에 숭배 중심지를 만들 수 있는 [교리|E]가 없거나 조로아스터교가 아닌 [신앙|E]을 따르는 경우, 대신 $RICE_khwarezm_destroy_cult_center$ [결정|E]을 내릴 수 있습니다. 이렇게 하면 [영토|E]의 모든 숭배 중심지 [county_modifiers|E]가 제거되지만 조로아스터교인 경우 숭배하지 않는 [야자타|E]에 속한 것만 영향을 미칩니다. 또한 억압한 숭배 중심지 수에 따라 [gold|E]와 [piety|E]를 얻게 됩니다." # 8925578933304228589
+  game_concept_zoroastrian_cult_center_desc: "몇몇 $zoroastrianism_religion_adj$ [faith|E]은 적절한 [yazata|E] [doctrines|E]가 있다면 $RICE_khwarezm_establish_cult_center$ [decision|E]을 내릴 수 있습니다.\n\n특정 [yazata|E] 숭배가 두드러진 [county|E]는 숭배 중심지이며, 따라서 어떤 [yazata|E]를 위한 숭배 중심지를 세울지 선택하면 해당하는 [county_modifier|E]가 [capital|E]에 배치됩니다. 그 후, [yazata|E] 숭배 [decision|E]을 내리고 숭배 중심지를 소유한 (또는 [vassal|E]이나 그 아래 사람이 소유한) [yazata|E]를 선택하면 일반적으로 얻을 수 있는 [character_modifier|E]의 업그레이드 버전과 추가 [prestige|E] 및 [piety|E]를 얻을 수 있습니다. [공작령|E]당 #bold 하나#!의 숭배 중심지만 있을 수 있다는 점에 유의하세요.\n\n[faith|E]에 숭배 중심지를 만들 수 있는 [doctrines|E]가 없거나 조로아스터교가 아닌 [faith|E]을 따르는 경우, 대신 $RICE_khwarezm_destroy_cult_center$ [decision|E]을 내릴 수 있습니다. 이렇게 하면 [영토|E]의 모든 숭배 중심지 [county_modifiers|E]가 제거되지만 조로아스터교인 경우 숭배하지 않는 [yazata|E]에 속한 것만 영향을 미칩니다. 또한 억압한 숭배 중심지 수에 따라 [gold|E]와 [piety|E]를 얻게 됩니다." # 8925578933304228589
   rice_doctrine_buddhist_canon_name: "불교 경전" # 11551699356301682398
   rice_doctrine_buddhist_canon_desc: "어떤 가르침이 진정하고 부처의 말씀과 모순되지 않는지 아는 것이 중요합니다. 이러한 가르침은 모음집으로 편찬될 것이며, 그 핵심은 #italic 삼장#! (\"세 개의 바구니\"라는 뜻)입니다." # 2890920331301361679
   rice_mahayana_canon_doctrine_name: "대승 경전" # 16648909315852171496
@@ -802,11 +802,11 @@
   rice_pagodas_unlocked_active_name: "탑에 기부하는 능력" # 13858071787103075326
   doctrine_parameter_rice_pagodas_unlocked_active: "[decision|E]을 통해 #V 현지 불교 성지 건설#! 시 추가 비용을 들여 탑을 건설할 수 있습니다." # 8399826625854556245
   rice_theravada_canon_mahavihara_doctrine_name: "마하비하라의 탁월함" # 5358311790684045732
-  rice_theravada_canon_mahavihara_doctrine_desc: "#weak 이 [교리|E]는 [GetFaithDoctrine('rice_theravada_canon_doctrine').GetBaseName] [교리|E]를 가진 모든 불교 [신앙|E]에 의해 자동으로 계승됩니다!#!\n\n[mahavihara|E] 수도원은 [RICE_sri_lanka_s_sangha|E]에서 지배적인 종파로 부상했으며, 팔리어 경전을 따르는 불교도들 사이에서 주요 학파가 되었습니다." # 6752461961399988550
+  rice_theravada_canon_mahavihara_doctrine_desc: "#weak 이 [doctrines|E]는 [GetFaithDoctrine('rice_theravada_canon_doctrine').GetBaseName] [doctrines|E]를 가진 모든 불교 [faith|E]에 의해 자동으로 계승됩니다!#!\n\n[mahavihara|E] 수도원은 [RICE_sri_lanka_s_sangha|E]에서 지배적인 종파로 부상했으며, 팔리어 경전을 따르는 불교도들 사이에서 주요 학파가 되었습니다." # 6752461961399988550
   rice_theravada_canon_abhayagiri_doctrine_name: "아바야기리 탁월성" # 1721618460119131546
-  rice_theravada_canon_abhayagiri_doctrine_desc: "#weak 이 [교리|E]는 [GetFaithDoctrine('rice_theravada_canon_doctrine').GetBaseName] [교리|E]가 있는 모든 불교 [신앙|E]에 의해 자동으로 계승됩니다!#!\n\n[abhayagiri|E] 수도원은 [RICE_sri_lanka_s_sangha|E]에서 지배적인 종파로 부상했으며, 팔리어 경전을 따르는 불교도들 사이에서 주요 사상이 되었습니다." # 10592182699701469242
+  rice_theravada_canon_abhayagiri_doctrine_desc: "#weak 이 [doctrines|E]는 [GetFaithDoctrine('rice_theravada_canon_doctrine').GetBaseName] [doctrines|E]가 있는 모든 불교 [faith|E]에 의해 자동으로 계승됩니다!#!\n\n[abhayagiri|E] 수도원은 [RICE_sri_lanka_s_sangha|E]에서 지배적인 종파로 부상했으며, 팔리어 경전을 따르는 불교도들 사이에서 주요 사상이 되었습니다." # 10592182699701469242
   rice_theravada_canon_jetavana_doctrine_name: "제타바나 패권" # 5050853749050600424
-  rice_theravada_canon_jetavana_doctrine_desc: "#weak 이 [교리|E]는 [GetFaithDoctrine('rice_theravada_canon_doctrine').GetBaseName] [교리|E]가 있는 모든 불교 [신앙|E]에 의해 자동으로 상속됩니다!#!\n\n[jetavana|E] 수도원은 [RICE_sri_lanka_s_sangha|E]에서 가장 지배적인 종파로 부상했으며, 팔리어 경전을 따르는 불교도들 사이에서 주요 사상이 되었습니다." # 18407448444602976830
+  rice_theravada_canon_jetavana_doctrine_desc: "#weak 이 [doctrines|E]는 [GetFaithDoctrine('rice_theravada_canon_doctrine').GetBaseName] [doctrines|E]가 있는 모든 불교 [faith|E]에 의해 자동으로 상속됩니다!#!\n\n[jetavana|E] 수도원은 [RICE_sri_lanka_s_sangha|E]에서 가장 지배적인 종파로 부상했으며, 팔리어 경전을 따르는 불교도들 사이에서 주요 사상이 되었습니다." # 18407448444602976830
   rice_theravada_accumulation_doctrine_name: "공적 축적" # 202119605752590495
   rice_theravada_accumulation_doctrine_desc: "[RICE_sri_lanka_struggle|E]의 경쟁 수도원들은 [struggle_phase_sri_lanka_accumulation|E] 동안 통합되었습니다. 이 시기는 종교 기관이 엘리트 후원 하에 번성하고 서로의 차이점을 해결하기 위해 함께 모일 수 있었던 시대였습니다. 그 시대의 정신적 시대정신은 이후 이 불교 분파에 큰 영향을 미쳤습니다." # 17555803398392512728
   rice_theravada_purification_doctrine_name: "대정화" # 15037200170851815263
@@ -858,7 +858,7 @@
   special_doctrine_rice_doctrine_late_manicheism_abandon_name: "숨겨진 빛" # 10976552597861732705
   rice_doctrine_late_manicheism_abandon_name: "$special_doctrine_rice_doctrine_late_manicheism_abandon_name$" # 16921225050864762962
   special_doctrine_rice_doctrine_late_manicheism_abandon_desc: "빛의 종교는 최근 많은 고난을 겪었으며, 일부 지역에서는 그 신봉자들이 잠행하거나 농민 봉기에 가담했습니다. 어둠의 세력이 강성해지는 동안에도, 마니의 추종자들, 그리고 빛은 결국 승리할 것입니다!" # 974638859387549171
-  doctrine_parameter_rice_unlock_manichean_mechanics_cost_more_gold: "[결단|E]인 원고 의뢰와 $RICE_manichean_confession_decision$ 및 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [활동|E] 비용이 더 많이 듭니다." # 7090761857470360907
+  doctrine_parameter_rice_unlock_manichean_mechanics_cost_more_gold: "[decision|E]인 원고 의뢰와 $RICE_manichean_confession_decision$ 및 [GetActivityType( 'activity_RICE_manichean_bema_festival' ).GetName] [activity|E] 비용이 더 많이 듭니다." # 7090761857470360907
   doctrine_parameter_rice_unlock_manichean_manuscripts_lower_learning_req: "[decision|E] '#bold 원고 제작 의뢰#'를 선택하면, 직접 원고를 작성하기 위한 [learning|E] 요구 능력치가 [learning_i|E] #V 12#!에서 [learning_i|E] #V 8#!로 감소합니다." # 10471982397505537420
   special_doctrine_rice_doctrine_late_manicheism_support_name: "증폭된 빛" # 6002680316484289278
   rice_doctrine_late_manicheism_support_name: "$special_doctrine_rice_doctrine_late_manicheism_support_name$" # 9105069408550705483
@@ -884,10 +884,10 @@
   doctrine_parameter_rice_unlock_bactro_sogdian_yazatas: "다음 [yazatas|E] 숭배를 추가합니다: 시야바시, 바흐시, 웨슈파르카" # 18032999458816539134
   doctrine_parameter_rice_unlock_armenian_yazatas: "다음 [yazatas|E]를 숭배 대상으로 추가합니다: 아스트기크, 바르샤민, 토르크, 그리고 바하근 (바흐람을 대체합니다)" # 8525363740073415551
   doctrine_parameter_rice_unlock_georgian_yazatas: "다음 [yazatas|E]를 숭배 대상으로 추가합니다: 달리, 가임(스라오샤 대체), 가치(라슈누 대체), 코팔라, 자덴" # 964084300694881391
-  doctrine_parameter_rice_yazata_prestige_gain_automatic: "[yazatas|E] 숭배 [결정|E] 시 자동으로 [prestige|E] 획득" # 607373632558200294
+  doctrine_parameter_rice_yazata_prestige_gain_automatic: "[yazatas|E] 숭배 [decision|E] 시 자동으로 [prestige|E] 획득" # 607373632558200294
   doctrine_parameter_rice_yazata_pay_for_modifier_upgrade: "[yazatas|E]를 숭배하는 [decision|E]를 내릴 때 추가 [gold|E]을 지불하여 더 나은 버전의 [character_modifier|E]를 얻을 수 있습니다." # 4666611496338987663
   doctrine_parameter_rice_unlock_destroy_cult_centers: "본인의 [yazata|E] [doctrine|E]을 따르지 않는 \"[yazatas|E]\"의 [zoroastrian_cult_centers|E]을 억압하는 [decision|E]을 내릴 수 있습니다" # 1356691901221643439
-  doctrine_parameter_rice_unlock_yazata_cult_center: "[결정|E]을 내려 [capital|E]에 [조로아스터교_숭배_중심지|E]를 건설할 수 있습니다" # 17656037817039648810
+  doctrine_parameter_rice_unlock_yazata_cult_center: "[decision|E]을 내려 [capital|E]에 [조로아스터교_숭배_중심지|E]를 건설할 수 있습니다" # 17656037817039648810
   doctrine_parameter_rice_no_yazatas: "[yazatas|E] 숭배 [decision|E]을 비활성화합니다" # 6168425947719951578
   rice_doctrine_west_iranian_name: "중심 모티프" # 8038857415346250929
   rice_doctrine_west_iranian_desc: "종교적 헌신은 중요한 우주론적 인물에 집중되어야 합니다. 사람들은 그들의 본성, 그들과 관련된 전설, 심지어 정확한 정체성에 대해 다양한 생각을 가질 수 있지만, 그들을 숭배할 때 올바른 행동, 즉 정통 실행이 가장 중요합니다." # 7100465489164523200

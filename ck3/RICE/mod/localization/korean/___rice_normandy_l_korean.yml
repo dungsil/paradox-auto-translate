@@ -58,8 +58,8 @@
   RICE_NORMANDY_NORMAN_ADVENTURER_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # 2805572294562728776
   RICE_NORMAN_STATE_TITLE_NAME: "노르만 [target_duchy.GetNameNoTierNoTooltip]" # 8637594365521955637
   RICE_normandy_border_raid_cb_struggle_phase_cheaper: "[RICE_normandy_struggle|E]는 현재 [struggle_phase_normandy_confrontation|E] 단계입니다." # 17485780586960800291
-  RICE_normandy_duchy_conquest_cb: "$duchy_conquest_cb$ ([GetGeographicalRegion('RICE_normandy_region').GetName] [지역|E])" # 3507190577195923023
-  RICE_normandy_county_conquest_cb: "$county_conquest_cb$ ([GetGeographicalRegion('RICE_normandy_region').GetName] [지역|E])" # 15928785598761631749
+  RICE_normandy_duchy_conquest_cb: "$duchy_conquest_cb$ ([GetGeographicalRegion('RICE_normandy_region').GetName] [region|E])" # 3507190577195923023
+  RICE_normandy_county_conquest_cb: "$county_conquest_cb$ ([GetGeographicalRegion('RICE_normandy_region').GetName] [region|E])" # 15928785598761631749
   RICE_normandy_ducal_conquest_cb: "공작령 정복 명분 ([GetGeographicalRegion('RICE_normandy_region').GetName] [region|E])" # 6757307928692584986
   RICE_normandy_ireland_laudabiliter_conquest_cb: "$ireland_laudabiliter_conquest_cb$ ([GetGeographicalRegion('RICE_normandy_region').GetName] [region|E])" # 11913799992290398334
   RICE_NORMANDY_CONQUEST_COUNTY_CB_NAME: "$CONQUEST_COUNTY_CB_NAME$ ([GetGeographicalRegion('RICE_normandy_region').GetName] [region|E])" # 12438550015988173594
@@ -69,14 +69,14 @@
   RICE_normandy_invasion_war: "침략 ([GetGeographicalRegion('RICE_normandy_region').GetName] [region|E])" # 3926370975975761115
   RICE_normandy_clan_invasion_war: "씨족 침공 ([GetGeographicalRegion('RICE_normandy_region').GetName] [region|E])" # 11028886612023682166
   RICE_NORMANDY_CONQUEST_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] [TITLE.GetBaseName] 영토 정복 ([GetGeographicalRegion('RICE_normandy_region').GetName] [region|E])" # 14119235405486033670
-  RICE_NORMANDY_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName] ([GetGeographicalRegion('RICE_normandy_region').GetName] [지역|E])" # 1735779468784904399
+  RICE_NORMANDY_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName] ([GetGeographicalRegion('RICE_normandy_region').GetName] [region|E])" # 1735779468784904399
   RICE_NORMANDY_DUCAL_CONQUEST_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjectiveNoTooltip] 공작령 정복: [TITLE.GetBaseNameNoTooltip] ([GetGeographicalRegion('RICE_normandy_region').GetName] [region|E])" # 18170761028147678899
-  RICE_NORMANDY_DUCAL_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName] ([GetGeographicalRegion('RICE_normandy_region').GetName] [지역|E])" # 1735779468784904399
-  RICE_NORMANDY_LAUDABILITER_CONQUEST_WAR_NAME: "$ORDER$ 라우다빌리테르에 의한 [TITLE.GetBaseName]의 정복 ([GetGeographicalRegion('RICE_normandy_region').GetName] [지역|E])" # 9368096054708295009
-  RICE_NORMANDY_LAUDABILITER_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName] ([GetGeographicalRegion('RICE_normandy_region').GetName] [지역|E])" # 1735779468784904399
-  RICE_NORMANDY_INVASION_CB_NAME: "[왕국|E] 침공 ([GetGeographicalRegion('RICE_normandy_region').GetName] [지역|E])" # 4225135560539664754
+  RICE_NORMANDY_DUCAL_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName] ([GetGeographicalRegion('RICE_normandy_region').GetName] [region|E])" # 1735779468784904399
+  RICE_NORMANDY_LAUDABILITER_CONQUEST_WAR_NAME: "$ORDER$ 라우다빌리테르에 의한 [TITLE.GetBaseName]의 정복 ([GetGeographicalRegion('RICE_normandy_region').GetName] [region|E])" # 9368096054708295009
+  RICE_NORMANDY_LAUDABILITER_CONQUEST_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName] ([GetGeographicalRegion('RICE_normandy_region').GetName] [region|E])" # 1735779468784904399
+  RICE_NORMANDY_INVASION_CB_NAME: "[kingdom|E] 침공 ([GetGeographicalRegion('RICE_normandy_region').GetName] [region|E])" # 4225135560539664754
   RICE_NORMANDY_INVASION_WAR_NAME: "$ORDER$ [TITLE.GetBaseName]에 대한 [ATTACKER.GetPrimaryTitle.GetAdjective]의 침공 ([GetGeographicalRegion('RICE_normandy_region').GetName] [region|E])" # 12129241914082890954
-  RICE_NORMANDY_INVASION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName] ([GetGeographicalRegion('RICE_normandy_region').GetName] [지역|E])" # 1735779468784904399
+  RICE_NORMANDY_INVASION_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName] ([GetGeographicalRegion('RICE_normandy_region').GetName] [region|E])" # 1735779468784904399
   RICE_normandy_domesday_book_artifact_name: "둠즈데이 북" # 956935729942135138
   RICE_normandy_domesday_book_artifact_england_desc: "이 사본은 [ROOT.Char.GetTitledFirstName]의 통치 기간에 완료된 [GetGeographicalRegion('custom_england').GetName] 조사에 대한 포괄적인 기록입니다. 해당 지역의 지주, 재산, 소작농, 그리고 농노에 대한 상세한 정보를 담고 있습니다. 공식적으로는 위대한 조사라고 불리지만, 성경의 최후의 심판처럼 조사 결과가 변경 불가능하며 논쟁의 여지가 없기에 둠스데이 북이라는 별명을 얻었습니다." # 15491168303639938966
   RICE_normandy_domesday_book_artifact_france_desc: "이 문서는 [GetGeographicalRegion('custom_west_francia_minus_mediterranean').GetName] 지역에 대한 종합적인 조사 기록이며, [ROOT.Char.GetTitledFirstName]의 치세 동안 완수되었습니다. 여기에는 해당 지역의 지주, 재산, 소작농, 농노에 대한 자세한 정보가 담겨 있습니다. 공식적으로는 대조사로 불리지만, 이 문서는 성경에 나오는 최후의 심판처럼 조사 결과가 변경 불가능하고 이의 제기가 불가능하기 때문에 최후의 심판서라는 별칭을 얻었습니다." # 16581179587145361897
@@ -112,7 +112,7 @@
   game_concept_RICE_normandy_scholars: "학자들" # 11369814345217948447
   game_concept_RICE_normandy_rulers: "통치자" # 16325499238753074590
   game_concept_RICE_normandy_settlers: "노르드와 노르만 정착민" # 4890701361290289739
-  game_concept_RICE_normandy_settlers_desc: "[결단|E] '노르드족 또는 노르만족 정착민 초청'은 대부분의 유럽 [통치자|E]가 각각 $culture_era_high_medieval$ [시대|E]와 $culture_era_late_medieval$ [시대|E] 이전에 이용할 수 있습니다. 이 결단을 통해 스칸디나비아 또는 노르망디에서 정착민을 데려와 다양한 보너스를 받을 수 있습니다.\n\n노르드 모험가들의 경우, 추가적으로 [바랑인 모험|E]으로부터 자신을 보호해 달라고 요청할 수도 있으며, 노르만 모험가들의 경우, 군사력 및 정치적 위상 개선을 위한 장기적 지원을 요청할 수도 있습니다. 그들이 [통치자|E]가 되도록 정착민을 초청하면 어느 쪽이든 보장됩니다.\n\n하지만 그들을 [통치자|E]로 삼기 위해 초청하는 것이 아니라면, 그들은 귀하에게 더 많은 것을 요구할 가능성이 있습니다. 예를 들어 추가적인 [금|E]이나 심지어는 통치할 [백작령|E]까지도 말입니다. 그들의 요구에 응하지 않거나 협상이 실패하면, 그들은 귀하의 땅에 불쾌한 [백작령 수정치|E]를 남기고 떠날 것입니다." # 18156375036481254958
+  game_concept_RICE_normandy_settlers_desc: "[decision|E] '노르드족 또는 노르만족 정착민 초청'은 대부분의 유럽 [rulers|E]가 각각 $culture_era_high_medieval$ [era|E]와 $culture_era_late_medieval$ [era|E] 이전에 이용할 수 있습니다. 이 결단을 통해 스칸디나비아 또는 노르망디에서 정착민을 데려와 다양한 보너스를 받을 수 있습니다.\n\n노르드 모험가들의 경우, 추가적으로 [바랑인 모험|E]으로부터 자신을 보호해 달라고 요청할 수도 있으며, 노르만 모험가들의 경우, 군사력 및 정치적 위상 개선을 위한 장기적 지원을 요청할 수도 있습니다. 그들이 [rulers|E]가 되도록 정착민을 초청하면 어느 쪽이든 보장됩니다.\n\n하지만 그들을 [rulers|E]로 삼기 위해 초청하는 것이 아니라면, 그들은 귀하에게 더 많은 것을 요구할 가능성이 있습니다. 예를 들어 추가적인 [gold|E]이나 심지어는 통치할 [county|E]까지도 말입니다. 그들의 요구에 응하지 않거나 협상이 실패하면, 그들은 귀하의 땅에 불쾌한 [백작령 수정치|E]를 남기고 떠날 것입니다." # 18156375036481254958
   game_concept_RICE_normandy_border_raid: "브르타뉴-노르만 변경 습격" # 14732021622530401477
   game_concept_RICE_normandy_border_raids: "브르타뉴-노르만 국경 습격" # 9959349275241562299
   game_concept_RICE_normandy_border_raiding: "브르타뉴-노르만 국경 습격" # 3679221225428045262
@@ -121,7 +121,7 @@
   game_concept_RICE_norman_adventures: "노르만 모험" # 10253991038933900826
   game_concept_RICE_norman_adventuring: "모험" # 13677671254738490442
   game_concept_RICE_norman_adventure_adventure: "모험" # 16370489177724907221
-  game_concept_RICE_norman_adventure_desc: "이는 [전쟁|E]의 특수한 유형으로, 공격자가 [realm|E] 전체를 [war_target|E]로 옮기려 하는 것입니다. 이는 [varangian_adventure|E]와 유사하나 일부 차이가 있으며, $tradition_RICE_northmen_name$ 또는 $tradition_RICE_adventurers_and_aristocrats_name$ [traditions|E]를 가진 [cultures|E]에게 사용할 수 있습니다.\n\n공격자가 승리하면, 즉시 적절한 [counties|E]를 합병하고 [capital|E]를 그곳으로 옮깁니다. 이전 봉신들은 독립하게 되며, 이전 $game_concept_counties$는 졸부 지역 군벌에게 주어집니다. $game_concept_RICE_norman_adventures$는 #EMP ONLY#! [duke|E] 및 [백작|E] [통치자|E]만 사용할 수 있으며, 성공적인 $game_concept_RICE_norman_adventure_adventure$를 수행할 때마다 점차 비용이 증가합니다.\n\n이 [명분|E]은 $culture_era_early_medieval$ 및 $culture_era_high_medieval$ [eras|E]에 사용할 수 있으며, $tradition_RICE_northmen_name$ 또는 $tradition_RICE_adventurers_and_aristocrats_name$ [traditions|E]를 가진 다른 [cultures|E]에게는 사용할 수 없습니다.\n\n첫 $game_concept_RICE_norman_adventure$를 시작할 때, 공격자는 최대 [EmptyScope.ScriptValue('varangian_adventurers_standard_levy_cap_value')|0]의 추가 [특수 병력|E]을 받으며, 완전히 통제하는 같은 [신앙|E], 같은 [문화|E] 백작령마다 그 양이 증가합니다." # 3570062433796878993
+  game_concept_RICE_norman_adventure_desc: "이는 [war|E]의 특수한 유형으로, 공격자가 [realm|E] 전체를 [war_target|E]로 옮기려 하는 것입니다. 이는 [varangian_adventure|E]와 유사하나 일부 차이가 있으며, $tradition_RICE_northmen_name$ 또는 $tradition_RICE_adventurers_and_aristocrats_name$ [traditions|E]를 가진 [cultures|E]에게 사용할 수 있습니다.\n\n공격자가 승리하면, 즉시 적절한 [counties|E]를 합병하고 [capital|E]를 그곳으로 옮깁니다. 이전 봉신들은 독립하게 되며, 이전 $game_concept_counties$는 졸부 지역 군벌에게 주어집니다. $game_concept_RICE_norman_adventures$는 #EMP ONLY#! [duke|E] 및 [백작|E] [rulers|E]만 사용할 수 있으며, 성공적인 $game_concept_RICE_norman_adventure_adventure$를 수행할 때마다 점차 비용이 증가합니다.\n\n이 [명분|E]은 $culture_era_early_medieval$ 및 $culture_era_high_medieval$ [eras|E]에 사용할 수 있으며, $tradition_RICE_northmen_name$ 또는 $tradition_RICE_adventurers_and_aristocrats_name$ [traditions|E]를 가진 다른 [cultures|E]에게는 사용할 수 없습니다.\n\n첫 $game_concept_RICE_norman_adventure$를 시작할 때, 공격자는 최대 [EmptyScope.ScriptValue('varangian_adventurers_standard_levy_cap_value')|0]의 추가 [특수 병력|E]을 받으며, 완전히 통제하는 같은 [faith|E], 같은 [culture|E] 백작령마다 그 양이 증가합니다." # 3570062433796878993
   RICE_normandy_aspiration_rollo_desc: "\n\n#bold 주 목표#!\n$EFFECT_LIST_BULLET$[GetTitleByKey('d_normandy').GetNameNoTier]에 정착하십시오. 필요하다면 무슨 수를 써서라도 [RICE_normandy_struggle|E]에 [struggle_involved|E]가 되거나 시작하십시오.\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$#V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [special_troops|E] 획득\n\n#bold 추가 목표#!\n$EFFECT_LIST_BULLET$기독교 [faith|E]로 개종하십시오 (보상: @piety_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [piety|E])\n$EFFECT_LIST_BULLET$[GetTitleByKey('d_normandy').GetNameNoTier]의 [ruler|E]가 되십시오 (보상: @dynasty_prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_small_resource_bonus')]#! [dynasty_prestige|E])\n$EFFECT_LIST_BULLET$국고에 [gold_i|E] #V 1000#! 이상을 보유하십시오 (보상: [GetGeographicalRegion('RICE_normandy_region').GetName]에 있는 귀하의 [realm|E] 내 모든 [county|E]가 @development_icon! #V [EmptyScope.ScriptValue('RICE_red_sea_al_umari_aspiration_dev_bonus')]#! [development|E]를 얻습니다)" # 9228807008502984665
   RICE_normandy_historical_aspiration_action_rollo: "#italic 그리스도 신으로부터 북부 프랑스에 정착하고, 새로운 왕국을 건설하며, 백성을 더 나은 미래로 이끌라는 계시를 받은 것으로 알려져 있습니다.#!$RICE_normandy_aspiration_rollo_desc$" # 1495322954665103043
   RICE_normandy_historical_aspiration_modifier_desc_rollo: "[GetModifier('RICE_normandy_aspiration_settle_in_normandy').GetNameWithTooltip]" # 11255323628595909365
@@ -134,11 +134,11 @@
   struggle_RICE_normandy_phase_confrontation: "대립" # 6176519631787323892
   struggle_RICE_normandy_phase_confrontation_desc: "[RICE_normandy_struggle|E]는 대치 [struggle_phase|E] 기간 동안 난항을 겪습니다. 이는 [struggle_phase_normandy_acculturation|E] 기간 동안 동화를 통해 공작 권위를 강제하는 데 실패했거나, [struggle_phase_normandy_adventure|E] 기간 동안 상충하는 야망 때문에 벌어집니다.\n\n이제 노르망디는 하급 귀족들이 자신들의 봉건 주군의 자율성에 이의를 제기하기 때문에 전쟁까지는 아니더라도 불안에 직면했습니다. 한편, 이제 노르망디에 살고 있는 다양한 집단들은 세속적이고 종교적인 권력을 빈번히 다툽니다.\n\n결국, 분쟁 당사자들이 무력이나 외교를 통해 서로를 용인하게 된다면, 그들은 통합된 노르만 사회를 건설하기 시작할 수 있으며, 이는 [struggle_phase_normandy_acculturation|E]로 이어집니다. 그들은 또한 다른 곳에서 행운을 시험하거나 다툼에 도움을 줄 다른 이들을 초대할 수 있으며, 이는 [struggle_phase_normandy_adventure|E]로 이어집니다." # 13646011908602659800
   catalyst_RICE_normandy_married_to_scandinavian: "$heritage_north_germanic_name$ [heritage|E] 중 비-노르만인과 [married|E] [struggle_catalyst_catalyst|E]" # 8862025348376433700
-  catalyst_RICE_normandy_married_to_scandinavian_desc: "(연간) 노르만인이 아닌 $heritage_north_germanic_name$ [유산|E]을 가진 인물과 [결혼|E] 상태일 것" # 284318359481433705
+  catalyst_RICE_normandy_married_to_scandinavian_desc: "(연간) 노르만인이 아닌 $heritage_north_germanic_name$ [heritage|E]을 가진 인물과 [결혼|E] 상태일 것" # 284318359481433705
   catalyst_RICE_normandy_married_to_frankish: "노르만인이 아닌 $heritage_frankish_name$ [heritage|E]를 가진 사람과 [married|E] [struggle_catalyst_catalyst|E]" # 2544915286083491015
   catalyst_RICE_normandy_married_to_frankish_desc: "(연간) 노르만인이 아닌 $heritage_frankish_name$ [heritage|E]를 가진 인물과 [married|E]" # 13731378120562547343
   catalyst_RICE_normandy_scandinavian_ally: "비-노르만인 $heritage_north_germanic_name$ [heritage|E]의 [ruler|E]와 [allied|E] 상태이다 [struggle_catalyst_catalyst|E]" # 6790103729625274703
-  catalyst_RICE_normandy_scandinavian_ally_desc: "(연간) $heritage_north_germanic_name$ [유산|E]을 가진 노르만인이 아닌 [통치자|E]와 [동맹|E] 상태를 유지" # 9284196103891006273
+  catalyst_RICE_normandy_scandinavian_ally_desc: "(연간) $heritage_north_germanic_name$ [heritage|E]을 가진 노르만인이 아닌 [rulers|E]와 [allied|E] 상태를 유지" # 9284196103891006273
   catalyst_RICE_normandy_frankish_ally: "$heritage_frankish_name$ [heritage|E]를 가진 노르만인이 아닌 [ruler|E]와 [allied|E] 상태일 것 [struggle_catalyst_catalyst|E]" # 8015189696222029853
   catalyst_RICE_normandy_frankish_ally_desc: "(연간) $heritage_frankish_name$ [heritage|E]를 가진 노르만인이 아닌 [ruler|E]와 [allied|E] 상태일 것" # 15952131746052534024
   catalyst_RICE_normandy_invited_norse_courtiers: "[RICE_norse|E] [RICE_normandy_courtiers|E]을(를) [court|E]에 초대했습니다 [struggle_catalyst_catalyst|E]" # 1202975814359405875
@@ -151,8 +151,8 @@
   catalyst_RICE_normandy_invited_norse_traders_desc: "[RICE_norse|E] [RICE_normandy_traders|E]를 $d_normandy$에서 활동하도록 유치" # 1572781222003470315
   catalyst_RICE_normandy_invited_norse_rulers: "[RICE_norse|E] [RICE_normandy_rulers|E]를 초대하여 $d_normandy$의 [struggle_catalyst_catalyst|E]를 관리하게 했습니다" # 17850591773199583887
   catalyst_RICE_normandy_invited_norse_rulers_desc: "$d_normandy$를 통치하도록 [RICE_norse|E] [RICE_normandy_rulers|E]를 초청합니다" # 6365450119966369091
-  catalyst_RICE_normandy_high_diplomacy: "[외교력|E]이 높음(#V 12#! 이상) [투쟁 촉진제|E]" # 7145115590416091506
-  catalyst_RICE_normandy_high_diplomacy_desc: "연간: 높은 [외교력|E] 보유 (#V 12!# 이상)" # 3361679120672185604
+  catalyst_RICE_normandy_high_diplomacy: "[diplomacy|E]이 높음(#V 12#! 이상) [struggle_catalyst_catalyst|E]" # 7145115590416091506
+  catalyst_RICE_normandy_high_diplomacy_desc: "연간: 높은 [diplomacy|E] 보유 (#V 12!# 이상)" # 3361679120672185604
   catalyst_RICE_normandy_high_martial: "[martial|E]이 높음 (#V 12#! 이상) [struggle_catalyst_catalyst|E]" # 5372000629785605456
   catalyst_RICE_normandy_high_martial_desc: "(연간) [전투력|E]이(가) 높아야 함 (#V 12#! 이상)" # 15917532479242010885
   catalyst_RICE_normandy_high_stewardship: "높은 [stewardship|E] 보유 (#V 12#! 이상) [struggle_catalyst_catalyst|E]" # 1733262266326968375
@@ -164,9 +164,9 @@
   catalyst_RICE_normandy_high_prowess: "높은 [무력|E] (#V 12#! 이상) [투쟁 촉진 요인|E] 보유" # 13369620108123694350
   catalyst_RICE_normandy_high_prowess_desc: "(매년) [prowess|E]가 높음 (#V 12#! 이상)" # 460372401052836502
   catalyst_RICE_normandy_vassal_positive_opinion: "$d_normandy$ 내에서 [liege|E]에 대한 [opinion|E]이 긍정적인 [vassal|E] [struggle_catalyst_catalyst|E]" # 9694827954163889758
-  catalyst_RICE_normandy_vassal_positive_opinion_desc: "(연간) $d_normandy$ 내 [봉신|E] 중 [주군|E]에게 우호적인 [의견|E]을 가진" # 10037973494262320292
+  catalyst_RICE_normandy_vassal_positive_opinion_desc: "(연간) $d_normandy$ 내 [vassal|E] 중 [liege|E]에게 우호적인 [opinion|E]을 가진" # 10037973494262320292
   catalyst_RICE_normandy_vassal_negative_opinion: "$d_normandy$의 [liege|E]에 대한 [opinion|E]이 부정적인 [vassal|E] [struggle_catalyst_catalyst|E]" # 8008409109223744818
-  catalyst_RICE_normandy_vassal_negative_opinion_desc: "(매년) $d_normandy$ 내 [주군|E]에 대한 [의견|E]이 부정적인 [봉신|E]" # 4520565531109311657
+  catalyst_RICE_normandy_vassal_negative_opinion_desc: "(매년) $d_normandy$ 내 [liege|E]에 대한 [opinion|E]이 부정적인 [vassal|E]" # 4520565531109311657
   catalyst_RICE_normandy_found_chapel: "기독교 예배당을 설립했다 [struggle_catalyst_catalyst|E]" # 4003251977971227081
   catalyst_RICE_normandy_found_chapel_desc: "기독교 예배당을 발견했다" # 2322641177749443651
   catalyst_RICE_normandy_found_small_church: "작은 기독교 교회를 설립했다 [struggle_catalyst_catalyst|E]" # 6845964701608287538
@@ -197,25 +197,25 @@
   catalyst_RICE_normandy_invited_norman_traders_desc: "[RICE_norman|E] [RICE_normandy_traders|E] 외국 [ruler|E]가 무역을 위해 초청한" # 4745036517626799542
   catalyst_RICE_normandy_invited_norman_rulers: "외국의 [county|E]를 통치하도록 초청받은 [RICE_norman|E] [RICE_normandy_rulers|E] [struggle_catalyst_catalyst|E]" # 15837361440647405679
   catalyst_RICE_normandy_invited_norman_rulers_desc: "[RICE_norman|E] [RICE_normandy_rulers|E]가 외국의 [county|E]를 통치하도록 초대받음" # 13290719729187300426
-  catalyst_RICE_normandy_activity_normal: "일부 [활동|E]에 참여했습니다 [갈등_촉매_촉매|E]" # 13958355440547273656
-  catalyst_RICE_normandy_activity_normal_desc: "특정 [활동|E]에 참여하십시오." # 16859544571705084278
+  catalyst_RICE_normandy_activity_normal: "일부 [activity|E]에 참여했습니다 [갈등_촉매_촉매|E]" # 13958355440547273656
+  catalyst_RICE_normandy_activity_normal_desc: "특정 [activity|E]에 참여하십시오." # 16859544571705084278
   catalyst_RICE_normandy_activity_grand: "일정한 [grand_activities|E]에 참여했습니다 [struggle_catalyst_catalyst|E]" # 5353054898394078866
   catalyst_RICE_normandy_activity_grand_desc: "특정 [grand_activities|E]에 참여하십시오." # 816353276820699716
-  catalyst_RICE_normandy_activity_travel: "[활동|E] [투쟁_촉매제_촉매|E]를 위해 여행했습니다." # 284270485942303681
-  catalyst_RICE_normandy_activity_travel_desc: "[활동|E]를 위한 여행" # 320696207184418623
+  catalyst_RICE_normandy_activity_travel: "[activity|E] [투쟁_촉매제_촉매|E]를 위해 여행했습니다." # 284270485942303681
+  catalyst_RICE_normandy_activity_travel_desc: "[activity|E]를 위한 여행" # 320696207184418623
   catalyst_RICE_normandy_pilgrimage_mont_saint_michel: "[GetActivityType( 'activity_RICE_normandy_mont_saint_michel_pilgrimage' ).GetName] 순례 [struggle_catalyst_catalyst|E]에 참여했습니다." # 16695099578644425760
   catalyst_RICE_normandy_pilgrimage_mont_saint_michel_desc: "[GetActivityType( 'activity_RICE_normandy_mont_saint_michel_pilgrimage' ).GetName]에 참여하십시오." # 16930004680345435989
   catalyst_RICE_normandy_procession_saint_aubert: "[GetActivityType( 'activity_RICE_normandy_saint_aubert_procession' ).GetName] [struggle_catalyst_catalyst|E]을 목격했습니다." # 3179141494500069452
   catalyst_RICE_normandy_procession_saint_aubert_desc: "[GetActivityType( 'activity_RICE_normandy_saint_aubert_procession' ).GetName]를 관찰합니다." # 15951514942392746516
   catalyst_RICE_normandy_hunt: "[GetActivityType( 'activity_hunt' ).GetName] 사냥을 위해 출발하였습니다. [struggle_catalyst_catalyst|E]" # 7700433733520725219
   catalyst_RICE_normandy_hunt_desc: "[GetActivityType( 'activity_hunt' ).GetName]을 위해 여행을 떠납니다." # 14809767546315847984
-  catalyst_RICE_normandy_war_attacker: "[전쟁|E]에서 [분쟁_촉매_촉매|E]로 인해 누군가를 공격했습니다." # 16440638718987960181
-  catalyst_RICE_normandy_war_attacker_desc: "[전쟁|E]에서 공격하십시오." # 16988302755569703052
-  catalyst_RICE_normandy_war_defender: "[전쟁|E]에서 [갈등_촉매_촉매제|E] 공격자를 격퇴했습니다." # 11885741010789514569
-  catalyst_RICE_normandy_war_defender_desc: "[전쟁|E]에서 공격자를 막아내십시오." # 14769908457980059614
+  catalyst_RICE_normandy_war_attacker: "[war|E]에서 [struggle_catalyst_catalyst|E]로 인해 누군가를 공격했습니다." # 16440638718987960181
+  catalyst_RICE_normandy_war_attacker_desc: "[war|E]에서 공격하십시오." # 16988302755569703052
+  catalyst_RICE_normandy_war_defender: "[war|E]에서 [struggle_catalyst_catalyst|E] 공격자를 격퇴했습니다." # 11885741010789514569
+  catalyst_RICE_normandy_war_defender_desc: "[war|E]에서 공격자를 막아내십시오." # 14769908457980059614
   struggle_parameter_rice_normandy_increased_cost_christian_building: "$RICE_normandy_build_minor_christian_holy_building$ 결정의 $d_normandy$ 지역 £gold£ 지불 비용이 증가합니다." # 11046314469792575752
   struggle_parameter_rice_normandy_cheaper_norse_adventurers: "[RICE_norse_settlers|E]를 초대하는 비용이 [gold_i|E] [gold|E] 만큼 저렴합니다." # 15064053954003472748
-  struggle_parameter_rice_normandy_cheaper_norman_adventurers: "[RICE_노르만 정착민|E]을 초청하는 비용이 [gold_i|E] [금|E]이 더 적게 들며, [RICE_노르망디 내전|E]에 참여하지 않은 자들도 마찬가지입니다." # 3105701750110088792
+  struggle_parameter_rice_normandy_cheaper_norman_adventurers: "[RICE_노르만 정착민|E]을 초청하는 비용이 [gold_i|E] [gold|E]이 더 적게 들며, [RICE_노르망디 내전|E]에 참여하지 않은 자들도 마찬가지입니다." # 3105701750110088792
   struggle_parameter_rice_normandy_cheaper_norman_adventures: "[RICE_노르만 모험|E]에 참여하는 데 필요한 [명예|E] [명예량|E]이 줄어듭니다. [노르망디 분쟁|E]에 참여하지 않은 자들도 마찬가지입니다." # 15551920268260755833
   RICE_normandy_saint_aubert_procession_host_memory: "[GetTitleByKey('b_avranches').GetNameNoTier]에서 [GetActivityType('activity_RICE_normandy_saint_aubert_procession').GetName]을 목격했습니다." # 14669925446587808706
   RICE_normandy_saint_aubert_procession_host_memory_first_perspective: "[GetActivityType('activity_RICE_normandy_saint_aubert_procession').GetName]을 [GetTitleByKey('b_avranches').GetNameNoTier]에서 관찰했습니다." # 10447660557266672307
@@ -237,7 +237,7 @@
   activity_RICE_normandy_saint_aubert_procession: "성 오베르 성행렬" # 8050797804418929847
   activity_RICE_normandy_saint_aubert_procession_desc: "매년 [GetTitleByKey('b_avranches').GetNameNoTier]의 기독교인들은 성 오베르의 시신을 [GetBuilding('RICE_normandy_mont_saint_michel_02').GetName]에서 도시 거리를 행진하는 풍습을 지킵니다. 이 행사 동안 수많은 기적이 일어난다고 전해집니다." # 9430192105234271646
   activity_RICE_normandy_saint_aubert_procession_selection_tooltip: "성 오베르 성인의 행렬을 지켜보십시오.\n$RICE_normandy_mont_saint_michael_pilgrimage_context_tooltip$" # 7365525270065386379
-  activity_RICE_normandy_saint_aubert_procession_host_desc: "$BULLET_WITH_TAB$[신앙도|E][신앙|E]\n$BULLET_WITH_TAB$귀하의 [신앙도|E]에 따라 [GetModifier('RICE_normandy_saint_aubert_miracle').GetNameWithTooltip] [캐릭터_수정|E]를 얻을 가능성이 조금 있습니다." # 2345285545258850214
+  activity_RICE_normandy_saint_aubert_procession_host_desc: "$BULLET_WITH_TAB$[piety|E][faith|E]\n$BULLET_WITH_TAB$귀하의 [piety|E]에 따라 [GetModifier('RICE_normandy_saint_aubert_miracle').GetNameWithTooltip] [캐릭터_수정|E]를 얻을 가능성이 조금 있습니다." # 2345285545258850214
   activity_RICE_normandy_saint_aubert_procession_guest_desc: "\n$BULLET_WITH_TAB$[piety_i|E][piety|E]" # 12882840294630978621
   activity_RICE_normandy_saint_aubert_procession_destination_selection: "$activity_RICE_normandy_saint_aubert_procession_province_desc$" # 7830531474556891804
   activity_RICE_normandy_saint_aubert_procession_guest_help_text: "$activity_RICE_normandy_saint_aubert_procession$" # 721970533787771135
@@ -257,7 +257,7 @@
   activity_RICE_normandy_mont_saint_michel_pilgrimage: "몽생미셸 순례" # 18400199385114563176
   activity_RICE_normandy_mont_saint_michel_pilgrimage_desc: "몽생미셸은, 오랫동안 천사장 미카엘과 관련되어 있었기에, 지역 순례객들에게 인기 있는 목적지입니다." # 13258580163413131365
   activity_RICE_normandy_mont_saint_michel_pilgrimage_selection_tooltip: "[GetTitleByKey('b_avranches').GetNameNoTier] 근처 몽생미셸에 순례를 떠나십시오.\n$RICE_normandy_mont_saint_michael_pilgrimage_context_tooltip$" # 7040254568510768608
-  activity_RICE_normandy_mont_saint_michel_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ #P 유익한# 결과를 얻을 확률이 [신앙도|E]에 따라 달라집니다. [인물 수정자|E]" # 10460726711560591909
+  activity_RICE_normandy_mont_saint_michel_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ #P 유익한# 결과를 얻을 확률이 [piety|E]에 따라 달라집니다. [인물 수정자|E]" # 10460726711560591909
   activity_RICE_normandy_mont_saint_michel_pilgrimage_guest_desc: "$activity_RICE_normandy_mont_saint_michel_pilgrimage_host_desc$" # 6704154781006699884
   activity_RICE_normandy_mont_saint_michel_pilgrimage_province_desc: "몽생미셸은 [GetTitleByKey('b_avranches').GetNameNoTier] 마을 근처 조석 섬에 위치해 있습니다." # 1850455701483079268
   activity_RICE_normandy_mont_saint_michel_pilgrimage_destination_selection: "$activity_RICE_normandy_mont_saint_michel_pilgrimage_province_desc$" # 17643004402487945912
@@ -273,14 +273,14 @@
   RICE_normandy_grant_normandy_interaction: "$d_normandy$의 백작령을 수여합니다." # 10548278879809826163
   RICE_normandy_grant_normandy_interaction_desc: "$d_normandy$를 [recipient.GetShortUINameNoTooltip]에게 수여하여 다스리게 하다." # 16645092311755992990
   RICE_normandy_grant_normandy_interaction_tooltip_1: "[GetTitleByKey('d_normandy').GetName]와 그 지역에 영토를 가진 모든 [count|E] [rank|E]의 [vassals|E]를 받게 됩니다." # 18343696428248237370
-  RICE_normandy_grant_normandy_interaction_tooltip_2: "노르만 [문화|E]를 채택할 것이며, [RICE_normandy_region].이름] 지역의 모든 [궁정 귀족|E] 및 [통치자|E] 중 북 게르만 또는 프랑크족 [유산|E]을 가진 자들과 함께할 것입니다." # 3741282489026858935
+  RICE_normandy_grant_normandy_interaction_tooltip_2: "노르만 [culture|E]를 채택할 것이며, [RICE_normandy_region].이름] 지역의 모든 [궁정 귀족|E] 및 [rulers|E] 중 북 게르만 또는 프랑크족 [heritage|E]을 가진 자들과 함께할 것입니다." # 3741282489026858935
   RICE_normandy_grant_normandy_interaction_tooltip_3: "원하시면 [recipient.GetFirstName]으로 플레이를 전환하실 수 있습니다." # 2466868270771191813
   RICE_normandy_grant_normandy_interaction_tooltip_4: "[수혜자.이름소유격]의 영주가 되시겠습니다." # 7603948353215821544
   RICE_normandy_grant_normandy_interaction_tooltip_5: "[actor.GetFaith.GetName]로 개종할 것입니다." # 18143664700843401048
   RICE_normandy_negotiate_normandy_interaction: "$d_normandy$의 행군을 위한 협상을 시작합니다." # 9983961333179037869
   RICE_normandy_negotiate_normandy_interaction_desc: "$d_normandy$를 저의 개인 영지로 수여해주시길 바랍니다." # 7993044151561015021
   RICE_normandy_negotiate_normandy_interaction_tooltip_1: "[GetTitleByKey('d_normandy').GetName]와 그 지역에 영토를 가진 모든 [count|E] [rank|E]의 [vassals|E]를 받게 됩니다." # 18343696428248237370
-  RICE_normandy_negotiate_normandy_interaction_tooltip_2: "노르만 [문화|E]를 채택할 것이며, [RICE_normandy_region].이름] 지역의 모든 [궁정 귀족|E] 및 [통치자|E] 중 북 게르만 또는 프랑크족 [유산|E]을 가진 자들과 함께할 것입니다." # 3741282489026858935
+  RICE_normandy_negotiate_normandy_interaction_tooltip_2: "노르만 [culture|E]를 채택할 것이며, [RICE_normandy_region].이름] 지역의 모든 [궁정 귀족|E] 및 [rulers|E] 중 북 게르만 또는 프랑크족 [heritage|E]을 가진 자들과 함께할 것입니다." # 3741282489026858935
   RICE_normandy_negotiate_normandy_interaction_tooltip_3: "[actor.GetFirstNamePossessive] 봉신이 되시겠습니다." # 6088176805491732347
   RICE_normandy_negotiate_normandy_interaction_tooltip_4: "@warning_icon! #X [actor.GetFirstName]이 [GetTitleByKey('d_normandy').GetName] 밖에 소유한 모든 영토는 현지 [character|E]에게 귀속될 것입니다!" # 2228640282877608418
   RICE_normandy_negotiate_normandy_interaction_tooltip_5: "[recipient.GetFaith.GetName]으로 개종합니다." # 9916382108833496896
@@ -322,7 +322,7 @@
   RICE_normandy_norman_assimilation: "노르만 문화와 학문" # 568154170057647305
   RICE_normandy_norman_assimilation_desc: "이 왕조는 [RICE_normandy_struggle|E]를 완수하고 노르망디를 문화와 학문의 중심지로 삼아 노르만족을 통합했으며, 그들이 배우던 프랑크족을 능가했습니다." # 8169608323463105286
   RICE_normandy_rollo_modifier: "노르망디의 환상" # 3252283818350979094
-  RICE_normandy_rollo_modifier_desc: "소문에 따르면 기독교 신은 북 프랑스에 새로운 약속의 땅을 보여주는 환상을 흘로프에게 보여주었고, 그곳으로 가서 참된 신앙을 받아들이고 새로운 고향에 강력한 왕조를 세우라는 신성한 명령을 내렸다고 합니다.\n\n#italic 흘로프는 노르드족에게 노르망디를 수여하는 [결정|E] 또는 [상호작용|E]를 취할 때 우선적으로 고려될 것입니다. 그리고 (AI라면) 다른 요구 사항을 충족하는 한 항상 수락할 것입니다. 마찬가지로, 흘로프는 $RICE_normandy_negotiate_normandy_interaction$ [상호작용|E]을 수행하기 위해 특정 전제 조건이 필요하지 않습니다.#!" # 4998294428726022625
+  RICE_normandy_rollo_modifier_desc: "소문에 따르면 기독교 신은 북 프랑스에 새로운 약속의 땅을 보여주는 환상을 흘로프에게 보여주었고, 그곳으로 가서 참된 신앙을 받아들이고 새로운 고향에 강력한 왕조를 세우라는 신성한 명령을 내렸다고 합니다.\n\n#italic 흘로프는 노르드족에게 노르망디를 수여하는 [decision|E] 또는 [상호작용|E]를 취할 때 우선적으로 고려될 것입니다. 그리고 (AI라면) 다른 요구 사항을 충족하는 한 항상 수락할 것입니다. 마찬가지로, 흘로프는 $RICE_normandy_negotiate_normandy_interaction$ [상호작용|E]을 수행하기 위해 특정 전제 조건이 필요하지 않습니다.#!" # 4998294428726022625
   RICE_normandy_saint_aubert_miracle: "성 오베르의 기적" # 7511375961788844436
   RICE_normandy_saint_aubert_miracle_desc: "그 인물은 몽생미셸 근처 성 오베르 행렬을 지켜보던 중 기적을 목격하거나 경험했다고 합니다." # 280555513882590491
   RICE_normandy_saint_aubert_relic_discoverer: "성 오베르 성유물 발견" # 11595837582129451491
@@ -373,7 +373,7 @@
   RICE_normandy_struggle_ending_assimilation_ethos_tt: "[GetPlayer.GetCulture.GetName] [ethos|E]는 앞으로 $ethos_spiritual_name$, $ethos_courtly_name$, $ethos_bureaucratic_name$, 또는 $ethos_egalitarian_name$ 중 하나로 결정될 것입니다." # 2099089411793111569
   RICE_normandy_struggle_assimilation_decision_correct_phase_tt: "현재 [RICE_normandy_struggle|E]는 [struggle_phase_normandy_acculturation|E] 단계에 있습니다." # 13568244633781427421
   RICE_normandy_struggle_assimilation_decision_development_req: "[GetGeographicalRegion('RICE_normandy_region').GetName] 지역의 모든 [county|E]는 최소 [EmptyScope.ScriptValue('RICE_normandy_assimilation_ending_general_development_level')|0] [development|E]를 가지고 있습니다." # 13222305160459690444
-  RICE_normandy_struggle_assimilation_decision_capital_development_req: "귀하의 [수도|E]는 [GetGeographicalRegion('RICE_normandy_region').GetName]에 위치하며, 최소 [EmptyScope.ScriptValue('RICE_normandy_assimilation_ending_capital_development_level')|0] [개발도|E]를 보유하고 있습니다." # 16753450800706924336
+  RICE_normandy_struggle_assimilation_decision_capital_development_req: "귀하의 [capital|E]는 [GetGeographicalRegion('RICE_normandy_region').GetName]에 위치하며, 최소 [EmptyScope.ScriptValue('RICE_normandy_assimilation_ending_capital_development_level')|0] [개발도|E]를 보유하고 있습니다." # 16753450800706924336
   RICE_normandy_struggle_ending_scholars_tt: "[RICE_normandy_scholars|E]를 초청할 수 있는 옵션을 해제합니다. [decision|E]를 통해 [RICE_norman_settlers|E]를 초청할 경우 모든 플레이어에게 해제됩니다." # 3621453884476832493
   RICE_normandy_struggle_ending_outsider_decision: "외부의 압제" # 16655035826394083954
   RICE_normandy_struggle_ending_outsider_decision_tooltip: "혼란스러운 [duchy|E]에 질서를 회복하십시오." # 15237226035369977155
@@ -381,7 +381,7 @@
   RICE_normandy_struggle_ending_outsider_decision_effect_tooltip_1: "xxxxx" # 1951045980481827005
   RICE_normandy_struggle_ending_outsider_decision_confirm: "$RICE_normandy_struggle_ending_conquest_decision_confirm$" # 15465385303897094874
   RICE_normandy_struggle_culture_involved_req: "귀하의 [culture|E]는 [RICE_normandy_struggle|E]에 [struggle_involved|E]하고 있습니다." # 7161438802249573096
-  RICE_normandy_struggle_faith_involved_req: "귀하의 [신앙|E]는 [고난 관련|E] [쌀_노르망디_투쟁|E]에 휘말렸습니다." # 4540268024423321011
+  RICE_normandy_struggle_faith_involved_req: "귀하의 [faith|E]는 [고난 관련|E] [쌀_노르망디_투쟁|E]에 휘말렸습니다." # 4540268024423321011
   RICE_normandy_struggle_is_norman_req: "노르만 [culture|E]이거나 노르만 [culture|E]의 후손인가요?" # 5010780352571054235
   RICE_normandy_struggle_not_norman_req: "노르만 [culture|E]가 아니거나, 노르만 [culture|E]의 후손이 아닙니다." # 9173608294752501121
   RICE_normandy_struggle_no_norman_rulers_req: "[GetGeographicalRegion('RICE_normandy_region').GetName]의 어떠한 [county|E]에도 노르망디 [culture|E] 출신이나 노르망디 [culture|E] 계통의 [ruler|E]가 없습니다." # 18115229333364156324
@@ -401,11 +401,11 @@
   RICE_normandy_recruit_norse_adventurers_desc_norse: "저의 동포 [RICE_norse|E]는 멀리 떠나 여러 곳을 돌아다니며 세상에 대한 많은 것을 배우고, 많은 땅에서 두려움을 주는 명성을 얻었습니다. 제가 가진 인맥을 통해 먼 곳의 [RICE_norse|E]들을 찾아 [GetPlayer.GetPrimaryTitle.GetNameNoTier]에 정착할 의향이 있는 자들을 찾아낼 수 있습니다. 그들이 다양한 방면에서 저를 도울 것입니다." # 8363792258426609808
   RICE_normandy_recruit_norse_adventurers_effect_tooltip_1: "유익한 [character_modifiers|E], [county_modifiers|E], 새로운 [courtier|E], 또는 [special_troops|E] 중 하나를 선택하실 수 있습니다." # 4327461364805620332
   RICE_normandy_recruit_norse_adventurers_effect_tooltip_2: "[RICE_norse_settlers|E]는 추가적인 £gold£ 또는 심지어 [titles|E]를 요구할 수 있으며, 협상이 실패할 경우 심각하게 반발할 수 있습니다!" # 6914531678961283272
-  RICE_normandy_recruit_norse_adventurers_effect_tooltip_3: "이 [결정|E]는 귀하의 [수도|E]가 [GetGeographicalRegion('RICE_southern_europe_region').GetName]에 있는 경우 [GetGeographicalRegion('RICE_northern_europe_region').GetName]에 있는 경우보다 비용이 많이 들고 쿨타임이 더 길어집니다." # 9078099476460490732
+  RICE_normandy_recruit_norse_adventurers_effect_tooltip_3: "이 [decision|E]는 귀하의 [capital|E]가 [GetGeographicalRegion('RICE_southern_europe_region').GetName]에 있는 경우 [GetGeographicalRegion('RICE_northern_europe_region').GetName]에 있는 경우보다 비용이 많이 들고 쿨타임이 더 길어집니다." # 9078099476460490732
   RICE_normandy_recruit_norse_adventurers_confirm: "스칸디나비아에 전하라!" # 4074903247104799063
   RICE_normandy_recruit_norse_adventurers_context_tooltip: "#bold 역사적 배경:# 바이킹 침략자들을 \"덜\" 전투적이거나 \"더\" 문명화된 유럽인들과 분리된 것으로 이상화하는 대중 역사 이미지와는 달리, 노르드족과 다른 사회 간의 관계는 종종 매우 복잡했습니다. 예를 들어, 노르망디인들이 기독교화를 시작한 후에도 그들은 종종 노르웨이 땅에 정착하거나 종교적 소속과 상관없이 그들을 위해 또는 그들에 반해 싸우는 등 종종 이교도 스칸디나비아인들과 빈번한 접촉을 이어갔습니다." # 11711039566640071869
   RICE_normandy_coastal_county_req: "해안 [county|E]를 하나 이상 소유하고 계십니다." # 28810606004221073
-  RICE_normandy_capital_duchy_coastal_req: "[수도|E]의 [법적|E] [공국|E]에 적어도 하나의 해안 [현|E]가 있습니다." # 12767153507892513397
+  RICE_normandy_capital_duchy_coastal_req: "[capital|E]의 [법적|E] [공국|E]에 적어도 하나의 해안 [현|E]가 있습니다." # 12767153507892513397
   RICE_normandy_invite_norse_type: "노르드 이주민 유형을 선택하십시오." # 5548949797463985519
   RICE_normandy_invite_norse_type_gui: "[RICE_norse_settlers|E]를 어떤 종류로 [realm|E]에 초대할지 선택하세요." # 16062249970386738972
   RICE_normandy_invite_norse_colonists_option: "#Bold 이주민들#!" # 11352792051470390334
@@ -413,7 +413,7 @@
   RICE_normandy_invite_norse_colonists_option_tooltip: "@gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_norse_adventurers_large_cost')|0]!#!#!\n\n$EFFECT_LIST_BULLET$귀하의 수도가 속한 [duchy|E]의 모든 [counties|E]가 약간의 [development|E]와 [control|E]를 얻으며, #V 10#!년에서 #V 25#!년 동안 [GetModifier('RICE_normandy_norse_colonists').GetNameWithTooltip] [county_modifier|E]를 받습니다.\n$EFFECT_LIST_BULLET$귀하의 [intrigue_i|E] [intrigue|E]에 따라 [GetModifier('fp1_reprieve_from_sa_modifier').GetNameWithTooltip|L] [character_modifier|E]를 얻을 수 있습니다." # 12663827376599928168
   RICE_normandy_invite_norse_courtiers_option: "#Bold 궁정 귀족#!" # 18139325160790842119
   RICE_normandy_invite_norse_courtiers_option_desc: "노르드 궁정원들을 초청합니다" # 670275052739468170
-  RICE_normandy_invite_norse_courtiers_option_tooltip: "@gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_norse_adventurers_small_cost')|0]!#!#!\n$EFFECT_LIST_BULLET$노르웨이 [귀족|E] 두 명이 귀하의 [궁정|E]에 나타날 것입니다. 그들은 적어도 한 가지 [기술|E], 종종 [무예|E]와 [용맹|E]에서 높은 평가를 받을 것입니다. 한 명 또는 두 명 중에서 선택할 수 있습니다. 그들은 [가문|E]을 이끌고 있을 수 있습니다.\n$EFFECT_LIST_BULLET$외교력 [외교|E]에 따라 [GetModifier('fp1_reprieve_from_sa_modifier').GetNameWithTooltip|L] [인물 수정사항|E]를 얻을 수 있습니다." # 11486685086621477661
+  RICE_normandy_invite_norse_courtiers_option_tooltip: "@gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_norse_adventurers_small_cost')|0]!#!#!\n$EFFECT_LIST_BULLET$노르웨이 [귀족|E] 두 명이 귀하의 [court|E]에 나타날 것입니다. 그들은 적어도 한 가지 [기술|E], 종종 [무예|E]와 [prowess|E]에서 높은 평가를 받을 것입니다. 한 명 또는 두 명 중에서 선택할 수 있습니다. 그들은 [가문|E]을 이끌고 있을 수 있습니다.\n$EFFECT_LIST_BULLET$외교력 [외교|E]에 따라 [GetModifier('fp1_reprieve_from_sa_modifier').GetNameWithTooltip|L] [인물 수정사항|E]를 얻을 수 있습니다." # 11486685086621477661
   RICE_normandy_invite_norse_mercenaries_option: "#Bold 용병#!" # 13058708918764993536
   RICE_normandy_invite_norse_mercenaries_option_desc: "노르드 용병 초대" # 13669843566229202872
   RICE_normandy_invite_norse_mercenaries_option_tooltip: "비용: @gold_icon! #V #Bold [GetPlayer.MakeScope.ScriptValue('RICE_norse_adventurers_large_cost')|0]#!#!\n\n$EFFECT_LIST_BULLET#최소 1개의 노르드 [men_at_arms|E] [regiment|E]를 포함하여 #V 200#!에서 #V 1000#! 사이의 [special_troops|E]를 얻습니다.\n$EFFECT_LIST_BULLET#귀하의 [martial_i|E] [martial|E]에 따라 [GetModifier('fp1_reprieve_from_sa_modifier').GetNameWithTooltip|L] [character_modifier|E]를 획득할 수도 있습니다." # 6918034264342876576
@@ -454,7 +454,7 @@
   RICE_normandy_mont_saint_michael_pilgrimage: "몽생미셸로 순례를 떠나십시오" # 8815669244886289896
   RICE_normandy_mont_saint_michael_pilgrimage_tooltip: "[GetBuilding('RICE_normandy_mont_saint_michel_02').GetName](으)로 [순례|E]를 떠나겠습니다." # 41841128258839822
   RICE_normandy_mont_saint_michael_pilgrimage_desc: "[GetBuilding('RICE_normandy_mont_saint_michel_02').GetName]은(는) 현지 순례자들에게 인기 있는 목적지입니다. 오랫동안 대천사 미카엘과 관련되어 온 이 장소에 모셔진 신성한 유물을 보러 가야겠습니다." # 15177784839683736250
-  RICE_normandy_mont_saint_michael_pilgrimage_effect_tooltip_1: "[GetBuilding('RICE_normandy_mont_saint_michel_02').GetName](으)로 [순례|E]를 떠나 아브랑슈의 성 오베르 또는 대천사 미카엘을 상징하는 긍정적인 [인물 보정치|E]와 [신앙도|E]를 얻게 됩니다." # 14248624706040190289
+  RICE_normandy_mont_saint_michael_pilgrimage_effect_tooltip_1: "[GetBuilding('RICE_normandy_mont_saint_michel_02').GetName](으)로 [순례|E]를 떠나 아브랑슈의 성 오베르 또는 대천사 미카엘을 상징하는 긍정적인 [character_modifiers|E]와 [piety|E]를 얻게 됩니다." # 14248624706040190289
   RICE_normandy_mont_saint_michael_pilgrimage_effect_tooltip_2: "[GetBuilding('RICE_normandy_mont_saint_michel_02').GetName]로 [순례|E]를 떠나 [piety|E]를 얻고 대천사 미카엘 또는 성모 마리아를 상징하는 긍정적인 [character_modifiers|E]를 얻을 것입니다." # 15654931580001738569
   RICE_normandy_mont_saint_michael_pilgrimage_effect_tooltip_3: "이러한 [modifiers|E]를 성공적으로 획득할 확률은 당신의 [piety_level|E]에 달려 있습니다." # 16814102525304313205
   RICE_normandy_mont_saint_michael_pilgrimage_confirm: "수도원으로!" # 8294144664801022397
@@ -480,15 +480,15 @@
   RICE_normandy_archangel_michael_statue: "몽생미셸에 미카엘 상 건립" # 11244228688576848484
   RICE_normandy_archangel_michael_statue_tooltip: "대천사 미카엘을 숭배하는 더 나은 방법이 분명 있을 거야!" # 6829392238270843290
   RICE_normandy_archangel_michael_statue_desc: "[GetBuilding('RICE_normandy_mont_saint_michel_02').GetName]은 오랫동안 중요한 순례지였으며, 수도원과 오랫동안 관련되어 온 대천사 미카엘의 인기가 점점 높아지고 있습니다. 수도원에 미카엘의 거대한 조각상을 설치하여 신자들이 숭배할 수 있는 가시적인 표현을 갖도록 하는 것이 어떻겠습니까?" # 18003023176193451003
-  RICE_normandy_archangel_michael_statue_effect_tooltip_1: "$RICE_normandy_mont_saint_michael_pilgrimage$ [결정|E]을 내릴 때, 아브랑슈의 성 오베르 또는 대천사 미카엘을 나타내는 [modifiers|E] 중에서 선택하는 대신, 순례자들은 이제 미카엘 또는 성모 마리아를 나타내는 더 강력한 [modifiers|E] 중에서 선택하게 됩니다." # 1160095224896981271
-  RICE_normandy_archangel_michael_statue_effect_tooltip_2: "이제 $RICE_normandy_observe_procession_of_saint_aubert$ [결정|E]은 생 오베르의 중요성이 감소함에 따라 [GetTitleByKey('c_avranches').GetNameNoTier]의 [통치자|E]로 제한됩니다." # 3303652492507858920
+  RICE_normandy_archangel_michael_statue_effect_tooltip_1: "$RICE_normandy_mont_saint_michael_pilgrimage$ [decision|E]을 내릴 때, 아브랑슈의 성 오베르 또는 대천사 미카엘을 나타내는 [modifiers|E] 중에서 선택하는 대신, 순례자들은 이제 미카엘 또는 성모 마리아를 나타내는 더 강력한 [modifiers|E] 중에서 선택하게 됩니다." # 1160095224896981271
+  RICE_normandy_archangel_michael_statue_effect_tooltip_2: "이제 $RICE_normandy_observe_procession_of_saint_aubert$ [decision|E]은 생 오베르의 중요성이 감소함에 따라 [GetTitleByKey('c_avranches').GetNameNoTier]의 [rulers|E]로 제한됩니다." # 3303652492507858920
   RICE_normandy_archangel_michael_statue_confirm: "위대한 수도원은 그 정도는 받을 자격이 있지!" # 11774569428761890117
   RICE_normandy_archangel_michael_statue_context_tooltip: "$RICE_normandy_mont_saint_michael_pilgrimage_context_tooltip$" # 15666676496837917469
   RICE_normandy_commission_historia_normannorum: "Historia Normannorum을 의뢰하십시오" # 6320038996273891263
   RICE_normandy_commission_historia_normannorum_tooltip: "[RICE_normandy_struggle|E]을 더욱 발전시키기 위해서는 건국 신화를 통해 공유된 정체성으로 단결해야 합니다." # 13188878701715811804
   RICE_normandy_commission_historia_normannorum_desc: "[GetTitleByKey('d_normandy').GetNameNoTier]를 통합하려는 우리의 노력이 반드시 순조롭게 진행된 것은 아닙니다. [ROOT.Char.GetCulture.GetCollectiveNoun](으)로서 단결하는 데 도움이 되도록 학자를 찾아 우리 민족의 역사와 [ROOT.Char.GetDynasty.GetName] 가문의 지도력 아래 우리가 노르드인과 프랑크인의 가장 훌륭한 면모를 어떻게 결합하는지 기록할 것입니다." # 4058030224517679406
   RICE_normandy_commission_historia_normannorum_effect_tooltip_1: "[courtier|E]를 임명하여 #italic Historia Normannorum#!를 쓰게 하거나, 대신 무작위로 생성된 [character|E]를 고용하여 #V @gold_icon! [EmptyScope.ScriptValue('RICE_misc_horse_sacrifice_cost_minor')|0]#!를 지불하십시오!" # 11565457898012967760
-  RICE_normandy_commission_historia_normannorum_effect_tooltip_2: "이 [결정|E]을 내리면 [prestige_i|E] #V 200#! 및 @dynasty_prestige_icon! #V 100#!을 얻습니다. 완료되면 [GetTitleByKey('d_normandy').GetNameNoTier]의 [통치자|E] (또는 아무도 소유하지 않은 경우 [공작령|E] 내에서 선택한 [백작|E])의 [왕조|E]는 시작 여부에 관계없이 @dynasty_prestige_icon! #V 1000#!을 얻습니다." # 18340932152775325145
+  RICE_normandy_commission_historia_normannorum_effect_tooltip_2: "이 [decision|E]을 내리면 [prestige_i|E] #V 200#! 및 @dynasty_prestige_icon! #V 100#!을 얻습니다. 완료되면 [GetTitleByKey('d_normandy').GetNameNoTier]의 [rulers|E] (또는 아무도 소유하지 않은 경우 [공작령|E] 내에서 선택한 [백작|E])의 [왕조|E]는 시작 여부에 관계없이 @dynasty_prestige_icon! #V 1000#!을 얻습니다." # 18340932152775325145
   RICE_normandy_commission_historia_normannorum_effect_tooltip_3: "[norman.GetCollectiveNoun]의 [language|E]([norse.GetLanguage.GetName]를 여전히 사용하는 모든 그들의 [cultures|E]와 그 후손들)는 [french.GetLanguage.GetName]로 바뀔 것입니다." # 1957734780583501084
   RICE_normandy_commission_historia_normannorum_effect_tooltip_4: "$tradition_RICE_northmen_name$ [tradition|E]은 해당 [cultures|E]를 가진 모든 [tradition|E]을 더 나은 $tradition_RICE_adventurers_and_aristocrats_name$으로 업그레이드합니다" # 7213220500244451490
   RICE_normandy_commission_historia_normannorum_effect_tooltip_5: "이 [decision|E]은 $RICE_normandy_struggle_ending_conquest_decision$ 또는 $RICE_normandy_struggle_ending_assimilation_decision$ 결말을 위해 [RICE_normandy_struggle|E]을 해결하려면 #bold 필수적#입니다!" # 112005239192046102
@@ -939,7 +939,7 @@
   normandy.0065.a: "놀랍군!" # 6784546666338679051
   normandy.0065.b: "그리 된 것이오." # 4807123701070642983
   normandy.0065.info: "$RICE_normandy_find_saint_aubert_relics_context_tooltip$" # 6791295883024584911
-  normandy.0065.tooltip: "이제 $RICE_normandy_observe_procession_of_saint_aubert$ [결정|E]을 내릴 수 있으며, $RICE_normandy_mont_saint_michael_pilgrimage$ [결정|E]을 더 넓은 지리적 범위에서 내릴 수 있습니다" # 6013104808555259068
+  normandy.0065.tooltip: "이제 $RICE_normandy_observe_procession_of_saint_aubert$ [decision|E]을 내릴 수 있으며, $RICE_normandy_mont_saint_michael_pilgrimage$ [decision|E]을 더 넓은 지리적 범위에서 내릴 수 있습니다" # 6013104808555259068
   normandy.0066.t: "성 오베르의 성물 분실" # 11098808118821560748
   normandy.0066.desc: "오랜 세월 동안 [GetBuilding('RICE_normandy_mont_saint_michel_02').GetName]은 창립자인 아브랑슈의 성 오베르의 유물을 안전하게 보관해 왔습니다. 수도원은 원래 성 오베르에게 그 장소를 세우라고 지시한 대천사 미카엘에게 헌정되었지만, 지역 [christian.GetAdjective] 순례자들은 성 오베르에게 경의를 표하기 위해 여러 번 찾아오기도 했습니다.\n\n불행히도 성 오베르의 유물이 어찌 된 영문인지 사라져 찾을 수 없게 되었습니다. 아마도 관리인들의 부주의 때문일 수도 있고, 도둑맞았을 수도 있습니다. 어쩌면 인근 [christian.GetAdjectiveNoTooltip] 공동체의 죄 때문에 \"기적적으로\" 사라졌을 수도 있습니다.\n\n현재 유물을 찾기 위한 노력이 진행 중이지만, 과연 성공할지는 알 수 없습니다. 어쨌든 지역 순례자들은 이러한 상황에 슬퍼할 것입니다." # 17816575588080991103
   normandy.0066.a: "유물은 다시 발견될 수 있을까요?" # 11489659110833762588
