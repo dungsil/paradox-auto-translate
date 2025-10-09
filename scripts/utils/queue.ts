@@ -30,7 +30,7 @@ async function processQueue () {
   }
 
   const task = translationQueue.shift()
-  if (task) {
+  if (task?.queue != null) {
     lastRequestTime = now
     await executeTaskWithRetry(task)
 
@@ -39,14 +39,14 @@ async function processQueue () {
   }
 }
 
-async function executeTaskWithRetry ({ key, queue: task }: Queue, retryCount = 0): Promise<void> {
+async function executeTaskWithRetry (task: Queue, retryCount = 0): Promise<void> {
   try {
-    await task()
+    await task.queue()
   } catch (error) {
     const message = (error as Error).message
     if (message) {
       if (!message.includes('429 Too Many Requests')) {
-        log.warn('[', key ,']요청 실패:', (error as Error).message)
+        log.warn('[', task.key ,']요청 실패:', (error as Error).message)
         log.debug('\t', error)
       }
     }
@@ -61,7 +61,7 @@ async function executeTaskWithRetry ({ key, queue: task }: Queue, retryCount = 0
       // 재시도
       return executeTaskWithRetry(task, retryCount + 1)
     } else {
-      log.error('[', key, ']', '재시도 횟수가 초과되어 종료됩니다:', error)
+      log.error('[', task.key, ']', '재시도 횟수가 초과되어 종료됩니다:', error)
       throw error
     }
   }
