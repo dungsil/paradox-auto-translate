@@ -82,7 +82,7 @@
   VIETmisc.7018.a: "재밌겠는데! 왜 안 되겠어?" # 10255246076582847665
   VIETmisc.7018.b: "갈 길이 바쁘다. 지체할 수 없다." # 6172835441272965310
   VIETmisc.7019.t: "$travel_event_prefix$ 떠돌이 음유시인" # 7744790867665939630
-  VIETmisc.7019.desc: "저희는 [ROOT.Char.GetCurrentLocation.GetName]의 길가에서 쉬고 있었는데, 마침 여행 중인 [culture.GetName] 음유 시인이 지나가더군요. [bard.GetSheHe|U]는 자신을 [bard.GetFullName](이)라고 소개했습니다.\n\n제 경비병 중 한 명이 [bard.GetWomanMan]에게 흥을 돋우는 대가로 약간의 돈을 건넸습니다. 그러자 [bard.GetFirstNameNoTooltip]는 현지 [culture.GetLanguage.GetName] 방언으로 여러 곡을 불렀고, [bard.GetHerHis]의 재능에 의심의 여지가 없었습니다. 그 애절한 노래는 저희의 마음을 깊이 감동시켰고, 즐거운 노래는 저희의 정신을 일깨웠습니다." # 
+  VIETmisc.7019.desc: "우리는 [ROOT.Char.GetCurrentLocation.GetName]에서 길을 따라 쉬고 있었는데, 마침 한 떠돌이 [culture.GetName] 음유시인이 지나갔습니다. [bard.GetSheHe|U]는 [bard.GetHerselfHimself]를 [bard.GetFullName]이라고 소개했습니다.\n\n제 호위병 중 한 명이 그 [bard.GetWomanMan]에게 약간의 돈을 주고 흥을 돋울 거리를 요청했습니다. 그러자 [bard.GetFirstNameNoTooltip]은 지역 [culture.GetLanguage.GetName] 방언으로 여러 노래를 불렀는데, 그 재능에 대해서는 의심의 여지가 거의 없었습니다. 애절한 노래는 우리의 마음을 깊이 울렸고, 즐거운 노래는 우리의 기운을 북돋았습니다." # 2945658823281682809
   VIETmisc.7019.a: "훌륭한 연기였소!" # 840478106225249047
   VIETmisc.7019.b: "노래 몇 곡 더 부르게 동전 좀 주시오!" # 17161530763140856096
   VIETmisc.7019.c: "내가 좋아하는 노래들을 적어 두려고 노력할게." # 11829831492189469216
@@ -196,7 +196,7 @@
   VIETmisc.7045.b.failure: "누군가가 노인에게서 훔치는 당신을 목격했습니다" # 13217068181427994810
   VIETmisc.7045.b.success: "노인들에게서 훔친 것에 대해 아무도 신경 쓰지 않아." # 12220083796896115273
   VIETmisc.7046.t: "정말 수치스럽군!" # 18376687030013202586
-  VIETmisc.7046.desc: "얼마 전, 저는 [county.GetNameNoTier](으)로 여행을 갔었습니다. 그곳에서 저는 [elder.GetFirstNameNoTooltip]이라는 이름의 나이 많은 [elder.GetWomanMan]의 집에 머물렀습니다.\n\n[elder.GetSheHe]는 나이가 많고 속이기 쉬웠기 때문에 [elder.GetHerHim]에게서 훔치지 않을 수 없었습니다... 아니, 그렇게 생각했습니다.\n\n알고 보니 [elder.GetFirstNameNoTooltip]은 시골에서 혼자 살고 있음에도 불구하고 [county.GetNameNoTierNoTooltip]에서 #italic 매우#! 유명했으며, 수년 동안 인근 정착지에서 존경을 받았습니다. 제가 [elder.GetHerHis] 물건을 훔친 것이 발각된 것 같고, 이제 [ROOT.Char.GetTitledFirstNameNoTooltip]이 얼마나 비참하게 탐욕스러웠으면 늙은 [elder.GetWomanMan]에게서 훔치는 데 의존해야 했는지에 대한 소문이 퍼지고 있습니다!" # 
+  VIETmisc.7046.desc: "얼마 전, 저는 [county.GetNameNoTier]를 여행하고 있었습니다. 그곳에서 저는 [elder.GetWomanMan]인 [elder.GetFirstNameNoTooltip]라는 노파의 집에서 묵었습니다.\n\n저는 [elder.GetHerHim]가 나이가 많고 속이기 쉬웠기에, 그분에게서 물건을 훔치는 것을 참을 수 없었습니다... 라고 생각했죠.\n\n알고 보니, 시골에서 홀로 살고 있음에도 불구하고, [elder.GetFirstNameNoTooltip]는 [county.GetNameNoTierNoTooltip]에서 매우 유명했으며, 오랫동안 주변 여러 정착지에서 존경받아 왔습니다. 제 생각에 그분의 물건을 훔친 것이 발각된 듯하며, 이제 #italic 매우#! 탐욕스러운 [ROOT.Char.GetTitledFirstNameNoTooltip]가 늙은 [elder.GetWomanMan]에게까지 손을 벌려야 했다는 소문이 퍼지고 있습니다!" # 11694202828522783724
   VIETmisc.7046.a: "이런." # 18311732011150879925
   VIETmisc.7047.t: "$travel_event_prefix$ 나무 판자 훔치기" # 3505130881544205016
   VIETmisc.7047.desc: "[ROOT.Char.GetCurrentLocation.GetName]의 일부 도로는 나무 판자로 덮여 있습니다. 이는 일부 지역에서 흔히 볼 수 있는 것으로, 이동을 더 쉽게 하기 위함입니다. 그러나 특히 외딴 지역에서는 이 나무가 종종 도난의 대상이 된다는 것은 놀라운 일이 아닐 것입니다.\n\n마침 우리는 나무 판자를 훔치려던 불량배 무리와 마주쳤습니다. 그들은 우리가 접근하자마자 나무를 가지고 도망치려 했습니다." # 11122752632721659810
@@ -206,7 +206,7 @@
   VIETmisc.7047.b.success: "도둑들을 잡았습니다" # 9699114389529760185
   VIETmisc.7047.info: "#emphasis 역사적 배경:#! 중세 시대에는 여행자의 이동을 돕기 위해 흙길을 나무 판자로 보강하는 경우가 있었습니다. 그러나 포장 도로의 돌과 마찬가지로 도난의 대상이 되는 경우가 많았습니다. 예를 들어 13세기 프랑스 법률 텍스트의 일부인 #italic Coutumes de Beauvaisis#!는 도로 규정에 대해 논의하고 도로에 사용된 돌이나 나무 판자를 불법적으로 훔쳐 도로가 예상보다 좁아지는 문제를 언급합니다." # 4597210964524624154
   VIETmisc.7048.t: "$travel_event_prefix$ 별자리 연구" # 13792747942222342391
-  VIETmisc.7048.desc: "\"[traveler.GetTitledFirstName]님, 뭐 하세요?\" 밤에 잠이 잘 오지 않아 뒤척거리다가 모닥불로 나왔습니다. 어쩌면 여행 때문에 몸의 리듬이 깨졌기 때문일지도 모릅니다. [traveler.GetFirstNameNoTooltip]님도 불침번 근무 시간도 아닌데 깨어 있길래, 옆에 앉았습니다.\n\n[traveler.GetFirstNameNoTooltip]님은 생각에 잠긴 듯한 표정으로 밤하늘을 가리키며 미소를 지었습니다. \"별들 말입니다…. 가끔은 그냥 멍하니 바라보는 걸 좋아해요. 정말 장관이지 않나요? 매일 이런 경이로운 광경을 볼 수 있게 해 주신 [traveler.GetFaith.NightGodName]께 감사드립니다. 당신도 별자리를 좀 아시겠죠?\"" # 
+  VIETmisc.7048.desc: "“무엇을 하고 있소?” 나는 [traveler.GetTitledFirstName]에게 물었다.\n\n오늘 밤은 잠들기가 어려웠다. 아마도 여행 때문에 몸의 평소 리듬이 깨진 탓이겠지. 그래서 나는 캠프파이어 옆으로 나왔다. [traveler.GetFirstNameNoTooltip]도 깨어 있었는데, 그 순간 야간 경계 근무 시간이 아니었음에도 말이다. 나는 [traveler.GetHerHim] 옆에 앉았다.\n\n깊은 생각에 잠긴 듯한 표정으로 [traveler.GetHerHis] 얼굴을 한 [traveler.GetFirstNameNoTooltip]이 밤하늘을 가리키며 미소 짓는다. “별들이오…. 가끔은 그저 바라보는 것이 좋소. 정말 장엄하지 않소? 매일 이런 경이로움을 볼 수 있게 해주신 [traveler.GetFaith.NightGodName]께 감사하오. 당신도 몇몇 별자리는 알아보겠지?”" # 17743768932662604952
   VIETmisc.7048.a: "저 별자리는 [ROOT.Char.Custom('RandomDivinity')]의 [ROOT.Char.Custom('GetAccessory')|U]인가?" # 10185989030059994346
   VIETmisc.7048.b: "아니, 됐어. 그냥 다시 자러 가야겠다." # 14219246057073562262
   VIETmisc.7049.t: "다시, 밤하늘 아래" # 17975362397426006287
