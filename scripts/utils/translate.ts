@@ -50,23 +50,28 @@ export async function translate (text: string, gameType: GameType = 'ck3', retry
     return await translate(text, gameType, retry + 1)
   }
 
-  // 대괄호 내부의 변수가 번역되었는지 검사
-  const bracketVariablesInSource = text.match(/\[[^\]]+\]/g) || []
-  const bracketVariablesInTranslation = translatedText.match(/\[[^\]]+\]/g) || []
+  // 대괄호 내부의 게임 변수가 번역되었는지 검사 (|E 또는 함수 호출 패턴이 있는 경우만)
+  const gameVariablePattern = /\[([^\]]*(?:\|[A-Z]|Get[A-Z][^\]]*|[a-z_]+_i))\]/g
+  const sourceGameVariables = text.match(gameVariablePattern) || []
+  const translationGameVariables = translatedText.match(gameVariablePattern) || []
   
-  if (bracketVariablesInSource.length !== bracketVariablesInTranslation.length) {
-    log.warn('대괄호 변수 불일치 감지: "', normalizedText, '" -> "', translatedText, '"')
-    return await translate(text, gameType, retry + 1)
-  }
+  // 원본에 게임 변수가 있는 경우에만 검증
+  if (sourceGameVariables.length > 0) {
+    // 게임 변수 개수가 다르면 재번역
+    if (sourceGameVariables.length !== translationGameVariables.length) {
+      log.warn('게임 변수 불일치 감지: "', normalizedText, '" -> "', translatedText, '"')
+      return await translate(text, gameType, retry + 1)
+    }
 
-  // 대괄호 내부가 한글로 번역되었는지 확인 (한글이 포함되어 있으면 잘못 번역된 것)
-  const hasKoreanInBrackets = bracketVariablesInTranslation.some(variable => 
-    /[가-힣]/.test(variable)
-  )
-  
-  if (hasKoreanInBrackets) {
-    log.warn('대괄호 내 한글 감지 (잘못된 변수 번역): "', normalizedText, '" -> "', translatedText, '"')
-    return await translate(text, gameType, retry + 1)
+    // 게임 변수 내부에 한글이 있으면 잘못 번역된 것
+    const hasKoreanInGameVariables = translationGameVariables.some(variable => 
+      /[가-힣]/.test(variable)
+    )
+    
+    if (hasKoreanInGameVariables) {
+      log.warn('게임 변수 내 한글 감지 (잘못된 번역): "', normalizedText, '" -> "', translatedText, '"')
+      return await translate(text, gameType, retry + 1)
+    }
   }
 
   await setCache(text, translatedText, gameType)

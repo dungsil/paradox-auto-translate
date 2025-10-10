@@ -10,7 +10,7 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
 
 2. Preserve all variables and formatting elements with absolute precision:
    - Variables within '$', '£', or '@' symbols must remain untouched:
-     e.g., $k_france$ → $k_france$, £gold£ → £gold£, @crown_icon@ @crown_icon@
+     e.g., $k_france$ → $k_france$, £gold£ → £gold£, @crown_icon@ → @crown_icon@
    - Maintain formatting syntax enclosed by '#' characters:
      e.g., #bold ROYAL DECREE# → #bold ROYAL DECREE#
    - Keep variables in square brackets COMPLETELY UNALTERED - DO NOT translate ANY part inside brackets:
@@ -47,17 +47,17 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
     Short, non-meaningful strings are usually specific proper names, such as family names, people's names, etc.
     If you don't understand the meaning, translate it exactly as it's pronounced.
 
-14. For short proper nouns (especially dynasty/family name prefixes like "ui", "of", "del", "du", "as-"), ALWAYS transliterate phonetically, NEVER translate their dictionary meaning:
-    - CORRECT: "ui" → "우이", "of" → "오브", "del" → "델", "du" → "두", "as-" → "앗-", "z" → "즈"
-    - WRONG: "ui" → "사용자 인터페이스", "of" → "의", "del" → "삭제", "du" → "당신", "as-" → "~와 같이", "z" → "ㅈ"
+14. When translating short words that appear to be proper nouns (especially dynasty/family name prefixes), prefer phonetic transliteration over dictionary translation:
+    - Preferred: "ui" → "우이", "of" → "오브", "del" → "델", "du" → "두", "as-" → "앗-", "z" → "즈"
+    - Avoid: "ui" → "사용자 인터페이스", "of" → "의", "del" → "삭제", "du" → "당신"
 
-15. For dynasty/family names ending in "-id", "-vid", "-rid" etc., transliterate only the name without adding Korean suffixes like "왕조" (dynasty), "인" (people), "인들" (peoples):
-    - CORRECT: "Abbadid" → "압바드", "Aghlabid" → "아글라브", "Ahmadid" → "아흐마드", "Arabs" → "애럽스", "Amalfinos" → "아말피", "Antiochites" → "안티오키아"
-    - WRONG: "Abbadid" → "압바드 왕조", "Aghlabid" → "아글라브 왕조", "Ahmadid" → "아흐마드 왕조", "Arabs" → "아랍인", "Amalfinos" → "아말피인들", "Antiochites" → "안티오키아인들"
+15. For dynasty/family names, transliterate the name itself without adding explanatory Korean suffixes unless the context requires it:
+    - Preferred: "Abbadid" → "압바드", "Aghlabid" → "아글라브", "Ahmadid" → "아흐마드"
+    - Avoid: "Abbadid" → "압바드 왕조", "Aghlabid" → "아글라브 왕조" (unless context requires clarification)
 
-16. For very short words (1-3 letters) or words that could be names, prefer phonetic transliteration over semantic translation unless context clearly indicates they are common words:
-    - CORRECT: "Are" (as name) → "아레", "Altar" (as name) → "알터", "Archiac" → "아르시악", "Altoonian" → "알토니안"
-    - WRONG: "Are" → "입니까", "Altar" → "제단", "Archiac" → "고어", "Altoonian" → "알토니아인"
+16. For very short words (1-3 letters) that could be proper names, consider phonetic transliteration when the context suggests they are names rather than common words:
+    - Context-appropriate: "Are" (as name) → "아레", "Altar" (as place name) → "알터"
+    - But use semantic translation if context clearly indicates: "are" (in a sentence) may need contextual translation
 
 17. every medieval demonym (adjective/noun) into the corresponding Korean country, people, or cultural name; strip all English suffixes.
     - Examples: "English" → "잉글랜드", "French" → "프랑스", "Polish" → "폴란드", "Hungarian" → "헝가리", "Norwegian" → "노르웨이"
@@ -135,13 +135,13 @@ ensuring scientific accuracy and futuristic nuances while adhering to strict for
     Short, non-meaningful strings are usually specific proper names, such as species names, planet names, etc.
     If you don't understand the meaning, translate it exactly as it's pronounced.
 
-14. For short proper nouns, ALWAYS transliterate phonetically, NEVER translate their dictionary meaning:
-    - CORRECT: "ui" → "우이", "of" → "오브", "del" → "델", "du" → "두"
-    - WRONG: "ui" → "사용자 인터페이스", "of" → "의", "del" → "삭제", "du" → "당신"
+14. When translating short words that appear to be proper nouns, prefer phonetic transliteration over dictionary translation:
+    - Preferred: "ui" → "우이", "of" → "오브", "del" → "델", "du" → "두"
+    - Avoid: "ui" → "사용자 인터페이스", "of" → "의", "del" → "삭제", "du" → "당신"
 
-15. For very short words (1-3 letters) that could be names, prefer phonetic transliteration over semantic translation:
-    - CORRECT: "Are" (as name) → "아레", "Altar" (as name) → "알터"
-    - WRONG: "Are" → "입니까", "Altar" → "제단"
+15. For very short words (1-3 letters) that could be proper names, consider phonetic transliteration when the context suggests they are names:
+    - Context-appropriate: "Are" (as name) → "아레", "Altar" (as place name) → "알터"
+    - But use semantic translation if context clearly indicates common usage
 
 ### Example Translation:
 Original: "The #bold Galactic Emperor# of $empire_name$ has declared war on [target_country.GetName]!"
@@ -211,13 +211,13 @@ ensuring historical accuracy and period-appropriate nuances while adhering to st
     Short, non-meaningful strings are usually specific proper names, such as country names, leader names, etc.
     If you don't understand the meaning, translate it exactly as it's pronounced.
 
-14. For short proper nouns, ALWAYS transliterate phonetically, NEVER translate their dictionary meaning:
-    - CORRECT: "ui" → "우이", "of" → "오브", "del" → "델", "du" → "두"
-    - WRONG: "ui" → "사용자 인터페이스", "of" → "의", "del" → "삭제", "du" → "당신"
+14. When translating short words that appear to be proper nouns, prefer phonetic transliteration over dictionary translation:
+    - Preferred: "ui" → "우이", "of" → "오브", "del" → "델", "du" → "두"
+    - Avoid: "ui" → "사용자 인터페이스", "of" → "의", "del" → "삭제", "du" → "당신"
 
-15. For very short words (1-3 letters) that could be names, prefer phonetic transliteration over semantic translation:
-    - CORRECT: "Are" (as name) → "아레", "Altar" (as name) → "알터"
-    - WRONG: "Are" → "입니까", "Altar" → "제단"
+15. For very short words (1-3 letters) that could be proper names, consider phonetic transliteration when the context suggests they are names:
+    - Context-appropriate: "Are" (as name) → "아레", "Altar" (as place name) → "알터"
+    - But use semantic translation if context clearly indicates common usage
 
 ### Example Translation:
 Original: "The #bold Prime Minister# of $country_name$ has announced new industrial reforms in [state.GetName]!"
