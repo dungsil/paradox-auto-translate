@@ -18,11 +18,35 @@ pnpm ck3
 # Update file hashes without translating (useful for detecting changes)
 pnpm ck3:update-hash
 
+# Invalidate translations based on dictionary updates
+pnpm ck3:update-dict
+
+# Retranslate incorrectly translated items (based on validation rules from issue #64)
+pnpm ck3:retranslate
+
 # Run VIC3 translation process
 pnpm vic3
 
 # Update VIC3 file hashes without translating
 pnpm vic3:update-hash
+
+# Invalidate VIC3 translations based on dictionary updates
+pnpm vic3:update-dict
+
+# Retranslate incorrectly translated VIC3 items
+pnpm vic3:retranslate
+
+# Run Stellaris translation process
+pnpm stellaris
+
+# Update Stellaris file hashes without translating
+pnpm stellaris:update-hash
+
+# Invalidate Stellaris translations based on dictionary updates
+pnpm stellaris:update-dict
+
+# Retranslate incorrectly translated Stellaris items
+pnpm stellaris:retranslate
 
 # Install dependencies
 pnpm install
@@ -67,6 +91,13 @@ language = "english"                          # Source language
 - Translation memory with manual dictionary overrides
 - Persistent storage to avoid retranslation
 
+**Translation Validation** (`scripts/utils/translation-validator.ts`):
+- Detects incorrectly translated items based on validation rules
+- Validates preservation of technical identifiers (snake_case like `mod_icon_*`)
+- Ensures game variables in brackets remain untranslated (e.g., `[region|E]`, `[GetTitle]`)
+- Checks for unwanted LLM responses in translations
+- Used by retranslation script to find items that need re-translation
+
 ### Directory Structure
 
 ```
@@ -97,6 +128,15 @@ scripts/
 - Specialized prompts with CK3 medieval context
 - Examples of proper variable preservation
 - Guidelines for Korean localization standards
+
+**Validation Rules** (from issue #64):
+Items that should NOT be translated:
+1. **Technical identifiers**: snake_case patterns like `mod_icon_*`, `com_icon_*`
+2. **Game variables in brackets**: `[region|E]`, `[GetTitle]`, `[county|E]`, etc.
+3. **Special symbols**: Variables enclosed in `$...$`, `£...£`, `@...@`, `#...#`
+4. **Unwanted LLM phrases**: "네, 알겠습니다", "Yes, I understand", etc.
+
+The `retranslate` script uses these rules to detect and invalidate incorrectly translated items.
 
 ## Development Notes
 
