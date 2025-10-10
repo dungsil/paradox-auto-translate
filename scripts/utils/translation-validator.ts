@@ -103,8 +103,9 @@ export function validateTranslation(
     const uniqueTransVars = [...new Set(translationGameVariables)]
     
     // GetHerHis, GetHerHim, GetSheHe 함수는 한국어에서 성별 구분 없이 "그"로 통일하므로 누락 허용
-    // namespace가 포함된 경우도 처리 (예: [character.GetHerHis], [monk.GetHerHim])
-    const genderFunctionPattern = /\[(?:[a-z_]+\.)?Get(?:HerHis|HerHim|SheHe|Her|She|He|His|Him)(?:\|[A-Z])?\]/gi
+    // namespace가 포함된 경우도 처리 (예: [character.GetHerHis], [monk.GetHerHim], [ROOT.Char.GetSheHe])
+    // 다중 네임스페이스 지원을 위해 점(.)으로 구분된 여러 레벨 허용 (대소문자 모두 허용)
+    const genderFunctionPattern = /\[(?:[a-zA-Z_]+\.)*Get(?:HerHis|HerHim|SheHe|Her|She|He|His|Him)(?:\|[A-Z])?\]/i
     const filteredSourceVars = uniqueSourceVars.filter(v => !genderFunctionPattern.test(v))
     
     // 원본에 있는 변수가 번역에 없으면 오류 (단, 성별 함수는 제외)
