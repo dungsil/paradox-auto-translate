@@ -50,7 +50,8 @@ export function validateTranslation(
   // 기술 식별자(snake_case)가 번역되었는지 검사
   // 소문자로 시작하는 snake_case 식별자만 검사 (예: mod_icon_*, com_icon_*)
   // 대문자로 시작하는 이름 (예: A_Chi, A_Mo_Nuo_Ju)은 번역 가능한 문자열로 취급
-  const technicalIdentifiers = normalizedSource.match(/\b[a-z][a-z]*(?:_[a-z]+)+\b/g) || []
+  // @icon_name! 같은 게임 아이콘 참조는 제외 (이미 게임 syntax의 일부)
+  const technicalIdentifiers = normalizedSource.match(/(?<![@$£])\b[a-z][a-z]*(?:_[a-z]+)+\b(?![!])/g) || []
   if (technicalIdentifiers.length > 0) {
     const allIdentifiersPreserved = technicalIdentifiers.every(identifier => 
       normalizedTranslation.includes(identifier)
