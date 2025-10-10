@@ -73,11 +73,17 @@ export function validateTranslation(
   
   // 원본에 게임 변수가 있는 경우에만 검증
   if (sourceGameVariables.length > 0) {
-    // 게임 변수 개수가 다르면 잘못된 번역
-    if (sourceGameVariables.length !== translationGameVariables.length) {
+    // 원본의 모든 고유 게임 변수가 번역에도 있는지 확인
+    // (번역에서 변수를 반복하는 것은 허용 - 문법적 필요에 따라)
+    const uniqueSourceVars = [...new Set(sourceGameVariables)]
+    const uniqueTransVars = [...new Set(translationGameVariables)]
+    
+    // 원본에 있는 변수가 번역에 없으면 오류
+    const missingVars = uniqueSourceVars.filter(v => !uniqueTransVars.includes(v))
+    if (missingVars.length > 0) {
       return {
         isValid: false,
-        reason: `게임 변수 개수 불일치 (원본: ${sourceGameVariables.length}, 번역: ${translationGameVariables.length})`
+        reason: `누락된 게임 변수: ${missingVars.join(', ')}`
       }
     }
 
