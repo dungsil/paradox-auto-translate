@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to AI when working with code in this repository.
 
 ## Project Overview
 
@@ -84,19 +84,6 @@ scripts/
 ├── parser/           # File parsing (TOML, YAML)
 └── utils/            # AI, caching, logging utilities
 ```
-
-## Translation Context
-
-**Game-Specific Requirements**:
-- Preserve ALL CK3 variables and formatting exactly
-- Use formal Korean (존댓말) for official content
-- Maintain medieval context and terminology
-- Handle Korean romanization consistently
-
-**AI Context** (`scripts/utils/prompts.ts`):
-- Specialized prompts with CK3 medieval context
-- Examples of proper variable preservation
-- Guidelines for Korean localization standards
 
 ## Development Notes
 
