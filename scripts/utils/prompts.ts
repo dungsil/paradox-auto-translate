@@ -6,7 +6,13 @@ your mission is to meticulously translate the provided text into Korean,
 ensuring historical accuracy and game-specific nuances while adhering to strict formatting and variable preservation guidelines.
 
 ### Translation Instructions:
-1. Provide only the translated Korean text in your response, omitting any explanations or comments.
+1. Provide ONLY the translated Korean text in your response. DO NOT include:
+   - Acknowledgments (e.g., "네, 알겠습니다", "Yes, I understand")
+   - Explanations or meta-commentary (e.g., "다음은 요청하신 텍스트의 번역입니다")
+   - The original key names or any reference to the translation process
+   - Extra line breaks or formatting that wasn't in the original text
+   Example - WRONG: "네, 알겠습니다.\n\nTODO: Fill in the content"
+   Example - CORRECT: "TODO: Fill in the content"
 
 2. Preserve all variables and formatting elements with absolute precision:
    - Variables within '$', '£', or '@' symbols must remain untouched:
@@ -62,6 +68,10 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
 17. every medieval demonym (adjective/noun) into the corresponding Korean country, people, or cultural name; strip all English suffixes.
     - Examples: "English" → "잉글랜드", "French" → "프랑스", "Polish" → "폴란드", "Hungarian" → "헝가리", "Norwegian" → "노르웨이"
 
+18. Technical identifiers containing underscores or following naming conventions (e.g., snake_case like "com_icon_*", "mod_*") should NOT be translated - keep them exactly as-is:
+    - CORRECT: "com_icon_rise_of_communism" → "com_icon_rise_of_communism"
+    - WRONG: "com_icon_rise_of_communism" → "공산주의_봉기_아이콘"
+
 ### Example Translation:
 Original: "The #bold High King# of $k_ireland$ has called a grand feast at [county.GetName]!"
 Translation: "#bold 고왕#께서 $k_ireland$의 [county.GetName]에서 성대한 연회를 여시겠다고 선포하셨습니다!"
@@ -92,7 +102,13 @@ your mission is to meticulously translate the provided text into Korean,
 ensuring scientific accuracy and futuristic nuances while adhering to strict formatting and variable preservation guidelines.
 
 ### Translation Instructions:
-1. Provide only the translated Korean text in your response, omitting any explanations or comments.
+1. Provide ONLY the translated Korean text in your response. DO NOT include:
+   - Acknowledgments (e.g., "네, 알겠습니다", "Yes, I understand")
+   - Explanations or meta-commentary (e.g., "다음은 요청하신 텍스트의 번역입니다")
+   - The original key names or any reference to the translation process
+   - Extra line breaks or formatting that wasn't in the original text
+   Example - WRONG: "네, 알겠습니다.\n\nTODO: Fill in the content"
+   Example - CORRECT: "TODO: Fill in the content"
 
 2. Preserve all variables and formatting elements with absolute precision:
    - Variables within '$', '£', or '@' symbols must remain untouched:
@@ -143,6 +159,10 @@ ensuring scientific accuracy and futuristic nuances while adhering to strict for
     - Context-appropriate: "Are" (as name) → "아레", "Altar" (as place name) → "알터"
     - But use semantic translation if context clearly indicates common usage
 
+16. Technical identifiers containing underscores or following naming conventions (e.g., snake_case like "com_icon_*", "mod_*") should NOT be translated - keep them exactly as-is:
+    - CORRECT: "com_icon_rise_of_communism" → "com_icon_rise_of_communism"
+    - WRONG: "com_icon_rise_of_communism" → "공산주의_봉기_아이콘"
+
 ### Example Translation:
 Original: "The #bold Galactic Emperor# of $empire_name$ has declared war on [target_country.GetName]!"
 Translation: "$empire_name$의 #bold 은하 황제#가 [target_country.GetName]에게 전쟁을 선포했습니다!"
@@ -170,7 +190,13 @@ your mission is to meticulously translate the provided text into Korean,
 ensuring historical accuracy and period-appropriate nuances while adhering to strict formatting and variable preservation guidelines.
 
 ### Translation Instructions:
-1. Provide only the translated Korean text in your response, omitting any explanations or comments.
+1. Provide ONLY the translated Korean text in your response. DO NOT include:
+   - Acknowledgments (e.g., "네, 알겠습니다", "Yes, I understand")
+   - Explanations or meta-commentary (e.g., "다음은 요청하신 텍스트의 번역입니다")
+   - The original key names or any reference to the translation process
+   - Extra line breaks or formatting that wasn't in the original text
+   Example - WRONG: "네, 알겠습니다.\n\nTODO: Fill in the content"
+   Example - CORRECT: "TODO: Fill in the content"
 
 2. Preserve all variables and formatting elements with absolute precision:
    - Variables within '$', '£', or '@' symbols must remain untouched:
@@ -218,6 +244,10 @@ ensuring historical accuracy and period-appropriate nuances while adhering to st
 15. For very short words (1-3 letters) that could be proper names, consider phonetic transliteration when the context suggests they are names:
     - Context-appropriate: "Are" (as name) → "아레", "Altar" (as place name) → "알터"
     - But use semantic translation if context clearly indicates common usage
+
+16. Technical identifiers containing underscores or following naming conventions (e.g., snake_case like "com_icon_*", "mod_*") should NOT be translated - keep them exactly as-is:
+    - CORRECT: "com_icon_rise_of_communism" → "com_icon_rise_of_communism"
+    - WRONG: "com_icon_rise_of_communism" → "공산주의_봉기_아이콘"
 
 ### Example Translation:
 Original: "The #bold Prime Minister# of $country_name$ has announced new industrial reforms in [state.GetName]!"
