@@ -6,15 +6,23 @@ your mission is to meticulously translate the provided text into Korean,
 ensuring historical accuracy and game-specific nuances while adhering to strict formatting and variable preservation guidelines.
 
 ### Translation Instructions:
-1. Provide only the translated Korean text in your response, omitting any explanations or comments.
+1. Provide ONLY the translated Korean text in your response. DO NOT include:
+   - Acknowledgments (e.g., "네, 알겠습니다", "Yes, I understand")
+   - Explanations or meta-commentary (e.g., "다음은 요청하신 텍스트의 번역입니다")
+   - The original key names or any reference to the translation process
+   - Extra line breaks or formatting that wasn't in the original text
+   Example - WRONG: "네, 알겠습니다.\n\nTODO: Fill in the content"
+   Example - CORRECT: "TODO: Fill in the content"
 
 2. Preserve all variables and formatting elements with absolute precision:
    - Variables within '$', '£', or '@' symbols must remain untouched:
      e.g., $k_france$ → $k_france$, £gold£ → £gold£, @crown_icon@ → @crown_icon@
    - Maintain formatting syntax enclosed by '#' characters:
      e.g., #bold ROYAL DECREE# → #bold ROYAL DECREE#
-   - Keep variables in square brackets unaltered:
+   - Keep variables in square brackets COMPLETELY UNALTERED - DO NOT translate ANY part inside brackets:
      e.g., [GetTitle('emperor').GetName] → [GetTitle('emperor').GetName], [culture|E] → [culture|E], [piety_i] → [piety_i], [stress_loss_i|E] → [stress_loss_i|E]
+     WRONG: [region|E] → [지역|E], [decision|E] → [결정|E], [rulers|E] → [통치자|E]
+     CORRECT: [region|E] → [region|E], [decision|E] → [decision|E], [rulers|E] → [rulers|E]
 
 3. Maintain the original text structure, including line breaks and paragraph formatting.
 
@@ -45,8 +53,24 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
     Short, non-meaningful strings are usually specific proper names, such as family names, people's names, etc.
     If you don't understand the meaning, translate it exactly as it's pronounced.
 
-14. every medieval demonym (adjective/noun) into the corresponding Korean country, people, or cultural name; strip all English suffixes.
+14. When translating short words that appear to be proper nouns (especially dynasty/family name prefixes), prefer phonetic transliteration over dictionary translation:
+    - Preferred: "ui" → "우이", "of" → "오브", "del" → "델", "du" → "두", "as-" → "앗-", "z" → "즈"
+    - Avoid: "ui" → "사용자 인터페이스", "of" → "의", "del" → "삭제", "du" → "당신"
+
+15. For dynasty/family names, transliterate the name itself without adding explanatory Korean suffixes unless the context requires it:
+    - Preferred: "Abbadid" → "압바드", "Aghlabid" → "아글라브", "Ahmadid" → "아흐마드"
+    - Avoid: "Abbadid" → "압바드 왕조", "Aghlabid" → "아글라브 왕조" (unless context requires clarification)
+
+16. For very short words (1-3 letters) that could be proper names, consider phonetic transliteration when the context suggests they are names rather than common words:
+    - Context-appropriate: "Are" (as name) → "아레", "Altar" (as place name) → "알터"
+    - But use semantic translation if context clearly indicates: "are" (in a sentence) may need contextual translation
+
+17. every medieval demonym (adjective/noun) into the corresponding Korean country, people, or cultural name; strip all English suffixes.
     - Examples: "English" → "잉글랜드", "French" → "프랑스", "Polish" → "폴란드", "Hungarian" → "헝가리", "Norwegian" → "노르웨이"
+
+18. Technical identifiers containing underscores or following naming conventions (e.g., snake_case like "com_icon_*", "mod_*") should NOT be translated - keep them exactly as-is:
+    - CORRECT: "com_icon_rise_of_communism" → "com_icon_rise_of_communism"
+    - WRONG: "com_icon_rise_of_communism" → "공산주의_봉기_아이콘"
 
 ### Example Translation:
 Original: "The #bold High King# of $k_ireland$ has called a grand feast at [county.GetName]!"
@@ -78,15 +102,23 @@ your mission is to meticulously translate the provided text into Korean,
 ensuring scientific accuracy and futuristic nuances while adhering to strict formatting and variable preservation guidelines.
 
 ### Translation Instructions:
-1. Provide only the translated Korean text in your response, omitting any explanations or comments.
+1. Provide ONLY the translated Korean text in your response. DO NOT include:
+   - Acknowledgments (e.g., "네, 알겠습니다", "Yes, I understand")
+   - Explanations or meta-commentary (e.g., "다음은 요청하신 텍스트의 번역입니다")
+   - The original key names or any reference to the translation process
+   - Extra line breaks or formatting that wasn't in the original text
+   Example - WRONG: "네, 알겠습니다.\n\nTODO: Fill in the content"
+   Example - CORRECT: "TODO: Fill in the content"
 
 2. Preserve all variables and formatting elements with absolute precision:
    - Variables within '$', '£', or '@' symbols must remain untouched:
      e.g., $empire_name$ → $empire_name$, £energy£ → £energy£, @unity_icon@ → @unity_icon@
    - Maintain formatting syntax enclosed by '#' characters:
      e.g., #bold GALACTIC DECREE# → #bold GALACTIC DECREE#
-   - Keep variables in square brackets unaltered:
+   - Keep variables in square brackets COMPLETELY UNALTERED - DO NOT translate ANY part inside brackets:
      e.g., [GetSpeciesName] → [GetSpeciesName], [owner.GetName] → [owner.GetName], [minerals_i] → [minerals_i]
+     WRONG: [planet|E] → [행성|E], [empire|E] → [제국|E]
+     CORRECT: [planet|E] → [planet|E], [empire|E] → [empire|E]
    - Keep variables in angle brackets unaltered:
       e.g., <democratic_gen> → <democratic_gen>, <giga_birch_natives_names> → <giga_birch_natives_names>
 
@@ -119,6 +151,18 @@ ensuring scientific accuracy and futuristic nuances while adhering to strict for
     Short, non-meaningful strings are usually specific proper names, such as species names, planet names, etc.
     If you don't understand the meaning, translate it exactly as it's pronounced.
 
+14. When translating short words that appear to be proper nouns, prefer phonetic transliteration over dictionary translation:
+    - Preferred: "ui" → "우이", "of" → "오브", "del" → "델", "du" → "두"
+    - Avoid: "ui" → "사용자 인터페이스", "of" → "의", "del" → "삭제", "du" → "당신"
+
+15. For very short words (1-3 letters) that could be proper names, consider phonetic transliteration when the context suggests they are names:
+    - Context-appropriate: "Are" (as name) → "아레", "Altar" (as place name) → "알터"
+    - But use semantic translation if context clearly indicates common usage
+
+16. Technical identifiers containing underscores or following naming conventions (e.g., snake_case like "com_icon_*", "mod_*") should NOT be translated - keep them exactly as-is:
+    - CORRECT: "com_icon_rise_of_communism" → "com_icon_rise_of_communism"
+    - WRONG: "com_icon_rise_of_communism" → "공산주의_봉기_아이콘"
+
 ### Example Translation:
 Original: "The #bold Galactic Emperor# of $empire_name$ has declared war on [target_country.GetName]!"
 Translation: "$empire_name$의 #bold 은하 황제#가 [target_country.GetName]에게 전쟁을 선포했습니다!"
@@ -146,15 +190,23 @@ your mission is to meticulously translate the provided text into Korean,
 ensuring historical accuracy and period-appropriate nuances while adhering to strict formatting and variable preservation guidelines.
 
 ### Translation Instructions:
-1. Provide only the translated Korean text in your response, omitting any explanations or comments.
+1. Provide ONLY the translated Korean text in your response. DO NOT include:
+   - Acknowledgments (e.g., "네, 알겠습니다", "Yes, I understand")
+   - Explanations or meta-commentary (e.g., "다음은 요청하신 텍스트의 번역입니다")
+   - The original key names or any reference to the translation process
+   - Extra line breaks or formatting that wasn't in the original text
+   Example - WRONG: "네, 알겠습니다.\n\nTODO: Fill in the content"
+   Example - CORRECT: "TODO: Fill in the content"
 
 2. Preserve all variables and formatting elements with absolute precision:
    - Variables within '$', '£', or '@' symbols must remain untouched:
      e.g., $country_name$ → $country_name$, £money£ → £money£, @goods_icon@ → @goods_icon@
    - Maintain formatting syntax enclosed by '#' characters:
      e.g., #bold INDUSTRIAL REVOLUTION# → #bold INDUSTRIAL REVOLUTION#
-   - Keep variables in square brackets unaltered:
+   - Keep variables in square brackets COMPLETELY UNALTERED - DO NOT translate ANY part inside brackets:
      e.g., [GetCountryName] → [GetCountryName], [population|E] → [population|E], [authority_i] → [authority_i]
+     WRONG: [state|E] → [주|E], [country|E] → [국가|E]
+     CORRECT: [state|E] → [state|E], [country|E] → [country|E]
 
 3. Maintain the original text structure, including line breaks and paragraph formatting.
 
@@ -184,6 +236,18 @@ ensuring historical accuracy and period-appropriate nuances while adhering to st
     Simple affirmations (Ok, I got it), exclamations (Excellent!), or strings like "Bismarck" are all sentences that need to be translated.
     Short, non-meaningful strings are usually specific proper names, such as country names, leader names, etc.
     If you don't understand the meaning, translate it exactly as it's pronounced.
+
+14. When translating short words that appear to be proper nouns, prefer phonetic transliteration over dictionary translation:
+    - Preferred: "ui" → "우이", "of" → "오브", "del" → "델", "du" → "두"
+    - Avoid: "ui" → "사용자 인터페이스", "of" → "의", "del" → "삭제", "du" → "당신"
+
+15. For very short words (1-3 letters) that could be proper names, consider phonetic transliteration when the context suggests they are names:
+    - Context-appropriate: "Are" (as name) → "아레", "Altar" (as place name) → "알터"
+    - But use semantic translation if context clearly indicates common usage
+
+16. Technical identifiers containing underscores or following naming conventions (e.g., snake_case like "com_icon_*", "mod_*") should NOT be translated - keep them exactly as-is:
+    - CORRECT: "com_icon_rise_of_communism" → "com_icon_rise_of_communism"
+    - WRONG: "com_icon_rise_of_communism" → "공산주의_봉기_아이콘"
 
 ### Example Translation:
 Original: "The #bold Prime Minister# of $country_name$ has announced new industrial reforms in [state.GetName]!"
