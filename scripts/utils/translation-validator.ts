@@ -100,8 +100,13 @@ export function validateTranslation(
     const uniqueSourceVars = [...new Set(sourceGameVariables)]
     const uniqueTransVars = [...new Set(translationGameVariables)]
     
-    // 원본에 있는 변수가 번역에 없으면 오류
-    const missingVars = uniqueSourceVars.filter(v => !uniqueTransVars.includes(v))
+    // GetHerHis, GetHerHim, GetSheHe 함수는 한국어에서 성별 구분 없이 "그"로 통일하므로 누락 허용
+    // namespace가 포함된 경우도 처리 (예: [character.GetHerHis], [monk.GetHerHim])
+    const genderFunctionPattern = /\[(?:[a-z_]+\.)?Get(?:Her(?:His|Him)|She|He|His|Him)\]/gi
+    const filteredSourceVars = uniqueSourceVars.filter(v => !genderFunctionPattern.test(v))
+    
+    // 원본에 있는 변수가 번역에 없으면 오류 (단, 성별 함수는 제외)
+    const missingVars = filteredSourceVars.filter(v => !uniqueTransVars.includes(v))
     if (missingVars.length > 0) {
       return {
         isValid: false,
