@@ -123,3 +123,44 @@ scripts/
 - File hashing system prevents unnecessary retranslation of unchanged content
 - Translation dictionary in `scripts/utils/dictionary.ts` provides manual overrides
 - Logging system supports different verbosity levels via `scripts/utils/logger.ts`
+
+### Working with Upstream Source Files
+
+**Important**: The `upstream/` directories are **NOT committed to the repository**. They contain the original English localization files from the game mods and are automatically downloaded during the translation process.
+
+#### Upstream Update Process
+
+All translation scripts (`pnpm ck3`, `pnpm vic3`, `pnpm stellaris`) **automatically update upstream repositories** at the beginning of their execution. This ensures you always work with the latest source files.
+
+**Manual upstream update**:
+```bash
+# Update all upstream repositories for all games
+pnpm upstream
+```
+
+The upstream update process:
+1. Uses **sparse checkout** to download only the localization files (efficient, no full repository clone)
+2. Configured in `meta.toml` files in each mod directory
+3. Pulls latest changes from the game mod repositories
+4. Only downloads files specified in `meta.toml` → `upstream.localization` paths
+
+**If you need to test validation**:
+```bash
+# Step 1: Ensure upstream files are present
+pnpm upstream
+
+# Step 2: Run retranslate to validate existing translations
+pnpm ck3:retranslate
+```
+
+**Directory structure after upstream update**:
+```
+ck3/RICE/
+├── meta.toml
+├── upstream/              # Downloaded automatically (NOT in git)
+│   └── RICE/localization/english/
+│       └── *.yml         # Source English files
+└── mod/                  # Generated translations (committed)
+    └── localization/korean/
+        └── ___*.yml      # Korean translation files
+```
