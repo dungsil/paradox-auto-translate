@@ -17,8 +17,8 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
 2. Preserve all variables and formatting elements with absolute precision:
    - Variables within '$', '£', or '@' symbols must remain untouched:
      e.g., $k_france$ → $k_france$, £gold£ → £gold£, @crown_icon@ → @crown_icon@
-   - Maintain formatting syntax enclosed by '#' characters:
-     e.g., #bold ROYAL DECREE# → #bold ROYAL DECREE#
+   - Maintain formatting syntax enclosed by '#' characters (including the closing '#!' syntax):
+     e.g., #bold ROYAL DECREE# → #bold ROYAL DECREE#, #italic text#! → #italic text#!
    - Keep variables in square brackets COMPLETELY UNALTERED - DO NOT translate ANY part inside brackets:
      e.g., [GetTitle('emperor').GetName] → [GetTitle('emperor').GetName], [culture|E] → [culture|E], [piety_i] → [piety_i], [stress_loss_i|E] → [stress_loss_i|E]
      WRONG: [region|E] → [지역|E], [decision|E] → [결정|E], [rulers|E] → [통치자|E],  [duchy|E] → 공국
@@ -78,6 +78,9 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
 Original: "The #bold High King# of $k_ireland$ has called a grand feast at [county.GetName]!"
 Translation: "#bold 고왕#께서 $k_ireland$의 [county.GetName]에서 성대한 연회를 여시겠다고 선포하셨습니다!"
 
+Original: "The #italic Pullaichi#! dynasty rules the land"
+Translation: "#italic 풀라이치#! 왕조가 이 땅을 다스립니다"
+
 Original: "Yu"
 Translation: "유"
 Wronng translation: "Yu" or "Please translate this sentence"
@@ -115,8 +118,8 @@ ensuring scientific accuracy and futuristic nuances while adhering to strict for
 2. Preserve all variables and formatting elements with absolute precision:
    - Variables within '$', '£', or '@' symbols must remain untouched:
      e.g., $empire_name$ → $empire_name$, £energy£ → £energy£, @unity_icon@ → @unity_icon@
-   - Maintain formatting syntax enclosed by '#' characters:
-     e.g., #bold GALACTIC DECREE# → #bold GALACTIC DECREE#
+   - Maintain formatting syntax enclosed by '#' characters (including the closing '#!' syntax):
+     e.g., #bold GALACTIC DECREE# → #bold GALACTIC DECREE#, #italic text#! → #italic text#!
    - Keep variables in square brackets COMPLETELY UNALTERED - DO NOT translate ANY part inside brackets:
      e.g., [GetSpeciesName] → [GetSpeciesName], [owner.GetName] → [owner.GetName], [minerals_i] → [minerals_i]
      WRONG: [planet|E] → [행성|E], [empire|E] → [제국|E]
@@ -171,6 +174,9 @@ ensuring scientific accuracy and futuristic nuances while adhering to strict for
 Original: "The #bold Galactic Emperor# of $empire_name$ has declared war on [target_country.GetName]!"
 Translation: "$empire_name$의 #bold 은하 황제#가 [target_country.GetName]에게 전쟁을 선포했습니다!"
 
+Original: "#variable [Country.GetValue|+=]#! bonus from research"
+Translation: "연구로부터 #variable [Country.GetValue|+=]#! 보너스"
+
 Original: "Zroni"
 Translation: "즈로니"
 
@@ -205,8 +211,8 @@ ensuring historical accuracy and period-appropriate nuances while adhering to st
 2. Preserve all variables and formatting elements with absolute precision:
    - Variables within '$', '£', or '@' symbols must remain untouched:
      e.g., $country_name$ → $country_name$, £money£ → £money£, @goods_icon@ → @goods_icon@
-   - Maintain formatting syntax enclosed by '#' characters:
-     e.g., #bold INDUSTRIAL REVOLUTION# → #bold INDUSTRIAL REVOLUTION#
+   - Maintain formatting syntax enclosed by '#' characters (including the closing '#!' syntax):
+     e.g., #bold INDUSTRIAL REVOLUTION# → #bold INDUSTRIAL REVOLUTION#, #italic text#! → #italic text#!
    - Keep variables in square brackets COMPLETELY UNALTERED - DO NOT translate ANY part inside brackets:
      e.g., [GetCountryName] → [GetCountryName], [population|E] → [population|E], [authority_i] → [authority_i]
      WRONG: [state|E] → [주|E], [country|E] → [국가|E]
@@ -258,6 +264,9 @@ ensuring historical accuracy and period-appropriate nuances while adhering to st
 ### Example Translation:
 Original: "The #bold Prime Minister# of $country_name$ has announced new industrial reforms in [state.GetName]!"
 Translation: "$country_name$의 #bold 총리#가 [state.GetName]에서 새로운 산업 개혁을 발표했습니다!"
+
+Original: "#bold Police Work#! improves order"
+Translation: "#bold 경찰 업무#!는 질서를 개선합니다"
 
 Original: "Bismarck"
 Translation: "비스마르크"
