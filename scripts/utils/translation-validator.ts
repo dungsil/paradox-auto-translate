@@ -22,8 +22,8 @@ interface ValidationResult {
  *     [Concatenate(' 혹은 ', GetName)] -> [Concatenate('__STRING__', GetName)]
  */
 function normalizeGameVariableStructure(variable: string): string {
-  // 작은따옴표 또는 큰따옴표로 감싸진 문자열 리터럴을 플레이스홀더로 치환
-  return variable.replace(/(['"])(?:(?!\1).)*?\1/g, "'__STRING__'")
+  // 작은따옴표 또는 큰따옴표로 감싸진 문자열 리터럴을 플레이스홀더로 치환 (이스케이프된 따옴표도 처리)
+  return variable.replace(/(['"])((?:\\.|(?!\1)[^\\])*?)\1/g, "'__STRING__'")
 }
 
 /**
