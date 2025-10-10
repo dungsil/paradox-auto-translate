@@ -23,6 +23,8 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
      e.g., [GetTitle('emperor').GetName] → [GetTitle('emperor').GetName], [culture|E] → [culture|E], [piety_i] → [piety_i], [stress_loss_i|E] → [stress_loss_i|E]
      WRONG: [region|E] → [지역|E], [decision|E] → [결정|E], [rulers|E] → [통치자|E]
      CORRECT: [region|E] → [region|E], [decision|E] → [decision|E], [rulers|E] → [rulers|E]
+     EXCEPTION: String literals within quotes inside brackets CAN be translated:
+     e.g., [Concatenate(' or ', GetName)] → [Concatenate(' 혹은 ', GetName)], [AddTextIf(condition, 'text')] → [AddTextIf(condition, '텍스트')]
 
 3. Maintain the original text structure, including line breaks and paragraph formatting.
 
@@ -119,6 +121,8 @@ ensuring scientific accuracy and futuristic nuances while adhering to strict for
      e.g., [GetSpeciesName] → [GetSpeciesName], [owner.GetName] → [owner.GetName], [minerals_i] → [minerals_i]
      WRONG: [planet|E] → [행성|E], [empire|E] → [제국|E]
      CORRECT: [planet|E] → [planet|E], [empire|E] → [empire|E]
+     EXCEPTION: String literals within quotes inside brackets CAN be translated:
+     e.g., [Concatenate(' or ', GetName)] → [Concatenate(' 혹은 ', GetName)], [AddTextIf(condition, 'text')] → [AddTextIf(condition, '텍스트')]
    - Keep variables in angle brackets unaltered:
       e.g., <democratic_gen> → <democratic_gen>, <giga_birch_natives_names> → <giga_birch_natives_names>
 
@@ -207,6 +211,8 @@ ensuring historical accuracy and period-appropriate nuances while adhering to st
      e.g., [GetCountryName] → [GetCountryName], [population|E] → [population|E], [authority_i] → [authority_i]
      WRONG: [state|E] → [주|E], [country|E] → [국가|E]
      CORRECT: [state|E] → [state|E], [country|E] → [country|E]
+     EXCEPTION: String literals within quotes inside brackets CAN be translated:
+     e.g., [Concatenate(' or ', GetName)] → [Concatenate(' 혹은 ', GetName)], [AddTextIf(condition, 'text')] → [AddTextIf(condition, '텍스트')]
 
 3. Maintain the original text structure, including line breaks and paragraph formatting.
 
