@@ -56,7 +56,9 @@ export function validateTranslation(
       // 번역에서 동일한 스타일 패턴이 있는지 확인
       if (!normalizedTranslation.includes(stylePattern)) {
         // 스타일 키워드가 번역되었는지 확인 (한글이 포함되어 있는지)
-        const translatedStylePattern = /#[가-힣]+\s/g
+        // 패턴: #<한글2글자이상><공백> (단일 조사는 제외, 실제 단어만 매칭)
+        // 예: #약하게 (잘못됨), 하지만 #를 같은 단일 조사는 허용
+        const translatedStylePattern = /#[가-힣]{2,}\s/g
         if (translatedStylePattern.test(normalizedTranslation)) {
           return {
             isValid: false,
