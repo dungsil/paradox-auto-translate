@@ -1,4 +1,3 @@
-import { log } from './logger'
 import { type GameType } from './prompts'
 
 /**
@@ -48,11 +47,11 @@ export function validateTranslation(
     'here is the translation',
     'here\'s the translation'
   ]
-  
-  const hasUnwantedPhrase = unwantedPhrases.some(phrase => 
+
+  const hasUnwantedPhrase = unwantedPhrases.some(phrase =>
     normalizedTranslation.toLowerCase().includes(phrase.toLowerCase())
   )
-  
+
   if (hasUnwantedPhrase) {
     return {
       isValid: false,
@@ -88,10 +87,10 @@ export function validateTranslation(
   // @icon_name! 같은 게임 아이콘 참조는 제외 (이미 게임 syntax의 일부)
   const technicalIdentifiers = normalizedSource.match(/(?<![@$£])\b[a-z][a-z]*(?:_[a-z]+)+\b(?![!])/g) || []
   if (technicalIdentifiers.length > 0) {
-    const allIdentifiersPreserved = technicalIdentifiers.every(identifier => 
+    const allIdentifiersPreserved = technicalIdentifiers.every(identifier =>
       normalizedTranslation.includes(identifier)
     )
-    
+
     if (!allIdentifiersPreserved) {
       const missingIdentifiers = technicalIdentifiers.filter(id => !normalizedTranslation.includes(id))
       return {
@@ -109,20 +108,20 @@ export function validateTranslation(
   const gameVariablePattern = /\[([^\]]*(?:\|[A-Z]|Get[A-Z]|[a-z_]+\.[A-Z]|[a-z_]+_i))[^\]]*\]/g
   const sourceGameVariables = (normalizedSource.match(gameVariablePattern) || []).map(normalizeGameVar)
   const translationGameVariables = (normalizedTranslation.match(gameVariablePattern) || []).map(normalizeGameVar)
-  
+
   // 원본에 게임 변수가 있는 경우에만 검증
   if (sourceGameVariables.length > 0) {
     // 원본의 모든 고유 게임 변수가 번역에도 있는지 확인
     // (번역에서 변수를 반복하는 것은 허용 - 문법적 필요에 따라)
     const uniqueSourceVars = [...new Set(sourceGameVariables)]
     const uniqueTransVars = [...new Set(translationGameVariables)]
-    
+
     // GetHerHis, GetHerHim, GetSheHe 함수는 한국어에서 성별 구분 없이 "그"로 통일하므로 누락 허용
     // namespace가 포함된 경우도 처리 (예: [character.GetHerHis], [monk.GetHerHim], [ROOT.Char.GetSheHe])
     // 다중 네임스페이스 지원을 위해 점(.)으로 구분된 여러 레벨 허용 (대소문자 모두 허용)
-    const genderFunctionPattern = /\[(?:[a-zA-Z_]+\.)*Get(?:HerHis|HerHim|SheHe|Her|She|He|His|Him)(?:\|[A-Z])?\]/i
+    const genderFunctionPattern = /\[(?:[a-zA-Z_]+\.)*Get(?:HerHis|HerHim|SheHe|WomanMan|HerselfHimself)(?:\|[A-Z])?\]/i
     const filteredSourceVars = uniqueSourceVars.filter(v => !genderFunctionPattern.test(v))
-    
+
     // 원본에 있는 변수가 번역에 없으면 오류 (단, 성별 함수는 제외)
     // 문자열 리터럴은 번역될 수 있으므로, 구조만 비교 (issue #68)
     const missingVars = filteredSourceVars.filter(sourceVar => {
@@ -146,7 +145,7 @@ export function validateTranslation(
       const withoutStringLiterals = variable.replace(/(['"])(?:(?!\1).)*?\1/g, '')
       return /[가-힣]/.test(withoutStringLiterals)
     })
-    
+
     if (hasKoreanInGameVariables) {
       const koreanVariables = translationGameVariables.filter(v => {
         const withoutStringLiterals = v.replace(/(['"])(?:(?!\1).)*?\1/g, '')
@@ -179,14 +178,14 @@ export function validateTranslationEntries(
     }
 
     const [translatedValue] = translationEntries[key]
-    
+
     // 번역이 비어있거나 원본과 동일하면 건너뜀
     if (!translatedValue || translatedValue === sourceValue) {
       continue
     }
 
     const validation = validateTranslation(sourceValue, translatedValue, gameType)
-    
+
     if (!validation.isValid) {
       invalidEntries.push({
         key,
