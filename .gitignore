@@ -9,6 +9,10 @@ node_modules/
 *.iml
 translate-cache.db
 
+### Test files ###
+*.test.ts
+*.spec.ts
+
 ### Upstream repositories (managed by sparse checkout) ###
 */upstream/
 **/upstream/
