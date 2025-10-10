@@ -27,8 +27,8 @@ importers:
         specifier: ^0.3.2
         version: 0.3.2(@libsql/client@0.15.9)
       dotenv:
-        specifier: 16.6.1
-        version: 16.6.1
+        specifier: 17.2.3
+        version: 17.2.3
       jiti:
         specifier: 2.6.1
         version: 2.6.1
@@ -179,8 +179,8 @@ packages:
     resolution: {integrity: sha512-UX6sGumvvqSaXgdKGUsgZWqcUyIXZ/vZTrlRT/iobiKhGL0zL4d3osHj3uqllWJK+i+sixDS/3COVEOFbupFyw==}
     engines: {node: '>=8'}
 
-  dotenv@16.6.1:
-    resolution: {integrity: sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow==}
+  dotenv@17.2.3:
+    resolution: {integrity: sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w==}
     engines: {node: '>=12'}
 
   fetch-blob@3.2.0:
@@ -450,7 +450,7 @@ snapshots:
 
   detect-libc@2.0.2: {}
 
-  dotenv@16.6.1: {}
+  dotenv@17.2.3: {}
 
   fetch-blob@3.2.0:
     dependencies:
