@@ -18,11 +18,35 @@ pnpm ck3
 # Update file hashes without translating (useful for detecting changes)
 pnpm ck3:update-hash
 
+# Invalidate translations based on dictionary updates
+pnpm ck3:update-dict
+
+# Retranslate incorrectly translated items (based on validation rules from issue #64)
+pnpm ck3:retranslate
+
 # Run VIC3 translation process
 pnpm vic3
 
 # Update VIC3 file hashes without translating
 pnpm vic3:update-hash
+
+# Invalidate VIC3 translations based on dictionary updates
+pnpm vic3:update-dict
+
+# Retranslate incorrectly translated VIC3 items
+pnpm vic3:retranslate
+
+# Run Stellaris translation process
+pnpm stellaris
+
+# Update Stellaris file hashes without translating
+pnpm stellaris:update-hash
+
+# Invalidate Stellaris translations based on dictionary updates
+pnpm stellaris:update-dict
+
+# Retranslate incorrectly translated Stellaris items
+pnpm stellaris:retranslate
 
 # Install dependencies
 pnpm install
@@ -67,6 +91,13 @@ language = "english"                          # Source language
 - Translation memory with manual dictionary overrides
 - Persistent storage to avoid retranslation
 
+**Translation Validation** (`scripts/utils/translation-validator.ts`):
+- Detects incorrectly translated items based on validation rules
+- Validates preservation of technical identifiers (snake_case like `mod_icon_*`)
+- Ensures game variables in brackets remain untranslated (e.g., `[region|E]`, `[GetTitle]`)
+- Checks for unwanted LLM responses in translations
+- Used by retranslation script to find items that need re-translation
+
 ### Directory Structure
 
 ```
@@ -92,3 +123,44 @@ scripts/
 - File hashing system prevents unnecessary retranslation of unchanged content
 - Translation dictionary in `scripts/utils/dictionary.ts` provides manual overrides
 - Logging system supports different verbosity levels via `scripts/utils/logger.ts`
+
+### Working with Upstream Source Files
+
+**Important**: The `upstream/` directories are **NOT committed to the repository**. They contain the original English localization files from the game mods and are automatically downloaded during the translation process.
+
+#### Upstream Update Process
+
+All translation scripts (`pnpm ck3`, `pnpm vic3`, `pnpm stellaris`) **automatically update upstream repositories** at the beginning of their execution. This ensures you always work with the latest source files.
+
+**Manual upstream update**:
+```bash
+# Update all upstream repositories for all games
+pnpm upstream
+```
+
+The upstream update process:
+1. Uses **sparse checkout** to download only the localization files (efficient, no full repository clone)
+2. Configured in `meta.toml` files in each mod directory
+3. Pulls latest changes from the game mod repositories
+4. Only downloads files specified in `meta.toml` → `upstream.localization` paths
+
+**If you need to test validation**:
+```bash
+# Step 1: Ensure upstream files are present
+pnpm upstream
+
+# Step 2: Run retranslate to validate existing translations
+pnpm ck3:retranslate
+```
+
+**Directory structure after upstream update**:
+```
+ck3/RICE/
+├── meta.toml
+├── upstream/              # Downloaded automatically (NOT in git)
+│   └── RICE/localization/english/
+│       └── *.yml         # Source English files
+└── mod/                  # Generated translations (committed)
+    └── localization/korean/
+        └── ___*.yml      # Korean translation files
+```
