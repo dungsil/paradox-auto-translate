@@ -87,7 +87,9 @@ export function validateTranslation(
   }
 
   // 대괄호 내부의 게임 변수가 번역되었는지 검사 (|E 또는 함수 호출 패턴이 있는 경우만)
-  const gameVariablePattern = /\[([^\]]*(?:\|[A-Z]|Get[A-Z][^\]]*|[a-z_]+_i))\]/g
+  // 공백, 점(namespace), 괄호 등을 포함할 수 있음
+  // 예: [GetActivityType( 'activity_RICE_aachen_pilgrimage' ).GetName], [owner.GetName], [dynasty|E]
+  const gameVariablePattern = /\[([^\]]*(?:\|[A-Z]|Get[A-Z]|[a-z_]+\.[A-Z]|[a-z_]+_i))[^\]]*\]/g
   const sourceGameVariables = normalizedSource.match(gameVariablePattern) || []
   const translationGameVariables = normalizedTranslation.match(gameVariablePattern) || []
   
