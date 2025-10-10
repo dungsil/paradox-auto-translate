@@ -210,12 +210,12 @@
   RICE_portage_encourage_settlement_effect_tooltip_1: "[GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName] 지역 내 귀하가 소유한 [counties|E]가 아주 낮은 확률로 귀하의 [culture|E]와 [faith|E]로 개종할 가능성이 있습니다." # 16205933678570627470
   RICE_rus_culture_decision: "$russian$ 문화를 확립합니다." # 15291863667332980399
   RICE_rus_culture_decision_tooltip: "동유럽에 새로운 민족이 등장하고 있습니다!" # 15270436977826874039
-  RICE_rus_culture_decision_desc: "시간이 흐르며 동유럽의 강변 지역에서는 많은 [culture|E]가 서로 혼합되고 영향을 주고받았습니다. 아마도 이러한 다툼을 벌이는 부족들이 하나로 통합된다면 무역로를 장악하고 존경받는 강력한 세력이 될 수 있을 것입니다...." # 16992516671848384376
-  RICE_rus_culture_decision_effect_tooltip_1: "[rus_culture.GetName] [culture|E]는 귀하의 [capital|E] [capital_culture.GetName]의 [culture|E] 유산, 즉 현재 [capital_culture.GetHeritage.GetName]을 계승하게 됩니다." # 10340386913597287573
+  RICE_rus_culture_decision_desc: "동유럽의 강 유역에서는 시간이 지남에 따라 많은 [cultures|E]가 섞이고 서로 영향을 주고받았습니다. 아마도 이 다투는 부족들을 하나로 통합한다면, 그들은 무역로를 통제하고 무시할 수 없는 강력하고 존경받는 세력이 될 수 있을 것입니다...." # 16992516671848384376
+  RICE_rus_culture_decision_effect_tooltip_1: "[rus_culture.GetName] [culture|E]는 현재 [capital_culture.GetHeritage.GetName]인 당신의 [capital|E], [capital_culture.GetName]의 [culture|E] [heritage|E]를 얻게 됩니다." # 10340386913597287573
   RICE_rus_culture_decision_effect_tooltip_2: "[rus_culture.GetCollectiveNoun]의 주요 [language|E]가 기존의 [rus_culture.GetLanguage.GetName] 교역어가 될지, 아니면 귀하의 모국어이거나, 귀하의 [capital|E]의 [culture|E] 언어 (다를 경우)가 될지 결정하십니다." # 15182730422633529189
   RICE_rus_culture_decision_effect_tooltip_3: "[rus_culture.GetName] [culture|E]는 하나 또는 두 개의 무작위 유효 [traditions|E]를 얻게 됩니다." # 10933807318414417959
   RICE_rus_culture_decision_effect_tooltip_4: "귀하의 여러 [counties|E]가 무작위로 [rus_culture.GetName] [culture|E]로 개종할 것입니다." # 4879319114456282734
-  RICE_rus_culture_decision_effect_tooltip_5: "루스 [region|E]의 [rulers|E]와 [counties|E], 특히 귀하의 [vassal|E]들과 주요 강과 도시에 위치한 자들은 [루스_문화.이름] [culture|E]로 개종할 가능성이 있습니다." # 6253687001167566810
+  RICE_rus_culture_decision_effect_tooltip_5: "[rulers|E]와 루스 [region|E]의 [counties|E], 특히 [vassals|E]와 주요 강 및 도시 연안의 영토들은 [rus_culture.GetName] [culture|E]로 개종할 수 있습니다." # 6253687001167566810
   RICE_rus_culture_decision_confirm: "$russian_collective_noun$이 이 땅을 지배할 것입니다!" # 11988073879850412878
   RICE_rus_culture_decision_context_tooltip: "#emphasis 역사적 배경:#! 루스인의 민족 형성 과정은 아직 논쟁 중이지만, 스칸디나비아의 영향을 받은 초기 루스인들은 슬라브족뿐만 아니라 핀란드인과 발트족 같은 다른 민족들도 지배했던 것으로 여겨집니다. 장기적으로, 루스인 왕자들의 통치 아래 통합되면서 이들 민족은 결국 동슬라브족으로 동화되었습니다. 루스인들은 결국 현대 러시아인, 우크라이나인, 벨로루시인의 조상이 될 것입니다." # 9674737940835228596
   select_personal_deity_slavic_decision: "슬라브 신에게 우상을 세우다" # 6173630848622827556
@@ -287,8 +287,8 @@
   galicia2.0011.b: "$sus.0001.b$" # 16170894306468653032
   galicia2.0011.b.failure: "$sus.0001.b.failure$" # 10244786469165914241
   galicia2.0011.b.success: "$sus.0001.b.success$" # 12213007599100476414
-  RICE_volga_dnieper_merchant_trait_gain_tooltip: "#약하 #V [GetPlayer.MakeScope.Var('RICE_volga_dnieper_merchant_success_count').GetValue]개의 성공적인 무역 거래를 #V [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에 연결된 무역로를 통해 이전에 확보하셨습니다. 거래를 더 많이 성사시킬수록 [GetTrait('RICE_trans_saharan_merchant').GetName( GetNullCharacter )] [trait|E]를 얻을 가능성이 높아집니다." # 931071132009486071
-  RICE_volga_dnieper_number_of_successes_tooltip: "#약하 #V [GetPlayer.MakeScope.Var('RICE_volga_dnieper_merchant_success_count').GetValue]개의 성공적인 무역 거래를 #V [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에 연결된 무역로에서 이전에 성사시켰습니다!" # 3854594276649503832
+  RICE_volga_dnieper_merchant_trait_gain_tooltip: "#weak 이전까지 귀하는 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]와 연결된 교역로를 따라 #V [GetPlayer.MakeScope.Var('RICE_volga_dnieper_merchant_success_count').GetValue]#! 건의 성공적인 거래를 성사시켰습니다. 더 많은 거래를 완수할수록 [GetTrait('RICE_trans_saharan_merchant').GetName( GetNullCharacter )] [trait|E]를 얻을 확률이 높아집니다.!#" # 931071132009486071
+  RICE_volga_dnieper_number_of_successes_tooltip: "#weak 귀하는 이전에 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에 연결된 교역로를 따라 #V [GetPlayer.MakeScope.Var('RICE_volga_dnieper_merchant_success_count').GetValue]#! 건의 성공적인 무역 계약을 확보했습니다.!#" # 3854594276649503832
   galicia2.0012.t: "신앙을 기리다" # 17639333994492582788
   galicia2.0012.desc: "슬라브 통치자로서, 백성의 신들을 공경하고 그들의 축복을 받으며, 우리 백성과 다른 이들에게 우리가 번영을 누리고 있음을 보여주는 것은 나의 의무입니다. 특정 신에게 우상을 바쳐 경건을 표함으로써, 의심할 바 없이 신성한 수호신의 축복을 받고, 백성들에게 통치자로서 내가 지닌 가치관과 우선순위를 보여줄 것입니다." # 15009800966432665875
   galicia2.0012.perun: "천둥의 신, 페룬." # 12224517682594787245
@@ -357,7 +357,7 @@
   galicia2.0029.t: "xxxxx" # 1951045980481827005
   galicia2.0029.desc: "xxxxx" # 1951045980481827005
   galicia2.0029.a: "xxxxx" # 1951045980481827005
-  galicia2.0030.t: "야로슬라프의 후계자들" # 17769989264032028791
+  galicia2.0030.t: "[yaroslav.GetTitledFirstNamePossessiveNoTooltip] 후계자들" # 17769989264032028791
   galicia2.0030.desc: "아버지 [yaroslav.GetTitledFirstName]께서 저를 [GetTitleByKey('d_halych').GetNameNoTier]의 통치자로서 후계자로 정하신 이유를 전혀 의심하지 않습니다.  동생 [vladimir.GetFirstName]은 나보다 나이가 많고, 합법적인 아내에게서 태어났지만, 권력을 탐하는 보야르들에게 쉽게 휘둘리는 방탕하고 낭비적인 멍청이일 뿐입니다.  아직 어린 나이에 불과하고, 불법적인 자식이지만, 비교적 뛰어나 보입니다.\n\n하지만 이 저주스러운 보야르들!  그들은 제 순수한 어머니, 아버지의 정부였던 어머니를 마녀라고 선언했습니다.  그래서 몇 년 전, 그들은 그녀를 장작더미에 태워 죽였습니다.\n\n모두 없애버리고 싶지만, 세상은 완벽하지 않습니다.  만약 아버지의 칭호를 물려받는다면, 보야르들은 문제를 일으킬 것입니다.  그들은 저, 마녀의 아들이 통치할 자격이 없다고 주장하며, [vladimir.GetFirstNameNoTooltip]를 이용해 더 큰 권력을 얻으려 할 것입니다.  살아남으려면 조심해야 합니다." # 15724571427048687989
   galicia2.0030.a: "하늘의 어머니여, 저를 우리 적들로부터 보호하여 주소서…" # 13249521184683871016
   galicia2.0031.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
@@ -370,8 +370,8 @@
   galicia2.0032.a: "로마의 동맹이 될 자격이 있다는 것을 증명해 보이겠습니다." # 3187498904923164501
   galicia2.0033.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
   galicia2.0033.desc: "[ROOT.Char.GetDynasty.GetName] 가문의 왕자 중, 저보다 강력한 자는 드물 것입니다. 저는 제 뜻으로 세운 강력한 왕국, [GetTitleByKey('k_galicia-volhynia').GetNameNoTier]를 지배하고 있으니 말입니다.  심지어 다른 싸움치는 왕자들도 어느 정도는 제 권위를 인정해야 합니다.\n\n심지어 [emperor.GetTitledFirstName], [GetTitleByKey('e_byzantium').GetNameNoTier]의 통치자조차 제 위세를 알고, 제게 동맹을 제안하는 사절을 보냈습니다. 로마인의 굳건한 수호자이자 친구가 되는 영광이란!\n\n[emperor.GetFirstNameNoTooltip]은 심지어 [wife.GetFirstName] [wife.GetDynasty.GetName]의 손녀를 제게 혼인 제안했습니다." # 14819487813855595431
-  galicia2.0033.desc.princess: "[황제.GetHerHis] 친족과의 혼인을 제안하는 것은 결코 가볍지 않습니다. – [황제.GetSheHe]는 필사적으로 동맹을 원합니다." # 3724688368090578945
-  galicia2.0033.desc.noble: "[wife.GetSheHe|U]는 저명한 비잔틴 귀족 가문 출신이며, 그분은 제게 제국과의 유용한 관계를 제공할 수 있습니다." # 1460120213220080561
+  galicia2.0033.desc.princess: "[emperor.GetHerHis] 가문의 누군가에게 결혼을 제안하는 것은 결코 사소한 일이 아닙니다. — [emperor.GetSheHe]는 절실히 동맹을 원하고 있습니다." # 3724688368090578945
+  galicia2.0033.desc.noble: "[wife.GetSheHe|U]께서는 저명한 비잔티움 귀족 가문의 출신이시며, [wife.GetSheHe]께서는 제국과의 유용한 연결고리를 제공해 주실 수 있을 것입니다." # 1460120213220080561
   galicia2.0033.a: "[wife.GetFirstNameNoTooltip]와의 결혼으로 나의 지위와 업적을 보여주겠노라!" # 18276558597655261159
   galicia2.0033.b: "현재 결혼 생활은 잘 되어 있지만, 동맹은 나에게 유익할 것입니다." # 6290444750754436986
   galicia2.0033.c: "결혼은 필요치 않습니다. 그들은 나를 동맹으로 신뢰할 것입니다." # 12560351032209455741
@@ -381,7 +381,7 @@
   galicia2.0034.a: "[roman.GetHerHim] [princess.GetFullNamePossessive]의 손을 청혼합니다." # 3523580481293317042
   galicia2.0034.b: "[roman.GetHerHim]께서 [noble.GetFullNamePossessive]의 손길을 청혼합니다." # 4887775599803812742
   galicia2.0034.c: "이 동맹을 확보하기 위해 결혼은 필요하지 않습니다." # 16630226758473842716
-  galicia2.0034.tooltip: "[roman.GetFirstNameNoTooltip]이 결혼 제안을 거절할 수 있지만(특히 [roman.GetSheHe]가 이미 결혼했고 이혼을 거부하는 경우), 동맹은 여전히 성립될 것입니다." # 4873699395805896754
+  galicia2.0034.tooltip: "[roman.GetFirstNameNoTooltip]이 혼인 제안을 거절할 수 있지만(특히 [roman.GetSheHe]가 이미 결혼했으며 [divorce|E]를 원치 않을 경우), [alliance|E]는 여전히 성사될 것입니다." # 4873699395805896754
   galicia2.0035.t: "[roman.GetTitledFirstNameNoTooltip]: 새로운 동맹" # 17968375384280305502
   galicia2.0035.desc: "[roman.GetFullName]께서 우리 동맹을 더욱 굳건히 하기 위해 [wife.GetFirstName] [wife.GetDynasty.GetName]와의 결혼을 받아들이셨다는 소식을 전해 들었습니다. 이 동맹이 양측에 이로울 수 있기를 바라며, [roman.GetFirstNameNoTooltip]께서 우리의 북쪽 국경 확보를 도와주시기를 기대합니다!\n\n더욱이, 이번 동맹을 통해 [wife.GetFirstNameNoTooltip]께서 이 북쪽 땅에 [GetTitleByKey('e_byzantium').GetAdjectiveNoTooltip]의 영향력을 펼칠 수 있기를 기대합니다." # 6626720822275453704
   galicia2.0035.a: "[ROOT.Char.GetFaith.HighGodName]께 기도드립니다. 이 동맹이 오래도록 지속되기를 바랍니다." # 6400980762301148750
@@ -462,7 +462,7 @@
   galicia2.0057.t: "애정 어린 만남?" # 5361546612440075965
   galicia2.0057.desc: "어떻게 여기서 그대를 만나게 되었는지, 정말 우연이군, [ROOT.Char.Custom('RomanticComplimentAdjective')] [ROOT.Char.Custom('RomanticComplimentNoun')]…\n\n돌아서 보니, [lover.GetFirstName]이 미소를 머금은 채 그대의 [lover.GetHerHis] 얼굴로 다가오네.\n\n나는 쿠팔라 밤에 다른 사람들처럼 꽃과 약초, 그리고 다른 식물들을 찾아 모으려 했었지. 특히 [Glossary( 'fern flower', 'FERN_FLOWER_GLOSS' )] 말이야. 물론, 모두가 들판에서 찾아다니니, 때때로 다른 사람들을 만나게 되고, 특히 젊은 연인들은 \"찾는\" 동안 사랑스러운 모험을 즐기는 일도 드물지 않지." # 1459363193835092720
   galicia2.0057.a: "재밌는 우연이군요. 서로 \"돕\"자고요…." # 14822532712780570796
-  galicia2.0057.a.tooltip: "#약간 자연 속에서 즐거운 시간을 보냈습니다.#!" # 4568783597854040121
+  galicia2.0057.a.tooltip: "#weak 자연 속에서 즐거운 시간을 보냈습니다.!#" # 4568783597854040121
   galicia2.0057.b: "좋군요!  식물들을 찾아드릴 수 있겠습니다." # 13541738578894751018
   galicia2.0058.t: "xxxxx" # 1951045980481827005
   galicia2.0058.desc: "xxxxx" # 1951045980481827005
@@ -554,7 +554,7 @@
   galicia2.0084.desc: "[ROOT.Char.GetCurrentLocation.GetName] 여행 중, 저녁을 위해 겸손한 [culture.GetName] 농부들의 집에서 잠시 머물렀습니다. 밖에서 자는 것보다는 낫지만, 그리 편안한 숙소는 아니었습니다. 하지만 주인들은 매우 친절했습니다.\n\n\n다음 날, #italic 돼지풀#!로 만든 수프를 먹었습니다. 아니, 더 정확히 말하면 이 식물의 절인 줄기, 잎, 꽃차례로 만든 수프였습니다. 비록 평범한 농민들의 음식이었지만, 신선하고 매콤한 맛이 있어 꽤나 훌륭했습니다!" # 13680001284921736309
   galicia2.0084.a: "손님맞이에 감사하고, 맛있는 수프에 감사드립니다." # 8362264628757598166
   galicia2.0084.b: "젠장…. 정말 맛있는 음식이 그립네…." # 821991675297101189
-  galicia2.0084.info: "#bold 역사적 배경:#! #기울임꼴 보르슈#!는 우크라이나, 폴란드, 러시아 등 여러 슬라브 국가의 음식 문화에서 널리 퍼져 있는 음식입니다.  붉은빛 양배추로 만든 국입니다. 그 역사적 선구자는 #기울임꼴 돼지풀#!로 만든 신맛이 나는 국이었습니다. 돼지풀 식물의 일부를 다져 물에 절여 두면 발효된 제품이 생기고, 이를 이용하여 국을 만들었습니다." # 14358697697948208721
+  galicia2.0084.info: "#emphasis 역사적 배경:#! #italic 보르시#!는 우크라이나, 폴란드, 러시아를 포함한 여러 슬라브 국가 요리의 흔한 일부로, 적색 비트로 만드는 수프입니다. 그 역사적 선조는 #italic 야생 미나리#!로 만든 신맛 수프였습니다. 야생 미나리 식물의 일부를 잘라 물에 담가 절인 후, 사람들은 그 결과로 얻은 발효된 재료를 수프를 만드는 데 사용했습니다." # 14358697697948208721
   galicia2.0085.t: "xxxxx" # 1951045980481827005
   galicia2.0085.desc: "xxxxx" # 1951045980481827005
   galicia2.0085.a: "xxxxx" # 1951045980481827005

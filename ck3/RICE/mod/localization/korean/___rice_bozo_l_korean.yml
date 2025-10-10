@@ -17,7 +17,7 @@
   game_concept_mud_masonry: "토벽 건축" # 7049119410526428293
   game_concept_mud_mason: "토공" # 17252134107597872050
   game_concept_mud_masons: "진흙 석공" # 12326307770133388550
-  game_concept_mud_masons_desc: "서아프리카의 특정 [culture|E]에게 가능한 $tradition_RICE_african_mud_masons_name$ [tradition|E]은 [buildings|E] 건설 비용 및 시간을 감소시키는 [modifier|E]를 당신에게 부여하는 [decision|E] $RICE_bozo_mud_masons_decision$을 활성화합니다.\n\n만약 당신이 $c_jenne$ [county|E]을 지배하고 있다면, [decision|E]을 이용하기 위해 해당 [tradition|E]이 필요하지 않으며, 해당 [decision|E]은 문제의 [modifier|E]에 대해 더 강력한 버전을 부여합니다." # 1624732301389639289
+  game_concept_mud_masons_desc: "서아프리카 일부 [cultures|E]에서 사용 가능한 $tradition_RICE_african_mud_masons_name$ [tradition|E]은 [RICE_bozo_mud_masons_decision]이라는 [decision|E]을 활성화하여, [buildings|E] 건설 비용과 시간을 감소시키는 [character_modifier|E]를 부여합니다.\n\n만약 당신이 $c_jenne$의 [county|E]를 통치하고 있다면, 이 [decision|E]에 접근하기 위해 [tradition|E]가 필요하지 않으며, 해당 [decision|E]는 더 강력한 버전의 [modifiers|E]를 부여합니다." # 1624732301389639289
   RICE_bozo_tapama_djenepo_tomb_host_memory: "[GetActivityType( 'activity_RICE_bozo_tapama_djenepo_tomb' ).GetName]에 나섰습니다." # 5964258216757204478
   RICE_bozo_tapama_djenepo_tomb_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_bozo_tapama_djenepo_tomb' ).GetName]에 다녀왔습니다" # 5785548976733862534
   RICE_bozo_tapama_djenepo_tomb_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_bozo_tapama_djenepo_tomb' ).GetName]에 참여했습니다." # 8819442173817821907
@@ -59,7 +59,7 @@
   RICE_bozo_tapama_djenepo_tomb_curiosity_intent_desc: "이 [local_pilgrimage|E]를 떠나면서 지역 주민들과 그들의 문제점, 그리고 그들이 [GetPlayer.GetFaith.GetName]를 어떻게 신봉하는지 더 잘 이해하고 싶어합니다. 당신의 [lifestyle|E]에서 [experience|E]를 얻습니다. 만약 당신이 [GetTrait('humble').GetName( GetNullCharacter )]이거나 [GetTrait('just').GetName( GetNullCharacter )]라면 추가적인 [stress_loss_i|E] [stress|E]를 잃습니다." # 12781922788632846907
   RICE_bozo_tapama_djenepo_tomb_completed_log_title: "타파마 제네포의 무덤 방문 완료됨" # 7279931263388988053
   RICE_bozo_tapama_djenepo_tomb_completed_log: "[CHARACTER.GetShortUIName|U]께서 [CHARACTER.GetHerHis] 타파마 제네포의 무덤 방문을 마쳤습니다." # 2272204639953450776
-  TRAVEL_NAME_FOR_activity_RICE_bozo_tapama_djenepo_tomb: "[Character.GetFirstNameNoTooltip]의 $activity_RICE_bozo_tapama_djenepo_tomb$" # 5697157752692679463
+  TRAVEL_NAME_FOR_activity_RICE_bozo_tapama_djenepo_tomb: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_bozo_tapama_djenepo_tomb$" # 5697157752692679463
   activity_RICE_bozo_tapama_djenepo_tomb_owner: "순례자" # 384073485693042227
   RICE_bozo_close_to_jenne_req: "귀하의 [capital|E]는 [GetTitleByKey('c_jenne').GetNameNoTier]와 가깝습니다." # 8329326176909066548
   RICE_bozo_in_jenne_req: "[camp|E]은 [GetTitleByKey('b_jenne-jeno').GetNameNoTier]에 있습니다." # 13408888569084892485
@@ -105,7 +105,7 @@
   tradition_RICE_african_mud_masons_name: "진흙 석공" # 12326307770133388550
   tradition_RICE_african_mud_masons_desc: "이 문화의 석공들은 진흙으로 정교한 건축물을 짓는 것으로 유명합니다. 그들은 복잡한 계층 구조를 갖춘 조합으로 조직되어 있으며, 이는 그들의 일과 관련된 전통적인 종교 의례를 지키게 하고, 그들의 고대 석공 기술이 올바른 방식으로 대대로 전승되도록 보장합니다." # 1054221446245264651
   culture_parameter_unlock_rice_sogo_ba_masquerade: "[decision|E] '소고 바 가장 무도회 개최' 잠금 해제" # 2650566355777001103
-  culture_parameter_unlock_rice_african_mud_mason_decision: "[decision|E] '아프리카 [mud_masons|E] 고용'을 잠금 해제하여, 이 [culture|E]에 속하거나 이 [culture|E]의 [county|E]을 지배하는 인물들이 [buildings|E] 건설 비용과 시간을 더욱 단축할 수 있게 합니다." # 10854588048453208714
+  culture_parameter_unlock_rice_african_mud_mason_decision: "아프리카 [mud_masons|E] 고용 [decision|E]을 해금하여 [buildings|E] 건설 비용과 시간을 더욱 절감할 수 있게 됩니다. 이 [culture|E]에 속하거나 이 [culture|E]의 [counties|E]를 통치하는 경우에 해당됩니다." # 10854588048453208714
   culture_parameter_unlock_rice_trans_saharan_merchant_decision: "$RICE_trans_saharan_decision_unlocked_desc$" # 7821384827813636162
   culture_parameter_unlock_rice_trans_saharan_merchant_better_chances: "$RICE_trans_saharan_trade_legacy_1_effect$" # 6898220862024512233
   culture_parameter_unlock_rice_wangara_era_early: "[decision|E] [wangara|E] 상인 공동체 통합을 잠금 해제하고, 이를 통해 $culture_era_high_medieval$ [era|E] 대신 $culture_era_early_medieval$에 조기에 $innovation_RICE_wangara$ [innovation|E] 및 [wangara|E] 메커니즘에 접근 권한을 얻습니다." # 13770110458452789704
@@ -124,9 +124,9 @@
   RICE_bozo_mud_masonry_work_type_gui: "어떤 종류의 [holdings|E]에 [mud_masons|E]가 작업할 것인지 선택하십시오" # 17551477487462774659
   RICE_bozo_mud_masons_general_option: "모든 [holdings|E]" # 10738189947738149493
   RICE_bozo_mud_masons_general_option_desc: "모든 [holdings|E]에 균등하게 집중" # 16004969279871783395
-  RICE_bozo_mud_masons_general_option_tooltip: "[prestige|E] #V 50#!와 [piety|E] #V 50#!를 획득하고, #V 10#!년 동안 [GetModifier('RICE_bozo_mud_masons_general_modifier').GetNameWithTooltip] [인물 수정치|E]를 얻습니다." # 11274352766581925807
+  RICE_bozo_mud_masons_general_option_tooltip: "[prestige_i|E] #V 50#! 와 [piety_i|E] #V 50#! 을 획득하고, #V 10#! 년 동안 [GetModifier('RICE_bozo_mud_masons_general_modifier').GetNameWithTooltip] [character_modifier|E]를 얻습니다." # 11274352766581925807
   RICE_bozo_mud_masons_castle_option: "[castle_holdings|E]" # 10656906072081956016
-  RICE_bozo_mud_masons_castle_option_desc: "[성채 봉토|E]" # 9587893954104700324
+  RICE_bozo_mud_masons_castle_option_desc: "[castle_holdings|E]에 집중하십시오." # 9587893954104700324
   RICE_bozo_mud_masons_castle_option_tooltip: "[prestige_i|E] #V 100#!을 획득하고, [GetModifier('RICE_bozo_mud_masons_castle_modifier').GetNameWithTooltip] [character_modifier|E]를 #V 10#!년 동안 획득합니다." # 18156256733039942167
   RICE_bozo_mud_masons_city_option: "[city_holdings|E]" # 4628754853835180186
   RICE_bozo_mud_masons_city_option_desc: "모든 [city_holdings|E]에 균등하게 집중" # 8652286582029407024
@@ -138,11 +138,11 @@
   RICE_bozo_mud_masons_general_jenne_option_desc: "모든 [holdings|E]에 균등하게 집중" # 16004969279871783395
   RICE_bozo_mud_masons_general_jenne_option_tooltip: "[prestige_i|E] #V 50#! 및 [piety_i|E] #V 50#!를 획득하고, [GetModifier('RICE_bozo_mud_masons_general_modifier_jenne').GetNameWithTooltip] [character_modifier|E]를 #V 10#!년간 얻습니다." # 10254596830991403786
   RICE_bozo_mud_masons_castle_jenne_option: "[castle_holdings|E]" # 10656906072081956016
-  RICE_bozo_mud_masons_castle_jenne_option_desc: "[성채 봉토|E]" # 9587893954104700324
+  RICE_bozo_mud_masons_castle_jenne_option_desc: "[castle_holdings|E]에 집중하십시오." # 9587893954104700324
   RICE_bozo_mud_masons_castle_jenne_option_tooltip: "[prestige_i|E] #V 100#!!를 획득하고, #V 10#!년 동안 [GetModifier('RICE_bozo_mud_masons_castle_modifier_jenne').GetNameWithTooltip] [character_modifier|E]를 얻습니다." # 16927441659719815094
   RICE_bozo_mud_masons_city_jenne_option: "[city_holdings|E]" # 4628754853835180186
   RICE_bozo_mud_masons_city_jenne_option_desc: "모든 [city_holdings|E]에 균등하게 집중" # 8652286582029407024
-  RICE_bozo_mud_masons_city_jenne_option_tooltip: "[명예|E] #V 50#!와 [piety|E] #V 50#!를 얻고, [GetModifier('RICE_bozo_mud_masons_city_modifier_jenne').GetNameWithTooltip] [인물_수정치|E]를 #V 10#!년 동안 획득합니다." # 10898422561280393768
+  RICE_bozo_mud_masons_city_jenne_option_tooltip: "[prestige_i|E] #V 50#!과 [piety_i|E] #V 50#!을 획득하고, #V 10#!년 동안 [GetModifier('RICE_bozo_mud_masons_city_modifier_jenne').GetNameWithTooltip] [character_modifier|E]를 얻습니다." # 10898422561280393768
   RICE_bozo_mud_masons_church_jenne_option: "[church_holdings|E]" # 17638016755961073803
   RICE_bozo_mud_masons_church_jenne_option_desc: "모든 [church_holdings|E]에 골고루 집중" # 562368480544138028
   RICE_bozo_mud_masons_church_jenne_option_tooltip: "[piety_i|E] #V 100#!를 획득하고, [GetModifier('RICE_bozo_mud_masons_church_modifier_jenne').GetNameWithTooltip] [character_modifier|E]를 #V 10#!년간 획득합니다." # 4552867635372491366
@@ -153,10 +153,10 @@
   RICE_bozo_establish_wangara_decision_effect_tooltip_2: "$innovation_RICE_wangara$ [innovation|E]은 차례로 $RICE_bozo_wangara_synergy_decision$ [decision|E]을 해금합니다." # 1355557222226521012
   RICE_bozo_establish_wangara_decision_confirm: "금은 흘러야만 한다!" # 8192604194570220146
   RICE_bozo_establish_wangara_decision_context_tooltip: "#emphasis 역사적 배경:#! 왕가라는 서아프리카의 상인 카스트로, 중세 시대부터 19세기까지 명성을 떨쳤습니다. 그들은 말링케족과 소닝케족 등 여러 만데족으로 구성되었으며, 초기에 말리에서 금 생산을 장악하며 주도권을 잡았습니다. 수세대에 걸쳐 그들은 사업 영역을 소금, 콜라 열매, 기타 상품까지 포함하도록 다각화했을 뿐만 아니라, 아칸 해안과 하우사 도시 국가만큼 멀리 떨어진 지역의 정치 및 사회에 자신들을 통합하며 사업을 확장했습니다." # 12794212302161584632
-  RICE_bozo_wangara_mine_req: "[GetBuilding('mali_mines_01').GetName] [building|E]나 그 상위 단계 건물을 보유한 [county|E]를 최소한 #V 2#! 소유하고 있습니다." # 8475917061760852059
+  RICE_bozo_wangara_mine_req: "귀하는 #V 2#! 이상의 [counties|E]를 소유하고 있으며, 해당 영지들은 [GetBuilding('mali_mines_01').GetName] [building|E] 또는 그 상위 건물을 보유하고 있습니다." # 8475917061760852059
   RICE_bozo_bring_in_wangara: "왕가라를 [ROOT.Char.GetCulture.GetNameNoTooltip] 공동체로 통합" # 14361038097898602044
   RICE_bozo_bring_in_wangara_tooltip: "[wangara|E]는 우리 공동체에 큰 도움이 될 수 있을 것이다." # 1986316231652466969
-  RICE_bozo_bring_in_wangara_desc: "[왕가라|E] 상인들은 원래 말리의 금광들을 장악했었지만, 수년에 걸쳐 사업을 다각화하여 다른 땅들로 확장하며 금 외의 다른 물품들을 거래하게 되었습니다. 우리가 선수를 쳐서 그들의 상업망에 [ROOT.Char.GetCulture.GetName] 공동체를 편입시키도록 해야 합니다." # 948827617416583935
+  RICE_bozo_bring_in_wangara_desc: "[wangara|E] 상인들은 본래 말리의 금광을 통제했지만, 수년 동안 다른 영토로 사업을 다각화하여 금 이외의 물품을 거래하고 있습니다. 우리가 그들이 [ROOT.Char.GetCulture.GetName] 공동체들을 자신들의 네트워크에 통합하도록 주도해야 합니다." # 948827617416583935
   RICE_bozo_bring_in_wangara_effect_tooltip_1: "[THIS.Char.GetCulture.GetName] [rulers|E]는 이제 $RICE_bozo_wangara_synergy_decision$에 대한 [decision|E] 등 다른 [wangara|E] 메카니즘을 이용할 수 있습니다." # 10979084845397270156
   RICE_bozo_bring_in_wangara_confirm: "왕가라는 [ROOT.Char.GetCulture.GetNameNoTooltip] 땅에서 환영받고 있습니다!" # 9397956480131176531
   RICE_bozo_bring_in_wangara_context_tooltip: "$RICE_bozo_establish_wangara_decision_context_tooltip$" # 16414389767755582392
@@ -169,7 +169,7 @@
   RICE_bozo_wangara_synergy_decision_confirm: "시너지를 발휘할 때입니다!" # 18131231388602979147
   RICE_bozo_wangara_synergy_decision_context_tooltip: "$RICE_bozo_establish_wangara_decision_context_tooltip$" # 16414389767755582392
   RICE_bozo_wangara_synergy_type: "왕가라를 다루는 방식을 선택하십시오" # 15429038448508711112
-  RICE_bozo_wangara_synergy_type_gui: "[왕가라|E]와 어떻게 일할지 선택하십시오" # 4704060259365644559
+  RICE_bozo_wangara_synergy_type_gui: "[wangara|E]와 어떻게 관계를 맺을지 선택하십시오." # 4704060259365644559
   RICE_bozo_wangara_synergy_political_option: "#V #Bold 정치적 시너지#!#!" # 8156690887671108813
   RICE_bozo_wangara_synergy_political_option_desc: "행정 및 관료 제도 개선" # 54881804884009071
   RICE_bozo_wangara_synergy_political_option_tooltip: "$EFFECT_LIST_BULLET$[GetModifier('RICE_bozo_wangara_political_synergy').GetNameWithTooltip] [character_modifier|E]를 #V 10#!년 동안 획득합니다.\n$EFFECT_LIST_BULLET$[GetPlayer.GetCapitalLocation.GetCounty.GetTitle.GetDeJureLiege.GetNameNoTier] 내에서 귀하가 직접 소유한 모든 [county|E]는 [GetModifier('RICE_bozo_wangara_political_synergy_county').GetNameWithTooltip] [character_modifier|E]를 #V 10#!년 동안 획득합니다." # 17751801191590797622
@@ -199,7 +199,7 @@
   RICE_bozo_ghana_funeral_decision_effect_tooltip_2: "추가 [gold_i|E] #V [GetPlayer.MakeScope.ScriptValue('RICE_activity_cost')|0]#!를 소모하면, [courtier|E]를 희생하여 추가 [piety_i|E] #P [GetPlayer.MakeScope.ScriptValue('major_piety_value')|0]#!를 얻을 기회도 가질 수 있습니다." # 18354053310976521553
   RICE_bozo_ghana_funeral_decision_context_tooltip: "#emphasis 역사적 배경:#! 안달루시아 출신 지리학자 겸 학자 알바크리(대략 1040-1094년)에 따르면, 가나 제국의 이슬람 이전 이교도들은 우상 숭배자들이었다. 이들은 조상들에게 취하게 만드는 음료를 바쳤으며, 전통적으로는 나무 돔에 지배자를 묻었다. 내세에서 왕을 따르도록 사람들을 희생시킨 뒤, 돔 위에 언덕처럼 될 때까지 흙을 쌓아 올렸다." # 6752357129723536375
   RICE_ghana_burial_vassals: "모든 적절한 [culture|E]와 [faith|E]를 가진 [vassal|E]" # 5277991135994570443
-  RICE_ghana_burial_vassals_bad: "모든 [vassal|E]는 비이교 [종교|E]를 따릅니다." # 6282683857924468994
+  RICE_ghana_burial_vassals_bad: "이교도가 아닌 [faith|E]을(를) 따르는 모든 [vassal|E]" # 6282683857924468994
   bozo.0000.t: "xxxxx" # 1951045980481827005
   bozo.0000.desc: "xxxxx" # 1951045980481827005
   bozo.0000.a: "xxxxx" # 1951045980481827005
@@ -236,7 +236,7 @@
   bozo.0010.desc.castle: "어쨌든, 저는 건축가들이 저의 [castle_holdings|E]에서 새로운 건물을 지으거나 기존 건물을 유지하는 데 집중하도록 하고 싶습니다. 우리는 성벽과 방어 시설이 강력해야 합니다!" # 4968985136671982731
   bozo.0010.desc.city: "어쨌든, 제 [city_holdings|E]의 건물들을 새로 짓거나 보수하는 데 장인들이 집중하길 바랍니다. 그들의 헌신적인 노력으로 우리 정착지는 계속 번영할 것입니다." # 5691266852760029598
   bozo.0010.desc.church: "어쨌든, 제 [church_holdings|E]에 있는 건물들을 새로 지으거나 기존 건물들을 유지하는 데 집중하도록 석공들에게 지시했습니다. [ROOT.Char.GetFaith.HighGodName]께서 이에 기뻐하실 것이 분명합니다!" # 10948364103385951593
-  bozo.0010.desc.general: "어쨌든, 저는 제 [realm|E] 곳곳에서 새로운 건물 건설이나 기존 건물 유지에 벽돌공들을 집중시켰습니다. 왕국 전역에 할 일이 많군요." # 109189281417426739
+  bozo.0010.desc.general: "어쨌든, 나는 석공들에게 내 [holdings|E]의 여러 곳에 새로운 건물을 건설하거나 기존 건물을 보수하는 데 집중하라고 지시했다. 내 영지 전반에 걸쳐 해야 할 일이 많군." # 109189281417426739
   bozo.0010.a: "그들의 헌신적인 노력은 우리 공동체에 필수적입니다." # 5933048374996897009
   bozo.0011.t: "xxxxx" # 1951045980481827005
   bozo.0011.desc: "xxxxx" # 1951045980481827005
@@ -250,7 +250,7 @@
   bozo.0012.d: "제물로 충성스러운 신하와 노예를 바치는 것이 [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetFirstNameNoTooltip]에게 효과가 있기를 바랍니다." # 7817679282610020880
   bozo.0012.sacrifice_tooltip: "기본 [piety_i|E] #P [GetPlayer.MakeScope.ScriptValue('major_piety_value')|0]#! 대신, 그 두 배를 얻으실 것입니다." # 1823539579452363374
   bozo.0013.t: "$bozo.0012.t$" # 9243978811245823593
-  bozo.0013.desc: "[ROOT.Var('RICE_ghana_burial_ancestor').Char.GetFirstNamePossessive]의 장례일입니다. 저와 모든 궁정은 그분의 영결식을 행합니다. 우리는 아카시아 목재로 지은 돔 안으로 그분의 시신을 모십니다. 쿠션이 놓인 침상에 시신을 안치하고, 많은 장신구, 무기, 그리고 그릇들을 둘러쌉니다. 이는 [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetFirstNameNoTooltip]께서 저승에서 잔치를 즐기고 음식을 드실 수 있도록 하는 것입니다.\n\n\n이어서 많은 노예와 하인들을 무덤에 봉인하여 제물로 바칩니다. 그런 다음 돔을 매트와 커튼으로 덮고, 무덤 위에 가능한 한 많은 흙을 덮어, 그 위에 작은 언덕이 트렌치로 둘러싸이도록 합니다.\n\n\n마지막으로 희생자들을 제물로 바치고, 발효된 음료를 쏟아, [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetFirstNameNoTooltip]과 다른 조상들께 제사를 지냅니다." # 5008772316428093921
+  bozo.0013.desc: "[ROOT.Var('RICE_ghana_burial_ancestor').Char.GetFirstNamePossessive]의 장례일이 되었습니다. 저와 저의 궁정 전체가 [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetHerHis] 시신을 모시고 우리가 세운 아카시아 나무 돔 안으로 시신을 안치합니다. 우리는 시신을 쿠션이 놓인 침대에 눕히고, 저승에서 [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetFirstNameNoTooltip]가 잔치를 즐기고 술을 마실 수 있도록 많은 장신구, 무기, 도구들로 시신을 둘러쌉니다.\n\n그 후 우리는 많은 노예와 종들을 제물로 바치며 무덤 안에 함께 묻습니다. 그리고 돔을 돗자리와 휘장으로 덮고, 그 위에 최대한 많은 흙을 덮어 작은 언덕처럼 만들고 참호로 둘러쌉니다.\n\n이어서 우리는 제물을 바치고 발효주를 부어 [ROOT.Var('RICE_ghana_burial_ancestor').Char.GetFirstNameNoTooltip]와 우리의 다른 조상들에게 올리는 제주를 드립니다." # 5008772316428093921
   bozo.0013.desc.sacrifice: "제물 가운데에는 [sacrificial_victim.GetFirstName]가 있는데, 저와 [ROOT.Char.GetFaith.GetAdjective] [ROOT.Char.GetFaith.PriestNeuterPlural]는 그가 이번 제례에 적합한 인물이라고 생각했습니다." # 8822350203598794769
   bozo.0013.a: "[ROOT.Char.Custom2('RelationToMe', ROOT.Var('RICE_ghana_burial_ancestor').Char)]께, 평안하시기를 바랍니다." # 348769341836383008
   bozo.0014.t: "xxxxx" # 1951045980481827005
@@ -281,7 +281,7 @@
   bozo.0021.t: "왕가라족이 [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]에 도착했습니다." # 10960517466694089342
   bozo.0021.desc: "왕가라인은 말리의 금광을 원래 지배했던 만데어족 상인 집단입니다.  세월이 흐르며 아프리카 다른 지역과 소금, 노예, 콜라 넛 등 다른 상품 거래로 영역을 넓혔습니다.\n\n최근까지 왕가라 네트워크는 [ROOT.Char.GetCulture.GetName] 사회와의 연결이 제한적이었습니다.  저명한 왕가라 상인 [wangara_inviter.GetFirstName], [wangara_inviter.GetCulture.GetNameNoTooltip] [wangara_inviter.GetTitleAsNameNoTooltip] 덕분에 이제 상황이 달라졌습니다.\n\n[wangara_inviter.GetFirstNameNoTooltip]는 왕가라에 접근하여 [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]에 정착하도록 초청했습니다.  이로써 [ROOT.Char.GetCulture.GetCollectiveNounNoTooltip]은 서아프리카 [GetGeographicalRegion('world_africa_west').GetName] 지역에 걸쳐 있는 왕가라의 기존 정치, 상업, 문화 네트워크에 더욱 통합될 것입니다." # 11399289078832730106
   bozo.0021.a: "양측 모두 이로울 것입니다!" # 10303342786679141601
-  bozo.0021.tooltip: "[왕가라|E]가 그들의 공동체에 통합됨에 따라, [GetPlayer.GetCulture.GetName] [rulers|E]는 이제 $RICE_bozo_wangara_synergy_decision$ 결정을 내릴 수 있습니다." # 13814746891471289975
+  bozo.0021.tooltip: "[wangara|E]가 공동체에 통합됨에 따라, [GetPlayer.GetCulture.GetName] [rulers|E]는 이제 $RICE_bozo_wangara_synergy_decision$ [decision|E]를 사용할 수 있게 되었습니다." # 13814746891471289975
   bozo.0022.t: "xxxxx" # 1951045980481827005
   bozo.0022.desc: "xxxxx" # 1951045980481827005
   bozo.0022.a: "xxxxx" # 1951045980481827005
@@ -317,7 +317,7 @@
   bozo.0031.desc.non_pagan: "그들이 도시의 새로운 자리로 이주하자, 주민들은 어느 타파마 디제네포의 무덤을 발견했습니다. 전설에 따르면 그녀는 젊은 처녀로, 몇 년 전 도시 재앙을 막기 위해 스스로 희생을 감수했다고 합니다." # 12343306782173465163
   bozo.0031.desc.conclusion: "이주로 인해 제네는 지리적으로 더 유리한 위치에 자리 잡았고, 무역이 번창하며 백성들이 번영하게 되었습니다. 타파마 젠에포의 무덤은 이 용감하고 고결한 소녀에게 경의를 표하고자 하는 지역 주민들에게 경건한 순례지가 되었습니다." # 16303839887730082203
   bozo.0031.a: "제네의 역사에 새로운 장이 열립니다." # 6887548267498006903
-  bozo.0031.tooltip: "[GetTitleByKey('c_jenne').GetNameNoTier]의 통치자들, 또는 그 근처에 수도를 둔 자들은 이제 [GetActivityType( 'activity_RICE_bozo_tapama_djenepo_tomb' ).GetName]를 수행할 수 있습니다." # 4146009542246123688
+  bozo.0031.tooltip: "[GetTitleByKey('c_jenne').GetNameNoTier]의 [rulers|E] 또는 그 근처에 [capital|E]를 둔 자들은 이제 [GetActivityType( 'activity_RICE_bozo_tapama_djenepo_tomb' ).GetName]을 할 수 있습니다." # 4146009542246123688
   bozo.0032.t: "타파마 제네포의 무덤" # 5844654391339564802
   bozo.0032.desc: "[GetTitleByKey('c_jenne').GetNameNoTier]의 전설적인 타파마 젠에포의 무덤을 방문하기 위해 시간을 할애했습니다. 그녀는 도시 역사상 중요한 순간, 지역 신탁의 지시에 따라 악령들의 음모에 맞서 신의 도움을 얻기 위해 희생되었습니다. 그 소녀는 기꺼이 죽음을 받아들였으며, 그녀의 희생이 도시의 번영을 미래 세대까지 보장해 줄 것이라는 것을 알고 행복했습니다.\n\n요즘에는 주민들이 종종 그녀의 무덤을 찾는데, 그녀가 도시 성벽 사이에 살아 묻혔다는 곳이라고 합니다. 그곳에서 저는 그녀의 영혼이 분명히 도시를 지켜보고 있을 것이라는 희망으로 약간의 [ROOT.Char.GetFaith.GetAdjective] 기도를 드립니다.  그녀의 영혼이 저에게 어떤 축복을 내려주기를 바랍니다." # 9910511137329053166
   bozo.0032.a: "그녀의 희생은 영원히 잊히지 않을 것입니다." # 14866977115498113349

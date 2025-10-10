@@ -21,8 +21,8 @@ ensuring historical accuracy and game-specific nuances while adhering to strict 
      e.g., #bold ROYAL DECREE# → #bold ROYAL DECREE#
    - Keep variables in square brackets COMPLETELY UNALTERED - DO NOT translate ANY part inside brackets:
      e.g., [GetTitle('emperor').GetName] → [GetTitle('emperor').GetName], [culture|E] → [culture|E], [piety_i] → [piety_i], [stress_loss_i|E] → [stress_loss_i|E]
-     WRONG: [region|E] → [지역|E], [decision|E] → [결정|E], [rulers|E] → [통치자|E]
-     CORRECT: [region|E] → [region|E], [decision|E] → [decision|E], [rulers|E] → [rulers|E]
+     WRONG: [region|E] → [지역|E], [decision|E] → [결정|E], [rulers|E] → [통치자|E],  [duchy|E] → 공국
+     CORRECT: [region|E] → [region|E], [decision|E] → [decision|E], [rulers|E] → [rulers|E],  [duchy|E] → [duchy|E]
      EXCEPTION: String literals within quotes inside brackets CAN be translated:
      e.g., [Concatenate(' or ', GetName)] → [Concatenate(' 혹은 ', GetName)], [AddTextIf(condition, 'text')] → [AddTextIf(condition, '텍스트')]
 

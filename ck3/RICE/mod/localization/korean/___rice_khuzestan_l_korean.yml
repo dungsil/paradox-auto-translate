@@ -44,7 +44,7 @@
   RICE_mandaean_parwanaya_guest_memory: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_mandaean_parwanaya' ).GetName]에 참가했습니다" # 4790052303701197071
   RICE_mandaean_parwanaya_guest_memory_first_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_mandaean_parwanaya' ).GetName]에 참가했습니다." # 18204299266390321840
   RICE_mandaean_parwanaya_guest_memory_second_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_mandaean_parwanaya' ).GetName]에 참여했습니다." # 13316453160897606760
-  RICE_mandaean_parwanaya_guest_memory_third_perspective: "[owner.GetName][owner.GetCulture.GetSuffixEul] [host.GetTitledFirstName]와 함께 [GetActivityType('activity_RICE_mandaean_parwanaya').GetName]에 참가했습니다." # 6674938487057223054
+  RICE_mandaean_parwanaya_guest_memory_third_perspective: "[owner.GetName]께서 [host.GetTitledFirstName]가 주최한 [GetActivityType(  'activity_RICE_mandaean_parwanaya' ).GetName]에 참여했습니다." # 6674938487057223054
   RICE_khuzestan_tomb_of_daniel_pilgrimage_host_memory: "[GetActivityType( 'activity_RICE_khuzestan_tomb_of_daniel_pilgrimage' ).GetName]을(를) 떠났다" # 1773841449813659234
   RICE_khuzestan_tomb_of_daniel_pilgrimage_host_memory_first_perspective: "제가 [GetActivityType( 'activity_RICE_khuzestan_tomb_of_daniel_pilgrimage' ).GetName]에 다녀왔습니다" # 14611813883133591380
   RICE_khuzestan_tomb_of_daniel_pilgrimage_host_memory_second_perspective: "[GetActivityType( 'activity_RICE_khuzestan_tomb_of_daniel_pilgrimage' ).GetName]을/를 다녀왔습니다" # 13260806083543084437
@@ -79,9 +79,9 @@
   TRAVEL_NAME_FOR_activity_RICE_mandaean_parwanaya: "[Character.GetFirstNamePossessiveNoTooltip] 파르와나야" # 12636208663296032939
   activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_host_an_a: "$host_activity_a$" # 13713790857143020716
   activity_RICE_khuzestan_tomb_of_daniel_pilgrimage: "다니엘 무덤 성지 순례" # 10785284200942187019
-  activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_desc: "다니엘은 아브라함계 [faith|E]를 따르는 이들에게 중요한 종교적 인물입니다. [daniels_tomb|E]는 수스에 있다고 알려져 있으며, 따라서 그 지역의 많은 이들이 그에게 참배하러 그곳으로 갑니다." # 14128525668705080944
+  activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_desc: "다니엘은 아브라함계 [faiths|E]를 따르는 이들에게 중요한 종교적 인물입니다. [daniels_tomb|E]는 수사(Šuš)에 있다고 알려져 있어, 그 지역 출신 많은 이들이 그에게 경의를 표하기 위해 그곳으로 향합니다." # 14128525668705080944
   activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_selection_tooltip: "[local_pilgrimage|E]에 참여하여 슈슈의 [GetTitleByKey('b_tustar').GetNameNoTier] 근처에 있는 [tomb_of_daniel|E]에 가십시오.\n\n$RICE_khuzestan_tomb_of_daniel_decision_context_tooltip$" # 3938567833974390055
-  activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ [GetModifier('RICE_khuzestan_daniel_pilgrimage_done').GetNameWithTooltip] [character_modifiers|E]" # 4881905650296452709
+  activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ [GetModifier('RICE_khuzestan_daniel_pilgrimage_done').GetNameWithTooltip] [character_modifier|E]" # 4881905650296452709
   activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_guest_desc: "$activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_host_desc$" # 4718981130483448389
   activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_province_desc: "다니엘의 무덤이 이곳 수슈에 자리하고 있습니다." # 9864612760892104104
   activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_destination_selection: "$activity_RICE_khuzestan_tomb_of_daniel_pilgrimage_province_desc$" # 16302843244662170588
@@ -162,7 +162,7 @@
   RICE_khuzestan_shushtar_dams_option_desc: "[control|E] 및 [building|E] 속도에 집중" # 17358827614044854113
   RICE_khuzestan_shushtar_dams_option_tooltip: "$EFFECT_LIST_BULLET$ 수리 보정치: [GetModifier('RICE_khuzestan_shushtar_dams_repair').GetNameWithTooltip]\n$EFFECT_LIST_BULLET$ 개축 보정치: [GetModifier('RICE_khuzestan_shushtar_dams_renovation').GetNameWithTooltip]" # 17514748002796698164
   RICE_khuzestan_shushtar_canals_option: "#Bold #V 운하#!#!\n$RICE_khuzestan_shushtar_canals_option_desc$" # 8562063844637993632
-  RICE_khuzestan_shushtar_canals_option_desc: "[개발도|E]" # 10691304108027642642
+  RICE_khuzestan_shushtar_canals_option_desc: "[development|E]에 집중하십시오" # 10691304108027642642
   RICE_khuzestan_shushtar_canals_option_tooltip: "$EFFECT_LIST_BULLET$ 수리 보정치: [GetModifier('RICE_khuzestan_shushtar_canals_repair').GetNameWithTooltip]\n$EFFECT_LIST_BULLET$ 개축 보정치: [GetModifier('RICE_khuzestan_shushtar_canals_renovation').GetNameWithTooltip]" # 4571204075150146073
   RICE_khuzestan_shushtar_bridges_option: "#Bold #V 교량#!#!\n$RICE_khuzestan_shushtar_bridges_option_desc$" # 5682231402496954012
   RICE_khuzestan_shushtar_bridges_option_desc: "[supply_limit|E]와 [building|E] 비용에 중점을 두십시오" # 11715020502014475809
@@ -207,14 +207,14 @@
   khuzestan.0005.a: "우리의 영광스러운 과거, 우리가 엘리마이스였던 때를 보라!" # 11027400948543937682
   khuzestan.0005.b: "사회와 문화를 우선 발전시키자." # 11130349841597355574
   khuzestan.0005.c: "페르시아 만 전역 교역망 구축" # 14280687837477637015
-  RICE_khuzestan_counties_elymaean_tooltip: "$innovation_RICE_khuzi$ [innovation|E]을 보유한 모든 [culture|E]는 이를 영구적으로 상실하는 반면, 해당 [culture|E] 모두가 $tradition_RICE_khuzi_name$ [tradition|E]을 업그레이드하여 군사 보너스를 받습니다." # 14598937749819677376
-  RICE_khuzestan_counties_community_tooltip: "모든 [culture|E]는 $innovation_RICE_khuzi$ [innovation|E]을 영구적으로 상실하며, 한편 $tradition_RICE_khuzi_name$ [tradition|E]은 강화되어 해당 전통을 가진 모든 [culture|E]에 대해 외교력 보너스를 받게 됩니다." # 9828403260699609638
+  RICE_khuzestan_counties_elymaean_tooltip: "$innovation_RICE_khuzi$ [innovation|E]를 보유한 모든 [cultures|E]는 이를 영구적으로 잃게 되며, $tradition_RICE_khuzi_name$ [tradition|E]는 이를 보유한 모든 [cultures|E]에게 군사적 보너스를 제공하도록 개선됩니다." # 14598937749819677376
+  RICE_khuzestan_counties_community_tooltip: "$innovation_RICE_khuzi$ [innovation|E]를 보유한 모든 [cultures|E]는 이를 영구적으로 잃게 되며, $tradition_RICE_khuzi_name$ [tradition|E]는 이를 보유한 모든 [cultures|E]에 외교 보너스를 받도록 업그레이드됩니다." # 9828403260699609638
   RICE_khuzestan_counties_traders_tooltip: "$innovation_RICE_khuzi$ [innovation|E]를 가진 모든 [cultures|E]는 이를 영구적으로 잃게 됩니다. 반면에 $tradition_RICE_khuzi_name$ [tradition|E]는 이를 가진 모든 [cultures|E]에게 경제 보너스를 받도록 업그레이드됩니다." # 6530664761796970495
   khuzestan.0006.t: "$khuzestan.0005.t$" # 15206056259945535721
   khuzestan.0006.desc: "누구든 기억할 수 있는 한 오래도록, [GetGeographicalRegion('RICE_khuzestan_region').GetName]의 고대 원주민들은 아랍인, 이란인, 그리스인 등 다른 세력의 멍에 아래 크게 고통받아 왔습니다. 많은 [khuzi.GetCollectiveNoun]들은 그들의 지배층 주인들을 위한 화장실 시종처럼, 사회에서 굴욕적인 역할로 전락했습니다. 그들 자신의 이름, [khuzi.GetNameNoTooltip]마저 다른 민족들에게 모욕으로 사용되었습니다.\n\n그러나 시대는 변하고 있습니다. [khuzi_hero.GetTitledFirstName]은/는 이 지역을 새로운 왕국으로 통합했고, [khuzi_hero.GetHerHis] 동포인 [khuzi.GetCollectiveNounNoTooltip]들에게 그들의 옛 방식이나 이해할 수 없는 고대 언어를 거부하지 말 것을 강력히 촉구했습니다." # 4378583819496789687
   khuzestan.0006.desc.elymais: "[khuzi_hero.GetFirstNameNoTooltip]는 고대의 엘리마이족과 같이 [khuzi.GetCollectiveNounNoTooltip]의 직계 선배들을 본받으려 합니다. 엘리마이스 왕국은 활잡이들과 굳건한 독립성으로 유명했으며, [khuzi_hero.GetFirstNameNoTooltip]은 이러한 영광스러운 과거를 되찾고자 합니다." # 8240554235292594970
   khuzestan.0006.desc.community: "[khuzi_hero.GetFirstNameNoTooltip]는 [khuzi.GetCollectiveNounNoTooltip]이 문화와 사회 발전에 집중하는 것이 중요하다고 생각합니다. 예술, 궁중 생활, 그리고 정치적 위엄을 통해 명성을 얻으면 다른 이들이 그들을 존경하게 될 것입니다." # 3292602512899609986
-  khuzestan.0006.desc.traders: "[khuzi_영웅.GetFirstNameNoTooltip]은 쿠즈스탄의 전통적인 농업과 상업 번영을 활용하여 [쿠즈.GetCollectiveNounNoTooltip]을 페르시아만의 무역망에 통합하고, [khuzi_영웅.GetHerHis] 백성을 위한 새로운 시대를 열고자 합니다." # 12384955312942202912
+  khuzestan.0006.desc.traders: "[khuzi_hero.GetFirstNameNoTooltip]는 후제스탄의 전통적인 농업 및 상업적 번영을 이용하여 [khuzi.GetCollectiveNounNoTooltip]를 페르시아만 무역망에 통합하고, [khuzi_hero.GetHerHis] 민족에게 새로운 시대를 열고자 합니다." # 12384955312942202912
   khuzestan.0006.a: "번영하고 존경받기에 충분해 보입니다!" # 18343703303449554707
   khuzestan.0007.t: "xxxxx" # 1951045980481827005
   khuzestan.0007.desc: "xxxxx" # 1951045980481827005
@@ -236,8 +236,8 @@
   khuzestan.0010.b: "수력망 확장을 위한 개보수를 실시합니다." # 13552943454012543313
   khuzestan.0011.t: "티라즈를 제시합니다." # 16065459663190310573
   khuzestan.0011.desc: "[actor.GetTitleAsNameNoTooltip]의 권위로, [recipient.GetTitledFirstName]에게 #italic 티라즈# 직물을 #italic 킬라# 의례에 따라 수여하기로 결정하였습니다. 이는 평소 공식적인 자리에 수여되는 보잘것없는 #italic 티라즈# 직물을 넘어 훌륭하고 품질 좋은 #italic 티라즈# 직물입니다." # 14068068276628658589
-  khuzestan.0011.desc.local: "[수신자.GetFirstNameNoTooltip]께서 이러한 방식으로 저의 호의를 공식적으로 받으시니 기뻐하실 것이라고 확신합니다!" # 5689918293927182688
-  khuzestan.0011.desc.foreign: "[수령자.GetSheHe]께서 직접 받으시진 못하시겠지만, 이 선물을 받으시면 기뻐하실 것이라 확신합니다!" # 15970284146082045833
+  khuzestan.0011.desc.local: "저는 [recipient.GetFirstNameNoTooltip]께서 이런 방식으로 제 호의를 공식적으로 받게 되어 영광일 것이라 확신합니다!" # 5689918293927182688
+  khuzestan.0011.desc.foreign: "[recipient.GetSheHe]께서 직접 받을 수는 없겠지만, 이 선물을 받게 되어 기쁘리라 확신합니다!" # 15970284146082045833
   khuzestan.0011.desc.early: "아름다운 #italic 티라즈# 직물을 누군가에게 하사하는 것은 큰 영광입니다. 이처럼 훌륭한 #italic 티라즈#를 베풀 수 있는 능력은 저와 같은 강력한 [actor.GetTitleAsNameNoTooltip]만이 누릴 수 있는 특권이지요." # 10604265250823017604
   khuzestan.0011.desc.middle: "#italic 티라즈#를 수여하는 권한은 더 이상 칼리프나 가장 강력한 군주에게만 있는 것은 아니지만, 저와 같은 강력한 [actor.GetTitleAsNameNoTooltip]이 수여하는 일이므로, 이처럼 우수한 #italic 티라즈#를 받는 것은 여전히 큰 영광입니다." # 4917166254018493699
   khuzestan.0011.desc.late: "옛날에는 칼리프나 매우 높은 지위의 통치자들만이 #italic 티라즈#를 수여할 수 있었습니다. 요즘은 상류층 사람들끼리 서로 주고받는 것이 흔합니다. 하지만 저 같은 강력한 [actor.GetTitleAsNameNoTooltip]에게서 고품질의 #italic 티라즈#를 받는 것은 큰 영광입니다." # 14228273773945491816
@@ -250,9 +250,9 @@
   khuzestan.0012.desc.middle: "#italic 티라즈#를 수여하는 것은 더 이상 칼리프나 가장 강력한 군주들의 전유물이 아니지만, 여전히 [actor.GetTitleAsNameNoTooltip] 같은 강력한 지배자, [actor.GetFirstNameNoTooltip] 같은 분들이 주로 행하는 일입니다. 이렇게 높은 품질의 #italic 티라즈#를 받는 것은 여전히 큰 영광입니다." # 8787030441648738544
   khuzestan.0012.desc.late: "옛날에는 칼리프나 매우 높은 지위의 통치자들만이 #italic 티라즈#를 수여할 수 있었지만, 요즘에는 상류층 사람들이 서로에게 티라즈를 주는 것이 보편적입니다. 하지만 강력한 [actor.GetTitleAsNameNoTooltip]인 [actor.GetFirstNameNoTooltip]과 같은 존경받는 이에게서 고품질의 #italic 티라즈#를 받는 것은 큰 영광입니다." # 16773156695745220943
   khuzestan.0012.a: "이 영광스러운 소식을 받게 되어 매우 기쁩니다." # 9709771346930980992
-  khuzestan.0013.t: "[만데이교.신앙.형용사없음] 궁정 귀족?" # 11337725089068954361
+  khuzestan.0013.t: "[mandaean.GetFaith.GetAdjectiveNoTooltip] 신하라고요?" # 11337725089068954361
   khuzestan.0013.desc: "남부 메소포타미아와 후제스탄은 고대부터 수많은 역경에도 불구하고 지속되어 온 gnosis 종파, [mandaean.GetFaith.GetAdherentNamePlural]의 중심지입니다. 오늘, [mandaean.GetFirstName]이라는 그들의 신자 한 분이 저의 궁정에 도착하여 [mandaean.GetHerHis] 봉사를 제안했습니다.\n\n[mandaean.GetFaith.GetAdherentNamePluralNoTooltip]들이 많이 거주하는 정착지는, 그들의 종교 경전 기록과 보존에 큰 중요성을 두기 때문에 필사 및 문학 중심지로 유명합니다. 아마도 [mandaean.GetFirstNameNoTooltip]을 통해 [mandaean.GetFaith.GetAdjectiveNoTooltip] 공동체와 상호 유익한 관계를 구축하는 것이 현명할 것입니다." # 8468987097285411697
-  khuzestan.0013.a: "[만데안.GetSheHe|U]께서는 환영받으십니다!" # 17832523769126556794
+  khuzestan.0013.a: "[mandaean.GetSheHe|U]께서 이곳에 오신 것을 환영합니다!" # 17832523769126556794
   khuzestan.0013.b: "[mandaean.GetHerHis] 봉사는 필요하지 않습니다." # 6641788933169390620
   khuzestan.0014.t: "xxxxx" # 1951045980481827005
   khuzestan.0014.desc: "xxxxx" # 1951045980481827005

@@ -96,7 +96,7 @@
   activity_RICE_chios_mostra_of_thymiana_desc: "티미아나 모스트라(The Mostra of Thymiana)는 오래전 마을 주민들이 해적의 공격을 성공적으로 물리친 것을 기념하기 위해 [GetTitleByKey('c_chios').GetNameNoTier]의 티미아나 마을에서 매년 열리는 축제 행사입니다.\n\n@alert_icon! #alert_trial 모스트라는 3월 초에 시작됩니다. 그 전에 도착하면, [GetTitleByKey('b_chios').GetNameNoTier]에서 시작을 기다리는 동안 활동이 일시 중지됩니다. #!" # 11115421809752422024
   activity_RICE_chios_mostra_of_thymiana_selection_tooltip: "튀미아나의 모스트라에 참석하십시오.\n\n$RICE_attend_mostra_of_thymiana_context_tooltip$" # 11671263841409185061
   activity_RICE_chios_mostra_of_thymiana_host_desc: "\n$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$스트레스 감소 [stress_loss_i|E][stress|E]\n$BULLET_WITH_TAB$ [GetModifier('RICE_chios_attended_mostra_of_thymiana').GetNameWithTooltip] [character_modifier|E]" # 888153280612051949
-  activity_RICE_chios_mostra_of_thymiana_guest_desc: "\n$BULLET_WITH_TAB$[prestige_i|E][위신]\n\n$BULLET_WITH_TAB$[스트레스] [stress_loss_i|E] 상실" # 12623914568557024174
+  activity_RICE_chios_mostra_of_thymiana_guest_desc: "$BULLET_WITH_TAB$[prestige_i|E][prestige|E]\n$BULLET_WITH_TAB$ [stress_loss_i|E][stress|E] 상실" # 12623914568557024174
   activity_RICE_chios_mostra_of_thymiana_province_desc: "티미아나 모스트라는 [GetTitleByKey('c_chios').GetNameNoTier]에서 매년 열립니다." # 16790404775264968494
   activity_RICE_chios_mostra_of_thymiana_destination_selection: "$activity_RICE_chios_mostra_of_thymiana_province_desc$" # 6889401153014903933
   activity_RICE_chios_mostra_of_thymiana_guest_help_text: "$activity_RICE_chios_mostra_of_thymiana$" # 558971638346836632
@@ -149,7 +149,7 @@
   activity_chios_patmos_pilgrimage: "파트모스의 요한계시록 동굴 순례" # 6293334220276787058
   activity_chios_patmos_pilgrimage_name: "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U]의 파트모스 묵시록 동굴 성지순례" # 10232496128825433865
   game_concept_patmos_pilgrimage: "파트모스로의 순례" # 13143497257731621779
-  game_concept_patmos_pilgrimage_desc: "[county|E] #V 히오스#!의 [rulers|E]가 #V 파트모스에 수도자 이주시키기#! [decision|E]을 내리면, 근처 기독교 신자들은 [GetActivityType( 'activity_RICE_chios_patmos_pilgrimage' ).GetName]에, 특히 그곳의 #V 요한 계시록 동굴#!에 참가할 수 있습니다. 다른 [현지_성지_순례|E]가 제공하는 [piety|E] 같은 일반적인 혜택 외에도, 성지 순례자들은 그곳에 있는 동안 일종의 #V 환영#!을 받을 기회가 있습니다." # 1419157828288103571
+  game_concept_patmos_pilgrimage_desc: "[county|E] [ruler|E]께서 #V 히오스#의 [decision|E]인 #V 파트모스에 수도사들로 재정착하기#를 내린 후, 주변의 기독교 인물들은 [GetActivityType( 'activity_RICE_chios_patmos_pilgrimage' ).GetName] 행사에 참여할 수 있으며, 특히 그곳의 #V 묵시록의 동굴#에 참여할 수 있습니다. [local_pilgrimages|E]가 제공하는 일반적인 [piety|E]와 같은 혜택 외에도, 순례자들이 그곳에서 어떤 종류의 #V 환영#을 볼 수 있는 기회가 있습니다." # 1419157828288103571
   RICE_chios_sponsored_patmos_monastics: "파트모스 섬의 성 요한 수도원 건설 후원" # 1581286923380974721
   RICE_chios_monastery_of_saint_john: "성 요한 수도원" # 6607830529174904704
   RICE_chios_monastery_of_saint_john_desc: "사모스 섬에서 남쪽으로 조금 떨어진 파트모스 섬에는, 사도 요한 및 복음사가 요한과 동일시되는 파트모스의 요한이 요한계시록을 저술했다고 전해지는 동굴이 하나 있습니다. 요한계시록 동굴이라 알려진 이 동굴 근처에는 수도자 공동체가 자리하고 있으며, 섬으로 향하고자 하는 순례자들을 위한 약간의 기반 시설도 있습니다." # 13415955779581106620

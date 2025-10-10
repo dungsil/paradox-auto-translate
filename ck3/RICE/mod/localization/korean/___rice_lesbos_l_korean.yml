@@ -60,7 +60,7 @@
   RICE_roman_kalends_generosity_intent_desc: "선물 주는 행위를 정말 즐기는군요.\n선물 증정으로 인한 [opinion|E] #P +100%#! 증가.\n만약 [GetTrait('generous').GetName( GetNullCharacter )] 특성이나 [GetTrait('compassionate').GetName( GetNullCharacter )] 특성을 가졌다면 [stress_loss_i|E] [stress|E]를 더 많이 잃습니다." # 16374460701478942147
   RICE_roman_kalends_gift_type: "선물" # 13080234212047682245
   RICE_roman_kalends_gift_small: "겸손한" # 9351313465329914901
-  RICE_roman_kalends_gift_small_desc: "$EFFECT_LIST_BULLET$[prestige_i|E]를 #V [EmptyScope.ScriptValue('RICE_roman_kalends_gift_gain_small_base')]#! 기본 획득\n$EFFECT_LIST_BULLET$이 [activity|E]에 참석한 모든 [character|E]로부터 #P 4#! [opinion|E] 획득\n$EFFECT_LIST_BULLET$당신 자신은 최대 #V [gold_i|E][GetPlayer.MakeScope.ScriptValue('tiny_gold_value')]#!의 선물을 #italic 받을 수도 있습니다#!.\n\n#weak 이번에는 작은 선물 교환만 할 것입니다.#!" # 11137108903947766138
+  RICE_roman_kalends_gift_small_desc: "$EFFECT_LIST_BULLET$기본적으로 #V [EmptyScope.ScriptValue('RICE_roman_kalends_gift_gain_small_base')]#만큼의 [prestige_i|E] #V [prestige|E]#를 획득합니다.\n$EFFECT_LIST_BULLET$이 [activity|E]에 참석하는 모든 [character|E]로부터 #P 4#!의 [opinion|E]를 얻습니다.\n$EFFECT_LIST_BULLET$당신 자신은 최대 #V [gold_i|E][GetPlayer.MakeScope.ScriptValue('tiny_gold_value')]# 상당의 선물을 받을 수도 있습니다!\n\n#weak 이번에는 작은 선물 교환으로 충분할 것입니다.#" # 11137108903947766138
   RICE_roman_kalends_gift_medium: "평균" # 17705814244814514937
   RICE_roman_kalends_gift_medium_desc: "$EFFECT_LIST_BULLET$기본 [prestige_i|E] #V [EmptyScope.ScriptValue('RICE_roman_kalends_gift_gain_medium_base')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$이 [activity|E]에 참석한 모든 [character|E]에게서 #P 8#! [opinion|E] 획득\n$EFFECT_LIST_BULLET$당신 자신은 최대 #V [gold_i|E][GetPlayer.MakeScope.ScriptValue('minor_gold_value')]#! 만큼의 선물을 #italic 받을#! 수 있습니다!\n\n#weak 축제에는 축제 선물이 빠질 수 없죠!#!" # 7967929912636755748
   RICE_roman_kalends_gift_large: "상당한" # 13455308899440073070
@@ -106,7 +106,7 @@
   RICE_indian_ocean_pirate_infestation_2: "$RICE_socotra_pirate_infestation$" # 8425192414036957022
   RICE_indian_ocean_pirate_infestation_2_desc: "지역 통치자들은 이 지역에서 활동하는 해적들과의 이전 합의를 파기했습니다. 이는 많은 해적이나 전직 해적들이 여전히 남아있고 이전에 지역 상업 및 정치 기관에 통합되었기에 단기적인 혼란을 야기했습니다." # 43943943200974856
   RICE_mediterranean_reneged_pirate_deals: "지중해 해적과의 계약 파기" # 3467528670468270546
-  RICE_mediterranean_reneged_pirate_deals_desc: "#EMP 특정 [mediterranean_pirates|E]과 관련된 [decision|E]을 취할 수 없게 합니다.#!" # 1263184884981055697
+  RICE_mediterranean_reneged_pirate_deals_desc: "#EMP 특정 [mediterranean_pirates|E] 관련 [decisions|E]를 막습니다.#!" # 1263184884981055697
   RICE_pirate_mediterranean_decision: "지중해 해적과 접촉" # 140646606267671403
   RICE_pirate_mediterranean_decision_tooltip: "해적이 항상 적은 아니야 - 때로는, 아주 자주, 그들은 친구가 될 수 있어, 아니면 적어도 유용한 도구는 되지!" # 3385376262130005902
   RICE_pirate_mediterranean_decision_desc: "[GetGeographicalRegion('RICE_mediterranean_region').GetName]는 늘 해적의 소굴이었습니다. 숙련된 [rulers|E]는 상호 이익을 위해 협력적인 해적들과 언제 협력해야 할지를 압니다." # 18237498604561866569
@@ -149,7 +149,7 @@
   RICE_lesbos_fortify_aegean_decision: "에이지언 영토 요새화" # 10784077183063277232
   RICE_lesbos_fortify_aegean_decision_tooltip: "[GetGeographicalRegion('RICE_aegean_region').GetName]는 위험한 곳입니다!" # 11671836023579985275
   RICE_lesbos_fortify_aegean_decision_desc: "수많은 섬, 작은 만, 반도로 이루어진 [GetGeographicalRegion('RICE_aegean_region').GetName]는 위험한 곳입니다. 폭풍과 난파의 위험은 차치하더라도, 해적과 군사적 [raids|E]는 항상 위협적입니다. 그러한 공격의 효율을 무력화하기 위해, 이 지역의 우리 영토를 요새화해야 합니다." # 17390633375607400177
-  RICE_lesbos_fortify_aegean_decision_effect_tooltip_1: "이 [decision|E]의 [gold_i|E] [gold|E]와 [prestige_i|E] [prestige|E] 소모량은 [GetGeographicalRegion('RICE_aegean_region').GetName] 내 귀하가 소유한 해안 [county|E] 수에 따라 달라집니다." # 5302924733732247104
+  RICE_lesbos_fortify_aegean_decision_effect_tooltip_1: "이 [decision|E]의 [gold_i|E] [gold|E] 및 [prestige_i|E] [prestige|E] 비용은 [GetGeographicalRegion('RICE_aegean_region').GetName]에 소유하고 있는 해안 [counties|E]의 수에 따라 결정됩니다." # 5302924733732247104
   RICE_lesbos_fortify_aegean_decision_confirm: "[GetGeographicalRegion('RICE_aegean_region').GetNameNoTooltip]는 더 안전해질 것입니다!" # 13849884292935484753
   RICE_lesbos_fortify_aegean_decision_context_tooltip: "#emphasis 역사적 배경:#! 고대부터 전략적인 지리적 위치 때문에 [GetGeographicalRegion('RICE_aegean_region').GetNameNoTooltip]에서는 잦은 해적 행위, 해상 습격, 해전이 끊이지 않았습니다. 예를 들어, 젊은 율리우스 카이사르는 에게 해에서 해적에게 붙잡혔는데, 그는 몸값이 지불된 후 해적들을 십자가에 못 박겠다고 '농담 삼아' 약속했고, 실제로 나중에 이 해적들을 붙잡아 죽였습니다. 수 세기에 걸쳐 이 지역 사람들은 그러한 공격으로부터 자신을 보호하기 위한 다양한 방법을 발전시켰습니다." # 15036844560489932806
   RICE_mediterranean_renege_on_pirate_collaboration: "지중해 해적 협력 파기" # 17669367912753592103

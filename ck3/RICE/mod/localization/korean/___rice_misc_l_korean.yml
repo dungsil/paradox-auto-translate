@@ -203,11 +203,11 @@
   RICE_NOT_has_city_holding_req: "[city_holding|E]를 가진 [county|E]를 보유하고 있지 않음" # 137990083939878292
   RICE_NOT_has_temple_holding_req: "[temple_holding|E]가 있는 [county|E]를 소유하지 않음" # 16488865393726669892
   RICE_NOT_has_tribal_holding_req: "[tribal_holding|E]를 가진 [county|E]를 소유하고 있지 않음" # 13562642988425033095
-  RICE_geographical_travel_req: "[TARGET_CHARACTER.GetUINamePossessiveNoTooltip|U] [domain|E][AddTextIf(TARGET_CHARACTER.IsLandlessRuler, Concatenate(' 또는 ', TARGET_CHARACTER.GetDomicile.GetType.GetName ) )]이(가) [GEOGRAPHICAL_REGION.GetName]에 위치합니다." # 6155352488011841925
+  RICE_geographical_travel_req: "[TARGET_CHARACTER.GetUINamePossessiveNoTooltip|U] [domain|E][AddTextIf(TARGET_CHARACTER.IsLandlessRuler, Concatenate(' 혹은 ', TARGET_CHARACTER.GetDomicile.GetType.GetName ) )] 께서는 [GEOGRAPHICAL_REGION.GetName]에 계십니다" # 6155352488011841925
   NOT_RICE_geographical_travel_req: "[GEOGRAPHICAL_REGION.GetName] 내에 #EMP [county|E]나 [domicile|e]를 소유하고 있지 #! 않습니다!" # 13303399201093114876
   activity_RICE_hot_springs_visit_host_an_a: "$host_activity_a$" # 13713790857143020716
   activity_RICE_hot_springs_visit: "온천 방문" # 647038537016052024
-  activity_RICE_hot_springs_visit_desc: "이 세상에는 유명한 [온천|E]이 많이 있으며, 운 좋게도 그중 하나와 가깝게 살고 있습니다. 일상생활의 걱정에서 벗어나 스트레스를 풀기 위해 그곳을 방문해야 합니다." # 9117503003778629014
+  activity_RICE_hot_springs_visit_desc: "이 세상에는 수많은 유명한 [hot_springs|E]가 있으며, 나는 그중 하나와 가까이 살다니 행운이로다. 그곳에 방문하여 스트레스를 풀고 일상의 걱정거리들을 잊어야겠다." # 9117503003778629014
   activity_RICE_hot_springs_visit_selection_tooltip: "현지 [hot_springs|E]에서 휴식하기.\n\n$activity_RICE_hot_springs_visit_context_tooltip$" # 11870276385542662825
   activity_RICE_hot_springs_visit_context_tooltip: "#emphasis 역사적 배경:#! 온천은 일반적으로 화산 활동과 같은 지열 기원을 가집니다. 온천은 수천 년 동안 인류에게 사용되어 왔으며, 많은 온천은 전통적으로 치유 또는 치료 효과가 있다고 여겨집니다." # 3319482386439957716
   activity_RICE_hot_springs_visit_host_desc: "\n$BULLET_WITH_TAB$[stress_loss_i|E] [stress|E] 잃습니다\n$BULLET_WITH_TAB$장소에 따라 다른 추가 효과를 받을 수 있습니다" # 5796056523830155341
@@ -230,7 +230,7 @@
   RICE_hot_springs_visit_completed_log: "[CHARACTER.GetShortUIName|U]께서 [PROVINCE.GetBaronyNameExplicitly]에 있는 [hot_springs|E] 방문을 마쳤습니다." # 14798992536289298181
   TRAVEL_NAME_FOR_activity_RICE_hot_springs_visit: "[Character.GetFirstNamePossessiveNoTooltip] $activity_RICE_hot_springs_visit$" # 1779414369856157414
   activity_RICE_local_pilgrimage: "지역 순례" # 10334250218750586114
-  activity_RICE_local_pilgrimage_desc: "세계는 지역 성지로 가득합니다. 이곳들은 종종 [신앙의|E] 주요 [성지들|E]만큼 유명하지 않으며, 따라서 장거리 [순례|E]의 대상이 되는 경우가 드뭅니다. 하지만 여전히 주변 지역의 신봉자들을 끌어모읍니다." # 5614416500868816931
+  activity_RICE_local_pilgrimage_desc: "세상은 지역 성지들로 가득 차 있습니다. 이 장소들은 종종 [faithpossessive|E] 주요 [holy_sites|E]만큼 두드러지지 않아 장거리 [pilgrimages|E]의 목표가 되는 일은 드물지만, 여전히 주변 지역의 신도들을 끌어모으고 있습니다." # 5614416500868816931
   activity_RICE_local_pilgrimage_selection_tooltip: "[local_pilgrimage|E]을 떠나십시오.\n\n$activity_RICE_local_pilgrimage_context_tooltip$" # 10643669713571099553
   activity_RICE_local_pilgrimage_context_tooltip: "#emphasis 역사적 배경:#! 순례는 종종 메카, 예루살렘, 산티아고, 보드가야와 같은 잘 알려진 종교 성지로의 거대한 여정을 떠올리게 하지만, 지역 및 지방의 순례지 또한 과거에도, 현재에도 흔했습니다. 이들 중 일부는 더 유명한 성지만큼이나, 혹은 그보다 더 오랫동안 숭배와 경배의 중심지였습니다. 이러한 순례지는 종종 지역 전설과 문화와 연결되어 있으며, 여행이 어려웠던 근대 이전 시대에는 이들 장소로 향하는 것이 더 실용적인 경우가 많았습니다." # 5393693812791771381
   activity_RICE_local_pilgrimage_host_desc: "\n$BULLET_WITH_TAB$[piety_i|E][piety|E] 획득\n$BULLET_WITH_TAB$[stress_loss_i|E] [stress|E] 상실\n$BULLET_WITH_TAB$[GetTrait('pilgrim').GetName( GetNullCharacter )] [trait|E] / [GetTrait('pilgrim').GetName( GetNullCharacter )] [trait_level_track_xp|E]" # 5617381781335626209
@@ -260,7 +260,7 @@
   RICE_local_pilgrimage_completed_log_title: "지역 순례 완료됨" # 4914369661525092964
   RICE_local_pilgrimage_completed_log: "[CHARACTER.GetShortUIName|U]께서 [CHARACTER.GetHerHis] [PROVINCE.GetBaronyNameExplicitly]로의 [local_pilgrimage|E]를 완료하셨습니다." # 14320389929684909204
   TRAVEL_NAME_FOR_activity_RICE_local_pilgrimage: "[Character.GetFirstNamePossessiveNoTooltip]$activity_RICE_local_pilgrimage$" # 1311567001231395453
-  RICE_local_pilgrimage_county_req: "[최상위 봉역|E|E] 내에 [지역 성지순례|E]를 위한 주목할 만한 장소가 있는 [county|E]가 적어도 하나 존재합니다." # 2109634866831842978
+  RICE_local_pilgrimage_county_req: "[top_realm|E|E] 내에 [local_pilgrimages|E]를 위한 주목할 만한 장소가 있는 [county|E]가 하나 이상 있습니다." # 2109634866831842978
   NOT_RICE_local_pilgrimage_county_req: "$RICE_hot_springs_county_req$" # 13510738772406884580
   RICE_local_pilgrimage_votive_offering_type: "봉헌" # 1626538731888735885
   RICE_local_pilgrimage_votive_offering_type_small: "기본 봉헌물" # 18347591411903449294
@@ -277,9 +277,9 @@
   RICE_local_pilgrimage_memorialization_type_small: "성지순례 낙서" # 13575630643855228134
   RICE_local_pilgrimage_memorialization_type_small_desc: "$EFFECT_LIST_BULLET$[activity|E] 완료 시 [prestige_i|E] #V 50#! 기본 획득.\n\n#weak 순례지에 내 이름, 가능하다면 메시지까지 새겨 나의 흔적을 남기리라. #!" # 295361841879738573
   RICE_local_pilgrimage_memorialization_type_medium: "소박한 비문" # 7745385202673013861
-  RICE_local_pilgrimage_memorialization_type_medium_desc: "$EFFECT_LIST_BULLET$[activity|E] 완료 시 [prestige_i|E] #V 100#! 기본 획득.\n$EFFECT_LIST_BULLET$[dynasty_prestige|E] #V [GetPlayer.MakeScope.ScriptValue('miniscule_dynasty_prestige_gain')]#! 기본 획득.\n\n#weak 이 영적인 여정을 기념하기 위해, 완료되면 집 근처 어딘가에 비석을 새길 것이다.#!" # 14445307364201400371
+  RICE_local_pilgrimage_memorialization_type_medium_desc: "$EFFECT_LIST_BULLET$[prestige_i|E] #V 100#! 기본 획득 (이 [activity|E] 완료 시).\n$EFFECT_LIST_BULLET$[dynasty_prestige_i|E] #V [GetPlayer.MakeScope.ScriptValue('miniscule_dynasty_prestige_gain')]#! [dynasty_prestige|E] 기본 획득\n\n#weak 이 영적인 여정을 기념하기 위해, 완료되면 집 근처 어딘가에 비문을 새길 것이다.#" # 14445307364201400371
   RICE_local_pilgrimage_memorialization_type_large: "기념비" # 2534298656546347221
-  RICE_local_pilgrimage_memorialization_type_large_desc: "$EFFECT_LIST_BULLET$[prestige|E] 기본 획득량 #V 200#!, [activity|E] 완료 시\n$EFFECT_LIST_BULLET$[왕조 위신|E] 기본 획득량 #V [GetPlayer.MakeScope.ScriptValue('minor_dynasty_prestige_gain')]#! [왕조 위신|E]\n\n#weak 모두가 나의 종교적 헌신을 알게 되리라. 돌아가면 이 순간을 영원히 기념할 겸손하지만 존경받을 만한 기념비를 세울 것이니!#!" # 2702745520797597479
+  RICE_local_pilgrimage_memorialization_type_large_desc: "$EFFECT_LIST_BULLET$[activity|E] 완료 시 기본 [prestige_i|E] 획득 #V 200#!\n$EFFECT_LIST_BULLET$기본 [dynasty_prestige_i|E] 획득 #V [GetPlayer.MakeScope.ScriptValue('minor_dynasty_prestige_gain')]#! [dynasty_prestige|E]\n\n#weak 돌아왔을 때 이 순간을 불멸로 만들 작은 기념비를 세워, 나의 종교적 헌신이 만천하에 알려지리라!#" # 2702745520797597479
   RICE_local_pilgrimage_votive_offering_amount: "봉헌물" # 11499955309892013273
   RICE_local_pilgrimage_memorialization_amount: "기념" # 1285239788461256734
   game_concept_hot_springs: "온천" # 8181879117728660562
@@ -327,11 +327,11 @@
   RICE_hot_springs_visit_guest_memory_first_perspective: "[host.GetTitledFirstName]와 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]에 다녀왔습니다." # 594878592509663480
   RICE_hot_springs_visit_guest_memory_second_perspective: "[host.GetTitledFirstName]과 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]에 다녀왔습니다." # 1004164798446582247
   RICE_hot_springs_visit_guest_memory_third_perspective: "[owner.GetName]은 [host.GetTitledFirstName]과 함께 [GetActivityType( 'activity_RICE_hot_springs_visit' ).GetName]에 다녀왔습니다." # 3130754913359803347
-  RICE_local_pilgrimage_host_memory: "[지역 순례|E]를 다녀왔습니다." # 6548118772392399071
-  RICE_local_pilgrimage_host_memory_first_perspective: "[지역 순례|E]를 떠났습니다." # 4362441262227951276
-  RICE_local_pilgrimage_host_memory_second_perspective: "[지역 순례|E]를 다녀오셨습니다." # 18187416768885021879
+  RICE_local_pilgrimage_host_memory: "[local_pilgrimage|E]를 떠났습니다" # 6548118772392399071
+  RICE_local_pilgrimage_host_memory_first_perspective: "저는 [local_pilgrimage|E]를 떠났습니다." # 4362441262227951276
+  RICE_local_pilgrimage_host_memory_second_perspective: "당신은 [local_pilgrimage|E]를 떠났습니다" # 18187416768885021879
   RICE_local_pilgrimage_host_memory_third_perspective: "[owner.GetName]은 [local_pilgrimage|E]에 나섰습니다." # 6906274636314267420
-  RICE_local_pilgrimage_guest_memory: "[주인공.칭호를가진이름]을 [주인공.그의/그녀의] [지역순례|E]에 동행했습니다." # 13171133548566240752
+  RICE_local_pilgrimage_guest_memory: "[host.GetTitledFirstName]의 [local_pilgrimage|E]에 [host.GetHerHis] 수행원으로 동행함" # 13171133548566240752
   RICE_local_pilgrimage_guest_memory_first_perspective: "저는 [host.GetTitledFirstName]께서 [host.GetHerHis] [local_pilgrimage|E]에 동행했습니다." # 18191205153152807997
   RICE_local_pilgrimage_guest_memory_second_perspective: "[host.GetTitledFirstName]께서 [local_pilgrimage|E]에 함께하시도록 안내해 드렸습니다." # 13894101271489298036
   RICE_local_pilgrimage_guest_memory_third_perspective: "[owner.GetName]은 [host.GetTitledFirstName]와 함께 [host.GetHerHis] [local_pilgrimage|E]에 동행했습니다." # 7455522995696792000
@@ -340,13 +340,13 @@
   RICE_local_veneration_option_effect_1: "[religion|E]를 따르는 모든 [barony|E]에 들어갈 때마다 #V [GetPlayer.MakeScope.ScriptValue('RICE_local_veneration_option_bonus_chance')]%#!의 확률로 [learning|E]와 [piety_level|E]에 따라 [piety_i|E] #V 1#!부터 [piety_i|E] #V [EmptyScope.ScriptValue('minor_piety_value')|0]#!까지의 경건함을 얻을 수 있습니다." # 17776834874561084970
   RICE_local_veneration_option.toast.success: "지역 [GetPlayer.GetFaith.GetReligion.GetAdjective] 신전에서 기도하셨습니다." # 8556392351217000857
   RICEintro.0030.t: "@warning_icon! 부적절한 로드 순서가 감지되었습니다." # 13099549724619633039
-  RICEintro.0030.desc: "아시아의 라자들과 RICE가 현재 모드 목록에 적재되어 있지만, 적절한 로드 순서가 아닌 것으로 감지되었습니다.\n\n이 메시지는 게임 시작 시에만 나타나므로, 향후 유사한 문제는 감지하지 않습니다. 또한 감지 시스템이 완벽하지 않아 오탐일 가능성이 있음을 유념하십시오.\n\n#bold #경고 @경고_아이콘! 아시아의 라자들은 RICE #underline 뒤에#! 로드해야 합니다. 새로운 게임을 시작해야 합니다.#!#!" # 5461840487658596918
+  RICEintro.0030.desc: "아시아의 라자(Rajas of Asia)와 RICE가 현재 모드 목록에서 감지되었으나 로드 순서가 올바르지 않습니다.\n\n이 메시지는 게임 시작 시에만 나타나므로, 추후 발생할 유사한 문제는 감지하지 않습니다. 또한, 감지 시스템이 완벽하지 않아 잘못된 경고가 표시될 수도 있음을 유의하십시오.\n\n#bold #warning @warning_icon! 로드 순서에서 RICE #underline 다음에#! 아시아의 라자(Rajas of Asia)가 로드되어 있는지 확인하십시오. 또한 새 게임을 시작해야 합니다.#!#!" # 5461840487658596918
   RICEintro.0030.a: "네" # 7171999794136174692
   RICEintro.0031.t: "@warning_icon! 부적절한 로드 순서가 감지되었습니다." # 13099549724619633039
-  RICEintro.0031.desc: "추락한 독수리와 RICE가 현재 모드 목록에 로드되었지만, 적절한 로드 순서가 아닌 것으로 감지되었습니다.\n\n이 메시지는 게임 시작 시에만 나타나므로 향후 유사한 문제는 감지하지 못합니다. 또한 감지 시스템이 완벽하지 않아 오탐 가능성이 있음을 유의해 주십시오.\n\n#bold #경고 @경고_아이콘! 추락한 독수리는 #밑줄 RICE 다음에#! 로드되어야 합니다. 새로운 게임을 시작해야 합니다.#!#!" # 11753857744927234360
+  RICEintro.0031.desc: "Fallen Eagle과 RICE가 현재 모드 목록에서 감지되었으나 로드 순서가 올바르지 않습니다.\n\n이 메시지는 게임 시작 시에만 표시되므로 향후 발생할 수 있는 유사한 문제는 감지하지 않습니다. 또한, 감지 시스템이 완벽하지 않아 잘못된 경고일 수 있음을 알려드립니다.\n\n#bold #warning @warning_icon! 로드 순서에서 Fallen Eagle이 RICE #underline 다음에# 로드되어 있는지 확인하십시오. 또한 새로운 게임을 시작해야 합니다.!#!#!" # 11753857744927234360
   RICEintro.0031.a: "네" # 7171999794136174692
   RICEintro.0032.t: "@alert_icon! 만인의 어머니 업적 달성 실패" # 5472511653206947174
-  RICEintro.0032.desc: "RICE에서 새롭게 추가된 아프리카 이교 신앙, 예컨대 [ROOT.Char.GetFaith.GetReligion.GetAdjective] [faith|E], [ROOT.Char.GetFaith.GetName]는 #경고 아님#! #굵은 글씨 어머니 우리 모두#! 업적 달성에 포함되지 않습니다. 오직 기본 게임의 아프리카 이교 [faiths|E]만 포함됩니다.  다른 모드에 의해 이 내용이 변경될 수 있음을 유념하십시오.\n\n이 메시지는 심각한 경고가 아닌, 향후 혼란을 방지하기 위한 친절한 안내입니다." # 10182004900848272595
+  RICEintro.0032.desc: "RICE 모드에서 새로 추가된 아프리카 이교 신앙인 [ROOT.Char.GetFaith.GetReligion.GetAdjective] [faith|E] 신앙, 즉 [ROOT.Char.GetFaith.GetName]은 #warning 감히#! #bold 어머니는 우리 모두#! 도전 과제 달성에 포함되지 않는다는 점을 친절히 알려드립니다. 바닐라에 포함된 아프리카 이교 [faiths|E]만이 인정됩니다. 다른 모드는 이 규칙을 변경할 수 있음을 유의하십시오.\n\n이 메시지는 심각한 경고가 아니며, 향후 혼란을 방지하기 위한 친절한 상기입니다." # 10182004900848272595
   RICEintro.0032.a: "네" # 7171999794136174692
   d_laamp_RICE_thabit_ibn_qurra: "고대 유물 보존자들" # 12873703112160499513
   d_laamp_RICE_thabit_ibn_qurra_article: "$DEFAULT_TITLE_NAME_ARTICLE$" # 14610429145904019047

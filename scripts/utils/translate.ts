@@ -1,5 +1,5 @@
 import { translateAI } from './ai'
-import { getCache, hasCache, setCache } from './cache'
+import { getCache, hasCache, removeCache, setCache } from './cache'
 import { getDictionary, hasDictionary } from './dictionary'
 import { log } from './logger.js'
 import { type GameType } from './prompts'
@@ -39,7 +39,16 @@ export async function translate (text: string, gameType: GameType = 'ck3', retry
   // 캐시에 이미 번역된 텍스트가 있는 경우 캐시에서 반환
   if (await hasCache(normalizedText, gameType)) {
     const cached = await getCache(normalizedText, gameType)
-    if (cached) return cached
+
+    if (cached) {
+      const { isValid } =  validateTranslation(normalizedText, cached, gameType)
+      if (isValid) {
+        return cached
+      }
+
+      // 잘못 저장된 캐시는 제거
+      await removeCache(normalizedText, gameType)
+    }
   }
 
   // 실제 AI 번역 요청
@@ -53,7 +62,7 @@ export async function translate (text: string, gameType: GameType = 'ck3', retry
 
   // 번역 유효성 검증 (translation-validator.ts의 통합 로직 사용)
   const validation = validateTranslation(normalizedText, translatedText, gameType)
-  
+
   if (!validation.isValid) {
     log.warn(`번역 검증 실패 (재번역): "${normalizedText}" -> "${translatedText}" (사유: ${validation.reason})`)
     return await translate(text, gameType, retry + 1)

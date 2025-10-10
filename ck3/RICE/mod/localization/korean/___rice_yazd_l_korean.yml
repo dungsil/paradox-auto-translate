@@ -17,13 +17,13 @@
   RICE_dynn_yaqubi: "야쿠비" # 9649382933819152185
   innovation_RICE_yakhchals: "야크찰스" # 6756799084603637524
   innovation_RICE_yakhchals_desc: "고대부터 이란고원의 사람들, 특히 더욱 건조한 기후에 사는 이들은 [Glossary( 'Yakhchals', 'YAKHCHAL_GLOSS' )]이라고 알려진 얼음 저장고를 활용해왔습니다. 이것들은 훌륭하게 설계되어 오랜 기간 얼음을 보관할 수 있으며, 음식을 보존하거나 셔벗이나 차게 식힌 포도주 같은 차가운 요리를 준비하는 데 사용됩니다." # 8276994795557392612
-  RICE_yakhchals_decision_unlock: "이 [culture|E]의 [capital|E] 또는 [domicile|E]를 가진 [vassal|E]에게 $RICE_yazd_purchase_yakhchal_ice$ [decision|E]를 잠금 해제합니다." # 9920109462269865600
+  RICE_yakhchals_decision_unlock: "[culture|E]의 [capital|E]나 [domicile|E]를 소유한 [rulers|E]에게 $RICE_yazd_purchase_yakhchal_ice$ [decision|E]를 해금합니다." # 9920109462269865600
   Auharmazd_dad: "아우하르마즈드-다드" # 11963447856903453203
   Mardan_Farrukh: "마르단-파루크" # 12906029776346573953
   dynn_RICE_auharmazd_dad: "아우하르마즈드-다디드" # 230728622914272522
   RICE_yazd_aspiration_qawurd_desc: "\n\n#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$[GetTitleByKey('e_persia').GetNameNoTier]의 [ruler|E]가 되십시오.\n$EFFECT_LIST_BULLET$[GetTitleByKey('k_persia').GetNameNoTier]와 [GetTitleByKey('k_mesopotamia').GetNameNoTier]를 [completely_control|E]하십시오.\n$EFFECT_LIST_BULLET$$heritage_turkic_name$ [heritage|E]의 [culture|E]를 유지하십시오.\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$#V 500#! [GetMaA('horse_archers').GetName] [special_troops|E] 획득\n$EFFECT_LIST_BULLET$[GetGeographicalRegion('world_middle_east_persia').GetName]에 있으며 $heritage_turkic_name$ [heritage|E]의 [culture|E]인 당신이 통치하는 모든 [county|E]가 @control_icon! #V [EmptyScope.ScriptValue('RICE_yazd_qawurd_aspiration_control_bonus')]#! [control|E]를 얻습니다.\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$알프 아르슬란과 그의 수석 상속자 말리크 샤가 사망했는지 확인하십시오 (보상: 각각에게 @prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#!, 만약 당신이 둘 중 하나 또는 둘 다 직접 죽인다면 대신 @prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#!)." # 7007671785101639143
   RICE_yazd_historical_aspiration_action_qawurd: "#italic 당신이 가문의 가장 연장자인 왕자임에도 불구하고 셀주크 제국을 다스리지 못하는 것은 수치스럽습니다. 당신은 셀주크를 옛 전통으로 되돌리고 정당하게 당신의 것인 왕좌를 얻고자 합니다.#!$RICE_yazd_aspiration_qawurd_desc$" # 16613385233165970003
-  RICE_yazd_historical_aspiration_modifier_desc_qawurd: "염원: 셀주크 왕좌 주장" # 16019018265017098683
+  RICE_yazd_historical_aspiration_modifier_desc_qawurd: "[GetModifier('RICE_yazd_aspiration_claim_seljuk_throne').GetNameWithTooltip]" # 16019018265017098683
   RICE_yazd_sadeh_festival_host_memory: "[GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName]을 개최했다" # 3628681625495546044
   RICE_yazd_sadeh_festival_host_memory_first_perspective: "[GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName]를 축하했습니다." # 10492406179081317168
   RICE_yazd_sadeh_festival_host_memory_second_perspective: "당신은 [GetActivityType( 'activity_RICE_yazd_sadeh_festival' ).GetName]을 기념했습니다" # 6840011838778984373
@@ -40,7 +40,7 @@
   activity_RICE_yazd_sadeh_festival: "사데 제전" # 4709076429601606859
   activity_RICE_yazd_sadeh_festival_desc: "겨울의 추위가 대지를 휩쓸 때, 이란 세계의 전통적인 겨울 축제인 사데 축제의 시간입니다." # 14763159714409290736
   activity_RICE_yazd_sadeh_festival_selection_tooltip: "성대한 사데 축제를 [capital|E]에서 개최하십시오.\n\n$RICE_yazd_celebrate_sadeh_festival_context_tooltip$" # 12822938769232069502
-  activity_RICE_yazd_sadeh_festival_host_desc: "\n$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$[piety_i] [faith|E]\n$BULLET_WITH_TAB$[스트레스|E] [stress_loss_i|E] 상실\n$BULLET_WITH_TAB$ [GetModifier('RICE_yazd_recently_celebrated_sadeh').GetNameWithTooltip] [인물 보너스|E]" # 11775482620567531522
+  activity_RICE_yazd_sadeh_festival_host_desc: "$BULLET_WITH_TAB$[prestige_i] [prestige|E]\n$BULLET_WITH_TAB$[piety_i] [piety|E]\n$BULLET_WITH_TAB$[stress_loss_i|E] [stress|E] 상실\n$BULLET_WITH_TAB$ [GetModifier('RICE_yazd_recently_celebrated_sadeh').GetNameWithTooltip] [character_modifier|E]" # 11775482620567531522
   activity_RICE_yazd_sadeh_festival_guest_desc: "$activity_RICE_yazd_sadeh_festival_host_desc$" # 6317762965555141879
   activity_RICE_yazd_sadeh_festival_destination_selection: "$activity_RICE_yazd_sadeh_festival_province_desc$" # 6551477378818383633
   activity_RICE_yazd_sadeh_festival_guest_help_text: "$activity_RICE_yazd_sadeh_festival$" # 3167421843418348131
@@ -79,11 +79,11 @@
   building_RICE_yazd_arg_e_bam_01: "$building_type_RICE_yazd_arg_e_bam_01$" # 13087237622884297207
   building_RICE_yazd_arg_e_bam_01_desc: "$building_type_RICE_yazd_arg_e_bam_01_desc$" # 8402361456476021960
   RICE_yazd_saffarid_yaqub: "구리 장인" # 18016332391589872202
-  RICE_yazd_saffarid_yaqub_desc: "야쿱 이븐 알라이스는 이란에서 하자르파와 싸우던 여러 무리 중 하나를 이끄는 전쟁광이 되기 전 한때 구리 세공사였다. 따라서 더 엘리트 출신의 전쟁광이나 제후들은 그의 미천한 출신을 비웃을지 모르나, 그는 평범한 사람들과 소통하는 법을 알고 있으며, 여전히 꽤 검소하고 겸손하게 살고 있다고 전해진다.\n\n수도가 어디에 있든 상관없이, 심지어 자신의 [domain|E]에 아자리카 [county|E]가 하나도 없더라도 #EMP 자이쉬 알슈라트#! 병력 징집 [decision|E]를 취할 수 있다" # 9452098263441024928
+  RICE_yazd_saffarid_yaqub_desc: "야쿠브 이븐 알라이스는 한때 구리장이였으나 이후 이란에서 하와리즈파에 맞서 싸우던 수많은 군벌 중 한 명을 이끌게 되었습니다. 따라서 귀족 출신의 군벌이나 왕자들이 그의 보잘것없는 출신을 비웃을 수 있겠지만, 그는 평범한 사람들과 소통하는 방법을 알고 있으며, 여전히 상당히 검소하고 겸손하게 생활한다고 알려져 있습니다.\n\n수도와 상관없이, 심지어 [domain|E]에 아자리카 [counties|E]가 없더라도 #EMP Jayš al-Šorāt#! 부대를 징집하는 [decision|E]를 사용할 수 있습니다." # 9452098263441024928
   RICE_yazd_saffarid_amr: "당나귀 몰이꾼과 석공" # 1223780156826637588
-  RICE_yazd_saffarid_amr_desc: "형제들과 마찬가지로, 아므르 이븐 알라이스 역시 권력을 잡기 전에는 미천한 출신이었으며, 그 또한 검소하고 소박한 생활 방식으로 알려져 있습니다. 묻는 사람에 따라 그는 노새꾼 또는 석공이었다고 합니다.\n\n수도가 어디에 있든, 그리고 자신의 [domain|E]에 아자리카 [county|E]가 없더라도 #EMP 자이시 알슈라트#! 부대를 고용하는 [decision|E]을 내릴 수 있습니다." # 15295932258871273075
+  RICE_yazd_saffarid_amr_desc: "그의 형제들과 마찬가지로, 암르 이븐 알-라이쓰는 권력을 잡기 전에는 미천한 출신이었으며, 절약과 검소한 생활 방식으로 알려져 있습니다. 누가 묻느냐에 따라 그는 노새꾼이었다거나 석공이었다고 전해집니다.\n\n수도 위치에 상관없이, 심지어 자신의 [domain|E]에 아자리카 [counties|E]가 없더라도 [decision|E]를 통해 #EMP Jayš al-Šorāt#! 부대를 모집할 수 있습니다!" # 15295932258871273075
   RICE_yazd_saffarid_ali: "겸손한 전사" # 14893876266019645763
-  RICE_yazd_saffarid_ali_desc: "형제 야쿠브만큼 명성이 높진 않으나, 알리는 많은 전사들에게 널리 존경받고 있다.\n형제 야쿠브와 아므르처럼 그 또한 권력을 잡기 전에는 미천한 출신이었으며, 검소하고 소박한 생활 방식을 유지한다.\n\n수도가 어디에 있든 상관없이, 그리고 [domain|E] 내에 아자리까 [county|E]가 없더라도 #EMP 자이쉬 알-슈라트#! 병력을 징집하는 [decision|E]을(를) 내릴 수 있다." # 3629088584633729904
+  RICE_yazd_saffarid_ali_desc: "야쿱만큼 유명하지는 않지만, 알리는 많은 전사들에게 존경받고 있습니다. 그의 형제인 야쿱, 암르와 마찬가지로 그 역시 권력을 잡기 전에는 미천한 출신이었으며, 검소하고 겸손한 생활 방식을 유지하고 있습니다.\n\n수도 위치에 상관없이, 심지어 [domain|E] 내에 아자리까 [counties|E]가 없더라도 [decision|E]를 내려 #EMP 제이쉬 알-쇼랏#! 부대를 징집할 수 있습니다." # 3629088584633729904
   RICE_yazd_saffarid_yaqub_reduce_fertility: "불분명한 동기의 아이야르" # 4083904172412234534
   RICE_yazd_saffarid_yaqub_reduce_fertility_desc: "어떤 이들은 야쿱 이븐 알라이스가 이슬람 신앙의 진정한 신봉자이며, 이단자와 이교도에 맞서 어떤 대가를 치르더라도 신앙을 수호할 것이라고 말합니다. 다른 이들은 그가 다른 많은 이들처럼 기회주의적이고 탐욕스러운 군벌일 뿐이라고 말합니다. 또 다른 이들은 그가 비밀스러운 하리지파 교도이거나 우상 숭배자이며, 오직 칼리파에 대한 적대감에 의해 움직인다고 말합니다. 그의 진정한 충성심이 어디에 있는지 누가 알겠습니까?" # 6792077037427508723
   RICE_yazd_patrons_of_avicenna: "아비케나의 후원자들" # 3063290972372908711
@@ -199,17 +199,17 @@
   RICE_yazd_construct_shrine_of_the_twelve_imams: "다아즈다흐 이맘을 건설하다" # 6264474426427897749
   RICE_yazd_construct_shrine_of_the_twelve_imams_tooltip: "야즈드는 시아파 묘를 세우기에 좋은 장소가 될 것입니다." # 1883583555081481740
   RICE_yazd_construct_shrine_of_the_twelve_imams_desc: "야즈드의 시아파 공동체가 도시에 무덤을 건립하자고 제안했습니다. 그것은 #italic 다바즈다 이맘#이라고 불리며, 십이 이맘의 신전으로, 예술과 건축의 최신 발명품을 활용하여 참으로 숭배와 영적 성찰에 걸맞은 장소가 될 것입니다." # 13678411062028332502
-  RICE_yazd_construct_shrine_of_the_twelve_imams_effect_tooltip: "#V 시아파# 신앙을 따르면 [piety|E]와 [prestige|E] 보너스가 두 배로 증가합니다." # 8932323756361524722
+  RICE_yazd_construct_shrine_of_the_twelve_imams_effect_tooltip: "#V 시아파# [faith|E]를 따를 경우 [piety|E]와 [prestige|E] 보너스가 두 배가 됩니다." # 8932323756361524722
   RICE_yazd_construct_shrine_of_the_twelve_imams_confirm: "묘를 건립하도록 명령합니다." # 14709863259042748274
   RICE_yazd_construct_shrine_of_the_twelve_imams_context_tooltip: "#bold 역사적 배경:# 이란 야즈드에 위치한 십이이맘의 신전(다바즈다 이맘)은 이슬람 역사상 가장 초기의 돔형 사각형 무덤 중 하나입니다. 1038년에 카쿠이드 왕조의 두 시아파 군사 지휘관의 명령으로 건설되었습니다. 삼엽형 스퀸치(후기 이란 중세 건축의 특징적인 요소)의 사용과 이전 유사 건축물에 비해 색상 및 칠한 석고의 활용이 더 많아졌다는 점과 같은 혁신적인 건축 특징을 가지고 있습니다." # 10336310180151725288
   RICE_yazd_purchase_yakhchal_ice: "지역 야치칼에서 얼음 구매하기" # 16520879916203524087
   RICE_yazd_purchase_yakhchal_ice_tooltip: "[GetGeographicalRegion('world_middle_east_persia').GetName] 사람들은 수백 년 동안 얼음을 보관하기 위해 [Glossary( 'Yakhchals', 'YAKHCHAL_GLOSS' )]를 사용해왔습니다." # 2581893017084378373
   RICE_yazd_purchase_yakhchal_ice_desc: "지역 [Glossary( 'Yakhchals', 'YAKHCHAL_GLOSS' )]에서 얼음을 보충해야 음식과 음료가 신선하게 유지될 것 같습니다. 그리고 셔벗도 먹어야 할 것 같군요!" # 2141285826916065551
-  RICE_yazd_purchase_yakhchal_ice_effect_tooltip_1: "이 [decision|E]의 효과는 [adventurers|E]인지에 따라 다릅니다." # 6736769649403850391
+  RICE_yazd_purchase_yakhchal_ice_effect_tooltip_1: "이 [decision|E]의 효과는 귀하가 [adventurer|E]인지 아닌지에 따라 달라집니다." # 6736769649403850391
   RICE_yazd_purchase_yakhchal_ice_confirm: "현지 야흐찰을 방문하십시오." # 15247072110227763180
   RICE_yazd_purchase_yakhchal_ice_context_tooltip: "#bold 역사적 배경:#! [Glossary( 'Yakhchals', 'YAKHCHAL_GLOSS' )]는 수세기 동안 [GetGeographicalRegion('world_middle_east_persia').GetName]에서 얼음과 눈을 저장하는 데 사용되는 전통적인 건물입니다. 역사적으로 여행자와 현지 주민 모두 현지 야흐찰에서 얼음을 사서 음식과 음료(서붑과 냉각된 포도주 등)를 보존하거나 만들었습니다." # 2349856386233827296
-  RICE_yazd_decision_yakhchal_landless_req: "[주거지|E]는 [culture|E]가 $innovation_RICE_yakhchals$ [innovation|E]을 가진 [region|E]에 있습니다." # 3731030825038698056
-  RICE_yazd_decision_yakhchal_landed_req: "[capital|E]는 그 [주|E]에 속해 있으며, 그 [culture|E]가 $innovation_RICE_yakhchals$ [innovation|E]을 가지고 있습니다." # 17026919117528449784
+  RICE_yazd_decision_yakhchal_landless_req: "[domicile|E]는 $innovation_RICE_yakhchals$ [innovation|E]를 가진 [culture|E]의 [county|E]에 위치하고 있습니다." # 3731030825038698056
+  RICE_yazd_decision_yakhchal_landed_req: "[capital|E]는 $innovation_RICE_yakhchals$ [innovation|E]를 보유한 [culture|E]의 [county|E] 내에 있습니다." # 17026919117528449784
   yazd.0000.t: "xxxxx" # 1951045980481827005
   yazd.0000.desc: "xxxxx" # 1951045980481827005
   yazd.0000.a: "xxxxx" # 1951045980481827005
@@ -226,13 +226,13 @@
   yazd.0002.tooltip.kharijites: "이 지역의 [bammer_guy.GetFaith.GetAdjective] 유적지 중 하나를 선택하여 플레이하시겠습니까?" # 13227395465849420130
   yazd.0003.t: "사파리드" # 4365976211033683868
   yazd.0003.desc: "[bammer_guy.GetFaith.GetAdjective] 광신자들은 과거 이란 전역을 휩쓸었으나, [yaqub_saffarid.GetFirstName]와 같은 이들의 노력 덕분에 쇠퇴하고 있으며 – 아직 완전히 끝난 것은 아니지만 – 멸망하거나 항복하도록 설득되었습니다. 반면, 호라산의 아바스 총독 [tahirid_guy.GetFirstName]는 이러한 위협 앞에 무능하고 태만한 것으로 알려져 있으며, 죄악과 향락에 더 관심이 많은 것으로 여겨집니다. 그래서 많은 이들이 [yaqub_saffarid.GetFirstName]에게 질서를 회복하고 [tahirid_guy.GetFirstName]에 맞서 줄 것을 요청했습니다.\n\n어떤 이들은 [yaqub_saffarid.GetFirstName]가 타히리드의 무능함을 이용하는 탐욕스러운 이단자라고 말합니다. 다른 이들은 그가 신실하고 겸손한 인물이며, 이교도, 이단자, 그리고 위선적인 폭군과 정의롭게 싸우고, 심지어 그의 헌신의 표시로 육욕을 버렸다고 말합니다. 진실이 무엇이든, 이 지역에서 누가 최고의 지위를 차지할지 결정하기 위한 전투가 시작되었으며, 내 이야기는…" # 2226058129914174792
-  yazd.0003.a: "야쿠브 사파리드 자신, 대장장이에서 성전사로 변신한" # 5648088781068321577
-  yazd.0003.b: "[amr_saffarid.GetFirstName] 형제" # 612174257034978489
+  yazd.0003.a: "[yaqub_saffarid.GetFirstName] 그 자신이, 대장장이에서 성전사로 변신한 자" # 5648088781068321577
+  yazd.0003.b: "[amr_saffarid.GetFirstName]은 [yaqub_saffarid.GetFirstName]의 동생이로다" # 612174257034978489
   yazd.0003.c: "[ali_saffarid.GetFirstName] 형제님, [yaqub_saffarid.GetFirstName] 형제님의 다른 형제님" # 4222009727453032547
-  yazd.0003.d: "[sebuk_eri_guy.GetFirstName], 야곱 사파리드의 야심찬 터키 노예병" # 6776482332006467042
-  yazd.0003.e: "[uzayr_al_sari.GetFirstName], 야쿠브 사파리드의 충실한 관리" # 11201098243215579300
-  yazd.0003.a.info: "#bold 역사적 배경:#! 야쿠브 이븐 알-레이스, 사파리드 왕조의 창시자는 현재 아프가니스탄 동부의 자란지에서 구리 세공사였습니다. 그는 동부 이란 내륙을 괴롭히던 아즈라키트와 싸우기 위해 #기울임꼴 ‘아이야르#’ 무리에 합류했습니다.\n\n그는 고행적인 생활 방식으로 유명했으며, 873년 타히리드를 물리칠 만큼의 세력을 얻었습니다. 아바스 칼리프 알-무타미드는 그의 커지는 세력에 두려움을 느껴 이란 각지의 총독직을 제안했지만, 야쿠브는 이를 거부하고 바그다드로 진군했습니다. 결국 876년 패배하고 말았습니다. 야쿠브의 공격은 전통적으로 그의 권력욕과 비종교적인 성향을 보여주는 것으로 해석되어 왔지만, 그는 성전사로서 알-무타미드를 부족하다고 여기고, 더 자격 있는 아바스 왕을 세우려 했을 가능성도 있습니다.\n\n야쿠브는 879년에 세상을 떠났습니다. 그의 초국가주의자라는 지위는 과장된 면이 있을지도 모르지만, 그의 커리어는 이란에서 아바스 제국의 권위가 붕괴되고 다양한 이란 귀족들이 등장하는 초기 단계를 분명히 보여줍니다." # 6471476493761299243
-  yazd.0003.b.info: "#bold 역사적 배경:# 아므르 이븐 알-레이스는 야쿠브의 형제로, 사파리드 왕조의 두 번째 통치자였습니다. 그 또한 야쿠브와 마찬가지로 돌 석공과 나귀 운반꾼으로 겸손한 출신을 가지고 있었으며, #기울임꼴 ‘아야르’#에 합류하기 전이었습니다.\n\n야쿠브는 자식이나 아내가 없었던 것으로 보이며, 다른 형제 알리에게 자신을 계승시키길 원했습니다. 그러나 어떤 음모로 인해 아므르가 최고 권력을 얻었습니다. 그의 초기 통치는 야쿠브가 서쪽에서 산만해진 동안 야쿠브의 권력에서 벗어난 여러 영토를 되찾는 데 집중되었습니다. 결국, 아므르와 칼리프 알-무타미드는 공동의 이익을 위협하는 여러 이란의 전쟁 지도자들로 인해 갈등을 접어야 했습니다.\n\n900년, 사마니드 왕조가 아므르를 무너뜨리며 그를 물리쳤습니다. 아므르는 기술적으로 칼리프의 대표였지만, 칼리프는 예전 동맹의 패배를 편리하게 여겼을 것입니다. 사마니드 왕조는 아므르를 칼리프에게 쇠사슬로 묶어 보냈고, 그는 나중에 처형되었습니다.\n\n아므르의 후손들은 또 다른 세기 동안 작은 영주로서 살아남아 통치했지만, 다시는 전성기를 이루지 못할 것입니다." # 7915388342269253212
+  yazd.0003.d: "[sebuk_eri_guy.GetFirstName]은 [yaqub_saffarid.GetFirstName]의 노예 병사로, 자신만의 야망을 품고 있는 튀르크 출신이다." # 6776482332006467042
+  yazd.0003.e: "[uzayr_al_sari.GetFirstName], [yaqub_saffarid.GetFirstName]의 충실한 관료" # 11201098243215579300
+  yazd.0003.a.info: "#emphasis 역사적 배경:#! 사파르 왕조의 창건자인 야쿱 이븐 알-라이스는 (현재의 아프가니스탄 동부에 위치한) 자란즈의 구리 세공인으로, 동부 이란 내륙 대부분을 창궐했던 아즈라크파와 싸우기 위해 #italic ‘ayyār#! 무리에 합류했습니다.\n\n금욕적인 생활 방식으로 명성을 떨친 야쿱은 873년에 타히르 왕조를 격파할 만큼 충분한 힘을 얻었습니다. 압바스 칼리프 알-무타미드는 그의 커져가는 힘을 두려워하여 이란 내 여러 지역의 총독직을 제안했지만, 야쿱은 이를 거절하고 바그다드로 진격했으나 876년에 패배했습니다. 비록 야쿱의 공격은 그의 권력욕 넘치고 심지어는 불경스러운 본성의 징표로 해석되어 왔지만, 그가 성전사로서 알-무타미드가 자격이 없다고 여겨 더 자격 있는 다른 압바스 가문 인물로 그를 대체하려 했을 가능성도 있습니다.\n\n야쿱은 879년에 사망했으며, 비록 그의 민족주의적 선구자로서의 위상은 다소 과장되었을지 모르나, 그의 경력은 이란에서 압바스 권위가 붕괴되기 시작하고 다양한 이란의 유력자들이 부상하는 초기 단계를 표시했다는 것은 의심의 여지가 없습니다." # 6471476493761299243
+  yazd.0003.b.info: "#emphasis 역사적 배경:#! 야쿱의 형제였던 암르 이븐 알-라이쓰는 사파르 왕조의 두 번째 통치자였습니다. 그의 형제와 마찬가지로 그 역시 #italic 아야르#!에 합류하기 전에는 석공과 노새 몰이꾼이라는 미천한 출신이었습니다.\n\n후사가 없었던 야쿱은 다른 형제인 알리가 자신을 계승하기를 바랐지만, 모종의 책략 덕분에 암르가 권좌에 올랐습니다. 그의 초기 통치 기간 대부분은 서쪽에서 야쿱이 정신이 팔려 있는 동안 그의 권위에서 벗어난 여러 지역에 질서를 회복하는 데 집중되었습니다. 결국, 암르와 칼리파 알-무타미드는 공동의 이익을 위협하는 여러 이란의 군벌들 때문에 그들의 불화를 잠시 접어두어야 했습니다.\n\n암르를 무너뜨린 것은 사만 왕조였습니다. 그들은 900년에 암르를 격파했습니다. 암르는 기술적으로 칼리파의 대리인이었지만, 칼리파는 자신의 옛 동맹이 패배한 것이 편리하다고 여겼을 것입니다. 사만 왕조는 암르를 쇠사슬에 묶어 칼리파에게 보냈고, 그는 이후 처형당했습니다.\n\n암르의 후손들은 살아남아 이후 1세기 동안 작은 영주들로 통치했지만, 다시는 그들의 권력의 정점에 도달하지 못했습니다." # 7915388342269253212
   yazd.0003.c.info: "#emphasis 역사적 배경:#! 그의 형제들과 마찬가지로 알리 이븐 알-레이스는 겸손한 출신이었으며, 오랜 세월 동안 그의 형제의 기치 아래 싸워왔습니다. 알리는 879년에 후자가 사망했을 때 그를 계승해야 했고, 사파리드 군대도 그를 더 선호했지만, 교활한 아므르가 우위를 차지했습니다. 두 형제는 결코 화해하지 않았고, 아므르가 알리를 감금한 동안 알리는 그 지역의 아므르의 적이었던 다른 이란의 장군들에게 투항하기 위해 탈출했습니다." # 5023293668296020020
   yazd.0003.d.info: "#emphasis 역사적 배경:#! 셉크-에리(Sebük-Eri)는 툰빌(Zunbil) 지역으로 수차례 습격을 감행한 사파리드(Saffarids)에게 노예병으로 붙잡힌 터키인이었습니다. 그는 야쿠브(Ya‘qub) 그리고 이후 아므르(Amr) 밑에서 몇 년간 복무하였고, 어느 시점에 파르스(Fars)의 총독으로 임명되었습니다.\n\n아므르(Amr)가 901년에 몰락하고 처형되자, 아므르의 후계자이자 손자였던 타히르(Tahir)는 야심 찬 셉크-에리(Sebük-Eri)의 지배 아래 놓였습니다. 결국, 타히르(Tahir)와 그의 형제 야쿠브(Ya‘qub)는 셉크-에리(Sebük-Eri)와 갈등을 빚었고, 셉크-에리는 칼리프(Caliph)와 동맹을 맺었습니다.\n\n타히르(Tahir)와 야쿠브(Ya‘qub)가 패배했지만, 셉크-에리(Sebük-Eri)의 행운은 오래 가지 않았습니다. 그의 야망은 칼리프가 그를 처벌하기 위해 출병을 보냈을 때 무너졌습니다. 그는 붙잡혀 917년 또는 918년에 칼리프의 포로로 사망했습니다." # 11067690253612249979
   yazd.0003.e.info: "#emphasis 역사적 배경:#! 야쿠브가 타히리드를 격파한 후, 그가 타히리드 통치자 무함마드를 무능한 통치자로 비난하며 백성과 그 지역의 할리지파 위협을 소홀히 했다고 말했다고 합니다. 야쿠브는 무함마드를 해임하고, 그의 추종자 우자이르 이븐 알-사리 를 니샤푸르(타히리드의 수도) 총독으로 임명하여 그의 대표로 그곳에서 일하게 했습니다." # 17843295344153876114
@@ -262,7 +262,7 @@
   yazd.0009.t: "원로 왕자의 혈통" # 3256694171558880921
   yazd.0009.desc: "아버지의 장남이자 삼촌의 외손자로서, 저는 셀주크의 지도자 자리를 물려받을 것이라 예상했습니다. 하지만 모든 노력에도 불구하고, 삼촌께서는 돌아가시며 가문의 운명을 동생 [alp_arslan.GetFirstName]에게 맡기셨습니다. 실망스럽고, 여전히 그렇습니다.\n\n전통적인 [ROOT.Char.GetCulture.GetName] 풍습에 따르면, 제가 손자들을 제치고 왕위를 계승할 만한 자격이 있다고 생각합니다. 저는 우리 군대의 많은 장교들이 이에 동의한다고 확신합니다.\n\n동생이 저보다 오래 살 것인지 알 수 없습니다. 하지만 [ROOT.Char.GetFaith.HighGodName]께서 원하신다면, 어느 날 제 인내와 노력이 보상받는 날이 올 것입니다. 셀주크 왕자 중 가장 고참으로서, 위대한 셀주크 제국은 제 손에 들어올 것입니다!" # 10893363022530387295
   yazd.0009.a: "그것은 단지 내가 태어나면서 받은 권리일 뿐입니다." # 15899466809915429626
-  yazd.0009.qawurd.tooltip: "#bold 카우르드의 야망: 셀주크 왕위 계승#!$RICE_yazd_aspiration_qawurd_desc$" # 8374450929773354034
+  yazd.0009.qawurd.tooltip: "#bold 카우르드의 [aspiration|E]: 셀주크 왕좌 주장#!$RICE_yazd_aspiration_qawurd_desc$\n" # 8374450929773354034
   yazd.0009.info: "#bold 역사적 배경:#  겉으로는 긴장감 넘치는 관계였지만, 카와르드는 형 알프 아르슬란이 살아있는 동안 그를 폐위하려는 시도를 한 적이 없었습니다. \n\n하지만 알프 아르슬란이 1072년에 예상치 못한 포로된 적에 의해 암살당하고 그의 아들, 젊은 말릭 샤가 뒤를 이었을 때, 카와르드는 셀주크 왕위를 차지할 기회를 엿보았고 반란을 일으켰습니다.  하마단 근처 결전에서 말릭 샤 군대의 많은 투르크멘들이 카와르드 편으로 돌아섰지만, 말릭 샤는 승리했고 카와르드는 처형되었습니다.\n\n하지만 카와르드의 두 아들, 술탄 샤와 투란 샤는 말릭 샤의 신하로서 케르만에 남아 있었습니다. 셀주크 왕가의 케르만 지파는 1100년대 후반까지 이어졌습니다." # 12003507371232813219
   yazd.0010.t: "$RICE_historical_aspiration_fulfilled_title$" # 6312590152546762382
   yazd.0010.desc: "평생의 꿈이 이루어졌습니다. #italic 저!# [qawurd.GetFirstName]는 강력한 셀주크 제국을 다스립니다. 내게는 덜 어울리는, 젊은 친척들? 그들은 나를 위해 싸우고, 나를 잘 섬길 자격이 있지만, 우리 왕가의 장자로서 이 자리에 앉을 권리가 항상 나에게 있었습니다. #italic 태어날 때부터의 권리#!입니다.\n\n나를 지지한 터키 전사들과 부족원들은 물론 매우 만족스러워하고 있습니다. 일부 친척들이 우리의 오랜 전통, 즉 장자 상속제를 버리는 것처럼 보였던 것에 대해 염려했었습니다. 그들은 이제 나에게 많은 것을 기대하고 있으며, 우리의 뿌리에 충실함으로써 그들의 욕망을 달래는 것이 현명할 것입니다.\n\n그럼에도 불구하고, 우리 왕가는 여전히 강력하게 서 있습니다. 내가 이 제국의 지휘권을 잡으면서 우리는 시간이 지남에 따라 더욱 강해질 것입니다." # 7475959209268492626
@@ -314,10 +314,10 @@
   yazd.0024.a: "그리 된 것이오." # 4807123701070642983
   yazd.0025.t: "[ROOT.Char.GetFaith.GetAdjective] 엑스웨도다의 통치 결정" # 373052756718284835
   yazd.0025.desc: "훌륭한 토론 끝에 – 때때로 격렬해졌지만 – #italic Xwedodah#! 문제를 심사하기 위해 소집한 의회는 이 문제에 대한 판결을 내렸습니다. #italic Xwedodah#!는 친척 간 결혼을 의미하는가, 아니면 사촌 간 결혼을 의미하는가?\n\n만장일치는 아니었지만, 참석자들의 많은 지지를 받았습니다. 이곳에서 일어난 일을 전 세계의 [ROOT.Char.GetFaith.GetAdjective] 공동체가 알리는 데는 시간이 걸리겠지만, 이것이 #italic Xwedodah#!에 대한 논쟁을 영원히 해결하고, 좋은 생각, 좋은 말, 좋은 행실을 장려하는 데 집중할 수 있기를 바랍니다.\n\n#Bold 따라서, 다음과 같이 선언합니다. [ROOT.Char.GetFaith.HighGodName]께서는 #italic Xwedodah#!를 다음과 같은 사이의 결혼으로 의도하셨습니다.#!" # 12910377516072483156
-  yazd.0025.a: "사촌 여러분, [ROOT.Char.GetFaith.HighGodName소유격]의 의도가 수백 년 동안 오해받았습니다." # 14553427490468421847
+  yazd.0025.a: "사촌들이여, [ROOT.Char.GetFaith.HighGodNamePossessive]의 뜻은 수세기 동안 잘못 해석되어 왔소." # 14553427490468421847
   yazd.0025.b: "가까운 친척, [ROOT.Char.GetFaith.HighGodNamePossessive]께서는 그들이 인류를 이끄는 길이 되기를 바라십니다." # 2227763604332284798
-  RICE_yazd_change_xwedodah_warning_tooltip: "#X [xwedodah_resolver.GetFaith.GetNameNoTooltip]의 $doctrine_consanguinity_name$ [doctrines|E]를 결정하는 이 결정은 #bold 영구적#입니다! 되돌릴 수 없습니다!#!" # 16859445484536969098
-  RICE_yazd_keep_xwedodah_tooltip_1: "[GetFaithDoctrine('doctrine_consanguinity_unrestricted').GetBaseName]은 여전히 [xwedodah_resolver.GetFaith.GetName]의 $doctrine_consanguinity_name$ [doctrines|E]로 이어집니다." # 17317225167478999213
+  RICE_yazd_change_xwedodah_warning_tooltip: "#X 이 결정은 [xwedodah_resolver.GetFaith.GetNameNoTooltip]의 $doctrine_consanguinity_name$ [doctrine|E]을 결정하는 것이며, #bold 영구적#입니다! 되돌릴 수 없습니다!#!" # 16859445484536969098
+  RICE_yazd_keep_xwedodah_tooltip_1: "[GetFaithDoctrine('doctrine_consanguinity_unrestricted').GetBaseName]은 계속해서 [xwedodah_resolver.GetFaith.GetName]의 $doctrine_consanguinity_name$ [doctrine|E]입니다." # 17317225167478999213
   RICE_yazd_keep_xwedodah_tooltip_2: "[GetFaithDoctrine('tenet_divine_marriage').GetBaseName]은 여전히 [xwedodah_resolver.GetFaith.GetName]의 [core_tenet|E]로 남아 있습니다." # 10102610143928282729
   yazd.0026.t: "[xwedodah_resolver.GetFaith.GetAdjective] 웨도다의 판결" # 5761572789324658428
   yazd.0026.desc.intro: "최근 [xwedodah_resolver.GetTitledFirstName]은 학자들과 [xwedodah_resolver.Custom('DefaultPriestTitlePlural')]로 구성된 회의를 소집하여 현재의 #italic Xwedodah#!에 대한 [xwedodah_resolver.GetFaith.GetAdjective] 이해가 정확한지 논의했습니다. 그들이 논쟁한 핵심 질문은 그것이 혈연 관계의 혼인인지, 아니면 사촌 간의 혼인인지를 가리키는 것이었습니까. 다른 신앙을 가진 추종자들은 오랫동안 이러한 [xwedodah_resolver.GetFaith.GetAdherentNamePlural]의 행위를 비난해 왔으며, 이는 그들 자신의 공동체 내에서도 오랫동안 논란의 여지가 있었습니다. 어쨌든, 회의는 결국 판결에 이르렀습니다." # 17658187444694460145
@@ -325,7 +325,7 @@
   yazd.0026.desc.yes_incest: "여러 증거와 논리에 기반하여, 그들은 #italic Xwedodah#!이 부모와 자식, 또는 형제와 자매와 같은 혈족 간의 결혼을 가리킨다고 주장합니다. 따라서 현재의 관행은 [xwedodah_resolver.GetFaith.ReligiousText]에 기록된 가르침에 부합합니다." # 17217918955460539169
   yazd.0026.desc.conclusion: "이 명령은 반드시 구속력 있는 절대적인 것이 아니지만, 관련된 자들의 영향력 때문에 많은 [xwedodah_resolver.GetFaith.GetAdherentNamePlural]이 따를 가능성이 높습니다." # 10005561638123390015
   yazd.0026.a: "[xwedodah_resolver.GetFaith.GetAdjectiveNoTooltip] 공동체는 이에 대해 어떻게 생각할까요?" # 5049273722298660225
-  yazd.0026.tooltip: "$doctrine_consanguinity_name$ [doctrines|E]의 [xwedodah_resolver.GetFaith.GetName] 개정은 #bold 영구적#입니다. 되돌릴 수 없습니다." # 11188010638613276104
+  yazd.0026.tooltip: "[xwedodah_resolver.GetFaith.GetName]의 $doctrine_consanguinity_name$ [doctrine|E] 변경 사항은 #bold 영구적#이며, 되돌릴 수 없습니다." # 11188010638613276104
   yazd.0027.t: "다바즈다흐 이맘" # 10870213974451680806
   yazd.0027.desc.intro: "[yazd_county.GetNameNoTier]의 현지 시아파 공동체의 요청으로, 저는 몇몇 숙련된 장인과 건축가를 고용하여 돈을 모아 #italic 다바즈다 이맘# 또는 십이이맘의 신사당이라는 무덤을 건립했습니다.  도시에서 가장 큰 건물은 아니지만, 여전히 놀라운 건축물입니다. 내부에는 여러 개의 비문이 있는데, 대부분은 코란 구절을 인용하고 있습니다. 그러나 다음과 같은 글귀가 적힌 한 비문이 있습니다. #italic 이 신성한 돔을 건립하도록 명령하신 것은: 신성한 [ROOT.Char.GetTitledFirstNameNoTooltip]으로서 신의 만족을 위해 노력하고 그의 보상을 구하기 위해서입니다.#!" # 10462666906622755642
   yazd.0027.desc.shiite: "시아파 공동체 친구들을 도울 수 있는 기회를 갖게 되어 기쁩니다. [yazd_county.GetNameNoTier]와 세계 다른 곳에서 번영하려면 함께 노력해야 합니다." # 625506207961621850

@@ -20,7 +20,7 @@
   RICE_venerate_ancestors_type_religious_desc: "$EFFECT_LIST_BULLET$ 의식에는 [GetPlayer.GetFaith.GetAdjective] [GetPlayer.Custom('DefaultPriestTitlePlural')]가 크게 관여할 것입니다. 그리하여 우리의 선조들뿐만 아니라 [GetPlayer.GetFaith.PantheonTerm]도 경배할 수 있도록 할 것입니다!\n$EFFECT_LIST_BULLET$ 무작위로 획득하는 [piety_i|E] [piety|E]의 최소량이 #bold 세속적#! 의식에 비해 더 높습니다.\n\n#weak 우리의 선조들을 경배함으로써, 우리는 서로 간에뿐만 아니라 우리 자신과 신성함 사이에도 유대를 형성합니다.#!" # 7471812783822799434
   RICE_venerate_ancestors_cost_type: "봉헌" # 1626538731888735885
   RICE_venerate_ancestors_cost_type_small: "겸손한" # 9351313465329914901
-  RICE_venerate_ancestors_cost_type_small_desc: "$EFFECT_LIST_BULLET$ 선조들께 정성껏 마련한 소박한 공물을 바칩니다.\n$EFFECT_LIST_BULLET$ [왕조|E]는 #V [dynasty_prestige_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_dynasty_prestige_small_value')]#!까지만 획득합니다.\n\n#weak 선조들을 사치스럽거나 경박한 선물로 압도하기보다는, 정성껏 선택한 소박하고 사려 깊은 공물을 바침으로써 진정으로 그분들을 기리는 데 집중해야 합니다.#" # 1697476946594286817
+  RICE_venerate_ancestors_cost_type_small_desc: "$EFFECT_LIST_BULLET$ 조상들에게 적당하지만 존경스러운 제물을 바친다.\n$EFFECT_LIST_BULLET$ 귀하의 [dynasty|E]는 최대 #V [dynasty_prestige_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_dynasty_prestige_small_value')]# 만큼의 명성을 얻을 것이다.\n#weak 조상님들께 사치스럽고 경박한 선물을 퍼붓기보다는, 적당하지만 신중하게 고르고 사려 깊은 제물을 바쳐 실제로 공경하는 데 집중해야 한다.#" # 1697476946594286817
   RICE_venerate_ancestors_cost_type_large: "거대한" # 2290692482761374841
   RICE_venerate_ancestors_cost_type_large_desc: "$EFFECT_LIST_BULLET$ 조상님들께 크고 성대한 제물을 바칩니다.\n$EFFECT_LIST_BULLET$ 당신의 [dynasty|E]는 최대 #V [dynasty_prestige_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_dynasty_prestige_large_value')]#!를 얻게 됩니다.\n\n#weak 우리가 여기에 있는 것은 오로지 조상님들 덕분입니다. 그러니 그분들은 최고의 제물을 받으실 자격이 있습니다!#!" # 14967945333339072514
   RICE_venerate_ancestors_veneration_phase: "숭배" # 14388067154218009764
@@ -44,7 +44,7 @@
   RICE_misc_venerate_ancestors_tooltip: "당신의 [close_family|E]와 함께 의식을 통해 조상에게 경의를 표하십시오" # 13693810721944067060
   RICE_misc_venerate_ancestors_desc.religion: "조상들에 대한 사랑과 존경을 보이고, 내 가문의 유대를 강화하고 싶소. 전통적인 [ROOT.Char.GetFaith.GetAdjective] 방식으로 긴 의식을 치러 그분들을 기리고 숭배해야 하겠소." # 8749218260745075034
   RICE_misc_venerate_ancestors_desc.culture: "저는 조상들께 저의 사랑과 존경을 표하고, 저희 가문을 결속하는 유대를 강화하고자 합니다. 전통적인 [ROOT.Char.GetCulture.GetName] 방식으로 길고 경건한 의식을 거행하여 조상들을 기리고 존경하는 바입니다." # 2428211496876393650
-  RICE_misc_venerate_ancestors_effect_tooltip_1: "[piety|E], [prestige|E], 그리고 [왕조 위신|E]을 무작위로 얻습니다. (최대 #V [piety_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_bonus_value')]#!, #V [prestige_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_bonus_value')]#!, 그리고 #V [dynasty_prestige_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_dynasty_prestige_value')]#!)" # 11889307025086420060
+  RICE_misc_venerate_ancestors_effect_tooltip_1: "무작위 양의 [piety|E], [prestige|E], [dynasty_prestige|E]를 얻습니다 (최대 #V [piety_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_bonus_value')]#!, #V [prestige_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_bonus_value')]#!, 그리고 #V [dynasty_prestige_i] [GetPlayer.MakeScope.ScriptValue('RICE_ancestor_max_dynasty_prestige_value')]#!)" # 11889307025086420060
   RICE_misc_venerate_ancestors_effect_tooltip_2: "획득할 수 있는 이러한 자원의 최대량은 귀하의 [dynasty_prestige_level|E], [virtues|E], 그리고 [sins|E]에 따라 결정됩니다." # 12175955703154247097
   RICE_misc_venerate_ancestors_effect_tooltip_3: "귀하의 [realm|E]에 있는 [family_members|E]는 의식에 참여할 것이며 소량의 [piety|E]와 [prestige|E]도 얻을 수 있습니다." # 3032305986671948367
   RICE_misc_venerate_ancestors_confirm: "조상님들을 기리자!" # 5115803437135761084

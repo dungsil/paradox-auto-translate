@@ -42,7 +42,7 @@
   iranian_hun_history_loc: "[DATE.GetYear]년에 다양한 $iranian_group$ 및 $turkic_group$ [heritage|E]의 문화들에서 형성됨" # 8854136089565772115
   elymaean_history_loc: "기원전 1천년기에 페르시아의 지배를 받던 신-[CULTURE.GetName] 잔존 세력의 후예" # 5976613218247425862
   khuzi_history_loc: "아랍 정복 이후 고대 [TARGET_CULTURE.GetCollectiveNoun]의 마지막 잔재로서 [CULTURE.GetName]으로부터 형성된" # 16204732444867514562
-  tuareg_history_loc: "[$CULTURE.GetName$] 사람들이 남부 사하라에서 $central_african_group$ 부족들 사이에 정착하며 형성되었습니다." # 2698105058268741132
+  tuareg_history_loc: "$central_african_group$ 민족들 사이에 있는 남부 사하라에 정착한 [CULTURE.GetName]으로부터 형성되었습니다." # 2698105058268741132
   afro_roman_history_loc: "[CULTURE.GetName]와 푸니 문화로부터 기원전 146년에 형성됨" # 1347927286513077170
   RICE_kinh_history_loc: "[Glossary( 'Vietnam', 'VIETNAMESE_GLOSS' )]에서 [CULTURE.GetName]와 [TARGET_CULTURE.GetName]로 형성됨" # 15660007703612674981
   RICE_dorset_history_loc: "[Glossary( 'Tuniit', 'DORSET_GLOSS' )]는 북부 캐나다와 그린란드의 오랜 거주민입니다." # 12810204992979998590
@@ -73,7 +73,7 @@
   culture_parameter_unlock_rice_travel_option_qinghaicong_horses: "[GetTravelOption('RICE_tuyuhun_qinghaicong_horses_option').GetName] [travel_option|E]을(를) 활성화합니다." # 16643375741579804443
   tradition_RICE_white_huns_name: "백훈족" # 10607649799558211224
   tradition_RICE_white_huns_desc: "#F 이들은 일부에서 백훈이라 불리는 무시무시한 초원 부족들의 후예로, 후기 고대에 페르시아와 인도를 휩쓸었습니다. 이란, 훈, 튀르크, 인도 문화의 혼합 영향으로 인해 그들의 기원은 수수께끼에 싸여 있습니다. 그들은 어느 정도 정착하여 무역과 새로운 종교적 신념을 받아들였지만, 전투에서의 기량은 여전히 인정받고 있습니다.#!" # 7546797876938361296
-  culture_parameter_unlock_rice_decision_hephthalite_empire: "[decision|E] $RICE_pamir_reclaim_hephthalite_homeland$ 및 $RICE_pamir_restore_hephthalite_empire$을(를) 해금합니다" # 10287141438696691555
+  culture_parameter_unlock_rice_decision_hephthalite_empire: "$RICE_pamir_reclaim_hephthalite_homeland$와 $RICE_pamir_restore_hephthalite_empire$ [decisions|E]를 해금합니다." # 10287141438696691555
   tradition_RICE_children_of_the_nile_name: "나일 강의 자녀들" # 691222467770744736
   tradition_RICE_children_of_the_nile_desc: "#F 나일 강은 이집트의 심장이요, 대지는 그 몸, 백성은 그 피입니다. 귀한 나일 강의 맑은 물은 파라오의 시대부터 늘 그래왔듯이 생명으로 가득합니다. 다른 이들은 나일 강을 진정으로 이해하지 못할지도 모릅니다. 하지만 이 문화권의 백성들은 나일 강이 흐르는 한 이집트 역시 영원히 존속하리라는 것을 알고 있습니다. #!" # 15272868720204082160
   RICE_culture_along_the_nile_desc: "[culture|E]는 [GetGeographicalRegion('RICE_nile_river_valley').GetName]를 따라 최소 #V 4#!개 [counties|E]를 보유하지 못했습니다" # 5780926902445233518
@@ -88,14 +88,14 @@
   tradition_RICE_galician_portuguese_poetry_desc: "#F 이 문화의 시인들은 서정시를 작곡할 때 이베리아 로망스어의 갈리시아-포르투갈 변형을 주로 사용합니다. 이 시인들 사이에서 특유의 노래 스타일은 칸티가스입니다. #!" # 5987624191629160145
   culture_parameter_unlock_cantiga_decisions: "자신의 [culture|E]의 [language|E]나 [heritage|E]에 관계없이, [cantigas|E] 작곡하기와 칸티가스 데 산타 마리아를 수행할 [decisions|E]를 얻습니다 (다른 요구 조건이 충족된다면)." # 7323755321250132597
   culture_parameter_better_cantiga_results: "이 [culture|E]의 [characters|E]는 더 높은 [cantiga_quality|E]의 [cantigas|E]를 작곡할 확률이 더 높습니다" # 5357098922518815685
-  culture_parameter_promote_cantiga_bonuses: "$RICE_galicia_promote_cantiga$ [decision|E]을 내리면 더 많은 [piety|E]과 [prestige|E]을 제공하며, 그것이 생성하는 [artifact|E]에는 추가 보너스가 있습니다." # 16640179136068484805
+  culture_parameter_promote_cantiga_bonuses: "$RICE_galicia_promote_cantiga$ [decision|E]를 채택하면 더 많은 [piety|E]와 [prestige|E]를 얻을 수 있으며, 이로 인해 생성되는 [artifacts|E]에는 추가적인 보너스가 부여됩니다." # 16640179136068484805
   culture_parameter_unlock_rice_pamir_tribesmen: "[GetMaA('RICE_pamir_tribesmen').GetName] [men_at_arms|E]로 모집 가능" # 1468557547906065775
   tradition_RICE_whalers_name: "노련한 포경인" # 17927340487601126845
   tradition_RICE_whalers_desc: "#F 이 문화는 고래를 사냥하는 방법과 고래로부터 고기와 지방을 추출하는 방법에 능숙합니다.#!" # 7119970795793638689
   tradition_RICE_master_whalers_name: "고래잡이 명장" # 7016053369630543593
   tradition_RICE_master_whalers_desc: "#F 이 문화는 외부인들이 도달하기 힘든 방식으로 고래잡이를 진정으로 이해하고 있다고 해도 과언이 아닙니다. 그들은 고래를 찾고 사냥하는 것뿐만 아니라, 그 살점과 지방을 가공하는 데에도 전문가입니다. 그들은 또한 영리한 사업가이기도 하며, 그 지도자들은 이익을 얻기 위해 고래잡이 산업에 자금을 지원하는 데 열성적입니다.#!" # 11699400819891997394
   culture_parameter_unlock_rice_whaling: "[decision|E] $RICE_north_atlantic_whale_hunt$를 활성화합니다" # 11476668774971492111
-  culture_parameter_unlock_rice_whaling_stations: "이 [culture|E]의 [county|E] [rulers|E]들이 [decision|E] $RICE_north_atlantic_whale_exempt_tax$와 $RICE_north_atlantic_whale_levy_extra_tax$를 사용할 수 있도록 잠금 해제합니다." # 17577143475615742086
+  culture_parameter_unlock_rice_whaling_stations: "[culture|E]의 [counties|E]의 [rulers|E]에게 $RICE_north_atlantic_whale_exempt_tax$ 및 $RICE_north_atlantic_whale_levy_extra_tax$ [decisions|E]를 해금합니다." # 17577143475615742086
   culture_parameter_unlock_rice_better_whaling: "$RICE_north_atlantic_whale_hunt$ [decision|E]을(를) 해금합니다. 그리고 이 [decision|E]을(를) 가진 다른 [cultures|E]에 비해, 더 나은 성공 확률을 가집니다, 그리고 성공할 경우 더 많은 [gold|E]을(를) 얻을 수 있습니다." # 1117011985392445909
   tradition_RICE_arctic_adaptations_name: "북극 적응" # 9077822711947982583
   tradition_RICE_arctic_adaptations_desc: "#F 수 세기에 걸쳐 이 문화는 북극 지역의 차가운 땅과 바다에서 그들이 생존할 뿐만 아니라 번영하도록 돕는 데 필수적인 전통적인 지식과 제도를 발전시켜 왔다.#!" # 12520233883551110052
@@ -137,11 +137,11 @@
   tradition_RICE_northmen_desc: "이 문화는 노르망디의 노르드 정착민과 옛 프랑크인 및 켈트인이 혼합되어 파생되었습니다. 프랑크인들은 그들을 언제라도 탐욕스러운 야만인으로 변할 수 있는 이중적인 책략가로 봅니다. 반면 스칸디나비아인들은 조상의 방식을 잊어버린 나약한 자들로 여깁니다." # 7335406043623318095
   tradition_RICE_adventurers_and_aristocrats_name: "모험가와 귀족" # 12458318878090600750
   tradition_RICE_adventurers_and_aristocrats_desc: "이 문화는 노르망디에서 노르드 정착민과 기존의 프랑크족 및 켈트족이 섞여 탄생했습니다. 그들은 프랑크족과 스칸디나비아의 사상과 관습 중 최고를 능숙하게 융합했습니다. 전쟁에서는 명성과 영광을 두려움 없이 추구하며, 국제적인 사회와 신앙심으로도 명성이 높습니다." # 2393736473307612056
-  culture_parameter_rice_cheaper_normandy_settlers: "[decision|E] 바이킹 및 노르만 정착민 초청의 비용이 감소합니다 (다른 전제 조건이 충족되었다고 가정하면)" # 1490796685736209925
+  culture_parameter_rice_cheaper_normandy_settlers: "[decisions|E] '노르드족 및 노르만 정착민 초대'는 비용이 더 저렴합니다 (다른 선행 조건이 충족되었다고 가정할 경우)." # 1490796685736209925
   culture_parameter_rice_norman_mechanic_1: "이 [tradition|E]은 $RICE_normandy_commission_historia_normannorum$ [decision|E]이(가) 내려지면 $tradition_RICE_adventurers_and_aristocrats_name$ [tradition|E]으로 업그레이드됩니다" # 16044266428420695928
   culture_parameter_rice_norman_mechanic_2: "이 [tradition|E]는 [RICE_normandy_struggle|E]가 $RICE_normandy_struggle_ending_conquest_decision$ 또는 $RICE_normandy_struggle_ending_assimilation_decision$ 엔딩 중 하나로 해결될 경우 더 나은 보너스를 제공하도록 업그레이드될 것입니다." # 15834718506377319831
   not_bureaucratic_spiritual_or_courtly_desc: "해당 [culture|E]는 $ethos_bureaucratic_name$, $ethos_spiritual_name$, 또는 $ethos_courtly_name$ [ethos|E]를 가지고 있지 않습니다" # 9138543902689454208
-  culture_parameter_rice_norman_adventurers: "[rulers|E]는 [RICE_norman_adventure|E] [명분|E]을 $culture_era_early_medieval$와 $culture_era_high_medieval$ [era|E]에 사용할 수 있습니다" # 3690960783370119182
+  culture_parameter_rice_norman_adventurers: "[rulers|E]은 $culture_era_early_medieval$ 및 $culture_era_high_medieval$ [eras|E]에서 [RICE_norman_adventure|E] [casus_belli|E]를 사용할 수 있습니다." # 3690960783370119182
   tradition_RICE_adventurers_and_aristocrats_military_name: "$tradition_RICE_adventurers_and_aristocrats_name$" # 8604710299281540044
   tradition_RICE_adventurers_and_aristocrats_military_desc: "$tradition_RICE_adventurers_and_aristocrats_desc$" # 13255647144552953376
   tradition_RICE_adventurers_and_aristocrats_culture_name: "$tradition_RICE_adventurers_and_aristocrats_name$" # 8604710299281540044
@@ -151,7 +151,7 @@
   culture_parameter_unlock_rice_cheaper_dream_divination: "$activity_RICE_tuareg_dream_incubation$ [activity|E] 비용이 더 저렴해집니다" # 1139946614816507171
   tradition_RICE_tuareg_name: "켈 타겔무스트" # 2988850775966823181
   tradition_RICE_tuareg_desc: "이 문화는 용감한 아마지그족(또는 베르베르족) 유목민들의 후예로, 남부 사하라에 정착했으며 모계 씨족, 즉 #italic tawshet#!를 중심으로 조직됩니다. 이들은 종종 자신들을 #italic Kel Tagelmust#!('베일의 백성들')라 부르기도 하는데, 이는 그 남자들이 착용하는 독특한 푸른색 또는 남색의 터번 베일을 빗댄 말입니다." # 14497143429287198306
-  RICE_culture_in_africa_desc: "[culture|E]는 [GetGeographicalRegion('world_africa').GetName]에 [holdings|E]의 #V 5%#를 보유하고 있지 않습니다." # 12540208679582561145
+  RICE_culture_in_africa_desc: "[culture|E]는 [GetGeographicalRegion('world_africa').GetName]에 속한 [counties|E]의 #V 5%#를 보유하고 있지 않습니다." # 12540208679582561145
   tradition_RICE_munya_estates_name: "무냐 영지" # 11868141621133368535
   tradition_RICE_munya_estates_desc: "[GetGeographicalRegion('world_europe_west_iberia').GetName]의 구릉지와 농지에서 이 문화의 사람들은 #italic 문야#라 불리는 커다란 저택을 짓습니다. 건축학적 아름다움 외에도, 그곳은 사람들이 휴식을 취하고, 학자와 시인이 교류하며, 농업 및 식물학 실험이 이루어지는 장소로도 기능합니다." # 12439447297459460124
   culture_parameter_unlock_rice_munya_activity: "[religion|E]나 위치에 관계없이 [munya|E]에서 휴가를 개최할 수 있는 [activities|E]를 해금합니다." # 12167239650302865551
@@ -200,7 +200,7 @@
   tradition_RICE_between_three_worlds_name: "세 세계 사이에서" # 18347425457944934246
   tradition_RICE_between_three_worlds_desc: "이 문화는 이슬람, 비잔티움, 그리고 라틴 서방이 만나는 요충지인 [GetGeographicalRegion('custom_sicily').GetNameNoTooltip]의 변경 지역에서 태어났습니다. 그들의 민족은 이 세 가지 영향을 모두 깊이 받았으며, 때로는 복잡한 지중해 정치 풍경을 잘 헤쳐나갈 줄 압니다." # 12388732723250483850
   culture_parameter_unlock_rice_sicilian_trait_bonuses: "[GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]는 추가적인 보너스를 제공합니다." # 2111899933923179926
-  culture_parameter_unlock_rice_sicilian_recruit_soldiers_bonuses: "$RICE_sicily_recruit_soldiers_decision$ 결정은 [sicily_stronghold|E] [county_modifier|E]가 나타날 가능성을 높입니다." # 18385081961862945113
+  culture_parameter_unlock_rice_sicilian_recruit_soldiers_bonuses: "$RICE_sicily_recruit_soldiers_decision$ [decision|E]는 [sicily_stronghold|E] [county_modifier|E]가 나타날 확률을 더 높입니다." # 18385081961862945113
   culture_parameter_unlock_rice_sicilian_request_expedition_bonuses: "$RICE_request_sicily_intervention_interaction$에 대한 [interaction|E]가 더 저렴합니다." # 4881071560363372447
   culture_parameter_unlock_rice_sicilian_bargain_bonuses: "[sicily_strongholds|E]와 협상하는 [decision|E]의 성공 가능성이 높습니다." # 12530032684228540536
   tradition_RICE_longbeards_name: "롱비어드" # 25541731753059267
@@ -218,21 +218,21 @@
   tradition_RICE_image_of_china_desc: "이 문화의 조상들은 원래 중국인이 아니었지만, 그 후손들은 중국의 많은 관습과 관행을, 특히 통치 방식에 있어서 철저히 받아들였습니다. 외국인들은 이 문화를 중국의 이상 사회와 연관 지어, 이 문화의 통치자들은 정의롭고 학식이 풍부하며 세련되었다고 여겼습니다." # 15051578995319352634
   tradition_RICE_zhangzhung_stonework_name: "길조로운 산의 돌조각" # 5807208800206796945
   tradition_RICE_zhangzhung_stonework_desc: "이 문화는 히말라야 고원의 산과 동굴에 자주 조각된 모든 석조 건물을 건설합니다. 이러한 건물들 중에는 특히 #italic sekhang#! 또는 #italic sekhar#! (신들의 집 또는 성)과 같은 중요한 의식 기능을 가진 건물이 많습니다." # 3029492075724748718
-  culture_parameter_unlock_rice_zhangzhung_stone_decision: "[GetGeographicalRegion('RICE_upper_tibet').GetName] 지역 밖에서 #V $RICE_zhangzhung_supplicate_ancient_pillars$# 결정을 해제합니다!" # 16344559750976147326
-  culture_parameter_improved_rice_zhangzhung_stone_decision: "#P 좋은 결과#가 나올 가능성이 높아집니다. #V $RICE_zhangzhung_supplicate_ancient_pillars$# 결정을 내릴 때." # 15543596078898842436
-  culture_parameter_unlock_rice_restore_zhangzhung_decision: "#V 은빛 성을 재건하기# 결정을 해제합니다. [independent|E] [왕|E] 및 [황제|E]를 위해." # 1755699256332551468
+  culture_parameter_unlock_rice_zhangzhung_stone_decision: "[GetGeographicalRegion('RICE_upper_tibet').GetName] 밖에서는 #V $RICE_zhangzhung_supplicate_ancient_pillars$# [decision|E]를 활성화합니다!" # 16344559750976147326
+  culture_parameter_improved_rice_zhangzhung_stone_decision: "#P 훌륭함# 결과를 얻을 확률이 #V $RICE_zhangzhung_supplicate_ancient_pillars$#! [decision|E]을 수행할 때 증가합니다." # 15543596078898842436
+  culture_parameter_unlock_rice_restore_zhangzhung_decision: "[independent|E] [kings|E]와 [emperors|E]는 #V 은빛 성채 재건# [decision|E]를 해금합니다!" # 1755699256332551468
   tradition_RICE_changthang_nomads_name: "장탄 훈족" # 15427066057386350722
   tradition_RICE_changthang_nomads_desc: "히말라야의 널리 퍼진 유목민들은 #italic 드록파#라 불립니다. 상부 티벳과 라다크의 척박한 찬탕 고원에서 기원한 #italic 드록파#는 그들의 강인함과 경건함으로 존경받고, 무자비한 용기로 두려움을 불어넣습니다. 그들은 험준한 지형을 뚫고 사냥하고, 순례를 하고, 몇 안 되는 이들처럼 장거리 무역에 참여합니다." # 7074587646247643663
   culture_parameter_unlock_rice_maa_drokpa_horsemen: "[GetMaA('RICE_drokpa_horsemen').GetName]을 [men_at_arms|E]으로 모집할 수 있습니다." # 3897921413065685492
-  culture_parameter_unlock_rice_better_salt_trade_decision: "#V $RICE_zhangzhung_western_tibet_salt_decision$! 결정의 성공 확률과 얻을 수 있는 £gold£의 양이 높아집니다." # 5502006032329743870
-  culture_parameter_unlock_rice_piety_when_traveling_for_activity: "[여행|E]을 시작할 때마다 [activity|E]으로 [piety|E]가 [piety_i|E] #V 1#!와 [piety_i|E] #V [EmptyScope.ScriptValue('medium_piety_gain')|0]#! 사이의 랜덤한 양만큼 증가합니다." # 4462636788680235878
+  culture_parameter_unlock_rice_better_salt_trade_decision: "성공적인 결과가 나올 확률이 높아지며, [decision|E]를 통해 더 많은 [gold_i|E] [gold|E]를 얻을 확률도 높아집니다! #V $RICE_zhangzhung_western_tibet_salt_decision$#!" # 5502006032329743870
+  culture_parameter_unlock_rice_piety_when_traveling_for_activity: "[activity|E]를 위해 [traveling|E]을 시작할 때마다 [piety_i|E] #V 1#!에서 [piety_i|E] #V [EmptyScope.ScriptValue('medium_piety_gain')|0]#! 사이의 무작위 [piety|E]를 얻습니다." # 4462636788680235878
   tradition_RICE_gandharan_art_name: "간다라 미술" # 17088000537050783619
   tradition_RICE_gandharan_art_desc: "이 문화의 예술 양식은 고대부터 헬레니즘과 인도 예술의 혼합에서 비롯된 것입니다. 이 예술 양식은 이 문화의 종교적 유산과 깊이 연결되어 있으며, 멀리 떨어진 땅에 큰 영향을 미쳐왔습니다." # 14436623852523859734
   tradition_brus_river_lifeblood_name: "도시의 땅" # 4871615269425009523
   tradition_brus_river_lifeblood_desc: "바랑인들은 우리 땅을 #italic 가르다리키#, \"도시의 땅\"이라고 불렀습니다.  많은 정착촌이 교역로를 따라 세워졌기 때문입니다.  우리 민족의 운명을 좌우한 거대한 강들이 부와 전쟁을 실어 나르며 이 땅을 가로지르며 그 자취를 남겼습니다." # 9372481637928128053
-  culture_parameter_rice_portage_decision_bonus: "[decision|E] #bold $RICE_develop_portage_routes$!#의 비용이 [gold_i|E] [gold|E] 만큼 더 적고, 10년마다 대신 5년마다 수행할 수 있습니다." # 10734864486866296802
-  culture_parameter_rice_volga_dnieper_merchant_spawn_bonus: "[볼가-드니프르 상인|E]가 귀하의 [court|E]에 출현할 가능성을 높입니다. 특히, [decision|E]을 통해 $RICE_개발_운하_노선$을 취한 후, [국가 수도|E]가 [GetGeographicalRegion('RICE_볼가_드니프르_무역_지역').GetName]에 위치한 경우에 더욱 그렇습니다." # 3755273959930392449
-  culture_parameter_unlock_rice_maa_iron_forest: "[RICE_iron_forest].GetName]를 [men_at_arms|E]로 모집할 수 있습니다." # 10105535120874477485
+  culture_parameter_rice_portage_decision_bonus: "[decision|E] #bold $RICE_develop_portage_routes$#! 는 [gold_i|E] [gold|E] 비용이 덜 들며, 10년마다가 아닌 #V 5#년마다 수행할 수 있습니다." # 10734864486866296802
+  culture_parameter_rice_volga_dnieper_merchant_spawn_bonus: "귀하의 [court|E]에 [volga_dnieper_merchants|E]가 출현할 확률이 높아집니다. 특히 [GetGeographicalRegion('RICE_volga_dnieper_trade_region').GetName]에 [realm_capital|E]가 위치한 상태에서 $RICE_develop_portage_routes$ [decision|E]를 내릴 경우 더욱 그렇습니다." # 3755273959930392449
+  culture_parameter_unlock_rice_maa_iron_forest: "[GetMaA('RICE_iron_forest').GetName]을 [men_at_arms|E]로 고용할 수 있습니다." # 10105535120874477485
   tradition_RICE_scribes_of_the_steppe_name: "초원의 서기들" # 3614687731889851499
   tradition_RICE_scribes_of_the_steppe_desc: "#F 이들은 본래 초원 유목민이었으나, 선조들이 실크로드 문명과 접촉하며 문자를 배우고 통달했습니다. 이들은 지식과 문해력으로 명성이 높습니다.#!" # 13067235470946825193
   tradition_RICE_royal_physicians_name: "어의" # 12166140597567828308

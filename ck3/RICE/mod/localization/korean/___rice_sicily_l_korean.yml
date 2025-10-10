@@ -65,10 +65,10 @@
   RICE_sicily_capital_req: "[capital|E]이/가 [GetGeographicalRegion('custom_sicily').GetName]에 있습니다" # 5925295674181977489
   RICE_sicily_struggle_every_latin_ruler: "@RICE_sicily_latin_icon! [sicily_latin|E] [sicily_world|E] 출신의 모든 [struggle_involved|E] [ruler|E]" # 12937563014765938986
   RICE_sicily_struggle_every_greek_ruler: "@RICE_sicily_greek_icon! [sicily_greek|E] [sicily_world|E]에 속한 모든 [struggle_involved|E] [ruler|E]" # 8023680227067066086
-  RICE_sicily_struggle_every_arabic_ruler: "@RICE_sicily_arabic_icon! [아랍_시칠리아|E] [세계|E]의 모든 [분쟁에_개입한|E] [rulers|E]" # 7700597421687737559
+  RICE_sicily_struggle_every_arabic_ruler: "@RICE_sicily_arabic_icon! [sicily_arabic|E] [sicily_world|E]의 모든 [struggle_involved|E] [ruler|E]" # 7700597421687737559
   RICE_sicily_struggle_every_outsider_ruler: "[RICE_sicily_struggle|E]의 세 개의 원본 [sicily_worlds|E] 중 어느 곳에서도 오지 않은 모든 [struggle_involved|E] [ruler|E]" # 11594623538887340776
   RICE_every_ruler_in_sicily: "[GetGeographicalRegion('custom_sicily').GetName] 내 [county|E]를 소유한 모든 [ruler|E]" # 12127062794681902734
-  RICE_every_latin_ruler_in_sicily: "[@RICE_sicily_latin_icon! [sicily_latin|E] [sicily_world|E]에 속하며] [GetGeographicalRegion('custom_sicily').GetName] 지역에 [county|E]를 소유한 모든 [ruler|E]" # 12308465990375690699
+  RICE_every_latin_ruler_in_sicily: "@RICE_sicily_latin_icon! [sicily_latin|E] [sicily_world|E]의 모든 [ruler|E] 중 [GetGeographicalRegion('custom_sicily').GetName]에 [county|E]를 소유하고 있는 자" # 12308465990375690699
   RICE_every_greek_ruler_in_sicily: "[GetGeographicalRegion('custom_sicily').GetName] 내 [county|E]를 소유한 @RICE_sicily_greek_icon! [sicily_greek|E] [sicily_world|E]의 모든 [ruler|E]" # 12741645914676353309
   RICE_every_arabic_ruler_in_sicily: "[GetGeographicalRegion('custom_sicily').GetName]에 [county|E]를 소유한 @RICE_sicily_arabic_icon! [sicily_arabic|E] [sicily_world|E] 출신 모든 [ruler|E]" # 12671585376368469827
   RICE_every_outsider_ruler_in_sicily: "[RICE_sicily_struggle|E]의 세 근원 [sicily_worlds|E] 중 어느 곳에도 속하지 않으며, [GetGeographicalRegion('custom_sicily').GetName] 내 [county|E]를 소유한 모든 [ruler|E]" # 1143291520849025918
@@ -118,7 +118,7 @@
   RICE_NOT_any_latin_trigger_or_stronghold_sicily: "당신은 [sicily_latin|E] [sicily_world|E] 출신이 #bold 아닙니다#!. 그리고 [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]의 #V $trait_track_RICE_sicilian_ruler_latin$#! 트랙에서 최소 #V 75#! [trait_level_track_xp|E]를 보유하고 있거나, 또는 [GetGeographicalRegion('custom_sicily').GetName] 내 [county|E]에 [sicily_latin|E] [sicily_stronghold|E]를 보유하고 있습니다." # 6668249903529396406
   RICE_any_greek_trigger_or_stronghold_sicily: "[sicily_greek|E] [sicily_world|E] 출신이거나, [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]의 #V $trait_track_RICE_sicilian_ruler_greek$#! 트랙에서 최소 #V 75#! [trait_level_track_xp|E]를 보유하거나, [GetGeographicalRegion('custom_sicily').GetName] 내 [county|E]에 [sicily_greek|E] [sicily_stronghold|E]를 소유하고 있습니다." # 9764307592569858496
   RICE_NOT_any_greek_trigger_or_stronghold_sicily: "당신은 [sicily_greek|E] [sicily_world|E] 출신이 #bold 아닙니다#!, [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]의 #V $trait_track_RICE_sicilian_ruler_greek$#! 트랙에서 최소 #V 75#!의 [trait_level_track_xp|E]를 보유하고 있거나, 또는 [sicily_greek|E] [sicily_stronghold|E]가 있는 [GetGeographicalRegion('custom_sicily').GetName]의 [county|E]를 소유하고 있어야 합니다." # 16388700370524167827
-  RICE_any_arabic_trigger_or_stronghold_sicily: "[시칠리아 아랍|E] [문화권|E] 출신이거나, [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]의 #V $trait_track_RICE_sicilian_ruler_arabic$#! 트랙에서 최소 #V 75#! [trait_level_track_xp|E]를 가지고 있거나, 또는 [GetGeographicalRegion('custom_sicily').GetName]에 [시칠리아 아랍|E] [sicily_stronghold|E]를 가진 [county|E]를 소유하고 있거나" # 7755594115838222284
+  RICE_any_arabic_trigger_or_stronghold_sicily: "[sicily_arabic|E] [sicily_world|E] 출신이며, [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]의 [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E] 트랙에서 최소 #V 75#! [trait_level_track_xp|E]를 보유하고 있거나, [GetGeographicalRegion('custom_sicily').GetName] 내에 [sicily_arabic|E] [sicily_stronghold|E]를 소유한 [county|E]를 소유하고 있습니다." # 7755594115838222284
   RICE_NOT_any_arabic_trigger_or_stronghold_sicily: "당신은 [sicily_arabic|E] [sicily_world|E] 출신이 #bold 아닐# 것입니다. 혹은 [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]의 #V $trait_track_RICE_sicilian_ruler_arabic$#! 경로에서 최소 #V 75#! [trait_level_track_xp|E]를 보유했거나, [GetGeographicalRegion('custom_sicily').GetName]에 있는 [county|E]를 [sicily_arabic|E] [sicily_stronghold|E]와 함께 소유했습니다." # 3241028545710644123
   Melus: "멜루스" # 8346390506857590952
   Datto: "다토" # 9093940873563150848
@@ -162,7 +162,7 @@
   game_concept_RICE_sicily_struggle_desc: "$game_concept_RICE_sicily_struggle$은 남부 이탈리아에서 수세기 동안 이어진 정치, 문화, 종교적 역동성을 묘사하는 반복 가능한 [struggle|E]이며, 이곳은 [sicily_three_worlds|E] 사이에 놓인 변경입니다. [sicily_latin_dominance_i|E] [sicily_latin|E]와 [sicily_greek_dominance_i|E] [sicily_greek|E], 그리고 [sicily_arabic_dominance_i|E] [sicily_arabic|E]가 그것입니다.\n\n정체성, 신념, 충성심이 모호한 이 거친 국경 지대에서, [struggle_involved|E] [rulers|E]는 [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]를 부여받습니다. 이는 그들이 [sicily_three_worlds|E]와 맺고 있는 연결을 상징합니다. [sicily_three_worlds|E]의 영향력은 [sicily_dominance|E]로도 측정됩니다.\n\n이 [struggle|E]는 [struggle_phase_sicily_borderland_simple|E]와 [struggle_phase_sicily_colony_simple|E] [struggle_phase_phases|E] 사이를 오가며, 일시적으로 [struggle_phase_sicily_periphery_simple|E] 또는 [struggle_phase_sicily_imperial_simple|E] 단계로 결론이 날 수 있습니다. 그러나 이 [struggle|E]는 다시 시작될 수 있습니다. 따라서 이 [struggle|E]를 영구적으로 끝내려면, 이 변경을 $RICE_sicily_struggle_ending_dominion_decision$ 또는 $RICE_sicily_struggle_ending_crossroads_decision$으로 바꾸는 [decisions|E]를 내려야 합니다." # 13594564629842798449
   game_concept_struggle_phase_sicily_borderland_simple: "국경 지대" # 5149440153426048648
   game_concept_struggle_phase_sicily_borderland: "변방 단계" # 16153696083654193563
-  game_concept_struggle_phase_sicily_borderland_desc: "여러 [faith|E]과 [culture|E], [holdings|E]로 나뉘어 있는 [RICE_sicily_struggle|E]는 많은 침략자와 군벌들이 다투는 곳입니다. 그들이 지역 지도자든 외부 정복자든, 강력하고 유능한 [통치자들|E]의 존재는 [GetGeographicalRegion('custom_sicily').GetName]을(를) 번영하지만 불안정한 [struggle_phase_sicily_colony_simple|E]로 만들 수 있습니다. 그러나, 끊이지 않는 전쟁은 이 지역을 어쩌면 영구적으로 황폐화시킬 위험이 있으며, 그리고 과거에 번성했던 땅을 [sicily_three_worlds|E] 사이의 [struggle_phase_sicily_periphery_simple|E]로 만들어버릴 수 있습니다." # 13943277387572181212
+  game_concept_struggle_phase_sicily_borderland_desc: "서로 다른 [faiths|E], [cultures|E], [realms|E]로 나뉘어진 [RICE_sicily_struggle|E]는 수많은 침략자와 군벌들이 쟁탈전을 벌이는 곳입니다. 지역 지도자든 외부 정복자든 강력하고 유능한 [rulers|E]가 존재한다면, [GetGeographicalRegion('custom_sicily').GetName]은 번영하지만 불안정한 [struggle_phase_sicily_colony_simple|E]가 될 수 있습니다. 하지만 끊임없는 전쟁은 이 지역을 황폐화시키고, 한때 번성했던 땅을 [sicily_three_worlds|E] 사이의 [struggle_phase_sicily_periphery_simple|E]로 영원히 바꿔버릴 위험을 안고 있습니다." # 13943277387572181212
   game_concept_struggle_phase_sicily_colony_simple: "식민지" # 2359186951328928436
   game_concept_struggle_phase_sicily_colony: "정착 단계" # 2626286063404629312
   game_concept_struggle_phase_sicily_colony_desc: "인근 왕국과 제국들이 [RICE_sicily_struggle|E]를 진정시키려 시도합니다. 하지만 그곳은 외부의 공격과 내부의 분쟁에 취약합니다. 지역을 안정화하지 못하면 탐욕스러운 침략자들을 끌어들이고, 지역 군벌들의 힘을 강화하며, 그리고 [GetGeographicalRegion('custom_sicily').GetName]를 [sicily_three_worlds|E] 사이의 [struggle_phase_sicily_borderland_simple|E]로 만들 것입니다." # 152585292222739464
@@ -200,10 +200,10 @@
   game_concept_sicily_arabic: "아랍-베르베르" # 12409632492611411880
   game_concept_sicily_arabic_dominance_i: "@RICE_sicily_arabic_icon!" # 15205455217541104692
   game_concept_sicily_arabic_dominance: "아랍-베르베르 지배" # 9948024313000132463
-  game_concept_sicily_arabic_desc: "아랍-베르베르 [sicily_world|E]는 게임 내에서 #진한 이슬람교#! 또는 #진한 중동#!과 관련된 사람들, 사상, 신념 등을 나타냅니다. [RICE_sicily_struggle|E]에서 말입니다.\n\n게임 내에서 아랍-베르베르 세계의 일부로 간주되려면, [character|E] 또는 [county|E]는 $heritage_berber_name$ 또는 $heritage_arabic_name$ [heritage|E]를 가진 [culture|E] 출신이거나, $islam_religion_adj$, $amazigh_religion_adj$, 또는 $semitic_religion_adj$ [religions|E] 중 하나의 [faith|E]를 따르고 있어야 합니다.\n\n사용하는 모드에 따라 이러한 요구 사항이 다소 달라질 수 있습니다. 또한, [ruler|E]는 여러 세계에 속할 수도 있습니다." # 9167907760845443866
+  game_concept_sicily_arabic_desc: "아랍-베르베르 [sicily_world|E]는 [RICE_sicily_struggle|E] 내에서 #bold 이슬람#! 또는 #bold 중동#!과 관련된 인물, 사상, 신념 등을 나타냅니다.\n게임 내에서 아랍-베르베르 세계의 일부로 간주되려면, [character|E] 또는 [county|E]는 $heritage_berber_name$ 또는 $heritage_arabic_name$ [heritage|E]를 가진 [culture|E]에 속하거나, $islam_religion_adj$, $amazigh_religion_adj$, 또는 $semitic_religion_adj$ [religions|E]에 속한 [faith|E]를 믿어야 합니다.\n참고로, 사용하는 모드에 따라 이러한 요구 사항은 다소 달라질 수 있습니다. 게다가, [ruler|E]는 여러 세계에 속할 수도 있습니다." # 9167907760845443866
   game_concept_sicily_frontier_raids: "국경 습격" # 16545403057345153538
   game_concept_sicily_frontier_raid: "국경 습격" # 17932699202236439151
-  game_concept_sicily_frontier_raid_desc: "이것은 [RICE_sicily_struggle|E]의 [struggle_involved|E] [rulers|E] 간에 발생하는 특수한 [war|E] 유형으로, 공격자는 자신의 [realm|E]에 접한 특정 적 [county|E]를 포위하는 것을 목표로 합니다.\n\n[war_leader|E]는 [war_target|E]를 점령하여 £gold£를 얻습니다. 점령된 [war_target|E]는 [development|E]와 [control|E]를 잃게 됩니다. 건물이 파괴될 수도 있으며, 이로 인해 더 많은 £gold£를 얻을 수 있습니다. [development|E]와 [siege|E] [army|E] 크기가 커질수록 이러한 가능성이 높아집니다.\n\n공격자는 [war_target|E]를 점령하면 [war_score|E]를 빠르게 얻게 됩니다.\n\n이 [casus_belli|E]는 [iberian_struggle|E]의 [border_raid|E]와 비슷하지만, 중요한 차이점이 있습니다. 공격자가 승리하고 [sicily_three_worlds|E] 중 하나의 출신이라면, [war_target|E] [county|E]에 [sicily_stronghold_short|E]가 생성될 가능성이 있습니다. 반대로, 공격자가 [sicily_stronghold_short|E]와 같은 [sicily_world|E] 출신이 아니라면, 기존의 [sicily_stronghold_short|E]가 제거될 가능성이 있습니다." # 4766022832878285003
+  game_concept_sicily_frontier_raid_desc: "이것은 [struggle_involved|E] [rulers|E] 간에 [RICE_sicily_struggle|E]에서 사용할 수 있는 특수한 유형의 [war|E]이며, 공격자는 자신의 [realm|E]과 국경을 맞댄 특정 적의 [county|E]를 [siege|E]하는 것을 목표로 합니다.\n\n[war_leader|E]는 [war_target|E] 점령 시 [gold|E]를 획득하며, 이 과정에서 [development|E]와 [control|E]를 잃게 됩니다. [buildings|E]도 파괴될 수 있으며, 이는 더 많은 [gold|E]를 제공하고, [development|E]와 [siege|E] [army|E] 규모가 클수록 파괴 확률이 높아집니다.\n\n공격자가 [war_target|E]를 [occupying|E]하면 [war_score|E]를 빠르게 얻게 됩니다.\n\n이 [casus_belli|E]는 [iberian_struggle|E]의 [border_raid|E]와 유사하지만 중요한 차이점이 있습니다. 공격자가 승리하고 그가 [sicily_three_worlds|E] 중 하나에 속한 경우, 목표 [county|E]에 [sicily_stronghold_short|E]가 건설될 기회가 생깁니다. 반대로, 공격자가 [sicily_stronghold_short|E]와 같은 [sicily_world|E]에 속하지 않는다면 이 [casus_belli|E]는 기존의 [sicily_stronghold_short|E]를 제거할 기회도 가집니다." # 4766022832878285003
   RICE_sicily_struggle: "$game_concept_RICE_sicily_struggle$" # 1164193995508630159
   RICE_sicily_struggle_desc: "$game_concept_RICE_sicily_struggle_desc$" # 8116067003131243420
   struggle_RICE_sicily_phase_borderland: "국경 지대" # 5149440153426048648
@@ -214,16 +214,16 @@
   struggle_RICE_sicily_phase_periphery_desc: "$game_concept_struggle_phase_sicily_periphery_desc$" # 1279392555902499827
   struggle_RICE_sicily_phase_imperial: "제국 권위" # 6748592856987804535
   struggle_RICE_sicily_phase_imperial_desc: "$game_concept_struggle_phase_sicily_imperial_desc$" # 7356779988175377145
-  catalyst_RICE_sicily_expedition_launched: "[sicily_expedition|E]을 [쌀_시칠리아_투쟁_짧게|E] [투쟁_촉매제_촉매제|E]로 파견했습니다." # 8719800556852853918
+  catalyst_RICE_sicily_expedition_launched: "[RICE_sicily_struggle_short|E] [struggle_catalyst_catalyst|E]에 군사 [sicily_expedition|E]를 파견했습니다." # 8719800556852853918
   catalyst_RICE_sicily_expedition_launched_desc: "[sicily_expedition|E]를 [RICE_sicily_struggle_short|E]로 파견합니다." # 13057546304587076034
-  catalyst_RICE_sicily_expedition_victory: "[sicily_expedition|E]이 성공적으로 [RICE_시칠리아_투쟁_짧게|E] [투쟁_촉매_촉매|E]에 진행되었습니다." # 1179246943165866792
+  catalyst_RICE_sicily_expedition_victory: "[RICE_sicily_struggle_short|E] [struggle_catalyst_catalyst|E]에 대한 시칠리아 원정군[sicily_expedition|E]이 성공했습니다." # 1179246943165866792
   catalyst_RICE_sicily_expedition_victory_desc: "[sicily_expedition|E] 군사 원정이 [RICE_sicily_struggle_short|E]에서 성공적이었습니다." # 6159607289920405255
   catalyst_RICE_sicily_expedition_defeat: "[sicily_expedition|E]의 시칠리아 원정이 실패했습니다. [RICE_sicily_struggle_short|E]에서 [struggle_catalyst_catalyst|E]로 인해 무산되었습니다." # 799116769361005805
   catalyst_RICE_sicily_expedition_defeat_desc: "[sicily_expedition|E]이 [RICE_sicily_struggle_short|E]에서 실패했습니다." # 8456512505248976182
-  catalyst_RICE_sicily_send_grain: "[시칠리아 곡물|E]를 [RICE_sicily_struggle_short|E]에서 다른 [rulers|E]에게 [투쟁_촉매_촉매제|E]로 보냈습니다." # 225821969241529754
-  catalyst_RICE_sicily_send_grain_desc: "[시칠리아_곡물|E]를 [쌀_시칠리아_투쟁_짧은|E]에서 다른 [rulers|E]에게 보냅니다." # 4310898657136593830
-  catalyst_RICE_sicily_request_grain: "[RICE_sicily_struggle_short|E]의 [ruler|E]에게 [sicily_grain|E]를 요청합니다." # 10175588972597337004
-  catalyst_RICE_sicily_request_grain_desc: "[시칠리아 곡물|E]에 대한 [rulers|E]의 요청, [RICE_시칠리아_투쟁_짧음|E]에서" # 7595707542003984878
+  catalyst_RICE_sicily_send_grain: "[RICE_sicily_struggle_short|E]에서 [sicily_grain|E]을 다른 [ruler|E]에게 [struggle_catalyst_catalyst|E]로 보냈습니다." # 225821969241529754
+  catalyst_RICE_sicily_send_grain_desc: "[RICE_sicily_struggle_short|E]에서 [sicily_grain|E]를 다른 [ruler|E]에게 보내기" # 4310898657136593830
+  catalyst_RICE_sicily_request_grain: "[RICE_sicily_struggle_short|E] [struggle_catalyst_catalyst|E]에 있는 [ruler|E]에게서 [sicily_grain|E]를 요청했습니다." # 10175588972597337004
+  catalyst_RICE_sicily_request_grain_desc: "[RICE_sicily_struggle_short|E] 내 [ruler|E]로부터 [sicily_grain|E]에 대한 요청" # 7595707542003984878
   catalyst_RICE_sicily_recruit_sicilian_soldiers: "지역 [RICE_sicily_struggle_adjective|E] 용병을 모집했습니다. [struggle_catalyst_catalyst|E]" # 12621442822318569172
   catalyst_RICE_sicily_recruit_sicilian_soldiers_desc: "지역 [RICE_sicily_struggle_adjective|E] 병사들을 모집합니다." # 3284326312094554440
   catalyst_RICE_sicily_promote_officials: "[RICE_sicily_struggle_short|E]의 [struggle_catalyst_catalyst|E]에서 관직이 승진되었습니다." # 4691178769813819043
@@ -253,34 +253,34 @@
   catalyst_RICE_sicily_stronghold_raid: "[sicily_stronghold_short|E]에 의해 [RICE_sicily_struggle_short|E] [struggle_catalyst_catalyst|E]에서 습격을 받았습니다." # 11877465805693644686
   catalyst_RICE_sicily_stronghold_raid_desc: "[sicily_stronghold_short|E]의 [RICE_sicily_struggle_short|E] 습격" # 11911859021795481510
   catalyst_RICE_sicily_support_salerno_medical_school: "[decision|E]을 내려 $RICE_sicily_support_salerno_medical_school$ [struggle_catalyst_catalyst|E]에 돌입했습니다." # 13050792149201870744
-  catalyst_RICE_sicily_support_salerno_medical_school_desc: "$RICE_sicily_support_salerno_medical_school$ 결정을 내립니다." # 6601481440840720700
+  catalyst_RICE_sicily_support_salerno_medical_school_desc: "$RICE_sicily_support_salerno_medical_school$ [decision|E]을(를) 택하십시오." # 6601481440840720700
   catalyst_RICE_sicily_historical_event_new_rulers: "역사적 중요성의 사건 [struggle_catalyst_catalyst|E] 속에서 새로운 [rulers|E]들이 권력을 잡았습니다." # 12010211605361639300
   catalyst_RICE_sicily_historical_event_new_rulers_desc: "새로운 [rulers|E]가 역사적인 사건 속에서 권력을 잡았습니다." # 8484816707828749364
-  catalyst_RICE_sicily_frontier_raid: "[sicily_frontier_raid|E] [투쟁 촉매제|E]를 시행했습니다." # 12162285684334314827
+  catalyst_RICE_sicily_frontier_raid: "[sicily_frontier_raid|E] [struggle_catalyst_catalyst|E]을/를 감행했습니다." # 12162285684334314827
   catalyst_RICE_sicily_frontier_raid_desc: "[sicily_frontier_raid|E]을 공격합니다." # 15070310149692857251
   catalyst_RICE_sicily_passing_of_time: "연간 변동 [struggle_catalyst_catalyst|E]" # 18208966671931110767
   catalyst_RICE_sicily_passing_of_time_desc: "매년 이 [struggle_phase|E]로의 기울어짐" # 8726892031875310298
   catalyst_RICE_sicily_independent_involved_ruler: "[duke|E] [rank|E] 이상의 [ruler|E]이시고, [independent|E] [struggle_catalyst_catalyst|E]이십니다." # 11006892208848324440
-  catalyst_RICE_sicily_independent_involved_ruler_desc: "[independent|E]된 [duke|E] [rank|E] 이상의 [rulers|E]가 되십시오." # 1441446954108899977
+  catalyst_RICE_sicily_independent_involved_ruler_desc: "(매년) [rank|E] 이상의 [duke|E] 작위를 보유하고 있으며 [independent|E]인 [ruler|E]일 것" # 1441446954108899977
   catalyst_RICE_sicily_non_independent_involved_ruler: "[duke|E] [rank|E] 이상의 [ruler|E]이며, [independent|E] [struggle_catalyst_catalyst|E]가 아닌 분들" # 9600706689926215988
   catalyst_RICE_sicily_non_independent_involved_ruler_desc: "[duke|E] [rank|E] 이상의 [ruler|E]이시라면, [independent|E]가 아니신 분들께" # 4901495566072714567
-  catalyst_RICE_sicily_high_diplo_steward_learning: "높은 [외교|E], [관리력|E], 또는 [learning|E] (#V 12#! 이상) [갈등촉매|E]가 발생합니다." # 17880172090491615986
-  catalyst_RICE_sicily_high_diplo_steward_learning_desc: "(연례) 외교력, 관리력, 또는 학문력이 (#V 12#! 이상) 높으십니다." # 12278471021999548563
-  catalyst_RICE_sicily_high_martial_intrigue_prowess: "높은 [martial|E], [intrigue|E], 또는 [prowess|E] (#V 12#! 이상) [갈등촉매제|E]가 발생합니다." # 8311791410863293619
-  catalyst_RICE_sicily_high_martial_intrigue_prowess_desc: "[전투력|E], [intrigue|E], 또는 [prowess|E] (#V 12#! 이상)이 높으십니다." # 3335120473451941257
+  catalyst_RICE_sicily_high_diplo_steward_learning: "높은 [diplomacy|E], [stewardship|E], 또는 [learning|E] (#V 12#! 이상)의 [struggle_catalyst_catalyst|E]를 보유하고 있습니다." # 17880172090491615986
+  catalyst_RICE_sicily_high_diplo_steward_learning_desc: "(매년) 높은 [diplomacy|E], [stewardship|E], 또는 [learning|E] (합계 #V 12#! 이상)" # 12278471021999548563
+  catalyst_RICE_sicily_high_martial_intrigue_prowess: "[martial|E], [intrigue|E], 또는 [prowess|E] 중 높은 능력치 (#V 12#! 또는 그 이상) [struggle_catalyst_catalyst|E]" # 8311791410863293619
+  catalyst_RICE_sicily_high_martial_intrigue_prowess_desc: "(매년) [martial|E], [intrigue|E], 또는 [prowess|E] 수치가 높음 (#V 12#! 이상)" # 3335120473451941257
   catalyst_RICE_sicily_almadraba_fishing: "$[decision|E]$을 시행하여 $RICE_sicily_almadraba_decision$ $[struggle_catalyst_catalyst|E]$에 영향을 미쳤습니다." # 9122839553378609267
-  catalyst_RICE_sicily_almadraba_fishing_desc: "$RICE_sicily_almadraba_decision$ 결정을 내립니다." # 861114492048006936
+  catalyst_RICE_sicily_almadraba_fishing_desc: "$RICE_sicily_almadraba_decision$ [decision|E]을(를) 내리십시오." # 861114492048006936
   catalyst_RICE_sicily_mediterranean_pirate_decision: "$[decision|E]$을 취하여 $RICE_pirate_mediterranean_decision$ $[struggle_catalyst_catalyst|E]$에 나섰습니다." # 15034028907108354722
   catalyst_RICE_sicily_mediterranean_pirate_decision_desc: "$[decision|E]$를 $RICE_pirate_mediterranean_decision$로 결정합니다." # 8875239433286717738
-  catalyst_RICE_sicily_mediterranean_pirate_collaboration: "해적과의 지중해 협력 [decision|E]을 내렸습니다. [갈등 유발 요소|E]" # 539941131491969873
-  catalyst_RICE_sicily_mediterranean_pirate_collaboration_desc: "$RICE_mediterranean_collaborate_with_pirates$ 결정을 내리십시오." # 10524879633506935054
-  catalyst_RICE_sicily_host_palio_activity: "[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] [activity|E]을 개최하였습니다. [분쟁 촉매제|E]" # 5513678221058501665
+  catalyst_RICE_sicily_mediterranean_pirate_collaboration: "$RICE_mediterranean_collaborate_with_pirates$ [decision|E]을(를) 취하여 [struggle_catalyst_catalyst|E]를 발동했습니다." # 539941131491969873
+  catalyst_RICE_sicily_mediterranean_pirate_collaboration_desc: "$RICE_mediterranean_collaborate_with_pirates$ [decision|E]을(를) 결정하십시오" # 10524879633506935054
+  catalyst_RICE_sicily_host_palio_activity: "[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] [activity|E] [struggle_catalyst_catalyst|E]를 개최했습니다." # 5513678221058501665
   catalyst_RICE_sicily_host_palio_activity_desc: "[GetActivityType( 'activity_RICE_sardinia_palio_race' ).GetName] [activity|E]를 개최합니다." # 2311531495285162680
-  struggle_parameter_rice_sicily_unlocks_expedition_interaction: "[character_interaction|E]를 통해 [RICE_sicily_struggle|E] 원정을 요청할 수 있습니다." # 1419773626199430014
-  struggle_parameter_rice_sicily_cheaper_frontier_admin_decision: "$RICE_sicily_administer_frontier$ 결정은 더 저렴합니다." # 9619114813993925213
-  struggle_parameter_rice_sicily_soldier_decision_lower_xp: "$RICE_sicily_recruit_soldiers_decision$ 결정을 내릴 때, [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )]이 서로 다른 [sicily_worlds|E]의 병사들을 선택할 수 있는 [trait_level_track_xp|E] 요구 수준이 낮아집니다." # 13952560105414361164
-  struggle_parameter_rice_sicily_reduced_fronter_admin_stat_requirement: "$RICE_sicily_administer_frontier$ 결정을 내릴 때 필요한 [skill|E]는 [GetPlayer.MakeScope.ScriptValue('mediocre_skill_rating')|0] 대신 #V [GetPlayer.MakeScope.ScriptValue('low_skill_rating')|0]#로 감소합니다." # 3368680110511739456
-  struggle_parameter_rice_sicily_more_expensive_salerno_school: "$RICE_sicily_support_salerno_medical_school$ 결정은 더 비쌉니다." # 16052632916374774044
+  struggle_parameter_rice_sicily_unlocks_expedition_interaction: "[RICE_sicily_struggle|E]에 [sicily_expedition|E]를 요청할 수 있는 [character_interaction|E]를 잠금 해제합니다." # 1419773626199430014
+  struggle_parameter_rice_sicily_cheaper_frontier_admin_decision: "$RICE_sicily_administer_frontier$을(를) 위한 [decision|E]은(는) 더 저렴합니다" # 9619114813993925213
+  struggle_parameter_rice_sicily_soldier_decision_lower_xp: "$RICE_sicily_recruit_soldiers_decision$ [decision|E]을(를) 내릴 때, [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )]가 다른 [sicily_worlds|E]의 병사를 선택하는 데 필요한 [trait_level_track_xp|E]가 감소합니다." # 13952560105414361164
+  struggle_parameter_rice_sicily_reduced_fronter_admin_stat_requirement: "$RICE_sicily_administer_frontier$ [decision|E]을(를) 취할 때, 요구되는 [skill|E]은(는) [GetPlayer.MakeScope.ScriptValue('mediocre_skill_rating')|0] 대신 #V [GetPlayer.MakeScope.ScriptValue('low_skill_rating')|0]#!로 감소합니다." # 3368680110511739456
+  struggle_parameter_rice_sicily_more_expensive_salerno_school: "[decision|E] $RICE_sicily_support_salerno_medical_school$은 비용이 더 많이 듭니다" # 16052632916374774044
   struggle_parameter_rice_sicily_frontier_raid_strongholds_higher_appear: "[sicily_frontier_raids|E]는 [RICE_sicily_struggle|E]에서 목표 [county|E]에 [sicily_strongholds|E]를 생성할 가능성이 높습니다." # 16502582996710629809
   struggle_parameter_rice_sicily_frontier_raid_strongholds_higher_disappear: "[sicily_frontier_raids|E]는 [RICE_sicily_struggle|E]에서 목표 [county|E]의 [sicily_strongholds|E]를 제거할 가능성이 높습니다." # 12600939860943956187
   RICE_sicily_struggle_dominion_ender_name: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip], 지배권" # 3076707374845477312
@@ -305,11 +305,11 @@
   RICE_sicily_request_wheat_shipments_extra_icon: "$hook_extra_icon$" # 2514920243271261704
   RICE_sicily_wheat_shipments_legitimacy_effects_actor_tt: "[actor.GetShortUIName|U]는 #P 얻거나#! #italic 또는#! #N 잃거나#! [legitimacy_i|E]를 #V [GetPlayer.MakeScope.ScriptValue('minor_legitimacy_gain')]#! [legitimacy|E] 얻을 수 있습니다. 그것은 [actor.GetShortUINamePossessiveNoTooltip] [court|E]과 백성들의 이 곡물 거래에 대한 반응에 따라 달라집니다." # 3814958289198734729
   RICE_sicily_wheat_shipments_legitimacy_effects_recipient_tt: "[recipient.GetShortUIName|U]은 #P 얻거나#! #italic 혹은#! #N 잃을#! 수도 있습니다. [legitimacy_i|E] #V [GetPlayer.MakeScope.ScriptValue('minor_legitimacy_gain')]#! [legitimacy|E]는 그 대상의 [recipient.GetShortUINamePossessiveNoTooltip] [court|E]와 백성들의 이 곡물 거래에 대한 반응에 따라 달라질 것입니다." # 11201110269004324913
-  RICE_sicily_wheat_shipments_opinion_effects_actor_tt: "[actor.GetShortUINamePossessive] 일부 신하들과 궁정 사람들은 이 곡물 거래에 대한 반응으로 [recipient.GetShortUIName]에 대해 #P 긍정적인#! #italic 또는#! #N 부정적인#! 의견을 가질 수 있습니다." # 17518073535659821233
-  RICE_sicily_wheat_shipments_opinion_effects_recipient_tt: "[수혜자.짧은소유격]의 일부 [vassal|E]와 [court|E]은 이 곡물 거래에 대한 반응으로 [수혜자.짧은이름]에 대해 #P 긍정적#! #italic 또는#! #N 부정적#! [opinion|E]을 가질 수 있습니다." # 3932089062218015326
+  RICE_sicily_wheat_shipments_opinion_effects_actor_tt: "[actor.GetShortUINamePossessive]의 일부 [vassals|E]와 [courtiers|E]는 이 곡물 거래에 대한 반응으로 [recipient.GetShortUIName]에 대해 #P 긍정적#! #italic 혹은#! #N 부정적#!인 [opinion|E]을 가질 수 있습니다" # 17518073535659821233
+  RICE_sicily_wheat_shipments_opinion_effects_recipient_tt: "[recipient.GetShortUINamePossessive] [vassals|E]와 [courtiers|E] 중 일부는 이 곡물 거래에 대한 반응으로 [recipient.GetShortUIName]에 대해 #P 긍정적#! #italic 혹은#! #N 부정적#! [opinion|E]을 가질 수 있습니다" # 3932089062218015326
   RICE_pay_for_grain: "요청을 받아들이도록 추가로 지불하십시오." # 8013606260636437218
   RICE_sicily_wheat_shipments_control_tt: "[control_i|E] [control|E] #P 증가#가 #V [EmptyScope.ScriptValue('massive_county_control_gain')]#만큼 증가합니다!" # 9528864902515072882
-  RICE_sicily_wheat_shipments_development_tt: "[개발_i|E] [개발|E] 진척도 #P 증가#! #V [EmptyScope.ScriptValue('major_development_progress_gain')]#!" # 4204408436227407998
+  RICE_sicily_wheat_shipments_development_tt: "[development_i|E] [development|E] 진척도가 #V [EmptyScope.ScriptValue('major_development_progress_gain')]#! 만큼 #P 증가합니다#!" # 4204408436227407998
   RICE_interaction_actor_generous_acceptance: "그분은 관대합니다: $VALUE|=+0$" # 7521636190233233865
   RICE_interaction_recipient_generous_acceptance: "수혜자는 관대한 자세를 보입니다. $VALUE|=+0$" # 4598106799631359256
   RICE_interaction_actor_greedy_acceptance: "[actor.GetSheHe|U]는 탐욕스럽습니다: $VALUE|=+0$" # 5442332882672882655
@@ -318,7 +318,7 @@
   RICE_interaction_recipient_famine_acceptance: "[recipient.GetSheHe|U]가 [GetModifier('RICE_sicily_north_african_famine').GetNameWithTooltip]로 고통받고 있습니다: $VALUE|=+0$" # 5436739622405956565
   RICE_request_sicily_intervention_interaction: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip] 원정을 요청합니다." # 10873592907768141693
   RICE_request_sicily_intervention_interaction_desc: "외국의 [ruler|E]에게 [sicily_expedition|E]를 개시하여 [RICE_sicily_struggle|E]의 라이벌을 공격하도록 요청합니다." # 998320558025186000
-  RICE_request_sicily_intervention_interaction_negative_gold_offer: "수령이 이미 목표보다 더 많은 병력을 보유하고 있습니다. 비례적으로 부정적인 £gold£를 제시할 수 없습니다!" # 5994850381881434130
+  RICE_request_sicily_intervention_interaction_negative_gold_offer: "상대방은 이미 당신의 목표 대상보다 병력이 더 많습니다. 비례적으로 부정적인 [gold|E] 금액을 제안할 수 없습니다!" # 5994850381881434130
   recipient_secondary_RICE_request_sicily_intervention_interaction: "기획자" # 5385116375296694859
   RICE_request_sicily_intervention_interaction_option_join_war: "@alliance_icon! 군사적 지원을 제공합니다." # 16703080290657726513
   RICE_request_sicily_intervention_interaction_option_join_war_desc: "[sicily_expedition|E]에 참여하여 [GetGeographicalRegion('custom_sicily').GetName]의 [secondary_recipient.GetShortUINameNoTooltip] 편에 합류하십시오." # 12405314489964007521
@@ -338,7 +338,7 @@
   RICE_sicily_latin_stronghold_faction_desc: "라틴계 [sicily_stronghold|E] [faction|E]가 점차 대담하고 강력해짐에 따라, 라틴계의 권위를 [rulers|E]가 믿음 없는 자 또는 부족한 동교도로 여기는 [counties|E]에 되찾으려 할 것입니다." # 5342526932527045280
   RICE_sicily_latin_stronghold_faction_short_effect_desc: "특정 [counties|E]를 장악하고 싶어합니다." # 4417575820081222074
   RICE_sicily_latin_stronghold_faction_every_county: "연합 내 모든 군현" # 14858590251999898849
-  RICE_sicily_latin_stronghold_faction_spawn_county_army: "[군주]의 [군대]에 라틴 베테랑 군대가 [지역]의 [징병] 수에 비례하여 소환됩니다." # 5608182908866601737
+  RICE_sicily_latin_stronghold_faction_spawn_county_army: "라틴 노련병 [army|E]를 해당 백작령의 [levies]에 비례하여 생성합니다" # 5608182908866601737
   FACTION_DEMAND_RICE_sicily_latin_stronghold: "[ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.GetTitledFirstName]께" # 1361091223061799543
   FACTION_DEMAND_RICE_sicily_latin_stronghold_desc_non_infidel: "날이 갈수록, 당신과 같은 비참한 폭군의 봉신으로서의 지배를 참는 것이 점점 더 어려워지고 있습니다. 우리의 요새는 스스로 잘 지탱하고 있으며, 당신은 우리를 위협으로 여기는 것을 알고 있습니다.\n\n우리 사이의 기존 협약을 바꾸어 우리에게 더 큰 자유를 주십시오. 그렇지 않으면 우리 스스로 빼앗을 것입니다!" # 5136060479502886241
   FACTION_DEMAND_RICE_sicily_latin_stronghold_desc_infidel: "우리 공동체는 당신과 형식적이고 비형식적인 합의를 맺어왔지만, 당신과 같은 이교도 이웃들의 존재를 더 이상 용인할 수 없는 상황에 이르렀습니다. 우리의 요새는 스스로 잘 지탱하고 있으며, 당신이 우리를 위협으로 여기는 것을 알고 있습니다.\n\n기존의 합의를 바꿔 우리에게 더 큰 자유를 보장하거나, 아니면 우리가 직접 쟁취할 것입니다!" # 17730675267771160835
@@ -350,7 +350,7 @@
   RICE_sicily_arabic_stronghold_faction_desc: "아랍-베르베르 [sicily_stronghold|E] [faction|E]가 더욱 대담하고 강력해짐에 따라, 그들은 [rulers|E]가 이단자 또는 마땅치 않은 동종교도로 여기는 [counties|E]에 대한 아랍-베르베르의 권위를 되찾으려 할 것입니다." # 9332701506420264947
   RICE_sicily_arabic_stronghold_faction_short_effect_desc: "특정 [counties|E]를 장악하고 싶어합니다." # 4417575820081222074
   RICE_sicily_arabic_stronghold_faction_every_county: "연합 내 모든 군현" # 14858590251999898849
-  RICE_sicily_arabic_stronghold_faction_spawn_county_army: "아랍-베르베르 용사들의 [군대|E]를 그 지역의 [징병] 수에 비례하여 소환합니다." # 10507814409575950303
+  RICE_sicily_arabic_stronghold_faction_spawn_county_army: "백작령의 [levies]에 비례하는 아랍-베르베르 역전 용사 [army|E]를 생성합니다" # 10507814409575950303
   FACTION_DEMAND_RICE_sicily_arabic_stronghold: "[ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.GetTitledFirstName]께" # 1361091223061799543
   FACTION_DEMAND_RICE_sicily_arabic_stronghold_desc_non_infidel: "날이 갈수록, 당신과 같은 비참한 폭군의 봉신으로서의 지배를 참는 것이 점점 더 어려워지고 있습니다. 우리의 요새는 스스로 잘 지탱하고 있으며, 당신은 우리를 위협으로 여기는 것을 알고 있습니다.\n\n우리 사이의 기존 협약을 바꾸어 우리에게 더 큰 자유를 주십시오. 그렇지 않으면 우리 스스로 빼앗을 것입니다!" # 5136060479502886241
   FACTION_DEMAND_RICE_sicily_arabic_stronghold_desc_infidel: "우리 공동체는 당신과 형식적이고 비형식적인 합의를 맺어왔지만, 당신과 같은 이교도 이웃들의 존재를 더 이상 용인할 수 없는 상황에 이르렀습니다. 우리의 요새는 스스로 잘 지탱하고 있으며, 당신이 우리를 위협으로 여기는 것을 알고 있습니다.\n\n기존의 합의를 바꿔 우리에게 더 큰 자유를 보장하거나, 아니면 우리가 직접 쟁취할 것입니다!" # 17730675267771160835
@@ -362,7 +362,7 @@
   RICE_sicily_intervention_cb_name: "원정" # 12352625497613036715
   RICE_sicily_intervention_cb_war_name: "[TITLE.GetBaseNameNoTier] 원정" # 7399807463385385071
   RICE_sicily_intervention_title: "[invasion_beneficiary.GetShortUIName]가 [defender.GetShortUINamePossessive] [realm|E] 내 [THIS.GetLandedTitle.GetBaseName]에 속한 모든 영토를 빼앗을 것입니다." # 15882729341533817131
-  RICE_sicily_intervention_cb_victory_desc: "수혜자가 분쟁 중인 [realm|E]를 얻게 됩니다." # 17526477128304726750
+  RICE_sicily_intervention_cb_victory_desc: "수혜자가 분쟁 [titles|E]를 획득합니다." # 17526477128304726750
   RICE_sicily_intervention_beneficiary: "수혜자" # 8425701616830396094
   RICE_sicily_frontier_raid_CB_NAME: "시칠리아 국경 습격" # 3217465774491763299
   RICE_sicily_frontier_raid_CB_SPECIFIC_NAME: "[TITLE.GetBaseNameNoTier]의 국경 습격" # 2860843889881424603
@@ -417,7 +417,7 @@
   RICE_sicilian_ruler_progress_towards_trait_2_tt: "[THIS.Char.GetShortUINamePossessive] [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E] 경험치 획득량이 증가합니다." # 10031781959593446198
   RICE_sicilian_ruler_progress_towards_trait_3_tt: "[THIS.Char.GetShortUINamePossessive] [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E] 경험치 획득량이 크게 증가합니다." # 17269028332204528512
   RICE_sicilian_ruler_xp_gain_message: "[GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] 경험" # 8686657269974981930
-  RICE_sicily_aspiration_sawdan_desc: "#bold 역사적 야망 주요 목표#!\n$EFFECT_LIST_BULLET$ [아풀리아]의 [독립] [군주]가 되십시오.\n$EFFECT_LIST_BULLET$ [이탈리아 남부 지역] 내 적어도 #V 8#! 개의 [군현]을 통치하거나, 그 [봉신]들이 통치하게 하십시오.\n$EFFECT_LIST_BULLET$[신앙심]이 [수준 3 신앙심] 이상이거나, [명예]가 [수준 3 명예] 이상이어야 합니다.\n$EFFECT_LIST_BULLET$[결정] $RICE_sicily_administer_frontier$을 최소 한 번 실행하십시오.\n$EFFECT_LIST_BULLET$ 이슬람 [종교]를 유지하십시오.\n\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$ @신앙심_아이콘! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [신앙심]을 얻으십시오.\n$EFFECT_LIST_BULLET$ @명예_아이콘! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [명예]를 얻으십시오.\n$EFFECT_LIST_BULLET$ @정당성_아이콘! #V [EmptyScope.ScriptValue('medium_legitimacy_gain')]#! [정당성]을 얻으십시오.\n$EFFECT_LIST_BULLET$ #V 1000#! [특수부대]를 포함한 일부 [병사]를 받으십시오.\n$EFFECT_LIST_BULLET$ [교단 수장]이 있다면 [관계]가 #P +25#! 증가합니다.\n$EFFECT_LIST_BULLET$ [결정] $RICE_sicily_administer_frontier$가 영구적으로 저렴해집니다.\n\n\n#bold 역사적 야망 보너스 목표#!\n$EFFECT_LIST_BULLET$ [결정] $RICE_sicily_recruit_soldiers_decision$을 최소 한 번 실행하십시오. (보상: [무술 생활 방식] [보너스]를 얻으십시오.)\n$EFFECT_LIST_BULLET$[왕] 또는 [황제] [계급]이거나, 최소 #V 3#! 개의 [공국] [칭호]를 소유하십시오. (보상: @왕조_명예_아이콘! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! [왕조_명예]를 얻으십시오.)\n$EFFECT_LIST_BULLET$[로마] [군현]을 장악하십시오. (보상: @금_아이콘! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [금]을 얻으십시오.)" # 6011517409249894943
+  RICE_sicily_aspiration_sawdan_desc: "\n\n#bold [historical_aspiration_main_objectives|E]#!\n$EFFECT_LIST_BULLET$[GetTitleByKey('d_apulia').GetNameNoTier]의 [independent|E] [ruler|E]가 되십시오\n$EFFECT_LIST_BULLET$[GetGeographicalRegion('RICE_mainland_southern_italy').GetName] 내 최소 #V 8#!개의 [counties|E]를 직접 통치하거나 [vassals|E]를 통해 통치하십시오\n$EFFECT_LIST_BULLET$[GetModifier( 'piety_level_3' ).GetNameWithTooltip|L] 이상의 [piety_level|E]를 보유하거나, 혹은 [GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L] 이상의 [prestige_level|E]를 보유하십시오\n$EFFECT_LIST_BULLET$최소 한 번 $RICE_sicily_administer_frontier$ [decision|E]을(를) 내리십시오\n$EFFECT_LIST_BULLET$무슬림 [faith|E]를 유지하십시오\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$@piety_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [piety|E]를 획득합니다\n$EFFECT_LIST_BULLET$@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E]를 획득합니다\n$EFFECT_LIST_BULLET$@legitimacy_icon! #V [EmptyScope.ScriptValue('medium_legitimacy_gain')]#! [legitimacy|E]를 획득합니다\n$EFFECT_LIST_BULLET$일부 [men_at_arms|E]를 포함하여 #V 1000#!명의 [special_troops|E]를 받습니다\n$EFFECT_LIST_BULLET$신앙의 수장이 존재할 경우, [head_of_faith|E]의 [opinion|E]이(가) #P +25#! 증가합니다\n$EFFECT_LIST_BULLET$$RICE_sicily_administer_frontier$ [decision|E]의 비용이 영구적으로 절감됩니다\n\n#bold [historical_aspiration_bonus_objectives|E]#!\n$EFFECT_LIST_BULLET$최소 한 번 $RICE_sicily_recruit_soldiers_decision$ [decision|E]을(를) 내리십시오 (보상: [martial_lifestyle|E] [perk|E] 획득)\n$EFFECT_LIST_BULLET$[king|E] 또는 [emperor|E] [rank|E]를 보유하거나, 최소 #V 3#!개의 [duchy|E] [titles|E]를 보유하십시오 (보상: @dynasty_prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_large_resource_bonus')]#! [dynasty_prestige|E] 획득)\n$EFFECT_LIST_BULLET$[GetTitleByKey('c_roma').GetNameNoTier] [county|E]를 지배하십시오 (보상: @gold_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [gold|E] 획득)" # 6011517409249894943
   RICE_sicily_historical_aspiration_action_sawdan: "#italic 아바스 왕조가 붕괴하고, 대부분의 무슬림들이 바리 토후국을 다르 알 이슬람의 무법적인 변경 지역으로 치부하는 상황에서, 이탈리아에 이슬람을 영구히 정착시키려면 바리에서 태어난 식민지를 모든 종류의 적으로부터 보호하는 데 앞장서야 합니다!#$RICE_sicily_aspiration_sawdan_desc$" # 1508201336232849364
   RICE_sicily_historical_aspiration_modifier_desc_sawdan: "[GetModifier('RICE_sicily_aspiration_establish_islam_in_southern_italy').GetNameWithTooltip]" # 295129304972354235
   RICE_sicily_aspiration_roger_desc: "#bold [historical_aspiration_main_objectives|E]#\n$EFFECT_LIST_BULLET$[completely_control|E] [GetTitleByKey('d_sicily').GetNameNoTier]\n$EFFECT_LIST_BULLET$[prestige_level|E]이 [GetModifier( 'prestige_level_3' ).GetNameWithTooltip|L] 이상\n$EFFECT_LIST_BULLET$기독교 [faith|E]를 유지\n\n#bold 보상#!\n$EFFECT_LIST_BULLET$@piety_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [piety|E] 획득\n$EFFECT_LIST_BULLET$@prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E] 획득\n$EFFECT_LIST_BULLET$[head_of_faith|E]이(가) 있다면 그에게서 #P +25#! [opinion|E]\n$EFFECT_LIST_BULLET$[GetGeographicalRegion('RICE_insular_sicily').GetName] 내 모든 [county|E]가 @development_icon! #V [EmptyScope.ScriptValue('RICE_red_sea_al_umari_aspiration_dev_bonus')]#! [development|E]를 획득\n\n#bold [historical_aspiration_bonus_objectives|E]#\n$EFFECT_LIST_BULLET$[piety_level|E]이 [GetModifier( 'piety_level_3' ).GetNameWithTooltip|L] 이상 (보상: @legitimacy_icon! #V [EmptyScope.ScriptValue('medium_legitimacy_gain')]#! [legitimacy|E])\n$EFFECT_LIST_BULLET$[duchy|E] [GetTitleByKey('d_sicily').GetNameNoTier]의 [ruler|E]이 되거나 최소 #V 10#!개 [counties|E]를 직접 지배 (보상: #V 400#!명 [GetMaA('RICE_sicily_bowmen').GetName] 및 #V 100#!명 [GetMaA('conrois').GetName] [special_troops|E] 획득)\n$EFFECT_LIST_BULLET$베나베르트가 기독교 [faith|E]를 믿거나 사망 (보상: 사망 시 @dynasty_prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_small_resource_bonus')]#! [dynasty_prestige|E] 및 @prestige_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [prestige|E] 획득, 개종 시 @piety_icon! #V [EmptyScope.ScriptValue('RICE_aspiration_medium_resource_bonus')]#! [piety|E] 획득)" # 7969986319028095091
@@ -456,7 +456,7 @@
   activity_RICE_sicily_monte_gargano_pilgrimage_desc: "대천사 성 미카엘 성역은 수세기 동안 순례자들의 목적지였습니다. [GetReligionByKey('christianity_religion').GetName]에서 가장 오래된 순례지 중 하나로서, 그곳은 가까운 곳과 먼 곳에서 온 신실한 자들이 방문합니다." # 13726421334000118525
   RICE_sicily_monte_gargano_pilgrimage_context_tooltip: "#emphasis 역사적 배경:#! 전설에 따르면 서기 5세기, 가르가노 근처에 살던 농부가 황소 한 마리를 잃었습니다. 결국 그는 동굴 옆에 서 있는 황소를 발견했지만 움직이려 하지 않았습니다. 그는 지역 주교의 도움을 구했고, 주교는 성 미카엘의 환영을 발견했습니다. 동굴 주변에 지어진 성 미카엘 대천사 성지는 결국 기독교 순례의 위대한 장소가 되었으며, 특히 롬바르드족과 노르만족처럼 남부 이탈리아에 그리스인이 아닌 사람들이 연이어 도착하면서 더욱 그러했습니다. 성 미카엘 숭배가 중세 시대에 점점 인기를 얻으면서 가르가노에 있는 성지는 성 미카엘에게 헌정된 더 큰 규모의 장소 네트워크의 일부가 되었고, 가르가노 외에 가장 유명한 곳은 프랑스 북부의 몽생미셸이었습니다." # 16485621844504636856
   activity_RICE_sicily_monte_gargano_pilgrimage_selection_tooltip: "[GetTitleByKey('c_foggia').GetNameNoTier]에 있는 대천사 미카엘 성지로 순례를 떠납니다.\n\n$RICE_sicily_monte_gargano_pilgrimage_context_tooltip$" # 184940320605603632
-  activity_RICE_sicily_monte_gargano_pilgrimage_host_desc: "$activity_RICE_local_pilgrimage_host_desc$\n$BULLET_WITH_TAB$ #P 유익한# 결과를 얻을 확률이 [piety|E]에 따라 달라집니다. [인물 수정자|E]" # 10460726711560591909
+  activity_RICE_sicily_monte_gargano_pilgrimage_host_desc: "지역 순례 주최 활동 설명\n$BULLET_WITH_TAB$ 귀하의 [piety_level|E]에 따라 #P 유익한#! [character_modifiers|E]를 성공적으로 획득할 기회" # 10460726711560591909
   activity_RICE_sicily_monte_gargano_pilgrimage_guest_desc: "$activity_RICE_sicily_monte_gargano_pilgrimage_host_desc$" # 9359112760568647961
   activity_RICE_sicily_monte_gargano_pilgrimage_province_desc: "몬테 가르가노는 [GetTitleByKey('b_vieste').GetNameNoTier] 근처에 있습니다." # 16681118507600583328
   activity_RICE_sicily_monte_gargano_pilgrimage_destination_selection: "$activity_RICE_sicily_monte_gargano_pilgrimage_province_desc$" # 14285831852131779933
@@ -893,7 +893,7 @@
   RICE_sicily_latin_stronghold_appear_chance_desc: "#V [GetPlayer.MakeScope.ScriptValue('RICE_sicily_latin_stronghold_appearance_value')|0]%#! 확률로 #V 라틴#! [sicily_stronghold|E]이 [GetGeographicalRegion('custom_sicily').GetName] 내 소유한 [county|E] 어딘가에 나타날 것입니다." # 2014555483840083520
   RICE_sicily_greek_stronghold_appear_chance_desc: "#V [GetPlayer.MakeScope.ScriptValue('RICE_sicily_greek_stronghold_appearance_value')|0]%#! 확률로 [GetGeographicalRegion('custom_sicily').GetName] 내 소유 [county|E] 어딘가에 #V 그리스#! [sicily_stronghold|E]가 나타날 것입니다." # 7167917054132129440
   RICE_sicily_arabic_stronghold_appear_chance_desc: "#V [GetPlayer.MakeScope.ScriptValue('RICE_sicily_arabic_stronghold_appearance_value')|0]%#! 확률로 [GetGeographicalRegion('custom_sicily').GetName] 내 소유한 [county|E] 어딘가에 #V 아랍-베르베르#! [sicily_stronghold|E]가 나타날 것입니다" # 16302375384126388699
-  RICE_sicily_spawn_latin_mercenaries_tt: "최소한 한 개 [용병단|E]의 [GetMaA('picchieri').GetName](이)를 포함하여 #V 200#!에서 #V 1000#!에 달하는 [special_troops|E]을 얻게 됩니다." # 1256355862315564236
+  RICE_sicily_spawn_latin_mercenaries_tt: "#V 200#!에서 #V 1000#!의 [special_troops|E]를 획득하며, 최소한 [GetMaA('picchieri').GetName] [men_at_arms|E] [regiment|E] 하나가 포함됩니다." # 1256355862315564236
   RICE_sicily_spawn_early_latin_mercenaries_tt: "#V 200#!에서 #V 1000#! 사이의 [special_troops|E]를 얻습니다. 최소 한 부대의 [GetMaA('RICE_arimanni').GetName] [men_at_arms|E] [regiment|E]가 포함됩니다." # 5743407922471745902
   RICE_sicily_spawn_greek_mercenaries_tt: "#V 200#!에서 #V 1000#! 사이의 [special_troops|E]를 얻습니다. 최소 한 부대의 [GetMaA('cataphract').GetName] [men_at_arms|E] [regiment|E]가 포함됩니다." # 2656036278648466758
   RICE_sicily_spawn_arabic_mercenaries_tt: "#V 200#!에서 #V 1000#! 사이의 [special_troops|E]를 얻습니다. 최소한 [men_at_arms|E] [regiment|E] 1개 부대는 [GetMaA('RICE_sicily_bowmen').GetName]로 구성됩니다." # 17202202593028358931
@@ -1002,8 +1002,8 @@
   RICE_every_coastal_western_mediterranean_county: "[GetGeographicalRegion('RICE_west_mediterranean').GetName]에 소유한 모든 해안 [county|E]" # 17482677974369402686
   RICE_sicily_embed_into_sicily: "시칠리아 사회에 녹아드십시오" # 7066596530833509439
   RICE_sicily_embed_into_sicily_tooltip: "제가 [RICE_sicily_struggle_adjective|E]의 중요한 이해 관계자가 되었습니다!" # 15417971000821673416
-  RICE_sicily_embed_into_sicily_desc: "저는 [holdings|E]를 가진 [rulers|E]는 아니지만, [GetGeographicalRegion('custom_sicily').GetName]의 지역 정치와 사회에서 중요한 인물이 되기 위해 [RICE_sicily_struggle|E]에서 충분한 시간을 보냈습니다. 이곳에 사는 사람들과 맺은 관계를 발전시켜야겠습니다." # 11368033320383965944
-  RICE_sicily_embed_into_sicily_effect_tooltip_1: "선택에 따라 [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]의 [sicily_latin|E], [sicily_greek|E] 또는 [sicily_arabic|E] [trait_level_track|E]에서 #V [EmptyScope.ScriptValue('RICE_sicily_signore_trait_xp_gain_medium')]#! [trait_level_track_xp|E]을 얻습니다." # 911494496083191725
+  RICE_sicily_embed_into_sicily_desc: "나는 [landed|E] [ruler|E]는 아닐지라도, [RICE_sicily_struggle|E]에 충분한 시간을 투자하여 [GetGeographicalRegion('custom_sicily').GetName]의 지역 정치와 사회에서 중요한 인물이 되었습니다. 이곳에 사는 이들과 맺은 유대를 더욱 다져야 할 것입니다." # 11368033320383965944
+  RICE_sicily_embed_into_sicily_effect_tooltip_1: "귀하는 선택에 따라 [GetTrait('RICE_sicilian_ruler').GetName( GetNullCharacter )] [trait|E]의 [sicily_latin_dominance_i|E] [sicily_latin|E], [sicily_greek_dominance_i|E] [sicily_greek|E], 혹은 [sicily_arabic_dominance_i|E] [sicily_arabic|E] [trait_level_track|E]에서 #V [EmptyScope.ScriptValue('RICE_sicily_signore_trait_xp_gain_medium')]#! [trait_level_track_xp|E]를 얻게 됩니다." # 911494496083191725
   RICE_sicily_embed_into_sicily_confirm: "$RICE_sicily_occupy_sicilian_frontier_confirm$" # 11682894078271547860
   RICE_sicily_embed_into_sicily_context_tooltip: "$RICE_sicily_occupy_sicilian_frontier_context_tooltip$" # 735374218432206944
   sicily.0000.t: "xxxxx" # 1951045980481827005
@@ -1268,7 +1268,7 @@
   sicily.0066.a: "이 황량한 변경 지역에는 과연 무슨 일이 벌어질까?" # 10293255918374816812
   sicily.0067.t: "사우단의 과거" # 1166800736292149133
   sicily.0067.desc: "제가 [GetGeographicalRegion('custom_sicily').GetName]에서 작은 [GetReligionByKey('islam_religion').GetAdjective] 공동체의 지도자가 되기까지는 기나긴 여정이었습니다. 우리는 진정으로 이 변경 지역으로 전 세계에서 왔습니다.\n\n우리 중 일부는 이미 다른 곳에서 온 정착민이거나 그 후손으로서 [GetGeographicalRegion('RICE_insular_sicily').GetName]에 뿌리를 내리고 있습니다. 다른 사람들은 멀리 떨어진 [GetGeographicalRegion('custom_andalusian').GetName], [GetGeographicalRegion('ghw_region_egypt_et_al').GetName], [GetGeographicalRegion('RICE_ifriqiya_region').GetName] 해안, $heritage_berber_name$ 내륙, 심지어 아프리카 깊숙한 곳 등지에서 왔습니다. 저에 대해 말씀드리자면, 저는…" # 5655709082310938056
-  sicily.0067.a: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip] #약함 (기본)!#" # 2447287087075868456
+  sicily.0067.a: "[GetGeographicalRegion('custom_sicily').GetNameNoTooltip] #weak (기본값)#!" # 2447287087075868456
   sicily.0067.b: "[GetGeographicalRegion('custom_andalusian').GetNameNoTooltip]" # 16871949604927529201
   sicily.0067.c: "[GetGeographicalRegion('ghw_region_egypt_et_al').GetNameNoTooltip]" # 7680744121441247545
   sicily.0067.d: "[GetGeographicalRegion('RICE_ifriqiya_region').GetNameNoTooltip] 해안" # 5965953140281266681
@@ -1288,7 +1288,7 @@
   sicily.0070.a: "xxxxx" # 1951045980481827005
   sicily.0071.t: "[abu_aaron.GetFirstNameNoTooltip](이)가 떠날 준비를 합니다" # 16107304698645307494
   sicily.0071.desc: "[ROOT.Char.GetCapitalLocation.GetTitle.GetNameNoTier]에서 오랫동안 살아온 유대인 학자 [abu_aaron.GetFirstName]이(가) [abu_aaron.GetSheHe]의 고향인 [GetGeographicalRegion('world_mesopotamia').GetName](으)로 돌아갈 것이라고 발표했습니다.\n\n몇 년 전, [abu_aaron.GetHerHis] 아버지이자 그곳 유대인의 #italic 나시#! 즉 고위 관리와 다툰 후 집을 떠나 전 세계 최고의 학자들에게 배우기 위해 여러 해 동안 머물고 여행했습니다.\n\n이제 [abu_aaron.GetHerHim]에게 노년이 찾아오기 시작하자 [abu_aaron.GetSheHe]은(는) 향수를 느끼기 시작했고, 너무 늙기 전에 돌아가고 싶어합니다. 제 영토의 많은 사람들, 유대인이든 비유대인이든 [abu_aaron.GetHerHis]의 지혜와 신비로운 지식에 감사하며 [abu_aaron.GetHerHim]에게 머물러 달라고 간청합니다. 어떤 사람들은 심지어 제가 [abu_aaron.GetHerHim]을 강제로 구금하여 우리 백성이 [abu_aaron.GetHerHis]의 가르침으로부터 계속 혜택을 받을 수 있도록 요청하기도 합니다." # 4274639517562980000
-  sicily.0071.desc.sawdan: "[abu_aaron.GetHerHis]을 자주 후원한 친구로서, 이 소식은 슬프군. 하지만 친구로서 [abu_aaron.GetHerHis]의 소원을 #italic 존중해야 #!하겠지." # 10428253859683545081
+  sicily.0071.desc.sawdan: "\n\n[abu_aaron.GetHerHim] 자주 후원해 온 [abu_aaron.GetHerHis] 친구로서, 이 소식은 슬프게 들립니다. 하지만 친구로서, 나는 [abu_aaron.GetHerHis]의 소망을 #italic 마땅히#! 배려해야 합니다." # 10428253859683545081
   sicily.0071.a: "[abu_aaron.GetHerHim]을 고향에 돌려보내 주지 않는 건 너무 잔혹한 처사요. 작별 인사를 고하겠소!" # 7463331982110259735
   sicily.0071.b: "[abu_aaron.GetHerHim]을 여기에 둘 수밖에 없군." # 12536405744139342694
   sicily.0071.b.failure: "[abu_aaron.GetFirstNameNoTooltip](이)가 체포를 피했습니다" # 17708240140177249039
@@ -1562,7 +1562,7 @@
   sicily.0143.a: "멋진 선물!" # 820773985853193180
   sicily.0144.t: "$sicily.0140.t$" # 1554441126882192873
   sicily.0144.desc: "[GetTitleByKey('b_salerno').GetNameNoTier] 의과 대학을 후원한 덕분에 많은 이들이 감사를 표하고자 직접 나를 찾아왔다. 물론, 나는 기꺼이 그들을 내 궁정으로 맞이했다." # 6606517934777419599
-  sicily.0144.desc.old_physician: "그곳에 있는 동안 많은 이들이 시간을 내어 저의 [GetCourtPositionType('court_physician_court_position').GetName()]이신 [physician.GetTitledFirstName]을 만나기도 했습니다. [physician.GetSheHe|U]께서는 다양한 의학적 지식을 향상시킬 수 있었던 매우 유익한 경험이었다고 말씀하셨습니다." # 12594954306972636049
+  sicily.0144.desc.old_physician: "그곳에서 그들 중 일부는 나의 [GetCourtPositionType('court_physician_court_position').GetName()]인 [physician.GetTitledFirstName]와(과) 면담하는 시간을 가졌습니다. [physician.GetSheHe|U]는 이를 통해 의학의 다양한 측면에 대한 [physician.GetHerHis]의 지식을 넓힐 수 있는, 매우 깨달음을 주는 경험을 했다고 말합니다." # 12594954306972636049
   sicily.0144.desc.new_physician: "[sicily_culture.GetName] 혈통의 의사인 [physician.GetFirstName]이라는 자가 있었는데, 그 자가 감명을 받아 내 궁정에 남아 내 [GetCourtPositionType('court_physician_court_position').GetName()]으로서 나를 섬기기를 원하더군." # 4671918248963263535
   sicily.0144.a: "좋군!" # 15223637005262650462
   sicily.0145.t: "xxxxx" # 1951045980481827005

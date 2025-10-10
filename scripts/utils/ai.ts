@@ -2,14 +2,13 @@ import { type GenerativeModel, GoogleGenerativeAI } from '@google/generative-ai'
 import dotenv from 'dotenv'
 import { type GameType, getSystemPrompt } from './prompts'
 import { addQueue } from './queue'
-import { log } from './logger'
 
 dotenv.config()
 
 const ai = new GoogleGenerativeAI(process.env.GOOGLE_AI_STUDIO_TOKEN!)
 
 const generationConfig = {
-  temperature: 1,
+  temperature: 0.5,
   topP: 0.95,
   topK: 40,
   maxOutputTokens: 8192,
@@ -27,7 +26,7 @@ export async function translateAI (text: string, gameType: GameType = 'ck3') {
       return translateAIByModel(resolve, gemini('gemini-flash-lite-latest', gameType), text)
     } catch (e) {
       try {
-        return translateAIByModel(resolve, gemini('gemini-1.5-flash-8b', gameType), text)
+        return translateAIByModel(resolve, gemini('gemini-flash-latest', gameType), text)
       } catch (ee) {
         reject(ee)
       }

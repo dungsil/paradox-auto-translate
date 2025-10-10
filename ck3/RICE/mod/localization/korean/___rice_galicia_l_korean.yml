@@ -117,7 +117,7 @@
   RICE_galicia_wrote_cantiga_music_3: "$RICE_galicia_wrote_cantiga_music_1$" # 14657519599250620585
   RICE_galicia_wrote_cantiga_music_3_desc: "$RICE_galicia_wrote_cantiga_music_1_desc$" # 17474320853693622548
   RICE_galicia_wrote_excellent_cantiga_music_1: "음악 주제의 훌륭한 칸티가" # 15874269768638593056
-  RICE_galicia_wrote_excellent_cantiga_music_1_desc: "이 인물은 최근 훌륭한 [칸티가 품질|E]의 [칸티가|E] 한 편을 썼습니다. 여기에는 아름다운 처녀들을 유혹하려는 음악가들, 다양한 유명 음악가들의 기량을 비교하는 것, 혹은 작곡 과정 등 음악과 그 공연에 관련된 주제가 포함됩니다.\n\n\n#EMP $RICE_galicia_promote_cantiga$를 위한 [decision|E]을 잠금 해제하고, 이 [인물 효과|E]를 추가적인 이점을 가진 영구적인 [artifact|E]로 바꿉니다#!" # 2396172638179026395
+  RICE_galicia_wrote_excellent_cantiga_music_1_desc: "이 인물은 최근 훌륭한 [cantiga_quality|E]의 [cantiga|E]를 작곡했는데, 여기에는 음악과 그 연주에 관한 주제들, 예를 들어 음악가들이 아름다운 아가씨들을 유혹하려 하거나, 여러 저명한 음악가들의 기량을 비교하거나, 혹은 음악을 작곡하는 과정 등이 담겨 있습니다.\n\n#EMP는 $RICE_galicia_promote_cantiga$ [decision|E]를 해금하여 이 [character_modifier|E]를 추가적인 이점을 지닌 영구적인 [artifact|E]로 만들 수 있습니다#!" # 2396172638179026395
   RICE_galicia_wrote_excellent_cantiga_music_2: "$RICE_galicia_wrote_excellent_cantiga_music_1$" # 8259775890060051365
   RICE_galicia_wrote_excellent_cantiga_music_2_desc: "$RICE_galicia_wrote_cantiga_music_1_desc$" # 17474320853693622548
   RICE_galicia_wrote_excellent_cantiga_music_3: "$RICE_galicia_wrote_excellent_cantiga_music_1$" # 8259775890060051365
@@ -177,7 +177,7 @@
   RICE_galicia_wrote_cantiga_war_3: "$RICE_galicia_wrote_cantiga_war_1$" # 1188613679724887347
   RICE_galicia_wrote_cantiga_war_3_desc: "$RICE_galicia_wrote_cantiga_war_1_desc$" # 15867314059031123249
   RICE_galicia_wrote_excellent_cantiga_war_1: "전쟁에 관한 훌륭한 칸티가를 지었다" # 1140708787227827292
-  RICE_galicia_wrote_excellent_cantiga_war_1_desc: "이 인물은 최근에 용감한 기사들 간의 전투, 사랑하는 여인과 떨어진 병사의 불안감, 혹은 행군 중인 군대의 일상 같은 주제를 포함하는 훌륭한 [칸티가_품질|E]의 [칸티가|E]를 작성했습니다.\n\n#EMP $RICE_galicia_promote_cantiga$ [decision|E]을 해금하여 이 [인물_특성|E]을 추가적인 이점을 지닌 영구적인 [artifact|E]로 변환할 수 있습니다#!" # 6383853955255658090
+  RICE_galicia_wrote_excellent_cantiga_war_1_desc: "이 인물은 최근 훌륭한 [cantiga_quality|E]의 [cantiga|E]를 작성했는데, 여기에는 용감한 기사들 간의 전투, 사랑하는 여인과 떨어진 병사의 불안감, 행군 중인 군대의 일상 등이 담겨 있습니다.\n\n#EMP는 $RICE_galicia_promote_cantiga$ [decision|E]를 잠금 해제하고 이 [character_modifier|E]를 추가적인 이점을 가진 영구적인 [artifact|E]로 만들 수 있습니다!" # 6383853955255658090
   RICE_galicia_wrote_excellent_cantiga_war_2: "$RICE_galicia_wrote_excellent_cantiga_war_1$" # 14923939419164842899
   RICE_galicia_wrote_excellent_cantiga_war_2_desc: "$RICE_galicia_wrote_excellent_cantiga_war_1_desc$" # 17448874721390001533
   RICE_galicia_wrote_excellent_cantiga_war_3: "$RICE_galicia_wrote_excellent_cantiga_war_1$" # 14923939419164842899
@@ -189,7 +189,7 @@
   RICE_galicia_wrote_cantiga_anger_3: "$RICE_galicia_wrote_cantiga_anger_1$" # 8261189504057811920
   RICE_galicia_wrote_cantiga_anger_3_desc: "$RICE_galicia_wrote_cantiga_anger_1_desc$" # 6273688498327508979
   RICE_galicia_wrote_excellent_cantiga_anger_1: "분노를 탐구하는 훌륭한 칸티가를 지었다" # 10068813707276424898
-  RICE_galicia_wrote_excellent_cantiga_anger_1_desc: "이 [character|E]가 최근에 훌륭한 [cantiga_quality|E]의 칸티가 한 편을 작성했습니다. 이 작품은 분노의 다양한 모습을 탐구하는데, 특히 사랑과 관련된 감정들을 다룹니다. 오랫동안 함께한 부부 싸움에서부터 거절당한 좌절감, 그리고 질투심에 동반될 수 있는 분노에 이르기까지 말입니다.\n\n#EMP [decision|E] $RICE_galicia_promote_cantiga$을(를) 잠금 해제하여, 이 [character_modifier|E]를 추가 혜택이 있는 영구적인 [artifact|E]로 바꿀 수 있습니다#!" # 7994121581987486447
+  RICE_galicia_wrote_excellent_cantiga_anger_1_desc: "이 인물은 최근 훌륭한 [cantiga_quality|E] 등급의 [cantiga|E]를 작곡했는데, 이는 사랑과 관련된 분노의 다양한 양상, 즉 오랜 관계의 다툼부터 거절로 인한 좌절, 질투가 동반하는 분노까지 탐구하고 있습니다.\n\n#EMP는 $RICE_galicia_promote_cantiga$ [decision|E]를 해금하여 이 [character_modifier|E]를 추가적인 이점을 가진 영구적인 [artifact|E]로 만들 수 있습니다#!" # 7994121581987486447
   RICE_galicia_wrote_excellent_cantiga_anger_2: "$RICE_galicia_wrote_excellent_cantiga_anger_1$" # 4909213114573151107
   RICE_galicia_wrote_excellent_cantiga_anger_2_desc: "$RICE_galicia_wrote_excellent_cantiga_anger_1_desc$" # 6463915478006873421
   RICE_galicia_wrote_excellent_cantiga_anger_3: "$RICE_galicia_wrote_excellent_cantiga_anger_1$" # 4909213114573151107
@@ -237,7 +237,7 @@
   RICE_galicia_wrote_cantiga_sea_3: "$RICE_galicia_wrote_cantiga_sea_1$" # 10714724950545336306
   RICE_galicia_wrote_cantiga_sea_3_desc: "$RICE_galicia_wrote_cantiga_sea_1_desc$" # 5916729559613154940
   RICE_galicia_wrote_excellent_cantiga_sea_1: "훌륭한 바다 칸티가를 썼습니다" # 3587665969849859676
-  RICE_galicia_wrote_excellent_cantiga_sea_1_desc: "이 인물은 최근 바다에서 연인이 돌아오기를 기다리는 여인, 어부와 선원의 삶, 혹은 사랑의 은유로서 바다 그 자체와 같은 주제를 담은 탁월한 [칸티가 품질|E]의 [칸티가|E]를 작성했습니다.\n\n#EMP [decision|E]을 해제하여 $RICE_galicia_promote_cantiga$를 통해 이 [인물 효과|E]를 추가적인 이점과 함께 영구적인 [artifact|E]로 바꿀 수 있습니다!" # 17414575754565672820
+  RICE_galicia_wrote_excellent_cantiga_sea_1_desc: "이 인물은 최근에 훌륭한 [cantiga_quality|E] 수준의 [cantiga|E]를 작곡했습니다. 여기에는 사랑하는 연인이 바다에서 돌아오기를 기다리는 여인, 어부들과 선원들의 삶, 혹은 사랑의 은유로서의 바다와 같은 주제가 담겨 있습니다.\n\n#EMP는 $RICE_galicia_promote_cantiga$ [decision|E]를 해금하여 이 [character_modifier|E]를 영구적인 [artifact|E]로 만들고 추가적인 이점을 제공합니다#!" # 17414575754565672820
   RICE_galicia_wrote_excellent_cantiga_sea_2: "$RICE_galicia_wrote_excellent_cantiga_sea_1$" # 3111956627300096239
   RICE_galicia_wrote_excellent_cantiga_sea_2_desc: "$RICE_galicia_wrote_excellent_cantiga_sea_1_desc$" # 13707080612502705753
   RICE_galicia_wrote_excellent_cantiga_sea_3: "$RICE_galicia_wrote_excellent_cantiga_sea_1$" # 3111956627300096239
@@ -273,7 +273,7 @@
   RICE_galicia_wrote_cantiga_springs_3: "$RICE_galicia_wrote_cantiga_springs_1$" # 9414917830840407865
   RICE_galicia_wrote_cantiga_springs_3_desc: "$RICE_galicia_wrote_cantiga_springs_1_desc$" # 1806942429131752749
   RICE_galicia_wrote_excellent_cantiga_springs_1: "훌륭한 자연 샘에 관한 칸티가를 작곡했습니다." # 15056428231169187709
-  RICE_galicia_wrote_excellent_cantiga_springs_1_desc: "이 인물이 최근에 훌륭한 [cantiga_quality|E]의 [cantiga|E]를 지어 자연의 아름다움, 특히 샘물의 아름다움을 탐구했습니다. 자연이 풍부한 이 평화로운 곳에는 어떤 종류의 식물이나 동물이 서식하는지, 또는 사람들이 어떤 활동을 하는지, 예를 들어 여러 가지 방식으로 옷을 벗고 휴식을 취하는지에 대한 탐구입니다.\n\n#EMP는 $RICE_galicia_promote_cantiga$ 결정을 해제하고 이 [character_modifier|E]를 추가적인 혜택을 지닌 영구적인 [artifact|E]로 만들 수 있는 권한을 획득합니다!" # 3509392135429810455
+  RICE_galicia_wrote_excellent_cantiga_springs_1_desc: "이 인물이 최근 훌륭한 [cantiga_quality|E]의 [cantiga|E]를 작곡하여 자연의 아름다움을 노래했습니다. 특히나 샘물이 솟아나는 고요한 장소에 어떠한 식물이나 동물이 가득한지, 혹은 사람들이 옷을 벗고 한 가지 이상의 방식으로 휴식을 취하는 등의 활동에 대해 말이죠.\n\n#EMP 은(는) [decision|E]인 $RICE_galicia_promote_cantiga$를 해금하여 이 [character_modifier|E]를 추가적인 이점을 가진 영구적인 [artifact|E]로 만들 수 있습니다!#" # 3509392135429810455
   RICE_galicia_wrote_excellent_cantiga_springs_2: "$RICE_galicia_wrote_excellent_cantiga_springs_1$" # 6428140148816820356
   RICE_galicia_wrote_excellent_cantiga_springs_2_desc: "$RICE_galicia_wrote_excellent_cantiga_springs_1_desc$" # 5398284308720843772
   RICE_galicia_wrote_excellent_cantiga_springs_3: "$RICE_galicia_wrote_excellent_cantiga_springs_1$" # 6428140148816820356
@@ -303,25 +303,25 @@
   RICE_galicia_wrote_excellent_cantiga_erotic_3: "$RICE_galicia_wrote_excellent_cantiga_erotic_1$" # 13598572300561870252
   RICE_galicia_wrote_excellent_cantiga_erotic_3_desc: "$RICE_galicia_wrote_excellent_cantiga_erotic_1_desc$" # 12857147426288308197
   RICE_galicia_wrote_cantiga_cheating_1: "불륜에 관한 간디가를 썼습니다." # 7614994897646733435
-  RICE_galicia_wrote_cantiga_cheating_1_desc: "이 인물은 최근 모든 형태의 불충성을 다룬, 애인과 다른 사람과의 만남부터 연인이나 군주에게 한 약속을 어기는 내용까지, 서사적인 요소를 통합한 훌륭한 [cantiga|E]를 작곡했습니다." # 11487279194541791568
+  RICE_galicia_wrote_cantiga_cheating_1_desc: "이 인물은 최근 [cantiga_quality|E]가 좋은 [cantiga|E]를 써서, 사랑하는 이를 다른 이와 함께 있는 것을 목격하는 것부터 연인이나 영주에게 한 약속을 어기는 것까지, 모든 형태의 부정(不貞)과 관련된 서사적 요소를 통합했습니다." # 11487279194541791568
   RICE_galicia_wrote_cantiga_cheating_2: "$RICE_galicia_wrote_cantiga_cheating_1$" # 10062351134430315246
   RICE_galicia_wrote_cantiga_cheating_2_desc: "$RICE_galicia_wrote_cantiga_cheating_1_desc$" # 11949128737348267058
   RICE_galicia_wrote_cantiga_cheating_3: "$RICE_galicia_wrote_cantiga_cheating_1$" # 10062351134430315246
   RICE_galicia_wrote_cantiga_cheating_3_desc: "$RICE_galicia_wrote_cantiga_cheating_1_desc$" # 11949128737348267058
   RICE_galicia_wrote_excellent_cantiga_cheating_1: "훌륭한 불륜에 관한 칸티가를 지었군!" # 338519343622172713
-  RICE_galicia_wrote_excellent_cantiga_cheating_1_desc: "이 인물은 최근 매우 훌륭한 [cantiga|E]를 지어냈습니다.  [cantiga_quality|E]는 여러 형태의 불륜, 즉 연인을 다른 사람과 함께 발견하는 것부터 연인이나 군주에 대한 약속을 어기는 것까지, 모든 측면의 이야기를 담고 있습니다.\n\n#EMP는 이 [decision|E]를 열어 $RICE_galicia_promote_cantiga$를 통해 이 [캐릭터_수정자|E]를 영구적인 [artifact|E]로 만들고 추가적인 혜택을 부여할 수 있습니다#!" # 112125733825004212
+  RICE_galicia_wrote_excellent_cantiga_cheating_1_desc: "이 인물은 최근에 훌륭한 [cantiga_quality|E] 등급의 [cantiga|E]를 작곡했는데, 이는 사랑하는 이를 다른 이와 함께 덮치는 것부터 연인이나 영주에게 한 맹세를 저버리는 것까지 모든 형태의 간통과 관련된 서사적 요소를 통합하고 있습니다.\n\n#EMP 이 [decision|E]를 활성화하여 $RICE_galicia_promote_cantiga$를 실행하고 이 [character_modifier|E]를 추가적인 이점이 있는 영구적인 [artifact|E]로 만들 수 있습니다#!" # 112125733825004212
   RICE_galicia_wrote_excellent_cantiga_cheating_2: "$RICE_galicia_wrote_excellent_cantiga_cheating_1$" # 10566466452421088431
   RICE_galicia_wrote_excellent_cantiga_cheating_2_desc: "$RICE_galicia_wrote_excellent_cantiga_cheating_1_desc$" # 10584514714348869129
   RICE_galicia_wrote_excellent_cantiga_cheating_3: "$RICE_galicia_wrote_excellent_cantiga_cheating_1$" # 10566466452421088431
   RICE_galicia_wrote_excellent_cantiga_cheating_3_desc: "$RICE_galicia_wrote_excellent_cantiga_cheating_1_desc$" # 10584514714348869129
   RICE_galicia_wrote_cantiga_rendezvous_1: "비밀 약속에 관한 간티가를 작곡했습니다." # 3460312060003578493
-  RICE_galicia_wrote_cantiga_rendezvous_1_desc: "이 인물은 최근 두 연인이 은밀히 만날 시간과 장소를 찾아 서로의 곁을 지키고, 아마도 사랑을 완성하려는 이야기를 담은 훌륭한 [cantiga|E]를 지었나 봅니다." # 2359631830249448576
+  RICE_galicia_wrote_cantiga_rendezvous_1_desc: "이 인물은 최근에 두 연인이 은밀히 만나 함께 시간을 보내고... 어쩌면 사랑을 나누기까지 하려는 서사적 요소를 통합한, 훌륭한 [cantiga_quality|E] 등급의 [cantiga|E]를 작곡했습니다!" # 2359631830249448576
   RICE_galicia_wrote_cantiga_rendezvous_2: "$RICE_galicia_wrote_cantiga_rendezvous_1$" # 3378500432401656650
   RICE_galicia_wrote_cantiga_rendezvous_2_desc: "$RICE_galicia_wrote_cantiga_rendezvous_1_desc$" # 16356493866455218137
   RICE_galicia_wrote_cantiga_rendezvous_3: "$RICE_galicia_wrote_cantiga_rendezvous_1$" # 3378500432401656650
   RICE_galicia_wrote_cantiga_rendezvous_3_desc: "$RICE_galicia_wrote_cantiga_rendezvous_1_desc$" # 16356493866455218137
   RICE_galicia_wrote_excellent_cantiga_rendezvous_1: "훌륭한 비밀 만남에 관한 칸티가를 지었네요." # 17830736516445556984
-  RICE_galicia_wrote_excellent_cantiga_rendezvous_1_desc: "이 인물은 최근 두 연인이 은밀히 만날 시간과 장소를 찾아 서로의 벗을 즐기고, 아마도 사랑을 이루고자 하는 이야기를 담은 훌륭한 [cantiga_quality|E]의 [cantiga|E]를 지었소.\n\n#EMP는 $RICE_galicia_promote_cantiga$ 결정을 해제하고, 이 [character_modifier|E]를 추가적인 혜택과 함께 영구적인 [artifact|E]로 만들 수 있게 합니다#!" # 16537371242597061372
+  RICE_galicia_wrote_excellent_cantiga_rendezvous_1_desc: "이 인물이 최근 훌륭한 [cantiga_quality|E]의 [cantiga|E]를 작곡했는데, 여기에는 두 연인이 은밀히 만나 서로의 시간을 즐기고... 어쩌면 사랑을 완성하려는 서사적 요소가 담겨 있소!\n\n#EMP $RICE_galicia_promote_cantiga$ [decision|E]가 해금되어 이 [character_modifier|E]를 추가적인 이점을 가진 영구적인 [artifact|E]로 만들 수 있소#!" # 16537371242597061372
   RICE_galicia_wrote_excellent_cantiga_rendezvous_2: "$RICE_galicia_wrote_excellent_cantiga_rendezvous_1$" # 13940647349395890778
   RICE_galicia_wrote_excellent_cantiga_rendezvous_2_desc: "$RICE_galicia_wrote_excellent_cantiga_rendezvous_1_desc$" # 17252279867240437256
   RICE_galicia_wrote_excellent_cantiga_rendezvous_3: "$RICE_galicia_wrote_excellent_cantiga_rendezvous_1$" # 13940647349395890778
@@ -339,7 +339,7 @@
   RICE_galicia_wrote_excellent_cantiga_jealousy_3: "$RICE_galicia_wrote_excellent_cantiga_jealousy_1$" # 809997927263572152
   RICE_galicia_wrote_excellent_cantiga_jealousy_3_desc: "$RICE_galicia_wrote_excellent_cantiga_jealousy_1_desc$" # 9998393470410132154
   RICE_galicia_wrote_cantiga_court_politics_1: "궁중 정치로 칸티가를 지었습니다." # 10737679787581754757
-  RICE_galicia_wrote_cantiga_court_politics_1_desc: "이 인물은 최근 궁중 정치와 관련된 이야기 요소를 녹여낸 훌륭한 [cantiga|E]를 지었는데, 이야기 배경은 음모로 가득한 왕궁이거나 궁중 예절 문제가 줄거리에 어떻게든 엮여있을지도 모릅니다." # 13456995244621810925
+  RICE_galicia_wrote_cantiga_court_politics_1_desc: "이 인물은 최근 궁정 정치와 관련된 서사적 요소를 통합한 훌륭한 [cantiga_quality|E]의 [cantiga|E]를 썼는데, 아마도 이야기의 배경은 음모로 가득한 왕궁이거나, 혹은 궁정 예법의 문제가 줄거리에 어떤 식으로든 엮여 있을 것입니다." # 13456995244621810925
   RICE_galicia_wrote_cantiga_court_politics_2: "$RICE_galicia_wrote_cantiga_court_politics_1$" # 11596242446646675892
   RICE_galicia_wrote_cantiga_court_politics_2_desc: "$RICE_galicia_wrote_cantiga_court_politics_1_desc$" # 14095271233844018181
   RICE_galicia_wrote_cantiga_court_politics_3: "$RICE_galicia_wrote_cantiga_court_politics_1$" # 11596242446646675892
@@ -351,7 +351,7 @@
   RICE_galicia_wrote_excellent_cantiga_court_politics_3: "$RICE_galicia_wrote_excellent_cantiga_court_politics_1$" # 4237878029458864875
   RICE_galicia_wrote_excellent_cantiga_court_politics_3_desc: "$RICE_galicia_wrote_excellent_cantiga_court_politics_1_desc$" # 8021478225611947746
   RICE_galicia_wrote_cantiga_pilgrimage_1: "순례에 관한 칸티가를 썼습니다." # 11652663394188416333
-  RICE_galicia_wrote_cantiga_pilgrimage_1_desc: "이 인물은 최근 순례에 관한 주제, 즉 구원을 찾아 먼 곳을 여행하는 고난이나, 이러한 순례가 외국 땅에서 새로운 연인을 만나 유혹하는 구실이 될 수 있다는 등의 내용을 담은 훌륭한 [cantiga|E]를 작곡했습니다." # 15187855215095344000
+  RICE_galicia_wrote_cantiga_pilgrimage_1_desc: "이 인물은 최근 좋은 [cantiga_quality|E]의 [cantiga|E]를 작성했는데, 여기에는 구원을 찾기 위해 먼 길을 떠나는 고난과 같은 순례 관련 주제, 혹은 이러한 순례가 이국땅에서 새로운 연인을 만나 유혹하는 구실이 될 수 있다는 내용이 담겨 있습니다." # 15187855215095344000
   RICE_galicia_wrote_cantiga_pilgrimage_2: "$RICE_galicia_wrote_cantiga_pilgrimage_1$" # 11428146502958548225
   RICE_galicia_wrote_cantiga_pilgrimage_2_desc: "$RICE_galicia_wrote_cantiga_pilgrimage_1_desc$" # 7065096432662260637
   RICE_galicia_wrote_cantiga_pilgrimage_3: "$RICE_galicia_wrote_cantiga_pilgrimage_1$" # 11428146502958548225
@@ -363,7 +363,7 @@
   RICE_galicia_wrote_excellent_cantiga_pilgrimage_3: "$RICE_galicia_wrote_excellent_cantiga_pilgrimage_1$" # 7185735043088235408
   RICE_galicia_wrote_excellent_cantiga_pilgrimage_3_desc: "$RICE_galicia_wrote_excellent_cantiga_pilgrimage_1_desc$" # 4626547288901941260
   RICE_galicia_wrote_cantiga_piety_1: "기도의 길을 탐구하는 칸티가를 썼습니다." # 15986580458300238194
-  RICE_galicia_wrote_cantiga_piety_1_desc: "이 인물은 최근 종교와 관련된 주제, 예컨대 궁중적 사랑의 종교적 본질, 또는 예배당에서 장면이 펼쳐지는 것, 또는 산티아고 같은 다양한 종교적 사상이나 인물에 대한 언급을 포함하는 훌륭한 [cantiga|E]를 저술했습니다." # 3717542623369815848
+  RICE_galicia_wrote_cantiga_piety_1_desc: "이 인물은 최근 궁정 연애의 종교적 성격, 예배 시설에서 벌어지는 장면, 산티아고와 같은 다양한 종교적 개념이나 인물에 대한 언급 등 종교 관련 주제를 포함하는 훌륭한 [cantiga_quality|E]의 [cantiga|E]를 집필했습니다." # 3717542623369815848
   RICE_galicia_wrote_cantiga_piety_2: "$RICE_galicia_wrote_cantiga_piety_1$" # 13168680668115133881
   RICE_galicia_wrote_cantiga_piety_2_desc: "$RICE_galicia_wrote_cantiga_piety_1_desc$" # 17386486204803570832
   RICE_galicia_wrote_cantiga_piety_3: "$RICE_galicia_wrote_cantiga_piety_1$" # 13168680668115133881
@@ -375,7 +375,7 @@
   RICE_galicia_wrote_excellent_cantiga_piety_3: "$RICE_galicia_wrote_excellent_cantiga_piety_1$" # 9714542650922894358
   RICE_galicia_wrote_excellent_cantiga_piety_3_desc: "$RICE_galicia_wrote_excellent_cantiga_piety_1_desc$" # 15659605712204704414
   RICE_galicia_wrote_cantiga_loneliness_1: "쓸쓸함을 탐구하는 간티가를 썼습니다." # 581505897195137005
-  RICE_galicia_wrote_cantiga_loneliness_1_desc: "이 인물은 최근 애인이나 잠재적 연인과의 이별로 느끼는 외로움, 또는 삶의 신비를 곱씹으며 홀로 있을 때 느끼는 감정을 탐구하는 훌륭한 [cantiga|E]를 지었답니다." # 4312171118130886877
+  RICE_galicia_wrote_cantiga_loneliness_1_desc: "이 인물은 최근 연인 혹은 잠재적 연인과의 이별에서 오는 고독감이나, 혹은 홀로 삶의 신비에 대해 숙고할 때 느끼는 감정 등과 같은 정서를 탐구하는, 훌륭한 [cantiga_quality|E]의 [cantiga|E]를 작성했습니다." # 4312171118130886877
   RICE_galicia_wrote_cantiga_loneliness_2: "$RICE_galicia_wrote_cantiga_loneliness_1$" # 10345897807339298133
   RICE_galicia_wrote_cantiga_loneliness_2_desc: "$RICE_galicia_wrote_cantiga_loneliness_1_desc$" # 8354543626622131403
   RICE_galicia_wrote_cantiga_loneliness_3: "$RICE_galicia_wrote_cantiga_loneliness_1$" # 10345897807339298133
@@ -387,13 +387,13 @@
   RICE_galicia_wrote_excellent_cantiga_loneliness_3: "$RICE_galicia_wrote_excellent_cantiga_loneliness_1$" # 8497525669377679354
   RICE_galicia_wrote_excellent_cantiga_loneliness_3_desc: "$RICE_galicia_wrote_excellent_cantiga_loneliness_1_desc$" # 5603833620281394706
   RICE_galicia_wrote_cantiga_travel_1: "여행에 관한 칸티가를 썼습니다." # 8878270226080325922
-  RICE_galicia_wrote_cantiga_travel_1_desc: "이 인물은 최근 여행, 전쟁, 사랑하는 이의 집으로 향하는 여정, 혹은 험난한 여정의 고충, 또는 이국적인 땅의 풍경을 노래하는 내용을 담은 훌륭한 [cantiga|E]를 지었습니다." # 7087863471092998613
+  RICE_galicia_wrote_cantiga_travel_1_desc: "이 인물은 최근 여행 관련 주제를 담은 [cantiga_quality|E]가 좋은 [cantiga|E]를 썼습니다. 따라서 화자는 예를 들어 전쟁터로 향하는 여정에 오르거나, 연인의 집으로 향하거나, 여행의 고난을 논하거나, 청중들에게 이국적인 땅을 묘사하며 즐거움을 줄 수도 있습니다." # 7087863471092998613
   RICE_galicia_wrote_cantiga_travel_2: "$RICE_galicia_wrote_cantiga_travel_1$" # 9960042433905773123
   RICE_galicia_wrote_cantiga_travel_2_desc: "$RICE_galicia_wrote_cantiga_travel_1_desc$" # 5598637259179921047
   RICE_galicia_wrote_cantiga_travel_3: "$RICE_galicia_wrote_cantiga_travel_1$" # 9960042433905773123
   RICE_galicia_wrote_cantiga_travel_3_desc: "$RICE_galicia_wrote_cantiga_travel_1_desc$" # 5598637259179921047
   RICE_galicia_wrote_excellent_cantiga_travel_1: "훌륭한 여행 칸티가를 지었군!" # 12072117404196191962
-  RICE_galicia_wrote_excellent_cantiga_travel_1_desc: "이 인물이 최근 여행과 관련된 주제를 다룬 훌륭한 [cantiga|E]를 지어냈습니다. 예를 들어, 전쟁터나 사랑하는 이의 집으로 향하는 여정, 혹은 고된 여정의 험난함, 또는 이국적인 땅의 풍경을 묘사하며 청중을 매료할 수 있습니다.\n\n#EMP는 $RICE_galicia_promote_cantiga$를 위한 [decision|E]를 해제하고 이 [character_modifier|E]를 추가적인 혜택을 지닌 영구적인 [artifact|E]로 바꿀 수 있습니다#!" # 9307260836597639032
+  RICE_galicia_wrote_excellent_cantiga_travel_1_desc: "이 인물은 최근 여행 관련 주제를 담은 훌륭한 [cantiga_quality|E]의 [cantiga|E]를 작성했습니다. 예를 들어, 서술자는 전쟁을 위한 여정에 오르거나 연인의 집으로 향하는 길을 노래하거나, 여행의 고단한 본질에 대해 논하거나, 이국적인 땅에 대한 묘사로 청중을 즐겁게 할 수 있습니다.\n\n#EMP $RICE_galicia_promote_cantiga$ [decision|E]을(를) 잠금 해제하여 이 [character_modifier|E]를 추가적인 혜택을 지닌 영구적인 [artifact|E]로 변환할 수 있습니다#!" # 9307260836597639032
   RICE_galicia_wrote_excellent_cantiga_travel_2: "$RICE_galicia_wrote_excellent_cantiga_travel_1$" # 17566467059803564284
   RICE_galicia_wrote_excellent_cantiga_travel_2_desc: "$RICE_galicia_wrote_excellent_cantiga_travel_1_desc$" # 9469528948592345834
   RICE_galicia_wrote_excellent_cantiga_travel_3: "$RICE_galicia_wrote_excellent_cantiga_travel_1$" # 17566467059803564284
@@ -417,7 +417,7 @@
   RICE_galicia_wrote_cantiga_XTEMPLATEX_3: "$RICE_galicia_wrote_cantiga_XTEMPLATEX_1$" # 13727454891754879409
   RICE_galicia_wrote_cantiga_XTEMPLATEX_3_desc: "$RICE_galicia_wrote_cantiga_XTEMPLATEX_1_desc$" # 1545899261378719042
   RICE_galicia_wrote_excellent_cantiga_XTEMPLATEX_1: "훌륭한 칸티가 xxxxx를 작곡했습니다." # 6494249887948041024
-  RICE_galicia_wrote_excellent_cantiga_XTEMPLATEX_1_desc: "이 인물이 최근 훌륭한 [cantiga_quality|E]의 [cantiga|E]를 지었는데, xxxxx\n\n#EMP는 $RICE_galicia_promote_cantiga$를 위한 결정을 해제하고, 이 [character_modifier|E]를 영구적인 [artifact|E]로 만들어 추가적인 혜택을 부여합니다#!" # 8914458760543253865
+  RICE_galicia_wrote_excellent_cantiga_XTEMPLATEX_1_desc: "이 인물은 최근 xxxxx한 훌륭한 [cantiga_quality|E]의 [cantiga|E]를 작성했습니다.\n\n#EMP $RICE_galicia_promote_cantiga$ [decision|E]을(를) 잠금 해제하고 이 [character_modifier|E]를 추가 혜택이 있는 영구적인 [artifact|E](으)로 전환합니다#!" # 8914458760543253865
   RICE_galicia_wrote_excellent_cantiga_XTEMPLATEX_2: "$RICE_galicia_wrote_excellent_cantiga_XTEMPLATEX_1$" # 4995324349962356125
   RICE_galicia_wrote_excellent_cantiga_XTEMPLATEX_2_desc: "$RICE_galicia_wrote_excellent_cantiga_XTEMPLATEX_1_desc$" # 1537174434143774251
   RICE_galicia_wrote_excellent_cantiga_XTEMPLATEX_3: "$RICE_galicia_wrote_excellent_cantiga_XTEMPLATEX_1$" # 4995324349962356125
@@ -432,7 +432,7 @@
   RICE_galicia_cantigas_de_santa_maria_version_2_desc: "이베리아 로망스어의 갈리시아-포르투갈어 변종으로 작성된 가사 시집입니다. 음악 형식은 #italic 칸티가# 형식이며, 각 노래는 어떤 방식으로든 성모 마리아와 관련이 있습니다. 이 엮임 작업은 [alfonso_x.GetFullName]의 지휘 아래 진행되었으며, [alfonso_x.GetHerHis] 영역 전역의 시인들과 학자들을 모아 이 위대한 프로젝트에 참여시켰습니다.\n\n초기 엮임 작업 이후, [alfonso_x.GetFirstName]은 이 세 번째 책자의 편찬을 후원하여, 추가적인 노래들이 작사, 편찬되어 #italic 성모 마리아의 칸티가#에 추가되었습니다." # 8756353666043791837
   RICE_galicia_cantigas_de_santa_maria_version_3_name: "산타 마리아 칸티가스 (제4집)" # 584039956266375688
   RICE_galicia_cantigas_de_santa_maria_version_3_desc: "이베리아 로망스어의 갈리시아-포르투갈어 변종으로 엮은 서정시 모음집입니다. 음악 형식은 #italic cantiga#!이며, 각 노래는 어떤 식으로든 성모 마리아와 관련이 있습니다. 이 편찬 작업은 [alfonso_x.GetFullName]의 지휘 아래 진행되었으며, [alfonso_x.GetHerHis] 영토 전역의 시인과 학자들이 이 위대한 프로젝트에 참여했습니다.\n\n초기 편찬 작업 이후, [alfonso_x.GetFirstName]은 이 네 번째 사본의 편찬을 후원하여 #italic Cantigas de Santa Maria#!에 추가적인 노래들을 작곡, 편집하고 추가했습니다." # 15912514230928944808
-  RICE_galicia_artifact_cantiga_courtly_love_desc: "#italic 칸티가 드 아모르# 장르의 [칸티가_작곡가.GetFullName]가 작곡한 아름다운 [칸티가|E] 필사본입니다. 이 장르는 궁정적 사랑의 경이로움, 기쁨, 슬픔에 초점을 맞추고 있습니다.\n\n[RICE_칸티가.GetDesc]" # 17298819284547419013
+  RICE_galicia_artifact_cantiga_courtly_love_desc: "#italic 칸티가 드 아모르#! 장르에 속하는, [cantiga_composer.GetFullName]가 작곡한 아름다운 [cantiga|E] 사본입니다. 이 장르는 궁정 연애의 경이로움, 기쁨, 그리고 슬픔을 다룹니다.\n\n[RICE_cantiga.GetDesc]" # 17298819284547419013
   RICE_galicia_artifact_cantiga_romantic_love_desc: "#italic 친구의 노래# 장르의 [cantiga_composer.GetFullName]가 작곡한 아름다운 [cantiga|E] 필사본입니다. 이 장르는 여성의 시각으로 전달되는 낭만적인 사랑에 대한 주제를 다룹니다.\n\n[RICE_cantiga.GetDesc]" # 2701186008382994213
   RICE_galicia_artifact_cantiga_satire_desc: "#italic 간티가 데 에스카르니오 에 말디제르# 장르의 시인 [cantiga_composer.GetFullName]가 지은 아름다운 [cantiga|E] 필사본입니다. 이 풍자적인 노래 장르는 시인에게 사회 계층, 사람들의 위선, 또는 나쁜 시인들과 같이 그들이 동의하지 않는 다른 사회적 측면이나 개인들을 비판할 기회를 제공합니다.\n\n[RICE_cantiga.GetDesc]" # 2223821999145642748
   RICE_galicia_artifact_cantiga_music_name: "[cantiga_composer.GetFirstNamePossessiveNoTooltip] 음악에 관한 칸티가" # 2609196966567660874
@@ -494,13 +494,13 @@
   RICE_galicia_cantiga_pick_a_genre_type: "가제를 선택하세요." # 3870506330752068402
   RICE_galicia_cantiga_pick_a_genre_type_gui: "[cantiga|E]의 어떤 장르를 작곡하시겠습니까?" # 13171393731818406667
   RICE_galicia_cantiga_decision_confirm: "시작해보지!" # 13974564581539529125
-  RICE_galicia_cantiga_decision_context_tooltip: "#bold 역사적 배경:#! 중세 후기, 이베리아 반도의 기독교 귀족들 사이에서 #이탤릭 갈리시아-포르투갈 서정시#! 라는 형식의 서정시가 유행했습니다.(시들이 주로 갈리시아-포르투갈어로 쓰였기 때문입니다).  처음에는 오크시타니아의 유명한 트루바두르 전통의 영향을 받았지만, 이 스타일은 고유한 특징을 지니고 있었습니다. 칸티가는 이러한 종류의 시의 주요한 대표적인 장르였습니다." # 16973564862670718200
+  RICE_galicia_cantiga_decision_context_tooltip: "#emphasis 역사적 배경:# 중세 성기에는, #italic 갈리시아-포르투갈 서정시#! (시들이 주로 갈리시아-포르투갈어로 쓰였기 때문에)라고 불리는 서정시의 한 형태가 기독교 이베리아의 귀족들 사이에서 인기가 있었습니다. 비록 초기에 옥시타니아의 유명한 트루바두르 전통에 영향을 받았지만, 이 양식은 고유의 특징을 지니고 있었습니다. 칸티가스는 이러한 종류의 시를 대표하는 주요 장르였습니다." # 16973564862670718200
   RICE_cantiga_courtly_love_option: "#Bold 칸티가 데 아모르#!\n#weak 귀족적인, 궁정적인 사랑에 대한 노래#!" # 14459872575667908506
   RICE_cantiga_courtly_love_option_desc: "가장 고귀한 사랑" # 7163217387753377405
   RICE_cantiga_courtly_love_option_tooltip: "궁중의 사랑을 노래하는 노래입니다.  이 장르에서 높은 [cantiga_quality|E]의 [cantigas|E]는 다른 장르보다 더 많은 [piety|E]를 얻을 수 있습니다." # 17937932078226416388
   RICE_cantiga_romantic_love_option: "#Bold 친구의 노래#!\n#weak 열정적인 사랑에 대한 노래#!" # 291565124432236823
   RICE_cantiga_romantic_love_option_desc: "열정적인 사랑, 억눌리지 않는" # 10051384383647533678
-  RICE_cantiga_romantic_love_option_tooltip: "여성의 시선으로 이야기하는, 낭만적이고 심지어 에로틱한 사랑을 다룬 노래입니다.  이 장르의 더 높은 수준의 [cantigas|E]는 다른 장르보다 더 많은 [prestige|E]를 가져다줍니다." # 18242271045924979938
+  RICE_cantiga_romantic_love_option_tooltip: "여성의 시점에서 이야기되는, 낭만적이며 심지어 관능적인 사랑의 주제에 초점을 맞춘 노래입니다. 이 장르에서 더 높은 [cantiga_quality|E]의 [cantigas|E]는 다른 장르보다 더 많은 [prestige|E]를 얻게 해줄 것입니다." # 18242271045924979938
   RICE_cantiga_satire_option: "#Bold 희롱과 저주가 담긴 노래#!\n#weak 풍자와 중상모략에 관한 노래#!" # 11817971627036712291
   RICE_cantiga_satire_option_desc: "신랄하고 비꼬는 이야기" # 10553810254047209780
   RICE_cantiga_satire_option_tooltip: "풍자를 주제로 한 노래, 타인을 비웃거나 교육하거나 도덕적으로 훈계하는 주제의 노래입니다.  이 장르의 [cantigas|E] 중  [cantiga_quality|E]가 높을수록 다른 장르에 비해 비슷한 양의 [piety|E]와 [prestige|E]를 얻을 수 있습니다." # 11221329873057218023
@@ -508,7 +508,7 @@
   RICE_galicia_saint_james_routes_decision_tooltip: "성 야고보의 길이 저의 영토를 지나갑니다... 그 길을 개선하기 위해 무엇을 할 수 있을까요?" # 7211461060750968927
   RICE_galicia_saint_james_routes_decision_desc: "성 야고보의 길이 [ROOT.Char.GetFaith.GetReligion.GetAdjective] 성지인 산티아고로 향하는 길이 제 영토를 통과합니다. 이러한 교역망은 항상 인프라 개선이 필요합니다. 예를 들어, 순례자들이 효율적으로 여행할 수 있도록 도로를 수리하거나, 그들에게 숙소를 제공할 수 있는 여관을 지을 수 있습니다." # 18369413320601544734
   RICE_galicia_saint_james_routes_decision_nonchristian_desc: "성 야고보의 길은 그리스도를 따르는 순례자들, 나의 영토에 사는 이들도 포함하여, 수많은 이들이 찾는 순례 루트입니다.  나는 그들의 신앙과는 다르지만, 이러한 네트워크에 대한 기반 시설 개선을 하고 싶습니다.  예를 들어, 순례자들이 효율적으로 여행할 수 있도록 도로를 보수하거나, 그들에게 숙소를 제공할 수 있는 여관을 건설할 수 있습니다." # 4810378716823615767
-  RICE_galicia_saint_james_routes_decision_effect_tooltip_1: "얻는 [경건도|E]와 이 [decision|E]의 비용은 [지리적 지역('세계 유럽 서부 이베리아').이름]과 [지리적 지역('사용자 지정 오키타니아').이름]에 소유한 [주|E]의 수와 그들의 [통제|E] 수준에 따라 달라집니다." # 2680263788215862863
+  RICE_galicia_saint_james_routes_decision_effect_tooltip_1: "귀하가 얻는 [piety|E]와 이 [decision|E]에 필요한 비용은 [GetGeographicalRegion('world_europe_west_iberia').GetName] 및 [GetGeographicalRegion('custom_occitan').GetName]에서 소유한 [counties|E]의 수와 해당 [counties|E]의 [control|E] 수준에 따라 달라집니다." # 2680263788215862863
   RICE_galicia_saint_james_routes_decision_effect_tooltip_2: "[prestige|E]의 획득량과 이 [decision|E]의 비용은 [GetGeographicalRegion('world_europe_west_iberia').GetName]과 [GetGeographicalRegion('custom_occitan').GetName]에 소유한 [counties|E]의 수와 그들의 [control|E] 수준에 따라 달라집니다." # 12592548321585232625
   RICE_galicia_saint_james_routes_decision_confirm: "순례자들을 위해 무엇을 할 수 있을지 살펴보죠." # 16755361025251667878
   RICE_galicia_saint_james_routes_decision_context_tooltip: "#bold 역사적 배경:#! 산티아고 데 콤포스텔라가 중세 서유럽 순례지 중 예루살렘과 로마에 이어 중요성이 뒤이어 컸습니다. 여행은 질병, 강도, 심지어 죽음과 같은 순례자들에게 끊임없는 위협이었기에, 산티아고로 향하는 여러 길, 성 야고보의 길로 알려진, 이러한 길들은 이베리아 반도를 횡단하는 순례자들에게 필요한 안전과 편안함을 제공하기 위해 도로, 여관 등의 네트워크를 통해 지원되었습니다." # 17312984245204405437
@@ -516,10 +516,10 @@
   RICE_galicia_saint_james_routes_decision_non_christian_tt: "[GetGeographicalRegion('world_europe_west_iberia').GetName] 및 [GetGeographicalRegion('custom_occitan').GetName] 지역에 소유한 그리스도교 [counties|E]" # 385840461758238630
   RICE_galicia_saint_james_routes_decision_counties.close: "산티아고 데 콤포스텔라에 가깝거나 포함된 지역들" # 624722931881664448
   RICE_galicia_saint_james_routes_decision_counties.close.tooltip: "#V 10#년 동안 [GetModifier('RICE_galicia_saint_james_infrastructure_close').GetNameWithTooltip]을 얻으십시오." # 6159881690412532986
-  RICE_galicia_saint_james_routes_decision_counties.midrange.high: "산티아고에서 적당한 거리에 있으며 [통치력|E]이 높습니다." # 9305799223587867959
-  RICE_galicia_saint_james_routes_decision_counties.midrange.high.tooltip: "#V 10#년 동안 #bold RICE_갈리시아_성야고보_기반시설_중거리_고급#을 얻습니다." # 3792052504113287091
-  RICE_galicia_saint_james_routes_decision_counties.midrange.low: "산티아고에서 중간 거리에 있으며, 지배력이 낮은 지역들입니다." # 4494748274426200781
-  RICE_galicia_saint_james_routes_decision_counties.midrange.low.tooltip: "#V 10#년 동안 #bold RICE 갈리시아 성 야고보 인프라 원격 고급#을 얻습니다." # 7835749051071597628
+  RICE_galicia_saint_james_routes_decision_counties.midrange.high: "산티아고에서 적당한 거리에 있고 [control|E]이(가) 높은" # 9305799223587867959
+  RICE_galicia_saint_james_routes_decision_counties.midrange.high.tooltip: "#V 10#!년 동안 [GetModifier('RICE_galicia_saint_james_infrastructure_midrange_high').GetNameWithTooltip] 획득" # 3792052504113287091
+  RICE_galicia_saint_james_routes_decision_counties.midrange.low: "산티아고에서 적당한 거리에 있으며 낮은 [control|E]를 가진" # 4494748274426200781
+  RICE_galicia_saint_james_routes_decision_counties.midrange.low.tooltip: "#V 10#!년 동안 [GetModifier('RICE_galicia_saint_james_infrastructure_distant_high').GetNameWithTooltip]를 획득합니다" # 7835749051071597628
   RICE_galicia_saint_james_routes_decision_counties.distant.high: "산티아고에서 멀리 떨어져 있으며 높은 [control|E]를 가지고 있습니다." # 17174941412456112611
   RICE_galicia_saint_james_routes_decision_counties.distant.high.tooltip: "#V 10#년 동안 [GetModifier('RICE_galicia_saint_james_infrastructure_midrange_low').GetNameWithTooltip]을 얻습니다." # 4929964695870677725
   RICE_galicia_saint_james_routes_decision_counties.distant.low: "산티아고에서 멀리 떨어져 있으며 [control|E]가 낮습니다." # 18018427286087424025
@@ -534,14 +534,14 @@
   RICE_galicia_saint_james_levy_extra_tolls_effect_tooltip_3: "비-[christian.GetAdjective] [ruler|E]로서, 이 최대 [gold|E]와 이 [decision|E]의 [prestige|E] 비용은 [GetGeographicalRegion('world_europe_west_iberia').GetName]과 [GetGeographicalRegion('custom_occitan').GetName]에 얼마나 많은 [christian.GetAdjective] [counties|E]를 소유하고 있는지, 그들의 [control|E] 수준, 그리고 [santiago.GetNameNoTier]로부터의 거리에 따라 달라집니다." # 8790156567553329354
   RICE_galicia_saint_james_levy_extra_tolls_effect_tooltip_4: "현재 [iberian_struggle|E]가 [struggle_phase_iberia_conciliation|E] 단계에 있거나, #bold $struggle_iberia_ending_conciliation_decision$! 결정으로 종결되었으므로, [decision|E]를 내리는 데 비[christian.GetAdjective] 국가 [ruler|E]로서 더 많은 명성[prestige|E]이 필요합니다." # 17281423936555483766
   RICE_galicia_saint_james_levy_extra_tolls_confirm: "순례자들이 이해할 거라고 확신합니다." # 13670764176393200987
-  RICE_galicia_saint_james_levy_extra_tolls_context_tooltip: "#bold 역사적 배경:# 중세 시대, 일반 백성과 귀족 모두 성 야고보 길을 여행하는 순례자들의 대규모 이동을 수입원으로 여겼습니다. 예를 들어, #이탤릭 Codex Calixtinus#! (성 야고보 길 순례자를 위한 12세기 여행 가이드)는 아라곤 왕과 같은 통치자들이 그러한 통행료를 부과하는 것을 비판했습니다." # 11210346654579234498
+  RICE_galicia_saint_james_levy_extra_tolls_context_tooltip: "#emphasis 역사적 배경:#! 중세 시대에, 지역 주민들(평민과 귀족 모두)은 산티아고 순례길을 여행하는 순례자들의 대규모 통행을 잠재적인 수입원으로 여겼습니다. 예를 들어, #italic 칼릭스투스 필사본#! (산티아고 순례길 순례자들을 위한 12세기 일종의 여행 안내서)은 아라곤의 왕과 같이 그러한 통행료를 징수하는 통치자들을 비판합니다." # 11210346654579234498
   RICE_galicia_saint_james_levy_extra_tolls_tt: "[GetGeographicalRegion('world_europe_west_iberia').GetName]와 [GetGeographicalRegion('custom_occitan').GetName]에 소유한 [counties|E]" # 7662817142673633918
   RICE_galicia_saint_james_levy_extra_tolls_non_christian_tt: "[GetGeographicalRegion('world_europe_west_iberia').GetName] 및 [GetGeographicalRegion('custom_occitan').GetName] 지역에 소유한 그리스도교 [counties|E]" # 385840461758238630
   RICE_galicia_saint_james_levy_extra_tolls_counties.close: "산티아고 데 콤포스텔라에 가깝거나 포함된 지역들" # 624722931881664448
   RICE_galicia_saint_james_levy_extra_tolls_counties.close.tooltip: "#V 10#년간 [GetModifier('RICE_galicia_saint_james_tolls_close').GetNameWithTooltip]을 얻습니다." # 11311062360013531114
-  RICE_galicia_saint_james_levy_extra_tolls_counties.midrange.high: "산티아고에서 적당한 거리에 있으며 [통치력|E]이 높습니다." # 9305799223587867959
-  RICE_galicia_saint_james_levy_extra_tolls_counties.midrange.high.tooltip: "#V 10#년간 #bold RICE_갈리시아 성 야고보 요금 중거리 고급#을 얻습니다." # 17330097966783394692
-  RICE_galicia_saint_james_levy_extra_tolls_counties.midrange.low: "산티아고에서 중간 거리에 있으며, 지배력이 낮은 지역들입니다." # 4494748274426200781
+  RICE_galicia_saint_james_levy_extra_tolls_counties.midrange.high: "산티아고에서 적당한 거리에 있고 [control|E]이(가) 높은" # 9305799223587867959
+  RICE_galicia_saint_james_levy_extra_tolls_counties.midrange.high.tooltip: "[GetModifier('RICE_galicia_saint_james_tolls_midrange_high').GetNameWithTooltip]를 #V 10#!년 동안 획득" # 17330097966783394692
+  RICE_galicia_saint_james_levy_extra_tolls_counties.midrange.low: "산티아고에서 적당한 거리에 있으며 낮은 [control|E]를 가진" # 4494748274426200781
   RICE_galicia_saint_james_levy_extra_tolls_counties.midrange.low.tooltip: "#V 10#년 동안 [GetModifier('RICE_galicia_saint_james_tolls_distant_high').GetNameWithTooltip]을 얻습니다." # 9319317264200091078
   RICE_galicia_saint_james_levy_extra_tolls_counties.distant.high: "산티아고에서 멀리 떨어져 있으며 높은 [control|E]를 가지고 있습니다." # 17174941412456112611
   RICE_galicia_saint_james_levy_extra_tolls_counties.distant.high.tooltip: "#V 10#년 동안 [GetModifier('RICE_galicia_saint_james_tolls_midrange_low').GetNameWithTooltip]을 얻으십시오." # 17022593118478083588
@@ -550,16 +550,16 @@
   RICE_galicia_alter_saint_james_tomb: "산티아고 성소를 개조합니다" # 8788759451037189772
   RICE_galicia_alter_saint_james_tomb_tooltip: "순례자들의 늘어나는 수요를 충족시켜야 합니다." # 7325698138209197890
   RICE_galicia_alter_saint_james_tomb_desc: "산티아고의 현재 성소는 그 작은 규모와 조악한 설계 때문에 매일 찾아오는 순례자들의 인파를 도저히 수용할 수 없습니다. 교회 관계자들은 순례자들에게 동정을 느끼며, 성 야고보의 무덤을 개축하고 심지어 필요하다면 파괴한 뒤 새로 재건해야 한다고 권고합니다.\n\n그들은 제단에 대한 어떠한 변경이든 미신적으로 두려워하는 지역 주민들과 하급 성직자들의 반대는 무시해도 된다고 말합니다." # 5629445873392926026
-  RICE_galicia_alter_saint_james_tomb_effect_tooltip_1: "[GetGeographicalRegion('world_europe_west_iberia').GetName] 지역의 모든 [THIS.Char.GetFaith.GetReligion.GetAdjective] [rulers|E]가 다른 조건을 충족하면 $RICE_galicia_pray_to_santiago$ 결정을 해제합니다." # 4964866588879338585
-  RICE_galicia_alter_saint_james_tomb_effect_tooltip_2: "$RICE_galicia_saint_james_routes_decision$ 및 $RICE_galicia_saint_james_levy_extra_tolls$ 결정은 더욱 풍부한 이득을 제공하고 쿨타임이 짧아질 것입니다." # 3474441800458311617
+  RICE_galicia_alter_saint_james_tomb_effect_tooltip_1: "다른 요구 사항을 충족하는 [GetGeographicalRegion('world_europe_west_iberia').GetName] 내 모든 [THIS.Char.GetFaith.GetReligion.GetAdjective] [rulers|E]에게 $RICE_galicia_pray_to_santiago$ [decision|E]을(를) 잠금 해제합니다" # 4964866588879338585
+  RICE_galicia_alter_saint_james_tomb_effect_tooltip_2: "$RICE_galicia_saint_james_routes_decision$ 및 $RICE_galicia_saint_james_levy_extra_tolls$ [decisions|E]은 더 좋은 혜택을 제공하고 재사용 대기시간이 더 짧아집니다" # 3474441800458311617
   RICE_galicia_alter_saint_james_tomb_effect_tooltip_3: "지역 시민들과 하급 성직자들은 이러한 개편안에 대해 불만을 느낄 것이나, 결국에는 수긍할 것입니다." # 5916092622226812799
   RICE_galicia_alter_saint_james_tomb_confirm: "산티아고 제단이 더욱 훌륭해질 것입니다!" # 18085367801482347752
   RICE_galicia_alter_saint_james_tomb_context_tooltip: "#bold 역사적 배경:#! 12세기, 산티아고는 첫 대주교 디에고 겔미레스(1069~1140년경) 덕분에 성스러운 도시로서의 중요성이 더욱 커졌습니다. 그는 교회 권력을 중앙집권화하고, 산티아고 순례를 장려했으며, 가장 논란이 되었던 점은 성 야고보의 무덤의 물리적 공간을 개조한 것입니다.  성 야고보 제자들이 지었다고 전해지는 옛 성소를 파괴하고 외국 순례자들의 요구와 욕구에 맞춘 더 화려한 설계로 대체했습니다. 이는 현지인들의 선호도와 전통을 희생하는 것이었습니다." # 11947953683540810730
   RICE_galicia_unearth_saint_james_tomb: "성 야고보의 무덤을 발굴하다" # 5553956799771715691
   RICE_galicia_unearth_saint_james_tomb_tooltip: "성 야고보가 여기에 묻혔다는 소문이 돌지만... 사실일까요?" # 11491969265184885599
   RICE_galicia_unearth_saint_james_tomb_desc: "[GetGeographicalRegion('world_europe_west_iberia').GetName] 지방의 전설에 따르면, 성 야고보 사도께서 수백 년 전 이곳에 와 복음을 전파하셨다고 합니다. 그분이 순교하신 후 북서쪽 지역... 제가 다스리는 땅에 묻히셨다는 소문이 돌고 있습니다. 만약 사실이라면, 그분의 무덤을 찾지 않는 것은 제게 큰 과실이겠지요." # 15974896560078883718
-  RICE_galicia_unearth_saint_james_tomb_effect_tooltip_1: "[GetGeographicalRegion('RICE_galicia_region').GetName] 내 모든 [THIS.Char.GetFaith.GetReligion.GetAdjective] [rulers|E]가 다른 조건을 충족하면 $RICE_galicia_pray_to_santiago$ 결정을 해제합니다." # 2708185860034266822
-  RICE_galicia_unearth_saint_james_tomb_effect_tooltip_2: "[GetGeographicalRegion('world_europe_west_iberia').GetName] 및 [GetGeographicalRegion('custom_occitan').GetName] 지역의 모든 [rulers|E]에게 $RICE_galicia_saint_james_routes_decision$ 및 $RICE_galicia_saint_james_levy_extra_tolls$ 결정이 해금됩니다." # 8970257389523126096
+  RICE_galicia_unearth_saint_james_tomb_effect_tooltip_1: "[GetGeographicalRegion('RICE_galicia_region').GetName] 내에 있으며 다른 요구 사항을 충족하는 모든 [THIS.Char.GetFaith.GetReligion.GetAdjective] [rulers|E]에게 $RICE_galicia_pray_to_santiago$ [decision|E]을(를) 해금합니다." # 2708185860034266822
+  RICE_galicia_unearth_saint_james_tomb_effect_tooltip_2: "[GetGeographicalRegion('world_europe_west_iberia').GetName] 및 [GetGeographicalRegion('custom_occitan').GetName]의 모든 [rulers|E]에게 $RICE_galicia_saint_james_routes_decision$와 $RICE_galicia_saint_james_levy_extra_tolls$ [decisions|E]이(가) 잠금 해제됩니다." # 8970257389523126096
   RICE_galicia_unearth_saint_james_tomb_confirm: "이 이야기들이 사실인지 조사해야겠습니다." # 6545624600334498714
   RICE_galicia_unearth_saint_james_tomb_context_tooltip: "#bold 역사적 배경:#! 820년대 또는 830년대, 산티아고에 있는 성 야고보의 무덤이라는 주장은 펠라요라는 은자 또는 수도사에 의해 발견되었습니다. 언덕에서 여러 차례 기적적인 빛을 목격한 그는 이를 지역 주교 테오도미르에게 알렸습니다. 이후 조사에서 그 장소가 성 야고보가 묻힌 곳이라고 알려졌습니다. 아스투리아스의 알폰소 2세 왕은 그 자리에 예배당을 건립했고, 유명한 산티아고 순례길이 탄생했습니다." # 3447161534048853802
   RICE_galicia_unearth_saint_james_tomb_date_req: "서기 500년 이후입니다." # 3117834173210784948
@@ -586,7 +586,7 @@
   RICE_galicia_compile_CSM_decision_tooltip: "하느님의 어머니, 성모 마리아님을 찬양합니다!" # 14578758393954878725
   RICE_galicia_compile_CSM_decision_desc: "저는 [ROOT.Char.MakeScope.Var('RICE_num_of_cantigas_written').GetValue]개의 주목할 만한 [cantigas|E]를 작곡했지만, 저는 속되고 세속적인 일에 대한 노래를 작곡하는 것 이상을 열망합니다. [ROOT.Char.GetFaith.GetReligion.GetAdjective] [ROOT.Char.GetTitleAsNameNoTooltip]로서 저는 축복받은 성모 마리아에 대한 광대한 서정시 모음집인 #V Cantigas de Santa Maria#!를 편찬하기 위해 제 왕국의 시인들을 모아야 합니다." # 17830140460049167418
   RICE_galicia_compile_CSM_decision_effect_tooltip_1: "#italic 칸티가스 데 산타 마리아#!를 완성하는 데 5년 이상 걸릴 것입니다" # 4015654536413180118
-  RICE_galicia_compile_CSM_decision_effect_tooltip_2: "완료되면 [prestige|E], [piety|E], [위엄|E], [학습 능력|E] 및 [생활 방식 경험|E]을 향상시키는 [artifact|E]를 받게 됩니다." # 7529413258299383093
+  RICE_galicia_compile_CSM_decision_effect_tooltip_2: "완료되면, [prestige|E], [piety|E], [grandeur|E], [learning_skill|E], 그리고 [lifestyle_experience|E]를(을) 증진시키는 [artifact|E]를(을) 받게 됩니다" # 7529413258299383093
   RICE_galicia_compile_CSM_decision_confirm: "시작해보지!" # 15133219792306298060
   RICE_galicia_compile_CSM_decision_context_tooltip: "#emphasis 역사적 배경:#! Cantiga라는 단어는 일반적으로 13세기 카스티야의 왕 알폰소 10세에게 귀속되는 성모 마리아와 그녀의 기적에 대한 노래 모음인 #italic Cantigas de Santa Maria#!와 가장 관련이 깊습니다. 그가 몇 곡의 노래를 썼을 수도 있지만, 그는 주로 프로젝트를 지휘하는 책임이 있었습니다. 오늘날, 이 노래들은 종종 초기 음악 그룹의 레퍼토리로 연주됩니다." # 13729318797027929629
   RICE_CSM_3_cantigas_written_req: "이전에 최소 #V 3#! 개의 [cantigas|E]를 작곡했습니다" # 3881452652252842728
@@ -666,7 +666,7 @@
   galicia.0014.a: "[pelayo.GetFirstNameNoTooltip] 님을 저의 궁정으로 모시게 된다면 영광일 것입니다!" # 3428840988345684137
   galicia.0014.b: "[pelayo.GetFirstNameNoTooltip]는 야생에 머무는 것을 더 좋아하는 것 같군." # 18389810907508990214
   RICE_galicia_unlock_santiago_prayer_decision_tooltip: "$RICE_galicia_pray_to_santiago$ [decisions|E]는 다른 조건을 충족하는 [GetGeographicalRegion('RICE_galicia_region').GetName] 내의 모든 [christian.GetAdjective] [rulers|E]에게 해금됩니다." # 3631242145489213215
-  RICE_galicia_unlock_santiago_routes_decision_tooltip: "$RICE_galicia_saint_james_routes_decision$ 및 $RICE_galicia_saint_james_levy_extra_tolls$ [decision|E]은 [GetGeographicalRegion('world_europe_west_iberia').GetName] 및 [GetGeographicalRegion('custom_occitan').GetName]의 모든 [rulers|E]에게 해금됩니다." # 4913129573523514096
+  RICE_galicia_unlock_santiago_routes_decision_tooltip: "$RICE_galicia_saint_james_routes_decision$ 및 $RICE_galicia_saint_james_levy_extra_tolls$ [decisions|E]는 [GetGeographicalRegion('world_europe_west_iberia').GetName] 및 [GetGeographicalRegion('custom_occitan').GetName]의 모든 [rulers|E]에게 잠금 해제됩니다" # 4913129573523514096
   galicia.0015.t: "성 야고보의 무덤 발견" # 101028954093145551
   galicia.0015.desc: "[GetGeographicalRegion('world_europe_west_iberia').GetName]의 [christian.GetAdjective] 공동체에게는 희소식이 [santiago.GetNameNoTier]에서 들려왔습니다.\n\n그곳에 살고 있는 [pelayo.GetFirstName]라는 은자가 최근 밤하늘에서 며칠 동안 여러 가지 기적적인 징조를 목격했습니다. 그는 [alfonso.GetTitledFirstName]의 [chaplain.GetCouncilTitle]인 [chaplain.GetTitledFirstName]에게 이 사실을 알렸고, 둘은 이 문제를 조사했습니다. 놀랍게도 그들은 사도 야고보 성인의 고대 무덤을 발견했습니다. 그 무덤의 진위가 지역 학자들과 [alfonso.Custom('DefaultPriestTitlePlural')]에 의해 확인되자, [alfonso.GetTitledFirstNameNoTooltip]께서는 그 옆에 예배당을 건설하라고 명령하셨습니다.\n\n벌써부터 순례자들이 인근 지역에서 무덤으로 몰려들고 있습니다. 이 발견에 대한 소문이 빠르게 퍼지고 있으며, 더 많은 순례자들이 멀리서 올 것이 확실합니다. 야고보 성인의 무덤으로의 순례는 단명하는 유행이 될까요, 아니면 더 지속적인 전통으로 진화할까요?" # 261177063187014688
   galicia.0015.a: "좋은 날이군! 성 야고보께서 우리를 보호하시길." # 2572340588516145066
@@ -703,10 +703,10 @@
   RICE_galicia_diego_gelmirez_attack.major_wounds: "폭도가 [diego_gelmirez_priest.GetHerHim]을 공격했지만, [diego_gelmirez_priest.GetSheHe]는 살아남았습니다." # 18146349490495396786
   RICE_galicia_diego_gelmirez_attack.dies: "폭도들이 잔혹하게 [diego_gelmirez_priest.GetFirstNameNoTooltip]를 린치하고 [diego_gelmirez_priest.GetHerHim]을 살해합니다" # 16329973129801938498
   galicia.0024.t: "산티아고의 혼란" # 5633517332970798361
-  galicia.0024.desc.intro: "[santiago.GetNameNoTier]에서 온 순례자들이 도시에서 발생한 반란 소식을 퍼뜨리고 있습니다. 지역 주민들은 보기 드문 단결력을 보여 [christian.GetAdjective] 교회 당국에 대항하여 반란을 일으켰습니다.\n\n그들의 불만 중에는 정치적 특권과 종교적 관습에 대한 무시(순례자들을 우대하는 행위), 그리고 가장 중요한 [diego_gelmirez_ruler.GetTitledFirstName]의 지휘 아래 성 야고보 제단이 개조되었을 때의 \"신성 모독\"이 있습니다. [santiago_ruler.GetTitledFirstName]는 반군을 진정시키기 위해 외교적, 군사적 조치를 취했지만, 이미 피해는 발생했습니다.\n\n[diego_gelmirez_priest.GetTitledFirstName], [santiago_ruler.GetFirstNamePossessiveNoTooltip] [diego_gelmirez_priest.GetCouncilTitle]께서는 폭도들이 대성당을 공격했을 때 그곳에 계셨습니다. 폭도들은 종교 지도부의 상징이었던 [diego_gelmirez_priest.GetHerHim]을 쫓았습니다." # 10893682644540384709
+  galicia.0024.desc.intro: "[santiago.GetNameNoTier]에서 여행하던 순례자들이 도시에서 방금 일어난 봉기에 대한 소식을 퍼뜨리고 있습니다. 지역 주민들은 이례적인 단결을 보여주며 [christian.GetAdjective] 성직자 권위에 대항하는 봉기를 일으켰습니다.\n\n그들의 불만 사항 중에는 (순례자들을 선호하며) 그들의 정치적 특권과 종교적 관습을 무시한 점, 그리고 가장 중요하게는 [diego_gelmirez_ruler.GetTitledFirstName]의 지휘 하에 구조물이 개조될 때 성 야고보의 제단이 “모독”당했다는 점이 포함되어 있습니다. [santiago_ruler.GetTitledFirstName]는 반란군을 해산시키기 위해 외교적 및 군사적 조치를 취했지만, 피해는 이미 발생했습니다.\n\n[santiago_ruler.GetFirstNamePossessiveNoTooltip] [diego_gelmirez_priest.GetCouncilTitle]인 [diego_gelmirez_priest.GetTitledFirstName]는 폭도들이 도시의 대성당을 공격했을 때 그곳에 있었습니다. [diego_gelmirez_priest.GetSheHe]는 종교 지도부의 상징이었기 때문에, 그들은 [diego_gelmirez_priest.GetHerHim]를 노렸습니다." # 10893682644540384709
   galicia.0024.desc.minor_wounds: "기적적으로, 혹은 신의 개입 덕분인지 [diego_gelmirez_priest.GetSheHe](이)는 폭도들이 [diego_gelmirez_priest.GetHerHim]을 불타는 종탑으로 쫓아갔을 때 간신히 탈출했습니다. 건물이 무너지자 [diego_gelmirez_priest.GetSheHe](이)는 평범한 성직자로 변장하여 도망쳤습니다." # 4109970467266182423
   galicia.0024.desc.major_wounds: "폭도들이 [diego_gelmirez_priest.GetHerHim]를 따라잡아 잔혹하게 구타하고 돌로 쳐 죽이려 했습니다. [diego_gelmirez_priest.GetSheHe]는 어찌어찌 혼란을 틈타 도망쳤지만 심각한 상처를 입었습니다." # 2924640293014898327
-  galicia.0024.desc.dies: "폭도들은 [diego_gelmirez_priest.GetHerHim]이 평범한 성직자로 변장하여 도망치려 하자마자 붙잡았습니다. 그들은 [diego_gelmirez_priest.GetHerHim]에게 분노를 표출했고, 불행한 [diego_gelmirez_priest.GetWomanMan]을 돌로 쳐 죽였습니다." # 6607781752460875254
+  galicia.0024.desc.dies: "폭도들은 [diego_gelmirez_priest.GetSheHe]가 평범한 성직자로 변장하여 도주하려던 바로 그 순간 [diego_gelmirez_priest.GetHerHim]을 붙잡았습니다. 그들은 [diego_gelmirez_priest.GetHerHim]에게 분노를 쏟아냈고, 불운한 [diego_gelmirez_priest.GetWomanMan]은 돌에 맞아 죽었습니다." # 6607781752460875254
   galicia.0024.a: "산티아고 순례길에 어떤 영향을 미칠지 누가 알겠는가?" # 4666306701659013640
   galicia.0024.b: "어리석은 자들이 지들끼리 싸우는군!" # 3568792141725493382
   RICE_galicia_1117_rebellion_context_tooltip: "#emphasis 역사적 배경:#! 1116~1117년 산티아고 반란은 도시 최초의 대주교 디에고 겔미레스를 몰아내려는 시도였습니다. 이는 수년간 성직자 권위에 대한 지역 감정의 정점이었습니다.\n\n겔미레스는 1100년 주교로 처음 권력을 잡았을 때 교회 통제를 중앙 집중화하고 도시를 주요 순례 중심지로 만드는 데 주력했습니다. 예를 들어 지역 성직자에 대한 더 엄격한 규칙을 시행하고 순례자를 위해 많은 지역 주민의 권리(적어도 그들의 관점에서)를 축소했습니다. 특히, 그가 성 야고보의 무덤을 개조한 것은 사도의 제자들이 지었다고 전해지는 것을 고려할 때 많은 지역 주민들에게 신성 모독으로 여겨졌습니다. 궁극적으로 지역 주민들은 도시가 더 이상 그들의 고향이 아니며, 외국 순례자들과 폭압적이고 부적절한 겔미레스에게 지배당하고 있다고 느꼈습니다.\n\n1116년, 도시의 귀족들과 지역 성직자들은 겔미레스에 맞서 비밀 형제단을 결성했습니다. 그들의 후속 반란 동안 많은 지역 주민들이 순례자들에게 \"잃어버린\" 지역 공간을 되찾기 위해 그들을 지지했습니다.\n\n겔미레스 자신은 대성당의 종탑으로 쫓겨갔고, 폭도들은 종탑에 불을 질렀습니다. 그는 가까스로 탈출했고, 반란 실패 후 산티아고에서 권력을 유지했습니다. 그는 대성당을 확장하고 추가 순례를 장려하는 프로그램을 계속했지만, 궁극적으로 지역 주민과의 긴장이라는 근본적인 문제를 해결하지 못했습니다. 더 짧은 기간의 두 번째 반란이 1136년에 일어났지만, 그 역시 지속적인 변화를 가져오지 못했습니다." # 4186759129250230997
@@ -844,7 +844,7 @@
   galicia.0043.desc: "xxxxx" # 1951045980481827005
   galicia.0043.a: "xxxxx" # 1951045980481827005
   galicia.0044.t: "칸티가스 데 산타 마리아" # 932175784277500201
-  galicia.0044.desc: "[CSM_original_compiler.GetTitledFirstName]님께서 돌아가시기 전, #italic Cantigas de Santa Maria#라는 성모 마리아에 대한 노래와 이야기를 모은 시집을 만들기 위해 여러 시인들과 협력하고 계셨습니다!\n\n이제 그분께서 우리 곁에 안 계시지만, 저는 그분께서 우리가 계속해서 이 작업을 진행하기를 바라실 거라고 확신하기에 이 프로젝트에 차질은 없을 것입니다. 이제 그분의 꿈이 이루어지지 않도록 이 노력을 이끌어야 할 책임은 저에게 있습니다." # 9421359115569451907
+  galicia.0044.desc: "[CSM_original_compiler.GetTitledFirstName]가 서거하기 전에, [CSM_original_compiler.GetSheHe]는 여러 시인들과 함께 성모 마리아에 대한 노래와 이야기 모음집인 #italic 칸티가스 데 산타 마리아#를 작업하고 있었습니다!\n\n이제 [CSM_original_compiler.GetSheHe]가 우리 곁에 없지만, [CSM_original_compiler.GetSheHe]께서는 우리가 이 작업을 계속하기를 바라셨을 것이라 확신하기에, 이 프로젝트에 차질은 없을 것입니다. [CSM_original_compiler.GetHerHis]의 꿈이 좌절되지 않도록 이제 제가 이 노력을 이끌어야 할 때입니다." # 9421359115569451907
   galicia.0044.a: "[CSM_original_compiler.GetSheHe]께서 최종 결과물을 보지 못한다는 건 안타까운 일이군." # 322242804799936083
   galicia.0045.t: "칸티가 데 산타 마리아 확장" # 12641535765457134840
   galicia.0045.desc.x: "오래전, 성모 마리아를 기리는 훌륭한 노래 모음집인 #italic Cantigas de Santa Maria#! 작업이 시작되었습니다. 저의 지휘 아래, 이 프로젝트는 엄청난 환호 속에 완료되었으며, 이는 저의 궁정의 높은 수준의 문화, 지성, 그리고 신앙심을 상징합니다.\n\n이제 저는 #italic Cantigas de Santa Maria#!에 더 많은 노래를 추가하는 것을 목표로 삼아 더욱 높은 곳을 바라보고 있습니다. 다시 한번, 저는 왕국 전역의 시인들을 모아 그들과 협력하여 성모 마리아에 대한 노래를 작곡하고 편집할 것입니다. 우리는 이 작업이 완료되었을 때 우리의 웅장한 컬렉션이 훨씬 더 웅장해지도록 할 것입니다." # 2102326386105870993
@@ -904,11 +904,11 @@
   galicia.0059.a: "만약 그들의 의도가 좋다면, 괴롭히지 말도록 합시다." # 17880203649609141436
   galicia.0059.b: "우리 영토에 있는 동안 이 범죄자들을 감시하십시오." # 10314598464776637981
   galicia.0060.t: "순례자" # 11404695932333009056
-  galicia.0060.desc: "오늘, 나는 [pilgrim.GetFullName]이라는 이름의 훌륭한 귀족 [pilgrim.GetWomanMan](을/를) 만났습니다. [pilgrim.GetSheHe|U](은/는) 최근 산티아고 순례길을 따라 [santiago.GetNameNoTier](으)로 여행을 다녀와서 지금 돌아가는 중인 순례자입니다.\n\n그러나 여러 가지 이유로 [pilgrim.GetFirstNameNoTooltip](은/는) [pilgrim.GetSheHe]이(가) 고향으로 돌아가기를 꺼려하며 이곳에 머무는 것을 고려하고 있다고 말합니다. [pilgrim.GetSheHe](은/는) 이 지역이 매력적이라고 생각합니다. 결국, 순례자들이 [santiago.GetNameNoTier](으)로 여행을 다녀온 후 외국 땅에 정착하는 것은 드문 일이 아닙니다.\n\n어쩌면 내가 너그러이 [pilgrim.GetHerHim]을(를) 내 궁정으로 초대할 수도 있을 것입니다. 특히 유명한 순례를 다녀온 사람으로서, 멀리서 온 사람의 관점을 갖는 것은 좋을 것입니다. 하지만, 적어도 아직까지는 [pilgrim.GetFirstNameNoTooltip]에 대해 잘 모르기 때문에 그럴 가치가 있는지 확신이 서지 않습니다." # 853155669427634907
+  galicia.0060.desc: "오늘, 나는 [pilgrim.GetFullName]라는 이름의 훌륭한 귀족 [pilgrim.GetWomanMan]를 만났다. [pilgrim.GetSheHe|U]는 최근 산티아고 순례길을 따라 [santiago.GetNameNoTier]까지 여행했던 순례자이며, 이제 돌아가는 길이라고 한다.\n\n하지만 여러 가지 이유로, [pilgrim.GetFirstNameNoTooltip]는 [pilgrim.GetHerHis] 옛 고향으로 돌아가기를 망설이고 있으며, [pilgrim.GetSheHe]가 이 지역이 매력적이라고 생각하여 이곳에 머무는 것을 고려하고 있다고 한다. 결국, 순례자들이 [santiago.GetNameNoTier]로 여행한 후 이국 땅에 정착하는 것은 드문 일이 아니다.\n\n아마도 내가 아량을 베풀어 [pilgrim.GetHerHim]를 내 궁정에 초대할 수도 있을 것이다. 멀리서 온 사람, 특히 이처럼 유명한 순례를 다녀온 사람의 시각을 이곳에 두는 것은 좋은 일일 것이다. 하지만 아직 [pilgrim.GetFirstNameNoTooltip]에 대해 아는 바가 많지 않으니, 그럴 만한 가치가 있는지는 확실치 않다." # 853155669427634907
   galicia.0060.a: "제 궁정에 머무르십시오. 당신의 재능이 필요합니다." # 18128742850910053673
   galicia.0060.b: "내 영토 어딘가에 정착하고 싶다면, 그렇게 하시오." # 2002753420408107763
   galicia.0061.t: "가리비 껍데기" # 15965419333528723861
-  galicia.0061.desc: "나는 공식적인 업무로 [county.GetNameNoTier]에 있는 지역 [ROOT.Char.GetFaith.HouseOfWorship]을 방문하고 있습니다. 바깥에서 나의 영토와 관련된 영적인 문제에 대해 [ROOT.Char.Custom('DefaultPriestTitle')] 수장과 이야기를 나누던 중, 나는 [ROOT.Char.GetFaith.HouseOfWorship] 입구에서 경비를 서는 [ROOT.Char.Custom('DefaultPriestTitlePlural')]에게 향하는 여행자들을 발견했습니다.\n\n이 여행자들은 가리비 껍데기를 착용하고 있었는데, 이는 그들이 일반적으로 가리비 껍데기와 관련이 있는 성 야고보에게로의 순례에 참여하고 있음을 나타냅니다. 나는 순례자들이 안으로 환영받는 모습을 보았고, [ROOT.Char.Custom('DefaultPriestTitlePlural')]이 그들에게 음식, 음료, 그리고 밤 동안 휴식을 취할 장소가 제공될 것이라고 말하는 것을 엿들었습니다." # 238965938622484785
+  galicia.0061.desc: "나는 공무로 [county.GetNameNoTier]에 있는 지역 [ROOT.Char.GetFaith.HouseOfWorship]을 방문 중이다. 내가 밖에서 수석 [ROOT.Char.Custom('DefaultPriestTitle')]와 내 영역에 관한 영적인 문제에 대해 이야기하는 동안, 나는 [ROOT.Char.GetFaith.HouseOfWorship] 입구를 지키고 서 있는 [ROOT.Char.Custom('DefaultPriestTitlePlural')] 쪽으로 향하는 몇몇 여행자들을 발견했다.\n\n이 여행자들은 가리비 껍데기를 착용하고 있었는데, 이는 성 야고보와 가리비 껍데기가 일반적으로 연관되어 있기에 그들이 [santiago.GetNameNoTier]로 향하는 순례에 참여하고 있음을 나타낸다. 나는 순례자들이 안으로 환영받는 모습을 보았고, [ROOT.Char.Custom('DefaultPriestTitlePlural')]가 그들에게 음식과 음료, 그리고 하룻밤 쉴 곳을 제공할 것이라고 말하는 것을 엿들었다." # 238965938622484785
   galicia.0061.a: "정말로 고귀한 영혼들이로군! 그런 순례를 떠나다니!" # 4378617035160215630
   galicia.0061.b: "그냥 순례자들일 뿐입니다. 그래서, 무슨 얘기를 하고 있었죠?" # 8578816143161910873
   galicia.0062.t: "순례 정착민" # 1286265758441249039

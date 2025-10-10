@@ -132,7 +132,7 @@
   bpm_je_split_patcons_progress_from_left_wing_government_desc: "정부 내 급진 좌파 [Concept('concept_interest_group', 'Interest Groups')]" # 62468071569831472
   bpm_je_split_patcons_progress_from_communist_victory_coping_desc: "의회 공화국 법령을 제정하다" # 9982450175799908840
   bpm_je_split_patcons_progress_from_marlibs_desc: "기존의 #bold 시장 자유주의#!! [Concept('concept_interest_group', '이해집단')]" # 11334328222288764656
-  bpm_je_split_patcons_progress_from_corporatism_desc: "#볼드 코포라티즘#을 연구 완료했습니다!" # 1482259412228059309
+  bpm_je_split_patcons_progress_from_corporatism_desc: "#bold 코포라티즘#을 연구 완료했습니다!" # 1482259412228059309
   je_march_to_radicalism: "혁명의 망령" # 2433793859071324671
   je_march_to_radicalism_status: "화약통이 가득 찬다." # 15170511596010546855
   je_march_to_radicalism_awaiting_spark_status: "혁명의 불꽃을 기다리며." # 9059184658349901503
@@ -176,7 +176,7 @@
   je_bpm_syndicalism_status_3: "노동 운동 내에서 생디칼리즘 사상이 부상하고 있습니다!" # 6034454755540345893
   je_bpm_syndicalism_reason: "#v 진행률:#! #tooltippable;tooltip:[Country.GetTooltipTag],je_bpm_syndicalism_rate_tooltip [Country.MakeScope.ScriptValue('bpm_je_syndicalism_rate')|+]% 매월.\n\n생디칼리즘 사상은 현재 처지에 대한 노동자들의 좌절감에서 태동합니다. 그들은 선거주의 사회주의자들이 의회에서 다투는 모습, 무정부주의자들이 헛된 폭탄을 던지는 모습, 노동조합 지도자들이 끊임없이 타협하는 모습을 지켜봅니다. 더는 안 됩니다! 산업 노동자들은 수가 많고, 강력하며, #PB 총파업#!이라는 전략을 발견했습니다! 생디칼리즘이 이를 관철할 추진력을 제공할 것입니다.\n\n이 일지 항목은 #v 세 부분#!으로 나뉘며, 일지 진행률과 [concept_technology]에 따라 진입이 제한됩니다. 각 부분은 새로운 효과를 추가합니다:\n (1) #v 0%#!: 요구 사항 없음.\n    [GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName]의 인기가 상승합니다.\n (2) #v 33%#!: #gold 노동조합 연맹#!이 필요합니다.\n    [GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName] 및 [GetInterestGroupVariant('ig_anarchists', GetPlayer).GetName]에 #pink 생디칼리스트#! 지도자가 생깁니다.\n (3) #v 66%#!: #gold 정치적 선동#!이 필요합니다.\n    [GetInterestGroupVariant('ig_trade_unions', GetPlayer).GetName] 및 [GetInterestGroupVariant('ig_anarchists', GetPlayer).GetName]는 영구적으로 #pink 생디칼리스트#!가 됩니다.\n\n @information! 요구되는 기술을 연구하지 않은 상태에서 일지 항목 진행률 기준점에 도달하면, 해당 기술에 대한 연구 진행률을 자동으로 획득하게 됩니다.\n\n일지 항목이 최고조에 이르면, #pink 총파업#!이 일어날 확률이 극도로 높아질 것입니다!\n\n#lore \"생디칼리즘과 구식 노동조합 방식의 근본적인 차이점은 다음과 같습니다. 구식 노동조합은 예외 없이 임금 체제와 자본주의 안에서 활동하며 후자를 피할 수 없는 것으로 인정하는 반면, 생디칼리즘은 현행 산업 체제를 부당하고 범죄적인 것으로 규탄하며 거부하고, 이 체제에서 노동자가 영구적인 결과를 얻을 것이라는 희망을 품지 않습니다.\"\n\n— 엠마 골드만, 1913년#!" # 8519308931274525863
   je_bpm_syndicalism_rate_tooltip: "[Country.MakeScope.GetScriptValueDesc('bpm_je_syndicalism_rate')]" # 11704689034189436472
-  bpm_syndicalism_legitimized_global: "#볼드 생디칼리스트 이념#! 이 전 세계적으로 합법화될 것입니다!" # 17000913708473371916
+  bpm_syndicalism_legitimized_global: "#bold 생디칼리스트 이념#! 이 전 세계적으로 합법화될 것입니다!" # 17000913708473371916
   bpm_syndicalism.1.t: "생디칼리스트 혁명!" # 18053352475741330076
   bpm_syndicalism.1.d: "완료되었습니다! 노동조합의 힘과 총파업의 위협, 그리고 광범위한 혁명의 결과로, [Country.GetName]에서 생디칼리스트들이 승리했습니다. 낡은 통치 기구들은 기능을 멈추었고, 새로운 국가는 노동자가 통제하는 노동조합들의 연방 조직으로 다스려집니다. 더욱이, 이 특정한 국가에서 혁명이 일어났다는 사실은 생디칼리즘이 사회 혁명을 이룰 수 있는 강력하고 실용적인 이념임을 전 세계에 증명했습니다." # 16115010561947896821
   bpm_syndicalism.1.f: "상호 부조회(저항, 연대, 조합)는 미래 사회 구성의 자연스러운 요소이므로 우리의 격려와 동정을 받을 자격이 있습니다. 이들이야말로 생산자 협동조합으로 쉽게 발전할 수 있으며, 사회적 도구를 운용하고 생산을 조직할 수 있는 주체입니다. 그 구성원들 중 다수는 처음에는 이러한 조합이 미래에 수행해야 할 역할을 의식하지 못합니다. 처음에는 자본의 착취에 저항하거나 피상적인 개선을 얻는 것만을 생각합니다. 그러나 피상적인 임시방편을 달성하거나 심지어 때로는 부정적인 결과를 낳는 그들의 힘겨운 노력은 곧 그들이 자본주의적 억압으로부터 벗어날 수 있는 근본적인 개혁을 추구하도록 이끌게 됩니다. 그 후 그들은 사회 문제를 연구하고 노동자 대회에 대표를 파견합니다. 새로운 집단들이 낡은 집단들과 보조를 맞추는 것이 필수적인데, 이는 광범위하게 이해되는 연대를 통해서, 모든 직업과 모든 국가의 노동자들이 전 세계적으로 단결함으로써만 우리는 특권의 철폐와 만인의 평등에 확실히 도달할 수 있을 것이기 때문입니다.\n\n—외젠 바를랭, 1870년" # 16924946186481205722
@@ -227,7 +227,7 @@
   bpm_general_strike_exhaustion_above_50: "#blue 소진#! 상태가 #bold 총파업#!으로 인해 #variable 50#!을 초과했습니다!" # 1381761698666708179
   bpm_general_strike_syndicalist_failed: "#bold 생디칼리슴#! 이 국가에서 영구적인 후퇴를 겪으며 진보가 약화될 것입니다." # 17693561043557648385
   bpm_general_strike_will_start: "#bold 총파업#! 이 시작될 것입니다!" # 1462529899885809671
-  notification_bpm_general_strike_start_name: "#볼드 총파업#! 이 닥쳤습니다!" # 3283702439998387002
+  notification_bpm_general_strike_start_name: "#bold 총파업#! 이 닥쳤습니다!" # 3283702439998387002
   notification_bpm_general_strike_start_desc: "전국적으로 노동자들이 작업을 중단했습니다. 노동조합들이 일제히 분노하며 목소리를 높여 노동자들의 태업을 부추기고 있습니다. 이를 처리하지 않으면 우리 경제에 큰 타격이 갈 것입니다!" # 16355415384277063772
   notification_bpm_general_strike_start_big_tooltip: "#header $notification_bpm_general_strike_start_name$#!\n$TOOLTIP_DELIMITER$\n$notification_bpm_general_strike_start_desc$" # 3335923497340244322
   bpm_general_strike_will_fail: "#bold 총파업#은 저지될 것입니다!" # 8245594881669923960

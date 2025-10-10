@@ -1,11 +1,8 @@
-import process from 'node:process'
-import { join } from 'node:path'
-import {createDatabase} from 'db0'
-import libSql from "db0/connectors/libsql/node";
+import { createDatabase } from 'db0'
+import libSql from 'db0/connectors/libsql/node'
 import { createStorage } from 'unstorage'
-import dbDriver from "unstorage/drivers/db0";
+import dbDriver from 'unstorage/drivers/db0'
 import { type GameType } from './prompts'
-
 
 const database = createDatabase(libSql({ url: `file:translate-cache.db` }));
 const translationCache = createStorage({
@@ -32,4 +29,8 @@ export async function getCache (key: string, gameType: GameType = 'ck3'): Promis
 
 export async function setCache (key: string, value: string, gameType: GameType = 'ck3'): Promise<void> {
   await translationCache.setItem(getCacheKey(key, gameType), value)
+}
+
+export async function removeCache(key: string, gameType: GameType = 'ck3'): Promise<void> {
+  await translationCache.removeItem(getCacheKey(key, gameType))
 }
