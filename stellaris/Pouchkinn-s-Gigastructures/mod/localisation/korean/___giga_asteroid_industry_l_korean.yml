@@ -34,7 +34,7 @@
   asteroid_manufactory_consumer_goods_trigger: "$giga_asteroid_industry_candidate_consumer_goods$ 수정자를 요구합니다." # 10033201769649908443
   asteroid_manufactory_consumer_goods_placement: "- £minerals£ §Y$minerals$§! 매장지가 있는 $asteroid_manufactory_rocky$ 또는 $asteroid_manufactory_icy$ 소행성 위에 건설해야 합니다." # 15917205437645416942
   asteroid_manufactory_consumer_goods_effect: "- 기가 소행성 공장 소비재 국가 최대치: §G+1§!\n- 소행성 제조 시너지: 일부 £job_artisan£ $job_artisan$이(가) £minerals£ §Y$minerals$§!를 소모합니다. £energy£ §Y$energy$§!를 유지비로 소모합니다." # 7853201533856649990
-  asteroid_manufactory_consumer_goods_upgrade: "£job_artisan£ 거대 소행성 산업 (소비재)" # 6855426322790248001
+  asteroid_manufactory_consumer_goods_upgrade: "£job_artisan£ ['concept_giga_asteroid_industry_consumer_goods']" # 6855426322790248001
   concept_giga_asteroid_industry_consumer_goods: "$asteroid_manufactory_consumer_goods$" # 6773611485168776539
   concept_giga_asteroid_industry_consumer_goods_desc: "$asteroid_manufactory_subtitle$§E요구 사항:§!\n- £consumer_goods£ §Y$consumer_goods$§!을(를) 사용하는 제국에서 사용 가능\n\n§E효과:§!\n$asteroid_manufactory_consumer_goods_effect$" # 220678146705487533
   asteroid_manufactory_ai_consumer_goods: "$asteroid_manufactory_0$" # 17106121505745625308
@@ -47,14 +47,14 @@
   asteroid_manufactory_energy_trigger: "$giga_asteroid_industry_candidate_energy$ 수정치 필요" # 2631360836947356681
   asteroid_manufactory_energy_placement: "$asteroid_manufactory_icy$ 소행성에 건설되어야 하며, £energy£ §Y$energy$§! 매장지를 보유해야 합니다." # 17415883885279995122
   asteroid_manufactory_energy_effect: "- $mod_building_giga_asteroid_factory_energy_country_max$: §G+1§!\n- $asteroid_manufactory_synergy$ 행성 £energy£ §Y$energy$§! 유지비 감소" # 15514310535989244997
-  asteroid_manufactory_energy_upgrade: "£기술자£\n['거대 소행성 산업 (에너지)']" # 17999926746009775149
+  asteroid_manufactory_energy_upgrade: "£job_technician£ ['concept_giga_asteroid_industry_energy']" # 17999926746009775149
   concept_giga_asteroid_industry_energy: "$asteroid_manufactory_energy$" # 4248252027674328213
   concept_giga_asteroid_industry_energy_desc: "$asteroid_manufactory_subtitle$\n$asteroid_manufactory_energy_effect$" # 6718770239884011161
   asteroid_manufactory_ai_energy: "$asteroid_manufactory_0$" # 17106121505745625308
   asteroid_manufactory_platform_energy: "$asteroid_manufactory_energy$ 건설 현장" # 2879742392037626604
   asteroid_manufactory_platform_energy_DESC: "$asteroid_manufactory_0_DESC$" # 10318821853168083836
   giga_asteroid_industry_candidate_energy: "소행성 제조소 후보: §Y$energy$§!" # 4132409466000029800
-  giga_asteroid_industry_candidate_energy_desc: "§TA 거대 소행성 산업 시설 (에너지)를 여기에 건설할 수 있습니다. §!\n\n\n이 소행성 내부의 물은 중수소와 삼중수소를 고농도로 포함하고 있으며, 대규모 핵융합 발전소에 이상적입니다." # 1185565612809390877
+  giga_asteroid_industry_candidate_energy_desc: "§TA ['concept_giga_asteroid_industry_energy']은 이곳에 건설될 수 있습니다§!\n\n이 소행성 내부의 물은 중수소와 삼중수소의 함량이 높아 대규모 핵융합 발전소에 이상적입니다." # 1185565612809390877
   asteroid_manufactory_food: "얼음 채취 기지" # 7405656817163881117
   asteroid_manufactory_food_DESC: "가공된 얼음을 분리 및 저장하는 시설로, 특히 건조 행성에서의 대규모 농업에 적합합니다." # 866198889188931379
   asteroid_manufactory_food_trigger: "$giga_asteroid_industry_candidate_food$ 수정치를 요구합니다." # 2356558604437178172

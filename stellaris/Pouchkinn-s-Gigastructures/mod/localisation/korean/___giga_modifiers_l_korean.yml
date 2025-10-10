@@ -20,7 +20,7 @@
   mod_planet_buildings_giga_sr_iodizium_upkeep_mult: "건물 £giga_sr_iodizium£ 아이오다이슘 유지비" # 5107670723061691230
   mod_giga_planet_unemployment_coverage: "실업 팝 일자리" # 9586517554477719155
   mod_giga_pop_assimilation_speed: "팝 동화 속도" # 17075809962556291189
-  mod_giga_virtual_colony_size: "['개념_기가_가상_식민지_크기']" # 15442208489030148025
+  mod_giga_virtual_colony_size: "['concept_giga_virtual_colony_size']" # 15442208489030148025
   concept_giga_virtual_colony_size: "가상 승천 식민지 규모" # 5143143067010076379
   concept_giga_virtual_colony_size_desc: "이 행성은 ['trait:trait_robot_digital_2'] 특성의 효과를 계산할 때 다른 수의 식민지로 계산됩니다." # 1817381561066866241
   mod_planet_buildings_minerals_cost_mult: "건설 비용: £minerals£ $minerals$" # 7543232089463510033
@@ -116,7 +116,7 @@
   mod_planet_pop_assemblers_alloys_upkeep_add: "팝 조립 £alloys£ $alloys$ 유지비" # 5884586792990687394
   mod_planet_technician_minerals_upkeep_add: "£minerals£ $minerals$ $pop_group_unit$당 유지비 £job_technician£ [GetTechnicianPlural]" # 3560009245444034610
   mod_planet_technician_food_upkeep_add: "£job_technician£ [GetTechnicianPlural] 팝 단위당 £food£ $food$ 유지비" # 2421668409341921917
-  mod_planet_technician_giga_sr_iodizium_upkeep_add: "£giga_sr_iodizium£ 아이오다이슘\n$pop_group_unit$당 유지 비용\n£job_technician£ 기술자" # 10579065023847710683
+  mod_planet_technician_giga_sr_iodizium_upkeep_add: "£giga_sr_iodizium£ $giga_sr_iodizium$ $pop_group_unit$당 유지 비용 [GetTechnicianPlural] £job_technician£" # 10579065023847710683
   mod_planet_technician_physics_research_upkeep_add: "£physics_research£ $physics_research$ $pop_group_unit$당 유지비\n£job_technician£ [GetTechnicianPlural]" # 6126745105438139174
   mod_planet_technician_exotic_gases_produces_add: "$pop_group_unit$ £job_technician£ [GetTechnicianPlural]당 £exotic_gases£ $exotic_gases$" # 3682237528765783319
   mod_planet_technician_society_research_produces_add: "£job_technician£ [GetTechnicianPlural] $pop_group_unit$당 £society_research£ $society_research$" # 14761653952420248930

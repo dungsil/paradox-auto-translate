@@ -83,8 +83,8 @@
   giga_compendium_chk_tech_gateway_active_pass: "$giga_compendium_pass$$gateway_ruined$ 그리고 ['concept_giga_compendium_tech_gateway_activation']$giga_compendium_affix$" # 17288327480701157049
   giga_compendium_chk_tech_gateway_active_fail: "$giga_compendium_fail$$gateway_ruined$과 ['concept_giga_compendium_tech_gateway_activation']$giga_compendium_affix$" # 16133923529639702303
   giga_compendium_pre_tech_gateway_construction: "[from.giga_tech_gateway_construction]" # 5598867803242275336
-  giga_compendium_chk_tech_gateway_pass: "$giga_compendium_pass$관문 건설$giga_compendium_affix$" # 7814201556497793233
-  giga_compendium_chk_tech_gateway_fail: "$giga_compendium_fail$['컨셉_기가_총서_기술_게이트웨이_건설']$giga_compendium_affix$" # 10199474652882905208
+  giga_compendium_chk_tech_gateway_pass: "$giga_compendium_pass$['concept_giga_compendium_tech_gateway_construction']$giga_compendium_접두사$" # 7814201556497793233
+  giga_compendium_chk_tech_gateway_fail: "$giga_compendium_fail$['concept_giga_compendium_tech_gateway_construction']$giga_compendium_접두사$" # 10199474652882905208
   giga_compendium_hyper_relay_header: "§Y하이퍼 릴레이§!" # 15383371501519991377
   giga_compendium_hyper_relay_description: "$hyper_relay_DESC$" # 15694693944993110719
   giga_compendium_hyper_relay_prereqs: "\n$giga_compendium_pre_tech_hyper_relays$\n$giga_compendium_chk_dlc_overlord$" # 7126111928302183823
@@ -97,7 +97,7 @@
   giga_compendium_terraform_barren_description: "$terraform_barren_0_DESC$" # 12693648174014804011
   giga_compendium_terraform_barren_prereqs: "\n요구 조건:$NEW_LINE$$giga_compendium_pre_tech_terraform_barren$" # 7812027841919675662
   giga_compendium_pre_tech_terraform_barren: "[from.giga_tech_terraform_barren]" # 13490163049803593225
-  giga_compendium_chk_tech_terraform_barren_pass: "$giga_compendium_pass$기가 도감: 불모 행성 테라포밍 기술$giga_compendium_affix$" # 7059831235685602953
+  giga_compendium_chk_tech_terraform_barren_pass: "$giga_compendium_pass$['concept_giga_compendium_tech_terraform_barren']$giga_compendium_affix$" # 7059831235685602953
   giga_compendium_chk_tech_terraform_barren_fail: "$giga_compendium_fail$['concept_giga_compendium_tech_terraform_barren']$giga_compendium_affix$" # 11504405078951814084
   concept_giga_compendium_tech_terraform_barren: "$giga_tech_terraform_barren$" # 6800832077269871197
   concept_giga_compendium_tech_terraform_barren_desc: "필수 기술:\n-['technology:tech_climate_restoration']\n-['technology:tech_battleships']\n-['concept_giga_compendium_tech_macro_scale_weather_manipulation']\n§L$giga_tech_terraform_barren_desc$§!" # 3387568655434388114
@@ -106,7 +106,7 @@
   giga_compendium_terraform_toxic_prereqs: "\n요구 조건:$NEW_LINE$$giga_compendium_pre_tech_terraform_toxic$" # 3561052044371718936
   giga_compendium_pre_tech_terraform_toxic: "[from.giga_tech_terraform_toxic]" # 4252538556486278816
   giga_compendium_chk_tech_terraform_toxic_pass: "$giga_compendium_pass$['concept_giga_compendium_tech_terraform_toxic']$giga_compendium_affix$" # 2005188416264024821
-  giga_compendium_chk_tech_terraform_toxic_fail: "$giga_compendium_fail$기가 컴펜디엄 기술: 독성 행성 테라포밍$giga_compendium_affix$" # 4242026503375516965
+  giga_compendium_chk_tech_terraform_toxic_fail: "$giga_compendium_fail$['concept_giga_compendium_tech_terraform_toxic']$기가_연감_접두사$" # 4242026503375516965
   concept_giga_compendium_tech_terraform_toxic: "$giga_tech_terraform_toxic$" # 2860345915828299349
   concept_giga_compendium_tech_terraform_toxic_desc: "필요 기술: ['concept_giga_compendium_tech_terraform_barren']\n§L$giga_tech_terraform_toxic_desc$§!" # 6207038864266284786
   giga_compendium_terraform_molten_header: "§Y$name_terraform_molten$§!" # 94882956819933502
@@ -121,8 +121,8 @@
   giga_compendium_terraform_shattered_description: "$terraform_shattered_0_DESC$" # 10881085318407578406
   giga_compendium_terraform_shattered_prereqs: "\n요구 조건:$NEW_LINE$$giga_compendium_pre_tech_terraform_shattered$" # 10747222002755343404
   giga_compendium_pre_tech_terraform_shattered: "[from.giga_tech_terraform_shattered]" # 17213898703518495913
-  giga_compendium_chk_tech_terraform_shattered_pass: "$giga_compendium_pass$파괴된 행성 테라포밍$giga_compendium_affix$" # 3588286371628123313
-  giga_compendium_chk_tech_terraform_shattered_fail: "$giga_compendium_fail$['개념_기가_개요_기술_테라포밍_파괴된']$giga_compendium_affix$" # 7870355460176384663
+  giga_compendium_chk_tech_terraform_shattered_pass: "$giga_compendium_pass$['concept_giga_compendium_tech_terraform_shattered']$giga_compendium_affix$" # 3588286371628123313
+  giga_compendium_chk_tech_terraform_shattered_fail: "$giga_compendium_fail$['concept_giga_compendium_tech_terraform_shattered']$giga_compendium_affix$" # 7870355460176384663
   concept_giga_compendium_tech_terraform_shattered: "$giga_tech_terraform_shattered$" # 9582250006079366913
   concept_giga_compendium_tech_terraform_shattered_desc: "필수 기술: ['concept_giga_compendium_tech_terraform_molten']\n§L$giga_tech_terraform_shattered_desc$§!" # 1842021220655528811
   concept_giga_compendium_tech_macro_scale_weather_manipulation: "$giga_tech_macro_scale_weather_manipulation$" # 5831555041124451788
