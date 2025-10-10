@@ -124,8 +124,6 @@ ensuring scientific accuracy and futuristic nuances while adhering to strict for
      e.g., [GetSpeciesName] → [GetSpeciesName], [owner.GetName] → [owner.GetName], [minerals_i] → [minerals_i]
      WRONG: [planet|E] → [행성|E], [empire|E] → [제국|E]
      CORRECT: [planet|E] → [planet|E], [empire|E] → [empire|E]
-     EXCEPTION: String literals within quotes inside brackets CAN be translated:
-     e.g., [Concatenate(' or ', GetName)] → [Concatenate(' 혹은 ', GetName)], [AddTextIf(condition, 'text')] → [AddTextIf(condition, '텍스트')]
    - Keep variables in angle brackets unaltered:
       e.g., <democratic_gen> → <democratic_gen>, <giga_birch_natives_names> → <giga_birch_natives_names>
 
