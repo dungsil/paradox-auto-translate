@@ -89,9 +89,11 @@ export function validateTranslation(
   // 대괄호 내부의 게임 변수가 번역되었는지 검사 (|E 또는 함수 호출 패턴이 있는 경우만)
   // 공백, 점(namespace), 괄호 등을 포함할 수 있음
   // 예: [GetActivityType( 'activity_RICE_aachen_pilgrimage' ).GetName], [owner.GetName], [dynasty|E]
+  // 공백은 여러 개 있을 수 있으므로 normalize (연속 공백을 단일 공백으로)
+  const normalizeGameVar = (text: string) => text.replace(/\s+/g, ' ')
   const gameVariablePattern = /\[([^\]]*(?:\|[A-Z]|Get[A-Z]|[a-z_]+\.[A-Z]|[a-z_]+_i))[^\]]*\]/g
-  const sourceGameVariables = normalizedSource.match(gameVariablePattern) || []
-  const translationGameVariables = normalizedTranslation.match(gameVariablePattern) || []
+  const sourceGameVariables = (normalizedSource.match(gameVariablePattern) || []).map(normalizeGameVar)
+  const translationGameVariables = (normalizedTranslation.match(gameVariablePattern) || []).map(normalizeGameVar)
   
   // 원본에 게임 변수가 있는 경우에만 검증
   if (sourceGameVariables.length > 0) {
@@ -102,7 +104,7 @@ export function validateTranslation(
     
     // GetHerHis, GetHerHim, GetSheHe 함수는 한국어에서 성별 구분 없이 "그"로 통일하므로 누락 허용
     // namespace가 포함된 경우도 처리 (예: [character.GetHerHis], [monk.GetHerHim])
-    const genderFunctionPattern = /\[(?:[a-z_]+\.)?Get(?:Her(?:His|Him)|She|He|His|Him)\]/gi
+    const genderFunctionPattern = /\[(?:[a-z_]+\.)?Get(?:Her(?:His|Him)|SheHe|She|He|His|Him)(?:\|[A-Z])?\]/gi
     const filteredSourceVars = uniqueSourceVars.filter(v => !genderFunctionPattern.test(v))
     
     // 원본에 있는 변수가 번역에 없으면 오류 (단, 성별 함수는 제외)
