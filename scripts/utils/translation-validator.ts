@@ -57,7 +57,7 @@ export function validateTranslation(
       if (!normalizedTranslation.includes(stylePattern)) {
         // 스타일 키워드가 번역되었는지 확인 (한글이 포함되어 있는지)
         // 패턴: #<한글2글자이상><공백> (단일 조사는 제외, 실제 단어만 매칭)
-        // 예: #약하게 (잘못됨), 하지만 #를 같은 단일 조사는 허용
+        // 예: #약하게 (잘못됨 - 스타일 키워드가 번역된 경우. 번역 자체가 틀린 것이 아니라, 스타일 키워드는 영문으로 유지되어야 하므로 오류로 간주됨), 하지만 #를 같은 단일 조사는 허용
         const translatedStylePattern = /#[가-힣]{2,}\s/g
         if (translatedStylePattern.test(normalizedTranslation)) {
           return {
