@@ -1,6 +1,6 @@
-# CLAUDE.md
+# AGENTS.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to AI when working with code in this repository.
 
 ## Project Overview
 
@@ -115,28 +115,6 @@ scripts/
 ├── parser/           # File parsing (TOML, YAML)
 └── utils/            # AI, caching, logging utilities
 ```
-
-## Translation Context
-
-**Game-Specific Requirements**:
-- Preserve ALL CK3 variables and formatting exactly
-- Use formal Korean (존댓말) for official content
-- Maintain medieval context and terminology
-- Handle Korean romanization consistently
-
-**AI Context** (`scripts/utils/prompts.ts`):
-- Specialized prompts with CK3 medieval context
-- Examples of proper variable preservation
-- Guidelines for Korean localization standards
-
-**Validation Rules** (from issue #64):
-Items that should NOT be translated:
-1. **Technical identifiers**: snake_case patterns like `mod_icon_*`, `com_icon_*`
-2. **Game variables in brackets**: `[region|E]`, `[GetTitle]`, `[county|E]`, etc.
-3. **Special symbols**: Variables enclosed in `$...$`, `£...£`, `@...@`, `#...#`
-4. **Unwanted LLM phrases**: "네, 알겠습니다", "Yes, I understand", etc.
-
-The `retranslate` script uses these rules to detect and invalidate incorrectly translated items.
 
 ## Development Notes
 
