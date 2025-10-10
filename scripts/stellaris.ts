@@ -43,9 +43,13 @@ async function main () {
       log.success(`번역 완료! 스크립트를 종료합니다. (처리된 모드: ${mods})`)
     }
   } catch (error) {
-    log.error('번역 도중 오류가 발생하였습니다.', error)
-    process.exit(1)
+    throw new Error(`Stellaris 번역 처리 중 오류 발생: ${error instanceof Error ? error.message : String(error)}`, {
+      cause: error
+    })
   }
 }
 
-main()
+main().catch((error) => {
+  log.error('번역 도중 오류가 발생하였습니다.', error)
+  process.exit(1)
+})
