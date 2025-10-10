@@ -3,6 +3,7 @@ import { readdir } from 'node:fs/promises'
 import { join } from 'pathe'
 import { processModTranslations } from './factory/translate'
 import { invalidateDictionaryTranslations } from './utils/dictionary-invalidator'
+import { invalidateIncorrectTranslations } from './utils/retranslation-invalidator'
 import { log } from './utils/logger'
 
 async function main () {
@@ -11,6 +12,7 @@ async function main () {
     const mods = await readdir(ck3Dir)
     const onlyHash = process.argv?.[2] === 'onlyHash'
     const updateDict = process.argv?.[2] === 'updateDict'
+    const retranslate = process.argv?.[2] === 'retranslate'
 
     if (updateDict) {
       log.box(
@@ -24,6 +26,18 @@ async function main () {
       await invalidateDictionaryTranslations('ck3', ck3Dir)
       
       log.success(`단어사전 기반 번역 무효화 완료!`)
+    } else if (retranslate) {
+      log.box(
+        `
+        CK3 잘못 번역된 항목 재번역
+        - 대상 경로: ${ck3Dir}
+        - 대상 모드 (${mods.length}개): ${mods}
+        `,
+      )
+      
+      await invalidateIncorrectTranslations('ck3', ck3Dir)
+      
+      log.success(`잘못 번역된 항목 무효화 완료!`)
     } else {
       log.box(
         `
