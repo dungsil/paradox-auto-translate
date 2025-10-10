@@ -104,7 +104,7 @@ export function validateTranslation(
     
     // GetHerHis, GetHerHim, GetSheHe 함수는 한국어에서 성별 구분 없이 "그"로 통일하므로 누락 허용
     // namespace가 포함된 경우도 처리 (예: [character.GetHerHis], [monk.GetHerHim])
-    const genderFunctionPattern = /\[(?:[a-z_]+\.)?Get(?:Her(?:His|Him)|SheHe|She|He|His|Him)(?:\|[A-Z])?\]/gi
+    const genderFunctionPattern = /\[(?:[a-z_]+\.)?Get(?:HerHis|HerHim|SheHe|Her|She|He|His|Him)(?:\|[A-Z])?\]/gi
     const filteredSourceVars = uniqueSourceVars.filter(v => !genderFunctionPattern.test(v))
     
     // 원본에 있는 변수가 번역에 없으면 오류 (단, 성별 함수는 제외)
