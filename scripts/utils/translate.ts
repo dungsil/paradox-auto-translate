@@ -5,7 +5,20 @@ import { log } from './logger.js'
 import { type GameType } from './prompts'
 import { validateTranslation } from './translation-validator'
 
-// Regex patterns for detecting variable-only text (text that should not be translated)
+/**
+ * Regex patterns for detecting variable-only text that should be returned immediately without AI translation.
+ * 
+ * These patterns match game variables and formatting markers that must be preserved exactly as-is.
+ * When text matches any of these patterns, it's returned immediately without calling the AI API.
+ * 
+ * Supported patterns:
+ * - $variable$: Dollar-wrapped variables (e.g., $k_france$, $country_name$)
+ * - £variable£: Pound-wrapped variables for currency/resources (e.g., £gold£, £money£)
+ * - @variable@: At-wrapped variables for icons (e.g., @crown_icon@, @goods_icon@)
+ * - <variable>: Angle bracket variables for Stellaris (e.g., <democratic_gen>)
+ * - [function]: Square bracket functions/variables (e.g., [GetTitle], [culture|E], [owner.GetName])
+ * - #format#: Hash-wrapped formatting markers (e.g., #bold#, #italic#!)
+ */
 const DOLLAR_VARIABLE_REGEX = /^\$[a-zA-Z0-9_\-.]+\$$/           // $variable$
 const POUND_VARIABLE_REGEX = /^£[a-zA-Z0-9_\-.]+£$/              // £variable£ (currency/resources)
 const AT_VARIABLE_REGEX = /^@[a-zA-Z0-9_\-.]+@$/                 // @variable@ (icons)
