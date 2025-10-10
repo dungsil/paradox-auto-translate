@@ -47,6 +47,26 @@ export function validateTranslation(
     }
   }
 
+  // 텍스트 스타일 구문이 올바르게 보존되었는지 검사
+  // 유효한 형식: #weak ...#, #bold ...#, #italic ...# 등
+  // 스타일 키워드는 영문으로 유지되어야 함
+  const stylePatterns = normalizedSource.match(/#[a-z]+\s/gi) || []
+  if (stylePatterns.length > 0) {
+    for (const stylePattern of stylePatterns) {
+      // 번역에서 동일한 스타일 패턴이 있는지 확인
+      if (!normalizedTranslation.includes(stylePattern)) {
+        // 스타일 키워드가 번역되었는지 확인 (한글이 포함되어 있는지)
+        const translatedStylePattern = /#[가-힣]+\s/g
+        if (translatedStylePattern.test(normalizedTranslation)) {
+          return {
+            isValid: false,
+            reason: `텍스트 스타일 키워드가 번역됨 (예: #weak → #약하게)`
+          }
+        }
+      }
+    }
+  }
+
   // 기술 식별자(snake_case)가 번역되었는지 검사
   // 소문자로 시작하는 snake_case 식별자만 검사 (예: mod_icon_*, com_icon_*)
   // 대문자로 시작하는 이름 (예: A_Chi, A_Mo_Nuo_Ju)은 번역 가능한 문자열로 취급
