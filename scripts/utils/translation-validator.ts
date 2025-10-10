@@ -14,6 +14,15 @@ interface ValidationResult {
 }
 
 /**
+ * 게임 변수에서 문자열 리터럴을 제거하여 구조만 비교할 수 있도록 합니다.
+ * 예: [Concatenate(' or ', GetName)] -> [Concatenate('__STRING__', GetName)]
+ */
+function normalizeGameVariableStructure(variable: string): string {
+  // 작은따옴표 또는 큰따옴표로 감싸진 문자열 리터럴을 플레이스홀더로 치환
+  return variable.replace(/(['"])(?:(?!\1).)*?\1/g, "'__STRING__'")
+}
+
+/**
  * 번역이 유효한지 검증합니다.
  * issue #64에서 추가된 검증 로직을 기반으로 합니다.
  */
@@ -111,7 +120,14 @@ export function validateTranslation(
     const filteredSourceVars = uniqueSourceVars.filter(v => !genderFunctionPattern.test(v))
     
     // 원본에 있는 변수가 번역에 없으면 오류 (단, 성별 함수는 제외)
-    const missingVars = filteredSourceVars.filter(v => !uniqueTransVars.includes(v))
+    // 문자열 리터럴은 번역될 수 있으므로, 구조만 비교
+    const missingVars = filteredSourceVars.filter(sourceVar => {
+      const normalizedSourceVar = normalizeGameVariableStructure(sourceVar)
+      // 번역된 변수 중에서 구조가 동일한 것이 있는지 확인
+      return !uniqueTransVars.some(transVar => 
+        normalizeGameVariableStructure(transVar) === normalizedSourceVar
+      )
+    })
     if (missingVars.length > 0) {
       return {
         isValid: false,
