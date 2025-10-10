@@ -81,7 +81,7 @@ async function invalidateModLocalization(
     let invalidatedCount = 0
 
     for (const file of sourceFiles) {
-      if (typeof file === 'string' && file.endsWith(`_l_${sourceLanguage}.yml`)) {
+      if (file.endsWith(`_l_${sourceLanguage}.yml`)) {
         const sourceFilePath = join(sourceDir, file)
         const targetFileName = '___' + file.replace(`_l_${sourceLanguage}.yml`, '_l_korean.yml')
         const targetFilePath = join(targetDir, targetFileName)
