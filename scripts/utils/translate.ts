@@ -96,9 +96,12 @@ export async function translate (text: string, gameType: GameType = 'ck3', retry
     }
 
     // 게임 변수 내부에 한글이 있으면 잘못 번역된 것
-    const hasKoreanInGameVariables = translationGameVariables.some(variable => 
-      /[가-힣]/.test(variable)
-    )
+    // 단, 문자열 리터럴 내부('...' 또는 "...")의 한글은 허용
+    const hasKoreanInGameVariables = translationGameVariables.some(variable => {
+      // 문자열 리터럴을 제거한 후 한글 체크
+      const withoutStringLiterals = variable.replace(/(['"])(?:(?!\1).)*?\1/g, '')
+      return /[가-힣]/.test(withoutStringLiterals)
+    })
     
     if (hasKoreanInGameVariables) {
       log.warn('게임 변수 내 한글 감지 (잘못된 번역): "', normalizedText, '" -> "', translatedText, '"')
