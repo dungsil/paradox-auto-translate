@@ -23,7 +23,7 @@ const DOLLAR_VARIABLE_REGEX = /^\$[a-zA-Z0-9_\-.]+\$$/           // $variable$
 const POUND_VARIABLE_REGEX = /^£[a-zA-Z0-9_\-.]+£$/              // £variable£ (currency/resources)
 const AT_VARIABLE_REGEX = /^@[a-zA-Z0-9_\-.]+@$/                 // @variable@ (icons)
 const ANGLE_VARIABLE_REGEX = /^<[a-zA-Z0-9_\-.]+>$/              // <variable> (Stellaris)
-const SQUARE_BRACKET_REGEX = /^\[[^\]]+\]$/                      // [function] or [variable|E]
+const SQUARE_BRACKET_REGEX = /^\[(?:[a-zA-Z_][a-zA-Z0-9_]*(?:\.[a-zA-Z_][a-zA-Z0-9_]*)*|\w+\|\w+)\]$/ // [Function], [object.Method], [variable|E]
 const HASH_FORMAT_REGEX = /^#[a-zA-Z_]+#!?$/                     // #formatting# or #formatting#!
 
 export async function translate (text: string, gameType: GameType = 'ck3', retry: number = 0): Promise<string> {
