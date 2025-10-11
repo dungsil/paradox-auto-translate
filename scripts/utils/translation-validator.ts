@@ -27,6 +27,155 @@ function normalizeGameVariableStructure(variable: string): string {
 }
 
 /**
+ * 잘못된 형식의 변수 패턴을 감지합니다.
+ * AI가 서로 다른 변수 구문을 혼합하여 생성할 수 있는 치명적인 버그를 방지합니다.
+ * 
+ * 감지되는 잘못된 패턴:
+ * - $[culture|E] - Dollar sign과 square bracket 혼합
+ * - £[variable]£ - Pound sign과 square bracket 혼합
+ * - @<variable>@ - At sign과 angle bracket 혼합
+ * - [$variable$] - Square bracket 내부에 다른 변수 구문
+ * - 등등
+ * 
+ * @param text 검증할 텍스트
+ * @returns 잘못된 패턴 배열 (빈 배열이면 문제 없음)
+ */
+function detectMalformedVariables(text: string): string[] {
+  const malformedPatterns: string[] = []
+  
+  // 1. Dollar sign과 다른 구문 혼합 감지
+  // $[...], $<...>, $ ... $ (공백 포함)
+  const dollarMixedPatterns = [
+    /\$\[/g,  // $[
+    /\$</g,   // $<
+    /\$\s+\w+\s+\$/g,  // $ variable $ (공백 포함)
+  ]
+  
+  for (const pattern of dollarMixedPatterns) {
+    const matches = text.match(pattern)
+    if (matches) {
+      malformedPatterns.push(...matches)
+    }
+  }
+  
+  // 2. Pound sign과 다른 구문 혼합 감지
+  // £[...], £<...>
+  const poundMixedPatterns = [
+    /£\[/g,  // £[
+    /£</g,   // £<
+  ]
+  
+  for (const pattern of poundMixedPatterns) {
+    const matches = text.match(pattern)
+    if (matches) {
+      malformedPatterns.push(...matches)
+    }
+  }
+  
+  // 3. At sign과 다른 구문 혼합 감지
+  // @[...], @<...>
+  const atMixedPatterns = [
+    /@\[/g,  // @[
+    /@</g,   // @<
+  ]
+  
+  for (const pattern of atMixedPatterns) {
+    const matches = text.match(pattern)
+    if (matches) {
+      malformedPatterns.push(...matches)
+    }
+  }
+  
+  // 4. Square bracket 내부에 다른 변수 구문 감지
+  // [$...], [£...], [@...], [<...>]
+  const bracketWithInnerPatterns = [
+    /\[\$/g,  // [$
+    /\[£/g,   // [£
+    /\[@/g,   // [@
+    /\[</g,   // [< (단, 일반 부등호가 아닌 경우만)
+  ]
+  
+  for (const pattern of bracketWithInnerPatterns) {
+    const matches = text.match(pattern)
+    if (matches) {
+      malformedPatterns.push(...matches)
+    }
+  }
+  
+  // 5. Angle bracket 내부에 다른 변수 구문 감지
+  // <$...>, <[...], <£...>
+  const angleBracketWithInnerPatterns = [
+    /<\$/g,   // <$
+    /<\[/g,   // <[
+    /<£/g,    // <£
+  ]
+  
+  for (const pattern of angleBracketWithInnerPatterns) {
+    const matches = text.match(pattern)
+    if (matches) {
+      malformedPatterns.push(...matches)
+    }
+  }
+  
+  // 6. 닫히지 않은 변수 구문 감지
+  // 완전한 변수 패턴이 있는지 먼저 확인하고, 없으면 불완전한 패턴을 찾음
+  const completeVariables = {
+    dollar: text.match(/\$[a-zA-Z0-9_\-.]+\$/g) || [],
+    pound: text.match(/£[a-zA-Z0-9_\-.]+£/g) || [],
+    at: text.match(/@[a-zA-Z0-9_\-.]+@/g) || [],
+  }
+  
+  // 완전하지 않은 변수 시작/끝 찾기
+  // 단, 이미 완전한 변수의 일부가 아닌 경우만
+  const potentialUnbalanced = {
+    dollarStart: text.match(/\$[a-zA-Z0-9_\-.]+(?!\$)/g) || [],
+    dollarEnd: text.match(/(?<!\$)[a-zA-Z0-9_\-.]+\$/g) || [],
+    poundStart: text.match(/£[a-zA-Z0-9_\-.]+(?!£)/g) || [],
+    poundEnd: text.match(/(?<!£)[a-zA-Z0-9_\-.]+£/g) || [],
+    atStart: text.match(/@[a-zA-Z0-9_\-.]+(?!@)/g) || [],
+    atEnd: text.match(/(?<!@)[a-zA-Z0-9_\-.]+@/g) || [],
+  }
+  
+  // 각 불완전한 패턴이 완전한 변수의 일부인지 확인
+  for (const [type, patterns] of Object.entries(potentialUnbalanced)) {
+    for (const pattern of patterns) {
+      let isPartOfComplete = false
+      
+      // 해당 패턴이 완전한 변수에 포함되어 있는지 확인
+      if (type.startsWith('dollar')) {
+        isPartOfComplete = completeVariables.dollar.some(complete => complete.includes(pattern))
+      } else if (type.startsWith('pound')) {
+        isPartOfComplete = completeVariables.pound.some(complete => complete.includes(pattern))
+      } else if (type.startsWith('at')) {
+        isPartOfComplete = completeVariables.at.some(complete => complete.includes(pattern))
+      }
+      
+      // 완전한 변수의 일부가 아니면 malformed로 간주
+      if (!isPartOfComplete) {
+        malformedPatterns.push(pattern)
+      }
+    }
+  }
+  
+  // 7. 변수 구문이 혼합된 복잡한 패턴 감지
+  // 예: [$variable$], [£gold£], [@icon@]
+  const complexMixedPatterns = [
+    /\[\$[^\]]*\$\]/g,  // [$...$]
+    /\[£[^\]]*£\]/g,    // [£...£]
+    /\[@[^\]]*@\]/g,    // [@...@]
+  ]
+  
+  for (const pattern of complexMixedPatterns) {
+    const matches = text.match(pattern)
+    if (matches) {
+      malformedPatterns.push(...matches)
+    }
+  }
+  
+  return [...new Set(malformedPatterns)]  // 중복 제거
+}
+
+/**
  * 번역이 유효한지 검증합니다.
  * issue #64에서 추가된 검증 로직을 기반으로 합니다.
  */
@@ -37,6 +186,15 @@ export function validateTranslation(
 ): ValidationResult {
   const normalizedSource = sourceText.trim()
   const normalizedTranslation = translatedText.trim()
+
+  // 잘못된 형식의 변수 패턴 감지 (게임 크래시를 일으킬 수 있는 치명적 버그)
+  const malformedVariables = detectMalformedVariables(normalizedTranslation)
+  if (malformedVariables.length > 0) {
+    return {
+      isValid: false,
+      reason: `잘못된 형식의 변수 패턴 감지 (게임 크래시 위험): ${malformedVariables.join(', ')}`
+    }
+  }
 
   // LLM이 불필요한 응답을 포함했는지 검사
   const unwantedPhrases = [
