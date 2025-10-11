@@ -5,8 +5,26 @@ import { log } from './logger.js'
 import { type GameType } from './prompts'
 import { validateTranslation } from './translation-validator'
 
-const INNER_FUNCTION_REGEX = /^\[([\w.]+(?:\|[\w.]+)?|[\w.]+\.[\w.]+\(['\w.]+'\))]$/
-const VARIABLE_REGEX = /^\$[a-zA-Z0-9_\-.]+\$$/
+/**
+ * Regex patterns for detecting variable-only text that should be returned immediately without AI translation.
+ * 
+ * These patterns match game variables and formatting markers that must be preserved exactly as-is.
+ * When text matches any of these patterns, it's returned immediately without calling the AI API.
+ * 
+ * Supported patterns:
+ * - $variable$: Dollar-wrapped variables (e.g., $k_france$, $country_name$)
+ * - £variable£: Pound-wrapped variables for currency/resources (e.g., £gold£, £money£)
+ * - @variable@: At-wrapped variables for icons (e.g., @crown_icon@, @goods_icon@)
+ * - <variable>: Angle bracket variables for Stellaris (e.g., <democratic_gen>)
+ * - [function]: Square bracket functions/variables (e.g., [GetTitle], [culture|E], [owner.GetName])
+ * - #format#: Hash-wrapped formatting markers (e.g., #bold#, #italic#!)
+ */
+const DOLLAR_VARIABLE_REGEX = /^\$[a-zA-Z0-9_\-.]+\$$/           // $variable$
+const POUND_VARIABLE_REGEX = /^£[a-zA-Z0-9_\-.]+£$/              // £variable£ (currency/resources)
+const AT_VARIABLE_REGEX = /^@[a-zA-Z0-9_\-.]+@$/                 // @variable@ (icons)
+const ANGLE_VARIABLE_REGEX = /^<[a-zA-Z0-9_\-.]+>$/              // <variable> (Stellaris)
+const SQUARE_BRACKET_REGEX = /^\[(?:[a-zA-Z_][a-zA-Z0-9_]*(?:\.[a-zA-Z_][a-zA-Z0-9_]*)*|\w+\|\w+)\]$/ // [Function], [object.Method], [variable|E]
+const HASH_FORMAT_REGEX = /^#[a-zA-Z_]+#!?$/                     // #formatting# or #formatting#!
 
 export async function translate (text: string, gameType: GameType = 'ck3', retry: number = 0): Promise<string> {
 
@@ -26,8 +44,16 @@ export async function translate (text: string, gameType: GameType = 'ck3', retry
 
   const normalizedText = text.trim()
 
-  // 변수만 있는 경우 그대로 반환
-  if (INNER_FUNCTION_REGEX.test(normalizedText) || VARIABLE_REGEX.test(normalizedText)) {
+  // 변수만 있는 경우 그대로 반환 (AI 호출 없이 즉시 리턴)
+  // Supports: $var$, £var£, @var@, <var>, [function], #format#
+  if (
+    DOLLAR_VARIABLE_REGEX.test(normalizedText) ||
+    POUND_VARIABLE_REGEX.test(normalizedText) ||
+    AT_VARIABLE_REGEX.test(normalizedText) ||
+    ANGLE_VARIABLE_REGEX.test(normalizedText) ||
+    SQUARE_BRACKET_REGEX.test(normalizedText) ||
+    HASH_FORMAT_REGEX.test(normalizedText)
+  ) {
     return normalizedText
   }
 
